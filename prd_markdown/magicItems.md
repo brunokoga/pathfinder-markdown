@@ -8,82 +8,24 @@ If more than one spell is given as a prerequisite, use the highest-level spell. 
 
 | Item Nature | School |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Armor and protection items</td>
-<td>Abjuration</td>
-</tr>
-<tr class="even">
-<td>Weapons or offensive items</td>
-<td>Evocation</td>
-</tr>
-<tr class="odd">
-<td>Bonus to ability score, skill check, etc.</td>
-<td>Transmutation</td>
-</tr>
-</tbody>
+| Armor and protection items | Abjuration |
+| Weapons or offensive items | Evocation |
+| Bonus to ability score, skill check, etc. | Transmutation |
 
 # Using Items
 
 [Table: Random Magic Item Generation]
 | Minor | Medium | Major | Item |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–04</td>
-<td>01–10</td>
-<td>01–10</td>
-<td><a href="magicItems/armor.html#_armor">Armor and shields</a></td>
-</tr>
-<tr class="even">
-<td>05–09</td>
-<td>11–20</td>
-<td>11–20</td>
-<td><a href="magicItems/weapons.html#_weapons">Weapons</a></td>
-</tr>
-<tr class="odd">
-<td>10–44</td>
-<td>21–30</td>
-<td>21–25</td>
-<td><a href="magicItems/potions.html#_potions">Potions</a></td>
-</tr>
-<tr class="even">
-<td>45–46</td>
-<td>31–40</td>
-<td>26–35</td>
-<td><a href="magicItems/rings.html#_rings">Rings</a></td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>41–50</td>
-<td>36–45</td>
-<td><a href="magicItems/rods.html#_rods">Rods</a></td>
-</tr>
-<tr class="even">
-<td>47–81</td>
-<td>51–65</td>
-<td>46–55</td>
-<td><a href="magicItems/scrolls.html#_scrolls">Scrolls</a></td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>66–68</td>
-<td>56–75</td>
-<td><a href="magicItems/staves.html#_staves">Staves</a></td>
-</tr>
-<tr class="even">
-<td>82–91</td>
-<td>69–83</td>
-<td>76–80</td>
-<td><a href="magicItems/wands.html#_wands">Wands</a></td>
-</tr>
-<tr class="odd">
-<td>92–100</td>
-<td>84–100</td>
-<td>81–100</td>
-<td><a href="magicItems/wondrousItems.html#_wondrous-items">Wondrous items</a></td>
-</tr>
-</tbody>
+| 01–04 | 01–10 | 01–10 | [Armor and shields](magicItems/armor.html#_armor) |
+| 05–09 | 11–20 | 11–20 | [Weapons](magicItems/weapons.html#_weapons) |
+| 10–44 | 21–30 | 21–25 | [Potions](magicItems/potions.html#_potions) |
+| 45–46 | 31–40 | 26–35 | [Rings](magicItems/rings.html#_rings) |
+| — | 41–50 | 36–45 | [Rods](magicItems/rods.html#_rods) |
+| 47–81 | 51–65 | 46–55 | [Scrolls](magicItems/scrolls.html#_scrolls) |
+| — | 66–68 | 56–75 | [Staves](magicItems/staves.html#_staves) |
+| 82–91 | 69–83 | 76–80 | [Wands](magicItems/wands.html#_wands) |
+| 92–100 | 84–100 | 81–100 | [Wondrous items](magicItems/wondrousItems.html#_wondrous-items) |
 
 To use a magic item, it must be activated, although sometimes activation simply means putting a ring on your finger. Some items, once donned, function constantly. In most cases, though, using an item requires a standard action that does not provoke attacks of opportunity. By contrast, spell completion items are treated like spells in combat and do provoke attacks of opportunity.
 
@@ -186,64 +128,14 @@ Prices listed are always for fully charged items. (When an item is created, it i
 [Table: Available Magic Items]
 | Community Size | Base Value | Minor | Medium | Major |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Thorp</td>
-<td>50 gp</td>
-<td>1d4 items</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Hamlet</td>
-<td>200 gp</td>
-<td>1d6 items</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Village</td>
-<td>500 gp</td>
-<td>2d4 items</td>
-<td>1d4 items</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Small town</td>
-<td>1,000 gp</td>
-<td>3d4 items</td>
-<td>1d6 items</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Large town</td>
-<td>2,000 gp</td>
-<td>3d4 items</td>
-<td>2d4 items</td>
-<td>1d4 items</td>
-</tr>
-<tr class="even">
-<td>Small city</td>
-<td>4,000 gp</td>
-<td>4d4 items</td>
-<td>3d4 items</td>
-<td>1d6 items</td>
-</tr>
-<tr class="odd">
-<td>Large city</td>
-<td>8,000 gp</td>
-<td>4d4 items</td>
-<td>3d4 items</td>
-<td>2d4 items</td>
-</tr>
-<tr class="even">
-<td>Metropolis</td>
-<td>16,000 gp</td>
-<td>*</td>
-<td>4d4 items</td>
-<td>3d4 items</td>
-</tr>
-</tbody>
+| Thorp | 50 gp | 1d4 items | — | — |
+| Hamlet | 200 gp | 1d6 items | — | — |
+| Village | 500 gp | 2d4 items | 1d4 items | — |
+| Small town | 1,000 gp | 3d4 items | 1d6 items | — |
+| Large town | 2,000 gp | 3d4 items | 2d4 items | 1d4 items |
+| Small city | 4,000 gp | 4d4 items | 3d4 items | 1d6 items |
+| Large city | 8,000 gp | 4d4 items | 3d4 items | 2d4 items |
+| Metropolis | 16,000 gp | \* | 4d4 items | 3d4 items |
 
 Magic items are valuable, and most major cities have at least one or two purveyors of magic items, from a simple potion merchant to a weapon smith that specializes in magic swords. Of course, not every item in this book is available in every town.
 

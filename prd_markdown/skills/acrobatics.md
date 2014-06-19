@@ -8,71 +8,29 @@ You can keep your balance while traversing narrow or treacherous surfaces. You c
 
 | Surface Width | Base Acrobatics DC |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Greater than 3 feet wide</td>
-<td>0*</td>
-</tr>
-<tr class="even">
-<td>1–3 feet wide</td>
-<td>5*</td>
-</tr>
-<tr class="odd">
-<td>7–11 inches wide</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>2–6 inches wide</td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td>Less than 2 inches wide</td>
-<td>20</td>
-</tr>
-</tbody>
+| Greater than 3 feet wide | 0\* |
+| 1–3 feet wide | 5\* |
+| 7–11 inches wide | 10 |
+| 2–6 inches wide | 15 |
+| Less than 2 inches wide | 20 |
 
 In addition, you can move through a threatened square without provoking an attack of opportunity from an enemy by using Acrobatics. When moving in this way, you move at half speed. You can move at full speed by increasing the DC of the check by 10. You cannot use Acrobatics to move past foes if your speed is reduced due to carrying a medium or heavy load or wearing medium or heavy armor. If an ability allows you to move at full speed under such conditions, you can use Acrobatics to move past foes. You can use Acrobatics in this way while prone, but doing so requires a full-round action to move 5 feet, and the DC is increased by 5. If you attempt to move though an enemy's space and fail the check, you lose the move action and provoke an attack of opportunity.
 
 | Situation | Base Acrobatics DC\* |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Move through a threatened area</td>
-<td>Opponent's Combat Maneuver Defense</td>
-</tr>
-<tr class="even">
-<td>Move through an enemy's space</td>
-<td>5 + opponent's Combat Maneuver Defense</td>
-</tr>
-</tbody>
+| Move through a threatened area | Opponent's Combat Maneuver Defense |
+| Move through an enemy's space | 5 + opponent's Combat Maneuver Defense |
 
   
   
 
 | Long Jump | Acrobatics DC |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>5 feet</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>10 feet</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td>15 feet</td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td>20 feet</td>
-<td>20</td>
-</tr>
-<tr class="odd">
-<td>Greater than 20 feet</td>
-<td>+5 per 5 feet</td>
-</tr>
-</tbody>
+| 5 feet | 5 |
+| 10 feet | 10 |
+| 15 feet | 15 |
+| 20 feet | 20 |
+| Greater than 20 feet | +5 per 5 feet |
 
 | High Jump | Acrobatics DC |
 | --- | --- |
@@ -90,48 +48,16 @@ Many conditions can affect your chances of success with Acrobatics checks. The f
 
 | Acrobatics Modifiers | DC Modifier |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Slightly obstructed (gravel, sand)</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>Severely obstructed (cavern, rubble)</td>
-<td>+5</td>
-</tr>
-<tr class="odd">
-<td>Slightly slippery (wet)</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>Severely slippery (icy)</td>
-<td>+5</td>
-</tr>
-<tr class="odd">
-<td>Slightly sloped (&lt;45°)</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>Severely sloped (&gt;45°)</td>
-<td>+5</td>
-</tr>
-<tr class="odd">
-<td>Slightly unsteady (boat in rough water)</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>Moderately unsteady (boat in a storm)</td>
-<td>+5</td>
-</tr>
-<tr class="odd">
-<td>Severely unsteady (earthquake)</td>
-<td>+10</td>
-</tr>
-<tr class="even">
-<td>Move at full speed on narrow or uneven surfaces</td>
-<td>+5*</td>
-</tr>
-</tbody>
+| Slightly obstructed (gravel, sand) | +2 |
+| Severely obstructed (cavern, rubble) | +5 |
+| Slightly slippery (wet) | +2 |
+| Severely slippery (icy) | +5 |
+| Slightly sloped (<45°) | +2 |
+| Severely sloped (>45°) | +5 |
+| Slightly unsteady (boat in rough water) | +2 |
+| Moderately unsteady (boat in a storm) | +5 |
+| Severely unsteady (earthquake) | +10 |
+| Move at full speed on narrow or uneven surfaces | +5\* |
 
 **Action** : None. An Acrobatics check is made as part of another action or as a reaction to a situation.
 

@@ -58,32 +58,11 @@ The time needed for the rogue to alter her appearance in this manner is based on
 
 | Disguise | Time |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Minor details only</td>
-<td>1 full-round action</td>
-</tr>
-<tr class="even">
-<td>
-<a href="../../skills/disguise.html#_disguise">Disguise</a> as a different gender</td>
-<td>1 minute</td>
-</tr>
-<tr class="odd">
-<td>
-<a href="../../skills/disguise.html#_disguise">Disguise</a> as a different race</td>
-<td>1 minute</td>
-</tr>
-<tr class="even">
-<td>
-<a href="../../skills/disguise.html#_disguise">Disguise</a> as a different age category</td>
-<td>1 minute</td>
-</tr>
-<tr class="odd">
-<td>
-<a href="../../skills/disguise.html#_disguise">Disguise</a> as a different size category</td>
-<td>1 minute</td>
-</tr>
-</tbody>
+| Minor details only | 1 full-round action |
+| [Disguise](../../skills/disguise.html#_disguise) as a different gender | 1 minute |
+| [Disguise](../../skills/disguise.html#_disguise) as a different race | 1 minute |
+| [Disguise](../../skills/disguise.html#_disguise) as a different age category | 1 minute |
+| [Disguise](../../skills/disguise.html#_disguise) as a different size category | 1 minute |
 
 _Quick Trapsmith (Ex)_: As a full-round action, a rogue with this talent can set a simple trap with a CR no greater than 1/2 her rogue level. To do this, she must purchase the components, spend the required time constructing the trap in advance, and have its components at hand. The type of trap that can be constructed in this way is subject to GM discretion.
 

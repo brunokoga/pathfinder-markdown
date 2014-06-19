@@ -22,33 +22,11 @@ On the first round of the spell, the metal becomes warm and uncomfortable to tou
 
 | Round | Metal Temperature | Damage |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Warm</td>
-<td>None</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Hot</td>
-<td>1d4 points</td>
-</tr>
-<tr class="odd">
-<td>3–5</td>
-<td>Searing</td>
-<td>2d4 points</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Hot</td>
-<td>1d4 points</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Warm</td>
-<td>None</td>
-</tr>
-</tbody>
+| 1 | Warm | None |
+| 2 | Hot | 1d4 points |
+| 3–5 | Searing | 2d4 points |
+| 6 | Hot | 1d4 points |
+| 7 | Warm | None |
 
 Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, _heat metal _deals half damage and boils the surrounding water.
 

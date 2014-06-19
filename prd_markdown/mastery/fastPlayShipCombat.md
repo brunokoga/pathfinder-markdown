@@ -59,60 +59,9 @@ A vast variety of boats and ships exist in the real world, from small rafts and 
 [Table: Ship Statistics]
 | Ship Type | AC | hp | Base Save | Maximum Speed | Arms | Ram | Squares | Crew |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Keelboat</td>
-<td>8</td>
-<td>60</td>
-<td>+4</td>
-<td>30 feet*</td>
-<td>1</td>
-<td>2d6+6</td>
-<td>2</td>
-<td>4/15+100</td>
-</tr>
-<tr class="even">
-<td>Longship</td>
-<td>6</td>
-<td>75</td>
-<td>+5</td>
-<td>60 feet*</td>
-<td>1</td>
-<td>4d6+18</td>
-<td>3</td>
-<td>50/75+100</td>
-</tr>
-<tr class="odd">
-<td>Sailing ship</td>
-<td>6</td>
-<td>125</td>
-<td>+6</td>
-<td>60 feet* (sails only)</td>
-<td>2</td>
-<td>3d6+12</td>
-<td>3</td>
-<td>20/50+120</td>
-</tr>
-<tr class="even">
-<td>Warship</td>
-<td>2</td>
-<td>175</td>
-<td>+7</td>
-<td>60 feet*</td>
-<td>3</td>
-<td>3d6+12</td>
-<td>4</td>
-<td>60/80+160</td>
-</tr>
-<tr class="odd">
-<td>Galley</td>
-<td>2</td>
-<td>200</td>
-<td>+8</td>
-<td>90 feet*</td>
-<td>4</td>
-<td>6d6+24</td>
-<td>4</td>
-<td>200/250+200</td>
-</tr>
-</tbody>
+| Keelboat | 8 | 60 | +4 | 30 feet\* | 1 | 2d6+6 | 2 | 4/15+100 |
+| Longship | 6 | 75 | +5 | 60 feet\* | 1 | 4d6+18 | 3 | 50/75+100 |
+| Sailing ship | 6 | 125 | +6 | 60 feet\* (sails only) | 2 | 3d6+12 | 3 | 20/50+120 |
+| Warship | 2 | 175 | +7 | 60 feet\* | 3 | 3d6+12 | 4 | 60/80+160 |
+| Galley | 2 | 200 | +8 | 90 feet\* | 4 | 6d6+24 | 4 | 200/250+200 |
+

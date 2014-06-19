@@ -18,16 +18,8 @@ You can also use Sleight of Hand to entertain an audience as though you were usi
 
 | Sleight of Hand DC | Task |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>10</td>
-<td>Palm a coin-sized object, make a coin disappear</td>
-</tr>
-<tr class="even">
-<td>20</td>
-<td>Lift a small object from a person</td>
-</tr>
-</tbody>
+| 10 | Palm a coin-sized object, make a coin disappear |
+| 20 | Lift a small object from a person |
 
 **Action** : Any Sleight of Hand check is normally a standard action. However, you may perform a Sleight of Hand check as a move action by taking a –20 penalty on the check.
 

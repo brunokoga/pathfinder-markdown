@@ -106,80 +106,15 @@ Doors in dungeons are much more than mere entrances and exits. Often they can be
 | --- | --- | --- | --- | --- |
 | Stuck | Locked |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Simple wooden</td>
-<td>1 in.</td>
-<td>5</td>
-<td>10 hp</td>
-<td>13</td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td>Good wooden</td>
-<td>1-1/2 in.</td>
-<td>5</td>
-<td>15 hp</td>
-<td>16</td>
-<td>18</td>
-</tr>
-<tr class="odd">
-<td>Strong wooden</td>
-<td>2 in.</td>
-<td>5</td>
-<td>20 hp</td>
-<td>23</td>
-<td>25</td>
-</tr>
-<tr class="even">
-<td>Stone</td>
-<td>4 in.</td>
-<td>8</td>
-<td>60 hp</td>
-<td>28</td>
-<td>28</td>
-</tr>
-<tr class="odd">
-<td>Iron</td>
-<td>2 in.</td>
-<td>10</td>
-<td>60 hp</td>
-<td>28</td>
-<td>28</td>
-</tr>
-<tr class="even">
-<td>Portcullis, wooden</td>
-<td>3 in</td>
-<td>5</td>
-<td>30 hp</td>
-<td>25*</td>
-<td>25*</td>
-</tr>
-<tr class="odd">
-<td>Portcullis, iron</td>
-<td>2 in.</td>
-<td>10</td>
-<td>60 hp</td>
-<td>25*</td>
-<td>25*</td>
-</tr>
-<tr class="even">
-<td>Lock</td>
-<td>—</td>
-<td>15</td>
-<td>30 hp</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Hinge</td>
-<td>—</td>
-<td>10</td>
-<td>30 hp</td>
-<td>—</td>
-<td>—</td>
-</tr>
-</tbody>
+| Simple wooden | 1 in. | 5 | 10 hp | 13 | 15 |
+| Good wooden | 1-1/2 in. | 5 | 15 hp | 16 | 18 |
+| Strong wooden | 2 in. | 5 | 20 hp | 23 | 25 |
+| Stone | 4 in. | 8 | 60 hp | 28 | 28 |
+| Iron | 2 in. | 10 | 60 hp | 28 | 28 |
+| Portcullis, wooden | 3 in | 5 | 30 hp | 25\* | 25\* |
+| Portcullis, iron | 2 in. | 10 | 60 hp | 25\* | 25\* |
+| Lock | — | 15 | 30 hp | — | — |
+| Hinge | — | 10 | 30 hp | — | — |
 
 **Wooden Doors** : Constructed of thick planks nailed together, sometimes bound with iron for strength (and to reduce swelling from dungeon dampness), wooden doors are the most common type. Wooden doors come in varying strengths: simple, good, and strong. Simple doors (break DC 15) are not meant to keep out motivated attackers. Good doors (break DC 18), while sturdy and long-lasting, are still not meant to take much punishment. Strong doors (break DC 25) are bound in iron and are a sturdy barrier to those attempting to get past them. Iron hinges fasten the door to its frame, and typically a circular pull-ring in the center is there to help open it. Sometimes, instead of a pull-ring, a door has an iron pull-bar on one or both sides of the door to serve as a handle. In inhabited dungeons, these doors are usually well-maintained (not stuck) and unlocked, although important areas are locked up if possible.
 
@@ -321,23 +256,9 @@ Some magic device traps have special proximity triggers that activate only when 
 
 | Spell | Sight Range | Perception Bonus |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td><i>arcane eye</i></td>
-<td>Line of sight (unlimited range)</td>
-<td>+20</td>
-</tr>
-<tr class="even">
-<td><i>clairvoyance</i></td>
-<td>One preselected location</td>
-<td>+15</td>
-</tr>
-<tr class="odd">
-<td><i>true seeing</i></td>
-<td>Line of sight (up to 120 ft.)</td>
-<td>+30</td>
-</tr>
-</tbody>
+| _arcane eye_ | Line of sight (unlimited range) | +20 |
+| _clairvoyance_ | One preselected location | +15 |
+| _true seeing_ | Line of sight (up to 120 ft.) | +30 |
 
 If you want the trap to see in the dark, you must either choose the _true seeing _option or add _darkvision _to the trap as well. (_Darkvision _limits the trap's sight range in the dark to 60 feet.) If invisibility, disguises, or illusions can fool the spell being used, they can fool the visual trigger as well.
 
@@ -1461,66 +1382,15 @@ Whether in the form of a low-lying cloud or a mist rising from the ground, fog o
 The wind can create a stinging spray of sand or dust, fan a large fire, keel over a small boat, and blow gases or vapors away. If powerful enough, it can even knock characters down (see Table: Wind Effects), interfere with ranged attacks, or impose penalties on some skill checks.
 
 [Table: Wind Effects]
-| Wind Force | Wind Speed | Ranged Attacks Normal/Siege Weaponsⁱ | Checked Size⁲ | Blown Away Size<sup3></sup3> | Fly Penalty |
+| Wind Force | Wind Speed | Ranged Attacks Normal/Siege Weaponsⁱ | Checked Size⁲ | Blown Away Size | Fly Penalty |
 | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Light</td>
-<td>0–10 mph</td>
-<td>—/—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Moderate</td>
-<td>11–20 mph</td>
-<td>—/—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Strong</td>
-<td>21–30 mph</td>
-<td>–2/—</td>
-<td>Tiny</td>
-<td>—</td>
-<td>–2</td>
-</tr>
-<tr class="even">
-<td>Severe</td>
-<td>31–50 mph</td>
-<td>–4/—</td>
-<td>Small</td>
-<td>Tiny</td>
-<td>–4</td>
-</tr>
-<tr class="odd">
-<td>Windstorm</td>
-<td>51–74 mph</td>
-<td>Impossible/–4</td>
-<td>Medium</td>
-<td>Small</td>
-<td>–8</td>
-</tr>
-<tr class="even">
-<td>Hurricane</td>
-<td>75–174 mph</td>
-<td>Impossible/–8</td>
-<td>Large</td>
-<td>Medium</td>
-<td>–12</td>
-</tr>
-<tr class="odd">
-<td>Tornado</td>
-<td>175–300 mph</td>
-<td>Impossible/impossible</td>
-<td>Huge</td>
-<td>Large</td>
-<td>–16</td>
-</tr>
-</tbody>
+| Light | 0–10 mph | —/— | — | — | — |
+| Moderate | 11–20 mph | —/— | — | — | — |
+| Strong | 21–30 mph | –2/— | Tiny | — | –2 |
+| Severe | 31–50 mph | –4/— | Small | Tiny | –4 |
+| Windstorm | 51–74 mph | Impossible/–4 | Medium | Small | –8 |
+| Hurricane | 75–174 mph | Impossible/–8 | Large | Medium | –12 |
+| Tornado | 175–300 mph | Impossible/impossible | Huge | Large | –16 |
 
 _Light Wind_: A gentle breeze, having little or no game effect.
 
@@ -1649,32 +1519,12 @@ Characters who deliberately dive into water take no damage on a successful DC 15
 [Table: Damage from Falling Objects]
 | Object Size | Damage |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Small</td>
-<td>2d6</td>
-</tr>
-<tr class="even">
-<td>Medium</td>
-<td>3d6</td>
-</tr>
-<tr class="odd">
-<td>Large</td>
-<td>4d6</td>
-</tr>
-<tr class="even">
-<td>Huge</td>
-<td>6d6</td>
-</tr>
-<tr class="odd">
-<td>Gargantuan</td>
-<td>8d6</td>
-</tr>
-<tr class="even">
-<td>Colossal</td>
-<td>10d6</td>
-</tr>
-</tbody>
+| Small | 2d6 |
+| Medium | 3d6 |
+| Large | 4d6 |
+| Huge | 6d6 |
+| Gargantuan | 8d6 |
+| Colossal | 10d6 |
 
 Just as characters take damage when they fall more than 10 feet, so too do they take damage when they are hit by falling objects.
 

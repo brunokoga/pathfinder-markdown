@@ -7,32 +7,12 @@ Small familiars threaten the areas around them like Small creatures, and can be 
 
 | Familiar | Special Ability |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Flying squirrel</td>
-<td>Master gains a +3 bonus on <a href="/pathfinderRPG/prd/skills/fly.html#_fly">Fly</a> checks</td>
-</tr>
-<tr class="even">
-<td>Fox</td>
-<td>Master gains a +2 bonus on Reflex saves</td>
-</tr>
-<tr class="odd">
-<td>Goat</td>
-<td>Master gains a +3 bonus on <a href="/pathfinderRPG/prd/skills/survival.html#_survival">Survival</a> checks</td>
-</tr>
-<tr class="even">
-<td>Otter</td>
-<td>Master gains a +3 bonus on <a href="/pathfinderRPG/prd/skills/swim.html#_swim">Swim</a> checks</td>
-</tr>
-<tr class="odd">
-<td>Pig	Master</td>
-<td>gains a +3 bonus on <a href="/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy">Diplomacy</a> checks</td>
-</tr>
-<tr class="even">
-<td>Raccoon</td>
-<td>Master gains a +3 bonus on <a href="/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand">Sleight of Hand</a> checks</td>
-</tr>
-</tbody>
+| Flying squirrel | Master gains a +3 bonus on [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) checks |
+| Fox | Master gains a +2 bonus on Reflex saves |
+| Goat | Master gains a +3 bonus on [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) checks |
+| Otter | Master gains a +3 bonus on [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) checks |
+| PigMaster | gains a +3 bonus on [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) checks |
+| Raccoon | Master gains a +3 bonus on [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) checks |
 
 Flying Squirrel CR 1/3
 

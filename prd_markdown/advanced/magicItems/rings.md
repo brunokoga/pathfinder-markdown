@@ -3,134 +3,24 @@
 [Table: Rings]
 | Minor | Medium | Major | Ring | Market Price |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–10</td>
-<td>—</td>
-<td>—</td>
-<td><i><a href="#dungeon-ring">Dungeon</a> ring, prisoner's</i></td>
-<td>250 gp</td>
-</tr>
-<tr class="even">
-<td>11–40</td>
-<td>—</td>
-<td>—</td>
-<td><i><a href="#ring-of-arcane-signets-">Arcane signets</a></i></td>
-<td>1,000 gp</td>
-</tr>
-<tr class="odd">
-<td>41–80</td>
-<td>01–25</td>
-<td>—</td>
-<td><i>Maniacal Devices</i></td>
-<td>5,000 gp</td>
-</tr>
-<tr class="even">
-<td>81–95</td>
-<td>26–46</td>
-<td>—</td>
-<td><i><a href="#ring-of-delayed-doom">Delayed doom</a> (1 stone)</i></td>
-<td>5,000 gp</td>
-</tr>
-<tr class="odd">
-<td>96–100</td>
-<td>47–52</td>
-<td>—</td>
-<td><i><a href="#ring-of-forcefangs-">Forcefangs</a></i></td>
-<td>8,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>53–59</td>
-<td>—</td>
-<td><i><a href="#ring-of-revelation">Revelation</a>, lesser</i></td>
-<td>10,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>60–70</td>
-<td>01–02</td>
-<td><i><a href="#ring-of-delayed-doom">Delayed doom</a> (2 stones)</i></td>
-<td>10,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>71–80</td>
-<td>03–11</td>
-<td><i><a href="#ring-of-delayed-doom">Delayed doom</a> (3 stones)</i></td>
-<td>15,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>81–85</td>
-<td>12–29</td>
-<td><i><a href="#ring-of-retribution-">Retribution</a></i></td>
-<td>15,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>86–90</td>
-<td>30–35</td>
-<td><i><a href="#dungeon-ring">Dungeon</a> ring, jailer's</i></td>
-<td>16,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>91–96</td>
-<td>36–38</td>
-<td><i><a href="#ring-of-revelation">Revelation</a>, greater</i></td>
-<td>16,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>97–98</td>
-<td>39–68</td>
-<td><i><a href="#ring-of-delayed-doom">Delayed doom</a> (4 stones)</i></td>
-<td>20,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>99</td>
-<td>69</td>
-<td><i><a href="#ring-of-revelation">Revelation</a>, superior</i></td>
-<td>24,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>100</td>
-<td>70–85</td>
-<td><i><a href="#ring-of-delayed-doom">Delayed doom</a> (5 stones)</i></td>
-<td>25,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>—</td>
-<td>86–93</td>
-<td><i><a href="#ring-of-delayed-doom">Delayed doom</a> (6 stones)</i></td>
-<td>30,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>—</td>
-<td>94–97</td>
-<td><i><a href="#ring-of-delayed-doom">Delayed doom</a> (7 stones)</i></td>
-<td>35,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>—</td>
-<td>98–99</td>
-<td><i><a href="#ring-of-delayed-doom">Delayed doom</a> (8 stones)</i></td>
-<td>40,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>—</td>
-<td>100</td>
-<td><i><a href="#ring-of-delayed-doom">Delayed doom</a> (9 stones)</i></td>
-<td>45,000 gp</td>
-</tr>
-</tbody>
+| 01–10 | — | — | _Dungeon ring, prisoner's_ | 250 gp |
+| 11–40 | — | — | _Arcane signets_ | 1,000 gp |
+| 41–80 | 01–25 | — | _Maniacal Devices_ | 5,000 gp |
+| 81–95 | 26–46 | — | _Delayed doom (1 stone)_ | 5,000 gp |
+| 96–100 | 47–52 | — | _Forcefangs_ | 8,000 gp |
+| — | 53–59 | — | _Revelation, lesser_ | 10,000 gp |
+| — | 60–70 | 01–02 | _Delayed doom (2 stones)_ | 10,000 gp |
+| — | 71–80 | 03–11 | _Delayed doom (3 stones)_ | 15,000 gp |
+| — | 81–85 | 12–29 | _Retribution_ | 15,000 gp |
+| — | 86–90 | 30–35 | _Dungeon ring, jailer's_ | 16,000 gp |
+| — | 91–96 | 36–38 | _Revelation, greater_ | 16,000 gp |
+| — | 97–98 | 39–68 | _Delayed doom (4 stones)_ | 20,000 gp |
+| — | 99 | 69 | _Revelation, superior_ | 24,000 gp |
+| — | 100 | 70–85 | _Delayed doom (5 stones)_ | 25,000 gp |
+| — | — | 86–93 | _Delayed doom (6 stones)_ | 30,000 gp |
+| — | — | 94–97 | _Delayed doom (7 stones)_ | 35,000 gp |
+| — | — | 98–99 | _Delayed doom (8 stones)_ | 40,000 gp |
+| — | — | 100 | _Delayed doom (9 stones)_ | 45,000 gp |
 
 These rings follow the normal rules for magic rings as described in the _Pathfinder RPG Core Rulebook_.
 

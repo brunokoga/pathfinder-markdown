@@ -3,36 +3,13 @@
 [Table: Common Item Curses]
 | d% | Curse |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–15</td>
-<td>Delusion</td>
-</tr>
-<tr class="even">
-<td>16–35</td>
-<td>Opposite effect or target</td>
-</tr>
-<tr class="odd">
-<td>36–45</td>
-<td>Intermittent functioning</td>
-</tr>
-<tr class="even">
-<td>46–60</td>
-<td>Requirement</td>
-</tr>
-<tr class="odd">
-<td>61–75</td>
-<td>Drawback</td>
-</tr>
-<tr class="even">
-<td>76–90</td>
-<td>Completely different effect</td>
-</tr>
-<tr class="odd">
-<td>91–100</td>
-<td>Substitute specific cursed item on Table: Specific Cursed Items</td>
-</tr>
-</tbody>
+| 01–15 | Delusion |
+| 16–35 | Opposite effect or target |
+| 36–45 | Intermittent functioning |
+| 46–60 | Requirement |
+| 61–75 | Drawback |
+| 76–90 | Completely different effect |
+| 91–100 | Substitute specific cursed item on Table: Specific Cursed Items |
 
 Cursed items are magic items with some sort of potentially negative impact. Occasionally they mix bad with good, forcing characters to make difficult choices. Cursed items are almost never made intentionally. Instead they are the result of rushed work, inexperienced crafters, or a lack of proper components. While many of these items still have functions, they either do not work as intended or come with serious drawbacks. When a magic item creation skill check fails by 5 or more, roll on Table: Common Item Curses to determine the type of curse possessed by the item.
 
@@ -56,88 +33,26 @@ _Dependent_: The item only functions in certain situations. To determine the sit
 
 | d% | Situation |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–03</td>
-<td>Temperature below freezing</td>
-</tr>
-<tr class="even">
-<td>04–05</td>
-<td>Temperature above freezing</td>
-</tr>
-<tr class="odd">
-<td>06–10</td>
-<td>During the day</td>
-</tr>
-<tr class="even">
-<td>11–15</td>
-<td>During the night</td>
-</tr>
-<tr class="odd">
-<td>16–20</td>
-<td>In direct sunlight</td>
-</tr>
-<tr class="even">
-<td>21–25</td>
-<td>Out of direct sunlight</td>
-</tr>
-<tr class="odd">
-<td>26–34</td>
-<td>Underwater</td>
-</tr>
-<tr class="even">
-<td>35–37</td>
-<td>Out of water</td>
-</tr>
-<tr class="odd">
-<td>38–45</td>
-<td>Underground</td>
-</tr>
-<tr class="even">
-<td>46–55</td>
-<td>Aboveground</td>
-</tr>
-<tr class="odd">
-<td>56–60</td>
-<td>Within 10 feet of a random creature type</td>
-</tr>
-<tr class="even">
-<td>61–64</td>
-<td>Within 10 feet of a random race or kind of creature</td>
-</tr>
-<tr class="odd">
-<td>65–72</td>
-<td>Within 10 feet of an arcane spellcaster</td>
-</tr>
-<tr class="even">
-<td>73–80</td>
-<td>Within 10 feet of a divine spellcaster</td>
-</tr>
-<tr class="odd">
-<td>81–85</td>
-<td>In the hands of a nonspellcaster</td>
-</tr>
-<tr class="even">
-<td>86–90</td>
-<td>In the hands of a spellcaster</td>
-</tr>
-<tr class="odd">
-<td>91–95</td>
-<td>In the hands of a creature of a particular alignment</td>
-</tr>
-<tr class="even">
-<td>96</td>
-<td>In the hands of a creature of a particular gender</td>
-</tr>
-<tr class="odd">
-<td>97–99</td>
-<td>On holy days or during particular astrological events</td>
-</tr>
-<tr class="even">
-<td>100</td>
-<td>More than 100 miles from a particular site</td>
-</tr>
-</tbody>
+| 01–03 | Temperature below freezing |
+| 04–05 | Temperature above freezing |
+| 06–10 | During the day |
+| 11–15 | During the night |
+| 16–20 | In direct sunlight |
+| 21–25 | Out of direct sunlight |
+| 26–34 | Underwater |
+| 35–37 | Out of water |
+| 38–45 | Underground |
+| 46–55 | Aboveground |
+| 56–60 | Within 10 feet of a random creature type |
+| 61–64 | Within 10 feet of a random race or kind of creature |
+| 65–72 | Within 10 feet of an arcane spellcaster |
+| 73–80 | Within 10 feet of a divine spellcaster |
+| 81–85 | In the hands of a nonspellcaster |
+| 86–90 | In the hands of a spellcaster |
+| 91–95 | In the hands of a creature of a particular alignment |
+| 96 | In the hands of a creature of a particular gender |
+| 97–99 | On holy days or during particular astrological events |
+| 100 | More than 100 miles from a particular site |
 
 _Uncontrolled_: An uncontrolled item occasionally activates at random times. Roll d% every day. On a result of 01–05 the item activates at some random point during that day.
 

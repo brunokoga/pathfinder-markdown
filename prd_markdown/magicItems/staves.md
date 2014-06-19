@@ -3,134 +3,27 @@
 [Table: Staves]
 | Medium | Major | Staff | Market Price |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–15</td>
-<td>01–03</td>
-<td><i><a href="#staff-of-charming">Charming</a></i></td>
-<td>17,600 gp</td>
-</tr>
-<tr class="even">
-<td>16–30</td>
-<td>04–09</td>
-<td><i><a href="#staff-of-fire">Fire</a></i></td>
-<td>18,950 gp</td>
-</tr>
-<tr class="odd">
-<td>31–40</td>
-<td>10–11</td>
-<td><i><a href="#staff-of-swarming-insects">Swarming insects</a></i></td>
-<td>22,800 gp</td>
-</tr>
-<tr class="even">
-<td>41–55</td>
-<td>12–13</td>
-<td><i><a href="#staff-of-size-alteration">Size alteration</a></i></td>
-<td>26,150 gp</td>
-</tr>
-<tr class="odd">
-<td>56–75</td>
-<td>14–19</td>
-<td><i><a href="#staff-of-healing">Healing</a></i></td>
-<td>29,600 gp</td>
-</tr>
-<tr class="even">
-<td>76–90</td>
-<td>20–24</td>
-<td><i><a href="#staff-of-frost">Frost</a></i></td>
-<td>41,400 gp</td>
-</tr>
-<tr class="odd">
-<td>91–95</td>
-<td>25–31</td>
-<td><i><a href="#staff-of-illumination">Illumination</a></i></td>
-<td>51,500 gp</td>
-</tr>
-<tr class="even">
-<td>96–100</td>
-<td>32–38</td>
-<td><i><a href="#staff-of-defense">Defense</a></i></td>
-<td>62,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>39–45</td>
-<td><i><a href="#staff-of-abjuration">Abjuration</a></i></td>
-<td>82,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>46–50</td>
-<td><i><a href="#staff-of-conjuration">Conjuration</a></i></td>
-<td>82,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>51–55</td>
-<td><i><a href="#staff-of-divination">Divination</a></i></td>
-<td>82,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>56–60</td>
-<td><i><a href="#staff-of-enchantment">Enchantment</a></i></td>
-<td>82,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>61–65</td>
-<td><i><a href="#staff-of-evocation">Evocation</a></i></td>
-<td>82,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>66–70</td>
-<td><i><a href="#staff-of-illusion">Illusion</a></i></td>
-<td>82,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>71–75</td>
-<td><i><a href="#staff-of-necromancy">Necromancy</a></i></td>
-<td>82,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>76–80</td>
-<td><i><a href="#staff-of-transmutation">Transmutation</a></i></td>
-<td>82,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>81–85</td>
-<td><i><a href="#staff-of-earth-and-stone">Earth and stone</a></i></td>
-<td>85,800 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>86–90</td>
-<td><i><a href="#staff-of-the-woodlands">Woodlands</a></i></td>
-<td>100,400 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>91–95</td>
-<td><i><a href="#staff-of-life">Life</a></i></td>
-<td>109,400 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>96–98</td>
-<td><i><a href="#staff-of-passage">Passage</a></i></td>
-<td>206,900 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>99–100</td>
-<td><i><a href="#staff-of-power">Power</a></i></td>
-<td>235,000 gp</td>
-</tr>
-</tbody>
+| 01–15 | 01–03 | _Charming_ | 17,600 gp |
+| 16–30 | 04–09 | _Fire_ | 18,950 gp |
+| 31–40 | 10–11 | _Swarming insects_ | 22,800 gp |
+| 41–55 | 12–13 | _Size alteration_ | 26,150 gp |
+| 56–75 | 14–19 | _Healing_ | 29,600 gp |
+| 76–90 | 20–24 | _Frost_ | 41,400 gp |
+| 91–95 | 25–31 | _Illumination_ | 51,500 gp |
+| 96–100 | 32–38 | _Defense_ | 62,000 gp |
+| — | 39–45 | _Abjuration_ | 82,000 gp |
+| — | 46–50 | _Conjuration_ | 82,000 gp |
+| — | 51–55 | _Divination_ | 82,000 gp |
+| — | 56–60 | _Enchantment_ | 82,000 gp |
+| — | 61–65 | _Evocation_ | 82,000 gp |
+| — | 66–70 | _Illusion_ | 82,000 gp |
+| — | 71–75 | _Necromancy_ | 82,000 gp |
+| — | 76–80 | _Transmutation_ | 82,000 gp |
+| — | 81–85 | _Earth and stone_ | 85,800 gp |
+| — | 86–90 | _Woodlands_ | 100,400 gp |
+| — | 91–95 | _Life_ | 109,400 gp |
+| — | 96–98 | _Passage_ | 206,900 gp |
+| — | 99–100 | _Power_ | 235,000 gp |
 
 A staff is a long shaft that stores several spells. Unlike wands, which can contain a wide variety of spells, each staff is of a certain kind and holds specific spells. A staff has 10 charges when created.
 

@@ -394,48 +394,16 @@ At first glance, an inactive _apparatus of the crab_ appears to be a large, seal
 
 | Lever (1d10) | Lever Function |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Extend/retract legs and tail</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Uncover/cover forward porthole</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Uncover/cover side portholes</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Extend/retract pincers and feelers</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Snap pincers</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Move forward/backward</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Turn left/right</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Open/close âeyesâ with <i><a href="../spells/continualFlame.html#_continual-flame">continual flame</a> </i>inside</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Rise/sink in water</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>Open/close hatch</td>
-</tr>
-</tbody>
+| 1 | Extend/retract legs and tail |
+| 2 | Uncover/cover forward porthole |
+| 3 | Uncover/cover side portholes |
+| 4 | Extend/retract pincers and feelers |
+| 5 | Snap pincers |
+| 6 | Move forward/backward |
+| 7 | Turn left/right |
+| 8 | Open/close âeyesâ with _ [continual flame](../spells/continualFlame.html#_continual-flame) _inside |
+| 9 | Rise/sink in water |
+| 10 | Open/close hatch |
 
 Operating a lever is a full-round action, and no lever may be operated more than once per round. However, since two characters can fit inside, the apparatus can move and attack in the same round. The device can function in water up to 900 feet deep. It holds enough air for a crew of two to survive 1d4+1 hours (twice as long for a single occupant). When activated, the apparatus looks something like a giant lobster.
 
@@ -457,36 +425,10 @@ This appears to be a common cloth sack about 2 feet by 4 feet in size. The _bag 
 
 | Bag | Bag Weight | Contents Limit | Contents Volume Limit | Market Price |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Type I</td>
-<td>15 lbs.</td>
-<td>250 lbs.</td>
-<td>30 cubic ft.</td>
-<td>2,500 gp</td>
-</tr>
-<tr class="even">
-<td>Type II</td>
-<td>25 lbs.</td>
-<td>500 lbs.</td>
-<td>70 cubic ft.</td>
-<td>5,000 gp</td>
-</tr>
-<tr class="odd">
-<td>Type III</td>
-<td>35 lbs.</td>
-<td>1,000 lbs.</td>
-<td>150 cubic ft.</td>
-<td>7,400 gp</td>
-</tr>
-<tr class="even">
-<td>Type IV</td>
-<td>60 lbs.</td>
-<td>1,500 lbs.</td>
-<td>250 cubic ft.</td>
-<td>10,000 gp</td>
-</tr>
-</tbody>
+| Type I | 15 lbs. | 250 lbs. | 30 cubic ft. | 2,500 gp |
+| Type II | 25 lbs. | 500 lbs. | 70 cubic ft. | 5,000 gp |
+| Type III | 35 lbs. | 1,000 lbs. | 150 cubic ft. | 7,400 gp |
+| Type IV | 60 lbs. | 1,500 lbs. | 250 cubic ft. | 10,000 gp |
 
 If a _bag of holding_ is overloaded, or if sharp objects pierce it (from inside or outside), the bag immediately ruptures and is ruined, and all contents are lost forever. If a _bag of holding _is turned inside out, all of its contents spill out, unharmed, but the bag must be put right before it can be used again. If living creatures are placed within the bag, they can survive for up to 10 minutes, after which time they suffocate. Retrieving a specific item from a _bag of holding _is a move action, unless the bag contains more than an ordinary backpack would hold, in which case retrieving a specific item is a full-round action. Magic items placed inside the bag do not offer any benefit to the character carrying the bag.
 
@@ -914,29 +856,9 @@ This rug is able to fly through the air as if affected by an _ [overland flight]
 
 | Size | Capacity | Speed | Weight | Market Price |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>5 ft. by 5 ft.</td>
-<td>200 lbs.</td>
-<td>40 ft.</td>
-<td>8 lbs.</td>
-<td>20,000 gp</td>
-</tr>
-<tr class="even">
-<td>5 ft. by 10 ft.</td>
-<td>400 lbs.</td>
-<td>40 ft.</td>
-<td>10 lbs.</td>
-<td>35,000 gp</td>
-</tr>
-<tr class="odd">
-<td>10 ft. by 10 ft.</td>
-<td>800 lbs.</td>
-<td>40 ft.</td>
-<td>15 lbs.</td>
-<td>60,000 gp</td>
-</tr>
-</tbody>
+| 5 ft. by 5 ft. | 200 lbs. | 40 ft. | 8 lbs. | 20,000 gp |
+| 5 ft. by 10 ft. | 400 lbs. | 40 ft. | 10 lbs. | 35,000 gp |
+| 10 ft. by 10 ft. | 800 lbs. | 40 ft. | 15 lbs. | 60,000 gp |
 
 A _carpet of flying _can carry up to double its capacity, but doing so reduces its speed to 30 feet. A _carpet of flying _can hover without making a [Fly](../skills/fly.html#_fly) skill check and gives a +5 bonus to other [Fly](../skills/fly.html#_fly) checks.
 
@@ -1148,29 +1070,11 @@ Certain _crystal balls _have additional powers that can be used through the _cry
 
 | Crystal Ball Type | Market Price |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td><i>Crystal ball</i></td>
-<td>42,000 gp</td>
-</tr>
-<tr class="even">
-<td>
-<i>Crystal ball </i>with <i><a href="../spells/seeInvisibility.html#_see-invisibility">see invisibility</a></i>
-</td>
-<td>50,000 gp</td>
-</tr>
-<tr class="odd">
-<td>
-<i>Crystal ball </i>with <i>telepathy</i>*</td>
-<td>70,000 gp</td>
-</tr>
-<tr class="even">
-<td>
-<i>Crystal ball </i>with <i><a href="../spells/trueSeeing.html#_true-seeing">true seeing</a></i>
-</td>
-<td>80,000 gp</td>
-</tr>
-</tbody>| _Crystal ball _with _ [detect thoughts (](../spells/detectThoughts.html#_detect-thoughts) [Will](../combat.html#_will) DC 13 negates) _ | 51,000 gp |
+| _Crystal ball_ | 42,000 gp |
+| _Crystal ball _with _ [see invisibility](../spells/seeInvisibility.html#_see-invisibility)_ | 50,000 gp |
+| _Crystal ball _with _telepathy_\* | 70,000 gp |
+| _Crystal ball _with _ [true seeing](../spells/trueSeeing.html#_true-seeing)_ | 80,000 gp |
+| _Crystal ball _with _ [detect thoughts (](../spells/detectThoughts.html#_detect-thoughts) [Will](../combat.html#_will) DC 13 negates) _ | 51,000 gp |
 
 **Construction**
 
@@ -1190,44 +1094,12 @@ When the _cube of force _is active, attacks dealing more than 30 points of damag
 
 | Cube Face | Charge Cost per Minute | Max. Speed | Effect |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>1</td>
-<td>30 ft.</td>
-<td>Keeps out gases, wind, etc.</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>2</td>
-<td>20 ft.</td>
-<td>Keeps out nonliving matter</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>3</td>
-<td>15 ft.</td>
-<td>Keeps out living matter</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>4</td>
-<td>10 ft.</td>
-<td>Keeps out magic</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>6</td>
-<td>10 ft.</td>
-<td>Keeps out all things</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>0</td>
-<td>As normal</td>
-<td>Deactivates</td>
-</tr>
-</tbody>
+| 1 | 1 | 30 ft. | Keeps out gases, wind, etc. |
+| 2 | 2 | 20 ft. | Keeps out nonliving matter |
+| 3 | 3 | 15 ft. | Keeps out living matter |
+| 4 | 4 | 10 ft. | Keeps out magic |
+| 5 | 6 | 10 ft. | Keeps out all things |
+| 6 | 0 | As normal | Deactivates |
 
 Spells that affect the integrity of the screen also drain extra charges. These spells cannot be cast into or out of the cube.
 

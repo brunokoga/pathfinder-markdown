@@ -186,54 +186,17 @@ If a familiar is dismissed, lost or dies, it can be replaced 1 week later throug
 
 | Familiar | Special Ability |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Bat</td>
-<td>Master gains a +3 bonus on <a href="../skills/fly.html#_fly">Fly</a> checks</td>
-</tr>
-<tr class="even">
-<td>Cat</td>
-<td>Master gains a +3 bonus on <a href="../skills/stealth.html#_stealth">Stealth</a> checks</td>
-</tr>
-<tr class="odd">
-<td>Hawk</td>
-<td>Master gains a +3 bonus on sight-based and opposed <a href="../skills/perception.html#_perception">Perception</a> checks in bright light</td>
-</tr>
-<tr class="even">
-<td>Lizard</td>
-<td>Master gains a +3 bonus on <a href="../skills/climb.html#_climb">Climb</a> checks</td>
-</tr>
-<tr class="odd">
-<td>Monkey</td>
-<td>Master gains a +3 bonus on <a href="../skills/acrobatics.html#_acrobatics">Acrobatics</a> checks</td>
-</tr>
-<tr class="even">
-<td>Owl</td>
-<td>Master gains a +3 bonus on sight-based and opposed <a href="../skills/perception.html#_perception">Perception</a> checks in shadows or darkness</td>
-</tr>
-<tr class="odd">
-<td>Rat</td>
-<td>Master gains a +2 bonus on <a href="../combat.html#_fortitude">Fortitude saves</a>
-</td>
-</tr>
-<tr class="even">
-<td>Raven*</td>
-<td>Master gains a +3 bonus on <a href="../skills/appraise.html#_appraise">Appraise</a> checks</td>
-</tr>
-<tr class="odd">
-<td>Viper</td>
-<td>Master gains a +3 bonus on <a href="../skills/bluff.html#_bluff">Bluff</a> checks</td>
-</tr>
-<tr class="even">
-<td>Toad</td>
-<td>Master gains +3 hit points</td>
-</tr>
-<tr class="odd">
-<td>Weasel</td>
-<td>Master gains a +2 bonus on <a href="../combat.html#_reflex">Reflex saves</a>
-</td>
-</tr>
-</tbody>
+| Bat | Master gains a +3 bonus on [Fly](../skills/fly.html#_fly) checks |
+| Cat | Master gains a +3 bonus on [Stealth](../skills/stealth.html#_stealth) checks |
+| Hawk | Master gains a +3 bonus on sight-based and opposed [Perception](../skills/perception.html#_perception) checks in bright light |
+| Lizard | Master gains a +3 bonus on [Climb](../skills/climb.html#_climb) checks |
+| Monkey | Master gains a +3 bonus on [Acrobatics](../skills/acrobatics.html#_acrobatics) checks |
+| Owl | Master gains a +3 bonus on sight-based and opposed [Perception](../skills/perception.html#_perception) checks in shadows or darkness |
+| Rat | Master gains a +2 bonus on [Fortitude saves](../combat.html#_fortitude) |
+| Raven\* | Master gains a +3 bonus on [Appraise](../skills/appraise.html#_appraise) checks |
+| Viper | Master gains a +3 bonus on [Bluff](../skills/bluff.html#_bluff) checks |
+| Toad | Master gains +3 hit points |
+| Weasel | Master gains a +2 bonus on [Reflex saves](../combat.html#_reflex) |
 
 **Familiar Basics** : Use the basic statistics for a creature of the familiar's kind, but with the following changes.
 

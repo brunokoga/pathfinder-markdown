@@ -90,56 +90,16 @@ _Spell-Like Abilities_: A half-celestial with an Int or Wis score of 8 or higher
 
 | HD | Abilities |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–2</td>
-<td>
-<i><a href="../spells/protectionFromEvil.html#_protection-from-evil">Protection from evil</a></i> 3/day, <i><a href="../spells/bless.html#_bless">bless</a></i>
-</td>
-</tr>
-<tr class="even">
-<td>3–4</td>
-<td> <i><a href="../spells/aid.html#_aid">Aid</a>, <a href="../spells/detectEvil.html#_detect-evil">Detect evil</a> </i>
-</td>
-</tr>
-<tr class="odd">
-<td>5–6 </td>
-<td><i><a href="../spells/cureSeriousWounds.html#_cure-serious-wounds">Cure serious wounds</a>, <a href="../spells/neutralizePoison.html#_neutralize-poison">Neutralize poison</a> </i></td>
-</tr>
-<tr class="even">
-<td>7–8</td>
-<td><i><a href="../spells/holySmite.html#_holy-smite">Holy smite</a>, <a href="../spells/removeDisease.html#_remove-disease">Remove disease</a></i></td>
-</tr>
-<tr class="odd">
-<td>9–10 </td>
-<td><i><a href="../spells/dispelEvil.html#_dispel-evil">Dispel evil</a></i></td>
-</tr>
-<tr class="even">
-<td>11–12</td>
-<td><i><a href="../spells/holyWord.html#_holy-word">Holy word</a></i></td>
-</tr>
-<tr class="odd">
-<td>13–14 </td>
-<td>
-<i><a href="../spells/holyAura.html#_holy-aura">Holy aura</a></i> 3/day, <i><a href="../spells/hallow.html#_hallow">Hallow</a></i>
-</td>
-</tr>
-<tr class="even">
-<td>15–16</td>
-<td> <i><a href="../spells/charmMonster.html#_charm-monster-mass">Mass charm monster</a></i>
-</td>
-</tr>
-<tr class="odd">
-<td>17–18</td>
-<td>
-<i><a href="../spells/summonMonster.html#_summon-monster-ix">Summon monster IX</a></i> (celestials only)</td>
-</tr>
-<tr class="even">
-<td>19–20 </td>
-<td><i><a href="../spells/resurrection.html#_resurrection">Resurrection</a></i></td>
-</tr>
-
-</tbody>
+| 1–2 | _ [Protection from evil](../spells/protectionFromEvil.html#_protection-from-evil)_ 3/day, _ [bless](../spells/bless.html#_bless)_ |
+| 3–4 | _ [Aid](../spells/aid.html#_aid), [Detect evil](../spells/detectEvil.html#_detect-evil) _ |
+| 5–6 | _ [Cure serious wounds](../spells/cureSeriousWounds.html#_cure-serious-wounds), [Neutralize poison](../spells/neutralizePoison.html#_neutralize-poison) _ |
+| 7–8 | _ [Holy smite](../spells/holySmite.html#_holy-smite), [Remove disease](../spells/removeDisease.html#_remove-disease)_ |
+| 9–10 | _ [Dispel evil](../spells/dispelEvil.html#_dispel-evil)_ |
+| 11–12 | _ [Holy word](../spells/holyWord.html#_holy-word)_ |
+| 13–14 | _ [Holy aura](../spells/holyAura.html#_holy-aura)_ 3/day, _ [Hallow](../spells/hallow.html#_hallow)_ |
+| 15–16 | _ [Mass charm monster](../spells/charmMonster.html#_charm-monster-mass)_ |
+| 17–18 | _ [Summon monster IX](../spells/summonMonster.html#_summon-monster-ix)_ (celestials only) |
+| 19–20 | _ [Resurrection](../spells/resurrection.html#_resurrection)_ |
 
 **Abilities** : A half-celestial gains a +4 bonus on three ability scores of its choice and a +2 bonus on the other three.
 

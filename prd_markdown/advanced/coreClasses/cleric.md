@@ -11,140 +11,39 @@ If a subdomain ability calls for a saving throw, the DC of the save is equal to 
 [Table: Subdomains]
 | Domain | Subdomains |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Air</td>
-<td>Cloud, Wind</td>
-</tr>
-<tr class="even">
-<td>Animal</td>
-<td>Feather, Fur</td>
-</tr>
-<tr class="odd">
-<td>Artifice</td>
-<td>Construct, Toil</td>
-</tr>
-<tr class="even">
-<td>Chaos</td>
-<td>Azata, Demon, Protean</td>
-</tr>
-<tr class="odd">
-<td>Charm</td>
-<td>Love, Lust</td>
-</tr>
-<tr class="even">
-<td>Community</td>
-<td>Family, Home</td>
-</tr>
-<tr class="odd">
-<td>Darkness</td>
-<td>Loss, Night</td>
-</tr>
-<tr class="even">
-<td>Death</td>
-<td>Murder, Undead</td>
-</tr>
-<tr class="odd">
-<td>Destruction</td>
-<td>Catastrophe, Rage</td>
-</tr>
-<tr class="even">
-<td>Earth</td>
-<td>Caves, Metal</td>
-</tr>
-<tr class="odd">
-<td>Evil</td>
-<td>Daemon, Demon, Devil</td>
-</tr>
-<tr class="even">
-<td>Fire</td>
-<td>Ash, Smoke</td>
-</tr>
-<tr class="odd">
-<td>Glory</td>
-<td>Heroism, Honor</td>
-</tr>
-<tr class="even">
-<td>Good</td>
-<td>Agathion, Archon, Azata</td>
-</tr>
-<tr class="odd">
-<td>Healing</td>
-<td>Restoration, Resurrection</td>
-</tr>
-<tr class="even">
-<td>Knowledge</td>
-<td>Memory, Thought</td>
-</tr>
-<tr class="odd">
-<td>Law</td>
-<td>Archon, Devil, Inevitable</td>
-</tr>
-<tr class="even">
-<td>Liberation</td>
-<td>Freedom, Revolution</td>
-</tr>
-<tr class="odd">
-<td>Luck</td>
-<td>Curse, Fate</td>
-</tr>
-<tr class="even">
-<td>Madness</td>
-<td>Insanity, Nightmare</td>
-</tr>
-<tr class="odd">
-<td>Magic</td>
-<td>Arcane, Divine</td>
-</tr>
-<tr class="even">
-<td>Nobility</td>
-<td>Leadership, Martyr</td>
-</tr>
-<tr class="odd">
-<td>Plant</td>
-<td>Decay, Growth</td>
-</tr>
-<tr class="even">
-<td>Protection</td>
-<td>Defense, Purity</td>
-</tr>
-<tr class="odd">
-<td>Repose</td>
-<td>Ancestors, Souls</td>
-</tr>
-<tr class="even">
-<td>Rune</td>
-<td>Language, Wards</td>
-</tr>
-<tr class="odd">
-<td>Strength</td>
-<td>Ferocity, Resolve</td>
-</tr>
-<tr class="even">
-<td>Sun</td>
-<td>Day, Light</td>
-</tr>
-<tr class="odd">
-<td>Travel</td>
-<td>Exploration, Trade</td>
-</tr>
-<tr class="even">
-<td>Trickery</td>
-<td>Deception, Thievery</td>
-</tr>
-<tr class="odd">
-<td>War</td>
-<td>Blood, Tactics</td>
-</tr>
-<tr class="even">
-<td>Water</td>
-<td>Ice, Oceans</td>
-</tr>
-<tr class="odd">
-<td>Weather</td>
-<td>Seasons, Storms</td>
-</tr>
-</tbody>
+| Air | Cloud, Wind |
+| Animal | Feather, Fur |
+| Artifice | Construct, Toil |
+| Chaos | Azata, Demon, Protean |
+| Charm | Love, Lust |
+| Community | Family, Home |
+| Darkness | Loss, Night |
+| Death | Murder, Undead |
+| Destruction | Catastrophe, Rage |
+| Earth | Caves, Metal |
+| Evil | Daemon, Demon, Devil |
+| Fire | Ash, Smoke |
+| Glory | Heroism, Honor |
+| Good | Agathion, Archon, Azata |
+| Healing | Restoration, Resurrection |
+| Knowledge | Memory, Thought |
+| Law | Archon, Devil, Inevitable |
+| Liberation | Freedom, Revolution |
+| Luck | Curse, Fate |
+| Madness | Insanity, Nightmare |
+| Magic | Arcane, Divine |
+| Nobility | Leadership, Martyr |
+| Plant | Decay, Growth |
+| Protection | Defense, Purity |
+| Repose | Ancestors, Souls |
+| Rune | Language, Wards |
+| Strength | Ferocity, Resolve |
+| Sun | Day, Light |
+| Travel | Exploration, Trade |
+| Trickery | Deception, Thievery |
+| War | Blood, Tactics |
+| Water | Ice, Oceans |
+| Weather | Seasons, Storms |
 
 ## Agathion Subdomain
 

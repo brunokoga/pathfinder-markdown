@@ -18,32 +18,11 @@ Each time you cast this spell you get a total allotment of levels equal to your 
 
 | Number of Levels | Swarm Type(s) |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>2 caster levels</td>
-<td><a href="../../monsters/spider.html#_spider-swarm">Spider swarm</a></td>
-</tr>
-<tr class="even">
-<td>4 caster levels</td>
-<td><a href="../../monsters/rat.html#_rat-swarm">Rat swarm</a></td>
-</tr>
-<tr class="odd">
-<td>6 caster levels</td>
-<td>
-<a href="../../monsters/crab.html#_crab-swarm">Crab swarm</a>, <a href="../../monsters/wasp.html#_wasp-swarm">wasp swarm</a>
-</td>
-</tr>
-<tr class="even">
-<td>8 caster levels</td>
-<td>
-<a href="../../monsters/centipede.html#_centipede-swarm">Centipede swarm</a>, <a href="../../monsters/leech.html#_leech-swarm">leech swarm</a>
-</td>
-</tr>
-<tr class="odd">
-<td>10 caster levels</td>
-<td><a href="../../monsters/ant.html#_army-ant-swarm">Army ant swarm</a></td>
-</tr>
-</tbody>
+| 2 caster levels | [Spider swarm](../../monsters/spider.html#_spider-swarm) |
+| 4 caster levels | [Rat swarm](../../monsters/rat.html#_rat-swarm) |
+| 6 caster levels | [Crab swarm](../../monsters/crab.html#_crab-swarm), [wasp swarm](../../monsters/wasp.html#_wasp-swarm) |
+| 8 caster levels | [Centipede swarm](../../monsters/centipede.html#_centipede-swarm), [leech swarm](../../monsters/leech.html#_leech-swarm) |
+| 10 caster levels | [Army ant swarm](../../monsters/ant.html#_army-ant-swarm) |
 
 Once you create these swarms they remain in existence until destroyed or you order them to return to your body. When all swarms have returned to your body or are destroyed, your flesh wraps itself back around your bones and you regain the ability to act normally. If your bones are not where you left them you must first locate them in order to regain access to your body. You always know if your bones are destroyed and your consciousness remains in control of the swarms until they too are destroyed (and your die). If you can use the swarms to get help and arrange for someone to repair your bones (using anything that would normally restore you to life), at which point you can return the swarms to your body.
 

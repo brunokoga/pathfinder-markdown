@@ -3,260 +3,48 @@
 [Table: Rods]
 | Medium | Major | Rod | Market Price |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–03</td>
-<td>—</td>
-<td><i><a href="#metamagic,-merciful">Metamagic, merciful</a>, lesser</i></td>
-<td>1,500 gp</td>
-</tr>
-<tr class="even">
-<td>04–06</td>
-<td>—</td>
-<td><i><a href="#metamagic,-bouncing">Metamagic, bouncing</a>, lesser</i></td>
-<td>3,000 gp</td>
-</tr>
-<tr class="odd">
-<td>07–11</td>
-<td>—</td>
-<td><i><a href="#metamagic,-disruptive">Metamagic, disruptive</a>, lesser</i></td>
-<td>3,000 gp</td>
-</tr>
-<tr class="even">
-<td>12–21</td>
-<td>—</td>
-<td><i><a href="#metamagic,-ectoplasmic">Metamagic, ectoplasmic</a>, lesser</i></td>
-<td>3,000 gp</td>
-</tr>
-<tr class="odd">
-<td>22–27</td>
-<td>—</td>
-<td><i><a href="#metamagic,-elemental">Metamagic, elemental</a>, lesser</i></td>
-<td>3,000 gp</td>
-</tr>
-<tr class="even">
-<td>28–33</td>
-<td>—</td>
-<td><i><a href="#metamagic,-focused">Metamagic, focused</a>, lesser</i></td>
-<td>3,000 gp</td>
-</tr>
-<tr class="odd">
-<td>24–36</td>
-<td>—</td>
-<td><i><a href="#metamagic,-intensified">Metamagic, intensified</a>, lesser</i></td>
-<td>3,000 gp</td>
-</tr>
-<tr class="even">
-<td>37–39</td>
-<td>—</td>
-<td><i><a href="#metamagic,-lingering">Metamagic, lingering</a>, lesser</i></td>
-<td>3,000 gp</td>
-</tr>
-<tr class="odd">
-<td>40–43</td>
-<td>—</td>
-<td><i><a href="#metamagic,-reach">Metamagic, reach</a>, lesser</i></td>
-<td>3,000 gp</td>
-</tr>
-<tr class="even">
-<td>44–53</td>
-<td>—</td>
-<td><i><a href="#metamagic,-selective">Metamagic, selective</a>, lesser</i></td>
-<td>3,000 gp</td>
-</tr>
-<tr class="odd">
-<td>54–55</td>
-<td>—</td>
-<td><i><a href="#metamagic,-merciful">Metamagic, merciful</a></i></td>
-<td>5,500 gp</td>
-</tr>
-<tr class="even">
-<td>56–58</td>
-<td>—</td>
-<td><i><a href="#metamagic,-persistent">Metamagic, persistent</a>, lesser</i></td>
-<td>9,000 gp</td>
-</tr>
-<tr class="odd">
-<td>59–62</td>
-<td>—</td>
-<td><i><a href="#metamagic,-sickening">Metamagic, sickening</a>, lesser</i></td>
-<td>9,000 gp</td>
-</tr>
-<tr class="even">
-<td>63–66</td>
-<td>—</td>
-<td><i><a href="#metamagic,-thundering">Metamagic, thundering</a>, lesser</i></td>
-<td>9,000 gp</td>
-</tr>
-<tr class="odd">
-<td>67–70</td>
-<td>01–03</td>
-<td><i><a href="#metamagic,-bouncing">Metamagic, bouncing</a></i></td>
-<td>11,000 gp</td>
-</tr>
-<tr class="even">
-<td>71–74</td>
-<td>04–09</td>
-<td><i><a href="#metamagic,-disruptive">Metamagic, disruptive</a></i></td>
-<td>11,000 gp</td>
-</tr>
-<tr class="odd">
-<td>75–80</td>
-<td>10–20</td>
-<td><i><a href="#metamagic,-ectoplasmic">Metamagic, ectoplasmic</a></i></td>
-<td>11,000 gp</td>
-</tr>
-<tr class="even">
-<td>81–83</td>
-<td>21–28</td>
-<td><i><a href="#metamagic,-elemental">Metamagic, elemental</a></i></td>
-<td>11,000 gp</td>
-</tr>
-<tr class="odd">
-<td>84–86</td>
-<td>29–36</td>
-<td><i><a href="#metamagic,-focused">Metamagic, focused</a></i></td>
-<td>11,000 gp</td>
-</tr>
-<tr class="even">
-<td>87–88</td>
-<td>37–39</td>
-<td><i><a href="#metamagic,-intensified">Metamagic, intensified</a></i></td>
-<td>11,000 gp</td>
-</tr>
-<tr class="odd">
-<td>89–90</td>
-<td>40–43</td>
-<td><i><a href="#metamagic,-lingering">Metamagic, lingering</a></i></td>
-<td>11,000 gp</td>
-</tr>
-<tr class="even">
-<td>91–93</td>
-<td>44–46</td>
-<td><i><a href="#metamagic,-reach">Metamagic, reach</a></i></td>
-<td>11,000 gp</td>
-</tr>
-<tr class="odd">
-<td>94–97</td>
-<td>47–54</td>
-<td><i><a href="#metamagic,-selective">Metamagic, selective</a></i></td>
-<td>11,000 gp</td>
-</tr>
-<tr class="even">
-<td>98</td>
-<td>55–56</td>
-<td><i><a href="#metamagic,-merciful">Metamagic, merciful</a>, greater</i></td>
-<td>12,250 gp</td>
-</tr>
-<tr class="odd">
-<td>99–100</td>
-<td>57–58</td>
-<td><i><a href="#metamagic,-dazing">Metamagic, dazing</a>, lesser</i></td>
-<td>14,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>59–60</td>
-<td><i><a href="#metamagic,-bouncing">Metamagic, bouncing</a>, greater</i></td>
-<td>24,500 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>61–63</td>
-<td><i><a href="#metamagic,-disruptive">Metamagic, disruptive</a>, greater</i></td>
-<td>24,500 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>64–69</td>
-<td><i><a href="#metamagic,-ectoplasmic">Metamagic, ectoplasmic</a>, greater</i></td>
-<td>24,500 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>70–73</td>
-<td><i><a href="#metamagic,-elemental">Metamagic, elemental</a>, greater</i></td>
-<td>24,500 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>74–77</td>
-<td><i><a href="#metamagic,-focused">Metamagic, focused</a>, greater</i></td>
-<td>24,500 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>78–79</td>
-<td><i><a href="#metamagic,-intensified">Metamagic, intensified</a>, greater</i></td>
-<td>24,500 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>80</td>
-<td><i><a href="#metamagic,-lingering">Metamagic, lingering</a>, greater</i></td>
-<td>24,500 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>81–82</td>
-<td><i><a href="#metamagic,-reach">Metamagic, reach</a>, greater</i></td>
-<td>24,500 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>83–86</td>
-<td><i><a href="#metamagic,-selective">Metamagic, selective</a>, greater</i></td>
-<td>24,500 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>87–89</td>
-<td><i><a href="#metamagic,-persistent">Metamagic, persistent</a></i></td>
-<td>32,500 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>90–91</td>
-<td><i><a href="#metamagic,-sickening">Metamagic, sickening</a></i></td>
-<td>32,500 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>92–93</td>
-<td><i><a href="#metamagic,-thundering">Metamagic, thundering</a></i></td>
-<td>32,500 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>94–95</td>
-<td><i><a href="#metamagic,-dazing">Metamagic, dazing</a> </i></td>
-<td>54,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>96–97</td>
-<td><i><a href="#metamagic,-persistent">Metamagic, persistent</a>, greater</i></td>
-<td>73,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>98</td>
-<td><i><a href="#metamagic,-sickening">Metamagic, sickening</a>, greater</i></td>
-<td>73,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>99</td>
-<td><i><a href="#metamagic,-thundering">Metamagic, thundering</a>, greater</i></td>
-<td>73,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>100</td>
-<td><i><a href="#metamagic,-dazing">Metamagic, dazing</a>, greater</i></td>
-<td>121,500 gp</td>
-</tr>
-</tbody>
+| 01–03 | — | _Metamagic, merciful, lesser_ | 1,500 gp |
+| 04–06 | — | _Metamagic, bouncing, lesser_ | 3,000 gp |
+| 07–11 | — | _Metamagic, disruptive, lesser_ | 3,000 gp |
+| 12–21 | — | _Metamagic, ectoplasmic, lesser_ | 3,000 gp |
+| 22–27 | — | _Metamagic, elemental, lesser_ | 3,000 gp |
+| 28–33 | — | _Metamagic, focused, lesser_ | 3,000 gp |
+| 24–36 | — | _Metamagic, intensified, lesser_ | 3,000 gp |
+| 37–39 | — | _Metamagic, lingering, lesser_ | 3,000 gp |
+| 40–43 | — | _Metamagic, reach, lesser_ | 3,000 gp |
+| 44–53 | — | _Metamagic, selective, lesser_ | 3,000 gp |
+| 54–55 | — | _Metamagic, merciful_ | 5,500 gp |
+| 56–58 | — | _Metamagic, persistent, lesser_ | 9,000 gp |
+| 59–62 | — | _Metamagic, sickening, lesser_ | 9,000 gp |
+| 63–66 | — | _Metamagic, thundering, lesser_ | 9,000 gp |
+| 67–70 | 01–03 | _Metamagic, bouncing_ | 11,000 gp |
+| 71–74 | 04–09 | _Metamagic, disruptive_ | 11,000 gp |
+| 75–80 | 10–20 | _Metamagic, ectoplasmic_ | 11,000 gp |
+| 81–83 | 21–28 | _Metamagic, elemental_ | 11,000 gp |
+| 84–86 | 29–36 | _Metamagic, focused_ | 11,000 gp |
+| 87–88 | 37–39 | _Metamagic, intensified_ | 11,000 gp |
+| 89–90 | 40–43 | _Metamagic, lingering_ | 11,000 gp |
+| 91–93 | 44–46 | _Metamagic, reach_ | 11,000 gp |
+| 94–97 | 47–54 | _Metamagic, selective_ | 11,000 gp |
+| 98 | 55–56 | _Metamagic, merciful, greater_ | 12,250 gp |
+| 99–100 | 57–58 | _Metamagic, dazing, lesser_ | 14,000 gp |
+| — | 59–60 | _Metamagic, bouncing, greater_ | 24,500 gp |
+| — | 61–63 | _Metamagic, disruptive, greater_ | 24,500 gp |
+| — | 64–69 | _Metamagic, ectoplasmic, greater_ | 24,500 gp |
+| — | 70–73 | _Metamagic, elemental, greater_ | 24,500 gp |
+| — | 74–77 | _Metamagic, focused, greater_ | 24,500 gp |
+| — | 78–79 | _Metamagic, intensified, greater_ | 24,500 gp |
+| — | 80 | _Metamagic, lingering, greater_ | 24,500 gp |
+| — | 81–82 | _Metamagic, reach, greater_ | 24,500 gp |
+| — | 83–86 | _Metamagic, selective, greater_ | 24,500 gp |
+| — | 87–89 | _Metamagic, persistent_ | 32,500 gp |
+| — | 90–91 | _Metamagic, sickening_ | 32,500 gp |
+| — | 92–93 | _Metamagic, thundering_ | 32,500 gp |
+| — | 94–95 | _Metamagic, dazing _ | 54,000 gp |
+| — | 96–97 | _Metamagic, persistent, greater_ | 73,000 gp |
+| — | 98 | _Metamagic, sickening, greater_ | 73,000 gp |
+| — | 99 | _Metamagic, thundering, greater_ | 73,000 gp |
+| — | 100 | _Metamagic, dazing, greater_ | 121,500 gp |
 
 Rods are scepter-like devices that have unique magical powers and do not usually have charges. Many have unique control over the flow of magic. Anyone can use a rod (though metamagic rods have no effect when used by creatures that cannot cast spells). Normal metamagic rods can be used with spells of 6th level or lower. Lesser rods can be used with spells of 3rd level or lower, while greater rods can be used with spells of 9th level or lower.
 

@@ -30,24 +30,10 @@ _Lingering Aura_: A magical aura lingers after its original source dissipates (i
 
 | Original Strength | Duration of Lingering Aura |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Faint</td>
-<td>1d6 rounds</td>
-</tr>
-<tr class="even">
-<td>Moderate</td>
-<td>1d6 minutes</td>
-</tr>
-<tr class="odd">
-<td>Strong</td>
-<td>1d6 × 10 minutes</td>
-</tr>
-<tr class="even">
-<td>Overwhelming</td>
-<td>1d6 days</td>
-</tr>
-</tbody>
+| Faint | 1d6 rounds |
+| Moderate | 1d6 minutes |
+| Strong | 1d6 × 10 minutes |
+| Overwhelming | 1d6 days |
 
 Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
 
@@ -58,20 +44,6 @@ _Detect magic _can be made permanent with a _ [permanency](permanency.html#_perm
 | --- | --- |
 | Faint | Moderate | Strong | Overwhelming |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Functioning spell (spell level)</td>
-<td>3rd or lower</td>
-<td>4th–6th</td>
-<td>7th–9th</td>
-<td>10th+ (deity-level)</td>
-</tr>
-<tr class="even">
-<td>Magic item (caster level)</td>
-<td>5th or lower</td>
-<td>6th–11th</td>
-<td>12th–20th</td>
-<td>21st+ (artifact)</td>
-</tr>
-</tbody>
+| Functioning spell (spell level) | 3rd or lower | 4th–6th | 7th–9th | 10th+ (deity-level) |
+| Magic item (caster level) | 5th or lower | 6th–11th | 12th–20th | 21st+ (artifact) |
 

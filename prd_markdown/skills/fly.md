@@ -25,57 +25,13 @@ _High Wind Speeds_: Flying in high winds adds penalties on your Fly checks as no
 [Table: Wind Effects on Flight]
 | Wind Force | Wind Speed | Checked Size | Blown Away Size | Fly Penalty |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Light</td>
-<td>0–10 mph</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Moderate</td>
-<td>11–20 mph</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Strong</td>
-<td>21–30 mph</td>
-<td>Tiny</td>
-<td>—</td>
-<td>–2</td>
-</tr>
-<tr class="even">
-<td>Severe</td>
-<td>31–50 mph</td>
-<td>Small</td>
-<td>Tiny</td>
-<td>–4</td>
-</tr>
-<tr class="odd">
-<td>Windstorm</td>
-<td>51–74 mph</td>
-<td>Medium</td>
-<td>Small</td>
-<td>–8</td>
-</tr>
-<tr class="even">
-<td>Hurricane</td>
-<td>75–174 mph</td>
-<td>Large</td>
-<td>Medium</td>
-<td>–12</td>
-</tr>
-<tr class="odd">
-<td>Tornado</td>
-<td>175+ mph</td>
-<td>Huge</td>
-<td>Large</td>
-<td>–16</td>
-</tr>
-</tbody>
+| Light | 0–10 mph | — | — | — |
+| Moderate | 11–20 mph | — | — | — |
+| Strong | 21–30 mph | Tiny | — | –2 |
+| Severe | 31–50 mph | Small | Tiny | –4 |
+| Windstorm | 51–74 mph | Medium | Small | –8 |
+| Hurricane | 75–174 mph | Large | Medium | –12 |
+| Tornado | 175+ mph | Huge | Large | –16 |
 
 **Action** : None. A Fly check doesn't require an action; it is made as part of another action or as a reaction to a situation.
 

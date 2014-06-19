@@ -64,24 +64,11 @@ Special Abilities
 
   
   
-<center><table>
-<tr>
-<td>1–3</td>
-<td>Spell misfires. For the next 1d4 rounds, the caster must make a DC 15 concentration check to successfully cast spells.</td>
-</tr>
-<tr>
-<td>4–6</td>
-<td>Spell misfires. The creature nearest the flail snail is affected as if the spell had been cast on it instead.</td>
-</tr>
-<tr>
-<td>7–9</td>
-<td>Spell fails. Nothing happens.</td>
-</tr>
-<tr>
-<td>10</td>
-<td>Spell rebounds on caster (as <i><a href="/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning">spell turning</a></i>).</td>
-</tr>
-</table></center>
+
+| 1–3 | Spell misfires. For the next 1d4 rounds, the caster must make a DC 15 concentration check to successfully cast spells. |
+| 4–6 | Spell misfires. The creature nearest the flail snail is affected as if the spell had been cast on it instead. |
+| 7–9 | Spell fails. Nothing happens. |
+| 10 | Spell rebounds on caster (as _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_). |
 
 Flail snails are intelligent gastropods that subsist on fungus, mold, and vermin, though they may attack larger creatures in self-defense. Known for their magic-warping shells and club-like tentacles, flail snails roam slowly through subterranean caverns writing great epics in their slime trails.
 

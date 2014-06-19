@@ -50,142 +50,26 @@ A settlement stat block is organized as follows.
 [Table: Settlement Statistics]
 | Type | Modifiers | Qualities | Danger | Base Limit | Purchase Limit | Spellcasting |
 | --- | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Thorp</td>
-<td>–4</td>
-<td>1</td>
-<td>–10</td>
-<td>50 gp</td>
-<td>500 gp</td>
-<td>1st</td>
-</tr>
-<tr class="even">
-<td>Hamlet</td>
-<td>–2</td>
-<td>1</td>
-<td>–5</td>
-<td>200 gp</td>
-<td>1,000 gp</td>
-<td>2nd</td>
-</tr>
-<tr class="odd">
-<td>Village</td>
-<td>–1</td>
-<td>2</td>
-<td>0</td>
-<td>500 gp</td>
-<td>2,500 gp</td>
-<td>3rd</td>
-</tr>
-<tr class="even">
-<td>Small town</td>
-<td>0</td>
-<td>2</td>
-<td>0</td>
-<td>1,000 gp</td>
-<td>5,000 gp</td>
-<td>4th</td>
-</tr>
-<tr class="odd">
-<td>Large town</td>
-<td>0</td>
-<td>3</td>
-<td>5</td>
-<td>2,000 gp</td>
-<td>10,000 gp</td>
-<td>5th</td>
-</tr>
-<tr class="even">
-<td>Small city</td>
-<td>+1</td>
-<td>4</td>
-<td>5</td>
-<td>4,000 gp</td>
-<td>25,000 gp</td>
-<td>6th</td>
-</tr>
-<tr class="odd">
-<td>Large city</td>
-<td>+2</td>
-<td>5</td>
-<td>10</td>
-<td>8,000 gp</td>
-<td>50,000 gp</td>
-<td>7th</td>
-</tr>
-<tr class="even">
-<td>Metropolis</td>
-<td>+4</td>
-<td>6</td>
-<td>10</td>
-<td>16,000 gp</td>
-<td>100,000 gp</td>
-<td>8th</td>
-</tr>
-</tbody>
+| Thorp | –4 | 1 | –10 | 50 gp | 500 gp | 1st |
+| Hamlet | –2 | 1 | –5 | 200 gp | 1,000 gp | 2nd |
+| Village | –1 | 2 | 0 | 500 gp | 2,500 gp | 3rd |
+| Small town | 0 | 2 | 0 | 1,000 gp | 5,000 gp | 4th |
+| Large town | 0 | 3 | 5 | 2,000 gp | 10,000 gp | 5th |
+| Small city | +1 | 4 | 5 | 4,000 gp | 25,000 gp | 6th |
+| Large city | +2 | 5 | 10 | 8,000 gp | 50,000 gp | 7th |
+| Metropolis | +4 | 6 | 10 | 16,000 gp | 100,000 gp | 8th |
 
 [Table: Available Magic Items]
 | Community Size | Base Value | Minor | Medium | Major |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Thorp</td>
-<td>50 gp</td>
-<td>1d4 items</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Hamlet</td>
-<td>200 gp</td>
-<td>1d6 items</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Village</td>
-<td>500 gp</td>
-<td>2d4 items</td>
-<td>1d4 items</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Small town</td>
-<td>1,000 gp</td>
-<td>3d4 items</td>
-<td>1d6 items</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Large town</td>
-<td>2,000 gp</td>
-<td>3d4 items</td>
-<td>2d4 items</td>
-<td>1d4 items</td>
-</tr>
-<tr class="even">
-<td>Small city</td>
-<td>4,000 gp</td>
-<td>4d4 items</td>
-<td>3d4 items</td>
-<td>1d6 items</td>
-</tr>
-<tr class="odd">
-<td>Large city</td>
-<td>8,000 gp</td>
-<td>4d4 items</td>
-<td>3d4 items</td>
-<td>2d4 items</td>
-</tr>
-<tr class="even">
-<td>Metropolis</td>
-<td>16,000 gp</td>
-<td>*</td>
-<td>4d4 items</td>
-<td>3d4 items</td>
-</tr>
-</tbody>
+| Thorp | 50 gp | 1d4 items | — | — |
+| Hamlet | 200 gp | 1d6 items | — | — |
+| Village | 500 gp | 2d4 items | 1d4 items | — |
+| Small town | 1,000 gp | 3d4 items | 1d6 items | — |
+| Large town | 2,000 gp | 3d4 items | 2d4 items | 1d4 items |
+| Small city | 4,000 gp | 4d4 items | 3d4 items | 1d6 items |
+| Large city | 8,000 gp | 4d4 items | 3d4 items | 2d4 items |
+| Metropolis | 16,000 gp | \* | 4d4 items | 3d4 items |
 
 ## Settlement Modifiers
 

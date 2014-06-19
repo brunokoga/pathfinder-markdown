@@ -113,52 +113,16 @@ _Woodland Stride (Ex)_ A fey creature can move through any sort of undergrowth (
 
 **Spell-Like Abilities** : A fey creature with an Intelligence or Wisdom score of 8 or more has a cumulative number of spell-like abilities depending on its Hit Dice. Unless otherwise noted, an ability is usable once per day. Caster level equals the creature's HD (or the caster level of the base creature's spell-like abilities, whichever is higher).
 
-<center><table>
-<tr>
-<td>1–2</td>
-<td>
-<i><a href="/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights">Dancing lights</a> </i>3/day, <i><a href="/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire">faerie fire</a></i>
-</td>
-</tr>
-<tr>
-<td>3–4</td>
-<td>
-<i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle">Entangle</a></i>, <i><a href="/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust">glitterdust</a></i>
-</td>
-</tr>
-<tr>
-<td>5–6</td>
-<td><i><a href="/pathfinderRPG/prd/spells/deepSlumber.html#_deep-slumber">Deep slumber</a></i></td>
-</tr>
-<tr>
-<td>7–8</td>
-<td><i><a href="/pathfinderRPG/prd/spells/majorImage.html#_major-image">Major image</a></i></td>
-</tr>
-<tr>
-<td>9–10</td>
-<td><i><a href="/pathfinderRPG/prd/spells/confusion.html#_confusion">Confusion</a></i></td>
-</tr>
-<tr>
-<td>11–12</td>
-<td><i><a href="/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind">Feeblemind</a></i></td>
-</tr>
-<tr>
-<td>13–14</td>
-<td><i><a href="/pathfinderRPG/prd/spells/mislead.html#_mislead">Mislead</a></i></td>
-</tr>
-<tr>
-<td>15–16</td>
-<td><i><a href="/pathfinderRPG/prd/spells/projectImage.html#_project-image">Project image</a></i></td>
-</tr>
-<tr>
-<td>17–18</td>
-<td><i><a href="/pathfinderRPG/prd/spells/irresistibleDance.html#_irresistible-dance">Irresistible dance</a></i></td>
-</tr>
-<tr>
-<td>19–20</td>
-<td><i><a href="/pathfinderRPG/prd/spells/scintillatingPattern.html#_scintillating-pattern">Scintillating pattern</a></i></td>
-</tr>
-</table></center>
+| 1–2 | _ [Dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights) _3/day, _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ |
+| 3–4 | _ [Entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_, _ [glitterdust](/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust)_ |
+| 5–6 | _ [Deep slumber](/pathfinderRPG/prd/spells/deepSlumber.html#_deep-slumber)_ |
+| 7–8 | _ [Major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_ |
+| 9–10 | _ [Confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_ |
+| 11–12 | _ [Feeblemind](/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind)_ |
+| 13–14 | _ [Mislead](/pathfinderRPG/prd/spells/mislead.html#_mislead)_ |
+| 15–16 | _ [Project image](/pathfinderRPG/prd/spells/projectImage.html#_project-image)_ |
+| 17–18 | _ [Irresistible dance](/pathfinderRPG/prd/spells/irresistibleDance.html#_irresistible-dance)_ |
+| 19–20 | _ [Scintillating pattern](/pathfinderRPG/prd/spells/scintillatingPattern.html#_scintillating-pattern)_ |
 
 **Abilities** : A fey creature gains a +4 bonus to Dexterity and a +2 bonus to Intelligence and Charisma. A fey creature receives a –2 penalty to Strength. Fey creatures derived from creatures without an Intelligence score gain an Intelligence of 3.
 

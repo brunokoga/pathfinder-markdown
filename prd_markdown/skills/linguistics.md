@@ -10,40 +10,14 @@ Both the Linguistics check and (if necessary) the [Wisdom](../gettingStarted.htm
 
 | Condition | Linguistics Check Modifier |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Type of document unknown to reader</td>
-<td>–2</td>
-</tr>
-<tr class="even">
-<td>Type of document somewhat known to reader</td>
-<td>+0</td>
-</tr>
-<tr class="odd">
-<td>Type of document well known to reader</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>Handwriting not known to reader</td>
-<td>–2</td>
-</tr>
-<tr class="odd">
-<td>Handwriting somewhat known to reader</td>
-<td>+0</td>
-</tr>
-<tr class="even">
-<td>Handwriting intimately known to reader</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>Reader only casually reviews the document</td>
-<td>–2</td>
-</tr>
-<tr class="even">
-<td>Document contradicts orders or knowledge</td>
-<td>+2</td>
-</tr>
-</tbody>
+| Type of document unknown to reader | –2 |
+| Type of document somewhat known to reader | +0 |
+| Type of document well known to reader | +2 |
+| Handwriting not known to reader | –2 |
+| Handwriting somewhat known to reader | +0 |
+| Handwriting intimately known to reader | +2 |
+| Reader only casually reviews the document | –2 |
+| Document contradicts orders or knowledge | +2 |
 
 _Create or Detect Forgeries_: Forgery requires writing materials appropriate to the document being forged. To forge a document on which the handwriting is not specific to a person, you need only to have seen a similar document before, and you gain a +8 bonus on your check. To forge a signature, you need an autograph of that person to copy, and you gain a +4 bonus on the check. To forge a longer document written in the hand of some particular person, a large sample of that person's handwriting is needed.
 

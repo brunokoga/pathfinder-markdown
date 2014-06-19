@@ -62,33 +62,11 @@ The rate at which time passes can vary on different planes, though it remains co
 
 | d% | Time on Material Plane | Time on Erratic Time Plane |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–10</td>
-<td>1 day</td>
-<td>1 round</td>
-</tr>
-<tr class="even">
-<td>11–40</td>
-<td>1 day</td>
-<td>1 hour</td>
-</tr>
-<tr class="odd">
-<td>41–60</td>
-<td>1 day</td>
-<td>1 day</td>
-</tr>
-<tr class="even">
-<td>61–90</td>
-<td>1 hour</td>
-<td>1 day</td>
-</tr>
-<tr class="odd">
-<td>91–100</td>
-<td>1 round</td>
-<td>1 day</td>
-</tr>
-</tbody>
+| 01–10 | 1 day | 1 round |
+| 11–40 | 1 day | 1 hour |
+| 41–60 | 1 day | 1 day |
+| 61–90 | 1 hour | 1 day |
+| 91–100 | 1 round | 1 day |
 
 **Flowing Time** : On some planes, the flow of time is consistently faster or slower. One may travel to another plane, spend a year there, and then return to the Material Plane to find that only 6 seconds have elapsed. Everything on the plane returned to is only a few seconds older. But for that traveler and the items, spells, and effects working on him, that year away was entirely real. When designating how time works on planes with flowing time, put the Material Plane's flow of time first, followed by the flow in the other plane.
 

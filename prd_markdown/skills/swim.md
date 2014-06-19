@@ -10,20 +10,9 @@ If you are underwater, either because you failed a Swim check or because you are
 
 | Water | Swim DC |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Calm water</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>Rough water</td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td>Stormy water</td>
-<td>20*</td>
-</tr>
-</tbody>
+| Calm water | 10 |
+| Rough water | 15 |
+| Stormy water | 20\* |
 
 Each hour that you swim, you must make a DC 20 Swim check or take 1d6 points of nonlethal damage from fatigue.
 

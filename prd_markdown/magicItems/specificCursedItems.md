@@ -3,124 +3,35 @@
 [Table: Specific Cursed Items]
 | d% | Item |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–05</td>
-<td><i><a href="#incense-of-obsession">Incense of obsession</a></i></td>
-</tr>
-<tr class="even">
-<td>06–15</td>
-<td><i><a href="#ring-of-clumsiness">Ring of clumsiness</a></i></td>
-</tr>
-<tr class="odd">
-<td>16–20</td>
-<td><i><a href="#amulet-of-inescapable-location">Amulet of inescapable location</a></i></td>
-</tr>
-<tr class="even">
-<td>21–25</td>
-<td><i><a href="#stone-of-weight">Stone of weight</a></i></td>
-</tr>
-<tr class="odd">
-<td>26–30</td>
-<td><i><a href="#bracers-of-defenselessness">Bracers of defenselessness</a></i></td>
-</tr>
-<tr class="even">
-<td>31–35</td>
-<td><i><a href="#gauntlets-of-fumbling">Gauntlets of fumbling</a></i></td>
-</tr>
-<tr class="odd">
-<td>36–40</td>
-<td><i><a href="#sword-2-cursed">–2 sword, cursed</a></i></td>
-</tr>
-<tr class="even">
-<td>41–43</td>
-<td><i><a href="#armor-of-rage">Armor of rage</a></i></td>
-</tr>
-<tr class="odd">
-<td>44–46</td>
-<td><i><a href="#medallion-of-thought-projection">Medallion of thought projection</a></i></td>
-</tr>
-<tr class="even">
-<td>47–52</td>
-<td><i><a href="#flask-of-curses">Flask of curses</a></i></td>
-</tr>
-<tr class="odd">
-<td>53–54</td>
-<td><i><a href="#dust-of-sneezing-and-choking">Dust of sneezing and choking</a></i></td>
-</tr>
-<tr class="even">
-<td>55</td>
-<td><i><a href="#helm-of-opposite-alignment">Helm of opposite alignment</a></i></td>
-</tr>
-<tr class="odd">
-<td>56–60</td>
-<td><i><a href="#potion-of-poison">Potion of poison</a></i></td>
-</tr>
-<tr class="even">
-<td>61</td>
-<td><i><a href="#broom-of-animated-attack">Broom of animated attack</a></i></td>
-</tr>
-<tr class="odd">
-<td>62–63</td>
-<td><i><a href="#robe-of-powerlessness">Robe of powerlessness</a></i></td>
-</tr>
-<tr class="even">
-<td>64</td>
-<td><i><a href="#vacuous-grimoire">Vacuous grimoire</a></i></td>
-</tr>
-<tr class="odd">
-<td>65–68</td>
-<td><i><a href="#spear-cursed-backbiter">Spear, cursed backbiter</a></i></td>
-</tr>
-<tr class="even">
-<td>69–70</td>
-<td><i><a href="#armor-of-arrow-attraction">Armor of arrow attraction</a></i></td>
-</tr>
-<tr class="odd">
-<td>71–72</td>
-<td><i><a href="#net-of-snaring">Net of snaring</a></i></td>
-</tr>
-<tr class="even">
-<td>73–75</td>
-<td><i><a href="#bag-of-devouring">Bag of devouring</a></i></td>
-</tr>
-<tr class="odd">
-<td>76–80</td>
-<td><i><a href="#mace-of-blood">Mace of blood</a></i></td>
-</tr>
-<tr class="even">
-<td>81–85</td>
-<td><i><a href="#robe-of-vermin">Robe of vermin</a></i></td>
-</tr>
-<tr class="odd">
-<td>86–88</td>
-<td><i><a href="#periapt-of-foul-rotting">Periapt of foul rotting</a></i></td>
-</tr>
-<tr class="even">
-<td>89–92</td>
-<td><i><a href="#sword-berserking">Sword, berserking</a></i></td>
-</tr>
-<tr class="odd">
-<td>93–96</td>
-<td><i><a href="#boots-of-dancing">Boots of dancing</a></i></td>
-</tr>
-<tr class="even">
-<td>97</td>
-<td><i><a href="#crystal-hypnosis-ball">Crystal hypnosis ball</a></i></td>
-</tr>
-<tr class="odd">
-<td>98</td>
-<td><i><a href="#necklace-of-strangulation">Necklace of strangulation</a></i></td>
-</tr>
-<tr class="even">
-<td>99</td>
-<td><i><a href="#poisonous-cloak">Poisonous cloak</a></i></td>
-</tr>
-<tr class="odd">
-<td>100</td>
-<td><i><a href="#scarab-of-death">Scarab of death</a></i></td>
-</tr>
-</tbody>
+| 01–05 | _Incense of obsession_ |
+| 06–15 | _Ring of clumsiness_ |
+| 16–20 | _Amulet of inescapable location_ |
+| 21–25 | _Stone of weight_ |
+| 26–30 | _Bracers of defenselessness_ |
+| 31–35 | _Gauntlets of fumbling_ |
+| 36–40 | _–2 sword, cursed_ |
+| 41–43 | _Armor of rage_ |
+| 44–46 | _Medallion of thought projection_ |
+| 47–52 | _Flask of curses_ |
+| 53–54 | _Dust of sneezing and choking_ |
+| 55 | _Helm of opposite alignment_ |
+| 56–60 | _Potion of poison_ |
+| 61 | _Broom of animated attack_ |
+| 62–63 | _Robe of powerlessness_ |
+| 64 | _Vacuous grimoire_ |
+| 65–68 | _Spear, cursed backbiter_ |
+| 69–70 | _Armor of arrow attraction_ |
+| 71–72 | _Net of snaring_ |
+| 73–75 | _Bag of devouring_ |
+| 76–80 | _Mace of blood_ |
+| 81–85 | _Robe of vermin_ |
+| 86–88 | _Periapt of foul rotting_ |
+| 89–92 | _Sword, berserking_ |
+| 93–96 | _Boots of dancing_ |
+| 97 | _Crystal hypnosis ball_ |
+| 98 | _Necklace of strangulation_ |
+| 99 | _Poisonous cloak_ |
+| 100 | _Scarab of death_ |
 
 Perhaps the most dangerous and insidious of all cursed items are those whose intended functions are completely replaced by a curse. Yet even these items can have their uses, particularly as traps or weapons. The following are provided as specific examples of cursed items. Instead of prerequisites, each cursed item is associated with one or more ordinary magic items whose creation might result in the cursed item. Cursed items can be sold, if the curse is not known to the buyer, as if they were the item they appear to be.
 

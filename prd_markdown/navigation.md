@@ -1,12 +1,4 @@
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>PRD Navigation</title>
-	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
-	<link rel="stylesheet" href="/pathfinderRPG/prd/include/iui/iui.css" type="text/css">
-	<link rel="stylesheet" title="Default" href="/pathfinderRPG/prd/include/iui/t/default/default-theme.css" type="text/css">
-	<script type="application/x-javascript" src="/pathfinderRPG/prd/include/iui/iui.js"></script>
-	<script type="text/javascript">iui.animOn = true;</script>
-</head>
+PRD Navigation
 
 # PRD Nav
 

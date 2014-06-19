@@ -66,42 +66,10 @@ Other species of scorpions exist as well, some smaller but most quite a bit larg
 
 | Species | CR | Size | HD |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Greensting scorpion</td>
-<td>1/4</td>
-<td>Tiny</td>
-<td>1d8</td>
-</tr>
-<tr class="even">
-<td>Ghost scorpion</td>
-<td>1/2</td>
-<td>Small</td>
-<td>2d8</td>
-</tr>
-<tr class="odd">
-<td>Cave scorpion</td>
-<td>1</td>
-<td>Medium</td>
-<td>3d8</td>
-</tr>
-<tr class="even">
-<td>Deadfall scorpion</td>
-<td>8</td>
-<td>Huge</td>
-<td>10d8</td>
-</tr>
-<tr class="odd">
-<td>Giant emperor scorpion</td>
-<td>11</td>
-<td>Gargantuan</td>
-<td>16d8</td>
-</tr>
-<tr class="even">
-<td>Black scorpion</td>
-<td>15</td>
-<td>Colossal</td>
-<td>22d8</td>
-</tr>
-</tbody>
+| Greensting scorpion | 1/4 | Tiny | 1d8 |
+| Ghost scorpion | 1/2 | Small | 2d8 |
+| Cave scorpion | 1 | Medium | 3d8 |
+| Deadfall scorpion | 8 | Huge | 10d8 |
+| Giant emperor scorpion | 11 | Gargantuan | 16d8 |
+| Black scorpion | 15 | Colossal | 22d8 |
 

@@ -6,1730 +6,360 @@ At times during a game when you're looking to liven things up (perhaps during a 
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–8</td>
-<td>1 <a href="spider.html#_spider-giant">giant spider</a>
-</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>9–12</td>
-<td>1 <a href="skeletalChampion.html#_skeletal-champion">skeletal champion</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>13–18</td>
-<td>1d8 <a href="skeleton.html#_skeleton">skeleton</a>s</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>19–22</td>
-<td>1 <a href="bat.html#_bat-swarm">bat swarm</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>23–30</td>
-<td>1 <a href="scorpion.html#_scorpion-giant">giant scorpion</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>31–34</td>
-<td>1d3 <a href="bat.html#_bat-dire">dire bat</a>s</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>35–42</td>
-<td>1d6 <a href="snake.html#_snake-venomous">venomous snake</a>s</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>43–46</td>
-<td>1 <a href="basilisk.html#_basilisk">basilisk</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>47–52</td>
-<td>1 <a href="mummy.html#_mummy">mummy</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>53–56</td>
-<td>1d4 <a href="genie.html#_genie-janni">jann</a>
-</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>57–60</td>
-<td>1 <a href="lamia.html#_lamia">lamia</a>
-</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>61–68</td>
-<td>2d6 <a href="ant.html#_ant-giant">giant ant</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>69–72</td>
-<td>1 <a href="dragon.html#_metallic-dragon-brass">brass dragon</a> (young)</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>73–80</td>
-<td>2d6 <a href="gnoll.html#_gnoll">gnoll</a>s and 1d4 <a href="hyena.html#_hyena">hyena</a>s</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>81–84</td>
-<td>1 <a href="remorhaz.html#_remorhaz">remorhaz</a> (cold desert only)</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>85–88</td>
-<td>1 <a href="behir.html#_behir">behir</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>89–92</td>
-<td>1 <a href="sphinx.html#_sphinx">sphinx</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>93–96</td>
-<td>1 <a href="dragon.html#_chromatic-dragon-blue">blue dragon</a> (young)</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>97–98</td>
-<td>1 <a href="dragon.html#_metallic-dragon-brass">brass dragon</a> (adult)</td>
-<td>11</td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>1 <a href="dragon.html#_chromatic-dragon-blue">blue dragon</a> (adult)</td>
-<td>13</td>
-</tr>
-</tbody>
+| 1–8 | 1 [giant spider](spider.html#_spider-giant) | 1 |
+| 9–12 | 1 [skeletal champion](skeletalChampion.html#_skeletal-champion) | 2 |
+| 13–18 | 1d8 [skeleton](skeleton.html#_skeleton)s | 2 |
+| 19–22 | 1 [bat swarm](bat.html#_bat-swarm) | 2 |
+| 23–30 | 1 [giant scorpion](scorpion.html#_scorpion-giant) | 3 |
+| 31–34 | 1d3 [dire bat](bat.html#_bat-dire)s | 4 |
+| 35–42 | 1d6 [venomous snake](snake.html#_snake-venomous)s | 4 |
+| 43–46 | 1 [basilisk](basilisk.html#_basilisk) | 5 |
+| 47–52 | 1 [mummy](mummy.html#_mummy) | 5 |
+| 53–56 | 1d4 [jann](genie.html#_genie-janni) | 6 |
+| 57–60 | 1 [lamia](lamia.html#_lamia) | 6 |
+| 61–68 | 2d6 [giant ant](ant.html#_ant-giant)s | 6 |
+| 69–72 | 1 [brass dragon](dragon.html#_metallic-dragon-brass) (young) | 7 |
+| 73–80 | 2d6 [gnoll](gnoll.html#_gnoll)s and 1d4 [hyena](hyena.html#_hyena)s | 7 |
+| 81–84 | 1 [remorhaz](remorhaz.html#_remorhaz) (cold desert only) | 7 |
+| 85–88 | 1 [behir](behir.html#_behir) | 8 |
+| 89–92 | 1 [sphinx](sphinx.html#_sphinx) | 8 |
+| 93–96 | 1 [blue dragon](dragon.html#_chromatic-dragon-blue) (young) | 9 |
+| 97–98 | 1 [brass dragon](dragon.html#_metallic-dragon-brass) (adult) | 11 |
+| 99–100 | 1 [blue dragon](dragon.html#_chromatic-dragon-blue) (adult) | 13 |
 
 ## Dungeon (Low-Level) CR 2
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–6</td>
-<td>1d6 <a href="rat.html#_rat-dire">dire rat</a>s</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>7–12</td>
-<td>1d6 <a href="beetle.html#_beetle-fire">fire beetle</a>s</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>13–20</td>
-<td>1d6 <a href="skeleton.html#_skeleton">human skeleton</a>s</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>21–24</td>
-<td>1d4 <a href="centipede.html#_centipede-giant">giant centipede</a>s</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>25–26</td>
-<td>1 <a href="spider.html#_spider-swarm">spider swarm</a>
-</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>27–32</td>
-<td>1d6 <a href="zombie.html#_zombie">human zombie</a>s</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>33–34</td>
-<td>1 <a href="choker.html#_choker">choker</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>35–36</td>
-<td>1 <a href="skeletalChampion.html#_skeletal-champion">skeletal champion</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>37–44</td>
-<td>2d6 <a href="goblin.html#_goblin">goblin</a>s</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>45–48</td>
-<td>1d4 <a href="ghoul.html#_ghoul">ghoul</a>s</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>49–54</td>
-<td>1d4 <a href="spider.html#_spider-giant">giant spider</a>s</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>55–56</td>
-<td>1 <a href="cockatrice.html#_cockatrice">cockatrice</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>57–60</td>
-<td>1 <a href="gelatinousCube.html#_gelatinous-cube">gelatinous cube</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>61–64</td>
-<td>1 <a href="rustMonster.html#_rust-monster">rust monster</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>65–68</td>
-<td>1 <a href="shadow.html#_shadow">shadow</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>69–70</td>
-<td>1 <a href="wight.html#_wight">wight</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>71–76</td>
-<td>2d4 <a href="stirge.html#_stirge">stirge</a>s</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>77–82</td>
-<td>1d6 <a href="darkmantle.html#_darkmantle">darkmantle</a>s</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>83–86</td>
-<td>1d6 <a href="troglodyte.html#_troglodyte">troglodyte</a>s</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>87–90</td>
-<td>1d4 <a href="bugbear.html#_bugbear">bugbear</a>s</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>91–92</td>
-<td>1d4 <a href="vargouille.html#_vargouille">vargouille</a>s</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>93–94</td>
-<td>1 <a href="grayOoze.html#_gray-ooze">gray ooze</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>95–96</td>
-<td>1 <a href="mimic.html#_mimic">mimic</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>97–100</td>
-<td>1 <a href="ogre.html#_ogre">ogre</a>
-</td>
-<td>4</td>
-</tr>
-</tbody>
+| 1–6 | 1d6 [dire rat](rat.html#_rat-dire)s | 1 |
+| 7–12 | 1d6 [fire beetle](beetle.html#_beetle-fire)s | 1 |
+| 13–20 | 1d6 [human skeleton](skeleton.html#_skeleton)s | 1 |
+| 21–24 | 1d4 [giant centipede](centipede.html#_centipede-giant)s | 1 |
+| 25–26 | 1 [spider swarm](spider.html#_spider-swarm) | 1 |
+| 27–32 | 1d6 [human zombie](zombie.html#_zombie)s | 2 |
+| 33–34 | 1 [choker](choker.html#_choker) | 2 |
+| 35–36 | 1 [skeletal champion](skeletalChampion.html#_skeletal-champion) | 2 |
+| 37–44 | 2d6 [goblin](goblin.html#_goblin)s | 3 |
+| 45–48 | 1d4 [ghoul](ghoul.html#_ghoul)s | 3 |
+| 49–54 | 1d4 [giant spider](spider.html#_spider-giant)s | 3 |
+| 55–56 | 1 [cockatrice](cockatrice.html#_cockatrice) | 3 |
+| 57–60 | 1 [gelatinous cube](gelatinousCube.html#_gelatinous-cube) | 3 |
+| 61–64 | 1 [rust monster](rustMonster.html#_rust-monster) | 3 |
+| 65–68 | 1 [shadow](shadow.html#_shadow) | 3 |
+| 69–70 | 1 [wight](wight.html#_wight) | 3 |
+| 71–76 | 2d4 [stirge](stirge.html#_stirge)s | 4 |
+| 77–82 | 1d6 [darkmantle](darkmantle.html#_darkmantle)s | 4 |
+| 83–86 | 1d6 [troglodyte](troglodyte.html#_troglodyte)s | 4 |
+| 87–90 | 1d4 [bugbear](bugbear.html#_bugbear)s | 4 |
+| 91–92 | 1d4 [vargouille](vargouille.html#_vargouille)s | 4 |
+| 93–94 | 1 [gray ooze](grayOoze.html#_gray-ooze) | 4 |
+| 95–96 | 1 [mimic](mimic.html#_mimic) | 4 |
+| 97–100 | 1 [ogre](ogre.html#_ogre) | 4 |
 
 ## Dungeon (Mid-Level) CR 5
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–4</td>
-<td>1 <a href="gelatinousCube.html#_gelatinous-cube">gelatinous cube</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>5–8</td>
-<td>1 <a href="rustMonster.html#_rust-monster">rust monster</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>9–16</td>
-<td>2d4 <a href="stirge.html#_stirge">stirge</a>s</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>17–22</td>
-<td>1 <a href="grayOoze.html#_gray-ooze">gray ooze</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>23–26</td>
-<td>1 <a href="mimic.html#_mimic">mimic</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>27–30</td>
-<td>1 <a href="basilisk.html#_basilisk">basilisk</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>31–34</td>
-<td>1 <a href="cloaker.html#_cloaker">cloaker</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>35–38</td>
-<td>1 <a href="gibberingMouther.html#_gibbering-mouther">gibbering mouther</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>39–42</td>
-<td>1 <a href="ochreJelly.html#_ochre-jelly">ochre jelly</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>43–46</td>
-<td>1 <a href="wraith.html#_wraith">wraith</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>47–48</td>
-<td>1 <a href="devil.html#_devil-bearded">bearded devil</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>49–52</td>
-<td>1d4 <a href="shadow.html#_shadow">shadow</a>s</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>53–56</td>
-<td>1d4 <a href="wight.html#_wight">wight</a>s</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>57–62</td>
-<td>1d8 <a href="skeletalChampion.html#_skeletal-champion">skeletal champion</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>63–68</td>
-<td>2d4 <a href="ghoul.html#_ghoul">ghoul</a>s plus 1 <a href="ghoul.html#_ghoul">ghast</a>
-</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>69–72</td>
-<td>1 <a href="ettin.html#_ettin">ettin</a>
-</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>73–78</td>
-<td>1 <a href="minotaur.html#_minotaur">minotaur</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>79–84</td>
-<td>1d4 <a href="ogre.html#_ogre">ogre</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>85–88</td>
-<td>1d4 <a href="troll.html#_troll">troll</a>s</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>89–90</td>
-<td>1 <a href="demon.html#_demon-babau">babau</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>91–94</td>
-<td>1 <a href="blackPudding.html#_black-pudding">black pudding</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>95–96</td>
-<td>1 <a href="medusa.html#_medusa">medusa</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>97–98</td>
-<td>1 <a href="demon.html#_demon-shadow">shadow demon</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>1d4 <a href="xill.html#_xill">xill</a>s</td>
-<td>8</td>
-</tr>
-</tbody>
+| 1–4 | 1 [gelatinous cube](gelatinousCube.html#_gelatinous-cube) | 3 |
+| 5–8 | 1 [rust monster](rustMonster.html#_rust-monster) | 3 |
+| 9–16 | 2d4 [stirge](stirge.html#_stirge)s | 4 |
+| 17–22 | 1 [gray ooze](grayOoze.html#_gray-ooze) | 4 |
+| 23–26 | 1 [mimic](mimic.html#_mimic) | 4 |
+| 27–30 | 1 [basilisk](basilisk.html#_basilisk) | 5 |
+| 31–34 | 1 [cloaker](cloaker.html#_cloaker) | 5 |
+| 35–38 | 1 [gibbering mouther](gibberingMouther.html#_gibbering-mouther) | 5 |
+| 39–42 | 1 [ochre jelly](ochreJelly.html#_ochre-jelly) | 5 |
+| 43–46 | 1 [wraith](wraith.html#_wraith) | 5 |
+| 47–48 | 1 [bearded devil](devil.html#_devil-bearded) | 5 |
+| 49–52 | 1d4 [shadow](shadow.html#_shadow)s | 5 |
+| 53–56 | 1d4 [wight](wight.html#_wight)s | 5 |
+| 57–62 | 1d8 [skeletal champion](skeletalChampion.html#_skeletal-champion)s | 6 |
+| 63–68 | 2d4 [ghoul](ghoul.html#_ghoul)s plus 1 [ghast](ghoul.html#_ghoul) | 6 |
+| 69–72 | 1 [ettin](ettin.html#_ettin) | 6 |
+| 73–78 | 1 [minotaur](minotaur.html#_minotaur) | 4 |
+| 79–84 | 1d4 [ogre](ogre.html#_ogre)s | 6 |
+| 85–88 | 1d4 [troll](troll.html#_troll)s | 7 |
+| 89–90 | 1 [babau](demon.html#_demon-babau) | 7 |
+| 91–94 | 1 [black pudding](blackPudding.html#_black-pudding) | 7 |
+| 95–96 | 1 [medusa](medusa.html#_medusa) | 7 |
+| 97–98 | 1 [shadow demon](demon.html#_demon-shadow) | 7 |
+| 99–100 | 1d4 [xill](xill.html#_xill)s | 8 |
 
 ## Dungeon (High-Level) CR 10
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–4</td>
-<td>1 <a href="blackPudding.html#_black-pudding">black pudding</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>5–8</td>
-<td>1 <a href="naga.html#_naga-dark">dark naga</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>9–14</td>
-<td>1 <a href="mohrg.html#_mohrg">mohrg</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>15–18</td>
-<td>1 <a href="demon.html#_demon-nabasu">nabasu</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>19–22</td>
-<td>1d6 <a href="cloaker.html#_cloaker">cloaker</a>s</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>23–28</td>
-<td>1d6 <a href="wraith.html#_wraith">wraith</a>s</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>29–36</td>
-<td>1d4 <a href="ettin.html#_ettin">ettin</a>s</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>37–40</td>
-<td>1 <a href="devil.html#_devil-bone">bone devil</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>41–44</td>
-<td>1 <a href="nightHag.html#_night-hag">night hag</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>45–48</td>
-<td>1 <a href="naga.html#_naga-spirit">spirit naga</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>49–54</td>
-<td>1 <a href="vampire.html#_vampire">vampire</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>55–58</td>
-<td>1 <a href="demon.html#_demon-vrock">vrock</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>59–66</td>
-<td>1d6 <a href="minotaur.html#_minotaur">minotaur</a>s</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>67–72</td>
-<td>2d4 <a href="troll.html#_troll">troll</a>s</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>73–76</td>
-<td>1d4 <a href="shadow.html#_shadow-greater">greater shadow</a>s</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>77–78</td>
-<td>1 <a href="bebilith.html#_bebilith">bebilith</a>
-</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td>79–82</td>
-<td>1 <a href="devil.html#_devil-barbed">barbed devil</a>
-</td>
-<td>11</td>
-</tr>
-<tr class="even">
-<td>83–86</td>
-<td>1 <a href="devourer.html#_devourer">devourer</a>
-</td>
-<td>11</td>
-</tr>
-<tr class="odd">
-<td>87–88</td>
-<td>1 <a href="demon.html#_demon-hezrou">hezrou</a>
-</td>
-<td>11</td>
-</tr>
-<tr class="even">
-<td>89–92</td>
-<td>1d4 <a href="rakshasa.html#_rakshasa">rakshasa</a>s</td>
-<td>12</td>
-</tr>
-<tr class="odd">
-<td>93–94</td>
-<td>1 <a href="ironCobra.html#_iron-cobra">lich</a>
-</td>
-<td>12</td>
-</tr>
-<tr class="even">
-<td>95–96</td>
-<td>1 <a href="demon.html#_demon-glabrezu">glabrezu</a>
-</td>
-<td>13</td>
-</tr>
-<tr class="odd">
-<td>97–98</td>
-<td>1 <a href="devil.html#_devil-ice">ice devil</a>
-</td>
-<td>13</td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>1 <a href="demon.html#_demon-nalfeshnee">nalfeshnee</a>
-</td>
-<td>14</td>
-</tr>
-</tbody>
+| 1–4 | 1 [black pudding](blackPudding.html#_black-pudding) | 7 |
+| 5–8 | 1 [dark naga](naga.html#_naga-dark) | 8 |
+| 9–14 | 1 [mohrg](mohrg.html#_mohrg) | 8 |
+| 15–18 | 1 [nabasu](demon.html#_demon-nabasu) | 8 |
+| 19–22 | 1d6 [cloaker](cloaker.html#_cloaker)s | 8 |
+| 23–28 | 1d6 [wraith](wraith.html#_wraith)s | 8 |
+| 29–36 | 1d4 [ettin](ettin.html#_ettin)s | 8 |
+| 37–40 | 1 [bone devil](devil.html#_devil-bone) | 9 |
+| 41–44 | 1 [night hag](nightHag.html#_night-hag) | 9 |
+| 45–48 | 1 [spirit naga](naga.html#_naga-spirit) | 9 |
+| 49–54 | 1 [vampire](vampire.html#_vampire) | 9 |
+| 55–58 | 1 [vrock](demon.html#_demon-vrock) | 9 |
+| 59–66 | 1d6 [minotaur](minotaur.html#_minotaur)s | 9 |
+| 67–72 | 2d4 [troll](troll.html#_troll)s | 9 |
+| 73–76 | 1d4 [greater shadow](shadow.html#_shadow-greater)s | 10 |
+| 77–78 | 1 [bebilith](bebilith.html#_bebilith) | 10 |
+| 79–82 | 1 [barbed devil](devil.html#_devil-barbed) | 11 |
+| 83–86 | 1 [devourer](devourer.html#_devourer) | 11 |
+| 87–88 | 1 [hezrou](demon.html#_demon-hezrou) | 11 |
+| 89–92 | 1d4 [rakshasa](rakshasa.html#_rakshasa)s | 12 |
+| 93–94 | 1 [lich](ironCobra.html#_iron-cobra) | 12 |
+| 95–96 | 1 [glabrezu](demon.html#_demon-glabrezu) | 13 |
+| 97–98 | 1 [ice devil](devil.html#_devil-ice) | 13 |
+| 99–100 | 1 [nalfeshnee](demon.html#_demon-nalfeshnee) | 14 |
 
 ## Forest (Temperate Forest) CR 5
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–6</td>
-<td>1 <a href="bat.html#_bat-swarm">bat swarm</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>7–8</td>
-<td>1 <a href="yellowMuskCreeper.html#_yellow-musk-creeper">yellow musk creeper</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>9–12</td>
-<td>1d4 <a href="spider.html#_spider-giant">giant spider</a>s</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>13–16</td>
-<td>1 <a href="assassinVine.html#_assassin-vine">assassin vine</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>17–20</td>
-<td>1 <a href="mantis.html#_mantis-giant">giant mantis</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>21–22</td>
-<td>1 <a href="unicorn.html#_unicorn">unicorn</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>23–26</td>
-<td>1d4 <a href="bat.html#_bat-dire">dire bat</a>s</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>27–32</td>
-<td>1d4 <a href="boar.html#_boar">boar</a>s</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>33–34</td>
-<td>1 <a href="boar.html#_boar-dire">dire boar</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>35–38</td>
-<td>1 <a href="beetle.html#_beetle-giant">giant stag beetle</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>39–42</td>
-<td>1 <a href="owlbear.html#_owlbear">owlbear</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>43–46</td>
-<td>1 <a href="tiger.html#_tiger">tiger</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>47–52</td>
-<td>1d6 <a href="lycanthrope.html#_lycanthrope-werewolf">werewolves</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>53–56</td>
-<td>1d4 <a href="wolf.html#_wolf-dire">dire wolves</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>57–60</td>
-<td>1 <a href="ettercap.html#_ettercap">ettercap</a> and 1d6 <a href="spider.html#_spider-giant">giant spider</a>s</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>61–70</td>
-<td>2d6 <a href="goblin.html#_goblin">goblin</a>s and 1d4 <a href="goblinDog.html#_goblin-dog">goblin dog</a>s</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>71–74</td>
-<td>1 <a href="barghest.html#_barghest">barghest</a> and 2d6 <a href="goblin.html#_goblin">goblin</a>s</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>75–78</td>
-<td>1d6 <a href="centaur.html#_centaur">centaur</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>79–86</td>
-<td>2d6 <a href="wolf.html#_wolf">wolves</a>
-</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>87–88</td>
-<td>1 <a href="nymph.html#_nymph">nymph</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>89–92</td>
-<td>1 <a href="tiger.html#_tiger-dire">dire tiger</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>93–94</td>
-<td>1 <a href="dragon.html#_chromatic-dragon-green">green dragon</a> (young)</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>95–98</td>
-<td>1d4 <a href="shamblingMound.html#_shambling-mound">shambling mound</a>s</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>1 <a href="treant.html#_treant">treant</a>
-</td>
-<td>8</td>
-</tr>
-</tbody>
+| 1–6 | 1 [bat swarm](bat.html#_bat-swarm) | 2 |
+| 7–8 | 1 [yellow musk creeper](yellowMuskCreeper.html#_yellow-musk-creeper) | 2 |
+| 9–12 | 1d4 [giant spider](spider.html#_spider-giant)s | 3 |
+| 13–16 | 1 [assassin vine](assassinVine.html#_assassin-vine) | 3 |
+| 17–20 | 1 [giant mantis](mantis.html#_mantis-giant) | 3 |
+| 21–22 | 1 [unicorn](unicorn.html#_unicorn) | 3 |
+| 23–26 | 1d4 [dire bat](bat.html#_bat-dire)s | 4 |
+| 27–32 | 1d4 [boar](boar.html#_boar)s | 4 |
+| 33–34 | 1 [dire boar](boar.html#_boar-dire) | 4 |
+| 35–38 | 1 [giant stag beetle](beetle.html#_beetle-giant) | 4 |
+| 39–42 | 1 [owlbear](owlbear.html#_owlbear) | 4 |
+| 43–46 | 1 [tiger](tiger.html#_tiger) | 4 |
+| 47–52 | 1d6 [werewolves](lycanthrope.html#_lycanthrope-werewolf) | 5 |
+| 53–56 | 1d4 [dire wolves](wolf.html#_wolf-dire) | 5 |
+| 57–60 | 1 [ettercap](ettercap.html#_ettercap) and 1d6 [giant spider](spider.html#_spider-giant)s | 5 |
+| 61–70 | 2d6 [goblin](goblin.html#_goblin)s and 1d4 [goblin dog](goblinDog.html#_goblin-dog)s | 5 |
+| 71–74 | 1 [barghest](barghest.html#_barghest) and 2d6 [goblin](goblin.html#_goblin)s | 6 |
+| 75–78 | 1d6 [centaur](centaur.html#_centaur)s | 6 |
+| 79–86 | 2d6 [wolves](wolf.html#_wolf) | 6 |
+| 87–88 | 1 [nymph](nymph.html#_nymph) | 7 |
+| 89–92 | 1 [dire tiger](tiger.html#_tiger-dire) | 8 |
+| 93–94 | 1 [green dragon](dragon.html#_chromatic-dragon-green) (young) | 8 |
+| 95–98 | 1d4 [shambling mound](shamblingMound.html#_shambling-mound)s | 8 |
+| 99–100 | 1 [treant](treant.html#_treant) | 8 |
 
 ## Hill/Mountain CR 8
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–6</td>
-<td>1d6 <a href="eagle.html#_eagle">eagle</a>s</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>7–14</td>
-<td>2d6 <a href="orc.html#_orc">orc</a>s</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>15–22</td>
-<td>2d6 <a href="tengu.html#_tengu">tengu</a>s</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>23–30</td>
-<td>2d6 <a href="hobgoblin.html#_hobgoblin">hobgoblin</a>s</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>31–36</td>
-<td>1d4 <a href="eagle.html#_eagle-giant">giant eagle</a>s</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>37–42</td>
-<td>1d6 <a href="ogre.html#_ogre">ogre</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>43–44</td>
-<td>1 <a href="dragon.html#_chromatic-dragon-white">white dragon</a> (young)</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>45–48</td>
-<td>1 <a href="bulette.html#_bulette">bulette</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>49–52</td>
-<td>1 <a href="chimera.html#_chimera">chimera</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>53–58</td>
-<td>1d6 <a href="griffon.html#_griffon">griffon</a>s</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>59–64</td>
-<td>2d4 <a href="bugbear.html#_bugbear">bugbear</a>s</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>65–66</td>
-<td>1d6 <a href="cyclops.html#_cyclops">cyclopes</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>67–68</td>
-<td>1 <a href="gorgon.html#_gorgon">gorgon</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>69–72</td>
-<td>1d4 <a href="wyvern.html#_wyvern">wyvern</a>s</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>73–78</td>
-<td>1d6 <a href="troll.html#_troll">troll</a>s</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>79–80</td>
-<td>1 <a href="oni.html#_oni-ogre-mage">ogre mage</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>81–82</td>
-<td>1 <a href="roc.html#_roc">roc</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>83–86</td>
-<td>1d6 <a href="giant.html#_giant-hill">hill giant</a>s</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td>87–88</td>
-<td>1 <a href="dragon.html#_metallic-dragon-silver">silver dragon</a> (young)</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>89–90</td>
-<td>1 <a href="dragon.html#_chromatic-dragon-red">red dragon</a> (young)</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td>91–92</td>
-<td>1d4 <a href="giant.html#_giant-frost">frost giant</a>s</td>
-<td>11</td>
-</tr>
-<tr class="even">
-<td>93–96</td>
-<td>1d6 <a href="giant.html#_giant-stone">stone giant</a>s</td>
-<td>11</td>
-</tr>
-<tr class="odd">
-<td>97–98</td>
-<td>1 <a href="giant.html#_giant-cloud">cloud giant</a>
-</td>
-<td>11</td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>1d4 <a href="giant.html#_giant-fire">fire giant</a>s</td>
-<td>12</td>
-</tr>
-</tbody>
+| 1–6 | 1d6 [eagle](eagle.html#_eagle)s | 2 |
+| 7–14 | 2d6 [orc](orc.html#_orc)s | 3 |
+| 15–22 | 2d6 [tengu](tengu.html#_tengu)s | 4 |
+| 23–30 | 2d6 [hobgoblin](hobgoblin.html#_hobgoblin)s | 4 |
+| 31–36 | 1d4 [giant eagle](eagle.html#_eagle-giant)s | 5 |
+| 37–42 | 1d6 [ogre](ogre.html#_ogre)s | 6 |
+| 43–44 | 1 [white dragon](dragon.html#_chromatic-dragon-white) (young) | 6 |
+| 45–48 | 1 [bulette](bulette.html#_bulette) | 7 |
+| 49–52 | 1 [chimera](chimera.html#_chimera) | 7 |
+| 53–58 | 1d6 [griffon](griffon.html#_griffon)s | 7 |
+| 59–64 | 2d4 [bugbear](bugbear.html#_bugbear)s | 7 |
+| 65–66 | 1d6 [cyclopes](cyclops.html#_cyclops) | 8 |
+| 67–68 | 1 [gorgon](gorgon.html#_gorgon) | 8 |
+| 69–72 | 1d4 [wyvern](wyvern.html#_wyvern)s | 8 |
+| 73–78 | 1d6 [troll](troll.html#_troll)s | 8 |
+| 79–80 | 1 [ogre mage](oni.html#_oni-ogre-mage) | 8 |
+| 81–82 | 1 [roc](roc.html#_roc) | 9 |
+| 83–86 | 1d6 [hill giant](giant.html#_giant-hill)s | 10 |
+| 87–88 | 1 [silver dragon](dragon.html#_metallic-dragon-silver) (young) | 10 |
+| 89–90 | 1 [red dragon](dragon.html#_chromatic-dragon-red) (young) | 10 |
+| 91–92 | 1d4 [frost giant](giant.html#_giant-frost)s | 11 |
+| 93–96 | 1d6 [stone giant](giant.html#_giant-stone)s | 11 |
+| 97–98 | 1 [cloud giant](giant.html#_giant-cloud) | 11 |
+| 99–100 | 1d4 [fire giant](giant.html#_giant-fire)s | 12 |
 
 ## Jungle (Warm Forest) CR 5
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–4</td>
-<td>1 <a href="bat.html#_bat-swarm">bat swarm</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>5–8</td>
-<td>1 <a href="yellowMuskCreeper.html#_yellow-musk-creeper">yellow musk creeper</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>9–14</td>
-<td>1 <a href="snake.html#_snake-constrictor">constrictor snake</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>15–18</td>
-<td>1d6 <a href="centipede.html#_centipede-giant">giant centipede</a>s</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>19–26</td>
-<td>1 <a href="cat.html#_cat-leopard">leopard</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>27–30</td>
-<td>1d4 <a href="spider.html#_spider-giant">giant spider</a>s</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>31–34</td>
-<td>1d6 <a href="snake.html#_snake-venomous">venomous snake</a>s</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>35–40</td>
-<td>1d4 <a href="boar.html#_boar">boars</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>41–44</td>
-<td>1 <a href="boar.html#_boar-dire">dire boar</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>45–50</td>
-<td>1 <a href="tiger.html#_tiger">tiger</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>51–54</td>
-<td>1 <a href="lizard.html#_lizard-giant-frilled">giant frilled lizard</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>55–60</td>
-<td>1d6 <a href="lizard.html#_lizard-monitor">monitor lizard</a>s</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>61–62</td>
-<td>1 <a href="ant.html#_army-ant-swarm">army ant swarm</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>63–64</td>
-<td>1 <a href="dinosaur.html#_dinosaur-ankylosaurus">ankylosaurus</a>
-</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>65–70</td>
-<td>1d6 <a href="ape.html#_ape-dire">dire ape</a>s</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>71–78</td>
-<td>2d4 <a href="ape.html#_ape-gorilla">gorilla</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>79–82</td>
-<td>2d4 <a href="dinosaur.html#_dinosaur-deinonychus">deinonychus</a>es</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>83–84</td>
-<td>1 <a href="nymph.html#_nymph">nymph</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>85–86</td>
-<td>1d4 <a href="girallon.html#_girallon">girallon</a>s</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>87–90</td>
-<td>1 <a href="tiger.html#_tiger-dire">dire tiger</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>91–94</td>
-<td>1d4 <a href="shamblingMound.html#_shambling-mound">shambling mound</a>s</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>95–96</td>
-<td>1 <a href="treant.html#_treant">treant</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>97–98</td>
-<td>1 <a href="dinosaur.html#_dinosaur-tyrannosaurus">tyrannosaurus</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>1 <a href="dinosaur.html#_dinosaur-brachiosaurus">brachiosaurus</a>
-</td>
-<td>10</td>
-</tr>
-</tbody>
+| 1–4 | 1 [bat swarm](bat.html#_bat-swarm) | 2 |
+| 5–8 | 1 [yellow musk creeper](yellowMuskCreeper.html#_yellow-musk-creeper) | 2 |
+| 9–14 | 1 [constrictor snake](snake.html#_snake-constrictor) | 2 |
+| 15–18 | 1d6 [giant centipede](centipede.html#_centipede-giant)s | 2 |
+| 19–26 | 1 [leopard](cat.html#_cat-leopard) | 2 |
+| 27–30 | 1d4 [giant spider](spider.html#_spider-giant)s | 3 |
+| 31–34 | 1d6 [venomous snake](snake.html#_snake-venomous)s | 4 |
+| 35–40 | 1d4 [boars](boar.html#_boar) | 4 |
+| 41–44 | 1 [dire boar](boar.html#_boar-dire) | 4 |
+| 45–50 | 1 [tiger](tiger.html#_tiger) | 4 |
+| 51–54 | 1 [giant frilled lizard](lizard.html#_lizard-giant-frilled) | 5 |
+| 55–60 | 1d6 [monitor lizard](lizard.html#_lizard-monitor)s | 5 |
+| 61–62 | 1 [army ant swarm](ant.html#_army-ant-swarm) | 5 |
+| 63–64 | 1 [ankylosaurus](dinosaur.html#_dinosaur-ankylosaurus) | 6 |
+| 65–70 | 1d6 [dire ape](ape.html#_ape-dire)s | 6 |
+| 71–78 | 2d4 [gorilla](ape.html#_ape-gorilla)s | 6 |
+| 79–82 | 2d4 [deinonychus](dinosaur.html#_dinosaur-deinonychus)es | 7 |
+| 83–84 | 1 [nymph](nymph.html#_nymph) | 7 |
+| 85–86 | 1d4 [girallon](girallon.html#_girallon)s | 8 |
+| 87–90 | 1 [dire tiger](tiger.html#_tiger-dire) | 8 |
+| 91–94 | 1d4 [shambling mound](shamblingMound.html#_shambling-mound)s | 8 |
+| 95–96 | 1 [treant](treant.html#_treant) | 8 |
+| 97–98 | 1 [tyrannosaurus](dinosaur.html#_dinosaur-tyrannosaurus) | 9 |
+| 99–100 | 1 [brachiosaurus](dinosaur.html#_dinosaur-brachiosaurus) | 10 |
 
 ## Ocean CR 8
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–4</td>
-<td>1 <a href="octopus.html#_octopus">octopus</a>
-</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>5–14</td>
-<td>2d6 <a href="dolphin.html#_dolphin">dolphin</a>s</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>15–19</td>
-<td>2d6 <a href="merfolk.html#_merfolk">merfolk</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>20–23</td>
-<td>1 <a href="seaHag.html#_sea-hag">sea hag</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>24–31</td>
-<td>1d6 <a href="squid.html#_squid">squid</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>32–36</td>
-<td>1d6 <a href="mephit.html#_mephit">water mephit</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>37–38</td>
-<td>1 <a href="aboleth.html#_aboleth">aboleth</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>39–42</td>
-<td>1 <a href="octopus.html#_octopus-giant">giant octopus</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>43–50</td>
-<td>2d6 <a href="sahuagin.html#_sahuagin">sahuagin</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>51–60</td>
-<td>2d6 <a href="shark.html#_shark">shark</a>s</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>61–66</td>
-<td>2d6 <a href="skum.html#_skum">skum</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>67–71</td>
-<td>1d6 <a href="eel.html#_eel-giant-moray">giant moray eel</a>s</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>72–77</td>
-<td>1d6 Large <a href="elemental.html#_elemental-water">water elemental</a>s</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>78–79</td>
-<td>1 <a href="shark.html#_shark-dire">dire shark</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>80–81</td>
-<td>1 <a href="dragonTurtle.html#_dragon-turtle">dragon turtle</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>82–83</td>
-<td>1 <a href="spider.html#_spider-giant">giant squid</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>84–85</td>
-<td>1d4 <a href="dinosaur.html#_dinosaur-elasmosaurus">elasmosaurus</a>es</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>86–91</td>
-<td>2d4 <a href="dolphin.html#_dolphin-orca">orca</a>s</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>92–93</td>
-<td>1 <a href="dragon.html#_metallic-dragon-bronze">bronze dragon</a> (young)</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>94–95</td>
-<td>1 <a href="genie.html#_genie-marid">marid</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>96–97</td>
-<td>1 elder <a href="elemental.html#_elemental-water">water elemental</a>
-</td>
-<td>11</td>
-</tr>
-<tr class="even">
-<td>98</td>
-<td>1 <a href="seaSerpent.html#_sea-serpent">sea serpent</a>
-</td>
-<td>12</td>
-</tr>
-<tr class="odd">
-<td>99</td>
-<td>1 <a href="kraken.html#_kraken">kraken</a>
-</td>
-<td>18</td>
-</tr>
-<tr class="even">
-<td>100</td>
-<td>1 <a href="shoggoth.html#_shoggoth">shoggoth</a>
-</td>
-<td>19</td>
-</tr>
-</tbody>
+| 1–4 | 1 [octopus](octopus.html#_octopus) | 1 |
+| 5–14 | 2d6 [dolphin](dolphin.html#_dolphin)s | 4 |
+| 15–19 | 2d6 [merfolk](merfolk.html#_merfolk) | 4 |
+| 20–23 | 1 [sea hag](seaHag.html#_sea-hag) | 4 |
+| 24–31 | 1d6 [squid](squid.html#_squid) | 4 |
+| 32–36 | 1d6 [water mephit](mephit.html#_mephit)s | 6 |
+| 37–38 | 1 [aboleth](aboleth.html#_aboleth) | 7 |
+| 39–42 | 1 [giant octopus](octopus.html#_octopus-giant) | 8 |
+| 43–50 | 2d6 [sahuagin](sahuagin.html#_sahuagin) | 8 |
+| 51–60 | 2d6 [shark](shark.html#_shark)s | 8 |
+| 61–66 | 2d6 [skum](skum.html#_skum) | 8 |
+| 67–71 | 1d6 [giant moray eel](eel.html#_eel-giant-moray)s | 8 |
+| 72–77 | 1d6 Large [water elemental](elemental.html#_elemental-water)s | 8 |
+| 78–79 | 1 [dire shark](shark.html#_shark-dire) | 9 |
+| 80–81 | 1 [dragon turtle](dragonTurtle.html#_dragon-turtle) | 9 |
+| 82–83 | 1 [giant squid](spider.html#_spider-giant) | 9 |
+| 84–85 | 1d4 [elasmosaurus](dinosaur.html#_dinosaur-elasmosaurus)es | 9 |
+| 86–91 | 2d4 [orca](dolphin.html#_dolphin-orca)s | 9 |
+| 92–93 | 1 [bronze dragon](dragon.html#_metallic-dragon-bronze) (young) | 9 |
+| 94–95 | 1 [marid](genie.html#_genie-marid) | 9 |
+| 96–97 | 1 elder [water elemental](elemental.html#_elemental-water) | 11 |
+| 98 | 1 [sea serpent](seaSerpent.html#_sea-serpent) | 12 |
+| 99 | 1 [kraken](kraken.html#_kraken) | 18 |
+| 100 | 1 [shoggoth](shoggoth.html#_shoggoth) | 19 |
 
 ## Ruined City CR 6
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–4</td>
-<td>1 <a href="spider.html#_spider-swarm">spider swarm</a>
-</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>5–8</td>
-<td>1 <a href="rat.html#_rat-swarm">rat swarm</a>
-</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>9–16</td>
-<td>2d6 <a href="skeleton.html#_skeleton">human skeleton</a>s</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>17–24</td>
-<td>1d6 <a href="stirge.html#_stirge">stirge</a>s</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>25–28</td>
-<td>1 <a href="assassinVine.html#_assassin-vine">assassin vine</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>29–36</td>
-<td>1d6 <a href="ghoul.html#_ghoul">ghoul</a>s</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>37–38</td>
-<td>1 <a href="barghest.html#_barghest">barghest</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>39–44</td>
-<td>1d6 <a href="skeletalChampion.html#_skeletal-champion">skeletal champion</a>s</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>45–48</td>
-<td>1d4 <a href="yethHound.html#_yeth-hound">yeth hound</a>s</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>49–54</td>
-<td>1d6 <a href="ogre.html#_ogre">ogre</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>55–58</td>
-<td>1d6 <a href="shadow.html#_shadow">shadow</a>s</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>59–62</td>
-<td>1d6 <a href="wight.html#_wight">wight</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>63–64</td>
-<td>1 <a href="lamia.html#_lamia">lamia</a>
-</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>65–70</td>
-<td>1d6 <a href="harpy.html#_harpy">harpies</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>71–72</td>
-<td>1 <a href="medusa.html#_medusa">medusa</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>73–74</td>
-<td>1 <a href="demon.html#_demon-nabasu">nabasu</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>75–76</td>
-<td>1 <a href="naga.html#_naga-dark">dark naga</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>77–84</td>
-<td>1d8 <a href="gargoyle.html#_gargoyle">gargoyle</a>s</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>85–88</td>
-<td>1d6 <a href="cyclops.html#_cyclops">cyclopes</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>89–92</td>
-<td>1d6 <a href="wraith.html#_wraith">wraith</a>s</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>93–94</td>
-<td>1 <a href="behir.html#_behir">behir</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>95–96</td>
-<td>1 <a href="sphinx.html#_sphinx">sphinx</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>97–98</td>
-<td>1 <a href="naga.html#_naga-spirit">spirit naga</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>1d4 <a href="spectre.html#_spectre">spectre</a>s</td>
-<td>9</td>
-</tr>
-</tbody>
+| 1–4 | 1 [spider swarm](spider.html#_spider-swarm) | 1 |
+| 5–8 | 1 [rat swarm](rat.html#_rat-swarm) | 1 |
+| 9–16 | 2d6 [human skeleton](skeleton.html#_skeleton)s | 3 |
+| 17–24 | 1d6 [stirge](stirge.html#_stirge)s | 3 |
+| 25–28 | 1 [assassin vine](assassinVine.html#_assassin-vine) | 3 |
+| 29–36 | 1d6 [ghoul](ghoul.html#_ghoul)s | 4 |
+| 37–38 | 1 [barghest](barghest.html#_barghest) | 4 |
+| 39–44 | 1d6 [skeletal champion](skeletalChampion.html#_skeletal-champion)s | 5 |
+| 45–48 | 1d4 [yeth hound](yethHound.html#_yeth-hound)s | 5 |
+| 49–54 | 1d6 [ogre](ogre.html#_ogre)s | 6 |
+| 55–58 | 1d6 [shadow](shadow.html#_shadow)s | 6 |
+| 59–62 | 1d6 [wight](wight.html#_wight)s | 6 |
+| 63–64 | 1 [lamia](lamia.html#_lamia) | 6 |
+| 65–70 | 1d6 [harpies](harpy.html#_harpy) | 7 |
+| 71–72 | 1 [medusa](medusa.html#_medusa) | 7 |
+| 73–74 | 1 [nabasu](demon.html#_demon-nabasu) | 8 |
+| 75–76 | 1 [dark naga](naga.html#_naga-dark) | 8 |
+| 77–84 | 1d8 [gargoyle](gargoyle.html#_gargoyle)s | 8 |
+| 85–88 | 1d6 [cyclopes](cyclops.html#_cyclops) | 8 |
+| 89–92 | 1d6 [wraith](wraith.html#_wraith)s | 8 |
+| 93–94 | 1 [behir](behir.html#_behir) | 8 |
+| 95–96 | 1 [sphinx](sphinx.html#_sphinx) | 8 |
+| 97–98 | 1 [spirit naga](naga.html#_naga-spirit) | 9 |
+| 99–100 | 1d4 [spectre](spectre.html#_spectre)s | 9 |
 
 ## Savannah (Warm Plains) CR 7
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–6</td>
-<td>1 <a href="cat.html#_cat-cheetah">cheetah</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>7–10</td>
-<td>1 <a href="cockatrice.html#_cockatrice">cockatrice</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>11–16</td>
-<td>1 <a href="scorpion.html#_scorpion-giant">giant scorpion</a>
-</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>17–20</td>
-<td>1 <a href="lion.html#_lion-dire">dire lion</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>21–26</td>
-<td>1 <a href="lizard.html#_lizard-giant-frilled">giant frilled lizard</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>27–30</td>
-<td>1d6 <a href="ankheg.html#_ankheg">ankheg</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>31–34</td>
-<td>1d6 <a href="dinosaur.html#_dinosaur-pteranodon">pteranodon</a>s</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>35–40</td>
-<td>1d8 <a href="lizard.html#_lizard-monitor">monitor lizard</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>41–44</td>
-<td>1d6 <a href="hyena.html#_hyena-dire">dire hyena</a>s</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>45–52</td>
-<td>2d6 <a href="hyena.html#_hyena">hyena</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>53–60</td>
-<td>2d6 <a href="gnoll.html#_gnoll">gnoll</a>s</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>61–66</td>
-<td>1d6 <a href="lion.html#_lion">lion</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>67–70</td>
-<td>2d6 <a href="ant.html#_ant-giant">giant ant</a>s</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>71–74</td>
-<td>2d4 <a href="pegasus.html#_pegasus">pegasi</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>75–78</td>
-<td>2d6 <a href="centaur.html#_centaur">centaur</a>s</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>79–80</td>
-<td>1 <a href="tiger.html#_tiger-dire">dire tiger</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>81–82</td>
-<td>1d6 <a href="dinosaur.html#_dinosaur-ankylosaurus">ankylosaurus</a>es</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>83–84</td>
-<td>1d6 <a href="dinosaur.html#_dinosaur-stegosaurus">stegosaurus</a>es</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td>85–88</td>
-<td>2d4 <a href="rhinoceros.html#_rhinoceros">rhinoceros</a>es</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>89–90</td>
-<td>1 <a href="dragon.html#_metallic-dragon-gold">gold dragon</a> (young)</td>
-<td>11</td>
-</tr>
-<tr class="odd">
-<td>91–94</td>
-<td>2d4 <a href="elephant.html#_elephant">elephant</a>s</td>
-<td>11</td>
-</tr>
-<tr class="even">
-<td>95–96</td>
-<td>1d6 <a href="dinosaur.html#_dinosaur-tyrannosaurus">tyrannosaurus</a>es</td>
-<td>12</td>
-</tr>
-<tr class="odd">
-<td>97–98</td>
-<td>1d8 <a href="dinosaur.html#_dinosaur-triceratops">triceratops</a>
-</td>
-<td>12</td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>1d6 <a href="dinosaur.html#_dinosaur-brachiosaurus">brachiosaurus</a>es</td>
-<td>13</td>
-</tr>
-</tbody>
+| 1–6 | 1 [cheetah](cat.html#_cat-cheetah) | 2 |
+| 7–10 | 1 [cockatrice](cockatrice.html#_cockatrice) | 3 |
+| 11–16 | 1 [giant scorpion](scorpion.html#_scorpion-giant) | 3 |
+| 17–20 | 1 [dire lion](lion.html#_lion-dire) | 5 |
+| 21–26 | 1 [giant frilled lizard](lizard.html#_lizard-giant-frilled) | 5 |
+| 27–30 | 1d6 [ankheg](ankheg.html#_ankheg)s | 6 |
+| 31–34 | 1d6 [pteranodon](dinosaur.html#_dinosaur-pteranodon)s | 6 |
+| 35–40 | 1d8 [monitor lizard](lizard.html#_lizard-monitor)s | 6 |
+| 41–44 | 1d6 [dire hyena](hyena.html#_hyena-dire)s | 6 |
+| 45–52 | 2d6 [hyena](hyena.html#_hyena)s | 6 |
+| 53–60 | 2d6 [gnoll](gnoll.html#_gnoll)s | 6 |
+| 61–66 | 1d6 [lion](lion.html#_lion)s | 6 |
+| 67–70 | 2d6 [giant ant](ant.html#_ant-giant)s | 7 |
+| 71–74 | 2d4 [pegasi](pegasus.html#_pegasus) | 7 |
+| 75–78 | 2d6 [centaur](centaur.html#_centaur)s | 8 |
+| 79–80 | 1 [dire tiger](tiger.html#_tiger-dire) | 8 |
+| 81–82 | 1d6 [ankylosaurus](dinosaur.html#_dinosaur-ankylosaurus)es | 9 |
+| 83–84 | 1d6 [stegosaurus](dinosaur.html#_dinosaur-stegosaurus)es | 10 |
+| 85–88 | 2d4 [rhinoceros](rhinoceros.html#_rhinoceros)es | 10 |
+| 89–90 | 1 [gold dragon](dragon.html#_metallic-dragon-gold) (young) | 11 |
+| 91–94 | 2d4 [elephant](elephant.html#_elephant)s | 11 |
+| 95–96 | 1d6 [tyrannosaurus](dinosaur.html#_dinosaur-tyrannosaurus)es | 12 |
+| 97–98 | 1d8 [triceratops](dinosaur.html#_dinosaur-triceratops) | 12 |
+| 99–100 | 1d6 [brachiosaurus](dinosaur.html#_dinosaur-brachiosaurus)es | 13 |
 
 ## Swamp CR 7
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–6</td>
-<td>1 <a href="snake.html#_snake-constrictor">constrictor snake</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>7–10</td>
-<td>1 <a href="hydra.html#_hydra">hydra</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>11–14</td>
-<td>1 <a href="leech.html#_leech-swarm">leech swarm</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>15–18</td>
-<td>1 <a href="grayOoze.html#_gray-ooze">gray ooze</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>19–22</td>
-<td>1 <a href="greenHag.html#_green-hag">green hag</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>23–26</td>
-<td>1 <a href="ochreJelly.html#_ochre-jelly">ochre jelly</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>27–32</td>
-<td>2d6 <a href="stirge.html#_stirge">stirge</a>s</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>33–38</td>
-<td>1d6 <a href="crocodile.html#_crocodile">crocodile</a>s</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>39–46</td>
-<td>2d6 <a href="frog.html#_frog-giant">giant frog</a>s</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>47–52</td>
-<td>2d6 <a href="goblinDog.html#_goblin-dog">goblin dog</a>s</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>53–56</td>
-<td>1d4 <a href="harpy.html#_harpy">harpies</a>
-</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>57–64</td>
-<td>2d6 <a href="lizardfolk.html#_lizardfolk">lizardfolk</a>
-</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>65–72</td>
-<td>2d6 <a href="boggard.html#_boggard">boggard</a>s</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>73–74</td>
-<td>1 <a href="chuul.html#_chuul">chuul</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>75–76</td>
-<td>1 <a href="halfDragon.html#_half-dragon">dracolisk</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>77–80</td>
-<td>2d6 <a href="leech.html#_leech-giant">giant leech</a>es</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>81–82</td>
-<td>1 <a href="dragon.html#_chromatic-dragon-black">black dragon</a> (young)</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>83–84</td>
-<td>1 <a href="slug.html#_slug-giant">giant slug</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>85–88</td>
-<td>1d6 <a href="shamblingMound.html#_shambling-mound">shambling mound</a>s</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>89–90</td>
-<td>1 <a href="naga.html#_naga-spirit">spirit naga</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>91–94</td>
-<td>1d6 <a href="willOWisp.html#_will-o-wisp">will-o'-wisp</a>s</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>95–96</td>
-<td>1 <a href="crocodile.html#_crocodile-dire">dire crocodile</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>97–98</td>
-<td>1 <a href="flytrap.html#_flytrap-giant">giant flytrap</a>
-</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>1 <a href="froghemoth.html#_froghemoth">froghemoth</a>
-</td>
-<td>13</td>
-</tr>
-</tbody>
+| 1–6 | 1 [constrictor snake](snake.html#_snake-constrictor) | 2 |
+| 7–10 | 1 [hydra](hydra.html#_hydra) | 4 |
+| 11–14 | 1 [leech swarm](leech.html#_leech-swarm) | 4 |
+| 15–18 | 1 [gray ooze](grayOoze.html#_gray-ooze) | 4 |
+| 19–22 | 1 [green hag](greenHag.html#_green-hag) | 5 |
+| 23–26 | 1 [ochre jelly](ochreJelly.html#_ochre-jelly) | 5 |
+| 27–32 | 2d6 [stirge](stirge.html#_stirge)s | 5 |
+| 33–38 | 1d6 [crocodile](crocodile.html#_crocodile)s | 5 |
+| 39–46 | 2d6 [giant frog](frog.html#_frog-giant)s | 6 |
+| 47–52 | 2d6 [goblin dog](goblinDog.html#_goblin-dog)s | 6 |
+| 53–56 | 1d4 [harpies](harpy.html#_harpy) | 6 |
+| 57–64 | 2d6 [lizardfolk](lizardfolk.html#_lizardfolk) | 6 |
+| 65–72 | 2d6 [boggard](boggard.html#_boggard)s | 7 |
+| 73–74 | 1 [chuul](chuul.html#_chuul) | 7 |
+| 75–76 | 1 [dracolisk](halfDragon.html#_half-dragon) | 7 |
+| 77–80 | 2d6 [giant leech](leech.html#_leech-giant)es | 7 |
+| 81–82 | 1 [black dragon](dragon.html#_chromatic-dragon-black) (young) | 7 |
+| 83–84 | 1 [giant slug](slug.html#_slug-giant) | 8 |
+| 85–88 | 1d6 [shambling mound](shamblingMound.html#_shambling-mound)s | 9 |
+| 89–90 | 1 [spirit naga](naga.html#_naga-spirit) | 9 |
+| 91–94 | 1d6 [will-o'-wisp](willOWisp.html#_will-o-wisp)s | 9 |
+| 95–96 | 1 [dire crocodile](crocodile.html#_crocodile-dire) | 9 |
+| 97–98 | 1 [giant flytrap](flytrap.html#_flytrap-giant) | 10 |
+| 99–100 | 1 [froghemoth](froghemoth.html#_froghemoth) | 13 |
 
 ## Underground CR 9
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–10</td>
-<td>2d6 <a href="duergar.html#_duergar">duergar</a>
-</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>11–16</td>
-<td>1d6 <a href="caveFisher.html#_cave-fisher">cave fisher</a>s</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>17–22</td>
-<td>1 <a href="basidirond.html#_basidirond">basidirond</a>
-</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>23–32</td>
-<td>2d6 <a href="drow.html#_drow">drow</a> and 1 drow noble</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>33–40</td>
-<td>2d6 <a href="spider.html#_spider-giant">giant spider</a>s</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>41–46</td>
-<td>1d6 <a href="violetFungus.html#_violet-fungus">violet fungi</a>
-</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>47–52</td>
-<td>1d8 <a href="derro.html#_derro">derro</a>s</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>53–60</td>
-<td>2d6 <a href="morlock.html#_morlock">morlock</a>s</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>61–64</td>
-<td>1 <a href="blackPudding.html#_black-pudding">black pudding</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>65–68</td>
-<td>1 <a href="slug.html#_slug-giant">giant slug</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>69–72</td>
-<td>1d6 <a href="cloaker.html#_cloaker">cloaker</a>s</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>73–82</td>
-<td>2d6 <a href="darkCreeper.html#_dark-creeper">dark creeper</a>s, 1 <a href="darkStalker.html#_dark-stalker">dark stalker</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>83–86</td>
-<td>1d6 <a href="drider.html#_drider">drider</a>s</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>87–90</td>
-<td>1d6 <a href="intellectDevourer.html#_intellect-devourer">intellect devourer</a>s</td>
-<td>11</td>
-</tr>
-<tr class="odd">
-<td>91–92</td>
-<td>1 <a href="purpleWorm.html#_purple-worm">purple worm</a>
-</td>
-<td>12</td>
-</tr>
-<tr class="even">
-<td>93–96</td>
-<td>1d4 <a href="roper.html#_roper">roper</a>s</td>
-<td>14</td>
-</tr>
-<tr class="odd">
-<td>97–98</td>
-<td>1 <a href="neothelid.html#_neothelid">neothelid</a>
-</td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>1 <a href="shoggoth.html#_shoggoth">shoggoth</a>
-</td>
-<td>19</td>
-</tr>
-</tbody>
+| 1–10 | 2d6 [duergar](duergar.html#_duergar) | 4 |
+| 11–16 | 1d6 [cave fisher](caveFisher.html#_cave-fisher)s | 5 |
+| 17–22 | 1 [basidirond](basidirond.html#_basidirond) | 5 |
+| 23–32 | 2d6 [drow](drow.html#_drow) and 1 drow noble | 5 |
+| 33–40 | 2d6 [giant spider](spider.html#_spider-giant)s | 6 |
+| 41–46 | 1d6 [violet fungi](violetFungus.html#_violet-fungus) | 6 |
+| 47–52 | 1d8 [derro](derro.html#_derro)s | 7 |
+| 53–60 | 2d6 [morlock](morlock.html#_morlock)s | 7 |
+| 61–64 | 1 [black pudding](blackPudding.html#_black-pudding) | 7 |
+| 65–68 | 1 [giant slug](slug.html#_slug-giant) | 8 |
+| 69–72 | 1d6 [cloaker](cloaker.html#_cloaker)s | 8 |
+| 73–82 | 2d6 [dark creeper](darkCreeper.html#_dark-creeper)s, 1 [dark stalker](darkStalker.html#_dark-stalker) | 8 |
+| 83–86 | 1d6 [drider](drider.html#_drider)s | 10 |
+| 87–90 | 1d6 [intellect devourer](intellectDevourer.html#_intellect-devourer)s | 11 |
+| 91–92 | 1 [purple worm](purpleWorm.html#_purple-worm) | 12 |
+| 93–96 | 1d4 [roper](roper.html#_roper)s | 14 |
+| 97–98 | 1 [neothelid](neothelid.html#_neothelid) | 15 |
+| 99–100 | 1 [shoggoth](shoggoth.html#_shoggoth) | 19 |
 
 ## Urban (Dangerous City) CR 6
 
 | d% | Encounter | Avg. CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–12</td>
-<td>1d6 <a href="dog.html#_dog">dog</a>s</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>13–20</td>
-<td>1 <a href="rat.html#_rat-swarm">rat swarm</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>21–30</td>
-<td>1d6 <a href="dog.html#_dog-riding">riding dog</a>s</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>31–32</td>
-<td>1 <a href="lycanthrope.html#_lycanthrope-werewolf">werewolf</a>
-</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>33–40</td>
-<td>3d6 <a href="rat.html#_rat-dire">dire rat</a>s</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>41–48</td>
-<td>2d6 <a href="tengu.html#_tengu">tengu</a>s</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>49–56</td>
-<td>2d6 <a href="tiefling.html#_tiefling">tiefling</a>s</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>57–62</td>
-<td>1d6 <a href="ghoul.html#_ghoul">ghoul</a>s</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>63–68</td>
-<td>1d6 <a href="doppelganger.html#_doppelganger">doppelganger</a>s</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>69–78</td>
-<td>2d6 <a href="lycanthrope.html#_lycanthrope-wererat">wererat</a>s</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>79–82</td>
-<td>1 <a href="demon.html#_demon-succubus">succubus</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>83–86</td>
-<td>1d6 <a href="genie.html#_genie-janni">jann</a>
-</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>87–90</td>
-<td>1d8 <a href="gargoyle.html#_gargoyle">gargoyle</a>s</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>91–92</td>
-<td>1 <a href="mohrg.html#_mohrg">mohrg</a>
-</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>93–94</td>
-<td>1 <a href="intellectDevourer.html#_intellect-devourer">intellect devourer</a> (body theft)</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>95–96</td>
-<td>1 <a href="vampire.html#_vampire">vampire</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>97–98</td>
-<td>1 <a href="nightHag.html#_night-hag">night hag</a>
-</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>1 <a href="rakshasa.html#_rakshasa">rakshasa</a>
-</td>
-<td>10</td>
-</tr>
-</tbody>
+| 1–12 | 1d6 [dog](dog.html#_dog)s | 1 |
+| 13–20 | 1 [rat swarm](rat.html#_rat-swarm) | 2 |
+| 21–30 | 1d6 [riding dog](dog.html#_dog-riding)s | 2 |
+| 31–32 | 1 [werewolf](lycanthrope.html#_lycanthrope-werewolf) | 2 |
+| 33–40 | 3d6 [dire rat](rat.html#_rat-dire)s | 4 |
+| 41–48 | 2d6 [tengu](tengu.html#_tengu)s | 4 |
+| 49–56 | 2d6 [tiefling](tiefling.html#_tiefling)s | 4 |
+| 57–62 | 1d6 [ghoul](ghoul.html#_ghoul)s | 4 |
+| 63–68 | 1d6 [doppelganger](doppelganger.html#_doppelganger)s | 5 |
+| 69–78 | 2d6 [wererat](lycanthrope.html#_lycanthrope-wererat)s | 7 |
+| 79–82 | 1 [succubus](demon.html#_demon-succubus) | 7 |
+| 83–86 | 1d6 [jann](genie.html#_genie-janni) | 7 |
+| 87–90 | 1d8 [gargoyle](gargoyle.html#_gargoyle)s | 8 |
+| 91–92 | 1 [mohrg](mohrg.html#_mohrg) | 8 |
+| 93–94 | 1 [intellect devourer](intellectDevourer.html#_intellect-devourer) (body theft) | 8 |
+| 95–96 | 1 [vampire](vampire.html#_vampire) | 9 |
+| 97–98 | 1 [night hag](nightHag.html#_night-hag) | 9 |
+| 99–100 | 1 [rakshasa](rakshasa.html#_rakshasa) | 10 |
+

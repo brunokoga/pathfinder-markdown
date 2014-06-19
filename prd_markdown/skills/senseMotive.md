@@ -8,20 +8,9 @@ You are skilled at detecting falsehoods and true intentions.
 
 | Task | Sense Motive DC |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Hunch</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td>Sense enchantment</td>
-<td>25 or 15</td>
-</tr>
-<tr class="odd">
-<td>Discern secret message</td>
-<td>Varies</td>
-</tr>
-</tbody>
+| Hunch | 20 |
+| Sense enchantment | 25 or 15 |
+| Discern secret message | Varies |
 
 _Hunch_: This use of the skill involves making a gut assessment of the social situation. You can get the feeling from another's behavior that something is wrong, such as when you're talking to an impostor. Alternatively, you can get the feeling that someone is trustworthy.
 

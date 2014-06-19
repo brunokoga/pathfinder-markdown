@@ -90,54 +90,16 @@ _Spell-Like Abilities_: A half-fiend with an Int or Wis score of 8 or higher has
 
 | HD | Abilities |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–2</td>
-<td>
-<i><a href="../spells/darkness.html#_darkness">Darkness</a></i> 3/day</td>
-</tr>
-<tr class="even">
-<td>3–4</td>
-<td><i><a href="../spells/desecrate.html#_desecrate">Desecrate </a></i></td>
-</tr>
-<tr class="odd">
-<td>5–6</td>
-<td><i><a href="../spells/unholyBlight.html#_unholy-blight">Unholy blight</a></i></td>
-</tr>
-<tr class="even">
-<td>7–8</td>
-<td>
-<i><a href="../spells/poison.html#_poison">Poison</a></i> 3/day</td>
-</tr>
-<tr class="odd">
-<td>9–10</td>
-<td><i><a href="../spells/contagion.html#_contagion">Contagion </a></i></td>
-</tr>
-
-<tr class="even">
-<td>11–12</td>
-<td><i><a href="../spells/blasphemy.html#_blasphemy">Blasphemy</a></i></td>
-</tr>
-<tr class="odd">
-<td>13–14</td>
-<td> <i><a href="../spells/unholyAura.html#_unholy-aura">Unholy aura</a></i> 3/day, <i><a href="../spells/unhallow.html#_unhallow">unhallow</a></i>
-</td>
-</tr>
-<tr class="even">
-<td>15–16 </td>
-<td><i><a href="../spells/horridWilting.html#_horrid-wilting">Horrid wilting</a></i></td>
-</tr>
-<tr class="odd">
-<td>17–18</td>
-<td>
-<i><a href="../spells/summonMonster.html#_summon-monster-ix">Summon monster IX</a></i> (fiends only)</td>
-</tr>
-<tr class="even">
-<td>19–20</td>
-<td> <i><a href="../spells/destruction.html#_destruction">Destruction</a></i>
-</td>
-</tr>
-</tbody>
+| 1–2 | _ [Darkness](../spells/darkness.html#_darkness)_ 3/day |
+| 3–4 | _ [Desecrate](../spells/desecrate.html#_desecrate)_ |
+| 5–6 | _ [Unholy blight](../spells/unholyBlight.html#_unholy-blight)_ |
+| 7–8 | _ [Poison](../spells/poison.html#_poison)_ 3/day |
+| 9–10 | _ [Contagion](../spells/contagion.html#_contagion)_ |
+| 11–12 | _ [Blasphemy](../spells/blasphemy.html#_blasphemy)_ |
+| 13–14 | _ [Unholy aura](../spells/unholyAura.html#_unholy-aura)_ 3/day, _ [unhallow](../spells/unhallow.html#_unhallow)_ |
+| 15–16 | _ [Horrid wilting](../spells/horridWilting.html#_horrid-wilting)_ |
+| 17–18 | _ [Summon monster IX](../spells/summonMonster.html#_summon-monster-ix)_ (fiends only) |
+| 19–20 | _ [Destruction](../spells/destruction.html#_destruction)_ |
 
 **Abilities** : A half-fiend gains a +4 bonus on three ability scores of its choice and a +2 bonus on the other three.
 

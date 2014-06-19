@@ -56,44 +56,12 @@ Other species of giant centipedes exist as well, some smaller but most quite a b
 
 | Species | CR | Size | HD |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>House centipede</td>
-<td>1/8</td>
-<td>Tiny</td>
-<td>1d8</td>
-</tr>
-<tr class="even">
-<td>Sewer centipede</td>
-<td>1/4</td>
-<td>Small</td>
-<td>1d8</td>
-</tr>
-<tr class="odd">
-<td>Hissing centipede</td>
-<td>1</td>
-<td>Large</td>
-<td>2d8</td>
-</tr>
-<tr class="even">
-<td>Giant whiptail centipede</td>
-<td>2</td>
-<td>Huge</td>
-<td>4d8</td>
-</tr>
-<tr class="odd">
-<td>Great forest centipede</td>
-<td>6</td>
-<td>Gargantuan</td>
-<td>7d8</td>
-</tr>
-<tr class="even">
-<td>Titan centipede</td>
-<td>9</td>
-<td>Colossal</td>
-<td>10d8</td>
-</tr>
-</tbody>
+| House centipede | 1/8 | Tiny | 1d8 |
+| Sewer centipede | 1/4 | Small | 1d8 |
+| Hissing centipede | 1 | Large | 2d8 |
+| Giant whiptail centipede | 2 | Huge | 4d8 |
+| Great forest centipede | 6 | Gargantuan | 7d8 |
+| Titan centipede | 9 | Colossal | 10d8 |
 
 # Centipede Swarm
 

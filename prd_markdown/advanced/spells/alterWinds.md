@@ -18,21 +18,8 @@ You subtly enhance or diminish the effects of natural winds within the spell's a
 
 | Caster Level | Wind Force |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1st–3rd</td>
-<td>Light</td>
-</tr>
-<tr class="even">
-<td>4th–9th</td>
-<td>Moderate</td>
-</tr>
-<tr class="odd">
-<td>10th–15th</td>
-<td>Strong</td>
-</tr>
-<tr class="even">
-<td>16th or higher</td>
-<td>Severe</td>
-</tr>
-</tbody>
+| 1st–3rd | Light |
+| 4th–9th | Moderate |
+| 10th–15th | Strong |
+| 16th or higher | Severe |
+

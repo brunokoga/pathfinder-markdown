@@ -34,43 +34,11 @@ _Mishap_: You and anyone else teleporting with you have gotten âscrambled.�
 
 | Familiarity | On Target | Off Target | Similar Area | Mishap |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Very familiar</td>
-<td>01–97</td>
-<td>98–99</td>
-<td>100</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Studied carefully</td>
-<td>01–94</td>
-<td>95–97</td>
-<td>98–99</td>
-<td>100</td>
-</tr>
-<tr class="odd">
-<td>Seen casually</td>
-<td>01–88</td>
-<td>89–94</td>
-<td>95–98</td>
-<td>99–100</td>
-</tr>
-<tr class="even">
-<td>Viewed once</td>
-<td>01–76</td>
-<td>77–88</td>
-<td>89–96</td>
-<td>97–100</td>
-</tr>
-<tr class="odd">
-<td>False destination</td>
-<td>—</td>
-<td>—</td>
-<td>81–92</td>
-<td>93–100</td>
-</tr>
-</tbody>
+| Very familiar | 01–97 | 98–99 | 100 | — |
+| Studied carefully | 01–94 | 95–97 | 98–99 | 100 |
+| Seen casually | 01–88 | 89–94 | 95–98 | 99–100 |
+| Viewed once | 01–76 | 77–88 | 89–96 | 97–100 |
+| False destination | — | — | 81–92 | 93–100 |
 
 **Teleport, Greater**
 

@@ -9,52 +9,17 @@ Each level, your character gains a number of skill ranks dependent upon your cla
 [Table: Skill Ranks]
 | Class | Skill Ranks per Level |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Barbarian</td>
-<td>4 + <a href="gettingStarted.html#_intelligence">Int</a> modifier</td>
-</tr>
-<tr class="even">
-<td>Bard</td>
-<td>6 + <a href="gettingStarted.html#_intelligence">Int</a> modifier</td>
-</tr>
-<tr class="odd">
-<td>Cleric</td>
-<td>2 + <a href="gettingStarted.html#_intelligence">Int</a> modifier</td>
-</tr>
-<tr class="even">
-<td>Druid</td>
-<td>4 + <a href="gettingStarted.html#_intelligence">Int</a> modifier</td>
-</tr>
-<tr class="odd">
-<td>Fighter</td>
-<td>2 + <a href="gettingStarted.html#_intelligence">Int</a> modifier</td>
-</tr>
-<tr class="even">
-<td>Monk</td>
-<td>4 + <a href="gettingStarted.html#_intelligence">Int</a> modifier</td>
-</tr>
-<tr class="odd">
-<td>Paladin</td>
-<td>2 + <a href="gettingStarted.html#_intelligence">Int</a> modifier</td>
-</tr>
-<tr class="even">
-<td>Ranger</td>
-<td>6 + <a href="gettingStarted.html#_intelligence">Int</a> modifier</td>
-</tr>
-<tr class="odd">
-<td>Rogue</td>
-<td>8 + <a href="gettingStarted.html#_intelligence">Int</a> modifier</td>
-</tr>
-<tr class="even">
-<td>Sorcerer</td>
-<td>2 + <a href="gettingStarted.html#_intelligence">Int</a> modifier</td>
-</tr>
-<tr class="odd">
-<td>Wizard</td>
-<td>2 + <a href="gettingStarted.html#_intelligence">Int</a> modifier</td>
-</tr>
-</tbody>
+| Barbarian | 4 + [Int](gettingStarted.html#_intelligence) modifier |
+| Bard | 6 + [Int](gettingStarted.html#_intelligence) modifier |
+| Cleric | 2 + [Int](gettingStarted.html#_intelligence) modifier |
+| Druid | 4 + [Int](gettingStarted.html#_intelligence) modifier |
+| Fighter | 2 + [Int](gettingStarted.html#_intelligence) modifier |
+| Monk | 4 + [Int](gettingStarted.html#_intelligence) modifier |
+| Paladin | 2 + [Int](gettingStarted.html#_intelligence) modifier |
+| Ranger | 6 + [Int](gettingStarted.html#_intelligence) modifier |
+| Rogue | 8 + [Int](gettingStarted.html#_intelligence) modifier |
+| Sorcerer | 2 + [Int](gettingStarted.html#_intelligence) modifier |
+| Wizard | 2 + [Int](gettingStarted.html#_intelligence) modifier |
 
 The number of skill ranks you gain when taking a level in one of the base classes is shown on Table: Skill Ranks. Humans gain 1 additional skill rank per class level. Characters who take a level in a [favored class](classes.html#_favored-class) have the option of gaining 1 additional skill rank or an additional hit point . If you select a level in a new class, all of its class skills are automatically added to your list of class skills, and you gain a +3 bonus on these skills if you have ranks in them.
 
@@ -67,20 +32,9 @@ Each skill rank grants a +1 bonus on checks made using that skill. When you make
 [Table: Skill Check Bonuses]
 | Skill | Skill Check is Equal To\* |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Untrained</td>
-<td>1d20 + ability modifier + racial modifier</td>
-</tr>
-<tr class="even">
-<td>Trained</td>
-<td>1d20 + skill ranks + ability modifier + racial modifier</td>
-</tr>
-<tr class="odd">
-<td>Trained Class Skill</td>
-<td>1d20 + skill ranks + ability modifier + racial modifier + 3</td>
-</tr>
-</tbody>
+| Untrained | 1d20 + ability modifier + racial modifier |
+| Trained | 1d20 + skill ranks + ability modifier + racial modifier |
+| Trained Class Skill | 1d20 + skill ranks + ability modifier + racial modifier + 3 |
 
 If the result of your skill check is equal to or greater than the difficulty class (or DC) of the task you are attempting to accomplish, you succeed. If it is less than the DC, you fail. Some tasks have varying levels of success and failure depending on how much your check is above or below the required DC. Some skill checks are opposed by the target's skill check. When making an opposed skill check, the attempt is successful if your check result exceeds the result of the target.
 

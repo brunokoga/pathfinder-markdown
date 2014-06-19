@@ -243,138 +243,19 @@ Some creatures treat one or more of their attacks differently, such as dragons, 
 Creatures with natural attacks and attacks made with weapons can use both as part of a full attack action (although often a creature must forgo one natural attack for each weapon clutched in that limb, be it a claw, tentacle, or slam). Such creatures attack with their weapons normally but treat all of their natural attacks as secondary attacks during that attack, regardless of the attack's original type.
 
 [Natural Attacks by Size]
-| Natural Attack | <center>Base Damage by Size*</center> | Damage Type | Attack Type |
+| Natural Attack | Base Damage by Size\* | Damage Type | Attack Type |
 | --- | --- | --- | --- |
 | Fine | Dim. | Tiny | Small | Medium | Large | Huge | Garg. | Col. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Bite</td>
-<td>1</td>
-<td>1d2</td>
-<td>1d3</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>4d6</td>
-<td>B/S/P</td>
-<td>Primary</td>
-</tr>
-<tr class="even">
-<td>Claw</td>
-<td>—</td>
-<td>1</td>
-<td>1d2</td>
-<td>1d3</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>B/S</td>
-<td>Primary</td>
-</tr>
-<tr class="odd">
-<td>Gore</td>
-<td>1</td>
-<td>1d2</td>
-<td>1d3</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>4d6</td>
-<td>P</td>
-<td>Primary</td>
-</tr>
-<tr class="even">
-<td>Hoof, Tentacle, Wing</td>
-<td>—</td>
-<td>1</td>
-<td>1d2</td>
-<td>1d3</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>B</td>
-<td>Secondary</td>
-</tr>
-<tr class="odd">
-<td>Pincers, Tail Slap</td>
-<td>1</td>
-<td>1d2</td>
-<td>1d3</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>4d6</td>
-<td>B</td>
-<td>Secondary</td>
-</tr>
-<tr class="even">
-<td>Slam</td>
-<td>—</td>
-<td>1</td>
-<td>1d2</td>
-<td>1d3</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>B</td>
-<td>Primary</td>
-</tr>
-<tr class="odd">
-<td>Sting</td>
-<td>—</td>
-<td>1</td>
-<td>1d2</td>
-<td>1d3</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>P</td>
-<td>Primary</td>
-</tr>
-<tr class="even">
-<td>Talons</td>
-<td>—</td>
-<td>1</td>
-<td>1d2</td>
-<td>1d3</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>S</td>
-<td>Primary</td>
-</tr>
-<tr class="odd">
-<td>Other</td>
-<td>—</td>
-<td>1</td>
-<td>1d2</td>
-<td>1d3</td>
-<td>1d4</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>B/S/P</td>
-<td>Secondary</td>
-</tr>
-</tbody>
+| Bite | 1 | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 | 2d6 | 2d8 | 4d6 | B/S/P | Primary |
+| Claw | — | 1 | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 | 2d6 | 2d8 | B/S | Primary |
+| Gore | 1 | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 | 2d6 | 2d8 | 4d6 | P | Primary |
+| Hoof, Tentacle, Wing | — | 1 | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 | 2d6 | 2d8 | B | Secondary |
+| Pincers, Tail Slap | 1 | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 | 2d6 | 2d8 | 4d6 | B | Secondary |
+| Slam | — | 1 | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 | 2d6 | 2d8 | B | Primary |
+| Sting | — | 1 | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 | 2d6 | 2d8 | P | Primary |
+| Talons | — | 1 | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 | 2d6 | 2d8 | S | Primary |
+| Other | — | 1 | 1d2 | 1d3 | 1d4 | 1d6 | 1d8 | 2d6 | 2d8 | B/S/P | Secondary |
 
 The Damage Type column refers to the sort of damage that the natural attack typically deals: bludgeoning (B), slashing (S), or piercing (P). Some attacks deal damage of more than one type, depending on the creature. In such cases all the damage is considered to be of all listed types for the purpose of overcoming damage reduction.
 

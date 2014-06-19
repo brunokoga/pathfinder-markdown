@@ -18,17 +18,7 @@ You utter a single word of power that causes a creature to become [blinded](../g
 
 | Hit Points | Duration |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>50 or less</td>
-<td>Permanent</td>
-</tr>
-<tr class="even">
-<td>51–100</td>
-<td>1d4+1 minutes</td>
-</tr>
-<tr class="odd">
-<td>101–200</td>
-<td>1d4+1 rounds</td>
-</tr>
-</tbody>
+| 50 or less | Permanent |
+| 51–100 | 1d4+1 minutes |
+| 101–200 | 1d4+1 rounds |
+

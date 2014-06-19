@@ -27,35 +27,10 @@ The following table lists the starting gold piece values by class. In addition, 
 [Class Starting Wealth Average]
 | Class | Starting Wealth | Average |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Alchemist</td>
-<td>3d6 × 10 gp</td>
-<td>105 gp</td>
-</tr>
-<tr class="even">
-<td>Cavalier</td>
-<td>5d6 × 10 gp</td>
-<td>175 gp</td>
-</tr>
-<tr class="odd">
-<td>Inquisitor</td>
-<td>4d6 × 10 gp</td>
-<td>140 gp</td>
-</tr>
-<tr class="even">
-<td>Oracle</td>
-<td>3d6 × 10 gp</td>
-<td>105 gp</td>
-</tr>
-<tr class="odd">
-<td>Summoner</td>
-<td>2d6 × 10 gp</td>
-<td>70 gp</td>
-</tr>
-<tr class="even">
-<td>Witch</td>
-<td>3d6 × 10 gp</td>
-<td>105 gp</td>
-</tr>
-</tbody>
+| Alchemist | 3d6 × 10 gp | 105 gp |
+| Cavalier | 5d6 × 10 gp | 175 gp |
+| Inquisitor | 4d6 × 10 gp | 140 gp |
+| Oracle | 3d6 × 10 gp | 105 gp |
+| Summoner | 2d6 × 10 gp | 70 gp |
+| Witch | 3d6 × 10 gp | 105 gp |
+

@@ -24,32 +24,12 @@ When a creature goes insane, roll on the following table to determine what form 
 
 | d% | Insanity |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–11</td>
-<td>Amnesia</td>
-</tr>
-<tr class="even">
-<td>12–48</td>
-<td>Mania/Phobia</td>
-</tr>
-<tr class="odd">
-<td>49–68</td>
-<td>Multiple Personality Disorder</td>
-</tr>
-<tr class="even">
-<td>69–78</td>
-<td>Paranoia</td>
-</tr>
-<tr class="odd">
-<td>79–84</td>
-<td>Psychosis</td>
-</tr>
-<tr class="even">
-<td>85–100</td>
-<td>Schizophrenia</td>
-</tr>
-</tbody>
+| 1–11 | Amnesia |
+| 12–48 | Mania/Phobia |
+| 49–68 | Multiple Personality Disorder |
+| 69–78 | Paranoia |
+| 79–84 | Psychosis |
+| 85–100 | Schizophrenia |
 
 **Amnesia**
 

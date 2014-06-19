@@ -250,57 +250,13 @@ If a polymorph spell is cast on a creature that is smaller than Small or larger 
 
 | Creature's Original Size | Str | Dex | Con | Adjusted Size |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Fine</td>
-<td>+6</td>
-<td>–6</td>
-<td>—</td>
-<td>Small</td>
-</tr>
-<tr class="even">
-<td>Diminutive</td>
-<td>+6</td>
-<td>–4</td>
-<td>—</td>
-<td>Small</td>
-</tr>
-<tr class="odd">
-<td>Tiny</td>
-<td>+4</td>
-<td>–2</td>
-<td>—</td>
-<td>Small</td>
-</tr>
-<tr class="even">
-<td>Large</td>
-<td>–4</td>
-<td>+2</td>
-<td>–2</td>
-<td>Medium</td>
-</tr>
-<tr class="odd">
-<td>Huge</td>
-<td>–8</td>
-<td>+4</td>
-<td>–4</td>
-<td>Medium</td>
-</tr>
-<tr class="even">
-<td>Gargantuan</td>
-<td>–12</td>
-<td>+4</td>
-<td>–6</td>
-<td>Medium</td>
-</tr>
-<tr class="odd">
-<td>Colossal</td>
-<td>–16</td>
-<td>+4</td>
-<td>–8</td>
-<td>Medium</td>
-</tr>
-</tbody>
+| Fine | +6 | –6 | — | Small |
+| Diminutive | +6 | –4 | — | Small |
+| Tiny | +4 | –2 | — | Small |
+| Large | –4 | +2 | –2 | Medium |
+| Huge | –8 | +4 | –4 | Medium |
+| Gargantuan | –12 | +4 | –6 | Medium |
+| Colossal | –16 | +4 | –8 | Medium |
 
 ## [Descriptor]
 
@@ -491,48 +447,16 @@ Usually a harmful spell allows a target to make a saving throw to avoid some or 
 [Table: Items Affected by Magical Attacks]
 | Order\* | Item |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1st</td>
-<td>Shield</td>
-</tr>
-<tr class="even">
-<td>2nd</td>
-<td>Armor</td>
-</tr>
-<tr class="odd">
-<td>3rd</td>
-<td>Magic helmet, hat, or headband</td>
-</tr>
-<tr class="even">
-<td>4th</td>
-<td>Item in hand (including weapon, wand, or the like)</td>
-</tr>
-<tr class="odd">
-<td>5th</td>
-<td>Magic cloak</td>
-</tr>
-<tr class="even">
-<td>6th</td>
-<td>Stowed or sheathed weapon</td>
-</tr>
-<tr class="odd">
-<td>7th</td>
-<td>Magic bracers</td>
-</tr>
-<tr class="even">
-<td>8th</td>
-<td>Magic clothing</td>
-</tr>
-<tr class="odd">
-<td>9th</td>
-<td>Magic jewelry (including rings)</td>
-</tr>
-<tr class="even">
-<td>10th</td>
-<td>Anything else</td>
-</tr>
-</tbody>
+| 1st | Shield |
+| 2nd | Armor |
+| 3rd | Magic helmet, hat, or headband |
+| 4th | Item in hand (including weapon, wand, or the like) |
+| 5th | Magic cloak |
+| 6th | Stowed or sheathed weapon |
+| 7th | Magic bracers |
+| 8th | Magic clothing |
+| 9th | Magic jewelry (including rings) |
+| 10th | Anything else |
 
 **Items Surviving after a Saving Throw** : Unless the descriptive text for the spell specifies otherwise, all items carried or worn by a creature are assumed to survive a magical attack. If a creature rolls a natural 1 on its saving throw against the effect, however, an exposed item is harmed (if the attack can harm objects). Refer to Table: Items Affected by Magical Attacks: Items Affected by Magical Attacks. Determine which four objects carried or worn by the creature are most likely to be affected and roll randomly among them. The randomly determined item must make a saving throw against the attack form and take whatever damage the attack dealt.
 
@@ -614,48 +538,16 @@ Once a wizard understands a new spell, he can record it into his spellbook.
 
 | Spell Level | Writing Cost |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>0</td>
-<td>5 gp</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>10 gp</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>40 gp</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>90 gp</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>160 gp</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>250 gp</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>360 gp</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>490 gp</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>640 gp</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>810 gp</td>
-</tr>
-</tbody>
+| 0 | 5 gp |
+| 1 | 10 gp |
+| 2 | 40 gp |
+| 3 | 90 gp |
+| 4 | 160 gp |
+| 5 | 250 gp |
+| 6 | 360 gp |
+| 7 | 490 gp |
+| 8 | 640 gp |
+| 9 | 810 gp |
 
 ### Replacing and Copying Spellbooks
 

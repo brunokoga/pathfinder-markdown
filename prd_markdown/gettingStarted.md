@@ -131,80 +131,30 @@ Racial modifiers (adjustments made to your ability scores due to your character'
 [Table: Ability Score Costs]
 | Score | Points |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>7</td>
-<td>–4</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>–2</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>–1</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>0</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>16</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td>17</td>
-<td>13</td>
-</tr>
-<tr class="even">
-<td>18</td>
-<td>17</td>
-</tr>
-</tbody>
+| 7 | –4 |
+| 8 | –2 |
+| 9 | –1 |
+| 10 | 0 |
+| 11 | 1 |
+| 12 | 2 |
+| 13 | 3 |
+| 14 | 5 |
+| 15 | 7 |
+| 16 | 10 |
+| 17 | 13 |
+| 18 | 17 |
+
   
   
 
 [Table: Ability Score Points]
 | Campaign Type | Points |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Low Fantasy</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>Standard Fantasy</td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td>High Fantasy</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td>Epic Fantasy</td>
-<td>25</td>
-</tr>
-</tbody>
+| Low Fantasy | 10 |
+| Standard Fantasy | 15 |
+| High Fantasy | 20 |
+| Epic Fantasy | 25 |
+
   
   
 

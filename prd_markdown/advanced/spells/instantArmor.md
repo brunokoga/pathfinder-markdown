@@ -18,24 +18,10 @@ _Instant armor_ acts in all ways as armor typical of its type (armor bonus, maxi
 
 | Caster Level | Armor Created |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>5th or lower</td>
-<td>chainmail</td>
-</tr>
-<tr class="even">
-<td>6th–8th</td>
-<td>banded mail </td>
-</tr>
-<tr class="odd">
-<td>9th–11th</td>
-<td>half-plate </td>
-</tr>
-<tr class="even">
-<td>12th or higher</td>
-<td>full plate</td>
-</tr>
-</tbody>
+| 5th or lower | chainmail |
+| 6th–8th | banded mail |
+| 9th–11th | half-plate |
+| 12th or higher | full plate |
 
 If you choose to create lesser armor than your level allows you gain a +1 magical enhancement bonus to the armor you do create for every type of armor you pass over. For instance, if you have the capacity to create full plate _instant armor_ you could instead choose to create _+1 half-plate_, _+2 banded mail_, or _+3 chainmail_. You cannot replace these bonuses with armor special properties.
 

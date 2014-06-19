@@ -165,23 +165,9 @@ Strong transmutation_; _CL 13th; [Craft Magic Arms and Armor](../feats.html#_cra
 
 | Fortification Type | Chance for Normal Damage | Base Price Modifier |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Light</td>
-<td>25%</td>
-<td>+1 bonus</td>
-</tr>
-<tr class="even">
-<td>Moderate</td>
-<td>50%</td>
-<td>+3 bonus</td>
-</tr>
-<tr class="odd">
-<td>Heavy</td>
-<td>75%</td>
-<td>+5 bonus</td>
-</tr>
-</tbody>
+| Light | 25% | +1 bonus |
+| Moderate | 50% | +3 bonus |
+| Heavy | 75% | +5 bonus |
 
 Strong abjuration_; _CL 13th; [Craft Magic Arms and Armor](../feats.html#_craft-magic-arms-and-armor), _ [limited wish](../spells/limitedWish.html#_limited-wish) _or _ [miracle](../spells/miracle.html#_miracle); _Price varies (see above).
 

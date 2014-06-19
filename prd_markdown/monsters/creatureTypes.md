@@ -62,44 +62,15 @@ A construct is an animated object or artificially created creature. A construct 
 
 | Construct Size | Bonus Hit Points |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Fine</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Diminutive</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Tiny</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Small</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td>Medium</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td>Large</td>
-<td>30</td>
-</tr>
-<tr class="odd">
-<td>Huge</td>
-<td>40</td>
-</tr>
-<tr class="even">
-<td>Gargantuan</td>
-<td>60</td>
-</tr>
-<tr class="odd">
-<td>Colossal</td>
-<td>80</td>
-</tr>
-</tbody>
+| Fine | — |
+| Diminutive | — |
+| Tiny | — |
+| Small | 10 |
+| Medium | 20 |
+| Large | 30 |
+| Huge | 40 |
+| Gargantuan | 60 |
+| Colossal | 80 |
 
 - Proficient with its natural weapons only, unless generally humanoid in form, in which case proficient with any weapon mentioned in its entry.
 - Proficient with no armor.
@@ -575,28 +546,11 @@ _Swarm Attack_: Creatures with the swarm subtype don't make standard melee attac
 
 | Swarm HD | Swarm Base Damage |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–5</td>
-<td>1d6</td>
-</tr>
-<tr class="even">
-<td>6–10</td>
-<td>2d6</td>
-</tr>
-<tr class="odd">
-<td>11–15</td>
-<td>3d6</td>
-</tr>
-<tr class="even">
-<td>16–20</td>
-<td>4d6</td>
-</tr>
-<tr class="odd">
-<td>21 or more</td>
-<td>5d6</td>
-</tr>
-</tbody>
+| 1–5 | 1d6 |
+| 6–10 | 2d6 |
+| 11–15 | 3d6 |
+| 16–20 | 4d6 |
+| 21 or more | 5d6 |
 
 A swarm's attacks are nonmagical, unless the swarm's description states otherwise. Damage reduction sufficient to reduce a swarm attack's damage to 0, being incorporeal, or other special abilities usually give a creature immunity (or at least resistance) to damage from a swarm. Some swarms also have acid, blood drain, poison, or other special attacks in addition to normal damage.
 

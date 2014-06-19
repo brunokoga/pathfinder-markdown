@@ -8,44 +8,15 @@ You are skilled at riding mounts, usually a horse, but possibly something more e
 
 | Task | Ride DC |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Guide with knees</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>Stay in saddle</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>Fight with a combat-trained mount</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>Cover</td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td>Soft fall</td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td>Leap</td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td>Spur mount</td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td>Control mount in battle</td>
-<td>20</td>
-</tr>
-<tr class="odd">
-<td>Fast mount or dismount</td>
-<td>20</td>
-</tr>
-</tbody>
+| Guide with knees | 5 |
+| Stay in saddle | 5 |
+| Fight with a combat-trained mount | 10 |
+| Cover | 15 |
+| Soft fall | 15 |
+| Leap | 15 |
+| Spur mount | 15 |
+| Control mount in battle | 20 |
+| Fast mount or dismount | 20 |
 
 _Guide with Knees_: You can guide your mount with your knees so you can use both hands in combat. Make your Ride check at the start of your turn. If you fail, you can use only one hand this round because you need to use the other to control your mount. This does not take an action.
 

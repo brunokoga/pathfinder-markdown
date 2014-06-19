@@ -3,260 +3,42 @@
 [Table: Rods]
 | Medium | Major | Rod | Market Price |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–07</td>
-<td>—</td>
-<td>
-<a href="#metamagic-enlarge">Metamagic, </a><i><a href="#metamagic-enlarge">Enlarge</a>, lesser</i>
-</td>
-<td>3,000 gp</td>
-</tr>
-<tr class="even">
-<td>08–14</td>
-<td>—</td>
-<td>
-<a href="#metamagic-extend">Metamagic, </a><i><a href="#metamagic-extend">Extend</a>, lesser</i>
-</td>
-<td>3,000 gp</td>
-</tr>
-<tr class="odd">
-<td>15–21</td>
-<td>—</td>
-<td>
-<a href="#metamagic-silent">Metamagic, </a><i><a href="#metamagic-silent">Silent</a>, lesser</i>
-</td>
-<td>3,000 gp</td>
-</tr>
-<tr class="even">
-<td>22–28</td>
-<td>—</td>
-<td><i><a href="#immovable-rod">Immovable</a></i></td>
-<td>5,000 gp</td>
-</tr>
-<tr class="odd">
-<td>29–35</td>
-<td>—</td>
-<td>
-<a href="#metamagic-empower">Metamagic, </a><i><a href="#metamagic-empower">Empower</a>, lesser</i>
-</td>
-<td>9,000 gp</td>
-</tr>
-<tr class="even">
-<td>36–42</td>
-<td>—</td>
-<td><i><a href="#rod-of-metal-and-mineral-detection">Metal and mineral detection</a></i></td>
-<td>10,500 gp</td>
-</tr>
-<tr class="odd">
-<td>43–53</td>
-<td>01–04</td>
-<td><i><a href="#rod-of-cancellation">Cancellation</a></i></td>
-<td>11,000 gp</td>
-</tr>
-<tr class="even">
-<td>54–57</td>
-<td>05–06</td>
-<td>
-<a href="#metamagic-enlarge">Metamagic, </a><i><a href="#metamagic-enlarge">Enlarge</a></i>
-</td>
-<td>11,000 gp</td>
-</tr>
-<tr class="odd">
-<td>58–61</td>
-<td>07–08</td>
-<td>
-<a href="#metamagic-extend">Metamagic, </a><i><a href="#metamagic-extend">Extend</a></i>
-</td>
-<td>11,000 gp</td>
-</tr>
-<tr class="even">
-<td>62–65</td>
-<td>09–10</td>
-<td>
-<a href="#metamagic-silent">Metamagic, </a><i><a href="#metamagic-silent">Silent</a></i>
-</td>
-<td>11,000 gp</td>
-</tr>
-<tr class="odd">
-<td>66–71</td>
-<td>11–14</td>
-<td><i><a href="#rod-of-wonder">Wonder</a></i></td>
-<td>12,000 gp</td>
-</tr>
-<tr class="even">
-<td>72–79</td>
-<td>15–19</td>
-<td><i><a href="#rod-of-the-python">Python</a></i></td>
-<td>13,000 gp</td>
-</tr>
-<tr class="odd">
-<td>80–83</td>
-<td>—</td>
-<td>
-<a href="#metamagic-maximize">Metamagic, </a><i><a href="#metamagic-maximize">Maximize</a>, lesser</i>
-</td>
-<td>14,000 gp</td>
-</tr>
-<tr class="even">
-<td>84–89</td>
-<td>20–21</td>
-<td><i><a href="#rod-of-flame-extinguishing">Flame extinguishing</a></i></td>
-<td>15,000 gp</td>
-</tr>
-<tr class="odd">
-<td>90–97</td>
-<td>22–25</td>
-<td><i><a href="#rod-of-the-viper">Viper</a></i></td>
-<td>19,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>26–30</td>
-<td><i><a href="#rod-of-enemy-detection">Enemy detection</a></i></td>
-<td>23,500 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>31–36</td>
-<td>
-<a href="#metamagic-enlarge">Metamagic, </a><i><a href="#metamagic-enlarge">Enlarge</a>, greater</i>
-</td>
-<td>24,500 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>37–42</td>
-<td>
-<a href="#metamagic-extend">Metamagic, </a><i><a href="#metamagic-extend">Extend</a>, greater</i>
-</td>
-<td>24,500 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>43–48</td>
-<td>
-<a href="#metamagic-silent">Metamagic, </a><i><a href="#metamagic-silent">Silent</a>, greater</i>
-</td>
-<td>24,500 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>49–53</td>
-<td><i><a href="#rod-of-splendor">Splendor</a></i></td>
-<td>25,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>54–58</td>
-<td><i><a href="#rod-of-withering">Withering</a></i></td>
-<td>25,000 gp</td>
-</tr>
-<tr class="even">
-<td>98–99</td>
-<td>59–64</td>
-<td>
-<a href="#metamagic-empower">Metamagic, </a><i><a href="#metamagic-empower">Empower</a></i>
-</td>
-<td>32,500 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>65–69</td>
-<td><i><a href="#rod-of-thunder-and-lightning">Thunder and lightning</a></i></td>
-<td>33,000 gp</td>
-</tr>
-<tr class="even">
-<td>100</td>
-<td>70–73</td>
-<td>
-<a href="#metamagic-quicken">Metamagic, </a><i><a href="#metamagic-quicken">Quicken</a>, lesser</i>
-</td>
-<td>35,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>74–77</td>
-<td><i><a href="#rod-of-negation">Negation</a></i></td>
-<td>37,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>78–80</td>
-<td><i><a href="#rod-of-absorption">Absorption</a></i></td>
-<td>50,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>81–84</td>
-<td><i><a href="#rod-of-flailing">Flailing</a></i></td>
-<td>50,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>85–86</td>
-<td>
-<a href="#metamagic-maximize">Metamagic, </a><i><a href="#metamagic-maximize">Maximize</a></i>
-</td>
-<td>54,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>87–88</td>
-<td><i><a href="#rod-of-rulership">Rulership</a></i></td>
-<td>60,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>89–90</td>
-<td><i><a href="#rod-of-security">Security</a></i></td>
-<td>61,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>91–92</td>
-<td><i><a href="#rod-of-lordly-might">Lordly might</a></i></td>
-<td>70,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>93–94</td>
-<td>
-<a href="#metamagic-empower">Metamagic, </a><i><a href="#metamagic-empower">Empower</a>, greater</i>
-</td>
-<td>73,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>95–96</td>
-<td>
-<a href="#metamagic-quicken">Metamagic, </a><i><a href="#metamagic-quicken">Quicken</a></i>
-</td>
-<td>75,500 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>97–98</td>
-<td><i><a href="#rod-of-alertness">Alertness</a></i></td>
-<td>85,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>99</td>
-<td>
-<a href="#metamagic-maximize">Metamagic, </a><i><a href="#metamagic-maximize">Maximize</a>, greater</i>
-</td>
-<td>121,500 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>100</td>
-<td>
-<a href="#metamagic-quicken">Metamagic, </a><i><a href="#metamagic-quicken">Quicken</a>, greater</i>
-</td>
-<td>170,000 gp</td>
-</tr>
-</tbody>
+| 01–07 | — | Metamagic, _Enlarge, lesser_ | 3,000 gp |
+| 08–14 | — | Metamagic, _Extend, lesser_ | 3,000 gp |
+| 15–21 | — | Metamagic, _Silent, lesser_ | 3,000 gp |
+| 22–28 | — | _Immovable_ | 5,000 gp |
+| 29–35 | — | Metamagic, _Empower, lesser_ | 9,000 gp |
+| 36–42 | — | _Metal and mineral detection_ | 10,500 gp |
+| 43–53 | 01–04 | _Cancellation_ | 11,000 gp |
+| 54–57 | 05–06 | Metamagic, _Enlarge_ | 11,000 gp |
+| 58–61 | 07–08 | Metamagic, _Extend_ | 11,000 gp |
+| 62–65 | 09–10 | Metamagic, _Silent_ | 11,000 gp |
+| 66–71 | 11–14 | _Wonder_ | 12,000 gp |
+| 72–79 | 15–19 | _Python_ | 13,000 gp |
+| 80–83 | — | Metamagic, _Maximize, lesser_ | 14,000 gp |
+| 84–89 | 20–21 | _Flame extinguishing_ | 15,000 gp |
+| 90–97 | 22–25 | _Viper_ | 19,000 gp |
+| — | 26–30 | _Enemy detection_ | 23,500 gp |
+| — | 31–36 | Metamagic, _Enlarge, greater_ | 24,500 gp |
+| — | 37–42 | Metamagic, _Extend, greater_ | 24,500 gp |
+| — | 43–48 | Metamagic, _Silent, greater_ | 24,500 gp |
+| — | 49–53 | _Splendor_ | 25,000 gp |
+| — | 54–58 | _Withering_ | 25,000 gp |
+| 98–99 | 59–64 | Metamagic, _Empower_ | 32,500 gp |
+| — | 65–69 | _Thunder and lightning_ | 33,000 gp |
+| 100 | 70–73 | Metamagic, _Quicken, lesser_ | 35,000 gp |
+| — | 74–77 | _Negation_ | 37,000 gp |
+| — | 78–80 | _Absorption_ | 50,000 gp |
+| — | 81–84 | _Flailing_ | 50,000 gp |
+| — | 85–86 | Metamagic, _Maximize_ | 54,000 gp |
+| — | 87–88 | _Rulership_ | 60,000 gp |
+| — | 89–90 | _Security_ | 61,000 gp |
+| — | 91–92 | _Lordly might_ | 70,000 gp |
+| — | 93–94 | Metamagic, _Empower, greater_ | 73,000 gp |
+| — | 95–96 | Metamagic, _Quicken_ | 75,500 gp |
+| — | 97–98 | _Alertness_ | 85,000 gp |
+| — | 99 | Metamagic, _Maximize, greater_ | 121,500 gp |
+| — | 100 | Metamagic, _Quicken, greater_ | 170,000 gp |
 
 Rods are scepter-like devices that have unique magical powers and do not usually have charges. Anyone can use a rod.
 
@@ -665,109 +447,28 @@ A _rod of wonder _is a strange and unpredictable device that randomly generates 
 
 | d% | Wondrous Effect |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–05</td>
-<td style="white-space:normal;">
-<i>Slow </i>target for 10 rounds (<a href="../combat.html#_will">Will</a> DC 15 negates).</td>
-</tr>
-<tr class="even">
-<td>06–10</td>
-<td style="white-space:normal;">
-<i><a href="../spells/faerieFire.html#_faerie-fire">Faerie fire</a> </i>surrounds the target.</td>
-</tr>
-<tr class="odd">
-<td>11–15</td>
-<td style="white-space:normal;"><span class="grame">Deludes wielder for 1 round into believing the rod functions as indicated by a second die roll (no save).</span></td>
-</tr>
-<tr class="even">
-<td>16–20</td>
-<td style="white-space:normal;">
-<i><a href="../spells/gustOfWind.html#_gust-of-wind">Gust of wind</a>, </i>but at windstorm force (<a href="../combat.html#_fortitude">Fortitude</a> DC 14 negates).</td>
-</tr>
-<tr class="odd">
-<td>21–25</td>
-<td style="white-space:normal;">Wielder learns target's surface thoughts (as with <i><a href="../spells/detectThoughts.html#_detect-thoughts">detect thoughts</a>) </i>for 1d4 rounds (no save).</td>
-</tr>
-<tr class="even">
-<td>26–30</td>
-<td style="white-space:normal;">
-<i><a href="../spells/stinkingCloud.html#_stinking-cloud">Stinking cloud</a></i> appears at 30-ft. range (<a href="../combat.html#_fortitude">Fortitude</a> DC 15 negates).</td>
-</tr>
-<tr class="odd">
-<td>31–33</td>
-<td style="white-space:normal;">Heavy rain falls for 1 round in 60-ft. radius centered on rod wielder.</td>
-</tr>
-<tr class="even">
-<td>34–36</td>
-<td style="white-space:normal;">Summon an animal—a rhino (01–25 on <span class="grame">d%</span>), elephant (26–50), or mouse (51–100).</td>
-</tr>
-<tr class="odd">
-<td>37–46</td>
-<td style="white-space:normal;">
-<i><a href="../spells/lightningBolt.html#_lightning-bolt">Lightning bolt</a></i><span class="grame"> (70 ft. long, 5 ft. wide), 6d6 damage (</span><a href="../combat.html#_reflex">Reflex</a><span class="grame"> DC 15 half).</span>
-</td>
-</tr>
-<tr class="even">
-<td>47–49</td>
-<td style="white-space:normal;">A stream of 600 large butterflies pours forth and flutters around for 2 rounds, blinding everyone within 25 ft. (<a href="../combat.html#_reflex">Reflex</a> DC 14 negates).</td>
-</tr>
-<tr class="odd">
-<td>50–53</td>
-<td style="white-space:normal;">
-<i><a href="../spells/enlargePerson.html#_enlarge-person">Enlarge person</a></i> on target if within 60 ft. of rod (<a href="../combat.html#_fortitude">Fortitude</a> DC 13 negates).</td>
-</tr>
-<tr class="even">
-<td>54–58</td>
-<td style="white-space:normal;">
-<i><a href="../spells/darkness.html#_darkness">Darkness</a></i>, 30-ft.-diameter hemisphere, centered 30 ft. away from rod.</td>
-</tr>
-<tr class="odd">
-<td>59–62</td>
-<td style="white-space:normal;">Grass grows in 160-square-ft. area before the rod, or grass existing there grows to 10 <span class="grame">times</span> normal size.</td>
-</tr>
-<tr class="even">
-<td>63–65</td>
-<td style="white-space:normal;">Turn ethereal any nonliving object of up to 1,000 lbs. mass and up to 30 cubic ft. in size.</td>
-</tr>
-<tr class="odd">
-<td>66–69</td>
-<td style="white-space:normal;">Reduce wielder two size categories (no save) for 1 day.</td>
-</tr>
-<tr class="even">
-<td>70–79</td>
-<td style="white-space:normal;">
-<i><a href="../spells/fireball.html#_fireball">Fireball</a></i><span class="grame"> at target or 100 ft. straight ahead, 6d6 damage (</span><a href="../combat.html#_reflex">Reflex</a><span class="grame"> DC 15 half).</span>
-</td>
-</tr>
-<tr class="odd">
-<td>80–84</td>
-<td style="white-space:normal;">
-<i><a href="../spells/invisibility.html#_invisibility">Invisibility</a> </i>covers rod wielder.</td>
-</tr>
-<tr class="even">
-<td>85–87</td>
-<td style="white-space:normal;">Leaves grow from target if within 60 ft. of rod. <span class="grame">These last 24 hours.</span>
-</td>
-</tr>
-<tr class="odd">
-<td>88–90</td>
-<td style="white-space:normal;">10–40 gems, value 1 gp each, shoot forth in a 30-ft.-long stream. Each gem deals 1 point of damage to any creature in its path: roll 5d4 for the number of hits and divide them among the available targets.</td>
-</tr>
-<tr class="even">
-<td>91–95</td>
-<td style="white-space:normal;">Shimmering colors dance and play over a 40-ft.-by-30-ft. area in front of rod. Creatures therein <span class="grame">are </span><a href="../glossary.html#_blinded">blinded</a> for 1d6 rounds (<a href="../combat.html#_fortitude">Fortitude</a> DC 15 negates).</td>
-</tr>
-<tr class="odd">
-<td>96–97</td>
-<td style="white-space:normal;">Wielder (50% chance) or target (50% chance) turns permanently blue, green, or purple (no save).</td>
-</tr>
-<tr class="even">
-<td>98–100</td>
-<td style="white-space:normal;">
-<i><a href="../spells/fleshToStone.html#_flesh-to-stone">Flesh to stone</a> </i>(or <i><a href="../spells/stoneToFlesh.html#_stone-to-flesh">stone to flesh</a> </i>if target is stone already) if target is within 60 ft. (<a href="../combat.html#_fortitude">Fortitude</a> DC 18 negates). </td>
-</tr>
-</tbody>
+| 01–05 | _Slow _target for 10 rounds ( [Will](../combat.html#_will) DC 15 negates). |
+| 06–10 | _ [Faerie fire](../spells/faerieFire.html#_faerie-fire) _surrounds the target. |
+| 11–15 | Deludes wielder for 1 round into believing the rod functions as indicated by a second die roll (no save). |
+| 16–20 | _ [Gust of wind](../spells/gustOfWind.html#_gust-of-wind), _but at windstorm force ( [Fortitude](../combat.html#_fortitude) DC 14 negates). |
+| 21–25 | Wielder learns target's surface thoughts (as with _ [detect thoughts](../spells/detectThoughts.html#_detect-thoughts)) _for 1d4 rounds (no save). |
+| 26–30 | _ [Stinking cloud](../spells/stinkingCloud.html#_stinking-cloud)_ appears at 30-ft. range ( [Fortitude](../combat.html#_fortitude) DC 15 negates). |
+| 31–33 | Heavy rain falls for 1 round in 60-ft. radius centered on rod wielder. |
+| 34–36 | Summon an animal—a rhino (01–25 on d%), elephant (26–50), or mouse (51–100). |
+| 37–46 | _ [Lightning bolt](../spells/lightningBolt.html#_lightning-bolt)_ (70 ft. long, 5 ft. wide), 6d6 damage ( [Reflex](../combat.html#_reflex) DC 15 half). |
+| 47–49 | A stream of 600 large butterflies pours forth and flutters around for 2 rounds, blinding everyone within 25 ft. ( [Reflex](../combat.html#_reflex) DC 14 negates). |
+| 50–53 | _ [Enlarge person](../spells/enlargePerson.html#_enlarge-person)_ on target if within 60 ft. of rod ( [Fortitude](../combat.html#_fortitude) DC 13 negates). |
+| 54–58 | _ [Darkness](../spells/darkness.html#_darkness)_, 30-ft.-diameter hemisphere, centered 30 ft. away from rod. |
+| 59–62 | Grass grows in 160-square-ft. area before the rod, or grass existing there grows to 10 times normal size. |
+| 63–65 | Turn ethereal any nonliving object of up to 1,000 lbs. mass and up to 30 cubic ft. in size. |
+| 66–69 | Reduce wielder two size categories (no save) for 1 day. |
+| 70–79 | _ [Fireball](../spells/fireball.html#_fireball)_ at target or 100 ft. straight ahead, 6d6 damage ( [Reflex](../combat.html#_reflex) DC 15 half). |
+| 80–84 | _ [Invisibility](../spells/invisibility.html#_invisibility) _covers rod wielder. |
+| 85–87 | Leaves grow from target if within 60 ft. of rod. These last 24 hours. |
+| 88–90 | 10–40 gems, value 1 gp each, shoot forth in a 30-ft.-long stream. Each gem deals 1 point of damage to any creature in its path: roll 5d4 for the number of hits and divide them among the available targets. |
+| 91–95 | Shimmering colors dance and play over a 40-ft.-by-30-ft. area in front of rod. Creatures therein are [blinded](../glossary.html#_blinded) for 1d6 rounds ( [Fortitude](../combat.html#_fortitude) DC 15 negates). |
+| 96–97 | Wielder (50% chance) or target (50% chance) turns permanently blue, green, or purple (no save). |
+| 98–100 | _ [Flesh to stone](../spells/fleshToStone.html#_flesh-to-stone) _(or _ [stone to flesh](../spells/stoneToFlesh.html#_stone-to-flesh) _if target is stone already) if target is within 60 ft. ( [Fortitude](../combat.html#_fortitude) DC 18 negates). |
 
 **Construction**
 

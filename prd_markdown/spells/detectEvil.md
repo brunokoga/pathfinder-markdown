@@ -30,24 +30,10 @@ _Lingering Aura_: An evil aura lingers after its original source dissipates (in 
 
 | Original Strength | Duration of Lingering Aura |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Faint</td>
-<td>1d6 rounds</td>
-</tr>
-<tr class="even">
-<td>Moderate</td>
-<td>1d6 minutes</td>
-</tr>
-<tr class="odd">
-<td>Strong</td>
-<td>1d6 × 10 minutes</td>
-</tr>
-<tr class="even">
-<td>Overwhelming</td>
-<td>1d6 days</td>
-</tr>
-</tbody>
+| Faint | 1d6 rounds |
+| Moderate | 1d6 minutes |
+| Strong | 1d6 × 10 minutes |
+| Overwhelming | 1d6 days |
 
 Animals, traps, poisons, and other potential perils are not evil, and as such this spell does not detect them. Creatures with actively evil intents count as evil creatures for the purpose of this spell.
 

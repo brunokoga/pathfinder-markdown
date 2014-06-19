@@ -155,60 +155,19 @@ Moderate evocation [lawful]_; _CL 7th; [Craft Magic Arms and Armor](../feats.htm
 
 | d% | Designated Foe |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–05</td>
-<td>Aberrations </td>
-</tr>
-<tr class="even">
-<td>06–09</td>
-<td>Animals </td>
-</tr>
-<tr class="odd">
-<td>10–16</td>
-<td>Constructs</td>
-</tr>
-<tr class="even">
-<td>17–22</td>
-<td>Dragons </td>
-</tr>
-<tr class="odd">
-<td>23–27</td>
-<td>Fey </td>
-</tr>
-<tr class="even">
-<td>28–60</td>
-<td>Humanoids (pick one subtype) </td>
-</tr>
-<tr class="odd">
-<td>61–65</td>
-<td>Magical beasts </td>
-</tr>
-<tr class="even">
-<td>66–70</td>
-<td>Monstrous humanoids </td>
-</tr>
-<tr class="odd">
-<td>71–72</td>
-<td>Oozes</td>
-</tr>
-<tr class="even">
-<td>73–88</td>
-<td>Outsiders (pick one subtype)</td>
-</tr>
-<tr class="odd">
-<td>89–90</td>
-<td>Plants</td>
-</tr>
-<tr class="even">
-<td>91–98</td>
-<td>Undead</td>
-</tr>
-<tr class="odd">
-<td>99–100</td>
-<td>Vermin</td>
-</tr>
-</tbody>
+| 01–05 | Aberrations |
+| 06–09 | Animals |
+| 10–16 | Constructs |
+| 17–22 | Dragons |
+| 23–27 | Fey |
+| 28–60 | Humanoids (pick one subtype) |
+| 61–65 | Magical beasts |
+| 66–70 | Monstrous humanoids |
+| 71–72 | Oozes |
+| 73–88 | Outsiders (pick one subtype) |
+| 89–90 | Plants |
+| 91–98 | Undead |
+| 99–100 | Vermin |
 
 Moderate conjuration; CL 8th; [Craft Magic Arms and Armor](../feats.html#_craft-magic-arms-and-armor), _ [summon monster I](../spells/summonMonster.html#_summon-monster-i)_; Price +1 bonus.
 
@@ -632,128 +591,36 @@ A _greater slaying arrow_ functions just like a normal _slaying arrow_, but the 
 
 | d% | Designated Type or Subtype |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–05</td>
-<td>Aberrations </td>
-</tr>
-<tr class="even">
-<td>06–09</td>
-<td>Animals </td>
-</tr>
-<tr class="odd">
-<td>10–16</td>
-<td>Constructs </td>
-</tr>
-<tr class="even">
-<td>17–27</td>
-<td>Dragons </td>
-</tr>
-<tr class="odd">
-<td>28–32</td>
-<td>Fey </td>
-</tr>
-<tr class="even">
-<td>33</td>
-<td>Humanoids, aquatic </td>
-</tr>
-<tr class="odd">
-<td>34–35</td>
-<td>Humanoids, dwarf </td>
-</tr>
-<tr class="even">
-<td>36–37</td>
-<td>Humanoids, elf </td>
-</tr>
-<tr class="odd">
-<td>38–44</td>
-<td>Humanoids, giant</td>
-</tr>
-<tr class="even">
-<td>45</td>
-<td>Humanoids, gnoll </td>
-</tr>
-<tr class="odd">
-<td>46</td>
-<td>Humanoids, gnome </td>
-</tr>
-<tr class="even">
-<td>47–49</td>
-<td>Humanoids, goblinoid </td>
-</tr>
-<tr class="odd">
-<td>50</td>
-<td>Humanoids, halfling </td>
-</tr>
-<tr class="even">
-<td>51–54</td>
-<td>Humanoids, human </td>
-</tr>
-<tr class="odd">
-<td>55–57</td>
-<td>Humanoids, reptilian </td>
-</tr>
-<tr class="even">
-<td>58–60</td>
-<td>Humanoids, orc </td>
-</tr>
-<tr class="odd">
-<td>61–65</td>
-<td>Magical beasts </td>
-</tr>
-<tr class="even">
-<td>66–70</td>
-<td>Monstrous humanoids </td>
-</tr>
-<tr class="odd">
-<td>71–72</td>
-<td>Oozes </td>
-</tr>
-<tr class="even">
-<td>73</td>
-<td>Outsiders, air </td>
-</tr>
-<tr class="odd">
-<td>74–76</td>
-<td>Outsiders, chaotic </td>
-</tr>
-<tr class="even">
-<td>77</td>
-<td>Outsiders, earth </td>
-</tr>
-<tr class="odd">
-<td>78–80</td>
-<td>Outsiders, evil </td>
-</tr>
-<tr class="even">
-<td>81</td>
-<td>Outsiders, fire </td>
-</tr>
-<tr class="odd">
-<td>82–84</td>
-<td>Outsiders, good </td>
-</tr>
-<tr class="even">
-<td>85–87</td>
-<td>Outsiders, lawful </td>
-</tr>
-<tr class="odd">
-<td>88</td>
-<td>Outsiders, water </td>
-</tr>
-<tr class="even">
-<td>89–90</td>
-<td>Plants </td>
-</tr>
-<tr class="odd">
-<td>91–98</td>
-<td>Undead </td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>Vermin</td>
-</tr>
-</tbody>
+| 01–05 | Aberrations |
+| 06–09 | Animals |
+| 10–16 | Constructs |
+| 17–27 | Dragons |
+| 28–32 | Fey |
+| 33 | Humanoids, aquatic |
+| 34–35 | Humanoids, dwarf |
+| 36–37 | Humanoids, elf |
+| 38–44 | Humanoids, giant |
+| 45 | Humanoids, gnoll |
+| 46 | Humanoids, gnome |
+| 47–49 | Humanoids, goblinoid |
+| 50 | Humanoids, halfling |
+| 51–54 | Humanoids, human |
+| 55–57 | Humanoids, reptilian |
+| 58–60 | Humanoids, orc |
+| 61–65 | Magical beasts |
+| 66–70 | Monstrous humanoids |
+| 71–72 | Oozes |
+| 73 | Outsiders, air |
+| 74–76 | Outsiders, chaotic |
+| 77 | Outsiders, earth |
+| 78–80 | Outsiders, evil |
+| 81 | Outsiders, fire |
+| 82–84 | Outsiders, good |
+| 85–87 | Outsiders, lawful |
+| 88 | Outsiders, water |
+| 89–90 | Plants |
+| 91–98 | Undead |
+| 99–100 | Vermin |
 
 **Sleep Arrow**
 

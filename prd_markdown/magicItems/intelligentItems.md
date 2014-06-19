@@ -3,361 +3,89 @@
 [Table: Intelligent Item Alignment]
 | d% | Alignment of Item |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–10</td>
-<td>Chaotic good</td>
-</tr>
-<tr class="even">
-<td>11–20</td>
-<td>Chaotic neutral*</td>
-</tr>
-<tr class="odd">
-<td>21–35</td>
-<td>Chaotic evil</td>
-</tr>
-<tr class="even">
-<td>36–45</td>
-<td>Neutral evil*</td>
-</tr>
-<tr class="odd">
-<td>46–55</td>
-<td>Lawful evil</td>
-</tr>
-<tr class="even">
-<td>56–70</td>
-<td>Lawful good</td>
-</tr>
-<tr class="odd">
-<td>71–80</td>
-<td>Lawful neutral*</td>
-</tr>
-<tr class="even">
-<td>81–90</td>
-<td>Neutral good*</td>
-</tr>
-<tr class="odd">
-<td>91–100</td>
-<td>Neutral</td>
-</tr>
-</tbody>
+| 01–10 | Chaotic good |
+| 11–20 | Chaotic neutral\* |
+| 21–35 | Chaotic evil |
+| 36–45 | Neutral evil\* |
+| 46–55 | Lawful evil |
+| 56–70 | Lawful good |
+| 71–80 | Lawful neutral\* |
+| 81–90 | Neutral good\* |
+| 91–100 | Neutral |
 
 [Table: Intelligent Item Ability Scores]
 | Score | Base Price Modifier | Ego Modifier |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>10</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>+200 gp</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td>+500 gp</td>
-<td>+1</td>
-</tr>
-<tr class="even">
-<td>13</td>
-<td>+700 gp</td>
-<td>+1</td>
-</tr>
-<tr class="odd">
-<td>14</td>
-<td>+1,000 gp</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>15</td>
-<td>+1,400 gp</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>16</td>
-<td>+2,000 gp</td>
-<td>+3</td>
-</tr>
-<tr class="even">
-<td>17</td>
-<td>+2,800 gp</td>
-<td>+3</td>
-</tr>
-<tr class="odd">
-<td>18</td>
-<td>+4,000 gp</td>
-<td>+4</td>
-</tr>
-<tr class="even">
-<td>19</td>
-<td>+5,200 gp</td>
-<td>+4</td>
-</tr>
-<tr class="odd">
-<td>20</td>
-<td>+8,000 gp</td>
-<td>+5</td>
-</tr>
-</tbody>
+| 10 | — | — |
+| 11 | +200 gp | — |
+| 12 | +500 gp | +1 |
+| 13 | +700 gp | +1 |
+| 14 | +1,000 gp | +2 |
+| 15 | +1,400 gp | +2 |
+| 16 | +2,000 gp | +3 |
+| 17 | +2,800 gp | +3 |
+| 18 | +4,000 gp | +4 |
+| 19 | +5,200 gp | +4 |
+| 20 | +8,000 gp | +5 |
 
 [Table: Intelligent Item Senses and Communication]
 | Ability | Base Price Modifier | Ego Modifier |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Empathy</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Speech</td>
-<td>+500 gp</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Telepathy</td>
-<td>+1,000 gp</td>
-<td>+1</td>
-</tr>
-<tr class="even">
-<td>Senses (30 ft.)</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Senses (60 ft.)</td>
-<td>+500 gp</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Senses (120 ft.)</td>
-<td>+1,000 gp</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Darkvision</td>
-<td>+500 gp</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Blindsense</td>
-<td>+5,000 gp</td>
-<td>+1</td>
-</tr>
-<tr class="odd">
-<td>Read languages</td>
-<td>+1,000 gp</td>
-<td>+1</td>
-</tr>
-</tbody>| _Read magic _ | +2,000 gp | +1 |
+| Empathy | — | — |
+| Speech | +500 gp | — |
+| Telepathy | +1,000 gp | +1 |
+| Senses (30 ft.) | — | — |
+| Senses (60 ft.) | +500 gp | — |
+| Senses (120 ft.) | +1,000 gp | — |
+| Darkvision | +500 gp | — |
+| Blindsense | +5,000 gp | +1 |
+| Read languages | +1,000 gp | +1 |
+| _Read magic _ | +2,000 gp | +1 |
 
 [Table: Intelligent Item Powers]
 | d% | Item Power | Base Price Modifier | Ego Modifier |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–10</td>
-<td>Item can cast a 0-level spell at will</td>
-<td>+1,000 gp</td>
-<td>+1</td>
-</tr>
-<tr class="even">
-<td>11–20</td>
-<td>Item can cast a 1st-level spell 3/day</td>
-<td>+1,200 gp</td>
-<td>+1</td>
-</tr>
-<tr class="odd">
-<td>21–25</td>
-<td>Item can use <i><a href="../spells/magicAura.html#_magic-aura">magic aura</a></i> on itself at will</td>
-<td>+2,000 gp</td>
-<td>+1</td>
-</tr>
-<tr class="even">
-<td>26–35</td>
-<td>Item can cast a 2nd-level spell 1/day</td>
-<td>+2,400 gp</td>
-<td>+1</td>
-</tr>
-<tr class="odd">
-<td>36–45</td>
-<td>Item has 5 ranks in one skill*</td>
-<td>+2,500 gp</td>
-<td>+1</td>
-</tr>
-<tr class="even">
-<td>46–50</td>
-<td>Item can sprout limbs and move with a speed of 10 feet</td>
-<td>+5,000 gp</td>
-<td>+1</td>
-</tr>
-<tr class="odd">
-<td>51–55</td>
-<td>Item can cast a 3rd-level spell 1/day</td>
-<td>+6,000 gp</td>
-<td>+1</td>
-</tr>
-<tr class="even">
-<td>56–60</td>
-<td>Item can cast a 2nd-level spell 3/day</td>
-<td>+7,200 gp</td>
-<td>+1</td>
-</tr>
-<tr class="odd">
-<td>61–70</td>
-<td>Item has 10 ranks in one skill*</td>
-<td>+10,000 gp</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>71–75</td>
-<td>Item can change shape into one other form of the same size</td>
-<td>+10,000 gp</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>76–80</td>
-<td>Item can <i><a href="../spells/fly.html">fly</a>, </i>as per the spell, at a speed of 30 feet</td>
-<td>+10,000 gp</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>81–85</td>
-<td>Item can cast a 4th-level spell 1/day</td>
-<td>+11,200 gp</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>86–90</td>
-<td>Item can <i><a href="../spells/teleport.html#_teleport">teleport</a></i> itself 1/day</td>
-<td>+15,000 gp</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>91–95</td>
-<td>Item can cast a 3rd-level spell 3/day</td>
-<td>+18,000 gp</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>96–100</td>
-<td>Item can cast a 4th-level spell 3/day</td>
-<td>+33,600 gp</td>
-<td>+2</td>
-</tr>
-</tbody>
+| 01–10 | Item can cast a 0-level spell at will | +1,000 gp | +1 |
+| 11–20 | Item can cast a 1st-level spell 3/day | +1,200 gp | +1 |
+| 21–25 | Item can use _ [magic aura](../spells/magicAura.html#_magic-aura)_ on itself at will | +2,000 gp | +1 |
+| 26–35 | Item can cast a 2nd-level spell 1/day | +2,400 gp | +1 |
+| 36–45 | Item has 5 ranks in one skill\* | +2,500 gp | +1 |
+| 46–50 | Item can sprout limbs and move with a speed of 10 feet | +5,000 gp | +1 |
+| 51–55 | Item can cast a 3rd-level spell 1/day | +6,000 gp | +1 |
+| 56–60 | Item can cast a 2nd-level spell 3/day | +7,200 gp | +1 |
+| 61–70 | Item has 10 ranks in one skill\* | +10,000 gp | +2 |
+| 71–75 | Item can change shape into one other form of the same size | +10,000 gp | +2 |
+| 76–80 | Item can _ [fly](../spells/fly.html), _as per the spell, at a speed of 30 feet | +10,000 gp | +2 |
+| 81–85 | Item can cast a 4th-level spell 1/day | +11,200 gp | +2 |
+| 86–90 | Item can _ [teleport](../spells/teleport.html#_teleport)_ itself 1/day | +15,000 gp | +2 |
+| 91–95 | Item can cast a 3rd-level spell 3/day | +18,000 gp | +2 |
+| 96–100 | Item can cast a 4th-level spell 3/day | +33,600 gp | +2 |
 
 [Table: Intelligent Item Purpose]
 | d% | Purpose | Ego Modifier |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–20</td>
-<td>Defeat/slay diametrically opposed alignment*</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>21–30</td>
-<td>Defeat/slay arcane spellcasters (including spellcasting monsters and those that use spell-like abilities)</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>31–40</td>
-<td>Defeat/slay divine spellcasters (including divine entities and servitors)</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>41–50</td>
-<td>Defeat/slay non-spellcasters</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>51–55</td>
-<td>Defeat/slay a particular creature type (see the <i>bane</i> special ability for choices)</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>56–60</td>
-<td>Defeat/slay a particular race or kind of creature</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>61–70</td>
-<td>Defend a particular race or kind of creature</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>71–80</td>
-<td>Defeat/slay the servants of a specific deity</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>81–90</td>
-<td>Defend the servants and interests of a specific deity</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>91–95</td>
-<td>Defeat/slay all (other than the item and the wielder)</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>96–100</td>
-<td>Choose one</td>
-<td>+2</td>
-</tr>
-</tbody>
+| 01–20 | Defeat/slay diametrically opposed alignment\* | +2 |
+| 21–30 | Defeat/slay arcane spellcasters (including spellcasting monsters and those that use spell-like abilities) | +2 |
+| 31–40 | Defeat/slay divine spellcasters (including divine entities and servitors) | +2 |
+| 41–50 | Defeat/slay non-spellcasters | +2 |
+| 51–55 | Defeat/slay a particular creature type (see the _bane_ special ability for choices) | +2 |
+| 56–60 | Defeat/slay a particular race or kind of creature | +2 |
+| 61–70 | Defend a particular race or kind of creature | +2 |
+| 71–80 | Defeat/slay the servants of a specific deity | +2 |
+| 81–90 | Defend the servants and interests of a specific deity | +2 |
+| 91–95 | Defeat/slay all (other than the item and the wielder) | +2 |
+| 96–100 | Choose one | +2 |
 
 [Table: Special Purpose Item Dedicated Powers]
 | d% | Dedicated Power | Base Price Modifier | Ego Modifier |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–20</td>
-<td>Item can detect any special purpose foes within 60 feet</td>
-<td>+10,000 gp</td>
-<td>+1</td>
-</tr>
-<tr class="even">
-<td>21–35</td>
-<td>Item can use a 4th-level spell at will</td>
-<td>+56,000 gp</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>36–50</td>
-<td>Wielder gets +2 luck bonus on attacks, saves, and checks</td>
-<td>+80,000 gp</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>51–65</td>
-<td>Item can use a 5th-level spell at will</td>
-<td>+90,000 gp</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>66–80</td>
-<td>Item can use a 6th-level spell at will</td>
-<td>+132,000 gp</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>81–95</td>
-<td>Item can use a 7th-level spell at will</td>
-<td>+182,000 gp</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>96–100</td>
-<td>Item can use <i><a href="../spells/trueResurrection.html#_true-resurrection">true resurrection</a> </i>on wielder, once per month</td>
-<td>+200,000 gp</td>
-<td>+2</td>
-</tr>
-</tbody>
+| 01–20 | Item can detect any special purpose foes within 60 feet | +10,000 gp | +1 |
+| 21–35 | Item can use a 4th-level spell at will | +56,000 gp | +2 |
+| 36–50 | Wielder gets +2 luck bonus on attacks, saves, and checks | +80,000 gp | +2 |
+| 51–65 | Item can use a 5th-level spell at will | +90,000 gp | +2 |
+| 66–80 | Item can use a 6th-level spell at will | +132,000 gp | +2 |
+| 81–95 | Item can use a 7th-level spell at will | +182,000 gp | +2 |
+| 96–100 | Item can use _ [true resurrection](../spells/trueResurrection.html#_true-resurrection) _on wielder, once per month | +200,000 gp | +2 |
 
 Magic items sometimes have intelligence of their own. Magically imbued with sentience, these items think and feel the same way characters do and should be treated as NPCs. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes. Only permanent magic items (as opposed to single-use items or those with charges) can be intelligent. (This means that potions, scrolls, and wands, among other items, are never intelligent.) In general, less than 1% of magic items have intelligence.
 
@@ -421,40 +149,14 @@ Ego is a measure of the total power and force of personality that an item posses
 
 | Base Magic Item Value | Ego Modifier |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Up to 1,000 gp</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>1,001 gp to 5,000 gp</td>
-<td>+1</td>
-</tr>
-<tr class="odd">
-<td>5,001 gp to 10,000 gp</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>10,001 gp to 20,000 gp</td>
-<td>+3</td>
-</tr>
-<tr class="odd">
-<td>20,001 gp to 50,000 gp</td>
-<td>+4</td>
-</tr>
-<tr class="even">
-<td>50,001 gp to 100,000 gp</td>
-<td>+6</td>
-</tr>
-<tr class="odd">
-<td>100,001 gp to 200,000 gp</td>
-<td>+8</td>
-</tr>
-<tr class="even">
-<td>200,001 gp and higher</td>
-<td>+12</td>
-</tr>
-</tbody>
+| Up to 1,000 gp | — |
+| 1,001 gp to 5,000 gp | +1 |
+| 5,001 gp to 10,000 gp | +2 |
+| 10,001 gp to 20,000 gp | +3 |
+| 20,001 gp to 50,000 gp | +4 |
+| 50,001 gp to 100,000 gp | +6 |
+| 100,001 gp to 200,000 gp | +8 |
+| 200,001 gp and higher | +12 |
 
 ## Items against Characters
 

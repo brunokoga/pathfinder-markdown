@@ -12,40 +12,14 @@ You must consciously choose which requirement to emulate. That is, you must know
 
 | Task | Use Magic Device DC |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Activate blindly</td>
-<td>25</td>
-</tr>
-<tr class="even">
-<td>Decipher a written spell</td>
-<td>25 + spell level</td>
-</tr>
-<tr class="odd">
-<td>Use a scroll</td>
-<td>20 + caster level</td>
-</tr>
-<tr class="even">
-<td>Use a wand</td>
-<td>20</td>
-</tr>
-<tr class="odd">
-<td>Emulate a class feature</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td>Emulate an ability score</td>
-<td>See text</td>
-</tr>
-<tr class="odd">
-<td>Emulate a race</td>
-<td>25</td>
-</tr>
-<tr class="even">
-<td>Emulate an alignment</td>
-<td>30</td>
-</tr>
-</tbody>
+| Activate blindly | 25 |
+| Decipher a written spell | 25 + spell level |
+| Use a scroll | 20 + caster level |
+| Use a wand | 20 |
+| Emulate a class feature | 20 |
+| Emulate an ability score | See text |
+| Emulate a race | 25 |
+| Emulate an alignment | 30 |
 
 _Activate Blindly_: Some magic items are activated by special words, thoughts, or actions. You can activate such an item as if you were using the activation word, thought, or action, even when you're not and even if you don't know it. You do have to perform some equivalent activity in order to make the check. That is, you must speak, wave the item around, or otherwise attempt to get it to activate. You get a +2 bonus on your Use Magic Device check if you've activated the item in question at least once before. If you fail by 9 or less, you can't activate the device. If you fail by 10 or more, you suffer a mishap. A mishap means that magical energy gets released but doesn't do what you wanted it to do. The default mishaps are that the item affects the wrong target or that uncontrolled magical energy is released, dealing 2d6 points of damage to you. This mishap is in addition to the chance for a mishap that you normally risk when you cast a spell from a scroll that you could not otherwise cast yourself.
 

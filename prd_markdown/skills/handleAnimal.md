@@ -8,28 +8,11 @@ You are trained at working with animals, and can teach them tricks, get them to 
 
 | Task | Handle Animal DC |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Handle an animal</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>âPushâ an animal</td>
-<td>25</td>
-</tr>
-<tr class="odd">
-<td>Teach an animal a trick</td>
-<td>15 or 20*</td>
-</tr>
-<tr class="even">
-<td>Train an animal for a general purpose</td>
-<td>15 or 20*</td>
-</tr>
-<tr class="odd">
-<td>Rear a wild animal</td>
-<td>15 + HD of animal</td>
-</tr>
-</tbody>
+| Handle an animal | 10 |
+| âPushâ an animal | 25 |
+| Teach an animal a trick | 15 or 20\* |
+| Train an animal for a general purpose | 15 or 20\* |
+| Rear a wild animal | 15 + HD of animal |
 
 _Handle an Animal_: This task involves commanding an animal to perform a task or trick that it knows. If the animal is wounded or has taken any nonlethal damage or ability score damage, the DC increases by 2. If your check succeeds, the animal performs the task or trick on its next action.
 

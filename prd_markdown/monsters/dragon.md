@@ -12,89 +12,16 @@ Many of a true dragon's abilities, attacks, and other statistics improve as a dr
 [Dragon Age Categories]
 | Age Category | Age in Years | CR | Size | Hit Dice | Natural Armor | Breath Weapon |
 | --- | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1 Wyrmling</td>
-<td>0–5</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-</tr>
-<tr class="even">
-<td>2 Very young</td>
-<td>6–15</td>
-<td>Base + 2</td>
-<td>Base + 1</td>
-<td>Base + 2</td>
-<td>Base + 3</td>
-<td>Base × 2</td>
-</tr>
-<tr class="odd">
-<td>3 Young</td>
-<td>16–25</td>
-<td>Base + 4</td>
-<td>Base + 2</td>
-<td>Base + 4</td>
-<td>Base + 6</td>
-<td>Base × 3</td>
-</tr>
-<tr class="even">
-<td>4 Juvenile</td>
-<td>26–50</td>
-<td>Base + 5</td>
-<td>Base + 2</td>
-<td>Base + 6</td>
-<td>Base + 9</td>
-<td>Base × 4</td>
-</tr>
-<tr class="odd">
-<td>5 Young adult</td>
-<td>51–100</td>
-<td>Base + 7</td>
-<td>Base + 3</td>
-<td>Base + 8</td>
-<td>Base + 12</td>
-<td>Base × 5</td>
-</tr>
-<tr class="even">
-<td>6 Adult</td>
-<td>101–200</td>
-<td>Base + 8</td>
-<td>Base + 3</td>
-<td>Base + 10</td>
-<td>Base + 15</td>
-<td>Base × 6</td>
-</tr>
-<tr class="odd">
-<td>7 Mature adult</td>
-<td>201–400</td>
-<td>Base + 9</td>
-<td>Base + 3</td>
-<td>Base + 12</td>
-<td>Base + 18</td>
-<td>Base × 7</td>
-</tr>
-<tr class="even">
-<td>8 Old</td>
-<td>401–600</td>
-<td>Base + 11</td>
-<td>Base + 4</td>
-<td>Base + 14</td>
-<td>Base + 21</td>
-<td>Base × 8</td>
-</tr>
-<tr class="odd">
-<td>9 Very old</td>
-<td>601–800</td>
-<td>Base + 12</td>
-<td>Base + 4</td>
-<td>Base + 16</td>
-<td>Base + 24</td>
-<td>Base × 9</td>
-</tr>
-</tbody>| 10 Ancient | 801–1,000 | Base + 13 | Base + 4 | Base + 18 | Base + 27 | Base × 10 |
+| 1 Wyrmling | 0–5 | Base | Base | Base | Base | Base |
+| 2 Very young | 6–15 | Base + 2 | Base + 1 | Base + 2 | Base + 3 | Base × 2 |
+| 3 Young | 16–25 | Base + 4 | Base + 2 | Base + 4 | Base + 6 | Base × 3 |
+| 4 Juvenile | 26–50 | Base + 5 | Base + 2 | Base + 6 | Base + 9 | Base × 4 |
+| 5 Young adult | 51–100 | Base + 7 | Base + 3 | Base + 8 | Base + 12 | Base × 5 |
+| 6 Adult | 101–200 | Base + 8 | Base + 3 | Base + 10 | Base + 15 | Base × 6 |
+| 7 Mature adult | 201–400 | Base + 9 | Base + 3 | Base + 12 | Base + 18 | Base × 7 |
+| 8 Old | 401–600 | Base + 11 | Base + 4 | Base + 14 | Base + 21 | Base × 8 |
+| 9 Very old | 601–800 | Base + 12 | Base + 4 | Base + 16 | Base + 24 | Base × 9 |
+| 10 Ancient | 801–1,000 | Base + 13 | Base + 4 | Base + 18 | Base + 27 | Base × 10 |
 | 11 Wyrm | 1,001–1,200 | Base + 14 | Base + 4 | Base + 20 | Base + 30 | Base × 11 |
 | 12 Great wyrm | 1,201+ | Base + 16 | Base + 5 | Base + 22 | Base + 33 | Base × 12 |
 
@@ -118,17 +45,8 @@ Many of a true dragon's abilities, attacks, and other statistics improve as a dr
 [Dragon Ability Scores]
 | Age Category | Str | Dex | Con | Int | Wis | Chr |
 | --- | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1 Wyrmling</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-</tr>
-</tbody>| 2 Very young | Base + 4 | Base – 2 | Base + 2 | Base + 2 | Base + 2 | Base + 2 |
+| 1 Wyrmling | Base | Base | Base | Base | Base | Base |
+| 2 Very young | Base + 4 | Base – 2 | Base + 2 | Base + 2 | Base + 2 | Base + 2 |
 | 3 Young | Base + 8 | Base – 2 | Base + 4 | Base + 2 | Base + 2 | Base + 2 |
 | 4 Juvenile | Base + 10 | Base – 2 | Base + 6 | Base + 4 | Base + 4 | Base + 4 |
 | 5 Young adult | Base + 12 | Base – 4 | Base + 6 | Base + 4 | Base + 4 | Base + 4 |
@@ -149,92 +67,14 @@ The Dragon Attacks and Speeds table lists the attacks a dragon can employ and th
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Line | Cone |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Tiny</td>
-<td>100 ft. (average)</td>
-<td>1d4</td>
-<td>1d3</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>30 ft.</td>
-<td>15 ft.</td>
-</tr>
-<tr class="even">
-<td>Small</td>
-<td>150 ft. (average)</td>
-<td>1d6</td>
-<td>1d4</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>40 ft.</td>
-<td>20 ft.</td>
-</tr>
-<tr class="odd">
-<td>Medium</td>
-<td>150 ft. (average)</td>
-<td>1d8</td>
-<td>1d6</td>
-<td>1d4</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>60 ft.</td>
-<td>30 ft.</td>
-</tr>
-<tr class="even">
-<td>Large</td>
-<td>200 ft. (poor)</td>
-<td>2d6</td>
-<td>1d8</td>
-<td>1d6</td>
-<td>1d8</td>
-<td>—</td>
-<td>—</td>
-<td>80 ft.</td>
-<td>40 ft.</td>
-</tr>
-<tr class="odd">
-<td>Huge</td>
-<td>200 ft. (poor)</td>
-<td>2d8</td>
-<td>2d6</td>
-<td>1d8</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>—</td>
-<td>100 ft.</td>
-<td>50 ft.</td>
-</tr>
-<tr class="even">
-<td>Gargantuan</td>
-<td>250 ft. (clumsy)</td>
-<td>4d6</td>
-<td>2d8</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>4d6</td>
-<td>2d6</td>
-<td>120 ft.</td>
-<td>60 ft.</td>
-</tr>
-<tr class="odd">
-<td>Colossal</td>
-<td>250 ft. (clumsy)</td>
-<td>4d8</td>
-<td>4d6</td>
-<td>2d8</td>
-<td>4d6</td>
-<td>4d8</td>
-<td>2d8</td>
-<td>140 ft.</td>
-<td>70 ft.</td>
-</tr>
-</tbody>
+| Tiny | 100 ft. (average) | 1d4 | 1d3 | — | — | — | — | 30 ft. | 15 ft. |
+| Small | 150 ft. (average) | 1d6 | 1d4 | — | — | — | — | 40 ft. | 20 ft. |
+| Medium | 150 ft. (average) | 1d8 | 1d6 | 1d4 | — | — | — | 60 ft. | 30 ft. |
+| Large | 200 ft. (poor) | 2d6 | 1d8 | 1d6 | 1d8 | — | — | 80 ft. | 40 ft. |
+| Huge | 200 ft. (poor) | 2d8 | 2d6 | 1d8 | 2d6 | 2d8 | — | 100 ft. | 50 ft. |
+| Gargantuan | 250 ft. (clumsy) | 4d6 | 2d8 | 2d6 | 2d8 | 4d6 | 2d6 | 120 ft. | 60 ft. |
+| Colossal | 250 ft. (clumsy) | 4d8 | 4d6 | 2d8 | 4d6 | 4d8 | 2d8 | 140 ft. | 70 ft. |
+
   
   
 
@@ -319,70 +159,18 @@ CE [dragon](creatureTypes.html#_dragon) ( [water](creatureTypes.html#_water-subt
 
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Immunity to acid, water breathing</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td>Swamp stride</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td>Speak with reptiles</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td><i>Darkness</i></td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>1st</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td>Corrupt water, frightful presence</td>
-<td>3rd</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>5th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>Acidic bite, <i><a href="../spells/plantGrowth.html#_plant-growth">plant growth</a></i>
-</td>
-<td>7th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>9th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td>Acid pool, <i><a href="../spells/insectPlague.html#_insect-plague">insect plague</a></i>
-</td>
-<td>11th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>13th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Charm reptiles</td>
-<td>15th</td>
-</tr>
-</tbody>
+| Wyrmling | Immunity to acid, water breathing | — |
+| Very young | Swamp stride | — |
+| Young | Speak with reptiles | — |
+| Juvenile | _Darkness_ | — |
+| Young adult | DR 5/magic, spell resistance | 1st |
+| Adult | Corrupt water, frightful presence | 3rd |
+| Mature adult | DR 10/magic | 5th |
+| Old | Acidic bite, _ [plant growth](../spells/plantGrowth.html#_plant-growth)_ | 7th |
+| Very old | DR 15/magic | 9th |
+| Ancient | Acid pool, _ [insect plague](../spells/insectPlague.html#_insect-plague)_ | 11th |
+| Wyrm | DR 20/magic | 13th |
+| Great wyrm | Charm reptiles | 15th |
 
 **Young Black Dragon CR 7**
 
@@ -589,73 +377,18 @@ LE [dragon](creatureTypes.html#_dragon) ( [earth](creatureTypes.html#_earth-subt
 
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Desert thirst, immune to electricity</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td>Sound imitation</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td><i>Ghost sound</i></td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td>Frightful presence, <i><a href="../spells/minorImage.html#_minor-image">minor image</a></i>
-</td>
-<td>1st</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>3rd</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td>Electricity aura, <i><a href="../spells/ventriloquism.html#_ventriloquism">ventriloquism</a></i>
-</td>
-<td>5th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>7th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>Mirage, <i><a href="../spells/hallucinatoryTerrain.html#_hallucinatory-terrain">hallucinatory terrain</a></i>
-</td>
-<td>9th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>11th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td>Storm breath, <i><a href="../spells/veil.html#_veil">veil</a></i>
-</td>
-<td>13th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>15th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Sandstorm, <i><a href="../spells/mirageArcana.html#_mirage-arcana">mirage arcana</a></i>
-</td>
-<td>17th</td>
-</tr>
-</tbody>
+| Wyrmling | Desert thirst, immune to electricity | — |
+| Very young | Sound imitation | — |
+| Young | _Ghost sound_ | — |
+| Juvenile | Frightful presence, _ [minor image](../spells/minorImage.html#_minor-image)_ | 1st |
+| Young adult | DR 5/magic, spell resistance | 3rd |
+| Adult | Electricity aura, _ [ventriloquism](../spells/ventriloquism.html#_ventriloquism)_ | 5th |
+| Mature adult | DR 10/magic | 7th |
+| Old | Mirage, _ [hallucinatory terrain](../spells/hallucinatoryTerrain.html#_hallucinatory-terrain)_ | 9th |
+| Very old | DR 15/magic | 11th |
+| Ancient | Storm breath, _ [veil](../spells/veil.html#_veil)_ | 13th |
+| Wyrm | DR 20/magic | 15th |
+| Great wyrm | Sandstorm, _ [mirage arcana](../spells/mirageArcana.html#_mirage-arcana)_ | 17th |
 
 **Young Blue Dragon CR 9**
 
@@ -872,73 +605,18 @@ LE [dragon](creatureTypes.html#_dragon) ( [air](creatureTypes.html#_air-subtype)
 
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Immunity to acid, water breathing</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td>Woodland stride</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td><i>Entangle</i></td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td>Frightful presence, <i><a href="../spells/charmPerson.html#_charm-person">charm person</a></i>
-</td>
-<td>1st</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>3rd</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td>Trackless step, <i><a href="../spells/suggestion.html#_suggestion">suggestion</a></i>
-</td>
-<td>5th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>7th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>Camouflage, <i><a href="../spells/plantGrowth.html#_plant-growth">plant growth</a></i>
-</td>
-<td>9th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>11th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td>Miasma, <i><a href="../spells/dominatePerson.html#_dominate-person">dominate person</a></i>
-</td>
-<td>13th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>15th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Awaken treants, <i><a href="../spells/commandPlants.html#_command-plants">command plants</a></i>
-</td>
-<td>17th</td>
-</tr>
-</tbody>
+| Wyrmling | Immunity to acid, water breathing | — |
+| Very young | Woodland stride | — |
+| Young | _Entangle_ | — |
+| Juvenile | Frightful presence, _ [charm person](../spells/charmPerson.html#_charm-person)_ | 1st |
+| Young adult | DR 5/magic, spell resistance | 3rd |
+| Adult | Trackless step, _ [suggestion](../spells/suggestion.html#_suggestion)_ | 5th |
+| Mature adult | DR 10/magic | 7th |
+| Old | Camouflage, _ [plant growth](../spells/plantGrowth.html#_plant-growth)_ | 9th |
+| Very old | DR 15/magic | 11th |
+| Ancient | Miasma, _ [dominate person](../spells/dominatePerson.html#_dominate-person)_ | 13th |
+| Wyrm | DR 20/magic | 15th |
+| Great wyrm | Awaken treants, _ [command plants](../spells/commandPlants.html#_command-plants)_ | 17th |
 
 **Young Green Dragon CR 8**
 
@@ -1153,73 +831,18 @@ CE [dragon](creatureTypes.html#_dragon) ( [fire](creatureTypes.html#_fire-subtyp
 
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Fire subtype</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td>Smoke vision</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td><i>Detect magic</i></td>
-<td>1st</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td>Frightful presence, <i><a href="../spells/pyrotechnics.html#_pyrotechnics">pyrotechnics</a></i>
-</td>
-<td>3rd</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>5th</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td>Fire aura, <i><a href="../spells/suggestion.html#_suggestion">suggestion</a></i>
-</td>
-<td>7th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>9th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>Manipulate flames, <i><a href="../spells/wallOfFire.html#_wall-of-fire">wall of fire</a></i>
-</td>
-<td>11th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>13th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td>Melt stone, <i><a href="../spells/findThePath.html#_find-the-path">find the path</a></i>
-</td>
-<td>15th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>17th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Incinerate, <i><a href="../spells/discernLocation.html#_discern-location">discern location</a></i>
-</td>
-<td>19th</td>
-</tr>
-</tbody>
+| Wyrmling | Fire subtype | — |
+| Very young | Smoke vision | — |
+| Young | _Detect magic_ | 1st |
+| Juvenile | Frightful presence, _ [pyrotechnics](../spells/pyrotechnics.html#_pyrotechnics)_ | 3rd |
+| Young adult | DR 5/magic, spell resistance | 5th |
+| Adult | Fire aura, _ [suggestion](../spells/suggestion.html#_suggestion)_ | 7th |
+| Mature adult | DR 10/magic | 9th |
+| Old | Manipulate flames, _ [wall of fire](../spells/wallOfFire.html#_wall-of-fire)_ | 11th |
+| Very old | DR 15/magic | 13th |
+| Ancient | Melt stone, _ [find the path](../spells/findThePath.html#_find-the-path)_ | 15th |
+| Wyrm | DR 20/magic | 17th |
+| Great wyrm | Incinerate, _ [discern location](../spells/discernLocation.html#_discern-location)_ | 19th |
 
 **Young Red Dragon CR 10**
 
@@ -1448,71 +1071,18 @@ CE [dragon](creatureTypes.html#_dragon) ( [cold](creatureTypes.html#_cold-subtyp
 
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Icewalking, cold subtype</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td>Snow vision</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td>Ice shape</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td><i>Fog cloud</i></td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance, <i><a href="../spells/gustOfWind.html#_gust-of-wind">gust of wind</a></i>
-</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td>Cold aura, frightful presence</td>
-<td>1st</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>3rd</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>Freezing fog</td>
-<td>5th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>7th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td>Blizzard, <i><a href="../spells/wallOfIce.html#_wall-of-ice">wall of ice</a></i>
-</td>
-<td>9th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>11th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Ice tomb, <i><a href="../spells/controlWeather.html#_control-weather">control weather</a></i>
-</td>
-<td>13th</td>
-</tr>
-</tbody>
+| Wyrmling | Icewalking, cold subtype | — |
+| Very young | Snow vision | — |
+| Young | Ice shape | — |
+| Juvenile | _Fog cloud_ | — |
+| Young adult | DR 5/magic, spell resistance, _ [gust of wind](../spells/gustOfWind.html#_gust-of-wind)_ | — |
+| Adult | Cold aura, frightful presence | 1st |
+| Mature adult | DR 10/magic | 3rd |
+| Old | Freezing fog | 5th |
+| Very old | DR 15/magic | 7th |
+| Ancient | Blizzard, _ [wall of ice](../spells/wallOfIce.html#_wall-of-ice)_ | 9th |
+| Wyrm | DR 20/magic | 11th |
+| Great wyrm | Ice tomb, _ [control weather](../spells/controlWeather.html#_control-weather)_ | 13th |
 
 **Young White Dragon CR 6**
 
@@ -1725,74 +1295,18 @@ CG [dragon](creatureTypes.html#_dragon) ( [fire](creatureTypes.html#_fire-subtyp
 
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Fire subtype, sleep breath</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td> <i><a href="../spells/speakWithAnimals.html#_speak-with-animals">speak with animals</a></i>
-</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td>Move sand</td>
-<td>1st</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td>Desert wind, <i><a href="../spells/endureElements.html#_endure-elements">endure elements</a></i>
-</td>
-<td>3rd</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>5th</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td>frightful presence, <i><a href="../spells/suggestion.html#_suggestion">suggestion</a></i>
-</td>
-<td>7th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>9th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>Fire aura, <i><a href="../spells/controlWinds.html#_control-winds">control winds</a></i>
-</td>
-<td>11th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>13th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td>Sandstorm, <i><a href="../spells/controlWeather.html#_control-weather">control weather</a></i>
-</td>
-<td>15th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>17th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Summon djinni, <i><a href="../spells/whirlwind.html#_whirlwind">whirlwind</a></i>
-</td>
-<td>19th</td>
-</tr>
-</tbody>
+| Wyrmling | Fire subtype, sleep breath | — |
+| Very young | _ [speak with animals](../spells/speakWithAnimals.html#_speak-with-animals)_ | — |
+| Young | Move sand | 1st |
+| Juvenile | Desert wind, _ [endure elements](../spells/endureElements.html#_endure-elements)_ | 3rd |
+| Young adult | DR 5/magic, spell resistance | 5th |
+| Adult | frightful presence, _ [suggestion](../spells/suggestion.html#_suggestion)_ | 7th |
+| Mature adult | DR 10/magic | 9th |
+| Old | Fire aura, _ [control winds](../spells/controlWinds.html#_control-winds)_ | 11th |
+| Very old | DR 15/magic | 13th |
+| Ancient | Sandstorm, _ [control weather](../spells/controlWeather.html#_control-weather)_ | 15th |
+| Wyrm | DR 20/magic | 17th |
+| Great wyrm | Summon djinni, _ [whirlwind](../spells/whirlwind.html#_whirlwind)_ | 19th |
 
 **Young Brass Dragon CR 7**
 
@@ -2023,73 +1537,18 @@ LG [dragon](creatureTypes.html#_dragon) ( [water](creatureTypes.html#_water-subt
 
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Immunity to electricity, repulsion breath, water breathing</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td><i>Speak with animals</i></td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td>Change shape</td>
-<td>1st</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td>Wave mastery, <i><a href="../spells/createFoodAndWater.html#_create-food-and-water">create food and water</a></i>
-</td>
-<td>3rd</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>5th</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td>frightful presence, <i><a href="../spells/fogCloud.html">fog cloud</a></i>
-</td>
-<td>7th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>9th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>Electricity aura, <i><a href="../spells/detectThoughts.html#_detect-thoughts">detect thoughts</a></i>
-</td>
-<td>11th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>13th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td>Vortex, <i><a href="../spells/controlWater.html#_control-water">control water</a></i>
-</td>
-<td>15th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>17th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Tidal wave, <i><a href="../spells/controlWeather.html#_control-weather">control weather</a></i>
-</td>
-<td>19th</td>
-</tr>
-</tbody>
+| Wyrmling | Immunity to electricity, repulsion breath, water breathing | — |
+| Very young | _Speak with animals_ | — |
+| Young | Change shape | 1st |
+| Juvenile | Wave mastery, _ [create food and water](../spells/createFoodAndWater.html#_create-food-and-water)_ | 3rd |
+| Young adult | DR 5/magic, spell resistance | 5th |
+| Adult | frightful presence, _ [fog cloud](../spells/fogCloud.html)_ | 7th |
+| Mature adult | DR 10/magic | 9th |
+| Old | Electricity aura, _ [detect thoughts](../spells/detectThoughts.html#_detect-thoughts)_ | 11th |
+| Very old | DR 15/magic | 13th |
+| Ancient | Vortex, _ [control water](../spells/controlWater.html#_control-water)_ | 15th |
+| Wyrm | DR 20/magic | 17th |
+| Great wyrm | Tidal wave, _ [control weather](../spells/controlWeather.html#_control-weather)_ | 19th |
 
 **Young Bronze Dragon CR 9**
 
@@ -2316,73 +1775,18 @@ CG [dragon](creatureTypes.html#_dragon) ( [earth](creatureTypes.html#_earth-subt
 
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Immunity to acid, climb stone, slow breath</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td><i>Grease</i></td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td>Uncanny dodge</td>
-<td>1st</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td>Trap master, <i><a href="../spells/hideousLaughter.html#_hideous-laughter">hideous laughter</a></i>
-</td>
-<td>3rd</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>5th</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td>Frightful presence, <i><a href="../spells/stoneShape.html#_stone-shape">stone shape</a></i>
-</td>
-<td>7th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>9th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>Slow aura, <i>transmute rock/mud</i>
-</td>
-<td>11th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>13th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td>Mass laughter, <i><a href="../spells/wallOfStone.html#_wall-of-stone">wall of stone</a></i>
-</td>
-<td>15th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>17th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Deadly joke, <i><a href="../spells/moveEarth.html#_move-earth">move earth</a></i>
-</td>
-<td>19th</td>
-</tr>
-</tbody>
+| Wyrmling | Immunity to acid, climb stone, slow breath | — |
+| Very young | _Grease_ | — |
+| Young | Uncanny dodge | 1st |
+| Juvenile | Trap master, _ [hideous laughter](../spells/hideousLaughter.html#_hideous-laughter)_ | 3rd |
+| Young adult | DR 5/magic, spell resistance | 5th |
+| Adult | Frightful presence, _ [stone shape](../spells/stoneShape.html#_stone-shape)_ | 7th |
+| Mature adult | DR 10/magic | 9th |
+| Old | Slow aura, _transmute rock/mud_ | 11th |
+| Very old | DR 15/magic | 13th |
+| Ancient | Mass laughter, _ [wall of stone](../spells/wallOfStone.html#_wall-of-stone)_ | 15th |
+| Wyrm | DR 20/magic | 17th |
+| Great wyrm | Deadly joke, _ [move earth](../spells/moveEarth.html#_move-earth)_ | 19th |
 
 **Young Copper Dragon CR 8**
 
@@ -2609,72 +2013,18 @@ LG [dragon](creatureTypes.html#_dragon) ( [fire](creatureTypes.html#_fire-subtyp
 
 | Age Category | Special Abilities | Caster Level\* |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Fire subtype, weakening breath</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td>Change shape, <i><a href="../spells/detectEvil.html#_detect-evil">detect evil</a></i>
-</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td>Fast flight, detect gems</td>
-<td>1st</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td><i>Bless</i></td>
-<td>3rd</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>5th</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td>Frightful presence, luck, <i><a href="../spells/daylight.html#_daylight">daylight</a></i>
-</td>
-<td>7th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>9th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>Fire aura, <i><a href="../spells/geasQuest.html#_geas-quest">geas/quest</a></i>
-</td>
-<td>11th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>13th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td><i>Sunburst</i></td>
-<td>15th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>17th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Divine aid, <i><a href="../spells/foresight.html#_foresight">foresight</a></i>
-</td>
-<td>19th</td>
-</tr>
-</tbody>
+| Wyrmling | Fire subtype, weakening breath | — |
+| Very young | Change shape, _ [detect evil](../spells/detectEvil.html#_detect-evil)_ | — |
+| Young | Fast flight, detect gems | 1st |
+| Juvenile | _Bless_ | 3rd |
+| Young adult | DR 5/magic, spell resistance | 5th |
+| Adult | Frightful presence, luck, _ [daylight](../spells/daylight.html#_daylight)_ | 7th |
+| Mature adult | DR 10/magic | 9th |
+| Old | Fire aura, _ [geas/quest](../spells/geasQuest.html#_geas-quest)_ | 11th |
+| Very old | DR 15/magic | 13th |
+| Ancient | _Sunburst_ | 15th |
+| Wyrm | DR 20/magic | 17th |
+| Great wyrm | Divine aid, _ [foresight](../spells/foresight.html#_foresight)_ | 19th |
 
 **Young Gold Dragon CR 11**
 
@@ -2909,74 +2259,18 @@ LG [dragon](creatureTypes.html#_dragon) ( [cold](creatureTypes.html#_cold-subtyp
 
 | Age Category | Special Abilities | Caster Level\* |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Change shape, cold subtype, immune to acid, paralyzing breath</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td>Cloudwalking, <i><a href="../spells/detectEvil.html#_detect-evil">detect evil</a></i>
-</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td>Graceful flight</td>
-<td>1st</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td>Fog vision, <i><a href="../spells/featherFall.html#_feather-fall">feather fall</a></i>
-</td>
-<td>3rd</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>5th</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td>Frightful presence, <i><a href="../spells/fogCloud.html">fog cloud</a></i>
-</td>
-<td>7th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>9th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>Cold aura, <i><a href="../spells/controlWinds.html#_control-winds">control winds</a></i>
-</td>
-<td>11th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>13th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td>Reflective scales, <i><a href="../spells/controlWeather.html#_control-weather">control weather</a></i>
-</td>
-<td>15th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>17th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>True courage, <i><a href="../spells/reverseGravity.html#_reverse-gravity">reverse gravity</a></i>
-</td>
-<td>19th</td>
-</tr>
-</tbody>
+| Wyrmling | Change shape, cold subtype, immune to acid, paralyzing breath | — |
+| Very young | Cloudwalking, _ [detect evil](../spells/detectEvil.html#_detect-evil)_ | — |
+| Young | Graceful flight | 1st |
+| Juvenile | Fog vision, _ [feather fall](../spells/featherFall.html#_feather-fall)_ | 3rd |
+| Young adult | DR 5/magic, spell resistance | 5th |
+| Adult | Frightful presence, _ [fog cloud](../spells/fogCloud.html)_ | 7th |
+| Mature adult | DR 10/magic | 9th |
+| Old | Cold aura, _ [control winds](../spells/controlWinds.html#_control-winds)_ | 11th |
+| Very old | DR 15/magic | 13th |
+| Ancient | Reflective scales, _ [control weather](../spells/controlWeather.html#_control-weather)_ | 15th |
+| Wyrm | DR 20/magic | 17th |
+| Great wyrm | True courage, _ [reverse gravity](../spells/reverseGravity.html#_reverse-gravity)_ | 19th |
 
 **Young Silver Dragon CR 10**
 

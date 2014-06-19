@@ -28,28 +28,10 @@ _Lingering Aura_: An undead aura lingers after its original source is destroyed.
 
 | HD | Strength | Lingering Aura Duration |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1 or lower</td>
-<td>Faint</td>
-<td>1d6 rounds</td>
-</tr>
-<tr class="even">
-<td>2–4</td>
-<td>Moderate</td>
-<td>1d6 minutes</td>
-</tr>
-<tr class="odd">
-<td>5–10</td>
-<td>Strong</td>
-<td>1d6 × 10 minutes</td>
-</tr>
-<tr class="even">
-<td>11 or higher</td>
-<td>Overwhelming</td>
-<td>1d6 days</td>
-</tr>
-</tbody>
+| 1 or lower | Faint | 1d6 rounds |
+| 2–4 | Moderate | 1d6 minutes |
+| 5–10 | Strong | 1d6 × 10 minutes |
+| 11 or higher | Overwhelming | 1d6 days |
 
 Each round, you can turn to detect undead in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
 

@@ -60,26 +60,9 @@ Although manticores were likely a magical creation, they have long since establi
 
 | Manticore's Mate | Offspring |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Lion</td>
-<td>Standard manticore</td>
-</tr>
-<tr class="even">
-<td>Dire lion</td>
-<td>Advanced manticore</td>
-</tr>
-<tr class="odd">
-<td>Lamia</td>
-<td>Lamia with spiked tail and spikes special attack</td>
-</tr>
-<tr class="even">
-<td>Sphinx</td>
-<td>Sphinx with spiked tail and spikes special attack</td>
-</tr>
-<tr class="odd">
-<td>Chimera</td>
-<td>Chimera with spiked tail and spikes</td>
-</tr>
-</tbody>
+| Lion | Standard manticore |
+| Dire lion | Advanced manticore |
+| Lamia | Lamia with spiked tail and spikes special attack |
+| Sphinx | Sphinx with spiked tail and spikes special attack |
+| Chimera | Chimera with spiked tail and spikes |
 

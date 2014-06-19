@@ -54,44 +54,12 @@ Other species of giant spiders exist, as detailed below.
 
 | Species | CR | Size | HD |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Scarlet spider</td>
-<td>1/4</td>
-<td>Tiny</td>
-<td>1d8</td>
-</tr>
-<tr class="even">
-<td>Giant crab spider</td>
-<td>1/2</td>
-<td>Small</td>
-<td>2d8</td>
-</tr>
-<tr class="odd">
-<td>Giant black widow</td>
-<td>3</td>
-<td>Large</td>
-<td>5d8</td>
-</tr>
-<tr class="even">
-<td>Ogre spider</td>
-<td>5</td>
-<td>Huge</td>
-<td>7d8</td>
-</tr>
-<tr class="odd">
-<td>Giant tarantula</td>
-<td>8</td>
-<td>Gargantuan</td>
-<td>10d8</td>
-</tr>
-<tr class="even">
-<td>Goliath spider</td>
-<td>11</td>
-<td>Colossal</td>
-<td>14d8</td>
-</tr>
-</tbody>
+| Scarlet spider | 1/4 | Tiny | 1d8 |
+| Giant crab spider | 1/2 | Small | 2d8 |
+| Giant black widow | 3 | Large | 5d8 |
+| Ogre spider | 5 | Huge | 7d8 |
+| Giant tarantula | 8 | Gargantuan | 10d8 |
+| Goliath spider | 11 | Colossal | 14d8 |
 
 # Spider Swarm
 

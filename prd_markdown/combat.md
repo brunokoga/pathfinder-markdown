@@ -56,17 +56,17 @@ An attack roll represents your attempt to strike your opponent on your turn in a
 
 Your attack bonus with a melee weapon is the following:
 
-<big><b>Base attack bonus + <a href="gettingStarted.html#_strength">Strength</a> modifier + size modifier</b></big>
+**Base attack bonus + [Strength](gettingStarted.html#_strength) modifier + size modifier**
 
 With a ranged weapon, your attack bonus is the following:
 
-<big><b>Base attack bonus + <a href="gettingStarted.html#_dexterity">Dexterity</a> modifier + size modifier + range penalty</b></big>
+**Base attack bonus + [Dexterity](gettingStarted.html#_dexterity) modifier + size modifier + range penalty**
 
 ## Armor Class
 
 Your Armor Class (AC) represents how hard it is for opponents to land a solid, damaging blow on you. It's the attack roll result that an opponent needs to achieve to hit you. Your AC is equal to the following:
 
-<big><b>10 + armor bonus + shield bonus + <a href="gettingStarted.html#_dexterity">Dexterity</a> modifier + other modifiers</b></big>
+**10 + armor bonus + shield bonus + [Dexterity](gettingStarted.html#_dexterity) modifier + other modifiers**
 
 Note that armor limits your [Dexterity](gettingStarted.html#_dexterity) bonus, so if you're wearing armor, you might not be able to apply your whole [Dexterity](gettingStarted.html#_dexterity) bonus to your AC (see [Table: Armor and Shields](equipment.html#_table-6-6-armor-and-shields)).
 
@@ -85,44 +85,15 @@ _Dodge Bonuses_: Dodge bonuses represent actively avoiding blows. Any situation 
 [Table: Size Modifiers]
 | Size | Size Modifier |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Colossal</td>
-<td>–8</td>
-</tr>
-<tr class="even">
-<td>Gargantuan</td>
-<td>–4</td>
-</tr>
-<tr class="odd">
-<td>Huge</td>
-<td>–2</td>
-</tr>
-<tr class="even">
-<td>Large</td>
-<td>–1</td>
-</tr>
-<tr class="odd">
-<td>Medium</td>
-<td>+0</td>
-</tr>
-<tr class="even">
-<td>Small</td>
-<td>+1</td>
-</tr>
-<tr class="odd">
-<td>Tiny</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>Diminutive</td>
-<td>+4</td>
-</tr>
-<tr class="odd">
-<td>Fine</td>
-<td>+8</td>
-</tr>
-</tbody>
+| Colossal | –8 |
+| Gargantuan | –4 |
+| Huge | –2 |
+| Large | –1 |
+| Medium | +0 |
+| Small | +1 |
+| Tiny | +2 |
+| Diminutive | +4 |
+| Fine | +8 |
 
 _Size Modifier_: You receive a bonus or penalty to your AC based on your size. See Table: Size Modifiers.
 
@@ -192,7 +163,7 @@ If you use two move actions in a round (sometimes called a âdouble moveâ
 
 Generally, when you are subject to an unusual or magical attack, you get a saving throw to avoid or reduce the effect. Like an attack roll, a saving throw is a d20 roll plus a bonus based on your class and level (see [Classes](classes.html)), and an associated ability score. Your saving throw modifier is:
 
-<big><b>Base save bonus + ability modifier</b></big>
+**Base save bonus + ability modifier**
 
 **Saving Throw Types** : The three different kinds of saving throws are Fortitude, Reflex, and Will:
 
@@ -728,23 +699,9 @@ Miniatures are on the 30mm scale—a miniature of a 6-foot-tall man is approxima
 [Table: Tactical Speed]
 | Race | No Armor or Light Armor | Medium or Heavy Armor |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Human, elf, half-elf, half-orc</td>
-<td>30 ft. (6 squares)</td>
-<td>20 ft. (4 squares)</td>
-</tr>
-<tr class="even">
-<td>Dwarf</td>
-<td>20 ft. (4 squares)</td>
-<td>20 ft. (4 squares)</td>
-</tr>
-<tr class="odd">
-<td>Halfling, gnome</td>
-<td>20 ft. (4 squares)</td>
-<td>15 ft. (3 squares)</td>
-</tr>
-</tbody>
+| Human, elf, half-elf, half-orc | 30 ft. (6 squares) | 20 ft. (4 squares) |
+| Dwarf | 20 ft. (4 squares) | 20 ft. (4 squares) |
+| Halfling, gnome | 20 ft. (4 squares) | 15 ft. (3 squares) |
 
 Your speed is determined by your race and your armor (see Table: Tactical Speed). Your speed while unarmored is your base land speed.
 
@@ -837,73 +794,19 @@ If movement cost is doubled twice, then each square counts as 4 squares (or as 6
 [Table: Creature Size and Scale]
 | Creature Size | Space | Natural Reach\* |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Fine</td>
-<td>1/2 ft.</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td>Diminutive</td>
-<td>1 ft.</td>
-<td>0</td>
-</tr>
-<tr class="odd">
-<td>Tiny</td>
-<td>2-1/2 ft.</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td>Small</td>
-<td>5 ft.</td>
-<td>5 ft.</td>
-</tr>
-<tr class="odd">
-<td>Medium</td>
-<td>5 ft.</td>
-<td>5 ft.</td>
-</tr>
-<tr class="even">
-<td>Large (tall)</td>
-<td>10 ft.</td>
-<td>10 ft.</td>
-</tr>
-<tr class="odd">
-<td>Large (long)</td>
-<td>10 ft.</td>
-<td>5 ft.</td>
-</tr>
-<tr class="even">
-<td>Huge (tall)</td>
-<td>15 ft.</td>
-<td>15 ft.</td>
-</tr>
-<tr class="odd">
-<td>Huge (long)</td>
-<td>15 ft.</td>
-<td>10 ft.</td>
-</tr>
-<tr class="even">
-<td>Gargantuan (tall)</td>
-<td>20 ft.</td>
-<td>20 ft.</td>
-</tr>
-<tr class="odd">
-<td>Gargantuan (long)</td>
-<td>20 ft.</td>
-<td>15 ft.</td>
-</tr>
-<tr class="even">
-<td>Colossal (tall)</td>
-<td>30 ft.</td>
-<td>30 ft.</td>
-</tr>
-<tr class="odd">
-<td>Colossal (long)</td>
-<td>30 ft.</td>
-<td>20 ft.</td>
-</tr>
-</tbody>
+| Fine | 1/2 ft. | 0 |
+| Diminutive | 1 ft. | 0 |
+| Tiny | 2-1/2 ft. | 0 |
+| Small | 5 ft. | 5 ft. |
+| Medium | 5 ft. | 5 ft. |
+| Large (tall) | 10 ft. | 10 ft. |
+| Large (long) | 10 ft. | 5 ft. |
+| Huge (tall) | 15 ft. | 15 ft. |
+| Huge (long) | 15 ft. | 10 ft. |
+| Gargantuan (tall) | 20 ft. | 20 ft. |
+| Gargantuan (long) | 20 ft. | 15 ft. |
+| Colossal (tall) | 30 ft. | 30 ft. |
+| Colossal (long) | 30 ft. | 20 ft. |
 
 Creatures smaller than Small or larger than Medium have special rules relating to position.
 
@@ -1064,7 +967,7 @@ During combat, you can attempt to perform a number of maneuvers that can hinder 
 
 **Combat Maneuver Bonus** : Each character and creature has a Combat Maneuver Bonus (or CMB) that represents its skill at performing combat maneuvers. A creature's CMB is determined using the following formula:
 
-<big><b>CMB = Base attack bonus + <a href="gettingStarted.html#_strength">Strength</a> modifier + special size modifier</b></big>
+**CMB = Base attack bonus + [Strength](gettingStarted.html#_strength) modifier + special size modifier**
 
 Creatures that are size Tiny or smaller use their [Dexterity](gettingStarted.html#_dexterity) modifier in place of their [Strength](gettingStarted.html#_strength) modifier to determine their CMB. The special size modifier for a creature's Combat Maneuver Bonus is as follows: Fine –8, Diminutive –4, Tiny –2, Small –1, Medium +0, Large +1, Huge +2, Gargantuan +4, Colossal +8. Some feats and abilities grant a bonus to your CMB when performing specific maneuvers.
 
@@ -1074,7 +977,7 @@ When you attempt to perform a combat maneuver, make an attack roll and add your 
 
 **Combat Maneuver Defense** : Each character and creature has a Combat Maneuver Defense (or CMD) that represents its ability to resist combat maneuvers. A creature's CMD is determined using the following formula:
 
-<big><b>CMD = 10 + Base attack bonus + <a href="gettingStarted.html#_strength">Strength</a> modifier + <a href="gettingStarted.html#_dexterity">Dexterity</a> modifier + special size modifier</b></big>
+**CMD = 10 + Base attack bonus + [Strength](gettingStarted.html#_strength) modifier + [Dexterity](gettingStarted.html#_dexterity) modifier + special size modifier**
 
 The special size modifier for a creature's Combat Maneuver Defense is as follows: Fine –8, Diminutive –4, Tiny –2, Small –1, Medium +0, Large +1, Huge +2, Gargantuan +4, Colossal +8. Some feats and abilities grant a bonus to your CMD when resisting specific maneuvers. A creature can also add any circumstance, deflection, dodge, insight, luck, morale, profane, and sacred bonuses to AC to its CMD. Any penalties to a creature's AC also apply to its CMD. A [flat-footed](glossary.html#_flat-footed) creature does not add its [Dexterity](gettingStarted.html#_dexterity) bonus to its CMD.
 

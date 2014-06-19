@@ -27,411 +27,85 @@ Thus, from the dozens of NPCs presented, the true number of characters and encou
 [Table: Pregenerated NPC Statistics]
 | Archetype | Class | CR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td><a href="nPCGallery/military.html#_foot-soldier">Foot Soldier</a></td>
-<td>Warrior 1</td>
-<td>1/3</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/crusaders.html#_squire">Squire</a></td>
-<td>Aristocrat 1</td>
-<td>1/3</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/villagers.html#_village-idiot">Village Idiot</a></td>
-<td>Commoner 1</td>
-<td>1/3</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/temple.html#_acolyte">Acolyte</a></td>
-<td>Cleric 1</td>
-<td>1/2</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/brigands.html#_bandit">Bandit</a></td>
-<td>Warrior 2</td>
-<td>1/2</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/tavern.html#_barmaid">Barmaid</a></td>
-<td>Commoner 2</td>
-<td>1/2</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/villagers.html#_farmer">Farmer</a></td>
-<td>Commoner 1/Expert 1</td>
-<td>1/2</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/criminalsI.html#_pickpocket">Pickpocket</a></td>
-<td>Rogue 1</td>
-<td>1/2</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/sailors.html#_shipmate">Shipmate</a></td>
-<td>Expert 1/Warrior 1</td>
-<td>1/2</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/street.html#_beggar">Beggar</a></td>
-<td>Commoner 1/Rogue 1</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/tribe.html#_cannibal">Cannibal</a></td>
-<td>Barbarian 2</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/mercenaries.html#_caravan-guard">Caravan Guard</a></td>
-<td>Fighter 2</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/seers.html#_doomsayer">Doomsayer</a></td>
-<td>Adept 3</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/tavern.html#_drunkard">Drunkard</a></td>
-<td>Commoner 1/Warrior 2</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/cityWatch.html#_guard">Guard</a></td>
-<td>Warrior 3</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/fightingSchool.html#_initiate">Initiate</a></td>
-<td>Monk 2</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/street.html#_prostitute">Prostitute</a></td>
-<td>Expert 1/Rogue 1</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/merchants.html#_shopkeep">Shopkeep</a></td>
-<td>Expert 3</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/entertainers.html#_storyteller">Storyteller</a></td>
-<td>Bard 2</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/criminalsI.html#_street-thug">Street Thug</a></td>
-<td>Fighter 1/Rogue 1</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/road.html#_vagabond">Vagabond</a></td>
-<td>Commoner 2/Warrior 1</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/criminalsI.html#_burglar">Burglar</a></td>
-<td>Rogue 3</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/heretics.html#_cultist">Cultist</a></td>
-<td>Cleric 3</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/road.html#_wanderer">Wanderer</a></td>
-<td>Bard 1/Rogue 2</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/nobles.html#_noble-scion">Noble Scion</a></td>
-<td>Aristocrat 4</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/dungeon.html#_prisoner">Prisoner</a></td>
-<td>Expert 4</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/tavern.html#_barkeep">Barkeep</a></td>
-<td>Expert 4/Warrior 1</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/street.html#_dealer">Dealer</a></td>
-<td>Expert 1/Rogue 3</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/cityWatch.html#_guard-officer">Guard Officer</a></td>
-<td>Fighter 4</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/road.html#_pilgrim">Pilgrim</a></td>
-<td>Commoner 5</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/criminalsII.html#_slaver">Slaver</a></td>
-<td>Fighter 2/Ranger 2</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/frontier.html#_trapper">Trapper</a></td>
-<td>Ranger 4</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/dungeon.html#_turnkey">Turnkey</a></td>
-<td>Warrior 5</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/fightingSchool.html#_battle-monk">Battle Monk</a></td>
-<td>Monk 5</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/scholars.html#_hedge-wizard">Hedge Wizard</a></td>
-<td>Commoner 2/Wizard 3</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/seers.html#_medium">Medium</a></td>
-<td>Cleric 5</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/adventurers.html#_battle-mage">Battle Mage</a></td>
-<td>Evoker 6</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/military.html#_cavalry">Cavalry</a></td>
-<td>Fighter 6</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/seers.html#_fortune-teller">Fortune Teller</a></td>
-<td>Bard 3/Sorcerer 3</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/coliseum.html#_gladiator">Gladiator</a></td>
-<td>Barbarian 3/Fighter 3</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/entertainers.html#_minstrel">Minstrel</a></td>
-<td>Bard 6</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/adventurers.html#_monster-hunter">Monster Hunter</a></td>
-<td>Ranger 6</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/marauders.html#_raider">Raider</a></td>
-<td>Barbarian 6</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/tribe.html#_shaman">Shaman</a></td>
-<td>Adept 7</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/adventurers.html#_tomb-raider">Tomb Raider</a></td>
-<td>Rogue 6</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/dungeon.html#_torturer">Torturer</a></td>
-<td>Expert 5/Fighter 2</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/merchants.html#_traveling-merchant">Traveling Merchant</a></td>
-<td>Expert 7</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/scholars.html#_archaeologist">Archaeologist</a></td>
-<td>Rogue 7</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/coliseum.html#_beast-master">Beast Master</a></td>
-<td>Ranger 7</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/heretics.html#_conjurist">Conjurist</a></td>
-<td>Conjurer 7</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/frontier.html#_hermit">Hermit</a></td>
-<td>Druid 7</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/brigands.html#_highwayman">Highwayman</a></td>
-<td>Fighter 4/Rogue 3</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/crusaders.html#_holy-warrior">Holy Warrior</a></td>
-<td>Paladin 7</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/royalty.html#_princess">Princess</a></td>
-<td>Aristocrat 8</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/cityWatch.html#_watch-captain">Watch Captain</a></td>
-<td>Fighter 7</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/frontier.html#_guide">Guide</a></td>
-<td>Expert 9</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/nobles.html#_knight">Knight</a></td>
-<td>Aristocrat 2/Paladin 6</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/mercenaries.html#_sellsword">Sellsword</a></td>
-<td>Fighter 8</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/marauders.html#_viking">Viking</a></td>
-<td>Barbarian 2/Fighter 6</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/sailors.html#_first-mate">First Mate</a></td>
-<td>Expert 4/Fighter 5</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/villagers.html#_mayor">Mayor</a></td>
-<td>Aristocrat 3/Expert 7</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/nobles.html#_noble">Noble</a></td>
-<td>Aristocrat 10</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/temple.html#_priest">Priest</a></td>
-<td>Cleric 9</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/criminalsII.html#_slayer">Slayer</a></td>
-<td>Ranger 5/Assassin 4</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/coliseum.html#_champion">Champion</a></td>
-<td>Barbarian 5/Fighter 5</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/merchants.html#_merchant-prince">Merchant Prince</a></td>
-<td>Expert 4/Rogue 6</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/entertainers.html#_celebrity-bard">Celebrity Bard</a></td>
-<td>Bard 11</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/tribe.html#_chieftain">Chieftain</a></td>
-<td>Warrior 12</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/military.html#_general">General</a></td>
-<td>Fighter 11</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/criminalsII.html#_guild-master">Guild Master</a></td>
-<td>Rogue 11</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/royalty.html#_queen">Queen</a></td>
-<td>Aristocrat 12</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/brigands.html#_bandit-lord">Bandit Lord</a></td>
-<td>Fighter 8/Rogue 4</td>
-<td>11</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/mercenaries.html#_bounty-hunter">Bounty Hunter</a></td>
-<td>Ranger 12</td>
-<td>11</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/sailors.html#_captain">Captain</a></td>
-<td>Expert 3/Fighter 9</td>
-<td>11</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/heretics.html#_cult-leader">Cult Leader</a></td>
-<td>Cleric 10/Rogue 2</td>
-<td>11</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/marauders.html#_pirate-captain">Pirate Captain</a></td>
-<td>Fighter 7/Rogue 5</td>
-<td>11</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/scholars.html#_sage">Sage</a></td>
-<td>Expert 7/Abjurer 5</td>
-<td>11</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/crusaders.html#_saint">Saint</a></td>
-<td>Paladin 12</td>
-<td>11</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/temple.html#_high-priest">High Priest</a></td>
-<td>Cleric 13</td>
-<td>12</td>
-</tr>
-<tr class="even">
-<td><a href="nPCGallery/royalty.html#_king">King</a></td>
-<td>Aristocrat 16</td>
-<td>14</td>
-</tr>
-<tr class="odd">
-<td><a href="nPCGallery/fightingSchool.html#_master">Master</a></td>
-<td>Monk 15</td>
-<td>14</td>
-</tr>
-</tbody>
+| [Foot Soldier](nPCGallery/military.html#_foot-soldier) | Warrior 1 | 1/3 |
+| [Squire](nPCGallery/crusaders.html#_squire) | Aristocrat 1 | 1/3 |
+| [Village Idiot](nPCGallery/villagers.html#_village-idiot) | Commoner 1 | 1/3 |
+| [Acolyte](nPCGallery/temple.html#_acolyte) | Cleric 1 | 1/2 |
+| [Bandit](nPCGallery/brigands.html#_bandit) | Warrior 2 | 1/2 |
+| [Barmaid](nPCGallery/tavern.html#_barmaid) | Commoner 2 | 1/2 |
+| [Farmer](nPCGallery/villagers.html#_farmer) | Commoner 1/Expert 1 | 1/2 |
+| [Pickpocket](nPCGallery/criminalsI.html#_pickpocket) | Rogue 1 | 1/2 |
+| [Shipmate](nPCGallery/sailors.html#_shipmate) | Expert 1/Warrior 1 | 1/2 |
+| [Beggar](nPCGallery/street.html#_beggar) | Commoner 1/Rogue 1 | 1 |
+| [Cannibal](nPCGallery/tribe.html#_cannibal) | Barbarian 2 | 1 |
+| [Caravan Guard](nPCGallery/mercenaries.html#_caravan-guard) | Fighter 2 | 1 |
+| [Doomsayer](nPCGallery/seers.html#_doomsayer) | Adept 3 | 1 |
+| [Drunkard](nPCGallery/tavern.html#_drunkard) | Commoner 1/Warrior 2 | 1 |
+| [Guard](nPCGallery/cityWatch.html#_guard) | Warrior 3 | 1 |
+| [Initiate](nPCGallery/fightingSchool.html#_initiate) | Monk 2 | 1 |
+| [Prostitute](nPCGallery/street.html#_prostitute) | Expert 1/Rogue 1 | 1 |
+| [Shopkeep](nPCGallery/merchants.html#_shopkeep) | Expert 3 | 1 |
+| [Storyteller](nPCGallery/entertainers.html#_storyteller) | Bard 2 | 1 |
+| [Street Thug](nPCGallery/criminalsI.html#_street-thug) | Fighter 1/Rogue 1 | 1 |
+| [Vagabond](nPCGallery/road.html#_vagabond) | Commoner 2/Warrior 1 | 1 |
+| [Burglar](nPCGallery/criminalsI.html#_burglar) | Rogue 3 | 2 |
+| [Cultist](nPCGallery/heretics.html#_cultist) | Cleric 3 | 2 |
+| [Wanderer](nPCGallery/road.html#_wanderer) | Bard 1/Rogue 2 | 2 |
+| [Noble Scion](nPCGallery/nobles.html#_noble-scion) | Aristocrat 4 | 2 |
+| [Prisoner](nPCGallery/dungeon.html#_prisoner) | Expert 4 | 2 |
+| [Barkeep](nPCGallery/tavern.html#_barkeep) | Expert 4/Warrior 1 | 3 |
+| [Dealer](nPCGallery/street.html#_dealer) | Expert 1/Rogue 3 | 3 |
+| [Guard Officer](nPCGallery/cityWatch.html#_guard-officer) | Fighter 4 | 3 |
+| [Pilgrim](nPCGallery/road.html#_pilgrim) | Commoner 5 | 3 |
+| [Slaver](nPCGallery/criminalsII.html#_slaver) | Fighter 2/Ranger 2 | 3 |
+| [Trapper](nPCGallery/frontier.html#_trapper) | Ranger 4 | 3 |
+| [Turnkey](nPCGallery/dungeon.html#_turnkey) | Warrior 5 | 3 |
+| [Battle Monk](nPCGallery/fightingSchool.html#_battle-monk) | Monk 5 | 4 |
+| [Hedge Wizard](nPCGallery/scholars.html#_hedge-wizard) | Commoner 2/Wizard 3 | 4 |
+| [Medium](nPCGallery/seers.html#_medium) | Cleric 5 | 4 |
+| [Battle Mage](nPCGallery/adventurers.html#_battle-mage) | Evoker 6 | 5 |
+| [Cavalry](nPCGallery/military.html#_cavalry) | Fighter 6 | 5 |
+| [Fortune Teller](nPCGallery/seers.html#_fortune-teller) | Bard 3/Sorcerer 3 | 5 |
+| [Gladiator](nPCGallery/coliseum.html#_gladiator) | Barbarian 3/Fighter 3 | 5 |
+| [Minstrel](nPCGallery/entertainers.html#_minstrel) | Bard 6 | 5 |
+| [Monster Hunter](nPCGallery/adventurers.html#_monster-hunter) | Ranger 6 | 5 |
+| [Raider](nPCGallery/marauders.html#_raider) | Barbarian 6 | 5 |
+| [Shaman](nPCGallery/tribe.html#_shaman) | Adept 7 | 5 |
+| [Tomb Raider](nPCGallery/adventurers.html#_tomb-raider) | Rogue 6 | 5 |
+| [Torturer](nPCGallery/dungeon.html#_torturer) | Expert 5/Fighter 2 | 5 |
+| [Traveling Merchant](nPCGallery/merchants.html#_traveling-merchant) | Expert 7 | 5 |
+| [Archaeologist](nPCGallery/scholars.html#_archaeologist) | Rogue 7 | 6 |
+| [Beast Master](nPCGallery/coliseum.html#_beast-master) | Ranger 7 | 6 |
+| [Conjurist](nPCGallery/heretics.html#_conjurist) | Conjurer 7 | 6 |
+| [Hermit](nPCGallery/frontier.html#_hermit) | Druid 7 | 6 |
+| [Highwayman](nPCGallery/brigands.html#_highwayman) | Fighter 4/Rogue 3 | 6 |
+| [Holy Warrior](nPCGallery/crusaders.html#_holy-warrior) | Paladin 7 | 6 |
+| [Princess](nPCGallery/royalty.html#_princess) | Aristocrat 8 | 6 |
+| [Watch Captain](nPCGallery/cityWatch.html#_watch-captain) | Fighter 7 | 6 |
+| [Guide](nPCGallery/frontier.html#_guide) | Expert 9 | 7 |
+| [Knight](nPCGallery/nobles.html#_knight) | Aristocrat 2/Paladin 6 | 7 |
+| [Sellsword](nPCGallery/mercenaries.html#_sellsword) | Fighter 8 | 7 |
+| [Viking](nPCGallery/marauders.html#_viking) | Barbarian 2/Fighter 6 | 7 |
+| [First Mate](nPCGallery/sailors.html#_first-mate) | Expert 4/Fighter 5 | 8 |
+| [Mayor](nPCGallery/villagers.html#_mayor) | Aristocrat 3/Expert 7 | 8 |
+| [Noble](nPCGallery/nobles.html#_noble) | Aristocrat 10 | 8 |
+| [Priest](nPCGallery/temple.html#_priest) | Cleric 9 | 8 |
+| [Slayer](nPCGallery/criminalsII.html#_slayer) | Ranger 5/Assassin 4 | 8 |
+| [Champion](nPCGallery/coliseum.html#_champion) | Barbarian 5/Fighter 5 | 9 |
+| [Merchant Prince](nPCGallery/merchants.html#_merchant-prince) | Expert 4/Rogue 6 | 9 |
+| [Celebrity Bard](nPCGallery/entertainers.html#_celebrity-bard) | Bard 11 | 10 |
+| [Chieftain](nPCGallery/tribe.html#_chieftain) | Warrior 12 | 10 |
+| [General](nPCGallery/military.html#_general) | Fighter 11 | 10 |
+| [Guild Master](nPCGallery/criminalsII.html#_guild-master) | Rogue 11 | 10 |
+| [Queen](nPCGallery/royalty.html#_queen) | Aristocrat 12 | 10 |
+| [Bandit Lord](nPCGallery/brigands.html#_bandit-lord) | Fighter 8/Rogue 4 | 11 |
+| [Bounty Hunter](nPCGallery/mercenaries.html#_bounty-hunter) | Ranger 12 | 11 |
+| [Captain](nPCGallery/sailors.html#_captain) | Expert 3/Fighter 9 | 11 |
+| [Cult Leader](nPCGallery/heretics.html#_cult-leader) | Cleric 10/Rogue 2 | 11 |
+| [Pirate Captain](nPCGallery/marauders.html#_pirate-captain) | Fighter 7/Rogue 5 | 11 |
+| [Sage](nPCGallery/scholars.html#_sage) | Expert 7/Abjurer 5 | 11 |
+| [Saint](nPCGallery/crusaders.html#_saint) | Paladin 12 | 11 |
+| [High Priest](nPCGallery/temple.html#_high-priest) | Cleric 13 | 12 |
+| [King](nPCGallery/royalty.html#_king) | Aristocrat 16 | 14 |
+| [Master](nPCGallery/fightingSchool.html#_master) | Monk 15 | 14 |
 

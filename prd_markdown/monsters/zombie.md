@@ -58,68 +58,18 @@ Although capable of following orders, zombies are more often unleashed into an a
 
 | HD | CR | XP |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1/2</td>
-<td>1/8</td>
-<td>50</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>1/4</td>
-<td>100</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>1/2</td>
-<td>200</td>
-</tr>
-<tr class="even">
-<td>3–4</td>
-<td>1</td>
-<td>400</td>
-</tr>
-<tr class="odd">
-<td>5–6</td>
-<td>2</td>
-<td>600</td>
-</tr>
-<tr class="even">
-<td>7–8</td>
-<td>3</td>
-<td>800</td>
-</tr>
-<tr class="odd">
-<td>9–10</td>
-<td>4</td>
-<td>1,200</td>
-</tr>
-<tr class="even">
-<td>11–12</td>
-<td>5</td>
-<td>1,600</td>
-</tr>
-<tr class="odd">
-<td>13–16</td>
-<td>6</td>
-<td>2,400</td>
-</tr>
-<tr class="even">
-<td>17–20</td>
-<td>7</td>
-<td>3,200</td>
-</tr>
-<tr class="odd">
-<td>21–24</td>
-<td>8</td>
-<td>4,800</td>
-</tr>
-<tr class="even">
-<td>25–28</td>
-<td>9</td>
-<td>6,400</td>
-</tr>
-</tbody>
+| 1/2 | 1/8 | 50 |
+| 1 | 1/4 | 100 |
+| 2 | 1/2 | 200 |
+| 3–4 | 1 | 400 |
+| 5–6 | 2 | 600 |
+| 7–8 | 3 | 800 |
+| 9–10 | 4 | 1,200 |
+| 11–12 | 5 | 1,600 |
+| 13–16 | 6 | 2,400 |
+| 17–20 | 7 | 3,200 |
+| 21–24 | 8 | 4,800 |
+| 25–28 | 9 | 6,400 |
 
 **Alignment** : Always neutral evil.
 
@@ -129,67 +79,24 @@ Although capable of following orders, zombies are more often unleashed into an a
 
 | Zombie Size | Natural Armor Bonus |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Tiny or smaller</td>
-<td>+0</td>
-</tr>
-<tr class="even">
-<td>Small</td>
-<td>+1</td>
-</tr>
-<tr class="odd">
-<td>Medium</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>Large</td>
-<td>+3</td>
-</tr>
-<tr class="odd">
-<td>Huge</td>
-<td>+4</td>
-</tr>
-<tr class="even">
-<td>Gargantuan</td>
-<td>+7</td>
-</tr>
-<tr class="odd">
-<td>Colossal</td>
-<td>+11</td>
-</tr>
-</tbody>
+| Tiny or smaller | +0 |
+| Small | +1 |
+| Medium | +2 |
+| Large | +3 |
+| Huge | +4 |
+| Gargantuan | +7 |
+| Colossal | +11 |
 
 **Hit Dice** : Drop HD gained from class levels (minimum of 1) and change racial HD to d8s. Zombies gain a number of additional HD as noted on the following table.
 
 | Zombie Size | Bonus Hit Dice |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Tiny or smaller</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Small or Medium</td>
-<td>+1 HD</td>
-</tr>
-<tr class="odd">
-<td>Large</td>
-<td>+2 HD</td>
-</tr>
-<tr class="even">
-<td>Huge</td>
-<td>+4 HD</td>
-</tr>
-<tr class="odd">
-<td>Gargantuan</td>
-<td>+6 HD</td>
-</tr>
-<tr class="even">
-<td>Colossal</td>
-<td>+10 HD</td>
-</tr>
-</tbody>
+| Tiny or smaller | — |
+| Small or Medium | +1 HD |
+| Large | +2 HD |
+| Huge | +4 HD |
+| Gargantuan | +6 HD |
+| Colossal | +10 HD |
 
 Zombies use their Charisma modifiers to determine bonus hit points (instead of Constitution).
 

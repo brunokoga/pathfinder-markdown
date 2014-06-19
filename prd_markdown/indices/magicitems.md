@@ -8,11 +8,9 @@ Some individual items, notably those that just store spells, don't get full-blow
 
 A B C D E F G H I J K L M N O P Q R S T U V W X
 
-<input id="core-checkbox" value="core" class="link-by-book" type="checkbox" checked> <label for="core-checkbox">Core Rulebook</label>  <input id="apg-checkbox" value="apg" class="link-by-book" type="checkbox" checked> <label for="apg-checkbox">Advanced Player's Guide</label>  
+ Core Rulebook   Advanced Player's Guide  
 
-<input id="armor-checkbox" value="armor" class="link-by-book" type="checkbox" checked> <label for="armor-checkbox">Armor</label>  <input id="cursed-checkbox" value="cursed" class="link-by-book" type="checkbox" checked> <label for="cursed-checkbox">Cursed Items</label>  <input id="rings-checkbox" value="rings" class="link-by-book" type="checkbox" checked> <label for="rings-checkbox">Rings</label>  <input id="rods-checkbox" value="rods" class="link-by-book" type="checkbox" checked> <label for="rods-checkbox">Rods</label>  <input id="staves-checkbox" value="staves" class="link-by-book" type="checkbox" checked> <label for="staves-checkbox">Staves</label>  <input id="weapons-checkbox" value="weapons" class="link-by-book" type="checkbox" checked> <label for="weapons-checkbox">Weapons</label>  <input id="wondrousItems-checkbox" value="wondrousItems" class="link-by-book" type="checkbox" checked> <label for="wondrousItems-checkbox">Wondrous Items</label>  
-
-<script type="text/javascript">window.addEventListener( "load", setupLinkByBook, false );</script>
+ Armor   Cursed Items   Rings   Rods   Staves   Weapons   Wondrous Items  
 
 - A
 - B

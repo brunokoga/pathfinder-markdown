@@ -4,9 +4,7 @@ The following spells are presented in alphabetical order, with the exception of 
 
 A B C D E F G H I J K L M N O P Q R S T U V W Y Z
 
-<input id="core-checkbox" value="core" class="link-by-book" type="checkbox" checked> <label for="core-checkbox">Core Rulebook</label>   <input id="apg-checkbox" value="apg" class="link-by-book" type="checkbox" checked> <label for="apg-checkbox">Advanced Player's Guide</label>   <input id="arg-checkbox" value="arg" class="link-by-book" type="checkbox" checked> <label for="apg-checkbox">Advanced Race Guide</label>   <input id="um-checkbox" value="um" class="link-by-book" type="checkbox" checked> <label for="um-checkbox">Ultimate Magic</label>   <input id="uc-checkbox" value="uc" class="link-by-book" type="checkbox" checked> <label for="uc-checkbox">Ultimate Combat</label>   <!--li><input id="bestiary" class="link-by-book" type="checkbox" checked/>Bestiary</li--><!--li><input id="bestiary2" class="link-by-book" type="checkbox" checked/>Bestiary 2</li-->
-
-<script type="text/javascript">window.addEventListener( "load", setupLinkByBook, false );</script>
+ Core Rulebook    Advanced Player's Guide    Advanced Race Guide    Ultimate Magic    Ultimate Combat  
 
 - A Spells
 - B Spells

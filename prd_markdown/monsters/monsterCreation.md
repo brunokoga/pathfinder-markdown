@@ -15,281 +15,27 @@ The first step in creating a new monster is to define its concept and role in th
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | High | Low |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1/2</td>
-<td>10</td>
-<td>11</td>
-<td>1</td>
-<td>0</td>
-<td>4</td>
-<td>3</td>
-<td>11</td>
-<td>8</td>
-<td>3</td>
-<td>0</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>15</td>
-<td>12</td>
-<td>2</td>
-<td>1</td>
-<td>7</td>
-<td>5</td>
-<td>12</td>
-<td>9</td>
-<td>4</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>20</td>
-<td>14</td>
-<td>4</td>
-<td>3</td>
-<td>10</td>
-<td>7</td>
-<td>13</td>
-<td>9</td>
-<td>5</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>30</td>
-<td>15</td>
-<td>6</td>
-<td>4</td>
-<td>13</td>
-<td>9</td>
-<td>14</td>
-<td>10</td>
-<td>6</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>40</td>
-<td>17</td>
-<td>8</td>
-<td>6</td>
-<td>16</td>
-<td>12</td>
-<td>15</td>
-<td>10</td>
-<td>7</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>55</td>
-<td>18</td>
-<td>10</td>
-<td>7</td>
-<td>20</td>
-<td>15</td>
-<td>15</td>
-<td>11</td>
-<td>8</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>70</td>
-<td>19</td>
-<td>12</td>
-<td>8</td>
-<td>25</td>
-<td>18</td>
-<td>16</td>
-<td>11</td>
-<td>9</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>85</td>
-<td>20</td>
-<td>13</td>
-<td>10</td>
-<td>30</td>
-<td>22</td>
-<td>17</td>
-<td>12</td>
-<td>10</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>100</td>
-<td>21</td>
-<td>15</td>
-<td>11</td>
-<td>35</td>
-<td>26</td>
-<td>18</td>
-<td>12</td>
-<td>11</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>115</td>
-<td>23</td>
-<td>17</td>
-<td>12</td>
-<td>40</td>
-<td>30</td>
-<td>18</td>
-<td>13</td>
-<td>12</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>130</td>
-<td>24</td>
-<td>18</td>
-<td>13</td>
-<td>45</td>
-<td>33</td>
-<td>19</td>
-<td>13</td>
-<td>13</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>145</td>
-<td>25</td>
-<td>19</td>
-<td>14</td>
-<td>50</td>
-<td>37</td>
-<td>20</td>
-<td>14</td>
-<td>14</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td>160</td>
-<td>27</td>
-<td>21</td>
-<td>15</td>
-<td>55</td>
-<td>41</td>
-<td>21</td>
-<td>15</td>
-<td>15</td>
-<td>11</td>
-</tr>
-<tr class="even">
-<td>13</td>
-<td>180</td>
-<td>28</td>
-<td>22</td>
-<td>16</td>
-<td>60</td>
-<td>45</td>
-<td>21</td>
-<td>15</td>
-<td>16</td>
-<td>12</td>
-</tr>
-<tr class="odd">
-<td>14</td>
-<td>200</td>
-<td>29</td>
-<td>23</td>
-<td>17</td>
-<td>65</td>
-<td>48</td>
-<td>22</td>
-<td>16</td>
-<td>17</td>
-<td>12</td>
-</tr>
-<tr class="even">
-<td>15</td>
-<td>220</td>
-<td>30</td>
-<td>24</td>
-<td>18</td>
-<td>70</td>
-<td>52</td>
-<td>23</td>
-<td>16</td>
-<td>18</td>
-<td>13</td>
-</tr>
-<tr class="odd">
-<td>16</td>
-<td>240</td>
-<td>31</td>
-<td>26</td>
-<td>19</td>
-<td>80</td>
-<td>60</td>
-<td>24</td>
-<td>17</td>
-<td>19</td>
-<td>14</td>
-</tr>
-<tr class="even">
-<td>17</td>
-<td>270</td>
-<td>32</td>
-<td>27</td>
-<td>20</td>
-<td>90</td>
-<td>67</td>
-<td>24</td>
-<td>18</td>
-<td>20</td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td>18</td>
-<td>300</td>
-<td>33</td>
-<td>28</td>
-<td>21</td>
-<td>100</td>
-<td>75</td>
-<td>25</td>
-<td>18</td>
-<td>20</td>
-<td>16</td>
-</tr>
-<tr class="even">
-<td>19</td>
-<td>330</td>
-<td>34</td>
-<td>29</td>
-<td>22</td>
-<td>110</td>
-<td>82</td>
-<td>26</td>
-<td>19</td>
-<td>21</td>
-<td>16</td>
-</tr>
-<tr class="odd">
-<td>20</td>
-<td>370</td>
-<td>36</td>
-<td>30</td>
-<td>23</td>
-<td>120</td>
-<td>90</td>
-<td>27</td>
-<td>20</td>
-<td>22</td>
-<td>17</td>
-</tr>
-</tbody>
+| 1/2 | 10 | 11 | 1 | 0 | 4 | 3 | 11 | 8 | 3 | 0 |
+| 1 | 15 | 12 | 2 | 1 | 7 | 5 | 12 | 9 | 4 | 1 |
+| 2 | 20 | 14 | 4 | 3 | 10 | 7 | 13 | 9 | 5 | 1 |
+| 3 | 30 | 15 | 6 | 4 | 13 | 9 | 14 | 10 | 6 | 2 |
+| 4 | 40 | 17 | 8 | 6 | 16 | 12 | 15 | 10 | 7 | 3 |
+| 5 | 55 | 18 | 10 | 7 | 20 | 15 | 15 | 11 | 8 | 4 |
+| 6 | 70 | 19 | 12 | 8 | 25 | 18 | 16 | 11 | 9 | 5 |
+| 7 | 85 | 20 | 13 | 10 | 30 | 22 | 17 | 12 | 10 | 6 |
+| 8 | 100 | 21 | 15 | 11 | 35 | 26 | 18 | 12 | 11 | 7 |
+| 9 | 115 | 23 | 17 | 12 | 40 | 30 | 18 | 13 | 12 | 8 |
+| 10 | 130 | 24 | 18 | 13 | 45 | 33 | 19 | 13 | 13 | 9 |
+| 11 | 145 | 25 | 19 | 14 | 50 | 37 | 20 | 14 | 14 | 10 |
+| 12 | 160 | 27 | 21 | 15 | 55 | 41 | 21 | 15 | 15 | 11 |
+| 13 | 180 | 28 | 22 | 16 | 60 | 45 | 21 | 15 | 16 | 12 |
+| 14 | 200 | 29 | 23 | 17 | 65 | 48 | 22 | 16 | 17 | 12 |
+| 15 | 220 | 30 | 24 | 18 | 70 | 52 | 23 | 16 | 18 | 13 |
+| 16 | 240 | 31 | 26 | 19 | 80 | 60 | 24 | 17 | 19 | 14 |
+| 17 | 270 | 32 | 27 | 20 | 90 | 67 | 24 | 18 | 20 | 15 |
+| 18 | 300 | 33 | 28 | 21 | 100 | 75 | 25 | 18 | 20 | 16 |
+| 19 | 330 | 34 | 29 | 22 | 110 | 82 | 26 | 19 | 21 | 16 |
+| 20 | 370 | 36 | 30 | 23 | 120 | 90 | 27 | 20 | 22 | 17 |
 
 ## Step 2: Target Statistics
 
@@ -322,32 +68,12 @@ A creature with higher than normal attack bonuses will often deal lower damage, 
 [Table: Average Die Results]
 | Die Type | Average Result\* |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>d4</td>
-<td>2.5</td>
-</tr>
-<tr class="even">
-<td>d6</td>
-<td>3.5</td>
-</tr>
-<tr class="odd">
-<td>d8</td>
-<td>4.5</td>
-</tr>
-<tr class="even">
-<td>d10</td>
-<td>5.5</td>
-</tr>
-<tr class="odd">
-<td>d12</td>
-<td>6.5</td>
-</tr>
-<tr class="even">
-<td>d20</td>
-<td>10.5</td>
-</tr>
-</tbody>
+| d4 | 2.5 |
+| d6 | 3.5 |
+| d8 | 4.5 |
+| d10 | 5.5 |
+| d12 | 6.5 |
+| d20 | 10.5 |
 
 ## Step 3: Hit Dice
 
@@ -360,398 +86,32 @@ A creature's total number of Hit Dice depends on a number of factors, but the tw
 | --- | --- |
 | 1/2 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td><a href="monstersByType.html#_appendix-8-monsters-by-type">Aberration</a></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>7</td>
-<td>9</td>
-<td>10</td>
-<td>12</td>
-<td>14</td>
-<td>15</td>
-<td>16</td>
-<td>17</td>
-<td>19</td>
-<td>20</td>
-<td>22</td>
-<td>24</td>
-<td>26</td>
-<td>28</td>
-<td>30</td>
-<td>34</td>
-</tr>
-<tr class="even">
-<td><a href="creatureTypes.html#_animal">Animal</a></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>7</td>
-<td>9</td>
-<td>10</td>
-<td>12</td>
-<td>14</td>
-<td>15</td>
-<td>16</td>
-<td>17</td>
-<td>19</td>
-<td>20</td>
-<td>22</td>
-<td>24</td>
-<td>26</td>
-<td>28</td>
-<td>30</td>
-<td>34</td>
-</tr>
-<tr class="odd">
-<td><a href="creatureTypes.html#_construct">Construct</a></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>6</td>
-<td>8</td>
-<td>9</td>
-<td>10</td>
-<td>12</td>
-<td>13</td>
-<td>14</td>
-<td>16</td>
-<td>18</td>
-<td>19</td>
-<td>20</td>
-<td>21</td>
-<td>23</td>
-<td>25</td>
-<td>28</td>
-<td>31</td>
-</tr>
-<tr class="even">
-<td><a href="creatureTypes.html#_dragon">Dragon</a></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>6</td>
-<td>7</td>
-<td>8</td>
-<td>9</td>
-<td>11</td>
-<td>12</td>
-<td>13</td>
-<td>14</td>
-<td>16</td>
-<td>17</td>
-<td>18</td>
-<td>19</td>
-<td>21</td>
-<td>23</td>
-<td>25</td>
-<td>29</td>
-</tr>
-<tr class="odd">
-<td><a href="creatureTypes.html#_fey">Fey</a></td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>6</td>
-<td>8</td>
-<td>10</td>
-<td>12</td>
-<td>13</td>
-<td>15</td>
-<td>17</td>
-<td>18</td>
-<td>20</td>
-<td>22</td>
-<td>23</td>
-<td>25</td>
-<td>26</td>
-<td>28</td>
-<td>31</td>
-<td>33</td>
-<td>37</td>
-</tr>
-<tr class="even">
-<td><a href="creatureTypes.html#_humanoid">Humanoid</a></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>7</td>
-<td>9</td>
-<td>10</td>
-<td>12</td>
-<td>14</td>
-<td>15</td>
-<td>16</td>
-<td>17</td>
-<td>19</td>
-<td>20</td>
-<td>22</td>
-<td>24</td>
-<td>26</td>
-<td>28</td>
-<td>30</td>
-<td>34</td>
-</tr>
-<tr class="odd">
-<td><a href="creatureTypes.html#_magical-beast">Magical beast</a></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>6</td>
-<td>8</td>
-<td>9</td>
-<td>10</td>
-<td>12</td>
-<td>13</td>
-<td>14</td>
-<td>16</td>
-<td>18</td>
-<td>19</td>
-<td>20</td>
-<td>21</td>
-<td>23</td>
-<td>25</td>
-<td>28</td>
-<td>31</td>
-</tr>
-<tr class="even">
-<td><a href="creatureTypes.html#_monstrous-humanoid">Monstrous humanoid</a></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>6</td>
-<td>8</td>
-<td>9</td>
-<td>10</td>
-<td>12</td>
-<td>13</td>
-<td>14</td>
-<td>16</td>
-<td>18</td>
-<td>19</td>
-<td>20</td>
-<td>21</td>
-<td>23</td>
-<td>25</td>
-<td>28</td>
-<td>31</td>
-</tr>
-<tr class="odd">
-<td><a href="creatureTypes.html#_ooze">Ooze</a></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>7</td>
-<td>9</td>
-<td>10</td>
-<td>12</td>
-<td>14</td>
-<td>15</td>
-<td>16</td>
-<td>17</td>
-<td>19</td>
-<td>20</td>
-<td>22</td>
-<td>24</td>
-<td>26</td>
-<td>28</td>
-<td>30</td>
-<td>34</td>
-</tr>
-<tr class="even">
-<td><a href="creatureTypes.html#_outsider">Outsider</a></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>6</td>
-<td>8</td>
-<td>9</td>
-<td>10</td>
-<td>12</td>
-<td>13</td>
-<td>14</td>
-<td>16</td>
-<td>18</td>
-<td>19</td>
-<td>20</td>
-<td>21</td>
-<td>23</td>
-<td>25</td>
-<td>28</td>
-<td>31</td>
-</tr>
-<tr class="odd">
-<td><a href="creatureTypes.html#_plant">Plant</a></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>7</td>
-<td>9</td>
-<td>10</td>
-<td>12</td>
-<td>14</td>
-<td>15</td>
-<td>16</td>
-<td>17</td>
-<td>19</td>
-<td>20</td>
-<td>22</td>
-<td>24</td>
-<td>26</td>
-<td>28</td>
-<td>30</td>
-<td>34</td>
-</tr>
-<tr class="even">
-<td><a href="creatureTypes.html#_undead">Undead</a></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>7</td>
-<td>9</td>
-<td>10</td>
-<td>12</td>
-<td>14</td>
-<td>15</td>
-<td>16</td>
-<td>17</td>
-<td>19</td>
-<td>20</td>
-<td>22</td>
-<td>24</td>
-<td>26</td>
-<td>28</td>
-<td>30</td>
-<td>34</td>
-</tr>
-<tr class="odd">
-<td><a href="creatureTypes.html#_vermin">Vermin</a></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>7</td>
-<td>9</td>
-<td>10</td>
-<td>12</td>
-<td>14</td>
-<td>15</td>
-<td>16</td>
-<td>17</td>
-<td>19</td>
-<td>20</td>
-<td>22</td>
-<td>24</td>
-<td>26</td>
-<td>28</td>
-<td>30</td>
-<td>32</td>
-</tr>
-</tbody>
+| [Aberration](monstersByType.html#_appendix-8-monsters-by-type) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
+| [Animal](creatureTypes.html#_animal) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
+| [Construct](creatureTypes.html#_construct) | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 21 | 23 | 25 | 28 | 31 |
+| [Dragon](creatureTypes.html#_dragon) | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 16 | 17 | 18 | 19 | 21 | 23 | 25 | 29 |
+| [Fey](creatureTypes.html#_fey) | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 12 | 13 | 15 | 17 | 18 | 20 | 22 | 23 | 25 | 26 | 28 | 31 | 33 | 37 |
+| [Humanoid](creatureTypes.html#_humanoid) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
+| [Magical beast](creatureTypes.html#_magical-beast) | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 21 | 23 | 25 | 28 | 31 |
+| [Monstrous humanoid](creatureTypes.html#_monstrous-humanoid) | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 21 | 23 | 25 | 28 | 31 |
+| [Ooze](creatureTypes.html#_ooze) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
+| [Outsider](creatureTypes.html#_outsider) | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 21 | 23 | 25 | 28 | 31 |
+| [Plant](creatureTypes.html#_plant) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
+| [Undead](creatureTypes.html#_undead) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
+| [Vermin](creatureTypes.html#_vermin) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 32 |
 
 [Table: Size]
 | Size | Minimum CR | Maximum CR | Base Str | Base Dex | Base Con |
 | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Fine</td>
-<td>—</td>
-<td>2</td>
-<td>1</td>
-<td>18</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>Diminutive</td>
-<td>—</td>
-<td>4</td>
-<td>1</td>
-<td>16</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>Tiny</td>
-<td>—</td>
-<td>6</td>
-<td>2</td>
-<td>14</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>Small</td>
-<td>—</td>
-<td>—</td>
-<td>6</td>
-<td>12</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>Medium</td>
-<td>—</td>
-<td>—</td>
-<td>10</td>
-<td>10</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>Large</td>
-<td>2</td>
-<td>—</td>
-<td>18</td>
-<td>8</td>
-<td>14</td>
-</tr>
-<tr class="odd">
-<td>Huge</td>
-<td>4</td>
-<td>—</td>
-<td>26</td>
-<td>6</td>
-<td>18</td>
-</tr>
-<tr class="even">
-<td>Gargantuan</td>
-<td>6</td>
-<td>—</td>
-<td>34</td>
-<td>6</td>
-<td>22</td>
-</tr>
-<tr class="odd">
-<td>Colossal</td>
-<td>8</td>
-<td>—</td>
-<td>42</td>
-<td>6</td>
-<td>26</td>
-</tr>
-</tbody>
+| Fine | — | 2 | 1 | 18 | 8 |
+| Diminutive | — | 4 | 1 | 16 | 8 |
+| Tiny | — | 6 | 2 | 14 | 8 |
+| Small | — | — | 6 | 12 | 8 |
+| Medium | — | — | 10 | 10 | 10 |
+| Large | 2 | — | 18 | 8 | 14 |
+| Huge | 4 | — | 26 | 6 | 18 |
+| Gargantuan | 6 | — | 34 | 6 | 22 |
+| Colossal | 8 | — | 42 | 6 | 26 |
 
 ## Step 4: Size
 
@@ -778,278 +138,36 @@ After you have assigned skills, it's time to assign the creature's feats. Each c
 [Table: Statistics Summary]
 | HD | Fast BAB | Medium BAB | Slow BAB | Good Save | Bad Save | Feats |
 | --- | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>+1</td>
-<td>+0</td>
-<td>+0</td>
-<td>+2</td>
-<td>+0</td>
-<td>1</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>+2</td>
-<td>+1</td>
-<td>+1</td>
-<td>+3</td>
-<td>+0</td>
-<td>1</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>+3</td>
-<td>+2</td>
-<td>+1</td>
-<td>+3</td>
-<td>+1</td>
-<td>2</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>+4</td>
-<td>+3</td>
-<td>+2</td>
-<td>+4</td>
-<td>+1</td>
-<td>2</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>+5</td>
-<td>+3</td>
-<td>+2</td>
-<td>+4</td>
-<td>+1</td>
-<td>3</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>+6</td>
-<td>+4</td>
-<td>+3</td>
-<td>+5</td>
-<td>+2</td>
-<td>3</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>+7</td>
-<td>+5</td>
-<td>+3</td>
-<td>+5</td>
-<td>+2</td>
-<td>4</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>+8</td>
-<td>+6</td>
-<td>+4</td>
-<td>+6</td>
-<td>+2</td>
-<td>4</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>+9</td>
-<td>+6</td>
-<td>+4</td>
-<td>+6</td>
-<td>+3</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>+10</td>
-<td>+7</td>
-<td>+5</td>
-<td>+7</td>
-<td>+3</td>
-<td>5</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>+11</td>
-<td>+8</td>
-<td>+5</td>
-<td>+7</td>
-<td>+3</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>+12</td>
-<td>+9</td>
-<td>+6</td>
-<td>+8</td>
-<td>+4</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>+13</td>
-<td>+9</td>
-<td>+6</td>
-<td>+8</td>
-<td>+4</td>
-<td>7</td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>+14</td>
-<td>+10</td>
-<td>+7</td>
-<td>+9</td>
-<td>+4</td>
-<td>7</td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>+15</td>
-<td>+11</td>
-<td>+7</td>
-<td>+9</td>
-<td>+5</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>16</td>
-<td>+16</td>
-<td>+12</td>
-<td>+8</td>
-<td>+10</td>
-<td>+5</td>
-<td>8</td>
-</tr>
-<tr class="odd">
-<td>17</td>
-<td>+17</td>
-<td>+12</td>
-<td>+8</td>
-<td>+10</td>
-<td>+5</td>
-<td>9</td>
-</tr>
-<tr class="even">
-<td>18</td>
-<td>+18</td>
-<td>+13</td>
-<td>+9</td>
-<td>+11</td>
-<td>+6</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>19</td>
-<td>+19</td>
-<td>+14</td>
-<td>+9</td>
-<td>+11</td>
-<td>+6</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>20</td>
-<td>+20</td>
-<td>+15</td>
-<td>+10</td>
-<td>+12</td>
-<td>+6</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td>21</td>
-<td>+21</td>
-<td>+15</td>
-<td>+10</td>
-<td>+12</td>
-<td>+7</td>
-<td>11</td>
-</tr>
-<tr class="even">
-<td>22</td>
-<td>+22</td>
-<td>+16</td>
-<td>+11</td>
-<td>+13</td>
-<td>+7</td>
-<td>11</td>
-</tr>
-<tr class="odd">
-<td>23</td>
-<td>+23</td>
-<td>+17</td>
-<td>+11</td>
-<td>+13</td>
-<td>+7</td>
-<td>12</td>
-</tr>
-<tr class="even">
-<td>24</td>
-<td>+24</td>
-<td>+18</td>
-<td>+12</td>
-<td>+14</td>
-<td>+8</td>
-<td>12</td>
-</tr>
-<tr class="odd">
-<td>25</td>
-<td>+25</td>
-<td>+18</td>
-<td>+12</td>
-<td>+14</td>
-<td>+8</td>
-<td>13</td>
-</tr>
-<tr class="even">
-<td>26</td>
-<td>+26</td>
-<td>+19</td>
-<td>+13</td>
-<td>+15</td>
-<td>+8</td>
-<td>13</td>
-</tr>
-<tr class="odd">
-<td>27</td>
-<td>+27</td>
-<td>+20</td>
-<td>+13</td>
-<td>+15</td>
-<td>+9</td>
-<td>14</td>
-</tr>
-<tr class="even">
-<td>28</td>
-<td>+28</td>
-<td>+21</td>
-<td>+14</td>
-<td>+16</td>
-<td>+9</td>
-<td>14</td>
-</tr>
-<tr class="odd">
-<td>29</td>
-<td>+29</td>
-<td>+21</td>
-<td>+14</td>
-<td>+16</td>
-<td>+9</td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td>30</td>
-<td>+30</td>
-<td>+22</td>
-<td>+15</td>
-<td>+17</td>
-<td>+10</td>
-<td>15</td>
-</tr>
-</tbody>
+| 1 | +1 | +0 | +0 | +2 | +0 | 1 |
+| 2 | +2 | +1 | +1 | +3 | +0 | 1 |
+| 3 | +3 | +2 | +1 | +3 | +1 | 2 |
+| 4 | +4 | +3 | +2 | +4 | +1 | 2 |
+| 5 | +5 | +3 | +2 | +4 | +1 | 3 |
+| 6 | +6 | +4 | +3 | +5 | +2 | 3 |
+| 7 | +7 | +5 | +3 | +5 | +2 | 4 |
+| 8 | +8 | +6 | +4 | +6 | +2 | 4 |
+| 9 | +9 | +6 | +4 | +6 | +3 | 5 |
+| 10 | +10 | +7 | +5 | +7 | +3 | 5 |
+| 11 | +11 | +8 | +5 | +7 | +3 | 6 |
+| 12 | +12 | +9 | +6 | +8 | +4 | 6 |
+| 13 | +13 | +9 | +6 | +8 | +4 | 7 |
+| 14 | +14 | +10 | +7 | +9 | +4 | 7 |
+| 15 | +15 | +11 | +7 | +9 | +5 | 8 |
+| 16 | +16 | +12 | +8 | +10 | +5 | 8 |
+| 17 | +17 | +12 | +8 | +10 | +5 | 9 |
+| 18 | +18 | +13 | +9 | +11 | +6 | 9 |
+| 19 | +19 | +14 | +9 | +11 | +6 | 10 |
+| 20 | +20 | +15 | +10 | +12 | +6 | 10 |
+| 21 | +21 | +15 | +10 | +12 | +7 | 11 |
+| 22 | +22 | +16 | +11 | +13 | +7 | 11 |
+| 23 | +23 | +17 | +11 | +13 | +7 | 12 |
+| 24 | +24 | +18 | +12 | +14 | +8 | 12 |
+| 25 | +25 | +18 | +12 | +14 | +8 | 13 |
+| 26 | +26 | +19 | +13 | +15 | +8 | 13 |
+| 27 | +27 | +20 | +13 | +15 | +9 | 14 |
+| 28 | +28 | +21 | +14 | +16 | +9 | 14 |
+| 29 | +29 | +21 | +14 | +16 | +9 | 15 |
+| 30 | +30 | +22 | +15 | +17 | +10 | 15 |
 
 ## Step 7: Other Statistics
 
@@ -1068,64 +186,15 @@ When determining a creature's speed, first decide if it has any alternative mode
 [Table: Creature Statistics by Type]
 | Type | Hit Die | Base Attack Bonus (BAB) | Good Saving Throws | Skill Ranks\* |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td><a href="monstersByType.html#_appendix-8-monsters-by-type">Aberration</a></td>
-<td>d8</td>
-<td>HD × 3/4 (Medium BAB)</td>
-<td>Will</td>
-<td>4 + Int mod per HD</td>
-</tr>
-<tr class="even">
-<td><a href="creatureTypes.html#_animal">Animal</a></td>
-<td>d8</td>
-<td>HD × 3/4 (Medium BAB)</td>
-<td>Fort, Ref</td>
-<td>2 + Int mod per HD</td>
-</tr>
-<tr class="odd">
-<td><a href="creatureTypes.html#_construct">Construct</a></td>
-<td>d10</td>
-<td>HD (Fast BAB)</td>
-<td>—</td>
-<td>2 + Int mod per HD</td>
-</tr>
-<tr class="even">
-<td><a href="creatureTypes.html#_dragon">Dragon</a></td>
-<td>d12</td>
-<td>HD (Fast BAB)</td>
-<td>Fort, Ref, Will</td>
-<td>6 + Int mod per HD</td>
-</tr>
-<tr class="odd">
-<td><a href="creatureTypes.html#_fey">Fey</a></td>
-<td>d6</td>
-<td>HD × 1/2 (Slow BAB)</td>
-<td>Ref, Will</td>
-<td>6 + Int mod per HD</td>
-</tr>
-<tr class="even">
-<td><a href="creatureTypes.html#_humanoid">Humanoid</a></td>
-<td>d8</td>
-<td>HD × 3/4 (Medium BAB)</td>
-<td>Varies (any one)</td>
-<td>2 + Int mod per HD</td>
-</tr>
-<tr class="odd">
-<td><a href="creatureTypes.html#_magical-beast">Magical beast</a></td>
-<td>d10</td>
-<td>HD (Fast BAB)</td>
-<td>Fort, Ref</td>
-<td>2 + Int mod per HD</td>
-</tr>
-<tr class="even">
-<td><a href="creatureTypes.html#_monstrous-humanoid">Monstrous humanoid</a></td>
-<td>d10</td>
-<td>HD (Fast BAB)</td>
-<td>Ref, Will</td>
-<td>4 + Int mod per HD</td>
-</tr>
-</tbody>| [Ooze](creatureTypes.html#_ooze) | d8 | HD × 3/4 (Medium BAB) | — | 2 + Int mod per HD |
+| [Aberration](monstersByType.html#_appendix-8-monsters-by-type) | d8 | HD × 3/4 (Medium BAB) | Will | 4 + Int mod per HD |
+| [Animal](creatureTypes.html#_animal) | d8 | HD × 3/4 (Medium BAB) | Fort, Ref | 2 + Int mod per HD |
+| [Construct](creatureTypes.html#_construct) | d10 | HD (Fast BAB) | — | 2 + Int mod per HD |
+| [Dragon](creatureTypes.html#_dragon) | d12 | HD (Fast BAB) | Fort, Ref, Will | 6 + Int mod per HD |
+| [Fey](creatureTypes.html#_fey) | d6 | HD × 1/2 (Slow BAB) | Ref, Will | 6 + Int mod per HD |
+| [Humanoid](creatureTypes.html#_humanoid) | d8 | HD × 3/4 (Medium BAB) | Varies (any one) | 2 + Int mod per HD |
+| [Magical beast](creatureTypes.html#_magical-beast) | d10 | HD (Fast BAB) | Fort, Ref | 2 + Int mod per HD |
+| [Monstrous humanoid](creatureTypes.html#_monstrous-humanoid) | d10 | HD (Fast BAB) | Ref, Will | 4 + Int mod per HD |
+| [Ooze](creatureTypes.html#_ooze) | d8 | HD × 3/4 (Medium BAB) | — | 2 + Int mod per HD |
 | [Outsider](creatureTypes.html#_outsider) | d10 | HD (Fast BAB) | Varies (any two) | 6 + Int mod per HD |
 | [Plant](creatureTypes.html#_plant) | d8 | HD × 3/4 (Medium BAB) | Fort | 2 + Int mod per HD |
 | [Undead](creatureTypes.html#_undead) | d8 | HD × 3/4 (Medium BAB) | Will | 4 + Int mod per HD |
@@ -1142,218 +211,36 @@ Special senses and resistances to certain energy types are common in creatures o
 [Table: XP and GP Values by CR]
 | CR | XP | Slow GP | Medium GP | Fast GP |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1/8</td>
-<td>50 XP</td>
-<td>20 gp</td>
-<td>35 gp</td>
-<td>50 gp</td>
-</tr>
-<tr class="even">
-<td>1/6</td>
-<td>65 XP</td>
-<td>30 gp</td>
-<td>45 gp</td>
-<td>65 gp</td>
-</tr>
-<tr class="odd">
-<td>1/4</td>
-<td>100 XP</td>
-<td>40 gp</td>
-<td>65 gp</td>
-<td>100 gp</td>
-</tr>
-<tr class="even">
-<td>1/3</td>
-<td>135 XP</td>
-<td>55 gp</td>
-<td>85 gp</td>
-<td>135 gp</td>
-</tr>
-<tr class="odd">
-<td>1/2</td>
-<td>200 XP</td>
-<td>85 gp</td>
-<td>130 gp</td>
-<td>200 gp</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>400 XP</td>
-<td>170 gp</td>
-<td>260 gp</td>
-<td>400 gp</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>600 XP</td>
-<td>350 gp</td>
-<td>550 gp</td>
-<td>800 gp</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>800 XP</td>
-<td>550 gp</td>
-<td>800 gp</td>
-<td>1,200 gp</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>1,200 XP</td>
-<td>750 gp</td>
-<td>1,150 gp</td>
-<td>1,700 gp</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>1,600 XP</td>
-<td>1,000 gp</td>
-<td>1,550 gp</td>
-<td>2,300 gp</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>2,400 XP</td>
-<td>1,350 gp</td>
-<td>2,000 gp</td>
-<td>3,000 gp</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>3,200 XP</td>
-<td>1,750 gp</td>
-<td>2,600 gp</td>
-<td>3,900 gp</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>4,800 XP</td>
-<td>2,200 gp</td>
-<td>3,350 gp</td>
-<td>5,000 gp</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>6,400 XP</td>
-<td>2,850 gp</td>
-<td>4,250 gp</td>
-<td>6,400 gp</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>9,600 XP</td>
-<td>3,650 gp</td>
-<td>5,450 gp</td>
-<td>8,200 gp</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>12,800 XP</td>
-<td>4,650 gp</td>
-<td>7,000 gp</td>
-<td>10,500 gp</td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td>19,200 XP</td>
-<td>6,000 gp</td>
-<td>9,000 gp</td>
-<td>13,500 gp</td>
-</tr>
-<tr class="even">
-<td>13</td>
-<td>25,600 XP</td>
-<td>7,750 gp</td>
-<td>11,600 gp</td>
-<td>17,500 gp</td>
-</tr>
-<tr class="odd">
-<td>14</td>
-<td>38,400 XP</td>
-<td>10,000 gp</td>
-<td>15,000 gp</td>
-<td>22,000 gp</td>
-</tr>
-<tr class="even">
-<td>15</td>
-<td>51,200 XP</td>
-<td>13,000 gp</td>
-<td>19,500 gp</td>
-<td>29,000 gp</td>
-</tr>
-<tr class="odd">
-<td>16</td>
-<td>76,800 XP</td>
-<td>16,500 gp</td>
-<td>25,000 gp</td>
-<td>38,000 gp</td>
-</tr>
-<tr class="even">
-<td>17</td>
-<td>102,400 XP</td>
-<td>22,000 gp</td>
-<td>32,000 gp</td>
-<td>48,000 gp</td>
-</tr>
-<tr class="odd">
-<td>18</td>
-<td>153,600 XP</td>
-<td>28,000 gp</td>
-<td>41,000 gp</td>
-<td>62,000 gp</td>
-</tr>
-<tr class="even">
-<td>19</td>
-<td>204,800 XP</td>
-<td>35,000 gp</td>
-<td>53,000 gp</td>
-<td>79,000 gp</td>
-</tr>
-<tr class="odd">
-<td>20</td>
-<td>307,200 XP</td>
-<td>44,000 gp</td>
-<td>67,000 gp</td>
-<td>100,000 gp</td>
-</tr>
-<tr class="even">
-<td>21</td>
-<td>409,600 XP</td>
-<td>56,000 gp</td>
-<td>84,000 gp</td>
-<td>126,000 gp</td>
-</tr>
-<tr class="odd">
-<td>22</td>
-<td>615,000 XP</td>
-<td>70,000 gp</td>
-<td>105,000 gp</td>
-<td>158,000 gp</td>
-</tr>
-<tr class="even">
-<td>23</td>
-<td>820,000 XP</td>
-<td>88,000 gp</td>
-<td>132,000 gp</td>
-<td>198,000 gp</td>
-</tr>
-<tr class="odd">
-<td>24</td>
-<td>1,230,000 XP</td>
-<td>110,000 gp</td>
-<td>165,000 gp</td>
-<td>248,000 gp</td>
-</tr>
-<tr class="even">
-<td>25</td>
-<td>1,640,000 XP</td>
-<td>138,000 gp</td>
-<td>208,000 gp</td>
-<td>312,000 gp</td>
-</tr>
-</tbody>
+| 1/8 | 50 XP | 20 gp | 35 gp | 50 gp |
+| 1/6 | 65 XP | 30 gp | 45 gp | 65 gp |
+| 1/4 | 100 XP | 40 gp | 65 gp | 100 gp |
+| 1/3 | 135 XP | 55 gp | 85 gp | 135 gp |
+| 1/2 | 200 XP | 85 gp | 130 gp | 200 gp |
+| 1 | 400 XP | 170 gp | 260 gp | 400 gp |
+| 2 | 600 XP | 350 gp | 550 gp | 800 gp |
+| 3 | 800 XP | 550 gp | 800 gp | 1,200 gp |
+| 4 | 1,200 XP | 750 gp | 1,150 gp | 1,700 gp |
+| 5 | 1,600 XP | 1,000 gp | 1,550 gp | 2,300 gp |
+| 6 | 2,400 XP | 1,350 gp | 2,000 gp | 3,000 gp |
+| 7 | 3,200 XP | 1,750 gp | 2,600 gp | 3,900 gp |
+| 8 | 4,800 XP | 2,200 gp | 3,350 gp | 5,000 gp |
+| 9 | 6,400 XP | 2,850 gp | 4,250 gp | 6,400 gp |
+| 10 | 9,600 XP | 3,650 gp | 5,450 gp | 8,200 gp |
+| 11 | 12,800 XP | 4,650 gp | 7,000 gp | 10,500 gp |
+| 12 | 19,200 XP | 6,000 gp | 9,000 gp | 13,500 gp |
+| 13 | 25,600 XP | 7,750 gp | 11,600 gp | 17,500 gp |
+| 14 | 38,400 XP | 10,000 gp | 15,000 gp | 22,000 gp |
+| 15 | 51,200 XP | 13,000 gp | 19,500 gp | 29,000 gp |
+| 16 | 76,800 XP | 16,500 gp | 25,000 gp | 38,000 gp |
+| 17 | 102,400 XP | 22,000 gp | 32,000 gp | 48,000 gp |
+| 18 | 153,600 XP | 28,000 gp | 41,000 gp | 62,000 gp |
+| 19 | 204,800 XP | 35,000 gp | 53,000 gp | 79,000 gp |
+| 20 | 307,200 XP | 44,000 gp | 67,000 gp | 100,000 gp |
+| 21 | 409,600 XP | 56,000 gp | 84,000 gp | 126,000 gp |
+| 22 | 615,000 XP | 70,000 gp | 105,000 gp | 158,000 gp |
+| 23 | 820,000 XP | 88,000 gp | 132,000 gp | 198,000 gp |
+| 24 | 1,230,000 XP | 110,000 gp | 165,000 gp | 248,000 gp |
+| 25 | 1,640,000 XP | 138,000 gp | 208,000 gp | 312,000 gp |
 
 ## Step 9: Treasure
 

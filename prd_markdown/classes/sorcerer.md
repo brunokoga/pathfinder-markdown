@@ -232,58 +232,16 @@ At some point in your family's history, a dragon interbred with your bloodline, 
 
 | Dragon Type | Energy Type | Breath Shape |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Black</td>
-<td>Acid</td>
-<td>60-foot line</td>
-</tr>
-<tr class="even">
-<td>Blue</td>
-<td>Electricity</td>
-<td>60-foot line</td>
-</tr>
-<tr class="odd">
-<td>Green</td>
-<td>Acid</td>
-<td>30-foot cone</td>
-</tr>
-<tr class="even">
-<td>Red</td>
-<td>Fire</td>
-<td>30-foot cone</td>
-</tr>
-<tr class="odd">
-<td>White</td>
-<td>Cold</td>
-<td>30-foot cone</td>
-</tr>
-<tr class="even">
-<td>Brass</td>
-<td>Fire</td>
-<td>60-foot line</td>
-</tr>
-<tr class="odd">
-<td>Bronze</td>
-<td>Electricity</td>
-<td>60-foot line</td>
-</tr>
-<tr class="even">
-<td>Copper</td>
-<td>Acid</td>
-<td>60-foot line</td>
-</tr>
-<tr class="odd">
-<td>Gold</td>
-<td>Fire</td>
-<td>30-foot cone</td>
-</tr>
-<tr class="even">
-<td>Silver</td>
-<td>Cold</td>
-<td>30-foot cone</td>
-</tr>
-</tbody>
+| Black | Acid | 60-foot line |
+| Blue | Electricity | 60-foot line |
+| Green | Acid | 30-foot cone |
+| Red | Fire | 30-foot cone |
+| White | Cold | 30-foot cone |
+| Brass | Fire | 60-foot line |
+| Bronze | Electricity | 60-foot line |
+| Copper | Acid | 60-foot line |
+| Gold | Fire | 30-foot cone |
+| Silver | Cold | 30-foot cone |
 
 _Claws [(Su)](../glossary.html#_supernatural-abilities-su)_: Starting at 1st level, you can grow claws as a free action. These claws are treated as natural weapons, allowing you to make two claw attacks as a full attack action using your full base attack bonus. Each of these attacks deals 1d4 points of damage plus your [Strength](../gettingStarted.html#_strength) modifier (1d3 if you are Small). At 5th level, these claws are considered magic weapons for the purpose of overcoming [DR](../glossary.html#_damage-reduction). At 7th level, the damage increases by one step to 1d6 points of damage (1d4 if you are Small). At 11th level, these claws deal an additional 1d6 points of damage of your energy type on a successful hit. You can use your claws for a number of rounds per day equal to 3 + your [Charisma](../gettingStarted.html#_charisma-new) modifier. These rounds do not need to be consecutive.
 
@@ -313,28 +271,10 @@ The power of the elements resides in you, and at times you can hardly control it
 
 | Element | Energy Type | Elemental Movement |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Air</td>
-<td>Electricity</td>
-<td>Fly 60 feet (average)</td>
-</tr>
-<tr class="even">
-<td>Earth</td>
-<td>Acid</td>
-<td>Burrow 30 feet</td>
-</tr>
-<tr class="odd">
-<td>Fire</td>
-<td>Fire</td>
-<td>+30 feet base speed</td>
-</tr>
-<tr class="even">
-<td>Water</td>
-<td>Cold</td>
-<td>Swim 60 feet</td>
-</tr>
-</tbody>
+| Air | Electricity | Fly 60 feet (average) |
+| Earth | Acid | Burrow 30 feet |
+| Fire | Fire | +30 feet base speed |
+| Water | Cold | Swim 60 feet |
 
 _Elemental Ray_ _ [(Sp)](../glossary.html#_spell-like-abilities-sp)_: Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of damage of your energy type + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your [Charisma](../gettingStarted.html#_charisma-new) modifier.
 

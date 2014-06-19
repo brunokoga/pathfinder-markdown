@@ -57,7 +57,7 @@ Generating ability scores for most of the races you create with these rules—ev
 
 Because they have powerful racial traits and abilities, advanced and monstrous races require greater challenges, especially at lower levels. The basic guideline for accomplishing this is to treat a group of characters with advanced and monstrous races as a level or more higher for a number of levels based on their total RP spent, using the following chart. Calculate the party's adjusted average party level, and use that number, rather than the actual APL, when creating encounters and adventures for the group. For groups with mixed power levels, average the RP and round the result to the nearest multiple of 10.
 
-| | <center>Average Party Level</center> |
+| | Average Party Level |
 | --- | --- |
 | Average RP | 1–5 | 6–10 | 11–15 | 16–20 |
 | --- | --- | --- | --- | --- |

@@ -49,40 +49,38 @@ All of the following are class features of the ranger.
 [Ranger Favored Enemies]
 | Type (Subtype) |
 | --- |
-<tbody>
-<tr class="odd"><td>Aberration</td></tr>
-<tr class="even"><td>Animal</td></tr>
-<tr class="odd"><td>Construct</td></tr>
-<tr class="even"><td>Dragon</td></tr>
-<tr class="odd"><td>Fey</td></tr>
-<tr class="even"><td>Humanoid (aquatic)</td></tr>
-<tr class="odd"><td>Humanoid (dwarf)</td></tr>
-<tr class="even"><td>Humanoid (elf)</td></tr>
-<tr class="odd"><td>Humanoid (giant)</td></tr>
-<tr class="even"><td>Humanoid (goblinoid)</td></tr>
-<tr class="odd"><td>Humanoid (gnoll)</td></tr>
-<tr class="even"><td>Humanoid (gnome)</td></tr>
-<tr class="odd"><td>Humanoid (halfling)</td></tr>
-<tr class="even"><td>Humanoid (human)</td></tr>
-<tr class="odd"><td>Humanoid (orc)</td></tr>
-<tr class="even"><td>Humanoid (reptilian)</td></tr>
-<tr class="odd"><td>Humanoid (other subtype)</td></tr>
-<tr class="even"><td>Magical beast</td></tr>
-<tr class="odd"><td>Monstrous humanoid</td></tr>
-<tr class="even"><td>Ooze</td></tr>
-<tr class="odd"><td>Outsider (air)</td></tr>
-<tr class="even"><td>Outsider (chaotic)</td></tr>
-<tr class="odd"><td>Outsider (earth)</td></tr>
-<tr class="even"><td>Outsider (evil)</td></tr>
-<tr class="odd"><td>Outsider (fire)</td></tr>
-<tr class="even"><td>Outsider (good)</td></tr>
-<tr class="odd"><td>Outsider (lawful)</td></tr>
-<tr class="even"><td>Outsider (native)</td></tr>
-<tr class="odd"><td>Outsider (water)</td></tr>
-<tr class="even"><td>Plant</td></tr>
-<tr class="odd"><td>Undead</td></tr>
-<tr class="even"><td>Vermin</td></tr>
-</tbody>
+| Aberration |
+| Animal |
+| Construct |
+| Dragon |
+| Fey |
+| Humanoid (aquatic) |
+| Humanoid (dwarf) |
+| Humanoid (elf) |
+| Humanoid (giant) |
+| Humanoid (goblinoid) |
+| Humanoid (gnoll) |
+| Humanoid (gnome) |
+| Humanoid (halfling) |
+| Humanoid (human) |
+| Humanoid (orc) |
+| Humanoid (reptilian) |
+| Humanoid (other subtype) |
+| Magical beast |
+| Monstrous humanoid |
+| Ooze |
+| Outsider (air) |
+| Outsider (chaotic) |
+| Outsider (earth) |
+| Outsider (evil) |
+| Outsider (fire) |
+| Outsider (good) |
+| Outsider (lawful) |
+| Outsider (native) |
+| Outsider (water) |
+| Plant |
+| Undead |
+| Vermin |
 
 **Favored Enemy [(Ex)](../glossary.html#_extraordinary-abilities-ex)** : At 1st level, a ranger selects a creature type from the ranger favored enemies table. He gains a +2 bonus on [Bluff](../skills/bluff.html#_bluff), [Knowledge](../skills/knowledge.html#_knowledge), [Perception](../skills/perception.html#_perception), [Sense Motive](../skills/senseMotive.html#_sense-motive), and [Survival](../skills/survival.html#_survival) checks against creatures of his selected type. Likewise, he gets a +2 bonus on weapon attack and damage rolls against them. A ranger may make [Knowledge](../skills/knowledge.html#_knowledge) [skill checks](../usingSkills.html#_skill-checks) untrained when attempting to identify these creatures.
 

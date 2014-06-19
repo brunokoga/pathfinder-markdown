@@ -252,50 +252,12 @@ An air elemental prefers to attack flying or otherwise airbone targets, not only
 | --- | --- | --- | --- | --- |
 |
 | |
-<tbody>
-<tr class="odd">
-<td>Small</td>
-<td>4 ft.</td>
-<td>1 lb.</td>
-<td>12</td>
-<td>10–20 ft.</td>
-</tr>
-<tr class="even">
-<td>Medium</td>
-<td>8 ft.</td>
-<td>2 lbs.</td>
-<td>14</td>
-<td>10–30 ft.</td>
-</tr>
-<tr class="odd">
-<td>Large</td>
-<td>16 ft.</td>
-<td>4 lbs.</td>
-<td>18</td>
-<td>10–40 ft.</td>
-</tr>
-<tr class="even">
-<td>Huge</td>
-<td>32 ft.</td>
-<td>8 lbs.</td>
-<td>22</td>
-<td>10–50 ft.</td>
-</tr>
-<tr class="odd">
-<td>Greater</td>
-<td>36 ft.</td>
-<td>10 lbs.</td>
-<td>23</td>
-<td>10–60 ft.</td>
-</tr>
-<tr class="even">
-<td>Elder</td>
-<td>40 ft.</td>
-<td>12 lbs.</td>
-<td>27</td>
-<td>10–60 ft.</td>
-</tr>
-</tbody>
+| Small | 4 ft. | 1 lb. | 12 | 10–20 ft. |
+| Medium | 8 ft. | 2 lbs. | 14 | 10–30 ft. |
+| Large | 16 ft. | 4 lbs. | 18 | 10–40 ft. |
+| Huge | 32 ft. | 8 lbs. | 22 | 10–50 ft. |
+| Greater | 36 ft. | 10 lbs. | 23 | 10–60 ft. |
+| Elder | 40 ft. | 12 lbs. | 27 | 10–60 ft. |
 
 # Elemental, Earth
 
@@ -547,38 +509,12 @@ N Huge [outsider](creatureTypes.html#_outsider) ( [earth](creatureTypes.html#_ea
 | --- | --- | --- |
 |
 | |
-<tbody>
-<tr class="odd">
-<td>Small</td>
-<td>4 ft.</td>
-<td>80 lbs.</td>
-</tr>
-<tr class="even">
-<td>Medium</td>
-<td>8 ft.</td>
-<td>750 lbs.</td>
-</tr>
-<tr class="odd">
-<td>Large</td>
-<td>16 ft.</td>
-<td>6,000 lbs.</td>
-</tr>
-<tr class="even">
-<td>Huge</td>
-<td>32 ft.</td>
-<td>48,000 lbs.</td>
-</tr>
-<tr class="odd">
-<td>Greater</td>
-<td>36 ft.</td>
-<td>54,000 lbs.</td>
-</tr>
-<tr class="even">
-<td>Elder</td>
-<td>40 ft.</td>
-<td>60,000 lbs.</td>
-</tr>
-</tbody>
+| Small | 4 ft. | 80 lbs. |
+| Medium | 8 ft. | 750 lbs. |
+| Large | 16 ft. | 6,000 lbs. |
+| Huge | 32 ft. | 48,000 lbs. |
+| Greater | 36 ft. | 54,000 lbs. |
+| Elder | 40 ft. | 60,000 lbs. |
 
 Earth elementals are plodding, stubborn creatures made of living stone or earth. When utterly still, they resemble a heap of stone or a small hill.
 
@@ -846,38 +782,12 @@ Fire elementals vary in appearance—they usually manifest as coiling serpentine
 | --- | --- | --- |
 |
 | |
-<tbody>
-<tr class="odd">
-<td>Small</td>
-<td>4 ft.</td>
-<td>1 lb.</td>
-</tr>
-<tr class="even">
-<td>Medium</td>
-<td>8 ft.</td>
-<td>2 lbs.</td>
-</tr>
-<tr class="odd">
-<td>Large</td>
-<td>16 ft.</td>
-<td>4 lbs.</td>
-</tr>
-<tr class="even">
-<td>Huge</td>
-<td>32 ft.</td>
-<td>8 lbs.</td>
-</tr>
-<tr class="odd">
-<td>Greater</td>
-<td>36 ft.</td>
-<td>10 lbs.</td>
-</tr>
-<tr class="even">
-<td>Elder</td>
-<td>40 ft.</td>
-<td>12 lbs.</td>
-</tr>
-</tbody>
+| Small | 4 ft. | 1 lb. |
+| Medium | 8 ft. | 2 lbs. |
+| Large | 16 ft. | 4 lbs. |
+| Huge | 32 ft. | 8 lbs. |
+| Greater | 36 ft. | 10 lbs. |
+| Elder | 40 ft. | 12 lbs. |
 
 # Elemental, Water
 
@@ -1135,35 +1045,10 @@ As with other elementals, all water elementals have their own unique shapes and 
 | --- | --- | --- | --- | --- |
 |
 | |
-<tbody>
-<tr class="odd">
-<td>Small</td>
-<td>4 ft.</td>
-<td>34 lb.</td>
-<td>13</td>
-<td>10–20 ft.</td>
-</tr>
-<tr class="even">
-<td>Medium</td>
-<td>8 ft.</td>
-<td>280 lbs.</td>
-<td>15</td>
-<td>10–30 ft.</td>
-</tr>
-<tr class="odd">
-<td>Large</td>
-<td>16 ft.</td>
-<td>2,250 lbs.</td>
-<td>19</td>
-<td>10–40 ft.</td>
-</tr>
-<tr class="even">
-<td>Huge</td>
-<td>32 ft.</td>
-<td>18,000 lbs.</td>
-<td>22</td>
-<td>10–50 ft.</td>
-</tr>
-</tbody>| Greater | 36 ft. | 21,000 lbs. | 25 | 10–60 ft. |
+| Small | 4 ft. | 34 lb. | 13 | 10–20 ft. |
+| Medium | 8 ft. | 280 lbs. | 15 | 10–30 ft. |
+| Large | 16 ft. | 2,250 lbs. | 19 | 10–40 ft. |
+| Huge | 32 ft. | 18,000 lbs. | 22 | 10–50 ft. |
+| Greater | 36 ft. | 21,000 lbs. | 25 | 10–60 ft. |
 | Elder | 40 ft. | 24,000 lbs. | 28 | 10–60 ft. |
 

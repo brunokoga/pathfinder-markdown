@@ -18,28 +18,10 @@ Any nonevil creature within the area of a _blasphemy _spell suffers the followin
 
 | HD | Effect |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Equal to caster level</td>
-<td><a href="../glossary.html#_dazed">Dazed</a></td>
-</tr>
-<tr class="even">
-<td>Up to caster level –1</td>
-<td>Weakened, <a href="../glossary.html#_dazed">dazed</a>
-</td>
-</tr>
-<tr class="odd">
-<td>Up to caster level –5</td>
-<td>
-<a href="../glossary.html#_paralyzed">Paralyzed</a>, weakened, <a href="../glossary.html#_dazed">dazed</a>
-</td>
-</tr>
-<tr class="even">
-<td>Up to caster level –10</td>
-<td>Killed, paralyzed, weakened, <a href="../glossary.html#_dazed">dazed</a>
-</td>
-</tr>
-</tbody>
+| Equal to caster level | [Dazed](../glossary.html#_dazed) |
+| Up to caster level –1 | Weakened, [dazed](../glossary.html#_dazed) |
+| Up to caster level –5 | [Paralyzed](../glossary.html#_paralyzed), weakened, [dazed](../glossary.html#_dazed) |
+| Up to caster level –10 | Killed, paralyzed, weakened, [dazed](../glossary.html#_dazed) |
 
 The effects are cumulative and concurrent. A successful [Will](../combat.html#_will) save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.
 

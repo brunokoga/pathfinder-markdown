@@ -16,24 +16,10 @@ When you cast this spell, you gain the ability to step into a tree, magically in
 
 | Type of Tree | Transport Range |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Oak, ash, yew</td>
-<td>3,000 feet</td>
-</tr>
-<tr class="even">
-<td>Elm, linden</td>
-<td>2,000 feet</td>
-</tr>
-<tr class="odd">
-<td>Other deciduous</td>
-<td>1,500 feet</td>
-</tr>
-<tr class="even">
-<td>Any coniferous</td>
-<td>1,000 feet</td>
-</tr>
-</tbody>
+| Oak, ash, yew | 3,000 feet |
+| Elm, linden | 2,000 feet |
+| Other deciduous | 1,500 feet |
+| Any coniferous | 1,000 feet |
 
 You may move into a tree up to one time per caster level (passing from one tree to another counts only as moving into one tree). The spell lasts until the duration expires or you exit a tree. Each transport is a full-round action.
 

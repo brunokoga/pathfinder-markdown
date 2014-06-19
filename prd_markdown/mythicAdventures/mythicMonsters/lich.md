@@ -119,31 +119,9 @@ A mythic lich is an undead spellcaster who gave up standard mythic path abilitie
 [Mythic Lich Abilities]
 | Base Lich's CR | Mythic Rank | Mythic Abilities |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>12–13</td>
-<td>6th</td>
-<td>Channel resistance +8, creeping paralysis, mythic phylactery, mythic potency, mythic spells, spell resistance</td>
-</tr>
-<tr class="even">
-<td>14–15</td>
-<td>7th</td>
-<td>Augmented spellcasting, spell perception</td>
-</tr>
-<tr class="odd">
-<td>16–17</td>
-<td>8th</td>
-<td>Channel resistance +12, immediate counterspell</td>
-</tr>
-<tr class="even">
-<td>18–19</td>
-<td>9th</td>
-<td>Enhanced spellcasting, sustained by magic</td>
-</tr>
-<tr class="odd">
-<td>20+</td>
-<td>10th</td>
-<td>Channel resistance (immunity), formidable animation</td>
-</tr>
-</tbody>
+| 12–13 | 6th | Channel resistance +8, creeping paralysis, mythic phylactery, mythic potency, mythic spells, spell resistance |
+| 14–15 | 7th | Augmented spellcasting, spell perception |
+| 16–17 | 8th | Channel resistance +12, immediate counterspell |
+| 18–19 | 9th | Enhanced spellcasting, sustained by magic |
+| 20+ | 10th | Channel resistance (immunity), formidable animation |
 

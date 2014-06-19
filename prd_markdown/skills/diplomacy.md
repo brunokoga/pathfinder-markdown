@@ -10,71 +10,25 @@ You cannot use Diplomacy against a creature that does not understand you or has 
 
 | Starting Attitude | Diplomacy DC |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Hostile</td>
-<td>25 + creature's <a href="../gettingStarted.html#_charisma-new">Cha</a> modifier</td>
-</tr>
-<tr class="even">
-<td>Unfriendly</td>
-<td>20 + creature's <a href="../gettingStarted.html#_charisma-new">Cha</a> modifier</td>
-</tr>
-<tr class="odd">
-<td>Indifferent</td>
-<td>15 + creature's <a href="../gettingStarted.html#_charisma-new">Cha</a> modifier</td>
-</tr>
-<tr class="even">
-<td>Friendly</td>
-<td>10 + creature's <a href="../gettingStarted.html#_charisma-new">Cha</a> modifier</td>
-</tr>
-<tr class="odd">
-<td>Helpful</td>
-<td>0 + creature's <a href="../gettingStarted.html#_charisma-new">Cha</a> modifier</td>
-</tr>
-</tbody>
+| Hostile | 25 + creature's [Cha](../gettingStarted.html#_charisma-new) modifier |
+| Unfriendly | 20 + creature's [Cha](../gettingStarted.html#_charisma-new) modifier |
+| Indifferent | 15 + creature's [Cha](../gettingStarted.html#_charisma-new) modifier |
+| Friendly | 10 + creature's [Cha](../gettingStarted.html#_charisma-new) modifier |
+| Helpful | 0 + creature's [Cha](../gettingStarted.html#_charisma-new) modifier |
 
 If a creature's attitude toward you is at least indifferent, you can make requests of the creature. This is an additional Diplomacy check, using the creature's current attitude to determine the base DC, with one of the following modifiers. Once a creature's attitude has shifted to helpful, the creature gives in to most requests without a check, unless the request is against its nature or puts it in serious peril. Some requests automatically fail if the request goes against the creature's values or its nature, subject to GM discretion.
 
 | Request | Diplomacy DC Modifier |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Give simple advice or directions</td>
-<td>–5</td>
-</tr>
-<tr class="even">
-<td>Give detailed advice</td>
-<td>+0</td>
-</tr>
-<tr class="odd">
-<td>Give simple aid</td>
-<td>+0</td>
-</tr>
-<tr class="even">
-<td>Reveal an unimportant secret</td>
-<td>+5</td>
-</tr>
-<tr class="odd">
-<td>Give lengthy or complicated aid</td>
-<td>+5</td>
-</tr>
-<tr class="even">
-<td>Give dangerous aid</td>
-<td>+10</td>
-</tr>
-<tr class="odd">
-<td>Reveal an important secret</td>
-<td>+10 or more</td>
-</tr>
-<tr class="even">
-<td>Give aid that could result in punishment</td>
-<td>+15 or more</td>
-</tr>
-<tr class="odd">
-<td>Additional requests</td>
-<td>+5 per request</td>
-</tr>
-</tbody>
+| Give simple advice or directions | –5 |
+| Give detailed advice | +0 |
+| Give simple aid | +0 |
+| Reveal an unimportant secret | +5 |
+| Give lengthy or complicated aid | +5 |
+| Give dangerous aid | +10 |
+| Reveal an important secret | +10 or more |
+| Give aid that could result in punishment | +15 or more |
+| Additional requests | +5 per request |
 
 _Gather Information_: You can also use Diplomacy to gather information about a specific topic or individual. To do this, you must spend at least 1d4 hours canvassing people at local taverns, markets, and gathering places. The DC of this check depends on the obscurity of the information sought, but for most commonly known facts or rumors it is 10. For obscure or secret knowledge, the DC might increase to 20 or higher. The GM might rule that some topics are simply unknown to common folk.
 

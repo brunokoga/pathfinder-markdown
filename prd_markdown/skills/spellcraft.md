@@ -19,30 +19,10 @@ If you have the [Magical Aptitude](../feats.html#_magical-aptitude) feat, you ga
 [Table: Spellcraft DCs]
 | Task | Spellcraft DC |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Identify a spell as it is being cast</td>
-<td>15 + spell level</td>
-</tr>
-<tr class="even">
-<td>Learn a spell from a spellbook or scroll</td>
-<td>15 + spell level</td>
-</tr>
-<tr class="odd">
-<td>Prepare a spell from a borrowed spellbook</td>
-<td>15 + spell level</td>
-</tr>
-<tr class="even">
-<td>Identify the properties of a magic item using <i>detect magic</i>
-</td>
-<td>15 + item's caster level</td>
-</tr>
-<tr class="odd">
-<td>Decipher a scroll</td>
-<td>20 + spell level</td>
-</tr>
-<tr class="even">
-<td>Craft a magic item</td>
-<td>Varies by item</td>
-</tr>
-</tbody>
+| Identify a spell as it is being cast | 15 + spell level |
+| Learn a spell from a spellbook or scroll | 15 + spell level |
+| Prepare a spell from a borrowed spellbook | 15 + spell level |
+| Identify the properties of a magic item using _detect magic_ | 15 + item's caster level |
+| Decipher a scroll | 20 + spell level |
+| Craft a magic item | Varies by item |
+

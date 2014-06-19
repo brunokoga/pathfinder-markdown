@@ -149,32 +149,12 @@ These familiars make use these statistics: the [house centipede](../../monsters/
 
 | Familiar | Special Ability |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Centipede</td>
-<td>Master gains a +3 bonus on <a href="../../skills/stealth.html#_stealth">Stealth</a> checks</td>
-</tr>
-<tr class="even">
-<td>Crab</td>
-<td>Master gains a +2 bonus on grapple checks</td>
-</tr>
-<tr class="odd">
-<td>Fox</td>
-<td>Master gains a +2 bonus on Reflex saves</td>
-</tr>
-<tr class="even">
-<td>Octopus</td>
-<td>Master gains a +3 bonus on <a href="../../skills/swim.html#_swim">Swim</a> checks</td>
-</tr>
-<tr class="odd">
-<td>Scorpion</td>
-<td>Master gains a +2 bonus on initiative rolls</td>
-</tr>
-<tr class="even">
-<td>Spider</td>
-<td>Master gains a +3 bonus on <a href="../../skills/climb.html#_climb">Climb</a> checks</td>
-</tr>
-</tbody>
+| Centipede | Master gains a +3 bonus on [Stealth](../../skills/stealth.html#_stealth) checks |
+| Crab | Master gains a +2 bonus on grapple checks |
+| Fox | Master gains a +2 bonus on Reflex saves |
+| Octopus | Master gains a +3 bonus on [Swim](../../skills/swim.html#_swim) checks |
+| Scorpion | Master gains a +2 bonus on initiative rolls |
+| Spider | Master gains a +3 bonus on [Climb](../../skills/climb.html#_climb) checks |
 
 # Patron Spells
 

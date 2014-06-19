@@ -109,57 +109,13 @@ You can choose or randomly generate your character's age. If you choose it, it m
 [Table: Random Starting Ages]
 | Race | Adulthood | Barbarian, Rogue, Sorcerer | Bard, Fighter, Paladin, Ranger | Cleric, Druid, Monk, Wizard |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Human</td>
-<td>15 years</td>
-<td>+1d4</td>
-<td>+1d6</td>
-<td>+2d6</td>
-</tr>
-<tr class="even">
-<td>Dwarf</td>
-<td>40 years</td>
-<td>+3d6</td>
-<td>+5d6</td>
-<td>+7d6</td>
-</tr>
-<tr class="odd">
-<td>Elf</td>
-<td>110 years</td>
-<td>+4d6</td>
-<td>+6d6</td>
-<td>+10d6</td>
-</tr>
-<tr class="even">
-<td>Gnome</td>
-<td>40 years</td>
-<td>+4d6</td>
-<td>+6d6</td>
-<td>+9d6</td>
-</tr>
-<tr class="odd">
-<td>Half-elf</td>
-<td>20 years</td>
-<td>+1d6</td>
-<td>+2d6</td>
-<td>+3d6</td>
-</tr>
-<tr class="even">
-<td>Half-orc</td>
-<td>14 years</td>
-<td>+1d4</td>
-<td>+1d6</td>
-<td>+2d6</td>
-</tr>
-<tr class="odd">
-<td>Halfling</td>
-<td>20 years</td>
-<td>+2d4</td>
-<td>+3d6</td>
-<td>+4d6</td>
-</tr>
-</tbody>
+| Human | 15 years | +1d4 | +1d6 | +2d6 |
+| Dwarf | 40 years | +3d6 | +5d6 | +7d6 |
+| Elf | 110 years | +4d6 | +6d6 | +10d6 |
+| Gnome | 40 years | +4d6 | +6d6 | +9d6 |
+| Half-elf | 20 years | +1d6 | +2d6 | +3d6 |
+| Half-orc | 14 years | +1d4 | +1d6 | +2d6 |
+| Halfling | 20 years | +2d4 | +3d6 | +4d6 |
 
 With age, a character's physical ability scores decrease and his mental ability scores increase (see Table: Aging Effects). The effects of each aging step are cumulative. However, none of a character's ability scores can be reduced below 1 in this way.
 
@@ -170,57 +126,13 @@ The maximum ages are for player characters. Most people in the world at large di
 [Table: Aging Effects]
 | Race | Middle Ageⁱ | Old⁲ | Venerable⁳ | Maximum Age |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Human</td>
-<td>35 years</td>
-<td>53 years</td>
-<td>70 years</td>
-<td>70 + 2d20 years</td>
-</tr>
-<tr class="even">
-<td>Dwarf</td>
-<td>125 years</td>
-<td>188 years</td>
-<td>250 years</td>
-<td>250 + 2d% years</td>
-</tr>
-<tr class="odd">
-<td>Elf</td>
-<td>175 years</td>
-<td>263 years</td>
-<td>350 years</td>
-<td>350 + 4d% years</td>
-</tr>
-<tr class="even">
-<td>Gnome</td>
-<td>100 years</td>
-<td>150 years</td>
-<td>200 years</td>
-<td>200 + 3d% years</td>
-</tr>
-<tr class="odd">
-<td>Half-elf</td>
-<td>62 years</td>
-<td>93 years</td>
-<td>125 years</td>
-<td>125 + 3d20 years</td>
-</tr>
-<tr class="even">
-<td>Half-orc</td>
-<td>30 years</td>
-<td>45 years</td>
-<td>60 years</td>
-<td>60 + 2d10 years</td>
-</tr>
-<tr class="odd">
-<td>Halfling</td>
-<td>50 years</td>
-<td>75 years</td>
-<td>100 years</td>
-<td>100 + 5d20 years</td>
-</tr>
-</tbody>
+| Human | 35 years | 53 years | 70 years | 70 + 2d20 years |
+| Dwarf | 125 years | 188 years | 250 years | 250 + 2d% years |
+| Elf | 175 years | 263 years | 350 years | 350 + 4d% years |
+| Gnome | 100 years | 150 years | 200 years | 200 + 3d% years |
+| Half-elf | 62 years | 93 years | 125 years | 125 + 3d20 years |
+| Half-orc | 30 years | 45 years | 60 years | 60 + 2d10 years |
+| Halfling | 50 years | 75 years | 100 years | 100 + 5d20 years |
 
 ## Height and Weight
 
@@ -255,188 +167,36 @@ If your character is weak or carrying a lot of gear, however, then you'll need t
 [Table: Carrying Capacity]
 | Strength Score | Light Load | Medium Load | Heavy Load |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>3 lbs. or less</td>
-<td>4–6 lbs.</td>
-<td>7–10 lbs.</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>6 lbs. or less</td>
-<td>7–13 lbs.</td>
-<td>14–20 lbs.</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>10 lbs. or less</td>
-<td>11–20 lbs.</td>
-<td>21–30 lbs.</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>13 lbs. or less</td>
-<td>14–26 lbs.</td>
-<td>27–40 lbs.</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>16 lbs. or less</td>
-<td>17–33 lbs.</td>
-<td>34–50 lbs.</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>20 lbs. or less</td>
-<td>21–40 lbs.</td>
-<td>41–60 lbs.</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>23 lbs. or less</td>
-<td>24–46 lbs.</td>
-<td>47–70 lbs.</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>26 lbs. or less</td>
-<td>27–53 lbs.</td>
-<td>54–80 lbs.</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>30 lbs. or less</td>
-<td>31–60 lbs.</td>
-<td>61–90 lbs.</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>33 lbs. or less</td>
-<td>34–66 lbs.</td>
-<td>67–100 lbs.</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>38 lbs. or less</td>
-<td>39–76 lbs.</td>
-<td>77–115 lbs.</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>43 lbs. or less</td>
-<td>44–86 lbs.</td>
-<td>87–130 lbs.</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>50 lbs. or less</td>
-<td>51–100 lbs.</td>
-<td>101–150 lbs.</td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>58 lbs. or less</td>
-<td>59–116 lbs.</td>
-<td>117–175 lbs.</td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>66 lbs. or less</td>
-<td>67–133 lbs.</td>
-<td>134–200 lbs.</td>
-</tr>
-<tr class="even">
-<td>16</td>
-<td>76 lbs. or less</td>
-<td>77–153 lbs.</td>
-<td>154–230 lbs.</td>
-</tr>
-<tr class="odd">
-<td>17</td>
-<td>86 lbs. or less</td>
-<td>87–173 lbs.</td>
-<td>174–260 lbs.</td>
-</tr>
-<tr class="even">
-<td>18</td>
-<td>100 lbs. or less</td>
-<td>101–200 lbs.</td>
-<td>201–300 lbs.</td>
-</tr>
-<tr class="odd">
-<td>19</td>
-<td>116 lbs. or less</td>
-<td>117–233 lbs.</td>
-<td>234–350 lbs.</td>
-</tr>
-<tr class="even">
-<td>20</td>
-<td>133 lbs. or less</td>
-<td>134–266 lbs.</td>
-<td>267–400 lbs.</td>
-</tr>
-<tr class="odd">
-<td>21</td>
-<td>153 lbs. or less</td>
-<td>154–306 lbs.</td>
-<td>307–460 lbs.</td>
-</tr>
-<tr class="even">
-<td>22</td>
-<td>173 lbs. or less</td>
-<td>174–346 lbs.</td>
-<td>347–520 lbs.</td>
-</tr>
-<tr class="odd">
-<td>23</td>
-<td>200 lbs. or less</td>
-<td>201–400 lbs.</td>
-<td>401–600 lbs.</td>
-</tr>
-<tr class="even">
-<td>24</td>
-<td>233 lbs. or less</td>
-<td>234–466 lbs.</td>
-<td>467–700 lbs.</td>
-</tr>
-<tr class="odd">
-<td>25</td>
-<td>266 lbs. or less</td>
-<td>267–533 lbs.</td>
-<td>534–800 lbs.</td>
-</tr>
-<tr class="even">
-<td>26</td>
-<td>306 lbs. or less</td>
-<td>307–613 lbs.</td>
-<td>614–920 lbs.</td>
-</tr>
-<tr class="odd">
-<td>27</td>
-<td>346 lbs. or less</td>
-<td>347–693 lbs.</td>
-<td>694–1,040 lbs.</td>
-</tr>
-<tr class="even">
-<td>28</td>
-<td>400 lbs. or less</td>
-<td>401–800 lbs.</td>
-<td>801–1,200 lbs.</td>
-</tr>
-<tr class="odd">
-<td>29</td>
-<td>466 lbs. or less</td>
-<td>467–933 lbs.</td>
-<td>934–1,400 lbs.</td>
-</tr>
-<tr class="even">
-<td>+10</td>
-<td>×4</td>
-<td>×4</td>
-<td>×4</td>
-</tr>
-</tbody>
+| 1 | 3 lbs. or less | 4–6 lbs. | 7–10 lbs. |
+| 2 | 6 lbs. or less | 7–13 lbs. | 14–20 lbs. |
+| 3 | 10 lbs. or less | 11–20 lbs. | 21–30 lbs. |
+| 4 | 13 lbs. or less | 14–26 lbs. | 27–40 lbs. |
+| 5 | 16 lbs. or less | 17–33 lbs. | 34–50 lbs. |
+| 6 | 20 lbs. or less | 21–40 lbs. | 41–60 lbs. |
+| 7 | 23 lbs. or less | 24–46 lbs. | 47–70 lbs. |
+| 8 | 26 lbs. or less | 27–53 lbs. | 54–80 lbs. |
+| 9 | 30 lbs. or less | 31–60 lbs. | 61–90 lbs. |
+| 10 | 33 lbs. or less | 34–66 lbs. | 67–100 lbs. |
+| 11 | 38 lbs. or less | 39–76 lbs. | 77–115 lbs. |
+| 12 | 43 lbs. or less | 44–86 lbs. | 87–130 lbs. |
+| 13 | 50 lbs. or less | 51–100 lbs. | 101–150 lbs. |
+| 14 | 58 lbs. or less | 59–116 lbs. | 117–175 lbs. |
+| 15 | 66 lbs. or less | 67–133 lbs. | 134–200 lbs. |
+| 16 | 76 lbs. or less | 77–153 lbs. | 154–230 lbs. |
+| 17 | 86 lbs. or less | 87–173 lbs. | 174–260 lbs. |
+| 18 | 100 lbs. or less | 101–200 lbs. | 201–300 lbs. |
+| 19 | 116 lbs. or less | 117–233 lbs. | 234–350 lbs. |
+| 20 | 133 lbs. or less | 134–266 lbs. | 267–400 lbs. |
+| 21 | 153 lbs. or less | 154–306 lbs. | 307–460 lbs. |
+| 22 | 173 lbs. or less | 174–346 lbs. | 347–520 lbs. |
+| 23 | 200 lbs. or less | 201–400 lbs. | 401–600 lbs. |
+| 24 | 233 lbs. or less | 234–466 lbs. | 467–700 lbs. |
+| 25 | 266 lbs. or less | 267–533 lbs. | 534–800 lbs. |
+| 26 | 306 lbs. or less | 307–613 lbs. | 614–920 lbs. |
+| 27 | 346 lbs. or less | 347–693 lbs. | 694–1,040 lbs. |
+| 28 | 400 lbs. or less | 401–800 lbs. | 801–1,200 lbs. |
+| 29 | 466 lbs. or less | 467–933 lbs. | 934–1,400 lbs. |
+| +10 | ×4 | ×4 | ×4 |
 
 Encumbrance by Weight: If you want to determine whether your character's gear is heavy enough to slow him down more than his armor already does, total the weight of all the character's items, including armor, weapons, and gear. Compare this total to the character's Strength on Table: Carrying Capacity. Depending on the character's carrying capacity, he or she may be carrying a light, medium, or heavy load. Like armor, a character's load affects his maximum [Dexterity](gettingStarted.html#_dexterity) bonus to [AC](combat.html#_armor-class), carries a check penalty (which works like an armor check penalty), reduces the character's speed, and affects how fast the character can run, as shown on Table: Encumbrance Effects. A medium or heavy load counts as medium or heavy armor for the purpose of abilities or skills that are restricted by armor. Carrying a light load does not encumber a character.
 
@@ -468,72 +228,22 @@ The table below provides reduced speed figures for all base speeds from 5 feet t
 
 | Base Speed | Reduced Speed |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>5 ft.</td>
-<td>5 ft.</td>
-</tr>
-<tr class="even">
-<td>10 ft.–15 ft.</td>
-<td>10 ft.</td>
-</tr>
-<tr class="odd">
-<td>20 ft.</td>
-<td>15 ft.</td>
-</tr>
-<tr class="even">
-<td>25 ft.–30 ft.</td>
-<td>20 ft.</td>
-</tr>
-<tr class="odd">
-<td>35 ft.</td>
-<td>25 ft.</td>
-</tr>
-<tr class="even">
-<td>40 ft.–45 ft.</td>
-<td>30 ft.</td>
-</tr>
-<tr class="odd">
-<td>50 ft.</td>
-<td>35 ft.</td>
-</tr>
-<tr class="even">
-<td>55 ft.–60 ft.</td>
-<td>40 ft.</td>
-</tr>
-<tr class="odd">
-<td>65 ft.</td>
-<td>45 ft.</td>
-</tr>
-<tr class="even">
-<td>70 ft.–75 ft.</td>
-<td>50 ft.</td>
-</tr>
-<tr class="odd">
-<td>80 ft.</td>
-<td>55 ft.</td>
-</tr>
-<tr class="even">
-<td>85 ft.–90 ft.</td>
-<td>60 ft.</td>
-</tr>
-<tr class="odd">
-<td>95 ft.</td>
-<td>65 ft.</td>
-</tr>
-<tr class="even">
-<td>100 ft.–105 ft.</td>
-<td>70 ft.</td>
-</tr>
-<tr class="odd">
-<td>110 ft.</td>
-<td>75 ft.</td>
-</tr>
-<tr class="even">
-<td>115 ft.–120 ft.</td>
-<td>80 ft.</td>
-</tr>
-</tbody>
+| 5 ft. | 5 ft. |
+| 10 ft.–15 ft. | 10 ft. |
+| 20 ft. | 15 ft. |
+| 25 ft.–30 ft. | 20 ft. |
+| 35 ft. | 25 ft. |
+| 40 ft.–45 ft. | 30 ft. |
+| 50 ft. | 35 ft. |
+| 55 ft.–60 ft. | 40 ft. |
+| 65 ft. | 45 ft. |
+| 70 ft.–75 ft. | 50 ft. |
+| 80 ft. | 55 ft. |
+| 85 ft.–90 ft. | 60 ft. |
+| 95 ft. | 65 ft. |
+| 100 ft.–105 ft. | 70 ft. |
+| 110 ft. | 75 ft. |
+| 115 ft.–120 ft. | 80 ft. |
 
 # Movement
 
@@ -723,44 +433,15 @@ When attempting to break an object, you have two choices: smash it with a weapon
 [Table: Size and Armor Class of Objects]
 | Size | AC Modifier |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Colossal</td>
-<td>–8</td>
-</tr>
-<tr class="even">
-<td>Gargantuan</td>
-<td>–4</td>
-</tr>
-<tr class="odd">
-<td>Huge</td>
-<td>–2</td>
-</tr>
-<tr class="even">
-<td>Large</td>
-<td>–1</td>
-</tr>
-<tr class="odd">
-<td>Medium</td>
-<td>+0</td>
-</tr>
-<tr class="even">
-<td>Small</td>
-<td>+1</td>
-</tr>
-<tr class="odd">
-<td>Tiny</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>Diminutive</td>
-<td>+4</td>
-</tr>
-<tr class="odd">
-<td>Fine</td>
-<td>+8</td>
-</tr>
-</tbody>
+| Colossal | –8 |
+| Gargantuan | –4 |
+| Huge | –2 |
+| Large | –1 |
+| Medium | +0 |
+| Small | +1 |
+| Tiny | +2 |
+| Diminutive | +4 |
+| Fine | +8 |
 
 [Table: Substance Hardness and Hit Points]
 | Substance | Hardness | Hit Points |

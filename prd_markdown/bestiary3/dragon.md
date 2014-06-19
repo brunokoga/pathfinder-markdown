@@ -59,230 +59,34 @@ The Dragon Attacks and Speeds table lists the attacks a dragon can employ and th
 [Dragon Age Categories]
 | Age Category | Age in Years | CR | Size | Hit Dice | Natural Armor | Breath Weapon |
 | --- | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1 Wyrmling</td>
-<td>0–5</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-</tr>
-<tr class="even">
-<td>2 Very young</td>
-<td>6–15</td>
-<td>Base + 2</td>
-<td>Base + 1</td>
-<td>Base + 2</td>
-<td>Base + 3</td>
-<td>Base × 2</td>
-</tr>
-<tr class="odd">
-<td>3 Young</td>
-<td>16–25</td>
-<td>Base + 4</td>
-<td>Base + 2</td>
-<td>Base + 4</td>
-<td>Base + 6</td>
-<td>Base × 3</td>
-</tr>
-<tr class="even">
-<td>4 Juvenile</td>
-<td>26–50</td>
-<td>Base + 5</td>
-<td>Base + 2</td>
-<td>Base + 6</td>
-<td>Base + 9</td>
-<td>Base × 4</td>
-</tr>
-<tr class="odd">
-<td>5 Young adult</td>
-<td>51–100</td>
-<td>Base + 7</td>
-<td>Base + 3</td>
-<td>Base + 8</td>
-<td>Base + 12</td>
-<td>Base × 5</td>
-</tr>
-<tr class="even">
-<td>6 Adult</td>
-<td>101–200</td>
-<td>Base + 8</td>
-<td>Base + 3</td>
-<td>Base + 10</td>
-<td>Base + 15</td>
-<td>Base × 6</td>
-</tr>
-<tr class="odd">
-<td>7 Mature adult</td>
-<td>201–400</td>
-<td>Base + 9</td>
-<td>Base + 3</td>
-<td>Base + 12</td>
-<td>Base + 18</td>
-<td>Base × 7</td>
-</tr>
-<tr class="even">
-<td>8 Old</td>
-<td>401–600</td>
-<td>Base + 11</td>
-<td>Base + 4</td>
-<td>Base + 14</td>
-<td>Base + 21</td>
-<td>Base × 8</td>
-</tr>
-<tr class="odd">
-<td>9 Very old</td>
-<td>601–800</td>
-<td>Base + 12</td>
-<td>Base + 4</td>
-<td>Base + 16</td>
-<td>Base + 24</td>
-<td>Base × 9</td>
-</tr>
-<tr class="even">
-<td>10 Ancient</td>
-<td>801–1,000</td>
-<td>Base + 13</td>
-<td>Base + 4</td>
-<td>Base + 18</td>
-<td>Base + 27</td>
-<td>Base × 10</td>
-</tr>
-<tr class="odd">
-<td>11 Wyrm</td>
-<td>1,001–1,200</td>
-<td>Base + 14</td>
-<td>Base + 4</td>
-<td>Base + 20</td>
-<td>Base + 30</td>
-<td>Base × 11</td>
-</tr>
-<tr class="even">
-<td>12 Great wyrm</td>
-<td>1,201+</td>
-<td>Base + 16</td>
-<td>Base + 5</td>
-<td>Base + 22</td>
-<td>Base + 33</td>
-<td>Base × 12</td>
-</tr>
-</tbody>
+| 1 Wyrmling | 0–5 | Base | Base | Base | Base | Base |
+| 2 Very young | 6–15 | Base + 2 | Base + 1 | Base + 2 | Base + 3 | Base × 2 |
+| 3 Young | 16–25 | Base + 4 | Base + 2 | Base + 4 | Base + 6 | Base × 3 |
+| 4 Juvenile | 26–50 | Base + 5 | Base + 2 | Base + 6 | Base + 9 | Base × 4 |
+| 5 Young adult | 51–100 | Base + 7 | Base + 3 | Base + 8 | Base + 12 | Base × 5 |
+| 6 Adult | 101–200 | Base + 8 | Base + 3 | Base + 10 | Base + 15 | Base × 6 |
+| 7 Mature adult | 201–400 | Base + 9 | Base + 3 | Base + 12 | Base + 18 | Base × 7 |
+| 8 Old | 401–600 | Base + 11 | Base + 4 | Base + 14 | Base + 21 | Base × 8 |
+| 9 Very old | 601–800 | Base + 12 | Base + 4 | Base + 16 | Base + 24 | Base × 9 |
+| 10 Ancient | 801–1,000 | Base + 13 | Base + 4 | Base + 18 | Base + 27 | Base × 10 |
+| 11 Wyrm | 1,001–1,200 | Base + 14 | Base + 4 | Base + 20 | Base + 30 | Base × 11 |
+| 12 Great wyrm | 1,201+ | Base + 16 | Base + 5 | Base + 22 | Base + 33 | Base × 12 |
 
 [Dragon Ability Scores]
 | Age Category | Str | Dex | Con | Int | Wis | Chr |
 | --- | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1 Wyrmling</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-<td>Base</td>
-</tr>
-<tr class="even">
-<td>2 Very young</td>
-<td>Base + 4</td>
-<td>Base – 2</td>
-<td>Base + 2</td>
-<td>Base + 2</td>
-<td>Base + 2</td>
-<td>Base + 2</td>
-</tr>
-<tr class="odd">
-<td>3 Young</td>
-<td>Base + 8</td>
-<td>Base – 2</td>
-<td>Base + 4</td>
-<td>Base + 2</td>
-<td>Base + 2</td>
-<td>Base + 2</td>
-</tr>
-<tr class="even">
-<td>4 Juvenile</td>
-<td>Base + 10</td>
-<td>Base – 2</td>
-<td>Base + 6</td>
-<td>Base + 4</td>
-<td>Base + 4</td>
-<td>Base + 4</td>
-</tr>
-<tr class="odd">
-<td>5 Young adult</td>
-<td>Base + 12</td>
-<td>Base – 4</td>
-<td>Base + 6</td>
-<td>Base + 4</td>
-<td>Base + 4</td>
-<td>Base + 4</td>
-</tr>
-<tr class="even">
-<td>6 Adult</td>
-<td>Base + 14</td>
-<td>Base – 4</td>
-<td>Base + 8</td>
-<td>Base + 6</td>
-<td>Base + 6</td>
-<td>Base + 6</td>
-</tr>
-<tr class="odd">
-<td>7 Mature adult</td>
-<td>Base + 16</td>
-<td>Base – 4</td>
-<td>Base + 8</td>
-<td>Base + 6</td>
-<td>Base + 6</td>
-<td>Base + 6</td>
-</tr>
-<tr class="even">
-<td>8 Old</td>
-<td>Base + 18</td>
-<td>Base – 6</td>
-<td>Base + 10</td>
-<td>Base + 8</td>
-<td>Base + 8</td>
-<td>Base + 8</td>
-</tr>
-<tr class="odd">
-<td>9 Very old</td>
-<td>Base + 20</td>
-<td>Base – 6</td>
-<td>Base + 10</td>
-<td>Base + 8</td>
-<td>Base + 8</td>
-<td>Base + 8</td>
-</tr>
-<tr class="even">
-<td>10 Ancient</td>
-<td>Base + 22</td>
-<td>Base – 6</td>
-<td>Base + 12</td>
-<td>Base + 10</td>
-<td>Base + 10</td>
-<td>Base + 10</td>
-</tr>
-<tr class="odd">
-<td>11 Wyrm</td>
-<td>Base + 24</td>
-<td>Base – 8</td>
-<td>Base + 12</td>
-<td>Base + 10</td>
-<td>Base + 10</td>
-<td>Base + 10</td>
-</tr>
-<tr class="even">
-<td>12 Great wyrm</td>
-<td>Base + 26</td>
-<td>Base – 8</td>
-<td>Base + 14</td>
-<td>Base + 12</td>
-<td>Base + 12</td>
-<td>Base + 12</td>
-</tr>
-</tbody>
+| 1 Wyrmling | Base | Base | Base | Base | Base | Base |
+| 2 Very young | Base + 4 | Base – 2 | Base + 2 | Base + 2 | Base + 2 | Base + 2 |
+| 3 Young | Base + 8 | Base – 2 | Base + 4 | Base + 2 | Base + 2 | Base + 2 |
+| 4 Juvenile | Base + 10 | Base – 2 | Base + 6 | Base + 4 | Base + 4 | Base + 4 |
+| 5 Young adult | Base + 12 | Base – 4 | Base + 6 | Base + 4 | Base + 4 | Base + 4 |
+| 6 Adult | Base + 14 | Base – 4 | Base + 8 | Base + 6 | Base + 6 | Base + 6 |
+| 7 Mature adult | Base + 16 | Base – 4 | Base + 8 | Base + 6 | Base + 6 | Base + 6 |
+| 8 Old | Base + 18 | Base – 6 | Base + 10 | Base + 8 | Base + 8 | Base + 8 |
+| 9 Very old | Base + 20 | Base – 6 | Base + 10 | Base + 8 | Base + 8 | Base + 8 |
+| 10 Ancient | Base + 22 | Base – 6 | Base + 12 | Base + 10 | Base + 10 | Base + 10 |
+| 11 Wyrm | Base + 24 | Base – 8 | Base + 12 | Base + 10 | Base + 10 | Base + 10 |
+| 12 Great wyrm | Base + 26 | Base – 8 | Base + 14 | Base + 12 | Base + 12 | Base + 12 |
 
 [Dragon Attacks and Speeds]
 | Size | Fly Speed  
@@ -290,92 +94,13 @@ The Dragon Attacks and Speeds table lists the attacks a dragon can employ and th
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Line | Cone |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Tiny</td>
-<td>100 ft. (average)</td>
-<td>1d4</td>
-<td>1d3</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>30 ft.</td>
-<td>15 ft.</td>
-</tr>
-<tr class="even">
-<td>Small</td>
-<td>150 ft. (average)</td>
-<td>1d6</td>
-<td>1d4</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>40 ft.</td>
-<td>20 ft.</td>
-</tr>
-<tr class="odd">
-<td>Medium</td>
-<td>150 ft. (average)</td>
-<td>1d8</td>
-<td>1d6</td>
-<td>1d6</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>60 ft.</td>
-<td>30 ft.</td>
-</tr>
-<tr class="even">
-<td>Large</td>
-<td>200 ft. (poor)</td>
-<td>2d6</td>
-<td>1d8</td>
-<td>1d8</td>
-<td>1d8</td>
-<td>—</td>
-<td>—</td>
-<td>80 ft.</td>
-<td>40 ft.</td>
-</tr>
-<tr class="odd">
-<td>Huge</td>
-<td>200 ft. (poor)</td>
-<td>2d8</td>
-<td>2d6</td>
-<td>2d6</td>
-<td>2d6</td>
-<td>2d8</td>
-<td>—</td>
-<td>100 ft.</td>
-<td>50 ft.</td>
-</tr>
-<tr class="even">
-<td>Gargantuan</td>
-<td>250 ft. (clumsy)</td>
-<td>4d6</td>
-<td>2d8</td>
-<td>2d8</td>
-<td>2d8</td>
-<td>4d6</td>
-<td>2d6</td>
-<td>120 ft.</td>
-<td>60 ft.</td>
-</tr>
-<tr class="odd">
-<td>Colossal</td>
-<td>250 ft. (clumsy)</td>
-<td>4d8</td>
-<td>4d6</td>
-<td>4d8</td>
-<td>4d6</td>
-<td>4d8</td>
-<td>2d8</td>
-<td>140 ft.</td>
-<td>70 ft.</td>
-</tr>
-</tbody>
+| Tiny | 100 ft. (average) | 1d4 | 1d3 | — | — | — | — | 30 ft. | 15 ft. |
+| Small | 150 ft. (average) | 1d6 | 1d4 | — | — | — | — | 40 ft. | 20 ft. |
+| Medium | 150 ft. (average) | 1d8 | 1d6 | 1d6 | — | — | — | 60 ft. | 30 ft. |
+| Large | 200 ft. (poor) | 2d6 | 1d8 | 1d8 | 1d8 | — | — | 80 ft. | 40 ft. |
+| Huge | 200 ft. (poor) | 2d8 | 2d6 | 2d6 | 2d6 | 2d8 | — | 100 ft. | 50 ft. |
+| Gargantuan | 250 ft. (clumsy) | 4d6 | 2d8 | 2d8 | 2d8 | 4d6 | 2d6 | 120 ft. | 60 ft. |
+| Colossal | 250 ft. (clumsy) | 4d8 | 4d6 | 4d8 | 4d6 | 4d8 | 2d8 | 140 ft. | 70 ft. |
 
 # Imperial Dragon, Forest
 
@@ -422,73 +147,18 @@ Special Abilities
 
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Woodland stride, immunity to poison</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td>Sound imitation</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td><i><a href="/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace">Pass without trace</a>	</i></td>
-<td>1st</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td>Frightful presence, <i><a href="/pathfinderRPG/prd/spells/entangle.html#_entangle">entangle</a>	</i>
-</td>
-<td>3rd </td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 2/adamantine</td>
-<td>5th</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td>Change shape, <i><a href="/pathfinderRPG/prd/spells/blight.html#_blight">blight</a></i>
-</td>
-<td>7th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 5/adamantine</td>
-<td>9th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>Destructive crush, <i><a href="/pathfinderRPG/prd/spells/treeStride.html#_tree-stride">tree stride</a></i>
-</td>
-<td>11th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 10/adamantine</td>
-<td>13th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td>Elemental breath, <i><a href="/pathfinderRPG/prd/spells/animatePlants.html#_animate-plants">animate plants</a></i>
-</td>
-<td>15th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 15/adamantine</td>
-<td>17th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Stony death, <i><a href="/pathfinderRPG/prd/spells/earthquake.html#_earthquake">earthquake</a></i>
-</td>
-<td>19th</td>
-</tr>
-</tbody>
+| Wyrmling | Woodland stride, immunity to poison | — |
+| Very young | Sound imitation | — |
+| Young | _ [Pass without trace](/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace)_ | 1st |
+| Juvenile | Frightful presence, _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_ | 3rd |
+| Young adult | DR 2/adamantine | 5th |
+| Adult | Change shape, _ [blight](/pathfinderRPG/prd/spells/blight.html#_blight)_ | 7th |
+| Mature adult | DR 5/adamantine | 9th |
+| Old | Destructive crush, _ [tree stride](/pathfinderRPG/prd/spells/treeStride.html#_tree-stride)_ | 11th |
+| Very old | DR 10/adamantine | 13th |
+| Ancient | Elemental breath, _ [animate plants](/pathfinderRPG/prd/spells/animatePlants.html#_animate-plants)_ | 15th |
+| Wyrm | DR 15/adamantine | 17th |
+| Great wyrm | Stony death, _ [earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake)_ | 19th |
 
 Young Forest Dragon CR 10
 
@@ -711,71 +381,18 @@ Special Abilities
 
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Immunity to electricity, water breathing</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td>Torrent breath</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td>Change shape, <i><a href="/pathfinderRPG/prd/spells/createWater.html#_create-water">create water</a></i>
-</td>
-<td>1st</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td>Frightful presence, <i>hydraulic push</i>, unfettered swimmer</td>
-<td>3rd</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>5th</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td><i><a href="/pathfinderRPG/prd/spells/callLightning.html#_call-lightning">Call lightning</a></i></td>
-<td>7th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>9th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>
-<i><a href="/pathfinderRPG/prd/spells/controlWater.html#_control-water">Control water</a></i>, sea strider</td>
-<td>11th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>13th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td><i><a href="/pathfinderRPG/prd/spells/waterWalk.html#_water-walk">Water walk</a></i></td>
-<td>15th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>17th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Tidal wave, <i><a href="/pathfinderRPG/prd/advanced/spells/vortex.html#_vortex">vortex</a></i>
-</td>
-<td>19th</td>
-</tr>
-</tbody>
+| Wyrmling | Immunity to electricity, water breathing | — |
+| Very young | Torrent breath | — |
+| Young | Change shape, _ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_ | 1st |
+| Juvenile | Frightful presence, _hydraulic push_, unfettered swimmer | 3rd |
+| Young adult | DR 5/magic, spell resistance | 5th |
+| Adult | _ [Call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_ | 7th |
+| Mature adult | DR 10/magic | 9th |
+| Old | _ [Control water](/pathfinderRPG/prd/spells/controlWater.html#_control-water)_, sea strider | 11th |
+| Very old | DR 15/magic | 13th |
+| Ancient | _ [Water walk](/pathfinderRPG/prd/spells/waterWalk.html#_water-walk)_ | 15th |
+| Wyrm | DR 20/magic | 17th |
+| Great wyrm | Tidal wave, _ [vortex](/pathfinderRPG/prd/advanced/spells/vortex.html#_vortex)_ | 19th |
 
 Young Sea Dragon CR 8
 
@@ -1000,73 +617,18 @@ Special Abilities
 
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Borne aloft, immunity to electricity</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td>Cloud sight</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td>Change shape, <i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil">detect evil</a></i>
-</td>
-<td>1st</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td>
-<i><a href="/pathfinderRPG/prd/spells/featherFall.html#_feather-fall">Feather fall</a></i>, frightful presence</td>
-<td>3rd</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>5th</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td><i><a href="/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind">Gust of wind</a></i></td>
-<td>7th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>9th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>
-<i><a href="/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm">Call lightning storm</a></i>, primal lightning</td>
-<td>11th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>13th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td>
-<i><a href="/pathfinderRPG/prd/spells/controlWinds.html#_control-winds">Control winds</a></i>, grounding breath</td>
-<td>15th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>17th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Celestial emissary, <i><a href="/pathfinderRPG/prd/advanced/spells/stormbolts.html#_stormbolts">stormbolts</a></i>
-</td>
-<td>19th</td>
-</tr>
-</tbody>
+| Wyrmling | Borne aloft, immunity to electricity | — |
+| Very young | Cloud sight | — |
+| Young | Change shape, _ [detect evil](/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil)_ | 1st |
+| Juvenile | _ [Feather fall](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall)_, frightful presence | 3rd |
+| Young adult | DR 5/magic, spell resistance | 5th |
+| Adult | _ [Gust of wind](/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind)_ | 7th |
+| Mature adult | DR 10/magic | 9th |
+| Old | _ [Call lightning storm](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm)_, primal lightning | 11th |
+| Very old | DR 15/magic | 13th |
+| Ancient | _ [Control winds](/pathfinderRPG/prd/spells/controlWinds.html#_control-winds)_, grounding breath | 15th |
+| Wyrm | DR 20/magic | 17th |
+| Great wyrm | Celestial emissary, _ [stormbolts](/pathfinderRPG/prd/advanced/spells/stormbolts.html#_stormbolts)_ | 19th |
 
 Young Sky Dragon CR 9
 
@@ -1287,71 +849,18 @@ Special Abilities
 
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Dogmatic discordance</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td><i><a href="/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil">Detect evil</a>/good</i></td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td>Change shape, violent retort</td>
-<td>1st</td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td>
-<i><a href="/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions">Calm emotions</a></i>, frightful presence</td>
-<td>3rd</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>5th</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td><i><a href="/pathfinderRPG/prd/spells/tongues.html#_tongues">Tongues</a></i></td>
-<td>7th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>9th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td>Golden armor, <i><a href="/pathfinderRPG/prd/spells/sympatheticVibration.html#_sympathetic-vibration">sympathetic vibration</a></i>
-</td>
-<td>11th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>13th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td><i><a href="/pathfinderRPG/prd/spells/prismaticSpray.html#_prismatic-spray">Prismatic spray</a></i></td>
-<td>15th</td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>17th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>Master counterspelling, <i><a href="/pathfinderRPG/prd/spells/momentOfPrescience.html#_moment-of-prescience">moment of prescience</a></i>
-</td>
-<td>19th</td>
-</tr>
-</tbody>
+| Wyrmling | Dogmatic discordance | — |
+| Very young | _ [Detect evil](/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil)/good_ | — |
+| Young | Change shape, violent retort | 1st |
+| Juvenile | _ [Calm emotions](/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions)_, frightful presence | 3rd |
+| Young adult | DR 5/magic, spell resistance | 5th |
+| Adult | _ [Tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_ | 7th |
+| Mature adult | DR 10/magic | 9th |
+| Old | Golden armor, _ [sympathetic vibration](/pathfinderRPG/prd/spells/sympatheticVibration.html#_sympathetic-vibration)_ | 11th |
+| Very old | DR 15/magic | 13th |
+| Ancient | _ [Prismatic spray](/pathfinderRPG/prd/spells/prismaticSpray.html#_prismatic-spray)_ | 15th |
+| Wyrm | DR 20/magic | 17th |
+| Great wyrm | Master counterspelling, _ [moment of prescience](/pathfinderRPG/prd/spells/momentOfPrescience.html#_moment-of-prescience)_ | 19th |
 
 Young Sovereign Dragon CR 11
 
@@ -1572,73 +1081,18 @@ Special Abilities
   
   
 
- Age Category | Special Abilities | Caster Level |<tbody>
-<tr class="odd">
-<td>Wyrmling</td>
-<td>Adamantine claws, immunity to fire</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Very young</td>
-<td>Smoke vision</td>
-<td>—
-</td>
-</tr>
-<tr class="odd">
-<td>Young</td>
-<td>Change shape, <i><a href="/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone">soften earth and stone</a></i>
-</td>
-<td>— </td>
-</tr>
-<tr class="even">
-<td>Juvenile</td>
-<td>Frightful presence, <i><a href="/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape">stone shape</a></i>
-</td>
-<td>1st</td>
-</tr>
-<tr class="odd">
-<td>Young adult</td>
-<td>DR 5/magic, spell resistance</td>
-<td>3rd</td>
-</tr>
-<tr class="even">
-<td>Adult</td>
-<td>
-<i><a href="/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones">Spike stones</a></i>, underworld burrower</td>
-<td>5th</td>
-</tr>
-<tr class="odd">
-<td>Mature adult</td>
-<td>DR 10/magic</td>
-<td>7th</td>
-</tr>
-<tr class="even">
-<td>Old</td>
-<td><i><a href="/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone">Wall of stone</a></i></td>
-<td>9th</td>
-</tr>
-<tr class="odd">
-<td>Very old</td>
-<td>DR 15/magic</td>
-<td>11th</td>
-</tr>
-<tr class="even">
-<td>Ancient</td>
-<td><i><a href="/pathfinderRPG/prd/spells/repelMetalOrStone.html#_repel-metal-or-stone">Repel metal or stone</a></i></td>
-<td>13th </td>
-</tr>
-<tr class="odd">
-<td>Wyrm</td>
-<td>DR 20/magic</td>
-<td>15th</td>
-</tr>
-<tr class="even">
-<td>Great wyrm</td>
-<td>
-<i><a href="/pathfinderRPG/prd/advanced/spells/clashingRocks.html#_clashing-rocks">Clashing rocks</a></i>, lava eruption</td>
-<td>17th</td>
-</tr>
-</tbody>
+ Age Category | Special Abilities | Caster Level || Wyrmling | Adamantine claws, immunity to fire | — |
+| Very young | Smoke vision | — |
+| Young | Change shape, _ [soften earth and stone](/pathfinderRPG/prd/spells/softenEarthAndStone.html#_soften-earth-and-stone)_ | — |
+| Juvenile | Frightful presence, _ [stone shape](/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape)_ | 1st |
+| Young adult | DR 5/magic, spell resistance | 3rd |
+| Adult | _ [Spike stones](/pathfinderRPG/prd/spells/spikeStones.html#_spike-stones)_, underworld burrower | 5th |
+| Mature adult | DR 10/magic | 7th |
+| Old | _ [Wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_ | 9th |
+| Very old | DR 15/magic | 11th |
+| Ancient | _ [Repel metal or stone](/pathfinderRPG/prd/spells/repelMetalOrStone.html#_repel-metal-or-stone)_ | 13th |
+| Wyrm | DR 20/magic | 15th |
+| Great wyrm | _ [Clashing rocks](/pathfinderRPG/prd/advanced/spells/clashingRocks.html#_clashing-rocks)_, lava eruption | 17th |
 
 Young Underworld Dragon CR 7
 

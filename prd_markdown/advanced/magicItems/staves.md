@@ -3,110 +3,23 @@
 [Table: Staves]
 | Medium | Major | Staff | Market Price |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–02</td>
-<td>01</td>
-<td><i><a href="#staff-of-toxins-">Toxins</a></i></td>
-<td>12,600 gp</td>
-</tr>
-<tr class="even">
-<td>03–05</td>
-<td>02</td>
-<td><i><a href="#staff-of-journeys-">Journeys</a></i></td>
-<td>13,600 gp</td>
-</tr>
-<tr class="odd">
-<td>06–10</td>
-<td>03–04</td>
-<td><i><a href="#staff-of-rigor-">Rigor</a></i></td>
-<td>13,600 gp</td>
-</tr>
-<tr class="even">
-<td>11–18</td>
-<td>05–08</td>
-<td><i><a href="#staff-of-shrieking-">Shrieking</a></i></td>
-<td>14,400 gp</td>
-</tr>
-<tr class="odd">
-<td>19–25</td>
-<td>09–11</td>
-<td><i><a href="#staff-of-souls-">Souls</a></i></td>
-<td>16,400 gp</td>
-</tr>
-<tr class="even">
-<td>26–35</td>
-<td>12–16</td>
-<td><i><a href="#staff-of-stealth-">Stealth</a></i></td>
-<td>18,400 gp</td>
-</tr>
-<tr class="odd">
-<td>36–42</td>
-<td>17–20</td>
-<td><i><a href="#staff-of-revelations-">Revelations</a></i></td>
-<td>20,400 gp</td>
-</tr>
-<tr class="even">
-<td>43–54</td>
-<td>21–26</td>
-<td><i><a href="#staff-of-bolstering-">Bolstering</a></i></td>
-<td>20,800 gp</td>
-</tr>
-<tr class="odd">
-<td>55–59</td>
-<td>27–28</td>
-<td><i><a href="#staff-of-traps-">Traps</a></i></td>
-<td>21,200 gp</td>
-</tr>
-<tr class="even">
-<td>60–69</td>
-<td>29–35</td>
-<td><i><a href="#staff-of-cackling-wrath-">Cackling wrath</a></i></td>
-<td>23,600 gp</td>
-</tr>
-<tr class="odd">
-<td>70–76</td>
-<td>36–44</td>
-<td><i><a href="#staff-of-obstacles-">Obstacles</a></i></td>
-<td>25,800 gp</td>
-</tr>
-<tr class="even">
-<td>77–82</td>
-<td>45–54</td>
-<td><i><a href="#staff-of-performance-">Performance</a></i></td>
-<td>26,800 gp</td>
-</tr>
-<tr class="odd">
-<td>83–86</td>
-<td>55–60</td>
-<td><i><a href="#staff-of-hoarding-">Hoarding</a></i></td>
-<td>30,016 gp</td>
-</tr>
-<tr class="even">
-<td>87–92</td>
-<td>61–72</td>
-<td><i><a href="#staff-of-slumber-">Slumber</a></i></td>
-<td>34,050 gp</td>
-</tr>
-<tr class="odd">
-<td>93–95</td>
-<td>73–83</td>
-<td><i><a href="#staff-of-vision-">Vision</a></i></td>
-<td>41,250 gp</td>
-</tr>
-<tr class="even">
-<td>96–98</td>
-<td>84–91</td>
-<td><i><a href="#staff-of-weather-">Weather</a></i></td>
-<td>44,200 gp</td>
-</tr>
-<tr class="odd">
-<td>99–100</td>
-<td>92–100</td>
-<td><i><a href="#staff-of-many-rays-">Many rays</a></i></td>
-<td>52,800 gp</td>
-</tr>
-</tbody>
+| 01–02 | 01 | _Toxins_ | 12,600 gp |
+| 03–05 | 02 | _Journeys_ | 13,600 gp |
+| 06–10 | 03–04 | _Rigor_ | 13,600 gp |
+| 11–18 | 05–08 | _Shrieking_ | 14,400 gp |
+| 19–25 | 09–11 | _Souls_ | 16,400 gp |
+| 26–35 | 12–16 | _Stealth_ | 18,400 gp |
+| 36–42 | 17–20 | _Revelations_ | 20,400 gp |
+| 43–54 | 21–26 | _Bolstering_ | 20,800 gp |
+| 55–59 | 27–28 | _Traps_ | 21,200 gp |
+| 60–69 | 29–35 | _Cackling wrath_ | 23,600 gp |
+| 70–76 | 36–44 | _Obstacles_ | 25,800 gp |
+| 77–82 | 45–54 | _Performance_ | 26,800 gp |
+| 83–86 | 55–60 | _Hoarding_ | 30,016 gp |
+| 87–92 | 61–72 | _Slumber_ | 34,050 gp |
+| 93–95 | 73–83 | _Vision_ | 41,250 gp |
+| 96–98 | 84–91 | _Weather_ | 44,200 gp |
+| 99–100 | 92–100 | _Many rays_ | 52,800 gp |
 
 The staves in this chapter follow the normal rules for magical staves as described in the _Pathfinder RPG Core Rulebook_.
 

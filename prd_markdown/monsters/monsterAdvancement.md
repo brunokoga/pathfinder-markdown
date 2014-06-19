@@ -33,23 +33,9 @@ Celestial creatures dwell in the higher planes, but can be summoned using spells
 [Celestial Creature Defenses]
 | Hit Dice | Resist Cold, Acid, and Electricity | DR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–4</td>
-<td>5</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>5–10</td>
-<td>10</td>
-<td>5/evil</td>
-</tr>
-<tr class="odd">
-<td>11+</td>
-<td>15</td>
-<td>10/evil</td>
-</tr>
-</tbody>
+| 1–4 | 5 | — |
+| 5–10 | 10 | 5/evil |
+| 11+ | 15 | 10/evil |
 
 ## Entropic Creature (CR +0 or +1)
 
@@ -60,23 +46,9 @@ Creatures with the entropic template live in planes where chaos is paramount. Th
 [Entropic Creature Defenses]
 | Hit Dice | Resist Acid and Fire | DR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–4</td>
-<td>5</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>5–10</td>
-<td>10</td>
-<td>5/lawful</td>
-</tr>
-<tr class="odd">
-<td>11+</td>
-<td>15</td>
-<td>10/lawful</td>
-</tr>
-</tbody>
+| 1–4 | 5 | — |
+| 5–10 | 10 | 5/lawful |
+| 11+ | 15 | 10/lawful |
 
 ## Fiendish Creature (CR +0 or +1)
 
@@ -87,23 +59,9 @@ Creatures with the fiendish template live in the Lower Planes, such as the Abyss
 [Fiendish Creature Defenses]
 | Hit Dice | Resist Cold and Fire | DR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–4</td>
-<td>5</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>5–10</td>
-<td>10</td>
-<td>5/good</td>
-</tr>
-<tr class="odd">
-<td>11+</td>
-<td>15</td>
-<td>10/good</td>
-</tr>
-</tbody>
+| 1–4 | 5 | — |
+| 5–10 | 10 | 5/good |
+| 11+ | 15 | 10/good |
 
 ## Giant Creature (+1)
 
@@ -122,23 +80,9 @@ Creatures with the resolute template live in planes where law is paramount. They
 [Resolute Creature Defenses]
 | Hit Dice | Resist Acid, Cold and Fire | DR |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1–4</td>
-<td>5</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>5–10</td>
-<td>10</td>
-<td>5/chaotic</td>
-</tr>
-<tr class="odd">
-<td>11+</td>
-<td>15</td>
-<td>10/chaotic</td>
-</tr>
-</tbody>
+| 1–4 | 5 | — |
+| 5–10 | 10 | 5/chaotic |
+| 11+ | 15 | 10/chaotic |
 
 ## Young Creature (CR –1)
 
@@ -159,176 +103,27 @@ When advancing a monster by adding racial HD, you should start by deciding what 
 [Table: Monster Advancement]
 | Higher CR | Lower CR | Hit Point Change | AC Change | Attack Bonus Change | Damage Change |
 | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Less than 1</td>
-<td>5</td>
-<td>1</td>
-<td>1</td>
-<td>2–3</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>1</td>
-<td>5</td>
-<td>2</td>
-<td>2</td>
-<td>2–3</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>2</td>
-<td>10</td>
-<td>1</td>
-<td>1–2</td>
-<td>2–3</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>3</td>
-<td>10</td>
-<td>2</td>
-<td>2</td>
-<td>2–3</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>4</td>
-<td>15</td>
-<td>1</td>
-<td>1–2</td>
-<td>3–4</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>5</td>
-<td>15</td>
-<td>1</td>
-<td>1–2</td>
-<td>3–5</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>6</td>
-<td>15</td>
-<td>1</td>
-<td>1–2</td>
-<td>4–5</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>7</td>
-<td>15</td>
-<td>1</td>
-<td>1–2</td>
-<td>4–5</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>8</td>
-<td>15</td>
-<td>2</td>
-<td>1–2</td>
-<td>4–5</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>9</td>
-<td>15</td>
-<td>1</td>
-<td>1</td>
-<td>3–5</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>10</td>
-<td>15</td>
-<td>1</td>
-<td>1</td>
-<td>4–5</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>11</td>
-<td>15</td>
-<td>2</td>
-<td>1–2</td>
-<td>4–5</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>12</td>
-<td>20</td>
-<td>1</td>
-<td>1</td>
-<td>4–5</td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>13</td>
-<td>20</td>
-<td>1</td>
-<td>1</td>
-<td>3–5</td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>14</td>
-<td>20</td>
-<td>1</td>
-<td>1</td>
-<td>4–5</td>
-</tr>
-<tr class="even">
-<td>16</td>
-<td>15</td>
-<td>20</td>
-<td>1</td>
-<td>1–2</td>
-<td>8–10</td>
-</tr>
-<tr class="odd">
-<td>17</td>
-<td>16</td>
-<td>30</td>
-<td>1</td>
-<td>1</td>
-<td>7–10</td>
-</tr>
-<tr class="even">
-<td>18</td>
-<td>17</td>
-<td>30</td>
-<td>1</td>
-<td>1</td>
-<td>8–10</td>
-</tr>
-<tr class="odd">
-<td>19</td>
-<td>18</td>
-<td>30</td>
-<td>1</td>
-<td>1</td>
-<td>7–10</td>
-</tr>
-<tr class="even">
-<td>20</td>
-<td>19</td>
-<td>40</td>
-<td>2</td>
-<td>1</td>
-<td>8–10</td>
-</tr>
-<tr class="odd">
-<td>21+</td>
-<td>20+</td>
-<td>40</td>
-<td>2</td>
-<td>1</td>
-<td>8–10</td>
-</tr>
-</tbody>
+| 1 | Less than 1 | 5 | 1 | 1 | 2–3 |
+| 2 | 1 | 5 | 2 | 2 | 2–3 |
+| 3 | 2 | 10 | 1 | 1–2 | 2–3 |
+| 4 | 3 | 10 | 2 | 2 | 2–3 |
+| 5 | 4 | 15 | 1 | 1–2 | 3–4 |
+| 6 | 5 | 15 | 1 | 1–2 | 3–5 |
+| 7 | 6 | 15 | 1 | 1–2 | 4–5 |
+| 8 | 7 | 15 | 1 | 1–2 | 4–5 |
+| 9 | 8 | 15 | 2 | 1–2 | 4–5 |
+| 10 | 9 | 15 | 1 | 1 | 3–5 |
+| 11 | 10 | 15 | 1 | 1 | 4–5 |
+| 12 | 11 | 15 | 2 | 1–2 | 4–5 |
+| 13 | 12 | 20 | 1 | 1 | 4–5 |
+| 14 | 13 | 20 | 1 | 1 | 3–5 |
+| 15 | 14 | 20 | 1 | 1 | 4–5 |
+| 16 | 15 | 20 | 1 | 1–2 | 8–10 |
+| 17 | 16 | 30 | 1 | 1 | 7–10 |
+| 18 | 17 | 30 | 1 | 1 | 8–10 |
+| 19 | 18 | 30 | 1 | 1 | 7–10 |
+| 20 | 19 | 40 | 2 | 1 | 8–10 |
+| 21+ | 20+ | 40 | 2 | 1 | 8–10 |
 
 ## Step 2: Add Hit Dice
 
@@ -339,141 +134,27 @@ These values are not absolute. Some monsters have fewer hit points than normal f
 [Table: Size Changes]
 | Old Size\* | New Size | Str | Dex | Con | Natural Armor |
 | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Fine</td>
-<td>Diminutive</td>
-<td>Same</td>
-<td>–2</td>
-<td>Same</td>
-<td>Same</td>
-</tr>
-<tr class="even">
-<td>Diminutive</td>
-<td>Tiny</td>
-<td>+2</td>
-<td>–2</td>
-<td>Same</td>
-<td>Same</td>
-</tr>
-<tr class="odd">
-<td>Tiny</td>
-<td>Small</td>
-<td>+4</td>
-<td>–2</td>
-<td>Same</td>
-<td>Same</td>
-</tr>
-<tr class="even">
-<td>Small</td>
-<td>Medium</td>
-<td>+4</td>
-<td>–2</td>
-<td>+2</td>
-<td>Same</td>
-</tr>
-<tr class="odd">
-<td>Medium</td>
-<td>Large</td>
-<td>+8</td>
-<td>–2</td>
-<td>+4</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>Large</td>
-<td>Huge</td>
-<td>+8</td>
-<td>–2</td>
-<td>+4</td>
-<td>+3</td>
-</tr>
-<tr class="odd">
-<td>Huge</td>
-<td>Gargantuan</td>
-<td>+8</td>
-<td>Same</td>
-<td>+4</td>
-<td>+4</td>
-</tr>
-<tr class="even">
-<td>Gargantuan</td>
-<td>Colossal</td>
-<td>+8</td>
-<td>Same</td>
-<td>+4</td>
-<td>+5</td>
-</tr>
-</tbody>
+| Fine | Diminutive | Same | –2 | Same | Same |
+| Diminutive | Tiny | +2 | –2 | Same | Same |
+| Tiny | Small | +4 | –2 | Same | Same |
+| Small | Medium | +4 | –2 | +2 | Same |
+| Medium | Large | +8 | –2 | +4 | +2 |
+| Large | Huge | +8 | –2 | +4 | +3 |
+| Huge | Gargantuan | +8 | Same | +4 | +4 |
+| Gargantuan | Colossal | +8 | Same | +4 | +5 |
 
 [Table: Size Bonuses and Penalties]
 | Size | AC/Attack | CMB/CMD | Fly Skill | Stealth Skill |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Fine</td>
-<td>+8</td>
-<td>–8</td>
-<td>+8</td>
-<td>+16</td>
-</tr>
-<tr class="even">
-<td>Diminutive</td>
-<td>+4</td>
-<td>–4</td>
-<td>+6</td>
-<td>+12</td>
-</tr>
-<tr class="odd">
-<td>Tiny</td>
-<td>+2</td>
-<td>–2</td>
-<td>+4</td>
-<td>+8</td>
-</tr>
-<tr class="even">
-<td>Small</td>
-<td>+1</td>
-<td>–1</td>
-<td>+2</td>
-<td>+4</td>
-</tr>
-<tr class="odd">
-<td>Medium</td>
-<td>+0</td>
-<td>+0</td>
-<td>+0</td>
-<td>+0</td>
-</tr>
-<tr class="even">
-<td>Large</td>
-<td>–1</td>
-<td>+1</td>
-<td>–2</td>
-<td>–4</td>
-</tr>
-<tr class="odd">
-<td>Huge</td>
-<td>–2</td>
-<td>+2</td>
-<td>–4</td>
-<td>–8</td>
-</tr>
-<tr class="even">
-<td>Gargantuan</td>
-<td>–4</td>
-<td>+4</td>
-<td>–6</td>
-<td>–12</td>
-</tr>
-<tr class="odd">
-<td>Colossal</td>
-<td>–8</td>
-<td>+8</td>
-<td>–8</td>
-<td>–16</td>
-</tr>
-</tbody>
+| Fine | +8 | –8 | +8 | +16 |
+| Diminutive | +4 | –4 | +6 | +12 |
+| Tiny | +2 | –2 | +4 | +8 |
+| Small | +1 | –1 | +2 | +4 |
+| Medium | +0 | +0 | +0 | +0 |
+| Large | –1 | +1 | –2 | –4 |
+| Huge | –2 | +2 | –4 | –8 |
+| Gargantuan | –4 | +4 | –6 | –12 |
+| Colossal | –8 | +8 | –8 | –16 |
 
 ## Step 3: Ability Scores
 
@@ -520,36 +201,10 @@ A list of monster roles for determining key classes appears in Appendix 13.
 [Table: Monsters with Class Levels]
 | Monster Role | Barbarian, Fighter, Ranger | Cleric, Druid, Sorcerer, Wizard | Bard, Rogue | Monk, Paladin |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Combat</td>
-<td>Key</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Spell</td>
-<td>—</td>
-<td>Key*</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Skill</td>
-<td>Key</td>
-<td>—</td>
-<td>Key</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Special</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-</tr>
-</tbody>
+| Combat | Key | — | — | — |
+| Spell | — | Key\* | — | — |
+| Skill | Key | — | Key | — |
+| Special | — | — | — | — |
 
 ## Step 2: Add Class Levels
 

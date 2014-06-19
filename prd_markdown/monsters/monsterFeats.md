@@ -131,58 +131,16 @@ A spell-like ability that duplicates a spell with a casting time greater than 1 
 [Empowered and Quickened Spell-Like Abilities]
 | Spell Level | Caster Level to Empower | Caster Level to Quicken |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>0</td>
-<td>4th</td>
-<td>8th</td>
-</tr>
-<tr class="even">
-<td>1st</td>
-<td>6th</td>
-<td>10th</td>
-</tr>
-<tr class="odd">
-<td>2nd</td>
-<td>8th</td>
-<td>12th</td>
-</tr>
-<tr class="even">
-<td>3rd</td>
-<td>10th</td>
-<td>14th</td>
-</tr>
-<tr class="odd">
-<td>4th</td>
-<td>12th</td>
-<td>16th</td>
-</tr>
-<tr class="even">
-<td>5th</td>
-<td>14th</td>
-<td>18th</td>
-</tr>
-<tr class="odd">
-<td>6th</td>
-<td>16th</td>
-<td>20th</td>
-</tr>
-<tr class="even">
-<td>7th</td>
-<td>18th</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>8th</td>
-<td>20th</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>9th</td>
-<td>—</td>
-<td>—</td>
-</tr>
-</tbody>
+| 0 | 4th | 8th |
+| 1st | 6th | 10th |
+| 2nd | 8th | 12th |
+| 3rd | 10th | 14th |
+| 4th | 12th | 16th |
+| 5th | 14th | 18th |
+| 6th | 16th | 20th |
+| 7th | 18th | — |
+| 8th | 20th | — |
+| 9th | — | — |
 
 ## Snatch
 

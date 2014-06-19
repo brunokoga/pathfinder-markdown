@@ -619,20 +619,9 @@ Weapons with an enhancement bonus of +3 or greater can ignore some types of dama
 
 | DR Type | Weapon Enhancement Bonus Equivalent |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>cold iron/silver</td>
-<td>+3</td>
-</tr>
-<tr class="even">
-<td>adamantine*</td>
-<td>+4</td>
-</tr>
-<tr class="odd">
-<td>alignment-based</td>
-<td>+5</td>
-</tr>
-</tbody>
+| cold iron/silver | +3 |
+| adamantine\* | +4 |
+| alignment-based | +5 |
 
 ## Darkvision
 

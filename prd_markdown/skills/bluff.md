@@ -8,36 +8,13 @@ You know how to tell a lie.
 
 | Circumstances | Bluff Modifier |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>The target wants to believe you</td>
-<td>+5</td>
-</tr>
-<tr class="even">
-<td>The lie is believable</td>
-<td>+0</td>
-</tr>
-<tr class="odd">
-<td>The lie is unlikely</td>
-<td>–5</td>
-</tr>
-<tr class="even">
-<td>The lie is far-fetched</td>
-<td>–10</td>
-</tr>
-<tr class="odd">
-<td>The lie is impossible</td>
-<td>–20</td>
-</tr>
-<tr class="even">
-<td>The target is drunk or impaired</td>
-<td>+5</td>
-</tr>
-<tr class="odd">
-<td>You possess convincing proof</td>
-<td>up to +10</td>
-</tr>
-</tbody>
+| The target wants to believe you | +5 |
+| The lie is believable | +0 |
+| The lie is unlikely | –5 |
+| The lie is far-fetched | –10 |
+| The lie is impossible | –20 |
+| The target is drunk or impaired | +5 |
+| You possess convincing proof | up to +10 |
 
 _Feint_: You can use Bluff to feint in combat, causing your opponent to be denied his [Dexterity](../gettingStarted.html#_dexterity) bonus to his [AC](../combat.html#_armor-class) against your next attack. The DC of this check is equal to 10 + your opponent's base attack bonus + your opponent's [Wisdom](../gettingStarted.html#_wisdom) modifier. If your opponent is trained in Sense Motive, the DC is instead equal to 10 + your opponent's Sense Motive bonus, if higher. For more information on feinting in combat, see [Combat](../combat.html).
 

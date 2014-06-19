@@ -19,24 +19,10 @@ You move at half your normal speed while following tracks (or at your normal spe
 
 | Surface | Survival DC |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Very soft ground</td>
-<td>5</td>
-</tr>
-<tr class="even">
-<td>Soft ground</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td>Firm ground</td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td>Hard ground</td>
-<td>20</td>
-</tr>
-</tbody>
+| Very soft ground | 5 |
+| Soft ground | 10 |
+| Firm ground | 15 |
+| Hard ground | 20 |
 
 _Very Soft Ground_: Any surface (fresh snow, thick dust, wet mud) that holds deep, clear impressions of footprints.
 

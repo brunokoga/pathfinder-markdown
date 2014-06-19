@@ -56,44 +56,12 @@ Other species of giant crab exist as well, some smaller but most quite a bit lar
 
 | Species | CR | Size | HD |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>King crab</td>
-<td>1/4</td>
-<td>Tiny</td>
-<td>1d8</td>
-</tr>
-<tr class="even">
-<td>Coconut crab</td>
-<td>1/2</td>
-<td>Small</td>
-<td>1d8</td>
-</tr>
-<tr class="odd">
-<td>Rock crab</td>
-<td>4</td>
-<td>Large</td>
-<td>5d8</td>
-</tr>
-<tr class="even">
-<td>Shark-eating crab</td>
-<td>7</td>
-<td>Huge</td>
-<td>8d8</td>
-</tr>
-<tr class="odd">
-<td>Great reef crab</td>
-<td>10</td>
-<td>Gargantuan</td>
-<td>11d8</td>
-</tr>
-<tr class="even">
-<td>Shipwrecker crab</td>
-<td>13</td>
-<td>Colossal</td>
-<td>14d8</td>
-</tr>
-</tbody>
+| King crab | 1/4 | Tiny | 1d8 |
+| Coconut crab | 1/2 | Small | 1d8 |
+| Rock crab | 4 | Large | 5d8 |
+| Shark-eating crab | 7 | Huge | 8d8 |
+| Great reef crab | 10 | Gargantuan | 11d8 |
+| Shipwrecker crab | 13 | Colossal | 14d8 |
 
 # Crab Swarm
 

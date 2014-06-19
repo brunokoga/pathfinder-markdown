@@ -22,184 +22,41 @@ You can use this skill to identify monsters and their special powers or vulnerab
 [Table: Knowledge Skill DCs]
 | Task | Knowledge Skill | DC |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td style="white-space:normal;">Identify auras while using <i>detect magic</i>
-</td>
-<td>Arcana</td>
-<td>15 + spell level</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Identify a spell effect that is in place</td>
-<td>Arcana</td>
-<td>20 + spell level</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Identify materials manufactured by magic</td>
-<td>Arcana</td>
-<td>20 + spell level</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Identify a spell that just targeted you</td>
-<td>Arcana</td>
-<td>25 + spell level</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Identify the spells cast using a specific material component</td>
-<td>Arcana</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Identify underground hazard</td>
-<td>Dungeoneering</td>
-<td>15 + hazard's CR</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Identify mineral, stone, or metal</td>
-<td>Dungeoneering</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Determine slope</td>
-<td>Dungeoneering</td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Determine depth underground</td>
-<td>Dungeoneering</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Identify dangerous construction</td>
-<td>Engineering</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Determine a structure's style or age</td>
-<td>Engineering</td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Determine a structure's weakness</td>
-<td>Engineering</td>
-<td>20</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Identify a creature's ethnicity or accent</td>
-<td>Geography</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Recognize regional terrain features</td>
-<td>Geography</td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Know location of nearest community or noteworthy site</td>
-<td>Geography</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Know recent or historically significant event</td>
-<td>History</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Determine approximate date of a specific event</td>
-<td>History</td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Know obscure or ancient historical event</td>
-<td>History</td>
-<td>20</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Know local laws, rulers, and popular locations</td>
-<td>Local</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Know a common rumor or local tradition</td>
-<td>Local</td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Know hidden organizations, rulers, and locations</td>
-<td>Local</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Identify natural hazard</td>
-<td>Nature</td>
-<td>15 + hazard's CR</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Identify a common plant or animal</td>
-<td>Nature</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Identify unnatural weather phenomenon</td>
-<td>Nature</td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Determine artificial nature of feature</td>
-<td>Nature</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Know current rulers and their symbols</td>
-<td>Nobility</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Know proper etiquette</td>
-<td>Nobility</td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Know line of succession</td>
-<td>Nobility</td>
-<td>20</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Know the names of the planes</td>
-<td>Planes</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Recognize current plane</td>
-<td>Planes</td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Identify a creature's planar origin</td>
-<td>Planes</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Recognize a common deity's symbol or clergy</td>
-<td>Religion</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Know common mythology and tenets</td>
-<td>Religion</td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td style="white-space:normal;">Recognize an obscure deity's symbol or clergy</td>
-<td>Religion</td>
-<td>20</td>
-</tr>
-<tr class="odd">
-<td style="white-space:normal;">Identify a monster's abilities and weaknesses</td>
-<td>Varies</td>
-<td>10 + monster's CR</td>
-</tr>
-</tbody>
+| Identify auras while using _detect magic_ | Arcana | 15 + spell level |
+| Identify a spell effect that is in place | Arcana | 20 + spell level |
+| Identify materials manufactured by magic | Arcana | 20 + spell level |
+| Identify a spell that just targeted you | Arcana | 25 + spell level |
+| Identify the spells cast using a specific material component | Arcana | 20 |
+| Identify underground hazard | Dungeoneering | 15 + hazard's CR |
+| Identify mineral, stone, or metal | Dungeoneering | 10 |
+| Determine slope | Dungeoneering | 15 |
+| Determine depth underground | Dungeoneering | 20 |
+| Identify dangerous construction | Engineering | 10 |
+| Determine a structure's style or age | Engineering | 15 |
+| Determine a structure's weakness | Engineering | 20 |
+| Identify a creature's ethnicity or accent | Geography | 10 |
+| Recognize regional terrain features | Geography | 15 |
+| Know location of nearest community or noteworthy site | Geography | 20 |
+| Know recent or historically significant event | History | 10 |
+| Determine approximate date of a specific event | History | 15 |
+| Know obscure or ancient historical event | History | 20 |
+| Know local laws, rulers, and popular locations | Local | 10 |
+| Know a common rumor or local tradition | Local | 15 |
+| Know hidden organizations, rulers, and locations | Local | 20 |
+| Identify natural hazard | Nature | 15 + hazard's CR |
+| Identify a common plant or animal | Nature | 10 |
+| Identify unnatural weather phenomenon | Nature | 15 |
+| Determine artificial nature of feature | Nature | 20 |
+| Know current rulers and their symbols | Nobility | 10 |
+| Know proper etiquette | Nobility | 15 |
+| Know line of succession | Nobility | 20 |
+| Know the names of the planes | Planes | 10 |
+| Recognize current plane | Planes | 15 |
+| Identify a creature's planar origin | Planes | 20 |
+| Recognize a common deity's symbol or clergy | Religion | 10 |
+| Know common mythology and tenets | Religion | 15 |
+| Recognize an obscure deity's symbol or clergy | Religion | 20 |
+| Identify a monster's abilities and weaknesses | Varies | 10 + monster's CR |
 
 **Action** : Usually none. In most cases, a Knowledge check doesn't take an action (but see âUntrained,â below).
 

@@ -28,113 +28,21 @@ A creature that has been turned into an undead creature or killed by a death eff
 
 | d% | Incarnation | [Str](../gettingStarted.html#_strength) | [Dex](../gettingStarted.html#_dexterity) | [Con](../gettingStarted.html#_constitution) |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="even">
-<td>01</td>
-<td>Bugbear</td>
-<td>+4</td>
-<td>+2</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>02–13</td>
-<td>Dwarf</td>
-<td>+0</td>
-<td>+0</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>14–25</td>
-<td>Elf</td>
-<td>+0</td>
-<td>+2</td>
-<td>–2</td>
-</tr>
-<tr class="odd">
-<td>26</td>
-<td>Gnoll</td>
-<td>+4</td>
-<td>+0</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>27–38</td>
-<td>Gnome</td>
-<td>–2</td>
-<td>+0</td>
-<td>+2</td>
-</tr>
-<tr class="odd">
-<td>39–42</td>
-<td>Goblin</td>
-<td>–2</td>
-<td>+2</td>
-<td>+0</td>
-</tr>
-<tr class="even">
-<td>43–52</td>
-<td>Half-elf</td>
-<td>+0</td>
-<td>+2</td>
-<td>+0</td>
-</tr>
-<tr class="odd">
-<td>53–62</td>
-<td>Half-orc</td>
-<td>+2</td>
-<td>+0</td>
-<td>+0</td>
-</tr>
-<tr class="even">
-<td>63–74</td>
-<td>Halfling</td>
-<td>–2</td>
-<td>+2</td>
-<td>+0</td>
-</tr>
-<tr class="odd">
-<td>75–89</td>
-<td>Human</td>
-<td>+0</td>
-<td>+0</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>90–93</td>
-<td>Kobold</td>
-<td>–4</td>
-<td>+2</td>
-<td>–2</td>
-</tr>
-<tr class="odd">
-<td>94</td>
-<td>Lizardfolk</td>
-<td>+2</td>
-<td>+0</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>95–98</td>
-<td>Orc</td>
-<td>+4</td>
-<td>+0</td>
-<td>+0</td>
-</tr>
-<tr class="odd">
-<td>99</td>
-<td>Troglodyte</td>
-<td>+0</td>
-<td>–2</td>
-<td>+4</td>
-</tr>
-<tr class="even">
-<td>100</td>
-<td>Other (GM's choice)</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-</tr>
-</tbody>
+| 01 | Bugbear | +4 | +2 | +2 |
+| 02–13 | Dwarf | +0 | +0 | +2 |
+| 14–25 | Elf | +0 | +2 | –2 |
+| 26 | Gnoll | +4 | +0 | +2 |
+| 27–38 | Gnome | –2 | +0 | +2 |
+| 39–42 | Goblin | –2 | +2 | +0 |
+| 43–52 | Half-elf | +0 | +2 | +0 |
+| 53–62 | Half-orc | +2 | +0 | +0 |
+| 63–74 | Halfling | –2 | +2 | +0 |
+| 75–89 | Human | +0 | +0 | +2 |
+| 90–93 | Kobold | –4 | +2 | –2 |
+| 94 | Lizardfolk | +2 | +0 | +2 |
+| 95–98 | Orc | +4 | +0 | +0 |
+| 99 | Troglodyte | +0 | –2 | +4 |
+| 100 | Other (GM's choice) | ? | ? | ? |
 
 The reincarnated creature gains all abilities associated with its new form, including forms of movement and speeds, natural armor, natural attacks, extraordinary abilities, and the like, but it doesn't automatically speak the language of the new form.
 

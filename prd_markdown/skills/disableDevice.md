@@ -22,24 +22,10 @@ You also can rig simple devices such as saddles or wagon wheels to work normally
 
 | Lock Quality | Disable Device DC |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Simple</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td>Average</td>
-<td>25</td>
-</tr>
-<tr class="odd">
-<td>Good</td>
-<td>30</td>
-</tr>
-<tr class="even">
-<td>Superior</td>
-<td>40</td>
-</tr>
-</tbody>
+| Simple | 20 |
+| Average | 25 |
+| Good | 30 |
+| Superior | 40 |
 
 _Open Locks_: The DC for opening a lock depends on its quality. If you do not have a set of thieves' tools, these DCs increase by 10.
 

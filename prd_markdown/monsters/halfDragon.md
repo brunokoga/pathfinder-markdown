@@ -70,32 +70,12 @@ Half-dragons are only rarely the result of dragons mating with other creatures�
 
 | Dragon Variety | Breath Weapon |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Black or copper</td>
-<td>60–foot line of acid</td>
-</tr>
-<tr class="even">
-<td>Brass</td>
-<td>60–foot line of fire</td>
-</tr>
-<tr class="odd">
-<td>Blue or bronze</td>
-<td>60–foot line of electricity</td>
-</tr>
-<tr class="even">
-<td>Gold or red</td>
-<td>30–foot cone of fire</td>
-</tr>
-<tr class="odd">
-<td>Green</td>
-<td>30–foot cone of acid</td>
-</tr>
-<tr class="even">
-<td>Silver or white</td>
-<td>30–foot cone of cold</td>
-</tr>
-</tbody>
+| Black or copper | 60–foot line of acid |
+| Brass | 60–foot line of fire |
+| Blue or bronze | 60–foot line of electricity |
+| Gold or red | 30–foot cone of fire |
+| Green | 30–foot cone of acid |
+| Silver or white | 30–foot cone of cold |
 
 **Abilities** : Increase from the base creature as follows: Str +8, Con +6, Int +2, Cha +2.
 

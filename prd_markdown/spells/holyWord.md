@@ -18,29 +18,10 @@ Any nongood creature within the area of a _holy word _spell suffers the followin
 
 | HD | Effect |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Equal to caster level</td>
-<td><a href="../glossary.html#_deafened">Deafened</a></td>
-</tr>
-<tr class="even">
-<td>Up to caster level –1</td>
-<td>
-<a href="../glossary.html#_blinded">Blinded</a>, <a href="../glossary.html#_deafened">deafened</a>
-</td>
-</tr>
-<tr class="odd">
-<td>Up to caster level –5</td>
-<td>
-<a href="../glossary.html#_paralyzed">Paralyzed</a>, <a href="../glossary.html#_blinded">blinded</a>, <a href="../glossary.html#_deafened">deafened</a>
-</td>
-</tr>
-<tr class="even">
-<td>Up to caster level –10</td>
-<td>Killed, <a href="../glossary.html#_paralyzed">paralyzed</a>, <a href="../glossary.html#_blinded">blinded</a>, <a href="../glossary.html#_deafened">deafened</a>
-</td>
-</tr>
-</tbody>
+| Equal to caster level | [Deafened](../glossary.html#_deafened) |
+| Up to caster level –1 | [Blinded](../glossary.html#_blinded), [deafened](../glossary.html#_deafened) |
+| Up to caster level –5 | [Paralyzed](../glossary.html#_paralyzed), [blinded](../glossary.html#_blinded), [deafened](../glossary.html#_deafened) |
+| Up to caster level –10 | Killed, [paralyzed](../glossary.html#_paralyzed), [blinded](../glossary.html#_blinded), [deafened](../glossary.html#_deafened) |
 
 The effects are cumulative and concurrent. A successful [Will](../combat.html#_will) save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.
 

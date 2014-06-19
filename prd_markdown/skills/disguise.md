@@ -23,24 +23,10 @@ The effectiveness of your disguise depends on how much you're changing your appe
 
 | Familiarity | Viewer's Perception Check Bonus |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Recognizes on sight</td>
-<td>+4</td>
-</tr>
-<tr class="even">
-<td>Friends or associates</td>
-<td>+6</td>
-</tr>
-<tr class="odd">
-<td>Close friends</td>
-<td>+8</td>
-</tr>
-<tr class="even">
-<td>Intimate</td>
-<td>+10</td>
-</tr>
-</tbody>
+| Recognizes on sight | +4 |
+| Friends or associates | +6 |
+| Close friends | +8 |
+| Intimate | +10 |
 
 If you are impersonating a particular individual, those who know what that person looks like get a bonus on their Perception checks according to the table below. Furthermore, they are automatically considered to be suspicious of you, so opposed checks are always called for.
 

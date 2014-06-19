@@ -13,331 +13,52 @@ A character can only effectively wear two magic rings. A third magic ring doesn'
 [Table: Rings]
 | Minor | Medium | Major | Ring | Market Price |
 | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>01–18</td>
-<td>—</td>
-<td>—</td>
-<td><i><a href="#_ring-of-protection">Protection</a> +1</i></td>
-<td>2,000 gp</td>
-</tr>
-<tr class="even">
-<td>19–28</td>
-<td>—</td>
-<td>—</td>
-<td><i><a href="#_ring-of-feather-falling">Feather falling</a></i></td>
-<td>2,200 gp</td>
-</tr>
-<tr class="odd">
-<td>29–36</td>
-<td>—</td>
-<td>—</td>
-<td><i><a href="#_ring-of-sustenance">Sustenance</a></i></td>
-<td>2,500 gp</td>
-</tr>
-<tr class="even">
-<td>37–44</td>
-<td>—</td>
-<td>—</td>
-<td><i><a href="#_ring-of-climbing">Climbing</a></i></td>
-<td>2,500 gp</td>
-</tr>
-<tr class="odd">
-<td>45–52</td>
-<td>—</td>
-<td>—</td>
-<td><i><a href="#_ring-of-jumping">Jumping</a></i></td>
-<td>2,500 gp</td>
-</tr>
-<tr class="even">
-<td>53–60</td>
-<td>—</td>
-<td>—</td>
-<td><i><a href="#_ring-of-swimming">Swimming</a></i></td>
-<td>2,500 gp</td>
-</tr>
-<tr class="odd">
-<td>61–70</td>
-<td>01–05</td>
-<td>—</td>
-<td><i><a href="#_ring-of-counterspells">Counterspells</a></i></td>
-<td>4,000 gp</td>
-</tr>
-<tr class="even">
-<td>71–75</td>
-<td>06–08</td>
-<td>—</td>
-<td><i><a href="#_ring-of-mind-shielding">Mind shielding</a></i></td>
-<td>8,000 gp</td>
-</tr>
-<tr class="odd">
-<td>76–80</td>
-<td>09–18</td>
-<td>—</td>
-<td><i><a href="#_ring-of-protection">Protection</a> +2</i></td>
-<td>8,000 gp</td>
-</tr>
-<tr class="even">
-<td>81–85</td>
-<td>19–23</td>
-<td>—</td>
-<td><i><a href="#_ring-of-force-shield">Force shield</a></i></td>
-<td>8,500 gp</td>
-</tr>
-<tr class="odd">
-<td>86–90</td>
-<td>24–28</td>
-<td>—</td>
-<td><i><a href="#_ring-of-the-ram">Ram, the</a></i></td>
-<td>8,600 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>29–34</td>
-<td>—</td>
-<td><i><a href="#_ring-of-climbing-improved">Climbing, improved</a></i></td>
-<td>10,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>35–40</td>
-<td>—</td>
-<td><i><a href="#_ring-of-jumping-improved">Jumping, improved</a></i></td>
-<td>10,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>41–46</td>
-<td>—</td>
-<td><i><a href="#_ring-of-swimming-improved">Swimming, improved</a></i></td>
-<td>10,000 gp</td>
-</tr>
-<tr class="odd">
-<td>91–93</td>
-<td>47–50</td>
-<td>—</td>
-<td><i><a href="#_ring-of-animal-friendship">Animal friendship</a></i></td>
-<td>10,800 gp</td>
-</tr>
-<tr class="even">
-<td>94–96</td>
-<td>51–56</td>
-<td>01–02</td>
-<td><i><a href="#_ring-of-energy-resistance">Energy resistance</a>, minor</i></td>
-<td>12,000 gp</td>
-</tr>
-<tr class="odd">
-<td>97–98</td>
-<td>57–61</td>
-<td>—</td>
-<td><i><a href="#_ring-of-chameleon-power">Chameleon power</a></i></td>
-<td>12,700 gp</td>
-</tr>
-<tr class="even">
-<td>99–100</td>
-<td>62–66</td>
-<td>—</td>
-<td><i><a href="#_ring-of-water-walking">Water walking</a></i></td>
-<td>15,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>67–71</td>
-<td>03–07</td>
-<td><i><a href="#_ring-of-protection">Protection</a> +3</i></td>
-<td>18,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>72–76</td>
-<td>08–10</td>
-<td><i><a href="#_ring-of-spell-storing-minor">Spell storing, minor</a></i></td>
-<td>18,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>77–81</td>
-<td>11–15</td>
-<td><i><a href="#_ring-of-invisibility">Invisibility</a></i></td>
-<td>20,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>82–85</td>
-<td>16–19</td>
-<td><i><a href="#_ring-of-wizardry">Wizardry</a> (I)</i></td>
-<td>20,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>86–90</td>
-<td>20–25</td>
-<td><i><a href="#_ring-of-evasion">Evasion</a></i></td>
-<td>25,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>91–93</td>
-<td>26–28</td>
-<td><i><a href="#_ring-of-x-ray-vision">X-ray vision</a></i></td>
-<td>25,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>94–97</td>
-<td>29–32</td>
-<td><i><a href="#_ring-of-blinking">Blinking</a></i></td>
-<td>27,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>98–100</td>
-<td>33–39</td>
-<td><i><a href="#_ring-of-energy-resistance">Energy resistance</a>, major</i></td>
-<td>28,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>—</td>
-<td>40–49</td>
-<td><i><a href="#_ring-of-protection">Protection</a> +4</i></td>
-<td>32,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>—</td>
-<td>50–55</td>
-<td><i><a href="#_ring-of-wizardry">Wizardry</a> (II)</i></td>
-<td>40,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>—</td>
-<td>56–60</td>
-<td><i><a href="#_ring-of-freedom-of-movement">Freedom of movement</a></i></td>
-<td>40,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>—</td>
-<td>61–63</td>
-<td><i><a href="#_ring-of-energy-resistance">Energy resistance</a>, greater</i></td>
-<td>44,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>—</td>
-<td>64–65</td>
-<td>
-<i><a href="#_ring-of-friend-shield">Friend shield</a> </i>(pair)</td>
-<td>50,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>—</td>
-<td>66–70</td>
-<td><i><a href="#_ring-of-protection">Protection</a> +5</i></td>
-<td>50,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>—</td>
-<td>71–74</td>
-<td><i><a href="#_ring-of-shooting-stars">Shooting stars</a></i></td>
-<td>50,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>—</td>
-<td>75–79</td>
-<td><i><a href="#_ring-of-spell-storing-minor">Spell storing</a></i></td>
-<td>50,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>—</td>
-<td>80–83</td>
-<td><i><a href="#_ring-of-wizardry">Wizardry</a> (III)</i></td>
-<td>70,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>—</td>
-<td>84–86</td>
-<td><i><a href="#_ring-of-telekinesis">Telekinesis</a></i></td>
-<td>75,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>—</td>
-<td>87–88</td>
-<td><i><a href="#_ring-of-regeneration">Regeneration</a></i></td>
-<td>90,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>—</td>
-<td>89–91</td>
-<td><i><a href="#_ring-of-spell-tuning">Spell turning</a></i></td>
-<td>100,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>—</td>
-<td>92–93</td>
-<td><i><a href="#_ring-of-wizardry">Wizardry</a> (IV)</i></td>
-<td>100,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>—</td>
-<td>94</td>
-<td><i><a href="#_ring-of-three-wishes">Three wishes</a></i></td>
-<td>120,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>—</td>
-<td>95</td>
-<td><i><a href="#_ring-of-djinni-calling">Djinni calling</a></i></td>
-<td>125,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>—</td>
-<td>96</td>
-<td><i><a href="#_ring-of-elemental-command">Elemental command (air)</a></i></td>
-<td>200,000 gp </td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>—</td>
-<td>97</td>
-<td><i><a href="#_ring-of-elemental-command">Elemental command (earth)</a> </i></td>
-<td>200,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>—</td>
-<td>98</td>
-<td><i><a href="#_ring-of-elemental-command">Elemental command (fire)</a> </i></td>
-<td>200,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>—</td>
-<td>99</td>
-<td><i><a href="#_ring-of-elemental-command">Elemental command (water)</a> </i></td>
-<td>200,000 gp</td>
-</tr>
-<tr class="even">
-<td>—</td>
-<td>—</td>
-<td>100</td>
-<td><i><a href="#_ring-of-spell-storing-major">Spell storing, major</a></i></td>
-<td>200,000 gp</td>
-</tr>
-</tbody>
+| 01–18 | — | — | _Protection +1_ | 2,000 gp |
+| 19–28 | — | — | _Feather falling_ | 2,200 gp |
+| 29–36 | — | — | _Sustenance_ | 2,500 gp |
+| 37–44 | — | — | _Climbing_ | 2,500 gp |
+| 45–52 | — | — | _Jumping_ | 2,500 gp |
+| 53–60 | — | — | _Swimming_ | 2,500 gp |
+| 61–70 | 01–05 | — | _Counterspells_ | 4,000 gp |
+| 71–75 | 06–08 | — | _Mind shielding_ | 8,000 gp |
+| 76–80 | 09–18 | — | _Protection +2_ | 8,000 gp |
+| 81–85 | 19–23 | — | _Force shield_ | 8,500 gp |
+| 86–90 | 24–28 | — | _Ram, the_ | 8,600 gp |
+| — | 29–34 | — | _Climbing, improved_ | 10,000 gp |
+| — | 35–40 | — | _Jumping, improved_ | 10,000 gp |
+| — | 41–46 | — | _Swimming, improved_ | 10,000 gp |
+| 91–93 | 47–50 | — | _Animal friendship_ | 10,800 gp |
+| 94–96 | 51–56 | 01–02 | _Energy resistance, minor_ | 12,000 gp |
+| 97–98 | 57–61 | — | _Chameleon power_ | 12,700 gp |
+| 99–100 | 62–66 | — | _Water walking_ | 15,000 gp |
+| — | 67–71 | 03–07 | _Protection +3_ | 18,000 gp |
+| — | 72–76 | 08–10 | _Spell storing, minor_ | 18,000 gp |
+| — | 77–81 | 11–15 | _Invisibility_ | 20,000 gp |
+| — | 82–85 | 16–19 | _Wizardry (I)_ | 20,000 gp |
+| — | 86–90 | 20–25 | _Evasion_ | 25,000 gp |
+| — | 91–93 | 26–28 | _X-ray vision_ | 25,000 gp |
+| — | 94–97 | 29–32 | _Blinking_ | 27,000 gp |
+| — | 98–100 | 33–39 | _Energy resistance, major_ | 28,000 gp |
+| — | — | 40–49 | _Protection +4_ | 32,000 gp |
+| — | — | 50–55 | _Wizardry (II)_ | 40,000 gp |
+| — | — | 56–60 | _Freedom of movement_ | 40,000 gp |
+| — | — | 61–63 | _Energy resistance, greater_ | 44,000 gp |
+| — | — | 64–65 | _Friend shield _(pair) | 50,000 gp |
+| — | — | 66–70 | _Protection +5_ | 50,000 gp |
+| — | — | 71–74 | _Shooting stars_ | 50,000 gp |
+| — | — | 75–79 | _Spell storing_ | 50,000 gp |
+| — | — | 80–83 | _Wizardry (III)_ | 70,000 gp |
+| — | — | 84–86 | _Telekinesis_ | 75,000 gp |
+| — | — | 87–88 | _Regeneration_ | 90,000 gp |
+| — | — | 89–91 | _Spell turning_ | 100,000 gp |
+| — | — | 92–93 | _Wizardry (IV)_ | 100,000 gp |
+| — | — | 94 | _Three wishes_ | 120,000 gp |
+| — | — | 95 | _Djinni calling_ | 125,000 gp |
+| — | — | 96 | _Elemental command (air)_ | 200,000 gp |
+| — | — | 97 | _Elemental command (earth) _ | 200,000 gp |
+| — | — | 98 | _Elemental command (fire) _ | 200,000 gp |
+| — | — | 99 | _Elemental command (water) _ | 200,000 gp |
+| — | — | 100 | _Spell storing, major_ | 200,000 gp |
 
 **Ring of Animal Friendship**
 
@@ -457,24 +178,10 @@ The possessor of a _ring of elemental command _takes a saving throw penalty as f
 
 | Element | Saving Throw Penalty |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Air</td>
-<td>–2 against earth-based effects</td>
-</tr>
-<tr class="even">
-<td>Earth</td>
-<td>–2 against air- or electricity-based effects</td>
-</tr>
-<tr class="odd">
-<td>Fire</td>
-<td>–2 against water- or cold-based effects</td>
-</tr>
-<tr class="even">
-<td>Water</td>
-<td>–2 against fire-based effects</td>
-</tr>
-</tbody>
+| Air | –2 against earth-based effects |
+| Earth | –2 against air- or electricity-based effects |
+| Fire | –2 against water- or cold-based effects |
+| Water | –2 against fire-based effects |
 
 In addition to the powers described above, each specific ring gives its wearer the following abilities according to its kind.
 
@@ -737,24 +444,10 @@ The first special function, ball lightning_, _releases one to four balls of ligh
 
 | Number of Balls | Damage per Ball |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1 lightning ball</td>
-<td>4d6 points of electricity damage</td>
-</tr>
-<tr class="even">
-<td>2 lightning balls</td>
-<td>3d6 points of electricity damage each</td>
-</tr>
-<tr class="odd">
-<td>3 lightning balls</td>
-<td>2d6 points of electricity damage each</td>
-</tr>
-<tr class="even">
-<td>4 lightning balls</td>
-<td>1d6 points of electricity damage each</td>
-</tr>
-</tbody>
+| 1 lightning ball | 4d6 points of electricity damage |
+| 2 lightning balls | 3d6 points of electricity damage each |
+| 3 lightning balls | 2d6 points of electricity damage each |
+| 4 lightning balls | 1d6 points of electricity damage each |
 
 Once the ball lightning function is activated, the balls can be released at any time before the sun rises. Multiple balls can be released in the same round.
 

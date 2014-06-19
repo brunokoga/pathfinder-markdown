@@ -54,58 +54,16 @@ Skeletons are the animated bones of the dead, brought to unlife through foul mag
 
 | HD | CR | XP |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1/2</td>
-<td>1/6</td>
-<td>65</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>1/3</td>
-<td>135</td>
-</tr>
-<tr class="odd">
-<td>2–3</td>
-<td>1</td>
-<td>400</td>
-</tr>
-<tr class="even">
-<td>4–5</td>
-<td>2</td>
-<td>600</td>
-</tr>
-<tr class="odd">
-<td>6–7</td>
-<td>3</td>
-<td>800</td>
-</tr>
-<tr class="even">
-<td>8–9</td>
-<td>4</td>
-<td>1,200</td>
-</tr>
-<tr class="odd">
-<td>10–11</td>
-<td>5</td>
-<td>1,600</td>
-</tr>
-<tr class="even">
-<td>12–14</td>
-<td>6</td>
-<td>2,400</td>
-</tr>
-<tr class="odd">
-<td>15–17</td>
-<td>7</td>
-<td>3,200</td>
-</tr>
-<tr class="even">
-<td>18–20</td>
-<td>8</td>
-<td>4,800</td>
-</tr>
-</tbody>
+| 1/2 | 1/6 | 65 |
+| 1 | 1/3 | 135 |
+| 2–3 | 1 | 400 |
+| 4–5 | 2 | 600 |
+| 6–7 | 3 | 800 |
+| 8–9 | 4 | 1,200 |
+| 10–11 | 5 | 1,600 |
+| 12–14 | 6 | 2,400 |
+| 15–17 | 7 | 3,200 |
+| 18–20 | 8 | 4,800 |
 
 **Alignment** : Always neutral evil.
 
@@ -115,32 +73,12 @@ Skeletons are the animated bones of the dead, brought to unlife through foul mag
 
 | Skeleton Size | Natural Armor Bonus |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Tiny or smaller</td>
-<td>+0</td>
-</tr>
-<tr class="even">
-<td>Small</td>
-<td>+1</td>
-</tr>
-<tr class="odd">
-<td>Medium or Large</td>
-<td>+2</td>
-</tr>
-<tr class="even">
-<td>Huge</td>
-<td>+3</td>
-</tr>
-<tr class="odd">
-<td>Gargantuan</td>
-<td>+6</td>
-</tr>
-<tr class="even">
-<td>Colossal</td>
-<td>+10</td>
-</tr>
-</tbody>
+| Tiny or smaller | +0 |
+| Small | +1 |
+| Medium or Large | +2 |
+| Huge | +3 |
+| Gargantuan | +6 |
+| Colossal | +10 |
 
 **Hit Dice** : A skeleton drops any HD gained from class levels and changes racial HD to d8s. Creatures without racial HD are treated as if they have 1 racial HD. If the creature has more than 20 Hit Dice, it can't be made into a skeleton by the _ [animate dead](../spells/animateDead.html#_animate-dead) _spell. A skeleton uses its Cha modifier (instead of its Con modifier) to determine bonus hit points.
 

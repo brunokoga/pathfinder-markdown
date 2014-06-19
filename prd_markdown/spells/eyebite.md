@@ -18,23 +18,9 @@ Each round, you can target a single living creature, striking it with waves of p
 
 | HD | Effect |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>10 or more</td>
-<td><a href="../glossary.html#_sickened">Sickened</a></td>
-</tr>
-<tr class="even">
-<td>5–9</td>
-<td>
-<a href="../glossary.html#_panicked">Panicked</a>, <a href="../glossary.html#_sickened">sickened</a>
-</td>
-</tr>
-<tr class="odd">
-<td>4 or less</td>
-<td>Comatose, <a href="../glossary.html#_panicked">panicked</a>, <a href="../glossary.html#_sickened">sickened</a>
-</td>
-</tr>
-</tbody>
+| 10 or more | [Sickened](../glossary.html#_sickened) |
+| 5–9 | [Panicked](../glossary.html#_panicked), [sickened](../glossary.html#_sickened) |
+| 4 or less | Comatose, [panicked](../glossary.html#_panicked), [sickened](../glossary.html#_sickened) |
 
 The effects are cumulative and concurrent.
 

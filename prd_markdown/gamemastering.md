@@ -9,284 +9,59 @@ Step 1—Determine APL: Determine the average level of your player characters—
 [Table: Encounter Design]
 | Difficulty | Challenge Rating Equals… |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Easy</td>
-<td>APL –1</td>
-</tr>
-<tr class="even">
-<td>Average</td>
-<td>APL</td>
-</tr>
-<tr class="odd">
-<td>Challenging</td>
-<td>APL +1</td>
-</tr>
-<tr class="even">
-<td>Hard</td>
-<td>APL +2</td>
-</tr>
-<tr class="odd">
-<td>Epic</td>
-<td>APL +3 </td>
-</tr>
-</tbody>
+| Easy | APL –1 |
+| Average | APL |
+| Challenging | APL +1 |
+| Hard | APL +2 |
+| Epic | APL +3 |
 
 [Table: CR Equivalencies]
 | Number of Creatures | Equal to… |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1 Creature</td>
-<td>CR</td>
-</tr>
-<tr class="even">
-<td>2 Creatures</td>
-<td>CR +2</td>
-</tr>
-<tr class="odd">
-<td>3 Creatures</td>
-<td>CR +3</td>
-</tr>
-<tr class="even">
-<td>4 Creatures</td>
-<td>CR +4</td>
-</tr>
-<tr class="odd">
-<td>6 Creatures</td>
-<td>CR +5</td>
-</tr>
-<tr class="even">
-<td>8 Creatures</td>
-<td>CR +6</td>
-</tr>
-<tr class="odd">
-<td>12 Creatures</td>
-<td>CR +7</td>
-</tr>
-<tr class="even">
-<td>16 Creatures</td>
-<td>CR +8</td>
-</tr>
-</tbody>
+| 1 Creature | CR |
+| 2 Creatures | CR +2 |
+| 3 Creatures | CR +3 |
+| 4 Creatures | CR +4 |
+| 6 Creatures | CR +5 |
+| 8 Creatures | CR +6 |
+| 12 Creatures | CR +7 |
+| 16 Creatures | CR +8 |
 
 [Table: Experience Point Awards]
 | CR | Total XP | Individual XP |
 | --- | --- | --- |
 | 1-3 | 4-5 | 6+ |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1/8</td>
-<td>50</td>
-<td>15</td>
-<td>15</td>
-<td>10</td>
-</tr>
-<tr class="even">
-<td>1/6</td>
-<td>65</td>
-<td>20</td>
-<td>15</td>
-<td>10</td>
-</tr>
-<tr class="odd">
-<td>1/4</td>
-<td>100</td>
-<td>35</td>
-<td>25</td>
-<td>15</td>
-</tr>
-<tr class="even">
-<td>1/3</td>
-<td>135</td>
-<td>45</td>
-<td>35</td>
-<td>25</td>
-</tr>
-<tr class="odd">
-<td>1/2</td>
-<td>200</td>
-<td>65</td>
-<td>50</td>
-<td>35</td>
-</tr>
-<tr class="even">
-<td>1</td>
-<td>400</td>
-<td>135</td>
-<td>100</td>
-<td>65</td>
-</tr>
-<tr class="odd">
-<td>2</td>
-<td>600</td>
-<td>200</td>
-<td>150</td>
-<td>100</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>800</td>
-<td>265</td>
-<td>200</td>
-<td>135</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>1,200</td>
-<td>400</td>
-<td>300</td>
-<td>200</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>1,600</td>
-<td>535</td>
-<td>400</td>
-<td>265</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>2,400</td>
-<td>800</td>
-<td>600</td>
-<td>400</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>3,200</td>
-<td>1,070</td>
-<td>800</td>
-<td>535</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>4,800</td>
-<td>1,600</td>
-<td>1,200</td>
-<td>800</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>6,400</td>
-<td>2,130</td>
-<td>1,600</td>
-<td>1,070</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>9,600</td>
-<td>3,200</td>
-<td>2,400</td>
-<td>1,600</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>12,800</td>
-<td>4,270</td>
-<td>3,200</td>
-<td>2,130</td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td>19,200</td>
-<td>6,400</td>
-<td>4,800</td>
-<td>3,200</td>
-</tr>
-<tr class="even">
-<td>13</td>
-<td>25,600</td>
-<td>8,530</td>
-<td>6,400</td>
-<td>4,270</td>
-</tr>
-<tr class="odd">
-<td>14</td>
-<td>38,400</td>
-<td>12,800</td>
-<td>9,600</td>
-<td>6,400</td>
-</tr>
-<tr class="even">
-<td>15</td>
-<td>51,200</td>
-<td>17,100</td>
-<td>12,800</td>
-<td>8,530</td>
-</tr>
-<tr class="odd">
-<td>16</td>
-<td>76,800</td>
-<td>25,600</td>
-<td>19,200</td>
-<td>12,800</td>
-</tr>
-<tr class="even">
-<td>17</td>
-<td>102,400</td>
-<td>34,100</td>
-<td>25,600</td>
-<td>17,100</td>
-</tr>
-<tr class="odd">
-<td>18</td>
-<td>153,600</td>
-<td>51,200</td>
-<td>38,400</td>
-<td>25,600</td>
-</tr>
-<tr class="even">
-<td>19</td>
-<td>204,800</td>
-<td>68,300</td>
-<td>51,200</td>
-<td>34,100</td>
-</tr>
-<tr class="odd">
-<td>20</td>
-<td>307,200</td>
-<td>102,000</td>
-<td>76,800</td>
-<td>51,200</td>
-</tr>
-<tr class="even">
-<td>21</td>
-<td>409,600</td>
-<td>137,000</td>
-<td>102,400</td>
-<td>68,300</td>
-</tr>
-<tr class="odd">
-<td>22</td>
-<td>614,400</td>
-<td>205,000</td>
-<td>153,600</td>
-<td>102,400</td>
-</tr>
-<tr class="even">
-<td>23</td>
-<td>819,200</td>
-<td>273,000</td>
-<td>204,800</td>
-<td>137,000</td>
-</tr>
-<tr class="odd">
-<td>24</td>
-<td>1,228,800</td>
-<td>410,000</td>
-<td>307,200</td>
-<td>204,800</td>
-</tr>
-<tr class="even">
-<td>25</td>
-<td>1,638,400</td>
-<td>546,000</td>
-<td>409,600</td>
-<td>273,000</td>
-</tr>
-</tbody>
+| 1/8 | 50 | 15 | 15 | 10 |
+| 1/6 | 65 | 20 | 15 | 10 |
+| 1/4 | 100 | 35 | 25 | 15 |
+| 1/3 | 135 | 45 | 35 | 25 |
+| 1/2 | 200 | 65 | 50 | 35 |
+| 1 | 400 | 135 | 100 | 65 |
+| 2 | 600 | 200 | 150 | 100 |
+| 3 | 800 | 265 | 200 | 135 |
+| 4 | 1,200 | 400 | 300 | 200 |
+| 5 | 1,600 | 535 | 400 | 265 |
+| 6 | 2,400 | 800 | 600 | 400 |
+| 7 | 3,200 | 1,070 | 800 | 535 |
+| 8 | 4,800 | 1,600 | 1,200 | 800 |
+| 9 | 6,400 | 2,130 | 1,600 | 1,070 |
+| 10 | 9,600 | 3,200 | 2,400 | 1,600 |
+| 11 | 12,800 | 4,270 | 3,200 | 2,130 |
+| 12 | 19,200 | 6,400 | 4,800 | 3,200 |
+| 13 | 25,600 | 8,530 | 6,400 | 4,270 |
+| 14 | 38,400 | 12,800 | 9,600 | 6,400 |
+| 15 | 51,200 | 17,100 | 12,800 | 8,530 |
+| 16 | 76,800 | 25,600 | 19,200 | 12,800 |
+| 17 | 102,400 | 34,100 | 25,600 | 17,100 |
+| 18 | 153,600 | 51,200 | 38,400 | 25,600 |
+| 19 | 204,800 | 68,300 | 51,200 | 34,100 |
+| 20 | 307,200 | 102,000 | 76,800 | 51,200 |
+| 21 | 409,600 | 137,000 | 102,400 | 68,300 |
+| 22 | 614,400 | 205,000 | 153,600 | 102,400 |
+| 23 | 819,200 | 273,000 | 204,800 | 137,000 |
+| 24 | 1,228,800 | 410,000 | 307,200 | 204,800 |
+| 25 | 1,638,400 | 546,000 | 409,600 | 273,000 |
 
 Step 2—Determine CR: Challenge Rating (or CR) is a convenient number used to indicate the relative danger presented by a monster, trap, hazard, or other encounter—the higher the CR, the more dangerous the encounter. Refer to Table: Encounter Design to determine the Challenge Rating your group should face, depending on the difficulty of the challenge you want and the group's APL.
 
@@ -323,84 +98,25 @@ Story Awards: Feel free to award Story Awards when players conclude a major stor
 [Table: Character Wealth by Level]
 | PC Level\* | Wealth |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>2</td>
-<td>1,000 gp</td>
-</tr>
-<tr class="even">
-<td>3</td>
-<td>3,000 gp</td>
-</tr>
-<tr class="odd">
-<td>4</td>
-<td>6,000 gp</td>
-</tr>
-<tr class="even">
-<td>5</td>
-<td>10,500 gp</td>
-</tr>
-<tr class="odd">
-<td>6</td>
-<td>16,000 gp</td>
-</tr>
-<tr class="even">
-<td>7</td>
-<td>23,500 gp</td>
-</tr>
-<tr class="odd">
-<td>8</td>
-<td>33,000 gp</td>
-</tr>
-<tr class="even">
-<td>9</td>
-<td>46,000 gp</td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>62,000 gp</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>82,000 gp</td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td>108,000 gp</td>
-</tr>
-<tr class="even">
-<td>13</td>
-<td>140,000 gp</td>
-</tr>
-<tr class="odd">
-<td>14</td>
-<td>185,000 gp</td>
-</tr>
-<tr class="even">
-<td>15</td>
-<td>240,000 gp</td>
-</tr>
-<tr class="odd">
-<td>16</td>
-<td>315,000 gp</td>
-</tr>
-<tr class="even">
-<td>17</td>
-<td>410,000 gp</td>
-</tr>
-<tr class="odd">
-<td>18</td>
-<td>530,000 gp</td>
-</tr>
-<tr class="even">
-<td>19</td>
-<td>685,000 gp</td>
-</tr>
-<tr class="odd">
-<td>20</td>
-<td>880,000 gp</td>
-</tr>
-</tbody>
+| 2 | 1,000 gp |
+| 3 | 3,000 gp |
+| 4 | 6,000 gp |
+| 5 | 10,500 gp |
+| 6 | 16,000 gp |
+| 7 | 23,500 gp |
+| 8 | 33,000 gp |
+| 9 | 46,000 gp |
+| 10 | 62,000 gp |
+| 11 | 82,000 gp |
+| 12 | 108,000 gp |
+| 13 | 140,000 gp |
+| 14 | 185,000 gp |
+| 15 | 240,000 gp |
+| 16 | 315,000 gp |
+| 17 | 410,000 gp |
+| 18 | 530,000 gp |
+| 19 | 685,000 gp |
+| 20 | 880,000 gp |
 
 As PCs gain levels, the amount of treasure they carry and use increases as well. The Pathfinder Roleplaying Game assumes that all PCs of equivalent level have roughly equal amounts of treasure and magic items. Since the primary income for a PC derives from treasure and loot gained from adventuring, it's important to moderate the wealth and hoards you place in your adventures. To aid in placing treasure, the amount of treasure and magic items the PCs receive for their adventures is tied to the Challenge Rating of the encounters they face—the higher an encounter's CR, the more treasure it can award.
 
@@ -417,128 +133,26 @@ Encounters against NPCs typically award three times the treasure a monster-based
 | --- | --- |
 | Slow | Medium | Fast |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>170 gp</td>
-<td>260 gp</td>
-<td>400 gp</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>350 gp</td>
-<td>550 gp</td>
-<td>800 gp</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>550 gp</td>
-<td>800 gp</td>
-<td>1,200 gp</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>750 gp</td>
-<td>1,150 gp</td>
-<td>1,700 gp</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>1,000 gp</td>
-<td>1,550 gp</td>
-<td>2,300 gp</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>1,350 gp</td>
-<td>2,000 gp</td>
-<td>3,000 gp</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>1,750 gp</td>
-<td>2,600 gp</td>
-<td>3,900 gp</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>2,200 gp</td>
-<td>3,350 gp</td>
-<td>5,000 gp</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>2,850 gp</td>
-<td>4,250 gp</td>
-<td>6,400 gp</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>3,650 gp</td>
-<td>5,450 gp</td>
-<td>8,200 gp</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>4,650 gp</td>
-<td>7,000 gp</td>
-<td>10,500 gp</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>6,000 gp</td>
-<td>9,000 gp</td>
-<td>13,500 gp</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>7,750 gp</td>
-<td>11,600 gp</td>
-<td>17,500 gp</td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>10,000 gp</td>
-<td>15,000 gp</td>
-<td>22,000 gp</td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>13,000 gp</td>
-<td>19,500 gp</td>
-<td>29,000 gp</td>
-</tr>
-<tr class="even">
-<td>16</td>
-<td>16,500 gp</td>
-<td>25,000 gp</td>
-<td>38,000 gp</td>
-</tr>
-<tr class="odd">
-<td>17</td>
-<td>22,000 gp</td>
-<td>32,000 gp</td>
-<td>48,000 gp</td>
-</tr>
-<tr class="even">
-<td>18</td>
-<td>28,000 gp</td>
-<td>41,000 gp</td>
-<td>62,000 gp</td>
-</tr>
-<tr class="odd">
-<td>19</td>
-<td>35,000 gp</td>
-<td>53,000 gp</td>
-<td>79,000 gp</td>
-</tr>
-<tr class="even">
-<td>20</td>
-<td>44,000 gp</td>
-<td>67,000 gp</td>
-<td>100,000 gp</td>
-</tr>
-</tbody>
+| 1 | 170 gp | 260 gp | 400 gp |
+| 2 | 350 gp | 550 gp | 800 gp |
+| 3 | 550 gp | 800 gp | 1,200 gp |
+| 4 | 750 gp | 1,150 gp | 1,700 gp |
+| 5 | 1,000 gp | 1,550 gp | 2,300 gp |
+| 6 | 1,350 gp | 2,000 gp | 3,000 gp |
+| 7 | 1,750 gp | 2,600 gp | 3,900 gp |
+| 8 | 2,200 gp | 3,350 gp | 5,000 gp |
+| 9 | 2,850 gp | 4,250 gp | 6,400 gp |
+| 10 | 3,650 gp | 5,450 gp | 8,200 gp |
+| 11 | 4,650 gp | 7,000 gp | 10,500 gp |
+| 12 | 6,000 gp | 9,000 gp | 13,500 gp |
+| 13 | 7,750 gp | 11,600 gp | 17,500 gp |
+| 14 | 10,000 gp | 15,000 gp | 22,000 gp |
+| 15 | 13,000 gp | 19,500 gp | 29,000 gp |
+| 16 | 16,500 gp | 25,000 gp | 38,000 gp |
+| 17 | 22,000 gp | 32,000 gp | 48,000 gp |
+| 18 | 28,000 gp | 41,000 gp | 62,000 gp |
+| 19 | 35,000 gp | 53,000 gp | 79,000 gp |
+| 20 | 44,000 gp | 67,000 gp | 100,000 gp |
 
 ## Building a Treasure Hoard
 

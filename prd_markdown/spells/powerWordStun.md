@@ -18,17 +18,7 @@ You utter a single word of power that instantly causes one creature of your choi
 
 | Hit Points | Duration |
 | --- | --- |
-<tbody>
-<tr class="odd">
-<td>50 or less</td>
-<td>4d4 rounds</td>
-</tr>
-<tr class="even">
-<td>51–100</td>
-<td>2d4 rounds</td>
-</tr>
-<tr class="odd">
-<td>101–150</td>
-<td>1d4 rounds</td>
-</tr>
-</tbody>
+| 50 or less | 4d4 rounds |
+| 51–100 | 2d4 rounds |
+| 101–150 | 1d4 rounds |
+

@@ -21,152 +21,22 @@ Once the character's basic concept has been determined, its ability scores must 
 | --- | --- | --- | --- | --- | --- |
 | Basic | Heroic | Basic | Heroic | Basic | Heroic | Basic | Heroic | Basic | Heroic |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Strength</td>
-<td>13</td>
-<td>15</td>
-<td>11</td>
-<td>13</td>
-<td>10</td>
-<td>12</td>
-<td>8</td>
-<td>8</td>
-<td>10</td>
-<td>12</td>
-</tr>
-<tr class="even">
-<td>Dexterity</td>
-<td>11</td>
-<td>13</td>
-<td>13</td>
-<td>15</td>
-<td>8</td>
-<td>8</td>
-<td>12</td>
-<td>14</td>
-<td>12</td>
-<td>14</td>
-</tr>
-<tr class="odd">
-<td>Constitution</td>
-<td>12</td>
-<td>14</td>
-<td>12</td>
-<td>14</td>
-<td>12</td>
-<td>14</td>
-<td>10</td>
-<td>12</td>
-<td>11</td>
-<td>13</td>
-</tr>
-<tr class="even">
-<td>Intelligence</td>
-<td>9</td>
-<td>10</td>
-<td>10</td>
-<td>12</td>
-<td>9</td>
-<td>10</td>
-<td>13*</td>
-<td>15*</td>
-<td>13</td>
-<td>15</td>
-</tr>
-<tr class="odd">
-<td>Wisdom</td>
-<td>10</td>
-<td>12</td>
-<td>9</td>
-<td>10</td>
-<td>13</td>
-<td>15</td>
-<td>9</td>
-<td>10</td>
-<td>8</td>
-<td>8</td>
-</tr>
-<tr class="even">
-<td>Charisma</td>
-<td>8</td>
-<td>8</td>
-<td>8</td>
-<td>8</td>
-<td>11</td>
-<td>13</td>
-<td>11*</td>
-<td>13*</td>
-<td>9</td>
-<td>10</td>
-</tr>
-</tbody>
+| Strength | 13 | 15 | 11 | 13 | 10 | 12 | 8 | 8 | 10 | 12 |
+| Dexterity | 11 | 13 | 13 | 15 | 8 | 8 | 12 | 14 | 12 | 14 |
+| Constitution | 12 | 14 | 12 | 14 | 12 | 14 | 10 | 12 | 11 | 13 |
+| Intelligence | 9 | 10 | 10 | 12 | 9 | 10 | 13\* | 15\* | 13 | 15 |
+| Wisdom | 10 | 12 | 9 | 10 | 13 | 15 | 9 | 10 | 8 | 8 |
+| Charisma | 8 | 8 | 8 | 8 | 11 | 13 | 11\* | 13\* | 9 | 10 |
 
 [Table: Racial Ability Adjustments]
 | Ability Score | Dwarf | Elf | Gnome | Half-Elf\* | Half-Orc\* | Halfling | Human\* |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Strength</td>
-<td>—</td>
-<td>—</td>
-<td>–2</td>
-<td>—</td>
-<td>—</td>
-<td>–2</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Dexterity</td>
-<td>—</td>
-<td>+2</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>+2</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Constitution</td>
-<td>+2</td>
-<td>–2</td>
-<td>+2</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Intelligence</td>
-<td>—</td>
-<td>+2</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="odd">
-<td>Wisdom</td>
-<td>+2</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="even">
-<td>Charisma</td>
-<td>–2</td>
-<td>—</td>
-<td>+2</td>
-<td>—</td>
-<td>—</td>
-<td>+2</td>
-<td>—</td>
-</tr>
-</tbody>
+| Strength | — | — | –2 | — | — | –2 | — |
+| Dexterity | — | +2 | — | — | — | +2 | — |
+| Constitution | +2 | –2 | +2 | — | — | — | — |
+| Intelligence | — | +2 | — | — | — | — | — |
+| Wisdom | +2 | — | — | — | — | — | — |
+| Charisma | –2 | — | +2 | — | — | +2 | — |
 
 ## Step 3: Skills
 
@@ -236,218 +106,27 @@ Note that these values are approximate and based on the values for a campaign us
 [Table: NPC Gear]
 | Basic Level | Heroic Level | Total gp Value | Weapons | Protection | Magic | Limited Use | Gear |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>—</td>
-<td>260 gp</td>
-<td>50 gp</td>
-<td>130 gp</td>
-<td>—</td>
-<td>40 gp</td>
-<td>40 gp</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>1</td>
-<td>390 gp</td>
-<td>100 gp</td>
-<td>150 gp</td>
-<td>—</td>
-<td>40 gp</td>
-<td>100 gp</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>2</td>
-<td>780 gp</td>
-<td>350 gp</td>
-<td>200 gp</td>
-<td>—</td>
-<td>80 gp</td>
-<td>150 gp</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>3</td>
-<td>1,650 gp</td>
-<td>650 gp</td>
-<td>800 gp</td>
-<td>—</td>
-<td>100 gp</td>
-<td>200 gp</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>4</td>
-<td>2,400 gp</td>
-<td>900 gp</td>
-<td>1,000 gp</td>
-<td>—</td>
-<td>300 gp</td>
-<td>200 gp</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>5</td>
-<td>3,450 gp</td>
-<td>1,400 gp</td>
-<td>1,400 gp</td>
-<td>—</td>
-<td>450 gp</td>
-<td>200 gp</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>6</td>
-<td>4,650 gp</td>
-<td>2,350 gp</td>
-<td>1,650 gp</td>
-<td>—</td>
-<td>450 gp</td>
-<td>200 gp</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>7</td>
-<td>6,000 gp</td>
-<td>2,700 gp</td>
-<td>2,000 gp</td>
-<td>500 gp</td>
-<td>600 gp</td>
-<td>200 gp</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>8</td>
-<td>7,800 gp</td>
-<td>3,000 gp</td>
-<td>2,500 gp</td>
-<td>1,000 gp</td>
-<td>800 gp</td>
-<td>500 gp</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>9</td>
-<td>10,050 gp</td>
-<td>3,500 gp</td>
-<td>3,000 gp</td>
-<td>2,000 gp</td>
-<td>1,050 gp</td>
-<td>500 gp</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>10</td>
-<td>12,750 gp</td>
-<td>4,000 gp</td>
-<td>4,000 gp</td>
-<td>3,000 gp</td>
-<td>1,250 gp</td>
-<td>500 gp</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>11</td>
-<td>16,350 gp</td>
-<td>6,000 gp</td>
-<td>4,500 gp</td>
-<td>4,000 gp</td>
-<td>1,350 gp</td>
-<td>500 gp</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>12</td>
-<td>21,000 gp</td>
-<td>8,500 gp</td>
-<td>5,500 gp</td>
-<td>5,000 gp</td>
-<td>1,500 gp</td>
-<td>500 gp</td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>13</td>
-<td>27,000 gp</td>
-<td>9,000 gp</td>
-<td>8,000 gp</td>
-<td>7,000 gp</td>
-<td>2,500 gp</td>
-<td>500 gp</td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>14</td>
-<td>34,800 gp</td>
-<td>12,000 gp</td>
-<td>10,500 gp</td>
-<td>9,000 gp</td>
-<td>2,800 gp</td>
-<td>500 gp</td>
-</tr>
-<tr class="even">
-<td>16</td>
-<td>15</td>
-<td>45,000 gp</td>
-<td>17,000 gp</td>
-<td>13,500 gp</td>
-<td>11,000 gp</td>
-<td>3,000 gp</td>
-<td>500 gp</td>
-</tr>
-<tr class="odd">
-<td>17</td>
-<td>16</td>
-<td>58,500 gp</td>
-<td>19,000 gp</td>
-<td>18,000 gp</td>
-<td>16,000 gp</td>
-<td>4,000 gp</td>
-<td>1,500 gp</td>
-</tr>
-<tr class="even">
-<td>18</td>
-<td>17</td>
-<td>75,000 gp</td>
-<td>24,000 gp</td>
-<td>23,000 gp</td>
-<td>20,000 gp</td>
-<td>6,500 gp</td>
-<td>1,500 gp</td>
-</tr>
-<tr class="odd">
-<td>19</td>
-<td>18</td>
-<td>96,000 gp</td>
-<td>30,000 gp</td>
-<td>28,000 gp</td>
-<td>28,000 gp</td>
-<td>8,000 gp</td>
-<td>2,000 gp</td>
-</tr>
-<tr class="even">
-<td>20</td>
-<td>19</td>
-<td>123,000 gp</td>
-<td>40,000 gp</td>
-<td>35,000 gp</td>
-<td>35,000 gp</td>
-<td>11,000 gp</td>
-<td>2,000 gp</td>
-</tr>
-<tr class="odd">
-<td>—</td>
-<td>20</td>
-<td>159,000 gp</td>
-<td>55,000 gp</td>
-<td>40,000 gp</td>
-<td>44,000 gp</td>
-<td>18,000 gp</td>
-<td>2,000 gp</td>
-</tr>
-</tbody>
+| 1 | — | 260 gp | 50 gp | 130 gp | — | 40 gp | 40 gp |
+| 2 | 1 | 390 gp | 100 gp | 150 gp | — | 40 gp | 100 gp |
+| 3 | 2 | 780 gp | 350 gp | 200 gp | — | 80 gp | 150 gp |
+| 4 | 3 | 1,650 gp | 650 gp | 800 gp | — | 100 gp | 200 gp |
+| 5 | 4 | 2,400 gp | 900 gp | 1,000 gp | — | 300 gp | 200 gp |
+| 6 | 5 | 3,450 gp | 1,400 gp | 1,400 gp | — | 450 gp | 200 gp |
+| 7 | 6 | 4,650 gp | 2,350 gp | 1,650 gp | — | 450 gp | 200 gp |
+| 8 | 7 | 6,000 gp | 2,700 gp | 2,000 gp | 500 gp | 600 gp | 200 gp |
+| 9 | 8 | 7,800 gp | 3,000 gp | 2,500 gp | 1,000 gp | 800 gp | 500 gp |
+| 10 | 9 | 10,050 gp | 3,500 gp | 3,000 gp | 2,000 gp | 1,050 gp | 500 gp |
+| 11 | 10 | 12,750 gp | 4,000 gp | 4,000 gp | 3,000 gp | 1,250 gp | 500 gp |
+| 12 | 11 | 16,350 gp | 6,000 gp | 4,500 gp | 4,000 gp | 1,350 gp | 500 gp |
+| 13 | 12 | 21,000 gp | 8,500 gp | 5,500 gp | 5,000 gp | 1,500 gp | 500 gp |
+| 14 | 13 | 27,000 gp | 9,000 gp | 8,000 gp | 7,000 gp | 2,500 gp | 500 gp |
+| 15 | 14 | 34,800 gp | 12,000 gp | 10,500 gp | 9,000 gp | 2,800 gp | 500 gp |
+| 16 | 15 | 45,000 gp | 17,000 gp | 13,500 gp | 11,000 gp | 3,000 gp | 500 gp |
+| 17 | 16 | 58,500 gp | 19,000 gp | 18,000 gp | 16,000 gp | 4,000 gp | 1,500 gp |
+| 18 | 17 | 75,000 gp | 24,000 gp | 23,000 gp | 20,000 gp | 6,500 gp | 1,500 gp |
+| 19 | 18 | 96,000 gp | 30,000 gp | 28,000 gp | 28,000 gp | 8,000 gp | 2,000 gp |
+| 20 | 19 | 123,000 gp | 40,000 gp | 35,000 gp | 35,000 gp | 11,000 gp | 2,000 gp |
+| — | 20 | 159,000 gp | 55,000 gp | 40,000 gp | 44,000 gp | 18,000 gp | 2,000 gp |
 
 **Weapons** : This includes normal, masterwork, and magic weapons, as well as magic staves and wands used by spellcasters to harm their enemies. For example, a _wand of scorching ray_ would count as a weapon, but a _staff of life_ would count as a piece of magic gear.
 

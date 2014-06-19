@@ -95,51 +95,13 @@ A mythic vampire has ties to the earliest of its kind, being either one of the f
 [Mythic Vampire Abilities]
 | Base Vampire's CR | Mythic Rank | Mythic Abilities |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>4–5</td>
-<td>2nd</td>
-<td>Negative energy focus, overcome weakness (sunlight), scabrous claws</td>
-</tr>
-<tr class="even">
-<td>6–7</td>
-<td>3rd</td>
-<td>Channel resistance +8</td>
-</tr>
-<tr class="odd">
-<td>8–9</td>
-<td>4th</td>
-<td>Children of the eclipse (ghouls or shadows), overcome weakness (garlic)</td>
-</tr>
-<tr class="even">
-<td>10–11</td>
-<td>5th</td>
-<td>Mist shapes</td>
-</tr>
-<tr class="odd">
-<td>12–13</td>
-<td>6th</td>
-<td>Channel resistance +12, mastermind, overcome weakness (mirrors and holy	symbols), telekinesis</td>
-</tr>
-<tr class="even">
-<td>14–15</td>
-<td>7th</td>
-<td>Children of the eclipse (wraiths or mohrgs), flight</td>
-</tr>
-<tr class="odd">
-<td>16–17</td>
-<td>8th</td>
-<td>Create mythic spawn, overcome weakness (invitation)</td>
-</tr>
-<tr class="even">
-<td>18–19</td>
-<td>9th</td>
-<td>Blood omen, channel resistance +16</td>
-</tr>
-<tr class="odd">
-<td>20+</td>
-<td>10th</td>
-<td>Eclipse, overcome weakness (running water)</td>
-</tr>
-</tbody>
+| 4–5 | 2nd | Negative energy focus, overcome weakness (sunlight), scabrous claws |
+| 6–7 | 3rd | Channel resistance +8 |
+| 8–9 | 4th | Children of the eclipse (ghouls or shadows), overcome weakness (garlic) |
+| 10–11 | 5th | Mist shapes |
+| 12–13 | 6th | Channel resistance +12, mastermind, overcome weakness (mirrors and holysymbols), telekinesis |
+| 14–15 | 7th | Children of the eclipse (wraiths or mohrgs), flight |
+| 16–17 | 8th | Create mythic spawn, overcome weakness (invitation) |
+| 18–19 | 9th | Blood omen, channel resistance +16 |
+| 20+ | 10th | Eclipse, overcome weakness (running water) |
 

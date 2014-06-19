@@ -51,108 +51,26 @@ At first sight, the artifact appears to be nothing more than a piece of bone wor
 [Table: Knucklebone of Fickle Fortune]
 | d20 | Rune Name | Effect |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Eya-Doh</td>
-<td>The character gains 1 permanent negative level.</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Bvu</td>
-<td>The character is subject to a powerful compulsion never to roll the <i><a href="#knucklebone-of-fickle-fortune">knucklebone of fickle fortune</a></i> again. He can shake this compulsion only by succeeding a DC 25 Will saving throw. He can only attempt this saving throw once a day.</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Eij</td>
-<td>The character is affected by a <i><a href="../../spells/harm.html#_harm">harm</a></i> spell (caster level 15th).</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Hor</td>
-<td>The character is subject to a powerful compulsion to roll the <i>knucklebone</i> three more times immediately (Will DC 25 negates). All three of these rolls are made with a –5 penalty on the <i>knucklebone's</i> die roll (minimum 1).</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Veh</td>
-<td>The character is blinded as with <i><a href="../../spells/blindnessDeafness.html#_blindness-deafness">blindness/deafness</a></i> (no saving throw).</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Chu</td>
-<td>The character takes 5d10 points of cold damage (DC 25 Fort save for half) and moves at half speed for the next hour (a successful saving throw does not negate the reduced speed).</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Roh</td>
-<td>For the next 24 hours, the character suffers a –2 penalty on all skill and ability checks.</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Seh</td>
-<td>The character is paralyzed for 2d12 hours, as with <i><a href="../../spells/holdMonster.html#_hold-monster">hold monster</a></i>, except he cannot attempt new saving throws to overcome the effect.</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Kog</td>
-<td>For the next week, the character emits a horrible smell. He suffers a –4 penalty on <a href="../../skills/diplomacy.html#_diplomacy">Diplomacy</a> and <a href="../../skills/stealth.html#_stealth">Stealth</a> checks.</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>Vis</td>
-<td>Once, during the next 24 hours, the character can reroll a single die roll he has just made and take the second result, as if using the good fortune ability from the Luck domain.</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>Fyeh</td>
-<td>The character gains 100 points of fire immunity, as if using <i><a href="../../spells/protectionFromEnergy.html#_protection-from-energy">protection from energy</a></i>.</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>Xal</td>
-<td>The character gains the benefits of a <i><a href="../../spells/heroism.html#_heroism">heroism</a></i> spell for the next 200 minutes.</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>Yaq</td>
-<td>For the next 24 hours, when the character hits a target he is flanking with a melee weapon, the attack does +1d6 points of precision damage.</td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>Gib</td>
-<td>Once in the next 24 hours, the character can cast <i><a href="../../spells/faerieFire.html#_faerie-fire">faerie fire</a></i> (caster level equal to his character level). This ability is lost if the character rolls this result again with the <i><a href="#knucklebone-of-fickle-fortune">knucklebone of fickle fortune</a></i> before the 24 hours is concluded.</td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>Xku</td>
-<td>The character is immune to fear for the next 24 hours.</td>
-</tr>
-<tr class="even">
-<td>16</td>
-<td>Lev</td>
-<td>Once in the next 24 hours, the character can cast a <i><a href="../../spells/lightningBolt.html#_lightning-bolt">lightning bolt</a></i> (caster level equal to his character level). This ability is lost if the character rolls this result again with the <i><a href="#knucklebone-of-fickle-fortune">knucklebone of fickle fortune</a></i> before the 24 hours is concluded.</td>
-</tr>
-<tr class="odd">
-<td>17</td>
-<td>Nhi</td>
-<td>For the next 7 days, when the character is the target of healing magic, he heals an additional 2d8 hit points. This effect is lost if the character rolls the <i><a href="#knucklebone-of-fickle-fortune">knucklebone of fickle fortune</a></i> again before the 7 days are concluded.</td>
-</tr>
-<tr class="even">
-<td>18</td>
-<td>Zmi</td>
-<td>For the next 24 hours, whenever the character succeeds on a saving throw against a harmful effect that does half damage or partial effect on a failed save, the <i>knucklebone's</i> character takes no damage or suffers no effect.</td>
-</tr>
-<tr class="odd">
-<td>19</td>
-<td>Tem</td>
-<td>For the next 24 hours, the character automatically confirms all critical hits.</td>
-</tr>
-<tr class="even">
-<td>20</td>
-<td>Eha-Zah</td>
-<td>The next time the character dies, he comes back from the dead the very next morning as if the subject of a <i><a href="../../spells/resurrection.html#_resurrection">resurrection</a></i> spell. This effect is negated if the character rolls the <i><a href="#knucklebone-of-fickle-fortune">knucklebone of fickle fortune</a></i> again before he dies.</td>
-</tr>
-</tbody>
+| 1 | Eya-Doh | The character gains 1 permanent negative level. |
+| 2 | Bvu | The character is subject to a powerful compulsion never to roll the _knucklebone of fickle fortune_ again. He can shake this compulsion only by succeeding a DC 25 Will saving throw. He can only attempt this saving throw once a day. |
+| 3 | Eij | The character is affected by a _ [harm](../../spells/harm.html#_harm)_ spell (caster level 15th). |
+| 4 | Hor | The character is subject to a powerful compulsion to roll the _knucklebone_ three more times immediately (Will DC 25 negates). All three of these rolls are made with a –5 penalty on the _knucklebone's_ die roll (minimum 1). |
+| 5 | Veh | The character is blinded as with _ [blindness/deafness](../../spells/blindnessDeafness.html#_blindness-deafness)_ (no saving throw). |
+| 6 | Chu | The character takes 5d10 points of cold damage (DC 25 Fort save for half) and moves at half speed for the next hour (a successful saving throw does not negate the reduced speed). |
+| 7 | Roh | For the next 24 hours, the character suffers a –2 penalty on all skill and ability checks. |
+| 8 | Seh | The character is paralyzed for 2d12 hours, as with _ [hold monster](../../spells/holdMonster.html#_hold-monster)_, except he cannot attempt new saving throws to overcome the effect. |
+| 9 | Kog | For the next week, the character emits a horrible smell. He suffers a –4 penalty on [Diplomacy](../../skills/diplomacy.html#_diplomacy) and [Stealth](../../skills/stealth.html#_stealth) checks. |
+| 10 | Vis | Once, during the next 24 hours, the character can reroll a single die roll he has just made and take the second result, as if using the good fortune ability from the Luck domain. |
+| 11 | Fyeh | The character gains 100 points of fire immunity, as if using _ [protection from energy](../../spells/protectionFromEnergy.html#_protection-from-energy)_. |
+| 12 | Xal | The character gains the benefits of a _ [heroism](../../spells/heroism.html#_heroism)_ spell for the next 200 minutes. |
+| 13 | Yaq | For the next 24 hours, when the character hits a target he is flanking with a melee weapon, the attack does +1d6 points of precision damage. |
+| 14 | Gib | Once in the next 24 hours, the character can cast _ [faerie fire](../../spells/faerieFire.html#_faerie-fire)_ (caster level equal to his character level). This ability is lost if the character rolls this result again with the _knucklebone of fickle fortune_ before the 24 hours is concluded. |
+| 15 | Xku | The character is immune to fear for the next 24 hours. |
+| 16 | Lev | Once in the next 24 hours, the character can cast a _ [lightning bolt](../../spells/lightningBolt.html#_lightning-bolt)_ (caster level equal to his character level). This ability is lost if the character rolls this result again with the _knucklebone of fickle fortune_ before the 24 hours is concluded. |
+| 17 | Nhi | For the next 7 days, when the character is the target of healing magic, he heals an additional 2d8 hit points. This effect is lost if the character rolls the _knucklebone of fickle fortune_ again before the 7 days are concluded. |
+| 18 | Zmi | For the next 24 hours, whenever the character succeeds on a saving throw against a harmful effect that does half damage or partial effect on a failed save, the _knucklebone's_ character takes no damage or suffers no effect. |
+| 19 | Tem | For the next 24 hours, the character automatically confirms all critical hits. |
+| 20 | Eha-Zah | The next time the character dies, he comes back from the dead the very next morning as if the subject of a _ [resurrection](../../spells/resurrection.html#_resurrection)_ spell. This effect is negated if the character rolls the _knucklebone of fickle fortune_ again before he dies. |
 
 **Destruction**
 

@@ -118,63 +118,17 @@ This cost is the same for a Small or Medium version of the weapon. A Large versi
 [Table: Tiny and Large Weapon Damage]
 | Medium Weapon Damage | Tiny Weapon Damage | Large Weapon Damage |
 | --- | --- | --- |
-<tbody>
-<tr class="even">
-<td>1d2</td>
-<td>—</td>
-<td>1d3</td>
-</tr>
-<tr class="odd">
-<td>1d3</td>
-<td>1</td>
-<td>1d4</td>
-</tr>
-<tr class="even">
-<td>1d4</td>
-<td>1d2</td>
-<td>1d6</td>
-</tr>
-<tr class="odd">
-<td>1d6</td>
-<td>1d3</td>
-<td>1d8</td>
-</tr>
-<tr class="even">
-<td>1d8</td>
-<td>1d4</td>
-<td>2d6</td>
-</tr>
-<tr class="odd">
-<td>1d10</td>
-<td>1d6</td>
-<td>2d8</td>
-</tr>
-<tr class="even">
-<td>1d12</td>
-<td>1d8</td>
-<td>3d6</td>
-</tr>
-<tr class="odd">
-<td>2d4</td>
-<td>1d4</td>
-<td>2d6</td>
-</tr>
-<tr class="even">
-<td>2d6</td>
-<td>1d8</td>
-<td>3d6</td>
-</tr>
-<tr class="odd">
-<td>2d8</td>
-<td>1d10</td>
-<td>3d8</td>
-</tr>
-<tr class="even">
-<td>2d10</td>
-<td>2d6</td>
-<td>4d8</td>
-</tr>
-</tbody>
+| 1d2 | — | 1d3 |
+| 1d3 | 1 | 1d4 |
+| 1d4 | 1d2 | 1d6 |
+| 1d6 | 1d3 | 1d8 |
+| 1d8 | 1d4 | 2d6 |
+| 1d10 | 1d6 | 2d8 |
+| 1d12 | 1d8 | 3d6 |
+| 2d4 | 1d4 | 2d6 |
+| 2d6 | 1d8 | 3d6 |
+| 2d8 | 1d10 | 3d8 |
+| 2d10 | 2d6 | 4d8 |
 
 **Dmg** : These columns give the damage dealt by the weapon on a successful hit. The column labeled âDmg (S)â is for Small weapons. The column labeled âDmg (M)â is for Medium weapons. If two damage ranges are given, then the weapon is a double weapon. Use the second damage figure given for the double weapon's extra attack. Table: Tiny and Large Weapon Damage gives weapon damage values for Tiny and Large weapons.
 
@@ -648,57 +602,13 @@ You can't add the masterwork quality to armor or a shield after it is created; i
 | --- | --- | --- |
 | Cost | Weight | Cost | Weight |
 | --- | --- | --- | --- |
-<tbody>
-<tr class="even">
-<td>Tiny or smaller*</td>
-<td>×1/2</td>
-<td>×1/10</td>
-<td>×1</td>
-<td>×1/10</td>
-</tr>
-<tr class="odd">
-<td>Small</td>
-<td>×1</td>
-<td>×1/2</td>
-<td>×2</td>
-<td>×1/2</td>
-</tr>
-<tr class="even">
-<td>Medium</td>
-<td>×1</td>
-<td>×1</td>
-<td>×2</td>
-<td>×1</td>
-</tr>
-<tr class="odd">
-<td>Large</td>
-<td>×2</td>
-<td>×2</td>
-<td>×4</td>
-<td>×2</td>
-</tr>
-<tr class="even">
-<td>Huge</td>
-<td>×4</td>
-<td>×5</td>
-<td>×8</td>
-<td>×5</td>
-</tr>
-<tr class="odd">
-<td>Gargantuan</td>
-<td>×8</td>
-<td>×8</td>
-<td>×16</td>
-<td>×8</td>
-</tr>
-<tr class="even">
-<td>Colossal</td>
-<td>×16</td>
-<td>×12</td>
-<td>×32</td>
-<td>×12</td>
-</tr>
-</tbody>
+| Tiny or smaller\* | ×1/2 | ×1/10 | ×1 | ×1/10 |
+| Small | ×1 | ×1/2 | ×2 | ×1/2 |
+| Medium | ×1 | ×1 | ×2 | ×1 |
+| Large | ×2 | ×2 | ×4 | ×2 |
+| Huge | ×4 | ×5 | ×8 | ×5 |
+| Gargantuan | ×8 | ×8 | ×16 | ×8 |
+| Colossal | ×16 | ×12 | ×32 | ×12 |
 
 Armor and shields for unusually big creatures, unusually little creatures, and nonhumanoid creatures (such as horses) have different costs and weights from those given on Table: Armor and Shields. Refer to the appropriate line on Table: Armor for Unusual Creatures and apply the multipliers to cost and weight for the armor type in question.
 
@@ -949,9 +859,9 @@ Alchemical silver has 10 hit points per inch of thickness and hardness 8.
 | Feed (per day) | 5 cp | 10 lbs. |
 | Horse |
 | Horse, heavy | 200 gp | — |
-| <nobr>Horse, heavy</nobr> <nobr>(combat trained)</nobr> | 300 gp | — |
+| Horse, heavy (combat trained) | 300 gp | — |
 | Horse, light | 75 gp | — |
-| <nobr>Horse, light</nobr><nobr>(combat trained)</nobr> | 110 gp | — |
+| Horse, light(combat trained) | 110 gp | — |
 | Pony | 30 gp | — |
 | Pony (combat trained) | 45 gp | — |
 | Saddle |
@@ -1181,20 +1091,8 @@ Removing and fitting barding takes five times as long as the figures given on Ta
 | --- | --- |
 | (40 ft) | (50 ft.) | (60 ft.) |
 | --- | --- | --- |
-<tbody>
-<tr class="odd">
-<td>Medium</td>
-<td>30 ft.</td>
-<td>35 ft.</td>
-<td>40 ft.</td>
-</tr>
-<tr class="even">
-<td>Heavy</td>
-<td>30 ft.*</td>
-<td>35 ft.*</td>
-<td>40 ft.*</td>
-</tr>
-</tbody>
+| Medium | 30 ft. | 35 ft. | 40 ft. |
+| Heavy | 30 ft.\* | 35 ft.\* | 40 ft.\* |
 
 **Dog, Riding** : This Medium dog is specially trained to carry a Small humanoid rider. It is brave in combat like a combat-trained horse. Due to its smaller stature, you take no damage when you fall from a riding dog.
 
