@@ -4,24 +4,24 @@ Skills represent some of the most basic and yet most fundamental abilities your 
 
 # Acquiring Skills
 
-Each level, your character gains a number of skill ranks dependent upon your class plus your [Intelligence](gettingStarted.html#_intelligence) modifier. Investing a rank in a skill represents a measure of training in that skill. You can never have more ranks in a skill than your total number of Hit Dice. In addition, each class has a number of favored skills, called class skills. It is easier for your character to become more proficient in these skills, as they represent part of his professional training and constant practice. You gain a +3 bonus on all class skills that you put ranks into. If you have more than one class and both grant you a class skill bonus, these bonuses do not stack.
+Each level, your character gains a number of skill ranks dependent upon your class plus your [Intelligence](gettingStarted.md#_intelligence) modifier. Investing a rank in a skill represents a measure of training in that skill. You can never have more ranks in a skill than your total number of Hit Dice. In addition, each class has a number of favored skills, called class skills. It is easier for your character to become more proficient in these skills, as they represent part of his professional training and constant practice. You gain a +3 bonus on all class skills that you put ranks into. If you have more than one class and both grant you a class skill bonus, these bonuses do not stack.
 
 [Table: Skill Ranks]
 | Class | Skill Ranks per Level |
 | --- | --- |
-| Barbarian | 4 + [Int](gettingStarted.html#_intelligence) modifier |
-| Bard | 6 + [Int](gettingStarted.html#_intelligence) modifier |
-| Cleric | 2 + [Int](gettingStarted.html#_intelligence) modifier |
-| Druid | 4 + [Int](gettingStarted.html#_intelligence) modifier |
-| Fighter | 2 + [Int](gettingStarted.html#_intelligence) modifier |
-| Monk | 4 + [Int](gettingStarted.html#_intelligence) modifier |
-| Paladin | 2 + [Int](gettingStarted.html#_intelligence) modifier |
-| Ranger | 6 + [Int](gettingStarted.html#_intelligence) modifier |
-| Rogue | 8 + [Int](gettingStarted.html#_intelligence) modifier |
-| Sorcerer | 2 + [Int](gettingStarted.html#_intelligence) modifier |
-| Wizard | 2 + [Int](gettingStarted.html#_intelligence) modifier |
+| Barbarian | 4 + [Int](gettingStarted.md#_intelligence) modifier |
+| Bard | 6 + [Int](gettingStarted.md#_intelligence) modifier |
+| Cleric | 2 + [Int](gettingStarted.md#_intelligence) modifier |
+| Druid | 4 + [Int](gettingStarted.md#_intelligence) modifier |
+| Fighter | 2 + [Int](gettingStarted.md#_intelligence) modifier |
+| Monk | 4 + [Int](gettingStarted.md#_intelligence) modifier |
+| Paladin | 2 + [Int](gettingStarted.md#_intelligence) modifier |
+| Ranger | 6 + [Int](gettingStarted.md#_intelligence) modifier |
+| Rogue | 8 + [Int](gettingStarted.md#_intelligence) modifier |
+| Sorcerer | 2 + [Int](gettingStarted.md#_intelligence) modifier |
+| Wizard | 2 + [Int](gettingStarted.md#_intelligence) modifier |
 
-The number of skill ranks you gain when taking a level in one of the base classes is shown on Table: Skill Ranks. Humans gain 1 additional skill rank per class level. Characters who take a level in a [favored class](classes.html#_favored-class) have the option of gaining 1 additional skill rank or an additional hit point . If you select a level in a new class, all of its class skills are automatically added to your list of class skills, and you gain a +3 bonus on these skills if you have ranks in them.
+The number of skill ranks you gain when taking a level in one of the base classes is shown on Table: Skill Ranks. Humans gain 1 additional skill rank per class level. Characters who take a level in a [favored class](classes.md#_favored-class) have the option of gaining 1 additional skill rank or an additional hit point . If you select a level in a new class, all of its class skills are automatically added to your list of class skills, and you gain a +3 bonus on these skills if you have ranks in them.
 
 ## Skill Checks
 
@@ -48,7 +48,7 @@ A skill check represents an attempt to accomplish some goal, usually while under
 
 Taking 20 means you are trying until you get it right, and it assumes that you fail many times before succeeding. Taking 20 takes 20 times as long as making a single check would take (usually 2 minutes for a skill that takes 1 round or less to perform).
 
-Since taking 20 assumes that your character will fail many times before succeeding, your character would automatically incur any penalties for failure before he or she could complete the task (hence why it is generally not allowed with skills that carry such penalties). Common âtake 20â skills include Disable Device (when used to open locks), Escape Artist, and Perception (when attempting to find traps).
+Since taking 20 assumes that your character will fail many times before succeeding, your character would automatically incur any penalties for failure before he or she could complete the task (hence why it is generally not allowed with skills that carry such penalties). Common “take 20” skills include Disable Device (when used to open locks), Escape Artist, and Perception (when attempting to find traps).
 
 **Ability Checks and Caster Level Checks** : The normal take 10 and take 20 rules apply for ability checks. Neither rule applies to concentration checks or caster level checks.
 

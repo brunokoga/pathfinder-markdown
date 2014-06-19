@@ -8,9 +8,9 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 Kobold warrior 1
 
-LE Small [humanoid](creatureTypes.html#_humanoid) ( [reptilian](creatureTypes.html#_reptilian-subtype))
+LE Small [humanoid](creatureTypes.md#_humanoid) ( [reptilian](creatureTypes.md#_reptilian-subtype))
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +5
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +5
 
 **Defense**
 
@@ -20,7 +20,7 @@ LE Small [humanoid](creatureTypes.html#_humanoid) ( [reptilian](creatureTypes.ht
 
 **Fort** +2, **Ref** +1, **Will** –1
 
-**Weaknesses** [light sensitivity](universalMonsterRules.html#_light-sensitivity)
+**Weaknesses** [light sensitivity](universalMonsterRules.md#_light-sensitivity)
 
 **Offense**
 
@@ -36,9 +36,9 @@ LE Small [humanoid](creatureTypes.html#_humanoid) ( [reptilian](creatureTypes.ht
 
 **Base**  **Atk** +1; **CMB** –1; **CMD** 10
 
-**Feats** [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
+**Feats** [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
 
-**Skills** [Craft](../skills/craft.html#_craft) (trapmaking) +6, [Perception](../skills/perception.html#_perception) +5, [Stealth](../skills/stealth.html#_stealth) +5; **Racial Modifiers** +2 [Craft](../skills/craft.html#_craft) (trapmaking), +2 [Perception](../skills/perception.html#_perception), +2 [Profession](../skills/profession.html#_profession) (miner)
+**Skills** [Craft](../skills/craft.md#_craft) (trapmaking) +6, [Perception](../skills/perception.md#_perception) +5, [Stealth](../skills/stealth.md#_stealth) +5; **Racial Modifiers** +2 [Craft](../skills/craft.md#_craft) (trapmaking), +2 [Perception](../skills/perception.md#_perception), +2 [Profession](../skills/profession.md#_profession) (miner)
 
 **Languages** Common, Draconic
 
@@ -54,7 +54,7 @@ LE Small [humanoid](creatureTypes.html#_humanoid) ( [reptilian](creatureTypes.ht
 
 **Special Abilities**
 
-**Crafty (Ex)** [Craft](../skills/craft.html#_craft) (trapmaking) and [Stealth](../skills/stealth.html#_stealth) are always class skills for a kobold.
+**Crafty (Ex)** [Craft](../skills/craft.md#_craft) (trapmaking) and [Stealth](../skills/stealth.md#_stealth) are always class skills for a kobold.
 
 Kobolds are creatures of the dark, found most commonly in enormous underground warrens or the dark corners of the forest where the sun is unable to reach. Due to their physical similarities, kobolds loudly proclaim themselves the scions of dragonkind, destined to rule the earth beneath the wings of their great god-cousins, but most dragons have little use for the obnoxious pests.
 
@@ -68,7 +68,7 @@ Kobolds are defined by their class levels—they do not possess racial Hit Dice.
 
 **–4 Strength, +2 Dexterity, –2 Constitution** : Kobolds are fast but weak.
 
-**Small** : Kobolds are Small and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty to their CMB and CMD, and a +4 size bonus on [Stealth](../skills/stealth.html#_stealth) checks.
+**Small** : Kobolds are Small and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty to their CMB and CMD, and a +4 size bonus on [Stealth](../skills/stealth.md#_stealth) checks.
 
 **Normal Speed** : Kobolds have a base speed of 30 feet.
 
@@ -76,9 +76,9 @@ Kobolds are defined by their class levels—they do not possess racial Hit Dice.
 
 **Armor** : Kobolds have a +1 natural armor bonus.
 
-**Crafty** : Kobolds gain a +2 racial bonus on [Craft](../skills/craft.html#_craft) (trapmaking), [Perception](../skills/perception.html#_perception), and [Profession](../skills/profession.html#_profession) (miner) checks. [Craft](../skills/craft.html#_craft) (trapmaking) and [Stealth](../skills/stealth.html#_stealth) are always class skills for a kobold.
+**Crafty** : Kobolds gain a +2 racial bonus on [Craft](../skills/craft.md#_craft) (trapmaking), [Perception](../skills/perception.md#_perception), and [Profession](../skills/profession.md#_profession) (miner) checks. [Craft](../skills/craft.md#_craft) (trapmaking) and [Stealth](../skills/stealth.md#_stealth) are always class skills for a kobold.
 
-**Weakness** : [Light sensitivity](universalMonsterRules.html#_light-sensitivity).
+**Weakness** : [Light sensitivity](universalMonsterRules.md#_light-sensitivity).
 
 **Languages** : Kobolds begin play speaking only Draconic. Kobolds who have high Intelligence scores can choose any of the following bonus languages: Dwarven, Gnome, and Undercommon.
 

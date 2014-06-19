@@ -6,9 +6,9 @@ Giant Sea Anemone CR 2
 
 XP 600
 
-N Large vermin ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Large vermin ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +2; **Senses** [blindsight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight) 30 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +0
+**Init** +2; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 30 ft.; [Perception](skills/perception.md#_perception) +0
 
 Defense
 
@@ -18,13 +18,13 @@ Defense
 
 **Fort** +8, **Ref** +3, **Will** +1
 
-**Defensive Abilities** [amorphous](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_amorphous); **Immune** [gaze](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze) attacks, mind-affecting effects, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)), vision-based effects
+**Defensive Abilities** [amorphous](monsters/universalMonsterRules.md#_amorphous); **Immune** [gaze](monsters/universalMonsterRules.md#_gaze) attacks, mind-affecting effects, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), vision-based effects
 
 Offense
 
 **Speed** 5 ft.
 
-**Melee** tentacles +3 (2d6+1 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab) and [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** tentacles +3 (2d6+1 plus [grab](monsters/universalMonsterRules.md#_grab) and [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -36,7 +36,7 @@ Statistics
 
 **Base Atk** +3; **CMB** +5; **CMD** 17 (can't be tripped)
 
-**Skills** [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +6; **Racial Modifiers** +8 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
+**Skills** [Stealth](skills/stealth.md#_stealth) +6; **Racial Modifiers** +8 [Stealth](skills/stealth.md#_stealth)
 
 **SQ** anchored, sightless
 
@@ -50,13 +50,13 @@ Ecology
 
 Special Abilities
 
-**Anchored (Ex)** As a full-round action, a [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) sea anemone can affix itself to a solid surface. While anchored, it cannot move, and it gains a +4 bonus to its CMD on all checks to resist being bull-rushed, dragged, overrun, or repositioned. This bonus increases by +4 for each size category larger the sea anemone is compared to the opponent attempting the maneuver. The creature can unanchor itself as a full-round action.
+**Anchored (Ex)** As a full-round action, a [giant](monsters/creatureTypes.md#_giant-subtype) sea anemone can affix itself to a solid surface. While anchored, it cannot move, and it gains a +4 bonus to its CMD on all checks to resist being bull-rushed, dragged, overrun, or repositioned. This bonus increases by +4 for each size category larger the sea anemone is compared to the opponent attempting the maneuver. The creature can unanchor itself as a full-round action.
 
 **Poison (Ex)** Tentacle­—injury; _save_ Fort DC 16; _frequency_   
 1/round for 6 rounds; _effect_ 1d2 Dex damage; _cure_   
 2 consecutive saves.
 
-**Sightless (Ex)** A sea anemone is blind and is not affected by any effect that relies on sight, such as [gaze](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze) attacks or blindness.
+**Sightless (Ex)** A sea anemone is blind and is not affected by any effect that relies on sight, such as [gaze](monsters/universalMonsterRules.md#_gaze) attacks or blindness.
 
 Giant sea anemones are beautiful but deadly ocean-dwelling vermin that rely on camouflage and paralytic toxins to draw in their prey. A sea anemone has a long, cylindrical body that ends in a flat circular disc with a slitlike orifice for both ingesting food and dispelling waste. This disc is surrounded by a thicket of tendrils that vary in thickness from fine, hairlike cilia to thick, swollen appendages. The creature uses all of these tentacles at once when it attacks prey. Like their smaller kin, giant sea anemones come in a broad spectrum of colors—many are known for their brilliant hues.
 

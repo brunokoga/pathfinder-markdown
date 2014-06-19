@@ -6,9 +6,9 @@ _This large, horned bull has a dirty black hide and an aggressive temper. Its ho
 
 **XP 600**
 
-N Large [animal](creatureTypes.html#_animal)
+N Large [animal](creatureTypes.md#_animal)
 
-**Init** +0; **Senses** low-light vision, [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +9
+**Init** +0; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +9
 
 **Defense**
 
@@ -26,7 +26,7 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** stampede, [trample](universalMonsterRules.html#_trample) (2d6+9, DC 17)
+**Special Attacks** stampede, [trample](universalMonsterRules.md#_trample) (2d6+9, DC 17)
 
 **Statistics**
 
@@ -34,9 +34,9 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Base Atk** +2; **CMB** +9; **CMD** 19 (23 vs. trip)
 
-**Feats** [Endurance](../feats.html#_endurance), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
+**Feats** [Endurance](../feats.md#_endurance), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
 
-**Skills** [Perception](../skills/perception.html#_perception) +9
+**Skills** [Perception](../skills/perception.md#_perception) +9
 
 **Ecology**
 
@@ -66,9 +66,9 @@ _This creature has small, upward-pointing horns, a shaggy coat of fur, and a lar
 
 **XP 1,200**
 
-N Large [animal](creatureTypes.html#_animal)
+N Large [animal](creatureTypes.md#_animal)
 
-**Init** +0; **Senses** low-light vision, [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +8
+**Init** +0; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +8
 
 **Defense**
 
@@ -86,7 +86,7 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** stampede (see aurochs), [trample](universalMonsterRules.html#_trample) (2d6+12, DC 20)
+**Special Attacks** stampede (see aurochs), [trample](universalMonsterRules.md#_trample) (2d6+12, DC 20)
 
 **Statistics**
 
@@ -94,9 +94,9 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Base Atk** +3; **CMB** +12; **CMD** 22 (26 vs. trip)
 
-**Feats** [Endurance](../feats.html#_endurance), [Improved Bull Rush](../feats.html#_improved-bull-rush), [Power Attack](../feats.html#_power-attack)
+**Feats** [Endurance](../feats.md#_endurance), [Improved Bull Rush](../feats.md#_improved-bull-rush), [Power Attack](../feats.md#_power-attack)
 
-**Skills** [Perception](../skills/perception.html#_perception) +8
+**Skills** [Perception](../skills/perception.md#_perception) +8
 
 **Ecology**
 

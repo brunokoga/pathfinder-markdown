@@ -8,7 +8,7 @@ XP 800
 
 N Medium plant
 
-**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12
+**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +12
 
 **Aura** unsettling appearance (60 ft., DC 14)
 
@@ -20,7 +20,7 @@ Defense
 
 **Fort** +7, **Ref** +1, **Will** +6
 
-**Defensive Abilities** otherworldly mind; **Immune** plant traits, **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 5
+**Defensive Abilities** otherworldly mind; **Immune** plant traits, **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 5
 
 **Weaknesses** vulnerable to sonic
 
@@ -36,11 +36,11 @@ Offense
 
 **Spell-Like Abilities** (CL 4th; concentration +6)
 
-Constant—_ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_ (DC 14)
+Constant—_ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_ (DC 14)
 
 At will—touch of madness (DC 14)
 
-3/day—_ [calm emotions](/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions)_ (DC 14), _ [touch of idiocy](/pathfinderRPG/prd/spells/touchOfIdiocy.html#_touch-of-idiocy)_ (DC 14)
+3/day—_ [calm emotions](spells/calmEmotions.md#_calm-emotions)_ (DC 14), _ [touch of idiocy](spells/touchOfIdiocy.md#_touch-of-idiocy)_ (DC 14)
 
 Statistics
 
@@ -48,9 +48,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +5; **CMD** 15 (21 vs. trip)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack)
+**Feats** [Improved Initiative](feats.md#_improved-initiative), [Multiattack](monsters/monsterFeats.md#_multiattack)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +6, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +6, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +7
+**Skills** [Bluff](skills/bluff.md#_bluff) +6, [Diplomacy](skills/diplomacy.md#_diplomacy) +6, [Perception](skills/perception.md#_perception) +12, [Stealth](skills/stealth.md#_stealth) +7
 
 **Languages** telepathy 100 ft.
 

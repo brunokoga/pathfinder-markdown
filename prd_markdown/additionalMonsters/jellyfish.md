@@ -6,9 +6,9 @@ Giant Jellyfish CR 7
 
 **XP 3,200**
 
-N Large [vermin](/pathfinderRPG/prd/monsters/creatureTypes.html#_vermin) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Large [vermin](monsters/creatureTypes.md#_vermin) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +0
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +0
 
 Defense
 
@@ -18,13 +18,13 @@ Defense
 
 **Fort** +12, **Ref** +5, **Will** +3
 
-**Defensive Abilities** [amorphous](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_amorphous); **DR** 10/piercing or slashing; **Immune** mind-affecting effects
+**Defensive Abilities** [amorphous](monsters/universalMonsterRules.md#_amorphous); **DR** 10/piercing or slashing; **Immune** mind-affecting effects
 
 Offense
 
 **Speed** swim 20 ft.
 
-**Melee** 4 tentacles +9 (1d6+4 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** 4 tentacles +9 (1d6+4 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 10 ft.; **Reach** 15 ft.
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +11; **CMD** 23 (can't be tripped)
 
-**Skills** [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +12
+**Skills** [Swim](additionalMonsters/../skills/swim.md#_swim) +12
 
-**SQ** [compression](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_compression)
+**SQ** [compression](monsters/universalMonsterRules.md#_compression)
 
 Ecology
 
@@ -48,7 +48,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Tentacles—injury; _save_ Fort DC 17; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Con; _cure_ 2 consecutive saves. The save DC is Constitution based.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Tentacles—injury; _save_ Fort DC 17; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Con; _cure_ 2 consecutive saves. The save DC is Constitution based.
 
 Unlike its smaller cousins, the giant jellyfish is an active predator that seeks out prey. Capable of slithering through narrow cracks, a giant jellyfish is a horrifying beast to encounter lurking in the hold of a flooded or sunken ship. Other species of these vermin exist, as summarized on the following table—these variants often have different types of poison or other abilities like translucency or constriction.
 
@@ -72,9 +72,9 @@ Jellyfish Swarm CR 6
 
 **XP 2,400**
 
-N Diminutive [vermin](/pathfinderRPG/prd/monsters/creatureTypes.html#_vermin) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype), [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype))
+N Diminutive [vermin](monsters/creatureTypes.md#_vermin) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype), [swarm](monsters/creatureTypes.md#_swarm-subtype))
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +0
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +0
 
 Defense
 
@@ -84,17 +84,17 @@ Defense
 
 **Fort** +8, **Ref** +5, **Will** +4
 
-**Immune** [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) traits, weapon damage
+**Immune** [swarm](monsters/creatureTypes.md#_swarm-subtype) traits, weapon damage
 
 Offense
 
 **Speed** swim 20 ft.
 
-**Melee** [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) (3d6 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** [swarm](monsters/creatureTypes.md#_swarm-subtype) (3d6 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 10 ft.; **Reach** 0 ft.
 
-**Special Attacks** [distraction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_distraction) (DC 16)
+**Special Attacks** [distraction](monsters/universalMonsterRules.md#_distraction) (DC 16)
 
 Statistics
 
@@ -102,11 +102,11 @@ Statistics
 
 **Base Atk** +9; **CMB** —; **CMD** —
 
-**Skills** [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +9, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +29; **Racial Modifiers** [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +16
+**Skills** [Swim](additionalMonsters/../skills/swim.md#_swim) +9, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +29; **Racial Modifiers** [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +16
 
 Ecology
 
-**Environment** any [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype)
+**Environment** any [aquatic](monsters/creatureTypes.md#_aquatic-subtype)
 
 **Organization** solitary or bloom (2–8)
 
@@ -114,7 +114,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** [Swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype)–injury; _save_ Fort DC 16; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Dex; _cure_ 2 consecutive saves.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** [Swarm](monsters/creatureTypes.md#_swarm-subtype)–injury; _save_ Fort DC 16; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Dex; _cure_ 2 consecutive saves.
 
 Jellyfish often cluster together during springtime or when environmental conditions such as an increase in ocean temperature favor it. When conditions are right, jellyfish shift from being a nuisance to being a menace, if accidentally so, for a jellyfish swarm, unlike more aggressive monstrous kin like the giant jellyfish, comprises not aggressive hunters but rather opportunistic strikers. They do not generally move to attack nearby prey, but their nearly translucent coloration makes it horrifically easy for a creature to swim into a swarm unawares. Once a jellyfish swarm deals damage to a creature, the swarm pursues it for several rounds before giving up the chase. Many aquatic races use jellyfish swarms as defensive guardians, trusting a swarm's lack of interest in moving to keep it stationary for long periods of time.
 

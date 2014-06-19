@@ -12,7 +12,7 @@
 
 **Duration** 10 min./level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
 You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot radius. This illumination increases the light level for an additional 60 feet by one step (darkness becomes dim light, dim light becomes normal light, and normal light becomes bright light). Creatures that take penalties in bright light take them while within the 60-foot radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that are damaged or destroyed by such light.
 

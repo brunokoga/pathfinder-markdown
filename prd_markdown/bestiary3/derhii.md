@@ -8,7 +8,7 @@ XP 1,600
 
 N Large monstrous humanoid
 
-**Init** +3; **Senses** darkvision 60 ft., [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +14
+**Init** +3; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +14
 
 Defense
 
@@ -37,9 +37,9 @@ Statistics
 
 **Base Atk** +7; **CMB** +13; **CMD** 26
 
-**Feats** [Acrobatic](/pathfinderRPG/prd/feats.html#_acrobatic), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Acrobatic](feats.md#_acrobatic), [Combat Reflexes](feats.md#_combat-reflexes), [Iron Will](feats.md#_iron-will), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +12, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +13, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +9, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +14
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +12, [Climb](skills/climb.md#_climb) +13, [Fly](skills/fly.md#_fly) +9, [Perception](skills/perception.md#_perception) +14
 
 **Languages** Auran, Common
 
@@ -57,7 +57,7 @@ Special Abilities
 
 **Aerial Charge (Ex)** When airborne, a derhii can dive at twice its normal flying speed. This is the equivalent of a charge, granting a +2 bonus on the attack roll and a –2 penalty to AC.
 
-**Booming Voice (Ex)** A derhii can use its own booming voice as a signal. The sound can be heard up to 12 miles away as a thrumming in the [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype) that conveys 20 words of information in 5 minutes.
+**Booming Voice (Ex)** A derhii can use its own booming voice as a signal. The sound can be heard up to 12 miles away as a thrumming in the [air](monsters/creatureTypes.md#_air-subtype) that conveys 20 words of information in 5 minutes.
 
 **Knockdown (Ex)** When a derhii confirms a critical hit with a two-handed weapon, it has a chance to knock an opponent prone in addition to the damage dealt by the critical hit. If the derhii's confirmation roll exceeds its opponent's CMD, the opponent is knocked prone as if from the trip combat maneuver. This does not provoke an attack of opportunity, nor can the derhii be tripped if the confirmation roll fails to exceed the CMD.
 

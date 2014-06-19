@@ -6,9 +6,9 @@ _This snarling, canine beast pads forward on all fours, its slender front limbs 
 
 **XP 1,200**
 
-LE Medium [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_evil-subtype), [extraplanar](creatureTypes.html#_extraplanar-subtype), [lawful](creatureTypes.html#_lawful-subtype), [shapechanger](creatureTypes.html#_shapechanger-subtype))
+LE Medium [outsider](creatureTypes.md#_outsider) ( [evil](creatureTypes.md#_evil-subtype), [extraplanar](creatureTypes.md#_extraplanar-subtype), [lawful](creatureTypes.md#_lawful-subtype), [shapechanger](creatureTypes.md#_shapechanger-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft., [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +11
+**Init** +6; **Senses** darkvision 60 ft., [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +11
 
 **Defense**
 
@@ -30,9 +30,9 @@ LE Medium [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_
 
 **Spell-Like Abilities** (CL 6th)
 
-At will—_ [blink](../spells/blink.html#_blink)_, _ [levitate](../spells/levitate.html#_levitate), [misdirection](../spells/misdirection.html#_misdirection)_
+At will—_ [blink](../spells/blink.md#_blink)_, _ [levitate](../spells/levitate.md#_levitate), [misdirection](../spells/misdirection.md#_misdirection)_
 
-1/day—_ [charm monster](../spells/charmMonster.html#_charm-monster)_ (DC 16), _ [crushing despair](../spells/crushingDespair.html#_crushing-despair)_ (DC 16), _ [dimension door](../spells/dimensionDoor.html#_dimension-door)_
+1/day—_ [charm monster](../spells/charmMonster.md#_charm-monster)_ (DC 16), _ [crushing despair](../spells/crushingDespair.md#_crushing-despair)_ (DC 16), _ [dimension door](../spells/dimensionDoor.md#_dimension-door)_
 
 **Statistics**
 
@@ -40,13 +40,13 @@ At will—_ [blink](../spells/blink.html#_blink)_, _ [levitate](../spells/levita
 
 **Base**  **Atk** +6; **CMB** +10; **CMD** 22 (24 vs. trip)
 
-**Feats** [Combat Reflexes](../feats.html#_combat-reflexes), [Improved Initiative](../feats.html#_improved-initiative), [Great Fortitude](../feats.html#_great-fortitude)
+**Feats** [Combat Reflexes](../feats.md#_combat-reflexes), [Improved Initiative](../feats.md#_improved-initiative), [Great Fortitude](../feats.md#_great-fortitude)
 
-**Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +11, [Bluff](../skills/bluff.html#_bluff) +11, [Diplomacy](../skills/diplomacy.html#_diplomacy) +11, [Intimidate](../skills/intimidate.html#_intimidate) +11, [Perception](../skills/perception.html#_perception) +11, [Sense Motive](../skills/senseMotive.html#_sense-motive) +11, [Stealth](../skills/stealth.html#_stealth) +11, [Survival](../skills/survival.html#_survival) +11
+**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +11, [Bluff](../skills/bluff.md#_bluff) +11, [Diplomacy](../skills/diplomacy.md#_diplomacy) +11, [Intimidate](../skills/intimidate.md#_intimidate) +11, [Perception](../skills/perception.md#_perception) +11, [Sense Motive](../skills/senseMotive.md#_sense-motive) +11, [Stealth](../skills/stealth.md#_stealth) +11, [Survival](../skills/survival.md#_survival) +11
 
 **Languages** Common, Goblin, Infernal
 
-**SQ** [change shape](universalMonsterRules.html#_change-shape) (goblin or wolf, _ [polymorph](../spells/polymorph.html#_polymorph)_)
+**SQ** [change shape](universalMonsterRules.md#_change-shape) (goblin or wolf, _ [polymorph](../spells/polymorph.md#_polymorph)_)
 
 **Ecology**
 
@@ -66,9 +66,9 @@ Said to be fiendish relations of all goblinoid races, the hateful barghests come
 
 **XP 3,200**
 
-LE Large [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_evil-subtype), [extraplanar](creatureTypes.html#_extraplanar-subtype), [lawful](creatureTypes.html#_lawful-subtype), [shapechanger](creatureTypes.html#_shapechanger-subtype))
+LE Large [outsider](creatureTypes.md#_outsider) ( [evil](creatureTypes.md#_evil-subtype), [extraplanar](creatureTypes.md#_extraplanar-subtype), [lawful](creatureTypes.md#_lawful-subtype), [shapechanger](creatureTypes.md#_shapechanger-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft., [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +16
+**Init** +6; **Senses** darkvision 60 ft., [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +16
 
 **Defense**
 
@@ -88,9 +88,9 @@ LE Large [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_e
 
 **Spell-Like Abilities** (CL 9th)
 
-At will— _ [blink](../spells/blink.html#_blink)_, _ [invisibility sphere](../spells/invisibilitySphere.html#_invisibility-sphere), [levitate](../spells/levitate.html#_levitate), [misdirection](../spells/misdirection.html#_misdirection)_
+At will— _ [blink](../spells/blink.md#_blink)_, _ [invisibility sphere](../spells/invisibilitySphere.md#_invisibility-sphere), [levitate](../spells/levitate.md#_levitate), [misdirection](../spells/misdirection.md#_misdirection)_
 
-1/day—_ [charm monster](../spells/charmMonster.html#_charm-monster)_ (DC 18), _ [crushing despair](../spells/crushingDespair.html#_crushing-despair)_ (DC 18), _ [dimension door](../spells/dimensionDoor.html#_dimension-door), [mass bull's strength](../spells/bullSStrength.html#_bull-s-strength-mass), mass enlarge_
+1/day—_ [charm monster](../spells/charmMonster.md#_charm-monster)_ (DC 18), _ [crushing despair](../spells/crushingDespair.md#_crushing-despair)_ (DC 18), _ [dimension door](../spells/dimensionDoor.md#_dimension-door), [mass bull's strength](../spells/bullSStrength.md#_bull-s-strength-mass), mass enlarge_
 
 **Statistics**
 
@@ -98,11 +98,11 @@ At will— _ [blink](../spells/blink.html#_blink)_, _ [invisibility sphere](../s
 
 **Base**  **Atk** +9; **CMB** +16; **CMD** 28 (32 vs. trip)
 
-**Feats** [Combat Casting](../feats.html#_combat-casting), [Combat Reflexes](../feats.html#_combat-reflexes), [Improved Initiative](../feats.html#_improved-initiative), [Great Fortitude](../feats.html#_great-fortitude), [Lightning Reflexes](../feats.html#_lightning-reflexes)
+**Feats** [Combat Casting](../feats.md#_combat-casting), [Combat Reflexes](../feats.md#_combat-reflexes), [Improved Initiative](../feats.md#_improved-initiative), [Great Fortitude](../feats.md#_great-fortitude), [Lightning Reflexes](../feats.md#_lightning-reflexes)
 
-**Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +14, [Bluff](../skills/bluff.html#_bluff) +16, [Climb](../skills/climb.html#_climb) +15, [Diplomacy](../skills/diplomacy.html#_diplomacy) +16, [Intimidate](../skills/intimidate.html#_intimidate) +16, [Perception](../skills/perception.html#_perception) +16, [Sense Motive](../skills/senseMotive.html#_sense-motive) +16, [Stealth](../skills/stealth.html#_stealth) +10, [Survival](../skills/survival.html#_survival) +16, [Swim](../skills/swim.html#_swim) +15
+**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +14, [Bluff](../skills/bluff.md#_bluff) +16, [Climb](../skills/climb.md#_climb) +15, [Diplomacy](../skills/diplomacy.md#_diplomacy) +16, [Intimidate](../skills/intimidate.md#_intimidate) +16, [Perception](../skills/perception.md#_perception) +16, [Sense Motive](../skills/senseMotive.md#_sense-motive) +16, [Stealth](../skills/stealth.md#_stealth) +10, [Survival](../skills/survival.md#_survival) +16, [Swim](../skills/swim.md#_swim) +15
 
 **Languages** Common, Goblin, Infernal
 
-**SQ** [change shape](universalMonsterRules.html#_change-shape) (goblin or wolf, _ [polymorph](../spells/polymorph.html#_polymorph)_)
+**SQ** [change shape](universalMonsterRules.md#_change-shape) (goblin or wolf, _ [polymorph](../spells/polymorph.md#_polymorph)_)
 

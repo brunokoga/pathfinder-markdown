@@ -6,9 +6,9 @@ Blink DogCR 2
 
 **XP 600**
 
-LG Medium [magical beast](/pathfinderRPG/prd/monsters/creatureTypes.html#_magical-beast)
+LG Medium [magical beast](monsters/creatureTypes.md#_magical-beast)
 
-**Init** +2; **Senses** darkvision 60 ft., low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7
+**Init** +2; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +7
 
 Defense
 
@@ -26,9 +26,9 @@ Offense
 
 **Spell-Like Abilities** (CL 7th; concentration +7)
 
-Constant—_ [blink](/pathfinderRPG/prd/additionalMonsters/../spells/blink.html#_blink)_
+Constant—_ [blink](additionalMonsters/../spells/blink.md#_blink)_
 
-At will—quickened _ [dimension door](/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door)_ (self only)
+At will—quickened _ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_ (self only)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +4; **CMD** 16 (20 vs. trip)
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will)
+**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Iron Will](additionalMonsters/../feats.md#_iron-will)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +7, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +2 (+6 [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent) tracking)
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +7, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +7, [Survival](additionalMonsters/../skills/survival.md#_survival) +2 (+6 [scent](monsters/universalMonsterRules.md#_scent) tracking)
 
 **Languages** Sylvan
 

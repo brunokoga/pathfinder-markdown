@@ -6,15 +6,15 @@ _This immense, wingless dragon rears up on a serpentine body. Its triple tail an
 
 **XP 38,400**
 
-CE Gargantuan [dragon](creatureTypes.html#_dragon)
+CE Gargantuan [dragon](creatureTypes.md#_dragon)
 
-**Init** +8; **Senses** darkvision 120 ft., low-light vision, [scent](universalMonsterRules.html#_scent), true seeing; [Perception](../skills/perception.html#_perception) +22
+**Init** +8; **Senses** darkvision 120 ft., low-light vision, [scent](universalMonsterRules.md#_scent), true seeing; [Perception](../skills/perception.md#_perception) +22
 
 **Defense**
 
 **AC** 29, touch 10, flat-footed 25 (+4 Dex, +19 natural, –4 size)
 
-**hp** 202 (15d12+105); [regeneration](universalMonsterRules.html#_regeneration) 10 (cold iron)
+**hp** 202 (15d12+105); [regeneration](universalMonsterRules.md#_regeneration) 10 (cold iron)
 
 **Fort** +16, **Ref** +15, **Will** +13
 
@@ -24,11 +24,11 @@ CE Gargantuan [dragon](creatureTypes.html#_dragon)
 
 **Speed** 40 ft., fly 100 ft. (average), swim 60 ft.
 
-**Melee** bite +23 (2d8+12/19–20 plus [poison](universalMonsterRules.html#_poison)), 2 claws +23 (1d8+12), tail +18 (2d6+6 plus [grab](universalMonsterRules.html#_grab))
+**Melee** bite +23 (2d8+12/19–20 plus [poison](universalMonsterRules.md#_poison)), 2 claws +23 (1d8+12), tail +18 (2d6+6 plus [grab](universalMonsterRules.md#_grab))
 
 **Space** 20 ft.; **Reach** 20 ft.
 
-**Special Attacks** [breath weapon](universalMonsterRules.html#_breath-weapon), [constrict](universalMonsterRules.html#_constrict) (tail, 2d6+18), death curse
+**Special Attacks** [breath weapon](universalMonsterRules.md#_breath-weapon), [constrict](universalMonsterRules.md#_constrict) (tail, 2d6+18), death curse
 
 **Statistics**
 
@@ -36,9 +36,9 @@ CE Gargantuan [dragon](creatureTypes.html#_dragon)
 
 **Base Atk** +15; **CMB** +31 (+35 grapple); **CMD** 45 (can't be tripped)
 
-**Feats** [Blind-Fight](../feats.html#_blind-fight), [Cleave](../feats.html#_cleave), [Combat Reflexes](../feats.html#_combat-reflexes), [Improved Bull Rush](../feats.html#_improved-bull-rush), [Improved Critical](../feats.html#_improved-critical) (bite), [Improved Initiative](../feats.html#_improved-initiative), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Power Attack](../feats.html#_power-attack)
+**Feats** [Blind-Fight](../feats.md#_blind-fight), [Cleave](../feats.md#_cleave), [Combat Reflexes](../feats.md#_combat-reflexes), [Improved Bull Rush](../feats.md#_improved-bull-rush), [Improved Critical](../feats.md#_improved-critical) (bite), [Improved Initiative](../feats.md#_improved-initiative), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Power Attack](../feats.md#_power-attack)
 
-**Skills** [Fly](../skills/fly.html#_fly) +16, [Perception](../skills/perception.html#_perception) +22, [Swim](../skills/swim.html#_swim) +38
+**Skills** [Fly](../skills/fly.md#_fly) +16, [Perception](../skills/perception.md#_perception) +22, [Swim](../skills/swim.md#_swim) +38
 
 **Languages** Aklo, Draconic, Sylvan
 
@@ -56,11 +56,11 @@ CE Gargantuan [dragon](creatureTypes.html#_dragon)
 
 **Death Curse (Su)** When a creature slays a crag linnorm, the slayer is affected by the curse of fire._Curse of Fire_: _save_ Will DC 22; _effect_ creature gains vulnerability to fire. The save DC is Charisma-based.
 
-**Freedom of Movement (Ex)** A crag linnorm is under the constant effect of _ [freedom of movement](../spells/freedomOfMovement.html#_freedom-of-movement)_, as per the spell of the same name. This effect cannot be dispelled.
+**Freedom of Movement (Ex)** A crag linnorm is under the constant effect of _ [freedom of movement](../spells/freedomOfMovement.md#_freedom-of-movement)_, as per the spell of the same name. This effect cannot be dispelled.
 
 **Poison (Su)** Bite—injury; _save_ Fort DC 24; _frequency_ 1/round for 10 rounds; _effect_ 2d6 fire damage and 1d4 Con drain; _cure_ 2 consecutive saves. The save DC is Constitution-based.
 
-**True Seeing (Ex)** A crag linnorm has constant _ [true seeing](../spells/trueSeeing.html#_true-seeing)_, as per the spell of the same name.
+**True Seeing (Ex)** A crag linnorm has constant _ [true seeing](../spells/trueSeeing.md#_true-seeing)_, as per the spell of the same name.
 
 Like all linnorms, the deadly crag linnorm is a powerful, primeval dragon, a denizen of the wild regions far north of where most civilizations dare to tread. The crag linnorm is among the weakest of its kind, yet still a devastating predator in its own right. Favored, if not by the gods, then by some primal intelligence of the mysterious world of the fey, the linnorm bestows a powerful curse on any who manage to slay it. A crag linnorm is 60 feet long and weighs 12,000 pounds.
 
@@ -72,15 +72,15 @@ _A snake-like, dragon-headed monster of tremendous size rises up, drifts of snow
 
 **XP 102,400**
 
-CE Colossal [dragon](creatureTypes.html#_dragon)
+CE Colossal [dragon](creatureTypes.md#_dragon)
 
-**Init** +10; **Senses** darkvision 120 ft., low-light vision, [scent](universalMonsterRules.html#_scent), true seeing; [Perception](../skills/perception.html#_perception) +26
+**Init** +10; **Senses** darkvision 120 ft., low-light vision, [scent](universalMonsterRules.md#_scent), true seeing; [Perception](../skills/perception.md#_perception) +26
 
 **Defense**
 
 **AC** 32, touch 8, flat-footed 26 (+6 Dex, +24 natural, –8 size)
 
-**hp** 279 (18d12+162); [regeneration](universalMonsterRules.html#_regeneration) 10 (cold iron)
+**hp** 279 (18d12+162); [regeneration](universalMonsterRules.md#_regeneration) 10 (cold iron)
 
 **Fort** +20, **Ref** +19, **Will** +16
 
@@ -90,11 +90,11 @@ CE Colossal [dragon](creatureTypes.html#_dragon)
 
 **Speed** 40 ft., climb 40 ft., fly 100 ft. (average), swim 40 ft.
 
-**Melee** bite +24 (3d8+14/19–20 plus [poison](universalMonsterRules.html#_poison)), 2 claws +24 (2d6+14), tail +19 (3d6+7 plus [grab](universalMonsterRules.html#_grab))
+**Melee** bite +24 (3d8+14/19–20 plus [poison](universalMonsterRules.md#_poison)), 2 claws +24 (2d6+14), tail +19 (3d6+7 plus [grab](universalMonsterRules.md#_grab))
 
 **Space** 30 ft.; **Reach** 30 ft.
 
-**Special**  **Attacks** [breath weapon](universalMonsterRules.html#_breath-weapon), [constrict](universalMonsterRules.html#_constrict) (tail, 3d6+21), death curse
+**Special**  **Attacks** [breath weapon](universalMonsterRules.md#_breath-weapon), [constrict](universalMonsterRules.md#_constrict) (tail, 3d6+21), death curse
 
 **Statistics**
 
@@ -102,9 +102,9 @@ CE Colossal [dragon](creatureTypes.html#_dragon)
 
 **Base Atk** +18; **CMB** +40 (+44 grapple); **CMD** 56 (can't be tripped)
 
-**Feats** [Blind-Fight](../feats.html#_blind-fight), [Combat Reflexes](../feats.html#_combat-reflexes), [Improved Bull Rush](../feats.html#_improved-bull-rush), [Improved Critical](../feats.html#_improved-critical) (bite), [Improved Initiative](../feats.html#_improved-initiative), [Improved Vital Strike](../feats.html#_improved-vital-strike), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Power Attack](../feats.html#_power-attack), [Vital Strike](../feats.html#_vital-strike)
+**Feats** [Blind-Fight](../feats.md#_blind-fight), [Combat Reflexes](../feats.md#_combat-reflexes), [Improved Bull Rush](../feats.md#_improved-bull-rush), [Improved Critical](../feats.md#_improved-critical) (bite), [Improved Initiative](../feats.md#_improved-initiative), [Improved Vital Strike](../feats.md#_improved-vital-strike), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Power Attack](../feats.md#_power-attack), [Vital Strike](../feats.md#_vital-strike)
 
-**Skills** [Climb](../skills/climb.html#_climb) +43, [Fly](../skills/fly.html#_fly) +19, [Perception](../skills/perception.html#_perception) +26, [Swim](../skills/swim.html#_swim) +22
+**Skills** [Climb](../skills/climb.md#_climb) +43, [Fly](../skills/fly.md#_fly) +19, [Perception](../skills/perception.md#_perception) +26, [Swim](../skills/swim.md#_swim) +22
 
 **Languages** Aklo, Draconic, Sylvan
 
@@ -118,15 +118,15 @@ CE Colossal [dragon](creatureTypes.html#_dragon)
 
 **Special Abilities**
 
-**Breath Weapon (Su)** Once every 1d4 rounds as a standard action, an ice linnorm can expel a 60-foot cone of freezing, viscous ooze, dealing 18d8 points of cold damage to all creatures struck (Reflex DC 28 halves). The freezing ooze clings to those struck, and 1 round later the ooze hardens into thick sheets of ice. Creatures that were damaged are frozen motionless unless they can break free with a DC 25 Strength, [Escape Artist](../skills/escapeArtist.html#_escape-artist), or combat maneuver check. Each round a creature remains frozen it takes 1d6 points of cold damage. Another creature can free a frozen target by tearing away the ice (this takes 1d4 rounds) or dealing at least 20 points of fire damage to the frozen target. Left unattended, the ice crumbles away in 2d4 rounds on its own. Creatures with the fire subtype cannot be frozen in place by this breath weapon. Flying creatures that don't have supernatural flight fall if frozen, and swimming creatures that are frozen rise toward the surface of the water at a speed of 60 feetper round. The save DC is Constitution-based.
+**Breath Weapon (Su)** Once every 1d4 rounds as a standard action, an ice linnorm can expel a 60-foot cone of freezing, viscous ooze, dealing 18d8 points of cold damage to all creatures struck (Reflex DC 28 halves). The freezing ooze clings to those struck, and 1 round later the ooze hardens into thick sheets of ice. Creatures that were damaged are frozen motionless unless they can break free with a DC 25 Strength, [Escape Artist](../skills/escapeArtist.md#_escape-artist), or combat maneuver check. Each round a creature remains frozen it takes 1d6 points of cold damage. Another creature can free a frozen target by tearing away the ice (this takes 1d4 rounds) or dealing at least 20 points of fire damage to the frozen target. Left unattended, the ice crumbles away in 2d4 rounds on its own. Creatures with the fire subtype cannot be frozen in place by this breath weapon. Flying creatures that don't have supernatural flight fall if frozen, and swimming creatures that are frozen rise toward the surface of the water at a speed of 60 feetper round. The save DC is Constitution-based.
 
 **Death Curse (Su)** When a creature slays an ice linnorm, the slayer is affected by the curse of frost._Curse of Frost_: _save_ Will DC 25; _effect_ creature gains vulnerability to cold. The save DC is Charisma-based.
 
-**Freedom of Movement (Ex)** An ice linnorm is under the constant effect of _ [freedom of movement](../spells/freedomOfMovement.html#_freedom-of-movement)_, as per the spell of the same name. This effect cannot be dispelled.
+**Freedom of Movement (Ex)** An ice linnorm is under the constant effect of _ [freedom of movement](../spells/freedomOfMovement.md#_freedom-of-movement)_, as per the spell of the same name. This effect cannot be dispelled.
 
-**Poison (Su)** Bite—injury; _save_ Fort DC 28; _frequency_ 1/round for 10 rounds; _effect_ 4d6 cold [damage](universalMonsterRules.html#_ability-damage-and-drain) and 1d6 Con [drain](universalMonsterRules.html#_ability-damage-and-drain); _cure_ 3 consecutive saves. The save DC is Constitution-based.
+**Poison (Su)** Bite—injury; _save_ Fort DC 28; _frequency_ 1/round for 10 rounds; _effect_ 4d6 cold [damage](universalMonsterRules.md#_ability-damage-and-drain) and 1d6 Con [drain](universalMonsterRules.md#_ability-damage-and-drain); _cure_ 3 consecutive saves. The save DC is Constitution-based.
 
-**True Seeing (Ex)** An ice linnorm has _ [true seeing](../spells/trueSeeing.html#_true-seeing)_, as the spell of the same name. This effect cannot be dispelled.
+**True Seeing (Ex)** An ice linnorm has _ [true seeing](../spells/trueSeeing.md#_true-seeing)_, as the spell of the same name. This effect cannot be dispelled.
 
 The ice linnorm dwells amid glacial crevasses and atop wind-blasted mountain peaks—tales speak of climbers unwittingly clambering over the flanks of a particularly immense ice linnorm coiled around a mountain, only to find death at its furious fangs and claws at the summit of their goal. During the fiercest winters, ice linnorms are said to slither down to the lowlands to eat entire villages.
 
@@ -140,15 +140,15 @@ _This nightmarishly huge, snake-like dragon possesses two equally fearsome heads
 
 **XP 307,200**
 
-CE Colossal [dragon](creatureTypes.html#_dragon) ( [aquatic](creatureTypes.html#_aquatic-subtype))
+CE Colossal [dragon](creatureTypes.md#_dragon) ( [aquatic](creatureTypes.md#_aquatic-subtype))
 
-**Init** +12; **Senses** all-around vision, darkvision 120 ft., low-light vision, [scent](universalMonsterRules.html#_scent), true seeing; [Perception](../skills/perception.html#_perception) +40
+**Init** +12; **Senses** all-around vision, darkvision 120 ft., low-light vision, [scent](universalMonsterRules.md#_scent), true seeing; [Perception](../skills/perception.md#_perception) +40
 
 **Defense**
 
 **AC** 36, touch 10, flat-footed 28 (+8 Dex, +26 natural, –8 size)
 
-**hp** 385 (22d12+242); [regeneration](universalMonsterRules.html#_regeneration) 15 (cold iron)
+**hp** 385 (22d12+242); [regeneration](universalMonsterRules.md#_regeneration) 15 (cold iron)
 
 **Fort** +24, **Ref** +23, **Will** +20
 
@@ -158,11 +158,11 @@ CE Colossal [dragon](creatureTypes.html#_dragon) ( [aquatic](creatureTypes.html#
 
 **Speed** 40 ft., fly 100 ft. (average), swim 80 ft.
 
-**Melee** 2 bites +30 (3d8+16/19–20 plus [poison](universalMonsterRules.html#_poison)), 2 claws +30 (2d6+16), tail +25 (3d6+8 plus [grab](universalMonsterRules.html#_grab))
+**Melee** 2 bites +30 (3d8+16/19–20 plus [poison](universalMonsterRules.md#_poison)), 2 claws +30 (2d6+16), tail +25 (3d6+8 plus [grab](universalMonsterRules.md#_grab))
 
 **Space** 30 ft.; **Reach** 30 ft.
 
-**Special Attacks** [breath weapon](universalMonsterRules.html#_breath-weapon), [constrict](universalMonsterRules.html#_constrict) (tail, 3d6+24), death curse
+**Special Attacks** [breath weapon](universalMonsterRules.md#_breath-weapon), [constrict](universalMonsterRules.md#_constrict) (tail, 3d6+24), death curse
 
 **Statistics**
 
@@ -170,13 +170,13 @@ CE Colossal [dragon](creatureTypes.html#_dragon) ( [aquatic](creatureTypes.html#
 
 **Base Atk** +22; **CMB** +46 (+50 grapple); **CMD** 64 (can't be tripped)
 
-**Feats** [Awesome Blow](monsterFeats.html#_awesome-blow), [Blind-Fight](../feats.html#_blind-fight), [Combat Reflexes](../feats.html#_combat-reflexes), [Improved Bull Rush](../feats.html#_improved-bull-rush), [Improved Critical](../feats.html#_improved-critical) (bite), [Improved Initiative](../feats.html#_improved-initiative), [Improved Overrun](../feats.html#_improved-overrun), [Improved Vital Strike](../feats.html#_improved-vital-strike), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Power Attack](../feats.html#_power-attack), [Vital Strike](../feats.html#_vital-strike)
+**Feats** [Awesome Blow](monsterFeats.md#_awesome-blow), [Blind-Fight](../feats.md#_blind-fight), [Combat Reflexes](../feats.md#_combat-reflexes), [Improved Bull Rush](../feats.md#_improved-bull-rush), [Improved Critical](../feats.md#_improved-critical) (bite), [Improved Initiative](../feats.md#_improved-initiative), [Improved Overrun](../feats.md#_improved-overrun), [Improved Vital Strike](../feats.md#_improved-vital-strike), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Power Attack](../feats.md#_power-attack), [Vital Strike](../feats.md#_vital-strike)
 
-**Skills** [Fly](../skills/fly.html#_fly) +25, [Perception](../skills/perception.html#_perception) +40, [Stealth](../skills/stealth.html#_stealth) +17, [Swim](../skills/swim.html#_swim) +49; **Racial Modifier** +8 [Perception](../skills/perception.html#_perception)
+**Skills** [Fly](../skills/fly.md#_fly) +25, [Perception](../skills/perception.md#_perception) +40, [Stealth](../skills/stealth.md#_stealth) +17, [Swim](../skills/swim.md#_swim) +49; **Racial Modifier** +8 [Perception](../skills/perception.md#_perception)
 
 **Languages** Aklo, Draconic, Sylvan
 
-**SQ** [amphibious](universalMonsterRules.html#_amphibious)
+**SQ** [amphibious](universalMonsterRules.md#_amphibious)
 
 **Ecology**
 
@@ -188,17 +188,17 @@ CE Colossal [dragon](creatureTypes.html#_dragon) ( [aquatic](creatureTypes.html#
 
 **Special Abilities**
 
-**All-Around Vision (Ex)** A tarn linnorm's two heads grant it a +8 racial bonus on [Perception](../skills/perception.html#_perception) checks. It cannot be flanked.
+**All-Around Vision (Ex)** A tarn linnorm's two heads grant it a +8 racial bonus on [Perception](../skills/perception.md#_perception) checks. It cannot be flanked.
 
-**Breath Weapon (Su)** Once every 1d4 rounds as a standard action, a tarn linnorm can expel a 120-foot line or a 60-foot cone of acid, dealing 22d8 points of acid damage to all creatures struck (Reflex DC 32 halves). This acid creates toxic fumes when it consumes organic material—on the round after a creature takes acid damage from this attack, it must make a DC 32 Fortitude save or take 2d6 points of Strength [damage](universalMonsterRules.html#_ability-damage-and-drain) from the poisonous fumes (this secondary effect is a poison effect). As a full-round action, the linnorm may breathe acid with one head and bite with the other (but not use its other weapons). Alternatively, as a full-round action, it can breathe acid from both heads to create two adjacent 60-foot-long cones or two separate 120-foot-long lines. In this case it cannot use its breath weapon again for 2d4 rounds. The save DC is Constitution-based.
+**Breath Weapon (Su)** Once every 1d4 rounds as a standard action, a tarn linnorm can expel a 120-foot line or a 60-foot cone of acid, dealing 22d8 points of acid damage to all creatures struck (Reflex DC 32 halves). This acid creates toxic fumes when it consumes organic material—on the round after a creature takes acid damage from this attack, it must make a DC 32 Fortitude save or take 2d6 points of Strength [damage](universalMonsterRules.md#_ability-damage-and-drain) from the poisonous fumes (this secondary effect is a poison effect). As a full-round action, the linnorm may breathe acid with one head and bite with the other (but not use its other weapons). Alternatively, as a full-round action, it can breathe acid from both heads to create two adjacent 60-foot-long cones or two separate 120-foot-long lines. In this case it cannot use its breath weapon again for 2d4 rounds. The save DC is Constitution-based.
 
 **Death Curse (Su)** When a creature slays a tarn linnorm, the slayer is affected by the curse of death._Curse of Death_: _save_ Will DC 29; _effect_ creature can no longer be affected by healing spells and does not heal damage naturally from rest. The save DC is Charisma-based.
 
-**Freedom of Movement (Ex)** A tarn linnorm is under the constant effect of _ [freedom of movement](../spells/freedomOfMovement.html#_freedom-of-movement)_, as the spell of the same name. This effect cannot be dispelled.
+**Freedom of Movement (Ex)** A tarn linnorm is under the constant effect of _ [freedom of movement](../spells/freedomOfMovement.md#_freedom-of-movement)_, as the spell of the same name. This effect cannot be dispelled.
 
-**Poison (Su)** Bite—injury; _save_ Fort DC 32; _frequency_ 1/round for 10 rounds; _effect_ 6d6 acid [damage](universalMonsterRules.html#_ability-damage-and-drain) and 1d8 Con [drain](universalMonsterRules.html#_ability-damage-and-drain); _cure_ 3 consecutive saves. The save DC is Constitutuion-based.
+**Poison (Su)** Bite—injury; _save_ Fort DC 32; _frequency_ 1/round for 10 rounds; _effect_ 6d6 acid [damage](universalMonsterRules.md#_ability-damage-and-drain) and 1d8 Con [drain](universalMonsterRules.md#_ability-damage-and-drain); _cure_ 3 consecutive saves. The save DC is Constitutuion-based.
 
-**True Seeing (Ex)** A tarn linnorm has _ [true seeing](../spells/trueSeeing.html#_true-seeing)_, as the spell of the same name. This effect cannot be dispelled.
+**True Seeing (Ex)** A tarn linnorm has _ [true seeing](../spells/trueSeeing.md#_true-seeing)_, as the spell of the same name. This effect cannot be dispelled.
 
 Although legends speak of even more powerful linnorms, it's hard to believe after witnessing the devastation a two-headed tarn linnorm can wreak. Content to slumber away the centuries at the bottom of dark mountain lakes, the tarn linnorms are true horrors that even the mightiest of heroes fear.
 

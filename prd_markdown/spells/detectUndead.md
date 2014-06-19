@@ -12,13 +12,13 @@
 
 **Duration** concentration, up to 1 minute/ level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
 You can detect the aura that surrounds undead creatures. The amount of information revealed depends on how long you study a particular area.
 
 _1st Round_: Presence or absence of undead auras.
 
-_2nd Round_: Number of undead auras in the area and the strength of the strongest undead aura present. If you are of good alignment, and the strongest undead aura's strength is overwhelming (see below), and the creature has HD of at least twice your character level, you are [stunned](../glossary.html#_stunned) for 1 round and the spell ends.
+_2nd Round_: Number of undead auras in the area and the strength of the strongest undead aura present. If you are of good alignment, and the strongest undead aura's strength is overwhelming (see below), and the creature has HD of at least twice your character level, you are [stunned](../glossary.md#_stunned) for 1 round and the spell ends.
 
 _3rd Round_: The strength and location of each undead aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.
 

@@ -18,7 +18,7 @@ Applying poison to a weapon or single piece of ammunition is a standard action. 
 
 ## Multiple Doses of Poison
 
-Unlike other afflictions, multiple doses of the same poison âstack,â meaning that successive doses combine to increase the poison's DC and duration.
+Unlike other afflictions, multiple doses of the same poison “stack,” meaning that successive doses combine to increase the poison's DC and duration.
 
 Making your initial saving throw against a poison means stacking does not occur—the poison did not affect you and any later doses are treated independently. Likewise, if a poison has been cured or run its course (by you either making the saves or outlasting the poison's duration), stacking does not occur. However, if there is still poison active in you when you are attacked with that type of poison again, and you fail your initial save against the new dose, the doses stack. This has two effects, which last until the poisons run their course.
 
@@ -40,7 +40,7 @@ Doses from different poisons (such as an assassin with greenblood oil on his dag
 
 ## Crafting Poison
 
-You can make poison with the [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) skill. The DC to make a poison is equal to its Fortitude save DC. Rolling a natural 1 on a [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) skill check while making a poison exposes you to the poison. This does not consume the poison. If you have the poison use class feature, you do not risk accidentally poisoning yourself when applying poison.
+You can make poison with the [Craft](skills/craft.md#_craft) (alchemy) skill. The DC to make a poison is equal to its Fortitude save DC. Rolling a natural 1 on a [Craft](skills/craft.md#_craft) skill check while making a poison exposes you to the poison. This does not consume the poison. If you have the poison use class feature, you do not risk accidentally poisoning yourself when applying poison.
 
 The sample poisons on the next page represent just some of the common poisons available in cities. Of course, most cities have laws against buying, selling, or crafting poison.
 

@@ -6,9 +6,9 @@ _With the body of a powerfully built man and the head of a snarling bull, this c
 
 **XP 1,200**
 
-CE Large [monstrous humanoid](creatureTypes.html#_monstrous-humanoid)
+CE Large [monstrous humanoid](creatureTypes.md#_monstrous-humanoid)
 
-**Init** +0; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +10
+**Init** +0; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +10
 
 **Defense**
 
@@ -28,7 +28,7 @@ CE Large [monstrous humanoid](creatureTypes.html#_monstrous-humanoid)
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [powerful charge](universalMonsterRules.html#_powerful-charge) (gore +11, 2d6+6)
+**Special Attacks** [powerful charge](universalMonsterRules.md#_powerful-charge) (gore +11, 2d6+6)
 
 **Statistics**
 
@@ -36,9 +36,9 @@ CE Large [monstrous humanoid](creatureTypes.html#_monstrous-humanoid)
 
 **Base**  **Atk** +6; **CMB** +11; **CMD** 21
 
-**Feats** [Great Fortitude](../feats.html#_great-fortitude), [Improved Bull Rush](../feats.html#_improved-bull-rush), [Power Attack](../feats.html#_power-attack)
+**Feats** [Great Fortitude](../feats.md#_great-fortitude), [Improved Bull Rush](../feats.md#_improved-bull-rush), [Power Attack](../feats.md#_power-attack)
 
-**Skills** [Intimidate](../skills/intimidate.html#_intimidate) +5, [Perception](../skills/perception.html#_perception) +10, [Stealth](../skills/stealth.html#_stealth) +2, [Survival](../skills/survival.html#_survival) +10; **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception), +4 [Survival](../skills/survival.html#_survival)
+**Skills** [Intimidate](../skills/intimidate.md#_intimidate) +5, [Perception](../skills/perception.md#_perception) +10, [Stealth](../skills/stealth.md#_stealth) +2, [Survival](../skills/survival.md#_survival) +10; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception), +4 [Survival](../skills/survival.md#_survival)
 
 **Languages** Giant
 
@@ -52,7 +52,7 @@ CE Large [monstrous humanoid](creatureTypes.html#_monstrous-humanoid)
 
 **Special Abilities**
 
-**Natural Cunning (Ex)** Although minotaurs are not especially intelligent, they possess innate cunning and logical ability. This gives them immunity to _ [maze](../spells/maze.html#_maze) _spells and prevents them from ever becoming lost. Further, they are never caught flat-footed.
+**Natural Cunning (Ex)** Although minotaurs are not especially intelligent, they possess innate cunning and logical ability. This gives them immunity to _ [maze](../spells/maze.md#_maze) _spells and prevents them from ever becoming lost. Further, they are never caught flat-footed.
 
 Nothing holds a grudge like a minotaur. Scorned by the civilized races centuries ago and born from a deific curse, minotaurs have hunted, slain, and devoured lesser humanoids in retribution for real or imagined slights for as long as anyone can remember. Many cultures have legends of how the first minotaurs were created by vengeful or slighted gods who punished humans by twisting their forms, robbing them of their intellects and beauty, and giving them the heads of bulls. Yet most modern minotaurs hold these legends in contempt and believe that they are not divine mockeries but divine paragons created by a potent and cruel demon lord named Baphomet.
 

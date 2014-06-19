@@ -18,7 +18,7 @@ Human neighbors tell horrific tales of slaughter woven with frightened suspicion
 
 **Hatred** : Strix receive a +1 racial bonus on attack rolls against humanoid creatures with the human subtype because of their special training against these hated foes.
 
-**Nocturnal** : Strix gain a +2 racial bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) and [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks in dim light or darkness.
+**Nocturnal** : Strix gain a +2 racial bonus on [Perception](skills/perception.md#_perception) and [Stealth](skills/stealth.md#_stealth) checks in dim light or darkness.
 
 **Suspicious** : Strix receive a +2 racial bonus on saving throws against illusion spells and effects.
 
@@ -28,15 +28,15 @@ Human neighbors tell horrific tales of slaughter woven with frightened suspicion
 
 The following racial traits may be selected instead of existing strix racial traits. Consult your GM before selecting any of these new options.
 
-**Dayguard** : Familiar with watching over its tribe during the day, the strix gains a +2 racial bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks and treats [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) as a class skill. This racial trait replaces nocturnal.
+**Dayguard** : Familiar with watching over its tribe during the day, the strix gains a +2 racial bonus on [Perception](skills/perception.md#_perception) checks and treats [Perception](skills/perception.md#_perception) as a class skill. This racial trait replaces nocturnal.
 
-**Frightening** : The strix looks particularly menacing and use this to its advantage, gaining a +2 racial bonus on [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks. This racial trait replaces nocturnal.
+**Frightening** : The strix looks particularly menacing and use this to its advantage, gaining a +2 racial bonus on [Intimidate](skills/intimidate.md#_intimidate) checks. This racial trait replaces nocturnal.
 
 **Nimble** : The strix receives a +1 racial bonus on Reflex saves. This replaces the suspicious racial trait.
 
 **Tough** : The strix receives a +1 racial bonus on Fortitude saves. This racial trait replaces suspicious.
 
-**Wing-Clipped** : The flight of wing-clipped strix is weaker than normal, whether from deformity or injury. Their fly speed is 20 feet (poor) instead of the normal fly speed, and they must make a DC 30 [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) check to fly upward. Ostracized by their tribes and forced to deal with other races, these strix compensate for their weakness by gaining a +2 racial bonus on [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb), and [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) checks.
+**Wing-Clipped** : The flight of wing-clipped strix is weaker than normal, whether from deformity or injury. Their fly speed is 20 feet (poor) instead of the normal fly speed, and they must make a DC 30 [Fly](skills/fly.md#_fly) check to fly upward. Ostracized by their tribes and forced to deal with other races, these strix compensate for their weakness by gaining a +2 racial bonus on [Bluff](skills/bluff.md#_bluff), [Climb](skills/climb.md#_climb), and [Diplomacy](skills/diplomacy.md#_diplomacy) checks.
 
 # Favored Class Options
 
@@ -60,11 +60,11 @@ Driven by suspicion and hatred, strix doggedly guard their territories, making d
 
 **Weapon and Armor Proficiency** : An airborne ambusher is not proficient with heavy armor or tower shields.
 
-**Class Skills** : An airborne ambusher adds [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) to his list of class skills and removes [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) from his list of class skills.
+**Class Skills** : An airborne ambusher adds [Fly](skills/fly.md#_fly) to his list of class skills and removes [Climb](skills/climb.md#_climb) from his list of class skills.
 
-**Combat Flyer (Ex)** : At 2nd level, an airborne ambusher may use his fighter bonus feats to select [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack) and [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover). This replaces bravery.
+**Combat Flyer (Ex)** : At 2nd level, an airborne ambusher may use his fighter bonus feats to select [Flyby Attack](monsters/monsterFeats.md#_flyby-attack) and [Hover](monsters/monsterFeats.md#_hover). This replaces bravery.
 
-**Aerobatics (Ex)** : At 5th level, an airborne ambusher may make a [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) check instead of an [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) check to move through a threatened area or an enemy's space. This replaces weapon training 1.
+**Aerobatics (Ex)** : At 5th level, an airborne ambusher may make a [Fly](skills/fly.md#_fly) check instead of an [Acrobatics](skills/acrobatics.md#_acrobatics) check to move through a threatened area or an enemy's space. This replaces weapon training 1.
 
 **Flying Dodger (Ex)** : At 9th level, when an airborne ambusher flies at least half its fly speed on its turn, it gains a +1 dodge bonus to AC for 1 round. This bonus increases to +2 at 11th level and +4 at 17th level. This ability replaces weapon training 2.
 
@@ -78,7 +78,7 @@ The following options are available to strix. At the GM's discretion, other appr
 
 Strix have access to the following equipment.
 
-**Snag Net** : This short, wide net is covered in barbed loops and slipknots. It works like a typical net exotic weapon, except it has the trip weapon special feature. If you entangle an opponent and hold the trailing rope, on your turn in place of a melee attack you may make a trip combat maneuver check against that opponent; if you succeed, you may trip the opponent or deal 1 point of piercing damage to the opponent. The concentration DC to cast while entangled in a snag net is 17 + the spell's level. The [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) DC to escape a snag net is 22.
+**Snag Net** : This short, wide net is covered in barbed loops and slipknots. It works like a typical net exotic weapon, except it has the trip weapon special feature. If you entangle an opponent and hold the trailing rope, on your turn in place of a melee attack you may make a trip combat maneuver check against that opponent; if you succeed, you may trip the opponent or deal 1 point of piercing damage to the opponent. The concentration DC to cast while entangled in a snag net is 17 + the spell's level. The [Escape Artist](skills/escapeArtist.md#_escape-artist) DC to escape a snag net is 22.
 
 [Strix Weapon]
 | Exotic Weapons | Cost | Dmg (S) | Dmg (M) | Critical | Range | Weight | Type | Special |
@@ -93,9 +93,9 @@ Strix have access to the following feat.
 
 You strengthen your crippled wings.
 
-**Prerequisites** : Str 13, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Fly](/pathfinderRPG/prd/skills/fly.html#_fly)), strix, wing-clipped racial trait.
+**Prerequisites** : Str 13, [Skill Focus](feats.md#_skill-focus) ( [Fly](skills/fly.md#_fly)), strix, wing-clipped racial trait.
 
-**Benefit** : Your strix racial fly speed increases to 60 feet (average). You ignore the wing-clipped trait's [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) check requirement to fly upward.
+**Benefit** : Your strix racial fly speed increases to 60 feet (average). You ignore the wing-clipped trait's [Fly](skills/fly.md#_fly) check requirement to fly upward.
 
 ## Strix Magic Items
 
@@ -109,11 +109,11 @@ Stonemist Cloak
 
 Description
 
-In rocky or mountainous areas, when this stone-gray cloak is worn with the hood drawn up around the head, the wearer gains a +5 competence bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks. Once per day, the wearer can create an area of fog equivalent to _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_.
+In rocky or mountainous areas, when this stone-gray cloak is worn with the hood drawn up around the head, the wearer gains a +5 competence bonus on [Stealth](skills/stealth.md#_stealth) checks. Once per day, the wearer can create an area of fog equivalent to _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_; **Cost** 1,750 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [invisibility](spells/invisibility.md#_invisibility)_, _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_; **Cost** 1,750 gp
 
 ## Strix Spells
 

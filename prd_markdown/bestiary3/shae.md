@@ -6,9 +6,9 @@ Shae CR 4
 
 XP 1,200
 
-N Medium outsider ( [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+N Medium outsider ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8
+**Init** +6; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +8
 
 Defense
 
@@ -18,20 +18,20 @@ Defense
 
 **Fort** +8, **Ref** +7, **Will** +7
 
-**Defensive Abilities** [amorphous](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_amorphous), blur; **Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype)
+**Defensive Abilities** [amorphous](monsters/universalMonsterRules.md#_amorphous), blur; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype)
 
 Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk falchion +8 (2d4+4/18–20 plus 1d6 [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype)) or   
-touch +7 (1d6 [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype))
+**Melee** mwk falchion +8 (2d4+4/18–20 plus 1d6 [cold](monsters/creatureTypes.md#_cold-subtype)) or   
+touch +7 (1d6 [cold](monsters/creatureTypes.md#_cold-subtype))
 
 **Spell-Like Abilities** (CL 4th; concentration +7)
 
-Constant—_ [blur](/pathfinderRPG/prd/spells/blur.html#_blur)_
+Constant—_ [blur](spells/blur.md#_blur)_
 
-At will—_lesser [shadow evocation](/pathfinderRPG/prd/spells/shadowEvocation.html#_shadow-evocation)_ (DC 16)
+At will—_lesser [shadow evocation](spells/shadowEvocation.md#_shadow-evocation)_ (DC 16)
 
 Statistics
 
@@ -39,9 +39,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +7; **CMD** 23
 
-**Feats** [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will)
+**Feats** [Combat Expertise](feats.md#_combat-expertise), [Iron Will](feats.md#_iron-will)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +13, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +10, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +10, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +10, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +7, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +9, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +12, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +8, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +13 (+23 in regions of low light or darkness), [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +10; **Racial Modifiers** +10 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) in regions of low light or darkness
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +13, [Bluff](skills/bluff.md#_bluff) +10, [Diplomacy](skills/diplomacy.md#_diplomacy) +10, [Disguise](skills/disguise.md#_disguise) +10, [Intimidate](skills/intimidate.md#_intimidate) +7, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +9, [Knowledge](skills/knowledge.md#_knowledge) (planes) +12, [Perception](skills/perception.md#_perception) +8, [Sense Motive](skills/senseMotive.md#_sense-motive) +8, [Stealth](skills/stealth.md#_stealth) +13 (+23 in regions of low light or darkness), [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +10; **Racial Modifiers** +10 [Stealth](skills/stealth.md#_stealth) in regions of low light or darkness
 
 **Languages** Aklo, Common, Shae
 
@@ -55,11 +55,11 @@ Ecology
 
 Special Abilities
 
-**[Cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) (Su)** A shae's touch saps [heat](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_heat) from living creatures, leaving patches of colorless flesh rather than physical wounds. A shae can deal 1d6 points of [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) damage with a touch. It adds +1d6 points of [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) damage to any melee weapon damage it deals.
+**[Cold](monsters/creatureTypes.md#_cold-subtype) (Su)** A shae's touch saps [heat](monsters/universalMonsterRules.md#_heat) from living creatures, leaving patches of colorless flesh rather than physical wounds. A shae can deal 1d6 points of [cold](monsters/creatureTypes.md#_cold-subtype) damage with a touch. It adds +1d6 points of [cold](monsters/creatureTypes.md#_cold-subtype) damage to any melee weapon damage it deals.
 
-**Lesser Shadow Evocation (Sp)** This spell-like ability functions identically to the spell _ [shadow evocation](/pathfinderRPG/prd/spells/shadowEvocation.html#_shadow-evocation)_, but it can only create quasi-real versions of sorcerer or wizard evocation spells of 2nd level or lower. This spell-like ability is the equivalent of a 3rd-level spell.
+**Lesser Shadow Evocation (Sp)** This spell-like ability functions identically to the spell _ [shadow evocation](spells/shadowEvocation.md#_shadow-evocation)_, but it can only create quasi-real versions of sorcerer or wizard evocation spells of 2nd level or lower. This spell-like ability is the equivalent of a 3rd-level spell.
 
-The mysterious people known as the shaes are natives of the Shadow Plane. In their own language, their name means âunboundâ or âunfettered.â According to shae history, they were once humanoids who through tireless study and self-perfection managed to transcend the bonds of a definite form. Though they still bear roughly humanoid shapes, shaes' outlines are perpetually wispy and impossible for any non-shaes to focus directly on.
+The mysterious people known as the shaes are natives of the Shadow Plane. In their own language, their name means “unbound” or “unfettered.” According to shae history, they were once humanoids who through tireless study and self-perfection managed to transcend the bonds of a definite form. Though they still bear roughly humanoid shapes, shaes' outlines are perpetually wispy and impossible for any non-shaes to focus directly on.
 
 Though shaes may engage in all the same pursuits and professions as other humanoids, their overwhelming racial pride often leads them to see all other humanoids—especially humans—as lesser beings. Ironically, this casual disdain sometimes leads individual shaes to gather harems of worshipful human consorts, and it is from these unions that fetchlings often issue. Humans involved in such relationships often hope to learn the secret of the shaes' power over shadows, and claim that only in sacred union with the creatures can one glimpse their true features.
 

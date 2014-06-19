@@ -4,5 +4,5 @@ Air Walk, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, except divide the duration in 10-minute intervals among the creatures touched.
+This spell functions like _ [air walk](spells/airWalk.md#_air-walk)_, except divide the duration in 10-minute intervals among the creatures touched.
 

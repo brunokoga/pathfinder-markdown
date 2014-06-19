@@ -14,5 +14,5 @@
 
 **Saving Throw** none; **Spell Resistance** no
 
-This spell functions like _ [detect animals or plants](../../spells/detectAnimalsOrPlants.html#_detect-animals-or-plants),_ except it detects creatures of the aberration type.
+This spell functions like _ [detect animals or plants](../../spells/detectAnimalsOrPlants.md#_detect-animals-or-plants),_ except it detects creatures of the aberration type.
 

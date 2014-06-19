@@ -18,7 +18,7 @@ The nagaji are a race of ophidian humanoids with scaled skin that mimics the dra
 
 **Resistant (Ex)** : Nagaji receive a +2 racial saving throw bonus against mind-affecting effects and poison.
 
-**Serpent's Sense (Ex)** : Nagaji receive a +2 racial bonus on [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) checks against reptiles, and a +2 racial bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks.
+**Serpent's Sense (Ex)** : Nagaji receive a +2 racial bonus on [Handle Animal](skills/handleAnimal.md#_handle-animal) checks against reptiles, and a +2 racial bonus on [Perception](skills/perception.md#_perception) checks.
 
 **Languages** : Nagaji begin play speaking Common and Draconic. Nagaji with high Intelligence scores can choose from the following: any human tongue, Abyssal, Aklo, Celestial, Draconic, Giant, Infernal, and Sylvan.
 
@@ -26,13 +26,13 @@ The nagaji are a race of ophidian humanoids with scaled skin that mimics the dra
 
 The following racial trait may be selected instead of an existing nagaji racial trait. Consult your GM before selecting this option.
 
-**Hypnotic Gaze (Sp)** : The nagaji's gaze is so intense it stops others in their tracks. Once per day, it can attempt to hypnotize a single target, as per the spell _ [hypnotism](/pathfinderRPG/prd/spells/hypnotism.html#_hypnotism) _(caster level equal to the nagaji's Hit Dice). The DC of this effect is equal to 11 + the nagaji's Charisma modifier. The effects of the hypnotic gaze only last a single round. This racial trait replaces serpent's sense.
+**Hypnotic Gaze (Sp)** : The nagaji's gaze is so intense it stops others in their tracks. Once per day, it can attempt to hypnotize a single target, as per the spell _ [hypnotism](spells/hypnotism.md#_hypnotism) _(caster level equal to the nagaji's Hit Dice). The DC of this effect is equal to 11 + the nagaji's Charisma modifier. The effects of the hypnotic gaze only last a single round. This racial trait replaces serpent's sense.
 
 # Favored Class Options
 
 The following options are available to all nagaji who have the listed favored class, and unless otherwise stated, the bonus applies each time you select the favored class reward.
 
-**Alchemist** : Add +1 on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) checks to craft poison and +1/3 on the DCs of poisons the alchemist creates.
+**Alchemist** : Add +1 on [Craft](skills/craft.md#_craft) (alchemy) checks to craft poison and +1/3 on the DCs of poisons the alchemist creates.
 
 **Fighter** : Add +1 to the fighter's CMD when resisting a grapple or trip attempt.
 
@@ -50,23 +50,23 @@ The naga aspirant follows the ancient beliefs and engages in the rituals of a dr
 
 **Aspirant's Bond (Ex)** : A naga aspirant gains a spiritual connection to the serpentine deities worshiped by the nagas. At 1st level, and each time she gains a druid level, she may add one of the following spells to her druid spell list.
 
-0—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_, _ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [open/close](/pathfinderRPG/prd/spells/openClose.html#_open-close)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_; 1st—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [expeditious retreat](/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile), [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement), [shield](/pathfinderRPG/prd/spells/shield.html#_shield), [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith), [silent image](/pathfinderRPG/prd/spells/silentImage.html#_silent-image), [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_; 2nd—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_, _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_, _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_; 3rd—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic), [displacement](/pathfinderRPG/prd/spells/displacement.html#_displacement), [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball), [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt), [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_; 4th—_ [divine power](/pathfinderRPG/prd/spells/divinePower.html#_divine-power)_, _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_.
+0—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [bleed](spells/bleed.md#_bleed)_, _ [daze](spells/daze.md#_daze)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [open/close](spells/openClose.md#_open-close)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_; 1st—_ [charm person](spells/charmPerson.md#_charm-person)_, _ [divine favor](spells/divineFavor.md#_divine-favor)_, _ [expeditious retreat](spells/expeditiousRetreat.md#_expeditious-retreat)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile), [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement), [shield](spells/shield.md#_shield), [shield of faith](spells/shieldOfFaith.md#_shield-of-faith), [silent image](spells/silentImage.md#_silent-image), [true strike](spells/trueStrike.md#_true-strike)_; 2nd—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_, _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_, _ [invisibility](spells/invisibility.md#_invisibility)_, _ [mirror image](spells/mirrorImage.md#_mirror-image)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_; 3rd—_ [dispel magic](spells/dispelMagic.md#_dispel-magic), [displacement](spells/displacement.md#_displacement), [fireball](spells/fireball.md#_fireball), [lightning bolt](spells/lightningBolt.md#_lightning-bolt), [suggestion](spells/suggestion.md#_suggestion)_; 4th—_ [divine power](spells/divinePower.md#_divine-power)_, _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_.
 
 This ability replaces spontaneous casting.
 
 **Aspirant's Enlightenment (Ex)** : At 4th level, a naga aspirant gains a +4 bonus on saving throws against the spell-like abilities, supernatural abilities, and poison of nagas. This ability replaces resist nature's lure.
 
-**Naga Shape (Su)** : At 6th level, the naga aspirant can use her wild shape ability (gained at 4th level, as normal) to assume the form of a true naga. This effect functions in a similar manner to a _ [shapechange](/pathfinderRPG/prd/spells/shapechange.html#_shapechange)_ spell with the following exception. The druid's true naga form is unique, representing her personal evolution. When taking naga form, the nagaji's body transforms into that of a large serpent, though she keeps her own head. The naga aspirant loses her limbs and her size increases by one category, granting her a +4 size bonus to Strength and Constitution, a –2 penalty to Dexterity, and a +2 enhancement bonus to her natural armor bonus. She gains a +10 enhancement bonus to land speed and a bite attack that deals 1d6 points of damage. She can cast verbal spells in this form, but cannot cast spells with other components without metamagic or feats such as [Natural Spell](/pathfinderRPG/prd/feats.html#_natural-spell). This otherwise works like and replaces wild shape.
+**Naga Shape (Su)** : At 6th level, the naga aspirant can use her wild shape ability (gained at 4th level, as normal) to assume the form of a true naga. This effect functions in a similar manner to a _ [shapechange](spells/shapechange.md#_shapechange)_ spell with the following exception. The druid's true naga form is unique, representing her personal evolution. When taking naga form, the nagaji's body transforms into that of a large serpent, though she keeps her own head. The naga aspirant loses her limbs and her size increases by one category, granting her a +4 size bonus to Strength and Constitution, a –2 penalty to Dexterity, and a +2 enhancement bonus to her natural armor bonus. She gains a +10 enhancement bonus to land speed and a bite attack that deals 1d6 points of damage. She can cast verbal spells in this form, but cannot cast spells with other components without metamagic or feats such as [Natural Spell](feats.md#_natural-spell). This otherwise works like and replaces wild shape.
 
 **Augmented Form (Su)** _:_ At 9th level and every four levels thereafter, a naga aspirant can choose one of the following abilities to enhance her naga form. Once chosen, this augmentation cannot be changed and always applies to her naga form. The caster level for these abilities is equal to her druid level, and unless otherwise stated, the DC is equal to 10 + 1/2 the druid's class level + the druid's Charisma bonus. This ability replaces venom immunity, a thousand faces, and timeless body.
 
-> _Charming Gaze (Sp)_: The druid gains a gaze attack that affects creatures within 30 feet as a _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ spell.
+> _Charming Gaze (Sp)_: The druid gains a gaze attack that affects creatures within 30 feet as a _ [charm person](spells/charmPerson.md#_charm-person)_ spell.
 > 
-> _ [Darkvision](/pathfinderRPG/prd/spells/darkvision.html#_darkvision) (Su)_: The druid gains darkvision with a range of 60 feet.
+> _ [Darkvision](spells/darkvision.md#_darkvision) (Su)_: The druid gains darkvision with a range of 60 feet.
 > 
-> _Detect Thoughts (Su)_: The druid can use _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_ at will.
+> _Detect Thoughts (Su)_: The druid can use _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_ at will.
 > 
-> _Guarded Thoughts (Ex)_: The druid gains a +2 racial bonus on saves against charm effects and immunity to any form of mind reading (such as _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_).
+> _Guarded Thoughts (Ex)_: The druid gains a +2 racial bonus on saves against charm effects and immunity to any form of mind reading (such as _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_).
 > 
 > _Poison Immunity (Ex)_: The druid gains immunity to all poisons. The druid's naga form must have at least one poison-based natural attack in order to select this ability.
 > 
@@ -76,7 +76,7 @@ This ability replaces spontaneous casting.
 > 
 > _Sting (Ex)_: The naga form grows a stinger on the end of her tail, granting her a sting natural attack that deals 1d6 points of piercing damage.
 > 
-> _ [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) (Ex)_: The naga form gains a swim speed equal to her base speed.
+> _ [Swim](skills/swim.md#_swim) (Ex)_: The naga form gains a swim speed equal to her base speed.
 > 
 > _Tough Scales (Ex)_: The druid's enhancement bonus to her natural armor increases by +2. The druid may select this ability more than once. Its effects stack.
 > 
@@ -112,9 +112,9 @@ Nagaji Scale Polish
 
 Description
 
-This small clay urn contains a scintillating paste which works like _ [imbue with spell ability](/pathfinderRPG/prd/spells/imbueWithSpellAbility.html#_imbue-with-spell-ability)_, except the spell effect is not limited to cleric spells. Any caster may casts spells into the jar. The creature that applies the paste to its scales (a standard action) gains the ability to cast the imbued spells (assuming it has enough Hit Dice and the requisite ability scores). Only a reptilian creature (such as a dragon or a humanoid with the reptilian subtype) can use the polish to cast spells.
+This small clay urn contains a scintillating paste which works like _ [imbue with spell ability](spells/imbueWithSpellAbility.md#_imbue-with-spell-ability)_, except the spell effect is not limited to cleric spells. Any caster may casts spells into the jar. The creature that applies the paste to its scales (a standard action) gains the ability to cast the imbued spells (assuming it has enough Hit Dice and the requisite ability scores). Only a reptilian creature (such as a dragon or a humanoid with the reptilian subtype) can use the polish to cast spells.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [imbue with spell ability](/pathfinderRPG/prd/spells/imbueWithSpellAbility.html#_imbue-with-spell-ability)_ or _ [mnemonic enhancer](/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer)_; **Cost** 700 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [imbue with spell ability](spells/imbueWithSpellAbility.md#_imbue-with-spell-ability)_ or _ [mnemonic enhancer](spells/mnemonicEnhancer.md#_mnemonic-enhancer)_; **Cost** 700 gp
 

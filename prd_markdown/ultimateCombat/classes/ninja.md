@@ -19,7 +19,7 @@ The following table lists the starting gold piece value for the new classes pres
 
 ## Class Skills
 
-The ninja's class skills are [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) (Dex), [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) (Int), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) (Cha), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) (Str), [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (Int), [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) (Cha), [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) (Dex), [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) (Cha), [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) (Dex), [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) (Cha), [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) (Int), [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) (Int), [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) (Int), [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) (Wis), [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (Cha), [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (Wis), [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) (Wis), [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) (Dex), [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) (Dex), [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) (Str), and [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) (Cha).
+The ninja's class skills are [Acrobatics](skills/acrobatics.md#_acrobatics) (Dex), [Appraise](skills/appraise.md#_appraise) (Int), [Bluff](skills/bluff.md#_bluff) (Cha), [Climb](skills/climb.md#_climb) (Str), [Craft](skills/craft.md#_craft) (Int), [Diplomacy](skills/diplomacy.md#_diplomacy) (Cha), [Disable Device](skills/disableDevice.md#_disable-device) (Dex), [Disguise](skills/disguise.md#_disguise) (Cha), [Escape Artist](skills/escapeArtist.md#_escape-artist) (Dex), [Intimidate](skills/intimidate.md#_intimidate) (Cha), [Knowledge](skills/knowledge.md#_knowledge) (local) (Int), [Knowledge](skills/knowledge.md#_knowledge) (nobility) (Int), [Linguistics](skills/linguistics.md#_linguistics) (Int), [Perception](skills/perception.md#_perception) (Wis), [Perform](skills/perform.md#_perform) (Cha), [Profession](skills/profession.md#_profession) (Wis), [Sense Motive](skills/senseMotive.md#_sense-motive) (Wis), [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) (Dex), [Stealth](skills/stealth.md#_stealth) (Dex), [Swim](skills/swim.md#_swim) (Str), and [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) (Cha).
 
 **Skill Ranks per Level** : 8 + Int modifier.
 
@@ -63,9 +63,9 @@ With a weapon that deals nonlethal damage (such as a sap, whip, or unarmed strik
 
 The ninja must be able to see the target well enough to pick out a vital spot, and must be able to reach this spot. A ninja cannot sneak attack while striking a creature that has concealment.
 
-**_Ki_ Pool (Su)** : At 2nd level, a ninja gains a pool of _ki_ points, supernatural energy she can use to accomplish amazing feats. The number of points in the ninja's _ki_ pool is equal to 1/2 her ninja level + her Charisma modifier. As long as she has at least 1 point in her _ki_ pool, she treats any [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) skill check made to jump as if she had a running start. At 10th level, she also reduces the DC of [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) skill checks made to jump by 1/2 (although she still cannot move farther than her speed allows).
+**_Ki_ Pool (Su)** : At 2nd level, a ninja gains a pool of _ki_ points, supernatural energy she can use to accomplish amazing feats. The number of points in the ninja's _ki_ pool is equal to 1/2 her ninja level + her Charisma modifier. As long as she has at least 1 point in her _ki_ pool, she treats any [Acrobatics](skills/acrobatics.md#_acrobatics) skill check made to jump as if she had a running start. At 10th level, she also reduces the DC of [Acrobatics](skills/acrobatics.md#_acrobatics) skill checks made to jump by 1/2 (although she still cannot move farther than her speed allows).
 
-By spending 1 point from her _ki_ pool, a ninja can make one additional attack at her highest attack bonus, but she can do so only when making a full attack. In addition, she can spend 1 point to increase her speed by 20 feet for 1 round. Finally, a ninja can spend 1 point from her _ki_ pool to give herself a +4 insight bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks for 1 round. Each of these powers is activated as a swift action. A ninja can gain additional powers that consume points from her _ki_ pool by selecting certain ninja tricks.
+By spending 1 point from her _ki_ pool, a ninja can make one additional attack at her highest attack bonus, but she can do so only when making a full attack. In addition, she can spend 1 point to increase her speed by 20 feet for 1 round. Finally, a ninja can spend 1 point from her _ki_ pool to give herself a +4 insight bonus on [Stealth](skills/stealth.md#_stealth) checks for 1 round. Each of these powers is activated as a swift action. A ninja can gain additional powers that consume points from her _ki_ pool by selecting certain ninja tricks.
 
 The _ki_ pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive. If the ninja possesses levels in another class that grants points to a _ki_ pool, ninja levels stack with the levels of that class to determine the total number of _ki_ points in the combined pool, but only one ability score modifier is added to the total. The choice of which score to use is made when the second class ability is gained, and once made, the choice is set. The ninja can now use _ki_ points from this pool to power the abilities of every class she possesses that grants a _ki_ pool.
 
@@ -73,12 +73,12 @@ The _ki_ pool is replenished each morning after 8 hours of rest or meditation; t
 
 Tricks marked with an asterisk (\*) add effects to a ninja's sneak attack. Only one of these tricks can be applied to an individual attack and the decision must be made before the attack is made.
 
-_ [Acrobatic](/pathfinderRPG/prd/feats.html#_acrobatic) Master (Su)_: As a swift action, a ninja with this trick can focus her _ki_ to grant her a +20 bonus on one [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) check of her choice made before the start of her next turn. Using this ability expends 1 _ki_ point from her _ki_ pool.
+_ [Acrobatic](feats.md#_acrobatic) Master (Su)_: As a swift action, a ninja with this trick can focus her _ki_ to grant her a +20 bonus on one [Acrobatics](skills/acrobatics.md#_acrobatics) check of her choice made before the start of her next turn. Using this ability expends 1 _ki_ point from her _ki_ pool.
 
   
   
 
-_Bleeding Attack\* (Ex)_: A ninja with this trick can cause living opponents to bleed by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the ninja's sneak attack. Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) check or the application of any effect that heals hit point damage. Bleed damage from this ability does not stack with itself. Bleed damage bypasses any DR the creature might possess.
+_Bleeding Attack\* (Ex)_: A ninja with this trick can cause living opponents to bleed by hitting them with a sneak attack. This attack causes the target to take 1 additional point of damage each round for each die of the ninja's sneak attack. Bleeding creatures take that amount of damage every round at the start of each of their turns. The bleeding can be stopped by a DC 15 [Heal](skills/heal.md#_heal) check or the application of any effect that heals hit point damage. Bleed damage from this ability does not stack with itself. Bleed damage bypasses any DR the creature might possess.
 
   
   
@@ -93,7 +93,7 @@ _Combat Trick_: A ninja who selects this trick gains a bonus combat feat.
   
   
 
-_ [Darkvision](/pathfinderRPG/prd/spells/darkvision.html#_darkvision) (Su)_: This trick allows the ninja to use her _ki_ to enhance her sight, granting darkvision out to a range of 60 feet. Using this trick is a standard action that costs 1 _ki_ point. The enhanced senses last for 1 hour.
+_ [Darkvision](spells/darkvision.md#_darkvision) (Su)_: This trick allows the ninja to use her _ki_ to enhance her sight, granting darkvision out to a range of 60 feet. Using this trick is a standard action that costs 1 _ki_ point. The enhanced senses last for 1 hour.
 
   
   
@@ -103,17 +103,17 @@ _Deadly Range (Ex)_: A ninja with this ninja trick increases the range at which 
   
   
 
-_ [Deflect Arrows](/pathfinderRPG/prd/feats.html#_deflect-arrows)_: A ninja who selects this ninja trick gains the [Deflect Arrows](/pathfinderRPG/prd/feats.html#_deflect-arrows) feat as a bonus feat. The ninja must have the [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike) combat feat before taking this trick.
+_ [Deflect Arrows](feats.md#_deflect-arrows)_: A ninja who selects this ninja trick gains the [Deflect Arrows](feats.md#_deflect-arrows) feat as a bonus feat. The ninja must have the [Improved Unarmed Strike](feats.md#_improved-unarmed-strike) combat feat before taking this trick.
 
   
   
 
-_Fast [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) (Ex)_: A ninja with this trick can move at full speed using the [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) skill without penalty.
+_Fast [Stealth](skills/stealth.md#_stealth) (Ex)_: A ninja with this trick can move at full speed using the [Stealth](skills/stealth.md#_stealth) skill without penalty.
 
   
   
 
-_Feather Fall (Su)_: As an immediate action, the ninja can slow her descent as if using _ [feather fall](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall)_. This ability uses her ninja level as the caster level. Each use of this ability uses up 1 _ki_ point.
+_Feather Fall (Su)_: As an immediate action, the ninja can slow her descent as if using _ [feather fall](spells/featherFall.md#_feather-fall)_. This ability uses her ninja level as the caster level. Each use of this ability uses up 1 _ki_ point.
 
   
   
@@ -128,7 +128,7 @@ _Forgotten Trick (Ex)_: A ninja with this ability can recall one trick taught to
   
   
 
-_Hidden Weapons (Ex)_: A ninja with this ability can easily conceal weapons on her body. The ninja adds her level on opposed [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) checks made to conceal a weapon. In addition, she can draw hidden weapons as a move action, instead of as a standard action.
+_Hidden Weapons (Ex)_: A ninja with this ability can easily conceal weapons on her body. The ninja adds her level on opposed [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks made to conceal a weapon. In addition, she can draw hidden weapons as a move action, instead of as a standard action.
 
   
   
@@ -148,12 +148,12 @@ _Ki Charge (Su)_: A ninja with this trick can invest a portion of her _ki_ into 
   
   
 
-_ [Poison](/pathfinderRPG/prd/spells/poison.html#_poison) Bomb (Ex)_: Whenever the ninja throws a smoke bomb, she can decide to include 1 dose of any inhaled poison she possesses. This poison affects all creatures in the smoke and lasts as long as the smoke lasts. She must pay for the poison normally. The ninja must have the smoke bomb ninja trick before selecting this trick.
+_ [Poison](spells/poison.md#_poison) Bomb (Ex)_: Whenever the ninja throws a smoke bomb, she can decide to include 1 dose of any inhaled poison she possesses. This poison affects all creatures in the smoke and lasts as long as the smoke lasts. She must pay for the poison normally. The ninja must have the smoke bomb ninja trick before selecting this trick.
 
   
   
 
-_Pressure Points\* (Su)_: A ninja with this trick can strike at an opponent's vital pressure points, causing weakness and intense pain. Whenever the ninja deals sneak attack damage, she also deals 1 point of Strength or Dexterity damage, decided by the ninja. Unlike normal ability damage, this damage can be healed by a DC 15 [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) check. Each successful check heals 1 point of damage caused by this trick. A ninja with this trick receives a +10 insight bonus on this [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) check.
+_Pressure Points\* (Su)_: A ninja with this trick can strike at an opponent's vital pressure points, causing weakness and intense pain. Whenever the ninja deals sneak attack damage, she also deals 1 point of Strength or Dexterity damage, decided by the ninja. Unlike normal ability damage, this damage can be healed by a DC 15 [Heal](skills/heal.md#_heal) check. Each successful check heals 1 point of damage caused by this trick. A ninja with this trick receives a +10 insight bonus on this [Heal](skills/heal.md#_heal) check.
 
   
   
@@ -163,17 +163,17 @@ _Rogue Talent_: The ninja can select a rogue talent in place of a ninja trick. T
   
   
 
-_Shadow Clone (Su)_: The ninja can create 1d4 shadowy duplicates of herself that conceal her true location. This ability functions as _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, using the ninja's level as her caster level. Using this ability is a standard action that uses up 1 _ki_ point.
+_Shadow Clone (Su)_: The ninja can create 1d4 shadowy duplicates of herself that conceal her true location. This ability functions as _ [mirror image](spells/mirrorImage.md#_mirror-image)_, using the ninja's level as her caster level. Using this ability is a standard action that uses up 1 _ki_ point.
 
   
   
 
-_Slow Metabolism (Ex)_: The ninja has a slower-than-normal metabolism. She can hold her breath for twice as long as normal before needing to make Constitution checks (four times her Constitution score). In addition, whenever the ninja is poisoned, the time between saving throws (the poison's frequency) is doubled. Thus, a poison that has a frequency of â1/round for 6 roundsâ would instead be â1/2 rounds for 12 rounds.â
+_Slow Metabolism (Ex)_: The ninja has a slower-than-normal metabolism. She can hold her breath for twice as long as normal before needing to make Constitution checks (four times her Constitution score). In addition, whenever the ninja is poisoned, the time between saving throws (the poison's frequency) is doubled. Thus, a poison that has a frequency of “1/round for 6 rounds” would instead be “1/2 rounds for 12 rounds.”
 
   
   
 
-_ [Slow](/pathfinderRPG/prd/spells/slow.html#_slow) Reactions\* (Ex)_: Opponents that are damaged by the ninja's sneak attack can't make attacks of opportunity for 1 round.
+_ [Slow](spells/slow.md#_slow) Reactions\* (Ex)_: Opponents that are damaged by the ninja's sneak attack can't make attacks of opportunity for 1 round.
 
   
   
@@ -183,7 +183,7 @@ _Smoke Bomb (Ex)_: This ability allows a ninja to throw a smoke bomb that create
   
   
 
-_ [Snatch Arrows](/pathfinderRPG/prd/feats.html#_snatch-arrows)_: A ninja who selects this ninja trick gains the [Snatch Arrows](/pathfinderRPG/prd/feats.html#_snatch-arrows) feat as a bonus feat. The ninja must have the [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike) feat and the [Deflect Arrows](/pathfinderRPG/prd/feats.html#_deflect-arrows) feat before taking this trick.
+_ [Snatch Arrows](feats.md#_snatch-arrows)_: A ninja who selects this ninja trick gains the [Snatch Arrows](feats.md#_snatch-arrows) feat as a bonus feat. The ninja must have the [Improved Unarmed Strike](feats.md#_improved-unarmed-strike) feat and the [Deflect Arrows](feats.md#_deflect-arrows) feat before taking this trick.
 
   
   
@@ -193,27 +193,27 @@ _Style Master_: A ninja who selects this ninja trick gains a style feat that she
   
   
 
-_Sudden [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) (Su)_: As a swift action, a ninja can change her appearance for 1 minute per level. This ability functions as _ [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_. Each use of this ability uses up 1 _ki_ point.
+_Sudden [Disguise](skills/disguise.md#_disguise) (Su)_: As a swift action, a ninja can change her appearance for 1 minute per level. This ability functions as _ [disguise self](spells/disguiseSelf.md#_disguise-self)_. Each use of this ability uses up 1 _ki_ point.
 
   
   
 
-_Unarmed Combat Training_: A ninja who selects this ninja trick gains [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike) as a bonus feat.
+_Unarmed Combat Training_: A ninja who selects this ninja trick gains [Improved Unarmed Strike](feats.md#_improved-unarmed-strike) as a bonus feat.
 
   
   
 
-_Undetected Sabotage (Ex)_: Whenever a ninja with this trick uses [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) to sabotage or disable a device, she can make a [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) check with a bonus equal to her level. Anyone who inspects the device does not notice the sabotage and assumes the object works unless he beats the ninja's check with an opposed [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) skill check.
+_Undetected Sabotage (Ex)_: Whenever a ninja with this trick uses [Disable Device](skills/disableDevice.md#_disable-device) to sabotage or disable a device, she can make a [Stealth](skills/stealth.md#_stealth) check with a bonus equal to her level. Anyone who inspects the device does not notice the sabotage and assumes the object works unless he beats the ninja's check with an opposed [Perception](skills/perception.md#_perception) skill check.
 
   
   
 
-_Vanishing Trick (Su)_: As a swift action, the ninja can disappear for 1 round per level. This ability functions as _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_. Using this ability uses up 1 _ki_ point.
+_Vanishing Trick (Su)_: As a swift action, the ninja can disappear for 1 round per level. This ability functions as _ [invisibility](spells/invisibility.md#_invisibility)_. Using this ability uses up 1 _ki_ point.
 
   
   
 
-_ [Ventriloquism](/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism) (Su)_: As a swift action, the ninja can throw her voice as if using the spell _ [ventriloquism](/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism)_. She can use this ability for 1 minute per ninja level. Each use of this ability uses up 1 _ki_ point.
+_ [Ventriloquism](spells/ventriloquism.md#_ventriloquism) (Su)_: As a swift action, the ninja can throw her voice as if using the spell _ [ventriloquism](spells/ventriloquism.md#_ventriloquism)_. She can use this ability for 1 minute per ninja level. Each use of this ability uses up 1 _ki_ point.
 
   
   
@@ -223,18 +223,18 @@ _Wall Climber (Su)_: A ninja with this ability gains a climb speed of 20 feet, b
   
   
 
-_Weapon Training_: A ninja who selects this ninja trick gains [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) as a bonus feat.
+_Weapon Training_: A ninja who selects this ninja trick gains [Weapon Focus](feats.md#_weapon-focus) as a bonus feat.
 
   
   
 
-**No Trace (Ex)** : At 3rd level, a ninja learns to cover her tracks, remain hidden, and conceal her presence. The DC to track a ninja using the [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) skill increases by +1. In addition, her training gives her a +1 insight bonus on [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) skill checks and on opposed [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks whenever she is stationary and does not take any action for at least 1 round. Every three levels thereafter, the increase to [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) DCs and the bonuses on [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) and opposed [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks increase by 1.
+**No Trace (Ex)** : At 3rd level, a ninja learns to cover her tracks, remain hidden, and conceal her presence. The DC to track a ninja using the [Survival](skills/survival.md#_survival) skill increases by +1. In addition, her training gives her a +1 insight bonus on [Disguise](skills/disguise.md#_disguise) skill checks and on opposed [Stealth](skills/stealth.md#_stealth) checks whenever she is stationary and does not take any action for at least 1 round. Every three levels thereafter, the increase to [Survival](skills/survival.md#_survival) DCs and the bonuses on [Disguise](skills/disguise.md#_disguise) and opposed [Stealth](skills/stealth.md#_stealth) checks increase by 1.
 
 **Uncanny Dodge (Ex)** : Starting at 4th level, a ninja can react to danger before her senses would normally allow her to do so. She cannot be caught flat-footed, nor does she lose her Dexterity bonus to AC if the attacker is invisible. She still loses her Dexterity bonus to AC if immobilized. A ninja with this ability can still lose her Dexterity bonus to AC if an opponent successfully uses the feint action against her.
 
 If a ninja already possesses uncanny dodge from a different class, she automatically gains improved uncanny dodge instead.
 
-**Light Steps (Ex)** : At 6th level, a ninja learns to move while barely touching the surface underneath her. As a full-round action, she can move up to twice her speed, ignoring difficult terrain. While moving in this way, any surface will support her, no matter how much she weighs. This allows her to move across water, lava, or even the thinnest tree branches. She must end her move on a surface that can support her normally. She cannot move across air in this way, nor can she walk up walls or other vertical surfaces. When moving in this way, she does not take damage from surfaces or hazards that react to being touched, such as lava or caltrops, nor does she need to make [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) checks to avoid falling on slippery or rough surfaces. Finally, when using light steps, the ninja ignores any mechanical traps that use a location-based trigger.
+**Light Steps (Ex)** : At 6th level, a ninja learns to move while barely touching the surface underneath her. As a full-round action, she can move up to twice her speed, ignoring difficult terrain. While moving in this way, any surface will support her, no matter how much she weighs. This allows her to move across water, lava, or even the thinnest tree branches. She must end her move on a surface that can support her normally. She cannot move across air in this way, nor can she walk up walls or other vertical surfaces. When moving in this way, she does not take damage from surfaces or hazards that react to being touched, such as lava or caltrops, nor does she need to make [Acrobatics](skills/acrobatics.md#_acrobatics) checks to avoid falling on slippery or rough surfaces. Finally, when using light steps, the ninja ignores any mechanical traps that use a location-based trigger.
 
 **Improved Uncanny Dodge (Ex)** : At 8th level, a ninja can no longer be flanked. This defense denies another ninja (or rogue) the ability to sneak attack the ninja by flanking her, unless the attacker has at least four more ninja (or rogue) levels than the target does.
 
@@ -257,7 +257,7 @@ _Blinding Bomb (Ex)_: Whenever the ninja throws a smoke bomb, all living creatur
   
   
 
-_Deadly Shuriken (Ex):_ As a full-round action, a ninja with this master trick can take careful aim and pool all of her attack potential into a single, deadly shuriken throw. When she does this, she throws a single shuriken at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack. If any of the attack rolls hit the target, the attack hits. For each additional successful attack roll beyond the first, the ninja increases the damage by 1d6. Precision damage and extra damage from weapon special abilities (such as _ [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming)_) are added with damage modifiers and are not increased by this advanced talent. If one or more rolls are critical threats, she confirms the critical once using her highest base attack bonus –5. For each critical threat beyond the first, she reduces this penalty by 1 (to a maximum of 0).
+_Deadly Shuriken (Ex):_ As a full-round action, a ninja with this master trick can take careful aim and pool all of her attack potential into a single, deadly shuriken throw. When she does this, she throws a single shuriken at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack. If any of the attack rolls hit the target, the attack hits. For each additional successful attack roll beyond the first, the ninja increases the damage by 1d6. Precision damage and extra damage from weapon special abilities (such as _ [flaming](magicItems/weapons.md#_weapons-flaming)_) are added with damage modifiers and are not increased by this advanced talent. If one or more rolls are critical threats, she confirms the critical once using her highest base attack bonus –5. For each critical threat beyond the first, she reduces this penalty by 1 (to a maximum of 0).
 
   
   
@@ -277,17 +277,17 @@ _Ghost Step (Su)_: As a swift action, a ninja with this trick can pass through w
   
   
 
-_Invisible Blade (Su)_: Whenever a ninja uses the vanishing trick ninja trick, she is treated as if she were under the effects of _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_. The ninja must have the vanishing trick ninja trick before selecting this ninja trick.
+_Invisible Blade (Su)_: Whenever a ninja uses the vanishing trick ninja trick, she is treated as if she were under the effects of _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_. The ninja must have the vanishing trick ninja trick before selecting this ninja trick.
 
   
   
 
-_Master [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) (Su)_: A ninja with this trick can take on the appearance of other creatures and individuals. Whenever the ninja uses the sudden disguise ninja trick, the duration increases to 10 minutes per level. Alternatively, the ninja can use the sudden disguise ninja trick to take on the appearance of a specific individual that the ninja has seen before for 1 minute per level. Creatures that are familiar with the individual receive a Will saving throw to see through the illusion. The DC of this saving throw is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This illusion also changes the ninja's speech, if she has heard the individual talk and can speak his language. The ninja must have the sudden disguise ninja trick before selecting this trick.
+_Master [Disguise](skills/disguise.md#_disguise) (Su)_: A ninja with this trick can take on the appearance of other creatures and individuals. Whenever the ninja uses the sudden disguise ninja trick, the duration increases to 10 minutes per level. Alternatively, the ninja can use the sudden disguise ninja trick to take on the appearance of a specific individual that the ninja has seen before for 1 minute per level. Creatures that are familiar with the individual receive a Will saving throw to see through the illusion. The DC of this saving throw is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This illusion also changes the ninja's speech, if she has heard the individual talk and can speak his language. The ninja must have the sudden disguise ninja trick before selecting this trick.
 
   
   
 
-_See the Unseen (Su)_: A ninja with this trick learns how to see that which cannot be seen. As a swift action, the ninja can cast _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_, using her level as the caster level. Each use of this ability uses up 1 _ki_ point.
+_See the Unseen (Su)_: A ninja with this trick learns how to see that which cannot be seen. As a swift action, the ninja can cast _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, using her level as the caster level. Each use of this ability uses up 1 _ki_ point.
 
   
   
@@ -297,7 +297,7 @@ _Shadow Split (Su)_: This trick allows the ninja to create an illusory double of
   
   
 
-_Unarmed Combat Mastery_: A ninja who selects this trick deals damage with her unarmed strikes as if she were a monk of her ninja level –4. If the ninja has levels in monk, this ability stacks with monk levels to determine how much damage she can do with her unarmed strikes. A ninja must have the [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike) feat before taking this trick.
+_Unarmed Combat Mastery_: A ninja who selects this trick deals damage with her unarmed strikes as if she were a monk of her ninja level –4. If the ninja has levels in monk, this ability stacks with monk levels to determine how much damage she can do with her unarmed strikes. A ninja must have the [Improved Unarmed Strike](feats.md#_improved-unarmed-strike) feat before taking this trick.
 
   
   
@@ -307,5 +307,5 @@ _Unbound Steps (Su)_: This trick allows a ninja to use her _ki_ to walk through 
   
   
 
-**Hidden Master (Su)** : At 20th level, a ninja becomes a true master of her art. She can, as a standard action, cast _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_ on herself. While invisible in this way, she cannot be detected by any means, and not even _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_, and _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_ can reveal her. She uses her ninja level as her caster level for this ability. Using this ability consumes 3 _ki_ points from her _ki_ pool. In addition, whenever the ninja deals sneak attack damage, she can sacrifice additional damage dice to apply a penalty to one ability score of the target equal to the number of dice sacrificed for 1 minute. This penalty does not stack with itself and cannot reduce an ability score below 1.
+**Hidden Master (Su)** : At 20th level, a ninja becomes a true master of her art. She can, as a standard action, cast _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_ on herself. While invisible in this way, she cannot be detected by any means, and not even _ [invisibility purge](spells/invisibilityPurge.md#_invisibility-purge)_, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, and _ [true seeing](spells/trueSeeing.md#_true-seeing)_ can reveal her. She uses her ninja level as her caster level for this ability. Using this ability consumes 3 _ki_ points from her _ki_ pool. In addition, whenever the ninja deals sneak attack damage, she can sacrifice additional damage dice to apply a penalty to one ability score of the target equal to the number of dice sacrificed for 1 minute. This penalty does not stack with itself and cannot reduce an ability score below 1.
 

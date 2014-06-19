@@ -6,9 +6,9 @@ This bloated spider has a hunchbacked body and a gleam of intelligence in its mu
 
 XP 1,200
 
-N Medium [magical beast](/pathfinderRPG/prd/monsters/creatureTypes.html#_magical-beast) ( [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+N Medium [magical beast](monsters/creatureTypes.md#_magical-beast) ( [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +9
+**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +9
 
 Defense
 
@@ -22,17 +22,17 @@ Offense
 
 **Speed** 50 ft., climb 30 ft.
 
-**Melee** bite +8 (1d6 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** bite +8 (1d6 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Special Attacks** web (+8 ranged, DC 14, hp 5)
 
 **Sorcerer Spells Known** (CL 5th; concentration +8)
 
-2nd (5/day)—_ [invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility)_, _ [mirror image](/pathfinderRPG/prd/additionalMonsters/../spells/mirrorImage.html#_mirror-image)_
+2nd (5/day)—_ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_, _ [mirror image](additionalMonsters/../spells/mirrorImage.md#_mirror-image)_
 
-1st (7/day)—_ [charm person](/pathfinderRPG/prd/additionalMonsters/../spells/charmPerson.html#_charm-person)_ (DC 14), _ [mage armor](/pathfinderRPG/prd/additionalMonsters/../spells/mageArmor.html#_mage-armor)_ (1 already cast), _ [silent image](/pathfinderRPG/prd/additionalMonsters/../spells/silentImage.html#_silent-image)_ (DC 14), _ [sleep](/pathfinderRPG/prd/additionalMonsters/../spells/sleep.html#_sleep)_ (DC 14)
+1st (7/day)—_ [charm person](additionalMonsters/../spells/charmPerson.md#_charm-person)_ (DC 14), _ [mage armor](additionalMonsters/../spells/mageArmor.md#_mage-armor)_ (1 already cast), _ [silent image](additionalMonsters/../spells/silentImage.md#_silent-image)_ (DC 14), _ [sleep](additionalMonsters/../spells/sleep.md#_sleep)_ (DC 14)
 
-0 (at will)—_ [daze](/pathfinderRPG/prd/additionalMonsters/../spells/daze.html#_daze)_ (DC 13), _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [ghost sound](/pathfinderRPG/prd/additionalMonsters/../spells/ghostSound.html#_ghost-sound)_ (DC 13), _ [light](/pathfinderRPG/prd/additionalMonsters/../spells/light.html#_light)_, _ [mage hand](/pathfinderRPG/prd/additionalMonsters/../spells/mageHand.html#_mage-hand)_, _ [resistance](/pathfinderRPG/prd/additionalMonsters/../spells/resistance.html#_resistance)_
+0 (at will)—_ [daze](additionalMonsters/../spells/daze.md#_daze)_ (DC 13), _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [ghost sound](additionalMonsters/../spells/ghostSound.md#_ghost-sound)_ (DC 13), _ [light](additionalMonsters/../spells/light.md#_light)_, _ [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand)_, _ [resistance](additionalMonsters/../spells/resistance.md#_resistance)_
 
 Statistics
 
@@ -40,13 +40,13 @@ Statistics
 
 **Base Atk** +5; **CMB** +5; **CMD** 18
 
-**Feats** [Eschew Materials](/pathfinderRPG/prd/additionalMonsters/../feats.html#_eschew-materials)B, [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
+**Feats** [Eschew Materials](additionalMonsters/../feats.md#_eschew-materials)B, [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +9 (+17 jump), [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +14, [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +8, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana) +7, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +9, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +9; **Racial Modifiers** +2 [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics), +2 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +9 (+17 jump), [Climb](additionalMonsters/../skills/climb.md#_climb) +14, [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +8, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +7, [Perception](additionalMonsters/../skills/perception.md#_perception) +9, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +9; **Racial Modifiers** +2 [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics), +2 [Perception](additionalMonsters/../skills/perception.md#_perception)
 
 **Languages** Common, Sylvan
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) ( [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid); _ [alter self](/pathfinderRPG/prd/additionalMonsters/../spells/alterSelf.html#_alter-self)_)
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) ( [humanoid](monsters/creatureTypes.md#_humanoid); _ [alter self](additionalMonsters/../spells/alterSelf.md#_alter-self)_)
 
 Ecology
 
@@ -58,9 +58,9 @@ Ecology
 
 Special Abilities
 
-**[Change Shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (Su)** An aranea can take the form of a Small or Medium [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid) or spider-humanoid hybrid. In [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid) form, an aranea cannot use its bite, web, or [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)). In spider-humanoid hybrid form, an aranea looks like a [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid) with spidery fangs and spinnerets, with the latter typically located at the small of its back. The aranea retains its bite attack, webs, and [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) in this form, and can wield weapons and wear armor. When in [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid) or hybrid form, an aranea's speed is 30 feet and it has no climb speed.
+**[Change Shape](monsters/universalMonsterRules.md#_change-shape) (Su)** An aranea can take the form of a Small or Medium [humanoid](monsters/creatureTypes.md#_humanoid) or spider-humanoid hybrid. In [humanoid](monsters/creatureTypes.md#_humanoid) form, an aranea cannot use its bite, web, or [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)). In spider-humanoid hybrid form, an aranea looks like a [humanoid](monsters/creatureTypes.md#_humanoid) with spidery fangs and spinnerets, with the latter typically located at the small of its back. The aranea retains its bite attack, webs, and [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) in this form, and can wield weapons and wear armor. When in [humanoid](monsters/creatureTypes.md#_humanoid) or hybrid form, an aranea's speed is 30 feet and it has no climb speed.
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 14; _frequency_ 1/round for 6 rounds; _effect_ 1d3 Strength; _cure_ 1 save.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 14; _frequency_ 1/round for 6 rounds; _effect_ 1d3 Strength; _cure_ 1 save.
 
 **Spells** An aranea casts spells as a 5th-level sorcerer, but does not gain any additional abilities, such as a sorcerous bloodline.
 

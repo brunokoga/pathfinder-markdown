@@ -6,9 +6,9 @@ Ivory tusks, insect chitin, matted fur, scaly flesh, and more combine to form a 
 
 **XP 400**
 
-LN Medium [monstrous humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_monstrous-humanoid)
+LN Medium [monstrous humanoid](monsters/creatureTypes.md#_monstrous-humanoid)
 
-**Init** +1; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6
+**Init** +1; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +6
 
 Defense
 
@@ -32,13 +32,13 @@ Statistics
 
 **Base Atk** +2; **CMB** +4; **CMD** 15
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth))
+**Feats** [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth.md#_stealth))
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +6, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6, [Sleight of Hand](/pathfinderRPG/prd/additionalMonsters/../skills/sleightOfHand.html#_sleight-of-hand) +7, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +13, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +5; **Racial Modifiers** +4 [Sleight of Hand](/pathfinderRPG/prd/additionalMonsters/../skills/sleightOfHand.html#_sleight-of-hand), +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +6, [Perception](additionalMonsters/../skills/perception.md#_perception) +6, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand) +7, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +13, [Survival](additionalMonsters/../skills/survival.md#_survival) +5; **Racial Modifiers** +4 [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
 
 **Languages** Common, Undercommon
 
-**SQ** [sound mimicry](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_sound-mimicry) (voices)
+**SQ** [sound mimicry](monsters/universalMonsterRules.md#_sound-mimicry) (voices)
 
 Ecology
 

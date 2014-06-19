@@ -8,7 +8,7 @@ XP 400
 
 CG Medium fey
 
-**Init** +3; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8
+**Init** +3; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +8
 
 Defense
 
@@ -32,9 +32,9 @@ Offense
 
 **Spell-Like Abilities** (CL 3rd; concentration +6)
 
-At will—_ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_ (DC 13)
+At will—_ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 13)
 
-1/day—_ [hideous laughter](/pathfinderRPG/prd/spells/hideousLaughter.html#_hideous-laughter)_ (DC 14), _ [sleep](/pathfinderRPG/prd/spells/sleep.html#_sleep)_ (DC 14)
+1/day—_ [hideous laughter](spells/hideousLaughter.md#_hideous-laughter)_ (DC 14), _ [sleep](spells/sleep.md#_sleep)_ (DC 14)
 
 Statistics
 
@@ -42,9 +42,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +3; **CMD** 16
 
-**Feats** [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Point-Blank Shot](feats.md#_point-blank-shot), [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +8, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +9, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (wind) +9, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +7, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +9, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +4
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +8, [Bluff](skills/bluff.md#_bluff) +9, [Perception](skills/perception.md#_perception) +8, [Perform](skills/perform.md#_perform) (wind) +9, [Sense Motive](skills/senseMotive.md#_sense-motive) +7, [Stealth](skills/stealth.md#_stealth) +9, [Survival](skills/survival.md#_survival) +4
 
 **Languages** Common, Sylvan
 

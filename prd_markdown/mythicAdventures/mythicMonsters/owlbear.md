@@ -6,9 +6,9 @@ Mythic Owlbear CR 5/MR 2
 
 XP 1,600
 
-N Large magical beast ( [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
+N Large magical beast ( [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
 
-**Init** +7M; **Senses** darkvision 60 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12
+**Init** +7M; **Senses** darkvision 60 ft., [low-light vision](monsters/universalMonsterRules.md#_low-light-vision), [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +12
 
 Defense
 
@@ -24,11 +24,11 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** bite +9 (1d8+5), 2 claws +9 (1d6+5 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +9 (1d8+5), 2 claws +9 (1d6+5 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** disorienting [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce), mythic power (2/day, surge +1d6), [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce), rend (2 claws, 1d6+7)
+**Special Attacks** disorienting [pounce](monsters/universalMonsterRules.md#_pounce), mythic power (2/day, surge +1d6), [pounce](monsters/universalMonsterRules.md#_pounce), rend (2 claws, 1d6+7)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +11 (+15 grapple); **CMD** 22 (26 vs. trip)
 
-**Feats** [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Great Fortitude](feats.md#_great-fortitude), [Improved Initiative](mythicAdventures/mythicFeats.md#_improved-initiative-mythic)M, [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12
+**Skills** [Perception](skills/perception.md#_perception) +12
 
 Ecology
 
@@ -50,7 +50,7 @@ Ecology
 
 Special Abilities
 
-**Disorienting Pounce (Ex)** A creature that a mythic owlbear hits when using its [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce) ability is automatically staggered for 1 round.
+**Disorienting Pounce (Ex)** A creature that a mythic owlbear hits when using its [pounce](monsters/universalMonsterRules.md#_pounce) ability is automatically staggered for 1 round.
 
 A mythic owlbear may have been created by a mythic mage, or adopted as the favored pet of a mythic druid. Though as short-tempered and bloodthirsty as other owlbears, a mythic owlbear has the sense to avoid or flee foes more powerful than itself.
 
@@ -64,9 +64,9 @@ XP 9,600
 
 Advanced mythic owlbear
 
-N Large magical beast ( [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
+N Large magical beast ( [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
 
-**Init** +10M; **Senses** darkvision 60 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16
+**Init** +10M; **Senses** darkvision 60 ft., [low-light vision](monsters/universalMonsterRules.md#_low-light-vision), [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +16
 
 Defense
 
@@ -82,11 +82,11 @@ Offense
 
 **Speed** 30 ft., fly 60 ft. (average)
 
-**Melee** bite +17 (2d6+8), 2 claws +18 (1d8+8 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +17 (2d6+8), 2 claws +18 (1d8+8 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** disorienting [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce), mythic power (4/day, surge +1d8), [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce), rend (2 claws, 1d8+12)
+**Special Attacks** disorienting [pounce](monsters/universalMonsterRules.md#_pounce), mythic power (4/day, surge +1d8), [pounce](monsters/universalMonsterRules.md#_pounce), rend (2 claws, 1d8+12)
 
 Statistics
 
@@ -94,9 +94,9 @@ Statistics
 
 **Base Atk** +10; **CMB** +19 (+23 grapple); **CMD** 31 (35 vs. trip)
 
-**Feats** [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (claws)
+**Feats** [Great Fortitude](feats.md#_great-fortitude), [Improved Initiative](mythicAdventures/mythicFeats.md#_improved-initiative-mythic)M, [Iron Will](mythicAdventures/mythicFeats.md#_iron-will-mythic)M, [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception)), [Weapon Focus](feats.md#_weapon-focus) (claws)
 
-**Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +5, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16
+**Skills** [Fly](skills/fly.md#_fly) +5, [Perception](skills/perception.md#_perception) +16
 
 **SQ** immortal (see page 13)
 

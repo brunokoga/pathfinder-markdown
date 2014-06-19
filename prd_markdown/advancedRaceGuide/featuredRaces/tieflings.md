@@ -30,9 +30,9 @@ Tieflings seldom see another of their own kind, and thus they usually simply ado
 
 **Darkvision** : Tieflings see in the dark for up to 60 feet.
 
-**Skilled** : Tieflings gain a +2 racial bonus on [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) and [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks.
+**Skilled** : Tieflings gain a +2 racial bonus on [Bluff](skills/bluff.md#_bluff) and [Stealth](skills/stealth.md#_stealth) checks.
 
-**Spell-Like Ability** : Tieflings can use _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_ once per day as a spell-like ability. The caster level for this ability equals the tiefling's class level.
+**Spell-Like Ability** : Tieflings can use _ [darkness](spells/darkness.md#_darkness)_ once per day as a spell-like ability. The caster level for this ability equals the tiefling's class level.
 
 **Fiendish Resistance** : Tieflings have cold resistance 5, electricity resistance 5, and fire resistance 5.
 
@@ -44,7 +44,7 @@ Tieflings seldom see another of their own kind, and thus they usually simply ado
 
 The following racial traits may be selected instead of existing tiefling racial traits. Consult your GM before selecting any of these new options.
 
-**Beguiling Liar** : Many tieflings find that the best way to get along in the world is to tell others what they want to hear. These tieflings' practice of telling habitual falsehoods grants them a +4 racial bonus on [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) checks to convince an opponent that what they are saying is true when they tell a lie. This racial trait replaces skilled.
+**Beguiling Liar** : Many tieflings find that the best way to get along in the world is to tell others what they want to hear. These tieflings' practice of telling habitual falsehoods grants them a +4 racial bonus on [Bluff](skills/bluff.md#_bluff) checks to convince an opponent that what they are saying is true when they tell a lie. This racial trait replaces skilled.
 
 **Fiendish Sprinter** : Some tieflings have feet that are more bestial than human. Whether their feet resemble those of a clawed predator or are the cloven hooves common to many of their kind, tieflings with this trait gain a 10-foot racial bonus to their speed when using the charge, run, or withdraw actions. This racial trait replaces skilled.
 
@@ -54,9 +54,9 @@ The following racial traits may be selected instead of existing tiefling racial 
 
 **Scaled Skin** : The skin of these tieflings provides some energy resistance, but is also as hard as armor. Choose one of the following energy types: cold, electricity, or fire. A tiefling with this trait gains resistance 5 in the chosen energy type and also gains a +1 natural armor bonus to AC. This racial trait replaces fiendish resistance.
 
-**Soul Seer** : Rare tieflings have a peculiar sight that allows them to see the state of a creature's soul. They can use _ [deathwatch](/pathfinderRPG/prd/spells/deathwatch.html#_deathwatch)_ at will as spell-like ability. This racial trait replaces the spell-like ability and fiendish sorcery racial traits.
+**Soul Seer** : Rare tieflings have a peculiar sight that allows them to see the state of a creature's soul. They can use _ [deathwatch](spells/deathwatch.md#_deathwatch)_ at will as spell-like ability. This racial trait replaces the spell-like ability and fiendish sorcery racial traits.
 
-**Vestigial Wings** : Some tieflings possess a pair of undersized, withered, or stunted wings like a mockery of those of their fiendish forbearer. Sometimes these wings are leathery, like those of a bat. Other times they are covered with a scattering of black, red, or violet feathers. Rare manifestations can take even more bizarre forms. These wings do not provide the lift required for actual flight, but do have enough power to aid flight attained by some other method, and grant a +4 racial bonus on [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) skill checks. This racial trait replaces skilled.
+**Vestigial Wings** : Some tieflings possess a pair of undersized, withered, or stunted wings like a mockery of those of their fiendish forbearer. Sometimes these wings are leathery, like those of a bat. Other times they are covered with a scattering of black, red, or violet feathers. Rare manifestations can take even more bizarre forms. These wings do not provide the lift required for actual flight, but do have enough power to aid flight attained by some other method, and grant a +4 racial bonus on [Fly](skills/fly.md#_fly) skill checks. This racial trait replaces skilled.
 
 # Favored Class Options
 
@@ -68,7 +68,7 @@ The following options are available to all tieflings who have the listed favored
 
 **Druid** : Add a +1 bonus on wild empathy checks made to improve the attitude of fiendish animals.
 
-**Inquisitor** : Add a +1/2 bonus on [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks and [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) checks to identify creatures.
+**Inquisitor** : Add a +1/2 bonus on [Intimidate](skills/intimidate.md#_intimidate) checks and [Knowledge](skills/knowledge.md#_knowledge) checks to identify creatures.
 
 **Magus** : Add +1/4 point to the magus's arcane pool.
 
@@ -92,13 +92,13 @@ The following racial archetypes are available to tieflings.
 
 Some tiefling magi can tap the dark energy of their fiendish blood to enhance their arcane and combat talents. By physically carving away their tainted flesh, they can use its dark energies to enhance their powers, call forth weapons from thin air, and bypass enemies' strongest defenses. A fiend flayer has the following class features.
 
-**Infernal Mortification (Su)** : At 1st level, a fiend flayer can sacrifice some of his own infernal blood to add to his arcane pool. Sacrificing blood in this way is a standard action. For every 2 points of Constitution damage the fiend flayer takes in this way, his arcane pool increases by 1 point. Any arcane pool points gained in this way and not spent disappear the next time the magus prepares his spells. Unlike normal ability score damage, this damage cannot be healed by way of _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_. Only time can heal the Constitution damage taken by way of infernal mortification. This ability cannot be used if the fiend flayer's Constitution damage is equal to or greater than 1/2 his Constitution score.
+**Infernal Mortification (Su)** : At 1st level, a fiend flayer can sacrifice some of his own infernal blood to add to his arcane pool. Sacrificing blood in this way is a standard action. For every 2 points of Constitution damage the fiend flayer takes in this way, his arcane pool increases by 1 point. Any arcane pool points gained in this way and not spent disappear the next time the magus prepares his spells. Unlike normal ability score damage, this damage cannot be healed by way of _ [lesser restoration](spells/restoration.md#_restoration-lesser)_. Only time can heal the Constitution damage taken by way of infernal mortification. This ability cannot be used if the fiend flayer's Constitution damage is equal to or greater than 1/2 his Constitution score.
 
 **Magus Arcana** : A fiend flayer gains access to the following magus arcana. He cannot select any arcana more than once.
 
 > _Fiendblade (Su)_: As a swift action, as long as the fiend flayer used infernal mortification that day to increase his arcane pool, he can conjure forth a weapon using this arcana. Doing so costs 2 points from his arcane pool. The weapon can take the form of any single one-handed melee weapon the fiend flayer is proficient with. This weapon starts as a weapon with a +1 enhancement bonus, but for every four levels beyond 3rd the fiend flayer possesses, the weapon gains another +1 enhancement bonus, to a maximum of +5 at 19th level. This summoned weapon lasts for 1 minute.
 
-At 5th level, these bonuses can be used to add any of the following weapon properties to the fiendblade: _ [anarchic](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-anarchic)_, _ [axiomatic](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-axiomatic)_, _ [dancing](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-dancing)_, _ [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming)_, _burst_, _ [frost](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost)_, _ [icy burst](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-icy-burst)_, _ [keen](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-keen)_, _ [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock)_, _ [shocking burst](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shocking-burst)_, _ [speed](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-speed)_, or _ [unholy](/pathfinderRPG/prd/magicItems/weapons.html#_unholy)_.
+At 5th level, these bonuses can be used to add any of the following weapon properties to the fiendblade: _ [anarchic](magicItems/weapons.md#_weapons-anarchic)_, _ [axiomatic](magicItems/weapons.md#_weapons-axiomatic)_, _ [dancing](magicItems/weapons.md#_weapons-dancing)_, _ [flaming](magicItems/weapons.md#_weapons-flaming)_, _burst_, _ [frost](magicItems/weapons.md#_weapons-frost)_, _ [icy burst](magicItems/weapons.md#_weapons-icy-burst)_, _ [keen](magicItems/weapons.md#_weapons-keen)_, _ [shock](magicItems/weapons.md#_weapons-shock)_, _ [shocking burst](magicItems/weapons.md#_weapons-shocking-burst)_, _ [speed](magicItems/weapons.md#_weapons-speed)_, or _ [unholy](magicItems/weapons.md#_unholy)_.
 
 These bonuses and properties are decided when the arcane pool points are spent and cannot be changed until the next time the fiend flayer uses this arcana. Another creature cannot wield the fiendblade; if it leaves the hand of the fiend flayer, it dissipates in a wisp of red smoke that smells of burning blood.
 
@@ -119,19 +119,19 @@ Channeling this evil causes a burst that affects all creatures in a 30-foot radi
 
 A fiendish vessel may channel this energy a number of times per day equal to 3 + her Charisma modifier. Doing so is a standard action that does not provoke attacks of opportunity. A fiendish vessel can choose whether or not to include herself in this effect. A fiendish vessel must present her unholy symbol or use her familiar as the divine focus for this ability.
 
-For the purposes of feats that affect channel energy, this ability counts as channeling negative energy. If the feat changes the way the fiendish vessel channels or deals damage with her channeling, use the amount of damage this ability heals evil creatures to determine the damage-dealing potential of the affected ability. For instance, if a 5th-level fiendish vessel takes the [Channel Smite](/pathfinderRPG/prd/feats.html#_channel-smite) feat, her channeling deals an additional 3d4 points of damage to living creatures on a successful hit (though they may save to negate the damage).
+For the purposes of feats that affect channel energy, this ability counts as channeling negative energy. If the feat changes the way the fiendish vessel channels or deals damage with her channeling, use the amount of damage this ability heals evil creatures to determine the damage-dealing potential of the affected ability. For instance, if a 5th-level fiendish vessel takes the [Channel Smite](feats.md#_channel-smite) feat, her channeling deals an additional 3d4 points of damage to living creatures on a successful hit (though they may save to negate the damage).
 
 This ability replaces channel energy.
 
-**Fiendish Familiar** : At 3rd level, a fiendish vessel's patron rewards her with a fiendish servant. The fiendish vessel gains an imp, quasit, or cacodaemon familiar based on the patron she worships. This ability is identical to the wizard's arcane bond with a familiar and the [Improved Familiar](/pathfinderRPG/prd/feats.html#_improved-familiar) feat, using the fiendish vessel's character level in place of the wizard level.
+**Fiendish Familiar** : At 3rd level, a fiendish vessel's patron rewards her with a fiendish servant. The fiendish vessel gains an imp, quasit, or cacodaemon familiar based on the patron she worships. This ability is identical to the wizard's arcane bond with a familiar and the [Improved Familiar](feats.md#_improved-familiar) feat, using the fiendish vessel's character level in place of the wizard level.
 
 This tiny fiend acts like a perverse, manifest moral compass. Furthermore, this familiar can act as a living divine focus and unholy symbol for her spellcasting if the fiendish vessel so desires, which means that when she uses her channel evil ability, its burst can be centered on the familiar instead, as long as that familiar is within 30 feet and line of sight. A fiendish vessel's familiar tends to be fawning and subservient to the fiendish vessel. Should her familiar die, the fiendish vessel's patron replaces the familiar with an identical one within 1 week, without the need for a special ritual. Furthermore, the fiendish familiar gains the following special abilities beyond the standard familiar special abilities.
 
-> _Fiendish [Augury](/pathfinderRPG/prd/spells/augury.html#_augury) (Sp)_: At 3rd level, the fiendish vessel can ask the familiar whether a particular course of action will bring good or bad results for her in the immediate future. This ability acts like the _ [augury](/pathfinderRPG/prd/spells/augury.html#_augury)_ spell, with a caster level equal to the fiendish vessel's level, with the familiar acting as the mouthpiece for the spell. This ability can be used once per day.
+> _Fiendish [Augury](spells/augury.md#_augury) (Sp)_: At 3rd level, the fiendish vessel can ask the familiar whether a particular course of action will bring good or bad results for her in the immediate future. This ability acts like the _ [augury](spells/augury.md#_augury)_ spell, with a caster level equal to the fiendish vessel's level, with the familiar acting as the mouthpiece for the spell. This ability can be used once per day.
 > 
-> _Fiendish [Divination](/pathfinderRPG/prd/spells/divination.html#_divination) (Sp)_: At 9th level, the fiendish vessel can use a more powerful form of divination to gain intelligence from her patron through her fiendish familiar. This ability acts like the _ [divination](/pathfinderRPG/prd/spells/divination.html#_divination)_ spell, with a caster level equal to the fiendish vessel's level; the familiar acts as the mouthpiece for the spell. This ability can be used once per day.
+> _Fiendish [Divination](spells/divination.md#_divination) (Sp)_: At 9th level, the fiendish vessel can use a more powerful form of divination to gain intelligence from her patron through her fiendish familiar. This ability acts like the _ [divination](spells/divination.md#_divination)_ spell, with a caster level equal to the fiendish vessel's level; the familiar acts as the mouthpiece for the spell. This ability can be used once per day.
 > 
-> _Extra [Divination](/pathfinderRPG/prd/spells/divination.html#_divination) (Sp)_: At 13th level, the fiendish vessel can gain intelligence from her patron more often each day. She can use fiendish divination up to 3 times per day.
+> _Extra [Divination](spells/divination.md#_divination) (Sp)_: At 13th level, the fiendish vessel can gain intelligence from her patron more often each day. She can use fiendish divination up to 3 times per day.
 
 **Fiendish Summoning** : When casting _summon monster_ spells, a fiendish vessel is limited to summoning fiendish creatures and evil outsiders of the same alignment as her patron.
 
@@ -145,12 +145,12 @@ The following describes some of the more common patrons.
 | Baalzebul | LE | Arrogance, flies, lies | Air, Death, Evil, Law | Spear |
 | Belial | LE | Adultery, deception, desire | Charm, Destruction, Evil, Law | Ranseur |
 | Dispater | LE | Cities, prisons, rulership | Evil, Law, Nobility, Trickery | Heavy mace |
-| Mephistopheles | LE | Contracts, devils, secrets | Evil, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge), Law, Rune | Trident |
+| Mephistopheles | LE | Contracts, devils, secrets | Evil, [Knowledge](skills/knowledge.md#_knowledge), Law, Rune | Trident |
 
 [Demon Lords]
 | Demon Lord | AL | Areas of Concern | Domains | Favored Weapon |
 | --- | --- | --- | --- | --- |
-| Abraxas | CE | Forbidden lore, magic, snakes | Chaos, Evil, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge), Magic | Whip |
+| Abraxas | CE | Forbidden lore, magic, snakes | Chaos, Evil, [Knowledge](skills/knowledge.md#_knowledge), Magic | Whip |
 | Baphomet | CE | Beasts, labyrinths, minotaurs | Animal, Chaos, Evil, Strength | Glaive |
 | Dagon | CE | Deformity, the sea, sea monsters | Chaos, Destruction, Evil, Water | Trident |
 | Shax | CE | Envy, lies, murder | Chaos, Destruction, Evil, Nobility | Dagger |
@@ -159,7 +159,7 @@ The following describes some of the more common patrons.
 | Horseman | AL | Areas of Concern | Domains | Favored Weapon |
 | --- | --- | --- | --- | --- |
 | Apollyon | NE | Pestilence | Air, Darkness, Destruction, Evil | Scythe |
-| Charon | NE | Death | Death, Evil, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge), Water | Quarterstaff |
+| Charon | NE | Death | Death, Evil, [Knowledge](skills/knowledge.md#_knowledge), Water | Quarterstaff |
 | Szuriel | NE | War | Evil, Fire, Strength, War | Greatsword |
 | Trelmarixian | NE | Famine | Earth, Evil, Madness, Weather | Spiked gauntlet |
 
@@ -171,7 +171,7 @@ The following options are available to tieflings. At the GM's discretion, other 
 
 Tieflings have access to the following equipment.
 
-**Fiendgore Unguent** : When this unguent—prepared with vile alchemical reagents and the gore of fiends—is applied to a wounded tiefling or evil outsider (not currently at maximum hit points), it momentarily transforms the essence of the target into something even more fearsome and demonic. While under the effects of a fiendgore unguent, a tiefling or an evil outsider gains a +2 circumstance bonus on [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks and a +1 circumstance bonus to the DC of all spells with the fear descriptor that they cast. Applying the unguent is a delicate process, requiring a full-round action, and can only be properly applied to a willing or helpless creature. If applied to a creature other than a tiefling or an evil outsider, it sickens the creature instead. The unguent's effects (either beneficial or harmful) last for 1 minute.
+**Fiendgore Unguent** : When this unguent—prepared with vile alchemical reagents and the gore of fiends—is applied to a wounded tiefling or evil outsider (not currently at maximum hit points), it momentarily transforms the essence of the target into something even more fearsome and demonic. While under the effects of a fiendgore unguent, a tiefling or an evil outsider gains a +2 circumstance bonus on [Intimidate](skills/intimidate.md#_intimidate) checks and a +1 circumstance bonus to the DC of all spells with the fear descriptor that they cast. Applying the unguent is a delicate process, requiring a full-round action, and can only be properly applied to a willing or helpless creature. If applied to a creature other than a tiefling or an evil outsider, it sickens the creature instead. The unguent's effects (either beneficial or harmful) last for 1 minute.
 
 [Tiefling Equipment]
 | Item | Cost | Weight | Craft DC |
@@ -234,11 +234,11 @@ Darksire Amulet
 
 Description
 
-This small iron locket contains some token—a scale, a shaving of a horn or claw, or lock of burning hair—from a fiend. When worn by a tiefling, if he has cold, electricity, or fire resistance, this amulet increases that resistance by 5. Furthermore, it provides a +4 insight bonus on [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) skill checks made to influence evil outsiders.
+This small iron locket contains some token—a scale, a shaving of a horn or claw, or lock of burning hair—from a fiend. When worn by a tiefling, if he has cold, electricity, or fire resistance, this amulet increases that resistance by 5. Furthermore, it provides a +4 insight bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) skill checks made to influence evil outsiders.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy), _creator must be a tiefling, half-fiend, or true fiend ; **Cost** 4,500 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [resist energy](spells/resistEnergy.md#_resist-energy), _creator must be a tiefling, half-fiend, or true fiend ; **Cost** 4,500 gp
 
 Halo of Inner Calm
 
@@ -252,7 +252,7 @@ This silvery ring looks like a halo. When worn by a tiefling it hovers just abov
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), creator must be a tiefling of [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype) alignment, _ [holy aura](/pathfinderRPG/prd/spells/holyAura.html#_holy-aura)_; **Cost** 8,000 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), creator must be a tiefling of [good](monsters/creatureTypes.md#_good-subtype) alignment, _ [holy aura](spells/holyAura.md#_holy-aura)_; **Cost** 8,000 gp
 
 ## Tiefling Spells
 
@@ -270,11 +270,11 @@ Damnation Stride
 
 **Saving Throw** Reflex half, see text; **Spell Resistance** no
 
-This spell functions like _ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_, except you leave behind a burst of fire. Choose one corner of your starting square. A 10-foot-radius burst of flame explodes from that corner the moment you leave, dealing 4d6 points of fire damage (Reflex negates).
+This spell functions like _ [dimension door](spells/dimensionDoor.md#_dimension-door)_, except you leave behind a burst of fire. Choose one corner of your starting square. A 10-foot-radius burst of flame explodes from that corner the moment you leave, dealing 4d6 points of fire damage (Reflex negates).
 
 Hellmouth Lash
 
-**School** transmutation [acid, electricity, or [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)]; **Level** sorcerer/wizard 4, witch 4
+**School** transmutation [acid, electricity, or [fire](monsters/creatureTypes.md#_fire-subtype)]; **Level** sorcerer/wizard 4, witch 4
 
 **Casting Time** 1 standard action
 

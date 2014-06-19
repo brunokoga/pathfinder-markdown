@@ -6,9 +6,9 @@ _An immense centipede-like beast erupts from the snow, rows of chitinous plates 
 
 **XP 3,200**
 
-N Huge [magical beast](creatureTypes.html#_magical-beast)
+N Huge [magical beast](creatureTypes.md#_magical-beast)
 
-**Init** +1; **Senses** darkvision 60 ft., low-light vision, [tremorsense](universalMonsterRules.html#_tremorsense) 60 ft.; [Perception](../skills/perception.html#_perception) +16
+**Init** +1; **Senses** darkvision 60 ft., low-light vision, [tremorsense](universalMonsterRules.md#_tremorsense) 60 ft.; [Perception](../skills/perception.md#_perception) +16
 
 **Defense**
 
@@ -24,11 +24,11 @@ N Huge [magical beast](creatureTypes.html#_magical-beast)
 
 **Speed** 30 ft., burrow 20 ft.
 
-**Melee** bite +13 (3d6+9 plus [grab](universalMonsterRules.html#_grab))
+**Melee** bite +13 (3d6+9 plus [grab](universalMonsterRules.md#_grab))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** heat, [swallow whole](universalMonsterRules.html#_swallow-whole) (2d6+9 plus 8d6 fire, AC 15, hp 9)
+**Special Attacks** heat, [swallow whole](universalMonsterRules.md#_swallow-whole) (2d6+9 plus 8d6 fire, AC 15, hp 9)
 
 **Statistics**
 
@@ -36,9 +36,9 @@ N Huge [magical beast](creatureTypes.html#_magical-beast)
 
 **Base Atk** +9; **CMB** +17 (+21 grapple); **CMD** 28 (can't be tripped)
 
-**Feats** [Awesome Blow](monsterFeats.html#_awesome-blow), [Cleave](../feats.html#_cleave), [Improved Bull Rush](../feats.html#_improved-bull-rush), [Power Attack](../feats.html#_power-attack), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
+**Feats** [Awesome Blow](monsterFeats.md#_awesome-blow), [Cleave](../feats.md#_cleave), [Improved Bull Rush](../feats.md#_improved-bull-rush), [Power Attack](../feats.md#_power-attack), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
 
-**Skills** [Perception](../skills/perception.html#_perception) +16
+**Skills** [Perception](../skills/perception.md#_perception) +16
 
 **Languages** Giant (cannot speak)
 
@@ -58,7 +58,7 @@ In a world of ice and snow, the remorhaz is particularly feared for the terrible
 
 Remorhazes dwell in extensive warrens carved into the hearts of glaciers. The beasts use their heat to melt tunnels through ice, tunnels whose smooth glassy sides swiftly refreeze in their wake to create uncommonly stable and numerous mazes.
 
-Although the remorhaz has much in common superficially with lesser vermin, the beast is surprisingly intelligent. While not capable of speech, the typical remorhaz has a good grasp of the Giant tongue, and tribes of giants often use this to their advantage to secure allegiances with the great beasts. Frost giants are particularly obsessed with them, for those giants who brave the cruel and deadly burns a remorhaz can inflict to become âworm friendsâ gain a potent weapon to use against their enemies—an assassin capable of burrowing up through the floor of a glacial keep to strike directly against a frost giant's greatest weakness: fire. Other giants use the beasts as living forges, for their backs are hot enough to melt metal.
+Although the remorhaz has much in common superficially with lesser vermin, the beast is surprisingly intelligent. While not capable of speech, the typical remorhaz has a good grasp of the Giant tongue, and tribes of giants often use this to their advantage to secure allegiances with the great beasts. Frost giants are particularly obsessed with them, for those giants who brave the cruel and deadly burns a remorhaz can inflict to become “worm friends” gain a potent weapon to use against their enemies—an assassin capable of burrowing up through the floor of a glacial keep to strike directly against a frost giant's greatest weakness: fire. Other giants use the beasts as living forges, for their backs are hot enough to melt metal.
 
 A remorhaz is 25 feet long and weighs 10,000 pounds.
 

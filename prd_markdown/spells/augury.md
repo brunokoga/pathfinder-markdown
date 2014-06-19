@@ -21,7 +21,7 @@ The base chance for receiving a meaningful reply is 70% + 1% per caster level, t
 - Weal and woe (for both).
 - Nothing (for actions that don't have especially good or bad results).
 
-If the spell fails, you get the ânothingâ result. A cleric who gets the ânothingâ result has no way to tell whether it was the consequence of a failed or successful _augury._
+If the spell fails, you get the “nothing” result. A cleric who gets the “nothing” result has no way to tell whether it was the consequence of a failed or successful _augury._
 
 The _augury _can see into the future only about half an hour, so anything that might happen after that does not affect the result. Thus, the result might not take into account the long-term consequences of a contemplated action. All _auguries _cast by the same person about the same topic use the same die result as the first casting.
 

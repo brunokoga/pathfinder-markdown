@@ -4,5 +4,5 @@ Endure Elements, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, except you divide the duration in 1-hour increments among the creatures touched.
+This spell functions like _ [endure elements](spells/endureElements.md#_endure-elements)_, except you divide the duration in 1-hour increments among the creatures touched.
 

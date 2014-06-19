@@ -7,7 +7,7 @@ During combat, a rogue's diverse skills and talents make her indispensable suppo
   
   
 
-_Black Market Connections (Ex)_: A rogue with this talent gains better access to magic items from black market connections. She treats every settlement as one size greater for the purpose of determining the gp limit of the base value of items for sale, as well as the number of minor, medium, and major magic items for sale in the settlement. If the settlement is already a metropolis, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) check, the rogue can treat the settlement as two sizes larger. If the settlement is already a metropolis and she succeeds at the check, all magic items are for sale. If the settlement is already a large city and she succeeds at the check, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful check, the rogue can also sell stolen items on the black market. If the check fails by 5 or more, the rogue does something to spook the market, and treats the city as normal for 1 week. Furthermore, those in control of the black market may alert the authorities to the rogue's presence in an act of reprisal for spooking the market or to divert attention away from their illicit activities. The DCs of the checks are by settlement size and are given in the table below.
+_Black Market Connections (Ex)_: A rogue with this talent gains better access to magic items from black market connections. She treats every settlement as one size greater for the purpose of determining the gp limit of the base value of items for sale, as well as the number of minor, medium, and major magic items for sale in the settlement. If the settlement is already a metropolis, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful [Diplomacy](skills/diplomacy.md#_diplomacy) check, the rogue can treat the settlement as two sizes larger. If the settlement is already a metropolis and she succeeds at the check, all magic items are for sale. If the settlement is already a large city and she succeeds at the check, all minor and medium magic items are for sale, as well as 3d8 major magic items. With a successful check, the rogue can also sell stolen items on the black market. If the check fails by 5 or more, the rogue does something to spook the market, and treats the city as normal for 1 week. Furthermore, those in control of the black market may alert the authorities to the rogue's presence in an act of reprisal for spooking the market or to divert attention away from their illicit activities. The DCs of the checks are by settlement size and are given in the table below.
 
   
   
@@ -26,32 +26,32 @@ _Black Market Connections (Ex)_: A rogue with this talent gains better access to
   
   
 
-_Convincing Lie (Ex)_: When a rogue with this talent lies, she creates fabrications so convincing that others treat them as truth. When a rogue with this talent successfully uses the [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) skill to convince someone that what she is saying is true, if that individual is questioned later about the statement or story, that person uses the rogue's [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) skill modifier to convince the questioner, rather than his own. If his [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) skill modifier is better than the rogue's, the individual can use his own modifier and gain a +2 bonus on any check to convince others of the lie. This effect lasts for a number of days equal to 1/2 the rogue's level + the rogue's Charisma modifier.
+_Convincing Lie (Ex)_: When a rogue with this talent lies, she creates fabrications so convincing that others treat them as truth. When a rogue with this talent successfully uses the [Bluff](skills/bluff.md#_bluff) skill to convince someone that what she is saying is true, if that individual is questioned later about the statement or story, that person uses the rogue's [Bluff](skills/bluff.md#_bluff) skill modifier to convince the questioner, rather than his own. If his [Bluff](skills/bluff.md#_bluff) skill modifier is better than the rogue's, the individual can use his own modifier and gain a +2 bonus on any check to convince others of the lie. This effect lasts for a number of days equal to 1/2 the rogue's level + the rogue's Charisma modifier.
 
   
   
 
-_Deft Palm (Ex)_: A rogue with this talent can make a [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) check to conceal a weapon while holding it in plain sight, even while she is being observed.
+_Deft Palm (Ex)_: A rogue with this talent can make a [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) check to conceal a weapon while holding it in plain sight, even while she is being observed.
 
   
   
 
-_Esoteric Scholar (Ex)_: Once a day, a rogue with this talent may attempt a [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) check, even when she is not trained in that [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) skill.
+_Esoteric Scholar (Ex)_: Once a day, a rogue with this talent may attempt a [Knowledge](skills/knowledge.md#_knowledge) check, even when she is not trained in that [Knowledge](skills/knowledge.md#_knowledge) skill.
 
   
   
 
-_Firearm Training (Ex)_: A rogue with this talent gains [Exotic Weapon Proficiency](/pathfinderRPG/prd/feats.html#_exotic-weapon-proficiency) (firearms).
+_Firearm Training (Ex)_: A rogue with this talent gains [Exotic Weapon Proficiency](feats.md#_exotic-weapon-proficiency) (firearms).
 
   
   
 
-_Getaway Artist (Ex)_: A rogue with this talent adds [Fly](/pathfinderRPG/prd/skills/fly.html#_fly), [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal), and [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) to her list of class skills, and gains a +2 bonus on all driving checks.
+_Getaway Artist (Ex)_: A rogue with this talent adds [Fly](skills/fly.md#_fly), [Handle Animal](skills/handleAnimal.md#_handle-animal), and [Ride](skills/ride.md#_ride) to her list of class skills, and gains a +2 bonus on all driving checks.
 
   
   
 
-_Grit (Ex)_: A rogue with this talent gains the [Amateur Gunslinger](../ultimateCombatFeats.html#_amateur-gunslinger-(combat)) feat and one grit feat of her choice. She must fulfill the prerequisites of the grit feat in order to choose it. A rogue must have the firearm training talent before choosing this one.
+_Grit (Ex)_: A rogue with this talent gains the [Amateur Gunslinger](../ultimateCombatFeats.md#_amateur-gunslinger-(combat)) feat and one grit feat of her choice. She must fulfill the prerequisites of the grit feat in order to choose it. A rogue must have the firearm training talent before choosing this one.
 
   
   
@@ -76,12 +76,12 @@ _Ninja Trick (Ex)_: A rogue with this talent can choose a trick from the ninja t
   
   
 
-_Rope Master (Ex):_ A rogue with this ability can move at her normal speed when using rope on a [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) check, can take 10 when using [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) to move over narrow surfaces even when in danger or distracted, and gains a +4 bonus when determining the DC to escape bonds when she ties up a creature.
+_Rope Master (Ex):_ A rogue with this ability can move at her normal speed when using rope on a [Climb](skills/climb.md#_climb) check, can take 10 when using [Acrobatics](skills/acrobatics.md#_acrobatics) to move over narrow surfaces even when in danger or distracted, and gains a +4 bonus when determining the DC to escape bonds when she ties up a creature.
 
   
   
 
-_Strong Stroke (Ex)_: A rogue with this talent rolls twice when making [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) checks and takes the better result. If she already rolls twice while making a [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) check because of another ability or effect, she gains a +2 insight bonus on both of those rolls instead. If the rogue is under the effect of a spell or ability that forces her to roll two dice and take the worse result, she only needs to roll 1d20 while making [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) checks.
+_Strong Stroke (Ex)_: A rogue with this talent rolls twice when making [Swim](skills/swim.md#_swim) checks and takes the better result. If she already rolls twice while making a [Swim](skills/swim.md#_swim) check because of another ability or effect, she gains a +2 insight bonus on both of those rolls instead. If the rogue is under the effect of a spell or ability that forces her to roll two dice and take the worse result, she only needs to roll 1d20 while making [Swim](skills/swim.md#_swim) checks.
 
   
   
@@ -91,12 +91,12 @@ _Terrain Mastery (Ex)_: A rogue with this talent gains a favored terrain as the 
   
   
 
-_Underhanded\* (Ex)_: A rogue with this talent gains a +4 circumstance bonus on all [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) checks made to conceal a weapon. Furthermore, if she makes a sneak attack during the surprise round using a concealed weapon that her opponent didn't know about, she does not have to roll sneak attack damage, and the sneak attack deals maximum damage. A rogue can only use the underhanded talent a number of times per day equal to her Charisma modifier (minimum 0).
+_Underhanded\* (Ex)_: A rogue with this talent gains a +4 circumstance bonus on all [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks made to conceal a weapon. Furthermore, if she makes a sneak attack during the surprise round using a concealed weapon that her opponent didn't know about, she does not have to roll sneak attack damage, and the sneak attack deals maximum damage. A rogue can only use the underhanded talent a number of times per day equal to her Charisma modifier (minimum 0).
 
   
   
 
-_Wall Scramble (Ex)_: A rogue with this talent rolls twice when making [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks and takes the better of the two rolls. If she already rolls twice while making a [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) check because of another ability or effect, she gains a +2 insight bonus on both of those rolls instead. If the rogue is under the effect of a spell or ability that forces her to roll two dice and take the worse result, she only needs to roll 1d20 while making [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks.
+_Wall Scramble (Ex)_: A rogue with this talent rolls twice when making [Climb](skills/climb.md#_climb) checks and takes the better of the two rolls. If she already rolls twice while making a [Climb](skills/climb.md#_climb) check because of another ability or effect, she gains a +2 insight bonus on both of those rolls instead. If the rogue is under the effect of a spell or ability that forces her to roll two dice and take the worse result, she only needs to roll 1d20 while making [Climb](skills/climb.md#_climb) checks.
 
   
   
@@ -123,12 +123,12 @@ _Hard Minded (Ex)_: A rogue with this talent is hard to fool with mind-affecting
   
   
 
-_Hide in Plain Sight (Ex)_: A rogue with this talent can select a single terrain from the ranger's favored terrain list. She is a master at hiding in that terrain, and while within that terrain, she can use the [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) skill to hide, even while being observed. A rogue may take this advanced talent more than once, each time selecting a different terrain from the favored terrain list.
+_Hide in Plain Sight (Ex)_: A rogue with this talent can select a single terrain from the ranger's favored terrain list. She is a master at hiding in that terrain, and while within that terrain, she can use the [Stealth](skills/stealth.md#_stealth) skill to hide, even while being observed. A rogue may take this advanced talent more than once, each time selecting a different terrain from the favored terrain list.
 
   
   
 
-_Rumormonger (Ex)_: A rogue with this talent can attempt to spread a rumor though a small town or larger settlement by making a [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) check. She can do so a number of times per week equal to her Charisma modifier (minimum 0). The DC is based on the size of the settlement, and it takes a week for the rumor to propagate through the settlement. If the check succeeds, the rumor is practically accepted as fact within the community; succeeding by 5 or more over the DC decreases the time it takes the rumor to propagate by 1d4 days. A failed check means the rumor failed to gain traction, while failing by 5 or more causes the opposite of the rumor or some other competing theory involving the rumor's subject to take hold.
+_Rumormonger (Ex)_: A rogue with this talent can attempt to spread a rumor though a small town or larger settlement by making a [Bluff](skills/bluff.md#_bluff) check. She can do so a number of times per week equal to her Charisma modifier (minimum 0). The DC is based on the size of the settlement, and it takes a week for the rumor to propagate through the settlement. If the check succeeds, the rumor is practically accepted as fact within the community; succeeding by 5 or more over the DC decreases the time it takes the rumor to propagate by 1d4 days. A failed check means the rumor failed to gain traction, while failing by 5 or more causes the opposite of the rumor or some other competing theory involving the rumor's subject to take hold.
 
   
   
@@ -144,12 +144,12 @@ _Rumormonger (Ex)_: A rogue with this talent can attempt to spread a rumor thoug
   
   
 
-_Unwitting Ally (Ex)_: A rogue with this talent can spend a swift action to attempt to make an opponent act like an ally for purposes of providing a flank until the beginning of the rogue's next turn. The opponent must be able to hear and see the rogue, and the rogue must succeed at a [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) check opposed by the opponent's [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive). If the check succeeds, the opponent acts as an ally for the purpose of providing a flank. Whether or not the check succeeds, the rogue cannot use this trick again on the same opponent for the next 24 hours. If the rogue fails the check by 5 or more, she cannot use the unwitting ally ability on any opponent within line of sight of the failed attempt for 24 hours.
+_Unwitting Ally (Ex)_: A rogue with this talent can spend a swift action to attempt to make an opponent act like an ally for purposes of providing a flank until the beginning of the rogue's next turn. The opponent must be able to hear and see the rogue, and the rogue must succeed at a [Bluff](skills/bluff.md#_bluff) check opposed by the opponent's [Sense Motive](skills/senseMotive.md#_sense-motive). If the check succeeds, the opponent acts as an ally for the purpose of providing a flank. Whether or not the check succeeds, the rogue cannot use this trick again on the same opponent for the next 24 hours. If the rogue fails the check by 5 or more, she cannot use the unwitting ally ability on any opponent within line of sight of the failed attempt for 24 hours.
 
   
   
 
-_Weapon Snatcher (Ex)_: A rogue with this talent can make a [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) check in place of a combat maneuver check when attempting to disarm an opponent.
+_Weapon Snatcher (Ex)_: A rogue with this talent can make a [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) check in place of a combat maneuver check when attempting to disarm an opponent.
 
 ## Bandit (Archetype)
 
@@ -167,9 +167,9 @@ Bandits, brigands, and highwaymen hone their craft along the roadsides and byway
 
 An absolute master of disguise, a chameleon effortlessly blends into any environment. Whether disappearing into crowded city streets, vanishing into desert sands, or slipping into the darkness of subterranean tunnels, the chameleon relies upon her ability to become part of her surroundings.
 
-**Misdirection (Ex)** : At 1st level, a chameleon begins her career knowing that the secret to disappearing lies in deceiving the senses of her observers. Every day she gains a pool of stealth points equal to her ranks in [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff). These points refresh at the start of each day. Before making a [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) check, she can choose to put stealth points into the roll, gaining a bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks equal to the number of stealth points she puts into the roll. If she gains a bonus on [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) checks because of a feat (such as [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) [[Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff)]), she adds a number of points to her stealth pool equal to the bonus the feat grants. This ability replaces trapfinding.
+**Misdirection (Ex)** : At 1st level, a chameleon begins her career knowing that the secret to disappearing lies in deceiving the senses of her observers. Every day she gains a pool of stealth points equal to her ranks in [Bluff](skills/bluff.md#_bluff). These points refresh at the start of each day. Before making a [Stealth](skills/stealth.md#_stealth) check, she can choose to put stealth points into the roll, gaining a bonus on [Stealth](skills/stealth.md#_stealth) checks equal to the number of stealth points she puts into the roll. If she gains a bonus on [Bluff](skills/bluff.md#_bluff) checks because of a feat (such as [Skill Focus](feats.md#_skill-focus) [[Bluff](skills/bluff.md#_bluff)]), she adds a number of points to her stealth pool equal to the bonus the feat grants. This ability replaces trapfinding.
 
-**Effortless Sneak (Sp)** : At 3rd level, the chameleon chooses a single terrain from the ranger's favored terrain class feature. While she is within that terrain, she can take 10 on any [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) check she can make within that terrain. When the chameleon reaches 6th level, and every three levels thereafter, she chooses a new type of terrain from the ranger's favored terrain list. She gains this ability with the newly picked terrain. This ability replaces trap sense.
+**Effortless Sneak (Sp)** : At 3rd level, the chameleon chooses a single terrain from the ranger's favored terrain class feature. While she is within that terrain, she can take 10 on any [Stealth](skills/stealth.md#_stealth) check she can make within that terrain. When the chameleon reaches 6th level, and every three levels thereafter, she chooses a new type of terrain from the ranger's favored terrain list. She gains this ability with the newly picked terrain. This ability replaces trap sense.
 
 **Rogue Talents** : The following rogue talents complement the chameleon archetype: camouflage, fast stealth, quick disguise, and terrain mastery\*.
 
@@ -179,7 +179,7 @@ An absolute master of disguise, a chameleon effortlessly blends into any environ
 
 A charlatan is a master of lies and deception. Whether creating simple cons or elaborately woven hoaxes capable of swaying the masses and those in positions of power, a charlatan is often a purveyor of snake-oil, forgeries, and rumormongering.
 
-**Natural Born Liar (Ex)** : At 1st level, when a charlatan successfully deceives a creature with a [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), that creature takes a ­–2 penalty on the charlatan's [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) checks for the next 24 hours. This ability does not stack with itself. This ability replaces trapfinding.
+**Natural Born Liar (Ex)** : At 1st level, when a charlatan successfully deceives a creature with a [Bluff](skills/bluff.md#_bluff), that creature takes a ­–2 penalty on the charlatan's [Bluff](skills/bluff.md#_bluff) checks for the next 24 hours. This ability does not stack with itself. This ability replaces trapfinding.
 
 **Grand Hoax (Ex)** : At 3rd level, the charlatan begins to master the art of the grand hoax and learns to create deceptions designed to bestow harm upon her foes. She gains the rumormonger advanced talent, even though she is not yet 10th level. This ability takes the place of trap sense.
 
@@ -203,7 +203,7 @@ A driver makes her living driving vehicles in the service of those who can pay f
 
 The knife master is a trained killer who specializes in close-up combat and the wave and weave of knife fighting. In her hands, daggers and other similar light blades become truly deadly instruments..
 
-**Hidden Blade** : A knife master adds 1/2 her level on [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) checks made to conceal a light blade. This ability replaces trapfinding.
+**Hidden Blade** : A knife master adds 1/2 her level on [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks made to conceal a light blade. This ability replaces trapfinding.
 
 **Sneak Stab (Ex)** : A knife master focuses her ability to deal sneak attack damage with daggers and similar weapons to such a degree that she can deal more sneak attack damage with those weapons at the expense of sneak attacks with other weapons. When she makes a sneak attack with a dagger, kerambit, kukri, punching daggers, starknife, or swordbreaker dagger (_Advanced Player's Guide_ 178), she uses d8s to roll sneak attack damage instead of d6s. For sneak attacks with all other weapons, she uses d4s instead of d6s. This ability is identical in all other ways to sneak attack, and supplements that ability.
 
@@ -217,7 +217,7 @@ The knife master is a trained killer who specializes in close-up combat and the 
 
 A pirate breaks from the confines of country and king to commit her crimes upon the high seas. She holds allegiance only to her ship and its captain (if even that much is true), and lives a lawless life upon the waves, plundering ships and shorelines as suits her whim.
 
-**Sea Legs (Ex)** : At 1st level, a pirate becomes adept at moving on ships, boats, and similar vessels. She gains the [Sea Legs](../ultimateCombatFeats.html#_sea-legs) feat as a bonus feat, even if she does not meet the prerequisites. This ability replaces trapfinding.
+**Sea Legs (Ex)** : At 1st level, a pirate becomes adept at moving on ships, boats, and similar vessels. She gains the [Sea Legs](../ultimateCombatFeats.md#_sea-legs) feat as a bonus feat, even if she does not meet the prerequisites. This ability replaces trapfinding.
 
 **Swinging Reposition (Ex)** : At 2nd level, a pirate incorporates a ship's masts, rigging, ropes, sails, and other such structures into her combat style. Provided she is wearing light armor or no armor, when fighting in an environment where such structures exist, the rogue incorporates them into her movement, and does not have to move in a straight line when making either a charge attack or a bull rush combat maneuver. Once she completes her attack or maneuver, she can reposition herself. Immediately after making the charge or bull rush, she can move 5 feet as a free action, even if the charge ends her turn. This movement does not provoke attacks of opportunity. This ability replaces the 2nd-level rogue talent.
 
@@ -245,7 +245,7 @@ The sanctified rogue serves a higher purpose, acting as a representative of a ch
 
 **Divine Purpose (Su)** : At 4th level, the favor of a deity or religious institution grants a special blessing on a sanctified rogue, shoring up some of her weaknesses. She gains a +1 sacred bonus on Fortitude and Will saving throws. This ability replaces uncanny dodge.
 
-**Divine Epiphany (Su)** : At 8th level, once per day, a sanctified rogue can peer into the immediate future and predict the results of a specific action as if she had cast an _ [augury](/pathfinderRPG/prd/spells/augury.html#_augury)_ spell. The caster level of this spell is equal to the sanctified rogue's rogue class level. This ability replaces improved uncanny dodge.
+**Divine Epiphany (Su)** : At 8th level, once per day, a sanctified rogue can peer into the immediate future and predict the results of a specific action as if she had cast an _ [augury](spells/augury.md#_augury)_ spell. The caster level of this spell is equal to the sanctified rogue's rogue class level. This ability replaces improved uncanny dodge.
 
 **Rogue Talents** : The following rogue talents complement the sanctified rogue archetype: esoteric scholar\*, major magic, and minor magic.
 
@@ -257,7 +257,7 @@ The survivalist focuses her talents on surviving harsh and unforgiving condition
 
 **Hardy (Ex)** : At 1st level, a survivalist is already prepared to endure extreme hardships and environmental conditions. She can go twice the normal number of days without water and triple the normal number of days without food before feeling the effects of either thirst or starvation. This ability replaces trapfinding.
 
-**_Endure Elements_ (Sp)** : At 3rd level, a survivalist rogue can use _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_ once per day as a spell-like ability. The survivalist's caster level is the same as her rogue level. This ability replaces trap sense.
+**_Endure Elements_ (Sp)** : At 3rd level, a survivalist rogue can use _ [endure elements](spells/endureElements.md#_endure-elements)_ once per day as a spell-like ability. The survivalist's caster level is the same as her rogue level. This ability replaces trap sense.
 
 **Rogue Talents** : The following rogue talents complement the survivalist archetype: hold breath\*, iron guts\*, resiliency, strong stroke\*, survivalist, terrain mastery\*, and wall scramble\*.
 

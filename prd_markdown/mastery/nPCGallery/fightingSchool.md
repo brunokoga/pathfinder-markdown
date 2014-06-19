@@ -10,7 +10,7 @@ Human monk 2
 
 LN Medium humanoid
 
-**Init** +2; **Senses** [Perception](../../skills/perception.html#_perception) +7
+**Init** +2; **Senses** [Perception](../../skills/perception.md#_perception) +7
 
 **Defense**
 
@@ -38,13 +38,13 @@ LN Medium humanoid
 
 **Base Atk** +1; **CMB** +3; **CMD** 18
 
-**Feats** [Combat Reflexes](../../feats.html#_combat-reflexes), [Deflect Arrows](../../feats.html#_deflect-arrows), [Dodge](../../feats.html#_dodge), [Improved Unarmed Strike](../../feats.html#_improved-unarmed-strike), [Stand Still](../../feats.html#_stand-still), [Stunning Fist](../../feats.html#_stunning-fist)
+**Feats** [Combat Reflexes](../../feats.md#_combat-reflexes), [Deflect Arrows](../../feats.md#_deflect-arrows), [Dodge](../../feats.md#_dodge), [Improved Unarmed Strike](../../feats.md#_improved-unarmed-strike), [Stand Still](../../feats.md#_stand-still), [Stunning Fist](../../feats.md#_stunning-fist)
 
-**Skills** [Acrobatics](../../skills/acrobatics.html#_acrobatics) +7, [Climb](../../skills/climb.html#_climb) +6, [Escape Artist](../../skills/escapeArtist.html#_escape-artist) +7, [Perception](../../skills/perception.html#_perception) +7, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +7, [Stealth](../../skills/stealth.html#_stealth) +6
+**Skills** [Acrobatics](../../skills/acrobatics.md#_acrobatics) +7, [Climb](../../skills/climb.md#_climb) +6, [Escape Artist](../../skills/escapeArtist.md#_escape-artist) +7, [Perception](../../skills/perception.md#_perception) +7, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +7, [Stealth](../../skills/stealth.md#_stealth) +6
 
 **Languages** Common
 
-**Combat Gear** _oil of [magic fang](../../spells/magicFang.html#_magic-fang) +1_, _potion of [cure light wounds](../../spells/cureLightWounds.html#_cure-light-wounds)_, alchemist's fire (2); **Other Gear** masterwork light crossbow with 10 bolts, masterwork shortspear, 3 gp
+**Combat Gear** _oil of [magic fang](../../spells/magicFang.md#_magic-fang) +1_, _potion of [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_, alchemist's fire (2); **Other Gear** masterwork light crossbow with 10 bolts, masterwork shortspear, 3 gp
 
 **Boon** Initiates can assist the PCs in a single fight or offer the PCs free temporary lodging at their academy.
 
@@ -52,7 +52,7 @@ Initiates are the novice members of martial arts academies or monasteries, learn
 
 Initiates can serve as bodyguards in areas where weapons are forbidden or as unconventional foot soldiers and skirmishers. They could also be used as unarmed brawlers, boxers, gladiators, or pit fighters.
 
-Exchanging an initiate's monk bonus feats creates NPCs with different combat abilities, such as [Catch Off-Guard](../../feats.html#_catch-off-guard) and [Throw Anything](../../feats.html#_throw-anything) for an improvised weapon master, [Improved Grapple](../../feats.html#_improved-grapple) for a wrestler, or [Scorpion Style](../../feats.html#_scorpion-style) for different unarmed combat flavor.
+Exchanging an initiate's monk bonus feats creates NPCs with different combat abilities, such as [Catch Off-Guard](../../feats.md#_catch-off-guard) and [Throw Anything](../../feats.md#_throw-anything) for an improvised weapon master, [Improved Grapple](../../feats.md#_improved-grapple) for a wrestler, or [Scorpion Style](../../feats.md#_scorpion-style) for different unarmed combat flavor.
 
 An initiate may be found escorting a pair of acolytes (CR 3), or four initiates could be responsible for protecting a group of six pilgrims on a pilgrimage to a distant temple (CR 9). A group of six initiates might be encountered traveling between two monasteries (CR 6), or five initiates could form a training class under the tutelage of a battle monk (CR 7).
 
@@ -64,7 +64,7 @@ Human monk 5
 
 LN Medium humanoid
 
-**Init** +2; **Senses** [Perception](../../skills/perception.html#_perception) +12
+**Init** +2; **Senses** [Perception](../../skills/perception.md#_perception) +12
 
 **Defense**
 
@@ -92,15 +92,15 @@ LN Medium humanoid
 
 **Base Atk** +3; **CMB** +6; **CMD** 22
 
-**Feats** [Blind-Fight](../../feats.html#_blind-fight), [Combat Reflexes](../../feats.html#_combat-reflexes), [Deflect Arrows](../../feats.html#_deflect-arrows), [Dodge](../../feats.html#_dodge), [Improved Unarmed Strike](../../feats.html#_improved-unarmed-strike), [Scorpion Style](../../feats.html#_scorpion-style), [Stunning Fist](../../feats.html#_stunning-fist), [Weapon Finesse](../../feats.html#_weapon-finesse)
+**Feats** [Blind-Fight](../../feats.md#_blind-fight), [Combat Reflexes](../../feats.md#_combat-reflexes), [Deflect Arrows](../../feats.md#_deflect-arrows), [Dodge](../../feats.md#_dodge), [Improved Unarmed Strike](../../feats.md#_improved-unarmed-strike), [Scorpion Style](../../feats.md#_scorpion-style), [Stunning Fist](../../feats.md#_stunning-fist), [Weapon Finesse](../../feats.md#_weapon-finesse)
 
-**Skills** [Acrobatics](../../skills/acrobatics.html#_acrobatics) +10 (+19 jump), [Climb](../../skills/climb.html#_climb) +7, [Escape Artist](../../skills/escapeArtist.html#_escape-artist) +7, [Perception](../../skills/perception.html#_perception) +12, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +12, [Stealth](../../skills/stealth.html#_stealth) +10
+**Skills** [Acrobatics](../../skills/acrobatics.md#_acrobatics) +10 (+19 jump), [Climb](../../skills/climb.md#_climb) +7, [Escape Artist](../../skills/escapeArtist.md#_escape-artist) +7, [Perception](../../skills/perception.md#_perception) +12, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +12, [Stealth](../../skills/stealth.md#_stealth) +10
 
 **Languages** Common
 
 **SQ** fast movement, high jump, _ki_ pool (6 points, magic), maneuver training, slow fall 20 ft., high jump
 
-**Combat Gear** alchemist's fire, smokesticks (2); **Other Gear** masterwork light crossbow with 10 bolts, kama, _ [bracers of armor](../../magicItems/wondrousItems.html#_bracers-of-armor)_ +1, _ [cloak of resistance](../../magicItems/wondrousItems.html#_cloak-of-resistance) +1_
+**Combat Gear** alchemist's fire, smokesticks (2); **Other Gear** masterwork light crossbow with 10 bolts, kama, _ [bracers of armor](../../magicItems/wondrousItems.md#_bracers-of-armor)_ +1, _ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +1_
 
 **Boon** A battle monk can assist the PCs in a single fight (or send several initiates) if it serves the interest of her academy or her master. A battle monk could also introduce the PCs to the master of her academy or to a diplomat, merchant, or other NPC from the land where her martial art originated.
 
@@ -118,7 +118,7 @@ Human monk 15
 
 LN Medium humanoid
 
-**Init** +3; **Senses** [Perception](../../skills/perception.html#_perception) +23
+**Init** +3; **Senses** [Perception](../../skills/perception.md#_perception) +23
 
 **Defense**
 
@@ -146,17 +146,17 @@ LN Medium humanoid
 
 **Base Atk** +11; **CMB** +18 (+22 to trip); **CMD** 38 (40 vs. trip)
 
-**Feats** [Gorgon's Fist](../../feats.html#_gorgon-s-fist), [Greater Trip](../../feats.html#_greater-trip), [Improved Critical](../../feats.html#_improved-critical) (unarmed strike), [Improved Trip](../../feats.html#_improved-trip), [Improved Unarmed Strike](../../feats.html#_improved-unarmed-strike), [Improved Vital Strike](../../feats.html#_improved-vital-strike), [Lunge](../../feats.html#_lunge), [Medusa's Wrath](../../feats.html#_medusa-s-wrath), [Power Attack](../../feats.html#_power-attack), [Scorpion Style](../../feats.html#_scorpion-style), [Skill Focus](../../feats.html#_skill-focus) ( [Acrobatics](../../skills/acrobatics.html#_acrobatics)), [Snatch Arrows](../../feats.html#_snatch-arrows), [Spring Attack](../../feats.html#_spring-attack), [Stunning Fist](../../feats.html#_stunning-fist), [Vital Strike](../../feats.html#_vital-strike), [Weapon Focus](../../feats.html#_weapon-focus) (unarmed strike)
+**Feats** [Gorgon's Fist](../../feats.md#_gorgon-s-fist), [Greater Trip](../../feats.md#_greater-trip), [Improved Critical](../../feats.md#_improved-critical) (unarmed strike), [Improved Trip](../../feats.md#_improved-trip), [Improved Unarmed Strike](../../feats.md#_improved-unarmed-strike), [Improved Vital Strike](../../feats.md#_improved-vital-strike), [Lunge](../../feats.md#_lunge), [Medusa's Wrath](../../feats.md#_medusa-s-wrath), [Power Attack](../../feats.md#_power-attack), [Scorpion Style](../../feats.md#_scorpion-style), [Skill Focus](../../feats.md#_skill-focus) ( [Acrobatics](../../skills/acrobatics.md#_acrobatics)), [Snatch Arrows](../../feats.md#_snatch-arrows), [Spring Attack](../../feats.md#_spring-attack), [Stunning Fist](../../feats.md#_stunning-fist), [Vital Strike](../../feats.md#_vital-strike), [Weapon Focus](../../feats.md#_weapon-focus) (unarmed strike)
 
-**Skills** [Acrobatics](../../skills/acrobatics.html#_acrobatics) +25 (+60 jump), [Climb](../../skills/climb.html#_climb) +10, [Escape Artist](../../skills/escapeArtist.html#_escape-artist) +10, [Heal](../../skills/heal.html#_heal) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (history) +5, [Knowledge](../../skills/knowledge.html#_knowledge) (religion) +5, [Perception](../../skills/perception.html#_perception) +23, [Profession](../../skills/profession.html#_profession) (gardener) +10, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +20, [Stealth](../../skills/stealth.html#_stealth) +20, [Survival](../../skills/survival.html#_survival) +6, [Swim](../../skills/swim.html#_swim) +10
+**Skills** [Acrobatics](../../skills/acrobatics.md#_acrobatics) +25 (+60 jump), [Climb](../../skills/climb.md#_climb) +10, [Escape Artist](../../skills/escapeArtist.md#_escape-artist) +10, [Heal](../../skills/heal.md#_heal) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (history) +5, [Knowledge](../../skills/knowledge.md#_knowledge) (religion) +5, [Perception](../../skills/perception.md#_perception) +23, [Profession](../../skills/profession.md#_profession) (gardener) +10, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +20, [Stealth](../../skills/stealth.md#_stealth) +20, [Survival](../../skills/survival.md#_survival) +6, [Swim](../../skills/swim.md#_swim) +10
 
 **Languages** Common
 
 **SQ** abundant step, fast movement, high jump, _ki_ pool (12 points, lawful, magic), maneuver training, slow fall 70 ft., wholeness of body
 
-**Combat Gear** _oil of [align weapon](../../spells/alignWeapon.html#_align-weapon)_ (2), _potion of [cure light wounds](../../spells/cureLightWounds.html#_cure-light-wounds)_ (2) **Other Gear** kama, _+1 sling_ with 10 bullets, _ [amulet of mighty fists](../../magicItems/wondrousItems.html#_amulet-of-mighty-fists)_ (shock), _ [belt of physical perfection](../../magicItems/wondrousItems.html#_belt-of-physical-perfection) +2_, _ [bracers of armor](../../magicItems/wondrousItems.html#_bracers-of-armor) +1_, _ [cloak of resistance](../../magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](../../magicItems/wondrousItems.html#_headband-of-inspired-wisdom) +2_, _monk's robe_, _ [ring of protection](../../magicItems/rings.html#_ring-of-protection) +1_
+**Combat Gear** _oil of [align weapon](../../spells/alignWeapon.md#_align-weapon)_ (2), _potion of [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_ (2) **Other Gear** kama, _+1 sling_ with 10 bullets, _ [amulet of mighty fists](../../magicItems/wondrousItems.md#_amulet-of-mighty-fists)_ (shock), _ [belt of physical perfection](../../magicItems/wondrousItems.md#_belt-of-physical-perfection) +2_, _ [bracers of armor](../../magicItems/wondrousItems.md#_bracers-of-armor) +1_, _ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](../../magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +2_, _monk's robe_, _ [ring of protection](../../magicItems/rings.md#_ring-of-protection) +1_
 
-**Boon** Masters can lend their own and their school's reputation to the PCs, granting a +2 bonus for 1 month on [Leadership](../../feats.html#_leadership) checks to attract followers or to attract a monk cohort.
+**Boon** Masters can lend their own and their school's reputation to the PCs, granting a +2 bonus for 1 month on [Leadership](../../feats.md#_leadership) checks to attract followers or to attract a monk cohort.
 
 Masters are the undisputed champions of unarmed combat, able to focus their inner strength into a single devastating blow or a barrage of attacks that leave their enemies dazed and reeling. A master can be a unique arena champion or an emissary from a distant empire. Masters may travel with a cohort of 10 battle monks from their academy (CR 16).
 

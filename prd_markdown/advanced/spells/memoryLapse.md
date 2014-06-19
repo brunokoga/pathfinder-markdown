@@ -14,5 +14,5 @@
 
 **Saving Throw** Will negates; **Spell Resistance** yes
 
-You cause the target to forget what happened from the casting of the spell back to the beginning of its last turn. This may allow a retry on a [Diplomacy](../../skills/diplomacy.html#_diplomacy), [Intimidate](../../skills/intimidate.html#_intimidate), or opposed skill check, though only with respect to the target, not other creatures that may be present.
+You cause the target to forget what happened from the casting of the spell back to the beginning of its last turn. This may allow a retry on a [Diplomacy](../../skills/diplomacy.md#_diplomacy), [Intimidate](../../skills/intimidate.md#_intimidate), or opposed skill check, though only with respect to the target, not other creatures that may be present.
 

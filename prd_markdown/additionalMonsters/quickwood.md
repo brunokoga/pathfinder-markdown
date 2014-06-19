@@ -6,11 +6,11 @@ Were it not for the image of a sinister face peeking out from its dark gray bark
 
 **XP 4,800**
 
-N Huge [plant](/pathfinderRPG/prd/monsters/creatureTypes.html#_plant)
+N Huge [plant](monsters/creatureTypes.md#_plant)
 
-**Init** +3; **Senses** darkvision 120 ft., low-light vision, oaksight; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +21
+**Init** +3; **Senses** darkvision 120 ft., low-light vision, oaksight; [Perception](additionalMonsters/../skills/perception.md#_perception) +21
 
-**Aura** [fear](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)) aura (variable distance, DC 20)
+**Aura** [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) aura (variable distance, DC 20)
 
 Defense
 
@@ -20,7 +20,7 @@ Defense
 
 **Fort** +12, **Ref** +2, **Will** +5
 
-**Defensive Abilities** spell absorption; **Immune** electricity, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), [plant](/pathfinderRPG/prd/monsters/creatureTypes.html#_plant) traits; **SR** 19 (see spell absorption)
+**Defensive Abilities** spell absorption; **Immune** electricity, [fire](monsters/creatureTypes.md#_fire-subtype), [plant](monsters/creatureTypes.md#_plant) traits; **SR** 19 (see spell absorption)
 
 Offense
 
@@ -38,9 +38,9 @@ Statistics
 
 **Base Atk** +7; **CMB** +18; **CMD** 27 (can't be tripped)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Lunge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lunge), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception))
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Lunge](additionalMonsters/../feats.md#_lunge), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
 
-**Skills** [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (nature) +11, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +21, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +4 (+8 in forests); **Racial Modifiers** +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) in forests
+**Skills** [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (nature) +11, [Perception](additionalMonsters/../skills/perception.md#_perception) +21, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +4 (+8 in forests); **Racial Modifiers** +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in forests
 
 **Languages** Common, Sylvan
 
@@ -54,13 +54,13 @@ Ecology
 
 Special Abilities
 
-**[Fear](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)) Aura (Su)** A quickwood with stored magical energy can activate its [fear](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)) aura as a standard action. The aura has a radius of 10 feet per spell level of the effect and lasts for 1 round (Will DC 20 negates). Creatures that fail their saving throws become panicked for 1 minute. The DC is Charisma-based and includes a +4 racial bonus.
+**[Fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) Aura (Su)** A quickwood with stored magical energy can activate its [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) aura as a standard action. The aura has a radius of 10 feet per spell level of the effect and lasts for 1 round (Will DC 20 negates). Creatures that fail their saving throws become panicked for 1 minute. The DC is Charisma-based and includes a +4 racial bonus.
 
-**Oaksight (Su)** A quickwood may observe the area surrounding any oak tree within 360 feet as if using _ [clairaudience/clairvoyance](/pathfinderRPG/prd/additionalMonsters/../spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance)_. It can use this ability on any number of oak trees in the area. Although the quickwood does not need line of sight to establish this link, if it does have line of sight to even a single oak tree, it cannot be flanked.
+**Oaksight (Su)** A quickwood may observe the area surrounding any oak tree within 360 feet as if using _ [clairaudience/clairvoyance](additionalMonsters/../spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance)_. It can use this ability on any number of oak trees in the area. Although the quickwood does not need line of sight to establish this link, if it does have line of sight to even a single oak tree, it cannot be flanked.
 
 **Roots (Ex)** A quickwood has dozens of long roots, but can only attack with up to three of them in any given round. If the quickwood uses its pull ability to pull a target within reach of its bite attack, it can immediately make a free bite attack with a +4 bonus on its attack roll against that target.
 
-**Spell Absorption (Su)** If a quickwood's spell [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) protects it from a magical effect, the creature absorbs that magical energy into its body. It can release this energy to activate its [fear](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)) aura ability. While the [plant](/pathfinderRPG/prd/monsters/creatureTypes.html#_plant) is storing a spell, its SR decreases by 5. It can only store one spell at a time.
+**Spell Absorption (Su)** If a quickwood's spell [resistance](monsters/universalMonsterRules.md#_resistance) protects it from a magical effect, the creature absorbs that magical energy into its body. It can release this energy to activate its [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) aura ability. While the [plant](monsters/creatureTypes.md#_plant) is storing a spell, its SR decreases by 5. It can only store one spell at a time.
 
 These carnivorous plants prize human and elven flesh, but eat anything they manage to catch. Quickwoods typically explore an area, taking note of any oak trees, and then root themselves and wait for prey to wander by. They use their oaksight ability to maintain constant surveillance of their hunting grounds and send their roots out to drag likely prey back to them.
 

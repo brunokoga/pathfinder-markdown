@@ -1,6 +1,6 @@
 Fiery Shuriken
 
-**School** conjuration (creation) [[fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)]; **Level** sorcerer/wizard 2
+**School** conjuration (creation) [[fire](monsters/creatureTypes.md#_fire-subtype)]; **Level** sorcerer/wizard 2
 
 **Casting Time** 1 standard action
 

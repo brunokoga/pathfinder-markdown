@@ -6,9 +6,9 @@ _This majestic beast has the body of a lion, the head and forelegs of a great ea
 
 **XP 1,200**
 
-N Large [magical beast](creatureTypes.html#_magical-beast)
+N Large [magical beast](creatureTypes.md#_magical-beast)
 
-**Init** +2; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +12
+**Init** +2; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +12
 
 **Defense**
 
@@ -26,7 +26,7 @@ N Large [magical beast](creatureTypes.html#_magical-beast)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [pounce](universalMonsterRules.html#_pounce), [rake](universalMonsterRules.html#_rake) (2 claws +7, 1d4+3)
+**Special Attacks** [pounce](universalMonsterRules.md#_pounce), [rake](universalMonsterRules.md#_rake) (2 claws +7, 1d4+3)
 
 **Statistics**
 
@@ -34,9 +34,9 @@ N Large [magical beast](creatureTypes.html#_magical-beast)
 
 **Base**  **Atk** +5; **CMB** +9; **CMD** 21 (25 vs. trip)
 
-**Feats** [Iron Will](../feats.html#_iron-will), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception)), [Weapon Focus](../feats.html#_weapon-focus) (bite)
+**Feats** [Iron Will](../feats.md#_iron-will), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Weapon Focus](../feats.md#_weapon-focus) (bite)
 
-**Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +10, [Fly](../skills/fly.html#_fly) +6, [Perception](../skills/perception.html#_perception) +12; **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics.html#_acrobatics), +4 [Perception](../skills/perception.html#_perception)
+**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +10, [Fly](../skills/fly.md#_fly) +6, [Perception](../skills/perception.md#_perception) +12; **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics.md#_acrobatics), +4 [Perception](../skills/perception.md#_perception)
 
 **Languages** Common (cannot speak)
 
@@ -54,7 +54,7 @@ Weighing in at over 500 pounds and measuring 8 feet long from hooked beak to tuf
 
 Griffons mate for life, and will often search for years to take vengeance over a slain mate or child. It was likely this innate stubbornness and fierce loyalty that first brought them into domestic use as mounts and guardians of treasure hoards. Despite the inherent danger, trade in captured griffons and stolen eggs is brisk, with their eggs worth up to 3,500 gp apiece and live young twice that. Characters eager for griffon mounts, however, should note that buying or forcibly domesticating intelligent creatures like griffons is still recognized as slavery by most good deities, and winning a griffon's allegiance of its own free will is no easy task. Reaching a mutually agreeable accord (or even a friendship) is a much more elegant and safe route to securing a griffon mount.
 
-Before it can be ridden in combat, a griffon requires practice bearing the weight of its rider. In order to be trained successfully, a griffon must first be helpful toward its trainer (possibly requiring a [Diplomacy](../skills/diplomacy.html#_diplomacy), [Intimidate](../skills/intimidate.html#_intimidate), or [Handle Animal](../skills/handleAnimal.html#_handle-animal) check). After that, 6 weeks of practice and a successful DC 20 [Handle Animal](../skills/handleAnimal.html#_handle-animal) check is sufficient for the beast to be comfortable with its burden, and due to their intelligence, trained griffons can be treated as knowing every trick listed in the [Handle Animal](../skills/handleAnimal.html#_handle-animal) skill description, possibly even responding to new, simple requests made in Common.
+Before it can be ridden in combat, a griffon requires practice bearing the weight of its rider. In order to be trained successfully, a griffon must first be helpful toward its trainer (possibly requiring a [Diplomacy](../skills/diplomacy.md#_diplomacy), [Intimidate](../skills/intimidate.md#_intimidate), or [Handle Animal](../skills/handleAnimal.md#_handle-animal) check). After that, 6 weeks of practice and a successful DC 20 [Handle Animal](../skills/handleAnimal.md#_handle-animal) check is sufficient for the beast to be comfortable with its burden, and due to their intelligence, trained griffons can be treated as knowing every trick listed in the [Handle Animal](../skills/handleAnimal.md#_handle-animal) skill description, possibly even responding to new, simple requests made in Common.
 
 Griffons can carry up to 300 pounds as a light load, 600 pounds as a medium load, and 900 pounds as a heavy load. Riding a griffon requires an exotic saddle.
 

@@ -6,9 +6,9 @@ _A seemingly mundane puddle, patch of moist stone, or glistening rock is suddenl
 
 **XP 1,200**
 
-N Medium [ooze](creatureTypes.html#_ooze)
+N Medium [ooze](creatureTypes.md#_ooze)
 
-**Init** –5; **Senses** blindsight 60 ft.; [Perception](../skills/perception.html#_perception) –5
+**Init** –5; **Senses** blindsight 60 ft.; [Perception](../skills/perception.md#_perception) –5
 
 **Defense**
 
@@ -18,15 +18,15 @@ N Medium [ooze](creatureTypes.html#_ooze)
 
 **Fort** +9, **Ref** –4, **Will** –4
 
-**Defensive Abilities** [ooze traits](creatureTypes.html#_ooze); **Immune** cold, fire
+**Defensive Abilities** [ooze traits](creatureTypes.md#_ooze); **Immune** cold, fire
 
 **Offense**
 
 **Speed** 10 ft.
 
-**Melee** slam +6 (1d6+4 plus 1d6 acid and [grab](universalMonsterRules.html#_grab))
+**Melee** slam +6 (1d6+4 plus 1d6 acid and [grab](universalMonsterRules.md#_grab))
 
-**Special Attacks** acid, [constrict](universalMonsterRules.html#_constrict) (1d6+1 plus 1d6 acid)
+**Special Attacks** acid, [constrict](universalMonsterRules.md#_constrict) (1d6+1 plus 1d6 acid)
 
 **Statistics**
 
@@ -48,7 +48,7 @@ N Medium [ooze](creatureTypes.html#_ooze)
 
 **Acid (Ex)** The digestive acid that covers a gray ooze dissolves metals and organic material, but not stone. Each slam and constrict attack deals 1d6 additional acid damage. Armor or clothing worn by a creature grappled by a gray ooze takes the same amount of acid damage unless the wearer succeeds on a DC 20 Reflex saving throw. A wooden or metal weapon that strikes a gray ooze takes 1d6 acid damage unless the weapon's wielder succeeds on a DC 20 Reflex save. The ooze's touch deals 12 points of acid damage per round to wooden or metal objects, but the ooze must remain in contact with the material for 1 full round in order to deal this damage. The save DCs are Constitution-based.
 
-**Transparent (Ex)** Due to its lack of vivid coloration, a gray ooze is difficult to discern from its surroundings in most environments. A DC 15 [Perception](../skills/perception.html#_perception) check is required to notice the gray ooze. Any creature that fails to notice a gray ooze and walks into it automatically suffers damage as if struck by the ooze's slam attack and is immediately subject to a grab attempt by the ooze.
+**Transparent (Ex)** Due to its lack of vivid coloration, a gray ooze is difficult to discern from its surroundings in most environments. A DC 15 [Perception](../skills/perception.md#_perception) check is required to notice the gray ooze. Any creature that fails to notice a gray ooze and walks into it automatically suffers damage as if struck by the ooze's slam attack and is immediately subject to a grab attempt by the ooze.
 
 Slinking their way through cold swamps and bleary marshlands, or sometimes even dungeons and caverns, gray oozes consume any organic materials they encounter. Despite its lack of intelligence, the gray ooze is a most problematic creature due to its transparency. While the ooze cannot easily climb walls or swim, its habit of lurking in the thick mud that lines the banks of marsh pools or lying in harmless-looking pools on dull-colored dungeon floors makes it dangerously easy to overlook and step on.
 
@@ -60,5 +60,5 @@ The gray ooze adapts readily and swiftly to changes in environments, the simple 
 
 **Crystal Ooze (CR 4)** : The crystal ooze is an aquatic variant that dwells in deeper waters than most commonly found in the gray ooze's beloved swamps. A crystal ooze has the aquatic subtype and a swim speed of 30 ft. The crystal ooze lacks the gray ooze's constrict ability, but it does secrete a paralytic toxin that causes those whom it strikes to become paralyzed for 3d6 rounds if they fail a Fortitude saving throw (the save DC is Constitution-based).
 
-**Id Ooze (CR 6)** : Perhaps the strangest variant gray oozes are those that have developed a rudimentary intelligence, including the ability to communicate telepathically with other oozes, or even the ability to blast enemies with pulses of raw mental power. Id oozes are advanced gray oozes with an Intelligence score of 2 (and thus gain skill ranks and feats—typically 4 ranks in [Stealth](../skills/stealth.html#_stealth), [Improved Initiative](../feats.html#_improved-initiative), and [Toughness](../feats.html#_toughness)), can communicate basic empathic information with other id oozes within 100 feet via telepathy, and can use _ [lesser confusion](../spells/confusion.html#_confusion-lesser)_ at will as a spell-like ability (CL equals the id ooze's HD).
+**Id Ooze (CR 6)** : Perhaps the strangest variant gray oozes are those that have developed a rudimentary intelligence, including the ability to communicate telepathically with other oozes, or even the ability to blast enemies with pulses of raw mental power. Id oozes are advanced gray oozes with an Intelligence score of 2 (and thus gain skill ranks and feats—typically 4 ranks in [Stealth](../skills/stealth.md#_stealth), [Improved Initiative](../feats.md#_improved-initiative), and [Toughness](../feats.md#_toughness)), can communicate basic empathic information with other id oozes within 100 feet via telepathy, and can use _ [lesser confusion](../spells/confusion.md#_confusion-lesser)_ at will as a spell-like ability (CL equals the id ooze's HD).
 

@@ -14,5 +14,5 @@ Certain Grip
 
 **Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)
 
-The subject's grip and footing become sure, granting a +4 competence bonus on [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks, on [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) checks to balance, and to CMD against bull rush, drag, reposition, and trip attempts. While affected by this spell, the target is also immune to the disarm combat maneuver.
+The subject's grip and footing become sure, granting a +4 competence bonus on [Climb](skills/climb.md#_climb) checks, on [Acrobatics](skills/acrobatics.md#_acrobatics) checks to balance, and to CMD against bull rush, drag, reposition, and trip attempts. While affected by this spell, the target is also immune to the disarm combat maneuver.
 

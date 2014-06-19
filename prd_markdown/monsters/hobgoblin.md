@@ -8,9 +8,9 @@ _Standing as tall as a human, this muscular, gray-skinned creature peers about w
 
 Hobgoblin fighter 1
 
-LE Medium [humanoid](creatureTypes.html#_humanoid) (goblinoid)
+LE Medium [humanoid](creatureTypes.md#_humanoid) (goblinoid)
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +2
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +2
 
 **Defense**
 
@@ -34,9 +34,9 @@ LE Medium [humanoid](creatureTypes.html#_humanoid) (goblinoid)
 
 **Base Atk** +1; **CMB** +3; **CMD** 15
 
-**Feats** [Toughness](../feats.html#_toughness), [Weapon Focus](../feats.html#_weapon-focus) (longsword)
+**Feats** [Toughness](../feats.md#_toughness), [Weapon Focus](../feats.md#_weapon-focus) (longsword)
 
-**Skills** [Perception](../skills/perception.html#_perception) +2, [Stealth](../skills/stealth.html#_stealth) +5; **Racial Modifiers** +4 [Stealth](../skills/stealth.html#_stealth)
+**Skills** [Perception](../skills/perception.md#_perception) +2, [Stealth](../skills/stealth.md#_stealth) +5; **Racial Modifiers** +4 [Stealth](../skills/stealth.md#_stealth)
 
 **Languages** Common, Goblin
 
@@ -54,7 +54,7 @@ Of all the goblinoid races, the hobgoblin is by far the most civilized. They see
 
 Many hobgoblin tribes combine their love of warfare with keen intellects. The science of siege engines, alchemy, and complex feats of engineering fascinate most hobgoblins, and those who are particularly skilled are treated as heroes and invariably secure high-ranking positions in the tribe. Slaves with analytical minds are quite valued, and as such raids on dwarven cities are commonplace.
 
-It is well known that hobgoblins mistrust and even despise magic, particularly arcane magic. Their shamans are treated with a mix of fear and respect, and are usually forced to live alone on the fringes of the tribe's lair. It is all but unheard of to find a hobgoblin practicing arcane magic, or as hobgoblins call it, âelf magic.â This is the root of their hatred of magic—the hobgoblins' hatred of elves.
+It is well known that hobgoblins mistrust and even despise magic, particularly arcane magic. Their shamans are treated with a mix of fear and respect, and are usually forced to live alone on the fringes of the tribe's lair. It is all but unheard of to find a hobgoblin practicing arcane magic, or as hobgoblins call it, “elf magic.” This is the root of their hatred of magic—the hobgoblins' hatred of elves.
 
 A hobgoblin stands 5 feet tall and weighs 160 pounds.
 
@@ -66,7 +66,7 @@ Hobgoblins are defined by their class levels—they do not possess racial Hit Di
 
 **Darkvision** : Hobgoblins can see in the dark up to 60 feet.
 
-**Sneaky** : Hobgoblins gain a +4 racial bonus on [Stealth](../skills/stealth.html#_stealth) checks.
+**Sneaky** : Hobgoblins gain a +4 racial bonus on [Stealth](../skills/stealth.md#_stealth) checks.
 
 **Languages** : All hobgoblins begin play speaking Common and Goblin. Hobgoblins with high Intelligence scores can choose any of the following bonus languages: Draconic, Dwarven, Infernal, Giant, Orc.
 

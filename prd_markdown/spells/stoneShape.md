@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
 You can form an existing piece of stone into any shape that suits your purpose. While it's possible to make crude coffers, doors, and so forth with _stone shape, _fine detail isn't possible. There is a 30% chance that any shape including moving parts simply doesn't work.
 

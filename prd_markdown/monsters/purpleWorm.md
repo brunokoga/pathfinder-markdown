@@ -6,9 +6,9 @@ _This enormous worm is covered with dark purple plates of chitinous armor. Its g
 
 **XP 19,200**
 
-N Gargantuan [magical beast](creatureTypes.html#_magical-beast)
+N Gargantuan [magical beast](creatureTypes.md#_magical-beast)
 
-**Init** –2; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](../skills/perception.html#_perception) +18
+**Init** –2; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](../skills/perception.md#_perception) +18
 
 **Defense**
 
@@ -22,11 +22,11 @@ N Gargantuan [magical beast](creatureTypes.html#_magical-beast)
 
 **Speed** 20 ft., burrow 20 ft., swim 10 ft.
 
-**Melee** bite +25 (4d8+12/19–20 plus [grab](universalMonsterRules.html#_grab)), sting +25 (2d8+12 plus [poison](universalMonsterRules.html#_poison))
+**Melee** bite +25 (4d8+12/19–20 plus [grab](universalMonsterRules.md#_grab)), sting +25 (2d8+12 plus [poison](universalMonsterRules.md#_poison))
 
 **Space** 20 ft.; **Reach** 15 ft.
 
-**Special Attacks** [swallow whole](universalMonsterRules.html#_swallow-whole) (4d8+18 bludgeoning damage, AC 21, 20 hp)
+**Special Attacks** [swallow whole](universalMonsterRules.md#_swallow-whole) (4d8+18 bludgeoning damage, AC 21, 20 hp)
 
 **Statistics**
 
@@ -34,9 +34,9 @@ N Gargantuan [magical beast](creatureTypes.html#_magical-beast)
 
 **Base Atk** +16; **CMB** +32 (+36 grapple); **CMD** 40 (can't be tripped)
 
-**Feats** [Awesome Blow](monsterFeats.html#_awesome-blow), [Critical Focus](../feats.html#_critical-focus), [Improved Bull Rush](../feats.html#_improved-bull-rush), [Improved Critical](../feats.html#_improved-critical) (bite), [Power Attack](../feats.html#_power-attack), [Staggering Critical](../feats.html#_staggering-critical), [Weapon Focus](../feats.html#_weapon-focus) (bite, sting)
+**Feats** [Awesome Blow](monsterFeats.md#_awesome-blow), [Critical Focus](../feats.md#_critical-focus), [Improved Bull Rush](../feats.md#_improved-bull-rush), [Improved Critical](../feats.md#_improved-critical) (bite), [Power Attack](../feats.md#_power-attack), [Staggering Critical](../feats.md#_staggering-critical), [Weapon Focus](../feats.md#_weapon-focus) (bite, sting)
 
-**Skills** [Perception](../skills/perception.html#_perception) +18, [Swim](../skills/swim.html#_swim) +20
+**Skills** [Perception](../skills/perception.md#_perception) +18, [Swim](../skills/swim.md#_swim) +20
 
 **Ecology**
 
@@ -48,7 +48,7 @@ N Gargantuan [magical beast](creatureTypes.html#_magical-beast)
 
 **Special Abilities**
 
-**Poison (Ex)** Sting—injury; _save_ Fort DC 25; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Strength [damage](universalMonsterRules.html#_ability-damage-and-drain); _cure_ 3 consecutive saves. The save DC is Constitution-based.
+**Poison (Ex)** Sting—injury; _save_ Fort DC 25; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Strength [damage](universalMonsterRules.md#_ability-damage-and-drain); _cure_ 3 consecutive saves. The save DC is Constitution-based.
 
 Purple worms are giant scavengers that inhabit the deepest regions of the world, consuming any organic material that they encounter. They are notorious for swallowing their prey whole. It is not uncommon to hear of a group of adventurers vanishing down the ravenous maw of a purple worm, screaming as they disappear one by one.
 

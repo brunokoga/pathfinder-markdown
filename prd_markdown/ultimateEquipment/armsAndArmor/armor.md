@@ -2,9 +2,9 @@
 
 For most, armor is the simplest way to protect themselves in a world of rampant threats and dangers. Many characters can wear only the simplest of armors, and only some can use shields.
 
-The armor entries in the [Armor and Shields table](/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/armor.html#_armor-and-shields-table) contain the following information.
+The armor entries in the [Armor and Shields table](ultimateEquipment/armsAndArmor/armor.md#_armor-and-shields-table) contain the following information.
 
-**Cost** : The cost in gold pieces of the armor for Small or Medium humanoid creatures. See the [Armor for Unusual Creatures table](/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/armor.html#_armor-for-unusual-creatures-table) for armor prices for other creatures.
+**Cost** : The cost in gold pieces of the armor for Small or Medium humanoid creatures. See the [Armor for Unusual Creatures table](ultimateEquipment/armsAndArmor/armor.md#_armor-for-unusual-creatures-table) for armor prices for other creatures.
 
 **Armor/Shield Bonus** : Each type of armor grants an armor bonus to armor class (AC), while shields grant a shield bonus to AC. The armor bonus from a suit of armor doesn't stack with other effects or items that grant an armor bonus. Similarly, the shield bonus from a shield doesn't stack with other effects that grant a shield bonus. In each armor category (light, medium, or heavy), the armors are listed in order from worst AC bonus to highest AC bonus.
 
@@ -26,11 +26,11 @@ _Sleeping in Armor_: A character who sleeps in medium or heavy armor is automati
 
 **Arcane Spell Failure Chance** : Armor interferes with the gestures that a spellcaster must make to cast an arcane spell that has a somatic component. Arcane spellcasters face the possibility of arcane spell failure if they're wearing armor. Bards, magi, and summoners have class features which allow them to wear certain armors or even shields without incurring any arcane spell failure chance for casting spells from their class spell list.
 
-_Casting an Arcane Spell in Armor_: A character who casts an arcane spell while wearing armor must usually make an arcane spell failure check. The number in the arcane spell failure chance column in the [Armor and Shields table](/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/armor.html#_armor-and-shields-table) is the percentage chance that the spell fails and is ruined. if the spell lacks a somatic component, however, it can be cast with no chance of arcane spell failure.
+_Casting an Arcane Spell in Armor_: A character who casts an arcane spell while wearing armor must usually make an arcane spell failure check. The number in the arcane spell failure chance column in the [Armor and Shields table](ultimateEquipment/armsAndArmor/armor.md#_armor-and-shields-table) is the percentage chance that the spell fails and is ruined. if the spell lacks a somatic component, however, it can be cast with no chance of arcane spell failure.
 
 _Shields_: If a character is wearing armor and using a shield, add the two arcane spell failure chances together to get a single arcane spell failure chance.
 
-**Speed** : Medium or heavy armor slows the wearer down. The number in the [Armor and Shields table](/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/armor.html#_armor-and-shields-table) is the character's speed while wearing the armor. Humans, elves, half-elves, and half-orcs have an unencumbered speed of 30 feet. They use the first column. Dwarves, gnomes, and halflings have an unencumbered speed of 20 feet. They use the second column. Remember, however, that a dwarf's land speed remains 20 feet even in medium or heavy armor or when carrying a medium or heavy load.
+**Speed** : Medium or heavy armor slows the wearer down. The number in the [Armor and Shields table](ultimateEquipment/armsAndArmor/armor.md#_armor-and-shields-table) is the character's speed while wearing the armor. Humans, elves, half-elves, and half-orcs have an unencumbered speed of 30 feet. They use the first column. Dwarves, gnomes, and halflings have an unencumbered speed of 20 feet. They use the second column. Remember, however, that a dwarf's land speed remains 20 feet even in medium or heavy armor or when carrying a medium or heavy load.
 
 _Shields_: Shields do not affect a character's speed.
 
@@ -44,13 +44,13 @@ _Fragile_: Armor with the fragile quality falls apart when hit with heavy blows.
 
 Masterwork and magical fragile armor lacks these flaws unless otherwise noted in the item description or the special material description.
 
-If armor gains the broken condition in this way, that armor is considered to have taken damage equal to half its hit points +1. This damage is repaired either by something that addresses the effect that granted the armor the broken condition (like the [Field Repair](/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_field-repair) feat) or the repair methods described in the broken condition. When an effect that grants the broken condition is removed, the armor regains the hit points it lost when the broken condition was applied. Damage done by an attack against armor (such as from a sunder combat maneuver) cannot be repaired by an effect that removes the broken condition.
+If armor gains the broken condition in this way, that armor is considered to have taken damage equal to half its hit points +1. This damage is repaired either by something that addresses the effect that granted the armor the broken condition (like the [Field Repair](ultimateCombat/ultimateCombatFeats.md#_field-repair) feat) or the repair methods described in the broken condition. When an effect that grants the broken condition is removed, the armor regains the hit points it lost when the broken condition was applied. Damage done by an attack against armor (such as from a sunder combat maneuver) cannot be repaired by an effect that removes the broken condition.
 
 ## Masterwork Armor
 
 Just as with weapons, you can purchase or craft masterwork versions of armor or shields. Such a well-made item functions like the normal version, except that its armor check penalty is lessened by 1.
 
-The _masterwork transformation_ spell transforms a non-masterwork weapon into a masterwork weapon. Without using magic, you can't add the masterwork quality to armor or a shield after it is created; it must be crafted as a masterwork item (see the [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) skill).
+The _masterwork transformation_ spell transforms a non-masterwork weapon into a masterwork weapon. Without using magic, you can't add the masterwork quality to armor or a shield after it is created; it must be crafted as a masterwork item (see the [Craft](skills/craft.md#_craft) skill).
 
 A masterwork suit of armor or shield costs an extra 150 gp over and above the normal price for that type of armor or shield.
 
@@ -72,7 +72,7 @@ All armor in the Pathfinder Roleplaying Game assumes you're dealing with a full 
 
 ## Armor for Unusual Creatures
 
-Armor and shields for unusually big creatures, unusually little creatures, and non-humanoid creatures (such as horses) have different prices and weights from those given in the [Armor and Shields table](/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/armor.html#_armor-and-shields-table). Refer to the appropriate line on the table below and apply the multipliers to price and weight for the armor type in question.
+Armor and shields for unusually big creatures, unusually little creatures, and non-humanoid creatures (such as horses) have different prices and weights from those given in the [Armor and Shields table](ultimateEquipment/armsAndArmor/armor.md#_armor-and-shields-table). Refer to the appropriate line on the table below and apply the multipliers to price and weight for the armor type in question.
 
 [Armor for Unusual Creatures]
 | Size | Humanoid  
@@ -199,7 +199,7 @@ Agile Breastplate
 
 **Armor Bonus** +6
 
-This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks and jump checks is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty).
+This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for [Climb](skills/climb.md#_climb) checks and jump checks is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty).
 
 Agile Half-Plate
 
@@ -207,7 +207,7 @@ Agile Half-Plate
 
 **Armor Bonus** +8
 
-This style of half-plate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks and jump checks is only –4 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty). In addition, unlike with most heavy armors, the wearer can still run at quadruple speed instead of triple speed.
+This style of half-plate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for [Climb](skills/climb.md#_climb) checks and jump checks is only –4 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty). In addition, unlike with most heavy armors, the wearer can still run at quadruple speed instead of triple speed.
 
 Armor Spikes
 
@@ -215,7 +215,7 @@ Armor Spikes
 
 **Armor Bonus** —
 
-You can have spikes added to your armor, which allow you to deal extra piercing damage on a successful grapple attack (see "spiked armor" in the [Martial Weapons Table](/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/weapons.html#_martial-weapons-table)). The spikes count as a martial weapon. If you are not proficient with them, you take a –4 penalty on grapple checks when you try to use them. You can also make a regular melee attack (or off-hand attack) with the spikes, and they count as a light weapon in this case. (You can't also make an attack with armor spikes if you have already made an attack with another off-hand weapon, and vice versa.) An enhancement bonus to a suit of armor does not improve the spikes' effectiveness, but the spikes can be made into magic weapons in their own right.
+You can have spikes added to your armor, which allow you to deal extra piercing damage on a successful grapple attack (see "spiked armor" in the [Martial Weapons Table](ultimateEquipment/armsAndArmor/weapons.md#_martial-weapons-table)). The spikes count as a martial weapon. If you are not proficient with them, you take a –4 penalty on grapple checks when you try to use them. You can also make a regular melee attack (or off-hand attack) with the spikes, and they count as a light weapon in this case. (You can't also make an attack with armor spikes if you have already made an attack with another off-hand weapon, and vice versa.) An enhancement bonus to a suit of armor does not improve the spikes' effectiveness, but the spikes can be made into magic weapons in their own right.
 
 Armored Coat
 
@@ -311,9 +311,9 @@ Heavy Steel Shield
 
 **Shield Bonus** +2
 
-You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is so heavy that you can't use your shield hand for anything else. Whether wooden or steel, a heavy shield offers the same basic protection and attack benefits, though the two versions respond differently to some spells and effects (such as _ [rusting grasp](/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp)_). A druid can use a heavy wooden shield, but not a heavy steel shield.
+You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is so heavy that you can't use your shield hand for anything else. Whether wooden or steel, a heavy shield offers the same basic protection and attack benefits, though the two versions respond differently to some spells and effects (such as _ [rusting grasp](spells/rustingGrasp.md#_rusting-grasp)_). A druid can use a heavy wooden shield, but not a heavy steel shield.
 
-_Shield Bash Attacks_: You can bash an opponent with a heavy shield. See "heavy shield" on the [Martial Weapons table](/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/weapons.html#_martial-weapons-table) for the damage dealt by a shield bash with a heavy shield. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.
+_Shield Bash Attacks_: You can bash an opponent with a heavy shield. See "heavy shield" on the [Martial Weapons table](ultimateEquipment/armsAndArmor/weapons.md#_martial-weapons-table) for the damage dealt by a shield bash with a heavy shield. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.
 
 Heavy Wooden Shield
 
@@ -321,7 +321,7 @@ Heavy Wooden Shield
 
 **Shield Bonus** +2
 
-A heavy wooden shield is essentially the same as a heavy steel shield, except that it responds differently to some spells and effects (such as _ [rusting grasp](/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp)_). A druid can use a heavy wooden shield, but not a heavy steel shield.
+A heavy wooden shield is essentially the same as a heavy steel shield, except that it responds differently to some spells and effects (such as _ [rusting grasp](spells/rustingGrasp.md#_rusting-grasp)_). A druid can use a heavy wooden shield, but not a heavy steel shield.
 
 Hide
 
@@ -389,7 +389,7 @@ Light Steel Quickdraw Shield
 
 **Shield Bonus** +1
 
-This light steel shield is specially crafted with a series of straps to allow a character proficient in shields to ready or stow it on her back quickly and easily. If you have a base attack bonus of +1 or higher, you may don or put away a quickdraw shield as a swift action combined with a regular move. If you have the [Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_two-weapon-fighting) feat, you can draw a light or one-handed weapon with one hand and a quickdraw shield with the other in the time it would normally take you to draw one weapon. If you have the [Quick Draw](/pathfinderRPG/prd/feats.html#_quick-draw) feat, you may don or put away a quickdraw shield as a free action.
+This light steel shield is specially crafted with a series of straps to allow a character proficient in shields to ready or stow it on her back quickly and easily. If you have a base attack bonus of +1 or higher, you may don or put away a quickdraw shield as a swift action combined with a regular move. If you have the [Two-Weapon Fighting](feats.md#_two-weapon-fighting) feat, you can draw a light or one-handed weapon with one hand and a quickdraw shield with the other in the time it would normally take you to draw one weapon. If you have the [Quick Draw](feats.md#_quick-draw) feat, you may don or put away a quickdraw shield as a free action.
 
 Light Steel Shield
 
@@ -399,7 +399,7 @@ Light Steel Shield
 
 You strap a light steel shield to your forearm and grip it with your hand. A light steel shield's weight lets you carry other items in that hand, although you cannot use weapons with it. Whether wooden or steel, a light shield offers the same basic protection and attack benefits, though the two varieties respond differently to some spells and effects (such as rusting grasp). A druid can use a light wooden shield, but not a light steel shield.
 
-_Shield Bash Attacks_: You can bash an opponent with a light shield. See "light shield" in the [Martial Weapons table](/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/weapons.html#_martial-weapons-table) for the damage dealt by a shield bash with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.
+_Shield Bash Attacks_: You can bash an opponent with a light shield. See "light shield" in the [Martial Weapons table](ultimateEquipment/armsAndArmor/weapons.md#_martial-weapons-table) for the damage dealt by a shield bash with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.
 
 Light Wooden Quickdraw Shield
 
@@ -407,7 +407,7 @@ Light Wooden Quickdraw Shield
 
 **Shield Bonus** +1
 
-A wooden quickdraw shield is essentially the same as a steel quickdraw shield, except it responds differently to some spells and effects (such as _ [rusting grasp](/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp)_). A druid can use a heavy wooden quickdraw shield, but not a steel quickdraw shield.
+A wooden quickdraw shield is essentially the same as a steel quickdraw shield, except it responds differently to some spells and effects (such as _ [rusting grasp](spells/rustingGrasp.md#_rusting-grasp)_). A druid can use a heavy wooden quickdraw shield, but not a steel quickdraw shield.
 
 Light Wooden Shield
 
@@ -415,7 +415,7 @@ Light Wooden Shield
 
 **Shield Bonus** +1
 
-A light wooden shield is essentially the same as a light steel shield, except it responds differently to some spells and effects (such as _ [rusting grasp](/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp)_). A druid can use a light wooden shield, but not a light steel shield.
+A light wooden shield is essentially the same as a light steel shield, except it responds differently to some spells and effects (such as _ [rusting grasp](spells/rustingGrasp.md#_rusting-grasp)_). A druid can use a light wooden shield, but not a light steel shield.
 
 Locked Gauntlet
 
@@ -438,7 +438,7 @@ Madu
 | Leather | 40 gp | +1 |
 | Steel | 50 gp | +1 |
 
-The madu is a round, light leather shield with two animal horns—usually from an antelope—extending from opposite edges of the shield. If you are proficient with the madu, you may use it to fight defensively with a –2 penalty instead of the normal –4, and your attack penalty for using [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise) improves by +1 (minimum –1 penalty). You cannot hold anything else in the hand that bears a madu. If you are not proficient with the madu, treat it as a light spiked shield. A madu can't be disarmed. While traditional madus are crafted from leather and animal horn, they can be made entirely out of metal. Whether leather or steel, a madu offers the same basic protection and attack benefits, though the two varieties respond differently to some spells and effects (such as _ [rusting grasp](/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp)_). A druid can use a leather madu, but not a steel madu.
+The madu is a round, light leather shield with two animal horns—usually from an antelope—extending from opposite edges of the shield. If you are proficient with the madu, you may use it to fight defensively with a –2 penalty instead of the normal –4, and your attack penalty for using [Combat Expertise](feats.md#_combat-expertise) improves by +1 (minimum –1 penalty). You cannot hold anything else in the hand that bears a madu. If you are not proficient with the madu, treat it as a light spiked shield. A madu can't be disarmed. While traditional madus are crafted from leather and animal horn, they can be made entirely out of metal. Whether leather or steel, a madu offers the same basic protection and attack benefits, though the two varieties respond differently to some spells and effects (such as _ [rusting grasp](spells/rustingGrasp.md#_rusting-grasp)_). A druid can use a leather madu, but not a steel madu.
 
 Mountain Pattern
 
@@ -470,7 +470,7 @@ Parade
 
 **Armor Bonus** +3
 
-Most wealthy countries with standing armies have a different uniform for use in showy noncombat situations such as parades, coronation ceremonies, and so on. The appearance of this armor varies by the country of origin and the branch of the military, but still provides some protection in case the soldier needs to fight while in parade dress. For example, one country's parade armor may be a chain shirt, tabard, leather greaves, and a winged helm. If you're wearing a country's parade armor, you gain a +2 circumstance bonus on [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) and [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks to influence a person from that country. Depending on the country, parade armor may be crafted from leather, metal, or a mixture of both.
+Most wealthy countries with standing armies have a different uniform for use in showy noncombat situations such as parades, coronation ceremonies, and so on. The appearance of this armor varies by the country of origin and the branch of the military, but still provides some protection in case the soldier needs to fight while in parade dress. For example, one country's parade armor may be a chain shirt, tabard, leather greaves, and a winged helm. If you're wearing a country's parade armor, you gain a +2 circumstance bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) and [Intimidate](skills/intimidate.md#_intimidate) checks to influence a person from that country. Depending on the country, parade armor may be crafted from leather, metal, or a mixture of both.
 
 Quilted Cloth
 
@@ -494,7 +494,7 @@ Shield Spikes
 
 **Shield Bonus** —
 
-Deadly spikes and bladed projections extend from some shields, transforming such pieces of armor into weapon in their own right. Shield spikes turn a shield into a martial piercing weapon and increase the damage dealt by a shield bash as if the shield were designed for a creature one size category larger (see "spiked light shield" and "spiked heavy shield" in the [Martial Weapons table](/pathfinderRPG/prd/ultimateEquipment/armsAndArmor/weapons.html#_martial-weapons-table)). You can't put spikes on a buckler or a tower shield. Otherwise, attacking with a spiked shield is like making a shield bash attack.
+Deadly spikes and bladed projections extend from some shields, transforming such pieces of armor into weapon in their own right. Shield spikes turn a shield into a martial piercing weapon and increase the damage dealt by a shield bash as if the shield were designed for a creature one size category larger (see "spiked light shield" and "spiked heavy shield" in the [Martial Weapons table](ultimateEquipment/armsAndArmor/weapons.md#_martial-weapons-table)). You can't put spikes on a buckler or a tower shield. Otherwise, attacking with a spiked shield is like making a shield bash attack.
 
 An enhancement bonus on a spiked shield does not improve the effectiveness of a shield bash made with it, but a spiked shield can be made into a magic weapon in its own right.
 

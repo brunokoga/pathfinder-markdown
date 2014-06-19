@@ -1,6 +1,6 @@
 Faerie Fire
 
-**Source** [_faerie fire_](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)
+**Source** [_faerie fire_](spells/faerieFire.md#_faerie-fire)
 
 Outlined creatures are dazzled. The spell outlines figment illusions in the burst, revealing them as such. This effect applies only to figments with a caster level equal to or less than your tier.
 

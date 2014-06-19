@@ -6,9 +6,9 @@ Dragon HorseCR 9
 
 **XP 6,400**
 
-NG Large [magical beast](/pathfinderRPG/prd/monsters/creatureTypes.html#_magical-beast) ( [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype))
+NG Large [magical beast](monsters/creatureTypes.md#_magical-beast) ( [air](monsters/creatureTypes.md#_air-subtype))
 
-**Init** +7; **Senses** darkvision 120 ft., know alignment, low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +17
+**Init** +7; **Senses** darkvision 120 ft., know alignment, low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +17
 
 Defense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +10; **CMB** +18; **CMD** 32 (36 vs. trip)
 
-**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Flyby Attack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility)
+**Feats** [Dodge](additionalMonsters/../feats.md#_dodge), [Flyby Attack](additionalMonsters/../monsters/monsterFeats.md#_flyby-attack), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Mobility](additionalMonsters/../feats.md#_mobility)
 
-**Skills** [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +18, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +13, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +17, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +14, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +14
+**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +18, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +13, [Perception](additionalMonsters/../skills/perception.md#_perception) +17, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +14, [Survival](additionalMonsters/../skills/survival.md#_survival) +14
 
 **Languages** Auran, Common, Draconic; telepathy 100 ft.
 
@@ -52,13 +52,13 @@ Ecology
 
 Special Abilities
 
-**Breath Weapons (Su)** As a standard action, a dragon horse can breathe out a 30-foot cone of mist. This mist either deals 10d6 points of [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) damage (DC 20 Reflex half), creates a region of fog in the area that lasts for 1 minute (similar to that created by a _ [fog cloud](/pathfinderRPG/prd/additionalMonsters/../spells/fogCloud.html)_ spell), or creates a blast of severe wind (see the [wind effects table](/pathfinderRPG/prd/additionalMonsters/../environment.html#_table-13-10-wind-effects)) in the area. The dragon horse may use this [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) once every 1d4 rounds. The save DC is Constitution-based.
+**Breath Weapons (Su)** As a standard action, a dragon horse can breathe out a 30-foot cone of mist. This mist either deals 10d6 points of [cold](monsters/creatureTypes.md#_cold-subtype) damage (DC 20 Reflex half), creates a region of fog in the area that lasts for 1 minute (similar to that created by a _ [fog cloud](additionalMonsters/../spells/fogCloud.md)_ spell), or creates a blast of severe wind (see the [wind effects table](additionalMonsters/../environment.md#_table-13-10-wind-effects)) in the area. The dragon horse may use this [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) once every 1d4 rounds. The save DC is Constitution-based.
 
 **Flying Charge (Ex)** A dragon horse gains a +4 bonus on damage rolls if it charges while flying.
 
 **Know Alignment (Su)** Dragon horses automatically know the alignment of any creature they can see.
 
-**Shift Planes (Su)** A dragon horse can enter the Ethereal Plane, Astral Plane, Plane of [Air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype), or Material Plane once per day as a standard action. This functions as _ [plane shift](/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift)_, but the dragon horse can only bring up to two other willing creatures with it, and only if they are on its back.
+**Shift Planes (Su)** A dragon horse can enter the Ethereal Plane, Astral Plane, Plane of [Air](monsters/creatureTypes.md#_air-subtype), or Material Plane once per day as a standard action. This functions as _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_, but the dragon horse can only bring up to two other willing creatures with it, and only if they are on its back.
 
 Despite their name, dragon horses are not related to dragons. These noble creatures gain their name from their ability to fly through the air without wings and to create different effects with their misty breath.
 

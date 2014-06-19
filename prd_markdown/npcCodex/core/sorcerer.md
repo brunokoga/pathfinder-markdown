@@ -28,15 +28,15 @@ Offense
 
 **Sorcerer Spells Known** (CL 1st; concentration +4)
 
-1st (4/day)—_ [color spray](/pathfinderRPG/prd/spells/colorSpray.html#_color-spray)_ (DC 14), _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_
+1st (4/day)—_ [color spray](spells/colorSpray.md#_color-spray)_ (DC 14), _ [magic missile](spells/magicMissile.md#_magic-missile)_
 
-0 (at will)—_ [daze](/pathfinderRPG/prd/spells/daze.html#_daze) _(DC 13), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [daze](spells/daze.md#_daze) _(DC 13), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_
 
 **Bloodline** arcane
 
 Tactics
 
-**During Combat** The sorcerer casts _ [color spray](/pathfinderRPG/prd/spells/colorSpray.html#_color-spray)_ to neutralize groups of foes, followed by _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_ at any foes left standing.
+**During Combat** The sorcerer casts _ [color spray](spells/colorSpray.md#_color-spray)_ to neutralize groups of foes, followed by _ [magic missile](spells/magicMissile.md#_magic-missile)_ at any foes left standing.
 
 Statistics
 
@@ -44,15 +44,15 @@ Statistics
 
 **Base Atk** +0; **CMB** +0; **CMD** 12
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will)
+**Feats** [Alertness](feats.md#_alertness), [Combat Casting](feats.md#_combat-casting), [Eschew Materials](feats.md#_eschew-materials), [Iron Will](feats.md#_iron-will)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +7, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +7, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +5, Perception +1, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +1, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +5
+**Skills** [Bluff](skills/bluff.md#_bluff) +7, [Intimidate](skills/intimidate.md#_intimidate) +7, [Knowledge](skills/knowledge.md#_knowledge) (local) +5, Perception +1, [Sense Motive](skills/senseMotive.md#_sense-motive) +1, [Spellcraft](skills/spellcraft.md#_spellcraft) +5
 
 **Languages** Common, Draconic
 
 **SQ** arcane bond (familiar [rat named Slivikin]), bloodline arcana (+1 DC for metamagic spells that increase spell level)
 
-**Combat Gear** _potion of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _scrolls of [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_ (2), _scrolls of [shield](/pathfinderRPG/prd/spells/shield.html#_shield) _(2), _wand of [sleep](/pathfinderRPG/prd/spells/sleep.html#_sleep)_ (11 charges), alchemist's fire (2); **Other Gear** darts (5), quarterstaff, 33 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, _scrolls of [disguise self](spells/disguiseSelf.md#_disguise-self)_ (2), _scrolls of [shield](spells/shield.md#_shield) _(2), _wand of [sleep](spells/sleep.md#_sleep)_ (11 charges), alchemist's fire (2); **Other Gear** darts (5), quarterstaff, 33 gp
 
 The mercenary magician serves whoever can pay her, but is not particularly loyal to her employers.
 
@@ -86,7 +86,7 @@ Offense
 
 **Melee** spiked gauntlet +3 (1d4+2) or heavy mace +3 (1d8+2)
 
-**Ranged** mwk heavy crossbow +2 (1d10/19â20)
+**Ranged** mwk heavy crossbow +2 (1d10/19–20)
 
 **Special Attacks** +1 on attack rolls vs. goblinoid and orc humanoids
 
@@ -96,15 +96,15 @@ Offense
 
 **Sorcerer Spells Known** (CL 2nd; concentration +3; arcane spell failure 10%)
 
-1st (5/day)—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ (DC 12), _ [shocking grasp](/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp)_ (fire)
+1st (5/day)—_ [burning hands](spells/burningHands.md#_burning-hands)_ (DC 12), _ [shocking grasp](spells/shockingGrasp.md#_shocking-grasp)_ (fire)
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash) _(fire), _ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [touch of fatigue](/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue)_ (DC 11)
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash) _(fire), _ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [mending](spells/mending.md#_mending)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [touch of fatigue](spells/touchOfFatigue.md#_touch-of-fatigue)_ (DC 11)
 
 **Bloodline** elemental (fire)
 
 Tactics
 
-**During Combat** The sorcerer uses _ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ and _ [shocking grasp](/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp)_ to scorch his foes.
+**During Combat** The sorcerer uses _ [burning hands](spells/burningHands.md#_burning-hands)_ and _ [shocking grasp](spells/shockingGrasp.md#_shocking-grasp)_ to scorch his foes.
 
 Statistics
 
@@ -112,15 +112,15 @@ Statistics
 
 **Base Atk** +1; **CMB** +3; **CMD** 13 (17 vs. bull rush or trip)
 
-**Feats** [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Eschew Materials](feats.md#_eschew-materials), [Toughness](feats.md#_toughness)
 
-**Skills** [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) +5 (+7 to assess metals or gemstones), [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (jewelry) +5, Perception +2 (+4 to notice unusual stonework), [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +5, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +5
+**Skills** [Appraise](skills/appraise.md#_appraise) +5 (+7 to assess metals or gemstones), [Craft](skills/craft.md#_craft) (jewelry) +5, Perception +2 (+4 to notice unusual stonework), [Spellcraft](skills/spellcraft.md#_spellcraft) +5, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +5
 
 **Languages** Common, Dwarven, Giant
 
 **SQ** bloodline arcana (change energy damage spells to fire)
 
-**Combat Gear** _potion of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_,_ scroll of [flaming sphere](/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere)_, acid (2), alchemist's fire (3); **Other Gear** leather armor, heavy mace, masterwork heavy crossbow with 20 bolts, spiked gauntlet, uncut gems (worth 100 gp), 23 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_,_ scroll of [flaming sphere](spells/flamingSphere.md#_flaming-sphere)_, acid (2), alchemist's fire (3); **Other Gear** leather armor, heavy mace, masterwork heavy crossbow with 20 bolts, spiked gauntlet, uncut gems (worth 100 gp), 23 gp
 
 The gem sorcerer is unusual among dwarves, using arcane magic to satisfy his insatiable greed for gems.
 
@@ -148,27 +148,27 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** 2 claws +1 (1d4) or mwk longsword +2 (1d8/19â20)
+**Melee** 2 claws +1 (1d4) or mwk longsword +2 (1d8/19–20)
 
-**Ranged** longbow +3 (1d8/Ã3)
+**Ranged** longbow +3 (1d8/×3)
 
 **Special Attacks** claws (2, 1d4, 5 rounds/day)
 
 **Sorcerer Spells Known** (CL 3rd; concentration +5)
 
-1st (6/day)—_ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (DC 13), _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_
+1st (6/day)—_ [cause fear](spells/causeFear.md#_cause-fear)_ (DC 13), _ [endure elements](spells/endureElements.md#_endure-elements)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_
 
-0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 12), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [bleed](spells/bleed.md#_bleed)_ (DC 12), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [light](spells/light.md#_light)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_
 
 **Bloodline** draconic (white)
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_.
+**Before Combat** The sorcerer casts _ [mage armor](spells/mageArmor.md#_mage-armor)_.
 
-**During Combat** The sorcerer casts _ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ at any dangerous-looking opponent, then casts _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_ at her foes. When her spells are exhausted, she casts _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_ from a scroll and attacks with her claws or longsword.
+**During Combat** The sorcerer casts _ [cause fear](spells/causeFear.md#_cause-fear)_ at any dangerous-looking opponent, then casts _ [magic missile](spells/magicMissile.md#_magic-missile)_ at her foes. When her spells are exhausted, she casts _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_ from a scroll and attacks with her claws or longsword.
 
-**Base Statistics** Without _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, the sorcerer's statistics are **AC** 13, touch 12, flat-footed 11.
+**Base Statistics** Without _ [mage armor](spells/mageArmor.md#_mage-armor)_, the sorcerer's statistics are **AC** 13, touch 12, flat-footed 11.
 
 Statistics
 
@@ -176,15 +176,15 @@ Statistics
 
 **Base Atk** +1; **CMB** +1; **CMD** 13
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Eschew Materials](feats.md#_eschew-materials), [Lightning Reflexes](feats.md#_lightning-reflexes)
 
-**Skills** [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +8, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +8, Perception +7, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +8 (+10 to identify magic item properties)
+**Skills** [Intimidate](skills/intimidate.md#_intimidate) +8, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +8, Perception +7, [Spellcraft](skills/spellcraft.md#_spellcraft) +8 (+10 to identify magic item properties)
 
 **Languages** Common, Draconic, Elven, Goblin
 
 **SQ** bloodline arcana (cold spells deal +1 damage per die), elven magic, weapon familiarity
 
-**Combat Gear** _potion of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _potion of [fly](/pathfinderRPG/prd/spells/fly.html)_, _scrolls of [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_ (2), _scroll of [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_; **Other Gear** longbow with 20 arrows, masterwork longsword, 10 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, _potion of [fly](spells/fly.md)_, _scrolls of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_ (2), _scroll of [fog cloud](spells/fogCloud.md)_; **Other Gear** longbow with 20 arrows, masterwork longsword, 10 gp
 
 The whiteclaw sorcerer revels in her draconic blood, using her powers to terrify and kill enemies in her territory.
 
@@ -212,9 +212,9 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** mwk spear +5 (1d6+1/Ã3)
+**Melee** mwk spear +5 (1d6+1/×3)
 
-**Ranged** light crossbow +4 (1d6/19â20)
+**Ranged** light crossbow +4 (1d6/19–20)
 
 **Special Attacks** +1 on attack rolls against goblinoid and reptilian humanoids, long limbs (+5 ft.)
 
@@ -224,21 +224,21 @@ Offense
 
 **Gnome Spell-Like Abilities** (CL 4th; concentration +8)
 
-1/day—_ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_ (DC 15), _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1/day—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 15), _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
 
 **Sorcerer Spells Known** (CL 4th; concentration +8)
 
-2nd (4/day)—_ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_
+2nd (4/day)—_ [alter self](spells/alterSelf.md#_alter-self)_
 
-1st (7/day)—_ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_ (DC 16), _ [reduce person](/pathfinderRPG/prd/spells/reducePerson.html#_reduce-person)_ (DC 16), _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, _ [shocking grasp](/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp)_
+1st (7/day)—_ [enlarge person](spells/enlargePerson.md#_enlarge-person)_ (DC 16), _ [reduce person](spells/reducePerson.md#_reduce-person)_ (DC 16), _ [shield](spells/shield.md#_shield)_, _ [shocking grasp](spells/shockingGrasp.md#_shocking-grasp)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 14), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [touch of fatigue](/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue)_ (DC 14)
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [bleed](spells/bleed.md#_bleed)_ (DC 14), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [touch of fatigue](spells/touchOfFatigue.md#_touch-of-fatigue)_ (DC 14)
 
 **Bloodline** aberrant
 
 Tactics
 
-**During Combat** The sorcerer casts _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, targets approaching enemies with acidic ray, then uses her long limbs ability to deliver touch spells. In melee, she casts _ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_ on herself and attacks with her spear.
+**During Combat** The sorcerer casts _ [shield](spells/shield.md#_shield)_, targets approaching enemies with acidic ray, then uses her long limbs ability to deliver touch spells. In melee, she casts _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_ on herself and attacks with her spear.
 
 Statistics
 
@@ -246,15 +246,15 @@ Statistics
 
 **Base Atk** +2; **CMB** +2; **CMD** 13
 
-**Feats** [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (transmutation)
+**Feats** [Eschew Materials](feats.md#_eschew-materials), [Iron Will](feats.md#_iron-will), [Spell Focus](feats.md#_spell-focus) (transmutation)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +8, [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) +5, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +5, Perception +2, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +8
+**Skills** [Bluff](skills/bluff.md#_bluff) +8, [Craft](skills/craft.md#_craft) (alchemy) +5, [Disguise](skills/disguise.md#_disguise) +5, Perception +2, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +8
 
 **Languages** Common, Gnome, Sylvan
 
 **SQ** bloodline arcana (+50% duration on polymorph spells), gnome magic
 
-**Combat Gear** _potion of [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_, _scrolls of [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_ (2), _scroll of [slow](/pathfinderRPG/prd/spells/slow.html#_slow)_, acid, tanglefoot bag; **Other Gear** light crossbow with 10 bolts, masterwork spear, _ [bracers of armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor) +1_, collection of dolls' heads, 28 gp
+**Combat Gear** _potion of [spider climb](spells/spiderClimb.md#_spider-climb)_, _scrolls of [cat's grace](spells/catSGrace.md#_cat-s-grace)_ (2), _scroll of [slow](spells/slow.md#_slow)_, acid, tanglefoot bag; **Other Gear** light crossbow with 10 bolts, masterwork spear, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +1_, collection of dolls' heads, 28 gp
 
 The tainted sorcerer's mind and body have been warped by alien or extraplanar magic.
 
@@ -284,27 +284,27 @@ Offense
 
 **Melee** mwk light mace +3 (1d6) or 2 claws +2 (1d4)
 
-**Ranged** mwk light crossbow +5 (1d8/19â20)
+**Ranged** mwk light crossbow +5 (1d8/19–20)
 
 **Special Attacks** claws (2, 1d4, treated as magic, 7 rounds/day)
 
 **Sorcerer Spells Known** (CL 5th; concentration +9)
 
-2nd (5/day)—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_, _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_
+2nd (5/day)—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_, _ [mirror image](spells/mirrorImage.md#_mirror-image)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
 
-1st (7/day)—_ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (DC 15), _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 15), _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 15)
+1st (7/day)—_ [cause fear](spells/causeFear.md#_cause-fear)_ (DC 15), _ [charm person](spells/charmPerson.md#_charm-person)_ (DC 15), _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 15)
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_ (DC 14), _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [message](/pathfinderRPG/prd/spells/message.html#_message)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 14), _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [message](spells/message.md#_message)_, _ [read magic](spells/readMagic.md#_read-magic)_
 
 **Bloodline** draconic (green)
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_ and _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (fire).
+**Before Combat** The sorcerer casts _ [mage armor](spells/mageArmor.md#_mage-armor)_ and _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (fire).
 
-**During Combat** The sorcerer casts _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, then entangles opponents with his _wand of [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_ (using the [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) skill). He uses one of his _scrolls of [levitate](/pathfinderRPG/prd/spells/levitate.html#_levitate)_ to avoid melee combat, and casts _ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ to remove opponents threatening him.
+**During Combat** The sorcerer casts _ [mirror image](spells/mirrorImage.md#_mirror-image)_, then entangles opponents with his _wand of [entangle](spells/entangle.md#_entangle)_ (using the [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) skill). He uses one of his _scrolls of [levitate](spells/levitate.md#_levitate)_ to avoid melee combat, and casts _ [cause fear](spells/causeFear.md#_cause-fear)_ to remove opponents threatening him.
 
-**Base Statistics** Without _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_ and _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, the sorcerer's statistics are **AC** 14, touch 13, flat-footed 11; **Resist** acid 5.
+**Base Statistics** Without _ [mage armor](spells/mageArmor.md#_mage-armor)_ and _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the sorcerer's statistics are **AC** 14, touch 13, flat-footed 11; **Resist** acid 5.
 
 Statistics
 
@@ -312,15 +312,15 @@ Statistics
 
 **Base Atk** +2; **CMB** +2; **CMD** 15
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device))
+**Feats** [Combat Casting](feats.md#_combat-casting), [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials), [Lightning Reflexes](feats.md#_lightning-reflexes), [Skill Focus](feats.md#_skill-focus) ( [Use Magic Device](skills/useMagicDevice.md#_use-magic-device))
 
-**Skills** [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +10, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +7, Perception +7, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +7, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +13
+**Skills** [Intimidate](skills/intimidate.md#_intimidate) +10, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +7, Perception +7, [Spellcraft](skills/spellcraft.md#_spellcraft) +7, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +13
 
 **Languages** Common, Draconic, Elven
 
 **SQ** bloodline arcana (acid spells deal +1 damage per die), elf blood
 
-**Combat Gear** _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _potion of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _scrolls of [levitate](/pathfinderRPG/prd/spells/levitate.html#_levitate)_ (2), _scroll of [ray of exhaustion](/pathfinderRPG/prd/spells/rayOfExhaustion.html#_ray-of-exhaustion)_, _scroll of [silent image](/pathfinderRPG/prd/spells/silentImage.html#_silent-image)_, _wand of [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_ (20 charges), smokestick; **Other Gear** masterwork light crossbow with 10 bolts, masterwork light mace, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, 190 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [invisibility](spells/invisibility.md#_invisibility)_, _scrolls of [levitate](spells/levitate.md#_levitate)_ (2), _scroll of [ray of exhaustion](spells/rayOfExhaustion.md#_ray-of-exhaustion)_, _scroll of [silent image](spells/silentImage.md#_silent-image)_, _wand of [entangle](spells/entangle.md#_entangle)_ (20 charges), smokestick; **Other Gear** masterwork light crossbow with 10 bolts, masterwork light mace, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, 190 gp
 
 The bramble sorcerer serves the interests of green dragons, walking where his masters cannot and speaking on their behalf to other forest dwellers.
 
@@ -356,9 +356,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** spear +2 (1d8â1/Ã3)
+**Melee** spear +2 (1d8–1/×3)
 
-**Ranged** mwk longbow +6 (1d8/Ã3)
+**Ranged** mwk longbow +6 (1d8/×3)
 
 **Bloodline Spell-Like Abilities** (CL 6th; concentration +9)
 
@@ -366,23 +366,23 @@ Offense
 
 **Sorcerer Spells Known** (CL 6th; concentration +9)
 
-3rd (4/day)—_ [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt)_ (DC 17)
+3rd (4/day)—_ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_ (DC 17)
 
-2nd (6/day)—_ [gust of wind](/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind)_ (DC 16), _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_ (electricity), _ [spectral hand](/pathfinderRPG/prd/spells/spectralHand.html#_spectral-hand)_
+2nd (6/day)—_ [gust of wind](spells/gustOfWind.md#_gust-of-wind)_ (DC 16), _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_ (electricity), _ [spectral hand](spells/spectralHand.md#_spectral-hand)_
 
-1st (7/day)—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ (electricity; DC 15), _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [shocking grasp](/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp)_
+1st (7/day)—_ [burning hands](spells/burningHands.md#_burning-hands)_ (electricity; DC 15), _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_, _ [shocking grasp](spells/shockingGrasp.md#_shocking-grasp)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_ (electricity), _ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_ (electricity), _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_ (electricity), _ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [light](spells/light.md#_light)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_ (electricity), _ [read magic](spells/readMagic.md#_read-magic)_
 
 **Bloodline** elemental (air)
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_.
+**Before Combat** The sorcerer casts _ [mage armor](spells/mageArmor.md#_mage-armor)_.
 
-**During Combat** The sorcerer favors his electricity spells, casting _ [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt)_ or _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, or using his _ [spectral hand](/pathfinderRPG/prd/spells/spectralHand.html#_spectral-hand)_ to deliver _ [shocking grasp](/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp)_ attacks. He prefers ranged combat, using a _scroll of [fly](/pathfinderRPG/prd/spells/fly.html)_ or _ [levitate](/pathfinderRPG/prd/spells/levitate.html#_levitate)_ to avoid opponents on the ground.
+**During Combat** The sorcerer favors his electricity spells, casting _ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_ or _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, or using his _ [spectral hand](spells/spectralHand.md#_spectral-hand)_ to deliver _ [shocking grasp](spells/shockingGrasp.md#_shocking-grasp)_ attacks. He prefers ranged combat, using a _scroll of [fly](spells/fly.md)_ or _ [levitate](spells/levitate.md#_levitate)_ to avoid opponents on the ground.
 
-**Base Statistics** Without _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, the sorcerer's base statistics are **AC** 14, touch 14, flat-footed 11.
+**Base Statistics** Without _ [mage armor](spells/mageArmor.md#_mage-armor)_, the sorcerer's base statistics are **AC** 14, touch 14, flat-footed 11.
 
 Statistics
 
@@ -390,15 +390,15 @@ Statistics
 
 **Base Atk** +3; **CMB** +2; **CMD** 16
 
-**Feats** [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation)
+**Feats** [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials), [Improved Initiative](feats.md#_improved-initiative), [Spell Focus](feats.md#_spell-focus) (evocation)
 
-**Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +10, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +9, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +2, Perception +4, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +10 (+12 to identify magic item properties)
+**Skills** [Fly](skills/fly.md#_fly) +10, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +9, [Linguistics](skills/linguistics.md#_linguistics) +2, Perception +4, [Spellcraft](skills/spellcraft.md#_spellcraft) +10 (+12 to identify magic item properties)
 
 **Languages** Auran, Common, Draconic, Elven
 
 **SQ** bloodline arcana (change energy damage spells to electricity), elven magic, weapon familiarity
 
-**Combat Gear** _scroll of [fly](/pathfinderRPG/prd/spells/fly.html)_, _scroll of [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_, _scroll of [levitate](/pathfinderRPG/prd/spells/levitate.html#_levitate)_; **Other Gear** masterwork longbow with 20 arrows, spear, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1;_ 375 gp
+**Combat Gear** _scroll of [fly](spells/fly.md)_, _scroll of [gaseous form](spells/gaseousForm.md#_gaseous-form)_, _scroll of [levitate](spells/levitate.md#_levitate)_; **Other Gear** masterwork longbow with 20 arrows, spear, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1;_ 375 gp
 
 The storm sorcerer battles his enemies with wind and lightning, reveling in nature's destructive power.
 
@@ -434,9 +434,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk falchion +7 (2d4+4/18â20)
+**Melee** mwk falchion +7 (2d4+4/18–20)
 
-**Ranged** mwk heavy crossbow +5 (1d10/19â20)
+**Ranged** mwk heavy crossbow +5 (1d10/19–20)
 
 **Bloodline Spell-Like Abilities** (CL 7th; concentration +10)
 
@@ -444,23 +444,23 @@ Offense
 
 **Sorcerer Spells Known** (CL 7th; concentration +10)
 
-3rd (5/day)—_ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ (DC 17), _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_
+3rd (5/day)—_ [fireball](spells/fireball.md#_fireball)_ (DC 17), _ [haste](spells/haste.md#_haste)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_
 
-2nd (7/day)—_ [blur](/pathfinderRPG/prd/spells/blur.html#_blur), [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [glitterdust](/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust)_ (DC 15), _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_
+2nd (7/day)—_ [blur](spells/blur.md#_blur), [false life](spells/falseLife.md#_false-life)_, _ [glitterdust](spells/glitterdust.md#_glitterdust)_ (DC 15), _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_
 
-1st (7/day)—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ (DC 15), _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon)_, _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 14), _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_
+1st (7/day)—_ [burning hands](spells/burningHands.md#_burning-hands)_ (DC 15), _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [magic weapon](spells/magicWeapon.md#_magic-weapon)_, _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 14), _ [shield](spells/shield.md#_shield)_
 
-0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 13), _ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 14), _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_ (fire), _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [bleed](spells/bleed.md#_bleed)_ (DC 13), _ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [flare](spells/flare.md#_flare)_ (DC 14), _ [light](spells/light.md#_light)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_ (fire), _ [read magic](spells/readMagic.md#_read-magic)_
 
 **Bloodline** elemental (fire)
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_ and _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_.
+**Before Combat** The sorcerer casts _ [false life](spells/falseLife.md#_false-life)_ and _ [mage armor](spells/mageArmor.md#_mage-armor)_.
 
-**During Combat** The sorcerer casts _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_ before targeting her foes with _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ or _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_. In melee combat, she casts _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield) _on herself, and _ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon)_ on her falchion.
+**During Combat** The sorcerer casts _ [haste](spells/haste.md#_haste)_ before targeting her foes with _ [fireball](spells/fireball.md#_fireball)_ or _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_. In melee combat, she casts _ [shield](spells/shield.md#_shield) _on herself, and _ [magic weapon](spells/magicWeapon.md#_magic-weapon)_ on her falchion.
 
-**Base Statistics** Without _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_ and _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, the sorcerer's statistics are **AC** 13, touch 11, flat-footed 12; **hp** 48.
+**Base Statistics** Without _ [false life](spells/falseLife.md#_false-life)_ and _ [mage armor](spells/mageArmor.md#_mage-armor)_, the sorcerer's statistics are **AC** 13, touch 11, flat-footed 12; **hp** 48.
 
 Statistics
 
@@ -468,15 +468,15 @@ Statistics
 
 **Base Atk** +3; **CMB** +6; **CMD** 18
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Eschew Materials](feats.md#_eschew-materials), [Iron Will](feats.md#_iron-will), [Power Attack](feats.md#_power-attack), [Spell Focus](feats.md#_spell-focus) (evocation), [Toughness](feats.md#_toughness)
 
-**Skills** [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +3, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +0, Perception +7, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +4
+**Skills** [Intimidate](skills/intimidate.md#_intimidate) +11, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +3, [Linguistics](skills/linguistics.md#_linguistics) +0, Perception +7, [Spellcraft](skills/spellcraft.md#_spellcraft) +4
 
 **Languages** Common, Ignan, Orc
 
 **SQ** bloodline arcana (change energy damage spells to fire), orc blood, weapon familiarity
 
-**Combat Gear** _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _scroll of [fly](/pathfinderRPG/prd/spells/fly.html)_ (2); **Other Gear** masterwork falchion, masterwork heavy crossbow with 10 bolts, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +1_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, 225 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _scroll of [fly](spells/fly.md)_ (2); **Other Gear** masterwork falchion, masterwork heavy crossbow with 10 bolts, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 225 gp
 
 The bloodfire sorcerer withers her enemies with flame and quickens her allies with hot-blooded ferocity.
 
@@ -512,15 +512,15 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** sickle +3 (1d4â2)
+**Melee** sickle +3 (1d4–2)
 
-**Ranged** mwk light crossbow +8 (1d6/19â20)
+**Ranged** mwk light crossbow +8 (1d6/19–20)
 
 **Special Attacks** +1 on attack rolls against goblinoid and reptilian humanoids
 
 **Gnome Spell-Like Abilities** (CL 8th; concentration +12)
 
-1/day—_ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_ (DC 15), _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1/day—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 15), _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
 
 **Bloodline Spell-Like Abilities** (CL 8th; concentration +12)
 
@@ -528,21 +528,21 @@ Offense
 
 **Sorcerer Spells Known** (CL 8th; concentration +12)
 
-4th (4/day)—_ [phantasmal killer](/pathfinderRPG/prd/spells/phantasmalKiller.html#_phantasmal-killer)_ (DC 21)
+4th (4/day)—_ [phantasmal killer](spells/phantasmalKiller.md#_phantasmal-killer)_ (DC 21)
 
-3rd (6/day)—_ [deep slumber](/pathfinderRPG/prd/spells/deepSlumber.html#_deep-slumber)_ (DC 19), _ [major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_ (DC 20), _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 19)
+3rd (6/day)—_ [deep slumber](spells/deepSlumber.md#_deep-slumber)_ (DC 19), _ [major image](spells/majorImage.md#_major-image)_ (DC 20), _ [suggestion](spells/suggestion.md#_suggestion)_ (DC 19)
 
-2nd (7/day)—_ [hideous laughter](/pathfinderRPG/prd/spells/hideousLaughter.html#_hideous-laughter)_ (DC 18), _ [hypnotic pattern](/pathfinderRPG/prd/spells/hypnoticPattern.html#_hypnotic-pattern)_ (DC 19), _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_
+2nd (7/day)—_ [hideous laughter](spells/hideousLaughter.md#_hideous-laughter)_ (DC 18), _ [hypnotic pattern](spells/hypnoticPattern.md#_hypnotic-pattern)_ (DC 19), _ [mirror image](spells/mirrorImage.md#_mirror-image)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_
 
-1st (7/day)—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 15), _ [color spray](/pathfinderRPG/prd/spells/colorSpray.html#_color-spray)_ (DC 18), _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_ (DC 15), _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, _ [ventriloquism](/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism)_ (DC 18)
+1st (7/day)—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 15), _ [color spray](spells/colorSpray.md#_color-spray)_ (DC 18), _ [entangle](spells/entangle.md#_entangle)_ (DC 15), _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [shield](spells/shield.md#_shield)_, _ [ventriloquism](spells/ventriloquism.md#_ventriloquism)_ (DC 18)
 
-0 (at will)—_ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ (DC 16), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 14), _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [message](/pathfinderRPG/prd/spells/message.html#_message)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [touch of fatigue](/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue)_ (DC 14)
+0 (at will)—_ [daze](spells/daze.md#_daze)_ (DC 16), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [flare](spells/flare.md#_flare)_ (DC 14), _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [message](spells/message.md#_message)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [touch of fatigue](spells/touchOfFatigue.md#_touch-of-fatigue)_ (DC 14)
 
 **Bloodline** fey
 
 Tactics
 
-**During Combat** The sorcerer casts _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, then attempts to control or humiliate opponents with _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_, _ [hideous laughter](/pathfinderRPG/prd/spells/hideousLaughter.html#_hideous-laughter), [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion),_ or his _wand of [grease](/pathfinderRPG/prd/spells/grease.html#_grease)_.
+**During Combat** The sorcerer casts _ [mirror image](spells/mirrorImage.md#_mirror-image)_, then attempts to control or humiliate opponents with _ [charm person](spells/charmPerson.md#_charm-person)_, _ [hideous laughter](spells/hideousLaughter.md#_hideous-laughter), [suggestion](spells/suggestion.md#_suggestion),_ or his _wand of [grease](spells/grease.md#_grease)_.
 
 Statistics
 
@@ -550,15 +550,15 @@ Statistics
 
 **Base Atk** +4; **CMB** +1; **CMD** 14
 
-**Feats** [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (illusion), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), Mobility, [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (illusion)
+**Feats** [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials), Greater [Spell Focus](feats.md#_spell-focus) (illusion), [Iron Will](feats.md#_iron-will), Mobility, [Spell Focus](feats.md#_spell-focus) (illusion)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +12, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +8, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) +5, Perception +10, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +8, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +11
+**Skills** [Bluff](skills/bluff.md#_bluff) +12, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +8, [Knowledge](skills/knowledge.md#_knowledge) (nature) +5, Perception +10, [Spellcraft](skills/spellcraft.md#_spellcraft) +8, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +11
 
 **Languages** Common, Elven, Gnome, Sylvan
 
 **SQ** bloodline arcana (+2 DC for compulsion spells), gnome magic, woodland stride
 
-**Combat Gear** _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _screaming bolts_ (3), _wand of [grease](/pathfinderRPG/prd/spells/grease.html#_grease)_ (20 charges), _wand of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ (21 charges); **Other Gear** masterwork light crossbow with 10 bolts, sickle, _ [bracers of armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor) +2_, book of pressed fairy wings, 168 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _screaming bolts_ (3), _wand of [grease](spells/grease.md#_grease)_ (20 charges), _wand of [invisibility](spells/invisibility.md#_invisibility)_ (21 charges); **Other Gear** masterwork light crossbow with 10 bolts, sickle, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +2_, book of pressed fairy wings, 168 gp
 
 The trickster mage thinks everyone deserves to be the butt of his jokes, even if they don't want to be.
 
@@ -594,9 +594,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk morningstar +4 (1d8â1)
+**Melee** mwk morningstar +4 (1d8–1)
 
-**Ranged** javelin +6 (1d6â1) or ray +7 (by spell)
+**Ranged** javelin +6 (1d6–1) or ray +7 (by spell)
 
 **Bloodline Spell-Like Abilities** (CL 9th; concentration +13)
 
@@ -604,25 +604,25 @@ Offense
 
 **Sorcerer Spells Known** (CL 9th; concentration +13)
 
-4th (5/day)—_ [remove curse](/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse)_, _ [summon monster IV](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv)_, _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_
+4th (5/day)—_ [remove curse](spells/removeCurse.md#_remove-curse)_, _ [summon monster IV](spells/summonMonster.md#_summon-monster-iv)_, _ [wall of fire](spells/wallOfFire.md#_wall-of-fire)_
 
-3rd (7/day)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt)_ (DC 17), _ [magic circle against evil](/pathfinderRPG/prd/spells/magicCircleAgainstEvil.html#_magic-circle-against-evil)_, _ [ray of exhaustion](/pathfinderRPG/prd/spells/rayOfExhaustion.html#_ray-of-exhaustion)_ (DC 17)
+3rd (7/day)—_ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_ (DC 17), _ [magic circle against evil](spells/magicCircleAgainstEvil.md#_magic-circle-against-evil)_, _ [ray of exhaustion](spells/rayOfExhaustion.md#_ray-of-exhaustion)_ (DC 17)
 
-2nd (7/day)—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_, _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, _ [shatter](/pathfinderRPG/prd/spells/shatter.html#_shatter)_
+2nd (7/day)—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_, _ [false life](spells/falseLife.md#_false-life)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, _ [shatter](spells/shatter.md#_shatter)_
 
-1st (7/day)—_ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 15), _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_
+1st (7/day)—_ [bless](spells/bless.md#_bless)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 15), _ [shield](spells/shield.md#_shield)_, _ [true strike](spells/trueStrike.md#_true-strike)_
 
-0 (at will)—_ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ (DC 14), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
+0 (at will)—_ [daze](spells/daze.md#_daze)_ (DC 14), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [light](spells/light.md#_light)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [mending](spells/mending.md#_mending)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [resistance](spells/resistance.md#_resistance)_
 
 **Bloodline** celestial
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_ and _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_.
+**Before Combat** The sorcerer casts _ [false life](spells/falseLife.md#_false-life)_ and _ [mage armor](spells/mageArmor.md#_mage-armor)_.
 
-**During Combat** The sorcerer casts _ [summon monster IV](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv)_ to summon a celestial giant wasp, then shoots ray spells at her foes.
+**During Combat** The sorcerer casts _ [summon monster IV](spells/summonMonster.md#_summon-monster-iv)_ to summon a celestial giant wasp, then shoots ray spells at her foes.
 
-**Base Statistics** Without _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_ and _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, the sorcerer's statistics are **AC** 15, touch 14, flat-footed 12; **hp** 61.
+**Base Statistics** Without _ [false life](spells/falseLife.md#_false-life)_ and _ [mage armor](spells/mageArmor.md#_mage-armor)_, the sorcerer's statistics are **AC** 15, touch 14, flat-footed 12; **hp** 61.
 
 Statistics
 
@@ -630,15 +630,15 @@ Statistics
 
 **Base Atk** +4; **CMB** +3; **CMD** 17
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), Mobility, [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), [Toughness](/pathfinderRPG/prd/feats.html#_toughness), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (ray)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials), [Lightning Reflexes](feats.md#_lightning-reflexes), Mobility, [Point-Blank Shot](feats.md#_point-blank-shot), [Toughness](feats.md#_toughness), [Weapon Focus](feats.md#_weapon-focus) (ray)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +5, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +5, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +6, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +10, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +1, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +1, Perception +9, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +10, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +3
+**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +5, [Handle Animal](skills/handleAnimal.md#_handle-animal) +5, [Heal](skills/heal.md#_heal) +6, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +10, [Knowledge](skills/knowledge.md#_knowledge) (religion) +1, [Linguistics](skills/linguistics.md#_linguistics) +1, Perception +9, [Spellcraft](skills/spellcraft.md#_spellcraft) +10, [Survival](skills/survival.md#_survival) +3
 
 **Languages** Celestial, Common
 
 **SQ** bloodline arcana (summoned creatures gain DR 4/evil), wings of heaven (9 minutes/day)
 
-**Combat Gear** _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _scroll of [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_, _wand of [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_ (25 charges), holy water (2); **Other Gear** javelins (4), masterwork morningstar, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +1_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, 988 gp
+**Combat Gear** _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _scroll of [confusion](spells/confusion.md#_confusion)_, _wand of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_ (25 charges), holy water (2); **Other Gear** javelins (4), masterwork morningstar, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 988 gp
 
 The sacred sorcerer is an agent of the gods, less constrained than a priest and armed with magic rarely used by other servants of the divine.
 
@@ -670,33 +670,33 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk greataxe +8 (1d12+3/Ã3) or 2 claws +7 (1d6+2)
+**Melee** mwk greataxe +8 (1d12+3/×3) or 2 claws +7 (1d6+2)
 
 **Special Attacks** breath weapon (60-foot line, 10d6 acid, DC 20, 1/day), claws (2, 1d6+2, treated as magic weapons, 7 rounds/day)
 
 **Sorcerer Spells Known** (CL 10th; concentration +15)
 
-5th (4/day)—_ [cloudkill](/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill)_ (DC 20)
+5th (4/day)—_ [cloudkill](spells/cloudkill.md#_cloudkill)_ (DC 20)
 
-4th (6/day)—_ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_ (DC 19), _ [shout](/pathfinderRPG/prd/spells/shout.html#_shout)_ (DC 21), _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_
+4th (6/day)—_ [fear](spells/fear.md#_fear)_ (DC 19), _ [shout](spells/shout.md#_shout)_ (DC 21), _ [stoneskin](spells/stoneskin.md#_stoneskin)_
 
-3rd (7/day)—_ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball) _(DC 20), _ [fly](/pathfinderRPG/prd/spells/fly.html)_, _ [rage](/pathfinderRPG/prd/spells/rage.html#_rage)_, _ [stinking cloud](/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud) _(DC 18)
+3rd (7/day)—_ [fireball](spells/fireball.md#_fireball) _(DC 20), _ [fly](spells/fly.md)_, _ [rage](spells/rage.md#_rage)_, _ [stinking cloud](spells/stinkingCloud.md#_stinking-cloud) _(DC 18)
 
-2nd (7/day)—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_
+2nd (7/day)—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [false life](spells/falseLife.md#_false-life)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_
 
-1st (8/day)—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ (DC 18), _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 16), _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_
+1st (8/day)—_ [burning hands](spells/burningHands.md#_burning-hands)_ (DC 18), _ [endure elements](spells/endureElements.md#_endure-elements)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 16), _ [shield](spells/shield.md#_shield)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [arcane mark](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark)_, _ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 15), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 17), _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_, _ [touch of fatigue](/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue)_ (DC 15)
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [arcane mark](spells/arcaneMark.md#_arcane-mark)_, _ [bleed](spells/bleed.md#_bleed)_ (DC 15), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [flare](spells/flare.md#_flare)_ (DC 17), _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [resistance](spells/resistance.md#_resistance)_, _ [touch of fatigue](spells/touchOfFatigue.md#_touch-of-fatigue)_ (DC 15)
 
 **Bloodline** draconic (black)
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, and _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_ on himself.
+**Before Combat** The sorcerer casts _ [false life](spells/falseLife.md#_false-life)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, and _ [stoneskin](spells/stoneskin.md#_stoneskin)_ on himself.
 
-**During Combat** The sorcerer casts _ [fly](/pathfinderRPG/prd/spells/fly.html)_ on the first round of combat along with a quickened _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_. He maneuvers so he can catch as many opponents as possible with his breath weapon. If pressed into melee, he casts _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_ and _ [rage](/pathfinderRPG/prd/spells/rage.html#_rage)_, then attacks with his greataxe or claws.
+**During Combat** The sorcerer casts _ [fly](spells/fly.md)_ on the first round of combat along with a quickened _ [magic missile](spells/magicMissile.md#_magic-missile)_. He maneuvers so he can catch as many opponents as possible with his breath weapon. If pressed into melee, he casts _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_ and _ [rage](spells/rage.md#_rage)_, then attacks with his greataxe or claws.
 
-**Base Statistics** Without _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, and _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, the sorcerer's statistics are **AC** 15, touch 12, flat-footed 14; **hp** 67; **DR** —.
+**Base Statistics** Without _ [false life](spells/falseLife.md#_false-life)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, and _ [stoneskin](spells/stoneskin.md#_stoneskin)_, the sorcerer's statistics are **AC** 15, touch 12, flat-footed 14; **hp** 67; **DR** —.
 
 Statistics
 
@@ -704,15 +704,15 @@ Statistics
 
 **Base Atk** +5; **CMB** +7; **CMD** 19
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Quicken Spell](/pathfinderRPG/prd/feats.html#_quicken-spell), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Eschew Materials](feats.md#_eschew-materials), [Great Fortitude](feats.md#_great-fortitude), Greater [Spell Focus](feats.md#_spell-focus) (evocation), [Improved Initiative](feats.md#_improved-initiative), [Quicken Spell](feats.md#_quicken-spell), [Spell Focus](feats.md#_spell-focus) (evocation)
 
-**Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +9, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +15, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +1, Perception +7, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +7
+**Skills** [Fly](skills/fly.md#_fly) +9, [Intimidate](skills/intimidate.md#_intimidate) +15, [Linguistics](skills/linguistics.md#_linguistics) +1, Perception +7, [Spellcraft](skills/spellcraft.md#_spellcraft) +7
 
 **Languages** Common, Draconic, Orc
 
 **SQ** bloodline arcana (acid spells deal +1 damage per die), orc blood, weapon familiarity
 
-**Combat Gear** _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _wand of [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_ (15 charges); **Other Gear** masterwork greataxe, _amulet of natural armor +1_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +2_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, signet ring, diamond dust (worth 500 gp), 825 gp
+**Combat Gear** _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _wand of [acid arrow](spells/acidArrow.md#_acid-arrow)_ (15 charges); **Other Gear** masterwork greataxe, _amulet of natural armor +1_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, signet ring, diamond dust (worth 500 gp), 825 gp
 
 The blackscale sorcerer channels the powers of corruption and sloth.
 
@@ -748,9 +748,9 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** mwk longspear +5 (1d6â2/Ã3)
+**Melee** mwk longspear +5 (1d6–2/×3)
 
-**Ranged** mwk light crossbow +10 (1d6/19â20)
+**Ranged** mwk light crossbow +10 (1d6/19–20)
 
 **Special Attacks** it was meant to be (1/day)
 
@@ -760,27 +760,27 @@ Offense
 
 **Sorcerer Spells Known** (CL 11th; concentration +16)
 
-5th (5/day)—_ [break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment)_, _ [interposing hand](/pathfinderRPG/prd/spells/interposingHand.html#_interposing-hand)_, _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport)_
+5th (5/day)—_ [break enchantment](spells/breakEnchantment.md#_break-enchantment)_, _ [interposing hand](spells/interposingHand.md#_interposing-hand)_, _ [teleport](spells/teleport.md#_teleport)_
 
-4th (7/day)—_ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (DC 19), _dimension door_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_
+4th (7/day)—_ [bestow curse](spells/bestowCurse.md#_bestow-curse)_ (DC 19), _dimension door_, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_
 
-3rd (7/day)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ (DC 18), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 18), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [ray of exhaustion](/pathfinderRPG/prd/spells/rayOfExhaustion.html#_ray-of-exhaustion)_ (DC 18)
+3rd (7/day)—_ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [fireball](spells/fireball.md#_fireball)_ (DC 18), _ [hold person](spells/holdPerson.md#_hold-person)_ (DC 18), _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, _ [ray of exhaustion](spells/rayOfExhaustion.md#_ray-of-exhaustion)_ (DC 18)
 
-2nd (7/day)—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_, _ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_ (DC 17), _ [blur](/pathfinderRPG/prd/spells/blur.html#_blur)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_, _ [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_
+2nd (7/day)—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_, _ [blindness/deafness](spells/blindnessDeafness.md#_blindness-deafness)_ (DC 17), _ [blur](spells/blur.md#_blur)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, _ [spider climb](spells/spiderClimb.md#_spider-climb)_
 
-1st (8/day)—_ [alarm](/pathfinderRPG/prd/spells/alarm.html#_alarm)_, _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 16), _ [floating disk](/pathfinderRPG/prd/spells/floatingDisk.html#_floating-disk)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_
+1st (8/day)—_ [alarm](spells/alarm.md#_alarm)_, _ [charm person](spells/charmPerson.md#_charm-person)_ (DC 16), _ [floating disk](spells/floatingDisk.md#_floating-disk)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [true strike](spells/trueStrike.md#_true-strike)_
 
-0 (at will)—_ [arcane mark](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [message](/pathfinderRPG/prd/spells/message.html#_message)_, _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
+0 (at will)—_ [arcane mark](spells/arcaneMark.md#_arcane-mark)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [light](spells/light.md#_light)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [message](spells/message.md#_message)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [resistance](spells/resistance.md#_resistance)_
 
 **Bloodline** destined
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, and _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (fire).
+**Before Combat** The sorcerer casts _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, and _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (fire).
 
-**During Combat** The sorcerer uses _ [interposing hand](/pathfinderRPG/prd/spells/interposingHand.html#_interposing-hand)_ or _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ to keep opponents from reaching her while she uses ranged attack spells such as _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball) _and _ [ray of exhaustion](/pathfinderRPG/prd/spells/rayOfExhaustion.html#_ray-of-exhaustion)_.
+**During Combat** The sorcerer uses _ [interposing hand](spells/interposingHand.md#_interposing-hand)_ or _ [hold person](spells/holdPerson.md#_hold-person)_ to keep opponents from reaching her while she uses ranged attack spells such as _ [fireball](spells/fireball.md#_fireball) _and _ [ray of exhaustion](spells/rayOfExhaustion.md#_ray-of-exhaustion)_.
 
-**Base Statistics** Without _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_ and _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, the sorcerer's statistics are **AC** 17, touch 16, flat-footed 13; **Immune** none.
+**Base Statistics** Without _ [mage armor](spells/mageArmor.md#_mage-armor)_ and _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, the sorcerer's statistics are **AC** 17, touch 16, flat-footed 13; **Immune** none.
 
 Statistics
 
@@ -788,15 +788,15 @@ Statistics
 
 **Base Atk** +5; **CMB** +2; **CMD** 23
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), [Defensive Combat Training](/pathfinderRPG/prd/feats.html#_defensive-combat-training), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), Mobility
+**Feats** [Combat Casting](feats.md#_combat-casting), [Combat Expertise](feats.md#_combat-expertise), [Defensive Combat Training](feats.md#_defensive-combat-training), [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials), [Great Fortitude](feats.md#_great-fortitude), [Lightning Reflexes](feats.md#_lightning-reflexes), Mobility
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +5 (+1 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +13, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +0, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +9, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, history) +9, Perception +13, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +10
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +5 (+1 when jumping), [Bluff](skills/bluff.md#_bluff) +13, [Climb](skills/climb.md#_climb) +0, [Fly](skills/fly.md#_fly) +9, [Knowledge](skills/knowledge.md#_knowledge) (arcana, history) +9, Perception +13, [Spellcraft](skills/spellcraft.md#_spellcraft) +10
 
 **Languages** Common, Gnome, Halfling
 
 **SQ** bloodline arcana (gains a luck bonus to saves when casting personal-range spells)
 
-**Combat Gear** _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _potion of [eagle's splendor](/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor)_, _potion of [fly](/pathfinderRPG/prd/spells/fly.html)_, _potion of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _wand of [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_ (44 charges); **Other Gear** masterwork light crossbow with 10 bolts, masterwork longspear, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +1_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +2_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +2_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, 649 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _potion of [eagle's splendor](spells/eagleSSplendor.md#_eagle-s-splendor)_, _potion of [fly](spells/fly.md)_, _potion of [invisibility](spells/invisibility.md#_invisibility)_, _wand of [shield](spells/shield.md#_shield)_ (44 charges); **Other Gear** masterwork light crossbow with 10 bolts, masterwork longspear, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 649 gp
 
 The lucky mage uses her magic, innate talents and good fortune to survive incredible odds with barely a scratch. Rather than depend on this strange fortune, however, the lucky mage constantly strives to understand and harness her unique abilities.
 
@@ -832,9 +832,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk rapier +10/+5 (1d6â1/18â20)
+**Melee** mwk rapier +10/+5 (1d6–1/18–20)
 
-**Ranged** mwk shortbow +10/+5 (1d6/Ã3)
+**Ranged** mwk shortbow +10/+5 (1d6/×3)
 
 **Bloodline Spell-Like Abilities** (CL 12th; concentration +17)
 
@@ -844,29 +844,29 @@ Offense
 
 **Sorcerer Spells Known** (CL 12th; concentration +17)
 
-6th (3/day)—_ [mass suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass)_ (DC 25)
+6th (3/day)—_ [mass suggestion](spells/suggestion.md#_suggestion-mass)_ (DC 25)
 
-5th (6/day)—_ [dominate person](/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person)_ (DC 24), _ [mind fog](/pathfinderRPG/prd/spells/mindFog.html#_mind-fog)_ (DC 24), _ [tree stride](/pathfinderRPG/prd/spells/treeStride.html#_tree-stride)_
+5th (6/day)—_ [dominate person](spells/dominatePerson.md#_dominate-person)_ (DC 24), _ [mind fog](spells/mindFog.md#_mind-fog)_ (DC 24), _ [tree stride](spells/treeStride.md#_tree-stride)_
 
-4th (7/day)—_ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (DC 19), _ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_ (DC 21), _ [crushing despair](/pathfinderRPG/prd/spells/crushingDespair.html#_crushing-despair)_ (DC 23), _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 19)
+4th (7/day)—_ [bestow curse](spells/bestowCurse.md#_bestow-curse)_ (DC 19), _ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 21), _ [crushing despair](spells/crushingDespair.md#_crushing-despair)_ (DC 23), _ [poison](spells/poison.md#_poison)_ (DC 19)
 
-3rd (7/day)—_ [deep slumber](/pathfinderRPG/prd/spells/deepSlumber.html#_deep-slumber)_ (DC 22), _ [fly](/pathfinderRPG/prd/spells/fly.html)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 22), _ [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt)_ (DC 18), _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 22)
+3rd (7/day)—_ [deep slumber](spells/deepSlumber.md#_deep-slumber)_ (DC 22), _ [fly](spells/fly.md)_, _ [hold person](spells/holdPerson.md#_hold-person)_ (DC 22), _ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_ (DC 18), _ [suggestion](spells/suggestion.md#_suggestion)_ (DC 22)
 
-2nd (7/day)—_ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [glitterdust](/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust)_ (DC 17), _ [hideous laughter](/pathfinderRPG/prd/spells/hideousLaughter.html#_hideous-laughter)_ (DC 21), _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, _ [spectral hand](/pathfinderRPG/prd/spells/spectralHand.html#_spectral-hand)_, _ [touch of idiocy](/pathfinderRPG/prd/spells/touchOfIdiocy.html#_touch-of-idiocy)_
+2nd (7/day)—_ [false life](spells/falseLife.md#_false-life)_, _ [glitterdust](spells/glitterdust.md#_glitterdust)_ (DC 17), _ [hideous laughter](spells/hideousLaughter.md#_hideous-laughter)_ (DC 21), _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, _ [spectral hand](spells/spectralHand.md#_spectral-hand)_, _ [touch of idiocy](spells/touchOfIdiocy.md#_touch-of-idiocy)_
 
-1st (8/day)—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 18), _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_ (DC 16), _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, _ [ventriloquism](/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism)_ (DC 16)
+1st (8/day)—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 18), _ [entangle](spells/entangle.md#_entangle)_ (DC 16), _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [shield](spells/shield.md#_shield)_, _ [ventriloquism](spells/ventriloquism.md#_ventriloquism)_ (DC 16)
 
-0 (at will)—_ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ (DC 19), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_ (DC 15), _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [message](/pathfinderRPG/prd/spells/message.html#_message)_, _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [daze](spells/daze.md#_daze)_ (DC 19), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 15), _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [message](spells/message.md#_message)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_
 
 **Bloodline** fey
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_ and _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_.
+**Before Combat** The sorcerer casts _ [false life](spells/falseLife.md#_false-life)_ and _ [mage armor](spells/mageArmor.md#_mage-armor)_.
 
-**During Combat** The sorcerer uses her fleeting glance ability to turn invisible, then casts _ [mind fog](/pathfinderRPG/prd/spells/mindFog.html#_mind-fog)_ before using her enchantment spells. She casts _ [spectral hand](/pathfinderRPG/prd/spells/spectralHand.html#_spectral-hand)_ to deliver touch spells such as _ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_, or _ [touch of idiocy](/pathfinderRPG/prd/spells/touchOfIdiocy.html#_touch-of-idiocy)_.
+**During Combat** The sorcerer uses her fleeting glance ability to turn invisible, then casts _ [mind fog](spells/mindFog.md#_mind-fog)_ before using her enchantment spells. She casts _ [spectral hand](spells/spectralHand.md#_spectral-hand)_ to deliver touch spells such as _ [bestow curse](spells/bestowCurse.md#_bestow-curse)_, _ [poison](spells/poison.md#_poison)_, or _ [touch of idiocy](spells/touchOfIdiocy.md#_touch-of-idiocy)_.
 
-**Base Statistics** Without _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_ and _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, the sorcerer's statistics are **AC** 17, touch 16, flat-footed 13; **hp** 44.
+**Base Statistics** Without _ [false life](spells/falseLife.md#_false-life)_ and _ [mage armor](spells/mageArmor.md#_mage-armor)_, the sorcerer's statistics are **AC** 17, touch 16, flat-footed 13; **hp** 44.
 
 Statistics
 
@@ -874,15 +874,15 @@ Statistics
 
 **Base Atk** +6; **CMB** +5; **CMD** 21
 
-**Feats** [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (enchantment), Improved [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (enchantment), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials), Greater [Spell Focus](feats.md#_spell-focus) (enchantment), Improved [Iron Will](feats.md#_iron-will), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), [Spell Focus](feats.md#_spell-focus) (enchantment), [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +18, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +15, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +7, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +18, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +6, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) +5, Perception +12, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +9 (+11 to identify magic item properties)
+**Skills** [Bluff](skills/bluff.md#_bluff) +18, [Diplomacy](skills/diplomacy.md#_diplomacy) +15, [Fly](skills/fly.md#_fly) +7, [Intimidate](skills/intimidate.md#_intimidate) +18, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +6, [Knowledge](skills/knowledge.md#_knowledge) (nature) +5, Perception +12, [Spellcraft](skills/spellcraft.md#_spellcraft) +9 (+11 to identify magic item properties)
 
 **Languages** Common, Elven, Sylvan
 
 **SQ** bloodline arcana (+2 DC for compulsion spells), elven magic, weapon familiarity, woodland stride
 
-**Combat Gear** _ [elixir of love](/pathfinderRPG/prd/magicItems/wondrousItems.html#_elixir-of-love)_ (2), _scroll of [wall of force](/pathfinderRPG/prd/spells/wallOfForce.html#_wall-of-force)_; **Other Gear** masterwork rapier, masterwork shortbow with 20 arrows, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [hat of disguise](/pathfinderRPG/prd/magicItems/wondrousItems.html#_hat-of-disguise)_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +2_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +2_, jewelry (worth 300 gp), 1,825 gp
+**Combat Gear** _ [elixir of love](magicItems/wondrousItems.md#_elixir-of-love)_ (2), _scroll of [wall of force](spells/wallOfForce.md#_wall-of-force)_; **Other Gear** masterwork rapier, masterwork shortbow with 20 arrows, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [hat of disguise](magicItems/wondrousItems.md#_hat-of-disguise)_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, jewelry (worth 300 gp), 1,825 gp
 
 The fey enchantress uses her powers to manipulate others, acquire power, and gain wealth.
 
@@ -922,29 +922,29 @@ Offense
 
 **Sorcerer Spells Known** (CL 13th; concentration +18)
 
-6th (4/day)—_ [acid fog](/pathfinderRPG/prd/spells/acidFog.html#_acid-fog)_, _ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_ (DC 23), _ [form of the dragon I](/pathfinderRPG/prd/spells/formOfTheDragon.html#_form-of-the-dragon-i)_
+6th (4/day)—_ [acid fog](spells/acidFog.md#_acid-fog)_, _ [chain lightning](spells/chainLightning.md#_chain-lightning)_ (DC 23), _ [form of the dragon I](spells/formOfTheDragon.md#_form-of-the-dragon-i)_
 
-5th (7/day)—_ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_ (DC 22), _ [feeblemind](/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind)_ (DC 20), _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_, _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_
+5th (7/day)—_ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_ (DC 22), _ [feeblemind](spells/feeblemind.md#_feeblemind)_ (DC 20), _ [overland flight](spells/overlandFlight.md#_overland-flight)_, _ [spell resistance](magicItems/armor.md#_armor-spell-resistance)_
 
-4th (7/day)—_ [black tentacles](/pathfinderRPG/prd/spells/blackTentacles.html#_black-tentacles)_, _ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_ (DC 19), _ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_, _ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_ (DC 19), _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_
+4th (7/day)—_ [black tentacles](spells/blackTentacles.md#_black-tentacles)_, _ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 19), _ [dimension door](spells/dimensionDoor.md#_dimension-door)_, _ [fear](spells/fear.md#_fear)_ (DC 19), _ [ice storm](spells/iceStorm.md#_ice-storm)_
 
-3rd (7/day)—_ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ (DC 20), _ [fly](/pathfinderRPG/prd/spells/fly.html)_, _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_, _ [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt)_ (DC 20), _ [slow](/pathfinderRPG/prd/spells/slow.html#_slow)_ (DC 18)
+3rd (7/day)—_ [fireball](spells/fireball.md#_fireball)_ (DC 20), _ [fly](spells/fly.md)_, _ [haste](spells/haste.md#_haste)_, _ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_ (DC 20), _ [slow](spells/slow.md#_slow)_ (DC 18)
 
-2nd (7/day)—_ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [gust of wind](/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind)_ (DC 19), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
+2nd (7/day)—_ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [false life](spells/falseLife.md#_false-life)_, _ [gust of wind](spells/gustOfWind.md#_gust-of-wind)_ (DC 19), _ [resist energy](spells/resistEnergy.md#_resist-energy)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_
 
-1st (8/day)—_ [grease](/pathfinderRPG/prd/spells/grease.html#_grease)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 16), _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, _ [shocking grasp](/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp)_
+1st (8/day)—_ [grease](spells/grease.md#_grease)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 16), _ [shield](spells/shield.md#_shield)_, _ [shocking grasp](spells/shockingGrasp.md#_shocking-grasp)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 15), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 17), _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [bleed](spells/bleed.md#_bleed)_ (DC 15), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [flare](spells/flare.md#_flare)_ (DC 17), _ [light](spells/light.md#_light)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [mending](spells/mending.md#_mending)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_
 
 **Bloodline** draconic (blue)
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [fly](/pathfinderRPG/prd/spells/fly.html)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, and _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_.
+**Before Combat** The sorcerer casts _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [false life](spells/falseLife.md#_false-life)_, _ [fly](spells/fly.md)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, and _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_.
 
-**During Combat** The sorcerer prefers to fight with her electricity spells, such as _ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_ and _ [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt)_, and saves her breath weapon until her foes are lined up so she can catch as many as possible in its effect. She uses spells such as _ [black tentacles](/pathfinderRPG/prd/spells/blackTentacles.html#_black-tentacles)_, _ [grease](/pathfinderRPG/prd/spells/grease.html#_grease)_, and _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_ to hinder her opponents. If forced into melee combat, the sorcerer casts _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_ and _ [form of the dragon I](/pathfinderRPG/prd/spells/formOfTheDragon.html#_form-of-the-dragon-i)_.
+**During Combat** The sorcerer prefers to fight with her electricity spells, such as _ [chain lightning](spells/chainLightning.md#_chain-lightning)_ and _ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_, and saves her breath weapon until her foes are lined up so she can catch as many as possible in its effect. She uses spells such as _ [black tentacles](spells/blackTentacles.md#_black-tentacles)_, _ [grease](spells/grease.md#_grease)_, and _ [ice storm](spells/iceStorm.md#_ice-storm)_ to hinder her opponents. If forced into melee combat, the sorcerer casts _ [haste](spells/haste.md#_haste)_ and _ [form of the dragon I](spells/formOfTheDragon.md#_form-of-the-dragon-i)_.
 
-**Base Statistics** Without _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [fly](/pathfinderRPG/prd/spells/fly.html)_, and _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, the sorcerer's statistics are **AC** 18, touch 15, flat-footed 15; **hp** 126; **Fort** +8; **Speed** 30 ft.
+**Base Statistics** Without _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [false life](spells/falseLife.md#_false-life)_, _ [fly](spells/fly.md)_, and _ [mage armor](spells/mageArmor.md#_mage-armor)_, the sorcerer's statistics are **AC** 18, touch 15, flat-footed 15; **hp** 126; **Fort** +8; **Speed** 30 ft.
 
 Statistics
 
@@ -952,15 +952,15 @@ Statistics
 
 **Base Atk** +6; **CMB** +7; **CMD** 22
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Maximize Spell](/pathfinderRPG/prd/feats.html#_maximize-spell), Mobility, [Quick Draw](/pathfinderRPG/prd/feats.html#_quick-draw), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials), Greater [Spell Focus](feats.md#_spell-focus) (evocation), [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes), [Maximize Spell](feats.md#_maximize-spell), Mobility, [Quick Draw](feats.md#_quick-draw), [Spell Focus](feats.md#_spell-focus) (evocation), [Toughness](feats.md#_toughness)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +12, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +10, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +20, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +7, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +1, Perception +11, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +7
+**Skills** [Bluff](skills/bluff.md#_bluff) +12, [Fly](skills/fly.md#_fly) +10, [Intimidate](skills/intimidate.md#_intimidate) +20, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +7, [Linguistics](skills/linguistics.md#_linguistics) +1, Perception +11, [Spellcraft](skills/spellcraft.md#_spellcraft) +7
 
 **Languages** Common, Draconic
 
 **SQ** bloodline arcana (electricity spells deal +1 damage per die)
 
-**Combat Gear** _potions of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ (2), _wand of vampiric touch_ (10 charges); **Other Gear** masterwork javelins (2), masterwork morningstar, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +1_, _ [bag of holding](/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-holding)_ (type I), _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +2_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +2_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +2_, 1,839 gp
+**Combat Gear** _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _wand of vampiric touch_ (10 charges); **Other Gear** masterwork javelins (2), masterwork morningstar, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [bag of holding](magicItems/wondrousItems.md#_bag-of-holding)_ (type I), _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, 1,839 gp
 
 An azure bolt sorcererbelieves she is smarter than she actually is, and spins wild schemes to make herself feel important.
 
@@ -996,9 +996,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk spear +7/+2 (1d8â1/Ã3)
+**Melee** mwk spear +7/+2 (1d8–1/×3)
 
-**Ranged** mwk light crossbow +10 (1d8/19â20)
+**Ranged** mwk light crossbow +10 (1d8/19–20)
 
 **Bloodline Spell-Like Abilities** (CL 14th; concentration +20)
 
@@ -1008,31 +1008,31 @@ Offense
 
 **Sorcerer Spells Known** (CL 14th, concentration +20)
 
-7th (3/day)—_ [delayed blast fireball](/pathfinderRPG/prd/spells/delayedBlastFireball.html#_delayed-blast-fireball)_ (cold, DC 25)
+7th (3/day)—_ [delayed blast fireball](spells/delayedBlastFireball.md#_delayed-blast-fireball)_ (cold, DC 25)
 
-6th (6/day)—_ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_ (cold, DC 24), _ [elemental body III](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-iii)_, _ [freezing sphere](/pathfinderRPG/prd/spells/freezingSphere.html#_freezing-sphere)_ (DC 24)
+6th (6/day)—_ [chain lightning](spells/chainLightning.md#_chain-lightning)_ (cold, DC 24), _ [elemental body III](spells/elementalBody.md#_elemental-body-iii)_, _ [freezing sphere](spells/freezingSphere.md#_freezing-sphere)_ (DC 24)
 
-5th (7/day)—_ [baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ (DC 21), _ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_ (DC 23), _ [elemental body II](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-ii)_, _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_
+5th (7/day)—_ [baleful polymorph](spells/balefulPolymorph.md#_baleful-polymorph)_ (DC 21), _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_ (DC 23), _ [elemental body II](spells/elementalBody.md#_elemental-body-ii)_, _ [summon monster V](spells/summonMonster.md#_summon-monster-v)_
 
-4th (7/day)—_ [elemental body I](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-i)_, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_, _ [resilient sphere](/pathfinderRPG/prd/spells/resilientSphere.html#_resilient-sphere)_ (DC 22), _ [solid fog](/pathfinderRPG/prd/spells/solidFog.html#_solid-fog)_, _ [wall of ice](/pathfinderRPG/prd/spells/wallOfIce.html#_wall-of-ice)_ (DC 22)
+4th (7/day)—_ [elemental body I](spells/elementalBody.md#_elemental-body-i)_, _ [ice storm](spells/iceStorm.md#_ice-storm)_, _ [resilient sphere](spells/resilientSphere.md#_resilient-sphere)_ (DC 22), _ [solid fog](spells/solidFog.md#_solid-fog)_, _ [wall of ice](spells/wallOfIce.md#_wall-of-ice)_ (DC 22)
 
-3rd (7/day)—_ [fly](/pathfinderRPG/prd/spells/fly.html), [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt)_ (cold, DC 21), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [ray of exhaustion](/pathfinderRPG/prd/spells/rayOfExhaustion.html#_ray-of-exhaustion)_ (DC 19), _ [sleet storm](/pathfinderRPG/prd/spells/sleetStorm.html#_sleet-storm)_
+3rd (7/day)—_ [fly](spells/fly.md), [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_ (cold, DC 21), _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, _ [ray of exhaustion](spells/rayOfExhaustion.md#_ray-of-exhaustion)_ (DC 19), _ [sleet storm](spells/sleetStorm.md#_sleet-storm)_
 
-2nd (8/day)—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_ (cold), _ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_ (DC 18), _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_, _ [gust of wind](/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind)_ (DC 20), _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_ (cold)
+2nd (8/day)—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_ (cold), _ [blindness/deafness](spells/blindnessDeafness.md#_blindness-deafness)_ (DC 18), _ [fog cloud](spells/fogCloud.md)_, _ [gust of wind](spells/gustOfWind.md#_gust-of-wind)_ (DC 20), _ [mirror image](spells/mirrorImage.md#_mirror-image)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_ (cold)
 
-1st (8/day)—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ (cold, DC 19), _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_
+1st (8/day)—_ [burning hands](spells/burningHands.md#_burning-hands)_ (cold, DC 19), _ [endure elements](spells/endureElements.md#_endure-elements)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_, _ [shield](spells/shield.md#_shield)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_ (cold), _ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 16), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_, _ [touch of fatigue](/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue)_ (DC 16)
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_ (cold), _ [bleed](spells/bleed.md#_bleed)_ (DC 16), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [detect poison](spells/detectPoison.md#_detect-poison)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [resistance](spells/resistance.md#_resistance)_, _ [touch of fatigue](spells/touchOfFatigue.md#_touch-of-fatigue)_ (DC 16)
 
 **Bloodline** elemental (water)
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_ and _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (fire).
+**Before Combat** The sorcerer casts _ [mage armor](spells/mageArmor.md#_mage-armor)_ and _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (fire).
 
-**During Combat** The sorcerer casts empowered area damage spells such as _ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_, _ [freezing sphere](/pathfinderRPG/prd/spells/freezingSphere.html#_freezing-sphere)_, and _ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_. If forced into melee, she casts _ [elemental body III](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-iii)_ and transforms into a Large water elemental.
+**During Combat** The sorcerer casts empowered area damage spells such as _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_, _ [freezing sphere](spells/freezingSphere.md#_freezing-sphere)_, and _ [chain lightning](spells/chainLightning.md#_chain-lightning)_. If forced into melee, she casts _ [elemental body III](spells/elementalBody.md#_elemental-body-iii)_ and transforms into a Large water elemental.
 
-**Base Statistics** Without _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_ and _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, the sorcerer's statistics are **AC** 17, touch 15, flat-footed 14; **Immune** sleep.
+**Base Statistics** Without _ [mage armor](spells/mageArmor.md#_mage-armor)_ and _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, the sorcerer's statistics are **AC** 17, touch 15, flat-footed 14; **Immune** sleep.
 
 Statistics
 
@@ -1040,15 +1040,15 @@ Statistics
 
 **Base Atk** +7; **CMB** +6; **CMD** 21
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Empower Spell](/pathfinderRPG/prd/feats.html#_empower-spell), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Nimble Moves](/pathfinderRPG/prd/feats.html#_nimble-moves), [Silent Spell](/pathfinderRPG/prd/feats.html#_silent-spell), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) (Perception), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Dodge](feats.md#_dodge), [Empower Spell](feats.md#_empower-spell), [Eschew Materials](feats.md#_eschew-materials), Greater [Spell Focus](feats.md#_spell-focus) (evocation), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Nimble Moves](feats.md#_nimble-moves), [Silent Spell](feats.md#_silent-spell), [Skill Focus](feats.md#_skill-focus) (Perception), [Spell Focus](feats.md#_spell-focus) (evocation)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +11, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, planes) +8, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +1, Perception +19, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +8, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +4
+**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +11, [Fly](skills/fly.md#_fly) +11, [Knowledge](skills/knowledge.md#_knowledge) (arcana, planes) +8, [Linguistics](skills/linguistics.md#_linguistics) +1, Perception +19, [Spellcraft](skills/spellcraft.md#_spellcraft) +8, [Swim](skills/swim.md#_swim) +4
 
 **Languages** Aquan, Common, Elven
 
 **SQ** bloodline arcana (change energy damage spells to cold), elf blood
 
-**Combat Gear** _potion of [fly](/pathfinderRPG/prd/spells/fly.html)_; **Other Gear** masterwork light crossbow with 10 bolts, masterwork spear, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +2_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +4_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +2_, 1,413 gp
+**Combat Gear** _potion of [fly](spells/fly.md)_; **Other Gear** masterwork light crossbow with 10 bolts, masterwork spear, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +2_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +4_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, 1,413 gp
 
 The ice mage bends liquid and solid water to her will, killing with the efficiency of a sudden frost.
 
@@ -1080,7 +1080,7 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk quarterstaff +7/+2 (1d6â1)
+**Melee** mwk quarterstaff +7/+2 (1d6–1)
 
 **Bloodline Spell-Like Abilities** (CL 15th; concentration +21)
 
@@ -1090,31 +1090,31 @@ Offense
 
 **Sorcerer Spells Known** (CL 15th; concentration +21)
 
-7th (4/day)—_ [delayed blast fireball](/pathfinderRPG/prd/spells/delayedBlastFireball.html#_delayed-blast-fireball)_ (DC 24), _ [greater teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)_, _ [summon monster VII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vii)_
+7th (4/day)—_ [delayed blast fireball](spells/delayedBlastFireball.md#_delayed-blast-fireball)_ (DC 24), _ [greater teleport](spells/teleport.md#_teleport-greater)_, _ [summon monster VII](spells/summonMonster.md#_summon-monster-vii)_
 
-6th (7/day)—_ [disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_ (DC 22), _ [globe of invulnerability](/pathfinderRPG/prd/spells/globeOfInvulnerability.html#_globe-of-invulnerability)_, _ [mass suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass)_ (DC 22), _ [planar binding](/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding)_ (devils/fiendish creatures only, DC 22)
+6th (7/day)—_ [disintegrate](spells/disintegrate.md#_disintegrate)_ (DC 22), _ [globe of invulnerability](spells/globeOfInvulnerability.md#_globe-of-invulnerability)_, _ [mass suggestion](spells/suggestion.md#_suggestion-mass)_ (DC 22), _ [planar binding](spells/planarBinding.md#_planar-binding)_ (devils/fiendish creatures only, DC 22)
 
-5th (7/day)—_ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_ (DC 22), _ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_ (DC 21), _ [dominate person](/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person)_ (DC 21), _ [polymorph](/pathfinderRPG/prd/spells/polymorph.html#_polymorph)_, _ [wall of force](/pathfinderRPG/prd/spells/wallOfForce.html#_wall-of-force)_
+5th (7/day)—_ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_ (DC 22), _ [dismissal](spells/dismissal.md#_dismissal)_ (DC 21), _ [dominate person](spells/dominatePerson.md#_dominate-person)_ (DC 21), _ [polymorph](spells/polymorph.md#_polymorph)_, _ [wall of force](spells/wallOfForce.md#_wall-of-force)_
 
-4th (7/day)—_ [black tentacles](/pathfinderRPG/prd/spells/blackTentacles.html#_black-tentacles)_, _ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_ (DC 22), _ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_
+4th (7/day)—_ [black tentacles](spells/blackTentacles.md#_black-tentacles)_, _ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 22), _ [dimension door](spells/dimensionDoor.md#_dimension-door)_, _ [stoneskin](spells/stoneskin.md#_stoneskin)_, _ [wall of fire](spells/wallOfFire.md#_wall-of-fire)_
 
-3rd (7/day)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ (DC 20), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 19), _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 19), _ [vampiric touch](/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch)_
+3rd (7/day)—_ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [fireball](spells/fireball.md#_fireball)_ (DC 20), _ [hold person](spells/holdPerson.md#_hold-person)_ (DC 19), _ [suggestion](spells/suggestion.md#_suggestion)_ (DC 19), _ [vampiric touch](spells/vampiricTouch.md#_vampiric-touch)_
 
-2nd (8/day)—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_, _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, _ [web](/pathfinderRPG/prd/spells/web.html#_web)_ (DC 18)
+2nd (8/day)—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_, _ [darkness](spells/darkness.md#_darkness)_, _ [false life](spells/falseLife.md#_false-life)_, _ [invisibility](spells/invisibility.md#_invisibility)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, _ [web](spells/web.md#_web)_ (DC 18)
 
-1st (8/day)—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ (DC 18), _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 19), _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [protection from good](/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good)_, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_,_ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_
+1st (8/day)—_ [burning hands](spells/burningHands.md#_burning-hands)_ (DC 18), _ [charm person](spells/charmPerson.md#_charm-person)_ (DC 19), _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [protection from good](spells/protectionFromGood.md#_protection-from-good)_, _ [shield](spells/shield.md#_shield)_,_ [true strike](spells/trueStrike.md#_true-strike)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 16), _ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ (DC 16), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [open/close](/pathfinderRPG/prd/spells/openClose.html#_open-close)_, _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [touch of fatigue](/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue)_ (DC 16)
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [bleed](spells/bleed.md#_bleed)_ (DC 16), _ [daze](spells/daze.md#_daze)_ (DC 16), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [open/close](spells/openClose.md#_open-close)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [touch of fatigue](spells/touchOfFatigue.md#_touch-of-fatigue)_ (DC 16)
 
 **Bloodline** infernal
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_ and _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin),_ and uses her _wand of [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_.
+**Before Combat** The sorcerer casts _ [false life](spells/falseLife.md#_false-life)_ and _ [stoneskin](spells/stoneskin.md#_stoneskin),_ and uses her _wand of [mage armor](spells/mageArmor.md#_mage-armor)_.
 
-**During Combat** The sorcerer uses hellfire on the first round of combat, then uses controlling spells like _ [dominate person](/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person),_ or damaging attacks such as _ [black tentacles](/pathfinderRPG/prd/spells/blackTentacles.html#_black-tentacles)_ or _ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_.
+**During Combat** The sorcerer uses hellfire on the first round of combat, then uses controlling spells like _ [dominate person](spells/dominatePerson.md#_dominate-person),_ or damaging attacks such as _ [black tentacles](spells/blackTentacles.md#_black-tentacles)_ or _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_.
 
-**Base Statistics** Without _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, and _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, the sorcerer's statistics are **AC** 17, touch 15, flat-footed 14; **hp** 70; **DR** none.
+**Base Statistics** Without _ [false life](spells/falseLife.md#_false-life)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, and _ [stoneskin](spells/stoneskin.md#_stoneskin)_, the sorcerer's statistics are **AC** 17, touch 15, flat-footed 14; **hp** 70; **DR** none.
 
 Statistics
 
@@ -1122,15 +1122,15 @@ Statistics
 
 **Base Atk** +7; **CMB** +6; **CMD** 21
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Extend Spell](/pathfinderRPG/prd/feats.html#_extend-spell), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), Improved [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Persuasive](/pathfinderRPG/prd/feats.html#_persuasive), [Quicken Spell](/pathfinderRPG/prd/feats.html#_quicken-spell), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation), [Spell Penetration](/pathfinderRPG/prd/feats.html#_spell-penetration)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials), [Extend Spell](feats.md#_extend-spell), [Improved Initiative](feats.md#_improved-initiative), Improved [Iron Will](feats.md#_iron-will), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), [Persuasive](feats.md#_persuasive), [Quicken Spell](feats.md#_quicken-spell), [Spell Focus](feats.md#_spell-focus) (evocation), [Spell Penetration](feats.md#_spell-penetration)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +19, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +23, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +10, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +23, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +9, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +6, Perception +12, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +9
+**Skills** [Bluff](skills/bluff.md#_bluff) +19, [Diplomacy](skills/diplomacy.md#_diplomacy) +23, [Fly](skills/fly.md#_fly) +10, [Intimidate](skills/intimidate.md#_intimidate) +23, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +9, [Knowledge](skills/knowledge.md#_knowledge) (planes) +6, Perception +12, [Spellcraft](skills/spellcraft.md#_spellcraft) +9
 
 **Languages** Common, Infernal
 
 **SQ** bloodline arcana (+2 DC for charm spells), infernal resistances, on dark wings
 
-**Combat Gear** _potions of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ (2), _scrolls of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ (2), _scroll of [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_, _wand of [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_ (20 charges); **Other Gear** masterwork quarterstaff_, [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +2_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +2_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +4_, _ [ring of counterspells](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-counterspells)_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +2_, diamond dust (worth 500 gp), 1,675 gp
+**Combat Gear** _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _scrolls of [invisibility](spells/invisibility.md#_invisibility)_ (2), _scroll of [nondetection](spells/nondetection.md#_nondetection)_, _wand of [mage armor](spells/mageArmor.md#_mage-armor)_ (20 charges); **Other Gear** masterwork quarterstaff_, [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +4_, _ [ring of counterspells](magicItems/rings.md#_ring-of-counterspells)_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, diamond dust (worth 500 gp), 1,675 gp
 
 The diabolical charmer uses magic and honeyed words to convince mortals and fiends to do her bidding.
 
@@ -1152,45 +1152,45 @@ Defense
 
 **Fort** +11, **Ref** +12, **Will** +16; +2 vs. fear
 
-**Defensive Abilities** _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_; **DR** 10/adamantine (150 points)
+**Defensive Abilities** _ [spell turning](spells/spellTurning.md#_spell-turning)_; **DR** 10/adamantine (150 points)
 
 Offense
 
 **Speed** 20 ft.
 
-**Melee** mwk spear +8/+3 (1d6â2/Ã3)
+**Melee** mwk spear +8/+3 (1d6–2/×3)
 
-**Ranged** mwk sling +13/+8 (1d3â2)
+**Ranged** mwk sling +13/+8 (1d3–2)
 
 **Sorcerer Spells Known** (CL 16th; concentration +23)
 
-8th (3/day)—_ [prismatic wall](/pathfinderRPG/prd/spells/prismaticWall.html#_prismatic-wall)_ (DC 25)
+8th (3/day)—_ [prismatic wall](spells/prismaticWall.md#_prismatic-wall)_ (DC 25)
 
-7th (6/day)—_ [grasping hand](/pathfinderRPG/prd/spells/graspingHand.html#_grasping-hand)_, _ [greater teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)_, _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_
+7th (6/day)—_ [grasping hand](spells/graspingHand.md#_grasping-hand)_, _ [greater teleport](spells/teleport.md#_teleport-greater)_, _ [spell turning](spells/spellTurning.md#_spell-turning)_
 
-6th (7/day)—_ [acid fog](/pathfinderRPG/prd/spells/acidFog.html#_acid-fog)_, _ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_ (DC 25), _ [globe of invulnerability](/pathfinderRPG/prd/spells/globeOfInvulnerability.html#_globe-of-invulnerability)_, _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+6th (7/day)—_ [acid fog](spells/acidFog.md#_acid-fog)_, _ [chain lightning](spells/chainLightning.md#_chain-lightning)_ (DC 25), _ [globe of invulnerability](spells/globeOfInvulnerability.md#_globe-of-invulnerability)_, _ [greater dispel magic](spells/dispelMagic.md#_dispel-magic-greater)_, _ [true seeing](spells/trueSeeing.md#_true-seeing)_
 
-5th (7/day)—_ [break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment)_, _ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_ (DC 24), _ [mage's faithful hound](/pathfinderRPG/prd/spells/mageSFaithfulHound.html#_mage-s-faithful-hound)_, _ [mind fog](/pathfinderRPG/prd/spells/mindFog.html#_mind-fog)_ (DC 22), _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_
+5th (7/day)—_ [break enchantment](spells/breakEnchantment.md#_break-enchantment)_, _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_ (DC 24), _ [mage's faithful hound](spells/mageSFaithfulHound.md#_mage-s-faithful-hound)_, _ [mind fog](spells/mindFog.md#_mind-fog)_ (DC 22), _ [overland flight](spells/overlandFlight.md#_overland-flight)_
 
-4th (7/day)—_ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_, _ [enervation](/pathfinderRPG/prd/spells/enervation.html#_enervation)_, _ [phantasmal killer](/pathfinderRPG/prd/spells/phantasmalKiller.html#_phantasmal-killer)_ (DC 21), _ [resilient sphere](/pathfinderRPG/prd/spells/resilientSphere.html#_resilient-sphere)_ (DC 23), _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_
+4th (7/day)—_ [dimension door](spells/dimensionDoor.md#_dimension-door)_, _ [enervation](spells/enervation.md#_enervation)_, _ [phantasmal killer](spells/phantasmalKiller.md#_phantasmal-killer)_ (DC 21), _ [resilient sphere](spells/resilientSphere.md#_resilient-sphere)_ (DC 23), _ [stoneskin](spells/stoneskin.md#_stoneskin)_
 
-3rd (8/day)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [displacement](/pathfinderRPG/prd/spells/displacement.html#_displacement)_, _ [fly](/pathfinderRPG/prd/spells/fly.html)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 20), _ [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt)_ (DC 22), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_ (DC 20)
+3rd (8/day)—_ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [displacement](spells/displacement.md#_displacement)_, _ [fly](spells/fly.md)_, _ [hold person](spells/holdPerson.md#_hold-person)_ (DC 20), _ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_ (DC 22), _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (DC 20)
 
-2nd (8/day)—_ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [glitterdust](/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust)_ (DC 19), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [knock](/pathfinderRPG/prd/spells/knock.html#_knock)_, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_
+2nd (8/day)—_ [false life](spells/falseLife.md#_false-life)_, _ [glitterdust](spells/glitterdust.md#_glitterdust)_ (DC 19), _ [invisibility](spells/invisibility.md#_invisibility)_, _ [knock](spells/knock.md#_knock)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_
 
-1st (8/day)—_ [alarm](/pathfinderRPG/prd/spells/alarm.html#_alarm)_, _ [grease](/pathfinderRPG/prd/spells/grease.html#_grease)_, _ [identify](/pathfinderRPG/prd/spells/identify.html#_identify)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 18), _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_
+1st (8/day)—_ [alarm](spells/alarm.md#_alarm)_, _ [grease](spells/grease.md#_grease)_, _ [identify](spells/identify.md#_identify)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 18), _ [shield](spells/shield.md#_shield)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [arcane mark](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark)_,_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [arcane mark](spells/arcaneMark.md#_arcane-mark)_,_ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [detect poison](spells/detectPoison.md#_detect-poison)_, _ [light](spells/light.md#_light)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [resistance](spells/resistance.md#_resistance)_
 
 **Bloodline** arcane
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, and _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_.
+**Before Combat** The sorcerer casts _ [false life](spells/falseLife.md#_false-life)_, _ [stoneskin](spells/stoneskin.md#_stoneskin)_, and _ [spell turning](spells/spellTurning.md#_spell-turning)_.
 
-**During Combat** The sorcerer casts _ [prismatic wall](/pathfinderRPG/prd/spells/prismaticWall.html#_prismatic-wall)_ between himself and his enemies on the first round of combat, then casts _ [displacement](/pathfinderRPG/prd/spells/displacement.html#_displacement)_ and _ [globe of invulnerability](/pathfinderRPG/prd/spells/globeOfInvulnerability.html#_globe-of-invulnerability)_. He attacks with area damage spells such as _ [acid fog](/pathfinderRPG/prd/spells/acidFog.html#_acid-fog)_, _ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_, and _ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_.
+**During Combat** The sorcerer casts _ [prismatic wall](spells/prismaticWall.md#_prismatic-wall)_ between himself and his enemies on the first round of combat, then casts _ [displacement](spells/displacement.md#_displacement)_ and _ [globe of invulnerability](spells/globeOfInvulnerability.md#_globe-of-invulnerability)_. He attacks with area damage spells such as _ [acid fog](spells/acidFog.md#_acid-fog)_, _ [chain lightning](spells/chainLightning.md#_chain-lightning)_, and _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_.
 
-**Base Statistics** Without _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_, and _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, the sorcerer's statistics are **hp** 122; **Defensive Abilities** none; **DR** none.
+**Base Statistics** Without _ [false life](spells/falseLife.md#_false-life)_, _ [spell turning](spells/spellTurning.md#_spell-turning)_, and _ [stoneskin](spells/stoneskin.md#_stoneskin)_, the sorcerer's statistics are **hp** 122; **Defensive Abilities** none; **DR** none.
 
 Statistics
 
@@ -1198,15 +1198,15 @@ Statistics
 
 **Base Atk** +8; **CMB** +5; **CMD** 22
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Empower Spell](/pathfinderRPG/prd/feats.html#_empower-spell), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Improved Counterspell](/pathfinderRPG/prd/feats.html#_improved-counterspell), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Maximize Spell](/pathfinderRPG/prd/feats.html#_maximize-spell), [Quicken Spell](/pathfinderRPG/prd/feats.html#_quicken-spell), [Silent Spell](/pathfinderRPG/prd/feats.html#_silent-spell), [Still Spell](/pathfinderRPG/prd/feats.html#_still-spell), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Dodge](feats.md#_dodge), [Empower Spell](feats.md#_empower-spell), [Eschew Materials](feats.md#_eschew-materials), [Improved Counterspell](feats.md#_improved-counterspell), [Iron Will](feats.md#_iron-will), [Maximize Spell](feats.md#_maximize-spell), [Quicken Spell](feats.md#_quicken-spell), [Silent Spell](feats.md#_silent-spell), [Still Spell](feats.md#_still-spell), [Toughness](feats.md#_toughness)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +5 (+1 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +18, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +0, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +9, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +12, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +9, Perception +12, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +12, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +18
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +5 (+1 when jumping), [Bluff](skills/bluff.md#_bluff) +18, [Climb](skills/climb.md#_climb) +0, [Fly](skills/fly.md#_fly) +9, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +12, [Knowledge](skills/knowledge.md#_knowledge) (local) +9, Perception +12, [Spellcraft](skills/spellcraft.md#_spellcraft) +12, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +18
 
 **Languages** Common, Dwarven, Halfling
 
-**SQ** arcane bond (_ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection)_), bloodline arcana (+1 DC for metamagic spells that increase spell level), metamagic adept (4/day), new arcana, school power (+2 DC for evocation spells)
+**SQ** arcane bond (_ [ring of protection](magicItems/rings.md#_ring-of-protection)_), bloodline arcana (+1 DC for metamagic spells that increase spell level), metamagic adept (4/day), new arcana, school power (+2 DC for evocation spells)
 
-**Combat Gear** _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _scroll of [mislead](/pathfinderRPG/prd/spells/mislead.html#_mislead)_, _scroll of [shadow walk](/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk)_; **Other Gear** masterwork sling with 20 bullets, masterwork spear, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +2_, _ [bracers of armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor) +3_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +3_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +4_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +3_, diamond dust (worth 500 gp), eye ointment for _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_ (worth 500 gp), 1,848 gp
+**Combat Gear** _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _scroll of [mislead](spells/mislead.md#_mislead)_, _scroll of [shadow walk](spells/shadowWalk.md#_shadow-walk)_; **Other Gear** masterwork sling with 20 bullets, masterwork spear, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +2_, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +3_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +4_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +3_, diamond dust (worth 500 gp), eye ointment for _ [true seeing](spells/trueSeeing.md#_true-seeing)_ (worth 500 gp), 1,848 gp
 
 The natural arcanist is a conduit for magical power, always on the brink of releasing too much energy.
 
@@ -1238,41 +1238,41 @@ Offense
 
 **Speed** 20 ft., fly 60 ft. (average)
 
-**Melee** mwk battleaxe +11/+6 (1d8+2/Ã3) or 2 claws +10 (1d6+2 plus 1d6 fire)
+**Melee** mwk battleaxe +11/+6 (1d8+2/×3) or 2 claws +10 (1d6+2 plus 1d6 fire)
 
-**Ranged** mwk heavy crossbow +9 (1d10/19â20)
+**Ranged** mwk heavy crossbow +9 (1d10/19–20)
 
 **Special Attacks** +1 on attack rolls against goblinoid and orc humanoids, breath weapon (30-foot cone, 17d6 fire, DC 23, 2/day), claws (2, 1d4+2 plus 1d6 fire, treated as magic weapons, 8 rounds/day)
 
 **Sorcerer Spells Known** (CL 17th; concentration +22)
 
-8th (4/day)—_ [form of the dragon III](/pathfinderRPG/prd/spells/formOfTheDragon.html#_form-of-the-dragon-iii)_, _ [greater shout](/pathfinderRPG/prd/spells/shout.html#_shout-greater)_ (DC 25), _ [incendiary cloud](/pathfinderRPG/prd/spells/incendiaryCloud.html#_incendiary-cloud)_ (DC 23)
+8th (4/day)—_ [form of the dragon III](spells/formOfTheDragon.md#_form-of-the-dragon-iii)_, _ [greater shout](spells/shout.md#_shout-greater)_ (DC 25), _ [incendiary cloud](spells/incendiaryCloud.md#_incendiary-cloud)_ (DC 23)
 
-7th (6/day)—_ [delayed blast fireball](/pathfinderRPG/prd/spells/delayedBlastFireball.html#_delayed-blast-fireball)_ (DC 24), _ [form of the dragon II](/pathfinderRPG/prd/spells/formOfTheDragon.html#_form-of-the-dragon-ii)_, _ [mass hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person-mass)_ (DC 22), _ [reverse gravity](/pathfinderRPG/prd/spells/reverseGravity.html#_reverse-gravity)_
+7th (6/day)—_ [delayed blast fireball](spells/delayedBlastFireball.md#_delayed-blast-fireball)_ (DC 24), _ [form of the dragon II](spells/formOfTheDragon.md#_form-of-the-dragon-ii)_, _ [mass hold person](spells/holdPerson.md#_hold-person-mass)_ (DC 22), _ [reverse gravity](spells/reverseGravity.md#_reverse-gravity)_
 
-6th (6/day)—_ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_ (DC 23), _ [flesh to stone](/pathfinderRPG/prd/spells/fleshToStone.html#_flesh-to-stone)_ (DC 21), _ [form of the dragon I](/pathfinderRPG/prd/spells/formOfTheDragon.html#_form-of-the-dragon-i)_, _ [transformation](/pathfinderRPG/prd/spells/transformation.html#_transformation)_
+6th (6/day)—_ [chain lightning](spells/chainLightning.md#_chain-lightning)_ (DC 23), _ [flesh to stone](spells/fleshToStone.md#_flesh-to-stone)_ (DC 21), _ [form of the dragon I](spells/formOfTheDragon.md#_form-of-the-dragon-i)_, _ [transformation](spells/transformation.md#_transformation)_
 
-5th (7/day)—_ [cloudkill](/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill)_ (DC 20), _ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_ (DC 22), _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_, _ [telekinesis](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis)_, _ [wall of force](/pathfinderRPG/prd/spells/wallOfForce.html#_wall-of-force)_
+5th (7/day)—_ [cloudkill](spells/cloudkill.md#_cloudkill)_ (DC 20), _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_ (DC 22), _ [spell resistance](magicItems/armor.md#_armor-spell-resistance)_, _ [telekinesis](spells/telekinesis.md#_telekinesis)_, _ [wall of force](spells/wallOfForce.md#_wall-of-force)_
 
-4th (7/day)—_ [crushing despair](/pathfinderRPG/prd/spells/crushingDespair.html#_crushing-despair)_ (DC 19), _ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_ (DC 19), _ [fire shield](/pathfinderRPG/prd/spells/fireShield.html#_fire-shield)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_
+4th (7/day)—_ [crushing despair](spells/crushingDespair.md#_crushing-despair)_ (DC 19), _ [fear](spells/fear.md#_fear)_ (DC 19), _ [fire shield](spells/fireShield.md#_fire-shield)_, _ [stoneskin](spells/stoneskin.md#_stoneskin)_, _ [wall of fire](spells/wallOfFire.md#_wall-of-fire)_
 
-3rd (7/day)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ (DC 20), _ [fly](/pathfinderRPG/prd/spells/fly.html)_, _ [greater magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater)_, _ [ray of exhaustion](/pathfinderRPG/prd/spells/rayOfExhaustion.html#_ray-of-exhaustion)_ (DC 18)
+3rd (7/day)—_ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [fireball](spells/fireball.md#_fireball)_ (DC 20), _ [fly](spells/fly.md)_, _ [greater magic weapon](spells/magicWeapon.md#_magic-weapon-greater)_, _ [ray of exhaustion](spells/rayOfExhaustion.md#_ray-of-exhaustion)_ (DC 18)
 
-2nd (7/day)—_ [blur](/pathfinderRPG/prd/spells/blur.html#_blur)_, _ [flaming sphere](/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere)_ (DC 19), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (DC 17), _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, _ [web](/pathfinderRPG/prd/spells/web.html#_web)_ (DC 17)
+2nd (7/day)—_ [blur](spells/blur.md#_blur)_, _ [flaming sphere](spells/flamingSphere.md#_flaming-sphere)_ (DC 19), _ [invisibility](spells/invisibility.md#_invisibility)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (DC 17), _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, _ [web](spells/web.md#_web)_ (DC 17)
 
-1st (8/day)—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ (DC 18), _ [expeditious retreat](/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, _ [ventriloquism](/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism)_ (DC 16)
+1st (8/day)—_ [burning hands](spells/burningHands.md#_burning-hands)_ (DC 18), _ [expeditious retreat](spells/expeditiousRetreat.md#_expeditious-retreat)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [shield](spells/shield.md#_shield)_, _ [ventriloquism](spells/ventriloquism.md#_ventriloquism)_ (DC 16)
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 15), _ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 17), _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [touch of fatigue](/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue)_ (DC 15)
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [bleed](spells/bleed.md#_bleed)_ (DC 15), _ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [flare](spells/flare.md#_flare)_ (DC 17), _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [touch of fatigue](spells/touchOfFatigue.md#_touch-of-fatigue)_ (DC 15)
 
 **Bloodline** draconic (red)
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_.
+**Before Combat** The sorcerer casts _ [stoneskin](spells/stoneskin.md#_stoneskin)_.
 
-**During Combat** The sorcerer casts _ [mass hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person-mass)_, then uses his breath weapon and area spells against his paralyzed foes. If forced into melee, he casts _ [greater magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater)_ on his battleaxe and _ [transformation](/pathfinderRPG/prd/spells/transformation.html#_transformation)_ on himself.
+**During Combat** The sorcerer casts _ [mass hold person](spells/holdPerson.md#_hold-person-mass)_, then uses his breath weapon and area spells against his paralyzed foes. If forced into melee, he casts _ [greater magic weapon](spells/magicWeapon.md#_magic-weapon-greater)_ on his battleaxe and _ [transformation](spells/transformation.md#_transformation)_ on himself.
 
-**Base Statistics** Without _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, the sorcerer's statistics are **DR** none.
+**Base Statistics** Without _ [stoneskin](spells/stoneskin.md#_stoneskin)_, the sorcerer's statistics are **DR** none.
 
 Statistics
 
@@ -1280,15 +1280,15 @@ Statistics
 
 **Base Atk** +8; **CMB** +10; **CMD** 24 (28 vs. bull rush or trip)
 
-**Feats** Arcane Armor Mastery, [Arcane Armor Training](/pathfinderRPG/prd/feats.html#_arcane-armor-training), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), Light Armor Proficiency, Medium Armor Proficiency, [Maximize Spell](/pathfinderRPG/prd/feats.html#_maximize-spell), [Quicken Spell](/pathfinderRPG/prd/feats.html#_quicken-spell), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation)
+**Feats** Arcane Armor Mastery, [Arcane Armor Training](feats.md#_arcane-armor-training), [Combat Casting](feats.md#_combat-casting), [Eschew Materials](feats.md#_eschew-materials), [Great Fortitude](feats.md#_great-fortitude), Greater [Spell Focus](feats.md#_spell-focus) (evocation), [Improved Initiative](feats.md#_improved-initiative), Light Armor Proficiency, Medium Armor Proficiency, [Maximize Spell](feats.md#_maximize-spell), [Quicken Spell](feats.md#_quicken-spell), [Spell Focus](feats.md#_spell-focus) (evocation)
 
-**Skills** [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) +5 (+7 to assess nonmagical metals or gemstones), [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +6, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +18, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +13, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +2, Perception +18 (+20 to notice unusual stonework), [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +13
+**Skills** [Appraise](skills/appraise.md#_appraise) +5 (+7 to assess nonmagical metals or gemstones), [Fly](skills/fly.md#_fly) +6, [Intimidate](skills/intimidate.md#_intimidate) +18, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +13, [Linguistics](skills/linguistics.md#_linguistics) +2, Perception +18 (+20 to notice unusual stonework), [Spellcraft](skills/spellcraft.md#_spellcraft) +13
 
 **Languages** Common, Draconic, Dwarven, Orc
 
 **SQ** bloodline arcana (fire spells deal +1 damage per die), wings
 
-**Combat Gear** _potions of [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_ (2), _potions of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ (2), _wand of [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_ (20 charges); **Other Gear** _+2 red dragonhide breastplate_, masterwork battleaxe, masterwork heavy crossbow with 10 bolts, _ [belt of mighty constitution](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-mighty-constitution) +2_, _ [brooch of shielding](/pathfinderRPG/prd/magicItems/wondrousItems.html#_brooch-of-shielding)_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +4_, _dusty rose prism [ioun stone](/pathfinderRPG/prd/magicItems/wondrousItems.html#_ioun-stones)_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +4_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +3_, diamond dust (worth 500 gp), 6,240 gp
+**Combat Gear** _potions of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_ (2), _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _wand of [shield](spells/shield.md#_shield)_ (20 charges); **Other Gear** _+2 red dragonhide breastplate_, masterwork battleaxe, masterwork heavy crossbow with 10 bolts, _ [belt of mighty constitution](magicItems/wondrousItems.md#_belt-of-mighty-constitution) +2_, _ [brooch of shielding](magicItems/wondrousItems.md#_brooch-of-shielding)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +4_, _dusty rose prism [ioun stone](magicItems/wondrousItems.md#_ioun-stones)_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +4_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +3_, diamond dust (worth 500 gp), 6,240 gp
 
 The fiery dragonkin embodies all the greedy, violent, and territorial impulses of red dragons. Heedless of the lives they crush in their rise to glory, the dragonkin sorcerers are born conquerors, and see in their noble draconic blood an undeniable right to rule over lesser beings.
 
@@ -1316,41 +1316,41 @@ Offense
 
 **Speed** 30 ft., fly 60 ft. (average)
 
-**Melee** 2 claws +12 (1d6+3 plus 1d6 fire) or _+1 [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming) greataxe_ +13/+8 (1d12+5/Ã3 plus 1d6 fire)
+**Melee** 2 claws +12 (1d6+3 plus 1d6 fire) or _+1 [flaming](magicItems/weapons.md#_weapons-flaming) greataxe_ +13/+8 (1d12+5/×3 plus 1d6 fire)
 
 **Special Attacks** claws (2, 1d6+7 plus 1d6 fire, treated as magic weapons, 7 rounds/day)
 
 **Sorcerer Spells Known** (CL 18th; concentration +25)
 
-9th (3/day)—_ [meteor swarm](/pathfinderRPG/prd/spells/meteorSwarm.html#_meteor-swarm)_
+9th (3/day)—_ [meteor swarm](spells/meteorSwarm.md#_meteor-swarm)_
 
-8th (5/day)—_ [incendiary cloud](/pathfinderRPG/prd/spells/incendiaryCloud.html#_incendiary-cloud)_ (DC 27), _ [summon monster VIII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-viii)_, _ [unholy aura](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)_
+8th (5/day)—_ [incendiary cloud](spells/incendiaryCloud.md#_incendiary-cloud)_ (DC 27), _ [summon monster VIII](spells/summonMonster.md#_summon-monster-viii)_, _ [unholy aura](spells/unholyAura.md#_unholy-aura)_
 
-7th (7/day)—_ [delayed blast fireball](/pathfinderRPG/prd/spells/delayedBlastFireball.html#_delayed-blast-fireball)_ (DC 24), _ [greater teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)_, _ [power word blind](/pathfinderRPG/prd/spells/powerWordBlind.html#_power-word-blind)_, _ [reverse gravity](/pathfinderRPG/prd/spells/reverseGravity.html#_reverse-gravity)_
+7th (7/day)—_ [delayed blast fireball](spells/delayedBlastFireball.md#_delayed-blast-fireball)_ (DC 24), _ [greater teleport](spells/teleport.md#_teleport-greater)_, _ [power word blind](spells/powerWordBlind.md#_power-word-blind)_, _ [reverse gravity](spells/reverseGravity.md#_reverse-gravity)_
 
-6th (7/day)—_ [acid fog](/pathfinderRPG/prd/spells/acidFog.html#_acid-fog)_, _ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_ (DC 23), _ [transformation](/pathfinderRPG/prd/spells/transformation.html#_transformation)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+6th (7/day)—_ [acid fog](spells/acidFog.md#_acid-fog)_, _ [chain lightning](spells/chainLightning.md#_chain-lightning)_ (DC 23), _ [transformation](spells/transformation.md#_transformation)_, _ [true seeing](spells/trueSeeing.md#_true-seeing)_
 
-5th (7/day)—_ [cloudkill](/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill)_ (DC 24), _ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_(DC 22), _ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_ (DC 22), _ [feeblemind](/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind)_ (DC 22), _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_
+5th (7/day)—_ [cloudkill](spells/cloudkill.md#_cloudkill)_ (DC 24), _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_(DC 22), _ [dismissal](spells/dismissal.md#_dismissal)_ (DC 22), _ [feeblemind](spells/feeblemind.md#_feeblemind)_ (DC 22), _ [summon monster V](spells/summonMonster.md#_summon-monster-v)_
 
-4th (7/day)—_ [black tentacles](/pathfinderRPG/prd/spells/blackTentacles.html#_black-tentacles)_, _ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_ (DC 21), _ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_, _ [phantasmal killer](/pathfinderRPG/prd/spells/phantasmalKiller.html#_phantasmal-killer)_ (DC 21), _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_
+4th (7/day)—_ [black tentacles](spells/blackTentacles.md#_black-tentacles)_, _ [confusion](spells/confusion.md#_confusion)_ (DC 21), _ [dimension door](spells/dimensionDoor.md#_dimension-door)_, _ [phantasmal killer](spells/phantasmalKiller.md#_phantasmal-killer)_ (DC 21), _ [stoneskin](spells/stoneskin.md#_stoneskin)_
 
-3rd (8/day)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [fly](/pathfinderRPG/prd/spells/fly.html)_, _ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_, _ [rage](/pathfinderRPG/prd/spells/rage.html#_rage)_, _ [slow](/pathfinderRPG/prd/spells/slow.html#_slow)_ (DC 20)
+3rd (8/day)—_ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [fly](spells/fly.md)_, _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_, _ [rage](spells/rage.md#_rage)_, _ [slow](spells/slow.md#_slow)_ (DC 20)
 
-2nd (8/day)—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_
+2nd (8/day)—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [darkness](spells/darkness.md#_darkness)_, _ [false life](spells/falseLife.md#_false-life)_, _ [mirror image](spells/mirrorImage.md#_mirror-image)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_
 
-1st (8/day)—_ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ (DC 18), _ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (DC 18), _ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_ (DC 18), _ [grease](/pathfinderRPG/prd/spells/grease.html#_grease)_, _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 18), _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_
+1st (8/day)—_ [burning hands](spells/burningHands.md#_burning-hands)_ (DC 18), _ [cause fear](spells/causeFear.md#_cause-fear)_ (DC 18), _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_ (DC 18), _ [grease](spells/grease.md#_grease)_, _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 18), _ [shield](spells/shield.md#_shield)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 17), _ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ (DC 17), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [message](/pathfinderRPG/prd/spells/message.html#_message)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [bleed](spells/bleed.md#_bleed)_ (DC 17), _ [daze](spells/daze.md#_daze)_ (DC 17), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [light](spells/light.md#_light)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [message](spells/message.md#_message)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_
 
 **Bloodline** abyssal
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_ and _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_.
+**Before Combat** The sorcerer casts _ [false life](spells/falseLife.md#_false-life)_ and _ [stoneskin](spells/stoneskin.md#_stoneskin)_.
 
-**During Combat** The sorcerer casts _ [summon monster VIII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-viii)_ to summon a hezrou, then alternates between casting area damage spells and summoning other demons. If he knows he is fighting good-aligned opponents, he casts _ [unholy aura](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)_.
+**During Combat** The sorcerer casts _ [summon monster VIII](spells/summonMonster.md#_summon-monster-viii)_ to summon a hezrou, then alternates between casting area damage spells and summoning other demons. If he knows he is fighting good-aligned opponents, he casts _ [unholy aura](spells/unholyAura.md#_unholy-aura)_.
 
-**Base Statistics** Without _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_ and _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, the sorcerer's statistics are **hp** 137; **DR** none.
+**Base Statistics** Without _ [false life](spells/falseLife.md#_false-life)_ and _ [stoneskin](spells/stoneskin.md#_stoneskin)_, the sorcerer's statistics are **hp** 137; **DR** none.
 
 Statistics
 
@@ -1358,15 +1358,15 @@ Statistics
 
 **Base Atk** +9; **CMB** +12; **CMD** 25
 
-**Feats** [Augment Summoning](/pathfinderRPG/prd/feats.html#_augment-summoning), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Empower Spell](/pathfinderRPG/prd/feats.html#_empower-spell), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Extend Spell](/pathfinderRPG/prd/feats.html#_extend-spell), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (conjuration), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Quicken Spell](/pathfinderRPG/prd/feats.html#_quicken-spell), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (conjuration), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Augment Summoning](feats.md#_augment-summoning), [Combat Casting](feats.md#_combat-casting), [Dodge](feats.md#_dodge), [Empower Spell](feats.md#_empower-spell), [Eschew Materials](feats.md#_eschew-materials), [Extend Spell](feats.md#_extend-spell), [Great Fortitude](feats.md#_great-fortitude), Greater [Spell Focus](feats.md#_spell-focus) (conjuration), [Improved Initiative](feats.md#_improved-initiative), [Quicken Spell](feats.md#_quicken-spell), [Spell Focus](feats.md#_spell-focus) (conjuration), [Toughness](feats.md#_toughness)
 
-**Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +6, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +14, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +3, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +5, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +0, Perception +10, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +3
+**Skills** [Fly](skills/fly.md#_fly) +6, [Intimidate](skills/intimidate.md#_intimidate) +14, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +3, [Knowledge](skills/knowledge.md#_knowledge) (planes) +5, [Linguistics](skills/linguistics.md#_linguistics) +0, Perception +10, [Spellcraft](skills/spellcraft.md#_spellcraft) +3
 
 **Languages** Abyssal, Common, Orc
 
 **SQ** added summonings, bloodline arcana (summoned creatures gain DR 9/good), orc blood, strength of the Abyss, weapon familiarity
 
-**Combat Gear** _potions of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ (2), _potion of [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_, _scroll of [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _wand of [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_ (20 charges); **Other Gear** _+1 [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming) greataxe_, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +4_, _ [bracers of armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor) +5_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +4_, _ [ring of counterspells](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-counterspells)_, diamond dust (worth 500 gp), eye ointment for _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_ (worth 500 gp), 4,480 gp
+**Combat Gear** _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _potion of [haste](spells/haste.md#_haste)_, _scroll of [greater dispel magic](spells/dispelMagic.md#_dispel-magic-greater)_, _wand of [shield](spells/shield.md#_shield)_ (20 charges); **Other Gear** _+1 [flaming](magicItems/weapons.md#_weapons-flaming) greataxe_, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +4_, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +5_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +4_, _ [ring of counterspells](magicItems/rings.md#_ring-of-counterspells)_, diamond dust (worth 500 gp), eye ointment for _ [true seeing](spells/trueSeeing.md#_true-seeing)_ (worth 500 gp), 4,480 gp
 
 The demon-blooded sorcerer is a powerful mortal servant of the Abyss.
 
@@ -1392,13 +1392,13 @@ Defense
 
 **Fort** +10, **Ref** +14, **Will** +18; +5 vs. spells and spell-like abilities
 
-**Defensive Abilities** fated +5, _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_, within reach 1/day; **DR** 10/adamantine (150 points)
+**Defensive Abilities** fated +5, _ [spell turning](spells/spellTurning.md#_spell-turning)_, within reach 1/day; **DR** 10/adamantine (150 points)
 
 Offense
 
 **Speed** 30 ft.
 
-**Melee** _ [staff of fire](/pathfinderRPG/prd/magicItems/staves.html#_staff-of-fire)_ +8/+3 (1d6â1)
+**Melee** _ [staff of fire](magicItems/staves.md#_staff-of-fire)_ +8/+3 (1d6–1)
 
 **Special Attacks** it was meant to be (2/day)
 
@@ -1408,35 +1408,35 @@ Offense
 
 **Sorcerer Spells Known** (CL 19th; concentration +26)
 
-9th (4/day)—_ [crushing hand](/pathfinderRPG/prd/spells/crushingHand.html#_crushing-hand)_, _ [foresight](/pathfinderRPG/prd/spells/foresight.html#_foresight)_, _ [time stop](/pathfinderRPG/prd/spells/timeStop.html#_time-stop)_
+9th (4/day)—_ [crushing hand](spells/crushingHand.md#_crushing-hand)_, _ [foresight](spells/foresight.md#_foresight)_, _ [time stop](spells/timeStop.md#_time-stop)_
 
-8th (6/day)—_ [greater shout](/pathfinderRPG/prd/spells/shout.html#_shout-greater)_ (DC 27), _ [moment of prescience](/pathfinderRPG/prd/spells/momentOfPrescience.html#_moment-of-prescience)_, _ [power word stun](/pathfinderRPG/prd/spells/powerWordStun.html#_power-word-stun)_, _ [protection from spells](/pathfinderRPG/prd/spells/protectionFromSpells.html#_protection-from-spells)_
+8th (6/day)—_ [greater shout](spells/shout.md#_shout-greater)_ (DC 27), _ [moment of prescience](spells/momentOfPrescience.md#_moment-of-prescience)_, _ [power word stun](spells/powerWordStun.md#_power-word-stun)_, _ [protection from spells](spells/protectionFromSpells.md#_protection-from-spells)_
 
-7th (7/day)—_ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_, _ [mage's magnificent mansion](/pathfinderRPG/prd/spells/mageSMagnificentMansion.html#_mage-s-magnificent-mansion)_, _ [mage's sword](/pathfinderRPG/prd/spells/mageSSword.html#_mage-s-sword)_, _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_
+7th (7/day)—_ [limited wish](spells/limitedWish.md#_limited-wish)_, _ [mage's magnificent mansion](spells/mageSMagnificentMansion.md#_mage-s-magnificent-mansion)_, _ [mage's sword](spells/mageSSword.md#_mage-s-sword)_, _ [spell turning](spells/spellTurning.md#_spell-turning)_
 
-6th (7/day)—_ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_ (DC 25), _ [disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_ (DC 23), _ [globe of invulnerability](/pathfinderRPG/prd/spells/globeOfInvulnerability.html#_globe-of-invulnerability)_, _ [mislead](/pathfinderRPG/prd/spells/mislead.html#_mislead)_
+6th (7/day)—_ [chain lightning](spells/chainLightning.md#_chain-lightning)_ (DC 25), _ [disintegrate](spells/disintegrate.md#_disintegrate)_ (DC 23), _ [globe of invulnerability](spells/globeOfInvulnerability.md#_globe-of-invulnerability)_, _ [mislead](spells/mislead.md#_mislead)_
 
-5th (7/day)—_ [baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ (DC 22), _ [break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment)_, _ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_ (DC 24), _ [dominate person](/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person)_ (DC 22), _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport)_
+5th (7/day)—_ [baleful polymorph](spells/balefulPolymorph.md#_baleful-polymorph)_ (DC 22), _ [break enchantment](spells/breakEnchantment.md#_break-enchantment)_, _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_ (DC 24), _ [dominate person](spells/dominatePerson.md#_dominate-person)_ (DC 22), _ [teleport](spells/teleport.md#_teleport)_
 
-4th (7/day)—_ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (DC 21), _ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_ (DC 21), _ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_
+4th (7/day)—_ [bestow curse](spells/bestowCurse.md#_bestow-curse)_ (DC 21), _ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 21), _ [dimension door](spells/dimensionDoor.md#_dimension-door)_, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [stoneskin](spells/stoneskin.md#_stoneskin)_
 
-3rd (8/day)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [fly](/pathfinderRPG/prd/spells/fly.html)_, _ [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt)_ (DC 22), _ [phantom steed](/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_
+3rd (8/day)—_ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [fly](spells/fly.md)_, _ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_ (DC 22), _ [phantom steed](spells/phantomSteed.md#_phantom-steed)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_
 
-2nd (8/day)—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_, _ [blur](/pathfinderRPG/prd/spells/blur.html#_blur)_, _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_, _ [knock](/pathfinderRPG/prd/spells/knock.html#_knock)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_
+2nd (8/day)—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_, _ [blur](spells/blur.md#_blur)_, _ [false life](spells/falseLife.md#_false-life)_, _ [fog cloud](spells/fogCloud.md)_, _ [knock](spells/knock.md#_knock)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_
 
-1st (8/day)—_ [alarm](/pathfinderRPG/prd/spells/alarm.html#_alarm)_, _ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ (DC 20), _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_
+1st (8/day)—_ [alarm](spells/alarm.md#_alarm)_, _ [burning hands](spells/burningHands.md#_burning-hands)_ (DC 20), _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [shield](spells/shield.md#_shield)_, _ [true strike](spells/trueStrike.md#_true-strike)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [arcane mark](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [open/close](/pathfinderRPG/prd/spells/openClose.html#_open-close)_, _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [arcane mark](spells/arcaneMark.md#_arcane-mark)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [detect poison](spells/detectPoison.md#_detect-poison)_, _ [light](spells/light.md#_light)_, _ [mending](spells/mending.md#_mending)_, _ [open/close](spells/openClose.md#_open-close)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [read magic](spells/readMagic.md#_read-magic)_
 
 **Bloodline** destined
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [foresight](/pathfinderRPG/prd/spells/foresight.html#_foresight)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [moment of prescience](/pathfinderRPG/prd/spells/momentOfPrescience.html#_moment-of-prescience)_, _ [protection from spells](/pathfinderRPG/prd/spells/protectionFromSpells.html#_protection-from-spells)_, _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_, and _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_.
+**Before Combat** The sorcerer casts _ [false life](spells/falseLife.md#_false-life)_, _ [foresight](spells/foresight.md#_foresight)_, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [moment of prescience](spells/momentOfPrescience.md#_moment-of-prescience)_, _ [protection from spells](spells/protectionFromSpells.md#_protection-from-spells)_, _ [spell turning](spells/spellTurning.md#_spell-turning)_, and _ [stoneskin](spells/stoneskin.md#_stoneskin)_.
 
-**During Combat** The sorcerer first casts _ [mislead](/pathfinderRPG/prd/spells/mislead.html#_mislead)_ and _ [globe of invulnerability](/pathfinderRPG/prd/spells/globeOfInvulnerability.html#_globe-of-invulnerability)_.
+**During Combat** The sorcerer first casts _ [mislead](spells/mislead.md#_mislead)_ and _ [globe of invulnerability](spells/globeOfInvulnerability.md#_globe-of-invulnerability)_.
 
-**Base Statistics** Without _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [foresight](/pathfinderRPG/prd/spells/foresight.html#_foresight)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [protection from spells](/pathfinderRPG/prd/spells/protectionFromSpells.html#_protection-from-spells)_, _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_, and _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, the sorcerer's statistics are **AC** 18, touch 15, flat-footed 16; **hp** 107; **Ref** +12; **DR** none.
+**Base Statistics** Without _ [false life](spells/falseLife.md#_false-life)_, _ [foresight](spells/foresight.md#_foresight)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [protection from spells](spells/protectionFromSpells.md#_protection-from-spells)_, _ [spell turning](spells/spellTurning.md#_spell-turning)_, and _ [stoneskin](spells/stoneskin.md#_stoneskin)_, the sorcerer's statistics are **AC** 18, touch 15, flat-footed 16; **hp** 107; **Ref** +12; **DR** none.
 
 Statistics
 
@@ -1444,15 +1444,15 @@ Statistics
 
 **Base Atk** +9; **CMB** +8; **CMD** 25
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), Diehard, [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), Improved [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Maximize Spell](/pathfinderRPG/prd/feats.html#_maximize-spell), Mobility, [Quicken Spell](/pathfinderRPG/prd/feats.html#_quicken-spell), [Silent Spell](/pathfinderRPG/prd/feats.html#_silent-spell), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (evocation)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Combat Expertise](feats.md#_combat-expertise), Diehard, [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials), Greater [Spell Focus](feats.md#_spell-focus) (evocation), [Improved Initiative](feats.md#_improved-initiative), Improved [Lightning Reflexes](feats.md#_lightning-reflexes), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), [Maximize Spell](feats.md#_maximize-spell), Mobility, [Quicken Spell](feats.md#_quicken-spell), [Silent Spell](feats.md#_silent-spell), [Spell Focus](feats.md#_spell-focus) (evocation)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +20, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +17, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +11, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +20, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, history) +15, Perception +21, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +24
+**Skills** [Bluff](skills/bluff.md#_bluff) +20, [Diplomacy](skills/diplomacy.md#_diplomacy) +17, [Fly](skills/fly.md#_fly) +11, [Intimidate](skills/intimidate.md#_intimidate) +20, [Knowledge](skills/knowledge.md#_knowledge) (arcana, history) +15, Perception +21, [Spellcraft](skills/spellcraft.md#_spellcraft) +24
 
 **Languages** Celestial, Common, Draconic, Elven, Infernal
 
 **SQ** bloodline arcana (gain luck bonus to saves when casting personal-range spells)
 
-**Combat Gear** _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_; **Other Gear** _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +3_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +3_, _ [glove of storing](/pathfinderRPG/prd/magicItems/wondrousItems.html#_glove-of-storing)_, _ [headband of mental prowess](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-mental-prowess) +4_ (Int, Wis), _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +3_, _ [staff of fire](/pathfinderRPG/prd/magicItems/staves.html#_staff-of-fire)_ (10 charges), diamond dust (worth 500 gp), 7,800 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_; **Other Gear** _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +3_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3_, _ [glove of storing](magicItems/wondrousItems.md#_glove-of-storing)_, _ [headband of mental prowess](magicItems/wondrousItems.md#_headband-of-mental-prowess) +4_ (Int, Wis), _ [ring of protection](magicItems/rings.md#_ring-of-protection) +3_, _ [staff of fire](magicItems/staves.md#_staff-of-fire)_ (10 charges), diamond dust (worth 500 gp), 7,800 gp
 
 Believing he's destined for greatness, this mage will do anything to succeed.
 
@@ -1480,7 +1480,7 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** quarterstaff +9/+4 (1d6â1)
+**Melee** quarterstaff +9/+4 (1d6–1)
 
 **Bloodline Spell-Like Abilities** (CL 20th; concentration +28)
 
@@ -1492,35 +1492,35 @@ Offense
 
 **Sorcerer Spells Known** (CL 20th; concentration +28)
 
-9th (6/day)—_ [energy drain](/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain)_ (DC 29), _ [imprisonment](/pathfinderRPG/prd/spells/imprisonment.html#_imprisonment)_ (DC 27), _ [power word kill](/pathfinderRPG/prd/spells/powerWordKill.html#_power-word-kill)_, _ [wail of the banshee](/pathfinderRPG/prd/spells/wailOfTheBanshee.html#_wail-of-the-banshee)_ (DC 29)
+9th (6/day)—_ [energy drain](spells/energyDrain.md#_energy-drain)_ (DC 29), _ [imprisonment](spells/imprisonment.md#_imprisonment)_ (DC 27), _ [power word kill](spells/powerWordKill.md#_power-word-kill)_, _ [wail of the banshee](spells/wailOfTheBanshee.md#_wail-of-the-banshee)_ (DC 29)
 
-8th (7/day)—_ [create greater undead](/pathfinderRPG/prd/spells/createGreaterUndead.html#_create-greater-undead)_, _ [horrid wilting](/pathfinderRPG/prd/spells/horridWilting.html#_horrid-wilting)_ (DC 28), _ [polar ray](/pathfinderRPG/prd/spells/polarRay.html#_polar-ray)_, _ [protection from spells](/pathfinderRPG/prd/spells/protectionFromSpells.html#_protection-from-spells)_
+8th (7/day)—_ [create greater undead](spells/createGreaterUndead.md#_create-greater-undead)_, _ [horrid wilting](spells/horridWilting.md#_horrid-wilting)_ (DC 28), _ [polar ray](spells/polarRay.md#_polar-ray)_, _ [protection from spells](spells/protectionFromSpells.md#_protection-from-spells)_
 
-7th (7/day)—_ [finger of death](/pathfinderRPG/prd/spells/fingerOfDeath.html#_finger-of-death)_ (DC 27), _ [mass hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person-mass)_ (DC 25), _ [prismatic spray](/pathfinderRPG/prd/spells/prismaticSpray.html#_prismatic-spray)_, _ [waves of exhaustion](/pathfinderRPG/prd/spells/wavesOfExhaustion.html#_waves-of-exhaustion)_
+7th (7/day)—_ [finger of death](spells/fingerOfDeath.md#_finger-of-death)_ (DC 27), _ [mass hold person](spells/holdPerson.md#_hold-person-mass)_ (DC 25), _ [prismatic spray](spells/prismaticSpray.md#_prismatic-spray)_, _ [waves of exhaustion](spells/wavesOfExhaustion.md#_waves-of-exhaustion)_
 
-6th (7/day)—_ [circle of death](/pathfinderRPG/prd/spells/circleOfDeath.html#_circle-of-death)_ (DC 26), _ [create undead](/pathfinderRPG/prd/spells/createUndead.html#_create-undead)_, _ [flesh to stone](/pathfinderRPG/prd/spells/fleshToStone.html#_flesh-to-stone)_ (DC 24), _ [undeath to death](/pathfinderRPG/prd/spells/undeathToDeath.html#_undeath-to-death)_ (DC 26)
+6th (7/day)—_ [circle of death](spells/circleOfDeath.md#_circle-of-death)_ (DC 26), _ [create undead](spells/createUndead.md#_create-undead)_, _ [flesh to stone](spells/fleshToStone.md#_flesh-to-stone)_ (DC 24), _ [undeath to death](spells/undeathToDeath.md#_undeath-to-death)_ (DC 26)
 
-5th (7/day)—_ [cloudkill](/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill)_ (DC 23), _ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_ (DC 23), _ [dominate person](/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person)_ (DC 23), _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport)_, _ [waves of fatigue](/pathfinderRPG/prd/spells/wavesOfFatigue.html#_waves-of-fatigue)_
+5th (7/day)—_ [cloudkill](spells/cloudkill.md#_cloudkill)_ (DC 23), _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_ (DC 23), _ [dominate person](spells/dominatePerson.md#_dominate-person)_ (DC 23), _ [teleport](spells/teleport.md#_teleport)_, _ [waves of fatigue](spells/wavesOfFatigue.md#_waves-of-fatigue)_
 
-4th (8/day)—_ [animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_, _ [contagion](/pathfinderRPG/prd/spells/contagion.html#_contagion)_ (DC 24), _ [crushing despair](/pathfinderRPG/prd/spells/crushingDespair.html#_crushing-despair)_ (DC 22), _ [solid fog](/pathfinderRPG/prd/spells/solidFog.html#_solid-fog)_, _ [wall of ice](/pathfinderRPG/prd/spells/wallOfIce.html#_wall-of-ice)_ (DC 22)
+4th (8/day)—_ [animate dead](spells/animateDead.md#_animate-dead)_, _ [contagion](spells/contagion.md#_contagion)_ (DC 24), _ [crushing despair](spells/crushingDespair.md#_crushing-despair)_ (DC 22), _ [solid fog](spells/solidFog.md#_solid-fog)_, _ [wall of ice](spells/wallOfIce.md#_wall-of-ice)_ (DC 22)
 
-3rd (8/day)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ (DC 21), _ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_, _ [ray of exhaustion](/pathfinderRPG/prd/spells/rayOfExhaustion.html#_ray-of-exhaustion)_ (DC 23), _ [vampiric touch](/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch)_
+3rd (8/day)—_ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [fireball](spells/fireball.md#_fireball)_ (DC 21), _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_, _ [ray of exhaustion](spells/rayOfExhaustion.md#_ray-of-exhaustion)_ (DC 23), _ [vampiric touch](spells/vampiricTouch.md#_vampiric-touch)_
 
-2nd (8/day)—_ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_ (DC 22), _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, _ [spectral hand](/pathfinderRPG/prd/spells/spectralHand.html#_spectral-hand)_
+2nd (8/day)—_ [blindness/deafness](spells/blindnessDeafness.md#_blindness-deafness)_ (DC 22), _ [false life](spells/falseLife.md#_false-life)_, _ [invisibility](spells/invisibility.md#_invisibility)_, _ [mirror image](spells/mirrorImage.md#_mirror-image)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, _ [spectral hand](spells/spectralHand.md#_spectral-hand)_
 
-1st (8/day)—_ [chill touch](/pathfinderRPG/prd/spells/chillTouch.html#_chill-touch)_ (DC 21), _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 21), _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, _ [shocking grasp](/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp)_
+1st (8/day)—_ [chill touch](spells/chillTouch.md#_chill-touch)_ (DC 21), _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 21), _ [shield](spells/shield.md#_shield)_, _ [shocking grasp](spells/shockingGrasp.md#_shocking-grasp)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 20), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _disrupt undead_, _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_ (DC 18), _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [touch of fatigue](/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue)_ (DC 20)
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [bleed](spells/bleed.md#_bleed)_ (DC 20), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _disrupt undead_, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 18), _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [touch of fatigue](spells/touchOfFatigue.md#_touch-of-fatigue)_ (DC 20)
 
 **Bloodline** undead
 
 Tactics
 
-**Before Combat** The sorcerer casts _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_ and _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_.
+**Before Combat** The sorcerer casts _ [false life](spells/falseLife.md#_false-life)_ and _ [mage armor](spells/mageArmor.md#_mage-armor)_.
 
-**During Combat** The sorcerer casts _ [energy drain](/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain)_, _ [power word kill](/pathfinderRPG/prd/spells/powerWordKill.html#_power-word-kill)_, and _ [wail of the banshee](/pathfinderRPG/prd/spells/wailOfTheBanshee.html#_wail-of-the-banshee)_. She may deter opponents with _ [solid fog](/pathfinderRPG/prd/spells/solidFog.html#_solid-fog)_, _ [waves of exhaustion](/pathfinderRPG/prd/spells/wavesOfExhaustion.html#_waves-of-exhaustion)_, or her grasp of the dead ability.
+**During Combat** The sorcerer casts _ [energy drain](spells/energyDrain.md#_energy-drain)_, _ [power word kill](spells/powerWordKill.md#_power-word-kill)_, and _ [wail of the banshee](spells/wailOfTheBanshee.md#_wail-of-the-banshee)_. She may deter opponents with _ [solid fog](spells/solidFog.md#_solid-fog)_, _ [waves of exhaustion](spells/wavesOfExhaustion.md#_waves-of-exhaustion)_, or her grasp of the dead ability.
 
-**Base Statistics** Without _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_ and _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, the sorcerer's statistics are **AC** 26, touch 17, flat-footed 23; **hp** 202.
+**Base Statistics** Without _ [false life](spells/falseLife.md#_false-life)_ and _ [mage armor](spells/mageArmor.md#_mage-armor)_, the sorcerer's statistics are **AC** 26, touch 17, flat-footed 23; **hp** 202.
 
 Statistics
 
@@ -1528,13 +1528,13 @@ Statistics
 
 **Base Atk** +10; **CMB** +9; **CMD** 26
 
-**Feats** [Blind-Fight](/pathfinderRPG/prd/feats.html#_blind-fight), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Empower Spell](/pathfinderRPG/prd/feats.html#_empower-spell), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (necromancy), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), Mobility, [Quicken Spell](/pathfinderRPG/prd/feats.html#_quicken-spell), [Silent Spell](/pathfinderRPG/prd/feats.html#_silent-spell), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (necromancy), [Still Spell](/pathfinderRPG/prd/feats.html#_still-spell), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Blind-Fight](feats.md#_blind-fight), [Combat Casting](feats.md#_combat-casting), [Dodge](feats.md#_dodge), [Empower Spell](feats.md#_empower-spell), [Eschew Materials](feats.md#_eschew-materials), [Great Fortitude](feats.md#_great-fortitude), Greater [Spell Focus](feats.md#_spell-focus) (necromancy), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), Mobility, [Quicken Spell](feats.md#_quicken-spell), [Silent Spell](feats.md#_silent-spell), [Spell Focus](feats.md#_spell-focus) (necromancy), [Still Spell](feats.md#_still-spell), [Toughness](feats.md#_toughness)
 
-**Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +10, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +21, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, religion) +13, Perception +16, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +13, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +21
+**Skills** [Fly](skills/fly.md#_fly) +10, [Intimidate](skills/intimidate.md#_intimidate) +21, [Knowledge](skills/knowledge.md#_knowledge) (arcana, religion) +13, Perception +16, [Spellcraft](skills/spellcraft.md#_spellcraft) +13, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +21
 
 **Languages** Common
 
 **SQ** bloodline arcana (corporeal undead affected by humanoid-affecting spells), one of us
 
-**Combat Gear** _scrolls of [darkvision](/pathfinderRPG/prd/spells/darkvision.html#_darkvision)_ (2), _scrolls of [fly](/pathfinderRPG/prd/spells/fly.html)_ (2), _scroll of see [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _wand of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_ (25 charges); **Other Gear** quarterstaff, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +4_, _ [belt of mighty constitution](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-mighty-constitution) +6_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +3_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +6_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +4_, _ [robe of bones](/pathfinderRPG/prd/magicItems/wondrousItems.html#_robe-of-bones)_, diamonds for _ [protection from spells](/pathfinderRPG/prd/spells/protectionFromSpells.html#_protection-from-spells)_ (worth 1,500 gp), onyx gems (worth 2,000 gp), 4,650 gp
+**Combat Gear** _scrolls of [darkvision](spells/darkvision.md#_darkvision)_ (2), _scrolls of [fly](spells/fly.md)_ (2), _scroll of see [invisibility](spells/invisibility.md#_invisibility)_, _wand of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_ (25 charges); **Other Gear** quarterstaff, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +4_, _ [belt of mighty constitution](magicItems/wondrousItems.md#_belt-of-mighty-constitution) +6_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +6_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +4_, _ [robe of bones](magicItems/wondrousItems.md#_robe-of-bones)_, diamonds for _ [protection from spells](spells/protectionFromSpells.md#_protection-from-spells)_ (worth 1,500 gp), onyx gems (worth 2,000 gp), 4,650 gp
 

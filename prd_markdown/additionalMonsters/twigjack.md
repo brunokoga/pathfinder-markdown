@@ -6,9 +6,9 @@ This tiny, vaguely humanoid creature seems to be made completely of bundles of s
 
 **XP 800**
 
-CE Tiny [fey](/pathfinderRPG/prd/monsters/creatureTypes.html#_fey)
+CE Tiny [fey](monsters/creatureTypes.md#_fey)
 
-**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +10
+**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +10
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +3, **Ref** +7, **Will** +6
 
-**Weaknesses** vulnerable to [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)
+**Weaknesses** vulnerable to [fire](monsters/creatureTypes.md#_fire-subtype)
 
 Offense
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +3; **CMD** 12
 
-**Feats** [Agile Maneuvers](/pathfinderRPG/prd/additionalMonsters/../feats.html#_agile-maneuvers), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
+**Feats** [Agile Maneuvers](additionalMonsters/../feats.md#_agile-maneuvers), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth.md#_stealth)), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +11, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +7, [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device) +8, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (nature) +8, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +10, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +22
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +11, [Climb](additionalMonsters/../skills/climb.md#_climb) +7, [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device) +8, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (nature) +8, [Perception](additionalMonsters/../skills/perception.md#_perception) +10, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +22
 
 **Languages** Common, Sylvan
 
@@ -54,7 +54,7 @@ Ecology
 
 Special Abilities
 
-**Bramble Jump (Su)** A twigjack can travel short distances between brambles, shrubs, or thickets as if via _ [dimension door](/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door)_ as part of a move action. The twigjack must begin and end this movement while in an area of at least light undergrowth. The twigjack can travel in this manner up to 60 feet per day. This movement must be used in 10-foot increments and does not provoke attacks of opportunity.
+**Bramble Jump (Su)** A twigjack can travel short distances between brambles, shrubs, or thickets as if via _ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_ as part of a move action. The twigjack must begin and end this movement while in an area of at least light undergrowth. The twigjack can travel in this manner up to 60 feet per day. This movement must be used in 10-foot increments and does not provoke attacks of opportunity.
 
 **Splinterspray (Ex)** A twigjack can eject a barrage of splinters and brambles from its body three times per day as a standard action. This effect creates a 15-foot conical burst of jagged splinters, dealing 4d6 points of piercing damage to all creatures in the area. A DC 14 Reflex saving throw halves this damage. The save DC is Constitution-based.
 

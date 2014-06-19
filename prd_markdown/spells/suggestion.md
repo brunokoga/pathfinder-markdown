@@ -12,7 +12,7 @@
 
 **Duration** 1 hour/level or until completed
 
-**Saving Throw** [Will](../combat.html#_will) negates; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Will](../combat.md#_will) negates; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
 You influence the actions of the target creature by suggesting a course of activity (limited to a sentence or two). The _suggestion _must be worded in such a manner as to make the activity sound reasonable. Asking the creature to do some obviously harmful act automatically negates the effect of the spell.
 

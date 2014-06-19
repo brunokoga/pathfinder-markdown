@@ -6,9 +6,9 @@ This creature is much like a rhino, some six feet tall and ten feet long, with a
 
 **XP 3,200**
 
-N Large [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Large [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +0; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +13
+**Init** +0; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +13
 
 Defense
 
@@ -26,7 +26,7 @@ Offense
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [powerful charge](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_powerful-charge) (4d8+13), trample (2d8+13, DC 23)
+**Special Attacks** [powerful charge](monsters/universalMonsterRules.md#_powerful-charge) (4d8+13), trample (2d8+13, DC 23)
 
 Statistics
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +16; **CMD** 26 (30 vs. trip)
 
-**Feats** [Diehard](/pathfinderRPG/prd/additionalMonsters/../feats.html#_diehard), [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Improved Overrun](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-overrun), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack)
+**Feats** [Diehard](additionalMonsters/../feats.md#_diehard), [Endurance](additionalMonsters/../feats.md#_endurance), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Improved Overrun](additionalMonsters/../feats.md#_improved-overrun), [Power Attack](additionalMonsters/../feats.md#_power-attack)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +13
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +13
 
 Ecology
 
@@ -62,9 +62,9 @@ This armored creature has a bony, turtle-like shell from which protrude short li
 
 **XP 2,400**
 
-N Large [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Large [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +0; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +16
+**Init** +0; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +16
 
 Defense
 
@@ -88,9 +88,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +14; **CMD** 24 (28 vs. trip)
 
-**Feats** [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Improved Bull Rush](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception))
+**Feats** [Endurance](additionalMonsters/../feats.md#_endurance), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +16
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +16
 
 Ecology
 
@@ -100,7 +100,7 @@ Ecology
 
 **Treasure** none
 
-The gylptodon is often hunted for the value of its outer armor, made up of bony plates in turn composed of many smaller, knobby âscales.â The creature is quite capable of defending itself with swipes from its deadly claws, as its ill-tempered nature often urges it to do.
+The gylptodon is often hunted for the value of its outer armor, made up of bony plates in turn composed of many smaller, knobby “scales.” The creature is quite capable of defending itself with swipes from its deadly claws, as its ill-tempered nature often urges it to do.
 
 ## Gylptodon Companions
 
@@ -116,9 +116,9 @@ The massive and majestic elk stands fully the height of a human at its shoulder,
 
 **XP 1,200**
 
-N Large [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Large [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +2; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +9
+**Init** +2; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +9
 
 Defense
 
@@ -136,7 +136,7 @@ Offense
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [powerful charge](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_powerful-charge) (4d6+7)
+**Special Attacks** [powerful charge](monsters/universalMonsterRules.md#_powerful-charge) (4d6+7)
 
 Statistics
 
@@ -144,19 +144,19 @@ Statistics
 
 **Base Atk** +3; **CMB** +9; **CMD** 21 (25 vs. trip)
 
-**Feats** [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Run](/pathfinderRPG/prd/additionalMonsters/../feats.html#_run)B
+**Feats** [Endurance](additionalMonsters/../feats.md#_endurance), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Run](additionalMonsters/../feats.md#_run)B
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +9
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +9
 
 ECOLOGY
 
-**Environment** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) or temperate forest and plains
+**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) or temperate forest and plains
 
 **Organization** solitary, pair, or herd (3–50)
 
 **Treasure** none
 
-The megaloceros is a powerful and enormous elk, also known as a âgreat elkâ or âking stag.â It stands about 6 feet tall at the shoulder and has antlers spanning up to 12 feet. It weighs 1,400 pounds.
+The megaloceros is a powerful and enormous elk, also known as a “great elk” or “king stag.” It stands about 6 feet tall at the shoulder and has antlers spanning up to 12 feet. It weighs 1,400 pounds.
 
 ## Megaloceros Companions
 
@@ -172,9 +172,9 @@ The great sloth, standing on its hind legs, can reach the treetops with its agil
 
 **XP 1,600**
 
-N Huge [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Huge [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +0; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +14
+**Init** +0; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +14
 
 Defense
 
@@ -200,9 +200,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +14; **CMD** 24 (28 vs. trip)
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_awesome-blow), [Improved Bull Rush](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception))
+**Feats** [Awesome Blow](additionalMonsters/../monsters/monsterFeats.md#_awesome-blow), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +15, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +14
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +15, [Perception](additionalMonsters/../skills/perception.md#_perception) +14
 
 Ecology
 

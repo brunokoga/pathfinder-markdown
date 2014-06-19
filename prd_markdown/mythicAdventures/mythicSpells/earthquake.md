@@ -1,6 +1,6 @@
 Earthquake
 
-**Source** [_earthquake_](/pathfinderRPG/prd/spells/earthquake.html#_earthquake)
+**Source** [_earthquake_](spells/earthquake.md#_earthquake)
 
 Increase the damage dealt to structures by 10 points of damage per tier. Increase the damage dealt by cave-ins and landslides to 10d8 points of damage. Increase the damage dealt to those pinned beneath rubble to 1d10 points per minute. Add your tier to the DC of concentration checks and Constitution checks attempted as a consequence of this spell.
 

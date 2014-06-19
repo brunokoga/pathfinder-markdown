@@ -12,7 +12,7 @@
 
 **Duration** 10 min./level
 
-**Saving Throw** [Will](../combat.html#_will) negates (harmless); **[Spell Resistance](../glossary.html#_spell-resistance)** yes (harmless)
+**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless)
 
 This spell imbues a single creature with great bravery and morale in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill checks.
 

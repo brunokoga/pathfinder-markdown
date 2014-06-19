@@ -6,9 +6,9 @@ _This reptilian humanoid has green scales, a short and toothy snout, and a thick
 
 **XP 400**
 
-N Medium [humanoid](creatureTypes.html#_humanoid) ( [reptilian](creatureTypes.html#_reptilian-subtype))
+N Medium [humanoid](creatureTypes.md#_humanoid) ( [reptilian](creatureTypes.md#_reptilian-subtype))
 
-**Init** +0; **Senses** [Perception](../skills/perception.html#_perception) +1
+**Init** +0; **Senses** [Perception](../skills/perception.md#_perception) +1
 
 **Defense**
 
@@ -32,9 +32,9 @@ N Medium [humanoid](creatureTypes.html#_humanoid) ( [reptilian](creatureTypes.ht
 
 **Base**  **Atk** +1; **CMB** +2; **CMD** 12
 
-**Feats** [Multiattack](monsterFeats.html#_multiattack)
+**Feats** [Multiattack](monsterFeats.md#_multiattack)
 
-**Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +2, [Perception](../skills/perception.html#_perception) +1, [Swim](../skills/swim.html#_swim) +8; **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics.html#_acrobatics)
+**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +2, [Perception](../skills/perception.md#_perception) +1, [Swim](../skills/swim.md#_swim) +8; **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics.md#_acrobatics)
 
 **Languages** Draconic
 
@@ -56,7 +56,7 @@ Lizardfolk are proud and powerful reptilian predators that make their communal h
 
 Most lizardfolk stand 6 to 7 feet tall and weigh 200 to 250 pounds, their powerful muscles covered in scales of gray, green, or brown. Some breeds have short dorsal spikes or brightly colored frills, and all swim well by moving with flicks of their powerful 4-foot-long tails. While completely at home in the water, they breathe air and return to their clustered mound-dwellings to breed and sleep. As their reptilian blood makes them sluggish in the cold, most lizardfolk hunt and work during the day and retreat to their homes at night to curl up with other tribesmen in the shared warmth of large peat fires.
 
-Though generally neutral, lizardfolks' standoffish demeanor, staunch rejection of civilization's âgifts,â and legendary ferocity in battle cause them to be viewed negatively by most humanoids. These traits stem from good reasons, however, as their own slow rate of reproduction is no match for warm-blooded humanoids, and those tribes who don't defend their wetland territories to the last breath quickly find themselves overwhelmed by the mammalian hordes. As for their tendency to consume the bodies of dead friends and enemies alike, the practical lizardfolk are quick to point out that life is hard in the swamp, and nothing should go to waste.
+Though generally neutral, lizardfolks' standoffish demeanor, staunch rejection of civilization's “gifts,” and legendary ferocity in battle cause them to be viewed negatively by most humanoids. These traits stem from good reasons, however, as their own slow rate of reproduction is no match for warm-blooded humanoids, and those tribes who don't defend their wetland territories to the last breath quickly find themselves overwhelmed by the mammalian hordes. As for their tendency to consume the bodies of dead friends and enemies alike, the practical lizardfolk are quick to point out that life is hard in the swamp, and nothing should go to waste.
 
 The lizardfolk presented here dwell in a swampy environment. Lizardfolk tribes can exist in other environments as well, but they lose their swim speed and instead gain a climb speed of 15 feet.
 

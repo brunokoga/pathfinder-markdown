@@ -1,6 +1,6 @@
 Fog Cloud
 
-**Source** [_fog cloud_](/pathfinderRPG/prd/spells/fogCloud.html)
+**Source** [_fog cloud_](spells/fogCloud.md)
 
 The radius of the fog increases to 50 feet.
 

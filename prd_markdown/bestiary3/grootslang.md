@@ -8,7 +8,7 @@ XP 76,800
 
 CE Gargantuan magical beast
 
-**Init** +4; **Senses** darkvision 120 ft., [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +28
+**Init** +4; **Senses** darkvision 120 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +28
 
 Defense
 
@@ -28,7 +28,7 @@ Offense
 
 **Space** 20 ft.; **Reach** 20 ft.
 
-**Special Attacks** impaling bite, thunderous stomp (DC 28), [trample](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_trample) (2d6+19, DC 33)
+**Special Attacks** impaling bite, thunderous stomp (DC 28), [trample](monsters/universalMonsterRules.md#_trample) (2d6+19, DC 33)
 
 Statistics
 
@@ -36,14 +36,14 @@ Statistics
 
 **Base Atk** +21; **CMB** +38; **CMD** 53 (55 vs. trip)
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow), [Bleeding Critical](/pathfinderRPG/prd/feats.html#_bleeding-critical), [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite), [Mobility](/pathfinderRPG/prd/feats.html#_mobility), [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Spring Attack](/pathfinderRPG/prd/feats.html#_spring-attack)
+**Feats** [Awesome Blow](monsters/monsterFeats.md#_awesome-blow), [Bleeding Critical](feats.md#_bleeding-critical), [Cleave](feats.md#_cleave), [Critical Focus](feats.md#_critical-focus), [Dodge](feats.md#_dodge), [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Critical](feats.md#_improved-critical) (bite), [Mobility](feats.md#_mobility), [Multiattack](monsters/monsterFeats.md#_multiattack), [Power Attack](feats.md#_power-attack), [Spring Attack](feats.md#_spring-attack)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +15 (+19 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +4, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +15, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +28, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +13, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +10,   
- [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +45
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +15 (+19 when jumping), [Bluff](skills/bluff.md#_bluff) +4, [Intimidate](skills/intimidate.md#_intimidate) +15, [Perception](skills/perception.md#_perception) +28, [Sense Motive](skills/senseMotive.md#_sense-motive) +13, [Stealth](skills/stealth.md#_stealth) +10,   
+ [Swim](skills/swim.md#_swim) +45
 
 **Languages** Aquan, Common, Draconic
 
-**SQ** [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype) elusion, [hold breath](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_hold-breath)
+**SQ** [aquatic](monsters/creatureTypes.md#_aquatic-subtype) elusion, [hold breath](monsters/universalMonsterRules.md#_hold-breath)
 
 Ecology
 
@@ -55,7 +55,7 @@ Ecology
 
 Special Abilities
 
-**[Aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype) Elusion (Su)** As a standard action, a grootslang that is fully immersed in [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) can teleport to another body of [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) without error. This ability functions like _ [tree stride](/pathfinderRPG/prd/spells/treeStride.html#_tree-stride)_, but the grootslang can exit from any body of [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) within 1 mile so long as both the entry and exit are wide enough for the creature to enter.
+**[Aquatic](monsters/creatureTypes.md#_aquatic-subtype) Elusion (Su)** As a standard action, a grootslang that is fully immersed in [water](monsters/creatureTypes.md#_water-subtype) can teleport to another body of [water](monsters/creatureTypes.md#_water-subtype) without error. This ability functions like _ [tree stride](spells/treeStride.md#_tree-stride)_, but the grootslang can exit from any body of [water](monsters/creatureTypes.md#_water-subtype) within 1 mile so long as both the entry and exit are wide enough for the creature to enter.
 
 **Impaling Bite (Ex)** A grootslang can make a bite attack against any creature it is grappling with its tail. If this attack hits, it is automatically treated as a critical threat.
 

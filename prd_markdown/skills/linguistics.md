@@ -4,9 +4,9 @@
 
 You are skilled at working with language, in both its spoken and written forms. You can speak multiple languages, and can decipher nearly any tongue given enough time. Your skill in writing allows you to create and detect forgeries as well.
 
-**Check** : You can decipher writing in an unfamiliar language or a message written in an incomplete or archaic form. The base DC is 20 for the simplest messages, 25 for standard texts, and 30 or higher for intricate, exotic, or very old writing. If the check succeeds, you understand the general content of a piece of writing about one page long (or the equivalent). If the check fails, make a DC 5 [Wisdom](../gettingStarted.html#_wisdom) check to see if you avoid drawing a false conclusion about the text. (Success means that you do not draw a false conclusion; failure means that you do.)
+**Check** : You can decipher writing in an unfamiliar language or a message written in an incomplete or archaic form. The base DC is 20 for the simplest messages, 25 for standard texts, and 30 or higher for intricate, exotic, or very old writing. If the check succeeds, you understand the general content of a piece of writing about one page long (or the equivalent). If the check fails, make a DC 5 [Wisdom](../gettingStarted.md#_wisdom) check to see if you avoid drawing a false conclusion about the text. (Success means that you do not draw a false conclusion; failure means that you do.)
 
-Both the Linguistics check and (if necessary) the [Wisdom](../gettingStarted.html#_wisdom) check are made secretly by the GM, so that you can't tell whether the conclusion you draw is true or false.
+Both the Linguistics check and (if necessary) the [Wisdom](../gettingStarted.md#_wisdom) check are made secretly by the GM, so that you can't tell whether the conclusion you draw is true or false.
 
 | Condition | Linguistics Check Modifier |
 | --- | --- |
@@ -30,7 +30,7 @@ _Learn a Language_: Whenever you put a rank into this skill, you learn to speak 
 - Aquan (aquatic creatures, water-based creatures)
 - Auran (flying creatures, air-based creatures)
 - Celestial (angels and other good outsiders)
-- Common (humans and the core races from [Races](../races.html))
+- Common (humans and the core races from [Races](../races.md))
 - Draconic (dragons, reptilian humanoids)
 - Druidic (druids only)
 - Dwarven (dwarves)

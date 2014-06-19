@@ -34,7 +34,7 @@ While it is said that dwarves are not venturesome or inventive, it would be more
 
 **Defensive Training** : Dwarves gain a +4 dodge bonus to AC against monsters of the giant subtype.
 
-**Greed** : Dwarves gain a +2 racial bonus on [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) checks made to determine the price of nonmagical goods that contain precious metals or gemstones.
+**Greed** : Dwarves gain a +2 racial bonus on [Appraise](skills/appraise.md#_appraise) checks made to determine the price of nonmagical goods that contain precious metals or gemstones.
 
 **Hatred** : Dwarves gain a +1 racial bonus on attack rolls against humanoid creatures of the orc and goblinoid subtypes because of their special training against these hated foes.
 
@@ -42,7 +42,7 @@ While it is said that dwarves are not venturesome or inventive, it would be more
 
 **Stability** : Dwarves gain a +4 racial bonus to their Combat Maneuver Defense when resisting a bull rush or trip attempt while standing on the ground.
 
-**Stonecunning** : Dwarves gain a +2 bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks to notice unusual stonework, such as traps and hidden doors located in stone walls or floors. They receive a check to notice such features whenever they pass within 10 feet of them, whether or not they are actively looking.
+**Stonecunning** : Dwarves gain a +2 bonus on [Perception](skills/perception.md#_perception) checks to notice unusual stonework, such as traps and hidden doors located in stone walls or floors. They receive a check to notice such features whenever they pass within 10 feet of them, whether or not they are actively looking.
 
 **Weapon Familiarity** : Dwarves are proficient with battleaxes, heavy picks, and warhammers, and treat any weapon with the word "dwarven" in its name as a martial weapon.
 
@@ -58,27 +58,27 @@ The following racial traits may be selected instead of the standard dwarf racial
 
 **Ancient Enmity** : Dwarves have long been in conflict with elves, especially the hated drow. Dwarves with this racial trait receive a +1 racial bonus on attack rolls against humanoid creatures of the elf subtype. This racial trait replaces hatred.
 
-**Craftsman** : Dwarves are known for their superior craftsmanship when it comes to metallurgy and stonework. Dwarves with this racial trait receive a +2 racial bonus on all [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) or [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) checks related to metal or stone. This racial trait replaces greed.
+**Craftsman** : Dwarves are known for their superior craftsmanship when it comes to metallurgy and stonework. Dwarves with this racial trait receive a +2 racial bonus on all [Craft](skills/craft.md#_craft) or [Profession](skills/profession.md#_profession) checks related to metal or stone. This racial trait replaces greed.
 
 **Deep Warrior** : Dwarves with this racial trait grew up facing the abominations that live deep beneath the surface. They receive a +2 dodge bonus to AC against monsters of the aberration type and a +2 racial bonus on combat maneuver checks made to grapple such creatures (or to continue a grapple). This racial trait replaces defensive training.
 
-**Giant Hunter** : Dwarves with this racial trait gain a +1 bonus on attack rolls against humanoids with the giant subtype. Furthermore, they gain a +2 bonus on [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) checks to find and follow tracks made by humanoids with the giant subtype. This racial trait replaces the hatred racial trait.
+**Giant Hunter** : Dwarves with this racial trait gain a +1 bonus on attack rolls against humanoids with the giant subtype. Furthermore, they gain a +2 bonus on [Survival](skills/survival.md#_survival) checks to find and follow tracks made by humanoids with the giant subtype. This racial trait replaces the hatred racial trait.
 
-**Lorekeeper** : Dwarves keep extensive records about their history and the world around them. Dwarves with this racial trait receive a +2 racial bonus on [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) checks that pertain to dwarves or their enemies. They can make such skill checks untrained. This racial trait replaces greed.
+**Lorekeeper** : Dwarves keep extensive records about their history and the world around them. Dwarves with this racial trait receive a +2 racial bonus on [Knowledge](skills/knowledge.md#_knowledge) (history) checks that pertain to dwarves or their enemies. They can make such skill checks untrained. This racial trait replaces greed.
 
 **Magic Resistant** : Some of the older dwarven clans are particularly resistant to magic. Dwarves with this racial trait gain spell resistance equal to 5 + their character level. This resistance can be lowered for 1 round as a standard action. Dwarves with this racial trait take a –2 penalty on all concentration checks made in relation to arcane spells. This racial trait replaces hardy.
 
 **Minesight** : Dwarves with this racial trait increase the range of their darkvision to 90 feet; however, they are automatically dazzled in bright light and take a –2 penalty on saving throws against effects with the light descriptor. This racial trait replaces darkvision.
 
-**Mountaineer** : Mountain dwarves are skilled at climbing and navigating narrow ledges. Dwarves with this racial trait are immune to altitude sickness and do not lose their Dexterity bonus to AC when making [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) or [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) checks to cross narrow or slippery surfaces. This racial trait replaces stability.
+**Mountaineer** : Mountain dwarves are skilled at climbing and navigating narrow ledges. Dwarves with this racial trait are immune to altitude sickness and do not lose their Dexterity bonus to AC when making [Climb](skills/climb.md#_climb) or [Acrobatics](skills/acrobatics.md#_acrobatics) checks to cross narrow or slippery surfaces. This racial trait replaces stability.
 
 **Relentless** : Dwarves are skilled at pushing their way through a battlefield, tossing aside lesser foes with ease. Dwarves with this racial trait receive a +2 bonus on combat maneuver checks made to bull rush or overrun an opponent. This bonus only applies while both the dwarf and his opponent are standing on the ground. This racial trait replaces stability.
 
 **Rock Stepper** : Dwarves with this racial trait can skillfully negotiate rocky terrain. They can ignore difficult terrain created by rubble, broken ground, or steep stairs when they take a 5-foot step. This racial trait replaces stonecunning.
 
-**Saltbeard** : Dwarves occasionally found iron cities along rugged seacoasts, and natives of such cities gain a +2 bonus on [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (sailor) and [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) checks while at sea. They gain a +1 racial bonus on attack rolls and a +2 dodge bonus to AC against creatures with the aquatic or water subtype. Their greed racial trait applies only to treasure found in or under the water, but applies to all such treasure regardless of whether or not it contains metal or gemstones. This racial trait replaces defensive training, hatred, and stonecunning.
+**Saltbeard** : Dwarves occasionally found iron cities along rugged seacoasts, and natives of such cities gain a +2 bonus on [Profession](skills/profession.md#_profession) (sailor) and [Survival](skills/survival.md#_survival) checks while at sea. They gain a +1 racial bonus on attack rolls and a +2 dodge bonus to AC against creatures with the aquatic or water subtype. Their greed racial trait applies only to treasure found in or under the water, but applies to all such treasure regardless of whether or not it contains metal or gemstones. This racial trait replaces defensive training, hatred, and stonecunning.
 
-**Sky Sentinel** : As creatures with a deep affinity for the ground, dwarves are wary of attacks from above. Enemies on higher ground gain no attack roll bonus against dwarves with this racial trait, and they gain a +1 racial bonus on attack rolls, a +2 dodge bonus to AC, and a +2 bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks against flying creatures. This racial trait replaces defensive training, hatred, and stonecunning.
+**Sky Sentinel** : As creatures with a deep affinity for the ground, dwarves are wary of attacks from above. Enemies on higher ground gain no attack roll bonus against dwarves with this racial trait, and they gain a +1 racial bonus on attack rolls, a +2 dodge bonus to AC, and a +2 bonus on [Perception](skills/perception.md#_perception) checks against flying creatures. This racial trait replaces defensive training, hatred, and stonecunning.
 
 **Stonesinger** : Some dwarves' affinity for the earth grants them greater powers. Dwarves with this racial trait are treated as one level higher when casting spells with the earth descriptor or using granted powers of the Earth domain, the bloodline powers of the earth elemental bloodline, and revelations of the oracle's stone mystery. This ability does not give them early access to level-based powers; it only affects the powers they could use without this ability. This racial trait replaces stonecunning.
 
@@ -86,9 +86,9 @@ The following racial traits may be selected instead of the standard dwarf racial
 
 **Surface Survivalist** : Some dwarves have dwelt so long aboveground they have lost their ability to see at night. However, their adaptation to extreme environments allows them to treat wind conditions (when determining whether or not they are checked or blown away) and either hot or cold climates (choose one) as one step less severe. This racial trait replaces darkvision.
 
-**Xenophobic** : Isolationist dwarves despise non-dwarven humanoids. They speak only Dwarven and do not gain any bonus languages from possessing a high Intelligence score. In addition, they learn only one language per 2 ranks of [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) they possess. However, their untrusting nature gives them a +1 bonus against mind-affecting effects, except for fear affects. This racial trait replaces a dwarf's normal languages.
+**Xenophobic** : Isolationist dwarves despise non-dwarven humanoids. They speak only Dwarven and do not gain any bonus languages from possessing a high Intelligence score. In addition, they learn only one language per 2 ranks of [Linguistics](skills/linguistics.md#_linguistics) they possess. However, their untrusting nature gives them a +1 bonus against mind-affecting effects, except for fear affects. This racial trait replaces a dwarf's normal languages.
 
-**Wyrmscourged** : Dwarves with this racial trait gain a +1 bonus on attack rolls and a +2 dodge bonus to AC and on saving throws against the exceptional, supernatural, and spell-like abilities of dragons. They also gain a +2 racial bonus on [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) checks to identify dragons and can make such checks untrained. This racial trait replaces defensive training, hatred, and stonecunning.
+**Wyrmscourged** : Dwarves with this racial trait gain a +1 bonus on attack rolls and a +2 dodge bonus to AC and on saving throws against the exceptional, supernatural, and spell-like abilities of dragons. They also gain a +2 racial bonus on [Knowledge](skills/knowledge.md#_knowledge) (arcana) checks to identify dragons and can make such checks untrained. This racial trait replaces defensive training, hatred, and stonecunning.
 
 ## Racial Subtypes
 
@@ -128,13 +128,13 @@ Instead of receiving an additional skill rank or hit point whenever they gain a 
 
 **Monk** : Reduce the Hardness of any object made of clay, stone, or metal by 1 whenever the object is struck by the monk's unarmed strike (minimum of 0).
 
-**Oracle** : Reduce the penalty for not being proficient with one weapon by 1. When the nonproficiency penalty for a weapon becomes 0 because of this ability, the oracle is treated as having the appropriate Martial or [Exotic Weapon Proficiency](/pathfinderRPG/prd/feats.html#_exotic-weapon-proficiency) feat with that weapon.
+**Oracle** : Reduce the penalty for not being proficient with one weapon by 1. When the nonproficiency penalty for a weapon becomes 0 because of this ability, the oracle is treated as having the appropriate Martial or [Exotic Weapon Proficiency](feats.md#_exotic-weapon-proficiency) feat with that weapon.
 
 **Paladin** : Add a +1 bonus on concentration checks when casting paladin spells.
 
 **Ranger** : Add a +1/2 bonus on wild empathy checks to influence animals and magical beasts that live underground.
 
-**Rogue** : Add a +1/2 bonus on [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) checks regarding stone traps and a +1/2 bonus to trap sense regarding stone traps.
+**Rogue** : Add a +1/2 bonus on [Disable Device](skills/disableDevice.md#_disable-device) checks regarding stone traps and a +1/2 bonus to trap sense regarding stone traps.
 
 **Sorcerer** : Add +1/2 to acid and earth spell or spell-like ability damage.
 
@@ -154,15 +154,15 @@ The gruff traditionalism of most dwarves finds its apex in those who adhere to a
 
 **Spells** : Exarchs cannot cast spells with the chaotic descriptor.
 
-**Inflexible Will (Ex)** : At 1st level, an exarch gains a +2 bonus on saving throws against _ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion) _and _ [insanity](/pathfinderRPG/prd/spells/insanity.html#_insanity) _effects and effects with the chaotic descriptor. This ability replaces monster lore.
+**Inflexible Will (Ex)** : At 1st level, an exarch gains a +2 bonus on saving throws against _ [confusion](spells/confusion.md#_confusion) _and _ [insanity](spells/insanity.md#_insanity) _effects and effects with the chaotic descriptor. This ability replaces monster lore.
 
-**_Detect Chaos (Sp)_** : At will, an exarch can use _ [detect chaos](/pathfinderRPG/prd/spells/detectChaos.html#_detect-chaos)_. This ability replaces detect alignment.
+**_Detect Chaos (Sp)_** : At will, an exarch can use _ [detect chaos](spells/detectChaos.md#_detect-chaos)_. This ability replaces detect alignment.
 
-**Fearsome Jurist (Su)** : At 5th level, an exarch can imbue one of her weapons with the _ [jurist](/pathfinderRPG/prd/advanced/magicItems/weapons.html#_jurist) _or _ [menacing](/pathfinderRPG/prd/advanced/magicItems/weapons.html#_menacing) _weapon special ability as a swift action, and may switch between these properties as a swift action. When using either special ability, her weapon's critical threat range doubles against chaotic creatures. This does not stack with _ [keen edge](/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge), _ [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical), or similar effects. This ability otherwise functions as and replaces bane.
+**Fearsome Jurist (Su)** : At 5th level, an exarch can imbue one of her weapons with the _ [jurist](advanced/magicItems/weapons.md#_jurist) _or _ [menacing](advanced/magicItems/weapons.md#_menacing) _weapon special ability as a swift action, and may switch between these properties as a swift action. When using either special ability, her weapon's critical threat range doubles against chaotic creatures. This does not stack with _ [keen edge](spells/keenEdge.md#_keen-edge), _ [Improved Critical](feats.md#_improved-critical), or similar effects. This ability otherwise functions as and replaces bane.
 
 **Aura of Repetition (Su)** : At 8th level, once per day while using her judgment, an exarch can project an aura of repetition, as the Toil subdomain power. If the exarch takes Artifice (Toil) as her domain, the save DC of her aura increases by 2 but its duration does not increase. This ability replaces her second judgment.
 
-**Double Jeopardy (Su)** : At 12th level, whenever an exarch uses her fearsome jurist ability, she may choose to affect two weapons, with one gaining the _ [jurist](/pathfinderRPG/prd/advanced/magicItems/weapons.html#_jurist) _weapon special ability and the other the _ [menacing](/pathfinderRPG/prd/advanced/magicItems/weapons.html#_menacing) _special ability as above. Both special abilities may be combined in a single weapon, whose critical threat range doubles. This does not stack with _ [keen edge](/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge)_, [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical), or similar effects. This ability replaces greater bane.
+**Double Jeopardy (Su)** : At 12th level, whenever an exarch uses her fearsome jurist ability, she may choose to affect two weapons, with one gaining the _ [jurist](advanced/magicItems/weapons.md#_jurist) _weapon special ability and the other the _ [menacing](advanced/magicItems/weapons.md#_menacing) _special ability as above. Both special abilities may be combined in a single weapon, whose critical threat range doubles. This does not stack with _ [keen edge](spells/keenEdge.md#_keen-edge)_, [Improved Critical](feats.md#_improved-critical), or similar effects. This ability replaces greater bane.
 
 **Aura of Reversion (Su)** : At 16th level, while using her judgment, an exarch can project a 30-foot-radius emanation for a number of rounds per day equal to her inquisitor level. Any creature other than the exarch that is using a transmutation effect within this aura at the beginning of its turn becomes sickened, or sickened and nauseated if using a polymorph effect, including the change shape ability (Fortitude negates; DC 10 + 1/2 the exarch's level + her Wisdom modifier). Continuous effects from permanent magical items do not cause this effect. Within the aura, dispel checks against transmutation effects gain a +4 bonus. This ability cannot be used simultaneously with aura of repetition. This ability replaces her third judgment.
 
@@ -184,7 +184,7 @@ At 15th level, any creature a foehammer successfully bull rushes is automaticall
 
 **Ground Breaker (Ex)** : At 13th level, as a full-round action, a foehammer may strike the ground with his hammer. If the attack deals more damage than the floor's hardness, the space he occupies and all adjacent squares become difficult terrain. Creatures in those squares, except for the foehammer, are knocked prone (DC 15 Reflex negates). This ability replaces weapon training 3.
 
-**Hammer Master (Ex)** : At 17th level, any combat feats a foehammer has learned with any weapon from the hammer weapon training group (e.g., [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus)) apply to all weapons from that group. This ability replaces weapon training 4.
+**Hammer Master (Ex)** : At 17th level, any combat feats a foehammer has learned with any weapon from the hammer weapon training group (e.g., [Improved Critical](feats.md#_improved-critical), [Weapon Focus](feats.md#_weapon-focus)) apply to all weapons from that group. This ability replaces weapon training 4.
 
 **Devastating Blow (Ex)** : At 19th level, as a standard action, a foehammer may make a single melee attack with a weapon from the hammer weapon training group at a –5 penalty. If the attack hits, it is treated as a critical threat. Weapon special abilities that only activate on a critical hit do not activate if this critical hit is confirmed. This ability replaces armor mastery.
 
@@ -196,43 +196,43 @@ Forgemasters are priestly dwarves who are ritual casters and expert enchanters, 
 
 **Artificer** : A forgemaster gains only one domain, which must be the Artifice domain (not including subdomains). If she worships a deity, it must grant the Artifice domain.
 
-**Steel Spells** : A forgemaster adds the following spells to her spell list: 1st—_ [crafter's curse](/pathfinderRPG/prd/advanced/spells/crafterSCurse.html#_crafter's-curse), [crafter's fortune](/pathfinderRPG/prd/advanced/spells/crafterSFortune.html#_crafter's-fortune), [lead blades](/pathfinderRPG/prd/advanced/spells/leadBlades.html#_lead-blades-)_; 2nd—_ [chill metal](/pathfinderRPG/prd/spells/chillMetal.html#_chill-metal), [heat metal](/pathfinderRPG/prd/spells/heatMetal.html#_heat-metal), [shatter](/pathfinderRPG/prd/spells/shatter.html#_shatter)_; 3rd—_ [keen edge](/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge), [versatile weapon](/pathfinderRPG/prd/advanced/spells/versatileWeapon.html#_versatile-weapon)_; 8th—_ [iron body](/pathfinderRPG/prd/spells/ironBody.html#_iron-body), [repel metal or stone](/pathfinderRPG/prd/spells/repelMetalOrStone.html#_repel-metal-or-stone)_.
+**Steel Spells** : A forgemaster adds the following spells to her spell list: 1st—_ [crafter's curse](advanced/spells/crafterSCurse.md#_crafter's-curse), [crafter's fortune](advanced/spells/crafterSFortune.md#_crafter's-fortune), [lead blades](advanced/spells/leadBlades.md#_lead-blades-)_; 2nd—_ [chill metal](spells/chillMetal.md#_chill-metal), [heat metal](spells/heatMetal.md#_heat-metal), [shatter](spells/shatter.md#_shatter)_; 3rd—_ [keen edge](spells/keenEdge.md#_keen-edge), [versatile weapon](advanced/spells/versatileWeapon.md#_versatile-weapon)_; 8th—_ [iron body](spells/ironBody.md#_iron-body), [repel metal or stone](spells/repelMetalOrStone.md#_repel-metal-or-stone)_.
 
 **Divine Smith (Su)** : Whenever a forgemaster casts a spell that targets a weapon, shield, or armor, the spell takes effect at +1 caster level. If the spell has one or more metamagic feats applied, she reduces the total level adjustment to the spell by 1 (minimum 0).
 
-**Runeforger (Su)** : A forgemaster may inscribe mystical runes upon a suit of armor, shield, or weapon as full-round action, using this ability a number of times per day equal to 3 + her Intelligence modifier. These runes last 1 round per cleric level, but inscribing the same rune twice on an item increases this duration to 1 minute per level, three times to 10 minutes per level, and four times to 1 hour per level. _ [Erase](/pathfinderRPG/prd/spells/erase.html#_erase) _affects runes as magical writing. A forgemaster learns forgemaster's blessing at 1st level and may learn one additional rune at 2nd level and every 2 levels thereafter. Only one type of rune marked with an asterisk () may be placed on an item at any given time. This ability replaces channel energy.
+**Runeforger (Su)** : A forgemaster may inscribe mystical runes upon a suit of armor, shield, or weapon as full-round action, using this ability a number of times per day equal to 3 + her Intelligence modifier. These runes last 1 round per cleric level, but inscribing the same rune twice on an item increases this duration to 1 minute per level, three times to 10 minutes per level, and four times to 1 hour per level. _ [Erase](spells/erase.md#_erase) _affects runes as magical writing. A forgemaster learns forgemaster's blessing at 1st level and may learn one additional rune at 2nd level and every 2 levels thereafter. Only one type of rune marked with an asterisk () may be placed on an item at any given time. This ability replaces channel energy.
 
-> _Ancient Splendor_: The inscribed weapon, armor, or shield grants a +2 circumstance bonus on [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) and [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks (+4 when interacting with dwarves).
+> _Ancient Splendor_: The inscribed weapon, armor, or shield grants a +2 circumstance bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) and [Intimidate](skills/intimidate.md#_intimidate) checks (+4 when interacting with dwarves).
 > 
-> _Bloodthirst_: The inscribed piercing or slashing weapon functions as if it had the _ [wounding](/pathfinderRPG/prd/magicItems/weapons.html#_wounding) _special ability, even if nonmagical. The forgemaster must be at least 4th level before learning this rune.
+> _Bloodthirst_: The inscribed piercing or slashing weapon functions as if it had the _ [wounding](magicItems/weapons.md#_wounding) _special ability, even if nonmagical. The forgemaster must be at least 4th level before learning this rune.
 > 
-> _Deathstrike_: The inscribed weapon stores a _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell) _spell that triggers immediately if a blow from the weapon reduces a target to negative hit points. This expends all deathstrike runes on the weapon. The forgemaster must be at least 4th level before learning this rune.
+> _Deathstrike_: The inscribed weapon stores a _ [death knell](spells/deathKnell.md#_death-knell) _spell that triggers immediately if a blow from the weapon reduces a target to negative hit points. This expends all deathstrike runes on the weapon. The forgemaster must be at least 4th level before learning this rune.
 > 
 > _Durability_: The inscribed item's hardness increases by an amount equal to the forgemaster's Wisdom modifier, and its hit points increase by an amount equal to twice her level.
 > 
-> _Featherlight_: The inscribed item's weight is halved; a metal item's weight is reduced to 1/4 normal. If inscribed on a suit of armor, its armor check penalty for [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb), and Jump checks is halved.
+> _Featherlight_: The inscribed item's weight is halved; a metal item's weight is reduced to 1/4 normal. If inscribed on a suit of armor, its armor check penalty for [Acrobatics](skills/acrobatics.md#_acrobatics), [Climb](skills/climb.md#_climb), and Jump checks is halved.
 > 
 > _Forgemaster's Blessing_: The inscribed nonmagical item functions as a masterwork item.
 > 
-> _Ghostglyph_: The inscribed weapon, shield, or armor gains the _ [ghost touch](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch) _special ability. The forgemaster must be at least 4th level before learning this rune.
+> _Ghostglyph_: The inscribed weapon, shield, or armor gains the _ [ghost touch](magicItems/weapons.md#_weapons-ghost-touch) _special ability. The forgemaster must be at least 4th level before learning this rune.
 > 
-> _Glowglyph_: The inscribed item sheds light as a torch. As a standard action, the bearer can command the rune to erupt in a burst of light as a shield with the _ [blinding](/pathfinderRPG/prd/magicItems/armor.html#_armor-blinding) _special ability with a burst radius of 5 feet per glowglyph rune inscribed on the item. This expends all glowglyph runes on the item.
+> _Glowglyph_: The inscribed item sheds light as a torch. As a standard action, the bearer can command the rune to erupt in a burst of light as a shield with the _ [blinding](magicItems/armor.md#_armor-blinding) _special ability with a burst radius of 5 feet per glowglyph rune inscribed on the item. This expends all glowglyph runes on the item.
 > 
-> _ [Invulnerability](/pathfinderRPG/prd/magicItems/armor.html#_armor-invulnerability)_: The inscribed armor grants its wearer DR/magic equal to 1/2 her cleric level. The forgemaster must be at least 8th level before learning this rune.
+> _ [Invulnerability](magicItems/armor.md#_armor-invulnerability)_: The inscribed armor grants its wearer DR/magic equal to 1/2 her cleric level. The forgemaster must be at least 8th level before learning this rune.
 > 
-> _Powerstrike_: The inscribed weapon's critical threat range doubles. This does not stack with _ [keen edge](/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge), _ [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical), or similar effects. The forgemaster must be at least 6th level before learning this rune.
+> _Powerstrike_: The inscribed weapon's critical threat range doubles. This does not stack with _ [keen edge](spells/keenEdge.md#_keen-edge), _ [Improved Critical](feats.md#_improved-critical), or similar effects. The forgemaster must be at least 6th level before learning this rune.
 > 
-> _Return_: The inscribed weapon gains the _ [returning](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning) _weapon special ability. The forgemaster must be at least 4th level before learning this rune.
+> _Return_: The inscribed weapon gains the _ [returning](magicItems/weapons.md#_weapons-returning) _weapon special ability. The forgemaster must be at least 4th level before learning this rune.
 > 
 > _Spellguard_: The inscribed item gains spell resistance equal to 11 + her cleric level. This applies only to effects targeting the item itself.
 > 
-> _Spellglyph_: The inscribed weapon gains the _ [spell storing](/pathfinderRPG/prd/magicItems/weapons.html#_spell-storing) _special ability. The forgemaster must be at least 4th level before learning this rune.
+> _Spellglyph_: The inscribed weapon gains the _ [spell storing](magicItems/weapons.md#_spell-storing) _special ability. The forgemaster must be at least 4th level before learning this rune.
 > 
-> _Thief-Curse_: The forgemaster designates one creature as the rightful owner of an item. Any other creature that intentionally grasps the item is cursed (as _ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_) for the duration of the rune. The forgemaster must be at least 6th level before learning this rune.
+> _Thief-Curse_: The forgemaster designates one creature as the rightful owner of an item. Any other creature that intentionally grasps the item is cursed (as _ [bestow curse](spells/bestowCurse.md#_bestow-curse)_) for the duration of the rune. The forgemaster must be at least 6th level before learning this rune.
 > 
-> _Tracer_: For as long as the rune lasts, the cleric may sense its location at will as a standard action, as if using _ [locate object](/pathfinderRPG/prd/spells/locateObject.html#_locate-object). _
+> _Tracer_: For as long as the rune lasts, the cleric may sense its location at will as a standard action, as if using _ [locate object](spells/locateObject.md#_locate-object). _
 
-**[Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor)** : The forgemaster gains this as a bonus feat at 3rd level.
+**[Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor)** : The forgemaster gains this as a bonus feat at 3rd level.
 
 **Master Smith (Ex)** : At 5th level, a forgemaster can craft mundane metal items quickly, using half their gp value to determine progress, and can craft magical metal items in half the normal amount of time.
 
@@ -244,17 +244,17 @@ A stonelord is a devoted sentinel of dwarven enclaves, drawing the power of the 
 
 **Heartstone (Ex)** : At 2nd level, a stonelord's flesh becomes progressively rockier. She gains a +1 natural armor bonus to AC and DR/adamantine equal to 1/2 her paladin level. The natural armor bonus increases by +1 at 6th level, and every four levels thereafter, to a maximum of +5 at 18th level. These benefits are halved when not touching the ground or a stone structure. This ability replaces divine grace.
 
-**Stoneblood (Ex)** : At 3rd level, a stonelord's vitals begin to calcify and her blood transforms into liquid stone. She adds her paladin level on checks to stabilize at negative hit points and gains a 25% chance to ignore a critical hit or precision damage. This does not stack with _ [fortification](/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification) _armor or similar effects. At 9th level, this chance increases to 50% and she becomes immune to petrification. At 15th level, this chance increases to 75% and she becomes immune to bleed and blood drain effects. This ability replaces divine health and her mercies gained at 3rd, 9th, and 15th level.
+**Stoneblood (Ex)** : At 3rd level, a stonelord's vitals begin to calcify and her blood transforms into liquid stone. She adds her paladin level on checks to stabilize at negative hit points and gains a 25% chance to ignore a critical hit or precision damage. This does not stack with _ [fortification](magicItems/armor.md#_armor-fortification) _armor or similar effects. At 9th level, this chance increases to 50% and she becomes immune to petrification. At 15th level, this chance increases to 75% and she becomes immune to bleed and blood drain effects. This ability replaces divine health and her mercies gained at 3rd, 9th, and 15th level.
 
 **Defensive Stance (Ex)** : At 4th level, a stonelord gains the defensive stance ability, as a stalwart defender (_Advanced Player's Guide _277), and may select one defensive power at 8th level and every four levels thereafter. Levels of stalwart defender stack with her paladin levels when determining the total number of rounds that she can maintain her defensive stance per day. A stonelord does not gain any spells or spellcasting abilities, does not have a caster level, and cannot use spell trigger or spell completion magic items.
 
-**Earth Channel (Su)** : At 4th level, a stonelord gains [Elemental Channel](/pathfinderRPG/prd/feats.html#_elemental-channel) (earth) as a bonus feat, which she may activate by spending two uses of her lay on hands ability, using her paladin level as her effective cleric level. This ability replaces channel positive energy.
+**Earth Channel (Su)** : At 4th level, a stonelord gains [Elemental Channel](feats.md#_elemental-channel) (earth) as a bonus feat, which she may activate by spending two uses of her lay on hands ability, using her paladin level as her effective cleric level. This ability replaces channel positive energy.
 
 **Stone Servant (Su)** : At 5th level, a stonelord may call a Small earth elemental to her side, as a paladin calls her mount. This earth elemental is Lawful Good in alignment and possesses the celestial template, and it increases in size as the stonelord gains levels, becoming Medium at 8th level, Large at 11th level, Huge at 14th level, Greater at 17th level, and Elder at 20th level. This ability replaces divine bond.
 
-**Stonebane (Su)** : At 11th level, when using stonestrike, a stonelord's attack gains the _ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_ weapon special ability against creatures with the earth subtype and constructs or objects made of earth or stone. This ability replaces aura of justice.
+**Stonebane (Su)** : At 11th level, when using stonestrike, a stonelord's attack gains the _ [bane](magicItems/weapons.md#_weapons-bane)_ weapon special ability against creatures with the earth subtype and constructs or objects made of earth or stone. This ability replaces aura of justice.
 
-**Phase Strike (Su)** : At 12th level, a stonelord's stonestrike may pass through stone and metal as if they weren't there. By spending 2 uses of her stonestrike ability, she may ignore any cover less than total cover provided by stone or metal, and she ignores any AC bonus from stone or metal armor or shields as if wielding a _ [brilliant energy](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-brilliant-energy)_ weapon. A phase strike cannot damage constructs, objects, or creatures with the earth subtype, but unlike a _ [brilliant energy](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-brilliant-energy)_ weapon, it can harm undead. This ability replaces her 12th-level mercy.
+**Phase Strike (Su)** : At 12th level, a stonelord's stonestrike may pass through stone and metal as if they weren't there. By spending 2 uses of her stonestrike ability, she may ignore any cover less than total cover provided by stone or metal, and she ignores any AC bonus from stone or metal armor or shields as if wielding a _ [brilliant energy](magicItems/weapons.md#_weapons-brilliant-energy)_ weapon. A phase strike cannot damage constructs, objects, or creatures with the earth subtype, but unlike a _ [brilliant energy](magicItems/weapons.md#_weapons-brilliant-energy)_ weapon, it can harm undead. This ability replaces her 12th-level mercy.
 
 **Mobile Defense (Ex)** : At 18th level, a stonelord can make one 5-foot step per round while maintaining her defensive stance. This ability replaces her 18th-level mercy.
 
@@ -295,15 +295,15 @@ Over their long history, dwarves have faced many enemies from both above and bel
 
 You can concoct potent brews.
 
-**Prerequisites** : [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) 1 rank, [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (brewer) 1 rank, dwarf.
+**Prerequisites** : [Craft](skills/craft.md#_craft) (alchemy) 1 rank, [Profession](skills/profession.md#_profession) (brewer) 1 rank, dwarf.
 
-**Benefit** : You gain a +2 bonus on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) and [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (brewer) checks, and you add +1 to the DC of any ingested poison you create.
+**Benefit** : You gain a +2 bonus on [Craft](skills/craft.md#_craft) (alchemy) and [Profession](skills/profession.md#_profession) (brewer) checks, and you add +1 to the DC of any ingested poison you create.
 
 ### Cleave Through (Combat)
 
 You are ferocious at hewing smaller opponents.
 
-**Prerequisites** : Str 13, Cleave, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), base attack bonus +11, dwarf.
+**Prerequisites** : Str 13, Cleave, [Power Attack](feats.md#_power-attack), base attack bonus +11, dwarf.
 
 **Benefit** : When using Cleave or Great Cleave, if your initial attack hits, you may take a single 5-foot step as a free action before making your additional attacks. If doing so places a creature within your threatened area, that creature becomes a legal target for your additional Cleave attack(s) as long as it meets all the other prerequisites.
 
@@ -329,7 +329,7 @@ Your helm protects you from hard hits.
 
 Your cleaving strokes menace giants and larger foes.
 
-**Prerequisites** : Str 13, Cleave, Goblin Cleaver, Orc Hewer, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Strike Back](/pathfinderRPG/prd/feats.html#_strike-back), base attack bonus +11, dwarf.
+**Prerequisites** : Str 13, Cleave, Goblin Cleaver, Orc Hewer, [Power Attack](feats.md#_power-attack), [Strike Back](feats.md#_strike-back), base attack bonus +11, dwarf.
 
 **Benefit** : This functions as Goblin Cleaver, but your additional attacks can be made against creatures one size category larger than you or smaller. In addition, any such attacks made against humanoids (giant) gain a +2 circumstance bonus on attack rolls.
 
@@ -337,7 +337,7 @@ Your cleaving strokes menace giants and larger foes.
 
 You are ferocious at hewing smaller opponents.
 
-**Prerequisites** : Str 13, Cleave, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), dwarf.
+**Prerequisites** : Str 13, Cleave, [Power Attack](feats.md#_power-attack), dwarf.
 
 **Benefit** : When using Cleave or Great Cleave, if your initial attack hits, you may take your additional attacks against any creature smaller than you that you threaten; your targets need not be adjacent to one another. Additional attacks you make against humanoids (goblinoid) gain a +2 circumstance bonus on attack rolls.
 
@@ -355,13 +355,13 @@ You negotiate tiny ledges like a mountain goat.
 
 **Prerequisites** : Dex 13, dwarf, mountaineer or stability racial trait.
 
-**Benefit** : You can move at full speed while using [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) to balance on narrow surfaces, and you gain a +4 bonus on [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks to catch yourself or another creature while falling. You also gain a +4 bonus on saving throws against effects that would cause you to fall prone (such as earthquakes). This bonus does not apply to your CMD against bull rush or trip attacks.
+**Benefit** : You can move at full speed while using [Acrobatics](skills/acrobatics.md#_acrobatics) to balance on narrow surfaces, and you gain a +4 bonus on [Climb](skills/climb.md#_climb) checks to catch yourself or another creature while falling. You also gain a +4 bonus on saving throws against effects that would cause you to fall prone (such as earthquakes). This bonus does not apply to your CMD against bull rush or trip attacks.
 
 ### Orc Hewer (Combat)
 
 You are ferocious at hewing your enemies, especially orcs.
 
-**Prerequisites** : Str 13, Cleave, Goblin Cleaver, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), dwarf.
+**Prerequisites** : Str 13, Cleave, Goblin Cleaver, [Power Attack](feats.md#_power-attack), dwarf.
 
 **Benefit** : This feat functions as Goblin Cleaver, but your additional attacks can be made against creatures your size or smaller. In addition, any such attacks that you make against humanoids (orc) gain a +2 circumstance bonus on attack rolls.
 
@@ -369,7 +369,7 @@ You are ferocious at hewing your enemies, especially orcs.
 
 Your mighty blows shatter your enemy's magic.
 
-**Prerequisites** : [Disruptive](/pathfinderRPG/prd/feats.html#_disruptive), Spellbreaker, dwarf, 10th-level fighter.
+**Prerequisites** : [Disruptive](feats.md#_disruptive), Spellbreaker, dwarf, 10th-level fighter.
 
 **Benefit** : As a standard action, you can attempt to sunder an ongoing spell effect as if you had the spell sunder rage power (_Ultimate Combat_ 28). You may use this feat once per day, plus one additional time per day for every 5 points by which your base attack bonus exceeds +10.
 
@@ -393,11 +393,11 @@ Elixir of Darksight
 
 Description
 
-This dark, syrupy draught doubles the range of the drinker's darkvision and also enables her to see through _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_ when using darkvision. The effects last for 1 hour.
+This dark, syrupy draught doubles the range of the drinker's darkvision and also enables her to see through _ [deeper darkness](spells/deeperDarkness.md#_deeper-darkness)_ when using darkvision. The effects last for 1 hour.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [darkvision](/pathfinderRPG/prd/spells/darkvision.html#_darkvision), [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_; **Cost** 600 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [darkvision](spells/darkvision.md#_darkvision), [deeper darkness](spells/deeperDarkness.md#_deeper-darkness)_; **Cost** 600 gp
 
 Rod of Dwarven Might
 
@@ -407,16 +407,16 @@ Rod of Dwarven Might
 
 Description
 
-This dwarven version of the more famous _ [rod of lordly might](/pathfinderRPG/prd/magicItems/rods.html#_rod-of-lordly-might) _has no spell-like powers; however, when wielded by a dwarf, it increases all AC, attack roll, CMD, CMB, and saving throw bonuses from a dwarf's racial traits by +1. The rod shares the mundane powers of a _ [rod of lordly might](/pathfinderRPG/prd/magicItems/rods.html#_rod-of-lordly-might)_, but its magical weapon forms are tailored to dwarven preferences.
+This dwarven version of the more famous _ [rod of lordly might](magicItems/rods.md#_rod-of-lordly-might) _has no spell-like powers; however, when wielded by a dwarf, it increases all AC, attack roll, CMD, CMB, and saving throw bonuses from a dwarf's racial traits by +1. The rod shares the mundane powers of a _ [rod of lordly might](magicItems/rods.md#_rod-of-lordly-might)_, but its magical weapon forms are tailored to dwarven preferences.
 
-- In its normal form, the rod can be used as a _+1 [returning](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning) [light](/pathfinderRPG/prd/spells/light.html#_light) hammer._
+- In its normal form, the rod can be used as a _+1 [returning](magicItems/weapons.md#_weapons-returning) [light](spells/light.md#_light) hammer._
 - When button 1 is pushed, the rod becomes a _+3 dwarven longhammer. _
 - When button 2 is pushed, the rod becomes a _+4 dwarven waraxe. _
-- When button 3 is pushed, the rod becomes a _+2 [light](/pathfinderRPG/prd/spells/light.html#_light) crossbow _or _+2 heavy crossbow_. 
+- When button 3 is pushed, the rod becomes a _+2 [light](spells/light.md#_light) crossbow _or _+2 heavy crossbow_. 
 
 Construction
 
-**Requirements** [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), [Craft Rod](/pathfinderRPG/prd/feats.html#_craft-rod), _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength), [telekinesis](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis)_, creator must be a dwarf; **Cost** 40,000 gp
+**Requirements** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), [Craft Rod](feats.md#_craft-rod), _ [bull's strength](spells/bullSStrength.md#_bull-s-strength), [telekinesis](spells/telekinesis.md#_telekinesis)_, creator must be a dwarf; **Cost** 40,000 gp
 
 ## Dwarven Spells
 

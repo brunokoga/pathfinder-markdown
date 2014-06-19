@@ -12,5 +12,5 @@ Disguise Other
 
 **Duration** 10 minute/level (D)
 
-This spell functions as _ [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_, except you can disguise either yourself or another creature.
+This spell functions as _ [disguise self](spells/disguiseSelf.md#_disguise-self)_, except you can disguise either yourself or another creature.
 

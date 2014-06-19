@@ -6,9 +6,9 @@ _This squat, reptilian monster has eight legs, bony spurs jutting from its back,
 
 **XP 1,600**
 
-N Medium [magical beast](creatureTypes.html#_magical-beast)
+N Medium [magical beast](creatureTypes.md#_magical-beast)
 
-**Init** –1; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.html#_perception) +10
+**Init** –1; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) +10
 
 **Defense**
 
@@ -24,7 +24,7 @@ N Medium [magical beast](creatureTypes.html#_magical-beast)
 
 **Melee** bite +10 (1d8+4)
 
-**Special Attacks** [gaze](universalMonsterRules.html#_gaze)
+**Special Attacks** [gaze](universalMonsterRules.md#_gaze)
 
 **Statistics**
 
@@ -32,9 +32,9 @@ N Medium [magical beast](creatureTypes.html#_magical-beast)
 
 **Base**  **Atk** +7; **CMB** +10; **CMD** 19 (31 vs. trip)
 
-**Feats** [Blind-Fight](../feats.html#_blind-fight), [Great Fortitude](../feats.html#_great-fortitude), [Iron Will](../feats.html#_iron-will), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
+**Feats** [Blind-Fight](../feats.md#_blind-fight), [Great Fortitude](../feats.md#_great-fortitude), [Iron Will](../feats.md#_iron-will), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
 
-**Skills** [Perception](../skills/perception.html#_perception) +10, [Stealth](../skills/stealth.html#_stealth) +10; **Racial Modifiers** +4 [Stealth](../skills/stealth.html#_stealth)
+**Skills** [Perception](../skills/perception.md#_perception) +10, [Stealth](../skills/stealth.md#_stealth) +10; **Racial Modifiers** +4 [Stealth](../skills/stealth.md#_stealth)
 
 **Ecology**
 
@@ -46,9 +46,9 @@ N Medium [magical beast](creatureTypes.html#_magical-beast)
 
 **Special Abilities**
 
-**Gaze (Ex)** Turn to stone permanently (as _ [flesh to stone](../spells/fleshToStone.html#_flesh-to-stone)_), range 30 feet, Fortitude DC 15 negates. A creature petrified in this matter that is then coated (not just splashed) with fresh basilisk blood (taken from a basilisk no more than 1 hour dead) is instantly restored to flesh. A single basilisk contains enough blood to coat 1d3 Medium creatures in this manner. The save DC is Constitution-based.
+**Gaze (Ex)** Turn to stone permanently (as _ [flesh to stone](../spells/fleshToStone.md#_flesh-to-stone)_), range 30 feet, Fortitude DC 15 negates. A creature petrified in this matter that is then coated (not just splashed) with fresh basilisk blood (taken from a basilisk no more than 1 hour dead) is instantly restored to flesh. A single basilisk contains enough blood to coat 1d3 Medium creatures in this manner. The save DC is Constitution-based.
 
-The basilisk, often called the âKing of Serpents,â is in fact not a serpent at all, but rather an eight-legged reptile with a nasty disposition and the ability to turn creatures to stone with its gaze. Folklore holds that, much like the cockatrice, the first basilisks hatched from eggs laid by snakes and incubated by roosters, but little in the basilisk's physiology lends any credence to this claim.
+The basilisk, often called the “King of Serpents,” is in fact not a serpent at all, but rather an eight-legged reptile with a nasty disposition and the ability to turn creatures to stone with its gaze. Folklore holds that, much like the cockatrice, the first basilisks hatched from eggs laid by snakes and incubated by roosters, but little in the basilisk's physiology lends any credence to this claim.
 
 Basilisks live in nearly any terrestrial environment, from forest to desert, and their hides tend to match and reflect their surroundings—a desert-dwelling basilisk might be tan or brown, while one that lives in a forest could be bright green. They tend to make their lairs in caves, burrows, or other sheltered areas, and these dens are often marked by statues of people and animals in lifelike poses—the petrified remains of those unfortunate enough to stumble across the basilisk.
 

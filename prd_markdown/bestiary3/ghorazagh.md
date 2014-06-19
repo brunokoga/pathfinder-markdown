@@ -8,7 +8,7 @@ XP 25,600
 
 NE Large aberration
 
-**Init** +3; **Senses** bloodsense, darkvision 30 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +21
+**Init** +3; **Senses** bloodsense, darkvision 30 ft.; [Perception](skills/perception.md#_perception) +21
 
 Defense
 
@@ -24,11 +24,11 @@ Offense
 
 **Speed** 40 ft., climb 40 ft., fly 40 ft. (perfect)
 
-**Melee** bite +16 (2d6+6), 2 claws +16 (1d8+6), 4 tentacles +14 (1d6+3 and [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +16 (2d6+6), 2 claws +16 (1d8+6), 4 tentacles +14 (1d6+3 and [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [blood drain](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blood-drain) (1d4 Con), bloodspray
+**Special Attacks** [blood drain](monsters/universalMonsterRules.md#_blood-drain) (1d4 Con), bloodspray
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +11; **CMB** +18; **CMD** 31
 
-**Feats** [Bleeding Critical](/pathfinderRPG/prd/feats.html#_bleeding-critical), [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), Improved Bull Rush, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack)
+**Feats** [Bleeding Critical](feats.md#_bleeding-critical), [Critical Focus](feats.md#_critical-focus), [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Great Fortitude](feats.md#_great-fortitude), Improved Bull Rush, [Lightning Reflexes](feats.md#_lightning-reflexes), [Multiattack](monsters/monsterFeats.md#_multiattack), [Power Attack](feats.md#_power-attack)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +18, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +14, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +27, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (dungeoneering) +17, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +21, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +17, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +21
+**Skills** [Bluff](skills/bluff.md#_bluff) +18, [Climb](skills/climb.md#_climb) +14, [Fly](skills/fly.md#_fly) +27, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering) +17, [Perception](skills/perception.md#_perception) +21, [Stealth](skills/stealth.md#_stealth) +17, [Survival](skills/survival.md#_survival) +21
 
 **Languages** Aklo; chemical communication
 
@@ -52,9 +52,9 @@ Ecology
 
 Special Abilities
 
-**Bloodsense (Su)** A ghorazagh notices living creatures within 60 feet just as if it possessed the [blindsight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight) ability.
+**Bloodsense (Su)** A ghorazagh notices living creatures within 60 feet just as if it possessed the [blindsight](monsters/universalMonsterRules.md#_blindsight) ability.
 
-**Bloodspray (Su)** Once every 1d4 rounds, a ghorazagh can unleash a 20-foot cone of blood and eldritch enzymes. Any living creature struck by a ghorazagh's bloodspray must make a DC 25 Fortitude save or be affected as by the spell _ [slow](/pathfinderRPG/prd/spells/slow.html#_slow)_. A slowed creature struck by a ghorazagh's bloodspray a second time must make an additional save or be paralyzed. These effects last for 2d6 rounds. A ghorazagh can also consciously alter its enzymes, producing a spray that removes all effects of this ability. The save DC is Constitution-based.
+**Bloodspray (Su)** Once every 1d4 rounds, a ghorazagh can unleash a 20-foot cone of blood and eldritch enzymes. Any living creature struck by a ghorazagh's bloodspray must make a DC 25 Fortitude save or be affected as by the spell _ [slow](spells/slow.md#_slow)_. A slowed creature struck by a ghorazagh's bloodspray a second time must make an additional save or be paralyzed. These effects last for 2d6 rounds. A ghorazagh can also consciously alter its enzymes, producing a spray that removes all effects of this ability. The save DC is Constitution-based.
 
 **Chemical Communication (Ex)** Ghorazaghs can communicate with other ghorazaghs within 60 feet via pheromone transmission. In a ghorazagh hive, this range extends to cover the entire hive. This is a silent and instantaneous mode of communication that only ghorazaghs can understand.
 

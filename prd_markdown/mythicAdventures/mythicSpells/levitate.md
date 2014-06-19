@@ -1,6 +1,6 @@
 Levitate
 
-**Source** [_levitate_](/pathfinderRPG/prd/spells/levitate.html#_levitate)
+**Source** [_levitate_](spells/levitate.md#_levitate)
 
 Instead of affecting one creature, you can affect a number of targets up to your caster level, but the total weight supported can be no more than 100 pounds per caster level. You can spend a move action to mentally direct all targets, but you must move all of them identically.
 

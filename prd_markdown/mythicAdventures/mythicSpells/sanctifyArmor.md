@@ -1,6 +1,6 @@
 Sanctify Armor
 
-**Source** [_sanctify armor_](/pathfinderRPG/prd/advanced/spells/sanctifyArmor.html#_sanctify-armor)
+**Source** [_sanctify armor_](advanced/spells/sanctifyArmor.md#_sanctify-armor)
 
 You gain DR 5/evil while wearing the target armor. While you're using your judgment or smite ability, this improves to DR 10/evil.
 

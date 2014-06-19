@@ -6,9 +6,9 @@ _This hideous purple creature walks upright like a man, but its face is that of 
 
 **XP 800**
 
-NE Medium [aberration](creatureTypes.html#_aberration)
+NE Medium [aberration](creatureTypes.md#_aberration)
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.html#_perception) +9
+**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) +9
 
 **Defense**
 
@@ -22,9 +22,9 @@ NE Medium [aberration](creatureTypes.html#_aberration)
 
 **Speed** 30 ft., climb 30 ft.
 
-**Melee** bite +5 (1d6+2 plus [poison](universalMonsterRules.html#_poison)) and 2 claws +5 (1d4+2)
+**Melee** bite +5 (1d6+2 plus [poison](universalMonsterRules.md#_poison)) and 2 claws +5 (1d4+2)
 
-**Special Attacks** traps, [web](universalMonsterRules.html#_web) (+6 ranged, DC 15, hp 4)
+**Special Attacks** traps, [web](universalMonsterRules.md#_web) (+6 ranged, DC 15, hp 4)
 
 **Statistics**
 
@@ -32,9 +32,9 @@ NE Medium [aberration](creatureTypes.html#_aberration)
 
 **Base**  **Atk** +3; **CMB** +5; **CMD** 18
 
-**Feats** [Great Fortitude](../feats.html#_great-fortitude), [Improved Initiative](../feats.html#_improved-initiative)
+**Feats** [Great Fortitude](../feats.md#_great-fortitude), [Improved Initiative](../feats.md#_improved-initiative)
 
-**Skills** [Climb](../skills/climb.html#_climb) +14, [Craft](../skills/craft.html#_craft) (trapmaking) +8, [Perception](../skills/perception.html#_perception) +9, [Stealth](../skills/stealth.html#_stealth) +7; **Racial Modifiers** +8 on [Craft](../skills/craft.html#_craft) (trapmaking)
+**Skills** [Climb](../skills/climb.md#_climb) +14, [Craft](../skills/craft.md#_craft) (trapmaking) +8, [Perception](../skills/perception.md#_perception) +9, [Stealth](../skills/stealth.md#_stealth) +7; **Racial Modifiers** +8 on [Craft](../skills/craft.md#_craft) (trapmaking)
 
 **Languages** Common
 
@@ -54,13 +54,13 @@ NE Medium [aberration](creatureTypes.html#_aberration)
 
 **Spider Empathy (Ex)** This ability functions as the druid's wild empathy, save that an ettercap can only use this ability on spiders. An ettercap gains a +4 racial bonus on this check. Spiders are mindless, but this empathic communication imparts on them a modicum of implanted intelligence, allowing ettercaps to train giant spiders and use them as guardians.
 
-**Traps (Ex)** The ettercap is particularly skilled at [crafting cunning traps](../environment.html#_traps) with its webs. Deadfalls, nooses, and spear traps are the most common traps ettercaps build with their webs. An ettercap doesn't require gold to build its traps, merely time.
+**Traps (Ex)** The ettercap is particularly skilled at [crafting cunning traps](../environment.md#_traps) with its webs. Deadfalls, nooses, and spear traps are the most common traps ettercaps build with their webs. An ettercap doesn't require gold to build its traps, merely time.
 
-**Ettercap Deadfall** : _CR_ 3; _Type_ mechanical; _ [Perception](../skills/perception.html#_perception)_ DC 20; _ [Disable Device](../skills/disableDevice.html#_disable-device)_ DC 20; _Trigger_ location; _Reset_ repair; _Effect_ +10 melee (4d6), multiple targets (all targets in a 10-ft. square).
+**Ettercap Deadfall** : _CR_ 3; _Type_ mechanical; _ [Perception](../skills/perception.md#_perception)_ DC 20; _ [Disable Device](../skills/disableDevice.md#_disable-device)_ DC 20; _Trigger_ location; _Reset_ repair; _Effect_ +10 melee (4d6), multiple targets (all targets in a 10-ft. square).
 
-**Ettercap Noose** : _CR_ 1; _Type_ mechanical; _ [Perception](../skills/perception.html#_perception)_ DC 20; _ [Disable Device](../skills/disableDevice.html#_disable-device)_ DC 20; _Trigger_ location; _Reset_ repair; _Effect_ +15 CMB check (grapple).
+**Ettercap Noose** : _CR_ 1; _Type_ mechanical; _ [Perception](../skills/perception.md#_perception)_ DC 20; _ [Disable Device](../skills/disableDevice.md#_disable-device)_ DC 20; _Trigger_ location; _Reset_ repair; _Effect_ +15 CMB check (grapple).
 
-**Ettercap Spear Trap** : _CR_ 2; _Type_ mechanical; _ [Perception](../skills/perception.html#_perception)_ DC 20; _ [Disable Device](../skills/disableDevice.html#_disable-device)_ DC 20; _Trigger_ location; _Reset_ repair; _Effect_ +15 melee (1d6+6).
+**Ettercap Spear Trap** : _CR_ 2; _Type_ mechanical; _ [Perception](../skills/perception.md#_perception)_ DC 20; _ [Disable Device](../skills/disableDevice.md#_disable-device)_ DC 20; _Trigger_ location; _Reset_ repair; _Effect_ +15 melee (1d6+6).
 
 Ettercaps are typically 6 feet tall and weigh about 200 pounds. They are solitary creatures and rarely group with others of their kind, even to mate. When they do group, they tend to attract a variety of different spiders, forming a strange collective of ettercaps and arachnids. Ettercaps are known for building cunning traps out of webs and other natural materials, using them to trap prey. They build shelters out of webbing, often high up in the trees away from other ground-based predators, and use monstrous spiders as lookouts and guardians.
 

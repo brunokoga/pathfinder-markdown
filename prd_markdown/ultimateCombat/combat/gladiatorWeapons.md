@@ -54,7 +54,7 @@ Presented below are descriptions for weapons popular among gladiators, pit fight
 
 **Knuckle Axe** : Knuckle axes, usually used in pairs, resemble axe blades mounted on brass knuckles. You may hold, but not wield, a weapon or other object in a hand wearing a knuckle axe. Unlike when wearing brass knuckles, you cannot use a hand wearing a knuckle axe for spellcasting.
 
-**Madu** : The madu is a round, light shield with two animal horns—usually from an antelope—extending from opposite sides of the shield. If you are proficient with the madu, you may use it to fight defensively with a –2 penalty instead of the normal –4, and your attack penalty for using [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise) improves by +1 (minimum –1 penalty). You cannot hold anything else in the hand that bears a madu. If you are not proficient with the madu, treat it as a light spiked shield.
+**Madu** : The madu is a round, light shield with two animal horns—usually from an antelope—extending from opposite sides of the shield. If you are proficient with the madu, you may use it to fight defensively with a –2 penalty instead of the normal –4, and your attack penalty for using [Combat Expertise](feats.md#_combat-expertise) improves by +1 (minimum –1 penalty). You cannot hold anything else in the hand that bears a madu. If you are not proficient with the madu, treat it as a light spiked shield.
 
 **Pata** : An evolution of the punching dagger, the pata is a short sword that ends in a full, fingerless gauntlet hilt. You punch rather than stab with the weapon, allowing you to put more force behind each strike. While wearing a pata, you cannot use that hand for anything else. A pata provides a +10 bonus to your CMD against being disarmed.
 

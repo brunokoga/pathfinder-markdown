@@ -8,9 +8,9 @@ _This bald gnome has rocky gray skin and a wiry physique. Its pale eyes are over
 
 Svirfneblin ranger 1
 
-N Small [humanoid](creatureTypes.html#_humanoid) (gnome)
+N Small [humanoid](creatureTypes.md#_humanoid) (gnome)
 
-**Init** +2; **Senses** darkvision 120 ft., low-light vision; [Perception](../skills/perception.html#_perception) +6
+**Init** +2; **Senses** darkvision 120 ft., low-light vision; [Perception](../skills/perception.md#_perception) +6
 
 **Defense**
 
@@ -34,9 +34,9 @@ N Small [humanoid](creatureTypes.html#_humanoid) (gnome)
 
 **Spell-Like Abilities** (CL 1st)
 
-Constant—_ [nondetection](../spells/nondetection.html#_nondetection)_
+Constant—_ [nondetection](../spells/nondetection.md#_nondetection)_
 
-1/day—_ [blindness/deafness](../spells/blindnessDeafness.html#_blindness-deafness)_ (DC 12), _ [blur](../spells/blur.html#_blur)_, _ [disguise self](../spells/disguiseSelf.html#_disguise-self)_
+1/day—_ [blindness/deafness](../spells/blindnessDeafness.md#_blindness-deafness)_ (DC 12), _ [blur](../spells/blur.md#_blur)_, _ [disguise self](../spells/disguiseSelf.md#_disguise-self)_
 
 **Statistics**
 
@@ -44,9 +44,9 @@ Constant—_ [nondetection](../spells/nondetection.html#_nondetection)_
 
 **Base Atk** +1; **CMB** +1; **CMD** 15
 
-**Feats** [Toughness](../feats.html#_toughness)
+**Feats** [Toughness](../feats.md#_toughness)
 
-**Skills** [Craft](../skills/craft.html#_craft) (alchemy) +6, [Heal](../skills/heal.html#_heal) +4, [Knowledge](../skills/knowledge.html#_knowledge) (dungeoneering) +4, [Perception](../skills/perception.html#_perception) +6, [Stealth](../skills/stealth.html#_stealth) +12 (+14 underground), [Survival](../skills/survival.html#_survival) +4 (+5 tracking); **Racial Modifiers** +2 [Craft](../skills/craft.html#_craft) (alchemy), +2 [Perception](../skills/perception.html#_perception), +2 [Stealth](../skills/stealth.html#_stealth) (+4 [Stealth](../skills/stealth.html#_stealth) underground)
+**Skills** [Craft](../skills/craft.md#_craft) (alchemy) +6, [Heal](../skills/heal.md#_heal) +4, [Knowledge](../skills/knowledge.md#_knowledge) (dungeoneering) +4, [Perception](../skills/perception.md#_perception) +6, [Stealth](../skills/stealth.md#_stealth) +12 (+14 underground), [Survival](../skills/survival.md#_survival) +4 (+5 tracking); **Racial Modifiers** +2 [Craft](../skills/craft.md#_craft) (alchemy), +2 [Perception](../skills/perception.md#_perception), +2 [Stealth](../skills/stealth.md#_stealth) (+4 [Stealth](../skills/stealth.md#_stealth) underground)
 
 **Languages** Gnome, Undercommon
 
@@ -60,7 +60,7 @@ Constant—_ [nondetection](../spells/nondetection.html#_nondetection)_
 
 **Treasure** NPC Gear (heavy pick, light crossbow with 10 bolts, other treasure)
 
-Svirfneblin, or âdeep gnomes,â are a reclusive offshoot of the gnome race. They dwell underground in hidden cities, safe from dark elves and other subterranean races. They have skin the color of gray or brown stone. Males are bald, and females have stringy gray hair. A svirfneblin's ties to the eerie realm of the fey are much stronger than those of their surface-dwelling gnome kin, and this makes them either strangely detached from their emotions or violently random in their outbursts. Svirfneblin have long fought wars against the duergar, and have a difficult time seeing the difference between duergar and other dwarves.
+Svirfneblin, or “deep gnomes,” are a reclusive offshoot of the gnome race. They dwell underground in hidden cities, safe from dark elves and other subterranean races. They have skin the color of gray or brown stone. Males are bald, and females have stringy gray hair. A svirfneblin's ties to the eerie realm of the fey are much stronger than those of their surface-dwelling gnome kin, and this makes them either strangely detached from their emotions or violently random in their outbursts. Svirfneblin have long fought wars against the duergar, and have a difficult time seeing the difference between duergar and other dwarves.
 
 ## Svirfneblin Characters
 
@@ -68,7 +68,7 @@ Svirfneblin are defined by their class levels—they do not possess racial Hit D
 
 **–2 Strength, +2 Dexterity, +2 Wisdom, –4 Charisma** : Svirfneblin are fast and observant, but relatively weak and emotionally distant.
 
-**Small** : Svirfneblin are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty to their CMB and CMD, and a +4 size bonus on [Stealth](../skills/stealth.html#_stealth) checks.
+**Small** : Svirfneblin are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty to their CMB and CMD, and a +4 size bonus on [Stealth](../skills/stealth.md#_stealth) checks.
 
 **Defensive Training** : Svirfneblin gain a +2 dodge bonus to Armor Class.
 
@@ -76,7 +76,7 @@ Svirfneblin are defined by their class levels—they do not possess racial Hit D
 
 **Fortunate** : Svirfneblin gain a +2 racial bonus on all saving throws.
 
-**Skilled** : Svirfneblin gain a +2 racial bonus on [Stealth](../skills/stealth.html#_stealth) checks; this improves to a +4 bonus underground. They gain a +2 racial bonus on [Craft](../skills/craft.html#_craft) (alchemy) checks and [Perception](../skills/perception.html#_perception) checks.
+**Skilled** : Svirfneblin gain a +2 racial bonus on [Stealth](../skills/stealth.md#_stealth) checks; this improves to a +4 bonus underground. They gain a +2 racial bonus on [Craft](../skills/craft.md#_craft) (alchemy) checks and [Perception](../skills/perception.md#_perception) checks.
 
 **Hatred** : Svirfneblin receive a +1 bonus on attack rolls against humanoid creatures of the reptilian and dwarven subtypes due to training against these hated foes.
 

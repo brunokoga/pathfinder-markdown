@@ -1,6 +1,6 @@
 Wall of Fire
 
-**Source** [_wall of fire_](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)
+**Source** [_wall of fire_](spells/wallOfFire.md#_wall-of-fire)
 
 The wall's damage increases to 2d6 points of fire damage to creatures within 10 feet, 1d6 points of fire damage to those past 10 feet but within 20 feet, and 2d8 points of fire damage + 1 point of fire damage per caster level (maximum +20) to any creature passing through it. Any creature that passes through the wall or is within 5 feet of the wall when it's created must succeed at a Reflex save or catch fire. Attempts to extinguish this fire use the spell's save DC.
 

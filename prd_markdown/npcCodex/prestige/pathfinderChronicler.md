@@ -26,23 +26,23 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk dagger +6/+1 (1d4â1/19â20)
+**Melee** mwk dagger +6/+1 (1d4–1/19–20)
 
-**Special Attacks** bardic performance 25 rounds/day (move action; countersong, distraction, fascinate, inspire competence +3, inspire courage +2, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_)
+**Special Attacks** bardic performance 25 rounds/day (move action; countersong, distraction, fascinate, inspire competence +3, inspire courage +2, _ [suggestion](spells/suggestion.md#_suggestion)_)
 
 **Bard Spells Known** (CL 7th; concentration +10)
 
-3rd (2/day)—_ [glibness](/pathfinderRPG/prd/spells/glibness.html#_glibness)_, _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ (DC 16)
+3rd (2/day)—_ [glibness](spells/glibness.md#_glibness)_, _ [scrying](spells/scrying.md#_scrying)_ (DC 16)
 
-2nd (4/day)—_ [blur](/pathfinderRPG/prd/spells/blur.html#_blur)_, _ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ _monster _(DC 17), _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_ (DC 15), _ [locate object](/pathfinderRPG/prd/spells/locateObject.html#_locate-object)_
+2nd (4/day)—_ [blur](spells/blur.md#_blur)_, _ [daze](spells/daze.md#_daze)_ _monster _(DC 17), _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_ (DC 15), _ [locate object](spells/locateObject.md#_locate-object)_
 
-1st (5/day)—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 16), _ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_, _ [detect secret doors](/pathfinderRPG/prd/spells/detectSecretDoors.html#_detect-secret-doors)_, _ [silent image](/pathfinderRPG/prd/spells/silentImage.html#_silent-image)_ (DC 14), _ [unseen servant](/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant)_
+1st (5/day)—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 16), _ [comprehend languages](spells/comprehendLanguages.md#_comprehend-languages)_, _ [detect secret doors](spells/detectSecretDoors.md#_detect-secret-doors)_, _ [silent image](spells/silentImage.md#_silent-image)_ (DC 14), _ [unseen servant](spells/unseenServant.md#_unseen-servant)_
 
-0 (at will)—_ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [message](/pathfinderRPG/prd/spells/message.html#_message), [open/close](/pathfinderRPG/prd/spells/openClose.html#_open-close)_
+0 (at will)—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [know direction](spells/knowDirection.md#_know-direction)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [message](spells/message.md#_message), [open/close](spells/openClose.md#_open-close)_
 
 Tactics
 
-**During Combat** The Pathfinder chronicler casts _ [blur](/pathfinderRPG/prd/spells/blur.html#_blur),_ then casts _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_ from her scroll. Preferring to stay out of melee, she uses bardic performance to aid her allies, and casts _ [daze monster](/pathfinderRPG/prd/spells/dazeMonster.html#_daze-monster)_ or _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ on enemies who come close. If threatened, she withdraws, drinks her _potion of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, and makes her escape.
+**During Combat** The Pathfinder chronicler casts _ [blur](spells/blur.md#_blur),_ then casts _ [haste](spells/haste.md#_haste)_ from her scroll. Preferring to stay out of melee, she uses bardic performance to aid her allies, and casts _ [daze monster](spells/dazeMonster.md#_daze-monster)_ or _ [charm person](spells/charmPerson.md#_charm-person)_ on enemies who come close. If threatened, she withdraws, drinks her _potion of [invisibility](spells/invisibility.md#_invisibility)_, and makes her escape.
 
 Statistics
 
@@ -50,15 +50,15 @@ Statistics
 
 **Base Atk** +6; **CMB** +5; **CMD** 19
 
-**Feats** [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Extra Performance](/pathfinderRPG/prd/feats.html#_extra-performance), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (enchantment), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), Mobility, [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (enchantment)
+**Feats** [Dodge](feats.md#_dodge), [Extra Performance](feats.md#_extra-performance), Greater [Spell Focus](feats.md#_spell-focus) (enchantment), [Improved Initiative](feats.md#_improved-initiative), Mobility, [Spell Focus](feats.md#_spell-focus) (enchantment)
 
-**Skills** [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, local, nobility, religion) +17, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +13, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +7, Perception +13, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (keyboard instruments) +7, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (oratory) +15, [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (scribe) +9, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +12 (+14 to identify magic item properties), [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +12
+**Skills** [Knowledge](skills/knowledge.md#_knowledge) (arcana, local, nobility, religion) +17, [Knowledge](skills/knowledge.md#_knowledge) (history) +13, [Linguistics](skills/linguistics.md#_linguistics) +7, Perception +13, [Perform](skills/perform.md#_perform) (keyboard instruments) +7, [Perform](skills/perform.md#_perform) (oratory) +15, [Profession](skills/profession.md#_profession) (scribe) +9, [Spellcraft](skills/spellcraft.md#_spellcraft) +12 (+14 to identify magic item properties), [Stealth](skills/stealth.md#_stealth) +12
 
 **Languages** Celestial, Common, Draconic, Dwarven
 
 **SQ** bardic knowledge +4, deep pockets (200 gp), elven magic, lore master 1/day, master scribe, pathfinding, versatile performance (keyboard, oratory)
 
-**Combat Gear** _potion of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _scroll of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _scroll of [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_, _scroll of [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_, _scroll of [identify](/pathfinderRPG/prd/spells/identify.html#_identify)_, _scroll of [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_, _scroll of [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_, _scroll of [tiny hut](/pathfinderRPG/prd/spells/tinyHut.html#_tiny-hut)_, _wand of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (20 charges); **Other Gear** _+1 leather armor_, masterwork dagger, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +1_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, silver mirror (worth 1,000 gp), 63 gp
+**Combat Gear** _potion of [invisibility](spells/invisibility.md#_invisibility)_, _scroll of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _scroll of [disguise self](spells/disguiseSelf.md#_disguise-self)_, _scroll of [haste](spells/haste.md#_haste)_, _scroll of [identify](spells/identify.md#_identify)_, _scroll of [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, _scroll of [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_, _scroll of [tiny hut](spells/tinyHut.md#_tiny-hut)_, _wand of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (20 charges); **Other Gear** _+1 leather armor_, masterwork dagger, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, silver mirror (worth 1,000 gp), 63 gp
 
 Often lost in their own thoughts, sometimes these scholars forget others are around them. They're usually solitary, but have to go out exploring in search of information—or pay adventurers to retell their stories.
 
@@ -96,7 +96,7 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** _+1 heavy mace_ +9/+4 (1d6â1)
+**Melee** _+1 heavy mace_ +9/+4 (1d6–1)
 
 **Special Attacks** +1 on attack rolls against goblinoid and reptilian humanoids, aura of madness (DC 18, 9 rounds/day), bardic performance 7 rounds/day (countersong, distraction, epic tales, fascinate, inspire courage +1), channel negative energy 8/day (DC 17, 5d6)
 
@@ -108,27 +108,27 @@ At will—lore keeper, remote viewing (9 rounds/day)
 
 **Gnome Spell-Like Abilities** (CL 13th; concentration +16)
 
-1/day—_ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_, _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1/day—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
 
 **Cleric Spells Prepared** (CL 9th; concentration +13)
 
-5th—_ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_ (DC 20), _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_D
+5th—_ [slay living](spells/slayLiving.md#_slay-living)_ (DC 20), _ [true seeing](spells/trueSeeing.md#_true-seeing)_D
 
-4th—_ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 18), _ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_D (DC 18), _ [summon monster IV](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv)_, _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+4th—_ [chaos hammer](spells/chaosHammer.md#_chaos-hammer)_ (DC 18), _ [confusion](spells/confusion.md#_confusion)_D (DC 18), _ [summon monster IV](spells/summonMonster.md#_summon-monster-iv)_, _ [tongues](spells/tongues.md#_tongues)_
 
-3rd—_ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_ (DC 18), _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, _ [rage](/pathfinderRPG/prd/spells/rage.html#_rage)_D, _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_
+3rd—_ [blindness/deafness](spells/blindnessDeafness.md#_blindness-deafness)_ (DC 18), _ [invisibility purge](spells/invisibilityPurge.md#_invisibility-purge)_, _ [prayer](spells/prayer.md#_prayer)_, _ [rage](spells/rage.md#_rage)_D, _ [searing light](spells/searingLight.md#_searing-light)_
 
-2nd—_ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (2, DC 16), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, _ [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_, _ [touch of idiocy](/pathfinderRPG/prd/spells/touchOfIdiocy.html#_touch-of-idiocy)_D
+2nd—_ [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _ [hold person](spells/holdPerson.md#_hold-person)_ (2, DC 16), _ [resist energy](spells/resistEnergy.md#_resist-energy)_, _ [spiritual weapon](spells/spiritualWeapon.md#_spiritual-weapon)_, _ [touch of idiocy](spells/touchOfIdiocy.md#_touch-of-idiocy)_D
 
-1st—_ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (DC 16), _ [doom](/pathfinderRPG/prd/spells/doom.html#_doom)_ (DC 16), _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [lesser confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion-lesser)_D (DC 15), _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_ [cause fear](spells/causeFear.md#_cause-fear)_ (DC 16), _ [doom](spells/doom.md#_doom)_ (DC 16), _ [entropic shield](spells/entropicShield.md#_entropic-shield)_, _ [lesser confusion](spells/confusion.md#_confusion-lesser)_D (DC 15), _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_, _ [shield of faith](spells/shieldOfFaith.md#_shield-of-faith)_
 
-0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 15), _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [bleed](spells/bleed.md#_bleed)_ (DC 15), _ [detect poison](spells/detectPoison.md#_detect-poison)_, _ [light](spells/light.md#_light)_, _ [read magic](spells/readMagic.md#_read-magic)_
 
-**D** Domain spell; **Domains** [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge), Madness
+**D** Domain spell; **Domains** [Knowledge](skills/knowledge.md#_knowledge), Madness
 
 Tactics
 
-**During Combat** The Pathfinder chronicler drinks his potion of _ [fly](/pathfinderRPG/prd/spells/fly.html)_. While flying above his enemies, he activates his aura of madness, casts _ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer),_ and swoops down to cast _ [slay living](/pathfinderRPG/prd/spells/slayLiving.html#_slay-living)_ on spellcasters.
+**During Combat** The Pathfinder chronicler drinks his potion of _ [fly](spells/fly.md)_. While flying above his enemies, he activates his aura of madness, casts _ [chaos hammer](spells/chaosHammer.md#_chaos-hammer),_ and swoops down to cast _ [slay living](spells/slayLiving.md#_slay-living)_ on spellcasters.
 
 Statistics
 
@@ -136,15 +136,15 @@ Statistics
 
 **Base Atk** +9; **CMB** +6; **CMD** 17
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Command Undead](/pathfinderRPG/prd/feats.html#_command-undead), [Extra Channel](/pathfinderRPG/prd/feats.html#_extra-channel), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (necromancy), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Command Undead](feats.md#_command-undead), [Extra Channel](feats.md#_extra-channel), [Great Fortitude](feats.md#_great-fortitude), [Improved Initiative](feats.md#_improved-initiative), [Spell Focus](feats.md#_spell-focus) (necromancy), [Toughness](feats.md#_toughness)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +11, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +11, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +12, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, dungeoneering, history) +12, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes, religion) +17, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +8, Perception +17, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (oratory) +11, [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (scribe) +14
+**Skills** [Bluff](skills/bluff.md#_bluff) +11, [Diplomacy](skills/diplomacy.md#_diplomacy) +11, [Heal](skills/heal.md#_heal) +12, [Intimidate](skills/intimidate.md#_intimidate) +11, [Knowledge](skills/knowledge.md#_knowledge) (arcana, dungeoneering, history) +12, [Knowledge](skills/knowledge.md#_knowledge) (planes, religion) +17, [Linguistics](skills/linguistics.md#_linguistics) +8, Perception +17, [Perform](skills/perform.md#_perform) (oratory) +11, [Profession](skills/profession.md#_profession) (scribe) +14
 
 **Languages** Abyssal, Aklo, Common, Draconic, Gnome, Sylvan
 
 **SQ** aura, bardic knowledge +2, deep pockets (400 gp), improved aid, master scribe, pathfinding
 
-**Combat Gear** _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _potion of [fly](/pathfinderRPG/prd/spells/fly.html)_, _scroll of [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_, _scroll of [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_, _scroll of [summon monster VI](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi)_; **Other Gear** _+2 studded leather_, _+1 heavy mace_, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +2_, _ [brooch of shielding](/pathfinderRPG/prd/magicItems/wondrousItems.html#_brooch-of-shielding)_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom) +2_, 363 gp
+**Combat Gear** _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _potion of [fly](spells/fly.md)_, _scroll of [flame strike](spells/flameStrike.md#_flame-strike)_, _scroll of [summon monster V](spells/summonMonster.md#_summon-monster-v)_, _scroll of [summon monster VI](spells/summonMonster.md#_summon-monster-vi)_; **Other Gear** _+2 studded leather_, _+1 heavy mace_, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +2_, _ [brooch of shielding](magicItems/wondrousItems.md#_brooch-of-shielding)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +2_, 363 gp
 
 These Pathfinders know some paths are twisted and mad.
 
@@ -178,35 +178,35 @@ Offense
 
 **Speed** 40 ft.
 
-**Melee** quarterstaff +11/+6 (1d6â1)
+**Melee** quarterstaff +11/+6 (1d6–1)
 
-**Ranged** dagger +14/+9 (1d4â1/19â20)
+**Ranged** dagger +14/+9 (1d4–1/19–20)
 
 **Special Attacks** bardic performance 23 rounds/day (countersong, distraction, epic tales, fascination, inspire action [move], inspire courage +2, inspire competence +2, whispering campaign)
 
 **Sorcerer Spells Known** (CL 10th; concentration +17)
 
-5th (4/day)—_ [break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment), [persistent image](/pathfinderRPG/prd/spells/persistentImage.html#_persistent-image)_ (DC 24)
+5th (4/day)—_ [break enchantment](spells/breakEnchantment.md#_break-enchantment), [persistent image](spells/persistentImage.md#_persistent-image)_ (DC 24)
 
-4th (6/day)—_ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_, _ [hallucinatory terrain](/pathfinderRPG/prd/spells/hallucinatoryTerrain.html#_hallucinatory-terrain)_, _ [phantasmal killer](/pathfinderRPG/prd/spells/phantasmalKiller.html#_phantasmal-killer)_ (DC 23)
+4th (6/day)—_ [dimension door](spells/dimensionDoor.md#_dimension-door)_, _ [hallucinatory terrain](spells/hallucinatoryTerrain.md#_hallucinatory-terrain)_, _ [phantasmal killer](spells/phantasmalKiller.md#_phantasmal-killer)_ (DC 23)
 
-3rd (8/day)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_, _ [invisibility sphere](/pathfinderRPG/prd/spells/invisibilitySphere.html#_invisibility-sphere)_, _ [major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_ (DC 22)
+3rd (8/day)—_ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [heroism](spells/heroism.md#_heroism)_, _ [invisibility sphere](spells/invisibilitySphere.md#_invisibility-sphere)_, _ [major image](spells/majorImage.md#_major-image)_ (DC 22)
 
-2nd (8/day)—_ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, _ [protection from arrows](/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, _ [web](/pathfinderRPG/prd/spells/web.html#_web)_ (DC 19)
+2nd (8/day)—_ [invisibility](spells/invisibility.md#_invisibility)_, _ [mirror image](spells/mirrorImage.md#_mirror-image)_, _ [protection from arrows](spells/protectionFromArrows.md#_protection-from-arrows)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, _ [web](spells/web.md#_web)_ (DC 19)
 
-1st (8/day)—_ [animate rope](/pathfinderRPG/prd/spells/animateRope.html#_animate-rope)_, _ [color spray](/pathfinderRPG/prd/spells/colorSpray.html#_color-spray)_ (DC 20), _ [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_, _ [floating disk](/pathfinderRPG/prd/spells/floatingDisk.html#_floating-disk)_, _ [identify](/pathfinderRPG/prd/spells/identify.html#_identify)_, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_
+1st (8/day)—_ [animate rope](spells/animateRope.md#_animate-rope)_, _ [color spray](spells/colorSpray.md#_color-spray)_ (DC 20), _ [disguise self](spells/disguiseSelf.md#_disguise-self)_, _ [floating disk](spells/floatingDisk.md#_floating-disk)_, _ [identify](spells/identify.md#_identify)_, _ [shield](spells/shield.md#_shield)_
 
-0 (at will)—_ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 17), _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_ (DC 19), _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand),_ _ [message](/pathfinderRPG/prd/spells/message.html#_message)_, _ [open/close](/pathfinderRPG/prd/spells/openClose.html#_open-close)_, _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_
+0 (at will)—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [flare](spells/flare.md#_flare)_ (DC 17), _ [light](spells/light.md#_light)_, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 19), _ [mage hand](spells/mageHand.md#_mage-hand),_ _ [message](spells/message.md#_message)_, _ [open/close](spells/openClose.md#_open-close)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_
 
 **Bloodline** arcane
 
 Tactics
 
-**Before Combat** The Pathfinder chronicler casts _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_ and _ [protection from arrows](/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows)_.
+**Before Combat** The Pathfinder chronicler casts _ [heroism](spells/heroism.md#_heroism)_ and _ [protection from arrows](spells/protectionFromArrows.md#_protection-from-arrows)_.
 
-**During Combat** The chronicler casts _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_ on herself, then supports allies with bardic performance and illusions.
+**During Combat** The chronicler casts _ [shield](spells/shield.md#_shield)_ on herself, then supports allies with bardic performance and illusions.
 
-**Base Statistics** Without _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_ and _ [protection from arrows](/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows)_, the Pathfinder chronicler's statistics are **Fort** +8, **Ref** +11, **Will** +13; **DR** none; **Melee** quarterstaff +9/+4 (1d6â1); **Ranged** dagger +12/+7 (1d4â1/19â20); **Skills** â2 on all skills.
+**Base Statistics** Without _ [heroism](spells/heroism.md#_heroism)_ and _ [protection from arrows](spells/protectionFromArrows.md#_protection-from-arrows)_, the Pathfinder chronicler's statistics are **Fort** +8, **Ref** +11, **Will** +13; **DR** none; **Melee** quarterstaff +9/+4 (1d6–1); **Ranged** dagger +12/+7 (1d4–1/19–20); **Skills** –2 on all skills.
 
 Statistics
 
@@ -214,15 +214,15 @@ Statistics
 
 **Base Atk** +10; **CMB** +9; **CMD** 24
 
-**Feats** [Arcane Armor Training](/pathfinderRPG/prd/feats.html#_arcane-armor-training), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Enlarge Spell](/pathfinderRPG/prd/feats.html#_enlarge-spell), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Extend Spell](/pathfinderRPG/prd/feats.html#_extend-spell), [Extra Performance](/pathfinderRPG/prd/feats.html#_extra-performance), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (illusion), [Silent Spell](/pathfinderRPG/prd/feats.html#_silent-spell), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) (Perception), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (illusion), [Widen Spell](/pathfinderRPG/prd/feats.html#_widen-spell)
+**Feats** [Arcane Armor Training](feats.md#_arcane-armor-training), [Combat Casting](feats.md#_combat-casting), [Enlarge Spell](feats.md#_enlarge-spell), [Eschew Materials](feats.md#_eschew-materials), [Extend Spell](feats.md#_extend-spell), [Extra Performance](feats.md#_extra-performance), Greater [Spell Focus](feats.md#_spell-focus) (illusion), [Silent Spell](feats.md#_silent-spell), [Skill Focus](feats.md#_skill-focus) (Perception), [Spell Focus](feats.md#_spell-focus) (illusion), [Widen Spell](feats.md#_widen-spell)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +9 (+13 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +17, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +17, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, dungeoneering, geography, history, local, nature, nobility, planes, religion) +15, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +10, Perception +23, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (oratory, string) +17, [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (scribe) +10, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +7, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +12, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +14, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +10, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +22
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +9 (+13 when jumping), [Bluff](skills/bluff.md#_bluff) +17, [Diplomacy](skills/diplomacy.md#_diplomacy) +17, [Knowledge](skills/knowledge.md#_knowledge) (arcana, dungeoneering, geography, history, local, nature, nobility, planes, religion) +15, [Linguistics](skills/linguistics.md#_linguistics) +10, Perception +23, [Perform](skills/perform.md#_perform) (oratory, string) +17, [Profession](skills/profession.md#_profession) (scribe) +10, [Sense Motive](skills/senseMotive.md#_sense-motive) +7, [Spellcraft](skills/spellcraft.md#_spellcraft) +12, [Stealth](skills/stealth.md#_stealth) +14, [Survival](skills/survival.md#_survival) +10, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +22
 
 **Languages** Common, Draconic, Dwarven, Elf, Gnome, Halfling, Orc
 
-**SQ** arcane bond (_ [staff of charming](/pathfinderRPG/prd/magicItems/staves.html#_staff-of-charming)_), bardic knowledge +3, bloodline arcana (+1 DC for spells augmented by metamagic feats that increase spell level), call down the legends, deep pockets (700 gp), elf blood, improved aid, master scribe, metamagic adept (2/day), new arcana, pathfinding
+**SQ** arcane bond (_ [staff of charming](magicItems/staves.md#_staff-of-charming)_), bardic knowledge +3, bloodline arcana (+1 DC for spells augmented by metamagic feats that increase spell level), call down the legends, deep pockets (700 gp), elf blood, improved aid, master scribe, metamagic adept (2/day), new arcana, pathfinding
 
-**Combat Gear** _potions of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ (2)_,_ _potion of [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_, _ [staff of charming](/pathfinderRPG/prd/magicItems/staves.html#_staff-of-charming)_; **Other Gear** _+3 leather armor_, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +2_, _ [boots of striding and springing](/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-striding-and-springing)_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +2_, _ [handy haversack](/pathfinderRPG/prd/magicItems/wondrousItems.html#_handy-haversack)_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +4_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +3_, 1,290 gp
+**Combat Gear** _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2)_,_ _potion of [gaseous form](spells/gaseousForm.md#_gaseous-form)_, _ [staff of charming](magicItems/staves.md#_staff-of-charming)_; **Other Gear** _+3 leather armor_, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +2_, _ [boots of striding and springing](magicItems/wondrousItems.md#_boots-of-striding-and-springing)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2_, _ [handy haversack](magicItems/wondrousItems.md#_handy-haversack)_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +4_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +3_, 1,290 gp
 
 These chroniclers travel with intrepid adventurers to record tales of their exploits.
 
@@ -250,7 +250,7 @@ N Medium humanoid (human)
 
 Defense
 
-**AC** 23, touch 13, flat-footed 21 (+7 armor, +3 deflection, +1 Dex, +1 dodge, +3 natural, â2 rage)
+**AC** 23, touch 13, flat-footed 21 (+7 armor, +3 deflection, +1 Dex, +1 dodge, +3 natural, –2 rage)
 
 **hp** 261 (6d12+4d8+10d8+146)
 
@@ -262,25 +262,25 @@ Offense
 
 **Speed** 50 ft.
 
-**Melee** _+1 [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) handaxe_ +24/+19/+14/+9 (1d6+7/19â20/Ã3plus 1d6 electricity)
+**Melee** _+1 [shock](magicItems/weapons.md#_weapons-shock) handaxe_ +24/+19/+14/+9 (1d6+7/19–20/×3plus 1d6 electricity)
 
-**Ranged** _+1 [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) shortbow_ +18/+13/+8/+3 (1d6+1/Ã3 plus 1d6 electricity)
+**Ranged** _+1 [shock](magicItems/weapons.md#_weapons-shock) shortbow_ +18/+13/+8/+3 (1d6+1/×3 plus 1d6 electricity)
 
-**Special Attacks** bardic performance 28 rounds/day (countersong, dirge of doom, distraction, epic tales, fascinate, greater epic tales, inspire action [standard], inspire competence +4, inspire courage +3, inspire greatness, soothing performance, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_, whispering campaign), rage (24 rounds/day), rage powers (clear mind, moment of clarity, renewed vigor)
+**Special Attacks** bardic performance 28 rounds/day (countersong, dirge of doom, distraction, epic tales, fascinate, greater epic tales, inspire action [standard], inspire competence +4, inspire courage +3, inspire greatness, soothing performance, _ [suggestion](spells/suggestion.md#_suggestion)_, whispering campaign), rage (24 rounds/day), rage powers (clear mind, moment of clarity, renewed vigor)
 
 **Bard Spells Known** (CL 4th; concentration +6)
 
-2nd (2/day)—_ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, _ [rage](/pathfinderRPG/prd/spells/rage.html#_rage)_
+2nd (2/day)—_ [mirror image](spells/mirrorImage.md#_mirror-image)_, _ [rage](spells/rage.md#_rage)_
 
-1st (4/day)—_ [expeditious retreat](/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat)_, _ [feather fall](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall)_, _ [remove fear](/pathfinderRPG/prd/spells/removeFear.html#_remove-fear)_, _ [unseen servant](/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant)_
+1st (4/day)—_ [expeditious retreat](spells/expeditiousRetreat.md#_expeditious-retreat)_, _ [feather fall](spells/featherFall.md#_feather-fall)_, _ [remove fear](spells/removeFear.md#_remove-fear)_, _ [unseen servant](spells/unseenServant.md#_unseen-servant)_
 
-0 (at will)—_ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [message](/pathfinderRPG/prd/spells/message.html#_message)_, _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_
+0 (at will)—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [know direction](spells/knowDirection.md#_know-direction)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [mending](spells/mending.md#_mending)_, _ [message](spells/message.md#_message)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_
 
 Tactics
 
-**During Combat** The Pathfinder chronicler casts _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_ on herself, uses bardic performance to aid her allies, and shoots arrows at her foes. When raging, she uses moment of clarity to cast spells when necessary.
+**During Combat** The Pathfinder chronicler casts _ [mirror image](spells/mirrorImage.md#_mirror-image)_ on herself, uses bardic performance to aid her allies, and shoots arrows at her foes. When raging, she uses moment of clarity to cast spells when necessary.
 
-**Base Statistics** When not raging, the Pathfinder chronicler's statistics are **AC** 25, touch 15, flat-footed 23; **hp** 241; **Fort** +18, **Will** +15; **Melee** _+1 [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) handaxe_ +22/+17/+12/+7 (1d6+5/19â20/Ã3 plus 1d6 electricity); **Str** 18, **Con** 18; **CMB** +20; **Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +17, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +12.
+**Base Statistics** When not raging, the Pathfinder chronicler's statistics are **AC** 25, touch 15, flat-footed 23; **hp** 241; **Fort** +18, **Will** +15; **Melee** _+1 [shock](magicItems/weapons.md#_weapons-shock) handaxe_ +22/+17/+12/+7 (1d6+5/19–20/×3 plus 1d6 electricity); **Str** 18, **Con** 18; **CMB** +20; **Skills** [Climb](skills/climb.md#_climb) +17, [Swim](skills/swim.md#_swim) +12.
 
 Statistics
 
@@ -288,15 +288,15 @@ Statistics
 
 **Base Atk** +16; **CMB** +22; **CMD** 35
 
-**Feats** Dazzling Display, [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Extra Rage](/pathfinderRPG/prd/feats.html#_extra-rage), [Fleet](/pathfinderRPG/prd/feats.html#_fleet) (2), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (handaxe), Improved [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Toughness](/pathfinderRPG/prd/feats.html#_toughness), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (handaxe)
+**Feats** Dazzling Display, [Dodge](feats.md#_dodge), [Extra Rage](feats.md#_extra-rage), [Fleet](feats.md#_fleet) (2), [Improved Critical](feats.md#_improved-critical) (handaxe), Improved [Vital Strike](feats.md#_vital-strike), [Power Attack](feats.md#_power-attack), [Toughness](feats.md#_toughness), [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (handaxe)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +1 (+5 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +10, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +19, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +15, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +4, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +15, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography, local, nobility) +16, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +18, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +6, Perception +19, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (oratory) +15, [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (scribe) +7, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +14, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +21, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +7, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +14, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +15
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +1 (+5 when jumping), [Bluff](skills/bluff.md#_bluff) +10, [Climb](skills/climb.md#_climb) +19, [Handle Animal](skills/handleAnimal.md#_handle-animal) +15, [Heal](skills/heal.md#_heal) +4, [Intimidate](skills/intimidate.md#_intimidate) +15, [Knowledge](skills/knowledge.md#_knowledge) (geography, local, nobility) +16, [Knowledge](skills/knowledge.md#_knowledge) (history) +18, [Linguistics](skills/linguistics.md#_linguistics) +6, Perception +19, [Perform](skills/perform.md#_perform) (oratory) +15, [Profession](skills/profession.md#_profession) (scribe) +7, [Ride](skills/ride.md#_ride) +14, [Stealth](skills/stealth.md#_stealth) +21, [Survival](skills/survival.md#_survival) +7, [Swim](skills/swim.md#_swim) +14, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +15
 
 **Languages** Common, Celestial, Draconic, Dwarven
 
 **SQ** bardic knowledge +7, call down the legends, deep pockets (1,000 gp), fast movement, improved aid, lay of the exalted dead, master scribe, pathfinding, versatile performance (oratory)
 
-**Combat Gear** _+1 [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming) arrows_ (5), _+1 [thundering](/pathfinderRPG/prd/magicItems/weapons.html#_thundering) arrows_ (5), _dragon [slaying arrow](/pathfinderRPG/prd/magicItems/weapons.html#_slaying-arrow)_, _greater human [slaying arrow](/pathfinderRPG/prd/magicItems/weapons.html#_slaying-arrow)_, _javelins of lightning _(5); **Other Gear** _+5 leather armor_, _+1 [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) handaxe_, _+1 [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) shortbow_, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +3_, _ [belt of mighty constitution](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-mighty-constitution) +4_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +5_, _figurines of wondrous power_ (ivory goats), _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +3_, 1,930 gp
+**Combat Gear** _+1 [flaming](magicItems/weapons.md#_weapons-flaming) arrows_ (5), _+1 [thundering](magicItems/weapons.md#_thundering) arrows_ (5), _dragon [slaying arrow](magicItems/weapons.md#_slaying-arrow)_, _greater human [slaying arrow](magicItems/weapons.md#_slaying-arrow)_, _javelins of lightning _(5); **Other Gear** _+5 leather armor_, _+1 [shock](magicItems/weapons.md#_weapons-shock) handaxe_, _+1 [shock](magicItems/weapons.md#_weapons-shock) shortbow_, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +3_, _ [belt of mighty constitution](magicItems/wondrousItems.md#_belt-of-mighty-constitution) +4_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +5_, _figurines of wondrous power_ (ivory goats), _ [ring of protection](magicItems/rings.md#_ring-of-protection) +3_, 1,930 gp
 
 Singing odes of battle and bravery, these chroniclers make sure the living never forget those traditions, and even try to encourage the living to surpass the great deeds of the heroes of past ages. They believe battle is the truest test of a person's mettle.
 

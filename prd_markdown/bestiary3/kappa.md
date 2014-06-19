@@ -6,9 +6,9 @@ Kappa CR 2
 
 XP 600
 
-CN Small monstrous humanoid ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+CN Small monstrous humanoid ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +2
+**Init** +3; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +2
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +4, **Ref** +6, **Will** +5
 
-**Resist** acid 5, [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 5
+**Resist** acid 5, [cold](monsters/creatureTypes.md#_cold-subtype) 5
 
 **Weaknesses** head bowl
 
@@ -26,9 +26,9 @@ Offense
 
 **Speed** 20 ft., swim 40 ft.
 
-**Melee** 2 claws +5 (1d3+1 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** 2 claws +5 (1d3+1 plus [grab](monsters/universalMonsterRules.md#_grab))
 
-**Special Attacks** [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab) (Medium), [rake](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_rake) (2 claws +5, 1d3+1)
+**Special Attacks** [grab](monsters/universalMonsterRules.md#_grab) (Medium), [rake](monsters/universalMonsterRules.md#_rake) (2 claws +5, 1d3+1)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +3 (+7 grapple); **CMD** 16
 
-**Feats** [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Nimble Moves](/pathfinderRPG/prd/feats.html#_nimble-moves)
+**Feats** [Great Fortitude](feats.md#_great-fortitude), [Nimble Moves](feats.md#_nimble-moves)
 
-**Skills** [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +10, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +5, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +5, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +9; **Racial Modifiers** +4 [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist)
+**Skills** [Escape Artist](skills/escapeArtist.md#_escape-artist) +10, [Heal](skills/heal.md#_heal) +5, [Sense Motive](skills/senseMotive.md#_sense-motive) +5, [Swim](skills/swim.md#_swim) +9; **Racial Modifiers** +4 [Escape Artist](skills/escapeArtist.md#_escape-artist)
 
 **Languages** Aquan, Common
 

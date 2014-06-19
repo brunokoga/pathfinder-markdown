@@ -8,7 +8,7 @@ XP 51,200
 
 N Huge dragon
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +23
+**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +23
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +19, **Ref** +16, **Will** +13
 
-**DR** 10/magic; **Immune** magic paralysis and sleep; **Resist** acid 10, [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, electricity 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 26
+**DR** 10/magic; **Immune** magic paralysis and sleep; **Resist** acid 10, [cold](monsters/creatureTypes.md#_cold-subtype) 10, electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 26
 
 Offense
 
@@ -28,7 +28,7 @@ Offense
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** wailing dive, [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (50-ft. cone, 14d6 sonic damage, Reflex DC 20 for half, usable every 1d4 rounds)
+**Special Attacks** wailing dive, [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (50-ft. cone, 14d6 sonic damage, Reflex DC 20 for half, usable every 1d4 rounds)
 
 Statistics
 
@@ -36,13 +36,13 @@ Statistics
 
 **Base Atk** +18; **CMB** +32; **CMD** 45 (49 vs. trip)
 
-**Feats** [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Improved Sunder](/pathfinderRPG/prd/feats.html#_improved-sunder), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Snatch](/pathfinderRPG/prd/monsters/monsterFeats.html#_snatch), [Wingover](/pathfinderRPG/prd/monsters/monsterFeats.html#_wingover)
+**Feats** [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Hover](monsters/monsterFeats.md#_hover), [Improved Initiative](feats.md#_improved-initiative), [Improved Sunder](feats.md#_improved-sunder), [Lightning Reflexes](feats.md#_lightning-reflexes), [Multiattack](monsters/monsterFeats.md#_multiattack), [Power Attack](feats.md#_power-attack), [Snatch](monsters/monsterFeats.md#_snatch), [Wingover](monsters/monsterFeats.md#_wingover)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +19, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +20, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +16, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +23, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +15, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +13, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +20
+**Skills** [Climb](skills/climb.md#_climb) +19, [Fly](skills/fly.md#_fly) +20, [Intimidate](skills/intimidate.md#_intimidate) +16, [Perception](skills/perception.md#_perception) +23, [Sense Motive](skills/senseMotive.md#_sense-motive) +15, [Stealth](skills/stealth.md#_stealth) +13, [Survival](skills/survival.md#_survival) +20
 
 **Languages** Draconic
 
-**SQ** [compression](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_compression), piercing beak
+**SQ** [compression](monsters/universalMonsterRules.md#_compression), piercing beak
 
 Ecology
 
@@ -56,9 +56,9 @@ Special Abilities
 
 **Piercing Beak (Ex)** A kongamato's beak is extremely hard and adept at breaking objects. When attempting to damage an item, a kongamato's beak attack does double damage and is treated as if it were adamantine for the purposes of overcoming the object's hardness.
 
-**Wailing Dive (Su)** When a kongamato makes a charge while flying or uses its [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack) feat, the creature's body becomes infused with energy, causing its bite to deal an extra +1d6 points of sonic damage on that attack.
+**Wailing Dive (Su)** When a kongamato makes a charge while flying or uses its [Flyby Attack](monsters/monsterFeats.md#_flyby-attack) feat, the creature's body becomes infused with energy, causing its bite to deal an extra +1d6 points of sonic damage on that attack.
 
-Kongamatos are primeval dragons that hunt the deep jungles of the world. Although not as intelligent or magically adept as their âtrueâ cousins, kongamatos are respected and feared for their resilience and awesome strength. While the kongamato's body is clearly draconic—squat and dense with sharp claws capping each of its four limbs—the creature's head is distinctly avian, with a long, toothless beak and a pronounced crest. A kongamato's hide is a rich emerald hue, with an ash-colored underbelly and crimson webbing on its broad wings. Females have smaller head-crests than males, and a rosy hue colors both the undersides of their wings and their underbellies.
+Kongamatos are primeval dragons that hunt the deep jungles of the world. Although not as intelligent or magically adept as their “true” cousins, kongamatos are respected and feared for their resilience and awesome strength. While the kongamato's body is clearly draconic—squat and dense with sharp claws capping each of its four limbs—the creature's head is distinctly avian, with a long, toothless beak and a pronounced crest. A kongamato's hide is a rich emerald hue, with an ash-colored underbelly and crimson webbing on its broad wings. Females have smaller head-crests than males, and a rosy hue colors both the undersides of their wings and their underbellies.
 
 Kongamatos are apex predators that make their lairs in the tops of the oldest and strongest trees, or in caves and ruins. Kongamatos are carnivorous and prey on large herd animals. Although they do not have teeth, their beaks are sharp and strong, allowing them to carve their kills with precision and to punch through wood, rock, and even metal. When possible, kongamatos hunt on the perimeter of their territories, gliding silently and gracefully through even the thickest forest foliage to surprise prey.
 

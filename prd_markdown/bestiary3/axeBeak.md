@@ -8,7 +8,7 @@ XP 600
 
 N Large animal
 
-**Init** +3; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9
+**Init** +3; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +9
 
 Defense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +7; **CMD** 20
 
-**Feats** [Run](/pathfinderRPG/prd/feats.html#_run), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Run](feats.md#_run), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9
+**Skills** [Perception](skills/perception.md#_perception) +9
 
 Ecology
 
@@ -54,11 +54,11 @@ Keen-witted and powerful avian predators, axe beaks compete with wolves and hunt
 
 Mature axe beaks stand 9 feet tall and weigh as much as 500 pounds. Their plumage varies widely, from gray to brown to black in temperate climes, but taking on exotic shades of gold, red, blue, and other vibrant hues in more tropical environs. Axe beaks have lifespans of up to 50 years.
 
-An axe beak requires training before it will bear a rider. Taming an axe beak requires 6 weeks of work and a DC 25 [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) check, after which it can be taught tricks as normal. Riding an axe beak requires an exotic saddle. Axe beak eggs are worth 1,000 gp apiece on the open market, while young are worth 1,500 gp each. A light load for an axe beak is up to 200 pounds; a medium load, 201–400 pounds; and a heavy load, 401–600 pounds.
+An axe beak requires training before it will bear a rider. Taming an axe beak requires 6 weeks of work and a DC 25 [Handle Animal](skills/handleAnimal.md#_handle-animal) check, after which it can be taught tricks as normal. Riding an axe beak requires an exotic saddle. Axe beak eggs are worth 1,000 gp apiece on the open market, while young are worth 1,500 gp each. A light load for an axe beak is up to 200 pounds; a medium load, 201–400 pounds; and a heavy load, 401–600 pounds.
 
 Other types of large, predatory flightless birds exist—the axe beak is but the most commonly encountered and well known of this breed of predator. Two less common variants of the axe beak are summarized below.
 
 **Diatryma** : While the dark-feathered, orange-beaked diatrymas are smaller than the average axe-beak, standing at a mere 6 to 7 feet in height, they are no less ferocious. Diatrymas are axe beaks reduced to Medium size; they have 2 Hit Dice and are CR 1.
 
-**Terror Bird** : Terror birds stand a full foot taller than the average axe beak, and their powerful talons serve as additional weapons. Terror birds are axe beaks advanced to 5 HD that gain [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite) as a bonus feat. They also have two additional natural attacks, a pair of talons that do a base damage of 1d4 damage each. Terror birds are CR 4.
+**Terror Bird** : Terror birds stand a full foot taller than the average axe beak, and their powerful talons serve as additional weapons. Terror birds are axe beaks advanced to 5 HD that gain [Improved Critical](feats.md#_improved-critical) (bite) as a bonus feat. They also have two additional natural attacks, a pair of talons that do a base damage of 1d4 damage each. Terror birds are CR 4.
 

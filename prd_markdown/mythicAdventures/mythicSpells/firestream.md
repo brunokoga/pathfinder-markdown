@@ -1,6 +1,6 @@
 Firestream
 
-**Source** [_firestream_](/pathfinderRPG/prd/advancedRaceGuide/featuredRaces/ifrits.html#_firestream)
+**Source** [_firestream_](advancedRaceGuide/featuredRaces/ifrits.md#_firestream)
 
 The damage dealt increases to 2d10 points of fire damage. Any creature that fails its saving throw also catches fire. The continuous line of fire pushes against all creatures, making them treat the spell's area as difficult terrain.
 

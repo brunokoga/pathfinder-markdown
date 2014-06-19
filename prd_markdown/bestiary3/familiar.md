@@ -1,18 +1,18 @@
 # Small Familiars
 
-Small familiars threaten the areas around them like Small creatures, and can be used to flank enemies, though both familiars and their masters are often loath to use such tactics, as the result is often a dead familiar. Small familiars are also harder to keep on a master's person than Tiny or smaller familiars. Often they require some form of magic item, like a _ [bag of holding](/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-holding)_, to remain truly out of sight.
+Small familiars threaten the areas around them like Small creatures, and can be used to flank enemies, though both familiars and their masters are often loath to use such tactics, as the result is often a dead familiar. Small familiars are also harder to keep on a master's person than Tiny or smaller familiars. Often they require some form of magic item, like a _ [bag of holding](magicItems/wondrousItems.md#_bag-of-holding)_, to remain truly out of sight.
 
   
   
 
 | Familiar | Special Ability |
 | --- | --- |
-| Flying squirrel | Master gains a +3 bonus on [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) checks |
+| Flying squirrel | Master gains a +3 bonus on [Fly](skills/fly.md#_fly) checks |
 | Fox | Master gains a +2 bonus on Reflex saves |
-| Goat | Master gains a +3 bonus on [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) checks |
-| Otter | Master gains a +3 bonus on [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) checks |
-| PigMaster | gains a +3 bonus on [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) checks |
-| Raccoon | Master gains a +3 bonus on [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) checks |
+| Goat | Master gains a +3 bonus on [Survival](skills/survival.md#_survival) checks |
+| Otter | Master gains a +3 bonus on [Swim](skills/swim.md#_swim) checks |
+| PigMaster | gains a +3 bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) checks |
+| Raccoon | Master gains a +3 bonus on [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks |
 
 Flying Squirrel CR 1/3
 
@@ -20,7 +20,7 @@ XP 135
 
 N Tiny animal
 
-**Init** +2; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +1
+**Init** +2; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +1
 
 Defense
 
@@ -44,9 +44,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +0; **CMD** 6 (10 vs. trip)
 
-**Feats** [Acrobatic](/pathfinderRPG/prd/feats.html#_acrobatic)B, [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Acrobatic](feats.md#_acrobatic)B, [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +8 (+12 when jumping), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +10, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +4; **Racial Modifiers** +11 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) (+8 when jumping), +8 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +8 (+12 when jumping), [Climb](skills/climb.md#_climb) +10, [Fly](skills/fly.md#_fly) +4; **Racial Modifiers** +11 [Acrobatics](skills/acrobatics.md#_acrobatics) (+8 when jumping), +8 [Climb](skills/climb.md#_climb)
 
 **SQ** glide
 
@@ -70,7 +70,7 @@ XP 100
 
 N Tiny animal
 
-**Init** +2; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8
+**Init** +2; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +8
 
 Defense
 
@@ -94,9 +94,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +0; **CMD** 9 (13 vs. trip)
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +2 (+10 when jumping), [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +10, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +1 (+5 [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent) tracking); **Racial Modifiers** +4 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) when jumping, +4 [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) when tracking by [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +2 (+10 when jumping), [Perception](skills/perception.md#_perception) +8, [Stealth](skills/stealth.md#_stealth) +10, [Survival](skills/survival.md#_survival) +1 (+5 [scent](monsters/universalMonsterRules.md#_scent) tracking); **Racial Modifiers** +4 [Acrobatics](skills/acrobatics.md#_acrobatics) when jumping, +4 [Survival](skills/survival.md#_survival) when tracking by [scent](monsters/universalMonsterRules.md#_scent)
 
 Ecology
 
@@ -114,7 +114,7 @@ XP 135
 
 N Small animal
 
-**Init** +1; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +0
+**Init** +1; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +0
 
 Defense
 
@@ -136,9 +136,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +0; **CMD** 11 (15 vs. trip)
 
-**Feats** [Nimble Moves](/pathfinderRPG/prd/feats.html#_nimble-moves)
+**Feats** [Nimble Moves](feats.md#_nimble-moves)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +1 (+5 when jumping), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +5, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +0 (+4 to find food); **Racial Modifiers** +4 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) when jumping, +4 [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) to find food
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +1 (+5 when jumping), [Climb](skills/climb.md#_climb) +5, [Survival](skills/survival.md#_survival) +0 (+4 to find food); **Racial Modifiers** +4 [Acrobatics](skills/acrobatics.md#_acrobatics) when jumping, +4 [Survival](skills/survival.md#_survival) to find food
 
 Ecology
 
@@ -156,7 +156,7 @@ XP 100
 
 N Tiny animal
 
-**Init** +3; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +1
+**Init** +3; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +1
 
 Defense
 
@@ -180,13 +180,13 @@ Statistics
 
 **Base Atk** +0; **CMB** +1; **CMD** 7 (11 vs. trip)
 
-**Feats** [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +4, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +10
+**Skills** [Escape Artist](skills/escapeArtist.md#_escape-artist) +4, [Swim](skills/swim.md#_swim) +10
 
 Ecology
 
-**Environment** any [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype)
+**Environment** any [water](monsters/creatureTypes.md#_water-subtype)
 
 **Organization** solitary or family (2–16)
 
@@ -200,7 +200,7 @@ XP 135
 
 N Small animal
 
-**Init** +1; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
+**Init** +1; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +5
 
 Defense
 
@@ -222,9 +222,9 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 10 (14 vs. trip)
 
-**Feats** [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude)
+**Feats** [Great Fortitude](feats.md#_great-fortitude)
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
+**Skills** [Perception](skills/perception.md#_perception) +5
 
 Ecology
 
@@ -242,7 +242,7 @@ XP 200
 
 N Tiny animal
 
-**Init** +2; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +3
+**Init** +2; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +3
 
 Defense
 
@@ -266,15 +266,15 @@ Statistics
 
 **Base Atk** +0; **CMB** +0; **CMD** 9 (13 vs. trip)
 
-**Feats** [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +7, [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) +3
+**Skills** [Climb](skills/climb.md#_climb) +7, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +3
 
 Ecology
 
 **Environment** temperate forests
 
-**Organization** solitary or [gaze](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze) (2–4)
+**Organization** solitary or [gaze](monsters/universalMonsterRules.md#_gaze) (2–4)
 
 **Treasure** none
 

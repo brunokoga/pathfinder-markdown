@@ -1,6 +1,6 @@
 Ricochet Shot
 
-**Source** [_ricochet shot_](/pathfinderRPG/prd/ultimateCombat/spells/ricochetShot.html#_ricochet-shot)
+**Source** [_ricochet shot_](ultimateCombat/spells/ricochetShot.md#_ricochet-shot)
 
 If the attack hits the secondary target, the wielder can select a tertiary target within 20 feet of the secondary target. This functions like a ricochet off the primary target. The tertiary target must be a different creature than the primary target.
 

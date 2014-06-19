@@ -12,7 +12,7 @@
 
 **Duration** concentration, up to 10 min./level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
 You can detect a particular kind of animal or plant in a cone emanating out from you in whatever direction you face. You must think of a kind of animal or plant when using the spell, but you can change the animal or plant kind each round. The amount of information revealed depends on how long you search a particular area or focus on a specific kind of animal or plant.
 

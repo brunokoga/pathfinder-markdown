@@ -6,9 +6,9 @@ Dybbuk CR 15
 
 XP 51,200
 
-NE Medium undead ( [incorporeal](/pathfinderRPG/prd/monsters/creatureTypes.html#_incorporeal-subtype))
+NE Medium undead ( [incorporeal](monsters/creatureTypes.md#_incorporeal-subtype))
 
-**Init** +15; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +29
+**Init** +15; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +29
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +13, **Ref** +17, **Will** +17
 
-**Defensive Abilities** [incorporeal](/pathfinderRPG/prd/monsters/creatureTypes.html#_incorporeal-subtype), channel [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) +4; **DR** 10/good; **Immune** undead traits; **SR** 26
+**Defensive Abilities** [incorporeal](monsters/creatureTypes.md#_incorporeal-subtype), channel [resistance](monsters/universalMonsterRules.md#_resistance) +4; **DR** 10/good; **Immune** undead traits; **SR** 26
 
 Offense
 
@@ -30,11 +30,11 @@ Offense
 
 **Spell-Like Abilities** (CL 18th; concentration +25)
 
-At will—_ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_ (DC 19), _ [telekinesis](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis)_ (DC 22)
+At will—_ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_ (DC 19), _ [telekinesis](spells/telekinesis.md#_telekinesis)_ (DC 22)
 
-3/day—_ [dominate monster](/pathfinderRPG/prd/spells/dominateMonster.html#_dominate-monster)_ (DC 22), _ [feeblemind](/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind)_ (DC 22), _ [inflict serious wounds](/pathfinderRPG/prd/spells/inflictSeriousWounds.html#_inflict-serious-wounds)_ (DC 20)
+3/day—_ [dominate monster](spells/dominateMonster.md#_dominate-monster)_ (DC 22), _ [feeblemind](spells/feeblemind.md#_feeblemind)_ (DC 22), _ [inflict serious wounds](spells/inflictSeriousWounds.md#_inflict-serious-wounds)_ (DC 20)
 
-1/day—_ [greater heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism-greater)_, _ [modify memory](/pathfinderRPG/prd/spells/modifyMemory.html#_modify-memory)_ (DC 21), _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+1/day—_ [greater heroism](spells/heroism.md#_heroism-greater)_, _ [modify memory](spells/modifyMemory.md#_modify-memory)_ (DC 21), _ [tongues](spells/tongues.md#_tongues)_
 
 Statistics
 
@@ -42,9 +42,9 @@ Statistics
 
 **Base Atk** +13; **CMB** +24; **CMD** 41
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Blind-Fight](/pathfinderRPG/prd/feats.html#_blind-fight), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lunge](/pathfinderRPG/prd/feats.html#_lunge), [Step Up](/pathfinderRPG/prd/feats.html#_step-up), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Alertness](feats.md#_alertness), [Blind-Fight](feats.md#_blind-fight), [Combat Reflexes](feats.md#_combat-reflexes), [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Lunge](feats.md#_lunge), [Step Up](feats.md#_step-up), [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +25, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +25, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +19, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +28, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +29, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +29, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +32
+**Skills** [Bluff](skills/bluff.md#_bluff) +25, [Diplomacy](skills/diplomacy.md#_diplomacy) +25, [Fly](skills/fly.md#_fly) +19, [Intimidate](skills/intimidate.md#_intimidate) +28, [Perception](skills/perception.md#_perception) +29, [Sense Motive](skills/senseMotive.md#_sense-motive) +29, [Stealth](skills/stealth.md#_stealth) +32
 
 **Languages** Abyssal, Celestial, Common
 
@@ -58,11 +58,11 @@ Ecology
 
 Special Abilities
 
-**Malevolence (Su)** Once per round, a dybbuk can merge itself with a creature on the Material Plane. This ability is similar to a _ [magic jar](/pathfinderRPG/prd/spells/magicJar.html#_magic-jar)_ spell (caster level 18th), except that it does not require a receptacle. To use this ability, the dybbuk must be adjacent to the target. The target can resist the attack with a successful DC 26 Will save. A creature that successfully saves is immune to that same dybbuk's malevolence for 24 hours. The save DC is Charisma-based.
+**Malevolence (Su)** Once per round, a dybbuk can merge itself with a creature on the Material Plane. This ability is similar to a _ [magic jar](spells/magicJar.md#_magic-jar)_ spell (caster level 18th), except that it does not require a receptacle. To use this ability, the dybbuk must be adjacent to the target. The target can resist the attack with a successful DC 26 Will save. A creature that successfully saves is immune to that same dybbuk's malevolence for 24 hours. The save DC is Charisma-based.
 
 **Pain Touch (Su)** With a successful touch attack, a dybbuk causes painful spasms throughout the target's body, dealing 7d6 points of damage. Creatures that are immune to pain take no damage from this touch.
 
-**Possess Object (Su)** A dybbuk can use its malevolence ability to possess a Large or smaller unattended object, animating it as if using _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_, except the dybbuk merges with and controls the object as if it were a living creature. The dybbuk cannot speak or use its other special abilities while possessing the object.
+**Possess Object (Su)** A dybbuk can use its malevolence ability to possess a Large or smaller unattended object, animating it as if using _ [animate objects](spells/animateObjects.md#_animate-objects)_, except the dybbuk merges with and controls the object as if it were a living creature. The dybbuk cannot speak or use its other special abilities while possessing the object.
 
 A dybbuk is a misplaced soul who has eluded judgment because of a some great transgression or a pitiful suicide. Like a ghost, it lingers on in the mortal world, either trying to fulfill an insane need to right some great failure that has marked its soul for eternity or merely to spread the torment it is condemned to face for eternity. Bodiless and left to wander, dybbuks grow increasingly bitter and resentful over the loss of their bodies and endlessly seek mortal or even inanimate forms to steal and use to sow suffering. Vile manipulators, they seek bodies that have the greatest potential to cause pain in those closest to their victims, taking pleasure in shifting a leader's agenda toward the destruction of her followers or torturing an innocent from within. Dybbuks also often animate unliving things to spread fear, reveling in the chaos resulting from manipulating corpses to confuse and terrify. Most also realize they have all of eternity to torment their chosen victims, and might lurk quietly near a living target for weeks or months, waiting for the right moment to act and begin their terrors anew.
 

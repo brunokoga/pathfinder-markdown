@@ -12,7 +12,7 @@
 
 **Duration** 1 min./level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
 Flames as bright as a torch appear in your open hand. The flames harm neither you nor your equipment.
 

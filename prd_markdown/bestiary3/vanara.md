@@ -6,11 +6,11 @@ Vanara CR 1/2
 
 XP 200
 
-[Vanara](/pathfinderRPG/prd/monsters/creatureTypes.html#_vanara-subtype) monk 1
+[Vanara](monsters/creatureTypes.md#_vanara-subtype) monk 1
 
-LG Medium humanoid ( [vanara](/pathfinderRPG/prd/monsters/creatureTypes.html#_vanara-subtype))
+LG Medium humanoid ( [vanara](monsters/creatureTypes.md#_vanara-subtype))
 
-**Init** +3; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +7
+**Init** +3; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +7
 
 Defense
 
@@ -35,9 +35,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +1; **CMD** 18
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes)B, [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike)B, [Stunning Fist](/pathfinderRPG/prd/classes/monk.html#_stunning-fist)B
+**Feats** [Combat Reflexes](feats.md#_combat-reflexes)B, [Dodge](feats.md#_dodge), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike)B, [Stunning Fist](classes/monk.md#_stunning-fist)B
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +9, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +13, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +7, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +7, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +9; **Racial Modifiers** +2 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics), +2 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +9, [Climb](skills/climb.md#_climb) +13, [Perception](skills/perception.md#_perception) +7, [Sense Motive](skills/senseMotive.md#_sense-motive) +7, [Stealth](skills/stealth.md#_stealth) +9; **Racial Modifiers** +2 [Acrobatics](skills/acrobatics.md#_acrobatics), +2 [Stealth](skills/stealth.md#_stealth)
 
 **Languages** Common, Sylvan, Vanaran
 
@@ -69,7 +69,7 @@ Vanaras are defined by their class levels—they do not possess racial Hit Dice.
 
 **Low-Light Vision** : Vanaras can see twice as far as a human in conditions of dim light.
 
-**Nimble** : Vanaras have a +2 racial bonus on [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) and [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks.
+**Nimble** : Vanaras have a +2 racial bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) and [Stealth](skills/stealth.md#_stealth) checks.
 
 **Prehensile Tail** : See above.
 

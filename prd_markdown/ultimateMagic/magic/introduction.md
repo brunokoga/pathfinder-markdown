@@ -8,31 +8,31 @@ This chapter introduces several new subsystems and guidelines that help true aco
 
 Major subjects and subsystems covered in this chapter include the following.
 
-## [Spellblights](spellblights.html)
+## [Spellblights](spellblights.md)
 
 Just as spellcasters have strange and extraordinary abilities unavailable to the common person, so too are they susceptible to unique maladies. Spellblights are specific curses that only affect spellcasters and creatures that use spell-like abilities, saddling them with a host of unfortunate conditions that are extremely difficult to get rid of and greatly hinder the victim's use of magic. (Fortunately, some of these curses have also been discovered to have beneficial side effects that cursed casters can use to their advantage.) Divided into both major and minor categories, spellblights include such grotesque conditions as hemoculysis—in which the caster bleeds from the eyes each time she casts a spell—as well as gentler but more inconvenient afflictions such as phase blight and spell addiction.
 
-## [Spell Duels](spellDuels.html)
+## [Spell Duels](spellDuels.md)
 
 When two competent spellcasters come to blows, the result is always impressive, if not downright frightening. Yet not every matter of honor is meant to be settled on the battlefield in standard, no-holds-barred combat. To this end, many of the more civilized casters (especially those in magical universities, military orders, and other situations in which the combatants might regret killing their opponents, or need to prove that their victory was through skill alone) settle such matters using a highly ritualized form of combat known as the spell duel.
 
-## [Binding Outsiders](bindingOutsiders.html)
+## [Binding Outsiders](bindingOutsiders.md)
 
 What better way for an accomplished arcanist or theological miracle-worker to display his abilities than to summon and bind a powerful outsider as his servant? This section begins with general notes on binding, then goes on to present inside information on the various gifts and offerings that help secure the allegiance of each individual type of outsider, from akhana aeons to shoggti qlippoth.
 
-## [Building and Modifying Constructs](buildingAndModifyingConstructs.html)
+## [Building and Modifying Constructs](buildingAndModifyingConstructs.md)
 
 Constructs can be far more than just lumbering golems and awkward animated bureaus. Those who devote their lives to unlocking the inner workings of animating magic have uncovered numerous new abilities with which to imbue their constructs, as well as strange new ways to utilize the constructs themselves. Learn new animated object abilities, as well as how to price, modify, and repair unique constructs. Or dive deeper into more complex modifications: give your golem a brain to store feats, wear it as armor, see through its eyes, inscribe a rune on its forehead to protect it, or turn its limbs into grenades ready to shatter and splash liquid death over those who attack it.
 
-## [New Familiars](newFamiliars.html)
+## [New Familiars](newFamiliars.md)
 
 A distinctive spellcaster deserves a distinctive familiar. This section presents statistics from a number of new and highly recognizable familiars, from the blue-ringed octopus and the donkey rat to the king crab and the ever-popular pig.
 
-## [Spellbooks](spellbooks.html)
+## [Spellbooks](spellbooks.md)
 
 As with all scholarly practices, wizards and other arcane casters who follow an academic course to power achieve greatness by standing on the shoulders of giants. Presented in this section are numerous unique spellbooks ready to be dropped in front of arcane adventurers as treasure, or perhaps sought out as the objects of scholarly quests. In addition to spell lists and brief descriptions of each book's theme, these listings also include preparation rituals—boons a spellcaster can receive by preparing her spells using the spellbook in question. But beware, for not all of the spellcasters who penned these tomes take kindly to interlopers plagiarizing their work, and some spellbooks carry dangerous wards to defend their pages against prying eyes.
 
-## [Designing Spells](designingSpells.html)
+## [Designing Spells](designingSpells.md)
 
 While this book contains a host of new spells, you can never have enough variety in your magical arsenal, and one of the great joys of playing a spellcaster (or Game Mastering for one!) is designing new spells unique to a given character or situation. This section takes a detailed look at the design process for spells, a delicate balancing act that is as much art as science. How much damage should a spell of a given level do? Is a spell that kills or controls more powerful? Which bonus type should a given spell grant? What spells are good benchmarks to compare your new creation against?
 

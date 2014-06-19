@@ -10,7 +10,7 @@ Human cleric 3
 
 NE Medium humanoid
 
-**Init** +1; **Senses** [Perception](../../skills/perception.html#_perception) +3
+**Init** +1; **Senses** [Perception](../../skills/perception.md#_perception) +3
 
 **Defense**
 
@@ -34,11 +34,11 @@ NE Medium humanoid
 
 **Cleric Spells Prepared** (CL 3rd; concentration +5)
 
-2nd—_ [cure moderate wounds](../../spells/cureModerateWounds.html#_cure-moderate-wounds)_D, _ [death knell](../../spells/deathKnell.html#_death-knell) _(DC 14), _ [hold person](../../spells/holdPerson.html#_hold-person) _(DC 14)
+2nd—_ [cure moderate wounds](../../spells/cureModerateWounds.md#_cure-moderate-wounds)_D, _ [death knell](../../spells/deathKnell.md#_death-knell) _(DC 14), _ [hold person](../../spells/holdPerson.md#_hold-person) _(DC 14)
 
-1st—_ [bane](../../magicItems/weapons.html#_weapons-bane) _(DC13), _ [cause fear](../../spells/causeFear.html#_cause-fear) _(DC 13), _ [cure light wounds](../../spells/cureLightWounds.html#_cure-light-wounds)_D, _ [doom](../../spells/doom.html#_doom)_ (DC 13)
+1st—_ [bane](../../magicItems/weapons.md#_weapons-bane) _(DC13), _ [cause fear](../../spells/causeFear.md#_cause-fear) _(DC 13), _ [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_D, _ [doom](../../spells/doom.md#_doom)_ (DC 13)
 
-0 (at will)—_ [bleed](../../spells/bleed.html#_bleed) _(DC 12), _ [guidance](../../spells/guidance.html#_guidance)_, _ [light](../../spells/light.html#_light)_, _ [resistance](../../spells/resistance.html#_resistance)_
+0 (at will)—_ [bleed](../../spells/bleed.md#_bleed) _(DC 12), _ [guidance](../../spells/guidance.md#_guidance)_, _ [light](../../spells/light.md#_light)_, _ [resistance](../../spells/resistance.md#_resistance)_
 
 **D** domain spell; **Domains** Evil, Healing
 
@@ -48,9 +48,9 @@ NE Medium humanoid
 
 **Base Atk** +2; **CMB** +2; **CMD** 13
 
-**Feats** [Alignment Channel](../../feats.html#_alignment-channel), [Combat Casting](../../feats.html#_combat-casting), [Selective Channeling](../../feats.html#_selective-channeling)
+**Feats** [Alignment Channel](../../feats.md#_alignment-channel), [Combat Casting](../../feats.md#_combat-casting), [Selective Channeling](../../feats.md#_selective-channeling)
 
-**Skills** [Knowledge](../../skills/knowledge.html#_knowledge) (planes) +4, [Knowledge](../../skills/knowledge.html#_knowledge) (religion) +4, [Linguistics](../../skills/linguistics.html#_linguistics) +4, [Perception](../../skills/perception.html#_perception) +3, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +6, [Spellcraft](../../skills/spellcraft.html#_spellcraft) +3
+**Skills** [Knowledge](../../skills/knowledge.md#_knowledge) (planes) +4, [Knowledge](../../skills/knowledge.md#_knowledge) (religion) +4, [Linguistics](../../skills/linguistics.md#_linguistics) +4, [Perception](../../skills/perception.md#_perception) +3, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +6, [Spellcraft](../../skills/spellcraft.md#_spellcraft) +3
 
 **Languages** Abyssal, Common, Infernal
 
@@ -72,7 +72,7 @@ Human conjurer 7
 
 N Medium humanoid
 
-**Init** +5; **Senses** [Perception](../../skills/perception.html#_perception) +5
+**Init** +5; **Senses** [Perception](../../skills/perception.md#_perception) +5
 
 **Defense**
 
@@ -94,15 +94,15 @@ N Medium humanoid
 
 **Wizard Spells Prepared** (CL 7th; concentration +12)
 
-4th—_ [dimension door](../../spells/dimensionDoor.html#_dimension-door)_, _ [summon monster IV](../../spells/summonMonster.html#_summon-monster-iv)_
+4th—_ [dimension door](../../spells/dimensionDoor.md#_dimension-door)_, _ [summon monster IV](../../spells/summonMonster.md#_summon-monster-iv)_
 
-3rd—_ [haste](../../spells/haste.html#_haste)_, _ [stinking cloud](../../spells/stinkingCloud.html#_stinking-cloud) _(DC 18), _ [summon monster III](../../spells/summonMonster.html#_summon-monster-iii)_
+3rd—_ [haste](../../spells/haste.md#_haste)_, _ [stinking cloud](../../spells/stinkingCloud.md#_stinking-cloud) _(DC 18), _ [summon monster III](../../spells/summonMonster.md#_summon-monster-iii)_
 
-2nd—_ [glitterdust](../../spells/glitterdust.html#_glitterdust)_ (DC 17), _ [invisibility](../../spells/invisibility.html#_invisibility)_, _ [minor image](../../spells/minorImage.html#_minor-image)_ (DC 17), _ [summon monster II](../../spells/summonMonster.html#_summon-monster-ii)_
+2nd—_ [glitterdust](../../spells/glitterdust.md#_glitterdust)_ (DC 17), _ [invisibility](../../spells/invisibility.md#_invisibility)_, _ [minor image](../../spells/minorImage.md#_minor-image)_ (DC 17), _ [summon monster II](../../spells/summonMonster.md#_summon-monster-ii)_
 
-1st—_ [grease](../../spells/grease.html#_grease)_ (DC 16), _ [mage armor](../../spells/mageArmor.html#_mage-armor)_, _ [magic missile](../../spells/magicMissile.html#_magic-missile)_ (2), _ [protection from good](../../spells/protectionFromGood.html#_protection-from-good)_, _ [summon monster I](../../spells/summonMonster.html#_summon-monster-i)_
+1st—_ [grease](../../spells/grease.md#_grease)_ (DC 16), _ [mage armor](../../spells/mageArmor.md#_mage-armor)_, _ [magic missile](../../spells/magicMissile.md#_magic-missile)_ (2), _ [protection from good](../../spells/protectionFromGood.md#_protection-from-good)_, _ [summon monster I](../../spells/summonMonster.md#_summon-monster-i)_
 
-0 (at will)—_ [detect magic](../../spells/detectMagic.html#_detect-magic)_, _ [ghost sound](../../spells/ghostSound.html#_ghost-sound) _(DC 15), _ [mage hand](../../spells/mageHand.html#_mage-hand)_, _ [ray of frost](../../spells/rayOfFrost.html#_ray-of-frost)_
+0 (at will)—_ [detect magic](../../spells/detectMagic.md#_detect-magic)_, _ [ghost sound](../../spells/ghostSound.md#_ghost-sound) _(DC 15), _ [mage hand](../../spells/mageHand.md#_mage-hand)_, _ [ray of frost](../../spells/rayOfFrost.md#_ray-of-frost)_
 
 **Prohibited Schools** enchantment, necromancy
 
@@ -112,15 +112,15 @@ N Medium humanoid
 
 **Base Atk** +3; **CMB** +2; **CMD** 17
 
-**Feats** [Augment Summoning](../../feats.html#_augment-summoning), [Craft Wondrous Item](../../feats.html#_craft-wondrous-item), [Defensive Combat Training](../../feats.html#_defensive-combat-training), [Improved Familiar](../../feats.html#_improved-familiar), [Improved Initiative](../../feats.html#_improved-initiative), [Scribe Scroll](../../feats.html#_scribe-scroll), [Spell Focus](../../feats.html#_spell-focus) (conjuration)
+**Feats** [Augment Summoning](../../feats.md#_augment-summoning), [Craft Wondrous Item](../../feats.md#_craft-wondrous-item), [Defensive Combat Training](../../feats.md#_defensive-combat-training), [Improved Familiar](../../feats.md#_improved-familiar), [Improved Initiative](../../feats.md#_improved-initiative), [Scribe Scroll](../../feats.md#_scribe-scroll), [Spell Focus](../../feats.md#_spell-focus) (conjuration)
 
-**Skills** [Appraise](../../skills/appraise.html#_appraise) +10, [Craft](../../skills/craft.html#_craft) (traps) +15, [Craft](../../skills/craft.html#_craft) (jewelry) +10, [Fly](../../skills/fly.html#_fly) +10, [Handle Animal](../../skills/handleAnimal.html#_handle-animal) +5, [Intimidate](../../skills/intimidate.html#_intimidate) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (arcana) +15, [Knowledge](../../skills/knowledge.html#_knowledge) (dungeoneering) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (planes) +15, [Knowledge](../../skills/knowledge.html#_knowledge) (religion) +10, [Linguistics](../../skills/linguistics.html#_linguistics) +10, [Perception](../../skills/perception.html#_perception) +5, [Spellcraft](../../skills/spellcraft.html#_spellcraft) +15
+**Skills** [Appraise](../../skills/appraise.md#_appraise) +10, [Craft](../../skills/craft.md#_craft) (traps) +15, [Craft](../../skills/craft.md#_craft) (jewelry) +10, [Fly](../../skills/fly.md#_fly) +10, [Handle Animal](../../skills/handleAnimal.md#_handle-animal) +5, [Intimidate](../../skills/intimidate.md#_intimidate) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (arcana) +15, [Knowledge](../../skills/knowledge.md#_knowledge) (dungeoneering) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (planes) +15, [Knowledge](../../skills/knowledge.md#_knowledge) (religion) +10, [Linguistics](../../skills/linguistics.md#_linguistics) +10, [Perception](../../skills/perception.md#_perception) +5, [Spellcraft](../../skills/spellcraft.md#_spellcraft) +15
 
 **Languages** Abyssal, Aquan, Auran, Celestial, Common, Ignan, Infernal, Terran
 
 **SQ** arcane bond (quasit familiar), summoner's charm (3 rounds)
 
-**Combat Gear** _lesser metamagic rod_ (silent), _scrolls of [expeditious retreat](../../spells/expeditiousRetreat.html#_expeditious-retreat)_, _ [obscuring mist](../../spells/obscuringMist.html#_obscuring-mist)_, _ [see invisibility](../../spells/seeInvisibility.html#_see-invisibility)_, _ [black tentacles](../../spells/blackTentacles.html#_black-tentacles)_; **Other Gear** alchemical silver dagger, cold iron dagger, _ [cloak of resistance](../../magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _headband of vast intellect +2_
+**Combat Gear** _lesser metamagic rod_ (silent), _scrolls of [expeditious retreat](../../spells/expeditiousRetreat.md#_expeditious-retreat)_, _ [obscuring mist](../../spells/obscuringMist.md#_obscuring-mist)_, _ [see invisibility](../../spells/seeInvisibility.md#_see-invisibility)_, _ [black tentacles](../../spells/blackTentacles.md#_black-tentacles)_; **Other Gear** alchemical silver dagger, cold iron dagger, _ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _headband of vast intellect +2_
 
 **Boon** A conjurist can provide hidden lore about one type of outsider, granting a +2 circumstance bonus on the next Charisma-based check PCs make with that type of creature.
 
@@ -134,7 +134,7 @@ Human cleric 10/rogue 2
 
 NE Medium humanoid
 
-**Init** +2; **Senses** [Perception](../../skills/perception.html#_perception) +10
+**Init** +2; **Senses** [Perception](../../skills/perception.md#_perception) +10
 
 **Defense**
 
@@ -150,7 +150,7 @@ NE Medium humanoid
 
 **Speed** 30 ft.
 
-**Melee** _+1 human [bane](../../magicItems/weapons.html#_weapons-bane) morningstar_ +10/+5 (1d8+2)
+**Melee** _+1 human [bane](../../magicItems/weapons.md#_weapons-bane) morningstar_ +10/+5 (1d8+2)
 
 **Ranged** dagger +10 (1d4+1/19–20)
 
@@ -160,17 +160,17 @@ NE Medium humanoid
 
 **Cleric Spells Prepared** (CL 10th; concentration +15)
 
-5th—_ [breath of life](../../spells/breathOfLife.html#_breath-of-life)_D, _ [mass cure light wounds](../../spells/cureLightWounds.html#_cure-light-wounds-mass)_, _ [righteous might](../../spells/righteousMight.html#_righteous-might)_, _ [summon monster V](../../spells/summonMonster.html#_summon-monster-v)_
+5th—_ [breath of life](../../spells/breathOfLife.md#_breath-of-life)_D, _ [mass cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds-mass)_, _ [righteous might](../../spells/righteousMight.md#_righteous-might)_, _ [summon monster V](../../spells/summonMonster.md#_summon-monster-v)_
 
-4th—_ [air walk](../../spells/airWalk.html#_air-walk)_, _ [cure critical wounds](../../spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [dismissal](../../spells/dismissal.html#_dismissal) _(DC 19), _ [divine power](../../spells/divinePower.html#_divine-power)_, _ [unholy blight](../../spells/unholyBlight.html#_unholy-blight)_D (DC 19)
+4th—_ [air walk](../../spells/airWalk.md#_air-walk)_, _ [cure critical wounds](../../spells/cureCriticalWounds.md#_cure-critical-wounds)_, _ [dismissal](../../spells/dismissal.md#_dismissal) _(DC 19), _ [divine power](../../spells/divinePower.md#_divine-power)_, _ [unholy blight](../../spells/unholyBlight.md#_unholy-blight)_D (DC 19)
 
-3rd—_ [cure serious wounds](../../spells/cureSeriousWounds.html#_cure-serious-wounds)_ (2), _ [dispel magic](../../spells/dispelMagic.html#_dispel-magic)_, _ [magic circle against good](../../spells/magicCircleAgainstGood.html#_magic-circle-against-good)_D, _ [prayer](../../spells/prayer.html#_prayer)_
+3rd—_ [cure serious wounds](../../spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _ [dispel magic](../../spells/dispelMagic.md#_dispel-magic)_, _ [magic circle against good](../../spells/magicCircleAgainstGood.md#_magic-circle-against-good)_D, _ [prayer](../../spells/prayer.md#_prayer)_
 
-2nd—_ [aid](../../spells/aid.html#_aid)_, _ [cure moderate wounds](../../spells/cureModerateWounds.html#_cure-moderate-wounds)_D, _ [death knell](../../spells/deathKnell.html#_death-knell) _(DC 17), _ [silence](../../spells/silence.html#_silence)_ (DC 17), _ [spiritual weapon](../../spells/spiritualWeapon.html#_spiritual-weapon)_, _ [undetectable alignment](../../spells/undetectableAlignment.html#_undetectable-alignment)_
+2nd—_ [aid](../../spells/aid.md#_aid)_, _ [cure moderate wounds](../../spells/cureModerateWounds.md#_cure-moderate-wounds)_D, _ [death knell](../../spells/deathKnell.md#_death-knell) _(DC 17), _ [silence](../../spells/silence.md#_silence)_ (DC 17), _ [spiritual weapon](../../spells/spiritualWeapon.md#_spiritual-weapon)_, _ [undetectable alignment](../../spells/undetectableAlignment.md#_undetectable-alignment)_
 
-1st—_ [command](../../spells/command.html#_command)_ (DC 16), _ [cure light wounds](../../spells/cureLightWounds.html#_cure-light-wounds)_D, _ [deathwatch](../../spells/deathwatch.html#_deathwatch)_, _ [divine favor](../../spells/divineFavor.html#_divine-favor)_, _ [obscuring mist](../../spells/obscuringMist.html#_obscuring-mist)_, _ [remove fear](../../spells/removeFear.html#_remove-fear)_, _ [shield of faith](../../spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_ [command](../../spells/command.md#_command)_ (DC 16), _ [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_D, _ [deathwatch](../../spells/deathwatch.md#_deathwatch)_, _ [divine favor](../../spells/divineFavor.md#_divine-favor)_, _ [obscuring mist](../../spells/obscuringMist.md#_obscuring-mist)_, _ [remove fear](../../spells/removeFear.md#_remove-fear)_, _ [shield of faith](../../spells/shieldOfFaith.md#_shield-of-faith)_
 
-0 (at will)—_ [create water](../../spells/createWater.html#_create-water)_, _ [guidance](../../spells/guidance.html#_guidance)_, _ [light](../../spells/light.html#_light)_, _purify food & drink_
+0 (at will)—_ [create water](../../spells/createWater.md#_create-water)_, _ [guidance](../../spells/guidance.md#_guidance)_, _ [light](../../spells/light.md#_light)_, _purify food & drink_
 
 **D** domain spell; **Domains** Evil, Healing
 
@@ -180,15 +180,15 @@ NE Medium humanoid
 
 **Base Atk** +8; **CMB** +9; **CMD** 23
 
-**Feats** [Channel Smite](../../feats.html#_channel-smite), [Combat Casting](../../feats.html#_combat-casting), [Command Undead](../../feats.html#_command-undead), [Craft Magic Arms and Armor](../../feats.html#_craft-magic-arms-and-armor), [Craft Wondrous Item](../../feats.html#_craft-wondrous-item), [Extra Channel](../../feats.html#_extra-channel), [Forge Ring](../../feats.html#_forge-ring), [Vital Strike](../../feats.html#_vital-strike)
+**Feats** [Channel Smite](../../feats.md#_channel-smite), [Combat Casting](../../feats.md#_combat-casting), [Command Undead](../../feats.md#_command-undead), [Craft Magic Arms and Armor](../../feats.md#_craft-magic-arms-and-armor), [Craft Wondrous Item](../../feats.md#_craft-wondrous-item), [Extra Channel](../../feats.md#_extra-channel), [Forge Ring](../../feats.md#_forge-ring), [Vital Strike](../../feats.md#_vital-strike)
 
-**Skills** [Bluff](../../skills/bluff.html#_bluff) +5, [Diplomacy](../../skills/diplomacy.html#_diplomacy) +5, [Heal](../../skills/heal.html#_heal) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (history) +3, [Knowledge](../../skills/knowledge.html#_knowledge) (local) +3, [Knowledge](../../skills/knowledge.html#_knowledge) (planes) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (religion) +10, [Linguistics](../../skills/linguistics.html#_linguistics) +5, [Perception](../../skills/perception.html#_perception) +10, [Profession](../../skills/profession.html#_profession) (any one) +10, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +10, [Spellcraft](../../skills/spellcraft.html#_spellcraft) +10
+**Skills** [Bluff](../../skills/bluff.md#_bluff) +5, [Diplomacy](../../skills/diplomacy.md#_diplomacy) +5, [Heal](../../skills/heal.md#_heal) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (history) +3, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +3, [Knowledge](../../skills/knowledge.md#_knowledge) (planes) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (religion) +10, [Linguistics](../../skills/linguistics.md#_linguistics) +5, [Perception](../../skills/perception.md#_perception) +10, [Profession](../../skills/profession.md#_profession) (any one) +10, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +10, [Spellcraft](../../skills/spellcraft.md#_spellcraft) +10
 
 **Languages** Abyssal, Common, Infernal, Terran
 
 **SQ** aura, healer's blessing, rogue talent (combat trick), trapfinding
 
-**Combat Gear** _scroll of [invisibility purge](../../spells/invisibilityPurge.html#_invisibility-purge)_, alchemist's fire (2); **Other Gear** _+2 chain shirt_, _+2 heavy wooden [shield](../../spells/shield.html#_shield)_, _+1 human [bane](../../magicItems/weapons.html#_weapons-bane) morningstar_, cold iron dagger, _ [cloak of resistance](../../magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [elemental gem](../../magicItems/wondrousItems.html#_elemental-gem) _(earth), _ [headband of inspired wisdom](../../magicItems/wondrousItems.html#_headband-of-inspired-wisdom) +2_, _ [ring of counterspells](../../magicItems/rings.html#_ring-of-counterspells)_ (dispel magic), _ [ring of protection](../../magicItems/rings.html#_ring-of-protection) +2_, _ [robe of bones](../../magicItems/wondrousItems.html#_robe-of-bones)_, silver unholy symbol
+**Combat Gear** _scroll of [invisibility purge](../../spells/invisibilityPurge.md#_invisibility-purge)_, alchemist's fire (2); **Other Gear** _+2 chain shirt_, _+2 heavy wooden [shield](../../spells/shield.md#_shield)_, _+1 human [bane](../../magicItems/weapons.md#_weapons-bane) morningstar_, cold iron dagger, _ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [elemental gem](../../magicItems/wondrousItems.md#_elemental-gem) _(earth), _ [headband of inspired wisdom](../../magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +2_, _ [ring of counterspells](../../magicItems/rings.md#_ring-of-counterspells)_ (dispel magic), _ [ring of protection](../../magicItems/rings.md#_ring-of-protection) +2_, _ [robe of bones](../../magicItems/wondrousItems.md#_robe-of-bones)_, silver unholy symbol
 
 **Boon** A cult leader can bind a planar ally for the PCs, send a pair of cultists to assist with a task, or trade a good-aligned magical item she has taken for an evil one she could use.
 

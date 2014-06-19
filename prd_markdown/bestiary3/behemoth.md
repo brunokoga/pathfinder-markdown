@@ -4,7 +4,7 @@ Immense, ageless, and very nearly invincible, behemoths deliver divine retributi
 
 For nearly as long as mortals have worshiped the gods, mortals have known hubris and the gods' righteous anger. When a mortal's offense grows too great for divine patience to suffer, the gods lash out through plagues and floods, and through their terrible servants. Of these vengeful minions, the behemoths are among the most feared. A god or coalition of gods creates a behemoth from the wellsprings of primal chaos, binds it into a semblance of flesh, and fills its mind with righteousness and the thirst to destroy all in its path. The beast is then turned loose upon its victims—those deemed most deserving of bearing the brunt of the wrath of the gods. Some deities stay close at hand as their beasts savage the lands, the better to turn the creatures aside once their divine anger is appeased, while others turn their backs on mortal plights, leaving behemoths to expend their anger until naught but lifeless cinders remain. Entire worlds have been destroyed by these living retributions. Such shattered lands might have nothing left alive save for the conquering behemoths themselves, immortal, living monuments to murdered worlds.
 
-While behemoths are created by the gods, their forms and countenances are the result of which of three domains they have been created to rule—air, earth, or sea. Each of these realms is in turn associated with one of three common types of behemoths—if the application of a word like âcommonâ is even appropriate for such an uncommon creature.
+While behemoths are created by the gods, their forms and countenances are the result of which of three domains they have been created to rule—air, earth, or sea. Each of these realms is in turn associated with one of three common types of behemoths—if the application of a word like “common” is even appropriate for such an uncommon creature.
 
 Behemoths cast upon a world's landmasses are known as thunder behemoths. These are the least of their kind, yet they are formidable, nigh unstoppable engines of armageddon nevertheless. They are the behemoths of choice when it comes to destroying a single nation or empire, for while devastating, they are bound to the land itself, and their advances across a globe are thus more limited than those of the two greater behemoths.
 
@@ -26,9 +26,9 @@ Tempest Behemoth CR 22
 
 XP 614,400
 
-N Colossal magical beast ( [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype), behemoth)
+N Colossal magical beast ( [air](monsters/creatureTypes.md#_air-subtype), behemoth)
 
-**Init** +9; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 60 ft., darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +31
+**Init** +9; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 60 ft., darkvision 60 ft.; [Perception](skills/perception.md#_perception) +31
 
 Defense
 
@@ -38,7 +38,7 @@ Defense
 
 **Fort** +26, **Ref** +23, **Will** +16
 
-**Defensive Abilities** unstoppable; **DR** 15/epic; **Immune** ability damage, aging, [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed), [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), electricity, [energy drain](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_energy-drain), [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), mind-affecting effects, negative levels, paralysis, permanent wounds, petrification, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)), polymorph; **SR** 33
+**Defensive Abilities** unstoppable; **DR** 15/epic; **Immune** ability damage, aging, [bleed](monsters/universalMonsterRules.md#_bleed), [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), electricity, [energy drain](monsters/universalMonsterRules.md#_energy-drain), [fire](monsters/creatureTypes.md#_fire-subtype), mind-affecting effects, negative levels, paralysis, permanent wounds, petrification, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), polymorph; **SR** 33
 
 **Weaknesses** vulnerable to miracles and wishes
 
@@ -46,17 +46,17 @@ Offense
 
 **Speed** 40 ft., fly 200 ft. (good)
 
-**Melee** bite +41 (4d6+16/19–20 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed)), 2 talons (2d8+16 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed)), wings +36 (8d8+8)
+**Melee** bite +41 (4d6+16/19–20 plus [bleed](monsters/universalMonsterRules.md#_bleed)), 2 talons (2d8+16 plus [bleed](monsters/universalMonsterRules.md#_bleed)), wings +36 (8d8+8)
 
-**Ranged** 6 scales +31 (1d10+16/19–20 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed))
+**Ranged** 6 scales +31 (1d10+16/19–20 plus [bleed](monsters/universalMonsterRules.md#_bleed))
 
 **Space** 30 ft.; **Reach** 30 ft.
 
-**Special Attacks** [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) (2d6), gale, ruinous, thunderbolt
+**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (2d6), gale, ruinous, thunderbolt
 
 **Spell-Like Abilities** (CL 20th; concentration +22)
 
-3/day—_ [storm of vengeance](/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance)_ (DC 21)
+3/day—_ [storm of vengeance](spells/stormOfVengeance.md#_storm-of-vengeance)_ (DC 21)
 
 Statistics
 
@@ -64,15 +64,15 @@ Statistics
 
 **Base Atk** +33; **CMB** +57; **CMD** 73
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Greater Vital Strike](/pathfinderRPG/prd/feats.html#_greater-vital-strike), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (feathers), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Improved Vital Strike](/pathfinderRPG/prd/feats.html#_improved-vital-strike), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Stance](/pathfinderRPG/prd/feats.html#_lightning-stance), [Mobility](/pathfinderRPG/prd/feats.html#_mobility), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Snatch](/pathfinderRPG/prd/monsters/monsterFeats.html#_snatch), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (feathers), Wind Stance
+**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Greater Vital Strike](feats.md#_greater-vital-strike), [Hover](monsters/monsterFeats.md#_hover), [Improved Critical](feats.md#_improved-critical) (feathers), [Improved Critical](feats.md#_improved-critical) (bite), [Improved Initiative](feats.md#_improved-initiative), [Improved Vital Strike](feats.md#_improved-vital-strike), [Iron Will](feats.md#_iron-will), [Lightning Stance](feats.md#_lightning-stance), [Mobility](feats.md#_mobility), [Power Attack](feats.md#_power-attack), [Snatch](monsters/monsterFeats.md#_snatch), [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (feathers), Wind Stance
 
-**Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +29, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +31, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) –7, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +15; **Racial Modifiers** +20 [Fly](/pathfinderRPG/prd/skills/fly.html#_fly), +10 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Fly](skills/fly.md#_fly) +29, [Perception](skills/perception.md#_perception) +31, [Stealth](skills/stealth.md#_stealth) –7, [Survival](skills/survival.md#_survival) +15; **Racial Modifiers** +20 [Fly](skills/fly.md#_fly), +10 [Perception](skills/perception.md#_perception)
 
 **Language** Aklo (cannot speak)
 
 Ecology
 
-**Environment** any [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype)
+**Environment** any [air](monsters/creatureTypes.md#_air-subtype)
 
 **Organization** solitary or pair
 
@@ -100,19 +100,19 @@ Thalassic Behemoth CR 20
 
 XP 307,200
 
-N Colossal magical beast ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype), behemoth, [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype))
+N Colossal magical beast ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype), behemoth, [water](monsters/creatureTypes.md#_water-subtype))
 
-**Init** –1; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 60 ft., darkvision 60 ft..; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +34
+**Init** –1; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 60 ft., darkvision 60 ft..; [Perception](skills/perception.md#_perception) +34
 
 Defense
 
 **AC** 37, touch 1, flat-footed 37 (–1 Dex, +36 natural, –8 size)
 
-**hp** 391 (29d10+232); regeneration 20 ( [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+**hp** 391 (29d10+232); regeneration 20 ( [fire](monsters/creatureTypes.md#_fire-subtype))
 
 **Fort** +24, **Ref** +17, **Will** +14
 
-**Defensive Abilities** unstoppable; **DR** 15/epic; **Immune** ability damage, aging, [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed), [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), [energy drain](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_energy-drain), [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), mind-affecting effects, negative levels, paralysis, permanent wounds, petrification, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)), polymorph; **SR** 31
+**Defensive Abilities** unstoppable; **DR** 15/epic; **Immune** ability damage, aging, [bleed](monsters/universalMonsterRules.md#_bleed), [cold](monsters/creatureTypes.md#_cold-subtype), [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), [energy drain](monsters/universalMonsterRules.md#_energy-drain), [fire](monsters/creatureTypes.md#_fire-subtype), mind-affecting effects, negative levels, paralysis, permanent wounds, petrification, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), polymorph; **SR** 31
 
 **Weaknesses** vulnerable to miracles and wishes
 
@@ -120,17 +120,17 @@ Offense
 
 **Speed** 20 ft., swim 200 ft.
 
-**Melee** bite +39 (6d6+18/19–20 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), 2 claws +39 (3d6+18), tail slap +34 (4d6+9 plus trip)
+**Melee** bite +39 (6d6+18/19–20 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 claws +39 (3d6+18), tail slap +34 (4d6+9 plus trip)
 
-**Ranged** [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) [jet](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet) +20 (4d8+18/19–20 plus stun and push)
+**Ranged** [water](monsters/creatureTypes.md#_water-subtype) [jet](monsters/universalMonsterRules.md#_jet) +20 (4d8+18/19–20 plus stun and push)
 
 **Space** 30 ft.; **Reach** 20 ft.
 
 **Spell-Like Abilities** (CL 20th; concentration +22)
 
-3/day—_ [tsunami](/pathfinderRPG/prd/advanced/spells/tsunami.html#_tsunami)_ (DC 21)
+3/day—_ [tsunami](advanced/spells/tsunami.md#_tsunami)_ (DC 21)
 
-**Special Attacks** capsize (DC 25), [fast swallow](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fast-swallow), push ( [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) [jet](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet), 20 ft.), rend (claws, 3d6+18), ruinous, swallow whole (4d6+27 bludgeoning, AC 28, 39 hp)
+**Special Attacks** capsize (DC 25), [fast swallow](monsters/universalMonsterRules.md#_fast-swallow), push ( [water](monsters/creatureTypes.md#_water-subtype) [jet](monsters/universalMonsterRules.md#_jet), 20 ft.), rend (claws, 3d6+18), ruinous, swallow whole (4d6+27 bludgeoning, AC 28, 39 hp)
 
 Statistics
 
@@ -138,9 +138,9 @@ Statistics
 
 **Base Atk** +29; **CMB** +55 (+59 grapple); **CMD** 64
 
-**Feats** [Ability Focus](/pathfinderRPG/prd/monsters/monsterFeats.html#_ability-focus) ( [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) [jet](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet)), [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Great Cleave](/pathfinderRPG/prd/feats.html#_great-cleave), [Greater Sunder](/pathfinderRPG/prd/feats.html#_greater-sunder), [Greater Vital Strike](/pathfinderRPG/prd/feats.html#_greater-vital-strike), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite, [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) [jet](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet)), [Improved Iron Will](/pathfinderRPG/prd/feats.html#_improved-iron-will), [Improved Sunder](/pathfinderRPG/prd/feats.html#_improved-sunder), [Improved Vital Strike](/pathfinderRPG/prd/feats.html#_improved-vital-strike), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike)
+**Feats** [Ability Focus](monsters/monsterFeats.md#_ability-focus) ( [water](monsters/creatureTypes.md#_water-subtype) [jet](monsters/universalMonsterRules.md#_jet)), [Cleave](feats.md#_cleave), [Great Cleave](feats.md#_great-cleave), [Greater Sunder](feats.md#_greater-sunder), [Greater Vital Strike](feats.md#_greater-vital-strike), [Improved Critical](feats.md#_improved-critical) (bite, [water](monsters/creatureTypes.md#_water-subtype) [jet](monsters/universalMonsterRules.md#_jet)), [Improved Iron Will](feats.md#_improved-iron-will), [Improved Sunder](feats.md#_improved-sunder), [Improved Vital Strike](feats.md#_improved-vital-strike), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception)), [Vital Strike](feats.md#_vital-strike)
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +34, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) –13, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +18, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +30; **Racial Modifiers** +10 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Perception](skills/perception.md#_perception) +34, [Stealth](skills/stealth.md#_stealth) –13, [Survival](skills/survival.md#_survival) +18, [Swim](skills/swim.md#_swim) +30; **Racial Modifiers** +10 [Perception](skills/perception.md#_perception)
 
 **SQ** amphibious
 
@@ -148,7 +148,7 @@ Statistics
 
 Ecology
 
-**Environment** any [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype)
+**Environment** any [water](monsters/creatureTypes.md#_water-subtype)
 
 **Organization** solitary or pair
 
@@ -156,7 +156,7 @@ Ecology
 
 Special Abilities
 
-**[Water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) [Jet](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet) (Su)** A thalassic behemoth can blast [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) from its blowhole with surprising force and accuracy. This [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) [jet](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet) has a range of 240 feet with no range penalties. A target hit by the [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) [jet](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_jet) is subject to the behemoth's push ability and must succeed at a DC 32 Fortitude save or be stunned for 1d4+1 rounds. The save DC is Constitution-based.
+**[Water](monsters/creatureTypes.md#_water-subtype) [Jet](monsters/universalMonsterRules.md#_jet) (Su)** A thalassic behemoth can blast [water](monsters/creatureTypes.md#_water-subtype) from its blowhole with surprising force and accuracy. This [water](monsters/creatureTypes.md#_water-subtype) [jet](monsters/universalMonsterRules.md#_jet) has a range of 240 feet with no range penalties. A target hit by the [water](monsters/creatureTypes.md#_water-subtype) [jet](monsters/universalMonsterRules.md#_jet) is subject to the behemoth's push ability and must succeed at a DC 32 Fortitude save or be stunned for 1d4+1 rounds. The save DC is Constitution-based.
 
 Sent by the gods to punish those who dwell near the sea, thalassic behemoths scourge ships and other vessels from the waters before turning their attention toward structures and survivors on land. Despite their massive bulk, thalassic behemoths swim incredibly fast and can easily outpace all but the fleetest of ships. On land, they can be more readily escaped, at least by those willing and able to leave homes and belongings behind. Though capable of surviving indefinitely on land and employing a clumsy, seal-like locomotion, thalassic behemoths soon weary of gravity's never-ending drag. They rarely venture more than a mile or two from shore before returning to the comforting buoyancy of the seas.
 
@@ -172,9 +172,9 @@ Thunder Behemoth CR 18
 
 XP 153,600
 
-N Colossal magical beast (behemoth, [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype))
+N Colossal magical beast (behemoth, [earth](monsters/creatureTypes.md#_earth-subtype))
 
-**Init** –2; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 60 ft., darkvision 60 ft., tremorsense 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +27
+**Init** –2; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 60 ft., darkvision 60 ft., tremorsense 60 ft.; [Perception](skills/perception.md#_perception) +27
 
 Defense
 
@@ -184,7 +184,7 @@ Defense
 
 **Fort** +22, **Ref** +12, **Will** +12
 
-**Defensive Abilities** unstoppable; **DR** 15/epic; **Immune** ability damage, acid, aging, [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed), [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), [energy drain](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_energy-drain), [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), mind-affecting effects, negative levels, paralysis, permanent wounds, petrification, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)), polymorph; **SR** 29
+**Defensive Abilities** unstoppable; **DR** 15/epic; **Immune** ability damage, acid, aging, [bleed](monsters/universalMonsterRules.md#_bleed), [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), [energy drain](monsters/universalMonsterRules.md#_energy-drain), [fire](monsters/creatureTypes.md#_fire-subtype), mind-affecting effects, negative levels, paralysis, permanent wounds, petrification, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), polymorph; **SR** 29
 
 **Weaknesses** vulnerable to miracles and wishes
 
@@ -192,7 +192,7 @@ Offense
 
 **Speed** 30 ft., burrow 30 ft.
 
-**Melee** bite +33 (4d6+16 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), gore +33 (4d6+16), 2 stomps +28 (2d8+8 plus trip)
+**Melee** bite +33 (4d6+16 plus [grab](monsters/universalMonsterRules.md#_grab)), gore +33 (4d6+16), 2 stomps +28 (2d8+8 plus trip)
 
 **Ranged** 4 rocks +15 (3d6+24 plus stun)
 
@@ -200,9 +200,9 @@ Offense
 
 **Spell-Like Abilities** (CL 20th; concentration +22)
 
-3/day—_ [earthquake](/pathfinderRPG/prd/spells/earthquake.html#_earthquake)_ (DC 20)
+3/day—_ [earthquake](spells/earthquake.md#_earthquake)_ (DC 20)
 
-**Special Attacks** [fast swallow](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fast-swallow), mighty roar, rock spitting, ruinous, swallow whole (4d6+24 bludgeoning and 4d6 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) damage, AC 27, 33 hp), [trample](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_trample) (2d8+24, DC 38)
+**Special Attacks** [fast swallow](monsters/universalMonsterRules.md#_fast-swallow), mighty roar, rock spitting, ruinous, swallow whole (4d6+24 bludgeoning and 4d6 [fire](monsters/creatureTypes.md#_fire-subtype) damage, AC 27, 33 hp), [trample](monsters/universalMonsterRules.md#_trample) (2d8+24, DC 38)
 
 Statistics
 
@@ -210,9 +210,9 @@ Statistics
 
 **Base Atk** +25; **CMB** +49 (+53 grapple); **CMD** 57 (61 vs. trip)
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow), [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Great Cleave](/pathfinderRPG/prd/feats.html#_great-cleave), [Greater Bull Rush](/pathfinderRPG/prd/feats.html#_greater-bull-rush), [Greater Overrun](/pathfinderRPG/prd/feats.html#_greater-overrun), [Greater Sunder](/pathfinderRPG/prd/feats.html#_greater-sunder), [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Improved Overrun](/pathfinderRPG/prd/feats.html#_improved-overrun), [Improved Sunder](/pathfinderRPG/prd/feats.html#_improved-sunder), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lunge](/pathfinderRPG/prd/feats.html#_lunge), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Snatch](/pathfinderRPG/prd/monsters/monsterFeats.html#_snatch)
+**Feats** [Awesome Blow](monsters/monsterFeats.md#_awesome-blow), [Cleave](feats.md#_cleave), [Great Cleave](feats.md#_great-cleave), [Greater Bull Rush](feats.md#_greater-bull-rush), [Greater Overrun](feats.md#_greater-overrun), [Greater Sunder](feats.md#_greater-sunder), [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Overrun](feats.md#_improved-overrun), [Improved Sunder](feats.md#_improved-sunder), [Iron Will](feats.md#_iron-will), [Lunge](feats.md#_lunge), [Power Attack](feats.md#_power-attack), [Snatch](monsters/monsterFeats.md#_snatch)
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +27, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +14, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +28; **Racial Modifiers** +10 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Perception](skills/perception.md#_perception) +27, [Survival](skills/survival.md#_survival) +14, [Swim](skills/swim.md#_swim) +28; **Racial Modifiers** +10 [Perception](skills/perception.md#_perception)
 
 **Language** Aklo (cannot speak)
 
@@ -226,7 +226,7 @@ Ecology
 
 Special Abilities
 
-**Mighty Roar (Su)** Every 1d4 rounds as a standard action, a thunder behemoth can issue a mighty roar in a 60-foot cone that duplicates the effect of an empowered_ [greater shout](/pathfinderRPG/prd/spells/shout.html#_shout-greater)_ (Fortitude DC 30 for half damage). This is a sonic effect. The save DC is Constitution-based.
+**Mighty Roar (Su)** Every 1d4 rounds as a standard action, a thunder behemoth can issue a mighty roar in a 60-foot cone that duplicates the effect of an empowered_ [greater shout](spells/shout.md#_shout-greater)_ (Fortitude DC 30 for half damage). This is a sonic effect. The save DC is Constitution-based.
 
 **Rock Spitting (Ex)** A thunder behemoth can spit rocks from the essentially inexhaustible store in its gizzard. It can spit up to four rocks as a standard action, with a range increment of 60 feet. A creature that is critically hit by one of these rocks must make a DC 38 Fortitude save to resist being stunned for 1 round. The save DC is Strength-based.
 

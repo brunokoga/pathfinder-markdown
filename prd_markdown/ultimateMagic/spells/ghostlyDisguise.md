@@ -1,4 +1,4 @@
-Ghostly [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise)
+Ghostly [Disguise](skills/disguise.md#_disguise)
 
 **School** illusion (glamer); **Level** alchemist 2, bard 2, inquisitor 2, sorcerer/wizard 2, witch 2
 

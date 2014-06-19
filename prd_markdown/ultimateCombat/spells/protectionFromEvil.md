@@ -4,5 +4,5 @@ Protection from Evil, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [protection from evil](/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil)_, except you divide the duration in 1-minute intervals among the creatures touched.
+This spell functions like _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_, except you divide the duration in 1-minute intervals among the creatures touched.
 

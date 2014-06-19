@@ -6,9 +6,9 @@ Death's Head Jellyfish CR 1
 
 XP 400
 
-N Small vermin ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Small vermin ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +0
+**Init** +3; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +0
 
 Defense
 
@@ -18,13 +18,13 @@ Defense
 
 **Fort** +6, **Ref** +3, **Will** +0
 
-**Defensive Abilities** [amorphous](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_amorphous); **DR** 5/piercing or slashing; **Immune** mind-affecting effects
+**Defensive Abilities** [amorphous](monsters/universalMonsterRules.md#_amorphous); **DR** 5/piercing or slashing; **Immune** mind-affecting effects
 
 Offense
 
 **Speed** swim 20 ft.
 
-**Melee** 2 tentacles +3 (1d3+1 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** 2 tentacles +3 (1d3+1 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 5 ft.; **Reach** 10 ft.
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +1; **CMD** 14 (can't be tripped)
 
-**Skills** [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +9
+**Skills** [Swim](skills/swim.md#_swim) +9
 
-**SQ** [compression](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_compression)
+**SQ** [compression](monsters/universalMonsterRules.md#_compression)
 
 Ecology
 
@@ -48,7 +48,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Tentacle—injury; _save_ Fort DC 14; _frequency_ 1/round for 6 rounds; _effect_ 1 Con and 1 Cha; _cure_ 2 consecutive saves. If a creature fails two consecutive saving throws, its jaw locks, its tongue swells, and its lips pull back, making speech impossible. This condition ends when the Charisma damage is healed.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Tentacle—injury; _save_ Fort DC 14; _frequency_ 1/round for 6 rounds; _effect_ 1 Con and 1 Cha; _cure_ 2 consecutive saves. If a creature fails two consecutive saving throws, its jaw locks, its tongue swells, and its lips pull back, making speech impossible. This condition ends when the Charisma damage is healed.
 
 Most common in warm or temperate waters, the death's head jellyfish is an aggressive predator. The creature derives its name from the pattern on its 4-foot-wide bell and from the poison it delivers with its tentacles. Those unfortunate enough to be subjected to this toxin develop rigor of the facial muscles that results in a wide-eyed grimace if left untreated.
 
@@ -60,9 +60,9 @@ Sapphire Jellyfish CR 11
 
 XP 12,800
 
-N Huge vermin ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Huge vermin ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +4; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 30 ft., darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +1
+**Init** +4; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 30 ft., darkvision 60 ft.; [Perception](skills/perception.md#_perception) +1
 
 Defense
 
@@ -72,13 +72,13 @@ Defense
 
 **Fort** +15, **Ref** +8, **Will** +5
 
-**Defensive Abilities** [amorphous](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_amorphous), **DR** 10/piercing or slashing; **Immune** electricity, mind-affecting effects
+**Defensive Abilities** [amorphous](monsters/universalMonsterRules.md#_amorphous), **DR** 10/piercing or slashing; **Immune** electricity, mind-affecting effects
 
 Offense
 
 **Speed** swim 30 ft.
 
-**Melee** 4 tentacles +15 (1d8+8 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** 4 tentacles +15 (1d8+8 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 15 ft.; **Reach** 20 ft.
 
@@ -90,9 +90,9 @@ Statistics
 
 **Base Atk** +9; **CMB** +19; **CMD** 33 (can't be tripped)
 
-**Skills** [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +16
+**Skills** [Swim](skills/swim.md#_swim) +16
 
-**SQ** [compression](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_compression)
+**SQ** [compression](monsters/universalMonsterRules.md#_compression)
 
 Ecology
 
@@ -106,7 +106,7 @@ Special Abilities
 
 **Electricity Blast (Ex)** Once every 1d6 rounds as a standard action, a sapphire jellyfish can discharge a 20-foot-radius blast of electricity, dealing 8d6 points of electricity damage (DC 22 Reflex for half). Any creature that takes damage from this electricity must also make a DC 22 Fortitude save to avoid being staggered for 1d4 rounds.
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Tentacle—injury; _save_ Fort DC 23; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Dex and 1d4 Con; _cure_ 2 consecutive saves. The save DC is Constitution-based.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Tentacle—injury; _save_ Fort DC 23; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Dex and 1d4 Con; _cure_ 2 consecutive saves. The save DC is Constitution-based.
 
 Like other giant jellyfish, a sapphire jellyfish is an active hunter. It stores powerful electrical charges in its domelike bell, which is 16 feet in diameter. Its sensory tentacles can trail for twice that length, but the dangerous toxic tentacles are positioned within about 20 feet of the creature's bell.
 

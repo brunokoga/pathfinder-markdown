@@ -12,7 +12,7 @@
 
 **Duration** concentration
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
 You point your finger at an object and can lift it and move it at will from a distance. As a move action, you can propel the object as far as 15 feet in any direction, though the spell ends if the distance between you and the object ever exceeds the spell's range.
 

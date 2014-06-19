@@ -28,7 +28,7 @@ Humans whose ancestry includes beings of elemental fire such as efreet, ifrits a
 
 **Darkvision** : Ifrits can see in the dark up to 60 feet.
 
-**Spell-Like Ability** : _ [Burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ 1/day (caster level equals the ifrit's level).
+**Spell-Like Ability** : _ [Burning hands](spells/burningHands.md#_burning-hands)_ 1/day (caster level equals the ifrit's level).
 
 **Energy Resistance** : Ifrits have fire resistance 5.
 
@@ -40,9 +40,9 @@ Humans whose ancestry includes beings of elemental fire such as efreet, ifrits a
 
 The following racial traits may be selected instead of existing ifrit racial traits. Consult your GM before selecting any of these new options.
 
-**Desert Mirage** : Ifrits thrive in the deserts of the world, where their keen instincts and resistance to heat give them a huge edge over their competitors. Those with this trait gain a +2 racial bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks in desert environments and on saves to resist starvation and thirst. This racial trait replaces fire affinity.
+**Desert Mirage** : Ifrits thrive in the deserts of the world, where their keen instincts and resistance to heat give them a huge edge over their competitors. Those with this trait gain a +2 racial bonus on [Stealth](skills/stealth.md#_stealth) checks in desert environments and on saves to resist starvation and thirst. This racial trait replaces fire affinity.
 
-**Efreeti Magic** : Some ifrits inherit an efreeti ancestor's ability to magically change a creature's size. They can cast either _ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_ or _ [reduce person](/pathfinderRPG/prd/spells/reducePerson.html#_reduce-person)_ (the ifrit chooses when using this ability) once per day as a spell-like ability (caster level equals the ifrit's level). The ifrit can use this ability to affect other ifrits as though they were humanoid creatures. This racial trait replaces the spell-like ability racial trait.
+**Efreeti Magic** : Some ifrits inherit an efreeti ancestor's ability to magically change a creature's size. They can cast either _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_ or _ [reduce person](spells/reducePerson.md#_reduce-person)_ (the ifrit chooses when using this ability) once per day as a spell-like ability (caster level equals the ifrit's level). The ifrit can use this ability to affect other ifrits as though they were humanoid creatures. This racial trait replaces the spell-like ability racial trait.
 
 **Fire in the Blood** : Ifrits with this racial trait mimic the healing abilities of the mephits, gaining fast healing 2 for 1 round anytime they take fire damage (whether or not this fire damage gets through their fire resistance). The ifrits can heal up to 2 hit points per level per day with this ability, after which it ceases to function. This racial trait replaces fire affinity.
 
@@ -50,7 +50,7 @@ The following racial traits may be selected instead of existing ifrit racial tra
 
 **Fire-Starter** : Ifrits with this racial trait derive sadistic satisfaction from watching others burn. Anytime the ifrit causes a creature to catch fire, he gains a +1 morale bonus on the next single attack roll, saving throw, skill check, or ability check that he makes in the next round. The ifrit only gains this bonus the first time he causes a particular creature to catch fire; subsequent times the creature catches fire provide no bonus. This racial trait replaces fire affinity.
 
-**Forge-Hardened** : Not all ifrits are descended from efreet—some instead descend from azers or even salamanders. Such ifrits gain a +2 racial bonus on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (armor and weapons) checks and saves to resist fatigue and exhaustion. This racial trait replaces the spell-like ability racial trait.
+**Forge-Hardened** : Not all ifrits are descended from efreet—some instead descend from azers or even salamanders. Such ifrits gain a +2 racial bonus on [Craft](skills/craft.md#_craft) (armor and weapons) checks and saves to resist fatigue and exhaustion. This racial trait replaces the spell-like ability racial trait.
 
 **Hypnotic** : Ifrits with this racial trait evoke the entrancing nature of flame, adding +1 to the DC for all saving throws against spells or effects they cast that inflict the fascinated condition. Once per day, when a creature rolls a saving throw against such an effect from the ifrit, the ifrit can spend an immediate action to force that creature to reroll the saving throw and use the second result, even if it is worse. The ifrit must announce he is using this ability before the results of the first roll are revealed. This racial trait replaces fire affinity.
 
@@ -64,15 +64,15 @@ The following options are available to all ifrits who have the listed favored cl
 
 **Bard** : Add +1/6 to the number of people the bard can affect with the fascinate bardic performance.
 
-**Cleric** : Add a +1/2 bonus on [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) checks relating to the Plane of Fire and creatures with the fire subtype.
+**Cleric** : Add a +1/2 bonus on [Knowledge](skills/knowledge.md#_knowledge) (planes) checks relating to the Plane of Fire and creatures with the fire subtype.
 
 **Gunslinger** : Add +1/2 to the bonus on initiative checks the gunslinger makes while using her gunslinger initiative deed.
 
-**Inquisitor** : Add a +1/2 bonus on [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks made against creatures with the fire subtype and a +1/2 bonus on [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) checks relating to the Plane of Fire.
+**Inquisitor** : Add a +1/2 bonus on [Intimidate](skills/intimidate.md#_intimidate) checks made against creatures with the fire subtype and a +1/2 bonus on [Knowledge](skills/knowledge.md#_knowledge) (planes) checks relating to the Plane of Fire.
 
 **Oracle** : Add +1/2 to the oracle's level for the purpose of determining the effects of one revelation.
 
-**Rogue** : Add a +1/2 bonus on [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) checks to jump and a +1/2 bonus on [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks to demoralize enemies.
+**Rogue** : Add a +1/2 bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) checks to jump and a +1/2 bonus on [Intimidate](skills/intimidate.md#_intimidate) checks to demoralize enemies.
 
 **Sorcerer** : Choose a bloodline power from the elemental (fire) bloodline or the efreeti bloodline that the sorcerer can use. The sorcerer treats her class level as though it were +1/2 higher (to a maximum of +4) when determining the effects of that power.
 
@@ -90,7 +90,7 @@ The immolator puts her pyromaniacal urges to work in the service of a deity. She
 
 > _Immolation_: The immolator channels purifying flame to consume her enemies. When dealing fire damage to an opponent, she treats the target's fire resistance as 5 lower than normal (minimum 0). At 6th level, she treats the target's resistance as 10 lower than normal, 15 lower than normal at 11th level, and 20 lower than normal at 16th level.
 
-**Burnt Offering (Su)** : At 5th level, as a swift action, an immolator can imbue one of her weapons with the _ [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming)_ weapon special ability. Any creature slain by this weapon burns with magical flame; its body turns to ash, though its equipment is not harmed. This special ability only functions while the immolator wields the weapon. This ability lasts for a number of rounds per day equal to the immolator's level. These rounds do not need to be consecutive. At 12th level, this ability gives the immolator's weapon the _ [flaming burst](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming-burst) _weapon special ability. This ability replaces bane and greater bane.
+**Burnt Offering (Su)** : At 5th level, as a swift action, an immolator can imbue one of her weapons with the _ [flaming](magicItems/weapons.md#_weapons-flaming)_ weapon special ability. Any creature slain by this weapon burns with magical flame; its body turns to ash, though its equipment is not harmed. This special ability only functions while the immolator wields the weapon. This ability lasts for a number of rounds per day equal to the immolator's level. These rounds do not need to be consecutive. At 12th level, this ability gives the immolator's weapon the _ [flaming burst](magicItems/weapons.md#_weapons-flaming-burst) _weapon special ability. This ability replaces bane and greater bane.
 
 **Judgment by Fire (Su)** : At 20th level, an immolator can call fiery judgment down upon a foe during combat. Whenever an immolator uses her judgment ability, she can invoke a judgment by fire on a foe as a swift action. Once declared, the immolator can make a single melee (or ranged attack, if the foe is within 30 feet) against the target. If the attack hits, the attack deals fire damage instead of weapon damage, and the target must make a successful Fortitude save or die (creatures immune to fire do not have to save). The DC of this save is equal to 10 + 1/2 the immolator's level + the immolator's Wisdom modifier. Regardless of whether the save is successful, the target creature is immune to the immolator's judgment by fire ability for 24 hours. Creatures killed in this manner explode in a burst of fire, dealing 10d6 points of fire damage to every creature within 5 feet (Reflex save for half damage, DC 10 + 1/2 the immolator's level + the immolator's Wisdom modifier). Once this ability has been used, it cannot be used again for 1d4 rounds. This ability modifies and functions as true judgment.
 
@@ -98,9 +98,9 @@ The immolator puts her pyromaniacal urges to work in the service of a deity. She
 
 Wishcrafters are born with a talent for manipulating reality inherited from their efreeti ancestors. However, like the genies they are descended from, wishcrafters can only draw upon this power to fulfill the desires of others. A wishcrafter has the following class features.
 
-**Wishbound Arcana (Su)** : At 1st level, the wishcrafter can use the wishes of non-genie creatures other than herself in place of the normal verbal components of her spells. A creature can make a wish as a free action at any time, even during the wishcrafter's turn. The wishcrafter must be able to hear and understand a wish in order to use it as a spell component. A spell that doesn't normally have a verbal component gains one when cast using this ability. A wish doesn't need to mention the name of a specific spell, but must describe an outcome that can be accomplished by casting a spell the wishcrafter knows (for example, wishing to be bigger could supply the verbal component for _ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_). A wishcrafter gains a +1 bonus to her caster level when using a creature's wish as a verbal component in this manner, but cannot include herself as a target of such spells. She can be affected by such a spell if it affects an area rather than a target or targets. A wishcrafter is under no compulsion to grant a creature's wish. Once the wishcrafter grants a creature's wish using this ability, she cannot use this ability to grant that creature any further wishes for 24 hours. This ability replaces bloodline arcana.
+**Wishbound Arcana (Su)** : At 1st level, the wishcrafter can use the wishes of non-genie creatures other than herself in place of the normal verbal components of her spells. A creature can make a wish as a free action at any time, even during the wishcrafter's turn. The wishcrafter must be able to hear and understand a wish in order to use it as a spell component. A spell that doesn't normally have a verbal component gains one when cast using this ability. A wish doesn't need to mention the name of a specific spell, but must describe an outcome that can be accomplished by casting a spell the wishcrafter knows (for example, wishing to be bigger could supply the verbal component for _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_). A wishcrafter gains a +1 bonus to her caster level when using a creature's wish as a verbal component in this manner, but cannot include herself as a target of such spells. She can be affected by such a spell if it affects an area rather than a target or targets. A wishcrafter is under no compulsion to grant a creature's wish. Once the wishcrafter grants a creature's wish using this ability, she cannot use this ability to grant that creature any further wishes for 24 hours. This ability replaces bloodline arcana.
 
-**Expanded Wishcraft** : At 3rd level and every 2 levels thereafter, the wishcrafter grows more adept at altering reality to fit the whims of others. She may add an additional spell selected from the sorcerer/wizard spell list to her list of spells known. This spell must be one level lower than the highest-level spell she can cast. A wishcrafter can only use these spells in conjunction with her wishbound arcana ability. For example, if she used this ability to learn _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, she can only cast it when another creature wishes for it, and can't cast it on herself because it is a targeted spell. She cannot use these spells to craft or recharge magic items. These bonus spells replace the bloodline spells gained by the sorcerer's bloodline.
+**Expanded Wishcraft** : At 3rd level and every 2 levels thereafter, the wishcrafter grows more adept at altering reality to fit the whims of others. She may add an additional spell selected from the sorcerer/wizard spell list to her list of spells known. This spell must be one level lower than the highest-level spell she can cast. A wishcrafter can only use these spells in conjunction with her wishbound arcana ability. For example, if she used this ability to learn _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, she can only cast it when another creature wishes for it, and can't cast it on herself because it is a targeted spell. She cannot use these spells to craft or recharge magic items. These bonus spells replace the bloodline spells gained by the sorcerer's bloodline.
 
 **Heart's Desire (Su)** : At 7th level, as a swift action, a wishcrafter can force a single creature within 30 feet to confess its deepest desire. The target receives a Will save to negate this effect (DC 10 + 1/2 the wishcrafter's level + the wishcrafter's Charisma modifier). On a failed save, the creature must immediately wish aloud in a clear voice for something it truly desires, allowing the wishcrafter to activate her wishbound arcana ability if she knows a spell that can fulfill that wish. This is a mind-affecting effect. Regardless of whether the save is successful, a creature cannot be the target of the same wishcrafter's heart's desire ability again for 24 hours. The wishcrafter can use this ability a number of times per day equal to her Charisma bonus. This ability replaces the bloodline bonus feat gained at 7th level.
 
@@ -116,7 +116,7 @@ The following options are available to ifrits. At the GM's discretion, other app
 
 Ifrits have access to the following equipment.
 
-**Fire Ink** : This rich yellow ink reacts with a creature's body heat to create a flickering, flamelike glow. It takes 10 minutes to apply fire ink, and 1 dose covers an approximately hand-sized area. Once applied, the ink glows as a candle for 24 hours. Four or more doses applied to the same part of the body glow as a torch for 24 hours. The alchemical reaction of the ink to the target's skin and body heat is painful and irritating, giving the target the sickened condition while the glow lasts. A DC 15 [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) check can temporarily soothe these sensations, negating the sickened condition for 1 hour. Creatures immune or resistant to fire are immune to this sickening effect. Ifrits are especially known for their fondness for fire ink, and ifrit fire-dancers often decorate their skin with flaming designs before performing. A concentrated version of the ink costs 10 times as much and can be used to make permanently glowing tattoos.
+**Fire Ink** : This rich yellow ink reacts with a creature's body heat to create a flickering, flamelike glow. It takes 10 minutes to apply fire ink, and 1 dose covers an approximately hand-sized area. Once applied, the ink glows as a candle for 24 hours. Four or more doses applied to the same part of the body glow as a torch for 24 hours. The alchemical reaction of the ink to the target's skin and body heat is painful and irritating, giving the target the sickened condition while the glow lasts. A DC 15 [Heal](skills/heal.md#_heal) check can temporarily soothe these sensations, negating the sickened condition for 1 hour. Creatures immune or resistant to fire are immune to this sickening effect. Ifrits are especially known for their fondness for fire ink, and ifrit fire-dancers often decorate their skin with flaming designs before performing. A concentrated version of the ink costs 10 times as much and can be used to make permanently glowing tattoos.
 
 **Ifrit's Blood** : Ifrit alchemists claim to make this thick red oil from their own blood—hence the morbid name—but this claim is almost certainly false. Ifrit's blood ignites upon contact with air, but burns slowly and is unsuitable for use as a splash weapon. A creature can apply a flask of ifrit's blood to a weapon as a standard action, wreathing the weapon in vibrant red flames for 1 minute. The oil deals 1 point of fire damage on each successful attack with the weapon and deals 1 point of fire damage to the weapon itself, bypassing the weapon's hardness if any part of it is made of wood. If the oil is applied to a creature's natural weapons or unarmed strikes, the creature takes 1 point of fire damage each round (though its fire immunity or resistance still applies).
 
@@ -142,7 +142,7 @@ An inferno rages inside you, causing your body to radiate intense heat.
 
 Your foes flinch from the heat of your weapon, giving you an opportunity to slip past their defenses.
 
-**Prerequisites** : [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), Improved Feint, ifrit.
+**Prerequisites** : [Combat Expertise](feats.md#_combat-expertise), Improved Feint, ifrit.
 
 **Benefit** : You gain a +2 bonus on feint checks made while wielding a weapon that deals fire damage. Anytime you successfully feint a creature while using such a weapon, you may deal its fire damage to the enemy.
 
@@ -152,7 +152,7 @@ The spirits of your ancestral home call to you, beckoning you to return.
 
 **Prerequisites** : Character level 15th, ifrit, oread, sylph, or undine.
 
-**Benefit** : Once per day, you can cast _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ as a spell-like ability with a caster level equal to your level to transport yourself and willing targets to an elemental plane that is appropriate to your race (ifrits to the Plane of Fire, oreads to the Plane of Earth, sylphs to the Plane of Air, and undines to the Plane of Water). While on that plane, you (but not anyone transported with you) are treated as though under the effect of the spell _ [planar adaptation](/pathfinderRPG/prd/advanced/spells/planarAdaptation.html#_planar-adaptation)_.
+**Benefit** : Once per day, you can cast _ [plane shift](spells/planeShift.md#_plane-shift)_ as a spell-like ability with a caster level equal to your level to transport yourself and willing targets to an elemental plane that is appropriate to your race (ifrits to the Plane of Fire, oreads to the Plane of Earth, sylphs to the Plane of Air, and undines to the Plane of Water). While on that plane, you (but not anyone transported with you) are treated as though under the effect of the spell _ [planar adaptation](advanced/spells/planarAdaptation.md#_planar-adaptation)_.
 
 ### Firesight
 
@@ -176,15 +176,15 @@ Elemental fire stirs within your body, boiling your blood and rendering you resi
 
 **Prerequisite** : Ifrit.
 
-**Benefit** : You gain a +2 bonus on saving throws against fire attacks and spells with the fire descriptor or light descriptor. As a swift action, you can make up to two held manufactured metallic weapons become red-hot for 1 round, dealing 1 additional point of fire damage with a successful hit. This does not stack with other effects that add fire damage to weapons, such as the _ [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming)_ weapon special ability.
+**Benefit** : You gain a +2 bonus on saving throws against fire attacks and spells with the fire descriptor or light descriptor. As a swift action, you can make up to two held manufactured metallic weapons become red-hot for 1 round, dealing 1 additional point of fire damage with a successful hit. This does not stack with other effects that add fire damage to weapons, such as the _ [flaming](magicItems/weapons.md#_weapons-flaming)_ weapon special ability.
 
 ## Ifrit Magic Items
 
 Ifrits have access to the following weapon special ability and magic item.
 
-**Igniting (weapon special ability)** : An _igniting_ weapon functions as a _ [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming) _weapon that also causes foes to catch fire upon striking a successful critical hit. The target does not get a saving throw to avoid catching fire, but can make a save each round on its turn to put out the fire. The _ [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming)_ ability must be active for the weapon to set enemies on fire.
+**Igniting (weapon special ability)** : An _igniting_ weapon functions as a _ [flaming](magicItems/weapons.md#_weapons-flaming) _weapon that also causes foes to catch fire upon striking a successful critical hit. The target does not get a saving throw to avoid catching fire, but can make a save each round on its turn to put out the fire. The _ [flaming](magicItems/weapons.md#_weapons-flaming)_ ability must be active for the weapon to set enemies on fire.
 
-Strong evocation; CL 12th; [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), flame blade, flame strike, or fireball; Price +2 bonus.
+Strong evocation; CL 12th; [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), flame blade, flame strike, or fireball; Price +2 bonus.
 
 Cloak of Fiery Vanishing
 
@@ -198,7 +198,7 @@ This thick leather cloak is charred and blackened around the edges and smells fa
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_,_ [silent image](/pathfinderRPG/prd/spells/silentImage.html#_silent-image)_; **Cost** 1,300 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [invisibility](spells/invisibility.md#_invisibility)_,_ [silent image](spells/silentImage.md#_silent-image)_; **Cost** 1,300 gp
 
 ## Ifrit Spells
 
@@ -212,11 +212,11 @@ Chains of Fire
 
 **Range** medium (100 ft. + 10 ft./level)
 
-This spell functions like _ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_, except as noted above, and the spell deals fire damage instead of electricity damage.
+This spell functions like _ [chain lightning](spells/chainLightning.md#_chain-lightning)_, except as noted above, and the spell deals fire damage instead of electricity damage.
 
 Death Candle
 
-**School** necromancy [death, [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)]; **Level** antipaladin 1, cleric 2, inquisitor 2, witch 2
+**School** necromancy [death, [evil](monsters/creatureTypes.md#_evil-subtype), [fire](monsters/creatureTypes.md#_fire-subtype)]; **Level** antipaladin 1, cleric 2, inquisitor 2, witch 2
 
 **Casting Time** 1 round
 
@@ -226,7 +226,7 @@ Death Candle
 
 **Saving Throw** Fortitude negates; **Spell Resistance** yes
 
-This spell functions like _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)_, except instead of using the slain target's life energy to enhance yourself, you use it to summon a Small fire elemental resembling a burning, howling version of the slain creature. The elemental acts immediately on your turn and otherwise behaves as if you had summoned it with _ [summon monster II](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ii)_. The elemental remains for a number of rounds equal to the Hit Dice of the slain creature.
+This spell functions like _ [death knell](spells/deathKnell.md#_death-knell)_, except instead of using the slain target's life energy to enhance yourself, you use it to summon a Small fire elemental resembling a burning, howling version of the slain creature. The elemental acts immediately on your turn and otherwise behaves as if you had summoned it with _ [summon monster II](spells/summonMonster.md#_summon-monster-ii)_. The elemental remains for a number of rounds equal to the Hit Dice of the slain creature.
 
 Firestream
 
@@ -250,7 +250,7 @@ _Firestream_ sets fire to combustibles and damages objects in the area. It can m
 
 Fury of the Sun
 
-**School** transmutation [[curse](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse), [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)]; **Level** druid 2, witch 2
+**School** transmutation [[curse](monsters/universalMonsterRules.md#_curse), [fire](monsters/creatureTypes.md#_fire-subtype)]; **Level** druid 2, witch 2
 
 **Casting Time** 1 standard action
 
@@ -264,7 +264,7 @@ Fury of the Sun
 
 **Saving Throw** Fortitude negates; **Spell Resistance** yes
 
-You curse the target to suffer unbearable heat. On a failed saving throw, the target is immediately subjected to severe heat , takes 1d4 points of nonlethal damage, and is suffering from heatstroke (fatigued). The target must save every 10 minutes as normal for severe heat (starting at DC 15 rather than the DC of this spell). Because this heat is internal, the target cannot avoid it using the normal methods for escaping heat dangers such as [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) checks or finding shade.
+You curse the target to suffer unbearable heat. On a failed saving throw, the target is immediately subjected to severe heat , takes 1d4 points of nonlethal damage, and is suffering from heatstroke (fatigued). The target must save every 10 minutes as normal for severe heat (starting at DC 15 rather than the DC of this spell). Because this heat is internal, the target cannot avoid it using the normal methods for escaping heat dangers such as [Survival](skills/survival.md#_survival) checks or finding shade.
 
 Healing Warmth
 
@@ -280,19 +280,19 @@ Healing Warmth
 
 **Duration** 1 minute/level
 
-This spell grants you temporary immunity to fire damage as _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_. As a standard action, you may sacrifice 12 points of remaining energy absorption from the spell to heal a touched creature of 1d8 points of damage. Healing a creature provokes an attack of opportunity. When the spell has absorbed 12 points of fire damage per caster level (to a maximum of 120 points at 10th level), it is discharged.
+This spell grants you temporary immunity to fire damage as _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_. As a standard action, you may sacrifice 12 points of remaining energy absorption from the spell to heal a touched creature of 1d8 points of damage. Healing a creature provokes an attack of opportunity. When the spell has absorbed 12 points of fire damage per caster level (to a maximum of 120 points at 10th level), it is discharged.
 
 Scorching Ash Form
 
-**School** transmutation [fire]; **Level** alchemist 4, sorcerer/wizard 4â©
+**School** transmutation [fire]; **Level** alchemist 4, sorcerer/wizard 4 
 
 **Components** S, M (a bit of gauze and a handful of ashes)
 
-â© **Duration** 1 minute/level
+  **Duration** 1 minute/level
 
 **Saving Throw** none; **Spell Resistance** no
 
-This spell functions like _ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_, except the target becomes a visible swirl of hot ash and smoke instead of harmless translucent gas. The target gains the fire subtype. Any creature that begins its turn sharing a space with the target takes 2d6 points of fire damage and must make a Fortitude save (DC 15, + 1 per previous check) or suffer the effects of smoke inhalation .
+This spell functions like _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_, except the target becomes a visible swirl of hot ash and smoke instead of harmless translucent gas. The target gains the fire subtype. Any creature that begins its turn sharing a space with the target takes 2d6 points of fire damage and must make a Fortitude save (DC 15, + 1 per previous check) or suffer the effects of smoke inhalation .
 
 Touch of Combustion
 

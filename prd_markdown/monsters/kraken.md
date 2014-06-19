@@ -6,9 +6,9 @@ _This tremendous leviathan resembles a vast squid, yet the markings on its body 
 
 **XP 153,600**
 
-NE Gargantuan [magical beast](creatureTypes.html#_magical-beast) ( [aquatic](creatureTypes.html#_aquatic-subtype))
+NE Gargantuan [magical beast](creatureTypes.md#_magical-beast) ( [aquatic](creatureTypes.md#_aquatic-subtype))
 
-**Init** +4; **Senses** darkvision 120 ft., low-light vision; [Perception](../skills/perception.html#_perception) +28
+**Init** +4; **Senses** darkvision 120 ft., low-light vision; [Perception](../skills/perception.md#_perception) +28
 
 **Defense**
 
@@ -24,15 +24,15 @@ NE Gargantuan [magical beast](creatureTypes.html#_magical-beast) ( [aquatic](cre
 
 **Speed** 10 ft., swim 40 ft., jet 280 ft.
 
-**Melee** 2 arms +26 (2d6+10/19–20 plus [grab](universalMonsterRules.html#_grab)), 8 tentacles +24 (1d8+5 plus [grab](universalMonsterRules.html#_grab)), bite +26 (2d8+10)
+**Melee** 2 arms +26 (2d6+10/19–20 plus [grab](universalMonsterRules.md#_grab)), 8 tentacles +24 (1d8+5 plus [grab](universalMonsterRules.md#_grab)), bite +26 (2d8+10)
 
 **Space** 20 ft.; **Reach** 20 ft. (60 ft. with arm, 40 ft. with tentacle)
 
-**Special**  **Attacks** [constrict](universalMonsterRules.html#_constrict) (tentacles, 1d8+10), ink cloud, rend ship
+**Special**  **Attacks** [constrict](universalMonsterRules.md#_constrict) (tentacles, 1d8+10), ink cloud, rend ship
 
 **Spell-Like Abilities** (CL 15th)
 
-1/day—_ [control weather](../spells/controlWeather.html#_control-weather), [control winds](../spells/controlWinds.html#_control-winds), [dominate monster](../spells/dominateMonster.html#_dominate-monster)_ (DC 24, animal only), _ [resist energy](../spells/resistEnergy.html#_resist-energy)_
+1/day—_ [control weather](../spells/controlWeather.md#_control-weather), [control winds](../spells/controlWinds.md#_control-winds), [dominate monster](../spells/dominateMonster.md#_dominate-monster)_ (DC 24, animal only), _ [resist energy](../spells/resistEnergy.md#_resist-energy)_
 
 **Statistics**
 
@@ -40,9 +40,9 @@ NE Gargantuan [magical beast](creatureTypes.html#_magical-beast) ( [aquatic](cre
 
 **Base Atk** +20; **CMB** +34 (+38 grappling); **CMD** 44 (can't be tripped)
 
-**Feats** [Bleeding Critical](../feats.html#_bleeding-critical), [Blind-Fight](../feats.html#_blind-fight), [Cleave](../feats.html#_cleave), [Combat Expertise](../feats.html#_combat-expertise), [Critical Focus](../feats.html#_critical-focus), [Improved Critical](../feats.html#_improved-critical) (arm), [Improved Initiative](../feats.html#_improved-initiative), [Improved Trip](../feats.html#_improved-trip), [Multiattack](monsterFeats.html#_multiattack), [Power Attack](../feats.html#_power-attack)
+**Feats** [Bleeding Critical](../feats.md#_bleeding-critical), [Blind-Fight](../feats.md#_blind-fight), [Cleave](../feats.md#_cleave), [Combat Expertise](../feats.md#_combat-expertise), [Critical Focus](../feats.md#_critical-focus), [Improved Critical](../feats.md#_improved-critical) (arm), [Improved Initiative](../feats.md#_improved-initiative), [Improved Trip](../feats.md#_improved-trip), [Multiattack](monsterFeats.md#_multiattack), [Power Attack](../feats.md#_power-attack)
 
-**Skills** [Intimidate](../skills/intimidate.html#_intimidate) +25, [Knowledge](../skills/knowledge.html#_knowledge) (geography) +25, [Knowledge](../skills/knowledge.html#_knowledge) (nature) +25, [Perception](../skills/perception.html#_perception) +28, [Stealth](../skills/stealth.html#_stealth) +11, [Swim](../skills/swim.html#_swim) +41, [Use Magic Device](../skills/useMagicDevice.html#_use-magic-device) +25
+**Skills** [Intimidate](../skills/intimidate.md#_intimidate) +25, [Knowledge](../skills/knowledge.md#_knowledge) (geography) +25, [Knowledge](../skills/knowledge.md#_knowledge) (nature) +25, [Perception](../skills/perception.md#_perception) +28, [Stealth](../skills/stealth.md#_stealth) +11, [Swim](../skills/swim.md#_swim) +41, [Use Magic Device](../skills/useMagicDevice.md#_use-magic-device) +25
 
 **Languages** Aquan, Common
 
@@ -58,11 +58,11 @@ NE Gargantuan [magical beast](creatureTypes.html#_magical-beast) ( [aquatic](cre
 
 **Special Abilities**
 
-**Ink Cloud (Ex)** A kraken can emit a cloud of black, venomous ink in an 80-foot spread once per minute as a free action while underwater. This cloud provides total concealment, which the kraken can use to escape a fight that is going badly. Creatures within the cloud are considered to be in darkness. In addition, the ink is toxic, functioning as contact poison against all creatures caught within it. The ink cloud persists for 1 minute before dispersing. The save DC against the poison effect is Constitution-based._Kraken Ink_: Ink cloud—contact; _save_ Fort DC 29; _frequency_ 1/round for 10 rounds; _effect_ 1 Str [damage](universalMonsterRules.html#_ability-damage-and-drain) plus nausea; _cure_ 2 consecutive saves.
+**Ink Cloud (Ex)** A kraken can emit a cloud of black, venomous ink in an 80-foot spread once per minute as a free action while underwater. This cloud provides total concealment, which the kraken can use to escape a fight that is going badly. Creatures within the cloud are considered to be in darkness. In addition, the ink is toxic, functioning as contact poison against all creatures caught within it. The ink cloud persists for 1 minute before dispersing. The save DC against the poison effect is Constitution-based._Kraken Ink_: Ink cloud—contact; _save_ Fort DC 29; _frequency_ 1/round for 10 rounds; _effect_ 1 Str [damage](universalMonsterRules.md#_ability-damage-and-drain) plus nausea; _cure_ 2 consecutive saves.
 
 **Jet (Ex)** A kraken can jet backward as a full-round action, at a speed of 280 feet. It must move in a straight line, but does not provoke attacks of opportunity while jetting.
 
-**Rend Ship (Ex)** As a full-round action, a kraken can attempt to use four of its tentacles to grapple a ship of its size or smaller. It makes a CMB check opposed by the ship's captain's [Profession](../skills/profession.html#_profession) (sailor) check, but the kraken gets a cumulative +4 bonus on the check for each size category smaller than Gargantuan the ship is. If the kraken grapples the ship, it holds the ship motionless; it can attack targets anywhere on or within the ship with its tentacles, but can only attack foes on deck with its free arms and can't attack foes at all with its beak. Each round it maintains its hold on the ship, it automatically inflicts bite damage on the ship's hull.
+**Rend Ship (Ex)** As a full-round action, a kraken can attempt to use four of its tentacles to grapple a ship of its size or smaller. It makes a CMB check opposed by the ship's captain's [Profession](../skills/profession.md#_profession) (sailor) check, but the kraken gets a cumulative +4 bonus on the check for each size category smaller than Gargantuan the ship is. If the kraken grapples the ship, it holds the ship motionless; it can attack targets anywhere on or within the ship with its tentacles, but can only attack foes on deck with its free arms and can't attack foes at all with its beak. Each round it maintains its hold on the ship, it automatically inflicts bite damage on the ship's hull.
 
 **Tenacious Grapple (Ex)** A kraken does not gain the grappled condition if it grapples a foe with its arms or tentacles.
 

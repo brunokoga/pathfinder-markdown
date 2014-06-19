@@ -14,5 +14,5 @@ Liberating Command
 
 **Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)
 
-If the target is bound, grappled, or otherwise restrained, he may make an [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) check to escape as an immediate action. He gains a competence bonus on this check equal to twice your caster level (maximum +20). This spell has no effect if the target could not get free by using the [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) skill (for example, if he were under the effects of a _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ spell or paralyzed by Strength damage).
+If the target is bound, grappled, or otherwise restrained, he may make an [Escape Artist](skills/escapeArtist.md#_escape-artist) check to escape as an immediate action. He gains a competence bonus on this check equal to twice your caster level (maximum +20). This spell has no effect if the target could not get free by using the [Escape Artist](skills/escapeArtist.md#_escape-artist) skill (for example, if he were under the effects of a _ [hold person](spells/holdPerson.md#_hold-person)_ spell or paralyzed by Strength damage).
 

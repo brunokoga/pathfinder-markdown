@@ -10,11 +10,11 @@ Firearms and gunslingers are not for every campaign, and even if you are excited
 
 **No Guns** : If you do not want guns in your campaign, simply don't allow the rules that follow. The Pathfinder Roleplaying Game plays perfectly well without them.
 
-**Very Rare Guns** : Early firearms are rare; advanced firearms, the gunslinger class, the [Amateur Gunslinger](/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_amateur-gunslinger-(combat)) feat, and archetypes that use the firearm rules do not exist in this type of campaign. Firearms are treated more like magic items—things of wonder and mystery—rather than like things that are mass-produced. Few know the strange secrets of firearm creation. Only NPCs can take the [Gunsmithing](/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_gunsmithing) feat.
+**Very Rare Guns** : Early firearms are rare; advanced firearms, the gunslinger class, the [Amateur Gunslinger](ultimateCombat/ultimateCombatFeats.md#_amateur-gunslinger-(combat)) feat, and archetypes that use the firearm rules do not exist in this type of campaign. Firearms are treated more like magic items—things of wonder and mystery—rather than like things that are mass-produced. Few know the strange secrets of firearm creation. Only NPCs can take the [Gunsmithing](ultimateCombat/ultimateCombatFeats.md#_gunsmithing) feat.
 
 **Emerging Guns** : Firearms become more common. They are mass-produced by small guilds, lone gunsmiths, dwarven clans, or maybe even a nation or two—the secret is slipping out, and the occasional rare adventurer uses guns. The baseline gunslinger rules and the prices for ammunition given in this chapter are for this type of campaign. Early firearms are available, but are relatively rare. Adventurers who want to use guns must take the Gunsmithing feat just to make them feasible weapons. Advanced firearms may exist, but only as rare and wondrous items—the stuff of high-level treasure troves.
 
-**Commonplace Guns** : While still expensive and tricky to wield, early firearms are readily available. Instead of requiring the [Exotic Weapon Proficiency](/pathfinderRPG/prd/feats.html#_exotic-weapon-proficiency) feat, all firearms are martial weapons. Early firearms and their ammunition cost 25% of the amounts listed in this book, but advanced firearms and their ammunition are still rare and cost the full price to purchase or craft.
+**Commonplace Guns** : While still expensive and tricky to wield, early firearms are readily available. Instead of requiring the [Exotic Weapon Proficiency](feats.md#_exotic-weapon-proficiency) feat, all firearms are martial weapons. Early firearms and their ammunition cost 25% of the amounts listed in this book, but advanced firearms and their ammunition are still rare and cost the full price to purchase or craft.
 
 **Guns Everywhere** : Guns are commonplace. Early firearms are seen as antiques, and advanced firearms are widespread. Firearms are simple weapons, and early firearms, advanced guns, and their ammunition are bought or crafted for 10% of the cost listed in this chapter. The gunslinger loses the gunsmith class feature and instead gains the gun training class feature at 1st level.
 
@@ -22,9 +22,9 @@ Firearms and gunslingers are not for every campaign, and even if you are excited
 
 Firearms work differently from other ranged projectile weapons—they instead use the following rules.
 
-**Firearm Proficiency** : The [Exotic Weapon Proficiency](/pathfinderRPG/prd/feats.html#_exotic-weapon-proficiency) (firearms) feat allows you to use all firearms without penalty. A nonproficient character takes the standard –4 penalty on attack rolls with firearms, and a nonproficient character who loads a firearm increases all misfire values by 4 for the shots he loads.
+**Firearm Proficiency** : The [Exotic Weapon Proficiency](feats.md#_exotic-weapon-proficiency) (firearms) feat allows you to use all firearms without penalty. A nonproficient character takes the standard –4 penalty on attack rolls with firearms, and a nonproficient character who loads a firearm increases all misfire values by 4 for the shots he loads.
 
-Even though the [Exotic Weapon Proficiency](/pathfinderRPG/prd/feats.html#_exotic-weapon-proficiency) (firearms) feat grants you proficiency with all firearms, anytime you take a feat that modifies a single type of weapon (such as [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) or [Rapid Reload](/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_rapid-reload-(combat))), you must still pick one specific type of firearm (such as musket, axe musket, blunderbuss, pistol, or double pistol) for that feat to affect.
+Even though the [Exotic Weapon Proficiency](feats.md#_exotic-weapon-proficiency) (firearms) feat grants you proficiency with all firearms, anytime you take a feat that modifies a single type of weapon (such as [Weapon Focus](feats.md#_weapon-focus) or [Rapid Reload](ultimateCombat/ultimateCombatFeats.md#_rapid-reload-(combat))), you must still pick one specific type of firearm (such as musket, axe musket, blunderbuss, pistol, or double pistol) for that feat to affect.
 
 All firearms are part of the same weapon group for the purposes of the fighter's weapon training class feature.
 
@@ -32,16 +32,16 @@ All firearms are part of the same weapon group for the purposes of the fighter's
 
 **Range and Penetration** : Armor, whether manufactured or natural, provides little protection against the force of a bullet at short range.
 
-_Early Firearms_: When firing an early firearm, the attack resolves against the target's touch AC when the target is within the first range increment of the weapon, but this type of attack is not considered a touch attack for the purposes of feats and abilities such as [Deadly Aim](/pathfinderRPG/prd/feats.html#_deadly-aim). At higher range increments, the attack resolves normally, including taking the normal cumulative –2 penalty for each full range increment. Unlike other projectile weapons, early firearms have a maximum range of five range increments.
+_Early Firearms_: When firing an early firearm, the attack resolves against the target's touch AC when the target is within the first range increment of the weapon, but this type of attack is not considered a touch attack for the purposes of feats and abilities such as [Deadly Aim](feats.md#_deadly-aim). At higher range increments, the attack resolves normally, including taking the normal cumulative –2 penalty for each full range increment. Unlike other projectile weapons, early firearms have a maximum range of five range increments.
 
   
   
 
-_Advanced Firearms_: Advanced firearms resolve their attacks against touch AC when the target is within the first five range increments, but this type of attack is not considered a touch attack for the purposes of feats such as [Deadly Aim](/pathfinderRPG/prd/feats.html#_deadly-aim). At higher range increments, the attack resolves normally, including taking the normal cumulative –2 penalty for each full-range increment. Advanced firearms have a maximum range of 10 range increments.
+_Advanced Firearms_: Advanced firearms resolve their attacks against touch AC when the target is within the first five range increments, but this type of attack is not considered a touch attack for the purposes of feats such as [Deadly Aim](feats.md#_deadly-aim). At higher range increments, the attack resolves normally, including taking the normal cumulative –2 penalty for each full-range increment. Advanced firearms have a maximum range of 10 range increments.
 
 **Loading a Firearm** : You need at least one hand free to load one-handed and two-handed firearms. In the case of two-handed firearms, you hold the weapon in one hand and load it with the other—you only need to hold it in two hands to aim and shoot the firearm. Loading siege firearms requires both hands, and one hand usually manipulates a large ramrod (which can be wielded as a club in combat).
 
-The [Rapid Reload](/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_rapid-reload-(combat)) feat reduces the time required to load one-handed and two-handed firearms, but this feat does not reduce the time it takes to load siege firearms.
+The [Rapid Reload](ultimateCombat/ultimateCombatFeats.md#_rapid-reload-(combat)) feat reduces the time required to load one-handed and two-handed firearms, but this feat does not reduce the time it takes to load siege firearms.
 
 Loading any firearm provokes attacks of opportunity.
 
@@ -56,7 +56,7 @@ _Advanced Firearms_: Advanced firearms are chamber-loaded. It is a move action t
 
 **Misfires** : If the natural result of your attack roll falls within a firearm's misfire value, that shot misses, even if you would have otherwise hit the target. When a firearm misfires, it gains the broken condition. While it has the broken condition, it suffers the normal disadvantages that broken weapons do, and its misfire value increases by 4 unless the wielder has gun training in the particular type of firearm. In that case, the misfire value increases by 2 instead of 4.
 
-_Early Firearms_: If an early firearm with the broken condition misfires again, it explodes. When a nonmagical firearm explodes, the weapon is destroyed. Magical firearms are wrecked, which means they can't fire until they are fully restored (which requires either the _ [make whole](/pathfinderRPG/prd/spells/makeWhole.html#_make-whole)_ spell or the [Gunsmithing](/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_gunsmithing) feat). When a gun explodes, pick one corner of your square—the explosion creates a burst from that point of origin. Each firearm has a burst size noted in parentheses after its misfire value. Any creature within this burst (including the firearm's wielder) takes damage as if it had been hit by the weapon—a DC 12 Reflex save halves this damage.
+_Early Firearms_: If an early firearm with the broken condition misfires again, it explodes. When a nonmagical firearm explodes, the weapon is destroyed. Magical firearms are wrecked, which means they can't fire until they are fully restored (which requires either the _ [make whole](spells/makeWhole.md#_make-whole)_ spell or the [Gunsmithing](ultimateCombat/ultimateCombatFeats.md#_gunsmithing) feat). When a gun explodes, pick one corner of your square—the explosion creates a burst from that point of origin. Each firearm has a burst size noted in parentheses after its misfire value. Any creature within this burst (including the firearm's wielder) takes damage as if it had been hit by the weapon—a DC 12 Reflex save halves this damage.
 
   
   
@@ -75,7 +75,7 @@ _Advanced Firearms_: Advanced firearms can misfire, but when they do, they only 
 
 **Firearms, Black Powder, and Water** : Black powder becomes useless when exposed to water, but powder horns and cartridges protect black powder from exposure. You cannot normally load an early firearm underwater or fire any firearm underwater without magical aid.
 
-**Deflecting and Snatching Bullets** : The [Deflect Arrows](/pathfinderRPG/prd/feats.html#_deflect-arrows) feat and the [Snatch Arrows](/pathfinderRPG/prd/feats.html#_snatch-arrows) feat can be used to deflect bullets, but not pellets shot from a scatter weapon. Neither of these feats can be used to deflect siege firearm attacks.
+**Deflecting and Snatching Bullets** : The [Deflect Arrows](feats.md#_deflect-arrows) feat and the [Snatch Arrows](feats.md#_snatch-arrows) feat can be used to deflect bullets, but not pellets shot from a scatter weapon. Neither of these feats can be used to deflect siege firearm attacks.
 
 # Firearm Descriptions
 
@@ -83,7 +83,7 @@ There are two general categories of firearms: early and advanced.
 
 Firearms are further divided into one-handed, two-handed, and siege firearms. As the category's name implies, one-handed firearms need only one hand to wield and shoot. Two-handed firearms work best when you use two-hands while shooting them. Two-handed firearms can be shot with one hand at a –4 penalty on the attack roll. Siege weapons are typically mounted on some sort of platform, movable or otherwise, and have greater power but a much slower rate of fire—they're detailed in their own section.
 
-**Scatter Weapon Quality** : A weapon with the scatter weapon quality can shoot two different types of ammunition. It can fire normal bullets that target one creature, or it can make a scattering shot, attacking all creatures within a cone. Cannons with the scatter weapon quality only fire grapeshot, unless their descriptions state otherwise. When a scatter weapon attacks all creatures within a cone, it makes a separate attack roll against each creature within the cone. Each attack roll takes a –2 penalty, and its attack damage cannot be modified by precision damage or damage-increasing feats such as [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike). Effects that grant concealment, such as fog or smoke, or the _ [blur](/pathfinderRPG/prd/spells/blur.html#_blur), [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, or _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_ spells, do not foil a scatter attack. If any of the attack rolls threaten a critical, confirm the critical for that attack roll alone. A firearm that makes a scatter shot misfires only if all of the attack rolls made misfire. If a scatter weapon explodes on a misfire, it deals triple its damage to all creatures within the misfire radius.
+**Scatter Weapon Quality** : A weapon with the scatter weapon quality can shoot two different types of ammunition. It can fire normal bullets that target one creature, or it can make a scattering shot, attacking all creatures within a cone. Cannons with the scatter weapon quality only fire grapeshot, unless their descriptions state otherwise. When a scatter weapon attacks all creatures within a cone, it makes a separate attack roll against each creature within the cone. Each attack roll takes a –2 penalty, and its attack damage cannot be modified by precision damage or damage-increasing feats such as [Vital Strike](feats.md#_vital-strike). Effects that grant concealment, such as fog or smoke, or the _ [blur](spells/blur.md#_blur), [invisibility](spells/invisibility.md#_invisibility)_, or _ [mirror image](spells/mirrorImage.md#_mirror-image)_ spells, do not foil a scatter attack. If any of the attack rolls threaten a critical, confirm the critical for that attack roll alone. A firearm that makes a scatter shot misfires only if all of the attack rolls made misfire. If a scatter weapon explodes on a misfire, it deals triple its damage to all creatures within the misfire radius.
 
 ## Early Firearms
 
@@ -133,15 +133,15 @@ Early firearms are typically matchlock, wheellock, or flintlock weapons, and req
 
 **Pistol** : The single-shot pistol is one of the most common firearms, although in most campaigns it is still rare enough to be an object of envy or curiosity to most. A pistol uses either a bullet and a singe dose of black powder or an alchemical cartridge as ammunition.
 
-**Pistol, Coat** : Less powerful than other firearms, this pistol is small enough to be easily concealed in a jacket or coat. You get a +2 bonus on [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) checks made to conceal a coat pistol on your body. A coat pistol uses either a bullet and a single dose of black powder or an alchemical cartridge as ammunition.
+**Pistol, Coat** : Less powerful than other firearms, this pistol is small enough to be easily concealed in a jacket or coat. You get a +2 bonus on [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks made to conceal a coat pistol on your body. A coat pistol uses either a bullet and a single dose of black powder or an alchemical cartridge as ammunition.
 
-**Pistol, Dagger** : A combination of a coat pistol and a blade, the dagger pistol can be used as both weapons. The awkwardness of the configuration means you do not gain the bonus on [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) checks that either of those stand-alone weapons grants. The dagger pistol is considered a double weapon for the purpose of creating masterwork or magical versions of this weapon. If this firearm gains the broken condition, both the firearm component and the dagger component are considered broken. A dagger pistol uses either a bullet and a single dose of black powder or an alchemical cartridge as ammunition.
+**Pistol, Dagger** : A combination of a coat pistol and a blade, the dagger pistol can be used as both weapons. The awkwardness of the configuration means you do not gain the bonus on [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks that either of those stand-alone weapons grants. The dagger pistol is considered a double weapon for the purpose of creating masterwork or magical versions of this weapon. If this firearm gains the broken condition, both the firearm component and the dagger component are considered broken. A dagger pistol uses either a bullet and a single dose of black powder or an alchemical cartridge as ammunition.
 
 **Pistol, Double-Barreled** : This pistol has two parallel barrels; each barrel can be fired independently as a separate action, or both can be shot at once with the same action. If both barrels are shot at once, they must both target the same creature or object, and the pistol becomes wildly inaccurate, imparting a –4 penalty on each shot.
 
 **Pistol, Dragon** : Like a miniature blunderbuss, the dragon pistol fires pellets or a bullet from its flared barrel. The dragon pistol fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. For ammunition, a dragon pistol uses a bullet or group of pellets and a single dose of black powder, or else a single alchemical cartridge (with either bullets or pellets) as ammunition.
 
-**Pistol, Sword Cane** : A combination weapon, this gun mixes a coat pistol with a sword cane (_Advanced Player's Guide_ 179). The sword cane pistol is considered a double weapon for the purpose of creating masterwork or magical versions of this weapon. The pistol attachment makes the nature of the weapon a little more difficult to hide. An observer must make a DC 15 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) check to realize that an undrawn sword cane pistol is a weapon rather than a walking stick; the DC decreases to 5 if the observer is able to handle the weapon. A sword cane pistol uses either a bullet and a single dose of black powder or an alchemical cartridge as ammunition. The sword part of the weapon must be drawn in order to load the pistol part of the weapon.
+**Pistol, Sword Cane** : A combination weapon, this gun mixes a coat pistol with a sword cane (_Advanced Player's Guide_ 179). The sword cane pistol is considered a double weapon for the purpose of creating masterwork or magical versions of this weapon. The pistol attachment makes the nature of the weapon a little more difficult to hide. An observer must make a DC 15 [Perception](skills/perception.md#_perception) check to realize that an undrawn sword cane pistol is a weapon rather than a walking stick; the DC decreases to 5 if the observer is able to handle the weapon. A sword cane pistol uses either a bullet and a single dose of black powder or an alchemical cartridge as ammunition. The sword part of the weapon must be drawn in order to load the pistol part of the weapon.
 
 ## Advanced Firearms
 
@@ -206,7 +206,7 @@ _Entangling Shot Cartridge_: This mix of black powder and an alchemically treate
   
   
 
-_ [Flare](/pathfinderRPG/prd/spells/flare.html#_flare) Cartridge_: When a flare cartridge hits its target, it only deals half damage, but the creature struck is blinded for 1 round (Fort DC 15 reduces this to dazzled), and creatures within a 20-foot burst are dazzled for 1 round (Fort DC 15 negates the effect). Flare cartridges are also useful for sending up signal flares. Firing a flare cartridge increases the firearm's misfire value by 2 unless it is fired from a blunderbuss or a dragon pistol, in which case doing so only increases the firearm's misfire value by 1. Flares can only be used to attack single creatures; they do not work as a shot for a cone scatter attack.
+_ [Flare](spells/flare.md#_flare) Cartridge_: When a flare cartridge hits its target, it only deals half damage, but the creature struck is blinded for 1 round (Fort DC 15 reduces this to dazzled), and creatures within a 20-foot burst are dazzled for 1 round (Fort DC 15 negates the effect). Flare cartridges are also useful for sending up signal flares. Firing a flare cartridge increases the firearm's misfire value by 2 unless it is fired from a blunderbuss or a dragon pistol, in which case doing so only increases the firearm's misfire value by 1. Flares can only be used to attack single creatures; they do not work as a shot for a cone scatter attack.
 
   
   
@@ -224,7 +224,7 @@ _Salt Shot Cartridge_: This mix of black powder and rock salt can only be loaded
 
 **Bullet, Adamantine** : These expensive bullets are crafted from adamantine. They ignore hardness 20 or less when attacking objects.
 
-**Bullet, Pitted** : This ammunition is pitted with a pattern of small pocks into which specially formulated poison compounds can be applied. A poison compound is a derivative of a standard toxin that is alchemically reduced to a solid form. These can be made from any standard injury or contact poison with a [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (poison) check equal to the poison's DC + 4. The cost of purchasing an already prepared poison compound for the purpose of treating pitted bullets is equal to the poison's base cost + 20 gp. Once crafted, the compound can be pasted into the ammunition's pitted design and allowed to harden. Upon completion, the bullet can be fired from an appropriate firearm, releasing the poison compound into its target upon impact, but the poison's DC is reduced by 2. A pitted bullet cannot be used with an alchemical cartridge.
+**Bullet, Pitted** : This ammunition is pitted with a pattern of small pocks into which specially formulated poison compounds can be applied. A poison compound is a derivative of a standard toxin that is alchemically reduced to a solid form. These can be made from any standard injury or contact poison with a [Craft](skills/craft.md#_craft) (poison) check equal to the poison's DC + 4. The cost of purchasing an already prepared poison compound for the purpose of treating pitted bullets is equal to the poison's base cost + 20 gp. Once crafted, the compound can be pasted into the ammunition's pitted design and allowed to harden. Upon completion, the bullet can be fired from an appropriate firearm, releasing the poison compound into its target upon impact, but the poison's DC is reduced by 2. A pitted bullet cannot be used with an alchemical cartridge.
 
 **Bullet, Silver** : This ammunition is specifically crafted from silver, and though nonmagical, it is particularly detrimental to lycanthropes, automatically confirming any critical threats against such creatures. A firearm that is shooting a silver bullet takes a –1 penalty on damage rolls (with a minimum of 1 point of damage).
 
@@ -256,7 +256,7 @@ A firearm loaded with this ammunition still takes the –2 penalty on attack rol
 
 Construction
 
-**Requirements** [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [air bubble](/pathfinderRPG/prd/ultimateCombat/spells/airBubble.html#_air-bubble) _
+**Requirements** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [air bubble](ultimateCombat/spells/airBubble.md#_air-bubble) _
 
 ## Specific Firearm Ammunition
 
@@ -270,11 +270,11 @@ Burrowing Bullet
 
 Description
 
-This _+1 firearm bullet_ deals normal damage, but when it hits a living creature, it burrows into the creature's flesh, causing wracking pain until removed or until the bullet burrows its way out of the creature. While these bullets burrow, the creature is staggered. This effect lasts for 1d3 rounds or until the bullet is removed with a DC 15 [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) check made as a standard action. _Greater burrowing bullets_ take longer to pass though the bodies of living creatures (the staggered effect lasts 1d3+2 rounds) and are harder to remove (DC 20 [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) check as a standard action).
+This _+1 firearm bullet_ deals normal damage, but when it hits a living creature, it burrows into the creature's flesh, causing wracking pain until removed or until the bullet burrows its way out of the creature. While these bullets burrow, the creature is staggered. This effect lasts for 1d3 rounds or until the bullet is removed with a DC 15 [Heal](skills/heal.md#_heal) check made as a standard action. _Greater burrowing bullets_ take longer to pass though the bodies of living creatures (the staggered effect lasts 1d3+2 rounds) and are harder to remove (DC 20 [Heal](skills/heal.md#_heal) check as a standard action).
 
 Construction
 
-**Requirements** [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [symbol of pain](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)_ (_burrowing bullet_) or _ [symbol of stunning](/pathfinderRPG/prd/spells/symbolOfStunning.html#_symbol-of-stunning)_ (_greater burrowing bullet_); **Cost** 861 gp (_burrowing bullet_) or 1,723 gp (_greater burrowing bullet_)
+**Requirements** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [symbol of pain](spells/symbolOfPain.md#_symbol-of-pain)_ (_burrowing bullet_) or _ [symbol of stunning](spells/symbolOfStunning.md#_symbol-of-stunning)_ (_greater burrowing bullet_); **Cost** 861 gp (_burrowing bullet_) or 1,723 gp (_greater burrowing bullet_)
 
 Tracer Bullet
 
@@ -284,11 +284,11 @@ Tracer Bullet
 
 Description
 
-These _+1 firearm bullets_ deal no damage, but instead cause a pale glow to outline the target, granting the effect of a _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ spell and causing the target to take a –2 penalty to AC against ranged attacks. These effects last for 1d4 rounds.
+These _+1 firearm bullets_ deal no damage, but instead cause a pale glow to outline the target, granting the effect of a _ [faerie fire](spells/faerieFire.md#_faerie-fire)_ spell and causing the target to take a –2 penalty to AC against ranged attacks. These effects last for 1d4 rounds.
 
 Construction
 
-**Requirements** [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_; **Cost** 50 gp
+**Requirements** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [faerie fire](spells/faerieFire.md#_faerie-fire)_; **Cost** 50 gp
 
 ## Magic Firearm Special Abilities
 
@@ -304,7 +304,7 @@ This special ability can only be placed on one-handed or two-handed firearms. A 
 
 Construction
 
-**Requirements** [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_, creator must be a grit user
+**Requirements** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [heroism](spells/heroism.md#_heroism)_, creator must be a grit user
 
 Lucky, Greater
 
@@ -316,7 +316,7 @@ This special ability can only be placed on one-handed or two-handed firearms. A 
 
 Construction
 
-**Requirements** [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [greater heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism-greater)_, creator must be a grit user
+**Requirements** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [greater heroism](spells/heroism.md#_heroism-greater)_, creator must be a grit user
 
 Reliable
 
@@ -328,7 +328,7 @@ This special ability can only be placed on firearms. A _reliable firearm_ is enc
 
 Construction
 
-**Requirements** [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_
+**Requirements** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [mending](spells/mending.md#_mending)_
 
 Reliable, Greater
 
@@ -340,7 +340,7 @@ This special ability can only be placed on one-handed or two-handed firearms. A 
 
 Construction
 
-**Requirements** [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [make whole](/pathfinderRPG/prd/spells/makeWhole.html#_make-whole)_
+**Requirements** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [make whole](spells/makeWhole.md#_make-whole)_
 
 ## Wondrous Items
 
@@ -358,7 +358,7 @@ This amulet, usually crafted from the splintered remains of spent firearm bullet
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, creator's caster level must be at least three times the amulet's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 18,7500 gp (+5)
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [divine favor](spells/divineFavor.md#_divine-favor)_, creator's caster level must be at least three times the amulet's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 18,7500 gp (+5)
 
 Dry Load Powder Horn
 
@@ -374,7 +374,7 @@ Firing a firearm that has been loaded from this horn underwater still incurs the
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [air bubble](/pathfinderRPG/prd/ultimateCombat/spells/airBubble.html#_air-bubble) _; **Cost** 1,000 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [air bubble](ultimateCombat/spells/airBubble.md#_air-bubble) _; **Cost** 1,000 gp
 
 Far-Reaching Sight
 
@@ -388,7 +388,7 @@ This sight can be attached to a single two-handed firearm. When this is done, th
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_; **Cost** 2,000 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [true strike](spells/trueStrike.md#_true-strike)_; **Cost** 2,000 gp
 
 Figurine of Wondrous Power (Slate Spider)
 
@@ -406,7 +406,7 @@ When animated, a _slate spider_ has 1 hit point and is considered an attended ob
 
 Construction
 
-**Requirements** [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) Wondrous Items, _animate objec_t; **Cost** 5,000 gp
+**Requirements** [Craft](skills/craft.md#_craft) Wondrous Items, _animate objec_t; **Cost** 5,000 gp
 
 Oil of Silence
 
@@ -416,11 +416,11 @@ Oil of Silence
 
 Description
 
-When applied to a one-handed or two-handed firearm, this strange grayish oil renders that firearm silent for 1 hour. Five vials of _oil of [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ can be used in conjunction to silence a Large firearm siege engine, and 10 can be used to silence a Huge firearm siege engine. The oil does not work on firearm siege engines that are larger than Huge.
+When applied to a one-handed or two-handed firearm, this strange grayish oil renders that firearm silent for 1 hour. Five vials of _oil of [silence](spells/silence.md#_silence)_ can be used in conjunction to silence a Large firearm siege engine, and 10 can be used to silence a Huge firearm siege engine. The oil does not work on firearm siege engines that are larger than Huge.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_; **Cost** 125 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [silence](spells/silence.md#_silence)_; **Cost** 125 gp
 
 See Invisibility Sight
 
@@ -434,5 +434,5 @@ This sight can be attached to a single two-handed firearm. When this is done, th
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_; **Cost** 6,000 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [true seeing](spells/trueSeeing.md#_true-seeing)_; **Cost** 6,000 gp
 

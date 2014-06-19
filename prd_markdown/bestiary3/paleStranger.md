@@ -8,9 +8,9 @@ XP 9,600
 
 NE Medium undead
 
-**Init** +9; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +22
+**Init** +9; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +22
 
-**Aura** [fear](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)) (10 ft., DC 21)
+**Aura** [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) (10 ft., DC 21)
 
 Defense
 
@@ -20,7 +20,7 @@ Defense
 
 **Fort** +9, **Ref** +10, **Will** +13
 
-**Defensive Abilities** channel [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) +4; **DR** 10/bludgeoning and magic; **Immune** undead traits; **SR** 21
+**Defensive Abilities** channel [resistance](monsters/universalMonsterRules.md#_resistance) +4; **DR** 10/bludgeoning and magic; **Immune** undead traits; **SR** 21
 
 Offense
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +11; **CMB** +14; **CMD** 30
 
-**Feats** [Deadly Aim](/pathfinderRPG/prd/feats.html#_deadly-aim), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (pistol), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Improved Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_improved-two-weapon-fighting), [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), [Precise Shot](/pathfinderRPG/prd/feats.html#_precise-shot), [Quick Draw](/pathfinderRPG/prd/feats.html#_quick-draw), [Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_two-weapon-fighting)
+**Feats** [Deadly Aim](feats.md#_deadly-aim), [Dodge](feats.md#_dodge), [Improved Critical](feats.md#_improved-critical) (pistol), [Improved Initiative](feats.md#_improved-initiative), [Improved Two-Weapon Fighting](feats.md#_improved-two-weapon-fighting), [Point-Blank Shot](feats.md#_point-blank-shot), [Precise Shot](feats.md#_precise-shot), [Quick Draw](feats.md#_quick-draw), [Two-Weapon Fighting](feats.md#_two-weapon-fighting)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +13, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +11, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +22, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +22, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +15, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +13, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +8
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +13, [Climb](skills/climb.md#_climb) +11, [Intimidate](skills/intimidate.md#_intimidate) +22, [Perception](skills/perception.md#_perception) +22, [Ride](skills/ride.md#_ride) +15, [Stealth](skills/stealth.md#_stealth) +13, [Swim](skills/swim.md#_swim) +8
 
 **Languages** Common
 
@@ -62,7 +62,7 @@ Special Abilities
 
 Sometimes death itself cannot come between a gunslinger and its final revenge. When a gunslinger is slain by a hated enemy, or murdered before it can achieve vengeance against a hated foe, the anger and wrath can animate its remains as a vengeful undead monstrosity. When a pale stranger first rises, it seeks out the source of its anger to finish the job—thereafter, it wanders the desolate parts of the world looking for new victims to vent its unending rage upon.
 
-A pale stranger appears much as it did in life, though desiccated and obviously undead. Rare pale strangers have the ability to hide their undead nature and appear as they did in life using _ [veil](/pathfinderRPG/prd/spells/veil.html#_veil)_ as a constant spell-like ability (CL equals their CR). These pale strangers are often more powerful and have class levels in gunslinger or ranger, and often attract large groups of adoring bandits and followers who may or may not realize that their murderous idol is in fact an unliving horror.
+A pale stranger appears much as it did in life, though desiccated and obviously undead. Rare pale strangers have the ability to hide their undead nature and appear as they did in life using _ [veil](spells/veil.md#_veil)_ as a constant spell-like ability (CL equals their CR). These pale strangers are often more powerful and have class levels in gunslinger or ranger, and often attract large groups of adoring bandits and followers who may or may not realize that their murderous idol is in fact an unliving horror.
 
 A pale stranger stands 6-1/2 feet tall and weighs 130 pounds.
 

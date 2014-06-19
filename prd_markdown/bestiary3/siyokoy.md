@@ -6,9 +6,9 @@ Siyokoy CR 10
 
 XP 9,600
 
-N Medium aberration ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Medium aberration ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +5; **Senses** [blindsight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight) 60 ft., darkvision 60 ft., [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +22
+**Init** +5; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 60 ft., darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +22
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +10, **Ref** +9, **Will** +10
 
-**DR** 10/slashing; **Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), electricity, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su))
+**DR** 10/slashing; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), electricity, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))
 
 **Weaknesses** light sensitivity
 
@@ -26,11 +26,11 @@ Offense
 
 **Speed** 30 ft., swim 60 ft.
 
-**Melee** bite +18 (1d6+9/19–20 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), 2 claws +18 (1d6+9), tail slap +14 (1d6+4 plus stunning shock)
+**Melee** bite +18 (1d6+9/19–20 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 claws +18 (1d6+9), tail slap +14 (1d6+4 plus stunning shock)
 
 **Space** 5 ft.; **Reach** 5 ft. (10 ft. with tail slap)
 
-**Special Attacks** [constrict](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict) (2d6+4), stunning shock, swim-by attack
+**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) (2d6+4), stunning shock, swim-by attack
 
 Statistics
 
@@ -38,9 +38,9 @@ Statistics
 
 **Base Atk** +9; **CMB** +18 (+24 grapple); **CMD** 34
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite), [Improved Grapple](/pathfinderRPG/prd/feats.html#_improved-grapple), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Stealthy](/pathfinderRPG/prd/feats.html#_stealthy), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (tail slap)
+**Feats** [Alertness](feats.md#_alertness), [Dodge](feats.md#_dodge), [Improved Critical](feats.md#_improved-critical) (bite), [Improved Grapple](feats.md#_improved-grapple), [Power Attack](feats.md#_power-attack), [Stealthy](feats.md#_stealthy), [Weapon Focus](feats.md#_weapon-focus) (tail slap)
 
-**Skills** [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) +16, [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +7, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +9, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography) +10, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +22, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +4, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +25, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +16, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +25
+**Skills** [Disable Device](skills/disableDevice.md#_disable-device) +16, [Escape Artist](skills/escapeArtist.md#_escape-artist) +7, [Intimidate](skills/intimidate.md#_intimidate) +9, [Knowledge](skills/knowledge.md#_knowledge) (geography) +10, [Perception](skills/perception.md#_perception) +22, [Sense Motive](skills/senseMotive.md#_sense-motive) +4, [Stealth](skills/stealth.md#_stealth) +25, [Survival](skills/survival.md#_survival) +16, [Swim](skills/swim.md#_swim) +25
 
 **Languages** Aquan
 
@@ -56,7 +56,7 @@ Special Abilities
 
 **Stunning Shock (Su)** A siyokoy can emit a strong electrical charge from its tail. When it hits a creature with its tail slap, the attack deals 3d6 points of electrical damage and the target must succeed at a DC 22 Fortitude save or be stunned for 1d4 rounds.
 
-**Swim-By Attack (Ex)** Extremely quick in the [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype), a siyokoy gains Spring Attack as a bonus feat when swimming.
+**Swim-By Attack (Ex)** Extremely quick in the [water](monsters/creatureTypes.md#_water-subtype), a siyokoy gains Spring Attack as a bonus feat when swimming.
 
 Siyokoys are eel-like aquatic creatures often mistaken for merfolk by sailors. On closer inspection, however, siyokoys' appearance might make one question the vision of said sailors, for apart from their humanoid arms, siyokoys are very much creatures of the sea.
 

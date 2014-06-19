@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
 This spell removes the burden of misdeeds from the subject. The creature seeking atonement must be truly repentant and desirous of setting right its misdeeds. If the atoning creature committed the evil act unwittingly or under some form of compulsion, _atonement _operates normally at no cost to you. However, in the case of a creature atoning for deliberate misdeeds, you must intercede with your deity (requiring you to expend 2,500 gp in rare incense and offerings). _Atonement _may be cast for one of several purposes, depending on the version selected.
 

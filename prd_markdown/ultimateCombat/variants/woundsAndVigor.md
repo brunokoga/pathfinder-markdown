@@ -30,13 +30,13 @@ When a creature no longer has any vigor points, any additional damage it takes r
 
 A creature can regain wound and vigor points in a number of ways, but in general it is easier to regain vigor points.
 
-**Healing Spells and Effects** : When casting healing spells or using an ability with a healing effect (such as channeling holy energy on living creatures or the paladin's lay on hands ability), the creature casting the spell or using the effect must choose whether it wants to heal wound points or vigor points. The creature decides this before casting the spell or using the ability. When that creature decides to heal vigor points, the healing spell or effect acts normally, replenishing a number of vigor points equal to the number of hit points the spell or effect would normally heal. If the creature decides to heal wound points, it heals a number of wound points equal to the number of dice it would normally roll for the healing spell or effect. In the case of effects like the _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_ spell, where a spell or effect heals 10 hit points per caster level, the creature heals its caster level in wound points.
+**Healing Spells and Effects** : When casting healing spells or using an ability with a healing effect (such as channeling holy energy on living creatures or the paladin's lay on hands ability), the creature casting the spell or using the effect must choose whether it wants to heal wound points or vigor points. The creature decides this before casting the spell or using the ability. When that creature decides to heal vigor points, the healing spell or effect acts normally, replenishing a number of vigor points equal to the number of hit points the spell or effect would normally heal. If the creature decides to heal wound points, it heals a number of wound points equal to the number of dice it would normally roll for the healing spell or effect. In the case of effects like the _ [heal](spells/heal.md#_heal)_ spell, where a spell or effect heals 10 hit points per caster level, the creature heals its caster level in wound points.
 
-For instance, if a 12th-level cleric uses her channel positive energy power to replenish wound points to living creatures, she would typically heal 6 wound points for all living creatures with her channel energy burst. If she casts the _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_ spell, she would restore 12 wound points to the creature touched.
+For instance, if a 12th-level cleric uses her channel positive energy power to replenish wound points to living creatures, she would typically heal 6 wound points for all living creatures with her channel energy burst. If she casts the _ [heal](spells/heal.md#_heal)_ spell, she would restore 12 wound points to the creature touched.
 
 **Rest** : When a creature has a full night's rest (8 hours of sleep or more), that creature regains all its vigor points and 1 wound point. If there is a significant interruption during a rest, the creature regains neither wound points nor vigor points. If a creature undergoes complete bed rest for an entire day, it regains half its level in wound points and all its vigor points.
 
-**Restoration and Similar Effects** : When a creature regains Constitution points by way of the _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_ spell or a similar effect, that creature regains 2 wound points for every Constitution point regained. Relieving a Constitution penalty or Constitution drain regains any wound points that were lost from that penalty or drain.
+**Restoration and Similar Effects** : When a creature regains Constitution points by way of the _ [restoration](spells/restoration.md#_restoration)_ spell or a similar effect, that creature regains 2 wound points for every Constitution point regained. Relieving a Constitution penalty or Constitution drain regains any wound points that were lost from that penalty or drain.
 
 # Attacks that Deal Wound point Damage
 
@@ -44,7 +44,7 @@ Some attacks can be used to deal wound points damage directly.
 
 **Critical Hits** : When a creature is subject to a critical hit, the critical hit deals the damage normally, reducing vigor points first, and then reducing wound points when vigor points are gone. It also deals an amount of wound point damage equal to its critical multiplier (for example, 3 wound points for a weapon with a ×3 modifier), on top of any wound point damage the creature might take from the critical hit.
 
-**Negative Energy Damage** : When a creature deals negative energy damage to a creature with a spell or effect, it can choose to deal wound point or vigor point damage (but not both) with the spell or effect. If that creature chooses to deal vigor point damage, the spell or effect deals negative energy damage normally, and that damage reduces vigor points only, even if it deals more damage than the target has vigor points. If the spell or effect deals negative energy damage to wound points directly, it deals an amount of wound point damage equal to the number of dice the creature would roll for that effect; if the effect deals a number of points per caster level (such as the _ [harm](/pathfinderRPG/prd/spells/harm.html#_harm)_ spell), it deals a number of wound points equal to the caster level of the spell.
+**Negative Energy Damage** : When a creature deals negative energy damage to a creature with a spell or effect, it can choose to deal wound point or vigor point damage (but not both) with the spell or effect. If that creature chooses to deal vigor point damage, the spell or effect deals negative energy damage normally, and that damage reduces vigor points only, even if it deals more damage than the target has vigor points. If the spell or effect deals negative energy damage to wound points directly, it deals an amount of wound point damage equal to the number of dice the creature would roll for that effect; if the effect deals a number of points per caster level (such as the _ [harm](spells/harm.md#_harm)_ spell), it deals a number of wound points equal to the caster level of the spell.
 
 # Other Considerations
 
@@ -54,7 +54,7 @@ The following are a few other considerations to take into account when using the
 
 **Nonlethal Damage** : When a creature takes nonlethal damage, it takes that damage in vigor points only, even if the attack deals more damage than the creature has vigor points. If the creature has no vigor points (and no temporary vigor points), each time that creature takes damage from an attack that deals nonlethal damage, it takes either 1 wound point of damage, or a number of wound points in damage equal to the attack's critical hit modifier if the attack is a critical hit.
 
-**Spells or Effects with Hit Point Triggers** : When using this system, if a spell or an ability has an effect that occurs when you reduce a creature to 0 or fewer hit points (such as the _ [disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate) _spell), that effect is instead triggered when a creature is wounded. In the case of the _ [harm](/pathfinderRPG/prd/spells/harm.html#_harm)_ spell or a similar effect where a creature cannot be reduced below 1 hit point by the spell or effect, a creature's wound points cannot be reduced to or below that creature's wound threshold.
+**Spells or Effects with Hit Point Triggers** : When using this system, if a spell or an ability has an effect that occurs when you reduce a creature to 0 or fewer hit points (such as the _ [disintegrate](spells/disintegrate.md#_disintegrate) _spell), that effect is instead triggered when a creature is wounded. In the case of the _ [harm](spells/harm.md#_harm)_ spell or a similar effect where a creature cannot be reduced below 1 hit point by the spell or effect, a creature's wound points cannot be reduced to or below that creature's wound threshold.
 
 # Wounds and Vigor Variant Feats
 
@@ -64,7 +64,7 @@ The following feats are either new for the wounds and vigor system or work diffe
 
 For you, impending death is a call to wrath.
 
-**Prerequisites** : Str 13, Con 13, [Diehard](/pathfinderRPG/prd/feats.html#_diehard), [Endurance](/pathfinderRPG/prd/feats.html#_endurance), base attack bonus +6, orc or half-orc.
+**Prerequisites** : Str 13, Con 13, [Diehard](feats.md#_diehard), [Endurance](feats.md#_endurance), base attack bonus +6, orc or half-orc.
 
 **Benefit** : You are not staggered when your wound points reach your wound threshold, but you lose 1 wound point if you take any action during your turn. You only take 1 wound point each round when you take actions. Furthermore, you gain a +2 bonus on melee attacks and damage rolls when your wound points are at or below your wound threshold.
 
@@ -72,7 +72,7 @@ For you, impending death is a call to wrath.
 
 Even if you suffer a grievous wound, you can shrug off the damage and continue your relentless assault.
 
-**Prerequisites** : Str 13, Con 15, [Deathless Initiate](../ultimateCombatFeats.html#_deathless-initiate-(combat)), [Diehard](/pathfinderRPG/prd/feats.html#_diehard), [Endurance](/pathfinderRPG/prd/feats.html#_endurance), [Ironhide](/pathfinderRPG/prd/advanced/advancedFeats.html#_ironhide), base attack bonus +9, orc or half-orc.
+**Prerequisites** : Str 13, Con 15, [Deathless Initiate](../ultimateCombatFeats.md#_deathless-initiate-(combat)), [Diehard](feats.md#_diehard), [Endurance](feats.md#_endurance), [Ironhide](advanced/advancedFeats.md#_ironhide), base attack bonus +9, orc or half-orc.
 
 **Benefit** : When your wound points reach your wound threshold, you do not take 1 wound point when you take an action.
 

@@ -1,8 +1,8 @@
 Giant Vermin
 
-**Source** [_giant vermin_](/pathfinderRPG/prd/spells/giantVermin.html#_giant-vermin)
+**Source** [_giant vermin_](spells/giantVermin.md#_giant-vermin)
 
-The vermin you transform with this spell gain DR 5/magic and either the advanced creature template or the [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) creature template.
+The vermin you transform with this spell gain DR 5/magic and either the advanced creature template or the [giant](monsters/creatureTypes.md#_giant-subtype) creature template.
 
 **Augmented (6th)** : If you expend two uses of mythic power, any vermin you transform also gains either the agile or savage mythic template while the spell lasts.
 

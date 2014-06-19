@@ -6,9 +6,9 @@ _This hyena is covered in shaggy, tan-colored fur with black and brown stripes._
 
 **XP 400**
 
-N Medium [animal](creatureTypes.html#_animal)
+N Medium [animal](creatureTypes.md#_animal)
 
-**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +7
+**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +7
 
 **Defense**
 
@@ -22,7 +22,7 @@ N Medium [animal](creatureTypes.html#_animal)
 
 **Speed** 50 ft.
 
-**Melee** bite +3 (1d6+3 plus [trip](universalMonsterRules.html#_trip))
+**Melee** bite +3 (1d6+3 plus [trip](universalMonsterRules.md#_trip))
 
 **Statistics**
 
@@ -30,9 +30,9 @@ N Medium [animal](creatureTypes.html#_animal)
 
 **Base Atk** +1; **CMB** +3; **CMD** 15 (19 vs. trip)
 
-**Feats** [Skill Focus](../feats.html#_skill-focus) (Perception)
+**Feats** [Skill Focus](../feats.md#_skill-focus) (Perception)
 
-**Skills** [Perception](../skills/perception.html#_perception) +8, [Stealth](../skills/stealth.html#_stealth) +6 (+10 in tall grass); **Racial Modifiers** +4 [Stealth](../skills/stealth.html#_stealth) in tall grass
+**Skills** [Perception](../skills/perception.md#_perception) +8, [Stealth](../skills/stealth.md#_stealth) +6 (+10 in tall grass); **Racial Modifiers** +4 [Stealth](../skills/stealth.md#_stealth) in tall grass
 
 **Ecology**
 
@@ -62,9 +62,9 @@ _This large hyena has a thick head, rheumy red eyes, and a mouth filled with sha
 
 **XP 800**
 
-N Large [animal](creatureTypes.html#_animal)
+N Large [animal](creatureTypes.md#_animal)
 
-**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +8
+**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +8
 
 **Defense**
 
@@ -78,7 +78,7 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Speed** 50 ft.
 
-**Melee** bite +6 (2d6+6 plus [trip](universalMonsterRules.html#_trip))
+**Melee** bite +6 (2d6+6 plus [trip](universalMonsterRules.md#_trip))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -88,9 +88,9 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Base Atk** +3; **CMB** +8; **CMD** 20 (24 vs. trip)
 
-**Feats** [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception), [Stealth](../skills/stealth.html#_stealth))
+**Feats** [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception), [Stealth](../skills/stealth.md#_stealth))
 
-**Skills** [Perception](../skills/perception.html#_perception) +8, [Stealth](../skills/stealth.html#_stealth) +7 (+11 in tall grass or heavy undergrowth); **Racial Modifiers** +4 [Stealth](../skills/stealth.html#_stealth) in tall grass
+**Skills** [Perception](../skills/perception.md#_perception) +8, [Stealth](../skills/stealth.md#_stealth) +7 (+11 in tall grass or heavy undergrowth); **Racial Modifiers** +4 [Stealth](../skills/stealth.md#_stealth) in tall grass
 
 **Ecology**
 

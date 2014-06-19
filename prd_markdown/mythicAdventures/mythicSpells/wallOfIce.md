@@ -1,6 +1,6 @@
 Wall of Ice
 
-**Source** [_wall of ice_](/pathfinderRPG/prd/spells/wallOfIce.html#_wall-of-ice)
+**Source** [_wall of ice_](spells/wallOfIce.md#_wall-of-ice)
 
 The wall's hit points increase to 5 hit points per inch of thickness. Add your tier to the Strength check DC to break through the wall. The damage dealt to those that step through the wall increases to 1d8 points of cold damage + 1 point per caster level. Any creature that passes through the wall must succeed at a Fortitude save or be staggered for 1d4 rounds; this is a cold effect.
 

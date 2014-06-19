@@ -32,7 +32,7 @@ Orcs look upon half-orcs with a strange mixture of contempt, envy, and pride. Th
 
 **Darkvision** : Orcs can see in the dark up to 60 feet.
 
-**Light Sensitivity** : Orcs are dazzled in areas of bright sunlight or within the radius of a _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_ spell.
+**Light Sensitivity** : Orcs are dazzled in areas of bright sunlight or within the radius of a _ [daylight](spells/daylight.md#_daylight)_ spell.
 
 **Ferocity** : Orcs can remain conscious and continue fighting even if their hit point totals fall below 0. Orcs are still staggered at 0 hit points or lower and lose 1 hit point each round as normal.
 
@@ -46,7 +46,7 @@ The following racial traits may be selected instead of existing orc racial trait
 
 **Dayrunner** : Orcs refuse to yield to any foe, including the sun. Some spend hour upon hour glaring at the sun until their ruined eyes acclimatize to bright light. Orcs with this racial trait take a –2 penalty on all ranged attack rolls. This racial trait replaces light sensitivity.
 
-**Feral** : Orcs have the ability to fend for themselves long before they master the rudiments of their language and culture. Having needed to hunt bugs and tiny animals for food to survive while still infants, feral orcs fight all the harder to survive when at the brink of death. Orcs with this racial trait gain [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) as a class skill and gain a +1 racial bonus on melee weapon attack and damage rolls when at negative hit points. This racial trait replaces the orc's weapon familiarity and automatic languages. Feral orcs without additional languages due to high Intelligence scores or ranks in [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) can only communicate with grunts and gestures.
+**Feral** : Orcs have the ability to fend for themselves long before they master the rudiments of their language and culture. Having needed to hunt bugs and tiny animals for food to survive while still infants, feral orcs fight all the harder to survive when at the brink of death. Orcs with this racial trait gain [Survival](skills/survival.md#_survival) as a class skill and gain a +1 racial bonus on melee weapon attack and damage rolls when at negative hit points. This racial trait replaces the orc's weapon familiarity and automatic languages. Feral orcs without additional languages due to high Intelligence scores or ranks in [Linguistics](skills/linguistics.md#_linguistics) can only communicate with grunts and gestures.
 
 **Smeller** : Orcs with this racial trait gain a limited scent ability with half the normal range. This racial trait replaces ferocity and weapon familiarity.
 
@@ -78,7 +78,7 @@ The following racial archetypes are available to orcs.
 
 The dirty fighter laughs at concepts like honor and fair play. He cares only for victory, no matter how he achieves it, and spends as much time mastering sneaky combat maneuvers as he does drilling with weapons or learning how to wear armor. A dirty fighter has the following class features.
 
-**[Sidestep](/pathfinderRPG/prd/advanced/advancedFeats.html#_sidestep) (Ex)** : At 2nd level, a dirty fighter learns how to evade his enemies when they react to his combat maneuvers. He gains a +1 dodge bonus to his AC against attacks of opportunity provoked by him while attempting a combat maneuver. This bonus increases by +1 for every four levels beyond 2nd level. This ability replaces bravery.
+**[Sidestep](advanced/advancedFeats.md#_sidestep) (Ex)** : At 2nd level, a dirty fighter learns how to evade his enemies when they react to his combat maneuvers. He gains a +1 dodge bonus to his AC against attacks of opportunity provoked by him while attempting a combat maneuver. This bonus increases by +1 for every four levels beyond 2nd level. This ability replaces bravery.
 
 **Maneuver Training (Ex)** : At 5th level, a dirty fighter becomes a master of dirty tricks. He gains a +2 bonus on dirty trick combat maneuver checks and +2 to his CMD when he is the target of a dirty trick combat maneuver. This ability replaces weapon training 1.
 
@@ -96,9 +96,9 @@ The scarred witch doctor draws power from her ability to endure pain and sufferi
 
 **Fetish Mask (Su)** : At 1st level, a scarred witch doctor forms a bond with a wooden mask. As she gains power, her connection to this mask causes it to grow ever more hideous and grotesque as it absorbs the weight of the self-induced pain that underlies her magic. Her spells derive from the insights her patron grants her while she's enduring the cuts, burns, and other sorts of mutilations she inflicts upon herself. Her fetish mask acts in all ways like a witch's familiar for the purpose of preparing and gaining spells. Rather than communing with a familiar to prepare spells each day, a scarred witch doctor hangs her mask on a wall, tree branch, or something similar and contemplates the agony it represents.
 
-When wearing her fetish mask, a scarred witch doctor gains a +2 circumstance bonus on [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) and [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks and gains a +2 bonus on saving throws against effects that specifically cause pain or have the pain descriptor. If the mask is destroyed, the witch doctor can create another fetish mask (which almost immediately adopts the shocking appearance of the original) for the same price and time it takes a witch to replace a dead familiar.
+When wearing her fetish mask, a scarred witch doctor gains a +2 circumstance bonus on [Heal](skills/heal.md#_heal) and [Intimidate](skills/intimidate.md#_intimidate) checks and gains a +2 bonus on saving throws against effects that specifically cause pain or have the pain descriptor. If the mask is destroyed, the witch doctor can create another fetish mask (which almost immediately adopts the shocking appearance of the original) for the same price and time it takes a witch to replace a dead familiar.
 
-At 5th level, the scarred witch doctor gains the ability to add magical abilities to her mask as if she had the [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item) feat.
+At 5th level, the scarred witch doctor gains the ability to add magical abilities to her mask as if she had the [Craft Wondrous Item](feats.md#_craft-wondrous-item) feat.
 
 This ability otherwise functions like and replaces the standard witch familiar.
 
@@ -118,7 +118,7 @@ The following options are available to orcs. At the GM's discretion, other appro
 
 Orcs have access to the following equipment.
 
-**Battle Mask** : Made from wood, bone, or similar materials, this mask covers its wearer's actual appearance and identity by depicting a hateful, leering face instead. Because of a battle mask's excellent craftsmanship and exquisite details, the wearer gains a +1 bonus on [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks made to demoralize an opponent.
+**Battle Mask** : Made from wood, bone, or similar materials, this mask covers its wearer's actual appearance and identity by depicting a hateful, leering face instead. Because of a battle mask's excellent craftsmanship and exquisite details, the wearer gains a +1 bonus on [Intimidate](skills/intimidate.md#_intimidate) checks made to demoralize an opponent.
 
 **Tribal Standard** : Mounted on a sturdy 15-foot pole, this flag inspires all orcs belonging to the tribe it represents. As long as they are within 60 feet and can see the standard, they gain a +1 morale bonus on saving throws against fear effects. The standard must be carried in one hand by a member of the tribe to have any effect (it provides no bonus if hung on a wall, draped over a throne, and so on). If the standard is brought low (such as by its bearer dropping it in the mud), defiled, destroyed, or captured, the tribe's members take a –1 penalty on attack rolls and saving throws versus fear effects for the next hour. If the orcs reclaim a captured standard, the penalties end and the bonus is restored.
 
@@ -147,9 +147,9 @@ You are so tough and vicious that you killed and ate the rest of your litter whi
 
 With a simple hit, you more easily intimidate an opponent.
 
-**Prerequisites** : [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) 1 rank, orc.
+**Prerequisites** : [Intimidate](skills/intimidate.md#_intimidate) 1 rank, orc.
 
-**Benefit** : As a standard action, you may make a melee attack with a –2 penalty on the attack roll. If the attack damages your opponent, you may make an [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) check to demoralize that opponent as a free action.
+**Benefit** : As a standard action, you may make a melee attack with a –2 penalty on the attack roll. If the attack damages your opponent, you may make an [Intimidate](skills/intimidate.md#_intimidate) check to demoralize that opponent as a free action.
 
 **Normal** : Intimidating an opponent is a standard action.
 
@@ -213,7 +213,7 @@ Fear passes quickly while you are raging.
 
 You can goad an opponent into attacking you in order to make your counter attack all the more powerful.
 
-**Prerequisites** : [Toughness](/pathfinderRPG/prd/feats.html#_toughness), base attack bonus +1, orc.
+**Prerequisites** : [Toughness](feats.md#_toughness), base attack bonus +1, orc.
 
 **Benefit** : As a move action, you can leave a gap in your defenses for one adjacent opponent to use. If the opponent attacks you on its next turn, it gains a +4 bonus on its attack roll. Whether or not the opponent successfully hits, you may attack it as an immediate action with a single melee attack, gaining a +2 bonus on your attack roll.
 
@@ -221,9 +221,9 @@ You can goad an opponent into attacking you in order to make your counter attack
 
 You can smash traps instead of disarming them.
 
-**Prerequisites** : [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) 1 rank, orc.
+**Prerequisites** : [Power Attack](feats.md#_power-attack), [Disable Device](skills/disableDevice.md#_disable-device) 1 rank, orc.
 
-**Benefit** : You can attempt to disarm a trap by striking it with a melee weapon instead of making a [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) check. As a full-round action, make a melee attack against an Armor Class equal to the trap's [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) DC. If you miss, the trap activates. If you hit, roll damage. If this damage is at least half the trap's [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) DC, you disable the trap. If this damage is less than half the trap's [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) DC, the trap activates. You can only attempt this on nonmagical traps. You must be able to reach some part of the trap with your attack in order to use this feat. At the GM's discretion, some traps may not be susceptible to this feat.
+**Benefit** : You can attempt to disarm a trap by striking it with a melee weapon instead of making a [Disable Device](skills/disableDevice.md#_disable-device) check. As a full-round action, make a melee attack against an Armor Class equal to the trap's [Disable Device](skills/disableDevice.md#_disable-device) DC. If you miss, the trap activates. If you hit, roll damage. If this damage is at least half the trap's [Disable Device](skills/disableDevice.md#_disable-device) DC, you disable the trap. If this damage is less than half the trap's [Disable Device](skills/disableDevice.md#_disable-device) DC, the trap activates. You can only attempt this on nonmagical traps. You must be able to reach some part of the trap with your attack in order to use this feat. At the GM's discretion, some traps may not be susceptible to this feat.
 
 ## Orc Magic Items
 
@@ -231,7 +231,7 @@ Orcs have access to the following weapon special ability and magic item.
 
 **Fury-Born (weapon special ability)** : A _fury-born_ weapon draws power from the anger and frustration the wielder feels when battling foes that refuse to die. Each time the wielder damages an opponent with the weapon, its enhancement bonus increases by +1 when making attacks against that opponent (maximum total enhancement bonus of +5). This extra enhancement bonus goes away if the opponent dies, the wielder uses the weapon to attack a different creature, or 1 hour passes. Only melee weapons can have the _fury-born_ ability.
 
-Faint enchantment; CL 7th; [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [rage](/pathfinderRPG/prd/spells/rage.html#_rage)_; Price +2 bonus.
+Faint enchantment; CL 7th; [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [rage](spells/rage.md#_rage)_; Price +2 bonus.
 
 Bonebreaker Gauntlets
 
@@ -241,11 +241,11 @@ Bonebreaker Gauntlets
 
 Description
 
-These thick brass and leather gauntlets allow the wearer to tear through bone and muscle like paper. Once per day, as part of a melee attack, the wearer can activate the gauntlets to inflict a horrific injury on an opponent. If the attack hits, the target must make a DC 14 Will save. If the save fails, the gauntlets reduce the target's Strength, Dexterity, or Constitution (wearer's choice) by –6. This penalty cannot reduce the target's ability score below 1. The injury heals over time, reducing the penalty by 1 for each day that passes since the time of the injury, and is immediately removed by _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_, _ [regenerate](/pathfinderRPG/prd/spells/regenerate.html#_regenerate)_, _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_, or any magic that can break a curse.
+These thick brass and leather gauntlets allow the wearer to tear through bone and muscle like paper. Once per day, as part of a melee attack, the wearer can activate the gauntlets to inflict a horrific injury on an opponent. If the attack hits, the target must make a DC 14 Will save. If the save fails, the gauntlets reduce the target's Strength, Dexterity, or Constitution (wearer's choice) by –6. This penalty cannot reduce the target's ability score below 1. The injury heals over time, reducing the penalty by 1 for each day that passes since the time of the injury, and is immediately removed by _ [heal](spells/heal.md#_heal)_, _ [regenerate](spells/regenerate.md#_regenerate)_, _ [restoration](spells/restoration.md#_restoration)_, or any magic that can break a curse.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_; **Cost** 3,000 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [bestow curse](spells/bestowCurse.md#_bestow-curse)_; **Cost** 3,000 gp
 
 ## Orc Spells
 
@@ -291,7 +291,7 @@ Orcs and any creature under the effects of rage gain a +2 morale bonus on attack
 
 Enemy's Heart
 
-**School** necromancy [death, [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype)]; **Level** adept 2, antipaladin 2, cleric 2, witch 2
+**School** necromancy [death, [evil](monsters/creatureTypes.md#_evil-subtype)]; **Level** adept 2, antipaladin 2, cleric 2, witch 2
 
 **Casting Time** 1 full-round action, special see below
 
@@ -305,7 +305,7 @@ Enemy's Heart
 
 **Saving Throw** none; **Spell Resistance** yes
 
-You cut out an enemy's heart and consume it, absorbing that enemy's power as your own. As part of casting this spell, you perform a coup de grace with a slashing weapon on a helpless, living adjacent target. If the target dies, you eat its heart to gain the spell's benefits. If the target survives, the spell is not wasted and you can try again as long as you continue concentrating on the spell. When you consume the heart, you gain the benefits of a _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)_ spell, except you gain 1d8 temporary hit points +1 per Hit Die of the target, and the bonus to Strength is a profane bonus.
+You cut out an enemy's heart and consume it, absorbing that enemy's power as your own. As part of casting this spell, you perform a coup de grace with a slashing weapon on a helpless, living adjacent target. If the target dies, you eat its heart to gain the spell's benefits. If the target survives, the spell is not wasted and you can try again as long as you continue concentrating on the spell. When you consume the heart, you gain the benefits of a _ [death knell](spells/deathKnell.md#_death-knell)_ spell, except you gain 1d8 temporary hit points +1 per Hit Die of the target, and the bonus to Strength is a profane bonus.
 
 Sentry Skull
 
@@ -323,11 +323,11 @@ Sentry Skull
 
 **Saving Throw** none; **Spell Resistance** no
 
-You restore the senses to the severed head of a humanoid or monstrous humanoid killed within the past 24 hours, creating a grisly sentinel. The head must be affixed to a pole, spear, tree branch, or other stable object, and the spell ends if the head or its object is moved. The head has darkvision 60 feet and low-light vision, can swivel in place to look in any direction, and has a +5 bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks.
+You restore the senses to the severed head of a humanoid or monstrous humanoid killed within the past 24 hours, creating a grisly sentinel. The head must be affixed to a pole, spear, tree branch, or other stable object, and the spell ends if the head or its object is moved. The head has darkvision 60 feet and low-light vision, can swivel in place to look in any direction, and has a +5 bonus on [Perception](skills/perception.md#_perception) checks.
 
-If you are within 30 feet of the head, as a standard action you can shift your senses to it, seeing and hearing from its location and gaining the benefit of its darkvision and low-light vision, and you may use its [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) skill instead of your own. While your senses are in the severed head, your body is blind and deaf until you spend a free action to shift your senses back to your own body.
+If you are within 30 feet of the head, as a standard action you can shift your senses to it, seeing and hearing from its location and gaining the benefit of its darkvision and low-light vision, and you may use its [Perception](skills/perception.md#_perception) skill instead of your own. While your senses are in the severed head, your body is blind and deaf until you spend a free action to shift your senses back to your own body.
 
-When you create the head, you can imprint it with a single triggering condition, similar to _ [magic mouth](/pathfinderRPG/prd/spells/magicMouth.html#_magic-mouth)_. Once this triggering condition is set, it can never be changed. If you are within 30 feet of the head, you immediately know if it is triggered (if you have multiple active _sentry skulls_, you also know which one was triggered). This wakens you from normal sleep but does not otherwise disturb your concentration. For example, you could have a _sentry skull_ alert you if any humanoid comes into view, if a particular rival approaches, if your guard animal is killed, and so on, as long as it occurs where the severed head can see it.
+When you create the head, you can imprint it with a single triggering condition, similar to _ [magic mouth](spells/magicMouth.md#_magic-mouth)_. Once this triggering condition is set, it can never be changed. If you are within 30 feet of the head, you immediately know if it is triggered (if you have multiple active _sentry skulls_, you also know which one was triggered). This wakens you from normal sleep but does not otherwise disturb your concentration. For example, you could have a _sentry skull_ alert you if any humanoid comes into view, if a particular rival approaches, if your guard animal is killed, and so on, as long as it occurs where the severed head can see it.
 
-This spell does not give the head any ability to speak, think, or take any kind of action other than to turn itself, though it is a suitable target for other spells such as _ [magic mouth](/pathfinderRPG/prd/spells/magicMouth.html#_magic-mouth)_.
+This spell does not give the head any ability to speak, think, or take any kind of action other than to turn itself, though it is a suitable target for other spells such as _ [magic mouth](spells/magicMouth.md#_magic-mouth)_.
 

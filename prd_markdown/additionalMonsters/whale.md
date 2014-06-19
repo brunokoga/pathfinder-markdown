@@ -6,9 +6,9 @@ Great White WhaleCR 14
 
 **XP 38,400**
 
-N Colossal [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Colossal [animal](monsters/creatureTypes.md#_animal)
 
-**Init** –2; **Senses** [blindsight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight) 120 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +13
+**Init** –2; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 120 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +13
 
 Defense
 
@@ -36,11 +36,11 @@ Statistics
 
 **Base Atk** +13; **CMB** +41; **CMD** 49 (can't be tripped)
 
-**Feats** [Critical Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_critical-focus), [Diehard](/pathfinderRPG/prd/additionalMonsters/../feats.html#_diehard), [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Improved Bull Rush](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Staggering Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_staggering-critical)
+**Feats** [Critical Focus](additionalMonsters/../feats.md#_critical-focus), [Diehard](additionalMonsters/../feats.md#_diehard), [Endurance](additionalMonsters/../feats.md#_endurance), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Staggering Critical](additionalMonsters/../feats.md#_staggering-critical)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +13, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +39
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +13, [Swim](additionalMonsters/../skills/swim.md#_swim) +39
 
-**SQ** [hold breath](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_hold-breath)
+**SQ** [hold breath](monsters/universalMonsterRules.md#_hold-breath)
 
 Ecology
 
@@ -64,9 +64,9 @@ This immense whale moves slowly through the water with a grace that seems incong
 
 **XP 9,600**
 
-N Gargantuan [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Gargantuan [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +2; **Senses** [blindsight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight) 120 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +23
+**Init** +2; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 120 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +23
 
 Defense
 
@@ -94,12 +94,12 @@ Statistics
 
 **Base Atk** +11; **CMB** +29; **CMD** 37 (can't be tripped)
 
-**Feats** [Diehard](/pathfinderRPG/prd/additionalMonsters/../feats.html#_diehard), [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), Improved Bull   
-Rush, [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception))
+**Feats** [Diehard](additionalMonsters/../feats.md#_diehard), [Endurance](additionalMonsters/../feats.md#_endurance), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), Improved Bull   
+Rush, [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +23, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +30; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +23, [Swim](additionalMonsters/../skills/swim.md#_swim) +30; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
 
-**SQ** [hold breath](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_hold-breath)
+**SQ** [hold breath](monsters/universalMonsterRules.md#_hold-breath)
 
 Ecology
 
@@ -111,7 +111,7 @@ Ecology
 
 Special Abilities
 
-**Capsize (Ex)** A whale can attempt to capsize a boat or ship by ramming it as a charge attack and making a CMB check. The DC of this check is 25, or the result of the captain's [Profession](/pathfinderRPG/prd/additionalMonsters/../skills/profession.html#_profession) (sail0r) check, whichever is higher. For each size category the ship is larger than the whale's size, the whale takes a cumulative –10 penalty on this CMB check.
+**Capsize (Ex)** A whale can attempt to capsize a boat or ship by ramming it as a charge attack and making a CMB check. The DC of this check is 25, or the result of the captain's [Profession](additionalMonsters/../skills/profession.md#_profession) (sail0r) check, whichever is higher. For each size category the ship is larger than the whale's size, the whale takes a cumulative –10 penalty on this CMB check.
 
 Whales are frequently hunted for their meat and the valuable oil in their blubber. Baleen whales have no teeth and attack with a tail slap; toothed whales like sperm whales instead attack with a bite. Whale companions are smaller species—rules for such companions are the same as those for orcas (see page 88 of the _Pathfinder RPG Bestiary_.)
 

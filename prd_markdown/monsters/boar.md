@@ -6,9 +6,9 @@ _This ill-tempered beast's tiny, bloodshot eyes glare angrily above a mouth fill
 
 **XP 600**
 
-N Medium [animal](creatureTypes.html#_animal)
+N Medium [animal](creatureTypes.md#_animal)
 
-**Init** +0; **Senses** low-light vision, [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +6
+**Init** +0; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +6
 
 **Defense**
 
@@ -18,7 +18,7 @@ N Medium [animal](creatureTypes.html#_animal)
 
 **Fort** +6, **Ref** +3, **Will** +1
 
-**Defensive Abilities** [ferocity](universalMonsterRules.html#_ferocity)
+**Defensive Abilities** [ferocity](universalMonsterRules.md#_ferocity)
 
 **Offense**
 
@@ -32,9 +32,9 @@ N Medium [animal](creatureTypes.html#_animal)
 
 **Base**  **Atk** +1; **CMB** +4; **CMD** 14
 
-**Feats** [Toughness](../feats.html#_toughness)
+**Feats** [Toughness](../feats.md#_toughness)
 
-**Skills** [Perception](../skills/perception.html#_perception) +6
+**Skills** [Perception](../skills/perception.md#_perception) +6
 
 **Ecology**
 
@@ -58,9 +58,9 @@ _The back of this horse-sized boar rises in a steep slope. Its tiny red eyes are
 
 **XP 1,200**
 
-N Large [animal](creatureTypes.html#_animal)
+N Large [animal](creatureTypes.md#_animal)
 
-**Init** +4; **Senses** low-light vision, [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +12
+**Init** +4; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +12
 
 **Defense**
 
@@ -70,7 +70,7 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Fort** +7, **Ref** +4, **Will** +2
 
-**Defensive Abilities** [ferocity](universalMonsterRules.html#_ferocity)
+**Defensive Abilities** [ferocity](universalMonsterRules.md#_ferocity)
 
 **Offense**
 
@@ -84,9 +84,9 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Base**  **Atk** +3; **CMB** +10; **CMD** 20
 
-**Feats** [Improved Initiative](../feats.html#_improved-initiative), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception)), [Toughness](../feats.html#_toughness)
+**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Toughness](../feats.md#_toughness)
 
-**Skills** [Perception](../skills/perception.html#_perception) +12
+**Skills** [Perception](../skills/perception.md#_perception) +12
 
 **Ecology**
 

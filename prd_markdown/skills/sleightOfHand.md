@@ -1,6 +1,6 @@
 # Sleight of Hand
 
-## ( [Dex](../gettingStarted.html#_dexterity); Armor Check Penalty; Trained Only)
+## ( [Dex](../gettingStarted.md#_dexterity); Armor Check Penalty; Trained Only)
 
 Your training allows you to pick pockets, draw hidden weapons, and take a variety of actions without being noticed.
 
@@ -14,7 +14,7 @@ Drawing a hidden weapon is a standard action and doesn't provoke an attack of op
 
 If you try to take something from a creature, you must make a DC 20 Sleight of Hand check. The opponent makes a Perception check to detect the attempt, opposed by the Sleight of Hand check result you achieved when you tried to grab the item. An opponent who succeeds on this check notices the attempt, regardless of whether you got the item. You cannot use this skill to take an object from another creature during combat if the creature is aware of your presence.
 
-You can also use Sleight of Hand to entertain an audience as though you were using the Perform skill. In such a case, your âactâ encompasses elements of legerdemain, juggling, and the like.
+You can also use Sleight of Hand to entertain an audience as though you were using the Perform skill. In such a case, your “act” encompasses elements of legerdemain, juggling, and the like.
 
 | Sleight of Hand DC | Task |
 | --- | --- |
@@ -25,7 +25,7 @@ You can also use Sleight of Hand to entertain an audience as though you were usi
 
 **Try Again** : Yes, but after an initial failure, a second Sleight of Hand attempt against the same target (or while you are being watched by the same observer who noticed your previous attempt) increases the DC for the task by 10.
 
-**Untrained** : An untrained Sleight of Hand check is simply a [Dexterity](../gettingStarted.html#_dexterity) check. Without actual training, you can't succeed on any Sleight of Hand check with a DC higher than 10, except for hiding an object on your body.
+**Untrained** : An untrained Sleight of Hand check is simply a [Dexterity](../gettingStarted.md#_dexterity) check. Without actual training, you can't succeed on any Sleight of Hand check with a DC higher than 10, except for hiding an object on your body.
 
-**Special** : If you have the [Deft Hands](../feats.html#_deft-hands) feat, you get a bonus on Sleight of Hand checks (see [Feats](../feats.html)).
+**Special** : If you have the [Deft Hands](../feats.md#_deft-hands) feat, you get a bonus on Sleight of Hand checks (see [Feats](../feats.md)).
 

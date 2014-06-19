@@ -6,9 +6,9 @@ _This magnificent bird of prey has dark feathers save for those on its head, whi
 
 **XP 200**
 
-N Small [animal](creatureTypes.html#_animal)
+N Small [animal](creatureTypes.md#_animal)
 
-**Init** +2; **Senses** low-light vision; [Perception](../skills/perception.html#_perception) +10
+**Init** +2; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +10
 
 **Defense**
 
@@ -30,9 +30,9 @@ N Small [animal](creatureTypes.html#_animal)
 
 **Base**  **Atk** +0; **CMB** –1; **CMD** 11
 
-**Feats** [Weapon Finesse](../feats.html#_weapon-finesse)
+**Feats** [Weapon Finesse](../feats.md#_weapon-finesse)
 
-**Skills** [Fly](../skills/fly.html#_fly) +8, [Perception](../skills/perception.html#_perception) +10; **Racial Modifiers** +8 [Perception](../skills/perception.html#_perception)
+**Skills** [Fly](../skills/fly.md#_fly) +8, [Perception](../skills/perception.md#_perception) +10; **Racial Modifiers** +8 [Perception](../skills/perception.md#_perception)
 
 **Ecology**
 
@@ -58,9 +58,9 @@ _This immense eagle's feathers are golden brown and shimmer in the light. Its sh
 
 **XP 800**
 
-NG Large [magical beast](creatureTypes.html#_magical-beast)
+NG Large [magical beast](creatureTypes.md#_magical-beast)
 
-**Init** +3; **Senses** low-light vision; [Perception](../skills/perception.html#_perception) +15
+**Init** +3; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +15
 
 **Defense**
 
@@ -86,9 +86,9 @@ NG Large [magical beast](creatureTypes.html#_magical-beast)
 
 **Base Atk** +4; **CMB** +9; **CMD** 22
 
-**Feats** [Alertness](../feats.html#_alertness), [Flyby Attack](monsterFeats.html#_flyby-attack)
+**Feats** [Alertness](../feats.md#_alertness), [Flyby Attack](monsterFeats.md#_flyby-attack)
 
-**Skills** [Fly](../skills/fly.html#_fly) +8, [Perception](../skills/perception.html#_perception) +15, [Sense Motive](../skills/senseMotive.html#_sense-motive) +4; **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception)
+**Skills** [Fly](../skills/fly.md#_fly) +8, [Perception](../skills/perception.md#_perception) +15, [Sense Motive](../skills/senseMotive.md#_sense-motive) +4; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception)
 
 **Languages** Auran (cannot speak)
 

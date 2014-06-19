@@ -6,9 +6,9 @@ This long, lean fish has a muscular body and a head with long jaws filled with s
 
 **XP 400**
 
-N Medium [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Medium [animal](monsters/creatureTypes.md#_animal) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +6; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6
+**Init** +6; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +6
 
 Defense
 
@@ -22,7 +22,7 @@ Offense
 
 **Speed** swim 60 ft.
 
-**Melee** bite +3 (1d6+3 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +3 (1d6+3 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 Statistics
 
@@ -30,9 +30,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +3 (+7 grapple); **CMD** 15 (can't be tripped)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative)
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +10
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +6, [Swim](additionalMonsters/../skills/swim.md#_swim) +10
 
 Ecology
 
@@ -58,9 +58,9 @@ Giant GarCR 6
 
 **XP 2,400**
 
-N Huge [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Huge [animal](monsters/creatureTypes.md#_animal) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +4; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +11
+**Init** +4; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +11
 
 Defense
 
@@ -74,7 +74,7 @@ Offense
 
 **Speed** swim 60 ft.
 
-**Melee** bite +13 (2d6+15 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +13 (2d6+15 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
@@ -86,9 +86,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +17 (+21 grapple); **CMD** 27 (can't be tripped)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack)
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +11, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +18
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +11, [Swim](additionalMonsters/../skills/swim.md#_swim) +18
 
 Ecology
 

@@ -12,7 +12,7 @@ Shock Shield
 
 **Duration** 1 minutes/level (D)
 
-This spell creates an invisible shield similar to but not as strong as the _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_ spell. This shield hovers in front of you and negates _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_ attacks directed at you. The disk provides a +2 shield bonus to AC. This bonus applies against incorporeal touch attacks.
+This spell creates an invisible shield similar to but not as strong as the _ [shield](spells/shield.md#_shield)_ spell. This shield hovers in front of you and negates _ [magic missile](spells/magicMissile.md#_magic-missile)_ attacks directed at you. The disk provides a +2 shield bonus to AC. This bonus applies against incorporeal touch attacks.
 
 At any time, as a free action, you may dismiss your shield, at which point it deals 1d6 points of electrical damage to all creatures within a 5-foot burst, including you. A Reflex saving throw halves the damage.
 

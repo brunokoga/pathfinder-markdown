@@ -6,9 +6,9 @@ Giant BeeCR 1
 
 XP 400
 
-N Medium [vermin](/pathfinderRPG/prd/monsters/creatureTypes.html#_vermin)
+N Medium [vermin](monsters/creatureTypes.md#_vermin)
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +1
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +1
 
 Defense
 
@@ -26,7 +26,7 @@ Offense
 
 **Speed** 20 ft., fly 60 ft. (good)
 
-**Melee** sting +2 (1d4 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** sting +2 (1d4 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 Statistics
 
@@ -34,7 +34,7 @@ Statistics
 
 **Base Atk** +2; **CMB** +2; **CMD** 14 (22 vs. trip)
 
-**Skills** [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +6
+**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +6
 
 Ecology
 
@@ -46,9 +46,9 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 12; _frequency_ 1/round for 4 rounds; _effect_ 1d2 Str; _cure_ 1 save.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 12; _frequency_ 1/round for 4 rounds; _effect_ 1d2 Str; _cure_ 1 save.
 
-**Vulnerable to Smoke (Ex)** Smoke from particularly smoky fires or effects (such as that created by a _ [pyrotechnics](/pathfinderRPG/prd/additionalMonsters/../spells/pyrotechnics.html#_pyrotechnics)_ spell) causes a giant bee to become nauseated if it fails a DC 14 Fortitude save. This condition persists as long as the giant bee remains in the smoke, plus 1d4 rounds.
+**Vulnerable to Smoke (Ex)** Smoke from particularly smoky fires or effects (such as that created by a _ [pyrotechnics](additionalMonsters/../spells/pyrotechnics.md#_pyrotechnics)_ spell) causes a giant bee to become nauseated if it fails a DC 14 Fortitude save. This condition persists as long as the giant bee remains in the smoke, plus 1d4 rounds.
 
 Like their smaller cousins, giant bees fill their ecological niche by playing matchmaker for a vast array of flowering plant life. As a giant bee feeds on plant nectars, clumps of pollen attach to the coarse hairs covering its body and legs.
 
@@ -66,9 +66,9 @@ Giant Queen BeeCR 5
 
 **XP 1,600**
 
-N Large [vermin](/pathfinderRPG/prd/monsters/creatureTypes.html#_vermin)
+N Large [vermin](monsters/creatureTypes.md#_vermin)
 
-**Init** +0; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +1
+**Init** +0; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +1
 
 Defense
 
@@ -86,7 +86,7 @@ Offense
 
 **Speed** 20 ft., fly 60 ft. (good)
 
-**Melee** sting +8 (1d8+6 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** sting +8 (1d8+6 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
@@ -96,7 +96,7 @@ Statistics
 
 **Base Atk** +5; **CMB** +10; **CMD** 20 (28 vs. trip)
 
-**Skills** [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +2
+**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +2
 
 Ecology
 
@@ -108,7 +108,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 17; _frequency_ 1/round for 4 rounds; _effect_ 1d2 Con; _cure_ 2 consecutive saves.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 17; _frequency_ 1/round for 4 rounds; _effect_ 1d2 Con; _cure_ 2 consecutive saves.
 
 Bulbous and robust in comparison to others of the same species, giant queen bees are immense, fertile females, easily identified by their larger size and lighter stripes. They grow to 12 feet in length and weigh 140 pounds.
 

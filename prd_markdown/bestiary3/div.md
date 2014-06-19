@@ -4,9 +4,9 @@ While demons exist to destroy, devils yearn to corrupt and control, and daemons 
 
 The most ancient of myths claim that divs were the aides and architects of numerous magical and forgotten mortal empires in an age of wondrous and mysterious antiquity. During this unfathomably ancient time these masters of creation served as helpful genies, allied to thankful and gracious masters. However, this bond with mortals soon frayed, as generations of the shorter-lived races ebbed and f lowed like ripples in a puddle, forgetting the oaths and respect their forbearers gave divs; some began to abuse and neglect their otherworldly allies, while others merely turned away from genies to rely upon and extol the creations of mortalkind. As the contributions of geniekind were ignored and the deities celebrated the rise of their mortal creations across the worlds, many of the ancient architects rose in rebellion against mortals and the ancient deities who shepherded them. In turning from the paths of inspiration and creation, these genie rebels fell under the sway of a power of destruction known as Ahriman, who granted them not only the vicious might to avenge themselves against mortalkind, but also twisted forms marking them as paragons of depredation, havoc, and ruin. Thus did first divs come into being.
 
-Ever since, divs have arisen from the spirits of the most nefarious and spiteful evil genies. Rather than returning to the Elemental Planes upon their destruction, these foul genies find their way into the claws of Ahriman, a spirit of annihilation who has haunted geniekind since the earliest days of creation. Having forged a realm upon the ruined hinterlands of the foul plane of Abaddon, Ahriman uses the innate corruption of that realm along with his own immortal evil to inspire wickedness in the souls drawn to him, warping such profane spirits into div servitors of a variety of terrible forms. Indifferent to the genie race from which the soul hailed, the Lord of the Divs sees only the evil within and grants it an abhorrent shape particular to the vices that brought the genie to his domain. What emerges from Ahrimanâs grip is a dreadful new fiend, an enemy of mortalkind and the deities of good, a hateful spirit given a form with which to wreak its revenge. The dark godâs touch leaves behind nothing of the individual genie that once wasâonly hatred, entitlement, and vengeance remain.
+Ever since, divs have arisen from the spirits of the most nefarious and spiteful evil genies. Rather than returning to the Elemental Planes upon their destruction, these foul genies find their way into the claws of Ahriman, a spirit of annihilation who has haunted geniekind since the earliest days of creation. Having forged a realm upon the ruined hinterlands of the foul plane of Abaddon, Ahriman uses the innate corruption of that realm along with his own immortal evil to inspire wickedness in the souls drawn to him, warping such profane spirits into div servitors of a variety of terrible forms. Indifferent to the genie race from which the soul hailed, the Lord of the Divs sees only the evil within and grants it an abhorrent shape particular to the vices that brought the genie to his domain. What emerges from Ahriman’s grip is a dreadful new fiend, an enemy of mortalkind and the deities of good, a hateful spirit given a form with which to wreak its revenge. The dark god’s touch leaves behind nothing of the individual genie that once was—only hatred, entitlement, and vengeance remain.
 
-Although as varied in form as any of the more pervasive fiendish races, divs often demonstrate the pride, affectations, and tastes of geniekind, drawing them toward desert realms, ancient sites, and opulent displays of power. Yet for all their varied powers, most divs prefer using mortals to foster the dooms they envision, manipulating those they hate to become the masters of their own destruction. Nothing pleases a div as much as seeing a powerful mortal squander everything sheâs built to end up poor, faithless, and resentful. Divs also treat genies with spite and hatred, eagerly slaying them or working them into their degenerate plans.
+Although as varied in form as any of the more pervasive fiendish races, divs often demonstrate the pride, affectations, and tastes of geniekind, drawing them toward desert realms, ancient sites, and opulent displays of power. Yet for all their varied powers, most divs prefer using mortals to foster the dooms they envision, manipulating those they hate to become the masters of their own destruction. Nothing pleases a div as much as seeing a powerful mortal squander everything she’s built to end up poor, faithless, and resentful. Divs also treat genies with spite and hatred, eagerly slaying them or working them into their degenerate plans.
 
 As a flaw of their spiritual reshaping, each type of div has a strange weakness that compels it to act in a certain way, such as always attacking the most beautiful opponent, bargaining to learn a secret, or avoiding the color red. Although the wisest know and tell of these weaknesses, every div is aware of its compulsions and avoids being entrapped by them while also plotting ways to exploit opponents who think it vulnerable.
 
@@ -28,9 +28,9 @@ Aghash CR 4
 
 XP 1,200
 
-NE Medium outsider ( [div](/pathfinderRPG/prd/monsters/creatureTypes.html#_div-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+NE Medium outsider ( [div](monsters/creatureTypes.md#_div-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft., see in darkness; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +11
+**Init** +2; **Senses** darkvision 60 ft., see in darkness; [Perception](skills/perception.md#_perception) +11
 
 Defense
 
@@ -40,7 +40,7 @@ Defense
 
 **Fort** +4, **Ref** +6, **Will** +7
 
-**DR** 5/cold iron or [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype); **Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** acid 10, electricity 10; **SR** 15
+**DR** 5/cold iron or [good](monsters/creatureTypes.md#_good-subtype); **Immune** [fire](monsters/creatureTypes.md#_fire-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** acid 10, electricity 10; **SR** 15
 
 Offense
 
@@ -48,13 +48,13 @@ Offense
 
 **Melee** 2 claws +8 (1d6+2)
 
-**Special Attacks** cursed [gaze](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze), sandstorm
+**Special Attacks** cursed [gaze](monsters/universalMonsterRules.md#_gaze), sandstorm
 
 **Spell-Like Abilities** (CL 6th; concentration +10)
 
-At will—_ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse) _(DC 16), _ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_, _ [minor image](/pathfinderRPG/prd/spells/minorImage.html#_minor-image) _(DC 15), _ [spectral hand](/pathfinderRPG/prd/spells/spectralHand.html#_spectral-hand)_
+At will—_ [bestow curse](spells/bestowCurse.md#_bestow-curse) _(DC 16), _ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [dimension door](spells/dimensionDoor.md#_dimension-door)_, _ [minor image](spells/minorImage.md#_minor-image) _(DC 15), _ [spectral hand](spells/spectralHand.md#_spectral-hand)_
 
-1/day—_ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 16), summon (level 3, 1d2 dorus 25%)
+1/day—_ [suggestion](spells/suggestion.md#_suggestion)_ (DC 16), summon (level 3, 1d2 dorus 25%)
 
 Statistics
 
@@ -62,9 +62,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +7; **CMD** 19
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (claw)
+**Feats** [Alertness](feats.md#_alertness), [Iron Will](feats.md#_iron-will), [Weapon Focus](feats.md#_weapon-focus) (claw)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +10, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +12, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +10, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +7, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +7, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +11, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +9, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +9, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +10
+**Skills** [Bluff](skills/bluff.md#_bluff) +10, [Disguise](skills/disguise.md#_disguise) +12, [Intimidate](skills/intimidate.md#_intimidate) +10, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +7, [Knowledge](skills/knowledge.md#_knowledge) (planes) +7, [Perception](skills/perception.md#_perception) +11, [Sense Motive](skills/senseMotive.md#_sense-motive) +9, [Spellcraft](skills/spellcraft.md#_spellcraft) +9, [Stealth](skills/stealth.md#_stealth) +10
 
 **Languages** Abyssal, Celestial, Infernal; telepathy 100 ft.
 
@@ -78,13 +78,13 @@ Ecology
 
 Special Abilities
 
-**Cursed [Gaze](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze) (Su)** Aghash's choice: confused for 1 round, shaken for 1 round, stunned for 1 round, or deals 1d4 points of damage, 30 feet, Fortitude DC 16 negates. Any creature under the effects of _ [protection from evil](/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil) _is immune to an aghash's [gaze](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze). The save DC is Charisma-based.
+**Cursed [Gaze](monsters/universalMonsterRules.md#_gaze) (Su)** Aghash's choice: confused for 1 round, shaken for 1 round, stunned for 1 round, or deals 1d4 points of damage, 30 feet, Fortitude DC 16 negates. Any creature under the effects of _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil) _is immune to an aghash's [gaze](monsters/universalMonsterRules.md#_gaze). The save DC is Charisma-based.
 
 **Sandstorm (Su)** Once per day, as a full-round action, an aghash can create a temporary sandstorm. This storm has a radius of 100 feet centered on the aghash and lasts for 1 minute per Hit Die the aghash possesses (typically 5). This functions as a sandstorm (_Core Rulebook_ 431).
 
 Aghashes embody the evil eye, a curse granted by merely witnessing these embodiments of ruin and misfortune. Terrifying, haglike beings, aghashes wander deserts of the Material Plane spreading doom with their gazes. These wretched creatures hold nothing sacred, taking particular pleasure in bringing vain and arrogant mortals, particularly spellcasters, to ruin. Ragged and filthy, an aghash moves with a staggering motion. Its hoofed legs bend like those of a goat, giving its emaciated frame an obscene, jerking gait.
 
-All divs exhibit some manner of compulsion, and aghashes' is to despise beautiful mortals. If given a choice between attacking two different opponents, an aghash always chooses the most physically becoming foe. Such is their loathing—or, perhaps, jealousy—that an aghash might stalk attractive foes, delighting in afflicting them with curses that sap their Charisma or otherwise undermines their charm. With its _ [spectral hand](/pathfinderRPG/prd/spells/spectralHand.html#_spectral-hand) _ability an aghash can deliver curses from a distance, leading some victims to believe they've been afflicted by a disease or cursed by the gods themselves. All the while, the aghash lingers nearby, delighting in the suffering it has caused.
+All divs exhibit some manner of compulsion, and aghashes' is to despise beautiful mortals. If given a choice between attacking two different opponents, an aghash always chooses the most physically becoming foe. Such is their loathing—or, perhaps, jealousy—that an aghash might stalk attractive foes, delighting in afflicting them with curses that sap their Charisma or otherwise undermines their charm. With its _ [spectral hand](spells/spectralHand.md#_spectral-hand) _ability an aghash can deliver curses from a distance, leading some victims to believe they've been afflicted by a disease or cursed by the gods themselves. All the while, the aghash lingers nearby, delighting in the suffering it has caused.
 
 An aghash stands between 5 and 6 feet tall and weighs about 100 pounds.
 
@@ -96,9 +96,9 @@ Akvan CR 20
 
 XP 307,200
 
-NE Gargantuan outsider ( [div](/pathfinderRPG/prd/monsters/creatureTypes.html#_div-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+NE Gargantuan outsider ( [div](monsters/creatureTypes.md#_div-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +12; **Senses** darkvision 60 ft., see in darkness, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +34
+**Init** +12; **Senses** darkvision 60 ft., see in darkness, _ [true seeing](spells/trueSeeing.md#_true-seeing)_; [Perception](skills/perception.md#_perception) +34
 
 **Aura** hopelessness (30 ft., DC 30)
 
@@ -110,28 +110,28 @@ Defense
 
 **Fort** +18, **Ref** +22, **Will** +21
 
-**DR** 15/cold iron and [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype); **Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** acid 10, electricity 10
+**DR** 15/cold iron and [good](monsters/creatureTypes.md#_good-subtype); **Immune** [fire](monsters/creatureTypes.md#_fire-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** acid 10, electricity 10
 
 Offense
 
 **Speed** 50 ft., fly 120 ft. (good)
 
-**Melee** bite +32 (2d8+12 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)/19–20), 2 claws +32 (2d6+12), tail slap +30 (2d10+6)
+**Melee** bite +32 (2d8+12 plus [grab](monsters/universalMonsterRules.md#_grab)/19–20), 2 claws +32 (2d6+12), tail slap +30 (2d10+6)
 
 **Space** 20 ft.; **Reach** 20 ft. (25 ft. with tail)
 
 **Special Attacks** create ghul, rend (2 claws, 2d6+18), shake faith, swallow whole (6d6+18 plus 4d6 energy damage,   
-AC 25, 37 hp), torturous gullet, [trample](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_trample) (2d8+18, DC 34)
+AC 25, 37 hp), torturous gullet, [trample](monsters/universalMonsterRules.md#_trample) (2d8+18, DC 34)
 
 **Spell-Like Abilities** (CL 20th; concentration +28)
 
-Constant—_ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+Constant—_ [true seeing](spells/trueSeeing.md#_true-seeing)_
 
-At will—_ [align weapon](/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [greater teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [magic circle against good](/pathfinderRPG/prd/spells/magicCircleAgainstGood.html#_magic-circle-against-good)_, _ [telekinesis](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis)_ (DC 23)
+At will—_ [align weapon](spells/alignWeapon.md#_align-weapon)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [greater teleport](spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [magic circle against good](spells/magicCircleAgainstGood.md#_magic-circle-against-good)_, _ [telekinesis](spells/telekinesis.md#_telekinesis)_ (DC 23)
 
-3/day—_ [blasphemy](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy)_ (DC 25), _ [disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_ (DC 24), _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [forcecage](/pathfinderRPG/prd/spells/forcecage.html#_forcecage)_ (DC 25), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_
+3/day—_ [blasphemy](spells/blasphemy.md#_blasphemy)_ (DC 25), _ [disintegrate](spells/disintegrate.md#_disintegrate)_ (DC 24), _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [forcecage](spells/forcecage.md#_forcecage)_ (DC 25), _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_
 
-1/day—_ [geas/quest](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest)_, _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_, _summon_ (level 6, 1d2 sepids 100%)
+1/day—_ [geas/quest](spells/geasQuest.md#_geas-quest)_, _ [plane shift](spells/planeShift.md#_plane-shift)_, _summon_ (level 6, 1d2 sepids 100%)
 
 Statistics
 
@@ -139,9 +139,9 @@ Statistics
 
 **Base Atk** +24; **CMB** +40; **CMD** 58
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow), [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), [Great Cleave](/pathfinderRPG/prd/feats.html#_great-cleave), [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite), [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Staggering Critical](/pathfinderRPG/prd/feats.html#_staggering-critical), [Stunning Critical](/pathfinderRPG/prd/feats.html#_stunning-critical)
+**Feats** [Awesome Blow](monsters/monsterFeats.md#_awesome-blow), [Cleave](feats.md#_cleave), [Combat Reflexes](feats.md#_combat-reflexes), [Critical Focus](feats.md#_critical-focus), [Great Cleave](feats.md#_great-cleave), [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Initiative](feats.md#_improved-initiative), [Improved Critical](feats.md#_improved-critical) (bite), [Multiattack](monsters/monsterFeats.md#_multiattack), [Power Attack](feats.md#_power-attack), [Staggering Critical](feats.md#_staggering-critical), [Stunning Critical](feats.md#_stunning-critical)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +28 (+36 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +43, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +31, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +27, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +31, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +31, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +31, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +19, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +34, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +30, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +22, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +23; **Racial Modifiers** +8 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) when jumping, +8 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +28 (+36 when jumping), [Bluff](skills/bluff.md#_bluff) +43, [Diplomacy](skills/diplomacy.md#_diplomacy) +31, [Fly](skills/fly.md#_fly) +27, [Intimidate](skills/intimidate.md#_intimidate) +31, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +31, [Knowledge](skills/knowledge.md#_knowledge) (planes) +31, [Knowledge](skills/knowledge.md#_knowledge) (religion) +19, [Perception](skills/perception.md#_perception) +34, [Sense Motive](skills/senseMotive.md#_sense-motive) +30, [Spellcraft](skills/spellcraft.md#_spellcraft) +22, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +23; **Racial Modifiers** +8 [Acrobatics](skills/acrobatics.md#_acrobatics) when jumping, +8 [Bluff](skills/bluff.md#_bluff)
 
 **Languages** Abyssal, Celestial, Common, Draconic, Infernal; telepathy 100 ft.
 
@@ -165,7 +165,7 @@ Special Abilities
 
 **Shake Faith (Su)** Anytime an akvan strikes a divine spellcaster with any of its melee attacks, the target must make a DC 30 Will save or be shaken for 1d4 rounds. If the save is successful, the target is instead shaken for 1 round. The save DC is Charisma-based.
 
-**Torturous Gullet (Su)** As hunters of otherworldly beings, akvans are uniquely drawn to digest creatures with a variety of resistances. In addition to the damage dealt by crushing internal organs, creatures swallowed by an akvan take 4d6 points of acid, [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), electricity, or [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) damage per round. The akvan chooses what type of energy damage those in its stomach will take every round, and may change this from round to round. Additionally, an akvan's stomach is thickly armored, allowing it to benefit from its entire natural armor bonus instead of merely half.
+**Torturous Gullet (Su)** As hunters of otherworldly beings, akvans are uniquely drawn to digest creatures with a variety of resistances. In addition to the damage dealt by crushing internal organs, creatures swallowed by an akvan take 4d6 points of acid, [cold](monsters/creatureTypes.md#_cold-subtype), electricity, or [fire](monsters/creatureTypes.md#_fire-subtype) damage per round. The akvan chooses what type of energy damage those in its stomach will take every round, and may change this from round to round. Additionally, an akvan's stomach is thickly armored, allowing it to benefit from its entire natural armor bonus instead of merely half.
 
 Akvans number among the most physically powerful and openly destructive servants of Ahriman, directly carrying out his ancient plans for oblivion. Their twisted minds bend toward desolation, ruin, and blasphemy, and their hatred of the gods of creation and beings renowned for inspiring art and wonder knows few equals. Whereas most divs turn their cruelty and vengefulness exclusively upon mortals, akvans broaden the scope of their hatred to encompass geniekind as well.
 
@@ -181,15 +181,15 @@ As akvans go through existence slaying mortals and genies, many gravitate toward
 
 Each akvan prince dedicates itself to extinguishing a particular type of genie and gains special abilities with which to slaughter genies of that type. An akvan prince gains an additional 4–8 Hit Dice, a +4 bonus to three ability scores, and has a CR of 22­–24. The akvan prince also gains one of the following sets of abilities, depending on what type of genies it hunts.
 
-**Crumbling Earth** : A shaitan-hunting akvan prince shatters the strongest stone. It gains the stone glide ability, tremorsense 100 feet, and a burrow speed of 100 feet, and its natural attacks are treated as adamantine for the purposes of overcoming damage reduction. It also gains the following spell-like abilities: 3/day—quickened _ [stone shape](/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape)_, _ [transmute mud to rock](/pathfinderRPG/prd/spells/transmuteMudToRock.html#_transmute-mud-to-rock)_, _ [transmute rock to mud](/pathfinderRPG/prd/spells/transmuteRockToMud.html#_transmute-rock-to-mud)_, _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_.
+**Crumbling Earth** : A shaitan-hunting akvan prince shatters the strongest stone. It gains the stone glide ability, tremorsense 100 feet, and a burrow speed of 100 feet, and its natural attacks are treated as adamantine for the purposes of overcoming damage reduction. It also gains the following spell-like abilities: 3/day—quickened _ [stone shape](spells/stoneShape.md#_stone-shape)_, _ [transmute mud to rock](spells/transmuteMudToRock.md#_transmute-mud-to-rock)_, _ [transmute rock to mud](spells/transmuteRockToMud.md#_transmute-rock-to-mud)_, _ [wish](spells/wish.md#_wish)_.
 
-**Dying Ember** : An efreet-hating akvan prince holds dominion over flame. It gains resist fire 30, an efreeti's heat special attack (1d6 when struck, 6d6 when grappling or grappled), and the following spell-like abilities: at will—quickened _ [quench](/pathfinderRPG/prd/spells/quench.html#_quench)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_; 3/day—_ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_.
+**Dying Ember** : An efreet-hating akvan prince holds dominion over flame. It gains resist fire 30, an efreeti's heat special attack (1d6 when struck, 6d6 when grappling or grappled), and the following spell-like abilities: at will—quickened _ [quench](spells/quench.md#_quench)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, _ [wall of fire](spells/wallOfFire.md#_wall-of-fire)_; 3/day—_ [wish](spells/wish.md#_wish)_.
 
-**Gasping Wind** : A djinn-hunting akvan prince gains power over the wind. It gains resist electricity 30 and the whirlwind ability, its fly speed increases to 120 feet (perfect maneuverability), and it gains the following spell-like abilities: at will—_ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_; 3/day—_ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_, _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_.
+**Gasping Wind** : A djinn-hunting akvan prince gains power over the wind. It gains resist electricity 30 and the whirlwind ability, its fly speed increases to 120 feet (perfect maneuverability), and it gains the following spell-like abilities: at will—_ [invisibility](spells/invisibility.md#_invisibility)_; 3/day—_ [gaseous form](spells/gaseousForm.md#_gaseous-form)_, _ [wish](spells/wish.md#_wish)_.
 
-**Thirsty Sea** : A marid-slaying akvan prince controls and poisons water. It gains a swim speed of 100 feet, a marid's water's fury special attack (8d6 points of damage, blinds and stuns for 1d6 rounds), and the following spell-like abilities: constant—_ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_, _ [water walk](/pathfinderRPG/prd/spells/waterWalk.html#_water-walk)_; at will—quickened _ [control water](/pathfinderRPG/prd/spells/controlWater.html#_control-water)_; 3/day—_ [horrid wilting](/pathfinderRPG/prd/spells/horridWilting.html#_horrid-wilting)_, _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_.
+**Thirsty Sea** : A marid-slaying akvan prince controls and poisons water. It gains a swim speed of 100 feet, a marid's water's fury special attack (8d6 points of damage, blinds and stuns for 1d6 rounds), and the following spell-like abilities: constant—_ [water breathing](spells/waterBreathing.md#_water-breathing)_, _ [water walk](spells/waterWalk.md#_water-walk)_; at will—quickened _ [control water](spells/controlWater.md#_control-water)_; 3/day—_ [horrid wilting](spells/horridWilting.md#_horrid-wilting)_, _ [wish](spells/wish.md#_wish)_.
 
-**Unbalanced Soul** : A jann-killing akvan prince spreads failure and defeat. It gains resist acid, cold, and electricity 20, and the following spell-like abilities: at will—_ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_, _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_; 3/day—_ [insanity](/pathfinderRPG/prd/spells/insanity.html#_insanity)_, _ [mage's disjunction](/pathfinderRPG/prd/spells/mageSDisjunction.html#_mage-s-disjunction)_, _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_.
+**Unbalanced Soul** : A jann-killing akvan prince spreads failure and defeat. It gains resist acid, cold, and electricity 20, and the following spell-like abilities: at will—_ [ethereal jaunt](spells/etherealJaunt.md#_ethereal-jaunt)_, _ [invisibility](spells/invisibility.md#_invisibility)_; 3/day—_ [insanity](spells/insanity.md#_insanity)_, _ [mage's disjunction](spells/mageSDisjunction.md#_mage-s-disjunction)_, _ [wish](spells/wish.md#_wish)_.
 
 # Div, Doru
 
@@ -199,9 +199,9 @@ Doru CR 2
 
 XP 600
 
-NE Tiny outsider ( [div](/pathfinderRPG/prd/monsters/creatureTypes.html#_div-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+NE Tiny outsider ( [div](monsters/creatureTypes.md#_div-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft., _ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, see in darkness; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +7
+**Init** +3; **Senses** darkvision 60 ft., _ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, see in darkness; [Perception](skills/perception.md#_perception) +7
 
 Defense
 
@@ -212,25 +212,25 @@ Defense
 
 **Fort** +3, **Ref** +4, **Will** +4
 
-**DR** 10/cold iron or [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype); **Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** acid 10, electricity 10; **SR** 13
+**DR** 10/cold iron or [good](monsters/creatureTypes.md#_good-subtype); **Immune** [fire](monsters/creatureTypes.md#_fire-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** acid 10, electricity 10; **SR** 13
 
 Offense
 
 **Speed** 20 ft., fly 40 ft. (perfect)
 
-**Melee** bite +9 (1d4–1 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** bite +9 (1d4–1 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 2-1/2 ft.; **Reach** 0 ft.
 
 **Spell-Like Abilities** (CL 6th; concentration +8)
 
-Constant—_ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_
+Constant—_ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_
 
-At will—_ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ (self only)
+At will—_ [invisibility](spells/invisibility.md#_invisibility)_ (self only)
 
-3/day—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 13), _ [minor image](/pathfinderRPG/prd/spells/minorImage.html#_minor-image)_ (DC 13)
+3/day—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 13), _ [minor image](spells/minorImage.md#_minor-image)_ (DC 13)
 
-1/day—_ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 14)
+1/day—_ [suggestion](spells/suggestion.md#_suggestion)_ (DC 14)
 
 1/week—commune (CL 12th, 6 questions)
 
@@ -240,9 +240,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +4; **CMD** 13 (can't be tripped)
 
-**Feats** [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (bite)
+**Feats** [Weapon Finesse](feats.md#_weapon-finesse), [Weapon Focus](feats.md#_weapon-focus) (bite)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +8, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +6, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +6, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +7, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +6, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +17
+**Skills** [Bluff](skills/bluff.md#_bluff) +8, [Fly](skills/fly.md#_fly) +11, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +6, [Knowledge](skills/knowledge.md#_knowledge) (planes) +6, [Perception](skills/perception.md#_perception) +7, [Spellcraft](skills/spellcraft.md#_spellcraft) +6, [Stealth](skills/stealth.md#_stealth) +17
 
 **Languages** Abyssal, Celestial, Infernal; telepathy 100 ft.
 
@@ -256,7 +256,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 13; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Wis; _cure_ 2 consecutive saves.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 13; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Wis; _cure_ 2 consecutive saves.
 
 Dorus are the divs that whisper in the night, the foul inspiration that drifts upon fetid winds, the messengers of pretender gods. Wild hair whips around a doru's six twisting horns, while a flat nose, a fanged mouth, and red glowing eyes complete the terrifying image of this bodiless monstrosity. Dorus almost always fly, preferring to stay at heights that keep them at the eye level of those with whom they would have dealings. When not flying, dorus roll across the ground in a disturbing manner, horns bouncing and teeth clattering as the creatures cackle and cartwheel, terrifying children and shocking the faint of heart.
 
@@ -264,7 +264,7 @@ The least of the divs, dorus serve as messengers and servants of other divs and 
 
 All divs have some manner of esoteric flaw in their personalities—dorus are obsessed with secrets. These covetous fiends hoard secrets and legends like a miser hoards gold. This thirst for information causes the curious dorus to enter into ridiculous bargains to obtain hidden knowledge from those they believe hold tales of special interest or value, especially when such information has the potential to aid in the corruption of future souls. Such bargains are usually what seal dorus to servitude, whether their service be to other divs or to mortal spellcasters. Cunning creatures, dorus often act as double (and sometimes triple) agents, but they rarely maintain this complex series of lies and deceptions for long. Dorus abhor mortals, as all divs do, and find it difficult to remain obedient to such beings for more than a span of a few decades at most. Only the most precious and profane secrets have the potential to keep a doru faithful to a mortal master for more than a century.
 
-Serving greater divs or mortal spellcasters, divs deliver messages, most directly plucked from secret sources. Dorus' spell-like abilities make them excellent spies, granting them the ability to infiltrate, eavesdrop while invisible, and charm their way out of perilous situations. Those serving mortals pride themselves on manipulating their masters into furthering the divs' own ends. Many evil spellcasters seeking profane power and ancient evil secrets seek to take dorus as familiars. A neutral evil spellcaster of at least 7th level who takes the [Improved Familiar](/pathfinderRPG/prd/feats.html#_improved-familiar) feat can select a doru as a familiar.
+Serving greater divs or mortal spellcasters, divs deliver messages, most directly plucked from secret sources. Dorus' spell-like abilities make them excellent spies, granting them the ability to infiltrate, eavesdrop while invisible, and charm their way out of perilous situations. Those serving mortals pride themselves on manipulating their masters into furthering the divs' own ends. Many evil spellcasters seeking profane power and ancient evil secrets seek to take dorus as familiars. A neutral evil spellcaster of at least 7th level who takes the [Improved Familiar](feats.md#_improved-familiar) feat can select a doru as a familiar.
 
 # Div, Ghawwas
 
@@ -274,9 +274,9 @@ Ghawwas CR 10
 
 XP 9,600
 
-NE Large outsider ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype), [div](/pathfinderRPG/prd/monsters/creatureTypes.html#_div-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+NE Large outsider ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype), [div](monsters/creatureTypes.md#_div-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft., _ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, see in darkness; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +19
+**Init** +6; **Senses** darkvision 60 ft., _ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, see in darkness; [Perception](skills/perception.md#_perception) +19
 
 DEFENSE
 
@@ -286,7 +286,7 @@ DEFENSE
 
 **Fort** +10, **Ref** +13, **Will** +11
 
-**Defensive Abilities** rough hide; **DR** 10/cold iron and [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype); **Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** acid 10, electricity 10; **SR** 21
+**Defensive Abilities** rough hide; **DR** 10/cold iron and [good](monsters/creatureTypes.md#_good-subtype); **Immune** [fire](monsters/creatureTypes.md#_fire-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** acid 10, electricity 10; **SR** 21
 
 OFFENSE
 
@@ -294,7 +294,7 @@ OFFENSE
 
 **Melee** bite +22 (1d8+7/19–20), 2 claws +20 (1d6+7), sting +20 (1d6+7 plus poison) or spear +20/+15/+10 (2d6+7/×3 plus poison)
 
-**Ranged** spear +15 (2d6+7/×3 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Ranged** spear +15 (2d6+7/×3 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -302,11 +302,11 @@ OFFENSE
 
 **Spell-Like Abilities** (CL 12th; concentration +14)
 
-Constant—_ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_
+Constant—_ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_
 
-At will—_ [control water](/pathfinderRPG/prd/spells/controlWater.html#_control-water)_, _ [curse water](/pathfinderRPG/prd/spells/curseWater.html#_curse-water)_, _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_, _ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_
+At will—_ [control water](spells/controlWater.md#_control-water)_, _ [curse water](spells/curseWater.md#_curse-water)_, _ [deeper darkness](spells/deeperDarkness.md#_deeper-darkness)_, _ [dimension door](spells/dimensionDoor.md#_dimension-door)_
 
-3/day—_ [hallucinatory terrain](/pathfinderRPG/prd/spells/hallucinatoryTerrain.html#_hallucinatory-terrain)_ (DC 16), _ [stinking cloud](/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud)_ (DC 15), summon (level 6, 1 pairaka 60%), _ [quench](/pathfinderRPG/prd/spells/quench.html#_quench)_ (DC 15)
+3/day—_ [hallucinatory terrain](spells/hallucinatoryTerrain.md#_hallucinatory-terrain)_ (DC 16), _ [stinking cloud](spells/stinkingCloud.md#_stinking-cloud)_ (DC 15), summon (level 6, 1 pairaka 60%), _ [quench](spells/quench.md#_quench)_ (DC 15)
 
 STATISTICS
 
@@ -314,9 +314,9 @@ STATISTICS
 
 **Base Atk** +14; **CMB** +22; **CMD** 34
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Greater Weapon Focus](/pathfinderRPG/prd/feats.html#_greater-weapon-focus) (bite), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (bite)
+**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Greater Weapon Focus](feats.md#_greater-weapon-focus) (bite), [Improved Critical](feats.md#_improved-critical) (bite), [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Weapon Focus](feats.md#_weapon-focus) (bite)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +19, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography and planes) +18, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +19, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +15, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +19, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +32
+**Skills** [Bluff](skills/bluff.md#_bluff) +19, [Knowledge](skills/knowledge.md#_knowledge) (geography and planes) +18, [Perception](skills/perception.md#_perception) +19, [Stealth](skills/stealth.md#_stealth) +15, [Survival](skills/survival.md#_survival) +19, [Swim](skills/swim.md#_swim) +32
 
 **Languages** Abyssal, Aquan, Celestial, Infernal; telepathy 100 ft.
 
@@ -332,9 +332,9 @@ ECOLOGY
 
 SPECIAL ABILITIES
 
-**Boiling Sea (Su)** As a standard action, a ghawwas can cause the waters around it to boil. Any creature within 50 feet of the ghawwas, within the same body of [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype), and at least half submerged takes 6d6 points of [heat](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_heat) damage (DC 22 Fortitude save for half). The save DC is Constitution-based.
+**Boiling Sea (Su)** As a standard action, a ghawwas can cause the waters around it to boil. Any creature within 50 feet of the ghawwas, within the same body of [water](monsters/creatureTypes.md#_water-subtype), and at least half submerged takes 6d6 points of [heat](monsters/universalMonsterRules.md#_heat) damage (DC 22 Fortitude save for half). The save DC is Constitution-based.
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 23; _frequency_ 1/round for 6 rounds; _effect_ 1d6 Str; _cure_ 2 consecutive saves.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 23; _frequency_ 1/round for 6 rounds; _effect_ 1d6 Str; _cure_ 2 consecutive saves.
 
 **Rough Hide (Ex)** Ghawwas have rough hides studded with jagged barbs and spiny protrusions. Any creature striking a ghawwas with a natural weapon or an unarmed strike takes 1d6 points of slashing and piercing damage.
 
@@ -352,9 +352,9 @@ Pairaka CR 7
 
 XP 3,200
 
-NE Medium outsider ( [div](/pathfinderRPG/prd/monsters/creatureTypes.html#_div-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+NE Medium outsider ( [div](monsters/creatureTypes.md#_div-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +9; **Senses** darkvision 60 ft., _ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, see in darkness; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16
+**Init** +9; **Senses** darkvision 60 ft., _ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, see in darkness; [Perception](skills/perception.md#_perception) +16
 
 Defense
 
@@ -364,21 +364,21 @@ Defense
 
 **Fort** +6, **Ref** +11, **Will** +10
 
-**DR** 10/cold iron or [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype); **Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)), [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)); **Resist** acid 10, electricity 10; **SR** 22
+**DR** 10/cold iron or [good](monsters/creatureTypes.md#_good-subtype); **Immune** [fire](monsters/creatureTypes.md#_fire-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)); **Resist** acid 10, electricity 10; **SR** 22
 
 Offense
 
 **Speed** 30 ft., fly 50 ft. (good)
 
-**Melee** 2 claws +14 (1d6+3 plus [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)))
+**Melee** 2 claws +14 (1d6+3 plus [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)))
 
 **Spell-Like Abilities** (CL 12th; concentration +19)
 
-Constant—_ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_
+Constant—_ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_
 
-At will—_ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_ (DC 20), _ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_ (self plus 50 lbs. of objects only), _ [misdirection](/pathfinderRPG/prd/spells/misdirection.html#_misdirection)_ (DC 19)
+At will—_ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 20), _ [dimension door](spells/dimensionDoor.md#_dimension-door)_ (self plus 50 lbs. of objects only), _ [misdirection](spells/misdirection.md#_misdirection)_ (DC 19)
 
-1/day—_ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_, summon (level 3, 1d4 dorus 50%)
+1/day—_ [insect plague](spells/insectPlague.md#_insect-plague)_, summon (level 3, 1d4 dorus 50%)
 
 Statistics
 
@@ -386,13 +386,13 @@ Statistics
 
 **Base Atk** +9; **CMB** +12; **CMD** 27
 
-**Feats** [Deceitful](/pathfinderRPG/prd/feats.html#_deceitful), [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Deceitful](feats.md#_deceitful), [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Hover](monsters/monsterFeats.md#_hover), [Improved Initiative](feats.md#_improved-initiative), [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +20, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +18, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +18, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +16, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +16, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +13, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +13, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +13, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +17
+**Skills** [Bluff](skills/bluff.md#_bluff) +20, [Diplomacy](skills/diplomacy.md#_diplomacy) +18, [Disguise](skills/disguise.md#_disguise) +18, [Fly](skills/fly.md#_fly) +16, [Intimidate](skills/intimidate.md#_intimidate) +16, [Knowledge](skills/knowledge.md#_knowledge) (local) +13, [Knowledge](skills/knowledge.md#_knowledge) (planes) +13, [Perception](skills/perception.md#_perception) +16, [Sense Motive](skills/senseMotive.md#_sense-motive) +13, [Stealth](skills/stealth.md#_stealth) +17
 
 **Languages** Abyssal, Celestial, Infernal; telepathy 100 ft.
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (any Small or Medium animal or humanoid; _ [polymorph](/pathfinderRPG/prd/spells/polymorph.html#_polymorph)_)
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (any Small or Medium animal or humanoid; _ [polymorph](spells/polymorph.md#_polymorph)_)
 
 Ecology
 
@@ -404,7 +404,7 @@ Ecology
 
 Special Abilities
 
-**[Disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)) (Su)** A pairaka carries two diseases. Its claws infect targets with bubonic plague, and any willing contact with its skin (such as through caressing, grappling, or more) exposes victims to the shakes.
+**[Disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) (Su)** A pairaka carries two diseases. Its claws infect targets with bubonic plague, and any willing contact with its skin (such as through caressing, grappling, or more) exposes victims to the shakes.
 
 _Bubonic Plague_: Claw—injury; _save_ Fort DC 17; _onset_ 1 day; _frequency_ 1/day; _effect_ 1d4 Str damage, 1 Cha damage, and target is fatigued; _cure_ 2 consecutive saves.
 
@@ -428,9 +428,9 @@ Sepid CR 14
 
 XP 38,400
 
-NE Large outsider ( [div](/pathfinderRPG/prd/monsters/creatureTypes.html#_div-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+NE Large outsider ( [div](monsters/creatureTypes.md#_div-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +9; **Senses** darkvision 60 ft., see in darkness; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +22
+**Init** +9; **Senses** darkvision 60 ft., see in darkness; [Perception](skills/perception.md#_perception) +22
 
 Defense
 
@@ -440,7 +440,7 @@ Defense
 
 **Fort** +13, **Ref** +16, **Will** +15
 
-**DR** 10/cold iron and [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype); **Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** acid 10, electricity 10; **SR** 25
+**DR** 10/cold iron and [good](monsters/creatureTypes.md#_good-subtype); **Immune** [fire](monsters/creatureTypes.md#_fire-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** acid 10, electricity 10; **SR** 25
 
 Offense
 
@@ -455,12 +455,12 @@ Offense
 
 **Spell-Like Abilities** (CL 15th; concentration +21)
 
-At will—_ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_, _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_, _ [greater teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_, _ [speak with dead](/pathfinderRPG/prd/spells/speakWithDead.html#_speak-with-dead)_ (DC 19)
+At will—_ [comprehend languages](spells/comprehendLanguages.md#_comprehend-languages)_, _ [deeper darkness](spells/deeperDarkness.md#_deeper-darkness)_, _ [greater teleport](spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [nondetection](spells/nondetection.md#_nondetection)_, _ [speak with dead](spells/speakWithDead.md#_speak-with-dead)_ (DC 19)
 
-3/day—_ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_ (DC 18), _ [fly](/pathfinderRPG/prd/spells/fly.html)_, _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_, _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, _ [touch of idiocy](/pathfinderRPG/prd/spells/touchOfIdiocy.html#_touch-of-idiocy)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_
+3/day—_ [blindness/deafness](spells/blindnessDeafness.md#_blindness-deafness)_ (DC 18), _ [fly](spells/fly.md)_, _ [ice storm](spells/iceStorm.md#_ice-storm)_, _ [invisibility](spells/invisibility.md#_invisibility)_, _ [mirror image](spells/mirrorImage.md#_mirror-image)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, _ [touch of idiocy](spells/touchOfIdiocy.md#_touch-of-idiocy)_, _ [true strike](spells/trueStrike.md#_true-strike)_
 
-1/day—_ [animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_, _ [baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ (DC 21), _ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (DC 20), _ [break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment)_, _ [create undead](/pathfinderRPG/prd/spells/createUndead.html#_create-undead)_, _ [disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_ (DC 22), _ [enervation](/pathfinderRPG/prd/spells/enervation.html#_enervation)_, _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_   
-(DC 19), _ [hold monster](/pathfinderRPG/prd/spells/holdMonster.html#_hold-monster)_ (DC 21), summon (level 4, 1 ghawwas or 1 shira 40%), _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+1/day—_ [animate dead](spells/animateDead.md#_animate-dead)_, _ [baleful polymorph](spells/balefulPolymorph.md#_baleful-polymorph)_ (DC 21), _ [bestow curse](spells/bestowCurse.md#_bestow-curse)_ (DC 20), _ [break enchantment](spells/breakEnchantment.md#_break-enchantment)_, _ [create undead](spells/createUndead.md#_create-undead)_, _ [disintegrate](spells/disintegrate.md#_disintegrate)_ (DC 22), _ [enervation](spells/enervation.md#_enervation)_, _ [fireball](spells/fireball.md#_fireball)_   
+(DC 19), _ [hold monster](spells/holdMonster.md#_hold-monster)_ (DC 21), summon (level 4, 1 ghawwas or 1 shira 40%), _ [true seeing](spells/trueSeeing.md#_true-seeing)_
 
 Statistics
 
@@ -469,9 +469,9 @@ Statistics
 
 **Base Atk** +15; **CMB** +23; **CMD** 38
 
-**Feats** [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Deflect Arrows](/pathfinderRPG/prd/feats.html#_deflect-arrows)B, [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (falchion), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (falchion)
+**Feats** [Cleave](feats.md#_cleave), [Combat Reflexes](feats.md#_combat-reflexes), [Deflect Arrows](feats.md#_deflect-arrows)B, [Improved Critical](feats.md#_improved-critical) (falchion), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Weapon Focus](feats.md#_weapon-focus) (falchion)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +24, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +15, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +24, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +22, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +22, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +15, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +22, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +20, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +22, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +19, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +24
+**Skills** [Bluff](skills/bluff.md#_bluff) +24, [Fly](skills/fly.md#_fly) +15, [Intimidate](skills/intimidate.md#_intimidate) +24, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +22, [Knowledge](skills/knowledge.md#_knowledge) (planes) +22, [Knowledge](skills/knowledge.md#_knowledge) (religion) +15, [Perception](skills/perception.md#_perception) +22, [Sense Motive](skills/senseMotive.md#_sense-motive) +20, [Spellcraft](skills/spellcraft.md#_spellcraft) +22, [Stealth](skills/stealth.md#_stealth) +19, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +24
 
 **Languages** Abyssal, Celestial, Common, Draconic, Infernal; telepathy 100 ft.
 
@@ -489,7 +489,7 @@ Special Abilities
 
 **Deflect Rays (Su)** Once per round as an immediate action, a sepid can use its Deflect Arrows feat to deflect a ray or a spell that uses a ranged touch attack.
 
-**Rain of Debris (Su)** Three times per day as a standard action, a sepid can call forth a hail of stones, wood, metal, and similar debris. The debris rains down and pelts all creatures in a 10-foot-high, 40-foot-radius cylinder centered on the sepid, dealing 15d6 points of bludgeoning damage (Reflex DC 25 for half). This attack does not harm the sepid, and counts as an [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) attack for the purpose of [damage reduction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_damage-reduction-(ex-or-su)). The save DC is Constitution-based.
+**Rain of Debris (Su)** Three times per day as a standard action, a sepid can call forth a hail of stones, wood, metal, and similar debris. The debris rains down and pelts all creatures in a 10-foot-high, 40-foot-radius cylinder centered on the sepid, dealing 15d6 points of bludgeoning damage (Reflex DC 25 for half). This attack does not harm the sepid, and counts as an [evil](monsters/creatureTypes.md#_evil-subtype) attack for the purpose of [damage reduction](monsters/universalMonsterRules.md#_damage-reduction-(ex-or-su)). The save DC is Constitution-based.
 
 Warlords among the divs, sepids spread fear, slaughter, and despair wherever they pass. They foster battles, incite rebellions, and seek heroes to slay, destroying all that which gives common people hope. With their falchions in hand, sepids often stand at the fore of the foul legions they raise.
 
@@ -505,9 +505,9 @@ Shira CR 12
 
 XP 19,200
 
-NE Large outsider ( [div](/pathfinderRPG/prd/monsters/creatureTypes.html#_div-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+NE Large outsider ( [div](monsters/creatureTypes.md#_div-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +11; **Senses** darkvision 60 ft., see in darkness, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +21
+**Init** +11; **Senses** darkvision 60 ft., see in darkness, _ [true seeing](spells/trueSeeing.md#_true-seeing)_; [Perception](skills/perception.md#_perception) +21
 
 Defense
 
@@ -517,25 +517,25 @@ Defense
 
 **Fort** +11, **Ref** +15, **Will** +14
 
-**DR** 10/cold iron and [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype); **Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** acid 10, electricity 10; **SR** 23
+**DR** 10/cold iron and [good](monsters/creatureTypes.md#_good-subtype); **Immune** [fire](monsters/creatureTypes.md#_fire-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** acid 10, electricity 10; **SR** 23
 
 Offense
 
 **Speed** 50 ft.
 
-**Melee** bite +21 (1d8+9/19–20), 2 claws +21 (1d8+9 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +21 (1d8+9/19–20), 2 claws +21 (1d8+9 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** consume essence, dusty pelt, [rake](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_rake) (2 claws +21, 1d8+9)
+**Special Attacks** consume essence, dusty pelt, [rake](monsters/universalMonsterRules.md#_rake) (2 claws +21, 1d8+9)
 
 **Spell-Like Abilities** (CL 13th; concentration +18)
 
-Constant—_ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+Constant—_ [true seeing](spells/trueSeeing.md#_true-seeing)_
 
-At will—_ [greater teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)_ (self plus 50 lbs. of objects only)
+At will—_ [greater teleport](spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only)
 
-3/day—_ [magic circle against good](/pathfinderRPG/prd/spells/magicCircleAgainstGood.html#_magic-circle-against-good)_, _ [waves of fatigue](/pathfinderRPG/prd/spells/wavesOfFatigue.html#_waves-of-fatigue)_
+3/day—_ [magic circle against good](spells/magicCircleAgainstGood.md#_magic-circle-against-good)_, _ [waves of fatigue](spells/wavesOfFatigue.md#_waves-of-fatigue)_
 
 1/day—summon (level 5, 1d2 pairakas or 1 shira 35%)
 
@@ -545,9 +545,9 @@ Statistics
 
 **Base Atk** +12; **CMB** +22 (+26 grapple); **CMD** 39
 
-**Feats** [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Run](/pathfinderRPG/prd/feats.html#_run), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (claw), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (bite)
+**Feats** [Improved Critical](feats.md#_improved-critical) (bite), [Improved Initiative](feats.md#_improved-initiative), [Power Attack](feats.md#_power-attack), [Run](feats.md#_run), [Weapon Focus](feats.md#_weapon-focus) (claw), [Weapon Focus](feats.md#_weapon-focus) (bite)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +22 (+30 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +20, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +24, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +20, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +21, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +18, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +21
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +22 (+30 when jumping), [Bluff](skills/bluff.md#_bluff) +20, [Climb](skills/climb.md#_climb) +24, [Intimidate](skills/intimidate.md#_intimidate) +20, [Perception](skills/perception.md#_perception) +21, [Stealth](skills/stealth.md#_stealth) +18, [Survival](skills/survival.md#_survival) +21
 
 **Languages** Abyssal, Celestial, Infernal; telepathy 100 ft.
 

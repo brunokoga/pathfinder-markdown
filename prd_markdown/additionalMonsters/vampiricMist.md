@@ -6,9 +6,9 @@ Vampiric MistCR 3
 
 **XP 800**
 
-NE Medium [aberration](/pathfinderRPG/prd/monsters/creatureTypes.html#_aberration) ( [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype), water)
+NE Medium [aberration](monsters/creatureTypes.md#_aberration) ( [air](monsters/creatureTypes.md#_air-subtype), water)
 
-**Init** +8; **Senses** darkvision 60 ft., sense blood; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +8
+**Init** +8; **Senses** darkvision 60 ft., sense blood; [Perception](additionalMonsters/../skills/perception.md#_perception) +8
 
 Defense
 
@@ -18,17 +18,17 @@ Defense
 
 **Fort** +4, **Ref** +5, **Will** +5
 
-**Defensive Abilities** [amorphous](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_amorphous); **DR** 5/magic
+**Defensive Abilities** [amorphous](monsters/universalMonsterRules.md#_amorphous); **DR** 5/magic
 
-**Weaknesses** vulnerable to [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)
+**Weaknesses** vulnerable to [fire](monsters/creatureTypes.md#_fire-subtype)
 
 Offense
 
 **Speed** fly 50 ft. (perfect)
 
-**Melee** touch +7 ( [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) and blood siphon)
+**Melee** touch +7 ( [bleed](monsters/universalMonsterRules.md#_bleed) and blood siphon)
 
-**Special Attacks** [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) (1d6)
+**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d6)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +3; **CMB** —; **CMD** —
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
 
-**Skills** [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +12, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +8, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +11
+**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +12, [Perception](additionalMonsters/../skills/perception.md#_perception) +8, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +11
 
 **Languages** Aklo
 
@@ -58,9 +58,9 @@ Special Abilities
 
 **Blood Overdose (Su)** When a vampiric mist gorges on blood to an extent that it gains temporary hit points, it moves much more quickly. It gains a +2 bonus to its Armor Class and on Reflex saves, and can take one additional move action each round.
 
-**Misty Form (Ex)** A vampiric mist's body is composed of a semisolid red mist similar in consistency to thick foam. The vampiric mist does not have a Strength score, and it cannot manipulate or wear solid objects. This form grants it the [amorphous](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_amorphous) defensive ability, and allows it to move through areas as small as 1 inch in diameter with no reduction to its speed. The creature can speak in a hissing voice. A vampiric mist cannot enter water or other fluids, and is treated as a creature two size categories smaller than its actual size (Tiny for most vampiric mists) for the purposes of how wind affects it.
+**Misty Form (Ex)** A vampiric mist's body is composed of a semisolid red mist similar in consistency to thick foam. The vampiric mist does not have a Strength score, and it cannot manipulate or wear solid objects. This form grants it the [amorphous](monsters/universalMonsterRules.md#_amorphous) defensive ability, and allows it to move through areas as small as 1 inch in diameter with no reduction to its speed. The creature can speak in a hissing voice. A vampiric mist cannot enter water or other fluids, and is treated as a creature two size categories smaller than its actual size (Tiny for most vampiric mists) for the purposes of how wind affects it.
 
-**Sense Blood (Ex)** A vampiric mist can immediately sense the presence of warm-blooded creatures in a 60-foot radius as if by [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent). It can detect exposed blood within a mile.
+**Sense Blood (Ex)** A vampiric mist can immediately sense the presence of warm-blooded creatures in a 60-foot radius as if by [scent](monsters/universalMonsterRules.md#_scent). It can detect exposed blood within a mile.
 
 Often mistaken for a vampire in gaseous form or an unusual type of air elemental, the vampiric mist is in fact a strange form of aberrant life. With an amorphous body that consists as much of fluid as it does of air, this creature dwells in swamps or moist underground regions where its vulnerability to heat isn't as much of a concern.
 

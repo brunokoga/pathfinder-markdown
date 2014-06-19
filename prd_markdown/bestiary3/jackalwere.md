@@ -6,9 +6,9 @@ Jackalwere CR 2
 
 XP 600
 
-CE Medium magical beast ( [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+CE Medium magical beast ( [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft., low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +7
+**Init** +3; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +7
 
 Defense
 
@@ -27,7 +27,7 @@ Offense
 **Melee** mwk battleaxe +6 (1d8+2/×3), bite +0 (1d6+1) or   
 bite +5 (1d6+3)
 
-**Special Attacks** sleep [gaze](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze), weapon intuition
+**Special Attacks** sleep [gaze](monsters/universalMonsterRules.md#_gaze), weapon intuition
 
 Statistics
 
@@ -35,13 +35,13 @@ Statistics
 
 **Base Atk** +3; **CMB** +5; **CMD** 19
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Dodge](/pathfinderRPG/prd/feats.html#_dodge)
+**Feats** [Alertness](feats.md#_alertness), [Dodge](feats.md#_dodge)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +7, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +6, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +7, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +3, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +7, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +6; **Racial Modifiers** +2 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), +2 [Survival](/pathfinderRPG/prd/skills/survival.html#_survival)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +7, [Bluff](skills/bluff.md#_bluff) +6, [Perception](skills/perception.md#_perception) +7, [Sense Motive](skills/senseMotive.md#_sense-motive) +3, [Stealth](skills/stealth.md#_stealth) +7, [Survival](skills/survival.md#_survival) +6; **Racial Modifiers** +2 [Bluff](skills/bluff.md#_bluff), +2 [Survival](skills/survival.md#_survival)
 
 **Languages** Common
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (human, hybrid, and jackal; _ [polymorph](/pathfinderRPG/prd/spells/polymorph.html#_polymorph)_), jackal empathy
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (human, hybrid, and jackal; _ [polymorph](spells/polymorph.md#_polymorph)_), jackal empathy
 
 Ecology
 
@@ -53,11 +53,11 @@ Ecology
 
 Special Abilities
 
-**Change Shape (Su)** A jackalwere has three forms. Its natural form is that of a jackal, but it can also take the form of a human or a human-jackal hybrid. A jackalwere's human form is fixed—it cannot assume different human forms. A jackalwere can use its sleep [gaze](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze) in any of its forms. In jackal form, it functions as a dog. In its hybrid form, a jackalwere can make a bite attack as a secondary attack, while in human form it lacks its bite attack entirely. A jackalwere can shift into any of its three alternate forms as a move action. Equipment does not meld with the new form between human and hybrid forms but does between those forms and its jackal form.
+**Change Shape (Su)** A jackalwere has three forms. Its natural form is that of a jackal, but it can also take the form of a human or a human-jackal hybrid. A jackalwere's human form is fixed—it cannot assume different human forms. A jackalwere can use its sleep [gaze](monsters/universalMonsterRules.md#_gaze) in any of its forms. In jackal form, it functions as a dog. In its hybrid form, a jackalwere can make a bite attack as a secondary attack, while in human form it lacks its bite attack entirely. A jackalwere can shift into any of its three alternate forms as a move action. Equipment does not meld with the new form between human and hybrid forms but does between those forms and its jackal form.
 
-**Jackal Empathy (Ex)** A jackalwere can communicate and empathize with jackals (use stats for Small dog), and can use [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) as if it were [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) to change a jackal's attitude, receiving a +4 racial bonus to do so.
+**Jackal Empathy (Ex)** A jackalwere can communicate and empathize with jackals (use stats for Small dog), and can use [Bluff](skills/bluff.md#_bluff) as if it were [Diplomacy](skills/diplomacy.md#_diplomacy) to change a jackal's attitude, receiving a +4 racial bonus to do so.
 
-**Sleep (Su)** Sleep for 3 minutes (a standard action rouses the creature, as does damage), 30 feet, Will DC 12 negates. A creature that succeeds at the saving throw cannot be affected by the same jackalwere's sleep [gaze](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze) for 24 hours. This is a sleep effect. The save DC is Charisma-based.
+**Sleep (Su)** Sleep for 3 minutes (a standard action rouses the creature, as does damage), 30 feet, Will DC 12 negates. A creature that succeeds at the saving throw cannot be affected by the same jackalwere's sleep [gaze](monsters/universalMonsterRules.md#_gaze) for 24 hours. This is a sleep effect. The save DC is Charisma-based.
 
 **Weapon Intuition (Ex)** A jackalwere is proficient with simple and martial melee weapons.
 

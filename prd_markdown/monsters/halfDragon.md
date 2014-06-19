@@ -8,9 +8,9 @@ _This six-legged dragon flaps its massive wings as it lowers its head to glare w
 
 Half-black dragon basilisk
 
-N Medium [dragon](creatureTypes.html#_dragon)
+N Medium [dragon](creatureTypes.md#_dragon)
 
-**Init** –1; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.html#_perception) +14
+**Init** –1; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) +14
 
 **Defense**
 
@@ -28,7 +28,7 @@ N Medium [dragon](creatureTypes.html#_dragon)
 
 **Melee** bite +14 (1d8+7), 2 claws +14 (1d4+7)
 
-**Special Attacks** [breath weapon](universalMonsterRules.html#_breath-weapon) (60-foot line of acid, 7d6 acid damage, Reflex DC 18 half), [gaze](universalMonsterRules.html#_gaze) (DC 18, see [Basilisk](basilisk.html))
+**Special Attacks** [breath weapon](universalMonsterRules.md#_breath-weapon) (60-foot line of acid, 7d6 acid damage, Reflex DC 18 half), [gaze](universalMonsterRules.md#_gaze) (DC 18, see [Basilisk](basilisk.md))
 
 **Statistics**
 
@@ -36,9 +36,9 @@ N Medium [dragon](creatureTypes.html#_dragon)
 
 **Base**  **Atk** +7; **CMB** +14; **CMD** 23 (31 vs. trip)
 
-**Feats** [Blind-Fight](../feats.html#_blind-fight), [Great Fortitude](../feats.html#_great-fortitude), [Iron Will](../feats.html#_iron-will), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
+**Feats** [Blind-Fight](../feats.md#_blind-fight), [Great Fortitude](../feats.md#_great-fortitude), [Iron Will](../feats.md#_iron-will), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
 
-**Skills** [Fly](../skills/fly.html#_fly) +9, [Perception](../skills/perception.html#_perception) +14, [Stealth](../skills/stealth.html#_stealth) +13; **Racial Modifiers** +4 [Stealth](../skills/stealth.html#_stealth)
+**Skills** [Fly](../skills/fly.md#_fly) +9, [Perception](../skills/perception.md#_perception) +14, [Stealth](../skills/stealth.md#_stealth) +13; **Racial Modifiers** +4 [Stealth](../skills/stealth.md#_stealth)
 
 **Ecology**
 
@@ -52,11 +52,11 @@ Half-dragons are only rarely the result of dragons mating with other creatures�
 
 ## Creating a Half-Dragon
 
-âHalf-dragonâ is an inherited or acquired template that can be added to any living, corporeal creature (referred to hereafter as the base creature). A half-dragon retains all the base creature's statistics and special abilities except as noted here.
+“Half-dragon” is an inherited or acquired template that can be added to any living, corporeal creature (referred to hereafter as the base creature). A half-dragon retains all the base creature's statistics and special abilities except as noted here.
 
 **CR** : Same as the base creature + 2 (minimum 3).
 
-**Type** : Creature type changes to [dragon](creatureTypes.html#_dragon). Do not recalculate HD, BAB, or saves.
+**Type** : Creature type changes to [dragon](creatureTypes.md#_dragon). Do not recalculate HD, BAB, or saves.
 
 **Armor Class** : Nat. armor improves by +4.
 
@@ -64,7 +64,7 @@ Half-dragons are only rarely the result of dragons mating with other creatures�
 
 **Speed** : A half-dragon has wings. Unless the base creature has a better fly speed, the half-dragon can fly at twice the creature's base land speed (average maneuverability).
 
-**Melee** : A half-dragon has two claw attacks and a bite attack. If the base creature can use manufactured weapons, the half-dragon can as well. A new claw or bite attack deals damage as appropriate for the half-dragon's size (see [Natural Attacks](universalMonsterRules.html#_natural-attacks).)
+**Melee** : A half-dragon has two claw attacks and a bite attack. If the base creature can use manufactured weapons, the half-dragon can as well. A new claw or bite attack deals damage as appropriate for the half-dragon's size (see [Natural Attacks](universalMonsterRules.md#_natural-attacks).)
 
 **Special Abilities** : A half-dragon retains all the special attacks of the base creature and gains a breath weapon usable once per day based on the dragon variety (see below). The breath weapon deals 1d6 hit points of damage per racial HD possessed by the half-dragon (Reflex half; DC 10 + 1/2 creature's racial HD + creature's Con modifier).
 

@@ -12,7 +12,7 @@
 
 **Duration** 1 round/level
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
 You imbue inanimate objects with mobility and a semblance of life. Each such animated object then immediately attacks whomever or whatever you initially designate.
 
@@ -20,5 +20,5 @@ An animated object can be of any nonmagical material. You may animate one Small 
 
 This spell cannot affect objects carried or worn by a creature.
 
-_Animate objects _can be made permanent with a _ [permanency](permanency.html#_permanency) _spell.
+_Animate objects _can be made permanent with a _ [permanency](permanency.md#_permanency) _spell.
 

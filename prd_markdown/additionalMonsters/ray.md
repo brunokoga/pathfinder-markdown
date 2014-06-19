@@ -6,9 +6,9 @@ Manta RayCR 1
 
 **XP 400**
 
-N Large [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Large [animal](monsters/creatureTypes.md#_animal) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +1; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 30 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6
+**Init** +1; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 30 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +6
 
 Defense
 
@@ -32,15 +32,15 @@ Statistics
 
 **Base Atk** +2; **CMB** +6; **CMD** 17
 
-**Feats** [Improved Bull Rush](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack)
+**Feats** [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Power Attack](additionalMonsters/../feats.md#_power-attack)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +15
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +6, [Swim](additionalMonsters/../skills/swim.md#_swim) +15
 
 Ecology
 
 **Environment** warm oceans
 
-**Organization** solitary, pair, or [flight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_flight-(ex,-sp,-or-su)) (3–12)
+**Organization** solitary, pair, or [flight](monsters/universalMonsterRules.md#_flight-(ex,-sp,-or-su)) (3–12)
 
 **Treasure** none
 
@@ -58,9 +58,9 @@ StingrayCR 1/2
 
 **XP 200**
 
-N Medium [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Medium [animal](monsters/creatureTypes.md#_animal) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +1; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 30 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +8
+**Init** +1; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 30 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +8
 
 Defense
 
@@ -74,7 +74,7 @@ Offense
 
 **Speed** swim 40 ft.
 
-**Melee** sting +1 (1d4 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** sting +1 (1d4 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 Statistics
 
@@ -82,21 +82,21 @@ Statistics
 
 **Base Atk** +1; **CMB** +1; **CMD** 12
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception))
+**Feats** [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +8, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +5 (+13 in sand or mud), [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +8; **Racial Modifier** +8 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) in sand or mud
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +8, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +5 (+13 in sand or mud), [Swim](additionalMonsters/../skills/swim.md#_swim) +8; **Racial Modifier** +8 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in sand or mud
 
 Ecology
 
 **Environment** warm oceans
 
-**Organization** solitary, pair, or [flight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_flight-(ex,-sp,-or-su)) (3–12)
+**Organization** solitary, pair, or [flight](monsters/universalMonsterRules.md#_flight-(ex,-sp,-or-su)) (3–12)
 
 **Treasure** none
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Sting—injury; _save _Fort DC 13; _frequency _1/round for 4 rounds; _effect _1d2 Dex and 1 Con; _cure _1 save. The save DC is Constitution-based.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Sting—injury; _save _Fort DC 13; _frequency _1/round for 4 rounds; _effect _1d2 Dex and 1 Con; _cure _1 save. The save DC is Constitution-based.
 
 Often found buried in mud, sand, or sea grass, this normally passive creature raises its tail above its body like a scorpion when cornered or injured. Its stinger is a barbed spine with two grooves allowing the toxin to enter the wound. While often found in bays and estuaries, some breeds of stingray can make their home in rivers far upstream from salt water. Stingrays, like their larger manta ray cousins, use a form of electrolocation to find prey in the silt-laden waters.
 

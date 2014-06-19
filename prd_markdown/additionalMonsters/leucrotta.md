@@ -6,9 +6,9 @@ This freakish beast has the head of a badger, the hooves of a stag, and a wide m
 
 **XP 1,600**
 
-CE Large [magical beast](/pathfinderRPG/prd/monsters/creatureTypes.html#_magical-beast)
+CE Large [magical beast](monsters/creatureTypes.md#_magical-beast)
 
-**Init** +5; **Senses** darkvision 60 ft., low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +2
+**Init** +5; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +2
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +9, **Ref** +6, **Will** +4
 
-**Immune** [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su))
+**Immune** [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))
 
 Offense
 
@@ -36,13 +36,13 @@ Statistics
 
 **Base Atk** +6; **CMB** +12; **CMD** 23 (27 vs. trip)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff)), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth))
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Bluff](additionalMonsters/../skills/bluff.md#_bluff)), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth.md#_stealth))
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +12, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +13, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +9
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +12, [Climb](additionalMonsters/../skills/climb.md#_climb) +13, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +9
 
 **Languages** Common
 
-**SQ** [sound mimicry](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_sound-mimicry) (voices)
+**SQ** [sound mimicry](monsters/universalMonsterRules.md#_sound-mimicry) (voices)
 
 Ecology
 
@@ -54,7 +54,7 @@ Ecology
 
 Special Abilities
 
-**Lure (Su)** At any point that a leucrotta's targets are unaware of it (for example, if the leucrotta is hiding or concealed in darkness), the leucrotta can call out to the targets, who must be in line of sight and within 60 feet. When the leucrotta calls out, the targets must make a DC 16 Will save or fall under the effects of a _ [suggestion](/pathfinderRPG/prd/additionalMonsters/../spells/suggestion.html#_suggestion)_ to approach the sound of the leucrotta's voice. This effect functions identically to a _ [mass suggestion](/pathfinderRPG/prd/additionalMonsters/../spells/suggestion.html#_suggestion-mass)_ spell with a caster level equal to the leucrotta's Hit Dice. A creature that saves cannot be affected again by the same leucrotta's lure for 24 hours. The lure is a language-dependant effect, and if the leucrotta uses the victim's name during the lure, the victim takes a –4 penalty on its saving throw. This is a sonic mind-affecting charm effect. The save DC is Charisma-based.
+**Lure (Su)** At any point that a leucrotta's targets are unaware of it (for example, if the leucrotta is hiding or concealed in darkness), the leucrotta can call out to the targets, who must be in line of sight and within 60 feet. When the leucrotta calls out, the targets must make a DC 16 Will save or fall under the effects of a _ [suggestion](additionalMonsters/../spells/suggestion.md#_suggestion)_ to approach the sound of the leucrotta's voice. This effect functions identically to a _ [mass suggestion](additionalMonsters/../spells/suggestion.md#_suggestion-mass)_ spell with a caster level equal to the leucrotta's Hit Dice. A creature that saves cannot be affected again by the same leucrotta's lure for 24 hours. The lure is a language-dependant effect, and if the leucrotta uses the victim's name during the lure, the victim takes a –4 penalty on its saving throw. This is a sonic mind-affecting charm effect. The save DC is Charisma-based.
 
 **Powerful Bite (Ex)** A leucrotta's bite attack always applies 1-1/2 times its Strength modifier on damage rolls and threatens a critical hit on a roll of 19–20. When a leucrotta bites an object, its bite treats the object as having a hardness of 5 less than the object's actual hardness rating.
 
@@ -66,7 +66,7 @@ Leucrottas sometimes lead packs of gnolls, or even of their bestial cousins the 
 
 ## Crocotta
 
-These degenerate offshoots of leucrottas have animal-level intelligence, but sense a kinship with leucrottas and obey them instinctively. Treat a crocotta as an advanced dire hyena with [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite) as a bonus feat.
+These degenerate offshoots of leucrottas have animal-level intelligence, but sense a kinship with leucrottas and obey them instinctively. Treat a crocotta as an advanced dire hyena with [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite) as a bonus feat.
 
 A crocotta looks similar to a leucrotta, save that it has shorter back legs, giving it a hunched, more hyena-like appearance. Leucrottas view crocottas with disdain and even shame, but it's not unusual to find these large hyena-like beasts in close proximity to a leucrotta pack. Crocottas are popular attractions in traveling carnivals, where unscrupulous con artists bill them as cursed humanoids or animals.
 

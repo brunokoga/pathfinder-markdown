@@ -1,6 +1,6 @@
 Arboreal Hammer
 
-**Source** [_arboreal hammer_](/pathfinderRPG/prd/ultimateMagic/spells/arborealHammer.html#_arboreal-hammer)
+**Source** [_arboreal hammer_](ultimateMagic/spells/arborealHammer.md#_arboreal-hammer)
 
 You animate two branches instead of one, allowing the tree to attack twice per round. Add your tier to your caster level when determining the tree's Strength score. A creature struck by both slam attacks in the same round must succeed at a Fortitude save against the spell's DC or be staggered for 1 round.
 

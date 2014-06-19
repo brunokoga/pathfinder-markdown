@@ -4,5 +4,5 @@ Tongues, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_, except you divide the duration in 10-minute intervals among the creatures touched.
+This spell functions like _ [tongues](spells/tongues.md#_tongues)_, except you divide the duration in 10-minute intervals among the creatures touched.
 

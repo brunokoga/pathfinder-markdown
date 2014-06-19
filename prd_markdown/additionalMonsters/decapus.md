@@ -6,9 +6,9 @@ This swollen cephalopod has ten writhing tentacles and a hideously monstrous fac
 
 **XP 1,200**
 
-CE Medium [aberration](/pathfinderRPG/prd/monsters/creatureTypes.html#_aberration)
+CE Medium [aberration](monsters/creatureTypes.md#_aberration)
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +11
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +11
 
 Defense
 
@@ -23,15 +23,15 @@ Offense
 **Speed** 10 ft., climb 30 ft.
 
 **Melee** bite +7 (1d6+3), tentacles +8 (2d4+3   
-plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 5 ft.; **Reach** 5 ft.
 
-**Special Attacks** [constrict](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict) (2d4+4)
+**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) (2d4+4)
 
 **Spell-Like Abilities** (CL 6th; concentration +7)
 
-At will—_ [minor image](/pathfinderRPG/prd/additionalMonsters/../spells/minorImage.html#_minor-image)_ (DC 13)
+At will—_ [minor image](additionalMonsters/../spells/minorImage.md#_minor-image)_ (DC 13)
 
 Statistics
 
@@ -40,13 +40,13 @@ Statistics
 
 **Base Atk** +4; **CMB** +7 (+11 grapple); **CMD** 18 (can't be tripped)
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff)), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (tentacles)
+**Feats** [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Bluff](additionalMonsters/../skills/bluff.md#_bluff)), [Toughness](additionalMonsters/../feats.md#_toughness), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (tentacles)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +7 (–1 jump), [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +7, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +16, [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +5, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +7, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +11, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +6, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +9; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +7 (–1 jump), [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +7, [Climb](additionalMonsters/../skills/climb.md#_climb) +16, [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +5, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +7, [Perception](additionalMonsters/../skills/perception.md#_perception) +11, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +6, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +9; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
 
 **Languages** Aklo
 
-**SQ** [sound mimicry](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_sound-mimicry) (voices), tentacles
+**SQ** [sound mimicry](monsters/universalMonsterRules.md#_sound-mimicry) (voices), tentacles
 
 Ecology
 

@@ -12,7 +12,7 @@
 
 **Duration** 1 round + 1 round per three levels
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
-An arrow of acid springs from your hand and speeds to its target. You must succeed on a [ranged touch attack](../combat.html#_ranged-touch-spells-in-combat-95) to hit your target. The arrow deals 2d4 points of acid damage with no splash damage. For every three caster levels you possess, the acid, unless neutralized, lasts for another round (to a maximum of 6 additional rounds at 18th level), dealing another 2d4 points of damage in each round.
+An arrow of acid springs from your hand and speeds to its target. You must succeed on a [ranged touch attack](../combat.md#_ranged-touch-spells-in-combat-95) to hit your target. The arrow deals 2d4 points of acid damage with no splash damage. For every three caster levels you possess, the acid, unless neutralized, lasts for another round (to a maximum of 6 additional rounds at 18th level), dealing another 2d4 points of damage in each round.
 

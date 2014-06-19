@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Will](../combat.html#_will) negates (object); **[Spell Resistance](../glossary.html#_spell-resistance)** yes (object)
+**Saving Throw** [Will](../combat.md#_will) negates (object); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (object)
 
 W_ood shape _enables you to form one existing piece of wood into any shape that suits your purpose. While it is possible to make crude coffers, doors, and so forth, fine detail isn't possible. There is a 30% chance that any shape that includes moving parts simply doesn't work.
 

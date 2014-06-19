@@ -6,9 +6,9 @@ This knobby-kneed, stunted humanoid, has a particularly thick beard and wild man
 
 **XP 1,200**
 
-CN Small [fey](/pathfinderRPG/prd/monsters/creatureTypes.html#_fey)
+CN Small [fey](monsters/creatureTypes.md#_fey)
 
-**Init** +3; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +14
+**Init** +3; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +14
 
 Defense
 
@@ -28,13 +28,13 @@ Offense
 
 **Ranged** rock +8 (1d6+4)
 
-**Special Attacks** animated hair, stunning laugh, [rock throwing](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_rock-throwing) (100 ft.)
+**Special Attacks** animated hair, stunning laugh, [rock throwing](monsters/universalMonsterRules.md#_rock-throwing) (100 ft.)
 
 **Spell-Like Abilities** (CL 6th; concentration +7)
 
-At will—_ [animate rope](/pathfinderRPG/prd/additionalMonsters/../spells/animateRope.html#_animate-rope)_, _ [shatter](/pathfinderRPG/prd/additionalMonsters/../spells/shatter.html#_shatter)_ (DC 13), _ [stone shape](/pathfinderRPG/prd/additionalMonsters/../spells/stoneShape.html#_stone-shape)_
+At will—_ [animate rope](additionalMonsters/../spells/animateRope.md#_animate-rope)_, _ [shatter](additionalMonsters/../spells/shatter.md#_shatter)_ (DC 13), _ [stone shape](additionalMonsters/../spells/stoneShape.md#_stone-shape)_
 
-1/day—_ [stone tell](/pathfinderRPG/prd/additionalMonsters/../spells/stoneTell.html#_stone-tell)_
+1/day—_ [stone tell](additionalMonsters/../spells/stoneTell.md#_stone-tell)_
 
 Statistics
 
@@ -42,9 +42,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +6; **CMD** 20
 
-**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception))
+**Feats** [Dodge](additionalMonsters/../feats.md#_dodge), [Mobility](additionalMonsters/../feats.md#_mobility), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +12, [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +10, [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (rope) +10, [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (sculpture) +10, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +14, [Perform](/pathfinderRPG/prd/additionalMonsters/../skills/perform.html#_perform) (dance) +10, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +16
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +12, [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +10, [Craft](additionalMonsters/../skills/craft.md#_craft) (rope) +10, [Craft](additionalMonsters/../skills/craft.md#_craft) (sculpture) +10, [Perception](additionalMonsters/../skills/perception.md#_perception) +14, [Perform](additionalMonsters/../skills/perform.md#_perform) (dance) +10, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +16
 
 **Languages** Common, Sylvan
 
@@ -62,11 +62,11 @@ Special Abilities
 
 **Animated Hair (Su)** A korred's hair is constantly writhing and twitching. As a free action, a korred can cause its long hair to reach out and interfere with adjacent creatures—tugging at clothes and weapons, tangling feet and arms, tickling, and generally making a nuisance of itself. The korred can select which adjacent targets are affected by its animated hair. These targets must make a successful DC 16 Reflex save each round to avoid becoming entangled for 1 round. The save DC is Dexterity-based.
 
-**Stone Stride (Su)** This ability works like _ [tree stride](/pathfinderRPG/prd/additionalMonsters/../spells/treeStride.html#_tree-stride)_, except it requires loose boulders at least as large as the korred, and only has a range of 30 feet. The korred can use this ability once per round as a standard action.
+**Stone Stride (Su)** This ability works like _ [tree stride](additionalMonsters/../spells/treeStride.md#_tree-stride)_, except it requires loose boulders at least as large as the korred, and only has a range of 30 feet. The korred can use this ability once per round as a standard action.
 
-**Stunning Laugh (Su)** Three times per day as a standard action, a korred can unleash a strange laugh that stuns all creatures within a 30-foot burst for 1d2 rounds (Fortitude DC 14 negates). This is a sonic, mind-affecting effect. [Fey](/pathfinderRPG/prd/monsters/creatureTypes.html#_fey) are immune to this ability. The save DC is Charisma-based.
+**Stunning Laugh (Su)** Three times per day as a standard action, a korred can unleash a strange laugh that stuns all creatures within a 30-foot burst for 1d2 rounds (Fortitude DC 14 negates). This is a sonic, mind-affecting effect. [Fey](monsters/creatureTypes.md#_fey) are immune to this ability. The save DC is Charisma-based.
 
 Korreds are an ancient fey race who like forested areas with nice, rocky ground. They resemble small, wild-haired humanoids with wild, knotted hair. Korreds especially like to dance in ancient stone circles within forest glades, often led by satyrs with panpipes. They are a shy race and do not take kindly to outsiders discovering them, even by accident. They almost always attack non-korreds who stumble into their territory, seeking to kill them or at least drive them off.
 
-Korred clothing normally consists of a simple leather apron, jerkin, or kilt, leaving their legs uncovered and their feet bare. Their clothes usually have a large pocket or pouch to hold their belongings. A korred's hair and beard grow quickly, sometimes an inch a day, and the korred trims its hair when the locks become too unruly, saving the trimmings in its pocket so it can weave them into ropes for its _ [animate rope](/pathfinderRPG/prd/additionalMonsters/../spells/animateRope.html#_animate-rope)_ spell-like ability.
+Korred clothing normally consists of a simple leather apron, jerkin, or kilt, leaving their legs uncovered and their feet bare. Their clothes usually have a large pocket or pouch to hold their belongings. A korred's hair and beard grow quickly, sometimes an inch a day, and the korred trims its hair when the locks become too unruly, saving the trimmings in its pocket so it can weave them into ropes for its _ [animate rope](additionalMonsters/../spells/animateRope.md#_animate-rope)_ spell-like ability.
 

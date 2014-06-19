@@ -12,7 +12,7 @@
 
 **Duration** concentration, up to 10 min./ level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
 You can sense the presence of evil. The amount of information revealed depends on how long you study a particular area or subject.
 
@@ -20,7 +20,7 @@ _1st Round_: Presence or absence of evil.
 
 _2nd Round_: Number of evil auras (creatures, objects, or spells) in the area and the power of the most potent evil aura present.
 
-If you are of good alignment, and the strongest evil aura's power is overwhelming (see below), and the HD or level of the aura's source is at least twice your character level, you are [stunned](../glossary.html#_stunned) for 1 round and the spell ends.
+If you are of good alignment, and the strongest evil aura's power is overwhelming (see below), and the HD or level of the aura's source is at least twice your character level, you are [stunned](../glossary.md#_stunned) for 1 round and the spell ends.
 
 _3rd Round_: The power and location of each aura. If an aura is outside your line of sight, then you discern its direction but not its exact location.
 

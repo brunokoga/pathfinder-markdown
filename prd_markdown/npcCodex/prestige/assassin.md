@@ -28,9 +28,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** _+1 short sword_ +12 (1d6+1/19â20 plus poison)
+**Melee** _+1 short sword_ +12 (1d6+1/19–20 plus poison)
 
-**Ranged** mwk dagger +11 (1d4/19â20 plus poison)
+**Ranged** mwk dagger +11 (1d4/19–20 plus poison)
 
 **Special Attacks** channel negative energy 2/day (DC 9, 1d6), death attack (DC 14), sneak attack +4d6
 
@@ -40,17 +40,17 @@ Offense
 
 **Cleric Spells Prepared** (CL 1st; concentration +2)
 
-1st—_ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _disguise sel f_D, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_
+1st—_ [bless](spells/bless.md#_bless)_, _disguise sel f_D, _ [divine favor](spells/divineFavor.md#_divine-favor)_
 
-0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 11), _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_
+0 (at will)—_ [bleed](spells/bleed.md#_bleed)_ (DC 11), _ [detect poison](spells/detectPoison.md#_detect-poison)_, _ [guidance](spells/guidance.md#_guidance)_
 
 **D** Domain spell; **Domains** Death, Trickery
 
 Tactics
 
-**Before Combat** The assassin attempts to cast his _scroll of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ and coats his short sword with greenblood oil.
+**Before Combat** The assassin attempts to cast his _scroll of [invisibility](spells/invisibility.md#_invisibility)_ and coats his short sword with greenblood oil.
 
-**During Combat** The assassin begins combat by studying his foe for a death attack. When making this attack, he uses [Channel Smite](/pathfinderRPG/prd/feats.html#_channel-smite) and [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike) to do as much damage as possible.
+**During Combat** The assassin begins combat by studying his foe for a death attack. When making this attack, he uses [Channel Smite](feats.md#_channel-smite) and [Vital Strike](feats.md#_vital-strike) to do as much damage as possible.
 
 Statistics
 
@@ -58,15 +58,15 @@ Statistics
 
 **Base Atk** +5; **CMB** +5; **CMD** 21
 
-**Feats** [Channel Smite](/pathfinderRPG/prd/feats.html#_channel-smite), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Step Up](/pathfinderRPG/prd/feats.html#_step-up), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (short sword)
+**Feats** [Channel Smite](feats.md#_channel-smite), [Dodge](feats.md#_dodge), [Step Up](feats.md#_step-up), [Vital Strike](feats.md#_vital-strike), [Weapon Finesse](feats.md#_weapon-finesse), [Weapon Focus](feats.md#_weapon-focus) (short sword)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +11, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +8, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +7, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +9, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local, nobility, religion) +10, Perception +13, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +13, [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) +13, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +10, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +17
+**Skills** [Bluff](skills/bluff.md#_bluff) +11, [Climb](skills/climb.md#_climb) +8, [Disguise](skills/disguise.md#_disguise) +7, [Intimidate](skills/intimidate.md#_intimidate) +9, [Knowledge](skills/knowledge.md#_knowledge) (local, nobility, religion) +10, Perception +13, [Sense Motive](skills/senseMotive.md#_sense-motive) +13, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +13, [Spellcraft](skills/spellcraft.md#_spellcraft) +10, [Stealth](skills/stealth.md#_stealth) +17
 
 **Languages** Common, Dwarven, Orc
 
 **SQ** aura, orc blood, poison use, rogue talents (bleeding attack +4, finesse rogue, surprise attack), trapfinding +3, weapon familiarity
 
-**Combat Gear** _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _scroll of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, black adder venom (2), giant wasp poison (2), greenblood oil (2); **Other Gear** _+1 studded leather_, _+1 short sword_, masterwork dagger, _ [belt of incredible dexterity](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-incredible-dexterity) +2_, 303 gp
+**Combat Gear** _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _scroll of [invisibility](spells/invisibility.md#_invisibility)_, black adder venom (2), giant wasp poison (2), greenblood oil (2); **Other Gear** _+1 studded leather_, _+1 short sword_, masterwork dagger, _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +2_, 303 gp
 
 Most evil temples and cults use sacred killers to enforce their twisted will or to eliminate annoying enemies.
 
@@ -112,11 +112,11 @@ Offense
 
 Tactics
 
-**Before Combat** The assassin drinks her _potion of [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin),_ attempts to study her victim for 3 rounds, and drinks her _potion of [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_.
+**Before Combat** The assassin drinks her _potion of [barkskin](spells/barkskin.md#_barkskin),_ attempts to study her victim for 3 rounds, and drinks her _potion of [haste](spells/haste.md#_haste)_.
 
 **During Combat** Disguised as a modest pilgrim, the assassin sidles up to her mark and makes her death attack with a Stunning Fist attack. She then retreats to throw flurries of shuriken.
 
-**Base Statistics** Without_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, the assassin's statistics are **AC** 23, touch 21, flat-footed 17.
+**Base Statistics** Without_ [barkskin](spells/barkskin.md#_barkskin)_, the assassin's statistics are **AC** 23, touch 21, flat-footed 17.
 
 Statistics
 
@@ -124,15 +124,15 @@ Statistics
 
 **Base Atk** +9; **CMB** +13; **CMD** 31
 
-**Feats** [Deadly Aim](/pathfinderRPG/prd/feats.html#_deadly-aim), Deflect Arrows, [Dodge](/pathfinderRPG/prd/feats.html#_dodge), Extra _Ki_, [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike), [Nimble Moves](/pathfinderRPG/prd/feats.html#_nimble-moves), [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), [Step Up](/pathfinderRPG/prd/feats.html#_step-up), Stunning Fist, [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (shuriken, unarmed strike)
+**Feats** [Deadly Aim](feats.md#_deadly-aim), Deflect Arrows, [Dodge](feats.md#_dodge), Extra _Ki_, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Nimble Moves](feats.md#_nimble-moves), [Point-Blank Shot](feats.md#_point-blank-shot), [Step Up](feats.md#_step-up), Stunning Fist, [Weapon Finesse](feats.md#_weapon-finesse), [Weapon Focus](feats.md#_weapon-focus) (shuriken, unarmed strike)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +21 (+42 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +6, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +11, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +2, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +6, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +7, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography, local, nature) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +8, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +6, Perception +18, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +12, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +21, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +7
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +21 (+42 when jumping), [Bluff](skills/bluff.md#_bluff) +6, [Climb](skills/climb.md#_climb) +11, [Diplomacy](skills/diplomacy.md#_diplomacy) +2, [Disguise](skills/disguise.md#_disguise) +6, [Intimidate](skills/intimidate.md#_intimidate) +7, [Knowledge](skills/knowledge.md#_knowledge) (geography, local, nature) +5, [Knowledge](skills/knowledge.md#_knowledge) (history) +8, [Knowledge](skills/knowledge.md#_knowledge) (religion) +6, Perception +18, [Sense Motive](skills/senseMotive.md#_sense-motive) +12, [Stealth](skills/stealth.md#_stealth) +21, [Swim](skills/swim.md#_swim) +7
 
 **Languages** Auran, Common, Infernal
 
 **SQ** fast movement, hidden weapons, high jump, _ki_ pool (8 points, magic), maneuver training, poison use, slow fall 40 ft., wholeness of body
 
-**Combat Gear** _potion of [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _potion of [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_; **Other Gear** _+1 human-bane shuriken_ (5)_,_ _+1 shuriken _(20), adamantine shuriken (10), cold iron shuriken (10), masterwork quarterstaff, _ [belt of physical might](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-physical-might) +2 _(Str, Dex), _ [bracers of armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor) +2_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, _ [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) [amulet of mighty fists](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-mighty-fists)_, 235 gp
+**Combat Gear** _potion of [barkskin](spells/barkskin.md#_barkskin)_, _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _potion of [haste](spells/haste.md#_haste)_; **Other Gear** _+1 human-bane shuriken_ (5)_,_ _+1 shuriken _(20), adamantine shuriken (10), cold iron shuriken (10), masterwork quarterstaff, _ [belt of physical might](magicItems/wondrousItems.md#_belt-of-physical-might) +2 _(Str, Dex), _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, _ [shock](magicItems/weapons.md#_weapons-shock) [amulet of mighty fists](magicItems/wondrousItems.md#_amulet-of-mighty-fists)_, 235 gp
 
 These monks deal swift and dispassionate death to those who threaten or cross their monastery.
 
@@ -172,7 +172,7 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** _+2 scythe _+25/+20/+15 (2d4+15/19â20/Ã4 plus poison)
+**Melee** _+2 scythe _+25/+20/+15 (2d4+15/19–20/×4 plus poison)
 
 **Special Attacks** death attack (DC 19), quiet death, sneak attack +4d6, true death (DC 22), weapon training (heavy blades +1), wild shape 1/day
 
@@ -182,21 +182,21 @@ Offense
 
 **Druid Spells Prepared** (CL 4th; concentration +6)
 
-2nd—_ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_D, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (DC 14), _ [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_, _ [tree shape](/pathfinderRPG/prd/spells/treeShape.html#_tree-shape)_
+2nd—_ [barkskin](spells/barkskin.md#_barkskin)_D, _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (DC 14), _ [spider climb](spells/spiderClimb.md#_spider-climb)_, _ [tree shape](spells/treeShape.md#_tree-shape)_
 
-1st—_ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_D (DC 13), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ (2), _ [longstrider](/pathfinderRPG/prd/spells/longstrider.html#_longstrider)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_
+1st—_ [entangle](spells/entangle.md#_entangle)_D (DC 13), _ [faerie fire](spells/faerieFire.md#_faerie-fire)_ (2), _ [longstrider](spells/longstrider.md#_longstrider)_, _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_
 
-0 (at will)—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_
+0 (at will)—_ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [guidance](spells/guidance.md#_guidance)_, _ [light](spells/light.md#_light)_, _ [know direction](spells/knowDirection.md#_know-direction)_
 
 **Domain** Plant
 
 Tactics
 
-**Before Combat** The assassin casts _ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ and _ [longstrider](/pathfinderRPG/prd/spells/longstrider.html#_longstrider)_. He applies poison to his scythe, and wild shapes into an eagle or dire rat.
+**Before Combat** The assassin casts _ [barkskin](spells/barkskin.md#_barkskin)_ and _ [longstrider](spells/longstrider.md#_longstrider)_. He applies poison to his scythe, and wild shapes into an eagle or dire rat.
 
-**During Combat** In animal form, the assassin studies an enemy spellcaster for 3 rounds before casting _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_ to sow chaos among his foes. He then takes his real form to make a death attack against his target. In melee, he trips his foes.
+**During Combat** In animal form, the assassin studies an enemy spellcaster for 3 rounds before casting _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_ to sow chaos among his foes. He then takes his real form to make a death attack against his target. In melee, he trips his foes.
 
-**Base Statistics** Without _ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_ and _ [longstrider](/pathfinderRPG/prd/spells/longstrider.html#_longstrider)_, the assassin's statistics are **AC** 24, touch 12, flat-footed 24; **Speed** 20 ft.
+**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_ and _ [longstrider](spells/longstrider.md#_longstrider)_, the assassin's statistics are **AC** 24, touch 12, flat-footed 24; **Speed** 20 ft.
 
 Statistics
 
@@ -204,15 +204,15 @@ Statistics
 
 **Base Atk** +14; **CMB** +21 (+25 trip); **CMD** 33 (35 vs. trip)
 
-**Feats** [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), [Disruptive](/pathfinderRPG/prd/feats.html#_disruptive), Greater Trip, [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (scythe), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), Improved Trip, Improved [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Natural Spell](/pathfinderRPG/prd/feats.html#_natural-spell), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (scythe), Weapon Specialization (scythe)
+**Feats** [Combat Expertise](feats.md#_combat-expertise), [Critical Focus](feats.md#_critical-focus), [Disruptive](feats.md#_disruptive), Greater Trip, [Improved Critical](feats.md#_improved-critical) (scythe), [Improved Initiative](feats.md#_improved-initiative), Improved Trip, Improved [Vital Strike](feats.md#_vital-strike), [Natural Spell](feats.md#_natural-spell), [Power Attack](feats.md#_power-attack), [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth)), [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (scythe), Weapon Specialization (scythe)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +13, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +1, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +3, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography) +10, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local, religion) +7, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) +12, Perception +24, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +19, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +21, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +12, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +13
+**Skills** [Climb](skills/climb.md#_climb) +13, [Disguise](skills/disguise.md#_disguise) +1, [Fly](skills/fly.md#_fly) +3, [Knowledge](skills/knowledge.md#_knowledge) (geography) +10, [Knowledge](skills/knowledge.md#_knowledge) (local, religion) +7, [Knowledge](skills/knowledge.md#_knowledge) (nature) +12, Perception +24, [Sense Motive](skills/senseMotive.md#_sense-motive) +19, [Stealth](skills/stealth.md#_stealth) +21, [Survival](skills/survival.md#_survival) +12, [Swim](skills/swim.md#_swim) +13
 
 **Languages** Common, Elven, Goblin, Sylvan
 
 **SQ** armor training 1, elf blood, hidden weapons, nature bond (Plant domain), nature sense, poison use, trackless step, wild empathy +3, woodland stride
 
-**Combat Gear** _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, deathblade poison, purple worm poison (3); **Other Gear** _+3 [glamered](/pathfinderRPG/prd/magicItems/armor.html#_armor-glamered) darkwood full plate_, _+2 scythe_, _ [belt of physical might](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-physical-might) +4_ (Str, Con), _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +2_, 402 gp
+**Combat Gear** _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, deathblade poison, purple worm poison (3); **Other Gear** _+3 [glamered](magicItems/armor.md#_armor-glamered) darkwood full plate_, _+2 scythe_, _ [belt of physical might](magicItems/wondrousItems.md#_belt-of-physical-might) +4_ (Str, Con), _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, 402 gp
 
 Many of these murderers serve as assassins for dark druid circles or dominate savage humanoid tribes.
 
@@ -250,17 +250,17 @@ Offense
 
 **Speed** 25 ft.
 
-**Melee** _+1 [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming) [frost](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost) [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) handaxe_ +20/+15/+10 (1d6+5/19â20/Ã3 plus 1d6 cold and 1d6 electricity and 1d6 fire)
+**Melee** _+1 [flaming](magicItems/weapons.md#_weapons-flaming) [frost](magicItems/weapons.md#_weapons-frost) [shock](magicItems/weapons.md#_weapons-shock) handaxe_ +20/+15/+10 (1d6+5/19–20/×3 plus 1d6 cold and 1d6 electricity and 1d6 fire)
 
-**Ranged** _+1 [returning](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning) [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) [throwing](/pathfinderRPG/prd/magicItems/weapons.html#_throwing) axe_ +15 (1d6+5/Ã3 plus 1d6 electricity)
+**Ranged** _+1 [returning](magicItems/weapons.md#_weapons-returning) [shock](magicItems/weapons.md#_weapons-shock) [throwing](magicItems/weapons.md#_throwing) axe_ +15 (1d6+5/×3 plus 1d6 electricity)
 
 **Special Attacks** +1 on attack rolls against goblinoid and orc humanoids, angel of death 1/day, death attack (DC 26), quiet death, sneak attack +10d6, swift death 1/day, true death (DC 25)
 
 Tactics
 
-**Before Combat** The assassin uses [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) or [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) to get close to her prey so she can study and strike with her death attack.
+**Before Combat** The assassin uses [Stealth](skills/stealth.md#_stealth) or [Disguise](skills/disguise.md#_disguise) to get close to her prey so she can study and strike with her death attack.
 
-**During Combat** Using her fast stealth and _ [boots of speed](/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed)_ to rush into the fray, the assassin attacks the most threatening target using bleeding strike. Next, she moves out of melee to soften foes with throwing axe attacks before reentering melee.
+**During Combat** Using her fast stealth and _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)_ to rush into the fray, the assassin attacks the most threatening target using bleeding strike. Next, she moves out of melee to soften foes with throwing axe attacks before reentering melee.
 
 Statistics
 
@@ -268,15 +268,15 @@ Statistics
 
 **Base Atk** +14; **CMB** +18; **CMD** 31 (35 vs. bull rush or trip)
 
-**Feats** Cleave, [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), [Fleet](/pathfinderRPG/prd/feats.html#_fleet), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (handaxe), Improved Feint, Improved [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), Improved [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (handaxe)
+**Feats** Cleave, [Combat Expertise](feats.md#_combat-expertise), [Fleet](feats.md#_fleet), [Improved Critical](feats.md#_improved-critical) (handaxe), Improved Feint, Improved [Iron Will](feats.md#_iron-will), Improved [Vital Strike](feats.md#_vital-strike), [Iron Will](feats.md#_iron-will), [Point-Blank Shot](feats.md#_point-blank-shot), [Power Attack](feats.md#_power-attack), [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (handaxe)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +12, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +21, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +16, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +6, [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) +12, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +11, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +7, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (dungeoneering) +14, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (engineering, geography, history, nature, nobility, religion) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +19, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +14, Perception +25 (+27 to notice unusual stonework), [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +25, [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) +22, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +22, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +12, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +16, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +21
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +12, [Bluff](skills/bluff.md#_bluff) +21, [Climb](skills/climb.md#_climb) +16, [Diplomacy](skills/diplomacy.md#_diplomacy) +6, [Disable Device](skills/disableDevice.md#_disable-device) +12, [Disguise](skills/disguise.md#_disguise) +11, [Heal](skills/heal.md#_heal) +7, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering) +14, [Knowledge](skills/knowledge.md#_knowledge) (engineering, geography, history, nature, nobility, religion) +11, [Knowledge](skills/knowledge.md#_knowledge) (local) +19, [Linguistics](skills/linguistics.md#_linguistics) +14, Perception +25 (+27 to notice unusual stonework), [Sense Motive](skills/senseMotive.md#_sense-motive) +25, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +22, [Stealth](skills/stealth.md#_stealth) +22, [Survival](skills/survival.md#_survival) +12, [Swim](skills/swim.md#_swim) +16, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +21
 
 **Languages** Abyssal, Aklo, Celestial, Common, Draconic, Dwarven, Elven, Gnome, Goblin, Ignan, Infernal, Orc, Terran
 
 **SQ** hidden weapons, hide in plain sight, poison use, rogue talents (bleeding attack +10, combat trick, crippling strike, fast stealth, weapon training), trapfinding +5
 
-**Gear** _+5 chain shirt_, _+1 [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming) [frost](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost) [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) handaxe_, _+1 [returning](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning) [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) handaxe_, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +2_, _ [belt of physical might](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-physical-might) +4 _(Str, Con), _ [boots of speed](/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed)_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +2, dusty rose prism [ioun stone](/pathfinderRPG/prd/magicItems/wondrousItems.html#_ioun-stones)_, _ [headband of vast intelligence](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-vast-intelligence) +2_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +2_, 2,138 gp
+**Gear** _+5 chain shirt_, _+1 [flaming](magicItems/weapons.md#_weapons-flaming) [frost](magicItems/weapons.md#_weapons-frost) [shock](magicItems/weapons.md#_weapons-shock) handaxe_, _+1 [returning](magicItems/weapons.md#_weapons-returning) [shock](magicItems/weapons.md#_weapons-shock) handaxe_, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +2_, _ [belt of physical might](magicItems/wondrousItems.md#_belt-of-physical-might) +4 _(Str, Con), _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2, dusty rose prism [ioun stone](magicItems/wondrousItems.md#_ioun-stones)_, _ [headband of vast intelligence](magicItems/wondrousItems.md#_headband-of-vast-intelligence) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, 2,138 gp
 
 Surprisingly quick and nimble for dwarves, fatal axes mix melee prowess with devastating throwing axe strikes to bring down their foes.
 

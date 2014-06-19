@@ -91,19 +91,19 @@ Aegis of Recovery
 
 **Price** 1,500 gp; **Aura** faint abjuration and conjuration; **CL** 3rd; **Weight** —
 
-An _aegis of recovery_ grants its wearer a +2 resistance bonus on all saving throws made to recover from a continuing effect, such as ongoing poison damage, daily saving throws against a disease, a _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ spell, or lingering damage from an attack. This bonus does not help against initial saving throws against such effects. Should the wearer ever drop below 0 hit points, the aegis heals the wearer for 2d8+3 points of damage and then crumbles to dust.
+An _aegis of recovery_ grants its wearer a +2 resistance bonus on all saving throws made to recover from a continuing effect, such as ongoing poison damage, daily saving throws against a disease, a _ [hold person](spells/holdPerson.md#_hold-person)_ spell, or lingering damage from an attack. This bonus does not help against initial saving throws against such effects. Should the wearer ever drop below 0 hit points, the aegis heals the wearer for 2d8+3 points of damage and then crumbles to dust.
 
 Construction Requirements
 
 **Cost** 750 gp
 
-Craft Wondrous Item, _ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, _ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_
+Craft Wondrous Item, _ [barkskin](spells/barkskin.md#_barkskin)_, _ [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_
 
 Ampoule of False Blood
 
 **Price** 20,000 gp; **Aura** strong transmutation; **CL** 15th; **Weight** —
 
-This necklace consists of a fine gold chain from which hangs a small sealed crystal vial containing preserved liquid blood. Each ampoule is attuned to a specific sorcerer bloodline. If a sorcerer (or other creature with sorcerer bloodline powers, such as from the [Eldritch Heritage](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_eldritch-heritage) feat) wears the ampoule for at least one day, she loses her existing bloodline powers and gains the bloodline powers of the ampoule's bloodline, using her sorcerer level to determine the powers gained. The ampoule has no effect on the sorcerer's bonus spells, bloodline arcana, or bonus feats from her original bloodline (which remain unchanged).
+This necklace consists of a fine gold chain from which hangs a small sealed crystal vial containing preserved liquid blood. Each ampoule is attuned to a specific sorcerer bloodline. If a sorcerer (or other creature with sorcerer bloodline powers, such as from the [Eldritch Heritage](ultimateMagic/ultimateMagicFeats.md#_eldritch-heritage) feat) wears the ampoule for at least one day, she loses her existing bloodline powers and gains the bloodline powers of the ampoule's bloodline, using her sorcerer level to determine the powers gained. The ampoule has no effect on the sorcerer's bonus spells, bloodline arcana, or bonus feats from her original bloodline (which remain unchanged).
 
 The sorcerer can only use these bloodline powers as long as she wears the necklace. Removing the necklace leaves the sorcerer unable to access any bloodline power, either her own or those of the ampoule, until one hour has passed.
 
@@ -113,7 +113,7 @@ Construction Requirements
 
 **Cost** 10,000 gp
 
-Craft Wondrous item, _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish), [polymorph](/pathfinderRPG/prd/spells/polymorph.html#_polymorph), _creator must be a sorcerer of the appropriate bloodline
+Craft Wondrous item, _ [limited wish](spells/limitedWish.md#_limited-wish), [polymorph](spells/polymorph.md#_polymorph), _creator must be a sorcerer of the appropriate bloodline
 
 Amulet of Bullet Protection
 
@@ -127,7 +127,7 @@ Construction Requirements
 
 **+1 luck bonus** 750 gp; **+2 luck bonus** 3,000 gp; **+3 luck bonus** 6,750 gp; **+4 luck bonus** 12,000 gp; **+5 luck bonus** 18,750 gp
 
-Craft Wondrous Item, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, creator's caster level must be at least three times the amulet's bonus
+Craft Wondrous Item, _ [divine favor](spells/divineFavor.md#_divine-favor)_, creator's caster level must be at least three times the amulet's bonus
 
 Amulet of Elemental Strife
 
@@ -141,7 +141,7 @@ Construction Requirements
 
 **Cost** 2,000 gp
 
-Craft Wondrous Item, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, creator must be at least 8th level
+Craft Wondrous Item, _ [resist energy](spells/resistEnergy.md#_resist-energy)_, creator must be at least 8th level
 
 Amulet of Hidden Strength
 
@@ -159,13 +159,13 @@ Amulet of Magecraft
 
 **Price** 20,000 gp; **Aura** moderate universal; **CL** 9th; **Weight** 2 lbs.
 
-A universalist wizard who selects the amulet as his bonded object may choose one school of spells each day when he prepares spells. He then can use the necklace to spontaneously convert any prepared wizard spell of that school into any other wizard spell of that school he knows—though the desired spell must be of the same level or lower than the prepared spell. For example, if the wizard chooses evocation when he prepares his spells that morning, until the next time he prepares spells, he can spontaneously convert a prepared _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ into any other evocation wizard spell of 3rd level or lower that he knows.
+A universalist wizard who selects the amulet as his bonded object may choose one school of spells each day when he prepares spells. He then can use the necklace to spontaneously convert any prepared wizard spell of that school into any other wizard spell of that school he knows—though the desired spell must be of the same level or lower than the prepared spell. For example, if the wizard chooses evocation when he prepares his spells that morning, until the next time he prepares spells, he can spontaneously convert a prepared _ [fireball](spells/fireball.md#_fireball)_ into any other evocation wizard spell of 3rd level or lower that he knows.
 
 Construction Requirements
 
 **Cost** 10,000 gp
 
-Craft Wondrous Item, _ [permanency](/pathfinderRPG/prd/spells/permanency.html#_permanency)_, creator must be a universalist
+Craft Wondrous Item, _ [permanency](spells/permanency.md#_permanency)_, creator must be a universalist
 
 Amulet of Mighty Fists
 
@@ -181,7 +181,7 @@ Construction Requirements
 
 **+1 bonus** 2,500 gp; **+2 bonus** 10,000 gp; **+3 bonus** 22,500 gp; **+4 bonus** 40,000 gp; **+5 bonus** 62,500 gp
 
-Craft Wondrous Item, _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_, creator's caster level must be at least three times the amulet's bonus, plus any requirements of the melee weapon special abilities
+Craft Wondrous Item, _ [greater magic fang](spells/magicFang.md#_magic-fang-greater)_, creator's caster level must be at least three times the amulet's bonus, plus any requirements of the melee weapon special abilities
 
 Amulet of Natural Armor
 
@@ -195,19 +195,19 @@ Construction Requirements
 
 **+1 bonus** 1,000 gp; **+2 bonus** 4,000 gp; **+3 bonus** 9,000 gp; **+4 bonus** 16,000 gp; **+5 bonus** 25,000 gp
 
-Craft Wondrous Item, _ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, creator's caster level must be at least three times the amulet's bonus
+Craft Wondrous Item, _ [barkskin](spells/barkskin.md#_barkskin)_, creator's caster level must be at least three times the amulet's bonus
 
 Amulet of Proof against Detection and Location
 
 **Price** 35,000 gp; **Aura** moderate abjuration; **CL** 8th; **Weight** —
 
-This silver amulet protects the wearer from scrying and magical location just as a _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_ spell does. If a divination spell is attempted against the wearer, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 19 (as if the wearer had cast _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_ on herself).
+This silver amulet protects the wearer from scrying and magical location just as a _ [nondetection](spells/nondetection.md#_nondetection)_ spell does. If a divination spell is attempted against the wearer, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 19 (as if the wearer had cast _ [nondetection](spells/nondetection.md#_nondetection)_ on herself).
 
 Construction Requirements
 
 **Cost** 17,500 gp
 
-Craft Wondrous Item, _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_
+Craft Wondrous Item, _ [nondetection](spells/nondetection.md#_nondetection)_
 
 Amulet of Proof Against Petrification
 
@@ -219,7 +219,7 @@ Construction Requirements
 
 **Cost** 4,000 gp
 
-Craft Wondrous Item, _ [stone to flesh](/pathfinderRPG/prd/spells/stoneToFlesh.html#_stone-to-flesh)_
+Craft Wondrous Item, _ [stone to flesh](spells/stoneToFlesh.md#_stone-to-flesh)_
 
 Amulet of Spell Cunning
 
@@ -231,7 +231,7 @@ Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item, _ [mnemonic enhancer](/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer)_
+Craft Wondrous Item, _ [mnemonic enhancer](spells/mnemonicEnhancer.md#_mnemonic-enhancer)_
 
 Amulet of Spell Mastery
 
@@ -243,31 +243,31 @@ Construction Requirements
 
 **Cost** 11,000 gp
 
-Craft Wondrous Items, _ [mnemonic enhancer](/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer)_
+Craft Wondrous Items, _ [mnemonic enhancer](spells/mnemonicEnhancer.md#_mnemonic-enhancer)_
 
 Amulet of the Planes
 
 **Price** 120,000 gp; **Aura** strong conjuration; **CL** 15th; **Weight** —
 
-This device usually appears to be a black circular amulet, although any character looking closely at it sees a dark, moving swirl of color. The amulet allows its wearer to utilize the spell _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_. However, this is a difficult item to master. The user must make a DC 15 Intelligence check in order to get the amulet to take her to the plane (and the specific location on that plane) that she desires. If she fails, the amulet transports her and all those traveling with her to a random location on that plane (01–60 on d%) or to a random plane (61–100).
+This device usually appears to be a black circular amulet, although any character looking closely at it sees a dark, moving swirl of color. The amulet allows its wearer to utilize the spell _ [plane shift](spells/planeShift.md#_plane-shift)_. However, this is a difficult item to master. The user must make a DC 15 Intelligence check in order to get the amulet to take her to the plane (and the specific location on that plane) that she desires. If she fails, the amulet transports her and all those traveling with her to a random location on that plane (01–60 on d%) or to a random plane (61–100).
 
 Construction Requirements
 
 **Cost** 60,000 gp
 
-Craft Wondrous Item, _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_
+Craft Wondrous Item, _ [plane shift](spells/planeShift.md#_plane-shift)_
 
 Brooch of Amber Sparks
 
 **Price** 16,800 gp; **Aura** faint abjuration and evocation; **CL** 5th; **Weight** 1 lb.
 
-This copper clasp adorned with a piece of amber is used to fasten a cloak or cape. When its wearer takes electricity damage, this brooch absorbs up to 20 points of electrical damage and holds that electrical charged until it is released by its wielder or harmlessly at the end of 10 minutes, whichever occurs first. The brooch can absorb up to 50 points of electricity damage per day. The wielder can release the charge on command, unleashing any electricity in the brooch as if casting a _ [shocking grasp](/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp)_ spell (dealing 1d6 points of electricity damage per 5 points of damage held).
+This copper clasp adorned with a piece of amber is used to fasten a cloak or cape. When its wearer takes electricity damage, this brooch absorbs up to 20 points of electrical damage and holds that electrical charged until it is released by its wielder or harmlessly at the end of 10 minutes, whichever occurs first. The brooch can absorb up to 50 points of electricity damage per day. The wielder can release the charge on command, unleashing any electricity in the brooch as if casting a _ [shocking grasp](spells/shockingGrasp.md#_shocking-grasp)_ spell (dealing 1d6 points of electricity damage per 5 points of damage held).
 
 Construction Requirements
 
 **Cost** 8,400 gp
 
-Craft Wondrous Item, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, _ [shocking grasp](/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp)_
+Craft Wondrous Item, _ [resist energy](spells/resistEnergy.md#_resist-energy)_, _ [shocking grasp](spells/shockingGrasp.md#_shocking-grasp)_
 
 Brooch of Shielding
 
@@ -279,7 +279,7 @@ Construction Requirements
 
 **Cost** 750 gp
 
-Craft Wondrous Item, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_
+Craft Wondrous Item, _ [shield](spells/shield.md#_shield)_
 
 Carcanet of Detention
 
@@ -291,7 +291,7 @@ Construction Requirements
 
 **Cost** 3,600 gp
 
-Craft Wondrous Item, _ [animate rope](/pathfinderRPG/prd/spells/animateRope.html#_animate-rope)_
+Craft Wondrous Item, _ [animate rope](spells/animateRope.md#_animate-rope)_
 
 Collar of the True Companion
 
@@ -299,7 +299,7 @@ Collar of the True Companion
 
 Although it appears to be a simple thong of leather, this collar was initially conceived by druids who believed that there were animals who possessed spirits worthy of elevation to true sentience. If worn by a creature of the animal type with an Intelligence less than 3, a _collar of the true companion_ grants a +2 enhancement bonus to Intelligence. This does not give the animal the ability to speak, but it does allow it to understand one spoken language (chosen by the item's creator).
 
-If the collar is worn for at least 1 week by a creature of the animal type, the creature is raised to humanlike sentience, as though by the _ [awaken](/pathfinderRPG/prd/spells/awaken.html#_awaken) _spell. Once this occurs, the collar loses its magical properties.
+If the collar is worn for at least 1 week by a creature of the animal type, the creature is raised to humanlike sentience, as though by the _ [awaken](spells/awaken.md#_awaken) _spell. Once this occurs, the collar loses its magical properties.
 
 If a _collar of the true companion_ is worn for more than 1 week by a creature not of the animal type, the wearer is _feebleminded_ until the collar is removed.
 
@@ -307,7 +307,7 @@ Construction Requirements
 
 **Cost** 6,000 gp
 
-Craft Wondrous Item, _ [awaken](/pathfinderRPG/prd/spells/awaken.html#_awaken)_, _ [fox's cunning](/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning)_
+Craft Wondrous Item, _ [awaken](spells/awaken.md#_awaken)_, _ [fox's cunning](spells/foxSCunning.md#_fox-s-cunning)_
 
 Crystal of Healing Hands
 
@@ -319,7 +319,7 @@ Construction Requirements
 
 **Cost** 6,000 gp
 
-Craft Wondrous Item, _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, creator must be a paladin
+Craft Wondrous Item, _ [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, creator must be a paladin
 
 Dragonfoe Amulet
 
@@ -333,7 +333,7 @@ Construction Requirements
 
 **Cost** 10,000 gp
 
-Craft Wondrous Item, [Spell Penetration](/pathfinderRPG/prd/feats.html#_spell-penetration), _ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon), [jump](/pathfinderRPG/prd/spells/jump.html#_jump)_
+Craft Wondrous Item, [Spell Penetration](feats.md#_spell-penetration), _ [magic weapon](spells/magicWeapon.md#_magic-weapon), [jump](spells/jump.md#_jump)_
 
 Everwake Amulet
 
@@ -345,13 +345,13 @@ Construction Requirements
 
 **Cost** 4,000 gp
 
-Craft Wondrous Item, _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_
+Craft Wondrous Item, _ [lesser restoration](spells/restoration.md#_restoration-lesser)_
 
 Feychild Necklace
 
 **Price** 6,000 gp; **Aura** moderate divination; **CL** 8th; **Weight** 1/2 lb.
 
-This necklace is set with a bloodstone sculpted to look like a scintillating green eye. It gives the wearer a +4 competence bonus on Charisma checks and Charisma-based checks made to interact with gnomes, a +2 competence bonus on similar checks when dealing with beings of the fey creature type, and a –2 penalty on similar checks when interacting with anyone else. The wearer can read, speak, and understand the Gnome language. If the wearer is not a gnome, she gains low-light vision, and may cast _ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights), [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound), [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_, and _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_ each once per day as a spell-like ability.
+This necklace is set with a bloodstone sculpted to look like a scintillating green eye. It gives the wearer a +4 competence bonus on Charisma checks and Charisma-based checks made to interact with gnomes, a +2 competence bonus on similar checks when dealing with beings of the fey creature type, and a –2 penalty on similar checks when interacting with anyone else. The wearer can read, speak, and understand the Gnome language. If the wearer is not a gnome, she gains low-light vision, and may cast _ [dancing lights](spells/dancingLights.md#_dancing-lights), [ghost sound](spells/ghostSound.md#_ghost-sound), [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, and _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_ each once per day as a spell-like ability.
 
 Construction Requirements
 
@@ -363,25 +363,25 @@ Forge Fist Amulet
 
 **Price** 13,000 gp; **Aura** faint evocation; **CL** 6th; **Weight** 1 lb.
 
-This fist-shaped stone amulet glows with a fiery light. On command, this amulet causes the wearer's fists to transform into red-hot flaming adamantine. The wearer is protected from the searing heat and can make savage blows with his hands. Unarmed strikes and natural attacks the wearer make with his hands gain the _ [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming)_ weapon special ability and are treated as adamantine for the purpose of bypassing damage reduction (but not hardness). The wearer's hands become rigid while using this amulet and cannot be use to hold or manipulate objects (unless that manipulation could be accomplished with a club and is not damaged by fire). The transformation can be ended as a swift action.
+This fist-shaped stone amulet glows with a fiery light. On command, this amulet causes the wearer's fists to transform into red-hot flaming adamantine. The wearer is protected from the searing heat and can make savage blows with his hands. Unarmed strikes and natural attacks the wearer make with his hands gain the _ [flaming](magicItems/weapons.md#_weapons-flaming)_ weapon special ability and are treated as adamantine for the purpose of bypassing damage reduction (but not hardness). The wearer's hands become rigid while using this amulet and cannot be use to hold or manipulate objects (unless that manipulation could be accomplished with a club and is not damaged by fire). The transformation can be ended as a swift action.
 
 Construction Requirements
 
 **Cost** 6,500 gp
 
-Craft Wondrous Item; _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_; and _ [flame blade](/pathfinderRPG/prd/spells/flameBlade.html#_flame-blade)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_, or _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_
+Craft Wondrous Item; _ [greater magic fang](spells/magicFang.md#_magic-fang-greater)_; and _ [flame blade](spells/flameBlade.md#_flame-blade)_, _ [flame strike](spells/flameStrike.md#_flame-strike)_, or _ [fireball](spells/fireball.md#_fireball)_
 
 Frost Fist Amulet
 
 **Price** 10,000 gp; **Aura** faint evocation; **CL** 5th; **Weight** 1 lb.
 
-Shaped like a fist, this iron amulet is surrounded by a frigid fog. On command, this amulet causes the wearer's hands to become encased in a layer of freezing iron. The wearer is protected from the frigid cold and can make savage blows with his hands. Unarmed strikes and natural attacks the wearer makes with hands gain the _ [frost](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost)_ weapon special ability and are treated as cold iron for the purpose of bypassing damage reduction. The wearer's hands become rigid while using this amulet and cannot be use to hold or manipulate objects (unless that manipulation could be accomplished with a club and is not damaged by cold). The transformation can be ended as a swift action.
+Shaped like a fist, this iron amulet is surrounded by a frigid fog. On command, this amulet causes the wearer's hands to become encased in a layer of freezing iron. The wearer is protected from the frigid cold and can make savage blows with his hands. Unarmed strikes and natural attacks the wearer makes with hands gain the _ [frost](magicItems/weapons.md#_weapons-frost)_ weapon special ability and are treated as cold iron for the purpose of bypassing damage reduction. The wearer's hands become rigid while using this amulet and cannot be use to hold or manipulate objects (unless that manipulation could be accomplished with a club and is not damaged by cold). The transformation can be ended as a swift action.
 
 Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item; _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_; and _ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_ or _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_
+Craft Wondrous Item; _ [greater magic fang](spells/magicFang.md#_magic-fang-greater)_; and _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_ or _ [ice storm](spells/iceStorm.md#_ice-storm)_
 
 Golembane Scarab
 
@@ -393,43 +393,43 @@ Construction Requirements
 
 **Cost** 1,250 gp
 
-Craft Wondrous Item, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, creator must be at least 10th level
+Craft Wondrous Item, _ [detect magic](spells/detectMagic.md#_detect-magic)_, creator must be at least 10th level
 
 Gravewatch Pendant
 
 **Price** 8,000 gp; **Aura** faint abjuration; **CL** 3rd; **Weight** 1 lb.
 
-Favored by the grave-wardens of sites known to be infested with the spirits of the dead, this pendant is an iron ring strung on a necklace made from polished and discolored bones, nails, and teeth. A faint blue light limns the wearer, protecting him from attack. Undead creatures are repulsed by this light and take a –2 penalty on all attack rolls against the wearer of a _gravewatch pendant_. Incorporeal undead creatures are further repulsed and instead take a –4 penalty on all attack rolls against the wearer. Undead creatures can sense this light easily, however, and receive a +4 circumstance bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks to detect a creature wearing this pendant.
+Favored by the grave-wardens of sites known to be infested with the spirits of the dead, this pendant is an iron ring strung on a necklace made from polished and discolored bones, nails, and teeth. A faint blue light limns the wearer, protecting him from attack. Undead creatures are repulsed by this light and take a –2 penalty on all attack rolls against the wearer of a _gravewatch pendant_. Incorporeal undead creatures are further repulsed and instead take a –4 penalty on all attack rolls against the wearer. Undead creatures can sense this light easily, however, and receive a +4 circumstance bonus on [Perception](skills/perception.md#_perception) checks to detect a creature wearing this pendant.
 
 Construction Requirements
 
 **Cost** 4,000 gp
 
-Craft Wondrous Item, _ [protection from evil](/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil)_
+Craft Wondrous Item, _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_
 
 Guardian Gorget
 
 **Price** 12,000 gp; **Aura** strong abjuration and conjuration; **CL** 13th; **Weight** 1 lb.
 
-This flanged collar of mithral and steel protects the wearer's neck and shoulders. It provides a +2 armor bonus to AC (this does not stack with other armor bonuses) and grants the _ [light](/pathfinderRPG/prd/spells/light.html#_light) [fortification](/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification)_ property to the wearer. In addition, the wearer may engrave a _ [glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding)_ directly onto the _guardian gorget_. When the wearer is struck in melee, she can trigger the glyph as an immediate action, causing the glyph to discharge against the creature making the attack (and other creatures within 5 feet, if a blast glyph was placed, though the wearer is not harmed by the glyphâs effects). The glyph can be triggered even if the attack would normally leave the wearer incapable of taking actions (such as killed, stunned, dazed, or knocked unconscious).
+This flanged collar of mithral and steel protects the wearer's neck and shoulders. It provides a +2 armor bonus to AC (this does not stack with other armor bonuses) and grants the _ [light](spells/light.md#_light) [fortification](magicItems/armor.md#_armor-fortification)_ property to the wearer. In addition, the wearer may engrave a _ [glyph of warding](spells/glyphOfWarding.md#_glyph-of-warding)_ directly onto the _guardian gorget_. When the wearer is struck in melee, she can trigger the glyph as an immediate action, causing the glyph to discharge against the creature making the attack (and other creatures within 5 feet, if a blast glyph was placed, though the wearer is not harmed by the glyph‘s effects). The glyph can be triggered even if the attack would normally leave the wearer incapable of taking actions (such as killed, stunned, dazed, or knocked unconscious).
 
 Construction Requirements
 
 **Cost** 6,000 gp
 
-Craft Wondrous Item, _ [glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding), [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish) _or_ [miracle](/pathfinderRPG/prd/spells/miracle.html#_miracle), [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor) _or _ [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_
+Craft Wondrous Item, _ [glyph of warding](spells/glyphOfWarding.md#_glyph-of-warding), [limited wish](spells/limitedWish.md#_limited-wish) _or_ [miracle](spells/miracle.md#_miracle), [mage armor](spells/mageArmor.md#_mage-armor) _or _ [magic vestment](spells/magicVestment.md#_magic-vestment)_
 
 Hand of Glory
 
 **Price** 8,000 gp; **Aura** faint varied; **CL** 5th; **Weight** 2 lbs.
 
-This mummified human hand hangs around a character's neck by a leather cord (taking up space as a magic necklace would). If a magic ring is placed on one of the fingers of the hand, the wearer benefits from the ring as if wearing it herself, and it does not count against her two-ring limit. The hand can wear only one ring at a time. Even without a ring, the hand itself allows its wearer to use _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_ and _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_ each once per day.
+This mummified human hand hangs around a character's neck by a leather cord (taking up space as a magic necklace would). If a magic ring is placed on one of the fingers of the hand, the wearer benefits from the ring as if wearing it herself, and it does not count against her two-ring limit. The hand can wear only one ring at a time. Even without a ring, the hand itself allows its wearer to use _ [daylight](spells/daylight.md#_daylight)_ and _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_ each once per day.
 
 Construction Requirements
 
 **Cost** 4,000 gp
 
-Craft Wondrous Item, _ [animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_, _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
+Craft Wondrous Item, _ [animate dead](spells/animateDead.md#_animate-dead)_, _ [daylight](spells/daylight.md#_daylight)_, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_
 
 Hand of Stone
 
@@ -447,25 +447,25 @@ Hand of the Mage
 
 **Price** 900 gp; **Aura** faint transmutation; **CL** 2nd; **Weight** 2 lbs.
 
-This mummified elf hand hangs by a golden chain around a character's neck (taking up space as a magic necklace would). It allows the wearer to utilize the spell _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_ at will.
+This mummified elf hand hangs by a golden chain around a character's neck (taking up space as a magic necklace would). It allows the wearer to utilize the spell _ [mage hand](spells/mageHand.md#_mage-hand)_ at will.
 
 Construction Requirements
 
 **Cost** 450 gp
 
-Craft Wondrous Item, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_
+Craft Wondrous Item, _ [mage hand](spells/mageHand.md#_mage-hand)_
 
 Medallion of Thoughts
 
 **Price** 12,000 gp; **Aura** faint divination; **CL** 5th; **Weight** —
 
-This appears to be a normal pendant disk hung from a neck chain. Usually fashioned from bronze, copper, or silver, the medallion allows the wearer to read the thoughts of others, as with the spell _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_.
+This appears to be a normal pendant disk hung from a neck chain. Usually fashioned from bronze, copper, or silver, the medallion allows the wearer to read the thoughts of others, as with the spell _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_.
 
 Construction Requirements
 
 **Cost** 6,000 gp
 
-Craft Wondrous Item, _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_
+Craft Wondrous Item, _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_
 
 Mind Sentinel Medallion
 
@@ -477,19 +477,19 @@ Construction Requirements
 
 **Cost** 1,750 gp
 
-Craft Wondrous Item, _ [protection from evil](/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil)_
+Craft Wondrous Item, _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_
 
 Mummer's Ruff
 
 **Price** 3,500 gp; **Aura** faint illusion; **CL** 5th; **Weight** —
 
-Usually fashioned from brightly colored silk, a _mummer's ruff_ is a favored accoutrement of performers and con artists alike. The wearer of a _mummer's ruff_ gains a +10 bonus on [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) skill checks when attempting to imitate another's voice. In addition, once per day, the wearer of the _mummer's ruff_ can throw his voice as if using _ [ventriloquism](/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism) _for up to 5 minutes.
+Usually fashioned from brightly colored silk, a _mummer's ruff_ is a favored accoutrement of performers and con artists alike. The wearer of a _mummer's ruff_ gains a +10 bonus on [Bluff](skills/bluff.md#_bluff) skill checks when attempting to imitate another's voice. In addition, once per day, the wearer of the _mummer's ruff_ can throw his voice as if using _ [ventriloquism](spells/ventriloquism.md#_ventriloquism) _for up to 5 minutes.
 
 Construction Requirements
 
 **Cost** 1,750 gp
 
-Craft Wondrous Item, _ [sculpt sound](/pathfinderRPG/prd/spells/sculptSound.html#_sculpt-sound), [ventriloquism](/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism)_
+Craft Wondrous Item, _ [sculpt sound](spells/sculptSound.md#_sculpt-sound), [ventriloquism](spells/ventriloquism.md#_ventriloquism)_
 
 Necklace of Adaptation
 
@@ -501,13 +501,13 @@ Construction Requirements
 
 **Cost** 4,500 gp
 
-Craft Wondrous Item, _ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_
+Craft Wondrous Item, _ [alter self](spells/alterSelf.md#_alter-self)_
 
 Necklace of Fireballs
 
 **Price** See Table; **Aura** moderate evocation; **CL** 10th; **Weight** 1 lb.
 
-This item appears to be a string or cluster of spherical beads, sometimes with the ends tied together to form a necklace. (It does not count as an item worn around the neck for the purpose of determining which of a character's worn magic items is effective.) If a character holds it, however, all can see the strand as it really is—a golden chain from which hang a number of golden spheres. The spheres are detachable by the wearer (and only by the wearer), who can easily hurl one of them up to 70 feet. When a sphere arrives at the end of its trajectory, it detonates as a _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ spell (Reflex DC 14 half).
+This item appears to be a string or cluster of spherical beads, sometimes with the ends tied together to form a necklace. (It does not count as an item worn around the neck for the purpose of determining which of a character's worn magic items is effective.) If a character holds it, however, all can see the strand as it really is—a golden chain from which hang a number of golden spheres. The spheres are detachable by the wearer (and only by the wearer), who can easily hurl one of them up to 70 feet. When a sphere arrives at the end of its trajectory, it detonates as a _ [fireball](spells/fireball.md#_fireball)_ spell (Reflex DC 14 half).
 
 Spheres come in different strengths, ranging from those that deal 2d6 points of fire damage to those that deal 10d6. The price of a sphere is 150 gp for each die of damage it deals.
 
@@ -529,7 +529,7 @@ Construction Requirements
 
 **Type I** 825 gp; **Type II** 1,350 gp; **Type III** 2,175 gp; **Type IV** 2,700 gp; **Type V** 2,925 gp; **Type VI** 4,050 gp; **Type VII** 4,350 gp
 
-Craft Wondrous Item, _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_
+Craft Wondrous Item, _ [fireball](spells/fireball.md#_fireball)_
 
 Necklace of Ki Serenity
 
@@ -541,21 +541,21 @@ Construction Requirements
 
 **Cost** 8,000 gp
 
-Craft Wondrous Item, _ [calm emotions](/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions)_, _ [owl's wisdom](/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom)_
+Craft Wondrous Item, _ [calm emotions](spells/calmEmotions.md#_calm-emotions)_, _ [owl's wisdom](spells/owlSWisdom.md#_owl-s-wisdom)_
 
 Necklace of Netted Stars
 
 **Price** 42,000 gp; **Aura** strong illusion and transmutation; **CL** 12th; **Weight** 1 lb.
 
-This marvelous mithral necklace forms a broad, draping lacework of threadlike chains set with a multitude of tiny jewels. Seven of these jewels are larger than the rest. While wearing a _necklace of netted stars_, the wearer can create _ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_ at will and _ [wandering star motes](/pathfinderRPG/prd/advanced/spells/wanderingStarMotes.html#_wandering-star-motes)_ once per day. In addition, each of the seven jewels of the necklace can recall a previously cast 1st-level or 0-level spell, as a _pearl of power_.
+This marvelous mithral necklace forms a broad, draping lacework of threadlike chains set with a multitude of tiny jewels. Seven of these jewels are larger than the rest. While wearing a _necklace of netted stars_, the wearer can create _ [dancing lights](spells/dancingLights.md#_dancing-lights)_ at will and _ [wandering star motes](advanced/spells/wanderingStarMotes.md#_wandering-star-motes)_ once per day. In addition, each of the seven jewels of the necklace can recall a previously cast 1st-level or 0-level spell, as a _pearl of power_.
 
-Once per day, the wearer may use the necklace to catch a spell targeted at him, as if readying an action to counterspell using _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, with a bonus on the check equal to 12 + the number of jewels not yet used to recall spells that day. If all jewels have been used, this ability cannot be used that day. The level of the spell to be countered must be less than or equal to the number of unused jewels. If the counterspell succeeds, the spell is negated and the wearer can use its magical energy to recall a previously cast spell of the same level or lower as an immediate action. Whether or not the attempt succeeds, this action exhausts the power of all of the necklace's jewels for that day.
+Once per day, the wearer may use the necklace to catch a spell targeted at him, as if readying an action to counterspell using _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, with a bonus on the check equal to 12 + the number of jewels not yet used to recall spells that day. If all jewels have been used, this ability cannot be used that day. The level of the spell to be countered must be less than or equal to the number of unused jewels. If the counterspell succeeds, the spell is negated and the wearer can use its magical energy to recall a previously cast spell of the same level or lower as an immediate action. Whether or not the attempt succeeds, this action exhausts the power of all of the necklace's jewels for that day.
 
 Construction Requirements
 
 **Cost** 21,000 gp
 
-Craft Wondrous Item, _ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights), [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic), [wandering star motes](/pathfinderRPG/prd/advanced/spells/wanderingStarMotes.html#_wandering-star-motes), _creator must be able to cast 7th-level spells
+Craft Wondrous Item, _ [dancing lights](spells/dancingLights.md#_dancing-lights), [dispel magic](spells/dispelMagic.md#_dispel-magic), [wandering star motes](advanced/spells/wanderingStarMotes.md#_wandering-star-motes), _creator must be able to cast 7th-level spells
 
 Periapt of Health
 
@@ -567,7 +567,7 @@ Construction Requirements
 
 **Cost** 3,750 gp
 
-Craft Wondrous Item, _ [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease)_
+Craft Wondrous Item, _ [remove disease](spells/removeDisease.md#_remove-disease)_
 
 Periapt of Proof against Poison
 
@@ -579,19 +579,19 @@ Construction Requirements
 
 **Cost** 13,500 gp
 
-Craft Wondrous Item, _ [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_
+Craft Wondrous Item, _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_
 
 Periapt of Protection from Curses
 
 **Price** 12,000 gp; **Aura** faint abjuration; **CL** 5th; **Weight** —
 
-This amethyst stone strung on a coarse iron chain protects the wearer from curses. Three times per day, whenever the wearer rolls a saving throw against a curse (such as a witch's hex, or a _ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ spell), he may reroll the saving throw as an immediate action. The wearer must decide to use this ability before the results of the saving throw are revealed. He must take the second roll, even if it is worse.
+This amethyst stone strung on a coarse iron chain protects the wearer from curses. Three times per day, whenever the wearer rolls a saving throw against a curse (such as a witch's hex, or a _ [bestow curse](spells/bestowCurse.md#_bestow-curse)_ spell), he may reroll the saving throw as an immediate action. The wearer must decide to use this ability before the results of the saving throw are revealed. He must take the second roll, even if it is worse.
 
 Construction Requirements
 
 **Cost** 6,000 gp
 
-Craft Wondrous Item, _ [remove curse](/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse)_
+Craft Wondrous Item, _ [remove curse](spells/removeCurse.md#_remove-curse)_
 
 Periapt of Wound Closure
 
@@ -603,19 +603,19 @@ Construction Requirements
 
 **Cost** 7,500 gp
 
-Craft Wondrous Item, _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_
+Craft Wondrous Item, _ [heal](spells/heal.md#_heal)_
 
 Righteous Fist Amulet
 
 **Price** 4,000 gp; **Aura** faint transmutation; **CL** 4th; **Weight** 1/2 lb.
 
-This golden amulet is used by religious sects as a way to help the faithful capture fugitives or defend themselves without doing undue harm to potential converts. While the wearer is using her divine powers of retribution (such as a cleric's smite, an inquisitor's smiting judgment, or a paladin's smite), the amulet grants her the ability to make unarmed strikes in melee combat as if she had the [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike) feat.
+This golden amulet is used by religious sects as a way to help the faithful capture fugitives or defend themselves without doing undue harm to potential converts. While the wearer is using her divine powers of retribution (such as a cleric's smite, an inquisitor's smiting judgment, or a paladin's smite), the amulet grants her the ability to make unarmed strikes in melee combat as if she had the [Improved Unarmed Strike](feats.md#_improved-unarmed-strike) feat.
 
 Construction Requirements
 
 **Cost** 2,000 gp
 
-Craft Wondrous Item, [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike), _ [stone fist](/pathfinderRPG/prd/advanced/spells/stoneFist.html#_stone-fist)_
+Craft Wondrous Item, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), _ [stone fist](advanced/spells/stoneFist.md#_stone-fist)_
 
 Scarab of Protection
 
@@ -629,7 +629,7 @@ Construction Requirements
 
 **Cost** 19,000 gp
 
-Craft Wondrous Item, _ [death ward](/pathfinderRPG/prd/spells/deathWard.html#_death-ward)_, _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_
+Craft Wondrous Item, _ [death ward](spells/deathWard.md#_death-ward)_, _ [spell resistance](magicItems/armor.md#_armor-spell-resistance)_
 
 Stormlure
 
@@ -641,7 +641,7 @@ Construction Requirements
 
 **Cost** 2,700 gp
 
-Craft Wondrous Item, _ [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt), [wind wall](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)_
+Craft Wondrous Item, _ [lightning bolt](spells/lightningBolt.md#_lightning-bolt), [wind wall](spells/windWall.md#_wind-wall)_
 
 Swarmbane Clasp
 
@@ -653,7 +653,7 @@ Construction Requirements
 
 **Cost** 1,500 gp
 
-Craft Wondrous Item, _ [repel vermin](/pathfinderRPG/prd/spells/repelVermin.html#_repel-vermin)_
+Craft Wondrous Item, _ [repel vermin](spells/repelVermin.md#_repel-vermin)_
 
 Symbol of Sanguine Protection
 
@@ -667,7 +667,7 @@ Construction Requirements
 
 **Cost** 8,750 gp
 
-Craft Wondrous Item, _ [bless water](/pathfinderRPG/prd/spells/blessWater.html#_bless-water)_
+Craft Wondrous Item, _ [bless water](spells/blessWater.md#_bless-water)_
 
 Torc of Lionheart Fury
 
@@ -679,5 +679,5 @@ Construction Requirements
 
 **Cost** 4,000 gp
 
-Craft Wondrous Item, _ [remove fear](/pathfinderRPG/prd/spells/removeFear.html#_remove-fear)_
+Craft Wondrous Item, _ [remove fear](spells/removeFear.md#_remove-fear)_
 

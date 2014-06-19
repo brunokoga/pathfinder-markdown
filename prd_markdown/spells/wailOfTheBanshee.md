@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Fortitude](../combat.html#_fortitude) negates; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Fortitude](../combat.md#_fortitude) negates; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
 When you cast this spell, you emit a terrible, soul-chilling scream that possibly kills creatures that hear it (except for yourself). The spell affects up to one creature per caster level, inflicting 10 points of damage per caster level. Creatures closest to the point of origin are affected first.
 

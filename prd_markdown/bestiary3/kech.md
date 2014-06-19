@@ -8,7 +8,7 @@ XP 800
 
 NE Medium monstrous humanoid
 
-**Init** +2; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +10
+**Init** +2; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +10
 
 Defense
 
@@ -30,7 +30,7 @@ Offense
 
 **Spell-Like Abilities** (CL 4th; concentration +4)
 
-Constant—_ [pass without trace](/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace)_
+Constant—_ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_
 
 Statistics
 
@@ -38,9 +38,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +5; **CMD** 18
 
-**Feats** [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Mobility](/pathfinderRPG/prd/feats.html#_mobility)
+**Feats** [Dodge](feats.md#_dodge), [Mobility](feats.md#_mobility)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +9 (+13 when jumping), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +16, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +10, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +13 (+19 in forests and jungles); **Racial Modifiers** +2 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) (+10 in forests and jungles)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +9 (+13 when jumping), [Climb](skills/climb.md#_climb) +16, [Perception](skills/perception.md#_perception) +10, [Stealth](skills/stealth.md#_stealth) +13 (+19 in forests and jungles); **Racial Modifiers** +2 [Perception](skills/perception.md#_perception), +4 [Stealth](skills/stealth.md#_stealth) (+10 in forests and jungles)
 
 **Languages** Kech
 

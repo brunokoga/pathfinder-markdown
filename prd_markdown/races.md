@@ -6,7 +6,7 @@ Dwarves are a stoic but stern race, ensconced in cities carved from the hearts o
 
 **Society** : The great distances between their mountain citadels account for many of the cultural differences that exist within dwarven society. Despite these schisms, dwarves throughout the world are characterized by their love of stonework, their passion for stone- and metal-based craftsmanship and architecture, and a fierce hatred of giants, orcs, and goblinoids.
 
-**Relations** : Dwarves and orcs have long dwelt in proximity, theirs a history of violence as old as both their races. Dwarves generally distrust and shun half-orcs. They find halflings, elves, and gnomes to be too frail, flighty, or âprettyâ to be worthy of proper respect. It is with humans that dwarves share the strongest link, for humans' industrious nature and hearty appetites come closest to matching those of the dwarven ideal.
+**Relations** : Dwarves and orcs have long dwelt in proximity, theirs a history of violence as old as both their races. Dwarves generally distrust and shun half-orcs. They find halflings, elves, and gnomes to be too frail, flighty, or “pretty” to be worthy of proper respect. It is with humans that dwarves share the strongest link, for humans' industrious nature and hearty appetites come closest to matching those of the dwarven ideal.
 
 **Alignment and Religion** : Dwarves are driven by honor and tradition, and while they are often satirized as standoffish, they have a strong sense of friendship and justice, and those who win their trust understand that, while they work hard, they play even harder—especially when good ale is involved. Most dwarves are lawful good.
 
@@ -14,29 +14,29 @@ Dwarves are a stoic but stern race, ensconced in cities carved from the hearts o
 
 ## Dwarf Racial Traits
 
-**+2 [Constitution](gettingStarted.html#_constitution), +2 [Wisdom](gettingStarted.html#_wisdom), –2 [Charisma](gettingStarted.html#_charisma-new)** : Dwarves are both tough and wise, but also a bit gruff.
+**+2 [Constitution](gettingStarted.md#_constitution), +2 [Wisdom](gettingStarted.md#_wisdom), –2 [Charisma](gettingStarted.md#_charisma-new)** : Dwarves are both tough and wise, but also a bit gruff.
 
 **Medium** : Dwarves are Medium creatures and have no bonuses or penalties due to their size.
 
 **Slow and Steady** : Dwarves have a base speed of 20 feet, but their speed is never modified by armor or encumbrance.
 
-**[Darkvision](glossary.html#_darkvision)** : Dwarves can see in the dark up to 60 feet.
+**[Darkvision](glossary.md#_darkvision)** : Dwarves can see in the dark up to 60 feet.
 
-**Defensive Training** : Dwarves get a +4 [dodge bonus](combat.html#_dodge-bonuses) to AC against monsters of the giant subtype.
+**Defensive Training** : Dwarves get a +4 [dodge bonus](combat.md#_dodge-bonuses) to AC against monsters of the giant subtype.
 
-**Greed** : Dwarves receive a +2 racial bonus on [Appraise](skills/appraise.html#_appraise) skill checks made to determine the price of nonmagical goods that contain precious metals or gemstones.
+**Greed** : Dwarves receive a +2 racial bonus on [Appraise](skills/appraise.md#_appraise) skill checks made to determine the price of nonmagical goods that contain precious metals or gemstones.
 
-**Hatred** : Dwarves receive a +1 bonus on [attack rolls](combat.html#_attack-bonus) against humanoid creatures of the orc and goblinoid subtypes due to special training against these hated foes.
+**Hatred** : Dwarves receive a +1 bonus on [attack rolls](combat.md#_attack-bonus) against humanoid creatures of the orc and goblinoid subtypes due to special training against these hated foes.
 
-**Hardy** : Dwarves receive a +2 racial bonus on [saving throws](combat.html#_saving-throws) against poison, spells, and spell-like abilities.
+**Hardy** : Dwarves receive a +2 racial bonus on [saving throws](combat.md#_saving-throws) against poison, spells, and spell-like abilities.
 
-**Stability** : Dwarves receive a +4 racial bonus to their [Combat Maneuver Defense](combat.html#_combat-maneuver-defense) when resisting a [bull rush](combat.html#_bull-rush) or [trip](combat.html#_trip) attempt while standing on the ground.
+**Stability** : Dwarves receive a +4 racial bonus to their [Combat Maneuver Defense](combat.md#_combat-maneuver-defense) when resisting a [bull rush](combat.md#_bull-rush) or [trip](combat.md#_trip) attempt while standing on the ground.
 
-**Stonecunning** : Dwarves receive a +2 bonus on [Perception](skills/perception.html#_perception) checks to potentially notice unusual stonework, such as traps and hidden doors located in stone walls or floors. They receive a check to notice such features whenever they pass within 10 feet of them, whether or not they are actively looking.
+**Stonecunning** : Dwarves receive a +2 bonus on [Perception](skills/perception.md#_perception) checks to potentially notice unusual stonework, such as traps and hidden doors located in stone walls or floors. They receive a check to notice such features whenever they pass within 10 feet of them, whether or not they are actively looking.
 
-**Weapon Familiarity** : Dwarves are proficient with battleaxes, heavy picks, and warhammers, and treat any weapon with the word âdwarvenâ in its name as a martial weapon.
+**Weapon Familiarity** : Dwarves are proficient with battleaxes, heavy picks, and warhammers, and treat any weapon with the word “dwarven” in its name as a martial weapon.
 
-**Languages** : Dwarves begin play speaking Common and Dwarven. Dwarves with high [Intelligence](gettingStarted.html#_intelligence) scores can choose from the following: Giant, Gnome, Goblin, Orc, Terran, and Undercommon.
+**Languages** : Dwarves begin play speaking Common and Dwarven. Dwarves with high [Intelligence](gettingStarted.md#_intelligence) scores can choose from the following: Giant, Gnome, Goblin, Orc, Terran, and Undercommon.
 
 # Elves
 
@@ -54,23 +54,23 @@ The long-lived elves are children of the natural world, similar in many superfic
 
 ## Elf Racial Traits
 
-**+2 [Dexterity](gettingStarted.html#_dexterity), +2 [Intelligence](gettingStarted.html#_intelligence), –2 [Constitution](gettingStarted.html#_constitution)** : Elves are nimble, both in body and mind, but their form is frail.
+**+2 [Dexterity](gettingStarted.md#_dexterity), +2 [Intelligence](gettingStarted.md#_intelligence), –2 [Constitution](gettingStarted.md#_constitution)** : Elves are nimble, both in body and mind, but their form is frail.
 
 **Medium** : Elves are Medium creatures and have no bonuses or penalties due to their size.
 
 **Normal Speed** : Elves have a base speed of 30 feet.
 
-**[Low-Light Vision](glossary.html#_low-light-vision)** : Elves can see twice as far as humans in conditions of dim light. See [Additional Rules](additionalRules.html).
+**[Low-Light Vision](glossary.md#_low-light-vision)** : Elves can see twice as far as humans in conditions of dim light. See [Additional Rules](additionalRules.md).
 
-**Elven Immunities** : Elves are immune to magic sleep effects and get a +2 racial [saving throw](combat.html#_saving-throws) bonus against [enchantment](magic.html#_enchantment) spells and effects.
+**Elven Immunities** : Elves are immune to magic sleep effects and get a +2 racial [saving throw](combat.md#_saving-throws) bonus against [enchantment](magic.md#_enchantment) spells and effects.
 
-**Elven Magic** : Elves receive a +2 racial bonus on [caster level checks](magic.html#_caster-level) made to overcome spell resistance. In addition, elves receive a +2 racial bonus on [Spellcraft](skills/spellcraft.html#_spellcraft) skill checks made to identify the properties of magic items.
+**Elven Magic** : Elves receive a +2 racial bonus on [caster level checks](magic.md#_caster-level) made to overcome spell resistance. In addition, elves receive a +2 racial bonus on [Spellcraft](skills/spellcraft.md#_spellcraft) skill checks made to identify the properties of magic items.
 
-**Keen Senses** : Elves receive a +2 racial bonus on [Perception](skills/perception.html#_perception) skill checks.
+**Keen Senses** : Elves receive a +2 racial bonus on [Perception](skills/perception.md#_perception) skill checks.
 
-**Weapon Familiarity** : Elves are proficient with longbows (including composite longbows), longswords, rapiers, and shortbows (including composite shortbows), and treat any weapon with the word âelvenâ in its name as a martial weapon.
+**Weapon Familiarity** : Elves are proficient with longbows (including composite longbows), longswords, rapiers, and shortbows (including composite shortbows), and treat any weapon with the word “elven” in its name as a martial weapon.
 
-**Languages** : Elves begin play speaking Common and Elven. Elves with high [Intelligence](gettingStarted.html#_intelligence) scores can choose from the following: Celestial, Draconic, Gnoll, Gnome, Goblin, Orc, and Sylvan.
+**Languages** : Elves begin play speaking Common and Elven. Elves with high [Intelligence](gettingStarted.md#_intelligence) scores can choose from the following: Celestial, Draconic, Gnoll, Gnome, Goblin, Orc, and Sylvan.
 
 # Gnomes
 
@@ -88,35 +88,35 @@ Gnomes trace their lineage back to the mysterious realm of the fey, a place wher
 
 ## Gnome Racial Traits
 
-**+2 [Constitution](gettingStarted.html#_constitution), +2 [Charisma](gettingStarted.html#_charisma-new), –2 [Strength](gettingStarted.html#_strength)** : Gnomes are physically weak but surprisingly hardy, and their attitude makes them naturally agreeable.
+**+2 [Constitution](gettingStarted.md#_constitution), +2 [Charisma](gettingStarted.md#_charisma-new), –2 [Strength](gettingStarted.md#_strength)** : Gnomes are physically weak but surprisingly hardy, and their attitude makes them naturally agreeable.
 
-**Small** : Gnomes are Small creatures and gain a +1 size bonus to their [AC](combat.html#_armor-class), a +1 size bonus on [attack rolls](combat.html#_attack-roll), a –1 penalty to their [Combat Maneuver Bonus](combat.html#_combat-maneuver-bonus) and [Combat Maneuver Defense](combat.html#_combat-maneuver-defense), and a +4 size bonus on [Stealth](skills/stealth.html#_stealth) checks.
+**Small** : Gnomes are Small creatures and gain a +1 size bonus to their [AC](combat.md#_armor-class), a +1 size bonus on [attack rolls](combat.md#_attack-roll), a –1 penalty to their [Combat Maneuver Bonus](combat.md#_combat-maneuver-bonus) and [Combat Maneuver Defense](combat.md#_combat-maneuver-defense), and a +4 size bonus on [Stealth](skills/stealth.md#_stealth) checks.
 
 **Slow Speed** : Gnomes have a base speed of 20 feet.
 
-**[Low-Light Vision](glossary.html#_low-light-vision)** : Gnomes can see twice as far as humans in conditions of dim light. See [Additional Rules](additionalRules.html).
+**[Low-Light Vision](glossary.md#_low-light-vision)** : Gnomes can see twice as far as humans in conditions of dim light. See [Additional Rules](additionalRules.md).
 
-**Defensive Training** : Gnomes get a +4 [dodge bonus](combat.html#_dodge-bonuses) to AC against monsters of the giant type.
+**Defensive Training** : Gnomes get a +4 [dodge bonus](combat.md#_dodge-bonuses) to AC against monsters of the giant type.
 
-**Gnome Magic** : Gnomes add +1 to the DC of any [saving throws](magic.html#_saving-throw) against [illusion](magic.html#_illusion) spells that they cast. Gnomes with a [Charisma](gettingStarted.html#_charisma-new) of 11 or higher also gain the following spell-like abilities: 1/day—_ [dancing lights](spells/dancingLights.html#_dancing-lights), [ghost sound](spells/ghostSound.html#_ghost-sound)_,_ [prestidigitation](spells/prestidigitation.html#_prestidigitation),_ and _ [speak with animals](spells/speakWithAnimals.html#_speak-with-animals). _The [caster level](magic.html#_caster-level) for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's [Charisma](gettingStarted.html#_charisma-new) modifier.
+**Gnome Magic** : Gnomes add +1 to the DC of any [saving throws](magic.md#_saving-throw) against [illusion](magic.md#_illusion) spells that they cast. Gnomes with a [Charisma](gettingStarted.md#_charisma-new) of 11 or higher also gain the following spell-like abilities: 1/day—_ [dancing lights](spells/dancingLights.md#_dancing-lights), [ghost sound](spells/ghostSound.md#_ghost-sound)_,_ [prestidigitation](spells/prestidigitation.md#_prestidigitation),_ and _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals). _The [caster level](magic.md#_caster-level) for these effects is equal to the gnome's level. The DC for these spells is equal to 10 + the spell's level + the gnome's [Charisma](gettingStarted.md#_charisma-new) modifier.
 
-**Hatred** : Gnomes receive a +1 bonus on [attack rolls](combat.html#_attack-bonus) against humanoid creatures of the reptilian and goblinoid subtypes due to special training against these hated foes.
+**Hatred** : Gnomes receive a +1 bonus on [attack rolls](combat.md#_attack-bonus) against humanoid creatures of the reptilian and goblinoid subtypes due to special training against these hated foes.
 
-**Illusion Resistance** : Gnomes get a +2 racial [saving throw](combat.html#_saving-throws) bonus against [illusion](magic.html#_illusion) spells or effects.
+**Illusion Resistance** : Gnomes get a +2 racial [saving throw](combat.md#_saving-throws) bonus against [illusion](magic.md#_illusion) spells or effects.
 
-**Keen Senses** : Gnomes receive a +2 racial bonus on [Perception](skills/perception.html#_perception) skill checks.
+**Keen Senses** : Gnomes receive a +2 racial bonus on [Perception](skills/perception.md#_perception) skill checks.
 
-**Obsessive** : Gnomes receive a +2 racial bonus on a [Craft](skills/craft.html#_craft) or [Profession](skills/profession.html#_profession) skill of their choice.
+**Obsessive** : Gnomes receive a +2 racial bonus on a [Craft](skills/craft.md#_craft) or [Profession](skills/profession.md#_profession) skill of their choice.
 
-**Weapon Familiarity** : Gnomes treat any weapon with the word âgnomeâ in its name as a martial weapon.
+**Weapon Familiarity** : Gnomes treat any weapon with the word “gnome” in its name as a martial weapon.
 
-**Languages** : Gnomes begin play speaking Common, Gnome, and Sylvan. Gnomes with high [Intelligence](gettingStarted.html#_intelligence) scores can choose from the following: Draconic, Dwarven, Elven, Giant, Goblin, and Orc.
+**Languages** : Gnomes begin play speaking Common, Gnome, and Sylvan. Gnomes with high [Intelligence](gettingStarted.md#_intelligence) scores can choose from the following: Draconic, Dwarven, Elven, Giant, Goblin, and Orc.
 
 # Half-elves
 
 Elves have long drawn the covetous gazes of other races. Their generous life spans, magical affinity, and inherent grace each contribute to the admiration or bitter envy of their neighbors. Of all their traits, however, none so entrance their human associates as their beauty. Since the two races first came into contact with each other, the humans have held up elves as models of physical perfection, seeing in the fair folk idealized versions of themselves. For their part, many elves find humans attractive despite their comparatively barbaric ways, drawn to the passion and impetuosity with which members of the younger race play out their brief lives.
 
-Sometimes this mutual infatuation leads to romantic relationships. Though usually short-lived, even by human standards, these trysts commonly lead to the birth of half-elves, a race descended of two cultures yet inheritor of neither. Half-elves can breed with one another, but even these âpurebloodâ half-elves tend to be viewed as bastards by humans and elves alike.
+Sometimes this mutual infatuation leads to romantic relationships. Though usually short-lived, even by human standards, these trysts commonly lead to the birth of half-elves, a race descended of two cultures yet inheritor of neither. Half-elves can breed with one another, but even these “pureblood” half-elves tend to be viewed as bastards by humans and elves alike.
 
 **Physical Description** : Half-elves stand taller than humans but shorter than elves. They inherit the lean build and comely features of their elven lineage, but their skin color is dictated by their human side. While half-elves retain the pointed ears of elves, theirs are more rounded and less pronounced. A half-elf's human-like eyes tend to range a spectrum of exotic colors running from amber or violet to emerald green and deep blue.
 
@@ -130,31 +130,31 @@ Sometimes this mutual infatuation leads to romantic relationships. Though usuall
 
 ## Half-Elf Racial Traits
 
-**+2 to One [Ability Score](gettingStarted.html#_ability-scores)** : Half-elf characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.
+**+2 to One [Ability Score](gettingStarted.md#_ability-scores)** : Half-elf characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.
 
 **Medium** : Half-elves are Medium creatures and have no bonuses or penalties due to their size.
 
 **Normal Speed** : Half-elves have a base speed of 30 feet.
 
-**[Low-Light Vision](glossary.html#_low-light-vision)** : Half-elves can see twice as far as humans in conditions of dim light. See [Additional Rules](additionalRules.html).
+**[Low-Light Vision](glossary.md#_low-light-vision)** : Half-elves can see twice as far as humans in conditions of dim light. See [Additional Rules](additionalRules.md).
 
-**Adaptability** : Half-elves receive [Skill Focus](feats.html#_skill-focus) as a bonus feat at 1st level.
+**Adaptability** : Half-elves receive [Skill Focus](feats.md#_skill-focus) as a bonus feat at 1st level.
 
 **Elf Blood** : Half-elves count as both elves and humans for any effect related to race.
 
-**Elven Immunities** : Half-elves are immune to magic sleep effects and get a +2 racial [saving throw](combat.html#_saving-throws) bonus against [enchantment](magic.html#_enchantment) spells and effects.
+**Elven Immunities** : Half-elves are immune to magic sleep effects and get a +2 racial [saving throw](combat.md#_saving-throws) bonus against [enchantment](magic.md#_enchantment) spells and effects.
 
-**Keen Senses** : Half-elves receive a +2 racial bonus on [Perception](skills/perception.html#_perception) skill checks.
+**Keen Senses** : Half-elves receive a +2 racial bonus on [Perception](skills/perception.md#_perception) skill checks.
 
-**Multitalented** : Half-elves choose two [favored classes](classes.html#_favored-class) at first level and gain +1 hit point or +1 skill point whenever they take a level in either one of those classes. See [Classes](classes.html) for more information about favored classes.
+**Multitalented** : Half-elves choose two [favored classes](classes.md#_favored-class) at first level and gain +1 hit point or +1 skill point whenever they take a level in either one of those classes. See [Classes](classes.md) for more information about favored classes.
 
-**Languages** : Half-elves begin play speaking Common and Elven. Half-elves with high [Intelligence](gettingStarted.html#_intelligence) scores can choose any languages they want (except secret languages, such as Druidic).
+**Languages** : Half-elves begin play speaking Common and Elven. Half-elves with high [Intelligence](gettingStarted.md#_intelligence) scores can choose any languages they want (except secret languages, such as Druidic).
 
 # Half-orcs
 
 Half-orcs are monstrosities, their tragic births the result of perversion and violence—or at least, that's how other races see them. It's true that half-orcs are rarely the result of loving unions, and as such are usually forced to grow up hard and fast, constantly fighting for protection or to make names for themselves. Feared, distrusted, and spat upon, half-orcs still consistently manage to surprise their detractors with great deeds and unexpected wisdom—though sometimes it's easier just to crack a few skulls.
 
-**Physical Description** : Both genders of half-orc stand between 6 and 7 feet tall, with powerful builds and greenish or grayish skin. Their canines often grow long enough to protrude from their mouths, and these âtusks,â combined with heavy brows and slightly pointed ears, give them their notoriously bestial appearance. While half-orcs may be impressive, few ever describe them as beautiful.
+**Physical Description** : Both genders of half-orc stand between 6 and 7 feet tall, with powerful builds and greenish or grayish skin. Their canines often grow long enough to protrude from their mouths, and these “tusks,” combined with heavy brows and slightly pointed ears, give them their notoriously bestial appearance. While half-orcs may be impressive, few ever describe them as beautiful.
 
 **Society** : Unlike half-elves, where at least part of society's discrimination is born out of jealousy or attraction, half-orcs get the worst of both worlds: physically weaker than their orc kin, they also tend to be feared or attacked outright by the legions of humans who don't bother making the distinction between full orcs and halfbloods. Still, while not exactly accepted, half-orcs in civilized societies tend to be valued for their martial prowess, and orc leaders have actually been known to spawn them intentionally, as the halfbreeds regularly make up for their lack of physical strength with increased cunning and aggression, making them natural chieftains and strategic advisors.
 
@@ -166,23 +166,23 @@ Half-orcs are monstrosities, their tragic births the result of perversion and vi
 
 ## Half-Orc Racial Traits
 
-**+2 to One [Ability Score](gettingStarted.html#_ability-scores)** : Half-orc characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.
+**+2 to One [Ability Score](gettingStarted.md#_ability-scores)** : Half-orc characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.
 
 **Medium** : Half-orcs are Medium creatures and have no bonuses or penalties due to their size.
 
 **Normal Speed** : Half-orcs have a base speed of 30 feet.
 
-**[Darkvision](glossary.html#_darkvision)** : Half-orcs can see in the dark up to 60 feet.
+**[Darkvision](glossary.md#_darkvision)** : Half-orcs can see in the dark up to 60 feet.
 
-**Intimidating** : Half-orcs receive a +2 racial bonus on [Intimidate](skills/intimidate.html#_intimidate) skill checks due to their fearsome nature.
+**Intimidating** : Half-orcs receive a +2 racial bonus on [Intimidate](skills/intimidate.md#_intimidate) skill checks due to their fearsome nature.
 
 **Orc Blood** : Half-orcs count as both humans and orcs for any effect related to race.
 
-**Orc Ferocity** : Once per day, when a half-orc is brought below 0 hit points but not killed, he can fight on for one more round as if [disabled](glossary.html#_disabled). At the end of his next turn, unless brought to above 0 hit points, he immediately falls [unconscious](glossary.html#_unconscious) and begins [dying](glossary.html#_dying).
+**Orc Ferocity** : Once per day, when a half-orc is brought below 0 hit points but not killed, he can fight on for one more round as if [disabled](glossary.md#_disabled). At the end of his next turn, unless brought to above 0 hit points, he immediately falls [unconscious](glossary.md#_unconscious) and begins [dying](glossary.md#_dying).
 
-**Weapon Familiarity** : Half-orcs are proficient with greataxes and falchions and treat any weapon with the word âorcâ in its name as a martial weapon.
+**Weapon Familiarity** : Half-orcs are proficient with greataxes and falchions and treat any weapon with the word “orc” in its name as a martial weapon.
 
-**Languages** : Half-orcs begin play speaking Common and Orc. Half-orcs with high [Intelligence](gettingStarted.html#_intelligence) scores can choose from the following: Abyssal, Draconic, Giant, Gnoll, and Goblin.
+**Languages** : Half-orcs begin play speaking Common and Orc. Half-orcs with high [Intelligence](gettingStarted.md#_intelligence) scores can choose from the following: Abyssal, Draconic, Giant, Gnoll, and Goblin.
 
 # Halflings
 
@@ -204,23 +204,23 @@ Though their curiosity drives them to travel and seek new places and experiences
 
 ## Halfling Racial Traits
 
-**+2 [Dexterity](gettingStarted.html#_dexterity), +2 [Charisma](gettingStarted.html#_charisma-new), –2 [Strength](gettingStarted.html#_strength)** : Halflings are nimble and strong-willed, but their small stature makes them weaker than other races.
+**+2 [Dexterity](gettingStarted.md#_dexterity), +2 [Charisma](gettingStarted.md#_charisma-new), –2 [Strength](gettingStarted.md#_strength)** : Halflings are nimble and strong-willed, but their small stature makes them weaker than other races.
 
-**Small** : Halflings are Small creatures and gain a +1 size bonus to their [AC](combat.html#_armor-class), a +1 size bonus on [attack rolls](combat.html#_attack-roll), a –1 penalty to their [Combat Maneuver Bonus](combat.html#_combat-maneuver-bonus) and [Combat Maneuver Defense](combat.html#_combat-maneuver-defense), and a +4 size bonus on [Stealth](skills/stealth.html#_stealth) checks.
+**Small** : Halflings are Small creatures and gain a +1 size bonus to their [AC](combat.md#_armor-class), a +1 size bonus on [attack rolls](combat.md#_attack-roll), a –1 penalty to their [Combat Maneuver Bonus](combat.md#_combat-maneuver-bonus) and [Combat Maneuver Defense](combat.md#_combat-maneuver-defense), and a +4 size bonus on [Stealth](skills/stealth.md#_stealth) checks.
 
 **Slow Speed** : Halflings have a base speed of 20 feet.
 
-**Fearless** : Halflings receive a +2 racial bonus on all [saving throw](combat.html#_saving-throws)s against fear. This bonus stacks with the bonus granted by halfling luck.
+**Fearless** : Halflings receive a +2 racial bonus on all [saving throw](combat.md#_saving-throws)s against fear. This bonus stacks with the bonus granted by halfling luck.
 
-**Halfling Luck** : Halflings receive a +1 racial bonus on all [saving throw](combat.html#_saving-throws)s.
+**Halfling Luck** : Halflings receive a +1 racial bonus on all [saving throw](combat.md#_saving-throws)s.
 
-**Keen Senses** : Halflings receive a +2 racial bonus on [Perception](skills/perception.html#_perception) skill checks.
+**Keen Senses** : Halflings receive a +2 racial bonus on [Perception](skills/perception.md#_perception) skill checks.
 
-**Sure-Footed:** Halflings receive a +2 racial bonus on [Acrobatics](skills/acrobatics.html#_acrobatics) and [Climb](skills/climb.html#_climb) skill checks.
+**Sure-Footed:** Halflings receive a +2 racial bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) and [Climb](skills/climb.md#_climb) skill checks.
 
-**Weapon Familiarity** : Halflings are proficient with slings and treat any weapon with the word âhalflingâ in its name as a martial weapon.
+**Weapon Familiarity** : Halflings are proficient with slings and treat any weapon with the word “halfling” in its name as a martial weapon.
 
-**Languages** : Halflings begin play speaking Common and Halfling. Halflings with high [Intelligence](gettingStarted.html#_intelligence) scores can choose from the following: Dwarven, Elven, Gnome, and Goblin.
+**Languages** : Halflings begin play speaking Common and Halfling. Halflings with high [Intelligence](gettingStarted.md#_intelligence) scores can choose from the following: Dwarven, Elven, Gnome, and Goblin.
 
 # Humans
 
@@ -240,15 +240,15 @@ Humans possess exceptional drive and a great capacity to endure and expand, and 
 
 ## Human Racial Traits
 
-**+2 to One [Ability Score](gettingStarted.html#_ability-scores)** : Human characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.
+**+2 to One [Ability Score](gettingStarted.md#_ability-scores)** : Human characters get a +2 bonus to one ability score of their choice at creation to represent their varied nature.
 
 **Medium** : Humans are Medium creatures and have no bonuses or penalties due to their size.
 
 **Normal Speed** : Humans have a base speed of 30 feet.
 
-**Bonus Feat** : Humans select one extra [feat](feats.html#_chapter-5) at 1st level.
+**Bonus Feat** : Humans select one extra [feat](feats.md#_chapter-5) at 1st level.
 
-**Skilled** : Humans gain an additional [skill rank](usingSkills.html#_acquiring-skills) at first level and one additional rank whenever they gain a level.
+**Skilled** : Humans gain an additional [skill rank](usingSkills.md#_acquiring-skills) at first level and one additional rank whenever they gain a level.
 
-**Languages** : Humans begin play speaking Common. Humans with high [Intelligence](gettingStarted.html#_intelligence) scores can choose any languages they want (except secret languages, such as Druidic).
+**Languages** : Humans begin play speaking Common. Humans with high [Intelligence](gettingStarted.md#_intelligence) scores can choose any languages they want (except secret languages, such as Druidic).
 

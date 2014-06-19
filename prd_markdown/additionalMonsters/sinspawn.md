@@ -6,9 +6,9 @@ This hairless humanoid lurches on back-bent, dog-like legs, its hideous mouth fl
 
 **XP 600**
 
-NE Medium [aberration](/pathfinderRPG/prd/monsters/creatureTypes.html#_aberration)
+NE Medium [aberration](monsters/creatureTypes.md#_aberration)
 
-**Init** +5; **Senses** darkvision 60 ft., sin-scent; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7
+**Init** +5; **Senses** darkvision 60 ft., sin-scent; [Perception](additionalMonsters/../skills/perception.md#_perception) +7
 
 Defense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +3; **CMD** 15
 
-**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative)
+**Feats** [Dodge](additionalMonsters/../feats.md#_dodge), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative)
 
-**Skills** [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +7, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +7, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +7
+**Skills** [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +7, [Perception](additionalMonsters/../skills/perception.md#_perception) +7, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +7, [Survival](additionalMonsters/../skills/survival.md#_survival) +7
 
 **Languages** Aklo
 
@@ -54,9 +54,9 @@ Special Abilities
 
 **Martial Proficiency (Ex)** Sinspawn are proficient in all simple and martial weapons, armor, and shields (except tower shields).
 
-**Sin-Scent (Su)** Sinspawn have [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent) against creatures whose nature reflects the sinspawn's sin. For example, wrathful sinspawn can [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent) creatures using rage effects. The GM should adjudicate what creatures a particular sinspawn can [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent).
+**Sin-Scent (Su)** Sinspawn have [scent](monsters/universalMonsterRules.md#_scent) against creatures whose nature reflects the sinspawn's sin. For example, wrathful sinspawn can [scent](monsters/universalMonsterRules.md#_scent) creatures using rage effects. The GM should adjudicate what creatures a particular sinspawn can [scent](monsters/universalMonsterRules.md#_scent).
 
-**Sinful Bite (Su)** A creature bitten by a sinspawn is overwhelmed with sinful thoughts (DC 12 Will save negates). These emotions are so powerful that the target becomes sickened for 1d6 minutes. An affected target that is bitten a second time is staggered for 1 round if it fails its saving throw. _ [Calm emotions](/pathfinderRPG/prd/additionalMonsters/../spells/calmEmotions.html#_calm-emotions)_, _ [remove curse](/pathfinderRPG/prd/additionalMonsters/../spells/removeCurse.html#_remove-curse)_, or_ [break enchantment](/pathfinderRPG/prd/additionalMonsters/../spells/breakEnchantment.html#_break-enchantment)_ negates the effects of sinful bite. The save DC is Charisma-based. This is a mind-affecting effect.
+**Sinful Bite (Su)** A creature bitten by a sinspawn is overwhelmed with sinful thoughts (DC 12 Will save negates). These emotions are so powerful that the target becomes sickened for 1d6 minutes. An affected target that is bitten a second time is staggered for 1 round if it fails its saving throw. _ [Calm emotions](additionalMonsters/../spells/calmEmotions.md#_calm-emotions)_, _ [remove curse](additionalMonsters/../spells/removeCurse.md#_remove-curse)_, or_ [break enchantment](additionalMonsters/../spells/breakEnchantment.md#_break-enchantment)_ negates the effects of sinful bite. The save DC is Charisma-based. This is a mind-affecting effect.
 
 Sinspawn are corrupted products of magic used by spellcasters in a past era as shock troops for their armies. Literally the embodiment of a sin made flesh, they are sentient abominations of distilled ectoplasm imprinted with the soul-image of slain creatures that possessed an abundance of a particular sin.
 

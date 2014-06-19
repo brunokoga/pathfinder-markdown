@@ -12,9 +12,9 @@
 
 **Duration** 1 minute
 
-**Saving Throw** [Will](../combat.html#_will) negates (harmless); **[Spell Resistance](../glossary.html#_spell-resistance)** yes (harmless)
+**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless)
 
 You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves.
 
-_Resistance _can be made permanent with a _ [permanency](permanency.html#_permanency) _spell.
+_Resistance _can be made permanent with a _ [permanency](permanency.md#_permanency) _spell.
 

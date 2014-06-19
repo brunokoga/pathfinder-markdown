@@ -6,9 +6,9 @@ Perched on the prickly legs of a cricket, this tiny creature has gossamer wings 
 
 **XP 400**
 
-NG Tiny [fey](/pathfinderRPG/prd/monsters/creatureTypes.html#_fey)
+NG Tiny [fey](monsters/creatureTypes.md#_fey)
 
-**Init** +4; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5
+**Init** +4; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +5
 
 Defense
 
@@ -34,7 +34,7 @@ Offense
 
 **Spell-Like Abilities** (CL 9th; concentration +11)
 
-3/day—_ [disguise self](/pathfinderRPG/prd/additionalMonsters/../spells/disguiseSelf.html#_disguise-self)_, _ [entangle](/pathfinderRPG/prd/additionalMonsters/../spells/entangle.html#_entangle)_ (DC 13), _ [invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility)_ (self only), _ [pyrotechnics](/pathfinderRPG/prd/additionalMonsters/../spells/pyrotechnics.html#_pyrotechnics)_ (DC 14)
+3/day—_ [disguise self](additionalMonsters/../spells/disguiseSelf.md#_disguise-self)_, _ [entangle](additionalMonsters/../spells/entangle.md#_entangle)_ (DC 13), _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_ (self only), _ [pyrotechnics](additionalMonsters/../spells/pyrotechnics.md#_pyrotechnics)_ (DC 14)
 
 Statistics
 
@@ -42,9 +42,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +2; **CMD** 10 (16 vs. trip)
 
-**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge)
+**Feats** [Dodge](additionalMonsters/../feats.md#_dodge)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +8 (+12 jump), [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +8, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +12, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5, [Perform](/pathfinderRPG/prd/additionalMonsters/../skills/perform.html#_perform) (string) +6, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +16; **Racial Modifiers** +4 Acrobatics when jumping
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +8 (+12 jump), [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +8, [Fly](additionalMonsters/../skills/fly.md#_fly) +12, [Perception](additionalMonsters/../skills/perception.md#_perception) +5, [Perform](additionalMonsters/../skills/perform.md#_perform) (string) +6, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +16; **Racial Modifiers** +4 Acrobatics when jumping
 
 **Languages** Common, Sylvan
 

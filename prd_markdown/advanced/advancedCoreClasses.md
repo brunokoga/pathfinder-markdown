@@ -18,25 +18,25 @@ While the GM might want to make concessions for players who didn't have these al
 
 The core class archetypes that follow are included in this chapter. Characters may take more than one archetype if they meet the requirements.
 
-**[Barbarian](coreClasses/barbarian.html)** : Breaker, Brutal Pugilist, Drunken Brute, Elemental Kin, Hurler, Invulnerable Rager, Mounted Fury, Savage Barbarian, Superstitious, and Totem Warrior. This section also includes a host of new rage powers that any barbarian can take.
+**[Barbarian](coreClasses/barbarian.md)** : Breaker, Brutal Pugilist, Drunken Brute, Elemental Kin, Hurler, Invulnerable Rager, Mounted Fury, Savage Barbarian, Superstitious, and Totem Warrior. This section also includes a host of new rage powers that any barbarian can take.
 
-**[Bard](coreClasses/bard.html)** : Arcane Duelist, Archivist, Court Bard, Detective, Magician, Sandman, Savage Skald, Sea Singer, and Street Performer.
+**[Bard](coreClasses/bard.md)** : Arcane Duelist, Archivist, Court Bard, Detective, Magician, Sandman, Savage Skald, Sea Singer, and Street Performer.
 
-**[Cleric](coreClasses/cleric.html)** : Instead of specific archetypes, each cleric can choose from a host of subdomains that focus on one aspect of their deity's power. Two or more subdomains are presented for each domain.
+**[Cleric](coreClasses/cleric.md)** : Instead of specific archetypes, each cleric can choose from a host of subdomains that focus on one aspect of their deity's power. Two or more subdomains are presented for each domain.
 
-**[Druid](coreClasses/druid.html)** : Aquatic Druid, Arctic Druid, Blight Druid, Cave Druid, Desert Druid, Jungle Druid, Mountain Druid, Plains Druid, Swamp Druid, and Urban Druid. Alternatively, druid can choose to be an animal shaman, such as a Bear Shaman, Eagle Shaman, Lion Shaman, Serpent Shaman, or Wolf Shaman.
+**[Druid](coreClasses/druid.md)** : Aquatic Druid, Arctic Druid, Blight Druid, Cave Druid, Desert Druid, Jungle Druid, Mountain Druid, Plains Druid, Swamp Druid, and Urban Druid. Alternatively, druid can choose to be an animal shaman, such as a Bear Shaman, Eagle Shaman, Lion Shaman, Serpent Shaman, or Wolf Shaman.
 
-**[Fighter](coreClasses/fighter.html)** : Archer, Crossbowman, Free Hand Fighter, Mobile Fighter, Phalanx Soldier, Polearm Master, Roughrider, Savage Warrior, Shielded Fighter, Two-Handed Fighter, Two-Weapon Warrior, and Weapon Master.
+**[Fighter](coreClasses/fighter.md)** : Archer, Crossbowman, Free Hand Fighter, Mobile Fighter, Phalanx Soldier, Polearm Master, Roughrider, Savage Warrior, Shielded Fighter, Two-Handed Fighter, Two-Weapon Warrior, and Weapon Master.
 
-**[Monk](coreClasses/monk.html)** : Drunken Master, Hungry Ghost Monk, _Ki_ Mystic, Monk of the Empty Hand, Monk of the Four Winds, Monk of the Healing Hand, Monk of the Lotus, Monk of the Sacred Mountain, Weapon Adept, Zen Archer.
+**[Monk](coreClasses/monk.md)** : Drunken Master, Hungry Ghost Monk, _Ki_ Mystic, Monk of the Empty Hand, Monk of the Four Winds, Monk of the Healing Hand, Monk of the Lotus, Monk of the Sacred Mountain, Weapon Adept, Zen Archer.
 
-**[Paladin](coreClasses/paladin.html)** : Divine Defender, Hospitaler, Sacred Servant, Shining Knight, Undead Scourge, and Warrior of the Holy Light. This section also includes rules for an alternate version of the paladin class, the antipaladin.
+**[Paladin](coreClasses/paladin.md)** : Divine Defender, Hospitaler, Sacred Servant, Shining Knight, Undead Scourge, and Warrior of the Holy Light. This section also includes rules for an alternate version of the paladin class, the antipaladin.
 
-**[Ranger](coreClasses/ranger.html)** : Beast Master, Guide, Horse Lord, Infiltrator, Shapeshifter, Skirmisher, Spirit Ranger, and Urban Ranger. This section also includes new combat style choices that any ranger can take.
+**[Ranger](coreClasses/ranger.md)** : Beast Master, Guide, Horse Lord, Infiltrator, Shapeshifter, Skirmisher, Spirit Ranger, and Urban Ranger. This section also includes new combat style choices that any ranger can take.
 
-**[Rogue](coreClasses/rogue.html)** : Acrobat, Burglar, Cutpurse, Investigator, Poisoner, Rake, Scout, Sniper, Spy, Swashbuckler, Thug, and Trapsmith. This section also includes a number of rogue talents and advanced rogue talents that any rogue can take.
+**[Rogue](coreClasses/rogue.md)** : Acrobat, Burglar, Cutpurse, Investigator, Poisoner, Rake, Scout, Sniper, Spy, Swashbuckler, Thug, and Trapsmith. This section also includes a number of rogue talents and advanced rogue talents that any rogue can take.
 
-**[Sorcerer](coreClasses/sorcerer.html)** : Aquatic Bloodline, Boreal Bloodline, Deepearth Bloodline, Dreamspun Bloodline, Protean Bloodline, Serpentine Bloodline, Shadow Bloodline, Starsoul Bloodline, Stormborn Bloodline, and Verdant Bloodline. Unlike other alternate class features, a sorcerer may never have more than one bloodline.
+**[Sorcerer](coreClasses/sorcerer.md)** : Aquatic Bloodline, Boreal Bloodline, Deepearth Bloodline, Dreamspun Bloodline, Protean Bloodline, Serpentine Bloodline, Shadow Bloodline, Starsoul Bloodline, Stormborn Bloodline, and Verdant Bloodline. Unlike other alternate class features, a sorcerer may never have more than one bloodline.
 
-**[Wizard](coreClasses/wizard.html)** : This section includes four elemental wizard schools, air, earth, fire, and water. It also includes focused arcane schools, which allow wizards of one school to focus on one element of that school's power.
+**[Wizard](coreClasses/wizard.md)** : This section includes four elemental wizard schools, air, earth, fire, and water. It also includes focused arcane schools, which allow wizards of one school to focus on one element of that school's power.
 

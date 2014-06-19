@@ -6,9 +6,9 @@ Lukwata CR 11
 
 XP 12,800
 
-N Huge magical beast ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Huge magical beast ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +4; **Senses** darkvision 60 ft., low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9
+**Init** +4; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +9
 
 Defense
 
@@ -26,7 +26,7 @@ Offense
 
 **Speed** swim 40 ft.
 
-**Melee** bite +22 (4d10+15/19–20 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +22 (4d10+15/19–20 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
@@ -38,9 +38,9 @@ Statistics
 
 **Base Atk** +14; **CMB** +26 (+30 grapple); **CMD** 40
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow), [Bleeding Critical](/pathfinderRPG/prd/feats.html#_bleeding-critical), [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack)
+**Feats** [Awesome Blow](monsters/monsterFeats.md#_awesome-blow), [Bleeding Critical](feats.md#_bleeding-critical), [Critical Focus](feats.md#_critical-focus), [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Critical](feats.md#_improved-critical) (bite), [Iron Will](feats.md#_iron-will), [Power Attack](feats.md#_power-attack)
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +0, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +30
+**Skills** [Perception](skills/perception.md#_perception) +9, [Stealth](skills/stealth.md#_stealth) +0, [Swim](skills/swim.md#_swim) +30
 
 Ecology
 
@@ -52,13 +52,13 @@ Ecology
 
 Special Abilities
 
-**[Damage Reduction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_damage-reduction-(ex-or-su)) (Ex)** A lukwata's [damage reduction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_damage-reduction-(ex-or-su)) is penetrated only by nonmagical weapons (temporary magical weapons, such as those created by the spell _ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon)_ and similar effects, count as magical weapons).
+**[Damage Reduction](monsters/universalMonsterRules.md#_damage-reduction-(ex-or-su)) (Ex)** A lukwata's [damage reduction](monsters/universalMonsterRules.md#_damage-reduction-(ex-or-su)) is penetrated only by nonmagical weapons (temporary magical weapons, such as those created by the spell _ [magic weapon](spells/magicWeapon.md#_magic-weapon)_ and similar effects, count as magical weapons).
 
 **Digest Magic (Su)** A magic item swallowed by a lukwata must make a DC 22 Fortitude save after an hour or become permanently nonmagical. Artifacts are immune to this effect. The save DC is Constitution-based.
 
-**Dispelling Bite (Su)** When a lukwata scores a critical hit with its bite, the victim is affected as if targeted by a _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_ spell. The caster level for this effect is equal to the lukwata's Hit Dice (CL 14th for most lukwatas).
+**Dispelling Bite (Su)** When a lukwata scores a critical hit with its bite, the victim is affected as if targeted by a _ [greater dispel magic](spells/dispelMagic.md#_dispel-magic-greater)_ spell. The caster level for this effect is equal to the lukwata's Hit Dice (CL 14th for most lukwatas).
 
-**Eldritch Encrustation (Su)** Crystalline growths along the lukwata's digestive tract contain large deposits of magical energy. These nodes are responsible for the magical feedback that surrounds each lukwata, granting it its spell [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance), [damage reduction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_damage-reduction-(ex-or-su)), dispelling bite, and digest magic abilities. _ [Dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_ cast on a lukwata can negate these powers for 1 minute—the CL of the effect is treated as the lukwata's Hit Dice (CL 11th for most lukwatas).
+**Eldritch Encrustation (Su)** Crystalline growths along the lukwata's digestive tract contain large deposits of magical energy. These nodes are responsible for the magical feedback that surrounds each lukwata, granting it its spell [resistance](monsters/universalMonsterRules.md#_resistance), [damage reduction](monsters/universalMonsterRules.md#_damage-reduction-(ex-or-su)), dispelling bite, and digest magic abilities. _ [Dispel magic](spells/dispelMagic.md#_dispel-magic)_ cast on a lukwata can negate these powers for 1 minute—the CL of the effect is treated as the lukwata's Hit Dice (CL 11th for most lukwatas).
 
 Lukwatas slip through dark tropical waters, preying upon all who dare enter their deep jungle rivers and pools, including beasts typically considered apex predators. While scholars say the beasts favor the dark, light doesn't deter them in their relentless pursuit of prey. Their long, flat bodies are reminiscent of those of dolphins or large fish, but lukwatas' heads are distinctively eel-like. A lukwata's unusual ability to disrupt magical effects rises from the strange crystalline growths that line its throat and stomach—crystals that allow the lukwata to gain nutrients from magical items as efficiently as from flesh and blood. These same growths give the lukwata an unusually strong resistance to all manner of magic attacks.
 

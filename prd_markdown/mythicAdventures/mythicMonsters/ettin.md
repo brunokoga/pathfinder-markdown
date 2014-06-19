@@ -6,9 +6,9 @@ Mythic Ettin CR 8/MR 3
 
 XP 4,800
 
-CE Large humanoid ( [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype), [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
+CE Large humanoid ( [giant](monsters/creatureTypes.md#_giant-subtype), [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
 
-**Init** +3; **Senses** [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12
+**Init** +3; **Senses** [low-light vision](monsters/universalMonsterRules.md#_low-light-vision); [Perception](skills/perception.md#_perception) +12
 
 **Aura** stench (DC 17, 10 rounds)
 
@@ -32,7 +32,7 @@ Offense
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** mythic power (3/day, surge +1d6), [powerful charge](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_powerful-charge) (flail, 4d6+10), superior two-weapon fighting
+**Special Attacks** mythic power (3/day, surge +1d6), [powerful charge](monsters/universalMonsterRules.md#_powerful-charge) (flail, 4d6+10), superior two-weapon fighting
 
 Statistics
 
@@ -40,15 +40,15 @@ Statistics
 
 **Base Atk** +7; **CMB** +15 (+17 overrun); **CMD** 24
 
-**Feats** [Cleave](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_cleave-mythic)M, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Improved Overrun](/pathfinderRPG/prd/feats.html#_improved-overrun), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)M
+**Feats** [Cleave](mythicAdventures/mythicFeats.md#_cleave-mythic)M, [Improved Initiative](feats.md#_improved-initiative), [Improved Overrun](feats.md#_improved-overrun), [Iron Will](feats.md#_iron-will), [Power Attack](mythicAdventures/mythicFeats.md#_power-attack-mythic)M
 
-**Skills** [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +8, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Handle Animal](skills/handleAnimal.md#_handle-animal) +8, [Perception](skills/perception.md#_perception) +12; **Racial Modifiers** +4 [Perception](skills/perception.md#_perception)
 
-**Languages** pidgin of [Giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype), Goblin, and [Orc](/pathfinderRPG/prd/monsters/creatureTypes.html#_orc-subtype)
+**Languages** pidgin of [Giant](monsters/creatureTypes.md#_giant-subtype), Goblin, and [Orc](monsters/creatureTypes.md#_orc-subtype)
 
 Ecology
 
-**Environment** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) hills
+**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) hills
 
 **Organization** solitary, pair, gang (3–6), troupe (1–2 plus 1–2 brown bears), band (3–6 plus 1–2 brown bears), or colony (3–6 plus 1–2 brown bears and 7–12 orcs or 9–16 goblins)
 
@@ -66,11 +66,11 @@ Some mythic ettins are strongly related to one of their ancestral races, and hav
 
 ## Hillblood Ettin (CR 8/MR 3)
 
-A hill-giant-dominant mythic ettin loses its powerful charge and stench abilities but gains a [mythic hill giant's](/pathfinderRPG/prd/mythicAdventures/mythicMonsters/giants.html#_giant-hill) earth bond and ground pound abilities.
+A hill-giant-dominant mythic ettin loses its powerful charge and stench abilities but gains a [mythic hill giant's](mythicAdventures/mythicMonsters/giants.md#_giant-hill) earth bond and ground pound abilities.
 
 ## Orcblood Ettin (CR 8/MR 3)
 
-An orc-dominant mythic ettin loses its stench and two brains abilities, but gains [blood rage](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blood-rage) and [feral savagery](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_feral-savagery).
+An orc-dominant mythic ettin loses its stench and two brains abilities, but gains [blood rage](monsters/universalMonsterRules.md#_blood-rage) and [feral savagery](mythicAdventures/mythicMonsters.md#_feral-savagery).
 
 ## Stoneblood Ettin (CR 8/MR 3)
 

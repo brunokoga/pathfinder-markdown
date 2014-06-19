@@ -6,9 +6,9 @@ Like some miniscule, wicked old man, this snarling little humanoid wears metal b
 
 **XP 2,400**
 
-NE Small [fey](/pathfinderRPG/prd/monsters/creatureTypes.html#_fey)
+NE Small [fey](monsters/creatureTypes.md#_fey)
 
-**Init** +8; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +12
+**Init** +8; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +12
 
 Defense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +7; **CMD** 21
 
-**Feats** [Cleave](/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (scythe)
+**Feats** [Cleave](additionalMonsters/../feats.md#_cleave), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (scythe)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +15 (+27 jump), [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +13, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +15, [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +15, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +10, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (nature) +14, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +12, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +12, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +19
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +15 (+27 jump), [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +13, [Climb](additionalMonsters/../skills/climb.md#_climb) +15, [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +15, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +10, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (nature) +14, [Perception](additionalMonsters/../skills/perception.md#_perception) +12, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +12, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +19
 
 **Languages** Aklo, Common, Giant, Sylvan
 
@@ -52,7 +52,7 @@ Ecology
 
 Special Abilities
 
-**Boot Stomp (Ex)** A redcap wears heavy iron boots with spiked soles that it uses to deadly effect in combat. These boots give the redcap a kick attack that it can make as a secondary attack, either as part of a full-attack action or as part of its movement just as if it had the [Spring Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_spring-attack) feat.
+**Boot Stomp (Ex)** A redcap wears heavy iron boots with spiked soles that it uses to deadly effect in combat. These boots give the redcap a kick attack that it can make as a secondary attack, either as part of a full-attack action or as part of its movement just as if it had the [Spring Attack](additionalMonsters/../feats.md#_spring-attack) feat.
 
 **Heavy Weapons (Ex)** A redcap can wield weapons sized for Medium creatures without penalty.
 

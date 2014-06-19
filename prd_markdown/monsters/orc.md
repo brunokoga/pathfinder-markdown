@@ -8,9 +8,9 @@ _This savage creature looks like a bestial version of a savage human, with green
 
 Orc warrior 1
 
-CE Medium [humanoid](creatureTypes.html#_humanoid)
+CE Medium [humanoid](creatureTypes.md#_humanoid)
 
-**Init** +0; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) –1
+**Init** +0; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) –1
 
 **Defense**
 
@@ -22,7 +22,7 @@ CE Medium [humanoid](creatureTypes.html#_humanoid)
 
 **Defensive Abilities** ferocity
 
-**Weaknesses** [light sensitivity](universalMonsterRules.html#_light-sensitivity)
+**Weaknesses** [light sensitivity](universalMonsterRules.md#_light-sensitivity)
 
 **Offense**
 
@@ -38,9 +38,9 @@ CE Medium [humanoid](creatureTypes.html#_humanoid)
 
 **Base**  **Atk** +1; **CMB** +4; **CMD** 14
 
-**Feats** [Weapon Focus](../feats.html#_weapon-focus) (falchion)
+**Feats** [Weapon Focus](../feats.md#_weapon-focus) (falchion)
 
-**Skills** [Intimidate](../skills/intimidate.html#_intimidate) +2
+**Skills** [Intimidate](../skills/intimidate.md#_intimidate) +2
 
 **Languages** Common, Orc
 
@@ -66,11 +66,11 @@ Orcs are defined by their class levels—they do not possess racial Hit Dice. Al
 
 **Darkvision** : Orcs can see in the dark up to 60 feet.
 
-**[Ferocity](universalMonsterRules.html#_ferocity)**
+**[Ferocity](universalMonsterRules.md#_ferocity)**
 
-**[Light Sensitivity](universalMonsterRules.html#_light-sensitivity)**
+**[Light Sensitivity](universalMonsterRules.md#_light-sensitivity)**
 
-**Weapon Familiarity** : Orcs are always proficient with greataxes and falchions, and treat any weapon with the word âorcâ in its name as a martial weapon.
+**Weapon Familiarity** : Orcs are always proficient with greataxes and falchions, and treat any weapon with the word “orc” in its name as a martial weapon.
 
 **Languages** : Orcs begin play speaking Common and Orc. Orcs with high Intelligence scores can choose from among the following bonus languages: Dwarven, Giant, Gnoll, Goblin, Undercommon.
 

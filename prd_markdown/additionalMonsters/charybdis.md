@@ -6,9 +6,9 @@ An immense spiny monster, its back plated in chitin and its belly in thick folds
 
 **XP 25,600**
 
-CN Gargantuan [aberration](/pathfinderRPG/prd/monsters/creatureTypes.html#_aberration) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+CN Gargantuan [aberration](monsters/creatureTypes.md#_aberration) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +3; **Senses** [blindsight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight) 60 ft., darkvision 120 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +23
+**Init** +3; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 60 ft., darkvision 120 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +23
 
 Defense
 
@@ -18,17 +18,17 @@ Defense
 
 **Fort** +12, **Ref** +6, **Will** +14
 
-**Immune** acid; **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 20
+**Immune** acid; **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 20
 
 Offense
 
 **Speed** 20 ft., swim 50 ft.
 
-**Melee** bite +20 (2d8+12/19–20 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), 2 claws +20 (2d6+12)
+**Melee** bite +20 (2d8+12/19–20 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 claws +20 (2d6+12)
 
 **Space** 20 ft.; **Reach** 20 ft.
 
-**Special Attacks** [fast swallow](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fast-swallow), rending claws, swallow whole (6d6 bludgeoning damage plus 6d6 acid damage, AC 21, hp 18), vortex
+**Special Attacks** [fast swallow](monsters/universalMonsterRules.md#_fast-swallow), rending claws, swallow whole (6d6 bludgeoning damage plus 6d6 acid damage, AC 21, hp 18), vortex
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +12; **CMB** +28 (+32 grapple); **CMD** 37 (can't be tripped)
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_awesome-blow), [Improved Bull Rush](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Improved Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-vital-strike), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike)
+**Feats** [Awesome Blow](additionalMonsters/../monsters/monsterFeats.md#_awesome-blow), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +23, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +20
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +23, [Swim](additionalMonsters/../skills/swim.md#_swim) +20
 
 **Languages** Aquan
 
@@ -52,9 +52,9 @@ Ecology
 
 Special Abilities
 
-**[Rending Claws](/pathfinderRPG/prd/additionalMonsters/../advanced/advancedFeats.html#_rending-claws-(combat)) (Ex)** A charybdis's claws are particularly devastating when used against objects, and ignore the first 10 points of an object's hardness rating.
+**[Rending Claws](additionalMonsters/../advanced/advancedFeats.md#_rending-claws-(combat)) (Ex)** A charybdis's claws are particularly devastating when used against objects, and ignore the first 10 points of an object's hardness rating.
 
-**Vortex (Su)** A charybdis can generate a whirlpool as a standard action at will. This ability functions identically to the [whirlwind](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_whirlwind) special attack (see the Universal Monster Rules in Appendix 3), but the whirlpool can only form underwater and cannot leave the water. It's a DC 25 Reflex save to avoid being caught by the charybdis's vortex. The vortex itself is 20 feet across and 120 feet deep, and deals 2d6+12 points of damage per round. The save DC is Constitution-based.
+**Vortex (Su)** A charybdis can generate a whirlpool as a standard action at will. This ability functions identically to the [whirlwind](monsters/universalMonsterRules.md#_whirlwind) special attack (see the Universal Monster Rules in Appendix 3), but the whirlpool can only form underwater and cannot leave the water. It's a DC 25 Reflex save to avoid being caught by the charybdis's vortex. The vortex itself is 20 feet across and 120 feet deep, and deals 2d6+12 points of damage per round. The save DC is Constitution-based.
 
 Sailors tell many tales of the creatures of the deep, from the terrible kraken to the beautiful mermaid. Yet few are stranger or more feared than the dread charybdis, for it exists to capture ships, crack them open like nuts, and feast on the doomed sailors within. So legendary are these violent attacks that many sailors have come to view the charybdis not as a species of aberrant life, but as the vengeful personification of an angry sea god.
 

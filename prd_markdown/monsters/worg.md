@@ -6,9 +6,9 @@ _This unusually large wolf has an evil, almost intelligent light shining in its 
 
 **XP 600**
 
-NE Medium [magical beast](creatureTypes.html#_magical-beast)
+NE Medium [magical beast](creatureTypes.md#_magical-beast)
 
-**Init** +2; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +11
+**Init** +2; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +11
 
 **Defense**
 
@@ -22,7 +22,7 @@ NE Medium [magical beast](creatureTypes.html#_magical-beast)
 
 **Speed** 50 ft.
 
-**Melee** bite +7 (1d6+4 plus [trip](universalMonsterRules.html#_trip))
+**Melee** bite +7 (1d6+4 plus [trip](universalMonsterRules.md#_trip))
 
 **Statistics**
 
@@ -30,9 +30,9 @@ NE Medium [magical beast](creatureTypes.html#_magical-beast)
 
 **Base Atk** +4; **CMB** +7; **CMD** 19 (23 vs. trip)
 
-**Feats** [Run](../feats.html#_run), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
+**Feats** [Run](../feats.md#_run), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
 
-**Skills** [Perception](../skills/perception.html#_perception) +11, [Stealth](../skills/stealth.html#_stealth) +9, [Survival](../skills/survival.html#_survival) +5; **Racial Modifiers** +2 [Perception](../skills/perception.html#_perception), +2 [Stealth](../skills/stealth.html#_stealth), +2 [Survival](../skills/survival.html#_survival)
+**Skills** [Perception](../skills/perception.md#_perception) +11, [Stealth](../skills/stealth.md#_stealth) +9, [Survival](../skills/survival.md#_survival) +5; **Racial Modifiers** +2 [Perception](../skills/perception.md#_perception), +2 [Stealth](../skills/stealth.md#_stealth), +2 [Survival](../skills/survival.md#_survival)
 
 **Languages** Common, Goblin
 
@@ -56,9 +56,9 @@ _This bear-sized wolf has white fur and a rime of frost around its muzzle. Its e
 
 **XP 1,600**
 
-NE Large [magical beast](creatureTypes.html#_magical-beast) (cold)
+NE Large [magical beast](creatureTypes.md#_magical-beast) (cold)
 
-**Init** +5; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +11
+**Init** +5; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +11
 
 **Defense**
 
@@ -70,17 +70,17 @@ NE Large [magical beast](creatureTypes.html#_magical-beast) (cold)
 
 **Immune** cold
 
-**Weaknesses** [vulnerability](universalMonsterRules.html#_vulnerabilties) to fire
+**Weaknesses** [vulnerability](universalMonsterRules.md#_vulnerabilties) to fire
 
 **Offense**
 
 **Speed** 50 ft.
 
-**Melee** bite +10 (1d8+7 plus 1d6 cold and [trip](universalMonsterRules.html#_trip))
+**Melee** bite +10 (1d8+7 plus 1d6 cold and [trip](universalMonsterRules.md#_trip))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [breath weapon](universalMonsterRules.html#_breath-weapon) (every 1d4 rounds, 15-ft. cone, 6d6 cold damage, Reflex half DC 17)
+**Special Attacks** [breath weapon](universalMonsterRules.md#_breath-weapon) (every 1d4 rounds, 15-ft. cone, 6d6 cold damage, Reflex half DC 17)
 
 **Statistics**
 
@@ -88,9 +88,9 @@ NE Large [magical beast](creatureTypes.html#_magical-beast) (cold)
 
 **Base Atk** +6; **CMB** +12; **CMD** 23 (27 vs. trip)
 
-**Feats** [Improved Initiative](../feats.html#_improved-initiative), [Run](../feats.html#_run), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
+**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Run](../feats.md#_run), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
 
-**Skills** [Perception](../skills/perception.html#_perception) +11, [Stealth](../skills/stealth.html#_stealth) +4 (+10 in snow), [Survival](../skills/survival.html#_survival) +5; **Racial Modifiers** +2 [Perception](../skills/perception.html#_perception), +2 [Stealth](../skills/stealth.html#_stealth) (+8 in snow), +2 [Survival](../skills/survival.html#_survival)
+**Skills** [Perception](../skills/perception.md#_perception) +11, [Stealth](../skills/stealth.md#_stealth) +4 (+10 in snow), [Survival](../skills/survival.md#_survival) +5; **Racial Modifiers** +2 [Perception](../skills/perception.md#_perception), +2 [Stealth](../skills/stealth.md#_stealth) (+8 in snow), +2 [Survival](../skills/survival.md#_survival)
 
 **Languages** Common, Giant
 

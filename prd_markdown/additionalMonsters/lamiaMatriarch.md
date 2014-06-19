@@ -6,9 +6,9 @@ Lamia MatriarchCR 8
 
 **XP 4,800**
 
-CE Large [monstrous humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_monstrous-humanoid) ( [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+CE Large [monstrous humanoid](monsters/creatureTypes.md#_monstrous-humanoid) ( [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +3
+**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +3
 
 Defense
 
@@ -34,19 +34,19 @@ touch +16 (1d4 Wisdom drain)
 
 **Spell-Like Abilities** (CL 12th; concentration +17)
 
-At will—_ [charm monster](/pathfinderRPG/prd/additionalMonsters/../spells/charmMonster.html#_charm-monster)_ (DC 19), _ [ventriloquism](/pathfinderRPG/prd/additionalMonsters/../spells/ventriloquism.html#_ventriloquism)_ (DC 16)
+At will—_ [charm monster](additionalMonsters/../spells/charmMonster.md#_charm-monster)_ (DC 19), _ [ventriloquism](additionalMonsters/../spells/ventriloquism.md#_ventriloquism)_ (DC 16)
 
-3/day—_ [deep slumber](/pathfinderRPG/prd/additionalMonsters/../spells/deepSlumber.html#_deep-slumber)_ (DC 18), _ [dream](/pathfinderRPG/prd/additionalMonsters/../spells/dream.html#_dream)_, _ [major image](/pathfinderRPG/prd/additionalMonsters/../spells/majorImage.html#_major-image)_ (DC 18), _ [mirror image](/pathfinderRPG/prd/additionalMonsters/../spells/mirrorImage.html#_mirror-image)_, _ [suggestion](/pathfinderRPG/prd/additionalMonsters/../spells/suggestion.html#_suggestion)_ (DC 18)
+3/day—_ [deep slumber](additionalMonsters/../spells/deepSlumber.md#_deep-slumber)_ (DC 18), _ [dream](additionalMonsters/../spells/dream.md#_dream)_, _ [major image](additionalMonsters/../spells/majorImage.md#_major-image)_ (DC 18), _ [mirror image](additionalMonsters/../spells/mirrorImage.md#_mirror-image)_, _ [suggestion](additionalMonsters/../spells/suggestion.md#_suggestion)_ (DC 18)
 
 **Spells Known** (CL 6th; concentration +11)
 
-3rd (4/day)—_ [haste](/pathfinderRPG/prd/additionalMonsters/../spells/haste.html#_haste)_
+3rd (4/day)—_ [haste](additionalMonsters/../spells/haste.md#_haste)_
 
-2nd (6/day)—_ [death knell](/pathfinderRPG/prd/additionalMonsters/../spells/deathKnell.html#_death-knell)_ (DC 17), _ [invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility)_
+2nd (6/day)—_ [death knell](additionalMonsters/../spells/deathKnell.md#_death-knell)_ (DC 17), _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_
 
-1st (8/day)—_ [cure light wounds](/pathfinderRPG/prd/additionalMonsters/../spells/cureLightWounds.html#_cure-light-wounds)_, _ [divine favor](/pathfinderRPG/prd/additionalMonsters/../spells/divineFavor.html#_divine-favor)_, _ [mage armor](/pathfinderRPG/prd/additionalMonsters/../spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/additionalMonsters/../spells/magicMissile.html#_magic-missile)_
+1st (8/day)—_ [cure light wounds](additionalMonsters/../spells/cureLightWounds.md#_cure-light-wounds)_, _ [divine favor](additionalMonsters/../spells/divineFavor.md#_divine-favor)_, _ [mage armor](additionalMonsters/../spells/mageArmor.md#_mage-armor)_, _ [magic missile](additionalMonsters/../spells/magicMissile.md#_magic-missile)_
 
-0 (at will)—_ [dancing lights](/pathfinderRPG/prd/additionalMonsters/../spells/dancingLights.html#_dancing-lights)_, _ [daze](/pathfinderRPG/prd/additionalMonsters/../spells/daze.html#_daze)_ (DC 15), _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [ghost sound](/pathfinderRPG/prd/additionalMonsters/../spells/ghostSound.html#_ghost-sound)_ (DC 15), _ [mage hand](/pathfinderRPG/prd/additionalMonsters/../spells/mageHand.html#_mage-hand)_, _ [mending](/pathfinderRPG/prd/additionalMonsters/../spells/mending.html#_mending)_, _ [prestidigitation](/pathfinderRPG/prd/additionalMonsters/../spells/prestidigitation.html#_prestidigitation)_
+0 (at will)—_ [dancing lights](additionalMonsters/../spells/dancingLights.md#_dancing-lights)_, _ [daze](additionalMonsters/../spells/daze.md#_daze)_ (DC 15), _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [ghost sound](additionalMonsters/../spells/ghostSound.md#_ghost-sound)_ (DC 15), _ [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand)_, _ [mending](additionalMonsters/../spells/mending.md#_mending)_, _ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_
 
 Statistics
 
@@ -54,13 +54,13 @@ Statistics
 
 **Base Atk** +12; **CMB** +18; **CMD** 32 (can't be tripped)
 
-**Feats** [Double Slice](/pathfinderRPG/prd/additionalMonsters/../feats.html#_double-slice), [Extend Spell](/pathfinderRPG/prd/additionalMonsters/../feats.html#_extend-spell), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (scimitar), [Improved Two-Weapon Fighting](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-two-weapon-fighting), [Two-Weapon Fighting](/pathfinderRPG/prd/additionalMonsters/../feats.html#_two-weapon-fighting), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (scimitar)
+**Feats** [Double Slice](additionalMonsters/../feats.md#_double-slice), [Extend Spell](additionalMonsters/../feats.md#_extend-spell), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (scimitar), [Improved Two-Weapon Fighting](additionalMonsters/../feats.md#_improved-two-weapon-fighting), [Two-Weapon Fighting](additionalMonsters/../feats.md#_two-weapon-fighting), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (scimitar)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +8 (+12 jump), [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +21, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +13, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +11, [Disguise](/pathfinderRPG/prd/additionalMonsters/../skills/disguise.html#_disguise) +11, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +20, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (any one) +15, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana) +15, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +15, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +13, [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) +21; **Racial Modifiers** +4 Acrobatics, +4 [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff), +4 [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +8 (+12 jump), [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +21, [Climb](additionalMonsters/../skills/climb.md#_climb) +13, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +11, [Disguise](additionalMonsters/../skills/disguise.md#_disguise) +11, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +20, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (any one) +15, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +15, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +15, [Swim](additionalMonsters/../skills/swim.md#_swim) +13, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +21; **Racial Modifiers** +4 Acrobatics, +4 [Bluff](additionalMonsters/../skills/bluff.md#_bluff), +4 [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device)
 
 **Languages** Abyssal, Common, Draconic
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (fixed Medium [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid) form, _ [alter self](/pathfinderRPG/prd/additionalMonsters/../spells/alterSelf.html#_alter-self)_), [undersized weapons](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_undersized-weapons)
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (fixed Medium [humanoid](monsters/creatureTypes.md#_humanoid) form, _ [alter self](additionalMonsters/../spells/alterSelf.md#_alter-self)_), [undersized weapons](monsters/universalMonsterRules.md#_undersized-weapons)
 
 Ecology
 

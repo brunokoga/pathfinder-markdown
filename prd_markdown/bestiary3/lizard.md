@@ -8,7 +8,7 @@ XP 400
 
 N Medium animal
 
-**Init** +6; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +6
+**Init** +6; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +6
 
 Defense
 
@@ -30,9 +30,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +2; **CMD** 14 (18 vs. trip)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative)
+**Feats** [Improved Initiative](feats.md#_improved-initiative)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +21, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +6; **Racial Modifiers** +8 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb)
+**Skills** [Climb](skills/climb.md#_climb) +21, [Perception](skills/perception.md#_perception) +6; **Racial Modifiers** +8 [Climb](skills/climb.md#_climb)
 
 **SQ** expert climber
 
@@ -46,7 +46,7 @@ Ecology
 
 Special Abilities
 
-**Expert Climber (Ex)** A gecko's feet allow it to climb virtually any surface, no matter how slick or sheer. In effect, geckos are treated as constantly being under a natural version of the spell _ [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_.
+**Expert Climber (Ex)** A gecko's feet allow it to climb virtually any surface, no matter how slick or sheer. In effect, geckos are treated as constantly being under a natural version of the spell _ [spider climb](spells/spiderClimb.md#_spider-climb)_.
 
 These lizards are mostly docile and shy away from attacking creatures larger than a cat or dog. Despite their shyness, they are ultimately curious creatures, and often approach bigger creatures simply to investigate. Of course, a giant gecko is more than capable of defending itself, biting creatures that react violently to the lizard when fleeing is not an option.
 
@@ -62,7 +62,7 @@ XP 800
 
 N Large animal
 
-**Init** +6; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +4
+**Init** +6; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +4
 
 Defense
 
@@ -76,7 +76,7 @@ Offense
 
 **Speed** 40 ft., climb 40 ft.
 
-**Melee** bite +6 (2d6+4) or tongue +5 touch ( [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +6 (2d6+4) or tongue +5 touch ( [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft. (15 ft. with tongue)
 
@@ -88,9 +88,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +7 (+11 grapple); **CMD** 19
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))
+**Feats** [Improved Initiative](feats.md#_improved-initiative), [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth))
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +15, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +4, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +18 (+28 when still); **Racial Modifiers** +12 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) (+22 when still)
+**Skills** [Climb](skills/climb.md#_climb) +15, [Perception](skills/perception.md#_perception) +4, [Stealth](skills/stealth.md#_stealth) +18 (+28 when still); **Racial Modifiers** +12 [Stealth](skills/stealth.md#_stealth) (+22 when still)
 
 Ecology
 
@@ -102,7 +102,7 @@ Ecology
 
 Special Abilities
 
-**Tongue (Ex)** A [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) chameleon can [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab) a foe with its tongue and draw the victim to its mouth. This tongue attack has a reach of 15 feet. The attack does no damage, but allows the creature to [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab). A [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) chameleon does not gain the grappled condition while using its tongue in this manner.
+**Tongue (Ex)** A [giant](monsters/creatureTypes.md#_giant-subtype) chameleon can [grab](monsters/universalMonsterRules.md#_grab) a foe with its tongue and draw the victim to its mouth. This tongue attack has a reach of 15 feet. The attack does no damage, but allows the creature to [grab](monsters/universalMonsterRules.md#_grab). A [giant](monsters/creatureTypes.md#_giant-subtype) chameleon does not gain the grappled condition while using its tongue in this manner.
 
 These large lizards have the ability to shift the pigments in their skin to match their surroundings. A giant chameleon is typically 11 feet long and weighs 160 pounds.
 

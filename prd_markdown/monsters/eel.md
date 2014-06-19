@@ -6,9 +6,9 @@ _This six-foot-long, snake-like fish moves slowly. A strange popping and snappin
 
 **XP 600**
 
-N Small [animal](creatureTypes.html#_animal)
+N Small [animal](creatureTypes.md#_animal)
 
-**Init** +6; **Senses** low-light vision; [Perception](../skills/perception.html#_perception) +4
+**Init** +6; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +4
 
 **Defense**
 
@@ -32,9 +32,9 @@ N Small [animal](creatureTypes.html#_animal)
 
 **Base Atk** +1; **CMB** +1; **CMD** 13 (can't be tripped)
 
-**Feats** [Improved Initiative](../feats.html#_improved-initiative)
+**Feats** [Improved Initiative](../feats.md#_improved-initiative)
 
-**Skills** [Escape Artist](../skills/escapeArtist.html#_escape-artist) +10, [Perception](../skills/perception.html#_perception) +4, [Stealth](../skills/stealth.html#_stealth) +10, [Swim](../skills/swim.html#_swim) +9; **Racial Modifiers** +8 [Escape Artist](../skills/escapeArtist.html#_escape-artist)
+**Skills** [Escape Artist](../skills/escapeArtist.md#_escape-artist) +10, [Perception](../skills/perception.md#_perception) +4, [Stealth](../skills/stealth.md#_stealth) +10, [Swim](../skills/swim.md#_swim) +9; **Racial Modifiers** +8 [Escape Artist](../skills/escapeArtist.md#_escape-artist)
 
 **Ecology**
 
@@ -64,9 +64,9 @@ _This sixteen-foot-long eel slithers through the water with uncanny grace, mouth
 
 **XP 1,600**
 
-N Large [animal](creatureTypes.html#_animal) (aquatic)
+N Large [animal](creatureTypes.md#_animal) (aquatic)
 
-**Init** +6; **Senses** low-light vision, scent; [Perception](../skills/perception.html#_perception) +7
+**Init** +6; **Senses** low-light vision, scent; [Perception](../skills/perception.md#_perception) +7
 
 **Defense**
 
@@ -80,7 +80,7 @@ N Large [animal](creatureTypes.html#_animal) (aquatic)
 
 **Speed** swim 30 ft.
 
-**Melee** bite +11 (2d6+9 plus [grab](universalMonsterRules.html#_grab))
+**Melee** bite +11 (2d6+9 plus [grab](universalMonsterRules.md#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -92,9 +92,9 @@ N Large [animal](creatureTypes.html#_animal) (aquatic)
 
 **Base Atk** +5; **CMB** +12 (+16 grapple); **CMD** 24 (can't be tripped)
 
-**Feats** [Improved Initiative](../feats.html#_improved-initiative), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Skill Focus](../feats.html#_skill-focus) ( [Stealth](../skills/stealth.html#_stealth)), [Weapon Focus](../feats.html#_weapon-focus) (bite)
+**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Skill Focus](../feats.md#_skill-focus) ( [Stealth](../skills/stealth.md#_stealth)), [Weapon Focus](../feats.md#_weapon-focus) (bite)
 
-**Skills** [Escape Artist](../skills/escapeArtist.html#_escape-artist) +10, [Perception](../skills/perception.html#_perception) +7, [Stealth](../skills/stealth.html#_stealth) +8, [Swim](../skills/swim.html#_swim) +14; **Racial Modifiers** +8 [Escape Artist](../skills/escapeArtist.html#_escape-artist)
+**Skills** [Escape Artist](../skills/escapeArtist.md#_escape-artist) +10, [Perception](../skills/perception.md#_perception) +7, [Stealth](../skills/stealth.md#_stealth) +8, [Swim](../skills/swim.md#_swim) +14; **Racial Modifiers** +8 [Escape Artist](../skills/escapeArtist.md#_escape-artist)
 
 **Ecology**
 

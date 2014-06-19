@@ -6,9 +6,9 @@ This giant's maw contains a pair of dripping tusks, but it is its gangly third a
 
 **XP 19,200**
 
-CE Huge [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid) (giant)
+CE Huge [humanoid](monsters/creatureTypes.md#_humanoid) (giant)
 
-**Init** +1; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +12
+**Init** +1; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +12
 
 Defense
 
@@ -18,13 +18,13 @@ Defense
 
 **Fort** +16, **Ref** +5, **Will** +7
 
-**Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10
+**Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10
 
 Offense
 
 **Speed** 50 ft.
 
-**Melee** 2 slams +19 (1d8+11), bite +19 (2d6+11 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su))) or
+**Melee** 2 slams +19 (1d8+11), bite +19 (2d6+11 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))) or
 
 heavy mace +19/+14 (3d6+11), bite +17 (2d6+5 plus poison)
 
@@ -32,7 +32,7 @@ heavy mace +19/+14 (3d6+11), bite +17 (2d6+5 plus poison)
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** [rock throwing](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_rock-throwing) (140 ft.), swift claw
+**Special Attacks** [rock throwing](monsters/universalMonsterRules.md#_rock-throwing) (140 ft.), swift claw
 
 Statistics
 
@@ -40,15 +40,15 @@ Statistics
 
 **Base Atk** +10; **CMB** +23; **CMD** 34
 
-**Feats** [Cleave](/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave), [Improved Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-iron-will), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Lunge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lunge), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike)
+**Feats** [Cleave](additionalMonsters/../feats.md#_cleave), [Improved Iron Will](additionalMonsters/../feats.md#_improved-iron-will), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Lunge](additionalMonsters/../feats.md#_lunge), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +1 (+9 jump), [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +20, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +12, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) -7
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +1 (+9 jump), [Climb](additionalMonsters/../skills/climb.md#_climb) +20, [Perception](additionalMonsters/../skills/perception.md#_perception) +12, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) -7
 
 **Languages** Giant
 
 Ecology
 
-**Environment** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) or temperate hills
+**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) or temperate hills
 
 **Organization** solitary, gang (2–4), or tribe (7–12)
 
@@ -56,7 +56,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 24; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Str; _cure_ 2 consecutive saves.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 24; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Str; _cure_ 2 consecutive saves.
 
 **Swift Claw (Ex)** An athach can attack with its claw as a swift action, even when the creature's movement would normally restrict it to one attack. This attack is made at a +19 bonus and deals 1d10+11 points of damage, regardless of what other attacks are made on the athach's turn.
 

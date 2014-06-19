@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
 You can use _dispel magic _to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by _dispel magic_. _Dispel magic _can dispel (but not counter) spell-like effects just as it does spells. The effect of a spell with an instantaneous duration can't be dispelled, because the magical effect is already over before the _dispel magic _can take effect.
 
@@ -20,9 +20,9 @@ You choose to use _dispel magic _in one of two ways: a targeted dispel or a coun
 
 _Targeted Dispel_: One object, creature, or spell is the target of the _dispel magic _spell. You make one dispel check (1d20 + your caster level) and compare that to the spell with highest caster level (DC = 11 + the spell's caster level). If successful, that spell ends. If not, compare the same result to the spell with the next highest caster level. Repeat this process until you have dispelled one spell affecting the target, or you have failed to dispel every spell.
 
-For example, a 7th-level caster casts _dispel magic_, targeting a creature affected by _ [stoneskin](stoneskin.html#_stoneskin) _(caster level 12th) and _fly_ (caster level 6th). The caster level check results in a 19. This check is not high enough to end the _ [stoneskin](stoneskin.html#_stoneskin)_ (which would have required a 23 or higher), but it is high enough to end the _fly_ (which only required a 17). Had the dispel check resulted in a 23 or higher, the _ [stoneskin](stoneskin.html#_stoneskin)_ would have been dispelled, leaving the _fly _intact. Had the dispel check been a 16 or less, no spells would have been affected.
+For example, a 7th-level caster casts _dispel magic_, targeting a creature affected by _ [stoneskin](stoneskin.md#_stoneskin) _(caster level 12th) and _fly_ (caster level 6th). The caster level check results in a 19. This check is not high enough to end the _ [stoneskin](stoneskin.md#_stoneskin)_ (which would have required a 23 or higher), but it is high enough to end the _fly_ (which only required a 17). Had the dispel check resulted in a 23 or higher, the _ [stoneskin](stoneskin.md#_stoneskin)_ would have been dispelled, leaving the _fly _intact. Had the dispel check been a 16 or less, no spells would have been affected.
 
-You can also use a targeted dispel to specifically end one spell affecting the target or one spell affecting an area (such as a _ [wall of fire](wallOfFire.html#_wall-of-fire)_). You must name the specific spell effect to be targeted in this way. If your caster level check is equal to or higher than the DC of that spell, it ends. No other spells or effects on the target are dispelled if your check is not high enough to end the targeted effect.
+You can also use a targeted dispel to specifically end one spell affecting the target or one spell affecting an area (such as a _ [wall of fire](wallOfFire.md#_wall-of-fire)_). You must name the specific spell effect to be targeted in this way. If your caster level check is equal to or higher than the DC of that spell, it ends. No other spells or effects on the target are dispelled if your check is not high enough to end the targeted effect.
 
 If you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by _summon monster_), you make a dispel check to end the spell that conjured the object or creature.
 
@@ -44,7 +44,7 @@ You choose to use _greater dispel magic _in one of three ways: a targeted dispel
 
 _Targeted Dispel_: This functions as a targeted _dispel magic_, but it can dispel one spell for every four caster levels you possess, starting with the highest level spells and proceeding to lower level spells.
 
-Additionally, _greater dispel magic _has a chance to dispel any effect that _ [remove curse](removeCurse.html#_remove-curse) _can remove, even if _dispel magic _can't dispel that effect. The DC of this check is equal to the curse's DC.
+Additionally, _greater dispel magic _has a chance to dispel any effect that _ [remove curse](removeCurse.md#_remove-curse) _can remove, even if _dispel magic _can't dispel that effect. The DC of this check is equal to the curse's DC.
 
 _Area Dispel_: When _greater dispel magic _is used in this way, the spell affects everything within a 20-foot-radius burst. Roll one dispel check and apply that check to each creature in the area, as if targeted by _dispel magic_. For each object within the area that is the target of one or more spells, apply the dispel check as with creatures. Magic items are not affected by an area dispel.
 

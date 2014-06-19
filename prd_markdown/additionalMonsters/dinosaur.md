@@ -6,9 +6,9 @@ This bipedal dinosaur has a mouth filled with sharp teeth and short, powerful ar
 
 **XP 3,200**
 
-N Huge [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Huge [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +5; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +28
+**Init** +5; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +28
 
 Defense
 
@@ -22,11 +22,11 @@ Offense
 
 **Speed** 50 ft.
 
-**Melee** bite +14 (2d6+8/19–20 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), 2 claws +14 (1d8+8)
+**Melee** bite +14 (2d6+8/19–20 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 claws +14 (1d8+8)
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce), [rake](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_rake) (2 talons +14, 1d8+8)
+**Special Attacks** [pounce](monsters/universalMonsterRules.md#_pounce), [rake](monsters/universalMonsterRules.md#_rake) (2 talons +14, 1d8+8)
 
 Statistics
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +8; **CMB** +18; **CMD** 29
 
-**Feats** [Alertness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_alertness), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Nimble Moves](/pathfinderRPG/prd/additionalMonsters/../feats.html#_nimble-moves), [Run](/pathfinderRPG/prd/additionalMonsters/../feats.html#_run)
+**Feats** [Alertness](additionalMonsters/../feats.md#_alertness), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Nimble Moves](additionalMonsters/../feats.md#_nimble-moves), [Run](additionalMonsters/../feats.md#_run)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +30; **Racial Modifiers** +8 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +30; **Racial Modifiers** +8 [Perception](additionalMonsters/../skills/perception.md#_perception)
 
 Ecology
 
@@ -62,9 +62,9 @@ CompsognathusCR 1/2
 
 **XP 200**
 
-N Tiny [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Tiny [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +6; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4
+**Init** +6; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +4
 
 Defense
 
@@ -78,7 +78,7 @@ Offense
 
 **Speed** 40 ft., swim 20 ft.
 
-**Melee** bite +1 (1d3–1 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** bite +1 (1d3–1 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 2-1/2 ft.; **Reach** 0 ft.
 
@@ -88,9 +88,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +0; **CMD** 9
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative)
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +10
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +4, [Swim](additionalMonsters/../skills/swim.md#_swim) +10
 
 Ecology
 
@@ -102,7 +102,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 12; _frequency_ 1/round for 4 rounds; _effect_ 1d2 Str; _cure_ 1 save.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 12; _frequency_ 1/round for 4 rounds; _effect_ 1d2 Str; _cure_ 1 save.
 
 The compsognathus is a small dinosaur that moves in swift, darting motions. Its bite injects a venom that causes numbness and weakness, a trait that the animal uses to bring down larger prey. A compsognathus measures 3 feet long and weighs 15 pounds.
 
@@ -116,9 +116,9 @@ This thick-bodied dinosaur has a whip-like tail and a long neck, its head topped
 
 **XP 1,200**
 
-N Huge [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Huge [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +2; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +13
+**Init** +2; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +13
 
 Defense
 
@@ -144,9 +144,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +12; **CMD** 24 (28 vs. trip)
 
-**Feats** [Improved Bull Rush](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception))
+**Feats** [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +13
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +13
 
 Ecology
 
@@ -172,9 +172,9 @@ Surging out of the water, this massive lizard is shaped like a giant fish with a
 
 **XP 4,800**
 
-N Gargantuan [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Gargantuan [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +1; **Senses** low-light vision, darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +14
+**Init** +1; **Senses** low-light vision, darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +14
 
 Defense
 
@@ -188,7 +188,7 @@ Offense
 
 **Speed** 20 ft., swim 50 ft.
 
-**Melee** bite +15 (2d8+18 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +15 (2d8+18 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
@@ -200,13 +200,13 @@ Statistics
 
 **Base Atk** +7; **CMB** +23 (+27 grapple); **CMD** 35 (39 vs. trip)
 
-**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Cleave](/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack)
+**Feats** [Dodge](additionalMonsters/../feats.md#_dodge), [Cleave](additionalMonsters/../feats.md#_cleave), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Mobility](additionalMonsters/../feats.md#_mobility), [Power Attack](additionalMonsters/../feats.md#_power-attack)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +14, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +20
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +14, [Swim](additionalMonsters/../skills/swim.md#_swim) +20
 
 Ecology
 
-**Environment** warm [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype)
+**Environment** warm [aquatic](monsters/creatureTypes.md#_aquatic-subtype)
 
 **Organization** solitary, pair, or school (3–6)
 

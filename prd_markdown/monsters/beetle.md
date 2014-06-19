@@ -6,9 +6,9 @@ _This housecat-sized beetle is a dull brown color brightened by two glowing gree
 
 **XP 135**
 
-N Small [vermin](creatureTypes.html#_vermin)
+N Small [vermin](creatureTypes.md#_vermin)
 
-**Init** +0; **Senses** low-light vision; [Perception](../skills/perception.html#_perception) +0
+**Init** +0; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +0
 
 **Defense**
 
@@ -32,7 +32,7 @@ N Small [vermin](creatureTypes.html#_vermin)
 
 **Base**  **Atk** +0; **CMB** –1; **CMD** 9 (17 vs. trip)
 
-**Skills** [Fly](../skills/fly.html#_fly) –2
+**Skills** [Fly](../skills/fly.md#_fly) –2
 
 **SQ** luminescence
 
@@ -64,9 +64,9 @@ _With a sleek body and huge mandibles raised in a threatening pose, this large b
 
 **XP 1,200**
 
-N Large [vermin](creatureTypes.html#_vermin)
+N Large [vermin](creatureTypes.md#_vermin)
 
-**Init** +0; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +0
+**Init** +0; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +0
 
 **Defense**
 
@@ -94,7 +94,7 @@ N Large [vermin](creatureTypes.html#_vermin)
 
 **Base**  **Atk** +5; **CMB** +10; **CMD** 20 (28 vs. trip)
 
-**Skills** [Fly](../skills/fly.html#_fly) –6
+**Skills** [Fly](../skills/fly.md#_fly) –6
 
 **Ecology**
 

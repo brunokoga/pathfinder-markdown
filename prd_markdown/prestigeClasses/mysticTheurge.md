@@ -14,15 +14,15 @@ Mystic theurges are drawn from multiclass spellcasters who can already cast both
 
 To qualify to become a mystic theurge, a character must fulfill all the following criteria.
 
-**Skills** : [Knowledge](../skills/knowledge.html#_knowledge) (arcana) 3 ranks, [Knowledge](../skills/knowledge.html#_knowledge) (religion) 3 ranks.
+**Skills** : [Knowledge](../skills/knowledge.md#_knowledge) (arcana) 3 ranks, [Knowledge](../skills/knowledge.md#_knowledge) (religion) 3 ranks.
 
 **Spells** : Able to cast 2nd-level divine spells and 2nd-level arcane spells.
 
 ## Class Skills
 
-The mystic theurge's class skills (and the key ability for each skill) are [Knowledge](../skills/knowledge.html#_knowledge) (arcana) ( [Int](../gettingStarted.html#_intelligence)), [Knowledge](../skills/knowledge.html#_knowledge) (religion) ( [Int](../gettingStarted.html#_intelligence)), [Sense Motive](../skills/senseMotive.html#_sense-motive) ( [Wis](../gettingStarted.html#_wisdom)), and [Spellcraft](../skills/spellcraft.html#_spellcraft) ( [Int](../gettingStarted.html#_intelligence)).
+The mystic theurge's class skills (and the key ability for each skill) are [Knowledge](../skills/knowledge.md#_knowledge) (arcana) ( [Int](../gettingStarted.md#_intelligence)), [Knowledge](../skills/knowledge.md#_knowledge) (religion) ( [Int](../gettingStarted.md#_intelligence)), [Sense Motive](../skills/senseMotive.md#_sense-motive) ( [Wis](../gettingStarted.md#_wisdom)), and [Spellcraft](../skills/spellcraft.md#_spellcraft) ( [Int](../gettingStarted.md#_intelligence)).
 
-**Skill Ranks at Each Level** : 2 + [Int](../gettingStarted.html#_intelligence) modifier.
+**Skill Ranks at Each Level** : 2 + [Int](../gettingStarted.md#_intelligence) modifier.
 
 [Table: Mystic Theurge]
 | Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
@@ -58,7 +58,7 @@ All of the following are features of the mystic theurge prestige class.
 
 **Combined Spells (Su)** : A mystic theurge can prepare and cast spells from one of his spellcasting classes using the available slots from any of his other spellcasting classes. Spells prepared or cast in this way take up a slot one level higher than they originally occupied. This ability cannot be used to cast a spell at a lower level if that spell exists on both spell lists. At 1st level, a mystic theurge can prepare 1st-level spells from one of his spellcasting classes using the 2nd-level slots of the other spellcasting class. Every two levels thereafter, the level of spells that can be cast in this way increases by one, to a maximum of 5th-level spells at 9th level (these spells would take up 6th-level spell slots). The components of these spells do not change, but they otherwise follow the rules for the spellcasting class used to cast the spell.
 
-Spontaneous spellcasters can only select spells that they have prepared that day using non-spontaneous classes for this ability, even if the spells have already been cast. For example, a cleric/sorcerer/mystic theurge can use this ability to spontaneously cast a _ [bless](../spells/bless.html#_bless)_ spell using a 2nd-level sorcerer spell slot, if the character had a prepared _ [bless](../spells/bless.html#_bless) _spell using a 1st-level cleric spell slot, even if that spell had already been cast that day.
+Spontaneous spellcasters can only select spells that they have prepared that day using non-spontaneous classes for this ability, even if the spells have already been cast. For example, a cleric/sorcerer/mystic theurge can use this ability to spontaneously cast a _ [bless](../spells/bless.md#_bless)_ spell using a 2nd-level sorcerer spell slot, if the character had a prepared _ [bless](../spells/bless.md#_bless) _spell using a 1st-level cleric spell slot, even if that spell had already been cast that day.
 
 **Spell Synthesis (Su)** : At 10th level, a mystic theurge can cast two spells, one from each of his spellcasting classes, using one action. Both of the spells must have the same casting time. The mystic theurge can make any decisions concerning the spells independently. Any target affected by both of the spells takes a –2 penalty on saves made against each spell. The mystic theurge receives a +2 bonus on caster level checks made to overcome spell resistance with these two spells. A mystic theurge may use this ability once per day.
 

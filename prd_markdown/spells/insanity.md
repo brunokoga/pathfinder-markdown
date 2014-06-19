@@ -12,9 +12,9 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Will](../combat.html#_will) negates; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Will](../combat.md#_will) negates; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
 The affected creature suffers from a continuous _confusion _effect, as the spell.
 
-_ [Remove curse](removeCurse.html#_remove-curse)_ does not remove_ insanity. Greater restoration, [heal](heal.html#_heal), [limited wish](limitedWish.html#_limited-wish), [miracle](miracle.html#_miracle),_ or _ [wish](wish.html#_wish)_ can restore the creature.
+_ [Remove curse](removeCurse.md#_remove-curse)_ does not remove_ insanity. Greater restoration, [heal](heal.md#_heal), [limited wish](limitedWish.md#_limited-wish), [miracle](miracle.md#_miracle),_ or _ [wish](wish.md#_wish)_ can restore the creature.
 

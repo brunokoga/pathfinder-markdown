@@ -1,6 +1,6 @@
 # Survival
 
-## ( [Wis](../gettingStarted.html#_wisdom))
+## ( [Wis](../gettingStarted.md#_wisdom))
 
 You are skilled at surviving in the wild and at navigating in the wilderness. You also excel at following trails and tracks left by others.
 
@@ -9,7 +9,7 @@ You are skilled at surviving in the wild and at navigating in the wilderness. Yo
 | Survival DC | Task |
 | --- | --- |
 | 10 | Get along in the wild. Move up to half your overland speed while hunting and foraging (no food or water supplies needed). You can provide food and water for one other person for every 2 points by which your check result exceeds 10. |
-| 15 | Gain a +2 bonus on all [Fortitude](../combat.html#_fortitude) saves against severe weather while moving up to half your overland speed, or gain a +4 bonus if you remain stationary. You may grant the same bonus to one other character for every 1 point by which your Survival check result exceeds 15. |
+| 15 | Gain a +2 bonus on all [Fortitude](../combat.md#_fortitude) saves against severe weather while moving up to half your overland speed, or gain a +4 bonus if you remain stationary. You may grant the same bonus to one other character for every 1 point by which your Survival check result exceeds 15. |
 | 15 | Keep from getting lost or avoid natural hazards, such as quicksand. |
 | 15 | Predict the weather up to 24 hours in advance. For every 5 points by which your Survival check result exceeds 15, you can predict the weather for one additional day in advance. |
 
@@ -58,11 +58,11 @@ Several modifiers may apply to the Survival check, as given on the table above.
 
 **Action** : Varies. A single Survival check may represent activity over the course of hours or a full day. A Survival check made to find tracks is at least a full-round action, and it may take even longer.
 
-**Try Again** : Varies. For getting along in the wild or for gaining the [Fortitude](../combat.html#_fortitude) save bonus noted in the first table above, you make a Survival check once every 24 hours. The result of that check applies until the next check is made. To avoid getting lost or avoid natural hazards, you make a Survival check whenever the situation calls for one. Retries to avoid getting lost in a specific situation or to avoid a specific natural hazard are not allowed. For finding tracks, you can retry a failed check after 1 hour (outdoors) or 10 minutes (indoors) of searching.
+**Try Again** : Varies. For getting along in the wild or for gaining the [Fortitude](../combat.md#_fortitude) save bonus noted in the first table above, you make a Survival check once every 24 hours. The result of that check applies until the next check is made. To avoid getting lost or avoid natural hazards, you make a Survival check whenever the situation calls for one. Retries to avoid getting lost in a specific situation or to avoid a specific natural hazard are not allowed. For finding tracks, you can retry a failed check after 1 hour (outdoors) or 10 minutes (indoors) of searching.
 
 **Special** : If you are trained in Survival, you can automatically determine where true north lies in relation to yourself.
 
 A ranger gains a bonus on Survival checks when using this skill to find or follow the tracks of a favored enemy.
 
-If you have the [Self-Sufficient](../feats.html#_self-sufficient) feat, you get a bonus on Survival checks (see [Feats](../feats.html)).
+If you have the [Self-Sufficient](../feats.md#_self-sufficient) feat, you get a bonus on Survival checks (see [Feats](../feats.md)).
 

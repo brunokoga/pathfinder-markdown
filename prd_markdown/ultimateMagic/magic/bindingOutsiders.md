@@ -4,31 +4,31 @@ One of the most potent tools a spellcasters can wield is the command of summoned
 
 # Calling Outsiders
 
-The first step in calling extraplanar assistance is to determine the method of bringing the outsider to the Material Plane. If the caster is a cleric, the spell of choice is _ [planar ally](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally)_; wizard, sorcerers, and summoners rely primarily on _ [planar binding](/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding)_ (or [_summon monster_](/pathfinderRPG/prd/advanced/baseClasses/summoner.html#_summon-monster-i), which controls without requiring binding). However, none of these necessarily bind the outsider to the caster's needs, and a wise spellcaster augments the summoning with additional encouragement, usually in the form of gifts or bargains.
+The first step in calling extraplanar assistance is to determine the method of bringing the outsider to the Material Plane. If the caster is a cleric, the spell of choice is _ [planar ally](spells/planarAlly.md#_planar-ally)_; wizard, sorcerers, and summoners rely primarily on _ [planar binding](spells/planarBinding.md#_planar-binding)_ (or [_summon monster_](advanced/baseClasses/summoner.md#_summon-monster-i), which controls without requiring binding). However, none of these necessarily bind the outsider to the caster's needs, and a wise spellcaster augments the summoning with additional encouragement, usually in the form of gifts or bargains.
 
 ## Clerics and Oracles
 
-Clerics and oracles find the job of summoning and binding outsiders much easier than arcane spellcasters do. A cleric calls upon her deity to send a like-minded creature by way of one of the _ [planar ally](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally)_ spells. That outsider is in the service of the god, and its desires almost always align with the cleric's goals, or at least run in parallel with them.
+Clerics and oracles find the job of summoning and binding outsiders much easier than arcane spellcasters do. A cleric calls upon her deity to send a like-minded creature by way of one of the _ [planar ally](spells/planarAlly.md#_planar-ally)_ spells. That outsider is in the service of the god, and its desires almost always align with the cleric's goals, or at least run in parallel with them.
 
 The cleric must bargain with the deity's servant for a payment agreed upon before the outsider will perform the task: gold, magic items, gifts, sacrifices, or promises by the cleric to achieve certain goals particular to the conjured ally. The greater the task, the greater the payment required, with a minimum of 100 gp worth of goods or services, sometimes extending into the thousands—and sometimes the ally simply refuses the cleric's binding if the job is too dangerous or beneath its dignity.
 
 ## Wizards, Sorcerers, and Summoners
 
-The arcane method for binding insiders is more difficult. First, a binder must create a trap, a _magic circle_ (see [Magic Circle Against Evil](/pathfinderRPG/prd/spells/magicCircleAgainstEvil.html#_magic-circle-against-evil) for an example of how this works) focused inward. Typically the circle is outlined in a substance that is anathema to the outsider he wishes to summon. He must protect this circle against any sort of disruption, for even the smallest variation in its energies opens the circle and allows the escape of the creature he has summoned. It is for this reason that most binders' lairs are in high towers or deep dungeons, far from wind or pests.
+The arcane method for binding insiders is more difficult. First, a binder must create a trap, a _magic circle_ (see [Magic Circle Against Evil](spells/magicCircleAgainstEvil.md#_magic-circle-against-evil) for an example of how this works) focused inward. Typically the circle is outlined in a substance that is anathema to the outsider he wishes to summon. He must protect this circle against any sort of disruption, for even the smallest variation in its energies opens the circle and allows the escape of the creature he has summoned. It is for this reason that most binders' lairs are in high towers or deep dungeons, far from wind or pests.
 
-When an arcane caster speaks the words of the _ [planar binding](/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding)_ spell, the outsider can resist via a Will saving throw, with no aid from its spell resistance. If it fails the save, the _magic circle_ draws it inexorably into the trap. Once there, the outsider can pit its spell resistance as a check against the caster's level, attempt to flee via dimensional travel, or attempt to overcome the spell by imposing its spiritual presence with a Charisma check (DC 15 + 1/2 the caster's level + the caster's Charisma modifier). Succeeding at any of these checks breaks the binding, and a fortunate binder suffers no additional harm from such a breach; the annoyed outsider just leaves. This is not always the case, however.
+When an arcane caster speaks the words of the _ [planar binding](spells/planarBinding.md#_planar-binding)_ spell, the outsider can resist via a Will saving throw, with no aid from its spell resistance. If it fails the save, the _magic circle_ draws it inexorably into the trap. Once there, the outsider can pit its spell resistance as a check against the caster's level, attempt to flee via dimensional travel, or attempt to overcome the spell by imposing its spiritual presence with a Charisma check (DC 15 + 1/2 the caster's level + the caster's Charisma modifier). Succeeding at any of these checks breaks the binding, and a fortunate binder suffers no additional harm from such a breach; the annoyed outsider just leaves. This is not always the case, however.
 
-Some outsiders lash out at their failed binders. Because of this, many binders take additional precautions: a second _magic circle_ in which they can stand, and _ [dimensional anchor](/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional)_ cast within the _magic circle_ to prevent the conjured outsider from fleeing instantly. A tremendously powerful wizard or sorcerer might even use _ [trap the soul](/pathfinderRPG/prd/spells/trapTheSoul.html#_trap-the-soul)_ on his victim, forcing it into a prepared vessel until it agrees to the binder's strictures.
+Some outsiders lash out at their failed binders. Because of this, many binders take additional precautions: a second _magic circle_ in which they can stand, and _ [dimensional anchor](spells/dimensionalAnchor.md#_dimensional)_ cast within the _magic circle_ to prevent the conjured outsider from fleeing instantly. A tremendously powerful wizard or sorcerer might even use _ [trap the soul](spells/trapTheSoul.md#_trap-the-soul)_ on his victim, forcing it into a prepared vessel until it agrees to the binder's strictures.
 
-Smart arcane binders often make deals with the creatures they call. Like clerics using _ [planar ally](/pathfinderRPG/prd/spells/planarAlly.html#_planar-ally)_, they bargain and shower the outsider with gifts in exchange for their services. While it is always good for an arcane spellcaster to make these deals from a position of strength, it is much better to get the outsider to come to mutually agreed upon terms for the service, rather than forcing it to commit actions against its nature or desires.
+Smart arcane binders often make deals with the creatures they call. Like clerics using _ [planar ally](spells/planarAlly.md#_planar-ally)_, they bargain and shower the outsider with gifts in exchange for their services. While it is always good for an arcane spellcaster to make these deals from a position of strength, it is much better to get the outsider to come to mutually agreed upon terms for the service, rather than forcing it to commit actions against its nature or desires.
 
 # True Names
 
 There is one method of outsider coercion that helps guarantee that a binder can bargain from a position of relative security. Many spellcasters believe that a true name is inscribed on the essence of every creature, a secret word that describes it so perfectly and utterly that to speak the name is to define the being. For mortals, this name is buried in the soul, hidden away from prying and dangerous eyes. Outsiders' true names take the form of sigils carved upon their very essence. In Hell, these sigils change as the devil changes in stature, and some that may once have held power over certain devils have become outdated. It is said that some outsiders have assumed names and that they use the aliases to lure foolish mortals into using for summoning; the outsider pretends to be under the control of the binder, but merely bides its time before it strikes.
 
-To discover a single outsider's true name, a spellcaster must spend at least a month in a library or on a quest of discovery to uncover occult mysteries and riddles hidden in the pages of books, scrolls, and glyphs written millennia ago, buried in ancient temples or found among the ravings of madmen's spellbooks. At the end of this month, the GM makes a [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) check for the character. The DC is 10 + the creature's Hit Dice. The GM can increase the DC by +2, +5, or even +10, based on the power of the outsider or the circumstances of the true name search. A failure by 5 or more turns up false information that may expose researchers to unexpected dangers.
+To discover a single outsider's true name, a spellcaster must spend at least a month in a library or on a quest of discovery to uncover occult mysteries and riddles hidden in the pages of books, scrolls, and glyphs written millennia ago, buried in ancient temples or found among the ravings of madmen's spellbooks. At the end of this month, the GM makes a [Knowledge](skills/knowledge.md#_knowledge) (planes) check for the character. The DC is 10 + the creature's Hit Dice. The GM can increase the DC by +2, +5, or even +10, based on the power of the outsider or the circumstances of the true name search. A failure by 5 or more turns up false information that may expose researchers to unexpected dangers.
 
-For most outer-planar outsiders, knowledge of the creature's true name is a powerful weapon. In summoning, if the name is spoken correctly (requiring knowledge of at least one of the outsider's languages, or a [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) skill check with a DC equal to 10 + the creature's Hit Dice), the target takes a –5 penalty on the Will save to resist being conjured, and if its name is inscribed in the protective _magic circle_, the outsider takes a –5 penalty on all checks to escape or breach that circle.
+For most outer-planar outsiders, knowledge of the creature's true name is a powerful weapon. In summoning, if the name is spoken correctly (requiring knowledge of at least one of the outsider's languages, or a [Linguistics](skills/linguistics.md#_linguistics) skill check with a DC equal to 10 + the creature's Hit Dice), the target takes a –5 penalty on the Will save to resist being conjured, and if its name is inscribed in the protective _magic circle_, the outsider takes a –5 penalty on all checks to escape or breach that circle.
 
 For elementals (including geniekind), such true names are not binding as they are for fiends and other outsiders, and do not give the creature a penalty to its Will save to resist being summoned. However, if the caster speaks the true name of the elemental, the elemental will most likely be intrigued enough to listen—a wizard with power and cunning enough to find an elemental's true name is a wizard with guile and strength, and elementals treasure these qualities.
 
@@ -61,7 +61,7 @@ All outsiders have vulnerabilities, and those who deal with them must know what 
 
 For every 5,000 gp of an anathematic substance used, the caster gains a +1 bonus on the opposed Charisma check to bargain with the outsider. This destroys the substance.
 
-**Anarchic** : Infused with the power of chaos, _ [anarchic](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-anarchic)_ weapons are anathema to many lawful outsiders, even those who are not specifically vulnerable to the weapons.
+**Anarchic** : Infused with the power of chaos, _ [anarchic](magicItems/weapons.md#_weapons-anarchic)_ weapons are anathema to many lawful outsiders, even those who are not specifically vulnerable to the weapons.
 
 **Axiomatic** : Empowered by law, these weapons are harmful to chaotic outsiders, dealing extra damage even if the outsider is not particularly vulnerable to its effect.
 
@@ -69,13 +69,13 @@ For every 5,000 gp of an anathematic substance used, the caster gains a +1 bonus
 
 **Cold Iron** : Effective against daemons, demons, and fey, cold iron has been drawn from deep beneath forbidding mountains and forged with the least heat possible. Because of the delicacy and difficulty of the process, a weapon made of cold iron costs twice as much to make, and every magical enhancement increases its price significantly. It has 30 hit points per inch of thickness and hardness 10.
 
-**Holy** : A _ [holy](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy)_ weapon is any weapon imbued with holy power, which allows it to bypass damage reduction for specific evil creatures and inflict an additional 2d6 points of damage on those monsters. Evil outsiders that do not have a specific vulnerability to holy weapons still take that additional damage if the weapon overcomes the creature's damage reduction.
+**Holy** : A _ [holy](magicItems/weapons.md#_weapons-holy)_ weapon is any weapon imbued with holy power, which allows it to bypass damage reduction for specific evil creatures and inflict an additional 2d6 points of damage on those monsters. Evil outsiders that do not have a specific vulnerability to holy weapons still take that additional damage if the weapon overcomes the creature's damage reduction.
 
 **Mithral** : Most outsiders react to mithral in the same way that they do to actual silver.
 
 **Silver** : Long revered for its purity and ability to harm lycanthropes and devils, silver is also used to trap certain kinds of good outsiders.
 
-**Unholy** : The opposite of the holy weapon, an _ [unholy](/pathfinderRPG/prd/magicItems/weapons.html#_unholy)_ weapon inflicts its damage on good-aligned outsiders, but is in other respects the same.
+**Unholy** : The opposite of the holy weapon, an _ [unholy](magicItems/weapons.md#_unholy)_ weapon inflicts its damage on good-aligned outsiders, but is in other respects the same.
 
 # Outsider Categories
 
@@ -199,7 +199,7 @@ Daemons are immune to acid, death effects, disease, and poison, and all are vuln
 
 ## Demons
 
-The great weakness of demons is a _ [holy](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy)_ or other good weapon. Such weapons overcome every demon's natural resistances, and are one of the few types of weapons that all demons fear equally. When dealing with demons, it is best to remember that they abide by no contract other than power, and displaying power—or at least hints of it—is key to keeping them under control. Their _magic circle_ is made of powdered cold iron.
+The great weakness of demons is a _ [holy](magicItems/weapons.md#_weapons-holy)_ or other good weapon. Such weapons overcome every demon's natural resistances, and are one of the few types of weapons that all demons fear equally. When dealing with demons, it is best to remember that they abide by no contract other than power, and displaying power—or at least hints of it—is key to keeping them under control. Their _magic circle_ is made of powdered cold iron.
 
 All demons are immune to electricity and poison effects. Many have other resistances based on their forms and chaotic natures.
 
@@ -221,7 +221,7 @@ All demons are immune to electricity and poison effects. Many have other resista
 
 **Nalfeshnee (SR 25)** : These demons love knowledge, especially that within their specialties of manipulation and greed. Nalfeshnees bargain knowledge for knowledge, but never give more than they gain.
 
-**Omox (SR 23)** : These slimy demons enjoy the destruction of beautiful things. For their services, they often take âgiftsâ that involve the destruction of beautiful things—in particular an attractive young man or woman as sacrifice.
+**Omox (SR 23)** : These slimy demons enjoy the destruction of beautiful things. For their services, they often take “gifts” that involve the destruction of beautiful things—in particular an attractive young man or woman as sacrifice.
 
 **Quasit** : Even more pathetic than the dretch, the quasit seeks only the assurance that it can return to the Abyss when its task is complete.
 
@@ -275,7 +275,7 @@ Additionally, one can enhance summoning for specific kinds of devils by appealin
 
 True elementals are simple creatures, thriving spirits animating bodies of pure elemental matter. They regard their lives as an eternal struggle to best themselves and each other. Each elemental type is uniquely suited to adapting to conditions on its particular plane, and is arrogant about its powers when surrounded by its element... and uniquely frightened and cowed when shown a greater power or encased in an element not its own. Most elementals do not bargain for favors—they respect only strength. Genies are the more human-like denizens of the elemental planes, both in shape and mentality. They consider themselves physically and culturally superior to true elementals.
 
-In general, one summons an elemental for brute work and combat, and a genie for magical power or ancient wisdom, and would thus use [_summon monster_](/pathfinderRPG/prd/advanced/baseClasses/summoner.html#_summon-monster-i) and _ [planar binding](/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding)_ for those tasks, respectively. However, should a conjurer wish to bind an elemental as he would a genie or fiend, the ritual is one of wrestling with the elemental's creativity in reaching its home element. Elementals are immune to bleed, paralysis, poison, sleep effects, and stunning. They are not subject to critical hits, precision-based attacks like sneak attack, or flanking.
+In general, one summons an elemental for brute work and combat, and a genie for magical power or ancient wisdom, and would thus use [_summon monster_](advanced/baseClasses/summoner.md#_summon-monster-i) and _ [planar binding](spells/planarBinding.md#_planar-binding)_ for those tasks, respectively. However, should a conjurer wish to bind an elemental as he would a genie or fiend, the ritual is one of wrestling with the elemental's creativity in reaching its home element. Elementals are immune to bleed, paralysis, poison, sleep effects, and stunning. They are not subject to critical hits, precision-based attacks like sneak attack, or flanking.
 
 Genies seek and value power, though they are more brash and boastful than most. It is said the best way to secure the attentions of a genie is to speak its true name, and to offer it aid in battles against its political enemies—a wise conjurer researches the inner battles of geniekind before summoning a genie, or else is prepared to cow the genie with strong magic.
 
@@ -301,7 +301,7 @@ Genies seek and value power, though they are more brash and boastful than most. 
 
 **Lightning Elemental** : Lightning elementals are similar to air elementals in that the same bindings work on them, though binders would do well to reinforce such bindings and themselves with protections against electrical damage.
 
-**Marid** : Capricious and unpredictable, marids love performance and art—providing them artwork worth 1,000 gp or playing a DC 30 [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (any) piece (whether performed by the binder or his ally) piques their interest long enough for the conjurer to gain a +2 Charisma bonus.
+**Marid** : Capricious and unpredictable, marids love performance and art—providing them artwork worth 1,000 gp or playing a DC 30 [Perform](skills/perform.md#_perform) (any) piece (whether performed by the binder or his ally) piques their interest long enough for the conjurer to gain a +2 Charisma bonus.
 
 **Magma Elemental** : Magma elementals are composite elemental creatures, taking some aspects from earth elementals and fire elementals. Unsurprisingly, a mix of binding strategies from those two types of elementals often keeps these savage things at bay.
 
@@ -319,7 +319,7 @@ Genies seek and value power, though they are more brash and boastful than most. 
 
 ## Inevitables
 
-Originally created by the [axiomites](/pathfinderRPG/prd/additionalMonsters/axiomite.html) as an unflinching army to fight the chaotic proteans, inevitables used to fight an explicit war against those creatures but now wage an indirect war against them. Most inevitables fight this war by tracking down and rectifying egregious violations of law. Incorruptible in its mission, when bound by a being who wishes to subvert it, an inevitable often waits the binder out. Inevitables simply refuse to deal with binders who wish to use them against their designed and decreed purpose.
+Originally created by the [axiomites](additionalMonsters/axiomite.md) as an unflinching army to fight the chaotic proteans, inevitables used to fight an explicit war against those creatures but now wage an indirect war against them. Most inevitables fight this war by tracking down and rectifying egregious violations of law. Incorruptible in its mission, when bound by a being who wishes to subvert it, an inevitable often waits the binder out. Inevitables simply refuse to deal with binders who wish to use them against their designed and decreed purpose.
 
 **Arbiter (SR 13)** : Arbiters are the scouts and spies of the inevitables, and are typically bound to serve as familiars to lawful spellcasters, especially those who fight the taint of protean chaos.
 
@@ -335,7 +335,7 @@ Originally created by the [axiomites](/pathfinderRPG/prd/additionalMonsters/axio
 
 Slithering creatures of pure chaos, proteans claim they were the masters of the multiverse before the first gods created the other planes from the pure chaos of the primeval beginnings. They seek to tear down the multiverse and restore it to its original chaotic form. Bound proteans seek to find a way to achieve this goal even when bargaining with those who dare summon and bind them.
 
-Proteans are immune to acid and have resistance to electricity 10 and sonic 10. Their amorphous anatomy grants them immunity to polymorph effects and resistance to critical hits and sneak attack damage. They are protected by a continuous _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, as per the spell.
+Proteans are immune to acid and have resistance to electricity 10 and sonic 10. Their amorphous anatomy grants them immunity to polymorph effects and resistance to critical hits and sneak attack damage. They are protected by a continuous _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, as per the spell.
 
 **Imentesh (SR 21)** : These heralds of chaos often heed the call of binders who wish to utilize the power of proteans. In conversation they are often talkative, seemingly helpful, and polite, but they are always plotting their escape in order to unleash as much chaos as possible.
 

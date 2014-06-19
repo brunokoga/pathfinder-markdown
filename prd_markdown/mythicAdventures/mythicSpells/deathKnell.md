@@ -1,6 +1,6 @@
 Death Knell
 
-**Source** [_death knell_](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)
+**Source** [_death knell_](spells/deathKnell.md#_death-knell)
 
 Increase the spell's range to close (25 feet + 5 feet per 2 caster levels). Increase the temporary hp gained from the spell to 2d8 and the enhancement bonuses to Strength to +4, and gain a +4 enhancement bonus to Dexterity.
 

@@ -10,7 +10,7 @@ Human rogue 1
 
 N Medium humanoid
 
-**Init** +3; **Senses** [Perception](../../skills/perception.html#_perception) +3
+**Init** +3; **Senses** [Perception](../../skills/perception.md#_perception) +3
 
 **Defense**
 
@@ -36,9 +36,9 @@ N Medium humanoid
 
 **Base Atk** +0; **CMB** +0; **CMD** 13
 
-**Feats** [Deft Hands](../../feats.html#_deft-hands), [Skill Focus](../../feats.html#_skill-focus) ( [Sleight of Hand](../../skills/sleightOfHand.html#_sleight-of-hand))
+**Feats** [Deft Hands](../../feats.md#_deft-hands), [Skill Focus](../../feats.md#_skill-focus) ( [Sleight of Hand](../../skills/sleightOfHand.md#_sleight-of-hand))
 
-**Skills** [Acrobatics](../../skills/acrobatics.html#_acrobatics) +7, [Appraise](../../skills/appraise.html#_appraise) +5, [Bluff](../../skills/bluff.html#_bluff) +6, [Disable Device](../../skills/disableDevice.html#_disable-device) +9, [Disguise](../../skills/disguise.html#_disguise) +8, [Escape Artist](../../skills/escapeArtist.html#_escape-artist) +7, [Knowledge](../../skills/knowledge.html#_knowledge) (local) +5, [Perception](../../skills/perception.html#_perception) +3 (+4 to find traps), [Sense Motive](../../skills/senseMotive.html#_sense-motive) +3, [Sleight of Hand](../../skills/sleightOfHand.html#_sleight-of-hand) +12, [Stealth](../../skills/stealth.html#_stealth) +7
+**Skills** [Acrobatics](../../skills/acrobatics.md#_acrobatics) +7, [Appraise](../../skills/appraise.md#_appraise) +5, [Bluff](../../skills/bluff.md#_bluff) +6, [Disable Device](../../skills/disableDevice.md#_disable-device) +9, [Disguise](../../skills/disguise.md#_disguise) +8, [Escape Artist](../../skills/escapeArtist.md#_escape-artist) +7, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +5, [Perception](../../skills/perception.md#_perception) +3 (+4 to find traps), [Sense Motive](../../skills/senseMotive.md#_sense-motive) +3, [Sleight of Hand](../../skills/sleightOfHand.md#_sleight-of-hand) +12, [Stealth](../../skills/stealth.md#_stealth) +7
 
 **Languages** Common, Halfling
 
@@ -50,9 +50,9 @@ N Medium humanoid
 
 Pickpockets are the bane of the marketplace—innocuous waifs with innocent smiles and deft hands who can cut a purse in an eyeblink. Pickpockets could also serve as any of the countless street urchins or guttersnipes found on the streets of any large city.
 
-Adding a dagger or short sword turns a pickpocket into a desperate mugger. Replacing [Deft Hands](../../feats.html#_deft-hands) with [Deceitful](../../feats.html#_deceitful) and changing [Skill Focus](../../feats.html#_skill-focus) from [Sleight of Hand](../../skills/sleightOfHand.html#_sleight-of-hand) to [Bluff](../../skills/bluff.html#_bluff) can make a con artist pickpocket, while changing [Skill Focus](../../feats.html#_skill-focus) to [Disable Device](../../skills/disableDevice.html#_disable-device) makes for a good apprentice lock-picker or trapspringer. Replacing the [Appraise](../../skills/appraise.html#_appraise) skill with [Perform](../../skills/perform.html#_perform) creates common acrobats, jugglers, or mummers, perhaps members of a troupe that engages in a little larceny on the side.
+Adding a dagger or short sword turns a pickpocket into a desperate mugger. Replacing [Deft Hands](../../feats.md#_deft-hands) with [Deceitful](../../feats.md#_deceitful) and changing [Skill Focus](../../feats.md#_skill-focus) from [Sleight of Hand](../../skills/sleightOfHand.md#_sleight-of-hand) to [Bluff](../../skills/bluff.md#_bluff) can make a con artist pickpocket, while changing [Skill Focus](../../feats.md#_skill-focus) to [Disable Device](../../skills/disableDevice.md#_disable-device) makes for a good apprentice lock-picker or trapspringer. Replacing the [Appraise](../../skills/appraise.md#_appraise) skill with [Perform](../../skills/perform.md#_perform) creates common acrobats, jugglers, or mummers, perhaps members of a troupe that engages in a little larceny on the side.
 
-In pairs (CR 1), one pickpocket usually provides a distraction for her partner to take advantage of. In large cities and markets, pickpockets often work in gangs of six (CR 4) or even more. A wanderer might employ a pickpocket assistant (CR 3), while a storyteller or minstrel might employ half a dozen pickpockets to help âworkâ the crowd (CR 5 or 6). A shady barkeep might keep two pickpockets on staff disguised as serving girls, along with his two regular barmaids, to supplement his tavern's income (CR 5).
+In pairs (CR 1), one pickpocket usually provides a distraction for her partner to take advantage of. In large cities and markets, pickpockets often work in gangs of six (CR 4) or even more. A wanderer might employ a pickpocket assistant (CR 3), while a storyteller or minstrel might employ half a dozen pickpockets to help “work” the crowd (CR 5 or 6). A shady barkeep might keep two pickpockets on staff disguised as serving girls, along with his two regular barmaids, to supplement his tavern's income (CR 5).
 
 **Street Thug CR 1**
 
@@ -62,7 +62,7 @@ Human fighter 1/rogue 1
 
 NE Medium humanoid
 
-**Init** +2; **Senses** [Perception](../../skills/perception.html#_perception) +5
+**Init** +2; **Senses** [Perception](../../skills/perception.md#_perception) +5
 
 **Defense**
 
@@ -88,9 +88,9 @@ NE Medium humanoid
 
 **Base Atk** +1; **CMB** +4; **CMD** 16
 
-**Feats** [Skill Focus](../../feats.html#_skill-focus) ( [Intimidate](../../skills/intimidate.html#_intimidate)), [Toughness](../../feats.html#_toughness), [Two-Weapon Fighting](../../feats.html#_two-weapon-fighting)
+**Feats** [Skill Focus](../../feats.md#_skill-focus) ( [Intimidate](../../skills/intimidate.md#_intimidate)), [Toughness](../../feats.md#_toughness), [Two-Weapon Fighting](../../feats.md#_two-weapon-fighting)
 
-**Skills** [Climb](../../skills/climb.html#_climb) +8, [Intimidate](../../skills/intimidate.html#_intimidate) +9, [Knowledge](../../skills/knowledge.html#_knowledge) (local) +4, [Perception](../../skills/perception.html#_perception) +5 (+6 to find traps), [Stealth](../../skills/stealth.html#_stealth) +7
+**Skills** [Climb](../../skills/climb.md#_climb) +8, [Intimidate](../../skills/intimidate.md#_intimidate) +9, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +4, [Perception](../../skills/perception.md#_perception) +5 (+6 to find traps), [Stealth](../../skills/stealth.md#_stealth) +7
 
 **Languages** Common
 
@@ -98,11 +98,11 @@ NE Medium humanoid
 
 **Gear** masterwork studded leather, daggers (2), quarterstaff, sap, manacles (2)
 
-**Boon** A street thug could attempt to kidnap or threaten a particular NPC, deliver a message, or create a disturbance with a street brawl whose distraction causes a –2 penalty on opposed [Perception](../../skills/perception.html#_perception) checks for 1 minute.
+**Boon** A street thug could attempt to kidnap or threaten a particular NPC, deliver a message, or create a disturbance with a street brawl whose distraction causes a –2 penalty on opposed [Perception](../../skills/perception.md#_perception) checks for 1 minute.
 
 Street thugs are the alleybashers and bullyboys of the streets. They are the crude muscle employed by other criminals to keep rivals at bay and shake down hapless shopkeeps and business owners. Innocent townsfolk live in fear of a street thug slipping out of the shadows to administer a brutal beating.
 
-In more lawless cities, street thugs can serve as corrupt guardsmen or as a vigilante militia. Street thugs can also be used as bouncers in a tavern or casino. Replacing [Two-Weapon Fighting](../../feats.html#_two-weapon-fighting) with [Intimidating Prowess](../../feats.html#_intimidating-prowess) makes a street thug a better extortionist. Outside of cities and towns, street thugs can also be used as bandits or brigands, or as low-level guards for a merchant caravan.
+In more lawless cities, street thugs can serve as corrupt guardsmen or as a vigilante militia. Street thugs can also be used as bouncers in a tavern or casino. Replacing [Two-Weapon Fighting](../../feats.md#_two-weapon-fighting) with [Intimidating Prowess](../../feats.md#_intimidating-prowess) makes a street thug a better extortionist. Outside of cities and towns, street thugs can also be used as bandits or brigands, or as low-level guards for a merchant caravan.
 
 A single street thug can be a prostitute's pimp (CR 3) or the intimidating partner of a pickpocket (CR 2). A pair of street thugs might operate with a slaver (CR 5) or torturer (CR 6), or they might work as bodyguards for a dealer acting as a minor crimelord (CR 5). Six street thugs might form a riot-busting brute squad (CR 6).
 
@@ -114,7 +114,7 @@ Human rogue 3
 
 N Medium humanoid
 
-**Init** +3; **Senses** [Perception](../../skills/perception.html#_perception) +9
+**Init** +3; **Senses** [Perception](../../skills/perception.md#_perception) +9
 
 **Defense**
 
@@ -142,21 +142,21 @@ N Medium humanoid
 
 **Base Atk** +2; **CMB** +3; **CMD** 16
 
-**Feats** [Deft Hands](../../feats.html#_deft-hands), [Skill Focus](../../feats.html#_skill-focus) ( [Perception](../../skills/perception.html#_perception)), [Stealthy](../../feats.html#_stealthy)
+**Feats** [Deft Hands](../../feats.md#_deft-hands), [Skill Focus](../../feats.md#_skill-focus) ( [Perception](../../skills/perception.md#_perception)), [Stealthy](../../feats.md#_stealthy)
 
-**Skills** [Acrobatics](../../skills/acrobatics.html#_acrobatics) +9, [Appraise](../../skills/appraise.html#_appraise) +8, [Bluff](../../skills/bluff.html#_bluff) +5, [Climb](../../skills/climb.html#_climb) +9, [Disable Device](../../skills/disableDevice.html#_disable-device) +13, [Disguise](../../skills/disguise.html#_disguise) +5, [Escape Artist](../../skills/escapeArtist.html#_escape-artist) +11, [Knowledge](../../skills/knowledge.html#_knowledge) (local) +8, [Perception](../../skills/perception.html#_perception) +9 (+10 to find traps), [Sleight of Hand](../../skills/sleightOfHand.html#_sleight-of-hand) +11, [Stealth](../../skills/stealth.html#_stealth) +11, [Swim](../../skills/swim.html#_swim) +7
+**Skills** [Acrobatics](../../skills/acrobatics.md#_acrobatics) +9, [Appraise](../../skills/appraise.md#_appraise) +8, [Bluff](../../skills/bluff.md#_bluff) +5, [Climb](../../skills/climb.md#_climb) +9, [Disable Device](../../skills/disableDevice.md#_disable-device) +13, [Disguise](../../skills/disguise.md#_disguise) +5, [Escape Artist](../../skills/escapeArtist.md#_escape-artist) +11, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +8, [Perception](../../skills/perception.md#_perception) +9 (+10 to find traps), [Sleight of Hand](../../skills/sleightOfHand.md#_sleight-of-hand) +11, [Stealth](../../skills/stealth.md#_stealth) +11, [Swim](../../skills/swim.md#_swim) +7
 
 **Languages** Common, Elven, Halfling
 
 **SQ** rogue talent (quick disable), trapfinding +1
 
-**Combat Gear** _potion of [feather fall](../../spells/featherFall.html#_feather-fall)_, _potion of [jump](../../spells/jump.html#_jump)_, tanglefoot bag; **Other Gear** leather armor, dagger, sap, masterwork composite shortbow (+1 Str) with 20 arrows, _universal solvent_, climber's kit, 50-ft. silk rope with grappling hook, masterwork thieves' tools
+**Combat Gear** _potion of [feather fall](../../spells/featherFall.md#_feather-fall)_, _potion of [jump](../../spells/jump.md#_jump)_, tanglefoot bag; **Other Gear** leather armor, dagger, sap, masterwork composite shortbow (+1 Str) with 20 arrows, _universal solvent_, climber's kit, 50-ft. silk rope with grappling hook, masterwork thieves' tools
 
 **Boon** A burglar can open a trapped item for PCs or search a building for traps. She might break into a house to recover an item for the PCs or break a PC out of jail.
 
 Burglars are prowlers of cities and towns, dancing cat-like along rooftops and slipping quietly into homes and shops by night.
 
-Changing [Skill Focus](../../feats.html#_skill-focus) ( [Perception](../../skills/perception.html#_perception)) to [Skill Focus](../../feats.html#_skill-focus) ( [Disable Device](../../skills/disableDevice.html#_disable-device)) turns a burglar into an expert safecracker, while replacing [Deft Hands](../../feats.html#_deft-hands) and [Skill Focus](../../feats.html#_skill-focus) ( [Perception](../../skills/perception.html#_perception)) with Point Blank Shot and [Weapon Focus](../../feats.html#_weapon-focus) (shortbow) makes a skulking sniper. Replacing [Skill Focus](../../feats.html#_skill-focus) ( [Perception](../../skills/perception.html#_perception)) with [Skill Focus](../../feats.html#_skill-focus) ( [Acrobatics](../../skills/acrobatics.html#_acrobatics)), and changing the quick disable rogue talent to ledge walker or stand up creates a thief-acrobat. Changing a burglar's rogue talent is a good way to customize further.
+Changing [Skill Focus](../../feats.md#_skill-focus) ( [Perception](../../skills/perception.md#_perception)) to [Skill Focus](../../feats.md#_skill-focus) ( [Disable Device](../../skills/disableDevice.md#_disable-device)) turns a burglar into an expert safecracker, while replacing [Deft Hands](../../feats.md#_deft-hands) and [Skill Focus](../../feats.md#_skill-focus) ( [Perception](../../skills/perception.md#_perception)) with Point Blank Shot and [Weapon Focus](../../feats.md#_weapon-focus) (shortbow) makes a skulking sniper. Replacing [Skill Focus](../../feats.md#_skill-focus) ( [Perception](../../skills/perception.md#_perception)) with [Skill Focus](../../feats.md#_skill-focus) ( [Acrobatics](../../skills/acrobatics.md#_acrobatics)), and changing the quick disable rogue talent to ledge walker or stand up creates a thief-acrobat. Changing a burglar's rogue talent is a good way to customize further.
 
 Burglars usually work alone but will sometimes hire a pickpocket as a lookout (CR 3). A trio of burglars might cooperate to rob a large house or bank, with three street thugs for muscle and a pickpocket lookout (CR 7). A burglar may also work in concert with a barkeep and barmaid (CR 5) to rob patrons' rooms of valuables.
 

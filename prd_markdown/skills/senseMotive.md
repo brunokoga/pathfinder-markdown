@@ -1,10 +1,10 @@
 # Sense Motive
 
-## ( [Wis](../gettingStarted.html#_wisdom))
+## ( [Wis](../gettingStarted.md#_wisdom))
 
 You are skilled at detecting falsehoods and true intentions.
 
-**Check** : A successful check lets you avoid being bluffed (see the Bluff skill). You can also use this skill to determine when âsomething is upâ (that is, something odd is going on) or to assess someone's trustworthiness.
+**Check** : A successful check lets you avoid being bluffed (see the Bluff skill). You can also use this skill to determine when “something is up” (that is, something odd is going on) or to assess someone's trustworthiness.
 
 | Task | Sense Motive DC |
 | --- | --- |
@@ -24,5 +24,5 @@ _Discern Secret Message_: You may use Sense Motive to detect that a hidden messa
 
 **Special** : A ranger gains a bonus on Sense Motive checks when using this skill against a favored enemy.
 
-If you have the [Alertness](../feats.html#_alertness) feat, you get a bonus on Sense Motive checks (see [Feats](../feats.html)).
+If you have the [Alertness](../feats.md#_alertness) feat, you get a bonus on Sense Motive checks (see [Feats](../feats.md)).
 

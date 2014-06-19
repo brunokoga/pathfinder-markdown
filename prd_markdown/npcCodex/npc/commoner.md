@@ -16,7 +16,7 @@ DEFENSE
 
 **hp** 4 (1d6+1)
 
-**Fort** +1, **Ref** +2, **Will** â1; +2 vs. enchantments
+**Fort** +1, **Ref** +2, **Will** –1; +2 vs. enchantments
 
 **Immune** sleep
 
@@ -24,7 +24,7 @@ OFFENSE
 
 **Speed** 30 ft.
 
-**Melee** dagger â1 (1d4â1/19â20)
+**Melee** dagger –1 (1d4–1/19–20)
 
 TACTICS
 
@@ -34,11 +34,11 @@ STATISTICS
 
 **Str** 8, **Dex** 14, **Con** 13, **Int** 11, **Wis** 9, **Cha** 10
 
-**Base Atk** +0; **CMB** â1; **CMD** 11
+**Base Atk** +0; **CMB** –1; **CMD** 11
 
-**Feats** [Endurance](/pathfinderRPG/prd/feats.html#_endurance), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff))
+**Feats** [Endurance](feats.md#_endurance), [Skill Focus](feats.md#_skill-focus) ( [Bluff](skills/bluff.md#_bluff))
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +4, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +2, Perception +5, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (wind)
+**Skills** [Bluff](skills/bluff.md#_bluff) +4, [Disguise](skills/disguise.md#_disguise) +2, Perception +5, [Perform](skills/perform.md#_perform) (wind)
 
 **Languages** Common, Elven
 
@@ -56,21 +56,21 @@ Pig Farmer CR 1/2
 
 CN Medium humanoid (human)
 
-**Init** â1; **Senses** Perception +0
+**Init** –1; **Senses** Perception +0
 
 Defense
 
-**AC** 9, touch 9, flat-footed 9 (â1 Dex)
+**AC** 9, touch 9, flat-footed 9 (–1 Dex)
 
 **hp** 9 (2d6+2)
 
-**Fort** +1, **Ref** â1, **Will** +0
+**Fort** +1, **Ref** –1, **Will** +0
 
 Offense
 
 **Speed** 30 ft.
 
-**Melee** scythe â2 (2d4+1/Ã4) or
+**Melee** scythe –2 (2d4+1/×4) or
 
 club +2 (1d6+1)
 
@@ -86,9 +86,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +2; **CMD** 11
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal), [Heal](/pathfinderRPG/prd/skills/heal.html#_heal))
+**Feats** [Skill Focus](feats.md#_skill-focus) ( [Handle Animal](skills/handleAnimal.md#_handle-animal), [Heal](skills/heal.md#_heal))
 
-**Skills** [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (carpentry) +6, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +7, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) +1, [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (farmer) +5
+**Skills** [Craft](skills/craft.md#_craft) (carpentry) +6, [Handle Animal](skills/handleAnimal.md#_handle-animal) +7, [Heal](skills/heal.md#_heal) +5, [Knowledge](skills/knowledge.md#_knowledge) (nature) +1, [Profession](skills/profession.md#_profession) (farmer) +5
 
 **Languages** Common
 
@@ -104,11 +104,11 @@ Miner CR 1
 
 CN Medium humanoid (dwarf)
 
-**Init** â1; **Senses** darkvision 60 ft.; Perception +5
+**Init** –1; **Senses** darkvision 60 ft.; Perception +5
 
 Defense
 
-**AC** 11, touch 9, flat-footed 11 (+2 armor, â1 Dex)
+**AC** 11, touch 9, flat-footed 11 (+2 armor, –1 Dex)
 
 **hp** 16 (3d6+6)
 
@@ -120,7 +120,7 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** miner's pick â2 (1d6+1) or heavy mace +2 (1d8+1)
+**Melee** miner's pick –2 (1d6+1) or heavy mace +2 (1d8+1)
 
 **Special Attacks** +1 on attack rolls against goblinoid and orc humanoids
 
@@ -134,9 +134,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +2; **CMD** 11 (15 vs. bull rush or trip)
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise), [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) [miner])
+**Feats** [Skill Focus](feats.md#_skill-focus) ( [Appraise](skills/appraise.md#_appraise), [Profession](skills/profession.md#_profession) [miner])
 
-**Skills** [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) +3 (+5 to assess nonmagical metals or gemstones), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (dungeoneering) +0, Perception +5 (+7 to notice unusual stonework), [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (miner) +9
+**Skills** [Appraise](skills/appraise.md#_appraise) +3 (+5 to assess nonmagical metals or gemstones), [Climb](skills/climb.md#_climb) +5, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering) +0, Perception +5 (+7 to notice unusual stonework), [Profession](skills/profession.md#_profession) (miner) +9
 
 **Languages** Common, Dwarven
 
@@ -158,7 +158,7 @@ Defense
 
 **AC** 14, touch 14, flat-footed 11 (+3 Dex, +1 size)
 
-**hp** 10 (4d6â4)
+**hp** 10 (4d6–4)
 
 **Fort** +1, **Ref** +5, **Will** +3; +2 vs. fear
 
@@ -166,9 +166,9 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** fishing pole â3 (1d4â2)
+**Melee** fishing pole –3 (1d4–2)
 
-**Ranged** sling +6 (1d3â2)
+**Ranged** sling +6 (1d3–2)
 
 Tactics
 
@@ -178,15 +178,15 @@ Statistics
 
 **Str** 6, **Dex** 16, **Con** 9, **Int** 10, **Wis** 12, **Cha** 13
 
-**Base Atk** +2; **CMB** â1; **CMD** 12
+**Base Atk** +2; **CMB** –1; **CMD** 12
 
-**Feats** [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) (Perception)
+**Feats** [Point-Blank Shot](feats.md#_point-blank-shot), [Skill Focus](feats.md#_skill-focus) (Perception)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +5 (+1 when jumping), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +0, [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (cook) +6, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography, local, nature) +2, Perception +10, [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (fisherman) +6, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +2, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +2
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +5 (+1 when jumping), [Climb](skills/climb.md#_climb) +0, [Craft](skills/craft.md#_craft) (cook) +6, [Knowledge](skills/knowledge.md#_knowledge) (geography, local, nature) +2, Perception +10, [Profession](skills/profession.md#_profession) (fisherman) +6, [Survival](skills/survival.md#_survival) +2, [Swim](skills/swim.md#_swim) +2
 
 **Languages** Common, Halfling
 
-**Combat Gear** _potion of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_; **Other Gear** sling with 10 bullets, fishing net, everburning torch, masterwork artisan's tools (fishing), 1,480 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_; **Other Gear** sling with 10 bullets, fishing net, everburning torch, masterwork artisan's tools (fishing), 1,480 gp
 
 An accomplished angler prides herself on handling life's trials with aplomb.
 
@@ -212,9 +212,9 @@ Offense
 
 **Speed** 35 ft.
 
-**Melee** dagger +1 (1d4â1/19â20)
+**Melee** dagger +1 (1d4–1/19–20)
 
-**Ranged** dagger +3 (1d4â1/19â20)
+**Ranged** dagger +3 (1d4–1/19–20)
 
 Tactics
 
@@ -226,9 +226,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +1; **CMD** 13
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Fleet](/pathfinderRPG/prd/feats.html#_fleet), [Nimble Moves](/pathfinderRPG/prd/feats.html#_nimble-moves)
+**Feats** [Alertness](feats.md#_alertness), [Dodge](feats.md#_dodge), [Fleet](feats.md#_fleet), [Nimble Moves](feats.md#_nimble-moves)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +6, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +4, Perception +6, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +6
+**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +6, [Knowledge](skills/knowledge.md#_knowledge) (local) +4, Perception +6, [Sense Motive](skills/senseMotive.md#_sense-motive) +6
 
 **Languages** Common
 
@@ -250,7 +250,7 @@ Defense
 
 **AC** 13, touch 10, flat-footed 13 (+3 armor)
 
-**hp** 15 (6d6â6)
+**hp** 15 (6d6–6)
 
 **Fort** +1, **Ref** +2, **Will** +5; +2 vs. enchantments
 
@@ -260,7 +260,7 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk rapier +3 (1d6â1/18â20)
+**Melee** mwk rapier +3 (1d6–1/18–20)
 
 Tactics
 
@@ -272,15 +272,15 @@ Statistics
 
 **Base Atk** +3; **CMB** +2; **CMD** 12
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise))
+**Feats** [Alertness](feats.md#_alertness), [Iron Will](feats.md#_iron-will), [Skill Focus](feats.md#_skill-focus) ( [Appraise](skills/appraise.md#_appraise))
 
-**Skills** [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) +11, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +5, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history, local) +4, Perception +11, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +9, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +5 (+7 to identify magic item properties)
+**Skills** [Appraise](skills/appraise.md#_appraise) +11, [Bluff](skills/bluff.md#_bluff) +5, [Intimidate](skills/intimidate.md#_intimidate) +5, [Knowledge](skills/knowledge.md#_knowledge) (history, local) +4, Perception +11, [Sense Motive](skills/senseMotive.md#_sense-motive) +9, [Spellcraft](skills/spellcraft.md#_spellcraft) +5 (+7 to identify magic item properties)
 
 **Languages** Common, Elven, Gnome, Halfling
 
 **SQ** elven magic, weapon familiarity
 
-**Combat Gear** _potion of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, acid (2), alchemist's fire (2), tanglefoot bag, thunderstone; **Other Gear** masterwork studded leather, masterwork rapier, magnifying glass, merchant's scale, silver holy symbol, 638 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, acid (2), alchemist's fire (2), tanglefoot bag, thunderstone; **Other Gear** masterwork studded leather, masterwork rapier, magnifying glass, merchant's scale, silver holy symbol, 638 gp
 
 A shopkeeper stocks a mix of useful supplies and gear for townsfolk and adventurers alike. The stat block above can be used for any typical merchant in a cosmopolitan settlement.
 
@@ -296,7 +296,7 @@ N Medium humanoid (human)
 
 Defense
 
-**AC** 11, touch 9, flat-footed 11 (+2 armor, â1 Dex)
+**AC** 11, touch 9, flat-footed 11 (+2 armor, –1 Dex)
 
 **hp** 45 (7d6+21)
 
@@ -306,9 +306,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk dagger +7 (1d4+3/19â20) or club +6 (1d6+4)
+**Melee** mwk dagger +7 (1d4+3/19–20) or club +6 (1d6+4)
 
-**Ranged** dagger +2 (1d4+3/19â20)
+**Ranged** dagger +2 (1d4+3/19–20)
 
 Tactics
 
@@ -320,13 +320,13 @@ Statistics
 
 **Base Atk** +3; **CMB** +6; **CMD** 15
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate), [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)), [Step Up](/pathfinderRPG/prd/feats.html#_step-up), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Improved Initiative](feats.md#_improved-initiative), [Skill Focus](feats.md#_skill-focus) ( [Intimidate](skills/intimidate.md#_intimidate), [Stealth](skills/stealth.md#_stealth)), [Step Up](feats.md#_step-up), [Toughness](feats.md#_toughness)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +5, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +8, Perception +4, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +1, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +9
+**Skills** [Bluff](skills/bluff.md#_bluff) +5, [Intimidate](skills/intimidate.md#_intimidate) +8, Perception +4, [Sense Motive](skills/senseMotive.md#_sense-motive) +1, [Stealth](skills/stealth.md#_stealth) +9
 
 **Languages** Common
 
-**Combat Gear** _ [feather token](/pathfinderRPG/prd/magicItems/wondrousItems.html#_feather-token)_ (whip), _potions of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _potion of [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_; **Other Gear** leather armor, club, daggers (4), masterwork dagger, manacles, rope (50 ft.), sunrods (4), 3,656 gp
+**Combat Gear** _ [feather token](magicItems/wondrousItems.md#_feather-token)_ (whip), _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), _potion of [shield of faith](spells/shieldOfFaith.md#_shield-of-faith)_; **Other Gear** leather armor, club, daggers (4), masterwork dagger, manacles, rope (50 ft.), sunrods (4), 3,656 gp
 
 A ruffian makes a living by petty theft and robbery when he isn't working with a larger gang. Lacking the motivation to learn a profitable trade, a ruffian has spent a lifetime at hard unskilled labor, and isn't afraid to throw his weight around to get what he wants.
 
@@ -356,7 +356,7 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk spear +4 (1d8â1/Ã3)
+**Melee** mwk spear +4 (1d8–1/×3)
 
 Tactics
 
@@ -368,15 +368,15 @@ Statistics
 
 **Base Atk** +4; **CMB** +3; **CMD** 14
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Persuasive](/pathfinderRPG/prd/feats.html#_persuasive), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Alertness](feats.md#_alertness), [Iron Will](feats.md#_iron-will), [Persuasive](feats.md#_persuasive), [Toughness](feats.md#_toughness)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +5, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +7, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +9, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +9, Perception +4, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (oratory) +5, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +12
+**Skills** [Bluff](skills/bluff.md#_bluff) +5, [Diplomacy](skills/diplomacy.md#_diplomacy) +7, [Intimidate](skills/intimidate.md#_intimidate) +9, [Knowledge](skills/knowledge.md#_knowledge) (local) +9, Perception +4, [Perform](skills/perform.md#_perform) (oratory) +5, [Sense Motive](skills/senseMotive.md#_sense-motive) +12
 
 **Languages** Common, Giant, Orc
 
 **SQ** orc blood, weapon familiarity
 
-**Combat Gear** _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds), potion of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_; **Other Gear** masterwork chain shirt, masterwork spear, courtier's outfit, bit and bridle, light horse, riding saddle, 4,731 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds), potion of [invisibility](spells/invisibility.md#_invisibility)_; **Other Gear** masterwork chain shirt, masterwork spear, courtier's outfit, bit and bridle, light horse, riding saddle, 4,731 gp
 
 As a respected person in her community, an elder takes it upon herself to stand up to any troublemakers in her village despite her advancing years. She maintains a fine political balance between the clergy, merchants, and commoners in her town, using diplomacy and information to defuse arguments.
 
@@ -404,11 +404,11 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** _+1 spear_ +8 (1d8+4/Ã3) or
+**Melee** _+1 spear_ +8 (1d8+4/×3) or
 
 mwk sap +7 (1d6+2 nonlethal)
 
-**Ranged** mwk light crossbow +5 (1d8/19â20)
+**Ranged** mwk light crossbow +5 (1d8/19–20)
 
 Tactics
 
@@ -420,13 +420,13 @@ Statistics
 
 **Base Atk** +4; **CMB** +6; **CMD** 16
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), Light Armor Proficiency, [Martial Weapon Proficiency](/pathfinderRPG/prd/feats.html#_martial-weapon-proficiency) (sap), [Toughness](/pathfinderRPG/prd/feats.html#_toughness), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (spear)
+**Feats** [Alertness](feats.md#_alertness), [Iron Will](feats.md#_iron-will), Light Armor Proficiency, [Martial Weapon Proficiency](feats.md#_martial-weapon-proficiency) (sap), [Toughness](feats.md#_toughness), [Weapon Focus](feats.md#_weapon-focus) (spear)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +6, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +4, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +3, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +6, Perception +14, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +5, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +11, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +5
+**Skills** [Climb](skills/climb.md#_climb) +6, [Handle Animal](skills/handleAnimal.md#_handle-animal) +4, [Intimidate](skills/intimidate.md#_intimidate) +3, [Knowledge](skills/knowledge.md#_knowledge) (local) +6, Perception +14, [Ride](skills/ride.md#_ride) +5, [Sense Motive](skills/senseMotive.md#_sense-motive) +11, [Swim](skills/swim.md#_swim) +5
 
 **Languages** Common
 
-**Combat Gear** _potion of [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _potions of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), tanglefoot bags (4); **Other Gear** masterwork chain shirt, _+1 spear_, masterwork light crossbow with 10 bolts, masterwork sap, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, everburning torch, sunrods (5), bit and bridle, heavy horse (combat trained), military saddle, 2,568 gp
+**Combat Gear** _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), tanglefoot bags (4); **Other Gear** masterwork chain shirt, _+1 spear_, masterwork light crossbow with 10 bolts, masterwork sap, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, everburning torch, sunrods (5), bit and bridle, heavy horse (combat trained), military saddle, 2,568 gp
 
 A gruff, no-nonsense sort, a constable prefers a stern warning to violence, but doesn't hesitate to crack a belligerent nuisance over the head.
 
@@ -440,23 +440,23 @@ Traitor CR 8
 
 CE Medium humanoid (human)
 
-**Init** â1; **Senses** Perception +14
+**Init** –1; **Senses** Perception +14
 
 Defense
 
-**AC** 11, touch 9, flat-footed 11 (+2 armor, â1 Dex)
+**AC** 11, touch 9, flat-footed 11 (+2 armor, –1 Dex)
 
 **hp** 55 (10d6+20)
 
 **Fort** +6, **Ref** +4, **Will** +6
 
-**Immune** _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_, _ [discern lies](/pathfinderRPG/prd/spells/discernLies.html#_discern-lies)_, alignment detection
+**Immune** _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_, _ [discern lies](spells/discernLies.md#_discern-lies)_, alignment detection
 
 Offense
 
 **Speed** 30 ft.
 
-**Melee** light mace +4 (1d6â1)
+**Melee** light mace +4 (1d6–1)
 
 **Ranged** splash weapon +4 (varies)
 
@@ -470,13 +470,13 @@ Statistics
 
 **Base Atk** +5; **CMB** +4; **CMD** 13
 
-**Feats** [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive)), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Great Fortitude](feats.md#_great-fortitude), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), [Skill Focus](feats.md#_skill-focus) ( [Bluff](skills/bluff.md#_bluff), [Sense Motive](skills/senseMotive.md#_sense-motive)), [Toughness](feats.md#_toughness)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +18, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +8, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography) +3, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +6, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +3, Perception +14, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +5, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +12
+**Skills** [Bluff](skills/bluff.md#_bluff) +18, [Diplomacy](skills/diplomacy.md#_diplomacy) +8, [Knowledge](skills/knowledge.md#_knowledge) (geography) +3, [Knowledge](skills/knowledge.md#_knowledge) (history) +5, [Knowledge](skills/knowledge.md#_knowledge) (local) +6, [Linguistics](skills/linguistics.md#_linguistics) +3, Perception +14, [Ride](skills/ride.md#_ride) +5, [Sense Motive](skills/senseMotive.md#_sense-motive) +12
 
 **Languages** Common, Dwarven, Elven, Halfling
 
-**Combat Gear** _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _potion of [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_, _potion of [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor),_ acid (2), alchemist's fire (2); **Other Gear** leather armor, light mace, _ [ring of mind shielding](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-mind-shielding)_, 875 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [gaseous form](spells/gaseousForm.md#_gaseous-form)_, _potion of [mage armor](spells/mageArmor.md#_mage-armor),_ acid (2), alchemist's fire (2); **Other Gear** leather armor, light mace, _ [ring of mind shielding](magicItems/rings.md#_ring-of-mind-shielding)_, 875 gp
 
 A trusted and respected pillar of his community, a traitor keeps a kind face and speaks honeyed words, all the while betraying his people for his own selfish gain. In the long run, he doesn't care who gets hurt or killed by his devious plans, as long as he is able to profit from it in terms of status or wealth.
 

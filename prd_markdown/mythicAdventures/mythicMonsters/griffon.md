@@ -6,9 +6,9 @@ Mythic Griffon CR 5/MR 2
 
 XP 1,600
 
-N Large magical beast ( [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
+N Large magical beast ( [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft., [low-light vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_low-light-vision), [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12
+**Init** +2; **Senses** darkvision 60 ft., [low-light vision](monsters/universalMonsterRules.md#_low-light-vision), [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +12
 
 Defense
 
@@ -24,11 +24,11 @@ Offense
 
 **Speed** 30 ft., fly 100 ft. (average)
 
-**Melee** bite +8 (1d6+4 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), 2 talons +10 (1d6+4)
+**Melee** bite +8 (1d6+4 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 talons +10 (1d6+4)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** mythic power (2/day, surge +1d6), [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce), power dive, [rake](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_rake) (2 claws +8, 1d4+4)
+**Special Attacks** mythic power (2/day, surge +1d6), [pounce](monsters/universalMonsterRules.md#_pounce), power dive, [rake](monsters/universalMonsterRules.md#_rake) (2 claws +8, 1d4+4)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +10 (+14 grapple); **CMD** 22 (26 vs. trip)
 
-**Feats** [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack)B, [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (talons)M
+**Feats** [Flyby Attack](monsters/monsterFeats.md#_flyby-attack)B, [Iron Will](feats.md#_iron-will), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception)), [Weapon Focus](feats.md#_weapon-focus) (talons)M
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +10, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +6, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12; **Racial Modifiers** +4 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics), +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +10, [Fly](skills/fly.md#_fly) +6, [Perception](skills/perception.md#_perception) +12; **Racial Modifiers** +4 [Acrobatics](skills/acrobatics.md#_acrobatics), +4 [Perception](skills/perception.md#_perception)
 
 **Languages** Common (cannot speak)
 

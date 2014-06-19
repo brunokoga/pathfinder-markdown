@@ -10,7 +10,7 @@ Catfolk ranger 1
 
 NG Medium humanoid (catfolk)
 
-**Init** +3; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +2
+**Init** +3; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +2
 
 Defense
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +3; **CMD** 16
 
-**Feats** [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (longbow)
+**Feats** [Weapon Focus](feats.md#_weapon-focus) (longbow)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +5, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) +3, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +2, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +8, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +6; **Racial Modifiers** +2 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +2 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth), +2 [Survival](/pathfinderRPG/prd/skills/survival.html#_survival)
+**Skills** [Climb](skills/climb.md#_climb) +5, [Handle Animal](skills/handleAnimal.md#_handle-animal) +5, [Knowledge](skills/knowledge.md#_knowledge) (nature) +3, [Perception](skills/perception.md#_perception) +2, [Stealth](skills/stealth.md#_stealth) +8, [Survival](skills/survival.md#_survival) +6; **Racial Modifiers** +2 [Perception](skills/perception.md#_perception), +2 [Stealth](skills/stealth.md#_stealth), +2 [Survival](skills/survival.md#_survival)
 
 **Languages** Catfolk, Common
 
@@ -74,7 +74,7 @@ Catfolk have no racial Hit Dice, gaining their capabilities from class levels. A
 
 **Sprinter** : See above.
 
-**Natural Hunter** : Catfolk receive a +2 racial bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth), and [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) checks.
+**Natural Hunter** : Catfolk receive a +2 racial bonus on [Perception](skills/perception.md#_perception), [Stealth](skills/stealth.md#_stealth), and [Survival](skills/survival.md#_survival) checks.
 
 **Languages** : Catfolk speak Catfolk and Common. A catfolk who has a high Intelligence score can choose from the following bonus languages: Elven, Gnoll, Gnome, Goblin, Halfling, Orc, and Sylvan.
 

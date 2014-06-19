@@ -1,6 +1,6 @@
 Surmount Affliction
 
-**Source** [_surmount affliction_](/pathfinderRPG/prd/ultimateMagic/spells/surmountAffliction.html#_surmount-affliction)
+**Source** [_surmount affliction_](ultimateMagic/spells/surmountAffliction.md#_surmount-affliction)
 
 You can cast this spell with no verbal or somatic component, and even if you're helpless (but not unconscious). You temporarily overcome a number of additional harmful conditions equal to half your tier.
 

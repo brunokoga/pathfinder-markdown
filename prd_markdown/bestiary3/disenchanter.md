@@ -8,7 +8,7 @@ XP 800
 
 N Large magical beast
 
-**Init** +3; **Senses** darkvision 60 ft., _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9
+**Init** +3; **Senses** darkvision 60 ft., _ [detect magic](spells/detectMagic.md#_detect-magic)_, low-light vision; [Perception](skills/perception.md#_perception) +9
 
 Defense
 
@@ -20,7 +20,7 @@ Defense
 
 **DR** 5/magic
 
-**Weaknesses** vulnerable to _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_
+**Weaknesses** vulnerable to _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_
 
 Offense
 
@@ -34,11 +34,11 @@ Offense
 
 **Spell-Like Abilities** (CL 4th; concentration +3)
 
-Constant—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_
+Constant—_ [detect magic](spells/detectMagic.md#_detect-magic)_
 
-3/day—_ [magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon)_
+3/day—_ [magic weapon](spells/magicWeapon.md#_magic-weapon)_
 
-1/day—_ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_
+1/day—_ [dimension door](spells/dimensionDoor.md#_dimension-door)_
 
 Statistics
 
@@ -46,9 +46,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +9; **CMD** 22 (26 vs. trip)
 
-**Feats** [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Iron Will](feats.md#_iron-will), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
 
-**Skills** [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +5, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9
+**Skills** [Escape Artist](skills/escapeArtist.md#_escape-artist) +5, [Perception](skills/perception.md#_perception) +9
 
 **Languages** none
 
@@ -64,9 +64,9 @@ Special Abilities
 
 **Disenchant (Ex)** A disenchanter can use its trunk to make a melee touch attack against a target's worn, held, or carried magic item in an attempt to drink the item's magic. The disenchanter makes a caster level check (+4) opposed by the target's Fortitude save. If the check succeeds, the disenchanter drains the item's magic, rendering it nonmagical. To determine which of a target's magic items is affected, use Table 9–2 on page 216 of the _Core Rulebook_ (though a disenchanter never uses this ability on a headband or similar head-slot item unless it has first tried to wear the item). Disenchanters may instead target specific visible items, in which case they generally target the most obvious items. Artifacts are immune to this ability. Disenchant only works against objects that a disenchanter can touch, and even a thin layer of cloth effectively protects items from it.
 
-**Power Spray (Su)** Once per day, a disenchanter can release a 20-foot cone-shaped burst of raw magical energy through its trunk. Creatures in the cone take 4d6 points of damage (DC 14 Reflex save for half). Creatures immune to magic effects that allow spell [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) (such as golems) are immune to this ability. The save DC is Constitution-based.
+**Power Spray (Su)** Once per day, a disenchanter can release a 20-foot cone-shaped burst of raw magical energy through its trunk. Creatures in the cone take 4d6 points of damage (DC 14 Reflex save for half). Creatures immune to magic effects that allow spell [resistance](monsters/universalMonsterRules.md#_resistance) (such as golems) are immune to this ability. The save DC is Constitution-based.
 
-**Vulnerable to Dispel Magic (Ex)** A disenchanter targeted by _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_ takes 1d6 points of damage per caster level (maximum 10d6, Fortitude save for half). _ [Greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_ functions similarly (maximum 20d6 damage, Fortitude save for half).
+**Vulnerable to Dispel Magic (Ex)** A disenchanter targeted by _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_ takes 1d6 points of damage per caster level (maximum 10d6, Fortitude save for half). _ [Greater dispel magic](spells/dispelMagic.md#_dispel-magic-greater)_ functions similarly (maximum 20d6 damage, Fortitude save for half).
 
 A disenchanter is a blue-furred creature that resembles a single-humped camel with a prehensile trunk. The creatures can sense magic, which they consume for sustenance, draining the power of magic items and storing their magical energy in their humps. Disenchanters are social creatures, and often seek the companionship of other intelligent beings, making excellent mounts and trackers for treasure hunters. A typical disenchanter is   
 8 feet long and weighs 1,600 pounds.

@@ -8,7 +8,7 @@ Pup Shape
 
 **Range** close (25 ft. + 5 ft./2 levels)
 
-**Target** one [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal) or [magical beast](/pathfinderRPG/prd/monsters/creatureTypes.html#_magical-beast).
+**Target** one [animal](monsters/creatureTypes.md#_animal) or [magical beast](monsters/creatureTypes.md#_magical-beast).
 
 **Duration** 1 round/level
 

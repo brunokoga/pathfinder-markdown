@@ -1,16 +1,16 @@
 # Demon, Marilith
 
-_This snake-bodied woman has six arms, yet her cruel weapons float in the air, glistening with [poison](/pathfinderRPG/prd/spells/poison.html#_poison). _
+_This snake-bodied woman has six arms, yet her cruel weapons float in the air, glistening with [poison](spells/poison.md#_poison). _
 
 Mythic Marilith CR 21/MR 8
 
 XP 409,600
 
-CE Large outsider ( [chaotic](/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype), [demon](/pathfinderRPG/prd/monsters/creatureTypes.html#_demon-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
+CE Large outsider ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [demon](monsters/creatureTypes.md#_demon-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
 
-**Init** +4; **Senses** darkvision 60 ft., _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +31
+**Init** +4; **Senses** darkvision 60 ft., _ [true seeing](spells/trueSeeing.md#_true-seeing)_; [Perception](skills/perception.md#_perception) +31
 
-**Aura** _ [unholy aura](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)_ (DC 26)
+**Aura** _ [unholy aura](spells/unholyAura.md#_unholy-aura)_ (DC 26)
 
 Defense
 
@@ -20,25 +20,25 @@ Defense
 
 **Fort** +25, **Ref** +18, **Will** +13
 
-**DR** 10/cold iron and epic and [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype); **Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), electricity, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison); **Resist** acid 10; **SR** 32
+**DR** 10/cold iron and epic and [good](monsters/creatureTypes.md#_good-subtype); **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [fire](monsters/creatureTypes.md#_fire-subtype), electricity, [poison](monsters/universalMonsterRules.md#_poison); **Resist** acid 10; **SR** 32
 
 Offense
 
 **Speed** 40 ft.
 
-**Melee** _+2 longsword_ +28/+23/+18/+13 (2d6+12/16–20 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison)), 5 _+2 longswords_ +28 (2d6+7/16–20 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison)), tail slap +20 (2d6+5 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** _+2 longsword_ +28/+23/+18/+13 (2d6+12/16–20 plus [poison](monsters/universalMonsterRules.md#_poison)), 5 _+2 longswords_ +28 (2d6+7/16–20 plus [poison](monsters/universalMonsterRules.md#_poison)), tail slap +20 (2d6+5 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [constrict](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict) (tail slap, 2d6+15 plus crushing coils), greater infuse weapon, [multiweapon mastery](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_multiweapon-mastery), mythic power (8/day, surge +1d10), poisoned weapons
+**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) (tail slap, 2d6+15 plus crushing coils), greater infuse weapon, [multiweapon mastery](monsters/universalMonsterRules.md#_multiweapon-mastery), mythic power (8/day, surge +1d10), poisoned weapons
 
 **Spell-Like Abilities** (CL 16th; concentration +24)
 
-Constant—_ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_, _ [unholy aura](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)_ (DC 26)
+Constant—_ [true seeing](spells/trueSeeing.md#_true-seeing)_, _ [unholy aura](spells/unholyAura.md#_unholy-aura)_ (DC 26)
 
-At will—_ [greater teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [project image](/pathfinderRPG/prd/spells/projectImage.html#_project-image)_ (DC 25), _ [telekinesis](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis)_ (DC 23)
+At will—_ [greater teleport](spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [project image](spells/projectImage.md#_project-image)_ (DC 25), _ [telekinesis](spells/telekinesis.md#_telekinesis)_ (DC 23)
 
-3/day—_ [blade barrier](/pathfinderRPG/prd/spells/bladeBarrier.html#_blade-barrier)_ (DC 24), _ [fly](/pathfinderRPG/prd/spells/fly.html)_, _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_ (self only)
+3/day—_ [blade barrier](spells/bladeBarrier.md#_blade-barrier)_ (DC 24), _ [fly](spells/fly.md)_, _ [heal](spells/heal.md#_heal)_ (self only)
 
 1/day—summon (level 5, 1 marilith 20%, 1 nalfeshnee 35%, or 1d4 hezrous 60%)
 
@@ -48,13 +48,13 @@ Statistics
 
 **Base Atk** +16; **CMB** +27 (+29 disarm, +31 grapple); **CMD** 45 (47 vs. disarm, can'tbe tripped)
 
-**Feats** [Bleeding Critical](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_bleeding-critical-mythic)M, [Combat Expertise](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_combat-expertise-mythic)M, [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Critical Focus](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_critical-focus-mythic)M, [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (longsword)M, [Improved Disarm](/pathfinderRPG/prd/feats.html#_improved-disarm), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (longsword)
+**Feats** [Bleeding Critical](mythicAdventures/mythicFeats.md#_bleeding-critical-mythic)M, [Combat Expertise](mythicAdventures/mythicFeats.md#_combat-expertise-mythic)M, [Combat Reflexes](feats.md#_combat-reflexes), [Critical Focus](mythicAdventures/mythicFeats.md#_critical-focus-mythic)M, [Improved Critical](feats.md#_improved-critical) (longsword)M, [Improved Disarm](feats.md#_improved-disarm), [Power Attack](feats.md#_power-attack), [Weapon Focus](feats.md#_weapon-focus) (longsword)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +23, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +27, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +27, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +18, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +27, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (engineering) +20, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +31, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +23, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +19, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +27; **Racial Modifiers** +8 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +23, [Bluff](skills/bluff.md#_bluff) +27, [Diplomacy](skills/diplomacy.md#_diplomacy) +27, [Fly](skills/fly.md#_fly) +18, [Intimidate](skills/intimidate.md#_intimidate) +27, [Knowledge](skills/knowledge.md#_knowledge) (engineering) +20, [Perception](skills/perception.md#_perception) +31, [Sense Motive](skills/senseMotive.md#_sense-motive) +23, [Stealth](skills/stealth.md#_stealth) +19, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +27; **Racial Modifiers** +8 [Perception](skills/perception.md#_perception)
 
 **Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (any animal, humanoid, or [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype); _ [shapechange](/pathfinderRPG/prd/spells/shapechange.html#_shapechange)_)
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (any animal, humanoid, or [giant](monsters/creatureTypes.md#_giant-subtype); _ [shapechange](spells/shapechange.md#_shapechange)_)
 
 Ecology
 
@@ -68,9 +68,9 @@ Special Abilities
 
 **Crushing Coils (Ex)** A constricted creature must succeed at a DC 28 Fortitude save or lose consciousness for 1d8 rounds. The save DC is Strength-based.
 
-**Greater Infuse Weapon (Su)** Any weapon a mythic marilith wields gains a +2 enhancement bonus and counts as a [chaotic](/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype) and [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) iron weapon. She can expend two uses of mythic power as an immediate action to add the _ [dancing](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-dancing)_ special ability to all her manufactured weapons for 4 rounds.
+**Greater Infuse Weapon (Su)** Any weapon a mythic marilith wields gains a +2 enhancement bonus and counts as a [chaotic](monsters/creatureTypes.md#_chaotic-subtype) and [evil](monsters/creatureTypes.md#_evil-subtype) [cold](monsters/creatureTypes.md#_cold-subtype) iron weapon. She can expend two uses of mythic power as an immediate action to add the _ [dancing](magicItems/weapons.md#_weapons-dancing)_ special ability to all her manufactured weapons for 4 rounds.
 
-**Poisoned Weapons (Ex)** As a swift action, a mythic marilith can lick one of her manufactured weapons to coat it with deathblade [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison).
+**Poisoned Weapons (Ex)** As a swift action, a mythic marilith can lick one of her manufactured weapons to coat it with deathblade [poison](monsters/universalMonsterRules.md#_poison).
 
 A mythic marilith is a queen of chaos and evil, controlling a large territory in the Abyss and commanding a legion of demons.
 
@@ -82,11 +82,11 @@ Mythic Nalfeshnee CR 17/MR 7
 
 XP 102,400
 
-CE Huge outsider ( [chaotic](/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype), [demon](/pathfinderRPG/prd/monsters/creatureTypes.html#_demon-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
+CE Huge outsider ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [demon](monsters/creatureTypes.md#_demon-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
 
-**Init** +12M; **Senses** darkvision 60 ft., _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +32
+**Init** +12M; **Senses** darkvision 60 ft., _ [true seeing](spells/trueSeeing.md#_true-seeing)_; [Perception](skills/perception.md#_perception) +32
 
-**Aura** _ [unholy aura](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)_ (DC 25)
+**Aura** _ [unholy aura](spells/unholyAura.md#_unholy-aura)_ (DC 25)
 
 Defense
 
@@ -96,7 +96,7 @@ Defense
 
 **Fort** +22, **Ref** +10, **Will** +21
 
-**DR** 10/epic and [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype); **Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), electricity, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison); **Resist** acid 10, [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10; **SR** 28
+**DR** 10/epic and [good](monsters/creatureTypes.md#_good-subtype); **Immune** [fire](monsters/creatureTypes.md#_fire-subtype), electricity, [poison](monsters/universalMonsterRules.md#_poison); **Resist** acid 10, [cold](monsters/creatureTypes.md#_cold-subtype) 10; **SR** 28
 
 Offense
 
@@ -110,13 +110,13 @@ Offense
 
 **Spell-Like Abilities** (CL 12th; concentration +19)
 
-Constant—_ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_ (DC 19), _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_, _ [unholy aura](/pathfinderRPG/prd/spells/unholyAura.html#_unholy-aura)_ (DC 25)
+Constant—_ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_ (DC 19), _ [true seeing](spells/trueSeeing.md#_true-seeing)_, _ [unholy aura](spells/unholyAura.md#_unholy-aura)_ (DC 25)
 
-At will—_ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_ (DC 20), _ [feeblemind](/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind)_ (DC 22), _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [greater teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [move earth](/pathfinderRPG/prd/spells/moveEarth.html#_move-earth)_, _ [slow](/pathfinderRPG/prd/spells/slow.html#_slow)_ (DC 20), _ [stone shape](/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape)_, _ [stone tell](/pathfinderRPG/prd/spells/stoneTell.html#_stone-tell)_
+At will—_ [call lightning](spells/callLightning.md#_call-lightning)_ (DC 20), _ [feeblemind](spells/feeblemind.md#_feeblemind)_ (DC 22), _ [greater dispel magic](spells/dispelMagic.md#_dispel-magic-greater)_, _ [greater teleport](spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [move earth](spells/moveEarth.md#_move-earth)_, _ [slow](spells/slow.md#_slow)_ (DC 20), _ [stone shape](spells/stoneShape.md#_stone-shape)_, _ [stone tell](spells/stoneTell.md#_stone-tell)_
 
-3/day—_ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_
+3/day—_ [scrying](spells/scrying.md#_scrying)_
 
-1/day—_ [contact other plane](/pathfinderRPG/prd/spells/contactOtherPlane.html#_contact-other-plane)_, summon (level 5, 1 nalfeshnee 20%, 1d4 hezrous 40%, or 1d4 vrocks 50%)
+1/day—_ [contact other plane](spells/contactOtherPlane.md#_contact-other-plane)_, summon (level 5, 1 nalfeshnee 20%, 1d4 hezrous 40%, or 1d4 vrocks 50%)
 
 Statistics
 
@@ -124,9 +124,9 @@ Statistics
 
 **Base Atk** +15; **CMB** +32 (+34 bull rush); **CMD** 47 (49 vs. bull rush)
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow), [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite)M, [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (claws), [Improved Initiative](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_improved-initiative-mythic)M, [Iron Will](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_iron-will-mythic)M, [Power Attack](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_power-attack-mythic)M
+**Feats** [Awesome Blow](monsters/monsterFeats.md#_awesome-blow), [Cleave](feats.md#_cleave), [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Critical](feats.md#_improved-critical) (bite)M, [Improved Critical](feats.md#_improved-critical) (claws), [Improved Initiative](mythicAdventures/mythicFeats.md#_improved-initiative-mythic)M, [Iron Will](mythicAdventures/mythicFeats.md#_iron-will-mythic)M, [Power Attack](mythicAdventures/mythicFeats.md#_power-attack-mythic)M
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +25, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +25, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +11, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +22, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +24, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +24, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (any one other) +21, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +32, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +24, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +24, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +11, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +25; **Racial Modifiers** +8 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Bluff](skills/bluff.md#_bluff) +25, [Diplomacy](skills/diplomacy.md#_diplomacy) +25, [Fly](skills/fly.md#_fly) +11, [Intimidate](skills/intimidate.md#_intimidate) +22, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +24, [Knowledge](skills/knowledge.md#_knowledge) (planes) +24, [Knowledge](skills/knowledge.md#_knowledge) (any one other) +21, [Perception](skills/perception.md#_perception) +32, [Sense Motive](skills/senseMotive.md#_sense-motive) +24, [Spellcraft](skills/spellcraft.md#_spellcraft) +24, [Stealth](skills/stealth.md#_stealth) +11, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +25; **Racial Modifiers** +8 [Perception](skills/perception.md#_perception)
 
 **Languages** Abyssal, Celestial, Draconic; telepathy 100 ft.
 
@@ -156,9 +156,9 @@ Mythic Vrock CR 11/MR 4
 
 XP 12,800
 
-CE Large outsider ( [chaotic](/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype), [demon](/pathfinderRPG/prd/monsters/creatureTypes.html#_demon-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [mythic](/pathfinderRPG/prd/mythicAdventures/mythicMonsters.html#_mythic-subtype))
+CE Large outsider ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [demon](monsters/creatureTypes.md#_demon-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +23
+**Init** +7; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +23
 
 Defense
 
@@ -168,23 +168,23 @@ Defense
 
 **Fort** +13, **Ref** +11, **Will** +6
 
-**DR** 10/epic and [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype); **Immune** electricity, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison); **Resist** acid 10, [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 22
+**DR** 10/epic and [good](monsters/creatureTypes.md#_good-subtype); **Immune** electricity, [poison](monsters/universalMonsterRules.md#_poison); **Resist** acid 10, [cold](monsters/creatureTypes.md#_cold-subtype) 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 22
 
 Offense
 
 **Speed** 30 ft., fly 50 ft. (average)
 
-**Melee** bite +14 (1d8+6 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed)), 2 claws +14 (2d6+6 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed)), 2 talons +14 (1d6+6 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed))
+**Melee** bite +14 (1d8+6 plus [bleed](monsters/universalMonsterRules.md#_bleed)), 2 claws +14 (2d6+6 plus [bleed](monsters/universalMonsterRules.md#_bleed)), 2 talons +14 (1d6+6 plus [bleed](monsters/universalMonsterRules.md#_bleed))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) (1d6), entrapping vines, greater stunning screech, manic dance of ruin, mythic power (4/day, surge +1d8)
+**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d6), entrapping vines, greater stunning screech, manic dance of ruin, mythic power (4/day, surge +1d8)
 
 **Spell-Like Abilities** (CL 12th; concentration +15)
 
-At will—_ [greater teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [telekinesis](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis)_ (DC 18)
+At will—_ [greater teleport](spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [telekinesis](spells/telekinesis.md#_telekinesis)_ (DC 18)
 
-1/day—_ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_, _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_, summon (level 3, 1 vrock 35%)
+1/day—_ [heroism](spells/heroism.md#_heroism)_, _ [mirror image](spells/mirrorImage.md#_mirror-image)_, summon (level 3, 1 vrock 35%)
 
 Statistics
 
@@ -192,9 +192,9 @@ Statistics
 
 **Base Atk** +9; **CMB** +16; **CMD** 29
 
-**Feats** [Cleave](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_cleave-mythic)M, [Combat Reflexes](/pathfinderRPG/prd/mythicAdventures/mythicFeats.html#_combat-reflexes-mythic)M, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), Stand StillB
+**Feats** [Cleave](mythicAdventures/mythicFeats.md#_cleave-mythic)M, [Combat Reflexes](mythicAdventures/mythicFeats.md#_combat-reflexes-mythic)M, [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), Stand StillB
 
-**Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +13, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +15, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +14, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +23, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +15, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +14, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +11, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +15; **Racial Modifiers** +8 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Fly](skills/fly.md#_fly) +13, [Intimidate](skills/intimidate.md#_intimidate) +15, [Knowledge](skills/knowledge.md#_knowledge) (planes) +14, [Perception](skills/perception.md#_perception) +23, [Sense Motive](skills/senseMotive.md#_sense-motive) +15, [Spellcraft](skills/spellcraft.md#_spellcraft) +14, [Stealth](skills/stealth.md#_stealth) +11, [Survival](skills/survival.md#_survival) +15; **Racial Modifiers** +8 [Perception](skills/perception.md#_perception)
 
 **Languages** Abyssal, Celestial, Common; telepathy 100 ft.
 
@@ -208,7 +208,7 @@ Ecology
 
 Special Abilities
 
-**Entrapping Vines (Ex)** A mythic vrock can expend one use of mythic power as a swift action to release a cloud of spores from its body, affecting all adjacent non-demons. The spores deal 2d8 points of damage on the first round as they grow into ugly vines; for the next 10 rounds, they deal 1d6 points of damage and [entrap](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)) the affected creatures (DC 21, 10 rounds, hardness 5, hp 10). The vines can be destroyed by casting _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_ on the creatures or by sprinkling them with holy water. This is a [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease) effect. The save DC is Constitution-based.
+**Entrapping Vines (Ex)** A mythic vrock can expend one use of mythic power as a swift action to release a cloud of spores from its body, affecting all adjacent non-demons. The spores deal 2d8 points of damage on the first round as they grow into ugly vines; for the next 10 rounds, they deal 1d6 points of damage and [entrap](monsters/universalMonsterRules.md#_entrap-(ex-or-su)) the affected creatures (DC 21, 10 rounds, hardness 5, hp 10). The vines can be destroyed by casting _ [bless](spells/bless.md#_bless)_ on the creatures or by sprinkling them with holy water. This is a [disease](monsters/universalMonsterRules.md#_disease) effect. The save DC is Constitution-based.
 
 **Greater Stunning Screech (Su)** Once per hour, a mythic vrock can emit a shrill screech. All non-demons within a 30-foot-radius spread must succeed at a DC 21 Fortitude save or be stunned for 1 round. If the vrock expends one use of mythic power, any creature that fails its save is staggered for 1d6 rounds after the stun ends. The save DC is Constitution-based.
 

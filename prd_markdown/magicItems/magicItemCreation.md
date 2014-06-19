@@ -1,6 +1,6 @@
 # Magic Item Creation
 
-To create magic items, spellcasters use special feats which allow them to invest time and money in an item's creation. At the end of this process, the spellcaster must make a single skill check (usually [Spellcraft](../skills/spellcraft.html#_spellcraft), but sometimes another skill) to finish the item. If an item type has multiple possible skills, you choose which skill to make the check with. The DC to create a magic item is 5 + the caster level for the item. Failing this check means that the item does not function and the materials and time are wasted. Failing this check by 5 or more results in a cursed item (see Cursed Items for more information).
+To create magic items, spellcasters use special feats which allow them to invest time and money in an item's creation. At the end of this process, the spellcaster must make a single skill check (usually [Spellcraft](../skills/spellcraft.md#_spellcraft), but sometimes another skill) to finish the item. If an item type has multiple possible skills, you choose which skill to make the check with. The DC to create a magic item is 5 + the caster level for the item. Failing this check means that the item does not function and the materials and time are wasted. Failing this check by 5 or more results in a cursed item (see Cursed Items for more information).
 
 Note that all items have prerequisites in their descriptions. These prerequisites must be met for the item to be created. Most of the time, they take the form of spells that must be known by the item's creator (although access through another magic item or spellcaster is allowed). The DC to create a magic item increases by +5 for each prerequisite the caster does not meet. The only exception to this is the requisite item creation feat, which is mandatory. In addition, you cannot create potions, spell-trigger, or spell-completion magic items without meeting their spell prerequisites.
 
@@ -23,30 +23,30 @@ Many factors must be considered when determining the price of new magic items. T
 [Table: Estimating Magic Item Gold Piece Values]
 | Effect | Base Price | Example |
 | --- | --- | --- |
-| Ability bonus (enhancement) | Bonus squared × 1,000 gp | _ [Belt of incredible dexterity](wondrousItems.html#_belt-of-incredible-dexterity) +2_ |
+| Ability bonus (enhancement) | Bonus squared × 1,000 gp | _ [Belt of incredible dexterity](wondrousItems.md#_belt-of-incredible-dexterity) +2_ |
 | Armor bonus (enhancement) | Bonus squared × 1,000 gp | _+1 chainmail_ |
-| Bonus spell | Spell level squared × 1,000 gp | _ [Pearl of power](wondrousItems.html#_pearl-of-power)_ |
-| AC bonus (deflection) | Bonus squared × 2,000 gp | _ [Ring of protection](rings.html#_ring-of-protection) +3_ |
-| AC bonus (other)ⁱ | Bonus squared × 2,500 gp | _ [Ioun stone](wondrousItems.html#_ioun-stones) (dusty rose prism)_ |
-| Natural armor bonus (enhancement) | Bonus squared × 2,000 gp | _ [Amulet of natural armor](wondrousItems.html#_amulet-of-natural-armor) +1_ |
-| Save bonus (resistance) | Bonus squared × 1,000 gp | _ [Cloak of resistance](wondrousItems.html#_cloak-of-resistance) +5_ |
-| Save bonus (other)ⁱ | Bonus squared × 2,000 gp | _ [Stone of good luck](wondrousItems.html#_stone-of-good-luck)_ |
-| Skill bonus (competence) | Bonus squared × 100 gp | _ [Cloak of elvenkind](wondrousItems.html#_cloak-of-elvenkind)_ |
-| Spell resistance | 10,000 gp per point over SR 12; SR 13 minimum | _ [Mantle of spell resistance](wondrousItems.html#_mantle-of-spell-resistance)_ |
+| Bonus spell | Spell level squared × 1,000 gp | _ [Pearl of power](wondrousItems.md#_pearl-of-power)_ |
+| AC bonus (deflection) | Bonus squared × 2,000 gp | _ [Ring of protection](rings.md#_ring-of-protection) +3_ |
+| AC bonus (other)ⁱ | Bonus squared × 2,500 gp | _ [Ioun stone](wondrousItems.md#_ioun-stones) (dusty rose prism)_ |
+| Natural armor bonus (enhancement) | Bonus squared × 2,000 gp | _ [Amulet of natural armor](wondrousItems.md#_amulet-of-natural-armor) +1_ |
+| Save bonus (resistance) | Bonus squared × 1,000 gp | _ [Cloak of resistance](wondrousItems.md#_cloak-of-resistance) +5_ |
+| Save bonus (other)ⁱ | Bonus squared × 2,000 gp | _ [Stone of good luck](wondrousItems.md#_stone-of-good-luck)_ |
+| Skill bonus (competence) | Bonus squared × 100 gp | _ [Cloak of elvenkind](wondrousItems.md#_cloak-of-elvenkind)_ |
+| Spell resistance | 10,000 gp per point over SR 12; SR 13 minimum | _ [Mantle of spell resistance](wondrousItems.md#_mantle-of-spell-resistance)_ |
 | Weapon bonus (enhancement) | Bonus squared × 2,000 gp | _+1 longsword_ |
 | Spell Effect | Base Price | Example |
 | --- | --- | --- |
 | Single use, spell completion | Spell level × caster level × 25 gp | _Scroll of haste_ |
 | Single use, use-activated | Spell level × caster level × 50 gp | _Potion of cure light wounds_ |
 | 50 charges, spell trigger | Spell level × caster level × 750 gp | _Wand of fireball_ |
-| Command word | Spell level × caster level × 1,800 gp | _ [Cape of the mountebank](wondrousItems.html#_cape-of-the-mountebank)_ |
-| Use-activated or continuous | Spell level × caster level × 2,000 gp⁲ | _ [Lantern of revealing](wondrousItems.html#_lantern-of-revealing)_ |
+| Command word | Spell level × caster level × 1,800 gp | _ [Cape of the mountebank](wondrousItems.md#_cape-of-the-mountebank)_ |
+| Use-activated or continuous | Spell level × caster level × 2,000 gp⁲ | _ [Lantern of revealing](wondrousItems.md#_lantern-of-revealing)_ |
 | Special | Base Price | Adjustment Example |
 | --- | --- | --- |
-| Charges per day | Divide by (5 divided by charges per day) | _ [Boots of teleportation](wondrousItems.html#_boots-of-teleportation)_ |
-| No space limitation⁳ | Multiply entire cost by 2 | _ [Ioun stone](wondrousItems.html#_ioun-stones)_ |
-| Multiple different abilities | Multiply lower item cost by 1.5 | _ [Helm of brilliance](wondrousItems.html#_helm-of-brilliance)_ |
-| Charged (50 charges) | 1/2 unlimited use base price | _ [Ring of the ram](rings.html#_ring-of-the-ram)_ |
+| Charges per day | Divide by (5 divided by charges per day) | _ [Boots of teleportation](wondrousItems.md#_boots-of-teleportation)_ |
+| No space limitation⁳ | Multiply entire cost by 2 | _ [Ioun stone](wondrousItems.md#_ioun-stones)_ |
+| Multiple different abilities | Multiply lower item cost by 1.5 | _ [Helm of brilliance](wondrousItems.md#_helm-of-brilliance)_ |
+| Charged (50 charges) | 1/2 unlimited use base price | _ [Ring of the ram](rings.md#_ring-of-the-ram)_ |
 | Component | Extra Cost | Example |
 | --- | --- | --- |
 | Armor, shield, or weapon | Add cost of masterwork item | _+1 composite longbow_ |
@@ -82,9 +82,9 @@ Creating some armor may entail other prerequisites beyond or other than spellcas
 
 Crafting magic armor requires one day for each 1,000 gp value of the base price.
 
-**Item Creation Feat Required** : [Craft Magic Arms and Armor](../feats.html#_craft-magic-arms-and-armor).
+**Item Creation Feat Required** : [Craft Magic Arms and Armor](../feats.md#_craft-magic-arms-and-armor).
 
-**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.html#_spellcraft) or [Craft](../skills/craft.html#_craft) (armor).
+**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.md#_spellcraft) or [Craft](../skills/craft.md#_craft) (armor).
 
 ## Creating Magic Weapons
 
@@ -102,9 +102,9 @@ Creating some weapons may entail other prerequisites beyond or other than spellc
 
 Crafting a magic weapon requires 1 day for each 1,000 gp value of the base price.
 
-**Item Creation Feat Required** : [Craft Magic Arms and Armor](../feats.html#_craft-magic-arms-and-armor).
+**Item Creation Feat Required** : [Craft Magic Arms and Armor](../feats.md#_craft-magic-arms-and-armor).
 
-**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.html#_spellcraft), [Craft](../skills/craft.html#_craft) (bows) (for magic bows and arrows), or [Craft](../skills/craft.html#_craft) (weapons) (for all other weapons).
+**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.md#_spellcraft), [Craft](../skills/craft.md#_craft) (bows) (for magic bows and arrows), or [Craft](../skills/craft.md#_craft) (weapons) (for all other weapons).
 
 ## Creating Potions
 
@@ -126,9 +126,9 @@ The creator must have prepared the spell to be placed in the potion (or must kno
 
 Material components are consumed when he begins working, but a focus is not. (A focus used in brewing a potion can be reused.) The act of brewing triggers the prepared spell, making it unavailable for casting until the character has rested and regained spells. (That is, that spell slot is expended from the caster's currently prepared spells, just as if it had been cast.) Brewing a potion requires 1 day.
 
-**Item Creation Feat Required** : [Brew Potion](../feats.html#_brew-potion).
+**Item Creation Feat Required** : [Brew Potion](../feats.md#_brew-potion).
 
-**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.html#_spellcraft) or [Craft](../skills/craft.html#_craft) (alchemy)
+**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.md#_spellcraft) or [Craft](../skills/craft.md#_craft) (alchemy)
 
 ## Creating Rings
 
@@ -140,9 +140,9 @@ Creating some rings may entail other prerequisites beyond or other than spellcas
 
 Forging a ring requires 1 day for each 1,000 gp of the base price.
 
-**Item Creation Feat Required** : [Forge Ring](../feats.html#_forge-ring).
+**Item Creation Feat Required** : [Forge Ring](../feats.md#_forge-ring).
 
-**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.html#_spellcraft) or [Craft](../skills/craft.html#_craft) (jewelry).
+**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.md#_spellcraft) or [Craft](../skills/craft.md#_craft) (jewelry).
 
 ## Creating Rods
 
@@ -154,9 +154,9 @@ Creating some rods may entail other prerequisites beyond or other than spellcast
 
 Crafting a rod requires 1 day for each 1,000 gp of the base price.
 
-**Item Creation Feat Required** : [Craft Rod](../feats.html#_craft-rod).
+**Item Creation Feat Required** : [Craft Rod](../feats.md#_craft-rod).
 
-**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.html#_spellcraft), [Craft](../skills/craft.html#_craft) (jewelry), [Craft](../skills/craft.html#_craft) (sculptures), or [Craft](../skills/craft.html#_craft) (weapons).
+**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.md#_spellcraft), [Craft](../skills/craft.md#_craft) (jewelry), [Craft](../skills/craft.md#_craft) (sculptures), or [Craft](../skills/craft.md#_craft) (weapons).
 
 ## Creating Scrolls
 
@@ -182,9 +182,9 @@ The creator must have prepared the spell to be scribed (or must know the spell, 
 
 Scribing a scroll requires 1 day per 1,000 gp of the base price. Although an individual scroll might contain more than one spell, each spell must be scribed as a separate effort, meaning that no more than 1 spell can be scribed in a day.
 
-**Item Creation Feat Required** : [Scribe Scroll](../feats.html#_scribe-scroll).
+**Item Creation Feat Required** : [Scribe Scroll](../feats.md#_scribe-scroll).
 
-**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.html#_spellcraft), [Craft](../skills/craft.html#_craft) (calligraphy), or [Profession](../skills/profession.html#_profession) (scribe).
+**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.md#_spellcraft), [Craft](../skills/craft.md#_craft) (calligraphy), or [Profession](../skills/profession.md#_profession) (scribe).
 
 ## Creating Staves
 
@@ -200,9 +200,9 @@ Creating a few staves may entail other prerequisites beyond spellcasting. See th
 
 Crafting a staff requires 1 day for each 1,000 gp of the base price.
 
-**Item Creation Feat Required** : [Craft Staff](../feats.html#_craft-staff).
+**Item Creation Feat Required** : [Craft Staff](../feats.md#_craft-staff).
 
-**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.html#_spellcraft), [Craft](../skills/craft.html#_craft) (jewelry), [Craft](../skills/craft.html#_craft) (sculptures), or [Profession](../skills/profession.html#_profession) (woodcutter).
+**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.md#_spellcraft), [Craft](../skills/craft.md#_craft) (jewelry), [Craft](../skills/craft.md#_craft) (sculptures), or [Profession](../skills/profession.md#_profession) (woodcutter).
 
 ## Creating Wands
 
@@ -221,9 +221,9 @@ The creator must have prepared the spell to be stored (or must know the spell, i
 
 Crafting a wand requires 1 day per each 1,000 gp of the base price.
 
-**Item Creation Feat Required** : [Craft Wand](../feats.html#_craft-wand).
+**Item Creation Feat Required** : [Craft Wand](../feats.md#_craft-wand).
 
-**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.html#_spellcraft), [Craft](../skills/craft.html#_craft) (jewelry), [Craft](../skills/craft.html#_craft) (sculptures), or [Profession](../skills/profession.html#_profession) (woodcutter).
+**Skill Used in Creation** : [Spellcraft](../skills/spellcraft.md#_spellcraft), [Craft](../skills/craft.md#_craft) (jewelry), [Craft](../skills/craft.md#_craft) (sculptures), or [Profession](../skills/profession.md#_profession) (woodcutter).
 
 ## Creating Wondrous Items
 
@@ -237,13 +237,13 @@ Crafting a wondrous item requires 1 day for each 1,000 gp of the base price.
 
 **Item Creation Feat Required** : Craft Wondrous Item.
 
-**Skill Used In Creation** : [Spellcraft](../skills/spellcraft.html#_spellcraft) or an applicable [Craft](../skills/craft.html#_craft) or [Profession](../skills/profession.html#_profession) skill check.
+**Skill Used In Creation** : [Spellcraft](../skills/spellcraft.md#_spellcraft) or an applicable [Craft](../skills/craft.md#_craft) or [Profession](../skills/profession.md#_profession) skill check.
 
 ## Adding New Abilities
 
 Sometimes, lack of funds or time make it impossible for a magic item crafter to create the desired item from scratch. Fortunately, it is possible to enhance or build upon an existing magic item. Only time, gold, and the various prerequisites required of the new ability to be added to the magic item restrict the type of additional powers one can place.
 
-The cost to add additional abilities to an item is the same as if the item was not magical, less the value of the original item. Thus, a _+1 longsword_ can be made into a _+2 [vorpal](weapons.html#_vorpal) longsword,_ with the cost to create it being equal to that of a _+2 [vorpal](weapons.html#_vorpal) sword_ minus the cost of a _+1 longsword_.
+The cost to add additional abilities to an item is the same as if the item was not magical, less the value of the original item. Thus, a _+1 longsword_ can be made into a _+2 [vorpal](weapons.md#_vorpal) longsword,_ with the cost to create it being equal to that of a _+2 [vorpal](weapons.md#_vorpal) sword_ minus the cost of a _+1 longsword_.
 
-If the item is one that occupies a specific place on a character's body, the cost of adding any additional ability to that item increases by 50%. For example, if a character adds the power to confer invisibility to her _ [ring of protection](rings.html#_ring-of-protection) +2,_ the cost of adding this ability is the same as for creating a _ [ring of invisibility](rings.html#_ring-of-invisibility)_ multiplied by 1.5.
+If the item is one that occupies a specific place on a character's body, the cost of adding any additional ability to that item increases by 50%. For example, if a character adds the power to confer invisibility to her _ [ring of protection](rings.md#_ring-of-protection) +2,_ the cost of adding this ability is the same as for creating a _ [ring of invisibility](rings.md#_ring-of-invisibility)_ multiplied by 1.5.
 

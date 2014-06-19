@@ -6,9 +6,9 @@ This somewhat irritated-looking, one-humped camel has been outfitted with a brid
 
 **XP 400**
 
-N Large [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Large [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +3; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5
+**Init** +3; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +5
 
 Defense
 
@@ -32,9 +32,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +6; **CMD** 19 (23 vs. trip)
 
-**Feats** [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance)
+**Feats** [Endurance](additionalMonsters/../feats.md#_endurance)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +5
 
 Ecology
 
@@ -58,9 +58,9 @@ A formidable pair of heavy horns curls from the forehead of this sturdy, brown-a
 
 **XP 400**
 
-N Medium [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Medium [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +2; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6
+**Init** +2; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +6
 
 Defense
 
@@ -76,7 +76,7 @@ Offense
 
 **Melee** gore +3 (1d4+3)
 
-**Special Attacks** [powerful charge](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_powerful-charge) (gore, 1d8+3)
+**Special Attacks** [powerful charge](monsters/universalMonsterRules.md#_powerful-charge) (gore, 1d8+3)
 
 Statistics
 
@@ -84,9 +84,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +3; **CMD** 15 (19 vs. trip)
 
-**Feats** [Improved Bull Rush](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush)B, [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics))
+**Feats** [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush)B, [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics))
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +13 (+17 jump), [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6; **Racial Modifiers** +4 [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +13 (+17 jump), [Perception](additionalMonsters/../skills/perception.md#_perception) +6; **Racial Modifiers** +4 [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics)
 
 Ecology
 
@@ -104,5 +104,5 @@ A typical ram stands about 3 feet tall, is 5 feet long, and weighs up to 300 pou
 
 **Starting Statistics** : **Size** Small; **Speed** 40 ft.; **AC** +1 natural; **Attack** gore (1d3); **Ability Scores** Str 10, Dex 17, Con 11, Int 2, Wis 14, Cha 7; **Special Qualities** low-light vision, scent.
 
-**4th-Level Advancement** : **Size** Medium; **Attack** gore (1d4); **Ability Scores** Str +4, Dex –2, Con +2; **Special Attacks** powerful charge (1d8); **Bonus Feat** [Improved Bull Rush](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush).
+**4th-Level Advancement** : **Size** Medium; **Attack** gore (1d4); **Ability Scores** Str +4, Dex –2, Con +2; **Special Attacks** powerful charge (1d8); **Bonus Feat** [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush).
 

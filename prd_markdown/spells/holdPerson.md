@@ -12,9 +12,9 @@
 
 **Duration** 1 round/level (D); see text
 
-**Saving Throw** [Will](../combat.html#_will) negates; see text; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Will](../combat.md#_will) negates; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
-The subject becomes [paralyzed](../glossary.html#_paralyzed) and freezes in place. It is aware and breathes normally but cannot take any actions, even speech. Each round on its turn, the subject may attempt a new saving throw to end the effect. This is a full-round action that does not provoke attacks of opportunity. A winged creature who is [paralyzed](../glossary.html#_paralyzed) cannot flap its wings and falls. A swimmer can't swim and may drown.
+The subject becomes [paralyzed](../glossary.md#_paralyzed) and freezes in place. It is aware and breathes normally but cannot take any actions, even speech. Each round on its turn, the subject may attempt a new saving throw to end the effect. This is a full-round action that does not provoke attacks of opportunity. A winged creature who is [paralyzed](../glossary.md#_paralyzed) cannot flap its wings and falls. A swimmer can't swim and may drown.
 
 **Hold Person, Mass**
 

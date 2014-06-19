@@ -6,9 +6,9 @@ Ghul CR 5
 
 XP 1,600
 
-CE Medium undead ( [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+CE Medium undead ( [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +15
 
 Defense
 
@@ -18,15 +18,15 @@ Defense
 
 **Fort** +8, **Ref** +4, **Will** +7
 
-**DR** 5/good; **Immune** undead traits; **Resist** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10
+**DR** 5/good; **Immune** undead traits; **Resist** [fire](monsters/creatureTypes.md#_fire-subtype) 10
 
 Offense
 
 **Speed** 40 ft., climb 20 ft.
 
-**Melee** bite +10 (1d6+6), 2 claws +10 (1d4+6 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed))
+**Melee** bite +10 (1d6+6), 2 claws +10 (1d4+6 plus [bleed](monsters/universalMonsterRules.md#_bleed))
 
-**Special Attacks** [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) (1), cursed claws, rend (1d6+6)
+**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1), cursed claws, rend (1d6+6)
 
 Statistics
 
@@ -34,14 +34,14 @@ Statistics
 
 **Base Atk** +4; **CMB** +10; **CMD** 22
 
-**Feats** [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Step Up](/pathfinderRPG/prd/feats.html#_step-up)
+**Feats** [Great Fortitude](feats.md#_great-fortitude), [Power Attack](feats.md#_power-attack), [Step Up](feats.md#_step-up)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +10, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +18, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +7, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +11, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +11, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15,   
- [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +11, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +8 (+16 when following tracks); **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +8 [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) when following tracks
+**Skills** [Bluff](skills/bluff.md#_bluff) +10, [Climb](skills/climb.md#_climb) +18, [Diplomacy](skills/diplomacy.md#_diplomacy) +7, [Disguise](skills/disguise.md#_disguise) +11, [Intimidate](skills/intimidate.md#_intimidate) +11, [Perception](skills/perception.md#_perception) +15,   
+ [Stealth](skills/stealth.md#_stealth) +11, [Survival](skills/survival.md#_survival) +8 (+16 when following tracks); **Racial Modifiers** +4 [Perception](skills/perception.md#_perception), +8 [Survival](skills/survival.md#_survival) when following tracks
 
-**Languages** Common, one [elemental](/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype) language (Aquan, Auran, Ignan, or Terran), one planar language (Abyssal, Celestial, or Infernal)
+**Languages** Common, one [elemental](monsters/creatureTypes.md#_elemental-subtype) language (Aquan, Auran, Ignan, or Terran), one planar language (Abyssal, Celestial, or Infernal)
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (hyena; does not detect as undead in this form; _ [beast shape I](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-i)_), genie-kin
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (hyena; does not detect as undead in this form; _ [beast shape I](spells/beastShape.md#_beast-shape-i)_), genie-kin
 
 Ecology
 
@@ -53,7 +53,7 @@ Ecology
 
 Special Abilities
 
-**Cursed Claws (Ex)** A ghul's claws count as both [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) iron and magic for the purpose of bypassing [damage reduction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_damage-reduction-(ex-or-su)).
+**Cursed Claws (Ex)** A ghul's claws count as both [cold](monsters/creatureTypes.md#_cold-subtype) iron and magic for the purpose of bypassing [damage reduction](monsters/universalMonsterRules.md#_damage-reduction-(ex-or-su)).
 
 **Genie-kin (Ex)** For all race-related effects (such as a ranger's favored enemy), a ghul is considered a genie even though its type is undead.
 

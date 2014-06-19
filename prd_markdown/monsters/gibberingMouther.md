@@ -6,9 +6,9 @@ _This horrid mass of eyes, mouths, and formless flesh stares in all directions, 
 
 **XP 1,600**
 
-N Medium [aberration](creatureTypes.html#_aberration)
+N Medium [aberration](creatureTypes.md#_aberration)
 
-**Init** +3; **Senses** all-around vision, darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +12
+**Init** +3; **Senses** all-around vision, darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +12
 
 **Defense**
 
@@ -24,7 +24,7 @@ N Medium [aberration](creatureTypes.html#_aberration)
 
 **Speed** 10 ft., swim 20 ft.
 
-**Melee** 6 bites +7 (1d4 plus [grab](universalMonsterRules.html#_grab))
+**Melee** 6 bites +7 (1d4 plus [grab](universalMonsterRules.md#_grab))
 
 **Special Attacks** blood drain, engulf (6d4 damage plus 2 Con damage, AC 13, hp 4), gibbering, ground manipulation, spittle (+6 ranged touch)
 
@@ -34,9 +34,9 @@ N Medium [aberration](creatureTypes.html#_aberration)
 
 **Base**  **Atk** +3; **CMB** +3 (+7 grapple); **CMD** 16 (can't be tripped)
 
-**Feats** [Weapon Finesse](../feats.html#_weapon-finesse), [Weapon Focus](../feats.html#_weapon-focus) (bite)
+**Feats** [Weapon Finesse](../feats.md#_weapon-finesse), [Weapon Focus](../feats.md#_weapon-focus) (bite)
 
-**Skills** [Perception](../skills/perception.html#_perception) +12, [Swim](../skills/swim.html#_swim) +8; **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception)
+**Skills** [Perception](../skills/perception.md#_perception) +12, [Swim](../skills/swim.md#_swim) +8; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception)
 
 **Language** Aklo
 

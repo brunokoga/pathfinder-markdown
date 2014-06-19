@@ -6,9 +6,9 @@ Dust DiggerCR 4
 
 **XP 1,200**
 
-N Large [aberration](/pathfinderRPG/prd/monsters/creatureTypes.html#_aberration)
+N Large [aberration](monsters/creatureTypes.md#_aberration)
 
-**Init** +4; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5
+**Init** +4; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +5
 
 Defense
 
@@ -22,7 +22,7 @@ Offense
 
 **Speed** 10 ft., burrow 20 ft.
 
-**Melee** bite +5 (1d8+3 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), 5 tentacles +3 (1d4+1 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +5 (1d8+3 plus [grab](monsters/universalMonsterRules.md#_grab)), 5 tentacles +3 (1d4+1 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +7; **CMD** 17
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth))
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth.md#_stealth))
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +5 (+13 in ambush); **Racial Modifiers** +8 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) in ambush
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +5, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +5 (+13 in ambush); **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in ambush
 
 Ecology
 

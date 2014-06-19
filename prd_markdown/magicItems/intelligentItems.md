@@ -47,7 +47,7 @@
 | --- | --- | --- | --- |
 | 01–10 | Item can cast a 0-level spell at will | +1,000 gp | +1 |
 | 11–20 | Item can cast a 1st-level spell 3/day | +1,200 gp | +1 |
-| 21–25 | Item can use _ [magic aura](../spells/magicAura.html#_magic-aura)_ on itself at will | +2,000 gp | +1 |
+| 21–25 | Item can use _ [magic aura](../spells/magicAura.md#_magic-aura)_ on itself at will | +2,000 gp | +1 |
 | 26–35 | Item can cast a 2nd-level spell 1/day | +2,400 gp | +1 |
 | 36–45 | Item has 5 ranks in one skill\* | +2,500 gp | +1 |
 | 46–50 | Item can sprout limbs and move with a speed of 10 feet | +5,000 gp | +1 |
@@ -55,9 +55,9 @@
 | 56–60 | Item can cast a 2nd-level spell 3/day | +7,200 gp | +1 |
 | 61–70 | Item has 10 ranks in one skill\* | +10,000 gp | +2 |
 | 71–75 | Item can change shape into one other form of the same size | +10,000 gp | +2 |
-| 76–80 | Item can _ [fly](../spells/fly.html), _as per the spell, at a speed of 30 feet | +10,000 gp | +2 |
+| 76–80 | Item can _ [fly](../spells/fly.md), _as per the spell, at a speed of 30 feet | +10,000 gp | +2 |
 | 81–85 | Item can cast a 4th-level spell 1/day | +11,200 gp | +2 |
-| 86–90 | Item can _ [teleport](../spells/teleport.html#_teleport)_ itself 1/day | +15,000 gp | +2 |
+| 86–90 | Item can _ [teleport](../spells/teleport.md#_teleport)_ itself 1/day | +15,000 gp | +2 |
 | 91–95 | Item can cast a 3rd-level spell 3/day | +18,000 gp | +2 |
 | 96–100 | Item can cast a 4th-level spell 3/day | +33,600 gp | +2 |
 
@@ -85,11 +85,11 @@
 | 51–65 | Item can use a 5th-level spell at will | +90,000 gp | +2 |
 | 66–80 | Item can use a 6th-level spell at will | +132,000 gp | +2 |
 | 81–95 | Item can use a 7th-level spell at will | +182,000 gp | +2 |
-| 96–100 | Item can use _ [true resurrection](../spells/trueResurrection.html#_true-resurrection) _on wielder, once per month | +200,000 gp | +2 |
+| 96–100 | Item can use _ [true resurrection](../spells/trueResurrection.md#_true-resurrection) _on wielder, once per month | +200,000 gp | +2 |
 
 Magic items sometimes have intelligence of their own. Magically imbued with sentience, these items think and feel the same way characters do and should be treated as NPCs. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes. Only permanent magic items (as opposed to single-use items or those with charges) can be intelligent. (This means that potions, scrolls, and wands, among other items, are never intelligent.) In general, less than 1% of magic items have intelligence.
 
-Intelligent items can actually be considered creatures because they have [Intelligence](../gettingStarted.html#_intelligence), [Wisdom](../gettingStarted.html#_wisdom), and [Charisma](../gettingStarted.html#_charisma-new) scores. Treat them as constructs. Intelligent items often have the ability to illuminate their surroundings at will (as magic weapons do); many cannot see otherwise.
+Intelligent items can actually be considered creatures because they have [Intelligence](../gettingStarted.md#_intelligence), [Wisdom](../gettingStarted.md#_wisdom), and [Charisma](../gettingStarted.md#_charisma-new) scores. Treat them as constructs. Intelligent items often have the ability to illuminate their surroundings at will (as magic weapons do); many cannot see otherwise.
 
 Unlike most magic items, intelligent items can activate their own powers without waiting for a command word from their owner. Intelligent items act during their owner's turn in the initiative order.
 
@@ -103,15 +103,15 @@ An intelligent magic item has a base price increase of 500 gp. When determining 
 
 Any item with intelligence has an alignment (see Table: Intelligent Item Alignment). Note that intelligent weapons already have alignments, either stated or by implication. If you're generating a random intelligent weapon, that weapon's alignment must fit with any alignment-oriented special abilities it has.
 
-Any character whose alignment does not correspond to that of the item (except as noted by the asterisks on the table) gains one [negative level](../glossary.html#_energy-drain-and-negative-levels)if he or she so much as picks up the item. Although this [negative level](../glossary.html#_energy-drain-and-negative-levels)never results in actual level loss, it remains as long as the item is in hand and cannot be overcome in any way (including by _restoration _spells). This [negative level](../glossary.html#_energy-drain-and-negative-levels)is cumulative with any other penalties the item might place on inappropriate wielders. Items with Ego scores (see below) of 20 to 29 bestow two [negative levels](../glossary.html#_energy-drain-and-negative-levels). Items with Ego scores of 30 or higher bestow three [negative levels](../glossary.html#_energy-drain-and-negative-levels).
+Any character whose alignment does not correspond to that of the item (except as noted by the asterisks on the table) gains one [negative level](../glossary.md#_energy-drain-and-negative-levels)if he or she so much as picks up the item. Although this [negative level](../glossary.md#_energy-drain-and-negative-levels)never results in actual level loss, it remains as long as the item is in hand and cannot be overcome in any way (including by _restoration _spells). This [negative level](../glossary.md#_energy-drain-and-negative-levels)is cumulative with any other penalties the item might place on inappropriate wielders. Items with Ego scores (see below) of 20 to 29 bestow two [negative levels](../glossary.md#_energy-drain-and-negative-levels). Items with Ego scores of 30 or higher bestow three [negative levels](../glossary.md#_energy-drain-and-negative-levels).
 
 ## Intelligent Item Ability Scores
 
-Intelligent magic items possess all three mental ability scores: [Intelligence](../gettingStarted.html#_intelligence), [Wisdom](../gettingStarted.html#_wisdom), and [Charisma](../gettingStarted.html#_charisma-new). Each one of these ability scores begins at a value of 10, but can be increased to as high as 20. Table: Intelligent Item Ability Scores shows the cost to increase one of the item's ability scores. This cost must be paid for each ability score raised above 10. For example, an intelligent magic item with a 15 [Intelligence](../gettingStarted.html#_intelligence), 12 [Wisdom](../gettingStarted.html#_wisdom), and 10 [Charisma](../gettingStarted.html#_charisma-new) would cost at least 2,400 gp more than the base item (including the 500 gp for being an intelligent item).
+Intelligent magic items possess all three mental ability scores: [Intelligence](../gettingStarted.md#_intelligence), [Wisdom](../gettingStarted.md#_wisdom), and [Charisma](../gettingStarted.md#_charisma-new). Each one of these ability scores begins at a value of 10, but can be increased to as high as 20. Table: Intelligent Item Ability Scores shows the cost to increase one of the item's ability scores. This cost must be paid for each ability score raised above 10. For example, an intelligent magic item with a 15 [Intelligence](../gettingStarted.md#_intelligence), 12 [Wisdom](../gettingStarted.md#_wisdom), and 10 [Charisma](../gettingStarted.md#_charisma-new) would cost at least 2,400 gp more than the base item (including the 500 gp for being an intelligent item).
 
 ## Languages Spoken by Item
 
-Like a character, an intelligent item understands Common plus one additional language per point of [Intelligence](../gettingStarted.html#_intelligence) bonus. Choose appropriate languages, taking into account the item's origin and purposes. If the item does not possess speech, it can still read and understand the languages it knows.
+Like a character, an intelligent item understands Common plus one additional language per point of [Intelligence](../gettingStarted.md#_intelligence) bonus. Choose appropriate languages, taking into account the item's origin and purposes. If the item does not possess speech, it can still read and understand the languages it knows.
 
 ## Senses and Communication
 
@@ -123,11 +123,11 @@ Every intelligent magic item begins with the ability to see and hear within 30 f
 
 **Telepathy (Su)** : Telepathy allows an intelligent item to communicate with its wielder telepathically, regardless of its known languages. The wielder must be touching the item to communicate in this way.
 
-**Senses** : Senses allow an intelligent magic item to see and hear out to the listed distance. Adding [darkvision](../glossary.html#_darkvision) or [blindsense](../glossary.html#_blindsight-and-blindsense) allows the item to use those senses out to the same range as the item's base senses.
+**Senses** : Senses allow an intelligent magic item to see and hear out to the listed distance. Adding [darkvision](../glossary.md#_darkvision) or [blindsense](../glossary.md#_blindsight-and-blindsense) allows the item to use those senses out to the same range as the item's base senses.
 
 **Read Languages (Ex)** : The item can read script in any language, regardless of its known languages.
 
-**_Read Magic_ (Sp)** : An intelligent magic item with this ability can [read magic](../spells/readMagic.html#_read-magic)al writings and scrolls as if through _ [read magic](../spells/readMagic.html#_read-magic). _This ability does not allow the magic item to activate scrolls or other items. An intelligent magic item can suppress and resume this ability as a free action.
+**_Read Magic_ (Sp)** : An intelligent magic item with this ability can [read magic](../spells/readMagic.md#_read-magic)al writings and scrolls as if through _ [read magic](../spells/readMagic.md#_read-magic). _This ability does not allow the magic item to activate scrolls or other items. An intelligent magic item can suppress and resume this ability as a free action.
 
 ## Intelligent Item Powers
 
@@ -135,7 +135,7 @@ Each intelligent item should possess at least one power, although more powerful 
 
 ## Special Purpose Items
 
-Some intelligent items have special purposes that guide their actions. Intelligent magic items with a special purpose gain a +2 Ego bonus. An item's purpose must suit the type and alignment of the item and should always be treated reasonably. A purpose of âdefeat/slay arcane spellcastersâ doesn't mean that the sword forces the wielder to kill every wizard she sees. Nor does it mean that the sword believes it is possible to kill every wizard, sorcerer, and bard in the world. It does mean that the item hates arcane spellcasters and wants to bring the local wizards' cabal to ruin, as well as end the rule of a sorcerer-queen in a nearby land. Likewise, a purpose of âdefend elvesâ doesn't mean that if the wielder is an elf, he only wants to help the wielder. It means that the item wants to be used in furthering the cause of elves, stamping out their enemies and aiding their leaders. A purpose of âdefeat/slay allâ isn't just a matter of self-preservation. It means that the item won't rest (or let its wielder rest) until it places itself above all others.
+Some intelligent items have special purposes that guide their actions. Intelligent magic items with a special purpose gain a +2 Ego bonus. An item's purpose must suit the type and alignment of the item and should always be treated reasonably. A purpose of “defeat/slay arcane spellcasters” doesn't mean that the sword forces the wielder to kill every wizard she sees. Nor does it mean that the sword believes it is possible to kill every wizard, sorcerer, and bard in the world. It does mean that the item hates arcane spellcasters and wants to bring the local wizards' cabal to ruin, as well as end the rule of a sorcerer-queen in a nearby land. Likewise, a purpose of “defend elves” doesn't mean that if the wielder is an elf, he only wants to help the wielder. It means that the item wants to be used in furthering the cause of elves, stamping out their enemies and aiding their leaders. A purpose of “defeat/slay all” isn't just a matter of self-preservation. It means that the item won't rest (or let its wielder rest) until it places itself above all others.
 
 Table: Intelligent Item Purpose has a number of sample purposes that a magic item might possess. If the wielder specifically ignores or goes against an intelligent item's special purpose, the item gains a +4 bonus to its Ego until the wielder cooperates. This is in addition to the +2 Ego bonus gained by items with a special purpose.
 
@@ -162,7 +162,7 @@ Ego is a measure of the total power and force of personality that an item posses
 
 When an item has an Ego of its own, it has a will of its own. The item is absolutely true to its alignment. If the character who possesses the item is not true to that alignment's goals or the item's special purpose, personality conflict—item against character—results. Similarly, any item with an Ego score of 20 or higher always considers itself superior to any character, and a personality conflict results if the possessor does not always agree with the item.
 
-When a personality conflict occurs, the possessor must make a [Will](../combat.html#_will) saving throw (DC = item's Ego). If the possessor succeeds, she is dominant. If she fails, the item is dominant. Dominance lasts for 1 day or until a critical situation occurs (such as a major battle, a serious threat to either the item or the character, and so on). Should an item gain dominance, it resists the character's desires and demands concessions such as any of the following:
+When a personality conflict occurs, the possessor must make a [Will](../combat.md#_will) saving throw (DC = item's Ego). If the possessor succeeds, she is dominant. If she fails, the item is dominant. Dominance lasts for 1 day or until a critical situation occurs (such as a major battle, a serious threat to either the item or the character, and so on). Should an item gain dominance, it resists the character's desires and demands concessions such as any of the following:
 
 - Removal of associates or items whose alignment or personality is distasteful to the item.
 - The character divesting herself of all other magic items or items of a certain type.

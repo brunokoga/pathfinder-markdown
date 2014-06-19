@@ -8,7 +8,7 @@ XP 100
 
 N Tiny animal
 
-**Init** +2; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
+**Init** +2; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +5
 
 Defense
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +0; **CMD** 6
 
-**Feats** [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
+**Skills** [Perception](skills/perception.md#_perception) +5
 
 Ecology
 
@@ -50,7 +50,7 @@ Ecology
 
 Special Abilities
 
-**Musk (Ex)** Up to twice per day, a skunk can spray a stream of noxious musk at a single target within 10 feet as a standard action. With a successful ranged touch attack, the creature struck by this spray must make a DC 11 Fortitude save or be nauseated for 1d4 rounds and then sickened for 1d4 minutes by the horrific stench. A successful save reduces the effect to only 1d4 rounds of being sickened. A creature cannot use the [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent) ability as long as it is affected by this musk. The save DC is Constitution-based, and includes a +2 racial bonus.
+**Musk (Ex)** Up to twice per day, a skunk can spray a stream of noxious musk at a single target within 10 feet as a standard action. With a successful ranged touch attack, the creature struck by this spray must make a DC 11 Fortitude save or be nauseated for 1d4 rounds and then sickened for 1d4 minutes by the horrific stench. A successful save reduces the effect to only 1d4 rounds of being sickened. A creature cannot use the [scent](monsters/universalMonsterRules.md#_scent) ability as long as it is affected by this musk. The save DC is Constitution-based, and includes a +2 racial bonus.
 
 These small mammals are well known to humanoids and forest creatures alike, with their distinctive black-and-white-striped markings and infamous scent glands. Creatures like big cats or wolves that normally would make a meal of such a small creature give skunks plenty of space, for they have learned well that the combination of black and white on a skunk's back equates to a hideously overpowering stench.
 
@@ -64,7 +64,7 @@ XP 800
 
 N Large animal
 
-**Init** +3; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +7
+**Init** +3; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +7
 
 Defense
 
@@ -93,9 +93,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +7; **CMD** 20
 
-**Feats** [Ability Focus](/pathfinderRPG/prd/monsters/monsterFeats.html#_ability-focus) (musk), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Ability Focus](monsters/monsterFeats.md#_ability-focus) (musk), [Power Attack](feats.md#_power-attack), [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +7, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +7, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +2
+**Skills** [Climb](skills/climb.md#_climb) +7, [Perception](skills/perception.md#_perception) +7, [Survival](skills/survival.md#_survival) +2
 
 Ecology
 
@@ -107,7 +107,7 @@ Ecology
 
 Special Abilities
 
-**Musk (Ex)** Up to twice per day, a [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) skunk can spray a stream of noxious musk at a single target within 30 feet as a standard action. With a successful ranged touch attack, the creature struck by this spray must make a DC 15 Fortitude save or be nauseated for 1d6 rounds and then sickened for 1d6 minutes by the horrific stench. A successful save reduces the effect to only 1d4 rounds of being sickened. A creature cannot use the [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent) ability as long as it is affected by this musk. The save DC is Constitution-based, and includes a +2 racial bonus.
+**Musk (Ex)** Up to twice per day, a [giant](monsters/creatureTypes.md#_giant-subtype) skunk can spray a stream of noxious musk at a single target within 30 feet as a standard action. With a successful ranged touch attack, the creature struck by this spray must make a DC 15 Fortitude save or be nauseated for 1d6 rounds and then sickened for 1d6 minutes by the horrific stench. A successful save reduces the effect to only 1d4 rounds of being sickened. A creature cannot use the [scent](monsters/universalMonsterRules.md#_scent) ability as long as it is affected by this musk. The save DC is Constitution-based, and includes a +2 racial bonus.
 
 Much larger than their passive cousins, giant skunks are an aggressive lot. Having a greater bulk to maintain, giant skunks feed on creatures beyond just grubs and insects, often hunting small mammals and reptiles by night in addition to giant versions of insects. While giant skunks are dangerous to nearby settlements, farmers find a positive aspect in their presence, valuing the creatures' taste for giant insects and other more dangerous vermin.
 

@@ -12,9 +12,9 @@
 
 **Duration** 1 hour/level (D)
 
-**Saving Throw** [Will](../combat.html#_will) negates (harmless); **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
-An invisible but tangible field of force surrounds the subject of a _mage armor _spell, providing a +4 armor bonus to [AC](../combat.html#_armor-class).
+An invisible but tangible field of force surrounds the subject of a _mage armor _spell, providing a +4 armor bonus to [AC](../combat.md#_armor-class).
 
-Unlike mundane armor, _mage armor _entails no armor check penalty, arcane spell failure chance, or speed reduction. Since _mage armor _is made of force, [incorporeal](../glossary.html#_incorporeal) creatures can't bypass it the way they do normal armor.
+Unlike mundane armor, _mage armor _entails no armor check penalty, arcane spell failure chance, or speed reduction. Since _mage armor _is made of force, [incorporeal](../glossary.md#_incorporeal) creatures can't bypass it the way they do normal armor.
 

@@ -10,7 +10,7 @@ Human cleric 1
 
 LN Medium humanoid
 
-**Init** +0; **Senses** [Perception](../../skills/perception.html#_perception) +2
+**Init** +0; **Senses** [Perception](../../skills/perception.md#_perception) +2
 
 **Defense**
 
@@ -34,9 +34,9 @@ LN Medium humanoid
 
 **Cleric Spells Prepared** (CL 1st; concentration +3)
 
-1st—_ [bless](../../spells/bless.html#_bless)_, _ [command](../../spells/command.html#_command) _(DC 13), _ [cure light wounds](../../spells/cureLightWounds.html#_cure-light-wounds)_D
+1st—_ [bless](../../spells/bless.md#_bless)_, _ [command](../../spells/command.md#_command) _(DC 13), _ [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_D
 
-0 (at will)—_ [guidance](../../spells/guidance.html#_guidance)_, _ [resistance](../../spells/resistance.html#_resistance)_, _ [virtue](../../spells/virtue.html#_virtue)_
+0 (at will)—_ [guidance](../../spells/guidance.md#_guidance)_, _ [resistance](../../spells/resistance.md#_resistance)_, _ [virtue](../../spells/virtue.md#_virtue)_
 
 **D** domain spell; **Domains** Healing, Law
 
@@ -46,15 +46,15 @@ LN Medium humanoid
 
 **Base Atk** +0; **CMB** +1; **CMD** 11
 
-**Feats** [Extra Channel](../../feats.html#_extra-channel), [Selective Channeling](../../feats.html#_selective-channeling)
+**Feats** [Extra Channel](../../feats.md#_extra-channel), [Selective Channeling](../../feats.md#_selective-channeling)
 
-**Skills** [Diplomacy](../../skills/diplomacy.html#_diplomacy) +6, [Heal](../../skills/heal.html#_heal) +8, [Knowledge](../../skills/knowledge.html#_knowledge) (religion) +4, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +6
+**Skills** [Diplomacy](../../skills/diplomacy.md#_diplomacy) +6, [Heal](../../skills/heal.md#_heal) +8, [Knowledge](../../skills/knowledge.md#_knowledge) (religion) +4, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +6
 
 **Languages** Common
 
-**Combat Gear** _scroll of [protection from chaos](../../spells/protectionFromChaos.html#_protection-from-chaos), scroll of [sanctuary](../../spells/sanctuary.html#_sanctuary)_; **Other Gear** scale mail, heavy wooden shield, shortspears (2), healer's kit, silver holy symbol
+**Combat Gear** _scroll of [protection from chaos](../../spells/protectionFromChaos.md#_protection-from-chaos), scroll of [sanctuary](../../spells/sanctuary.md#_sanctuary)_; **Other Gear** scale mail, heavy wooden shield, shortspears (2), healer's kit, silver holy symbol
 
-**Boon** An acolyte can tend a character's wounds or provide a free wooden holy symbol or sacred tract (granting a +2 circumstance bonus on [Knowledge](../../skills/knowledge.html#_knowledge) [religion] checks about the acolyte's faith). An acolyte can also make holy water for PCs at a 20% discount.
+**Boon** An acolyte can tend a character's wounds or provide a free wooden holy symbol or sacred tract (granting a +2 circumstance bonus on [Knowledge](../../skills/knowledge.md#_knowledge) [religion] checks about the acolyte's faith). An acolyte can also make holy water for PCs at a 20% discount.
 
 An acolyte is a priest in training, often a callow youth fresh from the cloisters, loaded with zeal but not much practiced in proselytism. They are found in temples and monasteries throughout the world, and their enthusiasm and devotion makes them eager to take up arms and armor to defend their faith and flocks.
 
@@ -70,7 +70,7 @@ Human cleric 9
 
 LN Medium humanoid
 
-**Init** +1; **Senses** [Perception](../../skills/perception.html#_perception) +8
+**Init** +1; **Senses** [Perception](../../skills/perception.md#_perception) +8
 
 **Defense**
 
@@ -84,7 +84,7 @@ LN Medium humanoid
 
 **Speed** 20 ft.
 
-**Melee** _+1 [merciful](../../magicItems/weapons.html#_weapons-merciful) morningstar_ +9/+4 (1d8+3 plus 1d6 nonlethal) or dagger +8/+3 (1d4+2/19–20)
+**Melee** _+1 [merciful](../../magicItems/weapons.md#_weapons-merciful) morningstar_ +9/+4 (1d8+3 plus 1d6 nonlethal) or dagger +8/+3 (1d4+2/19–20)
 
 **Ranged** mwk light crossbow +8 (1d8/19–20) or dagger +7 (1d4+2/19–20)
 
@@ -94,17 +94,17 @@ LN Medium humanoid
 
 **Cleric Spells Prepared** (CL 9th, concentration +13)
 
-5th—_ [breath of life](../../spells/breathOfLife.html#_breath-of-life)_D, _ [righteous might](../../spells/righteousMight.html#_righteous-might)_
+5th—_ [breath of life](../../spells/breathOfLife.md#_breath-of-life)_D, _ [righteous might](../../spells/righteousMight.md#_righteous-might)_
 
-4th—_ [air walk](../../spells/airWalk.html#_air-walk)_, _ [freedom of movement](../../spells/freedomOfMovement.html#_freedom-of-movement)_, _ [order's wrath](../../spells/orderSWrath.html#_order-s-wrath)_D (DC 18), _ [spell immunity](../../spells/spellImmunity.html#_spell-immunity)_
+4th—_ [air walk](../../spells/airWalk.md#_air-walk)_, _ [freedom of movement](../../spells/freedomOfMovement.md#_freedom-of-movement)_, _ [order's wrath](../../spells/orderSWrath.md#_order-s-wrath)_D (DC 18), _ [spell immunity](../../spells/spellImmunity.md#_spell-immunity)_
 
-3rd—_ [daylight](../../spells/daylight.html#_daylight)_, _ [dispel magic](../../spells/dispelMagic.html#_dispel-magic)_, _ [magic circle against chaos](../../spells/magicCircleAgainstChaos.html#_magic-circle-against-chaos)_D, _ [prayer](../../spells/prayer.html#_prayer)_, _ [searing light](../../spells/searingLight.html#_searing-light)_
+3rd—_ [daylight](../../spells/daylight.md#_daylight)_, _ [dispel magic](../../spells/dispelMagic.md#_dispel-magic)_, _ [magic circle against chaos](../../spells/magicCircleAgainstChaos.md#_magic-circle-against-chaos)_D, _ [prayer](../../spells/prayer.md#_prayer)_, _ [searing light](../../spells/searingLight.md#_searing-light)_
 
-2nd—_ [aid](../../spells/aid.html#_aid)_, _ [bull's strength](../../spells/bullSStrength.html#_bull-s-strength)_, _ [cure moderate wounds](../../spells/cureModerateWounds.html#_cure-moderate-wounds)_D, _ [delay poison](../../spells/delayPoison.html#_delay-poison)_, _ [spiritual weapon](../../spells/spiritualWeapon.html#_spiritual-weapon)_, _ [status](../../spells/status.html#_status)_
+2nd—_ [aid](../../spells/aid.md#_aid)_, _ [bull's strength](../../spells/bullSStrength.md#_bull-s-strength)_, _ [cure moderate wounds](../../spells/cureModerateWounds.md#_cure-moderate-wounds)_D, _ [delay poison](../../spells/delayPoison.md#_delay-poison)_, _ [spiritual weapon](../../spells/spiritualWeapon.md#_spiritual-weapon)_, _ [status](../../spells/status.md#_status)_
 
-1st—_ [bless](../../spells/bless.html#_bless)_, _ [detect chaos](../../spells/detectChaos.html#_detect-chaos)_, _ [divine favor](../../spells/divineFavor.html#_divine-favor)_ (2), _ [protection from chaos](../../spells/protectionFromChaos.html#_protection-from-chaos)_D, _ [shield of faith](../../spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_ [bless](../../spells/bless.md#_bless)_, _ [detect chaos](../../spells/detectChaos.md#_detect-chaos)_, _ [divine favor](../../spells/divineFavor.md#_divine-favor)_ (2), _ [protection from chaos](../../spells/protectionFromChaos.md#_protection-from-chaos)_D, _ [shield of faith](../../spells/shieldOfFaith.md#_shield-of-faith)_
 
-0 (at will)—_ [create water](../../spells/createWater.html#_create-water)_, _ [detect magic](../../spells/detectMagic.html#_detect-magic)_, _ [detect poison](../../spells/detectPoison.html#_detect-poison)_, _ [stabilize](../../spells/stabilize.html#_stabilize)_
+0 (at will)—_ [create water](../../spells/createWater.md#_create-water)_, _ [detect magic](../../spells/detectMagic.md#_detect-magic)_, _ [detect poison](../../spells/detectPoison.md#_detect-poison)_, _ [stabilize](../../spells/stabilize.md#_stabilize)_
 
 **D** domain spell; **Domains** Healing, Law
 
@@ -114,15 +114,15 @@ LN Medium humanoid
 
 **Base Atk** +6; **CMB** +8; **CMD** 19
 
-**Feats** Armor Proficiency (heavy), [Craft Magic Arms and Armor](../../feats.html#_craft-magic-arms-and-armor), [Extra Channel](../../feats.html#_extra-channel), [Shield Focus](../../feats.html#_shield-focus), [Toughness](../../feats.html#_toughness), [Vital Strike](../../feats.html#_vital-strike)
+**Feats** Armor Proficiency (heavy), [Craft Magic Arms and Armor](../../feats.md#_craft-magic-arms-and-armor), [Extra Channel](../../feats.md#_extra-channel), [Shield Focus](../../feats.md#_shield-focus), [Toughness](../../feats.md#_toughness), [Vital Strike](../../feats.md#_vital-strike)
 
-**Skills** [Diplomacy](../../skills/diplomacy.html#_diplomacy) +5, [Heal](../../skills/heal.html#_heal) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (religion) +10, [Perception](../../skills/perception.html#_perception) +8, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +8, [Spellcraft](../../skills/spellcraft.html#_spellcraft) +11
+**Skills** [Diplomacy](../../skills/diplomacy.md#_diplomacy) +5, [Heal](../../skills/heal.md#_heal) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (religion) +10, [Perception](../../skills/perception.md#_perception) +8, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +8, [Spellcraft](../../skills/spellcraft.md#_spellcraft) +11
 
 **Languages** Common
 
 **SQ** healer's blessing
 
-**Gear** _+2 full plate_, _+2 heavy wooden [shield](../../spells/shield.html#_shield)_, _+1 [merciful](../../magicItems/weapons.html#_weapons-merciful) morningstar_, masterwork light crossbow with 10 bolts, dagger, _ [cloak of resistance](../../magicItems/wondrousItems.html#_cloak-of-resistance) +1_, healer's kit
+**Gear** _+2 full plate_, _+2 heavy wooden [shield](../../spells/shield.md#_shield)_, _+1 [merciful](../../magicItems/weapons.md#_weapons-merciful) morningstar_, masterwork light crossbow with 10 bolts, dagger, _ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +1_, healer's kit
 
 **Boon** A priest can accompany PCs or send a patrol of four temple guards to assist them for up to 3 days. She can also craft magical arms and armor at a 10% discount.
 
@@ -136,7 +136,7 @@ Human cleric 13
 
 LN Medium humanoid
 
-**Init** +0; **Senses** [Perception](../../skills/perception.html#_perception) +15
+**Init** +0; **Senses** [Perception](../../skills/perception.md#_perception) +15
 
 **Defense**
 
@@ -162,21 +162,21 @@ LN Medium humanoid
 
 **Cleric Spells Prepared** (CL 13th; concentration +20)
 
-7th—_ [dictum](../../spells/dictum.html#_dictum) _(DC 24), _ [repulsion](../../spells/repulsion.html#_repulsion)_D (DC 24), _ [summon monster VII](../../spells/summonMonster.html#_summon-monster-vii)_
+7th—_ [dictum](../../spells/dictum.md#_dictum) _(DC 24), _ [repulsion](../../spells/repulsion.md#_repulsion)_D (DC 24), _ [summon monster VII](../../spells/summonMonster.md#_summon-monster-vii)_
 
-6th—_ [banishment](../../spells/banishment.html#_banishment) _(DC 23), _ [heal](../../spells/heal.html#_heal)_, _ [heroes' feast](../../spells/heroesFeast.html#_heroes-feast)_D, _ [word of recall](../../spells/wordOfRecall.html#_word-of-recall)_
+6th—_ [banishment](../../spells/banishment.md#_banishment) _(DC 23), _ [heal](../../spells/heal.md#_heal)_, _ [heroes' feast](../../spells/heroesFeast.md#_heroes-feast)_D, _ [word of recall](../../spells/wordOfRecall.md#_word-of-recall)_
 
-5th—_ [breath of life](../../spells/breathOfLife.html#_breath-of-life)_, _ [flame strike](../../spells/flameStrike.html#_flame-strike)_ (DC 22), _ [summon monster V](../../spells/summonMonster.html#_summon-monster-v)_, _ [telepathic bond](../../spells/telepathicBond.html#_telepathic-bond)_D, _ [true seeing](../../spells/trueSeeing.html#_true-seeing)_
+5th—_ [breath of life](../../spells/breathOfLife.md#_breath-of-life)_, _ [flame strike](../../spells/flameStrike.md#_flame-strike)_ (DC 22), _ [summon monster V](../../spells/summonMonster.md#_summon-monster-v)_, _ [telepathic bond](../../spells/telepathicBond.md#_telepathic-bond)_D, _ [true seeing](../../spells/trueSeeing.md#_true-seeing)_
 
-4th—_ [air walk](../../spells/airWalk.html#_air-walk)_, _ [dimensional anchor](../../spells/dimensionalAnchor.html#_dimensional)_, _ [discern lies](../../spells/discernLies.html#_discern-lies)_D, _ [greater magic weapon](../../spells/magicWeapon.html#_magic-weapon-greater)_, _ [order's wrath](../../spells/orderSWrath.html#_order-s-wrath) _(DC 21), _ [tongues](../../spells/tongues.html#_tongues)_
+4th—_ [air walk](../../spells/airWalk.md#_air-walk)_, _ [dimensional anchor](../../spells/dimensionalAnchor.md#_dimensional)_, _ [discern lies](../../spells/discernLies.md#_discern-lies)_D, _ [greater magic weapon](../../spells/magicWeapon.md#_magic-weapon-greater)_, _ [order's wrath](../../spells/orderSWrath.md#_order-s-wrath) _(DC 21), _ [tongues](../../spells/tongues.md#_tongues)_
 
-3rd—_ [create food and water](../../spells/createFoodAndWater.html#_create-food-and-water)_, _ [dispel magic](../../spells/dispelMagic.html#_dispel-magic)_, _ [magic vestment](../../spells/magicVestment.html#_magic-vestment)_D (2), _ [prayer](../../spells/prayer.html#_prayer)_, _ [protection from energy](../../spells/protectionFromEnergy.html#_protection-from-energy)_, _ [searing light](../../spells/searingLight.html#_searing-light)_
+3rd—_ [create food and water](../../spells/createFoodAndWater.md#_create-food-and-water)_, _ [dispel magic](../../spells/dispelMagic.md#_dispel-magic)_, _ [magic vestment](../../spells/magicVestment.md#_magic-vestment)_D (2), _ [prayer](../../spells/prayer.md#_prayer)_, _ [protection from energy](../../spells/protectionFromEnergy.md#_protection-from-energy)_, _ [searing light](../../spells/searingLight.md#_searing-light)_
 
-2nd—_ [aid](../../spells/aid.html#_aid)_, _ [calm emotions](../../spells/calmEmotions.html#_calm-emotions)_ (DC 19), _ [enthrall](../../spells/enthrall.html#_enthrall)_D (DC 19), _ [hold person](../../spells/holdPerson.html#_hold-person) _(DC 19), _ [sound burst](../../spells/soundBurst.html#_sound-burst)_ (DC 19), _ [spiritual weapon](../../spells/spiritualWeapon.html#_spiritual-weapon)_, _ [status](../../spells/status.html#_status)_
+2nd—_ [aid](../../spells/aid.md#_aid)_, _ [calm emotions](../../spells/calmEmotions.md#_calm-emotions)_ (DC 19), _ [enthrall](../../spells/enthrall.md#_enthrall)_D (DC 19), _ [hold person](../../spells/holdPerson.md#_hold-person) _(DC 19), _ [sound burst](../../spells/soundBurst.md#_sound-burst)_ (DC 19), _ [spiritual weapon](../../spells/spiritualWeapon.md#_spiritual-weapon)_, _ [status](../../spells/status.md#_status)_
 
-1st—_ [command](../../spells/command.html#_command)_ (DC 18), _ [comprehend languages](../../spells/comprehendLanguages.html#_comprehend-languages)_, _ [divine favor](../../spells/divineFavor.html#_divine-favor)_D, _ [hide from undead](../../spells/hideFromUndead.html#_hide-from-undead) _(DC 18), _ [protection from chaos](../../spells/protectionFromChaos.html#_protection-from-chaos)_, _ [sanctuary](../../spells/sanctuary.html#_sanctuary)_ (DC 18), _ [shield of faith](../../spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_ [command](../../spells/command.md#_command)_ (DC 18), _ [comprehend languages](../../spells/comprehendLanguages.md#_comprehend-languages)_, _ [divine favor](../../spells/divineFavor.md#_divine-favor)_D, _ [hide from undead](../../spells/hideFromUndead.md#_hide-from-undead) _(DC 18), _ [protection from chaos](../../spells/protectionFromChaos.md#_protection-from-chaos)_, _ [sanctuary](../../spells/sanctuary.md#_sanctuary)_ (DC 18), _ [shield of faith](../../spells/shieldOfFaith.md#_shield-of-faith)_
 
-0 (at will)—_ [detect magic](../../spells/detectMagic.html#_detect-magic)_, _ [guidance](../../spells/guidance.html#_guidance)_, _ [light](../../spells/light.html#_light)_, _ [read magic](../../spells/readMagic.html#_read-magic)_
+0 (at will)—_ [detect magic](../../spells/detectMagic.md#_detect-magic)_, _ [guidance](../../spells/guidance.md#_guidance)_, _ [light](../../spells/light.md#_light)_, _ [read magic](../../spells/readMagic.md#_read-magic)_
 
 **D** domain spell; **Domains** Community, Nobility
 
@@ -186,13 +186,13 @@ LN Medium humanoid
 
 **Base Atk** +9; **CMB** +8; **CMD** 18
 
-**Feats** [Augment Summoning](../../feats.html#_augment-summoning), [Craft Rod](../../feats.html#_craft-rod), [Craft Wand](../../feats.html#_craft-wand), [Craft Wondrous Item](../../feats.html#_craft-wondrous-item), [Leadership](../../feats.html#_leadership), [Selective Channeling](../../feats.html#_selective-channeling), [Spell Focus](../../feats.html#_spell-focus) (conjuration), [Spell Penetration](../../feats.html#_spell-penetration), [Turn Undead](../../feats.html#_turn-undead)
+**Feats** [Augment Summoning](../../feats.md#_augment-summoning), [Craft Rod](../../feats.md#_craft-rod), [Craft Wand](../../feats.md#_craft-wand), [Craft Wondrous Item](../../feats.md#_craft-wondrous-item), [Leadership](../../feats.md#_leadership), [Selective Channeling](../../feats.md#_selective-channeling), [Spell Focus](../../feats.md#_spell-focus) (conjuration), [Spell Penetration](../../feats.md#_spell-penetration), [Turn Undead](../../feats.md#_turn-undead)
 
-**Skills** [Diplomacy](../../skills/diplomacy.html#_diplomacy) +11, [Heal](../../skills/heal.html#_heal) +11, [Knowledge](../../skills/knowledge.html#_knowledge) (arcana) +6, [Knowledge](../../skills/knowledge.html#_knowledge) (local) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (nobility) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (religion) +16, [Linguistics](../../skills/linguistics.html#_linguistics) +10, [Perception](../../skills/perception.html#_perception) +15, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +15, [Spellcraft](../../skills/spellcraft.html#_spellcraft) +16
+**Skills** [Diplomacy](../../skills/diplomacy.md#_diplomacy) +11, [Heal](../../skills/heal.md#_heal) +11, [Knowledge](../../skills/knowledge.md#_knowledge) (arcana) +6, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (nobility) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (religion) +16, [Linguistics](../../skills/linguistics.md#_linguistics) +10, [Perception](../../skills/perception.md#_perception) +15, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +15, [Spellcraft](../../skills/spellcraft.md#_spellcraft) +16
 
 **Languages** Aquan, Auran, Celestial, Common, Ignan, Infernal, Sylvan, Terran
 
-**Combat Gear** _lesser metamagic rods _(extend, silent), _wand of [eagle's splendor](../../spells/eagleSSplendor.html#_eagle-s-splendor)_ (50 charges), _wand of [silence](../../spells/silence.html#_silence)_ (50 charges); **Other Gear** masterwork studded leather, _+1 buckler_, cold iron dagger, light crossbow with 10 cold iron bolts, _ [belt of mighty constitution](../../magicItems/wondrousItems.html#_belt-of-mighty-constitution) +2_, _ [cloak of resistance](../../magicItems/wondrousItems.html#_cloak-of-resistance) +3_, _ [eyes of the eagle](../../magicItems/wondrousItems.html#_eyes-of-the-eagle)_, _ [headband of inspired wisdom](../../magicItems/wondrousItems.html#_headband-of-inspired-wisdom) +4_, _ [incense of meditation](../../magicItems/wondrousItems.html#_incense-of-meditation)_
+**Combat Gear** _lesser metamagic rods _(extend, silent), _wand of [eagle's splendor](../../spells/eagleSSplendor.md#_eagle-s-splendor)_ (50 charges), _wand of [silence](../../spells/silence.md#_silence)_ (50 charges); **Other Gear** masterwork studded leather, _+1 buckler_, cold iron dagger, light crossbow with 10 cold iron bolts, _ [belt of mighty constitution](../../magicItems/wondrousItems.md#_belt-of-mighty-constitution) +2_, _ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +3_, _ [eyes of the eagle](../../magicItems/wondrousItems.md#_eyes-of-the-eagle)_, _ [headband of inspired wisdom](../../magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +4_, _ [incense of meditation](../../magicItems/wondrousItems.md#_incense-of-meditation)_
 
 **Boon** A high priest may cast a spell at no cost (except for material components) or craft a magical item at a 10% discount. He may also be able to secure the PCs an audience with a ruler.
 

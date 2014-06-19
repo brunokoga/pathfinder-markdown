@@ -6,9 +6,9 @@ _This mangy canine's face has the same flat nose, beady eyes, and protruding tee
 
 **XP 400**
 
-N Medium [animal](creatureTypes.html#_animal)
+N Medium [animal](creatureTypes.md#_animal)
 
-**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +1
+**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +1
 
 **Defense**
 
@@ -32,9 +32,9 @@ N Medium [animal](creatureTypes.html#_animal)
 
 **Base Atk** +0; **CMB** +2; **CMD** 14
 
-**Feats** [Toughness](../feats.html#_toughness)
+**Feats** [Toughness](../feats.md#_toughness)
 
-**Skills** [Stealth](../skills/stealth.html#_stealth) +6
+**Skills** [Stealth](../skills/stealth.md#_stealth) +6
 
 **Ecology**
 
@@ -52,7 +52,7 @@ Loathed by men and beasts alike, goblin dogs are ugly, stinking, craven, and fou
 
 Despite its name, the goblin dog is in fact a species of rodent grown monstrously large. Their long-legged shape and proclivity to hunt and run in packs earned them their popular name, a name that many goblins take issue with, as it galls the average goblin to consider these, their favored mounts, having anything at all to do with actual dogs. Of course, being goblins, they haven't bothered to come up with alternate names for goblin dogs. Perhaps they don't realize they can.
 
-Contact with a goblin dog's infested, mangy hide causes most other creatures to break out into hives, a condition known as âgoblin rash.â Goblinoids seem to be immune to this affliction, and are fond of keeping goblin dogs as guardians and mounts.
+Contact with a goblin dog's infested, mangy hide causes most other creatures to break out into hives, a condition known as “goblin rash.” Goblinoids seem to be immune to this affliction, and are fond of keeping goblin dogs as guardians and mounts.
 
 Despite their skin conditions and disorders, goblin dogs are highly resistant to disease. Their favored food is carrion—the riper, the better. That many goblin tribes let their goblin dogs run free in their lairs is the single reason most goblin dens aren't filthier than they actually are; constantly hungry, a goblin dog eats anything it can chew that it finds left behind by other, more discerning palates.
 

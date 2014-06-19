@@ -6,9 +6,9 @@ A miasmal form roils as barbed tentacles emerge from the central mass, coalescin
 
 **XP 4,800**
 
-NE Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype), [elemental](/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+NE Medium [outsider](monsters/creatureTypes.md#_outsider) ( [air](monsters/creatureTypes.md#_air-subtype), [elemental](monsters/creatureTypes.md#_elemental-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +10; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +13
+**Init** +10; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +13
 
 Defense
 
@@ -18,15 +18,15 @@ Defense
 
 **Fort** +12, **Ref** +12, **Will** +4
 
-**Defensive Abilities** wind defense; **DR** 10/magic; **Immune** electricity, [elemental](/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype) traits; **SR** 19
+**Defensive Abilities** wind defense; **DR** 10/magic; **Immune** electricity, [elemental](monsters/creatureTypes.md#_elemental-subtype) traits; **SR** 19
 
-**Weaknesses** susceptible to [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype)
+**Weaknesses** susceptible to [cold](monsters/creatureTypes.md#_cold-subtype)
 
 Offense
 
 **Speed** 20 ft., fly 20 ft. (good)
 
-**Melee** 4 tentacles +14 (1d4+1 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** 4 tentacles +14 (1d4+1 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Special Attacks** deadly embrace
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +8; **CMB** +9 (+13 grapple); **CMD** 26 (can_'_t be tripped)
 
-**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
+**Feats** [Dodge](additionalMonsters/../feats.md#_dodge), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Mobility](additionalMonsters/../feats.md#_mobility), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +17, [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +12, [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +17, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +21, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +13, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +13, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +13, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +17
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +17, [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +12, [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +17, [Fly](additionalMonsters/../skills/fly.md#_fly) +21, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +13, [Perception](additionalMonsters/../skills/perception.md#_perception) +13, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +13, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +17
 
 **Languages** Auran
 
@@ -46,7 +46,7 @@ Statistics
 
 Ecology
 
-**Environment** any (Plane of [Air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype))
+**Environment** any (Plane of [Air](monsters/creatureTypes.md#_air-subtype))
 
 **Organization** solitary
 
@@ -58,7 +58,7 @@ Special Abilities
 
 **Deadly Embrace (Ex)** A mihstu that pins an opponent completely surrounds that creature and deals 1d2 Constitution damage every round as it siphons away blood, tears, and other vital fluids. Maintaining a pin is a free action for a mihstu and it does not gain the grappled condition (allowing it to attack other creatures with its tentacles).
 
-**Susceptible to [Cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) (Ex)** Magical [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) stuns a mihstu rather than damaging it. If the creature fails its save against a magical [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) effect, it is stunned for 1 round and then staggered for an additional 1d4 rounds.
+**Susceptible to [Cold](monsters/creatureTypes.md#_cold-subtype) (Ex)** Magical [cold](monsters/creatureTypes.md#_cold-subtype) stuns a mihstu rather than damaging it. If the creature fails its save against a magical [cold](monsters/creatureTypes.md#_cold-subtype) effect, it is stunned for 1 round and then staggered for an additional 1d4 rounds.
 
 **Wind Defense (Ex)** The churning winds of a mihstu_'_s body automatically deflect nonmagical projectiles (such as arrows, bolts, and sling stones). All other ranged weapons (including magical projectiles and thrown weapons) have a 20% miss chance. Weapons of significant size, such as giant-thrown boulders, siege engine projectiles, and other massive ranged weapons are not affected by this ability.
 

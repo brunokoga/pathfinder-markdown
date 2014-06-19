@@ -14,7 +14,7 @@ Defense
 
 **AC** 13, touch 13, flat-footed 11 (+2 Dex, +1 size)
 
-**hp** 3 (1d8â1)
+**hp** 3 (1d8–1)
 
 **Fort** +0, **Ref** +3, **Will** +3; +2 vs. fear
 
@@ -22,7 +22,7 @@ Offense
 
 **Speed** 25 ft.
 
-**Melee** dagger â1 (1d3â2/19â20)
+**Melee** dagger –1 (1d3–2/19–20)
 
 Tactics
 
@@ -32,11 +32,11 @@ Statistics
 
 **Str** 6, **Dex** 15, **Con** 9, **Int** 12, **Wis** 10, **Cha** 12
 
-**Base Atk** +0; **CMB** â3; **CMD** 9
+**Base Atk** +0; **CMB** –3; **CMD** 9
 
-**Feats** [Fleet](/pathfinderRPG/prd/feats.html#_fleet)
+**Feats** [Fleet](feats.md#_fleet)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +4, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +0, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +5, [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +3, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local, nobility) +5, Perception +6, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +7
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +4, [Climb](skills/climb.md#_climb) +0, [Diplomacy](skills/diplomacy.md#_diplomacy) +5, [Escape Artist](skills/escapeArtist.md#_escape-artist) +3, [Knowledge](skills/knowledge.md#_knowledge) (local, nobility) +5, Perception +6, [Stealth](skills/stealth.md#_stealth) +7
 
 **Languages** Common, Halfling
 
@@ -60,19 +60,19 @@ Defense
 
 **AC** 12, touch 12, flat-footed 10 (+1 Dex, +1 dodge)
 
-**hp** 7 (2d8â2)
+**hp** 7 (2d8–2)
 
-**Fort** â1, **Ref** +1, **Will** +3
+**Fort** –1, **Ref** +1, **Will** +3
 
 Offense
 
 **Speed** 30 ft.
 
-**Melee** unarmed strike +0 (1d3â1) or
+**Melee** unarmed strike +0 (1d3–1) or
 
-light mace +0 (1d6â1) or
+light mace +0 (1d6–1) or
 
-short sword +0 (1d6â1/19â20)
+short sword +0 (1d6–1/19–20)
 
 Tactics
 
@@ -84,9 +84,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +0; **CMD** 12
 
-**Feats** [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy))
+**Feats** [Dodge](feats.md#_dodge), [Skill Focus](feats.md#_skill-focus) ( [Diplomacy](skills/diplomacy.md#_diplomacy))
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +6, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +10, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +4, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (dance) +7, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (sing, string instruments) +6, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +5, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +4
+**Skills** [Bluff](skills/bluff.md#_bluff) +6, [Diplomacy](skills/diplomacy.md#_diplomacy) +10, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +5, [Knowledge](skills/knowledge.md#_knowledge) (religion) +4, [Perform](skills/perform.md#_perform) (dance) +7, [Perform](skills/perform.md#_perform) (sing, string instruments) +6, [Ride](skills/ride.md#_ride) +5, [Sense Motive](skills/senseMotive.md#_sense-motive) +4
 
 **Languages** Common
 
@@ -118,9 +118,9 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** mwk longsword +4 (1d8+1/19â20) or dagger +3 (1d4+1/19â20)
+**Melee** mwk longsword +4 (1d8+1/19–20) or dagger +3 (1d4+1/19–20)
 
-**Ranged** composite shortbow +3 (1d6+1/Ã3)
+**Ranged** composite shortbow +3 (1d6+1/×3)
 
 Tactics
 
@@ -132,11 +132,11 @@ Statistics
 
 **Base Atk** +2; **CMB** +3; **CMD** 14
 
-**Feats** [Mounted Combat](/pathfinderRPG/prd/feats.html#_mounted-combat), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Mounted Combat](feats.md#_mounted-combat), [Power Attack](feats.md#_power-attack), [Toughness](feats.md#_toughness)
 
 **Languages** Common
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +4, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +6, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +4, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +3, Perception +5, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +2
+**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +4, [Handle Animal](skills/handleAnimal.md#_handle-animal) +6, [Intimidate](skills/intimidate.md#_intimidate) +4, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +3, Perception +5, [Ride](skills/ride.md#_ride) +2
 
 **Combat Gear** holy water; **Other Gear** chainmail, composite shortbow (+1 Str) with 20 arrows, dagger, masterwork longsword, bit and bridle, light horse (combat trained), riding saddle, saddlebags, 11 gp
 
@@ -166,9 +166,9 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** mwk longsword +4 (1d8/19â20)
+**Melee** mwk longsword +4 (1d8/19–20)
 
-**Ranged** dagger +4 (1d4/19â20)
+**Ranged** dagger +4 (1d4/19–20)
 
 Tactics
 
@@ -180,13 +180,13 @@ Statistics
 
 **Base Atk** +3; **CMB** +3; **CMD** 14
 
-**Feats** [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy)), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Lightning Reflexes](feats.md#_lightning-reflexes), [Skill Focus](feats.md#_skill-focus) ( [Diplomacy](skills/diplomacy.md#_diplomacy)), [Toughness](feats.md#_toughness)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (engineering, religion) +4, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +7, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +4, Perception +3, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (dance) +5, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +5, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +4, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +5
+**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +11, [Knowledge](skills/knowledge.md#_knowledge) (engineering, religion) +4, [Knowledge](skills/knowledge.md#_knowledge) (history) +5, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +7, [Linguistics](skills/linguistics.md#_linguistics) +4, Perception +3, [Perform](skills/perform.md#_perform) (dance) +5, [Ride](skills/ride.md#_ride) +5, [Sense Motive](skills/senseMotive.md#_sense-motive) +4, [Survival](skills/survival.md#_survival) +5
 
 **Languages** Common, Elven
 
-**Combat Gear** _oil of [bless weapon](/pathfinderRPG/prd/spells/blessWeapon.html#_bless-weapon)_, _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _potion of [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_; **Other Gear** masterwork breastplate, dagger, masterwork longsword, noble's outfit, signet ring, 253 gp
+**Combat Gear** _oil of [bless weapon](spells/blessWeapon.md#_bless-weapon)_, _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [spider climb](spells/spiderClimb.md#_spider-climb)_; **Other Gear** masterwork breastplate, dagger, masterwork longsword, noble's outfit, signet ring, 253 gp
 
 The heir apparent has been groomed to rule since birth, yet aspires to an even greater destiny. She welcomes the obligations of a ruling queen, and hopes to accomplish deeds of great heroism, justice, and mercy during her time on the throne. She is normally accompanied by guards (warriors 3) or officers (aristocrats 6).
 
@@ -206,7 +206,7 @@ Defense
 
 **AC** 15, touch 11, flat-footed 14 (+4 armor, +1 Dex)
 
-**hp** 17 (5d8â5)
+**hp** 17 (5d8–5)
 
 **Fort** +0, **Ref** +4, **Will** +3
 
@@ -214,9 +214,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk short sword +4 (1d6/19â20)
+**Melee** mwk short sword +4 (1d6/19–20)
 
-**Ranged** mwk light crossbow +5 (1d8/19â20)
+**Ranged** mwk light crossbow +5 (1d8/19–20)
 
 Tactics
 
@@ -228,13 +228,13 @@ Statistics
 
 **Base Atk** +3; **CMB** +3; **CMD** 14
 
-**Feats** [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Mounted Combat](/pathfinderRPG/prd/feats.html#_mounted-combat), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal), Perception)
+**Feats** [Lightning Reflexes](feats.md#_lightning-reflexes), [Mounted Combat](feats.md#_mounted-combat), [Skill Focus](feats.md#_skill-focus) ( [Handle Animal](skills/handleAnimal.md#_handle-animal), Perception)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +5, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +9, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +13, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +7, Perception +10, [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (falconer) +7, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +3, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +3
+**Skills** [Climb](skills/climb.md#_climb) +5, [Diplomacy](skills/diplomacy.md#_diplomacy) +9, [Handle Animal](skills/handleAnimal.md#_handle-animal) +13, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +7, Perception +10, [Profession](skills/profession.md#_profession) (falconer) +7, [Ride](skills/ride.md#_ride) +3, [Survival](skills/survival.md#_survival) +3
 
 **Languages** Common
 
-**Combat Gear** _potion of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, tanglefoot bag; **Other Gear** mithral chain shirt, masterwork light crossbow with 20 bolts, masterwork short sword, signal whistle, silver holy symbol, trained hawk (_Pathfinder RPG Bestiary_ 131, worth 40 gp), bit and bridle, light horse (combat trained), riding saddle, saddlebags, 360 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, tanglefoot bag; **Other Gear** mithral chain shirt, masterwork light crossbow with 20 bolts, masterwork short sword, signal whistle, silver holy symbol, trained hawk (_Pathfinder RPG Bestiary_ 131, worth 40 gp), bit and bridle, light horse (combat trained), riding saddle, saddlebags, 360 gp
 
 The falconer has dedicated his life to training birds of prey—his raptors are his dearest friends. He cares little about courtly life and prefers the company of his noble birds.
 
@@ -262,13 +262,13 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** mwk greatsword +8 (2d6+3/19â20) or mwk warhammer +7 (1d8+2/Ã3)
+**Melee** mwk greatsword +8 (2d6+3/19–20) or mwk warhammer +7 (1d8+2/×3)
 
-**Ranged** mwk composite longbow +5 (1d8+2/Ã3)
+**Ranged** mwk composite longbow +5 (1d8+2/×3)
 
 Tactics
 
-**During Combat** The aristocrat directs her troops from horseback, saving her personal attention for the toughest foes. She uses _potions of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ to save her most wounded subordinates from death.
+**During Combat** The aristocrat directs her troops from horseback, saving her personal attention for the toughest foes. She uses _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ to save her most wounded subordinates from death.
 
 Statistics
 
@@ -276,15 +276,15 @@ Statistics
 
 **Base Atk** +4; **CMB** +6; **CMD** 16
 
-**Feats** [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Toughness](/pathfinderRPG/prd/feats.html#_toughness), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (greatsword)
+**Feats** [Iron Will](feats.md#_iron-will), [Toughness](feats.md#_toughness), [Weapon Focus](feats.md#_weapon-focus) (greatsword)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +9, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +5, Perception +8, [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (soldier) +9, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +6, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +5
+**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +9, [Intimidate](skills/intimidate.md#_intimidate) +5, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +5, Perception +8, [Profession](skills/profession.md#_profession) (soldier) +9, [Ride](skills/ride.md#_ride) +6, [Sense Motive](skills/senseMotive.md#_sense-motive) +5
 
 **Languages** Common, Elven
 
 **SQ** elven magic, weapon familiarity
 
-**Combat Gear** _potions of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (3), _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_; **Other Gear** masterwork breastplate, masterwork composite longbow (+2 Str) with 20 arrows, masterwork greatsword, masterwork warhammer, courtier's outfit, bit and bridle, light horse (combat trained), military saddle, saddlebags, studded leather barding, 1,121 gp
+**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (3), _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_; **Other Gear** masterwork breastplate, masterwork composite longbow (+2 Str) with 20 arrows, masterwork greatsword, masterwork warhammer, courtier's outfit, bit and bridle, light horse (combat trained), military saddle, saddlebags, studded leather barding, 1,121 gp
 
 The officer is a capable and seasoned commander, and has earned the loyalty of her troops.
 
@@ -310,17 +310,17 @@ Offense
 
 **Speed** 35 ft.
 
-**Melee** mwk rapier +7 (1d6â1/18â20)
+**Melee** mwk rapier +7 (1d6–1/18–20)
 
-**Ranged** dagger +5 (1d4â1/19â20)
+**Ranged** dagger +5 (1d4–1/19–20)
 
 Tactics
 
-**Before Combat** The aristocrat drinks his _potion of [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_. He then calls rat swarms with his _ [pipes of the sewers](/pathfinderRPG/prd/magicItems/wondrousItems.html#_pipes-of-the-sewers)_.
+**Before Combat** The aristocrat drinks his _potion of [heroism](spells/heroism.md#_heroism)_. He then calls rat swarms with his _ [pipes of the sewers](magicItems/wondrousItems.md#_pipes-of-the-sewers)_.
 
-**During Combat** The aristocrat sends his rats forward and hides behind allies. If alone, he uses [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise) to prolong the fight in the hope that help will arrive in time to save him.
+**During Combat** The aristocrat sends his rats forward and hides behind allies. If alone, he uses [Combat Expertise](feats.md#_combat-expertise) to prolong the fight in the hope that help will arrive in time to save him.
 
-**Base Statistics** Without _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_, the aristocrat's statistics are **Perception** +0; **Fort** +2, **Ref** +2; **Will** +7; **Melee** mwk rapier +5 (1d6â1/18â20); **Skills** â2 on all skills.
+**Base Statistics** Without _ [heroism](spells/heroism.md#_heroism)_, the aristocrat's statistics are **Perception** +0; **Fort** +2, **Ref** +2; **Will** +7; **Melee** mwk rapier +5 (1d6–1/18–20); **Skills** –2 on all skills.
 
 Statistics
 
@@ -328,13 +328,13 @@ Statistics
 
 **Base Atk** +5; **CMB** +4; **CMD** 14
 
-**Feats** [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), [Fleet](/pathfinderRPG/prd/feats.html#_fleet), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Persuasive](/pathfinderRPG/prd/feats.html#_persuasive), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) [local])
+**Feats** [Combat Expertise](feats.md#_combat-expertise), [Fleet](feats.md#_fleet), [Iron Will](feats.md#_iron-will), [Persuasive](feats.md#_persuasive), [Skill Focus](feats.md#_skill-focus) ( [Knowledge](skills/knowledge.md#_knowledge) [local])
 
-**Skills** [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) +10, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +14, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +16, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +14, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +9, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +16, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +7, Perception +2, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (wind) +8, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +12
+**Skills** [Appraise](skills/appraise.md#_appraise) +10, [Bluff](skills/bluff.md#_bluff) +14, [Diplomacy](skills/diplomacy.md#_diplomacy) +16, [Intimidate](skills/intimidate.md#_intimidate) +14, [Knowledge](skills/knowledge.md#_knowledge) (history) +9, [Knowledge](skills/knowledge.md#_knowledge) (local) +16, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +11, [Knowledge](skills/knowledge.md#_knowledge) (religion) +7, Perception +2, [Perform](skills/perform.md#_perform) (wind) +8, [Sense Motive](skills/senseMotive.md#_sense-motive) +12
 
 **Languages** Common, Halfling
 
-**Combat Gear** _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _potion of [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_; **Other Gear** _+1 chain shirt_, dagger, masterwork rapier, _ [pipes of the sewers](/pathfinderRPG/prd/magicItems/wondrousItems.html#_pipes-of-the-sewers)_, antitoxin (2), courtier's outfit, staff of office (worth 200 gp), everburning torch, 430 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [heroism](spells/heroism.md#_heroism)_; **Other Gear** _+1 chain shirt_, dagger, masterwork rapier, _ [pipes of the sewers](magicItems/wondrousItems.md#_pipes-of-the-sewers)_, antitoxin (2), courtier's outfit, staff of office (worth 200 gp), everburning torch, 430 gp
 
 The mayor has taken to wearing a chain shirt beneath his clothing in the event that illicit lenders come calling to collect the money he owes.
 
@@ -352,7 +352,7 @@ Defense
 
 **AC** 11, touch 11, flat-footed 10 (+1 Dex)
 
-**hp** 28 (8d8â8)
+**hp** 28 (8d8–8)
 
 **Fort** +2, **Ref** +4, **Will** +9
 
@@ -360,9 +360,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk rapier +6/+1 (1d6â1/18â20)
+**Melee** mwk rapier +6/+1 (1d6–1/18–20)
 
-**Ranged** dagger +7 (1d4â1/19â20)
+**Ranged** dagger +7 (1d4–1/19–20)
 
 Tactics
 
@@ -374,15 +374,15 @@ Statistics
 
 **Base Atk** +6; **CMB** +5; **CMD** 16
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Persuasive](/pathfinderRPG/prd/feats.html#_persuasive), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy), [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) [history])
+**Feats** [Alertness](feats.md#_alertness), [Iron Will](feats.md#_iron-will), [Persuasive](feats.md#_persuasive), [Skill Focus](feats.md#_skill-focus) ( [Diplomacy](skills/diplomacy.md#_diplomacy), [Knowledge](skills/knowledge.md#_knowledge) [history])
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +14, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +19, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +10, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography, religion) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +14, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +8, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +6, Perception +12, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (dance) +7, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +5, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +13
+**Skills** [Bluff](skills/bluff.md#_bluff) +14, [Diplomacy](skills/diplomacy.md#_diplomacy) +19, [Intimidate](skills/intimidate.md#_intimidate) +10, [Knowledge](skills/knowledge.md#_knowledge) (geography, religion) +5, [Knowledge](skills/knowledge.md#_knowledge) (history) +14, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +8, [Linguistics](skills/linguistics.md#_linguistics) +6, Perception +12, [Perform](skills/perform.md#_perform) (dance) +7, [Ride](skills/ride.md#_ride) +5, [Sense Motive](skills/senseMotive.md#_sense-motive) +13
 
 **Languages** Common, Dwarven, Elven, Giant, Goblin
 
 **SQ** elf blood
 
-**Combat Gear** _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_; **Other Gear** dagger, masterwork rapier, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [figurine of wondrous power](/pathfinderRPG/prd/magicItems/wondrousItems.html#_figurines-of-wondrous-power)_ (silver raven), antitoxin (4), noble's outfit, signet ring, 298 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_; **Other Gear** dagger, masterwork rapier, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [figurine of wondrous power](magicItems/wondrousItems.md#_figurines-of-wondrous-power)_ (silver raven), antitoxin (4), noble's outfit, signet ring, 298 gp
 
 Exposed since birth to the contentious relationships between disparate races and nationalities, the diplomat found her calling in resolving the differences of others. Her half-elven lifespan means she has dealt with three or more generations of human nobility in various countries and is well versed in evolving etiquette. Slow-burning feuds and several attempts on her life have made her cautious and patient in her work.
 
@@ -410,21 +410,21 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** mwk lance +12/+7 (1d8+5/Ã3) or
+**Melee** mwk lance +12/+7 (1d8+5/×3) or
 
-_+1 longsword_ +12/+7 (1d8+6/19â20)
+_+1 longsword_ +12/+7 (1d8+6/19–20)
 
-**Ranged** mwk composite shortbow +8/+3 (1d6+3/Ã3)
+**Ranged** mwk composite shortbow +8/+3 (1d6+3/×3)
 
 **Space** 5 ft.; **Reach** 5 ft. (10 ft. with lance)
 
 Tactics
 
-**Before Combat** Before a fight or joust, the aristocrat drinks his _potions of [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_ and _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_.
+**Before Combat** Before a fight or joust, the aristocrat drinks his _potions of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_ and _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_.
 
 **During Combat** The aristocrat opens with a charge. When confronting foes on foot, he stows his lance, then attacks with his longsword. Against mounted foes, he wheels about and charges so he can use Unseat, repeating this until all his opponents are dismounted. If he is unable to hit a well-armored rider, he is not above attacking the mount instead.
 
-**Base Statistics** Without _ [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_ and _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, the aristocrat's statistics are **hp** 58; **Fort** +4; **Melee** mwk lance +10/+5 (1d8+3/Ã3) or _+1 longsword_ +10/+5 (1d8+4/19â20); **Str** 16, **Con** 12; **CMB** +9; **CMD** 20.
+**Base Statistics** Without _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_ and _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, the aristocrat's statistics are **hp** 58; **Fort** +4; **Melee** mwk lance +10/+5 (1d8+3/×3) or _+1 longsword_ +10/+5 (1d8+4/19–20); **Str** 16, **Con** 12; **CMB** +9; **CMD** 20.
 
 Statistics
 
@@ -432,13 +432,13 @@ Statistics
 
 **Base Atk** +6; **CMB** +11; **CMD** 22
 
-**Feats** Improved Bull Rush, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), Ride-By Attack, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Ride](/pathfinderRPG/prd/skills/ride.html#_ride)), Spirited Charge, Unseat
+**Feats** Improved Bull Rush, [Power Attack](feats.md#_power-attack), Ride-By Attack, [Skill Focus](feats.md#_skill-focus) ( [Ride](skills/ride.md#_ride)), Spirited Charge, Unseat
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +11, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +5, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +12, Perception +5, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +10, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +5
+**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +11, [Handle Animal](skills/handleAnimal.md#_handle-animal) +5, [Intimidate](skills/intimidate.md#_intimidate) +11, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +12, Perception +5, [Ride](skills/ride.md#_ride) +10, [Sense Motive](skills/senseMotive.md#_sense-motive) +5
 
 **Languages** Common
 
-**Combat Gear** _+1 human-bane arrows_ (2), _potion of [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _potion of [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_; **Other Gear** masterwork full plate, masterwork heavy steel shield, _+1 longsword_, dagger, masterwork composite shortbow (+3 Str) with 40 arrows, masterwork lance, noble's outfit, signet ring, bit and bridle, heavy horse (combat trained), masterwork breastplate barding, military saddle, saddlebags, 163 gp
+**Combat Gear** _+1 human-bane arrows_ (2), _potion of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_; **Other Gear** masterwork full plate, masterwork heavy steel shield, _+1 longsword_, dagger, masterwork composite shortbow (+3 Str) with 40 arrows, masterwork lance, noble's outfit, signet ring, bit and bridle, heavy horse (combat trained), masterwork breastplate barding, military saddle, saddlebags, 163 gp
 
 Although this tarnished knight considers his honor beyond reproach, he covets personal glory and seeks the humiliation of his enemies. Whether commanding a host of knights to rout tribes of hobgoblins or orcs or touring the land in search of jousting competitions, the knight is a tall, towering figure, striking fear into the hearts of his opponents.
 
@@ -468,9 +468,9 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** mwk longsword +8/+3 (1d8â1/19â20) or light mace +6/+1 (1d6â1)
+**Melee** mwk longsword +8/+3 (1d8–1/19–20) or light mace +6/+1 (1d6–1)
 
-**Ranged** mwk dagger +8/+3 (1d4â1/19â20)
+**Ranged** mwk dagger +8/+3 (1d4–1/19–20)
 
 Tactics
 
@@ -482,13 +482,13 @@ Statistics
 
 **Base Atk** +7; **CMB** +6; **CMD** 17
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Persuasive](/pathfinderRPG/prd/feats.html#_persuasive), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (longsword)
+**Feats** [Alertness](feats.md#_alertness), [Great Fortitude](feats.md#_great-fortitude), [Iron Will](feats.md#_iron-will), [Persuasive](feats.md#_persuasive), [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (longsword)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +10, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +19, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +12, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography, history) +10, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +6, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +15, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +8, [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) +9, Perception +10, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (dance) +6, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (oratory) +10, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +6, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +17
+**Skills** [Bluff](skills/bluff.md#_bluff) +10, [Diplomacy](skills/diplomacy.md#_diplomacy) +19, [Intimidate](skills/intimidate.md#_intimidate) +12, [Knowledge](skills/knowledge.md#_knowledge) (geography, history) +10, [Knowledge](skills/knowledge.md#_knowledge) (local) +6, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +15, [Knowledge](skills/knowledge.md#_knowledge) (religion) +8, [Linguistics](skills/linguistics.md#_linguistics) +9, Perception +10, [Perform](skills/perform.md#_perform) (dance) +6, [Perform](skills/perform.md#_perform) (oratory) +10, [Ride](skills/ride.md#_ride) +6, [Sense Motive](skills/senseMotive.md#_sense-motive) +17
 
 **Languages** Common, Dwarven, Elven, Giant, Gnome, Halfling, Sylvan
 
-**Combat Gear** _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _potion of [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_; **Other Gear** _+1 [glamered](/pathfinderRPG/prd/magicItems/armor.html#_armor-glamered) breastplate_, masterwork dagger, masterwork longsword, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, royal outfit, crown (worth 500 gp), royal scepter (worth 250 gp, as light mace in combat), royal seal (worth 150 gp), 233 gp
+**Combat Gear** _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _potion of [delay poison](spells/delayPoison.md#_delay-poison)_; **Other Gear** _+1 [glamered](magicItems/armor.md#_armor-glamered) breastplate_, masterwork dagger, masterwork longsword, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, royal outfit, crown (worth 500 gp), royal scepter (worth 250 gp, as light mace in combat), royal seal (worth 150 gp), 233 gp
 
 Though once an even-tempered and capable ruler, the king tires of the responsibilities of the crown and reflects fondly on his days as a questing noble knight, free of court intrigue and stifling castle walls. Petitioners who bore or offend him risk arousing his anger, as do sycophants and hangers-on. He admires soldiers, knights, and adventurers, though he doesn't tolerate disrespect of himself, his family, or his country.
 

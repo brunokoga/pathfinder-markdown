@@ -1,6 +1,6 @@
 Wall of Force
 
-**Source** [_wall of force_](/pathfinderRPG/prd/spells/wallOfForce.html#_wall-of-force)
+**Source** [_wall of force_](spells/wallOfForce.md#_wall-of-force)
 
-The wall's hardness increases to 40, and its hit points increase to 30 per caster level. A non-mythic _ [disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_ spell or _ [rod of cancellation](/pathfinderRPG/prd/magicItems/rods.html#_rod-of-cancellation)_ negates a 10-foot-square section of a _mythic wall of force_ for 1 round, after which the wall reforms at full strength. One side of the wall (chosen by you) repels creatures within 5 feet as a _ [repulsion](/pathfinderRPG/prd/spells/repulsion.html#_repulsion)_ spell (using the DC _ [wall of force](/pathfinderRPG/prd/spells/wallOfForce.html#_wall-of-force)_ would have if it allowed a saving throw).
+The wall's hardness increases to 40, and its hit points increase to 30 per caster level. A non-mythic _ [disintegrate](spells/disintegrate.md#_disintegrate)_ spell or _ [rod of cancellation](magicItems/rods.md#_rod-of-cancellation)_ negates a 10-foot-square section of a _mythic wall of force_ for 1 round, after which the wall reforms at full strength. One side of the wall (chosen by you) repels creatures within 5 feet as a _ [repulsion](spells/repulsion.md#_repulsion)_ spell (using the DC _ [wall of force](spells/wallOfForce.md#_wall-of-force)_ would have if it allowed a saving throw).
 

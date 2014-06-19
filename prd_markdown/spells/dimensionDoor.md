@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** none and [Will](../combat.html#_will) negates (object); **[Spell Resistance](../glossary.html#_spell-resistance)** no and yes (object)
+**Saving Throw** none and [Will](../combat.md#_will) negates (object); **[Spell Resistance](../glossary.md#_spell-resistance)** no and yes (object)
 
 You instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired—whether by simply visualizing the area or by stating direction. After using this spell, you can't take any other actions until your next turn. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as two Large creatures, and so forth. All creatures to be transported must be in contact with one another, and at least one of those creatures must be in contact with you.
 

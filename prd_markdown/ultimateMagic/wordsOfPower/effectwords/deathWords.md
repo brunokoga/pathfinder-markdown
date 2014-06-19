@@ -4,7 +4,7 @@ Words from this family destroy life and create undead abominations.
 
 Undeath (Death)
 
-**School** necromancy [[evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype)]; **Level** cleric 2, sorcerer/wizard 3
+**School** necromancy [[evil](monsters/creatureTypes.md#_evil-subtype)]; **Level** cleric 2, sorcerer/wizard 3
 
 **Duration** instantaneous
 
@@ -28,7 +28,7 @@ The target of a wordspell with this effect word receives a +4 sacred bonus on sa
 
 Life Leech (Death)
 
-**School** necromancy [[evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype)]; **Level** magus 4, sorcerer/wizard 4, witch 4
+**School** necromancy [[evil](monsters/creatureTypes.md#_evil-subtype)]; **Level** magus 4, sorcerer/wizard 4, witch 4
 
 **Duration** 1 hour/level
 
@@ -42,7 +42,7 @@ The target of a wordspell with this effect word takes 1d4 temporary negative lev
 
 Slay (Death)
 
-**School** necromancy [death, [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype)]; **Level** cleric 6, druid 7, sorcerer/wizard 6, witch 6
+**School** necromancy [death, [evil](monsters/creatureTypes.md#_evil-subtype)]; **Level** cleric 6, druid 7, sorcerer/wizard 6, witch 6
 
 **Duration** instantaneous
 

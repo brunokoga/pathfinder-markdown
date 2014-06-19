@@ -6,5 +6,5 @@ Stoneskin, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, except you divide the duration in 10 minute intervals among the creatures touched. Once the spell has prevented 10 points of damage per caster level (maximum 150 points) for a subject, the spell's effects end for that subject.
+This spell functions like _ [stoneskin](spells/stoneskin.md#_stoneskin)_, except you divide the duration in 10 minute intervals among the creatures touched. Once the spell has prevented 10 points of damage per caster level (maximum 150 points) for a subject, the spell's effects end for that subject.
 

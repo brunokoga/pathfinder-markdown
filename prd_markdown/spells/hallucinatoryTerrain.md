@@ -12,7 +12,7 @@
 
 **Duration** 2 hours/level (D)
 
-**Saving Throw** [Will](../combat.html#_will) disbelief (if interacted with); **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** [Will](../combat.md#_will) disbelief (if interacted with); **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
 You make natural terrain look, sound, and smell like some other sort of natural terrain. Structures, equipment, and creatures within the area are not hidden or changed in appearance.
 

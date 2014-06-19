@@ -6,9 +6,9 @@ Frost WormCR 12
 
 **XP 19,200**
 
-N Huge [magical beast](/pathfinderRPG/prd/monsters/creatureTypes.html#_magical-beast) ( [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype))
+N Huge [magical beast](monsters/creatureTypes.md#_magical-beast) ( [cold](monsters/creatureTypes.md#_cold-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +17
+**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +17
 
 Defense
 
@@ -18,19 +18,19 @@ Defense
 
 **Fort** +15, **Ref** +13, **Will** +10
 
-**Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype)
+**Immune** [cold](monsters/creatureTypes.md#_cold-subtype)
 
-**Weaknesses** vulnerable to [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)
+**Weaknesses** vulnerable to [fire](monsters/creatureTypes.md#_fire-subtype)
 
 Offense
 
 **Speed** 30 ft., burrow 10 ft.
 
-**Melee** bite +25 (4d10+15 plus 4d6 [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype))
+**Melee** bite +25 (4d10+15 plus 4d6 [cold](monsters/creatureTypes.md#_cold-subtype))
 
 **Space** 15 ft.; **Reach** 10 ft.
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (60-ft. cone, 15d6 [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) damage, Reflex DC 23 half, usable once per hour), death throes, trill
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (60-ft. cone, 15d6 [cold](monsters/creatureTypes.md#_cold-subtype) damage, Reflex DC 23 half, usable once per hour), death throes, trill
 
 Statistics
 
@@ -38,15 +38,15 @@ Statistics
 
 **Base Atk** +16; **CMB** +28; **CMD** 41 (can't be tripped)
 
-**Feats** [Cleave](/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave), [Combat Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)), [Stand Still](/pathfinderRPG/prd/additionalMonsters/../feats.html#_stand-still), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (bite)
+**Feats** [Cleave](additionalMonsters/../feats.md#_cleave), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception)), [Stand Still](additionalMonsters/../feats.md#_stand-still), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +17, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +6 (+14 in ice and snow); **Racial Modifiers** +8 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) in ice and snow
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +17, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +6 (+14 in ice and snow); **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in ice and snow
 
-**SQ** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype)
+**SQ** [cold](monsters/creatureTypes.md#_cold-subtype)
 
 Ecology
 
-**Environment** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) plains or mountains
+**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) plains or mountains
 
 **Organization** solitary
 
@@ -54,9 +54,9 @@ Ecology
 
 Special Abilities
 
-**[Cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) (Su)** A frost worm's body generates intense [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), allowing it to deal an additional 4d6 [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) damage with its bite attack. Any creature that attacks a frost worm with an unarmed strike or a natural weapon takes 1d6 points of [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) damage per successful hit. A creature that grapples or is grappled by a frost worm takes 4d6 points of [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) damage per round the grapple is maintained.
+**[Cold](monsters/creatureTypes.md#_cold-subtype) (Su)** A frost worm's body generates intense [cold](monsters/creatureTypes.md#_cold-subtype), allowing it to deal an additional 4d6 [cold](monsters/creatureTypes.md#_cold-subtype) damage with its bite attack. Any creature that attacks a frost worm with an unarmed strike or a natural weapon takes 1d6 points of [cold](monsters/creatureTypes.md#_cold-subtype) damage per successful hit. A creature that grapples or is grappled by a frost worm takes 4d6 points of [cold](monsters/creatureTypes.md#_cold-subtype) damage per round the grapple is maintained.
 
-**Death Throes (Su)** When killed, a frost worm explodes in a 100-foot-radius burst that deals 12d6 [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) damage and 8d6 piercing damage (DC 23 Reflex half). The save DC is Constitution-based.
+**Death Throes (Su)** When killed, a frost worm explodes in a 100-foot-radius burst that deals 12d6 [cold](monsters/creatureTypes.md#_cold-subtype) damage and 8d6 piercing damage (DC 23 Reflex half). The save DC is Constitution-based.
 
 **Trill (Su)** As a full-round action, a frost worm can emit a strange trilling sound that affects all creatures within a 100-foot radius. Creatures must succeed on a DC 18 Will save or be fascinated for as long as the worm continues to trill (the frost worm can maintain this trill by concentrating). Once a creature has resisted or broken the effect, it cannot be affected again by that same frost worm's trill for 24 hours. This is a sonic mind-affecting effect. The save DC is Charisma-based.
 

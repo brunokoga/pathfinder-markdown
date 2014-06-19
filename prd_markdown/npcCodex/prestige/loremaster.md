@@ -24,7 +24,7 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** mwk heavy mace +6/+1 (1d6â2)
+**Melee** mwk heavy mace +6/+1 (1d6–2)
 
 **Special Attacks** channel positive energy 5/day (DC 15, 4d6)
 
@@ -34,27 +34,27 @@ Offense
 
 **Cleric Spells Prepared** (CL 9th; concentration +12)
 
-5th—_ [breath of life](/pathfinderRPG/prd/spells/breathOfLife.html#_breath-of-life)_, _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_D
+5th—_ [breath of life](spells/breathOfLife.md#_breath-of-life)_, _ [spell resistance](magicItems/armor.md#_armor-spell-resistance)_D
 
-4th—_ [discern lies](/pathfinderRPG/prd/spells/discernLies.html#_discern-lies)_ (DC 17), _ [divination](/pathfinderRPG/prd/spells/divination.html#_divination)_, _ [order's wrath](/pathfinderRPG/prd/spells/orderSWrath.html#_order-s-wrath)_D
+4th—_ [discern lies](spells/discernLies.md#_discern-lies)_ (DC 17), _ [divination](spells/divination.md#_divination)_, _ [order's wrath](spells/orderSWrath.md#_order-s-wrath)_D
 
-3rd—_ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_, _ [locate object](/pathfinderRPG/prd/spells/locateObject.html#_locate-object)_, _magic circle against chao s_D_, [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_, _ [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease)_
+3rd—_ [invisibility purge](spells/invisibilityPurge.md#_invisibility-purge)_, _ [locate object](spells/locateObject.md#_locate-object)_, _magic circle against chao s_D_, [magic vestment](spells/magicVestment.md#_magic-vestment)_, _ [remove disease](spells/removeDisease.md#_remove-disease)_
 
-2nd—_ [augury](/pathfinderRPG/prd/spells/augury.html#_augury)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 15), _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_, _ [status](/pathfinderRPG/prd/spells/status.html#_status)_, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield) othe r_D_, [zone of truth](/pathfinderRPG/prd/spells/zoneOfTruth.html#_zone-of-truth)_ (DC 15)
+2nd—_ [augury](spells/augury.md#_augury)_, _ [hold person](spells/holdPerson.md#_hold-person)_ (DC 15), _ [lesser restoration](spells/restoration.md#_restoration-lesser)_, _ [status](spells/status.md#_status)_, _ [shield](spells/shield.md#_shield) othe r_D_, [zone of truth](spells/zoneOfTruth.md#_zone-of-truth)_ (DC 15)
 
-1st—_ [bane](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-bane)_, _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (DC 14), _ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [sanctuary](/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary)_D (DC 14)
+1st—_ [bane](magicItems/weapons.md#_weapons-bane)_, _ [bless](spells/bless.md#_bless)_, _ [command](spells/command.md#_command)_ (DC 14), _ [comprehend languages](spells/comprehendLanguages.md#_comprehend-languages)_, _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_, _ [sanctuary](spells/sanctuary.md#_sanctuary)_D (DC 14)
 
-0 (at will)—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_
+0 (at will)—_ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [detect poison](spells/detectPoison.md#_detect-poison)_, _ [guidance](spells/guidance.md#_guidance)_, _ [light](spells/light.md#_light)_
 
 **D** Domain spell; **Domains** Law, Protection
 
 Tactics
 
-**Before Combat** The loremaster casts _ [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_.
+**Before Combat** The loremaster casts _ [magic vestment](spells/magicVestment.md#_magic-vestment)_.
 
-**During Combat** The loremaster casts _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance) _and stays out of combat, instead supporting her allies with healing spells and information about the foes they face.
+**During Combat** The loremaster casts _ [spell resistance](magicItems/armor.md#_armor-spell-resistance) _and stays out of combat, instead supporting her allies with healing spells and information about the foes they face.
 
-**Base Statistics** Without _ [magic vestment](/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment)_, the loremaster's statistics are **AC** 18, touch 14, flat-footed 16.
+**Base Statistics** Without _ [magic vestment](spells/magicVestment.md#_magic-vestment)_, the loremaster's statistics are **AC** 18, touch 14, flat-footed 16.
 
 Statistics
 
@@ -62,15 +62,15 @@ Statistics
 
 **Base Atk** +6; **CMB** +3; **CMD** 16
 
-**Feats** [Brew Potion](/pathfinderRPG/prd/feats.html#_brew-potion), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Empower Spell](/pathfinderRPG/prd/feats.html#_empower-spell), [Scribe Scroll](/pathfinderRPG/prd/feats.html#_scribe-scroll), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) [religion])
+**Feats** [Brew Potion](feats.md#_brew-potion), [Combat Casting](feats.md#_combat-casting), [Empower Spell](feats.md#_empower-spell), [Scribe Scroll](feats.md#_scribe-scroll), [Skill Focus](feats.md#_skill-focus) ( [Knowledge](skills/knowledge.md#_knowledge) [religion])
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +3 (â1 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +7, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) â1, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +14, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +11, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +7, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, engineering, geography, nature) +4, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (dungeoneering) +6, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history, local, nobility) +9, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +14, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +19, Perception +14, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +11
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +3 (–1 when jumping), [Bluff](skills/bluff.md#_bluff) +7, [Climb](skills/climb.md#_climb) –1, [Diplomacy](skills/diplomacy.md#_diplomacy) +14, [Heal](skills/heal.md#_heal) +11, [Intimidate](skills/intimidate.md#_intimidate) +7, [Knowledge](skills/knowledge.md#_knowledge) (arcana, engineering, geography, nature) +4, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering) +6, [Knowledge](skills/knowledge.md#_knowledge) (history, local, nobility) +9, [Knowledge](skills/knowledge.md#_knowledge) (planes) +14, [Knowledge](skills/knowledge.md#_knowledge) (religion) +19, Perception +14, [Sense Motive](skills/senseMotive.md#_sense-motive) +11
 
 **Languages** Common, Halfling
 
 **SQ** aura, lore +1, secrets (instant mastery)
 
-**Combat Gear** _potions of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (5), _potion of [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_, _potions of [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease)_ (2), _scrolls of [consecrate](/pathfinderRPG/prd/spells/consecrate.html#_consecrate)_ (2), _scrolls of [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_ (2), _scrolls of [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_ (2), _scrolls of [spiritual weapon](/pathfinderRPG/prd/spells/spiritualWeapon.html#_spiritual-weapon)_ (2); **Other Gear** masterwork chain shirt, masterwork heavy mace, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [headband of vast intelligence](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-vast-intelligence) +2_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, incense (worth 50 gp), marked sticks (worth 25 gp), pair of platinum rings (worth 50 gp), 463 gp
+**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (5), _potion of [lesser restoration](spells/restoration.md#_restoration-lesser)_, _potions of [remove disease](spells/removeDisease.md#_remove-disease)_ (2), _scrolls of [consecrate](spells/consecrate.md#_consecrate)_ (2), _scrolls of [delay poison](spells/delayPoison.md#_delay-poison)_ (2), _scrolls of [resist energy](spells/resistEnergy.md#_resist-energy)_ (2), _scrolls of [spiritual weapon](spells/spiritualWeapon.md#_spiritual-weapon)_ (2); **Other Gear** masterwork chain shirt, masterwork heavy mace, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [headband of vast intelligence](magicItems/wondrousItems.md#_headband-of-vast-intelligence) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, incense (worth 50 gp), marked sticks (worth 25 gp), pair of platinum rings (worth 50 gp), 463 gp
 
 Divine loremasters support allies with divinations and healing rather than slinging combat spells or taking up arms in melee.
 
@@ -102,7 +102,7 @@ Defense
 
 **Fort** +12, **Ref** +8, **Will** +15; +2 vs. enchantments, +4 vs. fey and plant-targeted effects,
 
-**Defensive Abilities** _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_; **Resist** fire 10; **Immune** poison, sleep
+**Defensive Abilities** _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_; **Resist** fire 10; **Immune** poison, sleep
 
 Offense
 
@@ -114,35 +114,35 @@ Offense
 
 **Domain Spell-Like Abilities** (CL 9th; concentration +13)
 
-At will—_ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals) _(12 rounds/day)
+At will—_ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals) _(12 rounds/day)
 
 **Druid Spells Prepared** (CL 13th; concentration +17)
 
-7th—_ [animal shapes](/pathfinderRPG/prd/spells/animalShapes.html#_animal-shapes)_D, _ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_
+7th—_ [animal shapes](spells/animalShapes.md#_animal-shapes)_D, _ [heal](spells/heal.md#_heal)_
 
-6th—_antilife shel l_D, _ [stone tell](/pathfinderRPG/prd/spells/stoneTell.html#_stone-tell)_, _ [transport via plants](/pathfinderRPG/prd/spells/transportViaPlants.html#_transport-via-plants)_
+6th—_antilife shel l_D, _ [stone tell](spells/stoneTell.md#_stone-tell)_, _ [transport via plants](spells/transportViaPlants.md#_transport-via-plants)_
 
-5th—_ [animal growth](/pathfinderRPG/prd/spells/animalGrowth.html#_animal-growth)_ (DC 19), _ [beast shape II](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii) I_D (animals only), _ [call lightning](/pathfinderRPG/prd/spells/callLightning.html#_call-lightning)_ _storm_ (DC 19), _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_
+5th—_ [animal growth](spells/animalGrowth.md#_animal-growth)_ (DC 19), _ [beast shape II](spells/beastShape.md#_beast-shape-ii) I_D (animals only), _ [call lightning](spells/callLightning.md#_call-lightning)_ _storm_ (DC 19), _ [insect plague](spells/insectPlague.md#_insect-plague)_
 
-4th—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 18), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [rusting grasp](/pathfinderRPG/prd/spells/rustingGrasp.html#_rusting-grasp)_, _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ (DC 18), _ [summon nature's ally I](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-i) V_D (animals only)
+4th—_ [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _ [flame strike](spells/flameStrike.md#_flame-strike)_ (DC 18), _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [rusting grasp](spells/rustingGrasp.md#_rusting-grasp)_, _ [scrying](spells/scrying.md#_scrying)_ (DC 18), _ [summon nature's ally I](spells/summonNatureSAlly.md#_summon-nature-s-ally-i) V_D (animals only)
 
-3rd—_dominate anima l_D (DC 17), _ [meld into stone](/pathfinderRPG/prd/spells/meldIntoStone.html#_meld-into-stone)_, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ (DC 17), _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [quench](/pathfinderRPG/prd/spells/quench.html#_quench)_, _ [speak with plants](/pathfinderRPG/prd/spells/speakWithPlants.html#_speak-with-plants)_
+3rd—_dominate anima l_D (DC 17), _ [meld into stone](spells/meldIntoStone.md#_meld-into-stone)_, _ [poison](spells/poison.md#_poison)_ (DC 17), _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, _ [quench](spells/quench.md#_quench)_, _ [speak with plants](spells/speakWithPlants.md#_speak-with-plants)_
 
-2nd—_ [animal messenger](/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger)_, _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_, _ [heat metal](/pathfinderRPG/prd/spells/heatMetal.html#_heat-metal)_ (DC 16), _hold anima l_D (2, DC 16), _ [owl's wisdom](/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom)_
+2nd—_ [animal messenger](spells/animalMessenger.md#_animal-messenger)_, _ [fog cloud](spells/fogCloud.md)_, _ [heat metal](spells/heatMetal.md#_heat-metal)_ (DC 16), _hold anima l_D (2, DC 16), _ [owl's wisdom](spells/owlSWisdom.md#_owl-s-wisdom)_
 
-1st—_ [calm animals](/pathfinderRPG/prd/spells/calmAnimals.html#_calm-animals)_D (DC 15), _ [detect animals or plants](/pathfinderRPG/prd/spells/detectAnimalsOrPlants.html#_detect-animals-or-plants)_, _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_ (DC 15), _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, _ [hide from animals](/pathfinderRPG/prd/spells/hideFromAnimals.html#_hide-from-animals)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1st—_ [calm animals](spells/calmAnimals.md#_calm-animals)_D (DC 15), _ [detect animals or plants](spells/detectAnimalsOrPlants.md#_detect-animals-or-plants)_, _ [entangle](spells/entangle.md#_entangle)_ (DC 15), _ [faerie fire](spells/faerieFire.md#_faerie-fire)_, _ [hide from animals](spells/hideFromAnimals.md#_hide-from-animals)_, _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
 
-0 (at will)—_ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, _ [know direction](/pathfinderRPG/prd/spells/knowDirection.html#_know-direction)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_
+0 (at will)—_ [detect poison](spells/detectPoison.md#_detect-poison)_, _ [know direction](spells/knowDirection.md#_know-direction)_, _ [light](spells/light.md#_light)_, _ [purify food and drink](spells/purifyFoodAndDrink.md#_purify-food-and-drink)_
 
 **D** Domain spell; **Domain** Animal
 
 Tactics
 
-**Before Combat** The loremaster drinks her _potion of [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy) _(fire) and casts _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_.
+**Before Combat** The loremaster drinks her _potion of [resist energy](spells/resistEnergy.md#_resist-energy) _(fire) and casts _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_.
 
-**During Combat** The loremaster casts _ [call lightning storm](/pathfinderRPG/prd/spells/callLightningStorm.html#_call-lightning-storm)_ and _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_.
+**During Combat** The loremaster casts _ [call lightning storm](spells/callLightningStorm.md#_call-lightning-storm)_ and _ [flame strike](spells/flameStrike.md#_flame-strike)_.
 
-**Base Statistics** Without_ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy) _and _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, the loremaster's statistics are **Defensive Abilities** none; **Resist** none.
+**Base Statistics** Without_ [resist energy](spells/resistEnergy.md#_resist-energy) _and _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, the loremaster's statistics are **Defensive Abilities** none; **Resist** none.
 
 Statistics
 
@@ -150,15 +150,15 @@ Statistics
 
 **Base Atk** +8; **CMB** +7; **CMD** 22
 
-**Feats** [Brew Potion](/pathfinderRPG/prd/feats.html#_brew-potion), [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), [Extend Spell](/pathfinderRPG/prd/feats.html#_extend-spell), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) [nature], [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)), [Toughness](/pathfinderRPG/prd/feats.html#_toughness), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (sickle)
+**Feats** [Brew Potion](feats.md#_brew-potion), [Craft Wondrous Item](feats.md#_craft-wondrous-item), [Extend Spell](feats.md#_extend-spell), [Iron Will](feats.md#_iron-will), [Skill Focus](feats.md#_skill-focus) ( [Knowledge](skills/knowledge.md#_knowledge) [nature], [Stealth](skills/stealth.md#_stealth)), [Toughness](feats.md#_toughness), [Weapon Focus](feats.md#_weapon-focus) (sickle)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +8 (+12 when jumping), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +7, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +11, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +13, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +12, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, history, local) +6, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (dungeoneering, engineering, nobility, planes, religion) +4, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography) +14, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) +25, Perception +19, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +9, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +11, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +14, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +7
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +8 (+12 when jumping), [Climb](skills/climb.md#_climb) +7, [Fly](skills/fly.md#_fly) +11, [Handle Animal](skills/handleAnimal.md#_handle-animal) +13, [Heal](skills/heal.md#_heal) +12, [Knowledge](skills/knowledge.md#_knowledge) (arcana, history, local) +6, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, engineering, nobility, planes, religion) +4, [Knowledge](skills/knowledge.md#_knowledge) (geography) +14, [Knowledge](skills/knowledge.md#_knowledge) (nature) +25, Perception +19, [Sense Motive](skills/senseMotive.md#_sense-motive) +9, [Stealth](skills/stealth.md#_stealth) +11, [Survival](skills/survival.md#_survival) +14, [Swim](skills/swim.md#_swim) +7
 
 **Languages** Auran, Common, Draconic, Druidic, Elven, Sylvan
 
 **SQ** animal companion (effective druid level 6th), elven magic, lore +2, nature bond (Animal domain), nature sense, secrets (lore of true stamina, secret health), trackless step, weapon familiarity, wild empathy +9, woodland stride
 
-**Combat Gear** _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _potion of [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_, _potion of [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease)_, _potions of [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy) _(fire) (2), _potion of [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_; **Other Gear** _+2 leather armor_, _+2 [light](/pathfinderRPG/prd/spells/light.html#_light) wooden [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, _+1 sickle_, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +1_, _ [belt of mighty constitution](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-mighty-constitution) +2_, _ [boots of striding and springing](/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-striding-and-springing)_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-inspired-wisdom) +2_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +2_, 2,706 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_, _potion of [remove disease](spells/removeDisease.md#_remove-disease)_, _potions of [resist energy](spells/resistEnergy.md#_resist-energy) _(fire) (2), _potion of [water breathing](spells/waterBreathing.md#_water-breathing)_; **Other Gear** _+2 leather armor_, _+2 [light](spells/light.md#_light) wooden [shield](spells/shield.md#_shield)_, _+1 sickle_, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [belt of mighty constitution](magicItems/wondrousItems.md#_belt-of-mighty-constitution) +2_, _ [boots of striding and springing](magicItems/wondrousItems.md#_boots-of-striding-and-springing)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, 2,706 gp
 
 More aggressive than most other loremasters, nature scholars use terrain and the magic of the natural world to avoid enemies while calling down destruction.
 
@@ -172,11 +172,11 @@ Master Historian CR 16
 
 N Medium humanoid (dwarf)
 
-**Init** â1; **Senses** darkvision 60 ft., _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_; Perception +16
+**Init** –1; **Senses** darkvision 60 ft., _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_; Perception +16
 
 Defense
 
-**AC** 19, touch 11, flat-footed 19 (+6 armor, +2 deflection, â1 Dex, +2 natural)
+**AC** 19, touch 11, flat-footed 19 (+6 armor, +2 deflection, –1 Dex, +2 natural)
 
 **hp** 120 (10d8+7d6+51)
 
@@ -188,33 +188,33 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** mwk short sword +11/+6 (1d6/19â20)
+**Melee** mwk short sword +11/+6 (1d6/19–20)
 
-**Special Attacks** +1 on attack rolls against goblinoid and orc humanoids, bardic performance 32 rounds/day (move action; countersong, dirge of doom, distraction, fascinate, inspire competence +3, inspire courage +2, inspire greatness, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_)
+**Special Attacks** +1 on attack rolls against goblinoid and orc humanoids, bardic performance 32 rounds/day (move action; countersong, dirge of doom, distraction, fascinate, inspire competence +3, inspire courage +2, inspire greatness, _ [suggestion](spells/suggestion.md#_suggestion)_)
 
 **Bard Spells Known** (CL 17th; concentration +21)
 
-6th (2/day)—_ [find the path](/pathfinderRPG/prd/spells/findThePath.html#_find-the-path)_, _ [permanent image](/pathfinderRPG/prd/spells/permanentImage.html#_permanent-image)_ (DC 20), _ [summon monster VI](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi)_
+6th (2/day)—_ [find the path](spells/findThePath.md#_find-the-path)_, _ [permanent image](spells/permanentImage.md#_permanent-image)_ (DC 20), _ [summon monster VI](spells/summonMonster.md#_summon-monster-vi)_
 
-5th (4/day)—_ [dream](/pathfinderRPG/prd/spells/dream.html#_dream)_, _ [mirage arcana](/pathfinderRPG/prd/spells/mirageArcana.html#_mirage-arcana)_ (DC 19), _ [mislead](/pathfinderRPG/prd/spells/mislead.html#_mislead)_, _ [seeming](/pathfinderRPG/prd/spells/seeming.html#_seeming)_ (DC 19)
+5th (4/day)—_ [dream](spells/dream.md#_dream)_, _ [mirage arcana](spells/mirageArcana.md#_mirage-arcana)_ (DC 19), _ [mislead](spells/mislead.md#_mislead)_, _ [seeming](spells/seeming.md#_seeming)_ (DC 19)
 
-4th (5/day)—_ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_,_ [legend lore](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)_, _ [secure shelter](/pathfinderRPG/prd/spells/secureShelter.html#_secure-shelter)_, _ [shadow conjuration](/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration)_ (DC 18)
+4th (5/day)—_ [cure critical wounds](spells/cureCriticalWounds.md#_cure-critical-wounds)_, _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_,_ [legend lore](spells/legendLore.md#_legend-lore)_, _ [secure shelter](spells/secureShelter.md#_secure-shelter)_, _ [shadow conjuration](spells/shadowConjuration.md#_shadow-conjuration)_ (DC 18)
 
-3rd (6/day)—_ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_ (DC 19), _ [clairaudience/clairvoyance](/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance)_, _ [displacement](/pathfinderRPG/prd/spells/displacement.html#_displacement)_, _ [remove curse](/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse)_, _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ (DC 17), _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
+3rd (6/day)—_ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 19), _ [clairaudience/clairvoyance](spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance)_, _ [displacement](spells/displacement.md#_displacement)_, _ [remove curse](spells/removeCurse.md#_remove-curse)_, _ [scrying](spells/scrying.md#_scrying)_ (DC 17), _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_
 
-2nd (6/day)—_ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_ (DC 16), _ [enthrall](/pathfinderRPG/prd/spells/enthrall.html#_enthrall)_ (DC 18), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 18), _ [locate object](/pathfinderRPG/prd/spells/locateObject.html#_locate-object)_, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 18), _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+2nd (6/day)—_ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_ (DC 16), _ [enthrall](spells/enthrall.md#_enthrall)_ (DC 18), _ [hold person](spells/holdPerson.md#_hold-person)_ (DC 18), _ [locate object](spells/locateObject.md#_locate-object)_, _ [suggestion](spells/suggestion.md#_suggestion)_ (DC 18), _ [tongues](spells/tongues.md#_tongues)_
 
-1st (6/day)—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 17), _ [detect secret doors](/pathfinderRPG/prd/spells/detectSecretDoors.html#_detect-secret-doors)_, _ [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_, _ [feather fall](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall)_, _ [remove fear](/pathfinderRPG/prd/spells/removeFear.html#_remove-fear)_, _ [unseen servant](/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant)_
+1st (6/day)—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 17), _ [detect secret doors](spells/detectSecretDoors.md#_detect-secret-doors)_, _ [disguise self](spells/disguiseSelf.md#_disguise-self)_, _ [feather fall](spells/featherFall.md#_feather-fall)_, _ [remove fear](spells/removeFear.md#_remove-fear)_, _ [unseen servant](spells/unseenServant.md#_unseen-servant)_
 
-0 (at will)—_ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 14), _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_ (DC 14), _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [open/close](/pathfinderRPG/prd/spells/openClose.html#_open-close)_
+0 (at will)—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [flare](spells/flare.md#_flare)_ (DC 14), _ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 14), _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [open/close](spells/openClose.md#_open-close)_
 
 Tactics
 
-**Before Combat** The loremaster casts _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_.
+**Before Combat** The loremaster casts _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_.
 
-**During Combat** The loremaster casts _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_, then _ [summon monster VI](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi)_ to keep opponents busy, and uses illusions to cover his escape.
+**During Combat** The loremaster casts _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_, then _ [summon monster VI](spells/summonMonster.md#_summon-monster-vi)_ to keep opponents busy, and uses illusions to cover his escape.
 
-**Base Statistics** Without _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_, the loremaster's statistics are **Senses** darkvision 60 ft.
+**Base Statistics** Without _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, the loremaster's statistics are **Senses** darkvision 60 ft.
 
 Statistics
 
@@ -222,15 +222,15 @@ Statistics
 
 **Base Atk** +10; **CMB** +10; **CMD** 21 (25 vs. bull rush or trip)
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), [Extend Spell](/pathfinderRPG/prd/feats.html#_extend-spell), [Extra Performance](/pathfinderRPG/prd/feats.html#_extra-performance), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (enchantment), [Heighten Spell](/pathfinderRPG/prd/feats.html#_heighten-spell), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Scribe Scroll](/pathfinderRPG/prd/feats.html#_scribe-scroll), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) [history]), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (enchantment)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Combat Expertise](feats.md#_combat-expertise), [Extend Spell](feats.md#_extend-spell), [Extra Performance](feats.md#_extra-performance), Greater [Spell Focus](feats.md#_spell-focus) (enchantment), [Heighten Spell](feats.md#_heighten-spell), [Lightning Reflexes](feats.md#_lightning-reflexes), [Scribe Scroll](feats.md#_scribe-scroll), [Skill Focus](feats.md#_skill-focus) ( [Knowledge](skills/knowledge.md#_knowledge) [history]), [Spell Focus](feats.md#_spell-focus) (enchantment)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +7, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +9, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +8, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +12, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (dungeoneering, local, religion) +18, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (engineering, nature, planes) +14, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography) +19, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +36, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +20, Perception +16 (+18 to notice unusual stonework), [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (act, oratory, sing) +17, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (percussion) +8, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +3, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +7, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +15 (+25 to identify magic item properties), [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +0, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +17
+**Skills** [Climb](skills/climb.md#_climb) +7, [Handle Animal](skills/handleAnimal.md#_handle-animal) +9, [Heal](skills/heal.md#_heal) +8, [Intimidate](skills/intimidate.md#_intimidate) +12, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, local, religion) +18, [Knowledge](skills/knowledge.md#_knowledge) (engineering, nature, planes) +14, [Knowledge](skills/knowledge.md#_knowledge) (geography) +19, [Knowledge](skills/knowledge.md#_knowledge) (history) +36, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +20, Perception +16 (+18 to notice unusual stonework), [Perform](skills/perform.md#_perform) (act, oratory, sing) +17, [Perform](skills/perform.md#_perform) (percussion) +8, [Ride](skills/ride.md#_ride) +3, [Sense Motive](skills/senseMotive.md#_sense-motive) +7, [Spellcraft](skills/spellcraft.md#_spellcraft) +15 (+25 to identify magic item properties), [Swim](skills/swim.md#_swim) +0, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +17
 
 **Languages** Common, Dwarven, Elven, Giant, Terran
 
 **SQ** bardic knowledge +5, greater lore, jack-of-all-trades (use any skill), lore +3, lore master 1/day, secrets (applicable knowledge, instant mastery, lore of true stamina, secret knowledge of avoidance), versatile performance (act, oratory, sing)
 
-**Combat Gear** _scrolls of [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_ (5), _scrolls of [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_ (4), _scrolls of [irresistible dance](/pathfinderRPG/prd/spells/irresistibleDance.html#_irresistible-dance)_ (6), _scrolls of [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_ (4), _scrolls of [shadow walk](/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk)_ (5); **Other Gear** _+2 chain shirt_, masterwork short sword, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +2_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +3_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +4_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +2_, _ [handy haversack](/pathfinderRPG/prd/magicItems/wondrousItems.html#_handy-haversack)_, _ [slippers of spider climbing](/pathfinderRPG/prd/magicItems/wondrousItems.html#_slippers-of-spider-climbing)_, incense (worth 250 gp), ivory (worth 200 gp), silver mirror (worth 1,000 gp), 1,865 gp
+**Combat Gear** _scrolls of [greater dispel magic](spells/dispelMagic.md#_dispel-magic-greater)_ (5), _scrolls of [greater invisibility](spells/invisibility.md#_invisibility-greater)_ (4), _scrolls of [irresistible dance](spells/irresistibleDance.md#_irresistible-dance)_ (6), _scrolls of [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_ (4), _scrolls of [shadow walk](spells/shadowWalk.md#_shadow-walk)_ (5); **Other Gear** _+2 chain shirt_, masterwork short sword, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +4_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, _ [handy haversack](magicItems/wondrousItems.md#_handy-haversack)_, _ [slippers of spider climbing](magicItems/wondrousItems.md#_slippers-of-spider-climbing)_, incense (worth 250 gp), ivory (worth 200 gp), silver mirror (worth 1,000 gp), 1,865 gp
 
 These academics search for historical clues and relics.
 
@@ -248,7 +248,7 @@ Demonologist CR 19
 
 CE Medium humanoid (human)
 
-**Init** +4; **Senses** _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_, Perception +22
+**Init** +4; **Senses** _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, Perception +22
 
 Defense
 
@@ -262,7 +262,7 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** quarterstaff +9/+4 (1d6â1)
+**Melee** quarterstaff +9/+4 (1d6–1)
 
 **Conjurer**  **Spell-Like Abilities** (CL 10th; concentration +17)
 
@@ -272,33 +272,33 @@ At will—dimensional steps (300 feet/day)
 
 **Conjurer Spells Prepared** (CL 20th; concentration +27)
 
-9th—_ [dominate monster](/pathfinderRPG/prd/spells/dominateMonster.html#_dominate-monster)_ (DC 28), _ [foresight](/pathfinderRPG/prd/spells/foresight.html#_foresight)_, quickened_ [hold monster](/pathfinderRPG/prd/spells/holdMonster.html#_hold-monster)_ (DC 24), _ [prismatic wall](/pathfinderRPG/prd/spells/prismaticWall.html#_prismatic-wall)_, _ [summon monster IX](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ix)_
+9th—_ [dominate monster](spells/dominateMonster.md#_dominate-monster)_ (DC 28), _ [foresight](spells/foresight.md#_foresight)_, quickened_ [hold monster](spells/holdMonster.md#_hold-monster)_ (DC 24), _ [prismatic wall](spells/prismaticWall.md#_prismatic-wall)_, _ [summon monster IX](spells/summonMonster.md#_summon-monster-ix)_
 
-8th—_ [maze](/pathfinderRPG/prd/spells/maze.html#_maze) _(2), _ [moment of prescience](/pathfinderRPG/prd/spells/momentOfPrescience.html#_moment-of-prescience)_, _ [summon monster VIII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-viii) _(2)
+8th—_ [maze](spells/maze.md#_maze) _(2), _ [moment of prescience](spells/momentOfPrescience.md#_moment-of-prescience)_, _ [summon monster VIII](spells/summonMonster.md#_summon-monster-viii) _(2)
 
-7th—_ [banishment](/pathfinderRPG/prd/spells/banishment.html#_banishment)_ (DC 24), quickened_ [displacement](/pathfinderRPG/prd/spells/displacement.html#_displacement)_, _ [mass hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person-mass)_ (DC 26), _ [phase door](/pathfinderRPG/prd/spells/phaseDoor.html#_phase-door)_, _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ (DC 26), _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_
+7th—_ [banishment](spells/banishment.md#_banishment)_ (DC 24), quickened_ [displacement](spells/displacement.md#_displacement)_, _ [mass hold person](spells/holdPerson.md#_hold-person-mass)_ (DC 26), _ [phase door](spells/phaseDoor.md#_phase-door)_, _ [plane shift](spells/planeShift.md#_plane-shift)_ (DC 26), _ [spell turning](spells/spellTurning.md#_spell-turning)_
 
-6th—_ [acid fog](/pathfinderRPG/prd/spells/acidFog.html#_acid-fog)_, _ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_ (DC 23), _ [forceful hand](/pathfinderRPG/prd/spells/forcefulHand.html#_forceful-hand)_, _ [geas/quest](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest)_, quickened_ [glitterdust](/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust), [mass suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass)_ (DC 25)
+6th—_ [acid fog](spells/acidFog.md#_acid-fog)_, _ [chain lightning](spells/chainLightning.md#_chain-lightning)_ (DC 23), _ [forceful hand](spells/forcefulHand.md#_forceful-hand)_, _ [geas/quest](spells/geasQuest.md#_geas-quest)_, quickened_ [glitterdust](spells/glitterdust.md#_glitterdust), [mass suggestion](spells/suggestion.md#_suggestion-mass)_ (DC 25)
 
-5th—_ [cloudkill](/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill)_ (2, DC 24), _ [contact other plane](/pathfinderRPG/prd/spells/contactOtherPlane.html#_contact-other-plane)_, _ [sending](/pathfinderRPG/prd/spells/sending.html#_sending)_, _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport) _(2)
+5th—_ [cloudkill](spells/cloudkill.md#_cloudkill)_ (2, DC 24), _ [contact other plane](spells/contactOtherPlane.md#_contact-other-plane)_, _ [sending](spells/sending.md#_sending)_, _ [teleport](spells/teleport.md#_teleport) _(2)
 
-4th—_ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_ (DC 23), _ [dimensional anchor](/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional)_, _ [fire shield](/pathfinderRPG/prd/spells/fireShield.html#_fire-shield)_, _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin), [summon monster IV](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-iv)_
+4th—_ [confusion](spells/confusion.md#_confusion)_ (DC 23), _ [dimensional anchor](spells/dimensionalAnchor.md#_dimensional)_, _ [fire shield](spells/fireShield.md#_fire-shield)_, _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_, _ [stoneskin](spells/stoneskin.md#_stoneskin), [summon monster IV](spells/summonMonster.md#_summon-monster-iv)_
 
-3rd—_ [arcane sight](/pathfinderRPG/prd/spells/arcaneSight.html#_arcane-sight)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_ (2), _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ (DC 20), _ [invisibility sphere](/pathfinderRPG/prd/spells/invisibilitySphere.html#_invisibility-sphere)_, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [stinking cloud](/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud)_ (DC 22)
+3rd—_ [arcane sight](spells/arcaneSight.md#_arcane-sight)_, _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_ (2), _ [fireball](spells/fireball.md#_fireball)_ (DC 20), _ [invisibility sphere](spells/invisibilitySphere.md#_invisibility-sphere)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, _ [stinking cloud](spells/stinkingCloud.md#_stinking-cloud)_ (DC 22)
 
-2nd—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_, _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_ (DC 19), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ (2), _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_, _ [web](/pathfinderRPG/prd/spells/web.html#_web)_ (DC 21)
+2nd—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_, _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_ (DC 19), _ [invisibility](spells/invisibility.md#_invisibility)_ (2), _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, _ [web](spells/web.md#_web)_ (DC 21)
 
-1st—_ [alarm](/pathfinderRPG/prd/spells/alarm.html#_alarm)_, _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 20), _ [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_, _ [floating disk](/pathfinderRPG/prd/spells/floatingDisk.html#_floating-disk)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [protection from evil](/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil)_, _ [unseen servant](/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant)_
+1st—_ [alarm](spells/alarm.md#_alarm)_, _ [charm person](spells/charmPerson.md#_charm-person)_ (DC 20), _ [disguise self](spells/disguiseSelf.md#_disguise-self)_, _ [floating disk](spells/floatingDisk.md#_floating-disk)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_, _ [unseen servant](spells/unseenServant.md#_unseen-servant)_
 
-0 (at will)—_ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ (DC 19), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_
+0 (at will)—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [daze](spells/daze.md#_daze)_ (DC 19), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_
 
 **Opposition Schools** necromancy, transmutation
 
 Tactics
 
-**Before Combat** The loremaster casts _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)._
+**Before Combat** The loremaster casts _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)._
 
-**During Combat** The loremaster casts _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_. He summons demons, then casts _ [maze](/pathfinderRPG/prd/spells/maze.html#_maze)_, _ [hold monster](/pathfinderRPG/prd/spells/holdMonster.html#_hold-monster)_, and _ [mass suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass)_.
+**During Combat** The loremaster casts _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_. He summons demons, then casts _ [maze](spells/maze.md#_maze)_, _ [hold monster](spells/holdMonster.md#_hold-monster)_, and _ [mass suggestion](spells/suggestion.md#_suggestion-mass)_.
 
 Statistics
 
@@ -306,15 +306,15 @@ Statistics
 
 **Base Atk** +10; **CMB** +9; **CMD** 24
 
-**Feats** [Augment Summoning](/pathfinderRPG/prd/feats.html#_augment-summoning), [Blind-Fight](/pathfinderRPG/prd/feats.html#_blind-fight), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), [Forge Ring](/pathfinderRPG/prd/feats.html#_forge-ring), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (conjuration, enchantment), Greater [Spell Penetration](/pathfinderRPG/prd/feats.html#_spell-penetration), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Quicken Spell](/pathfinderRPG/prd/feats.html#_quicken-spell), [Scribe Scroll](/pathfinderRPG/prd/feats.html#_scribe-scroll), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) [planes]), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (conjuration, enchantment), [Spell Penetration](/pathfinderRPG/prd/feats.html#_spell-penetration), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Augment Summoning](feats.md#_augment-summoning), [Blind-Fight](feats.md#_blind-fight), [Combat Casting](feats.md#_combat-casting), [Craft Wondrous Item](feats.md#_craft-wondrous-item), [Forge Ring](feats.md#_forge-ring), Greater [Spell Focus](feats.md#_spell-focus) (conjuration, enchantment), Greater [Spell Penetration](feats.md#_spell-penetration), [Improved Initiative](feats.md#_improved-initiative), [Quicken Spell](feats.md#_quicken-spell), [Scribe Scroll](feats.md#_scribe-scroll), [Skill Focus](feats.md#_skill-focus) ( [Knowledge](skills/knowledge.md#_knowledge) [planes]), [Spell Focus](feats.md#_spell-focus) (conjuration, enchantment), [Spell Penetration](feats.md#_spell-penetration), [Toughness](feats.md#_toughness)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +13, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +18, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +23, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, dungeoneering, religion) +25, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (engineering, geography, history, local, nature, nobility) +20, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +41, Perception +22, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +22, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +30 (+40 to identify magic item properties), [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +20, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +21
+**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +13, [Fly](skills/fly.md#_fly) +18, [Intimidate](skills/intimidate.md#_intimidate) +23, [Knowledge](skills/knowledge.md#_knowledge) (arcana, dungeoneering, religion) +25, [Knowledge](skills/knowledge.md#_knowledge) (engineering, geography, history, local, nature, nobility) +20, [Knowledge](skills/knowledge.md#_knowledge) (planes) +41, Perception +22, [Sense Motive](skills/senseMotive.md#_sense-motive) +22, [Spellcraft](skills/spellcraft.md#_spellcraft) +30 (+40 to identify magic item properties), [Stealth](skills/stealth.md#_stealth) +20, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +21
 
 **Languages** Abyssal, Aklo, Celestial, Common, Draconic, Elven, Ignan, Infernal, Orc, Undercommon
 
-**SQ** arcane bond (_ [staff of charming](/pathfinderRPG/prd/magicItems/staves.html#_staff-of-charming)_), greater lore, lore +5, secrets (applicable knowledge, lore of true stamina, secret health, secret knowledge of avoidance, secrets of inner strength), summoner's charm (5 rounds), true lore
+**SQ** arcane bond (_ [staff of charming](magicItems/staves.md#_staff-of-charming)_), greater lore, lore +5, secrets (applicable knowledge, lore of true stamina, secret health, secret knowledge of avoidance, secrets of inner strength), summoner's charm (5 rounds), true lore
 
-**Combat Gear** _potions of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ (3), _potion of [darkvision](/pathfinderRPG/prd/spells/darkvision.html#_darkvision)_, _scroll of [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_, _scroll of [mage's lucubration](/pathfinderRPG/prd/spells/mageSLucubration.html#_mage-s-lucubration)_, _ [staff of charming](/pathfinderRPG/prd/magicItems/staves.html#_staff-of-charming)_; **Other Gear** _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +5_, _ [bracers of armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor) +7_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +5_, _ [figurine of wondrous power](/pathfinderRPG/prd/magicItems/wondrousItems.html#_figurines-of-wondrous-power) _(ebony fly), _ [portable hole](/pathfinderRPG/prd/magicItems/wondrousItems.html#_portable-hole)_, _ [ring of](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-freedom-of-movement) [freedom](/pathfinderRPG/prd/spells/freedom.html#_freedom) of movement_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +5_, forked rods, diamond dust (worth 500 gp), 3,188 gp
+**Combat Gear** _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (3), _potion of [darkvision](spells/darkvision.md#_darkvision)_, _scroll of [ethereal jaunt](spells/etherealJaunt.md#_ethereal-jaunt)_, _scroll of [mage's lucubration](spells/mageSLucubration.md#_mage-s-lucubration)_, _ [staff of charming](magicItems/staves.md#_staff-of-charming)_; **Other Gear** _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +5_, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +7_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +5_, _ [figurine of wondrous power](magicItems/wondrousItems.md#_figurines-of-wondrous-power) _(ebony fly), _ [portable hole](magicItems/wondrousItems.md#_portable-hole)_, _ [ring of](magicItems/rings.md#_ring-of-freedom-of-movement) [freedom](spells/freedom.md#_freedom) of movement_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +5_, forked rods, diamond dust (worth 500 gp), 3,188 gp
 
 Demonologists compel and manipulate their foes, and summon demon minions to do their dirty work.
 

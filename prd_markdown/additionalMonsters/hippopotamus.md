@@ -6,9 +6,9 @@ This lumbering bull hippopotamus lunges out of the water and yawns wide, display
 
 **XP 1,600**
 
-N Large [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Large [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +4; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +8
+**Init** +4; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +8
 
 Defense
 
@@ -36,11 +36,11 @@ Statistics
 
 **Base Atk** +6; **CMB** +10; **CMD** 20 (24 vs. trip)
 
-**Feats** [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance), Imp. Initiative, [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception))
+**Feats** [Endurance](additionalMonsters/../feats.md#_endurance), Imp. Initiative, [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +8, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +1 (+11 underwater), [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +11; **Racial Modifiers** +10 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) underwater
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +8, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +1 (+11 underwater), [Swim](additionalMonsters/../skills/swim.md#_swim) +11; **Racial Modifiers** +10 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) underwater
 
-**SQ** [hold breath](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_hold-breath)
+**SQ** [hold breath](monsters/universalMonsterRules.md#_hold-breath)
 
 Ecology
 
@@ -52,11 +52,11 @@ Ecology
 
 Special Abilities
 
-**Capsize (Ex)** A hippopotamus can overturn a boat of its size or smaller by ramming it as a charge attack and making a CMB check. The DC of this check is 25 or the result of the boat captain's [Profession](/pathfinderRPG/prd/additionalMonsters/../skills/profession.html#_profession) (sailor) check, whichever is higher.
+**Capsize (Ex)** A hippopotamus can overturn a boat of its size or smaller by ramming it as a charge attack and making a CMB check. The DC of this check is 25 or the result of the boat captain's [Profession](additionalMonsters/../skills/profession.md#_profession) (sailor) check, whichever is higher.
 
-**Sweat (Ex)** A hippo's reddish sweat protects it from nonlethal damage from hot environments, and grants it a +2 racial bonus on saving throws against nonmagical [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)).
+**Sweat (Ex)** A hippo's reddish sweat protects it from nonlethal damage from hot environments, and grants it a +2 racial bonus on saving throws against nonmagical [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)).
 
-The ill-tempered âriver horseâ has a well-earned reputation for hostility, despite the fact that it is a herbivore.
+The ill-tempered “river horse” has a well-earned reputation for hostility, despite the fact that it is a herbivore.
 
 ## Hippo Companions
 
@@ -72,9 +72,9 @@ Behemoth Hippopotamus CR 10
 
 **XP 9,600**
 
-N Huge [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Huge [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +3; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +12
+**Init** +3; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +12
 
 Defense
 
@@ -82,7 +82,7 @@ Defense
 
 **hp** 133 (14d8+70)
 
-**Fort** +14 (+16 vs. nonmagical [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su))), **Ref** +8, **Will** +7
+**Fort** +14 (+16 vs. nonmagical [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su))), **Ref** +8, **Will** +7
 
 **Defensive Abilities** sweat
 
@@ -90,7 +90,7 @@ Offense
 
 **Speed** 50 ft.
 
-**Melee** bite +17 (4d8+13/19–20 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +17 (4d8+13/19–20 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
@@ -102,11 +102,11 @@ Statistics
 
 **Base Atk** +10; **CMB** +21 (+25 grapple); **CMD** 30 (34 vs. trip)
 
-**Feats** [Diehard](/pathfinderRPG/prd/additionalMonsters/../feats.html#_diehard), [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception))
+**Feats** [Diehard](additionalMonsters/../feats.md#_diehard), [Endurance](additionalMonsters/../feats.md#_endurance), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +12, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +2 (+12 underwater), [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +13; **Racial Modifiers** +10 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) underwater
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +12, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +2 (+12 underwater), [Swim](additionalMonsters/../skills/swim.md#_swim) +13; **Racial Modifiers** +10 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) underwater
 
-**SQ** [hold breath](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_hold-breath)
+**SQ** [hold breath](monsters/universalMonsterRules.md#_hold-breath)
 
 Ecology
 

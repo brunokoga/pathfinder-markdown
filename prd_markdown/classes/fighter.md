@@ -10,9 +10,9 @@ Some take up arms for glory, wealth, or revenge. Others do battle to prove thems
 
 ## Class Skills
 
-The fighter's class skills are [Climb](../skills/climb.html#_climb) ( [Str](../gettingStarted.html#_strength)), [Craft](../skills/craft.html#_craft) ( [Int](../gettingStarted.html#_intelligence)), [Handle Animal](../skills/handleAnimal.html#_handle-animal) ( [Cha](../gettingStarted.html#_charisma-new)), [Intimidate](../skills/intimidate.html#_intimidate) ( [Cha](../gettingStarted.html#_charisma-new)), [Knowledge](../skills/knowledge.html#_knowledge) (dungeoneering) ( [Int](../gettingStarted.html#_intelligence)), [Knowledge](../skills/knowledge.html#_knowledge) (engineering) ( [Int](../gettingStarted.html#_intelligence)), [Profession](../skills/profession.html#_profession) ( [Wis](../gettingStarted.html#_wisdom)), [Ride](../skills/ride.html#_ride) ( [Dex](../gettingStarted.html#_dexterity)), [Survival](../skills/survival.html#_survival) ( [Wis](../gettingStarted.html#_wisdom)), and [Swim](../skills/swim.html#_swim) ( [Str](../gettingStarted.html#_strength)).
+The fighter's class skills are [Climb](../skills/climb.md#_climb) ( [Str](../gettingStarted.md#_strength)), [Craft](../skills/craft.md#_craft) ( [Int](../gettingStarted.md#_intelligence)), [Handle Animal](../skills/handleAnimal.md#_handle-animal) ( [Cha](../gettingStarted.md#_charisma-new)), [Intimidate](../skills/intimidate.md#_intimidate) ( [Cha](../gettingStarted.md#_charisma-new)), [Knowledge](../skills/knowledge.md#_knowledge) (dungeoneering) ( [Int](../gettingStarted.md#_intelligence)), [Knowledge](../skills/knowledge.md#_knowledge) (engineering) ( [Int](../gettingStarted.md#_intelligence)), [Profession](../skills/profession.md#_profession) ( [Wis](../gettingStarted.md#_wisdom)), [Ride](../skills/ride.md#_ride) ( [Dex](../gettingStarted.md#_dexterity)), [Survival](../skills/survival.md#_survival) ( [Wis](../gettingStarted.md#_wisdom)), and [Swim](../skills/swim.md#_swim) ( [Str](../gettingStarted.md#_strength)).
 
-**Skill Ranks per Level** : 2 + [Int](../gettingStarted.html#_intelligence) modifier.
+**Skill Ranks per Level** : 2 + [Int](../gettingStarted.md#_intelligence) modifier.
 
 [Table: Fighter]
 | Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special |
@@ -42,23 +42,23 @@ The fighter's class skills are [Climb](../skills/climb.html#_climb) ( [Str](../g
 
 The following are class features of the fighter.
 
-**Weapon and Armor Proficiency** : A fighter is proficient with all [simple](../equipment.html#_simple-martial-and-exotic-weapons) and [martial](../equipment.html#_simple-martial-and-exotic-weapons) weapons and with all armor (heavy, light, and medium) and shields (including tower shields).
+**Weapon and Armor Proficiency** : A fighter is proficient with all [simple](../equipment.md#_simple-martial-and-exotic-weapons) and [martial](../equipment.md#_simple-martial-and-exotic-weapons) weapons and with all armor (heavy, light, and medium) and shields (including tower shields).
 
-**Bonus Feats** : At 1st level, and at every even level thereafter, a fighter gains a bonus feat in addition to those gained from normal advancement (meaning that the fighter gains a feat at every level). These bonus feats must be selected from those listed as [combat feats](../feats.html#_combat-feats), sometimes also called âfighter bonus feats.â
+**Bonus Feats** : At 1st level, and at every even level thereafter, a fighter gains a bonus feat in addition to those gained from normal advancement (meaning that the fighter gains a feat at every level). These bonus feats must be selected from those listed as [combat feats](../feats.md#_combat-feats), sometimes also called “fighter bonus feats.”
 
 Upon reaching 4th level, and every four levels thereafter (8th, 12th, and so on), a fighter can choose to learn a new bonus feat in place of a bonus feat he has already learned. In effect, the fighter loses the bonus feat in exchange for the new one. The old feat cannot be one that was used as a prerequisite for another feat, prestige class, or other ability. A fighter can only change one feat at any given level and must choose whether or not to swap the feat at the time he gains a new bonus feat for the level.
 
-**Bravery [(Ex)](../glossary.html#_extraordinary-abilities-ex)** : Starting at 2nd level, a fighter gains a +1 bonus on [Will saves](../combat.html#_will) against fear. This bonus increases by +1 for every four levels beyond 2nd.
+**Bravery [(Ex)](../glossary.md#_extraordinary-abilities-ex)** : Starting at 2nd level, a fighter gains a +1 bonus on [Will saves](../combat.md#_will) against fear. This bonus increases by +1 for every four levels beyond 2nd.
 
-**Armor Training [(Ex)](../glossary.html#_extraordinary-abilities-ex)** : Starting at 3rd level, a fighter learns to be more maneuverable while wearing armor. Whenever he is wearing armor, he reduces the armor check penalty by 1 (to a minimum of 0) and increases the maximum [Dexterity](../gettingStarted.html#_dexterity) bonus allowed by his armor by 1. Every four levels thereafter (7th, 11th, and 15th), these bonuses increase by +1 each time, to a maximum –4 reduction of the armor check penalty and a +4 increase of the maximum [Dexterity](../gettingStarted.html#_dexterity) bonus allowed.
+**Armor Training [(Ex)](../glossary.md#_extraordinary-abilities-ex)** : Starting at 3rd level, a fighter learns to be more maneuverable while wearing armor. Whenever he is wearing armor, he reduces the armor check penalty by 1 (to a minimum of 0) and increases the maximum [Dexterity](../gettingStarted.md#_dexterity) bonus allowed by his armor by 1. Every four levels thereafter (7th, 11th, and 15th), these bonuses increase by +1 each time, to a maximum –4 reduction of the armor check penalty and a +4 increase of the maximum [Dexterity](../gettingStarted.md#_dexterity) bonus allowed.
 
 In addition, a fighter can also move at his normal speed while wearing medium armor. At 7th level, a fighter can move at his normal speed while wearing heavy armor.
 
-**Weapon Training [(Ex)](../glossary.html#_extraordinary-abilities-ex)** : Starting at 5th level, a fighter can select one group of weapons, as noted below. Whenever he attacks with a weapon from this group, he gains a +1 bonus on attack and damage rolls.
+**Weapon Training [(Ex)](../glossary.md#_extraordinary-abilities-ex)** : Starting at 5th level, a fighter can select one group of weapons, as noted below. Whenever he attacks with a weapon from this group, he gains a +1 bonus on attack and damage rolls.
 
 Every four levels thereafter (9th, 13th, and 17th), a fighter becomes further trained in another group of weapons. He gains a +1 bonus on attack and damage rolls when using a weapon from this group. In addition, the bonuses granted by previous weapon groups increase by +1 each. For example, when a fighter reaches 9th level, he receives a +1 bonus on attack and damage rolls with one weapon group and a +2 bonus on attack and damage rolls with the weapon group selected at 5th level. Bonuses granted from overlapping groups do not stack. Take the highest bonus granted for a weapon if it resides in two or more groups.
 
-A fighter also adds this bonus to any [combat maneuver checks](../combat.html#_combat-maneuver-bonus) made with weapons from this group. This bonus also applies to the fighter's [Combat Maneuver Defense](../combat.html#_combat-maneuver-defense) when defending against [disarm](../combat.html#_disarm) and [sunder](../combat.html#_sunder) attempts made against weapons from this group.
+A fighter also adds this bonus to any [combat maneuver checks](../combat.md#_combat-maneuver-bonus) made with weapons from this group. This bonus also applies to the fighter's [Combat Maneuver Defense](../combat.md#_combat-maneuver-defense) when defending against [disarm](../combat.md#_disarm) and [sunder](../combat.md#_sunder) attempts made against weapons from this group.
 
 Weapon groups are defined as follows (GMs may add other weapons to these groups, or add entirely new groups):
 
@@ -90,7 +90,7 @@ _Spears_: javelin, lance, longspear, shortspear, spear, and trident.
 
 _Thrown_: blowgun, bolas, club, dagger, dart, halfling sling staff, javelin, light hammer, net, shortspear, shuriken, sling, spear, starknife, throwing axe, and trident.
 
-**Armor Mastery [(Ex)](../glossary.html#_extraordinary-abilities-ex)** : At 19th level, a fighter gains [DR](../glossary.html#_damage-reduction) 5/— whenever he is wearing armor or using a shield.
+**Armor Mastery [(Ex)](../glossary.md#_extraordinary-abilities-ex)** : At 19th level, a fighter gains [DR](../glossary.md#_damage-reduction) 5/— whenever he is wearing armor or using a shield.
 
-**Weapon Mastery [(Ex)](../glossary.html#_extraordinary-abilities-ex)** : At 20th level, a fighter chooses one weapon, such as the longsword, greataxe, or longbow. Any attacks made with that weapon automatically confirm all critical threats and have their damage multiplier increased by 1 (×2 becomes ×3, for example). In addition, he cannot be disarmed while wielding a weapon of this type.
+**Weapon Mastery [(Ex)](../glossary.md#_extraordinary-abilities-ex)** : At 20th level, a fighter chooses one weapon, such as the longsword, greataxe, or longbow. Any attacks made with that weapon automatically confirm all critical threats and have their damage multiplier increased by 1 (×2 becomes ×3, for example). In addition, he cannot be disarmed while wielding a weapon of this type.
 

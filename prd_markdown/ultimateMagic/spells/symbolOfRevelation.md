@@ -6,7 +6,7 @@ Symbol of Revelation
 
 **Saving Throw** none
 
-This spell functions as _ [symbol of death](/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death)_, except it is only activated by invisible creatures, creatures affected by an illusion (glamer) effect, creatures with the shapechanger subtype, or creatures that have magically changed their shape. These creatures are outlined by a pale light that functions like _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_, except it lasts for 10 minutes per caster level; the symbol does not otherwise reveal their true form. Once triggered, a _symbol of revelation_ remains active for 10 minutes per caster level.
+This spell functions as _ [symbol of death](spells/symbolOfDeath.md#_symbol-of-death)_, except it is only activated by invisible creatures, creatures affected by an illusion (glamer) effect, creatures with the shapechanger subtype, or creatures that have magically changed their shape. These creatures are outlined by a pale light that functions like _ [faerie fire](spells/faerieFire.md#_faerie-fire)_, except it lasts for 10 minutes per caster level; the symbol does not otherwise reveal their true form. Once triggered, a _symbol of revelation_ remains active for 10 minutes per caster level.
 
-_Symbol of revelation_ can be made permanent with a _ [permanency](/pathfinderRPG/prd/spells/permanency.html#_permanency)_ spell by a caster of 12th level or higher for the cost of 10,000 gp.
+_Symbol of revelation_ can be made permanent with a _ [permanency](spells/permanency.md#_permanency)_ spell by a caster of 12th level or higher for the cost of 10,000 gp.
 

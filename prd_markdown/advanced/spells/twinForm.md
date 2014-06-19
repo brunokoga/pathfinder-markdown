@@ -18,5 +18,5 @@ Both you and your twin have the same statistics and start with the number of hit
 
 The body you do not inhabit crumbles into dust when the extract's duration expires or is dismissed. If the body you inhabit is destroyed, you immediately shift to your surviving self and the extract immediately ends. The body you left behind crumbles into dust, and you are stunned until the start of your next turn. If the body you do not inhabit is destroyed, the extract also ends immediately, but you suffer no ill effects.
 
-You have no special ability to sense what your second body is experiencing, though you immediately know if it has been destroyed. You may switch between bodies at any distance on the same plane. If your bodies cross into separate planes (including through the use of _ [teleport](../../spells/teleport.html#_teleport)_ or _ [blink](../../spells/blink.html#_blink)_), the body you inhabit survives, while your other body is destroyed.
+You have no special ability to sense what your second body is experiencing, though you immediately know if it has been destroyed. You may switch between bodies at any distance on the same plane. If your bodies cross into separate planes (including through the use of _ [teleport](../../spells/teleport.md#_teleport)_ or _ [blink](../../spells/blink.md#_blink)_), the body you inhabit survives, while your other body is destroyed.
 

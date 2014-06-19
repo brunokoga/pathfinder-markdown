@@ -8,7 +8,7 @@ XP 600
 
 N Small ooze
 
-**Init** +3; **Senses** [blindsight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight) 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) –5
+**Init** +3; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 60 ft.; [Perception](skills/perception.md#_perception) –5
 
 Defense
 
@@ -34,7 +34,7 @@ Statistics
 
 **Base Atk** +2; **CMB** +1; **CMD** 14 (can't be tripped)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +8
+**Skills** [Climb](skills/climb.md#_climb) +8
 
 **SQ** camouflage
 
@@ -50,9 +50,9 @@ Special Abilities
 
 **Acid (Ex)** A garden ooze excretes digestive acid that can dissolve flesh. Creatures made of harder materials or plant matter are immune to the ooze's acid.
 
-**Camouflage (Ex)** A garden ooze is difficult to spot when it is at rest among plant growth of any type. A DC 15 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) check is required to notice the ooze is a separate entity and not a diseased portion of the plant it rests upon. The ooze automatically hits with a slam against any creature that fails to notice the ooze and enters its square.
+**Camouflage (Ex)** A garden ooze is difficult to spot when it is at rest among plant growth of any type. A DC 15 [Perception](skills/perception.md#_perception) check is required to notice the ooze is a separate entity and not a diseased portion of the plant it rests upon. The ooze automatically hits with a slam against any creature that fails to notice the ooze and enters its square.
 
-**Stink (Ex)** Once every 24 hours, a garden ooze can release foul-smelling gases in a 5-foot-radius spread centered on the ooze. The ooze usually does so after it is first injured. The stench of these vapors is overpowering during the first round it exists, causing living creatures within it to become sickened for 1d3 rounds (Fort DC 13 negates). This is a [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) effect. The save DC is Constitution-based.
+**Stink (Ex)** Once every 24 hours, a garden ooze can release foul-smelling gases in a 5-foot-radius spread centered on the ooze. The ooze usually does so after it is first injured. The stench of these vapors is overpowering during the first round it exists, causing living creatures within it to become sickened for 1d3 rounds (Fort DC 13 negates). This is a [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) effect. The save DC is Constitution-based.
 
 A garden ooze is an animate, acidic mass of protoplasmic goo that dwells among foliage and scavenges proteins in the form of carrion or small animals that blunder into its vicinity. Although garden oozes are occasionally found in underground regions near the surface—such as sewers, sinkholes, and shallow caves—these oozes prefer the outdoors. One reason for this is that garden oozes are attracted to large collections of organic material where other tiny creatures might come to scavenge.
 

@@ -68,7 +68,7 @@ Construction Requirements
 
 **Cost** 5,500 gp
 
-Craft Wondrous Item, [Heighten Spell](/pathfinderRPG/prd/feats.html#_heighten-spell), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_
+Craft Wondrous Item, [Heighten Spell](feats.md#_heighten-spell), _ [resist energy](spells/resistEnergy.md#_resist-energy)_, _ [fireball](spells/fireball.md#_fireball)_
 
 Bodywrap of Mighty Strikes
 
@@ -88,19 +88,19 @@ Construction Requirements
 
 **+1 bonus** 1,500 gp; **+2 bonus** 6,000 gp; **+3 bonus** 13,500 gp; **+4 bonus** 24,000 gp; **+5 bonus** 37,500 gp; **+6 bonus** 54,000 gp; **+7 bonus** 73,500 gp
 
-Craft Wondrous Item, _ [greater magic fang](/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater)_, creator's caster level must be at least three times the bodywrap's bonus, plus any requirements of the melee weapon special abilities
+Craft Wondrous Item, _ [greater magic fang](spells/magicFang.md#_magic-fang-greater)_, creator's caster level must be at least three times the bodywrap's bonus, plus any requirements of the melee weapon special abilities
 
 Cassock of the Clergy
 
 **Price** 4,600 gp; **Aura** moderate abjuration; **CL** 1st; **Weight** 1 lb.
 
-The cut and color of this solemn vestment varies from religion to religion, but its properties are the same. The wearer may command the _cassock of the clergy _to display the holy symbol of her deity or hide this symbol. At the most basic level, the garment functions as a divine focus. Additionally, the wearer gains a +3 competence bonus on Charisma-based checks to influence creatures that match her alignment or that of her patron deity. Also, the wearer may use _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless) _and _ [sanctuary](/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary) _(DC 11) each once per day, and may prepare one additional orison each day. If the wearer is a spontaneous divine caster, once per day she may spend 1 hour in prayer to gain an orison of her choice as a spell known for the next 24 hours.
+The cut and color of this solemn vestment varies from religion to religion, but its properties are the same. The wearer may command the _cassock of the clergy _to display the holy symbol of her deity or hide this symbol. At the most basic level, the garment functions as a divine focus. Additionally, the wearer gains a +3 competence bonus on Charisma-based checks to influence creatures that match her alignment or that of her patron deity. Also, the wearer may use _ [bless](spells/bless.md#_bless) _and _ [sanctuary](spells/sanctuary.md#_sanctuary) _(DC 11) each once per day, and may prepare one additional orison each day. If the wearer is a spontaneous divine caster, once per day she may spend 1 hour in prayer to gain an orison of her choice as a spell known for the next 24 hours.
 
 Construction Requirements
 
 **Cost** 2,300 gp
 
-Craft Wondrous Item, _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless), [sanctuary](/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary), _creator must be a divine spellcaster
+Craft Wondrous Item, _ [bless](spells/bless.md#_bless), [sanctuary](spells/sanctuary.md#_sanctuary), _creator must be a divine spellcaster
 
 Corset of Dire Witchcraft
 
@@ -112,19 +112,19 @@ Construction Requirements
 
 **Cost** 11,000 gp
 
-Craft Wondrous Item, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor), _creator must be a witch
+Craft Wondrous Item, _ [mage armor](spells/mageArmor.md#_mage-armor), _creator must be a witch
 
 Corset of the Vishkanya
 
 **Price** 3,000 gp; **Aura** faint transmutation; **CL** 3rd; **Weight** 1 lb.
 
-This black corset fits neatly beneath armor. As a free action, the wearer can compress herself to fit through tight spaces as though affected by a _squeeze_ spell (_Advanced Race Guide_) for up to 10 rounds per day. While using the corset's magic, she gains a +5 bonus on [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) checks.
+This black corset fits neatly beneath armor. As a free action, the wearer can compress herself to fit through tight spaces as though affected by a _squeeze_ spell (_Advanced Race Guide_) for up to 10 rounds per day. While using the corset's magic, she gains a +5 bonus on [Escape Artist](skills/escapeArtist.md#_escape-artist) checks.
 
 Construction Requirements
 
 **Cost** 1,500 gp
 
-Craft Wondrous Item, _ [grease](/pathfinderRPG/prd/spells/grease.html#_grease)_, _squeeze_
+Craft Wondrous Item, _ [grease](spells/grease.md#_grease)_, _squeeze_
 
 Druid's Vestment
 
@@ -136,7 +136,7 @@ Construction Requirements
 
 **Cost** 1,375 gp
 
-Craft Wondrous Item, _ [polymorph](/pathfinderRPG/prd/spells/polymorph.html#_polymorph)_ or wild shape ability
+Craft Wondrous Item, _ [polymorph](spells/polymorph.md#_polymorph)_ or wild shape ability
 
 Eidolon Anchoring Harness
 
@@ -150,31 +150,31 @@ Construction Requirements
 
 **Cost** 3,000 gp
 
-Craft Wondrous Item, _ [dimensional anchor](/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional)_
+Craft Wondrous Item, _ [dimensional anchor](spells/dimensionalAnchor.md#_dimensional)_
 
 Gunman's Duster
 
 **Price** 36,000 gp; **Aura** strong abjuration; **CL** 12th; **Weight** 5 lbs.
 
-This long, loose-fitting coat grants a +4 armor bonus to AC and a +2 luck bonus to the wearer's touch AC against firearm attacks. If the wearer is a gunslinger or has the [Amateur Gunslinger](/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_amateur-gunslinger) feat (see _Ultimate Combat_), she begins each day with 1 additional grit point. This extra point does not increase her maximum grit total. When the wearer uses the gunslinger's dodge deed, the deed's dodge bonuses to AC increase by +1. If the wearer is not a gunslinger, she may use the gunslinger's dodge deed once per day.
+This long, loose-fitting coat grants a +4 armor bonus to AC and a +2 luck bonus to the wearer's touch AC against firearm attacks. If the wearer is a gunslinger or has the [Amateur Gunslinger](ultimateCombat/ultimateCombatFeats.md#_amateur-gunslinger) feat (see _Ultimate Combat_), she begins each day with 1 additional grit point. This extra point does not increase her maximum grit total. When the wearer uses the gunslinger's dodge deed, the deed's dodge bonuses to AC increase by +1. If the wearer is not a gunslinger, she may use the gunslinger's dodge deed once per day.
 
 Construction Requirements
 
 **Cost** 18,000 gp
 
-Craft Wondrous Item, [Amateur Gunslinger](/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#_amateur-gunslinger) or creator must be a gunslinger, _ [bullet shield](/pathfinderRPG/prd/ultimateCombat/spells/bulletShield.html#_bullet-shield)_
+Craft Wondrous Item, [Amateur Gunslinger](ultimateCombat/ultimateCombatFeats.md#_amateur-gunslinger) or creator must be a gunslinger, _ [bullet shield](ultimateCombat/spells/bulletShield.md#_bullet-shield)_
 
 Mnemonic Vestment
 
 **Price** 5,000 gp; **Aura** strong transmutation; **CL** 17th; **Weight** 1 lb.
 
-The surface of this delicate-looking blue silk robe is adorned with tiny embossed runes across its entire surface. If the wearer is a spontaneous caster, once per day she may use a spell slot to cast a spell from a written source (such as a scroll or spellbook) as if she knew that spell. The spell must be on her spell list, the same spell level or lower than the expended spell slot, and the same type of spell (arcane or divine) as the spell slot expended. The caster must also understand the written source (such as using Decipher Script or _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_) and be carrying it. Activating the robe is not an action, but casting the spell otherwise works as normal, including casting time, providing components or foci, and so on. Using a _mnemonic vestment_'s properties does not consume the written source.
+The surface of this delicate-looking blue silk robe is adorned with tiny embossed runes across its entire surface. If the wearer is a spontaneous caster, once per day she may use a spell slot to cast a spell from a written source (such as a scroll or spellbook) as if she knew that spell. The spell must be on her spell list, the same spell level or lower than the expended spell slot, and the same type of spell (arcane or divine) as the spell slot expended. The caster must also understand the written source (such as using Decipher Script or _ [read magic](spells/readMagic.md#_read-magic)_) and be carrying it. Activating the robe is not an action, but casting the spell otherwise works as normal, including casting time, providing components or foci, and so on. Using a _mnemonic vestment_'s properties does not consume the written source.
 
 Construction Requirements
 
 **Cost** 2,500 gp
 
-Craft Wondrous Item, _ [mnemonic enhancer](/pathfinderRPG/prd/spells/mnemonicEnhancer.html#_mnemonic-enhancer)_, creator must be able to spontaneously cast spells
+Craft Wondrous Item, _ [mnemonic enhancer](spells/mnemonicEnhancer.md#_mnemonic-enhancer)_, creator must be able to spontaneously cast spells
 
 Monk's Robe
 
@@ -186,7 +186,7 @@ Construction Requirements
 
 **Cost** 6,500 gp
 
-Craft Wondrous Item, _ [righteous might](/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might)_ or _ [transformation](/pathfinderRPG/prd/spells/transformation.html#_transformation)_
+Craft Wondrous Item, _ [righteous might](spells/righteousMight.md#_righteous-might)_ or _ [transformation](spells/transformation.md#_transformation)_
 
 Otherworldly Kimono
 
@@ -194,7 +194,7 @@ Otherworldly Kimono
 
 Embroidered images of cherry blossoms and cranes in flight adorn this blue silk kimono. The wearer can move and reposition these images on the kimono at will. The kimono grants its wearer a +4 resistance bonus on all saving throws and a +4 bonus on all caster level checks.
 
-Once per day, the wearer can capture a single creature within 60 feet within the kimono (no save), shunting the victim into an extradimensional space similar to that created by a _ [maze](/pathfinderRPG/prd/spells/maze.html#_maze)_ spell. Inside this otherworldly prison, the maze appears as an endless cherry orchard filled with âwallsâ of windblown cherry blossoms and cranes flying overhead. Each round on its turn, the victim inside the kimono may attempt a DC 20 Intelligence check to escape the kimono as a full-round action. If the victim doesn't escape, it is released after 10 minutes, returning to where it had been before the kimono drew it in. If this location is occupied by another creature or a solid object, the subject appears in the nearest open space.
+Once per day, the wearer can capture a single creature within 60 feet within the kimono (no save), shunting the victim into an extradimensional space similar to that created by a _ [maze](spells/maze.md#_maze)_ spell. Inside this otherworldly prison, the maze appears as an endless cherry orchard filled with “walls” of windblown cherry blossoms and cranes flying overhead. Each round on its turn, the victim inside the kimono may attempt a DC 20 Intelligence check to escape the kimono as a full-round action. If the victim doesn't escape, it is released after 10 minutes, returning to where it had been before the kimono drew it in. If this location is occupied by another creature or a solid object, the subject appears in the nearest open space.
 
 Whenever a creature is drawn inside the kimono, the victim's image temporarily manifests as another embroidered design among the kimono's other images. While a victim is trapped inside, the kimono's bonuses on saving throws and caster level checks are increased by 2 (to +6). The kimono's increased bonuses return to normal when the victim is freed or released.
 
@@ -202,13 +202,13 @@ Construction Requirements
 
 **Cost** 33,500 gp
 
-Craft Wondrous Item, [Heighten Spell](/pathfinderRPG/prd/feats.html#_heighten-spell), _ [maze](/pathfinderRPG/prd/spells/maze.html#_maze)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
+Craft Wondrous Item, [Heighten Spell](feats.md#_heighten-spell), _ [maze](spells/maze.md#_maze)_, _ [resistance](spells/resistance.md#_resistance)_
 
 Resplendent Robe of the Thespian
 
 **Price** 75,000 gp; **Aura** strong varied; **CL** 16th; **Weight** 1 lb.
 
-These magnificent vestments disguise the presence of armor as normal clothing (as the _ [glamered](/pathfinderRPG/prd/magicItems/armor.html#_armor-glamered)_ armor property). When worn by a bard, the robe grants the wearer the following powers:
+These magnificent vestments disguise the presence of armor as normal clothing (as the _ [glamered](magicItems/armor.md#_armor-glamered)_ armor property). When worn by a bard, the robe grants the wearer the following powers:
 
 - Spell resistance 18
 - +4 resistance bonus on all saving throws
@@ -220,7 +220,7 @@ Construction Requirements
 
 **Cost** 37,500 gp
 
-Craft Wondrous Item, _ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_, _ [break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment), [greater heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism-greater)_, _ [veil](/pathfinderRPG/prd/spells/veil.html#_veil)_
+Craft Wondrous Item, _ [antimagic field](spells/antimagicField.md#_antimagic-field)_, _ [break enchantment](spells/breakEnchantment.md#_break-enchantment), [greater heroism](spells/heroism.md#_heroism-greater)_, _ [veil](spells/veil.md#_veil)_
 
 Robe of Arcane Heritage
 
@@ -232,19 +232,19 @@ Construction Requirements
 
 **Cost** 8,000 gp
 
-Craft Wondrous Item, _ [speak with dead](/pathfinderRPG/prd/spells/speakWithDead.html#_speak-with-dead)_, creator must be a sorcerer
+Craft Wondrous Item, _ [speak with dead](spells/speakWithDead.md#_speak-with-dead)_, creator must be a sorcerer
 
 Robe of Blending
 
 **Price** 8,400 gp; **Aura** moderate transmutation; **CL** 10th; **Weight** 1 lb.
 
-Once per day this simple woolen robe allows you to assume the form of another humanoid creature, as if using _ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_. This change lasts for 1 hour, although you can end it prematurely as a free action. While in this form, you also gain the ability to speak and understand the basic racial languages of your chosen form. For example, if you take the form of an orc, you can speak and understand Orc.
+Once per day this simple woolen robe allows you to assume the form of another humanoid creature, as if using _ [alter self](spells/alterSelf.md#_alter-self)_. This change lasts for 1 hour, although you can end it prematurely as a free action. While in this form, you also gain the ability to speak and understand the basic racial languages of your chosen form. For example, if you take the form of an orc, you can speak and understand Orc.
 
 Construction Requirements
 
 **Cost** 4,200 gp
 
-Craft Wondrous Item, _ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_, _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+Craft Wondrous Item, _ [alter self](spells/alterSelf.md#_alter-self)_, _ [tongues](spells/tongues.md#_tongues)_
 
 Robe of Bones
 
@@ -263,7 +263,7 @@ Construction Requirements
 
 **Cost** 1,200 gp
 
-Craft Wondrous Item, _ [animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_
+Craft Wondrous Item, _ [animate dead](spells/animateDead.md#_animate-dead)_
 
 Robe of Components
 
@@ -275,7 +275,7 @@ Construction Requirements
 
 **Cost** 2,500 gp
 
-Craft Wondrous Item, _ [minor creation](/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation)_
+Craft Wondrous Item, _ [minor creation](spells/minorCreation.md#_minor-creation)_
 
 Robe of Eyes
 
@@ -283,15 +283,15 @@ Robe of Eyes
 
 This valuable garment appears to be a normal robe until it is put on. Its wearer is able to see in all directions at the same moment due to scores of visible, magical eye-like patterns that adorn the robe. She also gains 120-foot darkvision.
 
-The _robe of eyes_ sees all forms of invisible or ethereal creatures or objects within 120 feet. The wearer of a _robe of eyes_ gains a +10 competence bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks. She retains her Dexterity bonus to AC even when flat-footed, and can't be flanked. She is not able to avert or close her eyes when confronted by a creature with a gaze attack.
+The _robe of eyes_ sees all forms of invisible or ethereal creatures or objects within 120 feet. The wearer of a _robe of eyes_ gains a +10 competence bonus on [Perception](skills/perception.md#_perception) checks. She retains her Dexterity bonus to AC even when flat-footed, and can't be flanked. She is not able to avert or close her eyes when confronted by a creature with a gaze attack.
 
-A _ [light](/pathfinderRPG/prd/spells/light.html#_light)_ or _ [continual flame](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)_ spell cast directly on a _robe of eyes_ causes the wearer to be blinded for 1d3 minutes. A _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_ spell blinds the wearer for 2d4 minutes.
+A _ [light](spells/light.md#_light)_ or _ [continual flame](spells/continualFlame.md#_continual-flame)_ spell cast directly on a _robe of eyes_ causes the wearer to be blinded for 1d3 minutes. A _ [daylight](spells/daylight.md#_daylight)_ spell blinds the wearer for 2d4 minutes.
 
 Construction Requirements
 
 **Cost** 60,000 gp
 
-Craft Wondrous Item, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+Craft Wondrous Item, _ [true seeing](spells/trueSeeing.md#_true-seeing)_
 
 Robe of Gates
 
@@ -305,7 +305,7 @@ Construction Requirements
 
 **Cost** 32,000 gp
 
-Craft Wondrous Item, [Maximize Spell](/pathfinderRPG/prd/feats.html#_maximize-spell), _ [gate](/pathfinderRPG/prd/spells/gate.html#_gate), [summon eidolon](/pathfinderRPG/prd/advanced/spells/summonEidolon.html#_summon-eidolon)_
+Craft Wondrous Item, [Maximize Spell](feats.md#_maximize-spell), _ [gate](spells/gate.md#_gate), [summon eidolon](advanced/spells/summonEidolon.md#_summon-eidolon)_
 
 Robe of Infinite Twine
 
@@ -317,7 +317,7 @@ Construction Requirements
 
 **Cost** 500 gp
 
-Craft Wondrous Item, _ [minor creation](/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation)_
+Craft Wondrous Item, _ [minor creation](spells/minorCreation.md#_minor-creation)_
 
 Robe of Needles
 
@@ -329,7 +329,7 @@ Construction Requirements
 
 **Cost** 500 gp
 
-Craft Wondrous Item, _ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_
+Craft Wondrous Item, _ [bleed](spells/bleed.md#_bleed)_
 
 Robe of Scintillating Colors
 
@@ -343,7 +343,7 @@ Construction Requirements
 
 **Cost** 13,500 gp
 
-Craft Wondrous Item, _ [blur](/pathfinderRPG/prd/spells/blur.html#_blur)_, _ [rainbow pattern](/pathfinderRPG/prd/spells/rainbowPattern.html#_rainbow-pattern)_
+Craft Wondrous Item, _ [blur](spells/blur.md#_blur)_, _ [rainbow pattern](spells/rainbowPattern.md#_rainbow-pattern)_
 
 Robe of Stars
 
@@ -351,7 +351,7 @@ Robe of Stars
 
 This garment is typically black or dark blue and embroidered with small white or silver stars. The robe has three magical powers.
 
-It enables the wearer to travel physically to the Astral Plane, at will and on command as if using the _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ spell. Once he has done so, the wearer can also return to his plane of origin on command, also as per the _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ spell.
+It enables the wearer to travel physically to the Astral Plane, at will and on command as if using the _ [plane shift](spells/planeShift.md#_plane-shift)_ spell. Once he has done so, the wearer can also return to his plane of origin on command, also as per the _ [plane shift](spells/planeShift.md#_plane-shift)_ spell.
 
 This robe also grants its wearer a +1 luck bonus on all saving throws.
 
@@ -361,7 +361,7 @@ Construction Requirements
 
 **Cost** 29,000 gp
 
-Craft Wondrous Item, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [astral projection](/pathfinderRPG/prd/spells/astralProjection.html#_astral-projection)_ or _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_
+Craft Wondrous Item, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [astral projection](spells/astralProjection.md#_astral-projection)_ or _ [plane shift](spells/planeShift.md#_plane-shift)_
 
 Robe of the Archmagi
 
@@ -374,13 +374,13 @@ This normal-appearing garment is attuned to one of three types of alignment. It 
 - +4 resistance bonus on all saving throws
 - +2 enhancement bonus on caster level checks made to overcome spell resistance
 
-If a white robe is donned by an evil character, she immediately gains three permanent negative levels. The same is true with respect to a black robe donned by a good character. An evil or good character who puts on a gray robe, or a neutral character who dons either a white or black robe, gains two permanent negative levels. These negative levels remain as long as the garment is worn and cannot be overcome in any way (including through _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_ spells). Negative levels are immediately removed if the robe is removed from the wearer.
+If a white robe is donned by an evil character, she immediately gains three permanent negative levels. The same is true with respect to a black robe donned by a good character. An evil or good character who puts on a gray robe, or a neutral character who dons either a white or black robe, gains two permanent negative levels. These negative levels remain as long as the garment is worn and cannot be overcome in any way (including through _ [restoration](spells/restoration.md#_restoration)_ spells). Negative levels are immediately removed if the robe is removed from the wearer.
 
 Construction Requirements
 
 **Cost** 37,500 gp
 
-Craft Wondrous Item, _ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_ or _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_, creator must be of same alignment as robe
+Craft Wondrous Item, _ [antimagic field](spells/antimagicField.md#_antimagic-field)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_ or _ [shield of faith](spells/shieldOfFaith.md#_shield-of-faith)_, creator must be of same alignment as robe
 
 Robe of Useful Items
 
@@ -406,7 +406,7 @@ In addition, the robe has several other patches. Roll 4d4 for the number of othe
 | 31–44 | Ladder, wooden (24 ft. long) |
 | 45–51 | Mule (with saddlebags) |
 | 52–59 | Pit, open (10 ft. by 10 ft. by 10 ft.) |
-| 60–68 | _Potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ |
+| 60–68 | _Potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ |
 | 69–75 | Rowboat (12 ft. long) |
 | 76–83 | Minor scroll of one randomly determined spell |
 | 84–90 | War dogs, pair (treat as riding dogs) |
@@ -419,7 +419,7 @@ Construction Requirements
 
 **Cost** 3,500 gp
 
-Craft Wondrous Item, _ [fabricate](/pathfinderRPG/prd/spells/fabricate.html#_fabricate)_
+Craft Wondrous Item, _ [fabricate](spells/fabricate.md#_fabricate)_
 
 Shocking Robe
 
@@ -431,7 +431,7 @@ Construction Requirements
 
 **Cost** 5,500 gp
 
-Craft Wondrous Item, [Heighten Spell](/pathfinderRPG/prd/feats.html#_heighten-spell), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, _ [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt)_
+Craft Wondrous Item, [Heighten Spell](feats.md#_heighten-spell), _ [resist energy](spells/resistEnergy.md#_resist-energy)_, _ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_
 
 Smuggler's Collapsible Robe
 
@@ -445,7 +445,7 @@ Construction Requirements
 
 **Cost** 24,000 gp
 
-Craft Wondrous Item, _ [secret chest](/pathfinderRPG/prd/spells/secretChest.html#_secret-chest)_, _ [magic aura](/pathfinderRPG/prd/spells/magicAura.html#_magic-aura)_, _ [arcane eye](/pathfinderRPG/prd/spells/arcaneEye.html#_arcane-eye)_
+Craft Wondrous Item, _ [secret chest](spells/secretChest.md#_secret-chest)_, _ [magic aura](spells/magicAura.md#_magic-aura)_, _ [arcane eye](spells/arcaneEye.md#_arcane-eye)_
 
 Sorcerer's Robe
 
@@ -457,7 +457,7 @@ Construction Requirements
 
 **Cost** 2,500 gp
 
-Craft Wondrous Item, [Quicken Spell-Like Ability](/pathfinderRPG/prd/monsters/monsterFeats.html#_quicken-spell-like-ability), creator must be a sorcerer
+Craft Wondrous Item, [Quicken Spell-Like Ability](monsters/monsterFeats.md#_quicken-spell-like-ability), creator must be a sorcerer
 
 Voidfrost Robe
 
@@ -469,17 +469,17 @@ Construction Requirements
 
 **Cost** 5,500 gp
 
-Craft Wondrous Item, [Heighten Spell](/pathfinderRPG/prd/feats.html#_heighten-spell), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, _ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_
+Craft Wondrous Item, [Heighten Spell](feats.md#_heighten-spell), _ [resist energy](spells/resistEnergy.md#_resist-energy)_, _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_
 
 Xorn Robe
 
 **Price** 20,000 gp; **Aura** moderate transmutation; **CL** 9th; **Weight** 1 lb.
 
-This brown and gray robe is always dirty, and the chest and the back of each shoulder is decorated with a gem-like eye pattern. The wearer gains a +5 bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks, and can use earth glide to pass through up to 20 feet of natural or worked stone per day. The distance traveled with earth glide does not need to be consecutive, but it must be used in 5-foot increments. The wearer is able to safely chew, swallow, digest, and derive nutrition from gems, precious metals, and metallic ore, with 100 gp worth of these materials sustaining him for 1 full day. If the wearer removes the robe after such a meal, he is sickened until 24 hours have passed since the last meal of this kind. Wearing the robe again immediately negates this penalty.
+This brown and gray robe is always dirty, and the chest and the back of each shoulder is decorated with a gem-like eye pattern. The wearer gains a +5 bonus on [Perception](skills/perception.md#_perception) checks, and can use earth glide to pass through up to 20 feet of natural or worked stone per day. The distance traveled with earth glide does not need to be consecutive, but it must be used in 5-foot increments. The wearer is able to safely chew, swallow, digest, and derive nutrition from gems, precious metals, and metallic ore, with 100 gp worth of these materials sustaining him for 1 full day. If the wearer removes the robe after such a meal, he is sickened until 24 hours have passed since the last meal of this kind. Wearing the robe again immediately negates this penalty.
 
 Construction Requirements
 
 **Cost** 10,000 gp
 
-Craft Wondrous Item, _ [passwall](/pathfinderRPG/prd/spells/passwall.html#_passwall)_, _ [purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_
+Craft Wondrous Item, _ [passwall](spells/passwall.md#_passwall)_, _ [purify food and drink](spells/purifyFoodAndDrink.md#_purify-food-and-drink)_
 

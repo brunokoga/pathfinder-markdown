@@ -392,7 +392,7 @@ Construction Requirements
 
 **Cost** 300 gp
 
-Craft Wondrous Item, _ [magic circle against evil](/pathfinderRPG/prd/spells/magicCircleAgainstEvil.html#_magic-circle-against-evil), [permanency](/pathfinderRPG/prd/spells/permanency.html#_permanency)_
+Craft Wondrous Item, _ [magic circle against evil](spells/magicCircleAgainstEvil.md#_magic-circle-against-evil), [permanency](spells/permanency.md#_permanency)_
 
 Admixture Vial
 
@@ -416,19 +416,19 @@ Construction Requirements
 
 **Cost** 1,000 gp
 
-Craft Wondrous Item, _ [longstrider](/pathfinderRPG/prd/spells/longstrider.html#_longstrider)_
+Craft Wondrous Item, _ [longstrider](spells/longstrider.md#_longstrider)_
 
 Alluring Golden Apple
 
 **Price** 400 gp; **Aura** faint enchantment; **CL** 4th; **Weight** 1 lb.
 
-This enchanted apple appears to be made of solid gold. When dropped or thrown, it draws the attention of the nearest hostile creature within 20 feet. The creature must make a DC 13 Will save or be paralyzed as if by _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ as it focuses its undivided attention on the golden apple. If the creature makes its save on a later round, it realizes it has been affected by magic and the apple is not actually gold. While focusing on the apple, the target takes a –2 penalty on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks. The apple is consumed upon being dropped or thrown.
+This enchanted apple appears to be made of solid gold. When dropped or thrown, it draws the attention of the nearest hostile creature within 20 feet. The creature must make a DC 13 Will save or be paralyzed as if by _ [hold person](spells/holdPerson.md#_hold-person)_ as it focuses its undivided attention on the golden apple. If the creature makes its save on a later round, it realizes it has been affected by magic and the apple is not actually gold. While focusing on the apple, the target takes a –2 penalty on [Perception](skills/perception.md#_perception) checks. The apple is consumed upon being dropped or thrown.
 
 Construction Requirements
 
 **Cost** 200 gp
 
-Craft Wondrous Item, _ [beguiling gift](/pathfinderRPG/prd/advanced/spells/beguilingGift.html#_beguiling-gift)_, _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_
+Craft Wondrous Item, _ [beguiling gift](advanced/spells/beguilingGift.md#_beguiling-gift)_, _ [hold person](spells/holdPerson.md#_hold-person)_
 
 Anatomy Doll
 
@@ -440,7 +440,7 @@ Construction Requirements
 
 **Cost** 500 gp
 
-Craft Wondrous Item, _ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_, _ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_
+Craft Wondrous Item, _ [bestow curse](spells/bestowCurse.md#_bestow-curse)_, _ [bleed](spells/bleed.md#_bleed)_
 
 Animated Portrait
 
@@ -452,13 +452,13 @@ Construction Requirements
 
 **Cost** 250 gp
 
-Craft Wondrous Item, _ [magic mouth](/pathfinderRPG/prd/spells/magicMouth.html#_magic-mouth)_, _ [major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_
+Craft Wondrous Item, _ [magic mouth](spells/magicMouth.md#_magic-mouth)_, _ [major image](spells/majorImage.md#_major-image)_
 
 Apparatus of the Crab
 
 **Price** 90,000 gp; **Aura** strong evocation and transmutation; **CL** 19th; **Weight** 00 lbs.
 
-An _apparatus of the crab_ is a metallic magical vehicle. When unoccupied, it appears to be a large, sealed iron barrel big enough to hold two Medium creatures. Close examination, and a DC 20 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) check, reveals a secret catch that opens a hatch at one end. Anyone who crawls inside finds 10 (unlabeled) levers and seating for two Medium or Small occupants. These levers allow those inside to activate and control the apparatus's movements and actions.
+An _apparatus of the crab_ is a metallic magical vehicle. When unoccupied, it appears to be a large, sealed iron barrel big enough to hold two Medium creatures. Close examination, and a DC 20 [Perception](skills/perception.md#_perception) check, reveals a secret catch that opens a hatch at one end. Anyone who crawls inside finds 10 (unlabeled) levers and seating for two Medium or Small occupants. These levers allow those inside to activate and control the apparatus's movements and actions.
 
 | Lever (1d10) | Lever Function |
 | --- | --- |
@@ -481,31 +481,31 @@ Construction Requirements
 
 **Cost** 45,000 gp
 
-Craft Wondrous Item, _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_, _ [continual flame](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)_, creator must have 8 ranks in [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (engineering)
+Craft Wondrous Item, _ [animate objects](spells/animateObjects.md#_animate-objects)_, _ [continual flame](spells/continualFlame.md#_continual-flame)_, creator must have 8 ranks in [Knowledge](skills/knowledge.md#_knowledge) (engineering)
 
 Apple of Eternal Sleep
 
 **Price** 2,500 gp; **Aura** moderate enchantment; **CL** 10th; **Weight** —
 
-This ripe red apple looks fresh and delicious. Should anyone bite into it (even a small taste), he must make an immediate DC 19 Will saving throw or fall into an eternal slumber as though by the witch's grand hex of the same name. The victim can only be awakened by a casting of _ [break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment)_, _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_, _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_, or _ [miracle](/pathfinderRPG/prd/spells/miracle.html#_miracle)_, or by a kiss from someone of royal blood.
+This ripe red apple looks fresh and delicious. Should anyone bite into it (even a small taste), he must make an immediate DC 19 Will saving throw or fall into an eternal slumber as though by the witch's grand hex of the same name. The victim can only be awakened by a casting of _ [break enchantment](spells/breakEnchantment.md#_break-enchantment)_, _ [limited wish](spells/limitedWish.md#_limited-wish)_, _ [wish](spells/wish.md#_wish)_, or _ [miracle](spells/miracle.md#_miracle)_, or by a kiss from someone of royal blood.
 
 Construction Requirements
 
 **Cost** 1,250 gp
 
-Brew Potion, [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), creator must be a witch with the eternal slumber grand hex
+Brew Potion, [Craft Wondrous Item](feats.md#_craft-wondrous-item), creator must be a witch with the eternal slumber grand hex
 
 Archon's Torch
 
 **Price** 750 gp; **Aura** faint evocation; **CL** 5th; **Weight** 1 lb.
 
-This torch is made of pale yellow wood and inscribed with holy runes. When lit, it burns as a regular torch, but only lasts for 5 minutes. When held by a lawful good creature, it functions as an _ [archon's aura](/pathfinderRPG/prd/ultimateMagic/spells/archonSAura.html#_archon's-aura)_ spell. The magical aura ends if a lawful good creature isn't holding it, and resumes automatically if a lawful good creature holds it again.
+This torch is made of pale yellow wood and inscribed with holy runes. When lit, it burns as a regular torch, but only lasts for 5 minutes. When held by a lawful good creature, it functions as an _ [archon's aura](ultimateMagic/spells/archonSAura.md#_archon's-aura)_ spell. The magical aura ends if a lawful good creature isn't holding it, and resumes automatically if a lawful good creature holds it again.
 
 Construction Requirements
 
 **Cost** 375 gp
 
-Craft Wondrous Item, _ [archon's aura](/pathfinderRPG/prd/ultimateMagic/spells/archonSAura.html#_archon's-aura)_
+Craft Wondrous Item, _ [archon's aura](ultimateMagic/spells/archonSAura.md#_archon's-aura)_
 
 Arrow Magnet
 
@@ -517,7 +517,7 @@ Construction Requirements
 
 **Cost** 300 gp
 
-Craft Wondrous Item, _ [protection from arrows](/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows)_
+Craft Wondrous Item, _ [protection from arrows](spells/protectionFromArrows.md#_protection-from-arrows)_
 
 Bag of Holding
 
@@ -540,7 +540,7 @@ Construction Requirements
 
 **Type I** 1,250 gp; **Type II** 2,500 gp; **Type III** 3,700 gp; **Type IV** 5,000 gp
 
-Craft Wondrous Item, _ [secret chest](/pathfinderRPG/prd/spells/secretChest.html#_secret-chest)_
+Craft Wondrous Item, _ [secret chest](spells/secretChest.md#_secret-chest)_
 
 Bag of Tricks
 
@@ -548,7 +548,7 @@ Bag of Tricks
 
 **Gray** 3,400 gp; **Rust** 8,500 gp; **Tan** 16,000 gp
 
-This small sack looks empty at first glance. Anyone reaching into the bag feels a small, fuzzy ball inside. If the ball is removed and tossed up to 20 feet away, it turns into an animal. The animal serves the character who drew it from the bag for 10 minutes (or until slain or ordered back into the bag), at which point it disappears. It can follow any of the commands described in the [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) skill. Each of the three kinds of bags of tricks produces a different set of animals. Use the following tables to determine what animals can be drawn out of each.
+This small sack looks empty at first glance. Anyone reaching into the bag feels a small, fuzzy ball inside. If the ball is removed and tossed up to 20 feet away, it turns into an animal. The animal serves the character who drew it from the bag for 10 minutes (or until slain or ordered back into the bag), at which point it disappears. It can follow any of the commands described in the [Handle Animal](skills/handleAnimal.md#_handle-animal) skill. Each of the three kinds of bags of tricks produces a different set of animals. Use the following tables to determine what animals can be drawn out of each.
 
 | Gray Bag  
 d% Animal | Rust Bag  
@@ -569,7 +569,7 @@ Construction Requirements
 
 **Gray** 1,700 gp; **Rust** 4,250 gp; **Tan** 8,000 gp
 
-Craft Wondrous Item, _ [summon nature's ally II](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-ii)_ (gray), _ [summon nature's ally III](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-iii)_ (rust), or _ [summon nature's ally V](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-v)_ (tan)
+Craft Wondrous Item, _ [summon nature's ally II](spells/summonNatureSAlly.md#_summon-nature-s-ally-ii)_ (gray), _ [summon nature's ally III](spells/summonNatureSAlly.md#_summon-nature-s-ally-iii)_ (rust), or _ [summon nature's ally V](spells/summonNatureSAlly.md#_summon-nature-s-ally-v)_ (tan)
 
 Balm of Impish Grace
 
@@ -581,7 +581,7 @@ Construction Requirements
 
 **Cost** 3,750 gp
 
-Craft Wondrous Item, _ [grace](/pathfinderRPG/prd/advanced/spells/grace.html#_grace)_
+Craft Wondrous Item, _ [grace](advanced/spells/grace.md#_grace)_
 
 Bead of Force
 
@@ -589,31 +589,31 @@ Bead of Force
 
 This small black sphere appears to be a lusterless pearl. A _bead of force_ can be thrown up to 60 feet with no range penalties. Upon sharp impact, the bead explodes, sending forth a burst that deals 5d6 points of force damage to all creatures within a 10-foot radius.
 
-Once thrown, a _bead of force_ functions like a _ [resilient sphere](/pathfinderRPG/prd/spells/resilientSphere.html#_resilient-sphere)_ spell (Reflex DC 16 negates) with a radius of 10 feet and a duration of 10 minutes. A globe of shimmering force encloses the targeted creature, provided the latter is small enough to fit within the diameter of the sphere. The sphere contains its subject for the spell's duration. The sphere is not subject to damage of any sort except from a _ [rod of cancellation](/pathfinderRPG/prd/magicItems/rods.html#_rod-of-cancellation)_, a _ [rod of negation](/pathfinderRPG/prd/magicItems/rods.html#_rod-of-negation)_, _ [disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_, or a targeted _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_ spell. These effects destroy the sphere without harm to the subject. Nothing can pass through the sphere, inside or out, though the subject can breathe normally. The subject may struggle, but the globe cannot be physically moved either by people outside it or by the struggles of those within. The explosion completely consumes the bead, making this a one-use item.
+Once thrown, a _bead of force_ functions like a _ [resilient sphere](spells/resilientSphere.md#_resilient-sphere)_ spell (Reflex DC 16 negates) with a radius of 10 feet and a duration of 10 minutes. A globe of shimmering force encloses the targeted creature, provided the latter is small enough to fit within the diameter of the sphere. The sphere contains its subject for the spell's duration. The sphere is not subject to damage of any sort except from a _ [rod of cancellation](magicItems/rods.md#_rod-of-cancellation)_, a _ [rod of negation](magicItems/rods.md#_rod-of-negation)_, _ [disintegrate](spells/disintegrate.md#_disintegrate)_, or a targeted _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_ spell. These effects destroy the sphere without harm to the subject. Nothing can pass through the sphere, inside or out, though the subject can breathe normally. The subject may struggle, but the globe cannot be physically moved either by people outside it or by the struggles of those within. The explosion completely consumes the bead, making this a one-use item.
 
 Construction Requirements
 
 **Cost** 1,500 gp
 
-Craft Wondrous Item, _ [resilient sphere](/pathfinderRPG/prd/spells/resilientSphere.html#_resilient-sphere)_
+Craft Wondrous Item, _ [resilient sphere](spells/resilientSphere.md#_resilient-sphere)_
 
 Bead of Newt Prevention
 
 **Price** 1,000 gp; **Aura** faint abjuration; **CL** 5th; **Weight** —
 
-This bead is carved with a tiny pictogram representing a small, harmless animal such as a newt, rabbit, or frog. If the bearer fails a saving throw against a hostile polymorph effect such as _ [baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_, the bead is destroyed and the effect does not affect the bearer.
+This bead is carved with a tiny pictogram representing a small, harmless animal such as a newt, rabbit, or frog. If the bearer fails a saving throw against a hostile polymorph effect such as _ [baleful polymorph](spells/balefulPolymorph.md#_baleful-polymorph)_, the bead is destroyed and the effect does not affect the bearer.
 
 Construction Requirements
 
 **Cost** 500 gp
 
-Craft Wondrous Item, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_
+Craft Wondrous Item, _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_
 
 Beast-bond Brand
 
 **Price** 1,000 gp; **Aura** faint abjuration; **CL** 5th; **Weight** —
 
-This sticky henna paste is used to stamp a rust-colored handprint onto the body of a familiar or animal companion, and a hoof, claw, or paw print from that creature onto its master. These brands demonstrate a bond of friendship and balance, not ownership and subservience. Applying the brand requires a full-round action each for master and companion. The brand enhances the share spells ability of druids, wizards, and other classes with animal companions or familiars, allowing these characters to cast spells with a range of personal or touch on the marked companion at a range of 30 feet, provided the character has line of effect to the creature. Each spell cast at range in this way drains one charge from the _beast-bond [brand](/pathfinderRPG/prd/advanced/spells/brand.html#_brand)_ for each spell level of the spell cast. A newly applied _beast-bond [brand](/pathfinderRPG/prd/advanced/spells/brand.html#_brand)_ has 10 charges. When all charges are consumed, the brand vanishes. For the purposes of teleportation spells and effects, the master may treat a marked companion as an object or a creature, whichever is more favorable (weight restrictions still apply).
+This sticky henna paste is used to stamp a rust-colored handprint onto the body of a familiar or animal companion, and a hoof, claw, or paw print from that creature onto its master. These brands demonstrate a bond of friendship and balance, not ownership and subservience. Applying the brand requires a full-round action each for master and companion. The brand enhances the share spells ability of druids, wizards, and other classes with animal companions or familiars, allowing these characters to cast spells with a range of personal or touch on the marked companion at a range of 30 feet, provided the character has line of effect to the creature. Each spell cast at range in this way drains one charge from the _beast-bond [brand](advanced/spells/brand.md#_brand)_ for each spell level of the spell cast. A newly applied _beast-bond [brand](advanced/spells/brand.md#_brand)_ has 10 charges. When all charges are consumed, the brand vanishes. For the purposes of teleportation spells and effects, the master may treat a marked companion as an object or a creature, whichever is more favorable (weight restrictions still apply).
 
 A character may have only one creature marked in this way at any time. The brand lasts until all charges are expended or the master marks another companion in this way.
 
@@ -621,7 +621,7 @@ Construction Requirements
 
 **Cost** 500 gp
 
-Craft Wondrous Item, [Reach Spell](/pathfinderRPG/prd/advanced/advancedFeats.html#_reach-spell), creator must have an animal companion or familiar
+Craft Wondrous Item, [Reach Spell](advanced/advancedFeats.md#_reach-spell), creator must have an animal companion or familiar
 
 Black Soul Shard
 
@@ -635,7 +635,7 @@ Construction Requirements
 
 **Cost** 6,000 gp
 
-Craft Wondrous Item, _ [death ward](/pathfinderRPG/prd/spells/deathWard.html#_death-ward)_, _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_
+Craft Wondrous Item, _ [death ward](spells/deathWard.md#_death-ward)_, _ [restoration](spells/restoration.md#_restoration)_
 
 Blessed Book
 
@@ -649,7 +649,7 @@ Construction Requirements
 
 **Cost** 6,250 gp
 
-Craft Wondrous Item,_ [secret page](/pathfinderRPG/prd/spells/secretPage.html#_secret-page)_
+Craft Wondrous Item,_ [secret page](spells/secretPage.md#_secret-page)_
 
 Blood Reservoir of Physical Prowess
 
@@ -667,7 +667,7 @@ Construction Requirements
 
 **Cost** 1,000 gp
 
-Craft Wondrous Item, _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)_
+Craft Wondrous Item, _ [death knell](spells/deathKnell.md#_death-knell)_
 
 Bone Razor
 
@@ -679,7 +679,7 @@ Construction Requirements
 
 **Cost** 2,500 gp
 
-Craft Wondrous Item, _ [animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_
+Craft Wondrous Item, _ [animate dead](spells/animateDead.md#_animate-dead)_
 
 Book of Extended Summoning
 
@@ -687,49 +687,49 @@ Book of Extended Summoning
 
 **Lesser** 750 gp; **Standard** 2,750 gp; **Greater** 6,126 gp
 
-This leather-bound book is inscribed with runes relating to outsiders and conjuration magic. It enhances spells that summon monsters. The user may apply the [Extend Spell](/pathfinderRPG/prd/feats.html#_extend-spell) feat to these spells as they are cast. This does not change the spell slot of the altered spell. The book counts as a _metamagic rod_ for the purpose of combining multiple metamagic effects on a spell. A normal _book of extended summoning_ can be used with spells of 6th level or lower, while a lesser book can be used with spells of 3rd level or lower, and a greater book can be used with spells of 9th level or lower. Each book is keyed to a particular alignment (equal chances of chaotic, evil, good, or lawful) and only works when used to summon a creature with that alignment. Once the book is used, it crumbles into cold ash and is destroyed.
+This leather-bound book is inscribed with runes relating to outsiders and conjuration magic. It enhances spells that summon monsters. The user may apply the [Extend Spell](feats.md#_extend-spell) feat to these spells as they are cast. This does not change the spell slot of the altered spell. The book counts as a _metamagic rod_ for the purpose of combining multiple metamagic effects on a spell. A normal _book of extended summoning_ can be used with spells of 6th level or lower, while a lesser book can be used with spells of 3rd level or lower, and a greater book can be used with spells of 9th level or lower. Each book is keyed to a particular alignment (equal chances of chaotic, evil, good, or lawful) and only works when used to summon a creature with that alignment. Once the book is used, it crumbles into cold ash and is destroyed.
 
 Construction Requirements
 
 **Lesser** 375 gp; **Normal** 1,375 gp; **Greater** 3,063 gp
 
-Craft Wondrous Item, [Extend Spell](/pathfinderRPG/prd/feats.html#_extend-spell), _ [summon monster I](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i)_
+Craft Wondrous Item, [Extend Spell](feats.md#_extend-spell), _ [summon monster I](spells/summonMonster.md#_summon-monster-i)_
 
 Book of the Loremaster
 
 **Price** 15,000 gp; **Aura** moderate divination; **CL** 7th; **Weight** 2 lbs.
 
-This digest-sized book contains a seemingly random collection of words, phrases, and strange mnemonic aids. Three times each day, a bard can consult it while using the lore master class feature in order to gain a +5 competence bonus when taking 10 or taking 20 on a [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) check.
+This digest-sized book contains a seemingly random collection of words, phrases, and strange mnemonic aids. Three times each day, a bard can consult it while using the lore master class feature in order to gain a +5 competence bonus when taking 10 or taking 20 on a [Knowledge](skills/knowledge.md#_knowledge) check.
 
 Construction Requirements
 
 **Cost** 7,500 gp
 
-Craft Wondrous Item, _ [clairaudience/clairvoyance](/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance)_
+Craft Wondrous Item, _ [clairaudience/clairvoyance](spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance)_
 
 Bookmark of Deception
 
 **Price** 1,500 gp; **Aura** faint illusion; **CL** 5th; **Weight** —
 
-This bookmark alters the book that holds it so that it appears to be another book entirely, even upon a thorough reading. The apparent book is determined when the bookmark is crafted, and is usually an especially boring or commonplace book such as a legal or religious text. The bookmark also protects itself and the book with _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_.
+This bookmark alters the book that holds it so that it appears to be another book entirely, even upon a thorough reading. The apparent book is determined when the bookmark is crafted, and is usually an especially boring or commonplace book such as a legal or religious text. The bookmark also protects itself and the book with _ [nondetection](spells/nondetection.md#_nondetection)_.
 
 Construction Requirements
 
 **Cost** 750 gp
 
-Craft Wondrous Item, _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_, _ [secret page](/pathfinderRPG/prd/spells/secretPage.html#_secret-page)_
+Craft Wondrous Item, _ [nondetection](spells/nondetection.md#_nondetection)_, _ [secret page](spells/secretPage.md#_secret-page)_
 
 Bookplate of Recall
 
 **Price** 1,000 gp; **Aura** strong conjuration; **CL** 13th; **Weight** —
 
-This metal bookplate is inscribed with mystical words in Draconic, leaving space for a single written name. When the bookplate is glued to the inside cover of a book, the named individual may speak the title of the book to summon it as if using _ [instant summons](/pathfinderRPG/prd/spells/instantSummons.html#_instant-summons)_. This ability functions once per day.
+This metal bookplate is inscribed with mystical words in Draconic, leaving space for a single written name. When the bookplate is glued to the inside cover of a book, the named individual may speak the title of the book to summon it as if using _ [instant summons](spells/instantSummons.md#_instant-summons)_. This ability functions once per day.
 
 Construction Requirements
 
 **Cost** 500 gp
 
-Craft Wondrous Item, _ [instant summons](/pathfinderRPG/prd/spells/instantSummons.html#_instant-summons)_
+Craft Wondrous Item, _ [instant summons](spells/instantSummons.md#_instant-summons)_
 
 Boro Bead
 
@@ -755,7 +755,7 @@ Construction Requirements
 
 **Cost** 3,625 gp
 
-Craft Wondrous Item, _ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_
+Craft Wondrous Item, _ [water breathing](spells/waterBreathing.md#_water-breathing)_
 
 Bottle of Messages
 
@@ -767,7 +767,7 @@ Construction Requirements
 
 **Cost** 150 gp
 
-Craft Wondrous Item, _ [magic mouth](/pathfinderRPG/prd/spells/magicMouth.html#_magic-mouth)_
+Craft Wondrous Item, _ [magic mouth](spells/magicMouth.md#_magic-mouth)_
 
 Bottle of Shadows
 
@@ -779,7 +779,7 @@ Construction Requirements
 
 **Cost** 3,500 gp
 
-Craft Wondrous Item, _ [animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_
+Craft Wondrous Item, _ [animate dead](spells/animateDead.md#_animate-dead)_
 
 Bottled Misfortune
 
@@ -791,67 +791,67 @@ Construction Requirements
 
 **Cost** 250 gp
 
-Brew Potion, [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), creator must be a witch with the poison steep hex
+Brew Potion, [Craft Wondrous Item](feats.md#_craft-wondrous-item), creator must be a witch with the poison steep hex
 
 Bottled Yeti Fur
 
 **Price** 800 gp; **Aura** faint abjuration; **CL** 3rd; **Weight** —
 
-This small opaque flask releases a thick stream of coarse white fur when opened. This fur creeps up the user's arm and across her entire body until she is completely covered in a tangled pelt. While coated with this fur she gains cold resistance 5, a +2 natural armor bonus to AC, and a +4 competence bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks in areas of ice and snow. This fur sheds from her body after 24 hours, or can be removed early by soaking it in alcohol. The flask is expended after one use.
+This small opaque flask releases a thick stream of coarse white fur when opened. This fur creeps up the user's arm and across her entire body until she is completely covered in a tangled pelt. While coated with this fur she gains cold resistance 5, a +2 natural armor bonus to AC, and a +4 competence bonus on [Stealth](skills/stealth.md#_stealth) checks in areas of ice and snow. This fur sheds from her body after 24 hours, or can be removed early by soaking it in alcohol. The flask is expended after one use.
 
 Construction Requirements
 
 **Cost** 400 gp
 
-Craft Wondrous Item, _ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin), [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_
+Craft Wondrous Item, _ [barkskin](spells/barkskin.md#_barkskin), [resist energy](spells/resistEnergy.md#_resist-energy)_
 
 Boundary Chalk
 
 **Price** 10,000 gp; **Aura** moderate evocation; **CL** 10th; **Weight** —
 
-The surface of this stick of white chalk is covered with silvery runes. Drawing a line with the chalk creates a _ [wall of force](/pathfinderRPG/prd/spells/wallOfForce.html#_wall-of-force)_ that is as long as the line and extends 10 feet perpendicular to the surface on which the line was drawn. Drawing a 5-foot line is a standard action that provokes acts of opportunity. Each wall lasts 10 minutes; the bearer of the chalk can dismiss a section of wall as a swift action by touching the stick of chalk to it. One stick of _boundary chalk_ can draw 100 feet of line before it is used up, and it must be used in 5-foot increments.
+The surface of this stick of white chalk is covered with silvery runes. Drawing a line with the chalk creates a _ [wall of force](spells/wallOfForce.md#_wall-of-force)_ that is as long as the line and extends 10 feet perpendicular to the surface on which the line was drawn. Drawing a 5-foot line is a standard action that provokes acts of opportunity. Each wall lasts 10 minutes; the bearer of the chalk can dismiss a section of wall as a swift action by touching the stick of chalk to it. One stick of _boundary chalk_ can draw 100 feet of line before it is used up, and it must be used in 5-foot increments.
 
 Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item, _ [wall of force](/pathfinderRPG/prd/spells/wallOfForce.html#_wall-of-force)_
+Craft Wondrous Item, _ [wall of force](spells/wallOfForce.md#_wall-of-force)_
 
 Bowl of Conjuring Water Elementals
 
 **Price** 90,000 gp; **Aura** moderate conjuration; **CL** 11th; **Weight** 3 lbs.
 
-This large container is usually fashioned from silver with a rippled pattern. It is about 1 foot in diameter and half that deep. The bowl must be filled with fresh or salt water to function. On command as a full-round action, the bearer may summon a water elemental. If the bowl is filled with salt water, it conjures a Huge water elemental as if using _ [summon monster VI](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi)_. If filled with fresh water, it conjures a Large water elemental as if using _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_. Conjuring an elemental empties the bowl. The bowl cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.
+This large container is usually fashioned from silver with a rippled pattern. It is about 1 foot in diameter and half that deep. The bowl must be filled with fresh or salt water to function. On command as a full-round action, the bearer may summon a water elemental. If the bowl is filled with salt water, it conjures a Huge water elemental as if using _ [summon monster VI](spells/summonMonster.md#_summon-monster-vi)_. If filled with fresh water, it conjures a Large water elemental as if using _ [summon monster V](spells/summonMonster.md#_summon-monster-v)_. Conjuring an elemental empties the bowl. The bowl cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.
 
 Construction Requirements
 
 **Cost** 45,000 gp
 
-Craft Wondrous Item, _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_, _ [summon monster VI](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi)_
+Craft Wondrous Item, _ [summon monster V](spells/summonMonster.md#_summon-monster-v)_, _ [summon monster VI](spells/summonMonster.md#_summon-monster-vi)_
 
 Brazier of Conjuring Fire Elementals
 
 **Price** 90,000 gp; **Aura** moderate conjuration; **CL** 11th; **Weight** lbs.
 
-This device appears to be a normal container for holding burning coals. The brazier must be filled with coals or wood and a fire lit within it to function. On command as a full-round action, the bearer may summon a fire elemental. If 1 pound of brimstone (sulfur) is burning in the brazier, it conjures a Huge fire elemental as if using _ [summon monster VI](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi)_. Otherwise, the brazier conjures a Large fire elemental as if using _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_. Conjuring an elemental extinguishes the fire in the brazier. The brazier cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.
+This device appears to be a normal container for holding burning coals. The brazier must be filled with coals or wood and a fire lit within it to function. On command as a full-round action, the bearer may summon a fire elemental. If 1 pound of brimstone (sulfur) is burning in the brazier, it conjures a Huge fire elemental as if using _ [summon monster VI](spells/summonMonster.md#_summon-monster-vi)_. Otherwise, the brazier conjures a Large fire elemental as if using _ [summon monster V](spells/summonMonster.md#_summon-monster-v)_. Conjuring an elemental extinguishes the fire in the brazier. The brazier cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.
 
 Construction Requirements
 
 **Cost** 45,000 gp
 
-Craft Wondrous Item, _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_, _ [summon monster VI](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi)_
+Craft Wondrous Item, _ [summon monster V](spells/summonMonster.md#_summon-monster-v)_, _ [summon monster VI](spells/summonMonster.md#_summon-monster-vi)_
 
 Broom of Flying
 
 **Price** 17,000 gp; **Aura** moderate transmutation; **CL** 9th; **Weight** 3 lbs.
 
-This broom is able to fly through the air as if affected by an _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_ spell (+4 on [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) skill checks) for up to 9 hours per day (split up as its owner desires). The broom can carry 200 pounds and fly at a speed of 40 feet, or up to 400 pounds at a speed at 30 feet. In addition, the broom can travel alone to any destination named by the owner as long as she has a good idea of the location and layout of that destination. It flies to its owner from as far away as 900 feet when she speaks the command word. The _broom of flying_ has a speed of 40 feet when it has no rider.
+This broom is able to fly through the air as if affected by an _ [overland flight](spells/overlandFlight.md#_overland-flight)_ spell (+4 on [Fly](skills/fly.md#_fly) skill checks) for up to 9 hours per day (split up as its owner desires). The broom can carry 200 pounds and fly at a speed of 40 feet, or up to 400 pounds at a speed at 30 feet. In addition, the broom can travel alone to any destination named by the owner as long as she has a good idea of the location and layout of that destination. It flies to its owner from as far away as 900 feet when she speaks the command word. The _broom of flying_ has a speed of 40 feet when it has no rider.
 
 Construction Requirements
 
 **Cost** 8,500 gp
 
-Craft Wondrous Item, _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_, _ [permanency](/pathfinderRPG/prd/spells/permanency.html#_permanency)_
+Craft Wondrous Item, _ [overland flight](spells/overlandFlight.md#_overland-flight)_, _ [permanency](spells/permanency.md#_permanency)_
 
 Campfire Bead
 
@@ -863,7 +863,7 @@ Construction Requirements
 
 **Cost** 360 gp
 
-Craft Wondrous Item, _ [produce flame](/pathfinderRPG/prd/spells/produceFlame.html#_produce-flame)_
+Craft Wondrous Item, _ [produce flame](spells/produceFlame.md#_produce-flame)_
 
 Candle of Clean Air
 
@@ -877,7 +877,7 @@ Construction Requirements
 
 **Cost** 3,750 gp
 
-Craft Wondrous Item,_ [wind wall](/pathfinderRPG/prd/spells/windWall.html#_wind-wall)_
+Craft Wondrous Item,_ [wind wall](spells/windWall.md#_wind-wall)_
 
 Candle of Invocation
 
@@ -887,31 +887,31 @@ Each of these special tapers is dedicated to one of the nine alignments. Simply 
 
 A cleric whose alignment matches the candle's operates as if two levels higher for purposes of determining spells per day if he burns the candle during or just prior to his spell preparation time. He can even cast spells normally unavailable to him as if he were of that higher level, but only so long as the candle continues to burn. Except in special cases (see below), a candle burns for 4 hours. It is possible to extinguish the candle simply by blowing it out, so users often place it in a lantern to protect it from drafts and the like. Doing this doesn't interfere with its magical properties.
 
-In addition, burning a candle also allows the owner to cast a _ [gate](/pathfinderRPG/prd/spells/gate.html#_gate)_ spell, the respondent being of the same alignment as the candle, but the taper is immediately consumed in the process.
+In addition, burning a candle also allows the owner to cast a _ [gate](spells/gate.md#_gate)_ spell, the respondent being of the same alignment as the candle, but the taper is immediately consumed in the process.
 
 Construction Requirements
 
 **Cost** 4,200 gp
 
-Craft Wondrous Item, _ [gate](/pathfinderRPG/prd/spells/gate.html#_gate)_, creator must be same alignment as candle created
+Craft Wondrous Item, _ [gate](spells/gate.md#_gate)_, creator must be same alignment as candle created
 
 Candle of Truth
 
 **Price** 2,500 gp; **Aura** faint enchantment; **CL** 3rd; **Weight** 1/2 lb.
 
-This white tallow candle, when burned, calls into place a _ [zone of truth](/pathfinderRPG/prd/spells/zoneOfTruth.html#_zone-of-truth)_ spell (Will DC 13 negates) in a 5-foot radius centered on the candle. The zone lasts for 1 hour, while the candle burns. If the candle is snuffed before that time, the effect is ended and the candle ruined.
+This white tallow candle, when burned, calls into place a _ [zone of truth](spells/zoneOfTruth.md#_zone-of-truth)_ spell (Will DC 13 negates) in a 5-foot radius centered on the candle. The zone lasts for 1 hour, while the candle burns. If the candle is snuffed before that time, the effect is ended and the candle ruined.
 
 Construction Requirements
 
 **Cost** 1,250 gp
 
-Craft Wondrous Item, _ [zone of truth](/pathfinderRPG/prd/spells/zoneOfTruth.html#_zone-of-truth)_
+Craft Wondrous Item, _ [zone of truth](spells/zoneOfTruth.md#_zone-of-truth)_
 
 Cape of Bravado
 
 **Price** 7,000 gp; **Aura** faint enchantment; **CL** 2nd; **Weight** 1 lb.
 
-This bright red garment bestows no benefit when worn on the shoulders, but when held in one hand while draped over the arm, the cape obscures its user's movements in combat. Used this way, the cape bestows a +1 insight bonus to AC and a +5 competence bonus on [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) checks to feint in combat. Readying the cape in combat is a move action; if the wielder has a base attack bonus of +1 or higher, the wielder can ready the cape as a free action as part of movement.
+This bright red garment bestows no benefit when worn on the shoulders, but when held in one hand while draped over the arm, the cape obscures its user's movements in combat. Used this way, the cape bestows a +1 insight bonus to AC and a +5 competence bonus on [Bluff](skills/bluff.md#_bluff) checks to feint in combat. Readying the cape in combat is a move action; if the wielder has a base attack bonus of +1 or higher, the wielder can ready the cape as a free action as part of movement.
 
 Once per day as an immediate action, a creature brandishing a _cape of bravado _may attempt to compel an opponent within 30 feet to attack him on its next turn (Will negates DC 11).
 
@@ -919,13 +919,13 @@ Construction Requirements
 
 **Cost** 3,500 gp
 
-Craft Wondrous Item, _ [compel hostility](/pathfinderRPG/prd/ultimateCombat/spells/compelHostility.html#_compel-hostility) _, creator must have 5 ranks in the [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) skill
+Craft Wondrous Item, _ [compel hostility](ultimateCombat/spells/compelHostility.md#_compel-hostility) _, creator must have 5 ranks in the [Bluff](skills/bluff.md#_bluff) skill
 
 Carpet of Flying
 
 **Price** Varies; **Aura** moderate transmutation; **CL** 10th; **Weight** varies
 
-This rug is able to fly through the air as if affected by an _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_ spell of unlimited duration. The size, carrying capacity, and speed of the different _carpets of flying_ are shown on the table below. Beautifully and intricately made, each carpet has its own command word to activate it—if the device is within voice range, the command word activates it, whether the speaker is on the rug or not. The carpet is then controlled by spoken directions.
+This rug is able to fly through the air as if affected by an _ [overland flight](spells/overlandFlight.md#_overland-flight)_ spell of unlimited duration. The size, carrying capacity, and speed of the different _carpets of flying_ are shown on the table below. Beautifully and intricately made, each carpet has its own command word to activate it—if the device is within voice range, the command word activates it, whether the speaker is on the rug or not. The carpet is then controlled by spoken directions.
 
 | Size | Capacity | Speed | Weight | Price |
 | --- | --- | --- | --- | --- |
@@ -933,73 +933,73 @@ This rug is able to fly through the air as if affected by an _ [overland flight]
 | 5-ft.-by-10-ft. | 400 lbs. | 40 ft. | 10 lbs. | 35,000 gp |
 | 10-ft.-by-10-ft. | 800 lbs. | 40 ft. | 15 lbs. | 60,000 gp |
 
-A _carpet of flying_ can carry up to double its capacity, but doing so reduces its speed to 30 feet. A _carpet of flying_ can hover without making a [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) skill check and gives a +5 bonus to other [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) checks.
+A _carpet of flying_ can carry up to double its capacity, but doing so reduces its speed to 30 feet. A _carpet of flying_ can hover without making a [Fly](skills/fly.md#_fly) skill check and gives a +5 bonus to other [Fly](skills/fly.md#_fly) checks.
 
 Construction Requirements
 
 **5-ft.-by-5-ft.** 10,000 gp; **5-ft.-by-10-ft.** 17,500 gp; **10-ft.-by-10-ft.** 30,000 gp
 
-Craft Wondrous Item, _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_
+Craft Wondrous Item, _ [overland flight](spells/overlandFlight.md#_overland-flight)_
 
 Cauldron of Brewing
 
 **Price** 3,000 gp; **Aura** faint transmutation; **CL** 5th; **Weight** 5 lbs.
 
-A _cauldron of brewing_ looks like a fine cooking pot with four stout legs. The cauldron is capable of heating any liquid placed in it to a precise temperature (anywhere from just above room temperature to hot enough to boil salt water) and maintaining it indefinitely while still remaining only slightly warm to the touch on the outside. A _cauldron of brewing_ provides a +5 competence bonus on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) skill checks.
+A _cauldron of brewing_ looks like a fine cooking pot with four stout legs. The cauldron is capable of heating any liquid placed in it to a precise temperature (anywhere from just above room temperature to hot enough to boil salt water) and maintaining it indefinitely while still remaining only slightly warm to the touch on the outside. A _cauldron of brewing_ provides a +5 competence bonus on [Craft](skills/craft.md#_craft) (alchemy) skill checks.
 
 Construction Requirements
 
 **Cost** 1,500 gp
 
-Craft Wondrous Item, creator must be trained in [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (Alchemy)
+Craft Wondrous Item, creator must be trained in [Craft](skills/craft.md#_craft) (Alchemy)
 
 Cauldron of Flying
 
 **Price** 40,000 gp; **Aura** moderate transmutation; **CL** 10th; **Weight** 100 lbs.
 
-This iron pot is large enough for two Medium humanoids to stand in comfortably. Upon command, the cauldron and up to 500 pounds of additional weight can fly as if using _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_. The cauldron moves under the direction of the person who spoke the activating command word. It can carry up to double its capacity, but doing so reduces its speed to 30 feet. It can hover in place without the need for a [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) skill check. The cauldron provides partial cover for anyone standing in it. It has a hardness of 10 and 60 hit points.
+This iron pot is large enough for two Medium humanoids to stand in comfortably. Upon command, the cauldron and up to 500 pounds of additional weight can fly as if using _ [overland flight](spells/overlandFlight.md#_overland-flight)_. The cauldron moves under the direction of the person who spoke the activating command word. It can carry up to double its capacity, but doing so reduces its speed to 30 feet. It can hover in place without the need for a [Fly](skills/fly.md#_fly) skill check. The cauldron provides partial cover for anyone standing in it. It has a hardness of 10 and 60 hit points.
 
 Construction Requirements
 
 **Cost** 20,000 gp
 
-Craft Wondrous Item, _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_
+Craft Wondrous Item, _ [overland flight](spells/overlandFlight.md#_overland-flight)_
 
 Cauldron of Plenty
 
 **Price** 15,000 gp; **Aura** strong conjuration; **CL** 12th; **Weight** 25 lbs.
 
-This enchanted iron pot can produce nourishing, simple fare sufficient to feed up to 36 people per day upon command. Once per week it can also be commanded to create a _ [heroes' feast](/pathfinderRPG/prd/spells/heroesFeast.html#_heroes-feast)_ for up to 12 people. The cauldron needs neither fire nor ingredients to produce food; it does so instantly upon command.
+This enchanted iron pot can produce nourishing, simple fare sufficient to feed up to 36 people per day upon command. Once per week it can also be commanded to create a _ [heroes' feast](spells/heroesFeast.md#_heroes-feast)_ for up to 12 people. The cauldron needs neither fire nor ingredients to produce food; it does so instantly upon command.
 
 Construction Requirements
 
 **Cost** 7,500 gp
 
-Craft Wondrous Item, _ [create food and water](/pathfinderRPG/prd/spells/createFoodAndWater.html#_create-food-and-water)_, _ [heroes' feast](/pathfinderRPG/prd/spells/heroesFeast.html#_heroes-feast)_
+Craft Wondrous Item, _ [create food and water](spells/createFoodAndWater.md#_create-food-and-water)_, _ [heroes' feast](spells/heroesFeast.md#_heroes-feast)_
 
 Cauldron of Resurrection
 
 **Price** 33,000 gp; **Aura** strong conjuration; **CL** 13th; **Weight** 35 lbs.
 
-The mouth of this heavy, dark iron cauldron is shaped like a monstrous maw and is large enough to accommodate a single Medium creature. When the cauldron is filled with pure water and certain rare and sacred herbs, and a deceased creature is placed inside it, the cauldron can restore the creature to life as if with a _ [raise dead](/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead) _or _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_ spell. The spell effect depends on the components used: _ [raise dead](/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead)_ costs 5,000 gp worth of materials, while _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_ costs 10,000 gp worth of materials. The cauldron is usable once per day.
+The mouth of this heavy, dark iron cauldron is shaped like a monstrous maw and is large enough to accommodate a single Medium creature. When the cauldron is filled with pure water and certain rare and sacred herbs, and a deceased creature is placed inside it, the cauldron can restore the creature to life as if with a _ [raise dead](spells/raiseDead.md#_raise-dead) _or _ [resurrection](spells/resurrection.md#_resurrection)_ spell. The spell effect depends on the components used: _ [raise dead](spells/raiseDead.md#_raise-dead)_ costs 5,000 gp worth of materials, while _ [resurrection](spells/resurrection.md#_resurrection)_ costs 10,000 gp worth of materials. The cauldron is usable once per day.
 
 Construction Requirements
 
 **Cost** 16,500 gp
 
-Craft Wondrous Item, _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_
+Craft Wondrous Item, _ [resurrection](spells/resurrection.md#_resurrection)_
 
 Cauldron of Seeing
 
 **Price** 42,000 gp; **Aura** moderate divination; **CL** 10th; **Weight** 5 lbs.
 
-When filled with liquid, this small cauldron allows the user to see over virtually any distance as if using the _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ spell. It may have additional powers like those of a _crystal ball_ for the same prices.
+When filled with liquid, this small cauldron allows the user to see over virtually any distance as if using the _ [scrying](spells/scrying.md#_scrying)_ spell. It may have additional powers like those of a _crystal ball_ for the same prices.
 
 Construction Requirements
 
 **Cost** 21,000 gp
 
-Craft Wondrous Item, _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_
+Craft Wondrous Item, _ [scrying](spells/scrying.md#_scrying)_
 
 Cauldron of the Dead
 
@@ -1011,43 +1011,43 @@ Construction Requirements
 
 **Cost** 15,000 gp
 
-Craft Wondrous Item, _ [animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_
+Craft Wondrous Item, _ [animate dead](spells/animateDead.md#_animate-dead)_
 
 Cautionary Creance
 
 **Price** 4,000 gp; **Aura** faint transmutation; **CL** 1st; **Weight** 2 lbs.
 
-This slim leather leash is just over 100 feet long, incredibly light, and uncannily strong, making it an excellent tool for training birds of prey and other flying predators. It grants a +4 circumstance bonus on any [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) check made to train such animals. When used to bind a flying animal companion or familiar to its master, the leash allows the master to cast _ [feather fall](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall)_ on the creature at will. If the master has the share touch spells class ability, once per day he can use that ability on the leashed creature, even if they are not touching. The delivered spell can be no higher than 3rd level. The creance attaches to the master's forearm; attack rolls and skill checks made with that arm take a –1 penalty.
+This slim leather leash is just over 100 feet long, incredibly light, and uncannily strong, making it an excellent tool for training birds of prey and other flying predators. It grants a +4 circumstance bonus on any [Handle Animal](skills/handleAnimal.md#_handle-animal) check made to train such animals. When used to bind a flying animal companion or familiar to its master, the leash allows the master to cast _ [feather fall](spells/featherFall.md#_feather-fall)_ on the creature at will. If the master has the share touch spells class ability, once per day he can use that ability on the leashed creature, even if they are not touching. The delivered spell can be no higher than 3rd level. The creance attaches to the master's forearm; attack rolls and skill checks made with that arm take a –1 penalty.
 
 Construction Requirements
 
 **Cost** 2,000 gp
 
-Craft Wondrous Item, [Reach Spell](/pathfinderRPG/prd/advanced/advancedFeats.html#_reach-spell), _ [feather fall](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall)_
+Craft Wondrous Item, [Reach Spell](advanced/advancedFeats.md#_reach-spell), _ [feather fall](spells/featherFall.md#_feather-fall)_
 
 Censer of Conjuring Air Elementals
 
 **Price** 90,000 gp; **Aura** moderate conjuration; **CL** 13th; **Weight** 1 lb.
 
-This 6-inch-wide, perforated metallic vessel resembles a thurible found in a place of worship. The censer must be filled with incense to function. On command as a full-round action, the bearer may summon an air elemental. If the censer is filled with _incense of meditation_, it conjures a greater air elemental as if using _ [summon monster VII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vii)_. If filled with any other incense, it conjures a Large air elemental as if using _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_. Conjuring an elemental consumes any normal incense in the censer, or one-fourth of a block of incense of meditation. The censer cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.
+This 6-inch-wide, perforated metallic vessel resembles a thurible found in a place of worship. The censer must be filled with incense to function. On command as a full-round action, the bearer may summon an air elemental. If the censer is filled with _incense of meditation_, it conjures a greater air elemental as if using _ [summon monster VII](spells/summonMonster.md#_summon-monster-vii)_. If filled with any other incense, it conjures a Large air elemental as if using _ [summon monster V](spells/summonMonster.md#_summon-monster-v)_. Conjuring an elemental consumes any normal incense in the censer, or one-fourth of a block of incense of meditation. The censer cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.
 
 Construction Requirements
 
 **Cost** 45,000 gp
 
-Craft Wondrous Item, _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_, _ [summon monster VII](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vii)_
+Craft Wondrous Item, _ [summon monster V](spells/summonMonster.md#_summon-monster-v)_, _ [summon monster VII](spells/summonMonster.md#_summon-monster-vii)_
 
 Chalice of Poison Weeping
 
 **Price** 8,000 gp; **Aura** moderate conjuration; **CL** 7th; **Weight** 1 lb.
 
-This silver chalice has stylized representations of rearing unicorns serving as handles. The bearer of the chalice can expel toxins from a poisoned creature's body, causing the target to weep the poison from its eyes and allowing the bearer to collect it in the chalice. This functions as _ [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_ on the target, eliminating that poison. If the target is immune to poison or the poison has run its course, the chalice has no effect. If the poison normally has a solid or liquid form, it collects as a single dose of the poison in the cup (regardless of how many times the target was poisoned). The collected poison has all the normal effects of the original poison, except its DC is 4 lower, and can be stored in another container or used like any other poison. The chalice can be used once per day.
+This silver chalice has stylized representations of rearing unicorns serving as handles. The bearer of the chalice can expel toxins from a poisoned creature's body, causing the target to weep the poison from its eyes and allowing the bearer to collect it in the chalice. This functions as _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_ on the target, eliminating that poison. If the target is immune to poison or the poison has run its course, the chalice has no effect. If the poison normally has a solid or liquid form, it collects as a single dose of the poison in the cup (regardless of how many times the target was poisoned). The collected poison has all the normal effects of the original poison, except its DC is 4 lower, and can be stored in another container or used like any other poison. The chalice can be used once per day.
 
 Construction Requirements
 
 **Cost** 4,000 gp
 
-Craft Wondrous Item, _ [fabricate](/pathfinderRPG/prd/spells/fabricate.html#_fabricate)_, _ [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_
+Craft Wondrous Item, _ [fabricate](spells/fabricate.md#_fabricate)_, _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_
 
 Chaos Emerald
 
@@ -1055,20 +1055,20 @@ Chaos Emerald
 
 This lustrous green gemstone is uncut and about the size of a human fist. The gem grants its bearer the use of the following abilities.
 
-- _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_ (1 charge)
-- _ [lesser confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion-lesser)_ (1 charge)
-- _ [magic circle against law](/pathfinderRPG/prd/spells/magicCircleAgainstLaw.html#_magic-circle-against-law)_ (1 charge)
-- _ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (2 charges)
+- _ [entropic shield](spells/entropicShield.md#_entropic-shield)_ (1 charge)
+- _ [lesser confusion](spells/confusion.md#_confusion-lesser)_ (1 charge)
+- _ [magic circle against law](spells/magicCircleAgainstLaw.md#_magic-circle-against-law)_ (1 charge)
+- _ [chaos hammer](spells/chaosHammer.md#_chaos-hammer)_ (2 charges)
 
 A newly created _chaos emerald_ has 1d6+2 charges. It can hold a maximum of 10 charges and automatically regains 1d3–1 charges each day.
 
-A non-chaotic creature who holds or carries a _chaos emerald_ gains one negative level. This negative level persists as long as the creature holds or carries the gem and disappears when the gem is dropped. This negative level cannot be overcome in any way (including _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_ spells) while held or carried.
+A non-chaotic creature who holds or carries a _chaos emerald_ gains one negative level. This negative level persists as long as the creature holds or carries the gem and disappears when the gem is dropped. This negative level cannot be overcome in any way (including _ [restoration](spells/restoration.md#_restoration)_ spells) while held or carried.
 
 Construction Requirements
 
 **Cost** 12,500 gp
 
-Craft Wondrous Item, _ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_, _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_, _ [lesser confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion-lesser)_, _ [magic circle against law](/pathfinderRPG/prd/spells/magicCircleAgainstLaw.html#_magic-circle-against-law)_, creator must be chaotic
+Craft Wondrous Item, _ [chaos hammer](spells/chaosHammer.md#_chaos-hammer)_, _ [entropic shield](spells/entropicShield.md#_entropic-shield)_, _ [lesser confusion](spells/confusion.md#_confusion-lesser)_, _ [magic circle against law](spells/magicCircleAgainstLaw.md#_magic-circle-against-law)_, creator must be chaotic
 
 Chime of Interruption
 
@@ -1082,33 +1082,33 @@ Construction Requirements
 
 **Cost** 8,400 gp
 
-Craft Wondrous Item, _ [shout](/pathfinderRPG/prd/spells/shout.html#_shout)_
+Craft Wondrous Item, _ [shout](spells/shout.md#_shout)_
 
 Chime of Opening
 
 **Price** 3,000 gp; **Aura** moderate transmutation; **CL** 11th; **Weight** 1 lb.
 
-A _chime of opening_ is a hollow mithral tube about 1 foot long. When struck, it sends forth magical vibrations that cause locks, lids, doors, valves, and portals to open. The device functions against normal bars, shackles, chains, bolts, and so on. A _chime of opening_ also automatically dispels a _ [hold portal](/pathfinderRPG/prd/spells/holdPortal.html#_hold-portal)_ spell or even an _ [arcane lock](/pathfinderRPG/prd/spells/arcaneLock.html#_arcane-lock)_ cast by a spellcaster of lower than 15th level.
+A _chime of opening_ is a hollow mithral tube about 1 foot long. When struck, it sends forth magical vibrations that cause locks, lids, doors, valves, and portals to open. The device functions against normal bars, shackles, chains, bolts, and so on. A _chime of opening_ also automatically dispels a _ [hold portal](spells/holdPortal.md#_hold-portal)_ spell or even an _ [arcane lock](spells/arcaneLock.md#_arcane-lock)_ cast by a spellcaster of lower than 15th level.
 
-The chime must be pointed at the item or gate to be loosed or opened (which must be visible and known to the user). The chime is then struck and a clear tone rings forth. The wielder can then make a caster level check against the lock or binding, using the chime's caster level in place of her own. The DC of this check is equal to the [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) DC to open the lock or binding. Each sounding only opens one form of locking, so if a chest is chained, padlocked, locked, and arcane locked, it takes four successful uses of a _chime of opening_ to get it open. A _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ spell negates the power of the device. A brand-new chime can be used a total of 10 times before it cracks and becomes useless.
+The chime must be pointed at the item or gate to be loosed or opened (which must be visible and known to the user). The chime is then struck and a clear tone rings forth. The wielder can then make a caster level check against the lock or binding, using the chime's caster level in place of her own. The DC of this check is equal to the [Disable Device](skills/disableDevice.md#_disable-device) DC to open the lock or binding. Each sounding only opens one form of locking, so if a chest is chained, padlocked, locked, and arcane locked, it takes four successful uses of a _chime of opening_ to get it open. A _ [silence](spells/silence.md#_silence)_ spell negates the power of the device. A brand-new chime can be used a total of 10 times before it cracks and becomes useless.
 
 Construction Requirements
 
 **Cost** 1,500 gp
 
-Craft Wondrous Item, _ [knock](/pathfinderRPG/prd/spells/knock.html#_knock)_
+Craft Wondrous Item, _ [knock](spells/knock.md#_knock)_
 
 Chime of Resounding Silence
 
 **Price** 10,000 gp; **Aura** moderate evocation; **CL** 7th; **Weight** 1 lb.
 
-This foot-long tube of gold absorbs nearby sound when struck, as if it were the target of a _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ spell. This ability can be used once per day. The chime vibrates silently for the next 5 rounds, increasing in strength as time passes. On the bearer's turn each round there is a cumulative 20% chance that the chime prematurely ends the magical silence and releases the pent-up sound as a _ [shout](/pathfinderRPG/prd/spells/shout.html#_shout)_ spell as a free action, oriented in a random direction. The bearer may spend a standard action to strike the vibrating chime again, ending its _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ early and unleashing the _ [shout](/pathfinderRPG/prd/spells/shout.html#_shout)_ in a direction of his choosing. If dropped while vibrating, the chime automatically gains the broken condition and releases the _ [shout](/pathfinderRPG/prd/spells/shout.html#_shout)_ effect in a random direction. A broken _chime of resounding [silence](/pathfinderRPG/prd/spells/silence.html#_silence) _cannot be used until it is repaired. The chime has no effect if struck in an area of _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ it did not create.
+This foot-long tube of gold absorbs nearby sound when struck, as if it were the target of a _ [silence](spells/silence.md#_silence)_ spell. This ability can be used once per day. The chime vibrates silently for the next 5 rounds, increasing in strength as time passes. On the bearer's turn each round there is a cumulative 20% chance that the chime prematurely ends the magical silence and releases the pent-up sound as a _ [shout](spells/shout.md#_shout)_ spell as a free action, oriented in a random direction. The bearer may spend a standard action to strike the vibrating chime again, ending its _ [silence](spells/silence.md#_silence)_ early and unleashing the _ [shout](spells/shout.md#_shout)_ in a direction of his choosing. If dropped while vibrating, the chime automatically gains the broken condition and releases the _ [shout](spells/shout.md#_shout)_ effect in a random direction. A broken _chime of resounding [silence](spells/silence.md#_silence) _cannot be used until it is repaired. The chime has no effect if struck in an area of _ [silence](spells/silence.md#_silence)_ it did not create.
 
 Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item, _ [shout](/pathfinderRPG/prd/spells/shout.html#_shout)_, _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_
+Craft Wondrous Item, _ [shout](spells/shout.md#_shout)_, _ [silence](spells/silence.md#_silence)_
 
 Clamor Box
 
@@ -1120,7 +1120,7 @@ Construction Requirements
 
 **Cost** 1,000 gp
 
-Craft Wondrous Item,_ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_
+Craft Wondrous Item,_ [ghost sound](spells/ghostSound.md#_ghost-sound)_
 
 Coin of the Untrodden Road
 
@@ -1132,19 +1132,19 @@ Construction Requirements
 
 **Cost** 3,000 gp
 
-Craft Wondrous Item, _ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_
+Craft Wondrous Item, _ [alter self](spells/alterSelf.md#_alter-self)_
 
 Concealing Pocket
 
 **Price** 1,000 gp; **Aura** faint illusion; **CL** 3rd; **Weight** —
 
-This 4-inch-square cloth pocket has no powers unless it is sewn onto a garment (which takes 1d4 minutes). Once sewn, it changes its appearance to match the garment. Any magic item inside it cannot be magically detected, as if protected by _ [magic aura](/pathfinderRPG/prd/spells/magicAura.html#_magic-aura)_. Hiding an item in the pocket gives the garment's wearer a +5 competence bonus on [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) checks to conceal the item. The pocket can be removed from the garment with a DC 10 [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) check or an appropriate [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) check such as [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (cloth) or [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (leather); failing this roll by 5 or more gives the pocket the broken condition.
+This 4-inch-square cloth pocket has no powers unless it is sewn onto a garment (which takes 1d4 minutes). Once sewn, it changes its appearance to match the garment. Any magic item inside it cannot be magically detected, as if protected by _ [magic aura](spells/magicAura.md#_magic-aura)_. Hiding an item in the pocket gives the garment's wearer a +5 competence bonus on [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks to conceal the item. The pocket can be removed from the garment with a DC 10 [Heal](skills/heal.md#_heal) check or an appropriate [Craft](skills/craft.md#_craft) check such as [Craft](skills/craft.md#_craft) (cloth) or [Craft](skills/craft.md#_craft) (leather); failing this roll by 5 or more gives the pocket the broken condition.
 
 Construction Requirements
 
 **Cost** 500 gp
 
-Craft Wondrous Item, _ [magic aura](/pathfinderRPG/prd/spells/magicAura.html#_magic-aura)_
+Craft Wondrous Item, _ [magic aura](spells/magicAura.md#_magic-aura)_
 
 Construct Channel Brick
 
@@ -1156,35 +1156,35 @@ Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item, _ [make whole](/pathfinderRPG/prd/spells/makeWhole.html#_make-whole)_
+Craft Wondrous Item, _ [make whole](spells/makeWhole.md#_make-whole)_
 
 Crystal Ball
 
 **Price** Varies; **Aura** moderate divination; **CL** 10th; **Weight** 7 lbs.
 
-This is the most common form of scrying device, a crystal sphere about 6 inches in diameter. So well-known are these items that many so-called oracles or fortune-tellers use similar appearing (but completely non-magical) replicas of these items to ply their trades. A character can use a magical crystal ball to see over virtually any distance or into other planes of existence, as with the spell _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ (Will DC 16 negates). A crystal ball can be used multiple times per day, but the DC to resist its power decreases by 1 for each additional use.
+This is the most common form of scrying device, a crystal sphere about 6 inches in diameter. So well-known are these items that many so-called oracles or fortune-tellers use similar appearing (but completely non-magical) replicas of these items to ply their trades. A character can use a magical crystal ball to see over virtually any distance or into other planes of existence, as with the spell _ [scrying](spells/scrying.md#_scrying)_ (Will DC 16 negates). A crystal ball can be used multiple times per day, but the DC to resist its power decreases by 1 for each additional use.
 
 Certain crystal balls have additional powers that can be used through the crystal ball on the target viewed.
 
 | Crystal Ball Type | Price |
 | --- | --- |
 | _Crystal ball_ | 42,000 gp |
-| _Crystal ball _with_ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_ | 50,000 gp |
-| _Crystal ball _with _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts) (Will DC 13 negates)_ | 51,000 gp |
+| _Crystal ball _with_ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_ | 50,000 gp |
+| _Crystal ball _with _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts) (Will DC 13 negates)_ | 51,000 gp |
 | _Crystal ball_ with _telepathy_\* | 70,000 gp |
-| _Crystal ball_ with _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_ | 80,000 gp |
+| _Crystal ball_ with _ [true seeing](spells/trueSeeing.md#_true-seeing)_ | 80,000 gp |
 
 Construction Requirements
 
-**_Crystal ball_** 21,000 gp; **_Crystal ball_ with _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_** 25,000 gp; **_Crystal ball _with _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_** 25,500 gp; **_Crystal ball _with _telepathy_** 35,000 gp; **_Crystal ball _with _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_** 40,000 gp
+**_Crystal ball_** 21,000 gp; **_Crystal ball_ with _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_** 25,000 gp; **_Crystal ball _with _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_** 25,500 gp; **_Crystal ball _with _telepathy_** 35,000 gp; **_Crystal ball _with _ [true seeing](spells/trueSeeing.md#_true-seeing)_** 40,000 gp
 
-Craft Wondrous Item, _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ (plus any additional spells put into the _crystal ball_)
+Craft Wondrous Item, _ [scrying](spells/scrying.md#_scrying)_ (plus any additional spells put into the _crystal ball_)
 
 Cube of Force
 
 **Price** 62,000 gp; **Aura** moderate evocation; **CL** 10th; **Weight** 1/2 lb.
 
-This device is just under an inch across and can be made of ivory, bone, or any hard mineral. Typically, each of the cube's faces are polished smooth, but sometimes they are etched with runes. The device enables its possessor to put up a special cube made up of 6 individual _ [wall of force](/pathfinderRPG/prd/spells/wallOfForce.html#_wall-of-force)_ spells, 10 feet on a side around her person. This cubic screen moves with the character and is impervious to the attack forms mentioned on the table below. The cube has 36 charges when fully charged—charges used are automatically renewed each day. The possessor presses one face of the cube to activate a particular type of screen or to deactivate the device. Each effect costs a certain number of charges to maintain for every minute (or portion of a minute) it is in operation. Also, when an effect is active, the possessor's speed is limited to the maximum value given on the following table.
+This device is just under an inch across and can be made of ivory, bone, or any hard mineral. Typically, each of the cube's faces are polished smooth, but sometimes they are etched with runes. The device enables its possessor to put up a special cube made up of 6 individual _ [wall of force](spells/wallOfForce.md#_wall-of-force)_ spells, 10 feet on a side around her person. This cubic screen moves with the character and is impervious to the attack forms mentioned on the table below. The cube has 36 charges when fully charged—charges used are automatically renewed each day. The possessor presses one face of the cube to activate a particular type of screen or to deactivate the device. Each effect costs a certain number of charges to maintain for every minute (or portion of a minute) it is in operation. Also, when an effect is active, the possessor's speed is limited to the maximum value given on the following table.
 
 When the _cube of force _is active, attacks dealing more than 30 points of damage to a wall drain 1 charge for every 10 points of damage beyond 30 that they deal. The charge cost to maintain each of the cube's six walls is summarized below.
 
@@ -1199,30 +1199,30 @@ Spells that affect the integrity of the screen also drain extra charges. These s
 
 | Attack Form | Extra Charges |
 | --- | --- |
-| _ [Disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_ | 6 |
+| _ [Disintegrate](spells/disintegrate.md#_disintegrate)_ | 6 |
 | _Horn of blasting_ | 6 |
-| _ [Passwall](/pathfinderRPG/prd/spells/passwall.html#_passwall)_ | 3 |
-| _ [Phase door](/pathfinderRPG/prd/spells/phaseDoor.html#_phase-door)_ | 5 |
-| _ [Prismatic spray](/pathfinderRPG/prd/spells/prismaticSpray.html#_prismatic-spray)_ | 7 |
-| _ [Wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_ | 2 |
+| _ [Passwall](spells/passwall.md#_passwall)_ | 3 |
+| _ [Phase door](spells/phaseDoor.md#_phase-door)_ | 5 |
+| _ [Prismatic spray](spells/prismaticSpray.md#_prismatic-spray)_ | 7 |
+| _ [Wall of fire](spells/wallOfFire.md#_wall-of-fire)_ | 2 |
 
 Construction Requirements
 
 **Cost** 31,000 gp
 
-Craft Wondrous Item, _ [wall of force](/pathfinderRPG/prd/spells/wallOfForce.html#_wall-of-force)_
+Craft Wondrous Item, _ [wall of force](spells/wallOfForce.md#_wall-of-force)_
 
 Cube of Frost Resistance
 
 **Price** 27,000 gp; **Aura** faint abjuration; **CL** 5th; **Weight** 2 lbs.
 
-This cube is activated or deactivated by pressing one side. When activated, it creates a cube-shaped area 10 feet on a side centered on the possessor (or on the cube itself, if the item is later placed on a surface). The temperature within this area is always at least 65Â° F. The field absorbs all cold-based attacks. However, if the field is subjected to more than 50 points of cold damage in 1 round (from one or multiple attacks), it collapses and cannot be reactivated for 1 hour. If the field absorbs more than 100 points of cold damage in a 10-round period, the cube is destroyed.
+This cube is activated or deactivated by pressing one side. When activated, it creates a cube-shaped area 10 feet on a side centered on the possessor (or on the cube itself, if the item is later placed on a surface). The temperature within this area is always at least 65° F. The field absorbs all cold-based attacks. However, if the field is subjected to more than 50 points of cold damage in 1 round (from one or multiple attacks), it collapses and cannot be reactivated for 1 hour. If the field absorbs more than 100 points of cold damage in a 10-round period, the cube is destroyed.
 
 Construction Requirements
 
 **Cost** 13,500 gp
 
-Craft Wondrous Item, _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_
+Craft Wondrous Item, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_
 
 Cubic Gate
 
@@ -1238,19 +1238,19 @@ Construction Requirements
 
 **Cost** 82,000 gp
 
-Craft Wondrous Item, _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_
+Craft Wondrous Item, _ [plane shift](spells/planeShift.md#_plane-shift)_
 
 Darkskull
 
 **Price** 60,000 gp; **Aura** moderate evocation [evil]; **CL** 9th; **Weight** 5 lbs.
 
-This skull, carved from ebony, is wholly evil. Wherever the skull goes, the area around it is treated as though an _ [unhallow](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)_ spell had been cast with the skull as the touched point of origin. Each _darkskull_ has a single spell effect tied to it. This spell is from the standard list given in the _ [unhallow](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)_ spell description, and it cannot be changed.
+This skull, carved from ebony, is wholly evil. Wherever the skull goes, the area around it is treated as though an _ [unhallow](spells/unhallow.md#_unhallow)_ spell had been cast with the skull as the touched point of origin. Each _darkskull_ has a single spell effect tied to it. This spell is from the standard list given in the _ [unhallow](spells/unhallow.md#_unhallow)_ spell description, and it cannot be changed.
 
 Construction Requirements
 
 **Cost** 30,000 gp
 
-Craft Wondrous Item, _ [unhallow](/pathfinderRPG/prd/spells/unhallow.html#_unhallow)_, creator must be evil
+Craft Wondrous Item, _ [unhallow](spells/unhallow.md#_unhallow)_, creator must be evil
 
 Decanter of Endless Water
 
@@ -1268,13 +1268,13 @@ Construction Requirements
 
 **Cost** 4,500 gp
 
-Craft Wondrous Item, _ [control water](/pathfinderRPG/prd/spells/controlWater.html#_control-water)_
+Craft Wondrous Item, _ [control water](spells/controlWater.md#_control-water)_
 
 Deck of Illusions
 
 **Price** 8,100 gp; **Aura** moderate illusion; **CL** 6th; **Weight** 1/2 lb.
 
-This set of parchment cards is usually found in an ivory, leather, or wooden box. A full deck consists of 34 cards. When a card is drawn at random and thrown to the ground, a _ [major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_ of a creature is formed. The figment lasts until dispelled. The illusory creature cannot move more than 30 feet away from where the card landed, but otherwise moves and acts as if it were real. At all times it obeys the desires of the character who drew the card. When the illusion is dispelled, the card becomes blank and cannot be used again. If the card is picked up, the illusion is automatically and instantly dispelled. The cards in a deck and the illusions they bring forth are summarized on the following table. (Use one of the first two columns to simulate the contents of a full deck using either ordinary playing cards or tarot cards.)
+This set of parchment cards is usually found in an ivory, leather, or wooden box. A full deck consists of 34 cards. When a card is drawn at random and thrown to the ground, a _ [major image](spells/majorImage.md#_major-image)_ of a creature is formed. The figment lasts until dispelled. The illusory creature cannot move more than 30 feet away from where the card landed, but otherwise moves and acts as if it were real. At all times it obeys the desires of the character who drew the card. When the illusion is dispelled, the card becomes blank and cannot be used again. If the card is picked up, the illusion is automatically and instantly dispelled. The cards in a deck and the illusions they bring forth are summarized on the following table. (Use one of the first two columns to simulate the contents of a full deck using either ordinary playing cards or tarot cards.)
 
  Playing Card | Tarot Card | Creature || Ace of hearts | IV. The Emperor | Red dragon |
 | King of hearts | Knight of swords | Male human fighter and four guards |
@@ -1317,7 +1317,7 @@ Construction Requirements
 
 **Cost** 4,050 gp
 
-Craft Wondrous Item, _ [major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_
+Craft Wondrous Item, _ [major image](spells/majorImage.md#_major-image)_
 
 Defoliant Polish
 
@@ -1329,7 +1329,7 @@ Construction Requirements
 
 **Cost** 400 gp
 
-Craft Wondrous Item, _ [diminish plants](/pathfinderRPG/prd/spells/diminishPlants.html#_diminish-plants)_
+Craft Wondrous Item, _ [diminish plants](spells/diminishPlants.md#_diminish-plants)_
 
 Doomharp
 
@@ -1341,7 +1341,7 @@ Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item, _ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_
+Craft Wondrous Item, _ [cause fear](spells/causeFear.md#_cause-fear)_
 
 Dowsing Syrup
 
@@ -1353,19 +1353,19 @@ Construction Requirements
 
 **Cost** 500 gp
 
-Craft Wondrous Item, _ [find the path](/pathfinderRPG/prd/spells/findThePath.html#_find-the-path), [locate creature](/pathfinderRPG/prd/spells/locateCreature.html#_locate-creature), [locate object](/pathfinderRPG/prd/spells/locateObject.html#_locate-object)_
+Craft Wondrous Item, _ [find the path](spells/findThePath.md#_find-the-path), [locate creature](spells/locateCreature.md#_locate-creature), [locate object](spells/locateObject.md#_locate-object)_
 
 Dragonbone Divination Sticks
 
 **Price** 6,400 gp; **Aura** faint divination; **CL** 5th; **Weight** 1 lb.
 
-These eight rune-engraved dragon bones may be used as a divine focus for augury. They add 5% to the chance to successfully cast _ [augury](/pathfinderRPG/prd/spells/augury.html#_augury)_ and _ [divination](/pathfinderRPG/prd/spells/divination.html#_divination)_. The bearer of the set gains a +3 luck bonus on one type of saving throw (Fortitude, Reflex, or Will), determined randomly each day. If a creature carries multiple sets of _dragonbone [divination](/pathfinderRPG/prd/spells/divination.html#_divination) sticks_, all of them provide a bonus on the same saving throw.
+These eight rune-engraved dragon bones may be used as a divine focus for augury. They add 5% to the chance to successfully cast _ [augury](spells/augury.md#_augury)_ and _ [divination](spells/divination.md#_divination)_. The bearer of the set gains a +3 luck bonus on one type of saving throw (Fortitude, Reflex, or Will), determined randomly each day. If a creature carries multiple sets of _dragonbone [divination](spells/divination.md#_divination) sticks_, all of them provide a bonus on the same saving throw.
 
 Construction Requirements
 
 **Cost** 3,200 gp
 
-Craft Wondrous Item, _ [augury](/pathfinderRPG/prd/spells/augury.html#_augury)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_
+Craft Wondrous Item, _ [augury](spells/augury.md#_augury)_, _ [guidance](spells/guidance.md#_guidance)_
 
 Drinking Horn of Bottomless Valor
 
@@ -1373,11 +1373,11 @@ Drinking Horn of Bottomless Valor
 
 This horn is bound with fittings of gold and decorated with ornate carvings depicting scenes of glorious battle. A fully charged horn has 3 charges—charges used are automatically renewed each day. So long as the horn has at least one charge remaining, it's owner can command it to fill with mead or a similar alcoholic drink. A creature can spend one or more charges while drinking from the horn to gain the following benefits:
 
-_1 charge_: The drinker gains 1d8 temporary hit points (as if from an _ [aid](/pathfinderRPG/prd/spells/aid.html#_aid)_ spell), which last for 1 minute.
+_1 charge_: The drinker gains 1d8 temporary hit points (as if from an _ [aid](spells/aid.md#_aid)_ spell), which last for 1 minute.
 
-_2 charges_: The drinker gains 1d8+5 temporary hit points and is enlarged, as the spell _ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_, for 5 minutes.
+_2 charges_: The drinker gains 1d8+5 temporary hit points and is enlarged, as the spell _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_, for 5 minutes.
 
-_3 charges_: The drinker gains 1d8+10 temporary hit points, is enlarged for 10 minutes, and gains the benefit of a _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_ spell for as long as she is enlarged.
+_3 charges_: The drinker gains 1d8+10 temporary hit points, is enlarged for 10 minutes, and gains the benefit of a _ [heroism](spells/heroism.md#_heroism)_ spell for as long as she is enlarged.
 
 A creature must drink deeply from the horn to receive its full benefit. Using 1 charge is similar to drinking a potion—it takes a standard action and provokes an attack of opportunity (though certain abilities can reduce the action required). To use 2 charges, the drinker must spend a full round drinking from the horn, which always provokes and attack of opportunity. To use all 3 charges, the drinker must spend 2 full-round actions drinking from the horn.
 
@@ -1385,43 +1385,43 @@ Construction Requirements
 
 **Cost** 12,000 gp
 
-Craft Wondrous Item, _ [aid](/pathfinderRPG/prd/spells/aid.html#_aid)_, _ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_, _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_
+Craft Wondrous Item, _ [aid](spells/aid.md#_aid)_, _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_, _ [heroism](spells/heroism.md#_heroism)_
 
 Drum of Advance and Retreat
 
 **Price** 10,000 gp; **Aura** faint transmutation; **CL** 1st; **Weight** 5 lbs.
 
-When played, this sturdy snare drum increases the run speed of allied creatures within 120 feet as if they had the [Run](/pathfinderRPG/prd/feats.html#_run) feat. Activating the drum is a standard action that requires a DC 20 [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (percussion) check; maintaining the playing is a free action if the player is running. If the bearer stops playing the drum, the enhanced running speed ends. The drum may be used for up to 1 hour per day. This duration does not need to be consecutive, but must be used in 10-minute increments.
+When played, this sturdy snare drum increases the run speed of allied creatures within 120 feet as if they had the [Run](feats.md#_run) feat. Activating the drum is a standard action that requires a DC 20 [Perform](skills/perform.md#_perform) (percussion) check; maintaining the playing is a free action if the player is running. If the bearer stops playing the drum, the enhanced running speed ends. The drum may be used for up to 1 hour per day. This duration does not need to be consecutive, but must be used in 10-minute increments.
 
 Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item, _ [expeditious retreat](/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat)_
+Craft Wondrous Item, _ [expeditious retreat](spells/expeditiousRetreat.md#_expeditious-retreat)_
 
 Drums of Haste
 
 **Price** 45,000 gp; **Aura** faint transmutation; **CL** 5th; **Weight** 5 lbs.
 
-This set of kettle drums is carried on a shoulder strap and played one-handed using a single two-sided mallet. By making a DC 20 [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (percussion) check, the bearer can grant the effects of a _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_ spell on up to 5 creatures. The drums can affect up to 25 creatures per day.
+This set of kettle drums is carried on a shoulder strap and played one-handed using a single two-sided mallet. By making a DC 20 [Perform](skills/perform.md#_perform) (percussion) check, the bearer can grant the effects of a _ [haste](spells/haste.md#_haste)_ spell on up to 5 creatures. The drums can affect up to 25 creatures per day.
 
 Construction Requirements
 
 **Cost** 22,500 gp
 
-Craft Wondrous Item, _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_
+Craft Wondrous Item, _ [haste](spells/haste.md#_haste)_
 
 Drums of Panic
 
 **Price** 30,000 gp; **Aura** moderate necromancy; **CL** 7th; **Weight** 10 lbs.
 
-These drums are kettle drums (hemispheres about 1-1/2 feet in diameter on stands). They come in pairs and are unremarkable in appearance. If both of the pair are sounded, all creatures within 120 feet (with the exception of those within a 20-foot-radius safe zone around the drums) are affected as by a _ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_ spell (Will DC 16 partial). _Drums of panic_ can be used once per day.
+These drums are kettle drums (hemispheres about 1-1/2 feet in diameter on stands). They come in pairs and are unremarkable in appearance. If both of the pair are sounded, all creatures within 120 feet (with the exception of those within a 20-foot-radius safe zone around the drums) are affected as by a _ [fear](spells/fear.md#_fear)_ spell (Will DC 16 partial). _Drums of panic_ can be used once per day.
 
 Construction Requirements
 
 **Cost** 15,000 gp
 
-Craft Wondrous Item, _ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_
+Craft Wondrous Item, _ [fear](spells/fear.md#_fear)_
 
 Dry Load Powder Horn
 
@@ -1435,7 +1435,7 @@ Construction Requirements
 
 **Cost** 1,000 gp
 
-Craft Wondrous Item, _ [air bubble](/pathfinderRPG/prd/ultimateCombat/spells/airBubble.html#_air-bubble)_
+Craft Wondrous Item, _ [air bubble](ultimateCombat/spells/airBubble.md#_air-bubble)_
 
 Dust of Acid Consumption
 
@@ -1449,13 +1449,13 @@ Construction Requirements
 
 **Cost** 800 gp
 
-Craft Wondrous Item, _ [control water](/pathfinderRPG/prd/spells/controlWater.html#_control-water)_, _ [disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_
+Craft Wondrous Item, _ [control water](spells/controlWater.md#_control-water)_, _ [disintegrate](spells/disintegrate.md#_disintegrate)_
 
 Dust of Appearance
 
 **Price** 1,800 gp; **Aura** faint conjuration; **CL** 5th; **Weight** —
 
-This powder appears to be a very fine, very light metallic dust. A single handful of this substance flung into the air coats objects within a 10-foot radius, making them visible even if they are invisible. It likewise negates the effects of _ [blur](/pathfinderRPG/prd/spells/blur.html#_blur)_ and _ [displacement](/pathfinderRPG/prd/spells/displacement.html#_displacement)_. In this, it works just like the _ [faerie fire](/pathfinderRPG/prd/spells/faerieFire.html#_faerie-fire)_ spell. The dust also reveals figments, mirror images, and projected images for what they are. A creature coated with the dust takes a –30 penalty on its [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks. The dust's effect lasts for 5 minutes.
+This powder appears to be a very fine, very light metallic dust. A single handful of this substance flung into the air coats objects within a 10-foot radius, making them visible even if they are invisible. It likewise negates the effects of _ [blur](spells/blur.md#_blur)_ and _ [displacement](spells/displacement.md#_displacement)_. In this, it works just like the _ [faerie fire](spells/faerieFire.md#_faerie-fire)_ spell. The dust also reveals figments, mirror images, and projected images for what they are. A creature coated with the dust takes a –30 penalty on its [Stealth](skills/stealth.md#_stealth) checks. The dust's effect lasts for 5 minutes.
 
 _Dust of appearance_ is typically stored in small silk packets or hollow bone tubes.
 
@@ -1463,31 +1463,31 @@ Construction Requirements
 
 **Cost** 900 gp
 
-Craft Wondrous Item, _ [glitterdust](/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust)_
+Craft Wondrous Item, _ [glitterdust](spells/glitterdust.md#_glitterdust)_
 
 Dust of Darkness
 
 **Price** 600 gp; **Aura** faint evocation; **CL** 3rd; **Weight** —
 
-This shimmering black dust causes one creature to be coated in a layer of darkness for 1 minute. In normal light, the creature gains concealment (20% miss chance). In dim light, the creature gains total concealment (50% miss chance). It has no effect in areas of bright light or darkness (though in bright light, a viewer can make a DC 20 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) check to notice the target is slightly shadowed). Creatures with darkvision see through the dust's darkness as if it were normal darkness. The dust dispels and counters the outlining effects of _ [glitterdust](/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust)_, but doesn't affect the spell's blinding effects. _ [Glitterdust](/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust)_ dispels and counters the effects of the _dust of [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_.
+This shimmering black dust causes one creature to be coated in a layer of darkness for 1 minute. In normal light, the creature gains concealment (20% miss chance). In dim light, the creature gains total concealment (50% miss chance). It has no effect in areas of bright light or darkness (though in bright light, a viewer can make a DC 20 [Perception](skills/perception.md#_perception) check to notice the target is slightly shadowed). Creatures with darkvision see through the dust's darkness as if it were normal darkness. The dust dispels and counters the outlining effects of _ [glitterdust](spells/glitterdust.md#_glitterdust)_, but doesn't affect the spell's blinding effects. _ [Glitterdust](spells/glitterdust.md#_glitterdust)_ dispels and counters the effects of the _dust of [darkness](spells/darkness.md#_darkness)_.
 
 Construction Requirements
 
 **Cost** 300 gp
 
-Craft Wondrous Item, _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_
+Craft Wondrous Item, _ [darkness](spells/darkness.md#_darkness)_
 
 Dust of Disappearance
 
 **Price** 3,500 gp; **Aura** moderate illusion; **CL** 7th; **Weight** —
 
-This dust looks like _dust of appearance_ and is typically stored in the same manner. A creature or object touched by it becomes invisible (as _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_). Normal vision can't see dusted creatures or objects, nor can they be detected by magical means, including _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_ or _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_. _Dust of appearance_, however, does reveal people and objects made invisible by _dust of disappearance_. Other factors, such as sound and smell, also allow possible detection. The _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_ bestowed by the dust lasts for 2d6 rounds. The invisible creature doesn't know when the duration will end.
+This dust looks like _dust of appearance_ and is typically stored in the same manner. A creature or object touched by it becomes invisible (as _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_). Normal vision can't see dusted creatures or objects, nor can they be detected by magical means, including _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_ or _ [invisibility purge](spells/invisibilityPurge.md#_invisibility-purge)_. _Dust of appearance_, however, does reveal people and objects made invisible by _dust of disappearance_. Other factors, such as sound and smell, also allow possible detection. The _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_ bestowed by the dust lasts for 2d6 rounds. The invisible creature doesn't know when the duration will end.
 
 Construction Requirements
 
 **Cost** 1,750 gp
 
-Craft Wondrous Item,_ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_
+Craft Wondrous Item,_ [greater invisibility](spells/invisibility.md#_invisibility-greater)_
 
 Dust of Dryness
 
@@ -1501,31 +1501,31 @@ Construction Requirements
 
 **Cost** 425 gp
 
-Craft Wondrous Item, _ [control water](/pathfinderRPG/prd/spells/controlWater.html#_control-water)_
+Craft Wondrous Item, _ [control water](spells/controlWater.md#_control-water)_
 
 Dust of Emulation
 
 **Price** 800 gp; **Aura** faint illusion; **CL** 1st; **Weight** —
 
-A creature coated with this glittering golden dust can interact with any one item or object as if she had successfully used the [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) skill to emulate a class feature or race (if the exact result of the check matters, treat the character's result as a 25). If the user of the dust does not mentally select the intended item or object while coating herself with the dust, the magic of the dust applies to the first eligible object she encounters. She can apply the result of this automatic check when dealing with the item or object for 1 hour after exposure to the dust.
+A creature coated with this glittering golden dust can interact with any one item or object as if she had successfully used the [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) skill to emulate a class feature or race (if the exact result of the check matters, treat the character's result as a 25). If the user of the dust does not mentally select the intended item or object while coating herself with the dust, the magic of the dust applies to the first eligible object she encounters. She can apply the result of this automatic check when dealing with the item or object for 1 hour after exposure to the dust.
 
 Construction Requirements
 
 **Cost** 400 gp
 
-Craft Wondrous Item, _ [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_
+Craft Wondrous Item, _ [disguise self](spells/disguiseSelf.md#_disguise-self)_
 
 Dust of Illusion
 
 **Price** 1,200 gp; **Aura** moderate illusion; **CL** 6th; **Weight** —
 
-This unremarkable powder resembles chalk dust or powdered graphite. When stared at, however, the dust changes color and form. A creature covered in _dust of illusion _is affected as if by a _ [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_ glamer, with the individual who sprinkles the dust envisioning the illusion desired. An unwilling target is allowed a DC 11 Reflex save to avoid the dust. The glamer lasts for 2 hours.
+This unremarkable powder resembles chalk dust or powdered graphite. When stared at, however, the dust changes color and form. A creature covered in _dust of illusion _is affected as if by a _ [disguise self](spells/disguiseSelf.md#_disguise-self)_ glamer, with the individual who sprinkles the dust envisioning the illusion desired. An unwilling target is allowed a DC 11 Reflex save to avoid the dust. The glamer lasts for 2 hours.
 
 Construction Requirements
 
 **Cost** 600 gp
 
-Craft Wondrous Item, _ [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_
+Craft Wondrous Item, _ [disguise self](spells/disguiseSelf.md#_disguise-self)_
 
 Dust of Tracelessness
 
@@ -1533,13 +1533,13 @@ Dust of Tracelessness
 
 This normal-seeming dust is actually a magic powder that can conceal the passage of its possessor and his companions. Tossing a handful of this dust into the air causes a chamber of up to 100 square feet of floor space to become as dusty, dirty, and cobweb-laden as if it had been abandoned and disused for a decade.
 
-A handful of dust sprinkled along a trail causes evidence of the passage of as many as a dozen humanoids and horses to be obliterated for 250 feet back into the distance. The results of the dust are instantaneous, and no magical aura lingers afterward from this use of the dust. [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) checks made to track a quarry across an area affected by this dust have a DC 20 higher than normal.
+A handful of dust sprinkled along a trail causes evidence of the passage of as many as a dozen humanoids and horses to be obliterated for 250 feet back into the distance. The results of the dust are instantaneous, and no magical aura lingers afterward from this use of the dust. [Survival](skills/survival.md#_survival) checks made to track a quarry across an area affected by this dust have a DC 20 higher than normal.
 
 Construction Requirements
 
 **Cost** 125 gp
 
-Craft Wondrous Item, _ [pass without trace](/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace)_
+Craft Wondrous Item, _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_
 
 Dust Of Weighty Burdens
 
@@ -1555,7 +1555,7 @@ Construction Requirements
 
 **Cost** 1,800 gp
 
-Craft Wondrous Item, _ [slow](/pathfinderRPG/prd/spells/slow.html#_slow)_, _ [stone shape](/pathfinderRPG/prd/spells/stoneShape.html#_stone-shape)_
+Craft Wondrous Item, _ [slow](spells/slow.md#_slow)_, _ [stone shape](spells/stoneShape.md#_stone-shape)_
 
 Efficient Quiver
 
@@ -1567,7 +1567,7 @@ Construction Requirements
 
 **Cost** 900 gp
 
-Craft Wondrous Item, _ [secret chest](/pathfinderRPG/prd/spells/secretChest.html#_secret-chest)_
+Craft Wondrous Item, _ [secret chest](spells/secretChest.md#_secret-chest)_
 
 Efreeti Bottle
 
@@ -1579,7 +1579,7 @@ Construction Requirements
 
 **Cost** 72,500 gp
 
-Craft Wondrous Item, _ [planar binding](/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding)_
+Craft Wondrous Item, _ [planar binding](spells/planarBinding.md#_planar-binding)_
 
 Elemental Gem
 
@@ -1595,7 +1595,7 @@ Construction Requirements
 
 **Cost** 1,125 gp
 
-Craft Wondrous Item, _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_ or _ [summon nature's ally V](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-v)_
+Craft Wondrous Item, _ [summon monster V](spells/summonMonster.md#_summon-monster-v)_ or _ [summon nature's ally V](spells/summonNatureSAlly.md#_summon-nature-s-ally-v)_
 
 Elixir of Dragon Breath
 
@@ -1619,7 +1619,7 @@ Construction Requirements
 
 **Cost** 700 gp
 
-Craft Wondrous Item, _ [dragon's breath](/pathfinderRPG/prd/advanced/spells/dragonSBreath.html#_dragon's-breath)_
+Craft Wondrous Item, _ [dragon's breath](advanced/spells/dragonSBreath.md#_dragon's-breath)_
 
 Elixir of Fire Breath
 
@@ -1631,43 +1631,43 @@ Construction Requirements
 
 **Cost** 550 gp
 
-Craft Wondrous Item, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_
+Craft Wondrous Item, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_
 
 Elixir of Hiding
 
 **Price** 250 gp; **Aura** faint illusion; **CL** 5th; **Weight** —
 
-A character drinking this liquid gains an intuitive ability to sneak and hide (+10 competence bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks for 1 hour).
+A character drinking this liquid gains an intuitive ability to sneak and hide (+10 competence bonus on [Stealth](skills/stealth.md#_stealth) checks for 1 hour).
 
 Construction Requirements
 
 **Cost** 125 gp
 
-Craft Wondrous Item, _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_
+Craft Wondrous Item, _ [invisibility](spells/invisibility.md#_invisibility)_
 
 Elixir of Love
 
 **Price** 150 gp; **Aura** faint enchantment; **CL** 4th; **Weight** —
 
-This sweet-tasting liquid causes the character drinking it to become enraptured with the first creature she sees after consuming the draft (as _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_—the drinker must be a humanoid of Medium or smaller size, Will DC 14 negates). The charm effect wears off in 1d3 hours.
+This sweet-tasting liquid causes the character drinking it to become enraptured with the first creature she sees after consuming the draft (as _ [charm person](spells/charmPerson.md#_charm-person)_—the drinker must be a humanoid of Medium or smaller size, Will DC 14 negates). The charm effect wears off in 1d3 hours.
 
 Construction Requirements
 
 **Cost** 75 gp
 
-Craft Wondrous Item, _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_
+Craft Wondrous Item, _ [charm person](spells/charmPerson.md#_charm-person)_
 
 Elixir of Swimming
 
 **Price** 250 gp; **Aura** faint transmutation; **CL** 2nd; **Weight** —
 
-This elixir bestows swimming ability. An almost imperceptible magic sheath surrounds the drinker, allowing him to glide through the water easily (+10 competence bonus on [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) checks for 1 hour).
+This elixir bestows swimming ability. An almost imperceptible magic sheath surrounds the drinker, allowing him to glide through the water easily (+10 competence bonus on [Swim](skills/swim.md#_swim) checks for 1 hour).
 
 Construction Requirements
 
 **Cost** 125 gp
 
-Craft Wondrous Item, creator must have 5 ranks in the [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) skill
+Craft Wondrous Item, creator must have 5 ranks in the [Swim](skills/swim.md#_swim) skill
 
 Elixir of Truth
 
@@ -1679,37 +1679,37 @@ Construction Requirements
 
 **Cost** 250 gp
 
-Craft Wondrous Item, _ [zone of truth](/pathfinderRPG/prd/spells/zoneOfTruth.html#_zone-of-truth)_
+Craft Wondrous Item, _ [zone of truth](spells/zoneOfTruth.md#_zone-of-truth)_
 
 Elixir of Tumbling
 
 **Price** 250 gp; **Aura** faint transmutation; **CL** 5th; **Weight** —
 
-This draught of liquid grants the drinker the ability to tumble about, avoiding attacks and moving carefully across nearly any surface, granting a +10 competence bonus on [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) checks for 1 hour.
+This draught of liquid grants the drinker the ability to tumble about, avoiding attacks and moving carefully across nearly any surface, granting a +10 competence bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) checks for 1 hour.
 
 Construction Requirements
 
 **Cost** 125 gp
 
-Craft Wondrous Item, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_
+Craft Wondrous Item, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_
 
 Elixir of Vision
 
 **Price** 250 gp; **Aura** faint divination; **CL** 2nd; **Weight** —
 
-Drinking this elixir grants the imbiber the ability to notice acute details with great accuracy (+10 competence bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks for 1 hour).
+Drinking this elixir grants the imbiber the ability to notice acute details with great accuracy (+10 competence bonus on [Perception](skills/perception.md#_perception) checks for 1 hour).
 
 Construction Requirements
 
 **Cost** 125 gp
 
-Craft Wondrous Item, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+Craft Wondrous Item, _ [true seeing](spells/trueSeeing.md#_true-seeing)_
 
 Embalming Thread
 
 **Price** 10,000 gp; **Aura** moderate transmutation; **CL** 7th; **Weight** —
 
-This coarse, acrid-smelling thread is more akin to wire than fabric. When carefully sewn into the body of a flesh golem or zombie (requiring 1 hour per Hit Die of the creature and a successful DC 20 [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) or [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) check), the stitches change the creature's damage reduction to DR 5/adamantine and slashing. Variant zombies lacking damage reduction (such as fast zombies) instead gain DR 5/slashing. One length of stitching is required for every Hit Die of the creature being enhanced. Using an insufficient number of lengths has no effect. A full thimble of _embalming thread_ contains 20 lengths.
+This coarse, acrid-smelling thread is more akin to wire than fabric. When carefully sewn into the body of a flesh golem or zombie (requiring 1 hour per Hit Die of the creature and a successful DC 20 [Heal](skills/heal.md#_heal) or [Spellcraft](skills/spellcraft.md#_spellcraft) check), the stitches change the creature's damage reduction to DR 5/adamantine and slashing. Variant zombies lacking damage reduction (such as fast zombies) instead gain DR 5/slashing. One length of stitching is required for every Hit Die of the creature being enhanced. Using an insufficient number of lengths has no effect. A full thimble of _embalming thread_ contains 20 lengths.
 
 If the skill check to use the stitches fails, they are not wasted, but must first be cleaned and unknotted, requiring 1 hour per stitch. Once used successfully, the stitches cannot be reused.
 
@@ -1717,7 +1717,7 @@ Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item, _ [gentle repose](/pathfinderRPG/prd/spells/gentleRepose.html#_gentle-repose)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_
+Craft Wondrous Item, _ [gentle repose](spells/gentleRepose.md#_gentle-repose)_, _ [stoneskin](spells/stoneskin.md#_stoneskin)_
 
 Enmity Fetish
 
@@ -1729,21 +1729,21 @@ Construction Requirements
 
 **Cost** 20,000 gp
 
-Craft Wondrous Item, _ [instant enemy](/pathfinderRPG/prd/advanced/spells/instantEnemy.html#_instant-enemy)_, creator must have the favored enemy class feature
+Craft Wondrous Item, _ [instant enemy](advanced/spells/instantEnemy.md#_instant-enemy)_, creator must have the favored enemy class feature
 
 Escape Ladder
 
 **Price** 4,000 gp; **Aura** moderate transmutation; **CL** 7th; **Weight** 1 lb.
 
-This 10-foot long rope ladder unrolls itself on command, extending upward into the air and magically holding itself in place. The ends of each rope have small loops for tying to another rope, a grappling hook, a piton, or similar fixtures. A second command word makes the ladder roll itself again, pulling itself toward whichever end the speaker is touching. Climbing the ladder is a DC 0 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) check. The ladder can hold up to 300 pounds if holding itself in the air, or 600 pounds if attached to a sturdy surface.
+This 10-foot long rope ladder unrolls itself on command, extending upward into the air and magically holding itself in place. The ends of each rope have small loops for tying to another rope, a grappling hook, a piton, or similar fixtures. A second command word makes the ladder roll itself again, pulling itself toward whichever end the speaker is touching. Climbing the ladder is a DC 0 [Climb](skills/climb.md#_climb) check. The ladder can hold up to 300 pounds if holding itself in the air, or 600 pounds if attached to a sturdy surface.
 
-A third command word creates an extradimensional space at the top of the ladder that is identical to _ [rope trick](/pathfinderRPG/prd/spells/ropeTrick.html#_rope-trick)_, except it only holds up to one Medium creature and has a very short duration. When a creature enters the extradimensional space, at the end of the creature's turn the space collapses and the creature is transported as though by _ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_ 1d6 × 100 feet away in a random direction to a safe, ground-level location. The ladder remains behind and falls to the ground when this power is used. The third command word may be used once per day.
+A third command word creates an extradimensional space at the top of the ladder that is identical to _ [rope trick](spells/ropeTrick.md#_rope-trick)_, except it only holds up to one Medium creature and has a very short duration. When a creature enters the extradimensional space, at the end of the creature's turn the space collapses and the creature is transported as though by _ [dimension door](spells/dimensionDoor.md#_dimension-door)_ 1d6 × 100 feet away in a random direction to a safe, ground-level location. The ladder remains behind and falls to the ground when this power is used. The third command word may be used once per day.
 
 Construction Requirements
 
 **Cost** 2,000 gp
 
-Craft Wondrous Item, _ [animate rope](/pathfinderRPG/prd/spells/animateRope.html#_animate-rope), [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door), [rope trick](/pathfinderRPG/prd/spells/ropeTrick.html#_rope-trick)_
+Craft Wondrous Item, _ [animate rope](spells/animateRope.md#_animate-rope), [dimension door](spells/dimensionDoor.md#_dimension-door), [rope trick](spells/ropeTrick.md#_rope-trick)_
 
 Eversmoking Bottle
 
@@ -1757,19 +1757,19 @@ Construction Requirements
 
 **Cost** 2,700 gp
 
-Craft Wondrous Item, _ [pyrotechnics](/pathfinderRPG/prd/spells/pyrotechnics.html#_pyrotechnics)_
+Craft Wondrous Item, _ [pyrotechnics](spells/pyrotechnics.md#_pyrotechnics)_
 
 Exorcist's Aspergillum
 
 **Price** 8,000 gp; **Aura** moderate divination; **CL** 7th; **Weight** 1 lb.
 
-This short aspergillum is made of silver. An inquisitor who carries it may use _ [detect undead](/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead)_ as if it were one of the spells associated with her detect alignment ability. Once per day, the item can alter an inquisitor's judgment ability; by spending one use of her judgment ability, she can allow her spells of 3rd level and lower to have full effect against incorporeal creatures, as though using the [Ectoplasmic Spell](/pathfinderRPG/prd/advanced/advancedFeats.html#_ectoplasmic-spell) feat. This lasts until the combat ends.
+This short aspergillum is made of silver. An inquisitor who carries it may use _ [detect undead](spells/detectUndead.md#_detect-undead)_ as if it were one of the spells associated with her detect alignment ability. Once per day, the item can alter an inquisitor's judgment ability; by spending one use of her judgment ability, she can allow her spells of 3rd level and lower to have full effect against incorporeal creatures, as though using the [Ectoplasmic Spell](advanced/advancedFeats.md#_ectoplasmic-spell) feat. This lasts until the combat ends.
 
 Construction Requirements
 
 **Cost** 4,000 gp
 
-Craft Wondrous Item, [Ectoplasmic Spell](/pathfinderRPG/prd/advanced/advancedFeats.html#_ectoplasmic-spell), _ [detect undead](/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead)_, creator must be an inquisitor
+Craft Wondrous Item, [Ectoplasmic Spell](advanced/advancedFeats.md#_ectoplasmic-spell), _ [detect undead](spells/detectUndead.md#_detect-undead)_, creator must be an inquisitor
 
 Eye of the Void
 
@@ -1781,7 +1781,7 @@ Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item, _ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_
+Craft Wondrous Item, _ [fear](spells/fear.md#_fear)_
 
 Far-Reaching Sight
 
@@ -1793,7 +1793,7 @@ Construction Requirements
 
 **Cost** 2,000 gp
 
-Craft Wondrous Item, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_
+Craft Wondrous Item, _ [true strike](spells/trueStrike.md#_true-strike)_
 
 Feather Token
 
@@ -1813,13 +1813,13 @@ _Swan Boat_: A token that forms a swan-like boat capable of moving on water at a
 
 _Tree_: A token that causes a great oak to spring into being (5-foot-diameter trunk, 60-foot height, 40-foot top diameter). This is an instantaneous effect.
 
-_Whip_: A token that forms into a huge leather whip and wields itself against any opponent desired just like a _ [dancing](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-dancing)_ weapon. The weapon has a +10 base attack bonus, does 1d6+1 points of nonlethal damage, has a +1 enhancement bonus on attack and damage rolls, and a makes a free grapple attack (with a +15 bonus on its combat maneuver checks) if it hits. The whip lasts no longer than 1 hour.
+_Whip_: A token that forms into a huge leather whip and wields itself against any opponent desired just like a _ [dancing](magicItems/weapons.md#_weapons-dancing)_ weapon. The weapon has a +10 base attack bonus, does 1d6+1 points of nonlethal damage, has a +1 enhancement bonus on attack and damage rolls, and a makes a free grapple attack (with a +15 bonus on its combat maneuver checks) if it hits. The whip lasts no longer than 1 hour.
 
 Construction Requirements
 
 **Anchor** 25 gp; **Bird** 150 gp; **Fan** 100 gp; **Swan boat** 225 gp; **Tree** 200 gp; **Whip** 250 gp
 
-Craft Wondrous Item, _ [major creation](/pathfinderRPG/prd/spells/majorCreation.html#_major-creation)_
+Craft Wondrous Item, _ [major creation](spells/majorCreation.md#_major-creation)_
 
 Figurines of Wondrous Power
 
@@ -1831,45 +1831,45 @@ Each of the several kinds of _figurines of wondrous power_ appears to be a minia
 
 If a _figurine of wondrous power_ is broken or destroyed in its statuette form, it is forever ruined. All magic is lost, its power departed. If slain in animal form, the figurine simply reverts to a statuette that can be used again at a later time.
 
-**Bronze Griffon** : When animated, a bronze griffon acts in all ways like a normal griffon under the command of its possessor. The item can be used twice per week for up to 6 hours per use. When 6 hours have passed or when the command word is spoken, the bronze griffon once again becomes a tiny statuette. Moderate transmutation; CL 11th; [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_.
+**Bronze Griffon** : When animated, a bronze griffon acts in all ways like a normal griffon under the command of its possessor. The item can be used twice per week for up to 6 hours per use. When 6 hours have passed or when the command word is spoken, the bronze griffon once again becomes a tiny statuette. Moderate transmutation; CL 11th; [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [animate objects](spells/animateObjects.md#_animate-objects)_.
 
-**Ebony [Fly](/pathfinderRPG/prd/skills/fly.html#_fly)** : When animated, an ebony fly is the size of a pony and has all the statistics of a pegasus but can make no attacks. The item can be used three times per week for up to 12 hours per use. When 12 hours have passed or when the command word is spoken, the ebony fly again becomes a tiny statuette. Moderate transmutation; CL 11th; [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_.
+**Ebony [Fly](skills/fly.md#_fly)** : When animated, an ebony fly is the size of a pony and has all the statistics of a pegasus but can make no attacks. The item can be used three times per week for up to 12 hours per use. When 12 hours have passed or when the command word is spoken, the ebony fly again becomes a tiny statuette. Moderate transmutation; CL 11th; [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [animate objects](spells/animateObjects.md#_animate-objects)_.
 
-**Golden Lions** : These figurines come in pairs. They become normal adult male lions. If slain in combat, the lions cannot be brought back from statuette form for 1 full week. Otherwise, they can be used once per day for up to 1 hour. They enlarge and shrink upon speaking the command word. Moderate transmutation; CL 11th; [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_.
+**Golden Lions** : These figurines come in pairs. They become normal adult male lions. If slain in combat, the lions cannot be brought back from statuette form for 1 full week. Otherwise, they can be used once per day for up to 1 hour. They enlarge and shrink upon speaking the command word. Moderate transmutation; CL 11th; [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [animate objects](spells/animateObjects.md#_animate-objects)_.
 
 - _The Goat of Traveling_: This statuette provides a speedy and enduring mount equal to that of a heavy horse in every way except appearance. The goat can travel for a maximum of 1 day each week—continuously or in any combination of periods totaling 24 hours. At this point, or when the command word is uttered, it returns to its statuette form for no less than 1 day before it can again be used.
 - _The Goat of Travail_: This statuette becomes an enormous creature, larger than a bull, with the statistics of a nightmare except for the addition of a pair of wicked horns of exceptional size (damage 1d8+4 for each horn). If it is charging to attack, it may only use its horns (but add 6 points of damage to each successful attack in that round). It can be called to life just once per month for up to 12 hours at a time.
-- _The Goat of Terror_: When called upon with the proper command word, this statuette becomes a destrier-like mount with the statistics of a light horse. However, its rider can employ the goat's horns as weapons (one horn as a _+3 heavy lance_, the other as a _+5 longsword_). When ridden in an attack against an opponent, the goat of terror radiates fear as the spell in a 30-foot radius (Will DC 16 partial). It can be used once every 2 weeks for up to 3 hours per use. Moderate transmutation; CL 11th; [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_.
+- _The Goat of Terror_: When called upon with the proper command word, this statuette becomes a destrier-like mount with the statistics of a light horse. However, its rider can employ the goat's horns as weapons (one horn as a _+3 heavy lance_, the other as a _+5 longsword_). When ridden in an attack against an opponent, the goat of terror radiates fear as the spell in a 30-foot radius (Will DC 16 partial). It can be used once every 2 weeks for up to 3 hours per use. Moderate transmutation; CL 11th; [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [animate objects](spells/animateObjects.md#_animate-objects)_.
 
-**Marble Elephant** : This is the largest of the figurines, the statuette being about the size of a human hand. Upon utterance of the command word, a marble elephant grows to the size and specifications of a true elephant. The animal created from the statuette is fully obedient to the figurine's owner, serving as a beast of burden, a mount, or a combatant. The statuette can be used four times per month for up to 24 hours at a time. Moderate transmutation; CL 11th; [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_.
+**Marble Elephant** : This is the largest of the figurines, the statuette being about the size of a human hand. Upon utterance of the command word, a marble elephant grows to the size and specifications of a true elephant. The animal created from the statuette is fully obedient to the figurine's owner, serving as a beast of burden, a mount, or a combatant. The statuette can be used four times per month for up to 24 hours at a time. Moderate transmutation; CL 11th; [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [animate objects](spells/animateObjects.md#_animate-objects)_.
 
-**Obsidian Steed** : This figurine appears to be a small, shapeless lump of black stone. Only careful inspection reveals that it vaguely resembles some form of quadruped. On command, the near-formless piece of obsidian becomes a fantastic mount. Treat it as a heavy horse with the following additional powers usable once per round at will: _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_, _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_, and _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_. The steed allows itself to be ridden, but if the rider is of good alignment, the steed is 10% likely per use to carry him to the lower planes and then return to its statuette form. The statuette can be used once per week for one continuous period of up to 24 hours. Note that when an obsidian steed becomes ethereal or plane shifts, its rider and his gear follow suit. Thus, the user can travel to other planes via this means. Strong conjuration and transmutation; CL 15th; [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_, _etherealness_, _ [fly](/pathfinderRPG/prd/spells/fly.html)_, _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_.
+**Obsidian Steed** : This figurine appears to be a small, shapeless lump of black stone. Only careful inspection reveals that it vaguely resembles some form of quadruped. On command, the near-formless piece of obsidian becomes a fantastic mount. Treat it as a heavy horse with the following additional powers usable once per round at will: _ [overland flight](spells/overlandFlight.md#_overland-flight)_, _ [plane shift](spells/planeShift.md#_plane-shift)_, and _ [ethereal jaunt](spells/etherealJaunt.md#_ethereal-jaunt)_. The steed allows itself to be ridden, but if the rider is of good alignment, the steed is 10% likely per use to carry him to the lower planes and then return to its statuette form. The statuette can be used once per week for one continuous period of up to 24 hours. Note that when an obsidian steed becomes ethereal or plane shifts, its rider and his gear follow suit. Thus, the user can travel to other planes via this means. Strong conjuration and transmutation; CL 15th; [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [animate objects](spells/animateObjects.md#_animate-objects)_, _etherealness_, _ [fly](spells/fly.md)_, _ [plane shift](spells/planeShift.md#_plane-shift)_.
 
-**Onyx Dog** : When commanded, this statuette changes into a creature with the same properties as a riding dog except that it is endowed with an Intelligence of 8, can communicate in Common, and has exceptional olfactory and visual abilities. It has the scent ability and adds +4 on its [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks. It has 60-foot darkvision, and it can _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_. An onyx dog can be used once per week for up to 6 hours. It obeys only its owner. Moderate transmutation; CL 11th; [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_.
+**Onyx Dog** : When commanded, this statuette changes into a creature with the same properties as a riding dog except that it is endowed with an Intelligence of 8, can communicate in Common, and has exceptional olfactory and visual abilities. It has the scent ability and adds +4 on its [Perception](skills/perception.md#_perception) checks. It has 60-foot darkvision, and it can _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_. An onyx dog can be used once per week for up to 6 hours. It obeys only its owner. Moderate transmutation; CL 11th; [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [animate objects](spells/animateObjects.md#_animate-objects)_.
 
-**Serpentine Owl** : This figurine becomes either a normal-sized horned owl or a giant owl (use the stats for the giant eagle) according to the command word used. The transformation can take place once per day, with a maximum duration of 8 continuous hours. However, after three transformations into giant owl form, the statuette loses all its magical properties. The owl communicates with its owner by telepathic means, informing her of all it sees and hears. Moderate transmutation; CL 11th; [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_.
+**Serpentine Owl** : This figurine becomes either a normal-sized horned owl or a giant owl (use the stats for the giant eagle) according to the command word used. The transformation can take place once per day, with a maximum duration of 8 continuous hours. However, after three transformations into giant owl form, the statuette loses all its magical properties. The owl communicates with its owner by telepathic means, informing her of all it sees and hears. Moderate transmutation; CL 11th; [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [animate objects](spells/animateObjects.md#_animate-objects)_.
 
-**Silver Raven** : This silver figurine turns into a raven on command (but it retains its metallic consistency, which gives it hardness 10). Another command sends it off into the air, bearing a message just like a creature affected by an _ [animal messenger](/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger)_ spell. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special powers or telepathic abilities. It can maintain its nonfigurine status for only 24 hours per week, but the duration need not be continuous. Moderate enchantment and transmutation; CL 6th; [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [animal messenger](/pathfinderRPG/prd/spells/animalMessenger.html#_animal-messenger)_, _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_.
+**Silver Raven** : This silver figurine turns into a raven on command (but it retains its metallic consistency, which gives it hardness 10). Another command sends it off into the air, bearing a message just like a creature affected by an _ [animal messenger](spells/animalMessenger.md#_animal-messenger)_ spell. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special powers or telepathic abilities. It can maintain its nonfigurine status for only 24 hours per week, but the duration need not be continuous. Moderate enchantment and transmutation; CL 6th; [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [animal messenger](spells/animalMessenger.md#_animal-messenger)_, _ [animate objects](spells/animateObjects.md#_animate-objects)_.
 
-**Slate Spider** : This statuette of a spider with stubby legs can be used once per day for 1 minute. When activated, the figurine sprouts longer, segmented legs, and scampers about the bearer, picking lint off robes, chiseling grime from armor, or otherwise grooming the bearer. If commanded to do so (a free action), it perches on the muzzle of a one-handed or two-handed firearm barrel and, after the firearm is fired, travels down the barrel and cleans out the firearm. Each time the slate spider cleans a firearm, the next shot the firearm fires has no chance of misfiring. Moderate transmutation; CL 11th; [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_.
+**Slate Spider** : This statuette of a spider with stubby legs can be used once per day for 1 minute. When activated, the figurine sprouts longer, segmented legs, and scampers about the bearer, picking lint off robes, chiseling grime from armor, or otherwise grooming the bearer. If commanded to do so (a free action), it perches on the muzzle of a one-handed or two-handed firearm barrel and, after the firearm is fired, travels down the barrel and cleans out the firearm. Each time the slate spider cleans a firearm, the next shot the firearm fires has no chance of misfiring. Moderate transmutation; CL 11th; [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [animate objects](spells/animateObjects.md#_animate-objects)_.
 
 Construction Requirements
 
 **Bronze griffon** 5,000 gp; **Ebony fly** 5,000 gp; **Golden lions** 8,250 gp; **Ivory goats** 10,500 gp; **Marble elephant** 8,500 gp; **Obsidian steed** 14,250 gp; **Onyx dog** 7,750 gp; **Serpentine owl** 4,550 gp; **Silver raven** 1,900 gp; **Slate spider** 5,000 gp
 
-Craft Wondrous Item, _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_, additional spells (see text)
+Craft Wondrous Item, _ [animate objects](spells/animateObjects.md#_animate-objects)_, additional spells (see text)
 
 Flying Ointment
 
 **Price** 2,250 gp; **Aura** moderate transmutation; **CL** 9th; **Weight** —
 
-This preparation of herbs includes belladonna, mandrake, and foxglove (also known as "witch's glove"), all carefully measured and mixed into a base of rendered fats. When rubbed over the skin, the ointment grants the subject the ability to fly (as the _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight) _spell) for up to 9 hours.
+This preparation of herbs includes belladonna, mandrake, and foxglove (also known as "witch's glove"), all carefully measured and mixed into a base of rendered fats. When rubbed over the skin, the ointment grants the subject the ability to fly (as the _ [overland flight](spells/overlandFlight.md#_overland-flight) _spell) for up to 9 hours.
 
 Construction Requirements
 
 **Cost** 1,125 gp
 
-Craft Wondrous Item, _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_
+Craft Wondrous Item, _ [overland flight](spells/overlandFlight.md#_overland-flight)_
 
 Folding Boat
 
@@ -1885,7 +1885,7 @@ Construction Requirements
 
 **Cost** 3,600 gp
 
-Craft Wondrous Item, _ [fabricate](/pathfinderRPG/prd/spells/fabricate.html#_fabricate)_, creator must have 2 ranks in [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (ships)
+Craft Wondrous Item, _ [fabricate](spells/fabricate.md#_fabricate)_, creator must have 2 ranks in [Craft](skills/craft.md#_craft) (ships)
 
 Formula Alembic
 
@@ -1899,7 +1899,7 @@ Construction Requirements
 
 **Cost** 100 gp
 
-Brew Potion, [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [identify](/pathfinderRPG/prd/spells/identify.html#_identify), _creator must be an alchemist
+Brew Potion, [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [identify](spells/identify.md#_identify), _creator must be an alchemist
 
 Gem of Brightness
 
@@ -1919,7 +1919,7 @@ Construction Requirements
 
 **Cost** 6,500 gp
 
-Craft Wondrous Item, _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_
+Craft Wondrous Item, _ [daylight](spells/daylight.md#_daylight)_
 
 Gem of Seeing
 
@@ -1931,7 +1931,7 @@ Construction Requirements
 
 **Cost** 37,500 gp
 
-Craft Wondrous Item, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+Craft Wondrous Item, _ [true seeing](spells/trueSeeing.md#_true-seeing)_
 
 Goblin Fire Drum
 
@@ -1939,17 +1939,17 @@ Goblin Fire Drum
 
 **Normal** 2,000 gp; **Greater** 4,500 gp
 
-This small crude-looking drum is attached to a strap long enough to loop around the wearer's neck. A successful DC 12 [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (percussion) check activates the drum, which enhances any nearby natural or magical fire as long as the bearer spends a move action each round to continue playing. All fires (including fire spells and effects) within 30 feet of the bearer deal an additional +1 point of fire damage per die (maximum +10).
+This small crude-looking drum is attached to a strap long enough to loop around the wearer's neck. A successful DC 12 [Perform](skills/perform.md#_perform) (percussion) check activates the drum, which enhances any nearby natural or magical fire as long as the bearer spends a move action each round to continue playing. All fires (including fire spells and effects) within 30 feet of the bearer deal an additional +1 point of fire damage per die (maximum +10).
 
 All unattended flammable alchemical objects such as tindertwigs, flasks of oil or alchemist's fire, and fireworks within this range have a 10% chance of spontaneously igniting or exploding (as appropriate to the item) when the drum activates. This chance increases by 5% each round and is checked at the start of the performer's turn as long as the playing continues.
 
-A _greater goblin fire drum_ has all the above abilities and can _create [pyrotechnics](/pathfinderRPG/prd/spells/pyrotechnics.html#_pyrotechnics)_ once per day.
+A _greater goblin fire drum_ has all the above abilities and can _create [pyrotechnics](spells/pyrotechnics.md#_pyrotechnics)_ once per day.
 
 Construction Requirements
 
 **Normal** 1,000 gp; **Greater** 2,250 gp
 
-Craft Wondrous Item, _ [pyrotechnics](/pathfinderRPG/prd/spells/pyrotechnics.html#_pyrotechnics)_, _ [spark](/pathfinderRPG/prd/advanced/spells/spark.html#_spark-) (Advanced Player's Guide)_
+Craft Wondrous Item, _ [pyrotechnics](spells/pyrotechnics.md#_pyrotechnics)_, _ [spark](advanced/spells/spark.md#_spark-) (Advanced Player's Guide)_
 
 Goblin Skull Bomb
 
@@ -1957,13 +1957,13 @@ Goblin Skull Bomb
 
 An ember glow lights the beady eyes of this blackened, burned out goblin's skull. It is very brittle and shatters if dropped on solid ground. When a _goblin skull bomb_ breaks, the very last creature to touch it bursts into a raging magical flame, automatically suffering 5d6 points of fire damage and also catching fire should it fail a Reflex save (DC 13). If this kills the creature, its body burns away in one round, leaving behind only a pile of ash and the creature's blackened, burned-out skull, which is a new _goblin skull bomb_. If the target survives the fire, doesn't have a skull, or if its skull is destroyed before another creature touches it, it does not create a new _goblin skull bomb_.
 
-A skull bomb can be used as a thrown weapon with a range increment of 10 feet. If the attacker hits, the skull shatters, immolating the target as described above. If the attacker misses, the skull breaks upon the floor or another nearby hard surface and the attacker bursts into flame. Touching the skull using gloves, gauntlets, or handheld items such as tools or weapons counts as touching the skull. It can be safely moved using spells (such as _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_ or _ [telekinesis](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis)_) or attacked with ranged weapons (hardness 0, 1 hp).
+A skull bomb can be used as a thrown weapon with a range increment of 10 feet. If the attacker hits, the skull shatters, immolating the target as described above. If the attacker misses, the skull breaks upon the floor or another nearby hard surface and the attacker bursts into flame. Touching the skull using gloves, gauntlets, or handheld items such as tools or weapons counts as touching the skull. It can be safely moved using spells (such as _ [mage hand](spells/mageHand.md#_mage-hand)_ or _ [telekinesis](spells/telekinesis.md#_telekinesis)_) or attacked with ranged weapons (hardness 0, 1 hp).
 
 Construction Requirements
 
 **Cost** 600 gp
 
-Craft Wondrous Item, _ [flaming sphere](/pathfinderRPG/prd/spells/flamingSphere.html#_flaming-sphere)_
+Craft Wondrous Item, _ [flaming sphere](spells/flamingSphere.md#_flaming-sphere)_
 
 Golem Manual
 
@@ -1971,19 +1971,19 @@ Golem Manual
 
 **Clay golem manual** 12,000 gp; **Flesh golem manual** 8,000 gp; **Iron golem manual** 35,000 gp; **Stone golem manual** 22,000 gp; **Stone golem guardian manual** 44,000 gp
 
-A _golem manual_ contains information, incantations, and magical power that help a character to craft a golem. The instructions therein grant a +5 competence bonus on skill checks made to craft the golem's body. Each manual also holds the prerequisite spells needed for a specific golem (although these spells can only be used to create a golem and cannot be copied), effectively granting the builder use of the [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct) feat during the construction of the golem, and an increase to her caster level for the purpose of crafting a golem.
+A _golem manual_ contains information, incantations, and magical power that help a character to craft a golem. The instructions therein grant a +5 competence bonus on skill checks made to craft the golem's body. Each manual also holds the prerequisite spells needed for a specific golem (although these spells can only be used to create a golem and cannot be copied), effectively granting the builder use of the [Craft Construct](monsters/monsterFeats.md#_craft-construct) feat during the construction of the golem, and an increase to her caster level for the purpose of crafting a golem.
 
 The spells included in a _golem manual_ require a spell trigger activation and can be activated only to assist in the construction of a golem. The cost of the book does not include the cost of constructing the golem's body. Once the golem is finished, the writing in the manual fades and the book is consumed in flames. When the book's ashes are sprinkled upon the golem, it becomes fully animated.
 
-_Clay Golem Manual_: The book contains _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_, _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_, _ [commune](/pathfinderRPG/prd/spells/commune.html#_commune)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, and _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a clay golem. Moderate conjuration, divination, enchantment, and transmutation; CL 11th; [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_, _ [commune](/pathfinderRPG/prd/spells/commune.html#_commune)_, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, _ [resurrection](/pathfinderRPG/prd/spells/resurrection.html#_resurrection)_, creator must be caster level 11th.
+_Clay Golem Manual_: The book contains _ [animate objects](spells/animateObjects.md#_animate-objects)_, _ [bless](spells/bless.md#_bless)_, _ [commune](spells/commune.md#_commune)_, _ [prayer](spells/prayer.md#_prayer)_, and _ [resurrection](spells/resurrection.md#_resurrection)_. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a clay golem. Moderate conjuration, divination, enchantment, and transmutation; CL 11th; [Craft Construct](monsters/monsterFeats.md#_craft-construct), _ [animate objects](spells/animateObjects.md#_animate-objects)_, _ [commune](spells/commune.md#_commune)_, _ [prayer](spells/prayer.md#_prayer)_, _ [resurrection](spells/resurrection.md#_resurrection)_, creator must be caster level 11th.
 
-_Flesh Golem Manual_: The book contains_ [animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [geas/quest](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest)_, and _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_. The reader may treat her caster level as one level higher than normal for the purpose of crafting a flesh golem. Moderate enchantment, necromancy [evil], and transmutation; CL 8th; [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), _ [animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_, _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [geas/quest](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest)_, _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_, creator must be caster level 8th.
+_Flesh Golem Manual_: The book contains_ [animate dead](spells/animateDead.md#_animate-dead)_, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [geas/quest](spells/geasQuest.md#_geas-quest)_, and _ [limited wish](spells/limitedWish.md#_limited-wish)_. The reader may treat her caster level as one level higher than normal for the purpose of crafting a flesh golem. Moderate enchantment, necromancy [evil], and transmutation; CL 8th; [Craft Construct](monsters/monsterFeats.md#_craft-construct), _ [animate dead](spells/animateDead.md#_animate-dead)_, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [geas/quest](spells/geasQuest.md#_geas-quest)_, _ [limited wish](spells/limitedWish.md#_limited-wish)_, creator must be caster level 8th.
 
-_Iron Golem Manual_: The book contains _ [cloudkill](/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill)_,_ [geas/quest](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest)_, _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_, and _ [polymorph any object](/pathfinderRPG/prd/spells/polymorphAnyObject.html#_polymorph-any-object)_. The reader may treat her caster level as four levels higher than normal for the purpose of crafting an iron golem. Strong conjuration, enchantment, and transmutation; CL 16th; [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), _ [cloudkill](/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill)_, _ [geas/quest](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest)_, _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_, _ [polymorph any object](/pathfinderRPG/prd/spells/polymorphAnyObject.html#_polymorph-any-object)_, creator must be caster level 16th.
+_Iron Golem Manual_: The book contains _ [cloudkill](spells/cloudkill.md#_cloudkill)_,_ [geas/quest](spells/geasQuest.md#_geas-quest)_, _ [limited wish](spells/limitedWish.md#_limited-wish)_, and _ [polymorph any object](spells/polymorphAnyObject.md#_polymorph-any-object)_. The reader may treat her caster level as four levels higher than normal for the purpose of crafting an iron golem. Strong conjuration, enchantment, and transmutation; CL 16th; [Craft Construct](monsters/monsterFeats.md#_craft-construct), _ [cloudkill](spells/cloudkill.md#_cloudkill)_, _ [geas/quest](spells/geasQuest.md#_geas-quest)_, _ [limited wish](spells/limitedWish.md#_limited-wish)_, _ [polymorph any object](spells/polymorphAnyObject.md#_polymorph-any-object)_, creator must be caster level 16th.
 
-_Stone Golem Manual_: The book contains _ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_, _ [geas/quest](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest)_, _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_, and _ [symbol of stunning](/pathfinderRPG/prd/spells/symbolOfStunning.html#_symbol-of-stunning)_. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem. Strong abjuration and enchantment; CL 14th; [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), _ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_, _ [geas/quest](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest)_, _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_, _ [symbol of stunning](/pathfinderRPG/prd/spells/symbolOfStunning.html#_symbol-of-stunning)_, creator must be caster level 14th.
+_Stone Golem Manual_: The book contains _ [antimagic field](spells/antimagicField.md#_antimagic-field)_, _ [geas/quest](spells/geasQuest.md#_geas-quest)_, _ [limited wish](spells/limitedWish.md#_limited-wish)_, and _ [symbol of stunning](spells/symbolOfStunning.md#_symbol-of-stunning)_. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem. Strong abjuration and enchantment; CL 14th; [Craft Construct](monsters/monsterFeats.md#_craft-construct), _ [antimagic field](spells/antimagicField.md#_antimagic-field)_, _ [geas/quest](spells/geasQuest.md#_geas-quest)_, _ [limited wish](spells/limitedWish.md#_limited-wish)_, _ [symbol of stunning](spells/symbolOfStunning.md#_symbol-of-stunning)_, creator must be caster level 14th.
 
-_Stone Golem Guardian Manual_: The book contains _ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_, _ [discern location](/pathfinderRPG/prd/spells/discernLocation.html#_discern-location)_, _ [geas/quest](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest)_, _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_,_ [shield other](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)_, and _ [symbol of stunning](/pathfinderRPG/prd/spells/symbolOfStunning.html#_symbol-of-stunning)_. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem guardian. Strong abjuration and enchantment; CL 14th; [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), _ [antimagic field](/pathfinderRPG/prd/spells/antimagicField.html#_antimagic-field)_, _ [discern location](/pathfinderRPG/prd/spells/discernLocation.html#_discern-location)_, _ [geas/quest](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest)_, _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_, _ [shield other](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)_, _ [symbol of stunning](/pathfinderRPG/prd/spells/symbolOfStunning.html#_symbol-of-stunning)_, creator must be caster level 14th.
+_Stone Golem Guardian Manual_: The book contains _ [antimagic field](spells/antimagicField.md#_antimagic-field)_, _ [discern location](spells/discernLocation.md#_discern-location)_, _ [geas/quest](spells/geasQuest.md#_geas-quest)_, _ [limited wish](spells/limitedWish.md#_limited-wish)_,_ [shield other](spells/shieldOther.md#_shield-other)_, and _ [symbol of stunning](spells/symbolOfStunning.md#_symbol-of-stunning)_. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem guardian. Strong abjuration and enchantment; CL 14th; [Craft Construct](monsters/monsterFeats.md#_craft-construct), _ [antimagic field](spells/antimagicField.md#_antimagic-field)_, _ [discern location](spells/discernLocation.md#_discern-location)_, _ [geas/quest](spells/geasQuest.md#_geas-quest)_, _ [limited wish](spells/limitedWish.md#_limited-wish)_, _ [shield other](spells/shieldOther.md#_shield-other)_, _ [symbol of stunning](spells/symbolOfStunning.md#_symbol-of-stunning)_, creator must be caster level 14th.
 
 Construction Requirements
 
@@ -1995,7 +1995,7 @@ Grave Salt
 
 **Price** 1,100 gp; **Aura** faint evocation; **CL** 5th; **Weight** 5 lbs.
 
-When poured on ground in a circle, this pure white salt sanctifies the enclosed area as the spell _ [consecrate](/pathfinderRPG/prd/spells/consecrate.html#_consecrate)_. Applying the salt takes 1 round per dose. A single dose is sufficient to form a 5-foot radius circle, with each additional dose increasing the circle's radius by 5 feet. The area within the circle remains consecrated for 1 hour per dose, though any corporeal creature can spend a standard action to break the circle and end the effect prematurely. A newly created pouch of _grave salt_ holds 5 doses.
+When poured on ground in a circle, this pure white salt sanctifies the enclosed area as the spell _ [consecrate](spells/consecrate.md#_consecrate)_. Applying the salt takes 1 round per dose. A single dose is sufficient to form a 5-foot radius circle, with each additional dose increasing the circle's radius by 5 feet. The area within the circle remains consecrated for 1 hour per dose, though any corporeal creature can spend a standard action to break the circle and end the effect prematurely. A newly created pouch of _grave salt_ holds 5 doses.
 
 _Grave salt_ can also be used directly against restless spirits. A single dose can be hurled up to 15 feet as a ranged touch attack. An incorporeal undead creature struck by the salt must make a DC 14 Will save or take 1d4 points of Charisma damage. Strong winds and other effects that penalize ranged attacks make it impossible to employ the salt in this manner.
 
@@ -2003,19 +2003,19 @@ Construction Requirements
 
 **Cost** 550 gp
 
-Craft Wondrous Item, _ [consecrate](/pathfinderRPG/prd/spells/consecrate.html#_consecrate)_
+Craft Wondrous Item, _ [consecrate](spells/consecrate.md#_consecrate)_
 
 Grim Lantern
 
 **Price** 5,800 gp; **Aura** faint evocation; **CL** 5th; **Weight** 2 lbs.
 
-This macabre lantern is composed of a humanoid skull dangling from a short length of chain. A small fragment of soulstuff is trapped inside, burning slowly in a heatless flame. Its flickering light shines from the skull's eye sockets, casting light as a bullseye lantern. On command, the lantern can consume its soulstuff in a sudden blast of heat, as _ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_. Doing so extinguishes the lantern. Whenever a living creature with at least 1 HD is slain within 30 feet of an empty _grim lantern_, the lantern absorbs a fragment of that creature's soul, restoring its glow.
+This macabre lantern is composed of a humanoid skull dangling from a short length of chain. A small fragment of soulstuff is trapped inside, burning slowly in a heatless flame. Its flickering light shines from the skull's eye sockets, casting light as a bullseye lantern. On command, the lantern can consume its soulstuff in a sudden blast of heat, as _ [burning hands](spells/burningHands.md#_burning-hands)_. Doing so extinguishes the lantern. Whenever a living creature with at least 1 HD is slain within 30 feet of an empty _grim lantern_, the lantern absorbs a fragment of that creature's soul, restoring its glow.
 
 Construction Requirements
 
 **Cost** 2,900 gp
 
-Craft Wondrous Item, _ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands), _creator cannot be good
+Craft Wondrous Item, _ [burning hands](spells/burningHands.md#_burning-hands), _creator cannot be good
 
 Handy Haversack
 
@@ -2029,40 +2029,40 @@ Construction Requirements
 
 **Cost** 1,000 gp
 
-Craft Wondrous Item, _ [secret chest](/pathfinderRPG/prd/spells/secretChest.html#_secret-chest)_
+Craft Wondrous Item, _ [secret chest](spells/secretChest.md#_secret-chest)_
 
 Harp of Charming
 
 **Price** 7,500 gp; **Aura** faint enchantment; **CL** 5th; **Weight** lbs.
 
-This beautiful and intricately carved harp can be held comfortably in one hand, but both hands are required to utilize its magic. When played, a _harp of charming _enables the performer to work one _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (as the spell, Will DC 14 negates) into the music for each 10 minutes of playing if she can succeed on a DC 14 [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (string) check. If the check fails, the audience cannot be affected by any further performances from the harpist for 24 hours.
+This beautiful and intricately carved harp can be held comfortably in one hand, but both hands are required to utilize its magic. When played, a _harp of charming _enables the performer to work one _ [suggestion](spells/suggestion.md#_suggestion)_ (as the spell, Will DC 14 negates) into the music for each 10 minutes of playing if she can succeed on a DC 14 [Perform](skills/perform.md#_perform) (string) check. If the check fails, the audience cannot be affected by any further performances from the harpist for 24 hours.
 
 Construction Requirements
 
 **Cost** 3,750 gp
 
-Craft Wondrous Item, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_
+Craft Wondrous Item, _ [suggestion](spells/suggestion.md#_suggestion)_
 
 Harp of Contagion
 
 **Price** 13,000 gp; **Aura** moderate necromancy; **CL** 7th; **Weight** 5 lbs.
 
-This grand-looking wooden harp is carved with images of various venomous creatures. Once per day the bearer may play the harp to target a single opponent with a _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_ spell (DC 16). Alternatively, the bearer may play the harp to grant allies within 30 feet a +2 resistance bonus on saving throws against disease and poison; maintaining this benefit each round is a standard action. If the player has the countersong bardic performance ability, he may expend rounds of bardic performance to use the harp to refocus his countersong against disease and poison instead of sonic or language-dependent effects.
+This grand-looking wooden harp is carved with images of various venomous creatures. Once per day the bearer may play the harp to target a single opponent with a _ [poison](spells/poison.md#_poison)_ spell (DC 16). Alternatively, the bearer may play the harp to grant allies within 30 feet a +2 resistance bonus on saving throws against disease and poison; maintaining this benefit each round is a standard action. If the player has the countersong bardic performance ability, he may expend rounds of bardic performance to use the harp to refocus his countersong against disease and poison instead of sonic or language-dependent effects.
 
 Construction Requirements
 
 **Cost** 6,500 gp
 
-Craft Wondrous Item, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
+Craft Wondrous Item, _ [poison](spells/poison.md#_poison)_, _ [resistance](spells/resistance.md#_resistance)_
 
 Harp of Shattering
 
 **Price** 8,000 gp; **Aura** faint evocation; **CL** 3rd; **Weight** 5 lbs.
 
-This finely crafted masterwork harp fits comfortably in one hand, but it requires two hands to play. The harp has 10 charges. By making a DC 10 [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (string) check, the bearer can produce the following effects:
+This finely crafted masterwork harp fits comfortably in one hand, but it requires two hands to play. The harp has 10 charges. By making a DC 10 [Perform](skills/perform.md#_perform) (string) check, the bearer can produce the following effects:
 
-- _ [break](/pathfinderRPG/prd/advanced/spells/break.html#_break-)_ (1 charge)
-- _ [shatter](/pathfinderRPG/prd/spells/shatter.html#_shatter)_ (2 charges)
+- _ [break](advanced/spells/break.md#_break-)_ (1 charge)
+- _ [shatter](spells/shatter.md#_shatter)_ (2 charges)
 
 When the last charge is expended, the harp loses all of its magic but still functions as a masterwork harp.
 
@@ -2070,7 +2070,7 @@ Construction Requirements
 
 **Cost** 4,000 gp
 
-Craft Wondrous Item, _ [break](/pathfinderRPG/prd/advanced/spells/break.html#_break-)_, _ [shatter](/pathfinderRPG/prd/spells/shatter.html#_shatter)_
+Craft Wondrous Item, _ [break](advanced/spells/break.md#_break-)_, _ [shatter](spells/shatter.md#_shatter)_
 
 Hexing Doll
 
@@ -2082,7 +2082,7 @@ Construction Requirements
 
 **Cost** 1,250 gp
 
-Craft Wondrous Item, _ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_
+Craft Wondrous Item, _ [bestow curse](spells/bestowCurse.md#_bestow-curse)_
 
 Horn of Antagonism
 
@@ -2094,7 +2094,7 @@ Construction Requirements
 
 **Cost** 10,000 gp
 
-Craft Wondrous Item,_ [daze monster](/pathfinderRPG/prd/spells/dazeMonster.html#_daze-monster)_
+Craft Wondrous Item,_ [daze monster](spells/dazeMonster.md#_daze-monster)_
 
 Horn of Battle Clarity
 
@@ -2108,7 +2108,7 @@ Construction Requirements
 
 **Cost** 3,000 gp
 
-Craft Wondrous Item, _ [rage](/pathfinderRPG/prd/spells/rage.html#_rage)_
+Craft Wondrous Item, _ [rage](spells/rage.md#_rage)_
 
 Horn of Blasting
 
@@ -2122,7 +2122,7 @@ Construction Requirements
 
 **Cost** 10,000 gp
 
-Craft Wondrous Item, _ [shout](/pathfinderRPG/prd/spells/shout.html#_shout)_
+Craft Wondrous Item, _ [shout](spells/shout.md#_shout)_
 
 Horn of Blasting, Greater
 
@@ -2134,43 +2134,43 @@ Construction Requirements
 
 **Cost** 35,000 gp
 
-Craft Wondrous Item, _ [greater shout](/pathfinderRPG/prd/spells/shout.html#_shout-greater)_
+Craft Wondrous Item, _ [greater shout](spells/shout.md#_shout-greater)_
 
 Horn of Fog
 
 **Price** 2,000 gp; **Aura** faint conjuration; **CL** 3rd; **Weight** 1 lb.
 
-This small bugle allows its possessor to blow forth a thick cloud of heavy fog similar to that of an _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_ spell. The fog covers a 10-foot square next to the horn blower each round that the user continues to blow the horn; a fog cloud travels 10 feet each round in a straight line from the emanation point unless blocked by something substantial such as a wall. The device makes a deep, foghorn-like noise, with the note dropping abruptly to a lower register at the end of each blast. The fog dissipates after 3 minutes. A moderate wind (11+ mph) disperses the fog in 4 rounds; a strong wind (21+ mph) disperses the fog in 1 round.
+This small bugle allows its possessor to blow forth a thick cloud of heavy fog similar to that of an _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_ spell. The fog covers a 10-foot square next to the horn blower each round that the user continues to blow the horn; a fog cloud travels 10 feet each round in a straight line from the emanation point unless blocked by something substantial such as a wall. The device makes a deep, foghorn-like noise, with the note dropping abruptly to a lower register at the end of each blast. The fog dissipates after 3 minutes. A moderate wind (11+ mph) disperses the fog in 4 rounds; a strong wind (21+ mph) disperses the fog in 1 round.
 
 Construction Requirements
 
 **Cost** 1,000 gp
 
-Craft Wondrous Item, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_
+Craft Wondrous Item, _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_
 
 Horn of Goodness/Evil
 
 **Price** 6,500 gp; **Aura** moderate abjuration; **CL** 6th; **Weight** 1 lb.
 
-This trumpet adapts itself to its owner, so it produces either a good or an evil effect depending on the owner's alignment. If the owner is neither good nor evil, the horn has no power whatsoever. If she is good, then blowing the horn has the effect of a _ [magic circle against evil](/pathfinderRPG/prd/spells/magicCircleAgainstEvil.html#_magic-circle-against-evil)_. If she is evil, then blowing the horn has the effect of a _ [magic circle against good](/pathfinderRPG/prd/spells/magicCircleAgainstGood.html#_magic-circle-against-good)_. In either case, this ward lasts for 1 hour. The horn can be blown once per day.
+This trumpet adapts itself to its owner, so it produces either a good or an evil effect depending on the owner's alignment. If the owner is neither good nor evil, the horn has no power whatsoever. If she is good, then blowing the horn has the effect of a _ [magic circle against evil](spells/magicCircleAgainstEvil.md#_magic-circle-against-evil)_. If she is evil, then blowing the horn has the effect of a _ [magic circle against good](spells/magicCircleAgainstGood.md#_magic-circle-against-good)_. In either case, this ward lasts for 1 hour. The horn can be blown once per day.
 
 Construction Requirements
 
 **Cost** 3,250 gp
 
-Craft Wondrous Item, _ [magic circle against evil](/pathfinderRPG/prd/spells/magicCircleAgainstEvil.html#_magic-circle-against-evil)_, _ [magic circle against good](/pathfinderRPG/prd/spells/magicCircleAgainstGood.html#_magic-circle-against-good)_
+Craft Wondrous Item, _ [magic circle against evil](spells/magicCircleAgainstEvil.md#_magic-circle-against-evil)_, _ [magic circle against good](spells/magicCircleAgainstGood.md#_magic-circle-against-good)_
 
 Horn of Judgment
 
 **Price** 15,000 gp; **Aura** moderate transmutation; **CL** 9th; **Weight** 1 lb.
 
-This golden trumpet is inlaid with silver and ivory and in. Once per day the bearer can sound a singular clarion note that affects up to 9 incorporeal creatures within 30 feet with _ [ghostbane dirge](/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge)_ (Will DC 17 negates, _Advanced Player's Guide_) for 9 rounds.
+This golden trumpet is inlaid with silver and ivory and in. Once per day the bearer can sound a singular clarion note that affects up to 9 incorporeal creatures within 30 feet with _ [ghostbane dirge](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge)_ (Will DC 17 negates, _Advanced Player's Guide_) for 9 rounds.
 
 Construction Requirements
 
 **Cost** 7,500 gp
 
-Craft Wondrous Item, _ [ghostbane dirge](/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge)_
+Craft Wondrous Item, _ [ghostbane dirge](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge)_
 
 Horn of the Huntmaster
 
@@ -2182,7 +2182,7 @@ Construction Requirements
 
 **Cost** 2,500 gp
 
-Craft Wondrous Item, _ [greater heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism-greater)_
+Craft Wondrous Item, _ [greater heroism](spells/heroism.md#_heroism-greater)_
 
 Horn of the Tritons
 
@@ -2190,9 +2190,9 @@ Horn of the Tritons
 
 This device is a large, intricately inscribed and decorated conch shell that can be blown once per day (except by a triton, who can sound it three times per day). Blowing the horn activates any one of the following functions:
 
-- Calm rough waters in a 1-mile radius. Alternatively, this functions as a _ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_ spell against a targeted water elemental (DC 19 negates).
-- Summon 1d4+1 sharks or 1d3 advanced sharks as if using _ [summon nature's ally V](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-v)_.
-- Create a _ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_ effect (DC 16 negates) in a 500-foot radius that only affects creatures with the aquatic or amphibious subtype which have Intelligence scores of 1 or 2.
+- Calm rough waters in a 1-mile radius. Alternatively, this functions as a _ [dismissal](spells/dismissal.md#_dismissal)_ spell against a targeted water elemental (DC 19 negates).
+- Summon 1d4+1 sharks or 1d3 advanced sharks as if using _ [summon nature's ally V](spells/summonNatureSAlly.md#_summon-nature-s-ally-v)_.
+- Create a _ [fear](spells/fear.md#_fear)_ effect (DC 16 negates) in a 500-foot radius that only affects creatures with the aquatic or amphibious subtype which have Intelligence scores of 1 or 2.
 
 Any sounding of a _horn of the tritons_ can be heard by all tritons within a 3-mile radius.
 
@@ -2200,7 +2200,7 @@ Construction Requirements
 
 **Cost** 7,500 gp
 
-Craft Wondrous Item, _ [control water](/pathfinderRPG/prd/spells/controlWater.html#_control-water)_, _ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_, _ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_, _ [summon nature's ally V](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-v)_, creator must be a triton
+Craft Wondrous Item, _ [control water](spells/controlWater.md#_control-water)_, _ [dismissal](spells/dismissal.md#_dismissal)_, _ [fear](spells/fear.md#_fear)_, _ [summon nature's ally V](spells/summonNatureSAlly.md#_summon-nature-s-ally-v)_, creator must be a triton
 
 Horn of Valhalla
 
@@ -2221,25 +2221,25 @@ Construction Requirements
 
 **Cost** 25,000 gp
 
-Craft Wondrous Item, _ [summon monster VI](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi)_
+Craft Wondrous Item, _ [summon monster VI](spells/summonMonster.md#_summon-monster-vi)_
 
 Horsemaster's Saddle
 
 **Price** 12,000 gp; **Aura** faint transmutation; **CL** 5th; **Weight** 5 lbs.
 
-This ornate military saddle, tooled with an elaborate equine motif, grants the mount a +5 competence bonus on [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) checks and the mount's rider a +5 competence bonus on [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) checks. In addition, the mount gains the benefits of any teamwork feats possessed by the rider.
+This ornate military saddle, tooled with an elaborate equine motif, grants the mount a +5 competence bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) checks and the mount's rider a +5 competence bonus on [Ride](skills/ride.md#_ride) checks. In addition, the mount gains the benefits of any teamwork feats possessed by the rider.
 
 Construction Requirements
 
 Cost 6,000 gp
 
-Craft Wondrous Item, _ [mount](/pathfinderRPG/prd/spells/mount.html#_mount), _creator must have 5 ranks in [Ride](/pathfinderRPG/prd/skills/ride.html#_ride)
+Craft Wondrous Item, _ [mount](spells/mount.md#_mount), _creator must have 5 ranks in [Ride](skills/ride.md#_ride)
 
 Hourglass of Last Chances
 
 **Price** 10,000 gp; **Aura** moderate conjuration and transmutation; **CL** 11th; **Weight** —
 
-This tiny hourglass is filled with blood-red sand. The sand flows only one way and turning it to start the flow activates its magic. It grants a target creature within 30 feet the following benefits for a limited time—_ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_ (as the spell), and suspends any and all of the following conditions: blinded, confused, dazed, dazzled, deafened, diseased, exhausted, fatigued, feebleminded, insanity, nauseated, poisoned, sickened, and stunned. These effects are suspended rather than dispelled; they resume when the hourglass is deactivated or expended and this suspended time does not count toward the duration of the suppressed effect.
+This tiny hourglass is filled with blood-red sand. The sand flows only one way and turning it to start the flow activates its magic. It grants a target creature within 30 feet the following benefits for a limited time—_ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_ (as the spell), and suspends any and all of the following conditions: blinded, confused, dazed, dazzled, deafened, diseased, exhausted, fatigued, feebleminded, insanity, nauseated, poisoned, sickened, and stunned. These effects are suspended rather than dispelled; they resume when the hourglass is deactivated or expended and this suspended time does not count toward the duration of the suppressed effect.
 
 Ending the hourglass's effects is a swift action. The hourglass can be used for up to 5 rounds in total before its magic is consumed. These rounds need not be consecutive.
 
@@ -2247,27 +2247,27 @@ Construction Requirements
 
 Cost 5,000 gp
 
-Craft Wondrous Item, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement), [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_
+Craft Wondrous Item, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement), [heal](spells/heal.md#_heal)_
 
 Hybridization Funnel
 
 **Price** 200 gp; **Aura** faint transmutation; **CL** 3rd; **Weight** 2 lbs.
 
-This two-spouted funnel is used to safely mix two alchemical splash weapons into a single flask. Using the vial requires 10 minutes and a DC 25 [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) check; a half-elf has a +5 bonus on this check. Failing the check means both splash weapon are destroyed. Success means the two materials are safely mixed into one vial that is the same volume as a normal splash weapon vial; when thrown as a splash weapon, the mixture has the effects of both component substances and creatures are affected as if hit by both. The mixture becomes inert after 24 hours. Only liquids may be mixed with the funnel. The bearer can use it to mix an alchemical splash weapon with either holy water or unholy water, but the [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) DC increases to 30; half-elves still get the +5 bonus on this check. The funnel does not work on potions, elixirs, extracts, or other materials. Mixing a substance with a similar or identical substance (such as alchemist's fire with alchemist's fire) has no effect. A mixture cannot be combined with another mixture.
+This two-spouted funnel is used to safely mix two alchemical splash weapons into a single flask. Using the vial requires 10 minutes and a DC 25 [Craft](skills/craft.md#_craft) (alchemy) check; a half-elf has a +5 bonus on this check. Failing the check means both splash weapon are destroyed. Success means the two materials are safely mixed into one vial that is the same volume as a normal splash weapon vial; when thrown as a splash weapon, the mixture has the effects of both component substances and creatures are affected as if hit by both. The mixture becomes inert after 24 hours. Only liquids may be mixed with the funnel. The bearer can use it to mix an alchemical splash weapon with either holy water or unholy water, but the [Craft](skills/craft.md#_craft) (alchemy) DC increases to 30; half-elves still get the +5 bonus on this check. The funnel does not work on potions, elixirs, extracts, or other materials. Mixing a substance with a similar or identical substance (such as alchemist's fire with alchemist's fire) has no effect. A mixture cannot be combined with another mixture.
 
 Construction Requirements
 
 Cost 100 gp
 
-Craft Wondrous Item, _ [fabricate](/pathfinderRPG/prd/spells/fabricate.html#_fabricate)_ or combine extracts discovery
+Craft Wondrous Item, _ [fabricate](spells/fabricate.md#_fabricate)_ or combine extracts discovery
 
 Incense of Meditation
 
 **Price** 4,900 gp; **Aura** moderate enchantment; **CL** 7th; **Weight** 1 lb.
 
-This incense comes in many shapes and colors, but is otherwise indistinguishable from nonmagical incense until lit. When it is burned, the special fragrance and pearly hued smoke of this special incense are recognizable by anyone making a DC 15 [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) check.
+This incense comes in many shapes and colors, but is otherwise indistinguishable from nonmagical incense until lit. When it is burned, the special fragrance and pearly hued smoke of this special incense are recognizable by anyone making a DC 15 [Spellcraft](skills/spellcraft.md#_spellcraft) check.
 
-When a divine spellcaster lights a block of _incense of meditation_ and then spends 8 hours praying and meditating nearby, the incense enables him to prepare all his spells as though affected by the [Maximize Spell](/pathfinderRPG/prd/feats.html#_maximize-spell) feat. However, all the spells prepared in this way are at their normal level, not at three levels higher (as with the regular metamagic feat).
+When a divine spellcaster lights a block of _incense of meditation_ and then spends 8 hours praying and meditating nearby, the incense enables him to prepare all his spells as though affected by the [Maximize Spell](feats.md#_maximize-spell) feat. However, all the spells prepared in this way are at their normal level, not at three levels higher (as with the regular metamagic feat).
 
 Each block of incense burns for 8 hours, and the effects persist for 24 hours. The incense may be burned in a _censer of controlling air elements_ to summon a more powerful elemental; this renders it useless for maximizing spellcasting.
 
@@ -2275,7 +2275,7 @@ Construction Requirements
 
 Cost 2,450 gp
 
-Craft Wondrous Item, [Maximize Spell](/pathfinderRPG/prd/feats.html#_maximize-spell), _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_
+Craft Wondrous Item, [Maximize Spell](feats.md#_maximize-spell), _ [bless](spells/bless.md#_bless)_
 
 Incense of Transcendence
 
@@ -2289,31 +2289,31 @@ Construction Requirements
 
 Cost 500 gp
 
-Craft Wondrous Item, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_, creator must be oracle level 7th
+Craft Wondrous Item, _ [prayer](spells/prayer.md#_prayer)_, creator must be oracle level 7th
 
 Insignia of Valor
 
 **Price** 8,000 gp; **Aura** moderate conjuration; **CL** 7th; **Weight** —
 
-This metal badge of a rampant griffon, lion, horse, or similar heraldic creature must be attached to a shield or armor to function. Attaching or removing it requires a DC 15 [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (armor) check, 10 minutes, and appropriate tools. Its powers only function if the wearer of the shield or armor has the channel energy and smite abilities. If the wearer dispatches an opponent with a smite attack (killing it, destroying it, or reducing its hit points below 0), she may expend one use of her channel energy ability as a swift action that round.
+This metal badge of a rampant griffon, lion, horse, or similar heraldic creature must be attached to a shield or armor to function. Attaching or removing it requires a DC 15 [Craft](skills/craft.md#_craft) (armor) check, 10 minutes, and appropriate tools. Its powers only function if the wearer of the shield or armor has the channel energy and smite abilities. If the wearer dispatches an opponent with a smite attack (killing it, destroying it, or reducing its hit points below 0), she may expend one use of her channel energy ability as a swift action that round.
 
 Construction Requirements
 
 Cost 4,000 gp
 
-Craft Wondrous Item, _ [cure critical wounds](/pathfinderRPG/prd/spells/cureCriticalWounds.html#_cure-critical-wounds)_
+Craft Wondrous Item, _ [cure critical wounds](spells/cureCriticalWounds.md#_cure-critical-wounds)_
 
 Insistent Doorknocker
 
 **Price** 5,000 gp; **Aura** moderate transmutation; **CL** 9th; **Weight** 2 lbs.
 
-This iron gargoyle face holds an iron ring in its mouth. Once per day, when the flat back of the gargoyle face is placed against a wall, floor, or ceiling, it fuses into place, creating a usable door and penetrating the space beyond up to 1 foot as if using _ [passwall](/pathfinderRPG/prd/spells/passwall.html#_passwall)_. Speaking the command word again ends the _ [passwall](/pathfinderRPG/prd/spells/passwall.html#_passwall)_ effect, returns the surface to its previous doorless shape, and releases the doorknocker from the surface.
+This iron gargoyle face holds an iron ring in its mouth. Once per day, when the flat back of the gargoyle face is placed against a wall, floor, or ceiling, it fuses into place, creating a usable door and penetrating the space beyond up to 1 foot as if using _ [passwall](spells/passwall.md#_passwall)_. Speaking the command word again ends the _ [passwall](spells/passwall.md#_passwall)_ effect, returns the surface to its previous doorless shape, and releases the doorknocker from the surface.
 
 Construction Requirements
 
 Cost 2,500 gp
 
-Craft Wondrous Item, _ [passwall](/pathfinderRPG/prd/spells/passwall.html#_passwall)_
+Craft Wondrous Item, _ [passwall](spells/passwall.md#_passwall)_
 
 Instant Bridge
 
@@ -2327,15 +2327,15 @@ Construction Requirements
 
 Cost 3,500 gp
 
-Craft Wondrous Item, _ [shrink item](/pathfinderRPG/prd/spells/shrinkItem.html#_shrink-item)_, _ [wall of iron](/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron)_
+Craft Wondrous Item, _ [shrink item](spells/shrinkItem.md#_shrink-item)_, _ [wall of iron](spells/wallOfIron.md#_wall-of-iron)_
 
 Instant Fortress
 
 **Price** 55,000 gp; **Aura** strong conjuration; **CL** 13th; **Weight** 1 lb.
 
-This metal cube is small, but when activated by speaking a command word it grows to form a tower 20 feet square and 30 feet high, with arrow slits on all sides and a crenellated battlement atop it. The metal walls extend 10 feet into the ground, rooting it to the spot and preventing it from being tipped over. The fortress has a small door that opens only at the command of the owner of the fortress—even _ [knock](/pathfinderRPG/prd/spells/knock.html#_knock)_ spells can't open the door.
+This metal cube is small, but when activated by speaking a command word it grows to form a tower 20 feet square and 30 feet high, with arrow slits on all sides and a crenellated battlement atop it. The metal walls extend 10 feet into the ground, rooting it to the spot and preventing it from being tipped over. The fortress has a small door that opens only at the command of the owner of the fortress—even _ [knock](spells/knock.md#_knock)_ spells can't open the door.
 
-The adamantine walls of an _instant fortress_ have 100 hit points and hardness 20. The fortress cannot be repaired except by a _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_ or a _ [miracle](/pathfinderRPG/prd/spells/miracle.html#_miracle)_, which restores 50 points of damage taken.
+The adamantine walls of an _instant fortress_ have 100 hit points and hardness 20. The fortress cannot be repaired except by a _ [wish](spells/wish.md#_wish)_ or a _ [miracle](spells/miracle.md#_miracle)_, which restores 50 points of damage taken.
 
 The fortress springs up in just 1 round, with the door facing the device's owner. The door opens and closes instantly at his command. People and creatures nearby (except the owner) must be careful not to be caught by the fortress's sudden growth. Anyone so caught takes 10d10 points of damage (Reflex DC 19 halves).
 
@@ -2345,7 +2345,7 @@ Construction Requirements
 
 Cost 27,500 gp
 
-Craft Wondrous Item, _ [mage's magnificent mansion](/pathfinderRPG/prd/spells/mageSMagnificentMansion.html#_mage-s-magnificent-mansion)_
+Craft Wondrous Item, _ [mage's magnificent mansion](spells/mageSMagnificentMansion.md#_mage-s-magnificent-mansion)_
 
 Ioun Stone
 
@@ -2353,7 +2353,7 @@ Ioun Stone
 
 These crystalline stones always float in the air and must be within 3 feet of their owner to be of any use. When a character first acquires a stone, she must hold it and then release it, whereupon it takes up a circling orbit 1d3 feet from her head. Thereafter, a stone must be grasped or netted to separate it from its owner. The owner may voluntarily seize and stow a stone (to keep it safe while she is sleeping, for example), but she loses the benefits of the stone during that time. _Ioun stones_ have AC 24, 10 hit points, and hardness 5. The powers of each stone vary depending on its color and shape (see the table on page 306).
 
-Regeneration from the _pearly white ioun stone_ works like a _ [ring of regeneration](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-regeneration)_. It only cures damage taken while the character is using the stone. The pale lavender and lavender-and-green stones work like a _ [rod of absorption](/pathfinderRPG/prd/magicItems/rods.html#_rod-of-absorption)_, but absorbing a spell requires a readied action, and these stones cannot be used to empower spells. Stored spells in the vibrant purple stone must be placed by a spellcaster but can be used by anyone (see_ ring of minor [spell storing](/pathfinderRPG/prd/magicItems/weapons.html#_spell-storing)_). See table on next page.
+Regeneration from the _pearly white ioun stone_ works like a _ [ring of regeneration](magicItems/rings.md#_ring-of-regeneration)_. It only cures damage taken while the character is using the stone. The pale lavender and lavender-and-green stones work like a _ [rod of absorption](magicItems/rods.md#_rod-of-absorption)_, but absorbing a spell requires a readied action, and these stones cannot be used to empower spells. Stored spells in the vibrant purple stone must be placed by a spellcaster but can be used by anyone (see_ ring of minor [spell storing](magicItems/weapons.md#_spell-storing)_). See table on next page.
 
 | Color | Shape | Effect | Price |
 | --- | --- | --- | --- |
@@ -2365,7 +2365,7 @@ Regeneration from the _pearly white ioun stone_ works like a _ [ring of regenera
 | Pink | Rhomboid | +2 enhancement bonus to Constitution | 8,000 gp |
 | Pink and green | Sphere | +2 enhancement bonus to Charisma | 8,000 gp |
 | Scarlet and blue | Sphere | +2 enhancement bonus to Intelligence | 8,000 gp |
-| Dark blue | Rhomboid | [Alertness](/pathfinderRPG/prd/feats.html#_alertness) (as the feat) | 10,000 gp |
+| Dark blue | Rhomboid | [Alertness](feats.md#_alertness) (as the feat) | 10,000 gp |
 | Iridescent | Spindle | Sustains creature without air | 18,000 gp |
 | Pale lavender | Ellipsoid | Absorbs spells of 4th level or lowerⁱ | 20,000 gp |
 | Pearly white | Spindle | Regenerate 1 point of damage per 10 minutes | 20,000 gp |
@@ -2384,13 +2384,13 @@ Ioun Torch
 
 **Price** 75 gp; **Aura** strong universal; **CL** 12th; **Weight** —
 
-This item is merely a burned out, dull gray _ioun stone_ with a _ [continual flame](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)_ spell cast upon it. It retains the ability to float and orbit, and allows the bearer to carry light and still have his hands free. It may be in any crystalline shape common to _ioun stones_ (ellipsoid, prism, sphere, and so on).
+This item is merely a burned out, dull gray _ioun stone_ with a _ [continual flame](spells/continualFlame.md#_continual-flame)_ spell cast upon it. It retains the ability to float and orbit, and allows the bearer to carry light and still have his hands free. It may be in any crystalline shape common to _ioun stones_ (ellipsoid, prism, sphere, and so on).
 
 Construction Requirements
 
 Cost 62 gp, 5 SP
 
-Craft Wondrous Item, _ [continual flame](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)_, creator must be 12th level
+Craft Wondrous Item, _ [continual flame](spells/continualFlame.md#_continual-flame)_, creator must be 12th level
 
 Iron Bands of Binding
 
@@ -2398,13 +2398,13 @@ Iron Bands of Binding
 
 This potent item is a 3-inch-diameter rusty iron sphere wrapped in iron bands.
 
-When the proper command word is spoken and the spherical iron device is hurled at an opponent, the bands expand and then contract to bind the target creature on a successful ranged touch attack. A single Large or smaller creature can be captured thus and held immobile (as if pinned) until the command word is spoken to bring the bands into spherical form again. The creature can break (and destroy) the bands with a DC 30 Strength check or escape them with a DC 30 combat maneuver check or [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) check. _Iron bands of binding_ are usable once per day.
+When the proper command word is spoken and the spherical iron device is hurled at an opponent, the bands expand and then contract to bind the target creature on a successful ranged touch attack. A single Large or smaller creature can be captured thus and held immobile (as if pinned) until the command word is spoken to bring the bands into spherical form again. The creature can break (and destroy) the bands with a DC 30 Strength check or escape them with a DC 30 combat maneuver check or [Escape Artist](skills/escapeArtist.md#_escape-artist) check. _Iron bands of binding_ are usable once per day.
 
 Construction Requirements
 
 Cost 13,000 gp
 
-Craft Wondrous Item, _ [grasping hand](/pathfinderRPG/prd/spells/graspingHand.html#_grasping-hand)_
+Craft Wondrous Item, _ [grasping hand](spells/graspingHand.md#_grasping-hand)_
 
 Iron Flask
 
@@ -2436,7 +2436,7 @@ Construction Requirements
 
 Cost 85,000 gp
 
-Craft Wondrous Item, _ [trap the soul](/pathfinderRPG/prd/spells/trapTheSoul.html#_trap-the-soul)_
+Craft Wondrous Item, _ [trap the soul](spells/trapTheSoul.md#_trap-the-soul)_
 
 Iron Rope
 
@@ -2448,7 +2448,7 @@ Construction Requirements
 
 Cost 375 gp
 
-Craft Wondrous Item, _ [animate rope](/pathfinderRPG/prd/spells/animateRope.html#_animate-rope)_
+Craft Wondrous Item, _ [animate rope](spells/animateRope.md#_animate-rope)_
 
 Iron Spike of Safe Passage
 
@@ -2462,7 +2462,7 @@ Construction Requirements
 
 Cost 1,000 gp
 
-Craft Wondrous Item, _ [silent image](/pathfinderRPG/prd/spells/silentImage.html#_silent-image)_
+Craft Wondrous Item, _ [silent image](spells/silentImage.md#_silent-image)_
 
 Key of Lock Jamming
 
@@ -2474,7 +2474,7 @@ Construction Requirements
 
 Cost 200 gp
 
-Craft Wondrous Item, _ [hold portal](/pathfinderRPG/prd/spells/holdPortal.html#_hold-portal)_
+Craft Wondrous Item, _ [hold portal](spells/holdPortal.md#_hold-portal)_
 
 Ki Mat
 
@@ -2486,7 +2486,7 @@ Construction Requirements
 
 Cost 5,000 gp
 
-Craft Wondrous Item, _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_, creator must be a monk
+Craft Wondrous Item, _ [lesser restoration](spells/restoration.md#_restoration-lesser)_, creator must be a monk
 
 Knight's Pennon
 
@@ -2496,39 +2496,39 @@ Knight's Pennon
 
 This narrow cloth flag is made to attach to the end a knight's lance, though it can be flown from a spear, polearm, or even a staff. It has no effect if not mounted appropriately. A _knight's pennon_ grants different benefits depending on its color and design.
 
-_Battle_: The red _knight's pennon of battle_ allows its bearer to benefit from _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_ once per day.
+_Battle_: The red _knight's pennon of battle_ allows its bearer to benefit from _ [heroism](spells/heroism.md#_heroism)_ once per day.
 
-_Honor_: The gold _knight's pennon of honor_ bestows _ [protection from evil](/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil)_ upon the bearer once per day.
+_Honor_: The gold _knight's pennon of honor_ bestows _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_ upon the bearer once per day.
 
-_Parley_: The white _knight's pennon of parley_, when displayed approaching a negotiation, grants the bearer a +4 enhancement bonus on [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy), [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate), and [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) checks for 1 hour, so long as the bearer does not initiate any hostile action.
+_Parley_: The white _knight's pennon of parley_, when displayed approaching a negotiation, grants the bearer a +4 enhancement bonus on [Bluff](skills/bluff.md#_bluff), [Diplomacy](skills/diplomacy.md#_diplomacy), [Intimidate](skills/intimidate.md#_intimidate), and [Sense Motive](skills/senseMotive.md#_sense-motive) checks for 1 hour, so long as the bearer does not initiate any hostile action.
 
 Construction Requirements
 
 **Battle** 2,250 gp; **Honor** 1,100 gp; **Parley** 2,250 gp
 
-Craft Wondrous Item, _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_ (battle), _ [protection from evil](/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil)_ (honor), _ [eagle's splendor](/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor)_ (parley)
+Craft Wondrous Item, _ [heroism](spells/heroism.md#_heroism)_ (battle), _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_ (honor), _ [eagle's splendor](spells/eagleSSplendor.md#_eagle-s-splendor)_ (parley)
 
 Lantern of Revealing
 
 **Price** 30,000 gp; **Aura** faint evocation; **CL** 5th; **Weight** 2 lbs.
 
-This lantern operates as a normal hooded lantern. While it is lit, it also reveals all invisible creatures and objects within 25 feet of it, just like the spell _ [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_.
+This lantern operates as a normal hooded lantern. While it is lit, it also reveals all invisible creatures and objects within 25 feet of it, just like the spell _ [invisibility purge](spells/invisibilityPurge.md#_invisibility-purge)_.
 
 Construction Requirements
 
 Cost 15,000 gp
 
-Craft Wondrous Item_, [invisibility purge](/pathfinderRPG/prd/spells/invisibilityPurge.html#_invisibility-purge)_
+Craft Wondrous Item_, [invisibility purge](spells/invisibilityPurge.md#_invisibility-purge)_
 
 Last Leaves of the Autumn Dryad
 
 **Price** 52,000 gp; **Aura** moderate divination and transmutation; **CL** 8th; **Weight** —
 
-This vibrant cluster of leaves constantly changes hue through the different colors of the autumn season, from brown and red to orange and yellow. Once per day, the bearer may touch the leaves to her tongue to assume _ [tree shape](/pathfinderRPG/prd/spells/treeShape.html#_tree-shape)_ (as the spell) for up to 8 hours, appearing as a healthy tree that is lush with thousands of autumn leaves for the duration of the effect.
+This vibrant cluster of leaves constantly changes hue through the different colors of the autumn season, from brown and red to orange and yellow. Once per day, the bearer may touch the leaves to her tongue to assume _ [tree shape](spells/treeShape.md#_tree-shape)_ (as the spell) for up to 8 hours, appearing as a healthy tree that is lush with thousands of autumn leaves for the duration of the effect.
 
-While in tree form, a creature may release these leaves upon the wind, consciously controlling them as a scrying sensor with the abilities of _ [arcane eye](/pathfinderRPG/prd/spells/arcaneEye.html#_arcane-eye)_. The leaves have the statistics of an army ant swarm, except the swarm has plant traits, fast healing 5, and vulnerability to fire.
+While in tree form, a creature may release these leaves upon the wind, consciously controlling them as a scrying sensor with the abilities of _ [arcane eye](spells/arcaneEye.md#_arcane-eye)_. The leaves have the statistics of an army ant swarm, except the swarm has plant traits, fast healing 5, and vulnerability to fire.
 
-The creature may shape the scrying leaves into a semblance of her face, allowing her to speak through the leaves. The leaves' voice is a quiet, dry rustle, and they are capable of conveying most of the creature's intended facial expressions (they can smile, frown, and so on). If the creature has the wild empathy class ability or is a sorcerer with the fey bloodline, she may have any _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_, or _ [speak with plants](/pathfinderRPG/prd/spells/speakWithPlants.html#_speak-with-plants)_ spell she casts originate from the leaves instead of herself, and her _ [tree shape](/pathfinderRPG/prd/spells/treeShape.html#_tree-shape)_ does not prevent her from casting these spells.
+The creature may shape the scrying leaves into a semblance of her face, allowing her to speak through the leaves. The leaves' voice is a quiet, dry rustle, and they are capable of conveying most of the creature's intended facial expressions (they can smile, frown, and so on). If the creature has the wild empathy class ability or is a sorcerer with the fey bloodline, she may have any _ [ghost sound](spells/ghostSound.md#_ghost-sound)_, _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_, or _ [speak with plants](spells/speakWithPlants.md#_speak-with-plants)_ spell she casts originate from the leaves instead of herself, and her _ [tree shape](spells/treeShape.md#_tree-shape)_ does not prevent her from casting these spells.
 
 If the scrying leaves fail to return before creature returns to its normal shape, the magic item does not function for 1 week. During this time, the leaves fade to brown and appear to have a light coating of frost on them.
 
@@ -2536,7 +2536,7 @@ Construction Requirements
 
 Cost 26,000 gp
 
-Craft Wondrous Item, _ [arcane eye](/pathfinderRPG/prd/spells/arcaneEye.html#_arcane-eye)_, _ [tree shape](/pathfinderRPG/prd/spells/treeShape.html#_tree-shape)_, _ [whispering wind](/pathfinderRPG/prd/spells/whisperingWind.html#_whispering-wind)_
+Craft Wondrous Item, _ [arcane eye](spells/arcaneEye.md#_arcane-eye)_, _ [tree shape](spells/treeShape.md#_tree-shape)_, _ [whispering wind](spells/whisperingWind.md#_whispering-wind)_
 
 Life Link Badge
 
@@ -2548,7 +2548,7 @@ Construction Requirements
 
 Cost 3,000 gp
 
-Craft Wondrous Item, _ [rejuvenate eidolon](/pathfinderRPG/prd/advanced/spells/rejuvenateEidolon.html#_rejuvenate-eidolon)_
+Craft Wondrous Item, _ [rejuvenate eidolon](advanced/spells/rejuvenateEidolon.md#_rejuvenate-eidolon)_
 
 Loathsome Mirror
 
@@ -2560,7 +2560,7 @@ Construction Requirements
 
 Cost 4,500 gp
 
-Craft Wondrous Item, _ [unadulterated loathing](/pathfinderRPG/prd/ultimateMagic/spells/unadulteratedLoathing.html#_unadulterated-loathing)_
+Craft Wondrous Item, _ [unadulterated loathing](ultimateMagic/spells/unadulteratedLoathing.md#_unadulterated-loathing)_
 
 Lord's Banner
 
@@ -2584,21 +2584,21 @@ Construction Requirements
 
 **Crusades** 50,000 gp; **Swiftness** 5,000 gp; **Terror** 28,000 gp; **Victory** 37,500 gp
 
-Craft Wondrous Item, _ [eagle's splendor](/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor)_ (leadership), _ [hallow](/pathfinderRPG/prd/spells/hallow.html#_hallow)_ (crusades), _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_ (swiftness), _ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_ (terror), _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_ (victory)
+Craft Wondrous Item, _ [eagle's splendor](spells/eagleSSplendor.md#_eagle-s-splendor)_ (leadership), _ [hallow](spells/hallow.md#_hallow)_ (crusades), _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_ (swiftness), _ [fear](spells/fear.md#_fear)_ (terror), _ [heroism](spells/heroism.md#_heroism)_ (victory)
 
 Lyre of Building
 
 **Price** 13,000 gp; **Aura** moderate transmutation; **CL** 6th; **Weight** lbs.
 
-This magical instrument is usually made of gold and inlaid with numerous gems. If the proper chords are struck, a single use of this lyre negates any attacks made against inanimate construction (walls, roof, floor, and so on) within 300 feet. This includes the effects of a _horn of blasting_, a _ [disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_ spell, or an attack from a ram or similar siege weapon. The lyre can be used in this way once per day, with the protection lasting for 30 minutes.
+This magical instrument is usually made of gold and inlaid with numerous gems. If the proper chords are struck, a single use of this lyre negates any attacks made against inanimate construction (walls, roof, floor, and so on) within 300 feet. This includes the effects of a _horn of blasting_, a _ [disintegrate](spells/disintegrate.md#_disintegrate)_ spell, or an attack from a ram or similar siege weapon. The lyre can be used in this way once per day, with the protection lasting for 30 minutes.
 
-The lyre is also useful with respect to building. Once a week, its strings can be strummed so as to produce chords that magically construct buildings, mines, tunnels, ditches, etc. The effect produced in 30 minutes of playing is equal to the work of 100 humans laboring for 3 days. Each hour after the first, a character playing the lyre must make a DC 18 [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (string instruments) check. If she fails, she must stop and cannot play the lyre again for this purpose until a week has passed.
+The lyre is also useful with respect to building. Once a week, its strings can be strummed so as to produce chords that magically construct buildings, mines, tunnels, ditches, etc. The effect produced in 30 minutes of playing is equal to the work of 100 humans laboring for 3 days. Each hour after the first, a character playing the lyre must make a DC 18 [Perform](skills/perform.md#_perform) (string instruments) check. If she fails, she must stop and cannot play the lyre again for this purpose until a week has passed.
 
 Construction Requirements
 
 Cost 6,500 gp
 
-Craft Wondrous Item, _ [fabricate](/pathfinderRPG/prd/spells/fabricate.html#_fabricate)_
+Craft Wondrous Item, _ [fabricate](spells/fabricate.md#_fabricate)_
 
 Malleable Symbol
 
@@ -2616,7 +2616,7 @@ Construction Requirements
 
 Cost 5,000 gp
 
-Craft Wondrous Item, _ [mass cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds-mass)_, creator must be able to channel energy
+Craft Wondrous Item, _ [mass cure light wounds](spells/cureLightWounds.md#_cure-light-wounds-mass)_, creator must be able to channel energy
 
 Mallet of Building
 
@@ -2628,7 +2628,7 @@ Construction Requirements
 
 Cost 2,500 gp
 
-Craft Wondrous Item, _ [minor creation](/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation)_
+Craft Wondrous Item, _ [minor creation](spells/minorCreation.md#_minor-creation)_
 
 Manual of Bodily Health
 
@@ -2642,7 +2642,7 @@ Construction Requirements
 
 **+1 Constitution** 26,250 gp; **+2 Constitution** 52,500 gp; **+3 Constitution** 78,750 gp; **+4 Constitution** 105,000 gp; **+5 Constitution** 131,250 gp
 
-Craft Wondrous Item, _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_ or _ [miracle](/pathfinderRPG/prd/spells/miracle.html#_miracle)_
+Craft Wondrous Item, _ [wish](spells/wish.md#_wish)_ or _ [miracle](spells/miracle.md#_miracle)_
 
 Manual of Gainful Exercise
 
@@ -2656,7 +2656,7 @@ Construction Requirements
 
 **+1 Strength** 26,250 gp; **+2 Strength** 52,500 gp; **+3 Strength** 78,750 gp; **+4 Strength** 105,000 gp; **+5 Strength** 131,250 gp
 
-Craft Wondrous Item, _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_ or _ [miracle](/pathfinderRPG/prd/spells/miracle.html#_miracle)_
+Craft Wondrous Item, _ [wish](spells/wish.md#_wish)_ or _ [miracle](spells/miracle.md#_miracle)_
 
 Manual of Quickness of Action
 
@@ -2670,7 +2670,7 @@ Construction Requirements
 
 **+1 Dexterity** 26,250 gp; **+2 Dexterity** 52,500 gp; **+3 Dexterity** 78,750 gp; **+4 Dexterity** 105,000 gp; **+5 Dexterity** 131,250 gp
 
-Craft Wondrous Item, _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_ or _ [miracle](/pathfinderRPG/prd/spells/miracle.html#_miracle)_
+Craft Wondrous Item, _ [wish](spells/wish.md#_wish)_ or _ [miracle](spells/miracle.md#_miracle)_
 
 Manual of War
 
@@ -2682,7 +2682,7 @@ Construction Requirements
 
 Cost 3,750 gp
 
-Craft Wondrous Item, _ [modify memory](/pathfinderRPG/prd/spells/modifyMemory.html#_modify-memory)_, creator must be a fighter
+Craft Wondrous Item, _ [modify memory](spells/modifyMemory.md#_modify-memory)_, creator must be a fighter
 
 Martyr's Tear
 
@@ -2696,7 +2696,7 @@ Construction Requirements
 
 Cost 3,000 gp
 
-Craft Wondrous Item, _ [vampiric touch](/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch)_
+Craft Wondrous Item, _ [vampiric touch](spells/vampiricTouch.md#_vampiric-touch)_
 
 Marvelous Pigments
 
@@ -2704,13 +2704,13 @@ Marvelous Pigments
 
 These pigments enable their possessor to create actual, permanent objects simply by depicting their form in two dimensions. The pigments are applied by a stick tipped with bristles, hair, or fur. The emulsion flows from the application to form the desired object as the artist concentrates on the image. One pot of _marvelous pigments_ is sufficient to create a 1,000-cubic-foot object by depicting it two-dimensionally over a 100-square-foot surface.
 
-Only normal, inanimate objects can be created. Creatures can't be created. The pigments must be applied to a surface. It takes 10 minutes and a DC 15 [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (painting) check to depict an object with the pigments. _Marvelous pigments_ cannot create magic items. Objects of value depicted by the pigments—precious metals, gems, jewelry, ivory, and so on—appear to be valuable but are really made of tin, lead, glass, brass, bone, and other such inexpensive materials. The user can create normal weapons, armor, and any other mundane item (including foodstuffs) whose value does not exceed 2,000 gp. The effect is instantaneous.
+Only normal, inanimate objects can be created. Creatures can't be created. The pigments must be applied to a surface. It takes 10 minutes and a DC 15 [Craft](skills/craft.md#_craft) (painting) check to depict an object with the pigments. _Marvelous pigments_ cannot create magic items. Objects of value depicted by the pigments—precious metals, gems, jewelry, ivory, and so on—appear to be valuable but are really made of tin, lead, glass, brass, bone, and other such inexpensive materials. The user can create normal weapons, armor, and any other mundane item (including foodstuffs) whose value does not exceed 2,000 gp. The effect is instantaneous.
 
 Construction Requirements
 
 Cost 2,000 gp
 
-Craft Wondrous Item, _ [major creation](/pathfinderRPG/prd/spells/majorCreation.html#_major-creation)_
+Craft Wondrous Item, _ [major creation](spells/majorCreation.md#_major-creation)_
 
 Master's Perfect Golden Bell
 
@@ -2722,7 +2722,7 @@ Construction Requirements
 
 Cost 10,000 gp
 
-Craft Wondrous Item, _ [banishment](/pathfinderRPG/prd/spells/banishment.html#_banishment)_
+Craft Wondrous Item, _ [banishment](spells/banishment.md#_banishment)_
 
 Mattock of the Titans
 
@@ -2734,7 +2734,7 @@ Construction Requirements
 
 Cost 13,348 gp
 
-Craft Wondrous Item, [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [move earth](/pathfinderRPG/prd/spells/moveEarth.html#_move-earth)_
+Craft Wondrous Item, [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [move earth](spells/moveEarth.md#_move-earth)_
 
 Maul of the Titans
 
@@ -2746,7 +2746,7 @@ Construction Requirements
 
 Cost 12,305 gp
 
-Craft Wondrous Item, [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [clenched fist](/pathfinderRPG/prd/spells/clenchedFist.html#_clenched-fist)_
+Craft Wondrous Item, [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [clenched fist](spells/clenchedFist.md#_clenched-fist)_
 
 Migrus Locker
 
@@ -2762,19 +2762,19 @@ Construction Requirements
 
 Cost 5,000 gp
 
-Craft Wondrous Item, _ [reincarnate](/pathfinderRPG/prd/spells/reincarnate.html#_reincarnate)_ or _ [stone to flesh](/pathfinderRPG/prd/spells/stoneToFlesh.html#_stone-to-flesh)_
+Craft Wondrous Item, _ [reincarnate](spells/reincarnate.md#_reincarnate)_ or _ [stone to flesh](spells/stoneToFlesh.md#_stone-to-flesh)_
 
 Mirror of Guarding Reflections
 
 **Price** 7,000 gp; **Aura** moderate illusion; **CL** 7th; **Weight** 4 lbs.
 
-Reflections visible in this palm-sized hand mirror always seem ghostly and insubstantial. When a creature holding the mirror is targeted by an attack, he can spend an immediate action to summon his reflection from the glass to interpose itself between him and the blow. The reflection functions as an image produced by the spell _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_. If the image is struck by the attack, it shatters with a resounding crash. The creature that destroyed the image is subject to bad luck; the next time it makes an attack roll or saving throw, it must roll twice and take the worse result. If the attack does not strike the image, the image fades away at the start of the mirror bearer's next turn. The mirror can be used three times per day.
+Reflections visible in this palm-sized hand mirror always seem ghostly and insubstantial. When a creature holding the mirror is targeted by an attack, he can spend an immediate action to summon his reflection from the glass to interpose itself between him and the blow. The reflection functions as an image produced by the spell _ [mirror image](spells/mirrorImage.md#_mirror-image)_. If the image is struck by the attack, it shatters with a resounding crash. The creature that destroyed the image is subject to bad luck; the next time it makes an attack roll or saving throw, it must roll twice and take the worse result. If the attack does not strike the image, the image fades away at the start of the mirror bearer's next turn. The mirror can be used three times per day.
 
 Construction Requirements
 
 Cost 3,500 gp
 
-Craft Wondrous Item, _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_
+Craft Wondrous Item, _ [mirror image](spells/mirrorImage.md#_mirror-image)_
 
 Mirror of Life Trapping
 
@@ -2790,7 +2790,7 @@ Construction Requirements
 
 Cost 100,000 gp
 
-Craft Wondrous Item, _ [imprisonment](/pathfinderRPG/prd/spells/imprisonment.html#_imprisonment)_
+Craft Wondrous Item, _ [imprisonment](spells/imprisonment.md#_imprisonment)_
 
 Mirror of Mental Prowess
 
@@ -2800,14 +2800,14 @@ This mirror resembles an ordinary looking glass 5 feet tall by 2 feet wide. A cr
 
 - Read the thoughts of any creature reflected therein, as long as the creature controlling the mirror is within 25 feet of the mirror, even if those thoughts are in an unknown language.
 - View other places as if with _clairvoyance_, and the controller can even view locations on other planes if she is sufficiently familiar with them.
-- Use it as a portal to visit other places. The controller first views the place with the _clairvoyance_ function, then steps through the mirror to the place pictured. Others can follow her through the mirror if they like. An invisible portal remains on the other side where she arrives, and she can return through that portal. Once she returns, the portal closes. The portal closes on its own after 24 hours (trapping the user if she's still in the other place), and the user can also close it with a command word. Creatures with Intelligence scores of 12 or higher might notice the portal just as they might notice a magical sensor from a _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ spell. Any creature who steps through the portal appears in front of the mirror.
-- Once per week the mirror accurately answers one short question regarding a creature whose image is shown on its surface (giving answers similar to those from the _ [legend lore](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)_ spell).
+- Use it as a portal to visit other places. The controller first views the place with the _clairvoyance_ function, then steps through the mirror to the place pictured. Others can follow her through the mirror if they like. An invisible portal remains on the other side where she arrives, and she can return through that portal. Once she returns, the portal closes. The portal closes on its own after 24 hours (trapping the user if she's still in the other place), and the user can also close it with a command word. Creatures with Intelligence scores of 12 or higher might notice the portal just as they might notice a magical sensor from a _ [scrying](spells/scrying.md#_scrying)_ spell. Any creature who steps through the portal appears in front of the mirror.
+- Once per week the mirror accurately answers one short question regarding a creature whose image is shown on its surface (giving answers similar to those from the _ [legend lore](spells/legendLore.md#_legend-lore)_ spell).
 
 Construction Requirements
 
 Cost 87,500 gp
 
-Craft Wondrous Item, _ [clairaudience/clairvoyance](/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance)_, _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_, _ [gate](/pathfinderRPG/prd/spells/gate.html#_gate)_, _ [legend lore](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)_
+Craft Wondrous Item, _ [clairaudience/clairvoyance](spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance)_, _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_, _ [gate](spells/gate.md#_gate)_, _ [legend lore](spells/legendLore.md#_legend-lore)_
 
 Mirror of Opposition
 
@@ -2819,7 +2819,7 @@ Construction Requirements
 
 Cost 46,000 gp
 
-Craft Wondrous Item, _ [clone](/pathfinderRPG/prd/spells/clone.html#_clone)_
+Craft Wondrous Item, _ [clone](spells/clone.md#_clone)_
 
 Naga-scale Bindi
 
@@ -2827,17 +2827,17 @@ Naga-scale Bindi
 
 This shining, jewel-like scale is usually worn on the forehead between the eyebrows, though a creature can affix the scale to any part of her body by pressing it to her skin and speaking its command word. Once affixed, the scale causes the creature to take on the attributes of a particular type of naga, chosen when the scale was created. Her skin becomes scaly, her eyes slitted and reptilian, her tongue forked, and her neck lengthens and distends until it resembles a cobra's hood. The creature gains a +4 bonus to her natural armor, darkvision 60 feet, and a poisonous bite attack that deals 1d4 points of damage (1d3 for a Small creature)Bite—injury; _save_ Fort DC 19; _frequency_ 1/round for 6 rounds; _effect_ varies by the scale's naga type (see below); _cure_ 1 save. Each scale also grants its wearer access to a special ability, as follows:
 
-_Dark naga_: The wearer gains a +8 bonus on saves made to resist any form of mind reading and a +2 bonus against charm effects. _ [Poison](/pathfinderRPG/prd/spells/poison.html#_poison) effect_: sleep for 1 round.
+_Dark naga_: The wearer gains a +8 bonus on saves made to resist any form of mind reading and a +2 bonus against charm effects. _ [Poison](spells/poison.md#_poison) effect_: sleep for 1 round.
 
-_Guardian naga_: The wearer can spit venom up to 30 feet as a standard action. This is a ranged touch attack with no range increment. Opponents hit by this attack must make saves to avoid the poison's effect. _ [Poison](/pathfinderRPG/prd/spells/poison.html#_poison) effect_: 1d2 Con damage.
+_Guardian naga_: The wearer can spit venom up to 30 feet as a standard action. This is a ranged touch attack with no range increment. Opponents hit by this attack must make saves to avoid the poison's effect. _ [Poison](spells/poison.md#_poison) effect_: 1d2 Con damage.
 
-_Spirit naga_: Once per minute, the wearer can attempt to charm a single creature within 30 feet, as the spell _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (Will DC 19 negates). _ [Poison](/pathfinderRPG/prd/spells/poison.html#_poison) effect_: 1d4 Con damage.
+_Spirit naga_: Once per minute, the wearer can attempt to charm a single creature within 30 feet, as the spell _ [charm person](spells/charmPerson.md#_charm-person)_ (Will DC 19 negates). _ [Poison](spells/poison.md#_poison) effect_: 1d4 Con damage.
 
-_Lunar naga_: Once per day, the wearer can spend a standard action to fascinate all creatures within 30 feet, as per the spell _ [hypnotism](/pathfinderRPG/prd/spells/hypnotism.html#_hypnotism)_ (Will DC 19 negates). _ [Poison](/pathfinderRPG/prd/spells/poison.html#_poison) effect_: 1d3 Con and 1 Wis.
+_Lunar naga_: Once per day, the wearer can spend a standard action to fascinate all creatures within 30 feet, as per the spell _ [hypnotism](spells/hypnotism.md#_hypnotism)_ (Will DC 19 negates). _ [Poison](spells/poison.md#_poison) effect_: 1d3 Con and 1 Wis.
 
-_Royal naga_: Once per day, the wearer can attempt to blind or deafen a single creature within 30 feet, as the spell _ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_ (Will DC 19 negates). _ [Poison](/pathfinderRPG/prd/spells/poison.html#_poison) effect_: 1d6 bleed.
+_Royal naga_: Once per day, the wearer can attempt to blind or deafen a single creature within 30 feet, as the spell _ [blindness/deafness](spells/blindnessDeafness.md#_blindness-deafness)_ (Will DC 19 negates). _ [Poison](spells/poison.md#_poison) effect_: 1d6 bleed.
 
-_Water naga_: The wearer gains a swim speed equal to its base land speed, and can breathe water or air. _ [Poison](/pathfinderRPG/prd/spells/poison.html#_poison) effect_: 1 Con.
+_Water naga_: The wearer gains a swim speed equal to its base land speed, and can breathe water or air. _ [Poison](spells/poison.md#_poison) effect_: 1 Con.
 
 The bindi's effects last for 11 minutes, or until the creature spends a standard action to return to her normal form. The bindi can be used twice before it loses its luster and becomes nonmagical.
 
@@ -2845,7 +2845,7 @@ Construction Requirements
 
 Cost 3,300 gp
 
-Craft Wondrous Item, _ [monstrous physique IV](/pathfinderRPG/prd/ultimateMagic/spells/monstrousPhysique.html#_monstrous-physique-iv)_
+Craft Wondrous Item, _ [monstrous physique IV](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-iv)_
 
 Necromancer's Athame
 
@@ -2857,19 +2857,19 @@ Construction Requirements
 
 Cost 10,000 gp
 
-Craft Wondrous Item, _ [create undead](/pathfinderRPG/prd/spells/createUndead.html#_create-undead)_, creator must be a necromancer
+Craft Wondrous Item, _ [create undead](spells/createUndead.md#_create-undead)_, creator must be a necromancer
 
 Needles of Fleshgraving
 
 **Price** 8,000 gp; **Aura** faint transmutation; **CL** 5th; **Weight** 1 lb.
 
-These tattooing needles can grant a +5 competence bonus on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (tattoos) checks. Once per day they can be used to transform an object into a tattoo on a willing creature. This takes 10 minutes. The object may resist with a DC 17 Fortitude saving throw. The transformed object radiates faint transmutation magic and looks like a miniature depiction of itself. The bearer of the tattoo may peel it off as a standard action, transforming it back into its object form. The tattoo automatically reverts back to its object form after 7 days, if dispelled (using the caster level of the needles), or upon the death of the tattooed creature.
+These tattooing needles can grant a +5 competence bonus on [Craft](skills/craft.md#_craft) (tattoos) checks. Once per day they can be used to transform an object into a tattoo on a willing creature. This takes 10 minutes. The object may resist with a DC 17 Fortitude saving throw. The transformed object radiates faint transmutation magic and looks like a miniature depiction of itself. The bearer of the tattoo may peel it off as a standard action, transforming it back into its object form. The tattoo automatically reverts back to its object form after 7 days, if dispelled (using the caster level of the needles), or upon the death of the tattooed creature.
 
 Construction Requirements
 
 Cost 4,000 gp
 
-Craft Wondrous Item, _ [shrink item](/pathfinderRPG/prd/spells/shrinkItem.html#_shrink-item)_, creator must have 5 ranks in [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (tattoos)
+Craft Wondrous Item, _ [shrink item](spells/shrinkItem.md#_shrink-item)_, creator must have 5 ranks in [Craft](skills/craft.md#_craft) (tattoos)
 
 Nightdrops
 
@@ -2881,7 +2881,7 @@ Construction Requirements
 
 Cost 125 gp
 
-Craft Wondrous Item, _ [beast shape I](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-i)_
+Craft Wondrous Item, _ [beast shape I](spells/beastShape.md#_beast-shape-i)_
 
 Noble's Vigilant Pillbox
 
@@ -2889,11 +2889,11 @@ Noble's Vigilant Pillbox
 
 This heart-shaped charm is set with three pearls: one white, one silver, and one black. Inside, a tiny compartment usually contains smelling salts (page 101) or alchemist's kindness (page 100). Each pearl has a primary, passive ability and a secondary, active ability that activates if it is removed from the setting and swallowed (a standard action, as if drinking a potion). Swallowing a pearl destroys it. A command word activates the primary abilities of all three pearls for 1 round.
 
-When activated, the white pearl detects poison in a 10-foot radius around the wearer, dulling to a dark gray if poison is within range. If swallowed, it grants the benefit of a _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_ spell.
+When activated, the white pearl detects poison in a 10-foot radius around the wearer, dulling to a dark gray if poison is within range. If swallowed, it grants the benefit of a _ [delay poison](spells/delayPoison.md#_delay-poison)_ spell.
 
-The silver pearl detects diseases in a 10-foot radius, turning bright blue on discovery. If swallowed, it grants the benefit of a _ [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease)_ spell.
+The silver pearl detects diseases in a 10-foot radius, turning bright blue on discovery. If swallowed, it grants the benefit of a _ [remove disease](spells/removeDisease.md#_remove-disease)_ spell.
 
-The black pearl turns white if any invisible creature is within 10 feet of the wearer. If swallowed, it grants the benefits of _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_ for 1 minute.
+The black pearl turns white if any invisible creature is within 10 feet of the wearer. If swallowed, it grants the benefits of _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_ for 1 minute.
 
 A charms found with missing pearls has its price reduced appropriately; a white pearl is worth 750 gp, a silver pearl is worth 1,150 gp, and black pearl is worth 1,700 gp.
 
@@ -2901,45 +2901,45 @@ Construction Requirements
 
 Cost 1,800 gp
 
-Craft Wondrous Item, _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison), [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison), [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease), [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
+Craft Wondrous Item, _ [delay poison](spells/delayPoison.md#_delay-poison), [detect poison](spells/detectPoison.md#_detect-poison), [remove disease](spells/removeDisease.md#_remove-disease), [see invisibility](spells/seeInvisibility.md#_see-invisibility)_
 
 Oil of Silence
 
 **Price** 250 gp; **Aura** faint illusion; **CL** 5th; **Weight** —
 
-When applied to a one-handed or two-handed firearm, this strange grayish oil renders that firearm silent for 1 hour. Five vials of _oil of [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ can be used in conjunction to silence a Large firearm siege engine, and 10 can be used to silence a Huge firearm siege engine. The oil does not work on firearm siege engines that are larger than Huge.
+When applied to a one-handed or two-handed firearm, this strange grayish oil renders that firearm silent for 1 hour. Five vials of _oil of [silence](spells/silence.md#_silence)_ can be used in conjunction to silence a Large firearm siege engine, and 10 can be used to silence a Huge firearm siege engine. The oil does not work on firearm siege engines that are larger than Huge.
 
 Construction Requirements
 
 Cost 125 gp
 
-Craft Wondrous Item, _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_
+Craft Wondrous Item, _ [silence](spells/silence.md#_silence)_
 
 Orb of Foul Abaddon
 
 **Price** 18,000 gp; **Aura** moderate conjuration; **CL** 10th; **Weight** 1 lb.
 
-This grapefruit-sized sphere of glossy black stone glows with faint whorls of orange fire deep within its inky substance. When held in hand, it can be commanded to unleash a _ [dread bolt](/pathfinderRPG/prd/ultimateMagic/spells/dreadBolt.html#_dread-bolt)_ once per day. When used as an additional focus for casting a spell with the evil descriptor, the bearer gains a +1 bonus to her caster level for these spells. It bestows one permanent negative level on any good creature holding or carrying it. The negative level remains as long as the creature has the orb and disappears immediately when the orb is no longer held or carried. This negative level cannot be overcome in any way (including by _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_ spells) while the bearer has the orb.
+This grapefruit-sized sphere of glossy black stone glows with faint whorls of orange fire deep within its inky substance. When held in hand, it can be commanded to unleash a _ [dread bolt](ultimateMagic/spells/dreadBolt.md#_dread-bolt)_ once per day. When used as an additional focus for casting a spell with the evil descriptor, the bearer gains a +1 bonus to her caster level for these spells. It bestows one permanent negative level on any good creature holding or carrying it. The negative level remains as long as the creature has the orb and disappears immediately when the orb is no longer held or carried. This negative level cannot be overcome in any way (including by _ [restoration](spells/restoration.md#_restoration)_ spells) while the bearer has the orb.
 
 Construction Requirements
 
 Cost 9,000 gp
 
-Craft Wondrous Item, _ [dread bolt](/pathfinderRPG/prd/ultimateMagic/spells/dreadBolt.html#_dread-bolt) , _creator must be evil
+Craft Wondrous Item, _ [dread bolt](ultimateMagic/spells/dreadBolt.md#_dread-bolt) , _creator must be evil
 
 Orb of Golden Heaven
 
 **Price** 22,000 gp; **Aura** moderate evocation; **CL** 10th; **Weight** 1 lb.
 
-This alabaster sphere, overlaid with golden bands set with diamonds in runelike patterns, sheds light like a _ [continual flame](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)_ spell. Making a melee touch attack with the orb has the same effect as dousing the target with a flask of holy water. A good creature may hold the orb in hand and command it to invoke _ [consecrate](/pathfinderRPG/prd/spells/consecrate.html#_consecrate)_ and _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_ each once per day.
+This alabaster sphere, overlaid with golden bands set with diamonds in runelike patterns, sheds light like a _ [continual flame](spells/continualFlame.md#_continual-flame)_ spell. Making a melee touch attack with the orb has the same effect as dousing the target with a flask of holy water. A good creature may hold the orb in hand and command it to invoke _ [consecrate](spells/consecrate.md#_consecrate)_ and _ [searing light](spells/searingLight.md#_searing-light)_ each once per day.
 
-The orb bestows one permanent negative level on any evil creature holding or carrying it. The negative level remains as long as the creature has the orb and disappears immediately when the orb is no longer held or carried. This negative level cannot be overcome in any way (including by _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_ spells) while the bearer has the orb.â©If the bearer of an _orb of golden heaven_ wears a _crown of golden heaven_, its light counts as _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_ instead of _ [continual flame](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame)_, and its _ [consecrate](/pathfinderRPG/prd/spells/consecrate.html#_consecrate)_ acts as if the orb were a shrine to the bearer's deity.
+The orb bestows one permanent negative level on any evil creature holding or carrying it. The negative level remains as long as the creature has the orb and disappears immediately when the orb is no longer held or carried. This negative level cannot be overcome in any way (including by _ [restoration](spells/restoration.md#_restoration)_ spells) while the bearer has the orb. If the bearer of an _orb of golden heaven_ wears a _crown of golden heaven_, its light counts as _ [daylight](spells/daylight.md#_daylight)_ instead of _ [continual flame](spells/continualFlame.md#_continual-flame)_, and its _ [consecrate](spells/consecrate.md#_consecrate)_ acts as if the orb were a shrine to the bearer's deity.
 
 Construction Requirements
 
 Cost 11,000 gp
 
-Craft Wondrous Item, _ [bless water](/pathfinderRPG/prd/spells/blessWater.html#_bless-water), [consecrate](/pathfinderRPG/prd/spells/consecrate.html#_consecrate), [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight), [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_
+Craft Wondrous Item, _ [bless water](spells/blessWater.md#_bless-water), [consecrate](spells/consecrate.md#_consecrate), [daylight](spells/daylight.md#_daylight), [searing light](spells/searingLight.md#_searing-light)_
 
 Orb of pure Law
 
@@ -2947,43 +2947,43 @@ Orb of pure Law
 
 This featureless gray stone is perfectly smooth and flawlessly polished. The bearer of an _orb of pure law _gains a +4 deflection bonus to AC against attacks from chaotic creatures and a +4 resistance bonus on saving throws against polymorph effects, effects with the chaotic descriptor, and effects that inflict the confused condition.
 
-When held in hand, the bearer of the orb may use _ [detect chaos](/pathfinderRPG/prd/spells/detectChaos.html#_detect-chaos)_ and _ [detect law](/pathfinderRPG/prd/spells/detectLaw.html#_detect-law)_ at will. A lawful creature may hold the orb in hand and command it to invoke _ [dispel chaos](/pathfinderRPG/prd/spells/dispelChaos.html#_dispel-chaos)_ and _ [arrow of law](/pathfinderRPG/prd/ultimateMagic/spells/arrowOfLaw.html#_arrow-of-law) _each once per day.
+When held in hand, the bearer of the orb may use _ [detect chaos](spells/detectChaos.md#_detect-chaos)_ and _ [detect law](spells/detectLaw.md#_detect-law)_ at will. A lawful creature may hold the orb in hand and command it to invoke _ [dispel chaos](spells/dispelChaos.md#_dispel-chaos)_ and _ [arrow of law](ultimateMagic/spells/arrowOfLaw.md#_arrow-of-law) _each once per day.
 
-The orb bestows one permanent negative level on any chaotic creature holding or carrying it. The negative level remains as long as the creature has the orb and disappears immediately when the orb is no longer held or carried. This negative level cannot be overcome in any way (including by _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_ spells) while the bearer has the orb.
+The orb bestows one permanent negative level on any chaotic creature holding or carrying it. The negative level remains as long as the creature has the orb and disappears immediately when the orb is no longer held or carried. This negative level cannot be overcome in any way (including by _ [restoration](spells/restoration.md#_restoration)_ spells) while the bearer has the orb.
 
 Construction Requirements
 
 Cost 30,000 gp
 
-Craft Wondrous Item, _ [arrow of law](/pathfinderRPG/prd/ultimateMagic/spells/arrowOfLaw.html#_arrow-of-law) , [detect chaos](/pathfinderRPG/prd/spells/detectChaos.html#_detect-chaos), [detect law](/pathfinderRPG/prd/spells/detectLaw.html#_detect-law), [dispel chaos](/pathfinderRPG/prd/spells/dispelChaos.html#_dispel-chaos)_
+Craft Wondrous Item, _ [arrow of law](ultimateMagic/spells/arrowOfLaw.md#_arrow-of-law) , [detect chaos](spells/detectChaos.md#_detect-chaos), [detect law](spells/detectLaw.md#_detect-law), [dispel chaos](spells/dispelChaos.md#_dispel-chaos)_
 
 Orb of Storms
 
 **Price** 48,000 gp; **Aura** strong varied; **CL** 18th; **Weight** 6 lbs.
 
-This glass sphere is 8 inches in diameter. The possessor can call forth all manner of weather, even supernaturally destructive storms. Once per day, she can call upon the orb to use a _ [control weather](/pathfinderRPG/prd/spells/controlWeather.html#_control-weather)_ spell. Once per month, she can conjure a _ [storm of vengeance](/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance)_. The possessor of the orb is continually protected by an _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_ effect.
+This glass sphere is 8 inches in diameter. The possessor can call forth all manner of weather, even supernaturally destructive storms. Once per day, she can call upon the orb to use a _ [control weather](spells/controlWeather.md#_control-weather)_ spell. Once per month, she can conjure a _ [storm of vengeance](spells/stormOfVengeance.md#_storm-of-vengeance)_. The possessor of the orb is continually protected by an _ [endure elements](spells/endureElements.md#_endure-elements)_ effect.
 
 Construction Requirements
 
 Cost 24,000 gp
 
-Craft Wondrous Item, _ [control weather](/pathfinderRPG/prd/spells/controlWeather.html#_control-weather)_, _ [endure elements](/pathfinderRPG/prd/spells/endureElements.html#_endure-elements)_, _ [storm of vengeance](/pathfinderRPG/prd/spells/stormOfVengeance.html#_storm-of-vengeance)_
+Craft Wondrous Item, _ [control weather](spells/controlWeather.md#_control-weather)_, _ [endure elements](spells/endureElements.md#_endure-elements)_, _ [storm of vengeance](spells/stormOfVengeance.md#_storm-of-vengeance)_
 
 Orb of Utter Chaos
 
 **Price** 36,000 gp; **Aura** moderate abjuration; **CL** 10th; **Weight** 1 lb.
 
-This globe of varicolored material constantly shifts hue and texture, from steel-hard to spongy or even gelatinous. The bearer of the orb is constantly protected by _ [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_. Three times per day, when the bearer holds the orb and casts a spell with the polymorph subtype, chaotic descriptor, or one that gives creatures the confused condition, she may modify her caster level for that spell by 1d6–2.
+This globe of varicolored material constantly shifts hue and texture, from steel-hard to spongy or even gelatinous. The bearer of the orb is constantly protected by _ [entropic shield](spells/entropicShield.md#_entropic-shield)_. Three times per day, when the bearer holds the orb and casts a spell with the polymorph subtype, chaotic descriptor, or one that gives creatures the confused condition, she may modify her caster level for that spell by 1d6–2.
 
-Once per day the bearer may hold the orb and command it to _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_. If the dispel check succeeds, the wielder absorbs the unraveled magical energy through the orb and gains the benefit of an _ [aid](/pathfinderRPG/prd/spells/aid.html#_aid)_ spell.
+Once per day the bearer may hold the orb and command it to _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_. If the dispel check succeeds, the wielder absorbs the unraveled magical energy through the orb and gains the benefit of an _ [aid](spells/aid.md#_aid)_ spell.
 
-The orb bestows one permanent negative level on any lawful creature holding or carrying it. The negative level remains as long as the creature has the orb and disappears immediately when the orb is no longer held or carried. This negative level cannot be overcome in any way (including by _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_ spells) while the bearer has the orb.
+The orb bestows one permanent negative level on any lawful creature holding or carrying it. The negative level remains as long as the creature has the orb and disappears immediately when the orb is no longer held or carried. This negative level cannot be overcome in any way (including by _ [restoration](spells/restoration.md#_restoration)_ spells) while the bearer has the orb.
 
 Construction Requirements
 
 Cost 18,000 gp
 
-Craft Wondrous Item, _ [aid](/pathfinderRPG/prd/spells/aid.html#_aid), [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic), [entropic shield](/pathfinderRPG/prd/spells/entropicShield.html#_entropic-shield)_
+Craft Wondrous Item, _ [aid](spells/aid.md#_aid), [dispel magic](spells/dispelMagic.md#_dispel-magic), [entropic shield](spells/entropicShield.md#_entropic-shield)_
 
 Origami Swarm
 
@@ -2995,7 +2995,7 @@ Construction Requirements
 
 Cost 150 gp
 
-Craft Wondrous Item, _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_
+Craft Wondrous Item, _ [animate objects](spells/animateObjects.md#_animate-objects)_
 
 Ornament of Healing Light
 
@@ -3007,7 +3007,7 @@ Construction Requirements
 
 Cost 5,000 gp
 
-Craft Wondrous Item, _ [sacred bond](/pathfinderRPG/prd/advanced/spells/sacredBond.html#_sacred-bond)_
+Craft Wondrous Item, _ [sacred bond](advanced/spells/sacredBond.md#_sacred-bond)_
 
 Page of Spell Knowledge
 
@@ -3065,81 +3065,81 @@ Construction Requirements
 
 Cost 8,150 gp
 
-Craft Wondrous Item, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_, _ [water breathing](/pathfinderRPG/prd/spells/waterBreathing.html#_water-breathing)_
+Craft Wondrous Item, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [water breathing](spells/waterBreathing.md#_water-breathing)_
 
 Philter of Love
 
 **Price** 3,000 gp; **Aura** strong enchantment; **CL** 15th; **Weight** —
 
-This potent preparation causes a creature who drinks it to fall madly in love with the first creature he or she perceives after consuming it. The drinker's attitude toward that creature becomes helpful. If a romantic attraction is possible toward the first person viewed, the drinker falls in love with that person. Otherwise, the drinker's love is a platonic adoration. The effects of the philter are permanent unless removed by a _ [break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_, _ [miracle](/pathfinderRPG/prd/spells/miracle.html#_miracle)_, _ [remove curse](/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse)_, or _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_.
+This potent preparation causes a creature who drinks it to fall madly in love with the first creature he or she perceives after consuming it. The drinker's attitude toward that creature becomes helpful. If a romantic attraction is possible toward the first person viewed, the drinker falls in love with that person. Otherwise, the drinker's love is a platonic adoration. The effects of the philter are permanent unless removed by a _ [break enchantment](spells/breakEnchantment.md#_break-enchantment)_, _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [limited wish](spells/limitedWish.md#_limited-wish)_, _ [miracle](spells/miracle.md#_miracle)_, _ [remove curse](spells/removeCurse.md#_remove-curse)_, or _ [wish](spells/wish.md#_wish)_.
 
 Construction Requirements
 
 Cost 1,500 gp
 
-Craft Wondrous Item, _ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_, _ [permanency](/pathfinderRPG/prd/spells/permanency.html#_permanency)_
+Craft Wondrous Item, _ [charm monster](spells/charmMonster.md#_charm-monster)_, _ [permanency](spells/permanency.md#_permanency)_
 
 Pipes of Dissolution
 
 **Price** 12,000 gp; **Aura** faint abjuration; **CL** 5th; **Weight** 3 lbs.
 
-Carvings of winter scenes decorate this set of pan pipes. Activating the pipes requires a DC 15 [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (wind instruments) check. Creatures within 30 feet gain a +2 competence bonus on caster level checks to dispel magical effects and overcome spell resistance. Maintaining the performance is challenging, requiring a move action and a new [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) check each round, with the DC increasing by +1 for each round the instrument is played. The magic ends when the player voluntarily stops or fails the [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) check, after which the pipes cannot be used again for 1 hour.
+Carvings of winter scenes decorate this set of pan pipes. Activating the pipes requires a DC 15 [Perform](skills/perform.md#_perform) (wind instruments) check. Creatures within 30 feet gain a +2 competence bonus on caster level checks to dispel magical effects and overcome spell resistance. Maintaining the performance is challenging, requiring a move action and a new [Perform](skills/perform.md#_perform) check each round, with the DC increasing by +1 for each round the instrument is played. The magic ends when the player voluntarily stops or fails the [Perform](skills/perform.md#_perform) check, after which the pipes cannot be used again for 1 hour.
 
 Construction Requirements
 
 Cost 6,000 gp
 
-Craft Wondrous Item, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_
+Craft Wondrous Item, _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_
 
 Pipes of Haunting
 
 **Price** 6,000 gp; **Aura** faint necromancy; **CL** 4th; **Weight** 3 lbs.
 
-This magic item appears to be a small set of pan pipes. When played by a person who succeeds on a DC 15 [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (wind instruments) check, the pipes create an eerie, spellbinding tune. Those within 30 feet who hear the tune must succeed at a DC 13 Will save or become frightened for 4 rounds. Creatures with 6 or more Hit Dice are unaffected. _Pipes of haunting_ can be sounded twice a day.
+This magic item appears to be a small set of pan pipes. When played by a person who succeeds on a DC 15 [Perform](skills/perform.md#_perform) (wind instruments) check, the pipes create an eerie, spellbinding tune. Those within 30 feet who hear the tune must succeed at a DC 13 Will save or become frightened for 4 rounds. Creatures with 6 or more Hit Dice are unaffected. _Pipes of haunting_ can be sounded twice a day.
 
 Construction Requirements
 
 Cost 3,000 gp
 
-Craft Wondrous Item, _ [scare](/pathfinderRPG/prd/spells/scare.html#_scare)_
+Craft Wondrous Item, _ [scare](spells/scare.md#_scare)_
 
 Pipes of Pain
 
 **Price** 12,000 gp; **Aura** moderate enchantment; **CL** 6th; **Weight** 3 lbs.
 
-By making a DC 15 [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (wind instruments) check, the bearer can use these pipes to create a wondrous melody which fascinates creatures within 30 feet for as long as the bearer continues to play (Will DC 14 negates). This is a mind-affecting sonic compulsion effect. The bearer is immune to the sound of the pipes. When the bearer stops playing, for the next 2d4 rounds all creatures who were fascinated by the music are stricken by intense pain at even the slightest noise. Unless a creature is in a totally silent area, it takes 1d4 points of damage per round on its turn, and it has sonic vulnerability until this time expires. Thereafter, the creature is shaken unless it is in a totally silent area; this hypersensitivity to noise is a curse effect.
+By making a DC 15 [Perform](skills/perform.md#_perform) (wind instruments) check, the bearer can use these pipes to create a wondrous melody which fascinates creatures within 30 feet for as long as the bearer continues to play (Will DC 14 negates). This is a mind-affecting sonic compulsion effect. The bearer is immune to the sound of the pipes. When the bearer stops playing, for the next 2d4 rounds all creatures who were fascinated by the music are stricken by intense pain at even the slightest noise. Unless a creature is in a totally silent area, it takes 1d4 points of damage per round on its turn, and it has sonic vulnerability until this time expires. Thereafter, the creature is shaken unless it is in a totally silent area; this hypersensitivity to noise is a curse effect.
 
 Construction Requirements
 
 Cost 6,000 gp
 
-Craft Wondrous Item, _ [sound burst](/pathfinderRPG/prd/spells/soundBurst.html#_sound-burst)_, creator must have the bardic performance class ability
+Craft Wondrous Item, _ [sound burst](spells/soundBurst.md#_sound-burst)_, creator must have the bardic performance class ability
 
 Pipes of Sounding
 
 **Price** 1,800 gp; **Aura** faint illusion; **CL** 2nd; **Weight** 3 lbs.
 
-When played by a character who has the [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (wind instruments) skill, these shiny metallic pan pipes create a variety of sounds that can imitate creatures, environmental sounds, or most other sounds. The figment sounds are the equivalent of _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_.
+When played by a character who has the [Perform](skills/perform.md#_perform) (wind instruments) skill, these shiny metallic pan pipes create a variety of sounds that can imitate creatures, environmental sounds, or most other sounds. The figment sounds are the equivalent of _ [ghost sound](spells/ghostSound.md#_ghost-sound)_.
 
 Construction Requirements
 
 Cost 900 gp
 
-Craft Wondrous Item, _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_
+Craft Wondrous Item, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_
 
 Pipes of the Sewers
 
 **Price** 1,150 gp; **Aura** faint conjuration; **CL** 2nd; **Weight** 3 lbs.
 
-If the possessor learns the proper tune, he can use these pipes to attract 1d3 rat swarms if any rats are within 400 feet. For each 50-foot distance the rats have to travel, there is a 1-round delay. The piper must continue playing until the rats appear, and when they do so, the piper must make a DC 10 [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (wind instruments) check. Success means that they obey the piper's telepathic commands so long as he continues to play. Failure indicates that they turn on the piper. If for any reason the piper ceases playing, the rats leave immediately. The [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) DC increases by +5 for each time the rats have been successfully called in a 24-hour period.
+If the possessor learns the proper tune, he can use these pipes to attract 1d3 rat swarms if any rats are within 400 feet. For each 50-foot distance the rats have to travel, there is a 1-round delay. The piper must continue playing until the rats appear, and when they do so, the piper must make a DC 10 [Perform](skills/perform.md#_perform) (wind instruments) check. Success means that they obey the piper's telepathic commands so long as he continues to play. Failure indicates that they turn on the piper. If for any reason the piper ceases playing, the rats leave immediately. The [Perform](skills/perform.md#_perform) DC increases by +5 for each time the rats have been successfully called in a 24-hour period.
 
-If the rats are under the control of another creature, add the HD of the controller to the [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) check DC. Once control is assumed, another check is required each round to maintain it if the other creature is actively seeking to reassert its control.
+If the rats are under the control of another creature, add the HD of the controller to the [Perform](skills/perform.md#_perform) check DC. Once control is assumed, another check is required each round to maintain it if the other creature is actively seeking to reassert its control.
 
 Construction Requirements
 
 Cost 575 gp
 
-Craft Wondrous Item, _ [charm animal](/pathfinderRPG/prd/spells/charmAnimal.html#_charm-animal)_, _ [summon nature's ally I](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-i)_, wild empathy ability
+Craft Wondrous Item, _ [charm animal](spells/charmAnimal.md#_charm-animal)_, _ [summon nature's ally I](spells/summonNatureSAlly.md#_summon-nature-s-ally-i)_, wild empathy ability
 
 Polymorphic Pouch
 
@@ -3151,7 +3151,7 @@ Construction Requirements
 
 Cost 2,500 gp
 
-Craft Wondrous Item, _ [polymorph](/pathfinderRPG/prd/spells/polymorph.html#_polymorph)_, _ [secret chest](/pathfinderRPG/prd/spells/secretChest.html#_secret-chest)_
+Craft Wondrous Item, _ [polymorph](spells/polymorph.md#_polymorph)_, _ [secret chest](spells/secretChest.md#_secret-chest)_
 
 Portable Hole
 
@@ -3165,7 +3165,7 @@ Construction Requirements
 
 Cost 10,000 gp
 
-Craft Wondrous Item, _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_
+Craft Wondrous Item, _ [plane shift](spells/planeShift.md#_plane-shift)_
 
 Prayer Wheel of Ethical Strength
 
@@ -3177,7 +3177,7 @@ Construction Requirements
 
 Cost 5,000 gp
 
-Craft Wondrous Item, _ [align weapon](/pathfinderRPG/prd/spells/alignWeapon.html#_align-weapon)_
+Craft Wondrous Item, _ [align weapon](spells/alignWeapon.md#_align-weapon)_
 
 Preserving Flask
 
@@ -3197,13 +3197,13 @@ Pyxes of Redirected Focus
 
 **Price** 1,000 gp; **Aura** moderate transmutation; **CL** 9th; **Weight** —
 
-This round metal container is just large enough to contain the wooden, coin-sized token inside. Each side of the token is inscribed with a different prayer. Once per day, a cleric (or other class with cleric domains) may activate the pyxes and may select any one of her prepared domain spells and replace it with the domain spell of that level from her other domain. For example, a cleric with the Fire and Luck domains could switch her 1st-level prepared _ [burning hands](/pathfinderRPG/prd/spells/burningHands.html#_burning-hands)_ domain spell to _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_. The pyxes has no effect on creatures with no domain spells or only one domain.
+This round metal container is just large enough to contain the wooden, coin-sized token inside. Each side of the token is inscribed with a different prayer. Once per day, a cleric (or other class with cleric domains) may activate the pyxes and may select any one of her prepared domain spells and replace it with the domain spell of that level from her other domain. For example, a cleric with the Fire and Luck domains could switch her 1st-level prepared _ [burning hands](spells/burningHands.md#_burning-hands)_ domain spell to _ [true strike](spells/trueStrike.md#_true-strike)_. The pyxes has no effect on creatures with no domain spells or only one domain.
 
 Construction Requirements
 
 Cost 500 gp
 
-Craft Wondrous Item, _ [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer)_
+Craft Wondrous Item, _ [prayer](spells/prayer.md#_prayer)_
 
 Racing Broom of Flying
 
@@ -3215,37 +3215,37 @@ Construction Requirements
 
 Cost 15,000 gp
 
-Craft Wondrous Item, _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste), [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_, _ [permanency](/pathfinderRPG/prd/spells/permanency.html#_permanency)_
+Craft Wondrous Item, _ [haste](spells/haste.md#_haste), [overland flight](spells/overlandFlight.md#_overland-flight)_, _ [permanency](spells/permanency.md#_permanency)_
 
 Restless Lockpicks
 
 **Price** 8,000 gp; **Aura** faint transmutation; **CL** 3rd; **Weight** 1 lb.
 
-This set of mithral masterwork thieves' tools springs to life in the hands of a skilled user. If the user attempts to use the tools to disarm a trap or other device, he may spend a standard action beginning the disarm attempt, after which the tools continue on their own without being held. Thereafter, the bearer may perform other actions or even move away while the tools work. The tools make a [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) using the bearer's skill bonus plus the +2 for being masterwork thieves' tools, taking the normal amount of time to disable the device. When the skill check is completed, the tools remain in place until removed from the device. The tools can animate for up to 10 rounds per day. They can take 10 but cannot take 20. If there aren't enough rounds left in the tools to finish a particular check, the bearer can continue where the animated tools left off as long as she is in the square with the tools when the animation duration runs out.
+This set of mithral masterwork thieves' tools springs to life in the hands of a skilled user. If the user attempts to use the tools to disarm a trap or other device, he may spend a standard action beginning the disarm attempt, after which the tools continue on their own without being held. Thereafter, the bearer may perform other actions or even move away while the tools work. The tools make a [Disable Device](skills/disableDevice.md#_disable-device) using the bearer's skill bonus plus the +2 for being masterwork thieves' tools, taking the normal amount of time to disable the device. When the skill check is completed, the tools remain in place until removed from the device. The tools can animate for up to 10 rounds per day. They can take 10 but cannot take 20. If there aren't enough rounds left in the tools to finish a particular check, the bearer can continue where the animated tools left off as long as she is in the square with the tools when the animation duration runs out.
 
 Construction Requirements
 
 Cost 4,000 gp
 
-Craft Wondrous Item, _ [knock](/pathfinderRPG/prd/spells/knock.html#_knock)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_
+Craft Wondrous Item, _ [knock](spells/knock.md#_knock)_, _ [mage hand](spells/mageHand.md#_mage-hand)_
 
 Restorative Ointment
 
 **Price** 4,000 gp; **Aura** faint conjuration; **CL** 5th; **Weight** 1/2 lb.
 
-A jar of this unguent is 3 inches in diameter and 1 inch deep, and contains 5 applications. Placed upon a poisoned wound or swallowed, the ointment detoxifies any poison (as _ [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_ with a +5 bonus on the check). Applied to a diseased area, it removes the disease (as _ [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease)_ with a +5 bonus on the check). Rubbed on a wound, the ointment cures 1d8+5 points of damage (as _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_).
+A jar of this unguent is 3 inches in diameter and 1 inch deep, and contains 5 applications. Placed upon a poisoned wound or swallowed, the ointment detoxifies any poison (as _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_ with a +5 bonus on the check). Applied to a diseased area, it removes the disease (as _ [remove disease](spells/removeDisease.md#_remove-disease)_ with a +5 bonus on the check). Rubbed on a wound, the ointment cures 1d8+5 points of damage (as _ [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_).
 
 Construction Requirements
 
 Cost 2,000 gp
 
-Craft Wondrous Item, _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [neutralize poison](/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison)_, _ [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease)_
+Craft Wondrous Item, _ [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_, _ [remove disease](spells/removeDisease.md#_remove-disease)_
 
 Ring Gates
 
 **Price** 40,000 gp; **Aura** strong conjuration; **CL** 17th; **Weight** 1 lb.
 
-These always come in pairs—two iron rings, each about 18 inches in diameter. The rings must be on the same plane of existence and within 100 miles of each other to function. Whatever is put through one ring comes out the other, and up to 100 pounds of material can be transferred each day. (Objects only partially pushed through and then retracted do not count.) This useful device allows for instantaneous transport of items or messages, or even attacks. A character can reach through to grab things near the other ring, or even stab a weapon through if so desired. Alternatively, a character could stick his head through to look around. A spellcaster could even cast a spell through a _ring [gate](/pathfinderRPG/prd/spells/gate.html#_gate)_. A Small character can make a DC 13 [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) check to slip through. Creatures of Tiny, Diminutive, or Fine size can pass through easily. Each ring has an "entry side" and an "exit side," both marked with appropriate symbols.
+These always come in pairs—two iron rings, each about 18 inches in diameter. The rings must be on the same plane of existence and within 100 miles of each other to function. Whatever is put through one ring comes out the other, and up to 100 pounds of material can be transferred each day. (Objects only partially pushed through and then retracted do not count.) This useful device allows for instantaneous transport of items or messages, or even attacks. A character can reach through to grab things near the other ring, or even stab a weapon through if so desired. Alternatively, a character could stick his head through to look around. A spellcaster could even cast a spell through a _ring [gate](spells/gate.md#_gate)_. A Small character can make a DC 13 [Escape Artist](skills/escapeArtist.md#_escape-artist) check to slip through. Creatures of Tiny, Diminutive, or Fine size can pass through easily. Each ring has an "entry side" and an "exit side," both marked with appropriate symbols.
 
 The weight listed is per ring.
 
@@ -3253,7 +3253,7 @@ Construction Requirements
 
 Cost 20,000 gp
 
-Craft Wondrous Item, _ [gate](/pathfinderRPG/prd/spells/gate.html#_gate)_
+Craft Wondrous Item, _ [gate](spells/gate.md#_gate)_
 
 Rope of Climbing
 
@@ -3261,19 +3261,19 @@ Rope of Climbing
 
 A 60-foot-long _rope of climbing_ is no thicker than a wand, but it is strong enough to support 3,000 pounds. Upon command, the rope snakes forward, upward, downward, or in any other direction at 10 feet per round, attaching itself securely wherever its owner desires. It can unfasten itself and return in the same manner.
 
-A _rope of climbing_ can be commanded to knot or unknot itself. This causes large knots to appear at 1-foot intervals along the rope. Knotting shortens the rope to a 50-foot length until the knots are untied, but lowers the DC of [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks while using it by 10. A creature must hold one end of the rope when its magic is invoked.
+A _rope of climbing_ can be commanded to knot or unknot itself. This causes large knots to appear at 1-foot intervals along the rope. Knotting shortens the rope to a 50-foot length until the knots are untied, but lowers the DC of [Climb](skills/climb.md#_climb) checks while using it by 10. A creature must hold one end of the rope when its magic is invoked.
 
 Construction Requirements
 
 Cost 1,500 gp
 
-Craft Wondrous Item, _ [animate rope](/pathfinderRPG/prd/spells/animateRope.html#_animate-rope)_
+Craft Wondrous Item, _ [animate rope](spells/animateRope.md#_animate-rope)_
 
 Rope of Entanglement
 
 **Price** 21,000 gp; **Aura** strong transmutation; **CL** 12th; **Weight** 5 lbs.
 
-A _rope of entanglement_ looks just like any other hempen rope about 30 feet long. Upon command, the rope lashes forward 20 feet or upward 10 feet to entangle a victim. An entangled creature can break free with a DC 20 Strength check or a DC 20 [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) check.
+A _rope of entanglement_ looks just like any other hempen rope about 30 feet long. Upon command, the rope lashes forward 20 feet or upward 10 feet to entangle a victim. An entangled creature can break free with a DC 20 Strength check or a DC 20 [Escape Artist](skills/escapeArtist.md#_escape-artist) check.
 
 A _rope of entanglement_ has AC 22, 12 hit points, hardness 10, and damage reduction 5/slashing. The rope repairs damage to itself at a rate of 1 point per 5 minutes, but if a _rope of entanglement_ is severed (all 12 hit points lost to damage), it is destroyed.
 
@@ -3281,7 +3281,7 @@ Construction Requirements
 
 Cost 10,500 gp
 
-Craft Wondrous Item, _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_, _ [animate rope](/pathfinderRPG/prd/spells/animateRope.html#_animate-rope)_ or _ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_
+Craft Wondrous Item, _ [animate objects](spells/animateObjects.md#_animate-objects)_, _ [animate rope](spells/animateRope.md#_animate-rope)_ or _ [entangle](spells/entangle.md#_entangle)_
 
 Rope of Knots
 
@@ -3293,13 +3293,13 @@ Construction Requirements
 
 Cost 3,000 gp
 
-Craft Wondrous Item, _ [animate rope](/pathfinderRPG/prd/spells/animateRope.html#_animate-rope)_
+Craft Wondrous Item, _ [animate rope](spells/animateRope.md#_animate-rope)_
 
 Salve of Slipperiness
 
 **Price** 1,000 gp; **Aura** moderate conjuration; **CL** 6th; **Weight** —
 
-This substance provides a +20 competence bonus on all [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) checks and combat maneuver checks made to escape from a grapple. The salve also grants a +10 competence bonus to the wearer's CMD for the purpose of avoiding grapple attempts. In addition, such obstructions as webs (magical or otherwise) do not affect an anointed individual. Magic ropes and the like do not avail against this salve. If it is smeared on a floor or on steps, the area should be treated as a long-lasting _ [grease](/pathfinderRPG/prd/spells/grease.html#_grease)_ spell. The salve requires 8 hours to wear off normally, or it can be wiped off with an alcohol solution (even wine).
+This substance provides a +20 competence bonus on all [Escape Artist](skills/escapeArtist.md#_escape-artist) checks and combat maneuver checks made to escape from a grapple. The salve also grants a +10 competence bonus to the wearer's CMD for the purpose of avoiding grapple attempts. In addition, such obstructions as webs (magical or otherwise) do not affect an anointed individual. Magic ropes and the like do not avail against this salve. If it is smeared on a floor or on steps, the area should be treated as a long-lasting _ [grease](spells/grease.md#_grease)_ spell. The salve requires 8 hours to wear off normally, or it can be wiped off with an alcohol solution (even wine).
 
 _Salve of slipperiness_ is needed to coat the inside of a container meant to hold _sovereign glue_.
 
@@ -3307,7 +3307,7 @@ Construction Requirements
 
 Cost 500 gp
 
-Craft Wondrous Item, _ [grease](/pathfinderRPG/prd/spells/grease.html#_grease)_
+Craft Wondrous Item, _ [grease](spells/grease.md#_grease)_
 
 Scabbard of Honing
 
@@ -3319,31 +3319,31 @@ Construction Requirements
 
 Cost 250 gp
 
-Craft Wondrous Item, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_
+Craft Wondrous Item, _ [mending](spells/mending.md#_mending)_
 
 Scabbard of Keen Edges
 
 **Price** 16,000 gp; **Aura** faint transmutation; **CL** 5th; **Weight** 1 lb.
 
-This black scabbard is engraved with intricate silver runes that depict all manner of bladed weapons. A _ [scabbard of](/pathfinderRPG/prd/magicItems/wondrousItems.html#_scabbard-of-keen-edges) [keen](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-keen) edges_ can shrink or enlarge to accommodate any knife, dagger, sword, or similar weapon up to and including a greatsword. Up to three times per day on command, the scabbard casts _ [keen edge](/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge)_ on any blade placed within it. Runes similar to those on the outside of the scabbard appear on a blade while it is under this _ [keen edge](/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge)_ effect.
+This black scabbard is engraved with intricate silver runes that depict all manner of bladed weapons. A _ [scabbard of](magicItems/wondrousItems.md#_scabbard-of-keen-edges) [keen](magicItems/weapons.md#_weapons-keen) edges_ can shrink or enlarge to accommodate any knife, dagger, sword, or similar weapon up to and including a greatsword. Up to three times per day on command, the scabbard casts _ [keen edge](spells/keenEdge.md#_keen-edge)_ on any blade placed within it. Runes similar to those on the outside of the scabbard appear on a blade while it is under this _ [keen edge](spells/keenEdge.md#_keen-edge)_ effect.
 
 Construction Requirements
 
 Cost 8,000 gp
 
-Craft Wondrous Item, _ [keen edge](/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge)_
+Craft Wondrous Item, _ [keen edge](spells/keenEdge.md#_keen-edge)_
 
 Scabbard of Stanching
 
 **Price** 5,000 gp; **Aura** faint conjuration; **CL** 5th; **Weight** 2 lbs.
 
-This fine, red leather sheath is decorated with gold filigree. It fits any bladed slashing weapon. While worn, a _scabbard of stanching_ protects against bleed damage. Anytime the wearer suffers a bleed effect, the scabbard automatically stanches it. It has no effect on bleed damage from effects that require a DC 16 or higher caster level or [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) check.
+This fine, red leather sheath is decorated with gold filigree. It fits any bladed slashing weapon. While worn, a _scabbard of stanching_ protects against bleed damage. Anytime the wearer suffers a bleed effect, the scabbard automatically stanches it. It has no effect on bleed damage from effects that require a DC 16 or higher caster level or [Heal](skills/heal.md#_heal) check.
 
 Construction Requirements
 
 Cost 2,500 gp
 
-Craft Wondrous Item, _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_
+Craft Wondrous Item, _ [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_
 
 Scabbard of Vigor
 
@@ -3362,19 +3362,19 @@ Construction Requirements
 
 Cost 900 gp
 
-Craft Wondrous Item, _ [greater magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater)_
+Craft Wondrous Item, _ [greater magic weapon](spells/magicWeapon.md#_magic-weapon-greater)_
 
 School of Eyes
 
 **Price** 5,000 gp; **Aura** moderate divination; **CL** 10th; **Weight** —
 
-This item is a flask of syrupy fluid with an eyeball floating in it. When a creature drinks the entire flask, 1d4 rounds later he is stunned for 1 round as 1d4+1 floating fish with large eyes for heads crawl out of his flesh. Once these eye-fish free themselves, they hover near the drinker, always staying in the drinker's square, and otherwise function as the eyes from a _ [prying eyes](/pathfinderRPG/prd/spells/pryingEyes.html#_prying-eyes)_ spell, except they are Tiny rather than Fine. As long as the drinker has at least three of the fish in his square, he gains a +10 competence bonus on sight-based [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks. Every 1d6 × 10 minutes, 1d4+1 more eye-fish crawl out of his flesh, stunning him for 1 round each time. Each flask can produce up to 1d4+10 fish total; once this many have appeared, no more are created. The fish remain until they are destroyed or until 10 hours pass from the time the flask was used.
+This item is a flask of syrupy fluid with an eyeball floating in it. When a creature drinks the entire flask, 1d4 rounds later he is stunned for 1 round as 1d4+1 floating fish with large eyes for heads crawl out of his flesh. Once these eye-fish free themselves, they hover near the drinker, always staying in the drinker's square, and otherwise function as the eyes from a _ [prying eyes](spells/pryingEyes.md#_prying-eyes)_ spell, except they are Tiny rather than Fine. As long as the drinker has at least three of the fish in his square, he gains a +10 competence bonus on sight-based [Perception](skills/perception.md#_perception) checks. Every 1d6 × 10 minutes, 1d4+1 more eye-fish crawl out of his flesh, stunning him for 1 round each time. Each flask can produce up to 1d4+10 fish total; once this many have appeared, no more are created. The fish remain until they are destroyed or until 10 hours pass from the time the flask was used.
 
 Construction Requirements
 
 Cost 2,500 gp
 
-Craft Wondrous Item, _ [prying eyes](/pathfinderRPG/prd/spells/pryingEyes.html#_prying-eyes)_
+Craft Wondrous Item, _ [prying eyes](spells/pryingEyes.md#_prying-eyes)_
 
 Seeker's Sight
 
@@ -3386,33 +3386,33 @@ Construction Requirements
 
 Cost 6,000 gp
 
-Craft Wondrous Item, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+Craft Wondrous Item, _ [true seeing](spells/trueSeeing.md#_true-seeing)_
 
 Seer's Tea
 
 **Price** 550 gp; **Aura** faint divination; **CL** 3rd; **Weight** —
 
-This rich tea can be made from any number of herbs. When the tea is brewed without a filter and imbibed, the drinker can read the patterns in the leaves remaining at the bottom of her cup, gaining the benefits of an _ [augury](/pathfinderRPG/prd/spells/augury.html#_augury)_ spell.
+This rich tea can be made from any number of herbs. When the tea is brewed without a filter and imbibed, the drinker can read the patterns in the leaves remaining at the bottom of her cup, gaining the benefits of an _ [augury](spells/augury.md#_augury)_ spell.
 
-Additionally, the unbrewed tea can be used as an extra material component when casting _ [augury](/pathfinderRPG/prd/spells/augury.html#_augury)_, removing the need for a focus. In this case, the caster instead reveals information as if she had cast _ [divination](/pathfinderRPG/prd/spells/divination.html#_divination)_ instead.
+Additionally, the unbrewed tea can be used as an extra material component when casting _ [augury](spells/augury.md#_augury)_, removing the need for a focus. In this case, the caster instead reveals information as if she had cast _ [divination](spells/divination.md#_divination)_ instead.
 
 Construction Requirements
 
 Cost 275 gp
 
-Craft Wondrous Item, _ [augury](/pathfinderRPG/prd/spells/augury.html#_augury)_ or _ [divination](/pathfinderRPG/prd/spells/divination.html#_divination)_
+Craft Wondrous Item, _ [augury](spells/augury.md#_augury)_ or _ [divination](spells/divination.md#_divination)_
 
 Sheath of Bladestealth
 
 **Price** 5,000 gp; **Aura** faint illusion; **CL** 5th; **Weight** 2 lbs.
 
-This mundane-looking but serviceable sheath fits any bladed slashing weapon, from a dagger to a greatsword. When a weapon is placed into the _sheath of bladestealth_, both it and the weapon become invisible (as the _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ spell) until the weapon is drawn, at which point it and the sheath become visible again. The invisible sheathed weapon can still be detected by touch, but the bearer gains a +5 bonus on [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) checks to conceal the weapon, and casual inspection does not reveal it at all. Other effects that detect or reveal invisible things work normally on the sheathed weapon.
+This mundane-looking but serviceable sheath fits any bladed slashing weapon, from a dagger to a greatsword. When a weapon is placed into the _sheath of bladestealth_, both it and the weapon become invisible (as the _ [invisibility](spells/invisibility.md#_invisibility)_ spell) until the weapon is drawn, at which point it and the sheath become visible again. The invisible sheathed weapon can still be detected by touch, but the bearer gains a +5 bonus on [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks to conceal the weapon, and casual inspection does not reveal it at all. Other effects that detect or reveal invisible things work normally on the sheathed weapon.
 
 Construction Requirements
 
 Cost 2,500 gp
 
-Craft Wondrous Item,_ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_
+Craft Wondrous Item,_ [invisibility](spells/invisibility.md#_invisibility)_
 
 Shroud of Disintegration
 
@@ -3424,7 +3424,7 @@ Construction Requirements
 
 Cost 1,650 gp
 
-Craft Wondrous Item, _ [disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_
+Craft Wondrous Item, _ [disintegrate](spells/disintegrate.md#_disintegrate)_
 
 Silversheen
 
@@ -3448,19 +3448,19 @@ Construction Requirements
 
 Cost 3,000 gp
 
-Craft Wondrous Item, _ [versatile weapon](/pathfinderRPG/prd/advanced/spells/versatileWeapon.html#_versatile-weapon)_
+Craft Wondrous Item, _ [versatile weapon](advanced/spells/versatileWeapon.md#_versatile-weapon)_
 
 Snapleaf
 
 **Price** 750 gp; **Aura** faint transmutation; **CL** 5th; **Weight** —
 
-This crystalline carving looks like a hand-sized tree leaf. It is usually worn around the neck on a strap so it is within easy reach, but can be affixed to a belt or clothing just like a badge. Activating a _snapleaf_ is an immediate action and gives the bearer the benefits of _ [feather fall](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall)_ and _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_. The duration of the two effects work independently; ending one early does not affect the other. The item cannot be activated to provide just one of these two effects; they are always activated simultaneously.
+This crystalline carving looks like a hand-sized tree leaf. It is usually worn around the neck on a strap so it is within easy reach, but can be affixed to a belt or clothing just like a badge. Activating a _snapleaf_ is an immediate action and gives the bearer the benefits of _ [feather fall](spells/featherFall.md#_feather-fall)_ and _ [invisibility](spells/invisibility.md#_invisibility)_. The duration of the two effects work independently; ending one early does not affect the other. The item cannot be activated to provide just one of these two effects; they are always activated simultaneously.
 
 Construction Requirements
 
 Cost 375 gp
 
-Craft Wondrous Item, _ [feather fall](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall)_, _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_
+Craft Wondrous Item, _ [feather fall](spells/featherFall.md#_feather-fall)_, _ [invisibility](spells/invisibility.md#_invisibility)_
 
 Soul Soap
 
@@ -3472,7 +3472,7 @@ Construction Requirements
 
 Cost 100 gp
 
-Craft Wondrous Item, _ [resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance)_
+Craft Wondrous Item, _ [resistance](spells/resistance.md#_resistance)_
 
 Sovereign Glue
 
@@ -3486,7 +3486,7 @@ Construction Requirements
 
 Cost 1,200 gp
 
-Craft Wondrous Item, _ [make whole](/pathfinderRPG/prd/spells/makeWhole.html#_make-whole)_
+Craft Wondrous Item, _ [make whole](spells/makeWhole.md#_make-whole)_
 
 Steadfast Gut-Stone
 
@@ -3502,7 +3502,7 @@ Construction Requirements
 
 Cost 400 gp
 
-Craft Wondrous Item, _ [magic stone](/pathfinderRPG/prd/spells/magicStone.html#_magic-stone)_, _ [shield other](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)_
+Craft Wondrous Item, _ [magic stone](spells/magicStone.md#_magic-stone)_, _ [shield other](spells/shieldOther.md#_shield-other)_
 
 Stone Familiar
 
@@ -3514,7 +3514,7 @@ Construction Requirements
 
 Cost 3,000 gp
 
-Craft Wondrous Item, _ [share memory](/pathfinderRPG/prd/ultimateMagic/spells/shareMemory.html#_share-memory)_, creator must be a witch
+Craft Wondrous Item, _ [share memory](ultimateMagic/spells/shareMemory.md#_share-memory)_, creator must be a witch
 
 Stone Horse
 
@@ -3524,7 +3524,7 @@ Stone Horse
 
 This item is a roughly hewn statue of a horse, carved from some type of hard stone. A command word brings the steed to life, enabling it to carry a burden and even to attack as if it were a real horse of the appropriate kind. A _stone horse_ is combat-trained.
 
-A _stone horse_ can carry 1,000 pounds tirelessly and never needs to rest or eat. Damage dealt to it can be repaired either by feeding it gems (1 hp for every 50 gp value of the gem) or by casting _ [stone to flesh](/pathfinderRPG/prd/spells/stoneToFlesh.html#_stone-to-flesh)_, then using healing spells until it reaches its maximum hit points, at which time it automatically returns to its stone form.
+A _stone horse_ can carry 1,000 pounds tirelessly and never needs to rest or eat. Damage dealt to it can be repaired either by feeding it gems (1 hp for every 50 gp value of the gem) or by casting _ [stone to flesh](spells/stoneToFlesh.md#_stone-to-flesh)_, then using healing spells until it reaches its maximum hit points, at which time it automatically returns to its stone form.
 
 There are two sorts of _stone horses_.
 
@@ -3536,7 +3536,7 @@ Construction Requirements
 
 **Courser** 5,000 gp; **Destrier** 7,400 gp
 
-Craft Wondrous Item, _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_, _ [flesh to stone](/pathfinderRPG/prd/spells/fleshToStone.html#_flesh-to-stone)_
+Craft Wondrous Item, _ [animate objects](spells/animateObjects.md#_animate-objects)_, _ [flesh to stone](spells/fleshToStone.md#_flesh-to-stone)_
 
 Stone of Alarm
 
@@ -3548,13 +3548,13 @@ Construction Requirements
 
 Cost 1,350 gp
 
-Craft Wondrous Item, _ [alarm](/pathfinderRPG/prd/spells/alarm.html#_alarm)_
+Craft Wondrous Item, _ [alarm](spells/alarm.md#_alarm)_
 
 Stone of Alliance
 
 **Price** 5,000 gp; **Aura** faint divination; **CL** 3rd; **Weight** —
 
-This tiny sphere of marble can be used to strengthen an existing link between the user and a creature bound to him. When activated by a creature and then swallowed by that creature's animal companion, bonded mount, or familiar, the stone magically remains inside the companion creature. Thereafter, the master is continually aware of the companion's distance, direction, and general condition as if using the spell _ [status](/pathfinderRPG/prd/spells/status.html#_status)_. If the master has line of sight to the companion, he may as an immediate action protect the creature from being harmed by one successful attack, taking the full effect of that attack instead.
+This tiny sphere of marble can be used to strengthen an existing link between the user and a creature bound to him. When activated by a creature and then swallowed by that creature's animal companion, bonded mount, or familiar, the stone magically remains inside the companion creature. Thereafter, the master is continually aware of the companion's distance, direction, and general condition as if using the spell _ [status](spells/status.md#_status)_. If the master has line of sight to the companion, he may as an immediate action protect the creature from being harmed by one successful attack, taking the full effect of that attack instead.
 
 Once per day the master may spend a standard action to transfer the blinded, dazzled, deafened, fatigued, shaken, or sickened condition from the companion to himself. Alternatively, the master may partially transfer the exhausted, frightened, or nauseated condition from the companion to himself, with he and the companion both suffering the lesser version of that condition (fatigued for exhausted, and so on). The master must be within 30 feet of the companion for him to use either aspect of this ability.
 
@@ -3564,19 +3564,19 @@ Construction Requirements
 
 Cost 2,500 gp
 
-Craft Wondrous Item, _ [shield other](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)_, _ [status](/pathfinderRPG/prd/spells/status.html#_status)_
+Craft Wondrous Item, _ [shield other](spells/shieldOther.md#_shield-other)_, _ [status](spells/status.md#_status)_
 
 Stone of Conjuring Earth Elementals
 
 **Price** 90,000 gp; **Aura** moderate conjuration; **CL** 11th; **Weight** lbs.
 
-A stone of this nature is typically an oddly shaped bit of roughly polished rock. On command as a full-round action, the bearer may summon an earth elemental. If there is an unbroken piece of unworked stone of at least Huge size nearby, the stone conjures a Huge earth elemental as if using _ [summon monster VI](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi)_. If there is no such stone available (for example, if there is only sand, earth, worked stone, or smaller pieces of stone), the stone conjures a Large earth elemental as if using _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_. The stone cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.
+A stone of this nature is typically an oddly shaped bit of roughly polished rock. On command as a full-round action, the bearer may summon an earth elemental. If there is an unbroken piece of unworked stone of at least Huge size nearby, the stone conjures a Huge earth elemental as if using _ [summon monster VI](spells/summonMonster.md#_summon-monster-vi)_. If there is no such stone available (for example, if there is only sand, earth, worked stone, or smaller pieces of stone), the stone conjures a Large earth elemental as if using _ [summon monster V](spells/summonMonster.md#_summon-monster-v)_. The stone cannot summon another elemental until the previous one is dismissed, killed, or the duration of its summoning expires.
 
 Construction Requirements
 
 Cost 45,000 gp
 
-Craft Wondrous Item, _ [summon monster V](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-v)_, _ [summon monster VI](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-vi)_
+Craft Wondrous Item, _ [summon monster V](spells/summonMonster.md#_summon-monster-v)_, _ [summon monster VI](spells/summonMonster.md#_summon-monster-vi)_
 
 Stone of Good Luck (Luckstone)
 
@@ -3588,13 +3588,13 @@ Construction Requirements
 
 Cost 10,000 gp
 
-Craft Wondrous Item, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_
+Craft Wondrous Item, _ [divine favor](spells/divineFavor.md#_divine-favor)_
 
 Stone Salve
 
 **Price** 4,000 gp; **Aura** strong abjuration and transmutation; **CL** 13th; **Weight** —
 
-This ointment has two uses. If an ounce of it is applied to the flesh of a petrified creature, it returns the creature to flesh as the _ [stone to flesh](/pathfinderRPG/prd/spells/stoneToFlesh.html#_stone-to-flesh)_ spell. If an ounce of it is applied to the flesh of a nonpetrified creature, it protects the creature as a _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_ spell.
+This ointment has two uses. If an ounce of it is applied to the flesh of a petrified creature, it returns the creature to flesh as the _ [stone to flesh](spells/stoneToFlesh.md#_stone-to-flesh)_ spell. If an ounce of it is applied to the flesh of a nonpetrified creature, it protects the creature as a _ [stoneskin](spells/stoneskin.md#_stoneskin)_ spell.
 
 The price and creation cost given are per ounce.
 
@@ -3602,7 +3602,7 @@ Construction Requirements
 
 Cost 2,000 gp
 
-Craft Wondrous Item, _ [stone to flesh](/pathfinderRPG/prd/spells/stoneToFlesh.html#_stone-to-flesh)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_
+Craft Wondrous Item, _ [stone to flesh](spells/stoneToFlesh.md#_stone-to-flesh)_, _ [stoneskin](spells/stoneskin.md#_stoneskin)_
 
 Strand of Prayer Beads
 
@@ -3614,24 +3614,24 @@ This item appears to be nothing more than a string of prayer beads until the own
 
 | Special Bead Type | Special Bead Ability |
 | --- | --- |
-| Bead of blessing (CL 1st) | Wearer can cast _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_. |
-| Bead of healing (CL 5th) | Wearer can cast his choice of _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _remove [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_, or _remove disease_. |
+| Bead of blessing (CL 1st) | Wearer can cast _ [bless](spells/bless.md#_bless)_. |
+| Bead of healing (CL 5th) | Wearer can cast his choice of _ [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _remove [blindness/deafness](spells/blindnessDeafness.md#_blindness-deafness)_, or _remove disease_. |
 | Bead of karma (CL 9th) | Wearer casts his spells at +4 caster level. Effect lasts 10 minutes. |
-| Bead of smiting (CL 7th) | Wearer can cast _ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_, _ [holy smite](/pathfinderRPG/prd/spells/holySmite.html#_holy-smite)_, _ [order's wrath](/pathfinderRPG/prd/spells/orderSWrath.html#_order-s-wrath)_, or _ [unholy blight](/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight)_ (Will DC 17 partial). |
+| Bead of smiting (CL 7th) | Wearer can cast _ [chaos hammer](spells/chaosHammer.md#_chaos-hammer)_, _ [holy smite](spells/holySmite.md#_holy-smite)_, _ [order's wrath](spells/orderSWrath.md#_order-s-wrath)_, or _ [unholy blight](spells/unholyBlight.md#_unholy-blight)_ (Will DC 17 partial). |
 | Bead of summons (CL 17th) | Summons a powerful creature of appropriate alignment from the Outer Planes (an angel, devil, etc.) to aid the wearer for 1 day. (If the wearer uses the bead of summons to summon a deity's emissary frivolously, the deity takes that character's items and places a _geas_ upon him as punishment at the very least.) |
-| Bead of wind walking (CL 11th) | Wearer can cast _ [wind walk](/pathfinderRPG/prd/spells/windWalk.html#_wind-walk)_. |
+| Bead of wind walking (CL 11th) | Wearer can cast _ [wind walk](spells/windWalk.md#_wind-walk)_. |
 
-A _lesser [strand of](/pathfinderRPG/prd/magicItems/wondrousItems.html#_strand-of-prayer-beads) [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer) beads_ has a bead of blessing and a bead of healing. A _ [strand of](/pathfinderRPG/prd/magicItems/wondrousItems.html#_strand-of-prayer-beads) [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer) beads_ has a bead of healing, a bead of karma, and a bead of smiting. A _greater [strand of](/pathfinderRPG/prd/magicItems/wondrousItems.html#_strand-of-prayer-beads) [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer) beads_ has a bead of healing, a bead of karma, a bead of summons, and a bead of wind walking.
+A _lesser [strand of](magicItems/wondrousItems.md#_strand-of-prayer-beads) [prayer](spells/prayer.md#_prayer) beads_ has a bead of blessing and a bead of healing. A _ [strand of](magicItems/wondrousItems.md#_strand-of-prayer-beads) [prayer](spells/prayer.md#_prayer) beads_ has a bead of healing, a bead of karma, and a bead of smiting. A _greater [strand of](magicItems/wondrousItems.md#_strand-of-prayer-beads) [prayer](spells/prayer.md#_prayer) beads_ has a bead of healing, a bead of karma, a bead of summons, and a bead of wind walking.
 
-Each special bead can be used once per day, except for the bead of summons, which works only once and then becomes nonmagical. The beads of blessing, smiting, and wind walking function as spell trigger items; the beads of karma and summons can be activated by any character capable of casting divine spells. The owner need not hold or wear the _ [strand of](/pathfinderRPG/prd/magicItems/wondrousItems.html#_strand-of-prayer-beads) [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer) beads_ in any specific location, as long as he carries it somewhere on his person.
+Each special bead can be used once per day, except for the bead of summons, which works only once and then becomes nonmagical. The beads of blessing, smiting, and wind walking function as spell trigger items; the beads of karma and summons can be activated by any character capable of casting divine spells. The owner need not hold or wear the _ [strand of](magicItems/wondrousItems.md#_strand-of-prayer-beads) [prayer](spells/prayer.md#_prayer) beads_ in any specific location, as long as he carries it somewhere on his person.
 
-The power of a special bead is lost if it is removed from the strand. Reduce the price of a _ [strand of](/pathfinderRPG/prd/magicItems/wondrousItems.html#_strand-of-prayer-beads) [prayer](/pathfinderRPG/prd/spells/prayer.html#_prayer) beads _that is missing one or more beads by the following amounts: bead of blessing –600 gp, bead of healing –9,000 gp, bead of karma –20,000 gp, bead of smiting –16,800 gp, bead of summons –20,000 gp, bead of wind walking –46,800 gp.
+The power of a special bead is lost if it is removed from the strand. Reduce the price of a _ [strand of](magicItems/wondrousItems.md#_strand-of-prayer-beads) [prayer](spells/prayer.md#_prayer) beads _that is missing one or more beads by the following amounts: bead of blessing –600 gp, bead of healing –9,000 gp, bead of karma –20,000 gp, bead of smiting –16,800 gp, bead of summons –20,000 gp, bead of wind walking –46,800 gp.
 
 Construction Requirements
 
 **Lesser strand** 4,800 gp; **Normal strand** 22,900 gp; **Greater strand** 47,900 gp
 
-Craft Wondrous Item and one of the following spells per bead, as appropriate: _ [bless](/pathfinderRPG/prd/spells/bless.html#_bless)_ (blessing); _ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [remove blindness/deafness](/pathfinderRPG/prd/spells/removeBlindnessDeafness.html#_remove-blindness-deafness)_, or _ [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease)_ (healing); _ [righteous might](/pathfinderRPG/prd/spells/righteousMight.html#_righteous-might) _(karma); _ [gate](/pathfinderRPG/prd/spells/gate.html#_gate)_ (summons); _ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_, _ [holy smite](/pathfinderRPG/prd/spells/holySmite.html#_holy-smite)_, _ [order's wrath](/pathfinderRPG/prd/spells/orderSWrath.html#_order-s-wrath)_, or _ [unholy blight](/pathfinderRPG/prd/spells/unholyBlight.html#_unholy-blight)_ (smiting), _ [wind walk](/pathfinderRPG/prd/spells/windWalk.html#_wind-walk)_ (wind walking)
+Craft Wondrous Item and one of the following spells per bead, as appropriate: _ [bless](spells/bless.md#_bless)_ (blessing); _ [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _ [remove blindness/deafness](spells/removeBlindnessDeafness.md#_remove-blindness-deafness)_, or _ [remove disease](spells/removeDisease.md#_remove-disease)_ (healing); _ [righteous might](spells/righteousMight.md#_righteous-might) _(karma); _ [gate](spells/gate.md#_gate)_ (summons); _ [chaos hammer](spells/chaosHammer.md#_chaos-hammer)_, _ [holy smite](spells/holySmite.md#_holy-smite)_, _ [order's wrath](spells/orderSWrath.md#_order-s-wrath)_, or _ [unholy blight](spells/unholyBlight.md#_unholy-blight)_ (smiting), _ [wind walk](spells/windWalk.md#_wind-walk)_ (wind walking)
 
 Stubborn Nail
 
@@ -3643,31 +3643,31 @@ Construction Requirements
 
 Cost 50 gp
 
-Craft Wondrous Item, _ [arcane lock](/pathfinderRPG/prd/spells/arcaneLock.html#_arcane-lock)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_
+Craft Wondrous Item, _ [arcane lock](spells/arcaneLock.md#_arcane-lock)_, _ [mending](spells/mending.md#_mending)_
 
 Summoning Shackle
 
 **Price** 5,000 gp; **Aura** moderate abjuration; **CL** 11th; **Weight** 1 lb.
 
-This small silver shackle is carved with conjuration runes. When used as a focus as part of a summoning spell of 3rd level or less, it creates a faintly-glowing intangible magical chain from the caster to the summoned creature or creatures. The duration of that summoning spell is extended as if using the [Extend Spell](/pathfinderRPG/prd/feats.html#_extend-spell) feat, with no increase in casting time. The chain prevents the creature from moving more than 30 feet from the caster, even when using teleportation (though the caster can use these effects to exceed this distance, which ends the shackling effect immediately). The chain does not otherwise obstruct or interfere with any object or creature other than the summoned creature. The shackle may be used up to five times per day. If the shackle or the chain is dispelled, the range limitation and increased duration ends; if the spell's unmodified duration would already have ended by then, the spell ends immediately.
+This small silver shackle is carved with conjuration runes. When used as a focus as part of a summoning spell of 3rd level or less, it creates a faintly-glowing intangible magical chain from the caster to the summoned creature or creatures. The duration of that summoning spell is extended as if using the [Extend Spell](feats.md#_extend-spell) feat, with no increase in casting time. The chain prevents the creature from moving more than 30 feet from the caster, even when using teleportation (though the caster can use these effects to exceed this distance, which ends the shackling effect immediately). The chain does not otherwise obstruct or interfere with any object or creature other than the summoned creature. The shackle may be used up to five times per day. If the shackle or the chain is dispelled, the range limitation and increased duration ends; if the spell's unmodified duration would already have ended by then, the spell ends immediately.
 
 Construction Requirements
 
 Cost 2,500 gp
 
-Craft Wondrous Item, [Extend Spell](/pathfinderRPG/prd/feats.html#_extend-spell), _ [dimensional anchor](/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional)_, _ [summon monster I](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i)_
+Craft Wondrous Item, [Extend Spell](feats.md#_extend-spell), _ [dimensional anchor](spells/dimensionalAnchor.md#_dimensional)_, _ [summon monster I](spells/summonMonster.md#_summon-monster-i)_
 
 Summon-Slave Crystal
 
 **Price** 10,000 gp; **Aura** moderate necromancy; **CL** 9th; **Weight** —
 
-This thumb-sized crystalline skull is carved with necromantic runes. Once per day, a spellcaster can grasp the stone while casting a summoning spell. When the spellcasting is finished, the caster may immediately attempt to possess the summoned creature, as if using _ [magic jar](/pathfinderRPG/prd/spells/magicJar.html#_magic-jar)_, except as a free action. The creature does not get a saving throw to resist, though spell resistance still applies. If successful, the caster possesses the creatures' body until the duration of the summoning spell ends, at which time his mind returns to his body, the creature's mind returns to its body, and the creature disappears.
+This thumb-sized crystalline skull is carved with necromantic runes. Once per day, a spellcaster can grasp the stone while casting a summoning spell. When the spellcasting is finished, the caster may immediately attempt to possess the summoned creature, as if using _ [magic jar](spells/magicJar.md#_magic-jar)_, except as a free action. The creature does not get a saving throw to resist, though spell resistance still applies. If successful, the caster possesses the creatures' body until the duration of the summoning spell ends, at which time his mind returns to his body, the creature's mind returns to its body, and the creature disappears.
 
 Construction Requirements
 
 Cost 5,000 gp
 
-Craft Wondrous Item, _ [magic jar](/pathfinderRPG/prd/spells/magicJar.html#_magic-jar)_
+Craft Wondrous Item, _ [magic jar](spells/magicJar.md#_magic-jar)_
 
 Sustaining Spoon
 
@@ -3679,7 +3679,7 @@ Construction Requirements
 
 Cost 2,700 gp
 
-Craft Wondrous Item, _ [create food and water](/pathfinderRPG/prd/spells/createFoodAndWater.html#_create-food-and-water)_
+Craft Wondrous Item, _ [create food and water](spells/createFoodAndWater.md#_create-food-and-water)_
 
 Tome of Clear Thought
 
@@ -3693,9 +3693,9 @@ Construction Requirements
 
 **+1 Intelligence** 26,250 gp; **+2 Intelligence** 52,500 gp; **+3 Intelligence** 78,750 gp; **+4 Intelligence** 105,000 gp; **+5 Intelligence** 131,250 gp
 
-Craft Wondrous Item, _ [miracle](/pathfinderRPG/prd/spells/miracle.html#_miracle)_ or _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_
+Craft Wondrous Item, _ [miracle](spells/miracle.md#_miracle)_ or _ [wish](spells/wish.md#_wish)_
 
-Tome of [Leadership](/pathfinderRPG/prd/feats.html#_leadership) and Influence
+Tome of [Leadership](feats.md#_leadership) and Influence
 
 **Price** varies; **Aura** strong universal; **CL** 17th; **Weight** 5 lbs.
 
@@ -3707,7 +3707,7 @@ Construction Requirements
 
 **+1 Charisma** 26,250 gp; **+2 Charisma** 52,500 gp; **+3 Charisma** 78,750 gp; **+4 Charisma** 105,000 gp; **+5 Charisma** 131,250 gp
 
-Craft Wondrous Item, _ [miracle](/pathfinderRPG/prd/spells/miracle.html#_miracle)_ or _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_
+Craft Wondrous Item, _ [miracle](spells/miracle.md#_miracle)_ or _ [wish](spells/wish.md#_wish)_
 
 Tome of Understanding
 
@@ -3721,7 +3721,7 @@ Construction Requirements
 
 **+1 Wisdom** 26,250 gp; **+2 Wisdom** 52,500 gp; **+3 Wisdom** 78,750 gp; **+4 Wisdom** 105,000 gp; **+5 Wisdom** 131,250 gp
 
-Craft Wondrous Item, _ [miracle](/pathfinderRPG/prd/spells/miracle.html#_miracle)_ or _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_
+Craft Wondrous Item, _ [miracle](spells/miracle.md#_miracle)_ or _ [wish](spells/wish.md#_wish)_
 
 Traveler's Any-Tool
 
@@ -3729,19 +3729,19 @@ Traveler's Any-Tool
 
 This implement at first seems to be nothing but a 12-inch iron bar lined with small plates and spikes. It can be folded, twisted, hinged, and bent, to form almost any known tool. Hammers, shovels, even a block and tackle (without rope) are possible. It can duplicate any tool the wielder can clearly visualize that contains only limited moving parts, such as a pair of scissors, but not a handloom. It cannot be used to replace missing or broken parts of machines or vehicles unless a mundane tool would have done the job just as well.
 
-The any-tool counts as a set of masterwork artisan's tools for most [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) or [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) skills (although very specialist crafts such as alchemy still require their own unique toolset). It is an ineffective weapon, always counting as an improvised weapon and never granting any masterwork bonus on attack rolls.
+The any-tool counts as a set of masterwork artisan's tools for most [Craft](skills/craft.md#_craft) or [Profession](skills/profession.md#_profession) skills (although very specialist crafts such as alchemy still require their own unique toolset). It is an ineffective weapon, always counting as an improvised weapon and never granting any masterwork bonus on attack rolls.
 
 Construction Requirements
 
 Cost 125 gp
 
-Craft Wondrous Item, _ [major creation](/pathfinderRPG/prd/spells/majorCreation.html#_major-creation)_
+Craft Wondrous Item, _ [major creation](spells/majorCreation.md#_major-creation)_
 
 Treasurer's Seal
 
 **Price** 10,000 gp; **Aura** faint abjuration; **CL** 3rd; **Weight** 1 lb.
 
-Six inches in diameter, one side of this porcelain seal shows a many-keyholed padlock, while the other displays a lightning bolt superimposed on an open hand. The padlock side is used to lock and alarm doors, chests, and other portals. The bearer may speak a command word to activate it when holding it against a lockable item. If the padlock side of the seal is touching the item, it bestows an _ [alarm](/pathfinderRPG/prd/spells/alarm.html#_alarm)_ (mental alarm) and _ [arcane lock](/pathfinderRPG/prd/spells/arcaneLock.html#_arcane-lock)_ on the target item. If the lightning bolt side of the seal is touching the item, it casts _ [fire trap](/pathfinderRPG/prd/spells/fireTrap.html#_fire-trap)_ on the lock (the seal must be held to the lock for 10 minutes to use this ability).
+Six inches in diameter, one side of this porcelain seal shows a many-keyholed padlock, while the other displays a lightning bolt superimposed on an open hand. The padlock side is used to lock and alarm doors, chests, and other portals. The bearer may speak a command word to activate it when holding it against a lockable item. If the padlock side of the seal is touching the item, it bestows an _ [alarm](spells/alarm.md#_alarm)_ (mental alarm) and _ [arcane lock](spells/arcaneLock.md#_arcane-lock)_ on the target item. If the lightning bolt side of the seal is touching the item, it casts _ [fire trap](spells/fireTrap.md#_fire-trap)_ on the lock (the seal must be held to the lock for 10 minutes to use this ability).
 
 A creature carrying the seal can speak a command word to suspend its effects on an item for 1 minute. This ability is usable at will, but only works on effects created by that specific seal.
 
@@ -3751,7 +3751,7 @@ Construction Requirements
 
 Cost 5,000 gp
 
-Craft Wondrous Item, _ [alarm](/pathfinderRPG/prd/spells/alarm.html#_alarm), [arcane lock](/pathfinderRPG/prd/spells/arcaneLock.html#_arcane-lock), [fire trap](/pathfinderRPG/prd/spells/fireTrap.html#_fire-trap)_
+Craft Wondrous Item, _ [alarm](spells/alarm.md#_alarm), [arcane lock](spells/arcaneLock.md#_arcane-lock), [fire trap](spells/fireTrap.md#_fire-trap)_
 
 Unguent of Timelessness
 
@@ -3763,7 +3763,7 @@ Construction Requirements
 
 Cost 75 gp
 
-Craft Wondrous Item, _ [gentle repose](/pathfinderRPG/prd/spells/gentleRepose.html#_gentle-repose)_
+Craft Wondrous Item, _ [gentle repose](spells/gentleRepose.md#_gentle-repose)_
 
 Universal Solvent
 
@@ -3775,19 +3775,19 @@ Construction Requirements
 
 Cost 25 gp
 
-Craft Wondrous Item, _ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_
+Craft Wondrous Item, _ [acid arrow](spells/acidArrow.md#_acid-arrow)_
 
 Void Dust
 
 **Price** 4,500 gp; **Aura** moderate transmutation; **CL** 11th; **Weight** —
 
-Infused with the essence of destruction, a pinch of void dust unmakes force effects. If sprinkled on or thrown at a force effect, it acts as a _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, unless the force effect is immune to _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, in which case it acts like _ [disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_. _Void dust_ can be sprinkled on an adjacent force effect or thrown up to 10 feet. No attack roll is required. A single pinch affects only a single force effect. A found container holds three pinches.
+Infused with the essence of destruction, a pinch of void dust unmakes force effects. If sprinkled on or thrown at a force effect, it acts as a _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, unless the force effect is immune to _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, in which case it acts like _ [disintegrate](spells/disintegrate.md#_disintegrate)_. _Void dust_ can be sprinkled on an adjacent force effect or thrown up to 10 feet. No attack roll is required. A single pinch affects only a single force effect. A found container holds three pinches.
 
 Construction Requirements
 
 Cost 2,250 gp
 
-Craft Wondrous Item, _ [disintegrate](/pathfinderRPG/prd/spells/disintegrate.html#_disintegrate)_
+Craft Wondrous Item, _ [disintegrate](spells/disintegrate.md#_disintegrate)_
 
 Void Pennant
 
@@ -3801,7 +3801,7 @@ Construction Requirements
 
 Cost 7,000 gp
 
-Craft Wondrous Item, _ [dimensional anchor](/pathfinderRPG/prd/spells/dimensionalAnchor.html#_dimensional)_
+Craft Wondrous Item, _ [dimensional anchor](spells/dimensionalAnchor.md#_dimensional)_
 
 Volatile Vaporizer
 
@@ -3815,19 +3815,19 @@ Construction Requirements
 
 **1st-level** 1,100 gp; **2nd-level** 1,500 gp; **3rd-level** 1,900 gp
 
-Craft Wondrous Item, _ [alchemical allocation](/pathfinderRPG/prd/advanced/spells/alchemicalAllocation.html#_alchemical-allocation)_
+Craft Wondrous Item, _ [alchemical allocation](advanced/spells/alchemicalAllocation.md#_alchemical-allocation)_
 
 War Paint of the Terrible Visage
 
 **Price** 100 gp; **Aura** faint necromancy; **CL** 1st; **Weight** —
 
-This thimble-sized clay container of thick, moist face paint has enough material to paint streaks and whorls of any color on one creature's face. Once applied, the wearer can, as a swift action, make the paint rearrange itself into a ghastly mÃ©lange of colors, making her appearance momentarily disturbing and hideous. The wearer chooses one creature who can see her painted face within 30 feet to be affected by _ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ (DC 11). Once the paint is used in this fashion, it loses all magic and becomes normal face paint. Once applied, the wearer has 24 hours to use the paint's magic; otherwise it fades away.
+This thimble-sized clay container of thick, moist face paint has enough material to paint streaks and whorls of any color on one creature's face. Once applied, the wearer can, as a swift action, make the paint rearrange itself into a ghastly mélange of colors, making her appearance momentarily disturbing and hideous. The wearer chooses one creature who can see her painted face within 30 feet to be affected by _ [cause fear](spells/causeFear.md#_cause-fear)_ (DC 11). Once the paint is used in this fashion, it loses all magic and becomes normal face paint. Once applied, the wearer has 24 hours to use the paint's magic; otherwise it fades away.
 
 Construction Requirements
 
 Cost 50 gp
 
-Craft Wondrous Item, _ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_
+Craft Wondrous Item, _ [cause fear](spells/causeFear.md#_cause-fear)_
 
 Wasp Nest of Swarming
 
@@ -3839,7 +3839,7 @@ Construction Requirements
 
 Cost 500 gp
 
-Craft Wondrous Item, _ [insect plague](/pathfinderRPG/prd/spells/insectPlague.html#_insect-plague)_
+Craft Wondrous Item, _ [insect plague](spells/insectPlague.md#_insect-plague)_
 
 Waters of Transfiguration
 
@@ -3851,7 +3851,7 @@ Construction Requirements
 
 Cost 6,250 gp
 
-Craft Wondrous Item, _ [fabricate](/pathfinderRPG/prd/spells/fabricate.html#_fabricate)_
+Craft Wondrous Item, _ [fabricate](spells/fabricate.md#_fabricate)_
 
 Well of Many Worlds
 
@@ -3863,7 +3863,7 @@ Construction Requirements
 
 Cost 41,000 gp
 
-Craft Wondrous Item, _ [gate](/pathfinderRPG/prd/spells/gate.html#_gate)_
+Craft Wondrous Item, _ [gate](spells/gate.md#_gate)_
 
 Werewhistle
 
@@ -3875,31 +3875,31 @@ Construction Requirements
 
 Cost 4,000 gp
 
-Craft Wondrous Item, _ [baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_
+Craft Wondrous Item, _ [baleful polymorph](spells/balefulPolymorph.md#_baleful-polymorph)_
 
 Wind Fan
 
 **Price** 5,500 gp; **Aura** faint evocation; **CL** 5th; **Weight** —
 
-A _wind fan_ appears to be nothing more than a wood and papyrus or cloth instrument with which to create a cooling breeze. By uttering the command word, its possessor causes the fan to duplicate a _ [gust of wind](/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind)_ spell. The fan can be used once per day with no risk. If it is used more frequently, there is a 20% cumulative chance per usage during that day that the device tears into useless, nonmagical tatters.
+A _wind fan_ appears to be nothing more than a wood and papyrus or cloth instrument with which to create a cooling breeze. By uttering the command word, its possessor causes the fan to duplicate a _ [gust of wind](spells/gustOfWind.md#_gust-of-wind)_ spell. The fan can be used once per day with no risk. If it is used more frequently, there is a 20% cumulative chance per usage during that day that the device tears into useless, nonmagical tatters.
 
 Construction Requirements
 
 Cost 2,750 gp
 
-Craft Wondrous Item, _ [gust of wind](/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind)_
+Craft Wondrous Item, _ [gust of wind](spells/gustOfWind.md#_gust-of-wind)_
 
 Wind-Caller Compass
 
 **Price** 4,400 gp; **Aura** faint transmutation; **CL** 3rd; **Weight** —
 
-This light gray compass made of fine metal, and is engraved with various depictions of the sun, moon, and clouds. It allows a creature to increase or decrease the intensity of the wind four times per day as if using _ [alter winds](/pathfinderRPG/prd/advanced/spells/alterWinds.html#_alter-winds)_.
+This light gray compass made of fine metal, and is engraved with various depictions of the sun, moon, and clouds. It allows a creature to increase or decrease the intensity of the wind four times per day as if using _ [alter winds](advanced/spells/alterWinds.md#_alter-winds)_.
 
 Construction Requirements
 
 Cost 2,200 gp
 
-Craft Wondrous Item, _ [alter winds](/pathfinderRPG/prd/advanced/spells/alterWinds.html#_alter-winds)_
+Craft Wondrous Item, _ [alter winds](advanced/spells/alterWinds.md#_alter-winds)_
 
 Word Bottle
 
@@ -3913,5 +3913,5 @@ Construction Requirements
 
 Cost 750 gp
 
-Craft Wondrous Item, _ [imbue with spell ability](/pathfinderRPG/prd/spells/imbueWithSpellAbility.html#_imbue-with-spell-ability)_
+Craft Wondrous Item, _ [imbue with spell ability](spells/imbueWithSpellAbility.md#_imbue-with-spell-ability)_
 

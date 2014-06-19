@@ -6,9 +6,9 @@ _This handsome, grinning man has the furry legs of a goat and a set of curling r
 
 **XP 1,200**
 
-CN Medium [fey](creatureTypes.html#_fey)
+CN Medium [fey](creatureTypes.md#_fey)
 
-**Init** +2; **Senses** low-light vision; [Perception](../skills/perception.html#_perception) +18
+**Init** +2; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +18
 
 **Defense**
 
@@ -32,9 +32,9 @@ CN Medium [fey](creatureTypes.html#_fey)
 
 **Spell-Like Abilities** (CL 8th)
 
-At will—_ [charm person](../spells/charmPerson.html#_charm-person) _(DC 15)_, [dancing lights](../spells/dancingLights.html#_dancing-lights)_, _ [ghost sound](../spells/ghostSound.html#_ghost-sound)_ (DC 14), _ [sleep](../spells/sleep.html#_sleep) _(DC 15), _ [suggestion](../spells/suggestion.html#_suggestion) _(DC 17)
+At will—_ [charm person](../spells/charmPerson.md#_charm-person) _(DC 15)_, [dancing lights](../spells/dancingLights.md#_dancing-lights)_, _ [ghost sound](../spells/ghostSound.md#_ghost-sound)_ (DC 14), _ [sleep](../spells/sleep.md#_sleep) _(DC 15), _ [suggestion](../spells/suggestion.md#_suggestion) _(DC 17)
 
-1/day—_ [fear](../spells/fear.html#_fear) _(DC 18), _ [summon nature's ally III](../spells/summonNatureSAlly.html#_summon-nature-s-ally-iii)_
+1/day—_ [fear](../spells/fear.md#_fear) _(DC 18), _ [summon nature's ally III](../spells/summonNatureSAlly.md#_summon-nature-s-ally-iii)_
 
 **Statistics**
 
@@ -42,9 +42,9 @@ At will—_ [charm person](../spells/charmPerson.html#_charm-person) _(DC 15)_, 
 
 **Base**  **Atk** +4; **CMB** +6; **CMD** 18
 
-**Feats** [Dodge](../feats.html#_dodge), [Mobility](../feats.html#_mobility), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception)), [Weapon Finesse](../feats.html#_weapon-finesse)
+**Feats** [Dodge](../feats.md#_dodge), [Mobility](../feats.md#_mobility), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Weapon Finesse](../feats.md#_weapon-finesse)
 
-**Skills** [Bluff](../skills/bluff.html#_bluff) +15, [Diplomacy](../skills/diplomacy.html#_diplomacy) +15, [Disguise](../skills/disguise.html#_disguise) +9, [Intimidate](../skills/intimidate.html#_intimidate) +9, [Knowledge](../skills/knowledge.html#_knowledge) (nature) +10, [Perception](../skills/perception.html#_perception) +18, [Perform](../skills/perform.html#_perform) (wind instruments) +19, [Stealth](../skills/stealth.html#_stealth) +17, [Survival](../skills/survival.html#_survival) +7; **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception), +4 [Perform](../skills/perform.html#_perform), +4 [Stealth](../skills/stealth.html#_stealth)
+**Skills** [Bluff](../skills/bluff.md#_bluff) +15, [Diplomacy](../skills/diplomacy.md#_diplomacy) +15, [Disguise](../skills/disguise.md#_disguise) +9, [Intimidate](../skills/intimidate.md#_intimidate) +9, [Knowledge](../skills/knowledge.md#_knowledge) (nature) +10, [Perception](../skills/perception.md#_perception) +18, [Perform](../skills/perform.md#_perform) (wind instruments) +19, [Stealth](../skills/stealth.md#_stealth) +17, [Survival](../skills/survival.md#_survival) +7; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception), +4 [Perform](../skills/perform.md#_perform), +4 [Stealth](../skills/stealth.md#_stealth)
 
 **Languages** Common, Sylvan
 
@@ -58,7 +58,7 @@ At will—_ [charm person](../spells/charmPerson.html#_charm-person) _(DC 15)_, 
 
 **Special Abilities**
 
-**Pipes (Su)** A satyr can focus and empower his magic by playing haunting melodies on his panpipes. When he plays, all creatures within a 60-foot radius must make a DC 18 Will save or be affected by _ [charm person](../spells/charmPerson.html#_charm-person)_,_ [fear](../spells/fear.html#_fear)_,_ [sleep](../spells/sleep.html#_sleep)_, or _ [suggestion](../spells/suggestion.html#_suggestion)_, depending on what tune the satyr chooses. A creature that successfully saves against any of the pipes' effects cannot be affected by the same set of pipes for 24 hours, but can still be affected by the satyr's other spell-like abilities as normal. The satyr's use of his pipes does not count toward his uses per day of his spell-like abilities, and if separated from them he may continue to use his standard abilities. The pipes themselves are masterwork, and a satyr can craft a replacement with 1 week of labor. The save DC is Charisma-based.
+**Pipes (Su)** A satyr can focus and empower his magic by playing haunting melodies on his panpipes. When he plays, all creatures within a 60-foot radius must make a DC 18 Will save or be affected by _ [charm person](../spells/charmPerson.md#_charm-person)_,_ [fear](../spells/fear.md#_fear)_,_ [sleep](../spells/sleep.md#_sleep)_, or _ [suggestion](../spells/suggestion.md#_suggestion)_, depending on what tune the satyr chooses. A creature that successfully saves against any of the pipes' effects cannot be affected by the same set of pipes for 24 hours, but can still be affected by the satyr's other spell-like abilities as normal. The satyr's use of his pipes does not count toward his uses per day of his spell-like abilities, and if separated from them he may continue to use his standard abilities. The pipes themselves are masterwork, and a satyr can craft a replacement with 1 week of labor. The save DC is Charisma-based.
 
 Satyrs, known in some regions as fauns, are debauched and hedonistic creatures of the deepest, most primeval parts of the woods. They adore wine, music, and carnal delights, and are renowned as rakes and smooth-talkers, wooing unwary maidens and shepherd boys and leaving a trail of awkward explanations and unplanned pregnancies in their wakes.
 

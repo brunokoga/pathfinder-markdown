@@ -24,9 +24,9 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** dwarven waraxe +3 (1d10+1/Ã3) or dagger +2 (1d4+1/19â20)
+**Melee** dwarven waraxe +3 (1d10+1/×3) or dagger +2 (1d4+1/19–20)
 
-**Ranged** light crossbow +1 (1d8/19â20)
+**Ranged** light crossbow +1 (1d8/19–20)
 
 **Special Attacks** +1 on attack rolls against goblinoid and orc humanoids
 
@@ -40,9 +40,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +2; **CMD** 12 (16 vs. bull rush or trip)
 
-**Feats** [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (dwarven waraxe)
+**Feats** [Weapon Focus](feats.md#_weapon-focus) (dwarven waraxe)
 
-**Skills** [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +2, Perception +1 (+3 to notice unusual stonework)
+**Skills** [Intimidate](skills/intimidate.md#_intimidate) +2, Perception +1 (+3 to notice unusual stonework)
 
 **Languages** Common, Dwarven
 
@@ -74,9 +74,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** longsword +3 (1d8+1/19â20) or sap +3 (1d6+1 nonlethal)
+**Melee** longsword +3 (1d8+1/19–20) or sap +3 (1d6+1 nonlethal)
 
-**Ranged** longbow +3 (1d8/Ã3)
+**Ranged** longbow +3 (1d8/×3)
 
 Tactics
 
@@ -88,13 +88,13 @@ Statistics
 
 **Base Atk** +2; **CMB** +3; **CMD** 14
 
-**Feats** [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))
+**Feats** [Point-Blank Shot](feats.md#_point-blank-shot), [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth))
 
-**Skills** [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +4, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +6
+**Skills** [Intimidate](skills/intimidate.md#_intimidate) +4, [Stealth](skills/stealth.md#_stealth) +6
 
 **Languages** Common
 
-**Combat Gear** _potion of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, masterwork arrows (5), tanglefoot bags (2), thunderstone (2); **Other Gear** leather armor, longbow with 20 arrows, longsword, sap, 48 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, masterwork arrows (5), tanglefoot bags (2), thunderstone (2); **Other Gear** leather armor, longbow with 20 arrows, longsword, sap, 48 gp
 
 A brigand has no sense of mercy, and is happy to kill for a handful of silver. Brigands waylay caravans, create illegal turnpikes on roads to collect tolls from travelers, attack noisy camps at night, and harass villages for protection money. They are easily routed but carry a grudge and remain a recurring problem until imprisoned or killed.
 
@@ -108,11 +108,11 @@ Guard CR 1
 
 LN Medium humanoid (human)
 
-**Init** â1; **Senses** Perception +5
+**Init** –1; **Senses** Perception +5
 
 Defense
 
-**AC** 13, touch 9, flat-footed 13 (+4 armor, â1 Dex)
+**AC** 13, touch 9, flat-footed 13 (+4 armor, –1 Dex)
 
 **hp** 22 (3d10+6)
 
@@ -122,7 +122,7 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk guisarme +7 (2d4+3/Ã3) or mwk longsword +6 (1d8+2/19â20)
+**Melee** mwk guisarme +7 (2d4+3/×3) or mwk longsword +6 (1d8+2/19–20)
 
 **Ranged** javelin +2 (1d6+2)
 
@@ -138,9 +138,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +5; **CMD** 14
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Toughness](/pathfinderRPG/prd/feats.html#_toughness), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (guisarme)
+**Feats** [Alertness](feats.md#_alertness), [Toughness](feats.md#_toughness), [Weapon Focus](feats.md#_weapon-focus) (guisarme)
 
-**Skills** [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +6, Perception +5, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +4
+**Skills** [Intimidate](skills/intimidate.md#_intimidate) +6, Perception +5, [Sense Motive](skills/senseMotive.md#_sense-motive) +4
 
 **Languages** Common
 
@@ -158,7 +158,7 @@ Veteran Buccaneer CR 2
 
 CE Medium humanoid (human)
 
-**Init** +3; **Senses** Perception â1
+**Init** +3; **Senses** Perception –1
 
 Defense
 
@@ -172,9 +172,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk scimitar +6 (1d6+1/18â20)
+**Melee** mwk scimitar +6 (1d6+1/18–20)
 
-**Ranged** mwk heavy crossbow +8 (1d10/19â20) or throwing axe +7 (1d6+1)
+**Ranged** mwk heavy crossbow +8 (1d10/19–20) or throwing axe +7 (1d6+1)
 
 Tactics
 
@@ -186,13 +186,13 @@ Statistics
 
 **Base Atk** +4; **CMB** +5; **CMD** 19
 
-**Feats** [Dodge](/pathfinderRPG/prd/feats.html#_dodge), Mobility, [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Dodge](feats.md#_dodge), Mobility, [Toughness](feats.md#_toughness)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +6, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +6, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +6, [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (sailor) +3, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +17
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +6, [Climb](skills/climb.md#_climb) +6, [Intimidate](skills/intimidate.md#_intimidate) +6, [Profession](skills/profession.md#_profession) (sailor) +3, [Swim](skills/swim.md#_swim) +17
 
 **Languages** Common, Orc
 
-**Combat Gear** _ [elixir of swimming](/pathfinderRPG/prd/magicItems/wondrousItems.html#_elixir-of-swimming)_, _potion of [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _potions of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _potion of [jump](/pathfinderRPG/prd/spells/jump.html#_jump),_ alchemist's fire; **Other Gear** studded leather, masterwork heavy crossbow with 10 bolts, masterwork scimitar, throwing axe, 231 gp
+**Combat Gear** _ [elixir of swimming](magicItems/wondrousItems.md#_elixir-of-swimming)_, _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), _potion of [jump](spells/jump.md#_jump),_ alchemist's fire; **Other Gear** studded leather, masterwork heavy crossbow with 10 bolts, masterwork scimitar, throwing axe, 231 gp
 
 A veteran buccaneer lives to murder and plunder. Like a shark, she constantly hunts for prey. Buccaneers prefer easy targets like heavy, slow-moving merchant ships that quickly surrender their booty rather than fast military vessels that at best have a stockpile of weapons and at worst carry a full crew of angry sailors itching to spill pirate blood. Some buccaneers take only cargo, some take slaves, and some leave no survivors.
 
@@ -222,11 +222,11 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** unarmed strike +7 (1d3+2) or sap +7 (1d6+2 nonlethal) or warhammer +7 (1d8+3/Ã3)
+**Melee** unarmed strike +7 (1d3+2) or sap +7 (1d6+2 nonlethal) or warhammer +7 (1d8+3/×3)
 
 Tactics
 
-**During Combat** The warrior makes nonlethal unarmed strikes unless an opponent draws a weapon. She uses Improved Bull Rush to throw opponents into tables or through windows. If sorely pressed, she drinks her _potion of [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_.
+**During Combat** The warrior makes nonlethal unarmed strikes unless an opponent draws a weapon. She uses Improved Bull Rush to throw opponents into tables or through windows. If sorely pressed, she drinks her _potion of [enlarge person](spells/enlargePerson.md#_enlarge-person)_.
 
 Statistics
 
@@ -234,15 +234,15 @@ Statistics
 
 **Base Atk** +5; **CMB** +7; **CMD** 18
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), Improved Bull Rush, [Improved Unarmed Strike](/pathfinderRPG/prd/feats.html#_improved-unarmed-strike)
+**Feats** [Combat Reflexes](feats.md#_combat-reflexes), Improved Bull Rush, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike)
 
-**Skills** [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +9, Perception +0
+**Skills** [Intimidate](skills/intimidate.md#_intimidate) +9, Perception +0
 
 **Languages** Common, Orc
 
 **SQ** orc blood, weapon familiarity
 
-**Combat Gear** _potions of [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ (2), _potion of [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_; **Other Gear** chain shirt, sap, warhammer, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +1_, 137 gp
+**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), _potion of [enlarge person](spells/enlargePerson.md#_enlarge-person)_; **Other Gear** chain shirt, sap, warhammer, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, 137 gp
 
 A tavern champion is locally famous for boxing, throwing darts, arm wrestling, or just coming out on top in a bar fight. If she's not in the mood to fight—for example, if she's just trying to enjoy a meal or drink with friends—she prefers to intimidate rivals into backing down, but still enjoys a good brawl and knocks out anyone who doesn't take no for an answer.
 
@@ -270,7 +270,7 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** mwk heavy flail +9/+4 (1d10+3/19â20) or mwk halberd +9/+4 (1d10+3/Ã3) or longspear +8/+3 (1d8+3/Ã3) or morningstar +8/+3 (1d8+2) or cold iron kukri +8/+3 (1d4+2/18â20)
+**Melee** mwk heavy flail +9/+4 (1d10+3/19–20) or mwk halberd +9/+4 (1d10+3/×3) or longspear +8/+3 (1d8+3/×3) or morningstar +8/+3 (1d8+2) or cold iron kukri +8/+3 (1d4+2/18–20)
 
 **Ranged** javelin +6 (1d6+2)
 
@@ -286,19 +286,19 @@ Statistics
 
 **Base Atk** +6; **CMB** +8; **CMD** 18
 
-**Feats** Diehard, [Endurance](/pathfinderRPG/prd/feats.html#_endurance), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** Diehard, [Endurance](feats.md#_endurance), [Power Attack](feats.md#_power-attack), [Toughness](feats.md#_toughness)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +0, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +3, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +6, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +0, Perception +4, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +0
+**Skills** [Climb](skills/climb.md#_climb) +0, [Handle Animal](skills/handleAnimal.md#_handle-animal) +3, [Intimidate](skills/intimidate.md#_intimidate) +6, [Knowledge](skills/knowledge.md#_knowledge) (local) +0, Perception +4, [Swim](skills/swim.md#_swim) +0
 
 **Languages** Common
 
-**Combat Gear** _potion of [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds),_ alchemist's fire (2), holy water; **Other Gear** masterwork half-plate, cold iron kukri, javelins (4), longspear, masterwork halberd, masterwork heavy flail, morningstar, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, antitoxin, sunrod, 325 gp
+**Combat Gear** _potion of [barkskin](spells/barkskin.md#_barkskin)_, _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds),_ alchemist's fire (2), holy water; **Other Gear** masterwork half-plate, cold iron kukri, javelins (4), longspear, masterwork halberd, masterwork heavy flail, morningstar, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, antitoxin, sunrod, 325 gp
 
 A grizzled mercenary is armed to the teeth, and has survived wars and reckless adventurers. He carries multiple weapons so he can deal with various types of monstrous foes, and is unfazed by most encounters. He expects to be paid for his service on time and in real coin—not giant gems or weird statues.
 
 The mercenary is willing to guard a keep, wear a warlord's tabard or uniform, or venture into the upper levels of a dungeon, but he's no fool and doesn't like being treated as expendable. He is loyal as long as he is paid well, but not willing to risk his life on an obvious suicide mission. The above stat block can also be used for veteran military officers.
 
-Expert [Bodyguard](/pathfinderRPG/prd/advanced/advancedFeats.html#bodyguard) CR 5
+Expert [Bodyguard](advanced/advancedFeats.md#bodyguard) CR 5
 
 **XP** 1,600
 
@@ -310,7 +310,7 @@ N Medium humanoid (human)
 
 Defense
 
-**AC** 17, touch 9, flat-footed 17 (+7 armor, â1 Dex, +1 shield)
+**AC** 17, touch 9, flat-footed 17 (+7 armor, –1 Dex, +1 shield)
 
 **hp** 59 (7d10+21)
 
@@ -320,13 +320,13 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** _+1 longsword_ +10/+5 (1d8+2/19â20) or kukri +8/+3 (1d4+1/18â20)
+**Melee** _+1 longsword_ +10/+5 (1d8+2/19–20) or kukri +8/+3 (1d4+1/18–20)
 
-**Ranged** mwk light crossbow +7 (1d8/19â20)
+**Ranged** mwk light crossbow +7 (1d8/19–20)
 
 Tactics
 
-**During Combat** If she sees an enemy approaching, the warrior fires her _ [screaming bolt](/pathfinderRPG/prd/magicItems/weapons.html#_screaming-bolt)_ before entering melee. In melee, she uses Stand Still to prevent enemies from getting past her, giving her employer time to escape.
+**During Combat** If she sees an enemy approaching, the warrior fires her _ [screaming bolt](magicItems/weapons.md#_screaming-bolt)_ before entering melee. In melee, she uses Stand Still to prevent enemies from getting past her, giving her employer time to escape.
 
 Statistics
 
@@ -334,13 +334,13 @@ Statistics
 
 **Base Atk** +7; **CMB** +8; **CMD** 17
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), Stand Still, [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (longsword)
+**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), Stand Still, [Weapon Focus](feats.md#_weapon-focus) (longsword)
 
-**Skills** [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +9, Perception +8, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +8
+**Skills** [Intimidate](skills/intimidate.md#_intimidate) +9, Perception +8, [Sense Motive](skills/senseMotive.md#_sense-motive) +8
 
 **Languages** Common
 
-**Combat Gear** _potion of [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin)_, _potion of [bear's endurance](/pathfinderRPG/prd/spells/bearSEndurance.html#_bear-s-endurance)_, _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [screaming bolt](/pathfinderRPG/prd/magicItems/weapons.html#_screaming-bolt)_, tanglefoot bag (2); **Other Gear** masterwork banded mail, masterwork light steel shield, _+1 longsword_, kukri, masterwork light crossbow with 20 bolts, masterwork manacles, 114 gp
+**Combat Gear** _potion of [barkskin](spells/barkskin.md#_barkskin)_, _potion of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _ [screaming bolt](magicItems/weapons.md#_screaming-bolt)_, tanglefoot bag (2); **Other Gear** masterwork banded mail, masterwork light steel shield, _+1 longsword_, kukri, masterwork light crossbow with 20 bolts, masterwork manacles, 114 gp
 
 A bodyguard carries many scars from attempts on her employer's life. Unlike a common guard or even a grizzled old mercenary, she is willing to die to protect her charge if that is the only way to keep him safe. If given the option to sacrifice her own life to save him or flee to save herself, she'll choose the former.
 
@@ -370,13 +370,13 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** elven curve blade +10/+5 (1d10+3/18â20)
+**Melee** elven curve blade +10/+5 (1d10+3/18–20)
 
-**Ranged** _+1 composite longbow_ +12/+7 (1d8+3/Ã3)
+**Ranged** _+1 composite longbow_ +12/+7 (1d8+3/×3)
 
 Tactics
 
-**During Combat** The warrior uses her _+1 [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming) arrows_ on dangerous targets like spellcasters. She falls backs and keeps firing as foes approach her, avoiding melee as long as possible.
+**During Combat** The warrior uses her _+1 [flaming](magicItems/weapons.md#_weapons-flaming) arrows_ on dangerous targets like spellcasters. She falls backs and keeps firing as foes approach her, avoiding melee as long as possible.
 
 Statistics
 
@@ -384,15 +384,15 @@ Statistics
 
 **Base Atk** +8; **CMB** +10; **CMD** 22
 
-**Feats** [Deadly Aim](/pathfinderRPG/prd/feats.html#_deadly-aim), [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), Rapid Shot, [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (composite longbow)
+**Feats** [Deadly Aim](feats.md#_deadly-aim), [Point-Blank Shot](feats.md#_point-blank-shot), Rapid Shot, [Weapon Focus](feats.md#_weapon-focus) (composite longbow)
 
-**Skills** Perception +10, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +5
+**Skills** Perception +10, [Stealth](skills/stealth.md#_stealth) +5
 
 **Languages** Common, Elven
 
 **SQ** elven magic, weapon familiarity
 
-**Combat Gear** _ [elixir of hiding](/pathfinderRPG/prd/magicItems/wondrousItems.html#_elixir-of-hiding)_, _+1 [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming) arrows_ (6), _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _potion of [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_; **Other Gear** masterwork full plate, _+1 composite longbow_ (+2 Str) with 40 arrows, elven curve blade, 72 gp
+**Combat Gear** _ [elixir of hiding](magicItems/wondrousItems.md#_elixir-of-hiding)_, _+1 [flaming](magicItems/weapons.md#_weapons-flaming) arrows_ (6), _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [divine favor](spells/divineFavor.md#_divine-favor)_; **Other Gear** masterwork full plate, _+1 composite longbow_ (+2 Str) with 40 arrows, elven curve blade, 72 gp
 
 An aloof archer is disdainful of the archery skill of non-elves. Despite their heavy armor, aloof archers are remarkably stealthy. Unlike the elven scouts who move through the brush and harass invaders, these archers make up the ranged support of elven armies, firing over their comrades' heads into the thick of enemy forces, creating a hail of deadly arrows.
 
@@ -418,9 +418,9 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** _+1 lance_ +13/+8 (1d8+5/Ã3) or mwk heavy pick +13/+8 (1d6+3/Ã4)
+**Melee** _+1 lance_ +13/+8 (1d8+5/×3) or mwk heavy pick +13/+8 (1d6+3/×4)
 
-**Ranged** mwk composite shortbow +10/+5 (1d6+3/Ã3)
+**Ranged** mwk composite shortbow +10/+5 (1d6+3/×3)
 
 **Space** 5 ft.; **Reach** 5 ft. (10 ft. with lance)
 
@@ -434,15 +434,15 @@ Statistics
 
 **Base Atk** +9; **CMB** +12; **CMD** 22
 
-**Feats** [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), Mounted Archery, [Mounted Combat](/pathfinderRPG/prd/feats.html#_mounted-combat), Ride-By Attack, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) (Perception), Spirited Charge
+**Feats** [Iron Will](feats.md#_iron-will), Mounted Archery, [Mounted Combat](feats.md#_mounted-combat), Ride-By Attack, [Skill Focus](feats.md#_skill-focus) (Perception), Spirited Charge
 
-**Skills** [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +8, Perception +8, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +6
+**Skills** [Handle Animal](skills/handleAnimal.md#_handle-animal) +8, Perception +8, [Ride](skills/ride.md#_ride) +6
 
 **Languages** Common, Elven
 
 **SQ** elf blood
 
-**Combat Gear** _potions of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_ (2), _potion of [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_, cold iron arrows (10), silver arrows (10); **Other Gear** masterwork full plate, masterwork heavy steel shield, _+1 lance_, masterwork composite shortbow (+3 Str) with 40 arrows, masterwork heavy pick, bit and bridle, heavy horse (combat trained), masterwork chainmail barding, military saddle, saddlebags, 259 gp
+**Combat Gear** _potions of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_ (2), _potion of [heroism](spells/heroism.md#_heroism)_, cold iron arrows (10), silver arrows (10); **Other Gear** masterwork full plate, masterwork heavy steel shield, _+1 lance_, masterwork composite shortbow (+3 Str) with 40 arrows, masterwork heavy pick, bit and bridle, heavy horse (combat trained), masterwork chainmail barding, military saddle, saddlebags, 259 gp
 
 A cavalry soldier mixes the elven devotion to the natural world with a human's skill at armored combat. She devotes herself to a career in the military, the elven blood in her veins giving her the time and patience needed to reach the highest pay grade for a non-officer. She is content to remain at her current rank until she dies or retires, for she took this job because of her love of horses and battle. She respects discipline, and if she weren't in the army, she probably would form her own mercenary company just so she could train others in horsemanship, battle tactics, and skill-at-arms.
 
@@ -488,13 +488,13 @@ Statistics
 
 **Base Atk** +10; **CMB** +12; **CMD** 27
 
-**Feats** Dazzling Display, [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Toughness](/pathfinderRPG/prd/feats.html#_toughness), Two-Weapon Defense, [Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_two-weapon-fighting), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (short sword)
+**Feats** Dazzling Display, [Dodge](feats.md#_dodge), [Toughness](feats.md#_toughness), Two-Weapon Defense, [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Focus](feats.md#_weapon-focus) (short sword)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +12, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +8, Perception +4, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +9
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +12, [Intimidate](skills/intimidate.md#_intimidate) +8, Perception +4, [Sense Motive](skills/senseMotive.md#_sense-motive) +9
 
 **Languages** Common
 
-**Combat Gear** _potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _potion of [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_; **Other Gear** studded leather, _+1 short sword_, darts (10), net, masterwork light mace, trident, _ [belt of giant strength](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength) +2_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, antitoxin, 240 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [heroism](spells/heroism.md#_heroism)_; **Other Gear** studded leather, _+1 short sword_, darts (10), net, masterwork light mace, trident, _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, antitoxin, 240 gp
 
 The gladiator champion rose up from hopeless slavery to great fame, winning match after match with luck, skill, and the approval of the crowd. He has defeated single opponents and dozens of warriors at once, fought tigers and strange beasts, and even battled a minotaur and things that have no name in any human tongue.
 

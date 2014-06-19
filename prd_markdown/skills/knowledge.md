@@ -58,7 +58,7 @@ You can use this skill to identify monsters and their special powers or vulnerab
 | Recognize an obscure deity's symbol or clergy | Religion | 20 |
 | Identify a monster's abilities and weaknesses | Varies | 10 + monster's CR |
 
-**Action** : Usually none. In most cases, a Knowledge check doesn't take an action (but see âUntrained,â below).
+**Action** : Usually none. In most cases, a Knowledge check doesn't take an action (but see “Untrained,” below).
 
 **Try Again** : No. The check represents what you know, and thinking about a topic a second time doesn't let you know something that you never learned in the first place.
 

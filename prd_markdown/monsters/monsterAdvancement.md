@@ -6,15 +6,15 @@ The following rules allow you to adjust monsters, increasing (or even decreasing
 
 A template is a set of rules that you apply to a monster to transform it into a different monster. All templates give precise directions on how to change a monster's statistics to transform it into the new monster.
 
-**Acquired Templates** : Some templates, like the lich, are the results of a creature's choice and desire to transform. Others, like the ghost template, are the result of an external force acting upon a creature (for example, when a tormented person dies and becomes a ghost). Yet in both cases, the template changed a creature well after its birth or creation—these types are called âacquired templates,â and can be added to a creature at any time during its existance.
+**Acquired Templates** : Some templates, like the lich, are the results of a creature's choice and desire to transform. Others, like the ghost template, are the result of an external force acting upon a creature (for example, when a tormented person dies and becomes a ghost). Yet in both cases, the template changed a creature well after its birth or creation—these types are called “acquired templates,” and can be added to a creature at any time during its existance.
 
-**Inherited Templates** : Some templates, such as the half-dragon and half-fiend templates, are part of a creature from the beginning of its existence. Creatures are born or created with these templates already in place, and have never known life without them. These types of templates are called âinherited templates.â
+**Inherited Templates** : Some templates, such as the half-dragon and half-fiend templates, are part of a creature from the beginning of its existence. Creatures are born or created with these templates already in place, and have never known life without them. These types of templates are called “inherited templates.”
 
 # Simple Templates
 
 Simple templates can be applied during the game with minimal effort. This makes it easy, for example, to deal with celestial and fiendish creatures conjured in the heat of battle by _summon monster_ spells.
 
-All simple templates have two categories of changes. The âquick rulesâ present a fast way to modify die rolls made in play to simulate the template's effects without actually rebuilding the stat block—this method works great for summoned creatures. The ârebuild rulesâ list the exact changes you make to the base stat block if you have the time to completely rebuild it—this method works best when you have time during game preparation to build full stat blocks. The two methods result in creatures of similar, if not identical, abilities. In some cases, a complete rebuild does unusual things to a creature. For example, the advanced creature template gives and animal too much Intelligence, and a young incorporeal creature is tougher than a normal one.
+All simple templates have two categories of changes. The “quick rules” present a fast way to modify die rolls made in play to simulate the template's effects without actually rebuilding the stat block—this method works great for summoned creatures. The “rebuild rules” list the exact changes you make to the base stat block if you have the time to completely rebuild it—this method works best when you have time during game preparation to build full stat blocks. The two methods result in creatures of similar, if not identical, abilities. In some cases, a complete rebuild does unusual things to a creature. For example, the advanced creature template gives and animal too much Intelligence, and a young incorporeal creature is tougher than a normal one.
 
 ## Advanced Creature (CR +1)
 
@@ -26,7 +26,7 @@ Creatures with the advanced template are fiercer and more powerful than their or
 
 ## Celestial Creature (CR +0 or +1)
 
-Celestial creatures dwell in the higher planes, but can be summoned using spells such as _summon monster_ and _ [planar ally](../spells/planarAlly.html#_planar-ally)_. A celestial creature's CR increases by +1 only if the base creature has 5 or more HD. A celestial creature's quick and rebuild rules are the same.
+Celestial creatures dwell in the higher planes, but can be summoned using spells such as _summon monster_ and _ [planar ally](../spells/planarAlly.md#_planar-ally)_. A celestial creature's CR increases by +1 only if the base creature has 5 or more HD. A celestial creature's quick and rebuild rules are the same.
 
 **Rebuild Rules** : **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite evil 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against evil foes; smite persists until target is dead or the celestial creature rests).
 
@@ -39,7 +39,7 @@ Celestial creatures dwell in the higher planes, but can be summoned using spells
 
 ## Entropic Creature (CR +0 or +1)
 
-Creatures with the entropic template live in planes where chaos is paramount. They can be summoned using spells such as [_summon monster_](../advanced/baseClasses/summoner.html#_summon-monster-i) and _ [planar ally](../spells/planarAlly.html#_planar-ally)_. An entropic creature's CR increases by +1 only if the base creature has 5 or more HD. An entropic creature's quick and rebuild rules are the same.
+Creatures with the entropic template live in planes where chaos is paramount. They can be summoned using spells such as [_summon monster_](../advanced/baseClasses/summoner.md#_summon-monster-i) and _ [planar ally](../spells/planarAlly.md#_planar-ally)_. An entropic creature's CR increases by +1 only if the base creature has 5 or more HD. An entropic creature's quick and rebuild rules are the same.
 
 **Rebuild Rules** : **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite law 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against lawful foes; smite persists until the target is dead or the entropic creature rests).
 
@@ -52,7 +52,7 @@ Creatures with the entropic template live in planes where chaos is paramount. Th
 
 ## Fiendish Creature (CR +0 or +1)
 
-Creatures with the fiendish template live in the Lower Planes, such as the Abyss and Hell, but can be summoned using spells such as _summon monster_ and _ [planar ally](../spells/planarAlly.html#_planar-ally)_. A fiendish creature's CR increases by +1 only if the base creature has 5 or more HD. A fiendish creature's quick and rebuild rules are the same.
+Creatures with the fiendish template live in the Lower Planes, such as the Abyss and Hell, but can be summoned using spells such as _summon monster_ and _ [planar ally](../spells/planarAlly.md#_planar-ally)_. A fiendish creature's CR increases by +1 only if the base creature has 5 or more HD. A fiendish creature's quick and rebuild rules are the same.
 
 **Rebuild Rules** : **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite good 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against good foes; smite persists until target is dead or the fiendish creature rests).
 
@@ -73,7 +73,7 @@ Creatures with the giant template are larger and stronger than their normal-size
 
 ## Resolute Creature (CR +0 or +1)
 
-Creatures with the resolute template live in planes where law is paramount. They can be summoned using spells such as [_summon monster_](../advanced/baseClasses/summoner.html#_summon-monster-i) and _ [planar ally](../spells/planarAlly.html#_planar-ally)_. A resolute creature's CR increases by +1 only if the base creature has 5 or more HD. A resolute creature's quick and rebuild rules are the same.
+Creatures with the resolute template live in planes where law is paramount. They can be summoned using spells such as [_summon monster_](../advanced/baseClasses/summoner.md#_summon-monster-i) and _ [planar ally](../spells/planarAlly.md#_planar-ally)_. A resolute creature's CR increases by +1 only if the base creature has 5 or more HD. A resolute creature's quick and rebuild rules are the same.
 
 **Rebuild Rules** : **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite chaos 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against chaotic foes; smite persists until target is dead or the resolute creature rests).
 
@@ -162,7 +162,7 @@ Once you have determined the number of additional Hit Dice possessed by the crea
 
 ## Step 4: Skills and Feats
 
-When adding skills, check to see if the creature's Int modifier changed. If it is unchanged, simply multiply the total number of ranks per Hit Dice gained by a monster of its type times the total number of added Hit Dice and add that number of ranks to its existing skills. If its Intelligence modifier has increased, perform the same calculation as if it had not increased and then multiply the change in its Intelligence modifier times its new total number of Hit Dice and add that number of additional ranks as well (adding new skills as needed to spend all of the ranks). If the creature changed size, make sure to adjust its [Fly](../skills/fly.html#_fly) skill and [Stealth](../skills/stealth.html#_stealth) skill bonuses (if any) as noted on Table: Size Bonuses and Penalties.
+When adding skills, check to see if the creature's Int modifier changed. If it is unchanged, simply multiply the total number of ranks per Hit Dice gained by a monster of its type times the total number of added Hit Dice and add that number of ranks to its existing skills. If its Intelligence modifier has increased, perform the same calculation as if it had not increased and then multiply the change in its Intelligence modifier times its new total number of Hit Dice and add that number of additional ranks as well (adding new skills as needed to spend all of the ranks). If the creature changed size, make sure to adjust its [Fly](../skills/fly.md#_fly) skill and [Stealth](../skills/stealth.md#_stealth) skill bonuses (if any) as noted on Table: Size Bonuses and Penalties.
 
 Next, give the creature additional feats. Creatures gain one feat at 1 Hit Die and one additional feat for every 2 Hit Dice above 1. Most additional feats should be focused on increasing the creature's combat abilities, but metamagic feats and skill feats are also possible choices depending on the creature's role.
 
@@ -190,7 +190,7 @@ Most animals, constructs, dragons, humanoids, magical beasts, monstrous humanoid
 
 Most dragons and outsiders fall into this role, but any creature that has a list of spells prepared or spells known likely falls under this heading as well.
 
-**Skill** : Creatures of this type rely on skills (usually [Stealth](../skills/stealth.html#_stealth)) to ambush or take down their prey. This also includes creatures who take advantage of the environment or spells, such as fog or _ [invisibility](../spells/invisibility.html#_invisibility)_.
+**Skill** : Creatures of this type rely on skills (usually [Stealth](../skills/stealth.md#_stealth)) to ambush or take down their prey. This also includes creatures who take advantage of the environment or spells, such as fog or _ [invisibility](../spells/invisibility.md#_invisibility)_.
 
 Some aberrations, fey, magical beasts, monstrous humanoids, and outsiders fall into this role.
 
@@ -218,5 +218,5 @@ A monster with class levels always possesses treasure equal to an NPC of a level
 
 Determining the final CR for a creature with class levels requires careful consideration. While adding a class level to a monster that stacks with its existing abilities and role generally adds 1 to its CR for each level taken, adding classes that do not stack is more complicated.
 
-Table: Monsters with Class Levels gives general guidelines regarding which core classes add directly to a monster's abilities based on its role. Classes that are marked âkeyâ generally add 1 to a creature's CR for each level added. Classes marked with a â—â increase a creature's CR by 1 for every 2 class levels added until the number of levels added are equal to (or exceed) the creature's original CR, at which point they are treated as âkeyâ levels (adding 1 to the creature's CR for each level added). Creatures that fall into multiple roles treat a class as key if either of its roles treat the class as key. Note that levels in NPC classes are never considered key.
+Table: Monsters with Class Levels gives general guidelines regarding which core classes add directly to a monster's abilities based on its role. Classes that are marked “key” generally add 1 to a creature's CR for each level added. Classes marked with a “—” increase a creature's CR by 1 for every 2 class levels added until the number of levels added are equal to (or exceed) the creature's original CR, at which point they are treated as “key” levels (adding 1 to the creature's CR for each level added). Creatures that fall into multiple roles treat a class as key if either of its roles treat the class as key. Note that levels in NPC classes are never considered key.
 

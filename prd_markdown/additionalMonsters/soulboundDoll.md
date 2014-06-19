@@ -6,9 +6,9 @@ Soulbound DollCR 2
 
 **XP 600**
 
-N (but see below) Tiny [construct](/pathfinderRPG/prd/monsters/creatureTypes.html#_construct)
+N (but see below) Tiny [construct](monsters/creatureTypes.md#_construct)
 
-**Init** +6; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +3
+**Init** +6; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +3
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +1, **Ref** +3, **Will** +1
 
-**DR** 2/magic; **Immune** [construct](/pathfinderRPG/prd/monsters/creatureTypes.html#_construct) traits
+**DR** 2/magic; **Immune** [construct](monsters/creatureTypes.md#_construct) traits
 
 **Weaknesses** susceptible to mind-affecting effects
 
@@ -32,17 +32,17 @@ Offense
 
 **Spell-Like Abilities** (CL 3rd, concentration +2)
 
-3/day—_ [light](/pathfinderRPG/prd/additionalMonsters/../spells/light.html#_light)_, _ [mage hand](/pathfinderRPG/prd/additionalMonsters/../spells/mageHand.html#_mage-hand)_, _ [open/close](/pathfinderRPG/prd/additionalMonsters/../spells/openClose.html#_open-close)_, _ [prestidigitation](/pathfinderRPG/prd/additionalMonsters/../spells/prestidigitation.html#_prestidigitation)_
+3/day—_ [light](additionalMonsters/../spells/light.md#_light)_, _ [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand)_, _ [open/close](additionalMonsters/../spells/openClose.md#_open-close)_, _ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_
 
-1/day—_ [levitate](/pathfinderRPG/prd/additionalMonsters/../spells/levitate.html#_levitate)_, one additional ability dependent on alignment
+1/day—_ [levitate](additionalMonsters/../spells/levitate.md#_levitate)_, one additional ability dependent on alignment
 
 **Str** 7, **Dex** 14, **Con** —, **Int** 11, **Wis** 10, **Cha** 9
 
 **Base Atk** +3; **CMB** +3; **CMD** 11
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Toughness](additionalMonsters/../feats.md#_toughness)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +3, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +13
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +3, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +13
 
 **Languages** Common
 
@@ -58,21 +58,21 @@ Ecology
 
 Special Abilities
 
-**Alignment Variation (Ex)** Soulbound dolls are at least partially neutral in alignment, although they can also be [chaotic](/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype), or [lawful](/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype). They have an alignment-dependent spell-like ability usable once per day as listed below.
+**Alignment Variation (Ex)** Soulbound dolls are at least partially neutral in alignment, although they can also be [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [good](monsters/creatureTypes.md#_good-subtype), or [lawful](monsters/creatureTypes.md#_lawful-subtype). They have an alignment-dependent spell-like ability usable once per day as listed below.
 
-_â¢Chaotic Neutral_: _ [rage](/pathfinderRPG/prd/additionalMonsters/../spells/rage.html#_rage)_
+_•Chaotic Neutral_: _ [rage](additionalMonsters/../spells/rage.md#_rage)_
 
-_â¢Lawful Neutral_: _ [suggestion](/pathfinderRPG/prd/additionalMonsters/../spells/suggestion.html#_suggestion)_ (DC 12)
+_•Lawful Neutral_: _ [suggestion](additionalMonsters/../spells/suggestion.md#_suggestion)_ (DC 12)
 
-_â¢Neutral_: _ [deep slumber](/pathfinderRPG/prd/additionalMonsters/../spells/deepSlumber.html#_deep-slumber)_ (DC 12)
+_•Neutral_: _ [deep slumber](additionalMonsters/../spells/deepSlumber.md#_deep-slumber)_ (DC 12)
 
-_â¢Neutral Evil_: _ [inflict serious wounds](/pathfinderRPG/prd/additionalMonsters/../spells/inflictSeriousWounds.html#_inflict-serious-wounds)_ (DC 12)
+_•Neutral Evil_: _ [inflict serious wounds](additionalMonsters/../spells/inflictSeriousWounds.md#_inflict-serious-wounds)_ (DC 12)
 
-_â¢Neutral Good_: _ [heroism](/pathfinderRPG/prd/additionalMonsters/../spells/heroism.html#_heroism)_
+_•Neutral Good_: _ [heroism](additionalMonsters/../spells/heroism.md#_heroism)_
 
-**Susceptible to Mind-Affecting Effects (Ex)** The weakened conviction of a soulbound doll's soul makes it susceptible to mind-affecting effects, despite the fact that it is a [construct](/pathfinderRPG/prd/monsters/creatureTypes.html#_construct).
+**Susceptible to Mind-Affecting Effects (Ex)** The weakened conviction of a soulbound doll's soul makes it susceptible to mind-affecting effects, despite the fact that it is a [construct](monsters/creatureTypes.md#_construct).
 
-**Soul Focus (Su)** The soul bound to the doll lives within a focus integrated into the doll or its apparel, typically one of the doll's eyes or a gem embedded into its neck or chest. As long as this soul focus remains intact, it can be used to animate another doll, using the same cost as creating a new [construct](/pathfinderRPG/prd/monsters/creatureTypes.html#_construct). Once bound into the soul focus, the soul continues to learn, and so if later it is put into a new doll body, the soul retains its personality and memories from its previous body or bodies. A soul focus has hardness 8, 12 hit points, and a break DC of 20.
+**Soul Focus (Su)** The soul bound to the doll lives within a focus integrated into the doll or its apparel, typically one of the doll's eyes or a gem embedded into its neck or chest. As long as this soul focus remains intact, it can be used to animate another doll, using the same cost as creating a new [construct](monsters/creatureTypes.md#_construct). Once bound into the soul focus, the soul continues to learn, and so if later it is put into a new doll body, the soul retains its personality and memories from its previous body or bodies. A soul focus has hardness 8, 12 hit points, and a break DC of 20.
 
 These small, sentient dolls contain a fragment of another creature's soul. The binding process strips most of the individuality from the soul, making a new soulbound doll an almost blank slate. Despite this process, fragments of the original creature's personality remain.
 
@@ -88,5 +88,5 @@ Soulbound Doll
 
 Construction
 
-**Requirements** [Craft Construct](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_craft-construct), _ [false life](/pathfinderRPG/prd/additionalMonsters/../spells/falseLife.html#_false-life)_, _ [lesser geas](/pathfinderRPG/prd/additionalMonsters/../spells/geasQuest.html#_geas-lesser)_, _ [magic jar](/pathfinderRPG/prd/additionalMonsters/../spells/magicJar.html#_magic-jar)_, _ [minor creation](/pathfinderRPG/prd/additionalMonsters/../spells/minorCreation.html#_minor-creation)_, soul of a living creature who dies or is slain during the creation process; Skill [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (sculptures); **Cost** 2,300 gp.
+**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats.md#_craft-construct), _ [false life](additionalMonsters/../spells/falseLife.md#_false-life)_, _ [lesser geas](additionalMonsters/../spells/geasQuest.md#_geas-lesser)_, _ [magic jar](additionalMonsters/../spells/magicJar.md#_magic-jar)_, _ [minor creation](additionalMonsters/../spells/minorCreation.md#_minor-creation)_, soul of a living creature who dies or is slain during the creation process; Skill [Craft](additionalMonsters/../skills/craft.md#_craft) (sculptures); **Cost** 2,300 gp.
 

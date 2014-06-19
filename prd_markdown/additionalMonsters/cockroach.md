@@ -6,9 +6,9 @@ Giant CockroachCR 1/2
 
 **XP 200**
 
-N Small [vermin](/pathfinderRPG/prd/monsters/creatureTypes.html#_vermin)
+N Small [vermin](monsters/creatureTypes.md#_vermin)
 
-**Init** +1; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4
+**Init** +1; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +4
 
 Defense
 
@@ -32,11 +32,11 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 10
 
-**Feats** [Diehard](/pathfinderRPG/prd/additionalMonsters/../feats.html#_diehard)B, [Endurance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_endurance)B
+**Feats** [Diehard](additionalMonsters/../feats.md#_diehard)B, [Endurance](additionalMonsters/../feats.md#_endurance)B
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +8, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) –1, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +9; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +8, [Fly](additionalMonsters/../skills/fly.md#_fly) –1, [Perception](additionalMonsters/../skills/perception.md#_perception) +4, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +9; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
 
-**SQ** [hold breath](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_hold-breath)
+**SQ** [hold breath](monsters/universalMonsterRules.md#_hold-breath)
 
 Ecology
 
@@ -70,9 +70,9 @@ Cockroach SwarmCR 2
 
 **XP 600**
 
-N Diminutive [vermin](/pathfinderRPG/prd/monsters/creatureTypes.html#_vermin) ( [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype))
+N Diminutive [vermin](monsters/creatureTypes.md#_vermin) ( [swarm](monsters/creatureTypes.md#_swarm-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft., tremorsense 30 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4
+**Init** +2; **Senses** darkvision 60 ft., tremorsense 30 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +4
 
 Defense
 
@@ -82,19 +82,19 @@ Defense
 
 **Fort** +6, **Ref** +3, **Will** +1
 
-**Defensive Abilities** [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) traits, **Immune** weapon damage
+**Defensive Abilities** [swarm](monsters/creatureTypes.md#_swarm-subtype) traits, **Immune** weapon damage
 
-**Weaknesses** light sensitivity, [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) traits
+**Weaknesses** light sensitivity, [swarm](monsters/creatureTypes.md#_swarm-subtype) traits
 
 Offense
 
 **Speed** 20 ft., climb 20 ft., fly 30 ft. (poor)
 
-**Melee** [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) (1d6)
+**Melee** [swarm](monsters/creatureTypes.md#_swarm-subtype) (1d6)
 
 **Space** 10 ft.; **Reach** 0 ft.
 
-**Special Attacks** [distraction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_distraction) (DC 14)
+**Special Attacks** [distraction](monsters/universalMonsterRules.md#_distraction) (DC 14)
 
 Statistics
 
@@ -102,9 +102,9 @@ Statistics
 
 **Base Atk** +3; **CMB** —; **CMD** —
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +10, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +4, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +14; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +10, [Fly](additionalMonsters/../skills/fly.md#_fly) +4, [Perception](additionalMonsters/../skills/perception.md#_perception) +4, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +14; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
 
-**SQ** [hold breath](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_hold-breath)
+**SQ** [hold breath](monsters/universalMonsterRules.md#_hold-breath)
 
 Ecology
 

@@ -12,7 +12,7 @@
 
 **Duration** 1 round/level or 1 round; see text for _cause fear_
 
-**Saving Throw** [Will](../combat.html#_will) partial; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Will](../combat.md#_will) partial; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
-This spell functions like _cause fear, _except that it causes all targeted creatures of less than 6 HD to become [frightened](../glossary.html#_frightened).
+This spell functions like _cause fear, _except that it causes all targeted creatures of less than 6 HD to become [frightened](../glossary.md#_frightened).
 

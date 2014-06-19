@@ -6,9 +6,9 @@ This horrifying creature has the upper body of a beautiful woman, but a lower bo
 
 **XP 76,800**
 
-CE Huge [aberration](/pathfinderRPG/prd/monsters/creatureTypes.html#_aberration) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+CE Huge [aberration](monsters/creatureTypes.md#_aberration) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +11; **Senses** [all-around vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision), [blindsight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight) 30 ft., darkvision 60 ft., low-light vision, _ [see invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/seeInvisibility.html#_see-invisibility)_; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +29
+**Init** +11; **Senses** [all-around vision](monsters/universalMonsterRules.md#_all-around-vision), [blindsight](monsters/universalMonsterRules.md#_blindsight) 30 ft., darkvision 60 ft., low-light vision, _ [see invisibility](additionalMonsters/../spells/seeInvisibility.md#_see-invisibility)_; [Perception](additionalMonsters/../skills/perception.md#_perception) +29
 
 **Aura** frightful presence (30 ft., DC 26),
 
@@ -20,27 +20,27 @@ Defense
 
 **Fort** +14, **Ref** +17, **Will** +18
 
-**Defensive Abilities** _ [freedom of movement](/pathfinderRPG/prd/additionalMonsters/../spells/freedomOfMovement.html#_freedom-of-movement)_, improved evasion; **DR** 10/cold iron and [lawful](/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype); **Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), charm effects, confusion and insanity effects; **Resist** acid 20, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 20; **SR** 27
+**Defensive Abilities** _ [freedom of movement](additionalMonsters/../spells/freedomOfMovement.md#_freedom-of-movement)_, improved evasion; **DR** 10/cold iron and [lawful](monsters/creatureTypes.md#_lawful-subtype); **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), charm effects, confusion and insanity effects; **Resist** acid 20, [fire](monsters/creatureTypes.md#_fire-subtype) 20; **SR** 27
 
 Offense
 
 **Speed** 30 ft., swim 50 ft.
 
-**Melee** 4 bites +25 (1d8+8/19–20 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed)), 4 tentacles +23 (1d6+4 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** 4 bites +25 (1d8+8/19–20 plus [bleed](monsters/universalMonsterRules.md#_bleed)), 4 tentacles +23 (1d6+4 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) (1d6), [constrict](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict) (1d6+8)
+**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d6), [constrict](monsters/universalMonsterRules.md#_constrict) (1d6+8)
 
 **Spell-Like Abilities** (CL 16th; concentration +22)
 
-Constant—_ [freedom of movement](/pathfinderRPG/prd/additionalMonsters/../spells/freedomOfMovement.html#_freedom-of-movement)_, _ [nondetection](/pathfinderRPG/prd/additionalMonsters/../spells/nondetection.html#_nondetection)_, _ [see invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/seeInvisibility.html#_see-invisibility)_
+Constant—_ [freedom of movement](additionalMonsters/../spells/freedomOfMovement.md#_freedom-of-movement)_, _ [nondetection](additionalMonsters/../spells/nondetection.md#_nondetection)_, _ [see invisibility](additionalMonsters/../spells/seeInvisibility.md#_see-invisibility)_
 
-At will—_ [acid arrow](/pathfinderRPG/prd/additionalMonsters/../spells/acidArrow.html#_acid-arrow)_, _ [control water](/pathfinderRPG/prd/additionalMonsters/../spells/controlWater.html#_control-water)_, _ [fog cloud](/pathfinderRPG/prd/additionalMonsters/../spells/fogCloud.html)_, _ [greater dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic-greater)_, _ [major image](/pathfinderRPG/prd/additionalMonsters/../spells/majorImage.html#_major-image)_ (DC 19)
+At will—_ [acid arrow](additionalMonsters/../spells/acidArrow.md#_acid-arrow)_, _ [control water](additionalMonsters/../spells/controlWater.md#_control-water)_, _ [fog cloud](additionalMonsters/../spells/fogCloud.md)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_, _ [major image](additionalMonsters/../spells/majorImage.md#_major-image)_ (DC 19)
 
-3/day—_ [black tentacles](/pathfinderRPG/prd/additionalMonsters/../spells/blackTentacles.html#_black-tentacles)_, _ [charm monster](/pathfinderRPG/prd/additionalMonsters/../spells/charmMonster.html#_charm-monster)_ (DC 20), _ [insanity](/pathfinderRPG/prd/additionalMonsters/../spells/insanity.html#_insanity)_ (DC 23), _ [mirage arcana](/pathfinderRPG/prd/additionalMonsters/../spells/mirageArcana.html#_mirage-arcana)_ (DC 21), _ [solid fog](/pathfinderRPG/prd/additionalMonsters/../spells/solidFog.html#_solid-fog)_
+3/day—_ [black tentacles](additionalMonsters/../spells/blackTentacles.md#_black-tentacles)_, _ [charm monster](additionalMonsters/../spells/charmMonster.md#_charm-monster)_ (DC 20), _ [insanity](additionalMonsters/../spells/insanity.md#_insanity)_ (DC 23), _ [mirage arcana](additionalMonsters/../spells/mirageArcana.md#_mirage-arcana)_ (DC 21), _ [solid fog](additionalMonsters/../spells/solidFog.md#_solid-fog)_
 
-1/day—_ [control weather](/pathfinderRPG/prd/additionalMonsters/../spells/controlWeather.html#_control-weather)_, _ [power word stun](/pathfinderRPG/prd/additionalMonsters/../spells/powerWordStun.html#_power-word-stun)_, _ [project image](/pathfinderRPG/prd/additionalMonsters/../spells/projectImage.html#_project-image)_ (DC 23), summon (level 8, 1 charybdis)
+1/day—_ [control weather](additionalMonsters/../spells/controlWeather.md#_control-weather)_, _ [power word stun](additionalMonsters/../spells/powerWordStun.md#_power-word-stun)_, _ [project image](additionalMonsters/../spells/projectImage.md#_project-image)_ (DC 23), summon (level 8, 1 charybdis)
 
 Statistics
 
@@ -48,13 +48,13 @@ Statistics
 
 **Base Atk** +15; **CMB** +25 (+29 grapple); **CMD** 47 (can't be tripped)
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes), [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (bite), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (tentacles)
+**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Dodge](additionalMonsters/../feats.md#_dodge), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Mobility](additionalMonsters/../feats.md#_mobility), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Vital Strike](additionalMonsters/../feats.md#_vital-strike), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (tentacles)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +34, [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +26, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (nature) +25, Intimidate +29, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +29, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +26, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +26, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +39, [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) +26
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +34, [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +26, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (nature) +25, Intimidate +29, [Perception](additionalMonsters/../skills/perception.md#_perception) +29, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +26, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +26, [Swim](additionalMonsters/../skills/swim.md#_swim) +39, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +26
 
 **Languages** Abyssal, Aquan, Common
 
-**SQ** amphibious, [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (1 [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid) form, _ [alter self](/pathfinderRPG/prd/additionalMonsters/../spells/alterSelf.html#_alter-self)_), [undersized weapons](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_undersized-weapons)
+**SQ** amphibious, [change shape](monsters/universalMonsterRules.md#_change-shape) (1 [humanoid](monsters/creatureTypes.md#_humanoid) form, _ [alter self](additionalMonsters/../spells/alterSelf.md#_alter-self)_), [undersized weapons](monsters/universalMonsterRules.md#_undersized-weapons)
 
 Ecology
 

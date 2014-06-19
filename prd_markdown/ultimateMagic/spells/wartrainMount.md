@@ -14,5 +14,5 @@ Wartrain Mount
 
 **Saving Throw** none; **Spell Resistance** yes
 
-You instill the target animal with the combat training general purpose (see the [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) skill). This supersedes the animal's previous trained purpose and any tricks it knows. When the spell ends, it reverts to its previous trained purpose and known tricks.
+You instill the target animal with the combat training general purpose (see the [Handle Animal](skills/handleAnimal.md#_handle-animal) skill). This supersedes the animal's previous trained purpose and any tricks it knows. When the spell ends, it reverts to its previous trained purpose and known tricks.
 

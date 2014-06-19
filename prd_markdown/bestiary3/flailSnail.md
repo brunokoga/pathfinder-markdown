@@ -8,7 +8,7 @@ XP 1,200
 
 N Large magical beast
 
-**Init** –1; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 30 ft., darkvision 60 ft., low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent), tremorsense 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
+**Init** –1; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 30 ft., darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent), tremorsense 60 ft.; [Perception](skills/perception.md#_perception) +5
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +6, **Ref** +3, **Will** +2
 
-**Defensive Abilities** retraction, warp magic; **Immune** [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10
+**Defensive Abilities** retraction, warp magic; **Immune** [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** [fire](monsters/creatureTypes.md#_fire-subtype) 10
 
 Offense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +8; **CMD** 17 (can't be tripped)
 
-**Feats** [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (slam)
+**Feats** [Power Attack](feats.md#_power-attack), [Weapon Focus](feats.md#_weapon-focus) (slam)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +15, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +0
+**Skills** [Climb](skills/climb.md#_climb) +15, [Perception](skills/perception.md#_perception) +5, [Stealth](skills/stealth.md#_stealth) +0
 
 **Languages** Flail Snail (sign language, slime writing, cannot speak)
 
@@ -52,11 +52,11 @@ Ecology
 
 Special Abilities
 
-**Mucus (Ex)** As a free action, a flail snail can excrete a trail of mucus that covers its space and lasts for 10 minutes. This mucus comes in two types: slimy and sticky. A character who attempts to move through an area covered in slippery mucus must make a DC 14 Reflex save each round or fall prone. Sticky mucus transforms squares into difficult terrain. Only one type of mucus can be in effect at a time in any one square. Flail snails can move through either type of slime with ease. A square of mucus exposed to a [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) source dries and reverts to normal. The save DC is Constitution-based.
+**Mucus (Ex)** As a free action, a flail snail can excrete a trail of mucus that covers its space and lasts for 10 minutes. This mucus comes in two types: slimy and sticky. A character who attempts to move through an area covered in slippery mucus must make a DC 14 Reflex save each round or fall prone. Sticky mucus transforms squares into difficult terrain. Only one type of mucus can be in effect at a time in any one square. Flail snails can move through either type of slime with ease. A square of mucus exposed to a [fire](monsters/creatureTypes.md#_fire-subtype) source dries and reverts to normal. The save DC is Constitution-based.
 
 **Retraction (Ex)** A flail snail can pull its fleshy parts into its shell as a swift action, increasing its natural armor bonus by +6, but it cannot move or attack while retracted. It can return to normal as a free action.
 
-**Slime Rope (Ex)** A flail snail can turn its mucus into a ropelike strand up to 60 feet long, and can use this rope to hang itself and up to 1,000 extra pounds from the ceiling indefinitely, or to lower itself safely at a speed of 20 feet per round. It can climb back up this rope at a speed of 10 feet per round. Once the snail breaks contact with the rope, the slime decomposes in 1d4 rounds. While the slime rope exists, other creatures can climb the rope with a DC 20 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) check.
+**Slime Rope (Ex)** A flail snail can turn its mucus into a ropelike strand up to 60 feet long, and can use this rope to hang itself and up to 1,000 extra pounds from the ceiling indefinitely, or to lower itself safely at a speed of 20 feet per round. It can climb back up this rope at a speed of 10 feet per round. Once the snail breaks contact with the rope, the slime decomposes in 1d4 rounds. While the slime rope exists, other creatures can climb the rope with a DC 20 [Climb](skills/climb.md#_climb) check.
 
 **Suction (Ex)** A flail snail's foot adheres to surfaces so well that its 10-foot climb speed applies even to perfectly sheer surfaces and ceilings, with no chance of the flail snail falling off unless it is actively pinned and peeled away as part of a grapple.
 
@@ -68,7 +68,7 @@ Special Abilities
 | 1–3 | Spell misfires. For the next 1d4 rounds, the caster must make a DC 15 concentration check to successfully cast spells. |
 | 4–6 | Spell misfires. The creature nearest the flail snail is affected as if the spell had been cast on it instead. |
 | 7–9 | Spell fails. Nothing happens. |
-| 10 | Spell rebounds on caster (as _ [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_). |
+| 10 | Spell rebounds on caster (as _ [spell turning](spells/spellTurning.md#_spell-turning)_). |
 
 Flail snails are intelligent gastropods that subsist on fungus, mold, and vermin, though they may attack larger creatures in self-defense. Known for their magic-warping shells and club-like tentacles, flail snails roam slowly through subterranean caverns writing great epics in their slime trails.
 

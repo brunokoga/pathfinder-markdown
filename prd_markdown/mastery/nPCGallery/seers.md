@@ -10,7 +10,7 @@ Human adept 3
 
 N Medium humanoid
 
-**Init** –1; **Senses** [Perception](../../skills/perception.html#_perception) +5
+**Init** –1; **Senses** [Perception](../../skills/perception.md#_perception) +5
 
 **Defense**
 
@@ -30,9 +30,9 @@ N Medium humanoid
 
 **Adept Spells Prepared** (CL 3rd; concentration +5)
 
-1st—_ [bless](../../spells/bless.html#_bless)_, _ [burning hands](../../spells/burningHands.html#_burning-hands)_ (DC 13), _ [obscuring mist](../../spells/obscuringMist.html#_obscuring-mist)_
+1st—_ [bless](../../spells/bless.md#_bless)_, _ [burning hands](../../spells/burningHands.md#_burning-hands)_ (DC 13), _ [obscuring mist](../../spells/obscuringMist.md#_obscuring-mist)_
 
-0—_ [ghost sound](../../spells/ghostSound.html#_ghost-sound)_ (DC 12), _ [guidance](../../spells/guidance.html#_guidance)_, _ [touch of fatigue](../../spells/touchOfFatigue.html#_touch-of-fatigue)_ (DC 12)
+0—_ [ghost sound](../../spells/ghostSound.md#_ghost-sound)_ (DC 12), _ [guidance](../../spells/guidance.md#_guidance)_, _ [touch of fatigue](../../spells/touchOfFatigue.md#_touch-of-fatigue)_ (DC 12)
 
 **Statistics**
 
@@ -40,23 +40,23 @@ N Medium humanoid
 
 **Base Atk** +1; **CMB** +1; **CMD** 10
 
-**Feats** [Persuasive](../../feats.html#_persuasive), [Scribe Scroll](../../feats.html#_scribe-scroll), [Skill Focus](../../feats.html#_skill-focus) ( [Intimidate](../../skills/intimidate.html#_intimidate))
+**Feats** [Persuasive](../../feats.md#_persuasive), [Scribe Scroll](../../feats.md#_scribe-scroll), [Skill Focus](../../feats.md#_skill-focus) ( [Intimidate](../../skills/intimidate.md#_intimidate))
 
-**Skills** [Diplomacy](../../skills/diplomacy.html#_diplomacy) +4, [Heal](../../skills/heal.html#_heal) +6, [Intimidate](../../skills/intimidate.html#_intimidate) +7, [Knowledge](../../skills/knowledge.html#_knowledge) (religion) +3, [Perception](../../skills/perception.html#_perception) +5, [Perform](../../skills/perform.html#_perform) (oratory) +2, [Profession](../../skills/profession.html#_profession) (scribe) +6, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +4, [Spellcraft](../../skills/spellcraft.html#_spellcraft) +3, [Survival](../../skills/survival.html#_survival) +6
+**Skills** [Diplomacy](../../skills/diplomacy.md#_diplomacy) +4, [Heal](../../skills/heal.md#_heal) +6, [Intimidate](../../skills/intimidate.md#_intimidate) +7, [Knowledge](../../skills/knowledge.md#_knowledge) (religion) +3, [Perception](../../skills/perception.md#_perception) +5, [Perform](../../skills/perform.md#_perform) (oratory) +2, [Profession](../../skills/profession.md#_profession) (scribe) +6, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +4, [Spellcraft](../../skills/spellcraft.md#_spellcraft) +3, [Survival](../../skills/survival.md#_survival) +6
 
 **Languages** Common
 
 **SQ** summon familiar (toad)
 
-**Combat Gear** _scrolls of [cause fear](../../spells/causeFear.html#_cause-fear)_ (4), _ [command](../../spells/command.html#_command) _(4), _ [cure light wounds](../../spells/cureLightWounds.html#_cure-light-wounds)_ (4), _ [sleep](../../spells/sleep.html#_sleep) _(4); **Other Gear** leather armor, sickle, darts (4)
+**Combat Gear** _scrolls of [cause fear](../../spells/causeFear.md#_cause-fear)_ (4), _ [command](../../spells/command.md#_command) _(4), _ [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_ (4), _ [sleep](../../spells/sleep.md#_sleep) _(4); **Other Gear** leather armor, sickle, darts (4)
 
-**Boon** A doomsayer can spread word of the party's fearsome reputation, granting a +2 circumstance bonus on [Intimidate](../../skills/intimidate.html#_intimidate) checks in that community for 1 week. A doomsayer can also scribe scrolls for PCs at a 10% discount.
+**Boon** A doomsayer can spread word of the party's fearsome reputation, granting a +2 circumstance bonus on [Intimidate](../../skills/intimidate.md#_intimidate) checks in that community for 1 week. A doomsayer can also scribe scrolls for PCs at a 10% discount.
 
 Doomsayers are ranting demagogues who continuously predict doom, cataclysm, and ruin, crying in the town square and distributing pamphlets in literate communities. A doomsayer may build up a cult of personality, but they are happiest when they can ensure that others are miserable.
 
-Doomsayers can be used as primitive witch doctors or shamans, dark cultists, witches, or rough frontier âpriestsâ in remote villages or other areas without organized clergy.
+Doomsayers can be used as primitive witch doctors or shamans, dark cultists, witches, or rough frontier “priests” in remote villages or other areas without organized clergy.
 
-A doomsayer often keeps a pair of acolytes or beggars as disciples (CR 3 or 4), or works with a group of three wanderers or cultists (CR 6). A doomsayer might also be apprenticed to a hedge wizard (CR 5), while an urban doomsayer could partner with a gang of four pickpockets (CR 4) who work the crowd that gathers to hear the doomsayer speak. Replacing [Skill Focus](../../feats.html#_skill-focus) ( [Intimidate](../../skills/intimidate.html#_intimidate)) with [Skill Focus](../../feats.html#_skill-focus) ( [Heal](../../skills/heal.html#_heal)) creates a lay healer who might be found with a pilgrim (CR 4).
+A doomsayer often keeps a pair of acolytes or beggars as disciples (CR 3 or 4), or works with a group of three wanderers or cultists (CR 6). A doomsayer might also be apprenticed to a hedge wizard (CR 5), while an urban doomsayer could partner with a gang of four pickpockets (CR 4) who work the crowd that gathers to hear the doomsayer speak. Replacing [Skill Focus](../../feats.md#_skill-focus) ( [Intimidate](../../skills/intimidate.md#_intimidate)) with [Skill Focus](../../feats.md#_skill-focus) ( [Heal](../../skills/heal.md#_heal)) creates a lay healer who might be found with a pilgrim (CR 4).
 
 **Medium CR 4**
 
@@ -66,7 +66,7 @@ Human cleric 5
 
 N Medium humanoid
 
-**Init** +1; **Senses** [Perception](../../skills/perception.html#_perception) +8
+**Init** +1; **Senses** [Perception](../../skills/perception.md#_perception) +8
 
 **Defense**
 
@@ -90,13 +90,13 @@ N Medium humanoid
 
 **Cleric Spells Prepared** (CL 5th; concentration +8)
 
-3rd—_ [bestow curse](../../spells/bestowCurse.html#_bestow-curse) _(DC 16), _ [helping hand](../../spells/helpingHand.html#_helping-hand)_, _ [speak with dead](../../spells/speakWithDead.html#_speak-with-dead)_D
+3rd—_ [bestow curse](../../spells/bestowCurse.md#_bestow-curse) _(DC 16), _ [helping hand](../../spells/helpingHand.md#_helping-hand)_, _ [speak with dead](../../spells/speakWithDead.md#_speak-with-dead)_D
 
-2nd—_ [augury](../../spells/augury.html#_augury)_, _ [gentle repose](../../spells/gentleRepose.html#_gentle-repose)_D, _ [silence](../../spells/silence.html#_silence) _(DC 15), _ [spiritual weapon](../../spells/spiritualWeapon.html#_spiritual-weapon)_
+2nd—_ [augury](../../spells/augury.md#_augury)_, _ [gentle repose](../../spells/gentleRepose.md#_gentle-repose)_D, _ [silence](../../spells/silence.md#_silence) _(DC 15), _ [spiritual weapon](../../spells/spiritualWeapon.md#_spiritual-weapon)_
 
-1st—_ [bless](../../spells/bless.html#_bless)_, _ [command](../../spells/command.html#_command) _(DC 14), _ [comprehend languages](../../spells/comprehendLanguages.html#_comprehend-languages)_, _ [deathwatch](../../spells/deathwatch.html#_deathwatch)_D, _ [sanctuary](../../spells/sanctuary.html#_sanctuary) _(DC 14)
+1st—_ [bless](../../spells/bless.md#_bless)_, _ [command](../../spells/command.md#_command) _(DC 14), _ [comprehend languages](../../spells/comprehendLanguages.md#_comprehend-languages)_, _ [deathwatch](../../spells/deathwatch.md#_deathwatch)_D, _ [sanctuary](../../spells/sanctuary.md#_sanctuary) _(DC 14)
 
-0 (at will)—_ [detect magic](../../spells/detectMagic.html#_detect-magic)_, _ [guidance](../../spells/guidance.html#_guidance)_, _ [light](../../spells/light.html#_light)_, _ [read magic](../../spells/readMagic.html#_read-magic)_
+0 (at will)—_ [detect magic](../../spells/detectMagic.md#_detect-magic)_, _ [guidance](../../spells/guidance.md#_guidance)_, _ [light](../../spells/light.md#_light)_, _ [read magic](../../spells/readMagic.md#_read-magic)_
 
 **D** domain spell; **Domains** Community, Repose
 
@@ -106,15 +106,15 @@ N Medium humanoid
 
 **Base Atk** +3; **CMB** +2; **CMD** 13
 
-**Feats** [Alertness](../../feats.html#_alertness), [Extra Channel](../../feats.html#_extra-channel), [Shield Focus](../../feats.html#_shield-focus), [Turn Undead](../../feats.html#_turn-undead)
+**Feats** [Alertness](../../feats.md#_alertness), [Extra Channel](../../feats.md#_extra-channel), [Shield Focus](../../feats.md#_shield-focus), [Turn Undead](../../feats.md#_turn-undead)
 
-**Skills** [Diplomacy](../../skills/diplomacy.html#_diplomacy) +10, [Heal](../../skills/heal.html#_heal) +11, [Knowledge](../../skills/knowledge.html#_knowledge) (planes) +9, [Knowledge](../../skills/knowledge.html#_knowledge) (religion) +9, [Perception](../../skills/perception.html#_perception) +8, [Profession](../../skills/profession.html#_profession) (midwife) +9, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +13, [Spellcraft](../../skills/spellcraft.html#_spellcraft) +6
+**Skills** [Diplomacy](../../skills/diplomacy.md#_diplomacy) +10, [Heal](../../skills/heal.md#_heal) +11, [Knowledge](../../skills/knowledge.md#_knowledge) (planes) +9, [Knowledge](../../skills/knowledge.md#_knowledge) (religion) +9, [Perception](../../skills/perception.md#_perception) +8, [Profession](../../skills/profession.md#_profession) (midwife) +9, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +13, [Spellcraft](../../skills/spellcraft.md#_spellcraft) +6
 
 **Languages** Celestial, Common, Infernal
 
-**Gear** _+1 chainmail_, heavy wooden shield, light mace, darts (2), _ [cloak of resistance](../../magicItems/wondrousItems.html#_cloak-of-resistance) +1_, silver holy symbol, augury focus
+**Gear** _+1 chainmail_, heavy wooden shield, light mace, darts (2), _ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +1_, silver holy symbol, augury focus
 
-**Boon** A medium can cast _ [augury](../../spells/augury.html#_augury)_, _ [speak with dead](../../spells/speakWithDead.html#_speak-with-dead)_, or _ [gentle repose](../../spells/gentleRepose.html#_gentle-repose)_ at no charge, or magical healing at a 10% discount.
+**Boon** A medium can cast _ [augury](../../spells/augury.md#_augury)_, _ [speak with dead](../../spells/speakWithDead.md#_speak-with-dead)_, or _ [gentle repose](../../spells/gentleRepose.md#_gentle-repose)_ at no charge, or magical healing at a 10% discount.
 
 A medium is a speaker who bridges the worlds of the living and the dead. She proclaims rest and blesses gravesites, ushering in birth and consigning the dead to the ground, yet it is also her seance that recalls the shades of the lost and ensures the continuity of a community's past, present, and future.
 
@@ -130,7 +130,7 @@ Human bard 3/sorcerer 3
 
 CN Medium humanoid
 
-**Init** +1; **Senses** [Perception](../../skills/perception.html#_perception) +5
+**Init** +1; **Senses** [Perception](../../skills/perception.md#_perception) +5
 
 **Defense**
 
@@ -154,15 +154,15 @@ CN Medium humanoid
 
 **Bard Spells Known** (CL 3rd; concentration +7)
 
-1st (4/day)—_ [cure light wounds](../../spells/cureLightWounds.html#_cure-light-wounds)_, _ [hideous laughter](../../spells/hideousLaughter.html#_hideous-laughter) _(DC 17), _ [silent image](../../spells/silentImage.html#_silent-image)_ (DC 15), _ [ventriloquism](../../spells/ventriloquism.html#_ventriloquism) _(DC 15)
+1st (4/day)—_ [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_, _ [hideous laughter](../../spells/hideousLaughter.md#_hideous-laughter) _(DC 17), _ [silent image](../../spells/silentImage.md#_silent-image)_ (DC 15), _ [ventriloquism](../../spells/ventriloquism.md#_ventriloquism) _(DC 15)
 
-0 (at will)—_ [ghost sound](../../spells/ghostSound.html#_ghost-sound)_ (DC 14), _ [know direction](../../spells/knowDirection.html#_know-direction)_, _ [mage hand](../../spells/mageHand.html#_mage-hand)_, _ [message](../../spells/message.html#_message)_, _ [read magic](../../spells/readMagic.html#_read-magic)_, _ [resistance](../../spells/resistance.html#_resistance)_
+0 (at will)—_ [ghost sound](../../spells/ghostSound.md#_ghost-sound)_ (DC 14), _ [know direction](../../spells/knowDirection.md#_know-direction)_, _ [mage hand](../../spells/mageHand.md#_mage-hand)_, _ [message](../../spells/message.md#_message)_, _ [read magic](../../spells/readMagic.md#_read-magic)_, _ [resistance](../../spells/resistance.md#_resistance)_
 
 **Sorcerer Spells Known** (CL 3rd; concentration +7)
 
-1st (6/day)—_ [charm person](../../spells/charmPerson.html#_charm-person) _(DC 15), _ [entangle](../../spells/entangle.html#_entangle) _(DC 15), _ [hypnotism](../../spells/hypnotism.html#_hypnotism) _(DC 17), _ [mage armor](../../spells/mageArmor.html#_mage-armor)_
+1st (6/day)—_ [charm person](../../spells/charmPerson.md#_charm-person) _(DC 15), _ [entangle](../../spells/entangle.md#_entangle) _(DC 15), _ [hypnotism](../../spells/hypnotism.md#_hypnotism) _(DC 17), _ [mage armor](../../spells/mageArmor.md#_mage-armor)_
 
-0 (at will)—_ [arcane mark](../../spells/arcaneMark.html#_arcane-mark)_, _ [daze](../../spells/daze.html#_daze)_ (DC 16), _ [detect magic](../../spells/detectMagic.html#_detect-magic)_, _ [ray of frost](../../spells/rayOfFrost.html#_ray-of-frost)_, _ [prestidigitation](../../spells/prestidigitation.html#_prestidigitation)_
+0 (at will)—_ [arcane mark](../../spells/arcaneMark.md#_arcane-mark)_, _ [daze](../../spells/daze.md#_daze)_ (DC 16), _ [detect magic](../../spells/detectMagic.md#_detect-magic)_, _ [ray of frost](../../spells/rayOfFrost.md#_ray-of-frost)_, _ [prestidigitation](../../spells/prestidigitation.md#_prestidigitation)_
 
 **Bloodline** fey
 
@@ -172,15 +172,15 @@ CN Medium humanoid
 
 **Base Atk** +3; **CMB** +2; **CMD** 13
 
-**Feats** [Eschew Materials](../../feats.html#_eschew-materials), [Extra Performance](../../feats.html#_extra-performance), [Magical Aptitude](../../feats.html#_magical-aptitude), [Skill Focus](../../feats.html#_skill-focus) ( [Perform](../../skills/perform.html#_perform) [act]), [Skill Focus](../../feats.html#_skill-focus) ( [Sleight of Hand](../../skills/sleightOfHand.html#_sleight-of-hand))
+**Feats** [Eschew Materials](../../feats.md#_eschew-materials), [Extra Performance](../../feats.md#_extra-performance), [Magical Aptitude](../../feats.md#_magical-aptitude), [Skill Focus](../../feats.md#_skill-focus) ( [Perform](../../skills/perform.md#_perform) [act]), [Skill Focus](../../feats.md#_skill-focus) ( [Sleight of Hand](../../skills/sleightOfHand.md#_sleight-of-hand))
 
-**Skills** [Bluff](../../skills/bluff.html#_bluff) +16, [Diplomacy](../../skills/diplomacy.html#_diplomacy) +10, [Disguise](../../skills/disguise.html#_disguise) +16, [Intimidate](../../skills/intimidate.html#_intimidate) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (arcana) +7, [Knowledge](../../skills/knowledge.html#_knowledge) (local) +7, [Knowledge](../../skills/knowledge.html#_knowledge) (nature) +7, [Knowledge](../../skills/knowledge.html#_knowledge) (planes) +7, [Knowledge](../../skills/knowledge.html#_knowledge) (religion) +7, [Linguistics](../../skills/linguistics.html#_linguistics) +6, [Perception](../../skills/perception.html#_perception) +5, [Perform](../../skills/perform.html#_perform) (act) +16, [Perform](../../skills/perform.html#_perform) (oratory) +12, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +10, [Sleight of Hand](../../skills/sleightOfHand.html#_sleight-of-hand) +13, [Spellcraft](../../skills/spellcraft.html#_spellcraft) +10, [Use Magic Device](../../skills/useMagicDevice.html#_use-magic-device) +15
+**Skills** [Bluff](../../skills/bluff.md#_bluff) +16, [Diplomacy](../../skills/diplomacy.md#_diplomacy) +10, [Disguise](../../skills/disguise.md#_disguise) +16, [Intimidate](../../skills/intimidate.md#_intimidate) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (arcana) +7, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +7, [Knowledge](../../skills/knowledge.md#_knowledge) (nature) +7, [Knowledge](../../skills/knowledge.md#_knowledge) (planes) +7, [Knowledge](../../skills/knowledge.md#_knowledge) (religion) +7, [Linguistics](../../skills/linguistics.md#_linguistics) +6, [Perception](../../skills/perception.md#_perception) +5, [Perform](../../skills/perform.md#_perform) (act) +16, [Perform](../../skills/perform.md#_perform) (oratory) +12, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +10, [Sleight of Hand](../../skills/sleightOfHand.md#_sleight-of-hand) +13, [Spellcraft](../../skills/spellcraft.md#_spellcraft) +10, [Use Magic Device](../../skills/useMagicDevice.md#_use-magic-device) +15
 
 **Languages** Aklo, Common, Draconic, Sylvan
 
 **SQ** bardic knowledge +1, bloodline arcana, versatile performance (act), woodland stride
 
-**Combat Gear** _scrolls of [animate rope](../../spells/animateRope.html#_animate-rope)_, _ [comprehend languages](../../spells/comprehendLanguages.html#_comprehend-languages)_ (4), _ [erase](../../spells/erase.html#_erase)_, _ [magic aura](../../spells/magicAura.html#_magic-aura)_, _ [magic mouth](../../spells/magicMouth.html#_magic-mouth); wand of [unseen servant](../../spells/unseenServant.html#_unseen-servant)_ (50 charges); smokesticks (2); thunderstones (2); **Other Gear** daggers (2), _ [cloak of resistance](../../magicItems/wondrousItems.html#_cloak-of-resistance) +1_, non-magical crystal ball, tarot cards, augury focus
+**Combat Gear** _scrolls of [animate rope](../../spells/animateRope.md#_animate-rope)_, _ [comprehend languages](../../spells/comprehendLanguages.md#_comprehend-languages)_ (4), _ [erase](../../spells/erase.md#_erase)_, _ [magic aura](../../spells/magicAura.md#_magic-aura)_, _ [magic mouth](../../spells/magicMouth.md#_magic-mouth); wand of [unseen servant](../../spells/unseenServant.md#_unseen-servant)_ (50 charges); smokesticks (2); thunderstones (2); **Other Gear** daggers (2), _ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +1_, non-magical crystal ball, tarot cards, augury focus
 
-**Boon** A fortune teller could advise PCs on the best ways to trick those in a particular community, granting them a +2 circumstance bonus on [Bluff](../../skills/bluff.html#_bluff) and [Intimidate](../../skills/intimidate.html#_intimidate) checks in that area for 1 week.
+**Boon** A fortune teller could advise PCs on the best ways to trick those in a particular community, granting them a +2 circumstance bonus on [Bluff](../../skills/bluff.md#_bluff) and [Intimidate](../../skills/intimidate.md#_intimidate) checks in that area for 1 week.
 

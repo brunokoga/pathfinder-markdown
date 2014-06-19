@@ -36,15 +36,15 @@ Almost universally, those inclined toward magic pursue the field of necromancy, 
 
 **Senses** : Low-light vision and darkvision 60 feet.
 
-**Manipulative** : +2 racial bonus on [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) and [Perception](/pathfinderRPG/prd/skills/perception.html#_perception).
+**Manipulative** : +2 racial bonus on [Bluff](skills/bluff.md#_bluff) and [Perception](skills/perception.md#_perception).
 
 **Undead Resistance** : Dhampirs gain a +2 racial bonus on saving throws against disease and mind-affecting effects.
 
-**Light Sensitivity** : Dhampirs are dazzled in areas of bright sunlight or within the radius of a _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight) _spell.
+**Light Sensitivity** : Dhampirs are dazzled in areas of bright sunlight or within the radius of a _ [daylight](spells/daylight.md#_daylight) _spell.
 
 **Negative Energy Affinity** : Though a living creature, a dhampir reacts to positive and negative energy as if it were undead—positive energy harms it, while negative energy heals it.
 
-**Spell-Like Ability** : A dhampir can use _ [detect undead](/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead)_ three times per day as a spell-like ability. The caster level for this ability equals the dhampir's class level.
+**Spell-Like Ability** : A dhampir can use _ [detect undead](spells/detectUndead.md#_detect-undead)_ three times per day as a spell-like ability. The caster level for this ability equals the dhampir's class level.
 
 **Resist Level Drain (Ex)** : A dhampir takes no penalties from energy drain effects, though he can still be killed if he accrues more negative levels then he has Hit Dice. After 24 hours, any negative levels a dhampir takes are removed without the need for an additional saving throw.
 
@@ -58,7 +58,7 @@ The following racial traits may be selected instead of existing dhampir racial t
 
 **Fangs** : On occasion, a dhampir may inherit his father's lengthy canines. Whenever the dhampir makes a grapple combat maneuver check to damage an opponent, he can choose to bite his opponent, dealing 1d3 points of damage as if using a natural bite attack. As a standard action, the dhampir can bite a creature that is bound, helpless, paralyzed, or similarly unable to defend itself. This racial trait replaces the spell-like ability racial trait.
 
-**Vampiric Empathy** : Though dhampirs often relate poorly to humanoids, some share an affinity with baser creatures. These dhampirs gain the ability to communicate with bats, rats, and wolves as if under the effects of a _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals) _spell (caster level equal to 1/2 the dhampir's Hit Dice). In addition, they gain a +2 racial bonus on [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) checks when dealing with these animals. Whenever these dhampirs initiate an exchange, animals begin with a starting attitude of indifferent. This is a supernatural ability. This racial trait replaces manipulative.
+**Vampiric Empathy** : Though dhampirs often relate poorly to humanoids, some share an affinity with baser creatures. These dhampirs gain the ability to communicate with bats, rats, and wolves as if under the effects of a _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals) _spell (caster level equal to 1/2 the dhampir's Hit Dice). In addition, they gain a +2 racial bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) checks when dealing with these animals. Whenever these dhampirs initiate an exchange, animals begin with a starting attitude of indifferent. This is a supernatural ability. This racial trait replaces manipulative.
 
 # Favored Class Options
 
@@ -70,9 +70,9 @@ The following options are available to all dhampirs who have the listed favored 
 
 **Fighter** : Add a +2 bonus on rolls to stabilize when dying.
 
-**Inquisitor** : Add a +1/2 bonus on [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks to demoralize humanoids.
+**Inquisitor** : Add a +1/2 bonus on [Intimidate](skills/intimidate.md#_intimidate) checks to demoralize humanoids.
 
-**Rogue** : Add a +1/2 bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks and [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks made in dim light or darkness.
+**Rogue** : Add a +1/2 bonus on [Stealth](skills/stealth.md#_stealth) checks and [Perception](skills/perception.md#_perception) checks made in dim light or darkness.
 
 **Sorcerer** : Add +1/2 point of negative energy damage to spells that deal negative energy damage.
 
@@ -94,17 +94,17 @@ To those who know how to manipulate it, the blood of a dhampir can be a powerful
 > 
 > This ability replaces arcane bond.
 
-**Blood Command (Su)** : At 5th level, a cruoromancer can control up to 5 Hit Dice worth of undead creatures per caster level instead of the normal 4 Hit Dice of undead when casting the _ [animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_ spell. He also gains the following blood infusion ability.
+**Blood Command (Su)** : At 5th level, a cruoromancer can control up to 5 Hit Dice worth of undead creatures per caster level instead of the normal 4 Hit Dice of undead when casting the _ [animate dead](spells/animateDead.md#_animate-dead)_ spell. He also gains the following blood infusion ability.
 
-> _Commanding Infusion_: When using this infusion with _ [animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_, the cruoromancer can create a number of Hit Dice of undead equal to three times his caster level instead of twice his caster level.
+> _Commanding Infusion_: When using this infusion with _ [animate dead](spells/animateDead.md#_animate-dead)_, the cruoromancer can create a number of Hit Dice of undead equal to three times his caster level instead of twice his caster level.
 > 
 > This ability replaces the 5th-level wizard bonus feat.
 
 **Blood Desecration (Su)** : At 10th level, a cruoromancer gains the following blood infusion.
 
-> _Desecrating Infusion_: When the cruoromancer uses this infusion, he can choose to center a _ [desecrate](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)_ effect on himself or a single target of the spell modified by this infusion (he chooses upon casting). This effect is like the _ [desecrate](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)_ spell, but lasts for 1 minute per caster level of the cruoromancer, and does not interact with altars, shrines, or permanent fixtures that boost the _ [desecrate](/pathfinderRPG/prd/spells/desecrate.html#_desecrate)_ effect. This ability replaces the 10th-level wizard bonus feat.
+> _Desecrating Infusion_: When the cruoromancer uses this infusion, he can choose to center a _ [desecrate](spells/desecrate.md#_desecrate)_ effect on himself or a single target of the spell modified by this infusion (he chooses upon casting). This effect is like the _ [desecrate](spells/desecrate.md#_desecrate)_ spell, but lasts for 1 minute per caster level of the cruoromancer, and does not interact with altars, shrines, or permanent fixtures that boost the _ [desecrate](spells/desecrate.md#_desecrate)_ effect. This ability replaces the 10th-level wizard bonus feat.
 
-**Blood Ability (Su)** : At 15th level, a cruoromancer can choose to scry through a single undead creature he created with a spell modified by a commanding infusion. The undead creature is treated as if imbued with an _ [arcane eye](/pathfinderRPG/prd/spells/arcaneEye.html#_arcane-eye)_ spell (caster level equal to the cruoromancer's wizard level). This ability replaces the 15th-level wizard bonus feat.
+**Blood Ability (Su)** : At 15th level, a cruoromancer can choose to scry through a single undead creature he created with a spell modified by a commanding infusion. The undead creature is treated as if imbued with an _ [arcane eye](spells/arcaneEye.md#_arcane-eye)_ spell (caster level equal to the cruoromancer's wizard level). This ability replaces the 15th-level wizard bonus feat.
 
 **Perfect Infusion (Su)** : At 20th level, a cruoromancer can use his blood infusions without taking damage. This ability replaces the 20th-level wizard bonus spell.
 
@@ -114,27 +114,27 @@ Appalled and guilt-ridden by the horrific circumstances of her birth, a kinslaye
 
 **Judgment (Su)** : At 1st level, a kinslayer gains the following judgment.
 
-> _Slayer's Brand (Su)_: When using this judgment, the kinslayer gains the ability to brand undead creatures with positive energy. To do so, she must make a successful melee touch attack against the undead creature. This attack deals an amount of positive energy damage equal to 1d6 + the kinslayer's Charisma score, and burns her personal symbol into the undead creature's flesh, bone, or even its incorporeal form. From that point onward, the kinslayer can sense the existence of the branded creature as if it were the target of a _ [locate creature](/pathfinderRPG/prd/spells/locateCreature.html#_locate-creature)_ spell (caster level equal to 1/2 the kinslayer's inquisitor level). A slayer's brand lasts until the undead creature is destroyed or until the kinslayer uses this ability on another creature. This ability replaces the destruction judgment.
+> _Slayer's Brand (Su)_: When using this judgment, the kinslayer gains the ability to brand undead creatures with positive energy. To do so, she must make a successful melee touch attack against the undead creature. This attack deals an amount of positive energy damage equal to 1d6 + the kinslayer's Charisma score, and burns her personal symbol into the undead creature's flesh, bone, or even its incorporeal form. From that point onward, the kinslayer can sense the existence of the branded creature as if it were the target of a _ [locate creature](spells/locateCreature.md#_locate-creature)_ spell (caster level equal to 1/2 the kinslayer's inquisitor level). A slayer's brand lasts until the undead creature is destroyed or until the kinslayer uses this ability on another creature. This ability replaces the destruction judgment.
 
 **Greater Brand (Su)** : A 1st level, a kinslayer learns to modify her slayer's brand judgment as she gains levels. Whenever she gains the ability to learn a teamwork feat, she can instead opt to learn one of the following modifications to her slayer's brand judgment.
 
 > _Branding Ray_: The slayer's brand judgment can be used as a ranged touch attack with a range of 20 feet. A kinslayer can take this modification more than once. Whenever she does, she increases the range of her brand by 20 feet.
 > 
-> _Debilitating [Brand](/pathfinderRPG/prd/advanced/spells/brand.html#_brand)_: A creature currently affected by the slayer's brand judgment takes a –2 penalty on attack rolls against the kinslayer who placed the brand.
+> _Debilitating [Brand](advanced/spells/brand.md#_brand)_: A creature currently affected by the slayer's brand judgment takes a –2 penalty on attack rolls against the kinslayer who placed the brand.
 > 
-> _Devastating [Brand](/pathfinderRPG/prd/advanced/spells/brand.html#_brand)_: When the kinslayer attacks a creature that she has branded with her slayer's brand, she threatens a critical hit on a roll of 19–20. If the kinslayer is good, she also gains a +2 sacred bonus on all rolls to confirm critical hits on a branded creature.
+> _Devastating [Brand](advanced/spells/brand.md#_brand)_: When the kinslayer attacks a creature that she has branded with her slayer's brand, she threatens a critical hit on a roll of 19–20. If the kinslayer is good, she also gains a +2 sacred bonus on all rolls to confirm critical hits on a branded creature.
 > 
-> _Dual [Brand](/pathfinderRPG/prd/advanced/spells/brand.html#_brand)_: The kinslayer can have up to two creatures branded at a time.
+> _Dual [Brand](advanced/spells/brand.md#_brand)_: The kinslayer can have up to two creatures branded at a time.
 > 
-> _ [Holy](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-holy) [Brand](/pathfinderRPG/prd/advanced/spells/brand.html#_brand)_: The kinslayer can use her brand on creatures with the evil subtype as well as undead.
+> _ [Holy](magicItems/weapons.md#_weapons-holy) [Brand](advanced/spells/brand.md#_brand)_: The kinslayer can use her brand on creatures with the evil subtype as well as undead.
 > 
-> _Searing [Brand](/pathfinderRPG/prd/advanced/spells/brand.html#_brand):_ The kinslayer's slayer's brand deals an additional 1d6 points of damage for every five inquisitor levels she has. If the creature hit with the slayer's brand is particularly vulnerable to bright light, the damage dice of her slayer's brand increases to d8s. A kinslayer must be at least 6th level to take this modification.
+> _Searing [Brand](advanced/spells/brand.md#_brand):_ The kinslayer's slayer's brand deals an additional 1d6 points of damage for every five inquisitor levels she has. If the creature hit with the slayer's brand is particularly vulnerable to bright light, the damage dice of her slayer's brand increases to d8s. A kinslayer must be at least 6th level to take this modification.
 > 
-> _Silver [Brand](/pathfinderRPG/prd/advanced/spells/brand.html#_brand)_: The kinslayer can use her brand on lycanthropes and creatures with vulnerability to silver as well as undead.
+> _Silver [Brand](advanced/spells/brand.md#_brand)_: The kinslayer can use her brand on lycanthropes and creatures with vulnerability to silver as well as undead.
 
 Each time the kinslayer opts to take a greater brand, it replaces her ability to gain a teamwork feat at that level.
 
-**Undead Sense (Sp)** : At 2nd level, a kinslayer gains the ability to use _ [detect undead](/pathfinderRPG/prd/spells/detectUndead.html#_detect-undead)_ as a spell-like ability (caster level equal to the kinslayer's inquisitor level) at will. If she detects the presence of undead, she can use her monster lore ability to attempt to determine the type of undead detected as well as to reveal any strengths or weaknesses the undead might have. If any of the detected undead are vampires, she gains a bonus on the check equal to her inquisitor level to immediately identify them as such.
+**Undead Sense (Sp)** : At 2nd level, a kinslayer gains the ability to use _ [detect undead](spells/detectUndead.md#_detect-undead)_ as a spell-like ability (caster level equal to the kinslayer's inquisitor level) at will. If she detects the presence of undead, she can use her monster lore ability to attempt to determine the type of undead detected as well as to reveal any strengths or weaknesses the undead might have. If any of the detected undead are vampires, she gains a bonus on the check equal to her inquisitor level to immediately identify them as such.
 
 This ability replaces _detect alignment_.
 
@@ -152,7 +152,7 @@ A heartstake bolt deals normal damage for the crossbow of its type.
 
 **Neck Guard** : Made from hardened leather reinforced with a band of metal, this collar protects the wearer against vampire bites when worn around the throat. It provides a +1 armor bonus to AC against vampire bites or similar attacks that specifically target the wearer's throat. Unlike most armor bonuses, the neck guard's +1 bonus stacks with the armor bonus of light or medium armor, but it provides no additional bonus when worn with heavy armor.
 
-**Vampire Slayer's Kit** : This small, latched wooden case contains numerous tools and devices used in hunting and slaying vampires. It contains 10 cloves of garlic, four masterwork wooden stakes, a hammer, a silvered mirror, 4 vials of holy water, 1 application of _ [silversheen](/pathfinderRPG/prd/magicItems/wondrousItems.html#_silversheen)_, and a masterwork holy symbol. It also contains numerous regents and powders used for treating wounds and making wards, salves, and other concoctions. In addition to its general usefulness, when displayed, a vampire slayer's kit grants its owner a +2 bonus on all Charisma-based skill checks made to investigate or seek out vampires.
+**Vampire Slayer's Kit** : This small, latched wooden case contains numerous tools and devices used in hunting and slaying vampires. It contains 10 cloves of garlic, four masterwork wooden stakes, a hammer, a silvered mirror, 4 vials of holy water, 1 application of _ [silversheen](magicItems/wondrousItems.md#_silversheen)_, and a masterwork holy symbol. It also contains numerous regents and powders used for treating wounds and making wards, salves, and other concoctions. In addition to its general usefulness, when displayed, a vampire slayer's kit grants its owner a +2 bonus on all Charisma-based skill checks made to investigate or seek out vampires.
 
 [Dhampir Equipment]
 | Item | Cost | Weight |
@@ -233,7 +233,7 @@ This item does not actually transpose positive energy into negative energy, it j
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _life channel_; **Cost** 6,000 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _life channel_; **Cost** 6,000 gp
 
 Lenses of Darkness
 
@@ -243,11 +243,11 @@ Lenses of Darkness
 
 Description
 
-Crafted from a dark-colored crystalline material and infused with magical darkness, these lenses fit over the wearer's eyes. When worn by a creature with light sensitivity or light blindness, these lenses protect the wearer against the effect of sunlight, the _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_ spell, or similar light effects. Both lenses must be worn for the magic to be effective.
+Crafted from a dark-colored crystalline material and infused with magical darkness, these lenses fit over the wearer's eyes. When worn by a creature with light sensitivity or light blindness, these lenses protect the wearer against the effect of sunlight, the _ [daylight](spells/daylight.md#_daylight)_ spell, or similar light effects. Both lenses must be worn for the magic to be effective.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_; **Cost** 6,000 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [darkness](spells/darkness.md#_darkness)_; **Cost** 6,000 gp
 
 Symbol of Unholy Command
 
@@ -257,13 +257,13 @@ Symbol of Unholy Command
 
 Description
 
-This unholy symbol is carved entirely from human bone. When the wielder uses this unholy symbol as a focus for the [Command Undead](/pathfinderRPG/prd/feats.html#_command-undead) feat, he gains a +1 profane bonus to the DC of that feat.
+This unholy symbol is carved entirely from human bone. When the wielder uses this unholy symbol as a focus for the [Command Undead](feats.md#_command-undead) feat, he gains a +1 profane bonus to the DC of that feat.
 
-Good creatures of 5 Hit Dice or less that attempt to touch the symbol must make a DC 15 Will save or be shaken for 1 round. Deliberate use of a _symbol of [unholy](/pathfinderRPG/prd/magicItems/weapons.html#_unholy) [command](/pathfinderRPG/prd/spells/command.html#_command)_ is an evil act.
+Good creatures of 5 Hit Dice or less that attempt to touch the symbol must make a DC 15 Will save or be shaken for 1 round. Deliberate use of a _symbol of [unholy](magicItems/weapons.md#_unholy) [command](spells/command.md#_command)_ is an evil act.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), [Command Undead](/pathfinderRPG/prd/feats.html#_command-undead) or _ [command undead](/pathfinderRPG/prd/spells/commandUndead.html#_command-undead)_; **Cost** 4,000 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), [Command Undead](feats.md#_command-undead) or _ [command undead](spells/commandUndead.md#_command-undead)_; **Cost** 4,000 gp
 
 ## Dhampir Spells
 
@@ -271,7 +271,7 @@ Dhampirs have access to the following spells.
 
 Blinding Ray
 
-**School** evocation [[good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype), light]; **Level** cleric 2, inquisitor 3, paladin 2
+**School** evocation [[good](monsters/creatureTypes.md#_good-subtype), light]; **Level** cleric 2, inquisitor 3, paladin 2
 
 **Casting Time** 1 standard action
 
@@ -297,13 +297,13 @@ Life Channel
 
 **Range** touch
 
-**Target** one touched creature with [negative energy affinity](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_negative-energy-affinity)
+**Target** one touched creature with [negative energy affinity](monsters/universalMonsterRules.md#_negative-energy-affinity)
 
 **Duration** 1 minute/level
 
 **Saving Throw** Fortitude negates (harmless); **Spell Resistance** yes (harmless)
 
-When cast on a creature with negative energy affinity, the target is able to convert channeled positive energy into temporary hit points. When subject to an effect that heals hit points only to living creatures (such as _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_ or channel positive energy), the target gains a number of temporary hit points equal to half the number of hit points that the positive energy would normally heal. These temporary hit points go away at the end of this spell's duration.
+When cast on a creature with negative energy affinity, the target is able to convert channeled positive energy into temporary hit points. When subject to an effect that heals hit points only to living creatures (such as _ [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ or channel positive energy), the target gains a number of temporary hit points equal to half the number of hit points that the positive energy would normally heal. These temporary hit points go away at the end of this spell's duration.
 
 Spawn Ward
 

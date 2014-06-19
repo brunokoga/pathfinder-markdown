@@ -14,5 +14,5 @@ Prediction of Failure
 
 **Saving Throw** Will partial; **Spell Resistance** yes
 
-You wrack the target's body and mind with the anguish and suffering of every bitter failure it will ever experience, rendering it permanently shaken and sickened. A successful Will save reduces the duration to 1 round per level. If the target is a spellcaster, failing this saving throw means it also gains a [random minor spellblight](../magic/spellblights.html#_random-minor-spellblight-table).
+You wrack the target's body and mind with the anguish and suffering of every bitter failure it will ever experience, rendering it permanently shaken and sickened. A successful Will save reduces the duration to 1 round per level. If the target is a spellcaster, failing this saving throw means it also gains a [random minor spellblight](../magic/spellblights.md#_random-minor-spellblight-table).
 

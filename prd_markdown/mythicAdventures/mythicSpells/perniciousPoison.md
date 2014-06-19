@@ -1,6 +1,6 @@
 Pernicious Poison
 
-**Source** [_pernicious poison_](/pathfinderRPG/prd/ultimateMagic/spells/perniciousPoison.html#_pernicious-poison)
+**Source** [_pernicious poison_](ultimateMagic/spells/perniciousPoison.md#_pernicious-poison)
 
 The number of successful saving throws needed to cure a poison increases by one. If the poison deals ability damage on a failed saving throw, that ability damage increases by 1.
 

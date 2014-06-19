@@ -6,9 +6,9 @@ Heat ripples the air near this squat, brass-skinned humanoid. Its head and shoul
 
 **XP 600**
 
-LN Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+LN Medium [outsider](monsters/creatureTypes.md#_outsider) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [fire](monsters/creatureTypes.md#_fire-subtype))
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +6
 
 Defense
 
@@ -18,19 +18,19 @@ Defense
 
 **Fort** +5, **Ref** +1, **Will** +4
 
-**Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype); **SR** 13
+**Immune** [fire](monsters/creatureTypes.md#_fire-subtype); **SR** 13
 
-**Weaknesses** vulnerability to [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype)
+**Weaknesses** vulnerability to [cold](monsters/creatureTypes.md#_cold-subtype)
 
 Offense
 
 **Speed** 30 ft. (20 ft. in armor)
 
-**Melee** mwk warhammer +4 (1d8+1/×3 plus 1d6 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+**Melee** mwk warhammer +4 (1d8+1/×3 plus 1d6 [fire](monsters/creatureTypes.md#_fire-subtype))
 
-**Ranged** light hammer +3 (1d4+1 plus 1d6 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+**Ranged** light hammer +3 (1d4+1 plus 1d6 [fire](monsters/creatureTypes.md#_fire-subtype))
 
-**Special Attacks** [heat](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_heat) (1d6 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+**Special Attacks** [heat](monsters/universalMonsterRules.md#_heat) (1d6 [fire](monsters/creatureTypes.md#_fire-subtype))
 
 Statistics
 
@@ -38,15 +38,15 @@ Statistics
 
 **Base Atk** +2; **CMB** +3; **CMD** 14
 
-**Feats** [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack)
+**Feats** [Power Attack](additionalMonsters/../feats.md#_power-attack)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +0, [Appraise](/pathfinderRPG/prd/additionalMonsters/../skills/appraise.html#_appraise) +6, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +3, [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (any two) +6, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (nobility) +6, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +0, [Appraise](additionalMonsters/../skills/appraise.md#_appraise) +6, [Climb](additionalMonsters/../skills/climb.md#_climb) +3, [Craft](additionalMonsters/../skills/craft.md#_craft) (any two) +6, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (nobility) +6, [Perception](additionalMonsters/../skills/perception.md#_perception) +6
 
 **Languages** Common, Ignan
 
 Ecology
 
-**Environment** any land (Plane of [Fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+**Environment** any land (Plane of [Fire](monsters/creatureTypes.md#_fire-subtype))
 
 **Organization** solitary, pair, team (3–6), squad (11–20 plus 2 sergeants of 3rd level and 1 leader of 3rd–6th level), or clan (30–100 plus 50% noncombatants plus 1 sergeant of 3rd level per 20 adults, 5 lieutenants of 5th level, and 3 captains of 7th level)
 

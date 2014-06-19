@@ -6,9 +6,9 @@ _The skeleton locked within rattles as this animated cage lurches forward on cha
 
 **XP 800**
 
-N Medium [construct](creatureTypes.html#_construct)
+N Medium [construct](creatureTypes.md#_construct)
 
-**Init** +0; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.html#_perception) –5
+**Init** +0; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) –5
 
 **DEFENSE**
 
@@ -18,7 +18,7 @@ N Medium [construct](creatureTypes.html#_construct)
 
 **Fort** +1, **Ref** +1, **Will** –4
 
-**Defensive Abilities** hardness 5 (or more); **Immune** [construct traits](universalMonsterRules.html#_construct-traits)
+**Defensive Abilities** hardness 5 (or more); **Immune** [construct traits](universalMonsterRules.md#_construct-traits)
 
 **OFFENSE**
 
@@ -50,19 +50,19 @@ _Additional Attack (Ex, 1 CP)_: Gains an additional slam attack.
 
 _Additional Movement (Ex, 1 CP)_: Gains a new mode of movement (burrow, climb, fly [clumsy], or swim) at a speed equal to its base speed.
 
-_Constrict (Ex, 1 CP)_: Gains [constrict](universalMonsterRules.html#_constrict) with its slam attacks (the object must have grab before it can take this ability).
+_Constrict (Ex, 1 CP)_: Gains [constrict](universalMonsterRules.md#_constrict) with its slam attacks (the object must have grab before it can take this ability).
 
 _Faster (Ex, 1 CP)_: One of the object's movement modes increases by +10 ft.
 
-_Grab (Ex, 1 CP)_: Gains [grab](universalMonsterRules.html#_grab) special attack with slam attacks.
+_Grab (Ex, 1 CP)_: Gains [grab](universalMonsterRules.md#_grab) special attack with slam attacks.
 
 _Metal (Ex, 2 CP)_: The object is made of common metal. Its hardness increases to 10, and it gains a +2 increase to its natural armor bonus. Mithral objects cost 4 CP, and gain hardness 15 plus a +4 increase to natural armor. Adamantine objects cost 6 CP, gain hardness 20, and receive a +6 increase to natural armor.
 
 _Stone (Ex, 1 CP)_: The object is made of stone or crystal. Its hardness increases to 8 and it gains a +1 increase to its natural armor bonus.
 
-_ [Trample](../feats.html#_trample) (Ex, 2 CP)_: The object gains the [trample](universalMonsterRules.html#_trample) special attack.
+_ [Trample](../feats.md#_trample) (Ex, 2 CP)_: The object gains the [trample](universalMonsterRules.md#_trample) special attack.
 
-An animated object is not simply one monster, but a whole category. The stats presented here are for a Medium animated object (with 2 CP that have not been spent to gain additional abilities), but any object can become animated, most commonly via the spell _ [animate objects](../spells/animateObjects.html#_animate-objects)_. Permanent animated objects can be built using the [Craft Construct](monsterFeats.html#_craft-construct) feat. Unless an animated object uses a Construction Point to be made of another material, all animated objects are made of wood or material of equivalent hardness. Creating an animated object of a different size than Medium can be done simply by adjusting the object's size (and thus adjusting its Strength, Dexterity, natural armor bonus, and size modifier to attack and AC as detailed on page 296) and Hit Dice.
+An animated object is not simply one monster, but a whole category. The stats presented here are for a Medium animated object (with 2 CP that have not been spent to gain additional abilities), but any object can become animated, most commonly via the spell _ [animate objects](../spells/animateObjects.md#_animate-objects)_. Permanent animated objects can be built using the [Craft Construct](monsterFeats.md#_craft-construct) feat. Unless an animated object uses a Construction Point to be made of another material, all animated objects are made of wood or material of equivalent hardness. Creating an animated object of a different size than Medium can be done simply by adjusting the object's size (and thus adjusting its Strength, Dexterity, natural armor bonus, and size modifier to attack and AC as detailed on page 296) and Hit Dice.
 
 | Size | Sample Object | HD | CP | CR |
 | --- | --- | --- | --- | --- |

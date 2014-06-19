@@ -6,9 +6,9 @@ Coloxus CR 12
 
 XP 19,200
 
-CE Medium outsider ( [chaotic](/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype), [demon](/pathfinderRPG/prd/monsters/creatureTypes.html#_demon-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CE Medium outsider ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [demon](monsters/creatureTypes.md#_demon-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +13; **Senses** darkvision 60 ft., [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +31
+**Init** +13; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +31
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +15, **Ref** +19, **Will** +9
 
-**DR** 10/good; **Immune** electricity, disease, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** acid 10, [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 23
+**DR** 10/good; **Immune** electricity, disease, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** acid 10, [cold](monsters/creatureTypes.md#_cold-subtype) 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 23
 
 Offense
 
@@ -30,13 +30,13 @@ Offense
 
 **Spell-Like Abilities** (CL 12th; concentration +18)
 
-Constant—_ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+Constant—_ [tongues](spells/tongues.md#_tongues)_
 
-At will—_ [contagion](/pathfinderRPG/prd/spells/contagion.html#_contagion)_ (DC 20), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 19)
+At will—_ [contagion](spells/contagion.md#_contagion)_ (DC 20), _ [invisibility](spells/invisibility.md#_invisibility)_, _ [suggestion](spells/suggestion.md#_suggestion)_ (DC 19)
 
-3/day—_ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_ (DC 20), _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_, quickened _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [mind fog](/pathfinderRPG/prd/spells/mindFog.html#_mind-fog)_ (DC 21)
+3/day—_ [confusion](spells/confusion.md#_confusion)_ (DC 20), _ [haste](spells/haste.md#_haste)_, quickened _ [invisibility](spells/invisibility.md#_invisibility)_, _ [mind fog](spells/mindFog.md#_mind-fog)_ (DC 21)
 
-1/day—_ [giant vermin](/pathfinderRPG/prd/spells/giantVermin.html#_giant-vermin)_, _ [shadow evocation](/pathfinderRPG/prd/spells/shadowEvocation.html#_shadow-evocation)_ (DC 21)
+1/day—_ [giant vermin](spells/giantVermin.md#_giant-vermin)_, _ [shadow evocation](spells/shadowEvocation.md#_shadow-evocation)_ (DC 21)
 
 Statistics
 
@@ -44,23 +44,23 @@ Statistics
 
 **Base Atk** +16; **CMB** +25; **CMD** 39
 
-**Feats** [Agile Maneuvers](/pathfinderRPG/prd/feats.html#_agile-maneuvers), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Deceitful](/pathfinderRPG/prd/feats.html#_deceitful), [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Quicken Spell-Like Ability](/pathfinderRPG/prd/monsters/monsterFeats.html#_quicken-spell-like-ability) (_ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Agile Maneuvers](feats.md#_agile-maneuvers), [Combat Reflexes](feats.md#_combat-reflexes), [Deceitful](feats.md#_deceitful), [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Hover](monsters/monsterFeats.md#_hover), [Improved Initiative](feats.md#_improved-initiative), [Quicken Spell-Like Ability](monsters/monsterFeats.md#_quicken-spell-like-ability) (_ [invisibility](spells/invisibility.md#_invisibility)_), [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +28, [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) +14, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +29, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +14, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +19, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +32, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, history, planes, and religion) +14, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +31, [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) +17, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +28; **Racial Modifiers** +8 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +28, [Appraise](skills/appraise.md#_appraise) +14, [Bluff](skills/bluff.md#_bluff) +29, [Diplomacy](skills/diplomacy.md#_diplomacy) +14, [Disguise](skills/disguise.md#_disguise) +19, [Fly](skills/fly.md#_fly) +32, [Knowledge](skills/knowledge.md#_knowledge) (arcana, history, planes, and religion) +14, [Perception](skills/perception.md#_perception) +31, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +17, [Stealth](skills/stealth.md#_stealth) +28; **Racial Modifiers** +8 [Perception](skills/perception.md#_perception)
 
-**Languages** Abyssal, Celestial, Common, Infernal; telepathy 100 ft., _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+**Languages** Abyssal, Celestial, Common, Infernal; telepathy 100 ft., _ [tongues](spells/tongues.md#_tongues)_
 
 Ecology
 
 **Environment** urban (Abyss)
 
-**Organization** solitary, pair, or [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) (3–8)
+**Organization** solitary, pair, or [swarm](monsters/creatureTypes.md#_swarm-subtype) (3–8)
 
 **Treasure** double
 
 Special Abilities
 
-**Droning Wings (Ex)** Once per day, when it flutters its wings as a standard action, a coloxus can create a mesmerizing display of color and a sound-dampening buzzing drone. All creatures within 30 feet that can see the coloxus must make a DC 24 Will save or be slowed for up to 6 rounds. Each subsequent round, the coloxus must take a swift action to maintain the effect or the effect ceases at the end of its turn. Additionally, the sound creates a buffer against sonic energy, granting the fly [demon](/pathfinderRPG/prd/monsters/creatureTypes.html#_demon-subtype) [immunity](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_immunity-(ex-or-su)) to sonic attacks or effects while it continues to drone. The save DC is Charisma-based.
+**Droning Wings (Ex)** Once per day, when it flutters its wings as a standard action, a coloxus can create a mesmerizing display of color and a sound-dampening buzzing drone. All creatures within 30 feet that can see the coloxus must make a DC 24 Will save or be slowed for up to 6 rounds. Each subsequent round, the coloxus must take a swift action to maintain the effect or the effect ceases at the end of its turn. Additionally, the sound creates a buffer against sonic energy, granting the fly [demon](monsters/creatureTypes.md#_demon-subtype) [immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to sonic attacks or effects while it continues to drone. The save DC is Charisma-based.
 
 **Siphon (Su)** Any creature bitten by a coloxus must make a DC 23 Fortitude save or take 1d4 points of Charisma damage. A coloxus heals itself of 5 points of damage for every point of Charisma damage it deals. The save DC is Constitution-based.
 
@@ -80,9 +80,9 @@ Incubus CR 6
 
 XP 2,400
 
-CE Medium outsider ( [chaotic](/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype), [demon](/pathfinderRPG/prd/monsters/creatureTypes.html#_demon-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CE Medium outsider ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [demon](monsters/creatureTypes.md#_demon-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +13
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +13
 
 Defense
 
@@ -92,7 +92,7 @@ Defense
 
 **Fort** +10, **Ref** +6, **Will** +8
 
-**DR** 10/cold iron or [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype); **Immune** electricity, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** acid 10, [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 17
+**DR** 10/cold iron or [good](monsters/creatureTypes.md#_good-subtype); **Immune** electricity, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** acid 10, [cold](monsters/creatureTypes.md#_cold-subtype) 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 17
 
 Offense
 
@@ -104,11 +104,11 @@ Offense
 
 **Spell-Like Abilities** (CL 8th; concentration +13)
 
-Constant—_ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+Constant—_ [tongues](spells/tongues.md#_tongues)_
 
-At will—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 16), _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_ (DC 17), _ [greater teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 18)
+At will—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 16), _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_ (DC 17), _ [greater teleport](spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [suggestion](spells/suggestion.md#_suggestion)_ (DC 18)
 
-1/day—_ [crushing despair](/pathfinderRPG/prd/spells/crushingDespair.html#_crushing-despair)_ (DC 19), summon (level 3, 2 schirs 40%)
+1/day—_ [crushing despair](spells/crushingDespair.md#_crushing-despair)_ (DC 19), summon (level 3, 2 schirs 40%)
 
 Statistics
 
@@ -116,13 +116,13 @@ Statistics
 
 **Base Atk** +8; **CMB** +13; **CMD** 25
 
-**Feats** [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike)
+**Feats** [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Vital Strike](feats.md#_vital-strike)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +6, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +16, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +16, [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +6, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +13, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +16, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +14, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +13, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +13, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +14, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +11; **Racial Modifiers** +8 [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate), +8 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +6, [Bluff](skills/bluff.md#_bluff) +16, [Diplomacy](skills/diplomacy.md#_diplomacy) +16, [Escape Artist](skills/escapeArtist.md#_escape-artist) +6, [Fly](skills/fly.md#_fly) +13, [Intimidate](skills/intimidate.md#_intimidate) +16, [Knowledge](skills/knowledge.md#_knowledge) (planes) +14, [Perception](skills/perception.md#_perception) +13, [Sense Motive](skills/senseMotive.md#_sense-motive) +13, [Spellcraft](skills/spellcraft.md#_spellcraft) +14, [Stealth](skills/stealth.md#_stealth) +11; **Racial Modifiers** +8 [Intimidate](skills/intimidate.md#_intimidate), +8 [Perception](skills/perception.md#_perception)
 
-**Languages** Abyssal, Celestial, Common; telepathy 100 ft., _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+**Languages** Abyssal, Celestial, Common; telepathy 100 ft., _ [tongues](spells/tongues.md#_tongues)_
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (Small or Medium humanoid; _ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_)
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (Small or Medium humanoid; _ [alter self](spells/alterSelf.md#_alter-self)_)
 
 Ecology
 
@@ -150,9 +150,9 @@ Schir CR 4
 
 XP 1,200
 
-CE Medium outsider ( [chaotic](/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype), [demon](/pathfinderRPG/prd/monsters/creatureTypes.html#_demon-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CE Medium outsider ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [demon](monsters/creatureTypes.md#_demon-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft., _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +13
+**Init** +2; **Senses** darkvision 60 ft., _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_; [Perception](skills/perception.md#_perception) +13
 
 Defense
 
@@ -162,7 +162,7 @@ Defense
 
 **Fort** +6, **Ref** +3, **Will** +3
 
-**DR** 5/cold iron or [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype); **Immune** disease, electricity, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** acid 10, [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 15
+**DR** 5/cold iron or [good](monsters/creatureTypes.md#_good-subtype); **Immune** disease, electricity, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** acid 10, [cold](monsters/creatureTypes.md#_cold-subtype) 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 15
 
 Offense
 
@@ -170,13 +170,13 @@ Offense
 
 **Melee** mwk halberd +10 (1d10+4/×3 plus disease), gore +3 (1d6+2) or gore +8 (1d6+4)
 
-**Special Attacks** [powerful charge](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_powerful-charge) (gore, 3d6+4)
+**Special Attacks** [powerful charge](monsters/universalMonsterRules.md#_powerful-charge) (gore, 3d6+4)
 
 **Spell-Like Abilities** (CL 6th; concentration +4)
 
-Constant—_ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_, _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+Constant—_ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, _ [tongues](spells/tongues.md#_tongues)_
 
-3/day—_ [arcane lock](/pathfinderRPG/prd/spells/arcaneLock.html#_arcane-lock)_, _ [expeditious retreat](/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat)_, _ [protection from good](/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good)_
+3/day—_ [arcane lock](spells/arcaneLock.md#_arcane-lock)_, _ [expeditious retreat](spells/expeditiousRetreat.md#_expeditious-retreat)_, _ [protection from good](spells/protectionFromGood.md#_protection-from-good)_
 
 1/day—summon (level 2, 1d3 schirs 20%)
 
@@ -186,11 +186,11 @@ Statistics
 
 **Base Atk** +5; **CMB** +8; **CMD** 20
 
-**Feats** [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (halberd)
+**Feats** [Iron Will](feats.md#_iron-will), [Power Attack](feats.md#_power-attack), [Weapon Focus](feats.md#_weapon-focus) (halberd)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +10 (+18 jumping), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +11, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +6, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +13, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +2; **Racial Modifiers** +8 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) when jumping, +8 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +10 (+18 jumping), [Climb](skills/climb.md#_climb) +11, [Intimidate](skills/intimidate.md#_intimidate) +6, [Perception](skills/perception.md#_perception) +13, [Survival](skills/survival.md#_survival) +2; **Racial Modifiers** +8 [Acrobatics](skills/acrobatics.md#_acrobatics) when jumping, +8 [Perception](skills/perception.md#_perception)
 
-**Languages** Abyssal; telepathy 100 ft., _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+**Languages** Abyssal; telepathy 100 ft., _ [tongues](spells/tongues.md#_tongues)_
 
 Ecology
 
@@ -202,7 +202,7 @@ Ecology
 
 Special Abilities
 
-**[Disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)) (Ex)** A schir gnaws constantly at the ends of its halberd. This infuses the blades with disease from the [demon](/pathfinderRPG/prd/monsters/creatureTypes.html#_demon-subtype)'s filthy spittle. Any creature struck by a schir's halberd must succeed at a DC 15 Fortitude save or contract gray pox—a frightening disease that causes weakness, gray splotches on the skin, and eventual catatonia. The save DC is Constitution-based.
+**[Disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) (Ex)** A schir gnaws constantly at the ends of its halberd. This infuses the blades with disease from the [demon](monsters/creatureTypes.md#_demon-subtype)'s filthy spittle. Any creature struck by a schir's halberd must succeed at a DC 15 Fortitude save or contract gray pox—a frightening disease that causes weakness, gray splotches on the skin, and eventual catatonia. The save DC is Constitution-based.
 
 _Gray Pox_: Halberd—injury; _save_ Fort DC 15; _onset_ 1 day; _frequency_ 1/day; _effect_ 1d6 Str damage; _cure_ 2 consecutive saves.
 

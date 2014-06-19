@@ -6,9 +6,9 @@ This hairless blue lion has twin tentacular tails. Dozens more thick tentacles q
 
 **XP 400**
 
-N Medium [aberration](/pathfinderRPG/prd/monsters/creatureTypes.html#_aberration)
+N Medium [aberration](monsters/creatureTypes.md#_aberration)
 
-**Init** +6; **Senses** darkvision 120 ft., [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +1
+**Init** +6; **Senses** darkvision 120 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +1
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +3, **Ref** +2, **Will** +4
 
-**Defensive Abilities** [no breath](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_no-breath); **Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 30
+**Defensive Abilities** [no breath](monsters/universalMonsterRules.md#_no-breath); **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** [fire](monsters/creatureTypes.md#_fire-subtype) 30
 
 **Weaknesses** deaf, vulnerable to salt water
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +2; **CMD** 14 (18 vs. trip)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative)
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +6 (+10 jump), [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +9, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +10; **Racial Modifiers** +4 Stealth
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +6 (+10 jump), [Climb](additionalMonsters/../skills/climb.md#_climb) +9, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +10; **Racial Modifiers** +4 Stealth
 
 **SQ** hibernation
 
@@ -50,21 +50,21 @@ Ecology
 
 Special Abilities
 
-**Deaf (Ex)** Akatas cannot hear. They are immune to spells and effects that rely on hearing to function, but they also cannot make [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) checks to listen.
+**Deaf (Ex)** Akatas cannot hear. They are immune to spells and effects that rely on hearing to function, but they also cannot make [Perception](additionalMonsters/../skills/perception.md#_perception) checks to listen.
 
-**Hibernation (Ex)** Akatas can enter a state of hibernation for an indefinite period of time when food is scarce. When an akata wishes to enter hibernation, it seeks out a den and surrounds itself in a layer of fibrous material excreted from its mouth—these fibers quickly harden into a dense, almost metallic cocoon. While hibernating, an akata does not need to drink or eat. The cocoon has hardness 10 and 60 hit points, and is immune to [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) and bludgeoning (including falling) damage. As long as the cocoon remains intact, the akata within remains unharmed. The akata remains in a state of hibernation until it senses another living creature within 10 feet or is exposed to extreme [heat](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_heat), at which point it claws its way to freedom in 1d4 minutes as its cocoon degrades to fragments of strange metal.
+**Hibernation (Ex)** Akatas can enter a state of hibernation for an indefinite period of time when food is scarce. When an akata wishes to enter hibernation, it seeks out a den and surrounds itself in a layer of fibrous material excreted from its mouth—these fibers quickly harden into a dense, almost metallic cocoon. While hibernating, an akata does not need to drink or eat. The cocoon has hardness 10 and 60 hit points, and is immune to [fire](monsters/creatureTypes.md#_fire-subtype) and bludgeoning (including falling) damage. As long as the cocoon remains intact, the akata within remains unharmed. The akata remains in a state of hibernation until it senses another living creature within 10 feet or is exposed to extreme [heat](monsters/universalMonsterRules.md#_heat), at which point it claws its way to freedom in 1d4 minutes as its cocoon degrades to fragments of strange metal.
 
 **Salt Water Vulnerability (Ex)** Salt water acts as an extremely strong acid to akatas. A splash of salt water deals 1d6 points of damage to an akata, and full immersion in salt water deals 4d6 points of damage per round.
 
-**Void Bite (Ex)** Akatas hold hundreds of invisibly small larval young within their mouths, spreading these parasitic creatures to hosts through their bite. Only humanoids make suitable hosts for akata young—all other creature types are immune to this parasitic infection. The [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)) itself is known as void death.
+**Void Bite (Ex)** Akatas hold hundreds of invisibly small larval young within their mouths, spreading these parasitic creatures to hosts through their bite. Only humanoids make suitable hosts for akata young—all other creature types are immune to this parasitic infection. The [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) itself is known as void death.
 
-**[Disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)) (Ex)** _Void Death_: Bite—injury; _save_ Fort DC 12; _onset_ 1 hour; _frequency_ 1/day; _effect_ 1d2 Dex and 1d2 Con damage; an infected creature who dies rises as a void zombie 2d4 hours later (see below); _cure_ 2 consecutive saves.
+**[Disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) (Ex)** _Void Death_: Bite—injury; _save_ Fort DC 12; _onset_ 1 hour; _frequency_ 1/day; _effect_ 1d2 Dex and 1d2 Con damage; an infected creature who dies rises as a void zombie 2d4 hours later (see below); _cure_ 2 consecutive saves.
 
 Akatas hail from a strange, distant planet that long ago succumbed to a cataclysmic end. Countless akatas clung to fragments of the dead planet, entering hibernation and riding these asteroids until they eventually crashed upon a new planet—akatas' cocoons protected them from the impact, and they soon awoke to seek out suitable hosts to spawn their young. Left untended, an akata scourge can quickly grow into a significant threat. A typical akata stands 3-1/2 feet tall and weighs 400 pounds.
 
 ## Void Zombie (CR +1)
 
-A humanoid killed by void death becomes a void zombie. A void zombie is a fast zombie (_Pathfinder RPG Bestiary _page 289) that gains a secondary âtongueâ attack (actually the larval akata's feeding tendril), dealing 1d6 points of damage. A void zombie also gains the following special attack.
+A humanoid killed by void death becomes a void zombie. A void zombie is a fast zombie (_Pathfinder RPG Bestiary _page 289) that gains a secondary “tongue” attack (actually the larval akata's feeding tendril), dealing 1d6 points of damage. A void zombie also gains the following special attack.
 
 **Blood Drain (Ex)** If a void zombie hits a living creature with its tongue attack, it drains blood, dealing 2 points of Strength damage before the tongue detaches.
 

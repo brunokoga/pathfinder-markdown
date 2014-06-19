@@ -6,9 +6,9 @@ _A single huge eye stares from the forehead of this nine-foot-tall giant. Below 
 
 **XP 1,600**
 
-NE Large [humanoid](creatureTypes.html#_humanoid) ( [giant](creatureTypes.html#_giant-type))
+NE Large [humanoid](creatureTypes.md#_humanoid) ( [giant](creatureTypes.md#_giant-type))
 
-**Init** –1; **Senses** low-light vision; [Perception](../skills/perception.html#_perception) +11
+**Init** –1; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +11
 
 **Defense**
 
@@ -18,7 +18,7 @@ NE Large [humanoid](creatureTypes.html#_humanoid) ( [giant](creatureTypes.html#_
 
 **Fort** +9, **Ref** +2, **Will** +4
 
-**Defensive Abilities** [ferocity](universalMonsterRules.html#_ferocity)
+**Defensive Abilities** [ferocity](universalMonsterRules.md#_ferocity)
 
 **Offense**
 
@@ -36,9 +36,9 @@ NE Large [humanoid](creatureTypes.html#_humanoid) ( [giant](creatureTypes.html#_
 
 **Base**  **Atk** +7; **CMB** +13; **CMD** 22
 
-**Feats** [Alertness](../feats.html#_alertness), [Cleave](../feats.html#_cleave), [Great Cleave](../feats.html#_great-cleave), [Improved Bull Rush](../feats.html#_improved-bull-rush), [Power Attack](../feats.html#_power-attack)
+**Feats** [Alertness](../feats.md#_alertness), [Cleave](../feats.md#_cleave), [Great Cleave](../feats.md#_great-cleave), [Improved Bull Rush](../feats.md#_improved-bull-rush), [Power Attack](../feats.md#_power-attack)
 
-**Skills** [Intimidate](../skills/intimidate.html#_intimidate) +9, [Perception](../skills/perception.html#_perception) +11, [Profession](../skills/profession.html#_profession) (soothsayer) +10 [Sense Motive](../skills/senseMotive.html#_sense-motive) +5, [Survival](../skills/survival.html#_survival) +6; **Racial Modifiers** +8 [Perception](../skills/perception.html#_perception)
+**Skills** [Intimidate](../skills/intimidate.md#_intimidate) +9, [Perception](../skills/perception.md#_perception) +11, [Profession](../skills/profession.md#_profession) (soothsayer) +10 [Sense Motive](../skills/senseMotive.md#_sense-motive) +5, [Survival](../skills/survival.md#_survival) +6; **Racial Modifiers** +8 [Perception](../skills/perception.md#_perception)
 
 **Languages** Common, Cyclops, Giant
 
@@ -62,5 +62,5 @@ The average cyclops stands 9 feet tall and weighs 600 pounds. Both males and fem
 
 Cyclopean history is a vanishing thing inscribed on the crumbling walls of vine-choked lost cities that fell long before even the rise of the elves, when dragons and giants ruled a landscape unspoiled by the petty ephemeral races that rule today. Because things have fallen so far, a given cyclops is less likely to know the near-mythic triumphs of lost ages than even a semi-educated human.
 
-Ancient records, the oral traditions of other giantish races, and the scattered accounts of tribal natives of the southern jungles speak of much larger, more primal âgreat cyclopes,â imposing titans with shaggy legs and a massive horn above an inquisitive eye. These creatures are thought to have been either the leaders or the war beasts of the ancient race, and modern cyclopes honor them as elusive, destructive living gods.
+Ancient records, the oral traditions of other giantish races, and the scattered accounts of tribal natives of the southern jungles speak of much larger, more primal “great cyclopes,” imposing titans with shaggy legs and a massive horn above an inquisitive eye. These creatures are thought to have been either the leaders or the war beasts of the ancient race, and modern cyclopes honor them as elusive, destructive living gods.
 

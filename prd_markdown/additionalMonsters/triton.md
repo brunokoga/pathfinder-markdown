@@ -6,9 +6,9 @@ This scaly, finned humanoid has an athletic build and blue-green coloration. Its
 
 **XP 600**
 
-NG Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [native](/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype), [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype))
+NG Medium [outsider](monsters/creatureTypes.md#_outsider) ( [native](monsters/creatureTypes.md#_native-subtype), [water](monsters/creatureTypes.md#_water-subtype))
 
-**Init** +0; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7
+**Init** +0; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +7
 
 Defense
 
@@ -28,7 +28,7 @@ Offense
 
 **Spell-Like Abilities** (CL 7th; concentration +7)
 
-1/day—_ [summon nature's ally II](/pathfinderRPG/prd/additionalMonsters/../spells/summonNatureSAlly.html#_summon-nature-s-ally-ii)_ (Small water elemental or 1d3 dolphins only)
+1/day—_ [summon nature's ally II](additionalMonsters/../spells/summonNatureSAlly.md#_summon-nature-s-ally-ii)_ (Small water elemental or 1d3 dolphins only)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +4; **CMD** 14
 
-**Feats** [Mounted Combat](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mounted-combat), [Ride-By Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_ride-by-attack)
+**Feats** [Mounted Combat](additionalMonsters/../feats.md#_mounted-combat), [Ride-By Attack](additionalMonsters/../feats.md#_ride-by-attack)
 
-**Skills** [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (any one) +7, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +6, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7, [Ride](/pathfinderRPG/prd/additionalMonsters/../skills/ride.html#_ride) +6, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +7, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +6, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +7, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +9
+**Skills** [Craft](additionalMonsters/../skills/craft.md#_craft) (any one) +7, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +6, [Perception](additionalMonsters/../skills/perception.md#_perception) +7, [Ride](additionalMonsters/../skills/ride.md#_ride) +6, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +7, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +6, [Survival](additionalMonsters/../skills/survival.md#_survival) +7, [Swim](additionalMonsters/../skills/swim.md#_swim) +9
 
 **Languages** Aquan, Common
 

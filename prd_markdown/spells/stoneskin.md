@@ -12,7 +12,7 @@
 
 **Duration** 10 min./level or until discharged
 
-**Saving Throw** [Will](../combat.html#_will) negates (harmless); **[Spell Resistance](../glossary.html#_spell-resistance)** yes (harmless)
+**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless)
 
-The warded creature gains resistance to blows, cuts, stabs, and slashes. The subject gains [DR](../glossary.html#_damage-reduction) 10/adamantine. It ignores the first 10 points of damage each time it takes damage from a weapon, though an adamantine weapon bypasses the reduction. Once the spell has prevented a total of 10 points of damage per caster level (maximum 150 points), it is discharged.
+The warded creature gains resistance to blows, cuts, stabs, and slashes. The subject gains [DR](../glossary.md#_damage-reduction) 10/adamantine. It ignores the first 10 points of damage each time it takes damage from a weapon, though an adamantine weapon bypasses the reduction. Once the spell has prevented a total of 10 points of damage per caster level (maximum 150 points), it is discharged.
 

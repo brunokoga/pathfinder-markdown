@@ -6,9 +6,9 @@ Blood-red spines run the length of this frightening creature, which resembles a 
 
 **XP 400**
 
-CN Small [aberration](/pathfinderRPG/prd/monsters/creatureTypes.html#_aberration) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+CN Small [aberration](monsters/creatureTypes.md#_aberration) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +5; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6
+**Init** +5; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +6
 
 Defense
 
@@ -18,15 +18,15 @@ Defense
 
 **Fort** +2, **Ref** +1, **Will** +4
 
-**Defensive Abilities** ferocity; **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 5
+**Defensive Abilities** ferocity; **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 5
 
 Offense
 
 **Speed** 5 ft., swim 40 ft.
 
-**Melee** 2 claws +2 (1d4 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab) and [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** 2 claws +2 (1d4 plus [grab](monsters/universalMonsterRules.md#_grab) and [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
-**Special Attacks** death frenzy, [constrict](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict) (1d4)
+**Special Attacks** death frenzy, [constrict](monsters/universalMonsterRules.md#_constrict) (1d4)
 
 Statistics
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +0 (+8 grapple); **CMD** 11 (can't be tripped)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative)
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +8
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +6, [Swim](additionalMonsters/../skills/swim.md#_swim) +8
 
 **Languages** Common (can't speak)
 
@@ -54,9 +54,9 @@ Special Abilities
 
 **Death Frenzy (Su)** When a reefclaw is killed, its body spasms horrifically. Immediately upon dying, the reefclaw makes a full attack against a creature it threatens. If more than one creature is within reach, roll randomly for each attack to determine the target (which may be another reefclaw).
 
-**[Grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab) (Ex)** A reefclaw can use its [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab) ability on a target of any size. Reefclaws have a +8 racial bonus on grapple checks; this bonus replaces the normal +4 bonus a creature with [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab) receives.
+**[Grab](monsters/universalMonsterRules.md#_grab) (Ex)** A reefclaw can use its [grab](monsters/universalMonsterRules.md#_grab) ability on a target of any size. Reefclaws have a +8 racial bonus on grapple checks; this bonus replaces the normal +4 bonus a creature with [grab](monsters/universalMonsterRules.md#_grab) receives.
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Claw—injury; _save_ Fort DC 13; _frequency_ 1/round for 4 rounds; _effect_ 1d2 Str; _cure_ 1 save. The save DC is Constitution-based.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Claw—injury; _save_ Fort DC 13; _frequency_ 1/round for 4 rounds; _effect_ 1d2 Str; _cure_ 1 save. The save DC is Constitution-based.
 
 Reefclaws are vicious predators. They possess greater intelligence than animals, but rely mainly on their strength and instincts to survive. They hunt fish, giant crabs, dolphins, and even land-dwelling creatures that come within a hundred paces of the water.
 

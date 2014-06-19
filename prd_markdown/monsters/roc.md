@@ -6,9 +6,9 @@ _This immense raptor unleashes a shrill cry as it bares its talons, each large e
 
 **XP 6,400**
 
-N Gargantuan [animal](creatureTypes.html#_animal)
+N Gargantuan [animal](creatureTypes.md#_animal)
 
-**Init** +6; **Senses** low-light vision; [Perception](../skills/perception.html#_perception) +15
+**Init** +6; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +15
 
 **Defense**
 
@@ -22,7 +22,7 @@ N Gargantuan [animal](creatureTypes.html#_animal)
 
 **Speed** 20 ft., fly 80 ft. (average)
 
-**Melee** 2 talons +18 (2d6+9/19–20 plus [grab](universalMonsterRules.html#_grab)), bite +17 (2d8+9)
+**Melee** 2 talons +18 (2d6+9/19–20 plus [grab](universalMonsterRules.md#_grab)), bite +17 (2d8+9)
 
 **Space** 20 ft.; **Reach** 15 ft.
 
@@ -32,9 +32,9 @@ N Gargantuan [animal](creatureTypes.html#_animal)
 
 **Base**  **Atk** +12; **CMB** +25 (+29 grapple); **CMD** 37
 
-**Feats** [Flyby Attack](monsterFeats.html#_flyby-attack), [Improved Critical](../feats.html#_improved-critical) (talons), [Improved Initiative](../feats.html#_improved-initiative), [Iron Will](../feats.html#_iron-will), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Power Attack](../feats.html#_power-attack), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception)), [Weapon Focus](../feats.html#_weapon-focus) (talons)
+**Feats** [Flyby Attack](monsterFeats.md#_flyby-attack), [Improved Critical](../feats.md#_improved-critical) (talons), [Improved Initiative](../feats.md#_improved-initiative), [Iron Will](../feats.md#_iron-will), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Power Attack](../feats.md#_power-attack), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Weapon Focus](../feats.md#_weapon-focus) (talons)
 
-**Skills** [Fly](../skills/fly.html#_fly) +7, [Perception](../skills/perception.html#_perception) +15
+**Skills** [Fly](../skills/fly.md#_fly) +7, [Perception](../skills/perception.md#_perception) +15
 
 **Ecology**
 

@@ -10,7 +10,7 @@ What a boon entails varies widely, depending not just on the NPC who provides it
 
 **Favor** : Any character of any class or social level might seek to aid their friends, with favors embodying such benefits. A shopkeeper granting a 10% discount on his goods, a nobleman using his influence to set up a meeting with a local lord, or a retired adventurer loaning someone his masterwork longbow all count as favors.
 
-**Skill** : Certain NPCs can share their expertise in specific fields or pass their influence on to others. Skill boons are minor bonuses on skill checks that an NPC might pass on to a favored PC. As a guideline, skill bonuses usually grant either a +2 bonus on a skill in a very specific situation—never on all uses of a skill—or a one-time +4 bonus on a specific skill check. For example, a famous merchant might give a character his signet ring, providing a +2 bonus on [Diplomacy](../skills/diplomacy.html#_diplomacy) checks made with other merchants in his home city's marketplace; a scholar of a lost city's lore might instruct a PC, granting her a +2 bonus on [Knowledge](../skills/knowledge.html#_knowledge) (history) checks made regarding that ruin; or a guardsman might even allow a friendly PC to call in a favor he has with a local pickpocket, granting a one-time +4 bonus on an [Intimidate](../skills/intimidate.html#_intimidate) check made against that individual.
+**Skill** : Certain NPCs can share their expertise in specific fields or pass their influence on to others. Skill boons are minor bonuses on skill checks that an NPC might pass on to a favored PC. As a guideline, skill bonuses usually grant either a +2 bonus on a skill in a very specific situation—never on all uses of a skill—or a one-time +4 bonus on a specific skill check. For example, a famous merchant might give a character his signet ring, providing a +2 bonus on [Diplomacy](../skills/diplomacy.md#_diplomacy) checks made with other merchants in his home city's marketplace; a scholar of a lost city's lore might instruct a PC, granting her a +2 bonus on [Knowledge](../skills/knowledge.md#_knowledge) (history) checks made regarding that ruin; or a guardsman might even allow a friendly PC to call in a favor he has with a local pickpocket, granting a one-time +4 bonus on an [Intimidate](../skills/intimidate.md#_intimidate) check made against that individual.
 
 **Unique** : The rarest of all boons, unique boons are special powers an NPC might grant that are exclusive to that character and fall outside the purview of his class's typical abilities. Unique boons are special abilities too minor to be part of a character's class abilities or so specific to a story's details as to require a GM's customization. A ghost who can grant a favored PC the power to see through her evil illusionist husband's illusions; a cleric of the god of light who can grant a blessing that causes an ally's weapons to deal an additional +1 point of damage on all attacks made against the shadowy creatures haunting the nearby catacombs; or an alchemist who can concoct a potion making the drinker immune to brown mold for 24 hours, all might be example of unique boons. As such boons have the most flexibility and the widest potential for exploitation, GMs should limit unique boons to be useful only once or to prove relevant for but a single adventure.
 
@@ -24,13 +24,13 @@ While users of divine magic are often regarded simply as healers, their wisdom a
 
 **Favor** : Letter of recommendation to lower-ranking priests, ordering them to help the PCs as required (granting the aid of a 1st-level adept hireling for 3 days).
 
-**Skill** : Favorable introductions to contacts in a local church, providing a PC a +2 bonus on [Diplomacy](../skills/diplomacy.html#_diplomacy) checks made to influence members of that specific church.
+**Skill** : Favorable introductions to contacts in a local church, providing a PC a +2 bonus on [Diplomacy](../skills/diplomacy.md#_diplomacy) checks made to influence members of that specific church.
 
-**Skill** : Proves especially knowledgeable in mysterious alchemical techniques, granting a PC a +4 bonus on one [Craft](../skills/craft.html#_craft) (alchemy) check made to create an alchemical item.
+**Skill** : Proves especially knowledgeable in mysterious alchemical techniques, granting a PC a +4 bonus on one [Craft](../skills/craft.md#_craft) (alchemy) check made to create an alchemical item.
 
 **Unique** : Can brew 4 unique potions that instantly heal the disease filth fever.
 
-**Unique** : Allows the PC to commune with the spirit animal of his tribe, granting the PC the ability to _ [speak with animals](../spells/speakWithAnimals.html#_speak-with-animals) _of a specific regional species once per day.
+**Unique** : Allows the PC to commune with the spirit animal of his tribe, granting the PC the ability to _ [speak with animals](../spells/speakWithAnimals.md#_speak-with-animals) _of a specific regional species once per day.
 
 # Aristocrat
 
@@ -40,9 +40,9 @@ Aristocrats vary in rank from village squires to emperors, with most having weal
 
 **Favor** : Use of influence to save the PCs from prosecution for a crime.
 
-**Skill** : Offering a day-long primer on local courtesy, granting the PC a +2 bonus on a [Knowledge](../skills/knowledge.html#_knowledge) (nobility) check for the city or region.
+**Skill** : Offering a day-long primer on local courtesy, granting the PC a +2 bonus on a [Knowledge](../skills/knowledge.md#_knowledge) (nobility) check for the city or region.
 
-**Skill** : Attends a character on his visit to the royal court, granting the PC a +4 [Sense Motive](../skills/senseMotive.html#_sense-motive) check on interactions with the court's members during that outing.
+**Skill** : Attends a character on his visit to the royal court, granting the PC a +4 [Sense Motive](../skills/senseMotive.md#_sense-motive) check on interactions with the court's members during that outing.
 
 **Unique** : Loans a ship and provides a crew for a voyage to a distant land.
 
@@ -54,11 +54,11 @@ Although not usual famous or wealthy, commoners have a wide variety of skills an
 
 **Favor** : Provides a room and prepares an elaborate feast in a PC's honor.
 
-**Favor** : Provides a 50% discount on a high quality, non-magical item made using one of his [Craft](../skills/craft.html#_craft) skills.
+**Favor** : Provides a 50% discount on a high quality, non-magical item made using one of his [Craft](../skills/craft.md#_craft) skills.
 
-**Skill** : Freely uses his highest [Craft](../skills/craft.html#_craft) or [Profession](../skills/profession.html#_profession) skill for the PC for a month of service (perhaps crewing a vehicle or ship, tending to a rare plant, or training an animal) .
+**Skill** : Freely uses his highest [Craft](../skills/craft.md#_craft) or [Profession](../skills/profession.md#_profession) skill for the PC for a month of service (perhaps crewing a vehicle or ship, tending to a rare plant, or training an animal) .
 
-**Skill** : Shares rural remedies, granting the PC a +2 bonus when using [Heal](../skills/heal.html#_heal) to treat diseases.
+**Skill** : Shares rural remedies, granting the PC a +2 bonus when using [Heal](../skills/heal.md#_heal) to treat diseases.
 
 **Unique** : Creates a map or leads a PC through the local wilderness to a secret location only he knows about.
 
@@ -72,9 +72,9 @@ Skilled craftsmen, professionals, and learned members of society regularly have 
 
 **Favor** : Can find a seller to buy any non-magic item or a buyer for any magic item.
 
-**Skill** : Grants access to an exceptionally well outfitted workspace, granting a PC a +4 bonus on a specific [Craft](../skills/craft.html#_craft) or [Profession](../skills/profession.html#_profession) check.
+**Skill** : Grants access to an exceptionally well outfitted workspace, granting a PC a +4 bonus on a specific [Craft](../skills/craft.md#_craft) or [Profession](../skills/profession.md#_profession) check.
 
-**Skill** : Teaches a PC a trick of the trade, granting a perpetual +1 bonus on one [Craft](../skills/craft.html#_craft) or [Profession](../skills/profession.html#_profession) check that the PC and expert share.
+**Skill** : Teaches a PC a trick of the trade, granting a perpetual +1 bonus on one [Craft](../skills/craft.md#_craft) or [Profession](../skills/profession.md#_profession) check that the PC and expert share.
 
 **Unique** : Obtains membership in a regional guild, providing a PC with a 10% discount on a certain kind of goods in a wide region.
 
@@ -88,9 +88,9 @@ Professional warriors typically have a wide range of experience and useful conta
 
 **Favor** : Can guard a precious object or hide it where none will find it.
 
-**Skill** : Relates his experience patrolling the local sewers, granting a PC a +2 bonus on [Knowledge](../skills/knowledge.html#_knowledge) (dungeoneering) checks in the city sewers.
+**Skill** : Relates his experience patrolling the local sewers, granting a PC a +2 bonus on [Knowledge](../skills/knowledge.md#_knowledge) (dungeoneering) checks in the city sewers.
 
-**Skill** : Provides information with which to blackmail a local criminal, granting a PC a +4 bonus on [Intimidate](../skills/intimidate.html#_intimidate) checks against local street thugs.
+**Skill** : Provides information with which to blackmail a local criminal, granting a PC a +4 bonus on [Intimidate](../skills/intimidate.md#_intimidate) checks against local street thugs.
 
 **Unique** : Can form a posse, bringing together a group of 2d4 low-level warriors to aid in one specific plan.
 

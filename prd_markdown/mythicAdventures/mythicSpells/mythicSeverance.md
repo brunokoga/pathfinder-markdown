@@ -1,6 +1,6 @@
 Mythic Severance
 
-**School** necromancy [[curse](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse)]; **Level** cleric 4, inquisitor 3, sorcerer/wizard 4, witch 4
+**School** necromancy [[curse](monsters/universalMonsterRules.md#_curse)]; **Level** cleric 4, inquisitor 3, sorcerer/wizard 4, witch 4
 
 **Casting Time** 1 standard action
 

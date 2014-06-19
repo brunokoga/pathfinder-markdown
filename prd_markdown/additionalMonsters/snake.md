@@ -6,9 +6,9 @@ Emperor CobraCR 5
 
 **XP 1,600**
 
-N Large [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Large [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +6; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +13
+**Init** +6; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +13
 
 Defense
 
@@ -22,7 +22,7 @@ Offense
 
 **Speed** 30 ft., climb 30 ft., swim 30 ft.
 
-**Melee** bite +10 (2d6+9 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** bite +10 (2d6+9 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -32,9 +32,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +11; **CMD** 23 (can't be tripped)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (bite)
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth.md#_stealth)), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +10, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +14, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +13, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +11, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +14; **Racial Modifiers** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics)+8, +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +10, [Climb](additionalMonsters/../skills/climb.md#_climb) +14, [Perception](additionalMonsters/../skills/perception.md#_perception) +13, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +11, [Swim](additionalMonsters/../skills/swim.md#_swim) +14; **Racial Modifiers** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics)+8, +4 [Perception](additionalMonsters/../skills/perception.md#_perception), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
 
 Ecology
 
@@ -46,7 +46,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 17; _frequency_ 1/round for 6 rounds; _effect_ 1d3 Con; _cure_ 2 consecutive saves.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 17; _frequency_ 1/round for 6 rounds; _effect_ 1d3 Con; _cure_ 2 consecutive saves.
 
 Infamous among travelers for its deadly poisonous bite, the emperor cobra is a foul-tempered snake typically encountered in bogs. The snake's scales are generally a dark green, with a pale green or even ivory underbelly. Its eyes are bright red and lack the distinctive serpentine slit most snake eyes possess. Emperor cobras are often trained to serve as guardians in temples. They are 16 feet long and weigh 200 pounds.
 
@@ -58,9 +58,9 @@ Giant AnacondaCR 10
 
 **XP 9,600**
 
-N Gargantuan [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal)
+N Gargantuan [animal](monsters/creatureTypes.md#_animal)
 
-**Init** +6; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +22
+**Init** +6; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +22
 
 Defense
 
@@ -74,11 +74,11 @@ Offense
 
 **Speed** 20 ft., climb 20 ft., swim 20 ft.
 
-**Melee** bite +19 (4d6+19/19–20 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +19 (4d6+19/19–20 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 20 ft.; **Reach** 20 ft.
 
-**Special Attacks** [constrict](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict) (4d6+19)
+**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) (4d6+19)
 
 Statistics
 
@@ -86,9 +86,9 @@ Statistics
 
 **Base Atk** +9; **CMB** +26 (+30 grapple); **CMD** 39 (can't be tripped)
 
-**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (bite)
+**Feats** [Dodge](additionalMonsters/../feats.md#_dodge), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception)), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite)
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +21, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +22, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +21
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +21, [Perception](additionalMonsters/../skills/perception.md#_perception) +22, [Swim](additionalMonsters/../skills/swim.md#_swim) +21
 
 Ecology
 

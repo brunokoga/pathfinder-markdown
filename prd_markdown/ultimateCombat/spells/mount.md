@@ -4,5 +4,5 @@ Mount, Communal
 
 **Effect** up to six mounts
 
-This spell functions like _ [mount](/pathfinderRPG/prd/spells/mount.html#_mount)_, except you can summon up to six light horses or ponies, and you divide the duration in 2-hour increments among the steeds summoned.
+This spell functions like _ [mount](spells/mount.md#_mount)_, except you can summon up to six light horses or ponies, and you divide the duration in 2-hour increments among the steeds summoned.
 

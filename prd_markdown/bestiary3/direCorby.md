@@ -8,7 +8,7 @@ XP 400
 
 NE Medium monstrous humanoid
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +6
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +6
 
 Defense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +3; **CMD** 14
 
-**Feats** [Blind-Fight](/pathfinderRPG/prd/feats.html#_blind-fight), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))
+**Feats** [Blind-Fight](feats.md#_blind-fight), [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth))
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +10, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +13, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +6, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +8; **Racial Modifiers** +8 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics), +2 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +10, [Climb](skills/climb.md#_climb) +13, [Perception](skills/perception.md#_perception) +6, [Stealth](skills/stealth.md#_stealth) +8; **Racial Modifiers** +8 [Acrobatics](skills/acrobatics.md#_acrobatics), +2 [Perception](skills/perception.md#_perception)
 
 **Languages** Undercommon
 
@@ -50,7 +50,7 @@ Ecology
 
 Special Abilities
 
-**Leap (Ex)** A dire corby can perform a special kind of [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce) attack by jumping into combat. When a dire corby charges, it can make a DC 20 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) check to jump into the [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype) and land next to its enemies. If it succeeds at this [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) check, it can make a full attack (two claw attacks, plus a rend attack if both claws hit) against foes in reach. If it fails, it can still make its one attack as normal for a charge.
+**Leap (Ex)** A dire corby can perform a special kind of [pounce](monsters/universalMonsterRules.md#_pounce) attack by jumping into combat. When a dire corby charges, it can make a DC 20 [Acrobatics](skills/acrobatics.md#_acrobatics) check to jump into the [air](monsters/creatureTypes.md#_air-subtype) and land next to its enemies. If it succeeds at this [Acrobatics](skills/acrobatics.md#_acrobatics) check, it can make a full attack (two claw attacks, plus a rend attack if both claws hit) against foes in reach. If it fails, it can still make its one attack as normal for a charge.
 
 Dire corbies are subterranean predators that resemble humanoid crows with muscular arms and fearsome claws. Though they make their cliff-side homes on the walls of underground chasms, where they climb and leap with death-defying agility, they are most frequently encountered in the tunnels where they wait to ambush prey, leaping down from the ceiling to rend and tear.
 

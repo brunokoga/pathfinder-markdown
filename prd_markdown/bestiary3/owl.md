@@ -8,7 +8,7 @@ XP 1,600
 
 LN Huge magical beast
 
-**Init** +5; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +17
+**Init** +5; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +17
 
 Defense
 
@@ -32,9 +32,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +13; **CMD** 25
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), [Improved Disarm](/pathfinderRPG/prd/feats.html#_improved-disarm)
+**Feats** [Alertness](feats.md#_alertness), [Combat Expertise](feats.md#_combat-expertise), [Improved Disarm](feats.md#_improved-disarm)
 
-**Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography) +10, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +10, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) +10, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +17, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +14, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +9; **Racial Modifiers** +4 [Fly](/pathfinderRPG/prd/skills/fly.html#_fly), +4 on all [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) skills, +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +8 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
+**Skills** [Fly](skills/fly.md#_fly) +11, [Knowledge](skills/knowledge.md#_knowledge) (geography) +10, [Knowledge](skills/knowledge.md#_knowledge) (history) +10, [Knowledge](skills/knowledge.md#_knowledge) (nature) +10, [Perception](skills/perception.md#_perception) +17, [Sense Motive](skills/senseMotive.md#_sense-motive) +14, [Stealth](skills/stealth.md#_stealth) +9; **Racial Modifiers** +4 [Fly](skills/fly.md#_fly), +4 on all [Knowledge](skills/knowledge.md#_knowledge) skills, +4 [Perception](skills/perception.md#_perception), +8 [Stealth](skills/stealth.md#_stealth)
 
 **Languages** Sylvan (cannot speak); animal telepathy (30 ft.)
 
@@ -50,11 +50,11 @@ Ecology
 
 Special Abilities
 
-**Animal Telepathy (Su)** A giant owl can telepathically communicate with other animals as if under the effects of _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_.
+**Animal Telepathy (Su)** A giant owl can telepathically communicate with other animals as if under the effects of _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_.
 
 **Insightful Senses (Su)** A giant owl's senses are particularly well honed to sensing danger or locating prey. It adds its Wisdom modifier as an insight bonus (+3 for most giant owls) on its initiative checks.
 
-**Piercing Stare (Su)** Up to three times per day as a swift action, a giant owl can gain the effects of _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_ (as the spell) for 1 round.
+**Piercing Stare (Su)** Up to three times per day as a swift action, a giant owl can gain the effects of _ [true seeing](spells/trueSeeing.md#_true-seeing)_ (as the spell) for 1 round.
 
 The noble giant owl roosts in the tallest trees or in high caves near its forest home. No mere animals, giant owls pride themselves as intellectuals and keen judges of character. Little passes a giant owl's notice in its home forest. What it doesn't observe directly, it learns from its wide network of animal informants. Giant owls view themselves more as watchers than participants, rarely interfering in the affairs of others barring a threat to their homes. Giant owls stand 18 feet tall and have 30-foot wingspans, yet they rarely weigh over 600 pounds.
 
@@ -68,7 +68,7 @@ XP 200
 
 N Small animal
 
-**Init** +2; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +10
+**Init** +2; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +10
 
 Defense
 
@@ -90,9 +90,9 @@ Statistics
 
 **Base Atk** +0; **CMB** –2; **CMD** 10
 
-**Feats** [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +6, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +10, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +10; **Racial Modifiers** +4 [Fly](/pathfinderRPG/prd/skills/fly.html#_fly), +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
+**Skills** [Fly](skills/fly.md#_fly) +6, [Perception](skills/perception.md#_perception) +10, [Stealth](skills/stealth.md#_stealth) +10; **Racial Modifiers** +4 [Fly](skills/fly.md#_fly), +4 [Perception](skills/perception.md#_perception), +4 [Stealth](skills/stealth.md#_stealth)
 
 Ecology
 

@@ -12,7 +12,7 @@
 
 **Duration** 1 min./level (D)
 
-**Saving Throw** [Will](../combat.html#_will) disbelief (if interacted with); **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** [Will](../combat.md#_will) disbelief (if interacted with); **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
 You can make your voice (or any sound that you can normally make vocally) seem to issue from someplace else. You can speak in any language you know. With respect to such voices and sounds, anyone who hears the sound and rolls a successful save recognizes it as illusory (but still hears it).
 

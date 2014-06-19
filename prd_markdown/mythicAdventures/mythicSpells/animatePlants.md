@@ -1,6 +1,6 @@
 Animate Plants
 
-**Source** [_animate plants_](/pathfinderRPG/prd/spells/animatePlants.html#_animate-plants)
+**Source** [_animate plants_](spells/animatePlants.md#_animate-plants)
 
-As _ [animate objects](/pathfinderRPG/prd/mythicAdventures/mythicSpells/animateObjects.html#_animate-objects-mythic)_.
+As _ [animate objects](mythicAdventures/mythicSpells/animateObjects.md#_animate-objects-mythic)_.
 

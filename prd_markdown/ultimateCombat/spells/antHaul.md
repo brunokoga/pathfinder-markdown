@@ -4,5 +4,5 @@ Ant Haul, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [ant haul](/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-)_, except you may divide the duration in 2-hour intervals among the creatures touched.
+This spell functions like _ [ant haul](advanced/spells/antHaul.md#_ant-haul-)_, except you may divide the duration in 2-hour intervals among the creatures touched.
 

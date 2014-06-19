@@ -6,9 +6,9 @@ _This long-tailed aquatic beast resembles a massive snapping turtle with draconi
 
 **XP 6,400**
 
-N Huge [dragon](creatureTypes.html#_dragon) ( [aquatic](creatureTypes.html#_aquatic-subtype))
+N Huge [dragon](creatureTypes.md#_dragon) ( [aquatic](creatureTypes.md#_aquatic-subtype))
 
-**Init** +4; **Senses** low-light vision, darkvision 60 ft., [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +16
+**Init** +4; **Senses** low-light vision, darkvision 60 ft., [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +16
 
 **Defense**
 
@@ -28,7 +28,7 @@ N Huge [dragon](creatureTypes.html#_dragon) ( [aquatic](creatureTypes.html#_aqua
 
 **Space** 15 ft.; **Reach** 10 ft.
 
-**Special Attacks** [breath weapon](universalMonsterRules.html#_breath-weapon), capsize
+**Special Attacks** [breath weapon](universalMonsterRules.md#_breath-weapon), capsize
 
 **Statistics**
 
@@ -36,9 +36,9 @@ N Huge [dragon](creatureTypes.html#_dragon) ( [aquatic](creatureTypes.html#_aqua
 
 **Base**  **Atk** +12; **CMB** +22; **CMD** 32 (36 vs. trip)
 
-**Feats** [Awesome Blow](monsterFeats.html#_awesome-blow), [Blind-Fight](../feats.html#_blind-fight), [Cleave](../feats.html#_cleave), [Improved Bull Rush](../feats.html#_improved-bull-rush), [Improved Initiative](../feats.html#_improved-initiative), [Power Attack](../feats.html#_power-attack)
+**Feats** [Awesome Blow](monsterFeats.md#_awesome-blow), [Blind-Fight](../feats.md#_blind-fight), [Cleave](../feats.md#_cleave), [Improved Bull Rush](../feats.md#_improved-bull-rush), [Improved Initiative](../feats.md#_improved-initiative), [Power Attack](../feats.md#_power-attack)
 
-**Skills** [Diplomacy](../skills/diplomacy.html#_diplomacy) +16, [Intimidate](../skills/intimidate.html#_intimidate) +16, [Perception](../skills/perception.html#_perception) +16, [Sense Motive](../skills/senseMotive.html#_sense-motive) +16, [Stealth](../skills/stealth.html#_stealth) +7 (+15 in water), [Survival](../skills/survival.html#_survival) +16, [Swim](../skills/swim.html#_swim) +31; **Racial Modifiers** +8 [Stealth](../skills/stealth.html#_stealth) in water
+**Skills** [Diplomacy](../skills/diplomacy.md#_diplomacy) +16, [Intimidate](../skills/intimidate.md#_intimidate) +16, [Perception](../skills/perception.md#_perception) +16, [Sense Motive](../skills/senseMotive.md#_sense-motive) +16, [Stealth](../skills/stealth.md#_stealth) +7 (+15 in water), [Survival](../skills/survival.md#_survival) +16, [Swim](../skills/swim.md#_swim) +31; **Racial Modifiers** +8 [Stealth](../skills/stealth.md#_stealth) in water
 
 **Languages** Aquan, Common, Draconic
 
@@ -54,7 +54,7 @@ N Huge [dragon](creatureTypes.html#_dragon) ( [aquatic](creatureTypes.html#_aqua
 
 **Breath Weapon (Su)** Cloud of steam 20 feet high, 25 feet wide, and 50 feet long, once every 1d4 rounds, damage 12d6 fire, Reflex DC 20 half; effective both on the surface and underwater. The save DC is Constitution-based.
 
-**Capsize (Ex)** A dragon turtle can attempt to capsize a boat or ship by ramming it as a charge attack and making a CMB check. The DC of this check is 25, or the result of the boat captain's [Profession](../skills/profession.html#_profession) (sailor) check, whichever is higher. For each size category larger than the dragon turtle's size, it takes a cumulative –10 penalty on this CMB check.
+**Capsize (Ex)** A dragon turtle can attempt to capsize a boat or ship by ramming it as a charge attack and making a CMB check. The DC of this check is 25, or the result of the boat captain's [Profession](../skills/profession.md#_profession) (sailor) check, whichever is higher. For each size category larger than the dragon turtle's size, it takes a cumulative –10 penalty on this CMB check.
 
 Dragon turtles make their homes in both salt and fresh water, where they rank among the biggest threats to sailors and those who travel by ship through the waterways of the world. Skilled mariners know the territory dragon turtles claim and frequently make offerings of gold and magic for safe passage or avoid the area entirely. For its part, a dragon turtle quickly grows to appreciate and even expect such tithes and gifts, and a dragon turtle that expects gifts but is ignored is a dangerous foe indeed.
 

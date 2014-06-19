@@ -12,7 +12,7 @@
 
 **Duration** 1 hour/level (D)
 
-**Saving Throw** [Will](../combat.html#_will) negates (harmless); **[Spell Resistance](../glossary.html#_spell-resistance)** yes (harmless)
+**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless)
 
-The subject or subjects of this spell do not leave footprints or a [scent](../glossary.html#_scent) trail while moving. Tracking the subjects is impossible by nonmagical means.
+The subject or subjects of this spell do not leave footprints or a [scent](../glossary.md#_scent) trail while moving. Tracking the subjects is impossible by nonmagical means.
 

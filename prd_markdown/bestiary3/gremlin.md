@@ -6,9 +6,9 @@ Fuath CR 1
 
 XP 400
 
-CE Tiny fey ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+CE Tiny fey ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +5; **Senses** darkvision 120 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
+**Init** +5; **Senses** darkvision 120 ft., low-light vision; [Perception](skills/perception.md#_perception) +5
 
 Defense
 
@@ -18,9 +18,9 @@ Defense
 
 **Fort** +1, **Ref** +3, **Will** +3
 
-**DR** 5/cold iron; **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10; **SR** 12
+**DR** 5/cold iron; **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10; **SR** 12
 
-**Weaknesses** vulnerable to [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) and sunlight
+**Weaknesses** vulnerable to [fire](monsters/creatureTypes.md#_fire-subtype) and sunlight
 
 Offense
 
@@ -30,13 +30,13 @@ Offense
 
 **Ranged** dart +3 (1d2–2)
 
-**Special Attacks** congeal [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype)
+**Special Attacks** congeal [water](monsters/creatureTypes.md#_water-subtype)
 
 **Spell-Like Abilities** (CL 1st; concentration +0)
 
-At will—_ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_
+At will—_ [create water](spells/createWater.md#_create-water)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_
 
-1/day—_ [sleep](/pathfinderRPG/prd/spells/sleep.html#_sleep)_ (DC 10)
+1/day—_ [sleep](spells/sleep.md#_sleep)_ (DC 10)
 
 Statistics
 
@@ -44,9 +44,9 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 7
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)B, [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)B
+**Feats** [Improved Initiative](feats.md#_improved-initiative), [Toughness](feats.md#_toughness)B, [Weapon Finesse](feats.md#_weapon-finesse)B
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +6, [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +5, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +4, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +13, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +10, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +3; **Racial Modifiers** +4 [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal)
+**Skills** [Climb](skills/climb.md#_climb) +6, [Escape Artist](skills/escapeArtist.md#_escape-artist) +5, [Handle Animal](skills/handleAnimal.md#_handle-animal) +4, [Perception](skills/perception.md#_perception) +5, [Stealth](skills/stealth.md#_stealth) +13, [Swim](skills/swim.md#_swim) +10, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +3; **Racial Modifiers** +4 [Handle Animal](skills/handleAnimal.md#_handle-animal)
 
 **Languages** Aquan
 
@@ -54,7 +54,7 @@ Statistics
 
 Ecology
 
-**Environment** any [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype)
+**Environment** any [water](monsters/creatureTypes.md#_water-subtype)
 
 **Organization** solitary, pair, mob (3–12), or school (13–20 with 1–3 druids of 1st–3rd level, 1 druid leader of 4th–6th level, and 2–5 reefclaws)
 
@@ -62,13 +62,13 @@ Ecology
 
 Special Abilities
 
-**Congeal [Water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) (Su)** Once per day, a fuath can surround a creature in a thin layer of magically viscous [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) as a standard action at a range of 30 feet. A target that fails a DC 10 Reflex save becomes entangled and must hold its breath or risk drowning. The target or an adjacent creature can spend a full-round action on its turn scraping off the clinging fluid, allowing a new Reflex save with a +2 bonus; otherwise, the effect lasts for 1d4 minutes. A fuath can use this ability even if there is no source of [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) nearby. The save DC is Charisma-based and includes a +1 racial bonus.
+**Congeal [Water](monsters/creatureTypes.md#_water-subtype) (Su)** Once per day, a fuath can surround a creature in a thin layer of magically viscous [water](monsters/creatureTypes.md#_water-subtype) as a standard action at a range of 30 feet. A target that fails a DC 10 Reflex save becomes entangled and must hold its breath or risk drowning. The target or an adjacent creature can spend a full-round action on its turn scraping off the clinging fluid, allowing a new Reflex save with a +2 bonus; otherwise, the effect lasts for 1d4 minutes. A fuath can use this ability even if there is no source of [water](monsters/creatureTypes.md#_water-subtype) nearby. The save DC is Charisma-based and includes a +1 racial bonus.
 
-**Vulnerable to Sunlight (Ex)** A fuath takes 1 point of Constitution damage after every hour it is exposed to sunlight. [Water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype) of a depth of at least 1 foot negates this harmful effect.
+**Vulnerable to Sunlight (Ex)** A fuath takes 1 point of Constitution damage after every hour it is exposed to sunlight. [Water](monsters/creatureTypes.md#_water-subtype) of a depth of at least 1 foot negates this harmful effect.
 
 Drowners of sailors and sinkers of ships, a fuath (FOO-ah) is a wicked gremlin found in the sea. It climbs aboard ships in the dead of night to sever ropes, bore holes in barrels, soil provisions, and murder any hapless crew it puts to sleep or catches alone. It delights in drowning creatures by surrounding them with magically thickened water, cackling with wicked glee as its victims claw desperately for the air only inches from their mouths.
 
 A fuath wears seaweed, shells, and coral like other creatures wear armor, clothes, and jewelry. Its body is protected by a hard, hunchbacked carapace. It stands less than 2 feet tall and weighs 12 to 15 pounds.
 
-Fuaths don't share a common language with other types of gremlins, though they can pantomime to each other fairly effectively. They have a surprising rapport with other sea creatures, even foul-tempered beasts like reefclaws. Small groups of fuaths lair in sea caves or rocky crevices. Larger groups frequently lay claim to whole sections of ruined ships. Their lairs usually include several trained guard animals. Fuaths prefer the taste of âland-meatâ to anything from the sea, and often raid shore and ships to slake their hunger. They adore sea hags to the point of worship.
+Fuaths don't share a common language with other types of gremlins, though they can pantomime to each other fairly effectively. They have a surprising rapport with other sea creatures, even foul-tempered beasts like reefclaws. Small groups of fuaths lair in sea caves or rocky crevices. Larger groups frequently lay claim to whole sections of ruined ships. Their lairs usually include several trained guard animals. Fuaths prefer the taste of “land-meat” to anything from the sea, and often raid shore and ships to slake their hunger. They adore sea hags to the point of worship.
 

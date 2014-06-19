@@ -12,13 +12,13 @@
 
 **Duration** one usage per two levels
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
-This spell creates an ethereal passage through wooden, plaster, or stone walls, but not other materials. The _phase door _is [invisible](../glossary.html#_invisible) and inaccessible to all creatures except you, and only you can use the passage. You disappear when you enter the _phase door _and appear when you exit. If you desire, you can take one other creature (Medium or smaller) through the door. This counts as two uses of the door. The door does not allow light, sound, or spell effects through it, nor can you see through it without using it. Thus, the spell can provide an escape route, though certain creatures, such as phase spiders, can follow with ease. A _gem of [true seeing](trueSeeing.html#_true-seeing) _or similar magic reveals the presence of a _phase door _but does not allow its use.
+This spell creates an ethereal passage through wooden, plaster, or stone walls, but not other materials. The _phase door _is [invisible](../glossary.md#_invisible) and inaccessible to all creatures except you, and only you can use the passage. You disappear when you enter the _phase door _and appear when you exit. If you desire, you can take one other creature (Medium or smaller) through the door. This counts as two uses of the door. The door does not allow light, sound, or spell effects through it, nor can you see through it without using it. Thus, the spell can provide an escape route, though certain creatures, such as phase spiders, can follow with ease. A _gem of [true seeing](trueSeeing.md#_true-seeing) _or similar magic reveals the presence of a _phase door _but does not allow its use.
 
-A _phase door _is subject to _ [dispel magic](dispelMagic.html#_dispel-magic). _If anyone is within the passage when it is dispelled, he is harmlessly ejected just as if he were inside a _ [passwall](passwall.html#_passwall) _effect.
+A _phase door _is subject to _ [dispel magic](dispelMagic.md#_dispel-magic). _If anyone is within the passage when it is dispelled, he is harmlessly ejected just as if he were inside a _ [passwall](passwall.md#_passwall) _effect.
 
 You can allow other creatures to use the _phase door _by setting some triggering condition for the door. Such conditions can be as simple or elaborate as you desire. They can be based on a creature's name, identity, or alignment, but otherwise must be based on observable actions or qualities. Intangibles such as level, class, HD, and hit points don't qualify.
 
-_Phase door _can be made permanent with a _ [permanency](permanency.html#_permanency) _spell.
+_Phase door _can be made permanent with a _ [permanency](permanency.md#_permanency) _spell.
 

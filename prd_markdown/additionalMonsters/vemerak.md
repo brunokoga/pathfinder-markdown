@@ -6,9 +6,9 @@ This huge monstrosity seems like some alien, clawed insect, with vaguely humanoi
 
 **XP 38,400**
 
-CE Huge [aberration](/pathfinderRPG/prd/monsters/creatureTypes.html#_aberration)
+CE Huge [aberration](monsters/creatureTypes.md#_aberration)
 
-**Init** +7; **Senses** darkvision 60 ft., tremorsense 30 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +23
+**Init** +7; **Senses** darkvision 60 ft., tremorsense 30 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +23
 
 **Aura** spore cloud (30 ft.)
 
@@ -20,18 +20,18 @@ Defense
 
 **Fort** +13, **Ref** +8, **Will** +13
 
-**DR** 5/—; **Immune** acid, electricity, [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), mind-affecting, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** sonic 20; **SR** 25
+**DR** 5/—; **Immune** acid, electricity, [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), mind-affecting, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** sonic 20; **SR** 25
 
 Offense
 
 **Speed** 40 ft., burrow 20 ft., climb 40 ft.
 
-**Melee** bite +22 (2d6+11), 2 claws +22 (1d8+11 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)),   
-3 tentacles +19 (1d6+5 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +22 (2d6+11), 2 claws +22 (1d8+11 plus [grab](monsters/universalMonsterRules.md#_grab)),   
+3 tentacles +19 (1d6+5 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (90-foot line, 14d8 acid damage, DC 24 half, once every 1d4 rounds), [constrict](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict) (tentacles 1d6+5 or claws 1d8+11), earthquake
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (90-foot line, 14d8 acid damage, DC 24 half, once every 1d4 rounds), [constrict](monsters/universalMonsterRules.md#_constrict) (tentacles 1d6+5 or claws 1d8+11), earthquake
 
 Statistics
 
@@ -39,9 +39,9 @@ Statistics
 
 **Base Atk** +12; **CMB** +25 (+29 grapple); **CMD** 38 (50 vs. trip)
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_awesome-blow), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Improved Bull Rush](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (bite), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (claws)
+**Feats** [Awesome Blow](additionalMonsters/../monsters/monsterFeats.md#_awesome-blow), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Toughness](additionalMonsters/../feats.md#_toughness), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (claws)
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +19, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +23
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +19, [Perception](additionalMonsters/../skills/perception.md#_perception) +23
 
 **Languages** Aklo
 
@@ -55,11 +55,11 @@ Ecology
 
 Special Abilities
 
-**[Breath Weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (Su)** A vemerak's acidic [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) has no effect on inorganic or [undead](/pathfinderRPG/prd/monsters/creatureTypes.html#_undead) material. If the [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) deals damage to a living fleshy creature, the acid creates a transparent cloud of foul-smelling vapor that fills that creature's space and persists for 1 round. Any creature in or passing through the cloud must make a DC 24 Fortitude save or be nauseated for 1d4 rounds. This cloud is a [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) effect. The save DCs are Constitution-based.
+**[Breath Weapon](monsters/universalMonsterRules.md#_breath-weapon) (Su)** A vemerak's acidic [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) has no effect on inorganic or [undead](monsters/creatureTypes.md#_undead) material. If the [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) deals damage to a living fleshy creature, the acid creates a transparent cloud of foul-smelling vapor that fills that creature's space and persists for 1 round. Any creature in or passing through the cloud must make a DC 24 Fortitude save or be nauseated for 1d4 rounds. This cloud is a [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) effect. The save DCs are Constitution-based.
 
-**Earthquake (Su)** As a full-round action, a vemerak can burrow its tentacles, legs, and mouth into the ground—this action does not provoke attacks of opportunity. At the start of the next round, it creates an effect identical to an _ [earthquake](/pathfinderRPG/prd/additionalMonsters/../spells/earthquake.html#_earthquake)_ spell (CL 17th). A vemerak can maintain this zone of trembling [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype) indefinitely, as long as it continues to take full-round actions to maintain the effect.
+**Earthquake (Su)** As a full-round action, a vemerak can burrow its tentacles, legs, and mouth into the ground—this action does not provoke attacks of opportunity. At the start of the next round, it creates an effect identical to an _ [earthquake](additionalMonsters/../spells/earthquake.md#_earthquake)_ spell (CL 17th). A vemerak can maintain this zone of trembling [earth](monsters/creatureTypes.md#_earth-subtype) indefinitely, as long as it continues to take full-round actions to maintain the effect.
 
-**Spore Cloud (Su)** A unique form of magic-resistant mold grows upon the body of a vemerak. This mold is the source of the vemerak's spell [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance). When the vemerak moves, the mold exudes a cloud of spores in a 30-foot radius that acts as a targeted _ [greater dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic-greater)_ (CL 17th) against the highest caster level magical effect the cloud touches as part of the vemerak's move that turn.
+**Spore Cloud (Su)** A unique form of magic-resistant mold grows upon the body of a vemerak. This mold is the source of the vemerak's spell [resistance](monsters/universalMonsterRules.md#_resistance). When the vemerak moves, the mold exudes a cloud of spores in a 30-foot radius that acts as a targeted _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_ (CL 17th) against the highest caster level magical effect the cloud touches as part of the vemerak's move that turn.
 
 Huge and otherworldly, the vemerak is a monster known as much for its disturbing appearance as its violent and cruel disposition.
 

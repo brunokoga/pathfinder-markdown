@@ -6,9 +6,9 @@ _This eerie horse-like creature's skin is an inky blackness. Fire spurts from it
 
 **XP 1,600**
 
-NE Large [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_evil-subtype), [extraplanar](creatureTypes.html#_extraplanar-subtype))
+NE Large [outsider](creatureTypes.md#_outsider) ( [evil](creatureTypes.md#_evil-subtype), [extraplanar](creatureTypes.md#_extraplanar-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +12
+**Init** +6; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +12
 
 **Defense**
 
@@ -30,7 +30,7 @@ NE Large [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_e
 
 **Spell-Like Abilities** (CL 6th)
 
-1/day (self plus 1 rider only)—_ [plane shift](../spells/planeShift.html#_plane-shift)_
+1/day (self plus 1 rider only)—_ [plane shift](../spells/planeShift.md#_plane-shift)_
 
 **Statistics**
 
@@ -38,9 +38,9 @@ NE Large [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_e
 
 **Base**  **Atk** +6; **CMB** +11; **CMD** 23 (27 vs. trip)
 
-**Feats** [Alertness](../feats.html#_alertness), [Improved Initiative](../feats.html#_improved-initiative), [Run](../feats.html#_run)
+**Feats** [Alertness](../feats.md#_alertness), [Improved Initiative](../feats.md#_improved-initiative), [Run](../feats.md#_run)
 
-**Skills** [Fly](../skills/fly.html#_fly) +13, [Intimidate](../skills/intimidate.html#_intimidate) +10, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +10, [Perception](../skills/perception.html#_perception) +12, [Sense Motive](../skills/senseMotive.html#_sense-motive) +12, [Stealth](../skills/stealth.html#_stealth) +7, [Survival](../skills/survival.html#_survival) +10
+**Skills** [Fly](../skills/fly.md#_fly) +13, [Intimidate](../skills/intimidate.md#_intimidate) +10, [Knowledge](../skills/knowledge.md#_knowledge) (planes) +10, [Perception](../skills/perception.md#_perception) +12, [Sense Motive](../skills/senseMotive.md#_sense-motive) +12, [Stealth](../skills/stealth.md#_stealth) +7, [Survival](../skills/survival.md#_survival) +10
 
 **Languages** Abyssal, Infernal
 
@@ -54,11 +54,11 @@ NE Large [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_e
 
 **Special Abilities**
 
-**Smoke (Su)** In battle, a nightmare exhales smoke that chokes and blinds foes, filling a 15-foot cone each round as a free action. Anyone in the cone must succeed on a DC 16 Fortitude save or become sickened until 1d6 minutes after leaving the area. This smoke acts as _ [obscuring mist](../spells/obscuringMist.html#_obscuring-mist)_ for the purposes of concealment. The smoke persists for 1 round. The save DC is Constitution-based.
+**Smoke (Su)** In battle, a nightmare exhales smoke that chokes and blinds foes, filling a 15-foot cone each round as a free action. Anyone in the cone must succeed on a DC 16 Fortitude save or become sickened until 1d6 minutes after leaving the area. This smoke acts as _ [obscuring mist](../spells/obscuringMist.md#_obscuring-mist)_ for the purposes of concealment. The smoke persists for 1 round. The save DC is Constitution-based.
 
 Nightmares are flaming harbingers of death. They allow only the most evil of creatures to ride them, and are never mere mounts, but rather willing partners in destruction.
 
-The cauchemar is a more dangerous variant of the nightmare, particularly valued for its ability to enter the Ethereal Plane with its rider in addition to being able to use _ [plane shift](../spells/planeShift.html#_plane-shift)_ to invade other realities.
+The cauchemar is a more dangerous variant of the nightmare, particularly valued for its ability to enter the Ethereal Plane with its rider in addition to being able to use _ [plane shift](../spells/planeShift.md#_plane-shift)_ to invade other realities.
 
 # Nightmare, Cauchemar
 
@@ -68,9 +68,9 @@ _This towering, burning equine stands upon smoking hooves. Hellfire shimmers in 
 
 **XP 12,800**
 
-NE Huge [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_evil-subtype), [extraplanar](creatureTypes.html#_extraplanar-subtype))
+NE Huge [outsider](creatureTypes.md#_outsider) ( [evil](creatureTypes.md#_evil-subtype), [extraplanar](creatureTypes.md#_extraplanar-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +22
+**Init** +6; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +22
 
 **Defense**
 
@@ -92,7 +92,7 @@ NE Huge [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_ev
 
 **Spell-Like Abilities** (CL 15th)
 
-1/hour (self plus 1 rider only)—_ [ethereal jaunt](../spells/etherealJaunt.html#_ethereal-jaunt)_, _ [plane shift](../spells/planeShift.html#_plane-shift)_
+1/hour (self plus 1 rider only)—_ [ethereal jaunt](../spells/etherealJaunt.md#_ethereal-jaunt)_, _ [plane shift](../spells/planeShift.md#_plane-shift)_
 
 **Statistics**
 
@@ -100,9 +100,9 @@ NE Huge [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_ev
 
 **Base Atk** +14; **CMB** +26; **CMD** 38 (42 vs. trip)
 
-**Feats** [Alertness](../feats.html#_alertness), [Cleave](../feats.html#_cleave), [Improved Initiative](../feats.html#_improved-initiative), [Improved Overrun](../feats.html#_improved-overrun), [Iron Will](../feats.html#_iron-will), [Power Attack](../feats.html#_power-attack), [Run](../feats.html#_run)
+**Feats** [Alertness](../feats.md#_alertness), [Cleave](../feats.md#_cleave), [Improved Initiative](../feats.md#_improved-initiative), [Improved Overrun](../feats.md#_improved-overrun), [Iron Will](../feats.md#_iron-will), [Power Attack](../feats.md#_power-attack), [Run](../feats.md#_run)
 
-**Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +19, [Bluff](../skills/bluff.html#_bluff) +18, [Fly](../skills/fly.html#_fly) +19, [Intimidate](../skills/intimidate.html#_intimidate) +18, [Knowledge](../skills/knowledge.html#_knowledge) (arcana, planes) +20, [Perception](../skills/perception.html#_perception) +22, [Sense Motive](../skills/senseMotive.html#_sense-motive) +22, [Stealth](../skills/stealth.html#_stealth) +11
+**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +19, [Bluff](../skills/bluff.md#_bluff) +18, [Fly](../skills/fly.md#_fly) +19, [Intimidate](../skills/intimidate.md#_intimidate) +18, [Knowledge](../skills/knowledge.md#_knowledge) (arcana, planes) +20, [Perception](../skills/perception.md#_perception) +22, [Sense Motive](../skills/senseMotive.md#_sense-motive) +22, [Stealth](../skills/stealth.md#_stealth) +11
 
 **Languages** Abyssal, Infernal
 

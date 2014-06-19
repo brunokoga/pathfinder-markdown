@@ -14,5 +14,5 @@ See Alignment
 
 When you cast this spell, select a single alignment (such as lawful good or chaotic evil). Creatures of that alignment glow with a ghostly radiance while they are within your vision. Though you can see this radiance, other creatures cannot.
 
-Spells and effects that obscure alignment, like _ [undetectable alignment](/pathfinderRPG/prd/spells/undetectableAlignment.html#_undetectable-alignment)_, also obscure the effects of this spell.
+Spells and effects that obscure alignment, like _ [undetectable alignment](spells/undetectableAlignment.md#_undetectable-alignment)_, also obscure the effects of this spell.
 

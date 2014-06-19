@@ -8,7 +8,7 @@ XP 2,400
 
 N Medium construct
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8
+**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +8
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +2, **Ref** +5, **Will** +2
 
-**DR** 5/bludgeoning; **Immune** construct traits, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype); **SR** 17
+**DR** 5/bludgeoning; **Immune** construct traits, [fire](monsters/creatureTypes.md#_fire-subtype); **SR** 17
 
 Offense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +8; **CMB** +11; **CMD** 24
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Two Weapon Fighting](/pathfinderRPG/prd/feats.html#_two-weapon-fighting), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (longsword, shortsword)
+**Feats** [Improved Initiative](feats.md#_improved-initiative), [Two Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Focus](feats.md#_weapon-focus) (longsword, shortsword)
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8
+**Skills** [Perception](skills/perception.md#_perception) +8
 
 Ecology
 
@@ -48,7 +48,7 @@ Ecology
 
 Special Abilities
 
-**Keen Weapons (Su)** After it has engaged in at least 1 round of combat, a terra-cotta soldier's weapons automatically gain the benefits of _ [keen](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-keen) weapon_ (CL 6th). This effect persists until the end of the battle.
+**Keen Weapons (Su)** After it has engaged in at least 1 round of combat, a terra-cotta soldier's weapons automatically gain the benefits of _ [keen](magicItems/weapons.md#_weapons-keen) weapon_ (CL 6th). This effect persists until the end of the battle.
 
 **Rank Fighting (Ex)** Whenever a terra-cotta soldier is adjacent to another terra-cotta soldier, it gains a +2 dodge bonus to its AC and a +2 bonus on saving throws, attack rolls, and damage rolls.
 
@@ -56,9 +56,9 @@ A terra-cotta soldier is crafted from clay and fired into ceramic, and is usuall
 
 Unlike most constructs, a terra-cotta soldier carries within its form a spark of intelligence. This is hardly enough to grant the construct the ability to speak or otherwise engage in free will, but it is enough for it to carry out more complex tactics than most constructs are capable of. It's not unusual for a terra-cotta soldier to possess different feats or use different weapons. Two relatively common variants are summarized below.
 
-**Terra-Cotta Archer (+0 CR)** : Terra-cotta archers are simply terra-cotta soldiers outfitted with composite longbows. Terra-cotta archers have [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), [Precise Shot](/pathfinderRPG/prd/feats.html#_precise-shot), and [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (longbow) as feats.
+**Terra-Cotta Archer (+0 CR)** : Terra-cotta archers are simply terra-cotta soldiers outfitted with composite longbows. Terra-cotta archers have [Improved Initiative](feats.md#_improved-initiative), [Point-Blank Shot](feats.md#_point-blank-shot), [Precise Shot](feats.md#_precise-shot), and [Weapon Focus](feats.md#_weapon-focus) (longbow) as feats.
 
-**Terra-Cotta Horseman (+1 CR)** : Some terra-cotta soldiers are crafted to resemble warriors mounted on terra-cotta horses, though rider and mount are one creature. Terra-cotta horsemen are Large terra-cotta soldiers with 10 racial Hit Dice and the trample and undersized weapons special abilities. Terra-cotta horsemen are usually outfitted with lances instead of swords, and have [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Improved Overrun](/pathfinderRPG/prd/feats.html#_improved-overrun), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), and [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (lance) as feats.
+**Terra-Cotta Horseman (+1 CR)** : Some terra-cotta soldiers are crafted to resemble warriors mounted on terra-cotta horses, though rider and mount are one creature. Terra-cotta horsemen are Large terra-cotta soldiers with 10 racial Hit Dice and the trample and undersized weapons special abilities. Terra-cotta horsemen are usually outfitted with lances instead of swords, and have [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Initiative](feats.md#_improved-initiative), [Improved Overrun](feats.md#_improved-overrun), [Power Attack](feats.md#_power-attack), and [Weapon Focus](feats.md#_weapon-focus) (lance) as feats.
 
 # Construction
 
@@ -70,5 +70,5 @@ Terra-cotta Soldier
 
 Construction
 
-**Requirements** [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _ [geas/quest](/pathfinderRPG/prd/spells/geasQuest.html#_geas-quest)_, _ [keen edge](/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge)_, creator must be caster level 9th; **Skill** [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (pottery) or [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (sculptures) DC 14; **Cost** 10,000 gp
+**Requirements** [Craft Construct](monsters/monsterFeats.md#_craft-construct), _ [animate objects](spells/animateObjects.md#_animate-objects)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [geas/quest](spells/geasQuest.md#_geas-quest)_, _ [keen edge](spells/keenEdge.md#_keen-edge)_, creator must be caster level 9th; **Skill** [Craft](skills/craft.md#_craft) (pottery) or [Craft](skills/craft.md#_craft) (sculptures) DC 14; **Cost** 10,000 gp
 

@@ -55,25 +55,25 @@ All Tools Vest
 
 **Price** 1,800 gp; **Aura** faint conjuration; **CL** 1st; **Weight** 5 lbs.
 
-This well-made leather vest bears numerous shiny metal buttons, which stud a number of bulging pockets. Once per day, as a standard action, the wearer can speak the vest's command word and order it to bring forth all the standard tools required to make checks for any one [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) skill. These tools appear in the countless pockets of the vest or, if too heavy, on the floor, on a nearby shelf, on a workbench, or in a toolbox or cupboard that appears nearby. Once summoned, they remain for 24 hours or until another creature touches them, whichever comes first.
+This well-made leather vest bears numerous shiny metal buttons, which stud a number of bulging pockets. Once per day, as a standard action, the wearer can speak the vest's command word and order it to bring forth all the standard tools required to make checks for any one [Craft](skills/craft.md#_craft) skill. These tools appear in the countless pockets of the vest or, if too heavy, on the floor, on a nearby shelf, on a workbench, or in a toolbox or cupboard that appears nearby. Once summoned, they remain for 24 hours or until another creature touches them, whichever comes first.
 
 Construction Requirements
 
 **Cost** 900 gp
 
-Craft Wondrous Item, _ [summon instrument](/pathfinderRPG/prd/spells/summonInstrument.html#_summon-instrument)_
+Craft Wondrous Item, _ [summon instrument](spells/summonInstrument.md#_summon-instrument)_
 
 Bandages of Rapid Recovery
 
 **Price** 200 gp; **Aura** faint conjuration; **CL** 1st; **Weight** 1 lb.
 
-These linen bandages have the same color and softness as the feathers of a dove, but their antiseptic smell suggests a less natural origin. Any creature wrapped in these bandages recovers from wounds and ability damage each day as if receiving complete bed rest, regardless of activity . A creature actually receiving long-term care (from the [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) skill) or complete bed rest while wearing the bandages gains a +4 bonus to its effective level or Hit Dice when determining how many hit points it recovers each day. The bandages are destroyed once removed or when the wearer recovers all hit points and ability damage, whichever comes first.
+These linen bandages have the same color and softness as the feathers of a dove, but their antiseptic smell suggests a less natural origin. Any creature wrapped in these bandages recovers from wounds and ability damage each day as if receiving complete bed rest, regardless of activity . A creature actually receiving long-term care (from the [Heal](skills/heal.md#_heal) skill) or complete bed rest while wearing the bandages gains a +4 bonus to its effective level or Hit Dice when determining how many hit points it recovers each day. The bandages are destroyed once removed or when the wearer recovers all hit points and ability damage, whichever comes first.
 
 Construction Requirements
 
 **Cost** 100 gp
 
-Craft Wondrous Item, _ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_, _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_
+Craft Wondrous Item, _ [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, _ [lesser restoration](spells/restoration.md#_restoration-lesser)_, _ [stabilize](spells/stabilize.md#_stabilize)_
 
 Bane Baldric
 
@@ -85,19 +85,19 @@ Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item, _ [summon monster I](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i)_, creator must be an inquisitor
+Craft Wondrous Item, _ [summon monster I](spells/summonMonster.md#_summon-monster-i)_, creator must be an inquisitor
 
 Cackling Hag's Blouse
 
 **Price** 6,000 gp; **Aura** faint enchantment; **CL** 3rd; **Weight** 2 lbs.
 
-This loose-fitting blouse is adorned with grotesque fetishes and trophies, granting the wearer a +2 competence bonus on [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks. If the wearer is a witch, she gains the cackle hex. If the wearer already has the cackle hex, twice per day she can use her cackle ability as a swift action instead of a move action.
+This loose-fitting blouse is adorned with grotesque fetishes and trophies, granting the wearer a +2 competence bonus on [Intimidate](skills/intimidate.md#_intimidate) checks. If the wearer is a witch, she gains the cackle hex. If the wearer already has the cackle hex, twice per day she can use her cackle ability as a swift action instead of a move action.
 
 Construction Requirements
 
 **Cost** 3,000 gp
 
-Craft Wondrous Item, _ [hideous laughter](/pathfinderRPG/prd/spells/hideousLaughter.html#_hideous-laughter)_ or the cackle hex, creator must have 5 ranks in [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate)
+Craft Wondrous Item, _ [hideous laughter](spells/hideousLaughter.md#_hideous-laughter)_ or the cackle hex, creator must have 5 ranks in [Intimidate](skills/intimidate.md#_intimidate)
 
 Deadshot Vest
 
@@ -105,13 +105,13 @@ Deadshot Vest
 
 This rough vest of black snakeskin is decorated with a fringe of rawhide tassels, each knotted around a bit of bone or a small animal skull. A gunslinger with the deadeye deed reduces the grit point cost to use that deed by 1 (minimum 1 grit).
 
-In addition, once per day when the wearer reduces a creature to 0 or fewer hit points with a firearm she can use _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)_ (Will DC 13 negates) against that target as a swift action. She does not have to touch the target to activate this ability, but her range increment penalty for shooting the target also applies to the saving throw DC of the _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)_ (for example, if the range increment penalty is –2, the DC is 11).
+In addition, once per day when the wearer reduces a creature to 0 or fewer hit points with a firearm she can use _ [death knell](spells/deathKnell.md#_death-knell)_ (Will DC 13 negates) against that target as a swift action. She does not have to touch the target to activate this ability, but her range increment penalty for shooting the target also applies to the saving throw DC of the _ [death knell](spells/deathKnell.md#_death-knell)_ (for example, if the range increment penalty is –2, the DC is 11).
 
 Construction Requirements
 
 **Cost** 3,000 gp
 
-Craft Wondrous Item, _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_
+Craft Wondrous Item, _ [death knell](spells/deathKnell.md#_death-knell)_, _ [true strike](spells/trueStrike.md#_true-strike)_
 
 Endless Bandolier
 
@@ -123,7 +123,7 @@ Construction Requirements
 
 **Cost** 750 gp
 
-Craft Wondrous Item, _ [secret chest](/pathfinderRPG/prd/spells/secretChest.html#_secret-chest)_
+Craft Wondrous Item, _ [secret chest](spells/secretChest.md#_secret-chest)_
 
 Mantle of Faith
 
@@ -135,7 +135,7 @@ Construction Requirements
 
 **Cost** 38,000 gp
 
-Craft Wondrous Item, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_
+Craft Wondrous Item, _ [stoneskin](spells/stoneskin.md#_stoneskin)_
 
 Mantle of Immortality
 
@@ -147,7 +147,7 @@ Construction Requirements
 
 **Cost** 25,000 gp
 
-Craft Wondrous Item, _ [greater age resistance](/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-greater)_
+Craft Wondrous Item, _ [greater age resistance](ultimateMagic/spells/ageResistance.md#_age-resistance,-greater)_
 
 Mantle of Spell Resistance
 
@@ -159,7 +159,7 @@ Construction Requirements
 
 **Cost** 45,000 gp
 
-Craft Wondrous Item, _ [spell resistance](/pathfinderRPG/prd/magicItems/armor.html#_armor-spell-resistance)_
+Craft Wondrous Item, _ [spell resistance](magicItems/armor.md#_armor-spell-resistance)_
 
 Merciful Baldric
 
@@ -171,7 +171,7 @@ Construction Requirements
 
 **Cost** 30,000 gp
 
-Craft Wondrous Item, [Extra Mercy](/pathfinderRPG/prd/feats.html#_extra-mercy), _ [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease), [remove curse](/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse), _creator must be lawful good
+Craft Wondrous Item, [Extra Mercy](feats.md#_extra-mercy), _ [remove disease](spells/removeDisease.md#_remove-disease), [remove curse](spells/removeCurse.md#_remove-curse), _creator must be lawful good
 
 Poisoner's Jacket, Greater
 
@@ -183,7 +183,7 @@ Construction Requirements
 
 **Cost** 29,000 gp
 
-Craft Wondrous Item, _ [major creation](/pathfinderRPG/prd/spells/majorCreation.html#_major-creation)_, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_
+Craft Wondrous Item, _ [major creation](spells/majorCreation.md#_major-creation)_, _ [poison](spells/poison.md#_poison)_
 
 Poisoner's Jacket, Lesser
 
@@ -195,19 +195,19 @@ Construction Requirements
 
 **Cost** 6,000 gp
 
-Craft Wondrous Item, _ [minor creation](/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation)_, _ [poison](/pathfinderRPG/prd/spells/poison.html#_poison)_
+Craft Wondrous Item, _ [minor creation](spells/minorCreation.md#_minor-creation)_, _ [poison](spells/poison.md#_poison)_
 
 Prophet's Pectoral
 
 **Price** 6,000 gp; **Aura** faint divination; **CL** 3rd; **Weight** 1 lb.
 
-The sacred stones, graven star-patterns, and wisdom-writings of the ancients on this chestplate increase the wearer's chance of success with _ [augury](/pathfinderRPG/prd/spells/augury.html#_augury)_, _ [divination](/pathfinderRPG/prd/spells/divination.html#_divination)_, and _ [contact other plane](/pathfinderRPG/prd/spells/contactOtherPlane.html#_contact-other-plane)._ The wearer adds 1d6 to the d% roll each time she uses such a spell. When casting _ [commune](/pathfinderRPG/prd/spells/commune.html#_commune)_ or _ [commune with nature](/pathfinderRPG/prd/spells/communeWithNature.html#_commune-with-nature)_, the wearer may ask one additional question or gain one additional piece of information.
+The sacred stones, graven star-patterns, and wisdom-writings of the ancients on this chestplate increase the wearer's chance of success with _ [augury](spells/augury.md#_augury)_, _ [divination](spells/divination.md#_divination)_, and _ [contact other plane](spells/contactOtherPlane.md#_contact-other-plane)._ The wearer adds 1d6 to the d% roll each time she uses such a spell. When casting _ [commune](spells/commune.md#_commune)_ or _ [commune with nature](spells/communeWithNature.md#_commune-with-nature)_, the wearer may ask one additional question or gain one additional piece of information.
 
 Construction Requirements
 
 **Cost** 3,000 gp
 
-Craft Wondrous Item, _ [divination](/pathfinderRPG/prd/spells/divination.html#_divination)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_
+Craft Wondrous Item, _ [divination](spells/divination.md#_divination)_, _ [guidance](spells/guidance.md#_guidance)_
 
 Quick Runner's Shirt
 
@@ -219,7 +219,7 @@ Construction Requirements
 
 **Cost** 500 gp
 
-Craft Wondrous Item, _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_
+Craft Wondrous Item, _ [haste](spells/haste.md#_haste)_
 
 Resplendent Uniform Coat
 
@@ -231,7 +231,7 @@ Construction Requirements
 
 **Cost** 3,500 gp
 
-Craft Wondrous Item, _ [heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism)_
+Craft Wondrous Item, _ [heroism](spells/heroism.md#_heroism)_
 
 Sash of the War Champion
 
@@ -243,7 +243,7 @@ Construction Requirements
 
 **Cost** 2,000 gp
 
-Craft Wondrous Item, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _ [remove fear](/pathfinderRPG/prd/spells/removeFear.html#_remove-fear)_
+Craft Wondrous Item, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [remove fear](spells/removeFear.md#_remove-fear)_
 
 Shirt of Immolation
 
@@ -255,7 +255,7 @@ Construction Requirements
 
 **Cost** 4,000 gp
 
-Craft Wondrous Item, _ [fire shield](/pathfinderRPG/prd/spells/fireShield.html#_fire-shield)_
+Craft Wondrous Item, _ [fire shield](spells/fireShield.md#_fire-shield)_
 
 Sipping Jacket
 
@@ -267,7 +267,7 @@ Construction Requirements
 
 **Cost** 2,500 gp
 
-Craft Wondrous Item, _ [amplify elixir](/pathfinderRPG/prd/advanced/spells/amplifyElixir.html#_amplify-elixir)_
+Craft Wondrous Item, _ [amplify elixir](advanced/spells/amplifyElixir.md#_amplify-elixir)_
 
 Snakeskin Tunic
 
@@ -279,19 +279,19 @@ Construction Requirements
 
 **Cost** 4,000 gp
 
-Craft Wondrous Item, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _ [delay poison](/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison)_
+Craft Wondrous Item, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_
 
 Spectral Shroud
 
 **Price** 26,000 gp; **Aura** moderate necromancy; **CL** 5th; **Weight** —
 
-This thin, bleached cloth covers the wearer's entire torso. Some also cover the wearer's face, but don't interfere with the wearer's vision. The morbid burial shroud grants the wearer some affinity with the spectral dead. The wearer can discern invisible or ethereal creatures as though using _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_. Once per day, the wearer can become incorporeal for 10 rounds and gain a fly speed equal to half his base speed with perfect maneuverability. The wearer can't attack while incorporeal, but can dismiss the effect as a move action.
+This thin, bleached cloth covers the wearer's entire torso. Some also cover the wearer's face, but don't interfere with the wearer's vision. The morbid burial shroud grants the wearer some affinity with the spectral dead. The wearer can discern invisible or ethereal creatures as though using _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_. Once per day, the wearer can become incorporeal for 10 rounds and gain a fly speed equal to half his base speed with perfect maneuverability. The wearer can't attack while incorporeal, but can dismiss the effect as a move action.
 
 Construction Requirements
 
 **Cost** 13,000 gp
 
-Craft Wondrous Item, _ [hide from undead](/pathfinderRPG/prd/spells/hideFromUndead.html#_hide-from-undead), [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
+Craft Wondrous Item, _ [hide from undead](spells/hideFromUndead.md#_hide-from-undead), [see invisibility](spells/seeInvisibility.md#_see-invisibility)_
 
 Tunic of Careful Casting
 
@@ -303,19 +303,19 @@ Construction Requirements
 
 **Cost** 2,500 gp
 
-Craft Wondrous Item, [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting)
+Craft Wondrous Item, [Combat Casting](feats.md#_combat-casting)
 
 Tunic of Deadly Might
 
 **Price** 6,000 gp; **Aura** faint evocation; **CL** 3rd; **Weight** 2 lbs.
 
-This tunic is crafted from golden thread, and has silver-hemmed sleeves. The wearer gains a +2 bonus to Combat Maneuver Defense against disarm and sunder combat maneuvers. If the wearer is a samurai, twice per day as a swift action he can apply the effects of the _ [thundering](/pathfinderRPG/prd/magicItems/weapons.html#_thundering)_ weapon special ability to a successful critical hit against the target of his challenge.
+This tunic is crafted from golden thread, and has silver-hemmed sleeves. The wearer gains a +2 bonus to Combat Maneuver Defense against disarm and sunder combat maneuvers. If the wearer is a samurai, twice per day as a swift action he can apply the effects of the _ [thundering](magicItems/weapons.md#_thundering)_ weapon special ability to a successful critical hit against the target of his challenge.
 
 Construction Requirements
 
 **Cost** 3,000 gp
 
-Craft Wondrous Item, _ [blindness/deafness](/pathfinderRPG/prd/spells/blindnessDeafness.html#_blindness-deafness)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_
+Craft Wondrous Item, _ [blindness/deafness](spells/blindnessDeafness.md#_blindness-deafness)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_
 
 Unfettered Shirt
 
@@ -323,25 +323,25 @@ Unfettered Shirt
 
 This loose, often ruffled, shirt is cut in a style designed to avoid hindering its wearer's movement.
 
-Once per day on command, the wearer can gain the benefits of _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_ for 10 minutes.
+Once per day on command, the wearer can gain the benefits of _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_ for 10 minutes.
 
 Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item, _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_
+Craft Wondrous Item, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_
 
 Vest of Escape
 
 **Price** 5,200 gp; **Aura** faint conjuration and transmutation; **CL** 4th; **Weight** —
 
-This simple silk vest looks nondescript, but is actually studded with numerous secret pockets sewn into its lining. Hidden inside these are magic lockpicks that provide a +4 competence bonus on [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) checks. The vest also grants its wearer a +6 competence bonus on [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) checks.
+This simple silk vest looks nondescript, but is actually studded with numerous secret pockets sewn into its lining. Hidden inside these are magic lockpicks that provide a +4 competence bonus on [Disable Device](skills/disableDevice.md#_disable-device) checks. The vest also grants its wearer a +6 competence bonus on [Escape Artist](skills/escapeArtist.md#_escape-artist) checks.
 
 Construction Requirements
 
 **Cost** 2,600 gp
 
-Craft Wondrous Item, _ [knock](/pathfinderRPG/prd/spells/knock.html#_knock)_, _ [grease](/pathfinderRPG/prd/spells/grease.html#_grease)_
+Craft Wondrous Item, _ [knock](spells/knock.md#_knock)_, _ [grease](spells/grease.md#_grease)_
 
 Vest of Stable Mutation
 
@@ -353,19 +353,19 @@ Construction Requirements
 
 **Cost** 10,000 gp
 
-Craft Wondrous Item, _ [eagle's splendor](/pathfinderRPG/prd/spells/eagleSSplendor.html#_eagle-s-splendor)_, _ [fox's cunning](/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning)_, _ [owl's wisdom](/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom)_, creator must be an alchemist
+Craft Wondrous Item, _ [eagle's splendor](spells/eagleSSplendor.md#_eagle-s-splendor)_, _ [fox's cunning](spells/foxSCunning.md#_fox-s-cunning)_, _ [owl's wisdom](spells/owlSWisdom.md#_owl-s-wisdom)_, creator must be an alchemist
 
 Vest of Surgery
 
 **Price** 3,000 gp; **Aura** faint conjuration; **CL** 5th; **Weight** 4 lbs.
 
-This emerald vest has four prominent and bulging pockets along its front. The wearer is always treated as if using a healer's kit when making [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) checks . Once per day, the wearer can make a DC 20 [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) check as if attempting to treat deadly wounds. If the check is successful, it cures 1d4 points of ability damage instead of hit point damage.
+This emerald vest has four prominent and bulging pockets along its front. The wearer is always treated as if using a healer's kit when making [Heal](skills/heal.md#_heal) checks . Once per day, the wearer can make a DC 20 [Heal](skills/heal.md#_heal) check as if attempting to treat deadly wounds. If the check is successful, it cures 1d4 points of ability damage instead of hit point damage.
 
 Construction Requirements
 
 **Cost** 1,500 gp
 
-Craft Wondrous Item, _ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_, creator must have 5 ranks in [Heal](/pathfinderRPG/prd/skills/heal.html#_heal)
+Craft Wondrous Item, _ [lesser restoration](spells/restoration.md#_restoration-lesser)_, creator must have 5 ranks in [Heal](skills/heal.md#_heal)
 
 Vest of the Cockroach
 
@@ -377,7 +377,7 @@ Construction Requirements
 
 **Cost** 8,000 gp
 
-Craft Wondrous Item, _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_
+Craft Wondrous Item, _ [false life](spells/falseLife.md#_false-life)_
 
 Vest of the Vengeful Tracker
 
@@ -389,5 +389,5 @@ Construction Requirements
 
 **Cost** 3,000 gp
 
-Craft Wondrous Item, _ [commune with nature](/pathfinderRPG/prd/spells/communeWithNature.html#_commune-with-nature)_
+Craft Wondrous Item, _ [commune with nature](spells/communeWithNature.md#_commune-with-nature)_
 

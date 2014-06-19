@@ -8,7 +8,7 @@ XP 6,400
 
 LG Large magical beast
 
-**Init** +7; **Senses** darkvision 60 ft., _ [detect chaos](/pathfinderRPG/prd/spells/detectChaos.html#_detect-chaos)_, _ [detect evil](/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil)_, low-light vision, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +20
+**Init** +7; **Senses** darkvision 60 ft., _ [detect chaos](spells/detectChaos.md#_detect-chaos)_, _ [detect evil](spells/detectEvil.md#_detect-evil)_, low-light vision, _ [true seeing](spells/trueSeeing.md#_true-seeing)_; [Perception](skills/perception.md#_perception) +20
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +12, **Ref** +14, **Will** +11
 
-**Defensive Abilities** prescience; **DR** 10/evil; **Resist** electricity 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 20
+**Defensive Abilities** prescience; **DR** 10/evil; **Resist** electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 20
 
 Offense
 
@@ -28,15 +28,15 @@ Offense
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [trample](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_trample) (2d6+10, DC 22)
+**Special Attacks** [trample](monsters/universalMonsterRules.md#_trample) (2d6+10, DC 22)
 
 **Spell-Like Abilities** (CL 12th; concentration +18)
 
-Constant— _ [detect chaos](/pathfinderRPG/prd/spells/detectChaos.html#_detect-chaos)_, _ [detect evil](/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+Constant— _ [detect chaos](spells/detectChaos.md#_detect-chaos)_, _ [detect evil](spells/detectEvil.md#_detect-evil)_, _ [true seeing](spells/trueSeeing.md#_true-seeing)_
 
-3/day—empowered _ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds), [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [magic circle against evil](/pathfinderRPG/prd/spells/magicCircleAgainstEvil.html#_magic-circle-against-evil)_, _ [remove disease](/pathfinderRPG/prd/spells/removeDisease.html#_remove-disease)_, _ [shield other](/pathfinderRPG/prd/spells/shieldOther.html#_shield-other)_
+3/day—empowered _ [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds), [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [magic circle against evil](spells/magicCircleAgainstEvil.md#_magic-circle-against-evil)_, _ [remove disease](spells/removeDisease.md#_remove-disease)_, _ [shield other](spells/shieldOther.md#_shield-other)_
 
-1/day—_ [dismissal](/pathfinderRPG/prd/spells/dismissal.html#_dismissal)_ (DC 18), _ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 18), _ [restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration)_
+1/day—_ [dismissal](spells/dismissal.md#_dismissal)_ (DC 18), _ [flame strike](spells/flameStrike.md#_flame-strike)_ (DC 18), _ [restoration](spells/restoration.md#_restoration)_
 
 Statistics
 
@@ -44,9 +44,9 @@ Statistics
 
 **Base Atk** +11; **CMB** +19 (+23 bull rush); **CMD** 30 (32 vs. bull rush, 34 vs. trip)
 
-**Feats** [Empower Spell-Like Ability](/pathfinderRPG/prd/monsters/monsterFeats.html#_empower-spell-like-ability) (_ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_), [Greater Bull Rush](/pathfinderRPG/prd/feats.html#_greater-bull-rush), [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (gore), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack)
+**Feats** [Empower Spell-Like Ability](monsters/monsterFeats.md#_empower-spell-like-ability) (_ [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_), [Greater Bull Rush](feats.md#_greater-bull-rush), [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Critical](feats.md#_improved-critical) (gore), [Iron Will](feats.md#_iron-will), [Power Attack](feats.md#_power-attack)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +15, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +13, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +15, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +15, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +20, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +17
+**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +15, [Fly](skills/fly.md#_fly) +13, [Knowledge](skills/knowledge.md#_knowledge) (planes) +15, [Knowledge](skills/knowledge.md#_knowledge) (religion) +15, [Perception](skills/perception.md#_perception) +20, [Sense Motive](skills/senseMotive.md#_sense-motive) +17
 
 **Languages** Auran, Celestial, Common; telepathy 100 ft.
 

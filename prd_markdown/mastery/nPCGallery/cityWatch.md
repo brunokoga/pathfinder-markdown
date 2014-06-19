@@ -10,7 +10,7 @@ Human warrior 3
 
 LN Medium humanoid
 
-**Init** +0; **Senses** [Perception](../../skills/perception.html#_perception) +3
+**Init** +0; **Senses** [Perception](../../skills/perception.md#_perception) +3
 
 **Defense**
 
@@ -34,19 +34,19 @@ LN Medium humanoid
 
 **Base Atk** +3; **CMB** +5 (+7 sunder); **CMD** 15 (17 vs. sunder)
 
-**Feats** [Alertness](../../feats.html#_alertness), [Improved Sunder](../../feats.html#_improved-sunder), [Power Attack](../../feats.html#_power-attack)
+**Feats** [Alertness](../../feats.md#_alertness), [Improved Sunder](../../feats.md#_improved-sunder), [Power Attack](../../feats.md#_power-attack)
 
-**Skills** [Intimidate](../../skills/intimidate.html#_intimidate) +5, [Perception](../../skills/perception.html#_perception) +3, [Ride](../../skills/ride.html#_ride) –3, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +2
+**Skills** [Intimidate](../../skills/intimidate.md#_intimidate) +5, [Perception](../../skills/perception.md#_perception) +3, [Ride](../../skills/ride.md#_ride) –3, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +2
 
 **Languages** Common
 
-**Combat Gear** _potions of [cure light wounds](../../spells/cureLightWounds.html#_cure-light-wounds) _(2); **Other Gear** half-plate, heavy crossbow with 10 bolts, halberd, heavy flail, sap, 5 gp
+**Combat Gear** _potions of [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds) _(2); **Other Gear** half-plate, heavy crossbow with 10 bolts, halberd, heavy flail, sap, 5 gp
 
 **Boon** A guard can give accurate directions to any non-secret location in the city and can allow a PC to enter or leave through a gate after hours or without paying a gate tax.
 
 Guards of the city watch are vigilant soldiers, dedicated to keeping the peace and maintaining order. They defend the city walls and gates against external threats, but they also stand ready to break up fights and brawls, disarming or sundering weapons drawn in anger, forcing unruly citizens apart, and tending the wounded.
 
-Different types of guards may be created with lighter armor (breastplates and heavy shields) and one-handed weapons (battle axes or longswords). Replacing guards' halberds with glaives, guisarmes, or ranseurs gives them a reach attack. Outfitting guards with pikes makes a group of pikemen, while giving them tower shields and short swords creates crossbowmen for a siege. Temple guards can replace [Improved Sunder](../../feats.html#_improved-sunder) with [Exotic Weapon Proficiency](../../feats.html#_exotic-weapon-proficiency) (two-bladed sword). Prison guards might replace [Improved Sunder](../../feats.html#_improved-sunder) with [Improved Unarmed Strike](../../feats.html#_improved-unarmed-strike) and [Power Attack](../../feats.html#_power-attack) with [Exotic Weapon Proficiency](../../feats.html#_exotic-weapon-proficiency) (whip). Four guards and a turnkey (CR 6) or a torturer (CR 7) can provide security for a small prison or dungeon.
+Different types of guards may be created with lighter armor (breastplates and heavy shields) and one-handed weapons (battle axes or longswords). Replacing guards' halberds with glaives, guisarmes, or ranseurs gives them a reach attack. Outfitting guards with pikes makes a group of pikemen, while giving them tower shields and short swords creates crossbowmen for a siege. Temple guards can replace [Improved Sunder](../../feats.md#_improved-sunder) with [Exotic Weapon Proficiency](../../feats.md#_exotic-weapon-proficiency) (two-bladed sword). Prison guards might replace [Improved Sunder](../../feats.md#_improved-sunder) with [Improved Unarmed Strike](../../feats.md#_improved-unarmed-strike) and [Power Attack](../../feats.md#_power-attack) with [Exotic Weapon Proficiency](../../feats.md#_exotic-weapon-proficiency) (whip). Four guards and a turnkey (CR 6) or a torturer (CR 7) can provide security for a small prison or dungeon.
 
 Guards may be encountered alone, in pairs (CR 3), in groups of four (CR 5), or as a patrol of six accompanied by a guard officer (CR 7), depending on how dangerous their city or neighborhood is.
 
@@ -58,7 +58,7 @@ Human fighter 4
 
 LN Medium humanoid
 
-**Init** +1; **Senses** [Perception](../../skills/perception.html#_perception) +3
+**Init** +1; **Senses** [Perception](../../skills/perception.md#_perception) +3
 
 **Defense**
 
@@ -86,17 +86,17 @@ LN Medium humanoid
 
 **Base Atk** +4; **CMB** +7; **CMD** 18
 
-**Feats** [Combat Reflexes](../../feats.html#_combat-reflexes), [Dazzling Display](../../feats.html#_dazzling-display), [Exotic Weapon Proficiency](../../feats.html#_exotic-weapon-proficiency) (net), [Skill Focus](../../feats.html#_skill-focus) ( [Intimidate](../../skills/intimidate.html#_intimidate)), [Weapon Focus](../../feats.html#_weapon-focus) (guisarme), [Weapon Specialization](../../feats.html#_weapon-specialization) (guisarme)
+**Feats** [Combat Reflexes](../../feats.md#_combat-reflexes), [Dazzling Display](../../feats.md#_dazzling-display), [Exotic Weapon Proficiency](../../feats.md#_exotic-weapon-proficiency) (net), [Skill Focus](../../feats.md#_skill-focus) ( [Intimidate](../../skills/intimidate.md#_intimidate)), [Weapon Focus](../../feats.md#_weapon-focus) (guisarme), [Weapon Specialization](../../feats.md#_weapon-specialization) (guisarme)
 
-**Skills** [Intimidate](../../skills/intimidate.html#_intimidate) +11, [Perception](../../skills/perception.html#_perception) +3, [Ride](../../skills/ride.html#_ride) +2, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +2
+**Skills** [Intimidate](../../skills/intimidate.md#_intimidate) +11, [Perception](../../skills/perception.md#_perception) +3, [Ride](../../skills/ride.md#_ride) +2, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +2
 
 **Languages** Common
 
 **SQ** armor training 1
 
-**Combat Gear** _potion of [cure light wounds](../../spells/cureLightWounds.html#_cure-light-wounds)_; **Other Gear** full plate, masterwork guisarme, javelin, nets (2), sap
+**Combat Gear** _potion of [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_; **Other Gear** full plate, masterwork guisarme, javelin, nets (2), sap
 
-**Boon** A guard officer can alert the PCs to local customs, traditions, tricks, and suspicious activity, granting a +2 bonus for 24 hours on opposed [Perception](../../skills/perception.html#_perception) and [Sense Motive](../../skills/senseMotive.html#_sense-motive) checks within the city. She can also arrange a meeting with a watch captain for the PCs.
+**Boon** A guard officer can alert the PCs to local customs, traditions, tricks, and suspicious activity, granting a +2 bonus for 24 hours on opposed [Perception](../../skills/perception.md#_perception) and [Sense Motive](../../skills/senseMotive.md#_sense-motive) checks within the city. She can also arrange a meeting with a watch captain for the PCs.
 
 Guard officers supervise guards in their duties and respond to major disturbances, using their grim demeanors and skill at arms to quell conflict. They coordinate well in battle with the guards under their command, rounding up troublemakers and preventing their escape.
 
@@ -112,7 +112,7 @@ Human fighter 7
 
 LN Medium humanoid
 
-**Init** +1; **Senses** [Perception](../../skills/perception.html#_perception) +6
+**Init** +1; **Senses** [Perception](../../skills/perception.md#_perception) +6
 
 **Defense**
 
@@ -140,21 +140,21 @@ LN Medium humanoid
 
 **Base Atk** +7; **CMB** +11 (+15 trip); **CMD** 22 (24 vs. trip)
 
-**Feats** [Alertness](../../feats.html#_alertness), [Combat Expertise](../../feats.html#_combat-expertise), [Dazzling Display](../../feats.html#_dazzling-display), [Greater Trip](../../feats.html#_greater-trip), [Improved Trip](../../feats.html#_improved-trip), [Iron Will](../../feats.html#_iron-will), [Persuasive](../../feats.html#_persuasive), [Weapon Focus](../../feats.html#_weapon-focus) (halberd), [Weapon Specialization](../../feats.html#_weapon-specialization) (halberd)
+**Feats** [Alertness](../../feats.md#_alertness), [Combat Expertise](../../feats.md#_combat-expertise), [Dazzling Display](../../feats.md#_dazzling-display), [Greater Trip](../../feats.md#_greater-trip), [Improved Trip](../../feats.md#_improved-trip), [Iron Will](../../feats.md#_iron-will), [Persuasive](../../feats.md#_persuasive), [Weapon Focus](../../feats.md#_weapon-focus) (halberd), [Weapon Specialization](../../feats.md#_weapon-specialization) (halberd)
 
-**Skills** [Diplomacy](../../skills/diplomacy.html#_diplomacy) +5, [Handle Animal](../../skills/handleAnimal.html#_handle-animal) +4, [Intimidate](../../skills/intimidate.html#_intimidate) +12, [Knowledge](../../skills/knowledge.html#_knowledge) (engineering) +5, [Perception](../../skills/perception.html#_perception) +6, [Profession](../../skills/profession.html#_profession) (soldier) +5, [Ride](../../skills/ride.html#_ride) +2, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +8
+**Skills** [Diplomacy](../../skills/diplomacy.md#_diplomacy) +5, [Handle Animal](../../skills/handleAnimal.md#_handle-animal) +4, [Intimidate](../../skills/intimidate.md#_intimidate) +12, [Knowledge](../../skills/knowledge.md#_knowledge) (engineering) +5, [Perception](../../skills/perception.md#_perception) +6, [Profession](../../skills/profession.md#_profession) (soldier) +5, [Ride](../../skills/ride.md#_ride) +2, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +8
 
 **Languages** Common, Halfling
 
 **SQ** armor training 2
 
-**Combat Gear** _potions of [cure moderate wounds](../../spells/cureModerateWounds.html#_cure-moderate-wounds)_ (2), tanglefoot bags (2); **Other Gear** masterwork full plate, _+1 halberd_, composite longbow (+4 Str) with 20 arrows, sap,_ [cloak of resistance](../../magicItems/wondrousItems.html#_cloak-of-resistance) +1_, 35 gp
+**Combat Gear** _potions of [cure moderate wounds](../../spells/cureModerateWounds.md#_cure-moderate-wounds)_ (2), tanglefoot bags (2); **Other Gear** masterwork full plate, _+1 halberd_, composite longbow (+4 Str) with 20 arrows, sap,_ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +1_, 35 gp
 
 **Boon** A watch captain may detain an NPC of up to 9th level for 24 hours and allow a single PC access for questioning, or he could assign one patrol of guards to assist the PCs inside the city for up to 1 hour.
 
 Watch captains are stern and canny veterans, experienced soldiers who have seen it all on the battlefield and lived to tell the tale. Quick of mind and naturally suspicious, they are thorough and professional in leading investigations yet also tactful when dealing with highborn and lowborn alike.
 
-Watch captains might also be used as high-ranking officers or low-ranking generals in an army, while a single watch captain can serve as the castellan of a fortress. Replacing the halberd and [Improved Trip](../../feats.html#_improved-trip) feat with a ranseur and [Improved Disarm](../../feats.html#_improved-disarm) creates a watch captain who disarms opponents instead of tripping them.
+Watch captains might also be used as high-ranking officers or low-ranking generals in an army, while a single watch captain can serve as the castellan of a fortress. Replacing the halberd and [Improved Trip](../../feats.md#_improved-trip) feat with a ranseur and [Improved Disarm](../../feats.md#_improved-disarm) creates a watch captain who disarms opponents instead of tripping them.
 
 Watch captains may be encountered leading an investigative team of a guard officer and a battle mage (CR 8) or leading larger patrols in force (CR 8 for one patrol of an officer and four guards; +1 CR per additional patrol). A watch captain might also be encountered as the non-noble companion of a holy warrior or knight (CR 8).
 

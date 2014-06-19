@@ -4,5 +4,5 @@ Protection from Energy, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, except you divide the duration in 10-minute intervals among the creatures touched. Once the spell absorbs 12 points of energy damage per caster level (maximum 120 points) for a subject, the spell's effects end for that subject.
+This spell functions like _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, except you divide the duration in 10-minute intervals among the creatures touched. Once the spell absorbs 12 points of energy damage per caster level (maximum 120 points) for a subject, the spell's effects end for that subject.
 

@@ -8,7 +8,7 @@ XP 200
 
 N Medium animal
 
-**Init** +3; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +4
+**Init** +3; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +4
 
 Defense
 
@@ -30,9 +30,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +1; **CMD** 14
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics))
+**Feats** [Skill Focus](feats.md#_skill-focus) ( [Acrobatics](skills/acrobatics.md#_acrobatics))
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +14 (+18 when jumping), [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +4
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +14 (+18 when jumping), [Perception](skills/perception.md#_perception) +4
 
 Ecology
 
@@ -42,7 +42,7 @@ Ecology
 
 **Treasure** none
 
-These strange-looking animals have long pointy ears and pronounced muzzles, and their strong legs carry them about in amazing leaps. Like all marsupials, kangaroos give birth to live young (âjoeysâ) that are relatively undeveloped at birth and completely helpless, and must remain within a protective pouch on the mother's belly for months before safely emerging.
+These strange-looking animals have long pointy ears and pronounced muzzles, and their strong legs carry them about in amazing leaps. Like all marsupials, kangaroos give birth to live young (“joeys”) that are relatively undeveloped at birth and completely helpless, and must remain within a protective pouch on the mother's belly for months before safely emerging.
 
 While not particularly dangerous, a kangaroo is more than capable of defending itself if cornered or when forced to protect its young, striking out at foes with a powerful kick capable of knocking unwary antagonists off their feet.
 
@@ -58,7 +58,7 @@ XP 200
 
 N Small animal
 
-**Init** +2; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8
+**Init** +2; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +8
 
 Defense
 
@@ -80,9 +80,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +0; **CMD** 12 (16 vs. trip)
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8
+**Skills** [Perception](skills/perception.md#_perception) +8
 
 **SQ** powerful jaws
 

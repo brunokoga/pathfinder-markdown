@@ -80,7 +80,7 @@ Elven immunities2 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
 _Magical Racial Traits_
 
@@ -128,9 +128,9 @@ Illusion resistance1 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
-Skill bonus (choose one [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) or [Profession](/pathfinderRPG/prd/skills/profession.html#_profession))2 rp
+Skill bonus (choose one [Craft](skills/craft.md#_craft) or [Profession](skills/profession.md#_profession))2 rp
 
 _Magical Racial Traits_
 
@@ -178,9 +178,9 @@ Elven immunities2 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
-Static bonus feat ( [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus))2 rp
+Static bonus feat ( [Skill Focus](feats.md#_skill-focus))2 rp
 
 _Senses Racial Traits _
 
@@ -224,7 +224,7 @@ Weapon familiarity2 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate)) 2 rp
+Skill bonus ( [Intimidate](skills/intimidate.md#_intimidate)) 2 rp
 
 _Senses Racial Traits_
 
@@ -264,11 +264,11 @@ Lucky, lesser2 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics))2 rp
+Skill bonus ( [Acrobatics](skills/acrobatics.md#_acrobatics))2 rp
 
-Skill bonus ( [Climb](/pathfinderRPG/prd/skills/climb.html#_climb))2 rp
+Skill bonus ( [Climb](skills/climb.md#_climb))2 rp
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
 _Offense Racial Traits_
 
@@ -340,9 +340,9 @@ Celestial resistance 3 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy))2 rp
+Skill bonus ( [Diplomacy](skills/diplomacy.md#_diplomacy))2 rp
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
 _Magical Racial Traits_
 
@@ -384,11 +384,11 @@ Cat's luck1 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
-Skill bonus ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))2 rp
+Skill bonus ( [Stealth](skills/stealth.md#_stealth))2 rp
 
-Skill bonus ( [Survival](/pathfinderRPG/prd/skills/survival.html#_survival))2 rp
+Skill bonus ( [Survival](skills/survival.md#_survival))2 rp
 
 _Movement Racial Traits_
 
@@ -432,9 +432,9 @@ Undead resistance1 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff))2 rp
+Skill bonus ( [Bluff](skills/bluff.md#_bluff))2 rp
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
 _Magical Racial Traits_
 
@@ -486,7 +486,7 @@ Spell resistance, lesser2 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
 _Magical Racial Traits_
 
@@ -540,7 +540,7 @@ Spell resistance, greater3 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
 _Magical Racial Traits_
 
@@ -644,9 +644,9 @@ Shadowy resistance2 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) [planes])2 rp
+Skill bonus ( [Knowledge](skills/knowledge.md#_knowledge) [planes])2 rp
 
-Skill bonus ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))2 rp
+Skill bonus ( [Stealth](skills/stealth.md#_stealth))2 rp
 
 _Magical Racial Traits_
 
@@ -844,12 +844,12 @@ Natural armor2 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [craft](/pathfinderRPG/prd/skills/craft.html#_craft) [trapmaking])2 rp
+Skill bonus ( [craft](skills/craft.md#_craft) [trapmaking])2 rp
 
-Skill bonus ( [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) [miner])2 rp
+Skill bonus ( [Profession](skills/profession.md#_profession) [miner])2 rp
 
-Skill training ( [craft](/pathfinderRPG/prd/skills/craft.html#_craft) [trapmaking] and 1 rp  
- [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) [miner])
+Skill training ( [craft](skills/craft.md#_craft) [trapmaking] and 1 rp  
+ [Profession](skills/profession.md#_profession) [miner])
 
 _Senses Racial Traits_
 
@@ -967,11 +967,11 @@ Racial Traits
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [craft](/pathfinderRPG/prd/skills/craft.html#_craft) [alchemy])2 rp
+Skill bonus ( [craft](skills/craft.md#_craft) [alchemy])2 rp
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
-Skill bonus ( [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device))2 rp
+Skill bonus ( [Use Magic Device](skills/useMagicDevice.md#_use-magic-device))2 rp
 
 _Offense Racial Traits_
 
@@ -1017,9 +1017,9 @@ Energy resistance (all)4 rp
 
 _Feat and Skill Racial Trait_
 
-Skill bonus ( [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy))2 rp
+Skill bonus ( [Diplomacy](skills/diplomacy.md#_diplomacy))2 rp
 
-Skill bonus ( [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive))2 rp
+Skill bonus ( [Sense Motive](skills/senseMotive.md#_sense-motive))2 rp
 
 _Offense Racial Traits_
 
@@ -1067,9 +1067,9 @@ Spell resistance, greater3 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [craft](/pathfinderRPG/prd/skills/craft.html#_craft) [alchemy])2 rp
+Skill bonus ( [craft](skills/craft.md#_craft) [alchemy])2 rp
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
 Stonecunning1 rp
 
@@ -1093,7 +1093,7 @@ Low-light vision1 rp
 
 ## Sylphs
 
-Typeâ©Outsider (native)3 rp
+Type Outsider (native)3 rp
 
 Size
 
@@ -1157,9 +1157,9 @@ _Feat and Skill Racial Traits_
 
 Gifted linguist2 rp
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
-Skill bonus ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))2 rp
+Skill bonus ( [Stealth](skills/stealth.md#_stealth))2 rp
 
 _Offense Racial Traits_
 
@@ -1203,9 +1203,9 @@ Fiendish resistance3 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff))2 rp
+Skill bonus ( [Bluff](skills/bluff.md#_bluff))2 rp
 
-Skill bonus ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))2 rp
+Skill bonus ( [Stealth](skills/stealth.md#_stealth))2 rp
 
 _Magical Racial Traits_
 
@@ -1289,9 +1289,9 @@ Racial Traits
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics))2 rp
+Skill bonus ( [Acrobatics](skills/acrobatics.md#_acrobatics))2 rp
 
-Skill bonus ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))2 rp
+Skill bonus ( [Stealth](skills/stealth.md#_stealth))2 rp
 
 _Movement Racial Traits_
 
@@ -1337,11 +1337,11 @@ Poison resistance3 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus ( [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist))2 rp
+Skill bonus ( [Escape Artist](skills/escapeArtist.md#_escape-artist))2 rp
 
-Skill bonus ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))2 rp
+Skill bonus ( [Perception](skills/perception.md#_perception))2 rp
 
-Skill bonus ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))2 rp
+Skill bonus ( [Stealth](skills/stealth.md#_stealth))2 rp
 
 _Offense Racial Traits_
 
@@ -1497,7 +1497,7 @@ Natural armor2 rp
 
 _Feat and Skill Racial Traits_
 
-Skill bonus (+2 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))2 rp
+Skill bonus (+2 [Stealth](skills/stealth.md#_stealth))2 rp
 
 _Movement Racial Traits_
 
@@ -1671,7 +1671,7 @@ Natural armor2 rp
 
 _Magical Racial Traits_
 
-Spell-like ability, lesser (_ [entangle](/pathfinderRPG/prd/spells/entangle.html#_entangle)_, _ [feather step](/pathfinderRPG/prd/advanced/spells/featherStep.html#_feather-step)_   
+Spell-like ability, lesser (_ [entangle](spells/entangle.md#_entangle)_, _ [feather step](advanced/spells/featherStep.md#_feather-step)_   
 [_Advanced Player's Guide_ 221])2 rp
 
 _Movement Racial Traits_
@@ -1734,7 +1734,7 @@ Multi-armed (4 arms)8 rp
 
 ## Trox
 
-_These large and horrid burrowers are native to mountainsand highlands, but are often enslaved to serve as terrifying [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) troops in marauding armies or as gladiatorialspectacles. Some trox earn their [freedom](/pathfinderRPG/prd/spells/freedom.html#_freedom) and findemployment as bodyguards, thugs, or even adventurers. _
+_These large and horrid burrowers are native to mountainsand highlands, but are often enslaved to serve as terrifying [shock](magicItems/weapons.md#_weapons-shock) troops in marauding armies or as gladiatorialspectacles. Some trox earn their [freedom](spells/freedom.md#_freedom) and findemployment as bodyguards, thugs, or even adventurers. _
 
 Type
 

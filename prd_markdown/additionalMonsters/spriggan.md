@@ -6,9 +6,9 @@ Flecks of saliva drip from the corners of this filthy and ill-smelling humanoid,
 
 **XP 800**
 
-CE Small [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid) ( [gnome](/pathfinderRPG/prd/monsters/creatureTypes.html#_gnome-subtype))
+CE Small [humanoid](monsters/creatureTypes.md#_humanoid) ( [gnome](monsters/creatureTypes.md#_gnome-subtype))
 
-**Init** +4; Senses low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7
+**Init** +4; Senses low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +7
 
 Defense
 
@@ -30,7 +30,7 @@ Offense
 
 **Spell-Like Abilities** (CL 4th; concentration +4)
 
-At will—_ [flare](/pathfinderRPG/prd/additionalMonsters/../spells/flare.html#_flare)_ (DC 10), _ [scare](/pathfinderRPG/prd/additionalMonsters/../spells/scare.html#_scare)_ (DC 12), _ [shatter](/pathfinderRPG/prd/additionalMonsters/../spells/shatter.html#_shatter)_ (DC 12)
+At will—_ [flare](additionalMonsters/../spells/flare.md#_flare)_ (DC 10), _ [scare](additionalMonsters/../spells/scare.md#_scare)_ (DC 12), _ [shatter](additionalMonsters/../spells/shatter.md#_shatter)_ (DC 12)
 
 Statistics
 
@@ -38,11 +38,11 @@ Statistics
 
 **Base Atk** +3; **CMB** +1; **CMD** 15
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (morningstar)
+**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (morningstar)
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +1, [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device) +11, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7, [Sleight of Hand](/pathfinderRPG/prd/additionalMonsters/../skills/sleightOfHand.html#_sleight-of-hand) +11, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +15; **Racial Modifiers** +2 [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb), +2 [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device), +2 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception), +2 [Sleight of Hand](/pathfinderRPG/prd/additionalMonsters/../skills/sleightOfHand.html#_sleight-of-hand), +2 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +1, [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device) +11, [Perception](additionalMonsters/../skills/perception.md#_perception) +7, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand) +11, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +15; **Racial Modifiers** +2 [Climb](additionalMonsters/../skills/climb.md#_climb), +2 [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device), +2 [Perception](additionalMonsters/../skills/perception.md#_perception), +2 [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand), +2 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
 
-**Languages** Aklo, [Gnome](/pathfinderRPG/prd/monsters/creatureTypes.html#_gnome-subtype)
+**Languages** Aklo, [Gnome](monsters/creatureTypes.md#_gnome-subtype)
 
 **SQ** size alteration, spriggan magic, spriggan skills
 
@@ -60,15 +60,15 @@ Special Abilities
 
 **Spriggan Magic (Ex)** A spriggan gains a +1 racial bonus on concentration checks and to save DCs for all of its racial spell-like abilities.
 
-**Spriggan Skills (Ex)** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb), [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device), [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception), [Sleight of Hand](/pathfinderRPG/prd/additionalMonsters/../skills/sleightOfHand.html#_sleight-of-hand), and [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) are class skills for spriggans.
+**Spriggan Skills (Ex)** [Climb](additionalMonsters/../skills/climb.md#_climb), [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device), [Perception](additionalMonsters/../skills/perception.md#_perception), [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand), and [Stealth](additionalMonsters/../skills/stealth.md#_stealth) are class skills for spriggans.
 
 Spriggan (Large Size)CR 3
 
 **XP 800**
 
-CE Large [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid) ( [gnome](/pathfinderRPG/prd/monsters/creatureTypes.html#_gnome-subtype))
+CE Large [humanoid](monsters/creatureTypes.md#_humanoid) ( [gnome](monsters/creatureTypes.md#_gnome-subtype))
 
-**Init** +3; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7
+**Init** +3; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +7
 
 Defense
 
@@ -94,7 +94,7 @@ Statistics
 
 **Base Atk** +3; **CMB** +9; **CMD** 22
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +7, [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device) +10, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7, [Sleight of Hand](/pathfinderRPG/prd/additionalMonsters/../skills/sleightOfHand.html#_sleight-of-hand) +10, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +6
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +7, [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device) +10, [Perception](additionalMonsters/../skills/perception.md#_perception) +7, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand) +10, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +6
 
 When the gnomes first traveled to the mortal realm from the distant land of the fey, some found the Material Plane so strange and terrifying that they lost their sense of joy. Seeing only the threats of the new world but none of its wonders, they grimly resolved to survive no matter the cost. Their innate magic responded to this twisted goal by reshaping them in mind and body over the course of many generations, transforming them into the creatures known as spriggans. Love, happiness, and beauty have no meaning for these poor souls, so they lead lives of violence and malice. The best they can manage in place of positive emotions is a muted satisfaction when they make another suffer.
 

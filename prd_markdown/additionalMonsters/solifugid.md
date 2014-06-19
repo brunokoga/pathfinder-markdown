@@ -6,9 +6,9 @@ Giant SolifugidCR 1
 
 **XP 400**
 
-N Small [vermin](/pathfinderRPG/prd/monsters/creatureTypes.html#_vermin)
+N Small [vermin](monsters/creatureTypes.md#_vermin)
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +4
 
 Defense
 
@@ -34,7 +34,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +1; **CMD** 13 (25 vs. trip)
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +9, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +10; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +9, [Perception](additionalMonsters/../skills/perception.md#_perception) +4, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +10; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
 
 Ecology
 
@@ -44,7 +44,7 @@ Ecology
 
 **Treasure** none
 
-Solifugids are sometimes called âcamel spiders,â âwind scorpions,â or âsun spiders,â despite the fact that they are neither spiders nor scorpions but rather their own unique species. They have large pedipalps near their heads, used to grab and hold prey while they feed with their twin sets of vertically aligned mandibles. When hunting in groups, they prefer to attack targets already grappled by other solifugids. The various species of enormous solifugids generally have eight legs, although the front two appendages are large enough that they can easily be mistaken for an additional pair of legs. Some species, like the albino cave solifugid, have fewer legs, but all solifugids are aggressive vermin.
+Solifugids are sometimes called “camel spiders,” “wind scorpions,” or “sun spiders,” despite the fact that they are neither spiders nor scorpions but rather their own unique species. They have large pedipalps near their heads, used to grab and hold prey while they feed with their twin sets of vertically aligned mandibles. When hunting in groups, they prefer to attack targets already grappled by other solifugids. The various species of enormous solifugids generally have eight legs, although the front two appendages are large enough that they can easily be mistaken for an additional pair of legs. Some species, like the albino cave solifugid, have fewer legs, but all solifugids are aggressive vermin.
 
 The following table lists the most common variants beyond the two presented above. Many of these species have additional unique abilities, such as the razormouth's ability to cause hideous, bleeding wounds in those it attacks.
 
@@ -68,9 +68,9 @@ Albino Cave SolifugidCR 4
 
 **XP 1,200**
 
-N Medium [vermin](/pathfinderRPG/prd/monsters/creatureTypes.html#_vermin)
+N Medium [vermin](monsters/creatureTypes.md#_vermin)
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +4
 
 Defense
 
@@ -88,7 +88,7 @@ Offense
 
 **Melee** bite +7 (1d8+3), 2 claws +7 (1d4+3)
 
-**Special Attacks** [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce), rend (2 claws, 1d6+4)
+**Special Attacks** [pounce](monsters/universalMonsterRules.md#_pounce), rend (2 claws, 1d6+4)
 
 Statistics
 
@@ -96,7 +96,7 @@ Statistics
 
 **Base Atk** +4; **CMB** +7; **CMD** 18 (26 vs. trip)
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +11, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +5; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +11, [Perception](additionalMonsters/../skills/perception.md#_perception) +4, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +5; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
 
 Ecology
 

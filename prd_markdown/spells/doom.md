@@ -12,7 +12,7 @@
 
 **Duration** 1 min./level
 
-**Saving Throw** [Will](../combat.html#_will) negates; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Will](../combat.md#_will) negates; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
-This spell fills a single subject with a feeling of horrible dread that causes it to become [shaken](../glossary.html#_shaken).
+This spell fills a single subject with a feeling of horrible dread that causes it to become [shaken](../glossary.md#_shaken).
 

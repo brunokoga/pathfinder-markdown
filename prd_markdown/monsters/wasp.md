@@ -6,9 +6,9 @@ _This horse-sized wasp is covered in yellow and black vertical stripes—its sti
 
 **XP 800**
 
-N Large [vermin](creatureTypes.html#_vermin)
+N Large [vermin](creatureTypes.md#_vermin)
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +9
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +9
 
 **Defense**
 
@@ -34,7 +34,7 @@ N Large [vermin](creatureTypes.html#_vermin)
 
 **Base Atk** +3; **CMB** +8; **CMD** 19
 
-**Skills** [Fly](../skills/fly.html#_fly) +3, [Perception](../skills/perception.html#_perception) +9; **Racial Modifiers** +8 [Perception](../skills/perception.html#_perception)
+**Skills** [Fly](../skills/fly.md#_fly) +3, [Perception](../skills/perception.md#_perception) +9; **Racial Modifiers** +8 [Perception](../skills/perception.md#_perception)
 
 **Ecology**
 
@@ -46,7 +46,7 @@ N Large [vermin](creatureTypes.html#_vermin)
 
 **Special Abilities**
 
-**Poison (Ex)** Sting—injury; _save_ Fort DC 18; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Dexterity [damage](universalMonsterRules.html#_ability-damage-and-drain); _cure_ 1 save. The save DC is Constitution-based, and includes a +2 racial bonus.
+**Poison (Ex)** Sting—injury; _save_ Fort DC 18; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Dexterity [damage](universalMonsterRules.md#_ability-damage-and-drain); _cure_ 1 save. The save DC is Constitution-based, and includes a +2 racial bonus.
 
 Giant wasps nearly always form nests, though not like their much smaller cousins. Each nest functions with one leader (the queen), a few workers, and several soldiers. The workers and the queen produce offspring while the soldiers protect the nest and hunt for food. Giant wasp nests are typically found in caves, abandoned houses, or any complex large enough to fit a dozen 10-foot-tall insects.
 
@@ -60,9 +60,9 @@ _A low, ominous buzz announces the arrival of a mass of many thousands of angry,
 
 **XP 800**
 
-N Diminutive [vermin](creatureTypes.html#_vermin) ( [swarm](creatureTypes.html#_swarm-subtype))
+N Diminutive [vermin](creatureTypes.md#_vermin) ( [swarm](creatureTypes.md#_swarm-subtype))
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +9
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +9
 
 **Defense**
 
@@ -72,17 +72,17 @@ N Diminutive [vermin](creatureTypes.html#_vermin) ( [swarm](creatureTypes.html#_
 
 **Fort** +5, **Ref** +3, **Will** +3
 
-**Defensive Abilities** [swarm traits](creatureTypes.html#_swarm-subtype); **Immune** weapon damage
+**Defensive Abilities** [swarm traits](creatureTypes.md#_swarm-subtype); **Immune** weapon damage
 
 **Offense**
 
 **Speed** 5 ft., fly 40 ft. (good)
 
-**Melee** swarm (2d6 plus [poison](universalMonsterRules.html#_poison))
+**Melee** swarm (2d6 plus [poison](universalMonsterRules.md#_poison))
 
 **Space** 10 ft.; **Reach** 0 ft.
 
-**Special Attacks** [distraction](universalMonsterRules.html#_distraction) (DC 13), [poison](universalMonsterRules.html#_poison)
+**Special Attacks** [distraction](universalMonsterRules.md#_distraction) (DC 13), [poison](universalMonsterRules.md#_poison)
 
 **Statistics**
 
@@ -90,7 +90,7 @@ N Diminutive [vermin](creatureTypes.html#_vermin) ( [swarm](creatureTypes.html#_
 
 **Base Atk** +5; **CMB** —; **CMD** —
 
-**Skills** [Fly](../skills/fly.html#_fly) +11, [Perception](../skills/perception.html#_perception) +9; **Racial Modifiers** +8 [Perception](../skills/perception.html#_perception)
+**Skills** [Fly](../skills/fly.md#_fly) +11, [Perception](../skills/perception.md#_perception) +9; **Racial Modifiers** +8 [Perception](../skills/perception.md#_perception)
 
 **SQ** swarm traits, vermin traits
 
@@ -104,7 +104,7 @@ N Diminutive [vermin](creatureTypes.html#_vermin) ( [swarm](creatureTypes.html#_
 
 **Special Abilities**
 
-**Poison (Ex)** Swarm—injury; _save_ Fort DC 13; _frequency_ 1/round for 4 rounds; _effect_ 1 Dexterity [damage](universalMonsterRules.html#_ability-damage-and-drain); _cure_ 1 save. The save DC is Constitution-based.
+**Poison (Ex)** Swarm—injury; _save_ Fort DC 13; _frequency_ 1/round for 4 rounds; _effect_ 1 Dexterity [damage](universalMonsterRules.md#_ability-damage-and-drain); _cure_ 1 save. The save DC is Constitution-based.
 
 A wasp swarm is a flying mass of thousands of carnivorous wasps. In such large numbers, they become voracious hunters, capable of taking down large creatures with their venom-filled stings. While a wasp swarm is capable of inflicting hundreds of stings, its true danger arises from its insatiable appetite for meat.
 

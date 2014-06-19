@@ -6,9 +6,9 @@ This barnacle-encrusted walking corpse looks like a zombie, but is dripping with
 
 **XP 600**
 
-CE Medium [undead](/pathfinderRPG/prd/monsters/creatureTypes.html#_undead) (water)
+CE Medium [undead](monsters/creatureTypes.md#_undead) (water)
 
-**Init** +0; **Senses** darkvision 60 ft., [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6
+**Init** +0; **Senses** darkvision 60 ft., [Perception](additionalMonsters/../skills/perception.md#_perception) +6
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +2, **Ref** +1, **Will** +3
 
-**DR** 5/bludgeoning or slashing; **Immune** [undead](/pathfinderRPG/prd/monsters/creatureTypes.html#_undead) traits; **Resist** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10
+**DR** 5/bludgeoning or slashing; **Immune** [undead](monsters/creatureTypes.md#_undead) traits; **Resist** [fire](monsters/creatureTypes.md#_fire-subtype) 10
 
 Offense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +5; **CMD** 15
 
-**Feats** [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)
+**Feats** [Power Attack](additionalMonsters/../feats.md#_power-attack), [Toughness](additionalMonsters/../feats.md#_toughness)
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +9, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +6, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +11
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +9, [Perception](additionalMonsters/../skills/perception.md#_perception) +6, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +6, [Swim](additionalMonsters/../skills/swim.md#_swim) +11
 
 **Languages** Common (cannot speak)
 
@@ -60,5 +60,5 @@ In the case of draugr who manifest when an entire ship sinks, these undead usual
 
 Draugr captains have malevolent, burning red eyes. They may be more richly dressed than other draugr, though their clothes are always in a similar tattered condition.
 
-A draugr captain is a draugr with the advanced simple template. In addition to this, most draugr captains have additional class levels, usually as barbarians, fighters, or rogues. Draugr captains can also use _ [obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist)_ as a spell-like ability (CL 5th, concentration +8) three times per day, and instead of causing nausea with a successful hit, they bestow 1 negative level on a hit. A draugr captain can even bestow a negative level via a weapon it wields, but if it gains multiple attacks with a weapon, it can only bestow 1 negative level per round in this manner.
+A draugr captain is a draugr with the advanced simple template. In addition to this, most draugr captains have additional class levels, usually as barbarians, fighters, or rogues. Draugr captains can also use _ [obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist)_ as a spell-like ability (CL 5th, concentration +8) three times per day, and instead of causing nausea with a successful hit, they bestow 1 negative level on a hit. A draugr captain can even bestow a negative level via a weapon it wields, but if it gains multiple attacks with a weapon, it can only bestow 1 negative level per round in this manner.
 

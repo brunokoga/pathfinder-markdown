@@ -12,11 +12,11 @@
 
 **Duration** 1 hour/level (D); see text
 
-**Saving Throw** no and [Will](../combat.html#_will) negates (harmless); **[Spell Resistance](../glossary.html#_spell-resistance)** no and yes (harmless)
+**Saving Throw** no and [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** no and yes (harmless)
 
-You alter the substance of your body to a cloudlike vapor (as the _ [gaseous form](gaseousForm.html#_gaseous-form) _spell) and move through the air, possibly at great speed. You can take other creatures with you, each of which acts independently.
+You alter the substance of your body to a cloudlike vapor (as the _ [gaseous form](gaseousForm.md#_gaseous-form) _spell) and move through the air, possibly at great speed. You can take other creatures with you, each of which acts independently.
 
-Normally, a wind walker flies at a speed of 10 feet with perfect maneuverability. If desired by the subject, a magical wind wafts a wind walker along at up to 600 feet per round (60 mph) with poor maneuverability. Wind walkers are not [invisible](../glossary.html#_invisible) but rather appear misty and translucent. If fully clothed in white, they are 80% likely to be mistaken for clouds, fog, vapors, or the like.
+Normally, a wind walker flies at a speed of 10 feet with perfect maneuverability. If desired by the subject, a magical wind wafts a wind walker along at up to 600 feet per round (60 mph) with poor maneuverability. Wind walkers are not [invisible](../glossary.md#_invisible) but rather appear misty and translucent. If fully clothed in white, they are 80% likely to be mistaken for clouds, fog, vapors, or the like.
 
 A wind walker can regain its physical form as desired and later resume the cloud form. Each change to and from vaporous form takes 5 rounds, which counts toward the duration of the spell (as does any time spent in physical form). As noted above, you can dismiss the spell, and you can even dismiss it for individual wind walkers and not others.
 

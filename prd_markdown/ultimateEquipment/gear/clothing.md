@@ -100,7 +100,7 @@ Diving Suit
 
 **Price** 10 gp; **Weight** 2 lbs.
 
-This one-piece suit of clothing reduces one's drag in the water, making swimming easier. It provides a +1 circumstance bonus on [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) checks. The suit only grants this bonus if it is the outermost garment, and has no effect if worn over bulky clothes or armor or with cumbersome gear (such as a backpack, large weapons, and so on). Damage to the suit (such as from several rounds of combat against slashing and piercing attacks) negates the suit's bonus until it is repaired.
+This one-piece suit of clothing reduces one's drag in the water, making swimming easier. It provides a +1 circumstance bonus on [Swim](skills/swim.md#_swim) checks. The suit only grants this bonus if it is the outermost garment, and has no effect if worn over bulky clothes or armor or with cumbersome gear (such as a backpack, large weapons, and so on). Damage to the suit (such as from several rounds of combat against slashing and piercing attacks) negates the suit's bonus until it is repaired.
 
 Entertainer's Outfit
 
@@ -125,7 +125,7 @@ Furs
 
 **Price** 12 gp; **Weight** 5 lbs.
 
-The most basic of cold-weather gear, animal furs serve to keep their wearers warm. Wearing enough fur to cover the body provides a +2 bonus on Fortitude saves to resist cold weather. This does not stack with any bonuses gained from the [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) skill. Furs may supplement another outfit.
+The most basic of cold-weather gear, animal furs serve to keep their wearers warm. Wearing enough fur to cover the body provides a +2 bonus on Fortitude saves to resist cold weather. This does not stack with any bonuses gained from the [Survival](skills/survival.md#_survival) skill. Furs may supplement another outfit.
 
 Hat
 
@@ -143,13 +143,13 @@ Hot Weather Outfit
 
 **Price** 8 gp; **Weight** 4 lbs.
 
-Covering your body from head to foot in light, airy cloth keeps you cooler than baring your skin to the sun. This outfit typically consists of a loose linen robe and either a turban or loose head covering and veil. The outfit provides a +2 bonus on Fortitude saves to resist warm or hot weather. This does not stack with any bonuses gained from the [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) skill.
+Covering your body from head to foot in light, airy cloth keeps you cooler than baring your skin to the sun. This outfit typically consists of a loose linen robe and either a turban or loose head covering and veil. The outfit provides a +2 bonus on Fortitude saves to resist warm or hot weather. This does not stack with any bonuses gained from the [Survival](skills/survival.md#_survival) skill.
 
 Ice Skates
 
 **Price** 1 gp; **Weight** 2 lbs.
 
-Each of these calf-high boots bears a vertical blade on the bottom, allowing you to travel swiftly on ice. Wearing ice skates allows you to move on ice at normal speed with a successful DC 5 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) check (including running and charging), but your movement is reduced to half speed on all other terrain. Donning or removing an ice skate is a full-round action. Skating with only one is possible, but the DC of the [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) check rises to 15.
+Each of these calf-high boots bears a vertical blade on the bottom, allowing you to travel swiftly on ice. Wearing ice skates allows you to move on ice at normal speed with a successful DC 5 [Acrobatics](skills/acrobatics.md#_acrobatics) check (including running and charging), but your movement is reduced to half speed on all other terrain. Donning or removing an ice skate is a full-round action. Skating with only one is possible, but the DC of the [Acrobatics](skills/acrobatics.md#_acrobatics) check rises to 15.
 
 Jewelry
 
@@ -179,7 +179,7 @@ Monster Mask
 
 **Price** varies; **Weight** 1 lb.
 
-This articulated mask resembles a specific type of humanoid monster, such as a bugbear, goblin, orc, or hobgoblin. The mouth opens and closes when you move your jaw and its skin is actually carefully-painted cloth. Though such masks are usually intended for theater performances where an actor plays the role of a monster, adventurers have been known to use them to help blend in with monsters of the appropriate type. The mask negates the –2 [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) DC for disguising yourself as a different race, but only at a distance of at least 20 feet or when you have concealment; closer than this distance or in clearer circumstances, the mask is obviously a false representation. It only covers your face and is normally worn with a wig or helmet to disguise or cover the rest of your head. Each mask is most suitable for a wearer of a particular size, though some size and monster combinations are less believable than others (a Small creature in an orc mask may be able to pass as an orc child, but a Medium creature in a goblin mask at best looks like a deformed hobgoblin).
+This articulated mask resembles a specific type of humanoid monster, such as a bugbear, goblin, orc, or hobgoblin. The mouth opens and closes when you move your jaw and its skin is actually carefully-painted cloth. Though such masks are usually intended for theater performances where an actor plays the role of a monster, adventurers have been known to use them to help blend in with monsters of the appropriate type. The mask negates the –2 [Disguise](skills/disguise.md#_disguise) DC for disguising yourself as a different race, but only at a distance of at least 20 feet or when you have concealment; closer than this distance or in clearer circumstances, the mask is obviously a false representation. It only covers your face and is normally worn with a wig or helmet to disguise or cover the rest of your head. Each mask is most suitable for a wearer of a particular size, though some size and monster combinations are less believable than others (a Small creature in an orc mask may be able to pass as an orc child, but a Medium creature in a goblin mask at best looks like a deformed hobgoblin).
 
 Noble's Outfit
 
@@ -209,7 +209,7 @@ Pocketed Scarf
 
 **Price** 8 gp; **Weight** 1/2 lb.
 
-An elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.
+An elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.
 
 Poncho
 

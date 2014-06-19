@@ -4,5 +4,5 @@ Resist Energy, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_, except you divide the duration in 10-minute intervals among the creatures touched.
+This spell functions like _ [resist energy](spells/resistEnergy.md#_resist-energy)_, except you divide the duration in 10-minute intervals among the creatures touched.
 

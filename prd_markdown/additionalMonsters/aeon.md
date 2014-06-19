@@ -12,7 +12,7 @@ In rare cases, aeons have been known to deviate from the whims of the multiverse
 
 ## Monad, the Condition of All
 
-All aeons are bound in a state they know as âthe condition of allâ or âmonad,â a supreme oneness with all members of their race and the multiverse itself. Therefore, aeons exist as an extension of the multiverse; in a fashion similar to the way bones, muscle, and the various humors create a mortal, they exist as part of a greater being. When destroyed or upon accomplishing specific goals, their energies simply dissipate and become reabsorbed into the monad. They do not die, but are instead recycled. They have no discernible memories and seem to exist only in the present, arriving to repair balance. Relationships with non-aeons are generally nonexistent, and they feel no sense of affection, remorse, vengeance, or similar emotions. Aeons deal with each task as its own action, independent from all other tasks. Thus, an individual once at violent odds with an aeon may, upon their next encounter, have the aeon's full and undaunted support.
+All aeons are bound in a state they know as “the condition of all” or “monad,” a supreme oneness with all members of their race and the multiverse itself. Therefore, aeons exist as an extension of the multiverse; in a fashion similar to the way bones, muscle, and the various humors create a mortal, they exist as part of a greater being. When destroyed or upon accomplishing specific goals, their energies simply dissipate and become reabsorbed into the monad. They do not die, but are instead recycled. They have no discernible memories and seem to exist only in the present, arriving to repair balance. Relationships with non-aeons are generally nonexistent, and they feel no sense of affection, remorse, vengeance, or similar emotions. Aeons deal with each task as its own action, independent from all other tasks. Thus, an individual once at violent odds with an aeon may, upon their next encounter, have the aeon's full and undaunted support.
 
 # Aeon, Akhana
 
@@ -22,9 +22,9 @@ Four gray arms project from a swirling mass resembling a giant eye, from which a
 
 **XP 19,200**
 
-N Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [aeon](/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+N Medium [outsider](monsters/creatureTypes.md#_outsider) ( [aeon](monsters/creatureTypes.md#_aeon-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +10; **Senses** darkvision 60 ft., _ [deathwatch](/pathfinderRPG/prd/additionalMonsters/../spells/deathwatch.html#_deathwatch)_; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +19
+**Init** +10; **Senses** darkvision 60 ft., _ [deathwatch](additionalMonsters/../spells/deathwatch.md#_deathwatch)_; [Perception](additionalMonsters/../skills/perception.md#_perception) +19
 
 Defense
 
@@ -34,25 +34,25 @@ Defense
 
 **Fort** +17, **Ref** +11, **Will** +14
 
-**Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), critical hits, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** electricity 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 23
+**Immune** [cold](monsters/creatureTypes.md#_cold-subtype), critical hits, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 23
 
 Offense
 
 **Speed** 30 ft., fly 40 ft. (poor)
 
-**Melee** 4 claws +16 (1d4+5 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** 4 claws +16 (1d4+5 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Special Attacks** soul siphoning
 
 **Spell-Like Abilities** (CL 11th; concentration +15)
 
-Constant—_ [deathwatch](/pathfinderRPG/prd/additionalMonsters/../spells/deathwatch.html#_deathwatch)_
+Constant—_ [deathwatch](additionalMonsters/../spells/deathwatch.md#_deathwatch)_
 
-At will—_ [cure serious wounds](/pathfinderRPG/prd/additionalMonsters/../spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [gentle repose](/pathfinderRPG/prd/additionalMonsters/../spells/gentleRepose.html#_gentle-repose)_, _ [inflict serious wounds](/pathfinderRPG/prd/additionalMonsters/../spells/inflictSeriousWounds.html#_inflict-serious-wounds)_ (DC 17), _ [sanctuary](/pathfinderRPG/prd/additionalMonsters/../spells/sanctuary.html#_sanctuary)_ (DC 15)
+At will—_ [cure serious wounds](additionalMonsters/../spells/cureSeriousWounds.md#_cure-serious-wounds)_, _ [gentle repose](additionalMonsters/../spells/gentleRepose.md#_gentle-repose)_, _ [inflict serious wounds](additionalMonsters/../spells/inflictSeriousWounds.md#_inflict-serious-wounds)_ (DC 17), _ [sanctuary](additionalMonsters/../spells/sanctuary.md#_sanctuary)_ (DC 15)
 
-3/day—_ [restoration](/pathfinderRPG/prd/additionalMonsters/../spells/restoration.html#_restoration), [slay living](/pathfinderRPG/prd/additionalMonsters/../spells/slayLiving.html#_slay-living) _(DC 19)
+3/day—_ [restoration](additionalMonsters/../spells/restoration.md#_restoration), [slay living](additionalMonsters/../spells/slayLiving.md#_slay-living) _(DC 19)
 
-1/day—_ [raise dead](/pathfinderRPG/prd/additionalMonsters/../spells/raiseDead.html#_raise-dead)_
+1/day—_ [raise dead](additionalMonsters/../spells/raiseDead.md#_raise-dead)_
 
 Statistics
 
@@ -60,9 +60,9 @@ Statistics
 
 **Base Atk** +11; **CMB** +16 (+20 grapple); **CMD** 34 (38 vs. trip)
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Hover](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes)
+**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Hover](additionalMonsters/../monsters/monsterFeats.md#_hover), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes)
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +18, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +2, [Heal](/pathfinderRPG/prd/additionalMonsters/../skills/heal.html#_heal) +19, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +18, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +22, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (religion) +22, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +19, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +19, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +17, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +20
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +18, [Fly](additionalMonsters/../skills/fly.md#_fly) +2, [Heal](additionalMonsters/../skills/heal.md#_heal) +19, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +18, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +22, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +22, [Perception](additionalMonsters/../skills/perception.md#_perception) +19, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +19, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +17, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +20
 
 **Languages** envisaging
 
@@ -78,7 +78,7 @@ Ecology
 
 Special Abilities
 
-**Soul Siphoning (Su)** As a swift action, an akhana can use its tail to siphon life essence from a grappled foe. At the start of the [aeon](/creatureTypes.html#_aeon-subtype)'s turn, the victim gains 1d4 negative levels (a DC 23 Fortitude save negates and grants [immunity](/universalMonsterRules.html#_immunity-(ex-or-su)) to this akhana's soul siphoning ability for 24 hours). When the number of negative levels equals the target's Hit Dice, the target's soul tears free from its mortal body and gets stored within the body of the akhana as a _ [trap the soul](/pathfinderRPG/prd/additionalMonsters/../spells/trapTheSoul.html#_trap-the-soul) _spell. The victim's body remains preserved as if via a _ [gentle repose](/pathfinderRPG/prd/additionalMonsters/../spells/gentleRepose.html#_gentle-repose)_ spell for as long as the soul is held by the akhana. The akhana can keep the soul indefinitely, or can release it as a full-round action. Upon doing so, the released soul immediately returns to its body if the body is within 300 feet, at which point the body returns to life and any negative levels imparted to it by the akhana are removed. If the body is not within 300 feet (or if it has been destroyed), then the creature dies when its soul is released. A _ [miracle](/pathfinderRPG/prd/additionalMonsters/../spells/miracle.html#_miracle), [limited wish](/pathfinderRPG/prd/additionalMonsters/../spells/limitedWish.html#_limited-wish),_ or _ [wish](/pathfinderRPG/prd/additionalMonsters/../spells/wish.html#_wish)_ can force a displaced soul to return to its proper body. If an akhana is slain, any soul it contains is released automatically. An akhana can only hold one soul at a time. The save DC is Constitution-based.
+**Soul Siphoning (Su)** As a swift action, an akhana can use its tail to siphon life essence from a grappled foe. At the start of the [aeon](/creatureTypes.md#_aeon-subtype)'s turn, the victim gains 1d4 negative levels (a DC 23 Fortitude save negates and grants [immunity](/universalMonsterRules.md#_immunity-(ex-or-su)) to this akhana's soul siphoning ability for 24 hours). When the number of negative levels equals the target's Hit Dice, the target's soul tears free from its mortal body and gets stored within the body of the akhana as a _ [trap the soul](additionalMonsters/../spells/trapTheSoul.md#_trap-the-soul) _spell. The victim's body remains preserved as if via a _ [gentle repose](additionalMonsters/../spells/gentleRepose.md#_gentle-repose)_ spell for as long as the soul is held by the akhana. The akhana can keep the soul indefinitely, or can release it as a full-round action. Upon doing so, the released soul immediately returns to its body if the body is within 300 feet, at which point the body returns to life and any negative levels imparted to it by the akhana are removed. If the body is not within 300 feet (or if it has been destroyed), then the creature dies when its soul is released. A _ [miracle](additionalMonsters/../spells/miracle.md#_miracle), [limited wish](additionalMonsters/../spells/limitedWish.md#_limited-wish),_ or _ [wish](additionalMonsters/../spells/wish.md#_wish)_ can force a displaced soul to return to its proper body. If an akhana is slain, any soul it contains is released automatically. An akhana can only hold one soul at a time. The save DC is Constitution-based.
 
 Akhanas bear charge over the duality of birth and death. They perceive the existence of living things as crucial to maintaining cosmic balance. They also understand the profound influence living things have on the cosmos, and if left untended, its ability to create terrible consequences. In this circumstance, life must give way to death.
 
@@ -94,9 +94,9 @@ A shimmering, colorless mass congeals to form a four-armed humanoid shape with a
 
 **XP 76,800**
 
-N Large [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [aeon](/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+N Large [outsider](monsters/creatureTypes.md#_outsider) ( [aeon](monsters/creatureTypes.md#_aeon-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +8; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 60 ft., darkvision 90 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +30
+**Init** +8; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 60 ft., darkvision 90 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +30
 
 Defense
 
@@ -106,25 +106,25 @@ Defense
 
 **Fort** +18, **Ref** +12, **Will** +20
 
-**Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), critical hits, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** electricity 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 27
+**Immune** [cold](monsters/creatureTypes.md#_cold-subtype), critical hits, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 27
 
 Offense
 
 **Speed** fly 40 ft. (good)
 
-**Melee** 4 slams +23 (1d6+6 plus 1d6 [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) and aging strike)
+**Melee** 4 slams +23 (1d6+6 plus 1d6 [cold](monsters/creatureTypes.md#_cold-subtype) and aging strike)
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** confusion [gaze](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze), temporal strike
+**Special Attacks** confusion [gaze](monsters/universalMonsterRules.md#_gaze), temporal strike
 
 **Spell-Like Abilities** (CL 18th; concentration +23)
 
-At will—_ [augury](/pathfinderRPG/prd/additionalMonsters/../spells/augury.html#_augury)_, _ [greater teleport](/pathfinderRPG/prd/additionalMonsters/../spells/teleport.html#_teleport-greater)_, _ [slow](/pathfinderRPG/prd/additionalMonsters/../spells/slow.html#_slow)_ (DC 18)
+At will—_ [augury](additionalMonsters/../spells/augury.md#_augury)_, _ [greater teleport](additionalMonsters/../spells/teleport.md#_teleport-greater)_, _ [slow](additionalMonsters/../spells/slow.md#_slow)_ (DC 18)
 
-3/day—_ [dimensional anchor](/pathfinderRPG/prd/additionalMonsters/../spells/dimensionalAnchor.html#_dimensional)_, _ [haste](/pathfinderRPG/prd/additionalMonsters/../spells/haste.html#_haste)_, _ [plane shift](/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift)_ (DC 20)
+3/day—_ [dimensional anchor](additionalMonsters/../spells/dimensionalAnchor.md#_dimensional)_, _ [haste](additionalMonsters/../spells/haste.md#_haste)_, _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 20)
 
-1/day—_ [dimensional lock](/pathfinderRPG/prd/additionalMonsters/../spells/dimensionalLock.html#_dimensional-lock)_, _ [moment of prescience](/pathfinderRPG/prd/additionalMonsters/../spells/momentOfPrescience.html#_moment-of-prescience)_, _ [temporal stasis](/pathfinderRPG/prd/additionalMonsters/../spells/temporalStasis.html#_temporal-stasis)_ (DC 23)
+1/day—_ [dimensional lock](additionalMonsters/../spells/dimensionalLock.md#_dimensional-lock)_, _ [moment of prescience](additionalMonsters/../spells/momentOfPrescience.md#_moment-of-prescience)_, _ [temporal stasis](additionalMonsters/../spells/temporalStasis.md#_temporal-stasis)_ (DC 23)
 
 Statistics
 
@@ -132,9 +132,9 @@ Statistics
 
 **Base Atk** +18; **CMB** +25; **CMD** 44 (can't be tripped)
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes), [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Hover](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)
+**Feats** [Combat Casting](additionalMonsters/../feats.md#_combat-casting), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Dodge](additionalMonsters/../feats.md#_dodge), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Hover](additionalMonsters/../monsters/monsterFeats.md#_hover), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Mobility](additionalMonsters/../feats.md#_mobility), [Toughness](additionalMonsters/../feats.md#_toughness)
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +26, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +6, [Heal](/pathfinderRPG/prd/additionalMonsters/../skills/heal.html#_heal) +30, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +26, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana, nature, religion) +33, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (history, planes) +36, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +30, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +30, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +28, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +21, [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) +23
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +26, [Fly](additionalMonsters/../skills/fly.md#_fly) +6, [Heal](additionalMonsters/../skills/heal.md#_heal) +30, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +26, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana, nature, religion) +33, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (history, planes) +36, [Perception](additionalMonsters/../skills/perception.md#_perception) +30, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +30, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +28, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +21, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +23
 
 **Languages** envisaging
 
@@ -150,15 +150,15 @@ Ecology
 
 Special Abilities
 
-**Aging Strike (Su)** If a bythos strikes a living target with two slam attacks in a single round, the bythos ages the creature, causing it to advance to the next age category (_Pathfinder RPG Core Rulebook_ 169) if it fails a DC 24 Fortitude save. The victim gains all of the penalties from this aging and none of the bonuses. A venerable victim targeted by this ability dies if it fails a DC 24 Fortitude save. This process is reversible with _ [greater restoration](/pathfinderRPG/prd/additionalMonsters/../spells/restoration.html#_restoration-greater)_, _ [limited wish](/pathfinderRPG/prd/additionalMonsters/../spells/limitedWish.html#_limited-wish)_, _ [miracle](/pathfinderRPG/prd/additionalMonsters/../spells/miracle.html#_miracle)_, or _ [wish](/pathfinderRPG/prd/additionalMonsters/../spells/wish.html#_wish)_. The save DC is Constitution-based.
+**Aging Strike (Su)** If a bythos strikes a living target with two slam attacks in a single round, the bythos ages the creature, causing it to advance to the next age category (_Pathfinder RPG Core Rulebook_ 169) if it fails a DC 24 Fortitude save. The victim gains all of the penalties from this aging and none of the bonuses. A venerable victim targeted by this ability dies if it fails a DC 24 Fortitude save. This process is reversible with _ [greater restoration](additionalMonsters/../spells/restoration.md#_restoration-greater)_, _ [limited wish](additionalMonsters/../spells/limitedWish.md#_limited-wish)_, _ [miracle](additionalMonsters/../spells/miracle.md#_miracle)_, or _ [wish](additionalMonsters/../spells/wish.md#_wish)_. The save DC is Constitution-based.
 
-**Confusion [Gaze](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_gaze) (Su)** Confusion for 1d4 rounds, 30 feet, Fortitude DC 24 negates. The save DC is Charisma-based.
+**Confusion [Gaze](monsters/universalMonsterRules.md#_gaze) (Su)** Confusion for 1d4 rounds, 30 feet, Fortitude DC 24 negates. The save DC is Charisma-based.
 
 **Temporal Strike (Su)** As a standard action, a bythos can touch a creature or object to displace it from time. If the target fails a DC 24 Fortitude save, it disappears from the present moment and reappears in the same location 1d4 rounds later as if no time had passed. If an object occupies that space, the creature appears in the closest available space to its original location—this displacement does not cause the creature any additional harm. The save DC is Charisma-based.
 
 The bythos are guardians of time and planar travel—indeed, to bythos, the act of aging is nothing more than a highly specialized method of travel. Although bythos themselves have no additional method of traveling through time, they scour the multiverse, hunting for creatures that do have the ability to time-travel and may have abused this ability.
 
-Far more often, though, bythos seek out abuses of planar travel, such as tears in reality, regions where planes overlap, or creatures that abuse the use of planar travel. In some cases, such distortions are ignored, but in others, a bythos or even a full tribunal comes to assess and repair the damage. In most cases, ârepairâ is analogous to the death of the creature responsible for the distortions, but placing such creatures in temporal stasis can also solve the problem.
+Far more often, though, bythos seek out abuses of planar travel, such as tears in reality, regions where planes overlap, or creatures that abuse the use of planar travel. In some cases, such distortions are ignored, but in others, a bythos or even a full tribunal comes to assess and repair the damage. In most cases, “repair” is analogous to the death of the creature responsible for the distortions, but placing such creatures in temporal stasis can also solve the problem.
 
 While a bythos's body may seem to be made of smoke and vapor, it is strangely solid to the touch, feeling not dissimilar to dry stone. A bythos is 13 feet tall and weighs 600 pounds.
 
@@ -170,9 +170,9 @@ A small cluster of shimmering lights floats in the air, orbited by multiple vibr
 
 **XP 600**
 
-N Small [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [aeon](/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+N Small [outsider](monsters/creatureTypes.md#_outsider) ( [aeon](monsters/creatureTypes.md#_aeon-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +7
 
 **Aura** emotion aura (DC 12, 30 ft.)
 
@@ -184,7 +184,7 @@ Defense
 
 **Fort** +4, **Ref** +3, **Will** +6
 
-**Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), critical hits, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** electricity 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 7
+**Immune** [cold](monsters/creatureTypes.md#_cold-subtype), critical hits, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 7
 
 Offense
 
@@ -195,11 +195,11 @@ Offense
 
 **Spell-Like Abilities** (CL 3rd; concentration +4)
 
-At will—_ [sanctuary](/pathfinderRPG/prd/additionalMonsters/../spells/sanctuary.html#_sanctuary)_ (DC 12)
+At will—_ [sanctuary](additionalMonsters/../spells/sanctuary.md#_sanctuary)_ (DC 12)
 
-3/day—_ [calm emotions](/pathfinderRPG/prd/additionalMonsters/../spells/calmEmotions.html#_calm-emotions)_ (DC 13)
+3/day—_ [calm emotions](additionalMonsters/../spells/calmEmotions.md#_calm-emotions)_ (DC 13)
 
-1/week—_ [commune](/pathfinderRPG/prd/additionalMonsters/../spells/commune.html#_commune)_ (6 questions, CL 12th)
+1/week—_ [commune](additionalMonsters/../spells/commune.md#_commune)_ (6 questions, CL 12th)
 
 Statistics
 
@@ -207,9 +207,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +1; **CMD** 13 (can't be tripped)
 
-**Feats** [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will)
+**Feats** [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Iron Will](additionalMonsters/../feats.md#_iron-will)
 
-**Skills** [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +8, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +7, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana) +7, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +7, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +7, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +12
+**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +8, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +7, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +7, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +7, [Perception](additionalMonsters/../skills/perception.md#_perception) +7, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +7, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +12
 
 **Languages** envisaging
 
@@ -225,11 +225,11 @@ Ecology
 
 Special Abilities
 
-**Emotion Aura (Sp)** Each paracletus exists as the embodiment of a specific emotive duality. Three times per day, a paracletus can create an aura representing one of its two programmed emotions. Creatures in the area must make a DC 12 Will save to resist the aura. A creature that makes its save against the aura is unaffected by that [aeon](/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype)'s aura for the next 24 hours. The paracletus can choose one creature in the area to ignore its effects. The effect of the aura lasts for 10 minutes, and ends if a creature moves more than 30 feet from the [aeon](/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype). The aura is a mind-affecting compulsion effect. The save DC is Charisma-based. Specific emotive dualities and their powers follow—any single paracletus can only use one of these three dualistic options and cannot change to a different one.
+**Emotion Aura (Sp)** Each paracletus exists as the embodiment of a specific emotive duality. Three times per day, a paracletus can create an aura representing one of its two programmed emotions. Creatures in the area must make a DC 12 Will save to resist the aura. A creature that makes its save against the aura is unaffected by that [aeon](monsters/creatureTypes.md#_aeon-subtype)'s aura for the next 24 hours. The paracletus can choose one creature in the area to ignore its effects. The effect of the aura lasts for 10 minutes, and ends if a creature moves more than 30 feet from the [aeon](monsters/creatureTypes.md#_aeon-subtype). The aura is a mind-affecting compulsion effect. The save DC is Charisma-based. Specific emotive dualities and their powers follow—any single paracletus can only use one of these three dualistic options and cannot change to a different one.
 
-_Courage/Fear_: The aura acts as _ [bless](/pathfinderRPG/prd/additionalMonsters/../spells/bless.html#_bless)_ or _ [bane](/pathfinderRPG/prd/additionalMonsters/../magicItems/weapons.html#_weapons-bane)_.
+_Courage/Fear_: The aura acts as _ [bless](additionalMonsters/../spells/bless.md#_bless)_ or _ [bane](additionalMonsters/../magicItems/weapons.md#_weapons-bane)_.
 
-_Empathy/Apathy_: The aura gives creatures a +2 bonus or a –2 penalty on [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff), [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy), and [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) checks.
+_Empathy/Apathy_: The aura gives creatures a +2 bonus or a –2 penalty on [Bluff](additionalMonsters/../skills/bluff.md#_bluff), [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy), and [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) checks.
 
 _Hope/Despair_: The aura gives creatures a +2 morale bonus on Will saving throws or a –2 penalty on Will saving throws.
 
@@ -237,7 +237,7 @@ While mortals possess the gift of free will, both logic and emotion influence th
 
 If presented the option, a paracletus avoids direct combat, and uses its emotion aura to influence situations. If pressed to defend itself, it flies at opponents, slamming into them and discharging an electrical jolt of energy in addition to buffeting with its crystalline components. The crystals that orbit a paracletus are solidified aspects of logic, while the swirling vapors and lights that make up its central mass are manifestations of raw emotion—when a paracletus is slain, both the crystals and vapors fade away into nothingness.
 
-A paracletus can be chosen as a familiar by a 7th-level neutral spellcaster who has the [Improved Familiar](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-familiar) feat. A paracletus familiar does not abandon its mission to observe emotions and logic at play, but it does follow its master's orders—this is one situation where the application of a paracletus's emotion aura need not be random.
+A paracletus can be chosen as a familiar by a 7th-level neutral spellcaster who has the [Improved Familiar](additionalMonsters/../feats.md#_improved-familiar) feat. A paracletus familiar does not abandon its mission to observe emotions and logic at play, but it does follow its master's orders—this is one situation where the application of a paracletus's emotion aura need not be random.
 
 Although the central mass of a paracletus's body appears to be made of light and energy, it is in fact solid, and feels strangely like electrified flesh to the touch.
 
@@ -249,9 +249,9 @@ Within the shadows of this vaguely humanoid figure stir swirling colors and sphe
 
 **XP 307,200**
 
-N Large [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [aeon](/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+N Large [outsider](monsters/creatureTypes.md#_outsider) ( [aeon](monsters/creatureTypes.md#_aeon-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +12; **Senses** [blindsight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight) 120 ft., darkvision 120 ft., _ [true seeing](/pathfinderRPG/prd/additionalMonsters/../spells/trueSeeing.html#_true-seeing)_; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +41
+**Init** +12; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 120 ft., darkvision 120 ft., _ [true seeing](additionalMonsters/../spells/trueSeeing.md#_true-seeing)_; [Perception](additionalMonsters/../skills/perception.md#_perception) +41
 
 Defense
 
@@ -261,7 +261,7 @@ Defense
 
 **Fort** +24, **Ref** +18, **Will** +26
 
-**Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), critical hits, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** electricity 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 31
+**Immune** [cold](monsters/creatureTypes.md#_cold-subtype), critical hits, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 31
 
 Offense
 
@@ -275,37 +275,37 @@ Offense
 
 **Spell-Like Abilities** (CL 20th; concentration +27)
 
-At will—_ [create food and water](/pathfinderRPG/prd/additionalMonsters/../spells/createFoodAndWater.html#_create-food-and-water)_, _ [mending](/pathfinderRPG/prd/additionalMonsters/../spells/mending.html#_mending)_, _ [rusting grasp](/pathfinderRPG/prd/additionalMonsters/../spells/rustingGrasp.html#_rusting-grasp)_ (DC 21), _ [stone shape](/pathfinderRPG/prd/additionalMonsters/../spells/stoneShape.html#_stone-shape)_, _ [wood shape](/pathfinderRPG/prd/additionalMonsters/../spells/woodShape.html#_wood-shape)_ (DC 19)
+At will—_ [create food and water](additionalMonsters/../spells/createFoodAndWater.md#_create-food-and-water)_, _ [mending](additionalMonsters/../spells/mending.md#_mending)_, _ [rusting grasp](additionalMonsters/../spells/rustingGrasp.md#_rusting-grasp)_ (DC 21), _ [stone shape](additionalMonsters/../spells/stoneShape.md#_stone-shape)_, _ [wood shape](additionalMonsters/../spells/woodShape.md#_wood-shape)_ (DC 19)
 
-7/day—_ [fabricate](/pathfinderRPG/prd/additionalMonsters/../spells/fabricate.html#_fabricate)_, _ [plant growth](/pathfinderRPG/prd/additionalMonsters/../spells/plantGrowth.html#_plant-growth)_, _ [sculpt sound](/pathfinderRPG/prd/additionalMonsters/../spells/sculptSound.html#_sculpt-sound)_, _ [shout](/pathfinderRPG/prd/additionalMonsters/../spells/shout.html#_shout)_ (DC 21)
+7/day—_ [fabricate](additionalMonsters/../spells/fabricate.md#_fabricate)_, _ [plant growth](additionalMonsters/../spells/plantGrowth.md#_plant-growth)_, _ [sculpt sound](additionalMonsters/../spells/sculptSound.md#_sculpt-sound)_, _ [shout](additionalMonsters/../spells/shout.md#_shout)_ (DC 21)
 
-5/day—_ [break enchantment](/pathfinderRPG/prd/additionalMonsters/../spells/breakEnchantment.html#_break-enchantment)_, _ [daylight](/pathfinderRPG/prd/additionalMonsters/../spells/daylight.html#_daylight)_, _ [deeper darkness](/pathfinderRPG/prd/additionalMonsters/../spells/deeperDarkness.html#_deeper-darkness)_, _ [freedom of movement](/pathfinderRPG/prd/additionalMonsters/../spells/freedomOfMovement.html#_freedom-of-movement)_, _ [major creation](/pathfinderRPG/prd/additionalMonsters/../spells/majorCreation.html#_major-creation)_
+5/day—_ [break enchantment](additionalMonsters/../spells/breakEnchantment.md#_break-enchantment)_, _ [daylight](additionalMonsters/../spells/daylight.md#_daylight)_, _ [deeper darkness](additionalMonsters/../spells/deeperDarkness.md#_deeper-darkness)_, _ [freedom of movement](additionalMonsters/../spells/freedomOfMovement.md#_freedom-of-movement)_, _ [major creation](additionalMonsters/../spells/majorCreation.md#_major-creation)_
 
-3/day—_ [disintegrate](/pathfinderRPG/prd/additionalMonsters/../spells/disintegrate.html#_disintegrate)_ (DC 23), _ [horrid wilting](/pathfinderRPG/prd/additionalMonsters/../spells/horridWilting.html#_horrid-wilting)_ (DC 25)
+3/day—_ [disintegrate](additionalMonsters/../spells/disintegrate.md#_disintegrate)_ (DC 23), _ [horrid wilting](additionalMonsters/../spells/horridWilting.md#_horrid-wilting)_ (DC 25)
 
-1/day—_ [mage's disjunction](/pathfinderRPG/prd/additionalMonsters/../spells/mageSDisjunction.html#_mage-s-disjunction)_ (DC 26), _ [wish](/pathfinderRPG/prd/additionalMonsters/../spells/wish.html#_wish)_ (DC 26)
+1/day—_ [mage's disjunction](additionalMonsters/../spells/mageSDisjunction.md#_mage-s-disjunction)_ (DC 26), _ [wish](additionalMonsters/../spells/wish.md#_wish)_ (DC 26)
 
 **Cleric Spells Prepared** (CL 20th; concentration +27)
 
-9th—_ [astral projection](/pathfinderRPG/prd/additionalMonsters/../spells/astralProjection.html#_astral-projection)_, _ [gate](/pathfinderRPG/prd/additionalMonsters/../spells/gate.html#_gate)_, _ [implosion](/pathfinderRPG/prd/additionalMonsters/../spells/implosion.html#_implosion)_ (3, DC 29)
+9th—_ [astral projection](additionalMonsters/../spells/astralProjection.md#_astral-projection)_, _ [gate](additionalMonsters/../spells/gate.md#_gate)_, _ [implosion](additionalMonsters/../spells/implosion.md#_implosion)_ (3, DC 29)
 
-8th—_ [cloak of chaos](/pathfinderRPG/prd/additionalMonsters/../spells/cloakOfChaos.html#_cloak-of-chaos)_ (DC 28), _ [holy aura](/pathfinderRPG/prd/additionalMonsters/../spells/holyAura.html#_holy-aura)_ (DC 28), _ [shield of law](/pathfinderRPG/prd/additionalMonsters/../spells/shieldOfLaw.html#_shield-of-law)_ (DC 28), _summon monster VIII_, _ [unholy aura](/pathfinderRPG/prd/additionalMonsters/../spells/unholyAura.html#_unholy-aura)_ (DC 28)
+8th—_ [cloak of chaos](additionalMonsters/../spells/cloakOfChaos.md#_cloak-of-chaos)_ (DC 28), _ [holy aura](additionalMonsters/../spells/holyAura.md#_holy-aura)_ (DC 28), _ [shield of law](additionalMonsters/../spells/shieldOfLaw.md#_shield-of-law)_ (DC 28), _summon monster VIII_, _ [unholy aura](additionalMonsters/../spells/unholyAura.md#_unholy-aura)_ (DC 28)
 
-7th—_ [blasphemy](/pathfinderRPG/prd/additionalMonsters/../spells/blasphemy.html#_blasphemy)_ (DC 27), _ [destruction](/pathfinderRPG/prd/additionalMonsters/../spells/destruction.html#_destruction)_ (DC 27), _ [dictum](/pathfinderRPG/prd/additionalMonsters/../spells/dictum.html#_dictum)_ (DC 27), _ [holy word](/pathfinderRPG/prd/additionalMonsters/../spells/holyWord.html#_holy-word)_ (DC 27), _ [word of chaos](/pathfinderRPG/prd/additionalMonsters/../spells/wordOfChaos.html#_word-of-chaos)_ (DC 27)
+7th—_ [blasphemy](additionalMonsters/../spells/blasphemy.md#_blasphemy)_ (DC 27), _ [destruction](additionalMonsters/../spells/destruction.md#_destruction)_ (DC 27), _ [dictum](additionalMonsters/../spells/dictum.md#_dictum)_ (DC 27), _ [holy word](additionalMonsters/../spells/holyWord.md#_holy-word)_ (DC 27), _ [word of chaos](additionalMonsters/../spells/wordOfChaos.md#_word-of-chaos)_ (DC 27)
 
-6th—_ [banishment](/pathfinderRPG/prd/additionalMonsters/../spells/banishment.html#_banishment)_ (DC 26), _ [forbiddance](/pathfinderRPG/prd/additionalMonsters/../spells/forbiddance.html#_forbiddance)_ (DC 26), _geas_, _ [legend lore](/pathfinderRPG/prd/additionalMonsters/../spells/legendLore.html#_legend-lore)_, _ [repulsion](/pathfinderRPG/prd/additionalMonsters/../spells/repulsion.html#_repulsion)_ (DC 26), _ [veil](/pathfinderRPG/prd/additionalMonsters/../spells/veil.html#_veil)_ (DC 26)
+6th—_ [banishment](additionalMonsters/../spells/banishment.md#_banishment)_ (DC 26), _ [forbiddance](additionalMonsters/../spells/forbiddance.md#_forbiddance)_ (DC 26), _geas_, _ [legend lore](additionalMonsters/../spells/legendLore.md#_legend-lore)_, _ [repulsion](additionalMonsters/../spells/repulsion.md#_repulsion)_ (DC 26), _ [veil](additionalMonsters/../spells/veil.md#_veil)_ (DC 26)
 
-5th—_ [contact other plane](/pathfinderRPG/prd/additionalMonsters/../spells/contactOtherPlane.html#_contact-other-plane)_, _ [dispel chaos](/pathfinderRPG/prd/additionalMonsters/../spells/dispelChaos.html#_dispel-chaos)_ (DC 25), _ [dispel evil](/pathfinderRPG/prd/additionalMonsters/../spells/dispelEvil.html#_dispel-evil)_ (DC 25), _ [dispel good](/pathfinderRPG/prd/additionalMonsters/../spells/dispelGood.html#_dispel-good)_ (DC 25), _ [dispel law](/pathfinderRPG/prd/additionalMonsters/../spells/dispelLaw.html#_dispel-law)_ (DC 25), _ [teleport](/pathfinderRPG/prd/additionalMonsters/../spells/teleport.html#_teleport)_
+5th—_ [contact other plane](additionalMonsters/../spells/contactOtherPlane.md#_contact-other-plane)_, _ [dispel chaos](additionalMonsters/../spells/dispelChaos.md#_dispel-chaos)_ (DC 25), _ [dispel evil](additionalMonsters/../spells/dispelEvil.md#_dispel-evil)_ (DC 25), _ [dispel good](additionalMonsters/../spells/dispelGood.md#_dispel-good)_ (DC 25), _ [dispel law](additionalMonsters/../spells/dispelLaw.md#_dispel-law)_ (DC 25), _ [teleport](additionalMonsters/../spells/teleport.md#_teleport)_
 
-4th—_ [chaos hammer](/pathfinderRPG/prd/additionalMonsters/../spells/chaosHammer.html#_chaos-hammer)_ (DC 24), _ [holy smite](/pathfinderRPG/prd/additionalMonsters/../spells/holySmite.html#_holy-smite)_ (DC 24), _order's wraith_ (DC 21), _ [restoration](/pathfinderRPG/prd/additionalMonsters/../spells/restoration.html#_restoration)_, _ [scrying](/pathfinderRPG/prd/additionalMonsters/../spells/scrying.html#_scrying)_ (DC 24), _ [unholy blight](/pathfinderRPG/prd/additionalMonsters/../spells/unholyBlight.html#_unholy-blight)_ (DC 24)
+4th—_ [chaos hammer](additionalMonsters/../spells/chaosHammer.md#_chaos-hammer)_ (DC 24), _ [holy smite](additionalMonsters/../spells/holySmite.md#_holy-smite)_ (DC 24), _order's wraith_ (DC 21), _ [restoration](additionalMonsters/../spells/restoration.md#_restoration)_, _ [scrying](additionalMonsters/../spells/scrying.md#_scrying)_ (DC 24), _ [unholy blight](additionalMonsters/../spells/unholyBlight.md#_unholy-blight)_ (DC 24)
 
-3rd—_ [clairaudience/clairvoyance](/pathfinderRPG/prd/additionalMonsters/../spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance)_, _ [magic circle against chaos](/pathfinderRPG/prd/additionalMonsters/../spells/magicCircleAgainstChaos.html#_magic-circle-against-chaos)_, _ [magic circle against evil](/pathfinderRPG/prd/additionalMonsters/../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil)_, _ [magic circle against good](/pathfinderRPG/prd/additionalMonsters/../spells/magicCircleAgainstGood.html#_magic-circle-against-good)_, _ [magic circle against law](/pathfinderRPG/prd/additionalMonsters/../spells/magicCircleAgainstLaw.html#_magic-circle-against-law)_, _ [suggestion](/pathfinderRPG/prd/additionalMonsters/../spells/suggestion.html#_suggestion)_ (DC 23)
+3rd—_ [clairaudience/clairvoyance](additionalMonsters/../spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance)_, _ [magic circle against chaos](additionalMonsters/../spells/magicCircleAgainstChaos.md#_magic-circle-against-chaos)_, _ [magic circle against evil](additionalMonsters/../spells/magicCircleAgainstEvil.md#_magic-circle-against-evil)_, _ [magic circle against good](additionalMonsters/../spells/magicCircleAgainstGood.md#_magic-circle-against-good)_, _ [magic circle against law](additionalMonsters/../spells/magicCircleAgainstLaw.md#_magic-circle-against-law)_, _ [suggestion](additionalMonsters/../spells/suggestion.md#_suggestion)_ (DC 23)
 
-2nd—_ [align weapon](/pathfinderRPG/prd/additionalMonsters/../spells/alignWeapon.html#_align-weapon)_, _ [detect thoughts](/pathfinderRPG/prd/additionalMonsters/../spells/detectThoughts.html#_detect-thoughts)_ (DC 22), _ [enthrall](/pathfinderRPG/prd/additionalMonsters/../spells/enthrall.html#_enthrall)_ (DC 22), _ [make whole](/pathfinderRPG/prd/additionalMonsters/../spells/makeWhole.html#_make-whole)_, _ [see invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/seeInvisibility.html#_see-invisibility)_, _ [undetectable alignment](/pathfinderRPG/prd/additionalMonsters/../spells/undetectableAlignment.html#_undetectable-alignment)_, _ [zone of truth](/pathfinderRPG/prd/additionalMonsters/../spells/zoneOfTruth.html#_zone-of-truth)_ (DC 22)
+2nd—_ [align weapon](additionalMonsters/../spells/alignWeapon.md#_align-weapon)_, _ [detect thoughts](additionalMonsters/../spells/detectThoughts.md#_detect-thoughts)_ (DC 22), _ [enthrall](additionalMonsters/../spells/enthrall.md#_enthrall)_ (DC 22), _ [make whole](additionalMonsters/../spells/makeWhole.md#_make-whole)_, _ [see invisibility](additionalMonsters/../spells/seeInvisibility.md#_see-invisibility)_, _ [undetectable alignment](additionalMonsters/../spells/undetectableAlignment.md#_undetectable-alignment)_, _ [zone of truth](additionalMonsters/../spells/zoneOfTruth.md#_zone-of-truth)_ (DC 22)
 
-1st—_ [detect chaos](/pathfinderRPG/prd/additionalMonsters/../spells/detectChaos.html#_detect-chaos)_, _ [detect evil](/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil)_, _ [detect good](/pathfinderRPG/prd/additionalMonsters/../spells/detectGood.html#_detect-good)_, _ [detect law](/pathfinderRPG/prd/additionalMonsters/../spells/detectLaw.html#_detect-law)_, _ [identify](/pathfinderRPG/prd/additionalMonsters/../spells/identify.html#_identify)_, _ [magic aura](/pathfinderRPG/prd/additionalMonsters/../spells/magicAura.html#_magic-aura)_, _ [true strike](/pathfinderRPG/prd/additionalMonsters/../spells/trueStrike.html#_true-strike)_
+1st—_ [detect chaos](additionalMonsters/../spells/detectChaos.md#_detect-chaos)_, _ [detect evil](additionalMonsters/../spells/detectEvil.md#_detect-evil)_, _ [detect good](additionalMonsters/../spells/detectGood.md#_detect-good)_, _ [detect law](additionalMonsters/../spells/detectLaw.md#_detect-law)_, _ [identify](additionalMonsters/../spells/identify.md#_identify)_, _ [magic aura](additionalMonsters/../spells/magicAura.md#_magic-aura)_, _ [true strike](additionalMonsters/../spells/trueStrike.md#_true-strike)_
 
-0—_ [create water](/pathfinderRPG/prd/additionalMonsters/../spells/createWater.html#_create-water)_, _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [guidance](/pathfinderRPG/prd/additionalMonsters/../spells/guidance.html#_guidance)_, _ [read magic](/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic)_
+0—_ [create water](additionalMonsters/../spells/createWater.md#_create-water)_, _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [guidance](additionalMonsters/../spells/guidance.md#_guidance)_, _ [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_
 
 Statistics
 
@@ -313,10 +313,10 @@ Statistics
 
 **Base Atk** +24; **CMB** +32; **CMD** 57 (can't be tripped)
 
-**Feats** [Alertness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_alertness), [Combat Casting](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes), [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Improved Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-iron-will), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Lightning Stance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-stance), [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility), [Wind Stance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_wind-stance)
+**Feats** [Alertness](additionalMonsters/../feats.md#_alertness), [Combat Casting](additionalMonsters/../feats.md#_combat-casting), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Dodge](additionalMonsters/../feats.md#_dodge), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Iron Will](additionalMonsters/../feats.md#_improved-iron-will), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Lightning Stance](additionalMonsters/../feats.md#_lightning-stance), [Mobility](additionalMonsters/../feats.md#_mobility), [Wind Stance](additionalMonsters/../feats.md#_wind-stance)
 
-**Skills** [Appraise](/pathfinderRPG/prd/additionalMonsters/../skills/appraise.html#_appraise) +30, [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +32, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +16, [Heal](/pathfinderRPG/prd/additionalMonsters/../skills/heal.html#_heal) +30,   
- [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +27, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana) +47, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (dungeoneering) +44, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (engineering) +44, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (nature) +47, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +47, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (religion) +47, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +41, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +39, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +30, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +27, [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) +27
+**Skills** [Appraise](additionalMonsters/../skills/appraise.md#_appraise) +30, [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +32, [Fly](additionalMonsters/../skills/fly.md#_fly) +16, [Heal](additionalMonsters/../skills/heal.md#_heal) +30,   
+ [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +27, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +47, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (dungeoneering) +44, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (engineering) +44, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (nature) +47, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +47, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +47, [Perception](additionalMonsters/../skills/perception.md#_perception) +41, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +39, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +30, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +27, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +27
 
 **Languages** envisaging
 
@@ -336,7 +336,7 @@ Special Abilities
 
 **Spells** A pleroma casts spells as a 20th-level cleric, but does not have access to domains. A pleroma can cast certain sorcerer/wizard spells as divine spells.
 
-**Sphere of Creation (Su)** Three times per day, the pleroma can manifest a 2-foot-diameter sphere of white energy that hovers above its left hand. By concentrating, the pleroma can control this sphere, causing it to fly slowly at a speed of 10 feet per round. The sphere can travel in any direction, but must remain within 300 feet of the pleroma or it immediately dissipates. Wherever the sphere travels, it leaves behind a 5-foot-wide path of new matter, creating either new terrain (such as swamp, tundra, desert, or forest) or a 10-foot-square wall composed of a single natural substance (such as clay, wood, or stone). Any existing matter, either living or nonliving that comes in contact with the sphere must make a DC 30 Fortitude save or be absorbed and incorporated into the new substance (only _ [freedom](/pathfinderRPG/prd/additionalMonsters/../spells/freedom.html#_freedom)_, _ [miracle](/pathfinderRPG/prd/additionalMonsters/../spells/miracle.html#_miracle)_, or _ [wish](/pathfinderRPG/prd/additionalMonsters/../spells/wish.html#_wish)_ can rescue creatures so trapped). Creatures that save are pushed to the nearest unoccupied location adjacent to the newly created substance. The sphere is highly unstable and only lasts 1d4 minutes before exploding with a blinding flash. All creatures within 30 feet of the flash must make a DC 30 Fortitude save or be permanently blinded. The save DCs are Constitution-based.
+**Sphere of Creation (Su)** Three times per day, the pleroma can manifest a 2-foot-diameter sphere of white energy that hovers above its left hand. By concentrating, the pleroma can control this sphere, causing it to fly slowly at a speed of 10 feet per round. The sphere can travel in any direction, but must remain within 300 feet of the pleroma or it immediately dissipates. Wherever the sphere travels, it leaves behind a 5-foot-wide path of new matter, creating either new terrain (such as swamp, tundra, desert, or forest) or a 10-foot-square wall composed of a single natural substance (such as clay, wood, or stone). Any existing matter, either living or nonliving that comes in contact with the sphere must make a DC 30 Fortitude save or be absorbed and incorporated into the new substance (only _ [freedom](additionalMonsters/../spells/freedom.md#_freedom)_, _ [miracle](additionalMonsters/../spells/miracle.md#_miracle)_, or _ [wish](additionalMonsters/../spells/wish.md#_wish)_ can rescue creatures so trapped). Creatures that save are pushed to the nearest unoccupied location adjacent to the newly created substance. The sphere is highly unstable and only lasts 1d4 minutes before exploding with a blinding flash. All creatures within 30 feet of the flash must make a DC 30 Fortitude save or be permanently blinded. The save DCs are Constitution-based.
 
 **Sphere of Oblivion (Su)** Three times per day, the pleroma can manifest a 2-foot-diameter sphere of complete and utter darkness that hovers above its right hand. The sphere is an empty void similar to a _sphere of annihilation_. Any matter (living or nonliving) that touches the sphere must succeed on a DC 30 Fortitude save or be sucked into the sphere and destroyed. Larger objects (such as ships or buildings) are destroyed at a rate of one 10-foot cube per round of contact with the sphere. By concentrating, the pleroma can control this sphere, causing it to fly slowly at a speed of 10 feet per round. The sphere can travel in any direction, but must remain within 300 feet of the pleroma or it immediately dissipates. The sphere is highly unstable and only lasts 1d4 minutes before harmlessly imploding upon itself. Alternatively, the pleroma may hurl the sphere as a ranged touch attack (with a 10-foot range increment) against a single creature. When thrown in this manner, the sphere implodes immediately after the attack is resolved. The save DCs are Constitution-based.
 
@@ -356,9 +356,9 @@ Four bandy limbs, each splitting at the elbow into two three-fingered forearms, 
 
 **XP 3,200**
 
-N Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [aeon](/pathfinderRPG/prd/monsters/creatureTypes.html#_aeon-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+N Medium [outsider](monsters/creatureTypes.md#_outsider) ( [aeon](monsters/creatureTypes.md#_aeon-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +16
+**Init** +6; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +16
 
 Defense
 
@@ -368,7 +368,7 @@ Defense
 
 **Fort** +9, **Ref** +5, **Will** +12
 
-**Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), critical hits, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** electricity 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 18
+**Immune** [cold](monsters/creatureTypes.md#_cold-subtype), critical hits, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 18
 
 Offense
 
@@ -382,11 +382,11 @@ Offense
 
 **Spell-Like Abilities** (CL 9th; concentration +10)
 
-At will—_ [augury](/pathfinderRPG/prd/additionalMonsters/../spells/augury.html#_augury)_, _ [command](/pathfinderRPG/prd/additionalMonsters/../spells/command.html#_command)_ (DC 12), _ [doom](/pathfinderRPG/prd/additionalMonsters/../spells/doom.html#_doom)_ (DC 12), _ [sanctuary](/pathfinderRPG/prd/additionalMonsters/../spells/sanctuary.html#_sanctuary)_ (DC 12)
+At will—_ [augury](additionalMonsters/../spells/augury.md#_augury)_, _ [command](additionalMonsters/../spells/command.md#_command)_ (DC 12), _ [doom](additionalMonsters/../spells/doom.md#_doom)_ (DC 12), _ [sanctuary](additionalMonsters/../spells/sanctuary.md#_sanctuary)_ (DC 12)
 
-3/day— _ [bestow curse](/pathfinderRPG/prd/additionalMonsters/../spells/bestowCurse.html#_bestow-curse)_ (DC 14), _ [enthrall](/pathfinderRPG/prd/additionalMonsters/../spells/enthrall.html#_enthrall)_ (DC 13), _ [touch of idiocy](/pathfinderRPG/prd/additionalMonsters/../spells/touchOfIdiocy.html#_touch-of-idiocy)_ (DC 13), _ [dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic)_, _ [remove curse](/pathfinderRPG/prd/additionalMonsters/../spells/removeCurse.html#_remove-curse)_, _ [suggestion](/pathfinderRPG/prd/additionalMonsters/../spells/suggestion.html#_suggestion)_ (DC 14)
+3/day— _ [bestow curse](additionalMonsters/../spells/bestowCurse.md#_bestow-curse)_ (DC 14), _ [enthrall](additionalMonsters/../spells/enthrall.md#_enthrall)_ (DC 13), _ [touch of idiocy](additionalMonsters/../spells/touchOfIdiocy.md#_touch-of-idiocy)_ (DC 13), _ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [remove curse](additionalMonsters/../spells/removeCurse.md#_remove-curse)_, _ [suggestion](additionalMonsters/../spells/suggestion.md#_suggestion)_ (DC 14)
 
-1/day—_ [charm monster](/pathfinderRPG/prd/additionalMonsters/../spells/charmMonster.html#_charm-monster)_ (DC 15), _ [lesser geas](/pathfinderRPG/prd/additionalMonsters/../spells/geasQuest.html#_geas-lesser)_ (DC 15)
+1/day—_ [charm monster](additionalMonsters/../spells/charmMonster.md#_charm-monster)_ (DC 15), _ [lesser geas](additionalMonsters/../spells/geasQuest.md#_geas-lesser)_ (DC 15)
 
 Statistics
 
@@ -394,9 +394,9 @@ Statistics
 
 **Base Atk** +9; **CMB** +13; **CMD** 28 (can't be tripped)
 
-**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Hover](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Improved Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-iron-will), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will)
+**Feats** [Dodge](additionalMonsters/../feats.md#_dodge), [Hover](additionalMonsters/../monsters/monsterFeats.md#_hover), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Iron Will](additionalMonsters/../feats.md#_improved-iron-will), [Iron Will](additionalMonsters/../feats.md#_iron-will)
 
-**Skills** [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) –2, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +13, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +16, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +16, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +16, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +12, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +14
+**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) –2, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +13, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +16, [Perception](additionalMonsters/../skills/perception.md#_perception) +16, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +16, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +12, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +14
 
 **Languages** envisaging
 
@@ -414,7 +414,7 @@ Special Abilities
 
 **Fate Drain (Su)** A theletos possesses a pair of flexible crystalline tentacles with which it can drain a creature's sense of fate and destiny. Whenever it strikes a foe with these tentacles, the creature struck must make a DC 17 Will save or take 1d4 points of Charisma damage. Until a creature's Charisma damage from this ability is healed, the victim takes a –2 penalty on all saving throws (regardless of the actual total amount of Charisma damage it takes). The save DC is Constitution-based.
 
-**Wreath of Fate (Su)** As a full-round-action every 1d4 rounds, a theletos can release a 60-foot cone of energy from its chest. Any intelligent creature struck by this cone must make a DC 15 Will save or become nearly overwhelmed with the knowledge of various fates that destiny has in store for him—there is no way to make sense of these myriad dooms and boons, and as a result, the victim is staggered. As long as this condition persists, the victim may choose to make two rolls when attempting an attack roll, a saving throw, or a skill check—he must accept the worse of the two rolls, but in so doing the wreath of fate passes from his soul and he is no longer staggered by this ability. Wreath of fate is a [curse](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse) effect, and as such can be affected by _ [remove curse](/pathfinderRPG/prd/additionalMonsters/../spells/removeCurse.html#_remove-curse)_ or _ [break enchantment](/pathfinderRPG/prd/additionalMonsters/../spells/breakEnchantment.html#_break-enchantment)_—the effective caster level of this [curse](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse) is equal to the theletos's HD (CL 9th in most cases). The save DC is Charisma-based.
+**Wreath of Fate (Su)** As a full-round-action every 1d4 rounds, a theletos can release a 60-foot cone of energy from its chest. Any intelligent creature struck by this cone must make a DC 15 Will save or become nearly overwhelmed with the knowledge of various fates that destiny has in store for him—there is no way to make sense of these myriad dooms and boons, and as a result, the victim is staggered. As long as this condition persists, the victim may choose to make two rolls when attempting an attack roll, a saving throw, or a skill check—he must accept the worse of the two rolls, but in so doing the wreath of fate passes from his soul and he is no longer staggered by this ability. Wreath of fate is a [curse](monsters/universalMonsterRules.md#_curse) effect, and as such can be affected by _ [remove curse](additionalMonsters/../spells/removeCurse.md#_remove-curse)_ or _ [break enchantment](additionalMonsters/../spells/breakEnchantment.md#_break-enchantment)_—the effective caster level of this [curse](monsters/universalMonsterRules.md#_curse) is equal to the theletos's HD (CL 9th in most cases). The save DC is Charisma-based.
 
 The strange theletos is the guardian of the duality between freedom and fate. Slavery is no more of an issue to a theletos than is true freedom, but without one, the other cannot exist. In areas where slavery is rife, a theletos might aid in freeing some slaves, while in regions where slavery has been abolished, this strange being works to subjugate many creatures with its own mind-controlling spell-like abilities—often encouraging them to further undertake acts of slavery themselves. The theletos is also a guardian of fate and prophecy, and while for some creatures it might allow glimpses of futures, others who peer into the future almost seem to cause the aeon physical pain. The theletos cannot explain why one seer might be allowed to divine futures while another should not—it knows only that some prophets should be denied this pursuit.
 

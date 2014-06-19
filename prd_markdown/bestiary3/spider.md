@@ -8,7 +8,7 @@ XP 200
 
 N Small vermin
 
-**Init** +2; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +4
+**Init** +2; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](skills/perception.md#_perception) +4
 
 Defense
 
@@ -24,7 +24,7 @@ Offense
 
 **Speed** 30 ft., climb 20 ft.
 
-**Melee** bite +2 (1d4 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** bite +2 (1d4 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 Statistics
 
@@ -32,7 +32,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +0; **CMD** 12 (24 vs. trip)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +10, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +24, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +4, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +10 (+25 when stationary); **Racial Modifiers** +8 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics), +16 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb), +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) (+15 when stationary)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +10, [Climb](skills/climb.md#_climb) +24, [Perception](skills/perception.md#_perception) +4, [Stealth](skills/stealth.md#_stealth) +10 (+25 when stationary); **Racial Modifiers** +8 [Acrobatics](skills/acrobatics.md#_acrobatics), +16 [Climb](skills/climb.md#_climb), +4 [Perception](skills/perception.md#_perception), +4 [Stealth](skills/stealth.md#_stealth) (+15 when stationary)
 
 **SQ** camouflage
 
@@ -46,7 +46,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 14 (includes +2 racial bonus); _frequency_ 1/round for 4 rounds; _effect_ 1d2 Str; _cure _1 save.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 14 (includes +2 racial bonus); _frequency_ 1/round for 4 rounds; _effect_ 1d2 Str; _cure _1 save.
 
 Giant crab spiders are dangerous ambush predators that live in dense forest vegetation. Though crab spiders are not web spinners, they are truly gifted climbers and use this talent to clamber up into places where they can observe wide areas from on high. Named for their curious scuttling walk and wide-legged stance, giant crab spiders are rarely larger than a typical adult halfling.
 
@@ -60,7 +60,7 @@ XP 1,600
 
 N Huge vermin
 
-**Init** +2; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
+**Init** +2; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](skills/perception.md#_perception) +5
 
 Defense
 
@@ -76,7 +76,7 @@ Offense
 
 **Speed** 40 ft., climb 40 ft.
 
-**Melee** bite +8 (2d8+7 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** bite +8 (2d8+7 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
@@ -88,13 +88,13 @@ Statistics
 
 **Base Atk** +5; **CMB** +12; **CMD** 24 (36 vs. trip)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +29, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) –2; **Racial Modifiers** +16 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb), +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
+**Skills** [Climb](skills/climb.md#_climb) +29, [Perception](skills/perception.md#_perception) +5, [Stealth](skills/stealth.md#_stealth) –2; **Racial Modifiers** +16 [Climb](skills/climb.md#_climb), +4 [Perception](skills/perception.md#_perception), +4 [Stealth](skills/stealth.md#_stealth)
 
-**SQ** [compression](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_compression)
+**SQ** [compression](monsters/universalMonsterRules.md#_compression)
 
 Ecology
 
-**Environment** temperate or [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) hills or underground
+**Environment** temperate or [cold](monsters/creatureTypes.md#_cold-subtype) hills or underground
 
 **Organization** solitary or pair
 
@@ -102,7 +102,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 18 (includes +2 racial bonus); _frequency_ 1/round for 6 rounds; _effect_ 1d4 Str and 1d4 Dex; _cure_ 1 save.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 18 (includes +2 racial bonus); _frequency_ 1/round for 6 rounds; _effect_ 1d4 Str and 1d4 Dex; _cure_ 1 save.
 
 Ogre spiders are brutal, terrifying hunters that spin tangled webs capable of encasing entire trees. So-named because the arrangement of its eyes and mandibles gives it a face unnervingly similar to that of an ogre as much as for their size, ogre spiders can fit into nooks and tunnels far more narrow than one might expect.
 

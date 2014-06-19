@@ -4,153 +4,153 @@ The following lists group all of the monsters in this book into their respective
 
 **Any Terrain**
 
-[animated object](animatedObject.html#_animated-object), [barghest](barghest.html#_barghest), [basilisk](basilisk.html#_basilisk), [clay golem](golem.html#_golem-clay), [devourer](devourer.html#_devourer), [dog](dog.html#_dog), [doppelganger](doppelganger.html#_doppelganger), [fire beetle](beetle.html#_beetle-fire), [flesh golem](golem.html#_golem-flesh), [gargoyle](gargoyle.html#_gargoyle), [ghost](ghost.html#_ghost), [ghoul](ghoul.html#_ghoul), [giant ant](ant.html#_ant-giant), [giant spider](spider.html#_spider-giant), [greater barghest](barghest.html#_greater-barghest), [greater shadow](shadow.html#_shadow-greater), [hell hound](hellHound.html#_hell-hound), [homunculus](homunculus.html#_homunculus), [iron cobra](ironCobra.html#_iron-cobra), [iron golem](golem.html#_golem-iron), [kyton](kyton.html#_kyton), [lich](lich.html#_lich), [mimic](mimic.html#_mimic), [minotaur](minotaur.html#_minotaur), [mohrg](mohrg.html#_mohrg), [mummy](mummy.html#_mummy), [nessian warhound](hellHound.html#_hell-hound-nessian), [rakshasa](rakshasa.html#_rakshasa), [rat swarm](rat.html#_rat-swarm), [riding dog](dog.html#_dog-riding), [shadow](shadow.html#_shadow), [skeletal champion](skeletalChampion.html#_skeletal-champion), [skeleton](skeleton.html#_skeleton), [spectre](spectre.html#_spectre), [spider swarm](spider.html#_spider-swarm), [stone golem](golem.html#_golem-stone), [tarrasque](tarrasque.html#_tarrasque), [vampire](vampire.html#_vampire), [vargouille](vargouille.html#_vargouille), [werewolf](lycanthrope.html#_lycanthrope-werewolf), [wight](wight.html#_wight), [wood golem](golem.html#_golem-wood), [wraith](wraith.html#_wraith), [xill](xill.html#_xill), [yeth hound](yethHound.html#_yeth-hound), [zombie](zombie.html#_zombie)
+[animated object](animatedObject.md#_animated-object), [barghest](barghest.md#_barghest), [basilisk](basilisk.md#_basilisk), [clay golem](golem.md#_golem-clay), [devourer](devourer.md#_devourer), [dog](dog.md#_dog), [doppelganger](doppelganger.md#_doppelganger), [fire beetle](beetle.md#_beetle-fire), [flesh golem](golem.md#_golem-flesh), [gargoyle](gargoyle.md#_gargoyle), [ghost](ghost.md#_ghost), [ghoul](ghoul.md#_ghoul), [giant ant](ant.md#_ant-giant), [giant spider](spider.md#_spider-giant), [greater barghest](barghest.md#_greater-barghest), [greater shadow](shadow.md#_shadow-greater), [hell hound](hellHound.md#_hell-hound), [homunculus](homunculus.md#_homunculus), [iron cobra](ironCobra.md#_iron-cobra), [iron golem](golem.md#_golem-iron), [kyton](kyton.md#_kyton), [lich](lich.md#_lich), [mimic](mimic.md#_mimic), [minotaur](minotaur.md#_minotaur), [mohrg](mohrg.md#_mohrg), [mummy](mummy.md#_mummy), [nessian warhound](hellHound.md#_hell-hound-nessian), [rakshasa](rakshasa.md#_rakshasa), [rat swarm](rat.md#_rat-swarm), [riding dog](dog.md#_dog-riding), [shadow](shadow.md#_shadow), [skeletal champion](skeletalChampion.md#_skeletal-champion), [skeleton](skeleton.md#_skeleton), [spectre](spectre.md#_spectre), [spider swarm](spider.md#_spider-swarm), [stone golem](golem.md#_golem-stone), [tarrasque](tarrasque.md#_tarrasque), [vampire](vampire.md#_vampire), [vargouille](vargouille.md#_vargouille), [werewolf](lycanthrope.md#_lycanthrope-werewolf), [wight](wight.md#_wight), [wood golem](golem.md#_golem-wood), [wraith](wraith.md#_wraith), [xill](xill.md#_xill), [yeth hound](yethHound.md#_yeth-hound), [zombie](zombie.md#_zombie)
 
 **Any Terrain (Cold)**
 
-[ice golem](golem.html#_golem-ice)
+[ice golem](golem.md#_golem-ice)
 
 **Any Terrain (Temperate)**
 
-[cyclops](cyclops.html#_cyclops), [bat swarm](bat.html#_bat-swarm), [dire bat](bat.html#_bat-dire), [lizard](familiar.html#_lizard), [rat](familiar.html#_rat), [venomous snake](snake.html#_snake-venomous)
+[cyclops](cyclops.md#_cyclops), [bat swarm](bat.md#_bat-swarm), [dire bat](bat.md#_bat-dire), [lizard](familiar.md#_lizard), [rat](familiar.md#_rat), [venomous snake](snake.md#_snake-venomous)
 
 **Any Terrain (Warm)**
 
-army ants, [bat swarm](bat.html#_bat-swarm), [cyclops](cyclops.html#_cyclops), [dire bat](bat.html#_bat-dire), [lizard](familiar.html#_lizard), [storm giant](giant.html#_giant-storm), [venomous snake](snake.html#_snake-venomous)
+army ants, [bat swarm](bat.md#_bat-swarm), [cyclops](cyclops.md#_cyclops), [dire bat](bat.md#_bat-dire), [lizard](familiar.md#_lizard), [storm giant](giant.md#_giant-storm), [venomous snake](snake.md#_snake-venomous)
 
 **Coastline**
 
-[bronze dragon](dragon.html#_metallic-dragon-bronze), [crab swarm](crab.html#_crab-swarm), [giant crab](crab.html#_crab-giant), [pteranodon](dinosaur.html#_dinosaur-pteranodon)
+[bronze dragon](dragon.md#_metallic-dragon-bronze), [crab swarm](crab.md#_crab-swarm), [giant crab](crab.md#_crab-giant), [pteranodon](dinosaur.md#_dinosaur-pteranodon)
 
 **Desert (cold)**
 
-[remorhaz](remorhaz.html#_remorhaz)
+[remorhaz](remorhaz.md#_remorhaz)
 
 **Desert (Temperate)**
 
-[bat](familiar.html#_bat), [giant scorpion](scorpion.html#_scorpion-giant), [lamia](lamia.html#_lamia)
+[bat](familiar.md#_bat), [giant scorpion](scorpion.md#_scorpion-giant), [lamia](lamia.md#_lamia)
 
 **Desert (Warm)**
 
-[bat](familiar.html#_bat), [behir](behir.html#_behir), [blue dragon](dragon.html#_chromatic-dragon-blue), [brass dragon](dragon.html#_metallic-dragon-brass), [giant scorpion](scorpion.html#_scorpion-giant), [gnoll](gnoll.html#_gnoll), [janni](genie.html#_genie-janni), [phoenix](phoenix.html#_phoenix), [sphinx](sphinx.html#_sphinx)
+[bat](familiar.md#_bat), [behir](behir.md#_behir), [blue dragon](dragon.md#_chromatic-dragon-blue), [brass dragon](dragon.md#_metallic-dragon-brass), [giant scorpion](scorpion.md#_scorpion-giant), [gnoll](gnoll.md#_gnoll), [janni](genie.md#_genie-janni), [phoenix](phoenix.md#_phoenix), [sphinx](sphinx.md#_sphinx)
 
 **Forest (Cold)**
 
-[dire bear](bear.html#_bear-dire), [dire tiger](tiger.html#_tiger-dire), [dire wolf](wolf.html#_wolf-dire), [dire wolverine](wolverine.html#_wolverine-dire), [grizzly bear](bear.html#_bear-grizzly), [mastodon](elephant.html#_elephant-mastodon), [tiger](tiger.html#_tiger), [treant](treant.html#_treant), [winter wolf](worg.html#_worg-winter-wolf), [wolf](wolf.html#_wolf), [wolverine](wolverine.html#_wolverine)
+[dire bear](bear.md#_bear-dire), [dire tiger](tiger.md#_tiger-dire), [dire wolf](wolf.md#_wolf-dire), [dire wolverine](wolverine.md#_wolverine-dire), [grizzly bear](bear.md#_bear-grizzly), [mastodon](elephant.md#_elephant-mastodon), [tiger](tiger.md#_tiger), [treant](treant.md#_treant), [winter wolf](worg.md#_worg-winter-wolf), [wolf](wolf.md#_wolf), [wolverine](wolverine.md#_wolverine)
 
 **Forest (Temperate)**
 
-[assassin vine](assassinVine.html#_assassin-vine), [bat](familiar.html#_bat), [boar](boar.html#_boar), [centaur](centaur.html#_centaur), [dire boar](boar.html#_boar-dire), [dire tiger](tiger.html#_tiger-dire), [dire wolf](wolf.html#_wolf-dire), [dryad](dryad.html#_dryad), [ettercap](ettercap.html#_ettercap), [giant mantis](mantis.html#_mantis-giant), [giant scorpion](scorpion.html#_scorpion-giant), [giant stag beetle](beetle.html#_beetle-giant), [giant wasp](wasp.html#_wasp-giant), [goblin](goblin.html#_goblin), [goblin dog](goblinDog.html#_goblin-dog), [green dragon](dragon.html#_chromatic-dragon-green), [half-celestial unicorn](halfCelestial.html#_half-celestial), [hawk](familiar.html#_hawk), [kobold](kobold.html#_kobold), [nymph](nymph.html#_nymph), [owl](familiar.html#_owl), [owlbear](owlbear.html#_owlbear), [pixie](pixie.html#_pixie), [pseudodragon](pseudodragon.html#_pseudodragon), [satyr](satyr.html#_satyr), [shambling mound](shamblingMound.html#_shambling-mound), [tiger](tiger.html#_tiger), [toad](familiar.html#_toad), [treant](treant.html#_treant), [unicorn](unicorn.html#_unicorn), [wasp swarm](wasp.html#_wasp-swarm), [wolf](wolf.html#_wolf), [worg](worg.html#_worg), [yellow musk creeper](yellowMuskCreeper.html#_yellow-musk-creeper)
+[assassin vine](assassinVine.md#_assassin-vine), [bat](familiar.md#_bat), [boar](boar.md#_boar), [centaur](centaur.md#_centaur), [dire boar](boar.md#_boar-dire), [dire tiger](tiger.md#_tiger-dire), [dire wolf](wolf.md#_wolf-dire), [dryad](dryad.md#_dryad), [ettercap](ettercap.md#_ettercap), [giant mantis](mantis.md#_mantis-giant), [giant scorpion](scorpion.md#_scorpion-giant), [giant stag beetle](beetle.md#_beetle-giant), [giant wasp](wasp.md#_wasp-giant), [goblin](goblin.md#_goblin), [goblin dog](goblinDog.md#_goblin-dog), [green dragon](dragon.md#_chromatic-dragon-green), [half-celestial unicorn](halfCelestial.md#_half-celestial), [hawk](familiar.md#_hawk), [kobold](kobold.md#_kobold), [nymph](nymph.md#_nymph), [owl](familiar.md#_owl), [owlbear](owlbear.md#_owlbear), [pixie](pixie.md#_pixie), [pseudodragon](pseudodragon.md#_pseudodragon), [satyr](satyr.md#_satyr), [shambling mound](shamblingMound.md#_shambling-mound), [tiger](tiger.md#_tiger), [toad](familiar.md#_toad), [treant](treant.md#_treant), [unicorn](unicorn.md#_unicorn), [wasp swarm](wasp.md#_wasp-swarm), [wolf](wolf.md#_wolf), [worg](worg.md#_worg), [yellow musk creeper](yellowMuskCreeper.md#_yellow-musk-creeper)
 
 **Forest (Warm)**
 
-[ankylosaurus](dinosaur.html#_dinosaur-ankylosaurus), [bat](familiar.html#_bat), [boar](boar.html#_boar), [brachiosaurus](dinosaur.html#_dinosaur-brachiosaurus), [centipede swarm](centipede.html#_centipede-swarm), [constrictor snake](snake.html#_snake-constrictor), [couatl](couatl.html#_couatl), [deinonychus](dinosaur.html#_dinosaur-deinonychus), [dire ape](ape.html#_ape-dire), [dire boar](boar.html#_boar-dire), [dire tiger](tiger.html#_tiger-dire), [giant centipede](centipede.html#_centipede-giant), [giant frilled lizard](lizard.html#_lizard-giant-frilled), [girallon](girallon.html#_girallon), [gorilla](ape.html#_ape-gorilla), [leopard](cat.html#_cat-leopard), [monitor lizard](lizard.html#_lizard-monitor), [monkey](familiar.html#_monkey), [tiger](tiger.html#_tiger), [toad](familiar.html#_toad), [treant](treant.html#_treant), [tyrannosaurus](dinosaur.html#_dinosaur-tyrannosaurus), [yellow musk creeper](yellowMuskCreeper.html#_yellow-musk-creeper)
+[ankylosaurus](dinosaur.md#_dinosaur-ankylosaurus), [bat](familiar.md#_bat), [boar](boar.md#_boar), [brachiosaurus](dinosaur.md#_dinosaur-brachiosaurus), [centipede swarm](centipede.md#_centipede-swarm), [constrictor snake](snake.md#_snake-constrictor), [couatl](couatl.md#_couatl), [deinonychus](dinosaur.md#_dinosaur-deinonychus), [dire ape](ape.md#_ape-dire), [dire boar](boar.md#_boar-dire), [dire tiger](tiger.md#_tiger-dire), [giant centipede](centipede.md#_centipede-giant), [giant frilled lizard](lizard.md#_lizard-giant-frilled), [girallon](girallon.md#_girallon), [gorilla](ape.md#_ape-gorilla), [leopard](cat.md#_cat-leopard), [monitor lizard](lizard.md#_lizard-monitor), [monkey](familiar.md#_monkey), [tiger](tiger.md#_tiger), [toad](familiar.md#_toad), [treant](treant.md#_treant), [tyrannosaurus](dinosaur.md#_dinosaur-tyrannosaurus), [yellow musk creeper](yellowMuskCreeper.md#_yellow-musk-creeper)
 
 **Rivers/Lakes**
 
-[aboleth](aboleth.html#_aboleth), [constrictor snake](snake.html#_snake-constrictor), [crocodile](crocodile.html#_crocodile), [dire crocodile](crocodile.html#_crocodile-dire), [electric eel](eel.html#_eel-electric)
+[aboleth](aboleth.md#_aboleth), [constrictor snake](snake.md#_snake-constrictor), [crocodile](crocodile.md#_crocodile), [dire crocodile](crocodile.md#_crocodile-dire), [electric eel](eel.md#_eel-electric)
 
 **Hills (Cold)**
 
-[crag linnorm](linnorm.html#_linnorm-crag), [ettin](ettin.html#_ettin), [ice linnorm](linnorm.html#_linnorm-ice), [ogre](ogre.html#_ogre), [ogre mage](oni.html#_oni-ogre-mage)
+[crag linnorm](linnorm.md#_linnorm-crag), [ettin](ettin.md#_ettin), [ice linnorm](linnorm.md#_linnorm-ice), [ogre](ogre.md#_ogre), [ogre mage](oni.md#_oni-ogre-mage)
 
 **Hills (Temperate)**
 
-[bulette](bulette.html#_bulette), [chimera](chimera.html#_chimera), [gorgon](gorgon.html#_gorgon), [griffon](griffon.html#_griffon), [hill giant](giant.html#_giant-hill), [hobgoblin](hobgoblin.html#_hobgoblin), [ogre](ogre.html#_ogre), [orc](orc.html#_orc), [weasel](familiar.html#_weasel), [wyvern](wyvern.html#_wyvern)
+[bulette](bulette.md#_bulette), [chimera](chimera.md#_chimera), [gorgon](gorgon.md#_gorgon), [griffon](griffon.md#_griffon), [hill giant](giant.md#_giant-hill), [hobgoblin](hobgoblin.md#_hobgoblin), [ogre](ogre.md#_ogre), [orc](orc.md#_orc), [weasel](familiar.md#_weasel), [wyvern](wyvern.md#_wyvern)
 
 **Hills (Warm)**
 
-[behir](behir.html#_behir), [copper dragon](dragon.html#_metallic-dragon-copper), [dire lion](lion.html#_lion-dire), [giant frilled lizard](lizard.html#_lizard-giant-frilled), [manticore](manticore.html#_manticore), [phase spider](phaseSpider.html#_phase-spider), [phoenix](phoenix.html#_phoenix), [sphinx](sphinx.html#_sphinx), [wyvern](wyvern.html#_wyvern)
+[behir](behir.md#_behir), [copper dragon](dragon.md#_metallic-dragon-copper), [dire lion](lion.md#_lion-dire), [giant frilled lizard](lizard.md#_lizard-giant-frilled), [manticore](manticore.md#_manticore), [phase spider](phaseSpider.md#_phase-spider), [phoenix](phoenix.md#_phoenix), [sphinx](sphinx.md#_sphinx), [wyvern](wyvern.md#_wyvern)
 
 **Mountains (Cold)**
 
-[frost giant](giant.html#_giant-frost), [ice linnorm](linnorm.html#_linnorm-ice), [troll](troll.html#_troll), [yeti](yeti.html#_yeti), [white dragon](dragon.html#_chromatic-dragon-white)
+[frost giant](giant.md#_giant-frost), [ice linnorm](linnorm.md#_linnorm-ice), [troll](troll.md#_troll), [yeti](yeti.md#_yeti), [white dragon](dragon.md#_chromatic-dragon-white)
 
 **Mountains (Temperate)**
 
-[bugbear](bugbear.html#_bugbear), [cloud giant](giant.html#_giant-cloud), [eagle](eagle.html#_eagle), [giant eagle](eagle.html#_eagle-giant), [orc](orc.html#_orc), [silver dragon](dragon.html#_metallic-dragon-silver), [tengu](tengu.html#_tengu)
+[bugbear](bugbear.md#_bugbear), [cloud giant](giant.md#_giant-cloud), [eagle](eagle.md#_eagle), [giant eagle](eagle.md#_eagle-giant), [orc](orc.md#_orc), [silver dragon](dragon.md#_metallic-dragon-silver), [tengu](tengu.md#_tengu)
 
 **Mountains (Warm)**
 
-[fire giant](giant.html#_giant-fire), [red dragon](dragon.html#_chromatic-dragon-red), [roc](roc.html#_roc)
+[fire giant](giant.md#_giant-fire), [red dragon](dragon.md#_chromatic-dragon-red), [roc](roc.md#_roc)
 
 **Ocean (Cold)**
 
-[aboleth](aboleth.html#_aboleth), [crab swarm](crab.html#_crab-swarm), [dire shark](shark.html#_shark-dire), [dolphin](dolphin.html#_dolphin), [giant crab](crab.html#_crab-giant), [giant octopus](octopus.html#_octopus-giant), [giant squid](squid.html#_squid-giant), [kraken](kraken.html#_kraken), [octopus](octopus.html#_octopus), [orca](dolphin.html#_dolphin-orca), [sea hag](seaHag.html#_sea-hag), [sea serpent](seaSerpent.html#_sea-serpent), [shark](shark.html#_shark), [shoggoth](shoggoth.html#_shoggoth), [skum](skum.html#_skum), [squid](squid.html#_squid)
+[aboleth](aboleth.md#_aboleth), [crab swarm](crab.md#_crab-swarm), [dire shark](shark.md#_shark-dire), [dolphin](dolphin.md#_dolphin), [giant crab](crab.md#_crab-giant), [giant octopus](octopus.md#_octopus-giant), [giant squid](squid.md#_squid-giant), [kraken](kraken.md#_kraken), [octopus](octopus.md#_octopus), [orca](dolphin.md#_dolphin-orca), [sea hag](seaHag.md#_sea-hag), [sea serpent](seaSerpent.md#_sea-serpent), [shark](shark.md#_shark), [shoggoth](shoggoth.md#_shoggoth), [skum](skum.md#_skum), [squid](squid.md#_squid)
 
 **Ocean (Temperate)**
 
-[aboleth](aboleth.html#_aboleth), [crab swarm](crab.html#_crab-swarm), [dire shark](shark.html#_shark-dire), [dolphin](dolphin.html#_dolphin), [dragon turtle](dragonTurtle.html#_dragon-turtle), [giant crab](crab.html#_crab-giant), [giant octopus](octopus.html#_octopus-giant), [giant squid](squid.html#_squid-giant), [kraken](kraken.html#_kraken), [merfolk](merfolk.html#_merfolk), [octopus](octopus.html#_octopus), [sahuagin](sahuagin.html#_sahuagin), [sea hag](seaHag.html#_sea-hag), [sea serpent](seaSerpent.html#_sea-serpent), [shark](shark.html#_shark), [skum](skum.html#_skum), [squid](squid.html#_squid)
+[aboleth](aboleth.md#_aboleth), [crab swarm](crab.md#_crab-swarm), [dire shark](shark.md#_shark-dire), [dolphin](dolphin.md#_dolphin), [dragon turtle](dragonTurtle.md#_dragon-turtle), [giant crab](crab.md#_crab-giant), [giant octopus](octopus.md#_octopus-giant), [giant squid](squid.md#_squid-giant), [kraken](kraken.md#_kraken), [merfolk](merfolk.md#_merfolk), [octopus](octopus.md#_octopus), [sahuagin](sahuagin.md#_sahuagin), [sea hag](seaHag.md#_sea-hag), [sea serpent](seaSerpent.md#_sea-serpent), [shark](shark.md#_shark), [skum](skum.md#_skum), [squid](squid.md#_squid)
 
 **Ocean (Warm)**
 
-[aboleth](aboleth.html#_aboleth), [crab swarm](crab.html#_crab-swarm), [dire crocodile](crocodile.html#_crocodile-dire), [dire shark](shark.html#_shark-dire), [dolphin](dolphin.html#_dolphin), [elasmosaurus](dinosaur.html#_dinosaur-elasmosaurus), [giant crab](crab.html#_crab-giant), [giant moray eel](eel.html#_eel-giant-moray), [giant octopus](octopus.html#_octopus-giant), [giant squid](squid.html#_squid-giant), [kraken](kraken.html#_kraken), [sahuagin](sahuagin.html#_sahuagin), [sea hag](seaHag.html#_sea-hag), [sea serpent](seaSerpent.html#_sea-serpent), [shark](shark.html#_shark), [squid](squid.html#_squid)
+[aboleth](aboleth.md#_aboleth), [crab swarm](crab.md#_crab-swarm), [dire crocodile](crocodile.md#_crocodile-dire), [dire shark](shark.md#_shark-dire), [dolphin](dolphin.md#_dolphin), [elasmosaurus](dinosaur.md#_dinosaur-elasmosaurus), [giant crab](crab.md#_crab-giant), [giant moray eel](eel.md#_eel-giant-moray), [giant octopus](octopus.md#_octopus-giant), [giant squid](squid.md#_squid-giant), [kraken](kraken.md#_kraken), [sahuagin](sahuagin.md#_sahuagin), [sea hag](seaHag.md#_sea-hag), [sea serpent](seaSerpent.md#_sea-serpent), [shark](shark.md#_shark), [squid](squid.md#_squid)
 
 **Plains (Cold)**
 
-[bison](herdAnimal.html#_herd-animal-bison), [dire tiger](tiger.html#_tiger-dire), [mastodon](elephant.html#_elephant-mastodon), [winter wolf](worg.html#_worg-winter-wolf), [woolly rhinoceros](rhinoceros.html#_rhinoceros-woolly)
+[bison](herdAnimal.md#_herd-animal-bison), [dire tiger](tiger.md#_tiger-dire), [mastodon](elephant.md#_elephant-mastodon), [winter wolf](worg.md#_worg-winter-wolf), [woolly rhinoceros](rhinoceros.md#_rhinoceros-woolly)
 
 **Plains (Temperate)**
 
-[ankheg](ankheg.html#_ankheg), [aurochs](herdAnimal.html#_herd-animal-aurochs), [bison](herdAnimal.html#_herd-animal-bison), [cat](familiar.html#_cat), [centaur](centaur.html#_centaur), [cockatrice](cockatrice.html#_cockatrice), [dire tiger](tiger.html#_tiger-dire), [giant scorpion](scorpion.html#_scorpion-giant), [goblin](goblin.html#_goblin), [gorgon](gorgon.html#_gorgon), [guardian naga](naga.html#_naga-guardian), [horse](horse.html#_horse), [pegasus](pegasus.html#_pegasus), [pony](horse.html#_horse-pony), [worg](worg.html#_worg)
+[ankheg](ankheg.md#_ankheg), [aurochs](herdAnimal.md#_herd-animal-aurochs), [bison](herdAnimal.md#_herd-animal-bison), [cat](familiar.md#_cat), [centaur](centaur.md#_centaur), [cockatrice](cockatrice.md#_cockatrice), [dire tiger](tiger.md#_tiger-dire), [giant scorpion](scorpion.md#_scorpion-giant), [goblin](goblin.md#_goblin), [gorgon](gorgon.md#_gorgon), [guardian naga](naga.md#_naga-guardian), [horse](horse.md#_horse), [pegasus](pegasus.md#_pegasus), [pony](horse.md#_horse-pony), [worg](worg.md#_worg)
 
 **Plains (Warm)**
 
-[ankheg](ankheg.html#_ankheg), [ankylosaurus](dinosaur.html#_dinosaur-ankylosaurus), [brachiosaurus](dinosaur.html#_dinosaur-brachiosaurus), [cat](familiar.html#_cat), [cheetah](cat.html#_cat-cheetah), [dire hyena](hyena.html#_hyena-dire), [dire lion](lion.html#_lion-dire), [dire tiger](tiger.html#_tiger-dire), [elephant](elephant.html#_elephant), [giant frilled lizard](lizard.html#_lizard-giant-frilled), [giant scorpion](scorpion.html#_scorpion-giant), [gnoll](gnoll.html#_gnoll), [gold dragon](dragon.html#_metallic-dragon-gold), [hyena](hyena.html#_hyena), [lion](lion.html#_lion), [monitor lizard](lizard.html#_lizard-monitor), [pegasus](pegasus.html#_pegasus), [rhinoceros](rhinoceros.html#_rhinoceros), [stegosaurus](dinosaur.html#_dinosaur-stegosaurus), [triceratops](dinosaur.html#_dinosaur-triceratops), [tyrannosaurus](dinosaur.html#_dinosaur-tyrannosaurus)
+[ankheg](ankheg.md#_ankheg), [ankylosaurus](dinosaur.md#_dinosaur-ankylosaurus), [brachiosaurus](dinosaur.md#_dinosaur-brachiosaurus), [cat](familiar.md#_cat), [cheetah](cat.md#_cat-cheetah), [dire hyena](hyena.md#_hyena-dire), [dire lion](lion.md#_lion-dire), [dire tiger](tiger.md#_tiger-dire), [elephant](elephant.md#_elephant), [giant frilled lizard](lizard.md#_lizard-giant-frilled), [giant scorpion](scorpion.md#_scorpion-giant), [gnoll](gnoll.md#_gnoll), [gold dragon](dragon.md#_metallic-dragon-gold), [hyena](hyena.md#_hyena), [lion](lion.md#_lion), [monitor lizard](lizard.md#_lizard-monitor), [pegasus](pegasus.md#_pegasus), [rhinoceros](rhinoceros.md#_rhinoceros), [stegosaurus](dinosaur.md#_dinosaur-stegosaurus), [triceratops](dinosaur.md#_dinosaur-triceratops), [tyrannosaurus](dinosaur.md#_dinosaur-tyrannosaurus)
 
 **Planar (Abaddon—Neutral Evil)**
 
-[cauchemar](nightmare.html#_nightmare-cauchemar), [night hag](nightHag.html#_night-hag), [nightmare](nightmare.html#_nightmare)
+[cauchemar](nightmare.md#_nightmare-cauchemar), [night hag](nightHag.md#_night-hag), [nightmare](nightmare.md#_nightmare)
 
 **Planar (Abyss—Chaotic Evil)**
 
-[babau](demon.html#_demon-babau), [balor](demon.html#_demon-balor), [bebilith](bebilith.html#_bebilith), [dretch](demon.html#_demon-dretch), [glabrezu](demon.html#_demon-glabrezu), [hezrou](demon.html#_demon-hezrou), [marilith](demon.html#_demon-marilith), [nabasu](demon.html#_demon-nabasu), [nalfeshnee](demon.html#_demon-nalfeshnee), [quasit](demon.html#_demon-quasit), [retriever](retriever.html#_retriever), [shadow demon](demon.html#_demon-shadow), [succubus](demon.html#_demon-succubus), [vrock](demon.html#_demon-vrock)
+[babau](demon.md#_demon-babau), [balor](demon.md#_demon-balor), [bebilith](bebilith.md#_bebilith), [dretch](demon.md#_demon-dretch), [glabrezu](demon.md#_demon-glabrezu), [hezrou](demon.md#_demon-hezrou), [marilith](demon.md#_demon-marilith), [nabasu](demon.md#_demon-nabasu), [nalfeshnee](demon.md#_demon-nalfeshnee), [quasit](demon.md#_demon-quasit), [retriever](retriever.md#_retriever), [shadow demon](demon.md#_demon-shadow), [succubus](demon.md#_demon-succubus), [vrock](demon.md#_demon-vrock)
 
 **Planar (Elysium—Chaotic Good)**
 
-[astral deva](angel.html#_angel-astral-deva), [bralani](azata.html#_azata-bralani), [ghaele](azata.html#_azata-ghaele), [lillend](azata.html#_azata-lillend), [planetar](angel.html#_angel-planetar), [solar](angel.html#_angel-solar)
+[astral deva](angel.md#_angel-astral-deva), [bralani](azata.md#_azata-bralani), [ghaele](azata.md#_azata-ghaele), [lillend](azata.md#_azata-lillend), [planetar](angel.md#_angel-planetar), [solar](angel.md#_angel-solar)
 
 **Planar (Heaven—Lawful Good)**
 
-[astral deva](angel.html#_angel-astral-deva), [hound archon](archon.html#_archon-hound), [lantern archon](archon.html#_archon-lantern), [planetar](angel.html#_angel-planetar), [solar](angel.html#_angel-solar), [trumpet archon](archon.html#_archon-trumpet)
+[astral deva](angel.md#_angel-astral-deva), [hound archon](archon.md#_archon-hound), [lantern archon](archon.md#_archon-lantern), [planetar](angel.md#_angel-planetar), [solar](angel.md#_angel-solar), [trumpet archon](archon.md#_archon-trumpet)
 
 **Planar (Hell—Lawful Evil)**
 
-[barbed devil](devil.html#_devil-barbed), [bearded devil](devil.html#_devil-bearded), [bone devil](devil.html#_devil-bone), [erinyes](devil.html#_devil-erinyes), [horned devil](devil.html#_devil-horned), [ice devil](devil.html#_devil-ice), [imp](devil.html#_devil-imp), [lemure](devil.html#_devil-lemure), [pit fiend](devil.html#_devil-pit-fiend)
+[barbed devil](devil.md#_devil-barbed), [bearded devil](devil.md#_devil-bearded), [bone devil](devil.md#_devil-bone), [erinyes](devil.md#_devil-erinyes), [horned devil](devil.md#_devil-horned), [ice devil](devil.md#_devil-ice), [imp](devil.md#_devil-imp), [lemure](devil.md#_devil-lemure), [pit fiend](devil.md#_devil-pit-fiend)
 
 **Planar (Plane of Air)**
 
-[air elemental](elemental.html#_elemental-air), [air mephit](mephit.html#_mephit), [djinni](genie.html#_genie-djinni), [dust mephit](mephit.html#_mephit), [ice mephit](mephit.html#_mephit), [invisible stalker](invisibleStalker.html#_invisible-stalker)
+[air elemental](elemental.md#_elemental-air), [air mephit](mephit.md#_mephit), [djinni](genie.md#_genie-djinni), [dust mephit](mephit.md#_mephit), [ice mephit](mephit.md#_mephit), [invisible stalker](invisibleStalker.md#_invisible-stalker)
 
 **Planar (Plane of Earth)**
 
-[earth elemental](elemental.html#_elemental-earth), [earth mephit](mephit.html#_mephit), [salt mephit](mephit.html#_mephit), [shaitan](genie.html#_genie-shaitan), [xorn](xorn.html#_xorn)
+[earth elemental](elemental.md#_elemental-earth), [earth mephit](mephit.md#_mephit), [salt mephit](mephit.md#_mephit), [shaitan](genie.md#_genie-shaitan), [xorn](xorn.md#_xorn)
 
 **Planar (Plane of Fire)**
 
-[efreeti](genie.html#_genie-efreeti), [fire elemental](elemental.html#_elemental-fire), [fire mephit](mephit.html#_mephit), [magma mephit](mephit.html#_mephit), [salamander](salamander.html#_salamander), [steam mephit](mephit.html#_mephit)
+[efreeti](genie.md#_genie-efreeti), [fire elemental](elemental.md#_elemental-fire), [fire mephit](mephit.md#_mephit), [magma mephit](mephit.md#_mephit), [salamander](salamander.md#_salamander), [steam mephit](mephit.md#_mephit)
 
 **Planar (Plane of Water)**
 
-[marid](genie.html#_genie-marid), [ooze mephit](mephit.html#_mephit), [water elemental](elemental.html#_elemental-water), [water mephit](mephit.html#_mephit)
+[marid](genie.md#_genie-marid), [ooze mephit](mephit.md#_mephit), [water elemental](elemental.md#_elemental-water), [water mephit](mephit.md#_mephit)
 
 **Swamp (Cold)**
 
-[dire tiger](tiger.html#_tiger-dire), [gray ooze](grayOoze.html#_gray-ooze), [tarn linnorm](linnorm.html#_linnorm-tarn), [will-o'-wisp](willOWisp.html#_will-o-wisp)
+[dire tiger](tiger.md#_tiger-dire), [gray ooze](grayOoze.md#_gray-ooze), [tarn linnorm](linnorm.md#_linnorm-tarn), [will-o'-wisp](willOWisp.md#_will-o-wisp)
 
 **Swamp (Temperate)**
 
-[boggard](boggard.html#_boggard), [chuul](chuul.html#_chuul), [dire tiger](tiger.html#_tiger-dire), [dracolisk](halfDragon.html#_half-dragon), [froghemoth](froghemoth.html#_froghemoth), [giant flytrap](flytrap.html#_flytrap-giant), [giant frog](frog.html#_frog-giant), [giant leech](leech.html#_leech-giant), [giant slug](slug.html#_slug-giant), [goblin dog](goblinDog.html#_goblin-dog), [green hag](greenHag.html#_green-hag), [harpy](harpy.html#_harpy), [hydra](hydra.html#_hydra), [leech swarm](leech.html#_leech-swarm), [lizardfolk](lizardfolk.html#_lizardfolk), [medusa](medusa.html#_medusa), [ochre jelly](ochreJelly.html#_ochre-jelly), [shambling mound](shamblingMound.html#_shambling-mound), [spirit naga](naga.html#_naga-spirit), [stirge](stirge.html#_stirge), [will-o'-wisp](willOWisp.html#_will-o-wisp)
+[boggard](boggard.md#_boggard), [chuul](chuul.md#_chuul), [dire tiger](tiger.md#_tiger-dire), [dracolisk](halfDragon.md#_half-dragon), [froghemoth](froghemoth.md#_froghemoth), [giant flytrap](flytrap.md#_flytrap-giant), [giant frog](frog.md#_frog-giant), [giant leech](leech.md#_leech-giant), [giant slug](slug.md#_slug-giant), [goblin dog](goblinDog.md#_goblin-dog), [green hag](greenHag.md#_green-hag), [harpy](harpy.md#_harpy), [hydra](hydra.md#_hydra), [leech swarm](leech.md#_leech-swarm), [lizardfolk](lizardfolk.md#_lizardfolk), [medusa](medusa.md#_medusa), [ochre jelly](ochreJelly.md#_ochre-jelly), [shambling mound](shamblingMound.md#_shambling-mound), [spirit naga](naga.md#_naga-spirit), [stirge](stirge.md#_stirge), [will-o'-wisp](willOWisp.md#_will-o-wisp)
 
 **Swamp (Warm)**
 
-[black dragon](dragon.html#_chromatic-dragon-black), [constrictor snake](snake.html#_snake-constrictor), [crocodile](crocodile.html#_crocodile), [dire crocodile](crocodile.html#_crocodile-dire), [dire tiger](tiger.html#_tiger-dire), [giant frog](frog.html#_frog-giant), [giant leech](leech.html#_leech-giant), [giant slug](slug.html#_slug-giant), [leech swarm](leech.html#_leech-swarm), [manticore](manticore.html#_manticore), [poison frog](frog.html#_frog-poison), [shocker lizard](shockerLizard.html#_shocker-lizard), [stirge](stirge.html#_stirge), [will-o'-wisp](willOWisp.html#_will-o-wisp)
+[black dragon](dragon.md#_chromatic-dragon-black), [constrictor snake](snake.md#_snake-constrictor), [crocodile](crocodile.md#_crocodile), [dire crocodile](crocodile.md#_crocodile-dire), [dire tiger](tiger.md#_tiger-dire), [giant frog](frog.md#_frog-giant), [giant leech](leech.md#_leech-giant), [giant slug](slug.md#_slug-giant), [leech swarm](leech.md#_leech-swarm), [manticore](manticore.md#_manticore), [poison frog](frog.md#_frog-poison), [shocker lizard](shockerLizard.md#_shocker-lizard), [stirge](stirge.md#_stirge), [will-o'-wisp](willOWisp.md#_will-o-wisp)
 
 **Underground**
 
-[basidirond](basidirond.html#_basidirond), [black pudding](blackPudding.html#_black-pudding), [cave fisher](caveFisher.html#_cave-fisher), [centipede swarm](centipede.html#_centipede-swarm), [choker](choker.html#_choker), [cloaker](cloaker.html#_cloaker), [dark creeper](darkCreeper.html#_dark-creeper), [dark stalker](darkStalker.html#_dark-stalker), [dark naga](naga.html#_naga-dark), [darkmantle](darkmantle.html#_darkmantle), [derro](derro.html#_derro), [dracolisk](halfDragon.html#_half-dragon), [drider](drider.html#_drider), [drow](drow.html#_drow), drow noble, [duergar](duergar.html#_duergar), [gelatinous cube](gelatinousCube.html#_gelatinous-cube), [giant centipede](centipede.html#_centipede-giant), [giant slug](slug.html#_slug-giant), [giant scorpion](scorpion.html#_scorpion-giant), [gibbering mouther](gibberingMouther.html#_gibbering-mouther), [goblin dog](goblinDog.html#_goblin-dog), [gorgon](gorgon.html#_gorgon), [gray ooze](grayOoze.html#_gray-ooze), [half-fiend minotaur](halfFiend.html#_half-fiend), [intellect devourer](intellectDevourer.html#_intellect-devourer), [kobold](kobold.html#_kobold), [medusa](medusa.html#_medusa), [mite](mite.html#_mite), [morlock](morlock.html#_morlock), [neothelid](neothelid.html#_neothelid), [ochre jelly](ochreJelly.html#_ochre-jelly), [orc](orc.html#_orc), [otyugh](otyugh.html#_otyugh), [purple worm](purpleWorm.html#_purple-worm), [roper](roper.html#_roper), [rust monster](rustMonster.html#_rust-monster), [shoggoth](shoggoth.html#_shoggoth), [skum](skum.html#_skum), [svirfneblin](svirfneblin.html#_svirfneblin), [troglodyte](troglodyte.html#_troglodyte), [vegepygmy](vegepygmy.html#_vegepygmy), [violet fungus](violetFungus.html#_violet-fungus), [yellow musk creeper](yellowMuskCreeper.html#_yellow-musk-creeper)
+[basidirond](basidirond.md#_basidirond), [black pudding](blackPudding.md#_black-pudding), [cave fisher](caveFisher.md#_cave-fisher), [centipede swarm](centipede.md#_centipede-swarm), [choker](choker.md#_choker), [cloaker](cloaker.md#_cloaker), [dark creeper](darkCreeper.md#_dark-creeper), [dark stalker](darkStalker.md#_dark-stalker), [dark naga](naga.md#_naga-dark), [darkmantle](darkmantle.md#_darkmantle), [derro](derro.md#_derro), [dracolisk](halfDragon.md#_half-dragon), [drider](drider.md#_drider), [drow](drow.md#_drow), drow noble, [duergar](duergar.md#_duergar), [gelatinous cube](gelatinousCube.md#_gelatinous-cube), [giant centipede](centipede.md#_centipede-giant), [giant slug](slug.md#_slug-giant), [giant scorpion](scorpion.md#_scorpion-giant), [gibbering mouther](gibberingMouther.md#_gibbering-mouther), [goblin dog](goblinDog.md#_goblin-dog), [gorgon](gorgon.md#_gorgon), [gray ooze](grayOoze.md#_gray-ooze), [half-fiend minotaur](halfFiend.md#_half-fiend), [intellect devourer](intellectDevourer.md#_intellect-devourer), [kobold](kobold.md#_kobold), [medusa](medusa.md#_medusa), [mite](mite.md#_mite), [morlock](morlock.md#_morlock), [neothelid](neothelid.md#_neothelid), [ochre jelly](ochreJelly.md#_ochre-jelly), [orc](orc.md#_orc), [otyugh](otyugh.md#_otyugh), [purple worm](purpleWorm.md#_purple-worm), [roper](roper.md#_roper), [rust monster](rustMonster.md#_rust-monster), [shoggoth](shoggoth.md#_shoggoth), [skum](skum.md#_skum), [svirfneblin](svirfneblin.md#_svirfneblin), [troglodyte](troglodyte.md#_troglodyte), [vegepygmy](vegepygmy.md#_vegepygmy), [violet fungus](violetFungus.md#_violet-fungus), [yellow musk creeper](yellowMuskCreeper.md#_yellow-musk-creeper)
 
 **Urban**
 
-[aasimar](aasimar.html#_aasimar), [dire rat](rat.html#_rat-dire), [tengu](tengu.html#_tengu), [tiefling](tiefling.html#_tiefling), [wererat](lycanthrope.html#_lycanthrope-wererat)
+[aasimar](aasimar.md#_aasimar), [dire rat](rat.md#_rat-dire), [tengu](tengu.md#_tengu), [tiefling](tiefling.md#_tiefling), [wererat](lycanthrope.md#_lycanthrope-wererat)
 

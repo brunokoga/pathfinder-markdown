@@ -6,9 +6,9 @@ Denizen of LengCR 8
 
 **XP 4,800**
 
-CE Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [chaotic](/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CE Medium [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +4; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +16
+**Init** +4; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +16
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +11, **Ref** +11, **Will** +6
 
-**Defensive Abilities** [no breath](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_no-breath), unusual anatomy; **Immune** [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 30, electricity 30; **SR** 19
+**Defensive Abilities** [no breath](monsters/universalMonsterRules.md#_no-breath), unusual anatomy; **Immune** [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 30, electricity 30; **SR** 19
 
 Offense
 
@@ -30,11 +30,11 @@ Offense
 
 **Spell-Like Abilities** (CL 10th; concentration +15)
 
-Constant—_ [tongues](/pathfinderRPG/prd/additionalMonsters/../spells/tongues.html#_tongues)_
+Constant—_ [tongues](additionalMonsters/../spells/tongues.md#_tongues)_
 
-3/day—_ [detect thoughts](/pathfinderRPG/prd/additionalMonsters/../spells/detectThoughts.html#_detect-thoughts)_ (DC 17), _ [hypnotic pattern](/pathfinderRPG/prd/additionalMonsters/../spells/hypnoticPattern.html#_hypnotic-pattern)_ (DC 17), _ [levitate](/pathfinderRPG/prd/additionalMonsters/../spells/levitate.html#_levitate)_, _ [minor image](/pathfinderRPG/prd/additionalMonsters/../spells/minorImage.html#_minor-image)_ (DC 17)
+3/day—_ [detect thoughts](additionalMonsters/../spells/detectThoughts.md#_detect-thoughts)_ (DC 17), _ [hypnotic pattern](additionalMonsters/../spells/hypnoticPattern.md#_hypnotic-pattern)_ (DC 17), _ [levitate](additionalMonsters/../spells/levitate.md#_levitate)_, _ [minor image](additionalMonsters/../spells/minorImage.md#_minor-image)_ (DC 17)
 
-1/day—_ [locate object](/pathfinderRPG/prd/additionalMonsters/../spells/locateObject.html#_locate-object)_, _ [plane shift](/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift)_ (DC 20, self only)
+1/day—_ [locate object](additionalMonsters/../spells/locateObject.md#_locate-object)_, _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 20, self only)
 
 Statistics
 
@@ -42,11 +42,11 @@ Statistics
 
 **Base Atk** +10; **CMB** +12; **CMD** 27
 
-**Feats** [Deceitful](/pathfinderRPG/prd/additionalMonsters/../feats.html#_deceitful), [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility), [Persuasive](/pathfinderRPG/prd/additionalMonsters/../feats.html#_persuasive), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
+**Feats** [Deceitful](additionalMonsters/../feats.md#_deceitful), [Dodge](additionalMonsters/../feats.md#_dodge), [Mobility](additionalMonsters/../feats.md#_mobility), [Persuasive](additionalMonsters/../feats.md#_persuasive), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +22, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +7, [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device) +14, [Disguise](/pathfinderRPG/prd/additionalMonsters/../skills/disguise.html#_disguise) +12 (+16 as [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid)), [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +12, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (any one) +17, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +16, [Profession](/pathfinderRPG/prd/additionalMonsters/../skills/profession.html#_profession) (sailor) +8, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +16, [Sleight of Hand](/pathfinderRPG/prd/additionalMonsters/../skills/sleightOfHand.html#_sleight-of-hand) +17, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +12, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +17, [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) +18; **Racial Modifiers** +4 [Disguise](/pathfinderRPG/prd/additionalMonsters/../skills/disguise.html#_disguise) when disguised as a Medium [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid)
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +22, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +7, [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device) +14, [Disguise](additionalMonsters/../skills/disguise.md#_disguise) +12 (+16 as [humanoid](monsters/creatureTypes.md#_humanoid)), [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +12, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (any one) +17, [Perception](additionalMonsters/../skills/perception.md#_perception) +16, [Profession](additionalMonsters/../skills/profession.md#_profession) (sailor) +8, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +16, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand) +17, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +12, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +17, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +18; **Racial Modifiers** +4 [Disguise](additionalMonsters/../skills/disguise.md#_disguise) when disguised as a Medium [humanoid](monsters/creatureTypes.md#_humanoid)
 
-**Languages** Aklo; _ [tongues](/pathfinderRPG/prd/additionalMonsters/../spells/tongues.html#_tongues)_
+**Languages** Aklo; _ [tongues](additionalMonsters/../spells/tongues.md#_tongues)_
 
 Ecology
 

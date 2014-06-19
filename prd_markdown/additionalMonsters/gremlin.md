@@ -2,11 +2,11 @@
 
 Well known for their mischievous natures, their nasty senses of humor, and their destructive habits, the fey creatures known as gremlins rightfully earn their reputations as cruel pranksters and sadistic saboteurs. Ranging in size from 3 feet in height down to barely over a foot tall, numerous types of gremlins stalk the world's dark and unseen reaches, tending to linger near thin spots in reality between the Material Plane and the realms of the fey. The smaller a gremlin is, the stronger its ties to the realm of the fey remain, and the stranger and more potent its powers.
 
-Gremlins understand that they lack physical power, and thus are usually encountered in large groups that work together to defend each other and their lair. While all gremlins share certain traits in common, such as a resistance to damage from weapons save those made of cold iron, a cruel and sadistic sense of humor, the ability to use prestidigitation to enhance their mischievous plans, and their slight statures, the single trait that gremlins are most well known for is their ability to break, curse, and otherwise ruin the works of other creatures. Gremlins take great delight in ruining and breaking things, and while each gremlin race has a particular âspecialtyâ (be it magical auras, complex machinery, coordinated tactics, or even luck itself), all gremlins are fascinated by complex devices and intricate social constructs. Nothing pleases a gremlin more than being involved in the collapse of something complex.
+Gremlins understand that they lack physical power, and thus are usually encountered in large groups that work together to defend each other and their lair. While all gremlins share certain traits in common, such as a resistance to damage from weapons save those made of cold iron, a cruel and sadistic sense of humor, the ability to use prestidigitation to enhance their mischievous plans, and their slight statures, the single trait that gremlins are most well known for is their ability to break, curse, and otherwise ruin the works of other creatures. Gremlins take great delight in ruining and breaking things, and while each gremlin race has a particular “specialty” (be it magical auras, complex machinery, coordinated tactics, or even luck itself), all gremlins are fascinated by complex devices and intricate social constructs. Nothing pleases a gremlin more than being involved in the collapse of something complex.
 
 Although gremlins originally hailed from the mysterious realm of the fey, they have lived upon the Material Plane for countless generations. In that time, they have become natives of this realm, both in body and soul. Yet not all gremlins have managed to retain their strange powers to disrupt and destroy—the most unfortunate gremlins are not even commonly known as gremlins at all. These bizarre creatures are known as mites. While they retain the gremlin ability to use a few spell-like abilities, mites represent to their fellow gremlins the ultimate shame and horror—a fall into pathetic self-loathing and pitiful cowardice. As a result, gremlins grow particularly sadistic and violent when presented with an opportunity to torment a tribe of mites, abandoning their more subtle methods of disrupting communities and machinery in favor of all-out war, invading mite homes and lairs with tiny knives in hand and murder on their minds. Only mite tribes that have managed to ally themselves with particularly dangerous vermin generally have any chance at all to withstand an invasion of this sort, and most tribes quickly surrender to the gremlins. In some cases, the wholesale act of surrender can cool the gremlins' rage, and the attackers simply take steps to subjugate and enslave the tribe of mites, using them from that point on as a slave class to serve their whims, but in other cases not even the mite tribe's complete surrender can save them.
 
-Against larger creatures, particularly humanoids (whom gremlins particularly love to torment and vex), gremlins adopt a much more subtle approach. Gremlins know that they lack the physical strength to withstand a fight against even the weakest humanoid societies, and thus keep to the shadows when moving through cities and villages. Gremlins seek out regions within urban areas where the âbig folkâ don't bother to visit often—places like sewers, dumps, graveyards, and abandoned buildings make for perfect gremlin lairs. Once a gremlin tribe establishes itself in the shadows of a humanoid society, it begins its work. Operating in pairs or even alone, the gremlins move out into the society, seeking ways to undo anything that can be undone. If a gremlin can arrange it, it prefers to leave an object, relationship, or situation in such a condition that it may seem stable and undamaged to the casual observer, but falls apart or fails spectacularly the next time it is used or encountered. A gremlin often waits in hiding nearby so it can observe the calamitous results of its mayhem, but takes pains to be well out of reach when such a disaster occurs. Gremlins know that it's not good to be in arm's reach of an angry humanoid once it realizes it's been visited by a gremlin.
+Against larger creatures, particularly humanoids (whom gremlins particularly love to torment and vex), gremlins adopt a much more subtle approach. Gremlins know that they lack the physical strength to withstand a fight against even the weakest humanoid societies, and thus keep to the shadows when moving through cities and villages. Gremlins seek out regions within urban areas where the “big folk” don't bother to visit often—places like sewers, dumps, graveyards, and abandoned buildings make for perfect gremlin lairs. Once a gremlin tribe establishes itself in the shadows of a humanoid society, it begins its work. Operating in pairs or even alone, the gremlins move out into the society, seeking ways to undo anything that can be undone. If a gremlin can arrange it, it prefers to leave an object, relationship, or situation in such a condition that it may seem stable and undamaged to the casual observer, but falls apart or fails spectacularly the next time it is used or encountered. A gremlin often waits in hiding nearby so it can observe the calamitous results of its mayhem, but takes pains to be well out of reach when such a disaster occurs. Gremlins know that it's not good to be in arm's reach of an angry humanoid once it realizes it's been visited by a gremlin.
 
 In areas where gremlin activity is well established, many societies have developed unique and clever ways to both protect themselves from gremlin-related mayhem and root out the little monsters from their lairs. One common method of dealing with gremlins is to use objects known as gremlin bells. Crafted from bronze, brass, or other semiprecious metals and measuring no more than an inch tall, gremlin bells are hung from delicate chains or silken cords over door frames and windows, or affixed to precious objects. The belief is that the presence of a gremlin bell sickens the creatures and even renders their supernatural and spell-like abilities useless. Strangely enough, many gremlins believe this as well, and even when the gremlin bells aren't magic, gremlins won't risk tinkering with most objects that seem to be warded in such a manner.
 
@@ -20,9 +20,9 @@ Grimacing like a maniac, this lean little bat-eared horror displays a mouth full
 
 **XP 400**
 
-CE Tiny [fey](/pathfinderRPG/prd/monsters/creatureTypes.html#_fey)
+CE Tiny [fey](monsters/creatureTypes.md#_fey)
 
-**Init** +4; **Senses** darkvision 120 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6
+**Init** +4; **Senses** darkvision 120 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +6
 
 Defense
 
@@ -46,9 +46,9 @@ Offense
 
 **Spell-Like Abilities** (CL 1st; concentration +3)
 
-At will—_ [prestidigitation](/pathfinderRPG/prd/additionalMonsters/../spells/prestidigitation.html#_prestidigitation)_
+At will—_ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_
 
-1/hour—_ [dimension door](/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door)_ (self plus 5 lbs. only)
+1/hour—_ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_ (self plus 5 lbs. only)
 
 Statistics
 
@@ -56,9 +56,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +2; **CMD** 9
 
-**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)B, [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)B
+**Feats** [Dodge](additionalMonsters/../feats.md#_dodge), [Toughness](additionalMonsters/../feats.md#_toughness)B, [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)B
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +6, [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (traps) +10, [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device) +9, [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +8, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6, [Sleight of Hand](/pathfinderRPG/prd/additionalMonsters/../skills/sleightOfHand.html#_sleight-of-hand) +8, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +16, [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) +6; **Racial Modifiers** +4 [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (traps), +4 [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device)
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +6, [Craft](additionalMonsters/../skills/craft.md#_craft) (traps) +10, [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device) +9, [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +8, [Perception](additionalMonsters/../skills/perception.md#_perception) +6, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand) +8, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +16, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +6; **Racial Modifiers** +4 [Craft](additionalMonsters/../skills/craft.md#_craft) (traps), +4 [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device)
 
 **Languages** Undercommon
 
@@ -72,11 +72,11 @@ Ecology
 
 Special Abilities
 
-**Tinker (Sp)** A group of six jinkins working together over the course of an hour can create an effect identical to _ [bestow curse](/pathfinderRPG/prd/additionalMonsters/../spells/bestowCurse.html#_bestow-curse)_ on any living creature. This effect functions at CL 6th and has a range of 60 feet, and the target creature must be either willing or helpless (but still gets a saving throw to resist). The save is DC 14 + the Charisma modifier of the jinkin with the highest Charisma score (DC 16 for most groups of jinkins). Alternatively, the group of jinkins can attempt to infuse a magic item with a [curse](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse). The nature of this [curse](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse) is determined randomly; half of these curses make the magic item unreliable (each time the item is used, there is a 20% chance it does not function), while the other half give the item a random requirement. A jinkin can take part in a tinkering only once per day, and may only tinker with a creature or object that isn't already cursed. Once a tinkering [curse](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse) is in place, it is permanent until removed via an effect like _ [remove curse](/pathfinderRPG/prd/additionalMonsters/../spells/removeCurse.html#_remove-curse)_. All jinkin tinkerings function as a [curse](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_curse) created by a 6th-level caster.
+**Tinker (Sp)** A group of six jinkins working together over the course of an hour can create an effect identical to _ [bestow curse](additionalMonsters/../spells/bestowCurse.md#_bestow-curse)_ on any living creature. This effect functions at CL 6th and has a range of 60 feet, and the target creature must be either willing or helpless (but still gets a saving throw to resist). The save is DC 14 + the Charisma modifier of the jinkin with the highest Charisma score (DC 16 for most groups of jinkins). Alternatively, the group of jinkins can attempt to infuse a magic item with a [curse](monsters/universalMonsterRules.md#_curse). The nature of this [curse](monsters/universalMonsterRules.md#_curse) is determined randomly; half of these curses make the magic item unreliable (each time the item is used, there is a 20% chance it does not function), while the other half give the item a random requirement. A jinkin can take part in a tinkering only once per day, and may only tinker with a creature or object that isn't already cursed. Once a tinkering [curse](monsters/universalMonsterRules.md#_curse) is in place, it is permanent until removed via an effect like _ [remove curse](additionalMonsters/../spells/removeCurse.md#_remove-curse)_. All jinkin tinkerings function as a [curse](monsters/universalMonsterRules.md#_curse) created by a 6th-level caster.
 
-Sneaky and sadistic, jinkins are hideous gremlins that inhabit the dark places underground. Well acclimated to the shadows, they hide in cramped quarters and attack larger creatures when they're strategically positioned. Jinkins commonly work with or near larger or more powerful creatures; these larger creatures provide cover for the jinkins' trickery. They use _ [dimension door](/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door) _to exit any battle that goes badly, taking any stolen goods with them.
+Sneaky and sadistic, jinkins are hideous gremlins that inhabit the dark places underground. Well acclimated to the shadows, they hide in cramped quarters and attack larger creatures when they're strategically positioned. Jinkins commonly work with or near larger or more powerful creatures; these larger creatures provide cover for the jinkins' trickery. They use _ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door) _to exit any battle that goes badly, taking any stolen goods with them.
 
-Jinkins delight in leading larger creatures into dangerous caves or pits, usually by lunging out of the shadows to make a single sneak attack against a creature and then running away, taking care while âfleeingâ to remain visible to their target so that they can lure the victim into a trap.
+Jinkins delight in leading larger creatures into dangerous caves or pits, usually by lunging out of the shadows to make a single sneak attack against a creature and then running away, taking care while “fleeing” to remain visible to their target so that they can lure the victim into a trap.
 
 Jinkins also hold dangerous grudges, and one might follow a creature that supposedly slighted it for weeks, looking for an opportunity to take revenge. This revenge can take many forms, from leading horses astray to contaminating food supplies to directing larger monsters toward the begrudged creature.
 
@@ -94,9 +94,9 @@ This hideous, hunchbacked creature has three glowing blue eyes. Oily hair grows 
 
 **XP 600**
 
-CE Small [fey](/pathfinderRPG/prd/monsters/creatureTypes.html#_fey)
+CE Small [fey](monsters/creatureTypes.md#_fey)
 
-**Init** +4; **Senses** darkvision 120 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +9
+**Init** +4; **Senses** darkvision 120 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +9
 
 Defense
 
@@ -112,13 +112,13 @@ Offense
 
 **Speed** 30 ft., climb 20 ft.
 
-**Melee** bite +3 (1d4+1 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), 2 claws +4 (1d3+1 plus trip)
+**Melee** bite +3 (1d4+1 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 claws +4 (1d3+1 plus trip)
 
 **Spell-Like Abilities** (CL 3rd; concentration +4)
 
-At will—_ [prestidigitation](/pathfinderRPG/prd/additionalMonsters/../spells/prestidigitation.html#_prestidigitation)_
+At will—_ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_
 
-1/hour—_ [heat metal](/pathfinderRPG/prd/additionalMonsters/../spells/heatMetal.html#_heat-metal)_ (DC 13), _ [shocking grasp](/pathfinderRPG/prd/additionalMonsters/../spells/shockingGrasp.html#_shocking-grasp), [snare](/pathfinderRPG/prd/additionalMonsters/../spells/snare.html#_snare)_
+1/hour—_ [heat metal](additionalMonsters/../spells/heatMetal.md#_heat-metal)_ (DC 13), _ [shocking grasp](additionalMonsters/../spells/shockingGrasp.md#_shocking-grasp), [snare](additionalMonsters/../spells/snare.md#_snare)_
 
 Statistics
 
@@ -126,9 +126,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +1 (+5 grapple and trip); **CMD** 15
 
-**Feats** [Step Up](/pathfinderRPG/prd/additionalMonsters/../feats.html#_step-up), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)B, [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (claw)
+**Feats** [Step Up](additionalMonsters/../feats.md#_step-up), [Toughness](additionalMonsters/../feats.md#_toughness)B, [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (claw)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +10, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +9, [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (traps) +9, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +8, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +9, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +14; **Racial Modifiers** +4 [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (traps), +4 [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate), +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +10, [Climb](additionalMonsters/../skills/climb.md#_climb) +9, [Craft](additionalMonsters/../skills/craft.md#_craft) (traps) +9, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +8, [Perception](additionalMonsters/../skills/perception.md#_perception) +9, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +14; **Racial Modifiers** +4 [Craft](additionalMonsters/../skills/craft.md#_craft) (traps), +4 [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate), +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
 
 **Languages** Undercommon
 
@@ -148,7 +148,7 @@ Special Abilities
 
 Nuglub gremlins are deranged; they enjoy combat with a manic glee that other gremlins reserve for destroying devices or creating complex traps. Indeed, they spend long hours sharpening their claws, filing their teeth, and looking for the perfect ledge from which to leap into the fray. If combat doesn't come to them, they seek it out, entering villages and killing innocents by night. Their idea of a good time is murder so silent that the victim never wakes up, so the family members find the remains the next morning and accuse one another of the atrocity.
 
-Nuglubs jealously attack armored foes, as the gremlins' hunchbacked forms make it difficult to wear armor made for other humanoids. A group may use its _ [heat metal](/pathfinderRPG/prd/additionalMonsters/../spells/heatMetal.html#_heat-metal)_ and _ [shocking grasp](/pathfinderRPG/prd/additionalMonsters/../spells/shockingGrasp.html#_shocking-grasp)_ abilities to weaken an opponent before mobbing it and trying to knock the foe prone. As soon as an enemy falls to the ground, all nuglubs descend on that target in a frenzy of bloodlust, grappling and biting, holding on like perverse leeches until nothing remains.
+Nuglubs jealously attack armored foes, as the gremlins' hunchbacked forms make it difficult to wear armor made for other humanoids. A group may use its _ [heat metal](additionalMonsters/../spells/heatMetal.md#_heat-metal)_ and _ [shocking grasp](additionalMonsters/../spells/shockingGrasp.md#_shocking-grasp)_ abilities to weaken an opponent before mobbing it and trying to knock the foe prone. As soon as an enemy falls to the ground, all nuglubs descend on that target in a frenzy of bloodlust, grappling and biting, holding on like perverse leeches until nothing remains.
 
 Though less technically inclined than some of their kin, nuglubs like using traps. Unlike most gremlins, who prefer to sabotage existing machines, nuglubs delight in the stealthy construction of traps in areas their victims consider familiar, rigging these painful and often deadly surprises on front doors, around the floor of beds, or near cribs in nurseries.
 
@@ -164,9 +164,9 @@ PugwampiCR 1/2
 
 **XP 200**
 
-NE Tiny [fey](/pathfinderRPG/prd/monsters/creatureTypes.html#_fey)
+NE Tiny [fey](monsters/creatureTypes.md#_fey)
 
-**Init** +5; **Senses** darkvision 120 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6
+**Init** +5; **Senses** darkvision 120 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +6
 
 **Aura** unluck (20 ft.)
 
@@ -192,9 +192,9 @@ Offense
 
 **Spell-Like Abilities** (CL 1st; concentration –1)
 
-At will—_ [prestidigitation](/pathfinderRPG/prd/additionalMonsters/../spells/prestidigitation.html#_prestidigitation)_, _ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_
+At will—_ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_, _ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_
 
-1/day—_ [shatter](/pathfinderRPG/prd/additionalMonsters/../spells/shatter.html#_shatter)_ (DC 10)
+1/day—_ [shatter](additionalMonsters/../spells/shatter.md#_shatter)_ (DC 10)
 
 Statistics
 
@@ -202,9 +202,9 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 5
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)B, [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)B
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Toughness](additionalMonsters/../feats.md#_toughness)B, [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)B
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +2, [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (traps) +4, [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device) +2, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +6 (+2 Listening), [Ride](/pathfinderRPG/prd/additionalMonsters/../skills/ride.html#_ride) +2, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +17; **Racial Modifiers** +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth), –4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) when listening
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +2, [Craft](additionalMonsters/../skills/craft.md#_craft) (traps) +4, [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device) +2, [Perception](additionalMonsters/../skills/perception.md#_perception) +6 (+2 Listening), [Ride](additionalMonsters/../skills/ride.md#_ride) +2, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +17; **Racial Modifiers** +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth), –4 [Perception](additionalMonsters/../skills/perception.md#_perception) when listening
 
 **Languages** Gnoll, Undercommon
 
@@ -218,11 +218,11 @@ Ecology
 
 Special Abilities
 
-**Unluck Aura (Su)** A pugwampi radiates an aura of unluck to a radius of 20 feet. Any creature in this area must roll two d20s whenever a situation calls for a d20 roll (such as an attack roll, a skill check, or a saving throw) and must use the lower of the two results generated. This is a mind-affecting effect that does not work on animals, other gremlins, or gnolls. Any character who gains any sort of luck bonus (such as that granted by a [_luckstone_](/pathfinderRPG/prd/additionalMonsters/../magicItems/wondrousItems.html#_stone-of-good-luck) or [_divine favor_](/pathfinderRPG/prd/additionalMonsters/../spells/divineFavor.html#_divine-favor)) is immune to the pugwampi unluck aura.
+**Unluck Aura (Su)** A pugwampi radiates an aura of unluck to a radius of 20 feet. Any creature in this area must roll two d20s whenever a situation calls for a d20 roll (such as an attack roll, a skill check, or a saving throw) and must use the lower of the two results generated. This is a mind-affecting effect that does not work on animals, other gremlins, or gnolls. Any character who gains any sort of luck bonus (such as that granted by a [_luckstone_](additionalMonsters/../magicItems/wondrousItems.md#_stone-of-good-luck) or [_divine favor_](additionalMonsters/../spells/divineFavor.md#_divine-favor)) is immune to the pugwampi unluck aura.
 
 Mean, dog-faced, and cowardly, pugwampis are loved by no one—not even other gremlins. These gremlins take disproportionate amounts of enjoyment from the accidents and missteps of other creatures, often going to great lengths to manufacture the perfect deadfalls or stumbling blocks. They then wait nearby, both to laugh at the inevitable mishaps and to make sure their personal unluckiness is passed off on their victims.
 
-Pugwampis live in caves or ruined buildings, occasionally venturing forth to find victims upon which to inflict their sick senses of humor. Their âjokesâ tend to involve spikes and excrement, or sometimes pits full of spiders or campsites that flood with swamp water. Certainly only the pugwampis consider their jokes funny. As all pugwampis are somewhat deaf, when not trying to be stealthy, they tend to scream and yell loudly so they can hear themselves and each other.
+Pugwampis live in caves or ruined buildings, occasionally venturing forth to find victims upon which to inflict their sick senses of humor. Their “jokes” tend to involve spikes and excrement, or sometimes pits full of spiders or campsites that flood with swamp water. Certainly only the pugwampis consider their jokes funny. As all pugwampis are somewhat deaf, when not trying to be stealthy, they tend to scream and yell loudly so they can hear themselves and each other.
 
 At some point in the distant past, pugwampis became enamored of gnolls, seeing in the beast-men a kindred form and thus aspiring to the height and deadly prowess of the savage warriors, whom they honor as gods. Gnolls, for their part, hate pugwampis even more than other creatures, mostly because of the gremlins' weakness and sickening fawning, though they sometimes keep the gremlins around just to torment them.
 
@@ -234,9 +234,9 @@ With a head like an angry crustacean, this fierce little insectoid creature clac
 
 **XP 400**
 
-LE Tiny [fey](/pathfinderRPG/prd/monsters/creatureTypes.html#_fey)
+LE Tiny [fey](monsters/creatureTypes.md#_fey)
 
-**Init** +1; **Senses** darkvision 120 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5
+**Init** +1; **Senses** darkvision 120 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +5
 
 Defense
 
@@ -260,9 +260,9 @@ Offense
 
 **Spell-Like Abilities** (CL 1st; concentration +1)
 
-At will—_ [prestidigitation](/pathfinderRPG/prd/additionalMonsters/../spells/prestidigitation.html#_prestidigitation)_
+At will—_ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_
 
-1/hour—_ [rusting grasp](/pathfinderRPG/prd/additionalMonsters/../spells/rustingGrasp.html#_rusting-grasp), [snare](/pathfinderRPG/prd/additionalMonsters/../spells/snare.html#_snare)_
+1/hour—_ [rusting grasp](additionalMonsters/../spells/rustingGrasp.md#_rusting-grasp), [snare](additionalMonsters/../spells/snare.md#_snare)_
 
 Statistics
 
@@ -270,9 +270,9 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 7
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device)), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)B, [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)B
+**Feats** [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device)), [Toughness](additionalMonsters/../feats.md#_toughness)B, [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)B
 
-**Skills** [Appraise](/pathfinderRPG/prd/additionalMonsters/../skills/appraise.html#_appraise) +2, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +13, [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (traps) +5, [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device) +9, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (engineering) +2, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +13 (+17 in metal or stony areas, +9 when moving); **Racial Modifiers** +4 [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device), +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) in metal or stony areas, –4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) when moving
+**Skills** [Appraise](additionalMonsters/../skills/appraise.md#_appraise) +2, [Climb](additionalMonsters/../skills/climb.md#_climb) +13, [Craft](additionalMonsters/../skills/craft.md#_craft) (traps) +5, [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device) +9, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (engineering) +2, [Perception](additionalMonsters/../skills/perception.md#_perception) +5, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +13 (+17 in metal or stony areas, +9 when moving); **Racial Modifiers** +4 [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in metal or stony areas, –4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) when moving
 
 **Languages** Undercommon
 
@@ -286,9 +286,9 @@ Ecology
 
 Special Abilities
 
-**Speedy Sabotage (Su)** Vexgits are adept at disassembling machinery, reducing even complex devices to trash with shocking speed. When using the [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device) skill, these gremlins treat all devices as being one category simpler for the purposes of determining how long it takes to use the skill. Thus, difficult devices count as tricky, tricky devices count as simple, and simple devices can be dismantled as a free action.
+**Speedy Sabotage (Su)** Vexgits are adept at disassembling machinery, reducing even complex devices to trash with shocking speed. When using the [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device) skill, these gremlins treat all devices as being one category simpler for the purposes of determining how long it takes to use the skill. Thus, difficult devices count as tricky, tricky devices count as simple, and simple devices can be dismantled as a free action.
 
-**Wrecking Crew (Su)** A group of up to six vexgits can work together to dismantle a device. This ability functions like the aid another action, but a single vexgit can receive help from up to five other vexgits, granting it up to a +10 bonus on its [Disable Device](/pathfinderRPG/prd/additionalMonsters/../skills/disableDevice.html#_disable-device) check.
+**Wrecking Crew (Su)** A group of up to six vexgits can work together to dismantle a device. This ability functions like the aid another action, but a single vexgit can receive help from up to five other vexgits, granting it up to a +10 bonus on its [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device) check.
 
 Maniacally destructive little brutes, vexgits delight in scrapping and sabotaging the works of larger races. The larger and more complicated the target, the better. While one of these spiteful gremlins might delight in trapping someone behind a door with a jammed lock, loosening the wheels on a carriage, or sneakily removing all the nails from a small boat, it's when groups of vexgits get together that they're truly dangerous. In such instances, the portcullis of a vexgit-infested gatehouse turns into a deadly weapon, while a clock tower becomes an avalanche of gears waiting to topple. Engineers warn apprentices of masterful constructions destroyed by these unruly gremlins, with many blaming their greatest failures on such tiny saboteurs.
 

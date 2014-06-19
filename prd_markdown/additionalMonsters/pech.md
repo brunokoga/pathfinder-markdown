@@ -6,9 +6,9 @@ This pale yellow humanoid has blank, bulging white eyes and gangly arms and legs
 
 **XP 800**
 
-N Small [fey](/pathfinderRPG/prd/monsters/creatureTypes.html#_fey) ( [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype))
+N Small [fey](monsters/creatureTypes.md#_fey) ( [earth](monsters/creatureTypes.md#_earth-subtype))
 
-**Init** +1; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +10
+**Init** +1; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +10
 
 Defense
 
@@ -28,11 +28,11 @@ Offense
 
 **Melee** mwk heavy pick +9 (1d4+6/×4)
 
-**Special Attacks** [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype) mastery, pech magic, stone knowledge
+**Special Attacks** [earth](monsters/creatureTypes.md#_earth-subtype) mastery, pech magic, stone knowledge
 
 **Spell-Like Abilities** (CL 10th; concentration +11)
 
-3/day—_ [stone shape](/pathfinderRPG/prd/additionalMonsters/../spells/stoneShape.html#_stone-shape)_, _ [stone tell](/pathfinderRPG/prd/additionalMonsters/../spells/stoneTell.html#_stone-tell)_
+3/day—_ [stone shape](additionalMonsters/../spells/stoneShape.md#_stone-shape)_, _ [stone tell](additionalMonsters/../spells/stoneTell.md#_stone-tell)_
 
 Statistics
 
@@ -40,15 +40,15 @@ Statistics
 
 **Base Atk** +3; **CMB** +6; **CMD** 17
 
-**Feats** [Cleave](/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack)
+**Feats** [Cleave](additionalMonsters/../feats.md#_cleave), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Power Attack](additionalMonsters/../feats.md#_power-attack)
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +13, [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (stonemasonry) +14, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (dungeoneering) +10, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (engineering) +10, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +10, [Profession](/pathfinderRPG/prd/additionalMonsters/../skills/profession.html#_profession) (miner) +14, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +14; **Racial Modifiers** +4 [Craft](/pathfinderRPG/prd/additionalMonsters/../skills/craft.html#_craft) (stonemasonry), +4 [Profession](/pathfinderRPG/prd/additionalMonsters/../skills/profession.html#_profession) (miner)
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +13, [Craft](additionalMonsters/../skills/craft.md#_craft) (stonemasonry) +14, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (dungeoneering) +10, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (engineering) +10, [Perception](additionalMonsters/../skills/perception.md#_perception) +10, [Profession](additionalMonsters/../skills/profession.md#_profession) (miner) +14, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +14; **Racial Modifiers** +4 [Craft](additionalMonsters/../skills/craft.md#_craft) (stonemasonry), +4 [Profession](additionalMonsters/../skills/profession.md#_profession) (miner)
 
 **Languages** Terran, Undercommon
 
 Ecology
 
-**Environment** any underground (Plane of [Earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype))
+**Environment** any underground (Plane of [Earth](monsters/creatureTypes.md#_earth-subtype))
 
 **Organization** solitary, pair, gang (3–4), pack (5–10), or tribe (11–40 plus 50% noncombatants, 1–4 fighters of 2nd–4th level, and 1–2 druids of 2nd–4th level)
 
@@ -56,11 +56,11 @@ Ecology
 
 Special Abilities
 
-**[Earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype) Mastery (Ex)** A pech gains a +1 bonus on attack and damage rolls if both it and its foes are touching the ground. If an opponent is airborne or waterborne, the pech takes a –4 penalty on attack and damage rolls. These modifiers are not precalculated into the statistics here.
+**[Earth](monsters/creatureTypes.md#_earth-subtype) Mastery (Ex)** A pech gains a +1 bonus on attack and damage rolls if both it and its foes are touching the ground. If an opponent is airborne or waterborne, the pech takes a –4 penalty on attack and damage rolls. These modifiers are not precalculated into the statistics here.
 
-**Pech Magic (Sp)** Four pechs working together can cast _ [wall of stone](/pathfinderRPG/prd/additionalMonsters/../spells/wallOfStone.html#_wall-of-stone)_ once per day. Eight pechs working together can cast _ [stone to flesh](/pathfinderRPG/prd/additionalMonsters/../spells/stoneToFlesh.html#_stone-to-flesh)_ (DC 17) once per day. These spell-like abilities function at CL 10th. Each pech must use a full-round action to take part in the casting. The save DCs are modified by the highest Charisma modifier in the group.
+**Pech Magic (Sp)** Four pechs working together can cast _ [wall of stone](additionalMonsters/../spells/wallOfStone.md#_wall-of-stone)_ once per day. Eight pechs working together can cast _ [stone to flesh](additionalMonsters/../spells/stoneToFlesh.md#_stone-to-flesh)_ (DC 17) once per day. These spell-like abilities function at CL 10th. Each pech must use a full-round action to take part in the casting. The save DCs are modified by the highest Charisma modifier in the group.
 
-**Stone [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (Ex)** A pech's knowledge of [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype) and stone grants a +1 racial bonus on attack and damage rolls and the benefits of the [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) feat against creatures and objects made of stone or [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype) or with the [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype) subtype. [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (dungeoneering), [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (engineering) and [Profession](/pathfinderRPG/prd/additionalMonsters/../skills/profession.html#_profession) (miner) are always class skills for a pech.
+**Stone [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (Ex)** A pech's knowledge of [earth](monsters/creatureTypes.md#_earth-subtype) and stone grants a +1 racial bonus on attack and damage rolls and the benefits of the [Improved Critical](additionalMonsters/../feats.md#_improved-critical) feat against creatures and objects made of stone or [earth](monsters/creatureTypes.md#_earth-subtype) or with the [earth](monsters/creatureTypes.md#_earth-subtype) subtype. [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (dungeoneering), [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (engineering) and [Profession](additionalMonsters/../skills/profession.md#_profession) (miner) are always class skills for a pech.
 
 Untold ages ago, the pechs served forgotten masters in the deepest caverns of the world. In time, their masters moved on, leaving the pechs bereft of guidance. Some sought refuge in seemingly safer tunnels nearer the surface. The unspeakable horrors they encountered there transformed them into derros over the course of several generations. Those pechs that stayed close to their ancestral caverns survive to this day, though in such small numbers and in such isolation that few of the surface world know of their existence.
 

@@ -12,7 +12,7 @@ Gunslingers usually don't use heavy armor, but there are a few who use and modif
 
 **Deeds** : A gun tank swaps a pair of deeds for the following. The new deed descriptions include information on which deeds from the gunslinger class feature these new deeds replace.
 
-_Gun Tank's Resolve (Ex)_: At 1st level, the gun tank can shrug off the most serious of attacks. When the gun tank is wearing medium or heavy armor and is subject to a critical hit or sneak attack, she can spend 1 grit point as an immediate action to attempt to negate the critical hit or sneak attack damage. At 1st level, she has a 25% chance of doing so. At 10th level, the chance increases to 50%. At 15th level, the chance increases to 75%. While a gun tank's resolve does not stack with the _ [fortification](/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification)_ armor special ability, it does work in concert with that armor special ability or similar effects, so a gun tank can use this ability even after the _armor of [fortification](/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification)_ has failed to negate the critical hit or sneak attack damage. This deed replaces the gunslinger's dodge deed.
+_Gun Tank's Resolve (Ex)_: At 1st level, the gun tank can shrug off the most serious of attacks. When the gun tank is wearing medium or heavy armor and is subject to a critical hit or sneak attack, she can spend 1 grit point as an immediate action to attempt to negate the critical hit or sneak attack damage. At 1st level, she has a 25% chance of doing so. At 10th level, the chance increases to 50%. At 15th level, the chance increases to 75%. While a gun tank's resolve does not stack with the _ [fortification](magicItems/armor.md#_armor-fortification)_ armor special ability, it does work in concert with that armor special ability or similar effects, so a gun tank can use this ability even after the _armor of [fortification](magicItems/armor.md#_armor-fortification)_ has failed to negate the critical hit or sneak attack damage. This deed replaces the gunslinger's dodge deed.
 
   
   
@@ -27,7 +27,7 @@ _Gun Tank's Resilience (Ex)_: At 15th level, when the gun tank has at least 1 gr
 
 Pistols and other one-handed firearms are often easy to conceal and faster to load than other firearms, and do sufficient damage for most situations. But some gunslingers want a little more firepower and range. These are the musket masters; the best of these gunslingers can reload a musket with dazzling speed, potentially putting even their pistol-wielding brethren to shame.
 
-**Weapon Proficiency** : Instead of proficiency with all firearms, a musket master only gains proficiency with two-handed firearms. She must take the [Exotic Weapon Proficiency](/pathfinderRPG/prd/feats.html#_exotic-weapon-proficiency) (firearm) feat to gain proficiency with one-handed firearms and firearm siege engines.
+**Weapon Proficiency** : Instead of proficiency with all firearms, a musket master only gains proficiency with two-handed firearms. She must take the [Exotic Weapon Proficiency](feats.md#_exotic-weapon-proficiency) (firearm) feat to gain proficiency with one-handed firearms and firearm siege engines.
 
 **Gunsmith** : A musket master must take a musket when she chooses a battered firearm at 1st level.
 
@@ -40,7 +40,7 @@ _Steady Aim (Ex)_: At 1st level, as long as a musket master has at least 1 grit 
 
 _Fast Musket (Ex)_: At 3rd level, as long as the musket master has 1 grit point, she can reload any two-handed firearm as if it were a one-handed firearm. This deed replaces the utility shot deed.
 
-**Rapid Reloader** : At 1st level, a musket master gains [Rapid Reload](../ultimateCombatFeats.html#_rapid-reload-(combat)) (muskets) as a bonus feat.
+**Rapid Reloader** : At 1st level, a musket master gains [Rapid Reload](../ultimateCombatFeats.md#_rapid-reload-(combat)) (muskets) as a bonus feat.
 
 **Musket Training (Ex)** : Starting at 5th level, a musket master increases her skill with two-handed firearms. She gains a bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a two-handed firearm, the misfire value increases by 2 instead of 4. Every four levels thereafter (9th, 13th, and 17th), the bonus on damage rolls increases by +1. At 13th level, a musket master never misfires with a two-handed firearm. This replaces firearm training 1, 2, 3, and 4.
 
@@ -57,7 +57,7 @@ _Focused Aim (Ex)_: At 1st level, as a swift action, the mysterious stranger can
   
   
 
-_Clipping Shot (Ex)_: At 11th level, when the mysterious stranger misses with a firearm attack, she can spend 1 grit point to deal half the damage that attack would have dealt if it were a hit (roll damage normally). She can decide to use this deed and spend the grit point after making the attack. This deed has no effect if the attack used the dead shot deed. The cost of using this deed cannot be reduced with the [Signature Deed](../ultimateCombatFeats.html#_signature-deed-(grit)) feat, the true grit class feature, or any similar effect. This replaces the bleeding wound deed.
+_Clipping Shot (Ex)_: At 11th level, when the mysterious stranger misses with a firearm attack, she can spend 1 grit point to deal half the damage that attack would have dealt if it were a hit (roll damage normally). She can decide to use this deed and spend the grit point after making the attack. This deed has no effect if the attack used the dead shot deed. The cost of using this deed cannot be reduced with the [Signature Deed](../ultimateCombatFeats.md#_signature-deed-(grit)) feat, the true grit class feature, or any similar effect. This replaces the bleeding wound deed.
 
 **Lucky (Ex)** : Starting at 2nd level, a mysterious stranger gains a +1 luck bonus on Will saving throws. This bonus increases by +1 for every four levels beyond 2nd level (to a maximum of +5 at 20th level). This ability replaces nimble.
 
@@ -67,7 +67,7 @@ _Clipping Shot (Ex)_: At 11th level, when the mysterious stranger misses with a 
 
 While most gunslingers have favorite firearms, there are those rare ones who choose to specialize in one-handed firearms exclusively. These gunslingers are called pistoleros. While they lack the flexibility of being able to pick up any kind of firearm and use it with reasonable proficiency, they are crackerjack shots with pistols and similar firearms. Their skill and aim with these firearms at close range is second to none, and they rarely misfire with these weapons.
 
-**Weapon Proficiency** : Instead of proficiency with all firearms, a pistolero only gains proficiency with one-handed firearms. She must take [Exotic Weapon Proficiency](/pathfinderRPG/prd/feats.html#_exotic-weapon-proficiency) (firearm) to gain proficiency with two-handed firearms and firearm siege engines.
+**Weapon Proficiency** : Instead of proficiency with all firearms, a pistolero only gains proficiency with one-handed firearms. She must take [Exotic Weapon Proficiency](feats.md#_exotic-weapon-proficiency) (firearm) to gain proficiency with two-handed firearms and firearm siege engines.
 
 **Gunsmith** : A pistolero must take a pistol when she chooses a battered firearm at 1st level.
 

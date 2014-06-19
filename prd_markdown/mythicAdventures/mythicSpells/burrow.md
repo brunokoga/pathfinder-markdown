@@ -1,6 +1,6 @@
 Burrow
 
-**Source** [_burrow_](/pathfinderRPG/prd/ultimateMagic/spells/burrow.html#_burrow)
+**Source** [_burrow_](ultimateMagic/spells/burrow.md#_burrow)
 
 The target can breathe underground while burrowing. If you're 3rd tier, the burrow speed increases to 20 feet through sand, soil, or gravel, and to 10 feet through stone. At 6th tier, these speeds increase to 30 feet and 15 feet respectively. At 9th tier, these speeds increase to 40 feet and 20 feet.
 

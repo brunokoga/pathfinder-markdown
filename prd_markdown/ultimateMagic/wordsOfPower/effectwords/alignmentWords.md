@@ -36,5 +36,5 @@ Alignment Aura (Alignment)
 
 **Target Restrictions** _selected_
 
-A wordspell with this effect word functions as _alignment [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, but the bonus to AC and on saving throws increases to +4. In addition, the creature gains SR 25 against spells cast by creatures of the chosen alignment. Finally, creatures of the chosen alignment find it painful to touch the warded creature, taking 2d6 points of damage for each successful hit with a melee weapon or natural weapon.
+A wordspell with this effect word functions as _alignment [shield](spells/shield.md#_shield)_, but the bonus to AC and on saving throws increases to +4. In addition, the creature gains SR 25 against spells cast by creatures of the chosen alignment. Finally, creatures of the chosen alignment find it painful to touch the warded creature, taking 2d6 points of damage for each successful hit with a melee weapon or natural weapon.
 

@@ -12,9 +12,9 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Fortitude](../combat.html#_fortitude) half; see text; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Fortitude](../combat.md#_fortitude) half; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
-This spell withers a single plant of any size. An affected plant creature takes 1d6 points of damage per level (maximum 15d6) and may attempt a [Fortitude](../combat.html#_fortitude) saving throw for half damage. A plant that isn't a creature doesn't receive a save and immediately withers and dies.
+This spell withers a single plant of any size. An affected plant creature takes 1d6 points of damage per level (maximum 15d6) and may attempt a [Fortitude](../combat.md#_fortitude) saving throw for half damage. A plant that isn't a creature doesn't receive a save and immediately withers and dies.
 
 This spell has no effect on the soil or surrounding plant life.
 

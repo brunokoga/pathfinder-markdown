@@ -48,7 +48,7 @@ Doctor
 
 **Price** 1 gp
 
-A doctor is a person skilled in nonmagical healing and medicine. A typical doctor is a 3rd-level expert with 3 ranks in [Heal](/pathfinderRPG/prd/skills/heal.html#_heal), the [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Heal](/pathfinderRPG/prd/skills/heal.html#_heal)) feat, and ranks in other valuable skills such as [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) and [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion). An experienced doctor is up to 5th level, has additional ranks in appropriate skills, and is paid five to 10 times as much; however, these doctors are in high demand and are usually employed full-time by royalty. A doctor generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day.
+A doctor is a person skilled in nonmagical healing and medicine. A typical doctor is a 3rd-level expert with 3 ranks in [Heal](skills/heal.md#_heal), the [Skill Focus](feats.md#_skill-focus) ( [Heal](skills/heal.md#_heal)) feat, and ranks in other valuable skills such as [Knowledge](skills/knowledge.md#_knowledge) (nature) and [Knowledge](skills/knowledge.md#_knowledge) (religion). An experienced doctor is up to 5th level, has additional ranks in appropriate skills, and is paid five to 10 times as much; however, these doctors are in high demand and are usually employed full-time by royalty. A doctor generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day.
 
 Footman
 
@@ -76,7 +76,7 @@ Laundry
 
 **Price** 1 sp–1 gp
 
-The listed price is for up to four items (such as trousers, an undergarment, shirt, and jacket or vest). Additional items may be washed for 3cp each. Laundry is finished the next day unless you bring it to the washer early. Magical laundry service is a mage (typically an apprentice wizard) magically and instantly cleaning your clothes with _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_.
+The listed price is for up to four items (such as trousers, an undergarment, shirt, and jacket or vest). Additional items may be washed for 3cp each. Laundry is finished the next day unless you bring it to the washer early. Magical laundry service is a mage (typically an apprentice wizard) magically and instantly cleaning your clothes with _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_.
 
 Lawyer
 
@@ -94,7 +94,7 @@ Nurse
 
 **Price** 7 sp
 
-A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level expert with 1 rank in [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) and the [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Heal](/pathfinderRPG/prd/skills/heal.html#_heal)) feat. An experienced nurse is 3rd or 4th level, has additional ranks in [Heal](/pathfinderRPG/prd/skills/heal.html#_heal), and is paid two to three times as much; however, these nurses are in high demand and are normally employed full-time by wealthy merchants or nobles to look after children and elderly family members. A nurse generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day.
+A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level expert with 1 rank in [Heal](skills/heal.md#_heal) and the [Skill Focus](feats.md#_skill-focus) ( [Heal](skills/heal.md#_heal)) feat. An experienced nurse is 3rd or 4th level, has additional ranks in [Heal](skills/heal.md#_heal), and is paid two to three times as much; however, these nurses are in high demand and are normally employed full-time by wealthy merchants or nobles to look after children and elderly family members. A nurse generally knows a little bit about what local magical healing can do and where to find it. The listed price is per day.
 
 Road or Gate Toll
 
@@ -112,11 +112,11 @@ Spellcasting
 
 **Price** varies
 
-The indicated amount is how much it costs to get a spellcaster to cast a spell for you. This price assumes that you can go to the spellcaster and have the spell cast at her convenience (generally at least 24 hours later, so that the spellcaster has time to prepare the spell in question, though you may be lucky enough to find someone who has it prepared that day or a spontaneous caster who knows it). If you want to bring the spellcaster somewhere to cast a spell (for example, to cast _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_ on a magical seal in a dungeon) you need to negotiate with her; the default answer to such requests is typically no, since most people don't actually like to go on unexpected life-threatening adventures.
+The indicated amount is how much it costs to get a spellcaster to cast a spell for you. This price assumes that you can go to the spellcaster and have the spell cast at her convenience (generally at least 24 hours later, so that the spellcaster has time to prepare the spell in question, though you may be lucky enough to find someone who has it prepared that day or a spontaneous caster who knows it). If you want to bring the spellcaster somewhere to cast a spell (for example, to cast _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_ on a magical seal in a dungeon) you need to negotiate with her; the default answer to such requests is typically no, since most people don't actually like to go on unexpected life-threatening adventures.
 
 The price given is for any spell that does not require a costly material component. If the spell includes a material component, add the cost of that component to the cost of the spell. If the spell has a focus component (other than a divine focus), add 1/10 the cost of that focus to the cost of the spell.
 
-If a spell has dangerous consequences (such as _ [contact other plane](/pathfinderRPG/prd/spells/contactOtherPlane.html#_contact-other-plane)_, which has a risk of decreasing the caster's Intelligence and Charisma), the spellcaster will certainly require proof that you can and will pay for dealing with any such consequences (that is, assuming that the spellcaster even agrees to cast such a spell, which isn't certain). If these additional costs put the total spellcasting price above 3,000 gp, the spell is not generally available.
+If a spell has dangerous consequences (such as _ [contact other plane](spells/contactOtherPlane.md#_contact-other-plane)_, which has a risk of decreasing the caster's Intelligence and Charisma), the spellcaster will certainly require proof that you can and will pay for dealing with any such consequences (that is, assuming that the spellcaster even agrees to cast such a spell, which isn't certain). If these additional costs put the total spellcasting price above 3,000 gp, the spell is not generally available.
 
 In the case of spells that transport the caster and characters over a distance, you will likely have to pay for two castings of the spell (one for the caster to take you there and one for the caster to return), even if you aren't returning with the caster.
 

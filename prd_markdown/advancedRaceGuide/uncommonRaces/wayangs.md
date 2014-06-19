@@ -8,7 +8,7 @@ The wayangs are a race of small supernatural humanoids who trace their ancestry 
 
 **Wayang** : Wayangs are humanoids with the wayang subtype.
 
-**Small** : Wayangs are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty on their CMB and to CMD, and a +4 size bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks.
+**Small** : Wayangs are Small creatures and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty on their CMB and to CMD, and a +4 size bonus on [Stealth](skills/stealth.md#_stealth) checks.
 
 **Slow Speed** : Wayangs have a base speed of 20 feet.
 
@@ -16,9 +16,9 @@ The wayangs are a race of small supernatural humanoids who trace their ancestry 
 
 **Light and Dark (Su)** : Once per day as an immediate action, a wayang can treat positive and negative energy effects as if she were an undead creature, taking damage from positive energy and healing damage from negative energy. This ability lasts for 1 minute once activated.
 
-**Lurker** : Wayangs gain a +2 racial bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) and [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks.
+**Lurker** : Wayangs gain a +2 racial bonus on [Perception](skills/perception.md#_perception) and [Stealth](skills/stealth.md#_stealth) checks.
 
-**Shadow Magic** : Wayangs add +1 to the DC of any saving throws against spells of the shadow subschool that they cast. Wayangs with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/day—_ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_, _ [pass without trace](/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace)_, and _ [ventriloquism](/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism)_. The caster level for these effects is equal to the wayang's level. The DC for these spells is equal to 10 + the spell's level + the wayang's Charisma modifier.
+**Shadow Magic** : Wayangs add +1 to the DC of any saving throws against spells of the shadow subschool that they cast. Wayangs with a Charisma score of 11 or higher also gain the following spell-like abilities: 1/day—_ [ghost sound](spells/ghostSound.md#_ghost-sound)_, _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_, and _ [ventriloquism](spells/ventriloquism.md#_ventriloquism)_. The caster level for these effects is equal to the wayang's level. The DC for these spells is equal to 10 + the spell's level + the wayang's Charisma modifier.
 
 **Shadow Resistance** : Wayangs get a +2 racial bonus on saving throws against spells of the shadow subschool.
 
@@ -28,7 +28,7 @@ The wayangs are a race of small supernatural humanoids who trace their ancestry 
 
 The following racial trait may be selected instead of existing wayang racial traits. Consult your GM before selecting this new option.
 
-**Dissolution's Child** : Once per day, you may change your appearance to look as if you were little more than a 4-foot-tall area of shadow. Your physical form still exists and you are not incorporeal—only your appearance changes. This works like _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, except it only lasts 1 round per level (maximum 5 rounds). This is a supernatural ability. This racial trait replaces shadow magic.
+**Dissolution's Child** : Once per day, you may change your appearance to look as if you were little more than a 4-foot-tall area of shadow. Your physical form still exists and you are not incorporeal—only your appearance changes. This works like _ [invisibility](spells/invisibility.md#_invisibility)_, except it only lasts 1 round per level (maximum 5 rounds). This is a supernatural ability. This racial trait replaces shadow magic.
 
 # Favored Class Options
 
@@ -50,11 +50,11 @@ The following racial archetype is available to wayangs.
 
 A shadow puppeteer invokes amazing and terrifying shadow puppet shows, producing supernatural effects by creating and manipulating shadow. A shadow puppeteer has the following class feature.
 
-**Bardic Performance** : A shadow puppeteer gains the following types of bardic performance. The character must be able to perform shadow puppetry in order to activate any of these abilities. Shadow puppetry uses [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (act), and requires a light source. These abilities replace all levels of inspire courage and inspire competence.
+**Bardic Performance** : A shadow puppeteer gains the following types of bardic performance. The character must be able to perform shadow puppetry in order to activate any of these abilities. Shadow puppetry uses [Perform](skills/perform.md#_perform) (act), and requires a light source. These abilities replace all levels of inspire courage and inspire competence.
 
-_Shadow Servant (Sp)_: At 1st level, the puppeteer can create a _ [shadow](/pathfinderRPG/prd/magicItems/armor.html#_armor-shadow) servant_ to perform simple tasks. The shadow servant is identical to an _ [unseen servant](/pathfinderRPG/prd/spells/unseenServant.html#_unseen-servant)_ (caster level equal to the shadow puppeteer's bard level), except it appears as a formless shadow. Shadow servant relies on visual components.
+_Shadow Servant (Sp)_: At 1st level, the puppeteer can create a _ [shadow](magicItems/armor.md#_armor-shadow) servant_ to perform simple tasks. The shadow servant is identical to an _ [unseen servant](spells/unseenServant.md#_unseen-servant)_ (caster level equal to the shadow puppeteer's bard level), except it appears as a formless shadow. Shadow servant relies on visual components.
 
-_Shadow Puppets (Sp)_: At 1st level, a shadow puppeteer can use bardic performance to create one quasi-real shadowy creature resembling a monster from the _ [summon monster I](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i)_ list. These shadowy creatures otherwise work like _ [shadow conjuration](/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration)_, and targets interacting with them get a Will saving throw (DC 10 + 1/2 your bard level + your Charisma bonus) to treat them as only 20% real. At 4th level and every three levels thereafter, this ability acts like the next higher version of _summon monster_ (_ [summon monster II](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-ii) _at 4th level and so on).
+_Shadow Puppets (Sp)_: At 1st level, a shadow puppeteer can use bardic performance to create one quasi-real shadowy creature resembling a monster from the _ [summon monster I](spells/summonMonster.md#_summon-monster-i)_ list. These shadowy creatures otherwise work like _ [shadow conjuration](spells/shadowConjuration.md#_shadow-conjuration)_, and targets interacting with them get a Will saving throw (DC 10 + 1/2 your bard level + your Charisma bonus) to treat them as only 20% real. At 4th level and every three levels thereafter, this ability acts like the next higher version of _summon monster_ (_ [summon monster II](spells/summonMonster.md#_summon-monster-ii) _at 4th level and so on).
 
 # New Racial Rules
 
@@ -81,9 +81,9 @@ In dim light, you resemble little more than a shadow.
 
 **Prerequisite** : Wayang.
 
-**Benefit** : Whenever you are in an area of dim light or darkness, you can move at full speed using [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) without taking the normal –5 penalty for doing so.
+**Benefit** : Whenever you are in an area of dim light or darkness, you can move at full speed using [Stealth](skills/stealth.md#_stealth) without taking the normal –5 penalty for doing so.
 
-**Normal** : When moving at more than half your speed and up to your normal speed, you take a –5 penalty on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks.
+**Normal** : When moving at more than half your speed and up to your normal speed, you take a –5 penalty on [Stealth](skills/stealth.md#_stealth) checks.
 
 ## Wayang Magic Items
 
@@ -97,11 +97,11 @@ Bag of Shadow Clouds
 
 Description
 
-Anyone peering into this bag of deep gray cloth sees nothing but empty blackness. Within the bag exists an extradimensional space linked to the Plane of Shadow. Three times per day, as a move action, the bearer can reach within the bag and pull out 1d4 semisolid shards of shadow. The bag's bearer can use each shard of shadow as a thrown weapon targeting a single 5-foot square. When it hits, it acts as a _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_ spell, but only affecting one 5-foot square. As a move action, the bearer of the bag can move a shadow cloud up to 10 feet in any direction. Whether or not they are thrown, the shards of shadow and shadow clouds last 10 minutes before dissipating.
+Anyone peering into this bag of deep gray cloth sees nothing but empty blackness. Within the bag exists an extradimensional space linked to the Plane of Shadow. Three times per day, as a move action, the bearer can reach within the bag and pull out 1d4 semisolid shards of shadow. The bag's bearer can use each shard of shadow as a thrown weapon targeting a single 5-foot square. When it hits, it acts as a _ [darkness](spells/darkness.md#_darkness)_ spell, but only affecting one 5-foot square. As a move action, the bearer of the bag can move a shadow cloud up to 10 feet in any direction. Whether or not they are thrown, the shards of shadow and shadow clouds last 10 minutes before dissipating.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [shadow conjuration](/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration)_; **Cost** 15,120 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [darkness](spells/darkness.md#_darkness)_, _ [shadow conjuration](spells/shadowConjuration.md#_shadow-conjuration)_; **Cost** 15,120 gp
 
 ## Wayang Spells
 

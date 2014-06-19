@@ -8,9 +8,9 @@ Fetchling (Kayal)CR 1/2
 
 Fetchling rogue 1
 
-N Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [native](/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype))
+N Medium [outsider](monsters/creatureTypes.md#_outsider) ( [native](monsters/creatureTypes.md#_native-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +3
+**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +3
 
 Defense
 
@@ -20,7 +20,7 @@ Defense
 
 **Fort** +2, **Ref** +5, **Will** –1
 
-**Defensive Abilities** shadow bending; **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 5, electricity 5
+**Defensive Abilities** shadow bending; **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 5, electricity 5
 
 Offense
 
@@ -32,7 +32,7 @@ Offense
 
 **Spell-Like Abilities** (CL 1st; concentration +3)
 
-1/day—_ [disguise self](/pathfinderRPG/prd/additionalMonsters/../spells/disguiseSelf.html#_disguise-self)_ (humanoid only)
+1/day—_ [disguise self](additionalMonsters/../spells/disguiseSelf.md#_disguise-self)_ (humanoid only)
 
 Statistics
 
@@ -40,9 +40,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +1; **CMD** 14
 
-**Feats** [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
+**Feats** [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
 
-**Skills** [Appraise](/pathfinderRPG/prd/additionalMonsters/../skills/appraise.html#_appraise) +3, [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +6, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +6, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (local) +3, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +2, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +3, Sense Motive +3, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +7; **Racial Modifiers** +2 [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes), +2 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
+**Skills** [Appraise](additionalMonsters/../skills/appraise.md#_appraise) +3, [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +6, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +6, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (local) +3, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +2, [Perception](additionalMonsters/../skills/perception.md#_perception) +3, Sense Motive +3, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +7; **Racial Modifiers** +2 [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes), +2 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
 
 **Languages** Common
 
@@ -60,7 +60,7 @@ Special Abilities
 
 **Shadow Blending (Su)** Attacks against a fetchling in dim light have a 50% miss chance instead of the normal 20% miss chance. This ability does not grant total concealment; it just increases the miss chance.
 
-Fetchlings are descended from generations of humans trapped on the Plane of Shadow. Infused with the essence of that plane, they are more and less than human, and often serve as middlemen in planar trade and politics. Other than their yellow eyes, their flesh has no color—it is either stark white, midnight black, or a shade of gray. On the Material Plane, they conceal themselves with heavy clothing or dim light so they can work without prejudice. The name âfetchlingâ is a human word; their own name for their race is _kayal_, meaning âshadow people.â
+Fetchlings are descended from generations of humans trapped on the Plane of Shadow. Infused with the essence of that plane, they are more and less than human, and often serve as middlemen in planar trade and politics. Other than their yellow eyes, their flesh has no color—it is either stark white, midnight black, or a shade of gray. On the Material Plane, they conceal themselves with heavy clothing or dim light so they can work without prejudice. The name “fetchling” is a human word; their own name for their race is _kayal_, meaning “shadow people.”
 
 A fetchling stands 6 feet tall, but is generally lithe and wiry of frame, weighing only 150 pounds. Fetchlings live as long as half-elves.
 
@@ -74,13 +74,13 @@ Fetchlings are defined by their class levels—they do not possess racial HD. Th
 
 **Low-Light Vision** : Fetchlings can see twice as far as humans in conditions of dim light.
 
-**Skilled** : Fetchlings have a +2 racial bonus on [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) and [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) checks.
+**Skilled** : Fetchlings have a +2 racial bonus on [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) and [Stealth](additionalMonsters/../skills/stealth.md#_stealth) checks.
 
 **Shadow Blending** : See above.
 
 **Shadowy Resistance** : Fetchlings have cold resistance 5 and electricity resistance 5.
 
-**Spell-Like Abilities (Sp)** : A fetchling can use _ [disguise self](/pathfinderRPG/prd/additionalMonsters/../spells/disguiseSelf.html#_disguise-self)_ once per day as a spell-like ability. It can assume the form of any humanoid creature using this spell-like ability. When a fetchling reaches 9th level in any combination of classes, it gains _ [shadow walk](/pathfinderRPG/prd/additionalMonsters/../spells/shadowWalk.html#_shadow-walk)_ (self only) as a spell-like ability usable once per day, and at 13th level, it gains _ [plane shift](/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift)_ (self only, to the Plane of Shadow or the Material Plane only) usable once per day. A fetchling's caster level is equal to its total Hit Dice.
+**Spell-Like Abilities (Sp)** : A fetchling can use _ [disguise self](additionalMonsters/../spells/disguiseSelf.md#_disguise-self)_ once per day as a spell-like ability. It can assume the form of any humanoid creature using this spell-like ability. When a fetchling reaches 9th level in any combination of classes, it gains _ [shadow walk](additionalMonsters/../spells/shadowWalk.md#_shadow-walk)_ (self only) as a spell-like ability usable once per day, and at 13th level, it gains _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (self only, to the Plane of Shadow or the Material Plane only) usable once per day. A fetchling's caster level is equal to its total Hit Dice.
 
 **Languages** Fetchlings begin play speaking Common. A fetchling with a high Intelligence score can choose any of the following languages: Aklo, Aquan, Auran, Draconic, D'ziriak (understanding only, cannot speak), Ignan, Terran, and any regional human tongue.
 

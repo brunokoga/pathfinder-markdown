@@ -8,7 +8,7 @@ XP 9,600
 
 NE Large magical beast
 
-**Init** +9; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +10
+**Init** +9; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +10
 
 Defense
 
@@ -22,17 +22,17 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** bite +17 (2d6+6 plus [energy drain](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_energy-drain)), bite +17 (1d4+6 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su))), 2 claws +17 (1d6+6)
+**Melee** bite +17 (2d6+6 plus [energy drain](monsters/universalMonsterRules.md#_energy-drain)), bite +17 (1d4+6 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))), 2 claws +17 (1d6+6)
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [energy drain](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_energy-drain) (2 levels, DC 16), [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce)
+**Special Attacks** [energy drain](monsters/universalMonsterRules.md#_energy-drain) (2 levels, DC 16), [pounce](monsters/universalMonsterRules.md#_pounce)
 
 **Spell-Like Abilities** (CL 12th; concentration +12)
 
-3/day—_ [contagion](/pathfinderRPG/prd/spells/contagion.html#_contagion)_ (DC 14), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 13)
+3/day—_ [contagion](spells/contagion.md#_contagion)_ (DC 14), _ [hold person](spells/holdPerson.md#_hold-person)_ (DC 13)
 
-1/day—_ [nightmare](/pathfinderRPG/prd/spells/nightmare.html#_nightmare)_ (DC 15), _ [shout](/pathfinderRPG/prd/spells/shout.html#_shout)_ (DC 14), _ [waves of fatigue](/pathfinderRPG/prd/spells/wavesOfFatigue.html#_waves-of-fatigue)_
+1/day—_ [nightmare](spells/nightmare.md#_nightmare)_ (DC 15), _ [shout](spells/shout.md#_shout)_ (DC 14), _ [waves of fatigue](spells/wavesOfFatigue.md#_waves-of-fatigue)_
 
 Statistics
 
@@ -40,9 +40,9 @@ Statistics
 
 **Base Atk** +12; **CMB** +19; **CMD** 35 (39 vs. trip)
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), Mobility, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))
+**Feats** [Combat Casting](feats.md#_combat-casting), [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Improved Initiative](feats.md#_improved-initiative), Mobility, [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth))
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +13, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +10, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +11
+**Skills** [Climb](skills/climb.md#_climb) +13, [Perception](skills/perception.md#_perception) +10, [Stealth](skills/stealth.md#_stealth) +11
 
 **Languages** Common
 
@@ -58,9 +58,9 @@ Ecology
 
 Special Abilities
 
-**Cloud Form (Su)** A nue can change into the form of a 10-foot black cloud or back to its normal form as a standard action. A nue in cloud form is otherwise treated as if under the effects of _ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_, except that it obscures vision like _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_.
+**Cloud Form (Su)** A nue can change into the form of a 10-foot black cloud or back to its normal form as a standard action. A nue in cloud form is otherwise treated as if under the effects of _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_, except that it obscures vision like _ [fog cloud](spells/fogCloud.md)_.
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 21; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Strength damage; _cure_ 2 consecutive saves. The save DC is Constitution-based.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 21; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Strength damage; _cure_ 2 consecutive saves. The save DC is Constitution-based.
 
 This strange creature has the body of a tiger, the head of a fanged monkey, and a poisonous viper for a tail. Though some call it a chimera and treat it as an exotic specimen of that creature, it is a completely different breed of beast.
 

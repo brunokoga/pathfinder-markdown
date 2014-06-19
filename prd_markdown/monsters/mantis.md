@@ -6,9 +6,9 @@ _This towering insect walks on its back four legs. Its head is triangular and it
 
 **XP 800**
 
-N Large [vermin](creatureTypes.html#_vermin)
+N Large [vermin](creatureTypes.md#_vermin)
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +6
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +6
 
 **Defense**
 
@@ -24,7 +24,7 @@ N Large [vermin](creatureTypes.html#_vermin)
 
 **Speed** 30 ft., climb 30 ft. fly 40 ft. (poor)
 
-**Melee** 2 claws +5 (1d6+3 plus [grab](universalMonsterRules.html#_grab))
+**Melee** 2 claws +5 (1d6+3 plus [grab](universalMonsterRules.md#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -36,7 +36,7 @@ N Large [vermin](creatureTypes.html#_vermin)
 
 **Base Atk** +3; **CMB** +7 (+11 grapple); **CMD** 18 (22 vs. trip)
 
-**Skills** [Climb](../skills/climb.html#_climb) +11, [Fly](../skills/fly.html#_fly) –5, [Perception](../skills/perception.html#_perception) +6, [Stealth](../skills/stealth.html#_stealth) +1 (+13 in forests); **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception), +4 [Stealth](../skills/stealth.html#_stealth) (+12 in forests)
+**Skills** [Climb](../skills/climb.md#_climb) +11, [Fly](../skills/fly.md#_fly) –5, [Perception](../skills/perception.md#_perception) +6, [Stealth](../skills/stealth.md#_stealth) +1 (+13 in forests); **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception), +4 [Stealth](../skills/stealth.md#_stealth) (+12 in forests)
 
 **Ecology**
 
@@ -48,7 +48,7 @@ N Large [vermin](creatureTypes.html#_vermin)
 
 **Special Abilities**
 
-**[Lunge](../feats.html#_lunge) (Ex)** A giant mantis's limbs are capable of reaching much farther than normal for a creature of its size. As a full-attack action, it can make a single attack with its claws at double its normal reach. When a giant mantis attacks with a claw in this manner, it gains a +4 bonus on its attack roll. A giant mantis cannot make attacks of opportunity with its lunge.
+**[Lunge](../feats.md#_lunge) (Ex)** A giant mantis's limbs are capable of reaching much farther than normal for a creature of its size. As a full-attack action, it can make a single attack with its claws at double its normal reach. When a giant mantis attacks with a claw in this manner, it gains a +4 bonus on its attack roll. A giant mantis cannot make attacks of opportunity with its lunge.
 
 **Mandibles (Ex)** A giant mantis that grabs a foe can make a bite attack against that foe as a secondary attack. The mantis's bite is a +0 attack that inflicts 1d6+1 points of damage on a hit.
 

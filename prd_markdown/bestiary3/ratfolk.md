@@ -6,11 +6,11 @@ Ratfolk CR 1/3
 
 XP 135
 
-[Ratfolk](/pathfinderRPG/prd/monsters/creatureTypes.html#_ratfolk-subtype) expert 1
+[Ratfolk](monsters/creatureTypes.md#_ratfolk-subtype) expert 1
 
-N Small humanoid ( [ratfolk](/pathfinderRPG/prd/monsters/creatureTypes.html#_ratfolk-subtype))
+N Small humanoid ( [ratfolk](monsters/creatureTypes.md#_ratfolk-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +9
 
 Defense
 
@@ -36,10 +36,10 @@ Statistics
 
 **Base Atk** +0; **CMB** –3; **CMD** 9
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
 
-**Skills** [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) +6, [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) +8, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +3, [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) +6, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +3 (+7 with rodents), [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9,   
- [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +4, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +4, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +11; **Racial Modifiers** +2 [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy), +4 [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) to influence rodents, +2 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +2 [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device)
+**Skills** [Appraise](skills/appraise.md#_appraise) +6, [Craft](skills/craft.md#_craft) (alchemy) +8, [Diplomacy](skills/diplomacy.md#_diplomacy) +3, [Disable Device](skills/disableDevice.md#_disable-device) +6, [Handle Animal](skills/handleAnimal.md#_handle-animal) +3 (+7 with rodents), [Perception](skills/perception.md#_perception) +9,   
+ [Sense Motive](skills/senseMotive.md#_sense-motive) +4, [Survival](skills/survival.md#_survival) +4, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +11; **Racial Modifiers** +2 [Craft](skills/craft.md#_craft) (alchemy), +4 [Handle Animal](skills/handleAnimal.md#_handle-animal) to influence rodents, +2 [Perception](skills/perception.md#_perception), +2 [Use Magic Device](skills/useMagicDevice.md#_use-magic-device)
 
 **Languages** Common
 
@@ -53,7 +53,7 @@ Ecology
 
 Special Abilities
 
-**Swarming (Ex)** [Ratfolk](/pathfinderRPG/prd/monsters/creatureTypes.html#_ratfolk-subtype) are used to living and fighting communally, and are adept at swarming foes for their own gain and their foes' detriment. Up to two [ratfolk](/pathfinderRPG/prd/monsters/creatureTypes.html#_ratfolk-subtype) can share the same square at the same time. If two [ratfolk](/pathfinderRPG/prd/monsters/creatureTypes.html#_ratfolk-subtype) in the same square attack the same foe, they are considered to be flanking that foe as if they were in two opposite squares.
+**Swarming (Ex)** [Ratfolk](monsters/creatureTypes.md#_ratfolk-subtype) are used to living and fighting communally, and are adept at swarming foes for their own gain and their foes' detriment. Up to two [ratfolk](monsters/creatureTypes.md#_ratfolk-subtype) can share the same square at the same time. If two [ratfolk](monsters/creatureTypes.md#_ratfolk-subtype) in the same square attack the same foe, they are considered to be flanking that foe as if they were in two opposite squares.
 
 Ratfolk are small, rodentlike humanoids often found traveling in nomadic trading caravans or perhaps dwelling in colonies in slums, sewers, and other normally undesirable urban sectors. Tinkerers and hoarders by nature, many ratfolk are shrewd merchants, carefully navigating the shifting alliances of black markets and bazaars. They love their stockpiles of interesting items far more than money, and would rather trade for more baubles to add to their hoards than for mere coins.
 
@@ -67,13 +67,13 @@ Ratfolk are defined by their class levels—they do not possess racial Hit Dice.
 
 **–2 Strength, +2 Dexterity, +2 Intelligence** : Ratfolk are agile and clever, yet physically weak.
 
-**Small** : Ratfolk are Small and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty on CMB and to CMD, and a +4 size bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks.
+**Small** : Ratfolk are Small and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a –1 penalty on CMB and to CMD, and a +4 size bonus on [Stealth](skills/stealth.md#_stealth) checks.
 
 **Darkvision** : Ratfolk can see in the dark up to 60 feet.
 
-**Tinker** : Ratfolk gain a +2 bonus on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy), [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), and [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) checks.
+**Tinker** : Ratfolk gain a +2 bonus on [Craft](skills/craft.md#_craft) (alchemy), [Perception](skills/perception.md#_perception), and [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) checks.
 
-**Rodent Empathy** : Ratfolk gain a +4 bonus on [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) checks made to influence rodents.
+**Rodent Empathy** : Ratfolk gain a +4 bonus on [Handle Animal](skills/handleAnimal.md#_handle-animal) checks made to influence rodents.
 
 **Swarming** : See above.
 

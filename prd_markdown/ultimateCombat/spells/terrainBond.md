@@ -4,7 +4,7 @@ Terrain Bond
 
 **Casting Time** 1 standard action
 
-**Components** V, S, M (a pinch of [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype) taken from your most favored terrain)
+**Components** V, S, M (a pinch of [earth](monsters/creatureTypes.md#_earth-subtype) taken from your most favored terrain)
 
 **Range** personal
 

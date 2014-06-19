@@ -6,9 +6,9 @@ Great Cyclops CR 12
 
 XP 19,200
 
-CE Huge humanoid ( [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype))
+CE Huge humanoid ( [giant](monsters/creatureTypes.md#_giant-subtype))
 
-**Init** +1; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +22
+**Init** +1; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +22
 
 Defense
 
@@ -29,7 +29,7 @@ gore +23 (1d8+13), 2 slams +23 (2d6+13)
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** [powerful charge](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_powerful-charge) (gore, 4d8+24), rock throwing (120 ft.)
+**Special Attacks** [powerful charge](monsters/universalMonsterRules.md#_powerful-charge) (gore, 4d8+24), rock throwing (120 ft.)
 
 Statistics
 
@@ -38,11 +38,11 @@ Statistics
 
 **Base Atk** +12; **CMB** +27; **CMD** 38
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow), [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), [Diehard](/pathfinderRPG/prd/feats.html#_diehard), [Endurance](/pathfinderRPG/prd/feats.html#_endurance), [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Staggering Critical](/pathfinderRPG/prd/feats.html#_staggering-critical)
+**Feats** [Awesome Blow](monsters/monsterFeats.md#_awesome-blow), [Cleave](feats.md#_cleave), [Critical Focus](feats.md#_critical-focus), [Diehard](feats.md#_diehard), [Endurance](feats.md#_endurance), [Improved Bull Rush](feats.md#_improved-bull-rush), [Iron Will](feats.md#_iron-will), [Power Attack](feats.md#_power-attack), [Staggering Critical](feats.md#_staggering-critical)
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +22
+**Skills** [Perception](skills/perception.md#_perception) +22
 
-**Languages** Common, Cyclops, [Giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype)
+**Languages** Common, Cyclops, [Giant](monsters/creatureTypes.md#_giant-subtype)
 
 **SQ** flash of brutality
 

@@ -1,6 +1,6 @@
 Shocking Grasp
 
-**Source** [_shocking grasp_](/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp)
+**Source** [_shocking grasp_](spells/shockingGrasp.md#_shocking-grasp)
 
 The spell's damage increases to 1d8 points of electricity damage per caster level (maximum 5d8). If the target is wearing metal armor or is made of metal, you may attempt a free grapple combat maneuver against the target.
 

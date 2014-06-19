@@ -14,9 +14,9 @@ Returning Weapon
 
 **Saving Throw** Will negates (harmless, object); **Spell Resistance** yes (harmless, object)
 
-For the duration of the spell, the target weapon acts as if it had the _ [returning](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning)_ weapon special ability.
+For the duration of the spell, the target weapon acts as if it had the _ [returning](magicItems/weapons.md#_weapons-returning)_ weapon special ability.
 
-This spell can be used as the prerequisite for the _ [returning](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning)_ weapon special ability.
+This spell can be used as the prerequisite for the _ [returning](magicItems/weapons.md#_weapons-returning)_ weapon special ability.
 
 Returning Weapon, Communal
 

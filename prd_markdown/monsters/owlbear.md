@@ -6,9 +6,9 @@ _An amalgam of fur and feathers, this bizarre half-bear, half-owl monstrosity ra
 
 **XP 1,200**
 
-N Large [magical beast](creatureTypes.html#_magical-beast)
+N Large [magical beast](creatureTypes.md#_magical-beast)
 
-**Init** +5; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules.html#_scent); [Perception](../skills/perception.html#_perception) +12
+**Init** +5; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +12
 
 **Defense**
 
@@ -22,7 +22,7 @@ N Large [magical beast](creatureTypes.html#_magical-beast)
 
 **Speed** 30 ft.
 
-**Melee** 2 claws +8 (1d6+4 plus [grab](universalMonsterRules.html#_grab)), bite +8 (1d6+4)
+**Melee** 2 claws +8 (1d6+4 plus [grab](universalMonsterRules.md#_grab)), bite +8 (1d6+4)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
@@ -32,9 +32,9 @@ N Large [magical beast](creatureTypes.html#_magical-beast)
 
 **Base Atk** +5; **CMB** +10 (+14 grapple); **CMD** 21 (25 vs. trip)
 
-**Feats** [Improved Initiative](../feats.html#_improved-initiative), [Great Fortitude](../feats.html#_great-fortitude), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
+**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Great Fortitude](../feats.md#_great-fortitude), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
 
-**Skills** [Perception](../skills/perception.html#_perception) +12
+**Skills** [Perception](../skills/perception.md#_perception) +12
 
 **Ecology**
 

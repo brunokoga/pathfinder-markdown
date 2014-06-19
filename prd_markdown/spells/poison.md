@@ -12,7 +12,7 @@
 
 **Duration** instantaneous; see text
 
-**Saving Throw** [Fortitude](../combat.html#_fortitude) negates; see text; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Fortitude](../combat.md#_fortitude) negates; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
-Calling upon the venomous powers of natural predators, you infect the subject with a horrible poison by making a successful melee touch attack. This poison deals 1d3 [Constitution](../gettingStarted.html#_constitution) damage per round for 6 rounds. Poisoned creatures can make a [Fortitude](../combat.html#_fortitude) save each round to negate the damage and end the affliction.
+Calling upon the venomous powers of natural predators, you infect the subject with a horrible poison by making a successful melee touch attack. This poison deals 1d3 [Constitution](../gettingStarted.md#_constitution) damage per round for 6 rounds. Poisoned creatures can make a [Fortitude](../combat.md#_fortitude) save each round to negate the damage and end the affliction.
 

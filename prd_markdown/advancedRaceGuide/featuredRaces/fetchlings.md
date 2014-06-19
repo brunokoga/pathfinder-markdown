@@ -32,13 +32,13 @@ Infused with the essence of the Shadow Plane and possessing human blood commingl
 
 **Low-Light Vision** : Fetchlings can see twice as far as humans in conditions of dim light.
 
-**Skilled** : Fetchlings have a +2 racial bonus on [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) and [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks.
+**Skilled** : Fetchlings have a +2 racial bonus on [Knowledge](skills/knowledge.md#_knowledge) (planes) and [Stealth](skills/stealth.md#_stealth) checks.
 
 **Shadow Blending (Su)** : Attacks against a fetchling in dim light have a 50% miss chance instead of the normal 20% miss chance. This ability does not grant total concealment; it just increases the miss chance.
 
 **Shadowy Resistance** : Fetchlings have cold resistance 5 and electricity resistance 5.
 
-**Spell-Like Abilities (Sp)** : A fetchling can use _ [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_ once per day as a spell-like ability. He can assume the form of any humanoid creature using this spell-like ability. When a fetchling reaches 9th level in any combination of classes, he gains _ [shadow walk](/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk)_ (self only) as a spell-like ability usable once per day, and at 13th level, he gains _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ (self only, to the Shadow Plane or the Material Plane only) usable once per day. A fetchling's caster level is equal to his total Hit Dice.
+**Spell-Like Abilities (Sp)** : A fetchling can use _ [disguise self](spells/disguiseSelf.md#_disguise-self)_ once per day as a spell-like ability. He can assume the form of any humanoid creature using this spell-like ability. When a fetchling reaches 9th level in any combination of classes, he gains _ [shadow walk](spells/shadowWalk.md#_shadow-walk)_ (self only) as a spell-like ability usable once per day, and at 13th level, he gains _ [plane shift](spells/planeShift.md#_plane-shift)_ (self only, to the Shadow Plane or the Material Plane only) usable once per day. A fetchling's caster level is equal to his total Hit Dice.
 
 **Languages** : Fetchlings begin play speaking Common. Fetchlings with a high Intelligence scores can choose from the following: Aklo, Aquan, Auran, Draconic, D'ziriak (understanding only, cannot speak), Ignan, Terran, and any regional human tongue.
 
@@ -59,15 +59,15 @@ Creatures with the shadow creature template dwell on the Shadow Plane, only rare
 
 The following racial traits may be selected instead of existing fetchling racial traits. Consult your GM before selecting any of these new options.
 
-**Emissary** : Rare fetchlings excel in the role of emissary between the Shadow Plane and the Material Plane. Once per day, such a fetchling can roll twice when making a [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) or [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) check and take the better roll. This racial trait replaces shadow blending.
+**Emissary** : Rare fetchlings excel in the role of emissary between the Shadow Plane and the Material Plane. Once per day, such a fetchling can roll twice when making a [Bluff](skills/bluff.md#_bluff) or [Diplomacy](skills/diplomacy.md#_diplomacy) check and take the better roll. This racial trait replaces shadow blending.
 
-**Gloom Shimmer** : Some fetchlings can manipulate shadowy energy in order to displace their location instead of transporting between shadows. Upon reaching 9th level, instead of gaining _ [shadow walk](/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk)_ as a spell-like ability, these fetchlings gain _ [displacement](/pathfinderRPG/prd/spells/displacement.html#_displacement)_ as a spell-like ability usable twice per day. For this ability, a fetchling's caster level is equal to his total Hit Dice. This racial trait modifies the spell-like ability racial trait.
+**Gloom Shimmer** : Some fetchlings can manipulate shadowy energy in order to displace their location instead of transporting between shadows. Upon reaching 9th level, instead of gaining _ [shadow walk](spells/shadowWalk.md#_shadow-walk)_ as a spell-like ability, these fetchlings gain _ [displacement](spells/displacement.md#_displacement)_ as a spell-like ability usable twice per day. For this ability, a fetchling's caster level is equal to his total Hit Dice. This racial trait modifies the spell-like ability racial trait.
 
 **Shadow Magic** : Fetchlings who spend their time studying the subtle magic of their adopted plane gain arcane insights on the use of shadow spells. These fetchlings gain a +1 racial bonus to the DC of any illusion (shadow) spells they cast. This racial trait replaces the skilled racial trait.
 
-**Subtle Manipulator** : Rather than taking on the forms of others, some fetchling are adept at destroying the memories of other creatures. Instead of gaining _ [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_ as a spell-like ability, such fetchlings can use _ [memory lapse](/pathfinderRPG/prd/advanced/spells/memoryLapse.html#_memory-lapse) _ once per day as a spell-like ability. For this ability, a fetchling's caster level is equal to his total Hit Dice. This racial trait modifies the spell-like ability racial trait.
+**Subtle Manipulator** : Rather than taking on the forms of others, some fetchling are adept at destroying the memories of other creatures. Instead of gaining _ [disguise self](spells/disguiseSelf.md#_disguise-self)_ as a spell-like ability, such fetchlings can use _ [memory lapse](advanced/spells/memoryLapse.md#_memory-lapse) _ once per day as a spell-like ability. For this ability, a fetchling's caster level is equal to his total Hit Dice. This racial trait modifies the spell-like ability racial trait.
 
-**World Walker** : Fetchlings who have spent most of their lives on the Material Plane can become more acclimated to their new environments. Instead of gaining a +2 racial bonus on [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) checks, these fetchlings gain a +1 racial bonus on [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) and [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) checks. This racial trait modifies the skilled racial trait.
+**World Walker** : Fetchlings who have spent most of their lives on the Material Plane can become more acclimated to their new environments. Instead of gaining a +2 racial bonus on [Knowledge](skills/knowledge.md#_knowledge) (planes) checks, these fetchlings gain a +1 racial bonus on [Knowledge](skills/knowledge.md#_knowledge) (nature) and [Knowledge](skills/knowledge.md#_knowledge) (local) checks. This racial trait modifies the skilled racial trait.
 
 # Favored Class Options
 
@@ -75,9 +75,9 @@ The following options are available to all fetchlings who have the listed favore
 
 **Oracle** : Treat the oracle's level as +1/3 higher for the purposes of determining which of its racial spell-like abilities it can use.
 
-**Ranger** : Add a +1/2 bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) and [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) checks made on the Plane of Shadow.
+**Ranger** : Add a +1/2 bonus on [Perception](skills/perception.md#_perception) and [Survival](skills/survival.md#_survival) checks made on the Plane of Shadow.
 
-**Rogue** : Add a +1/2 bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) and [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) checks made while in dim light or darkness.
+**Rogue** : Add a +1/2 bonus on [Stealth](skills/stealth.md#_stealth) and [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks made while in dim light or darkness.
 
 **Sorcerer** : Add +1/2 to either cold or electricity resistance (maximum resistance 10 for either type).
 
@@ -93,11 +93,11 @@ The following racial archetypes are available to fetchlings.
 
 Hunters and guides through the Shadow Plane, dusk stalkers are rangers that thrive in shadow. Adept at hunting in dusk, darkness, and twilight, these rangers excel at manipulating shadows.
 
-**Class Skills** : The dusk stalker adds [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) to his list of class skills and removes [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) from his list of class skills.
+**Class Skills** : The dusk stalker adds [Knowledge](skills/knowledge.md#_knowledge) (planes) to his list of class skills and removes [Knowledge](skills/knowledge.md#_knowledge) (nature) from his list of class skills.
 
 **Shadow Guide** : When a dusk stalker gains the favored terrain ability, that ability is modified in the following ways. At 3rd level, a dusk stalker picks his primary terrain normally, but only gains a +1 bonus on those checks while on a plane other than the Shadow Plane, and gains a +3 bonus on those checks while on the Shadow Plane. Each time he chooses to add a bonus in a favored terrain, he gains a +1 bonus on those checks while on a plane other than the Shadow Plane, and gains a +3 bonus on those checks while on the Shadow Plane. This ability modifies favored terrain.
 
-**Shadow Bond (Su)** : At 4th level, a dusk stalker creates a mystical bond with shadows. The shadows around a dusk stalker weave and swirl, confusing his enemies. When a dusk stalker is fighting in dim light or darkness (magical or otherwise), he gains a +4 insight bonus on [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) checks made to move through an enemy's threatened area or through its space. Furthermore, a number of times per day equal to his Wisdom modifier, the dusk stalker can manipulate shadows in a 5-foot square within 30 feet. That square must be in an area of dim light or darkness (magical or otherwise). Enemies with an Intelligence score within or adjacent to that 5-foot square take a –2 penalty to AC and on Reflex saving throws. The harassing shadows last for 1 round. This is a mind-affecting fear effect. This ability replaces hunter's bond.
+**Shadow Bond (Su)** : At 4th level, a dusk stalker creates a mystical bond with shadows. The shadows around a dusk stalker weave and swirl, confusing his enemies. When a dusk stalker is fighting in dim light or darkness (magical or otherwise), he gains a +4 insight bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) checks made to move through an enemy's threatened area or through its space. Furthermore, a number of times per day equal to his Wisdom modifier, the dusk stalker can manipulate shadows in a 5-foot square within 30 feet. That square must be in an area of dim light or darkness (magical or otherwise). Enemies with an Intelligence score within or adjacent to that 5-foot square take a –2 penalty to AC and on Reflex saving throws. The harassing shadows last for 1 round. This is a mind-affecting fear effect. This ability replaces hunter's bond.
 
 **Dark Sight (Su)** : At 12th level, a dusk stalker gains the see in darkness ability. This ability replaces camouflage.
 
@@ -105,7 +105,7 @@ Hunters and guides through the Shadow Plane, dusk stalkers are rangers that thri
 
 While most summoners can call any manner of creature from across the planes to serve them in combat, supplementing the skills of their eidolon with a diverse range of creatures, others eschew this broad utility and instead concentrate upon calling forth entities from the Shadow Plane. A shadow caller has the following class features.
 
-**Class Skills** : The shadow caller adds [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) to his list of class skills and removes [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) from his list of class skills.
+**Class Skills** : The shadow caller adds [Stealth](skills/stealth.md#_stealth) to his list of class skills and removes [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) from his list of class skills.
 
 **Shadow Summoning (Sp)** : When a shadow caller uses his _summon monster_ ability or casts the _summon monster_ spell, he typically summons creatures from the Shadow Plane or creatures closely associated with shadow. When a creature on the _summon monster_ spell list indicates that it is summoned with either the celestial or the fiendish template based on the alignment of the caster, the creature summoned by the shadow caller has the shadow creature template instead . Furthermore, the _summon monster_ lists are modified in the following ways (these changes also apply to using a higher-level summon spell to summon multiple creatures from a lower-level list).
 
@@ -141,7 +141,7 @@ The following evolutions are available to all summoners.
 
 **Shadow Blend (Su)** : In any condition of illumination other than bright light, the eidolon disappears into the shadows, giving it concealment (20% miss chance). If it has the shadow form evolution, it instead gains total concealment (50% miss chance). The eidolon can suspend or resume this ability as a free action.
 
-**Shadow Form (Su)** : The eidolon's body becomes shadowy and more indistinct. This shadow form grants the eidolon constant concealment (20% miss chance), and its melee attacks affect incorporeal creatures as if it had the _ [ghost touch](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch)_ weapon property. The eidolon's melee attacks deal only half damage to corporeal creatures.
+**Shadow Form (Su)** : The eidolon's body becomes shadowy and more indistinct. This shadow form grants the eidolon constant concealment (20% miss chance), and its melee attacks affect incorporeal creatures as if it had the _ [ghost touch](magicItems/weapons.md#_weapons-ghost-touch)_ weapon property. The eidolon's melee attacks deal only half damage to corporeal creatures.
 
 # New Racial Rules
 
@@ -174,7 +174,7 @@ With further modification, your eyes can pierce the gloom of even magical darkne
 
 **Prerequisites** : Gloom Sight, fetchling.
 
-**Benefit** : You gain the ability to see up to 15 feet clearly in magical darkness, such as that created by the _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_ spell.
+**Benefit** : You gain the ability to see up to 15 feet clearly in magical darkness, such as that created by the _ [deeper darkness](spells/deeperDarkness.md#_deeper-darkness)_ spell.
 
 ### Gloom Sight
 
@@ -188,7 +188,7 @@ With a combination of strange shadow magic and chirurgery, your eyes are permane
 
 Few creatures are as accustomed to fighting in the shadows as you.
 
-**Prerequisites** : [Blind-Fight](/pathfinderRPG/prd/feats.html#_blind-fight), fetchling.
+**Prerequisites** : [Blind-Fight](feats.md#_blind-fight), fetchling.
 
 **Benefit** : When you are within an area of dim light or darkness, you gain a +1 bonus on attack rolls against enemies that are also within dim light or darkness.
 
@@ -204,9 +204,9 @@ With further modification, your eyes see clearly in not only normal darkness, bu
 
 You can move between the Shadow Plane and the Material Plane more often.
 
-**Prerequisites** : Fetchling, _ [shadow walk](/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk)_ spell-like ability.
+**Prerequisites** : Fetchling, _ [shadow walk](spells/shadowWalk.md#_shadow-walk)_ spell-like ability.
 
-**Benefit** : You gain the ability to use _ [shadow walk](/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk)_ an additional time each day.
+**Benefit** : You gain the ability to use _ [shadow walk](spells/shadowWalk.md#_shadow-walk)_ an additional time each day.
 
 **Special** : You may select this feat multiple times. Its effects stack.
 
@@ -214,9 +214,9 @@ You can move between the Shadow Plane and the Material Plane more often.
 
 You can pierce the veil between the Shadow Plane and the Material Plane more often, and to greater effect.
 
-**Prerequisites** : Fetchling, _ [shadow walk](/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk)_ spell-like ability.
+**Prerequisites** : Fetchling, _ [shadow walk](spells/shadowWalk.md#_shadow-walk)_ spell-like ability.
 
-**Benefit** : You can expend one use of your shadow walk spell-like ability to use _ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_ as a spell-like ability. Your start and end locations for this ability must be in dim light or darkness.
+**Benefit** : You can expend one use of your shadow walk spell-like ability to use _ [dimension door](spells/dimensionDoor.md#_dimension-door)_ as a spell-like ability. Your start and end locations for this ability must be in dim light or darkness.
 
 ## Fetchling Magic Items
 
@@ -234,7 +234,7 @@ This large amulet crafted of rough-cut glass can, on command, shed light as a su
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_; **Cost** 4,500 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [light](spells/light.md#_light)_, _ [invisibility](spells/invisibility.md#_invisibility)_; **Cost** 4,500 gp
 
 Lambent Window
 
@@ -246,11 +246,11 @@ Description
 
 This small pane of glass in a frame made of black metal looks like a small hand mirror at first glance, but when a creature spends at least 1 minute staring into its reflection, the image shifts and changes, showing the landscape of another plane. If the _lambent window_ is activated on the Material Plane, it shows the corresponding location on the Shadow Plane, along with any creatures at that location. Likewise, when used on the Shadow Plane, it shows the corresponding location on the Material Plane. This item only allows those staring into it to see the corresponding location on the other plane; they cannot hear through or gain other sensual information about the other side by way of the window. This effect can be used for up to 10 minutes per day. Those minutes need not be consecutive, and the 1 minute it takes to activate the _lambent window _does not count against this limit.
 
-A person holding an active _lambent window_ can use it as a special focus when casting _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ or using _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ as a spell-like ability to reach the specific location shown in the mirror, rather than 5–500 miles from the bearer's intended destination.
+A person holding an active _lambent window_ can use it as a special focus when casting _ [plane shift](spells/planeShift.md#_plane-shift)_ or using _ [plane shift](spells/planeShift.md#_plane-shift)_ as a spell-like ability to reach the specific location shown in the mirror, rather than 5–500 miles from the bearer's intended destination.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_, _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_; **Cost** 10,000 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [plane shift](spells/planeShift.md#_plane-shift)_, _ [scrying](spells/scrying.md#_scrying)_; **Cost** 10,000 gp
 
 Lantern of Dancing Shadows
 
@@ -262,11 +262,11 @@ Description
 
 This small lantern is made of thin, nearly transparent paper and black iron. The lantern burns for 6 hours on 1 pint of oil. The lantern's light causes the illumination level in a 30-foot radius to move one step toward dim light, from bright light to normal light, from normal light to dim light, or from darkness to dim light. The lantern has no effect in an area that is already in dim light. Nonmagical sources of light, such as torches and lanterns, do not increase the light level in the lantern's area. Magical light or darkness only change the light level in the lantern's area if they have a higher caster level than the lantern.
 
-Once per day, the lit _lantern of [dancing](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-dancing) shadows_ can be commanded to create quasi-real illusions from the shadows cast by its light, as the _ [shadow conjuration](/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration)_ spell. In addition, once per day, the lantern can be commanded to solidify shadows for a short period of time. These solidified shadows cause incorporeal creatures within the lantern's illumination radius (30 feet) to coalesce into semi-physical forms, as the _ [mass ghostbane dirge](/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge,-mass)_ spell.
+Once per day, the lit _lantern of [dancing](magicItems/weapons.md#_weapons-dancing) shadows_ can be commanded to create quasi-real illusions from the shadows cast by its light, as the _ [shadow conjuration](spells/shadowConjuration.md#_shadow-conjuration)_ spell. In addition, once per day, the lantern can be commanded to solidify shadows for a short period of time. These solidified shadows cause incorporeal creatures within the lantern's illumination radius (30 feet) to coalesce into semi-physical forms, as the _ [mass ghostbane dirge](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge,-mass)_ spell.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [mass ghostbane dirge](/pathfinderRPG/prd/advanced/spells/ghostbaneDirge.html#_ghostbane-dirge,-mass)_, _ [shadow conjuration](/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration)_; **Cost** 20,500 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [darkness](spells/darkness.md#_darkness)_, _ [mass ghostbane dirge](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge,-mass)_, _ [shadow conjuration](spells/shadowConjuration.md#_shadow-conjuration)_; **Cost** 20,500 gp
 
 ## Fetchling Spells
 
@@ -306,7 +306,7 @@ Shadowy Haven
 
 **Saving Throw** none; **Spell Resistance** no
 
-This spell functions like _ [rope trick](/pathfinderRPG/prd/spells/ropeTrick.html#_rope-trick)_, except the point of entry is through a 5-foot-square instead of a rope. The space holds as many as 10 creatures of any size.
+This spell functions like _ [rope trick](spells/ropeTrick.md#_rope-trick)_, except the point of entry is through a 5-foot-square instead of a rope. The space holds as many as 10 creatures of any size.
 
 When this spell is cast upon a 5-foot-square part of a wall, it creates an extradimensional space adjacent to the Plane of Shadow. Creatures in the extradimensional space are hidden beyond the reach of spells (including divinations) unless those spells work across planes. The space holds as many as 10 creatures (of any size). The entrance to the extradimensional space remains visible as an area that is darker than the ambient illumination.
 
@@ -314,5 +314,5 @@ Spells cannot be cast across the extradimensional interface, nor can area effect
 
 The entrance is only open when the area around it is in dim light. Any other level of light (brighter or darker) closes the entrance, trapping creatures inside the extradimensional space. If the entrance is closed when the spell expires, there is a 50% chance that creatures in it are ejected into the Shadow Plane instead of the location of the entrance. If this occurs, the creatures appear on the Shadow Plane 1d10 miles in a random direction from their corresponding location on the Material Plane. The spell has no effect if cast on a plane that is not adjacent to the Shadow Plane.
 
-Because the extradimensional space is adjacent to the Shadow Plane, any _ [shadow walk](/pathfinderRPG/prd/spells/shadowWalk.html#_shadow-walk)_ spell or similar effect that allows travel to the Shadow Plane is more accurate, reducing the distance creatures arrive off-target by half.
+Because the extradimensional space is adjacent to the Shadow Plane, any _ [shadow walk](spells/shadowWalk.md#_shadow-walk)_ spell or similar effect that allows travel to the Shadow Plane is more accurate, reducing the distance creatures arrive off-target by half.
 

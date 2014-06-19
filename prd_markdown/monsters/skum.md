@@ -6,9 +6,9 @@ _This hunchbacked, green-skinned humanoid has a wide, frog-like head but a mouth
 
 **XP 600**
 
-LE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid) ( [aquatic](creatureTypes.html#_aquatic-subtype))
+LE Medium [monstrous humanoid](creatureTypes.md#_monstrous-humanoid) ( [aquatic](creatureTypes.md#_aquatic-subtype))
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +5
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +5
 
 **Defense**
 
@@ -34,13 +34,13 @@ LE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid) ( [aquati
 
 **Base Atk** +2; **CMB** +4; **CMD** 15
 
-**Feats** [Multiattack](monsterFeats.html#_multiattack)B, [Toughness](../feats.html#_toughness)
+**Feats** [Multiattack](monsterFeats.md#_multiattack)B, [Toughness](../feats.md#_toughness)
 
-**Skills** [Intimidate](../skills/intimidate.html#_intimidate) +3, [Perception](../skills/perception.html#_perception) +5 (+9 underwater), [Stealth](../skills/stealth.html#_stealth) +6 (+10 underwater), [Swim](../skills/swim.html#_swim) +15; **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception) and [Stealth](../skills/stealth.html#_stealth) underwater
+**Skills** [Intimidate](../skills/intimidate.md#_intimidate) +3, [Perception](../skills/perception.md#_perception) +5 (+9 underwater), [Stealth](../skills/stealth.md#_stealth) +6 (+10 underwater), [Swim](../skills/swim.md#_swim) +15; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception) and [Stealth](../skills/stealth.md#_stealth) underwater
 
 **Languages** Aboleth, Undercommon
 
-**SQ** [amphibious](universalMonsterRules.html#_amphibious)
+**SQ** [amphibious](universalMonsterRules.md#_amphibious)
 
 **Ecology**
 
@@ -52,7 +52,7 @@ LE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid) ( [aquati
 
 Skum are the most prolific and successful of the countless races created by the aboleths to serve as slaves. At the height of the aboleth empire, skum were legion and their armies waged many wars upon the land, yet now that the aboleths are in decline, skum have been set loose to manage on their own.
 
-For the most part, the skum have been less than successful at this endeavor, and today they exist in a shadow of their previous multitude, most of them dwelling deep underground in slowly crumbling ruins left standing only because their enemies have lost interest in pursuing the now-won war against these fish-like humanoids. Skum have even lost their own name—only the most erudite and wise of their kind remember that they were once known as the ulat-kini. Today, most identify themselves with the racial epithet applied to them by surface-dwellers—âskum.â
+For the most part, the skum have been less than successful at this endeavor, and today they exist in a shadow of their previous multitude, most of them dwelling deep underground in slowly crumbling ruins left standing only because their enemies have lost interest in pursuing the now-won war against these fish-like humanoids. Skum have even lost their own name—only the most erudite and wise of their kind remember that they were once known as the ulat-kini. Today, most identify themselves with the racial epithet applied to them by surface-dwellers—“skum.”
 
-Skum do not age, and barring death by violence or disease, they can live forever. Unfortunately, this near immortality is crippled by the fact that skum are incapable of reproducing among themselves, for all skum are male. The aboleths did not want their slave race to prosper without their permission. Yet terribly, this does not mean that skum cannot breed. Originally created from human stock, skum can impregnate humans, and the children issued from such unholy unions are invariably deformed. Those who are not born skum undergo gradual transformations throughout their lives, and when they would normally die of old age, such hybrids instead go through âthe change,â shedding their wrinkled flesh and transforming into one of the ulat-kini. While most skum tribes lack the drive to perpetuate their race and would prefer to languish in their hideous sunken ruins, tribes settling offshore of remotely populated coastlines seem to be on the rise. Some such communities raid villages for breeding stock, but a few more insidious tribes form alliances with these desperate folk, providing protection and bounty from the sea in return for wives.
+Skum do not age, and barring death by violence or disease, they can live forever. Unfortunately, this near immortality is crippled by the fact that skum are incapable of reproducing among themselves, for all skum are male. The aboleths did not want their slave race to prosper without their permission. Yet terribly, this does not mean that skum cannot breed. Originally created from human stock, skum can impregnate humans, and the children issued from such unholy unions are invariably deformed. Those who are not born skum undergo gradual transformations throughout their lives, and when they would normally die of old age, such hybrids instead go through “the change,” shedding their wrinkled flesh and transforming into one of the ulat-kini. While most skum tribes lack the drive to perpetuate their race and would prefer to languish in their hideous sunken ruins, tribes settling offshore of remotely populated coastlines seem to be on the rise. Some such communities raid villages for breeding stock, but a few more insidious tribes form alliances with these desperate folk, providing protection and bounty from the sea in return for wives.
 

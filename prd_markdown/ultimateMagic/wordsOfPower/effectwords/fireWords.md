@@ -4,7 +4,7 @@ Spells using fire words burn with a hungry flame that consumes all it encounters
 
 Flame Jet (Fire)
 
-**School** evocation [[fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)]; **Level** druid 0, magus 0, sorcerer/wizard 0
+**School** evocation [[fire](monsters/creatureTypes.md#_fire-subtype)]; **Level** druid 0, magus 0, sorcerer/wizard 0
 
 **Duration** instantaneous
 
@@ -14,7 +14,7 @@ This effect word deals 1d4 points of fire damage. If the wordspell with this eff
 
 Burning Flash (Fire)
 
-**School** evocation [[fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)]; **Level** druid 2, inquisitor 2, magus 1, sorcerer/wizard 1, witch 1
+**School** evocation [[fire](monsters/creatureTypes.md#_fire-subtype)]; **Level** druid 2, inquisitor 2, magus 1, sorcerer/wizard 1, witch 1
 
 **Duration** instantaneous
 
@@ -26,7 +26,7 @@ This effect word deals 1d4 points of fire damage per caster level (maximum 5d4).
 
 Fire Blast (Fire)
 
-**School** evocation [[fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)]; **Level** magus 3, sorcerer/wizard 3
+**School** evocation [[fire](monsters/creatureTypes.md#_fire-subtype)]; **Level** magus 3, sorcerer/wizard 3
 
 **Duration** instantaneous
 
@@ -36,7 +36,7 @@ This effect word deals 1d6 points of fire damage per caster level (maximum 10d6)
 
 Cinder Storm (Fire)
 
-**School** evocation [[fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)]; **Level** cleric 5, druid 5, inquisitor 5, magus 5, sorcerer/wizard 5, summoner 5
+**School** evocation [[fire](monsters/creatureTypes.md#_fire-subtype)]; **Level** cleric 5, druid 5, inquisitor 5, magus 5, sorcerer/wizard 5, summoner 5
 
 **Duration** instantaneous
 
@@ -46,7 +46,7 @@ This effect word deals 1d6 points of fire damage per caster level (maximum 15d6)
 
 Inferno (Fire)
 
-**School** evocation [[fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)]; **Level** druid 8, sorcerer/wizard 8
+**School** evocation [[fire](monsters/creatureTypes.md#_fire-subtype)]; **Level** druid 8, sorcerer/wizard 8
 
 **Duration** instantaneous
 
@@ -56,7 +56,7 @@ This effect word deals 1d8 points of fire damage per caster level (maximum 20d8)
 
 True Fire (Fire)
 
-**School** evocation [[fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)]; **Level** druid 9, sorcerer/wizard 9
+**School** evocation [[fire](monsters/creatureTypes.md#_fire-subtype)]; **Level** druid 9, sorcerer/wizard 9
 
 **Duration** instantaneous
 

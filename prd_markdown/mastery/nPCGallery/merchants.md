@@ -10,7 +10,7 @@ Human expert 3
 
 N Medium humanoid
 
-**Init** +0; **Senses** [Perception](../../skills/perception.html#_perception) +8
+**Init** +0; **Senses** [Perception](../../skills/perception.md#_perception) +8
 
 **Defense**
 
@@ -34,9 +34,9 @@ N Medium humanoid
 
 **Base Atk** +2; **CMB** +1; **CMD** 11
 
-**Feats** [Alertness](../../feats.html#_alertness), [Deceitful](../../feats.html#_deceitful), [Skill Focus](../../feats.html#_skill-focus) ( [Profession](../../skills/profession.html#_profession) [merchant])
+**Feats** [Alertness](../../feats.md#_alertness), [Deceitful](../../feats.md#_deceitful), [Skill Focus](../../feats.md#_skill-focus) ( [Profession](../../skills/profession.md#_profession) [merchant])
 
-**Skills** [Appraise](../../skills/appraise.html#_appraise) +6, [Bluff](../../skills/bluff.html#_bluff) +9, [Diplomacy](../../skills/diplomacy.html#_diplomacy) +7, [Disguise](../../skills/disguise.html#_disguise) +6, [Knowledge](../../skills/knowledge.html#_knowledge) (local) +6, [Linguistics](../../skills/linguistics.html#_linguistics) +6, [Perception](../../skills/perception.html#_perception) +8, [Profession](../../skills/profession.html#_profession) (merchant) +10, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +9
+**Skills** [Appraise](../../skills/appraise.md#_appraise) +6, [Bluff](../../skills/bluff.md#_bluff) +9, [Diplomacy](../../skills/diplomacy.md#_diplomacy) +7, [Disguise](../../skills/disguise.md#_disguise) +6, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +6, [Linguistics](../../skills/linguistics.md#_linguistics) +6, [Perception](../../skills/perception.md#_perception) +8, [Profession](../../skills/profession.md#_profession) (merchant) +10, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +9
 
 **Languages** Common, Dwarven, Gnome, Halfling
 
@@ -46,7 +46,7 @@ N Medium humanoid
 
 Shopkeeps operate a city's trade emporiums, a town's shops, a village's general store, and the frontier's isolated trading posts. Whether a canny traveling peddler, a wheeling and dealing bazaar stallholder, or a respected businessman with a position on the town council, shopkeeps are found across the world, forming the backbone of a settlement's economy as they keep the river of trade flowing freely through its gates.
 
-Shopkeeps can be used to represent a variety of minor occupations in villages, towns, and cities. Changing the focus of a shopkeep's [Profession](../../skills/profession.html#_profession) skill can create a wide variety of characters, from bakers to fishermen to millers. Replacing a shopkeep's [Profession](../../skills/profession.html#_profession) skill with a [Craft](../../skills/craft.html#_craft) skill creates a craftsman rather than a salesman, whether it be an alchemist, weaver, or smith. Exchanging [Profession](../../skills/profession.html#_profession) for a [Knowledge](../../skills/knowledge.html#_knowledge) skill or two makes a sage or scholar. In this case, the trade goods listed in the stat block above can represent books, maps, or scrolls.
+Shopkeeps can be used to represent a variety of minor occupations in villages, towns, and cities. Changing the focus of a shopkeep's [Profession](../../skills/profession.md#_profession) skill can create a wide variety of characters, from bakers to fishermen to millers. Replacing a shopkeep's [Profession](../../skills/profession.md#_profession) skill with a [Craft](../../skills/craft.md#_craft) skill creates a craftsman rather than a salesman, whether it be an alchemist, weaver, or smith. Exchanging [Profession](../../skills/profession.md#_profession) for a [Knowledge](../../skills/knowledge.md#_knowledge) skill or two makes a sage or scholar. In this case, the trade goods listed in the stat block above can represent books, maps, or scrolls.
 
 Shopkeeps are not skilled in combat, but could be used to represent a citizens' militia mobilized in times of war. In this case, adding padded or leather armor, and perhaps replacing the dagger with a club or spear, or even a crossbow, can make them into more effective combatants.
 
@@ -60,7 +60,7 @@ Human expert 7
 
 N Medium humanoid
 
-**Init** –1; **Senses** [Perception](../../skills/perception.html#_perception) +12
+**Init** –1; **Senses** [Perception](../../skills/perception.md#_perception) +12
 
 **Defense**
 
@@ -84,13 +84,13 @@ N Medium humanoid
 
 **Base Atk** +5; **CMB** +4; **CMD** 13
 
-**Feats** [Alertness](../../feats.html#_alertness), [Combat Expertise](../../feats.html#_combat-expertise), [Deceitful](../../feats.html#_deceitful), [Persuasive](../../feats.html#_persuasive), [Skill Focus](../../feats.html#_skill-focus) ( [Profession](../../skills/profession.html#_profession) [merchant])
+**Feats** [Alertness](../../feats.md#_alertness), [Combat Expertise](../../feats.md#_combat-expertise), [Deceitful](../../feats.md#_deceitful), [Persuasive](../../feats.md#_persuasive), [Skill Focus](../../feats.md#_skill-focus) ( [Profession](../../skills/profession.md#_profession) [merchant])
 
-**Skills** [Appraise](../../skills/appraise.html#_appraise) +12, [Bluff](../../skills/bluff.html#_bluff) +14, [Diplomacy](../../skills/diplomacy.html#_diplomacy) +12, [Disguise](../../skills/disguise.html#_disguise) +6, [Handle Animal](../../skills/handleAnimal.html#_handle-animal) +10, [Intimidate](../../skills/intimidate.html#_intimidate) +4, [Knowledge](../../skills/knowledge.html#_knowledge) (geography) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (local) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (nobility) +3, [Linguistics](../../skills/linguistics.html#_linguistics) +12, [Perception](../../skills/perception.html#_perception) +12, [Profession](../../skills/profession.html#_profession) (merchant) +13, [Ride](../../skills/ride.html#_ride) +6, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +12
+**Skills** [Appraise](../../skills/appraise.md#_appraise) +12, [Bluff](../../skills/bluff.md#_bluff) +14, [Diplomacy](../../skills/diplomacy.md#_diplomacy) +12, [Disguise](../../skills/disguise.md#_disguise) +6, [Handle Animal](../../skills/handleAnimal.md#_handle-animal) +10, [Intimidate](../../skills/intimidate.md#_intimidate) +4, [Knowledge](../../skills/knowledge.md#_knowledge) (geography) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (nobility) +3, [Linguistics](../../skills/linguistics.md#_linguistics) +12, [Perception](../../skills/perception.md#_perception) +12, [Profession](../../skills/profession.md#_profession) (merchant) +13, [Ride](../../skills/ride.md#_ride) +6, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +12
 
 **Languages** Common, Draconic, Dwarven, Elven, Giant, Gnome, Goblin, Halfling, Orc, Sylvan
 
-**Gear** padded armor, dagger, masterwork light crossbow with 10 bolts, _ [bag of holding](../../magicItems/wondrousItems.html#_bag-of-holding) type I_, _ [ring of sustenance](../../magicItems/rings.html#_ring-of-sustenance)_, disguise kit, light horse, 302 gp of trade goods
+**Gear** padded armor, dagger, masterwork light crossbow with 10 bolts, _ [bag of holding](../../magicItems/wondrousItems.md#_bag-of-holding) type I_, _ [ring of sustenance](../../magicItems/rings.md#_ring-of-sustenance)_, disguise kit, light horse, 302 gp of trade goods
 
 **Boon** A traveling merchant can enable PCs to make a purchase or sale of items as if the community was one size larger than normal or allow them to accompany a caravan as guards or guests.
 
@@ -108,7 +108,7 @@ Human expert 4/rogue 6
 
 N Medium humanoid
 
-**Init** +3; **Senses** [Perception](../../skills/perception.html#_perception) +17
+**Init** +3; **Senses** [Perception](../../skills/perception.md#_perception) +17
 
 **Defense**
 
@@ -130,7 +130,7 @@ N Medium humanoid
 
 **Special Attacks** sneak attack +3d6
 
-**Spell-like Abilities** (CL 6th, concentration +8); 3/day—_ [detect magic](../../spells/detectMagic.html#_detect-magic)_; 2/day—_ [charm person](../../spells/charmPerson.html#_charm-person) _(DC 13)
+**Spell-like Abilities** (CL 6th, concentration +8); 3/day—_ [detect magic](../../spells/detectMagic.md#_detect-magic)_; 2/day—_ [charm person](../../spells/charmPerson.md#_charm-person) _(DC 13)
 
 **Statistics**
 
@@ -138,15 +138,15 @@ N Medium humanoid
 
 **Base Atk** +7; **CMB** +6; **CMD** 19
 
-**Feats** [Alertness](../../feats.html#_alertness), [Craft Wondrous Item](../../feats.html#_craft-wondrous-item), [Magical Aptitude](../../feats.html#_magical-aptitude), [Master Craftsman](../../feats.html#_master-craftsman), [Skill Focus](../../feats.html#_skill-focus) ( [Profession](../../skills/profession.html#_profession) [merchant]), [Weapon Finesse](../../feats.html#_weapon-finesse)
+**Feats** [Alertness](../../feats.md#_alertness), [Craft Wondrous Item](../../feats.md#_craft-wondrous-item), [Magical Aptitude](../../feats.md#_magical-aptitude), [Master Craftsman](../../feats.md#_master-craftsman), [Skill Focus](../../feats.md#_skill-focus) ( [Profession](../../skills/profession.md#_profession) [merchant]), [Weapon Finesse](../../feats.md#_weapon-finesse)
 
-**Skills** [Appraise](../../skills/appraise.html#_appraise) +17, [Bluff](../../skills/bluff.html#_bluff) +17, [Diplomacy](../../skills/diplomacy.html#_diplomacy) +17, [Disable Device](../../skills/disableDevice.html#_disable-device) +12, [Disguise](../../skills/disguise.html#_disguise) +15, [Handle Animal](../../skills/handleAnimal.html#_handle-animal) +10, [Intimidate](../../skills/intimidate.html#_intimidate) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (local) +10, [Linguistics](../../skills/linguistics.html#_linguistics) +8, [Perception](../../skills/perception.html#_perception) +17 (+20 to find traps), [Perform](../../skills/perform.html#_perform) (act) +10, [Perform](../../skills/perform.html#_perform) (dance) +10, [Perform](../../skills/perform.html#_perform) (oratory) +10, [Profession](../../skills/profession.html#_profession) (merchant) +21, [Ride](../../skills/ride.html#_ride) +10, [Sense Motive](../../skills/senseMotive.html#_sense-motive) +16, [Sleight of Hand](../../skills/sleightOfHand.html#_sleight-of-hand) +10, [Spellcraft](../../skills/spellcraft.html#_spellcraft) +19, [Stealth](../../skills/stealth.html#_stealth) +10, [Use Magic Device](../../skills/useMagicDevice.html#_use-magic-device) +23
+**Skills** [Appraise](../../skills/appraise.md#_appraise) +17, [Bluff](../../skills/bluff.md#_bluff) +17, [Diplomacy](../../skills/diplomacy.md#_diplomacy) +17, [Disable Device](../../skills/disableDevice.md#_disable-device) +12, [Disguise](../../skills/disguise.md#_disguise) +15, [Handle Animal](../../skills/handleAnimal.md#_handle-animal) +10, [Intimidate](../../skills/intimidate.md#_intimidate) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +10, [Linguistics](../../skills/linguistics.md#_linguistics) +8, [Perception](../../skills/perception.md#_perception) +17 (+20 to find traps), [Perform](../../skills/perform.md#_perform) (act) +10, [Perform](../../skills/perform.md#_perform) (dance) +10, [Perform](../../skills/perform.md#_perform) (oratory) +10, [Profession](../../skills/profession.md#_profession) (merchant) +21, [Ride](../../skills/ride.md#_ride) +10, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +16, [Sleight of Hand](../../skills/sleightOfHand.md#_sleight-of-hand) +10, [Spellcraft](../../skills/spellcraft.md#_spellcraft) +19, [Stealth](../../skills/stealth.md#_stealth) +10, [Use Magic Device](../../skills/useMagicDevice.md#_use-magic-device) +23
 
 **Languages** Common, Dwarven, Gnome, Halfling
 
 **SQ** rogue talent (major magic, minor magic, resiliency), trapfinding +3
 
-**Combat Gear** _wand of [identify](../../spells/identify.html#_identify)_ (50 charges), _wand of [ray of enfeeblement](../../spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (50 charges), _wand of [shocking grasp](../../spells/shockingGrasp.html#_shocking-grasp)_ (CL 3rd, 50 charges); **Other Gear** _+1 chain shirt_, _+1 hand crossbow_ with 10 bolts, dagger, _ [circlet of persuasion](../../magicItems/wondrousItems.html#_circlet-of-persuasion)_, _ [cloak of resistance](../../magicItems/wondrousItems.html#_cloak-of-resistance) +2_, _ [handy haversack](../../magicItems/wondrousItems.html#_handy-haversack)_, _ [hat of disguise](../../magicItems/wondrousItems.html#_hat-of-disguise)_, disguise kit, magnifying glass, masterwork thieves' tools
+**Combat Gear** _wand of [identify](../../spells/identify.md#_identify)_ (50 charges), _wand of [ray of enfeeblement](../../spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (50 charges), _wand of [shocking grasp](../../spells/shockingGrasp.md#_shocking-grasp)_ (CL 3rd, 50 charges); **Other Gear** _+1 chain shirt_, _+1 hand crossbow_ with 10 bolts, dagger, _ [circlet of persuasion](../../magicItems/wondrousItems.md#_circlet-of-persuasion)_, _ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +2_, _ [handy haversack](../../magicItems/wondrousItems.md#_handy-haversack)_, _ [hat of disguise](../../magicItems/wondrousItems.md#_hat-of-disguise)_, disguise kit, magnifying glass, masterwork thieves' tools
 
 **Boon** A merchant prince can arrange the purchase or sale of an item as if the local community were two categories larger than normal. A merchant prince can also sell any item under the community's base value at a 10% discount.
 

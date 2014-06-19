@@ -6,15 +6,15 @@ _Wickedly barbed chains adorn this lean figure, and gaps in the bindings reveal 
 
 **XP 2,400**
 
-LE Medium [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_evil-subtype), [extraplanar](creatureTypes.html#_extraplanar-subtype), kyton, [lawful](creatureTypes.html#_lawful-subtype))
+LE Medium [outsider](creatureTypes.md#_outsider) ( [evil](creatureTypes.md#_evil-subtype), [extraplanar](creatureTypes.md#_extraplanar-subtype), kyton, [lawful](creatureTypes.md#_lawful-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +14
+**Init** +7; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +14
 
 **Defense**
 
 **AC** 21, touch 13, flat-footed 18 (+4 armor, +3 Dex, +4 natural)
 
-**hp** 60 (8d10+16); [regeneration](universalMonsterRules.html#_regeneration) 2 (good weapons and spells, silver weapons)
+**hp** 60 (8d10+16); [regeneration](universalMonsterRules.md#_regeneration) 2 (good weapons and spells, silver weapons)
 
 **Fort** +8, **Ref** +9, **Will** +3
 
@@ -36,9 +36,9 @@ LE Medium [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_
 
 **Base Atk** +8; **CMB** +10; **CMD** 23
 
-**Feats** [Alertness](../feats.html#_alertness), [Blind-Fight](../feats.html#_blind-fight), [Improved Initiative](../feats.html#_improved-initiative), [Weapon Focus](../feats.html#_weapon-focus) (chain)
+**Feats** [Alertness](../feats.md#_alertness), [Blind-Fight](../feats.md#_blind-fight), [Improved Initiative](../feats.md#_improved-initiative), [Weapon Focus](../feats.md#_weapon-focus) (chain)
 
-**Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +14, [Climb](../skills/climb.html#_climb) +13, [Craft](../skills/craft.html#_craft) (blacksmithing) +11, [Escape Artist](../skills/escapeArtist.html#_escape-artist) +14, [Intimidate](../skills/intimidate.html#_intimidate) +12, [Perception](../skills/perception.html#_perception) +14
+**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +14, [Climb](../skills/climb.md#_climb) +13, [Craft](../skills/craft.md#_craft) (blacksmithing) +11, [Escape Artist](../skills/escapeArtist.md#_escape-artist) +14, [Intimidate](../skills/intimidate.md#_intimidate) +12, [Perception](../skills/perception.md#_perception) +14
 
 **Languages** Common, Infernal
 
@@ -56,7 +56,7 @@ LE Medium [outsider](creatureTypes.html#_outsider) ( [evil](creatureTypes.html#_
 
 **Chain Armor (Ex)** The chains that adorn a kyton grant it a +4 armor bonus, but are not treated as armor for the purpose of arcane spell failure, armor check penalties, maximum Dexterity, weight, or proficiency.
 
-**Dancing Chains (Su)** A kyton can control up to four chains within 20 feet as a standard action, making the chains dance or move as it wishes. In addition, a kyton can increase these chains' length by up to 15 feet and cause them to sprout razor-edged barbs. These chains attack as effectively as the kyton itself. If a chain is in another creature's possession, the creature can attempt a DC 15 Will save to break the kyton's power over that chain. If the save is successful, the kyton cannot attempt to control that particular chain again for 24 hours or until the chain leaves the creature's possession. A kyton can climb chains it controls at its normal speed without making [Climb](../skills/climb.html#_climb) checks. The save DC is Charisma-based.
+**Dancing Chains (Su)** A kyton can control up to four chains within 20 feet as a standard action, making the chains dance or move as it wishes. In addition, a kyton can increase these chains' length by up to 15 feet and cause them to sprout razor-edged barbs. These chains attack as effectively as the kyton itself. If a chain is in another creature's possession, the creature can attempt a DC 15 Will save to break the kyton's power over that chain. If the save is successful, the kyton cannot attempt to control that particular chain again for 24 hours or until the chain leaves the creature's possession. A kyton can climb chains it controls at its normal speed without making [Climb](../skills/climb.md#_climb) checks. The save DC is Charisma-based.
 
 **Unnerving Gaze (Su)** Range 30 ft., Will DC 15 negates. A kyton can make its face resemble one of an opponent's departed loved ones or bitter enemies. Those who fail their saves become shaken for 1d3 rounds. This is a mind-affecting fear effect. The save DC is Charisma-based.
 

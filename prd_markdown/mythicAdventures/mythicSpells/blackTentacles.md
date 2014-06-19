@@ -1,6 +1,6 @@
 Black Tentacles
 
-**Source** [_black tentacles_](/pathfinderRPG/prd/spells/blackTentacles.html#_black-tentacles)
+**Source** [_black tentacles_](spells/blackTentacles.md#_black-tentacles)
 
 Add your tier to the base attack bonus of the tentacles. The tentacles also deal an additional 2d6 points of acid damage with a successful grapple.
 

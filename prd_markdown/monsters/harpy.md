@@ -6,9 +6,9 @@ _Save for the tattered wings and taloned feet, this creature resembles a feral w
 
 **XP 1,200**
 
-CE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid)
+CE Medium [monstrous humanoid](creatureTypes.md#_monstrous-humanoid)
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +7
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +7
 
 **Defense**
 
@@ -32,9 +32,9 @@ CE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid)
 
 **Base**  **Atk** +7; **CMB** +8; **CMD** 21
 
-**Feats** [Dodge](../feats.html#_dodge), [Flyby Attack](monsterFeats.html#_flyby-attack), [Great Fortitude](../feats.html#_great-fortitude), [Skill Focus](../feats.html#_skill-focus) ( [Bluff](../skills/bluff.html#_bluff))
+**Feats** [Dodge](../feats.md#_dodge), [Flyby Attack](monsterFeats.md#_flyby-attack), [Great Fortitude](../feats.md#_great-fortitude), [Skill Focus](../feats.md#_skill-focus) ( [Bluff](../skills/bluff.md#_bluff))
 
-**Skills** [Bluff](../skills/bluff.html#_bluff) +7, [Fly](../skills/fly.html#_fly) +12, [Intimidate](../skills/intimidate.html#_intimidate) +7, [Perception](../skills/perception.html#_perception) +7, [Perform](../skills/perform.html#_perform) (song) +5
+**Skills** [Bluff](../skills/bluff.md#_bluff) +7, [Fly](../skills/fly.md#_fly) +12, [Intimidate](../skills/intimidate.md#_intimidate) +7, [Perception](../skills/perception.md#_perception) +7, [Perform](../skills/perform.md#_perform) (song) +5
 
 **Languages** Common
 

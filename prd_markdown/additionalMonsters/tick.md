@@ -6,9 +6,9 @@ Giant TickCR 1
 
 **XP 400**
 
-N Small [vermin](/pathfinderRPG/prd/monsters/creatureTypes.html#_vermin)
+N Small [vermin](monsters/creatureTypes.md#_vermin)
 
-**Init** +0; **Senses** darkvision 60 ft., [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +0
+**Init** +0; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +0
 
 Defense
 
@@ -24,9 +24,9 @@ Offense
 
 **Speed** 20 ft., climb 20 ft.
 
-**Melee** bite +2 (1d4 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab), [attach](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_attach), and [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)))
+**Melee** bite +2 (1d4 plus [grab](monsters/universalMonsterRules.md#_grab), [attach](monsters/universalMonsterRules.md#_attach), and [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)))
 
-**Special Attacks** [blood drain](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blood-drain) (1 Constitution)
+**Special Attacks** [blood drain](monsters/universalMonsterRules.md#_blood-drain) (1 Constitution)
 
 Statistics
 
@@ -34,7 +34,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +0 (+8 grapple); **CMD** 10 (22 vs. trip)
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +8, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +8; **Racial Modifiers** +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +8, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +8; **Racial Modifiers** +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
 
 Ecology
 
@@ -46,9 +46,9 @@ Ecology
 
 Special Abilities
 
-**[Grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab) (Ex)** A giant tick can [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab) targets of any size, and has a +8 racial bonus on grapple checks rather than the normal +4 bonus most creatures with [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab) possess.
+**[Grab](monsters/universalMonsterRules.md#_grab) (Ex)** A giant tick can [grab](monsters/universalMonsterRules.md#_grab) targets of any size, and has a +8 racial bonus on grapple checks rather than the normal +4 bonus most creatures with [grab](monsters/universalMonsterRules.md#_grab) possess.
 
-**[Disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)) (Ex)** _Red ache_: Bite—injury; _save_ Fort DC 13; _onset_ 1d3 days; _frequency_ 1/day; _effect_ 1d6 Str damage; cure 2 consecutive saves. The DC is Constitution-based.
+**[Disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) (Ex)** _Red ache_: Bite—injury; _save_ Fort DC 13; _onset_ 1d3 days; _frequency_ 1/day; _effect_ 1d6 Str damage; cure 2 consecutive saves. The DC is Constitution-based.
 
 In areas where large creatures like megafauna or dinosaurs dwell, the giant tick behaves much like its smaller kin—it lies in wait in the undergrowth, and when a suitable host passes by, it drops onto the body to feed. In other areas, these vermin are much more aggressive, and actively hunt smaller prey like dogs, livestock, or even humanoids. A giant tick drains blood quickly, but once it has caused 6 points of Constitution damage, it drops off, sated, to crawl away to digest. A giant tick is 3 feet long and weighs 50 pounds.
 
@@ -60,9 +60,9 @@ Tick SwarmCR 9
 
 **XP 6,400**
 
-N Fine [vermin](/pathfinderRPG/prd/monsters/creatureTypes.html#_vermin) ( [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype))
+N Fine [vermin](monsters/creatureTypes.md#_vermin) ( [swarm](monsters/creatureTypes.md#_swarm-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft., [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +0
+**Init** +2; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +0
 
 Defense
 
@@ -72,7 +72,7 @@ Defense
 
 **Fort** +13, **Ref** +7, **Will** +5
 
-**Defensive Abilities** [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) traits
+**Defensive Abilities** [swarm](monsters/creatureTypes.md#_swarm-subtype) traits
 
 **Immune** mind-affecting effects, weapon damage
 
@@ -80,9 +80,9 @@ Offense
 
 **Speed** 30 ft., climb 30 ft.
 
-**Melee** [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) (4d6 plus [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), [distraction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_distraction), and [blood drain](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blood-drain))
+**Melee** [swarm](monsters/creatureTypes.md#_swarm-subtype) (4d6 plus [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), [distraction](monsters/universalMonsterRules.md#_distraction), and [blood drain](monsters/universalMonsterRules.md#_blood-drain))
 
-**Special Attacks** [blood drain](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blood-drain) (1d4 Con), cling, [distraction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_distraction) (DC 21)
+**Special Attacks** [blood drain](monsters/universalMonsterRules.md#_blood-drain) (1d4 Con), cling, [distraction](monsters/universalMonsterRules.md#_distraction) (DC 21)
 
 Statistics
 
@@ -90,7 +90,7 @@ Statistics
 
 **Base Atk** +12; **CMB** ­—; **CMD** —
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +10; **Racial Modifiers** uses Dex on [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) checks
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +10; **Racial Modifiers** uses Dex on [Climb](additionalMonsters/../skills/climb.md#_climb) checks
 
 Ecology
 
@@ -102,9 +102,9 @@ Ecology
 
 Special Abilities
 
-**Cling (Ex)** If a creature leaves a tick [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype)'s square, the [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) takes 1d6 points of damage to reflect the loss of its numbers as several ticks cling to the victim. A creature with ticks clinging to it takes [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) damage at the end of its turn each round. As a full round action, the creature can remove the ticks with a DC 20 Reflex save. At least 10 points of damage from any area effect destroys all clinging ticks. The save DC is Dexterity-based.
+**Cling (Ex)** If a creature leaves a tick [swarm](monsters/creatureTypes.md#_swarm-subtype)'s square, the [swarm](monsters/creatureTypes.md#_swarm-subtype) takes 1d6 points of damage to reflect the loss of its numbers as several ticks cling to the victim. A creature with ticks clinging to it takes [swarm](monsters/creatureTypes.md#_swarm-subtype) damage at the end of its turn each round. As a full round action, the creature can remove the ticks with a DC 20 Reflex save. At least 10 points of damage from any area effect destroys all clinging ticks. The save DC is Dexterity-based.
 
-**[Disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)) (Ex)** _Bubonic Plague_: Bite—injury; _save_ Fort DC 21; _onset_ 1 day; _frequency_ 1/day; _effect_ 1d4 Con damage, 1 Cha damage, fatigue; _cure_ 2 consecutive saves. The DC is Con-based.
+**[Disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) (Ex)** _Bubonic Plague_: Bite—injury; _save_ Fort DC 21; _onset_ 1 day; _frequency_ 1/day; _effect_ 1d4 Con damage, 1 Cha damage, fatigue; _cure_ 2 consecutive saves. The DC is Con-based.
 
 Tick swarms are merciless blights, able to quickly reduce the larger animal life of a region they infest to blood-drained, diseased husks.
 

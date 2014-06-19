@@ -18,19 +18,19 @@ _Format_: amorphous; _Location_: Defensive Abilities.
 
 _Format_: amphibious; _Location_: SQ.
 
-**Attach (Ex)** The creature automatically latches onto its target when it successfully makes the listed attack. The creature is considered grappling, but the target is not. The target can attack or grapple the creature as normal, or break the attach with a successful grapple or [Escape Artist](../skills/escapeArtist.html#_escape-artist) check. Most creatures with this ability have a racial bonus to maintain a grapple (listed in its CMB entry).
+**Attach (Ex)** The creature automatically latches onto its target when it successfully makes the listed attack. The creature is considered grappling, but the target is not. The target can attack or grapple the creature as normal, or break the attach with a successful grapple or [Escape Artist](../skills/escapeArtist.md#_escape-artist) check. Most creatures with this ability have a racial bonus to maintain a grapple (listed in its CMB entry).
 
 _Format_: attach; _Location_: individual attacks.
 
-**Bleed (Ex)** A creature with this ability causes wounds that continue to bleed, inflicting additional damage each round at the start of the affected creature's turn. This bleeding can be stopped by a successful DC 15 [Heal](../skills/heal.html#_heal) skill check or through the application of any magical healing. The amount of damage each round is determined in the creature's entry.
+**Bleed (Ex)** A creature with this ability causes wounds that continue to bleed, inflicting additional damage each round at the start of the affected creature's turn. This bleeding can be stopped by a successful DC 15 [Heal](../skills/heal.md#_heal) skill check or through the application of any magical healing. The amount of damage each round is determined in the creature's entry.
 
 _Format_: bleed (2d6); _Location_: Special Attacks and individual attacks.
 
-**Blindsense (Ex)** Using nonvisual senses, such as acute smell or hearing, a creature with blindsense notices things it cannot see. The creature usually does not need to make [Perception](../skills/perception.html#_perception) checks to pinpoint the location of a creature within range of its blindsense ability, provided that it has line of effect to that creature. Any opponent the creature cannot see still has total concealment against the creature with blindsense, and the creature still has the normal miss chance when attacking foes that have concealment. Visibility still affects the movement of a creature with blindsense. A creature with blindsense is still denied its Dexterity bonus to Armor Class against attacks from creatures it cannot see.
+**Blindsense (Ex)** Using nonvisual senses, such as acute smell or hearing, a creature with blindsense notices things it cannot see. The creature usually does not need to make [Perception](../skills/perception.md#_perception) checks to pinpoint the location of a creature within range of its blindsense ability, provided that it has line of effect to that creature. Any opponent the creature cannot see still has total concealment against the creature with blindsense, and the creature still has the normal miss chance when attacking foes that have concealment. Visibility still affects the movement of a creature with blindsense. A creature with blindsense is still denied its Dexterity bonus to Armor Class against attacks from creatures it cannot see.
 
 _Format_: blindsense 60 ft.; _Location_: Senses.
 
-**Blindsight (Ex)** This ability is similar to blindsense, but is far more discerning. Using nonvisual senses, such as sensitivity to vibrations, keen smell, acute hearing, or echolocation, a creature with blindsight maneuvers and fights as well as a sighted creature. Invisibility, darkness, and most kinds of concealment are irrelevant, though the creature must have line of effect to a creature or object to discern that creature or object. The ability's range is specified in the creature's descriptive text. The creature usually does not need to make [Perception](../skills/perception.html#_perception) checks to notice creatures within range of its blindsight ability. Unless noted otherwise, blindsight is continuous, and the creature need do nothing to use it. Some forms of blindsight, however, must be triggered as a free action. If so, this is noted in the creature's description. If a creature must trigger its blindsight ability, the creature gains the benefits of blindsight only during its turn.
+**Blindsight (Ex)** This ability is similar to blindsense, but is far more discerning. Using nonvisual senses, such as sensitivity to vibrations, keen smell, acute hearing, or echolocation, a creature with blindsight maneuvers and fights as well as a sighted creature. Invisibility, darkness, and most kinds of concealment are irrelevant, though the creature must have line of effect to a creature or object to discern that creature or object. The ability's range is specified in the creature's descriptive text. The creature usually does not need to make [Perception](../skills/perception.md#_perception) checks to notice creatures within range of its blindsight ability. Unless noted otherwise, blindsight is continuous, and the creature need do nothing to use it. Some forms of blindsight, however, must be triggered as a free action. If so, this is noted in the creature's description. If a creature must trigger its blindsight ability, the creature gains the benefits of blindsight only during its turn.
 
 _Format_: blindsight 60 ft.; _Location_: Senses.
 
@@ -46,19 +46,19 @@ _Format_: blood rage; _Location_: Special Attacks.
 
 _Format_: breath weapon (60-ft. cone, 8d6 fire damage, Reflex DC 20 for half, usable every 1d4 rounds); _Location_: Special Attacks; if the breath is more complicated than damage, it also appears under Special Abilities with its own entry.
 
-**Burn (Ex)** A creature with the burn special attack deals fire damage in addition to damage dealt on a successful hit in melee. Those affected by the burn ability must also succeed on a Reflex save or catch fire, taking the listed damage for an additional 1d4 rounds at the start of its turn (DC 10 + 1/2 burning creature's racial HD + burning creature's Con modifier). A burning creature can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save. Creatures that hit a burning creature with natural weapons or unarmed attacks take fire damage as though hit by the burning creature and must make a Reflex save to avoid [catching on fire](../environment.html#_catching-on-fire).
+**Burn (Ex)** A creature with the burn special attack deals fire damage in addition to damage dealt on a successful hit in melee. Those affected by the burn ability must also succeed on a Reflex save or catch fire, taking the listed damage for an additional 1d4 rounds at the start of its turn (DC 10 + 1/2 burning creature's racial HD + burning creature's Con modifier). A burning creature can attempt a new save as a full-round action. Dropping and rolling on the ground grants a +4 bonus on this save. Creatures that hit a burning creature with natural weapons or unarmed attacks take fire damage as though hit by the burning creature and must make a Reflex save to avoid [catching on fire](../environment.md#_catching-on-fire).
 
 _Format_: burn (2d6, DC 15); _Location_: Special Attacks and individual attacks.
 
-**Capsize (Ex)** A creature with this special quality can attempt to capsize a boat or a ship by ramming it as a charge attack and making a combat maneuver check. The DC of this check is 25, or the result of the captain's [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (sailor) check, whichever is higher. For each size category the ship is larger than the creature attempting to capsize it, the creature attempting to capsize the ship takes a cumulative –10 penalty on its combat maneuver check.
+**Capsize (Ex)** A creature with this special quality can attempt to capsize a boat or a ship by ramming it as a charge attack and making a combat maneuver check. The DC of this check is 25, or the result of the captain's [Profession](skills/profession.md#_profession) (sailor) check, whichever is higher. For each size category the ship is larger than the creature attempting to capsize it, the creature attempting to capsize the ship takes a cumulative –10 penalty on its combat maneuver check.
 
 _Format_: capsize; _Location_: special attacks.
 
-**Change Shape (Su)** A creature with this special quality has the ability to assume the appearance of a specific creature or type of creature (usually a humanoid), but retains most of its own physical qualities. A creature cannot change shape to a form more than one size category smaller or larger than its original form. This ability functions as a _ [polymorph](../spells/polymorph.html#_polymorph)_ spell, the type of which is listed in the creature's description, but the creature does not adjust its ability scores (although it gains any other abilities of the creature it mimics). Unless otherwise stated, it can remain in an alternate form indefinitely. Some creatures, such as lycanthropes, can transform into unique forms with special modifiers and abilities. These creatures do adjust their ability scores, as noted in their description.
+**Change Shape (Su)** A creature with this special quality has the ability to assume the appearance of a specific creature or type of creature (usually a humanoid), but retains most of its own physical qualities. A creature cannot change shape to a form more than one size category smaller or larger than its original form. This ability functions as a _ [polymorph](../spells/polymorph.md#_polymorph)_ spell, the type of which is listed in the creature's description, but the creature does not adjust its ability scores (although it gains any other abilities of the creature it mimics). Unless otherwise stated, it can remain in an alternate form indefinitely. Some creatures, such as lycanthropes, can transform into unique forms with special modifiers and abilities. These creatures do adjust their ability scores, as noted in their description.
 
 _Format_: change shape (wolf, _beast form I_); _Location_: SQ, and in special abilities for creatures with a unique listing.
 
-**Channel Resistance (Ex)** A creature with this special quality (usually an undead) is less easily affected by clerics or paladins. A creature with channel resistance adds the bonus listed for that creature to saves made to resist the effects of channel energy, including effects that rely on the use of channel energy (such as the [Command Undead](../feats.html#_command-undead) feat).
+**Channel Resistance (Ex)** A creature with this special quality (usually an undead) is less easily affected by clerics or paladins. A creature with channel resistance adds the bonus listed for that creature to saves made to resist the effects of channel energy, including effects that rely on the use of channel energy (such as the [Command Undead](../feats.md#_command-undead) feat).
 
 _Format_: channel resistance +4; _Location_: Defensive Abilities.
 
@@ -74,7 +74,7 @@ _Format_: constrict (1d8+6); _Location_: Special Attacks.
 
 _Format_: construct traits; _Location_: Immune.
 
-**Curse (Su)** A creature with this ability bestows a curse upon its enemies. The effects of the curse, including its save, frequency, and cure, are included in the creature's description. If a curse allows a saving throw, it is usually a Will save (DC 10 + 1/2 cursing creature's racial HD + creature's Cha modifier; the exact DC is given in the creature's descriptive text). Curses can be removed through _ [remove curse](../spells/removeCurse.html#_remove-curse)_ and similar effects.
+**Curse (Su)** A creature with this ability bestows a curse upon its enemies. The effects of the curse, including its save, frequency, and cure, are included in the creature's description. If a curse allows a saving throw, it is usually a Will save (DC 10 + 1/2 cursing creature's racial HD + creature's Cha modifier; the exact DC is given in the creature's descriptive text). Curses can be removed through _ [remove curse](../spells/removeCurse.md#_remove-curse)_ and similar effects.
 
 _Format_: **Curse Name (Su)** Slam—contact; _save_ Will DC 14, _frequency_ 1 day, _effect_ 1d4 Str drain; _Location_: Special Attacks and individual attacks.
 
@@ -92,7 +92,7 @@ Some monsters are vulnerable to magic weapons. Any weapon with at least a +1 mag
 
 A few very powerful monsters are vulnerable only to epic weapons—that is, magic weapons with at least a +6 enhancement bonus. Such creatures' natural weapons are also treated as epic weapons for the purpose of overcoming damage reduction.
 
-Some monsters are vulnerable to good-, evil-, chaotically, or lawfully aligned weapons. When a cleric casts _ [align weapon](../spells/alignWeapon.html#_align-weapon), _affected weapons might gain one or more of these properties, and certain magic weapons have these properties as well. A creature with an alignment subtype (chaotic, evil, good, or lawful) can overcome this type of damage reduction with its natural weapons and weapons it wields as if the weapons or natural weapons had an alignment (or alignments) that matched the subtype(s) of the creature.
+Some monsters are vulnerable to good-, evil-, chaotically, or lawfully aligned weapons. When a cleric casts _ [align weapon](../spells/alignWeapon.md#_align-weapon), _affected weapons might gain one or more of these properties, and certain magic weapons have these properties as well. A creature with an alignment subtype (chaotic, evil, good, or lawful) can overcome this type of damage reduction with its natural weapons and weapons it wields as if the weapons or natural weapons had an alignment (or alignments) that matched the subtype(s) of the creature.
 
 When a damage reduction entry has a dash (—) after the slash, no weapon negates the damage reduction.
 
@@ -102,7 +102,7 @@ A few other creatures require combinations of different types of attacks to over
 
 _Format_: DR 5/silver; _Location_: Defensive Abilities.
 
-**Disease (Ex or Su)** A creature with this ability causes disease in those it contacts. The effects of the disease, including its save, frequency, and cure, are included in the creature's description. The saving throw to negate the disease is usually a Fort save (DC 10 + 1/2 infecting creature's racial HD + the creature's Con modifier; the exact DC is given in the creature's descriptive text). Disease can be removed through [_remove disease_](../spells/removeDisease.html#_remove-disease) and similar effects.
+**Disease (Ex or Su)** A creature with this ability causes disease in those it contacts. The effects of the disease, including its save, frequency, and cure, are included in the creature's description. The saving throw to negate the disease is usually a Fort save (DC 10 + 1/2 infecting creature's racial HD + the creature's Con modifier; the exact DC is given in the creature's descriptive text). Disease can be removed through [_remove disease_](../spells/removeDisease.md#_remove-disease) and similar effects.
 
 _Format_: **Disease Name (Ex)** Bite—injury; _save_ Fort DC 15, _onset _1d3 days, _frequency_ 1 day, _effect_ 1 Con damage, _cure_ 2 consecutive saves; _Location_: Special Attacks and individual attacks.
 
@@ -110,11 +110,11 @@ _Format_: **Disease Name (Ex)** Bite—injury; _save_ Fort DC 15, _onset _1d3 da
 
 _Format_: distraction (DC 14); _Location_: Special Attacks.
 
-**Earth Glide (Ex)** When the creature burrows, it can pass through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. If protected against fire damage, it can even glide through lava. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A _ [move earth](../spells/moveEarth.html#_move-earth)_ spell cast on an area containing the burrowing creature flings it back 30 feet, stunning it for 1 round unless it succeeds on a DC 15 Fortitude save.
+**Earth Glide (Ex)** When the creature burrows, it can pass through stone, dirt, or almost any other sort of earth except metal as easily as a fish swims through water. If protected against fire damage, it can even glide through lava. Its burrowing leaves behind no tunnel or hole, nor does it create any ripple or other sign of its presence. A _ [move earth](../spells/moveEarth.md#_move-earth)_ spell cast on an area containing the burrowing creature flings it back 30 feet, stunning it for 1 round unless it succeeds on a DC 15 Fortitude save.
 
 _Format_: earth glide; _Location_: Speed.
 
-**Energy Drain (Su)** This attack saps a living opponent's vital energy and happens automatically when a melee or ranged attack hits. Each successful energy drain bestows one or more negative levels (the creature's description specifies how many). If an attack that includes an energy drain scores a critical hit, it bestows twice the listed number of negative levels. Unless otherwise specified in the creature's description, a draining creature gains 5 temporary hit points for each negative level it bestows on an opponent. These temporary hit points last for a maximum of 1 hour. Negative levels remain until 24 hours have passed or until they are removed with a spell, such as _ [restoration](../spells/restoration.html#_restoration)_. If a negative level is not removed before 24 hours have passed, the affected creature must attempt a Fortitude save (DC 10 + 1/2 draining creature's racial HD + draining creature's Cha modifier; the exact DC is given in the creature's descriptive text). On a success, the negative level goes away with no harm to the creature. On a failure, the negative level becomes permanent. A separate saving throw is required for each negative level.
+**Energy Drain (Su)** This attack saps a living opponent's vital energy and happens automatically when a melee or ranged attack hits. Each successful energy drain bestows one or more negative levels (the creature's description specifies how many). If an attack that includes an energy drain scores a critical hit, it bestows twice the listed number of negative levels. Unless otherwise specified in the creature's description, a draining creature gains 5 temporary hit points for each negative level it bestows on an opponent. These temporary hit points last for a maximum of 1 hour. Negative levels remain until 24 hours have passed or until they are removed with a spell, such as _ [restoration](../spells/restoration.md#_restoration)_. If a negative level is not removed before 24 hours have passed, the affected creature must attempt a Fortitude save (DC 10 + 1/2 draining creature's racial HD + draining creature's Cha modifier; the exact DC is given in the creature's descriptive text). On a success, the negative level goes away with no harm to the creature. On a failure, the negative level becomes permanent. A separate saving throw is required for each negative level.
 
 _Format_: energy drain (2 levels, DC 18); _Location_: Special Attacks and individual attacks.
 
@@ -136,9 +136,9 @@ _Format_: fast swallow; _Location_: Special Attacks.
 
 **Fear (Su or Sp)** Fear attacks can have various effects.
 
-_Fear Aura (Su) _The use of this ability is a free action. The aura can freeze an opponent (as in the case of a mummy's despair) or function like the _ [fear](../spells/fear.html#_fear) _spell. Other effects are possible. A fear aura is an area effect. The descriptive text gives the size and kind of the area.
+_Fear Aura (Su) _The use of this ability is a free action. The aura can freeze an opponent (as in the case of a mummy's despair) or function like the _ [fear](../spells/fear.md#_fear) _spell. Other effects are possible. A fear aura is an area effect. The descriptive text gives the size and kind of the area.
 
-_Fear Cone (Sp) and Ray (Su) _These effects usually work like the _ [fear](../spells/fear.html#_fear) _spell.
+_Fear Cone (Sp) and Ray (Su) _These effects usually work like the _ [fear](../spells/fear.md#_fear) _spell.
 
 If a fear effect allows a saving throw, it is a Will save (DC 10 + 1/2 fearsome creature's racial HD + creature's Cha modifier; the exact DC is given in the creature's descriptive text). All fear attacks are mind-affecting fear effects.
 
@@ -154,7 +154,7 @@ _Format_: ferocity; _Location_: Defensive Abilities.
 
 _Format_: fly 30 ft. (average); _Location_: Speed.
 
-**Freeze (Ex)** The creature can hold itself so still it appears to be an inanimate object of the appropriate shape (a statue, patch of fungus, and so on). The creature can take 20 on its [Stealth](../skills/stealth.html#_stealth) check to hide in plain sight as this kind of inanimate object.
+**Freeze (Ex)** The creature can hold itself so still it appears to be an inanimate object of the appropriate shape (a statue, patch of fungus, and so on). The creature can take 20 on its [Stealth](../skills/stealth.md#_stealth) check to hide in plain sight as this kind of inanimate object.
 
 _Format_: freeze; _Location_: Special Qualities.
 
@@ -192,15 +192,15 @@ _Format_: hold breath; _Location_: Special Qualities.
 
 _Format_: **Immune** acid, fire, paralysis; _Location_: Defensive Abilities.
 
-**Incorporeal (Ex)** An incorporeal creature has no physical body. It can be harmed only by other incorporeal creatures, magic weapons or creatures that strike as magic weapons, and spells, spell-like abilities, or supernatural abilities. It is immune to all nonmagical attack forms. Even when hit by spells or magic weapons, it takes only half damage from a corporeal source (except for channel energy). Although it is not a magical attack, holy water can affect incorporeal undead. Corporeal spells and effects that do not cause damage only have a 50% chance of affecting an incorporeal creature. Force spells and effects, such as from a _ [magic missile](../spells/magicMissile.html#_magic-missile)_, affect an incorporeal creature normally.
+**Incorporeal (Ex)** An incorporeal creature has no physical body. It can be harmed only by other incorporeal creatures, magic weapons or creatures that strike as magic weapons, and spells, spell-like abilities, or supernatural abilities. It is immune to all nonmagical attack forms. Even when hit by spells or magic weapons, it takes only half damage from a corporeal source (except for channel energy). Although it is not a magical attack, holy water can affect incorporeal undead. Corporeal spells and effects that do not cause damage only have a 50% chance of affecting an incorporeal creature. Force spells and effects, such as from a _ [magic missile](../spells/magicMissile.md#_magic-missile)_, affect an incorporeal creature normally.
 
 An incorporeal creature has no natural armor bonus but has a deflection bonus equal to its Charisma bonus (always at least +1, even if the creature's Charisma score does not normally provide a bonus).
 
 An incorporeal creature can enter or pass through solid objects, but must remain adjacent to the object's exterior, and so cannot pass entirely through an object whose space is larger than its own. It can sense the presence of creatures or objects within a square adjacent to its current location, but enemies have total concealment (50% miss chance) from an incorporeal creature that is inside an object. In order to see beyond the object it is in and attack normally, the incorporeal creature must emerge. An incorporeal creature inside an object has total cover, but when it attacks a creature outside the object it only has cover, so a creature outside with a readied action could strike at it as it attacks. An incorporeal creature cannot pass through a force effect.
 
-An incorporeal creature's attacks pass through (ignore) natural armor, armor, and shields, although deflection bonuses and force effects (such as _ [mage armor](../spells/mageArmor.html#_mage-armor)_) work normally against it. Incorporeal creatures pass through and operate in water as easily as they do in air. Incorporeal creatures cannot fall or take falling damage. Incorporeal creatures cannot make trip or grapple attacks, nor can they be tripped or grappled. In fact, they cannot take any physical action that would move or manipulate an opponent or its equipment, nor are they subject to such actions. Incorporeal creatures have no weight and do not set off traps that are triggered by weight.
+An incorporeal creature's attacks pass through (ignore) natural armor, armor, and shields, although deflection bonuses and force effects (such as _ [mage armor](../spells/mageArmor.md#_mage-armor)_) work normally against it. Incorporeal creatures pass through and operate in water as easily as they do in air. Incorporeal creatures cannot fall or take falling damage. Incorporeal creatures cannot make trip or grapple attacks, nor can they be tripped or grappled. In fact, they cannot take any physical action that would move or manipulate an opponent or its equipment, nor are they subject to such actions. Incorporeal creatures have no weight and do not set off traps that are triggered by weight.
 
-An incorporeal creature moves silently and cannot be heard with [Perception](../skills/perception.html#_perception) checks if it doesn't wish to be. It has no Strength score, so its Dexterity modifier applies to its melee attacks, ranged attacks, and CMB. Nonvisual senses, such as scent and blindsight, are either ineffective or only partly effective with regard to incorporeal creatures. Incorporeal creatures have an innate sense of direction and can move at full speed even when they cannot see.
+An incorporeal creature moves silently and cannot be heard with [Perception](../skills/perception.md#_perception) checks if it doesn't wish to be. It has no Strength score, so its Dexterity modifier applies to its melee attacks, ranged attacks, and CMB. Nonvisual senses, such as scent and blindsight, are either ineffective or only partly effective with regard to incorporeal creatures. Incorporeal creatures have an innate sense of direction and can move at full speed even when they cannot see.
 
 _Format_: incorporeal; _Location_: Defensive Abilities.
 
@@ -216,11 +216,11 @@ _Format_: keen scent; _Location_: Senses.
 
 _Format_: lifesense; _Location_: Senses.
 
-**Light Blindness (Ex)** Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the _ [daylight](../spells/daylight.html#_daylight)_ spell. Such creatures are [dazzled](/pathfinderRPG/prd/glossary.html#_dazzled) as long as they remain in areas of bright light.
+**Light Blindness (Ex)** Creatures with light blindness are blinded for 1 round if exposed to bright light, such as sunlight or the _ [daylight](../spells/daylight.md#_daylight)_ spell. Such creatures are [dazzled](glossary.md#_dazzled) as long as they remain in areas of bright light.
 
 _Format_: light blindness; _Location_: Weaknesses.
 
-**Light Sensitivity (Ex)** Creatures with light sensitivity are [dazzled](/pathfinderRPG/prd/glossary.html#_dazzled) in areas of bright sunlight or within the radius of a _ [daylight](../spells/daylight.html#_daylight) _spell.
+**Light Sensitivity (Ex)** Creatures with light sensitivity are [dazzled](glossary.md#_dazzled) in areas of bright sunlight or within the radius of a _ [daylight](../spells/daylight.md#_daylight) _spell.
 
 _Format_: **Weakness** light sensitivity; _Location_: Weaknesses.
 
@@ -228,7 +228,7 @@ _Format_: **Weakness** light sensitivity; _Location_: Weaknesses.
 
 _Format_: low-light vision; _Location_: Senses.
 
-**Lycanthropic Empathy (Ex)** In any form, natural lycanthropes can communicate and empathize with animals related to their animal form. They can use [Diplomacy](../skills/diplomacy.html#_diplomacy) to alter such an animal's attitude, and when so doing gain a +4 racial bonus on the check. Afflicted lycanthropes only gain this ability in animal or hybrid form.
+**Lycanthropic Empathy (Ex)** In any form, natural lycanthropes can communicate and empathize with animals related to their animal form. They can use [Diplomacy](../skills/diplomacy.md#_diplomacy) to alter such an animal's attitude, and when so doing gain a +4 racial bonus on the check. Afflicted lycanthropes only gain this ability in animal or hybrid form.
 
 _Format_: lycanthropic empathy (bears and dire bears); _Location_: Special Qualities.
 
@@ -263,7 +263,7 @@ Some fey, humanoids, monstrous humanoids, and outsiders do not possess natural a
 
 _Format_: bite +5 (1d6+1), 2 claws +5 (1d4+2), 4 tentacles +0 (1d4+1); _Location_: Melee and Ranged.
 
-**Natural Invisibility (Ex or Su)** This ability is constant—the creature remains invisible at all times, even when attacking. As this ability is inherent, it is not subject to the _ [invisibility purge](../spells/invisibilityPurge.html#_invisibility-purge)_ spell.
+**Natural Invisibility (Ex or Su)** This ability is constant—the creature remains invisible at all times, even when attacking. As this ability is inherent, it is not subject to the _ [invisibility purge](../spells/invisibilityPurge.md#_invisibility-purge)_ spell.
 
 _Format_: natural invisibility; _Location_: Defensive Abilities.
 
@@ -273,7 +273,7 @@ _Format_: natural invisibility; _Location_: Defensive Abilities.
 
 _Format_: no breath; _Location_: Special Qualities.
 
-**Paralysis (Ex or Su)** This special attack renders the victim immobile. Paralyzed creatures cannot move, speak, or take any physical actions. The creature is rooted to the spot, frozen and helpless. Paralysis works on the body, and a character can usually resist it with a Fortitude saving throw (DC 10 + 1/2 paralyzing creature's racial HD + paralyzing creature's Con modifier; the DC is given in the creature's description). Unlike _ [hold person](../spells/holdPerson.html#_hold-person) _and similar effects, a paralysis effect does not allow a new save each round. A winged creature flying in the air at the time that it is paralyzed cannot flap its wings and falls. A swimmer can't swim and may drown. The duration of the paralysis varies and is included in the creature's description.
+**Paralysis (Ex or Su)** This special attack renders the victim immobile. Paralyzed creatures cannot move, speak, or take any physical actions. The creature is rooted to the spot, frozen and helpless. Paralysis works on the body, and a character can usually resist it with a Fortitude saving throw (DC 10 + 1/2 paralyzing creature's racial HD + paralyzing creature's Con modifier; the DC is given in the creature's description). Unlike _ [hold person](../spells/holdPerson.md#_hold-person) _and similar effects, a paralysis effect does not allow a new save each round. A winged creature flying in the air at the time that it is paralyzed cannot flap its wings and falls. A swimmer can't swim and may drown. The duration of the paralysis varies and is included in the creature's description.
 
 _Format_: paralysis (1d4 rounds, DC 18); _Location_: Special Attacks and individual attacks.
 
@@ -281,7 +281,7 @@ _Format_: paralysis (1d4 rounds, DC 18); _Location_: Special Attacks and individ
 
 _Format_: plant traits; _Location_: Immune.
 
-**Poison (Ex or Su)** A creature with this ability can poison those it attacks. The effects of the poison, including its save, frequency, and cure, are included in the creature's description. The saving throw to resist a poison is usually a Fort save (DC 10 + 1/2 poisoning creature's racial HD + creature's Con modifier; the exact DC is given in the creature's descriptive text). Poisons can be removed through _ [neutralize poison](../spells/neutralizePoison.html#_neutralize-poison)_ and similar effects.
+**Poison (Ex or Su)** A creature with this ability can poison those it attacks. The effects of the poison, including its save, frequency, and cure, are included in the creature's description. The saving throw to resist a poison is usually a Fort save (DC 10 + 1/2 poisoning creature's racial HD + creature's Con modifier; the exact DC is given in the creature's descriptive text). Poisons can be removed through _ [neutralize poison](../spells/neutralizePoison.md#_neutralize-poison)_ and similar effects.
 
 _Format_: **Poison Name (Ex)** Sting—injury; _save_ Fort DC 22, _frequency_ 1/round for 6 rounds, _effect_ 1d4 Con, _cure_ 2 consecutive saves; _Location_: Special Attacks and individual attacks.
 
@@ -325,7 +325,7 @@ _Format_: **Resist** acid 10; _Location_: Defensive Abilities.
 
 _Format_: rock catching; _Location_: Defensive Abilities.
 
-**Rock Throwing (Ex)**  This creature is an accomplished rock thrower and has a +1 racial bonus on attack rolls with thrown rocks. A creature can hurl rocks up to two categories smaller than its size; for example, a Large hill giant can hurl Small rocks. A ârockâ is any large, bulky, and relatively regularly shaped object made of any material with a hardness of at least 5. The creature can hurl the rock up to five range increments. The size of the range increment varies with the creature. Damage from a thrown rock is generally twice the creature's base slam damage plus 1-1/2 its Strength bonus.
+**Rock Throwing (Ex)**  This creature is an accomplished rock thrower and has a +1 racial bonus on attack rolls with thrown rocks. A creature can hurl rocks up to two categories smaller than its size; for example, a Large hill giant can hurl Small rocks. A “rock” is any large, bulky, and relatively regularly shaped object made of any material with a hardness of at least 5. The creature can hurl the rock up to five range increments. The size of the range increment varies with the creature. Damage from a thrown rock is generally twice the creature's base slam damage plus 1-1/2 its Strength bonus.
 
 _Format_: rock throwing (120 ft.); _Location_: Special Attacks (damage is listed in Ranged attack).
 
@@ -335,19 +335,19 @@ The creature can detect opponents within 30 feet by sense of smell. If the oppon
 
 When a creature detects a scent, the exact location of the source is not revealed—only its presence somewhere within range. The creature can take a move action to note the direction of the scent. When the creature is within 5 feet of the source, it pinpoints the source's location.
 
-A creature with the scent ability can follow tracks by smell, making a Wisdom (or [Survival](../skills/survival.html#_survival)) check to find or follow a track. The typical DC for a fresh trail is 10 (no matter what kind of surface holds the scent). This DC increases or decreases depending on how strong the quarry's odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the [Survival](../skills/survival.html#_survival) skill. Creatures tracking by scent ignore the effects of surface conditions and poor visibility.
+A creature with the scent ability can follow tracks by smell, making a Wisdom (or [Survival](../skills/survival.md#_survival)) check to find or follow a track. The typical DC for a fresh trail is 10 (no matter what kind of surface holds the scent). This DC increases or decreases depending on how strong the quarry's odor is, the number of creatures, and the age of the trail. For each hour that the trail is cold, the DC increases by 2. The ability otherwise follows the rules for the [Survival](../skills/survival.md#_survival) skill. Creatures tracking by scent ignore the effects of surface conditions and poor visibility.
 
 _Format_: scent; _Location_: Senses.
 
-**See in Darkness (Su)** The creature can see perfectly in darkness of any kind, including that created by _ [deeper darkness](../spells/deeperDarkness.html#_deeper-darkness)_.
+**See in Darkness (Su)** The creature can see perfectly in darkness of any kind, including that created by _ [deeper darkness](../spells/deeperDarkness.md#_deeper-darkness)_.
 
 _Format_: see in darkness; _Location_: Senses.
 
-**Sound Mimicry (Ex)** The creature perfectly imitates certain sounds or even specific voices. The creature makes a [Bluff](../skills/bluff.html#_bluff) check opposed by the listener's [Sense Motive](../skills/senseMotive.html#_sense-motive) check to recognize the mimicry, although if the listener isn't familiar with the person or type of creatures mimicked, it takes a –8 penalty on its [Sense Motive](../skills/senseMotive.html#_sense-motive) check. The creature has a +8 racial bonus on its [Bluff](../skills/bluff.html#_bluff) check to mimic sounds (including accents and speech patterns, if a voice mimic) it has listened to for at least 10 minutes. The creature cannot duplicate the effects of magical abilities (such as bardic performance or a harpy's captivating song), though it may be able to mimic the sound of those abilities. This ability does not allow the creature to speak or understand languages it doesn't know.
+**Sound Mimicry (Ex)** The creature perfectly imitates certain sounds or even specific voices. The creature makes a [Bluff](../skills/bluff.md#_bluff) check opposed by the listener's [Sense Motive](../skills/senseMotive.md#_sense-motive) check to recognize the mimicry, although if the listener isn't familiar with the person or type of creatures mimicked, it takes a –8 penalty on its [Sense Motive](../skills/senseMotive.md#_sense-motive) check. The creature has a +8 racial bonus on its [Bluff](../skills/bluff.md#_bluff) check to mimic sounds (including accents and speech patterns, if a voice mimic) it has listened to for at least 10 minutes. The creature cannot duplicate the effects of magical abilities (such as bardic performance or a harpy's captivating song), though it may be able to mimic the sound of those abilities. This ability does not allow the creature to speak or understand languages it doesn't know.
 
 _Format_: sound mimicry (voices); _Location_: Special Qualities.
 
-**Spell-Like Abilities (Sp)** Spell-like abilities are magical and work just like spells (though they are not spells and so have no verbal, somatic, focus, or material components). They go away in an _ [antimagic field](../spells/antimagicField.html#_antimagic-field) _and are subject to spell resistance if the spell the ability is based on would be subject to spell resistance.
+**Spell-Like Abilities (Sp)** Spell-like abilities are magical and work just like spells (though they are not spells and so have no verbal, somatic, focus, or material components). They go away in an _ [antimagic field](../spells/antimagicField.md#_antimagic-field) _and are subject to spell resistance if the spell the ability is based on would be subject to spell resistance.
 
 A spell-like ability usually has a limit on how often it can be used. A constant spell-like ability or one that can be used at will has no use limit; unless otherwise stated, a creature can only use a constant spell-like ability on itself. Reactivating a constant spell-like ability is a swift action. Using all other spell-like abilities is a standard action unless noted otherwise, and doing so provokes attacks of opportunity. It is possible to make a concentration check to use a spell-like ability defensively and avoid provoking an attack of opportunity, just as when casting a spell. A spell-like ability can be disrupted just as a spell can be. Spell-like abilities cannot be used to counterspell, nor can they be counterspelled.
 
@@ -355,7 +355,7 @@ For creatures with spell-like abilities, a designated caster level defines how d
 
 Some spell-like abilities duplicate spells that work differently when cast by characters of different classes_. _A monster's spell-like abilities are presumed to be the sorcerer/wizard versions. If the spell in question is not a sorcerer/wizard spell, then default to cleric, druid, bard, paladin, and ranger, in that order.
 
-_Format_: At will—_ [burning hands](../spells/burningHands.html#_burning-hands) _(DC 13); _Location_: Spell-Like Abilities.
+_Format_: At will—_ [burning hands](../spells/burningHands.md#_burning-hands) _(DC 13); _Location_: Spell-Like Abilities.
 
 **Spell Resistance (Ex)** A creature with spell resistance can avoid the effects of spells and spell-like abilities that directly affect it. To determine if a spell or spell-like ability works against a creature with spell resistance, the caster must make a caster level check (1d20 + caster level). If the result equals or exceeds the creature's spell resistance, the spell works normally, although the creature is still allowed a saving throw.
 
@@ -365,7 +365,7 @@ _Format_: **SR** 18; _Location_: Defensive Abilities.
 
 _Format_: split (piercing and slashing, 10 hp); _Location_: Defensive Abilities.
 
-**Stench (Ex)** A creature with the stench special ability secretes an oily chemical that nearly every other creature finds offensive. All living creatures (except those with the stench special ability) within 30 feet must succeed on a Fortitude save (DC 10 + 1/2 stench creature's racial HD + stench creature's Con modifier; the exact DC is given in the creature's descriptive text) or be sickened. The duration of the sickened condition is given in the creature's descriptive text. Creatures that successfully save cannot be affected by the same creature's stench for 24 hours. A _ [delay poison](../spells/delayPoison.html#_delay-poison) _or _ [neutralize poison](../spells/neutralizePoison.html#_neutralize-poison) _spell removes the effect from the sickened creature. Creatures with immunity to poison are unaffected, and creatures resistant to poison receive their normal bonus on their saving throws.
+**Stench (Ex)** A creature with the stench special ability secretes an oily chemical that nearly every other creature finds offensive. All living creatures (except those with the stench special ability) within 30 feet must succeed on a Fortitude save (DC 10 + 1/2 stench creature's racial HD + stench creature's Con modifier; the exact DC is given in the creature's descriptive text) or be sickened. The duration of the sickened condition is given in the creature's descriptive text. Creatures that successfully save cannot be affected by the same creature's stench for 24 hours. A _ [delay poison](../spells/delayPoison.md#_delay-poison) _or _ [neutralize poison](../spells/neutralizePoison.md#_neutralize-poison) _spell removes the effect from the sickened creature. Creatures with immunity to poison are unaffected, and creatures resistant to poison receive their normal bonus on their saving throws.
 
 _Format_: stench (DC 15, 10 rounds); _Location_: Aura.
 
@@ -377,7 +377,7 @@ _Format_: strangle; _Location_: Special Attacks.
 
 _Format_: 1/day—summon (level 4, 1 hezrou 35%); _Location_: Spell-Like Abilities.
 
-**Sunlight Powerlessness (Ex)** If the creature is in sunlight (but not in an area of _ [daylight](../spells/daylight.html#_daylight)_ or similar spells), it cannot attack and is staggered.
+**Sunlight Powerlessness (Ex)** If the creature is in sunlight (but not in an area of _ [daylight](../spells/daylight.md#_daylight)_ or similar spells), it cannot attack and is staggered.
 
 _Format_: sunlight powerlessness; _Location_: Weaknesses.
 
@@ -389,7 +389,7 @@ _Format_: swallow whole (5d6 acid damage, AC 15, 18 hp); _Location_: Special Att
 
 _Format_: telepathy 100 ft.; _Location_: Languages.
 
-**[Trample](../feats.html#_trample) (Ex)** As a full-round action, a creature with the trample ability can attempt to overrun any creature that is at least one size category smaller than itself. This works just like the overrun combat maneuver, but the trampling creature does not need to make a check, it merely has to move over opponents in its path. Targets of a trample take an amount of damage equal to the trampling creature's slam damage + 1-1/2 times its Str modifier. Targets of a trample can make an attack of opportunity, but at a –4 penalty. If targets forgo an attack of opportunity, they can attempt to avoid the trampling creature and receive a Reflex save to take half damage. The save DC against a creature's trample attack is 10 + 1/2 creature's HD + creature's Str modifier (the exact DC is given in the creature's descriptive text). A trampling creature can only deal trampling damage to each target once per round, no matter how many times its movement takes it over a target creature.
+**[Trample](../feats.md#_trample) (Ex)** As a full-round action, a creature with the trample ability can attempt to overrun any creature that is at least one size category smaller than itself. This works just like the overrun combat maneuver, but the trampling creature does not need to make a check, it merely has to move over opponents in its path. Targets of a trample take an amount of damage equal to the trampling creature's slam damage + 1-1/2 times its Str modifier. Targets of a trample can make an attack of opportunity, but at a –4 penalty. If targets forgo an attack of opportunity, they can attempt to avoid the trampling creature and receive a Reflex save to take half damage. The save DC against a creature's trample attack is 10 + 1/2 creature's HD + creature's Str modifier (the exact DC is given in the creature's descriptive text). A trampling creature can only deal trampling damage to each target once per round, no matter how many times its movement takes it over a target creature.
 
 _Format_: trample (2d6+9, DC 20); _Location_: Special Attacks.
 
@@ -409,7 +409,7 @@ _Format_: undead traits; _Location_: Immune.
 
 _Format_: undersized weapons; _Location_: Special Qualities.
 
-**Unnatural Aura (Su)** Animals do not willingly approach the creature unless the animal's master makes a DC 25 [Handle Animal](../skills/handleAnimal.html#_handle-animal), [Ride](../skills/ride.html#_ride), or wild empathy check.
+**Unnatural Aura (Su)** Animals do not willingly approach the creature unless the animal's master makes a DC 25 [Handle Animal](../skills/handleAnimal.md#_handle-animal), [Ride](../skills/ride.md#_ride), or wild empathy check.
 
 _Format_: unnatural aura (30 ft.); _Location_: Aura.
 
@@ -421,9 +421,9 @@ _Format_: vulnerability to fire; _Location_: Weaknesses.
 
 **Water Dependency (Ex)** A creature with this special ability can survive out of water for 1 minute per point of Constitution. Beyond this limit, this creature runs the risk of suffocation, as if it were drowning. _Format_: water dependency; _Location_: SQ.
 
-**Web (Ex)** Creatures with the web ability can use webs to support themselves and up to one additional creature of the same size. In addition, such creatures can throw a web up to eight times per day. This is similar to an attack with a net but has a maximum range of 50 feet, with a range increment of 10 feet, and is effective against targets up to one size category larger than the web spinner. An entangled creature can escape with a successful [Escape Artist](../skills/escapeArtist.html#_escape-artist) check or burst the web with a Strength check. Both are standard actions with a DC equal to 10 + 1/2 creature's HD + creature's Con modifier. Attempts to burst a web by those caught in it suffer a –4 penalty.
+**Web (Ex)** Creatures with the web ability can use webs to support themselves and up to one additional creature of the same size. In addition, such creatures can throw a web up to eight times per day. This is similar to an attack with a net but has a maximum range of 50 feet, with a range increment of 10 feet, and is effective against targets up to one size category larger than the web spinner. An entangled creature can escape with a successful [Escape Artist](../skills/escapeArtist.md#_escape-artist) check or burst the web with a Strength check. Both are standard actions with a DC equal to 10 + 1/2 creature's HD + creature's Con modifier. Attempts to burst a web by those caught in it suffer a –4 penalty.
 
-Web spinners can create sheets of sticky webbing up to three times their size. They usually position these sheets to snare flying creatures but can also try to trap prey on the ground. Approaching creatures must succeed on a DC 20 [Perception](../skills/perception.html#_perception) check to notice a web; otherwise they stumble into it and become trapped as though by a successful web attack. Attempts to escape or burst the webbing gain a +5 bonus if the trapped creature has something to walk on or grab while pulling free. Each 5-foot-square section of web has a number of hit points equal to the Hit Dice of the creature that created it and DR 5/—.
+Web spinners can create sheets of sticky webbing up to three times their size. They usually position these sheets to snare flying creatures but can also try to trap prey on the ground. Approaching creatures must succeed on a DC 20 [Perception](../skills/perception.md#_perception) check to notice a web; otherwise they stumble into it and become trapped as though by a successful web attack. Attempts to escape or burst the webbing gain a +5 bonus if the trapped creature has something to walk on or grab while pulling free. Each 5-foot-square section of web has a number of hit points equal to the Hit Dice of the creature that created it and DR 5/—.
 
 A creature can move across its own web at its climb speed and can pinpoint the location of any creature touching its web.
 

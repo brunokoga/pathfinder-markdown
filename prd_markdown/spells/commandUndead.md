@@ -12,13 +12,13 @@
 
 **Duration** 1 day/level
 
-**Saving Throw** [Will](../combat.html#_will) negates; see text; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Will](../combat.md#_will) negates; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
-This spell allows you a degree of control over an undead creature. If the subject is intelligent, it perceives your words and actions favorably (treat its attitude as friendly). It will not attack you while the spell lasts. You can give the subject orders, but you must win an opposed [Charisma](../gettingStarted.html#_charisma-new) check to convince it to do anything it wouldn't ordinarily do. Retries are not allowed. An intelligent commanded undead never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing.
+This spell allows you a degree of control over an undead creature. If the subject is intelligent, it perceives your words and actions favorably (treat its attitude as friendly). It will not attack you while the spell lasts. You can give the subject orders, but you must win an opposed [Charisma](../gettingStarted.md#_charisma-new) check to convince it to do anything it wouldn't ordinarily do. Retries are not allowed. An intelligent commanded undead never obeys suicidal or obviously harmful orders, but it might be convinced that something very dangerous is worth doing.
 
-A nonintelligent undead creature gets no saving throw against this spell. When you control a mindless being, you can communicate only basic commands, such as âcome here,â âgo there,â âfight,â âstand still,â and so on. Nonintelligent undead won't resist suicidal or obviously harmful orders.
+A nonintelligent undead creature gets no saving throw against this spell. When you control a mindless being, you can communicate only basic commands, such as “come here,” “go there,” “fight,” “stand still,” and so on. Nonintelligent undead won't resist suicidal or obviously harmful orders.
 
-Any act by you or your apparent allies that threatens the commanded undead (regardless of its [Intelligence](../gettingStarted.html#_intelligence)) breaks the spell.
+Any act by you or your apparent allies that threatens the commanded undead (regardless of its [Intelligence](../gettingStarted.md#_intelligence)) breaks the spell.
 
 Your commands are not telepathic. The undead creature must be able to hear you.
 

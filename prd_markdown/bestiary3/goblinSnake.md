@@ -8,7 +8,7 @@ XP 400
 
 CE Small aberration
 
-**Init** +2; **Senses** darkvision 60 ft., [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
+**Init** +2; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +5
 
 Defense
 
@@ -32,9 +32,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +2; **CMD** 14 (can't be tripped)
 
-**Feats** [Lunge](/pathfinderRPG/prd/feats.html#_lunge)B, [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff))
+**Feats** [Lunge](feats.md#_lunge)B, [Skill Focus](feats.md#_skill-focus) ( [Bluff](skills/bluff.md#_bluff))
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +6, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +3, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +10
+**Skills** [Bluff](skills/bluff.md#_bluff) +6, [Intimidate](skills/intimidate.md#_intimidate) +5, [Knowledge](skills/knowledge.md#_knowledge) (local) +3, [Perception](skills/perception.md#_perception) +5, [Stealth](skills/stealth.md#_stealth) +10
 
 **Languages** Common, Goblin
 
@@ -50,7 +50,7 @@ Ecology
 
 Special Abilities
 
-**Goblin Breath (Ex)** Once every 1d4 rounds, a goblin snake can release a disgusting belch as a standard action. Any creature within 5 feet of the goblin snake must succeed at a DC 13 Fortitude save or be sickened for 1d6 rounds by the stench. Creatures that successfully save cannot be affected by the same goblin snake's goblin breath for 24 hours. Goblin snakes and goblins are immune to this effect. This is a [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) effect. The save DC is Constitution-based.
+**Goblin Breath (Ex)** Once every 1d4 rounds, a goblin snake can release a disgusting belch as a standard action. Any creature within 5 feet of the goblin snake must succeed at a DC 13 Fortitude save or be sickened for 1d6 rounds by the stench. Creatures that successfully save cannot be affected by the same goblin snake's goblin breath for 24 hours. Goblin snakes and goblins are immune to this effect. This is a [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) effect. The save DC is Constitution-based.
 
 **Snake Empathy (Ex)** This ability functions similarly to a druid's wild empathy ability, but allows a goblin snake to verbally communicate with and be understood by snakes and similar serpentine reptiles. The bonus equals the goblin snake's racial Hit Dice plus its Charisma modifier and a +4 racial bonus.
 
@@ -58,7 +58,7 @@ Tenacious predators and bullies, goblin snakes are shrill, impulsive, and endles
 
 Cruel and selfish, goblin snakes care for little more than their next meals and indulging their unfounded arrogance. Like goblins, they can easily eat their body weight in food daily, but goblin snakes are also lazy, and are more likely to settle for easy meals rather than ones they must work to find. As a result, goblins snakes eat almost anything within reach and readily available, from carrion to rubbish (the source of their horrendous and nauseating breath). Goblin snakes delight in fresh meat, but strongly prefer having others bring it to them over hunting and killing it themselves.
 
-Enjoying the company of snakes, goblin snakes are often accompanied by several smaller venomous serpents, which the goblin snakes use to protect their lairs and supplement their food supply. Goblin snakes are exceedingly jealous of nagas, however, envying their serpentine majesty and mastery of magic. Enterprising and cunning goblin snakes have been known to impersonate nagas, demanding tribute and food from gullible creatures in awe of the ânaga'sâ supposed magical abilities. Some scholars have noted the superficial similarities between goblin snakes and nagas, and have gone as far as to theorize that the goblin snake might be a particularly weak breed of naga—a theory that most nagas do not appreciate at all.
+Enjoying the company of snakes, goblin snakes are often accompanied by several smaller venomous serpents, which the goblin snakes use to protect their lairs and supplement their food supply. Goblin snakes are exceedingly jealous of nagas, however, envying their serpentine majesty and mastery of magic. Enterprising and cunning goblin snakes have been known to impersonate nagas, demanding tribute and food from gullible creatures in awe of the “naga's” supposed magical abilities. Some scholars have noted the superficial similarities between goblin snakes and nagas, and have gone as far as to theorize that the goblin snake might be a particularly weak breed of naga—a theory that most nagas do not appreciate at all.
 
 Although goblin snakes are not as smart as goblins, their terrifying shape allows them to take positions of inflated prominence within goblin society. Fearful goblins typically defer to the beasts, which well suits the goblin snakes' innate arrogance and sense of superiority. Goblin snakes affiliated with goblin tribes usually treat their goblin associates as servants at best and slaves at worst.
 

@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Fortitude](../combat.html#_fortitude) half; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Fortitude](../combat.md#_fortitude) half; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
 This spell evaporates moisture from the body of each subject living creature, causing flesh to wither and crack and crumble to dust. This deals 1d6 points of damage per caster level (maximum 20d6). This spell is especially devastating to water elementals and plant creatures, which instead take 1d8 points of damage per caster level (maximum 20d8).
 

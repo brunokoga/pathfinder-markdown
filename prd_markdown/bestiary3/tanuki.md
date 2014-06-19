@@ -6,9 +6,9 @@ Tanuki CR 4
 
 XP 1,200
 
-CN Medium monstrous humanoid ( [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+CN Medium monstrous humanoid ( [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft., _ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_, low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8
+**Init** +3; **Senses** darkvision 60 ft., _ [detect poison](spells/detectPoison.md#_detect-poison)_, low-light vision; [Perception](skills/perception.md#_perception) +8
 
 Defense
 
@@ -28,13 +28,13 @@ Offense
 
 **Spell-Like Abilities** (CL 7th; concentration +11)
 
-Constant—_ [detect poison](/pathfinderRPG/prd/spells/detectPoison.html#_detect-poison)_
+Constant—_ [detect poison](spells/detectPoison.md#_detect-poison)_
 
-At will—_ [purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_
+At will—_ [purify food and drink](spells/purifyFoodAndDrink.md#_purify-food-and-drink)_
 
-3/day—_ [magic stone](/pathfinderRPG/prd/spells/magicStone.html#_magic-stone), [major creation](/pathfinderRPG/prd/spells/majorCreation.html#_major-creation)_ (up to 1 cubic foot)
+3/day—_ [magic stone](spells/magicStone.md#_magic-stone), [major creation](spells/majorCreation.md#_major-creation)_ (up to 1 cubic foot)
 
-1/day—_ [create food and water](/pathfinderRPG/prd/spells/createFoodAndWater.html#_create-food-and-water)_, _ [shrink item](/pathfinderRPG/prd/spells/shrinkItem.html#_shrink-item), [veil](/pathfinderRPG/prd/spells/veil.html#_veil)_ (self only)
+1/day—_ [create food and water](spells/createFoodAndWater.md#_create-food-and-water)_, _ [shrink item](spells/shrinkItem.md#_shrink-item), [veil](spells/veil.md#_veil)_ (self only)
 
 Statistics
 
@@ -42,13 +42,13 @@ Statistics
 
 **Base Atk** +5; **CMB** +7; **CMD** 20
 
-**Feats** Two-Weapon Defense, [Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_two-weapon-fighting), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (quarterstaff)
+**Feats** Two-Weapon Defense, [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Focus](feats.md#_weapon-focus) (quarterstaff)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +7, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +6, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) +5, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (percussion) +8, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +4, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +4, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +10
+**Skills** [Bluff](skills/bluff.md#_bluff) +7, [Diplomacy](skills/diplomacy.md#_diplomacy) +6, [Knowledge](skills/knowledge.md#_knowledge) (nature) +5, [Perception](skills/perception.md#_perception) +8, [Perform](skills/perform.md#_perform) (percussion) +8, [Sense Motive](skills/senseMotive.md#_sense-motive) +4, [Spellcraft](skills/spellcraft.md#_spellcraft) +4, [Stealth](skills/stealth.md#_stealth) +10
 
 **Languages** Common, Tanuki
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (raccoon; _ [beast shape II](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii)_), sake affinity
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (raccoon; _ [beast shape II](spells/beastShape.md#_beast-shape-ii)_), sake affinity
 
 Ecology
 
@@ -60,7 +60,7 @@ Ecology
 
 Special Abilities
 
-**Sake Affinity (Su)** As a swift action, a tanuki can take a swig of sake from the gourd it always carries at its side. When it does so, it gains the effect of one of the following spells at caster level 7th: _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [false life](/pathfinderRPG/prd/spells/falseLife.html#_false-life)_, _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_, or _ [rage](/pathfinderRPG/prd/spells/rage.html#_rage)_. Unusual tanukis might have additional spell effect choices at the GM's discretion. Each time a tanuki takes a swig of sake, it becomes progressively drunker and takes a –1 penalty to its AC and on Reflex saves for 1 minute. These penalties stack.
+**Sake Affinity (Su)** As a swift action, a tanuki can take a swig of sake from the gourd it always carries at its side. When it does so, it gains the effect of one of the following spells at caster level 7th: _ [divine favor](spells/divineFavor.md#_divine-favor)_, _ [false life](spells/falseLife.md#_false-life)_, _ [haste](spells/haste.md#_haste)_, or _ [rage](spells/rage.md#_rage)_. Unusual tanukis might have additional spell effect choices at the GM's discretion. Each time a tanuki takes a swig of sake, it becomes progressively drunker and takes a –1 penalty to its AC and on Reflex saves for 1 minute. These penalties stack.
 
 Jolly tricksters, tanukis love deceiving humanoids and other intelligent creatures. This mischief is usually harmless, but can turn spiteful in some situations.   
 Popular folklore stories claim tanukis are the transformed souls of tools and housewares that were used for more than 100 years, a myth that probably results from tanukis' ability to magically create or alter objects.

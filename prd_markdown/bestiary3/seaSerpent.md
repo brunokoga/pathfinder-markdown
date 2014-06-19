@@ -6,9 +6,9 @@ Deep Sea Serpent CR 19
 
 XP 204,800
 
-N Gargantuan magical beast ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Gargantuan magical beast ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +9; **Senses** darkvision 120 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +23
+**Init** +9; **Senses** darkvision 120 ft., low-light vision; [Perception](skills/perception.md#_perception) +23
 
 Defense
 
@@ -18,17 +18,17 @@ Defense
 
 **Fort** +22, **Ref** +20, **Will** +12
 
-**Defensive Abilities** elusive; **Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype); **Resist** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 30
+**Defensive Abilities** elusive; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype); **Resist** [fire](monsters/creatureTypes.md#_fire-subtype) 30
 
 Offense
 
 **Speed** 10 ft., swim 50 ft.; surge 400 ft.
 
-**Melee** bite +33 (6d10+14/19–20 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), tail slap +33 (6d8+14/19–20 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +33 (6d10+14/19–20 plus [grab](monsters/universalMonsterRules.md#_grab)), tail slap +33 (6d8+14/19–20 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 20 ft.; **Reach** 20 ft.
 
-**Special Attacks** capsize, [constrict](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict) (6d8+21), powerful tail, swallow whole (10d6+21 bludgeoning damage, AC 21, 33 hp)
+**Special Attacks** capsize, [constrict](monsters/universalMonsterRules.md#_constrict) (6d8+21), powerful tail, swallow whole (10d6+21 bludgeoning damage, AC 21, 33 hp)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +23; **CMB** +41 (+45 grapple); **CMD** 57 (can't be tripped)
 
-**Feats** [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (tail slap), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Improved Iron Will](/pathfinderRPG/prd/feats.html#_improved-iron-will), [Improved Vital Strike](/pathfinderRPG/prd/feats.html#_improved-vital-strike), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike)
+**Feats** [Critical Focus](feats.md#_critical-focus), [Dodge](feats.md#_dodge), [Improved Critical](feats.md#_improved-critical) (bite), [Improved Critical](feats.md#_improved-critical) (tail slap), [Improved Initiative](feats.md#_improved-initiative), [Improved Iron Will](feats.md#_improved-iron-will), [Improved Vital Strike](feats.md#_improved-vital-strike), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception)), [Vital Strike](feats.md#_vital-strike)
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +23, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +8, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +22
+**Skills** [Perception](skills/perception.md#_perception) +23, [Stealth](skills/stealth.md#_stealth) +8, [Swim](skills/swim.md#_swim) +22
 
 Ecology
 
@@ -50,9 +50,9 @@ Ecology
 
 Special Abilities
 
-**Elusive (Ex)** As a full-round action while in [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype), a deep sea serpent can move up to its run speed (200 feet) without leaving any trace of its passing (identical in effect to _ [pass without trace](/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace)_). An elusive deep sea serpent gains a +40 circumstance bonus on its [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) check. In addition, except when in combat, a sea serpent is considered to be under the effects of a _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_ spell. Both of these effects function at caster level 20th and cannot be dispelled.
+**Elusive (Ex)** As a full-round action while in [water](monsters/creatureTypes.md#_water-subtype), a deep sea serpent can move up to its run speed (200 feet) without leaving any trace of its passing (identical in effect to _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_). An elusive deep sea serpent gains a +40 circumstance bonus on its [Stealth](skills/stealth.md#_stealth) check. In addition, except when in combat, a sea serpent is considered to be under the effects of a _ [nondetection](spells/nondetection.md#_nondetection)_ spell. Both of these effects function at caster level 20th and cannot be dispelled.
 
-**Powerful Tail (Ex)** A deep sea serpent's tail slap is always a primary attack. When a deep sea serpent deals damage to an object with its tail slap or via [constrict](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict) damage, it ignores the first 10 points of hardness that object possesses.
+**Powerful Tail (Ex)** A deep sea serpent's tail slap is always a primary attack. When a deep sea serpent deals damage to an object with its tail slap or via [constrict](monsters/universalMonsterRules.md#_constrict) damage, it ignores the first 10 points of hardness that object possesses.
 
 **Surge (Ex)** A deep sea serpent can surge forward as a full-round action at a speed of 400 feet. It must move in a straight line, but does not provoke attacks of opportunity while surging.
 

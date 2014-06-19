@@ -6,15 +6,15 @@ Jotund Troll CR 15
 
 XP 51,200
 
-CE Huge humanoid ( [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype))
+CE Huge humanoid ( [giant](monsters/creatureTypes.md#_giant-subtype))
 
-**Init** +3; **Senses** [all-around vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision), low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +26
+**Init** +3; **Senses** [all-around vision](monsters/universalMonsterRules.md#_all-around-vision), low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +26
 
 Defense
 
 **AC** 30, touch 7, flat-footed 30 (–1 Dex, +23 natural, –2 size)
 
-**hp** 216 (16d8+144); regeneration 10 (acid or [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+**hp** 216 (16d8+144); regeneration 10 (acid or [fire](monsters/creatureTypes.md#_fire-subtype))
 
 **Fort** +16, **Ref** +6, **Will** +13 (+17 vs. mind-affecting effects)
 
@@ -24,13 +24,13 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** club +20/+15/+10 (2d6+10/19–20), bite +15 (2d6+5 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), claw +15 (1d8+5 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** club +20/+15/+10 (2d6+10/19–20), bite +15 (2d6+5 plus [grab](monsters/universalMonsterRules.md#_grab)), claw +15 (1d8+5 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Ranged** rock +10 (2d8+15)
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** all-seeing attacks, cacophonous roar, [fast swallow](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fast-swallow), rock throwing (120 ft.), swallow whole (4d6+15 bludgeoning, AC 21, 21 hp)
+**Special Attacks** all-seeing attacks, cacophonous roar, [fast swallow](monsters/universalMonsterRules.md#_fast-swallow), rock throwing (120 ft.), swallow whole (4d6+15 bludgeoning, AC 21, 21 hp)
 
 Statistics
 
@@ -38,16 +38,16 @@ Statistics
 
 **Base Atk** +12; **CMB** +24 (+28 grapple); **CMD** 33
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/monsters/monsterFeats.html#_awesome-blow), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), Improved Bull Rush, [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (club), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike)
+**Feats** [Awesome Blow](monsters/monsterFeats.md#_awesome-blow), [Great Fortitude](feats.md#_great-fortitude), Improved Bull Rush, [Improved Critical](feats.md#_improved-critical) (club), [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Vital Strike](feats.md#_vital-strike)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +29, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +26; **Racial Modifiers**   
-+4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Climb](skills/climb.md#_climb) +29, [Perception](skills/perception.md#_perception) +26; **Racial Modifiers**   
++4 [Perception](skills/perception.md#_perception)
 
-**Languages** [Giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype)
+**Languages** [Giant](monsters/creatureTypes.md#_giant-subtype)
 
 Ecology
 
-**Environment** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) hills or mountains
+**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) hills or mountains
 
 **Organization** solitary or war party (1 jotund troll plus 2–5 hill giants or 3–12 ogres)
 
@@ -76,19 +76,19 @@ Moss Troll CR 3
 
 XP 800
 
-CE Large humanoid ( [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype), [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+CE Large humanoid ( [giant](monsters/creatureTypes.md#_giant-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +4 (+8 when climbing trees); **Senses** darkvision 60 ft., low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
+**Init** +4 (+8 when climbing trees); **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +5
 
 Defense
 
 **AC** 15, touch 13, flat-footed 11 (+4 Dex, +2 natural, –1 size)
 
-**hp** 30 (4d8+12); regeneration 5 ( [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+**hp** 30 (4d8+12); regeneration 5 ( [fire](monsters/creatureTypes.md#_fire-subtype))
 
 **Fort** +7, **Ref** +5, **Will** +4
 
-**Weaknesses** [fear](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)) of [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), vulnerable to [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)
+**Weaknesses** [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) of [fire](monsters/creatureTypes.md#_fire-subtype), vulnerable to [fire](monsters/creatureTypes.md#_fire-subtype)
 
 Offense
 
@@ -104,17 +104,17 @@ Statistics
 
 **Base Atk** +3; **CMB** +8; **CMD** 22
 
-**Feats** [Intimidating Prowess](/pathfinderRPG/prd/feats.html#_intimidating-prowess), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will)
+**Feats** [Intimidating Prowess](feats.md#_intimidating-prowess), [Iron Will](feats.md#_iron-will)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +7, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +11, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +5, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +5 (+9 in vegetation); **Racial Modifiers** +2 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics), +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) (+8 in vegetation)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +7, [Climb](skills/climb.md#_climb) +11, [Intimidate](skills/intimidate.md#_intimidate) +5, [Perception](skills/perception.md#_perception) +5, [Stealth](skills/stealth.md#_stealth) +5 (+9 in vegetation); **Racial Modifiers** +2 [Acrobatics](skills/acrobatics.md#_acrobatics), +4 [Stealth](skills/stealth.md#_stealth) (+8 in vegetation)
 
-**Languages** [Giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype)
+**Languages** [Giant](monsters/creatureTypes.md#_giant-subtype)
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (mossy tree; _ [tree shape](/pathfinderRPG/prd/spells/treeShape.html#_tree-shape)_), tree climber
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (mossy tree; _ [tree shape](spells/treeShape.md#_tree-shape)_), tree climber
 
 Ecology
 
-**Environment** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) or temperate forests
+**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) or temperate forests
 
 **Organization** solitary, gang (2–3), or troop (4–8)
 
@@ -122,7 +122,7 @@ Ecology
 
 Special Abilities
 
-**[Fear](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)) of [Fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) (Ex)** A moss troll is shaken as long as it is within 30 feet of a visible [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) or an open flame of at least torch size.
+**[Fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) of [Fire](monsters/creatureTypes.md#_fire-subtype) (Ex)** A moss troll is shaken as long as it is within 30 feet of a visible [fire](monsters/creatureTypes.md#_fire-subtype) or an open flame of at least torch size.
 
 **Tree Climber (Ex)** When climbing trees and other foliage, a moss troll's climb speed increases to 30 feet. If a moss troll falls while climbing in trees, it ignores the first 30 feet it falls for the purposes of calculating total damage from the fall. While climbing in trees, a moss troll gains a +4 racial bonus on initiative checks.
 

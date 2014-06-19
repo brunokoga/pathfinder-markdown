@@ -6,9 +6,9 @@ _This creature has the body of a lion, the wings of a falcon, and the head and t
 
 **XP 4,800**
 
-N Large [magical beast](creatureTypes.html#_magical-beast)
+N Large [magical beast](creatureTypes.md#_magical-beast)
 
-**Init** +5; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.html#_perception) +21
+**Init** +5; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) +21
 
 **Defense**
 
@@ -26,17 +26,17 @@ N Large [magical beast](creatureTypes.html#_magical-beast)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [pounce](universalMonsterRules.html#_pounce), [rake](universalMonsterRules.html#_rake) (2 claws +17, 2d6+6)
+**Special Attacks** [pounce](universalMonsterRules.md#_pounce), [rake](universalMonsterRules.md#_rake) (2 claws +17, 2d6+6)
 
 **Spell-Like Abilities** (CL 12th)
 
-Constant—_ [comprehend languages](../spells/comprehendLanguages.html#_comprehend-languages), [detect magic](../spells/detectMagic.html#_detect-magic), [read magic](../spells/readMagic.html#_read-magic), [see invisibility](../spells/seeInvisibility.html#_see-invisibility)_
+Constant—_ [comprehend languages](../spells/comprehendLanguages.md#_comprehend-languages), [detect magic](../spells/detectMagic.md#_detect-magic), [read magic](../spells/readMagic.md#_read-magic), [see invisibility](../spells/seeInvisibility.md#_see-invisibility)_
 
-3/day—_ [clairaudience/clairvoyance](../spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance)_
+3/day—_ [clairaudience/clairvoyance](../spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance)_
 
-1/day—_ [dispel magic](../spells/dispelMagic.html#_dispel-magic), [locate object](../spells/locateObject.html#_locate-object), [remove curse](../spells/removeCurse.html#_remove-curse)_, _ [legend lore](../spells/legendLore.html#_legend-lore)_
+1/day—_ [dispel magic](../spells/dispelMagic.md#_dispel-magic), [locate object](../spells/locateObject.md#_locate-object), [remove curse](../spells/removeCurse.md#_remove-curse)_, _ [legend lore](../spells/legendLore.md#_legend-lore)_
 
-1/week—any one of the following: _ [symbol of fear](../spells/symbolOfFear.html#_symbol-of-fear)_ (DC 20)_, [symbol of pain](../spells/symbolOfPain.html#_symbol-of-pain) _(DC 19)_, [symbol of persuasion](../spells/symbolOfPersuasion.html#_symbol-of-persuasion) _(DC 20)_, [symbol of sleep](../spells/symbolOfSleep.html#_symbol-of-sleep) _(DC 19)_, [symbol of stunning](../spells/symbolOfStunning.html#_symbol-of-stunning) _(DC 21); all symbols last for 1 week maximum
+1/week—any one of the following: _ [symbol of fear](../spells/symbolOfFear.md#_symbol-of-fear)_ (DC 20)_, [symbol of pain](../spells/symbolOfPain.md#_symbol-of-pain) _(DC 19)_, [symbol of persuasion](../spells/symbolOfPersuasion.md#_symbol-of-persuasion) _(DC 20)_, [symbol of sleep](../spells/symbolOfSleep.md#_symbol-of-sleep) _(DC 19)_, [symbol of stunning](../spells/symbolOfStunning.md#_symbol-of-stunning) _(DC 21); all symbols last for 1 week maximum
 
 **Statistics**
 
@@ -44,9 +44,9 @@ Constant—_ [comprehend languages](../spells/comprehendLanguages.html#_comprehe
 
 **Base**  **Atk** +12; **CMB** +19; **CMD** 30 (34 vs. trip)
 
-**Feats** [Alertness](../feats.html#_alertness), [Combat Casting](../feats.html#_combat-casting), [Hover](monsterFeats.html#_hover), [Improved Critical](../feats.html#_improved-critical) (claw), [Improved Initiative](../feats.html#_improved-initiative), [Iron Will](../feats.html#_iron-will)
+**Feats** [Alertness](../feats.md#_alertness), [Combat Casting](../feats.md#_combat-casting), [Hover](monsterFeats.md#_hover), [Improved Critical](../feats.md#_improved-critical) (claw), [Improved Initiative](../feats.md#_improved-initiative), [Iron Will](../feats.md#_iron-will)
 
-**Skills** [Bluff](../skills/bluff.html#_bluff) +14, [Diplomacy](../skills/diplomacy.html#_diplomacy) +14, [Fly](../skills/fly.html#_fly) +7, [Intimidate](../skills/intimidate.html#_intimidate) +14, [Knowledge](../skills/knowledge.html#_knowledge) (any two) +6, [Perception](../skills/perception.html#_perception) +21, [Sense Motive](../skills/senseMotive.html#_sense-motive) +19, [Spellcraft](../skills/spellcraft.html#_spellcraft) +12
+**Skills** [Bluff](../skills/bluff.md#_bluff) +14, [Diplomacy](../skills/diplomacy.md#_diplomacy) +14, [Fly](../skills/fly.md#_fly) +7, [Intimidate](../skills/intimidate.md#_intimidate) +14, [Knowledge](../skills/knowledge.md#_knowledge) (any two) +6, [Perception](../skills/perception.md#_perception) +21, [Sense Motive](../skills/senseMotive.md#_sense-motive) +19, [Spellcraft](../skills/spellcraft.md#_spellcraft) +12
 
 **Languages** Common, Draconic, Sphinx
 
@@ -58,7 +58,7 @@ Constant—_ [comprehend languages](../spells/comprehendLanguages.html#_comprehe
 
 **Treasure** double
 
-Although there are many different species of sphinx, the one certain scholars refer to as the âgynosphinxâ (a name many sphinxes find insulting) is a wise and majestic creature that is nevertheless terrifying when angered. Less moralistic than their male counterparts (the âandrosphinxâ—a different creature entirely than the sphinx presented here), sphinxes are careful and methodical in their decision-making, and pride themselves on their cold logic and impartiality. They have little patience for the lesser sphinx variants, seeing them as little better than animals. Sphinxes love riddles and complicated dilemmas, and treasure strange facts and arcane trivia far more than gold or gems
+Although there are many different species of sphinx, the one certain scholars refer to as the “gynosphinx” (a name many sphinxes find insulting) is a wise and majestic creature that is nevertheless terrifying when angered. Less moralistic than their male counterparts (the “androsphinx”—a different creature entirely than the sphinx presented here), sphinxes are careful and methodical in their decision-making, and pride themselves on their cold logic and impartiality. They have little patience for the lesser sphinx variants, seeing them as little better than animals. Sphinxes love riddles and complicated dilemmas, and treasure strange facts and arcane trivia far more than gold or gems
 
 While not great scholars in any traditional sense, sphinxes' great appreciation of puzzles leads them to research shallowly in a wide variety of subjects, and they can often be invaluable sources of information, especially when making use of their magical abilities. They are usually happy to barter with other races, and regularly trade material goods for information or new and interesting quandaries. They make excellent guardians for temples, tombs, and other important locations, so long as they are kept adequately entertained. Sphinxes place great value on politeness, but can be dangerously temperamental—while they may decide to share their latest riddles with travelers out of altruism, they think little of devouring those who don't give their dilemmas adequate attention or provide useful insight.
 

@@ -6,9 +6,9 @@ _This translucent, ghostly figure fades into view from the damp mist, its face d
 
 **XP 3,200**
 
-LE Medium [undead](creatureTypes.html#_undead) ( [incorporeal](creatureTypes.html#_incorporeal-subtype))
+LE Medium [undead](creatureTypes.md#_undead) ( [incorporeal](creatureTypes.md#_incorporeal-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +17
+**Init** +7; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +17
 
 **Aura** unnatural aura (30 ft.)
 
@@ -20,7 +20,7 @@ LE Medium [undead](creatureTypes.html#_undead) ( [incorporeal](creatureTypes.htm
 
 **Fort** +4, **Ref** +5, **Will** +9
 
-**Defensive Abilities** [incorporeal](creatureTypes.html#_incorporeal-subtype), [channel resistance](universalMonsterRules.html#_channel-resistance) +2
+**Defensive Abilities** [incorporeal](creatureTypes.md#_incorporeal-subtype), [channel resistance](universalMonsterRules.md#_channel-resistance) +2
 
 **Weaknesses** resurrection vulnerability, sunlight powerlessness
 
@@ -28,7 +28,7 @@ LE Medium [undead](creatureTypes.html#_undead) ( [incorporeal](creatureTypes.htm
 
 **Speed** fly 80 ft. (perfect)
 
-**Melee** incorporeal touch +10 (1d8 plus [energy drain](universalMonsterRules.html#_energy-drain))
+**Melee** incorporeal touch +10 (1d8 plus [energy drain](universalMonsterRules.md#_energy-drain))
 
 **Special Attacks** create spawn, energy drain (2 levels, DC 16)
 
@@ -38,9 +38,9 @@ LE Medium [undead](creatureTypes.html#_undead) ( [incorporeal](creatureTypes.htm
 
 **Base Atk** +6; **CMB** +6; **CMD** 21
 
-**Feats** [Blind-Fight](../feats.html#_blind-fight), [Improved Initiative](../feats.html#_improved-initiative), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception)), [Weapon Focus](../feats.html#_weapon-focus) (touch)
+**Feats** [Blind-Fight](../feats.md#_blind-fight), [Improved Initiative](../feats.md#_improved-initiative), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Weapon Focus](../feats.md#_weapon-focus) (touch)
 
-**Skills** [Fly](../skills/fly.html#_fly) +11, [Intimidate](../skills/intimidate.html#_intimidate) +13, [Knowledge](../skills/knowledge.html#_knowledge) (history) +10, [Knowledge](../skills/knowledge.html#_knowledge) (religion) +13, [Perception](../skills/perception.html#_perception) +17, [Stealth](../skills/stealth.html#_stealth) +14, [Survival](../skills/survival.html#_survival) +11
+**Skills** [Fly](../skills/fly.md#_fly) +11, [Intimidate](../skills/intimidate.md#_intimidate) +13, [Knowledge](../skills/knowledge.md#_knowledge) (history) +10, [Knowledge](../skills/knowledge.md#_knowledge) (religion) +13, [Perception](../skills/perception.md#_perception) +17, [Stealth](../skills/stealth.md#_stealth) +14, [Survival](../skills/survival.md#_survival) +11
 
 **Languages** Common
 
@@ -54,11 +54,11 @@ LE Medium [undead](creatureTypes.html#_undead) ( [incorporeal](creatureTypes.htm
 
 **Create Spawn (Su)** Any humanoids slain by a spectre become spectres themselves in 1d4 rounds. Spawn so created are less powerful than typical spectres, and suffer a –2 penalty on all d20 rolls and checks, receive –2 hp per HD, and only drain one level on a touch. Spawn are under the command of the spectre that created them and remain enslaved until its death, at which point they lose their spawn penalties and become full-fledged and free-willed spectres. They do not possess any of the abilities they had in life.
 
-**Resurrection Vulnerability (Su)** A _ [raise dead](../spells/raiseDead.html#_raise-dead)_ or similar spell cast on a spectre destroys it (Will negates). Using the spell in this way does not require a material component.
+**Resurrection Vulnerability (Su)** A _ [raise dead](../spells/raiseDead.md#_raise-dead)_ or similar spell cast on a spectre destroys it (Will negates). Using the spell in this way does not require a material component.
 
-**Sunlight Powerlessness (Ex)** Spectres are powerless in natural sunlight (not merely a _ [daylight](../spells/daylight.html#_daylight)_ spell) and flee from it. A spectre caught in sunlight cannot attack and is staggered.
+**Sunlight Powerlessness (Ex)** Spectres are powerless in natural sunlight (not merely a _ [daylight](../spells/daylight.md#_daylight)_ spell) and flee from it. A spectre caught in sunlight cannot attack and is staggered.
 
-**Unnatural Aura (Su)** Animals, whether wild or domesticated, can sense the unnatural presence of a spectre at a distance of 30 feet. They do not willingly approach nearer than that and panic if forced to do so unless a master succeeds at a DC 25 [Handle Animal](../skills/handleAnimal.html#_handle-animal), [Ride](../skills/ride.html#_ride), or wild empathy check. A panicked animal remains so as long as it is within 30 feet of the spectre.
+**Unnatural Aura (Su)** Animals, whether wild or domesticated, can sense the unnatural presence of a spectre at a distance of 30 feet. They do not willingly approach nearer than that and panic if forced to do so unless a master succeeds at a DC 25 [Handle Animal](../skills/handleAnimal.md#_handle-animal), [Ride](../skills/ride.md#_ride), or wild empathy check. A panicked animal remains so as long as it is within 30 feet of the spectre.
 
 Spectres are evil undead that hate sunlight and living things. Most are the remnants of murdered or evil humans, their anger preventing them from entering the afterlife. Like ghosts, spectres haunt the places of their deaths, and seek to draw others into the lonely abyss of undeath.
 

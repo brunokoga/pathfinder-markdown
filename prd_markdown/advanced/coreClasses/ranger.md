@@ -6,25 +6,25 @@ Presented below are a number of alternate class features and archetypes to help 
 
 # New Combat Styles
 
-At 2nd level, a ranger must select one of the two core [combat styles](../../classes/ranger.html#_combat-style-feat) or one of the following new combat styles: crossbow, mounted combat, natural weapon, two-handed weapon, or weapon and shield style. The ranger can choose feats from his selected combat style even if he does not have the normal prerequisites.
+At 2nd level, a ranger must select one of the two core [combat styles](../../classes/ranger.md#_combat-style-feat) or one of the following new combat styles: crossbow, mounted combat, natural weapon, two-handed weapon, or weapon and shield style. The ranger can choose feats from his selected combat style even if he does not have the normal prerequisites.
 
-**Crossbow** : If the ranger selects crossbow style, he can choose from the following list whenever he gains a combat style feat: [Deadly Aim](../../feats.html#_deadly-aim), [Focused Shot](../advancedFeats.html#_focused-shot-(combat)), [Precise Shot](../../feats.html#_precise-shot), and [Rapid Reload](../../feats.html#_rapid-reload). At 6th level, he adds [Crossbow Mastery](../advancedFeats.html#_crossbow-mastery-(combat)) and [Improved Precise Shot](../../feats.html#_improved-precise-shot) to the list. At 10th level, he adds [Pinpoint Targeting](../../feats.html#_pinpoint-targeting) and [Shot on the Run](../../feats.html#_shot-on-the-run) to the list.
+**Crossbow** : If the ranger selects crossbow style, he can choose from the following list whenever he gains a combat style feat: [Deadly Aim](../../feats.md#_deadly-aim), [Focused Shot](../advancedFeats.md#_focused-shot-(combat)), [Precise Shot](../../feats.md#_precise-shot), and [Rapid Reload](../../feats.md#_rapid-reload). At 6th level, he adds [Crossbow Mastery](../advancedFeats.md#_crossbow-mastery-(combat)) and [Improved Precise Shot](../../feats.md#_improved-precise-shot) to the list. At 10th level, he adds [Pinpoint Targeting](../../feats.md#_pinpoint-targeting) and [Shot on the Run](../../feats.md#_shot-on-the-run) to the list.
 
-**[Mounted Combat](../../feats.html#_mounted-combat)** : If the ranger selects mounted combat, he can choose from the following list whenever he gains a combat style feat: [Mounted Combat](../../feats.html#_mounted-combat), [Mounted Archery](../../feats.html#_mounted-archery), [Ride-By Attack](../../feats.html#_ride-by-attack), and [Trick Riding](../advancedFeats.html#_trick-riding-(combat)). At 6th level, he adds [Mounted Shield](../advancedFeats.html#_mounted-shield-(combat)) and [Spirited Charge](../../feats.html#_spirited-charge) to the list. At 10th level, he adds [Mounted Skirmisher](../advancedFeats.html#_mounted-skirmisher-(combat)) and [Unseat](../../feats.html#_unseat) to the list.
+**[Mounted Combat](../../feats.md#_mounted-combat)** : If the ranger selects mounted combat, he can choose from the following list whenever he gains a combat style feat: [Mounted Combat](../../feats.md#_mounted-combat), [Mounted Archery](../../feats.md#_mounted-archery), [Ride-By Attack](../../feats.md#_ride-by-attack), and [Trick Riding](../advancedFeats.md#_trick-riding-(combat)). At 6th level, he adds [Mounted Shield](../advancedFeats.md#_mounted-shield-(combat)) and [Spirited Charge](../../feats.md#_spirited-charge) to the list. At 10th level, he adds [Mounted Skirmisher](../advancedFeats.md#_mounted-skirmisher-(combat)) and [Unseat](../../feats.md#_unseat) to the list.
 
-**Natural Weapon** : If the ranger selects natural weapon style, he can choose from the following list whenever he gains a combat style feat: [Aspect of the Beast](../advancedFeats.html#_aspect-of-the-beast), [Improved Natural Weapon](../../monsters/monsterFeats.html#_improved-natural-attack), [Rending Claws](../advancedFeats.html#_rending-claws-(combat)), and [Weapon Focus](../../feats.html#_weapon-focus). At 6th level, he adds Eldritch Fangs and [Vital Strike](../../feats.html#_vital-strike) to the list. At 10th level, he adds [Multiattack and](../../monsters/monsterFeats.html#_multiattack) [Improved Vital Strike](../../feats.html#_improved-vital-strike) to the list.
+**Natural Weapon** : If the ranger selects natural weapon style, he can choose from the following list whenever he gains a combat style feat: [Aspect of the Beast](../advancedFeats.md#_aspect-of-the-beast), [Improved Natural Weapon](../../monsters/monsterFeats.md#_improved-natural-attack), [Rending Claws](../advancedFeats.md#_rending-claws-(combat)), and [Weapon Focus](../../feats.md#_weapon-focus). At 6th level, he adds Eldritch Fangs and [Vital Strike](../../feats.md#_vital-strike) to the list. At 10th level, he adds [Multiattack and](../../monsters/monsterFeats.md#_multiattack) [Improved Vital Strike](../../feats.md#_improved-vital-strike) to the list.
 
-**Two-Handed Weapon** : If the ranger selects two-handed weapon style, he can choose from the following list whenever he gains a combat style feat: [Cleave](../../feats.html#_cleave), [Power Attack](../../feats.html#_power-attack), [Pushing Assault](../advancedFeats.html#_pushing-assault-(combat)), and [Shield of Swings](../advancedFeats.html#_shield-of-swings-(combat)). At 6th level, he adds [Furious Focus](../advancedFeats.html#_furious-focus-(combat)) and [Great Cleave](../../feats.html#_great-cleave) to the list. At 10th level, he adds [Dreadful Carnage](../advancedFeats.html#_dreadful-carnage-(combat)) and [Improved Sunder](../../feats.html#_improved-sunder) to the list.
+**Two-Handed Weapon** : If the ranger selects two-handed weapon style, he can choose from the following list whenever he gains a combat style feat: [Cleave](../../feats.md#_cleave), [Power Attack](../../feats.md#_power-attack), [Pushing Assault](../advancedFeats.md#_pushing-assault-(combat)), and [Shield of Swings](../advancedFeats.md#_shield-of-swings-(combat)). At 6th level, he adds [Furious Focus](../advancedFeats.md#_furious-focus-(combat)) and [Great Cleave](../../feats.md#_great-cleave) to the list. At 10th level, he adds [Dreadful Carnage](../advancedFeats.md#_dreadful-carnage-(combat)) and [Improved Sunder](../../feats.md#_improved-sunder) to the list.
 
-**Weapon and Shield** : If the ranger selects weapon and shield style, he can choose from the following list whenever he gains a combat style feat: [Improved Shield Bash](../../feats.html#_improved-shield-bash), [Shield Focus](../../feats.html#_shield-focus), [Shield Slam](../../feats.html#_shield-slam), and [Two-Weapon Fighting](../../feats.html#_two-weapon-fighting). At 6th level, he adds [Saving Shield](../advancedFeats.html#_saving-shield-(combat)) and [Shield Master](../../feats.html#_shield-master) to the list. At 10th level, he adds [Bashing Finish](../advancedFeats.html#_bashing-finish-(combat)) and [Greater Shield Focus](../../feats.html#_greater-shield-focus) to the list.
+**Weapon and Shield** : If the ranger selects weapon and shield style, he can choose from the following list whenever he gains a combat style feat: [Improved Shield Bash](../../feats.md#_improved-shield-bash), [Shield Focus](../../feats.md#_shield-focus), [Shield Slam](../../feats.md#_shield-slam), and [Two-Weapon Fighting](../../feats.md#_two-weapon-fighting). At 6th level, he adds [Saving Shield](../advancedFeats.md#_saving-shield-(combat)) and [Shield Master](../../feats.md#_shield-master) to the list. At 10th level, he adds [Bashing Finish](../advancedFeats.md#_bashing-finish-(combat)) and [Greater Shield Focus](../../feats.md#_greater-shield-focus) to the list.
 
 # Beast Master
 
 Some rangers, particularly those in primitive lands or who were raised by animals, have unusually strong bonds with animals. Unique among rangers, they can bond with multiple animals of any kind, creating a menagerie of wild yet loyal creatures, like a strange family. A beast master has the following class features.
 
-**Class Skills** : A beast master's class skills are [Acrobatics](../../skills/acrobatics.html#_acrobatics) (Dex), [Climb](../../skills/climb.html#_climb) (Str), [Craft](../../skills/craft.html#_craft) (Int), [Escape Artist](../../skills/escapeArtist.html#_escape-artist) (Dex), [Handle Animal](../../skills/handleAnimal.html#_handle-animal) (Cha), [Heal](../../skills/heal.html#_heal) (Wis), [Intimidate](../../skills/intimidate.html#_intimidate) (Cha), [Knowledge](../../skills/knowledge.html#_knowledge) (nature) (Int), [Perception](../../skills/perception.html#_perception) (Wis), [Ride](../../skills/ride.html#_ride) (Dex), [Stealth](../../skills/stealth.html#_stealth) (Dex), [Survival](../../skills/survival.html#_survival) (Wis), and [Swim](../../skills/swim.html#_swim) (Wis). These replace the standard ranger class skills.
+**Class Skills** : A beast master's class skills are [Acrobatics](../../skills/acrobatics.md#_acrobatics) (Dex), [Climb](../../skills/climb.md#_climb) (Str), [Craft](../../skills/craft.md#_craft) (Int), [Escape Artist](../../skills/escapeArtist.md#_escape-artist) (Dex), [Handle Animal](../../skills/handleAnimal.md#_handle-animal) (Cha), [Heal](../../skills/heal.md#_heal) (Wis), [Intimidate](../../skills/intimidate.md#_intimidate) (Cha), [Knowledge](../../skills/knowledge.md#_knowledge) (nature) (Int), [Perception](../../skills/perception.md#_perception) (Wis), [Ride](../../skills/ride.md#_ride) (Dex), [Stealth](../../skills/stealth.md#_stealth) (Dex), [Survival](../../skills/survival.md#_survival) (Wis), and [Swim](../../skills/swim.md#_swim) (Wis). These replace the standard ranger class skills.
 
-**Animal Companion (Ex)** : A beast master forms a close bond with an animal companion. This ability functions like the druid animal companion ability except that the ranger's effective druid level is equal to his ranger level – 3. The ranger gains a +2 bonus on wild empathy and [Handle Animal](../../skills/handleAnimal.html#_handle-animal) checks made regarding his animal companion. Unlike a normal ranger, a beast master's choice of animal companion is not limited to a subset of all possibile animal companion choices—he may choose freely among all animal companion choices, just as a druid can.
+**Animal Companion (Ex)** : A beast master forms a close bond with an animal companion. This ability functions like the druid animal companion ability except that the ranger's effective druid level is equal to his ranger level – 3. The ranger gains a +2 bonus on wild empathy and [Handle Animal](../../skills/handleAnimal.md#_handle-animal) checks made regarding his animal companion. Unlike a normal ranger, a beast master's choice of animal companion is not limited to a subset of all possibile animal companion choices—he may choose freely among all animal companion choices, just as a druid can.
 
 The beast master may have more than one animal companion, but he must divide up his effective druid level between his companions to determine the abilities of each companion. For example, a beast master with an effective druid level of 4 can have one 4th-level companion, two 2nd-level companions, or one 1st-level and one 3rd-level companion. Each time a beast master's effective druid level increases, he must decide how to allocate the increase among his animal companions (including the option of adding a new 1st-level companion). Once an effective druid level is allocated to a particular companion, it cannot be redistributed while that companion is in the ranger's service (he must release a companion or wait until a companion dies to allocate its levels to another companion). The share spells animal companion ability does not give the ranger the ability to cast a single spell so that it affects all of his animal companions. This ability replaces hunter's bond.
 
@@ -40,7 +40,7 @@ Many rangers are loners, but some choose to use their familiarity with the land 
 
 At 4th level, and every 3 levels thereafter, the ranger can use this ability one additional time per day. This ability replaces favored enemy.
 
-**Terrain Bond (Ex)** : At 4th level, the guide forms a bond with the land itself, enabling him to direct others in such terrain. When in his favored terrain, the ranger grants all allies within line of sight and that can hear him a +2 bonus on initiative checks and [Perception](../../skills/perception.html#_perception), [Stealth](../../skills/stealth.html#_stealth), and [Survival](../../skills/survival.html#_survival) skill checks. Also, as long as they travel with him, the ranger's allies leave no trail and can't be tracked. The ranger can choose for the group to leave a trail, or even specific members of the group to leave a trail if he so desires. This ability replaces hunter's bond.
+**Terrain Bond (Ex)** : At 4th level, the guide forms a bond with the land itself, enabling him to direct others in such terrain. When in his favored terrain, the ranger grants all allies within line of sight and that can hear him a +2 bonus on initiative checks and [Perception](../../skills/perception.md#_perception), [Stealth](../../skills/stealth.md#_stealth), and [Survival](../../skills/survival.md#_survival) skill checks. Also, as long as they travel with him, the ranger's allies leave no trail and can't be tracked. The ranger can choose for the group to leave a trail, or even specific members of the group to leave a trail if he so desires. This ability replaces hunter's bond.
 
 **Ranger's Luck (Ex)** : Upon reaching 9th level, once per day the guide can either reroll one of his attack rolls or force an enemy who just hit him with an attack to reroll the attack roll. The ranger must take the result of the second roll even if it is worse. A ranger can use this ability once per day at 9th level, plus one additional time per day at 14th and 19th levels. This ability replaces evasion.
 
@@ -50,69 +50,69 @@ At 4th level, and every 3 levels thereafter, the ranger can use this ability one
 
 # Horse Lord
 
-Rangers of the plains use horses or other riding beasts to hunt their lands, forging a near-mystical relationship with their mounts. Horse lords are unparalleled mounted combatants, the envy of even the most dedicated cavalier. Though called âhorse lordsâ as a generic term, these rangers are not restricted to horses for their animal companions—any creature the ranger can ride is included in these abilities. A horse lord has the following class features.
+Rangers of the plains use horses or other riding beasts to hunt their lands, forging a near-mystical relationship with their mounts. Horse lords are unparalleled mounted combatants, the envy of even the most dedicated cavalier. Though called “horse lords” as a generic term, these rangers are not restricted to horses for their animal companions—any creature the ranger can ride is included in these abilities. A horse lord has the following class features.
 
 **Combat Style Feat (Ex)** : At 2nd level, a horse lord must choose the mounted combat style.
 
-**Mounted Bond (Ex)** : At 4th level, the horse lord forms a bond with an animal he can use as a mount, which becomes his animal companion. A Medium ranger can select a camel or a horse. A small ranger can select a pony or wolf, but can also select a boar or dog if he is at least 7th level. This ability functions like the druid animal companion ability except that the ranger's effective druid level is equal to his ranger level – 3. The ranger gains a +2 bonus on [Handle Animal](../../skills/handleAnimal.html#_handle-animal) and [Ride](../../skills/ride.html#_ride) checks with his animal companion mount. This ability replaces hunter's bond.
+**Mounted Bond (Ex)** : At 4th level, the horse lord forms a bond with an animal he can use as a mount, which becomes his animal companion. A Medium ranger can select a camel or a horse. A small ranger can select a pony or wolf, but can also select a boar or dog if he is at least 7th level. This ability functions like the druid animal companion ability except that the ranger's effective druid level is equal to his ranger level – 3. The ranger gains a +2 bonus on [Handle Animal](../../skills/handleAnimal.md#_handle-animal) and [Ride](../../skills/ride.md#_ride) checks with his animal companion mount. This ability replaces hunter's bond.
 
 **Strong Bond (Ex)** : At 12th level, the horse lord strengthens his bond with his mount. The ranger's effective druid level for his mount is now equal to his ranger level. This ability replaces camouflage.
 
-**Spiritual Bond (Su)** : At 17th level, the horse lord can grant his animal companion temporary hit points equal to his ranger level once per day. While these temporary hit points last, when his mount is within 30 feet of the him, he can choose to share the damage taken by his mount as if using _ [shield other](../../spells/shieldOther.html#_shield-other)_. This ability replaces hide in plain sight.
+**Spiritual Bond (Su)** : At 17th level, the horse lord can grant his animal companion temporary hit points equal to his ranger level once per day. While these temporary hit points last, when his mount is within 30 feet of the him, he can choose to share the damage taken by his mount as if using _ [shield other](../../spells/shieldOther.md#_shield-other)_. This ability replaces hide in plain sight.
 
 # Infiltrator
 
 Some rangers study their favored enemies and learn their ways, applying this knowledge to their own abilities and using their foes' strengths against them. Infiltrators are willing to walk a mile in an enemy's shoes so as to learn eveything there is to know about their foes in order to more effectively hunt and kill them.
 
-**Adaptation (Ex)** : At 3rd level, an infiltrator learns how to copy the unusual abilities of his prey. He chooses one type of creature he has selected as a favored enemy, such as âaberrations.â The ranger selects one ability or feat from the adaptation list for that type (see below). A ranger can use adaptations for 10 minutes per day per ranger level he possesses. This duration does not need to be consecutive, but it must be used in 10-minute increments. If the adaptation requires the ranger to make a more specific choice (such as what skill to use with [Skill Focus](../../feats.html#_skill-focus)), this choice is permanent and cannot be changed.
+**Adaptation (Ex)** : At 3rd level, an infiltrator learns how to copy the unusual abilities of his prey. He chooses one type of creature he has selected as a favored enemy, such as “aberrations.” The ranger selects one ability or feat from the adaptation list for that type (see below). A ranger can use adaptations for 10 minutes per day per ranger level he possesses. This duration does not need to be consecutive, but it must be used in 10-minute increments. If the adaptation requires the ranger to make a more specific choice (such as what skill to use with [Skill Focus](../../feats.md#_skill-focus)), this choice is permanent and cannot be changed.
 
 At 8th, 13th, and 15th-level, the ranger chooses another one of his favored enemy types and selects one adaptation from that type's list, as well as an additional adaptation from any one list of a creature type he's selected (including the one just chosen, if so desired). The infiltrator can only use one adaptation at a time. This class ability replaces favored terrain.
 
-_Aberration_: amphibious, darkvision 60 ft., [Iron Will](../../feats.html#_iron-will), natural armor +2.
+_Aberration_: amphibious, darkvision 60 ft., [Iron Will](../../feats.md#_iron-will), natural armor +2.
 
-_Animal_: climb 15 ft., darkvision 60 ft., [Great Fortitude](../../feats.html#_great-fortitude), [Lightning Reflexes](../../feats.html#_lightning-reflexes), low-light vision, natural armor (+2), swim 15 ft.
+_Animal_: climb 15 ft., darkvision 60 ft., [Great Fortitude](../../feats.md#_great-fortitude), [Lightning Reflexes](../../feats.md#_lightning-reflexes), low-light vision, natural armor (+2), swim 15 ft.
 
-_Construct_: darkvision 60 ft., [Great Fortitude](../../feats.html#_great-fortitude), [Lightning Reflexes](../../feats.html#_lightning-reflexes), low-light vision.
+_Construct_: darkvision 60 ft., [Great Fortitude](../../feats.md#_great-fortitude), [Lightning Reflexes](../../feats.md#_lightning-reflexes), low-light vision.
 
-_Dragon_: darkvision 60 ft., [Great Fortitude](../../feats.html#_great-fortitude), [Iron Will](../../feats.html#_iron-will), [Lightning Reflexes](../../feats.html#_lightning-reflexes), low-light vision, [Lunge](../../feats.html#_lunge).
+_Dragon_: darkvision 60 ft., [Great Fortitude](../../feats.md#_great-fortitude), [Iron Will](../../feats.md#_iron-will), [Lightning Reflexes](../../feats.md#_lightning-reflexes), low-light vision, [Lunge](../../feats.md#_lunge).
 
-_Fey_: [Iron Will](../../feats.html#_iron-will), [Lightning Reflexes](../../feats.html#_lightning-reflexes), low-light vision.
+_Fey_: [Iron Will](../../feats.md#_iron-will), [Lightning Reflexes](../../feats.md#_lightning-reflexes), low-light vision.
 
 _Humanoid (aquatic)_: low-light vision, natural armor +2, darkvision, swim 15 ft.
 
 _Humanoid (dwarf)_: darkvision 60 ft., defensive training, greed, hatred, hardy, slow and steady, stability, stonecunning, weapon familiarity.
 
-_Humanoid (elf)_: elf blood, low-light vision, elven immunities, elven magic, keen senses, [Skill Focus](../../feats.html#_skill-focus) (choose one skill), weapon familiarity.
+_Humanoid (elf)_: elf blood, low-light vision, elven immunities, elven magic, keen senses, [Skill Focus](../../feats.md#_skill-focus) (choose one skill), weapon familiarity.
 
-_Humanoid (giant)_: low-light vision, [Lunge](../../feats.html#_lunge), natural armor +2, resist energy 10 (choose cold, electricity, or fire), [Throw Anything](../../feats.html#_throw-anything).
+_Humanoid (giant)_: low-light vision, [Lunge](../../feats.md#_lunge), natural armor +2, resist energy 10 (choose cold, electricity, or fire), [Throw Anything](../../feats.md#_throw-anything).
 
-_Humanoid (gnoll)_: darkvision 60 ft., [Exotic Weapon Proficiency](../../feats.html#_exotic-weapon-proficiency) (dire flail), natural armor +2.
+_Humanoid (gnoll)_: darkvision 60 ft., [Exotic Weapon Proficiency](../../feats.md#_exotic-weapon-proficiency) (dire flail), natural armor +2.
 
 _Humanoid (gnome)_: defensive training, gnome magic, hatred, illusion resistance, keen senses, low-light vision, obsessive, weapon familiarity.
 
-_Humanoid (goblinoid)_: darkvision 60 ft., goblin fast, [Skill Focus](../../feats.html#_skill-focus) ( [Stealth](../../skills/stealth.html#_stealth)), natural armor (+2).
+_Humanoid (goblinoid)_: darkvision 60 ft., goblin fast, [Skill Focus](../../feats.md#_skill-focus) ( [Stealth](../../skills/stealth.md#_stealth)), natural armor (+2).
 
 _Humanoid (halfling)_: fearless, halfling luck, keen senses, sure-footed, weapon familiarity.
 
-_Humanoid (human)_: [Great Fortitude](../../feats.html#_great-fortitude), [Iron Will](../../feats.html#_iron-will), [Lightning Reflexes](../../feats.html#_lightning-reflexes), [Skill Focus](../../feats.html#_skill-focus) (choose one skill).
+_Humanoid (human)_: [Great Fortitude](../../feats.md#_great-fortitude), [Iron Will](../../feats.md#_iron-will), [Lightning Reflexes](../../feats.md#_lightning-reflexes), [Skill Focus](../../feats.md#_skill-focus) (choose one skill).
 
 _Humanoid (orc)_: darkvision 60 ft., ferocity, intimidating, orc blood, weapon familiarity.
 
-_Humanoid (reptilian)_: darkvision 60 ft., kobold fast (as goblin fast), lizardfolk hold breath, natural armor +2, [Skill Focus](../../feats.html#_skill-focus) (choose [Acrobatics](../../skills/acrobatics.html#_acrobatics), [Perception](../../skills/perception.html#_perception), or [Stealth](../../skills/stealth.html#_stealth)).
+_Humanoid (reptilian)_: darkvision 60 ft., kobold fast (as goblin fast), lizardfolk hold breath, natural armor +2, [Skill Focus](../../feats.md#_skill-focus) (choose [Acrobatics](../../skills/acrobatics.md#_acrobatics), [Perception](../../skills/perception.md#_perception), or [Stealth](../../skills/stealth.md#_stealth)).
 
-_Magical Beast_: darkvision 60 ft., [Great Fortitude](../../feats.html#_great-fortitude), low-light vision, natural armor +2.
+_Magical Beast_: darkvision 60 ft., [Great Fortitude](../../feats.md#_great-fortitude), low-light vision, natural armor +2.
 
-_Monstrous Humanoid_: darkvision 60 ft., [Lightning Reflexes](../../feats.html#_lightning-reflexes), low-light vision, natural armor +2.
+_Monstrous Humanoid_: darkvision 60 ft., [Lightning Reflexes](../../feats.md#_lightning-reflexes), low-light vision, natural armor +2.
 
-_Ooze_: acid resistance 10, [Great Fortitude](../../feats.html#_great-fortitude), [Iron Will](../../feats.html#_iron-will), [Skill Focus](../../feats.html#_skill-focus) (choose [Climb](../../skills/climb.html#_climb), [Escape Artist](../../skills/escapeArtist.html#_escape-artist), or [Perception](../../skills/perception.html#_perception)).
+_Ooze_: acid resistance 10, [Great Fortitude](../../feats.md#_great-fortitude), [Iron Will](../../feats.md#_iron-will), [Skill Focus](../../feats.md#_skill-focus) (choose [Climb](../../skills/climb.md#_climb), [Escape Artist](../../skills/escapeArtist.md#_escape-artist), or [Perception](../../skills/perception.md#_perception)).
 
-_Outsider_: darkvision 60 ft., energy resistance 5 (choose one type of energy from acid, cold, electricity, or fire), [Great Fortitude](../../feats.html#_great-fortitude), [Iron Will](../../feats.html#_iron-will), [Lightning Reflexes](../../feats.html#_lightning-reflexes).
+_Outsider_: darkvision 60 ft., energy resistance 5 (choose one type of energy from acid, cold, electricity, or fire), [Great Fortitude](../../feats.md#_great-fortitude), [Iron Will](../../feats.md#_iron-will), [Lightning Reflexes](../../feats.md#_lightning-reflexes).
 
-_Plant_: low-light vision, [Great Fortitude](../../feats.html#_great-fortitude), [Iron Will](../../feats.html#_iron-will).
+_Plant_: low-light vision, [Great Fortitude](../../feats.md#_great-fortitude), [Iron Will](../../feats.md#_iron-will).
 
-_Undead_: darkvision 60 ft., [Great Fortitude](../../feats.html#_great-fortitude), [Iron Will](../../feats.html#_iron-will), natural armor (+2). [Skill Focus](../../feats.html#_skill-focus) ( [Stealth](../../skills/stealth.html#_stealth)).
+_Undead_: darkvision 60 ft., [Great Fortitude](../../feats.md#_great-fortitude), [Iron Will](../../feats.md#_iron-will), natural armor (+2). [Skill Focus](../../feats.md#_skill-focus) ( [Stealth](../../skills/stealth.md#_stealth)).
 
-_Vermin_: climb 15 ft., darkvision 60 ft., [Great Fortitude](../../feats.html#_great-fortitude), [Iron Will](../../feats.html#_iron-will), swim 15 ft.
+_Vermin_: climb 15 ft., darkvision 60 ft., [Great Fortitude](../../feats.md#_great-fortitude), [Iron Will](../../feats.md#_iron-will), swim 15 ft.
 
 # Shapeshifter
 
@@ -126,15 +126,15 @@ The shapeshifter must choose one of the following forms. Once this choice is mad
 
 _Form of the Bear_: The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +4 enhancement bonus to Strength, but his base speed becomes 20 feet.
 
-_Form of the Cat_: The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 10 feet, and he gains a +4 bonus on [Acrobatics](../../skills/acrobatics.html#_acrobatics) and [Climb](../../skills/climb.html#_climb) checks.
+_Form of the Cat_: The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 10 feet, and he gains a +4 bonus on [Acrobatics](../../skills/acrobatics.md#_acrobatics) and [Climb](../../skills/climb.md#_climb) checks.
 
 _Form of the Dragon_: The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +2 natural armor bonus to AC.
 
-_Form of the Eagle_: The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on [Perception](../../skills/perception.html#_perception) checks.
+_Form of the Eagle_: The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on [Perception](../../skills/perception.md#_perception) checks.
 
 _Form of the Jackal_: The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger can spend a move action to move up to 1/2 his speed without provoking attacks of opportunity.
 
-_Form of the Otter_: The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 30 feet and a +8 bonus on [Swim](../../skills/swim.html#_swim) checks.
+_Form of the Otter_: The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 30 feet and a +8 bonus on [Swim](../../skills/swim.md#_swim) checks.
 
 At 8th level and again every five levels thereafter, the ranger may select an additional form for his shifter's blessing and may use this ability one additional time per day. This is not a polymorph ability; a ranger with shifter's blessing in one of his shifted forms can be affected by a polymorph ability and retain his bonus and traits gained by the class feature. This ability replaces favored terrain.
 
@@ -142,17 +142,17 @@ At 8th level and again every five levels thereafter, the ranger may select an ad
 
 **Master Shifter (Su)** : At 20th level, the ranger's shifter's blessing forms improve, and he can take on true forms of beasts. The ranger can use dual form shifter with this ability, although he cannot use more than one polymorph effect at any one time. This ability replaces master hunter. The ranger's forms from shifter's blessing improve to the following:
 
-_Form of the Bear_: The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +8 enhancement bonus to Strength and he does not suffer any reduction of speed. Alternatively, the ranger can polymorph into the form of a bear as if the caster of _ [beast shape IV](../../spells/beastShape.html#_beast-shape-iv)_.
+_Form of the Bear_: The ranger's muscles enlarge and tighten, and his facial features become more ursine. While in this form, the ranger gains a +8 enhancement bonus to Strength and he does not suffer any reduction of speed. Alternatively, the ranger can polymorph into the form of a bear as if the caster of _ [beast shape IV](../../spells/beastShape.md#_beast-shape-iv)_.
 
-_Form of the Cat_: The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 20 feet and he gains a +10 bonus on [Acrobatics](../../skills/acrobatics.html#_acrobatics) and [Climb](../../skills/climb.html#_climb) checks. Alternatively, the ranger can polymorph into the form of a cat of any size as if the caster of _ [beast shape IV](../../spells/beastShape.html#_beast-shape-iv)_.
+_Form of the Cat_: The ranger's muscles become lean and defined, and his gait more deliberate and graceful. While in this form, the ranger increases his base speed by 20 feet and he gains a +10 bonus on [Acrobatics](../../skills/acrobatics.md#_acrobatics) and [Climb](../../skills/climb.md#_climb) checks. Alternatively, the ranger can polymorph into the form of a cat of any size as if the caster of _ [beast shape IV](../../spells/beastShape.md#_beast-shape-iv)_.
 
-_Form of the Dragon_: The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +4 natural armor bonus to AC and a fly speed of 30 feet with average maneuverability. Alternately, the ranger can polymorph into the form of a dragon as if the caster of _ [form of the dragon I](../../spells/formOfTheDragon.html#_form-of-the-dragon-i)_.
+_Form of the Dragon_: The ranger's skin becomes rough and scaly. While in this form, the ranger gains a +4 natural armor bonus to AC and a fly speed of 30 feet with average maneuverability. Alternately, the ranger can polymorph into the form of a dragon as if the caster of _ [form of the dragon I](../../spells/formOfTheDragon.md#_form-of-the-dragon-i)_.
 
-_Form of the Eagle_: The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on [Perception](../../skills/perception.html#_perception) checks and a fly speed of 40 feet with good maneuverability. Alternatively, the ranger can polymorph into the form of an eagle or similar raptor as if the caster of _ [beast shape IV](../../spells/beastShape.html#_beast-shape-iv)_.
+_Form of the Eagle_: The ranger's skin stretches, his nose becomes hooked, and his eyes enlarge. While in this form, the ranger gains a +10 bonus on [Perception](../../skills/perception.md#_perception) checks and a fly speed of 40 feet with good maneuverability. Alternatively, the ranger can polymorph into the form of an eagle or similar raptor as if the caster of _ [beast shape IV](../../spells/beastShape.md#_beast-shape-iv)_.
 
-_Form of the Jackal_: The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger does not provoke attacks of opportunity due to movement. Alternatively, the ranger can polymorph into the form of a jackal or other canine creature as if the caster of _ [beast shape IV](../../spells/beastShape.html#_beast-shape-iv)_.
+_Form of the Jackal_: The ranger becomes thin and hyperactive, his movements taking on a nervous spryness. While in this form, the ranger does not provoke attacks of opportunity due to movement. Alternatively, the ranger can polymorph into the form of a jackal or other canine creature as if the caster of _ [beast shape IV](../../spells/beastShape.md#_beast-shape-iv)_.
 
-_Form of the Otter_: The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 60 feet and a +5 bonus on [Swim](../../skills/swim.html#_swim) checks. Alternatively, the ranger can polymorph into the form of an otter or similar river mammal as if the caster of _ [beast shape IV](../../spells/beastShape.html#_beast-shape-iv)_.
+_Form of the Otter_: The ranger's hands and feet grow webs, and his body grows an oily fur that is water resistant. While in this form, the ranger gains a swim speed of 60 feet and a +5 bonus on [Swim](../../skills/swim.md#_swim) checks. Alternatively, the ranger can polymorph into the form of an otter or similar river mammal as if the caster of _ [beast shape IV](../../spells/beastShape.md#_beast-shape-iv)_.
 
 # Skirmisher
 
@@ -168,9 +168,9 @@ _Bolster Companion (Ex)_: The ranger can use this trick as an immediate action w
 
 _Catfall (Ex)_: The ranger can use this trick as an immediate action when he falls 20 or more feet, ignoring the first 20 feet of the fall when calculating the falling damage. If the ranger takes no damage from the fall, he does not fall prone.
 
-_Chameleon Step (Ex)_: The ranger can move up to twice his speed as a move action. The ranger does not take any penalty on [Stealth](../../skills/stealth.html#_stealth) checks for movement during this move. This move provokes attacks of opportunity as normal.
+_Chameleon Step (Ex)_: The ranger can move up to twice his speed as a move action. The ranger does not take any penalty on [Stealth](../../skills/stealth.md#_stealth) checks for movement during this move. This move provokes attacks of opportunity as normal.
 
-_Cunning Pantomime (Ex)_: As a standard action, the ranger can communicate with a single creature as if using the _ [tongues](../../spells/tongues.html#_tongues)_ spell for 10 minutes. Because the communication is slow and lacks subtlety, the ranger suffers a –4 penalty on all [Bluff](../../skills/bluff.html#_bluff) and [Diplomacy](../../skills/diplomacy.html#_diplomacy) checks relating to the creature he is communicating with when using this trick.
+_Cunning Pantomime (Ex)_: As a standard action, the ranger can communicate with a single creature as if using the _ [tongues](../../spells/tongues.md#_tongues)_ spell for 10 minutes. Because the communication is slow and lacks subtlety, the ranger suffers a –4 penalty on all [Bluff](../../skills/bluff.md#_bluff) and [Diplomacy](../../skills/diplomacy.md#_diplomacy) checks relating to the creature he is communicating with when using this trick.
 
 _Defensive Bow Stance (Ex)_: The ranger can use this trick as a swift action. Until the start of his next turn, his ranged attacks do not provoke attacks of opportunity.
 
@@ -184,17 +184,17 @@ _Heel (Ex)_: The ranger can use this trick as an immediate action when his anima
 
 _Hobbling Attack (Ex)_: The ranger can use this trick as a free action when he hits with an attack. The target of the attack's land speed is reduced by 1/2 for 1d4 rounds.
 
-_Quick [Climb](../../skills/climb.html#_climb) (Ex)_: The ranger can climb at his full speed as a move action without penalty.
+_Quick [Climb](../../skills/climb.md#_climb) (Ex)_: The ranger can climb at his full speed as a move action without penalty.
 
-_Quick Healing (Ex)_: As a swift action, the ranger can make a [Heal](../../skills/heal.html#_heal) check to administer first aid on an adjacent dying character. Alternatively, the ranger can administer a potion to an unconscious character as a move action.
+_Quick Healing (Ex)_: As a swift action, the ranger can make a [Heal](../../skills/heal.md#_heal) check to administer first aid on an adjacent dying character. Alternatively, the ranger can administer a potion to an unconscious character as a move action.
 
-_Quick [Swim](../../skills/swim.html#_swim) (Ex)_: The ranger can swim at his full speed as a move action without penalty.
+_Quick [Swim](../../skills/swim.md#_swim) (Ex)_: The ranger can swim at his full speed as a move action without penalty.
 
 _Ranger's Counsel (Ex)_: As a swift action, the ranger can grant all allies within 30 feet that are within line of sight and can hear him a +2 bonus on skill checks with a single skill of his choice. The ranger must have at least one rank in the chosen skill. This bonus lasts for 1 round.
 
 _Rattling Strike (Ex)_: The ranger can use this trick as a free action before he makes a melee attack. If the attack hits, the target is shaken for 1d4 rounds.
 
-_ [Second Chance](../advancedFeats.html#_second-chance-(combat)) Strike (Ex)_: When he misses with a melee attack, the ranger may reroll his attack at a –5 penalty. Using this ability is an immediate action.
+_ [Second Chance](../advancedFeats.md#_second-chance-(combat)) Strike (Ex)_: When he misses with a melee attack, the ranger may reroll his attack at a –5 penalty. Using this ability is an immediate action.
 
 _Sic 'Em (Ex)_: The ranger can use this trick as a swift action. His animal companion makes one melee attack against an adjacent creature. The animal companion must be able to see and hear the ranger to make this attack.
 
@@ -208,7 +208,7 @@ _Tangling Attack (Ex)_: The ranger can use this attack as a free action when he 
 
 _Trick Shot (Ex)_: As a standard action, the ranger can make a ranged attack that ignores concealment (but not total concealment), soft cover, and partial cover.
 
-_Uncanny Senses (Ex)_: As an immediate action, the ranger gains a +10 insight bonus on [Perception](../../skills/perception.html#_perception) checks for 1 round.
+_Uncanny Senses (Ex)_: As an immediate action, the ranger gains a +10 insight bonus on [Perception](../../skills/perception.md#_perception) checks for 1 round.
 
 _Upending Strike (Ex)_: The ranger can use this trick as a free action just before he makes a melee attack. If the attack hits, he may make a free trip combat maneuver against the target.
 
@@ -218,17 +218,17 @@ _Vengeance Strike (Ex)_: The ranger can use this trick as an immediate action wh
 
 Some rangers nurture a connection with the spirits that reside in all things. By communing with these spirits, the spirit ranger can gain glimpses of things to come. A spirit ranger has the following class features.
 
-**Spirit Bond (Ex)** : At 4th level, instead of forming a bond with his hunting companions or an animal companion, the spirit ranger forms a bond with the spirits of nature themselves. Each day, as long as he is within one of his favored terrains, the ranger can cast _ [augury](../../spells/augury.html#_augury)_ as a spell-like ability with a caster level equal to his ranger level. In addition, he can call upon these spirits to cast any one ranger spell that he is capable of casting, without having to prepare the spell. At 8th level, and every four levels thereafter, he can cast an additional spell in this way. This replaces hunter's bond.
+**Spirit Bond (Ex)** : At 4th level, instead of forming a bond with his hunting companions or an animal companion, the spirit ranger forms a bond with the spirits of nature themselves. Each day, as long as he is within one of his favored terrains, the ranger can cast _ [augury](../../spells/augury.md#_augury)_ as a spell-like ability with a caster level equal to his ranger level. In addition, he can call upon these spirits to cast any one ranger spell that he is capable of casting, without having to prepare the spell. At 8th level, and every four levels thereafter, he can cast an additional spell in this way. This replaces hunter's bond.
 
-**Wisdom of the Spirits (Sp)** : At 12th level, the spirit ranger can use his _ [augury](../../spells/augury.html#_augury)_ spell-like ability even when he is not in one of his favored terrains. If he is within one of his favored terrains, the ranger can cast _ [divination](../../spells/divination.html#_divination)_ instead. Like _ [augury](../../spells/augury.html#_augury)_, the caster level of the _ [divination](../../spells/divination.html#_divination)_ is equal to the ranger's level. This ability replaces camouflage.
+**Wisdom of the Spirits (Sp)** : At 12th level, the spirit ranger can use his _ [augury](../../spells/augury.md#_augury)_ spell-like ability even when he is not in one of his favored terrains. If he is within one of his favored terrains, the ranger can cast _ [divination](../../spells/divination.md#_divination)_ instead. Like _ [augury](../../spells/augury.md#_augury)_, the caster level of the _ [divination](../../spells/divination.md#_divination)_ is equal to the ranger's level. This ability replaces camouflage.
 
 # Urban Ranger
 
 For the urban ranger, the streets and sewers of the city are just as dangerous as the barren wastelands or the deep forests. An urban ranger has the following class features.
 
-**Urban Ranger** : At 1st level, an urban ranger adds [Disable Device](../../skills/disableDevice.html#_disable-device) and [Knowledge](../../skills/knowledge.html#_knowledge) (local) to his list of class skills and removes [Handle Animal](../../skills/handleAnimal.html#_handle-animal) and [Knowledge](../../skills/knowledge.html#_knowledge) (nature) from his list of class skills.
+**Urban Ranger** : At 1st level, an urban ranger adds [Disable Device](../../skills/disableDevice.md#_disable-device) and [Knowledge](../../skills/knowledge.md#_knowledge) (local) to his list of class skills and removes [Handle Animal](../../skills/handleAnimal.md#_handle-animal) and [Knowledge](../../skills/knowledge.md#_knowledge) (nature) from his list of class skills.
 
-**Favored Community (Ex)** : At 3rd level, the urban ranger forms a bond with a community. While inside the limits of this community, he gains a +2 bonus on initiative checks and [Knowledge](../../skills/knowledge.html#_knowledge) (local), [Perception](../../skills/perception.html#_perception), [Stealth](../../skills/stealth.html#_stealth), and [Survival](../../skills/survival.html#_survival) skill checks. An urban ranger traveling through his favored community leaves no trail and cannot be tracked (although he may leave a trail if he so desires).
+**Favored Community (Ex)** : At 3rd level, the urban ranger forms a bond with a community. While inside the limits of this community, he gains a +2 bonus on initiative checks and [Knowledge](../../skills/knowledge.md#_knowledge) (local), [Perception](../../skills/perception.md#_perception), [Stealth](../../skills/stealth.md#_stealth), and [Survival](../../skills/survival.md#_survival) skill checks. An urban ranger traveling through his favored community leaves no trail and cannot be tracked (although he may leave a trail if he so desires).
 
 At 8th level, and every five levels thereafter, an urban ranger may select an additional favored community. In addition, at each such interval, the skill bonus and initiative bonus in any one favored community (including the one just selected, if so desired) increases by +2.
 
@@ -238,7 +238,7 @@ For the purposes of this ability, a community is any settlement consisting of 10
 
 **Push Through (Ex)** : At 7th level, an urban ranger is never slowed by difficult terrain in his favored communities. In addition, he can move through the space occupied by local citizens as if they were allies. This does not apply to creatures intent on harming the ranger. Areas that are enchanted or magically manipulated to impede motion, however, still affect him. This replaces woodland stride.
 
-**Blend In (Ex)** : An urban ranger of 12th level or higher can use his [Stealth](../../skills/stealth.html#_stealth) bonus in place of a [Disguise](../../skills/disguise.html#_disguise) skill check in any of his favored communities. This disguise does not take an action to don. He must make a check whenever someone attempts to pick him out from the local citizens. If his check is successful, he blends into the crowd. While not invisible, enemies do not notice his presence and take no actions against him unless they are taking actions against the local citizens in general. This replaces camouflage.
+**Blend In (Ex)** : An urban ranger of 12th level or higher can use his [Stealth](../../skills/stealth.md#_stealth) bonus in place of a [Disguise](../../skills/disguise.md#_disguise) skill check in any of his favored communities. This disguise does not take an action to don. He must make a check whenever someone attempts to pick him out from the local citizens. If his check is successful, he blends into the crowd. While not invisible, enemies do not notice his presence and take no actions against him unless they are taking actions against the local citizens in general. This replaces camouflage.
 
-**Invisibility Trick (Sp)** : At 17th level, the urban ranger can cast _ [greater invisibility](../../spells/invisibility.html#_invisibility-greater)_ on himself as a wizard of his ranger level as a swift action. He can use this spell-like ability a number of times per day equal to his Wisdom modifier (minimum 1). This ability replaces hide in plain sight.
+**Invisibility Trick (Sp)** : At 17th level, the urban ranger can cast _ [greater invisibility](../../spells/invisibility.md#_invisibility-greater)_ on himself as a wizard of his ranger level as a swift action. He can use this spell-like ability a number of times per day equal to his Wisdom modifier (minimum 1). This ability replaces hide in plain sight.
 

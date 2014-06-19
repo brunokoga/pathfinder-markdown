@@ -59,5 +59,5 @@ The rest of this section dives deep into your background, starting from birth an
 
 Above all, don't let creating a background become a burden for you. The goal is to help you play a character, not to paralyze you with decisions you don't want to make right now.
 
-[Early Life](/pathfinderRPG/prd/ultimateCampaign/characterBackground/earlyLife.html) [Adolescence](/pathfinderRPG/prd/ultimateCampaign/characterBackground/adolescence.html) [Adulthood](/pathfinderRPG/prd/ultimateCampaign/characterBackground/adulthood.html) [Background Generator](/pathfinderRPG/prd/ultimateCampaign/characterBackground/backgroundGenerator.html) [Traits](/pathfinderRPG/prd/ultimateCampaign/characterBackground/traits.html) [Story Feats](/pathfinderRPG/prd/ultimateCampaign/characterBackground/storyFeats.html)
+[Early Life](ultimateCampaign/characterBackground/earlyLife.md) [Adolescence](ultimateCampaign/characterBackground/adolescence.md) [Adulthood](ultimateCampaign/characterBackground/adulthood.md) [Background Generator](ultimateCampaign/characterBackground/backgroundGenerator.md) [Traits](ultimateCampaign/characterBackground/traits.md) [Story Feats](ultimateCampaign/characterBackground/storyFeats.md)
 

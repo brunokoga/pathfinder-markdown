@@ -4,7 +4,7 @@ If you are unsatisfied with a feat, skill, archetype, or class ability you chose
 
 Retraining takes all your attention for 8 hours per day for a number of days based on what you're retraining. You can't perform any other strenuous activities while retraining, such as marching, adventuring, or crafting magic items. You can retrain only one thing at a time; you must complete or abandon a particular training goal before starting another one. Abandoning unfinished training means you lose all progress toward that training's goal and all costs associated with that training.
 
-Unless stated otherwise, retraining costs gp equal to 10 Ã your level Ã the number of days required to retrain. This is normally paid in full at the start of the retraining period, but the GM might allow you to divide these payments over multiple days. At the GM's discretion, this training cost could be up to 50% higher or lower, depending on situational factors within the settlement—availability of trainers, local economy, cost of materials, and so on.
+Unless stated otherwise, retraining costs gp equal to 10 × your level × the number of days required to retrain. This is normally paid in full at the start of the retraining period, but the GM might allow you to divide these payments over multiple days. At the GM's discretion, this training cost could be up to 50% higher or lower, depending on situational factors within the settlement—availability of trainers, local economy, cost of materials, and so on.
 
 Some retraining options require you to work with a trainer. If no suitable trainer is available, the GM might allow you to retrain yourself by spending twice the normal time. Even if you train yourself, you must still pay the cost for training (though you don't double the cost as you do the time). Any option that requires a trainer also requires some kind of training facility for that activity (such as a Dojo).
 
@@ -52,9 +52,9 @@ Class features you can retrain are as follows (some entries also call out other 
 
 **Barbarian** : Retrain one rage power.
 
-**Bard** : Retrain one type of [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) skill associated with your versatile performance class feature. See also retraining skill ranks and retraining spells known.
+**Bard** : Retrain one type of [Perform](skills/perform.md#_perform) skill associated with your versatile performance class feature. See also retraining skill ranks and retraining spells known.
 
-**Cavalier** : You can change your order; the rules for this are found [here](/pathfinderRPG/prd/advanced/baseClasses/cavalier.html#_order). See also retraining feats.
+**Cavalier** : You can change your order; the rules for this are found [here](advanced/baseClasses/cavalier.md#_order). See also retraining feats.
 
 **Cleric** : Retrain one domain; the new domain must be one granted by your deity. Doing so replaces your list of domain spells and your domain granted powers. If you are a neutral cleric of a neutral deity, you can instead retrain whether you channel positive or negative energy, which also changes whether you spontaneously cast _cure_ spells or _inflict_ spells.
 
@@ -153,13 +153,13 @@ Sometimes the dice aren't in your favor when you gain a level and the hit points
 
 Retraining hit points takes 3 days and requires you to spend time at a martial academy, monk monastery, or with some kind of master of combat who is at least one level higher than you. At the end of the training period, increase your hit points by 1. You can retrain hit points only if your maximum hit point total is less than the maximum possible hit point total for your character.
 
-_Example_: If you are a fighter 5 with Constitution 14 and you haven't allocated any of your favored class bonus to hit points, your maximum possible hit point total is 60: (d10 HD + 2 from Constitution) Ã 5 levels. If your maximum hit point total is already 60, you can't retrain hit points because you are already at the limit. If you took the [Toughness](/pathfinderRPG/prd/feats.html#_toughness) feat, you would gain 5 hit points and your maximum possible hit point total would also increase by 5, which means your ability to retrain hit points would be the same as without the feat.
+_Example_: If you are a fighter 5 with Constitution 14 and you haven't allocated any of your favored class bonus to hit points, your maximum possible hit point total is 60: (d10 HD + 2 from Constitution) × 5 levels. If your maximum hit point total is already 60, you can't retrain hit points because you are already at the limit. If you took the [Toughness](feats.md#_toughness) feat, you would gain 5 hit points and your maximum possible hit point total would also increase by 5, which means your ability to retrain hit points would be the same as without the feat.
 
 ## New Language
 
 You can spend time to learn an additional language. It takes 20 days of training to gain a bonus language, and these days need not be consecutive. Each language requires a trainer who shares a language with you and knows the language you want to learn, or a book written in a language you know that explains the basics of the language you want to learn.
 
-The new language does not count toward your maximum number of languages (racial languages + bonus languages from Intelligence + [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) ranks). You can train this way only a number of times equal to 1 + your Intelligence bonus.
+The new language does not count toward your maximum number of languages (racial languages + bonus languages from Intelligence + [Linguistics](skills/linguistics.md#_linguistics) ranks). You can train this way only a number of times equal to 1 + your Intelligence bonus.
 
 ## Racial Trait
 

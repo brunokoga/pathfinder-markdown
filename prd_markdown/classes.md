@@ -1,26 +1,26 @@
 # Classes
 
-**[Barbarian](classes/barbarian.html#_barbarian)** : The barbarian is a brutal berserker from beyond the edge of civilized lands.
+**[Barbarian](classes/barbarian.md#_barbarian)** : The barbarian is a brutal berserker from beyond the edge of civilized lands.
 
-**[Bard](classes/bard.html#_bard)** : The bard uses skill and spell alike to bolster his allies, confound his enemies, and build upon his fame.
+**[Bard](classes/bard.md#_bard)** : The bard uses skill and spell alike to bolster his allies, confound his enemies, and build upon his fame.
 
-**[Cleric](classes/cleric.html#_cleric)** : A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods.
+**[Cleric](classes/cleric.md#_cleric)** : A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods.
 
-**[Druid](classes/druid.html#_druid)** : The druid is a worshiper of all things natural—a spellcaster, a friend to animals, and a skilled shapechanger.
+**[Druid](classes/druid.md#_druid)** : The druid is a worshiper of all things natural—a spellcaster, a friend to animals, and a skilled shapechanger.
 
-**[Fighter](classes/fighter.html#_fighter)** : Brave and stalwart, the fighter is a master of all manner of arms and armor.
+**[Fighter](classes/fighter.md#_fighter)** : Brave and stalwart, the fighter is a master of all manner of arms and armor.
 
-**[Monk](classes/monk.html#_monk)** : A student of martial arts, the monk trains his body to be his greatest weapon and defense.
+**[Monk](classes/monk.md#_monk)** : A student of martial arts, the monk trains his body to be his greatest weapon and defense.
 
-**[Paladin](classes/paladin.html#_paladin)** : The paladin is the knight in shining armor, a devoted follower of law and good.
+**[Paladin](classes/paladin.md#_paladin)** : The paladin is the knight in shining armor, a devoted follower of law and good.
 
-**[Ranger](classes/ranger.html#_ranger)** : A tracker and hunter, the ranger is a creature of the wild and of tracking down his favored foes.
+**[Ranger](classes/ranger.md#_ranger)** : A tracker and hunter, the ranger is a creature of the wild and of tracking down his favored foes.
 
-**[Rogue](classes/rogue.html#_rogue)** : The rogue is a thief and a scout, an opportunist capable of delivering brutal strikes against unwary foes.
+**[Rogue](classes/rogue.md#_rogue)** : The rogue is a thief and a scout, an opportunist capable of delivering brutal strikes against unwary foes.
 
-**[Sorcerer](classes/sorcerer.html#_sorcerer)** : The spellcasting sorcerer is born with an innate knack for magic and has strange, eldritch powers.
+**[Sorcerer](classes/sorcerer.md#_sorcerer)** : The spellcasting sorcerer is born with an innate knack for magic and has strange, eldritch powers.
 
-**[Wizard](classes/wizard.html#_wizard)** : The wizard masters magic through constant study that gives him incredible magical power.
+**[Wizard](classes/wizard.md#_wizard)** : The wizard masters magic through constant study that gives him incredible magical power.
 
 # Character Advancement
 
@@ -62,7 +62,7 @@ When adding new levels of an existing class or adding levels of a new class (see
 
 ## Multiclassing
 
-Instead of gaining the abilities granted by the next level in your character's current class, he can instead gain the 1st-level abilities of a new class, adding all of those abilities to his existing ones. This is known as âmulticlassing.â
+Instead of gaining the abilities granted by the next level in your character's current class, he can instead gain the 1st-level abilities of a new class, adding all of those abilities to his existing ones. This is known as “multiclassing.”
 
 For example, let's say a 5th-level fighter decides to dabble in the arcane arts, and adds one level of wizard when he advances to 6th level. Such a character would have the powers and abilities of both a 5th-level fighter and a 1st-level wizard, but would still be considered a 6th-level character. (His class levels would be 5th and 1st, but his total character level is 6th.) He keeps all of his bonus feats gained from 5 levels of fighter, but can now also cast 1st-level spells and picks an arcane school. He adds all of the hit points, base attack bonuses, and saving throw bonuses from a 1st-level wizard on top of those gained from being a 5th-level fighter.
 
@@ -70,5 +70,5 @@ Note that there are a number of effects and prerequisites that rely on a charact
 
 ## Favored Class
 
-Each character begins play with a single favored class of his choosing—typically, this is the same class as the one he chooses at 1st level. Whenever a character gains a level in his favored class, he receives either + 1 hit point or + 1 skill rank. The choice of favored class cannot be changed once the character is created, and the choice of gaining a hit point or a skill rank each time a character gains a level (including his first level) cannot be changed once made for a particular level. Prestige classes (see [Prestige Classes](prestigeClasses.html)) can never be a favored class.
+Each character begins play with a single favored class of his choosing—typically, this is the same class as the one he chooses at 1st level. Whenever a character gains a level in his favored class, he receives either + 1 hit point or + 1 skill rank. The choice of favored class cannot be changed once the character is created, and the choice of gaining a hit point or a skill rank each time a character gains a level (including his first level) cannot be changed once made for a particular level. Prestige classes (see [Prestige Classes](prestigeClasses.md)) can never be a favored class.
 

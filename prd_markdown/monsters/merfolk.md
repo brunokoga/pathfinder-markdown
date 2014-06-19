@@ -8,9 +8,9 @@ _Slipping in and out of the crashing waves, this beautiful woman has the lower t
 
 Merfolk warrior 1
 
-N Medium [humanoid](creatureTypes.html#_humanoid) ( [aquatic](creatureTypes.html#_aquatic-subtype))
+N Medium [humanoid](creatureTypes.md#_humanoid) ( [aquatic](creatureTypes.md#_aquatic-subtype))
 
-**Init** +1; **Senses** low-light vision; [Perception](../skills/perception.html#_perception) +3
+**Init** +1; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +3
 
 **Defense**
 
@@ -34,13 +34,13 @@ N Medium [humanoid](creatureTypes.html#_humanoid) ( [aquatic](creatureTypes.html
 
 **Base**  **Atk** +1; **CMB** +2; **CMD** 13 (can't be tripped)
 
-**Feats** [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
+**Feats** [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
 
-**Skills** [Perception](../skills/perception.html#_perception) +3, [Swim](../skills/swim.html#_swim) +13
+**Skills** [Perception](../skills/perception.md#_perception) +3, [Swim](../skills/swim.md#_swim) +13
 
 **Languages** Aquan, Common
 
-**SQ** [amphibious](universalMonsterRules.html#_amphibious)
+**SQ** [amphibious](universalMonsterRules.md#_amphibious)
 
 **Ecology**
 

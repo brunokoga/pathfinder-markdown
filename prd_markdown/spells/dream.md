@@ -12,7 +12,7 @@
 
 **Duration** see text
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
 You, or a messenger you touch, send a message to others in the form of a dream. At the beginning of the spell, you must name the recipient or identify him or her by some title that leaves no doubt as to identity. The messenger then enters a trance, appears in the intended recipient's dream, and delivers the message. The message can be of any length, and the recipient remembers it perfectly upon waking. The communication is one-way. The recipient cannot ask questions or offer information, nor can the messenger gain any information by observing the dreams of the recipient.
 

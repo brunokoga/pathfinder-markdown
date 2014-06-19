@@ -6,9 +6,9 @@ _A thick tangle of discolored entrails clings to this lurching skeleton's torso 
 
 **XP 4,800**
 
-CE Medium [undead](creatureTypes.html#_undead)
+CE Medium [undead](creatureTypes.md#_undead)
 
-**Init** +8; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +20
+**Init** +8; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +20
 
 **Defense**
 
@@ -18,13 +18,13 @@ CE Medium [undead](creatureTypes.html#_undead)
 
 **Fort** +6, **Ref** +10, **Will** +9
 
-**Immune** [undead traits](universalMonsterRules.html#_undead-traits)
+**Immune** [undead traits](universalMonsterRules.md#_undead-traits)
 
 **Offense**
 
 **Speed** 30 ft.
 
-**Melee** 2 slams +15 (2d8+5 plus [grab](universalMonsterRules.html#_grab)), tongue +10 melee touch (paralysis)
+**Melee** 2 slams +15 (2d8+5 plus [grab](universalMonsterRules.md#_grab)), tongue +10 melee touch (paralysis)
 
 **Special Attacks** create spawn, paralysis (1d4 minutes, DC 21)
 
@@ -34,9 +34,9 @@ CE Medium [undead](creatureTypes.html#_undead)
 
 **Base**  **Atk** +10; **CMB** +15 (+19 grapple); **CMD** 30
 
-**Feats** [Ability Focus](monsterFeats.html#_ability-focus) (paralysis), [Dodge](../feats.html#_dodge), [Improved Initiative](../feats.html#_improved-initiative), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Mobility](../feats.html#_mobility), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception)), [Spring Attack](../feats.html#_spring-attack)
+**Feats** [Ability Focus](monsterFeats.md#_ability-focus) (paralysis), [Dodge](../feats.md#_dodge), [Improved Initiative](../feats.md#_improved-initiative), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Mobility](../feats.md#_mobility), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Spring Attack](../feats.md#_spring-attack)
 
-**Skills** [Climb](../skills/climb.html#_climb) +22, [Perception](../skills/perception.html#_perception) +23, [Stealth](../skills/stealth.html#_stealth) +21, [Swim](../skills/swim.html#_swim) +19
+**Skills** [Climb](../skills/climb.md#_climb) +22, [Perception](../skills/perception.md#_perception) +23, [Stealth](../skills/stealth.md#_stealth) +21, [Swim](../skills/swim.md#_swim) +19
 
 **Ecology**
 
@@ -56,7 +56,7 @@ Undead things caring less for life than they did before their own deaths, mohrgs
 
 When possible, mohrgs gather in small groups, seeking out lone targets much as they did in life. If faced with capable foes, a mohrg attempts to incapacitate them one by one, starting with divinely empowered characters first, both to protect itself from holy wrath, and to make the task of paralyzing and devouring the others that much easier.
 
-Some mohrgs retain enough of their former memories that they return to the favored locations of their pasts, âhauntingâ old hideouts and sometimes even resuming the depredations of murderers long dead, falling back on means of death and mayhem that were more comfortable in their breathing days. Such mohrgs are even more insane than most undead beings, and can sometimes be found wandering the streets of a city or town in cowls and cloaks, carrying on their old life's work of slaughter and murder as best they can.
+Some mohrgs retain enough of their former memories that they return to the favored locations of their pasts, “haunting” old hideouts and sometimes even resuming the depredations of murderers long dead, falling back on means of death and mayhem that were more comfortable in their breathing days. Such mohrgs are even more insane than most undead beings, and can sometimes be found wandering the streets of a city or town in cowls and cloaks, carrying on their old life's work of slaughter and murder as best they can.
 
 Of course, since those slain by a mohrg rise soon thereafter as undead themselves, the murders of a mohrg do not go unnoticed for long, even when they take extra care to prey only upon society's dregs. A sudden uprising of undead in the streets is the inevitable result of a mohrg's attentions. Since these zombies remain under the mohrg's control, and since the mohrg itself possesses a hateful and cruel intelligence, it often holds its undead army in reserve, even commanding it to lie motionless until several weeks or months have passed and the local graveyard is filled with the sleeping dead. Then, when the time is right, the mohrg calls upon its army to rise and aid it in finishing the slaughter.
 

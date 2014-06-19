@@ -6,9 +6,9 @@ Ash Giant CR 11
 
 XP 12,800
 
-CN Large humanoid ( [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype))
+CN Large humanoid ( [giant](monsters/creatureTypes.md#_giant-subtype))
 
-**Init** +2; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8
+**Init** +2; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +8
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +15, **Ref** +6, **Will** +5
 
-**Defensive Abilities** rock catching; **Immune** [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su))
+**Defensive Abilities** rock catching; **Immune** [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))
 
 Offense
 
@@ -26,11 +26,11 @@ Offense
 
 **Melee** Huge club +20/+15 (2d6+11 plus disease), slam +15 (1d8+5 plus disease) or 2 slams +20 (1d8+11 plus disease)
 
-**Ranged** rock +13 (1d8+16 plus [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)))
+**Ranged** rock +13 (1d8+16 plus [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), rock throwing (120 ft.)
+**Special Attacks** [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), rock throwing (120 ft.)
 
 Statistics
 
@@ -38,11 +38,11 @@ Statistics
 
 **Base Atk** +10; **CMB** +22; **CMD** 34
 
-**Feats** [Catch Off-Guard](/pathfinderRPG/prd/feats.html#_catch-off-guard), [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Great Cleave](/pathfinderRPG/prd/feats.html#_great-cleave), [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Precise Shot](/pathfinderRPG/prd/feats.html#_precise-shot), [Self-Sufficient](/pathfinderRPG/prd/feats.html#_self-sufficient)
+**Feats** [Catch Off-Guard](feats.md#_catch-off-guard), [Cleave](feats.md#_cleave), [Great Cleave](feats.md#_great-cleave), [Point-Blank Shot](feats.md#_point-blank-shot), [Power Attack](feats.md#_power-attack), [Precise Shot](feats.md#_precise-shot), [Self-Sufficient](feats.md#_self-sufficient)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +14, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +7, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +6, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +9
+**Skills** [Climb](skills/climb.md#_climb) +14, [Heal](skills/heal.md#_heal) +7, [Intimidate](skills/intimidate.md#_intimidate) +6, [Perception](skills/perception.md#_perception) +8, [Survival](skills/survival.md#_survival) +9
 
-**Languages** Common, [Giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype)
+**Languages** Common, [Giant](monsters/creatureTypes.md#_giant-subtype)
 
 **SQ** oversized weapon, vermin empathy +14
 
@@ -50,19 +50,19 @@ Ecology
 
 **Environment** any wastelands
 
-**Organization** solitary, gang (2–5), band (6–9), raid (9–12 plus 1d4 [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) vermin), or tribe (13–30 plus 35% noncombatants, plus 1 barbarian or fighter chief of 6th–8th level and 6–8 [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) vermin)
+**Organization** solitary, gang (2–5), band (6–9), raid (9–12 plus 1d4 [giant](monsters/creatureTypes.md#_giant-subtype) vermin), or tribe (13–30 plus 35% noncombatants, plus 1 barbarian or fighter chief of 6th–8th level and 6–8 [giant](monsters/creatureTypes.md#_giant-subtype) vermin)
 
 **Treasure** standard (hide armor, Huge club, other treasure)
 
 Special Abilities
 
-**[Disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)) (Su)** While ash giants are immune to [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), they carry a contagious form of leprosy. Any creature struck by an ash [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype)'s attacks is exposed to this virulent sickness.
+**[Disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) (Su)** While ash giants are immune to [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), they carry a contagious form of leprosy. Any creature struck by an ash [giant](monsters/creatureTypes.md#_giant-subtype)'s attacks is exposed to this virulent sickness.
 
 _Ash Leprosy_: Injury; _save_ Fort 23; _onset_ 1 minute; _frequency_ 1 day; _effect_ 1d2 Con damage, 1d2 Cha drain; _cure_ 2 consecutive saves. The save DC is Constitution-based.
 
-**Oversized Weapon (Ex)** An ash [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) can wield Huge weapons without penalty.
+**Oversized Weapon (Ex)** An ash [giant](monsters/creatureTypes.md#_giant-subtype) can wield Huge weapons without penalty.
 
-**Vermin Empathy (Ex)** This ability functions as a druid's wild empathy ability, save that it works only on vermin. An ash [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) gains a racial bonus on this check equal to its Hit Dice (+14 for most ash giants). Vermin are normally mindless, but this empathic communication imparts upon them a modicum of implanted intelligence, allowing the ash [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) to train vermin and use them as guardians (although it does not grant them skills or feats).
+**Vermin Empathy (Ex)** This ability functions as a druid's wild empathy ability, save that it works only on vermin. An ash [giant](monsters/creatureTypes.md#_giant-subtype) gains a racial bonus on this check equal to its Hit Dice (+14 for most ash giants). Vermin are normally mindless, but this empathic communication imparts upon them a modicum of implanted intelligence, allowing the ash [giant](monsters/creatureTypes.md#_giant-subtype) to train vermin and use them as guardians (although it does not grant them skills or feats).
 
 Whether because of disruptive magic, unearthed deep elements, or alien technology that fell calamitously from the sky, ash giants are victims of their barren terrains. Yet they somehow survive and even thrive in these desperate lands. Ash giants have an uncanny ability to bond with the enormous and often mutated vermin they share the landscape with, and sometimes use the largest of these creatures as mounts.
 
@@ -78,9 +78,9 @@ Cave Giant CR 6
 
 XP 2,400
 
-CE Large humanoid ( [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype))
+CE Large humanoid ( [giant](monsters/creatureTypes.md#_giant-subtype))
 
-**Init** +0; **Senses** darkvision 120 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
+**Init** +0; **Senses** darkvision 120 ft., low-light vision; [Perception](skills/perception.md#_perception) +5
 
 Defense
 
@@ -112,9 +112,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +13; **CMD** 23
 
-**Feats** [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Improved Sunder](/pathfinderRPG/prd/feats.html#_improved-sunder), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (battleaxe)
+**Feats** [Cleave](feats.md#_cleave), [Improved Sunder](feats.md#_improved-sunder), [Power Attack](feats.md#_power-attack), [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (battleaxe)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +6, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +7, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
+**Skills** [Climb](skills/climb.md#_climb) +6, [Intimidate](skills/intimidate.md#_intimidate) +7, [Perception](skills/perception.md#_perception) +5
 
 **SQ** axe wielder
 
@@ -122,7 +122,7 @@ Ecology
 
 **Environment** any underground
 
-**Organization** solitary, gang (2–5), band (6–8 plus 1–2 monitor lizards), raiding party (9–12 plus 1–4 monitor lizards), or tribe (13–20 plus 30% noncombatants, plus 1 barbarian, fighter, or ranger chief of 3rd–5th level; 2–9 monitor lizards; 1–4 [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) frilled lizards; and 10–15 dwarf, orc, or troglodyte slaves)
+**Organization** solitary, gang (2–5), band (6–8 plus 1–2 monitor lizards), raiding party (9–12 plus 1–4 monitor lizards), or tribe (13–20 plus 30% noncombatants, plus 1 barbarian, fighter, or ranger chief of 3rd–5th level; 2–9 monitor lizards; 1–4 [giant](monsters/creatureTypes.md#_giant-subtype) frilled lizards; and 10–15 dwarf, orc, or troglodyte slaves)
 
 **Treasure** standard (battleaxe, hide armor, other treasure)
 
@@ -146,9 +146,9 @@ Desert Giant CR 9
 
 XP 6,400
 
-LN Large humanoid ( [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype))
+LN Large humanoid ( [giant](monsters/creatureTypes.md#_giant-subtype))
 
-**Init** +3; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9
+**Init** +3; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +9
 
 Defense
 
@@ -158,7 +158,7 @@ Defense
 
 **Fort** +9, **Ref** +11, **Will** +5
 
-**Defensive Abilities** rock catching; **Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)
+**Defensive Abilities** rock catching; **Immune** [fire](monsters/creatureTypes.md#_fire-subtype)
 
 Offense
 
@@ -178,11 +178,11 @@ Statistics
 
 **Base Atk** +9; **CMB** +18; **CMD** 32 (36 vs. disarm and sunder)
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (scimitar), [Improved Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_improved-two-weapon-fighting), [Mobility](/pathfinderRPG/prd/feats.html#_mobility), [Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_two-weapon-fighting), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (scimitar)
+**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Improved Critical](feats.md#_improved-critical) (scimitar), [Improved Two-Weapon Fighting](feats.md#_improved-two-weapon-fighting), [Mobility](feats.md#_mobility), [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Focus](feats.md#_weapon-focus) (scimitar)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +16 (+24 when jumping), [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +11, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +17
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +16 (+24 when jumping), [Intimidate](skills/intimidate.md#_intimidate) +11, [Perception](skills/perception.md#_perception) +9, [Survival](skills/survival.md#_survival) +17
 
-**Languages** Common, [Giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype)
+**Languages** Common, [Giant](monsters/creatureTypes.md#_giant-subtype)
 
 **SQ** sandwalking
 
@@ -190,15 +190,15 @@ Ecology
 
 **Environment** warm desert
 
-**Organization** solitary, gang (2–4), band (5–8), raiding party (9–12 plus 1 fighter of 1st–3rd level), or tribe (10–30 plus 35% noncombatants, 1–3 clerics of 2nd–4th level, 2–4 fighters of 1st–3rd level, and 1 fighter sheik of 4th–6th level, 50% chance of 10–20 [human](/pathfinderRPG/prd/monsters/creatureTypes.html#_human-subtype) slaves)
+**Organization** solitary, gang (2–4), band (5–8), raiding party (9–12 plus 1 fighter of 1st–3rd level), or tribe (10–30 plus 35% noncombatants, 1–3 clerics of 2nd–4th level, 2–4 fighters of 1st–3rd level, and 1 fighter sheik of 4th–6th level, 50% chance of 10–20 [human](monsters/creatureTypes.md#_human-subtype) slaves)
 
 **Treasure** standard (2 masterwork scimitars, leather armor, other treasure)
 
 Special Abilities
 
-**Sandwalking (Ex)** A desert [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) travels at full speed across sand, rocky ground, or dust, and leaves no trail behind unless it chooses to.
+**Sandwalking (Ex)** A desert [giant](monsters/creatureTypes.md#_giant-subtype) travels at full speed across sand, rocky ground, or dust, and leaves no trail behind unless it chooses to.
 
-**Scimitar Training (Ex)** All desert giants are proficient with scimitars, and can wield them as if they were light weapons. A desert [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) adds its full Strength bonus to attacks made with a scimitar wielded in its off hand, and gains a +4 bonus to CMD versus disarm and sunder attempts when fighting with a scimitar in each hand.
+**Scimitar Training (Ex)** All desert giants are proficient with scimitars, and can wield them as if they were light weapons. A desert [giant](monsters/creatureTypes.md#_giant-subtype) adds its full Strength bonus to attacks made with a scimitar wielded in its off hand, and gains a +4 bonus to CMD versus disarm and sunder attempts when fighting with a scimitar in each hand.
 
 Desert giants rove the stark and majestic sands, rarely dwelling in permanent camps. They roam from oasis to oasis, sleeping beneath the stars or in easily dismantled yurts, breaking camp as whim strikes or when food sources grow scarce.
 
@@ -214,9 +214,9 @@ Jungle Giant CR 10
 
 XP 9,600
 
-N Huge humanoid ( [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype))
+N Huge humanoid ( [giant](monsters/creatureTypes.md#_giant-subtype))
 
-**Init** +4; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15
+**Init** +4; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +15
 
 Defense
 
@@ -226,7 +226,7 @@ Defense
 
 **Fort** +9, **Ref** +13, **Will** +7
 
-**Defensive Abilities** rock catching, spell storing, warding tattoos; **Immune** [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su))
+**Defensive Abilities** rock catching, spell storing, warding tattoos; **Immune** [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))
 
 Offense
 
@@ -244,11 +244,11 @@ Statistics
 
 **Base Atk** +11; **CMB** +21; **CMD** 39
 
-**Feats** [Deadly Aim](/pathfinderRPG/prd/feats.html#_deadly-aim), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (longbow), [Improved Precise Shot](/pathfinderRPG/prd/feats.html#_improved-precise-shot), [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), [Precise Shot](/pathfinderRPG/prd/feats.html#_precise-shot), [Rapid Shot](/pathfinderRPG/prd/feats.html#_rapid-shot), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (longbow)
+**Feats** [Deadly Aim](feats.md#_deadly-aim), [Improved Critical](feats.md#_improved-critical) (longbow), [Improved Precise Shot](feats.md#_improved-precise-shot), [Point-Blank Shot](feats.md#_point-blank-shot), [Precise Shot](feats.md#_precise-shot), [Rapid Shot](feats.md#_rapid-shot), [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth)), [Weapon Focus](feats.md#_weapon-focus) (longbow)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +12, [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (bows) +8, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +15, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +12 (+20 in forests), [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +10; **Racial Modifiers** +4 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb), +8 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) in forests
+**Skills** [Climb](skills/climb.md#_climb) +12, [Craft](skills/craft.md#_craft) (bows) +8, [Perception](skills/perception.md#_perception) +15, [Stealth](skills/stealth.md#_stealth) +12 (+20 in forests), [Survival](skills/survival.md#_survival) +10; **Racial Modifiers** +4 [Climb](skills/climb.md#_climb), +8 [Stealth](skills/stealth.md#_stealth) in forests
 
-**Languages** Common, [Giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype)
+**Languages** Common, [Giant](monsters/creatureTypes.md#_giant-subtype)
 
 **SQ** archery expert
 
@@ -262,11 +262,11 @@ Ecology
 
 Special Abilities
 
-**Archery Expert (Su)** A jungle [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) is proficient with all bows, and does not provoke an attack of opportunity when firing a bow in melee combat.
+**Archery Expert (Su)** A jungle [giant](monsters/creatureTypes.md#_giant-subtype) is proficient with all bows, and does not provoke an attack of opportunity when firing a bow in melee combat.
 
-**Spell Storing (Su)** Once per day as a immediate action, a jungle [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) can absorb a targeted or ranged touch spell used against it, negating the effects against it but not against any other targets. It can retain this stored power for up to 1 minute, during which time its tattoos glow with blue [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype). If it damages a target with a successful hit using a melee or ranged weapon, it can cast the spell on the target as a free action, as if it were using a _ [spell storing](/pathfinderRPG/prd/magicItems/weapons.html#_spell-storing) weapon_. This spell uses the caster level and DC of the original caster. This discharges the stored spell.
+**Spell Storing (Su)** Once per day as a immediate action, a jungle [giant](monsters/creatureTypes.md#_giant-subtype) can absorb a targeted or ranged touch spell used against it, negating the effects against it but not against any other targets. It can retain this stored power for up to 1 minute, during which time its tattoos glow with blue [fire](monsters/creatureTypes.md#_fire-subtype). If it damages a target with a successful hit using a melee or ranged weapon, it can cast the spell on the target as a free action, as if it were using a _ [spell storing](magicItems/weapons.md#_spell-storing) weapon_. This spell uses the caster level and DC of the original caster. This discharges the stored spell.
 
-**Warding Tattoos (Su)** A jungle [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype)'s magical tattoos grant it a +4 deflection bonus to Armor Class. The [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) loses this bonus if it wears armor.
+**Warding Tattoos (Su)** A jungle [giant](monsters/creatureTypes.md#_giant-subtype)'s magical tattoos grant it a +4 deflection bonus to Armor Class. The [giant](monsters/creatureTypes.md#_giant-subtype) loses this bonus if it wears armor.
 
 Reclusive by nature, jungle giants lair deep within the rainforest. These giants distrust the ways of civilization and resent trespassers. More than one vine-covered lost city in the deep jungle owes its fall to jungle giant ire. The warrior-women of these tribes usually fight with bows, sacred weapons often passed down over generations from mother to daughter. To touch a jungle giant's bow without permission is a mortal insult.
 

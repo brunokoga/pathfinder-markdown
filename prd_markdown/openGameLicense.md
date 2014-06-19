@@ -182,7 +182,7 @@ Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
 
 **Gloomwing from the _Tome of Horrors, Revised_** , © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
 
-**Grippli from the _Tome of Horrors Complete_** © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.â© **Nereid from the _Tome of Horrors Complete_** © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+**Grippli from the _Tome of Horrors Complete_** © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  **Nereid from the _Tome of Horrors Complete_** © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
 
 **Gryph from the _Tome of Horrors, Revised_** , © 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Peter Brown.
 

@@ -64,7 +64,7 @@ Predict (Time)
 
 **Target Restrictions** _personal_
 
-The target of a wordspell with this effect word can look into the future of one particular action that will happen within the next hour and determine whether or not it is likely to have good or bad results. This prediction is not guaranteed; there is only a 70% chance of receiving an accurate prediction + 1% per caster level. If this check fails, the results are incorrect. The only information the target receives is âwealâ for a good outcome, âwoeâ for a bad outcome, or both for outcomes that are both good and bad, or that are or neutral in regard to the caster. Additional castings concerning the same course of action always reveal the same results.
+The target of a wordspell with this effect word can look into the future of one particular action that will happen within the next hour and determine whether or not it is likely to have good or bad results. This prediction is not guaranteed; there is only a 70% chance of receiving an accurate prediction + 1% per caster level. If this check fails, the results are incorrect. The only information the target receives is “weal” for a good outcome, “woe” for a bad outcome, or both for outcomes that are both good and bad, or that are or neutral in regard to the caster. Additional castings concerning the same course of action always reveal the same results.
 
 Borrow Future (Time)
 

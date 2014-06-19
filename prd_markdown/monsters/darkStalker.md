@@ -6,9 +6,9 @@ _This tall humanoid's pale brow and black, soulless eyes are all that can be see
 
 **XP 1,200**
 
-CN Medium [humanoid](creatureTypes.html#_humanoid) (dark folk)
+CN Medium [humanoid](creatureTypes.md#_humanoid) (dark folk)
 
-**Init** +4; **Senses** see in darkness; [Perception](../skills/perception.html#_perception) +8
+**Init** +4; **Senses** see in darkness; [Perception](../skills/perception.md#_perception) +8
 
 **Defense**
 
@@ -18,7 +18,7 @@ CN Medium [humanoid](creatureTypes.html#_humanoid) (dark folk)
 
 **Fort** +4, **Ref** +9, **Will** +2
 
-**Weaknesses** [light blindness](universalMonsterRules.html#_light-blindness)
+**Weaknesses** [light blindness](universalMonsterRules.md#_light-blindness)
 
 **Offense**
 
@@ -30,7 +30,7 @@ CN Medium [humanoid](creatureTypes.html#_humanoid) (dark folk)
 
 **Spell-Like Abilities** (CL 6th)
 
-At will—_ [deeper darkness](../spells/deeperDarkness.html#_deeper-darkness), [detect magic](../spells/detectMagic.html#_detect-magic), [fog cloud](../spells/fogCloud.html)_
+At will—_ [deeper darkness](../spells/deeperDarkness.md#_deeper-darkness), [detect magic](../spells/detectMagic.md#_detect-magic), [fog cloud](../spells/fogCloud.md)_
 
 **Statistics**
 
@@ -38,9 +38,9 @@ At will—_ [deeper darkness](../spells/deeperDarkness.html#_deeper-darkness), [
 
 **Base**  **Atk** +4; **CMB** +6; **CMD** 20
 
-**Feats** [Double Slice](../feats.html#_double-slice), [Two-Weapon Fighting](../feats.html#_two-weapon-fighting), [Weapon Finesse](../feats.html#_weapon-finesse)
+**Feats** [Double Slice](../feats.md#_double-slice), [Two-Weapon Fighting](../feats.md#_two-weapon-fighting), [Weapon Finesse](../feats.md#_weapon-finesse)
 
-**Skills** [Climb](../skills/climb.html#_climb) +10, [Perception](../skills/perception.html#_perception) +8, [Sleight of Hand](../skills/sleightOfHand.html#_sleight-of-hand) +5, [Stealth](../skills/stealth.html#_stealth) +8; **Racial Modifiers** +4 [Climb](../skills/climb.html#_climb), +4 [Perception](../skills/perception.html#_perception), +4 [Stealth](../skills/stealth.html#_stealth)
+**Skills** [Climb](../skills/climb.md#_climb) +10, [Perception](../skills/perception.md#_perception) +8, [Sleight of Hand](../skills/sleightOfHand.md#_sleight-of-hand) +5, [Stealth](../skills/stealth.md#_stealth) +8; **Racial Modifiers** +4 [Climb](../skills/climb.md#_climb), +4 [Perception](../skills/perception.md#_perception), +4 [Stealth](../skills/stealth.md#_stealth)
 
 **Languages** Dark Folk, Undercommon
 
@@ -56,17 +56,17 @@ At will—_ [deeper darkness](../spells/deeperDarkness.html#_deeper-darkness), [
 
 **Special Abilities**
 
-**Death Throes (Su)** When a dark stalker is slain, its body combusts in a flash of white-hot flame. This acts like a _ [fireball](../spells/fireball.html#_fireball)_ that deals 3d6 points of fire damage to all creatures within a 20-foot-radius burst. A DC 15 Reflex save halves this damage. A dark stalker's gear and treasure are unaffected by this explosion. This save is Constitution-based.
+**Death Throes (Su)** When a dark stalker is slain, its body combusts in a flash of white-hot flame. This acts like a _ [fireball](../spells/fireball.md#_fireball)_ that deals 3d6 points of fire damage to all creatures within a 20-foot-radius burst. A DC 15 Reflex save halves this damage. A dark stalker's gear and treasure are unaffected by this explosion. This save is Constitution-based.
 
 **Poison Use (Ex)** Dark stalkers are skilled in the use of poison and never risk accidentally poisoning themselves. Like their diminutive kin, the dark creepers, dark stalkers use black poison on their weapons and generally carry six doses on them._Black Smear_—injury; _save _Fort DC 15; _frequency _1/round for 6 rounds; _effect_ 1d2 Str; _cure_ 1 save. The poison DC is Constitution-based.
 
-**See in Darkness (Su)** A dark stalker can see perfectly in darkness of any kind, including that created by _ [deeper darkness](../spells/deeperDarkness.html#_deeper-darkness)_.
+**See in Darkness (Su)** A dark stalker can see perfectly in darkness of any kind, including that created by _ [deeper darkness](../spells/deeperDarkness.md#_deeper-darkness)_.
 
 The strange and mysterious dark stalkers are the undisputed leaders of dark folk society. Deep underground, these creatures dwell in strange villages (some rumors suggest entire cities) built of stone and fungus in remote caverns where they are served and worshiped by their coarser, diminutive kin, the dark creepers. Dark stalkers come to the surface rarely, but when they do it is on a mission, and with a force of creatures such that it never ends well for those they seek to rob or torment.
 
 Dark stalkers are tall, frail humanoids with incredibly pale skin. They constantly wear multiple layers of dark cloth and black leather armor, yet unlike their lesser kin, a dark stalker's garb is always clean and spotless. Each dark stalker carries a pair of short swords—they prefer these weapons to all others. Dark stalkers are 6 feet tall and weigh 100 pounds.
 
-In a fight, dark stalkers are not above sacrificing lesser creatures, including dark creepers, to win the day or cover their retreat if things go poorly. They hate well-lit areas and always prefer to fight under the cover of _ [deeper darkness](../spells/deeperDarkness.html#_deeper-darkness)_. Dark stalkers rarely fight to the death if it can be avoided, preferring to slip away if things begin to look grim.
+In a fight, dark stalkers are not above sacrificing lesser creatures, including dark creepers, to win the day or cover their retreat if things go poorly. They hate well-lit areas and always prefer to fight under the cover of _ [deeper darkness](../spells/deeperDarkness.md#_deeper-darkness)_. Dark stalkers rarely fight to the death if it can be avoided, preferring to slip away if things begin to look grim.
 
 The origins of the dark stalkers and the dark creepers are shrouded in mystery, made more difficult to decipher by the fact that the dark stalkers do not keep records of their history. Many scholars believe that, just as the drow descended from elves, so too must the dark folk have descended from humanity, their eerie powers and spell-like abilities the result of generation upon generation of devotion to profane and sinister magic. Alas, the truth of the race's history may never be known.
 

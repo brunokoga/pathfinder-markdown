@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** no; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** no; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
-Waves of negative energy render all living creatures in the spell's area [fatigued](../glossary.html#_fatigued). This spell has no effect on a creature that is already [fatigued](../glossary.html#_fatigued).
+Waves of negative energy render all living creatures in the spell's area [fatigued](../glossary.md#_fatigued). This spell has no effect on a creature that is already [fatigued](../glossary.md#_fatigued).
 

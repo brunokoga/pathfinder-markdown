@@ -1,6 +1,6 @@
 # Introduction
 
-While each monster is a unique creature, many possess similar special attacks, defenses, and qualities. Unique abilities are described below the monster's stat block. Many abilities common to several monsters appear in the [universal monster rules](universalMonsterRules.html). If a monster's listed special ability does not appear in its description, you'll find it there.
+While each monster is a unique creature, many possess similar special attacks, defenses, and qualities. Unique abilities are described below the monster's stat block. Many abilities common to several monsters appear in the [universal monster rules](universalMonsterRules.md). If a monster's listed special ability does not appear in its description, you'll find it there.
 
 Each monster description on the following pages is presented in the same format, split into three specific areas: Introduction, Stat Block, and Description.
 
@@ -20,13 +20,13 @@ This is where you'll find all of the information you need to run the monster in 
 
 **Alignment, Size, and Type** : While a monster's size and type remain constant (unless changed by the application of templates or other unusual modifiers), alignment is far more fluid. The alignments listed for each monster in this book represent the norm for those monsters—they can vary as you require them to in order to serve the needs of your campaign. Only in the case of relatively unintelligent monsters (creatures with an Intelligence of 2 or lower are almost never anything other than neutral) and planar monsters (outsiders with alignments other than those listed are unusual and typically outcasts from their kind) is the listed alignment relatively unchangeable.
 
-**Init and Senses** : The creature's initiative modifier followed by any special senses and its [Perception](../skills/perception.html#_perception) check modifier.
+**Init and Senses** : The creature's initiative modifier followed by any special senses and its [Perception](../skills/perception.md#_perception) check modifier.
 
 **Aura** : If the creature has a particular magical or exceptional aura, it is listed here along with its radius from the creature and, as applicable, a save DC to resist the aura's effects.
 
 **AC** : The creature's Armor Class, touch Armor Class, and flat-footed Armor Class. The modifiers that generate its AC are listed parenthetically at the end of this entry.
 
-**hp** : The creature's hit points, followed by its Hit Dice (including modifiers from Constitution, favored class levels, creature type modifiers, and the [Toughness](../feats.html#_toughness) feat). Creatures with PC class levels receive maximum hit points for their first HD, but all other HD rolls are assumed to be average. Fast healing and regeneration values, if any, follow the creature's HD.
+**hp** : The creature's hit points, followed by its Hit Dice (including modifiers from Constitution, favored class levels, creature type modifiers, and the [Toughness](../feats.md#_toughness) feat). Creatures with PC class levels receive maximum hit points for their first HD, but all other HD rolls are assumed to be average. Fast healing and regeneration values, if any, follow the creature's HD.
 
 **Saving Throws** : The creature's Fortitude, Reflex, and Will saves, followed by situational modifiers to those rolls.
 
@@ -52,7 +52,7 @@ This is where you'll find all of the information you need to run the monster in 
 
 **Base Atk/CMB/CMD** : These values give the creature's base attack, its Combat Maneuver Bonus, and its Combat Maneuver Defense score.
 
-**Feats** : The creature's feats are listed here. A bonus feat is indicated with a superscript âB.â
+**Feats** : The creature's feats are listed here. A bonus feat is indicated with a superscript “B.”
 
 **Skills** : The creature's skills are listed here. Racial modifiers to skills are indicated at the end of this entry.
 
@@ -64,7 +64,7 @@ This is where you'll find all of the information you need to run the monster in 
 
 **Organization** : This lists how the creature is organized, including number ranges as appropriate.
 
-**Treasure** : The exact value of the creature's treasure depends on if you're running a slow, medium, or fast game, as summarized on [Table: Treasure Values per Encounter](../gamemastering.html#_table-12-5-treasure-values-per-encounter). In cases where a creature has specific magical gear assigned to it, the assumption is a medium game—if you play a fast or slow game, you'll want to adjust the monster's gear as appropriate. âStandardâ treasure indicates the total value of the creature's treasure is that of a CR equal to the average party level, as listed on Table: Treasure Values per Encounter. âDoubleâ or âtripleâ treasure indicates the creature has double or triple this standard value. âIncidentalâ indicates the creature has half this standard value, and then only within the confines of its lair. âNoneâ indicates that the creature normally has no treasure (as is typical for an unintelligent creature that has no real lair, although such creatures are often used to guard treasures of varying amounts). âNPC gearâ indicates the monster has treasure as normal for an NPC of a level equal to the monster's CR.
+**Treasure** : The exact value of the creature's treasure depends on if you're running a slow, medium, or fast game, as summarized on [Table: Treasure Values per Encounter](../gamemastering.md#_table-12-5-treasure-values-per-encounter). In cases where a creature has specific magical gear assigned to it, the assumption is a medium game—if you play a fast or slow game, you'll want to adjust the monster's gear as appropriate. “Standard” treasure indicates the total value of the creature's treasure is that of a CR equal to the average party level, as listed on Table: Treasure Values per Encounter. “Double” or “triple” treasure indicates the creature has double or triple this standard value. “Incidental” indicates the creature has half this standard value, and then only within the confines of its lair. “None” indicates that the creature normally has no treasure (as is typical for an unintelligent creature that has no real lair, although such creatures are often used to guard treasures of varying amounts). “NPC gear” indicates the monster has treasure as normal for an NPC of a level equal to the monster's CR.
 
 **Special Abilities** : Finally, any of the creature's more unique special abilities are detailed in full here.
 

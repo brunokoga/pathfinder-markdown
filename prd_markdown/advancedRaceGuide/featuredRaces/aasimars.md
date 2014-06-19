@@ -1,6 +1,6 @@
 # Aasimars
 
-Aasimars are humans with a significant amount of celestial or other good outsider blood in their ancestry. While not always benevolent, aasimars are more inclined toward acts of kindness rather than evil, and they gravitate toward faiths or organizations associated with celestials. Aasimar heritage can lie dormant for generations, only to appear suddenly in the child of two apparently human parents. Most societies interpret aasimar births as good omens, though it must be acknowledged that some aasimars take advantage of the reputation of their kind, brutally subverting the expectations of others with acts of terrifying cruelty or abject venality. âIt's always the one you least suspectâ is the axiom these evil aasimars live by, and they often lead double lives as upstanding citizens or false heroes, keeping their corruption well hidden. Thankfully, these few are the exception and not the rule.
+Aasimars are humans with a significant amount of celestial or other good outsider blood in their ancestry. While not always benevolent, aasimars are more inclined toward acts of kindness rather than evil, and they gravitate toward faiths or organizations associated with celestials. Aasimar heritage can lie dormant for generations, only to appear suddenly in the child of two apparently human parents. Most societies interpret aasimar births as good omens, though it must be acknowledged that some aasimars take advantage of the reputation of their kind, brutally subverting the expectations of others with acts of terrifying cruelty or abject venality. “It's always the one you least suspect” is the axiom these evil aasimars live by, and they often lead double lives as upstanding citizens or false heroes, keeping their corruption well hidden. Thankfully, these few are the exception and not the rule.
 
 **Physical Description** : Aasimars look mostly human except for some minor physical trait that reveals their unusual heritage. Typical aasimar features include hair that shines like metal, jewel-toned eyes, lustrous skin color, or even glowing, golden halos.
 
@@ -30,9 +30,9 @@ However, even if they generally tend toward human societies, aasimars can become
 
 **Darkvision** : Aasimars can see in the dark up to 60 feet.
 
-**Skilled** : Aasimars have a +2 racial bonus on [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) and [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks.
+**Skilled** : Aasimars have a +2 racial bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) and [Perception](skills/perception.md#_perception) checks.
 
-**Spell-Like Ability** : Aasimars can use _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_ once per day as a spell-like ability (caster level equal to the aasimar's class level).
+**Spell-Like Ability** : Aasimars can use _ [daylight](spells/daylight.md#_daylight)_ once per day as a spell-like ability (caster level equal to the aasimar's class level).
 
 **Celestial Resistance** : Aasimars have acid resistance 5, cold resistance 5, and electricity resistance 5.
 
@@ -42,23 +42,23 @@ However, even if they generally tend toward human societies, aasimars can become
 
 The following racial traits may be selected instead of existing aasimar racial traits. Consult your GM before selecting any of these new options.
 
-**Celestial Crusader** : Some aasimars follow their destiny to war against the powers of ultimate evil. These individuals gain a +1 insight bonus on attack rolls and to AC against evil outsiders and a +2 racial bonus on [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) and [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) checks to identify evil outsiders or items or effects created by evil outsiders; they may use these skills untrained for this purpose. This racial trait replaces celestial resistance and skilled.
+**Celestial Crusader** : Some aasimars follow their destiny to war against the powers of ultimate evil. These individuals gain a +1 insight bonus on attack rolls and to AC against evil outsiders and a +2 racial bonus on [Knowledge](skills/knowledge.md#_knowledge) (planes) and [Spellcraft](skills/spellcraft.md#_spellcraft) checks to identify evil outsiders or items or effects created by evil outsiders; they may use these skills untrained for this purpose. This racial trait replaces celestial resistance and skilled.
 
 **Deathless Spirit** : Particularly strong-willed aasimars possess celestial spirits capable of resisting the powers of death. They gain resistance 5 against negative energy damage. They do not lose hit points when they gain a negative level, and they gain a +2 racial bonus on saving throws against death effects, energy drain, negative energy, and spells or spell-like abilities of the necromancy school. This racial trait replaces celestial resistance.
 
 **Exalted Resistance** : An aasimar with this racial trait gains spell resistance equal to 5 + her level against spells and spell-like abilities with the evil descriptor, as well as any spells and spell-like abilities cast by evil outsiders. This racial trait replaces celestial resistance.
 
-**Halo** : Some aasimars possess the ability to manifest halos. An aasimar with this racial trait can create _ [light](/pathfinderRPG/prd/spells/light.html#_light) _centered on her head at will as a spell-like ability. When using her halo, she gains a +2 circumstance bonus on [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks against evil creatures and on saving throws against becoming blinded or dazzled. This racial trait replaces the darkvision racial trait.
+**Halo** : Some aasimars possess the ability to manifest halos. An aasimar with this racial trait can create _ [light](spells/light.md#_light) _centered on her head at will as a spell-like ability. When using her halo, she gains a +2 circumstance bonus on [Intimidate](skills/intimidate.md#_intimidate) checks against evil creatures and on saving throws against becoming blinded or dazzled. This racial trait replaces the darkvision racial trait.
 
-**Heavenborn** : Born in the celestial realms, aasimars with this racial trait gain a +2 bonus on [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) checks and they cast spells with the good or light descriptor at +1 caster level. This racial trait replaces the skilled and spell-like ability racial traits.
+**Heavenborn** : Born in the celestial realms, aasimars with this racial trait gain a +2 bonus on [Knowledge](skills/knowledge.md#_knowledge) (planes) checks and they cast spells with the good or light descriptor at +1 caster level. This racial trait replaces the skilled and spell-like ability racial traits.
 
-**Immortal Spark** : Aasimars with this racial trait defy the powers of death. They gain a +2 bonus on [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) checks and saving throws against death effects and can use _ [lesser age resistance](/pathfinderRPG/prd/ultimateMagic/spells/ageResistance.html#_age-resistance,-lesser)_ once per day as a spell-like ability. This racial trait replaces the skilled and spell-like ability racial traits.
+**Immortal Spark** : Aasimars with this racial trait defy the powers of death. They gain a +2 bonus on [Knowledge](skills/knowledge.md#_knowledge) (history) checks and saving throws against death effects and can use _ [lesser age resistance](ultimateMagic/spells/ageResistance.md#_age-resistance,-lesser)_ once per day as a spell-like ability. This racial trait replaces the skilled and spell-like ability racial traits.
 
-**Incorruptible** : Occasionally, aasimars arise with the ability to further ward away evil. Aasimars with this racial trait can cast _ [corruption resistance](/pathfinderRPG/prd/advanced/spells/corruptionResistance.html#_corruption-resistance)_ against evil once per day as a spell-like ability. If an aasimar uses this ability on herself, the duration increases to 1 hour per level. This racial trait replaces the spell-like ability racial trait.
+**Incorruptible** : Occasionally, aasimars arise with the ability to further ward away evil. Aasimars with this racial trait can cast _ [corruption resistance](advanced/spells/corruptionResistance.md#_corruption-resistance)_ against evil once per day as a spell-like ability. If an aasimar uses this ability on herself, the duration increases to 1 hour per level. This racial trait replaces the spell-like ability racial trait.
 
-**Scion of Humanity** : Some aasimars' heavenly ancestry is extremely distant. An aasimar with this racial trait counts as an outsider (native) and a humanoid (human) for any effect related to race, including feat prerequisites and spells that affect humanoids. She can pass for human without using the [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) skill. This racial trait replaces the Celestial language and alters the native subtype.
+**Scion of Humanity** : Some aasimars' heavenly ancestry is extremely distant. An aasimar with this racial trait counts as an outsider (native) and a humanoid (human) for any effect related to race, including feat prerequisites and spells that affect humanoids. She can pass for human without using the [Disguise](skills/disguise.md#_disguise) skill. This racial trait replaces the Celestial language and alters the native subtype.
 
-**Truespeaker** : There are some aasimars whose language transcends all boundaries. They gain a +2 bonus on [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics) and [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) checks, and they learn two languages each time they gain a rank in [Linguistics](/pathfinderRPG/prd/skills/linguistics.html#_linguistics). This racial trait replaces skilled.
+**Truespeaker** : There are some aasimars whose language transcends all boundaries. They gain a +2 bonus on [Linguistics](skills/linguistics.md#_linguistics) and [Sense Motive](skills/senseMotive.md#_sense-motive) checks, and they learn two languages each time they gain a rank in [Linguistics](skills/linguistics.md#_linguistics). This racial trait replaces skilled.
 
 # Favored Class Options
 
@@ -68,9 +68,9 @@ The following options are available to all aasimars who have the listed favored 
 
 **Cavalier** : Add +1/4 to the cavalier's bonus on damage against targets of his challenge.
 
-**Cleric** : Add +1/2 to damage when using positive energy against undead or using [Alignment Channel](/pathfinderRPG/prd/feats.html#_alignment-channel) to damage evil outsiders.
+**Cleric** : Add +1/2 to damage when using positive energy against undead or using [Alignment Channel](feats.md#_alignment-channel) to damage evil outsiders.
 
-**Inquisitor** : Add +1/2 on [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate), [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge), and [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) checks made against outsiders.
+**Inquisitor** : Add +1/2 on [Intimidate](skills/intimidate.md#_intimidate), [Knowledge](skills/knowledge.md#_knowledge), and [Sense Motive](skills/senseMotive.md#_sense-motive) checks made against outsiders.
 
 **Oracle** : Add +1/2 to the oracle's level for the purpose of determining the effects of one revelation.
 
@@ -90,43 +90,43 @@ The purifier seeks out signs of possession or mind control that manifest from un
 
 **Recommended Mysteries** : ancestor, battle, heavens, lore.
 
-**Bonus Spells** : _veil of heaven _(2nd),_ [confess](/pathfinderRPG/prd/advanced/spells/confess.html#_confess)_ (4th), _ [cast out](/pathfinderRPG/prd/advanced/spells/castOut.html#_cast-out) _(6th), _ [denounce](/pathfinderRPG/prd/advanced/spells/denounce.html#_denounce) _(8th), _ [dispel evil](/pathfinderRPG/prd/spells/dispelEvil.html#_dispel-evil)_ (10th), _ [banishment](/pathfinderRPG/prd/spells/banishment.html#_banishment) _(12th), _ [holy word](/pathfinderRPG/prd/spells/holyWord.html#_holy-word) _(14th), _ [mind blank](/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank) _(16th), _ [freedom](/pathfinderRPG/prd/spells/freedom.html#_freedom) _(18th).
+**Bonus Spells** : _veil of heaven _(2nd),_ [confess](advanced/spells/confess.md#_confess)_ (4th), _ [cast out](advanced/spells/castOut.md#_cast-out) _(6th), _ [denounce](advanced/spells/denounce.md#_denounce) _(8th), _ [dispel evil](spells/dispelEvil.md#_dispel-evil)_ (10th), _ [banishment](spells/banishment.md#_banishment) _(12th), _ [holy word](spells/holyWord.md#_holy-word) _(14th), _ [mind blank](spells/mindBlank.md#_mind-blank) _(16th), _ [freedom](spells/freedom.md#_freedom) _(18th).
 
 **Diminished Spellcasting** : A purifier can use one fewer spell per day of each level and does not automatically learn cure or inflict spells. Her number of oracle spells known is unchanged.
 
 **Revelations** : A purifier must take the following revelations at the listed levels.
 
-> _See Sin (Sp):_ At 3rd level, a purifier gains a bonus equal to 1/2 her oracle level on [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) checks to sense enchantments, which she can make as a full-round action. She also gains a bonus equal to 1/2 her oracle level on [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) checks to identify enchantment school spells and spells with the curse or emotion descriptor (see page 251 of for spells in the and that have the curse or emotion descriptor).
+> _See Sin (Sp):_ At 3rd level, a purifier gains a bonus equal to 1/2 her oracle level on [Sense Motive](skills/senseMotive.md#_sense-motive) checks to sense enchantments, which she can make as a full-round action. She also gains a bonus equal to 1/2 her oracle level on [Spellcraft](skills/spellcraft.md#_spellcraft) checks to identify enchantment school spells and spells with the curse or emotion descriptor (see page 251 of for spells in the and that have the curse or emotion descriptor).
 > 
 > _Celestial Armor (Su): _At 7th level, a purifier's armor takes on a golden or silvery sheen and becomes light as a feather. Her armor weighs half as much as long as she wears it, and she also gains armor training as a fighter 4 levels lower than her oracle level. At 11th level, a purifier gains heavy armor proficiency.
 > 
 > _Sin Eater (Su):_ At 11th level, a purifier can consume a curse, enchantment, or emotion effect by touch as a full-round action. She can do this a number of times per day equal to her Charisma modifier, and must make a Charisma check with a bonus equal to her oracle level against a DC of 11 + the caster level of the effect (or the Hit Dice of the creator for a supernatural effect). If the check succeeds, the effect is negated; however, the purifier is sickened for 1d4 rounds.
 > 
-> If the target is possessed (such as by a _ [magic jar](/pathfinderRPG/prd/spells/magicJar.html#_magic-jar) _effect or a ghost's malevolence ability), the possessor is forced out on a successful check. Whether the check succeeds or fails, the possessor is sickened for 2d4 rounds.
+> If the target is possessed (such as by a _ [magic jar](spells/magicJar.md#_magic-jar) _effect or a ghost's malevolence ability), the possessor is forced out on a successful check. Whether the check succeeds or fails, the possessor is sickened for 2d4 rounds.
 
-**Sacred Scourge (Su)** : At 5th level, a purifier may channel holy power to harm evil outsiders as a cleric of her level using the [Alignment Channel](/pathfinderRPG/prd/feats.html#_alignment-channel) feat. She may use this ability a number of times per day equal to 1 + her Charisma modifier.
+**Sacred Scourge (Su)** : At 5th level, a purifier may channel holy power to harm evil outsiders as a cleric of her level using the [Alignment Channel](feats.md#_alignment-channel) feat. She may use this ability a number of times per day equal to 1 + her Charisma modifier.
 
-**Holy Terror (Su)** : At 9th level, a purifier may use her sacred scourge to panic evil outsiders as if using the [Turn Undead](/pathfinderRPG/prd/feats.html#_turn-undead) feat against undead.
+**Holy Terror (Su)** : At 9th level, a purifier may use her sacred scourge to panic evil outsiders as if using the [Turn Undead](feats.md#_turn-undead) feat against undead.
 
-**Celestial Master (Su)** : At 13th level, a purifier may use her sacred scourge to compel good outsiders to serve her, as if using the [Command Undead](/pathfinderRPG/prd/feats.html#_command-undead) feat against undead.
+**Celestial Master (Su)** : At 13th level, a purifier may use her sacred scourge to compel good outsiders to serve her, as if using the [Command Undead](feats.md#_command-undead) feat against undead.
 
 ## Tranquil Guardian (Paladin)
 
 A tranquil guardian is a missionary of peace and tranquility, a soothing voice of succor in a violent and dangerous world. A tranquil guardian gains the following class features.
 
-**[Touch of Serenity](/pathfinderRPG/prd/advanced/advancedFeats.html#_touch-of-serenity) (Su)** : At 1st level, a tranquil guardian gains [Touch of Serenity](/pathfinderRPG/prd/advanced/advancedFeats.html#_touch-of-serenity) as a bonus feat, even if she does not meet the prerequisites. At 6th level, and every six levels thereafter, the duration of a tranquil guardian's [Touch of Serenity](/pathfinderRPG/prd/advanced/advancedFeats.html#_touch-of-serenity) increases by 1 round. Each round on its turn, the target may attempt a new Will save to end the effect. The duration does not stack; only the longest remaining duration applies. This ability replaces smite evil.
+**[Touch of Serenity](advanced/advancedFeats.md#_touch-of-serenity) (Su)** : At 1st level, a tranquil guardian gains [Touch of Serenity](advanced/advancedFeats.md#_touch-of-serenity) as a bonus feat, even if she does not meet the prerequisites. At 6th level, and every six levels thereafter, the duration of a tranquil guardian's [Touch of Serenity](advanced/advancedFeats.md#_touch-of-serenity) increases by 1 round. Each round on its turn, the target may attempt a new Will save to end the effect. The duration does not stack; only the longest remaining duration applies. This ability replaces smite evil.
 
-**Serene Strike (Su)** : At 3rd level, when a tranquil guardian confirms a critical hit, she may convert all damage from her attack to nonlethal damage, and when she does, she can activate [Touch of Serenity](/pathfinderRPG/prd/advanced/advancedFeats.html#_touch-of-serenity) through her weapon or unarmed strike. Using serene strike is a free action. This ability replaces aura of courage.
+**Serene Strike (Su)** : At 3rd level, when a tranquil guardian confirms a critical hit, she may convert all damage from her attack to nonlethal damage, and when she does, she can activate [Touch of Serenity](advanced/advancedFeats.md#_touch-of-serenity) through her weapon or unarmed strike. Using serene strike is a free action. This ability replaces aura of courage.
 
-**Divine Bond (Su)** : A tranquil guardian who chooses a weapon as her divine bond may only increase her weapon's enhancement bonus or add the following properties to her weapon: _ [conductive](/pathfinderRPG/prd/advanced/magicItems/weapons.html#_conductive), [defending](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-defending), disruptive, [grayflame](/pathfinderRPG/prd/advanced/magicItems/weapons.html#_grayflame)_ _, _or _ [merciful](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-merciful)_.
+**Divine Bond (Su)** : A tranquil guardian who chooses a weapon as her divine bond may only increase her weapon's enhancement bonus or add the following properties to her weapon: _ [conductive](advanced/magicItems/weapons.md#_conductive), [defending](magicItems/weapons.md#_weapons-defending), disruptive, [grayflame](advanced/magicItems/weapons.md#_grayflame)_ _, _or _ [merciful](magicItems/weapons.md#_weapons-merciful)_.
 
 **Aura of Calm (Su)** : At 8th level, a tranquil guardian is immune to all spells and spell-like abilities with the emotion descriptor, as well as all fear effects. Each ally within 10 feet of her gains a +4 morale bonus on saving throws against these effects.
 
 This ability functions only while the tranquil guardian is conscious, not if she is unconscious or dead. This ability replaces aura of resolve.
 
-**Waves of Peace (Su)** : At 11th level, a tranquil guardian may expend 2 uses of her [Touch of Serenity](/pathfinderRPG/prd/advanced/advancedFeats.html#_touch-of-serenity) to affect each opponent within 5 feet of her with that effect. She does not need to touch the creature for the effect to take hold. This ability replaces aura of justice.
+**Waves of Peace (Su)** : At 11th level, a tranquil guardian may expend 2 uses of her [Touch of Serenity](advanced/advancedFeats.md#_touch-of-serenity) to affect each opponent within 5 feet of her with that effect. She does not need to touch the creature for the effect to take hold. This ability replaces aura of justice.
 
-**Apostle of Peace (Su)** : At 20th level, a tranquil guardian's DR increases to 10/evil, and whenever she channels positive energy or uses lay on hands to heal, she heals the maximum possible amount. In addition, any creature struck by her [Touch of Serenity](/pathfinderRPG/prd/advanced/advancedFeats.html#_touch-of-serenity), even if it saves, must make an additional Will save (DC 10 + 1/2 her tranquil guardian level + her Charisma modifier) the next time it tries to attack. If it fails this save, the attack (including spells or special abilities) automatically fails. This ability replaces holy champion.
+**Apostle of Peace (Su)** : At 20th level, a tranquil guardian's DR increases to 10/evil, and whenever she channels positive energy or uses lay on hands to heal, she heals the maximum possible amount. In addition, any creature struck by her [Touch of Serenity](advanced/advancedFeats.md#_touch-of-serenity), even if it saves, must make an additional Will save (DC 10 + 1/2 her tranquil guardian level + her Charisma modifier) the next time it tries to attack. If it fails this save, the attack (including spells or special abilities) automatically fails. This ability replaces holy champion.
 
 # New Racial Rules
 
@@ -142,7 +142,7 @@ Aasimars have access to the following equipment.
 
 **Celestial Censer** : This blessed thurible holds up to 10 pieces of incense, and burns at a rate of 1 stick per hour. If a smokestick is added to the incense in the censer while it burns, creatures with the evil subtype are dazzled for as long as they remain within the area of the resulting smoke.
 
-**Celestial Lamp** : This polished lantern contains a _ [continual flame](/pathfinderRPG/prd/spells/continualFlame.html#_continual-flame) _and sheds light as a common lamp. If its font of consecrated crystal and metalwork is filled with holy water, the lamp's light is sanctified for 24 hours, adding a +1 bonus to the save DC of channeled positive energy or energy channeled to harm evil outsiders within a 30-foot radius.
+**Celestial Lamp** : This polished lantern contains a _ [continual flame](spells/continualFlame.md#_continual-flame) _and sheds light as a common lamp. If its font of consecrated crystal and metalwork is filled with holy water, the lamp's light is sanctified for 24 hours, adding a +1 bonus to the save DC of channeled positive energy or energy channeled to harm evil outsiders within a 30-foot radius.
 
 **Incense** : This aromatic resin, imbued with fragrant oils, is often formed into sticks, cones, or balls and burned in ceremonies or during meditation. A piece of incense burns for 1 hour.
 
@@ -165,7 +165,7 @@ Feathered wings sprout from your back.
 
 **Prerequisites** : Angelic Blood, aasimar, character level 10th.
 
-**Benefit** : You gain a pair of gleaming feathered wings that grant a fly speed of 30 feet (average maneuverability) if wearing light armor or unencumbered, or 20 feet (poor maneuverability) with a medium or heavy load or medium or heavy armor. [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) is a class skill for you.
+**Benefit** : You gain a pair of gleaming feathered wings that grant a fly speed of 30 feet (average maneuverability) if wearing light armor or unencumbered, or 20 feet (poor maneuverability) with a medium or heavy load or medium or heavy armor. [Fly](skills/fly.md#_fly) is a class skill for you.
 
 ### Angelic Blood
 
@@ -181,7 +181,7 @@ Your skin shines like burnished metal.
 
 **Prerequisites** : Angelic Blood, aasimar.
 
-**Benefit** : You take a –2 penalty on [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) and [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks but gain one of the following benefits, depending on the metallic affinity of your flesh (choose one).
+**Benefit** : You take a –2 penalty on [Disguise](skills/disguise.md#_disguise) and [Stealth](skills/stealth.md#_stealth) checks but gain one of the following benefits, depending on the metallic affinity of your flesh (choose one).
 
 _Brazen: _You gain fire resistance 5 and a +2 bonus on saves against fire effects.
 
@@ -197,7 +197,7 @@ Rather than being a normal animal or beast, your companion or familiar hails fro
 
 **Prerequisites** : Aasimar, animal companion, familiar, or mount class feature.
 
-**Benefit** : Your animal companion, familiar, or mount gains the celestial template and becomes a magical beast, though you may still treat it as an animal when using [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal), wild empathy, or any other spells or class abilities that specifically affect animals.
+**Benefit** : Your animal companion, familiar, or mount gains the celestial template and becomes a magical beast, though you may still treat it as an animal when using [Handle Animal](skills/handleAnimal.md#_handle-animal), wild empathy, or any other spells or class abilities that specifically affect animals.
 
 ### Channel Force
 
@@ -219,22 +219,22 @@ Your eruptions of divine power move your enemies.
 
 Your heavenly light can be used in a variety of ways.
 
-**Prerequisites** : Aasimar, _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight) _spell-like ability, sufficiently high level (see below).
+**Prerequisites** : Aasimar, _ [daylight](spells/daylight.md#_daylight) _spell-like ability, sufficiently high level (see below).
 
-**Benefit** : You gain one additional use per day of _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight). C_hoose one spell from the table below; by expending a use of _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_, you may use this spell as a spell-like ability. To select a spell, you must meet the minimum character level for its listing in the table. The save DC for this spell is Charisma-based.
+**Benefit** : You gain one additional use per day of _ [daylight](spells/daylight.md#_daylight). C_hoose one spell from the table below; by expending a use of _ [daylight](spells/daylight.md#_daylight)_, you may use this spell as a spell-like ability. To select a spell, you must meet the minimum character level for its listing in the table. The save DC for this spell is Charisma-based.
 
   
   
 
 | Spell-Like Ability | Minimum Character Level |
 | --- | --- |
-| _ [Flare burst](/pathfinderRPG/prd/advanced/spells/flareBurst.html#_flare-burst)_ | 1st |
-| _ [Wake of light](/pathfinderRPG/prd/advanced/spells/wakeOfLight.html#_wake-of-light-)_ | 3rd |
-| _ [Searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_ | 5th |
-| _ [Wandering star motes](/pathfinderRPG/prd/advanced/spells/wanderingStarMotes.html#_wandering-star-motes)_ | 7th |
-| _ [Sunbeam](/pathfinderRPG/prd/spells/sunbeam.html#_sunbeam) _(one beam only) | 9th |
+| _ [Flare burst](advanced/spells/flareBurst.md#_flare-burst)_ | 1st |
+| _ [Wake of light](advanced/spells/wakeOfLight.md#_wake-of-light-)_ | 3rd |
+| _ [Searing light](spells/searingLight.md#_searing-light)_ | 5th |
+| _ [Wandering star motes](advanced/spells/wanderingStarMotes.md#_wandering-star-motes)_ | 7th |
+| _ [Sunbeam](spells/sunbeam.md#_sunbeam) _(one beam only) | 9th |
 
-**Special** : You may take this feat multiple times. Each time you select it, you gain an additional use of _ [daylight](/pathfinderRPG/prd/spells/daylight.html#_daylight)_ and may select another spell from the table.
+**Special** : You may take this feat multiple times. Each time you select it, you gain an additional use of _ [daylight](spells/daylight.md#_daylight)_ and may select another spell from the table.
 
 ### Improved Channel Force
 
@@ -264,11 +264,11 @@ Celestial Shield
 
 Description
 
-This bright silver or gold _+2 [blinding](/pathfinderRPG/prd/magicItems/armor.html#_armor-blinding) heavy steel [shield](/pathfinderRPG/prd/spells/shield.html#_shield) _is impossibly light and handy despite its size. It has no armor check penalty or arcane spell failure chance, and it allows the wielder to use _ [feather fall](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall) _on himself once per day. A creature wearing _celestial armor _while wielding a _celestial [shield](/pathfinderRPG/prd/spells/shield.html#_shield) _may command the armor to provide _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight) _rather than _ [fly](/pathfinderRPG/prd/spells/fly.html) _once per day.
+This bright silver or gold _+2 [blinding](magicItems/armor.md#_armor-blinding) heavy steel [shield](spells/shield.md#_shield) _is impossibly light and handy despite its size. It has no armor check penalty or arcane spell failure chance, and it allows the wielder to use _ [feather fall](spells/featherFall.md#_feather-fall) _on himself once per day. A creature wearing _celestial armor _while wielding a _celestial [shield](spells/shield.md#_shield) _may command the armor to provide _ [overland flight](spells/overlandFlight.md#_overland-flight) _rather than _ [fly](spells/fly.md) _once per day.
 
 Construction
 
-**Requirements** [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [feather fall](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall), [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_; **Cost** 6,670 gp
+**Requirements** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [feather fall](spells/featherFall.md#_feather-fall), [overland flight](spells/overlandFlight.md#_overland-flight)_; **Cost** 6,670 gp
 
 Elysian Shield
 
@@ -278,11 +278,11 @@ Elysian Shield
 
 Description
 
-This _+2 [ghost touch](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch) tower [shield](/pathfinderRPG/prd/spells/shield.html#_shield) _is engraved with funerary runes depicting the peaceful rest of the contented dead. The wielder of an _elysian [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_ is immune to the create spawn ability of undead, and once per day as an immediate action can negate a single energy drain, ability drain, or ability damage attack by an undead creature. In addition, once per day as a standard action, the wielder can release a wave of positive energy that panics undead, as the [Turn Undead](/pathfinderRPG/prd/feats.html#_turn-undead) feat (DC 20 Will negates).
+This _+2 [ghost touch](magicItems/weapons.md#_weapons-ghost-touch) tower [shield](spells/shield.md#_shield) _is engraved with funerary runes depicting the peaceful rest of the contented dead. The wielder of an _elysian [shield](spells/shield.md#_shield)_ is immune to the create spawn ability of undead, and once per day as an immediate action can negate a single energy drain, ability drain, or ability damage attack by an undead creature. In addition, once per day as a standard action, the wielder can release a wave of positive energy that panics undead, as the [Turn Undead](feats.md#_turn-undead) feat (DC 20 Will negates).
 
 Construction
 
-**Requirements** [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), [Turn Undead](/pathfinderRPG/prd/feats.html#_turn-undead), _ [death ward](/pathfinderRPG/prd/spells/deathWard.html#_death-ward), [etherealness](/pathfinderRPG/prd/magicItems/armor.html#_armor-etherealness)_; **Cost** 26,390 gp
+**Requirements** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), [Turn Undead](feats.md#_turn-undead), _ [death ward](spells/deathWard.md#_death-ward), [etherealness](magicItems/armor.md#_armor-etherealness)_; **Cost** 26,390 gp
 
 Halo of Menace
 
@@ -296,7 +296,7 @@ When placed over the head, this halo of shimmering polished steel floats above i
 
 CONSTRUCTION
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), order's wrath, creator must be an aasimar or an [archon](/pathfinderRPG/prd/monsters/creatureTypes.html#_archon-subtype); Cost 42,000 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), order's wrath, creator must be an aasimar or an [archon](monsters/creatureTypes.md#_archon-subtype); Cost 42,000 gp
 
 ## Aasimar Spells
 
@@ -318,7 +318,7 @@ Sacred Space
 
 **Saving Throw** none; **Spell Resistance** no
 
-This spell sanctifies an area with heavenly power. The DC to resist spells or spell-like abilities with the good descriptor or channeled energy that damages evil outsiders (as when using [Alignment Channel](/pathfinderRPG/prd/feats.html#_alignment-channel)) increases by +2. In addition, evil outsiders take a –1 penalty on attack rolls, damage rolls, and saving throws, and they cannot be called or summoned into a _sacred space_. If the _sacred space _contains an altar, shrine, or other permanent fixture dedicated to your deity, pantheon, or good-aligned higher power, the modifiers given above are doubled. You cannot cast _sacred space _in an area with a permanent fixture dedicated to a deity other than yours.
+This spell sanctifies an area with heavenly power. The DC to resist spells or spell-like abilities with the good descriptor or channeled energy that damages evil outsiders (as when using [Alignment Channel](feats.md#_alignment-channel)) increases by +2. In addition, evil outsiders take a –1 penalty on attack rolls, damage rolls, and saving throws, and they cannot be called or summoned into a _sacred space_. If the _sacred space _contains an altar, shrine, or other permanent fixture dedicated to your deity, pantheon, or good-aligned higher power, the modifiers given above are doubled. You cannot cast _sacred space _in an area with a permanent fixture dedicated to a deity other than yours.
 
 Truespeak
 

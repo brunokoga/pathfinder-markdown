@@ -8,5 +8,5 @@
 
 **Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)
 
-This spell functions as _ [wrath](wrath.html#_wrath)_, except that you grant multiple creatures the bonuses against your designated foe. All subjects of _shared wrath_ receive their bonuses against the same creature.
+This spell functions as _ [wrath](wrath.md#_wrath)_, except that you grant multiple creatures the bonuses against your designated foe. All subjects of _shared wrath_ receive their bonuses against the same creature.
 

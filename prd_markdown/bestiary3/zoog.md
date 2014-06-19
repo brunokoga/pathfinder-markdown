@@ -8,7 +8,7 @@ XP 400
 
 CN Tiny magical beast
 
-**Init** +2; **Senses** darkvision 60 ft., low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent), spell sight; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5
+**Init** +2; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent), spell sight; [Perception](skills/perception.md#_perception) +5
 
 Defense
 
@@ -22,13 +22,13 @@ Offense
 
 **Speed** 30 ft., climb 30 ft.
 
-**Melee** bite +6 (1d3–2 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) 1), 2 claws +6 (1d2–2)
+**Melee** bite +6 (1d3–2 plus [bleed](monsters/universalMonsterRules.md#_bleed) 1), 2 claws +6 (1d2–2)
 
-**Special Attacks** [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) 1
+**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) 1
 
 **Spell-Like Abilities** (CL 1st; concentration –2)
 
-Constant—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+Constant—_ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
 
 Statistics
 
@@ -36,11 +36,11 @@ Statistics
 
 **Base Atk** +2; **CMB** +2; **CMD** 10 (14 vs. trip)
 
-**Feats** [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +12, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +12, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +5; **Racial Modifiers** +6 [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics), +6 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +12, [Climb](skills/climb.md#_climb) +12, [Perception](skills/perception.md#_perception) +5; **Racial Modifiers** +6 [Acrobatics](skills/acrobatics.md#_acrobatics), +6 [Climb](skills/climb.md#_climb)
 
-**Languages** Aklo; _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+**Languages** Aklo; _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
 
 **SQ** otherworldly touch
 
@@ -54,7 +54,7 @@ Ecology
 
 Special Abilities
 
-**Otherworldly Touch (Ex)** A zoog's natural attacks can strike [incorporeal](/pathfinderRPG/prd/monsters/creatureTypes.html#_incorporeal-subtype) creatures as if they were _ [ghost touch](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch)_ weapons.
+**Otherworldly Touch (Ex)** A zoog's natural attacks can strike [incorporeal](monsters/creatureTypes.md#_incorporeal-subtype) creatures as if they were _ [ghost touch](magicItems/weapons.md#_weapons-ghost-touch)_ weapons.
 
 **Spell Sight (Su)** A zoog's eyes radiate normal light in a 15-foot cone and increase the light level by one step for an additional 15 feet beyond that area. Any magic effect in this area glows faintly. This glow does not reveal the magic effect's school or strength. A zoog can quell or renew this light as a swift action.
 
@@ -64,5 +64,5 @@ Although lone zoogs shy away from attacking larger creatures, when zoogs outnumb
 
 Commonly, zoogs eat fungi and plants, but they also have a taste for the meat of sentient creatures, treating the butchering and consumption of such beings as a rare privilege. Zoogs also detest cats, and go to great lengths to slay felines of any sort and devour them.
 
-Occasionally a zoog allows a spellcaster of especial depravity, or with interests in the mysteries of realms and creatures beyond the mortal world, to employ it as a familiar. A spellcaster must have the [Improved Familiar](/pathfinderRPG/prd/feats.html#_improved-familiar) feat, be chaotic neutral, and have an arcane caster level of 5th or higher to gain a zoog familiar.
+Occasionally a zoog allows a spellcaster of especial depravity, or with interests in the mysteries of realms and creatures beyond the mortal world, to employ it as a familiar. A spellcaster must have the [Improved Familiar](feats.md#_improved-familiar) feat, be chaotic neutral, and have an arcane caster level of 5th or higher to gain a zoog familiar.
 

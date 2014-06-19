@@ -62,7 +62,7 @@ Trade goods are the exception to the half-price rule. A trade good, in this sens
 
 From the common longsword to the exotic dwarven urgrosh, weapons come in a wide variety of shapes and sizes.
 
-All weapons deal hit point damage. This damage is subtracted from the current hit points of any creature struck by the weapon. When the result of the die roll to make an attack is a natural 20 (that is, the die actually shows a 20), this is known as a critical threat (although some weapons can score a critical threat on a roll of less than 20). If a critical threat is scored, another attack roll is made, using the same modifiers as the original attack roll. If this second attack roll is equal or greater than the target's [AC](combat.html#_armor-class), the hit becomes a critical hit, dealing additional damage.
+All weapons deal hit point damage. This damage is subtracted from the current hit points of any creature struck by the weapon. When the result of the die roll to make an attack is a natural 20 (that is, the die actually shows a 20), this is known as a critical threat (although some weapons can score a critical threat on a roll of less than 20). If a critical threat is scored, another attack roll is made, using the same modifiers as the original attack roll. If this second attack roll is equal or greater than the target's [AC](combat.md#_armor-class), the hit becomes a critical hit, dealing additional damage.
 
 Weapons are grouped into several interlocking sets of categories. These categories pertain to what training is needed to become proficient in a weapon's use (simple, martial, or exotic), the weapon's usefulness either in close combat (melee) or at a distance (ranged, which includes both thrown and projectile weapons), its relative encumbrance (light, one-handed, or two-handed), and its size (Small, Medium, or Large).
 
@@ -72,13 +72,13 @@ Weapons are grouped into several interlocking sets of categories. These categori
 
 _Reach Weapons_: Glaives, guisarmes, lances, longspears, ranseurs, and whips are reach weapons. A reach weapon is a melee weapon that allows its wielder to strike at targets that aren't adjacent to him. Most reach weapons double the wielder's natural reach, meaning that a typical Small or Medium wielder of such a weapon can attack a creature 10 feet away, but not a creature in an adjacent square. A typical Large character wielding a reach weapon of the appropriate size can attack a creature 15 or 20 feet away, but not adjacent creatures or creatures up to 10 feet away.
 
-_Double Weapons_: Dire flails, dwarven urgroshes, gnome hooked hammers, orc double axes, quarterstaves, and two-bladed swords are double weapons. A character can fight with both ends of a double weapon as if fighting with two weapons, but he incurs all the normal attack penalties associated with [two-weapon combat](combat.html#_two-weapon-fighting), just as though the character were wielding a one-handed weapon and a light weapon.
+_Double Weapons_: Dire flails, dwarven urgroshes, gnome hooked hammers, orc double axes, quarterstaves, and two-bladed swords are double weapons. A character can fight with both ends of a double weapon as if fighting with two weapons, but he incurs all the normal attack penalties associated with [two-weapon combat](combat.md#_two-weapon-fighting), just as though the character were wielding a one-handed weapon and a light weapon.
 
 The character can also choose to use a double weapon two-handed, attacking with only one end of it. A creature wielding a double weapon in one hand can't use it as a double weapon—only one end of the weapon can be used in any given round.
 
-_Thrown Weapons_: Daggers, clubs, shortspears, spears, darts, javelins, throwing axes, light hammers, tridents, shuriken, and nets are thrown weapons. The wielder applies his [Strength](gettingStarted.html#_strength) modifier to damage dealt by thrown weapons (except for splash weapons). It is possible to throw a weapon that isn't designed to be thrown (that is, a melee weapon that doesn't have a numeric entry in the Range column on Table: Weapons), and a character who does so takes a –4 penalty on the attack roll. Throwing a light or one-handed weapon is a standard action, while throwing a two-handed weapon is a full-round action. Regardless of the type of weapon, such an attack scores a threat only on a natural roll of 20 and deals double damage on a critical hit. Such a weapon has a range increment of 10 feet.
+_Thrown Weapons_: Daggers, clubs, shortspears, spears, darts, javelins, throwing axes, light hammers, tridents, shuriken, and nets are thrown weapons. The wielder applies his [Strength](gettingStarted.md#_strength) modifier to damage dealt by thrown weapons (except for splash weapons). It is possible to throw a weapon that isn't designed to be thrown (that is, a melee weapon that doesn't have a numeric entry in the Range column on Table: Weapons), and a character who does so takes a –4 penalty on the attack roll. Throwing a light or one-handed weapon is a standard action, while throwing a two-handed weapon is a full-round action. Regardless of the type of weapon, such an attack scores a threat only on a natural roll of 20 and deals double damage on a critical hit. Such a weapon has a range increment of 10 feet.
 
-_Projectile Weapons_: Blowguns, light crossbows, slings, heavy crossbows, shortbows, composite shortbows, longbows, composite longbows, halfling sling staves, hand crossbows, and repeating crossbows are projectile weapons. Most projectile weapons require two hands to use (see specific weapon descriptions). A character gets no [Strength](gettingStarted.html#_strength) bonus on damage rolls with a projectile weapon unless it's a specially built composite shortbow or longbow, or a sling. If the character has a penalty for low [Strength](gettingStarted.html#_strength), apply it to damage rolls when he uses a bow or a sling.
+_Projectile Weapons_: Blowguns, light crossbows, slings, heavy crossbows, shortbows, composite shortbows, longbows, composite longbows, halfling sling staves, hand crossbows, and repeating crossbows are projectile weapons. Most projectile weapons require two hands to use (see specific weapon descriptions). A character gets no [Strength](gettingStarted.md#_strength) bonus on damage rolls with a projectile weapon unless it's a specially built composite shortbow or longbow, or a sling. If the character has a penalty for low [Strength](gettingStarted.md#_strength), apply it to damage rolls when he uses a bow or a sling.
 
 _Ammunition_: Projectile weapons use ammunition: arrows (for bows), bolts (for crossbows), darts (for blowguns), or sling bullets (for slings and halfling sling staves). When using a bow, a character can draw ammunition as a free action; crossbows and slings require an action for reloading (as noted in their descriptions). Generally speaking, ammunition that hits its target is destroyed or rendered useless, while ammunition that misses has a 50% chance of being destroyed or lost.
 
@@ -86,13 +86,13 @@ Although they are thrown weapons, shuriken are treated as ammunition for the pur
 
 **Light, One-Handed, and Two-Handed Melee Weapons** : This designation is a measure of how much effort it takes to wield a weapon in combat. It indicates whether a melee weapon, when wielded by a character of the weapon's size category, is considered a light weapon, a one-handed weapon, or a two-handed weapon.
 
-_Light_: A light weapon is used in one hand. It is easier to use in one's off hand than a one-handed weapon is, and can be used while grappling (see [Combat](combat.html)). Add the wielder's [Strength](gettingStarted.html#_strength) modifier to damage rolls for melee attacks with a light weapon if it's used in the primary hand, or half the wielder's [Strength](gettingStarted.html#_strength) bonus if it's used in the off hand. Using two hands to wield a light weapon gives no advantage on damage; the [Strength](gettingStarted.html#_strength) bonus applies as though the weapon were held in the wielder's primary hand only.
+_Light_: A light weapon is used in one hand. It is easier to use in one's off hand than a one-handed weapon is, and can be used while grappling (see [Combat](combat.md)). Add the wielder's [Strength](gettingStarted.md#_strength) modifier to damage rolls for melee attacks with a light weapon if it's used in the primary hand, or half the wielder's [Strength](gettingStarted.md#_strength) bonus if it's used in the off hand. Using two hands to wield a light weapon gives no advantage on damage; the [Strength](gettingStarted.md#_strength) bonus applies as though the weapon were held in the wielder's primary hand only.
 
 An unarmed strike is always considered a light weapon.
 
-_One-Handed_: A one-handed weapon can be used in either the primary hand or the off hand. Add the wielder's [Strength](gettingStarted.html#_strength) bonus to damage rolls for melee attacks with a one-handed weapon if it's used in the primary hand, or 1/2 his [Strength](gettingStarted.html#_strength) bonus if it's used in the off hand. If a one-handed weapon is wielded with two hands during melee combat, add 1-1/2 times the character's [Strength](gettingStarted.html#_strength) bonus to damage rolls.
+_One-Handed_: A one-handed weapon can be used in either the primary hand or the off hand. Add the wielder's [Strength](gettingStarted.md#_strength) bonus to damage rolls for melee attacks with a one-handed weapon if it's used in the primary hand, or 1/2 his [Strength](gettingStarted.md#_strength) bonus if it's used in the off hand. If a one-handed weapon is wielded with two hands during melee combat, add 1-1/2 times the character's [Strength](gettingStarted.md#_strength) bonus to damage rolls.
 
-_Two-Handed_: Two hands are required to use a two-handed melee weapon effectively. Apply 1-1/2 times the character's [Strength](gettingStarted.html#_strength) bonus to damage rolls for melee attacks with such a weapon.
+_Two-Handed_: Two hands are required to use a two-handed melee weapon effectively. Apply 1-1/2 times the character's [Strength](gettingStarted.md#_strength) bonus to damage rolls for melee attacks with such a weapon.
 
 **Weapon Size** : Every weapon has a size category. This designation indicates the size of the creature for which the weapon was designed.
 
@@ -130,7 +130,7 @@ This cost is the same for a Small or Medium version of the weapon. A Large versi
 | 2d8 | 1d10 | 3d8 |
 | 2d10 | 2d6 | 4d8 |
 
-**Dmg** : These columns give the damage dealt by the weapon on a successful hit. The column labeled âDmg (S)â is for Small weapons. The column labeled âDmg (M)â is for Medium weapons. If two damage ranges are given, then the weapon is a double weapon. Use the second damage figure given for the double weapon's extra attack. Table: Tiny and Large Weapon Damage gives weapon damage values for Tiny and Large weapons.
+**Dmg** : These columns give the damage dealt by the weapon on a successful hit. The column labeled “Dmg (S)” is for Small weapons. The column labeled “Dmg (M)” is for Medium weapons. If two damage ranges are given, then the weapon is a double weapon. Use the second damage figure given for the double weapon's extra attack. Table: Tiny and Large Weapon Damage gives weapon damage values for Tiny and Large weapons.
 
 **Critical** : The entry in this column notes how the weapon is used with the rules for critical hits. When your character scores a critical hit, roll the damage two, three, or four times, as indicated by its critical multiplier (using all applicable modifiers on each roll), and add all the results together.
 
@@ -160,15 +160,15 @@ In other cases, a weapon can deal either of two types of damage. In a situation 
 
 **Special** : Some weapons have special features in addition to those noted in their descriptions.
 
-_Brace_: If you use a readied action to set a brace weapon against a charge, you deal double damage on a successful hit against a charging character (see [Combat](combat.html)).
+_Brace_: If you use a readied action to set a brace weapon against a charge, you deal double damage on a successful hit against a charging character (see [Combat](combat.md)).
 
 _Disarm_: When you use a disarm weapon, you get a +2 bonus on Combat Maneuver Checks to disarm an enemy.
 
 _Double_: You can use a double weapon to fight as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon. You can choose to wield one end of a double weapon two-handed, but it cannot be used as a double weapon when wielded in this way—only one end of the weapon can be used in any given round.
 
-_Monk_: A monk weapon can be used by a monk to perform a flurry of blows (see [Classes](classes.html)).
+_Monk_: A monk weapon can be used by a monk to perform a flurry of blows (see [Classes](classes.md)).
 
-_Nonlethal_: These weapons deal nonlethal damage (see [Combat](combat.html)).
+_Nonlethal_: These weapons deal nonlethal damage (see [Combat](combat.md)).
 
 _Reach_: You use a reach weapon to strike opponents 10 feet away, but you can't use it against an adjacent foe.
 
@@ -293,7 +293,7 @@ Weapons found on Table: Weapons are described below. Splash weapons are describe
 
 **Axe, Orc Double** : A cruel weapon with blades placed at opposite ends of a long haft, an orc double axe is a double weapon.
 
-**Blowgun** : Blowguns are generally used to deliver debilitating (but rarely fatal) poisons from a distance. They are nearly silent when fired. For a list of appropriate poisons, see [Poison](glossary.html#_poison).
+**Blowgun** : Blowguns are generally used to deliver debilitating (but rarely fatal) poisons from a distance. They are nearly silent when fired. For a list of appropriate poisons, see [Poison](glossary.md#_poison).
 
 **Bolas** : A bolas is a pair of weights, connected by a thin rope or cord. You can use this weapon to make a ranged trip attack against an opponent. You can't be tripped during your own trip attempt when using a bolas.
 
@@ -301,19 +301,19 @@ Weapons found on Table: Weapons are described below. Splash weapons are describe
 
 **Bullets, Sling** : Bullets are shaped metal balls, designed to be used by a sling or halfling sling staff. Bullets come in a leather pouch that holds 10 bullets.
 
-**Chain, Spiked** : A spiked chain is about 4 feet in length, covered in wicked barbs. You can use the [Weapon Finesse](feats.html#_weapon-finesse) feat to apply your [Dexterity](gettingStarted.html#_dexterity) modifier instead of your [Strength](gettingStarted.html#_strength) modifier to attack rolls with a spiked chain sized for you, even though it isn't a light weapon.
+**Chain, Spiked** : A spiked chain is about 4 feet in length, covered in wicked barbs. You can use the [Weapon Finesse](feats.md#_weapon-finesse) feat to apply your [Dexterity](gettingStarted.md#_dexterity) modifier instead of your [Strength](gettingStarted.md#_strength) modifier to attack rolls with a spiked chain sized for you, even though it isn't a light weapon.
 
 **Crossbow, Hand** : You can draw a hand crossbow back by hand. Loading a hand crossbow is a move action that provokes attacks of opportunity.
 
-You can shoot, but not load, a hand crossbow with one hand at no penalty. You can shoot a hand crossbow with each hand, but you take a penalty on attack rolls as if attacking with [two light weapons](combat.html#_two-weapon-fighting).
+You can shoot, but not load, a hand crossbow with one hand at no penalty. You can shoot a hand crossbow with each hand, but you take a penalty on attack rolls as if attacking with [two light weapons](combat.md#_two-weapon-fighting).
 
 **Crossbow, Heavy** : You draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity.
 
-Normally, operating a heavy crossbow requires two hands. However, you can shoot, but not load, a heavy crossbow with one hand at a –4 penalty on attack rolls. You can shoot a heavy crossbow with each hand, but you take a penalty on attack rolls as if attacking with [two one-handed weapons](combat.html#_two-weapon-fighting). This penalty is cumulative with the penalty for one-handed firing.
+Normally, operating a heavy crossbow requires two hands. However, you can shoot, but not load, a heavy crossbow with one hand at a –4 penalty on attack rolls. You can shoot a heavy crossbow with each hand, but you take a penalty on attack rolls as if attacking with [two one-handed weapons](combat.md#_two-weapon-fighting). This penalty is cumulative with the penalty for one-handed firing.
 
 **Crossbow, Light** : You draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity.
 
-Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a –2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with [two light weapons](combat.html#_two-weapon-fighting). This penalty is cumulative with the penalty for one-handed firing.
+Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a –2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with [two light weapons](combat.md#_two-weapon-fighting). This penalty is cumulative with the penalty for one-handed firing.
 
 **Crossbow, Repeating** : The repeating crossbow (whether heavy or light) holds 5 crossbow bolts. As long as it holds bolts, you can reload it by pulling the reloading lever (a free action). Loading a new case of 5 bolts is a full-round action that provokes attacks of opportunity.
 
@@ -321,9 +321,9 @@ You can fire a repeating crossbow with one hand or fire a repeating crossbow in 
 
 **Curve Blade, Elven** : Essentially a longer version of a scimitar, but with a thinner blade, the elven curve blade is exceptionally rare. You receive a +2 circumstance bonus to your Combat Maneuver Defense whenever a foe attempts to sunder your elven curve blade due to its flexible metal.
 
-You can use the [Weapon Finesse](feats.html#_weapon-finesse) feat to apply your [Dexterity](gettingStarted.html#_dexterity) modifier instead of your [Strength](gettingStarted.html#_strength) modifier to attack rolls with an elven curve blade sized for you, even though it isn't a light weapon.
+You can use the [Weapon Finesse](feats.md#_weapon-finesse) feat to apply your [Dexterity](gettingStarted.md#_dexterity) modifier instead of your [Strength](gettingStarted.md#_strength) modifier to attack rolls with an elven curve blade sized for you, even though it isn't a light weapon.
 
-**Dagger** : A dagger has a blade that is about 1 foot in length. You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see [Using Skills](usingSkills.html)).
+**Dagger** : A dagger has a blade that is about 1 foot in length. You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see [Using Skills](usingSkills.md)).
 
 **Dagger, Punching** : A punching dagger's blade is attached to a horizontal handle that projects out from the fist when held.
 
@@ -355,9 +355,9 @@ You can use the [Weapon Finesse](feats.html#_weapon-finesse) feat to apply your 
 
 **Lance** : A lance deals double damage when used from the back of a charging mount. While mounted, you can wield a lance with one hand.
 
-**Longbow** : At almost 5 feet in height, a longbow is made up of one solid piece of carefully curved wood. You need two hands to use a bow, regardless of its size. A longbow is too unwieldy to use while you are mounted. If you have a penalty for low [Strength](gettingStarted.html#_strength), apply it to damage rolls when you use a longbow. If you have a [Strength](gettingStarted.html#_strength) bonus, you can apply it to damage rolls when you use a composite longbow (see below), but not when you use a regular longbow.
+**Longbow** : At almost 5 feet in height, a longbow is made up of one solid piece of carefully curved wood. You need two hands to use a bow, regardless of its size. A longbow is too unwieldy to use while you are mounted. If you have a penalty for low [Strength](gettingStarted.md#_strength), apply it to damage rolls when you use a longbow. If you have a [Strength](gettingStarted.md#_strength) bonus, you can apply it to damage rolls when you use a composite longbow (see below), but not when you use a regular longbow.
 
-**Longbow, Composite** : You need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum [Strength](gettingStarted.html#_strength) modifier to use with proficiency). If your [Strength](gettingStarted.html#_strength) bonus is less than the strength rating of the composite bow, you can't effectively use it, so you take a –2 penalty on attacks with it. The default composite longbow requires a [Strength](gettingStarted.html#_strength) modifier of +0 or higher to use with proficiency. A composite longbow can be made with a high strength rating to take advantage of an above-average [Strength](gettingStarted.html#_strength) score; this feature allows you to add your [Strength](gettingStarted.html#_strength) bonus to damage, up to the maximum bonus indicated for the bow. Each point of [Strength](gettingStarted.html#_strength) bonus granted by the bow adds 100 gp to its cost. If you have a penalty for low [Strength](gettingStarted.html#_strength), apply it to damage rolls when you use a composite longbow.
+**Longbow, Composite** : You need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum [Strength](gettingStarted.md#_strength) modifier to use with proficiency). If your [Strength](gettingStarted.md#_strength) bonus is less than the strength rating of the composite bow, you can't effectively use it, so you take a –2 penalty on attacks with it. The default composite longbow requires a [Strength](gettingStarted.md#_strength) modifier of +0 or higher to use with proficiency. A composite longbow can be made with a high strength rating to take advantage of an above-average [Strength](gettingStarted.md#_strength) score; this feature allows you to add your [Strength](gettingStarted.md#_strength) bonus to damage, up to the maximum bonus indicated for the bow. Each point of [Strength](gettingStarted.md#_strength) bonus granted by the bow adds 100 gp to its cost. If you have a penalty for low [Strength](gettingStarted.md#_strength), apply it to damage rolls when you use a composite longbow.
 
 For purposes of Weapon Proficiency and similar feats, a composite longbow is treated as if it were a longbow.
 
@@ -371,9 +371,9 @@ For purposes of Weapon Proficiency and similar feats, a composite longbow is tre
 
 **Morningstar** : A morningstar is a spiked metal ball, affixed to the top of a long handle.
 
-**Net** : A net is used to entangle enemies. When you throw a net, you make a ranged touch attack against your target. A net's maximum range is 10 feet. If you hit, the target is [entangled](glossary.html#_entangled). An entangled creature takes a –2 penalty on attack rolls and a –4 penalty on [Dexterity](gettingStarted.html#_dexterity), can move at only half speed, and cannot charge or run. If you control the trailing rope by succeeding on an opposed [Strength](gettingStarted.html#_strength) check while holding it, the [entangled](glossary.html#_entangled) creature can move only within the limits that the rope allows. If the [entangled](glossary.html#_entangled) creature attempts to cast a spell, it must make a concentration check with a DC of 15 + the spell's level or be unable to cast the spell.
+**Net** : A net is used to entangle enemies. When you throw a net, you make a ranged touch attack against your target. A net's maximum range is 10 feet. If you hit, the target is [entangled](glossary.md#_entangled). An entangled creature takes a –2 penalty on attack rolls and a –4 penalty on [Dexterity](gettingStarted.md#_dexterity), can move at only half speed, and cannot charge or run. If you control the trailing rope by succeeding on an opposed [Strength](gettingStarted.md#_strength) check while holding it, the [entangled](glossary.md#_entangled) creature can move only within the limits that the rope allows. If the [entangled](glossary.md#_entangled) creature attempts to cast a spell, it must make a concentration check with a DC of 15 + the spell's level or be unable to cast the spell.
 
-An [entangled](glossary.html#_entangled) creature can escape with a DC 20 Escape Artist check (a full-round action). The net has 5 hit points and can be burst with a DC 25 [Strength](gettingStarted.html#_strength) check (also a full-round action). A net is useful only against creatures within one size category of you.
+An [entangled](glossary.md#_entangled) creature can escape with a DC 20 Escape Artist check (a full-round action). The net has 5 hit points and can be burst with a DC 25 [Strength](gettingStarted.md#_strength) check (also a full-round action). A net is useful only against creatures within one size category of you.
 
 A net must be folded to be thrown effectively. The first time you throw your net in a fight, you make a normal ranged touch attack roll. After the net is unfolded, you take a –4 penalty on attack rolls with it. It takes 2 rounds for a proficient user to fold a net and twice that long for a nonproficient one to do so.
 
@@ -383,17 +383,17 @@ A net must be folded to be thrown effectively. The first time you throw your net
 
 **Ranseur** : Similar in appearance to a trident, a ranseur has a single spear at its tip, flanked by a pair of short, curving blades.
 
-**Rapier** : You can use the [Weapon Finesse](feats.html#_weapon-finesse) feat to apply your [Dexterity](gettingStarted.html#_dexterity) modifier instead of your [Strength](gettingStarted.html#_strength) modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1/2 times your [Strength](gettingStarted.html#_strength) bonus to damage.
+**Rapier** : You can use the [Weapon Finesse](feats.md#_weapon-finesse) feat to apply your [Dexterity](gettingStarted.md#_dexterity) modifier instead of your [Strength](gettingStarted.md#_strength) modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1/2 times your [Strength](gettingStarted.md#_strength) bonus to damage.
 
 **Sai** : A sai is a metal spike flanked by a pair of prongs used to trap an enemy's weapon. With a sai, you get a +2 bonus on Combat Maneuver Checks to sunder an enemy's weapon. Though pointed, a sai is used primarily to bludgeon foes and to disarm weapons.
 
 **Shield, Heavy or Light** : You can bash with a shield instead of using it for defense.
 
-**Shortbow** : A shortbow is made up of one piece of wood, about 3 feet in length. You need two hands to use a bow, regardless of its size. You can use a shortbow while mounted. If you have a penalty for low [Strength](gettingStarted.html#_strength), apply it to damage rolls when you use a shortbow. If you have a bonus for high [Strength](gettingStarted.html#_strength), you can apply it to damage rolls when you use a composite shortbow (see below), but not a regular shortbow.
+**Shortbow** : A shortbow is made up of one piece of wood, about 3 feet in length. You need two hands to use a bow, regardless of its size. You can use a shortbow while mounted. If you have a penalty for low [Strength](gettingStarted.md#_strength), apply it to damage rolls when you use a shortbow. If you have a bonus for high [Strength](gettingStarted.md#_strength), you can apply it to damage rolls when you use a composite shortbow (see below), but not a regular shortbow.
 
-**Shortbow, Composite** : You need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted. All composite bows are made with a particular [strength](gettingStarted.html#_strength) rating (that is, each requires a minimum [Strength](gettingStarted.html#_strength) modifier to use with proficiency). If your [Strength](gettingStarted.html#_strength) bonus is lower than the strength rating of the composite bow, you can't effectively use it, so you take a –2 penalty on attacks with it. The default composite shortbow requires a [Strength](gettingStarted.html#_strength) modifier of +0 or higher to use with proficiency. A composite shortbow can be made with a high strength rating to take advantage of an above-average [Strength](gettingStarted.html#_strength) score; this feature allows you to add your [Strength](gettingStarted.html#_strength) bonus to damage, up to the maximum bonus indicated for the bow. Each point of [Strength](gettingStarted.html#_strength) bonus granted by the bow adds 75 gp to its cost. If you have a penalty for low [Strength](gettingStarted.html#_strength), apply it to damage rolls when you use a composite shortbow.
+**Shortbow, Composite** : You need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted. All composite bows are made with a particular [strength](gettingStarted.md#_strength) rating (that is, each requires a minimum [Strength](gettingStarted.md#_strength) modifier to use with proficiency). If your [Strength](gettingStarted.md#_strength) bonus is lower than the strength rating of the composite bow, you can't effectively use it, so you take a –2 penalty on attacks with it. The default composite shortbow requires a [Strength](gettingStarted.md#_strength) modifier of +0 or higher to use with proficiency. A composite shortbow can be made with a high strength rating to take advantage of an above-average [Strength](gettingStarted.md#_strength) score; this feature allows you to add your [Strength](gettingStarted.md#_strength) bonus to damage, up to the maximum bonus indicated for the bow. Each point of [Strength](gettingStarted.md#_strength) bonus granted by the bow adds 75 gp to its cost. If you have a penalty for low [Strength](gettingStarted.md#_strength), apply it to damage rolls when you use a composite shortbow.
 
-For purposes of Weapon Proficiency, [Weapon Focus](feats.html#_weapon-focus), and similar feats, a composite shortbow is treated as if it were a shortbow.
+For purposes of Weapon Proficiency, [Weapon Focus](feats.md#_weapon-focus), and similar feats, a composite shortbow is treated as if it were a shortbow.
 
 **Shortspear** : A shortspear is about 3 feet in length, making it a suitable thrown weapon.
 
@@ -403,11 +403,11 @@ For purposes of Weapon Proficiency, [Weapon Focus](feats.html#_weapon-focus), an
 
 **Siangham** : This weapon is a handheld shaft fitted with a pointed tip for stabbing foes.
 
-**Sling** : A sling is little more than a leather cup attached to a pair of strings. Your [Strength](gettingStarted.html#_strength) modifier applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but not load, a sling with one hand. Loading a sling is a move action that requires two hands and provokes attacks of opportunity.
+**Sling** : A sling is little more than a leather cup attached to a pair of strings. Your [Strength](gettingStarted.md#_strength) modifier applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but not load, a sling with one hand. Loading a sling is a move action that requires two hands and provokes attacks of opportunity.
 
 You can hurl ordinary stones with a sling, but stones are not as dense or as round as bullets. Thus, such an attack deals damage as if the weapon were designed for a creature one size category smaller than you and you take a –1 penalty on attack rolls.
 
-**Sling Staff, Halfling** : Made from a specially designed sling attached to a short club, a halfling sling staff can be used by a proficient wielder to devastating effect. Your [Strength](gettingStarted.html#_strength) modifier applies to damage rolls when you use a halfling sling staff, just as it does for thrown weapons. You can fire, but not load, a halfling sling staff with one hand. Loading a halfling sling staff is a move action that requires two hands and provokes attacks of opportunity.
+**Sling Staff, Halfling** : Made from a specially designed sling attached to a short club, a halfling sling staff can be used by a proficient wielder to devastating effect. Your [Strength](gettingStarted.md#_strength) modifier applies to damage rolls when you use a halfling sling staff, just as it does for thrown weapons. You can fire, but not load, a halfling sling staff with one hand. Loading a halfling sling staff is a move action that requires two hands and provokes attacks of opportunity.
 
 You can hurl ordinary stones with a halfling sling staff, but stones are not as dense or as round as bullets. Thus, such an attack deals damage as if the weapon were designed for a creature one size category smaller than you and you take a –1 penalty on attack rolls.
 
@@ -421,9 +421,9 @@ A halfling sling staff can be used as a simple weapon that deals bludgeoning dam
 
 **Starknife** : From a central metal ring, four tapering metal blades extend like points on a compass rose. A wielder can stab with the starknife or throw it.
 
-**Strike, Unarmed** : A Medium character deals 1d3 points of nonlethal damage with an unarmed strike. A Small character deals 1d2 points of nonlethal damage. A monk or any character with the [Improved Unarmed Strike](feats.html#_improved-unarmed-strike) feat can deal lethal or nonlethal damage with unarmed strikes, at his discretion. The damage from an unarmed strike is considered weapon damage for the purposes of effects that give you a bonus on weapon damage rolls.
+**Strike, Unarmed** : A Medium character deals 1d3 points of nonlethal damage with an unarmed strike. A Small character deals 1d2 points of nonlethal damage. A monk or any character with the [Improved Unarmed Strike](feats.md#_improved-unarmed-strike) feat can deal lethal or nonlethal damage with unarmed strikes, at his discretion. The damage from an unarmed strike is considered weapon damage for the purposes of effects that give you a bonus on weapon damage rolls.
 
-An unarmed strike is always considered a light weapon. Therefore, you can use the [Weapon Finesse](feats.html#_weapon-finesse) feat to apply your [Dexterity](gettingStarted.html#_dexterity) modifier instead of your [Strength](gettingStarted.html#_strength) modifier to attack rolls with an unarmed strike. Unarmed strikes do not count as natural weapons (see [Combat](combat.html)).
+An unarmed strike is always considered a light weapon. Therefore, you can use the [Weapon Finesse](feats.md#_weapon-finesse) feat to apply your [Dexterity](gettingStarted.md#_dexterity) modifier instead of your [Strength](gettingStarted.md#_strength) modifier to attack rolls with an unarmed strike. Unarmed strikes do not count as natural weapons (see [Combat](combat.md)).
 
 **Sword, Bastard** : A bastard sword is about 4 feet in length, making it too large to use in one hand without special training; thus, it is an exotic weapon. A character can use a bastard sword two-handed as a martial weapon.
 
@@ -439,7 +439,7 @@ An unarmed strike is always considered a light weapon. Therefore, you can use th
 
 Using a whip provokes an attack of opportunity, just as if you had used a ranged weapon.
 
-You can use the [Weapon Finesse](feats.html#_weapon-finesse) feat to apply your [Dexterity](gettingStarted.html#_dexterity) modifier instead of your [Strength](gettingStarted.html#_strength) modifier to attack rolls with a whip sized for you, even though it isn't a light weapon.
+You can use the [Weapon Finesse](feats.md#_weapon-finesse) feat to apply your [Dexterity](gettingStarted.md#_dexterity) modifier instead of your [Strength](gettingStarted.md#_strength) modifier to attack rolls with a whip sized for you, even though it isn't a light weapon.
 
 ## Masterwork Weapons
 
@@ -461,23 +461,23 @@ Here is the format for armor entries (given as column headings on Table: Armor a
 
 **Cost** : The cost in gold pieces of the armor for Small or Medium humanoid creatures. See Table: Armor for Unusual Creatures for armor prices for other creatures.
 
-**Armor/Shield Bonus** : Each type of armor grants an armor bonus to [AC](combat.html#_armor-class), while shields grant a shield bonus to [AC](combat.html#_armor-class). The armor bonus from a suit of armor doesn't stack with other effects or items that grant an armor bonus. Similarly, the shield bonus from a shield doesn't stack with other effects that grant a shield bonus.
+**Armor/Shield Bonus** : Each type of armor grants an armor bonus to [AC](combat.md#_armor-class), while shields grant a shield bonus to [AC](combat.md#_armor-class). The armor bonus from a suit of armor doesn't stack with other effects or items that grant an armor bonus. Similarly, the shield bonus from a shield doesn't stack with other effects that grant a shield bonus.
 
-**Maximum [Dex](gettingStarted.html#_dexterity) Bonus** : This number is the maximum [Dexterity](gettingStarted.html#_dexterity) bonus to [AC](combat.html#_armor-class) that this type of armor allows. [Dexterity](gettingStarted.html#_dexterity) bonuses in excess of this number are reduced to this number for the purposes of determining the wearer's [AC](combat.html#_armor-class). Heavier armors limit mobility, reducing the wearer's ability to dodge blows. This restriction doesn't affect any other [Dexterity](gettingStarted.html#_dexterity)-related abilities.
+**Maximum [Dex](gettingStarted.md#_dexterity) Bonus** : This number is the maximum [Dexterity](gettingStarted.md#_dexterity) bonus to [AC](combat.md#_armor-class) that this type of armor allows. [Dexterity](gettingStarted.md#_dexterity) bonuses in excess of this number are reduced to this number for the purposes of determining the wearer's [AC](combat.md#_armor-class). Heavier armors limit mobility, reducing the wearer's ability to dodge blows. This restriction doesn't affect any other [Dexterity](gettingStarted.md#_dexterity)-related abilities.
 
-Even if a character's [Dexterity](gettingStarted.html#_dexterity) bonus to [AC](combat.html#_armor-class) drops to 0 because of armor, this situation does not count as losing his [Dexterity](gettingStarted.html#_dexterity) bonus to [AC](combat.html#_armor-class).
+Even if a character's [Dexterity](gettingStarted.md#_dexterity) bonus to [AC](combat.md#_armor-class) drops to 0 because of armor, this situation does not count as losing his [Dexterity](gettingStarted.md#_dexterity) bonus to [AC](combat.md#_armor-class).
 
-A character's encumbrance (the amount of gear carried, including armor) may also restrict the maximum [Dexterity](gettingStarted.html#_dexterity) bonus that can be applied to his [Armor Class](combat.html#_armor-class).
+A character's encumbrance (the amount of gear carried, including armor) may also restrict the maximum [Dexterity](gettingStarted.md#_dexterity) bonus that can be applied to his [Armor Class](combat.md#_armor-class).
 
-_Shields_: Shields do not affect a character's maximum [Dexterity](gettingStarted.html#_dexterity) bonus, except for tower shields.
+_Shields_: Shields do not affect a character's maximum [Dexterity](gettingStarted.md#_dexterity) bonus, except for tower shields.
 
-**Armor Check Penalty** : Any armor heavier than leather, as well as any shield, hurts a character's ability to use [Dexterity](gettingStarted.html#_dexterity)- and [Strength](gettingStarted.html#_strength)-based skills. An armor check penalty applies to all [Dexterity](gettingStarted.html#_dexterity)- and [Strength](gettingStarted.html#_strength)-based skill checks. A character's encumbrance may also incur an armor check penalty.
+**Armor Check Penalty** : Any armor heavier than leather, as well as any shield, hurts a character's ability to use [Dexterity](gettingStarted.md#_dexterity)- and [Strength](gettingStarted.md#_strength)-based skills. An armor check penalty applies to all [Dexterity](gettingStarted.md#_dexterity)- and [Strength](gettingStarted.md#_strength)-based skill checks. A character's encumbrance may also incur an armor check penalty.
 
 _Shields_: If a character is wearing armor and using a shield, both armor check penalties apply.
 
-_Nonproficient with Armor Worn_: A character who wears armor and/or uses a shield with which he is not proficient takes the armor's (and/or shield's) armor check penalty on attack rolls as well as on all [Dexterity](gettingStarted.html#_dexterity)- and [Strength](gettingStarted.html#_strength)-based ability and skill checks. The penalty for nonproficiency with armor stacks with the penalty for shields.
+_Nonproficient with Armor Worn_: A character who wears armor and/or uses a shield with which he is not proficient takes the armor's (and/or shield's) armor check penalty on attack rolls as well as on all [Dexterity](gettingStarted.md#_dexterity)- and [Strength](gettingStarted.md#_strength)-based ability and skill checks. The penalty for nonproficiency with armor stacks with the penalty for shields.
 
-_Sleeping in Armor_: A character who sleeps in medium or heavy armor is automatically fatigued the next day. He takes a –2 penalty on [Strength](gettingStarted.html#_strength) and [Dexterity](gettingStarted.html#_dexterity) and can't charge or run. Sleeping in light armor does not cause fatigue.
+_Sleeping in Armor_: A character who sleeps in medium or heavy armor is automatically fatigued the next day. He takes a –2 penalty on [Strength](gettingStarted.md#_strength) and [Dexterity](gettingStarted.md#_dexterity) and can't charge or run. Sleeping in light armor does not cause fatigue.
 
 **Arcane Spell Failure Chance** : Armor interferes with the gestures that a spellcaster must make to cast an arcane spell that has a somatic component. Arcane spellcasters face the possibility of arcane spell failure if they're wearing armor. Bards can wear light armor and use shields without incurring any arcane spell failure chance for their bard spells.
 
@@ -494,7 +494,7 @@ _Shields_: Shields do not affect a character's speed.
 ## Armor Descriptions
 
 [Table: Armor and Shields]
-| Armor | Cost | Armor/Shield Bonus | Maximum [Dex](gettingStarted.html#_dexterity) Bonus | Armor Check Penalty | Arcane Spell Failure Chance | Speed | Weightⁱ |
+| Armor | Cost | Armor/Shield Bonus | Maximum [Dex](gettingStarted.md#_dexterity) Bonus | Armor Check Penalty | Arcane Spell Failure Chance | Speed | Weightⁱ |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 30 ft. | 20 ft. |
 | --- | --- |
@@ -527,13 +527,13 @@ _Shields_: Shields do not affect a character's speed.
 
 Any special benefits or accessories to the types of armor found on Table: Armor and Shields are described below.
 
-**Armor Spikes** : You can have spikes added to your armor, which allow you to deal extra piercing damage (see âspiked armorâ on Table: Weapons) on a successful grapple attack. The spikes count as a martial weapon. If you are not proficient with them, you take a –4 penalty on grapple checks when you try to use them. You can also make a regular melee attack (or off-hand attack) with the spikes, and they count as a light weapon in this case. (You can't also make an attack with armor spikes if you have already made an attack with another off-hand weapon, and vice versa.) An enhancement bonus to a suit of armor does not improve the spikes' effectiveness, but the spikes can be made into magic weapons in their own right.
+**Armor Spikes** : You can have spikes added to your armor, which allow you to deal extra piercing damage (see “spiked armor” on Table: Weapons) on a successful grapple attack. The spikes count as a martial weapon. If you are not proficient with them, you take a –4 penalty on grapple checks when you try to use them. You can also make a regular melee attack (or off-hand attack) with the spikes, and they count as a light weapon in this case. (You can't also make an attack with armor spikes if you have already made an attack with another off-hand weapon, and vice versa.) An enhancement bonus to a suit of armor does not improve the spikes' effectiveness, but the spikes can be made into magic weapons in their own right.
 
 **Banded Mail** : Banded mail is made up of overlapping strips of metal, fastened to a leather backing. The suit includes gauntlets.
 
 **Breastplate** : Covering only the torso, a breastplate is made up of a single piece of sculpted metal.
 
-**Buckler** : This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you lose the buckler's [AC](combat.html#_armor-class) bonus until your next turn. You can cast a spell with somatic components using your shield arm, but you lose the buckler's [AC](combat.html#_armor-class) bonus until your next turn. You can't make a shield bash with a buckler.
+**Buckler** : This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you lose the buckler's [AC](combat.md#_armor-class) bonus until your next turn. You can cast a spell with somatic components using your shield arm, but you lose the buckler's [AC](combat.md#_armor-class) bonus until your next turn. You can't make a shield bash with a buckler.
 
 **Chain Shirt** : Covering the torso, this shirt is made up of thousands of interlocking metal rings.
 
@@ -563,19 +563,19 @@ Like a normal gauntlet, a locked gauntlet lets you deal lethal damage rather tha
 
 _Wooden or Steel_: Wooden and steel shields offer the same basic protection, though they respond differently to spells and effects.
 
-_Shield Bash Attacks_: You can bash an opponent with a heavy shield. See âshield, heavyâ on Table: Weapons for the damage dealt by a shield bash. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its [AC](combat.html#_armor-class) bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.
+_Shield Bash Attacks_: You can bash an opponent with a heavy shield. See “shield, heavy” on Table: Weapons for the damage dealt by a shield bash. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its [AC](combat.md#_armor-class) bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.
 
 **Shield, Light; Wooden or Steel** : You strap a shield to your forearm and grip it with your hand. A light shield's weight lets you carry other items in that hand, although you cannot use weapons with it.
 
 _Wooden or Steel_: Wooden and steel shields offer the same basic protection, though they respond differently to some spells and effects.
 
-_Shield Bash Attacks_: You can bash an opponent with a light shield. See âshield, lightâ on Table: Weapons for the damage dealt by a shield bash. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its [AC](combat.html#_armor-class) bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.
+_Shield Bash Attacks_: You can bash an opponent with a light shield. See “shield, light” on Table: Weapons for the damage dealt by a shield bash. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its [AC](combat.md#_armor-class) bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.
 
-**Shield, Tower** : This massive wooden shield is nearly as tall as you are. In most situations, it provides the indicated shield bonus to your [AC](combat.html#_armor-class). As a standard action, however, you can use a tower shield to grant you total cover until the beginning of your next turn. When using a tower shield in this way, you must choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover for attacks that pass through this edge and no cover for attacks that do not pass through this edge (see [Combat](combat.html)). The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding. You cannot bash with a tower shield, nor can you use your shield hand for anything else.
+**Shield, Tower** : This massive wooden shield is nearly as tall as you are. In most situations, it provides the indicated shield bonus to your [AC](combat.md#_armor-class). As a standard action, however, you can use a tower shield to grant you total cover until the beginning of your next turn. When using a tower shield in this way, you must choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover for attacks that pass through this edge and no cover for attacks that do not pass through this edge (see [Combat](combat.md)). The shield does not, however, provide cover against targeted spells; a spellcaster can cast a spell on you by targeting the shield you are holding. You cannot bash with a tower shield, nor can you use your shield hand for anything else.
 
 When employing a tower shield in combat, you take a –2 penalty on attack rolls because of the shield's encumbrance.
 
-**Shield Spikes** : These spikes turn a shield into a martial piercing weapon and increase the damage dealt by a shield bash as if the shield were designed for a creature one size category larger than you (see âspiked shieldsâ on Table: Weapons). You can't put spikes on a buckler or a tower shield. Otherwise, attacking with a spiked shield is like making a shield bash attack.
+**Shield Spikes** : These spikes turn a shield into a martial piercing weapon and increase the damage dealt by a shield bash as if the shield were designed for a creature one size category larger than you (see “spiked shields” on Table: Weapons). You can't put spikes on a buckler or a tower shield. Otherwise, attacking with a spiked shield is like making a shield bash attack.
 
 An enhancement bonus on a spiked shield does not improve the effectiveness of a shield bash made with it, but a spiked shield can be made into a magic weapon in its own right.
 
@@ -636,7 +636,7 @@ Weapons and armor can be crafted using materials that possess innate special pro
 
 Each of the special materials described below has a definite game effect. Some creatures have damage reduction making them resistant to all but a special type of damage, such as that dealt by evil-aligned weapons or bludgeoning weapons. Others are vulnerable to weapons of a particular material. Characters may choose to carry several different types of weapons, depending upon the types of creatures they most commonly encounter.
 
-**Adamantine** : Mined from rocks that fell from the heavens, this ultrahard metal adds to the quality of a weapon or suit of armor. Weapons fashioned from adamantine have a natural ability to bypass hardness when sundering weapons or attacking objects, ignoring hardness less than 20 (see [Additional Rules](additionalRules.html)). Armor made from adamantine grants its wearer damage reduction of 1/— if it's light armor, 2/— if it's medium armor, and 3/— if it's heavy armor. Adamantine is so costly that weapons and armor made from it are always of masterwork quality; the masterwork cost is included in the prices given below. Thus, adamantine weapons and ammunition have a +1 enhancement bonus on attack rolls, and the armor check penalty of adamantine armor is lessened by 1 compared to ordinary armor of its type. Items without metal parts cannot be made from adamantine. An arrow could be made of adamantine, but a quarterstaff could not.
+**Adamantine** : Mined from rocks that fell from the heavens, this ultrahard metal adds to the quality of a weapon or suit of armor. Weapons fashioned from adamantine have a natural ability to bypass hardness when sundering weapons or attacking objects, ignoring hardness less than 20 (see [Additional Rules](additionalRules.md)). Armor made from adamantine grants its wearer damage reduction of 1/— if it's light armor, 2/— if it's medium armor, and 3/— if it's heavy armor. Adamantine is so costly that weapons and armor made from it are always of masterwork quality; the masterwork cost is included in the prices given below. Thus, adamantine weapons and ammunition have a +1 enhancement bonus on attack rolls, and the armor check penalty of adamantine armor is lessened by 1 compared to ordinary armor of its type. Items without metal parts cannot be made from adamantine. An arrow could be made of adamantine, but a quarterstaff could not.
 
 Weapons and armor normally made of steel that are made of adamantine have one-third more hit points than normal. Adamantine has 40 hit points per inch of thickness and hardness 20.
 
@@ -666,7 +666,7 @@ Items without metal parts cannot be made from cold iron. An arrow could be made 
 
 Cold iron has 30 hit points per inch of thickness and hardness 10.
 
-**Mithral** : Mithral is a very rare silvery, glistening metal that is lighter than steel but just as hard. When worked like steel, it becomes a wonderful material from which to create armor, and is occasionally used for other items as well. Most mithral armors are one category lighter than normal for purposes of movement and other limitations. Heavy armors are treated as medium, and medium armors are treated as light, but light armors are still treated as light. This decrease does not apply to proficiency in wearing the armor. A character wearing mithral full plate must be proficient in wearing heavy armor to avoid adding the armor's check penalty to all his attack rolls and skill checks that involve moving. Spell failure chances for armors and shields made from mithral are decreased by 10%, maximum [Dexterity](gettingStarted.html#_dexterity) bonuses are increased by 2, and armor check penalties are decreased by 3 (to a minimum of 0).
+**Mithral** : Mithral is a very rare silvery, glistening metal that is lighter than steel but just as hard. When worked like steel, it becomes a wonderful material from which to create armor, and is occasionally used for other items as well. Most mithral armors are one category lighter than normal for purposes of movement and other limitations. Heavy armors are treated as medium, and medium armors are treated as light, but light armors are still treated as light. This decrease does not apply to proficiency in wearing the armor. A character wearing mithral full plate must be proficient in wearing heavy armor to avoid adding the armor's check penalty to all his attack rolls and skill checks that involve moving. Spell failure chances for armors and shields made from mithral are decreased by 10%, maximum [Dexterity](gettingStarted.md#_dexterity) bonuses are increased by 2, and armor check penalties are decreased by 3 (to a minimum of 0).
 
 An item made from mithral weighs half as much as the same item made from other metals. In the case of weapons, this lighter weight does not change a weapon's size category or the ease with which it can be wielded (whether it is light, one-handed, or two-handed). Items not primarily of metal are not meaningfully affected by being partially made of mithral. (A longsword can be a mithral weapon, while a quarterstaff cannot.) Mithral weapons count as silver for the purpose of overcoming damage reduction.
 
@@ -905,23 +905,23 @@ Beyond armor and weapons, a character can carry a whole variety of gear, from ra
 
 ## Adventuring Gear
 
-Some of the pieces of adventuring gear found on Table: Goods and Services are described below, along with any special benefits they confer on the user (âyouâ).
+Some of the pieces of adventuring gear found on Table: Goods and Services are described below, along with any special benefits they confer on the user (“you”).
 
 **Caltrops** : A caltrop is a four-pronged metal spike crafted so that one prong faces up no matter how the caltrop comes to rest. You scatter caltrops on the ground in the hope that your enemies step on them or are at least forced to slow down to avoid them. One 2-pound bag of caltrops covers an area 5 feet square.
 
-Each time a creature moves into an area covered by caltrops (or spends a round fighting while standing in such an area), it runs the risk of stepping on one. Make an attack roll for the caltrops (base attack bonus +0) against the creature. For this attack, the creature's shield, armor, and deflection bonuses do not count. If the creature is wearing shoes or other footwear, it gets a +2 armor bonus to [AC](combat.html#_armor-class). If the attack succeeds, the creature has stepped on a caltrop. The caltrop deals 1 point of damage, and the creature's speed is reduced by half because its foot is wounded. This movement penalty lasts for 24 hours, until the creature is successfully treated with a DC 15 Heal check, or until it receives at least 1 point of magical healing. A charging or running creature must immediately stop if it steps on a caltrop. Any creature moving at half speed or slower can pick its way through a bed of caltrops with no trouble.
+Each time a creature moves into an area covered by caltrops (or spends a round fighting while standing in such an area), it runs the risk of stepping on one. Make an attack roll for the caltrops (base attack bonus +0) against the creature. For this attack, the creature's shield, armor, and deflection bonuses do not count. If the creature is wearing shoes or other footwear, it gets a +2 armor bonus to [AC](combat.md#_armor-class). If the attack succeeds, the creature has stepped on a caltrop. The caltrop deals 1 point of damage, and the creature's speed is reduced by half because its foot is wounded. This movement penalty lasts for 24 hours, until the creature is successfully treated with a DC 15 Heal check, or until it receives at least 1 point of magical healing. A charging or running creature must immediately stop if it steps on a caltrop. Any creature moving at half speed or slower can pick its way through a bed of caltrops with no trouble.
 
 Caltrops may not work against unusual opponents.
 
-**Candle** : A candle dimly illuminates a small area, increasing the [light level](additionalRules.html#_vision-and-light) in a 5-foot radius by one step (darkness becomes dim light and dim light becomes normal light). A candle cannot increase the light level above normal light. A candle burns for 1 hour.
+**Candle** : A candle dimly illuminates a small area, increasing the [light level](additionalRules.md#_vision-and-light) in a 5-foot radius by one step (darkness becomes dim light and dim light becomes normal light). A candle cannot increase the light level above normal light. A candle burns for 1 hour.
 
-**Chain** : Chain has hardness 10 and 5 hit points. It can be burst with a DC 26 [Strength](gettingStarted.html#_strength) check.
+**Chain** : Chain has hardness 10 and 5 hit points. It can be burst with a DC 26 [Strength](gettingStarted.md#_strength) check.
 
-**Crowbar** : A crowbar grants a +2 circumstance bonus on [Strength](gettingStarted.html#_strength) checks made to force open a door or chest. If used in combat, treat a crowbar as a one-handed improvised weapon that deals bludgeoning damage equal to that of a club of its size.
+**Crowbar** : A crowbar grants a +2 circumstance bonus on [Strength](gettingStarted.md#_strength) checks made to force open a door or chest. If used in combat, treat a crowbar as a one-handed improvised weapon that deals bludgeoning damage equal to that of a club of its size.
 
 **Flint and Steel** : Lighting a torch with flint and steel is a full-round action, and lighting any other fire with them takes at least that long.
 
-**Grappling Hook** : Throwing a grappling hook requires a ranged attack roll, treating the hook as a thrown weapon with a range increment of 10 feet. Objects with ample places to catch the hook are [AC](combat.html#_armor-class) 5.
+**Grappling Hook** : Throwing a grappling hook requires a ranged attack roll, treating the hook as a thrown weapon with a range increment of 10 feet. Objects with ample places to catch the hook are [AC](combat.md#_armor-class) 5.
 
 **Hammer** : If a hammer is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a spiked gauntlet of its size.
 
@@ -929,15 +929,15 @@ Caltrops may not work against unusual opponents.
 
 **Jug, Clay** : This basic jug is fitted with a stopper and holds 1 gallon of liquid.
 
-**Lamp, Common** : A lamp illuminates a small area, providing normal light in a 15-foot radius and increasing the [light level](additionalRules.html#_vision-and-light) by one step for an additional 15 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A lamp does not increase the light level in normal light or bright light. A lamp burns for 6 hours on one pint of oil. You can carry a lamp in one hand.
+**Lamp, Common** : A lamp illuminates a small area, providing normal light in a 15-foot radius and increasing the [light level](additionalRules.md#_vision-and-light) by one step for an additional 15 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A lamp does not increase the light level in normal light or bright light. A lamp burns for 6 hours on one pint of oil. You can carry a lamp in one hand.
 
-**Lantern, Bullseye** : A bullseye lantern provides normal light in a 60-foot cone and increases the [light level](additionalRules.html#_vision-and-light) by one step in the area beyond that, out to a 120-foot cone (darkness becomes dim light and dim light becomes normal light). A bullseye lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on one pint of oil. You can carry a lantern in one hand.
+**Lantern, Bullseye** : A bullseye lantern provides normal light in a 60-foot cone and increases the [light level](additionalRules.md#_vision-and-light) by one step in the area beyond that, out to a 120-foot cone (darkness becomes dim light and dim light becomes normal light). A bullseye lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on one pint of oil. You can carry a lantern in one hand.
 
-**Lantern, Hooded** : A hooded lantern sheds normal light in a 30-foot radius and increases the [light level](additionalRules.html#_vision-and-light) by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A hooded lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on one pint of oil. You can carry a lantern in one hand.
+**Lantern, Hooded** : A hooded lantern sheds normal light in a 30-foot radius and increases the [light level](additionalRules.md#_vision-and-light) by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A hooded lantern does not increase the light level in normal light or bright light. A lantern burns for 6 hours on one pint of oil. You can carry a lantern in one hand.
 
 **Lock** : The DC to open a lock with the Disable Device skill depends on the lock's quality: simple (DC 20), average (DC 25), good (DC 30), or superior (DC 40).
 
-**Manacles, Standard and Masterwork** : Manacles can bind a Medium creature. A manacled creature can use the Escape Artist skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a [Strength](gettingStarted.html#_strength) check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 hit points.
+**Manacles, Standard and Masterwork** : Manacles can bind a Medium creature. A manacled creature can use the Escape Artist skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a [Strength](gettingStarted.md#_strength) check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 hit points.
 
 Most manacles have locks; add the cost of the lock you want to the cost of the manacles.
 
@@ -949,11 +949,11 @@ You can pour a pint of oil on the ground to cover an area 5 feet square, provide
 
 **Pick, Miner's** : If a miner's pick is used in combat, treat it as a two-handed improvised weapon that deals piercing damage equal to that of a heavy pick of its size.
 
-**Ram, Portable** : This iron-shod wooden beam gives you a +2 circumstance bonus on [Strength](gettingStarted.html#_strength) checks made to break open a door and allows a second person to help, automatically increasing your bonus by 2.
+**Ram, Portable** : This iron-shod wooden beam gives you a +2 circumstance bonus on [Strength](gettingStarted.md#_strength) checks made to break open a door and allows a second person to help, automatically increasing your bonus by 2.
 
-**Rope, Hemp** : This rope has 2 hit points and can be burst with a DC 23 [Strength](gettingStarted.html#_strength) check.
+**Rope, Hemp** : This rope has 2 hit points and can be burst with a DC 23 [Strength](gettingStarted.md#_strength) check.
 
-**Rope, Silk** : This rope has 4 hit points and can be burst with a DC 24 [Strength](gettingStarted.html#_strength) check.
+**Rope, Silk** : This rope has 4 hit points and can be burst with a DC 24 [Strength](gettingStarted.md#_strength) check.
 
 **Shovel** : If a shovel is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a club of its size.
 
@@ -969,13 +969,13 @@ You can pour a pint of oil on the ground to cover an area 5 feet square, provide
 
 Any of these substances except for the everburning torch and holy water can be made by a character with the Craft (alchemy) skill.
 
-**Acid** : You can throw a flask of acid as a [splash weapon](combat.html#_throw-splash-weapon). Treat this attack as a ranged touch attack with a range increment of 10 feet. A direct hit deals 1d6 points of acid damage. Every creature within 5 feet of the point where the acid hits takes 1 point of acid damage from the splash.
+**Acid** : You can throw a flask of acid as a [splash weapon](combat.md#_throw-splash-weapon). Treat this attack as a ranged touch attack with a range increment of 10 feet. A direct hit deals 1d6 points of acid damage. Every creature within 5 feet of the point where the acid hits takes 1 point of acid damage from the splash.
 
-**Alchemist's Fire** : You can throw a flask of alchemist's fire as a [splash weapon](combat.html#_throw-splash-weapon). Treat this attack as a ranged touch attack with a range increment of 10 feet.
+**Alchemist's Fire** : You can throw a flask of alchemist's fire as a [splash weapon](combat.md#_throw-splash-weapon). Treat this attack as a ranged touch attack with a range increment of 10 feet.
 
-A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage. If desired, the target can use a full-round action to attempt to extinguish the flames before taking this additional damage. Extinguishing the flames requires a DC 15 [Reflex](combat.html#_reflex) save. Rolling on the ground provides the target a +2 bonus on the save. Leaping into a lake or magically extinguishing the flames automatically smothers the fire.
+A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage. If desired, the target can use a full-round action to attempt to extinguish the flames before taking this additional damage. Extinguishing the flames requires a DC 15 [Reflex](combat.md#_reflex) save. Rolling on the ground provides the target a +2 bonus on the save. Leaping into a lake or magically extinguishing the flames automatically smothers the fire.
 
-**Antitoxin** : If you drink a vial of antitoxin, you get a +5 alchemical bonus on [Fortitude](combat.html#_fortitude) saving throws against poison for 1 hour.
+**Antitoxin** : If you drink a vial of antitoxin, you get a +5 alchemical bonus on [Fortitude](combat.md#_fortitude) saving throws against poison for 1 hour.
 
 **Everburning Torch** : This otherwise normal torch has a _continual flame_ spell cast on it. This causes it to shed light like an ordinary torch, but it does not emit heat or deal fire damage if used as a weapon.
 
@@ -991,13 +991,13 @@ Temples to good deities sell holy water at cost (making no profit). Holy water i
 
 **Sunrod** : This 1-foot-long, gold-tipped, iron rod glows brightly when struck as a standard action. It sheds normal light in a 30-foot radius and increases the light level by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A sunrod does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless.
 
-**Tanglefoot Bag** : A tanglefoot bag is a small sack filled with tar, resin, and other sticky substances. When you throw a tanglefoot bag at a creature (as a ranged touch attack with a range increment of 10 feet), the bag comes apart and goo bursts out, entangling the target and then becoming tough and resilient upon exposure to air. An [entangled](glossary.html#_entangled) creature takes a –2 penalty on attack rolls and a –4 penalty to [Dexterity](gettingStarted.html#_dexterity) and must make a DC 15 [Reflex](combat.html#_reflex) save or be glued to the floor, unable to move. Even on a successful save, it can move only at half speed. Huge or larger creatures are unaffected by a tanglefoot bag. A flying creature is not stuck to the floor, but it must make a DC 15 [Reflex](combat.html#_reflex) save or be unable to fly (assuming it uses its wings to fly) and fall to the ground. A tanglefoot bag does not function underwater.
+**Tanglefoot Bag** : A tanglefoot bag is a small sack filled with tar, resin, and other sticky substances. When you throw a tanglefoot bag at a creature (as a ranged touch attack with a range increment of 10 feet), the bag comes apart and goo bursts out, entangling the target and then becoming tough and resilient upon exposure to air. An [entangled](glossary.md#_entangled) creature takes a –2 penalty on attack rolls and a –4 penalty to [Dexterity](gettingStarted.md#_dexterity) and must make a DC 15 [Reflex](combat.md#_reflex) save or be glued to the floor, unable to move. Even on a successful save, it can move only at half speed. Huge or larger creatures are unaffected by a tanglefoot bag. A flying creature is not stuck to the floor, but it must make a DC 15 [Reflex](combat.md#_reflex) save or be unable to fly (assuming it uses its wings to fly) and fall to the ground. A tanglefoot bag does not function underwater.
 
-A creature that is glued to the floor (or unable to fly) can break free by making a DC 17 [Strength](gettingStarted.html#_strength) check or by dealing 15 points of damage to the goo with a slashing weapon. A creature trying to scrape goo off itself, or another creature assisting, does not need to make an attack roll; hitting the goo is automatic, after which the creature that hit makes a damage roll to see how much of the goo was scraped off. Once free, the creature can move (including flying) at half speed. If the [entangled](glossary.html#_entangled) creature attempts to cast a spell, it must make concentration check with a DC of 15 + the spell's level or be unable to cast the spell. The goo becomes brittle and fragile after 2d4 rounds, cracking apart and losing its effectiveness. An application of _universal solvent_ to a stuck creature dissolves the alchemical goo immediately.
+A creature that is glued to the floor (or unable to fly) can break free by making a DC 17 [Strength](gettingStarted.md#_strength) check or by dealing 15 points of damage to the goo with a slashing weapon. A creature trying to scrape goo off itself, or another creature assisting, does not need to make an attack roll; hitting the goo is automatic, after which the creature that hit makes a damage roll to see how much of the goo was scraped off. Once free, the creature can move (including flying) at half speed. If the [entangled](glossary.md#_entangled) creature attempts to cast a spell, it must make concentration check with a DC of 15 + the spell's level or be unable to cast the spell. The goo becomes brittle and fragile after 2d4 rounds, cracking apart and losing its effectiveness. An application of _universal solvent_ to a stuck creature dissolves the alchemical goo immediately.
 
-**Thunderstone** : You can throw this stone as a ranged attack with a range increment of 20 feet. When it strikes a hard surface (or is struck hard), it creates a deafening bang that is treated as a sonic attack. Each creature within a 10-foot-radius spread must make a DC 15 [Fortitude](combat.html#_fortitude) save or be [deafened](glossary.html#_deafened) for 1 hour. A deafened creature, in addition to the obvious effects, takes a –4 penalty on initiative and has a 20% chance to miscast and lose any spell with a verbal component that it tries to cast.
+**Thunderstone** : You can throw this stone as a ranged attack with a range increment of 20 feet. When it strikes a hard surface (or is struck hard), it creates a deafening bang that is treated as a sonic attack. Each creature within a 10-foot-radius spread must make a DC 15 [Fortitude](combat.md#_fortitude) save or be [deafened](glossary.md#_deafened) for 1 hour. A deafened creature, in addition to the obvious effects, takes a –4 penalty on initiative and has a 20% chance to miscast and lose any spell with a verbal component that it tries to cast.
 
-Since you don't need to hit a specific target, you can simply aim at a particular 5-foot square. Treat the target square as [AC](combat.html#_armor-class) 5.
+Since you don't need to hit a specific target, you can simply aim at a particular 5-foot square. Treat the target square as [AC](combat.md#_armor-class) 5.
 
 **Tindertwig** : The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface. Creating a flame with a tindertwig is much faster than creating a flame with flint and steel (or a magnifying glass) and tinder. Lighting a torch with a tindertwig is a standard action (rather than a full-round action), and lighting any other fire with one is at least a standard action.
 
@@ -1047,9 +1047,9 @@ All characters begin play with one outfit, valued at 10 gp or less. Additional o
 
 **Cleric's Vestments** : These clothes are for performing priestly functions, not for adventuring. Cleric's vestments typically include a cassock, stole, and surplice.
 
-**Cold-Weather Outfit** : This outfit includes a wool coat, linen shirt, wool cap, heavy cloak, thick pants or skirt, and boots. This outfit grants a +5 circumstance bonus on [Fortitude](combat.html#_fortitude) saving throws against exposure to cold weather.
+**Cold-Weather Outfit** : This outfit includes a wool coat, linen shirt, wool cap, heavy cloak, thick pants or skirt, and boots. This outfit grants a +5 circumstance bonus on [Fortitude](combat.md#_fortitude) saving throws against exposure to cold weather.
 
-**Courtier's Outfit** : This outfit includes fancy, tailored clothes in whatever fashion happens to be the current style in the courts of the nobles. Anyone trying to influence nobles or courtiers while wearing street dress will have a hard time of it (–2 penalty on [Charisma](gettingStarted.html#_charisma-new)-based skill checks to influence such individuals). If you wear this outfit without jewelry (costing an additional 50 gp), you look like an out-of-place commoner.
+**Courtier's Outfit** : This outfit includes fancy, tailored clothes in whatever fashion happens to be the current style in the courts of the nobles. Anyone trying to influence nobles or courtiers while wearing street dress will have a hard time of it (–2 penalty on [Charisma](gettingStarted.md#_charisma-new)-based skill checks to influence such individuals). If you wear this outfit without jewelry (costing an additional 50 gp), you look like an out-of-place commoner.
 
 **Entertainer's Outfit** : This set of flashy—perhaps even gaudy—clothes is for entertaining. While the outfit looks whimsical, its practical design lets you tumble, dance, walk a tightrope, or just run (if the audience turns ugly).
 

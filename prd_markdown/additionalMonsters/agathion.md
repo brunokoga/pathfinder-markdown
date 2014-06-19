@@ -4,7 +4,7 @@ Agathions are a race of beast-aspect outsiders native to the plane of Nirvana, a
 
 All agathions have an animal-like aspect. Some are more humanoid in appearance, while others spend their entire existence in a form nearly identical to that of a true animal. Each type of agathion serves a particular role in Nirvana, and their duties on other planes echo these responsibilities: leonals watch over Nirvana's portals and have a guardian-like aspect in other worlds, draconals carry the wisdom of the ages and observe and guide exceptional mortals, vulpinals are bards and messengers and bear important news to celestial generals and mortal heroes, and so on. Agathions are proud of their feral aspects and don't take kindly to the suggestion that they are cursed folk like lycanthropes or nothing more than magical talking beasts. Every agathion was once a mortal who aspired to goodness and was rewarded in the afterlife with a form suiting her talents and personality; suggesting that an agathion's form is a kind of punishment is a terrible insult.
 
-The following pages describe only a few of the best-known kinds of agathions, but other types exist, corresponding to other conventional animals (bears, dinosaurs, fish, wolves, and so on), with a few having shapes that resemble insects (particularly beetles, butterflies, and mantises); a handful resemble stranger creatures (such as basilisks and owlbears) or unique âanimalsâ native to extreme environments on distant worlds. Certain animals, particularly those associated with scavenging activities (such as hyenas, buzzards, or jackals) or parasitism (like lampreys or ticks) specifically do not have agathions associated with them—these animals are not intrinsically evil, but their habits and ecological niches are far from the noble and proud traditions that most of the souls who seek enlightenment upon Nirvana would associate with themselves.
+The following pages describe only a few of the best-known kinds of agathions, but other types exist, corresponding to other conventional animals (bears, dinosaurs, fish, wolves, and so on), with a few having shapes that resemble insects (particularly beetles, butterflies, and mantises); a handful resemble stranger creatures (such as basilisks and owlbears) or unique “animals” native to extreme environments on distant worlds. Certain animals, particularly those associated with scavenging activities (such as hyenas, buzzards, or jackals) or parasitism (like lampreys or ticks) specifically do not have agathions associated with them—these animals are not intrinsically evil, but their habits and ecological niches are far from the noble and proud traditions that most of the souls who seek enlightenment upon Nirvana would associate with themselves.
 
 Individual agathions may be male or female, but they do not reproduce among their own kind—every agathion is a unique individual made from the soul of a good mortal. This does not prevent them from falling in love or having affairs with mortals, and a few aasimar and celestial sorcerer bloodlines derive from past contact with agathions, particularly among communities not averse to anthropomorphic humanoids. Indeed, many mythologies tie numerous races of this kind to the inevitable result of human tribes forming strong emotional attachments to visiting agathions.
 
@@ -16,17 +16,17 @@ Agathions serving a particular deity or empyreal lord may have additional abilit
 
 Though agathions lack an organized hierarchy, each type of agathion has a few individuals invested with power by the gods of Nirvana or the plane itself. Common agathions look to these exceptional examples for leadership, wisdom, and inspiration; these enlightened folk do not openly claim any responsibilities or rank over their fellows, but welcome the obligations this added power places upon them and do not deny their status or shirk their duties. Part of a category of powerful outsiders known collectively as empyreal lords, these leaders are often significantly larger than common agathions (up to double the normal size, in some cases), and have unusual coloration (such as iron-gray fur) or unique sensory manifestations associated with their presence (such as illusory birds, a constant melody, the scent of oranges, or a calming aura). No agathion fails to recognize their presence when not disguised. Agathion leaders can serve as heralds for deities, although they tend not to encourage religions based on their teachings. The following is but a selection of notable agathion leaders.
 
-Chavod Broken-Spear [(cetaceal)](/pathfinderRPG/prd/additionalMonsters/#agathion,-cetaceal)
+Chavod Broken-Spear [(cetaceal)](additionalMonsters/#agathion,-cetaceal)
 
-Kelumarion the King Over the Mountain ( [leonal](/pathfinderRPG/prd/additionalMonsters/#agathion,-leonal))
+Kelumarion the King Over the Mountain ( [leonal](additionalMonsters/#agathion,-leonal))
 
-Korada of the Dream Lotus ( [avoral](/pathfinderRPG/prd/additionalMonsters/#agathion,-avoral))
+Korada of the Dream Lotus ( [avoral](additionalMonsters/#agathion,-avoral))
 
-Lady Taramyth the Singing Flame ( [vulpinal](/pathfinderRPG/prd/additionalMonsters/#agathion,-vulpinal))
+Lady Taramyth the Singing Flame ( [vulpinal](additionalMonsters/#agathion,-vulpinal))
 
-Sixlife the Violet Fury ( [silvanshee](/pathfinderRPG/prd/additionalMonsters/#agathion,-silvanshee))
+Sixlife the Violet Fury ( [silvanshee](additionalMonsters/#agathion,-silvanshee))
 
-Walks with Golden Stars ( [draconal](/pathfinderRPG/prd/additionalMonsters/#agathion,-draconal))
+Walks with Golden Stars ( [draconal](additionalMonsters/#agathion,-draconal))
 
 # Agathion, Avoral
 
@@ -36,11 +36,11 @@ Great feathers sweep back from this fierce bird-man's brow, and long, clawed han
 
 **XP 6,400**
 
-NG Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [agathion](/pathfinderRPG/prd/monsters/creatureTypes.html#_agathion-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype))
+NG Medium [outsider](monsters/creatureTypes.md#_outsider) ( [agathion](monsters/creatureTypes.md#_agathion-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [good](monsters/creatureTypes.md#_good-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft., _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, low-light vision, _ [see invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/seeInvisibility.html#_see-invisibility)_, _true seeing_; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +23
+**Init** +6; **Senses** darkvision 60 ft., _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, low-light vision, _ [see invisibility](additionalMonsters/../spells/seeInvisibility.md#_see-invisibility)_, _true seeing_; [Perception](additionalMonsters/../skills/perception.md#_perception) +23
 
-**Aura** [fear](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)) aura (20 ft., DC 17)
+**Aura** [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) aura (20 ft., DC 17)
 
 Defense
 
@@ -48,9 +48,9 @@ Defense
 
 **hp** 94 (9d10+45)
 
-**Fort** +11, **Ref** +12, **Will** +6; +4 vs. [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su))
+**Fort** +11, **Ref** +12, **Will** +6; +4 vs. [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))
 
-**DR** 10/evil or silver; **Immune** electricity, petrification; **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, sonic 10; **SR** 20
+**DR** 10/evil or silver; **Immune** electricity, petrification; **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10, sonic 10; **SR** 20
 
 Offense
 
@@ -60,11 +60,11 @@ Offense
 
 **Spell-Like Abilities** (CL 9th; concentration +12)
 
-Constant—_ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [see invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/seeInvisibility.html#_see-invisibility)_, _ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_
+Constant—_ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [see invisibility](additionalMonsters/../spells/seeInvisibility.md#_see-invisibility)_, _ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_
 
-At will—_ [aid](/pathfinderRPG/prd/additionalMonsters/../spells/aid.html#_aid)_, _ [blur](/pathfinderRPG/prd/additionalMonsters/../spells/blur.html#_blur)_ (self only), _ [command](/pathfinderRPG/prd/additionalMonsters/../spells/command.html#_command)_ (DC 14), _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [dimension door](/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door)_, _ [dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic)_, _ [gust of wind](/pathfinderRPG/prd/additionalMonsters/../spells/gustOfWind.html#_gust-of-wind) _(DC 15), _ [hold person](/pathfinderRPG/prd/additionalMonsters/../spells/holdPerson.html#_hold-person)_ (DC 16), _ [light](/pathfinderRPG/prd/additionalMonsters/../spells/light.html#_light)_, _ [magic circle against evil](/pathfinderRPG/prd/additionalMonsters/../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil)_ (self only)
+At will—_ [aid](additionalMonsters/../spells/aid.md#_aid)_, _ [blur](additionalMonsters/../spells/blur.md#_blur)_ (self only), _ [command](additionalMonsters/../spells/command.md#_command)_ (DC 14), _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_, _ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [gust of wind](additionalMonsters/../spells/gustOfWind.md#_gust-of-wind) _(DC 15), _ [hold person](additionalMonsters/../spells/holdPerson.md#_hold-person)_ (DC 16), _ [light](additionalMonsters/../spells/light.md#_light)_, _ [magic circle against evil](additionalMonsters/../spells/magicCircleAgainstEvil.md#_magic-circle-against-evil)_ (self only)
 
-3/day—_ [lightning bolt](/pathfinderRPG/prd/additionalMonsters/../spells/lightningBolt.html#_lightning-bolt)_ (DC 16), empowered _ [magic missile](/pathfinderRPG/prd/additionalMonsters/../spells/magicMissile.html#_magic-missile)_
+3/day—_ [lightning bolt](additionalMonsters/../spells/lightningBolt.md#_lightning-bolt)_ (DC 16), empowered _ [magic missile](additionalMonsters/../spells/magicMissile.md#_magic-missile)_
 
 Statistics
 
@@ -72,17 +72,17 @@ Statistics
 
 **Base Atk** +9; **CMB** +12; **CMD** 29
 
-**Feats** [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Empower Spell-Like Ability](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_empower-spell-like-ability) (_ [magic missile](/pathfinderRPG/prd/additionalMonsters/../spells/magicMissile.html#_magic-missile)_), [Flyby Attack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (claw)
+**Feats** [Dodge](additionalMonsters/../feats.md#_dodge), [Empower Spell-Like Ability](additionalMonsters/../monsters/monsterFeats.md#_empower-spell-like-ability) (_ [magic missile](additionalMonsters/../spells/magicMissile.md#_magic-missile)_), [Flyby Attack](additionalMonsters/../monsters/monsterFeats.md#_flyby-attack), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (claw)
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +10, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +7, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +22, [Handle Animal](/pathfinderRPG/prd/additionalMonsters/../skills/handleAnimal.html#_handle-animal) +9, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +15, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (any one) +14, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +23, [Ride](/pathfinderRPG/prd/additionalMonsters/../skills/ride.html#_ride) +7, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +15, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +11, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +18; **Racial Modifiers** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +8
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +10, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +7, [Fly](additionalMonsters/../skills/fly.md#_fly) +22, [Handle Animal](additionalMonsters/../skills/handleAnimal.md#_handle-animal) +9, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +15, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (any one) +14, [Perception](additionalMonsters/../skills/perception.md#_perception) +23, [Ride](additionalMonsters/../skills/ride.md#_ride) +7, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +15, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +11, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +18; **Racial Modifiers** [Perception](additionalMonsters/../skills/perception.md#_perception) +8
 
-**Languages** Celestial, Draconic, Infernal; _ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_, truespeech
+**Languages** Celestial, Draconic, Infernal; _ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_, truespeech
 
 **SQ** lay on hands (4d6, 7/day, as a 9th-level paladin)
 
 Ecology
 
-**Environment** any [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype) (Nirvana)
+**Environment** any [air](monsters/creatureTypes.md#_air-subtype) (Nirvana)
 
 **Organization** solitary, pair, or squad (3–6)
 
@@ -106,41 +106,41 @@ This mermaid-like creature has the torso and head of a long-haired woman and the
 
 **XP 51,200**
 
-NG Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [agathion](/pathfinderRPG/prd/monsters/creatureTypes.html#_agathion-subtype), [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype))
+NG Medium [outsider](monsters/creatureTypes.md#_outsider) ( [agathion](monsters/creatureTypes.md#_agathion-subtype), [aquatic](monsters/creatureTypes.md#_aquatic-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [good](monsters/creatureTypes.md#_good-subtype))
 
-**Init** +8; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 60 ft., darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +28
+**Init** +8; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 60 ft., darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +28
 
 **Aura** protective aura (20 ft.)
 
 Defense
 
-**AC** 30, touch 15, flat-footed 25 (+4 Dex, +1 dodge, +15 natural; +4 deflection vs. [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype))
+**AC** 30, touch 15, flat-footed 25 (+4 Dex, +1 dodge, +15 natural; +4 deflection vs. [evil](monsters/creatureTypes.md#_evil-subtype))
 
-**hp** 212 (17d10+119); regeneration 5 ( [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) weapons and spells)
+**hp** 212 (17d10+119); regeneration 5 ( [evil](monsters/creatureTypes.md#_evil-subtype) weapons and spells)
 
-**Fort** +17, **Ref** +16, **Will** +9; +4 vs. [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)), +4 [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) vs. [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype)
+**Fort** +17, **Ref** +16, **Will** +9; +4 vs. [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), +4 [resistance](monsters/universalMonsterRules.md#_resistance) vs. [evil](monsters/creatureTypes.md#_evil-subtype)
 
-**DR** 10/evil and silver; **Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), electricity, petrification; **Resist** sonic 10; **SR** 26
+**DR** 10/evil and silver; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), electricity, petrification; **Resist** sonic 10; **SR** 26
 
 Offense
 
 **Speed** 10 ft., swim 80 ft.
 
-**Melee** _+1 [shocking burst](/pathfinderRPG/prd/additionalMonsters/../magicItems/weapons.html#_weapons-shocking-burst) shortspear_ +28/+23/+18/+13 (1d6+14 plus 1d6 electricity), tail slap +22 (1d6+4 plus push and stun)
+**Melee** _+1 [shocking burst](additionalMonsters/../magicItems/weapons.md#_weapons-shocking-burst) shortspear_ +28/+23/+18/+13 (1d6+14 plus 1d6 electricity), tail slap +22 (1d6+4 plus push and stun)
 
 **Special Attacks** shockwave, push (tail slap, 10 ft.)
 
 **Spell-Like Abilities** (CL 15th; concentration +18)
 
-Constant—_ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_
+Constant—_ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_
 
-At will—_ [detect thoughts](/pathfinderRPG/prd/additionalMonsters/../spells/detectThoughts.html#_detect-thoughts)_ (DC 15), _ [light](/pathfinderRPG/prd/additionalMonsters/../spells/light.html#_light)_, _ [lightning bolt](/pathfinderRPG/prd/additionalMonsters/../spells/lightningBolt.html#_lightning-bolt)_ (DC 16), _ [hold monster](/pathfinderRPG/prd/additionalMonsters/../spells/holdMonster.html#_hold-monster)_ (DC 18), _ [message](/pathfinderRPG/prd/additionalMonsters/../spells/message.html#_message), [greater teleport](/pathfinderRPG/prd/additionalMonsters/../spells/teleport.html#_teleport-greater) _(self plus 50 lbs. of objects only),
+At will—_ [detect thoughts](additionalMonsters/../spells/detectThoughts.md#_detect-thoughts)_ (DC 15), _ [light](additionalMonsters/../spells/light.md#_light)_, _ [lightning bolt](additionalMonsters/../spells/lightningBolt.md#_lightning-bolt)_ (DC 16), _ [hold monster](additionalMonsters/../spells/holdMonster.md#_hold-monster)_ (DC 18), _ [message](additionalMonsters/../spells/message.md#_message), [greater teleport](additionalMonsters/../spells/teleport.md#_teleport-greater) _(self plus 50 lbs. of objects only),
 
-7/day—_ [break enchantment](/pathfinderRPG/prd/additionalMonsters/../spells/breakEnchantment.html#_break-enchantment)_, _ [cure serious wounds](/pathfinderRPG/prd/additionalMonsters/../spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [neutralize poison](/pathfinderRPG/prd/additionalMonsters/../spells/neutralizePoison.html#_neutralize-poison)_, _ [remove disease](/pathfinderRPG/prd/additionalMonsters/../spells/removeDisease.html#_remove-disease)_
+7/day—_ [break enchantment](additionalMonsters/../spells/breakEnchantment.md#_break-enchantment)_, _ [cure serious wounds](additionalMonsters/../spells/cureSeriousWounds.md#_cure-serious-wounds)_, _ [neutralize poison](additionalMonsters/../spells/neutralizePoison.md#_neutralize-poison)_, _ [remove disease](additionalMonsters/../spells/removeDisease.md#_remove-disease)_
 
-3/day—_ [cone of cold](/pathfinderRPG/prd/additionalMonsters/../spells/coneOfCold.html#_cone-of-cold)_ (DC 18), _ [cure critical wounds](/pathfinderRPG/prd/additionalMonsters/../spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [greater restoration](/pathfinderRPG/prd/additionalMonsters/../spells/restoration.html#_restoration-greater)_, _ [heal](/pathfinderRPG/prd/additionalMonsters/../spells/heal.html#_heal)_
+3/day—_ [cone of cold](additionalMonsters/../spells/coneOfCold.md#_cone-of-cold)_ (DC 18), _ [cure critical wounds](additionalMonsters/../spells/cureCriticalWounds.md#_cure-critical-wounds)_, _ [greater restoration](additionalMonsters/../spells/restoration.md#_restoration-greater)_, _ [heal](additionalMonsters/../spells/heal.md#_heal)_
 
-1/day—_ [awaken](/pathfinderRPG/prd/additionalMonsters/../spells/awaken.html#_awaken)_, _ [summon monster VIII](/pathfinderRPG/prd/additionalMonsters/../spells/summonMonster.html#_summon-monster-viii)_ (water elementals only)
+1/day—_ [awaken](additionalMonsters/../spells/awaken.md#_awaken)_, _ [summon monster VIII](additionalMonsters/../spells/summonMonster.md#_summon-monster-viii)_ (water elementals only)
 
 Statistics
 
@@ -148,11 +148,11 @@ Statistics
 
 **Base Atk** +17; **CMB** +26; **CMD** 41 (can't be tripped)
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility), [Spell Penetration](/pathfinderRPG/prd/additionalMonsters/../feats.html#_spell-penetration), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (shortspear, tail slap), [Wind Stance](/pathfinderRPG/prd/additionalMonsters/../feats.html#_wind-stance)
+**Feats** [Combat Casting](additionalMonsters/../feats.md#_combat-casting), [Dodge](additionalMonsters/../feats.md#_dodge), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Mobility](additionalMonsters/../feats.md#_mobility), [Spell Penetration](additionalMonsters/../feats.md#_spell-penetration), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (shortspear, tail slap), [Wind Stance](additionalMonsters/../feats.md#_wind-stance)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +12, [Handle Animal](/pathfinderRPG/prd/additionalMonsters/../skills/handleAnimal.html#_handle-animal) +14, [Heal](/pathfinderRPG/prd/additionalMonsters/../skills/heal.html#_heal) +21, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana) +22, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (nature) +19, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +22, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +28, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +24, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +24, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +17; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
+**Skills** [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +12, [Handle Animal](additionalMonsters/../skills/handleAnimal.md#_handle-animal) +14, [Heal](additionalMonsters/../skills/heal.md#_heal) +21, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +22, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (nature) +19, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +22, [Perception](additionalMonsters/../skills/perception.md#_perception) +28, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +24, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +24, [Swim](additionalMonsters/../skills/swim.md#_swim) +17; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
 
-**Languages** Celestial, Draconic, Infernal; _ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_, truespeech
+**Languages** Celestial, Draconic, Infernal; _ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_, truespeech
 
 **SQ** amphibious, lay on hands (8d6, 11/day, as a 17th-level paladin)
 
@@ -162,13 +162,13 @@ Ecology
 
 **Organization** solitary, pair, or pod (3–6)
 
-**Treasure** double (_+1 [shocking burst](/pathfinderRPG/prd/additionalMonsters/../magicItems/weapons.html#_weapons-shocking-burst) shortspear_, other treasure)
+**Treasure** double (_+1 [shocking burst](additionalMonsters/../magicItems/weapons.md#_weapons-shocking-burst) shortspear_, other treasure)
 
 Special Abilities
 
-**Protective Aura (Su)** Against attacks made or effects created by [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) creatures, this ability provides a +4 deflection bonus to AC and a +4 [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) bonus on saving throws to anyone within 20 feet of the cetaceal. Otherwise, it functions as a _ [magic circle against evil](/pathfinderRPG/prd/additionalMonsters/../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil)_ effect and a _ [lesser globe of invulnerability](/pathfinderRPG/prd/additionalMonsters/../spells/globeOfInvulnerability.html#_globe-of-invulnerability-lesser)_, both with a radius of 20 feet (caster level equals cetaceal's HD). The defensive benefits from the circle are not included in the above stat block.
+**Protective Aura (Su)** Against attacks made or effects created by [evil](monsters/creatureTypes.md#_evil-subtype) creatures, this ability provides a +4 deflection bonus to AC and a +4 [resistance](monsters/universalMonsterRules.md#_resistance) bonus on saving throws to anyone within 20 feet of the cetaceal. Otherwise, it functions as a _ [magic circle against evil](additionalMonsters/../spells/magicCircleAgainstEvil.md#_magic-circle-against-evil)_ effect and a _ [lesser globe of invulnerability](additionalMonsters/../spells/globeOfInvulnerability.md#_globe-of-invulnerability-lesser)_, both with a radius of 20 feet (caster level equals cetaceal's HD). The defensive benefits from the circle are not included in the above stat block.
 
-**Shockwave (Su)** Once per day, a cetaceal can release a 100-foot-radius burst of energy. All creatures in the area take 17d6 damage; half of this damage is [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), and half is electricity (DC 25 Reflex save halves). The save DC is Constitution-based.
+**Shockwave (Su)** Once per day, a cetaceal can release a 100-foot-radius burst of energy. All creatures in the area take 17d6 damage; half of this damage is [cold](monsters/creatureTypes.md#_cold-subtype), and half is electricity (DC 25 Reflex save halves). The save DC is Constitution-based.
 
 **Stun (Ex)** Any creature moved by a cetaceal's push attack must make a DC 25 Fortitude saving throw or be stunned for 1 round. The DC is Constitution-based.
 
@@ -184,19 +184,19 @@ This noble creature seems to be part serpent, part humanoid, and part dragon, wi
 
 **XP 307,200**
 
-NG Large [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [agathion](/pathfinderRPG/prd/monsters/creatureTypes.html#_agathion-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype))
+NG Large [outsider](monsters/creatureTypes.md#_outsider) ( [agathion](monsters/creatureTypes.md#_agathion-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [good](monsters/creatureTypes.md#_good-subtype))
 
-**Init** +6; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 60 ft., darkvision 120 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +48
+**Init** +6; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 60 ft., darkvision 120 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +48
 
 **Aura** protective aura (20 ft.)
 
 Defense
 
-**AC** 36, touch 18, flat-footed 33 (+2 Dex, +1 dodge, +6 insight, +18 natural, –1 size) (+4 deflection vs. [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype))
+**AC** 36, touch 18, flat-footed 33 (+2 Dex, +1 dodge, +6 insight, +18 natural, –1 size) (+4 deflection vs. [evil](monsters/creatureTypes.md#_evil-subtype))
 
-**hp** 324 (24d10+192); regeneration 10 ( [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) weapons and spells)
+**hp** 324 (24d10+192); regeneration 10 ( [evil](monsters/creatureTypes.md#_evil-subtype) weapons and spells)
 
-**Fort** +22, **Ref** +16, **Will** +17; +4 vs. [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)), +4 [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) vs. [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype),
+**Fort** +22, **Ref** +16, **Will** +17; +4 vs. [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), +4 [resistance](monsters/universalMonsterRules.md#_resistance) vs. [evil](monsters/creatureTypes.md#_evil-subtype),
 
 **DR** 15/evil and silver; **Immune** one energy type (see Celestial Focus), electricity, petrification; **Resist** cold 10, sonic 10; **SR** 31
 
@@ -208,41 +208,41 @@ Offense
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (120-ft. line, 20d6 energy damage, Reflex DC 30 half, usable once every 1d4 rounds)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (120-ft. line, 20d6 energy damage, Reflex DC 30 half, usable once every 1d4 rounds)
 
 **Cleric Spells Prepared** (CL 17th; concentration +23)
 
-9th—_ [implosion](/pathfinderRPG/prd/additionalMonsters/../spells/implosion.html#_implosion)_ (DC 26), _ [storm of vengeance](/pathfinderRPG/prd/additionalMonsters/../spells/stormOfVengeance.html#_storm-of-vengeance)_D (DC 26)
+9th—_ [implosion](additionalMonsters/../spells/implosion.md#_implosion)_ (DC 26), _ [storm of vengeance](additionalMonsters/../spells/stormOfVengeance.md#_storm-of-vengeance)_D (DC 26)
 
-8th—_ [demand](/pathfinderRPG/prd/additionalMonsters/../spells/demand.html#_demand)_D, _ [earthquake](/pathfinderRPG/prd/additionalMonsters/../spells/earthquake.html#_earthquake)_, quickened _ [holy smite](/pathfinderRPG/prd/additionalMonsters/../spells/holySmite.html#_holy-smite)_ (DC 21)
+8th—_ [demand](additionalMonsters/../spells/demand.md#_demand)_D, _ [earthquake](additionalMonsters/../spells/earthquake.md#_earthquake)_, quickened _ [holy smite](additionalMonsters/../spells/holySmite.md#_holy-smite)_ (DC 21)
 
-7th—empowered _ [breath of life](/pathfinderRPG/prd/additionalMonsters/../spells/breathOfLife.html#_breath-of-life)_, empowered _ [flame strike](/pathfinderRPG/prd/additionalMonsters/../spells/flameStrike.html#_flame-strike)_ (DC 22), _ [holy word](/pathfinderRPG/prd/additionalMonsters/../spells/holyWord.html#_holy-word)_ (DC 24), quickened _ [invisibility purge](/pathfinderRPG/prd/additionalMonsters/../spells/invisibilityPurge.html#_invisibility-purge)_, _ [repulsion](/pathfinderRPG/prd/additionalMonsters/../spells/repulsion.html#_repulsion)_D (DC 24)
+7th—empowered _ [breath of life](additionalMonsters/../spells/breathOfLife.md#_breath-of-life)_, empowered _ [flame strike](additionalMonsters/../spells/flameStrike.md#_flame-strike)_ (DC 22), _ [holy word](additionalMonsters/../spells/holyWord.md#_holy-word)_ (DC 24), quickened _ [invisibility purge](additionalMonsters/../spells/invisibilityPurge.md#_invisibility-purge)_, _ [repulsion](additionalMonsters/../spells/repulsion.md#_repulsion)_D (DC 24)
 
-6th—_ [animate objects](/pathfinderRPG/prd/additionalMonsters/../spells/animateObjects.html#_animate-objects)_, _ [blade barrier](/pathfinderRPG/prd/additionalMonsters/../spells/bladeBarrier.html#_blade-barrier)_D (DC 23), _ [find the path](/pathfinderRPG/prd/additionalMonsters/../spells/findThePath.html#_find-the-path)_, _ [heal](/pathfinderRPG/prd/additionalMonsters/../spells/heal.html#_heal)_, _ [heroes' feast](/pathfinderRPG/prd/additionalMonsters/../spells/heroesFeast.html#_heroes-feast)_, quickened_ [remove paralysis](/pathfinderRPG/prd/additionalMonsters/../spells/removeParalysis.html#_remove-paralysis)_
+6th—_ [animate objects](additionalMonsters/../spells/animateObjects.md#_animate-objects)_, _ [blade barrier](additionalMonsters/../spells/bladeBarrier.md#_blade-barrier)_D (DC 23), _ [find the path](additionalMonsters/../spells/findThePath.md#_find-the-path)_, _ [heal](additionalMonsters/../spells/heal.md#_heal)_, _ [heroes' feast](additionalMonsters/../spells/heroesFeast.md#_heroes-feast)_, quickened_ [remove paralysis](additionalMonsters/../spells/removeParalysis.md#_remove-paralysis)_
 
-5th—_ [breath of life](/pathfinderRPG/prd/additionalMonsters/../spells/breathOfLife.html#_breath-of-life)_, _ [dispel evil](/pathfinderRPG/prd/additionalMonsters/../spells/dispelEvil.html#_dispel-evil)D_, _ [flame strike](/pathfinderRPG/prd/additionalMonsters/../spells/flameStrike.html#_flame-strike)_ (DC 22), _ [greater command](/pathfinderRPG/prd/additionalMonsters/../spells/command.html#_command-greater)_ (DC 22), _ [spell resistance](/pathfinderRPG/prd/additionalMonsters/../magicItems/armor.html#_armor-spell-resistance)_, _ [true seeing](/pathfinderRPG/prd/additionalMonsters/../spells/trueSeeing.html#_true-seeing)_
+5th—_ [breath of life](additionalMonsters/../spells/breathOfLife.md#_breath-of-life)_, _ [dispel evil](additionalMonsters/../spells/dispelEvil.md#_dispel-evil)D_, _ [flame strike](additionalMonsters/../spells/flameStrike.md#_flame-strike)_ (DC 22), _ [greater command](additionalMonsters/../spells/command.md#_command-greater)_ (DC 22), _ [spell resistance](additionalMonsters/../magicItems/armor.md#_armor-spell-resistance)_, _ [true seeing](additionalMonsters/../spells/trueSeeing.md#_true-seeing)_
 
-4th—_ [cure critical wounds](/pathfinderRPG/prd/additionalMonsters/../spells/cureCriticalWounds.html#_cure-critical-wounds)_ (3), _ [freedom of movement](/pathfinderRPG/prd/additionalMonsters/../spells/freedomOfMovement.html#_freedom-of-movement)_, _ [holy smite](/pathfinderRPG/prd/additionalMonsters/../spells/holySmite.html#_holy-smite)_D (DC 21), _ [repel vermin](/pathfinderRPG/prd/additionalMonsters/../spells/repelVermin.html#_repel-vermin)_ (DC 21)
+4th—_ [cure critical wounds](additionalMonsters/../spells/cureCriticalWounds.md#_cure-critical-wounds)_ (3), _ [freedom of movement](additionalMonsters/../spells/freedomOfMovement.md#_freedom-of-movement)_, _ [holy smite](additionalMonsters/../spells/holySmite.md#_holy-smite)_D (DC 21), _ [repel vermin](additionalMonsters/../spells/repelVermin.md#_repel-vermin)_ (DC 21)
 
-3rd—_ [bestow curse](/pathfinderRPG/prd/additionalMonsters/../spells/bestowCurse.html#_bestow-curse)_ (DC 20), _ [daylight](/pathfinderRPG/prd/additionalMonsters/../spells/daylight.html#_daylight)_, _ [dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic)_, _ [helping hand](/pathfinderRPG/prd/additionalMonsters/../spells/helpingHand.html#_helping-hand)_, _ [magic vestment](/pathfinderRPG/prd/additionalMonsters/../spells/magicVestment.html#_magic-vestment)_D, _ [prayer](/pathfinderRPG/prd/additionalMonsters/../spells/prayer.html#_prayer)_, _ [protection from energy](/pathfinderRPG/prd/additionalMonsters/../spells/protectionFromEnergy.html#_protection-from-energy)_
+3rd—_ [bestow curse](additionalMonsters/../spells/bestowCurse.md#_bestow-curse)_ (DC 20), _ [daylight](additionalMonsters/../spells/daylight.md#_daylight)_, _ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [helping hand](additionalMonsters/../spells/helpingHand.md#_helping-hand)_, _ [magic vestment](additionalMonsters/../spells/magicVestment.md#_magic-vestment)_D, _ [prayer](additionalMonsters/../spells/prayer.md#_prayer)_, _ [protection from energy](additionalMonsters/../spells/protectionFromEnergy.md#_protection-from-energy)_
 
-2nd—_ [align weapon](/pathfinderRPG/prd/additionalMonsters/../spells/alignWeapon.html#_align-weapon)_D (good only), _ [calm emotions](/pathfinderRPG/prd/additionalMonsters/../spells/calmEmotions.html#_calm-emotions)_ (DC 19), _ [enthrall](/pathfinderRPG/prd/additionalMonsters/../spells/enthrall.html#_enthrall)_, _ [hold person](/pathfinderRPG/prd/additionalMonsters/../spells/holdPerson.html#_hold-person) _(DC 19), _ [lesser restoration](/pathfinderRPG/prd/additionalMonsters/../spells/restoration.html#_restoration-lesser) _(2), _ [shield other](/pathfinderRPG/prd/additionalMonsters/../spells/shieldOther.html#_shield-other)_
+2nd—_ [align weapon](additionalMonsters/../spells/alignWeapon.md#_align-weapon)_D (good only), _ [calm emotions](additionalMonsters/../spells/calmEmotions.md#_calm-emotions)_ (DC 19), _ [enthrall](additionalMonsters/../spells/enthrall.md#_enthrall)_, _ [hold person](additionalMonsters/../spells/holdPerson.md#_hold-person) _(DC 19), _ [lesser restoration](additionalMonsters/../spells/restoration.md#_restoration-lesser) _(2), _ [shield other](additionalMonsters/../spells/shieldOther.md#_shield-other)_
 
-1st—_ [bless](/pathfinderRPG/prd/additionalMonsters/../spells/bless.html#_bless)_, _ [detect undead](/pathfinderRPG/prd/additionalMonsters/../spells/detectUndead.html#_detect-undead)_, _ [divine favor](/pathfinderRPG/prd/additionalMonsters/../spells/divineFavor.html#_divine-favor)_D, _ [obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist)_, _ [remove fear](/pathfinderRPG/prd/additionalMonsters/../spells/removeFear.html#_remove-fear)_, _ [sanctuary](/pathfinderRPG/prd/additionalMonsters/../spells/sanctuary.html#_sanctuary)_ (DC 18), _ [shield of faith](/pathfinderRPG/prd/additionalMonsters/../spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_ [bless](additionalMonsters/../spells/bless.md#_bless)_, _ [detect undead](additionalMonsters/../spells/detectUndead.md#_detect-undead)_, _ [divine favor](additionalMonsters/../spells/divineFavor.md#_divine-favor)_D, _ [obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist)_, _ [remove fear](additionalMonsters/../spells/removeFear.md#_remove-fear)_, _ [sanctuary](additionalMonsters/../spells/sanctuary.md#_sanctuary)_ (DC 18), _ [shield of faith](additionalMonsters/../spells/shieldOfFaith.md#_shield-of-faith)_
 
-0—_ [detect poison](/pathfinderRPG/prd/additionalMonsters/../spells/detectPoison.html#_detect-poison)_, _ [guidance](/pathfinderRPG/prd/additionalMonsters/../spells/guidance.html#_guidance)_, _ [purify food and drink](/pathfinderRPG/prd/additionalMonsters/../spells/purifyFoodAndDrink.html#_purify-food-and-drink)_, _ [stabilize](/pathfinderRPG/prd/additionalMonsters/../spells/stabilize.html#_stabilize)_
+0—_ [detect poison](additionalMonsters/../spells/detectPoison.md#_detect-poison)_, _ [guidance](additionalMonsters/../spells/guidance.md#_guidance)_, _ [purify food and drink](additionalMonsters/../spells/purifyFoodAndDrink.md#_purify-food-and-drink)_, _ [stabilize](additionalMonsters/../spells/stabilize.md#_stabilize)_
 
 **D** domain spell; **Domains** Good, Nobility
 
 **Spell-Like Abilities** (CL 24th; concentration +30)
 
-Constant—_ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_
+Constant—_ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_
 
-At will—_ [beast shape II](/pathfinderRPG/prd/additionalMonsters/../spells/beastShape.html#_beast-shape-ii)_, _ [command](/pathfinderRPG/prd/additionalMonsters/../spells/command.html#_command)_ (DC 17), _ [detect thoughts](/pathfinderRPG/prd/additionalMonsters/../spells/detectThoughts.html#_detect-thoughts)_, _ [elemental body III](/pathfinderRPG/prd/additionalMonsters/../spells/elementalBody.html#_elemental-body-iii)_ (air or water elementals only), _ [greater teleport](/pathfinderRPG/prd/additionalMonsters/../spells/teleport.html#_teleport-greater) _(self plus 50 lbs. of objects only), _ [gust of wind](/pathfinderRPG/prd/additionalMonsters/../spells/gustOfWind.html#_gust-of-wind)_, _ [hold monster](/pathfinderRPG/prd/additionalMonsters/../spells/holdMonster.html#_hold-monster)_ (DC 20), _ [identify](/pathfinderRPG/prd/additionalMonsters/../spells/identify.html#_identify)_, _ [light](/pathfinderRPG/prd/additionalMonsters/../spells/light.html#_light)_, _ [lightning bolt](/pathfinderRPG/prd/additionalMonsters/../spells/lightningBolt.html#_lightning-bolt)_ (DC 19), _ [mage hand](/pathfinderRPG/prd/additionalMonsters/../spells/mageHand.html#_mage-hand)_, _ [message](/pathfinderRPG/prd/additionalMonsters/../spells/message.html#_message)_
+At will—_ [beast shape II](additionalMonsters/../spells/beastShape.md#_beast-shape-ii)_, _ [command](additionalMonsters/../spells/command.md#_command)_ (DC 17), _ [detect thoughts](additionalMonsters/../spells/detectThoughts.md#_detect-thoughts)_, _ [elemental body III](additionalMonsters/../spells/elementalBody.md#_elemental-body-iii)_ (air or water elementals only), _ [greater teleport](additionalMonsters/../spells/teleport.md#_teleport-greater) _(self plus 50 lbs. of objects only), _ [gust of wind](additionalMonsters/../spells/gustOfWind.md#_gust-of-wind)_, _ [hold monster](additionalMonsters/../spells/holdMonster.md#_hold-monster)_ (DC 20), _ [identify](additionalMonsters/../spells/identify.md#_identify)_, _ [light](additionalMonsters/../spells/light.md#_light)_, _ [lightning bolt](additionalMonsters/../spells/lightningBolt.md#_lightning-bolt)_ (DC 19), _ [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand)_, _ [message](additionalMonsters/../spells/message.md#_message)_
 
-7/day—_ [break enchantment](/pathfinderRPG/prd/additionalMonsters/../spells/breakEnchantment.html#_break-enchantment)_, _ [cure serious wounds](/pathfinderRPG/prd/additionalMonsters/../spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [neutralize poison](/pathfinderRPG/prd/additionalMonsters/../spells/neutralizePoison.html#_neutralize-poison)_, _ [remove disease](/pathfinderRPG/prd/additionalMonsters/../spells/removeDisease.html#_remove-disease)_
+7/day—_ [break enchantment](additionalMonsters/../spells/breakEnchantment.md#_break-enchantment)_, _ [cure serious wounds](additionalMonsters/../spells/cureSeriousWounds.md#_cure-serious-wounds)_, _ [neutralize poison](additionalMonsters/../spells/neutralizePoison.md#_neutralize-poison)_, _ [remove disease](additionalMonsters/../spells/removeDisease.md#_remove-disease)_
 
-3/day—_ [control water](/pathfinderRPG/prd/additionalMonsters/../spells/controlWater.html#_control-water)_, _ [control weather](/pathfinderRPG/prd/additionalMonsters/../spells/controlWeather.html#_control-weather)_, _ [control winds](/pathfinderRPG/prd/additionalMonsters/../spells/controlWinds.html#_control-winds)_, _ [heal](/pathfinderRPG/prd/additionalMonsters/../spells/heal.html#_heal)_, _ [plane shift](/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift) _(DC 23)
+3/day—_ [control water](additionalMonsters/../spells/controlWater.md#_control-water)_, _ [control weather](additionalMonsters/../spells/controlWeather.md#_control-weather)_, _ [control winds](additionalMonsters/../spells/controlWinds.md#_control-winds)_, _ [heal](additionalMonsters/../spells/heal.md#_heal)_, _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift) _(DC 23)
 
 Statistics
 
@@ -250,31 +250,31 @@ Statistics
 
 **Base Atk** +24; **CMB** +38; **CMD** 57 (can't be tripped)
 
-**Feats** [Alertness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_alertness), [Combat Casting](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Empower Spell](/pathfinderRPG/prd/additionalMonsters/../feats.html#_empower-spell), [Greater Spell Penetration](/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-spell-penetration), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Quicken Spell](/pathfinderRPG/prd/additionalMonsters/../feats.html#_quicken-spell), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)), [Spell Penetration](/pathfinderRPG/prd/additionalMonsters/../feats.html#_spell-penetration)
+**Feats** [Alertness](additionalMonsters/../feats.md#_alertness), [Combat Casting](additionalMonsters/../feats.md#_combat-casting), [Dodge](additionalMonsters/../feats.md#_dodge), [Empower Spell](additionalMonsters/../feats.md#_empower-spell), [Greater Spell Penetration](additionalMonsters/../feats.md#_greater-spell-penetration), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Mobility](additionalMonsters/../feats.md#_mobility), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Quicken Spell](additionalMonsters/../feats.md#_quicken-spell), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception)), [Spell Penetration](additionalMonsters/../feats.md#_spell-penetration)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +25, [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +29, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +26, [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +22, [Heal](/pathfinderRPG/prd/additionalMonsters/../skills/heal.html#_heal) +27, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +29, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana) +30, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (nature) +27, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +34, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (religion) +31, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +48, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +34, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +27, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +21, [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) +26; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +25, [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +29, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +26, [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +22, [Heal](additionalMonsters/../skills/heal.md#_heal) +27, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +29, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +30, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (nature) +27, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +34, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +31, [Perception](additionalMonsters/../skills/perception.md#_perception) +48, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +34, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +27, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +21, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +26; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
 
-**Languages** Celestial, Draconic, Infernal; _ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_, truespeech
+**Languages** Celestial, Draconic, Infernal; _ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_, truespeech
 
 **SQ** celestial focus, divine insight, lay on hands (10d6, 16/day, as a 20th-level paladin)
 
 Ecology
 
-**Environment** any [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype) (Nirvana)
+**Environment** any [air](monsters/creatureTypes.md#_air-subtype) (Nirvana)
 
-**Organization** solitary, pair, or [flight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_flight-(ex,-sp,-or-su)) (3–6)
+**Organization** solitary, pair, or [flight](monsters/universalMonsterRules.md#_flight-(ex,-sp,-or-su)) (3–6)
 
 **Treasure** double
 
 Special Abilities
 
-**Celestial Focus (Ex)** A draconal's color indicates aspects of its power and attunement to the powers of the [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype) planes. These determine the draconal's [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon), the additional energy damage of its claw and bite attacks, additional resistances and immunities, and its additional domain choices (see Spells, below).
+**Celestial Focus (Ex)** A draconal's color indicates aspects of its power and attunement to the powers of the [good](monsters/creatureTypes.md#_good-subtype) planes. These determine the draconal's [breath weapon](monsters/universalMonsterRules.md#_breath-weapon), the additional energy damage of its claw and bite attacks, additional resistances and immunities, and its additional domain choices (see Spells, below).
 
 **Divine Insight (Su)** A draconal adds its Charisma bonus as an insight bonus to Armor Class.
 
-**Protective Aura (Su)** Against attacks made or effects created by [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) creatures, this ability provides a +4 deflection bonus to AC and a +4 [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) bonus on saving throws to anyone within 20 feet of the draconal. Otherwise, it functions as a _ [magic circle against evil](/pathfinderRPG/prd/additionalMonsters/../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil)_ effect and a _ [lesser globe of invulnerability](/pathfinderRPG/prd/additionalMonsters/../spells/globeOfInvulnerability.html#_globe-of-invulnerability-lesser)_, both with a radius of 20 feet (caster level equals draconal's HD). (The defensive benefits from the circle are not included in a draconal's stat block.)
+**Protective Aura (Su)** Against attacks made or effects created by [evil](monsters/creatureTypes.md#_evil-subtype) creatures, this ability provides a +4 deflection bonus to AC and a +4 [resistance](monsters/universalMonsterRules.md#_resistance) bonus on saving throws to anyone within 20 feet of the draconal. Otherwise, it functions as a _ [magic circle against evil](additionalMonsters/../spells/magicCircleAgainstEvil.md#_magic-circle-against-evil)_ effect and a _ [lesser globe of invulnerability](additionalMonsters/../spells/globeOfInvulnerability.md#_globe-of-invulnerability-lesser)_, both with a radius of 20 feet (caster level equals draconal's HD). (The defensive benefits from the circle are not included in a draconal's stat block.)
 
-**Spells** Draconals cast spells as 17th-level clerics. Like clerics, they have access to two domains, selecting from the following list: [Air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype), [Good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype), Nobility, Weather, and two additional domain options based on their color (see facing page). The majority of draconals choose [Good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype) and Nobility as their domains (as represented by this stat block). Draconals have a domain spell slot at each spell level but do not gain the granted powers of their chosen domains, nor do they gain access to other cleric abilities.
+**Spells** Draconals cast spells as 17th-level clerics. Like clerics, they have access to two domains, selecting from the following list: [Air](monsters/creatureTypes.md#_air-subtype), [Good](monsters/creatureTypes.md#_good-subtype), Nobility, Weather, and two additional domain options based on their color (see facing page). The majority of draconals choose [Good](monsters/creatureTypes.md#_good-subtype) and Nobility as their domains (as represented by this stat block). Draconals have a domain spell slot at each spell level but do not gain the granted powers of their chosen domains, nor do they gain access to other cleric abilities.
 
 Draconals are mighty agathion lords, few in number and greatly removed from mortal affairs. They watch over powerful magic and are direct agents of the gods and the needs of the good planes. Patient and ageless, they plan for the long term, which often frustrates mortal creatures who seek to gain their assistance with a threat in the here and now. A draconal would rather support or enhance a group of heroes than tackle a problem directly, maintaining its focus on planar matters.
 
@@ -302,39 +302,39 @@ This lion-headed humanoid has golden fur, sharp teeth, and long cat-like claws o
 
 **XP 19,200**
 
-NG Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [agathion](/pathfinderRPG/prd/monsters/creatureTypes.html#_agathion-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype))
+NG Medium [outsider](monsters/creatureTypes.md#_outsider) ( [agathion](monsters/creatureTypes.md#_agathion-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [good](monsters/creatureTypes.md#_good-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +19
+**Init** +7; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +19
 
 **Aura** protective aura (20 ft.)
 
 Defense
 
-**AC** 27, touch 14, flat-footed 23 (+3 Dex, +1 dodge, +13 natural) (+4 deflection vs. [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype))
+**AC** 27, touch 14, flat-footed 23 (+3 Dex, +1 dodge, +13 natural) (+4 deflection vs. [evil](monsters/creatureTypes.md#_evil-subtype))
 
 **hp** 147 (14d10+70)
 
-**Fort** +14, **Ref** +12, **Will** +6; +4 vs. [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)), +4 [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) vs. [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype)
+**Fort** +14, **Ref** +12, **Will** +6; +4 vs. [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), +4 [resistance](monsters/universalMonsterRules.md#_resistance) vs. [evil](monsters/creatureTypes.md#_evil-subtype)
 
-**DR** 10/evil and silver; **Immune** electricity, petrification; **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, sonic 10; **SR** 23
+**DR** 10/evil and silver; **Immune** electricity, petrification; **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10, sonic 10; **SR** 23
 
 Offense
 
 **Speed** 60 ft.
 
-**Melee** bite +23 (1d8+8 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), 2 claws +23 (1d6+8)
+**Melee** bite +23 (1d8+8 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 claws +23 (1d6+8)
 
-**Special Attacks** roar, [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce), [rake](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_rake) (2 claws +23, 1d6+8)
+**Special Attacks** roar, [pounce](monsters/universalMonsterRules.md#_pounce), [rake](monsters/universalMonsterRules.md#_rake) (2 claws +23, 1d6+8)
 
 **Spell-Like Abilities** (CL 14th; concentration +16)
 
-Constant—_ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_
+Constant—_ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_
 
-At will—_ [detect thoughts](/pathfinderRPG/prd/additionalMonsters/../spells/detectThoughts.html#_detect-thoughts)_, _ [fireball](/pathfinderRPG/prd/additionalMonsters/../spells/fireball.html#_fireball)_ (DC 15), _ [hold monster](/pathfinderRPG/prd/additionalMonsters/../spells/holdMonster.html#_hold-monster)_ (DC 7)
+At will—_ [detect thoughts](additionalMonsters/../spells/detectThoughts.md#_detect-thoughts)_, _ [fireball](additionalMonsters/../spells/fireball.md#_fireball)_ (DC 15), _ [hold monster](additionalMonsters/../spells/holdMonster.md#_hold-monster)_ (DC 7)
 
-3/day—_ [cure critical wounds](/pathfinderRPG/prd/additionalMonsters/../spells/cureCriticalWounds.html#_cure-critical-wounds)_, _ [neutralize poison](/pathfinderRPG/prd/additionalMonsters/../spells/neutralizePoison.html#_neutralize-poison)_, _ [remove disease](/pathfinderRPG/prd/additionalMonsters/../spells/removeDisease.html#_remove-disease), [wall of force](/pathfinderRPG/prd/additionalMonsters/../spells/wallOfForce.html#_wall-of-force)_
+3/day—_ [cure critical wounds](additionalMonsters/../spells/cureCriticalWounds.md#_cure-critical-wounds)_, _ [neutralize poison](additionalMonsters/../spells/neutralizePoison.md#_neutralize-poison)_, _ [remove disease](additionalMonsters/../spells/removeDisease.md#_remove-disease), [wall of force](additionalMonsters/../spells/wallOfForce.md#_wall-of-force)_
 
-1/day—_ [heal](/pathfinderRPG/prd/additionalMonsters/../spells/heal.html#_heal)_
+1/day—_ [heal](additionalMonsters/../spells/heal.md#_heal)_
 
 Statistics
 
@@ -342,11 +342,11 @@ Statistics
 
 **Base Atk** +14; **CMB** +22 (+26 grapple); **CMD** 36
 
-**Feats** [Ability Focus](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_ability-focus) (roar), [Dodge](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dodge), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Mobility](/pathfinderRPG/prd/additionalMonsters/../feats.html#_mobility), [Spring Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_spring-attack), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (bite, claw)
+**Feats** [Ability Focus](additionalMonsters/../monsters/monsterFeats.md#_ability-focus) (roar), [Dodge](additionalMonsters/../feats.md#_dodge), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Mobility](additionalMonsters/../feats.md#_mobility), [Spring Attack](additionalMonsters/../feats.md#_spring-attack), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite, claw)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +24 (+36 jump), [Handle Animal](/pathfinderRPG/prd/additionalMonsters/../skills/handleAnimal.html#_handle-animal) +19, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +19, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (any one) +19, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +19, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +19, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +16, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +24; **Racial Modifiers** +4 Acrobatics, +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +24 (+36 jump), [Handle Animal](additionalMonsters/../skills/handleAnimal.md#_handle-animal) +19, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +19, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (any one) +19, [Perception](additionalMonsters/../skills/perception.md#_perception) +19, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +19, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +16, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +24; **Racial Modifiers** +4 Acrobatics, +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
 
-**Languages** Celestial, Draconic, Infernal; _ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_, truespeech
+**Languages** Celestial, Draconic, Infernal; _ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_, truespeech
 
 **SQ** lay on hands (7d6, 9/day, as a 14th-level paladin)
 
@@ -360,9 +360,9 @@ Ecology
 
 Special Abilities
 
-**Protective Aura (Su)** Against attacks made or effects created by [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) creatures, this ability provides a +4 deflection bonus to AC and a +4 [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) bonus on saving throws to anyone within 20 feet of the leonal. Otherwise, it functions as a _ [magic circle against evil](/pathfinderRPG/prd/additionalMonsters/../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil)_ effect and a _ [lesser globe of invulnerability](/pathfinderRPG/prd/additionalMonsters/../spells/globeOfInvulnerability.html#_globe-of-invulnerability-lesser)_, both with a radius of 20 feet (caster level equals leonal's HD). The defensive benefits from the circle are not included in a leonal's stat block.
+**Protective Aura (Su)** Against attacks made or effects created by [evil](monsters/creatureTypes.md#_evil-subtype) creatures, this ability provides a +4 deflection bonus to AC and a +4 [resistance](monsters/universalMonsterRules.md#_resistance) bonus on saving throws to anyone within 20 feet of the leonal. Otherwise, it functions as a _ [magic circle against evil](additionalMonsters/../spells/magicCircleAgainstEvil.md#_magic-circle-against-evil)_ effect and a _ [lesser globe of invulnerability](additionalMonsters/../spells/globeOfInvulnerability.md#_globe-of-invulnerability-lesser)_, both with a radius of 20 feet (caster level equals leonal's HD). The defensive benefits from the circle are not included in a leonal's stat block.
 
-**Roar (Su)** Up to three times per day, a leonal can emit a powerful roar as a standard action. Each roar affects a 60-foot cone with the effects of a _ [holy word](/pathfinderRPG/prd/additionalMonsters/../spells/holyWord.html#_holy-word)_ spell and also deals 2d6 points of sonic damage to all creatures in the area (DC 21 Fortitude negates). This is a sonic effect. The save DC is Charisma-based.
+**Roar (Su)** Up to three times per day, a leonal can emit a powerful roar as a standard action. Each roar affects a 60-foot cone with the effects of a _ [holy word](additionalMonsters/../spells/holyWord.md#_holy-word)_ spell and also deals 2d6 points of sonic damage to all creatures in the area (DC 21 Fortitude negates). This is a sonic effect. The save DC is Charisma-based.
 
 A leonal is a lion-like agathion, noble and fierce. Though gentle with their families and patient with strangers on their home plane, in battle leonals are deadly foes of evil and cruelty. They hunt fiends and other evil monsters, silently tailing their prey until they find the right time to leap and slash. Leonals pride themselves on their hunting prowess, and few land creatures can match their speed. Although capable of using weapons, the majority of leonals prefer to battle evil with tooth and claw.
 
@@ -378,9 +378,9 @@ This black cat has gray stripes, violet eyes, and an unusual white blaze on its 
 
 **XP 600**
 
-NG Tiny [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [agathion](/pathfinderRPG/prd/monsters/creatureTypes.html#_agathion-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype))
+NG Tiny [outsider](monsters/creatureTypes.md#_outsider) ( [agathion](monsters/creatureTypes.md#_agathion-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [good](monsters/creatureTypes.md#_good-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +10
+**Init** +6; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +10
 
 Defense
 
@@ -388,9 +388,9 @@ Defense
 
 **hp** 13 (2d10+2)
 
-**Fort** +5, **Ref** +6, **Will** +2; +4 vs. [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su))
+**Fort** +5, **Ref** +6, **Will** +2; +4 vs. [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))
 
-**DR** 5/evil or silver; **Immune** electricity, petrification; **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, sonic 10; **SR** 13
+**DR** 5/evil or silver; **Immune** electricity, petrification; **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10, sonic 10; **SR** 13
 
 Offense
 
@@ -398,17 +398,17 @@ Offense
 
 **Melee** bite +6 (1d3–4), 2 claws +6 (1d2–4)
 
-**Special Attacks** heroic strength, [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce)
+**Special Attacks** heroic strength, [pounce](monsters/universalMonsterRules.md#_pounce)
 
 **Spell-Like Abilities** (CL 2nd; concentration +3)
 
-Constant—_ [know direction](/pathfinderRPG/prd/additionalMonsters/../spells/knowDirection.html#_know-direction), [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_
+Constant—_ [know direction](additionalMonsters/../spells/knowDirection.md#_know-direction), [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_
 
-At will—_ [dancing lights](/pathfinderRPG/prd/additionalMonsters/../spells/dancingLights.html#_dancing-lights)_, _ [prestidigitation](/pathfinderRPG/prd/additionalMonsters/../spells/prestidigitation.html#_prestidigitation)_, _ [stabilize](/pathfinderRPG/prd/additionalMonsters/../spells/stabilize.html#_stabilize)_
+At will—_ [dancing lights](additionalMonsters/../spells/dancingLights.md#_dancing-lights)_, _ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_, _ [stabilize](additionalMonsters/../spells/stabilize.md#_stabilize)_
 
-1/day—_ [dimension door](/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door)_ (self plus 5 lbs. of objects only)
+1/day—_ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_ (self plus 5 lbs. of objects only)
 
-1/week—_ [commune](/pathfinderRPG/prd/additionalMonsters/../spells/commune.html#_commune)_ (6 questions, CL 12th)
+1/week—_ [commune](additionalMonsters/../spells/commune.md#_commune)_ (6 questions, CL 12th)
 
 Statistics
 
@@ -416,13 +416,13 @@ Statistics
 
 **Base Atk** +2; **CMB** +2; **CMD** 8 (12 vs. trip)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)B
+**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)B
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +11, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +7, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +6, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana) +5, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +5, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +10, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +19; **Racial Modifiers** +4 [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics), +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +11, [Climb](additionalMonsters/../skills/climb.md#_climb) +7, [Fly](additionalMonsters/../skills/fly.md#_fly) +6, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +5, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +5, [Perception](additionalMonsters/../skills/perception.md#_perception) +10, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +19; **Racial Modifiers** +4 [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics), +4 [Perception](additionalMonsters/../skills/perception.md#_perception), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
 
-**Languages** Celestial, Draconic, Infernal; _ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_, truespeech
+**Languages** Celestial, Draconic, Infernal; _ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_, truespeech
 
-**SQ** cat's luck, [flight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_flight-(ex,-sp,-or-su)), lay on hands (1d6, 1/day, always as a 2nd-level paladin), spectral mist
+**SQ** cat's luck, [flight](monsters/universalMonsterRules.md#_flight-(ex,-sp,-or-su)), lay on hands (1d6, 1/day, always as a 2nd-level paladin), spectral mist
 
 Ecology
 
@@ -438,9 +438,9 @@ Special Abilities
 
 **Heroic Strength (Su)** Once per day, a silvanshee can grant itself a +8 enhancement bonus to Strength for 1 minute.
 
-**Spectral Mist (Su)** A silvanshee can assume an eerie, mist-like form roughly the size and shape of a cat. This ability has the same effect as a _ [gaseous form](/pathfinderRPG/prd/additionalMonsters/../spells/gaseousForm.html#_gaseous-form)_ spell, except the silvanshee retains its own DR and supernatural abilities and can move at its normal speed. It can remain in mist form up to 5 minutes per day. This duration does not have to be consecutive, but it must be used in 1-minute increments.
+**Spectral Mist (Su)** A silvanshee can assume an eerie, mist-like form roughly the size and shape of a cat. This ability has the same effect as a _ [gaseous form](additionalMonsters/../spells/gaseousForm.md#_gaseous-form)_ spell, except the silvanshee retains its own DR and supernatural abilities and can move at its normal speed. It can remain in mist form up to 5 minutes per day. This duration does not have to be consecutive, but it must be used in 1-minute increments.
 
-Silvanshees are curious but reclusive cat agathions. Unobtrusive and able to blend in among normal animals (unlike the more anthropomorphic agathions), they are the eyes and ears of the good planes in the mortal world. Most roam hills, forests, and plains, keeping an eye out for evil influences. They can be taken as familiars by 7th-level good spellcasters who utilize the [Improved Familiar](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-familiar) feat and meet the proper prerequisites. As familiars, silvanshees act as moral guides and steer their mortal allies toward corruptive forces that must be eliminated. In some mortal lands, they are called cat sÃ¬th or cath sidhe, and are believed to be disguised witches or fairies—and not necessarily benign creatures, which only encourages silvanshees to avoid strangers.
+Silvanshees are curious but reclusive cat agathions. Unobtrusive and able to blend in among normal animals (unlike the more anthropomorphic agathions), they are the eyes and ears of the good planes in the mortal world. Most roam hills, forests, and plains, keeping an eye out for evil influences. They can be taken as familiars by 7th-level good spellcasters who utilize the [Improved Familiar](additionalMonsters/../feats.md#_improved-familiar) feat and meet the proper prerequisites. As familiars, silvanshees act as moral guides and steer their mortal allies toward corruptive forces that must be eliminated. In some mortal lands, they are called cat sìth or cath sidhe, and are believed to be disguised witches or fairies—and not necessarily benign creatures, which only encourages silvanshees to avoid strangers.
 
 Silvanshees are not fond of open combat, even against demons, devils, or other fiendish threats, and they're likely to run away if confronted. When they must fight, they prefer greater numbers and the element of surprise, using their magic to temporarily overcome their physical weaknesses, and melting away into mist if the battle turns against them.
 
@@ -454,9 +454,9 @@ Agathion, VulpinalCR 6
 
 **XP 2,400**
 
-NG Small [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [agathion](/pathfinderRPG/prd/monsters/creatureTypes.html#_agathion-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype))
+NG Small [outsider](monsters/creatureTypes.md#_outsider) ( [agathion](monsters/creatureTypes.md#_agathion-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [good](monsters/creatureTypes.md#_good-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft., _ [detect evil](/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil)_, low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +12
+**Init** +7; **Senses** darkvision 60 ft., _ [detect evil](additionalMonsters/../spells/detectEvil.md#_detect-evil)_, low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +12
 
 **Aura** calm emotions (30 ft.)
 
@@ -466,9 +466,9 @@ Defense
 
 **hp** 59 (7d10+21)
 
-**Fort** +5, **Ref** +10, **Will** +7; +4 vs. [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su))
+**Fort** +5, **Ref** +10, **Will** +7; +4 vs. [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))
 
-**DR** 10/evil or silver; **Immune** electricity, petrification; **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, sonic 10; **SR** 17
+**DR** 10/evil or silver; **Immune** electricity, petrification; **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10, sonic 10; **SR** 17
 
 Offense
 
@@ -476,17 +476,17 @@ Offense
 
 **Melee** bite +11 (1d4+1), 2 claws +11 (1d3+1)
 
-**Special Attacks** [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce)
+**Special Attacks** [pounce](monsters/universalMonsterRules.md#_pounce)
 
 **Spell-Like Abilities** (CL 7th; concentration +10)
 
-Constant—_ [detect evil](/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil)_, _ [mage armor](/pathfinderRPG/prd/additionalMonsters/../spells/mageArmor.html#_mage-armor), [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_
+Constant—_ [detect evil](additionalMonsters/../spells/detectEvil.md#_detect-evil)_, _ [mage armor](additionalMonsters/../spells/mageArmor.md#_mage-armor), [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_
 
-At will—_ [invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility)_ (self only)
+At will—_ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_ (self only)
 
-3/day—_ [charm monster](/pathfinderRPG/prd/additionalMonsters/../spells/charmMonster.html#_charm-monster)_ (DC 17), _ [dispel evil](/pathfinderRPG/prd/additionalMonsters/../spells/dispelEvil.html#_dispel-evil)_ (DC 18), _ [flame arrow](/pathfinderRPG/prd/additionalMonsters/../spells/flameArrow.html#_flame-arrow)_, _ [holy smite](/pathfinderRPG/prd/additionalMonsters/../spells/holySmite.html#_holy-smite)_ (DC 17), _ [dimension door](/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door)_ (self plus 50 lbs. of objects only), _ [remove disease](/pathfinderRPG/prd/additionalMonsters/../spells/removeDisease.html#_remove-disease)_
+3/day—_ [charm monster](additionalMonsters/../spells/charmMonster.md#_charm-monster)_ (DC 17), _ [dispel evil](additionalMonsters/../spells/dispelEvil.md#_dispel-evil)_ (DC 18), _ [flame arrow](additionalMonsters/../spells/flameArrow.md#_flame-arrow)_, _ [holy smite](additionalMonsters/../spells/holySmite.md#_holy-smite)_ (DC 17), _ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_ (self plus 50 lbs. of objects only), _ [remove disease](additionalMonsters/../spells/removeDisease.md#_remove-disease)_
 
-1/day—_ [major image](/pathfinderRPG/prd/additionalMonsters/../spells/majorImage.html#_major-image)_ (DC 16)
+1/day—_ [major image](additionalMonsters/../spells/majorImage.md#_major-image)_ (DC 16)
 
 Statistics
 
@@ -494,11 +494,11 @@ Statistics
 
 **Base Atk** +7; **CMB** +7; **CMD** 20
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
+**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +10 (+18 jump), [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +13, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (any one) +21, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana) +21, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +21, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +12, [Perform](/pathfinderRPG/prd/additionalMonsters/../skills/perform.html#_perform) (any one) +13, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +14, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +17, [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) +10; **Racial Modifiers** +8 [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) when jumping
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +10 (+18 jump), [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +13, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (any one) +21, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +21, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +21, [Perception](additionalMonsters/../skills/perception.md#_perception) +12, [Perform](additionalMonsters/../skills/perform.md#_perform) (any one) +13, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +14, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +17, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +10; **Racial Modifiers** +8 [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) when jumping
 
-**Languages** Celestial, Common, Draconic, Infernal; _ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_, truespeech
+**Languages** Celestial, Common, Draconic, Infernal; _ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_, truespeech
 
 **SQ** bardic knowledge +7, lay on hands (3d6, 6/day, as a 7th-level paladin)
 
@@ -512,7 +512,7 @@ Ecology
 
 Special Abilities
 
-**Calm Emotions Aura (Su)** A vulpinal's aura acts like a _ [calm emotions](/pathfinderRPG/prd/additionalMonsters/../spells/calmEmotions.html#_calm-emotions)_ spell with a radius of 30 feet. Any creature entering this area must make a Will save (DC 16) to resist the effect. A creature that makes its save is immune to that vulpinal's aura for 24 hours. The save DC is Charisma-based.
+**Calm Emotions Aura (Su)** A vulpinal's aura acts like a _ [calm emotions](additionalMonsters/../spells/calmEmotions.md#_calm-emotions)_ spell with a radius of 30 feet. Any creature entering this area must make a Will save (DC 16) to resist the effect. A creature that makes its save is immune to that vulpinal's aura for 24 hours. The save DC is Charisma-based.
 
 Among the smallest of the agathions, vulpinals tend to be the most outspoken and friendly of their kind, and also the most far-ranging across the planes. A vulpinal looks like a humanoid fox, often with brilliantly colored fur (usually red or red-brown, though silver is not uncommon) and a tail as long as its height. As the bards and sages of the agathions, they dress in functional clothing, typically embellishing a single article to show their creativity and personality. Most appear to be adults, though others look more like fox kits (with shorter stature and larger eyes) while some look much older (leaner, with gray fur on the muzzle, chest, and tail). Their hands are humanoid in shape, with tiny clawed fingers.
 

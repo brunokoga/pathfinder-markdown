@@ -6,9 +6,9 @@ Dark SlayerCR 3
 
 **XP 800**
 
-CE Small [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid) ( [dark folk](/pathfinderRPG/prd/monsters/creatureTypes.html#_dark-folk-subtype))
+CE Small [humanoid](monsters/creatureTypes.md#_humanoid) ( [dark folk](monsters/creatureTypes.md#_dark-folk-subtype))
 
-**Init** +4; **Senses** _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, [see in darkness](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_see-in-darkness); [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4
+**Init** +4; **Senses** _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, [see in darkness](monsters/universalMonsterRules.md#_see-in-darkness); [Perception](additionalMonsters/../skills/perception.md#_perception) +4
 
 Defense
 
@@ -24,17 +24,17 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** kukri +8 (1d3–1/18–20 plus black smear [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** kukri +8 (1d3–1/18–20 plus black smear [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
-**Special Attacks** death throes, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) use, sneak attack +2d6, soul harvest
+**Special Attacks** death throes, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) use, sneak attack +2d6, soul harvest
 
 **Spell-Like Abilities** (CL 4th; concentration +6)
 
-Constant—_ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_
+Constant—_ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_
 
-At will—_ [bleed](/pathfinderRPG/prd/additionalMonsters/../spells/bleed.html#_bleed)_ (DC 12), _ [chill touch](/pathfinderRPG/prd/additionalMonsters/../spells/chillTouch.html#_chill-touch)_ (DC 13), _ [darkness](/pathfinderRPG/prd/additionalMonsters/../spells/darkness.html#_darkness), [spectral hand](/pathfinderRPG/prd/additionalMonsters/../spells/spectralHand.html#_spectral-hand)_
+At will—_ [bleed](additionalMonsters/../spells/bleed.md#_bleed)_ (DC 12), _ [chill touch](additionalMonsters/../spells/chillTouch.md#_chill-touch)_ (DC 13), _ [darkness](additionalMonsters/../spells/darkness.md#_darkness), [spectral hand](additionalMonsters/../spells/spectralHand.md#_spectral-hand)_
 
-3/day—_ [daze monster](/pathfinderRPG/prd/additionalMonsters/../spells/dazeMonster.html#_daze-monster)_ (DC 14), _ [death knell](/pathfinderRPG/prd/additionalMonsters/../spells/deathKnell.html#_death-knell) _(DC 14), _ [inflict moderate wounds](/pathfinderRPG/prd/additionalMonsters/../spells/inflictModerateWounds.html#_inflict-moderate-wounds)_ (DC 14)
+3/day—_ [daze monster](additionalMonsters/../spells/dazeMonster.md#_daze-monster)_ (DC 14), _ [death knell](additionalMonsters/../spells/deathKnell.md#_death-knell) _(DC 14), _ [inflict moderate wounds](additionalMonsters/../spells/inflictModerateWounds.md#_inflict-moderate-wounds)_ (DC 14)
 
 Statistics
 
@@ -42,11 +42,11 @@ Statistics
 
 **Base Atk** +3; **CMB** +1; **CMD** 15
 
-**Feats** [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device)), [Weapon Finesse](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-finesse)
+**Feats** [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device)), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +3, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +4, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +7, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +12, [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) +12; **Racial Modifiers** +4 [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb), +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth), +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +3, [Perception](additionalMonsters/../skills/perception.md#_perception) +4, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +7, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +12, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +12; **Racial Modifiers** +4 [Climb](additionalMonsters/../skills/climb.md#_climb), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth), +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
 
-**Languages** [Dark Folk](/pathfinderRPG/prd/monsters/creatureTypes.html#_dark-folk-subtype)
+**Languages** [Dark Folk](monsters/creatureTypes.md#_dark-folk-subtype)
 
 **SQ** magical knack
 
@@ -62,7 +62,7 @@ Special Abilities
 
 **Death Throes (Su)** When a dark slayer is slain, its body implodes violently into nothingness, leaving its gear in a heap on the ground. All creatures within a 10-foot burst take 1d8 points of sonic damage and must make a DC 13 Fortitude save or be deafened for 2d4 rounds. The save DC is Constitution-based.
 
-**Magical Knack (Ex)** [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) and [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) are always class skills for dark slayers.
+**Magical Knack (Ex)** [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) and [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) are always class skills for dark slayers.
 
 **Soul Harvest (Su)** When a dark slayer damages a flat-footed foe or a foe it is flanking with a melee touch spell or spell-like ability that deals hit point damage, the spell does an additional 1d6 points of damage and the dark slayer gains an equal amount of temporary hit points. These temporary hit points last for a maximum of 1 hour.
 

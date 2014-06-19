@@ -6,9 +6,9 @@ Kirin CR 7
 
 XP 3,200
 
-LG Large magical beast ( [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype))
+LG Large magical beast ( [air](monsters/creatureTypes.md#_air-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft., _ [detect evil](/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil)_, low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +17
+**Init** +6; **Senses** darkvision 60 ft., _ [detect evil](spells/detectEvil.md#_detect-evil)_, low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +17
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +10, **Ref** +12, **Will** +10
 
-**Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, electricity 30, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 18
+**Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10, electricity 30, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 18
 
 Offense
 
@@ -28,25 +28,25 @@ Offense
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (15-ft. cone, 5d6 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) damage, Reflex DC 18 for half, usable every 1d4 rounds), [powerful charge](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_powerful-charge) (gore, 2d8+14)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (15-ft. cone, 5d6 [fire](monsters/creatureTypes.md#_fire-subtype) damage, Reflex DC 18 for half, usable every 1d4 rounds), [powerful charge](monsters/universalMonsterRules.md#_powerful-charge) (gore, 2d8+14)
 
 **Spell-Like Abilities** (CL 9th; concentration +15)
 
-Constant—_ [detect evil](/pathfinderRPG/prd/spells/detectEvil.html#_detect-evil), [water walk](/pathfinderRPG/prd/spells/waterWalk.html#_water-walk)_
+Constant—_ [detect evil](spells/detectEvil.md#_detect-evil), [water walk](spells/waterWalk.md#_water-walk)_
 
-At will—_ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_, _ [gust of wind](/pathfinderRPG/prd/spells/gustOfWind.html#_gust-of-wind)_
+At will—_ [gaseous form](spells/gaseousForm.md#_gaseous-form)_, _ [gust of wind](spells/gustOfWind.md#_gust-of-wind)_
 
-1/day—_ [break enchantment](/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment)_, _ [create food and water](/pathfinderRPG/prd/spells/createFoodAndWater.html#_create-food-and-water)_, _ [major creation](/pathfinderRPG/prd/spells/majorCreation.html#_major-creation), [wind walk](/pathfinderRPG/prd/spells/windWalk.html#_wind-walk)_ (self only)
+1/day—_ [break enchantment](spells/breakEnchantment.md#_break-enchantment)_, _ [create food and water](spells/createFoodAndWater.md#_create-food-and-water)_, _ [major creation](spells/majorCreation.md#_major-creation), [wind walk](spells/windWalk.md#_wind-walk)_ (self only)
 
 **Spells Known** (CL 6th; concentration +12)
 
-3rd (4/day)—_ [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt)_ (DC 19)
+3rd (4/day)—_ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_ (DC 19)
 
-2nd (7/day)—_ [lesser restoration](/pathfinderRPG/prd/spells/restoration.html#_restoration-lesser)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_
+2nd (7/day)—_ [lesser restoration](spells/restoration.md#_restoration-lesser)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_
 
-1st (8/day)—_ [color spray](/pathfinderRPG/prd/spells/colorSpray.html#_color-spray)_ (DC 17),_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [disguise self](/pathfinderRPG/prd/spells/disguiseSelf.html#_disguise-self)_, _ [remove fear](/pathfinderRPG/prd/spells/removeFear.html#_remove-fear)_, _ [sanctuary](/pathfinderRPG/prd/spells/sanctuary.html#_sanctuary)_ (DC 17)
+1st (8/day)—_ [color spray](spells/colorSpray.md#_color-spray)_ (DC 17),_ [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, _ [disguise self](spells/disguiseSelf.md#_disguise-self)_, _ [remove fear](spells/removeFear.md#_remove-fear)_, _ [sanctuary](spells/sanctuary.md#_sanctuary)_ (DC 17)
 
-0 (at will)—_ [arcane mark](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark)_, _ [create water](/pathfinderRPG/prd/spells/createWater.html#_create-water)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_
+0 (at will)—_ [arcane mark](spells/arcaneMark.md#_arcane-mark)_, _ [create water](spells/createWater.md#_create-water)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [guidance](spells/guidance.md#_guidance)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [mending](spells/mending.md#_mending)_, _ [stabilize](spells/stabilize.md#_stabilize)_
 
 Statistics
 
@@ -54,9 +54,9 @@ Statistics
 
 **Base Atk** +9; **CMB** +15; **CMD** 31 (35 vs. trip)
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)B, [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (gore)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Eschew Materials](feats.md#_eschew-materials)B, [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Hover](monsters/monsterFeats.md#_hover), [Iron Will](feats.md#_iron-will), [Weapon Focus](feats.md#_weapon-focus) (gore)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +15, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +20, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +13, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +17, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (sing) +15, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +14
+**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +15, [Fly](skills/fly.md#_fly) +20, [Knowledge](skills/knowledge.md#_knowledge) (history) +13, [Perception](skills/perception.md#_perception) +17, [Perform](skills/perform.md#_perform) (sing) +15, [Sense Motive](skills/senseMotive.md#_sense-motive) +14
 
 **Languages** Abyssal, Auran, Celestial, Common, Draconic; telepathy 100 ft.
 

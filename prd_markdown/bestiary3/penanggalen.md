@@ -6,11 +6,11 @@ Penanggalen CR 5
 
 XP 1,600
 
-[Human](/pathfinderRPG/prd/monsters/creatureTypes.html#_human-subtype) penanggalen witch 5
+[Human](monsters/creatureTypes.md#_human-subtype) penanggalen witch 5
 
-NE Medium undead ( [augmented](/pathfinderRPG/prd/monsters/creatureTypes.html#_augmented-subtype) humanoid)
+NE Medium undead ( [augmented](monsters/creatureTypes.md#_augmented-subtype) humanoid)
 
-**Init** +4; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16
+**Init** +4; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +16
 
 Defense
 
@@ -20,7 +20,7 @@ Defense
 
 **Fort** +4, **Ref** +5, **Will** +7
 
-**Defensive Abilities** channel [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) +4; **DR** 5/silver and slashing; **Immune** undead traits; **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10
+**Defensive Abilities** channel [resistance](monsters/universalMonsterRules.md#_resistance) +4; **DR** 5/silver and slashing; **Immune** undead traits; **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10
 
 **Weaknesses** light sensitivity, penanggalen weaknesses
 
@@ -28,19 +28,19 @@ Offense
 
 **Speed** fly 60 ft. (good)
 
-**Melee** bite +6 (1d6+4 plus [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su))), slam +6 (1d4+4 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab) and wither)
+**Melee** bite +6 (1d6+4 plus [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su))), slam +6 (1d4+4 plus [grab](monsters/universalMonsterRules.md#_grab) and wither)
 
-**Special Attacks** [blood drain](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blood-drain) (1d4 Constitution), create spawn, [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)) (filth fever, DC 15), hexes (cackle, [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) eye, misfortune)
+**Special Attacks** [blood drain](monsters/universalMonsterRules.md#_blood-drain) (1d4 Constitution), create spawn, [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) (filth fever, DC 15), hexes (cackle, [evil](monsters/creatureTypes.md#_evil-subtype) eye, misfortune)
 
 **Witch Spells Prepared** (CL 5th; concentration +8)
 
-3rd—_ [stinking cloud](/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud)_ (DC 16)
+3rd—_ [stinking cloud](spells/stinkingCloud.md#_stinking-cloud)_ (DC 16)
 
-2nd—_ [glitterdust](/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust)_ (DC 15), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 16), _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
+2nd—_ [glitterdust](spells/glitterdust.md#_glitterdust)_ (DC 15), _ [hold person](spells/holdPerson.md#_hold-person)_ (DC 16), _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_
 
-1st—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 15), _ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (DC 15), _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_
+1st—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 15), _ [command](spells/command.md#_command)_ (DC 15), _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_
 
-0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 13), _ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [touch of fatigue](/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue) _(DC 13)
+0 (at will)—_ [bleed](spells/bleed.md#_bleed)_ (DC 13), _ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [touch of fatigue](spells/touchOfFatigue.md#_touch-of-fatigue) _(DC 13)
 
 **Patron** Plague
 
@@ -50,10 +50,10 @@ Statistics
 
 **Base Atk** +2; **CMB** +6 (+10 grapple); **CMD** 21
 
-**Feats** [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (enchantment)
+**Feats** [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials), [Spell Focus](feats.md#_spell-focus) (enchantment)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +11, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +16, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +19, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) +7, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +14, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +11,   
- [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +17, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +11; **Racial Modifiers** +8 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), +8 [Fly](/pathfinderRPG/prd/skills/fly.html#_fly), +8 [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana), +8 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +8 [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive), +8 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
+**Skills** [Bluff](skills/bluff.md#_bluff) +11, [Fly](skills/fly.md#_fly) +16, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +19, [Knowledge](skills/knowledge.md#_knowledge) (nature) +7, [Perception](skills/perception.md#_perception) +16, [Sense Motive](skills/senseMotive.md#_sense-motive) +14, [Spellcraft](skills/spellcraft.md#_spellcraft) +11,   
+ [Stealth](skills/stealth.md#_stealth) +17, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +11; **Racial Modifiers** +8 [Bluff](skills/bluff.md#_bluff), +8 [Fly](skills/fly.md#_fly), +8 [Knowledge](skills/knowledge.md#_knowledge) (arcana), +8 [Perception](skills/perception.md#_perception), +8 [Sense Motive](skills/senseMotive.md#_sense-motive), +8 [Stealth](skills/stealth.md#_stealth)
 
 **Languages** Common, Draconic, Gnoll, Infernal
 
@@ -89,7 +89,7 @@ The penanggalen presented above was a witch in life. The witch class is presente
 
 # Creating a Penanggalen
 
-âPenanggalenâ is an acquired template that can be added to any living creature with 5 or more Hit Dice (referred to hereafter as the base creature). Most penanggalens were once humanoids or monstrous humanoids and nearly every penanggalen is female. A penanggalen uses the base creature's stats and abilities except as noted here.
+“Penanggalen” is an acquired template that can be added to any living creature with 5 or more Hit Dice (referred to hereafter as the base creature). Most penanggalens were once humanoids or monstrous humanoids and nearly every penanggalen is female. A penanggalen uses the base creature's stats and abilities except as noted here.
 
 **CR** : Same as base creature +1.
 
@@ -123,7 +123,7 @@ _Wither (Su)_: A penanggalen's entrails drip with a foul bile that blisters and 
 
 **Ability Scores** : Str +6, Dex +4, Int +2, Wis +2, Cha +4. As an undead creature, a penanggalen has no Constitution score.
 
-**Skills** : A penanggalen gains a +8 racial bonus on [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), [Fly](/pathfinderRPG/prd/skills/fly.html#_fly), [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana), [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive), and [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks.
+**Skills** : A penanggalen gains a +8 racial bonus on [Bluff](skills/bluff.md#_bluff), [Fly](skills/fly.md#_fly), [Knowledge](skills/knowledge.md#_knowledge) (arcana), [Perception](skills/perception.md#_perception), [Sense Motive](skills/senseMotive.md#_sense-motive), and [Stealth](skills/stealth.md#_stealth) checks.
 
 **Special Qualities** : A penanggalen gains the following special quality.
 

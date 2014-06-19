@@ -10,11 +10,11 @@ The following section introduces new sorcerer bloodlines, as well as two new sor
 
 Misfortune, pestilence, and nightmares follow your family like vermin drawn to carrion. Somewhere in your family history, a hag's foul influence entered your bloodline. You may actually be related to the hag, or you may still be suffering the effects of a curse that a hag laid upon your kin in generations past. Now the hag's powers are part of your heritage.
 
-**Class Skill** : [Perception](/pathfinderRPG/prd/skills/perception.html#_perception).
+**Class Skill** : [Perception](skills/perception.md#_perception).
 
-**Bonus Spells** : _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (3rd), _ [touch of idiocy](/pathfinderRPG/prd/spells/touchOfIdiocy.html#_touch-of-idiocy)_ (5th), _ [ray of exhaustion](/pathfinderRPG/prd/spells/rayOfExhaustion.html#_ray-of-exhaustion)_ (7th), _ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (9th), _ [feeblemind](/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind)_ (11th), _ [eyebite](/pathfinderRPG/prd/spells/eyebite.html#_eyebite)_ (13th), _ [insanity](/pathfinderRPG/prd/spells/insanity.html#_insanity)_ (15th), _ [dimensional lock](/pathfinderRPG/prd/spells/dimensionalLock.html#_dimensional-lock)_ (17th), _ [energy drain](/pathfinderRPG/prd/spells/energyDrain.html#_energy-drain)_ (19th).
+**Bonus Spells** : _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (3rd), _ [touch of idiocy](spells/touchOfIdiocy.md#_touch-of-idiocy)_ (5th), _ [ray of exhaustion](spells/rayOfExhaustion.md#_ray-of-exhaustion)_ (7th), _ [bestow curse](spells/bestowCurse.md#_bestow-curse)_ (9th), _ [feeblemind](spells/feeblemind.md#_feeblemind)_ (11th), _ [eyebite](spells/eyebite.md#_eyebite)_ (13th), _ [insanity](spells/insanity.md#_insanity)_ (15th), _ [dimensional lock](spells/dimensionalLock.md#_dimensional-lock)_ (17th), _ [energy drain](spells/energyDrain.md#_energy-drain)_ (19th).
 
-**Bonus Feats** : [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Blind-Fight](/pathfinderRPG/prd/feats.html#_blind-fight), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Deceitful](/pathfinderRPG/prd/feats.html#_deceitful), [Defensive Combat Training](/pathfinderRPG/prd/feats.html#_defensive-combat-training), [Endurance](/pathfinderRPG/prd/feats.html#_endurance), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Mounted Combat](/pathfinderRPG/prd/feats.html#_mounted-combat).
+**Bonus Feats** : [Alertness](feats.md#_alertness), [Blind-Fight](feats.md#_blind-fight), [Combat Casting](feats.md#_combat-casting), [Deceitful](feats.md#_deceitful), [Defensive Combat Training](feats.md#_defensive-combat-training), [Endurance](feats.md#_endurance), [Great Fortitude](feats.md#_great-fortitude), [Mounted Combat](feats.md#_mounted-combat).
 
 **Bloodline Arcana** : You count as a hag for the purpose of joining a hag's coven. The coven must contain at least one hag. In addition, whenever you are within 30 feet of another sorcerer with this bloodline or a witch with the coven hex, you can use the aid another action to grant a +1 bonus to the other spellcaster's caster level for 1 round.
 
@@ -22,23 +22,23 @@ Misfortune, pestilence, and nightmares follow your family like vermin drawn to c
 
 _Horrific Visage (Su)_: At 1st level, you can draw upon your hag ancestor to cause one target to perceive you as having a horrifying appearance. As a standard action, you can force one target within 30 feet to make a Will save (DC 10 + 1/2 your sorcerer level + your Charisma modifier) or be shaken for 1 round for every 2 sorcerer levels you possess (minimum 1 round). This is a mind-affecting, fear-based ability. This fear does not stack with other fear effects. You may use this ability a number of times per day equal to 3 + your Charisma modifier.
 
-_Wretched [Endurance](/pathfinderRPG/prd/feats.html#_endurance) (Ex)_: At 3rd level, you gain a +2 bonus on all saving throws against charm, cold, fear, fire, and sleep effects. And 9th level, these bonuses increase to +4.
+_Wretched [Endurance](feats.md#_endurance) (Ex)_: At 3rd level, you gain a +2 bonus on all saving throws against charm, cold, fear, fire, and sleep effects. And 9th level, these bonuses increase to +4.
 
 _Dread Gaze (Su)_: At 9th level, you gain a form of the green hag's evil eye power. As a standard action, you may fix your gaze on any one creature within 60 feet. The target must make a Will save (DC 10 + 1/2 your sorcerer level + your Charisma modifier) or be staggered for 1 round for every 2 sorcerer levels you possess. You may use this ability once per day at 9th level. At 17th level, you can use this ability twice per day. At 20th level, you may use this ability three times per day.
 
-_ [Dream](/pathfinderRPG/prd/spells/dream.html#_dream) Walking (Sp)_: At 15th level, you can enter the ethereal plane. This functions like _ [ethereal jaunt](/pathfinderRPG/prd/spells/etherealJaunt.html#_ethereal-jaunt)_, but with a duration of 1 minute for every 2 sorcerer levels you possess. Once during this trip, you may cast _ [nightmare](/pathfinderRPG/prd/spells/nightmare.html#_nightmare)_ as a spell-like ability on a creature you see on the Material Plane. (This is an exception to the normal rule that ethereal creatures cannot affect targets on the Material Plane).
+_ [Dream](spells/dream.md#_dream) Walking (Sp)_: At 15th level, you can enter the ethereal plane. This functions like _ [ethereal jaunt](spells/etherealJaunt.md#_ethereal-jaunt)_, but with a duration of 1 minute for every 2 sorcerer levels you possess. Once during this trip, you may cast _ [nightmare](spells/nightmare.md#_nightmare)_ as a spell-like ability on a creature you see on the Material Plane. (This is an exception to the normal rule that ethereal creatures cannot affect targets on the Material Plane).
 
-_Fearsome [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) (Su)_: At 20th level, your hag-blood gives you considerable resilience. You gain DR 10/cold iron, and gain SR equal to 6 + your sorcerer level.
+_Fearsome [Survival](skills/survival.md#_survival) (Su)_: At 20th level, your hag-blood gives you considerable resilience. You gain DR 10/cold iron, and gain SR equal to 6 + your sorcerer level.
 
 ## Djinni
 
 You were born with the power of air genies, and the magic of the djinn is strong in you.
 
-**Class Skill** : [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes).
+**Class Skill** : [Knowledge](skills/knowledge.md#_knowledge) (planes).
 
-**Bonus Spells** : _ [shocking grasp](/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp)_ (3rd), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ (5th), _ [fly](/pathfinderRPG/prd/spells/fly.html)_ (7th), _ [minor creation](/pathfinderRPG/prd/spells/minorCreation.html#_minor-creation)_ (9th), _ [overland flight](/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight)_ (11th), _ [chain lightning](/pathfinderRPG/prd/spells/chainLightning.html#_chain-lightning)_ (13th), _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ (15th), _ [greater planar binding](/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding-greater)_ (17th), _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_ (19th).
+**Bonus Spells** : _ [shocking grasp](spells/shockingGrasp.md#_shocking-grasp)_ (3rd), _ [invisibility](spells/invisibility.md#_invisibility)_ (5th), _ [fly](spells/fly.md)_ (7th), _ [minor creation](spells/minorCreation.md#_minor-creation)_ (9th), _ [overland flight](spells/overlandFlight.md#_overland-flight)_ (11th), _ [chain lightning](spells/chainLightning.md#_chain-lightning)_ (13th), _ [plane shift](spells/planeShift.md#_plane-shift)_ (15th), _ [greater planar binding](spells/planarBinding.md#_planar-binding-greater)_ (17th), _ [wish](spells/wish.md#_wish)_ (19th).
 
-**Bonus Feats** : [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Empower Spell](/pathfinderRPG/prd/feats.html#_empower-spell), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) [planes]), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse).
+**Bonus Feats** : [Dodge](feats.md#_dodge), [Empower Spell](feats.md#_empower-spell), [Great Fortitude](feats.md#_great-fortitude), [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Skill Focus](feats.md#_skill-focus) ( [Knowledge](skills/knowledge.md#_knowledge) [planes]), [Weapon Finesse](feats.md#_weapon-finesse).
 
 **Bloodline Arcana** : Whenever you cast a spell that deals energy damage, you can change the type of damage to electricity. This also changes the spell's descriptors to match this energy type.
 
@@ -46,25 +46,25 @@ You were born with the power of air genies, and the magic of the djinn is strong
 
 _Electricity Ray (Sp)_: Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of electricity damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.
 
-_Elemental [Resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance) (Ex)_: At 3rd level, you gain electricity resistance 10. Your electricity resistance increases to 20 at 9th level.
+_Elemental [Resistance](spells/resistance.md#_resistance) (Ex)_: At 3rd level, you gain electricity resistance 10. Your electricity resistance increases to 20 at 9th level.
 
-_ [Whirlwind](/pathfinderRPG/prd/spells/whirlwind.html#_whirlwind) (Su)_: At 9th level, you gain the ability to turn into a 10-foot-high whirlwind once per day for 1 round per sorcerer level.
+_ [Whirlwind](spells/whirlwind.md#_whirlwind) (Su)_: At 9th level, you gain the ability to turn into a 10-foot-high whirlwind once per day for 1 round per sorcerer level.
 
 _Elemental Movement (Su)_: At 15th level, you gain a fly speed of 60 feet with average maneuverability.
 
-_Power of the Djinn (Su)_: At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_ as a spell-like ability. Such wishes must begin with the words âI wish,â and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.
+_Power of the Djinn (Su)_: At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _ [limited wish](spells/limitedWish.md#_limited-wish)_ as a spell-like ability. Such wishes must begin with the words “I wish,” and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.
 
-You also become immune to electricity damage, and can use _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ once per day to travel to or from the Plane of Air.
+You also become immune to electricity damage, and can use _ [plane shift](spells/planeShift.md#_plane-shift)_ once per day to travel to or from the Plane of Air.
 
 ## Efreeti
 
 You were born with the power of fire genies, and the magic of the efreet is strong in you.
 
-**Class Skill** : [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes).
+**Class Skill** : [Knowledge](skills/knowledge.md#_knowledge) (planes).
 
-**Bonus Spells** : _ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_ (3rd), _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_ (5th), _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ (7th), _ [wall of fire](/pathfinderRPG/prd/spells/wallOfFire.html#_wall-of-fire)_ (9th), _ [persistent image](/pathfinderRPG/prd/spells/persistentImage.html#_persistent-image)_ (11th), _ [planar binding](/pathfinderRPG/prd/spells/planarBinding.html#_planar-binding)_ (13th), _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ (15th), _ [giant form II](/pathfinderRPG/prd/spells/giantForm.html#_giant-form-ii)_ (17th), _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_ (19th).
+**Bonus Spells** : _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_ (3rd), _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_ (5th), _ [fireball](spells/fireball.md#_fireball)_ (7th), _ [wall of fire](spells/wallOfFire.md#_wall-of-fire)_ (9th), _ [persistent image](spells/persistentImage.md#_persistent-image)_ (11th), _ [planar binding](spells/planarBinding.md#_planar-binding)_ (13th), _ [plane shift](spells/planeShift.md#_plane-shift)_ (15th), _ [giant form II](spells/giantForm.md#_giant-form-ii)_ (17th), _ [wish](spells/wish.md#_wish)_ (19th).
 
-**Bonus Feats** : [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Empower Spell](/pathfinderRPG/prd/feats.html#_empower-spell), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) [planes]), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse).
+**Bonus Feats** : [Dodge](feats.md#_dodge), [Empower Spell](feats.md#_empower-spell), [Great Fortitude](feats.md#_great-fortitude), [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Skill Focus](feats.md#_skill-focus) ( [Knowledge](skills/knowledge.md#_knowledge) [planes]), [Weapon Finesse](feats.md#_weapon-finesse).
 
 **Bloodline Arcana** : Whenever you cast a spell that deals energy damage, you can change the type of damage to fire. This also changes the spell's descriptors to match this energy type.
 
@@ -72,99 +72,99 @@ You were born with the power of fire genies, and the magic of the efreet is stro
 
 _Fire Ray (Sp)_: Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of fire damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.
 
-_Elemental [Resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance) (Ex)_: At 3rd level, you gain fire resistance 10. At 9th level, your fire resistance increases to 20.
+_Elemental [Resistance](spells/resistance.md#_resistance) (Ex)_: At 3rd level, you gain fire resistance 10. At 9th level, your fire resistance increases to 20.
 
-_Efreeti Form (Su)_: At 9th level, you gain the ability to assume the form of an efreeti once per day. This acts like the spell _ [giant form I](/pathfinderRPG/prd/spells/giantForm.html#_giant-form-i)_, except you only use it to become an efreeti and its duration is 1 round per level. While in this form, you also gain an efreeti's heat ability.
+_Efreeti Form (Su)_: At 9th level, you gain the ability to assume the form of an efreeti once per day. This acts like the spell _ [giant form I](spells/giantForm.md#_giant-form-i)_, except you only use it to become an efreeti and its duration is 1 round per level. While in this form, you also gain an efreeti's heat ability.
 
 _Elemental Movement (Su)_: At 15th level, your base speed increases by +30 feet.
 
-_Power of the Efreet (Su)_: At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_ as a spell-like ability. Such wishes must begin with the words âI wish,â and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.
+_Power of the Efreet (Su)_: At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _ [limited wish](spells/limitedWish.md#_limited-wish)_ as a spell-like ability. Such wishes must begin with the words “I wish,” and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.
 
-You also become immune to fire damage, and can use _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ once per day to travel to or from the Plane of Fire.
+You also become immune to fire damage, and can use _ [plane shift](spells/planeShift.md#_plane-shift)_ once per day to travel to or from the Plane of Fire.
 
 ## Maestro
 
 The spiritual power of art and song runs strongly through your family line. This may be the result of ancient pacts made with azata patrons, or even an inheritance from a lillend or trumpet archon ancestor. It could also be the lingering taint of a less savory heritage, such as from a harpy or a forefather driven to madness by the disquieting gibbering of a shoggoth. However it came to be, your family's artistic bent shows itself strongly in your magic.
 
-**Class Skill** : [Perform](/pathfinderRPG/prd/skills/perform.html#_perform).
+**Class Skill** : [Perform](skills/perform.md#_perform).
 
-**Bonus Spells** : _ [ventriloquism](/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism)_ (3rd), _ [hideous laughter](/pathfinderRPG/prd/spells/hideousLaughter.html#_hideous-laughter)_ (5th), _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (7th), _ [shout](/pathfinderRPG/prd/spells/shout.html#_shout)_ (9th), _ [dominate person](/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person)_ (11th), _ [mass suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass)_ (13th), _ [power word blind](/pathfinderRPG/prd/spells/powerWordBlind.html#_power-word-blind)_ (15th), _ [greater shout](/pathfinderRPG/prd/spells/shout.html#_shout-greater)_ (17th), _ [wail of the banshee](/pathfinderRPG/prd/spells/wailOfTheBanshee.html#_wail-of-the-banshee)_ (19th).
+**Bonus Spells** : _ [ventriloquism](spells/ventriloquism.md#_ventriloquism)_ (3rd), _ [hideous laughter](spells/hideousLaughter.md#_hideous-laughter)_ (5th), _ [suggestion](spells/suggestion.md#_suggestion)_ (7th), _ [shout](spells/shout.md#_shout)_ (9th), _ [dominate person](spells/dominatePerson.md#_dominate-person)_ (11th), _ [mass suggestion](spells/suggestion.md#_suggestion-mass)_ (13th), _ [power word blind](spells/powerWordBlind.md#_power-word-blind)_ (15th), _ [greater shout](spells/shout.md#_shout-greater)_ (17th), _ [wail of the banshee](spells/wailOfTheBanshee.md#_wail-of-the-banshee)_ (19th).
 
-**Bonus Feats** : [Deceitful](/pathfinderRPG/prd/feats.html#_deceitful), [Greater Spell Focus](/pathfinderRPG/prd/feats.html#_greater-spell-focus) (enchantment), Lingering Performance, [Persuasive](/pathfinderRPG/prd/feats.html#_persuasive), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perform](/pathfinderRPG/prd/skills/perform.html#_perform)), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (enchantment), [Spellsong](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_spellsong), [Still Spell](/pathfinderRPG/prd/feats.html#_still-spell).
+**Bonus Feats** : [Deceitful](feats.md#_deceitful), [Greater Spell Focus](feats.md#_greater-spell-focus) (enchantment), Lingering Performance, [Persuasive](feats.md#_persuasive), [Skill Focus](feats.md#_skill-focus) ( [Perform](skills/perform.md#_perform)), [Spell Focus](feats.md#_spell-focus) (enchantment), [Spellsong](ultimateMagic/ultimateMagicFeats.md#_spellsong), [Still Spell](feats.md#_still-spell).
 
 **Bloodline Arcana** : Whenever you cast a spell with a verbal component and no somatic or material component, you treat your caster level as if it were one higher.
 
 **Bloodline Powers** : You hear music whenever you cast spells, and can use the songs in your head to create magic effects.
 
-_Beguiling Voice (Ex)_: At 1st level, you can use the sound of your voice to lull a target creature into taking no action. This ability acts as the _ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ spell, except it is language-dependent, has a duration of 1 round, and affects a living creature whose Hit Dice do not exceed your sorcerer level. You can use this ability a number of times per day equal to 3 + your Charisma modifier.
+_Beguiling Voice (Ex)_: At 1st level, you can use the sound of your voice to lull a target creature into taking no action. This ability acts as the _ [daze](spells/daze.md#_daze)_ spell, except it is language-dependent, has a duration of 1 round, and affects a living creature whose Hit Dice do not exceed your sorcerer level. You can use this ability a number of times per day equal to 3 + your Charisma modifier.
 
-_Fascinate (Ex)_: At 3rd level, you gain the ability to use a [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) skill to cause one or more creatures to become fascinated with you. This acts as the fascinate bardic perform ability, except the save DC is 10 + 1/2 your sorcerer level + your Charisma bonus, and it lasts 1 round/level. You may use this ability once per day at 3rd level, twice per day at 8th level, three times per day at 13th level, and four times per day at 18th level.
+_Fascinate (Ex)_: At 3rd level, you gain the ability to use a [Perform](skills/perform.md#_perform) skill to cause one or more creatures to become fascinated with you. This acts as the fascinate bardic perform ability, except the save DC is 10 + 1/2 your sorcerer level + your Charisma bonus, and it lasts 1 round/level. You may use this ability once per day at 3rd level, twice per day at 8th level, three times per day at 13th level, and four times per day at 18th level.
 
 _Perfect Voice (Su)_: At 9th level, you understand all efforts to communicate through sound, and can make yourself understood to any creature able to understand language. You can speak to, and understand the speech of, any creature that understands at least one spoken language. The save DCs of language-dependent spells you cast increase by +1.
 
-_Inspire (Sp)_: At 15th level, your artistic magic can inspire your allies to great accomplishments. You can use _ [greater heroism](/pathfinderRPG/prd/spells/heroism.html#_heroism-greater)_ as a spell-like ability. You can use this ability once per day at 15th level, twice per day at 17th level, and three times per day at 19th level.
+_Inspire (Sp)_: At 15th level, your artistic magic can inspire your allies to great accomplishments. You can use _ [greater heroism](spells/heroism.md#_heroism-greater)_ as a spell-like ability. You can use this ability once per day at 15th level, twice per day at 17th level, and three times per day at 19th level.
 
-_Grand Maestro (Su)_: At 20th level, the power of pure magic music flows through you. You cast any spell with a verbal component as if it had the [Still Spell](/pathfinderRPG/prd/feats.html#_still-spell) metamagic feat applied to it, with no increase to the casting time or spell slot required to cast it. You gain immunity to sonic damage and language-dependent spells.
+_Grand Maestro (Su)_: At 20th level, the power of pure magic music flows through you. You cast any spell with a verbal component as if it had the [Still Spell](feats.md#_still-spell) metamagic feat applied to it, with no increase to the casting time or spell slot required to cast it. You gain immunity to sonic damage and language-dependent spells.
 
 ## Marid
 
 You were born with the power of water genies, and the magic of the marids is strong in you.
 
-**Class Skill** : [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes).
+**Class Skill** : [Knowledge](skills/knowledge.md#_knowledge) (planes).
 
-**Bonus Spells** : _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_ (3rd), _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_ (5th), _ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_ (7th), _ [wall of ice](/pathfinderRPG/prd/spells/wallOfIce.html#_wall-of-ice)_ (9th), _ [persistent image](/pathfinderRPG/prd/spells/persistentImage.html#_persistent-image)_ (11th), _ [elemental body III](/pathfinderRPG/prd/spells/elementalBody.html#_elemental-body-iii)_ (13th), _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ (15th), _ [polar ray](/pathfinderRPG/prd/spells/polarRay.html#_polar-ray)_ (17th), _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_ (19th).
+**Bonus Spells** : _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_ (3rd), _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_ (5th), _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_ (7th), _ [wall of ice](spells/wallOfIce.md#_wall-of-ice)_ (9th), _ [persistent image](spells/persistentImage.md#_persistent-image)_ (11th), _ [elemental body III](spells/elementalBody.md#_elemental-body-iii)_ (13th), _ [plane shift](spells/planeShift.md#_plane-shift)_ (15th), _ [polar ray](spells/polarRay.md#_polar-ray)_ (17th), _ [wish](spells/wish.md#_wish)_ (19th).
 
-**Bonus Feats** : [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Empower Spell](/pathfinderRPG/prd/feats.html#_empower-spell), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) [planes]), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse).
+**Bonus Feats** : [Dodge](feats.md#_dodge), [Empower Spell](feats.md#_empower-spell), [Great Fortitude](feats.md#_great-fortitude), [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Skill Focus](feats.md#_skill-focus) ( [Knowledge](skills/knowledge.md#_knowledge) [planes]), [Weapon Finesse](feats.md#_weapon-finesse).
 
 **Bloodline Arcana** : Whenever you cast a spell that deals energy damage, you can change the type of damage to cold. This also changes the spell's descriptors to match this energy type.
 
 **Bloodline Powers** : Like a marid, you have both natural power over water and several other genie-based abilities.
 
-_ [Frost](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost) Ray (Sp)_: Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of cold damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.
+_ [Frost](magicItems/weapons.md#_weapons-frost) Ray (Sp)_: Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of cold damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.
 
-_Elemental [Resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance) (Ex)_: At 3rd level, you gain cold resistance 10. At 9th level, your cold resistance increases to 20.
+_Elemental [Resistance](spells/resistance.md#_resistance) (Ex)_: At 3rd level, you gain cold resistance 10. At 9th level, your cold resistance increases to 20.
 
 _Water's Fury (Su)_: At 9th level, you gain the ability to summon a rushing jet of water from the elemental plane of water and direct it against your foes. As a standard action, you can create a jet of water in a 60-foot line that deals 1d6 points of damage per two sorcerer levels you possess, and blinds the target that was struck for 1d6 rounds. A Reflex save (DC 10 + 1/2 your sorcerer level + your Charisma bonus) reduces the damage by half and negates the blinding effect.
 
 _Elemental Movement (Su)_: At 15th level, you gain a swim speed of 60 feet.
 
-_Power of the Marid (Su)_: At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_ as a spell-like ability. Such wishes must begin with the words âI wish,â and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.
+_Power of the Marid (Su)_: At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _ [limited wish](spells/limitedWish.md#_limited-wish)_ as a spell-like ability. Such wishes must begin with the words “I wish,” and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.
 
-You become immune to cold damage, and can use _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ once per day to travel to or from the Plane of Water.
+You become immune to cold damage, and can use _ [plane shift](spells/planeShift.md#_plane-shift)_ once per day to travel to or from the Plane of Water.
 
 ## Rakshasa
 
 At some point in your family's history, one of your ancestors was tainted by the influence of a rakshasa. Though most of your family seem entirely normal, you have always felt your own skin is a prison from which magic allows you to escape. Your birthright is a secret you may be forced to keep from societies that would never deal with you if your heritage were known.
 
-**Class Skill** : [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise).
+**Class Skill** : [Disguise](skills/disguise.md#_disguise).
 
-**Bonus Spells** : _ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (3rd), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ (5th), _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (7th), _ [detect scrying](/pathfinderRPG/prd/spells/detectScrying.html#_detect-scrying)_ (9th), _ [prying eyes](/pathfinderRPG/prd/spells/pryingEyes.html#_prying-eyes)_ (11th), _ [mass suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass)_ (13th), _ [greater polymorph](/pathfinderRPG/prd/spells/polymorph.html#_polymorph-greater)_ (15th), _ [mind blank](/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank)_ (17th), _ [dominate monster](/pathfinderRPG/prd/spells/dominateMonster.html#_dominate-monster)_ (19th).
+**Bonus Spells** : _ [charm person](spells/charmPerson.md#_charm-person)_ (3rd), _ [invisibility](spells/invisibility.md#_invisibility)_ (5th), _ [suggestion](spells/suggestion.md#_suggestion)_ (7th), _ [detect scrying](spells/detectScrying.md#_detect-scrying)_ (9th), _ [prying eyes](spells/pryingEyes.md#_prying-eyes)_ (11th), _ [mass suggestion](spells/suggestion.md#_suggestion-mass)_ (13th), _ [greater polymorph](spells/polymorph.md#_polymorph-greater)_ (15th), _ [mind blank](spells/mindBlank.md#_mind-blank)_ (17th), _ [dominate monster](spells/dominateMonster.md#_dominate-monster)_ (19th).
 
-**Bonus Feats** : [Arcane Armor Mastery](/pathfinderRPG/prd/feats.html#_arcane-armor-mastery), [Arcane Armor Training](/pathfinderRPG/prd/feats.html#_arcane-armor-training), Deceitful, [Detect Expertise](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_detect-expertise), Empower Spell, Light Armor Proficiency, [Martial Weapon Proficiency](/pathfinderRPG/prd/feats.html#_martial-weapon-proficiency), [Stealthy](/pathfinderRPG/prd/feats.html#_stealthy).
+**Bonus Feats** : [Arcane Armor Mastery](feats.md#_arcane-armor-mastery), [Arcane Armor Training](feats.md#_arcane-armor-training), Deceitful, [Detect Expertise](ultimateMagic/ultimateMagicFeats.md#_detect-expertise), Empower Spell, Light Armor Proficiency, [Martial Weapon Proficiency](feats.md#_martial-weapon-proficiency), [Stealthy](feats.md#_stealthy).
 
-**Bloodline Arcana** : Add half your sorcerer level to the [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) DC for others to identify spells you cast. If their checks fail by 5 or more, they mistakenly believe you are casting an entirely different spell (selected by you when you begin casting).
+**Bloodline Arcana** : Add half your sorcerer level to the [Spellcraft](skills/spellcraft.md#_spellcraft) DC for others to identify spells you cast. If their checks fail by 5 or more, they mistakenly believe you are casting an entirely different spell (selected by you when you begin casting).
 
 **Bloodline Powers** : You can call upon the nearly divine power of your rakshasa ancestors, giving you the power to convincingly deceive your enemies.
 
-_Silver Tongue (Su)_: At 1st level, you can draw upon your outsider heritage to spin amazingly convincing lies. Activating this ability is a swift action. You gain a +5 bonus on one [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) check made to convince another of the truth of your words (similar to using _ [glibness](/pathfinderRPG/prd/spells/glibness.html#_glibness)_). If a magical effect is used against you that would detect your lies or force you to speak the truth, the user of the effect must succeed on a caster level check (DC 10 + your sorcerer level) to succeed. Failure means the effect does not detect your lies or force you to speak only the truth. You can use this ability a number of times per day equal to 3 + your Charisma modifier.
+_Silver Tongue (Su)_: At 1st level, you can draw upon your outsider heritage to spin amazingly convincing lies. Activating this ability is a swift action. You gain a +5 bonus on one [Bluff](skills/bluff.md#_bluff) check made to convince another of the truth of your words (similar to using _ [glibness](spells/glibness.md#_glibness)_). If a magical effect is used against you that would detect your lies or force you to speak the truth, the user of the effect must succeed on a caster level check (DC 10 + your sorcerer level) to succeed. Failure means the effect does not detect your lies or force you to speak only the truth. You can use this ability a number of times per day equal to 3 + your Charisma modifier.
 
-_Mind Reader (Sp)_: At 3rd level, you can read minds as a spell-like ability. This ability acts like _ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_, except it lasts only 1 round, you use it on a single target as a standard action, and if the target fails its Will save, you gain information as if you had concentrated on it for 3 rounds. You may use this ability once per day at 3rd level and one additional time per day for every four sorcerer levels you possess beyond 3rd, up to five times per day at 20th level.
+_Mind Reader (Sp)_: At 3rd level, you can read minds as a spell-like ability. This ability acts like _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_, except it lasts only 1 round, you use it on a single target as a standard action, and if the target fails its Will save, you gain information as if you had concentrated on it for 3 rounds. You may use this ability once per day at 3rd level and one additional time per day for every four sorcerer levels you possess beyond 3rd, up to five times per day at 20th level.
 
-_Hide Aura (Sp)_: At 9th level, you can conceal yourself from prying magic. This ability acts like a constant _ [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection)_ spell cast upon yourself. You can end or restore this protection as a move action.
+_Hide Aura (Sp)_: At 9th level, you can conceal yourself from prying magic. This ability acts like a constant _ [nondetection](spells/nondetection.md#_nondetection)_ spell cast upon yourself. You can end or restore this protection as a move action.
 
-_Alter Self (Sp)_: At 15th level, you can change your shape into that of any humanoid at will. This ability acts like _ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_, except you may remain in a chosen form as long as you want.
+_Alter Self (Sp)_: At 15th level, you can change your shape into that of any humanoid at will. This ability acts like _ [alter self](spells/alterSelf.md#_alter-self)_, except you may remain in a chosen form as long as you want.
 
-_Outsider (Su)_: At 20th level, your natural form becomes an animal-headed humanoid, like a true rakshasa. This does not affect your ability to speak or cast spells. You can use your _ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_ or other disguise and polymorph abilities to assume your original form or other forms when it suits you. You are forevermore treated as a native outsider rather than as a humanoid (or whatever your original type was) for the purpose of spells and other magical effects. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type. You gain DR 10/piercing.
+_Outsider (Su)_: At 20th level, your natural form becomes an animal-headed humanoid, like a true rakshasa. This does not affect your ability to speak or cast spells. You can use your _ [alter self](spells/alterSelf.md#_alter-self)_ or other disguise and polymorph abilities to assume your original form or other forms when it suits you. You are forevermore treated as a native outsider rather than as a humanoid (or whatever your original type was) for the purpose of spells and other magical effects. Unlike other outsiders, you can still be brought back from the dead as if you were a member of your previous creature type. You gain DR 10/piercing.
 
 ## Shaitan
 
 You were born with the power of earth genies, and the magic of the shaitans is strong in you.
 
-**Class Skill** : [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes).
+**Class Skill** : [Knowledge](skills/knowledge.md#_knowledge) (planes).
 
-**Bonus Spells** : _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_ (3rd), _ [glitterdust](/pathfinderRPG/prd/spells/glitterdust.html#_glitterdust)_ (5th), _ [greater magic weapon](/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater)_ (7th), _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_ (9th), _ [wall of stone](/pathfinderRPG/prd/spells/wallOfStone.html#_wall-of-stone)_ (11th), _ [wall of iron](/pathfinderRPG/prd/spells/wallOfIron.html#_wall-of-iron)_ (13th), _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ (15th), _ [iron body](/pathfinderRPG/prd/spells/ironBody.html#_iron-body)_ (17th), _ [wish](/pathfinderRPG/prd/spells/wish.html#_wish)_ (19th).
+**Bonus Spells** : _ [true strike](spells/trueStrike.md#_true-strike)_ (3rd), _ [glitterdust](spells/glitterdust.md#_glitterdust)_ (5th), _ [greater magic weapon](spells/magicWeapon.md#_magic-weapon-greater)_ (7th), _ [stoneskin](spells/stoneskin.md#_stoneskin)_ (9th), _ [wall of stone](spells/wallOfStone.md#_wall-of-stone)_ (11th), _ [wall of iron](spells/wallOfIron.md#_wall-of-iron)_ (13th), _ [plane shift](spells/planeShift.md#_plane-shift)_ (15th), _ [iron body](spells/ironBody.md#_iron-body)_ (17th), _ [wish](spells/wish.md#_wish)_ (19th).
 
-**Bonus Feats** : [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Empower Spell](/pathfinderRPG/prd/feats.html#_empower-spell), [Great Fortitude](/pathfinderRPG/prd/feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) [planes]), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse).
+**Bonus Feats** : [Dodge](feats.md#_dodge), [Empower Spell](feats.md#_empower-spell), [Great Fortitude](feats.md#_great-fortitude), [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Skill Focus](feats.md#_skill-focus) ( [Knowledge](skills/knowledge.md#_knowledge) [planes]), [Weapon Finesse](feats.md#_weapon-finesse).
 
 **Bloodline Arcana** : Whenever you cast a spell that deals energy damage, you can change the type of damage to acid. This effect also changes the spell's descriptors to match this energy type.
 
@@ -172,15 +172,15 @@ You were born with the power of earth genies, and the magic of the shaitans is s
 
 _Acid Ray (Sp)_: Starting at 1st level, you can unleash an elemental ray as a standard action, targeting any foe within 30 feet as a ranged touch attack. This ray deals 1d6 points of acid damage + 1 for every two sorcerer levels you possess. You can use this ability a number of times per day equal to 3 + your Charisma modifier.
 
-_Elemental [Resistance](/pathfinderRPG/prd/spells/resistance.html#_resistance) (Ex)_: At 3rd level, you gain acid resistance 10. At 9th level, your acid resistance increases to 20.
+_Elemental [Resistance](spells/resistance.md#_resistance) (Ex)_: At 3rd level, you gain acid resistance 10. At 9th level, your acid resistance increases to 20.
 
 _Avalanche (Su)_: At 9th level, whenever you hit a single target with a spell that deals damage, you may make a bull rush check as a swift action. Your CMB for this maneuver is equal to your sorcerer caster level + your Charisma bonus. You can make this maneuver even if the target is not in melee range, and you do not provoke an attack of opportunity for making this maneuver. If the target is in contact with earth, stone, or rock, you gain a +4 bonus on your CMB check.
 
 _Elemental Movement (Su)_: At 15th level, you gain a burrow speed of 30 feet.
 
-_Power of the Shaitan (Su)_: At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _ [limited wish](/pathfinderRPG/prd/spells/limitedWish.html#_limited-wish)_ as a spell-like ability. Such wishes must begin with the words âI wish,â and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.
+_Power of the Shaitan (Su)_: At 20th level, you gain the power of genies to grant wishes. Once per day, you can cast _ [limited wish](spells/limitedWish.md#_limited-wish)_ as a spell-like ability. Such wishes must begin with the words “I wish,” and cannot duplicate a wish you have granted within the past 24 hours. If you use this ability to duplicate a spell with a costly material component, you must provide that component.
 
-You become immune to acid damage, and can use _ [plane shift](/pathfinderRPG/prd/spells/planeShift.html#_plane-shift)_ once per day to travel to or from the Plane of Earth.
+You become immune to acid damage, and can use _ [plane shift](spells/planeShift.md#_plane-shift)_ once per day to travel to or from the Plane of Earth.
 
 # Crossblooded (Archetype)
 
@@ -192,7 +192,7 @@ A crossblooded sorcerer selects two different bloodlines. The sorcerer may gain 
 
 **Bonus Spells** : A crossblooded sorcerer may select her bonus spells from either of her bloodlines. The sorcerer also has the choice to learn a lower-level bonus spell she did not choose in place of the higher-level bonus spell she would normally gain. Lower-level bonus spells learned this way always use the spell level that they would be if the sorcerer had learned them with the appropriate bonus spell.
 
-_Example_: A 3rd-level aberrant/abyssal crossblooded sorcerer has the choice of learning _ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ or _ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_ as her bloodline bonus spell. If she selected _ [cause fear](/pathfinderRPG/prd/spells/causeFear.html#_cause-fear)_ as her 3rd-level bonus spell, at 5th level she could use her new bonus spell to learn _ [enlarge person](/pathfinderRPG/prd/spells/enlargePerson.html#_enlarge-person)_ instead of _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_ or _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_, and she would add it to her list of 1st-level spells known (just as if she had learned it as her 3rd-level bonus spell).
+_Example_: A 3rd-level aberrant/abyssal crossblooded sorcerer has the choice of learning _ [cause fear](spells/causeFear.md#_cause-fear)_ or _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_ as her bloodline bonus spell. If she selected _ [cause fear](spells/causeFear.md#_cause-fear)_ as her 3rd-level bonus spell, at 5th level she could use her new bonus spell to learn _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_ instead of _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_ or _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, and she would add it to her list of 1st-level spells known (just as if she had learned it as her 3rd-level bonus spell).
 
 **Bonus Feat** : A crossblooded sorcerer combines the bonus feat lists from both of her bloodlines and may select her bloodline bonus feats from this combined list.
 
@@ -200,7 +200,7 @@ _Example_: A 3rd-level aberrant/abyssal crossblooded sorcerer has the choice of 
 
 **Bloodline Powers** : At 1st, 3rd, 9th, 15th, and 20th levels, a crossblooded sorcerer gains one of the two new bloodline powers available to her at that level. She may instead select a lower-level bloodline power she did not choose in place of one of these higher-level powers.
 
-**Drawbacks** : A crossblooded sorcerer has one fewer spell known at each level (including cantrips) than is presented on the [sorcerer spells known table](/pathfinderRPG/prd/classes/sorcerer.html#_table-3-15-sorcerer-spells-known). Furthermore, the conflicting urges created by the divergent nature of the crossblooded sorcerer's dual heritage forces her to constantly take some mental effort just to remain focused on her current situation and needs. This leaves her with less mental resolve to deal with external threats. A crossblooded sorcerer always takes a –2 penalty on Will saves.
+**Drawbacks** : A crossblooded sorcerer has one fewer spell known at each level (including cantrips) than is presented on the [sorcerer spells known table](classes/sorcerer.md#_table-3-15-sorcerer-spells-known). Furthermore, the conflicting urges created by the divergent nature of the crossblooded sorcerer's dual heritage forces her to constantly take some mental effort just to remain focused on her current situation and needs. This leaves her with less mental resolve to deal with external threats. A crossblooded sorcerer always takes a –2 penalty on Will saves.
 
 # Wildblooded (Archetype)
 
@@ -228,7 +228,7 @@ Your magic is more focused on the power of air and rain than on lightning and th
 
 **Bloodline Powers** : The greatest storms bring ruin through wind, not electricity.
 
-_Windcaller (Sp)_: At 9th level, you can call the winds to obey your commands for 1 minute per level. This functions like _ [control winds](/pathfinderRPG/prd/spells/controlWinds.html#_control-winds)_, except that you may choose to be immune to any increased wind effects you create. The ability's duration does not need to be consecutive, but it must be used in 1-minute increments. This bloodline power replaces thunderbolt.
+_Windcaller (Sp)_: At 9th level, you can call the winds to obey your commands for 1 minute per level. This functions like _ [control winds](spells/controlWinds.md#_control-winds)_, except that you may choose to be immune to any increased wind effects you create. The ability's duration does not need to be consecutive, but it must be used in 1-minute increments. This bloodline power replaces thunderbolt.
 
 ## Bedrock
 
@@ -260,7 +260,7 @@ Your heavenly power derives from insight rather than force of personality.
 
 **Associated Bloodline** : Celestial.
 
-**Bloodline Arcana** : Unlike most sorcerers whose innate magic is powered by force of personality, you use pure willpower to master and fuel your magic. You use your Wisdom, rather than your Charisma, to determine all class features and effects relating to your sorcerer class, such as bonus spells per day, maximum spell level you can cast, and the save DCs of your spells. You gain a +2 bonus on all [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) and [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) checks.
+**Bloodline Arcana** : Unlike most sorcerers whose innate magic is powered by force of personality, you use pure willpower to master and fuel your magic. You use your Wisdom, rather than your Charisma, to determine all class features and effects relating to your sorcerer class, such as bonus spells per day, maximum spell level you can cast, and the save DCs of your spells. You gain a +2 bonus on all [Heal](skills/heal.md#_heal) and [Knowledge](skills/knowledge.md#_knowledge) (religion) checks.
 
 **Bloodline Powers** : Your quasi-divine nature gives you strange powers.
 
@@ -272,11 +272,11 @@ The ophidian source of your bloodline has more to do with stealth and assassinat
 
 **Associated Bloodline** : Serpentine.
 
-**Bloodline Arcana** : You gain a +2 bonus on [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb), and [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks.
+**Bloodline Arcana** : You gain a +2 bonus on [Acrobatics](skills/acrobatics.md#_acrobatics), [Climb](skills/climb.md#_climb), and [Stealth](skills/stealth.md#_stealth) checks.
 
 **Bloodline Powers** : The stink of poison taints your magic.
 
-_Envenom (Su)_: At 3rd level, as a swift action, you can lick or bite a melee weapon to imbue it with 1 dose of [black adder venom](/pathfinderRPG/prd/glossary.html#_black-adder-venom). The poison's DC is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. You may use this ability once per day at 3rd level, and one additional time per day for every three additional levels. The poison cannot be removed or stored, and the weapon loses the benefit of the poison after the first successful attack or 1 hour has passed. The bloodline power replaces serpentfriend.
+_Envenom (Su)_: At 3rd level, as a swift action, you can lick or bite a melee weapon to imbue it with 1 dose of [black adder venom](glossary.md#_black-adder-venom). The poison's DC is equal to 10 + 1/2 your sorcerer level + your Charisma modifier. You may use this ability once per day at 3rd level, and one additional time per day for every three additional levels. The poison cannot be removed or stored, and the weapon loses the benefit of the poison after the first successful attack or 1 hour has passed. The bloodline power replaces serpentfriend.
 
 ## Groveborn
 
@@ -320,7 +320,7 @@ Your diabolic corruption is from a source in the deepest parts of Hell.
 
 **Associated Bloodline** : Infernal.
 
-**Bloodline Arcana** : Whenever you cast a spell, you gain a bonus on [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) checks equal to the spell's level for 1 round.
+**Bloodline Arcana** : Whenever you cast a spell, you gain a bonus on [Intimidate](skills/intimidate.md#_intimidate) checks equal to the spell's level for 1 round.
 
 **Bloodline Powers** : The crushing weight of evil has given you the strength to endure.
 
@@ -356,7 +356,7 @@ Scholars of the arcane are always creating new means to use magic.
 
 **Associated Bloodline** : Arcane.
 
-**Bloodline Arcana** : Unlike most sorcerers, whose innate magic is powered by force of personality, you use your intellect to understand and master your mystic powers. You use your Intelligence, rather than your Charisma, to determine all class features and effects relating to your sorcerer class, such as bonus spells per day, the maximum spell level you can cast, the save DCs of your spells, and the number of daily uses of your bloodline powers. You gain a +2 bonus on all [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) and [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) checks.
+**Bloodline Arcana** : Unlike most sorcerers, whose innate magic is powered by force of personality, you use your intellect to understand and master your mystic powers. You use your Intelligence, rather than your Charisma, to determine all class features and effects relating to your sorcerer class, such as bonus spells per day, the maximum spell level you can cast, the save DCs of your spells, and the number of daily uses of your bloodline powers. You gain a +2 bonus on all [Knowledge](skills/knowledge.md#_knowledge) (arcana) and [Spellcraft](skills/spellcraft.md#_spellcraft) checks.
 
 **Bloodline Powers** : Your preferred focus is a bolt of mind-spun magic.
 
@@ -398,7 +398,7 @@ Your ties to nature have more to do with creatures than with capriciousness.
 
 _Animal Companion (Ex)_: You gain an animal companion. Your effective druid level for this ability is equal to your sorcerer level – 3 (minimum 1st). This bloodline power counts as your bloodline arcana and also replaces laughing touch.
 
-_Fey Wings (Su)_: At 15th level, you can grow insectlike wings from your back and become one size category smaller (as if you had used _ [reduce person](/pathfinderRPG/prd/spells/reducePerson.html#_reduce-person)_), gaining a fly speed of 60 feet with average maneuverability. You can maintain this form for 1 minute per level. This duration does not need to be consecutive, but it must be used in 1-minute increments. This bloodline power replaces fey magic.
+_Fey Wings (Su)_: At 15th level, you can grow insectlike wings from your back and become one size category smaller (as if you had used _ [reduce person](spells/reducePerson.md#_reduce-person)_), gaining a fly speed of 60 feet with average maneuverability. You can maintain this form for 1 minute per level. This duration does not need to be consecutive, but it must be used in 1-minute increments. This bloodline power replaces fey magic.
 
 ## Umbral
 
@@ -410,7 +410,7 @@ Your nature is to gather the darkness into yourself.
 
 **Bloodline Powers** : Your shadow magic is more defensive than offensive.
 
-_Cloak of Shadows (Sp)_: At 1st level, as a standard action, you can grant one target a cloak of shadows. This cloak gives the target a bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks made in areas of dim or no light equal to 1/2 your sorcerer level for 1 round per 2 sorcerer levels you possess (minimum +1 bonus for 1 round). You may use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces shadowstrike.
+_Cloak of Shadows (Sp)_: At 1st level, as a standard action, you can grant one target a cloak of shadows. This cloak gives the target a bonus on [Stealth](skills/stealth.md#_stealth) checks made in areas of dim or no light equal to 1/2 your sorcerer level for 1 round per 2 sorcerer levels you possess (minimum +1 bonus for 1 round). You may use this ability a number of times per day equal to 3 + your Charisma modifier. This bloodline power replaces shadowstrike.
 
 ## Visionary
 
@@ -422,7 +422,7 @@ Your dream-magic strongly influences the waking world.
 
 **Bloodline Powers** : Your dreams hint at the future.
 
-_Visions (Sp)_: At 9th level, when you sleep, you can gain information through prophetic visions. Once per day when sleeping, you may gain information about actions taken in the next week as if you had cast a _ [divination](/pathfinderRPG/prd/spells/divination.html#_divination)_ spell. You can gain information about a single question at 9th level. At 17th level, you can have two questions answered while you sleep, and at 20th level, three questions. This bloodline power replaces dreamshaper.
+_Visions (Sp)_: At 9th level, when you sleep, you can gain information through prophetic visions. Once per day when sleeping, you may gain information about actions taken in the next week as if you had cast a _ [divination](spells/divination.md#_divination)_ spell. You can gain information about a single question at 9th level. At 17th level, you can have two questions answered while you sleep, and at 20th level, three questions. This bloodline power replaces dreamshaper.
 
 ## Void-Touched
 
@@ -430,13 +430,13 @@ The darkness between the stars calls to you.
 
 **Associated Bloodline** : Starsoul.
 
-**Bloodline Arcana** : Whenever you cast an evocation spell, you may select one affected target that fails its save to suffer the choking airlessness of the void, silencing it (as _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_, but affecting only the target) for 1 round. This is a supernatural ability.
+**Bloodline Arcana** : Whenever you cast an evocation spell, you may select one affected target that fails its save to suffer the choking airlessness of the void, silencing it (as _ [silence](spells/silence.md#_silence)_, but affecting only the target) for 1 round. This is a supernatural ability.
 
 **Bloodline Powers** : Your magic is blacker than any night.
 
 _Black Motes (Sp)_: This ability works exactly like (and replaces) minute meteors, except it deals cold damage.
 
-_Voidfield (Sp)_: At 9th level, you can create an area influenced by the black void. This ability acts as an _ [ice storm](/pathfinderRPG/prd/spells/iceStorm.html#_ice-storm)_, except the area is also subject to _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_ for 1 round per four sorcerer levels. You may use this ability once per day at 3rd level, and one additional time per day for every three additional levels. The bloodline power replaces aurora borealis.
+_Voidfield (Sp)_: At 9th level, you can create an area influenced by the black void. This ability acts as an _ [ice storm](spells/iceStorm.md#_ice-storm)_, except the area is also subject to _ [deeper darkness](spells/deeperDarkness.md#_deeper-darkness)_ for 1 round per four sorcerer levels. You may use this ability once per day at 3rd level, and one additional time per day for every three additional levels. The bloodline power replaces aurora borealis.
 
 ## Warped
 
@@ -453,18 +453,18 @@ _Warp Touch (Sp)_: Starting at 1st level, you create brief, disorienting changes
 [Table: Warped Polymorph Benefits]
 | d12 | Effect |
 | --- | --- |
-| 1 | Double-Jointed: +2 on [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) checks. |
-| 2 | Webbed Digits: +2 on [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) checks. |
-| 3 | Iron Grip: +2 on [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks and to CMD against disarm maneuvers. |
-| 4 | Bug Eyes: +2 on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks. |
-| 5 | Camouflage: +2 on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks. |
+| 1 | Double-Jointed: +2 on [Escape Artist](skills/escapeArtist.md#_escape-artist) checks. |
+| 2 | Webbed Digits: +2 on [Swim](skills/swim.md#_swim) checks. |
+| 3 | Iron Grip: +2 on [Climb](skills/climb.md#_climb) checks and to CMD against disarm maneuvers. |
+| 4 | Bug Eyes: +2 on [Perception](skills/perception.md#_perception) checks. |
+| 5 | Camouflage: +2 on [Stealth](skills/stealth.md#_stealth) checks. |
 | 6 | Tough Hide: +1 natural armor bonus. |
 | 7 | Hardy: +1 on Fortitude saving throws. |
 | 8 | Lively: +1 on Reflex saving throws. |
 | 9 | Astute: +1 on Will saves. |
 | 10 | Quick: +5 ft. movement rate. |
 | 11 | Vicious: +1 on melee attack rolls. |
-| 12 | [Eagle Eyes](/pathfinderRPG/prd/advanced/advancedFeats.html#_eagle-eyes): +1 on ranged attack rolls. |
+| 12 | [Eagle Eyes](advanced/advancedFeats.md#_eagle-eyes): +1 on ranged attack rolls. |
 
   
   

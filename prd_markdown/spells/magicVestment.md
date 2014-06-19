@@ -12,9 +12,9 @@
 
 **Duration** 1 hour/level
 
-**Saving Throw** [Will](../combat.html#_will) negates (harmless, object); **[Spell Resistance](../glossary.html#_spell-resistance)** yes (harmless, object)
+**Saving Throw** [Will](../combat.md#_will) negates (harmless, object); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless, object)
 
 You imbue a suit of armor or a shield with an enhancement bonus of +1 per four caster levels (maximum +5 at 20th level).
 
-An outfit of regular clothing counts as armor that grants no [AC](../combat.html#_armor-class) bonus for the purpose of this spell.
+An outfit of regular clothing counts as armor that grants no [AC](../combat.md#_armor-class) bonus for the purpose of this spell.
 

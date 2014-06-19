@@ -32,7 +32,7 @@ Catfolk prefer to be led by their most competent members, usually a council of s
 
 **Cat's Luck (Ex)** : Once per day when a catfolk makes a Reflex saving throw, he can roll the saving throw twice and take the better result. He must decide to use this ability before the saving throw is attempted.
 
-**Natural Hunter** : Catfolk receive a +2 racial bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth), and [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) checks.
+**Natural Hunter** : Catfolk receive a +2 racial bonus on [Perception](skills/perception.md#_perception), [Stealth](skills/stealth.md#_stealth), and [Survival](skills/survival.md#_survival) checks.
 
 **Sprinter** : Catfolk gain a 10-foot racial bonus to their speed when using the charge, run, or withdraw actions.
 
@@ -44,11 +44,11 @@ The following racial traits may be selected instead of typical catfolk racial tr
 
 **Cat's Claws** : Some catfolk have stronger and more developed claws than other members of their race, and can use them to make attacks. Catfolk with this racial trait have a pair of claws they can use as natural weapons. These claws are primary attacks that deal 1d4 points of damage. This racial trait replaces natural hunter.
 
-**Clever Cat** : Catfolk's generally friendly disposition doesn't preclude craftiness. Some of them see social obstacles as games to be played and won. These catfolk receive a +2 racial bonus on [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy), and [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) checks. This racial trait replaces natural hunter.
+**Clever Cat** : Catfolk's generally friendly disposition doesn't preclude craftiness. Some of them see social obstacles as games to be played and won. These catfolk receive a +2 racial bonus on [Bluff](skills/bluff.md#_bluff), [Diplomacy](skills/diplomacy.md#_diplomacy), and [Sense Motive](skills/senseMotive.md#_sense-motive) checks. This racial trait replaces natural hunter.
 
-**Climber** : Catfolk hunters excel at hunting prey from trees and other high vantage points. Catfolk with this racial trait possess a climb speed of 20 feet (along with the +8 racial bonus on [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks a climb speed affords). This racial trait replaces sprinter.
+**Climber** : Catfolk hunters excel at hunting prey from trees and other high vantage points. Catfolk with this racial trait possess a climb speed of 20 feet (along with the +8 racial bonus on [Climb](skills/climb.md#_climb) checks a climb speed affords). This racial trait replaces sprinter.
 
-**Curiosity** : Catfolk are naturally inquisitive about the world around them, though some are more curious than others. Such catfolk gain a +4 bonus on [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) checks to gather information, and [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) and [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) are always class skills for them. If they choose a class that has either of these [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) skills as class skills, they gain a +2 racial bonus on those skills instead. This racial trait replaces natural hunter.
+**Curiosity** : Catfolk are naturally inquisitive about the world around them, though some are more curious than others. Such catfolk gain a +4 bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) checks to gather information, and [Knowledge](skills/knowledge.md#_knowledge) (history) and [Knowledge](skills/knowledge.md#_knowledge) (local) are always class skills for them. If they choose a class that has either of these [Knowledge](skills/knowledge.md#_knowledge) skills as class skills, they gain a +2 racial bonus on those skills instead. This racial trait replaces natural hunter.
 
 **Nimble Faller** : Some catfolk have an amazing sense of balance and keen knowledge of their own center of gravity. Catfolk with this trait land on their feet even when they take lethal damage from a fall. Furthermore, catfolk with this trait gain a +1 bonus to their CMD against trip maneuvers. This racial trait replaces sprinter.
 
@@ -66,9 +66,9 @@ The following options are available to all catfolk who have the listed favored c
 
 **Oracle** : Add one spell known from the oracle spell list. This spell must be at least one level below the highest spell level the oracle can cast.
 
-**Ranger** : Choose a weapon from the following list: claws, kukri, longbow, longsword, short spear, or shortbow. Add +1/2 on critical hit confirmation rolls made while using that weapon (maximum bonus of +4). This bonus does not stack with [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus).
+**Ranger** : Choose a weapon from the following list: claws, kukri, longbow, longsword, short spear, or shortbow. Add +1/2 on critical hit confirmation rolls made while using that weapon (maximum bonus of +4). This bonus does not stack with [Critical Focus](feats.md#_critical-focus).
 
-**Rogue** : Add a +1/2 bonus on [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) checks to feint and Sleight of Hands checks to pickpocket.
+**Rogue** : Add a +1/2 bonus on [Bluff](skills/bluff.md#_bluff) checks to feint and Sleight of Hands checks to pickpocket.
 
 **Sorcerer** : Select one bloodline power at 1st level that is normally usable a number of times equal to 3 + the sorcerer's Charisma modifier. The sorcerer adds + 1/2 to the number of uses per day of that bloodline power.
 
@@ -80,7 +80,7 @@ The following racial archetypes are available to catfolk.
 
 Gifted with finesse and stealth, catfolk make excellent burglars. Cat burglars are masters of breaking and entering, using their feline grace to make it seem as though no crime was ever committed in the first place. Few locks can withstand skilled cat burglars, and such nimble rogues are capable of bypassing traps without activating them and enabling associates to do the same. A cat burglar has the following class features.
 
-**Phantom Presence (Ex)** : At 4th level, a cat burglar masters stealthy movement and leaves no trace of her passing in dungeons and cities. While in dungeon and urban environments, she leaves no trail and cannot be tracked, though she can choose to leave behind a trail if she so desires. Furthermore, she can always choose to take 10 when making a [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) check. This ability replaces uncanny dodge.
+**Phantom Presence (Ex)** : At 4th level, a cat burglar masters stealthy movement and leaves no trace of her passing in dungeons and cities. While in dungeon and urban environments, she leaves no trail and cannot be tracked, though she can choose to leave behind a trail if she so desires. Furthermore, she can always choose to take 10 when making a [Stealth](skills/stealth.md#_stealth) check. This ability replaces uncanny dodge.
 
 **Trap Saboteur (Su)** : At 8th level, a cat burglar becomes a master of avoiding and manipulating traps and locks. She can attempt to open a lock as a standard action and takes 1/2 the normal amount of time to disable traps (minimum 1 round) . When she has bypassed a trap without disarming it, she can also choose to suppress its trigger for up to 1 minute. If she does, she can also choose to end this suppression prematurely as a free action. This ability replaces uncanny dodge.
 
@@ -98,7 +98,7 @@ Some catfolk monks dedicate their graceful prowess to the defense of others, esp
 
 **Defensive Mastery (Ex)** : At 5th level, a nimble guardian gains 3 additional uses of her defensive aid ability per day. Furthermore, if an ally that gained the benefit of a use of defensive aid succeeds her Reflex saving throw, and the effect still deals damage on a successful saving throw, the nimble guardian can spend 1 _ki_ point to negate that damage. Doing so is not an action. This ability replaces purity of body.
 
-**Guardian Feline (Su)** : At 7th level, a nimble guardian can transform himself into a feline creature by spending 2 _ki_ points. The effect lasts for 1 hour or until the nimble guardian changes back. Changing form (to animal or back) is a standard action and does not provoke an attack of opportunity. The chosen form must be some form of feline (cheetah, lion, etc.). This ability is otherwise identical to _ [beast shape II](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-ii)_. At 9th level, this ability functions as _ [beast shape III](/pathfinderRPG/prd/spells/beastShape.html#_beast-shape-iii)._ This ability replaces wholeness of body.
+**Guardian Feline (Su)** : At 7th level, a nimble guardian can transform himself into a feline creature by spending 2 _ki_ points. The effect lasts for 1 hour or until the nimble guardian changes back. Changing form (to animal or back) is a standard action and does not provoke an attack of opportunity. The chosen form must be some form of feline (cheetah, lion, etc.). This ability is otherwise identical to _ [beast shape II](spells/beastShape.md#_beast-shape-ii)_. At 9th level, this ability functions as _ [beast shape III](spells/beastShape.md#_beast-shape-iii)._ This ability replaces wholeness of body.
 
 **Evasion (Ex)** : At 9th level, a nimble guardian gains evasion. This ability replaces improved evasion.
 
@@ -112,9 +112,9 @@ Catfolk have access to the following equipment.
 
 **Claw Blades** : These subtle blades can only be used by catfolk with the cat's claws racial trait. Bought in a set of five, they fit over the wearer's claws on one hand. The blades grant the wearer a +1 enhancement bonus on claw attack rolls with that hand and change the weapon type from a natural weapon to a light slashing weapon. Catfolk with the cat's claws racial trait are proficient with this weapon. The claw blades can be enhanced like a masterwork weapon for the normal costs. The listed cost of the item is for one set of five claws for one hand.
 
-**Softpaw Boots** : These soft and subtle boots are constructed of silk and specially cured leather. They are specially designed for catfolk feet. They work with the feline structure of the race's feet to soften footfalls and to reduce the imprints of their tracks. While wearing softpaw boots, a catfolk gains a +1 circumstance bonus on [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks. Furthermore, the DC to notice or follow the tracks of a catfolk wearing softpaw boots increases by +2.
+**Softpaw Boots** : These soft and subtle boots are constructed of silk and specially cured leather. They are specially designed for catfolk feet. They work with the feline structure of the race's feet to soften footfalls and to reduce the imprints of their tracks. While wearing softpaw boots, a catfolk gains a +1 circumstance bonus on [Stealth](skills/stealth.md#_stealth) checks. Furthermore, the DC to notice or follow the tracks of a catfolk wearing softpaw boots increases by +2.
 
-**Trailscent Kit** : This small box of specially prepared catfolk pheromones and alchemical reagents can be used to leave a small group of subtle but long-lasting scents that only catfolk can smell and decipher. Given a minute, a catfolk can create a scent mixture and apply it to a solid object, such as a tree, a wall, or even a smaller item such as a weapon or potion vial. When the catfolk does this, it leaves one of the following scent impressions: danger, food, shelter, or possession. The possession impression is always keyed to the specific catfolk using the kit, and signifies that she owns the territory or item. Other races can attempt to use this kit to create the danger, food, or shelter impression, but doing so requires a successful DC 20 [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) check. A catfolk can detect a particular scent applied with a trailscent kit from 30 feet away. If the scent is upwind, the range at which a catfolk can detect the scent increases to 60 feet; if it is downwind, the range drops to 15 feet. A catfolk with the scent racial quality doubles those distances. A scent impression lasts for 1 year or until it is washed away. Each kit has 10 uses.
+**Trailscent Kit** : This small box of specially prepared catfolk pheromones and alchemical reagents can be used to leave a small group of subtle but long-lasting scents that only catfolk can smell and decipher. Given a minute, a catfolk can create a scent mixture and apply it to a solid object, such as a tree, a wall, or even a smaller item such as a weapon or potion vial. When the catfolk does this, it leaves one of the following scent impressions: danger, food, shelter, or possession. The possession impression is always keyed to the specific catfolk using the kit, and signifies that she owns the territory or item. Other races can attempt to use this kit to create the danger, food, or shelter impression, but doing so requires a successful DC 20 [Craft](skills/craft.md#_craft) (alchemy) check. A catfolk can detect a particular scent applied with a trailscent kit from 30 feet away. If the scent is upwind, the range at which a catfolk can detect the scent increases to 60 feet; if it is downwind, the range drops to 15 feet. A catfolk with the scent racial quality doubles those distances. A scent impression lasts for 1 year or until it is washed away. Each kit has 10 uses.
 
 [Catfolk Equipment]
 | Item | Cost | Weight | Craft DC |
@@ -133,7 +133,7 @@ The following rogue talents can only be taken by catfolk.
 
 **Graceful Faller (Ex)** : A catfolk rogue with this talent lands on her feet even when she takes lethal damage from a fall. If the catfolk rogue also has the nimble faller racial trait, she takes damage from any fall as if it were 20 feet shorter than it actually is.
 
-**Nimble Climber (Ex)** : A catfolk rogue with this talent gains a +4 bonus on [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks. If she has the climber racial trait, she can take 10 on her [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks even when in immediate danger or distracted.
+**Nimble Climber (Ex)** : A catfolk rogue with this talent gains a +4 bonus on [Climb](skills/climb.md#_climb) checks. If she has the climber racial trait, she can take 10 on her [Climb](skills/climb.md#_climb) checks even when in immediate danger or distracted.
 
 **Single-Minded Appraiser (Ex)** : A catfolk rogue with this talent is skilled at determining the value of sparkly things. She can always take 10 when appraising gems and jewelry.
 
@@ -159,13 +159,13 @@ Your feline traits are more defined and prominent than those of other members of
 
 **Prerequisite** : Catfolk.
 
-**Benefit** : You can take the [Aspect of the Beast](/pathfinderRPG/prd/advanced/advancedFeats.html#_aspect-of-the-beast) feat even if you do not meet the normal prerequisites. Furthermore, your catlike nature manifests in one of the following ways. You choose the manifestation when you take this feat, and cannot change it later.
+**Benefit** : You can take the [Aspect of the Beast](advanced/advancedFeats.md#_aspect-of-the-beast) feat even if you do not meet the normal prerequisites. Furthermore, your catlike nature manifests in one of the following ways. You choose the manifestation when you take this feat, and cannot change it later.
 
 > _Enhanced Senses (Ex)_: If you have low-light vision, you gain the scent catfolk racial trait. If you have the scent racial trait, you gain low-light vision.
 > 
 > _Fast Sprinter (Ex)_: You gain a 10-foot racial bonus to your speed when using the charge, run, or withdraw actions. If you have the sprinter racial trait, your racial bonus to speed when using the charge, run, or withdraw action increases to a 20-foot bonus.
 > 
-> _Sharp Claws (Ex)_: If you do not have the cat's claws racial trait or the claws of the beast manifestation from the [Aspect of the Beast](/pathfinderRPG/prd/advanced/advancedFeats.html#_aspect-of-the-beast) feat , you gain the cat's claws racial trait. If you have either the cat's claws racial trait or the claws of the beast manifestation, your claw damage increases to 1d6.
+> _Sharp Claws (Ex)_: If you do not have the cat's claws racial trait or the claws of the beast manifestation from the [Aspect of the Beast](advanced/advancedFeats.md#_aspect-of-the-beast) feat , you gain the cat's claws racial trait. If you have either the cat's claws racial trait or the claws of the beast manifestation, your claw damage increases to 1d6.
 
 **Special** : You can take this feat multiple times. Its effects do not stack. Each time you select it, you must choose a different manifestation.
 
@@ -173,7 +173,7 @@ Your feline traits are more defined and prominent than those of other members of
 
 You can charge and make an attack with your paws.
 
-**Prerequisites** : Str 13, Dex 15, Nimble Striker, base attack bonus +10, catfolk, cat's claws racial trait or [Aspect of the Beast](/pathfinderRPG/prd/advanced/advancedFeats.html#_aspect-of-the-beast) (claws of the beast manifestation).
+**Prerequisites** : Str 13, Dex 15, Nimble Striker, base attack bonus +10, catfolk, cat's claws racial trait or [Aspect of the Beast](advanced/advancedFeats.md#_aspect-of-the-beast) (claws of the beast manifestation).
 
 **Benefit** : When you make a charge, you can make a full attack with your claws.
 
@@ -193,7 +193,7 @@ You were born to charge your enemies and nobody does it better.
 
 **Prerequisites** : Dex 13, base attack bonus +1, catfolk, sprinter racial trait.
 
-**Benefit** : You do not take a –2 penalty to AC when you use the Cleave feat, [Lunge](/pathfinderRPG/prd/feats.html#_lunge) feat, or when you charge.
+**Benefit** : You do not take a –2 penalty to AC when you use the Cleave feat, [Lunge](feats.md#_lunge) feat, or when you charge.
 
 ## Catfolk Magic Items
 
@@ -207,11 +207,11 @@ Cat's Eye Crown
 
 Description
 
-This slender silver crown is decorated with a single cat's eye gemstone as a centerpiece. When the gem is attached to the crown, its wearer gains darkvision 60 feet, or increases her darkvision by 60 feet if she already possesses that sense. The gemstone is detachable, and can be rolled into rooms, dropped into holes, thrown through windows, or planted on a creature. Once per day, on command, the crown's wearer gains the benefit of the _ [clairaudience/clairvoyance](/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance) _spell, but uses the cat's eye gemstone as that spell's sensor and gains darkvision when viewing through that sensor. If the stone is held or carried by a creature, even within a sack or some other container, the creature wearing the crown uses the senses of the creature carrying the gemstone as the sensor instead, whether or not the creature carrying the gemstone is aware of the stone's true purpose or even its existence. Destroying the gem (hardness 8, hp 5) severs the link, but a new cat's eye gemstone worth at least 100 gp can be fashioned and attuned to the crown. The attunement process takes 24 hours.
+This slender silver crown is decorated with a single cat's eye gemstone as a centerpiece. When the gem is attached to the crown, its wearer gains darkvision 60 feet, or increases her darkvision by 60 feet if she already possesses that sense. The gemstone is detachable, and can be rolled into rooms, dropped into holes, thrown through windows, or planted on a creature. Once per day, on command, the crown's wearer gains the benefit of the _ [clairaudience/clairvoyance](spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance) _spell, but uses the cat's eye gemstone as that spell's sensor and gains darkvision when viewing through that sensor. If the stone is held or carried by a creature, even within a sack or some other container, the creature wearing the crown uses the senses of the creature carrying the gemstone as the sensor instead, whether or not the creature carrying the gemstone is aware of the stone's true purpose or even its existence. Destroying the gem (hardness 8, hp 5) severs the link, but a new cat's eye gemstone worth at least 100 gp can be fashioned and attuned to the crown. The attunement process takes 24 hours.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [clairaudience/clairvoyance](/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance)_, _ [darkvision](/pathfinderRPG/prd/spells/darkvision.html#_darkvision)_, creator must be [catfolk](/pathfinderRPG/prd/monsters/creatureTypes.html#_catfolk-subtype); **Cost** 9,000 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [clairaudience/clairvoyance](spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance)_, _ [darkvision](spells/darkvision.md#_darkvision)_, creator must be [catfolk](monsters/creatureTypes.md#_catfolk-subtype); **Cost** 9,000 gp
 
 Daredevil Softpaws
 
@@ -221,11 +221,11 @@ Daredevil Softpaws
 
 Description
 
-This pair of magical softpaw boots (see above) allows the catfolk wearing them to gain extra maneuverability while moving through hazardous areas. As a free action, the wearer can click her heels together to grant herself a +5 competence bonus on [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) checks made to move through threatened squares or to move through an enemy's space without provoking attacks of opportunity for up to 10 rounds per day. The rounds need not be consecutive. Furthermore, anytime the wearer of the boots successfully moves though the space of an enemy without provoking an attack of opportunity, she gains a +2 bonus on attack rolls against that enemy until the end of her turn.
+This pair of magical softpaw boots (see above) allows the catfolk wearing them to gain extra maneuverability while moving through hazardous areas. As a free action, the wearer can click her heels together to grant herself a +5 competence bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) checks made to move through threatened squares or to move through an enemy's space without provoking attacks of opportunity for up to 10 rounds per day. The rounds need not be consecutive. Furthermore, anytime the wearer of the boots successfully moves though the space of an enemy without provoking an attack of opportunity, she gains a +2 bonus on attack rolls against that enemy until the end of her turn.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](/pathfinderRPG/prd/feats.html#_craft-wondrous-item), _ [cat's grace](/pathfinderRPG/prd/spells/catSGrace.html#_cat-s-grace)_; **Cost** 700 gp
+**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_; **Cost** 700 gp
 
 Rending Claw Blade
 
@@ -235,11 +235,11 @@ Rending Claw Blade
 
 Description
 
-This set of _+1 [keen](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-keen) claw blades_ is most effective when the wearer has multiple claw attacks per round. When making a full attack with claws, if the wielder hits the same target with this weapon and a different claw attack or set of claw blades, he deals an extra 1d4 damage plus 1-1/2 times his Strength bonus. The wearer can deal this extra damage no more than once per round. This counts as a rend attack and does not stack with other abilities that grant rend attacks.
+This set of _+1 [keen](magicItems/weapons.md#_weapons-keen) claw blades_ is most effective when the wearer has multiple claw attacks per round. When making a full attack with claws, if the wielder hits the same target with this weapon and a different claw attack or set of claw blades, he deals an extra 1d4 damage plus 1-1/2 times his Strength bonus. The wearer can deal this extra damage no more than once per round. This counts as a rend attack and does not stack with other abilities that grant rend attacks.
 
 Construction
 
-**Requirements** [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [keen edge](/pathfinderRPG/prd/spells/keenEdge.html#_keen-edge)_; **Cost** 5,305 gp
+**Requirements** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [keen edge](spells/keenEdge.md#_keen-edge)_; **Cost** 5,305 gp
 
 ## Catfolk Spells
 
@@ -269,13 +269,13 @@ Despite its name, this powerful ward does not grant the target multiple lives, b
 > 
 > _Shake Off_: The target uses this ability when it is under the effects of any of the following conditions: blinded, confused, cowering, dazed, dazzled, entangled, exhausted, fatigued, frightened, nauseated, panicked, shaken, sickened, or staggered. Using this ability ends one of those conditions.
 > 
-> _Shimmy Out_: The target uses this ability when it is grappled or pinned. The target automatically escapes the grapple as if it had succeeded at an [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) check to escape the grapple.
+> _Shimmy Out_: The target uses this ability when it is grappled or pinned. The target automatically escapes the grapple as if it had succeeded at an [Escape Artist](skills/escapeArtist.md#_escape-artist) check to escape the grapple.
 > 
 > _Stay Up_: The target uses this ability when it is tripped or otherwise knocked prone. The target steadies itself and stays upright.
 
 Steal Breath
 
-**School** transmutation [[air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype)]; **Level** bard 2, druid 2, sorcerer/wizard 2, witch 2
+**School** transmutation [[air](monsters/creatureTypes.md#_air-subtype)]; **Level** bard 2, druid 2, sorcerer/wizard 2, witch 2
 
 **Casting Time** 1 standard action
 

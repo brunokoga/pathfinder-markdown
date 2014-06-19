@@ -1,6 +1,6 @@
 Lightning Arc
 
-**Source** [_lightning arc_](/pathfinderRPG/prd/ultimateMagic/spells/lightningArc.html#_lightning-arc)
+**Source** [_lightning arc_](ultimateMagic/spells/lightningArc.md#_lightning-arc)
 
 The damage dealt increases to 1d8 points of electricity damage per caster level (maximum 15d8). A target that fails its save is blinded by the flash for 1 round and deafened by thunder for 1d4 rounds.
 

@@ -1,6 +1,6 @@
 Obscuring Mist
 
-**Source** [_obscuring mist_](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)
+**Source** [_obscuring mist_](spells/obscuringMist.md#_obscuring-mist)
 
 The range increases to 50 feet, and the cloud's radius and height both increase to 50 feet.
 

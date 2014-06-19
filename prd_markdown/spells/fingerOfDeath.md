@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Fortitude](../combat.html#_fortitude) partial; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Fortitude](../combat.md#_fortitude) partial; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
-This spell instantly delivers 10 points of damage per caster level. If the target's [Fortitude](../combat.html#_fortitude) saving throw succeeds, it instead takes 3d6 points of damage + 1 point per caster level. The subject might die from damage even if it succeeds on its saving throw.
+This spell instantly delivers 10 points of damage per caster level. If the target's [Fortitude](../combat.md#_fortitude) saving throw succeeds, it instead takes 3d6 points of damage + 1 point per caster level. The subject might die from damage even if it succeeds on its saving throw.
 

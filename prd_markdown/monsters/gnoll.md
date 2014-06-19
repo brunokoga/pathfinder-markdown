@@ -6,9 +6,9 @@ _Hunched and feral, this furred, hyena-headed humanoid stands slightly taller th
 
 **XP 400**
 
-CE Medium [humanoid](creatureTypes.html#_humanoid) (gnoll)
+CE Medium [humanoid](creatureTypes.md#_humanoid) (gnoll)
 
-**Init** +0; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +2
+**Init** +0; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +2
 
 **Defense**
 
@@ -32,9 +32,9 @@ CE Medium [humanoid](creatureTypes.html#_humanoid) (gnoll)
 
 **Base**  **Atk** +1; **CMB** +3; **CMD** 13
 
-**Feats** [Power Attack](../feats.html#_power-attack)
+**Feats** [Power Attack](../feats.md#_power-attack)
 
-**Skills** [Perception](../skills/perception.html#_perception) +2
+**Skills** [Perception](../skills/perception.md#_perception) +2
 
 **Languages** Gnoll
 
@@ -50,7 +50,7 @@ Gnolls are a race of hulking, humanoids that resemble hyenas in more than mere a
 
 Gnolls are capable hunters, but are far happier to scavenge or steal a kill than to go out and track down prey. This laziness impels them to acquire slaves of whatever type is available, whom they force to dig warrens, gather supplies and water, and even hunt for their gnoll masters.
 
-Creatures other than hyenas and other gnolls are either meat or slaves, depending upon the temperament of the tribe. Even a dead or fallen comrade is a fresh meal for a gnoll, who might honor a distinguished tribe member with a brief prayer, or thoroughly cook one that has died of a wasting disease, but otherwise view a dead gnoll as little different from any other creature. The more âcivilizedâ gnolls do not eat their prisoners, but instead keep them as slaves, either to defend or improve their lair or to trade with other tribes or slaver bands.
+Creatures other than hyenas and other gnolls are either meat or slaves, depending upon the temperament of the tribe. Even a dead or fallen comrade is a fresh meal for a gnoll, who might honor a distinguished tribe member with a brief prayer, or thoroughly cook one that has died of a wasting disease, but otherwise view a dead gnoll as little different from any other creature. The more “civilized” gnolls do not eat their prisoners, but instead keep them as slaves, either to defend or improve their lair or to trade with other tribes or slaver bands.
 
 Gnolls relish combat, but only when they have the obvious advantage of numbers. In other situations, they prefer to avoid combat except as a means of winning a kill from another hunter, or as a clever ambush to bring down a large meal. These hyena-men see no value in courage or valor, instead preferring to flee once it becomes clear that victory is not possible, noting that it is better to run with tail tucked away than to lose one's tail entirely.
 

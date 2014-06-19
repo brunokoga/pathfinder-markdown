@@ -1,6 +1,6 @@
 Disfiguring Touch
 
-**Source** [_disfiguring touch_](/pathfinderRPG/prd/ultimateMagic/spells/disfiguringTouch.html#_disfiguring-touch-)
+**Source** [_disfiguring touch_](ultimateMagic/spells/disfiguringTouch.md#_disfiguring-touch-)
 
 The target takes two different penalties (chosen from the same list) instead of one.
 

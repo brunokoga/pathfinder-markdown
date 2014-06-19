@@ -14,7 +14,7 @@ This section presents a system for representing honor, as well as examples of va
 
 Honor is represented by points on a scale from 0 to 100. A score of 0 represents a person who is seen as completely untrustworthy, willing to sacrifice anything and anyone for even a momentary gain. A score of 100 represents a person of legendary stature whose reputation is without blemish. Honor is not a measurement of alignment, fame, or goodwill so much as a gauge of loyalty, trustworthiness, and fairness—one could be a kindhearted-but-flighty shogun with 0 honor points, or a cruel-but-stalwart monk with 100 honor points.
 
-**NPC Base Honor Points** : An NPC's base number of honor points is equal to its CR Ã 5. The GM modifies this value according to the Gaining and Losing Honor section. An NPC who deviates from the strictures of his society may have an honor score very different from this base value. Most NPCs' honor scores rarely change, though the GM might choose to bestow fortune or disgrace on a particular NPC as a story or adventure hook for the PCs.
+**NPC Base Honor Points** : An NPC's base number of honor points is equal to its CR × 5. The GM modifies this value according to the Gaining and Losing Honor section. An NPC who deviates from the strictures of his society may have an honor score very different from this base value. Most NPCs' honor scores rarely change, though the GM might choose to bestow fortune or disgrace on a particular NPC as a story or adventure hook for the PCs.
 
 **PC Base Honor Points** : You start with a number of honor points equal to your Charisma score plus your character level. For example, a 1st-level PC with a Charisma score of 13 starts with an honor score of 14. Whenever your experience level or Charisma permanently changes, adjust your honor score accordingly. You can also gain or lose honor points during play.
 
@@ -34,7 +34,7 @@ You can spend honor points once per game session to gain a temporary advantage f
 
 **Gift or Loan** : You ask an NPC ally to give or loan you something of value. The gift or loan must be in the form of wealth or a single item. The GM may rule that an NPC refuses to give away a particularly rare or expensive item. The item must be something the NPC can actually grant—you can't ask a peasant for a suit of armor or a ronin for the emperor's personal sword. A gift is permanent, but a loan lasts only for the game session in which it is granted. _Cost_: 1d6 honor points per 2,000 gp value of the gift. If the request is a loan instead of a gift, the honor point cost is halved, but if you do not return the item at the end of the session, you must pay this honor point cost at the start of each session until the item is returned. This counts as your one opportunity to spend honor points that session; you can't spend honor on anything else until you return the item.
 
-**Skill Bonus** : Choose [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy), or [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate). You gain a +5 circumstance bonus on checks for that skill for the rest of the game session. _Cost_: 1d6 honor points.
+**Skill Bonus** : Choose [Bluff](skills/bluff.md#_bluff), [Diplomacy](skills/diplomacy.md#_diplomacy), or [Intimidate](skills/intimidate.md#_intimidate). You gain a +5 circumstance bonus on checks for that skill for the rest of the game session. _Cost_: 1d6 honor points.
 
 ## Consequences of Losing Honor
 
@@ -50,11 +50,11 @@ These events are appropriate for most honor codes, including the individual code
 | --- | --- |
 | Complete a CR-appropriate Adventure Path | +10 |
 | Complete a noble task for an honorable | +2 NPC (50+ honor points) and tell no one |
-| Roll 30 or higher on a [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) check to | +2 create a work of art or masterwork itemⁱ |
-| Roll 30 or higher on a [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) or | +2 Intimidate checkⁱ |
-| Roll 30 or higher on a [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) checkⁱ | +2 |
+| Roll 30 or higher on a [Craft](skills/craft.md#_craft) check to | +2 create a work of art or masterwork itemⁱ |
+| Roll 30 or higher on a [Diplomacy](skills/diplomacy.md#_diplomacy) or | +2 Intimidate checkⁱ |
+| Roll 30 or higher on a [Perform](skills/perform.md#_perform) checkⁱ | +2 |
 | Complete a CR-appropriate adventure⁲ | +1 |
-| [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) a powerful magic item | +1⁳ |
+| [Craft](skills/craft.md#_craft) a powerful magic item | +1⁳ |
 | Destroy an evil or dangerous magic item | +1⁴ |
 | Party overcomes a challenging encounter | +1 (CR 3 or more higher than APL) |
 | Willingly break one of the tenets of your | —2 code of honor |
@@ -164,9 +164,9 @@ These events apply to a samurai code.
 | Party defeats a challenging oni | +3 (CR higher than APL) |
 | Destroy a shrine that's dedicated to an | +2 opposing power |
 | Protect a shrine from marauders | +2 |
-| Roll 30 or higher on a [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) check to | +2 create a work of art or masterwork itemⁱ |
-| Roll 30 or higher on a [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) checkⁱ | +2 |
-| [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) an action against your alignment | +1because of a sworn oath⁲ |
+| Roll 30 or higher on a [Craft](skills/craft.md#_craft) check to | +2 create a work of art or masterwork itemⁱ |
+| Roll 30 or higher on a [Perform](skills/perform.md#_perform) checkⁱ | +2 |
+| [Perform](skills/perform.md#_perform) an action against your alignment | +1because of a sworn oath⁲ |
 | Trick a kami in a battle of wits | +1 |
 | Excessively brag of your accomplishments⁳ | —1 |
 | Be convicted of a petty crime | —2 |

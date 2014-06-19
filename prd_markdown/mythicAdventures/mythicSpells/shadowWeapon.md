@@ -1,6 +1,6 @@
 Shadow Weapon
 
-**Source** [_shadow weapon_](/pathfinderRPG/prd/ultimateMagic/spells/shadowWeapon.html#_shadow-weapon)
+**Source** [_shadow weapon_](ultimateMagic/spells/shadowWeapon.md#_shadow-weapon)
 
 Add your tier to your caster level when determining what enhancement bonus or weapon special abilities the weapon can have. The weapon deals half damage to creatures that disbelieve in it and to objects, instead of only 1 point.
 

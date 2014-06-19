@@ -1,6 +1,6 @@
 # Rakshasa
 
-Rakshasas are born on the Material Plane, but they are not of it. They possess the powers and shapes of fiends, but their fates are inexorably tied to the mortal world, and it is there that they seek to rule. The reincarnations of manipulators, traitors, and tyrants obsessed with earthly pleasures, rakshasas are the embodiments of the very nature of materialistic evil. After dying violent deaths, these spirits are so tied to worldly decadence and selfish concerns that they take shapes that better reflect the baseness of their lives and are reborn as fiends. Thus have sages come to know these beings as the âearthbound evils.â
+Rakshasas are born on the Material Plane, but they are not of it. They possess the powers and shapes of fiends, but their fates are inexorably tied to the mortal world, and it is there that they seek to rule. The reincarnations of manipulators, traitors, and tyrants obsessed with earthly pleasures, rakshasas are the embodiments of the very nature of materialistic evil. After dying violent deaths, these spirits are so tied to worldly decadence and selfish concerns that they take shapes that better reflect the baseness of their lives and are reborn as fiends. Thus have sages come to know these beings as the “earthbound evils.”
 
 While there are many different types of rakshasas, from the lowly raktavarna to the powerful maharaja, the most commonly encountered members of this race are not known by any other name—they are more powerful than some members of their kind and less powerful than others, and represent the ideal midpoint between servitor and master. These rakshasas can be recognized by their animal heads (those of great cats, snakes, crocodiles, apes, and birds of prey being the most common) and backward-facing hands. Feral traits and strangely reversed joints are a hallmark of all types of rakshasas, in fact, features that most rakshasas can hide through their supernatural ability to change shapes or by means of powerful illusions.
 
@@ -41,9 +41,9 @@ Dandasuka CR 5
 
 XP 1,600
 
-LE Small outsider ( [native](/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype), [rakshasa](/pathfinderRPG/prd/monsters/creatureTypes.html#_rakshasa-subtype), [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+LE Small outsider ( [native](monsters/creatureTypes.md#_native-subtype), [rakshasa](monsters/creatureTypes.md#_rakshasa-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +4; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9
+**Init** +4; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +9
 
 Defense
 
@@ -59,19 +59,19 @@ Offense
 
 **Speed** 30 ft., climb 20 ft.
 
-**Melee** bite +8 (1d6+1 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed)), 2 claws +8 (1d4+1)
+**Melee** bite +8 (1d6+1 plus [bleed](monsters/universalMonsterRules.md#_bleed)), 2 claws +8 (1d4+1)
 
-**Special Attacks** [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) 1d4, detect thoughts (DC 15), sneak attack +1d6
+**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) 1d4, detect thoughts (DC 15), sneak attack +1d6
 
 **Spell-Like Abilities** (CL 5th; concentration +7)
 
-1/day—_ [clairaudience/clairvoyance](/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance)_
+1/day—_ [clairaudience/clairvoyance](spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance)_
 
 **Spells Known** (CL 2nd; concentration +4)
 
-1st (7/day)—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 13), _ [ventriloquism](/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism)_ (DC 13)
+1st (7/day)—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 13), _ [ventriloquism](spells/ventriloquism.md#_ventriloquism)_ (DC 13)
 
-0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 12), _ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ (DC 12), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic), [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound) _(DC 12),_ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_
+0 (at will)—_ [bleed](spells/bleed.md#_bleed)_ (DC 12), _ [daze](spells/daze.md#_daze)_ (DC 12), _ [detect magic](spells/detectMagic.md#_detect-magic), [ghost sound](spells/ghostSound.md#_ghost-sound) _(DC 12),_ [mage hand](spells/mageHand.md#_mage-hand)_
 
 Statistics
 
@@ -79,14 +79,14 @@ Statistics
 
 **Base Atk** +6; **CMB** +6; **CMD** 21
 
-**Feats** [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Mobility](/pathfinderRPG/prd/feats.html#_mobility), [Spring Attack](/pathfinderRPG/prd/feats.html#_spring-attack)
+**Feats** [Dodge](feats.md#_dodge), [Mobility](feats.md#_mobility), [Spring Attack](feats.md#_spring-attack)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +10, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +15, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +10, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +19, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +10, [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) +10, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +17; **Racial Modifiers**   
-+4 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), +8 [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +10, [Bluff](skills/bluff.md#_bluff) +15, [Climb](skills/climb.md#_climb) +10, [Disguise](skills/disguise.md#_disguise) +19, [Perception](skills/perception.md#_perception) +9, [Sense Motive](skills/senseMotive.md#_sense-motive) +10, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +10, [Stealth](skills/stealth.md#_stealth) +17; **Racial Modifiers**   
++4 [Bluff](skills/bluff.md#_bluff), +8 [Disguise](skills/disguise.md#_disguise)
 
 **Languages** Common, Infernal, Undercommon
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (any humanoid; _ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_)
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (any humanoid; _ [alter self](spells/alterSelf.md#_alter-self)_)
 
 Ecology
 
@@ -100,7 +100,7 @@ Special Abilities
 
 **Spells** A dandasuka casts arcane spells as a 2nd-level sorcerer.
 
-Dandasukas, also known as âbitersâ among rakshasas, serve as spies and assassins. They often appear as part of a rakshasa's retinue or secret network. Born to manipulate and murder, they revel in their work and delight in the sight of blood. Thus, dandasukas go about their work cheerfully, laughing as they manipulate foes and butcher victims.
+Dandasukas, also known as “biters” among rakshasas, serve as spies and assassins. They often appear as part of a rakshasa's retinue or secret network. Born to manipulate and murder, they revel in their work and delight in the sight of blood. Thus, dandasukas go about their work cheerfully, laughing as they manipulate foes and butcher victims.
 
 All dandasukas are restless and energetic. They crave activity and entertainment, preferring the sick and cruel to conventional fare. Dandasuka pranks are rarely amusing for the victim.
 
@@ -118,9 +118,9 @@ Maharaja CR 20
 
 XP 307,200
 
-LE Medium outsider ( [native](/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype), [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+LE Medium outsider ( [native](monsters/creatureTypes.md#_native-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +13; **Senses** [all-around vision](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_all-around-vision), darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +31
+**Init** +13; **Senses** [all-around vision](monsters/universalMonsterRules.md#_all-around-vision), darkvision 60 ft.; [Perception](skills/perception.md#_perception) +31
 
 Defense
 
@@ -142,33 +142,33 @@ Offense
 
 **Spell-Like Abilities** (CL 18th; concentration +27)
 
-Constant—_ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_, _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+Constant—_ [comprehend languages](spells/comprehendLanguages.md#_comprehend-languages)_, _ [tongues](spells/tongues.md#_tongues)_
 
-At will—_ [clairaudience/clairvoyance](/pathfinderRPG/prd/spells/clairaudienceClairvoyance.html#_clairaudience-clairvoyance)_
+At will—_ [clairaudience/clairvoyance](spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance)_
 
-1/day—_ [dominate monster](/pathfinderRPG/prd/spells/dominateMonster.html#_dominate-monster)_ (DC 28)
+1/day—_ [dominate monster](spells/dominateMonster.md#_dominate-monster)_ (DC 28)
 
 **Spells Known** (CL 18th; concentration +27)
 
-9th (4/day)—_ [weird](/pathfinderRPG/prd/spells/weird.html#_weird)_ (DC 28)
+9th (4/day)—_ [weird](spells/weird.md#_weird)_ (DC 28)
 
-8th (6/day)—_ [greater shadow evocation](/pathfinderRPG/prd/spells/shadowEvocation.html#_shadow-evocation-greater), [mind blank](/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank)_
+8th (6/day)—_ [greater shadow evocation](spells/shadowEvocation.md#_shadow-evocation-greater), [mind blank](spells/mindBlank.md#_mind-blank)_
 
-7th (7/day)—_ [greater shadow conjuration](/pathfinderRPG/prd/spells/shadowConjuration.html#_shadow-conjuration-greater), [mass invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-mass), [spell turning](/pathfinderRPG/prd/spells/spellTurning.html#_spell-turning)_
+7th (7/day)—_ [greater shadow conjuration](spells/shadowConjuration.md#_shadow-conjuration-greater), [mass invisibility](spells/invisibility.md#_invisibility-mass), [spell turning](spells/spellTurning.md#_spell-turning)_
 
-6th (7/day)—_ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater), [mass suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion-mass)_ (DC 25), _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+6th (7/day)—_ [greater dispel magic](spells/dispelMagic.md#_dispel-magic-greater), [mass suggestion](spells/suggestion.md#_suggestion-mass)_ (DC 25), _ [true seeing](spells/trueSeeing.md#_true-seeing)_
 
-5th (8/day)—_ [baleful polymorph](/pathfinderRPG/prd/spells/balefulPolymorph.html#_baleful-polymorph)_ (DC 24), _ [feeblemind](/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind)_ (DC 24), _ [mind fog](/pathfinderRPG/prd/spells/mindFog.html#_mind-fog) _(DC 24)
+5th (8/day)—_ [baleful polymorph](spells/balefulPolymorph.md#_baleful-polymorph)_ (DC 24), _ [feeblemind](spells/feeblemind.md#_feeblemind)_ (DC 24), _ [mind fog](spells/mindFog.md#_mind-fog) _(DC 24)
 
-4th (8/day)—_ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_ (DC 23), _ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door), [lesser globe of invulnerability](/pathfinderRPG/prd/spells/globeOfInvulnerability.html#_globe-of-invulnerability-lesser), [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_
+4th (8/day)—_ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 23), _ [dimension door](spells/dimensionDoor.md#_dimension-door), [lesser globe of invulnerability](spells/globeOfInvulnerability.md#_globe-of-invulnerability-lesser), [scrying](spells/scrying.md#_scrying)_
 
-3rd (8/day)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic), [nondetection](/pathfinderRPG/prd/spells/nondetection.html#_nondetection), [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 22), _ [vampiric touch](/pathfinderRPG/prd/spells/vampiricTouch.html#_vampiric-touch)_ (DC 22)
+3rd (8/day)—_ [dispel magic](spells/dispelMagic.md#_dispel-magic), [nondetection](spells/nondetection.md#_nondetection), [suggestion](spells/suggestion.md#_suggestion)_ (DC 22), _ [vampiric touch](spells/vampiricTouch.md#_vampiric-touch)_ (DC 22)
 
-2nd (8/day)—_ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness), [knock](/pathfinderRPG/prd/spells/knock.html#_knock), [misdirection](/pathfinderRPG/prd/spells/misdirection.html#_misdirection) _(DC 21), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy), [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
+2nd (8/day)—_ [darkness](spells/darkness.md#_darkness), [knock](spells/knock.md#_knock), [misdirection](spells/misdirection.md#_misdirection) _(DC 21), _ [resist energy](spells/resistEnergy.md#_resist-energy), [see invisibility](spells/seeInvisibility.md#_see-invisibility)_
 
-1st (9/day)—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 20), _ [identify](/pathfinderRPG/prd/spells/identify.html#_identify), [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor), [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile), [ventriloquism](/pathfinderRPG/prd/spells/ventriloquism.html#_ventriloquism)_ (DC 20)
+1st (9/day)—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 20), _ [identify](spells/identify.md#_identify), [mage armor](spells/mageArmor.md#_mage-armor), [magic missile](spells/magicMissile.md#_magic-missile), [ventriloquism](spells/ventriloquism.md#_ventriloquism)_ (DC 20)
 
-0 (at will)—_ [arcane mark](/pathfinderRPG/prd/spells/arcaneMark.html#_arcane-mark), [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 19), _ [daze](/pathfinderRPG/prd/spells/daze.html#_daze) _(DC 19), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic), [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound), [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand), [message](/pathfinderRPG/prd/spells/message.html#_message), [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation), [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [arcane mark](spells/arcaneMark.md#_arcane-mark), [bleed](spells/bleed.md#_bleed)_ (DC 19), _ [daze](spells/daze.md#_daze) _(DC 19), _ [detect magic](spells/detectMagic.md#_detect-magic), [ghost sound](spells/ghostSound.md#_ghost-sound), [mage hand](spells/mageHand.md#_mage-hand), [message](spells/message.md#_message), [prestidigitation](spells/prestidigitation.md#_prestidigitation), [read magic](spells/readMagic.md#_read-magic)_
 
 Statistics
 
@@ -176,14 +176,14 @@ Statistics
 
 **Base Atk** +20; **CMB** +28; **CMD** 52
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (falchion), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Mobility](/pathfinderRPG/prd/feats.html#_mobility), [Quicken Spell](/pathfinderRPG/prd/feats.html#_quicken-spell), [Silent Spell](/pathfinderRPG/prd/feats.html#_silent-spell), [Still Spell](/pathfinderRPG/prd/feats.html#_still-spell)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Hover](monsters/monsterFeats.md#_hover), [Improved Critical](feats.md#_improved-critical) (falchion), [Improved Initiative](feats.md#_improved-initiative), [Mobility](feats.md#_mobility), [Quicken Spell](feats.md#_quicken-spell), [Silent Spell](feats.md#_silent-spell), [Still Spell](feats.md#_still-spell)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +27 (+31 when jumping), [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) +25, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +35,   
- [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +30, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +30, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +31, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +30, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, history, nobility, religion) +25, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +31, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +27, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +25, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +30; **Racial Modifiers** +4 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), +8 [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise), +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +27 (+31 when jumping), [Appraise](skills/appraise.md#_appraise) +25, [Bluff](skills/bluff.md#_bluff) +35,   
+ [Diplomacy](skills/diplomacy.md#_diplomacy) +30, [Disguise](skills/disguise.md#_disguise) +30, [Fly](skills/fly.md#_fly) +31, [Intimidate](skills/intimidate.md#_intimidate) +30, [Knowledge](skills/knowledge.md#_knowledge) (arcana, history, nobility, religion) +25, [Perception](skills/perception.md#_perception) +31, [Sense Motive](skills/senseMotive.md#_sense-motive) +27, [Spellcraft](skills/spellcraft.md#_spellcraft) +25, [Stealth](skills/stealth.md#_stealth) +30; **Racial Modifiers** +4 [Bluff](skills/bluff.md#_bluff), +8 [Disguise](skills/disguise.md#_disguise), +4 [Perception](skills/perception.md#_perception)
 
-**Languages** Abyssal, Common, Infernal, Undercommon; _ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_, _ [tongues](/pathfinderRPG/prd/spells/tongues.html#_tongues)_
+**Languages** Abyssal, Common, Infernal, Undercommon; _ [comprehend languages](spells/comprehendLanguages.md#_comprehend-languages)_, _ [tongues](spells/tongues.md#_tongues)_
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (any humanoid; _ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_)
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (any humanoid; _ [alter self](spells/alterSelf.md#_alter-self)_)
 
 Ecology
 
@@ -213,11 +213,11 @@ A maharaja's great experience and power, however, does not make it immune to or 
 
 Each maharaja is unique, the process of its evolution granting it strengths and weaknesses that differentiate the being from all before it. Over its lifetimes, its path teaches it myriad lessons and grants distinctive powers. A typical maharaja is a master of divination, enchantment, and illusion. Other maharajas master various other techniques, such as necromancy or conjuration. As a maharaja continues to grow in malignant might, its powers outstrip those even of its peers. It might ultimately ascend to the rank of rajadhiraja—a king of kings.
 
-Even more so than the maharajas, the rajadhirajas are unique beings. A rajadhiraja is never lower than CR 21—most have additional racial Hit Dice beyond the standard maharaja. Each additional racial Hit Die granted increases the rakshasa's CR by +1, but also increases its effective sorcerer caster level by +1 and grants a new spell-like ability that follows that rakshasa's personal theme and philosophy. A rajadhiraja that fancies itself a master of space and time might gain the ability to use _ [greater teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)_ three times per day or the use of _ [time stop](/pathfinderRPG/prd/spells/timeStop.html#_time-stop)_ once per day, while one who sees itself as a master of forms might gain the ability to use _ [shapechange](/pathfinderRPG/prd/spells/shapechange.html#_shapechange)_ once per day or _ [polymorph](/pathfinderRPG/prd/spells/polymorph.html#_polymorph)_ at will. A master of combat might instead gain additional damaging spell-like abilities. The type of new spell-like abilities the rakshasa gains can be selected as needed—8th- and 9th-level spells should be usable once per day, 5th- through 7th-level spells usable three times per day, and spells lower than 5th level at will, though even these guidelines can be adjusted as you see fit to make a more interesting rajadhiraja.
+Even more so than the maharajas, the rajadhirajas are unique beings. A rajadhiraja is never lower than CR 21—most have additional racial Hit Dice beyond the standard maharaja. Each additional racial Hit Die granted increases the rakshasa's CR by +1, but also increases its effective sorcerer caster level by +1 and grants a new spell-like ability that follows that rakshasa's personal theme and philosophy. A rajadhiraja that fancies itself a master of space and time might gain the ability to use _ [greater teleport](spells/teleport.md#_teleport-greater)_ three times per day or the use of _ [time stop](spells/timeStop.md#_time-stop)_ once per day, while one who sees itself as a master of forms might gain the ability to use _ [shapechange](spells/shapechange.md#_shapechange)_ once per day or _ [polymorph](spells/polymorph.md#_polymorph)_ at will. A master of combat might instead gain additional damaging spell-like abilities. The type of new spell-like abilities the rakshasa gains can be selected as needed—8th- and 9th-level spells should be usable once per day, 5th- through 7th-level spells usable three times per day, and spells lower than 5th level at will, though even these guidelines can be adjusted as you see fit to make a more interesting rajadhiraja.
 
 The cycle of reincarnation and the faint memories it imparts provide rajadhirajas with the distinct power to manipulate life and death according to this cycle. A rajadhiraja can use its mastery of reincarnation to alter these cycles for other creatures, and as a result, all rajadhirajas gain the following special ability in addition to their other powers.
 
-_ [Reincarnate](/pathfinderRPG/prd/spells/reincarnate.html#_reincarnate) (Su)_: Once per day as a standard action, a rajadhiraja can bring a dead creature back to life as if using the _ [reincarnate](/pathfinderRPG/prd/spells/reincarnate.html#_reincarnate)_ spell, except that the target must have been dead less than 1 day and can have been killed by a death effect. As with any effect that restores life to a creature, the reincarnating creature can choose not to be reincarnated if it wishes, but if it does allow the effect to happen, it returns to life at full capacity, as if restored via _ [true resurrection](/pathfinderRPG/prd/spells/trueResurrection.html#_true-resurrection) _in a new form. Some rajadhirajas slay their own allies in combat, then use this ability to in order to allow the allies to continue the battle in a new body. The new form granted by this effect can be any form within one size category of the dead creature's original size—the exact form of this new body is chosen by the rajadhiraja. Use the results listed in the _Core Rulebook_ for the _ [reincarnate](/pathfinderRPG/prd/spells/reincarnate.html#_reincarnate)_ spell as guidelines for determining the new body's physical ability score adjustments.
+_ [Reincarnate](spells/reincarnate.md#_reincarnate) (Su)_: Once per day as a standard action, a rajadhiraja can bring a dead creature back to life as if using the _ [reincarnate](spells/reincarnate.md#_reincarnate)_ spell, except that the target must have been dead less than 1 day and can have been killed by a death effect. As with any effect that restores life to a creature, the reincarnating creature can choose not to be reincarnated if it wishes, but if it does allow the effect to happen, it returns to life at full capacity, as if restored via _ [true resurrection](spells/trueResurrection.md#_true-resurrection) _in a new form. Some rajadhirajas slay their own allies in combat, then use this ability to in order to allow the allies to continue the battle in a new body. The new form granted by this effect can be any form within one size category of the dead creature's original size—the exact form of this new body is chosen by the rajadhiraja. Use the results listed in the _Core Rulebook_ for the _ [reincarnate](spells/reincarnate.md#_reincarnate)_ spell as guidelines for determining the new body's physical ability score adjustments.
 
 # Rakshasa, Marai
 
@@ -227,9 +227,9 @@ Marai CR 8
 
 XP 4,800
 
-LE Medium outsider ( [native](/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype), [rakshasa](/pathfinderRPG/prd/monsters/creatureTypes.html#_rakshasa-subtype), [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+LE Medium outsider ( [native](monsters/creatureTypes.md#_native-subtype), [rakshasa](monsters/creatureTypes.md#_rakshasa-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +5; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +10
+**Init** +5; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +10
 
 Defense
 
@@ -253,11 +253,11 @@ Offense
 
 **Spells Known** (CL 5th; concentration +9)
 
-2nd (5/day)—_ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility), [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_
+2nd (5/day)—_ [invisibility](spells/invisibility.md#_invisibility), [scorching ray](spells/scorchingRay.md#_scorching-ray)_
 
-1st (7/day)—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 15), _ [jump](/pathfinderRPG/prd/spells/jump.html#_jump)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_
+1st (7/day)—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 15), _ [jump](spells/jump.md#_jump)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_
 
-0 (at will)—_ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 14), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic), [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_ (DC 14),_ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand), [open/close](/pathfinderRPG/prd/spells/openClose.html#_open-close), [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [bleed](spells/bleed.md#_bleed)_ (DC 14), _ [detect magic](spells/detectMagic.md#_detect-magic), [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 14),_ [mage hand](spells/mageHand.md#_mage-hand), [open/close](spells/openClose.md#_open-close), [read magic](spells/readMagic.md#_read-magic)_
 
 Statistics
 
@@ -265,13 +265,13 @@ Statistics
 
 **Base Atk** +9; **CMB** +11; **CMD** 27
 
-**Feats** [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Silent Spell](/pathfinderRPG/prd/feats.html#_silent-spell), [Still Spell](/pathfinderRPG/prd/feats.html#_still-spell), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Dodge](feats.md#_dodge), [Iron Will](feats.md#_iron-will), [Silent Spell](feats.md#_silent-spell), [Still Spell](feats.md#_still-spell), [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +14 (+18 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +20, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +7, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +16, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +8, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +10, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +12, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +8; **Racial Modifiers** +4 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), +8 [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +14 (+18 when jumping), [Bluff](skills/bluff.md#_bluff) +20, [Climb](skills/climb.md#_climb) +7, [Disguise](skills/disguise.md#_disguise) +16, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +8, [Perception](skills/perception.md#_perception) +10, [Sense Motive](skills/senseMotive.md#_sense-motive) +12, [Spellcraft](skills/spellcraft.md#_spellcraft) +8; **Racial Modifiers** +4 [Bluff](skills/bluff.md#_bluff), +8 [Disguise](skills/disguise.md#_disguise)
 
 **Languages** Common, Infernal, Undercommon
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (any humanoid; _ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_)
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (any humanoid; _ [alter self](spells/alterSelf.md#_alter-self)_)
 
 Ecology
 
@@ -305,7 +305,7 @@ Marai are deviant spellcasters first and fiendish corruptors second. If allowed 
 
 The possibility of new magical discoveries drives a marai. Morality and compassion never constrain the fiend's experiments. A marai prefers to torment and exploit mortals who have no idea of the rakshasa's true nature, and it takes great pleasure in using magical might to bring would-be heroes, especially those who invade its lair, to their knees. Such a game offers a marai enjoyment, however, only if subjects are unaware of the danger or at least unable to oppose it.
 
-A marai is 6 feet tall and weighs 160 pounds. Its serpentine arms render fine manipulation or wielding weapons unfeasible, and so it typically assumes humanoid form when working on experiments that require manual dexterity. A marai unable to do so must rely upon cantrips like _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_ for such tasks—or perhaps the aid of a slave or charmed ally.
+A marai is 6 feet tall and weighs 160 pounds. Its serpentine arms render fine manipulation or wielding weapons unfeasible, and so it typically assumes humanoid form when working on experiments that require manual dexterity. A marai unable to do so must rely upon cantrips like _ [mage hand](spells/mageHand.md#_mage-hand)_ for such tasks—or perhaps the aid of a slave or charmed ally.
 
 # Rakshasa, Raktavarna
 
@@ -315,9 +315,9 @@ Raktavarna CR 2
 
 XP 600
 
-LE Tiny outsider ( [native](/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype), [rakshasa](/pathfinderRPG/prd/monsters/creatureTypes.html#_rakshasa-subtype), [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+LE Tiny outsider ( [native](monsters/creatureTypes.md#_native-subtype), [rakshasa](monsters/creatureTypes.md#_rakshasa-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft., _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9
+**Init** +3; **Senses** darkvision 60 ft., _ [detect magic](spells/detectMagic.md#_detect-magic)_; [Perception](skills/perception.md#_perception) +9
 
 Defense
 
@@ -333,17 +333,17 @@ Offense
 
 **Speed** 20 ft., climb 20 ft., swim 20 ft.
 
-**Melee** bite +8 (1d4–2 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** bite +8 (1d4–2 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Special Attacks** detect thoughts (DC 13)
 
 **Spell-Like Abilities** (CL 6th; concentration +8)
 
-Constant—_ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_
+Constant—_ [comprehend languages](spells/comprehendLanguages.md#_comprehend-languages)_
 
-1/day—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 13), _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 15)
+1/day—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 13), _ [suggestion](spells/suggestion.md#_suggestion)_ (DC 15)
 
-1/week—_ [commune](/pathfinderRPG/prd/spells/commune.html#_commune)_ (CL 12th, 6 questions)
+1/week—_ [commune](spells/commune.md#_commune)_ (CL 12th, 6 questions)
 
 Statistics
 
@@ -351,13 +351,13 @@ Statistics
 
 **Base Atk** +3; **CMB** +4; **CMD** 12 (can't be tripped)
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Alertness](feats.md#_alertness), [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +12, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +9, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +16, [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +6, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +9, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +17, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +6; **Racial Modifiers** +4 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), +8 [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise)
+**Skills** [Bluff](skills/bluff.md#_bluff) +12, [Climb](skills/climb.md#_climb) +9, [Disguise](skills/disguise.md#_disguise) +16, [Escape Artist](skills/escapeArtist.md#_escape-artist) +6, [Perception](skills/perception.md#_perception) +9, [Sense Motive](skills/senseMotive.md#_sense-motive) +9, [Stealth](skills/stealth.md#_stealth) +17, [Swim](skills/swim.md#_swim) +6; **Racial Modifiers** +4 [Bluff](skills/bluff.md#_bluff), +8 [Disguise](skills/disguise.md#_disguise)
 
-**Languages** Common, Infernal, Undercommon; _ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_
+**Languages** Common, Infernal, Undercommon; _ [comprehend languages](spells/comprehendLanguages.md#_comprehend-languages)_
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (Tiny living object), master's eyes
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (Tiny living object), master's eyes
 
 Ecology
 
@@ -369,17 +369,17 @@ Ecology
 
 Special Abilities
 
-**[Change Shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (Su)** As a full-round action, a raktavarna can take the shape of a handheld object, most often an ornamental light, a one-handed weapon, or a piece of treasure. If the [rakshasa](/pathfinderRPG/prd/monsters/creatureTypes.html#_rakshasa-subtype) remains stationary in such a form, it can attempt [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks even while being observed. It can remain motionless in object form indefinitely, but reverts to its true form as soon as it takes any action.
+**[Change Shape](monsters/universalMonsterRules.md#_change-shape) (Su)** As a full-round action, a raktavarna can take the shape of a handheld object, most often an ornamental light, a one-handed weapon, or a piece of treasure. If the [rakshasa](monsters/creatureTypes.md#_rakshasa-subtype) remains stationary in such a form, it can attempt [Stealth](skills/stealth.md#_stealth) checks even while being observed. It can remain motionless in object form indefinitely, but reverts to its true form as soon as it takes any action.
 
-**Master's Eyes (Su)** A raktavarna can designate a single creature as its master as a standard action. If the raktavarna is a spellcaster's familiar, its master is automatically that spellcaster, and the raktavarna cannot change this. As a full-round action, a raktavarna's master can observe the world as if looking through the raktavarna's eyes. The master must concentrate to maintain this link each round. The master's visual senses are suppressed for this time, and he uses the raktavarna's darkvision, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, and regular eyesight to observe the world. This ability has no limit on range, and functions even across planar boundaries. If the raktavarna is slain while its master is using this ability, the master is stunned for 1d4 rounds (no save).
+**Master's Eyes (Su)** A raktavarna can designate a single creature as its master as a standard action. If the raktavarna is a spellcaster's familiar, its master is automatically that spellcaster, and the raktavarna cannot change this. As a full-round action, a raktavarna's master can observe the world as if looking through the raktavarna's eyes. The master must concentrate to maintain this link each round. The master's visual senses are suppressed for this time, and he uses the raktavarna's darkvision, _ [detect magic](spells/detectMagic.md#_detect-magic)_, and regular eyesight to observe the world. This ability has no limit on range, and functions even across planar boundaries. If the raktavarna is slain while its master is using this ability, the master is stunned for 1d4 rounds (no save).
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Su)** Bite—injury; _save_ Fort DC 13; _frequency _1/round for 6 rounds; _effect_ 1d2 Wis plus _ [modify memory](/pathfinderRPG/prd/spells/modifyMemory.html#_modify-memory)_; _cure_ 1 save. Each time a victim takes Wisdom damage from this [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)), a _ [modify memory](/pathfinderRPG/prd/spells/modifyMemory.html#_modify-memory)_ effect causes the victim to forget the previous minute's interactions with the raktavarna, as long as the raktavarna is no longer visible or is in object form. The save DC is Constitution-based.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Su)** Bite—injury; _save_ Fort DC 13; _frequency _1/round for 6 rounds; _effect_ 1d2 Wis plus _ [modify memory](spells/modifyMemory.md#_modify-memory)_; _cure_ 1 save. Each time a victim takes Wisdom damage from this [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), a _ [modify memory](spells/modifyMemory.md#_modify-memory)_ effect causes the victim to forget the previous minute's interactions with the raktavarna, as long as the raktavarna is no longer visible or is in object form. The save DC is Constitution-based.
 
 Made up of smoke, blood, and gold, raktavarnas are the least of the rakshasas—they are born not from humanoids, but from the souls of rakshasas who failed utterly in their previous incarnation and who are thus reborn from a serpent's egg.
 
 These terrors drift through society, passing from hand to hand as weapons or strange tokens from foreign lands, curiosities brought home by traders and emissaries and given to leaders as tribute. In this manner the raktavarnas gain entry into corridors of power throughout the world, and what they see, their foul masters know. A raktavarna's servitude to a master ends only when its master decrees, or (more commonly) upon the master's death. Little disconcerts raktavarnas more than having no master, and when they are cast adrift in this manner, they seek a replacement as soon as they can.
 
-A 7th-level lawful evil spellcaster with the [Improved Familiar](/pathfinderRPG/prd/feats.html#_improved-familiar) feat can gain a raktavarna rakshasa as a familiar.
+A 7th-level lawful evil spellcaster with the [Improved Familiar](feats.md#_improved-familiar) feat can gain a raktavarna rakshasa as a familiar.
 
 # Rakshasa, Tataka
 
@@ -389,9 +389,9 @@ Tataka CR 15
 
 XP 51,200
 
-LE Large outsider ( [native](/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype), [rakshasa](/pathfinderRPG/prd/monsters/creatureTypes.html#_rakshasa-subtype), [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+LE Large outsider ( [native](monsters/creatureTypes.md#_native-subtype), [rakshasa](monsters/creatureTypes.md#_rakshasa-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft., [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent), _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +19
+**Init** +3; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent), _ [true seeing](spells/trueSeeing.md#_true-seeing)_; [Perception](skills/perception.md#_perception) +19
 
 Defense
 
@@ -405,7 +405,7 @@ Defense
 
 Offense
 
-**Speed** 40 ft.; _ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_
+**Speed** 40 ft.; _ [air walk](spells/airWalk.md#_air-walk)_
 
 **Melee** unarmed strike +24/+19/+14/+9 (2d6+7/19–20), bite +19 (1d8+3)
 
@@ -415,23 +415,23 @@ Offense
 
 **Spell-Like Abilities** (CL 15th; concentration +20)
 
-Constant—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk), [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+Constant—_ [air walk](spells/airWalk.md#_air-walk), [true seeing](spells/trueSeeing.md#_true-seeing)_
 
 **Spells Known** (CL 12th; concentration +17)
 
-6th (3/day)—_ [heal](/pathfinderRPG/prd/spells/heal.html#_heal)_
+6th (3/day)—_ [heal](spells/heal.md#_heal)_
 
-5th (6/day)—_ [flame strike](/pathfinderRPG/prd/spells/flameStrike.html#_flame-strike)_ (DC 20), _ [telekinesis](/pathfinderRPG/prd/spells/telekinesis.html#_telekinesis)_ (DC 20)
+5th (6/day)—_ [flame strike](spells/flameStrike.md#_flame-strike)_ (DC 20), _ [telekinesis](spells/telekinesis.md#_telekinesis)_ (DC 20)
 
-4th (7/day)—_ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_ (DC 19), _ [dimension door](/pathfinderRPG/prd/spells/dimensionDoor.html#_dimension-door)_, _ [freedom of movement](/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement)_
+4th (7/day)—_ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 19), _ [dimension door](spells/dimensionDoor.md#_dimension-door)_, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_
 
-3rd (7/day)—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_ (DC 18), _ [haste](/pathfinderRPG/prd/spells/haste.html#_haste), [rage](/pathfinderRPG/prd/spells/rage.html#_rage)_
+3rd (7/day)—_ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [fireball](spells/fireball.md#_fireball)_ (DC 18), _ [haste](spells/haste.md#_haste), [rage](spells/rage.md#_rage)_
 
-2nd (7/day)—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_, _ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell) _(DC 17), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [misdirection](/pathfinderRPG/prd/spells/misdirection.html#_misdirection)_
+2nd (7/day)—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_, _ [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _ [death knell](spells/deathKnell.md#_death-knell) _(DC 17), _ [invisibility](spells/invisibility.md#_invisibility)_, _ [misdirection](spells/misdirection.md#_misdirection)_
 
-1st (8/day)—_ [command](/pathfinderRPG/prd/spells/command.html#_command)_ (DC 16), _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 16), _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
+1st (8/day)—_ [command](spells/command.md#_command)_ (DC 16), _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 16), _ [shield of faith](spells/shieldOfFaith.md#_shield-of-faith)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [bleed](/pathfinderRPG/prd/spells/bleed.html#_bleed)_ (DC 15), _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [mending](/pathfinderRPG/prd/spells/mending.html#_mending)_, _ [message](/pathfinderRPG/prd/spells/message.html#_message)_, _ [open/close](/pathfinderRPG/prd/spells/openClose.html#_open-close)_, _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [bleed](spells/bleed.md#_bleed)_ (DC 15), _ [light](spells/light.md#_light)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [mending](spells/mending.md#_mending)_, _ [message](spells/message.md#_message)_, _ [open/close](spells/openClose.md#_open-close)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [read magic](spells/readMagic.md#_read-magic)_
 
 Statistics
 
@@ -439,14 +439,14 @@ Statistics
 
 **Base Atk** +18; **CMB** +26; **CMD** 40
 
-**Feats** [Cleave](/pathfinderRPG/prd/feats.html#_cleave), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Great Cleave](/pathfinderRPG/prd/feats.html#_great-cleave), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (unarmed strike), [Improved Vital Strike](/pathfinderRPG/prd/feats.html#_improved-vital-strike), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike)
+**Feats** [Cleave](feats.md#_cleave), [Combat Reflexes](feats.md#_combat-reflexes), [Critical Focus](feats.md#_critical-focus), [Dodge](feats.md#_dodge), [Great Cleave](feats.md#_great-cleave), [Improved Critical](feats.md#_improved-critical) (unarmed strike), [Improved Vital Strike](feats.md#_improved-vital-strike), [Power Attack](feats.md#_power-attack), [Vital Strike](feats.md#_vital-strike)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +18 (+22 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +23, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +17,   
- [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +26, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +23, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +10, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +19, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +19, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +16, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +18; **Racial Modifiers** +4 [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff), +8 [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +18 (+22 when jumping), [Bluff](skills/bluff.md#_bluff) +23, [Climb](skills/climb.md#_climb) +17,   
+ [Disguise](skills/disguise.md#_disguise) +26, [Intimidate](skills/intimidate.md#_intimidate) +23, [Knowledge](skills/knowledge.md#_knowledge) (religion) +10, [Perception](skills/perception.md#_perception) +19, [Sense Motive](skills/senseMotive.md#_sense-motive) +19, [Survival](skills/survival.md#_survival) +16, [Swim](skills/swim.md#_swim) +18; **Racial Modifiers** +4 [Bluff](skills/bluff.md#_bluff), +8 [Disguise](skills/disguise.md#_disguise)
 
 **Languages** Common, Infernal, Undercommon
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (any humanoid; _ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_ or _ [giant form I](/pathfinderRPG/prd/spells/giantForm.html#_giant-form-i)_)
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (any humanoid; _ [alter self](spells/alterSelf.md#_alter-self)_ or _ [giant form I](spells/giantForm.md#_giant-form-i)_)
 
 Ecology
 
@@ -458,7 +458,7 @@ Ecology
 
 Special Abilities
 
-**Martial Artist (Su)** A tataka's unarmed strikes deal 2d6 points of damage. If a tataka gains monk levels, it uses its tataka unarmed strike damage or its monk unarmed strike damage, whichever is higher. Its unarmed strikes function as [lawful](/pathfinderRPG/prd/monsters/creatureTypes.html#_lawful-subtype) and [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) weapons for overcoming [damage reduction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_damage-reduction-(ex-or-su)).
+**Martial Artist (Su)** A tataka's unarmed strikes deal 2d6 points of damage. If a tataka gains monk levels, it uses its tataka unarmed strike damage or its monk unarmed strike damage, whichever is higher. Its unarmed strikes function as [lawful](monsters/creatureTypes.md#_lawful-subtype) and [evil](monsters/creatureTypes.md#_evil-subtype) weapons for overcoming [damage reduction](monsters/universalMonsterRules.md#_damage-reduction-(ex-or-su)).
 
 **Spells** A tataka casts spells as a 12th-level sorcerer. A tataka can cast spells from the cleric list as well as those normally available to a sorcerer. Cleric spells are considered arcane spells for a tataka.
 

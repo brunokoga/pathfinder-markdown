@@ -1,6 +1,6 @@
 # Alchemical Tools
 
-Alchemical tools are adventuring items that can prove extremely useful in a variety of situations, including battles, dungeon-delving, or crafting other alchemical items. All of these tools can be made by a character with the [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) skill.
+Alchemical tools are adventuring items that can prove extremely useful in a variety of situations, including battles, dungeon-delving, or crafting other alchemical items. All of these tools can be made by a character with the [Craft](skills/craft.md#_craft) (alchemy) skill.
 
 [Alchemical Tools]
 | Item | Price | Weight | Craft DC |
@@ -62,7 +62,7 @@ Alchemical Solvent
 
 **Price** 20 gp; **Weight** 1/2 lb.
 
-This bubbling purple gel eats through adhesives. Each vial can cover a single 5-foot square. It destroys most normal adhesives (such as tar, tree sap, or glue) in a single round but takes 1d4+1 rounds to deal with more powerful adhesives (alchemical glue, tanglefoot bags, spider webbing, and so on). It has no affect on fully magical adhesives, such as _ [sovereign glue](/pathfinderRPG/prd/magicItems/wondrousItems.html#_sovereign-glue)_.
+This bubbling purple gel eats through adhesives. Each vial can cover a single 5-foot square. It destroys most normal adhesives (such as tar, tree sap, or glue) in a single round but takes 1d4+1 rounds to deal with more powerful adhesives (alchemical glue, tanglefoot bags, spider webbing, and so on). It has no affect on fully magical adhesives, such as _ [sovereign glue](magicItems/wondrousItems.md#_sovereign-glue)_.
 
 Armor Ointment
 
@@ -82,7 +82,7 @@ Bloodblock
 
 **Price** 25 gp; **Weight** —
 
-This gooey, pinkish substance helps treat wounds. Using a dose gives you a +5 alchemical bonus on [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) checks for providing first aid, treating wounds made by caltrops or similar objects, or treating deadly wounds. A dose of bloodblock ends a bleed effect as if you had made a DC 15 [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) check. When treating deadly wounds, using a dose of bloodblock counts as one use of a healer's kit (and grants the +5 bonus stated above).
+This gooey, pinkish substance helps treat wounds. Using a dose gives you a +5 alchemical bonus on [Heal](skills/heal.md#_heal) checks for providing first aid, treating wounds made by caltrops or similar objects, or treating deadly wounds. A dose of bloodblock ends a bleed effect as if you had made a DC 15 [Heal](skills/heal.md#_heal) check. When treating deadly wounds, using a dose of bloodblock counts as one use of a healer's kit (and grants the +5 bonus stated above).
 
 Buoyant Balloon
 
@@ -118,19 +118,19 @@ Embalming Fluid
 
 **Price** 50 gp; **Weight** 10 lbs.
 
-This fluid is used to preserve corpses, whether for later dissection, taxidermy, necromancy, or magic such as _ [raise dead](/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead)_. Embalming fluid is technically a poison, and using it makes a corpse unpalatable to most animals and vermin, though corpse-eating undead don't mind the taste. Treating a corpse with embalming fluid takes 1 hour and a successful DC 25 [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) check. The embalmed corpse decays at half the normal rate (each day dead counts as half a day for the purpose of _ [raise dead](/pathfinderRPG/prd/spells/raiseDead.html#_raise-dead)_).
+This fluid is used to preserve corpses, whether for later dissection, taxidermy, necromancy, or magic such as _ [raise dead](spells/raiseDead.md#_raise-dead)_. Embalming fluid is technically a poison, and using it makes a corpse unpalatable to most animals and vermin, though corpse-eating undead don't mind the taste. Treating a corpse with embalming fluid takes 1 hour and a successful DC 25 [Heal](skills/heal.md#_heal) check. The embalmed corpse decays at half the normal rate (each day dead counts as half a day for the purpose of _ [raise dead](spells/raiseDead.md#_raise-dead)_).
 
 Foaming Powder
 
 **Price** 10 gp; **Weight** 1 lb.
 
-When you add this 1-pound bag of green powder to a gallon of water, the two combine to form 50 cubic feet of thick green foam. Unless contained, in 1 round the foam fills a 5-foot-square to a depth of 2 feet. When multiple pounds of powder are used, the foam expands at a rate of one 5-foot square per round. Ground covered with the foam is treated as difficult terrain, but is otherwise harmless. After 1 hour, the foam hardens to form a buoyant material roughly the density of honeycomb. The cured foam is easy to cut, with hardness 0 and 5 hit points per foot of thickness. The cured foam breaks down over a few days, and even faster if exposed to water. Casting _ [transmute mud to rock](/pathfinderRPG/prd/spells/transmuteMudToRock.html#_transmute-mud-to-rock)_ on uncured foam converts it into a soft, pumice-like stone (hardness 2, 5 hit points per inch of thickness).
+When you add this 1-pound bag of green powder to a gallon of water, the two combine to form 50 cubic feet of thick green foam. Unless contained, in 1 round the foam fills a 5-foot-square to a depth of 2 feet. When multiple pounds of powder are used, the foam expands at a rate of one 5-foot square per round. Ground covered with the foam is treated as difficult terrain, but is otherwise harmless. After 1 hour, the foam hardens to form a buoyant material roughly the density of honeycomb. The cured foam is easy to cut, with hardness 0 and 5 hit points per foot of thickness. The cured foam breaks down over a few days, and even faster if exposed to water. Casting _ [transmute mud to rock](spells/transmuteMudToRock.md#_transmute-mud-to-rock)_ on uncured foam converts it into a soft, pumice-like stone (hardness 2, 5 hit points per inch of thickness).
 
 Glowing Ink
 
 **Price** 5 gp; **Weight** —
 
-Often extracted from phosphorescent insects, tiny marine plants, or subterranean fungi, glowing ink emits a faint but steady light (typically red or green) that allows you to read it in normal darkness—this includes darkness created by spells like _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, but not the supernatural darkness created by _ [deeper darkness](/pathfinderRPG/prd/spells/deeperDarkness.html#_deeper-darkness)_. If there is glowing ink on an object, you have a +2 bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks to locate it. Mixing glowing ink with marker dye makes the dye glow in the dark until it fades.
+Often extracted from phosphorescent insects, tiny marine plants, or subterranean fungi, glowing ink emits a faint but steady light (typically red or green) that allows you to read it in normal darkness—this includes darkness created by spells like _ [darkness](spells/darkness.md#_darkness)_, but not the supernatural darkness created by _ [deeper darkness](spells/deeperDarkness.md#_deeper-darkness)_. If there is glowing ink on an object, you have a +2 bonus on [Perception](skills/perception.md#_perception) checks to locate it. Mixing glowing ink with marker dye makes the dye glow in the dark until it fades.
 
 Impact Foam
 
@@ -147,7 +147,7 @@ Invisible Ink
 | Good | 25 gp | — |
 | Superior | 75 gp | — |
 
-Invisible ink is a staple of spies, rebels, and secret societies everywhere. Messages written with invisible ink only become visible under specific circumstances. Revealing the secret message with the proper triggering agent is a full-round action per page of text. A successful [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) check reveals the message without the proper trigger and takes 1 hour (the DC varies by ink quality).
+Invisible ink is a staple of spies, rebels, and secret societies everywhere. Messages written with invisible ink only become visible under specific circumstances. Revealing the secret message with the proper triggering agent is a full-round action per page of text. A successful [Craft](skills/craft.md#_craft) (alchemy) check reveals the message without the proper trigger and takes 1 hour (the DC varies by ink quality).
 
 _Simple_: This ink is keyed to a single, fairly common trigger, such as heat or vinegar (DC 20 to reveal without the trigger).
 
@@ -173,7 +173,7 @@ Mending Paste
 
 **Price** 25 gp; **Weight** 1/2 lb.
 
-You can use this smelly, silvery paste to temporarily repair metal objects. It is sold in a sealed flask and reacts with air, turning solid in 1d6+4 minutes. You must make an appropriate DC 20 [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) check to repair a metal item with the broken condition; success means the object loses the broken condition but gains the fragile condition (see page 22). Increase the DC by +5 if the broken object is a magic item or by +5 if it is a firearm (add both modifiers if the item is a magical firearm). If the check fails, the mending paste is consumed but you may try again with another flask or conventional repair methods.
+You can use this smelly, silvery paste to temporarily repair metal objects. It is sold in a sealed flask and reacts with air, turning solid in 1d6+4 minutes. You must make an appropriate DC 20 [Craft](skills/craft.md#_craft) check to repair a metal item with the broken condition; success means the object loses the broken condition but gains the fragile condition (see page 22). Increase the DC by +5 if the broken object is a magic item or by +5 if it is a firearm (add both modifiers if the item is a magical firearm). If the check fails, the mending paste is consumed but you may try again with another flask or conventional repair methods.
 
 Nushadir
 
@@ -185,7 +185,7 @@ Rusting Powder
 
 **Price** 60 gp; **Weight** —
 
-This flaky brown powder derived from rust monster fluids causes iron and similar metals to corrode and fall apart. If you apply a dose of rusting powder to a metal lock or trap as part of using the [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) skill, you gain a +5 alchemical bonus to open the lock or disable the trap, but there is a 75% chance that the mechanism is destroyed and cannot be used afterward. If the check fails, the mechanism is destroyed. A destroyed lock cannot be unlocked (but still counts as locked for the purpose opening the locked object). A destroyed trap mechanism immediately triggers the trap. If you fail the DC by 5 or more, the powder also lands on an object in your square (including possibly your armor or weapon), dealing 5 hit points of damage to the object.
+This flaky brown powder derived from rust monster fluids causes iron and similar metals to corrode and fall apart. If you apply a dose of rusting powder to a metal lock or trap as part of using the [Disable Device](skills/disableDevice.md#_disable-device) skill, you gain a +5 alchemical bonus to open the lock or disable the trap, but there is a 75% chance that the mechanism is destroyed and cannot be used afterward. If the check fails, the mechanism is destroyed. A destroyed lock cannot be unlocked (but still counts as locked for the purpose opening the locked object). A destroyed trap mechanism immediately triggers the trap. If you fail the DC by 5 or more, the powder also lands on an object in your square (including possibly your armor or weapon), dealing 5 hit points of damage to the object.
 
 Rusting powder is sold in a paper tube; you apply it by tearing the ends off the tube and blowing the flakes into the target device. Rusting powder does not affect gold, silver, copper, bronze, brass, or mithral, but easily affects iron, steel, and adamantine.
 
@@ -205,7 +205,7 @@ Smokestick
 
 **Price** 20 gp; **Weight** 1/2 lb.
 
-This alchemically treated wooden stick instantly creates thick, opaque smoke when burned. The smoke fills a 10-foot cube (treat the effect as a _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_ spell, except that a moderate or stronger wind dissipates the smoke in 1 round). The stick is consumed after 1 round, and the smoke dissipates naturally after 1 minute.
+This alchemically treated wooden stick instantly creates thick, opaque smoke when burned. The smoke fills a 10-foot cube (treat the effect as a _ [fog cloud](spells/fogCloud.md)_ spell, except that a moderate or stronger wind dissipates the smoke in 1 round). The stick is consumed after 1 round, and the smoke dissipates naturally after 1 minute.
 
 Sunrod
 

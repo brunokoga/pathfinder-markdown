@@ -1,6 +1,6 @@
 Circle of Death
 
-**Source** [_circle of death_](/pathfinderRPG/prd/spells/circleOfDeath.html#_circle-of-death)
+**Source** [_circle of death_](spells/circleOfDeath.md#_circle-of-death)
 
 The number of Hit Dice worth of creatures killed by the spell increases to 1d6 per caster level (maximum 20d6). Add your tier to the maximum HD of creatures that can be affected by the spell. (For example, at 3rd tier, a creature with 12 HD cannot be affected.)
 

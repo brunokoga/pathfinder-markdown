@@ -1,6 +1,6 @@
 # Armor as Damage Reduction
 
-While the armor and Armor Class system presented in the Pathfinder Roleplaying Game is tried and tested, some players may yet have a sense that it feels slightly off. That is to say, if a suit of armor is actually protecting the wearer from attacks that strike but simply fail to cause the wearer harm, why then do we say that armor reduces the chance of a hit? The abstraction has been clarified in the rules by defining what it means to be âhitâ in combat as actually being âhit in such a way as to effectively cause harm,â but this explanation is still not enough for some players.
+While the armor and Armor Class system presented in the Pathfinder Roleplaying Game is tried and tested, some players may yet have a sense that it feels slightly off. That is to say, if a suit of armor is actually protecting the wearer from attacks that strike but simply fail to cause the wearer harm, why then do we say that armor reduces the chance of a hit? The abstraction has been clarified in the rules by defining what it means to be “hit” in combat as actually being “hit in such a way as to effectively cause harm,” but this explanation is still not enough for some players.
 
 The following is an alternative system that allows armor to absorb the damage of attacks, rather than a system that provides an abstract way of determining when a hit does actual harm. Like all the rules presented in this chapter, it is a variant to the base system of the Pathfinder RPG. It is for GMs who want armor to reduce damage rather than increase Armor Class, and replaces the normal rules for armor.
 
@@ -30,13 +30,13 @@ Armor in this system keeps all of its normal statistics and qualities, but its a
 
 **Natural Armor Bonus and DR** : Like a creature's armor bonus, a natural armor bonus is also converted into damage reduction. If a creature is wearing armor and has a natural armor bonus, the creature adds its armor bonus to its natural armor bonus to determine the amount of DR/armor that it has (see Table 5–2).
 
-For instance, if a creature wearing a _+2 chain shirt_ has DR 6/armor is then subject to a _ [barkskin](/pathfinderRPG/prd/spells/barkskin.html#_barkskin) _spell cast by a 6th-level druid (gaining a +3 natural armor bonus), its DR becomes DR 9/armor for the duration of the spell. This DR is bypassed by adamantine, or the attacks of Huge or larger creatures.
+For instance, if a creature wearing a _+2 chain shirt_ has DR 6/armor is then subject to a _ [barkskin](spells/barkskin.md#_barkskin) _spell cast by a 6th-level druid (gaining a +3 natural armor bonus), its DR becomes DR 9/armor for the duration of the spell. This DR is bypassed by adamantine, or the attacks of Huge or larger creatures.
 
 A creature that has both DR from a source other than armor and a natural armor bonus gains the effects of an enhanced form of DR, similar to how the composition of the armor grants special DR/armor defenses (see Table 5–1). If a creature has magical armor, natural armor, and DR, it takes the best form of the special protection provided by both its armor and its mix of DR and natural armor to its DR/armor.
 
 For instance, if a creature has natural armor and DR/magic and is wearing adamantine armor, that creature's DR/armor functions as DR/—, and can be bypassed by Gargantuan or larger creatures, since the adamantine armor provides the best of the two damage reductions.
 
-**Unusual Creatures and Armor DR** : Amorphous or incorporeal creatures have an easier time bypassing DR/armor. When they attack a creature with DR/armor, they typically treat that DR as a fraction of the DR/armor. Attacks by incorporeal creatures entirely ignore the DR unless that DR comes from a force effect or from armor with the _ [ghost touch](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch)_ special armor quality. These traits are detailed in Table 5–3.
+**Unusual Creatures and Armor DR** : Amorphous or incorporeal creatures have an easier time bypassing DR/armor. When they attack a creature with DR/armor, they typically treat that DR as a fraction of the DR/armor. Attacks by incorporeal creatures entirely ignore the DR unless that DR comes from a force effect or from armor with the _ [ghost touch](magicItems/weapons.md#_weapons-ghost-touch)_ special armor quality. These traits are detailed in Table 5–3.
 
 # Critical Hits and Defense
 
@@ -52,7 +52,7 @@ For instance, if a Medium creature is hit with a crossbow fired by a Medium 6th-
 
 On a failed critical defense check, the target of the critical hit takes the damage for the critical hit. That damage is still reduced by the target of the critical hit's DR.
 
-**Fortification Special Armor Quality** : The _ [fortification](/pathfinderRPG/prd/magicItems/armor.html#_armor-fortification)_ special armor quality acts in concert with the check, coming into play if the armor check fails.
+**Fortification Special Armor Quality** : The _ [fortification](magicItems/armor.md#_armor-fortification)_ special armor quality acts in concert with the check, coming into play if the armor check fails.
 
 [Table: Armor Composition and DR]
 | Material | Dr Provided | Attacker Size to Bypass DR |
@@ -79,7 +79,7 @@ On a failed critical defense check, the target of the critical hit takes the dam
 | Attacking Creature Type | DR Modifier |
 | --- | --- |
 | Amorphousⁱ | ×1/2 |
-| Incorporeal | ×0 (×1 if DR is from a force effect or _ [ghost touch](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-ghost-touch)_ armor) |
+| Incorporeal | ×0 (×1 if DR is from a force effect or _ [ghost touch](magicItems/weapons.md#_weapons-ghost-touch)_ armor) |
 | Swarm of Tiny creatures | ×1/2 |
 | Swarm of Diminutive creatures | ×1/4 |
 | Swarm of Fine creatures | ×0 |

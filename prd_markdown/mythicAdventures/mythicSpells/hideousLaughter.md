@@ -1,6 +1,6 @@
 Hideous Laughter
 
-**Source** [_hideous laughter_](/pathfinderRPG/prd/spells/hideousLaughter.html#_hideous-laughter)
+**Source** [_hideous laughter_](spells/hideousLaughter.md#_hideous-laughter)
 
 A creature of a type different than your own doesn't gain a bonus on its saving throws against this spell. The affected target laughs so hard it hurts, and takes 1d6 points of nonlethal damage each round it spends laughing.
 

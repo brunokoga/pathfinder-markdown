@@ -26,19 +26,19 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** _+1 greatsword _+17/+12 (2d6+13/19â20)
+**Melee** _+1 greatsword _+17/+12 (2d6+13/19–20)
 
-**Ranged** mwk shortbow +11/+6 (1d6/Ã3)
+**Ranged** mwk shortbow +11/+6 (1d6/×3)
 
 **Special Attacks** weapon training (heavy blades +1)
 
 Tactics
 
-**Before Combat** The shadowdancer drinks her _potion of [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_. If she knows where the battle will take place, she scouts the location to find good hiding places.
+**Before Combat** The shadowdancer drinks her _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_. If she knows where the battle will take place, she scouts the location to find good hiding places.
 
-**During Combat** The shadowdancer drinks her potion of _ [blur](/pathfinderRPG/prd/spells/blur.html#_blur), _then keeps to the shadows, delivering greatsword attacks to foes on the perimeter of battle so she doesn't get dragged into the melee.
+**During Combat** The shadowdancer drinks her potion of _ [blur](spells/blur.md#_blur), _then keeps to the shadows, delivering greatsword attacks to foes on the perimeter of battle so she doesn't get dragged into the melee.
 
-**Base Statistics** Without_ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, the shadowdancer's statistics are **Melee** _+1 greatsword _+15/+10 (2d6+10/19â20); **Str** 18; **CMB** +12; **CMD** 26.
+**Base Statistics** Without_ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, the shadowdancer's statistics are **Melee** _+1 greatsword _+15/+10 (2d6+10/19–20); **Str** 18; **CMB** +12; **CMD** 26.
 
 Statistics
 
@@ -46,13 +46,13 @@ Statistics
 
 **Base Atk** +8; **CMB** +14; **CMD** 28
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Disruptive](/pathfinderRPG/prd/feats.html#_disruptive), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), Mobility, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Toughness](/pathfinderRPG/prd/feats.html#_toughness), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (greatsword), Weapon Specialization (greatsword)
+**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Disruptive](feats.md#_disruptive), [Dodge](feats.md#_dodge), [Lightning Reflexes](feats.md#_lightning-reflexes), Mobility, [Power Attack](feats.md#_power-attack), [Toughness](feats.md#_toughness), [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (greatsword), Weapon Specialization (greatsword)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +14, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +10, [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) +3, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +1, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +4, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography, local, religion) +2, Perception +12, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (dance) +4, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +6, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +14, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +10
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +14, [Climb](skills/climb.md#_climb) +10, [Handle Animal](skills/handleAnimal.md#_handle-animal) +3, [Heal](skills/heal.md#_heal) +1, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +4, [Knowledge](skills/knowledge.md#_knowledge) (geography, local, religion) +2, Perception +12, [Perform](skills/perform.md#_perform) (dance) +4, [Ride](skills/ride.md#_ride) +6, [Stealth](skills/stealth.md#_stealth) +14, [Swim](skills/swim.md#_swim) +10
 
 **SQ** armor training 2, hide in plain sight
 
-**Combat Gear** _potion of [blur](/pathfinderRPG/prd/spells/blur.html#_blur)_, _potion of [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength), potion of [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_; **Other Gear** _+1 chain shirt_, _+1 greatsword_, masterwork shortbow with 20 arrows, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +1_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection)_ _+1_, 219 gp
+**Combat Gear** _potion of [blur](spells/blur.md#_blur)_, _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength), potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_; **Other Gear** _+1 chain shirt_, _+1 greatsword_, masterwork shortbow with 20 arrows, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection)_ _+1_, 219 gp
 
 Like gnawing nightmares dwelling in shadow, blackstrikes stalk just out of sight, yet still close enough to strike.
 
@@ -76,7 +76,7 @@ Midnight Dancer CR 12
 
 NE Medium humanoid (human, orc)
 
-**Init** +2; **Senses** darkvision 90 ft., _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_; Perception +15
+**Init** +2; **Senses** darkvision 90 ft., _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_; Perception +15
 
 Defense
 
@@ -92,11 +92,11 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** _+1 dagger_ +12/+7 (1d4+3/19â20)
+**Melee** _+1 dagger_ +12/+7 (1d4+3/19–20)
 
-**Ranged** _+1 [light](/pathfinderRPG/prd/spells/light.html#_light) crossbow_ +12 (1d8+1/19â20)
+**Ranged** _+1 [light](spells/light.md#_light) crossbow_ +12 (1d8+1/19–20)
 
-**Special Attacks** bardic performance 24 rounds/day (move action; countersong, dirge of doom, distraction, fascinate, inspire competence +3, inspire courage +2, inspire greatness, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_)
+**Special Attacks** bardic performance 24 rounds/day (move action; countersong, dirge of doom, distraction, fascinate, inspire competence +3, inspire courage +2, inspire greatness, _ [suggestion](spells/suggestion.md#_suggestion)_)
 
 **Shadowdancer Spell-Like**  **Abilities** (CL 4th; concentration +8)
 
@@ -106,21 +106,21 @@ Offense
 
 **Bard Spells Known** (CL 9th; concentration +13)
 
-3rd (4/day)—_ [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [deep slumber](/pathfinderRPG/prd/spells/deepSlumber.html#_deep-slumber)_ (DC 18), _ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
+3rd (4/day)—_ [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _ [deep slumber](spells/deepSlumber.md#_deep-slumber)_ (DC 18), _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_
 
-2nd (5/day)—_ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [silence](/pathfinderRPG/prd/spells/silence.html#_silence)_ (DC 16), _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 17)
+2nd (5/day)—_ [darkness](spells/darkness.md#_darkness)_, _ [invisibility](spells/invisibility.md#_invisibility)_, _ [silence](spells/silence.md#_silence)_ (DC 16), _ [suggestion](spells/suggestion.md#_suggestion)_ (DC 17)
 
-1st (6/day)—_ [cure light wounds](/pathfinderRPG/prd/spells/cureLightWounds.html#_cure-light-wounds)_, _ [lesser confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion-lesser)_ (DC 16), _ [remove fear](/pathfinderRPG/prd/spells/removeFear.html#_remove-fear)_, _ [silent image](/pathfinderRPG/prd/spells/silentImage.html#_silent-image)_ (DC 15), _ [sleep](/pathfinderRPG/prd/spells/sleep.html#_sleep)_ (DC 16)
+1st (6/day)—_ [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, _ [lesser confusion](spells/confusion.md#_confusion-lesser)_ (DC 16), _ [remove fear](spells/removeFear.md#_remove-fear)_, _ [silent image](spells/silentImage.md#_silent-image)_ (DC 15), _ [sleep](spells/sleep.md#_sleep)_ (DC 16)
 
-0 (at will)—_ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ (DC 15), _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_ (DC 14), _ [lullaby](/pathfinderRPG/prd/spells/lullaby.html#_lullaby)_ (DC 15), _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [message](/pathfinderRPG/prd/spells/message.html#_message)_, _ [open/close](/pathfinderRPG/prd/spells/openClose.html#_open-close)_
+0 (at will)—_ [daze](spells/daze.md#_daze)_ (DC 15), _ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 14), _ [lullaby](spells/lullaby.md#_lullaby)_ (DC 15), _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [message](spells/message.md#_message)_, _ [open/close](spells/openClose.md#_open-close)_
 
 Tactics
 
-**Before Combat** The shadowdancer casts _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_.
+**Before Combat** The shadowdancer casts _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_.
 
 **During Combat** Keeping to the shadows at the edge of battle, the shadowdancer supports allies and uses crossbow shots and debilitating spells against enemies.
 
-**Base Statistics** Without _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_, the shadowdancer's statistics are **Senses** darkvision 90 ft.
+**Base Statistics** Without _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, the shadowdancer's statistics are **Senses** darkvision 90 ft.
 
 Statistics
 
@@ -128,15 +128,15 @@ Statistics
 
 **Base Atk** +9; **CMB** +11; **CMD** 25
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), Mobility, [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (enchantment)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), Mobility, [Spell Focus](feats.md#_spell-focus) (enchantment)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +15, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +10, [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) +12, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +10, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +6, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (dungeoneering) +19, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +14, Perception +15, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (act) +15, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (dance) +14, [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) +10, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +23, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +7, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +17
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +15, [Climb](skills/climb.md#_climb) +10, [Disable Device](skills/disableDevice.md#_disable-device) +12, [Disguise](skills/disguise.md#_disguise) +10, [Intimidate](skills/intimidate.md#_intimidate) +6, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering) +19, [Knowledge](skills/knowledge.md#_knowledge) (local) +14, Perception +15, [Perform](skills/perform.md#_perform) (act) +15, [Perform](skills/perform.md#_perform) (dance) +14, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +10, [Stealth](skills/stealth.md#_stealth) +23, [Swim](skills/swim.md#_swim) +7, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +17
 
 **Languages** Common, Goblin, Orc
 
 **SQ** bardic knowledge +4, hide in plain sight, lore master 1/day, orc blood, rogue talent (fast stealth), shadow jump (40 feet/day), summon shadow, versatile performance (act, dance), weapon familiarity
 
-**Combat Gear** _+1 human-bane bolts_ (5), _+1 undead-bane bolts_ (5); **Other Gear** _+3 leather armor_, _+1 dagger_, _+1 [light](/pathfinderRPG/prd/spells/light.html#_light) crossbow_ with 20 bolts, dagger, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +1_, _ [cloak of elvenkind](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-elvenkind)_, _ [headband of alluring charisma](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-alluring-charisma) +2_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, 1,038 gp
+**Combat Gear** _+1 human-bane bolts_ (5), _+1 undead-bane bolts_ (5); **Other Gear** _+3 leather armor_, _+1 dagger_, _+1 [light](spells/light.md#_light) crossbow_ with 20 bolts, dagger, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [cloak of elvenkind](magicItems/wondrousItems.md#_cloak-of-elvenkind)_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 1,038 gp
 
 These bards grant support though a subtle dance of shadows.
 
@@ -170,13 +170,13 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** _ [staff of frost](/pathfinderRPG/prd/magicItems/staves.html#_staff-of-frost)_ +10/+5 (1d4â2)
+**Melee** _ [staff of frost](magicItems/staves.md#_staff-of-frost)_ +10/+5 (1d4–2)
 
 **Special Attacks** +1 on attack rolls against goblinoid and reptilian humanoids
 
 **Gnome Spell-Like Abilities** (CL 17th; concentration +19)
 
-1/day—_ [dancing lights](/pathfinderRPG/prd/spells/dancingLights.html#_dancing-lights)_, _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_, _ [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation)_, _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+1/day—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
 
 **Arcane School**  **Spell-Like Abilities** (CL 10th; concentration +15)
 
@@ -192,27 +192,27 @@ At will—invisibility field (10 rounds/day)
 
 **Illusionist Spells Prepared** (CL 10th; concentration +15)
 
-5th—_ [feeblemind](/pathfinderRPG/prd/spells/feeblemind.html#_feeblemind) _(DC 20), _ [nightmare](/pathfinderRPG/prd/spells/nightmare.html#_nightmare)_ (DC 23), _ [shadow evocation](/pathfinderRPG/prd/spells/shadowEvocation.html#_shadow-evocation)_ (DC 23), _ [teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport)_
+5th—_ [feeblemind](spells/feeblemind.md#_feeblemind) _(DC 20), _ [nightmare](spells/nightmare.md#_nightmare)_ (DC 23), _ [shadow evocation](spells/shadowEvocation.md#_shadow-evocation)_ (DC 23), _ [teleport](spells/teleport.md#_teleport)_
 
-4th—_ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_ (DC 19), _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater)_, _ [phantasmal killer](/pathfinderRPG/prd/spells/phantasmalKiller.html#_phantasmal-killer)_ (DC 22), _ [solid fog](/pathfinderRPG/prd/spells/solidFog.html#_solid-fog)_, _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_
+4th—_ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 19), _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_, _ [phantasmal killer](spells/phantasmalKiller.md#_phantasmal-killer)_ (DC 22), _ [solid fog](spells/solidFog.md#_solid-fog)_, _ [stoneskin](spells/stoneskin.md#_stoneskin)_
 
-3rd—_ [blink](/pathfinderRPG/prd/spells/blink.html#_blink)_, _ [displacement](/pathfinderRPG/prd/spells/displacement.html#_displacement)_, _ [fly](/pathfinderRPG/prd/spells/fly.html)_, _ [major image](/pathfinderRPG/prd/spells/majorImage.html#_major-image)_ (DC 21), _ [slow](/pathfinderRPG/prd/spells/slow.html#_slow)_ (DC 18)
+3rd—_ [blink](spells/blink.md#_blink)_, _ [displacement](spells/displacement.md#_displacement)_, _ [fly](spells/fly.md)_, _ [major image](spells/majorImage.md#_major-image)_ (DC 21), _ [slow](spells/slow.md#_slow)_ (DC 18)
 
-2nd—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_, _ [darkness](/pathfinderRPG/prd/spells/darkness.html#_darkness)_, _ [hypnotic pattern](/pathfinderRPG/prd/spells/hypnoticPattern.html#_hypnotic-pattern)_ (DC 20), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ (2), _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_
+2nd—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_, _ [darkness](spells/darkness.md#_darkness)_, _ [hypnotic pattern](spells/hypnoticPattern.md#_hypnotic-pattern)_ (DC 20), _ [invisibility](spells/invisibility.md#_invisibility)_ (2), _ [resist energy](spells/resistEnergy.md#_resist-energy)_
 
-1st—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 16), _ [color spray](/pathfinderRPG/prd/spells/colorSpray.html#_color-spray)_ (DC 19), _ [feather fall](/pathfinderRPG/prd/spells/featherFall.html#_feather-fall)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_ (2), _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_
+1st—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 16), _ [color spray](spells/colorSpray.md#_color-spray)_ (DC 19), _ [feather fall](spells/featherFall.md#_feather-fall)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_ (2), _ [shield](spells/shield.md#_shield)_
 
-0 (at will)—_ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ (DC 15), _ [ghost sound](/pathfinderRPG/prd/spells/ghostSound.html#_ghost-sound)_ (DC 18), _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_
+0 (at will)—_ [daze](spells/daze.md#_daze)_ (DC 15), _ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 18), _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_
 
 **Opposition Schools** divination, necromancy
 
 Tactics
 
-**Before Combat** The shadowdancer casts _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_ and _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_.
+**Before Combat** The shadowdancer casts _ [mage armor](spells/mageArmor.md#_mage-armor)_ and _ [stoneskin](spells/stoneskin.md#_stoneskin)_.
 
-**During Combat** The shadowdancer casts _ [greater invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility-greater) _and _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, then harries his foes with _ [phantasmal killer](/pathfinderRPG/prd/spells/phantasmalKiller.html#_phantasmal-killer)_, _ [hypnotic pattern](/pathfinderRPG/prd/spells/hypnoticPattern.html#_hypnotic-pattern)_, and spells from his _ [staff of frost](/pathfinderRPG/prd/magicItems/staves.html#_staff-of-frost)_.
+**During Combat** The shadowdancer casts _ [greater invisibility](spells/invisibility.md#_invisibility-greater) _and _ [shield](spells/shield.md#_shield)_, then harries his foes with _ [phantasmal killer](spells/phantasmalKiller.md#_phantasmal-killer)_, _ [hypnotic pattern](spells/hypnoticPattern.md#_hypnotic-pattern)_, and spells from his _ [staff of frost](magicItems/staves.md#_staff-of-frost)_.
 
-**Base Statistics** Without _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_ and _ [stoneskin](/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin)_, the shadowdancer's statistics are **AC** 19, touch 17, flat-footed 16; **DR** none.
+**Base Statistics** Without _ [mage armor](spells/mageArmor.md#_mage-armor)_ and _ [stoneskin](spells/stoneskin.md#_stoneskin)_, the shadowdancer's statistics are **AC** 19, touch 17, flat-footed 16; **DR** none.
 
 Statistics
 
@@ -220,15 +220,15 @@ Statistics
 
 **Base Atk** +10; **CMB** +7; **CMD** 23
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Fleet](/pathfinderRPG/prd/feats.html#_fleet) (2), Greater [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (illusion), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), Mobility, [Scribe Scroll](/pathfinderRPG/prd/feats.html#_scribe-scroll), [Spell Focus](/pathfinderRPG/prd/feats.html#_spell-focus) (illusion), [Toughness](/pathfinderRPG/prd/feats.html#_toughness)
+**Feats** [Combat Casting](feats.md#_combat-casting), [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Fleet](feats.md#_fleet) (2), Greater [Spell Focus](feats.md#_spell-focus) (illusion), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), Mobility, [Scribe Scroll](feats.md#_scribe-scroll), [Spell Focus](feats.md#_spell-focus) (illusion), [Toughness](feats.md#_toughness)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +20, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +20, [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) +7, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +20, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +17, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +23, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (dungeoneering, geography) +13, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +23, Perception +20, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (dance) +8, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +23, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +24, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +2
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +20, [Bluff](skills/bluff.md#_bluff) +20, [Craft](skills/craft.md#_craft) (alchemy) +7, [Diplomacy](skills/diplomacy.md#_diplomacy) +20, [Fly](skills/fly.md#_fly) +17, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +23, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, geography) +13, [Knowledge](skills/knowledge.md#_knowledge) (planes) +23, Perception +20, [Perform](skills/perform.md#_perform) (dance) +8, [Spellcraft](skills/spellcraft.md#_spellcraft) +23, [Stealth](skills/stealth.md#_stealth) +24, [Swim](skills/swim.md#_swim) +2
 
 **Languages** Aklo, Common, Draconic, Gnome, Sylvan
 
-**SQ** arcane bond (_ [staff of frost](/pathfinderRPG/prd/magicItems/staves.html#_staff-of-frost)_), extended illusions (+5 rounds), hide in plain sight, rogue talents (combat trick, fast stealth), shadow jump (80 feet/day), summon shadow
+**SQ** arcane bond (_ [staff of frost](magicItems/staves.md#_staff-of-frost)_), extended illusions (+5 rounds), hide in plain sight, rogue talents (combat trick, fast stealth), shadow jump (80 feet/day), summon shadow
 
-**Combat Gear** _ [restorative ointment](/pathfinderRPG/prd/magicItems/wondrousItems.html#_restorative-ointment)_ (5 applications), _ [staff of frost](/pathfinderRPG/prd/magicItems/staves.html#_staff-of-frost)_ (10 charges); **Other Gear** _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +2_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +4,_ _ [headband of vast intelligence](/pathfinderRPG/prd/magicItems/wondrousItems.html#_headband-of-vast-intelligence) +2_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +3_, diamond dust (worth 500 gp), 3,800 gp
+**Combat Gear** _ [restorative ointment](magicItems/wondrousItems.md#_restorative-ointment)_ (5 applications), _ [staff of frost](magicItems/staves.md#_staff-of-frost)_ (10 charges); **Other Gear** _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +4,_ _ [headband of vast intelligence](magicItems/wondrousItems.md#_headband-of-vast-intelligence) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +3_, diamond dust (worth 500 gp), 3,800 gp
 
 These evasive spellcasters make frustrating enemies.
 
@@ -262,7 +262,7 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** _+1 [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming) short sword_ +25/+20/+15 (1d4+1/19â20 plus 1d6 fire)
+**Melee** _+1 [flaming](magicItems/weapons.md#_weapons-flaming) short sword_ +25/+20/+15 (1d4+1/19–20 plus 1d6 fire)
 
 **Ranged** _+1 sling_ +24/+19/+14 (1d3+1)
 
@@ -278,7 +278,7 @@ Offense
 
 Tactics
 
-**During Combat** The shadowdancer drinks his _potion of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility),_ summons a shadow to flank with him, and focuses on dropping foes one at a time.
+**During Combat** The shadowdancer drinks his _potion of [invisibility](spells/invisibility.md#_invisibility),_ summons a shadow to flank with him, and focuses on dropping foes one at a time.
 
 Statistics
 
@@ -286,15 +286,15 @@ Statistics
 
 **Base Atk** +14; **CMB** +13; **CMD** 35
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), Mobility, [Point-Blank Shot](/pathfinderRPG/prd/feats.html#_point-blank-shot), Spring Attack, Stand Still, [Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_two-weapon-fighting), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (short sword)
+**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), Mobility, [Point-Blank Shot](feats.md#_point-blank-shot), Spring Attack, Stand Still, [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Vital Strike](feats.md#_vital-strike), [Weapon Finesse](feats.md#_weapon-finesse), [Weapon Focus](feats.md#_weapon-focus) (short sword)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +28 (+24 when jumping), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +10, [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) +31, [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +16, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +7, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +8, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, engineering, planes) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (dungeoneering, local) +8, Perception +27, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (dance) +8, [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) +16, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +35, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +8, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +8
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +28 (+24 when jumping), [Climb](skills/climb.md#_climb) +10, [Disable Device](skills/disableDevice.md#_disable-device) +31, [Escape Artist](skills/escapeArtist.md#_escape-artist) +16, [Heal](skills/heal.md#_heal) +7, [Intimidate](skills/intimidate.md#_intimidate) +8, [Knowledge](skills/knowledge.md#_knowledge) (arcana, engineering, planes) +5, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, local) +8, Perception +27, [Perform](skills/perform.md#_perform) (dance) +8, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +16, [Stealth](skills/stealth.md#_stealth) +35, [Swim](skills/swim.md#_swim) +8, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +8
 
 **Languages** Common, Halfling
 
 **SQ** rogue talents (combat trick, defensive roll, fast stealth, finesse rogue, opportunist, stand up, surprise attack, trap spotter), shadow jump (320 feet/day), shadow master, summon shadow, trapfinding +5
 
-**Combat Gear** _+1 demon-bane bullets_ (5), _+1 human-bane bullets_ (5), _potions of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ (2), _potions of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ (2); **Other Gear** _+5 leather armor_, _+1 [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming) short sword_, _+1 sling_ with 20 bullets, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +3_, _ [bag of holding](/pathfinderRPG/prd/magicItems/wondrousItems.html#_bag-of-holding) _(type I), _ [belt of incredible dexterity](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-incredible-dexterity) +6_, _ [boots of speed](/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed)_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +4_, _ [glove of storing](/pathfinderRPG/prd/magicItems/wondrousItems.html#_glove-of-storing)_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +3_, _ [rope of climbing](/pathfinderRPG/prd/magicItems/wondrousItems.html#_rope-of-climbing)_, 3,969 gp
+**Combat Gear** _+1 demon-bane bullets_ (5), _+1 human-bane bullets_ (5), _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _potions of [invisibility](spells/invisibility.md#_invisibility)_ (2); **Other Gear** _+5 leather armor_, _+1 [flaming](magicItems/weapons.md#_weapons-flaming) short sword_, _+1 sling_ with 20 bullets, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +3_, _ [bag of holding](magicItems/wondrousItems.md#_bag-of-holding) _(type I), _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +6_, _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +4_, _ [glove of storing](magicItems/wondrousItems.md#_glove-of-storing)_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +3_, _ [rope of climbing](magicItems/wondrousItems.md#_rope-of-climbing)_, 3,969 gp
 
 Short but deadly, a darkstar skirts the shadows with his shadow companion.
 

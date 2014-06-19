@@ -1,12 +1,12 @@
 # Building and Modifying Constructs
 
-The [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct) feat allows a spellcaster to create all manner of permanent constructs in a process much like magic item creation. Each construct has a purchase price and a crafting cost, along with a list of requirements and the skills used to create them. Some require special materials in addition to the cost for basic crafting supplies, generally for the construct's body. Special material costs increase both the purchase price and the crafting cost of the construct. The DC to craft a construct is 5 + the default caster level of the construct, just like for a magic item. Like when crafting magic items, a creator with a sufficiently high skill bonus may ignore these requirements. Each missing requirement increases the [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) DC by 5. Regardless, the creator must meet all item creation feats and minimum caster level requirements. Crafting a construct takes 1 day per 1,000 gp in the item's base price, excluding any special material costs. This process is identical to the process for crafting a magic item, including the rules for accelerating creation and handling interruptions (see [Magic Item Creation](/pathfinderRPG/prd/magicItems/magicItemCreation.html#_magic-item-creation)).
+The [Craft Construct](monsters/monsterFeats.md#_craft-construct) feat allows a spellcaster to create all manner of permanent constructs in a process much like magic item creation. Each construct has a purchase price and a crafting cost, along with a list of requirements and the skills used to create them. Some require special materials in addition to the cost for basic crafting supplies, generally for the construct's body. Special material costs increase both the purchase price and the crafting cost of the construct. The DC to craft a construct is 5 + the default caster level of the construct, just like for a magic item. Like when crafting magic items, a creator with a sufficiently high skill bonus may ignore these requirements. Each missing requirement increases the [Craft](skills/craft.md#_craft) DC by 5. Regardless, the creator must meet all item creation feats and minimum caster level requirements. Crafting a construct takes 1 day per 1,000 gp in the item's base price, excluding any special material costs. This process is identical to the process for crafting a magic item, including the rules for accelerating creation and handling interruptions (see [Magic Item Creation](magicItems/magicItemCreation.md#_magic-item-creation)).
 
 ## Animated Objects
 
-Not all constructs are built with the [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct) feat. Spells like _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_ allow a caster to temporarily animate an existing object. These constructs are in many ways weaker than manufactured constructs, as they are susceptible to dispelling and antimagic.
+Not all constructs are built with the [Craft Construct](monsters/monsterFeats.md#_craft-construct) feat. Spells like _ [animate objects](spells/animateObjects.md#_animate-objects)_ allow a caster to temporarily animate an existing object. These constructs are in many ways weaker than manufactured constructs, as they are susceptible to dispelling and antimagic.
 
-A caster can use the _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_ spell to instantly create a temporary construct. A _ [permanency](/pathfinderRPG/prd/spells/permanency.html#_permanency)_ spell cast upon an animated object makes the construct permanent; however, it can still be dispelled or suppressed by antimagic. [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct) creates permanent animated objects not susceptible to dispelling and antimagic. The CR of a potential animated object depends on its size and abilities, as explained in the [animated object entry](/pathfinderRPG/prd/monsters/animatedObject.html#_animated-object).
+A caster can use the _ [animate objects](spells/animateObjects.md#_animate-objects)_ spell to instantly create a temporary construct. A _ [permanency](spells/permanency.md#_permanency)_ spell cast upon an animated object makes the construct permanent; however, it can still be dispelled or suppressed by antimagic. [Craft Construct](monsters/monsterFeats.md#_craft-construct) creates permanent animated objects not susceptible to dispelling and antimagic. The CR of a potential animated object depends on its size and abilities, as explained in the [animated object entry](monsters/animatedObject.md#_animated-object).
 
 Animated Object
 
@@ -14,11 +14,11 @@ Animated Object
 
 Construction
 
-**Requirements** [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_, _ [permanency](/pathfinderRPG/prd/spells/permanency.html#_permanency)_; **Skill** [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) or appropriate [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) skill; **Cost** 1/2 price
+**Requirements** [Craft Construct](monsters/monsterFeats.md#_craft-construct), _ [animate objects](spells/animateObjects.md#_animate-objects)_, _ [permanency](spells/permanency.md#_permanency)_; **Skill** [Spellcraft](skills/spellcraft.md#_spellcraft) or appropriate [Craft](skills/craft.md#_craft) skill; **Cost** 1/2 price
 
 ## New Animated Object Abilities
 
-The following are new abilities that can be applied to animated objects, whether created by the _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_ spell or with the [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct) feat. Adding to these abilities requires the expenditure of Construction Points (CP), as described in [the Animated Object description](/pathfinderRPG/prd/monsters/animatedObject.html#_animated-object).
+The following are new abilities that can be applied to animated objects, whether created by the _ [animate objects](spells/animateObjects.md#_animate-objects)_ spell or with the [Craft Construct](monsters/monsterFeats.md#_craft-construct) feat. Adding to these abilities requires the expenditure of Construction Points (CP), as described in [the Animated Object description](monsters/animatedObject.md#_animated-object).
 
 **Augmented Critical (Ex, 1 CP)** : Increase the threat range for the animated object's melee attacks by 1 or the threat multiplier by 1. This cannot combine with itself or with the piercing attack or slashing attack object abilities.
 
@@ -38,59 +38,59 @@ The following are new abilities that can be applied to animated objects, whether
 
 Constructs typically have no Intelligence score, an average Wisdom score, and a Charisma of 1. Their dexterity is usually poor to average, though exceptionally nimble constructs do exist. Nearly all constructs of size Medium or larger have high Strength scores; constructs never have a Constitution score.
 
-New constructs should stick fairly close to the [Monster Statistics by CR table](/pathfinderRPG/prd/monsters/monsterCreation.html#_table-1-1-monster-statistics-by-cr). As they are usually mindless combat brutes, most use the âhigh attackâ column, with damage falling in between the High and Low average damage columns. Note that all the construct's saving throws are likely to be poor, and they have no favored saves. Lacking a Constitution score, a construct's hit points also tend to be low in comparison to creatures with similar CRs. Consider giving any construct that doesn't have either damage reduction or hardness a higher AC to compensate.
+New constructs should stick fairly close to the [Monster Statistics by CR table](monsters/monsterCreation.md#_table-1-1-monster-statistics-by-cr). As they are usually mindless combat brutes, most use the “high attack” column, with damage falling in between the High and Low average damage columns. Note that all the construct's saving throws are likely to be poor, and they have no favored saves. Lacking a Constitution score, a construct's hit points also tend to be low in comparison to creatures with similar CRs. Consider giving any construct that doesn't have either damage reduction or hardness a higher AC to compensate.
 
 [Table: Constructs]
 | Name | CR | Materials | Price | Cost | Special Abilities |
 | --- | --- | --- | --- | --- | --- |
 | Tiny animated object | 1/2 | — | 250 gp | 125 gp | Variable |
-| [Homunculus](/pathfinderRPG/prd/monsters/homunculus.html#_homunculus) | 1 | 50 gp | 2,050 gp | 1,050 gp | Poison, telepathic link |
+| [Homunculus](monsters/homunculus.md#_homunculus) | 1 | 50 gp | 2,050 gp | 1,050 gp | Poison, telepathic link |
 | Small animated object | 2 | — | 2,000 gp | 1,000 gp | Variable |
-| [Iron cobra](/pathfinderRPG/prd/monsters/ironCobra.html#_iron-cobra) | 2 | — | 4,000 gp | 2,000 gp | Find target, poison |
-| [Darkwood cobra](/pathfinderRPG/prd/monsters/ironCobra.html#_darkwood-cobra) | 2 | — | 5,000 gp | 2,500 gp | Find target, poison |
-| [Soulbound doll](/pathfinderRPG/prd/additionalMonsters/soulboundDoll.html#_soulbound-doll) | 2 | 300 gp | 4,300 gp | 2,300 gp | DR, variable, susceptible to mind-affecting effects |
+| [Iron cobra](monsters/ironCobra.md#_iron-cobra) | 2 | — | 4,000 gp | 2,000 gp | Find target, poison |
+| [Darkwood cobra](monsters/ironCobra.md#_darkwood-cobra) | 2 | — | 5,000 gp | 2,500 gp | Find target, poison |
+| [Soulbound doll](additionalMonsters/soulboundDoll.md#_soulbound-doll) | 2 | 300 gp | 4,300 gp | 2,300 gp | DR, variable, susceptible to mind-affecting effects |
 | Medium animated object | 3 | — | 4,500 gp | 2,250 gp | Variable |
-| [Mithral cobra](/pathfinderRPG/prd/monsters/ironCobra.html#_mithral-cobra) | 3 | — | 10,000 gp | 5,000 gp | Find target, poison |
-| [Adamantine cobra](/pathfinderRPG/prd/monsters/ironCobra.html#_adamantine-cobra) | 3 | — | 20,000 gp | 10,000 gp | High DR, find target, poison |
-| [Necrophidius](/pathfinderRPG/prd/additionalMonsters/necrophidius.html#_necrophidius) | 3 | 1,000 gp | 7,500 gp | 4,425 gp | DR, dance of death, paralysis |
-| [Carrion golem](/pathfinderRPG/prd/additionalMonsters/golem.html#_golem,-carrion) | 4 | 500 gp | 10,500 gp | 5,500 gp | DR/bludgeoning or slashing, stench |
-| [Scarecrow](/pathfinderRPG/prd/additionalMonsters/scarecrow.html#_scarecrow) | 4 | 500 gp | 15,500 gp | 8,000 gp | Immune to cold, fascinating gaze, fear, vulnerable to fire |
+| [Mithral cobra](monsters/ironCobra.md#_mithral-cobra) | 3 | — | 10,000 gp | 5,000 gp | Find target, poison |
+| [Adamantine cobra](monsters/ironCobra.md#_adamantine-cobra) | 3 | — | 20,000 gp | 10,000 gp | High DR, find target, poison |
+| [Necrophidius](additionalMonsters/necrophidius.md#_necrophidius) | 3 | 1,000 gp | 7,500 gp | 4,425 gp | DR, dance of death, paralysis |
+| [Carrion golem](additionalMonsters/golem.md#_golem,-carrion) | 4 | 500 gp | 10,500 gp | 5,500 gp | DR/bludgeoning or slashing, stench |
+| [Scarecrow](additionalMonsters/scarecrow.md#_scarecrow) | 4 | 500 gp | 15,500 gp | 8,000 gp | Immune to cold, fascinating gaze, fear, vulnerable to fire |
 | Large animated object | 5 | — | 12,500 gp | 6,250 gp | Variable |
-| [Ice golem](/pathfinderRPG/prd/monsters/golem.html#_golem-ice) | 5 | 500 gp | 18,500 gp | 9,500 gp | Cold, golem, icy destruction |
-| [Wood golem](/pathfinderRPG/prd/monsters/golem.html#_golem-wood) | 6 | 300 gp | 19,300 gp | 9,800 gp | Golem, splintering |
+| [Ice golem](monsters/golem.md#_golem-ice) | 5 | 500 gp | 18,500 gp | 9,500 gp | Cold, golem, icy destruction |
+| [Wood golem](monsters/golem.md#_golem-wood) | 6 | 300 gp | 19,300 gp | 9,800 gp | Golem, splintering |
 | Huge animated object | 7 | — | 25,000 gp | 12,500 gp | Variable |
-| [Flesh golem](/pathfinderRPG/prd/monsters/golem.html#_golem-flesh) | 7 | 500 gp | 20,500 gp | 10,500 gp | Berserk, golem |
-| [Glass golem](/pathfinderRPG/prd/additionalMonsters/golem.html#_golem,-glass) | 8 | 1,000 gp | 33,000 gp | 17,000gp | DR, golem, deflect spells, dazzling brightness |
-| [Stained glass golem](/pathfinderRPG/prd/additionalMonsters/golem.html#_stained-glass-golems-(+0-cr)) | 8 | 1,000 gp | 39,400 gp | 20,200 gp | DR, golem, deflect spells, dazzling brightness |
-| [Alchemical golem](/pathfinderRPG/prd/additionalMonsters/golem.html#_golem,-alchemical) | 9 | 3,000 gp | 33,000 gp | 18,000 gp | High DR, golem, alchemy, bombs, splash |
+| [Flesh golem](monsters/golem.md#_golem-flesh) | 7 | 500 gp | 20,500 gp | 10,500 gp | Berserk, golem |
+| [Glass golem](additionalMonsters/golem.md#_golem,-glass) | 8 | 1,000 gp | 33,000 gp | 17,000gp | DR, golem, deflect spells, dazzling brightness |
+| [Stained glass golem](additionalMonsters/golem.md#_stained-glass-golems-(+0-cr)) | 8 | 1,000 gp | 39,400 gp | 20,200 gp | DR, golem, deflect spells, dazzling brightness |
+| [Alchemical golem](additionalMonsters/golem.md#_golem,-alchemical) | 9 | 3,000 gp | 33,000 gp | 18,000 gp | High DR, golem, alchemy, bombs, splash |
 | Gargantuan animated object | 9 | — | 40,000 gp | 20,000 g | Variable |
-| [Clay golem](/pathfinderRPG/prd/monsters/golem.html#_golem-clay) | 10 | 1,500 g | 41,500 gp | 21,500 gp | Special DR, golem, berserk, cursed wounds |
+| [Clay golem](monsters/golem.md#_golem-clay) | 10 | 1,500 g | 41,500 gp | 21,500 gp | Special DR, golem, berserk, cursed wounds |
 | Colossal animated object | 11 | — | 60,000 gp | 30,000 gp | Variable |
-| [Stone golem](/pathfinderRPG/prd/monsters/golem.html#_golem-stone) | 11 | 5,000 gp | 105,000 gp | 55,000 gp | Golem, full healing, minor spell vulnerabilities, slow |
-| [Clockwork golem](/pathfinderRPG/prd/additionalMonsters/golem.html#_golem,-clockwork) | 12 | 10,000 gp | 120,000 gp | 65,000 gp | High DR, golem, death burst, grind, wall of gears |
-| [Iron golem](/pathfinderRPG/prd/monsters/golem.html#_golem-iron) | 13 | 10,000 gp | 150,000 gp | 80,000 gp | High DR, golem, breath weapon |
-| [Mithral golem](/pathfinderRPG/prd/additionalMonsters/golem.html#_golem,-mithral) | 16 | 50,000 gp | 250,000 gp | 150,000 gp | High DR, golem, fluid form |
-| [Adamantine golem](/pathfinderRPG/prd/additionalMonsters/golem.html#_golem,-adamantine) | 19 | 100,000 gp | 600,000 gp | 350,000 gp | Epic DR, golem, indestructible, destructive strike |
+| [Stone golem](monsters/golem.md#_golem-stone) | 11 | 5,000 gp | 105,000 gp | 55,000 gp | Golem, full healing, minor spell vulnerabilities, slow |
+| [Clockwork golem](additionalMonsters/golem.md#_golem,-clockwork) | 12 | 10,000 gp | 120,000 gp | 65,000 gp | High DR, golem, death burst, grind, wall of gears |
+| [Iron golem](monsters/golem.md#_golem-iron) | 13 | 10,000 gp | 150,000 gp | 80,000 gp | High DR, golem, breath weapon |
+| [Mithral golem](additionalMonsters/golem.md#_golem,-mithral) | 16 | 50,000 gp | 250,000 gp | 150,000 gp | High DR, golem, fluid form |
+| [Adamantine golem](additionalMonsters/golem.md#_golem,-adamantine) | 19 | 100,000 gp | 600,000 gp | 350,000 gp | Epic DR, golem, indestructible, destructive strike |
 
 ## Pricing a New Construct
 
-This section provides guidelines for those seeking to calculate the costs of crafting their own constructs. As a rough guideline, a construct's price is equal to its challenge rating squared, then multiplied by 500 gp. Constructs with a fractional CR rating base their price on that fraction of 500 gp. For example, a CR 1/2 construct has a price of 250 gp. The cost of magical supplies for the [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct) feat is half this price, with the construct taking 1 day to create per 1,000 gp of the construct's base price. Some constructs, particularly golems, have additional raw material costs that must be paid in full, regardless of whether the creator possesses the [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct) feat. Raw materials typically cost somewhere between 5% and 10% of the construct's base price.
+This section provides guidelines for those seeking to calculate the costs of crafting their own constructs. As a rough guideline, a construct's price is equal to its challenge rating squared, then multiplied by 500 gp. Constructs with a fractional CR rating base their price on that fraction of 500 gp. For example, a CR 1/2 construct has a price of 250 gp. The cost of magical supplies for the [Craft Construct](monsters/monsterFeats.md#_craft-construct) feat is half this price, with the construct taking 1 day to create per 1,000 gp of the construct's base price. Some constructs, particularly golems, have additional raw material costs that must be paid in full, regardless of whether the creator possesses the [Craft Construct](monsters/monsterFeats.md#_craft-construct) feat. Raw materials typically cost somewhere between 5% and 10% of the construct's base price.
 
-Constructs with multiple special abilities cost more to create. The first special ability is included in the construct's base cost. The next two special abilities increase the calculated price by +1/2 CR per ability. Thereafter, any additional special abilities add +1 CR per ability. Examples of special abilities include having a higher DR value than a typical construct of its CR (above DR 5 for CRs 1–8, above DR 10 for CR 9+), monster statistics that exceed those recommended for the construct's CR (see [Monster Statistics by CR](/pathfinderRPG/prd/monsters/monsterCreation.html#_table-1-1-monster-statistics-by-cr)), the standard golem immunity to magic, DR or hardness that can't be overcome by all adamantine weapons, ability to be fully healed by a single spell, and most special attacks and special qualities.
+Constructs with multiple special abilities cost more to create. The first special ability is included in the construct's base cost. The next two special abilities increase the calculated price by +1/2 CR per ability. Thereafter, any additional special abilities add +1 CR per ability. Examples of special abilities include having a higher DR value than a typical construct of its CR (above DR 5 for CRs 1–8, above DR 10 for CR 9+), monster statistics that exceed those recommended for the construct's CR (see [Monster Statistics by CR](monsters/monsterCreation.md#_table-1-1-monster-statistics-by-cr)), the standard golem immunity to magic, DR or hardness that can't be overcome by all adamantine weapons, ability to be fully healed by a single spell, and most special attacks and special qualities.
 
-Particularly powerful special abilities, such as an iron golem's exceptionally high attack bonus, count as two lesser abilities. Animated objects are a special case—their base price is not increased by any abilities paid for with Construction Points (see [the Animated Object description](/pathfinderRPG/prd/monsters/animatedObject.html#_animated-object)), since these abilities are already factored into an animated object's CR. In addition, golems and homunculi created with extra Hit Dice, the advanced template, or shield guardian abilities should all be priced as described previously, rather than by adjusting pricing for their new CR.
+Particularly powerful special abilities, such as an iron golem's exceptionally high attack bonus, count as two lesser abilities. Animated objects are a special case—their base price is not increased by any abilities paid for with Construction Points (see [the Animated Object description](monsters/animatedObject.md#_animated-object)), since these abilities are already factored into an animated object's CR. In addition, golems and homunculi created with extra Hit Dice, the advanced template, or shield guardian abilities should all be priced as described previously, rather than by adjusting pricing for their new CR.
 
 Abilities that weaken or potentially place a construct at a disadvantage rarely reduce the construct's price. An exception is the berserk ability. Constructs that have a chance of going berserk receive –1 CR adjustment to their calculated price if control can be reestablished (like a flesh golem) or –2 CR adjustment for permanent loss of control (like a clay golem).
 
-The following is an example of the calculated costs for creating a stone golem (CR 11). A stone golem's special abilities are golem immunity to magic, full healing from _ [transmute mud to rock](/pathfinderRPG/prd/spells/transmuteMudToRock.html#_transmute-mud-to-rock)_, a high to-hit bonus (+22 vs. the +19 typical for CR 11), and the ability to slow its foes. Further, since its spell vulnerabilities are not tied to common spells or effects, its immunity to magic cost is doubled, giving the stone golem a total of 5 special abilities. The first special ability doesn't affect the cost, the next two increase the cost by +1/2 CR each, and the final two each increase the cost by +1 CR individually, making its effective CR for pricing equal to 14. This produces a calculated price of 98,000 gp, rounded up to an even 100,000 gp.
+The following is an example of the calculated costs for creating a stone golem (CR 11). A stone golem's special abilities are golem immunity to magic, full healing from _ [transmute mud to rock](spells/transmuteMudToRock.md#_transmute-mud-to-rock)_, a high to-hit bonus (+22 vs. the +19 typical for CR 11), and the ability to slow its foes. Further, since its spell vulnerabilities are not tied to common spells or effects, its immunity to magic cost is doubled, giving the stone golem a total of 5 special abilities. The first special ability doesn't affect the cost, the next two increase the cost by +1/2 CR each, and the final two each increase the cost by +1 CR individually, making its effective CR for pricing equal to 14. This produces a calculated price of 98,000 gp, rounded up to an even 100,000 gp.
 
 When designing a new construct, keep in mind that the above pricing formula only serves as a guideline. As with magic items, construct pricing remains more art than science, and like magic items, compare new constructs to existing ones for guidance. If you're not sure, err on the side of a higher price.
 
 # Repairing Constructs
 
-Even with the best of care, most constructs will eventually become damaged. Unless a construct suffers some sort of structural damage that radically alters its physical form, the construct continues to function at its full efficiency, and only falls apart once reduced to 0 hit points. Ideally, however, a construct should see some repair before it reaches that point. The _ [make whole](/pathfinderRPG/prd/spells/makeWhole.html#_make-whole)_ or _ [rapid repair](/pathfinderRPG/prd/ultimateMagic/spells/rapidRepair.html#_rapid-repair)_ spells provide the easiest way to keep a construct in good condition. Both spells repair damaged constructs, even magic-immune ones like golems.
+Even with the best of care, most constructs will eventually become damaged. Unless a construct suffers some sort of structural damage that radically alters its physical form, the construct continues to function at its full efficiency, and only falls apart once reduced to 0 hit points. Ideally, however, a construct should see some repair before it reaches that point. The _ [make whole](spells/makeWhole.md#_make-whole)_ or _ [rapid repair](ultimateMagic/spells/rapidRepair.md#_rapid-repair)_ spells provide the easiest way to keep a construct in good condition. Both spells repair damaged constructs, even magic-immune ones like golems.
 
-Failing that, a crafter can repair a construct with the [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct) feat. When repairing a construct, its master spends 100 gp per Hit Die of the construct, and then makes a skill check as if he were crafting the construct with a DC of 5 less than the DC for crafting that construct. With a success, the construct regains 1d6 hit points per Hit Die of the construct. Completing a repair takes 1 day per 1,000 gp spent on the repair (minimum of 1 day). Repair in this way can only be performed while the construct is inanimate or nonfunctioning. At any time, a construct's creator can deactivate a construct under his control with a touch and a standard action.
+Failing that, a crafter can repair a construct with the [Craft Construct](monsters/monsterFeats.md#_craft-construct) feat. When repairing a construct, its master spends 100 gp per Hit Die of the construct, and then makes a skill check as if he were crafting the construct with a DC of 5 less than the DC for crafting that construct. With a success, the construct regains 1d6 hit points per Hit Die of the construct. Completing a repair takes 1 day per 1,000 gp spent on the repair (minimum of 1 day). Repair in this way can only be performed while the construct is inanimate or nonfunctioning. At any time, a construct's creator can deactivate a construct under his control with a touch and a standard action.
 
 A construct that has been completely destroyed cannot be repaired, though at the GM's option some of the materials may be usable in the construction of a new construct.
 
@@ -100,17 +100,17 @@ Additionally, some constructs have special means of repair, usually involving sp
 
 Standard constructs can be modified to enhance their base abilities, alter their appearance or function, or perform a variety of tasks beyond the intentions of their basic designs. Performing a modification provides a construct's creator with a simple way to create a unique construct. A modification can only be performed while the construct is inanimate or nonfunctioning.
 
-Performing modifications on one's own construct requires the [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct) feat, and the creator must pay any additional crafting requirements and/or costs associated with the modification. Completing a modification requires 1 day per 1,000 gp of the modification's base price (minimum 1 day).
+Performing modifications on one's own construct requires the [Craft Construct](monsters/monsterFeats.md#_craft-construct) feat, and the creator must pay any additional crafting requirements and/or costs associated with the modification. Completing a modification requires 1 day per 1,000 gp of the modification's base price (minimum 1 day).
 
 ## Basic Modifications
 
 These modifications are used to alter a construct's basic properties: Armor Class, Hit Dice, and weaponry.
 
-**Armor Modification** : This modification adds an enhancement bonus to the construct's natural armor bonus or adds a magic armor property. The cost for magical enhancements equals the cost for creating magic armor as described under [Creating Magic Armor](/pathfinderRPG/prd/magicItems/magicItemCreation.html#_creating-magic-armor).
+**Armor Modification** : This modification adds an enhancement bonus to the construct's natural armor bonus or adds a magic armor property. The cost for magical enhancements equals the cost for creating magic armor as described under [Creating Magic Armor](magicItems/magicItemCreation.md#_creating-magic-armor).
 
-**Hit Dice Modification** : Hit Dice represent the overall strength and power of a construct. They affect a number of subsequent abilities, including hit points, saving throws, and base attacks. Determine the effects of a Hit Dice modification using the rules for adding creature Hit Dice using the information in [Monster Creation](/pathfinderRPG/prd/monsters/monsterCreation.html). Because a construct's size is limited, a Hit Dice modification cannot increase its size. Therefore Hit Dice modification can never increase the base construct's Hit Dice beyond 50% of its total HD. Some constructs have a defined cost for increasing Hit Dice. To calculate the cost per Hit Die of other constructs, divide the construct's construction cost by its existing Hit Dice.
+**Hit Dice Modification** : Hit Dice represent the overall strength and power of a construct. They affect a number of subsequent abilities, including hit points, saving throws, and base attacks. Determine the effects of a Hit Dice modification using the rules for adding creature Hit Dice using the information in [Monster Creation](monsters/monsterCreation.md). Because a construct's size is limited, a Hit Dice modification cannot increase its size. Therefore Hit Dice modification can never increase the base construct's Hit Dice beyond 50% of its total HD. Some constructs have a defined cost for increasing Hit Dice. To calculate the cost per Hit Die of other constructs, divide the construct's construction cost by its existing Hit Dice.
 
-**Weapon Modification** : This modification enhances a construct's physical weaponry. This process includes adding actual weapons (such as blades or spiked chains) to the physical structure of the construct or enhancing existing weapons with additional magical properties. Structural changes alter the construct's damage only. A construct is automatically considered proficient with any weapon added to its structure as a weapon modification. The cost for adding a weapon is determined by the cost of the weapon or weapon enhancement added. The cost for magical enhancements to these weapons is the same as the cost for creating magic weapons as described under [Magic Items - Weapons](/pathfinderRPG/prd/magicItems/weapons.html). Performing a weapon modification also requires the [Craft Magical Arms and Armor](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_craft-magic-arms-and-armor) feat.
+**Weapon Modification** : This modification enhances a construct's physical weaponry. This process includes adding actual weapons (such as blades or spiked chains) to the physical structure of the construct or enhancing existing weapons with additional magical properties. Structural changes alter the construct's damage only. A construct is automatically considered proficient with any weapon added to its structure as a weapon modification. The cost for adding a weapon is determined by the cost of the weapon or weapon enhancement added. The cost for magical enhancements to these weapons is the same as the cost for creating magic weapons as described under [Magic Items - Weapons](magicItems/weapons.md). Performing a weapon modification also requires the [Craft Magical Arms and Armor](ultimateMagic/ultimateMagicFeats.md#_craft-magic-arms-and-armor) feat.
 
 **Ability Score Modification** : Using this modification, a crafter can permanently increase one of the construct's ability scores by +2 per modification. He cannot increase any abilities with a score of 0. The cost for permanently increasing an ability score is 5,000 gp.
 
@@ -120,7 +120,7 @@ These modifications represent more complex changes to the structure and function
 
 Bioconstruct Modification
 
-**Requirements** : [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), _ [regenerate](/pathfinderRPG/prd/spells/regenerate.html#_regenerate)_
+**Requirements** : [Craft Construct](monsters/monsterFeats.md#_craft-construct), _ [regenerate](spells/regenerate.md#_regenerate)_
 
 **CR Increase** : +1
 
@@ -136,7 +136,7 @@ _Brain_: This upgrade doesn't permit the golem to think independently, but inste
 
 Construct Armor
 
-**Requirements** : [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_, the construct modified must be the same size as the creator
+**Requirements** : [Craft Construct](monsters/monsterFeats.md#_craft-construct), [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [animate objects](spells/animateObjects.md#_animate-objects)_, the construct modified must be the same size as the creator
 
 **CR Increase** : +1
 
@@ -148,19 +148,19 @@ The construct's wearer retains his base attacks and saves. Construct armor count
 
 Crafter's Eyes
 
-**Requirements** : [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_
+**Requirements** : [Craft Construct](monsters/monsterFeats.md#_craft-construct), _ [scrying](spells/scrying.md#_scrying)_
 
 **CR Increase** : none
 
 **Cost** : 8,000 gp
 
-The crafter gives her construct crystalline eyes that permit her to use a _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ or _ [greater scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying-greater)_ spell to see from the perspective of her creation. This modification requires the crafter also to prepare a special crystalline orb magically bonded to the eyes, which serves as her focus for the _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ or _ [greater scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying-greater)_ spell. The cost of creating that focus is included in the cost of modifying the construct.
+The crafter gives her construct crystalline eyes that permit her to use a _ [scrying](spells/scrying.md#_scrying)_ or _ [greater scrying](spells/scrying.md#_scrying-greater)_ spell to see from the perspective of her creation. This modification requires the crafter also to prepare a special crystalline orb magically bonded to the eyes, which serves as her focus for the _ [scrying](spells/scrying.md#_scrying)_ or _ [greater scrying](spells/scrying.md#_scrying-greater)_ spell. The cost of creating that focus is included in the cost of modifying the construct.
 
-Unlike normal _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ or_ [greater scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying-greater)_, there is no chance of failure for viewing creatures though the sensor; the creator simply sees what the construct sees for the duration of the spell. Spells cast through the sensor still have the normal chance of operating through the construct's eyes.
+Unlike normal _ [scrying](spells/scrying.md#_scrying)_ or_ [greater scrying](spells/scrying.md#_scrying-greater)_, there is no chance of failure for viewing creatures though the sensor; the creator simply sees what the construct sees for the duration of the spell. Spells cast through the sensor still have the normal chance of operating through the construct's eyes.
 
 Construct Limb
 
-**Requirements** : [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), [Craft Magic Arms and Armor](/pathfinderRPG/prd/feats.html#_craft-magic-arms-and-armor), _ [animate objects](/pathfinderRPG/prd/spells/animateObjects.html#_animate-objects)_, Small or Tiny construct
+**Requirements** : [Craft Construct](monsters/monsterFeats.md#_craft-construct), [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [animate objects](spells/animateObjects.md#_animate-objects)_, Small or Tiny construct
 
 **CR Increase** : none
 
@@ -174,13 +174,13 @@ A construct limb counts as a heavy steel shield for purposes of determining AC, 
 
 ## Rune-Carved
 
-**Requirements** : [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), variable (see below).
+**Requirements** : [Craft Construct](monsters/monsterFeats.md#_craft-construct), variable (see below).
 
 **CR Increase** : none
 
 **Cost** : variable (see below)
 
-This subcategory of complex modification allows a construct's creator to carve a runic spell trigger into her creation. Choose one of the following runes. The cost of the rune and any prerequisites are detailed in the rune's description. Once per day, the first time the rune is triggered, its effect occurs. As an immediate action, the creator can attempt to delay the effect until the next time it is triggered. Doing so requires that the construct be within line of sight of the creator (or for the creator to be using _ [scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying)_ or _ [greater scrying](/pathfinderRPG/prd/spells/scrying.html#_scrying-greater) _through the crafter's eyes construct modification) and that the caster make a [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) check equal to 10 + the caster level of the rune's effect.
+This subcategory of complex modification allows a construct's creator to carve a runic spell trigger into her creation. Choose one of the following runes. The cost of the rune and any prerequisites are detailed in the rune's description. Once per day, the first time the rune is triggered, its effect occurs. As an immediate action, the creator can attempt to delay the effect until the next time it is triggered. Doing so requires that the construct be within line of sight of the creator (or for the creator to be using _ [scrying](spells/scrying.md#_scrying)_ or _ [greater scrying](spells/scrying.md#_scrying-greater) _through the crafter's eyes construct modification) and that the caster make a [Spellcraft](skills/spellcraft.md#_spellcraft) check equal to 10 + the caster level of the rune's effect.
 
 A construct can have more than one rune-carved modification, and even multiple runes of the same type. If it has multiple applications of the same rune, the first one goes off when it is first triggered, the second one goes off when the trigger happens next, and so on. Multiple runes of different types go off when first triggered, even if the different runes share similar triggers.
 
@@ -196,7 +196,7 @@ This modification is triggered the first time the modified construct takes damag
 
 Modification
 
-**Requirements** _ [symbol of pain](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)_; **Cost** 18,000 gp
+**Requirements** _ [symbol of pain](spells/symbolOfPain.md#_symbol-of-pain)_; **Cost** 18,000 gp
 
 Rune of Imprisonment
 
@@ -206,11 +206,11 @@ Trigger and Effect
 
 This rune is triggered the first time the construct is hit with a touch or ranged touch attack spell. The caster of the triggering spells must succeed at a DC 22 Will save or be captured, both body and soul, within a gem embedded in the modified construct's body. The gem holds the caster until either the gem or the construct is destroyed. A gem can only hold one creature at a time; once it captures a creature, the rune does not trigger again until the gem is replaced.
 
-While a creature is trapped within the gem, the gem is vulnerable to critical hits; if an attacker confirms a critical hit, the construct takes damage and the gem is destroyed, releasing the entrapped creature into a space adjacent to the construct. The broken gem must then be replaced before the _rune of [imprisonment](/pathfinderRPG/prd/spells/imprisonment.html#_imprisonment)_ can function again.
+While a creature is trapped within the gem, the gem is vulnerable to critical hits; if an attacker confirms a critical hit, the construct takes damage and the gem is destroyed, releasing the entrapped creature into a space adjacent to the construct. The broken gem must then be replaced before the _rune of [imprisonment](spells/imprisonment.md#_imprisonment)_ can function again.
 
 Modification
 
-**Requirements** _ [trap the soul](/pathfinderRPG/prd/spells/trapTheSoul.html#_trap-the-soul)_, gem worth 20,000 gp to serve as the rune's focus; **Cost** 57,600 gp
+**Requirements** _ [trap the soul](spells/trapTheSoul.md#_trap-the-soul)_, gem worth 20,000 gp to serve as the rune's focus; **Cost** 57,600 gp
 
 Rune of Lightning
 
@@ -222,7 +222,7 @@ This rune is triggered when the modified construct is hit by a melee attack. The
 
 Modification
 
-**Requirements** _ [shocking grasp](/pathfinderRPG/prd/spells/shockingGrasp.html#_shocking-grasp)_; **Cost** 2,000 gp
+**Requirements** _ [shocking grasp](spells/shockingGrasp.md#_shocking-grasp)_; **Cost** 2,000 gp
 
 Rune of Shielding
 
@@ -230,11 +230,11 @@ Rune of Shielding
 
 Trigger and Effect
 
-This rune is triggered the first time the modified construct is attacked with a melee attack, ranged attack, or _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_. The construct gains a +4 shield bonus to its Armor Class for 3 minutes. This is a force effect and applies against incorporeal touch attacks.
+This rune is triggered the first time the modified construct is attacked with a melee attack, ranged attack, or _ [magic missile](spells/magicMissile.md#_magic-missile)_. The construct gains a +4 shield bonus to its Armor Class for 3 minutes. This is a force effect and applies against incorporeal touch attacks.
 
 Modification
 
-**Requirements** _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_; **Cost** 1,200 gp
+**Requirements** _ [shield](spells/shield.md#_shield)_; **Cost** 1,200 gp
 
 Rune of Terror
 
@@ -246,11 +246,11 @@ This rune is triggered the first time a creature moves adjacent to the modified 
 
 Modification
 
-**Requirements** _ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_; **Cost** 11,200 gp
+**Requirements** _ [fear](spells/fear.md#_fear)_; **Cost** 11,200 gp
 
 ## Shatter Stash
 
-**Requirements** : [Craft Construct](/pathfinderRPG/prd/monsters/monsterFeats.html#_craft-construct), _ [shatter](/pathfinderRPG/prd/spells/shatter.html#_shatter)_, and variable (see below)
+**Requirements** : [Craft Construct](monsters/monsterFeats.md#_craft-construct), _ [shatter](spells/shatter.md#_shatter)_, and variable (see below)
 
 **CR Increase** : none
 
@@ -266,7 +266,7 @@ A 15-foot burst of corrosive liquid sprays out of the modified construct's stash
 
 Modification
 
-**Requirements** _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_; **Cost** 1,200 gp
+**Requirements** _ [fireball](spells/fireball.md#_fireball)_; **Cost** 1,200 gp
 
 Firebomb Stash
 
@@ -274,7 +274,7 @@ A 15-foot burst of fire explodes out of the modified construct's stash. Creature
 
 Modification
 
-**Requirements** _ [fireball](/pathfinderRPG/prd/spells/fireball.html#_fireball)_; **Cost** 1,200 gp
+**Requirements** _ [fireball](spells/fireball.md#_fireball)_; **Cost** 1,200 gp
 
 Frost Mist Stash
 
@@ -282,7 +282,7 @@ A 15-foot burst of frosty mist erupts out of the modified construct's stash. Any
 
 Modification
 
-**Requirements** _ [cone of cold](/pathfinderRPG/prd/spells/coneOfCold.html#_cone-of-cold)_; **Cost** 1,000 gp
+**Requirements** _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_; **Cost** 1,000 gp
 
 Lightning Lash Stash
 
@@ -290,7 +290,7 @@ A 30-foot burst of electricity cracks out of the modified construct's stash. Tho
 
 Modification
 
-**Requirements** _ [lightning bolt](/pathfinderRPG/prd/spells/lightningBolt.html#_lightning-bolt)_; **Cost** 1,200 gp
+**Requirements** _ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_; **Cost** 1,200 gp
 
 Willsap Gas Stash
 
@@ -298,5 +298,5 @@ A 15-foot burst of toxic gas hisses out of this stash. Living creatures within t
 
 Modification
 
-**Requirements** _ [stinking cloud](/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud)_; **Cost** 2,000 gp
+**Requirements** _ [stinking cloud](spells/stinkingCloud.md#_stinking-cloud)_; **Cost** 2,000 gp
 

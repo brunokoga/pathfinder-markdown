@@ -12,12 +12,12 @@ A select group of magi are called to carry a _black blade_—a sentient weapon o
 
 ## Black Blades
 
-A _black blade_ is a particular form of intelligent weapon gained by a magus with the bladebound archetype. There are several ways a magus might gain this weapon. Sometimes it just appears among the magus's possessions, and its origin is a mystery. Other times the magus finds a _black blade_ during an adventure or event of some kind. Sometimes a _black blade_ is passed down generation to generation in an ongoing search for a magus who can unlock its true potential. A _black blade_ is always a one-handed slashing weapon, a rapier, or a sword cane. The magus chooses the blade's type upon gaining the blade, and once chosen, it can't be changed. As a bladebound magus increases in level, his _black blade_ gains power. _A black blade _is independently conscious but features some personality traits reflecting its wielder. A _black blade _always has the same alignment as its wielder and even changes its alignment if its wielder does. The blade typically works toward its wielder's goals, but not always without argument or backlash. Each _black blade_ has a mission, and while sometimes two or more _black blades_ will work in concert, each mission is singular in purpose (the _black blade_'s mission is usually up to the GM and the needs of the campaign or the adventure, or a GM can roll randomly for the weapon's purpose using the [Intelligent Item Purpose table](/pathfinderRPG/prd/magicItems/intelligentItems.html#_table-15-25-intelligent-item-purpose)). Some _black blades_ are very open about their missions, but most are secretive. Certain sages have speculated that an invisible hand or arcane purpose moves these weapons.
+A _black blade_ is a particular form of intelligent weapon gained by a magus with the bladebound archetype. There are several ways a magus might gain this weapon. Sometimes it just appears among the magus's possessions, and its origin is a mystery. Other times the magus finds a _black blade_ during an adventure or event of some kind. Sometimes a _black blade_ is passed down generation to generation in an ongoing search for a magus who can unlock its true potential. A _black blade_ is always a one-handed slashing weapon, a rapier, or a sword cane. The magus chooses the blade's type upon gaining the blade, and once chosen, it can't be changed. As a bladebound magus increases in level, his _black blade_ gains power. _A black blade _is independently conscious but features some personality traits reflecting its wielder. A _black blade _always has the same alignment as its wielder and even changes its alignment if its wielder does. The blade typically works toward its wielder's goals, but not always without argument or backlash. Each _black blade_ has a mission, and while sometimes two or more _black blades_ will work in concert, each mission is singular in purpose (the _black blade_'s mission is usually up to the GM and the needs of the campaign or the adventure, or a GM can roll randomly for the weapon's purpose using the [Intelligent Item Purpose table](magicItems/intelligentItems.md#_table-15-25-intelligent-item-purpose)). Some _black blades_ are very open about their missions, but most are secretive. Certain sages have speculated that an invisible hand or arcane purpose moves these weapons.
 
 [Table: Black Blade Progression]
 | Magus Class Level | Enhancement Bonus | Int | Wis/Cha | Ego | Special |
 | --- | --- | --- | --- | --- | --- |
-| 3rd–4th | +1 | 11 | 7 | 5 | [Alertness](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_alertness), _black blade_ strike, telepathy, unbreakable |
+| 3rd–4th | +1 | 11 | 7 | 5 | [Alertness](ultimateMagic/ultimateMagicFeats.md#_alertness), _black blade_ strike, telepathy, unbreakable |
 | 5th–6th | +2 | 12 | 8 | 8 | Energy attunement |
 | 7th–8th | +2 | 13 | 9 | 10 | — |
 | 9th–10th | +3 | 14 | 10 | 12 | Teleport blade |
@@ -42,9 +42,9 @@ _Intelligence_: This is the intelligence score of the _black blade_. It starts a
 
 _Wisdom and Charisma_: As the bladebound magus increases in level, so do the Wisdom and Charisma of the _black blade_. These abilities start at 6 and increase by 1 for every two levels of magus.
 
-_Ego_: A _black blade_ starts with an ego of 5, and that ego increases as the blade becomes more powerful. In cases where a wielder and the _black blade_ come into conflict, like any intelligent item, a _black blade_ can attempt to exert its dominance using the [items against characters rules](/pathfinderRPG/prd/magicItems/intelligentItems.html#_items-against-characters). Due to its flexible and powerful nature, a _black blade_ has a nonstandard ego progression.
+_Ego_: A _black blade_ starts with an ego of 5, and that ego increases as the blade becomes more powerful. In cases where a wielder and the _black blade_ come into conflict, like any intelligent item, a _black blade_ can attempt to exert its dominance using the [items against characters rules](magicItems/intelligentItems.md#_items-against-characters). Due to its flexible and powerful nature, a _black blade_ has a nonstandard ego progression.
 
-_Languages and Skills_: A _black blade_ starts with Common as a language. As the _black blade_ increases in Intelligence, it manifests knowledge of languages and arcane lore. Upon reaching an Intelligence of 12, it gains a bonus language of the GM's choice, and gains 1 rank in [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana). Each time the sword gains a bonus to Intelligence, it gains another language and another rank in [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana).
+_Languages and Skills_: A _black blade_ starts with Common as a language. As the _black blade_ increases in Intelligence, it manifests knowledge of languages and arcane lore. Upon reaching an Intelligence of 12, it gains a bonus language of the GM's choice, and gains 1 rank in [Knowledge](skills/knowledge.md#_knowledge) (arcana). Each time the sword gains a bonus to Intelligence, it gains another language and another rank in [Knowledge](skills/knowledge.md#_knowledge) (arcana).
 
 _Senses_: A _black blade_ is aware of everything around it like a creature that can see and hear. It can be blinded and deafened as if it were a creature. It uses the saving throws of its magus, even if the magus is not currently wielding the _black blade_.
 
@@ -52,7 +52,7 @@ _Black Blade Arcane Pool_: A _black blade_ has an arcane pool with a number of p
 
 **Black Blade Ability Descriptions** : A _black blade_ has special abilities (or imparts abilities to its wielder) depending on the wielder's magus level. The abilities are cumulative. A _black blade_ normally refuses to use any of its abilities when wielded by anyone other than its magus, and acts as a masterwork weapon of its type.
 
-_Alertness (Ex)_: While a magus is wielding his _black blade_, he gains the [Alertness](/pathfinderRPG/prd/feats.html#_alertness) feat.
+_Alertness (Ex)_: While a magus is wielding his _black blade_, he gains the [Alertness](feats.md#_alertness) feat.
 
 _Black Blade Strike (Sp)_: As a free action, the magus can spend a point from the _black blade_'s arcane pool to grant the _black blade_ a +1 bonus on damage rolls for 1 minute. For every four levels beyond 1st, this ability gives the _black blade_ another +1 on damage rolls.
 
@@ -78,9 +78,9 @@ A hexcrafter magus has uncovered the secret of using his arcane pool to recreate
 
 **Hex Arcana** : A hexcrafter gains access to the following magus arcana, or may select any witch hex in place of a magus arcana. At 12th level, the hexcrafter may select a hex or major hex in place of a magus arcana. At 18th level, a hexcrafter can select a hex, major hex, or grand hex in place of a magus arcana. He cannot select any hex or arcana more than once.
 
-_Accursed Strike (Sp)_: A hexcrafter magus who can cast _ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_, _major curse_, or any spell with the curse descriptor can deliver these prepared spells using the spellstrike ability, even if the spells are not touch attack spells.
+_Accursed Strike (Sp)_: A hexcrafter magus who can cast _ [bestow curse](spells/bestowCurse.md#_bestow-curse)_, _major curse_, or any spell with the curse descriptor can deliver these prepared spells using the spellstrike ability, even if the spells are not touch attack spells.
 
-**Spells** : A hexcrafter magus adds the following spells to his magus spell list: _ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_, _ [major curse](/pathfinderRPG/prd/ultimateMagic/spells/curse.html#_curse,-major)_, and all other spells of 6th level or lower that have the curse descriptor.
+**Spells** : A hexcrafter magus adds the following spells to his magus spell list: _ [bestow curse](spells/bestowCurse.md#_bestow-curse)_, _ [major curse](ultimateMagic/spells/curse.md#_curse,-major)_, and all other spells of 6th level or lower that have the curse descriptor.
 
 **Magus Arcana** : The following magus arcana complement the hexcrafter archetype: arcane accuracy, broad study, familiar, and quicken magic.
 
@@ -106,7 +106,7 @@ While most magi use a one-handed weapon as their melee implement of choice, one 
 
 **Weapon and Armor Proficiency** : A staff magus is proficient with simple weapons only. He can cast magus spells while wearing light armor without incurring the normal arcane spell failure chance. Like any other arcane spellcaster, a magus wearing medium armor or heavy armor or using a shield incurs a chance of arcane spell failure if the spell in question has a somatic component. A multiclass magus still incurs the normal arcane spell failure chance for arcane spells received from other classes. This replaces the normal magus weapon and armor proficiency feature.
 
-**Quarterstaff Master (Ex)** : At 1st level, the staff magus gains the [Quarterstaff Master](/pathfinderRPG/prd/ultimateMagic/ultimateMagicFeats.html#_quarterstaff-master-(combat)) feat as a bonus feat, even if he does not meet the normal prerequisites. He only gains the benefit of this feat when wearing no armor or light armor.
+**Quarterstaff Master (Ex)** : At 1st level, the staff magus gains the [Quarterstaff Master](ultimateMagic/ultimateMagicFeats.md#_quarterstaff-master-(combat)) feat as a bonus feat, even if he does not meet the normal prerequisites. He only gains the benefit of this feat when wearing no armor or light armor.
 
 **Quarterstaff Defense (Ex)** : At 7th level, while wielding a quarterstaff, the staff magus gains a shield bonus to his Armor Class equal to the enhancement bonus of the quarterstaff, including any enhancement bonus on that staff from his arcane pool class feature. At 13th level, this bonus increases by +3. This ability replaces the medium armor and heavy armor class abilities.
 

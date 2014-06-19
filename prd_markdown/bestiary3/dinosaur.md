@@ -8,7 +8,7 @@ XP 800
 
 N Large animal
 
-**Init** +6; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +6
+**Init** +6; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +6
 
 Defense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +9; **CMD** 21 (25 vs. trip)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (bite)
+**Feats** [Improved Initiative](feats.md#_improved-initiative), [Weapon Focus](feats.md#_weapon-focus) (bite)
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +6, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +3
+**Skills** [Perception](skills/perception.md#_perception) +6, [Stealth](skills/stealth.md#_stealth) +3
 
 Ecology
 
@@ -64,7 +64,7 @@ XP 2,400
 
 N Huge animal
 
-**Init** +2; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12
+**Init** +2; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +12
 
 Defense
 
@@ -90,9 +90,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +16; **CMD** 28 (32 vs. trip)
 
-**Feats** [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Run](/pathfinderRPG/prd/feats.html#_run), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (claw)
+**Feats** [Power Attack](feats.md#_power-attack), [Run](feats.md#_run), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception)), [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth)), [Weapon Focus](feats.md#_weapon-focus) (claw)
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +12, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +4
+**Skills** [Perception](skills/perception.md#_perception) +12, [Stealth](skills/stealth.md#_stealth) +4
 
 Ecology
 
@@ -121,7 +121,7 @@ XP 1,200
 
 N Large animal
 
-**Init** +2; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8
+**Init** +2; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +8
 
 Defense
 
@@ -147,9 +147,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +10; **CMD** 22
 
-**Feats** Improved Bull Rush, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Run](/pathfinderRPG/prd/feats.html#_run)
+**Feats** Improved Bull Rush, [Power Attack](feats.md#_power-attack), [Run](feats.md#_run)
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +2
+**Skills** [Perception](skills/perception.md#_perception) +8, [Stealth](skills/stealth.md#_stealth) +2
 
 Ecology
 
@@ -177,7 +177,7 @@ XP 12,800
 
 N Gargantuan animal
 
-**Init** +6; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +25
+**Init** +6; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +25
 
 Defense
 
@@ -191,11 +191,11 @@ Offense
 
 **Speed** 40 ft., swim 30 ft.
 
-**Melee** bite +23 (2d8+12/19–20 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), 2 claws +23 (2d6+12)
+**Melee** bite +23 (2d8+12/19–20 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 claws +23 (2d6+12)
 
 **Space** 20 ft.; **Reach** 20 ft.
 
-**Special Attacks** [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce), swallow whole (2d8+12, AC 18, 17 hp)
+**Special Attacks** [pounce](monsters/universalMonsterRules.md#_pounce), swallow whole (2d8+12, AC 18, 17 hp)
 
 Statistics
 
@@ -203,11 +203,11 @@ Statistics
 
 **Base Atk** +15; **CMB** +31 (+35 grapple); **CMD** 43
 
-**Feats** [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), [Diehard](/pathfinderRPG/prd/feats.html#_diehard), [Endurance](/pathfinderRPG/prd/feats.html#_endurance), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Run](/pathfinderRPG/prd/feats.html#_run), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Staggering Critical](/pathfinderRPG/prd/feats.html#_staggering-critical)
+**Feats** [Critical Focus](feats.md#_critical-focus), [Diehard](feats.md#_diehard), [Endurance](feats.md#_endurance), [Improved Critical](feats.md#_improved-critical) (bite), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), [Run](feats.md#_run), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception)), [Staggering Critical](feats.md#_staggering-critical)
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +25, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +28
+**Skills** [Perception](skills/perception.md#_perception) +25, [Swim](skills/swim.md#_swim) +28
 
-**SQ** [hold breath](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_hold-breath)
+**SQ** [hold breath](monsters/universalMonsterRules.md#_hold-breath)
 
 Ecology
 

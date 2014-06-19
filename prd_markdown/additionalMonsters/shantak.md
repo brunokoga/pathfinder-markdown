@@ -6,9 +6,9 @@ Larger than an elephant, this scaly, bird-like creature has a vaguely horse-like
 
 **XP 4,800**
 
-CE Huge [magical beast](/pathfinderRPG/prd/monsters/creatureTypes.html#_magical-beast)
+CE Huge [magical beast](monsters/creatureTypes.md#_magical-beast)
 
-**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +3
+**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +3
 
 Defense
 
@@ -18,13 +18,13 @@ Defense
 
 **Fort** +11, **Ref** +10, **Will** +6
 
-**Defensive Abilities** slippery; **Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su))
+**Defensive Abilities** slippery; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su))
 
 Offense
 
 **Speed** 20 ft., fly 80 ft. (average)
 
-**Melee** bite +17 (2d6+8) 2 talons +17 (1d8+8 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +17 (2d6+8) 2 talons +17 (1d8+8 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
@@ -34,17 +34,17 @@ Statistics
 
 **Base Atk** +11; **CMB** +21 (+25 grapple); **CMD** 34 (42 vs. grapple)
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_awesome-blow), [Flyby Attack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack), [Hover](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover), [Improved Bull Rush](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Wingover](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_wingover)
+**Feats** [Awesome Blow](additionalMonsters/../monsters/monsterFeats.md#_awesome-blow), [Flyby Attack](additionalMonsters/../monsters/monsterFeats.md#_flyby-attack), [Hover](additionalMonsters/../monsters/monsterFeats.md#_hover), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Wingover](additionalMonsters/../monsters/monsterFeats.md#_wingover)
 
-**Skills** [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +11, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +13; **Racial Modifiers** +8 [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist)
+**Skills** [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +11, [Fly](additionalMonsters/../skills/fly.md#_fly) +13; **Racial Modifiers** +8 [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist)
 
 **Languages** Aklo
 
-**SQ** [no breath](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_no-breath), share defenses, starflight
+**SQ** [no breath](monsters/universalMonsterRules.md#_no-breath), share defenses, starflight
 
 Ecology
 
-**Environment** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) mountains
+**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) mountains
 
 **Organization** solitary, pair, or flock (3–12)
 
@@ -52,9 +52,9 @@ Ecology
 
 Special Abilities
 
-**Share Defenses (Su)** As a free action, a shantak can extend its [no breath](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_no-breath) ability and [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) [immunity](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_immunity-(ex-or-su)) to a single creature touching it. It can withdraw this protection as a free action.
+**Share Defenses (Su)** As a free action, a shantak can extend its [no breath](monsters/universalMonsterRules.md#_no-breath) ability and [cold](monsters/creatureTypes.md#_cold-subtype) [immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to a single creature touching it. It can withdraw this protection as a free action.
 
-**Slippery (Ex)** A shantak's scales seep slippery slime. This grants the creature a +8 bonus on all [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) checks and to its CMD against grapples, and imparts a –5 penalty on all [Ride](/pathfinderRPG/prd/additionalMonsters/../skills/ride.html#_ride) checks made by creatures attempting to ride a shantak.
+**Slippery (Ex)** A shantak's scales seep slippery slime. This grants the creature a +8 bonus on all [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) checks and to its CMD against grapples, and imparts a –5 penalty on all [Ride](additionalMonsters/../skills/ride.md#_ride) checks made by creatures attempting to ride a shantak.
 
 **Starflight (Su)** A shantak can survive in the void of outer space. It flies through space at an incredible speed. Although exact travel times vary, a trip within a single solar system should take 3d20 hours, while a trip beyond should take 3d20 days (or more, at the GM's discretion)—provided the shantak knows the way to its destination.
 

@@ -6,9 +6,9 @@ Crucidaemon CR 15
 
 XP 51,200
 
-NE Medium outsider ( [daemon](/pathfinderRPG/prd/monsters/creatureTypes.html#_daemon-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+NE Medium outsider ( [daemon](monsters/creatureTypes.md#_daemon-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +9; **Senses** darkvision 60 ft., _ [deathwatch](/pathfinderRPG/prd/spells/deathwatch.html#_deathwatch)_, _ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +23
+**Init** +9; **Senses** darkvision 60 ft., _ [deathwatch](spells/deathwatch.md#_deathwatch)_, _ [detect good](spells/detectGood.md#_detect-good)_, _ [true seeing](spells/trueSeeing.md#_true-seeing)_; [Perception](skills/perception.md#_perception) +23
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +17, **Ref** +12, **Will** +13
 
-**DR** 10/good and silver; **Immune** acid, [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed), death effects, [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, electricity 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 26
+**DR** 10/good and silver; **Immune** acid, [bleed](monsters/universalMonsterRules.md#_bleed), death effects, [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10, electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 26
 
 Offense
 
@@ -28,18 +28,18 @@ Offense
 
 **Space** 5 ft.; **Reach** 10 ft.
 
-**Special Attacks** [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) (2d6), chained daggers, trap making
+**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (2d6), chained daggers, trap making
 
 **Spell-Like Abilities** (CL 16th; concentration +25)
 
-Constant—_ [air walk](/pathfinderRPG/prd/spells/airWalk.html#_air-walk)_, _ [deathwatch](/pathfinderRPG/prd/spells/deathwatch.html#_deathwatch)_, _ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [true seeing](/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing)_
+Constant—_ [air walk](spells/airWalk.md#_air-walk)_, _ [deathwatch](spells/deathwatch.md#_deathwatch)_, _ [detect good](spells/detectGood.md#_detect-good)_, _ [true seeing](spells/trueSeeing.md#_true-seeing)_
 
-At will—_ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_ (DC 23), _ [greater teleport](/pathfinderRPG/prd/spells/teleport.html#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_
+At will—_ [fear](spells/fear.md#_fear)_ (DC 23), _ [greater teleport](spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [invisibility](spells/invisibility.md#_invisibility)_
 
-3/day—_ [greater glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding-greater)_ (DC 25), _ [hold monster](/pathfinderRPG/prd/spells/holdMonster.html#_hold-monster)_ (DC 24)
+3/day—_ [greater glyph of warding](spells/glyphOfWarding.md#_glyph-of-warding-greater)_ (DC 25), _ [hold monster](spells/holdMonster.md#_hold-monster)_ (DC 24)
 
-1/day—_ [insanity](/pathfinderRPG/prd/spells/insanity.html#_insanity) _(DC 26), summon (level 4,   
-2 piscodaemons 50%), _ [symbol of pain](/pathfinderRPG/prd/spells/symbolOfPain.html#_symbol-of-pain)_ (DC 24)
+1/day—_ [insanity](spells/insanity.md#_insanity) _(DC 26), summon (level 4,   
+2 piscodaemons 50%), _ [symbol of pain](spells/symbolOfPain.md#_symbol-of-pain)_ (DC 24)
 
 Statistics
 
@@ -47,9 +47,9 @@ Statistics
 
 **Base Atk** +17; **CMB** +26; **CMD** 42
 
-**Feats** [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (daggers), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Mobility](/pathfinderRPG/prd/feats.html#_mobility), [Spring Attack](/pathfinderRPG/prd/feats.html#_spring-attack), [Stealthy](/pathfinderRPG/prd/feats.html#_stealthy), [Step Up](/pathfinderRPG/prd/feats.html#_step-up), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (daggers)
+**Feats** [Dodge](feats.md#_dodge), [Improved Critical](feats.md#_improved-critical) (daggers), [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes), [Mobility](feats.md#_mobility), [Spring Attack](feats.md#_spring-attack), [Stealthy](feats.md#_stealthy), [Step Up](feats.md#_step-up), [Weapon Focus](feats.md#_weapon-focus) (daggers)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +29, [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (traps) +31, [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) +25, [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +7, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +29, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana, engineering) +11, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +23, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +16, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +18, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +29, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +19; **Racial Modifiers** +8 [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (traps)
+**Skills** [Bluff](skills/bluff.md#_bluff) +29, [Craft](skills/craft.md#_craft) (traps) +31, [Disable Device](skills/disableDevice.md#_disable-device) +25, [Escape Artist](skills/escapeArtist.md#_escape-artist) +7, [Intimidate](skills/intimidate.md#_intimidate) +29, [Knowledge](skills/knowledge.md#_knowledge) (arcana, engineering) +11, [Perception](skills/perception.md#_perception) +23, [Sense Motive](skills/senseMotive.md#_sense-motive) +16, [Spellcraft](skills/spellcraft.md#_spellcraft) +18, [Stealth](skills/stealth.md#_stealth) +29, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +19; **Racial Modifiers** +8 [Craft](skills/craft.md#_craft) (traps)
 
 **Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.
 
@@ -63,9 +63,9 @@ Ecology
 
 Special Abilities
 
-**Chained Daggers (Su)** A crucidaemon fights with the two daggers chained to its wrists as if dual wielding daggers with a reach of 10 feet (although it can also attack adjacent foes with no penalty). It takes no penalty on attack or damage rolls while wielding both of these daggers at once. These daggers are considered to be _+2 daggers_ that deal 2d6 points of [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) damage. The daggers become nonmagical upon the [daemon](/pathfinderRPG/prd/monsters/creatureTypes.html#_daemon-subtype)'s death, and cannot be disarmed. A crucidaemon may remanifest a destroyed dagger as a standard action.
+**Chained Daggers (Su)** A crucidaemon fights with the two daggers chained to its wrists as if dual wielding daggers with a reach of 10 feet (although it can also attack adjacent foes with no penalty). It takes no penalty on attack or damage rolls while wielding both of these daggers at once. These daggers are considered to be _+2 daggers_ that deal 2d6 points of [bleed](monsters/universalMonsterRules.md#_bleed) damage. The daggers become nonmagical upon the [daemon](monsters/creatureTypes.md#_daemon-subtype)'s death, and cannot be disarmed. A crucidaemon may remanifest a destroyed dagger as a standard action.
 
-**Trap Making (Ex)** A crucidaemon can use [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) to disarm magic traps. When it uses its _ [greater glyph of warding](/pathfinderRPG/prd/spells/glyphOfWarding.html#_glyph-of-warding-greater)_ spell-like ability to create a spell glyph, it may utilize any 6th-level or lower spell from the cleric or the wizard spell list, even though it otherwise can't cast these spells. The [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) and [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) DCs for any traps a crucidaemon creates gain a +2 bonus.
+**Trap Making (Ex)** A crucidaemon can use [Disable Device](skills/disableDevice.md#_disable-device) to disarm magic traps. When it uses its _ [greater glyph of warding](spells/glyphOfWarding.md#_glyph-of-warding-greater)_ spell-like ability to create a spell glyph, it may utilize any 6th-level or lower spell from the cleric or the wizard spell list, even though it otherwise can't cast these spells. The [Perception](skills/perception.md#_perception) and [Disable Device](skills/disableDevice.md#_disable-device) DCs for any traps a crucidaemon creates gain a +2 bonus.
 
 Bloody representations of death by traps or torture, crucidaemons spend their existence subjecting creatures to an eternity of pain and terror. Whereas many daemons are quick to feed on the soul of mortals they capture, a crucidaemon lets its victims linger, marinating their souls in torment and pain so that when the time for feeding finally comes, they welcome their final oblivion with tears of gratitude.
 
@@ -79,9 +79,9 @@ Vulnudaemon CR 4
 
 XP 1,200
 
-NE Small outsider ( [daemon](/pathfinderRPG/prd/monsters/creatureTypes.html#_daemon-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+NE Small outsider ( [daemon](monsters/creatureTypes.md#_daemon-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft., _ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +10
+**Init** +3; **Senses** darkvision 60 ft., _ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_; [Perception](skills/perception.md#_perception) +10
 
 **Aura** aura of doom (30 ft., DC 18)
 
@@ -93,23 +93,23 @@ Defense
 
 **Fort** +6, **Ref** +5, **Will** +6
 
-**DR** 5/good or silver; **Immune** acid, death effects, [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, electricity 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10
+**DR** 5/good or silver; **Immune** acid, death effects, [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10, electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10
 
 Offense
 
 **Speed** 30 ft.
 
-**Melee** short sword +10/+5 (1d4+2/19–20 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed)), bite +5 (1d3+1)
+**Melee** short sword +10/+5 (1d4+2/19–20 plus [bleed](monsters/universalMonsterRules.md#_bleed)), bite +5 (1d3+1)
 
-**Special Attacks** [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) (1d4), sneak attack +1d6
+**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d4), sneak attack +1d6
 
 **Spell-Like Abilities** (CL 7th; concentration +10)
 
-Constant—_ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_
+Constant—_ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_
 
-3/day—_ [blur](/pathfinderRPG/prd/spells/blur.html#_blur)_, _ [death knell](/pathfinderRPG/prd/spells/deathKnell.html#_death-knell)_ (DC 15), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility), [minor image](/pathfinderRPG/prd/spells/minorImage.html#_minor-image) _(DC 14)
+3/day—_ [blur](spells/blur.md#_blur)_, _ [death knell](spells/deathKnell.md#_death-knell)_ (DC 15), _ [invisibility](spells/invisibility.md#_invisibility), [minor image](spells/minorImage.md#_minor-image) _(DC 14)
 
-1/day—_ [inflict critical wounds](/pathfinderRPG/prd/spells/inflictCriticalWounds.html#_inflict-critical-wounds) _(DC 17), summon (level 2, 1d4 cacodaemons 40%)
+1/day—_ [inflict critical wounds](spells/inflictCriticalWounds.md#_inflict-critical-wounds) _(DC 17), summon (level 2, 1d4 cacodaemons 40%)
 
 Statistics
 
@@ -117,9 +117,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +7; **CMD** 20
 
-**Feats** [Ability Focus](/pathfinderRPG/prd/monsters/monsterFeats.html#_ability-focus) (aura of doom), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Ability Focus](monsters/monsterFeats.md#_ability-focus) (aura of doom), [Combat Casting](feats.md#_combat-casting), [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +12, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +10, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +7, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +8, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +10, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +10, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +8, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +16
+**Skills** [Bluff](skills/bluff.md#_bluff) +12, [Diplomacy](skills/diplomacy.md#_diplomacy) +10, [Fly](skills/fly.md#_fly) +11, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +7, [Knowledge](skills/knowledge.md#_knowledge) (planes) +8, [Perception](skills/perception.md#_perception) +10, [Sense Motive](skills/senseMotive.md#_sense-motive) +10, [Spellcraft](skills/spellcraft.md#_spellcraft) +8, [Stealth](skills/stealth.md#_stealth) +16
 
 **Languages** Abyssal, Draconic, Infernal; telepathy 100 ft.
 

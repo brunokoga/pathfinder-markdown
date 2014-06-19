@@ -4,7 +4,7 @@ In an ancient war forgotten by most mortals, the thanatotic titans rose up again
 
 The titans' sculpted paragons of might charred and melted, oozing into twisted shapes. These shapes, however, clung tenaciously to the spark of life imparted to them.
 
-Thus the demodands were born—a hideous race of creatures imbued with the fickle cruelty of their masters. Misshapen and foul to behold, demodands are known by some scholars as titanspawn. Despite their physical repulsiveness, however, all demodands possess a drop of their creators' titanic power. This trace of near-divine power makes them as formidable as they are vicious, and many demon lords have spent years, if not centuries, waging wars, foiling raids, and undoing the damage that demodands cause. As the thanatotic titans expand their influence and holdings in the Abyss with immortal patience, it is the demodands who act as their shock troops, generals, and slavers. Their preferred captives are mortals with some connection to the gods, such as clerics, paladins, or other believers. Demodands take great pleasure in torturing such captives before subjecting them to lives of abject servitude. During the countless years of ensuing labor, demodands slip foul, insidious whispers into the ears of their slaves, designed to challenge and ultimately erode their captives' faith. Those that succumb are taken before one of the thanatotic titans to be âredeemed,â and are then sent back into the world as new believers, spreading the âtrueâ faith of the evil titans. Such mortals often form clandestine cults dedicated to thanatotic worship, and are closely monitored by the demodands who first captured them. For those mortal slaves whose faith will not break, the demodands ensure that their bodies eventually do.
+Thus the demodands were born—a hideous race of creatures imbued with the fickle cruelty of their masters. Misshapen and foul to behold, demodands are known by some scholars as titanspawn. Despite their physical repulsiveness, however, all demodands possess a drop of their creators' titanic power. This trace of near-divine power makes them as formidable as they are vicious, and many demon lords have spent years, if not centuries, waging wars, foiling raids, and undoing the damage that demodands cause. As the thanatotic titans expand their influence and holdings in the Abyss with immortal patience, it is the demodands who act as their shock troops, generals, and slavers. Their preferred captives are mortals with some connection to the gods, such as clerics, paladins, or other believers. Demodands take great pleasure in torturing such captives before subjecting them to lives of abject servitude. During the countless years of ensuing labor, demodands slip foul, insidious whispers into the ears of their slaves, designed to challenge and ultimately erode their captives' faith. Those that succumb are taken before one of the thanatotic titans to be “redeemed,” and are then sent back into the world as new believers, spreading the “true” faith of the evil titans. Such mortals often form clandestine cults dedicated to thanatotic worship, and are closely monitored by the demodands who first captured them. For those mortal slaves whose faith will not break, the demodands ensure that their bodies eventually do.
 
 Demodands have no such ulterior motives when they take demons as slaves, for they see their abyssal cohorts as little more than powerful servants to be used for their innate strength and spell-like powers. In particular, demodands prize powerful demons like glabrezus or nalfeshnees as status symbols if they can be held, and turn these slaves into bodyguards, or gladiators in the fabled thanatotic arenas. Shaggy demodands are also known to mount entire invasions into alternate planes of the Abyss to capture incubi and succubi to serve as pleasure slaves to themselves or their titan masters.
 
@@ -24,9 +24,9 @@ Shaggy Demodand CR 18
 
 XP 153,600
 
-CE Medium outsider ( [chaotic](/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype), [demodand](/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CE Medium outsider ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [demodand](monsters/creatureTypes.md#_demodand-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +11; **Senses** [blindsense](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsense) 30 ft., darkvision 60 ft., _ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +36
+**Init** +11; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 30 ft., darkvision 60 ft., _ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_; [Perception](skills/perception.md#_perception) +36
 
 Defense
 
@@ -36,13 +36,13 @@ Defense
 
 **Fort** +19, **Ref** +17, **Will** +18; +4 vs. divine spells
 
-**DR** 15/good and magic; **Immune** acid, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 29
+**DR** 15/good and magic; **Immune** acid, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 29
 
 Offense
 
 **Speed** 40 ft., fly 50 ft. (average)
 
-**Melee** _+2 [unholy](/pathfinderRPG/prd/magicItems/weapons.html#_unholy) morningstar_ +36/+31/+26/+21 (1d8+11), bite +32 (2d6+4), claw +32 (1d6+4) or
+**Melee** _+2 [unholy](magicItems/weapons.md#_unholy) morningstar_ +36/+31/+26/+21 (1d8+11), bite +32 (2d6+4), claw +32 (1d6+4) or
 
 bite +34 (2d6+9), 2 claws +34 (1d6+9)
 
@@ -50,13 +50,13 @@ bite +34 (2d6+9), 2 claws +34 (1d6+9)
 
 **Spell-Like Abilities** (CL 20th; concentration +25)
 
-Constant—_ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
+Constant—_ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_
 
-At will—_ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_ (DC 17), _ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_ (DC 19), _ [gaseous form](/pathfinderRPG/prd/spells/gaseousForm.html#_gaseous-form)_, _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_, _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_ (self only), _ [magic circle against good](/pathfinderRPG/prd/spells/magicCircleAgainstGood.html#_magic-circle-against-good)_
+At will—_ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_ (DC 17), _ [fear](spells/fear.md#_fear)_ (DC 19), _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_, _ [greater dispel magic](spells/dispelMagic.md#_dispel-magic-greater)_, _ [invisibility](spells/invisibility.md#_invisibility)_ (self only), _ [magic circle against good](spells/magicCircleAgainstGood.md#_magic-circle-against-good)_
 
-3/day—empowered _ [cloudkill](/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill)_ (DC 20), _ [fog cloud](/pathfinderRPG/prd/spells/fogCloud.html)_, quickened _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 16), _ [stinking cloud](/pathfinderRPG/prd/spells/stinkingCloud.html#_stinking-cloud)_ (DC 18)
+3/day—empowered _ [cloudkill](spells/cloudkill.md#_cloudkill)_ (DC 20), _ [fog cloud](spells/fogCloud.md)_, quickened _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 16), _ [stinking cloud](spells/stinkingCloud.md#_stinking-cloud)_ (DC 18)
 
-1/day—_ [blasphemy](/pathfinderRPG/prd/spells/blasphemy.html#_blasphemy)_ (DC 22), _ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 19), _ [mass charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster-mass)_ (DC 23), summon (level 6, 1d6 tarry demodands or 1d4 slimy demodands 60%)
+1/day—_ [blasphemy](spells/blasphemy.md#_blasphemy)_ (DC 22), _ [chaos hammer](spells/chaosHammer.md#_chaos-hammer)_ (DC 19), _ [mass charm monster](spells/charmMonster.md#_charm-monster-mass)_ (DC 23), summon (level 6, 1d6 tarry demodands or 1d4 slimy demodands 60%)
 
 Statistics
 
@@ -64,9 +64,9 @@ Statistics
 
 **Base Atk** +25; **CMB** +34; **CMD** 51
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), Cleave, [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Empower Spell-Like Ability](/pathfinderRPG/prd/monsters/monsterFeats.html#_empower-spell-like-ability) (_ [cloudkill](/pathfinderRPG/prd/spells/cloudkill.html#_cloudkill)_), [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Great Cleave](/pathfinderRPG/prd/feats.html#_great-cleave), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Intimidating Prowess](/pathfinderRPG/prd/feats.html#_intimidating-prowess), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Multiattack](/pathfinderRPG/prd/monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Quicken Spell-Like Ability](/pathfinderRPG/prd/monsters/monsterFeats.html#_quicken-spell-like-ability) (_ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_)
+**Feats** [Alertness](feats.md#_alertness), Cleave, [Combat Casting](feats.md#_combat-casting), [Combat Reflexes](feats.md#_combat-reflexes), [Empower Spell-Like Ability](monsters/monsterFeats.md#_empower-spell-like-ability) (_ [cloudkill](spells/cloudkill.md#_cloudkill)_), [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Great Cleave](feats.md#_great-cleave), [Improved Initiative](feats.md#_improved-initiative), [Intimidating Prowess](feats.md#_intimidating-prowess), [Lightning Reflexes](feats.md#_lightning-reflexes), [Multiattack](monsters/monsterFeats.md#_multiattack), [Power Attack](feats.md#_power-attack), [Quicken Spell-Like Ability](monsters/monsterFeats.md#_quicken-spell-like-ability) (_ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +35 (+39 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +28, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +28, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +35, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +42, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +26, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +15, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (religion) +15, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +36, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +36, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +29, [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) +30
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +35 (+39 when jumping), [Bluff](skills/bluff.md#_bluff) +28, [Diplomacy](skills/diplomacy.md#_diplomacy) +28, [Fly](skills/fly.md#_fly) +35, [Intimidate](skills/intimidate.md#_intimidate) +42, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +26, [Knowledge](skills/knowledge.md#_knowledge) (planes) +15, [Knowledge](skills/knowledge.md#_knowledge) (religion) +15, [Perception](skills/perception.md#_perception) +36, [Sense Motive](skills/senseMotive.md#_sense-motive) +36, [Spellcraft](skills/spellcraft.md#_spellcraft) +29, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +30
 
 **Languages** Abyssal, Celestial, Common
 
@@ -76,9 +76,9 @@ Ecology
 
 **Environment** any (Abyss)
 
-**Organization** solitary or warband (1 shaggy [demodand](/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype) plus 2–5 tarry demodands)
+**Organization** solitary or warband (1 shaggy [demodand](monsters/creatureTypes.md#_demodand-subtype) plus 2–5 tarry demodands)
 
-**Treasure** double (_+2 [unholy](/pathfinderRPG/prd/magicItems/weapons.html#_unholy) morningstar_, other treasure)
+**Treasure** double (_+2 [unholy](magicItems/weapons.md#_unholy) morningstar_, other treasure)
 
 Shaggy demodands are obese outsiders that occupy the highest status within demodand society. The fleshy tyrants stand just under 7 feet tall and have huge bat wings capable of supporting their 600-pound weight. Their faces have the broad-set eyes of a toad and toothy underbites.
 
@@ -92,9 +92,9 @@ Slimy Demodand CR 16
 
 XP 76,800
 
-CE Medium outsider ( [chaotic](/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype), [demodand](/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CE Medium outsider ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [demodand](monsters/creatureTypes.md#_demodand-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +4; **Senses** darkvision 120 ft., _ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +2
+**Init** +4; **Senses** darkvision 120 ft., _ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_; [Perception](skills/perception.md#_perception) +2
 
 **Aura** stench (DC 26, 1d6 rounds)
 
@@ -106,23 +106,23 @@ Defense
 
 **Fort** +18, **Ref** +13, **Will** +14; +4 vs. divine spells
 
-**DR** 10/good and magic; **Immune** acid, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 27
+**DR** 10/good and magic; **Immune** acid, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 27
 
 Offense
 
 **Speed** 20 ft., fly 40 ft. (average)
 
-**Melee** bite +30 (1d10+9 plus 2d6 acid), 2 claws +30 (2d6+13/19–20 plus 2d6 acid and [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** bite +30 (1d10+9 plus 2d6 acid), 2 claws +30 (2d6+13/19–20 plus 2d6 acid and [grab](monsters/universalMonsterRules.md#_grab))
 
 **Special Attacks** acid, dread claws, faith-stealing strike
 
 **Spell-Like Abilities** (CL 16th; concentration +19)
 
-Constant—_ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
+Constant—_ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_
 
-At will—_ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_ (DC 15), _ [fear](/pathfinderRPG/prd/spells/fear.html#_fear)_ (DC 17)
+At will—_ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_ (DC 15), _ [fear](spells/fear.md#_fear)_ (DC 17)
 
-3/day—_ [acid fog](/pathfinderRPG/prd/spells/acidFog.html#_acid-fog)_, _ [greater dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic-greater)_
+3/day—_ [acid fog](spells/acidFog.md#_acid-fog)_, _ [greater dispel magic](spells/dispelMagic.md#_dispel-magic-greater)_
 
 1/day—summon (level 6, 1d4 tarry demodands 50%)
 
@@ -132,9 +132,9 @@ Statistics
 
 **Base Atk** +21; **CMB** +30 (+34 grapple); **CMD** 44
 
-**Feats** [Bleeding Critical](/pathfinderRPG/prd/feats.html#_bleeding-critcial), [Blind-Fight](/pathfinderRPG/prd/feats.html#_blind-fight), [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), Greater [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (claw), [Improved Vital Strike](/pathfinderRPG/prd/feats.html#_improved-vital-strike), [Intimidating Prowess](/pathfinderRPG/prd/feats.html#_intimidating-prowess), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike)
+**Feats** [Bleeding Critical](feats.md#_bleeding-critcial), [Blind-Fight](feats.md#_blind-fight), [Critical Focus](feats.md#_critical-focus), [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), Greater [Vital Strike](feats.md#_vital-strike), [Improved Critical](feats.md#_improved-critical) (claw), [Improved Vital Strike](feats.md#_improved-vital-strike), [Intimidating Prowess](feats.md#_intimidating-prowess), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Vital Strike](feats.md#_vital-strike)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +11, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +27, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +19, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +25, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +36, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +13, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +13, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +26, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +20, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +25, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +20
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +11, [Bluff](skills/bluff.md#_bluff) +27, [Climb](skills/climb.md#_climb) +19, [Fly](skills/fly.md#_fly) +25, [Intimidate](skills/intimidate.md#_intimidate) +36, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +13, [Knowledge](skills/knowledge.md#_knowledge) (planes) +13, [Sense Motive](skills/senseMotive.md#_sense-motive) +26, [Spellcraft](skills/spellcraft.md#_spellcraft) +20, [Stealth](skills/stealth.md#_stealth) +25, [Survival](skills/survival.md#_survival) +20
 
 **Languages** Abyssal, Celestial, Common
 
@@ -150,9 +150,9 @@ Ecology
 
 Special Abilities
 
-**Acid (Su)** A slimy [demodand](/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype) is coated in an ever-dripping layer of acid that deals an extra 2d6 points of acid damage on a successful natural attack. In addition, opponents that successfully strike a slimy [demodand](/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype) with an unarmed strike or natural attack take 2d6 points of acid damage.
+**Acid (Su)** A slimy [demodand](monsters/creatureTypes.md#_demodand-subtype) is coated in an ever-dripping layer of acid that deals an extra 2d6 points of acid damage on a successful natural attack. In addition, opponents that successfully strike a slimy [demodand](monsters/creatureTypes.md#_demodand-subtype) with an unarmed strike or natural attack take 2d6 points of acid damage.
 
-**Dread Claws (Ex)** A slimy [demodand](/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype) adds 1-1/2 times its strength bonus on all attack rolls made when using its claws.
+**Dread Claws (Ex)** A slimy [demodand](monsters/creatureTypes.md#_demodand-subtype) adds 1-1/2 times its strength bonus on all attack rolls made when using its claws.
 
 Slimy demodands are more muscular than shaggy demodands, but aren't as lithe or quick as their tarry brethren. They have froglike heads, similar to those of the shaggy demodands, but their constantly darting eyes give them a more feral look. A slimy demodand stands   
 6 feet tall and weighs 500 pounds.
@@ -167,9 +167,9 @@ Tarry Demodand CR 13
 
 XP 25,600
 
-CE Medium outsider ( [chaotic](/pathfinderRPG/prd/monsters/creatureTypes.html#_chaotic-subtype), [demodand](/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype), [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CE Medium outsider ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [demodand](monsters/creatureTypes.md#_demodand-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +9; **Senses** darkvision 120 ft., _ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +22
+**Init** +9; **Senses** darkvision 120 ft., _ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_; [Perception](skills/perception.md#_perception) +22
 
 Defense
 
@@ -179,7 +179,7 @@ Defense
 
 **Fort** +15, **Ref** +11, **Will** +12; +4 vs. divine spells
 
-**DR** 10/good and magic; **Immune** acid, [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); **Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10; **SR** 24
+**DR** 10/good and magic; **Immune** acid, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 24
 
 Offense
 
@@ -191,11 +191,11 @@ Offense
 
 **Spell-Like Abilities** (CL 13th; concentration +24)
 
-Constant—_ [detect good](/pathfinderRPG/prd/spells/detectGood.html#_detect-good)_, _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_
+Constant—_ [detect good](spells/detectGood.md#_detect-good)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_
 
-3/day—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_
+3/day—_ [dispel magic](spells/dispelMagic.md#_dispel-magic)_
 
-1/day—_ [chaos hammer](/pathfinderRPG/prd/spells/chaosHammer.html#_chaos-hammer)_ (DC 17), summon (level 4, 1d2 tarry demodands 40%)
+1/day—_ [chaos hammer](spells/chaosHammer.md#_chaos-hammer)_ (DC 17), summon (level 4, 1d2 tarry demodands 40%)
 
 Statistics
 
@@ -203,9 +203,9 @@ Statistics
 
 **Base Atk** +18; **CMB** +27; **CMD** 42 (46 vs. disarm)
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Greater Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_greater-two-weapon-fighting), [Improved Bull Rush](/pathfinderRPG/prd/feats.html#_improved-bull-rush), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Improved Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_improved-two-weapon-fighting), [Lunge](/pathfinderRPG/prd/feats.html#_lunge), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Two-Weapon Fighting](/pathfinderRPG/prd/feats.html#_two-weapon-fighting), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (short sword)
+**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Greater Two-Weapon Fighting](feats.md#_greater-two-weapon-fighting), [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Initiative](feats.md#_improved-initiative), [Improved Two-Weapon Fighting](feats.md#_improved-two-weapon-fighting), [Lunge](feats.md#_lunge), [Power Attack](feats.md#_power-attack), [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Focus](feats.md#_weapon-focus) (short sword)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +16, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +19, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +23, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +24, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +14, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (planes) +14, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +22, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +14, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +17, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +14
+**Skills** [Bluff](skills/bluff.md#_bluff) +16, [Climb](skills/climb.md#_climb) +19, [Fly](skills/fly.md#_fly) +23, [Intimidate](skills/intimidate.md#_intimidate) +24, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +14, [Knowledge](skills/knowledge.md#_knowledge) (planes) +14, [Perception](skills/perception.md#_perception) +22, [Sense Motive](skills/senseMotive.md#_sense-motive) +14, [Stealth](skills/stealth.md#_stealth) +17, [Survival](skills/survival.md#_survival) +14
 
 **Languages** Abyssal, Celestial, Common
 
@@ -221,7 +221,7 @@ Ecology
 
 Special Abilities
 
-**Adhesion (Ex)** A creature striking a tarry [demodand](/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype) with a manufactured weapon must make a DC 23 Reflex save; failure means the weapon sticks to the [demodand](/pathfinderRPG/prd/monsters/creatureTypes.html#_demodand-subtype) and cannot be used to make attacks until freed. Freeing a stuck weapon requires a successful grapple check. This adhesion grants a +4 racial bonus to CMD against disarm attempts.
+**Adhesion (Ex)** A creature striking a tarry [demodand](monsters/creatureTypes.md#_demodand-subtype) with a manufactured weapon must make a DC 23 Reflex save; failure means the weapon sticks to the [demodand](monsters/creatureTypes.md#_demodand-subtype) and cannot be used to make attacks until freed. Freeing a stuck weapon requires a successful grapple check. This adhesion grants a +4 racial bonus to CMD against disarm attempts.
 
 Tarry demodands are lithe and lean compared to other demodands. Despite this difference, all tarry demodands are strong and agile. Although their batlike wings appear tattered and useless, they can still fly. A tarry demodand stands 7 feet tall and weighs 400 pounds.
 

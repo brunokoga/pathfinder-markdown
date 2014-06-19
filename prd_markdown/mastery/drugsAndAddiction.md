@@ -12,7 +12,7 @@ Drugs are alchemical items that grant effects to those who make use of them. Wha
 
 When a character takes a drug, he immediately gains the effects, an amount of ability damage, and must make a Fortitude save to resist becoming addicted to that drug (see Addiction). While the initial effect represents the physical or mind altering effects of the drug, the drain represents both its side effects and the amount of time a dose remains active in a character's body. As ability score damage heals at a rate of 1 point per day, a drug that causes 1 point of ability score damage remains in a character's system for 1 day, though some might cause greater damage and thus remain active for longer. While taking multiple doses of a drug at once rarely has any benefit, taking additional doses as the effects wear off renew those effects but increase the ability damage and potential for addiction.
 
-Drugs can be manufactured using [Craft](../skills/craft.html#_craft) (alchemy). The DC to make a drug is equal to its addiction DC. Rolling a natural 1 on a [Craft](../skills/craft.html#_craft) skill check while making a drug exposes the crafter to the drug.
+Drugs can be manufactured using [Craft](../skills/craft.md#_craft) (alchemy). The DC to make a drug is equal to its addiction DC. Rolling a natural 1 on a [Craft](../skills/craft.md#_craft) skill check while making a drug exposes the crafter to the drug.
 
 # Addiction
 
@@ -48,7 +48,7 @@ Each form of addiction encourages sufferers to continue making use of the drug t
 
 ## Curing Addiction
 
-As addictions are diseases, they can be cured as such, through the use of spells like _ [remove disease](../spells/removeDisease.html#_remove-disease) _or by succeeding at Fortitude saves over time. Unlike with other diseases, an addicted character can only make a Fortitude save to overcome his addiction after a day of not taking the drug he is addicted to. The DC of this Fortitude save is equal to the highest addiction DC his drug use has reached (not necessarily the DC that addicted him if he has continued to make use of the drug while addicted). This DC decreases by –2 for everyday the character does not make use of the drug, to a minimum of the drug's base addiction DC. Depending on the severity of the character's addiction, it might take two or three consecutive successful Fortitude saves to overcome the disease. Should a character take a dose of the drug he's addicted to, he immediately relapses, causing the addiction DC to instantly return to its highest DC and negating any successful past saves.
+As addictions are diseases, they can be cured as such, through the use of spells like _ [remove disease](../spells/removeDisease.md#_remove-disease) _or by succeeding at Fortitude saves over time. Unlike with other diseases, an addicted character can only make a Fortitude save to overcome his addiction after a day of not taking the drug he is addicted to. The DC of this Fortitude save is equal to the highest addiction DC his drug use has reached (not necessarily the DC that addicted him if he has continued to make use of the drug while addicted). This DC decreases by –2 for everyday the character does not make use of the drug, to a minimum of the drug's base addiction DC. Depending on the severity of the character's addiction, it might take two or three consecutive successful Fortitude saves to overcome the disease. Should a character take a dose of the drug he's addicted to, he immediately relapses, causing the addiction DC to instantly return to its highest DC and negating any successful past saves.
 
 # Sample Drugs
 
@@ -82,7 +82,7 @@ Numerous types of drugs exist, both in the real world and fantasy worlds. Presen
 
 **Price** 50 gp
 
-**Effect** 1d4 rounds; _ [rage](../spells/rage.html#_rage) _as per the spell
+**Effect** 1d4 rounds; _ [rage](../spells/rage.md#_rage) _as per the spell
 
 **Effect** 1 hour; cold resistance 5
 

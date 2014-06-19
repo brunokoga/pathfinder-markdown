@@ -1,6 +1,6 @@
 Power Word Stun
 
-**Source** [_power word stun_](/pathfinderRPG/prd/spells/powerWordStun.html#_power-word-stun)
+**Source** [_power word stun_](spells/powerWordStun.md#_power-word-stun)
 
 Treat the target's current hit point total as though it were lowered by 5 times your tier. For example, a 3rd-tier archmage casting this spell would affect a creature with 60 hp as though it had 45 hp, and the spell would last an additional 2d4 rounds.
 

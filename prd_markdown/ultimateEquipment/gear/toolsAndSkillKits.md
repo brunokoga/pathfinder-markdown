@@ -58,19 +58,19 @@ Alchemist's Lab
 
 **Price** 200 gp; **Weight** 40 lbs.
 
-This lab is used for making alchemical items, and provides a +2 circumstance bonus on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) checks. It has no bearing on the costs related to the [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) skill. Without this lab, a character with the [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides.
+This lab is used for making alchemical items, and provides a +2 circumstance bonus on [Craft](skills/craft.md#_craft) (alchemy) checks. It has no bearing on the costs related to the [Craft](skills/craft.md#_craft) (alchemy) skill. Without this lab, a character with the [Craft](skills/craft.md#_craft) (alchemy) skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides.
 
 Alchemy Crafting Kit
 
 **Price** 25 gp; **Weight** 50 lbs.
 
-An alchemist with an alchemy crafting kit is assumed to have all the material components needed for his extracts, mutagens, and bombs, except for those components that have a specific cost. An alchemy crafting kit provides no bonuses on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) checks. (This item was called an âalchemist's kitâ in the _Advanced Player's Guide_, and was renamed to avoid confusion with this book's pre-selected set of adventuring gear called an âalchemist's kit.â)
+An alchemist with an alchemy crafting kit is assumed to have all the material components needed for his extracts, mutagens, and bombs, except for those components that have a specific cost. An alchemy crafting kit provides no bonuses on [Craft](skills/craft.md#_craft) (alchemy) checks. (This item was called an “alchemist's kit” in the _Advanced Player's Guide_, and was renamed to avoid confusion with this book's pre-selected set of adventuring gear called an “alchemist's kit.”)
 
 Antidote Kit
 
 **Price** 100 gp; **Weight** 3 lbs.
 
-This small box contains a wide variety of remedies and treatments against not only specific poisons but also their most common methods of delivery, including such things as purgatives to eliminate ingested toxins. It grants a +3 circumstance bonus on [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) checks made to treat poison. An antidote kit is exhausted after 10 uses.
+This small box contains a wide variety of remedies and treatments against not only specific poisons but also their most common methods of delivery, including such things as purgatives to eliminate ingested toxins. It grants a +3 circumstance bonus on [Heal](skills/heal.md#_heal) checks made to treat poison. An antidote kit is exhausted after 10 uses.
 
 Anvil
 
@@ -83,15 +83,15 @@ Artisan's Tools
  Type | Price | Weight || Common | 5 gp | 5 lbs. |
 | Masterwork | 55 gp | 5 lbs. |
 
-These special tools include the items needed to pursue any single craft. Without them, you have to use improvised tools (–2 penalty on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) checks), if you can do the job at all.
+These special tools include the items needed to pursue any single craft. Without them, you have to use improvised tools (–2 penalty on [Craft](skills/craft.md#_craft) checks), if you can do the job at all.
 
-_Masterwork Artisan's Tools_: These tools serve the same purpose as artisan's tools, but masterwork artisan's tools are the perfect tools for the job, so you get a +2 circumstance bonus on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) checks made with them.
+_Masterwork Artisan's Tools_: These tools serve the same purpose as artisan's tools, but masterwork artisan's tools are the perfect tools for the job, so you get a +2 circumstance bonus on [Craft](skills/craft.md#_craft) checks made with them.
 
 Balancing Pole
 
 **Price** 8 sp; **Weight** 12 lbs.
 
-This flexible pole can be anywhere from 15 to 30 feet in length. When used properly, it helps you keep your balance when crossing narrow walkways. Using a balancing pole grants you a +1 circumstance bonus on [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) checks made to traverse a narrow surface.
+This flexible pole can be anywhere from 15 to 30 feet in length. When used properly, it helps you keep your balance when crossing narrow walkways. Using a balancing pole grants you a +1 circumstance bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) checks made to traverse a narrow surface.
 
 Bear Trap
 
@@ -101,31 +101,31 @@ Although intended for trapping large animals, bear traps work as well for trappi
 
 Bear TrapCR 1
 
-Type mechanical; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) DC 15; [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) DC 20
+Type mechanical; [Perception](skills/perception.md#_perception) DC 15; [Disable Device](skills/disableDevice.md#_disable-device) DC 20
 
 Effects
 
 Trigger location; Reset manual
 
-Effect Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) check, DC 22 [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) check, or DC 26 Strength check.
+Effect Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 [Disable Device](skills/disableDevice.md#_disable-device) check, DC 22 [Escape Artist](skills/escapeArtist.md#_escape-artist) check, or DC 26 Strength check.
 
 Bellows
 
 **Price** 1 gp; **Weight** 3 lbs.
 
-Bellows are useful for starting fires, providing a +1 circumstance bonus on [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) checks to start or maintain fires.
+Bellows are useful for starting fires, providing a +1 circumstance bonus on [Survival](skills/survival.md#_survival) checks to start or maintain fires.
 
 Climber's Kit
 
 **Price** 80 gp; **Weight** 5 lbs.
 
-These crampons, pitons, ropes, and other tools give you a +2 circumstance bonus on [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks.
+These crampons, pitons, ropes, and other tools give you a +2 circumstance bonus on [Climb](skills/climb.md#_climb) checks.
 
 Disguise Kit
 
 **Price** 50 gp; **Weight** 8 lbs.
 
-This kit contains tools like makeup and fake facial hair, and provides a +2 circumstance bonus on [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) checks. A disguise kit is exhausted after 10 uses.
+This kit contains tools like makeup and fake facial hair, and provides a +2 circumstance bonus on [Disguise](skills/disguise.md#_disguise) checks. A disguise kit is exhausted after 10 uses.
 
 Footprint Book
 
@@ -151,31 +151,31 @@ Fortune-Teller's Deck
 | Quality | 25 gp | 1 lb. |
 | Masterwork | 50 gp | 1 lb. |
 
-This deck of illustrated cards is used by those in tune with the spirit world to predict the future—and by charlatans to take money from the gullible. A common deck only has simple drawings on simple wooden plaques. A quality fortune-teller's deck usually consists of wooden plaques with painted color images; it is suitable as a focus for the _ [augury](/pathfinderRPG/prd/spells/augury.html#_augury)_ spell, and provides a +1 circumstance bonus on [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (fortune-teller), [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) (medium), and similar [Profession](/pathfinderRPG/prd/skills/profession.html#_profession) checks. A masterwork fortune-teller's deck may be wood, ivory, or even metal, with painted or carved images, and is often highlighted with gold inlays or tiny gems; it has all the benefits of a quality deck, except it provides a +2 circumstance bonus on the listed skill checks.
+This deck of illustrated cards is used by those in tune with the spirit world to predict the future—and by charlatans to take money from the gullible. A common deck only has simple drawings on simple wooden plaques. A quality fortune-teller's deck usually consists of wooden plaques with painted color images; it is suitable as a focus for the _ [augury](spells/augury.md#_augury)_ spell, and provides a +1 circumstance bonus on [Profession](skills/profession.md#_profession) (fortune-teller), [Profession](skills/profession.md#_profession) (medium), and similar [Profession](skills/profession.md#_profession) checks. A masterwork fortune-teller's deck may be wood, ivory, or even metal, with painted or carved images, and is often highlighted with gold inlays or tiny gems; it has all the benefits of a quality deck, except it provides a +2 circumstance bonus on the listed skill checks.
 
 Healer's Kit
 
 **Price** 50 gp; **Weight** 1 lb.
 
-This collection of bandages and herbs provides a +2 circumstance bonus on [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) checks. A healer's kit is exhausted after 10 uses.
+This collection of bandages and herbs provides a +2 circumstance bonus on [Heal](skills/heal.md#_heal) checks. A healer's kit is exhausted after 10 uses.
 
 Juggler's Kit
 
 **Price** 15 gp; **Weight** 10 lbs.
 
-This kit includes multiple sets of well-balanced objects, such as balls, clubs, knives, rings, and torches. It provides a +1 bonus on [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (act or comedy) checks and checks involving juggling.
+This kit includes multiple sets of well-balanced objects, such as balls, clubs, knives, rings, and torches. It provides a +1 bonus on [Perform](skills/perform.md#_perform) (act or comedy) checks and checks involving juggling.
 
 Leeching Kit
 
 **Price** 5 gp; **Weight** 5 lbs.
 
-This sturdy ceramic jar has a heavy lid with a few tiny holes to let air in. It is normally half-filled with water and contains four adult leeches, each about 6 inches long. A leeching kit grants you a +2 circumstance bonus on [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) checks to treat poison. Used for medicinal bloodletting, a leech can survive for 6 months between feedings.
+This sturdy ceramic jar has a heavy lid with a few tiny holes to let air in. It is normally half-filled with water and contains four adult leeches, each about 6 inches long. A leeching kit grants you a +2 circumstance bonus on [Heal](skills/heal.md#_heal) checks to treat poison. Used for medicinal bloodletting, a leech can survive for 6 months between feedings.
 
 Mapmaker's Kit
 
 **Price** 10 gp; **Weight** 2 lbs.
 
-This small kit contains a simple slate with a grid carved into its surface and a number of differently colored pieces of chalk. If you use this kit to draw a map as you travel, you receive a +2 circumstance bonus on [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) skill checks to avoid becoming lost.
+This small kit contains a simple slate with a grid carved into its surface and a number of differently colored pieces of chalk. If you use this kit to draw a map as you travel, you receive a +2 circumstance bonus on [Survival](skills/survival.md#_survival) skill checks to avoid becoming lost.
 
 Masterwork Tool
 
@@ -185,30 +185,30 @@ This tool is perfect for its intended job. It grants a +2 circumstance bonus on 
 
 Several common items already count as masterwork tools for particular skills. These are the alchemist's lab, climber's kit, disguise kit, healer's kit, masterwork musical instrument, and masterwork thieves' tools. Therefore, there is no masterwork climber's kit, masterwork healer's kit, and so on—those items are already the best available for general checks with the relevant skill.
 
-Some skills have no appropriate tool or masterwork tool—no nonmagical item exists that grants a bonus for all uses of that skill. For example, just because a certain perfume is favored by local nobles (granting a +2 circumstance bonus on [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) checks to influence them) doesn't mean that perfume has the same effect on a member of the thieves' guild, a foreign berserker, or a medusa. Likewise, just because a fake beard woven by dwarves out of the beards of famous dwarves may grant a +2 circumstance bonus on [Use Magic Device](/pathfinderRPG/prd/skills/useMagicDevice.html#_use-magic-device) checks to emulate the dwarven race doesn't mean the beard has any effect on using that skill to activate elven items or paladin items, or to decipher a written spell.
+Some skills have no appropriate tool or masterwork tool—no nonmagical item exists that grants a bonus for all uses of that skill. For example, just because a certain perfume is favored by local nobles (granting a +2 circumstance bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) checks to influence them) doesn't mean that perfume has the same effect on a member of the thieves' guild, a foreign berserker, or a medusa. Likewise, just because a fake beard woven by dwarves out of the beards of famous dwarves may grant a +2 circumstance bonus on [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) checks to emulate the dwarven race doesn't mean the beard has any effect on using that skill to activate elven items or paladin items, or to decipher a written spell.
 
-Individual GMs may want to allow masterwork tools for other skills at the listed cost. The circumstance bonus for such a tool should never be more than +2. The tool should either have a limited number of uses (such as the disguise and healer's kits) or only apply to certain aspects of the skill (such as the balancing pole's bonus on [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) checks to traverse a narrow surface or the magnifying glass's bonus on [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) checks for detailed items).
+Individual GMs may want to allow masterwork tools for other skills at the listed cost. The circumstance bonus for such a tool should never be more than +2. The tool should either have a limited number of uses (such as the disguise and healer's kits) or only apply to certain aspects of the skill (such as the balancing pole's bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) checks to traverse a narrow surface or the magnifying glass's bonus on [Appraise](skills/appraise.md#_appraise) checks for detailed items).
 
 Merchant's Scale
 
 **Price** 2 gp; **Weight** 1 lb.
 
-A merchant's scale is a simple lever on a fulcrum, from which two trays hang. It grants a +2 circumstance bonus on [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) checks involving items that are valued by weight, including anything made of precious metals.
+A merchant's scale is a simple lever on a fulcrum, from which two trays hang. It grants a +2 circumstance bonus on [Appraise](skills/appraise.md#_appraise) checks involving items that are valued by weight, including anything made of precious metals.
 
 Midwife's Kit
 
 **Price** 10 gp; **Weight** 2 lbs.
 
-This kit is used by midwives to care for pregnant women and to deliver babies. Each kit contains herbs to treat common conditions during pregnancy, salves for aches and distended skin, swaddling cloths, a small but sharp knife for cutting an umbilical cord, powder for cleaning the newborn, bandages, a needle, and thread. Using the kit gives you a +4 circumstance bonus on [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) checks when dealing with humanoid pregnancy or birth. You may use it for other kinds pregnant or birthing creatures (such as animals or monstrous humanoids), but it only gives a +2 bonus on such [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) checks. A midwife's kit is exhausted after 10 uses.
+This kit is used by midwives to care for pregnant women and to deliver babies. Each kit contains herbs to treat common conditions during pregnancy, salves for aches and distended skin, swaddling cloths, a small but sharp knife for cutting an umbilical cord, powder for cleaning the newborn, bandages, a needle, and thread. Using the kit gives you a +4 circumstance bonus on [Heal](skills/heal.md#_heal) checks when dealing with humanoid pregnancy or birth. You may use it for other kinds pregnant or birthing creatures (such as animals or monstrous humanoids), but it only gives a +2 bonus on such [Heal](skills/heal.md#_heal) checks. A midwife's kit is exhausted after 10 uses.
 
 Musical Instrument
 
  Type | Price | Weight || Common | 5 gp | 3 lbs. |
 | Masterwork | 100 gp | 3 lbs. |
 
-If you want to perform using a [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive.
+If you want to perform using a [Perform](skills/perform.md#_perform) skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive.
 
-_Masterwork Musical Instrument_: This high-quality instrument grants a +2 circumstance bonus on [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) checks made to perform with the instrument.
+_Masterwork Musical Instrument_: This high-quality instrument grants a +2 circumstance bonus on [Perform](skills/perform.md#_perform) checks made to perform with the instrument.
 
 Parasol
 
@@ -223,7 +223,7 @@ Portable alchemist's lab
 
 **Price** 75 gp; **Weight** 20 lbs.
 
-This compact version of a full-sized alchemist's lab provides a +1 circumstance bonus on [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (alchemy) checks.
+This compact version of a full-sized alchemist's lab provides a +1 circumstance bonus on [Craft](skills/craft.md#_craft) (alchemy) checks.
 
 Portable Altar
 
@@ -259,22 +259,22 @@ Surgeon's Tools
 
 **Price** 20 gp; **Weight** 5 lbs.
 
-When used in conjunction with a healer's kit, surgeon's tools raise the kit's bonus to a +3 circumstance bonus on [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) checks to treat wounds or deadly wounds.
+When used in conjunction with a healer's kit, surgeon's tools raise the kit's bonus to a +3 circumstance bonus on [Heal](skills/heal.md#_heal) checks to treat wounds or deadly wounds.
 
 Symptom Kit
 
 **Price** 25 gp; **Weight** 5 lbs.
 
-This small wooden box has many tiny compartments filled with items useful if you want to feign a sickness, as well as a handy reference book outlining common indicators for some of the more feared virulent diseases. The kit includes such things as false pustules, pills that cause the person chewing them to foam at the mouth, and herbal concoctions designed to induce fevers or vomiting. Using a symptom kit grants you a +5 circumstances bonus on [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) checks made for the purpose of simulating illness. A symptom kit is exhausted after 10 uses.
+This small wooden box has many tiny compartments filled with items useful if you want to feign a sickness, as well as a handy reference book outlining common indicators for some of the more feared virulent diseases. The kit includes such things as false pustules, pills that cause the person chewing them to foam at the mouth, and herbal concoctions designed to induce fevers or vomiting. Using a symptom kit grants you a +5 circumstances bonus on [Disguise](skills/disguise.md#_disguise) checks made for the purpose of simulating illness. A symptom kit is exhausted after 10 uses.
 
 Thieves' Tools
 
  Type | Price | Weight || Common | 30 gp | 1 lb. |
 | Masterwork | 100 gp | 2 lbs. |
 
-This kit contains lockpicks and other tools you need to use the [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) skill. Without these tools, you must use improvised tools, and you take a –2 circumstance penalty on [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) checks.
+This kit contains lockpicks and other tools you need to use the [Disable Device](skills/disableDevice.md#_disable-device) skill. Without these tools, you must use improvised tools, and you take a –2 circumstance penalty on [Disable Device](skills/disableDevice.md#_disable-device) checks.
 
-_Masterwork Thieves' Tools_: This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) checks.
+_Masterwork Thieves' Tools_: This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on [Disable Device](skills/disableDevice.md#_disable-device) checks.
 
 Traveling Formula book
 
@@ -292,5 +292,5 @@ Veterinarian's Kit
 
 **Price** 25 gp; **Weight** 1 lb.
 
-This item is the equivalent of a healer's kit, except its materials are especially suitable for treating common animals (cats, dogs, goats, oxen, sheep, and so on). It provides a +3 circumstance bonus on [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) checks to treat animals, but only a +1 circumstance bonus on [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) checks on other creatures. A veterinarian's kit is exhausted after 10 uses.
+This item is the equivalent of a healer's kit, except its materials are especially suitable for treating common animals (cats, dogs, goats, oxen, sheep, and so on). It provides a +3 circumstance bonus on [Heal](skills/heal.md#_heal) checks to treat animals, but only a +1 circumstance bonus on [Heal](skills/heal.md#_heal) checks on other creatures. A veterinarian's kit is exhausted after 10 uses.
 

@@ -14,7 +14,7 @@ Atavism
 
 **Saving Throw** Fortitude negates; **Spell Resistance** yes
 
-By bringing forth the primeval ancestry of the target animal, you awaken a savage engine of destruction. The animal immediately gains the advanced creature simple template. It gains a +2 bonus on all rolls, including damage rolls and special ability DCs, a +4 bonus to AC and CMD, and +2 hit points per HD. The animal's primal instincts take hold for the duration of this spell—if the animal knows tricks granted by the [Handle Animal](/pathfinderRPG/prd/skills/handleAnimal.html#_handle-animal) skill, it loses access to all of those tricks save for âattack.â This spell has no effect on animals that already have the advanced creature template.
+By bringing forth the primeval ancestry of the target animal, you awaken a savage engine of destruction. The animal immediately gains the advanced creature simple template. It gains a +2 bonus on all rolls, including damage rolls and special ability DCs, a +4 bonus to AC and CMD, and +2 hit points per HD. The animal's primal instincts take hold for the duration of this spell—if the animal knows tricks granted by the [Handle Animal](skills/handleAnimal.md#_handle-animal) skill, it loses access to all of those tricks save for “attack.” This spell has no effect on animals that already have the advanced creature template.
 
 Atavism, Mass
 

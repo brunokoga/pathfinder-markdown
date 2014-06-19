@@ -4,47 +4,47 @@ Druids and rangers have a wide selection of animal companion choices, but this s
 
 ## _Bestiary_ Animal Companions
 
-| [Dinosaur, Ankylosaurus](/pathfinderRPG/prd/monsters/dinosaur.html#_dinosaur-ankylosaurus) |
-| [Aurochs](/pathfinderRPG/prd/monsters/herdAnimal.html#_herd-animal-aurochs) |
-| [Bison](/pathfinderRPG/prd/monsters/herdAnimal.html#_herd-animal-bison) |
-| [Brachiosaurus](/pathfinderRPG/prd/monsters/dinosaur.html#_dinosaur-brachiosaurus) |
-| [Dire bat](/pathfinderRPG/prd/monsters/bat.html#_bat-dire) |
-| [Dire rat](/pathfinderRPG/prd/monsters/rat.html#_rat-dire) |
-| [Dolphin](/pathfinderRPG/prd/monsters/dolphin.html#_dolphin) |
-| [Elasmosaurus](/pathfinderRPG/prd/monsters/dinosaur.html#_dinosaur-elasmosaurus) |
-| [Electric eel](/pathfinderRPG/prd/monsters/eel.html#_eel-electric) |
-| [Elephant](/pathfinderRPG/prd/monsters/elephant.html#_elephant) |
-| [Giant frog](/pathfinderRPG/prd/monsters/frog.html#_frog-giant) |
-| [Giant moray eel](/pathfinderRPG/prd/monsters/eel.html#_eel-giant-moray) |
-| [Goblin dog](/pathfinderRPG/prd/monsters/goblinDog.html#_goblin-dog) |
-| [Hyena](/pathfinderRPG/prd/monsters/hyena.html#_hyena) |
-| [Monitor lizard](/pathfinderRPG/prd/monsters/lizard.html#_lizard-monitor) |
-| [Octopus](/pathfinderRPG/prd/monsters/octopus.html#_octopus) |
-| [Orca](/pathfinderRPG/prd/monsters/dolphin.html#_dolphin-orca) |
-| [Pteranodon](/pathfinderRPG/prd/monsters/dinosaur.html#_dinosaur-pteranodon) |
-| [Rhinoceros](/pathfinderRPG/prd/monsters/rhinoceros.html#_rhinoceros) |
-| [Roc](/pathfinderRPG/prd/monsters/roc.html#_roc) |
-| [Squid](/pathfinderRPG/prd/monsters/squid.html#_squid) |
-| [Stegosaurus](/pathfinderRPG/prd/monsters/dinosaur.html#_dinosaur-stegosaurus) |
-| [Triceratops](/pathfinderRPG/prd/monsters/dinosaur.html#_dinosaur-triceratops) |
-| [Tyrannosaurus](/pathfinderRPG/prd/monsters/dinosaur.html#_dinosaur-tyrannosaurus) |
+| [Dinosaur, Ankylosaurus](monsters/dinosaur.md#_dinosaur-ankylosaurus) |
+| [Aurochs](monsters/herdAnimal.md#_herd-animal-aurochs) |
+| [Bison](monsters/herdAnimal.md#_herd-animal-bison) |
+| [Brachiosaurus](monsters/dinosaur.md#_dinosaur-brachiosaurus) |
+| [Dire bat](monsters/bat.md#_bat-dire) |
+| [Dire rat](monsters/rat.md#_rat-dire) |
+| [Dolphin](monsters/dolphin.md#_dolphin) |
+| [Elasmosaurus](monsters/dinosaur.md#_dinosaur-elasmosaurus) |
+| [Electric eel](monsters/eel.md#_eel-electric) |
+| [Elephant](monsters/elephant.md#_elephant) |
+| [Giant frog](monsters/frog.md#_frog-giant) |
+| [Giant moray eel](monsters/eel.md#_eel-giant-moray) |
+| [Goblin dog](monsters/goblinDog.md#_goblin-dog) |
+| [Hyena](monsters/hyena.md#_hyena) |
+| [Monitor lizard](monsters/lizard.md#_lizard-monitor) |
+| [Octopus](monsters/octopus.md#_octopus) |
+| [Orca](monsters/dolphin.md#_dolphin-orca) |
+| [Pteranodon](monsters/dinosaur.md#_dinosaur-pteranodon) |
+| [Rhinoceros](monsters/rhinoceros.md#_rhinoceros) |
+| [Roc](monsters/roc.md#_roc) |
+| [Squid](monsters/squid.md#_squid) |
+| [Stegosaurus](monsters/dinosaur.md#_dinosaur-stegosaurus) |
+| [Triceratops](monsters/dinosaur.md#_dinosaur-triceratops) |
+| [Tyrannosaurus](monsters/dinosaur.md#_dinosaur-tyrannosaurus) |
 
 ## _Bestiary 2_ Animal Companions
 
-| [Dinosaur, Allosaurus](/pathfinderRPG/prd/additionalMonsters/dinosaur.html#_dinosaur,-allosaurus) |
-| [Dinosaur, Parasaurolophus](/pathfinderRPG/prd/additionalMonsters/dinosaur.html#_dinosaur,-parasaurolophus) |
-| [Gar](/pathfinderRPG/prd/additionalMonsters/gar.html) |
-| [Hippopotamus](/pathfinderRPG/prd/additionalMonsters/hippopotamus.html#_hippopotamus) |
-| [Megafauna, Arsinotherium](/pathfinderRPG/prd/additionalMonsters/megafauna.html#_megafauna,-arsinoitherium) |
-| [Megafauna, Megaloceros](/pathfinderRPG/prd/additionalMonsters/megafauna.html#_megafauna,-megaloceros) |
-| [Megafauna, Megatherium](/pathfinderRPG/prd/additionalMonsters/megafauna.html#_megafauna,-megatherium) |
-| [Megafauna, Glyptodon](/pathfinderRPG/prd/additionalMonsters/megafauna.html#_megafauna,-gylptodon) |
-| [Primate, Baboon](/pathfinderRPG/prd/additionalMonsters/primate.html#_primate,-baboon) |
-| [Ram](/pathfinderRPG/prd/additionalMonsters/herdAnimal.html#_herd-animal,-ram) |
-| [Ray, Manta Ray](/pathfinderRPG/prd/additionalMonsters/ray.html#_ray,-manta) |
-| [Ray, Stingray](/pathfinderRPG/prd/additionalMonsters/ray.html#_ray,-stingray) |
-| [Snapping Turtle](/pathfinderRPG/prd/additionalMonsters/turtle.html#_turtle,-snapping) |
-| [Tylosaurus](/pathfinderRPG/prd/additionalMonsters/dinosaur.html#_dinosaur,-tylosaurus) |
+| [Dinosaur, Allosaurus](additionalMonsters/dinosaur.md#_dinosaur,-allosaurus) |
+| [Dinosaur, Parasaurolophus](additionalMonsters/dinosaur.md#_dinosaur,-parasaurolophus) |
+| [Gar](additionalMonsters/gar.md) |
+| [Hippopotamus](additionalMonsters/hippopotamus.md#_hippopotamus) |
+| [Megafauna, Arsinotherium](additionalMonsters/megafauna.md#_megafauna,-arsinoitherium) |
+| [Megafauna, Megaloceros](additionalMonsters/megafauna.md#_megafauna,-megaloceros) |
+| [Megafauna, Megatherium](additionalMonsters/megafauna.md#_megafauna,-megatherium) |
+| [Megafauna, Glyptodon](additionalMonsters/megafauna.md#_megafauna,-gylptodon) |
+| [Primate, Baboon](additionalMonsters/primate.md#_primate,-baboon) |
+| [Ram](additionalMonsters/herdAnimal.md#_herd-animal,-ram) |
+| [Ray, Manta Ray](additionalMonsters/ray.md#_ray,-manta) |
+| [Ray, Stingray](additionalMonsters/ray.md#_ray,-stingray) |
+| [Snapping Turtle](additionalMonsters/turtle.md#_turtle,-snapping) |
+| [Tylosaurus](additionalMonsters/dinosaur.md#_dinosaur,-tylosaurus) |
 
 ## _Bestiary 3_ Animal Companions
 
@@ -92,7 +92,7 @@ Druids and rangers have a wide selection of animal companion choices, but this s
 
 ### Giant Chameleon Companions
 
-**Starting Statistics** : **Size** Medium; **Speed** 30 ft., climb 30 ft.; **Attack** bite (1d6); **Ability Scores** Str 12, Dex 14, Con 14, Int 2, Wis 11, Cha 7; **Special Qualities** +10 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) when still, low-light vision.
+**Starting Statistics** : **Size** Medium; **Speed** 30 ft., climb 30 ft.; **Attack** bite (1d6); **Ability Scores** Str 12, Dex 14, Con 14, Int 2, Wis 11, Cha 7; **Special Qualities** +10 [Stealth](skills/stealth.md#_stealth) when still, low-light vision.
 
 **4th-Level Advancement** : **Size** Large; **Speed** 40 ft., climb 40 ft.; **AC** +2 natural armor; **Attack** bite (1d8); **Ability Scores** Str +4, Dex –2, Con +2; **Special Attacks** pull (tongue, 5 ft.), tongue.
 

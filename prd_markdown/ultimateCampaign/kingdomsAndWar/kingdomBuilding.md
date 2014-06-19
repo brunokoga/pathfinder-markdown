@@ -12,10 +12,10 @@ The key parts of the kingdom-building rules that you'll be referencing are as fo
 
 - Explanation of the kingdom terminology used throughout this section.
 - Step-by-step instructions for founding a kingdom.
-- The [turn sequence](/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.html) for an established kingdom.
-- The game statistics for [terrain improvements](/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.html#_terrain-improvements).
-- Step-by-step instructions on how to [found your first settlement](/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.html#_founding-a-settlement).
-- The game [statistics for the types of buildings](/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.html#_building-descriptions).
+- The [turn sequence](ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.md) for an established kingdom.
+- The game statistics for [terrain improvements](ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.md#_terrain-improvements).
+- Step-by-step instructions on how to [found your first settlement](ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.md#_founding-a-settlement).
+- The game [statistics for the types of buildings](ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.md#_building-descriptions).
 
 Following the main rules and the types of buildings are several optional rules for kingdom building, such as modifying the effect of religious buildings based on alignment or deity portfolio, tracking Fame and Infamy scores for your kingdom, rules for different types of government, and special edicts you can declare during the turn sequence.
 
@@ -37,17 +37,17 @@ Kingdoms have attributes that describe and define them. These are tracked on a k
 
 **Loyalty** : Loyalty refers to the sense of goodwill among your people, their ability to live peaceably together even in times of crisis, and to fight for one another when needed. Your kingdom's initial Loyalty is 0 plus your kingdom's alignment and any modifiers from your kingdom's leadership role.
 
-**Population** : Actual population numbers don't factor into your kingdom's statistics, but can be fun to track anyway. The population of each settlement is described in [Settlements and Districts](/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.html#_settlements-and-districts).
+**Population** : Actual population numbers don't factor into your kingdom's statistics, but can be fun to track anyway. The population of each settlement is described in [Settlements and Districts](ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.md#_settlements-and-districts).
 
 **Size** : This is how many hexes the kingdom claims. A new kingdom's Size is 1.
 
 **Stability** : Stability refers to the physical and social well-being of the kingdom, from the health and security of its citizenry to the vitality of its natural resources and its ability to maximize their use. Your kingdom's initial Stability is 0 plus your kingdom's alignment and leadership modifiers.
 
-**Treasury** : The Treasury is the amount of BP your kingdom has saved and can spend on activities (much in the same way that your character has gold and other valuables you can spend on gear). Your Treasury can fall below 0 (meaning your kingdom's costs exceed its savings and it is operating in debt), but this increases Unrest (see [Upkeep Phase](/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.html#_upkeep-phase)).
+**Treasury** : The Treasury is the amount of BP your kingdom has saved and can spend on activities (much in the same way that your character has gold and other valuables you can spend on gear). Your Treasury can fall below 0 (meaning your kingdom's costs exceed its savings and it is operating in debt), but this increases Unrest (see [Upkeep Phase](ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.md#_upkeep-phase)).
 
 **Turn** : A kingdom turn spans 1 month of game time. You make your kingdom checks and other decisions about running your kingdom at the end of each month.
 
-**Unrest** : Your kingdom's Unrest indicates how rebellious your citizens are. Your kingdom's initial Unrest is 0. Unrest can never fall below 0 (anything that would modify it to less than 0 is wasted). Subtract your kingdom's Unrest from all Economy, Loyalty, and Stability checks. If your kingdom's Unrest is 11 or higher, the kingdom begins to lose control of hexes it has claimed. If your kingdom's Unrest ever reaches 20, the kingdom falls into anarchy (see [Upkeep Phase](/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.html#_upkeep-phase)).
+**Unrest** : Your kingdom's Unrest indicates how rebellious your citizens are. Your kingdom's initial Unrest is 0. Unrest can never fall below 0 (anything that would modify it to less than 0 is wasted). Subtract your kingdom's Unrest from all Economy, Loyalty, and Stability checks. If your kingdom's Unrest is 11 or higher, the kingdom begins to lose control of hexes it has claimed. If your kingdom's Unrest ever reaches 20, the kingdom falls into anarchy (see [Upkeep Phase](ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.md#_upkeep-phase)).
 
 ## Kingdom Building Quick Reference
 
@@ -73,11 +73,11 @@ Once you have your first settlement, you have the start of a kingdom. You'll nee
 
 **Determine Your Kingdom's Attributes** . Your initial Economy, Loyalty, and Stability scores are based on the kingdom's alignment and the buildings your settlement has. (If you start with more than one settlement, include all the settlements in this reckoning.)
 
-Once you've completed these steps, move on to [Kingdom Turn Sequence](/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.html).
+Once you've completed these steps, move on to [Kingdom Turn Sequence](ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.md).
 
 ## Capital City
 
-A kingdom should have a capital city—the seat of your power. Your first settlement is your capital. If you want to designate a different settlement as the capital, you may do so in Step 7 of the [Edict phase](/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.html#_edict-phase). Your capital city primarily comes into play if your kingdom loses hexes. If you change the capital city, attempt a Stability check. Success means Unrest increases by 1; failure means Unrest increases by 1d6.
+A kingdom should have a capital city—the seat of your power. Your first settlement is your capital. If you want to designate a different settlement as the capital, you may do so in Step 7 of the [Edict phase](ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.md#_edict-phase). Your capital city primarily comes into play if your kingdom loses hexes. If you change the capital city, attempt a Stability check. Success means Unrest increases by 1; failure means Unrest increases by 1d6.
 
 ## Leadership Roles
 
@@ -89,7 +89,7 @@ The kingdom must have someone in the Ruler role to function; without a Ruler, th
 
 These leadership roles can be a part of any form of government; in some kingdoms they take the form of a formal ruling council, while in others they may be advisors, ministers, relatives of the leader, or simply powerful nobles, merchants, or bureaucrats with access to the seat of power. The names of these roles are game terms and need not correspond to the titles of those roles in the kingdom—the Ruler of your kingdom may be called king, queen, chosen one, padishah, overlord, sultan, and so on.
 
-**Responsibilities of [Leadership](/pathfinderRPG/prd/feats.html#_leadership)** : In order to gain the benefits of leadership, you must spend at least 7 days per month attending to your duties; these days need not be consecutive. This can be roleplayed or can be assumed to run in the background without needing to be defined or actively played out. Time spent ruling cannot be used for adventuring, crafting magic items, or completing other downtime activities (see Chapter 2) that require your full attention and participation. Failure to complete your duties during a turn means treating the role as thought it's vacant.
+**Responsibilities of [Leadership](feats.md#_leadership)** : In order to gain the benefits of leadership, you must spend at least 7 days per month attending to your duties; these days need not be consecutive. This can be roleplayed or can be assumed to run in the background without needing to be defined or actively played out. Time spent ruling cannot be used for adventuring, crafting magic items, or completing other downtime activities (see Chapter 2) that require your full attention and participation. Failure to complete your duties during a turn means treating the role as thought it's vacant.
 
 For most campaigns, it's best to have the PCs pick the same days of the month for these administrative duties, so everyone is available for adventuring at the same time.
 
@@ -101,9 +101,9 @@ If you are not the Ruler and are leaving one leadership role to take a different
 
 **Leader Statistics** : The statistics for the different roles are presented as follows.
 
-_Benefit_: This explains the benefit to your kingdom if you have a character in this role. If you have the [Leadership](/pathfinderRPG/prd/feats.html#_leadership) feat, increase this benefit by 1. If this section gives you a choice of two ability scores, use whichever is highest.
+_Benefit_: This explains the benefit to your kingdom if you have a character in this role. If you have the [Leadership](feats.md#_leadership) feat, increase this benefit by 1. If this section gives you a choice of two ability scores, use whichever is highest.
 
-Most benefits are constant and last as long as there is a character in that role, but don't stack with themselves. For example, a General increases Loyalty by 2, so the General provides a constant +2 to the kingdom's Loyalty (not a stacking +2 increase every turn), which goes away if she dies or resigns. If a benefit mentions a particular phase in kingdom building, that benefit applies every turn during that phase. For example, the Royal [Enforcer](/pathfinderRPG/prd/advanced/advancedFeats.html#enforcer) decreases Unrest by 1 at every Upkeep phase.
+Most benefits are constant and last as long as there is a character in that role, but don't stack with themselves. For example, a General increases Loyalty by 2, so the General provides a constant +2 to the kingdom's Loyalty (not a stacking +2 increase every turn), which goes away if she dies or resigns. If a benefit mentions a particular phase in kingdom building, that benefit applies every turn during that phase. For example, the Royal [Enforcer](advanced/advancedFeats.md#enforcer) decreases Unrest by 1 at every Upkeep phase.
 
 _Vacancy Penalty_: This line explains the penalty to your kingdom if no character fills this role, or if the leader fails to spend the necessary time fulfilling his responsibilities. Some roles have no vacancy penalty. If a character in a role is killed or permanently incapacitated during a turn and not restored to health by the start of the next kingdom turn, that role counts as vacant for that next turn, after which a replacement can be appointed to the role.
 
@@ -115,7 +115,7 @@ The Ruler is the highest-ranking person in the kingdom, above even the other kin
 
 **Benefit** : Choose one kingdom attribute (Economy, Loyalty, or Stability). Add your Charisma modifier to this attribute. If your kingdom's Size is 26—100, choose a second kingdom attribute and add your Charisma modifier to it as well. If your kingdom's Size is 101 or more, choose a third kingdom attribute and add your Charisma modifier to it too.
 
-If you have the [Leadership](/pathfinderRPG/prd/feats.html#_leadership) feat, the bonus from the feat applies to all kingdom attributes you affect (one, two, or three attributes, depending on the kingdom's Size).
+If you have the [Leadership](feats.md#_leadership) feat, the bonus from the feat applies to all kingdom attributes you affect (one, two, or three attributes, depending on the kingdom's Size).
 
 If you marry someone of equal station, you both can act as Ruler. You both add your Charisma modifiers to the kingdom attribute (or attributes, if the kingdom is large enough). As long as one of you is present for 1 week per month, you avoid the vacancy penalty.
 
@@ -139,7 +139,7 @@ The Councilor acts as a liaison between the citizenry and the other kingdom lead
 
 **Benefit** : Add your Charisma modifier or Wisdom modifier to Loyalty.
 
-**Vacancy Penalty** : Loyalty decreases by 2. The kingdom gains no benefits from the [Holiday edict](/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.html#_holiday-edicts). During the Upkeep phase, Unrest increases by 1.
+**Vacancy Penalty** : Loyalty decreases by 2. The kingdom gains no benefits from the [Holiday edict](ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.md#_holiday-edicts). During the Upkeep phase, Unrest increases by 1.
 
 ### General
 
@@ -191,11 +191,11 @@ The Marshal ensures that the kingdom's laws are being enforced in the remote par
 
 **Vacancy Penalty** : Economy decreases by 4.
 
-### Royal [Enforcer](/pathfinderRPG/prd/advanced/advancedFeats.html#enforcer)
+### Royal [Enforcer](advanced/advancedFeats.md#enforcer)
 
-The Royal [Enforcer](/pathfinderRPG/prd/advanced/advancedFeats.html#enforcer) deals with punishing criminals, working with the Councilor to make sure the citizens feel the government is adequately dealing with wrongdoers, and working with the Marshal to capture fugitives from the law. The Royal [Enforcer](/pathfinderRPG/prd/advanced/advancedFeats.html#enforcer) may grant civilians the authority to kill in the name of the law.
+The Royal [Enforcer](advanced/advancedFeats.md#enforcer) deals with punishing criminals, working with the Councilor to make sure the citizens feel the government is adequately dealing with wrongdoers, and working with the Marshal to capture fugitives from the law. The Royal [Enforcer](advanced/advancedFeats.md#enforcer) may grant civilians the authority to kill in the name of the law.
 
-**Benefit** : Add your Dexterity modifier or Strength modifier to Loyalty. During the Upkeep phase, you may decrease Unrest by 1 (this is not affected by having the [Leadership](/pathfinderRPG/prd/feats.html#_leadership) feat); if you do so, you must succeed at a Loyalty check or Loyalty decreases by 1.
+**Benefit** : Add your Dexterity modifier or Strength modifier to Loyalty. During the Upkeep phase, you may decrease Unrest by 1 (this is not affected by having the [Leadership](feats.md#_leadership) feat); if you do so, you must succeed at a Loyalty check or Loyalty decreases by 1.
 
 **Vacancy Penalty** : None.
 
@@ -213,11 +213,11 @@ The Treasurer monitors the state of the kingdom's Treasury and citizens' confide
 
 **Benefit** : Add your Intelligence modifier or Wisdom modifier to Economy.
 
-**Vacancy**  **Penalty** : Economy decreases by 4. The kingdom cannot collect taxes—during the Edict phase, when you would normally collect taxes, the kingdom does not collect taxes at all and the taxation level is considered "none."â©
+**Vacancy**  **Penalty** : Economy decreases by 4. The kingdom cannot collect taxes—during the Edict phase, when you would normally collect taxes, the kingdom does not collect taxes at all and the taxation level is considered "none." 
 
 ### Viceroy
 
-The Viceroy represents the Ruler's interests on an ongoing basis in a specific location such as a colony or vassal state (see the optional [Vassalage edict](/pathfinderRPG/prd/ultimateCampaign/kingdomsAndWar/optionalKingdomRules.html#_vassalage-edicts)). The Viceroy is in effect the Ruler for that territory; her orders are superceded only by direct commands from the Ruler.
+The Viceroy represents the Ruler's interests on an ongoing basis in a specific location such as a colony or vassal state (see the optional [Vassalage edict](ultimateCampaign/kingdomsAndWar/optionalKingdomRules.md#_vassalage-edicts)). The Viceroy is in effect the Ruler for that territory; her orders are superceded only by direct commands from the Ruler.
 
 **Benefit** : Add half your Intelligence or Wisdom modifier to Economy. You may assume any leadership role (including Ruler) for your colony or vassal state, but any benefit you provide in this role is 1 less than normal; if you do so, you must spend 7 days that month performing duties appropriate to that leadership role in addition to the 7 days spent for Viceroy duties.
 

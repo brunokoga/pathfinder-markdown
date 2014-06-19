@@ -1,6 +1,6 @@
 Hex Ward
 
-**Source** [_hex ward_](/pathfinderRPG/prd/ultimateMagic/spells/hexWard.html#_hex-ward)
+**Source** [_hex ward_](ultimateMagic/spells/hexWard.md#_hex-ward)
 
 The target gains immunity to one witch hex (but not a major hex or grand hex) of your choice.
 

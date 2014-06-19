@@ -19,6 +19,12 @@ def doit
 
     #markdown it
     markdown = Markdowner.doit(sanitized_html)
+    
+    #change broken links
+    markdown = markdown.gsub(/\.html/, ".md")
+
+    #change image links
+    markdown = markdown.gsub(/\/pathfinderRPG\/prd\//, "")
 
     #create a file with the same name.md
     markdown_filename = html_filename.gsub('.html', '.md')

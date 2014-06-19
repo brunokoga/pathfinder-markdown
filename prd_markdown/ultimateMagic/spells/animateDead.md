@@ -6,5 +6,5 @@ Animate Dead, Lesser
 
 **Duration** instantaneous
 
-This spell functions as _ [animate dead](/pathfinderRPG/prd/spells/animateDead.html#_animate-dead)_, except you can only create a single Small or Medium skeleton or zombie. You cannot create variant skeletons or zombies with this spell.
+This spell functions as _ [animate dead](spells/animateDead.md#_animate-dead)_, except you can only create a single Small or Medium skeleton or zombie. You cannot create variant skeletons or zombies with this spell.
 

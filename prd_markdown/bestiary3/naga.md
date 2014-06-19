@@ -8,7 +8,7 @@ XP 2,400
 
 CN Large aberration
 
-**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +14
+**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +14
 
 DEFENSE
 
@@ -22,7 +22,7 @@ OFFENSE
 
 **Speed** 40 ft.
 
-**Melee** bite +7 (2d6+3 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** bite +7 (2d6+3 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
@@ -30,11 +30,11 @@ OFFENSE
 
 **Spells Known** (CL 5th; concentration +8)
 
-2nd (5/day)—_ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility), [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_
+2nd (5/day)—_ [invisibility](spells/invisibility.md#_invisibility), [scorching ray](spells/scorchingRay.md#_scorching-ray)_
 
-1st (7/day)—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 14), _ [expeditious retreat](/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 14)
+1st (7/day)—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 14), _ [expeditious retreat](spells/expeditiousRetreat.md#_expeditious-retreat)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 14)
 
-0 (at will)—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [disrupt undead](/pathfinderRPG/prd/spells/disruptUndead.html#_disrupt-undead)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [open/close](/pathfinderRPG/prd/spells/openClose.html#_open-close), [prestidigitation](/pathfinderRPG/prd/spells/prestidigitation.html#_prestidigitation), [ray of frost](/pathfinderRPG/prd/spells/rayOfFrost.html#_ray-of-frost)_
+0 (at will)—_ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [disrupt undead](spells/disruptUndead.md#_disrupt-undead)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [open/close](spells/openClose.md#_open-close), [prestidigitation](spells/prestidigitation.md#_prestidigitation), [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_
 
 STATISTICS
 
@@ -42,9 +42,9 @@ STATISTICS
 
 **Base Atk** +6; **CMB** +9; **CMD** 24 (can't be tripped)
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)B, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))
+**Feats** [Combat Casting](feats.md#_combat-casting), [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials)B, [Lightning Reflexes](feats.md#_lightning-reflexes), [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth))
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +7, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +7, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +5, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nature) +9, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +14, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +8, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +14
+**Skills** [Bluff](skills/bluff.md#_bluff) +7, [Diplomacy](skills/diplomacy.md#_diplomacy) +7, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +5, [Knowledge](skills/knowledge.md#_knowledge) (nature) +9, [Perception](skills/perception.md#_perception) +14, [Spellcraft](skills/spellcraft.md#_spellcraft) +8, [Stealth](skills/stealth.md#_stealth) +14
 
 **Languages** Aklo, Common
 
@@ -60,7 +60,7 @@ SPECIAL ABILITIES
 
 **Hypnosis (Su)** Once per day, by weaving and coiling its body and hissing as a standard action, a lunar naga can cause its scales to shimmer and glow with moonlike radiance. All creatures within 30 feet must make a DC 17 Will save to avoid becoming fascinated. The lunar naga can maintain this fascination effect as long as it concentrates; fascinated creatures follow the still-glowing naga if it moves as long as it maintains the effect by concentrating. The save DC is Charisma-based.
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 18; _frequency_ 1/round for 6 rounds; _effect_ 1d3 Con and 1 Wis; _cure_ 1 save.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 18; _frequency_ 1/round for 6 rounds; _effect_ 1d3 Con and 1 Wis; _cure_ 1 save.
 
 **Spells** A lunar naga casts spells as a 5th-level sorcerer.
 
@@ -78,9 +78,9 @@ Royal Naga CR 11
 
 XP 12,800
 
-LN Huge aberration ( [shapechanger](/pathfinderRPG/prd/monsters/creatureTypes.html#_shapechanger-subtype))
+LN Huge aberration ( [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft., _ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +27
+**Init** +7; **Senses** darkvision 60 ft., _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_; [Perception](skills/perception.md#_perception) +27
 
 Defense
 
@@ -94,27 +94,27 @@ Offense
 
 **Speed** 40 ft.
 
-**Melee** 5 bites +14 (2d6+6 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed))
+**Melee** 5 bites +14 (2d6+6 plus [bleed](monsters/universalMonsterRules.md#_bleed))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) (1d6), dual gaze, rend (3 bites, 2d6+9)
+**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d6), dual gaze, rend (3 bites, 2d6+9)
 
 **Spell-Like Abilities** (CL 9th; concentration +13)
 
-Constant—_ [see invisibility](/pathfinderRPG/prd/spells/seeInvisibility.html#_see-invisibility)_
+Constant—_ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_
 
 **Spells Known** (CL 9th; concentration +13)
 
-4th (5/day)—_ [arcane eye](/pathfinderRPG/prd/spells/arcaneEye.html#_arcane-eye)_, _ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_ (DC 18)
+4th (5/day)—_ [arcane eye](spells/arcaneEye.md#_arcane-eye)_, _ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 18)
 
-3rd (7/day)—_ [blink](/pathfinderRPG/prd/spells/blink.html#_blink)_, _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 17)
+3rd (7/day)—_ [blink](spells/blink.md#_blink)_, _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [suggestion](spells/suggestion.md#_suggestion)_ (DC 17)
 
-2nd (7/day)—_ [enthrall](/pathfinderRPG/prd/spells/enthrall.html#_enthrall)_ (DC 16), _ [hold person](/pathfinderRPG/prd/spells/holdPerson.html#_hold-person)_ (DC 16), _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [scorching ray](/pathfinderRPG/prd/spells/scorchingRay.html#_scorching-ray)_
+2nd (7/day)—_ [enthrall](spells/enthrall.md#_enthrall)_ (DC 16), _ [hold person](spells/holdPerson.md#_hold-person)_ (DC 16), _ [invisibility](spells/invisibility.md#_invisibility)_, _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_
 
-1st (7/day)—_ [charm person](/pathfinderRPG/prd/spells/charmPerson.html#_charm-person)_ (DC 15), _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [ray of enfeeblement](/pathfinderRPG/prd/spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 15), _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_
+1st (7/day)—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 15), _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [ray of enfeeblement](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 15), _ [shield](spells/shield.md#_shield)_
 
-0 (at will)—_ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ (DC 14), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [flare](/pathfinderRPG/prd/spells/flare.html#_flare)_ (DC 14), _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [message](/pathfinderRPG/prd/spells/message.html#_message)_, _ [open/close](/pathfinderRPG/prd/spells/openClose.html#_open-close)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_, _ [touch of fatigue](/pathfinderRPG/prd/spells/touchOfFatigue.html#_touch-of-fatigue)_
+0 (at will)—_ [daze](spells/daze.md#_daze)_ (DC 14), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [flare](spells/flare.md#_flare)_ (DC 14), _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [message](spells/message.md#_message)_, _ [open/close](spells/openClose.md#_open-close)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [touch of fatigue](spells/touchOfFatigue.md#_touch-of-fatigue)_
 
 Statistics
 
@@ -122,13 +122,13 @@ Statistics
 
 **Base Atk** +10; **CMB** +18 (+22 grapple); **CMD** 31 (can't be tripped)
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), [Blind-Fight](/pathfinderRPG/prd/feats.html#_blind-fight), [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)B, [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Stand Still](/pathfinderRPG/prd/feats.html#_stand-still)
+**Feats** [Alertness](feats.md#_alertness), [Blind-Fight](feats.md#_blind-fight), [Combat Casting](feats.md#_combat-casting), [Combat Reflexes](feats.md#_combat-reflexes), [Eschew Materials](feats.md#_eschew-materials)B, [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes), [Stand Still](feats.md#_stand-still)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +20 (+24 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +18, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +18, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (arcana) +18, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +11, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +11, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +27, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +24, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +12
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +20 (+24 when jumping), [Bluff](skills/bluff.md#_bluff) +18, [Diplomacy](skills/diplomacy.md#_diplomacy) +18, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +18, [Knowledge](skills/knowledge.md#_knowledge) (history) +11, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +11, [Perception](skills/perception.md#_perception) +27, [Sense Motive](skills/senseMotive.md#_sense-motive) +24, [Stealth](skills/stealth.md#_stealth) +12
 
 **Languages** Celestial, Common, Infernal
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (five humanoid shapes; _ [alter self](/pathfinderRPG/prd/spells/alterSelf.html#_alter-self)_)
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (five humanoid shapes; _ [alter self](spells/alterSelf.md#_alter-self)_)
 
 Ecology
 
@@ -140,7 +140,7 @@ Ecology
 
 Special Abilities
 
-**[Change Shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (Su)** A royal naga can use this ability to take one of five specific humanoid forms. Each of these forms has a unique appearance (such as a female dwarf with red hair, an elderly male [human](/pathfinderRPG/prd/monsters/creatureTypes.html#_human-subtype), and so on) and the naga can only use this ability to assume these five forms. The naga can still use its dual gaze in humanoid form.
+**[Change Shape](monsters/universalMonsterRules.md#_change-shape) (Su)** A royal naga can use this ability to take one of five specific humanoid forms. Each of these forms has a unique appearance (such as a female dwarf with red hair, an elderly male [human](monsters/creatureTypes.md#_human-subtype), and so on) and the naga can only use this ability to assume these five forms. The naga can still use its dual gaze in humanoid form.
 
 **Dual Gaze (Su)** A royal naga has a piercing stare capable of crippling those that meet its gazes. The creature has two gaze attacks and can switch between them as a move action. One gaze causes those that succumb to it to become permanently blinded, while the other causes those that succumb to be permanently deafened. A DC 21 Fortitude save negates the effects of either gaze; otherwise, the effects are permanent until cured. Royal nagas generally prefer to keep their deafening gaze active, switching to the blindness gaze once combat begins and some of their foes have already been deafened, since those who are blinded can no longer be harmed by gaze attacks. The save DC is Charisma-based.
 
@@ -158,9 +158,9 @@ Water Naga CR 7
 
 XP 3,200
 
-N Large aberration ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Large aberration ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +17
+**Init** +6; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +17
 
 Defense
 
@@ -174,19 +174,19 @@ Offense
 
 **Speed** 30 ft., swim 50 ft.
 
-**Melee** bite +10 (2d6+5 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su))), tail slap +5 (1d8+2)
+**Melee** bite +10 (2d6+5 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))), tail slap +5 (1d8+2)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
 **Spells Known** (CL 7th; concentration +11)
 
-3rd (5/day)—_ [protection from energy](/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy)_, _ [suggestion](/pathfinderRPG/prd/spells/suggestion.html#_suggestion)_ (DC 17)
+3rd (5/day)—_ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, _ [suggestion](spells/suggestion.md#_suggestion)_ (DC 17)
 
-2nd (7/day)—_ [acid arrow](/pathfinderRPG/prd/spells/acidArrow.html#_acid-arrow)_, _ [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, _ [mirror image](/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image)_
+2nd (7/day)—_ [acid arrow](spells/acidArrow.md#_acid-arrow)_, _ [invisibility](spells/invisibility.md#_invisibility)_, _ [mirror image](spells/mirrorImage.md#_mirror-image)_
 
-1st (7/day)—_ [expeditious retreat](/pathfinderRPG/prd/spells/expeditiousRetreat.html#_expeditious-retreat)_, _ [magic missile](/pathfinderRPG/prd/spells/magicMissile.html#_magic-missile)_, _ [obscuring mist](/pathfinderRPG/prd/spells/obscuringMist.html#_obscuring-mist)_, _ [shield](/pathfinderRPG/prd/spells/shield.html#_shield)_, _ [true strike](/pathfinderRPG/prd/spells/trueStrike.html#_true-strike)_
+1st (7/day)—_ [expeditious retreat](spells/expeditiousRetreat.md#_expeditious-retreat)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_, _ [shield](spells/shield.md#_shield)_, _ [true strike](spells/trueStrike.md#_true-strike)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/spells/acidSplash.html#_acid-splash)_, _ [daze](/pathfinderRPG/prd/spells/daze.html#_daze)_ (DC 14), _ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [light](/pathfinderRPG/prd/spells/light.html#_light)_, _ [mage hand](/pathfinderRPG/prd/spells/mageHand.html#_mage-hand)_, _ [open/close](/pathfinderRPG/prd/spells/openClose.html#_open-close)_, _ [read magic](/pathfinderRPG/prd/spells/readMagic.html#_read-magic)_
+0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [daze](spells/daze.md#_daze)_ (DC 14), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [light](spells/light.md#_light)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [open/close](spells/openClose.md#_open-close)_, _ [read magic](spells/readMagic.md#_read-magic)_
 
 Statistics
 
@@ -194,9 +194,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +12; **CMD** 28 (can't be tripped)
 
-**Feats** [Combat Casting](/pathfinderRPG/prd/feats.html#_combat-casting), [Eschew Materials](/pathfinderRPG/prd/feats.html#_eschew-materials)B, [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth))
+**Feats** [Combat Casting](feats.md#_combat-casting), [Eschew Materials](feats.md#_eschew-materials)B, [Lightning Reflexes](feats.md#_lightning-reflexes), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception)), [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth))
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +8, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (local) +4, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +17, [Spellcraft](/pathfinderRPG/prd/skills/spellcraft.html#_spellcraft) +11, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +16, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +13
+**Skills** [Bluff](skills/bluff.md#_bluff) +8, [Knowledge](skills/knowledge.md#_knowledge) (local) +4, [Perception](skills/perception.md#_perception) +17, [Spellcraft](skills/spellcraft.md#_spellcraft) +11, [Stealth](skills/stealth.md#_stealth) +16, [Swim](skills/swim.md#_swim) +13
 
 **Languages** Aquan, Common
 
@@ -212,7 +212,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 19; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Con damage; _cure_ 2 saves.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 19; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Con damage; _cure_ 2 saves.
 
 **Spells** A water naga casts spells as a 7th-level sorcerer.
 

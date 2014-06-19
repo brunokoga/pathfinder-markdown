@@ -36,7 +36,7 @@ Once you've cast a prepared spell, you can't cast it again until you prepare it 
 | Weather caused by spell | see spell |
 | Entangled while casting | 15 + spell level |
 
-To cast a spell, you must concentrate. If something interrupts your concentration while you're casting, you must make a concentration check or lose the spell. When you make a concentration check, you roll d20 and add your caster level and the ability score modifier used to determine bonus spells of the same type. Clerics, druids, and rangers add their [Wisdom](gettingStarted.html#_wisdom) modifier. Bards, paladins, and sorcerers add their [Charisma](gettingStarted.html#_charisma-new) modifier. Finally, wizards add their [Intelligence](gettingStarted.html#_intelligence) modifier. The more distracting the interruption and the higher the level of the spell you are trying to cast, the higher the DC (see Table: Concentration Check DCs). If you fail the check, you lose the spell just as if you had cast it to no effect.
+To cast a spell, you must concentrate. If something interrupts your concentration while you're casting, you must make a concentration check or lose the spell. When you make a concentration check, you roll d20 and add your caster level and the ability score modifier used to determine bonus spells of the same type. Clerics, druids, and rangers add their [Wisdom](gettingStarted.md#_wisdom) modifier. Bards, paladins, and sorcerers add their [Charisma](gettingStarted.md#_charisma-new) modifier. Finally, wizards add their [Intelligence](gettingStarted.md#_intelligence) modifier. The more distracting the interruption and the higher the level of the spell you are trying to cast, the higher the DC (see Table: Concentration Check DCs). If you fail the check, you lose the spell just as if you had cast it to no effect.
 
 **Injury** : If you take damage while trying to cast a spell, you must make a concentration check with a DC equal to 10 + the damage taken + the level of the spell you're casting. If you fail the check, you lose the spell without effect. The interrupting event strikes during spellcasting if it comes between the time you started and the time you complete a spell (for a spell with a casting time of 1 full round or more) or if it comes in response to your casting the spell (such as an attack of opportunity provoked by the spell or a contingent attack, such as a readied action).
 
@@ -62,13 +62,13 @@ If the spell interferes with you or distracts you in some other way, the DC is t
 
 It is possible to cast any spell as a counterspell. By doing so, you are using the spell's energy to disrupt the casting of the same spell by another character. Counterspelling works even if one spell is divine and the other arcane.
 
-**How Counterspells Work** : To use a counterspell, you must select an opponent as the target of the counterspell. You do this by choosing to [ready an action](combat.html#_ready). In doing so, you elect to wait to complete your action until your opponent tries to cast a spell. You may still move at your normal speed, since ready is a standard action.
+**How Counterspells Work** : To use a counterspell, you must select an opponent as the target of the counterspell. You do this by choosing to [ready an action](combat.md#_ready). In doing so, you elect to wait to complete your action until your opponent tries to cast a spell. You may still move at your normal speed, since ready is a standard action.
 
 If the target of your counterspell tries to cast a spell, make a Spellcraft check (DC 15 + the spell's level). This check is a free action. If the check succeeds, you correctly identify the opponent's spell and can attempt to counter it. If the check fails, you can't do either of these things.
 
 To complete the action, you must then cast an appropriate spell. As a general rule, a spell can only counter itself. If you are able to cast the same spell and you have it prepared (or have a slot of the appropriate level available), you cast it, creating a counterspell effect. If the target is within range, both spells automatically negate each other with no other results.
 
-**Counterspelling Metamagic Spells** : [Metamagic](feats.html#_metamagic-feats) feats are not taken into account when determining whether a spell can be countered.
+**Counterspelling Metamagic Spells** : [Metamagic](feats.md#_metamagic-feats) feats are not taken into account when determining whether a spell can be countered.
 
 **Specific Exceptions** : Some spells can counter other specific spells, often those with diametrically opposed effects.
 
@@ -98,13 +98,13 @@ Many special spell effects are handled according to the school of the spells in 
 
 **Attacks** : Some spell descriptions refer to attacking. All offensive combat actions, even those that don't damage opponents, are considered attacks. Attempts to channel energy count as attacks if it would harm any creatures in the area. All spells that opponents resist with saving throws, that deal damage, or that otherwise harm or hamper subjects are attacks. Spells that summon monsters or other allies are not attacks because the spells themselves don't harm anyone.
 
-**Bonus Types** : Usually, a bonus has a type that indicates how the spell grants the bonus. The important aspect of bonus types is that two bonuses of the same type don't generally stack. With the exception of [dodge bonus](combat.html#_dodge-bonuses)es, most circumstance bonuses, and racial bonuses, only the better bonus of a given type works (see Combining Magical Effects). The same principle applies to penalties—a character taking two or more penalties of the same type applies only the worst one, although most penalties have no type and thus always stack. Bonuses without a type always stack, unless they are from the same source.
+**Bonus Types** : Usually, a bonus has a type that indicates how the spell grants the bonus. The important aspect of bonus types is that two bonuses of the same type don't generally stack. With the exception of [dodge bonus](combat.md#_dodge-bonuses)es, most circumstance bonuses, and racial bonuses, only the better bonus of a given type works (see Combining Magical Effects). The same principle applies to penalties—a character taking two or more penalties of the same type applies only the worst one, although most penalties have no type and thus always stack. Bonuses without a type always stack, unless they are from the same source.
 
 **Bringing Back the Dead** : Several spells have the power to restore slain characters to life.
 
-When a living creature dies, its soul departs its body, leaves the Material Plane, travels through the Astral Plane, and goes to abide on the plane where the creature's deity resides. If the creature did not worship a deity, its soul departs to the plane corresponding to its alignment. Bringing someone back from the dead involves magically retrieving his soul and returning it to his body. For more information on the planes, see [Environment](environment.html).
+When a living creature dies, its soul departs its body, leaves the Material Plane, travels through the Astral Plane, and goes to abide on the plane where the creature's deity resides. If the creature did not worship a deity, its soul departs to the plane corresponding to its alignment. Bringing someone back from the dead involves magically retrieving his soul and returning it to his body. For more information on the planes, see [Environment](environment.md).
 
-_Negative Levels_: Any creature brought back to life usually gains one or more permanent negative levels (see [Special Abilities](glossary.html#_appendix-1-special-abilities)). These levels apply a penalty to most rolls until removed through spells such as _restoration_. If the character was 1st level at the time of death, he loses 2 points of [Constitution](gettingStarted.html#_constitution) instead of gaining a negative level.
+_Negative Levels_: Any creature brought back to life usually gains one or more permanent negative levels (see [Special Abilities](glossary.md#_appendix-1-special-abilities)). These levels apply a penalty to most rolls until removed through spells such as _restoration_. If the character was 1st level at the time of death, he loses 2 points of [Constitution](gettingStarted.md#_constitution) instead of gaining a negative level.
 
 _Preventing Revivification_: Enemies can take steps to make it more difficult for a character to be returned from the dead. Keeping the body prevents others from using _raise dead _or _resurrection _to restore the slain character to life. Casting _trap the soul _prevents any sort of revivification unless the soul is first released.
 
@@ -124,7 +124,7 @@ _Same Effect with Differing Results_: The same spell can sometimes produce varyi
 
 _One Effect Makes Another Irrelevant_: Sometimes, one spell can render a later spell irrelevant. Both spells are still active, but one has rendered the other useless in some fashion.
 
-_Multiple Mental Control Effects_: Sometimes magical effects that establish mental control render each other irrelevant, such as spells that remove the subject's ability to act. Mental controls that don't remove the recipient's ability to act usually do not interfere with each other. If a creature is under the mental control of two or more creatures, it tends to obey each to the best of its ability, and to the extent of the control each effect allows. If the controlled creature receives conflicting orders simultaneously, the competing controllers must make opposed [Charisma](gettingStarted.html#_charisma-new) checks to determine which one the creature obeys.
+_Multiple Mental Control Effects_: Sometimes magical effects that establish mental control render each other irrelevant, such as spells that remove the subject's ability to act. Mental controls that don't remove the recipient's ability to act usually do not interfere with each other. If a creature is under the mental control of two or more creatures, it tends to obey each to the best of its ability, and to the extent of the control each effect allows. If the controlled creature receives conflicting orders simultaneously, the competing controllers must make opposed [Charisma](gettingStarted.md#_charisma-new) checks to determine which one the creature obeys.
 
 **Spells with Opposite Effects** : Spells with opposite effects apply normally, with all bonuses, penalties, or changes accruing in the order that they apply. Some spells negate or counter each other. This is a special effect that is noted in a spell's description.
 
@@ -208,7 +208,7 @@ Illusion spells deceive the senses or minds of others. They cause people to see 
 
 Because figments and glamers are unreal, they cannot produce real effects the way that other types of illusions can. Figments and glamers cannot cause damage to objects or creatures, support weight, provide nutrition, or provide protection from the elements. Consequently, these spells are useful for confounding foes, but useless for attacking them directly.
 
-A figment's [AC](combat.html#_armor-class) is equal to 10 + its size modifier.
+A figment's [AC](combat.md#_armor-class) is equal to 10 + its size modifier.
 
 **Glamer** : A glamer spell changes a subject's sensory qualities, making it look, feel, taste, smell, or sound like something else, or even seem to disappear.
 
@@ -234,13 +234,13 @@ Transmutation spells change the properties of some creature, thing, or condition
 
 **Polymorph** : A polymorph spell transforms your physical body to take on the shape of another creature. While these spells make you appear to be the creature, granting you a +10 bonus on Disguise skill checks, they do not grant you all of the abilities and powers of the creature. Each polymorph spell allows you to assume the form of a creature of a specific type, granting you a number of bonuses to your ability scores and a bonus to your natural armor. In addition, each polymorph spell can grant you a number of other benefits, including movement types, resistances, and senses. If the form you choose grants these benefits, or a greater ability of the same type, you gain the listed benefit. If the form grants a lesser ability of the same type, you gain the lesser ability instead. Your base speed changes to match that of the form you assume. If the form grants a swim or burrow speed, you maintain the ability to breathe if you are swimming or burrowing. The DC for any of these abilities equals your DC for the polymorph spell used to change you into that form.
 
-In addition to these benefits, you gain any of the natural attacks of the base creature, including proficiency in those attacks. These attacks are based on your base attack bonus, modified by your [Strength](gettingStarted.html#_strength) or [Dexterity](gettingStarted.html#_dexterity) as appropriate, and use your [Strength](gettingStarted.html#_strength) modifier for determining damage bonuses.
+In addition to these benefits, you gain any of the natural attacks of the base creature, including proficiency in those attacks. These attacks are based on your base attack bonus, modified by your [Strength](gettingStarted.md#_strength) or [Dexterity](gettingStarted.md#_dexterity) as appropriate, and use your [Strength](gettingStarted.md#_strength) modifier for determining damage bonuses.
 
 If a polymorph spell causes you to change size, apply the size modifiers appropriately, changing your armor class, attack bonus, Combat Maneuver Bonus, and Stealth skill modifiers. Your ability scores are not modified by this change unless noted by the spell.
 
 Unless otherwise noted, polymorph spells cannot be used to change into specific individuals. Although many of the fine details can be controlled, your appearance is always that of a generic member of that creature's type. Polymorph spells cannot be used to assume the form of a creature with a template or an advanced version of a creature.
 
-When you cast a polymorph spell that changes you into a creature of the animal, dragon, elemental, magical beast, plant, or vermin type, all of your gear melds into your body. Items that provide constant bonuses and do not need to be activated continue to function while melded in this way (with the exception of armor and shield bonuses, which cease to function). Items that require activation cannot be used while you maintain that form. While in such a form, you cannot cast any spells that require material components (unless you have the [Eschew Materials](feats.html#_eschew-materials) or Natural Spell feat), and can only cast spells with somatic or verbal components if the form you choose has the capability to make such movements or speak, such as a dragon. Other polymorph spells might be subject to this restriction as well, if they change you into a form that is unlike your original form (subject to GM discretion). If your new form does not cause your equipment to meld into your form, the equipment resizes to match your new size.
+When you cast a polymorph spell that changes you into a creature of the animal, dragon, elemental, magical beast, plant, or vermin type, all of your gear melds into your body. Items that provide constant bonuses and do not need to be activated continue to function while melded in this way (with the exception of armor and shield bonuses, which cease to function). Items that require activation cannot be used while you maintain that form. While in such a form, you cannot cast any spells that require material components (unless you have the [Eschew Materials](feats.md#_eschew-materials) or Natural Spell feat), and can only cast spells with somatic or verbal components if the form you choose has the capability to make such movements or speak, such as a dragon. Other polymorph spells might be subject to this restriction as well, if they change you into a form that is unlike your original form (subject to GM discretion). If your new form does not cause your equipment to meld into your form, the equipment resizes to match your new size.
 
 While under the effects of a polymorph spell, you lose all extraordinary and supernatural abilities that depend on your original form (such as keen senses, scent, and darkvision), as well as any natural attacks and movement types possessed by your original form. You also lose any class features that depend upon form, but those that allow you to add features (such as sorcerers that can grow claws) still function. While most of these should be obvious, the GM is the final arbiter of what abilities depend on form and are lost when a new form is assumed. Your new form might restore a number of these abilities if they are possessed by the new form.
 
@@ -268,7 +268,7 @@ Most of these descriptors have no game effect by themselves, but they govern how
 
 A language-dependent spell uses intelligible language as a medium for communication. If the target cannot understand or cannot hear what the caster of a language-dependant spell says, the spell fails.
 
-A mind-affecting spell works only against creatures with an [Intelligence](gettingStarted.html#_intelligence) score of 1 or higher.
+A mind-affecting spell works only against creatures with an [Intelligence](gettingStarted.md#_intelligence) score of 1 or higher.
 
 ## Level
 
@@ -328,7 +328,7 @@ You must make choices about whom a spell is to affect or where an effect is to o
 
 **Target or Targets** : Some spells have a target or targets. You cast these spells on creatures or objects, as defined by the spell itself. You must be able to see or touch the target, and you must specifically choose that target. You do not have to select your target until you finish casting the spell.
 
-If the target of a spell is yourself (the Target line of the spell description includes âYouâ), you do not receive a saving throw, and spell resistance does not apply. The saving throw and spell resistance lines are omitted from such spells.
+If the target of a spell is yourself (the Target line of the spell description includes “You”), you do not receive a saving throw, and spell resistance does not apply. The saving throw and spell resistance lines are omitted from such spells.
 
 Some spells restrict you to willing targets only. Declaring yourself as a willing target is something that can be done at any time (even if you're flat-footed or it isn't your turn). Unconscious creatures are automatically considered willing, but a character who is conscious but immobile or helpless (such as one who is bound, cowering, grappling, paralyzed, pinned, or stunned) is not automatically willing.
 
@@ -346,7 +346,7 @@ If a ray spell deals damage, you can score a critical hit just as if it were a w
 
 _Spread_: Some effects, notably clouds and fogs, spread out from a point of origin, which must be a grid intersection. The effect can extend around corners and into areas that you can't see. Figure distance by actual distance traveled, taking into account turns the spell effect takes. When determining distance for spread effects, count around walls, not through them. As with movement, do not trace diagonals across corners. You must designate the point of origin for such an effect, but you need not have line of effect (see below) to all portions of the effect.
 
-[SpellAreas]| ![](/pathfinderRPG/prd/image/SpellAreas.jpg) |
+[SpellAreas]| ![](image/SpellAreas.jpg) |
 
 **Area** : Some spells affect an area. Sometimes a spell description specifies a specially defined area, but usually an area falls into one of the categories defined below.
 
@@ -374,13 +374,13 @@ A sphere-shaped spell expands from its point of origin to fill a spherical area.
 
 _Creatures_: A spell with this kind of area affects creatures directly (like a targeted spell), but it affects all creatures in an area of some kind rather than individual creatures you select. The area might be a spherical burst, a cone-shaped burst, or some other shape.
 
-Many spells affect âliving creatures,â which means all creatures other than constructs and undead. Creatures in the spell's area that are not of the appropriate type do not count against the creatures affected.
+Many spells affect “living creatures,” which means all creatures other than constructs and undead. Creatures in the spell's area that are not of the appropriate type do not count against the creatures affected.
 
 _Objects_: A spell with this kind of area affects objects within an area you select (as Creatures, but affecting objects instead).
 
 _Other_: A spell can have a unique area, as defined in its description.
 
-_(S) Shapeable_: If an area or effect entry ends with â(S),â you can shape the spell. A shaped effect or area can have no dimension smaller than 10 feet. Many effects or areas are given as cubes to make it easy to model irregular shapes. Three-dimensional volumes are most often needed to define aerial or underwater effects and areas.
+_(S) Shapeable_: If an area or effect entry ends with “(S),” you can shape the spell. A shaped effect or area can have no dimension smaller than 10 feet. Many effects or areas are given as cubes to make it easy to model irregular shapes. Three-dimensional volumes are most often needed to define aerial or underwater effects and areas.
 
 **Line of Effect** : A line of effect is a straight, unblocked path that indicates what a spell can affect. A line of effect is canceled by a solid barrier. It's like line of sight for ranged weapons, except that it's not blocked by fog, darkness, and other factors that limit normal sight.
 
@@ -414,7 +414,7 @@ Some touch spells allow you to touch multiple targets as part of the spell. You 
 
 **Discharge** : Occasionally a spells lasts for a set duration or until triggered or discharged.
 
-**(D) Dismissible** : If the duration line ends with â(D),â you can dismiss the spell at will. You must be within range of the spell's effect and must speak words of dismissal, which are usually a modified form of the spell's verbal component. If the spell has no verbal component, you can dismiss the effect with a gesture. Dismissing a spell is a standard action that does not provoke attacks of opportunity.
+**(D) Dismissible** : If the duration line ends with “(D),” you can dismiss the spell at will. You must be within range of the spell's effect and must speak words of dismissal, which are usually a modified form of the spell's verbal component. If the spell has no verbal component, you can dismiss the effect with a gesture. Dismissing a spell is a standard action that does not provoke attacks of opportunity.
 
 A spell that depends on concentration is dismissible by its very nature, and dismissing it does not take an action, since all you have to do to end the spell is to stop concentrating on your turn.
 
@@ -436,7 +436,7 @@ Usually a harmful spell allows a target to make a saving throw to avoid some or 
 
 **(harmless)** : The spell is usually beneficial, not harmful, but a targeted creature can attempt a saving throw if it desires.
 
-**Saving Throw Difficulty Class** : A saving throw against your spell has a DC of 10 + the level of the spell + your bonus for the relevant ability ( [Intelligence](gettingStarted.html#_intelligence) for a wizard, [Charisma](gettingStarted.html#_charisma-new) for a bard, paladin, or sorcerer, or [Wisdom](gettingStarted.html#_wisdom) for a cleric, druid, or ranger). A spell's level can vary depending on your class. Always use the spell level applicable to your class.
+**Saving Throw Difficulty Class** : A saving throw against your spell has a DC of 10 + the level of the spell + your bonus for the relevant ability ( [Intelligence](gettingStarted.md#_intelligence) for a wizard, [Charisma](gettingStarted.md#_charisma-new) for a bard, paladin, or sorcerer, or [Wisdom](gettingStarted.md#_wisdom) for a cleric, druid, or ranger). A spell's level can vary depending on your class. Always use the spell level applicable to your class.
 
 **Succeeding on a Saving Throw** : A creature that successfully saves against a spell that has no obvious physical effects feels a hostile force or a tingle, but cannot deduce the exact nature of the attack. Likewise, if a creature's saving throw succeeds against a targeted spell, you sense that the spell has failed. You do not sense when creatures succeed on saves against effect and area spells.
 
@@ -464,15 +464,15 @@ If the selected item is not carried or worn and is not magical, it does not get 
 
 ## Spell Resistance
 
-Spell resistance is a special defensive ability. If your spell is being resisted by a creature with spell resistance, you must make a caster level check (1d20 + caster level) at least equal to the creature's spell resistance for the spell to affect that creature. The defender's spell resistance is like an [Armor Class](combat.html#_armor-class) against magical attacks. Include any adjustments to your caster level to this caster level check.
+Spell resistance is a special defensive ability. If your spell is being resisted by a creature with spell resistance, you must make a caster level check (1d20 + caster level) at least equal to the creature's spell resistance for the spell to affect that creature. The defender's spell resistance is like an [Armor Class](combat.md#_armor-class) against magical attacks. Include any adjustments to your caster level to this caster level check.
 
 The Spell Resistance entry and the descriptive text of a spell description tell you whether spell resistance protects creatures from the spell. In many cases, spell resistance applies only when a resistant creature is targeted by the spell, not when a resistant creature encounters a spell that is already in place.
 
-The terms âobjectâ and âharmlessâ mean the same thing for spell resistance as they do for saving throws. A creature with spell resistance must voluntarily lower the resistance (a standard action) in order to be affected by such spells without forcing the caster to make a caster level check.
+The terms “object” and “harmless” mean the same thing for spell resistance as they do for saving throws. A creature with spell resistance must voluntarily lower the resistance (a standard action) in order to be affected by such spells without forcing the caster to make a caster level check.
 
 ## Descriptive Text
 
-This portion of a spell description details what the spell does and how it works. If one of the previous entries in the description includes âsee text,â this is where the explanation is found.
+This portion of a spell description details what the spell does and how it works. If one of the previous entries in the description includes “see text,” this is where the explanation is found.
 
 # Arcane Spells
 
@@ -482,7 +482,7 @@ Wizards, sorcerers, and bards cast arcane spells. Compared to divine spells, arc
 
 ## Preparing Wizard Spells
 
-A wizard's level limits the number of spells he can prepare and cast. His high [Intelligence](gettingStarted.html#_intelligence) score might allow him to prepare a few extra spells. He can prepare the same spell more than once, but each preparation counts as one spell toward his daily limit. To prepare a spell, the wizard must have an [Intelligence](gettingStarted.html#_intelligence) score of at least 10 + the spell's level.
+A wizard's level limits the number of spells he can prepare and cast. His high [Intelligence](gettingStarted.md#_intelligence) score might allow him to prepare a few extra spells. He can prepare the same spell more than once, but each preparation counts as one spell toward his daily limit. To prepare a spell, the wizard must have an [Intelligence](gettingStarted.md#_intelligence) score of at least 10 + the spell's level.
 
 **Rest** : To prepare his daily spells, a wizard must first sleep for 8 hours. The wizard does not have to slumber for every minute of the time, but he must refrain from movement, combat, spellcasting, skill use, conversation, or any other fairly demanding physical or mental task during the rest period. If his rest is interrupted, each interruption adds 1 hour to the total amount of time he has to rest in order to clear his mind, and he must have at least 1 hour of uninterrupted rest immediately prior to preparing his spells. If the character does not need to sleep for some reason, he still must have 8 hours of restful calm before preparing any spells.
 
@@ -561,7 +561,7 @@ Captured spellbooks can be sold for an amount equal to half the cost of purchasi
 
 ## Sorcerers and Bards
 
-Sorcerers and bards cast arcane spells, but they do not use spellbooks or prepare spells. Their class level limits the number of spells she can cast (see these class descriptions). Her high [Charisma](gettingStarted.html#_charisma-new) score might allow her to cast a few extra spells. A member of either class must have a [Charisma](gettingStarted.html#_charisma-new) score of at least 10 + the spell's level to cast the spell.
+Sorcerers and bards cast arcane spells, but they do not use spellbooks or prepare spells. Their class level limits the number of spells she can cast (see these class descriptions). Her high [Charisma](gettingStarted.md#_charisma-new) score might allow her to cast a few extra spells. A member of either class must have a [Charisma](gettingStarted.md#_charisma-new) score of at least 10 + the spell's level to cast the spell.
 
 **Daily Readying of Spells** : Each day, sorcerers and bards must focus their minds on the task of casting their spells. A sorcerer or bard needs 8 hours of rest (just like a wizard), after which she spends 15 minutes concentrating. (A bard must sing, recite, or play an instrument of some kind while concentrating.) During this period, the sorcerer or bard readies her mind to cast her daily allotment of spells. Without such a period to refresh herself, the character does not regain the spell slots she used up the day before.
 
@@ -575,7 +575,7 @@ Clerics, druids, experienced paladins, and experienced rangers can cast divine s
 
 ## Preparing Divine Spells
 
-Divine spellcasters prepare their spells in largely the same manner as wizards do, but with a few differences. The relevant ability for most divine spells is [Wisdom](gettingStarted.html#_wisdom) ( [Charisma](gettingStarted.html#_charisma-new) for paladins). To prepare a divine spell, a character must have a [Wisdom](gettingStarted.html#_wisdom) score (or [Charisma](gettingStarted.html#_charisma-new) score for paladins) of 10 + the spell's level. Likewise, bonus spells are based on [Wisdom](gettingStarted.html#_wisdom).
+Divine spellcasters prepare their spells in largely the same manner as wizards do, but with a few differences. The relevant ability for most divine spells is [Wisdom](gettingStarted.md#_wisdom) ( [Charisma](gettingStarted.md#_charisma-new) for paladins). To prepare a divine spell, a character must have a [Wisdom](gettingStarted.md#_wisdom) score (or [Charisma](gettingStarted.md#_charisma-new) score for paladins) of 10 + the spell's level. Likewise, bonus spells are based on [Wisdom](gettingStarted.md#_wisdom).
 
 **Time of Day** : A divine spellcaster chooses and prepares spells ahead of time, but unlike a wizard, does not require a period of rest to prepare spells. Instead, the character chooses a particular time of day to pray and receive spells. The time is usually associated with some daily event. If some event prevents a character from praying at the proper time, she must do so as soon as possible. If the character does not stop to pray for spells at the first opportunity, she must wait until the next day to prepare spells.
 

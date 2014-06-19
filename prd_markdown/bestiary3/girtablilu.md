@@ -8,7 +8,7 @@ XP 4,800
 
 N Large monstrous humanoid
 
-**Init** +6; **Senses** darkvision 60 ft., tremorsense 30 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +14
+**Init** +6; **Senses** darkvision 60 ft., tremorsense 30 ft.; [Perception](skills/perception.md#_perception) +14
 
 Defense
 
@@ -22,17 +22,17 @@ Offense
 
 **Speed** 50 ft.
 
-**Melee** mwk spear +15/+10 (1d8+7/×3), 2 claws +9 (1d6+2 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab)), sting +9 (1d6+2 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** mwk spear +15/+10 (1d8+7/×3), 2 claws +9 (1d6+2 plus [grab](monsters/universalMonsterRules.md#_grab)), sting +9 (1d6+2 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Ranged** mwk spear +12 (1d8+5/×3)
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [constrict](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_constrict) (1d6+5)
+**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) (1d6+5)
 
 **Spell-Like Abilities** (CL 10th; concentration +10)
 
-1/day—_ [summon nature's ally V](/pathfinderRPG/prd/spells/summonNatureSAlly.html#_summon-nature-s-ally-v)_ (1d3 giant scorpions)
+1/day—_ [summon nature's ally V](spells/summonNatureSAlly.md#_summon-nature-s-ally-v)_ (1d3 giant scorpions)
 
 Statistics
 
@@ -40,25 +40,25 @@ Statistics
 
 **Base Atk** +10; **CMB** +16 (+20 grapple); **CMD** 29 (41 vs. trip)
 
-**Feats** [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Mobility](/pathfinderRPG/prd/feats.html#_mobility), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike)
+**Feats** [Dodge](feats.md#_dodge), [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes), [Mobility](feats.md#_mobility), [Vital Strike](feats.md#_vital-strike)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +17, [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (any one) +8, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +5, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +14, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +7, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +10, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +15; **Racial Modifiers** +4 [Climb](/pathfinderRPG/prd/skills/climb.html#_climb), +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
+**Skills** [Climb](skills/climb.md#_climb) +17, [Craft](skills/craft.md#_craft) (any one) +8, [Knowledge](skills/knowledge.md#_knowledge) (history) +5, [Perception](skills/perception.md#_perception) +14, [Sense Motive](skills/senseMotive.md#_sense-motive) +7, [Stealth](skills/stealth.md#_stealth) +10, [Survival](skills/survival.md#_survival) +15; **Racial Modifiers** +4 [Climb](skills/climb.md#_climb), +4 [Perception](skills/perception.md#_perception), +4 [Stealth](skills/stealth.md#_stealth)
 
 **Languages** Common, Girtablilu
 
-**SQ** scorpion empathy +10, [undersized weapons](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_undersized-weapons)
+**SQ** scorpion empathy +10, [undersized weapons](monsters/universalMonsterRules.md#_undersized-weapons)
 
 Ecology
 
 **Environment** warm deserts
 
-**Organization** solitary, pair, patrol (3–5 plus 2–4 [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) scorpions), or cult (6–14 plus 3–6 temple guardians of 3rd level, 1 cleric or oracle leader of 6th level, and 4–9 [giant](/pathfinderRPG/prd/monsters/creatureTypes.html#_giant-subtype) scorpions)
+**Organization** solitary, pair, patrol (3–5 plus 2–4 [giant](monsters/creatureTypes.md#_giant-subtype) scorpions), or cult (6–14 plus 3–6 temple guardians of 3rd level, 1 cleric or oracle leader of 6th level, and 4–9 [giant](monsters/creatureTypes.md#_giant-subtype) scorpions)
 
 **Treasure** standard (leather armor, masterwork spear)
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 20; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Dex; _cure_ 2 consecutive saves.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 20; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Dex; _cure_ 2 consecutive saves.
 
 **Scorpion Empathy (Ex)** This ability functions as a druid's wild empathy ability, save that it works only on scorpions. A girtablilu gains a racial bonus on this check equal to its Hit Dice (normally +10). Scorpions are normally mindless, but this empathic communication imparts upon them a modicum of implanted intelligence, allowing girtablilus to train scorpions and use them as guardians (though it does not grant them skills or feats).
 

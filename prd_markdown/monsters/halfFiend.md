@@ -6,9 +6,9 @@ _This fiendish figure, complete with bat wings, claws, a fanged bull's head, and
 
 **XP 2,400**
 
-CE Large [outsider](creatureTypes.html#_outsider) ( [native](creatureTypes.html#_native-subtype))
+CE Large [outsider](creatureTypes.md#_outsider) ( [native](creatureTypes.md#_native-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +14
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +14
 
 **Defense**
 
@@ -28,11 +28,11 @@ CE Large [outsider](creatureTypes.html#_outsider) ( [native](creatureTypes.html#
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** smite good 1/day, [powerful charge](universalMonsterRules.html#_powerful-charge) (gore +13, 2d6+9)
+**Special Attacks** smite good 1/day, [powerful charge](universalMonsterRules.md#_powerful-charge) (gore +13, 2d6+9)
 
 **Spell-Like Abilities** (CL 6th)
 
-3/day—_ [darkness](../spells/darkness.html#_darkness); _1/day—_ [desecrate](../spells/desecrate.html#_desecrate), [unholy blight](../spells/unholyBlight.html#_unholy-blight)_ (DC 14)
+3/day—_ [darkness](../spells/darkness.md#_darkness); _1/day—_ [desecrate](../spells/desecrate.md#_desecrate), [unholy blight](../spells/unholyBlight.md#_unholy-blight)_ (DC 14)
 
 **Statistics**
 
@@ -40,9 +40,9 @@ CE Large [outsider](creatureTypes.html#_outsider) ( [native](creatureTypes.html#
 
 **Base**  **Atk** +6; **CMB** +13; **CMD** 25
 
-**Feats** [Great Fortitude](../feats.html#_great-fortitude), [Improved Bull Rush](../feats.html#_improved-bull-rush), [Power Attack](../feats.html#_power-attack)
+**Feats** [Great Fortitude](../feats.md#_great-fortitude), [Improved Bull Rush](../feats.md#_improved-bull-rush), [Power Attack](../feats.md#_power-attack)
 
-**Skills** [Fly](../skills/fly.html#_fly) +0, [Intimidate](../skills/intimidate.html#_intimidate) +9, Knowl. (religion) +5, Percep. +14, [Stealth](../skills/stealth.html#_stealth) +7, [Survival](../skills/survival.html#_survival) +14; **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception), +4 [Survival](../skills/survival.html#_survival)
+**Skills** [Fly](../skills/fly.md#_fly) +0, [Intimidate](../skills/intimidate.md#_intimidate) +9, Knowl. (religion) +5, Percep. +14, [Stealth](../skills/stealth.md#_stealth) +7, [Survival](../skills/survival.md#_survival) +14; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception), +4 [Survival](../skills/survival.md#_survival)
 
 **Languages** Giant
 
@@ -54,19 +54,19 @@ CE Large [outsider](creatureTypes.html#_outsider) ( [native](creatureTypes.html#
 
 **Treasure** standard (greataxe, other treasure)
 
-\* [Minotaur](minotaur.html) ability.
+\* [Minotaur](minotaur.md) ability.
 
 Half-fiends are creatures heavily tainted with demonic, infernal, or other evil power.
 
 ## Creating a Half-Fiend
 
-âHalf-fiendâ is an inherited or acquired template that can be added to a living, corporeal creature with an Int score of 4 or more. A half-fiend uses all the base creature's statistics and special abilities except as noted here.
+“Half-fiend” is an inherited or acquired template that can be added to a living, corporeal creature with an Int score of 4 or more. A half-fiend uses all the base creature's statistics and special abilities except as noted here.
 
 **CR** : HD 4 or less, as base creature + 1; HD 5 to 10, as base creature + 2; HD 11 or more, as base creature + 3.
 
 **Alignment** : Any evil.
 
-**Type** : The creature's type changes to [outsider](creatureTypes.html#_outsider) (native). Do not recalculate HD, BAB, or saves.
+**Type** : The creature's type changes to [outsider](creatureTypes.md#_outsider) (native). Do not recalculate HD, BAB, or saves.
 
 **Armor Class** : Natural armor improves by +1.
 
@@ -90,16 +90,16 @@ _Spell-Like Abilities_: A half-fiend with an Int or Wis score of 8 or higher has
 
 | HD | Abilities |
 | --- | --- |
-| 1–2 | _ [Darkness](../spells/darkness.html#_darkness)_ 3/day |
-| 3–4 | _ [Desecrate](../spells/desecrate.html#_desecrate)_ |
-| 5–6 | _ [Unholy blight](../spells/unholyBlight.html#_unholy-blight)_ |
-| 7–8 | _ [Poison](../spells/poison.html#_poison)_ 3/day |
-| 9–10 | _ [Contagion](../spells/contagion.html#_contagion)_ |
-| 11–12 | _ [Blasphemy](../spells/blasphemy.html#_blasphemy)_ |
-| 13–14 | _ [Unholy aura](../spells/unholyAura.html#_unholy-aura)_ 3/day, _ [unhallow](../spells/unhallow.html#_unhallow)_ |
-| 15–16 | _ [Horrid wilting](../spells/horridWilting.html#_horrid-wilting)_ |
-| 17–18 | _ [Summon monster IX](../spells/summonMonster.html#_summon-monster-ix)_ (fiends only) |
-| 19–20 | _ [Destruction](../spells/destruction.html#_destruction)_ |
+| 1–2 | _ [Darkness](../spells/darkness.md#_darkness)_ 3/day |
+| 3–4 | _ [Desecrate](../spells/desecrate.md#_desecrate)_ |
+| 5–6 | _ [Unholy blight](../spells/unholyBlight.md#_unholy-blight)_ |
+| 7–8 | _ [Poison](../spells/poison.md#_poison)_ 3/day |
+| 9–10 | _ [Contagion](../spells/contagion.md#_contagion)_ |
+| 11–12 | _ [Blasphemy](../spells/blasphemy.md#_blasphemy)_ |
+| 13–14 | _ [Unholy aura](../spells/unholyAura.md#_unholy-aura)_ 3/day, _ [unhallow](../spells/unhallow.md#_unhallow)_ |
+| 15–16 | _ [Horrid wilting](../spells/horridWilting.md#_horrid-wilting)_ |
+| 17–18 | _ [Summon monster IX](../spells/summonMonster.md#_summon-monster-ix)_ (fiends only) |
+| 19–20 | _ [Destruction](../spells/destruction.md#_destruction)_ |
 
 **Abilities** : A half-fiend gains a +4 bonus on three ability scores of its choice and a +2 bonus on the other three.
 

@@ -14,13 +14,13 @@ Though rangers are most likely to be attracted to the ever-wandering life common
 
 To qualify to become a horizon walker, a character must fulfill all the following criteria.
 
-**Skills** : [Knowledge](../../skills/knowledge.html#_knowledge) (geography) 6 ranks.
+**Skills** : [Knowledge](../../skills/knowledge.md#_knowledge) (geography) 6 ranks.
 
-**Feats** : [Endurance](../../feats.html#_endurance).
+**Feats** : [Endurance](../../feats.md#_endurance).
 
 # Class Skills
 
-The horizon walker's class skills are [Climb](../../skills/climb.html#_climb) (Str), [Diplomacy](../../skills/diplomacy.html#_diplomacy) (Cha), [Handle Animal](../../skills/handleAnimal.html#_handle-animal) (Cha), [Knowledge](../../skills/knowledge.html#_knowledge) (geography) (Int), [Knowledge](../../skills/knowledge.html#_knowledge) (nature) (Int), [Knowledge](../../skills/knowledge.html#_knowledge) (the planes) (Int), [Linguistics](../../skills/linguistics.html#_linguistics) (Int), [Perception](../../skills/perception.html#_perception) (Wis), [Stealth](../../skills/stealth.html#_stealth) (Dex), [Survival](../../skills/survival.html#_survival) (Wis), and [Swim](../../skills/swim.html#_swim) (Str).
+The horizon walker's class skills are [Climb](../../skills/climb.md#_climb) (Str), [Diplomacy](../../skills/diplomacy.md#_diplomacy) (Cha), [Handle Animal](../../skills/handleAnimal.md#_handle-animal) (Cha), [Knowledge](../../skills/knowledge.md#_knowledge) (geography) (Int), [Knowledge](../../skills/knowledge.md#_knowledge) (nature) (Int), [Knowledge](../../skills/knowledge.md#_knowledge) (the planes) (Int), [Linguistics](../../skills/linguistics.md#_linguistics) (Int), [Perception](../../skills/perception.md#_perception) (Wis), [Stealth](../../skills/stealth.md#_stealth) (Dex), [Survival](../../skills/survival.md#_survival) (Wis), and [Swim](../../skills/swim.md#_swim) (Str).
 
 **Skill Ranks at Each Level** : 6 + Int modifier.
 
@@ -46,7 +46,7 @@ The following are class features of the horizon walker prestige class.
 
 **Favored Terrain** : At 1st level, a horizon walker may select a favored terrain from the ranger Favored Terrains table (_Pathfinder RPG Core Rulebook_ 65). This works exactly like the ranger favored terrain ability. The horizon walker gains an additional favored terrain at 2nd, 4th, 5th, 7th, 8th and 10th level, and he can increase the bonus from an existing favored terrain as described in the ranger ability. If the horizon walker has abilities from other classes that only work in a favored terrain (such as a ranger's camouflage and hide in plain sight abilities), those abilities work in favored terrains selected as a horizon walker.
 
-**Terrain Mastery** : At 2nd level, a horizon walker selects a favored terrain to master. When within this terrain the horizon walker may, as a move action, grant a +2 bonus on [Climb](../../skills/climb.html#_climb), [Stealth](../../skills/stealth.html#_stealth), [Perception](../../skills/perception.html#_perception) and [Survival](../../skills/survival.html#_survival) checks made by all allies within 30 feet who can see and hear him. The character masters one additional terrain at 4th, 6th, and 8th levels.
+**Terrain Mastery** : At 2nd level, a horizon walker selects a favored terrain to master. When within this terrain the horizon walker may, as a move action, grant a +2 bonus on [Climb](../../skills/climb.md#_climb), [Stealth](../../skills/stealth.md#_stealth), [Perception](../../skills/perception.md#_perception) and [Survival](../../skills/survival.md#_survival) checks made by all allies within 30 feet who can see and hear him. The character masters one additional terrain at 4th, 6th, and 8th levels.
 
 Mastery of each terrain has additional benefits, outlined below; these benefits apply to the horizon walker at all times whether or not he is in the relevant terrain.
 
@@ -58,67 +58,67 @@ _Desert_: The horizon walker gains immunity to exhaustion; anything that would c
 
 _Ethereal Plane_: The horizon walker ignores the 20% concealment miss chance from fog and mist, and treats total concealment from these sources as concealment.
 
-_Forest_: The horizon walker gains a +4 competence bonus on [Stealth](../../skills/stealth.html#_stealth) checks.
+_Forest_: The horizon walker gains a +4 competence bonus on [Stealth](../../skills/stealth.md#_stealth) checks.
 
-_Jungle_: The horizon walker gains a +4 competence bonus on [Escape Artist](../../skills/escapeArtist.html#_escape-artist) checks and increases his CMD against grapple maneuvers by +4.
+_Jungle_: The horizon walker gains a +4 competence bonus on [Escape Artist](../../skills/escapeArtist.md#_escape-artist) checks and increases his CMD against grapple maneuvers by +4.
 
-_Mountain_: The horizon walker gains a +4 competence bonus on [Climb](../../skills/climb.html#_climb) checks and does not lose his Dexterity modifier to AC while climbing.
+_Mountain_: The horizon walker gains a +4 competence bonus on [Climb](../../skills/climb.md#_climb) checks and does not lose his Dexterity modifier to AC while climbing.
 
 _Plains_: The horizon walker's movement is not reduced by wearing medium armor or carrying a medium load.
 
-_Plane of Air_: The horizon walker gains a +4 competence bonus on [Fly](../../skills/fly.html#_fly) checks and +1 competence bonus on all attack and damage rolls against flying creatures. He gains the ability to breathe air if he cannot already do so.
+_Plane of Air_: The horizon walker gains a +4 competence bonus on [Fly](../../skills/fly.md#_fly) checks and +1 competence bonus on all attack and damage rolls against flying creatures. He gains the ability to breathe air if he cannot already do so.
 
 _Plane of Earth_: The horizon walker gains DR 1/adamantine.
 
 _Plane of Fire_: The horizon walker gains fire resistance 10.
 
-_Plane of Water_: The horizon walker gains a +4 competence bonus on [Swim](../../skills/swim.html#_swim) checks and a +1 competence bonus on all attack and damage rolls against swimming creatures. He gains the ability to breathe water if he cannot already do so.
+_Plane of Water_: The horizon walker gains a +4 competence bonus on [Swim](../../skills/swim.md#_swim) checks and a +1 competence bonus on all attack and damage rolls against swimming creatures. He gains the ability to breathe water if he cannot already do so.
 
 _Plane, aligned_: If the horizon walker selects a plane with an alignment trait, he can choose to detect as that alignment (fooling all forms of magic divination) as an immediate action; this benefit lasts until he dismisses it (a free action).
 
-_Swamp_: The horizon walker gains a +4 competence bonus on [Perception](../../skills/perception.html#_perception) checks.
+_Swamp_: The horizon walker gains a +4 competence bonus on [Perception](../../skills/perception.md#_perception) checks.
 
-_Underground_: The horizon walker gains [Blind-Fight](../../feats.html#_blind-fight) as a bonus feat.
+_Underground_: The horizon walker gains [Blind-Fight](../../feats.md#_blind-fight) as a bonus feat.
 
-_Urban_: The horizon walker gains a +4 competence bonus on [Diplomacy](../../skills/diplomacy.html#_diplomacy) checks.
+_Urban_: The horizon walker gains a +4 competence bonus on [Diplomacy](../../skills/diplomacy.md#_diplomacy) checks.
 
-_Water_: The horizon walker gains a +4 competence bonus on [Swim](../../skills/swim.html#_swim) checks and +1 competence bonus on all attack and damage rolls against swimming creatures.
+_Water_: The horizon walker gains a +4 competence bonus on [Swim](../../skills/swim.md#_swim) checks and +1 competence bonus on all attack and damage rolls against swimming creatures.
 
 **Terrain Dominance** : At 3rd level, a horizon walker learns total dominance over one terrain he has already selected for terrain mastery. When dealing with creatures native to that terrain, the horizon walker treats his favored terrain bonus for that terrain as a favored enemy bonus (as the ranger class feature) against those creatures.This bonus overlaps (does not stack with) bonuses gained when fighting a favored enemy.
 
 Each terrain dominance grants additional abilities, detailed below. When the horizon walker gains a new terrain dominance he may, if he prefers, instead pick an additional terrain mastery.
 
-_Astral Plane_: The horizon walker gains a +1 competence bonus on attack and damage rolls against outsiders. He gains _ [dimension door](../../spells/dimensionDoor.html#_dimension-door)_ as a spell-like ability a number of times per day equal to 3 + the character's Wisdom modifier (caster level equal to the character's level).
+_Astral Plane_: The horizon walker gains a +1 competence bonus on attack and damage rolls against outsiders. He gains _ [dimension door](../../spells/dimensionDoor.md#_dimension-door)_ as a spell-like ability a number of times per day equal to 3 + the character's Wisdom modifier (caster level equal to the character's level).
 
 _Cold_: The horizon walker gains cold resistance 20 (this replaces the character's cold resistance from mastery of the cold terrain) and a +1 competence bonus on all attack and damage rolls against creatures of the cold subtype.
 
 _Desert_: The horizon walker gains fire resistance 10 and immunity to fatigue.
 
-_Ethereal Plane_: The walker gains _ [ethereal jaunt](../../spells/etherealJaunt.html#_ethereal-jaunt)_ as a spell-like ability once per day (caster level equal to the character's level). He must be at least 7th level before selecting this power.
+_Ethereal Plane_: The walker gains _ [ethereal jaunt](../../spells/etherealJaunt.md#_ethereal-jaunt)_ as a spell-like ability once per day (caster level equal to the character's level). He must be at least 7th level before selecting this power.
 
-_Forest_: The horizon walker gains _ [hallucinatory terrain](../../spells/hallucinatoryTerrain.html#_hallucinatory-terrain)_ as a spell-like ability a number of times per day equal to 3 + the character's Wisdom modifier (caster level equal to the character's level). The horizon walker can only use this ability to create illusory forests.
+_Forest_: The horizon walker gains _ [hallucinatory terrain](../../spells/hallucinatoryTerrain.md#_hallucinatory-terrain)_ as a spell-like ability a number of times per day equal to 3 + the character's Wisdom modifier (caster level equal to the character's level). The horizon walker can only use this ability to create illusory forests.
 
-_Jungle_: The horizon walker gains _ [charm monster](../../spells/charmMonster.html#_charm-monster)_ as a spell-like ability a number of times per day equal to 3 + the character's Wisdom modifier (caster level equal to the character's level). This charm only affects animals, magical beasts, and creatures primarily found in the jungle.
+_Jungle_: The horizon walker gains _ [charm monster](../../spells/charmMonster.md#_charm-monster)_ as a spell-like ability a number of times per day equal to 3 + the character's Wisdom modifier (caster level equal to the character's level). This charm only affects animals, magical beasts, and creatures primarily found in the jungle.
 
 _Mountain_: The horizon walker gains DR 2/adamantine.
 
 _Plains_: The walker's base speed increases by +10 feet.
 
-_Plane of Air_: The horizon walker gains _ [fly](../../spells/fly.html)_ as a spell-like ability a number of times per day equal to 3 + the character's Wisdom modifier (caster level equal to the character's level).
+_Plane of Air_: The horizon walker gains _ [fly](../../spells/fly.md)_ as a spell-like ability a number of times per day equal to 3 + the character's Wisdom modifier (caster level equal to the character's level).
 
 _Plane of Earth_: The horizon walker gains tremorsense with a range of 30 feet. He must be at least 5th level before selecting this plane for this ability.
 
 _Plane of Fire_: The horizon walker gains fire resistance 20 (this replaces the character's file resistance from mastery of the Plane of Fire terrain) and a +1 competence bonus on all attack and damage rolls again creatures of the fire subtype.
 
-_Plane of Water_: The horizon walker's movements and actions are not hampered when underwater. This allows him to speak, make attacks, and cast spells normally underwater (as if using _ [freedom of movement](../../spells/freedomOfMovement.html#_freedom-of-movement)_).
+_Plane of Water_: The horizon walker's movements and actions are not hampered when underwater. This allows him to speak, make attacks, and cast spells normally underwater (as if using _ [freedom of movement](../../spells/freedomOfMovement.md#_freedom-of-movement)_).
 
-_Plane, aligned_: For the purpose of bypassing damage reduction, the horizon walker's manufactured and natural weapons count as the opposite alignment of his chosen plane of dominance. If his chosen plane has more than one alignment type, he must choose one of those types for this ability. For example, if he selects âHellâ (an evil, lawful plane) for his terrain dominance ability, he may choose âevilâ or âlawful,â which means his attacks bypass good or chaotic damage reduction, respectively. Alternatively, if native creatures of his chosen plane are vulnerable to a particular special material (such as cold iron or silver), he may choose to have his weapons bypass damage reduction as if they were that special material. If he selects this plane more than once for his terrain dominance ability, his attacks count as an additional alignment or special material (such as âgood and silverâ or âchaotic and goodâ).
+_Plane, aligned_: For the purpose of bypassing damage reduction, the horizon walker's manufactured and natural weapons count as the opposite alignment of his chosen plane of dominance. If his chosen plane has more than one alignment type, he must choose one of those types for this ability. For example, if he selects “Hell” (an evil, lawful plane) for his terrain dominance ability, he may choose “evil” or “lawful,” which means his attacks bypass good or chaotic damage reduction, respectively. Alternatively, if native creatures of his chosen plane are vulnerable to a particular special material (such as cold iron or silver), he may choose to have his weapons bypass damage reduction as if they were that special material. If he selects this plane more than once for his terrain dominance ability, his attacks count as an additional alignment or special material (such as “good and silver” or “chaotic and good”).
 
 _Swamp_: The horizon walker gains tremorsense with a 30-foot range. He must be 5th level before selecting this power.
 
 _Underground_: The horizon walker gains darkvision with a range of 60 feet. If he already has darkvision 60 feet, its range extends by 60 feet.
 
-_Urban_: The horizon walker gains _ [charm person](../../spells/charmPerson.html#_charm-person)_ as a spell-like ability a number of times per day equal to 3 + the character's Wisdom modifier (caster level equal to the character's level).
+_Urban_: The horizon walker gains _ [charm person](../../spells/charmPerson.md#_charm-person)_ as a spell-like ability a number of times per day equal to 3 + the character's Wisdom modifier (caster level equal to the character's level).
 
 _Water_: The horizon walker gains a swim speed of 20 feet. If he already has a natural swim speed, his swim speed increases by +20 feet.
 

@@ -8,7 +8,7 @@ XP 3,200
 
 NE Tiny ooze
 
-**Init** +6; **Senses** [blindsight](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blindsight) 60 ft.; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +11
+**Init** +6; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 60 ft.; [Perception](skills/perception.md#_perception) +11
 
 **Aura** psychic noise (10 ft., DC 19)
 
@@ -32,11 +32,11 @@ Offense
 
 **Spell-Like Abilities** (CL 10th; concentration +14)
 
-Constant—_ [detect thoughts](/pathfinderRPG/prd/spells/detectThoughts.html#_detect-thoughts)_, _ [mage armor](/pathfinderRPG/prd/spells/mageArmor.html#_mage-armor)_
+Constant—_ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_, _ [mage armor](spells/mageArmor.md#_mage-armor)_
 
-At will—_ [charm monster](/pathfinderRPG/prd/spells/charmMonster.html#_charm-monster)_ (DC 18), _ [dominate animal](/pathfinderRPG/prd/spells/dominateAnimal.html#_dominate-animal) _(DC 17), _ [dominate person](/pathfinderRPG/prd/spells/dominatePerson.html#_dominate-person)_ (DC 19)
+At will—_ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 18), _ [dominate animal](spells/dominateAnimal.md#_dominate-animal) _(DC 17), _ [dominate person](spells/dominatePerson.md#_dominate-person)_ (DC 19)
 
-3/day—_ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, _ [modify memory](/pathfinderRPG/prd/spells/modifyMemory.html#_modify-memory)_ (DC 18)
+3/day—_ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, _ [modify memory](spells/modifyMemory.md#_modify-memory)_ (DC 18)
 
 Statistics
 
@@ -44,9 +44,9 @@ Statistics
 
 **Base Atk** +7; **CMB** +9; **CMD** 22 (can't be tripped)
 
-**Feats** [Defensive Training](/pathfinderRPG/prd/feats.html#_defensive-training), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Mobility](/pathfinderRPG/prd/feats.html#_mobility), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse)
+**Feats** [Defensive Training](feats.md#_defensive-training), [Dodge](feats.md#_dodge), [Iron Will](feats.md#_iron-will), [Mobility](feats.md#_mobility), [Weapon Finesse](feats.md#_weapon-finesse)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +10, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +5, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +23, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +11, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +11, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +15
+**Skills** [Bluff](skills/bluff.md#_bluff) +10, [Diplomacy](skills/diplomacy.md#_diplomacy) +5, [Fly](skills/fly.md#_fly) +23, [Perception](skills/perception.md#_perception) +11, [Sense Motive](skills/senseMotive.md#_sense-motive) +11, [Stealth](skills/stealth.md#_stealth) +15
 
 **Languages** Aklo (cannot speak); telepathy 100 ft.
 
@@ -66,9 +66,9 @@ Special Abilities
 
 **Psychic Noise (Su)** The discordant psychic noise emitted by a brain ooze dazes nearby creatures for 1d4 rounds. When a creature begins its turn within the aura, it must succeed at a DC 19 Will save to negate this effect. Whether or not the save is successful, that creature cannot be affected again by the same brain ooze's psychic noise for 24 hours. An affected creature may attempt a new save to shake off the effect at the end of each of its turns. This is a mind-affecting effect. The save DC is Charisma-based.
 
-A brain ooze (sometimes known as a âkiller brainâ) resembles almost precisely the raw brain of a human, save for the eldritch energy surrounding it and the twin tentacles extending from its sides. The creature's thought patterns are unusually powerful, and cause painful mental feedback in the minds of other conscious beings.
+A brain ooze (sometimes known as a “killer brain”) resembles almost precisely the raw brain of a human, save for the eldritch energy surrounding it and the twin tentacles extending from its sides. The creature's thought patterns are unusually powerful, and cause painful mental feedback in the minds of other conscious beings.
 
-Other intelligent beings are nothing more than cattle and playthings to brain oozes—victims to be tormented, thought patterns to be consumed. Brain oozes prefer to manipulate their prey from the shadows. Rather than assaulting openly, they provoke fights and conflict within groups, or lure one or two victims away for the kill. Brain oozes derive particular satisfaction from forcing an individual to commit terrible acts, then wiping away all knowledge of the crimes from the victim's memory. They torment such hapless puppets again and again, forcing them to commit ever greater atrocities. Once weary of their sport they return the modified memories with _ [dispel magic](/pathfinderRPG/prd/spells/dispelMagic.html#_dispel-magic)_, and feast upon the delicious misery of the victim's final despair.
+Other intelligent beings are nothing more than cattle and playthings to brain oozes—victims to be tormented, thought patterns to be consumed. Brain oozes prefer to manipulate their prey from the shadows. Rather than assaulting openly, they provoke fights and conflict within groups, or lure one or two victims away for the kill. Brain oozes derive particular satisfaction from forcing an individual to commit terrible acts, then wiping away all knowledge of the crimes from the victim's memory. They torment such hapless puppets again and again, forcing them to commit ever greater atrocities. Once weary of their sport they return the modified memories with _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, and feast upon the delicious misery of the victim's final despair.
 
 Brain oozes feed through their tentacles by extracting the thoughts of living creatures. Animals and less intelligent creatures provide little nourishment, but they prize fey, outsiders, and spellcasters as delicacies. After several feedings, a brain ooze divides into two nearly identical brains, each retaining only a portion of the knowledge and experiences of the parent.
 

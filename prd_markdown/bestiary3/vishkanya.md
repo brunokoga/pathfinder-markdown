@@ -10,7 +10,7 @@ Vishkanya ninja 1
 
 N Medium humanoid (vishkanya)
 
-**Init** +3; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +6
+**Init** +3; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +6
 
 Defense
 
@@ -18,17 +18,17 @@ Defense
 
 **hp** 11 (1d8+3)
 
-**Fort** +2, **Ref** +5, **Will** +0; +1 vs. [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su))
+**Fort** +2, **Ref** +5, **Will** +0; +1 vs. [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))
 
 Offense
 
 **Speed** 30 ft.
 
-**Melee** kukri +1 (1d4+1/18–20 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** kukri +1 (1d4+1/18–20 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
-**Ranged** shuriken +3 (1d2+1 plus [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Ranged** shuriken +3 (1d2+1 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
-**Special Attacks** [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (DC 12), sneak attack +1d6
+**Special Attacks** [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (DC 12), sneak attack +1d6
 
 Statistics
 
@@ -36,13 +36,13 @@ Statistics
 
 **Base Atk** +0; **CMB** +1; **CMD** 14
 
-**Feats** [Deceitful](/pathfinderRPG/prd/feats.html#_deceitful)
+**Feats** [Deceitful](feats.md#_deceitful)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +7, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +7, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +7, [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) +9, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +6, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +4, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +9; **Racial Modifiers** +2 [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist), +2 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +2 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +7, [Bluff](skills/bluff.md#_bluff) +7, [Disguise](skills/disguise.md#_disguise) +7, [Escape Artist](skills/escapeArtist.md#_escape-artist) +9, [Perception](skills/perception.md#_perception) +6, [Sense Motive](skills/senseMotive.md#_sense-motive) +4, [Stealth](skills/stealth.md#_stealth) +9; **Racial Modifiers** +2 [Escape Artist](skills/escapeArtist.md#_escape-artist), +2 [Perception](skills/perception.md#_perception), +2 [Stealth](skills/stealth.md#_stealth)
 
 **Languages** , Common, Vishkanya
 
-**SQ** [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) use, toxic
+**SQ** [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) use, toxic
 
 Ecology
 
@@ -55,7 +55,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) Use (Ex)** Vishkanyas are skilled with [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) and never accidentally [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) themselves when using or applying [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)).
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) Use (Ex)** Vishkanyas are skilled with [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) and never accidentally [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) themselves when using or applying [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)).
 
 **Toxic (Ex)** A number of times per day equal to its Constitution modifier (minimum 1/day), a vishkanya can envenom a weapon that it wields with its toxic saliva or blood (using blood requires the vishkanya to be injured when it uses this ability). Applying venom   
 in this way is a swift action.
@@ -74,9 +74,9 @@ Vishkanyas are defined by their class levels—they do not possess racial Hit Di
 
 **Low-Light Vision** : Vishkanyas can see twice as far as humans in conditions of dim light.
 
-**Keen Senses** : Vishkanyas receive a +2 racial bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) checks.
+**Keen Senses** : Vishkanyas receive a +2 racial bonus on [Perception](skills/perception.md#_perception) checks.
 
-**Limber** : Vishkanyas gain a +2 racial bonus on [Escape Artist](/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist) and [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks.
+**Limber** : Vishkanyas gain a +2 racial bonus on [Escape Artist](skills/escapeArtist.md#_escape-artist) and [Stealth](skills/stealth.md#_stealth) checks.
 
 **Poison Resistance** : A vishkanya has a racial bonus on saves against poison equal to its Hit Dice.
 

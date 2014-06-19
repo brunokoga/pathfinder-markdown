@@ -6,9 +6,9 @@ Merrow, FreshwaterCR 3
 
 **XP 800**
 
-NE Large [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype), giant)
+NE Large [humanoid](monsters/creatureTypes.md#_humanoid) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype), giant)
 
-**Init** +4; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5
+**Init** +4; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +5
 
 Defense
 
@@ -22,7 +22,7 @@ Offense
 
 **Speed** 40 ft., swim 40 ft.
 
-**Melee** 2 claws +6 (1d6+4 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** 2 claws +6 (1d6+4 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Ranged** javelin +6 (1d8+4)
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +8 (+12 grapple); **CMD** 22
 
-**Feats** [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack)
+**Feats** [Iron Will](additionalMonsters/../feats.md#_iron-will), [Power Attack](additionalMonsters/../feats.md#_power-attack)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +2 (+6 in water), [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +12; **Racial Modifiers** +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) in water
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +5, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +2 (+6 in water), [Swim](additionalMonsters/../skills/swim.md#_swim) +12; **Racial Modifiers** +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in water
 
 **Languages** Giant
 
@@ -54,9 +54,9 @@ Merrow, Saltwater CR 6
 
 **XP 2,400**
 
-NE Huge [humanoid](/pathfinderRPG/prd/monsters/creatureTypes.html#_humanoid) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype), giant)
+NE Huge [humanoid](monsters/creatureTypes.md#_humanoid) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype), giant)
 
-**Init** +3; **Senses** low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7
+**Init** +3; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +7
 
 Defense
 
@@ -70,7 +70,7 @@ Offense
 
 **Speed** 40 ft., swim 40 ft.
 
-**Melee** 2 claws +11 (1d8+7 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** 2 claws +11 (1d8+7 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Ranged** javelin +6 (2d6+7)
 
@@ -82,9 +82,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +14 (+18 grapple); **CMD** 27
 
-**Feats** [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (claw)
+**Feats** [Iron Will](additionalMonsters/../feats.md#_iron-will), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Vital Strike](additionalMonsters/../feats.md#_vital-strike), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (claw)
 
-**Skills** [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +7, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) –2 (+2 in water), [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +15; **Racial Modifiers** +4 [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) in water
+**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +7, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) –2 (+2 in water), [Swim](additionalMonsters/../skills/swim.md#_swim) +15; **Racial Modifiers** +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in water
 
 **Languages** Giant
 

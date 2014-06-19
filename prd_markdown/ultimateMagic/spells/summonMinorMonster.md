@@ -14,5 +14,5 @@ Summon Minor Monster
 
 **Saving Throw** none; **Spell Resistance** no
 
-This spell functions as _ [summon monster I](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i)_, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature. As with animals summoned with _ [summon monster I](/pathfinderRPG/prd/spells/summonMonster.html#_summon-monster-i)_, you may apply one alignment-appropriate template to these animals.
+This spell functions as _ [summon monster I](spells/summonMonster.md#_summon-monster-i)_, except you can summon 1d3 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The summoned animals must all be the same type of creature. As with animals summoned with _ [summon monster I](spells/summonMonster.md#_summon-monster-i)_, you may apply one alignment-appropriate template to these animals.
 

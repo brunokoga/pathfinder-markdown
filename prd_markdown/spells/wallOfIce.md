@@ -12,9 +12,9 @@
 
 **Duration** 1 min./level
 
-**Saving Throw** [Reflex](../combat.html#_reflex) negates; see text; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Reflex](../combat.md#_reflex) negates; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
-This spell creates an anchored plane of ice or a hemisphere of ice, depending on the version selected. A _wall of ice _cannot form in an area occupied by physical objects or creatures. Its surface must be smooth and unbroken when created. Any creature adjacent to the wall when it is created may attempt a [Reflex](../combat.html#_reflex) save to disrupt the wall as it is being formed. A successful save indicates that the spell automatically fails. Fire can melt a _wall of ice, _and it deals full damage to the wall (instead of the normal half damage taken by objects). Suddenly melting a _wall of ice _creates a great cloud of steamy fog that lasts for 10 minutes.
+This spell creates an anchored plane of ice or a hemisphere of ice, depending on the version selected. A _wall of ice _cannot form in an area occupied by physical objects or creatures. Its surface must be smooth and unbroken when created. Any creature adjacent to the wall when it is created may attempt a [Reflex](../combat.md#_reflex) save to disrupt the wall as it is being formed. A successful save indicates that the spell automatically fails. Fire can melt a _wall of ice, _and it deals full damage to the wall (instead of the normal half damage taken by objects). Suddenly melting a _wall of ice _creates a great cloud of steamy fog that lasts for 10 minutes.
 
 _Ice Plane_: A sheet of strong, hard ice appears. The wall is 1 inch thick per caster level. It covers up to a 10-foot-square area per caster level (so a 10th-level wizard can create a _wall of ice_ 100 feet long and 10 feet high, a wall 50 feet long and 20 feet high, or any other combination of length and height that does not exceed 1,000 square feet). The plane can be oriented in any fashion as long as it is anchored. A vertical wall need only be anchored on the floor, while a horizontal or slanting wall must be anchored on two opposite sides.
 

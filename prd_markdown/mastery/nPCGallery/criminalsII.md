@@ -10,7 +10,7 @@ Human fighter 2/ranger 2
 
 NE Medium humanoid
 
-**Init** +2; **Senses** [Perception](../../skills/perception.html#_perception) +8
+**Init** +2; **Senses** [Perception](../../skills/perception.md#_perception) +8
 
 **Defense**
 
@@ -40,17 +40,17 @@ NE Medium humanoid
 
 **Base Atk** +4; **CMB** +7; **CMD** 19
 
-**Feats** [Combat Reflexes](../../feats.html#_combat-reflexes), [Exotic Weapon Proficiency](../../feats.html#_exotic-weapon-proficiency) (bolas), [Precise Shot](../../feats.html#_precise-shot), [Step Up](../../feats.html#_step-up), [Weapon Focus](../../feats.html#_weapon-focus) (bolas), [Weapon Focus](../../feats.html#_weapon-focus) (guisarme)
+**Feats** [Combat Reflexes](../../feats.md#_combat-reflexes), [Exotic Weapon Proficiency](../../feats.md#_exotic-weapon-proficiency) (bolas), [Precise Shot](../../feats.md#_precise-shot), [Step Up](../../feats.md#_step-up), [Weapon Focus](../../feats.md#_weapon-focus) (bolas), [Weapon Focus](../../feats.md#_weapon-focus) (guisarme)
 
-**Skills** [Climb](../../skills/climb.html#_climb) +12, [Handle Animal](../../skills/handleAnimal.html#_handle-animal) +3, [Knowledge](../../skills/knowledge.html#_knowledge) (geography) +4, [Perception](../../skills/perception.html#_perception) +8, [Ride](../../skills/ride.html#_ride) +7, [Stealth](../../skills/stealth.html#_stealth) +9, [Survival](../../skills/survival.html#_survival) +8 (+9 to follow tracks), [Swim](../../skills/swim.html#_swim) +8
+**Skills** [Climb](../../skills/climb.md#_climb) +12, [Handle Animal](../../skills/handleAnimal.md#_handle-animal) +3, [Knowledge](../../skills/knowledge.md#_knowledge) (geography) +4, [Perception](../../skills/perception.md#_perception) +8, [Ride](../../skills/ride.md#_ride) +7, [Stealth](../../skills/stealth.md#_stealth) +9, [Survival](../../skills/survival.md#_survival) +8 (+9 to follow tracks), [Swim](../../skills/swim.md#_swim) +8
 
 **Languages** Common
 
 **SQ** track +1, wild empathy +1
 
-**Combat Gear** _ [feather token](../../magicItems/wondrousItems.html#_feather-token)_ (whip), tanglefoot bags (2); **Other Gear** masterwork studded leather, bolas (3), masterwork guisarme, masterwork sap, spiked gauntlet, climber's kit, drow poison (2 doses), manacles
+**Combat Gear** _ [feather token](../../magicItems/wondrousItems.md#_feather-token)_ (whip), tanglefoot bags (2); **Other Gear** masterwork studded leather, bolas (3), masterwork guisarme, masterwork sap, spiked gauntlet, climber's kit, drow poison (2 doses), manacles
 
-**Boon** Slavers can provide information on slave-trading routes, major customers, and the likely location of specific enslaved individuals, providing a +2 circumstance bonus on [Diplomacy](../../skills/diplomacy.html#_diplomacy) checks to gather information about such topics.
+**Boon** Slavers can provide information on slave-trading routes, major customers, and the likely location of specific enslaved individuals, providing a +2 circumstance bonus on [Diplomacy](../../skills/diplomacy.md#_diplomacy) checks to gather information about such topics.
 
 Slavers are the scourge of free societies, sneaking into towns and villages by night and capturing the innocent, spiriting them away to underground slave markets or taking them by ship to mines, plantations, and pleasure palaces across the sea.
 
@@ -66,7 +66,7 @@ Human ranger 5/assassin 4
 
 NE Medium humanoid
 
-**Init** +8; **Senses** [Perception](../../skills/perception.html#_perception) +10
+**Init** +8; **Senses** [Perception](../../skills/perception.md#_perception) +10
 
 **Defense**
 
@@ -94,15 +94,15 @@ NE Medium humanoid
 
 **Base Atk** +8; **CMB** +10; **CMD** 24
 
-**Feats** [Deadly Aim](../../feats.html#_deadly-aim), [Endurance](../../feats.html#_endurance), [Improved Critical](../../feats.html#_improved-critical) (kukri), [Improved Initiative](../../feats.html#_improved-initiative), [Improved Two-Weapon Fighting](../../feats.html#_improved-two-weapon-fighting), Point Blank Shot, [Two-Weapon Fighting](../../feats.html#_two-weapon-fighting), [Weapon Finesse](../../feats.html#_weapon-finesse)
+**Feats** [Deadly Aim](../../feats.md#_deadly-aim), [Endurance](../../feats.md#_endurance), [Improved Critical](../../feats.md#_improved-critical) (kukri), [Improved Initiative](../../feats.md#_improved-initiative), [Improved Two-Weapon Fighting](../../feats.md#_improved-two-weapon-fighting), Point Blank Shot, [Two-Weapon Fighting](../../feats.md#_two-weapon-fighting), [Weapon Finesse](../../feats.md#_weapon-finesse)
 
-**Skills** [Acrobatics](../../skills/acrobatics.html#_acrobatics) +15, [Bluff](../../skills/bluff.html#_bluff) +5, [Climb](../../skills/climb.html#_climb) +15, [Craft](../../skills/craft.html#_craft) (alchemy) +5, [Disable Device](../../skills/disableDevice.html#_disable-device) +10, [Disguise](../../skills/disguise.html#_disguise) +10, [Escape Artist](../../skills/escapeArtist.html#_escape-artist) +10, [Intimidate](../../skills/intimidate.html#_intimidate) +10, [Perception](../../skills/perception.html#_perception) +10, [Sleight of Hand](../../skills/sleightOfHand.html#_sleight-of-hand) +15 (+19 to hide weapons), [Stealth](../../skills/stealth.html#_stealth) +21, [Survival](../../skills/survival.html#_survival) +10 (+12 to follow tracks), [Swim](../../skills/swim.html#_swim) +6
+**Skills** [Acrobatics](../../skills/acrobatics.md#_acrobatics) +15, [Bluff](../../skills/bluff.md#_bluff) +5, [Climb](../../skills/climb.md#_climb) +15, [Craft](../../skills/craft.md#_craft) (alchemy) +5, [Disable Device](../../skills/disableDevice.md#_disable-device) +10, [Disguise](../../skills/disguise.md#_disguise) +10, [Escape Artist](../../skills/escapeArtist.md#_escape-artist) +10, [Intimidate](../../skills/intimidate.md#_intimidate) +10, [Perception](../../skills/perception.md#_perception) +10, [Sleight of Hand](../../skills/sleightOfHand.md#_sleight-of-hand) +15 (+19 to hide weapons), [Stealth](../../skills/stealth.md#_stealth) +21, [Survival](../../skills/survival.md#_survival) +10 (+12 to follow tracks), [Swim](../../skills/swim.md#_swim) +6
 
 **Languages** Common, Elven
 
 **SQ** favored terrain (urban +2), hidden weapons, hunter's bond (allies), poison use, track +2, wild empathy +5
 
-**Combat Gear** _potions of [cure light wounds](../../spells/cureLightWounds.html#_cure-light-wounds)_ (2), _potion of [gaseous form](../../spells/gaseousForm.html#_gaseous-form)_, _potion of [jump](../../spells/jump.html#_jump)_; **Other Gear** _+1 studded leather_, _+1 kukri_, _+1 composite shortbow_ (+2 Str) with 20 arrows, masterwork kukri, shuriken (20), _ [cloak of elvenkind](../../magicItems/wondrousItems.html#_cloak-of-elvenkind)_, climber's kit, disguise kit, giant wasp poison (2), large scorpion venom (2), masterwork thieves' tools
+**Combat Gear** _potions of [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_ (2), _potion of [gaseous form](../../spells/gaseousForm.md#_gaseous-form)_, _potion of [jump](../../spells/jump.md#_jump)_; **Other Gear** _+1 studded leather_, _+1 kukri_, _+1 composite shortbow_ (+2 Str) with 20 arrows, masterwork kukri, shuriken (20), _ [cloak of elvenkind](../../magicItems/wondrousItems.md#_cloak-of-elvenkind)_, climber's kit, disguise kit, giant wasp poison (2), large scorpion venom (2), masterwork thieves' tools
 
 **Boon** Slayers can obtain poisons for the PCs at a 20% discount. They can also arrange to kill or capture targets for the PCs' for 20% less than their usual fee (as determined by the GM).
 
@@ -118,7 +118,7 @@ Human rogue 11
 
 N Medium humanoid
 
-**Init** +5; **Senses** [Perception](../../skills/perception.html#_perception) +15
+**Init** +5; **Senses** [Perception](../../skills/perception.md#_perception) +15
 
 **Defense**
 
@@ -136,7 +136,7 @@ N Medium humanoid
 
 **Melee** _+1 rapier_ +14/+9 (1d6/18–20) or sap +13/+8 (1d6–1 nonlethal)
 
-**Ranged** _+1 [light](../../spells/light.html#_light) crossbow_ +14/+9 (1d8+1/19–20)
+**Ranged** _+1 [light](../../spells/light.md#_light) crossbow_ +14/+9 (1d8+1/19–20)
 
 **Special Attacks** sneak attack +6d6 plus 6 bleed
 
@@ -146,15 +146,15 @@ N Medium humanoid
 
 **Base Atk** +8; **CMB** +7; **CMD** 22
 
-**Feats** [Agile Maneuvers](../../feats.html#_agile-maneuvers), [Deadly Aim](../../feats.html#_deadly-aim), [Deceitful](../../feats.html#_deceitful), [Iron Will](../../feats.html#_iron-will), [Rapid Reload](../../feats.html#_rapid-reload), [Stealthy](../../feats.html#_stealthy), [Vital Strike](../../feats.html#_vital-strike), [Weapon Finesse](../../feats.html#_weapon-finesse)
+**Feats** [Agile Maneuvers](../../feats.md#_agile-maneuvers), [Deadly Aim](../../feats.md#_deadly-aim), [Deceitful](../../feats.md#_deceitful), [Iron Will](../../feats.md#_iron-will), [Rapid Reload](../../feats.md#_rapid-reload), [Stealthy](../../feats.md#_stealthy), [Vital Strike](../../feats.md#_vital-strike), [Weapon Finesse](../../feats.md#_weapon-finesse)
 
-**Skills** [Acrobatics](../../skills/acrobatics.html#_acrobatics) +19, [Bluff](../../skills/bluff.html#_bluff) +20, [Diplomacy](../../skills/diplomacy.html#_diplomacy) +15, [Disable Device](../../skills/disableDevice.html#_disable-device) +30, [Disguise](../../skills/disguise.html#_disguise) +22, [Escape Artist](../../skills/escapeArtist.html#_escape-artist) +22, [Intimidate](../../skills/intimidate.html#_intimidate) +10, [Knowledge](../../skills/knowledge.html#_knowledge) (local) +10, [Linguistics](../../skills/linguistics.html#_linguistics) +5, [Perception](../../skills/perception.html#_perception) +15 (+20 to find traps), [Sense Motive](../../skills/senseMotive.html#_sense-motive) +15, [Sleight of Hand](../../skills/sleightOfHand.html#_sleight-of-hand) +10, [Stealth](../../skills/stealth.html#_stealth) +23
+**Skills** [Acrobatics](../../skills/acrobatics.md#_acrobatics) +19, [Bluff](../../skills/bluff.md#_bluff) +20, [Diplomacy](../../skills/diplomacy.md#_diplomacy) +15, [Disable Device](../../skills/disableDevice.md#_disable-device) +30, [Disguise](../../skills/disguise.md#_disguise) +22, [Escape Artist](../../skills/escapeArtist.md#_escape-artist) +22, [Intimidate](../../skills/intimidate.md#_intimidate) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +10, [Linguistics](../../skills/linguistics.md#_linguistics) +5, [Perception](../../skills/perception.md#_perception) +15 (+20 to find traps), [Sense Motive](../../skills/senseMotive.md#_sense-motive) +15, [Sleight of Hand](../../skills/sleightOfHand.md#_sleight-of-hand) +10, [Stealth](../../skills/stealth.md#_stealth) +23
 
 **Languages** Common, Halfling, Undercommon
 
 **SQ** rogue talent (bleeding attack, finesse rogue, resiliency, slippery mind, trap spotter), trapfinding +5
 
-**Combat Gear** _ [feather token](../../magicItems/wondrousItems.html#_feather-token)_ (whip); **Other Gear** _+1 mithral chain shirt_, _+1 buckler_, _+1 [light](../../spells/light.html#_light) crossbow_ with 10 bolts, _+1 rapier_, sap, _ [belt of incredible dexterity](../../magicItems/wondrousItems.html#_belt-of-incredible-dexterity) +2_, _ [cloak of resistance](../../magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [elixir of truth](../../magicItems/wondrousItems.html#_elixir-of-truth)_,_ [goggles of minute seeing](../../magicItems/wondrousItems.html#_goggles-of-minute-seeing)_, disguise kit, masterwork thieves' tools
+**Combat Gear** _ [feather token](../../magicItems/wondrousItems.md#_feather-token)_ (whip); **Other Gear** _+1 mithral chain shirt_, _+1 buckler_, _+1 [light](../../spells/light.md#_light) crossbow_ with 10 bolts, _+1 rapier_, sap, _ [belt of incredible dexterity](../../magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +2_, _ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [elixir of truth](../../magicItems/wondrousItems.md#_elixir-of-truth)_,_ [goggles of minute seeing](../../magicItems/wondrousItems.md#_goggles-of-minute-seeing)_, disguise kit, masterwork thieves' tools
 
 **Boon** A guild master can arrange to smuggle people or items into or out of secured areas, can command a robbery, break-in, or assault on a target, or can arrange to buy or sell illegal items (treat gp limit as that of a community one size category larger).
 

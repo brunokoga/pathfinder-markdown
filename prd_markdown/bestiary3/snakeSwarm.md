@@ -6,9 +6,9 @@ Snake Swarm CR 2
 
 XP 600
 
-N Tiny animal ( [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype))
+N Tiny animal ( [swarm](monsters/creatureTypes.md#_swarm-subtype))
 
-**Init** +6; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9
+**Init** +6; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +9
 
 Defense
 
@@ -18,17 +18,17 @@ Defense
 
 **Fort** +4, **Ref** +7, **Will** +2
 
-**Defensive Abilities** [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) traits
+**Defensive Abilities** [swarm](monsters/creatureTypes.md#_swarm-subtype) traits
 
 Offense
 
 **Speed** 20 ft., climb 20 ft., swim 20 ft.
 
-**Melee** [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) (1d6 plus [distraction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_distraction))
+**Melee** [swarm](monsters/creatureTypes.md#_swarm-subtype) (1d6 plus [distraction](monsters/universalMonsterRules.md#_distraction))
 
 **Space** 10 ft.; **Reach** 0 ft.
 
-**Special Attacks** [distraction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_distraction) (DC 12)
+**Special Attacks** [distraction](monsters/universalMonsterRules.md#_distraction) (DC 12)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +2; **CMD** 11 (can't be tripped)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes)
+**Feats** [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes)
 
-**Skills** [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +14, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +9, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +18, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +7; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth), uses Dex to modify [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) and [Swim](/pathfinderRPG/prd/skills/swim.html#_swim)
+**Skills** [Climb](skills/climb.md#_climb) +14, [Perception](skills/perception.md#_perception) +9, [Stealth](skills/stealth.md#_stealth) +18, [Swim](skills/swim.md#_swim) +7; **Racial Modifiers** +4 [Perception](skills/perception.md#_perception), +4 [Stealth](skills/stealth.md#_stealth), uses Dex to modify [Climb](skills/climb.md#_climb) and [Swim](skills/swim.md#_swim)
 
 Ecology
 
@@ -58,9 +58,9 @@ Venomous Snake Swarm CR 4
 
 XP 1,200
 
-N Tiny animal ( [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype))
+N Tiny animal ( [swarm](monsters/creatureTypes.md#_swarm-subtype))
 
-**Init** +7; **Senses** low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +13
+**Init** +7; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +13
 
 Defense
 
@@ -70,17 +70,17 @@ Defense
 
 **Fort** +7, **Ref** +9, **Will** +2
 
-**Defensive Abilities** [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) traits
+**Defensive Abilities** [swarm](monsters/creatureTypes.md#_swarm-subtype) traits
 
 Offense
 
 **Speed** 20 ft., climb 20 ft., swim 10 ft.
 
-**Melee** [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) (1d6 plus [distraction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_distraction) and [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)))
+**Melee** [swarm](monsters/creatureTypes.md#_swarm-subtype) (1d6 plus [distraction](monsters/universalMonsterRules.md#_distraction) and [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
 
 **Space** 10 ft.; **Reach** 0 ft.
 
-**Special Attacks** [distraction](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_distraction) (DC 15)
+**Special Attacks** [distraction](monsters/universalMonsterRules.md#_distraction) (DC 15)
 
 Statistics
 
@@ -88,9 +88,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +4; **CMD** 13 (can't be tripped)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +7 (+3 when jumping), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +15, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +13, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +19, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +11; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception), +4 [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth); uses Dex to modify [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) and [Swim](/pathfinderRPG/prd/skills/swim.html#_swim)
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +7 (+3 when jumping), [Climb](skills/climb.md#_climb) +15, [Perception](skills/perception.md#_perception) +13, [Stealth](skills/stealth.md#_stealth) +19, [Swim](skills/swim.md#_swim) +11; **Racial Modifiers** +4 [Perception](skills/perception.md#_perception), +4 [Stealth](skills/stealth.md#_stealth); uses Dex to modify [Climb](skills/climb.md#_climb) and [Swim](skills/swim.md#_swim)
 
 Ecology
 
@@ -102,5 +102,5 @@ Ecology
 
 Special Abilities
 
-**[Poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)) (Ex)** [Swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype)—injury; _save_ Fort DC 15; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Con damage; _cure_ 2 consecutive saves. The save DC is Constitution-based.
+**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** [Swarm](monsters/creatureTypes.md#_swarm-subtype)—injury; _save_ Fort DC 15; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Con damage; _cure_ 2 consecutive saves. The save DC is Constitution-based.
 

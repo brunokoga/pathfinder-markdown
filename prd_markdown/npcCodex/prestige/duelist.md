@@ -26,7 +26,7 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** _+1 shortspear _+14/+9 (1d6+6) or mwk short sword +14/+9 (1d6+2/19â20)
+**Melee** _+1 shortspear _+14/+9 (1d6+6) or mwk short sword +14/+9 (1d6+2/19–20)
 
 **Ranged** mwk shortspear +16 (1d6+5)
 
@@ -34,7 +34,7 @@ Offense
 
 Tactics
 
-**During Combat** The duelist uses Mobility to press her advantage against spellcasters. In the thick of the fray, she uses parry and [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise) to augment her defenses.
+**During Combat** The duelist uses Mobility to press her advantage against spellcasters. In the thick of the fray, she uses parry and [Combat Expertise](feats.md#_combat-expertise) to augment her defenses.
 
 Statistics
 
@@ -42,13 +42,13 @@ Statistics
 
 **Base Atk** +9; **CMB** +11; **CMD** 27
 
-**Feats** [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Lightning Reflexes](/pathfinderRPG/prd/feats.html#_lightning-reflexes), Mobility, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) (Perception), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (shortspear), Weapon Specialization (shortspear)
+**Feats** [Combat Expertise](feats.md#_combat-expertise), [Dodge](feats.md#_dodge), [Lightning Reflexes](feats.md#_lightning-reflexes), Mobility, [Power Attack](feats.md#_power-attack), [Skill Focus](feats.md#_skill-focus) (Perception), [Vital Strike](feats.md#_vital-strike), [Weapon Finesse](feats.md#_weapon-finesse), [Weapon Focus](feats.md#_weapon-focus) (shortspear), Weapon Specialization (shortspear)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +6, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +6, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +1, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +6, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (geography, history, nature) +2, Perception +14, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (dance) +1, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +8, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +10, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +4, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +6
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +6, [Climb](skills/climb.md#_climb) +6, [Heal](skills/heal.md#_heal) +1, [Intimidate](skills/intimidate.md#_intimidate) +6, [Knowledge](skills/knowledge.md#_knowledge) (geography, history, nature) +2, Perception +14, [Perform](skills/perform.md#_perform) (dance) +1, [Ride](skills/ride.md#_ride) +8, [Stealth](skills/stealth.md#_stealth) +10, [Survival](skills/survival.md#_survival) +4, [Swim](skills/swim.md#_swim) +6
 
 **SQ** armor training 2, elf blood, improved reaction +2
 
-**Combat Gear** _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_; **Other Gear** _+1 leather armor_, _+1 shortspear_, masterwork short sword, masterwork shortspear, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +1_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +1_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, 236 gp
+**Combat Gear** _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_; **Other Gear** _+1 leather armor_, _+1 shortspear_, masterwork short sword, masterwork shortspear, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 236 gp
 
 These brave warriors gain prestige within their tribes and clans by challenging and defeating enemy spellcasters.
 
@@ -88,13 +88,13 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** _+1 rapier_ +18/+13 (1d4/18â20)
+**Melee** _+1 rapier_ +18/+13 (1d4/18–20)
 
 **Special Attacks** sneak attack +5d6, precise strike +4
 
 Tactics
 
-**During Combat** The duelist drinks her _potion of [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_. She attempts to disarm opponents, then makes sneak attacks even if she must feint to do so.
+**During Combat** The duelist drinks her _potion of [haste](spells/haste.md#_haste)_. She attempts to disarm opponents, then makes sneak attacks even if she must feint to do so.
 
 Statistics
 
@@ -102,15 +102,15 @@ Statistics
 
 **Base Atk** +10; **CMB** +14 (+16 to disarm); **CMD** 25 (27 vs. disarm)
 
-**Feats** [Agile Maneuvers](/pathfinderRPG/prd/feats.html#_agile-maneuvers), [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), Greater Feint, Improved Disarm, Improved Feint, [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), Mobility, [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (rapier)
+**Feats** [Agile Maneuvers](feats.md#_agile-maneuvers), [Combat Expertise](feats.md#_combat-expertise), [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), Greater Feint, Improved Disarm, Improved Feint, [Iron Will](feats.md#_iron-will), Mobility, [Weapon Finesse](feats.md#_weapon-finesse), [Weapon Focus](feats.md#_weapon-focus) (rapier)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +23 (+19 when jumping), [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +17, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +1, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +17, [Disguise](/pathfinderRPG/prd/skills/disguise.html#_disguise) +17, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +17, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (dungeoneering, local) +10, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (nobility) +7, Perception +19, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (comedy) +5, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (sing) +6, [Sleight of Hand](/pathfinderRPG/prd/skills/sleightOfHand.html#_sleight-of-hand) +13, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +25
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +23 (+19 when jumping), [Bluff](skills/bluff.md#_bluff) +17, [Climb](skills/climb.md#_climb) +1, [Diplomacy](skills/diplomacy.md#_diplomacy) +17, [Disguise](skills/disguise.md#_disguise) +17, [Intimidate](skills/intimidate.md#_intimidate) +17, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, local) +10, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +7, Perception +19, [Perform](skills/perform.md#_perform) (comedy) +5, [Perform](skills/perform.md#_perform) (sing) +6, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +13, [Stealth](skills/stealth.md#_stealth) +25
 
 **Languages** Common, Halfling
 
 **SQ** improved reaction +2, rogue talents (combat trick, finesse rogue, surprise attack, weapon training), trapfinding +4
 
-**Combat Gear** _potions of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_ (2), _potion of [haste](/pathfinderRPG/prd/spells/haste.html#_haste)_; **Other Gear** _+2 mithral chain shirt_, _+1 rapier_, _amulet of natural armor +1_, _ [belt of physical might](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-physical-might) +2_ (Str, Con), _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +2_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, 180 gp
+**Combat Gear** _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _potion of [haste](spells/haste.md#_haste)_; **Other Gear** _+2 mithral chain shirt_, _+1 rapier_, _amulet of natural armor +1_, _ [belt of physical might](magicItems/wondrousItems.md#_belt-of-physical-might) +2_ (Str, Con), _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 180 gp
 
 Anyone who questions the martial prowess of halflings should keep quiet around feisty hotspurs, as these diminutive bravos excel at poking holes in large people who underestimate them.
 
@@ -148,15 +148,15 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** _+1 [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming) [frost](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost) [light](/pathfinderRPG/prd/spells/light.html#_light) pick _+27/+22/+17/+12 (1d4+10/19â20/Ã4 plus 1d6 cold and 1d6 fire) or mwk punching dagger +24/+19/+14/+9 (1d4+6/Ã3)
+**Melee** _+1 [flaming](magicItems/weapons.md#_weapons-flaming) [frost](magicItems/weapons.md#_weapons-frost) [light](spells/light.md#_light) pick _+27/+22/+17/+12 (1d4+10/19–20/×4 plus 1d6 cold and 1d6 fire) or mwk punching dagger +24/+19/+14/+9 (1d4+6/×3)
 
-**Ranged** _+1 [light](/pathfinderRPG/prd/spells/light.html#_light) crossbow_ +20 (1d8+1/19â20)
+**Ranged** _+1 [light](spells/light.md#_light) crossbow_ +20 (1d8+1/19–20)
 
 **Special Attacks** +1 on attack rolls against goblinoid and orc humanoids, acrobatic charge, precise strike +7, riposte, weapon training (axes +2, light blades +1)
 
 Tactics
 
-**During Combat** The duelist drinks his _potion of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_, and gets into a tactical position. He uses Spring Attack, [Lunge](/pathfinderRPG/prd/feats.html#_lunge), and Improved Vital strike to make hit-and-run attacks.
+**During Combat** The duelist drinks his _potion of [invisibility](spells/invisibility.md#_invisibility)_, and gets into a tactical position. He uses Spring Attack, [Lunge](feats.md#_lunge), and Improved Vital strike to make hit-and-run attacks.
 
 Statistics
 
@@ -164,15 +164,15 @@ Statistics
 
 **Base Atk** +17; **CMB** +22; **CMD** 36 (40 vs. bull rush or trip)
 
-**Feats** [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), [Dodge](/pathfinderRPG/prd/feats.html#_dodge), Greater [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (light pick), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (light pick), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), Improved [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), [Lunge](/pathfinderRPG/prd/feats.html#_lunge), Mobility, Spring Attack, [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (light pick), Weapon Specialization (light pick)
+**Feats** [Combat Expertise](feats.md#_combat-expertise), [Combat Reflexes](feats.md#_combat-reflexes), [Critical Focus](feats.md#_critical-focus), [Dodge](feats.md#_dodge), Greater [Weapon Focus](feats.md#_weapon-focus) (light pick), [Improved Critical](feats.md#_improved-critical) (light pick), [Improved Initiative](feats.md#_improved-initiative), Improved [Vital Strike](feats.md#_vital-strike), [Iron Will](feats.md#_iron-will), [Lunge](feats.md#_lunge), Mobility, Spring Attack, [Vital Strike](feats.md#_vital-strike), [Weapon Finesse](feats.md#_weapon-finesse), [Weapon Focus](feats.md#_weapon-focus) (light pick), Weapon Specialization (light pick)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +7 (+3 when jumping), [Appraise](/pathfinderRPG/prd/skills/appraise.html#_appraise) +6 (+8 to assess nonmagical metals or gemstones), [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +13, [Craft](/pathfinderRPG/prd/skills/craft.html#_craft) (weapons) +9, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +3, [Disable Device](/pathfinderRPG/prd/skills/disableDevice.html#_disable-device) +7, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (dungeoneering, engineering) +9, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history) +6, Perception +11 (+13 to detect unusual stonework), [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (percussion) +0, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +7, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +6, [Swim](/pathfinderRPG/prd/skills/swim.html#_swim) +9
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +7 (+3 when jumping), [Appraise](skills/appraise.md#_appraise) +6 (+8 to assess nonmagical metals or gemstones), [Climb](skills/climb.md#_climb) +13, [Craft](skills/craft.md#_craft) (weapons) +9, [Diplomacy](skills/diplomacy.md#_diplomacy) +3, [Disable Device](skills/disableDevice.md#_disable-device) +7, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, engineering) +9, [Knowledge](skills/knowledge.md#_knowledge) (history) +6, Perception +11 (+13 to detect unusual stonework), [Perform](skills/perform.md#_perform) (percussion) +0, [Stealth](skills/stealth.md#_stealth) +7, [Survival](skills/survival.md#_survival) +6, [Swim](skills/swim.md#_swim) +9
 
 **Languages** Common, Dwarven, Orc
 
 **SQ** armor training 2, improved reaction +2
 
-**Combat Gear** _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_, _potion of [invisibility](/pathfinderRPG/prd/spells/invisibility.html#_invisibility)_; **Other Gear** _+4 chain shirt_, _+1 [flaming](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-flaming) [frost](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-frost) [light](/pathfinderRPG/prd/spells/light.html#_light) pick_, _+1 [light](/pathfinderRPG/prd/spells/light.html#_light) crossbow_, masterwork punching dagger, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +1_, _ [belt of giant strength](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-giant-strength) +4_, _ [boots of speed](/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed)_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +2_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +1_, 759 gp
+**Combat Gear** _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _potion of [invisibility](spells/invisibility.md#_invisibility)_; **Other Gear** _+4 chain shirt_, _+1 [flaming](magicItems/weapons.md#_weapons-flaming) [frost](magicItems/weapons.md#_weapons-frost) [light](spells/light.md#_light) pick_, _+1 [light](spells/light.md#_light) crossbow_, masterwork punching dagger, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +4_, _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 759 gp
 
 Nimble for a dwarf, an iron duelist excels at hit-and-run tactics.
 
@@ -210,9 +210,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** _+1 human-bane [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) rapier_ +29/+24/+19/+14 (1d6+9/15â20 plus 1d6 electricity)
+**Melee** _+1 human-bane [shock](magicItems/weapons.md#_weapons-shock) rapier_ +29/+24/+19/+14 (1d6+9/15–20 plus 1d6 electricity)
 
-**Ranged** mwk dagger +29/+24/+19/+14 (1d4+6/19â20)
+**Ranged** mwk dagger +29/+24/+19/+14 (1d4+6/19–20)
 
 **Special Attacks** acrobatic charge, crippling critical, no retreat, precise strike +10, riposte, weapon training (light blades +2, crossbows +1)
 
@@ -226,13 +226,13 @@ Statistics
 
 **Base Atk** +20; **CMB** +24; **CMD** 45
 
-**Feats** Blinding Critical, [Combat Expertise](/pathfinderRPG/prd/feats.html#_combat-expertise), [Combat Reflexes](/pathfinderRPG/prd/feats.html#_combat-reflexes), [Critical Focus](/pathfinderRPG/prd/feats.html#_critical-focus), Deflect Arrows, [Dodge](/pathfinderRPG/prd/feats.html#_dodge), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (rapier), [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), Improved [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), Improved [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Iron Will](/pathfinderRPG/prd/feats.html#_iron-will), Mobility, [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), Spring Attack, [Toughness](/pathfinderRPG/prd/feats.html#_toughness), [Vital Strike](/pathfinderRPG/prd/feats.html#_vital-strike), [Weapon Finesse](/pathfinderRPG/prd/feats.html#_weapon-finesse), Weapon Specialization (rapier), Wind Stance
+**Feats** Blinding Critical, [Combat Expertise](feats.md#_combat-expertise), [Combat Reflexes](feats.md#_combat-reflexes), [Critical Focus](feats.md#_critical-focus), Deflect Arrows, [Dodge](feats.md#_dodge), [Improved Critical](feats.md#_improved-critical) (rapier), [Improved Initiative](feats.md#_improved-initiative), Improved [Iron Will](feats.md#_iron-will), Improved [Vital Strike](feats.md#_vital-strike), [Iron Will](feats.md#_iron-will), Mobility, [Power Attack](feats.md#_power-attack), Spring Attack, [Toughness](feats.md#_toughness), [Vital Strike](feats.md#_vital-strike), [Weapon Finesse](feats.md#_weapon-finesse), Weapon Specialization (rapier), Wind Stance
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) +16, [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +4, [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) +17, [Diplomacy](/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy) +4, [Heal](/pathfinderRPG/prd/skills/heal.html#_heal) +5, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +12, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (history, local, nobility) +6, Perception +20, [Perform](/pathfinderRPG/prd/skills/perform.html#_perform) (dance) +4, [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) +14, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +16
+**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +16, [Bluff](skills/bluff.md#_bluff) +4, [Climb](skills/climb.md#_climb) +17, [Diplomacy](skills/diplomacy.md#_diplomacy) +4, [Heal](skills/heal.md#_heal) +5, [Intimidate](skills/intimidate.md#_intimidate) +12, [Knowledge](skills/knowledge.md#_knowledge) (history, local, nobility) +6, Perception +20, [Perform](skills/perform.md#_perform) (dance) +4, [Ride](skills/ride.md#_ride) +14, [Stealth](skills/stealth.md#_stealth) +16
 
 **SQ** armor training 2, improved reaction +4
 
-**Combat Gear** _potion of [cure serious wounds](/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds)_; **Other Gear** _+1 human-bane [shock](/pathfinderRPG/prd/magicItems/weapons.html#_weapons-shock) rapier_, masterwork dagger, _ [amulet of natural armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_amulet-of-natural-armor) +3_, _ [belt of physical perfection](/pathfinderRPG/prd/magicItems/wondrousItems.html#_belt-of-physical-perfection) +4_, _ [boots of speed](/pathfinderRPG/prd/magicItems/wondrousItems.html#_boots-of-speed)_, _ [bracers of armor](/pathfinderRPG/prd/magicItems/wondrousItems.html#_bracers-of-armor) +3_, _ [cloak of resistance](/pathfinderRPG/prd/magicItems/wondrousItems.html#_cloak-of-resistance) +3_, _dusty rose prism [ioun stone](/pathfinderRPG/prd/magicItems/wondrousItems.html#_ioun-stones)_,_ [hat of disguise](/pathfinderRPG/prd/magicItems/wondrousItems.html#_hat-of-disguise)_, _ [ring of protection](/pathfinderRPG/prd/magicItems/rings.html#_ring-of-protection) +3_, 2,526 gp
+**Combat Gear** _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_; **Other Gear** _+1 human-bane [shock](magicItems/weapons.md#_weapons-shock) rapier_, masterwork dagger, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +3_, _ [belt of physical perfection](magicItems/wondrousItems.md#_belt-of-physical-perfection) +4_, _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)_, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +3_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3_, _dusty rose prism [ioun stone](magicItems/wondrousItems.md#_ioun-stones)_,_ [hat of disguise](magicItems/wondrousItems.md#_hat-of-disguise)_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +3_, 2,526 gp
 
 Paragons of swordplay, these master duelists constantly search for foes to defeat in order to enhance their already formidable reputations.
 

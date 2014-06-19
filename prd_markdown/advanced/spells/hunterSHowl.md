@@ -14,5 +14,5 @@
 
 **Saving Throw** Will negates; **Spell Resistance** none
 
-With a single primal howl, you strike fear in your opponents. Until the end of the spell's duration, you treat those affected by it as if they were your favored enemy, gaining a +2 bonus on weapon attack and damage rolls against them, and a +2 bonus on [Bluff](../../skills/bluff.html#_bluff), [Knowledge](../../skills/knowledge.html#_knowledge), [Perception](../../skills/perception.html#_perception), [Sense Motive](../../skills/senseMotive.html#_sense-motive), and [Survival](../../skills/survival.html#_survival) checks against them. If an affected creature is already one of your favored enemies, it is shaken instead. This is a mind-affecting fear effect.
+With a single primal howl, you strike fear in your opponents. Until the end of the spell's duration, you treat those affected by it as if they were your favored enemy, gaining a +2 bonus on weapon attack and damage rolls against them, and a +2 bonus on [Bluff](../../skills/bluff.md#_bluff), [Knowledge](../../skills/knowledge.md#_knowledge), [Perception](../../skills/perception.md#_perception), [Sense Motive](../../skills/senseMotive.md#_sense-motive), and [Survival](../../skills/survival.md#_survival) checks against them. If an affected creature is already one of your favored enemies, it is shaken instead. This is a mind-affecting fear effect.
 

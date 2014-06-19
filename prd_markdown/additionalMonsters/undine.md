@@ -8,9 +8,9 @@ UndineCR 1/2
 
 Undine cleric 1
 
-N Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [native](/pathfinderRPG/prd/monsters/creatureTypes.html#_native-subtype))
+N Medium [outsider](monsters/creatureTypes.md#_outsider) ( [native](monsters/creatureTypes.md#_native-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +3
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +3
 
 Defense
 
@@ -20,7 +20,7 @@ Defense
 
 **Fort** +1, **Ref** +3, **Will** +5
 
-**Resist** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) 5
+**Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 5
 
 Offense
 
@@ -34,7 +34,7 @@ Offense
 
 **Spell-Like Abilities** (CL 1st; concentration +3)
 
-1/day—_ [hydraulic push](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/hydraulicPush.html#_hydraulic-push-)_
+1/day—_ [hydraulic push](additionalMonsters/../advanced/spells/hydraulicPush.md#_hydraulic-push-)_
 
 **Domain Spell-Like Abilities** (CL 1st; concentration +4)
 
@@ -44,9 +44,9 @@ Offense
 
 **Cleric Spells Prepared** (CL 1st; concentration +4)
 
-1st—_ [bless](/pathfinderRPG/prd/additionalMonsters/../spells/bless.html#_bless)_, _ [charm person](/pathfinderRPG/prd/additionalMonsters/../spells/charmPerson.html#_charm-person)_, _ [divine favor](/pathfinderRPG/prd/additionalMonsters/../spells/divineFavor.html#_divine-favor)_
+1st—_ [bless](additionalMonsters/../spells/bless.md#_bless)_, _ [charm person](additionalMonsters/../spells/charmPerson.md#_charm-person)_, _ [divine favor](additionalMonsters/../spells/divineFavor.md#_divine-favor)_
 
-0 (at will)—_ [create water](/pathfinderRPG/prd/additionalMonsters/../spells/createWater.html#_create-water)_, _ [guidance](/pathfinderRPG/prd/additionalMonsters/../spells/guidance.html#_guidance)_, _ [stabilize](/pathfinderRPG/prd/additionalMonsters/../spells/stabilize.html#_stabilize)_
+0 (at will)—_ [create water](additionalMonsters/../spells/createWater.md#_create-water)_, _ [guidance](additionalMonsters/../spells/guidance.md#_guidance)_, _ [stabilize](additionalMonsters/../spells/stabilize.md#_stabilize)_
 
 **D** Domain spell; **Domains** Charm, Water
 
@@ -58,7 +58,7 @@ Statistics
 
 **Feats** Extra Channel
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +6, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (religion) +4, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +4
+**Skills** [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +6, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +4, [Swim](additionalMonsters/../skills/swim.md#_swim) +4
 
 **Languages** Aquan, Common
 
@@ -74,7 +74,7 @@ Ecology
 
 SPECIAL ABILITIES
 
-**[Elemental](/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype) Affinity (Ex)** Undine sorcerers with the [elemental](/pathfinderRPG/prd/monsters/creatureTypes.html#_elemental-subtype) (water) bloodline treat their Charisma score as 2 points higher for all sorcerer class abilities. Undine clerics with the Water domain cast their Water domain powers and spells at +1 caster level.
+**[Elemental](monsters/creatureTypes.md#_elemental-subtype) Affinity (Ex)** Undine sorcerers with the [elemental](monsters/creatureTypes.md#_elemental-subtype) (water) bloodline treat their Charisma score as 2 points higher for all sorcerer class abilities. Undine clerics with the Water domain cast their Water domain powers and spells at +1 caster level.
 
 Undines are humans whose ancestry includes elemental beings of water, such as marids. This connection with the Plane of Water is most noticeably manifested in their coloration, which tends to mimic that of lakes or oceans—all undines have limpid, blue eyes, and their skin and hair can range from pale blue-white to the   
 deep blue or green of the sea.
@@ -89,7 +89,7 @@ Undines are defined by class levels—they do not possess racial Hit Dice. Undin
 
 **Darkvision** : Undines can see in the dark up to 60 feet.
 
-**Spell-Like Abilities** : _ [Hydraulic push](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/hydraulicPush.html#_hydraulic-push-)_ 1/day. (Caster level equals the undine's total Hit Dice.)
+**Spell-Like Abilities** : _ [Hydraulic push](additionalMonsters/../advanced/spells/hydraulicPush.md#_hydraulic-push-)_ 1/day. (Caster level equals the undine's total Hit Dice.)
 
 **Energy Resistance** : Undines have cold resistance 5.
 

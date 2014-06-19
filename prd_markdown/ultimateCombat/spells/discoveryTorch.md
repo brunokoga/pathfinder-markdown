@@ -14,7 +14,7 @@ Discovery Torch
 
 **Saving Throw** none; **Spell Resistance** no
 
-An object you touch emanates a 20-foot radius of bright light. The effect looks like a regular flame but creates no heat and uses no oxygen. Allies within the area of this light gain a +2 enhancement bonus on [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) and [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) checks, as well as on [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) checks to identify monsters that are also within the area and their special powers and vulnerabilities.
+An object you touch emanates a 20-foot radius of bright light. The effect looks like a regular flame but creates no heat and uses no oxygen. Allies within the area of this light gain a +2 enhancement bonus on [Perception](skills/perception.md#_perception) and [Sense Motive](skills/senseMotive.md#_sense-motive) checks, as well as on [Knowledge](skills/knowledge.md#_knowledge) checks to identify monsters that are also within the area and their special powers and vulnerabilities.
 
 When an inquisitor casts this spell, the light emanation doubles (40-ft.-radius emanation) while that inquisitor has a judgment active.
 

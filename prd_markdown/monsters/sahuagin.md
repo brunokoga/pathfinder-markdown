@@ -6,9 +6,9 @@ _This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed
 
 **XP 600**
 
-LE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid) ( [aquatic](creatureTypes.html#_aquatic-subtype))
+LE Medium [monstrous humanoid](creatureTypes.md#_monstrous-humanoid) ( [aquatic](creatureTypes.md#_aquatic-subtype))
 
-**Init** +1; **Senses** [blindsense](universalMonsterRules.html#_blindsense) 30 ft., darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +6
+**Init** +1; **Senses** [blindsense](universalMonsterRules.md#_blindsense) 30 ft., darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +6
 
 **Defense**
 
@@ -18,7 +18,7 @@ LE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid) ( [aquati
 
 **Fort** +4, **Ref** +4, **Will** +4
 
-**Weaknesses** [light blindness](universalMonsterRules.html#_light-blindness)
+**Weaknesses** [light blindness](universalMonsterRules.md#_light-blindness)
 
 **Offense**
 
@@ -36,9 +36,9 @@ LE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid) ( [aquati
 
 **Base Atk** +2; **CMB** +4; **CMD** 15
 
-**Feats** [Great Fortitude](../feats.html#_great-fortitude)
+**Feats** [Great Fortitude](../feats.md#_great-fortitude)
 
-**Skills** [Handle Animal](../skills/handleAnimal.html#_handle-animal) +1, [Perception](../skills/perception.html#_perception) +6, [Ride](../skills/ride.html#_ride) +6, [Stealth](../skills/stealth.html#_stealth) +6, [Survival](../skills/survival.html#_survival) +6, [Swim](../skills/swim.html#_swim) +15
+**Skills** [Handle Animal](../skills/handleAnimal.md#_handle-animal) +1, [Perception](../skills/perception.md#_perception) +6, [Ride](../skills/ride.md#_ride) +6, [Stealth](../skills/stealth.md#_stealth) +6, [Survival](../skills/survival.md#_survival) +6, [Swim](../skills/swim.md#_swim) +15
 
 **Languages** Aquan, Common; speak with sharks
 
@@ -54,7 +54,7 @@ LE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid) ( [aquati
 
 **Blood Frenzy (Ex)** Once per day, a sahuagin that takes damage in combat can fly into a frenzy in the following round. It gains +2 Constitution and +2 Strength, but takes a –2 penalty to its AC. The frenzy lasts as long as the battle or 1 minute, whichever is shorter.
 
-**Speak with Sharks (Su)** A sahuagin can communicate telepathically with sharks to a distance of 150 feet. This communication is limited to simple concepts, such as âcome here,â âdefend me,â or âattack this target.â
+**Speak with Sharks (Su)** A sahuagin can communicate telepathically with sharks to a distance of 150 feet. This communication is limited to simple concepts, such as “come here,” “defend me,” or “attack this target.”
 
 Ravenous and cruel, the sahuagin are, unfortunately, among the most prosperous oceanic races. Great cities raised by these creatures darken the deep ocean trenches, and many are the near-coastal fortresses where they launch endless raids against their air-breathing enemies who dwell in close proximity to the shore. Warlike and proud, the sahuagin rarely ally with others, and view most other aquatic races such as the aboleths, the merfolk, and their ilk as competitors. The only creatures they seem to respect and adore apart from their own kind are sharks, for in these relentless predators the sahuagin see much of themselves. A sahuagin stands 7 feet tall and weighs about 250 pounds.
 

@@ -12,11 +12,11 @@
 
 **Duration** concentration, up to 10 min./level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
 You can detect simple pits, deadfalls, and snares as well as mechanical traps constructed of natural materials. The spell does not detect complex traps, including trapdoor traps.
 
-_Detect snares and pits _does detect certain natural hazards—quicksand (a snare), a sinkhole (a pit), or unsafe walls of natural rock (a deadfall). It does not reveal other potentially dangerous conditions. The spell does not [detect magic](detectMagic.html#_detect-magic) traps (except those that operate by pit, deadfall, or snaring; see the spell _ [snare](snare.html#_snare)_), nor mechanically complex ones, nor those that have been rendered safe or inactive.
+_Detect snares and pits _does detect certain natural hazards—quicksand (a snare), a sinkhole (a pit), or unsafe walls of natural rock (a deadfall). It does not reveal other potentially dangerous conditions. The spell does not [detect magic](detectMagic.md#_detect-magic) traps (except those that operate by pit, deadfall, or snaring; see the spell _ [snare](snare.md#_snare)_), nor mechanically complex ones, nor those that have been rendered safe or inactive.
 
 The amount of information revealed depends on how long you study a particular area.
 

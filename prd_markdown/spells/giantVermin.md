@@ -12,11 +12,11 @@
 
 **Duration** 1 min./level
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
 You turn a number of normal-sized centipedes, scorpions, or spiders into their giant counterparts. Only one type of vermin can be transmuted (so a single casting cannot affect both a centipede and a spider). The number of vermin which can be affected by this spell depends on your caster level, as noted on the table below.
 
-Giant vermin created by this spell do not attempt to harm you, but your control of such creatures is limited to simple commands (âAttack,â âDefend,â âStop,â and so forth). Orders to attack a certain creature when it appears or guard against a particular occurrence are too complex for the vermin to understand. Unless commanded to do otherwise, the giant vermin attack whomever or whatever is near them.
+Giant vermin created by this spell do not attempt to harm you, but your control of such creatures is limited to simple commands (“Attack,” “Defend,” “Stop,” and so forth). Orders to attack a certain creature when it appears or guard against a particular occurrence are too complex for the vermin to understand. Unless commanded to do otherwise, the giant vermin attack whomever or whatever is near them.
 
 | Caster Level | Centipedes | Scorpions | Spiders |
 | --- | --- | --- | --- |

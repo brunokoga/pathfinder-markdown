@@ -6,7 +6,7 @@
 
 **Target** one living creature
 
-This spell functions like _ [hold person](holdPerson.html#_hold-person), _except that it affects any living creature that fails its [Will](../combat.html#_will) save.
+This spell functions like _ [hold person](holdPerson.md#_hold-person), _except that it affects any living creature that fails its [Will](../combat.md#_will) save.
 
 **Hold Monster, Mass**
 
@@ -14,5 +14,5 @@ This spell functions like _ [hold person](holdPerson.html#_hold-person), _except
 
 **Targets** one or more creatures, no two of which can be more than 30 ft. apart
 
-This spell functions like _ [hold person](holdPerson.html#_hold-person), _except that it affects multiple creatures and holds any living creature that fails its [Will](../combat.html#_will) save.
+This spell functions like _ [hold person](holdPerson.md#_hold-person), _except that it affects multiple creatures and holds any living creature that fails its [Will](../combat.md#_will) save.
 

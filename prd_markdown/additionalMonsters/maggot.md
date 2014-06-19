@@ -6,9 +6,9 @@ Giant MaggotCR 1/2
 
 **XP 200**
 
-N Medium [vermin](/pathfinderRPG/prd/monsters/creatureTypes.html#_vermin)
+N Medium [vermin](monsters/creatureTypes.md#_vermin)
 
-**Init** –1; **Senses** darkvision 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) –3
+**Init** –1; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) –3
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +5, **Ref** –1, **Will** –3
 
-**Immune** [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)), mind-affecting effects
+**Immune** [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), mind-affecting effects
 
 Offense
 

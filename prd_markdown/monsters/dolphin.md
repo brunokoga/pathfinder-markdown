@@ -6,9 +6,9 @@ _This streamlined, fish-like mammal has sparkling eyes over a smiling mouth fill
 
 **XP 200**
 
-N Medium [animal](creatureTypes.html#_animal)
+N Medium [animal](creatureTypes.md#_animal)
 
-**Init** +2; **Senses** [blindsight](universalMonsterRules.html#_blindsight) 120 ft., low-light vision; [Perception](../skills/perception.html#_perception) +9
+**Init** +2; **Senses** [blindsight](universalMonsterRules.md#_blindsight) 120 ft., low-light vision; [Perception](../skills/perception.md#_perception) +9
 
 **Defense**
 
@@ -30,9 +30,9 @@ N Medium [animal](creatureTypes.html#_animal)
 
 **Base Atk** +1; **CMB** +2; **CMD** 14
 
-**Feats** [Weapon Finesse](../feats.html#_weapon-finesse)
+**Feats** [Weapon Finesse](../feats.md#_weapon-finesse)
 
-**Skills** [Perception](../skills/perception.html#_perception) +9, [Swim](../skills/swim.html#_swim) +13; **Racial Modifiers** +4 [Perception](../skills/perception.html#_perception)
+**Skills** [Perception](../skills/perception.md#_perception) +9, [Swim](../skills/swim.md#_swim) +13; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception)
 
 **SQ** hold breath
 
@@ -64,9 +64,9 @@ _This sleek black whale has a distinctive white patch near each eye and a mouth 
 
 **XP 1,600**
 
-N Huge [animal](creatureTypes.html#_animal)
+N Huge [animal](creatureTypes.md#_animal)
 
-**Init** +6; **Senses** [blindsight](universalMonsterRules.html#_blindsight) 120 ft., low-light vision; [Perception](../skills/perception.html#_perception) +19
+**Init** +6; **Senses** [blindsight](universalMonsterRules.md#_blindsight) 120 ft., low-light vision; [Perception](../skills/perception.md#_perception) +19
 
 **Defense**
 
@@ -90,9 +90,9 @@ N Huge [animal](creatureTypes.html#_animal)
 
 **Base**  **Atk** +6; **CMB** +16; **CMD** 28
 
-**Feats** [Endurance](../feats.html#_endurance), [Improved Initiative](../feats.html#_improved-initiative), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception), [Swim](../skills/swim.html#_swim)), [Weapon Focus](../feats.html#_weapon-focus) (bite)
+**Feats** [Endurance](../feats.md#_endurance), [Improved Initiative](../feats.md#_improved-initiative), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception), [Swim](../skills/swim.md#_swim)), [Weapon Focus](../feats.md#_weapon-focus) (bite)
 
-**Skills** [Perception](../skills/perception.html#_perception) +19, [Swim](../skills/swim.html#_swim) +28; **Racial Modifiers** +8 [Perception](../skills/perception.html#_perception)
+**Skills** [Perception](../skills/perception.md#_perception) +19, [Swim](../skills/swim.md#_swim) +28; **Racial Modifiers** +8 [Perception](../skills/perception.md#_perception)
 
 **SQ** hold breath (as dolphin)
 
@@ -104,7 +104,7 @@ N Huge [animal](creatureTypes.html#_animal)
 
 **Treasure** none
 
-The orca, or âkiller whale,â is actually the largest species of dolphin. Adult orcas are typically 15–25 feet long and weigh 8,000–12,000 pounds
+The orca, or “killer whale,” is actually the largest species of dolphin. Adult orcas are typically 15–25 feet long and weigh 8,000–12,000 pounds
 
 ## Orca Companions
 

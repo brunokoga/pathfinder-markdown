@@ -14,7 +14,7 @@ Forest Friend
 
 **Saving Throw** : none; **Spell Resistance** : no
 
-While subject to this spell, the targets find that forested areas become helpful instead of hindering. The targets suffer no hindrances to movement and suffer no penalties on [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) and [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) checks from undergrowth in forested terrain. Furthermore, forested overgrowth imposes a miss chance 10% lower than normal.
+While subject to this spell, the targets find that forested areas become helpful instead of hindering. The targets suffer no hindrances to movement and suffer no penalties on [Acrobatics](skills/acrobatics.md#_acrobatics) and [Stealth](skills/stealth.md#_stealth) checks from undergrowth in forested terrain. Furthermore, forested overgrowth imposes a miss chance 10% lower than normal.
 
-When moving in and among trees, those subject to the spell gain a +5 circumstance bonus on [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) checks and [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks. Rangers in their favored terrain can also add their favored terrain bonus on such [Acrobatics](/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics) and [Climb](/pathfinderRPG/prd/skills/climb.html#_climb) checks.
+When moving in and among trees, those subject to the spell gain a +5 circumstance bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) checks and [Climb](skills/climb.md#_climb) checks. Rangers in their favored terrain can also add their favored terrain bonus on such [Acrobatics](skills/acrobatics.md#_acrobatics) and [Climb](skills/climb.md#_climb) checks.
 

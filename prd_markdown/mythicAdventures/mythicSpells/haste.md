@@ -1,6 +1,6 @@
 Haste
 
-**Source** [_haste_](/pathfinderRPG/prd/spells/haste.html#_haste)
+**Source** [_haste_](spells/haste.md#_haste)
 
 Affected creatures gain an additional move action each round. The movement speed increase changes to 50 feet, to a maximum of three times the creature's normal speed for that movement type.
 

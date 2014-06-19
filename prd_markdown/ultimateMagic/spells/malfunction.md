@@ -14,5 +14,5 @@ Malfunction
 
 **Saving Throw** Fortitude negates; **Spell Resistance** yes
 
-This functions as _ [confusion](/pathfinderRPG/prd/spells/confusion.html#_confusion)_, except it only affects constructs, and instead of babbling incoherently, the construct takes no actions on its turn (but may still make attacks of opportunity).
+This functions as _ [confusion](spells/confusion.md#_confusion)_, except it only affects constructs, and instead of babbling incoherently, the construct takes no actions on its turn (but may still make attacks of opportunity).
 

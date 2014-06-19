@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Fortitude](../combat.html#_fortitude) partial; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** [Fortitude](../combat.md#_fortitude) partial; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
-You blast an area with a tremendous cacophony. Every creature in the area takes 1d8 points of sonic damage and must succeed on a [Fortitude](../combat.html#_fortitude) save to avoid being [stunned](../glossary.html#_stunned) for 1 round. Creatures that cannot hear are not [stunned](../glossary.html#_stunned) but are still damaged.
+You blast an area with a tremendous cacophony. Every creature in the area takes 1d8 points of sonic damage and must succeed on a [Fortitude](../combat.md#_fortitude) save to avoid being [stunned](../glossary.md#_stunned) for 1 round. Creatures that cannot hear are not [stunned](../glossary.md#_stunned) but are still damaged.
 

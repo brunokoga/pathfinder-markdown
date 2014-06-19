@@ -1,6 +1,6 @@
 Power Word Kill
 
-**Source** [_power word kill_](/pathfinderRPG/prd/spells/powerWordKill.html#_power-word-kill)
+**Source** [_power word kill_](spells/powerWordKill.md#_power-word-kill)
 
 Treat the target's current hit point total as though it were lowered by 5 times your tier. For example, a 3rd-tier archmage casting _mythic power word kill_ would instantly kill a creature with 85 hit points or fewer.
 

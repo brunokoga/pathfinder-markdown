@@ -8,9 +8,9 @@ The original and most powerful angels predate the mortal races. They were among 
 
 All angels are blessed with extraordinary beauty, though their actual appearances vary widely. Their natural shapechanging ability means they may appear to mortals as male or female, depending on their personal preference or the will of their deity. As they are spiritual creatures given a physical form rather than creatures of flesh born of other creatures, their gender is mutable; some angels always use a male form, some strictly a female one, and others use either or both, or prefer an androgynous or sexless shape.
 
-Technically, the word âangelâ refers to several types of humanoid angels—solars, planetars, and devas (of which the astral deva is the most common; other types exist as well)—though many mortals use the term loosely and apply it to any celestial, whether an angel, one of the guardian archons, fey-like azatas, beast-like agathions, or any other creature of the good planes. The angels do not take affront at this, as they have more important things to deal with than mortal nomenclature.
+Technically, the word “angel” refers to several types of humanoid angels—solars, planetars, and devas (of which the astral deva is the most common; other types exist as well)—though many mortals use the term loosely and apply it to any celestial, whether an angel, one of the guardian archons, fey-like azatas, beast-like agathions, or any other creature of the good planes. The angels do not take affront at this, as they have more important things to deal with than mortal nomenclature.
 
-Angels speak Celestial, Draconic, and Infernal, though they can communicate with almost any creature because of their truespeech ability. All angels possess [a number of similar traits](creatureTypes.html#_angel-subtype). Most angels also have additional powers beyond these traits, depending on the role their deity assigns them. For example, an angelic guardian of volcanoes might have the fire subtype, or the protector of a sunken city might be aquatic, [amphibious](universalMonsterRules.html#_amphibious), and able to use her wings to swim.
+Angels speak Celestial, Draconic, and Infernal, though they can communicate with almost any creature because of their truespeech ability. All angels possess [a number of similar traits](creatureTypes.md#_angel-subtype). Most angels also have additional powers beyond these traits, depending on the role their deity assigns them. For example, an angelic guardian of volcanoes might have the fire subtype, or the protector of a sunken city might be aquatic, [amphibious](universalMonsterRules.md#_amphibious), and able to use her wings to swim.
 
 ## Fallen Angels
 
@@ -32,9 +32,9 @@ _This tall, human-like creature has long, feathery wings and a gentle inner radi
 
 **XP 38,400**
 
-NG Medium [outsider](creatureTypes.html#_outsider) ( [angel](creatureTypes.html#_angel-subtype), [extraplanar](creatureTypes.html#_extraplanar-subtype), [good](creatureTypes.html#_good-subtype))
+NG Medium [outsider](creatureTypes.md#_outsider) ( [angel](creatureTypes.md#_angel-subtype), [extraplanar](creatureTypes.md#_extraplanar-subtype), [good](creatureTypes.md#_good-subtype))
 
-**Init** +8; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.html#_perception) +26
+**Init** +8; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) +26
 
 **Aura** protective aura
 
@@ -54,13 +54,13 @@ NG Medium [outsider](creatureTypes.html#_outsider) ( [angel](creatureTypes.html#
 
 **Melee** _+2 disrupting warhammer_ +26/+21/+16 (1d8+14/×3 plus stun) or slam +23 (1d8+12)
 
-**[Spell-Like Abilities](universalMonsterRules.html#_spell-like-abilities)** (CL 13th)
+**[Spell-Like Abilities](universalMonsterRules.md#_spell-like-abilities)** (CL 13th)
 
-At Will—_ [aid](../spells/aid.html#_aid)_, _ [continual flame](../spells/continualFlame.html#_continual-flame)_, _ [detect evil](../spells/detectEvil.html#_detect-evil)_, _ [discern lies](../spells/discernLies.html#_discern-lies)_ (DC 20), _ [dispel evil](../spells/dispelEvil.html#_dispel-evil)_ (DC 21), _ [dispel magic](../spells/dispelMagic.html#_dispel-magic)_, _ [holy aura](../spells/holyAura.html#_holy-aura)_ (DC 24), _ [holy smite](../spells/holySmite.html#_holy-smite)_ (DC 20), _ [holy word](../spells/holyWord.html#_holy-word)_ (DC 23), _ [invisibility](../spells/invisibility.html#_invisibility)_ (self only), _ [plane shift](../spells/planeShift.html#_plane-shift)_ (DC 23), _ [remove curse](../spells/removeCurse.html#_remove-curse)_, _ [remove disease](../spells/removeDisease.html#_remove-disease)_, _ [remove fear](../spells/removeFear.html#_remove-fear)_
+At Will—_ [aid](../spells/aid.md#_aid)_, _ [continual flame](../spells/continualFlame.md#_continual-flame)_, _ [detect evil](../spells/detectEvil.md#_detect-evil)_, _ [discern lies](../spells/discernLies.md#_discern-lies)_ (DC 20), _ [dispel evil](../spells/dispelEvil.md#_dispel-evil)_ (DC 21), _ [dispel magic](../spells/dispelMagic.md#_dispel-magic)_, _ [holy aura](../spells/holyAura.md#_holy-aura)_ (DC 24), _ [holy smite](../spells/holySmite.md#_holy-smite)_ (DC 20), _ [holy word](../spells/holyWord.md#_holy-word)_ (DC 23), _ [invisibility](../spells/invisibility.md#_invisibility)_ (self only), _ [plane shift](../spells/planeShift.md#_plane-shift)_ (DC 23), _ [remove curse](../spells/removeCurse.md#_remove-curse)_, _ [remove disease](../spells/removeDisease.md#_remove-disease)_, _ [remove fear](../spells/removeFear.md#_remove-fear)_
 
-7/day—_ [cure light wounds](../spells/cureLightWounds.html#_cure-light-wounds)_, _ [see invisibility](../spells/seeInvisibility.html#_see-invisibility)_
+7/day—_ [cure light wounds](../spells/cureLightWounds.md#_cure-light-wounds)_, _ [see invisibility](../spells/seeInvisibility.md#_see-invisibility)_
 
-1/day—_ [blade barrier](../spells/bladeBarrier.html#_blade-barrier)_ (DC 22), _ [heal](../spells/heal.html#_heal)_
+1/day—_ [blade barrier](../spells/bladeBarrier.md#_blade-barrier)_ (DC 22), _ [heal](../spells/heal.md#_heal)_
 
 **Statistics**
 
@@ -68,13 +68,13 @@ At Will—_ [aid](../spells/aid.html#_aid)_, _ [continual flame](../spells/conti
 
 **Base Atk** +15; **CMB** +23; **CMD** 37
 
-**Feats** [Alertness](../feats.html#_alertness), [Cleave](../feats.html#_cleave), [Great Fortitude](../feats.html#_great-fortitude), [Improved Initiative](../feats.html#_improved-initiative), [Iron Will](../feats.html#_iron-will), [Power Attack](../feats.html#_power-attack), [Toughness](../feats.html#_toughness), [Weapon Focus](../feats.html#_weapon-focus) (warhammer)
+**Feats** [Alertness](../feats.md#_alertness), [Cleave](../feats.md#_cleave), [Great Fortitude](../feats.md#_great-fortitude), [Improved Initiative](../feats.md#_improved-initiative), [Iron Will](../feats.md#_iron-will), [Power Attack](../feats.md#_power-attack), [Toughness](../feats.md#_toughness), [Weapon Focus](../feats.md#_weapon-focus) (warhammer)
 
-**Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +22, [Craft](../skills/craft.html#_craft) (any one) +22, [Diplomacy](../skills/diplomacy.html#_diplomacy) +24, [Fly](../skills/fly.html#_fly) +26, [Intimidate](../skills/intimidate.html#_intimidate) +24, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +22, [Knowledge](../skills/knowledge.html#_knowledge) (religion) +19, [Perception](../skills/perception.html#_perception) +26, [Sense Motive](../skills/senseMotive.html#_sense-motive) +26, [Stealth](../skills/stealth.html#_stealth) +22
+**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +22, [Craft](../skills/craft.md#_craft) (any one) +22, [Diplomacy](../skills/diplomacy.md#_diplomacy) +24, [Fly](../skills/fly.md#_fly) +26, [Intimidate](../skills/intimidate.md#_intimidate) +24, [Knowledge](../skills/knowledge.md#_knowledge) (planes) +22, [Knowledge](../skills/knowledge.md#_knowledge) (religion) +19, [Perception](../skills/perception.md#_perception) +26, [Sense Motive](../skills/senseMotive.md#_sense-motive) +26, [Stealth](../skills/stealth.md#_stealth) +22
 
 **Languages** Celestial, Draconic, Infernal; truespeech
 
-**SQ** [change shape](universalMonsterRules.html#_change-shape) (_ [alter self](../spells/alterSelf.html#_alter-self)_)
+**SQ** [change shape](universalMonsterRules.md#_change-shape) (_ [alter self](../spells/alterSelf.md#_alter-self)_)
 
 **Ecology**
 
@@ -88,7 +88,7 @@ At Will—_ [aid](../spells/aid.html#_aid)_, _ [continual flame](../spells/conti
 
 **Stun (Su)** If an astral deva strikes an opponent twice in one round with its warhammer, that creature must succeed on a DC 25 Fortitude save or be stunned for 1d6 rounds. The save DC is Strength-based.
 
-**Uncanny [Dodge](../feats.html#_dodge) (Ex)** This ability functions identically to the rogue ability. If a deva gains uncanny dodge from a class level, he instead gains improved uncanny dodge.
+**Uncanny [Dodge](../feats.md#_dodge) (Ex)** This ability functions identically to the rogue ability. If a deva gains uncanny dodge from a class level, he instead gains improved uncanny dodge.
 
 Astral devas are messengers of the gods of good. They watch over planar travelers and sponsor powerful mortals, pushing them to take on good causes. A typical astral deva looks human except for its wings, though some look like other humanoid races and a rare few have even more unusual forms. An astral deva is 7-1/2 feet tall and weighs 250 pounds.
 
@@ -102,9 +102,9 @@ _Muscular, bald, and tall, this humanoid creature has emerald skin and two pairs
 
 **XP 76,800**
 
-NG Large [outsider](creatureTypes.html#_outsider) ( [angel](creatureTypes.html#_angel-subtype), [extraplanar](creatureTypes.html#_extraplanar-subtype), [good](creatureTypes.html#_good-subtype))
+NG Large [outsider](creatureTypes.md#_outsider) ( [angel](creatureTypes.md#_angel-subtype), [extraplanar](creatureTypes.md#_extraplanar-subtype), [good](creatureTypes.md#_good-subtype))
 
-**Init** +8; **Senses** darkvision 60 ft., _ [detect evil](../spells/detectEvil.html#_detect-evil)_, _ [detect snares and pits](../spells/detectSnaresAndPits.html#_detect-snares-and-pits)_, low-light vision, _ [true seeing](../spells/trueSeeing.html#_true-seeing)_; [Perception](../skills/perception.html#_perception) +27
+**Init** +8; **Senses** darkvision 60 ft., _ [detect evil](../spells/detectEvil.md#_detect-evil)_, _ [detect snares and pits](../spells/detectSnaresAndPits.md#_detect-snares-and-pits)_, low-light vision, _ [true seeing](../spells/trueSeeing.md#_true-seeing)_; [Perception](../skills/perception.md#_perception) +27
 
 **Aura** protective aura
 
@@ -112,7 +112,7 @@ NG Large [outsider](creatureTypes.html#_outsider) ( [angel](creatureTypes.html#_
 
 **AC** 32, touch 13, flat-footed 28 (+4 Dex, +19 natural, –1 size; +4 deflection vs. evil)
 
-**hp** 229 (17d10+136); [regeneration](universalMonsterRules.html#_regeneration) 10 (evil weapons and effects)
+**hp** 229 (17d10+136); [regeneration](universalMonsterRules.md#_regeneration) 10 (evil weapons and effects)
 
 **Fort** +19, **Ref** +11, **Will** +19; +4 vs. poison, +4 resistance vs. evil
 
@@ -122,39 +122,39 @@ NG Large [outsider](creatureTypes.html#_outsider) ( [angel](creatureTypes.html#_
 
 **Speed** 30 ft., fly 90 ft. (good)
 
-**Melee** _+3 [holy](../magicItems/weapons.html#_weapons-holy) greatsword_ +27/+22/+17 (3d6+15/19–20) or slam +24 (2d8+12)
+**Melee** _+3 [holy](../magicItems/weapons.md#_weapons-holy) greatsword_ +27/+22/+17 (3d6+15/19–20) or slam +24 (2d8+12)
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**[Spell-Like Abilities](universalMonsterRules.html#_spell-like-abilities)** (CL 16th)
+**[Spell-Like Abilities](universalMonsterRules.md#_spell-like-abilities)** (CL 16th)
 
-Constant—_ [detect evil](../spells/detectEvil.html#_detect-evil)_, _ [detect snares and pits](../spells/detectSnaresAndPits.html#_detect-snares-and-pits)_, _ [discern lies](../spells/discernLies.html#_discern-lies)_ (DC 20), _ [true seeing](../spells/trueSeeing.html#_true-seeing)_
+Constant—_ [detect evil](../spells/detectEvil.md#_detect-evil)_, _ [detect snares and pits](../spells/detectSnaresAndPits.md#_detect-snares-and-pits)_, _ [discern lies](../spells/discernLies.md#_discern-lies)_ (DC 20), _ [true seeing](../spells/trueSeeing.md#_true-seeing)_
 
-At will—_ [continual flame](../spells/continualFlame.html#_continual-flame)_, _ [dispel magic](../spells/dispelMagic.html#_dispel-magic)_, _ [holy smite](../spells/holySmite.html#_holy-smite)_ (DC 21), _ [invisibility](../spells/invisibility.html#_invisibility)_ (self only), _ [lesser restoration](../spells/restoration.html#_restoration-lesser)_, _ [remove curse](../spells/removeCurse.html#_remove-curse)_, _ [remove disease](../spells/removeDisease.html#_remove-disease)_, _ [remove fear](../spells/removeFear.html#_remove-fear)_ (DC 18), _ [speak with dead](../spells/speakWithDead.html#_speak-with-dead)_ (DC 20)
+At will—_ [continual flame](../spells/continualFlame.md#_continual-flame)_, _ [dispel magic](../spells/dispelMagic.md#_dispel-magic)_, _ [holy smite](../spells/holySmite.md#_holy-smite)_ (DC 21), _ [invisibility](../spells/invisibility.md#_invisibility)_ (self only), _ [lesser restoration](../spells/restoration.md#_restoration-lesser)_, _ [remove curse](../spells/removeCurse.md#_remove-curse)_, _ [remove disease](../spells/removeDisease.md#_remove-disease)_, _ [remove fear](../spells/removeFear.md#_remove-fear)_ (DC 18), _ [speak with dead](../spells/speakWithDead.md#_speak-with-dead)_ (DC 20)
 
-3/day—_ [blade barrier](../spells/bladeBarrier.html#_blade-barrier)_ (DC 21), _ [flame strike](../spells/flameStrike.html#_flame-strike)_ (DC 22), _ [power word stun](../spells/powerWordStun.html#_power-word-stun)_, _ [raise dead](../spells/raiseDead.html#_raise-dead)_, _ [waves of fatigue](../spells/wavesOfFatigue.html#_waves-of-fatigue)_
+3/day—_ [blade barrier](../spells/bladeBarrier.md#_blade-barrier)_ (DC 21), _ [flame strike](../spells/flameStrike.md#_flame-strike)_ (DC 22), _ [power word stun](../spells/powerWordStun.md#_power-word-stun)_, _ [raise dead](../spells/raiseDead.md#_raise-dead)_, _ [waves of fatigue](../spells/wavesOfFatigue.md#_waves-of-fatigue)_
 
-1/day—_ [earthquake](../spells/earthquake.html#_earthquake)_ (DC 25), _ [greater restoration](../spells/restoration.html#_restoration-greater)_, _ [mass charm monster](../spells/charmMonster.html#_charm-monster-mass)_ (DC 25), _ [waves of exhaustion](../spells/wavesOfExhaustion.html#_waves-of-exhaustion)_
+1/day—_ [earthquake](../spells/earthquake.md#_earthquake)_ (DC 25), _ [greater restoration](../spells/restoration.md#_restoration-greater)_, _ [mass charm monster](../spells/charmMonster.md#_charm-monster-mass)_ (DC 25), _ [waves of exhaustion](../spells/wavesOfExhaustion.md#_waves-of-exhaustion)_
 
 **Spells Prepared** (CL 16th)
 
-8th—_ [earthquake](../spells/earthquake.html#_earthquake)_ (DC 25), _ [fire storm](../spells/fireStorm.html#_fire-storm)_ (DC 25)
+8th—_ [earthquake](../spells/earthquake.md#_earthquake)_ (DC 25), _ [fire storm](../spells/fireStorm.md#_fire-storm)_ (DC 25)
 
-7th—_ [holy word](../spells/holyWord.html#_holy-word)_ (DC 24), _ [regenerate](../spells/regenerate.html#_regenerate)_ (2)
+7th—_ [holy word](../spells/holyWord.md#_holy-word)_ (DC 24), _ [regenerate](../spells/regenerate.md#_regenerate)_ (2)
 
-6th—_ [banishment](../spells/banishment.html#_banishment)_ (DC 23), _ [greater dispel magic](../spells/dispelMagic.html#_dispel-magic-greater)_, _ [heal](../spells/heal.html#_heal)_, _ [mass cure moderate wounds](../spells/cureModerateWounds.html#_cure-moderate-wounds-mass)_ (DC 23)
+6th—_ [banishment](../spells/banishment.md#_banishment)_ (DC 23), _ [greater dispel magic](../spells/dispelMagic.md#_dispel-magic-greater)_, _ [heal](../spells/heal.md#_heal)_, _ [mass cure moderate wounds](../spells/cureModerateWounds.md#_cure-moderate-wounds-mass)_ (DC 23)
 
-5th—_ [break enchantment](../spells/breakEnchantment.html#_break-enchantment)_, _ [dispel evil](../spells/dispelEvil.html#_dispel-evil)_ (2, DC 22), _ [plane shift](../spells/planeShift.html#_plane-shift)_ (DC 22), _ [righteous might](../spells/righteousMight.html#_righteous-might)_
+5th—_ [break enchantment](../spells/breakEnchantment.md#_break-enchantment)_, _ [dispel evil](../spells/dispelEvil.md#_dispel-evil)_ (2, DC 22), _ [plane shift](../spells/planeShift.md#_plane-shift)_ (DC 22), _ [righteous might](../spells/righteousMight.md#_righteous-might)_
 
-4th—_ [death ward](../spells/deathWard.html#_death-ward)_, _ [dismissal](../spells/dismissal.html#_dismissal)_ (DC 21), _ [neutralize poison](../spells/neutralizePoison.html#_neutralize-poison)_ (DC 21), _ [summon monster IV](../spells/summonMonster.html#_summon-monster-iv)_
+4th—_ [death ward](../spells/deathWard.md#_death-ward)_, _ [dismissal](../spells/dismissal.md#_dismissal)_ (DC 21), _ [neutralize poison](../spells/neutralizePoison.md#_neutralize-poison)_ (DC 21), _ [summon monster IV](../spells/summonMonster.md#_summon-monster-iv)_
 
-3rd—_ [cure serious wounds](../spells/cureSeriousWounds.html#_cure-serious-wounds)_ (2), _ [daylight](../spells/daylight.html#_daylight)_, _ [invisibility purge](../spells/invisibilityPurge.html#_invisibility-purge)_, _ [summon monster III](../spells/summonMonster.html#_summon-monster-iii)_, _ [wind wall](../spells/windWall.html#_wind-wall)_
+3rd—_ [cure serious wounds](../spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _ [daylight](../spells/daylight.md#_daylight)_, _ [invisibility purge](../spells/invisibilityPurge.md#_invisibility-purge)_, _ [summon monster III](../spells/summonMonster.md#_summon-monster-iii)_, _ [wind wall](../spells/windWall.md#_wind-wall)_
 
-2nd—_ [align weapon](../spells/alignWeapon.html#_align-weapon) (2)_, _ [bear's endurance](../spells/bearSEndurance.html#_bear-s-endurance) (2)_, _ [cure moderate wounds](../spells/cureModerateWounds.html#_cure-moderate-wounds)_ (2), _ [eagle's splendor](../spells/eagleSSplendor.html#_eagle-s-splendor)_
+2nd—_ [align weapon](../spells/alignWeapon.md#_align-weapon) (2)_, _ [bear's endurance](../spells/bearSEndurance.md#_bear-s-endurance) (2)_, _ [cure moderate wounds](../spells/cureModerateWounds.md#_cure-moderate-wounds)_ (2), _ [eagle's splendor](../spells/eagleSSplendor.md#_eagle-s-splendor)_
 
-1st—_ [bless](../spells/bless.html#_bless)_ (2), _ [cure light wounds](../spells/cureLightWounds.html#_cure-light-wounds)_ (4), _ [shield of faith](../spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_ [bless](../spells/bless.md#_bless)_ (2), _ [cure light wounds](../spells/cureLightWounds.md#_cure-light-wounds)_ (4), _ [shield of faith](../spells/shieldOfFaith.md#_shield-of-faith)_
 
-0 (at will)—_ [detect magic](../spells/detectMagic#detect-magic)_, _ [purify food and drink](../spells/purifyFoodAndDrink.html#_purify-food-and-drink)_, _ [stabilize](../spells/stabilize.html#_stabilize)_, _ [virtue](../spells/virtue.html#_virtue)_
+0 (at will)—_ [detect magic](../spells/detectMagic#detect-magic)_, _ [purify food and drink](../spells/purifyFoodAndDrink.md#_purify-food-and-drink)_, _ [stabilize](../spells/stabilize.md#_stabilize)_, _ [virtue](../spells/virtue.md#_virtue)_
 
 **Statistics**
 
@@ -162,13 +162,13 @@ At will—_ [continual flame](../spells/continualFlame.html#_continual-flame)_, 
 
 **Base Atk** +17; **CMB** +26; **CMD** 40
 
-**Feats** [Blind-Fight](../feats.html#_blind-fight), [Cleave](../feats.html#_cleave), [Great Fortitude](../feats.html#_great-fortitude), [Improved Initiative](../feats.html#_improved-initiative), [Improved Sunder](../feats.html#_improved-sunder), [Iron Will](../feats.html#_iron-will), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Power Attack](../feats.html#_power-attack), [Toughness](../feats.html#_toughness)
+**Feats** [Blind-Fight](../feats.md#_blind-fight), [Cleave](../feats.md#_cleave), [Great Fortitude](../feats.md#_great-fortitude), [Improved Initiative](../feats.md#_improved-initiative), [Improved Sunder](../feats.md#_improved-sunder), [Iron Will](../feats.md#_iron-will), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Power Attack](../feats.md#_power-attack), [Toughness](../feats.md#_toughness)
 
-**Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +24, [Craft](../skills/craft.html#_craft) (any one) +26, [Diplomacy](../skills/diplomacy.html#_diplomacy) +27, [Fly](../skills/fly.html#_fly) +26, [Heal](../skills/heal.html#_heal) +24, [Intimidate](../skills/intimidate.html#_intimidate) +27, [Knowledge](../skills/knowledge.html#_knowledge) (history) +23, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +26, [Knowledge](../skills/knowledge.html#_knowledge) (religion) +26, [Perception](../skills/perception.html#_perception) +27, [Sense Motive](../skills/senseMotive.html#_sense-motive) +27, [Stealth](../skills/stealth.html#_stealth) +20
+**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +24, [Craft](../skills/craft.md#_craft) (any one) +26, [Diplomacy](../skills/diplomacy.md#_diplomacy) +27, [Fly](../skills/fly.md#_fly) +26, [Heal](../skills/heal.md#_heal) +24, [Intimidate](../skills/intimidate.md#_intimidate) +27, [Knowledge](../skills/knowledge.md#_knowledge) (history) +23, [Knowledge](../skills/knowledge.md#_knowledge) (planes) +26, [Knowledge](../skills/knowledge.md#_knowledge) (religion) +26, [Perception](../skills/perception.md#_perception) +27, [Sense Motive](../skills/senseMotive.md#_sense-motive) +27, [Stealth](../skills/stealth.md#_stealth) +20
 
 **Languages** Celestial, Draconic, Infernal; truespeech
 
-**SQ** [change shape](universalMonsterRules.html#_change-shape) (_ [alter self](../spells/alterSelf.html#_alter-self)_)
+**SQ** [change shape](universalMonsterRules.md#_change-shape) (_ [alter self](../spells/alterSelf.md#_alter-self)_)
 
 **Ecology**
 
@@ -176,7 +176,7 @@ At will—_ [continual flame](../spells/continualFlame.html#_continual-flame)_, 
 
 **Organization** solitary or pair
 
-**Treasure** double (_+3 [holy](../magicItems/weapons.html#_weapons-holy) greatsword_)
+**Treasure** double (_+3 [holy](../magicItems/weapons.md#_weapons-holy) greatsword_)
 
 **Special Abilities**
 
@@ -192,9 +192,9 @@ _This towering humanoid creature has shining topaz eyes, metallic skin, and thre
 
 **XP 819,200**
 
-NG Large [outsider](creatureTypes.html#_outsider) ( [angel](creatureTypes.html#_angel-subtype), [extraplanar](creatureTypes.html#_extraplanar-subtype), [good](creatureTypes.html#_good-subtype))
+NG Large [outsider](creatureTypes.md#_outsider) ( [angel](creatureTypes.md#_angel-subtype), [extraplanar](creatureTypes.md#_extraplanar-subtype), [good](creatureTypes.md#_good-subtype))
 
-**Init** +9; **Senses** darkvision 60 ft., low-light vision, _ [detect evil](../spells/detectEvil.html#_detect-evil)_, _ [detect snares and pits](../spells/detectSnaresAndPits.html#_detect-snares-and-pits)_, _ [true seeing](../spells/trueSeeing.html#_true-seeing)_; [Perception](../skills/perception.html#_perception) +33
+**Init** +9; **Senses** darkvision 60 ft., low-light vision, _ [detect evil](../spells/detectEvil.md#_detect-evil)_, _ [detect snares and pits](../spells/detectSnaresAndPits.md#_detect-snares-and-pits)_, _ [true seeing](../spells/trueSeeing.md#_true-seeing)_; [Perception](../skills/perception.md#_perception) +33
 
 **Aura** protective aura
 
@@ -202,7 +202,7 @@ NG Large [outsider](creatureTypes.html#_outsider) ( [angel](creatureTypes.html#_
 
 **AC** 44, touch 11, flat-footed 42 (+14 armor, +1 Dex, +1 dodge, +19 natural, –1 size; +4 deflection vs. evil)
 
-**hp** 363 (22d10+242); [regeneration](universalMonsterRules.html#_regeneration) 15 (evil artifacts, effects, and spells)
+**hp** 363 (22d10+242); [regeneration](universalMonsterRules.md#_regeneration) 15 (evil artifacts, effects, and spells)
 
 **Fort** +25, **Ref** +14, **Will** +23; +4 vs. poison, +4 resistance vs. evil
 
@@ -212,43 +212,43 @@ NG Large [outsider](creatureTypes.html#_outsider) ( [angel](creatureTypes.html#_
 
 **Speed** 50 ft., fly 150 ft. (good); 35 ft., fly 100 ft. (good) in armor
 
-**Melee** _+5 [dancing](../magicItems/weapons.html#_weapons-dancing) greatsword_ +35/+30/+25/+20 (3d6+18) or slam +30 (2d8+13)
+**Melee** _+5 [dancing](../magicItems/weapons.md#_weapons-dancing) greatsword_ +35/+30/+25/+20 (3d6+18) or slam +30 (2d8+13)
 
 **Ranged** _+5 composite longbow_ (+9 Str bonus) +31/+26/+21/+16 (2d6+14 plus _slaying_ arrow)
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**[Spell-Like Abilities](universalMonsterRules.html#_spell-like-abilities)** (CL 20th)
+**[Spell-Like Abilities](universalMonsterRules.md#_spell-like-abilities)** (CL 20th)
 
-Constant—_ [detect evil](../spells/detectEvil.html#_detect-evil)_, _ [detect snares and pits](../spells/detectSnaresAndPits.html#_detect-snares-and-pits)_, _ [discern lies](../spells/discernLies.html#_discern-lies)_ (DC 21), _ [true seeing](../spells/trueSeeing.html#_true-seeing)_
+Constant—_ [detect evil](../spells/detectEvil.md#_detect-evil)_, _ [detect snares and pits](../spells/detectSnaresAndPits.md#_detect-snares-and-pits)_, _ [discern lies](../spells/discernLies.md#_discern-lies)_ (DC 21), _ [true seeing](../spells/trueSeeing.md#_true-seeing)_
 
-At Will—_ [aid](../spells/aid.html#_aid)_, _ [animate objects](../spells/animateObjects.html#_animate-objects)_, _ [commune](../spells/commune.html#_commune)_, _ [continual flame](../spells/continualFlame.html#_continual-flame)_, _ [dimensional anchor](../spells/dimensionalAnchor.html#_dimensional)_, _ [greater dispel magic](../spells/dispelMagic.html#_dispel-magic-greater)_, _ [holy smite](../spells/holySmite.html#_holy-smite)_ (DC 21), _ [imprisonment](../spells/imprisonment.html#_imprisonment)_ (DC 26), _ [invisibility](../spells/invisibility.html#_invisibility)_ (self only), _ [lesser restoration](../spells/restoration.html#_restoration-lesser)_, _ [remove curse](../spells/removeCurse.html#_remove-curse)_, _ [remove disease](../spells/removeDisease.html#_remove-disease)_, _ [remove fear](../spells/removeFear.html#_remove-fear)_, _ [resist energy](../spells/resistEnergy.html#_resist-energy)_, _ [summon monster VII](../spells/summonMonster.html#_summon-monster-vii)_, _ [speak with dead](../spells/speakWithDead.html#_speak-with-dead)_ (DC 20), _ [waves of fatigue](../spells/wavesOfFatigue.html#_waves-of-fatigue)_
+At Will—_ [aid](../spells/aid.md#_aid)_, _ [animate objects](../spells/animateObjects.md#_animate-objects)_, _ [commune](../spells/commune.md#_commune)_, _ [continual flame](../spells/continualFlame.md#_continual-flame)_, _ [dimensional anchor](../spells/dimensionalAnchor.md#_dimensional)_, _ [greater dispel magic](../spells/dispelMagic.md#_dispel-magic-greater)_, _ [holy smite](../spells/holySmite.md#_holy-smite)_ (DC 21), _ [imprisonment](../spells/imprisonment.md#_imprisonment)_ (DC 26), _ [invisibility](../spells/invisibility.md#_invisibility)_ (self only), _ [lesser restoration](../spells/restoration.md#_restoration-lesser)_, _ [remove curse](../spells/removeCurse.md#_remove-curse)_, _ [remove disease](../spells/removeDisease.md#_remove-disease)_, _ [remove fear](../spells/removeFear.md#_remove-fear)_, _ [resist energy](../spells/resistEnergy.md#_resist-energy)_, _ [summon monster VII](../spells/summonMonster.md#_summon-monster-vii)_, _ [speak with dead](../spells/speakWithDead.md#_speak-with-dead)_ (DC 20), _ [waves of fatigue](../spells/wavesOfFatigue.md#_waves-of-fatigue)_
 
-3/day—_ [blade barrier](../spells/bladeBarrier.html#_blade-barrier)_ (DC 23), _ [earthquake](../spells/earthquake.html#_earthquake)_ (DC 25), _ [heal](../spells/heal.html#_heal)_, _ [mass charm monster](../spells/charmMonster.html#_charm-monster-mass)_ (DC 25), _ [permanency](../spells/permanency.html#_permanency)_, _ [resurrection](../spells/resurrection.html#_resurrection)_, _ [waves of exhaustion](../spells/wavesOfExhaustion.html#_waves-of-exhaustion)_
+3/day—_ [blade barrier](../spells/bladeBarrier.md#_blade-barrier)_ (DC 23), _ [earthquake](../spells/earthquake.md#_earthquake)_ (DC 25), _ [heal](../spells/heal.md#_heal)_, _ [mass charm monster](../spells/charmMonster.md#_charm-monster-mass)_ (DC 25), _ [permanency](../spells/permanency.md#_permanency)_, _ [resurrection](../spells/resurrection.md#_resurrection)_, _ [waves of exhaustion](../spells/wavesOfExhaustion.md#_waves-of-exhaustion)_
 
-1/day—_ [greater restoration](../spells/restoration.html#_restoration-greater)_, _ [power word blind](../spells/powerWordBlind.html#_power-word-blind)_, _ [power word kill](../spells/powerWordKill.html#_power-word-kill)_, _ [power word stun](../spells/powerWordStun.html#_power-word-stun)_, _ [prismatic spray](../spells/prismaticSpray.html#_prismatic-spray)_ (DC 24), _ [wish](../spells/wish.html#_wish)_
+1/day—_ [greater restoration](../spells/restoration.md#_restoration-greater)_, _ [power word blind](../spells/powerWordBlind.md#_power-word-blind)_, _ [power word kill](../spells/powerWordKill.md#_power-word-kill)_, _ [power word stun](../spells/powerWordStun.md#_power-word-stun)_, _ [prismatic spray](../spells/prismaticSpray.md#_prismatic-spray)_ (DC 24), _ [wish](../spells/wish.md#_wish)_
 
 **Spells Prepared** (CL 20th)
 
-9th—_ [etherealness](../magicItems/armor.html#_armor-etherealness)_, _ [mass heal](../spells/heal.html#_heal-mass)_, _ [miracle](../spells/miracle.html#_miracle)_, _ [storm of vengeance](../spells/stormOfVengeance.html#_storm-of-vengeance)_ (DC 27)
+9th—_ [etherealness](../magicItems/armor.md#_armor-etherealness)_, _ [mass heal](../spells/heal.md#_heal-mass)_, _ [miracle](../spells/miracle.md#_miracle)_, _ [storm of vengeance](../spells/stormOfVengeance.md#_storm-of-vengeance)_ (DC 27)
 
-8th—_ [fire storm](../spells/fireStorm.html#_fire-storm)_ (DC 26), _ [holy aura](../spells/holyAura.html#_holy-aura)_ (2) (DC 26), _ [mass cure critical wounds](../spells/cureCriticalWounds.html#_cure-critical-wounds-mass)_ (2)
+8th—_ [fire storm](../spells/fireStorm.md#_fire-storm)_ (DC 26), _ [holy aura](../spells/holyAura.md#_holy-aura)_ (2) (DC 26), _ [mass cure critical wounds](../spells/cureCriticalWounds.md#_cure-critical-wounds-mass)_ (2)
 
-7th—_ [destruction](../spells/destruction.html#_destruction)_ (DC 25), _ [dictum](../spells/dictum.html#_dictum)_ (DC 25), _ [ethereal jaunt](../spells/etherealJaunt.html#_ethereal-jaunt)_, _ [holy word](../spells/holyWord.html#_holy-word)_ (DC 25), _ [regenerate](../spells/regenerate.html#_regenerate)_
+7th—_ [destruction](../spells/destruction.md#_destruction)_ (DC 25), _ [dictum](../spells/dictum.md#_dictum)_ (DC 25), _ [ethereal jaunt](../spells/etherealJaunt.md#_ethereal-jaunt)_, _ [holy word](../spells/holyWord.md#_holy-word)_ (DC 25), _ [regenerate](../spells/regenerate.md#_regenerate)_
 
-6th—_ [banishment](../spells/banishment.html#_banishment)_ (DC 24), _ [heroes' feast](../spells/heroesFeast.html#_heroes-feast)_, _ [mass cure moderate wounds](../spells/cureModerateWounds.html#_cure-moderate-wounds-mass)_, _ [undeath to death](../spells/undeathToDeath.html#_undeath-to-death)_ (DC 24), _ [word of recall](../spells/wordOfRecall.html#_word-of-recall)_
+6th—_ [banishment](../spells/banishment.md#_banishment)_ (DC 24), _ [heroes' feast](../spells/heroesFeast.md#_heroes-feast)_, _ [mass cure moderate wounds](../spells/cureModerateWounds.md#_cure-moderate-wounds-mass)_, _ [undeath to death](../spells/undeathToDeath.md#_undeath-to-death)_ (DC 24), _ [word of recall](../spells/wordOfRecall.md#_word-of-recall)_
 
-5th—_ [break enchantment](../spells/breakEnchantment.html#_break-enchantment)_, _ [breath of life](../spells/breathOfLife.html#_breath-of-life)_, _ [dispel evil](../spells/dispelEvil.html#_dispel-evil)_ (DC 23), _ [plane shift](../spells/planeShift.html#_plane-shift)_ (DC 23), _ [righteous might](../spells/righteousMight.html#_righteous-might)_, _ [symbol of sleep](../spells/symbolOfSleep.html#_symbol-of-sleep)_ (DC 23)
+5th—_ [break enchantment](../spells/breakEnchantment.md#_break-enchantment)_, _ [breath of life](../spells/breathOfLife.md#_breath-of-life)_, _ [dispel evil](../spells/dispelEvil.md#_dispel-evil)_ (DC 23), _ [plane shift](../spells/planeShift.md#_plane-shift)_ (DC 23), _ [righteous might](../spells/righteousMight.md#_righteous-might)_, _ [symbol of sleep](../spells/symbolOfSleep.md#_symbol-of-sleep)_ (DC 23)
 
-4th—_ [cure critical wounds](../spells/cureCriticalWounds.html#_cure-critical-wounds)_ (3), _ [death ward](../spells/deathWard.html#_death-ward)_, _ [dismissal](../spells/dismissal.html#_dismissal)_ (DC 22), _ [neutralize poison](../spells/neutralizePoison.html#_neutralize-poison)_ (2) (DC 22)
+4th—_ [cure critical wounds](../spells/cureCriticalWounds.md#_cure-critical-wounds)_ (3), _ [death ward](../spells/deathWard.md#_death-ward)_, _ [dismissal](../spells/dismissal.md#_dismissal)_ (DC 22), _ [neutralize poison](../spells/neutralizePoison.md#_neutralize-poison)_ (2) (DC 22)
 
-3rd—_ [cure serious wounds](../spells/cureSeriousWounds.html#_cure-serious-wounds)_, _ [daylight](../spells/daylight.html#_daylight)_, _ [invisibility purge](../spells/invisibilityPurge.html#_invisibility-purge)_, _ [magic circle against evil](../spells/magicCircleAgainstEvil.html#_magic-circle-against-evil)_, _ [prayer](../spells/prayer.html#_prayer)_, _ [protection from energy](../spells/protectionFromEnergy.html#_protection-from-energy)_, _ [wind wall](../spells/windWall.html#_wind-wall)_
+3rd—_ [cure serious wounds](../spells/cureSeriousWounds.md#_cure-serious-wounds)_, _ [daylight](../spells/daylight.md#_daylight)_, _ [invisibility purge](../spells/invisibilityPurge.md#_invisibility-purge)_, _ [magic circle against evil](../spells/magicCircleAgainstEvil.md#_magic-circle-against-evil)_, _ [prayer](../spells/prayer.md#_prayer)_, _ [protection from energy](../spells/protectionFromEnergy.md#_protection-from-energy)_, _ [wind wall](../spells/windWall.md#_wind-wall)_
 
-2nd—_ [align weapon](../spells/alignWeapon.html#_align-weapon)_, _ [bear's endurance](../spells/bearSEndurance.html#_bear-s-endurance)_, _ [bull's strength](../spells/bullSStrength.html#_bull-s-strength)_, _ [consecrate](../spells/consecrate.html#_consecrate)_, _ [cure moderate wounds](../spells/cureModerateWounds.html#_cure-moderate-wounds)_ (2), _ [eagle's splendor](../spells/eagleSSplendor.html#_eagle-s-splendor)_
+2nd—_ [align weapon](../spells/alignWeapon.md#_align-weapon)_, _ [bear's endurance](../spells/bearSEndurance.md#_bear-s-endurance)_, _ [bull's strength](../spells/bullSStrength.md#_bull-s-strength)_, _ [consecrate](../spells/consecrate.md#_consecrate)_, _ [cure moderate wounds](../spells/cureModerateWounds.md#_cure-moderate-wounds)_ (2), _ [eagle's splendor](../spells/eagleSSplendor.md#_eagle-s-splendor)_
 
-1st—_ [bless](../spells/bless.html#_bless)_, _ [cure light wounds](../spells/cureLightWounds.html#_cure-light-wounds) _(3), _ [divine favor](../spells/divineFavor.html#_divine-favor)_, _ [entropic shield](../spells/entropicShield.html#_entropic-shield)_, _ [shield of faith](../spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_ [bless](../spells/bless.md#_bless)_, _ [cure light wounds](../spells/cureLightWounds.md#_cure-light-wounds) _(3), _ [divine favor](../spells/divineFavor.md#_divine-favor)_, _ [entropic shield](../spells/entropicShield.md#_entropic-shield)_, _ [shield of faith](../spells/shieldOfFaith.md#_shield-of-faith)_
 
-0 (at will)—_ [detect magic](../spells/detectMagic#detect-magic)_, _ [purify food and drink](../spells/purifyFoodAndDrink.html#_purify-food-and-drink)_, _ [stabilize](../spells/stabilize.html#_stabilize)_, _ [virtue](../spells/virtue.html#_virtue)_
+0 (at will)—_ [detect magic](../spells/detectMagic#detect-magic)_, _ [purify food and drink](../spells/purifyFoodAndDrink.md#_purify-food-and-drink)_, _ [stabilize](../spells/stabilize.md#_stabilize)_, _ [virtue](../spells/virtue.md#_virtue)_
 
 **Statistics**
 
@@ -256,13 +256,13 @@ At Will—_ [aid](../spells/aid.html#_aid)_, _ [animate objects](../spells/anima
 
 **Base Atk** +22; **CMB** +32; **CMD** 47
 
-**Feats** [Cleave](../feats.html#_cleave), [Deadly Aim](../feats.html#_deadly-aim), [Dodge](../feats.html#_dodge), [Great Fortitude](../feats.html#_great-fortitude), [Improved Initiative](../feats.html#_improved-initiative), [Improved Sunder](../feats.html#_improved-sunder), [Iron Will](../feats.html#_iron-will), [Lightning Reflexes](../feats.html#_lightning-reflexes), [Mobility](../feats.html#_mobility), [Power Attack](../feats.html#_power-attack), [Toughness](../feats.html#_toughness)
+**Feats** [Cleave](../feats.md#_cleave), [Deadly Aim](../feats.md#_deadly-aim), [Dodge](../feats.md#_dodge), [Great Fortitude](../feats.md#_great-fortitude), [Improved Initiative](../feats.md#_improved-initiative), [Improved Sunder](../feats.md#_improved-sunder), [Iron Will](../feats.md#_iron-will), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Mobility](../feats.md#_mobility), [Power Attack](../feats.md#_power-attack), [Toughness](../feats.md#_toughness)
 
-**Skills** [Craft](../skills/craft.html#_craft) (any one) +31, [Diplomacy](../skills/diplomacy.html#_diplomacy) +32, [Fly](../skills/fly.html#_fly) +32, [Knowledge](../skills/knowledge.html#_knowledge) (history) +31, [Knowledge](../skills/knowledge.html#_knowledge) (nature) +31, [Knowledge](../skills/knowledge.html#_knowledge) (planes) +31, [Knowledge](../skills/knowledge.html#_knowledge) (religion) +31, [Perception](../skills/perception.html#_perception) +33, [Sense Motive](../skills/senseMotive.html#_sense-motive) +33, [Spellcraft](../skills/spellcraft.html#_spellcraft) +31, [Stealth](../skills/stealth.html#_stealth) +21, [Survival](../skills/survival.html#_survival) +31
+**Skills** [Craft](../skills/craft.md#_craft) (any one) +31, [Diplomacy](../skills/diplomacy.md#_diplomacy) +32, [Fly](../skills/fly.md#_fly) +32, [Knowledge](../skills/knowledge.md#_knowledge) (history) +31, [Knowledge](../skills/knowledge.md#_knowledge) (nature) +31, [Knowledge](../skills/knowledge.md#_knowledge) (planes) +31, [Knowledge](../skills/knowledge.md#_knowledge) (religion) +31, [Perception](../skills/perception.md#_perception) +33, [Sense Motive](../skills/senseMotive.md#_sense-motive) +33, [Spellcraft](../skills/spellcraft.md#_spellcraft) +31, [Stealth](../skills/stealth.md#_stealth) +21, [Survival](../skills/survival.md#_survival) +31
 
 **Languages** Celestial, Draconic, Infernal; truespeech
 
-**SQ** [change shape](universalMonsterRules.html#_change-shape) (_ [alter self](../spells/alterSelf.html#_alter-self)_)
+**SQ** [change shape](universalMonsterRules.md#_change-shape) (_ [alter self](../spells/alterSelf.md#_alter-self)_)
 
 **Ecology**
 
@@ -270,7 +270,7 @@ At Will—_ [aid](../spells/aid.html#_aid)_, _ [animate objects](../spells/anima
 
 **Organization** solitary or pair
 
-**Treasure** double (_+5 full plate_, _+5 [dancing](../magicItems/weapons.html#_weapons-dancing) greatsword_, _+5 composite longbow_ [+9 Str bonus])
+**Treasure** double (_+5 full plate_, _+5 [dancing](../magicItems/weapons.md#_weapons-dancing) greatsword_, _+5 composite longbow_ [+9 Str bonus])
 
 **Special Abilities**
 
@@ -288,7 +288,7 @@ In worlds where the gods cannot take physical form, they send solars to be their
 
 Though they are not gods, the solars' power approaches that of demigods, and they often have an advisory role for younger or weaker deities. In some polytheistic faiths, mortals worship one or more solars as aspects or near-equal servants of the true deities—never without the deity's approval—or consider notable solars to be offspring, consorts, lovers, or spouses of true deities (which they may be, depending on the deity).
 
-Unlike other angels, most solars are created from an amalgam of good souls and raw divine energy to directly serve the gods, but an increasing number of these powerful angels have been âpromotedâ to their existence as solars from lesser creatures like planetars or devas. A few rare and powerful good souls ascend directly to the status of solar. The oldest solars predate mortality and are among the gods' first creations. These strange solars are paragons of their kind and have little direct interaction with mortals, focusing on the protection or destruction of abstract concepts such as gravity, dark matter, entropy, and primordial evil.
+Unlike other angels, most solars are created from an amalgam of good souls and raw divine energy to directly serve the gods, but an increasing number of these powerful angels have been “promoted” to their existence as solars from lesser creatures like planetars or devas. A few rare and powerful good souls ascend directly to the status of solar. The oldest solars predate mortality and are among the gods' first creations. These strange solars are paragons of their kind and have little direct interaction with mortals, focusing on the protection or destruction of abstract concepts such as gravity, dark matter, entropy, and primordial evil.
 
 Solars who spend a long time in the Material Plane, especially those in the guise of mortals, are sometimes the source of half-celestial or aasimar bloodlines in mortal families, due either to romantic dalliances or simply the mortals' proximity to celestial energy. Actual offspring are rare, and when they occur, it is always a mortal mother that bears the child—while solars can appear as either sex, the gods have not granted them the capacity for pregnancy or motherhood. Indeed, this fundamental truth is often what drives a solar to seek out a mortal lover. Since begetting a child upon a mortal is generally frowned upon by other solars, a solar father rarely interacts directly with the fate of his lover or child, so as to avoid bringing shame upon himself or his responsibilities. Yet such solars still watch over their progeny from afar, and in times of peril, they might even be moved to intercede to aid one of their endangered children, albiet in subtle and mysterious ways.
 

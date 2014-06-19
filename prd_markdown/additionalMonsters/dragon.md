@@ -4,7 +4,7 @@ Though chromatic and metallic dragons are the most widely known, other categorie
 
 ## Primal Dragon Types
 
-[Brine](/pathfinderRPG/prd/additionalMonsters/#primal-dragon,-brine), [Cloud](/pathfinderRPG/prd/additionalMonsters/#primal-dragon,-cloud), [Crystal](/pathfinderRPG/prd/additionalMonsters/#primal-dragon,-crystal), [Magma](/pathfinderRPG/prd/additionalMonsters/#primal-dragon,-magma), [Umbral](/pathfinderRPG/prd/additionalMonsters/#primal-dragon,-umbral)
+[Brine](additionalMonsters/#primal-dragon,-brine), [Cloud](additionalMonsters/#primal-dragon,-cloud), [Crystal](additionalMonsters/#primal-dragon,-crystal), [Magma](additionalMonsters/#primal-dragon,-magma), [Umbral](additionalMonsters/#primal-dragon,-umbral)
 
 ## Age Categories
 
@@ -118,7 +118,7 @@ A blue-green neck frill sweeps back from the head of this dragon, leading to a b
 
 Brine Dragon
 
-LN [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [water](/pathfinderRPG/prd/monsters/creatureTypes.html#_water-subtype))
+LN [dragon](monsters/creatureTypes.md#_dragon) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [water](monsters/creatureTypes.md#_water-subtype))
 
 Base Statistics
 
@@ -126,13 +126,13 @@ Base Statistics
 
 **Speed** 60 ft., swim 60 ft.
 
-**Natural Armor** +3; **[Breath Weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon)** line, 2d6 acid
+**Natural Armor** +3; **[Breath Weapon](monsters/universalMonsterRules.md#_breath-weapon)** line, 2d6 acid
 
 **Str** 16, **Dex** 15, **Con** 11, **Int** 13, **Wis** 10, **Cha** 11
 
 Ecology
 
-**Environment** any [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype) (Plane of Water)
+**Environment** any [aquatic](monsters/creatureTypes.md#_aquatic-subtype) (Plane of Water)
 
 **Organization** solitary
 
@@ -140,29 +140,29 @@ Ecology
 
 Special Abilities
 
-**Capsize (Ex)** An old or older brine [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) can attempt to capsize a boat or ship by ramming it as a charge attack and making a CMB check. The DC of this check is 25 or the result of the boat captain's [Profession](/pathfinderRPG/prd/additionalMonsters/../skills/profession.html#_profession) (sailor) check, whichever is higher. For each size category larger the ship is than the brine [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s size, the [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) takes a cumulative –10 penalty on the check.
+**Capsize (Ex)** An old or older brine [dragon](monsters/creatureTypes.md#_dragon) can attempt to capsize a boat or ship by ramming it as a charge attack and making a CMB check. The DC of this check is 25 or the result of the boat captain's [Profession](additionalMonsters/../skills/profession.md#_profession) (sailor) check, whichever is higher. For each size category larger the ship is than the brine [dragon](monsters/creatureTypes.md#_dragon)'s size, the [dragon](monsters/creatureTypes.md#_dragon) takes a cumulative –10 penalty on the check.
 
-**Desiccating Bite (Su)** An ancient brine [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s bite causes weakness, dealing 1d2 points of Strength drain in addition to its normal damage. A great wyrm's bite deals 1d4 points of Strength drain. A Fortitude save (DC equals the [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) save DC) negates the Strength drain.
+**Desiccating Bite (Su)** An ancient brine [dragon](monsters/creatureTypes.md#_dragon)'s bite causes weakness, dealing 1d2 points of Strength drain in addition to its normal damage. A great wyrm's bite deals 1d4 points of Strength drain. A Fortitude save (DC equals the [dragon](monsters/creatureTypes.md#_dragon)'s [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) save DC) negates the Strength drain.
 
-**Painful Strikes (Su)** A great wyrm brine [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s natural attacks are so laden with salt and acidic crystals that every time it strikes a creature with one of these attacks, the target must make a Fortitude save (DC equals the [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) save DC) or be stunned for a round from the pain.
+**Painful Strikes (Su)** A great wyrm brine [dragon](monsters/creatureTypes.md#_dragon)'s natural attacks are so laden with salt and acidic crystals that every time it strikes a creature with one of these attacks, the target must make a Fortitude save (DC equals the [dragon](monsters/creatureTypes.md#_dragon)'s [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) save DC) or be stunned for a round from the pain.
 
-**Spell-like Abilities (Sp)** A brine [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) gains the following spell-like abilities, usable at will (unless indicated otherwise) at the listed age. Very young—_ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_ (fish only); Young—_ [obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist)_; Juvenile—_ [water breathing](/pathfinderRPG/prd/additionalMonsters/../spells/waterBreathing.html#_water-breathing)_; Adult—_ [control water](/pathfinderRPG/prd/additionalMonsters/../spells/controlWater.html#_control-water)_; Ancient—_ [horrid wilting](/pathfinderRPG/prd/additionalMonsters/../spells/horridWilting.html#_horrid-wilting)_ (3/day); Great wyrm—_ [tsunami](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/tsunami.html#_tsunami)_ (3/day).
+**Spell-like Abilities (Sp)** A brine [dragon](monsters/creatureTypes.md#_dragon) gains the following spell-like abilities, usable at will (unless indicated otherwise) at the listed age. Very young—_ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_ (fish only); Young—_ [obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist)_; Juvenile—_ [water breathing](additionalMonsters/../spells/waterBreathing.md#_water-breathing)_; Adult—_ [control water](additionalMonsters/../spells/controlWater.md#_control-water)_; Ancient—_ [horrid wilting](additionalMonsters/../spells/horridWilting.md#_horrid-wilting)_ (3/day); Great wyrm—_ [tsunami](additionalMonsters/../advanced/spells/tsunami.md#_tsunami)_ (3/day).
 
 [Table: Brine Special Abilities]
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
 | Wyrmling | Immunity to acid, water breathing | — |
-| Very young | _ [Speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_ (fish only) | — |
-| Young | _ [Obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist)_ | 1st |
-| Juvenile | _ [Water breathing](/pathfinderRPG/prd/additionalMonsters/../spells/waterBreathing.html#_water-breathing)_ | 3rd |
+| Very young | _ [Speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_ (fish only) | — |
+| Young | _ [Obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist)_ | 1st |
+| Juvenile | _ [Water breathing](additionalMonsters/../spells/waterBreathing.md#_water-breathing)_ | 3rd |
 | Young adult | DR 5/magic, spell resistance | 5th |
-| Adult | Frightful presence, _ [control water](/pathfinderRPG/prd/additionalMonsters/../spells/controlWater.html#_control-water)_ | 7th |
+| Adult | Frightful presence, _ [control water](additionalMonsters/../spells/controlWater.md#_control-water)_ | 7th |
 | Mature adult | DR 10/magic | 9th |
 | Old | Capsize | 11th |
 | Very old | DR 15/magic | 13th |
-| Ancient | Desiccating bite, _ [horrid wilting](/pathfinderRPG/prd/additionalMonsters/../spells/horridWilting.html#_horrid-wilting)_ | 15th |
+| Ancient | Desiccating bite, _ [horrid wilting](additionalMonsters/../spells/horridWilting.md#_horrid-wilting)_ | 15th |
 | Wyrm | DR 20/magic | 17th |
-| Great wyrm | Painful strikes, _ [tsunami](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/tsunami.html#_tsunami)_ | 19th |
+| Great wyrm | Painful strikes, _ [tsunami](additionalMonsters/../advanced/spells/tsunami.md#_tsunami)_ | 19th |
 
   
   
@@ -171,9 +171,9 @@ Young Brine DragonCR 7
 
 **XP 3,200**
 
-LN Medium [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) (extraplanar, water)
+LN Medium [dragon](monsters/creatureTypes.md#_dragon) (extraplanar, water)
 
-**Init** +5; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +12
+**Init** +5; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses; [Perception](additionalMonsters/../skills/perception.md#_perception) +12
 
 Defense
 
@@ -191,17 +191,17 @@ Offense
 
 **Melee** bite +15 (1d8+10), 2 claws +15 (1d6+7), 2 wings +10 (1d4+3)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (60-ft. line, 6d6 acid, DC 16)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (60-ft. line, 6d6 acid, DC 16)
 
 **Spell-Like Abilities** (CL 8th; concentration +9)
 
-At will—_ [obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist), [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals) _(fish only)
+At will—_ [obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist), [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals) _(fish only)
 
 **Spells Known** (CL 1st; concentration +2)
 
-1st (4/day)—_ [color spray](/pathfinderRPG/prd/additionalMonsters/../spells/colorSpray.html#_color-spray)_ (DC 12), _ [touch of the sea](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/touchOfTheSea.html#_touch-of-the-sea)_
+1st (4/day)—_ [color spray](additionalMonsters/../spells/colorSpray.md#_color-spray)_ (DC 12), _ [touch of the sea](additionalMonsters/../advanced/spells/touchOfTheSea.md#_touch-of-the-sea)_
 
-0 (at will)—_ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [mage hand](/pathfinderRPG/prd/additionalMonsters/../spells/mageHand.html#_mage-hand)_, _ [open/close](/pathfinderRPG/prd/additionalMonsters/../spells/openClose.html#_open-close)_, _ [prestidigitation](/pathfinderRPG/prd/additionalMonsters/../spells/prestidigitation.html#_prestidigitation)_
+0 (at will)—_ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand)_, _ [open/close](additionalMonsters/../spells/openClose.md#_open-close)_, _ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_
 
 Statistics
 
@@ -209,9 +209,9 @@ Statistics
 
 **Base Atk** +8; **CMB** +15; **CMD** 26 (30 vs. trip)
 
-**Feats** [Hover](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) (swim)
+**Feats** [Hover](additionalMonsters/../monsters/monsterFeats.md#_hover), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) (swim)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +12, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +12, [Heal](/pathfinderRPG/prd/additionalMonsters/../skills/heal.html#_heal) +12, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (nature) +13, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +12, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +12, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +12, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +29
+**Skills** [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +12, [Fly](additionalMonsters/../skills/fly.md#_fly) +12, [Heal](additionalMonsters/../skills/heal.md#_heal) +12, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (nature) +13, [Perception](additionalMonsters/../skills/perception.md#_perception) +12, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +12, [Survival](additionalMonsters/../skills/survival.md#_survival) +12, [Swim](additionalMonsters/../skills/swim.md#_swim) +29
 
 **Languages** Aquan, Common, Draconic
 
@@ -221,9 +221,9 @@ Adult Brine DragonCR 11
 
 **XP 12,800**
 
-LN Large [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) (extraplanar, water)
+LN Large [dragon](monsters/creatureTypes.md#_dragon) (extraplanar, water)
 
-**Init** +4; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +20
+**Init** +4; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses; [Perception](additionalMonsters/../skills/perception.md#_perception) +20
 
 **Aura** frightful presence (180 ft., DC 20)
 
@@ -245,21 +245,21 @@ Offense
 
 **Space** 10 ft.; **Reach** 5 ft. (10 ft. with bite)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (80-ft. line, 12d6 acid, DC 21)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (80-ft. line, 12d6 acid, DC 21)
 
 **Spell-Like Abilities** (CL 14th; concentration +17)
 
-At will—_ [control water](/pathfinderRPG/prd/additionalMonsters/../spells/controlWater.html#_control-water)_, _ [obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist), [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_ (fish only)_, [water breathing](/pathfinderRPG/prd/additionalMonsters/../spells/waterBreathing.html#_water-breathing)_
+At will—_ [control water](additionalMonsters/../spells/controlWater.md#_control-water)_, _ [obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist), [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_ (fish only)_, [water breathing](additionalMonsters/../spells/waterBreathing.md#_water-breathing)_
 
 **Spells Known** (CL 7th; concentration +10)
 
-3rd (5/day)—_ [aqueous orb](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/aqueousOrb.html#_aqueous-orb)_ (DC 16), _ [sleet storm](/pathfinderRPG/prd/additionalMonsters/../spells/sleetStorm.html#_sleet-storm)_ (DC 16)
+3rd (5/day)—_ [aqueous orb](additionalMonsters/../advanced/spells/aqueousOrb.md#_aqueous-orb)_ (DC 16), _ [sleet storm](additionalMonsters/../spells/sleetStorm.md#_sleet-storm)_ (DC 16)
 
-2nd (7/day)—_ [alter self](/pathfinderRPG/prd/additionalMonsters/../spells/alterSelf.html#_alter-self)_, _ [invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility)_, _ [slipstream](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/slipstream.html#_slipstream)_
+2nd (7/day)—_ [alter self](additionalMonsters/../spells/alterSelf.md#_alter-self)_, _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_, _ [slipstream](additionalMonsters/../advanced/spells/slipstream.md#_slipstream)_
 
-1st (7/day)—_ [color spray](/pathfinderRPG/prd/additionalMonsters/../spells/colorSpray.html#_color-spray)_ (DC 14), _ [feather fall](/pathfinderRPG/prd/additionalMonsters/../spells/featherFall.html#_feather-fall)_, _ [flare burst](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/flareBurst.html#_flare-burst)_ (DC 14), _ [ray of enfeeblement](/pathfinderRPG/prd/additionalMonsters/../spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_ (DC 14), _ [touch of the sea](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/touchOfTheSea.html#_touch-of-the-sea)_
+1st (7/day)—_ [color spray](additionalMonsters/../spells/colorSpray.md#_color-spray)_ (DC 14), _ [feather fall](additionalMonsters/../spells/featherFall.md#_feather-fall)_, _ [flare burst](additionalMonsters/../advanced/spells/flareBurst.md#_flare-burst)_ (DC 14), _ [ray of enfeeblement](additionalMonsters/../spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 14), _ [touch of the sea](additionalMonsters/../advanced/spells/touchOfTheSea.md#_touch-of-the-sea)_
 
-0 (at will)—_ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/additionalMonsters/../spells/detectPoison.html#_detect-poison)_, _ [mage hand](/pathfinderRPG/prd/additionalMonsters/../spells/mageHand.html#_mage-hand)_, _ [open/close](/pathfinderRPG/prd/additionalMonsters/../spells/openClose.html#_open-close)_, _ [prestidigitation](/pathfinderRPG/prd/additionalMonsters/../spells/prestidigitation.html#_prestidigitation)_, _ [read magic](/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic)_, _ [resistance](/pathfinderRPG/prd/additionalMonsters/../spells/resistance.html#_resistance)_
+0 (at will)—_ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [detect poison](additionalMonsters/../spells/detectPoison.md#_detect-poison)_, _ [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand)_, _ [open/close](additionalMonsters/../spells/openClose.md#_open-close)_, _ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_, _ [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_, _ [resistance](additionalMonsters/../spells/resistance.md#_resistance)_
 
 Statistics
 
@@ -267,9 +267,9 @@ Statistics
 
 **Base Atk** +14; **CMB** +25; **CMD** 35 (39 vs. trip)
 
-**Feats** [Hover](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Improved Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-vital-strike), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) (swim), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike)
+**Feats** [Hover](additionalMonsters/../monsters/monsterFeats.md#_hover), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) (swim), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +20, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +20, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +11, [Heal](/pathfinderRPG/prd/additionalMonsters/../skills/heal.html#_heal) +20, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana and nature) +21, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +20, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +20, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +20, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +41
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +20, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +20, [Fly](additionalMonsters/../skills/fly.md#_fly) +11, [Heal](additionalMonsters/../skills/heal.md#_heal) +20, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana and nature) +21, [Perception](additionalMonsters/../skills/perception.md#_perception) +20, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +20, [Survival](additionalMonsters/../skills/survival.md#_survival) +20, [Swim](additionalMonsters/../skills/swim.md#_swim) +41
 
 **Languages** Aquan, Common, Draconic, Elven, Halfling
 
@@ -279,9 +279,9 @@ Ancient Brine DragonCR 16
 
 **XP 76,800**
 
-LN Huge [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) (extraplanar, water)
+LN Huge [dragon](monsters/creatureTypes.md#_dragon) (extraplanar, water)
 
-**Init** +3; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +30
+**Init** +3; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses; [Perception](additionalMonsters/../skills/perception.md#_perception) +30
 
 **Aura** frightful presence (300 ft., DC 26)
 
@@ -303,31 +303,31 @@ Offense
 
 **Space** 15 ft.; **Reach** 10 ft. (15 ft. with bite)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (100-ft. line, 20d6 acid, DC 27), capsize, crush, desiccating bite
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (100-ft. line, 20d6 acid, DC 27), capsize, crush, desiccating bite
 
 **Spell-Like Abilities** (CL 22nd; concentration +27)
 
-At will—_ [control water](/pathfinderRPG/prd/additionalMonsters/../spells/controlWater.html#_control-water)_, _ [obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist)_, _ [speak with animals](/pathfinderRPG/prd/additionalMonsters/../spells/speakWithAnimals.html#_speak-with-animals)_ (fish only)_, [water breathing](/pathfinderRPG/prd/additionalMonsters/../spells/waterBreathing.html#_water-breathing)_
+At will—_ [control water](additionalMonsters/../spells/controlWater.md#_control-water)_, _ [obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist)_, _ [speak with animals](additionalMonsters/../spells/speakWithAnimals.md#_speak-with-animals)_ (fish only)_, [water breathing](additionalMonsters/../spells/waterBreathing.md#_water-breathing)_
 
-3/day—_ [horrid wilting](/pathfinderRPG/prd/additionalMonsters/../spells/horridWilting.html#_horrid-wilting)_ (DC 23)
+3/day—_ [horrid wilting](additionalMonsters/../spells/horridWilting.md#_horrid-wilting)_ (DC 23)
 
 **Spells Known** (CL 15th; concentration +20)
 
-7th (4/day)—_ [control weather](/pathfinderRPG/prd/additionalMonsters/../spells/controlWeather.html#_control-weather)_, _ [mass fly](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/fly.html#_fly,-mass)_
+7th (4/day)—_ [control weather](additionalMonsters/../spells/controlWeather.md#_control-weather)_, _ [mass fly](additionalMonsters/../advanced/spells/fly.md#_fly,-mass)_
 
-6th (6/day)—_ [fluid form](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/fluidForm.html#_fluid-form)_, _ [true seeing](/pathfinderRPG/prd/additionalMonsters/../spells/trueSeeing.html#_true-seeing)_, _ [transformation](/pathfinderRPG/prd/additionalMonsters/../spells/transformation.html#_transformation)_
+6th (6/day)—_ [fluid form](additionalMonsters/../advanced/spells/fluidForm.md#_fluid-form)_, _ [true seeing](additionalMonsters/../spells/trueSeeing.md#_true-seeing)_, _ [transformation](additionalMonsters/../spells/transformation.md#_transformation)_
 
-5th (7/day)—_ [break enchantment](/pathfinderRPG/prd/additionalMonsters/../spells/breakEnchantment.html#_break-enchantment)_, _ [dismissal](/pathfinderRPG/prd/additionalMonsters/../spells/dismissal.html#_dismissal)_, _ [teleport](/pathfinderRPG/prd/additionalMonsters/../spells/teleport.html#_teleport), [wall of force](/pathfinderRPG/prd/additionalMonsters/../spells/wallOfForce.html#_wall-of-force)_
+5th (7/day)—_ [break enchantment](additionalMonsters/../spells/breakEnchantment.md#_break-enchantment)_, _ [dismissal](additionalMonsters/../spells/dismissal.md#_dismissal)_, _ [teleport](additionalMonsters/../spells/teleport.md#_teleport), [wall of force](additionalMonsters/../spells/wallOfForce.md#_wall-of-force)_
 
-4th (7/day)—_ [ball lightning](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/ballLightning.html#_ball-lightning)_ (DC 19), _ [ice storm](/pathfinderRPG/prd/additionalMonsters/../spells/iceStorm.html#_ice-storm)_, _ [greater invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility-greater)_, _ [solid fog](/pathfinderRPG/prd/additionalMonsters/../spells/solidFog.html#_solid-fog)_
+4th (7/day)—_ [ball lightning](additionalMonsters/../advanced/spells/ballLightning.md#_ball-lightning)_ (DC 19), _ [ice storm](additionalMonsters/../spells/iceStorm.md#_ice-storm)_, _ [greater invisibility](additionalMonsters/../spells/invisibility.md#_invisibility-greater)_, _ [solid fog](additionalMonsters/../spells/solidFog.md#_solid-fog)_
 
-3rd (7/day)—_ [aqueous orb](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/aqueousOrb.html#_aqueous-orb)_ (DC 18), _ [deep slumber](/pathfinderRPG/prd/additionalMonsters/../spells/deepSlumber.html#_deep-slumber)_ (DC 18), _ [dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic)_, _ [sleet storm](/pathfinderRPG/prd/additionalMonsters/../spells/sleetStorm.html#_sleet-storm)_ (DC 18)
+3rd (7/day)—_ [aqueous orb](additionalMonsters/../advanced/spells/aqueousOrb.md#_aqueous-orb)_ (DC 18), _ [deep slumber](additionalMonsters/../spells/deepSlumber.md#_deep-slumber)_ (DC 18), _ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [sleet storm](additionalMonsters/../spells/sleetStorm.md#_sleet-storm)_ (DC 18)
 
-2nd (7/day)—_ [alter self](/pathfinderRPG/prd/additionalMonsters/../spells/alterSelf.html#_alter-self)_, _ [detect thoughts](/pathfinderRPG/prd/additionalMonsters/../spells/detectThoughts.html#_detect-thoughts)_ (DC 17), _ [invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility)_, _ [make whole](/pathfinderRPG/prd/additionalMonsters/../spells/makeWhole.html#_make-whole)_, _ [slipstream](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/slipstream.html#_slipstream)_
+2nd (7/day)—_ [alter self](additionalMonsters/../spells/alterSelf.md#_alter-self)_, _ [detect thoughts](additionalMonsters/../spells/detectThoughts.md#_detect-thoughts)_ (DC 17), _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_, _ [make whole](additionalMonsters/../spells/makeWhole.md#_make-whole)_, _ [slipstream](additionalMonsters/../advanced/spells/slipstream.md#_slipstream)_
 
-1st (8/day)—_ [color spray](/pathfinderRPG/prd/additionalMonsters/../spells/colorSpray.html#_color-spray)_ (DC 16), _ [feather fall](/pathfinderRPG/prd/additionalMonsters/../spells/featherFall.html#_feather-fall)_, _ [flare burst](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/flareBurst.html#_flare-burst)_ (DC 16), _ [ray of enfeeblement](/pathfinderRPG/prd/additionalMonsters/../spells/rayOfEnfeeblement.html#_ray-of-enfeeblement)_, _ [touch of the sea](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/touchOfTheSea.html#_touch-of-the-sea)_
+1st (8/day)—_ [color spray](additionalMonsters/../spells/colorSpray.md#_color-spray)_ (DC 16), _ [feather fall](additionalMonsters/../spells/featherFall.md#_feather-fall)_, _ [flare burst](additionalMonsters/../advanced/spells/flareBurst.md#_flare-burst)_ (DC 16), _ [ray of enfeeblement](additionalMonsters/../spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_, _ [touch of the sea](additionalMonsters/../advanced/spells/touchOfTheSea.md#_touch-of-the-sea)_
 
-0 (at will)—_ [arcane mark](/pathfinderRPG/prd/additionalMonsters/../spells/arcaneMark.html#_arcane-mark)_, _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/additionalMonsters/../spells/detectPoison.html#_detect-poison)_, _ [mage hand](/pathfinderRPG/prd/additionalMonsters/../spells/mageHand.html#_mage-hand)_, _ [message](/pathfinderRPG/prd/additionalMonsters/../spells/message.html#_message)_, _ [open/close](/pathfinderRPG/prd/additionalMonsters/../spells/openClose.html#_open-close)_, _ [prestidigitation](/pathfinderRPG/prd/additionalMonsters/../spells/prestidigitation.html#_prestidigitation)_, _ [read magic](/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic)_, _ [resistance](/pathfinderRPG/prd/additionalMonsters/../spells/resistance.html#_resistance)_
+0 (at will)—_ [arcane mark](additionalMonsters/../spells/arcaneMark.md#_arcane-mark)_, _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [detect poison](additionalMonsters/../spells/detectPoison.md#_detect-poison)_, _ [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand)_, _ [message](additionalMonsters/../spells/message.md#_message)_, _ [open/close](additionalMonsters/../spells/openClose.md#_open-close)_, _ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_, _ [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_, _ [resistance](additionalMonsters/../spells/resistance.md#_resistance)_
 
 Statistics
 
@@ -335,15 +335,15 @@ Statistics
 
 **Base Atk** +22; **CMB** +38; **CMD** 47 (51 vs. trip)
 
-**Feats** [Awesome Blow](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_awesome-blow), [Greater Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-vital-strike), [Hover](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover), [Improved Bull Rush](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Improved Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-vital-strike), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim)), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike), [Wingover](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_wingover)
+**Feats** [Awesome Blow](additionalMonsters/../monsters/monsterFeats.md#_awesome-blow), [Greater Vital Strike](additionalMonsters/../feats.md#_greater-vital-strike), [Hover](additionalMonsters/../monsters/monsterFeats.md#_hover), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Swim](additionalMonsters/../skills/swim.md#_swim)), [Vital Strike](additionalMonsters/../feats.md#_vital-strike), [Wingover](additionalMonsters/../monsters/monsterFeats.md#_wingover)
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +30, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +30, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +16, [Heal](/pathfinderRPG/prd/additionalMonsters/../skills/heal.html#_heal) +30, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana, geography, nature) +31, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +30, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +30, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +30, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +53, [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) +30
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +30, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +30, [Fly](additionalMonsters/../skills/fly.md#_fly) +16, [Heal](additionalMonsters/../skills/heal.md#_heal) +30, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana, geography, nature) +31, [Perception](additionalMonsters/../skills/perception.md#_perception) +30, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +30, [Survival](additionalMonsters/../skills/survival.md#_survival) +30, [Swim](additionalMonsters/../skills/swim.md#_swim) +53, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +30
 
-**Languages** Aquan, Common, Draconic, Dwarven, Elven, [Gnome](/pathfinderRPG/prd/monsters/creatureTypes.html#_gnome-subtype), Halfling
+**Languages** Aquan, Common, Draconic, Dwarven, Elven, [Gnome](monsters/creatureTypes.md#_gnome-subtype), Halfling
 
 **SQ** water breathing
 
-Although not inherently evil, brine dragons have little patience for kindness and philanthropy. As they age, they grow more and more opinionated and obsessed with power—by adult age, a brine dragon counts itself a failure if it doesn't rule over a collection of âlesser beingsâ such as humans, merfolk, locathah, or even sahuagin.
+Although not inherently evil, brine dragons have little patience for kindness and philanthropy. As they age, they grow more and more opinionated and obsessed with power—by adult age, a brine dragon counts itself a failure if it doesn't rule over a collection of “lesser beings” such as humans, merfolk, locathah, or even sahuagin.
 
 # Primal Dragon, Cloud
 
@@ -351,7 +351,7 @@ The blue-white scales of this four-horned dragon exude wisps of fog. The dragon'
 
 Cloud Dragon
 
-CN [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CN [dragon](monsters/creatureTypes.md#_dragon) ( [air](monsters/creatureTypes.md#_air-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
 Base Statistics
 
@@ -359,13 +359,13 @@ Base Statistics
 
 **Speed** 40 ft., swim 40 ft.
 
-**Natural Armor** +5; **[Breath Weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon)** cone, 2d8 electricity
+**Natural Armor** +5; **[Breath Weapon](monsters/universalMonsterRules.md#_breath-weapon)** cone, 2d8 electricity
 
 **Str** 10, **Dex** 13, **Con** 13, **Int** 10, **Wis** 14, **Cha** 13
 
 Ecology
 
-**Environment** any sky (Plane of [Air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype))
+**Environment** any sky (Plane of [Air](monsters/creatureTypes.md#_air-subtype))
 
 **Organization** solitary
 
@@ -373,31 +373,31 @@ Ecology
 
 Special Abilities
 
-**Cloud Form (Su)** An adult or older cloud [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) can change itself into a cloudy vapor as a swift action for a number of rounds per day equal to its Hit Dice. This ability functions as _ [gaseous form](/pathfinderRPG/prd/additionalMonsters/../spells/gaseousForm.html#_gaseous-form)_ but the [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s fly speed is unchanged.
+**Cloud Form (Su)** An adult or older cloud [dragon](monsters/creatureTypes.md#_dragon) can change itself into a cloudy vapor as a swift action for a number of rounds per day equal to its Hit Dice. This ability functions as _ [gaseous form](additionalMonsters/../spells/gaseousForm.md#_gaseous-form)_ but the [dragon](monsters/creatureTypes.md#_dragon)'s fly speed is unchanged.
 
-**Cloud Breath (Su)** A great wyrm cloud [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) creates a cloud that persists in its cone shape for 1d4 rounds. Treat this cloud as a _ [fog cloud](/pathfinderRPG/prd/additionalMonsters/../spells/fogCloud.html)_ that deals electricity damage equal to half the [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) damage to any creature that ends its turn still within the cloud (Reflex save halves the damage—DC equals the [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) save DC).
+**Cloud Breath (Su)** A great wyrm cloud [dragon](monsters/creatureTypes.md#_dragon)'s [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) creates a cloud that persists in its cone shape for 1d4 rounds. Treat this cloud as a _ [fog cloud](additionalMonsters/../spells/fogCloud.md)_ that deals electricity damage equal to half the [dragon](monsters/creatureTypes.md#_dragon)'s [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) damage to any creature that ends its turn still within the cloud (Reflex save halves the damage—DC equals the [dragon](monsters/creatureTypes.md#_dragon)'s [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) save DC).
 
-**Mist Vision (Su)** A cloud [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) can see through fog, clouds, and similar obscuring effects with perfect clarity.
+**Mist Vision (Su)** A cloud [dragon](monsters/creatureTypes.md#_dragon) can see through fog, clouds, and similar obscuring effects with perfect clarity.
 
-**Spell-Like Abilities (Sp)** A cloud [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) gains the following spell-like abilities, usable at will (unless indicated otherwise) on reaching the listed age category. Very young—_ [obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist)_; Young—_ [fog cloud](/pathfinderRPG/prd/additionalMonsters/../spells/fogCloud.html)_; Adult—_ [solid fog](/pathfinderRPG/prd/additionalMonsters/../spells/solidFog.html#_solid-fog)_; Old—_ [cloudkill](/pathfinderRPG/prd/additionalMonsters/../spells/cloudkill.html#_cloudkill)_ (3/day); Ancient—_ [wind walk](/pathfinderRPG/prd/additionalMonsters/../spells/windWalk.html#_wind-walk)_; Great wyrm—_ [storm of vengeance](/pathfinderRPG/prd/additionalMonsters/../spells/stormOfVengeance.html#_storm-of-vengeance) _(1/day).
+**Spell-Like Abilities (Sp)** A cloud [dragon](monsters/creatureTypes.md#_dragon) gains the following spell-like abilities, usable at will (unless indicated otherwise) on reaching the listed age category. Very young—_ [obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist)_; Young—_ [fog cloud](additionalMonsters/../spells/fogCloud.md)_; Adult—_ [solid fog](additionalMonsters/../spells/solidFog.md#_solid-fog)_; Old—_ [cloudkill](additionalMonsters/../spells/cloudkill.md#_cloudkill)_ (3/day); Ancient—_ [wind walk](additionalMonsters/../spells/windWalk.md#_wind-walk)_; Great wyrm—_ [storm of vengeance](additionalMonsters/../spells/stormOfVengeance.md#_storm-of-vengeance) _(1/day).
 
-**Thundering Bite (Su)** An ancient or older cloud [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s bite makes a thundering crash whenever it attacks, dealing an additional 2d6 points of sonic damage. A great wyrm's thundering bite deals an additional 4d6 sonic damage.
+**Thundering Bite (Su)** An ancient or older cloud [dragon](monsters/creatureTypes.md#_dragon)'s bite makes a thundering crash whenever it attacks, dealing an additional 2d6 points of sonic damage. A great wyrm's thundering bite deals an additional 4d6 sonic damage.
 
 [Table: Cloud Special Abilities]
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
 | Wyrmling | Immune to electricity, mist vision | — |
-| Very young | _ [Obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist)_ | — |
-| Young | _ [Fog cloud](/pathfinderRPG/prd/additionalMonsters/../spells/fogCloud.html)_ | — |
+| Very young | _ [Obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist)_ | — |
+| Young | _ [Fog cloud](additionalMonsters/../spells/fogCloud.md)_ | — |
 | Juvenile | Frightful presence | 1st |
 | Young adult | DR 5/magic, spell resistance | 3rd |
-| Adult | Cloud form, _ [solid fog](/pathfinderRPG/prd/additionalMonsters/../spells/solidFog.html#_solid-fog)_ | 5th |
+| Adult | Cloud form, _ [solid fog](additionalMonsters/../spells/solidFog.md#_solid-fog)_ | 5th |
 | Mature adult | DR 10/magicv | 7th |
-| Old | _ [Cloudkill](/pathfinderRPG/prd/additionalMonsters/../spells/cloudkill.html#_cloudkill)_ | 9th |
+| Old | _ [Cloudkill](additionalMonsters/../spells/cloudkill.md#_cloudkill)_ | 9th |
 | Very old | DR 15/magic | 11th |
-| Ancient | Thundering bite, _ [wind walk](/pathfinderRPG/prd/additionalMonsters/../spells/windWalk.html#_wind-walk)_ | 13th |
+| Ancient | Thundering bite, _ [wind walk](additionalMonsters/../spells/windWalk.md#_wind-walk)_ | 13th |
 | Wyrm | DR 20/magic | 15th |
-| Great wyrm | Cloud breath, _ [storm of vengeance](/pathfinderRPG/prd/additionalMonsters/../spells/stormOfVengeance.html#_storm-of-vengeance)_ | 17th |
+| Great wyrm | Cloud breath, _ [storm of vengeance](additionalMonsters/../spells/stormOfVengeance.md#_storm-of-vengeance)_ | 17th |
 
   
   
@@ -406,9 +406,9 @@ Young Cloud DragonCR 9
 
 **XP 6,400**
 
-CN Large [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype), extraplanar)
+CN Large [dragon](monsters/creatureTypes.md#_dragon) ( [air](monsters/creatureTypes.md#_air-subtype), extraplanar)
 
-**Init** +0; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses, mist vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +16
+**Init** +0; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses, mist vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +16
 
 Defense
 
@@ -426,11 +426,11 @@ Offense
 
 **Melee** bite +13 (2d6+6), 2 claws +14 (1d8+4), 2 wings +11 (1d6+2), tail slap +11 (1d8+6)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (40-ft. cone, 6d8 electricity, DC 18)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (40-ft. cone, 6d8 electricity, DC 18)
 
 **Spell-Like Abilities** (CL 10th; concentration +12)
 
-At will—_ [fog cloud](/pathfinderRPG/prd/additionalMonsters/../spells/fogCloud.html), [obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist)_
+At will—_ [fog cloud](additionalMonsters/../spells/fogCloud.md), [obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist)_
 
 Statistics
 
@@ -438,9 +438,9 @@ Statistics
 
 **Base Atk** +10; **CMB** +15; **CMD** 25 (29 vs. trip)
 
-**Feats** [Dazzling Display](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dazzling-display), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy)), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (claws)
+**Feats** [Dazzling Display](additionalMonsters/../feats.md#_dazzling-display), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy)), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (claws)
 
-**Skills** [Appraise](/pathfinderRPG/prd/additionalMonsters/../skills/appraise.html#_appraise) +14, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +21, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +7, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +15, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +14, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +16, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +9, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +12
+**Skills** [Appraise](additionalMonsters/../skills/appraise.md#_appraise) +14, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +21, [Fly](additionalMonsters/../skills/fly.md#_fly) +7, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +15, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +14, [Perception](additionalMonsters/../skills/perception.md#_perception) +16, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +9, [Swim](additionalMonsters/../skills/swim.md#_swim) +12
 
 **Languages** Auran, Draconic
 
@@ -448,9 +448,9 @@ Adult Cloud DragonCR 13
 
 **XP 25,600**
 
-CN Huge [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype), extraplanar)
+CN Huge [dragon](monsters/creatureTypes.md#_dragon) ( [air](monsters/creatureTypes.md#_air-subtype), extraplanar)
 
-**Init** +3; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses, mist vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +24
+**Init** +3; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses, mist vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +24
 
 **Aura** frightful presence (180 ft., DC 22)
 
@@ -472,19 +472,19 @@ Offense
 
 **Space** 15 ft.; **Reach** 10 ft. (15 ft. with bite)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (50-ft. cone, 12d8 electricity, DC 23), crush
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (50-ft. cone, 12d8 electricity, DC 23), crush
 
 **Spell-Like Abilities** (CL 16th; concentration +20)
 
-At will—_ [fog cloud](/pathfinderRPG/prd/additionalMonsters/../spells/fogCloud.html)_, _ [obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist), [solid fog](/pathfinderRPG/prd/additionalMonsters/../spells/solidFog.html#_solid-fog)_
+At will—_ [fog cloud](additionalMonsters/../spells/fogCloud.md)_, _ [obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist), [solid fog](additionalMonsters/../spells/solidFog.md#_solid-fog)_
 
 **Spells Known** (CL 5th; concentration +9)
 
-2nd (5/day)—_ [blur](/pathfinderRPG/prd/additionalMonsters/../spells/blur.html#_blur)_, _ [see invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/seeInvisibility.html#_see-invisibility)_
+2nd (5/day)—_ [blur](additionalMonsters/../spells/blur.md#_blur)_, _ [see invisibility](additionalMonsters/../spells/seeInvisibility.md#_see-invisibility)_
 
-1st (7/day)—_ [charm person](/pathfinderRPG/prd/additionalMonsters/../spells/charmPerson.html#_charm-person)_ (DC 15), _ [detect secret doors](/pathfinderRPG/prd/additionalMonsters/../spells/detectSecretDoors.html#_detect-secret-doors)_, _ [shield](/pathfinderRPG/prd/additionalMonsters/../spells/shield.html#_shield)_, _ [true strike](/pathfinderRPG/prd/additionalMonsters/../spells/trueStrike.html#_true-strike)_
+1st (7/day)—_ [charm person](additionalMonsters/../spells/charmPerson.md#_charm-person)_ (DC 15), _ [detect secret doors](additionalMonsters/../spells/detectSecretDoors.md#_detect-secret-doors)_, _ [shield](additionalMonsters/../spells/shield.md#_shield)_, _ [true strike](additionalMonsters/../spells/trueStrike.md#_true-strike)_
 
-0 (at will)—_ [dancing lights](/pathfinderRPG/prd/additionalMonsters/../spells/dancingLights.html#_dancing-lights)_, _ [detect poison](/pathfinderRPG/prd/additionalMonsters/../spells/detectPoison.html#_detect-poison)_, _ [light](/pathfinderRPG/prd/additionalMonsters/../spells/light.html#_light)_, _ [message](/pathfinderRPG/prd/additionalMonsters/../spells/message.html#_message)_, _ [prestidigitation](/pathfinderRPG/prd/additionalMonsters/../spells/prestidigitation.html#_prestidigitation)_, _ [read magic](/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic)_
+0 (at will)—_ [dancing lights](additionalMonsters/../spells/dancingLights.md#_dancing-lights)_, _ [detect poison](additionalMonsters/../spells/detectPoison.md#_detect-poison)_, _ [light](additionalMonsters/../spells/light.md#_light)_, _ [message](additionalMonsters/../spells/message.md#_message)_, _ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_, _ [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_
 
 Statistics
 
@@ -492,9 +492,9 @@ Statistics
 
 **Base Atk** +16; **CMB** +25; **CMD** 34 (38 vs. trip)
 
-**Feats** [Critical Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_critical-focus), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy)), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (bite, claws)
+**Feats** [Critical Focus](additionalMonsters/../feats.md#_critical-focus), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy)), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite, claws)
 
-**Skills** [Appraise](/pathfinderRPG/prd/additionalMonsters/../skills/appraise.html#_appraise) +22, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +29, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +10, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +23, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +22, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +24, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +24, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +10, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +24, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +15
+**Skills** [Appraise](additionalMonsters/../skills/appraise.md#_appraise) +22, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +29, [Fly](additionalMonsters/../skills/fly.md#_fly) +10, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +23, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +22, [Perception](additionalMonsters/../skills/perception.md#_perception) +24, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +24, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +10, [Survival](additionalMonsters/../skills/survival.md#_survival) +24, [Swim](additionalMonsters/../skills/swim.md#_swim) +15
 
 **Languages** Auran, Common, Draconic, Elven
 
@@ -504,9 +504,9 @@ Ancient Cloud Dragon CR 18
 
 **XP 153,600**
 
-CN Gargantuan [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [air](/pathfinderRPG/prd/monsters/creatureTypes.html#_air-subtype), extraplanar)
+CN Gargantuan [dragon](monsters/creatureTypes.md#_dragon) ( [air](monsters/creatureTypes.md#_air-subtype), extraplanar)
 
-**Init** +2; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses, mist vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +34
+**Init** +2; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses, mist vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +34
 
 **Aura** frightful presence (300 ft., DC 28)
 
@@ -528,29 +528,29 @@ Offense
 
 **Space** 20 ft.; **Reach** 15 ft. (20 ft. with bite)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (60-ft. cone, 20d8 electricity, DC 29), crush, tail sweep
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (60-ft. cone, 20d8 electricity, DC 29), crush, tail sweep
 
 **Spell-Like Abilities** (CL 24th; concentration +30)
 
-At will—_ [fog cloud](/pathfinderRPG/prd/additionalMonsters/../spells/fogCloud.html)_, _ [obscuring mist](/pathfinderRPG/prd/additionalMonsters/../spells/obscuringMist.html#_obscuring-mist), [solid fog](/pathfinderRPG/prd/additionalMonsters/../spells/solidFog.html#_solid-fog), [wind walk](/pathfinderRPG/prd/additionalMonsters/../spells/windWalk.html#_wind-walk)_
+At will—_ [fog cloud](additionalMonsters/../spells/fogCloud.md)_, _ [obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist), [solid fog](additionalMonsters/../spells/solidFog.md#_solid-fog), [wind walk](additionalMonsters/../spells/windWalk.md#_wind-walk)_
 
-3/day—_ [cloudkill](/pathfinderRPG/prd/additionalMonsters/../spells/cloudkill.html#_cloudkill)_ (DC 21)
+3/day—_ [cloudkill](additionalMonsters/../spells/cloudkill.md#_cloudkill)_ (DC 21)
 
 **Spells Known** (CL 13th; concentration +19)
 
-6th (5/day)—_ [chain lightning](/pathfinderRPG/prd/additionalMonsters/../spells/chainLightning.html#_chain-lightning)_ (DC 22), _ [greater dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic-greater)_
+6th (5/day)—_ [chain lightning](additionalMonsters/../spells/chainLightning.md#_chain-lightning)_ (DC 22), _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_
 
-5th (7/day)—_ [cone of cold](/pathfinderRPG/prd/additionalMonsters/../spells/coneOfCold.html#_cone-of-cold)_ (DC 21), _ [dismissal](/pathfinderRPG/prd/additionalMonsters/../spells/dismissal.html#_dismissal)_ (DC 21), _ [teleport](/pathfinderRPG/prd/additionalMonsters/../spells/teleport.html#_teleport)_
+5th (7/day)—_ [cone of cold](additionalMonsters/../spells/coneOfCold.md#_cone-of-cold)_ (DC 21), _ [dismissal](additionalMonsters/../spells/dismissal.md#_dismissal)_ (DC 21), _ [teleport](additionalMonsters/../spells/teleport.md#_teleport)_
 
-4th (7/day)—_elemental body I_, _ [ice storm](/pathfinderRPG/prd/additionalMonsters/../spells/iceStorm.html#_ice-storm)_, _ [lesser geas](/pathfinderRPG/prd/additionalMonsters/../spells/geasQuest.html#_geas-lesser)_ (DC 20), _ [river of wind](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/riverOfWind.html#_river-of-wind)_
+4th (7/day)—_elemental body I_, _ [ice storm](additionalMonsters/../spells/iceStorm.md#_ice-storm)_, _ [lesser geas](additionalMonsters/../spells/geasQuest.md#_geas-lesser)_ (DC 20), _ [river of wind](additionalMonsters/../advanced/spells/riverOfWind.md#_river-of-wind)_
 
-3rd (7/day)—_ [arcane sight](/pathfinderRPG/prd/additionalMonsters/../spells/arcaneSight.html#_arcane-sight)_, _ [cloak of winds](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/cloakOfWinds.html#_cloak-of-winds)_, _ [stinking cloud](/pathfinderRPG/prd/additionalMonsters/../spells/stinkingCloud.html#_stinking-cloud)_ (DC 19), _ [suggestion](/pathfinderRPG/prd/additionalMonsters/../spells/suggestion.html#_suggestion)_ (DC 19)
+3rd (7/day)—_ [arcane sight](additionalMonsters/../spells/arcaneSight.md#_arcane-sight)_, _ [cloak of winds](additionalMonsters/../advanced/spells/cloakOfWinds.md#_cloak-of-winds)_, _ [stinking cloud](additionalMonsters/../spells/stinkingCloud.md#_stinking-cloud)_ (DC 19), _ [suggestion](additionalMonsters/../spells/suggestion.md#_suggestion)_ (DC 19)
 
-2nd (8/day)—_ [eagle's splendor](/pathfinderRPG/prd/additionalMonsters/../spells/eagleSSplendor.html#_eagle-s-splendor)_, _ [glitterdust](/pathfinderRPG/prd/additionalMonsters/../spells/glitterdust.html#_glitterdust)_ (DC 18), _ [gust of wind](/pathfinderRPG/prd/additionalMonsters/../spells/gustOfWind.html#_gust-of-wind)_, _ [locate object](/pathfinderRPG/prd/additionalMonsters/../spells/locateObject.html#_locate-object)_, _ [see invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/seeInvisibility.html#_see-invisibility)_
+2nd (8/day)—_ [eagle's splendor](additionalMonsters/../spells/eagleSSplendor.md#_eagle-s-splendor)_, _ [glitterdust](additionalMonsters/../spells/glitterdust.md#_glitterdust)_ (DC 18), _ [gust of wind](additionalMonsters/../spells/gustOfWind.md#_gust-of-wind)_, _ [locate object](additionalMonsters/../spells/locateObject.md#_locate-object)_, _ [see invisibility](additionalMonsters/../spells/seeInvisibility.md#_see-invisibility)_
 
-1st (8/day)—_ [alter winds](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/alterWinds.html#_alter-winds)_, _ [charm person](/pathfinderRPG/prd/additionalMonsters/../spells/charmPerson.html#_charm-person)_ (DC 17), _ [detect secret doors](/pathfinderRPG/prd/additionalMonsters/../spells/detectSecretDoors.html#_detect-secret-doors)_, _ [erase](/pathfinderRPG/prd/additionalMonsters/../spells/erase.html#_erase)_, _ [true strike](/pathfinderRPG/prd/additionalMonsters/../spells/trueStrike.html#_true-strike)_
+1st (8/day)—_ [alter winds](additionalMonsters/../advanced/spells/alterWinds.md#_alter-winds)_, _ [charm person](additionalMonsters/../spells/charmPerson.md#_charm-person)_ (DC 17), _ [detect secret doors](additionalMonsters/../spells/detectSecretDoors.md#_detect-secret-doors)_, _ [erase](additionalMonsters/../spells/erase.md#_erase)_, _ [true strike](additionalMonsters/../spells/trueStrike.md#_true-strike)_
 
-0 (at will)—_ [dancing lights](/pathfinderRPG/prd/additionalMonsters/../spells/dancingLights.html#_dancing-lights)_, _ [detect poison](/pathfinderRPG/prd/additionalMonsters/../spells/detectPoison.html#_detect-poison)_, _ [light](/pathfinderRPG/prd/additionalMonsters/../spells/light.html#_light)_, _ [mage hand](/pathfinderRPG/prd/additionalMonsters/../spells/mageHand.html#_mage-hand)_, _ [message](/pathfinderRPG/prd/additionalMonsters/../spells/message.html#_message)_, _ [prestidigitation](/pathfinderRPG/prd/additionalMonsters/../spells/prestidigitation.html#_prestidigitation)_, _ [read magic](/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic)_, _ [resistance](/pathfinderRPG/prd/additionalMonsters/../spells/resistance.html#_resistance)_, _ [touch of fatigue](/pathfinderRPG/prd/additionalMonsters/../spells/touchOfFatigue.html#_touch-of-fatigue)_
+0 (at will)—_ [dancing lights](additionalMonsters/../spells/dancingLights.md#_dancing-lights)_, _ [detect poison](additionalMonsters/../spells/detectPoison.md#_detect-poison)_, _ [light](additionalMonsters/../spells/light.md#_light)_, _ [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand)_, _ [message](additionalMonsters/../spells/message.md#_message)_, _ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_, _ [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_, _ [resistance](additionalMonsters/../spells/resistance.md#_resistance)_, _ [touch of fatigue](additionalMonsters/../spells/touchOfFatigue.md#_touch-of-fatigue)_
 
 This spell is from the_ Pathfinder RPG Advanced Player's Guide_.
 
@@ -560,9 +560,9 @@ Statistics
 
 **Base Atk** +24; **CMB** +39; **CMD** 47 (51 vs. trip)
 
-**Feats** [Critical Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_critical-focus), [Dazzling Display](/pathfinderRPG/prd/additionalMonsters/../feats.html#_dazzling-display), [Flyby Attack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy)), [Snatch](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_snatch), [Staggering Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_staggering-critical), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (bite, claws)
+**Feats** [Critical Focus](additionalMonsters/../feats.md#_critical-focus), [Dazzling Display](additionalMonsters/../feats.md#_dazzling-display), [Flyby Attack](additionalMonsters/../monsters/monsterFeats.md#_flyby-attack), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy)), [Snatch](additionalMonsters/../monsters/monsterFeats.md#_snatch), [Staggering Critical](additionalMonsters/../feats.md#_staggering-critical), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite, claws)
 
-**Skills** [Appraise](/pathfinderRPG/prd/additionalMonsters/../skills/appraise.html#_appraise) +32, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +39, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +11, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +33, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (local) +32, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +32, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +34, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +34, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +13, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +34, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +46
+**Skills** [Appraise](additionalMonsters/../skills/appraise.md#_appraise) +32, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +39, [Fly](additionalMonsters/../skills/fly.md#_fly) +11, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +33, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (local) +32, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +32, [Perception](additionalMonsters/../skills/perception.md#_perception) +34, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +34, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +13, [Survival](additionalMonsters/../skills/survival.md#_survival) +34, [Swim](additionalMonsters/../skills/swim.md#_swim) +46
 
 **Languages** Auran, Common, Draconic, Elven
 
@@ -576,7 +576,7 @@ This brilliantly colored dragon has scales, teeth, and claws made of multicolore
 
 Crystal Dragon
 
-CG [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CG [dragon](monsters/creatureTypes.md#_dragon) ( [earth](monsters/creatureTypes.md#_earth-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
 Base Statistics
 
@@ -584,13 +584,13 @@ Base Statistics
 
 **Speed** 60 ft., burrow 30 ft., climb 30 ft.
 
-**Natural Armor** +2; **[Breath Weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon)** cone, 2d4 sonic
+**Natural Armor** +2; **[Breath Weapon](monsters/universalMonsterRules.md#_breath-weapon)** cone, 2d4 sonic
 
 **Str** 9, **Dex** 16, **Con** 13, **Int** 10, **Wis** 11, **Cha** 16
 
 Ecology
 
-**Environment** any underground (Plane of [Earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype))
+**Environment** any underground (Plane of [Earth](monsters/creatureTypes.md#_earth-subtype))
 
 **Organization** solitary
 
@@ -598,13 +598,13 @@ Ecology
 
 Special Abilities
 
-**Razor Sharp (Sp)** All of a crystal [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s natural attacks deal slashing damage.
+**Razor Sharp (Sp)** All of a crystal [dragon](monsters/creatureTypes.md#_dragon)'s natural attacks deal slashing damage.
 
-**Ray Reflection (Ex)** An ancient crystal [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s scales reflect ray spells back upon the ray's source if the ray fails to overcome the [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s spell [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance).
+**Ray Reflection (Ex)** An ancient crystal [dragon](monsters/creatureTypes.md#_dragon)'s scales reflect ray spells back upon the ray's source if the ray fails to overcome the [dragon](monsters/creatureTypes.md#_dragon)'s spell [resistance](monsters/universalMonsterRules.md#_resistance).
 
-**Scintillating Aura (Su)** A great wyrm crystal [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) radiates an aura of scintillating color from its jeweled scales to a radius of 60 feet. All within this area must make a Will save each round to avoid being stunned (if the victim has 15 or fewer Hit Dice) or confused (if the victim has more than 15 Hit Dice) for 1 round. The save DC is equal to the [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) save DC. This is a mind-affecting effect. The [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) can activate or suppress this aura as a free action.
+**Scintillating Aura (Su)** A great wyrm crystal [dragon](monsters/creatureTypes.md#_dragon) radiates an aura of scintillating color from its jeweled scales to a radius of 60 feet. All within this area must make a Will save each round to avoid being stunned (if the victim has 15 or fewer Hit Dice) or confused (if the victim has more than 15 Hit Dice) for 1 round. The save DC is equal to the [dragon](monsters/creatureTypes.md#_dragon)'s [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) save DC. This is a mind-affecting effect. The [dragon](monsters/creatureTypes.md#_dragon) can activate or suppress this aura as a free action.
 
-**Spell-Like Abilities (Sp)** A crystal [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) gains the following spell-like abilities, usable at will (unless indicated otherwise) upon reaching the listed age category. Very young—_ [color spray](/pathfinderRPG/prd/additionalMonsters/../spells/colorSpray.html#_color-spray)_; Juvenile—_ [glitterdust](/pathfinderRPG/prd/additionalMonsters/../spells/glitterdust.html#_glitterdust)_; Adult—_ [rainbow pattern](/pathfinderRPG/prd/additionalMonsters/../spells/rainbowPattern.html#_rainbow-pattern)_; Old—_ [stone to flesh](/pathfinderRPG/prd/additionalMonsters/../spells/stoneToFlesh.html#_stone-to-flesh)_ (3/day); Ancient—_ [prismatic spray](/pathfinderRPG/prd/additionalMonsters/../spells/prismaticSpray.html#_prismatic-spray) _(3/day); Great wyrm—_ [imprisonment](/pathfinderRPG/prd/additionalMonsters/../spells/imprisonment.html#_imprisonment)_ (1/day).
+**Spell-Like Abilities (Sp)** A crystal [dragon](monsters/creatureTypes.md#_dragon) gains the following spell-like abilities, usable at will (unless indicated otherwise) upon reaching the listed age category. Very young—_ [color spray](additionalMonsters/../spells/colorSpray.md#_color-spray)_; Juvenile—_ [glitterdust](additionalMonsters/../spells/glitterdust.md#_glitterdust)_; Adult—_ [rainbow pattern](additionalMonsters/../spells/rainbowPattern.md#_rainbow-pattern)_; Old—_ [stone to flesh](additionalMonsters/../spells/stoneToFlesh.md#_stone-to-flesh)_ (3/day); Ancient—_ [prismatic spray](additionalMonsters/../spells/prismaticSpray.md#_prismatic-spray) _(3/day); Great wyrm—_ [imprisonment](additionalMonsters/../spells/imprisonment.md#_imprisonment)_ (1/day).
 
 **Tremorsense (Ex)** Crystal dragons do not gain tremorsense until juvenile age (30 ft.), improving at adult (60 ft.) and old (120 ft.).
 
@@ -612,17 +612,17 @@ Special Abilities
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
 | Wyrmling | Immunity to sonic, razor sharp | — |
-| Very young | _ [Color spray](/pathfinderRPG/prd/additionalMonsters/../spells/colorSpray.html#_color-spray)_ | — |
+| Very young | _ [Color spray](additionalMonsters/../spells/colorSpray.md#_color-spray)_ | — |
 | Young | Tremorsense | — |
-| Juvenile | _ [Glitterdust](/pathfinderRPG/prd/additionalMonsters/../spells/glitterdust.html#_glitterdust)_ | — |
+| Juvenile | _ [Glitterdust](additionalMonsters/../spells/glitterdust.md#_glitterdust)_ | — |
 | Young adult | DR 5/magic, spell resistance | — |
-| Adult | Frightful presence, _ [rainbow pattern](/pathfinderRPG/prd/additionalMonsters/../spells/rainbowPattern.html#_rainbow-pattern)_ | 1st |
+| Adult | Frightful presence, _ [rainbow pattern](additionalMonsters/../spells/rainbowPattern.md#_rainbow-pattern)_ | 1st |
 | Mature adult | DR 10/magic | 3rd |
-| Old | _ [Stone to flesh](/pathfinderRPG/prd/additionalMonsters/../spells/stoneToFlesh.html#_stone-to-flesh)_ | 5th |
+| Old | _ [Stone to flesh](additionalMonsters/../spells/stoneToFlesh.md#_stone-to-flesh)_ | 5th |
 | Very old | DR 15/magic | 7th |
-| Ancient | Ray reflection, _ [prismatic spray](/pathfinderRPG/prd/additionalMonsters/../spells/prismaticSpray.html#_prismatic-spray)_ | 9th |
+| Ancient | Ray reflection, _ [prismatic spray](additionalMonsters/../spells/prismaticSpray.md#_prismatic-spray)_ | 9th |
 | Wyrm | DR 20/magic | 11th |
-| Great wyrm | _ [Imprisonment](/pathfinderRPG/prd/additionalMonsters/../spells/imprisonment.html#_imprisonment), s_cintillating aura | 13th |
+| Great wyrm | _ [Imprisonment](additionalMonsters/../spells/imprisonment.md#_imprisonment), s_cintillating aura | 13th |
 
   
   
@@ -631,9 +631,9 @@ Young Crystal DragonCR 6
 
 **XP 2,400**
 
-CG Medium [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype), extraplanar)
+CG Medium [dragon](monsters/creatureTypes.md#_dragon) ( [earth](monsters/creatureTypes.md#_earth-subtype), extraplanar)
 
-**Init** +2; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses, tremorsense 30 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +11
+**Init** +2; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses, tremorsense 30 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +11
 
 Defense
 
@@ -653,11 +653,11 @@ Offense
 
 **Space** 5 ft.; **Reach** 5 ft. (10 ft. with bite)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (30-ft. cone, 6d4 sonic, DC 16)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (30-ft. cone, 6d4 sonic, DC 16)
 
 **Spell-Like Abilities** (CL 7th; concentration +11)
 
-At will—_ [color spray](/pathfinderRPG/prd/additionalMonsters/../spells/colorSpray.html#_color-spray)_ (DC 15)
+At will—_ [color spray](additionalMonsters/../spells/colorSpray.md#_color-spray)_ (DC 15)
 
 Statistics
 
@@ -665,9 +665,9 @@ Statistics
 
 **Base Atk** +7; **CMB** +10; **CMD** 22 (26 vs. trip)
 
-**Feats** [Deceitful](/pathfinderRPG/prd/additionalMonsters/../feats.html#_deceitful), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack)
+**Feats** [Deceitful](additionalMonsters/../feats.md#_deceitful), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack)
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +16, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +21, [Disguise](/pathfinderRPG/prd/additionalMonsters/../skills/disguise.html#_disguise) +6, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +12, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +14, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (dungeoneering) +11, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +11, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +12
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +16, [Climb](additionalMonsters/../skills/climb.md#_climb) +21, [Disguise](additionalMonsters/../skills/disguise.md#_disguise) +6, [Fly](additionalMonsters/../skills/fly.md#_fly) +12, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +14, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (dungeoneering) +11, [Perception](additionalMonsters/../skills/perception.md#_perception) +11, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +12
 
 **Languages** Draconic, Undercommon
 
@@ -677,9 +677,9 @@ Adult Crystal DragonCR 10
 
 **XP 9,600**
 
-CG Large [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype), extraplanar)
+CG Large [dragon](monsters/creatureTypes.md#_dragon) ( [earth](monsters/creatureTypes.md#_earth-subtype), extraplanar)
 
-**Init** +1; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses, tremorsense 60 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +19
+**Init** +1; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses, tremorsense 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +19
 
 **Aura** frightful presence (180 ft., DC 22)
 
@@ -701,17 +701,17 @@ Offense
 
 **Space** 10 ft.; **Reach** 5 ft. (10 ft. with bite)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (40-ft. cone, 12d4 sonic, DC 21)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (40-ft. cone, 12d4 sonic, DC 21)
 
 **Spell-Like Abilities** (CL 13th; concentration +18)
 
-At will—_ [color spray](/pathfinderRPG/prd/additionalMonsters/../spells/colorSpray.html#_color-spray)_ (DC 17), _ [glitterdust](/pathfinderRPG/prd/additionalMonsters/../spells/glitterdust.html#_glitterdust)_ (DC 18), _ [rainbow pattern](/pathfinderRPG/prd/additionalMonsters/../spells/rainbowPattern.html#_rainbow-pattern)_ (DC 20)
+At will—_ [color spray](additionalMonsters/../spells/colorSpray.md#_color-spray)_ (DC 17), _ [glitterdust](additionalMonsters/../spells/glitterdust.md#_glitterdust)_ (DC 18), _ [rainbow pattern](additionalMonsters/../spells/rainbowPattern.md#_rainbow-pattern)_ (DC 20)
 
 **Spells Known** (CL 1st; concentration +7)
 
-1st (5/day)—_ [shield](/pathfinderRPG/prd/additionalMonsters/../spells/shield.html#_shield)_, _ [unseen servant](/pathfinderRPG/prd/additionalMonsters/../spells/unseenServant.html#_unseen-servant)_
+1st (5/day)—_ [shield](additionalMonsters/../spells/shield.md#_shield)_, _ [unseen servant](additionalMonsters/../spells/unseenServant.md#_unseen-servant)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/additionalMonsters/../spells/acidSplash.html#_acid-splash)_, _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [ghost sound](/pathfinderRPG/prd/additionalMonsters/../spells/ghostSound.html#_ghost-sound)_, _ [read magic](/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic)_
+0 (at will)—_ [acid splash](additionalMonsters/../spells/acidSplash.md#_acid-splash)_, _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [ghost sound](additionalMonsters/../spells/ghostSound.md#_ghost-sound)_, _ [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_
 
 Statistics
 
@@ -719,9 +719,9 @@ Statistics
 
 **Base Atk** +13; **CMB** +20; **CMD** 31 (35 vs. trip)
 
-**Feats** [Deceitful](/pathfinderRPG/prd/additionalMonsters/../feats.html#_deceitful), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (bite)
+**Feats** [Deceitful](additionalMonsters/../feats.md#_deceitful), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite)
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +26, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +30, [Disguise](/pathfinderRPG/prd/additionalMonsters/../skills/disguise.html#_disguise) +23, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +11, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +22, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (dungeoneering) +19, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +19, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +19, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +13
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +26, [Climb](additionalMonsters/../skills/climb.md#_climb) +30, [Disguise](additionalMonsters/../skills/disguise.md#_disguise) +23, [Fly](additionalMonsters/../skills/fly.md#_fly) +11, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +22, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (dungeoneering) +19, [Perception](additionalMonsters/../skills/perception.md#_perception) +19, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +19, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +13
 
 **Languages** Common, Draconic, Terran, Undercommon
 
@@ -731,9 +731,9 @@ Ancient Crystal DragonCR 15
 
 **XP 51,200**
 
-CG Huge [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [earth](/pathfinderRPG/prd/monsters/creatureTypes.html#_earth-subtype), extraplanar)
+CG Huge [dragon](monsters/creatureTypes.md#_dragon) ( [earth](monsters/creatureTypes.md#_earth-subtype), extraplanar)
 
-**Init** +4; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses, tremorsense 120 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +29
+**Init** +4; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses, tremorsense 120 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +29
 
 **Aura** frightful presence (300 ft., DC 28)
 
@@ -755,25 +755,25 @@ Offense
 
 **Space** 10 ft.; **Reach** 5 ft. (10 ft. with bite)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (50-ft. cone, DC 27, 20d4 sonic, DC 27), crush
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (50-ft. cone, DC 27, 20d4 sonic, DC 27), crush
 
 **Spell-Like Abilities** (CL 21th; concentration +29)
 
-At will—_ [color spray](/pathfinderRPG/prd/additionalMonsters/../spells/colorSpray.html#_color-spray)_ (DC 19), _ [glitterdust](/pathfinderRPG/prd/additionalMonsters/../spells/glitterdust.html#_glitterdust)_ (DC 20), _ [rainbow pattern](/pathfinderRPG/prd/additionalMonsters/../spells/rainbowPattern.html#_rainbow-pattern)_ (DC 22)
+At will—_ [color spray](additionalMonsters/../spells/colorSpray.md#_color-spray)_ (DC 19), _ [glitterdust](additionalMonsters/../spells/glitterdust.md#_glitterdust)_ (DC 20), _ [rainbow pattern](additionalMonsters/../spells/rainbowPattern.md#_rainbow-pattern)_ (DC 22)
 
-3/day—_ [prismatic spray](/pathfinderRPG/prd/additionalMonsters/../spells/prismaticSpray.html#_prismatic-spray)_ (DC 25), _ [stone to flesh](/pathfinderRPG/prd/additionalMonsters/../spells/stoneToFlesh.html#_stone-to-flesh)_ (DC 24)
+3/day—_ [prismatic spray](additionalMonsters/../spells/prismaticSpray.md#_prismatic-spray)_ (DC 25), _ [stone to flesh](additionalMonsters/../spells/stoneToFlesh.md#_stone-to-flesh)_ (DC 24)
 
 **Spells Known** (CL 9th; concentration +17)
 
-4th (6/day)—_ [dimension door](/pathfinderRPG/prd/additionalMonsters/../spells/dimensionDoor.html#_dimension-door)_, _ [phantasmal killer](/pathfinderRPG/prd/additionalMonsters/../spells/phantasmalKiller.html#_phantasmal-killer)_ (DC 22)
+4th (6/day)—_ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_, _ [phantasmal killer](additionalMonsters/../spells/phantasmalKiller.md#_phantasmal-killer)_ (DC 22)
 
-3rd (8/day)—_ [displacement](/pathfinderRPG/prd/additionalMonsters/../spells/displacement.html#_displacement)_, _ [lightning bolt](/pathfinderRPG/prd/additionalMonsters/../spells/lightningBolt.html#_lightning-bolt) _(DC 21), _ [major image](/pathfinderRPG/prd/additionalMonsters/../spells/majorImage.html#_major-image)_ (DC 21)
+3rd (8/day)—_ [displacement](additionalMonsters/../spells/displacement.md#_displacement)_, _ [lightning bolt](additionalMonsters/../spells/lightningBolt.md#_lightning-bolt) _(DC 21), _ [major image](additionalMonsters/../spells/majorImage.md#_major-image)_ (DC 21)
 
-2nd (8/day)—_ [blindness/deafness](/pathfinderRPG/prd/additionalMonsters/../spells/blindnessDeafness.html#_blindness-deafness) _(DC 20), _ [invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility)_, _ [minor image](/pathfinderRPG/prd/additionalMonsters/../spells/minorImage.html#_minor-image)_ (DC 20), _ [mirror image](/pathfinderRPG/prd/additionalMonsters/../spells/mirrorImage.html#_mirror-image)_
+2nd (8/day)—_ [blindness/deafness](additionalMonsters/../spells/blindnessDeafness.md#_blindness-deafness) _(DC 20), _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_, _ [minor image](additionalMonsters/../spells/minorImage.md#_minor-image)_ (DC 20), _ [mirror image](additionalMonsters/../spells/mirrorImage.md#_mirror-image)_
 
-1st (8/day)—_ [alarm](/pathfinderRPG/prd/additionalMonsters/../spells/alarm.html#_alarm)_, _ [feather fall](/pathfinderRPG/prd/additionalMonsters/../spells/featherFall.html#_feather-fall)_, _ [magic aura](/pathfinderRPG/prd/additionalMonsters/../spells/magicAura.html#_magic-aura)_, _ [silent image](/pathfinderRPG/prd/additionalMonsters/../spells/silentImage.html#_silent-image) _(DC 19), _ [unseen servant](/pathfinderRPG/prd/additionalMonsters/../spells/unseenServant.html#_unseen-servant)_
+1st (8/day)—_ [alarm](additionalMonsters/../spells/alarm.md#_alarm)_, _ [feather fall](additionalMonsters/../spells/featherFall.md#_feather-fall)_, _ [magic aura](additionalMonsters/../spells/magicAura.md#_magic-aura)_, _ [silent image](additionalMonsters/../spells/silentImage.md#_silent-image) _(DC 19), _ [unseen servant](additionalMonsters/../spells/unseenServant.md#_unseen-servant)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/additionalMonsters/../spells/acidSplash.html#_acid-splash)_, _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/additionalMonsters/../spells/detectPoison.html#_detect-poison)_, _ [ghost sound](/pathfinderRPG/prd/additionalMonsters/../spells/ghostSound.html#_ghost-sound)_, _ [mage hand](/pathfinderRPG/prd/additionalMonsters/../spells/mageHand.html#_mage-hand)_, _ [message](/pathfinderRPG/prd/additionalMonsters/../spells/message.html#_message)_, _ [read magic](/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic)_, _ [touch of fatigue](/pathfinderRPG/prd/additionalMonsters/../spells/touchOfFatigue.html#_touch-of-fatigue)_
+0 (at will)—_ [acid splash](additionalMonsters/../spells/acidSplash.md#_acid-splash)_, _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [detect poison](additionalMonsters/../spells/detectPoison.md#_detect-poison)_, _ [ghost sound](additionalMonsters/../spells/ghostSound.md#_ghost-sound)_, _ [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand)_, _ [message](additionalMonsters/../spells/message.md#_message)_, _ [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_, _ [touch of fatigue](additionalMonsters/../spells/touchOfFatigue.md#_touch-of-fatigue)_
 
 Statistics
 
@@ -781,9 +781,9 @@ Statistics
 
 **Base Atk** +21; **CMB** +33; **CMD** 43 (47 vs. trip)
 
-**Feats** [Deceitful](/pathfinderRPG/prd/additionalMonsters/../feats.html#_deceitful), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Greater Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-vital-strike), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Improved Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-vital-strike), [Lightning Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_lightning-reflexes), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (bite)
+**Feats** [Deceitful](additionalMonsters/../feats.md#_deceitful), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Greater Vital Strike](additionalMonsters/../feats.md#_greater-vital-strike), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Vital Strike](additionalMonsters/../feats.md#_vital-strike), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite)
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +36, [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +42, [Disguise](/pathfinderRPG/prd/additionalMonsters/../skills/disguise.html#_disguise) +33, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +16, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +32, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (dungeoneering, geography) +29, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +29, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +29, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +16, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +29
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +36, [Climb](additionalMonsters/../skills/climb.md#_climb) +42, [Disguise](additionalMonsters/../skills/disguise.md#_disguise) +33, [Fly](additionalMonsters/../skills/fly.md#_fly) +16, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +32, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (dungeoneering, geography) +29, [Perception](additionalMonsters/../skills/perception.md#_perception) +29, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +29, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +16, [Survival](additionalMonsters/../skills/survival.md#_survival) +29
 
 **Languages** Common, Draconic, Dwarven, Elven, Terran, Undercommon
 
@@ -799,7 +799,7 @@ Between this dragon's jet-black scales run glowing rivulets of lava, and veins a
 
 Magma Dragon
 
-CN [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+CN [dragon](monsters/creatureTypes.md#_dragon) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [fire](monsters/creatureTypes.md#_fire-subtype))
 
 Base Statistics
 
@@ -807,13 +807,13 @@ Base Statistics
 
 **Speed** 40 ft.
 
-**Natural Armor** +4; **[Breath Weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon)** cone, 2d6 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)
+**Natural Armor** +4; **[Breath Weapon](monsters/universalMonsterRules.md#_breath-weapon)** cone, 2d6 [fire](monsters/creatureTypes.md#_fire-subtype)
 
 **Str** 13, **Dex** 16, **Con** 13, **Int** 12, **Wis** 12, **Cha** 11
 
 Ecology
 
-**Environment** any mountains or underground (Plane of [Fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+**Environment** any mountains or underground (Plane of [Fire](monsters/creatureTypes.md#_fire-subtype))
 
 **Organization** solitary
 
@@ -821,29 +821,29 @@ Ecology
 
 Special Abilities
 
-**Magma Tomb (Su)** Once per day, a great wyrm magma [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) can spit lava onto a target within 120 feet, dealing damage normally for its [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon). This magma cools instantly—it does not continue doing damage at this point but does [entrap](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_entrap-(ex-or-su)) the victim (see universal monster rules in appendix; DC equals the [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) save DC, 3d6 minutes, hardness 8, hp 45).
+**Magma Tomb (Su)** Once per day, a great wyrm magma [dragon](monsters/creatureTypes.md#_dragon) can spit lava onto a target within 120 feet, dealing damage normally for its [breath weapon](monsters/universalMonsterRules.md#_breath-weapon). This magma cools instantly—it does not continue doing damage at this point but does [entrap](monsters/universalMonsterRules.md#_entrap-(ex-or-su)) the victim (see universal monster rules in appendix; DC equals the [dragon](monsters/creatureTypes.md#_dragon)'s [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) save DC, 3d6 minutes, hardness 8, hp 45).
 
-**Magma Breath (Su)** Three times per day, an ancient or older magma [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) can breathe a cone of lava instead of [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype). The damage is unchanged, but the magma clings to those it damages, dealing half damage each round thereafter for 1d3 rounds. After this magma cools, it crumbles to dust.
+**Magma Breath (Su)** Three times per day, an ancient or older magma [dragon](monsters/creatureTypes.md#_dragon) can breathe a cone of lava instead of [fire](monsters/creatureTypes.md#_fire-subtype). The damage is unchanged, but the magma clings to those it damages, dealing half damage each round thereafter for 1d3 rounds. After this magma cools, it crumbles to dust.
 
-**Spell-Like Abilities (Sp)** A magma [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) gains the following spell-like abilities, usable at will (unless indicated otherwise) on reaching the listed age category. Very young—_ [burning hands](/pathfinderRPG/prd/additionalMonsters/../spells/burningHands.html#_burning-hands)_; Juvenile—_ [scorching ray](/pathfinderRPG/prd/additionalMonsters/../spells/scorchingRay.html#_scorching-ray)_; Adult—_ [wall of fire](/pathfinderRPG/prd/additionalMonsters/../spells/wallOfFire.html#_wall-of-fire)_; Old—_ [fire shield](/pathfinderRPG/prd/additionalMonsters/../spells/fireShield.html#_fire-shield) _(warm shield, constant); Ancient—_ [delayed blast fireball](/pathfinderRPG/prd/additionalMonsters/../spells/delayedBlastFireball.html#_delayed-blast-fireball)_ (3/day); Great wyrm—_ [wall of lava](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/wallOfLava.html#_wall-of-lava)_.
+**Spell-Like Abilities (Sp)** A magma [dragon](monsters/creatureTypes.md#_dragon) gains the following spell-like abilities, usable at will (unless indicated otherwise) on reaching the listed age category. Very young—_ [burning hands](additionalMonsters/../spells/burningHands.md#_burning-hands)_; Juvenile—_ [scorching ray](additionalMonsters/../spells/scorchingRay.md#_scorching-ray)_; Adult—_ [wall of fire](additionalMonsters/../spells/wallOfFire.md#_wall-of-fire)_; Old—_ [fire shield](additionalMonsters/../spells/fireShield.md#_fire-shield) _(warm shield, constant); Ancient—_ [delayed blast fireball](additionalMonsters/../spells/delayedBlastFireball.md#_delayed-blast-fireball)_ (3/day); Great wyrm—_ [wall of lava](additionalMonsters/../advanced/spells/wallOfLava.md#_wall-of-lava)_.
 
-**Superheated (Su)** At young age and older, a magma [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s bite attack deals additional [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) damage equal to its age category.
+**Superheated (Su)** At young age and older, a magma [dragon](monsters/creatureTypes.md#_dragon)'s bite attack deals additional [fire](monsters/creatureTypes.md#_fire-subtype) damage equal to its age category.
 
 [Table: Magma Special Abilities]
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
 | Wyrmling | Immune to fire, vulnerable to cold | — |
-| Very young | _ [Burning hands](/pathfinderRPG/prd/additionalMonsters/../spells/burningHands.html#_burning-hands)_ | — |
+| Very young | _ [Burning hands](additionalMonsters/../spells/burningHands.md#_burning-hands)_ | — |
 | Young | Superheated | 1st |
-| Juvenile | _ [Scorching ray](/pathfinderRPG/prd/additionalMonsters/../spells/scorchingRay.html#_scorching-ray)_ | 3rd |
+| Juvenile | _ [Scorching ray](additionalMonsters/../spells/scorchingRay.md#_scorching-ray)_ | 3rd |
 | Young adult | DR 5/magic, spell resistance | 5th |
-| Adult | Frightful presence, _ [wall of fire](/pathfinderRPG/prd/additionalMonsters/../spells/wallOfFire.html#_wall-of-fire)_ | 7th |
+| Adult | Frightful presence, _ [wall of fire](additionalMonsters/../spells/wallOfFire.md#_wall-of-fire)_ | 7th |
 | Mature adult | DR 10/magic | 9th |
-| Old | _ [Fire shield](/pathfinderRPG/prd/additionalMonsters/../spells/fireShield.html#_fire-shield)_ | 11th |
+| Old | _ [Fire shield](additionalMonsters/../spells/fireShield.md#_fire-shield)_ | 11th |
 | Very old | DR 15/magic | 13th |
-| Ancient | Magma breath, _ [delayed blast fireball](/pathfinderRPG/prd/additionalMonsters/../spells/delayedBlastFireball.html#_delayed-blast-fireball)_ | 15th |
+| Ancient | Magma breath, _ [delayed blast fireball](additionalMonsters/../spells/delayedBlastFireball.md#_delayed-blast-fireball)_ | 15th |
 | Wyrm | DR 20/magic | 17th |
-| Great wyrm | Magma tomb, _ [wall of lava](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/wallOfLava.html#_wall-of-lava)_ | 19th |
+| Great wyrm | Magma tomb, _ [wall of lava](additionalMonsters/../advanced/spells/wallOfLava.md#_wall-of-lava)_ | 19th |
 
   
   
@@ -852,9 +852,9 @@ Young Magma DragonCR 8
 
 **XP 4,800**
 
-CN Medium [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) (extraplanar, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+CN Medium [dragon](monsters/creatureTypes.md#_dragon) (extraplanar, [fire](monsters/creatureTypes.md#_fire-subtype))
 
-**Init** +6; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +14
+**Init** +6; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses; [Perception](additionalMonsters/../skills/perception.md#_perception) +14
 
 Defense
 
@@ -864,27 +864,27 @@ Defense
 
 **Fort** +11, **Ref** +8, **Will** +10
 
-**Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), paralysis, sleep
+**Immune** [fire](monsters/creatureTypes.md#_fire-subtype), paralysis, sleep
 
-**Weaknesses** vulnerable to [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype)
+**Weaknesses** vulnerable to [cold](monsters/creatureTypes.md#_cold-subtype)
 
 Offense
 
 **Speed** 40 ft., fly 150 ft. (average)
 
-**Melee** bite +17 (1d8+12 plus 3 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)), 2 claws +17 (1d6+8), 2 wings +12 (1d4+4)
+**Melee** bite +17 (1d8+12 plus 3 [fire](monsters/creatureTypes.md#_fire-subtype)), 2 claws +17 (1d6+8), 2 wings +12 (1d4+4)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (30-ft. cone, 6d6 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), DC 17)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (30-ft. cone, 6d6 [fire](monsters/creatureTypes.md#_fire-subtype), DC 17)
 
 **Spell-Like Abilities** (CL 9th; concentration +10)
 
-At will—_ [burning hands](/pathfinderRPG/prd/additionalMonsters/../spells/burningHands.html#_burning-hands)_ (DC 12)
+At will—_ [burning hands](additionalMonsters/../spells/burningHands.md#_burning-hands)_ (DC 12)
 
 **Spells Known** (CL 1st; concentration +2)
 
-1st (4/day)—_ [flare burst](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/flareBurst.html#_flare-burst)_ (DC 12), _ [grease](/pathfinderRPG/prd/additionalMonsters/../spells/grease.html#_grease)_ (DC 12)
+1st (4/day)—_ [flare burst](additionalMonsters/../advanced/spells/flareBurst.md#_flare-burst)_ (DC 12), _ [grease](additionalMonsters/../spells/grease.md#_grease)_ (DC 12)
 
-0 (at will)—_ [bleed](/pathfinderRPG/prd/additionalMonsters/../spells/bleed.html#_bleed)_ (DC 11), _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [open/close](/pathfinderRPG/prd/additionalMonsters/../spells/openClose.html#_open-close)_, _ [spark](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/spark.html#_spark-)_
+0 (at will)—_ [bleed](additionalMonsters/../spells/bleed.md#_bleed)_ (DC 11), _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [open/close](additionalMonsters/../spells/openClose.md#_open-close)_, _ [spark](additionalMonsters/../advanced/spells/spark.md#_spark-)_
 
 Statistics
 
@@ -892,9 +892,9 @@ Statistics
 
 **Base Atk** +9; **CMB** +14; **CMD** 26 (30 vs. trip)
 
-**Feats** [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike)
+**Feats** [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +11 (+15 jump), [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +17, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +14, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +13, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +14, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +14, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +14, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +17
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +11 (+15 jump), [Climb](additionalMonsters/../skills/climb.md#_climb) +17, [Fly](additionalMonsters/../skills/fly.md#_fly) +14, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +13, [Perception](additionalMonsters/../skills/perception.md#_perception) +14, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +14, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +14, [Swim](additionalMonsters/../skills/swim.md#_swim) +17
 
 **Languages** Common, Draconic, Ignan
 
@@ -904,9 +904,9 @@ Adult Magma DragonCR 12
 
 **XP 19,200**
 
-CN Large [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) (extraplanar, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+CN Large [dragon](monsters/creatureTypes.md#_dragon) (extraplanar, [fire](monsters/creatureTypes.md#_fire-subtype))
 
-**Init** +5; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +22
+**Init** +5; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses; [Perception](additionalMonsters/../skills/perception.md#_perception) +22
 
 **Aura** frightful presence (180 ft., DC 20)
 
@@ -918,33 +918,33 @@ Defense
 
 **Fort** +16, **Ref** +10, **Will** +15
 
-**DR** 5/magic; **Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), paralysis, sleep; **SR** 23
+**DR** 5/magic; **Immune** [fire](monsters/creatureTypes.md#_fire-subtype), paralysis, sleep; **SR** 23
 
-**Weaknesses** vulnerable to [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype)
+**Weaknesses** vulnerable to [cold](monsters/creatureTypes.md#_cold-subtype)
 
 Offense
 
 **Speed** 40 ft., fly 200 ft. (poor)
 
-**Melee** bite +22 (2d6+12/19–20 plus 6 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)), 2 claws +22 (1d8+8/19–20), tail slap +17 (1d8+12), 2 wings +17 (1d6+4)
+**Melee** bite +22 (2d6+12/19–20 plus 6 [fire](monsters/creatureTypes.md#_fire-subtype)), 2 claws +22 (1d8+8/19–20), tail slap +17 (1d8+12), 2 wings +17 (1d6+4)
 
 **Space** 10 ft.; **Reach** 5 ft. (10 ft. with bite)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (40-ft. cone, 12d6 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), DC 22)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (40-ft. cone, 12d6 [fire](monsters/creatureTypes.md#_fire-subtype), DC 22)
 
 **Spell-Like Abilities** (CL 15th; concentration +18)
 
-At will—_ [burning hands](/pathfinderRPG/prd/additionalMonsters/../spells/burningHands.html#_burning-hands)_ (DC 14), _ [scorching ray](/pathfinderRPG/prd/additionalMonsters/../spells/scorchingRay.html#_scorching-ray)_, _ [wall of fire](/pathfinderRPG/prd/additionalMonsters/../spells/wallOfFire.html#_wall-of-fire)_
+At will—_ [burning hands](additionalMonsters/../spells/burningHands.md#_burning-hands)_ (DC 14), _ [scorching ray](additionalMonsters/../spells/scorchingRay.md#_scorching-ray)_, _ [wall of fire](additionalMonsters/../spells/wallOfFire.md#_wall-of-fire)_
 
 **Spells Known** (CL 7th; concentration +10)
 
-3rd (5/day)—_ [dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic)_, _ [fireball](/pathfinderRPG/prd/additionalMonsters/../spells/fireball.html#_fireball)_ (DC 16)
+3rd (5/day)—_ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [fireball](additionalMonsters/../spells/fireball.md#_fireball)_ (DC 16)
 
-2nd (7/day)—_ [dust of twilight](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/dustOfTwilight.html#_dust-of-twilight)_, _ [flaming sphere](/pathfinderRPG/prd/additionalMonsters/../spells/flamingSphere.html#_flaming-sphere)_ (DC 15), _ [glitterdust](/pathfinderRPG/prd/additionalMonsters/../spells/glitterdust.html#_glitterdust)_ (DC 15), _pyrotechnics_ (DC 15)
+2nd (7/day)—_ [dust of twilight](additionalMonsters/../advanced/spells/dustOfTwilight.md#_dust-of-twilight)_, _ [flaming sphere](additionalMonsters/../spells/flamingSphere.md#_flaming-sphere)_ (DC 15), _ [glitterdust](additionalMonsters/../spells/glitterdust.md#_glitterdust)_ (DC 15), _pyrotechnics_ (DC 15)
 
-1st (7/day)—_ [feather fall](/pathfinderRPG/prd/additionalMonsters/../spells/featherFall.html#_feather-fall)_, _ [flare burst](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/flareBurst.html#_flare-burst)_ (DC 14), _ [grease](/pathfinderRPG/prd/additionalMonsters/../spells/grease.html#_grease)_ (DC 14), _ [shield](/pathfinderRPG/prd/additionalMonsters/../spells/shield.html#_shield)_, _ [true strike](/pathfinderRPG/prd/additionalMonsters/../spells/trueStrike.html#_true-strike)_
+1st (7/day)—_ [feather fall](additionalMonsters/../spells/featherFall.md#_feather-fall)_, _ [flare burst](additionalMonsters/../advanced/spells/flareBurst.md#_flare-burst)_ (DC 14), _ [grease](additionalMonsters/../spells/grease.md#_grease)_ (DC 14), _ [shield](additionalMonsters/../spells/shield.md#_shield)_, _ [true strike](additionalMonsters/../spells/trueStrike.md#_true-strike)_
 
-0 (at will)—_ [bleed](/pathfinderRPG/prd/additionalMonsters/../spells/bleed.html#_bleed)_ (DC 13), _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/additionalMonsters/../spells/detectPoison.html#_detect-poison)_, _ [open/close](/pathfinderRPG/prd/additionalMonsters/../spells/openClose.html#_open-close)_, _ [read magic](/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic)_, _ [spark](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/spark.html#_spark-)_, _ [touch of fatigue](/pathfinderRPG/prd/additionalMonsters/../spells/touchOfFatigue.html#_touch-of-fatigue)_
+0 (at will)—_ [bleed](additionalMonsters/../spells/bleed.md#_bleed)_ (DC 13), _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [detect poison](additionalMonsters/../spells/detectPoison.md#_detect-poison)_, _ [open/close](additionalMonsters/../spells/openClose.md#_open-close)_, _ [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_, _ [spark](additionalMonsters/../advanced/spells/spark.md#_spark-)_, _ [touch of fatigue](additionalMonsters/../spells/touchOfFatigue.md#_touch-of-fatigue)_
 
 Statistics
 
@@ -952,9 +952,9 @@ Statistics
 
 **Base Atk** +15; **CMB** +24; **CMD** 35 (39 vs. trip)
 
-**Feats** [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (claws), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Improved Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-vital-strike), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike)
+**Feats** [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (claws), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +16 (+20 jump), [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +26, [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +16, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +13, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +21, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +22, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +22, [Sleight of Hand](/pathfinderRPG/prd/additionalMonsters/../skills/sleightOfHand.html#_sleight-of-hand) +16, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +15, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +26
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +16 (+20 jump), [Climb](additionalMonsters/../skills/climb.md#_climb) +26, [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +16, [Fly](additionalMonsters/../skills/fly.md#_fly) +13, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +21, [Perception](additionalMonsters/../skills/perception.md#_perception) +22, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +22, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand) +16, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +15, [Swim](additionalMonsters/../skills/swim.md#_swim) +26
 
 **Languages** Common, Draconic, Dwarven, Elven, Ignan
 
@@ -964,9 +964,9 @@ Ancient Magma DragonCR 17
 
 **XP 102,400**
 
-CN Huge [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) (extraplanar, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+CN Huge [dragon](monsters/creatureTypes.md#_dragon) (extraplanar, [fire](monsters/creatureTypes.md#_fire-subtype))
 
-**Init** +4; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +32
+**Init** +4; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses; [Perception](additionalMonsters/../skills/perception.md#_perception) +32
 
 **Aura** frightful presence (300 ft., DC 26)
 
@@ -978,45 +978,45 @@ Defense
 
 **Fort** +22, **Ref** +13, **Will** +21
 
-**DR** 15/magic; **Immune** [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), paralysis, sleep; **SR** 28
+**DR** 15/magic; **Immune** [fire](monsters/creatureTypes.md#_fire-subtype), paralysis, sleep; **SR** 28
 
-**Weaknesses** vulnerable to [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype)
+**Weaknesses** vulnerable to [cold](monsters/creatureTypes.md#_cold-subtype)
 
 Offense
 
 **Speed** 40 ft., fly 200 ft. (poor)
 
-**Melee** bite +33 (2d8+18/19–20 plus 10 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype)), 2 claws +33 (2d6+12/19–20), tail slap +31 (2d6+18), 2 wings +31 (1d8+6)
+**Melee** bite +33 (2d8+18/19–20 plus 10 [fire](monsters/creatureTypes.md#_fire-subtype)), 2 claws +33 (2d6+12/19–20), tail slap +31 (2d6+18), 2 wings +31 (1d8+6)
 
 **Space** 15 ft.; **Reach** 10 ft. (15 ft. with bite)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (50-ft. cone, DC 28, 20d6 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) plus special), crush, magma breath
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (50-ft. cone, DC 28, 20d6 [fire](monsters/creatureTypes.md#_fire-subtype) plus special), crush, magma breath
 
 **Spell-Like Abilities** (CL 23rd; concentration +28)
 
-Constant—_ [fire shield](/pathfinderRPG/prd/additionalMonsters/../spells/fireShield.html#_fire-shield)_ (warm)
+Constant—_ [fire shield](additionalMonsters/../spells/fireShield.md#_fire-shield)_ (warm)
 
-At will—_ [burning hands](/pathfinderRPG/prd/additionalMonsters/../spells/burningHands.html#_burning-hands)_ (DC 16), _ [scorching ray](/pathfinderRPG/prd/additionalMonsters/../spells/scorchingRay.html#_scorching-ray)_, _ [wall of fire](/pathfinderRPG/prd/additionalMonsters/../spells/wallOfFire.html#_wall-of-fire)_
+At will—_ [burning hands](additionalMonsters/../spells/burningHands.md#_burning-hands)_ (DC 16), _ [scorching ray](additionalMonsters/../spells/scorchingRay.md#_scorching-ray)_, _ [wall of fire](additionalMonsters/../spells/wallOfFire.md#_wall-of-fire)_
 
-3/day—_ [delayed blast fireball](/pathfinderRPG/prd/additionalMonsters/../spells/delayedBlastFireball.html#_delayed-blast-fireball)_ (DC 22)
+3/day—_ [delayed blast fireball](additionalMonsters/../spells/delayedBlastFireball.md#_delayed-blast-fireball)_ (DC 22)
 
 **Spells Known** (CL 15th; concentration +20)
 
-7th (4/day)—_ [greater polymorph](/pathfinderRPG/prd/additionalMonsters/../spells/polymorph.html#_polymorph-greater), [prismatic spray](/pathfinderRPG/prd/additionalMonsters/../spells/prismaticSpray.html#_prismatic-spray)_ (DC 22)
+7th (4/day)—_ [greater polymorph](additionalMonsters/../spells/polymorph.md#_polymorph-greater), [prismatic spray](additionalMonsters/../spells/prismaticSpray.md#_prismatic-spray)_ (DC 22)
 
-6th (6/day)—_ [chain lightning](/pathfinderRPG/prd/additionalMonsters/../spells/chainLightning.html#_chain-lightning)_ (DC 21), _ [contagious flame](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/contagiousFlame.html#_contagious-flame)_ (DC 21), _ [eyebite](/pathfinderRPG/prd/additionalMonsters/../spells/eyebite.html#_eyebite)_ (DC 21)
+6th (6/day)—_ [chain lightning](additionalMonsters/../spells/chainLightning.md#_chain-lightning)_ (DC 21), _ [contagious flame](additionalMonsters/../advanced/spells/contagiousFlame.md#_contagious-flame)_ (DC 21), _ [eyebite](additionalMonsters/../spells/eyebite.md#_eyebite)_ (DC 21)
 
-5th (7/day)—_ [hungry pit](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/hungryPit.html#_hungry-pit-)_ (DC 20), _ [polymorph](/pathfinderRPG/prd/additionalMonsters/../spells/polymorph.html#_polymorph)_, _ [teleport](/pathfinderRPG/prd/additionalMonsters/../spells/teleport.html#_teleport)_, _ [wall of force](/pathfinderRPG/prd/additionalMonsters/../spells/wallOfForce.html#_wall-of-force)_
+5th (7/day)—_ [hungry pit](additionalMonsters/../advanced/spells/hungryPit.md#_hungry-pit-)_ (DC 20), _ [polymorph](additionalMonsters/../spells/polymorph.md#_polymorph)_, _ [teleport](additionalMonsters/../spells/teleport.md#_teleport)_, _ [wall of force](additionalMonsters/../spells/wallOfForce.md#_wall-of-force)_
 
-4th (7/day)—_confusion_ (DC 19), _ [acid pit](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/acidPit.html#_acid-pit-)_ (DC 19), _ [dimensional anchor](/pathfinderRPG/prd/additionalMonsters/../spells/dimensionalAnchor.html#_dimensional)_, _ [fire shield](/pathfinderRPG/prd/additionalMonsters/../spells/fireShield.html#_fire-shield)_
+4th (7/day)—_confusion_ (DC 19), _ [acid pit](additionalMonsters/../advanced/spells/acidPit.md#_acid-pit-)_ (DC 19), _ [dimensional anchor](additionalMonsters/../spells/dimensionalAnchor.md#_dimensional)_, _ [fire shield](additionalMonsters/../spells/fireShield.md#_fire-shield)_
 
-3rd (7/day)—_ [displacement](/pathfinderRPG/prd/additionalMonsters/../spells/displacement.html#_displacement)_, _ [dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic)_, _ [fireball](/pathfinderRPG/prd/additionalMonsters/../spells/fireball.html#_fireball)_ (DC 18), _ [wind wall](/pathfinderRPG/prd/additionalMonsters/../spells/windWall.html#_wind-wall)_
+3rd (7/day)—_ [displacement](additionalMonsters/../spells/displacement.md#_displacement)_, _ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [fireball](additionalMonsters/../spells/fireball.md#_fireball)_ (DC 18), _ [wind wall](additionalMonsters/../spells/windWall.md#_wind-wall)_
 
-2nd (7/day)—_ [darkness](/pathfinderRPG/prd/additionalMonsters/../spells/darkness.html#_darkness)_, _ [dust of twilight](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/dustOfTwilight.html#_dust-of-twilight)_, _ [flaming sphere](/pathfinderRPG/prd/additionalMonsters/../spells/flamingSphere.html#_flaming-sphere)_ (DC 17), _ [glitterdust](/pathfinderRPG/prd/additionalMonsters/../spells/glitterdust.html#_glitterdust)_ (DC 17), _pyrotechnics_ (DC 17)
+2nd (7/day)—_ [darkness](additionalMonsters/../spells/darkness.md#_darkness)_, _ [dust of twilight](additionalMonsters/../advanced/spells/dustOfTwilight.md#_dust-of-twilight)_, _ [flaming sphere](additionalMonsters/../spells/flamingSphere.md#_flaming-sphere)_ (DC 17), _ [glitterdust](additionalMonsters/../spells/glitterdust.md#_glitterdust)_ (DC 17), _pyrotechnics_ (DC 17)
 
-1st (8/day)—_ [feather fall](/pathfinderRPG/prd/additionalMonsters/../spells/featherFall.html#_feather-fall)_, _ [flare burst](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/flareBurst.html#_flare-burst)_ (DC 16), _ [grease](/pathfinderRPG/prd/additionalMonsters/../spells/grease.html#_grease)_ (DC 16), _ [shield](/pathfinderRPG/prd/additionalMonsters/../spells/shield.html#_shield)_, _ [true strike](/pathfinderRPG/prd/additionalMonsters/../spells/trueStrike.html#_true-strike)_
+1st (8/day)—_ [feather fall](additionalMonsters/../spells/featherFall.md#_feather-fall)_, _ [flare burst](additionalMonsters/../advanced/spells/flareBurst.md#_flare-burst)_ (DC 16), _ [grease](additionalMonsters/../spells/grease.md#_grease)_ (DC 16), _ [shield](additionalMonsters/../spells/shield.md#_shield)_, _ [true strike](additionalMonsters/../spells/trueStrike.md#_true-strike)_
 
-0 (at will)—_ [bleed](/pathfinderRPG/prd/additionalMonsters/../spells/bleed.html#_bleed)_ (DC 15), _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic)_, _ [detect poison](/pathfinderRPG/prd/additionalMonsters/../spells/detectPoison.html#_detect-poison)_, _ [ghost sound](/pathfinderRPG/prd/additionalMonsters/../spells/ghostSound.html#_ghost-sound)_, _ [light](/pathfinderRPG/prd/additionalMonsters/../spells/light.html#_light)_, _ [open/close](/pathfinderRPG/prd/additionalMonsters/../spells/openClose.html#_open-close)_, _ [read magic](/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic)_, _ [spark](/pathfinderRPG/prd/additionalMonsters/../advanced/spells/spark.html#_spark-)_, _ [touch of fatigue](/pathfinderRPG/prd/additionalMonsters/../spells/touchOfFatigue.html#_touch-of-fatigue)_
+0 (at will)—_ [bleed](additionalMonsters/../spells/bleed.md#_bleed)_ (DC 15), _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [detect poison](additionalMonsters/../spells/detectPoison.md#_detect-poison)_, _ [ghost sound](additionalMonsters/../spells/ghostSound.md#_ghost-sound)_, _ [light](additionalMonsters/../spells/light.md#_light)_, _ [open/close](additionalMonsters/../spells/openClose.md#_open-close)_, _ [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_, _ [spark](additionalMonsters/../advanced/spells/spark.md#_spark-)_, _ [touch of fatigue](additionalMonsters/../spells/touchOfFatigue.md#_touch-of-fatigue)_
 
 Statistics
 
@@ -1024,11 +1024,11 @@ Statistics
 
 **Base Atk** +23; **CMB** +37; **CMD** 47 (51 vs. trip)
 
-**Feats** [Flyby Attack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Greater Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-vital-strike), [Improved Bull Rush](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-bull-rush), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (claws), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Improved Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-vital-strike), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike)
+**Feats** [Flyby Attack](additionalMonsters/../monsters/monsterFeats.md#_flyby-attack), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Greater Vital Strike](additionalMonsters/../feats.md#_greater-vital-strike), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (claws), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
 
-**Skills** [Acrobatics](/pathfinderRPG/prd/additionalMonsters/../skills/acrobatics.html#_acrobatics) +23 (+27 jump), [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +38, [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +23, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +18, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +31, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +32, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +32, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +32, [Sleight of Hand](/pathfinderRPG/prd/additionalMonsters/../skills/sleightOfHand.html#_sleight-of-hand) +23, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +18, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +32, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +38
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +23 (+27 jump), [Climb](additionalMonsters/../skills/climb.md#_climb) +38, [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +23, [Fly](additionalMonsters/../skills/fly.md#_fly) +18, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +31, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +32, [Perception](additionalMonsters/../skills/perception.md#_perception) +32, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +32, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand) +23, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +18, [Survival](additionalMonsters/../skills/survival.md#_survival) +32, [Swim](additionalMonsters/../skills/swim.md#_swim) +38
 
-**Languages** Common, Draconic, Dwarven, Elven, [Gnome](/pathfinderRPG/prd/monsters/creatureTypes.html#_gnome-subtype), Halfling, Ignan
+**Languages** Common, Draconic, Dwarven, Elven, [Gnome](monsters/creatureTypes.md#_gnome-subtype), Halfling, Ignan
 
 **SQ** superheated
 
@@ -1040,7 +1040,7 @@ This sleek, dark dragon moves with a disturbing, serpentine grace, its eyes glow
 
 Umbral Dragon
 
-CE [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CE [dragon](monsters/creatureTypes.md#_dragon) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
 Base Statistics
 
@@ -1048,7 +1048,7 @@ Base Statistics
 
 **Speed** 40 ft.
 
-**Natural Armor** +6; **[Breath Weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon)** cone, 2d8 negative energy
+**Natural Armor** +6; **[Breath Weapon](monsters/universalMonsterRules.md#_breath-weapon)** cone, 2d8 negative energy
 
 **Str** 13, **Dex** 14, **Con** 13, **Int** 14, **Wis** 15, **Cha** 14
 
@@ -1062,35 +1062,35 @@ Ecology
 
 Special Abilities
 
-**[Breath Weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (Su)** Although it deals negative energy damage, an umbral [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) does not heal [undead](/pathfinderRPG/prd/monsters/creatureTypes.html#_undead) creatures.
+**[Breath Weapon](monsters/universalMonsterRules.md#_breath-weapon) (Su)** Although it deals negative energy damage, an umbral [dragon](monsters/creatureTypes.md#_dragon)'s [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) does not heal [undead](monsters/creatureTypes.md#_undead) creatures.
 
-**Create Shadows (Su)** Any creature slain by an ancient or older umbral [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) rises as a shadow (if 8 HD or less) or greater shadow (if above 8 HD) under the umbral [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s control 1d4 rounds later.
+**Create Shadows (Su)** Any creature slain by an ancient or older umbral [dragon](monsters/creatureTypes.md#_dragon) rises as a shadow (if 8 HD or less) or greater shadow (if above 8 HD) under the umbral [dragon](monsters/creatureTypes.md#_dragon)'s control 1d4 rounds later.
 
-**Energy Drain (Su)** A great wyrm umbral [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) deals 1 negative level with each successful bite or claw attack (1 level, DC 32).
+**Energy Drain (Su)** A great wyrm umbral [dragon](monsters/creatureTypes.md#_dragon) deals 1 negative level with each successful bite or claw attack (1 level, DC 32).
 
-**Ghost Bane (Su)** A young or older umbral [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon)'s physical attacks deal damage to [incorporeal](/pathfinderRPG/prd/monsters/creatureTypes.html#_incorporeal-subtype) creatures normally.
+**Ghost Bane (Su)** A young or older umbral [dragon](monsters/creatureTypes.md#_dragon)'s physical attacks deal damage to [incorporeal](monsters/creatureTypes.md#_incorporeal-subtype) creatures normally.
 
-**Umbral Scion (Ex)** Umbral dragons have [negative energy affinity](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_negative-energy-affinity) and are immune to energy drain and death effects.
+**Umbral Scion (Ex)** Umbral dragons have [negative energy affinity](monsters/universalMonsterRules.md#_negative-energy-affinity) and are immune to energy drain and death effects.
 
-**Shadow Breath (Su)** Three times per day, an adult or older umbral [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) can breathe a cone of shadows. Creatures who fail a Fortitude save are blinded for 1d4 rounds and take 1 point of Str drain per age category possessed by the [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon). A successful save negates the blindness and reduces Str drain to 1d4 points.
+**Shadow Breath (Su)** Three times per day, an adult or older umbral [dragon](monsters/creatureTypes.md#_dragon) can breathe a cone of shadows. Creatures who fail a Fortitude save are blinded for 1d4 rounds and take 1 point of Str drain per age category possessed by the [dragon](monsters/creatureTypes.md#_dragon). A successful save negates the blindness and reduces Str drain to 1d4 points.
 
-**Spell-Like Abilities (Sp)** An umbral [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) gains the following spell-like abilities, usable at will (unless indicated otherwise) on reaching the listed age category. Young—_ [darkness](/pathfinderRPG/prd/additionalMonsters/../spells/darkness.html#_darkness)_; Juvenile—_ [vampiric touch](/pathfinderRPG/prd/additionalMonsters/../spells/vampiricTouch.html#_vampiric-touch)_; Adult—_ [shadow walk](/pathfinderRPG/prd/additionalMonsters/../spells/shadowWalk.html#_shadow-walk)_; Old—_ [project image](/pathfinderRPG/prd/additionalMonsters/../spells/projectImage.html#_project-image)_; Ancient—_ [finger of death](/pathfinderRPG/prd/additionalMonsters/../spells/fingerOfDeath.html#_finger-of-death)_ (3/day), Great wyrm—_ [shades](/pathfinderRPG/prd/additionalMonsters/../spells/shades.html#_shades)_. An umbral dragon can cast cleric spells as arcane spells.
+**Spell-Like Abilities (Sp)** An umbral [dragon](monsters/creatureTypes.md#_dragon) gains the following spell-like abilities, usable at will (unless indicated otherwise) on reaching the listed age category. Young—_ [darkness](additionalMonsters/../spells/darkness.md#_darkness)_; Juvenile—_ [vampiric touch](additionalMonsters/../spells/vampiricTouch.md#_vampiric-touch)_; Adult—_ [shadow walk](additionalMonsters/../spells/shadowWalk.md#_shadow-walk)_; Old—_ [project image](additionalMonsters/../spells/projectImage.md#_project-image)_; Ancient—_ [finger of death](additionalMonsters/../spells/fingerOfDeath.md#_finger-of-death)_ (3/day), Great wyrm—_ [shades](additionalMonsters/../spells/shades.md#_shades)_. An umbral dragon can cast cleric spells as arcane spells.
 
 [Table: Umbral Special Abilities]
 | Age Category | Special Abilities | Caster Level |
 | --- | --- | --- |
 | Wyrmling | Umbral scion, immune to cold | — |
-| Very young | _ [Darkness](/pathfinderRPG/prd/additionalMonsters/../spells/darkness.html#_darkness)_ | — |
+| Very young | _ [Darkness](additionalMonsters/../spells/darkness.md#_darkness)_ | — |
 | Young | Ghost bane | 1st |
-| Juvenile | Frightful presence, _ [vampiric touch](/pathfinderRPG/prd/additionalMonsters/../spells/vampiricTouch.html#_vampiric-touch)_ | 3rd |
+| Juvenile | Frightful presence, _ [vampiric touch](additionalMonsters/../spells/vampiricTouch.md#_vampiric-touch)_ | 3rd |
 | Young adult | DR 5/magic, spell resistance | 5th |
-| Adult | Shadow breath, _ [shadow walk](/pathfinderRPG/prd/additionalMonsters/../spells/shadowWalk.html#_shadow-walk)_ | 7th |
+| Adult | Shadow breath, _ [shadow walk](additionalMonsters/../spells/shadowWalk.md#_shadow-walk)_ | 7th |
 | Mature adult | DR 10/magic | 9th |
-| Old | _ [Project image](/pathfinderRPG/prd/additionalMonsters/../spells/projectImage.html#_project-image)_ | 11th |
+| Old | _ [Project image](additionalMonsters/../spells/projectImage.md#_project-image)_ | 11th |
 | Very old | DR 15/magic | 13th |
-| Ancient | Create shadows, _ [finger of death](/pathfinderRPG/prd/additionalMonsters/../spells/fingerOfDeath.html#_finger-of-death)_ | 15th |
+| Ancient | Create shadows, _ [finger of death](additionalMonsters/../spells/fingerOfDeath.md#_finger-of-death)_ | 15th |
 | Wyrm | DR 20/magic | 17th |
-| Great wyrm | Energy drain, _ [shades](/pathfinderRPG/prd/additionalMonsters/../spells/shades.html#_shades)_ | 19th |
+| Great wyrm | Energy drain, _ [shades](additionalMonsters/../spells/shades.md#_shades)_ | 19th |
 
   
   
@@ -1099,9 +1099,9 @@ Young Umbral DragonCR 10
 
 **XP 9,600**
 
-CE Large [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CE Large [dragon](monsters/creatureTypes.md#_dragon) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +5; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +17
+**Init** +5; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses; [Perception](additionalMonsters/../skills/perception.md#_perception) +17
 
 Defense
 
@@ -1111,7 +1111,7 @@ Defense
 
 **Fort** +10, **Ref** +8, **Will** +10
 
-**Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), death effects, energy drain, paralysis, sleep
+**Immune** [cold](monsters/creatureTypes.md#_cold-subtype), death effects, energy drain, paralysis, sleep
 
 Offense
 
@@ -1121,17 +1121,17 @@ Offense
 
 **Space** 10 ft.; **Reach** 5 ft. (10 ft. with bite)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (40-ft. cone, 6d8 neg. energy, DC 18)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (40-ft. cone, 6d8 neg. energy, DC 18)
 
 **Spell-Like Abilities** (CL 11th; concentration +14)
 
-At will—_ [darkness](/pathfinderRPG/prd/additionalMonsters/../spells/darkness.html#_darkness)_
+At will—_ [darkness](additionalMonsters/../spells/darkness.md#_darkness)_
 
 **Spells Known** (CL 1st; concentration +4)
 
-1st (4/day)—_ [inflict light wounds](/pathfinderRPG/prd/additionalMonsters/../spells/inflictLightWounds.html#_inflict-light-wounds) _(DC 14)_, [shield](/pathfinderRPG/prd/additionalMonsters/../spells/shield.html#_shield)_
+1st (4/day)—_ [inflict light wounds](additionalMonsters/../spells/inflictLightWounds.md#_inflict-light-wounds) _(DC 14)_, [shield](additionalMonsters/../spells/shield.md#_shield)_
 
-0 (at will)—_ [bleed](/pathfinderRPG/prd/additionalMonsters/../spells/bleed.html#_bleed)_ (DC 13), _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic), [detect poison](/pathfinderRPG/prd/additionalMonsters/../spells/detectPoison.html#_detect-poison), [read magic](/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic)_
+0 (at will)—_ [bleed](additionalMonsters/../spells/bleed.md#_bleed)_ (DC 13), _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic), [detect poison](additionalMonsters/../spells/detectPoison.md#_detect-poison), [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_
 
 Statistics
 
@@ -1139,9 +1139,9 @@ Statistics
 
 **Base Atk** +11; **CMB** +17; **CMD** 28 (32 vs. trip)
 
-**Feats** [Hover](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover), [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike)
+**Feats** [Hover](additionalMonsters/../monsters/monsterFeats.md#_hover), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +17, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +17, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +9, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana, local, planes) +17, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +17, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +17, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +11
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +17, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +17, [Fly](additionalMonsters/../skills/fly.md#_fly) +9, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana, local, planes) +17, [Perception](additionalMonsters/../skills/perception.md#_perception) +17, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +17, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +11
 
 **Languages** Abyssal, Common, Draconic, Undercommon
 
@@ -1151,9 +1151,9 @@ Adult Umbral DragonCR 14
 
 **XP 38,400**
 
-CE Huge [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CE Huge [dragon](monsters/creatureTypes.md#_dragon) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +4; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +25
+**Init** +4; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses; [Perception](additionalMonsters/../skills/perception.md#_perception) +25
 
 **Aura** frightful presence (180 ft., DC 23)
 
@@ -1165,7 +1165,7 @@ Defense
 
 **Fort** +15, **Ref** +10, **Will** +15
 
-**DR** 5/magic; **Immune** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), death effects, energy drain, paralysis, sleep; **SR** 25
+**DR** 5/magic; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), death effects, energy drain, paralysis, sleep; **SR** 25
 
 Offense
 
@@ -1175,21 +1175,21 @@ Offense
 
 **Space** 15 ft.; **Reach** 10 ft. (15 ft. with bite)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (50-ft. cone, DC 23, 12d8 negative energy, DC 23), crush, shadow breath (6 Str)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (50-ft. cone, DC 23, 12d8 negative energy, DC 23), crush, shadow breath (6 Str)
 
 **Spell-Like Abilities** (CL 17th; concentration +22)
 
-At will—_ [darkness](/pathfinderRPG/prd/additionalMonsters/../spells/darkness.html#_darkness), [shadow walk](/pathfinderRPG/prd/additionalMonsters/../spells/shadowWalk.html#_shadow-walk), [vampiric touch](/pathfinderRPG/prd/additionalMonsters/../spells/vampiricTouch.html#_vampiric-touch)_
+At will—_ [darkness](additionalMonsters/../spells/darkness.md#_darkness), [shadow walk](additionalMonsters/../spells/shadowWalk.md#_shadow-walk), [vampiric touch](additionalMonsters/../spells/vampiricTouch.md#_vampiric-touch)_
 
 **Spells Known** (CL 7th; concentration +12)
 
-3rd (5/day)—_ [dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic), [inflict serious wounds](/pathfinderRPG/prd/additionalMonsters/../spells/inflictSeriousWounds.html#_inflict-serious-wounds) _(DC 18)
+3rd (5/day)—_ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic), [inflict serious wounds](additionalMonsters/../spells/inflictSeriousWounds.md#_inflict-serious-wounds) _(DC 18)
 
-2nd (7/day)—_ [command undead](/pathfinderRPG/prd/additionalMonsters/../spells/commandUndead.html#_command-undead)_ (DC 17)_, [invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility), [web](/pathfinderRPG/prd/additionalMonsters/../spells/web.html#_web)_ (DC 17)
+2nd (7/day)—_ [command undead](additionalMonsters/../spells/commandUndead.md#_command-undead)_ (DC 17)_, [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility), [web](additionalMonsters/../spells/web.md#_web)_ (DC 17)
 
-1st (8/day)—_ [grease](/pathfinderRPG/prd/additionalMonsters/../spells/grease.html#_grease)_ (DC 16), _ [inflict light wounds](/pathfinderRPG/prd/additionalMonsters/../spells/inflictLightWounds.html#_inflict-light-wounds) _(DC 16), _ [magic missile](/pathfinderRPG/prd/additionalMonsters/../spells/magicMissile.html#_magic-missile), [reduce person](/pathfinderRPG/prd/additionalMonsters/../spells/reducePerson.html#_reduce-person)_ (DC 16), _ [shield](/pathfinderRPG/prd/additionalMonsters/../spells/shield.html#_shield)_
+1st (8/day)—_ [grease](additionalMonsters/../spells/grease.md#_grease)_ (DC 16), _ [inflict light wounds](additionalMonsters/../spells/inflictLightWounds.md#_inflict-light-wounds) _(DC 16), _ [magic missile](additionalMonsters/../spells/magicMissile.md#_magic-missile), [reduce person](additionalMonsters/../spells/reducePerson.md#_reduce-person)_ (DC 16), _ [shield](additionalMonsters/../spells/shield.md#_shield)_
 
-0 (at will)—_ [bleed](/pathfinderRPG/prd/additionalMonsters/../spells/bleed.html#_bleed)_ (DC 15), _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic), [detect poison](/pathfinderRPG/prd/additionalMonsters/../spells/detectPoison.html#_detect-poison), [disrupt undead](/pathfinderRPG/prd/additionalMonsters/../spells/disruptUndead.html#_disrupt-undead)_ (DC 15), _ [mage hand](/pathfinderRPG/prd/additionalMonsters/../spells/mageHand.html#_mage-hand), [ray of frost](/pathfinderRPG/prd/additionalMonsters/../spells/rayOfFrost.html#_ray-of-frost), [read magic](/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic)_
+0 (at will)—_ [bleed](additionalMonsters/../spells/bleed.md#_bleed)_ (DC 15), _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic), [detect poison](additionalMonsters/../spells/detectPoison.md#_detect-poison), [disrupt undead](additionalMonsters/../spells/disruptUndead.md#_disrupt-undead)_ (DC 15), _ [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand), [ray of frost](additionalMonsters/../spells/rayOfFrost.md#_ray-of-frost), [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_
 
 Statistics
 
@@ -1197,9 +1197,9 @@ Statistics
 
 **Base Atk** +17; **CMB** +27; **CMD** 37 (41 vs. trip)
 
-**Feats** [Hover](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover), Imp. Critical (bite), Imp. Initiative, Imp. [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)), [Snatch](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_snatch), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike)
+**Feats** [Hover](additionalMonsters/../monsters/monsterFeats.md#_hover), Imp. Critical (bite), Imp. Initiative, Imp. [Vital Strike](additionalMonsters/../feats.md#_vital-strike), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth.md#_stealth)), [Snatch](additionalMonsters/../monsters/monsterFeats.md#_snatch), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
 
-**Skills** [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +25, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +25, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +16, Knowledge (arcana, local, planes) +25, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +25, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +25, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +18, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +25
+**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +25, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +25, [Fly](additionalMonsters/../skills/fly.md#_fly) +16, Knowledge (arcana, local, planes) +25, [Perception](additionalMonsters/../skills/perception.md#_perception) +25, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +25, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +18, [Survival](additionalMonsters/../skills/survival.md#_survival) +25
 
 **Languages** Abyssal, Common, Draconic, Undercommon, 2 more
 
@@ -1209,9 +1209,9 @@ Ancient Umbral DragonCR 19
 
 **XP 204,800**
 
-CE Gargantuan [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) ( [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+CE Gargantuan [dragon](monsters/creatureTypes.md#_dragon) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +3; **Senses** [dragon](/pathfinderRPG/prd/monsters/creatureTypes.html#_dragon) senses; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +35
+**Init** +3; **Senses** [dragon](monsters/creatureTypes.md#_dragon) senses; [Perception](additionalMonsters/../skills/perception.md#_perception) +35
 
 **Aura** frightful presence (300 ft., DC 29)
 
@@ -1233,31 +1233,31 @@ Offense
 
 **Space** 20 ft.; **Reach** 15 ft. (20 ft. with bite)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (60-ft. cone, 20d8 neg. energy, DC 29), create shadows, crush, shadow breath (10 Str), tail sweep
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (60-ft. cone, 20d8 neg. energy, DC 29), create shadows, crush, shadow breath (10 Str), tail sweep
 
 **Spell-Like Abilities** (CL 25th; concentration +32)
 
-At will—_ [darkness](/pathfinderRPG/prd/additionalMonsters/../spells/darkness.html#_darkness), [project image](/pathfinderRPG/prd/additionalMonsters/../spells/projectImage.html#_project-image), [shadow walk](/pathfinderRPG/prd/additionalMonsters/../spells/shadowWalk.html#_shadow-walk), [vampiric touch](/pathfinderRPG/prd/additionalMonsters/../spells/vampiricTouch.html#_vampiric-touch)_
+At will—_ [darkness](additionalMonsters/../spells/darkness.md#_darkness), [project image](additionalMonsters/../spells/projectImage.md#_project-image), [shadow walk](additionalMonsters/../spells/shadowWalk.md#_shadow-walk), [vampiric touch](additionalMonsters/../spells/vampiricTouch.md#_vampiric-touch)_
 
-3/day—_ [finger of death](/pathfinderRPG/prd/additionalMonsters/../spells/fingerOfDeath.html#_finger-of-death)_ (DC 24)
+3/day—_ [finger of death](additionalMonsters/../spells/fingerOfDeath.md#_finger-of-death)_ (DC 24)
 
 **Spells Known** (CL 15th; concentration +22)
 
-7th (5/day)—_ [destruction](/pathfinderRPG/prd/additionalMonsters/../spells/destruction.html#_destruction)_ (DC 24), _ [limited wish](/pathfinderRPG/prd/additionalMonsters/../spells/limitedWish.html#_limited-wish)_
+7th (5/day)—_ [destruction](additionalMonsters/../spells/destruction.md#_destruction)_ (DC 24), _ [limited wish](additionalMonsters/../spells/limitedWish.md#_limited-wish)_
 
-6th (7/day)—_ [harm](/pathfinderRPG/prd/additionalMonsters/../spells/harm.html#_harm)_ (DC 23), _ [mislead](/pathfinderRPG/prd/additionalMonsters/../spells/mislead.html#_mislead)_, _ [veil](/pathfinderRPG/prd/additionalMonsters/../spells/veil.html#_veil)_ (DC 23)
+6th (7/day)—_ [harm](additionalMonsters/../spells/harm.md#_harm)_ (DC 23), _ [mislead](additionalMonsters/../spells/mislead.md#_mislead)_, _ [veil](additionalMonsters/../spells/veil.md#_veil)_ (DC 23)
 
-5th (7/day)—_ [greater command](/pathfinderRPG/prd/additionalMonsters/../spells/command.html#_command-greater)_ (DC 22), _ [slay living](/pathfinderRPG/prd/additionalMonsters/../spells/slayLiving.html#_slay-living)_ (DC 22), _ [teleport](/pathfinderRPG/prd/additionalMonsters/../spells/teleport.html#_teleport)_, _ [unhallow](/pathfinderRPG/prd/additionalMonsters/../spells/unhallow.html#_unhallow)_
+5th (7/day)—_ [greater command](additionalMonsters/../spells/command.md#_command-greater)_ (DC 22), _ [slay living](additionalMonsters/../spells/slayLiving.md#_slay-living)_ (DC 22), _ [teleport](additionalMonsters/../spells/teleport.md#_teleport)_, _ [unhallow](additionalMonsters/../spells/unhallow.md#_unhallow)_
 
-4th (7/day)—_ [enervation](/pathfinderRPG/prd/additionalMonsters/../spells/enervation.html#_enervation), inflict crit. wounds_ (DC 21), _ [phantasmal killer](/pathfinderRPG/prd/additionalMonsters/../spells/phantasmalKiller.html#_phantasmal-killer)_ (DC 21), _ [unholy blight](/pathfinderRPG/prd/additionalMonsters/../spells/unholyBlight.html#_unholy-blight)_ (DC 21)
+4th (7/day)—_ [enervation](additionalMonsters/../spells/enervation.md#_enervation), inflict crit. wounds_ (DC 21), _ [phantasmal killer](additionalMonsters/../spells/phantasmalKiller.md#_phantasmal-killer)_ (DC 21), _ [unholy blight](additionalMonsters/../spells/unholyBlight.md#_unholy-blight)_ (DC 21)
 
-3rd (8/day)—_ [dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic), [haste](/pathfinderRPG/prd/additionalMonsters/../spells/haste.html#_haste), [inflict serious wounds](/pathfinderRPG/prd/additionalMonsters/../spells/inflictSeriousWounds.html#_inflict-serious-wounds) _(DC 20), _ [lightning bolt](/pathfinderRPG/prd/additionalMonsters/../spells/lightningBolt.html#_lightning-bolt)_ (DC 20)
+3rd (8/day)—_ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic), [haste](additionalMonsters/../spells/haste.md#_haste), [inflict serious wounds](additionalMonsters/../spells/inflictSeriousWounds.md#_inflict-serious-wounds) _(DC 20), _ [lightning bolt](additionalMonsters/../spells/lightningBolt.md#_lightning-bolt)_ (DC 20)
 
-2nd (8/day)—_ [alter self](/pathfinderRPG/prd/additionalMonsters/../spells/alterSelf.html#_alter-self), [blur](/pathfinderRPG/prd/additionalMonsters/../spells/blur.html#_blur), [command undead](/pathfinderRPG/prd/additionalMonsters/../spells/commandUndead.html#_command-undead)_ (DC 19), _ [invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility), [web](/pathfinderRPG/prd/additionalMonsters/../spells/web.html#_web)_ (DC 17)
+2nd (8/day)—_ [alter self](additionalMonsters/../spells/alterSelf.md#_alter-self), [blur](additionalMonsters/../spells/blur.md#_blur), [command undead](additionalMonsters/../spells/commandUndead.md#_command-undead)_ (DC 19), _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility), [web](additionalMonsters/../spells/web.md#_web)_ (DC 17)
 
-1st (8/day)—_ [inflict light wounds](/pathfinderRPG/prd/additionalMonsters/../spells/inflictLightWounds.html#_inflict-light-wounds)_ (DC 18), _ [grease](/pathfinderRPG/prd/additionalMonsters/../spells/grease.html#_grease) _(DC 18), _ [magic missile](/pathfinderRPG/prd/additionalMonsters/../spells/magicMissile.html#_magic-missile), [reduce person](/pathfinderRPG/prd/additionalMonsters/../spells/reducePerson.html#_reduce-person) _(DC 18), _ [shield](/pathfinderRPG/prd/additionalMonsters/../spells/shield.html#_shield)_
+1st (8/day)—_ [inflict light wounds](additionalMonsters/../spells/inflictLightWounds.md#_inflict-light-wounds)_ (DC 18), _ [grease](additionalMonsters/../spells/grease.md#_grease) _(DC 18), _ [magic missile](additionalMonsters/../spells/magicMissile.md#_magic-missile), [reduce person](additionalMonsters/../spells/reducePerson.md#_reduce-person) _(DC 18), _ [shield](additionalMonsters/../spells/shield.md#_shield)_
 
-0 (at will)—_ [acid splash](/pathfinderRPG/prd/additionalMonsters/../spells/acidSplash.html#_acid-splash), [bleed](/pathfinderRPG/prd/additionalMonsters/../spells/bleed.html#_bleed)_ (DC 17), _ [detect magic](/pathfinderRPG/prd/additionalMonsters/../spells/detectMagic.html#_detect-magic), [detect poison](/pathfinderRPG/prd/additionalMonsters/../spells/detectPoison.html#_detect-poison), [disrupt undead](/pathfinderRPG/prd/additionalMonsters/../spells/disruptUndead.html#_disrupt-undead) _(DC 17), _ [ghost sound](/pathfinderRPG/prd/additionalMonsters/../spells/ghostSound.html#_ghost-sound), [mage hand](/pathfinderRPG/prd/additionalMonsters/../spells/mageHand.html#_mage-hand), [ray of frost](/pathfinderRPG/prd/additionalMonsters/../spells/rayOfFrost.html#_ray-of-frost), [read magic](/pathfinderRPG/prd/additionalMonsters/../spells/readMagic.html#_read-magic)_
+0 (at will)—_ [acid splash](additionalMonsters/../spells/acidSplash.md#_acid-splash), [bleed](additionalMonsters/../spells/bleed.md#_bleed)_ (DC 17), _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic), [detect poison](additionalMonsters/../spells/detectPoison.md#_detect-poison), [disrupt undead](additionalMonsters/../spells/disruptUndead.md#_disrupt-undead) _(DC 17), _ [ghost sound](additionalMonsters/../spells/ghostSound.md#_ghost-sound), [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand), [ray of frost](additionalMonsters/../spells/rayOfFrost.md#_ray-of-frost), [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_
 
 Statistics
 
@@ -1265,9 +1265,9 @@ Statistics
 
 **Base Atk** +25; **CMB** +41; **CMD** 50 (54 vs. trip)
 
-**Feats** [Bleeding Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_bleeding-critical), [Critical Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_critical-focus), [Flyby Attack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_flyby-attack), [Greater Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_greater-vital-strike), [Hover](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_hover), Imp. Critical (bite), Imp. Initiative, Imp. [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike), [Multiattack](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_multiattack), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)), [Snatch](/pathfinderRPG/prd/additionalMonsters/../monsters/monsterFeats.html#_snatch), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike)
+**Feats** [Bleeding Critical](additionalMonsters/../feats.md#_bleeding-critical), [Critical Focus](additionalMonsters/../feats.md#_critical-focus), [Flyby Attack](additionalMonsters/../monsters/monsterFeats.md#_flyby-attack), [Greater Vital Strike](additionalMonsters/../feats.md#_greater-vital-strike), [Hover](additionalMonsters/../monsters/monsterFeats.md#_hover), Imp. Critical (bite), Imp. Initiative, Imp. [Vital Strike](additionalMonsters/../feats.md#_vital-strike), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth.md#_stealth)), [Snatch](additionalMonsters/../monsters/monsterFeats.md#_snatch), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
 
-**Skills** [Appraise](/pathfinderRPG/prd/additionalMonsters/../skills/appraise.html#_appraise) +35, [Bluff](/pathfinderRPG/prd/additionalMonsters/../skills/bluff.html#_bluff) +35, [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +35, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +13, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana, local, planes, religion) +35, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +35, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +35, [Spellcraft](/pathfinderRPG/prd/additionalMonsters/../skills/spellcraft.html#_spellcraft) +35, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +21, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +35
+**Skills** [Appraise](additionalMonsters/../skills/appraise.md#_appraise) +35, [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +35, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +35, [Fly](additionalMonsters/../skills/fly.md#_fly) +13, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana, local, planes, religion) +35, [Perception](additionalMonsters/../skills/perception.md#_perception) +35, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +35, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +35, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +21, [Survival](additionalMonsters/../skills/survival.md#_survival) +35
 
 **Languages** Abyssal, Common, Draconic, Undercommon, 4 more
 

@@ -6,7 +6,7 @@ Sphinxes prefer warm desert climes and the hills nearby, both for the comforting
 
 While sphinxes as a race are not truly immortal, they are fantastically long-lived, save for the violent hieracosphinxes, who rarely survive their second decade. Unless slain by accident, violence, or misadventure, other sphinxes seem to pass on only when they have at last wearied of living and will themselves to die. The older a sphinx is, the less it needs consume. The oldest of sphinxes dine perhaps once per century, making them ideal guardians for monuments, temples, and tombs.
 
-Sphinxes prefer to converse in their own tongue, but most speak the languages of humans and dragons as well. Addressing a sphinx in its own language with all due politeness and deference goes a long way to ensure peaceful conversation. All sphinxes save hieracosphinxes enjoy stimulating conversation, though for such long-lived creatures their memory for detail is sadly lacking. In some cultures, âa mind like a sphinxâ serves as a sarcastic alternative to âscatter-brained.â
+Sphinxes prefer to converse in their own tongue, but most speak the languages of humans and dragons as well. Addressing a sphinx in its own language with all due politeness and deference goes a long way to ensure peaceful conversation. All sphinxes save hieracosphinxes enjoy stimulating conversation, though for such long-lived creatures their memory for detail is sadly lacking. In some cultures, “a mind like a sphinx” serves as a sarcastic alternative to “scatter-brained.”
 
 Though sphinxes have a reputation for loving riddles, in truth, only gynosphinxes truly enjoy them. Androsphinxes prefer lofty philosophical discussions, while criosphinxes prefer worldly topics or fawning praise. Hieracosphinxes rarely converse at all, and respond only to threats from creatures more powerful than they are.
 
@@ -18,7 +18,7 @@ From these rare couplings, two to four sphinxes of any type may be born, regardl
 
 People of the desert sometimes honor the sphinx's form by crafting great stone sphinxes, often bearing the faces of their own rulers and nobles. Legend holds the first such monuments were modeled on the eldest and greatest of sphinxes, paragons of knowledge and wisdom far larger in size than any common sphinx. The oldest and largest of these sphinxes settled into the desert sands when at last they tired of immortality, and as they passed into their final sleep, their bodies became as sandstone.
 
-These elder sphinxes may be androsphinxes or gynosphinxes, or very rarely criosphinxes. They have at minimum the advanced template, many additional Hit Dice, and a size of at least Huge (and more often Gargantuan or Colossal). They can use _ [commune](/pathfinderRPG/prd/spells/commune.html#_commune)_, _ [contact other plane](/pathfinderRPG/prd/spells/contactOtherPlane.html#_contact-other-plane)_, and _ [legend lore](/pathfinderRPG/prd/spells/legendLore.html#_legend-lore)_ as spell-like abilities once each per day (CL equals the sphinx's CR), and frequently possess other powers and special attacks. Many such sphinxes can enter a state of stony suspended animation that resembles the freeze special ability, though they cannot easily rouse themselves from such slumber. Other sphinxes, even the bestial hieracosphinxes, defer to elder sphinxes in all matters, treating them almost as gods.
+These elder sphinxes may be androsphinxes or gynosphinxes, or very rarely criosphinxes. They have at minimum the advanced template, many additional Hit Dice, and a size of at least Huge (and more often Gargantuan or Colossal). They can use _ [commune](spells/commune.md#_commune)_, _ [contact other plane](spells/contactOtherPlane.md#_contact-other-plane)_, and _ [legend lore](spells/legendLore.md#_legend-lore)_ as spell-like abilities once each per day (CL equals the sphinx's CR), and frequently possess other powers and special attacks. Many such sphinxes can enter a state of stony suspended animation that resembles the freeze special ability, though they cannot easily rouse themselves from such slumber. Other sphinxes, even the bestial hieracosphinxes, defer to elder sphinxes in all matters, treating them almost as gods.
 
 # Sphinx, Androsphinx
 
@@ -30,7 +30,7 @@ XP 6,400
 
 CG Large magical beast
 
-**Init** +0; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +23
+**Init** +0; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +23
 
 Defense
 
@@ -44,21 +44,21 @@ Offense
 
 **Speed** 40 ft., fly 60 ft. (poor)
 
-**Melee** 2 claws +20 (2d6+8/19–20 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** 2 claws +20 (2d6+8/19–20 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce), [rake](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_rake) (2 claws +20, 2d6+8), roar
+**Special Attacks** [pounce](monsters/universalMonsterRules.md#_pounce), [rake](monsters/universalMonsterRules.md#_rake) (2 claws +20, 2d6+8), roar
 
 **Spells Prepared** (CL 6th; concentration +9)
 
-3rd—_ [bestow curse](/pathfinderRPG/prd/spells/bestowCurse.html#_bestow-curse)_ (DC 16), _ [searing light](/pathfinderRPG/prd/spells/searingLight.html#_searing-light)_, _ [speak with dead](/pathfinderRPG/prd/spells/speakWithDead.html#_speak-with-dead)_
+3rd—_ [bestow curse](spells/bestowCurse.md#_bestow-curse)_ (DC 16), _ [searing light](spells/searingLight.md#_searing-light)_, _ [speak with dead](spells/speakWithDead.md#_speak-with-dead)_
 
-2nd—_ [bull's strength](/pathfinderRPG/prd/spells/bullSStrength.html#_bull-s-strength)_, _ [calm emotions](/pathfinderRPG/prd/spells/calmEmotions.html#_calm-emotions)_ (DC 15), _ [cure moderate wounds](/pathfinderRPG/prd/spells/cureModerateWounds.html#_cure-moderate-wounds)_, _ [resist energy](/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy)_
+2nd—_ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [calm emotions](spells/calmEmotions.md#_calm-emotions)_ (DC 15), _ [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
 
-1st—_ [comprehend languages](/pathfinderRPG/prd/spells/comprehendLanguages.html#_comprehend-languages)_, _ [divine favor](/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor)_, _ [remove fear](/pathfinderRPG/prd/spells/removeFear.html#_remove-fear)_, _ [shield of faith](/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith)_
+1st—_ [comprehend languages](spells/comprehendLanguages.md#_comprehend-languages)_, _ [divine favor](spells/divineFavor.md#_divine-favor)_, _ [remove fear](spells/removeFear.md#_remove-fear)_, _ [shield of faith](spells/shieldOfFaith.md#_shield-of-faith)_
 
-0—_ [detect magic](/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic)_, _ [guidance](/pathfinderRPG/prd/spells/guidance.html#_guidance)_, _ [purify food and drink](/pathfinderRPG/prd/spells/purifyFoodAndDrink.html#_purify-food-and-drink)_, _ [stabilize](/pathfinderRPG/prd/spells/stabilize.html#_stabilize)_
+0—_ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [guidance](spells/guidance.md#_guidance)_, _ [purify food and drink](spells/purifyFoodAndDrink.md#_purify-food-and-drink)_, _ [stabilize](spells/stabilize.md#_stabilize)_
 
 Statistics
 
@@ -66,9 +66,9 @@ Statistics
 
 **Base Atk** +13; **CMB** +22; **CMD** 32 (36 vs. trip)
 
-**Feats** [Alertness](/pathfinderRPG/prd/feats.html#_alertness), Cleave, [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), Great Cleave, [Hover](/pathfinderRPG/prd/monsters/monsterFeats.html#_hover), [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (claw), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack)
+**Feats** [Alertness](feats.md#_alertness), Cleave, [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), Great Cleave, [Hover](monsters/monsterFeats.md#_hover), [Improved Critical](feats.md#_improved-critical) (claw), [Power Attack](feats.md#_power-attack)
 
-**Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +5, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +13, [Knowledge](/pathfinderRPG/prd/skills/knowledge.html#_knowledge) (any one) +16, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +23, [Sense Motive](/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive) +13, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +16
+**Skills** [Fly](skills/fly.md#_fly) +5, [Intimidate](skills/intimidate.md#_intimidate) +13, [Knowledge](skills/knowledge.md#_knowledge) (any one) +16, [Perception](skills/perception.md#_perception) +23, [Sense Motive](skills/senseMotive.md#_sense-motive) +13, [Survival](skills/survival.md#_survival) +16
 
 **Languages** Common, Draconic, Sphinx
 
@@ -108,7 +108,7 @@ XP 3,200
 
 N Large magical beast
 
-**Init** +0; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +10
+**Init** +0; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +10
 
 Defense
 
@@ -130,7 +130,7 @@ Offense
 
 **Spell-Like Abilities** (CL 10th; concentration +10)
 
-Constant—_ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+Constant—_ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
 
 Statistics
 
@@ -138,11 +138,11 @@ Statistics
 
 **Base Atk** +10; **CMB** +17; **CMD** 27 (31 vs. trip)
 
-**Feats** Improved Bull Rush, [Improved Critical](/pathfinderRPG/prd/feats.html#_improved-critical) (gore), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate)), [Weapon Focus](/pathfinderRPG/prd/feats.html#_weapon-focus) (gore)
+**Feats** Improved Bull Rush, [Improved Critical](feats.md#_improved-critical) (gore), [Power Attack](feats.md#_power-attack), [Skill Focus](feats.md#_skill-focus) ( [Intimidate](skills/intimidate.md#_intimidate)), [Weapon Focus](feats.md#_weapon-focus) (gore)
 
-**Skills** [Bluff](/pathfinderRPG/prd/skills/bluff.html#_bluff) +10, [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +1, [Intimidate](/pathfinderRPG/prd/skills/intimidate.html#_intimidate) +16, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +10
+**Skills** [Bluff](skills/bluff.md#_bluff) +10, [Fly](skills/fly.md#_fly) +1, [Intimidate](skills/intimidate.md#_intimidate) +16, [Perception](skills/perception.md#_perception) +10
 
-**Languages** Common, Sphinx; _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_
+**Languages** Common, Sphinx; _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
 
 Ecology
 
@@ -160,7 +160,7 @@ Perhaps the least leonine of all sphinxes, the ram-headed criosphinx lacks the i
 
 Criosphinxes crave wealth over nearly all other things, habitually extorting tolls for safe passage from any who pass their lands. Groups who cannot pay must yield one of their number or a pair of mounts for the criosphinx's meal—single travelers must fight or die. Unlike gynosphinxes, no mere riddle suffices—only the shine of metal or the gleam of jewels can satisfy a criosphinx. Little can convince a criosphinx to part with even a single coin save the lust that its kind bears for the gynosphinx. Criosphinxes crave mating with gynosphinxes above all else, and pay well for the whereabouts of a female, or better yet, a well-crafted riddle that might impress one. For their part, gynosphinxes prefer to have little to do with what they mock as the sheep of sphinxes, though they sometimes lower themselves to a brief assignation in the rare event a criosphinx manages to impress them with wealth or wit.
 
-Some criosphinxes set themselves as soothsayers of the desert, trading upon the storied wisdom of androsphinxes and gynosphinxes to deceive gullible travelers. Like their more blustering brethren, they seek wealth from passersby, but for the purposes of dispersing information rather than in exchange for safe passage. Such reliable information as they possess usually comes from idle conversation with the creatures of the desert, with criosphinxes using their inborn ability to _ [speak with animals](/pathfinderRPG/prd/spells/speakWithAnimals.html#_speak-with-animals)_. A criosphinx lacking in sound information usually fabricates a pleasing lie.
+Some criosphinxes set themselves as soothsayers of the desert, trading upon the storied wisdom of androsphinxes and gynosphinxes to deceive gullible travelers. Like their more blustering brethren, they seek wealth from passersby, but for the purposes of dispersing information rather than in exchange for safe passage. Such reliable information as they possess usually comes from idle conversation with the creatures of the desert, with criosphinxes using their inborn ability to _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_. A criosphinx lacking in sound information usually fabricates a pleasing lie.
 
 Criosphinxes detest hieracosphinxes, regarding them as little more than beasts and a disgrace to their noble race. They drive off their falcon-headed cousins with mock-charges and posturing, escalating to full-fledged attacks if ignored. Androsphinxes they view with mixed fear and respect, and gynosphinxes with disdain and lust.
 
@@ -174,7 +174,7 @@ XP 1,600
 
 CE Large magical beast
 
-**Init** +2; **Senses** darkvision 60 ft., low-light vision; [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16
+**Init** +2; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +16
 
 Defense
 
@@ -192,7 +192,7 @@ Offense
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attack** [pounce](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_pounce), shriek
+**Special Attack** [pounce](monsters/universalMonsterRules.md#_pounce), shriek
 
 Statistics
 
@@ -200,9 +200,9 @@ Statistics
 
 **Base Atk** +8; **CMB** +13; **CMD** 25 (29 vs. trip)
 
-**Feats** Cleave, [Flyby Attack](/pathfinderRPG/prd/monsters/monsterFeats.html#_flyby-attack), [Power Attack](/pathfinderRPG/prd/feats.html#_power-attack), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** Cleave, [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Power Attack](feats.md#_power-attack), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
 
-**Skills** [Fly](/pathfinderRPG/prd/skills/fly.html#_fly) +3, [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +16; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/skills/perception.html#_perception)
+**Skills** [Fly](skills/fly.md#_fly) +3, [Perception](skills/perception.md#_perception) +16; **Racial Modifiers** +4 [Perception](skills/perception.md#_perception)
 
 **Languages** Sphinx
 
@@ -224,5 +224,5 @@ Hieracosphinxes guard their territory ruthlessly against weaker intruders, seldo
 
 As they lack the ego and resourcefulness of the rest of their breed, hieracosphinxes can be pressed into service of mounts, particularly by those of similarly evil dispositions. Hieracosphinxes chafe under such service but submit to more powerful riders, though they still inflict their foul tempers on any weaker creatures that happen by. A grown hieracosphinx can easily consume a full horse's worth of meat in a day, making their upkeep rather expensive. Even with these drawbacks, hieracosphinx eggs command values of up to 1,500 gp on the open market, as do young hieracosphinxes. It takes 3 years for a hieracosphinx to reach maturity, after which an untrained hieracosphinx only rarely accepts a rider without magical compulsion. Trainers, though hard to come by, charge thousands of gold pieces to rear and train a hieracosphinx, owing to the risk to life and limb.
 
-A light load for a hieracosphinx is up to 350 pounds; a medium load, 351–700 pounds; and a heavy load, 701–1,050 pounds. A typical hieracosphinx is just short of 9 feet long and weighs 600 pounds. Hieracosphinxes detest bearing a rider into battle, thus increasing the DCs of any combat-related [Ride](/pathfinderRPG/prd/skills/ride.html#_ride) checks by +5.
+A light load for a hieracosphinx is up to 350 pounds; a medium load, 351–700 pounds; and a heavy load, 701–1,050 pounds. A typical hieracosphinx is just short of 9 feet long and weighs 600 pounds. Hieracosphinxes detest bearing a rider into battle, thus increasing the DCs of any combat-related [Ride](skills/ride.md#_ride) checks by +5.
 

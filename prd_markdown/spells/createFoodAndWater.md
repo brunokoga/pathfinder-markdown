@@ -12,7 +12,7 @@
 
 **Duration** 24 hours; see text
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
 
 The food that this spell creates is simple fare of your choice—highly nourishing, if rather bland. Food so created decays and becomes inedible after 24 hours, although it can be kept fresh for another 24 hours by casting a _purify food and water _spell on it. The water created by this spell is just like clean rain water, and it doesn't go bad as the food does.
 

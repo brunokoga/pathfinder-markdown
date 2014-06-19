@@ -12,7 +12,7 @@
 
 **Duration** concentration + 1 round/level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.html#_spell-resistance)** yes
+**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
 
-Each affected creature gains a +2 morale bonus to [Strength](../gettingStarted.html#_strength) and [Constitution](../gettingStarted.html#_constitution), a +1 morale bonus on [Will](../combat.html#_will) saves, and a –2 penalty to [AC](../combat.html#_armor-class). The effect is otherwise identical with a barbarian's rage except that the subjects aren't [fatigued](../glossary.html#_fatigued) at the end of the rage.
+Each affected creature gains a +2 morale bonus to [Strength](../gettingStarted.md#_strength) and [Constitution](../gettingStarted.md#_constitution), a +1 morale bonus on [Will](../combat.md#_will) saves, and a –2 penalty to [AC](../combat.md#_armor-class). The effect is otherwise identical with a barbarian's rage except that the subjects aren't [fatigued](../glossary.md#_fatigued) at the end of the rage.
 

@@ -1,6 +1,6 @@
 Defile Armor
 
-**Source** [_defile armor_](/pathfinderRPG/prd/advanced/spells/defileArmor.html#_defile-armor)
+**Source** [_defile armor_](advanced/spells/defileArmor.md#_defile-armor)
 
 You gain DR 5/good while wearing the target armor. While using your judgment or smite ability, this improves to DR 10/good.
 

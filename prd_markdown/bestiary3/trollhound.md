@@ -8,13 +8,13 @@ XP 800
 
 N Medium magical beast
 
-**Init** +5; **Senses** darkvision 60 ft., low-light vision, [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent); [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8
+**Init** +5; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +8
 
 Defense
 
 **AC** 15, touch 11, flat-footed 14 (+1 Dex, +4 natural)
 
-**hp** 30 (4d10+8); regeneration 3 (acid or [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+**hp** 30 (4d10+8); regeneration 3 (acid or [fire](monsters/creatureTypes.md#_fire-subtype))
 
 **Fort** +6, **Ref** +5, **Will** +1
 
@@ -22,7 +22,7 @@ Offense
 
 **Speed** 40 ft.
 
-**Melee** bite +8 (1d10+6 plus [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)) and trip)
+**Melee** bite +8 (1d10+6 plus [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) and trip)
 
 Statistics
 
@@ -30,13 +30,13 @@ Statistics
 
 **Base Atk** +4; **CMB** +8; **CMD** 19 (23 vs. trip)
 
-**Feats** [Improved Initiative](/pathfinderRPG/prd/feats.html#_improved-initiative), [Skill Focus](/pathfinderRPG/prd/feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/skills/perception.html#_perception))
+**Feats** [Improved Initiative](feats.md#_improved-initiative), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
 
-**Skills** [Perception](/pathfinderRPG/prd/skills/perception.html#_perception) +8, [Stealth](/pathfinderRPG/prd/skills/stealth.html#_stealth) +5, [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) +1 (+5 [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent) tracking); **Racial Modifiers** +4 [Survival](/pathfinderRPG/prd/skills/survival.html#_survival) while [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent) tracking
+**Skills** [Perception](skills/perception.md#_perception) +8, [Stealth](skills/stealth.md#_stealth) +5, [Survival](skills/survival.md#_survival) +1 (+5 [scent](monsters/universalMonsterRules.md#_scent) tracking); **Racial Modifiers** +4 [Survival](skills/survival.md#_survival) while [scent](monsters/universalMonsterRules.md#_scent) tracking
 
 Ecology
 
-**Environment** [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) mountains
+**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) mountains
 
 **Organization** solitary, pair, or pack (3–8)
 
@@ -44,7 +44,7 @@ Ecology
 
 Special Abilities
 
-**[Disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)) (Ex)** A trollhound's saliva is an infectious brew of contagion. Creatures bitten by a trollhound are often afflicted with bloodfire fever, a [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)) characterized by deep internal pain, as if the victim's blood were on [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype). Additional symptoms include loss of muscular coordination, pus-filled blisters, and overall lethargy and fatigue. Trolls and trollhounds alike are immune to bloodfire fever, even though trollhounds often exhibit the pus-filled blisters that come with the [disease](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_disease-(ex-or-su)).
+**[Disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) (Ex)** A trollhound's saliva is an infectious brew of contagion. Creatures bitten by a trollhound are often afflicted with bloodfire fever, a [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) characterized by deep internal pain, as if the victim's blood were on [fire](monsters/creatureTypes.md#_fire-subtype). Additional symptoms include loss of muscular coordination, pus-filled blisters, and overall lethargy and fatigue. Trolls and trollhounds alike are immune to bloodfire fever, even though trollhounds often exhibit the pus-filled blisters that come with the [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)).
 
 _Bloodfire fever_: Bite—injury; _save_ Fort DC 14; _onset_ 1 day; _frequency_ 1/day; _effect_ 1d3 Str damage, 1d3 Dex damage, and target is fatigued; _cure_ 2 consecutive saves. The save DC is Constitution-based.
 

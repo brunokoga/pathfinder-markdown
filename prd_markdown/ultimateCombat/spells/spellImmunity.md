@@ -4,7 +4,7 @@ Spell Immunity, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity)_, except you divide the duration in 10-minute intervals among the creatures touched.
+This spell functions like _ [spell immunity](spells/spellImmunity.md#_spell-immunity)_, except you divide the duration in 10-minute intervals among the creatures touched.
 
 Spell Immunity, Greater Communal
 
@@ -12,5 +12,5 @@ Spell Immunity, Greater Communal
 
 **Target** creatures touched
 
-This spell functions like _ [greater spell immunity](/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity-greater)_, except you divide the duration among the creatures in 10-minute intervals among the creatures touched.
+This spell functions like _ [greater spell immunity](spells/spellImmunity.md#_spell-immunity-greater)_, except you divide the duration among the creatures in 10-minute intervals among the creatures touched.
 

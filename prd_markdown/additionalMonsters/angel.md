@@ -6,21 +6,21 @@ This finely crafted golden helm is decorated with intricate filigree, and flutte
 
 XP 600
 
-NG Small [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [angel](/pathfinderRPG/prd/monsters/creatureTypes.html#_angel-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype))
+NG Small [outsider](monsters/creatureTypes.md#_outsider) ( [angel](monsters/creatureTypes.md#_angel-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [good](monsters/creatureTypes.md#_good-subtype))
 
-**Init** +0; **Senses** darkvision 60 ft., _ [detect evil](/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil)_, low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5
+**Init** +0; **Senses** darkvision 60 ft., _ [detect evil](additionalMonsters/../spells/detectEvil.md#_detect-evil)_, low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +5
 
 **Aura** lesser protective aura
 
 Defense
 
-**AC** 14, touch 11, flat-footed 14 (+3 natural, +1 size) (+2 deflection vs. [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype))
+**AC** 14, touch 11, flat-footed 14 (+3 natural, +1 size) (+2 deflection vs. [evil](monsters/creatureTypes.md#_evil-subtype))
 
 **hp** 13 (2d10+2)
 
-**Fort** +4, **Ref** +3, **Will** +2; +4 vs. [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); +2 [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) vs. [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype)
+**Fort** +4, **Ref** +3, **Will** +2; +4 vs. [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); +2 [resistance](monsters/universalMonsterRules.md#_resistance) vs. [evil](monsters/creatureTypes.md#_evil-subtype)
 
-**DR** 5/cold iron or [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype); **Immune** acid, [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), petrification; **Resist** electricity 10, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype) 10
+**DR** 5/cold iron or [evil](monsters/creatureTypes.md#_evil-subtype); **Immune** acid, [cold](monsters/creatureTypes.md#_cold-subtype), petrification; **Resist** electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10
 
 Offense
 
@@ -28,15 +28,15 @@ Offense
 
 **Melee** slam –1 (1d3–4)
 
-**Special Attacks** [breath weapon](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_breath-weapon) (15-ft. line, 1d6 [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype) or 1d6 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), Reflex DC 12 half, usable every 1d4 rounds)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (15-ft. line, 1d6 [cold](monsters/creatureTypes.md#_cold-subtype) or 1d6 [fire](monsters/creatureTypes.md#_fire-subtype), Reflex DC 12 half, usable every 1d4 rounds)
 
 **Spell-Like Abilities** (CL 3rd; concentration +3)
 
-Constant—_ [detect evil](/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil)_, _ [know direction](/pathfinderRPG/prd/additionalMonsters/../spells/knowDirection.html#_know-direction)_
+Constant—_ [detect evil](additionalMonsters/../spells/detectEvil.md#_detect-evil)_, _ [know direction](additionalMonsters/../spells/knowDirection.md#_know-direction)_
 
-1/day—_ [aid](/pathfinderRPG/prd/additionalMonsters/../spells/aid.html#_aid)_, _ [daylight](/pathfinderRPG/prd/additionalMonsters/../spells/daylight.html#_daylight)_
+1/day—_ [aid](additionalMonsters/../spells/aid.md#_aid)_, _ [daylight](additionalMonsters/../spells/daylight.md#_daylight)_
 
-1/week—_ [commune](/pathfinderRPG/prd/additionalMonsters/../spells/commune.html#_commune)_ (six questions, CL 12th)
+1/week—_ [commune](additionalMonsters/../spells/commune.md#_commune)_ (six questions, CL 12th)
 
 Statistics
 
@@ -44,13 +44,13 @@ Statistics
 
 **Base Atk** +2; **CMB** –3; **CMD** 7 (can't be tripped)
 
-**Feats** [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will)
+**Feats** [Iron Will](additionalMonsters/../feats.md#_iron-will)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +2, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +10, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +2, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (religion) +2, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +5, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +4, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +8
+**Skills** [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +2, [Fly](additionalMonsters/../skills/fly.md#_fly) +10, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +2, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +2, [Perception](additionalMonsters/../skills/perception.md#_perception) +5, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +4, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +8
 
 **Languages** Celestial, Draconic, Infernal; truespeech
 
-**SQ** [change shape](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_change-shape) (2 of the following forms: Small human-like [angel](/pathfinderRPG/prd/monsters/creatureTypes.html#_angel-subtype), dove, dog, or Tiny fish, _ [polymorph](/pathfinderRPG/prd/additionalMonsters/../spells/polymorph.html#_polymorph)_), perfect memory
+**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (2 of the following forms: Small human-like [angel](monsters/creatureTypes.md#_angel-subtype), dove, dog, or Tiny fish, _ [polymorph](additionalMonsters/../spells/polymorph.md#_polymorph)_), perfect memory
 
 Ecology
 
@@ -64,9 +64,9 @@ Special Abilities
 
 **Perfect Memory (Ex)** Though they are not particularly intelligent, cassisians have perfect memories and remember everything they see or hear. They can faultlessly recite conversations they heard hundreds of years before. They also have the power to erase portions of their own memories, which they do (usually under orders from superior angels) to protect sensitive information.
 
-**Lesser Protective Aura (Su)** A cassisian has a lesser form of the protective aura possessed by more powerful angels. This protective aura grants the cassisian a +2 deflection bonus to its AC against [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) foes, and a +2 [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) bonus on all saving throws made against [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) effects or spells cast by [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) creatures. This aura extends to a radius of 5 feet, but can only benefit one additional creature other than the cassisian at any one time. A cassisian's protective aura is fragile, and as soon as an [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) creature successfully strikes the cassisian, or as soon as the cassisian fails a saving throw against an [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype) source, its protective aura fades away and is no longer applicable. The cassisian can reactivate its protective aura by spending 1 minute concentrating upon the task.
+**Lesser Protective Aura (Su)** A cassisian has a lesser form of the protective aura possessed by more powerful angels. This protective aura grants the cassisian a +2 deflection bonus to its AC against [evil](monsters/creatureTypes.md#_evil-subtype) foes, and a +2 [resistance](monsters/universalMonsterRules.md#_resistance) bonus on all saving throws made against [evil](monsters/creatureTypes.md#_evil-subtype) effects or spells cast by [evil](monsters/creatureTypes.md#_evil-subtype) creatures. This aura extends to a radius of 5 feet, but can only benefit one additional creature other than the cassisian at any one time. A cassisian's protective aura is fragile, and as soon as an [evil](monsters/creatureTypes.md#_evil-subtype) creature successfully strikes the cassisian, or as soon as the cassisian fails a saving throw against an [evil](monsters/creatureTypes.md#_evil-subtype) source, its protective aura fades away and is no longer applicable. The cassisian can reactivate its protective aura by spending 1 minute concentrating upon the task.
 
-Cassisians are the weakest sort of angel, but are absolutely dedicated to the cause of good. They serve as messengers for more powerful angels, and on the Material Plane they are often bound to good mortals to serve as familiars, acting as spiritual guides, reciting platitudes and quoting scripture from various benign faiths and philosophies (some forgotten for centuries). A 7th-level lawful good with the [Improved Familiar](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-familiar) feat can select a cassisian as a familiar.
+Cassisians are the weakest sort of angel, but are absolutely dedicated to the cause of good. They serve as messengers for more powerful angels, and on the Material Plane they are often bound to good mortals to serve as familiars, acting as spiritual guides, reciting platitudes and quoting scripture from various benign faiths and philosophies (some forgotten for centuries). A 7th-level lawful good with the [Improved Familiar](additionalMonsters/../feats.md#_improved-familiar) feat can select a cassisian as a familiar.
 
 A cassisian's true form is a helmet possessing a pair of bird's wings. The exact style of helmet varies by the deity the angel serves—most appear to be steel with angular cheek-plates, though some resemble bascinets, skullcaps, great helms, or even samurai helmets, and a few older cassisians appear to be bronze or even leather. Though cassisians can assume other forms (that of a child-sized angelic humanoid wearing a proportional helmet matching the cassisians' true form, a dove, a dog, or a fish), they find it strange and rarely stay in that form for more than a few minutes.
 
@@ -80,21 +80,21 @@ Monadic DevaCR 12
 
 XP 19,200
 
-NG Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [angel](/pathfinderRPG/prd/monsters/creatureTypes.html#_angel-subtype), [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype))
+NG Medium [outsider](monsters/creatureTypes.md#_outsider) ( [angel](monsters/creatureTypes.md#_angel-subtype), [aquatic](monsters/creatureTypes.md#_aquatic-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [good](monsters/creatureTypes.md#_good-subtype))
 
-**Init** +8; **Senses** darkvision 60 ft., _ [detect evil](/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil)_, low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +29
+**Init** +8; **Senses** darkvision 60 ft., _ [detect evil](additionalMonsters/../spells/detectEvil.md#_detect-evil)_, low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +29
 
 **Aura** protective aura
 
 Defense
 
-**AC** 27, touch 14, flat-footed 23 (+4 Dex, +13 natural; +4 deflection vs. [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype))
+**AC** 27, touch 14, flat-footed 23 (+4 Dex, +13 natural; +4 deflection vs. [evil](monsters/creatureTypes.md#_evil-subtype))
 
 **hp** 147 (14d10+70)
 
-**Fort** +15, **Ref** +13, **Will** +10; +4 vs. [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)); +4 [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) vs. [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype)
+**Fort** +15, **Ref** +13, **Will** +10; +4 vs. [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)); +4 [resistance](monsters/universalMonsterRules.md#_resistance) vs. [evil](monsters/creatureTypes.md#_evil-subtype)
 
-**DR** 10/evil; **Immune** acid, [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), electricity, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), death effects, energy drain, petrification; **SR** 23
+**DR** 10/evil; **Immune** acid, [cold](monsters/creatureTypes.md#_cold-subtype), electricity, [fire](monsters/creatureTypes.md#_fire-subtype), death effects, energy drain, petrification; **SR** 23
 
 Offense
 
@@ -104,13 +104,13 @@ Offense
 
 **Spell-Like Abilities** (CL 10th; concentration +14)
 
-Constant—_ [detect evil](/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil)_
+Constant—_ [detect evil](additionalMonsters/../spells/detectEvil.md#_detect-evil)_
 
-At will—_ [aid](/pathfinderRPG/prd/additionalMonsters/../spells/aid.html#_aid)_, _ [charm monster](/pathfinderRPG/prd/additionalMonsters/../spells/charmMonster.html#_charm-monster)_ (DC 18, elementals only), _ [discern lies](/pathfinderRPG/prd/additionalMonsters/../spells/discernLies.html#_discern-lies)_ (DC 18), _ [dispel evil](/pathfinderRPG/prd/additionalMonsters/../spells/dispelEvil.html#_dispel-evil)_ (DC 19), _ [dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic)_, _ [holy smite](/pathfinderRPG/prd/additionalMonsters/../spells/holySmite.html#_holy-smite)_ (DC 18), _ [invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility)_ (self only), _ [plane shift](/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift)_ (DC 19), _ [remove curse](/pathfinderRPG/prd/additionalMonsters/../spells/removeCurse.html#_remove-curse)_, _ [remove disease](/pathfinderRPG/prd/additionalMonsters/../spells/removeDisease.html#_remove-disease)_, _ [remove fear](/pathfinderRPG/prd/additionalMonsters/../spells/removeFear.html#_remove-fear)_
+At will—_ [aid](additionalMonsters/../spells/aid.md#_aid)_, _ [charm monster](additionalMonsters/../spells/charmMonster.md#_charm-monster)_ (DC 18, elementals only), _ [discern lies](additionalMonsters/../spells/discernLies.md#_discern-lies)_ (DC 18), _ [dispel evil](additionalMonsters/../spells/dispelEvil.md#_dispel-evil)_ (DC 19), _ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [holy smite](additionalMonsters/../spells/holySmite.md#_holy-smite)_ (DC 18), _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_ (self only), _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 19), _ [remove curse](additionalMonsters/../spells/removeCurse.md#_remove-curse)_, _ [remove disease](additionalMonsters/../spells/removeDisease.md#_remove-disease)_, _ [remove fear](additionalMonsters/../spells/removeFear.md#_remove-fear)_
 
-3/day—_ [cure serious wounds](/pathfinderRPG/prd/additionalMonsters/../spells/cureSeriousWounds.html#_cure-serious-wounds), [holy word](/pathfinderRPG/prd/additionalMonsters/../spells/holyWord.html#_holy-word)_ (DC 21), _ [mirror image](/pathfinderRPG/prd/additionalMonsters/../spells/mirrorImage.html#_mirror-image)_
+3/day—_ [cure serious wounds](additionalMonsters/../spells/cureSeriousWounds.md#_cure-serious-wounds), [holy word](additionalMonsters/../spells/holyWord.md#_holy-word)_ (DC 21), _ [mirror image](additionalMonsters/../spells/mirrorImage.md#_mirror-image)_
 
-1/day—_ [heal](/pathfinderRPG/prd/additionalMonsters/../spells/heal.html#_heal)_, _ [hold monster](/pathfinderRPG/prd/additionalMonsters/../spells/holdMonster.html#_hold-monster)_ (DC 19), _ [holy aura](/pathfinderRPG/prd/additionalMonsters/../spells/holyAura.html#_holy-aura)_ (DC 22)
+1/day—_ [heal](additionalMonsters/../spells/heal.md#_heal)_, _ [hold monster](additionalMonsters/../spells/holdMonster.md#_hold-monster)_ (DC 19), _ [holy aura](additionalMonsters/../spells/holyAura.md#_holy-aura)_ (DC 22)
 
 Statistics
 
@@ -118,9 +118,9 @@ Statistics
 
 **Base Atk** +14; **CMB** +19; **CMD** 33
 
-**Feats** [Alertness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_alertness), [Cleave](/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave), [Great Fortitude](/pathfinderRPG/prd/additionalMonsters/../feats.html#_great-fortitude), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness)
+**Feats** [Alertness](additionalMonsters/../feats.md#_alertness), [Cleave](additionalMonsters/../feats.md#_cleave), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Toughness](additionalMonsters/../feats.md#_toughness)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +21, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +25, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +21, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +21, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (religion) +21, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +29, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +25, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +21, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +27, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +19; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
+**Skills** [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +21, [Fly](additionalMonsters/../skills/fly.md#_fly) +25, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +21, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +21, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +21, [Perception](additionalMonsters/../skills/perception.md#_perception) +29, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +25, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +21, [Survival](additionalMonsters/../skills/survival.md#_survival) +27, [Swim](additionalMonsters/../skills/swim.md#_swim) +19; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
 
 **Languages** Celestial, Draconic, Infernal; truespeech
 
@@ -152,37 +152,37 @@ Movanic DevaCR 10
 
 XP 9,600
 
-NG Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [angel](/pathfinderRPG/prd/monsters/creatureTypes.html#_angel-subtype), [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype), [good](/pathfinderRPG/prd/monsters/creatureTypes.html#_good-subtype))
+NG Medium [outsider](monsters/creatureTypes.md#_outsider) ( [angel](monsters/creatureTypes.md#_angel-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [good](monsters/creatureTypes.md#_good-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft., _ [detect evil](/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil)_, low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +20
+**Init** +7; **Senses** darkvision 60 ft., _ [detect evil](additionalMonsters/../spells/detectEvil.md#_detect-evil)_, low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +20
 
 **Aura** protective aura
 
 Defense
 
-**AC** 24, touch 13, flat-footed 21 (+3 Dex, +11 natural; +4 deflection vs. [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype))
+**AC** 24, touch 13, flat-footed 21 (+3 Dex, +11 natural; +4 deflection vs. [evil](monsters/creatureTypes.md#_evil-subtype))
 
 **hp** 126 (12d10+60)
 
-**Fort** +12, **Ref** +11, **Will** +9; +4 vs. [poison](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_poison-(ex-or-su)), +4 [resistance](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_resistance) vs. [evil](/pathfinderRPG/prd/monsters/creatureTypes.html#_evil-subtype)
+**Fort** +12, **Ref** +11, **Will** +9; +4 vs. [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), +4 [resistance](monsters/universalMonsterRules.md#_resistance) vs. [evil](monsters/creatureTypes.md#_evil-subtype)
 
-**Defensive Abilities** nature's pacifism, protected life force; **DR** 10/evil; **Immune** acid, [cold](/pathfinderRPG/prd/monsters/creatureTypes.html#_cold-subtype), electricity, [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype), death effects, energy drain, petrification; **SR** 21
+**Defensive Abilities** nature's pacifism, protected life force; **DR** 10/evil; **Immune** acid, [cold](monsters/creatureTypes.md#_cold-subtype), electricity, [fire](monsters/creatureTypes.md#_fire-subtype), death effects, energy drain, petrification; **SR** 21
 
 Offense
 
 **Speed** 40 ft., fly 60 ft. (good)
 
-**Melee** _+1 [flaming](/pathfinderRPG/prd/additionalMonsters/../magicItems/weapons.html#_weapons-flaming) greatsword_ +17/+12/+7 (2d6+7/19–20 plus 1d6 [fire](/pathfinderRPG/prd/monsters/creatureTypes.html#_fire-subtype))
+**Melee** _+1 [flaming](additionalMonsters/../magicItems/weapons.md#_weapons-flaming) greatsword_ +17/+12/+7 (2d6+7/19–20 plus 1d6 [fire](monsters/creatureTypes.md#_fire-subtype))
 
 **Spell-Like Abilities** (CL 8th; concentration +12)
 
-Constant—_ [detect evil](/pathfinderRPG/prd/additionalMonsters/../spells/detectEvil.html#_detect-evil)_
+Constant—_ [detect evil](additionalMonsters/../spells/detectEvil.md#_detect-evil)_
 
-At will—_ [aid](/pathfinderRPG/prd/additionalMonsters/../spells/aid.html#_aid)_, _ [discern lies](/pathfinderRPG/prd/additionalMonsters/../spells/discernLies.html#_discern-lies)_ (DC 18), _ [dispel evil](/pathfinderRPG/prd/additionalMonsters/../spells/dispelEvil.html#_dispel-evil)_ (DC 19), _ [dispel magic](/pathfinderRPG/prd/additionalMonsters/../spells/dispelMagic.html#_dispel-magic)_, _ [holy smite](/pathfinderRPG/prd/additionalMonsters/../spells/holySmite.html#_holy-smite)_ (DC 18), _ [invisibility](/pathfinderRPG/prd/additionalMonsters/../spells/invisibility.html#_invisibility)_ (self only), _ [plane shift](/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift)_ (DC 19), _ [remove curse](/pathfinderRPG/prd/additionalMonsters/../spells/removeCurse.html#_remove-curse)_, _ [remove disease](/pathfinderRPG/prd/additionalMonsters/../spells/removeDisease.html#_remove-disease)_, _ [remove fear](/pathfinderRPG/prd/additionalMonsters/../spells/removeFear.html#_remove-fear)_
+At will—_ [aid](additionalMonsters/../spells/aid.md#_aid)_, _ [discern lies](additionalMonsters/../spells/discernLies.md#_discern-lies)_ (DC 18), _ [dispel evil](additionalMonsters/../spells/dispelEvil.md#_dispel-evil)_ (DC 19), _ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [holy smite](additionalMonsters/../spells/holySmite.md#_holy-smite)_ (DC 18), _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_ (self only), _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 19), _ [remove curse](additionalMonsters/../spells/removeCurse.md#_remove-curse)_, _ [remove disease](additionalMonsters/../spells/removeDisease.md#_remove-disease)_, _ [remove fear](additionalMonsters/../spells/removeFear.md#_remove-fear)_
 
-7/day—_ [cure serious wounds](/pathfinderRPG/prd/additionalMonsters/../spells/cureSeriousWounds.html#_cure-serious-wounds)_
+7/day—_ [cure serious wounds](additionalMonsters/../spells/cureSeriousWounds.md#_cure-serious-wounds)_
 
-1/day—_ [antimagic field](/pathfinderRPG/prd/additionalMonsters/../spells/antimagicField.html#_antimagic-field), [awaken](/pathfinderRPG/prd/additionalMonsters/../spells/awaken.html#_awaken)_, _ [holy aura](/pathfinderRPG/prd/additionalMonsters/../spells/holyAura.html#_holy-aura)_ (DC 22)
+1/day—_ [antimagic field](additionalMonsters/../spells/antimagicField.md#_antimagic-field), [awaken](additionalMonsters/../spells/awaken.md#_awaken)_, _ [holy aura](additionalMonsters/../spells/holyAura.md#_holy-aura)_ (DC 22)
 
 Statistics
 
@@ -190,9 +190,9 @@ Statistics
 
 **Base Atk** +12; **CMB** +16; **CMD** 29
 
-**Feats** [Cleave](/pathfinderRPG/prd/additionalMonsters/../feats.html#_cleave), [Improved Initiative](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-initiative), [Iron Will](/pathfinderRPG/prd/additionalMonsters/../feats.html#_iron-will), [Power Attack](/pathfinderRPG/prd/additionalMonsters/../feats.html#_power-attack), [Toughness](/pathfinderRPG/prd/additionalMonsters/../feats.html#_toughness), [Vital Strike](/pathfinderRPG/prd/additionalMonsters/../feats.html#_vital-strike)
+**Feats** [Cleave](additionalMonsters/../feats.md#_cleave), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Toughness](additionalMonsters/../feats.md#_toughness), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
 
-**Skills** [Diplomacy](/pathfinderRPG/prd/additionalMonsters/../skills/diplomacy.html#_diplomacy) +19, [Fly](/pathfinderRPG/prd/additionalMonsters/../skills/fly.html#_fly) +22, [Intimidate](/pathfinderRPG/prd/additionalMonsters/../skills/intimidate.html#_intimidate) +19, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +18, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (religion) +18, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +26, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +22, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +18, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +18; **Racial Modifiers** +4 [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)
+**Skills** [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +19, [Fly](additionalMonsters/../skills/fly.md#_fly) +22, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +19, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +18, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +18, [Perception](additionalMonsters/../skills/perception.md#_perception) +26, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +22, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +18, [Survival](additionalMonsters/../skills/survival.md#_survival) +18; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
 
 **Languages** Celestial, Draconic, Infernal; truespeech
 
@@ -202,11 +202,11 @@ Ecology
 
 **Organization** solitary, pair, or squad (3–6)
 
-**Treasure** double (_+1 [flaming](/pathfinderRPG/prd/additionalMonsters/../magicItems/weapons.html#_weapons-flaming) greatsword_, other treasure)
+**Treasure** double (_+1 [flaming](additionalMonsters/../magicItems/weapons.md#_weapons-flaming) greatsword_, other treasure)
 
 Special Abilities
 
-**Nature's Pacifism (Ex)** Animals and [plant](/pathfinderRPG/prd/monsters/creatureTypes.html#_plant) creatures do not willingly attack a movanic deva, though they can be forced to do so by magic. If the deva attacks a [plant](/pathfinderRPG/prd/monsters/creatureTypes.html#_plant) or [animal](/pathfinderRPG/prd/monsters/creatureTypes.html#_animal), its protection against that creature ends.
+**Nature's Pacifism (Ex)** Animals and [plant](monsters/creatureTypes.md#_plant) creatures do not willingly attack a movanic deva, though they can be forced to do so by magic. If the deva attacks a [plant](monsters/creatureTypes.md#_plant) or [animal](monsters/creatureTypes.md#_animal), its protection against that creature ends.
 
 **Protected Life Force (Ex)** Movanic devas are never harmed by positive-dominant or negative-dominant planar traits.
 

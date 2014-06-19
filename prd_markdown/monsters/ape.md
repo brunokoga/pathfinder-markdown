@@ -6,9 +6,9 @@ _Large, deep-set eyes peer from beneath this great ape's thick brow as it lumber
 
 **XP 600**
 
-N Large [animal](creatureTypes.html#_animal)
+N Large [animal](creatureTypes.md#_animal)
 
-**Init** +2; **Senses** low-light vision, scent; [Perception](../skills/perception.html#_perception) +8
+**Init** +2; **Senses** low-light vision, scent; [Perception](../skills/perception.md#_perception) +8
 
 **Defense**
 
@@ -32,9 +32,9 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Base**  **Atk** +2; **CMB** +5; **CMD** 17
 
-**Feats** [Great Fortitude](../feats.html#_great-fortitude), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
+**Feats** [Great Fortitude](../feats.md#_great-fortitude), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
 
-**Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +6, [Climb](../skills/climb.html#_climb) +14, [Perception](../skills/perception.html#_perception) +8
+**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +6, [Climb](../skills/climb.md#_climb) +14, [Perception](../skills/perception.md#_perception) +8
 
 **Ecology**
 
@@ -44,7 +44,7 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Treasure** none
 
-An adult male ape is 8 feet tall and can weigh as much as 400 pounds. While generally shy and peaceful creatures when left to their own business, gorillas are territorial and become highly aggressive when provoked. This stat block can generally be used for any of the larger types of primates, such as gorillas—for smaller apes like orangutans and chimpanzees, apply the young simple template. Even smaller primates should use the stats for [monkeys](familiar.html#_monkey).
+An adult male ape is 8 feet tall and can weigh as much as 400 pounds. While generally shy and peaceful creatures when left to their own business, gorillas are territorial and become highly aggressive when provoked. This stat block can generally be used for any of the larger types of primates, such as gorillas—for smaller apes like orangutans and chimpanzees, apply the young simple template. Even smaller primates should use the stats for [monkeys](familiar.md#_monkey).
 
 Gorillas typically make a large show of force before actually attacking, thumping their chests with their palms, stamping their feet, and roaring loudly. Any opponents who refuse to flee after this display are attacked. Troops of apes fight together in a frenzy, tearing opponents to pieces with their hands and teeth.
 
@@ -56,9 +56,9 @@ _Sharp teeth fill this large, feral ape's mouth, and its long, muscular arms str
 
 **XP 800**
 
-N Large [animal](creatureTypes.html#_animal)
+N Large [animal](creatureTypes.md#_animal)
 
-**Init** +2; **Senses** low-light vision, scent; [Perception](../skills/perception.html#_perception) +8
+**Init** +2; **Senses** low-light vision, scent; [Perception](../skills/perception.md#_perception) +8
 
 **Defense**
 
@@ -76,7 +76,7 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [rend](universalMonsterRules.html#_rend) (2 claws, 1d4+6)
+**Special Attacks** [rend](universalMonsterRules.md#_rend) (2 claws, 1d4+6)
 
 **Statistics**
 
@@ -84,9 +84,9 @@ N Large [animal](creatureTypes.html#_animal)
 
 **Base Atk** +3; **CMB** +8; **CMD** 20
 
-**Feats** [Iron Will](../feats.html#_iron-will), [Skill Focus](../feats.html#_skill-focus) ( [Perception](../skills/perception.html#_perception))
+**Feats** [Iron Will](../feats.md#_iron-will), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
 
-**Skills** [Acrobatics](../skills/acrobatics.html#_acrobatics) +6, [Climb](../skills/climb.html#_climb) +16, [Perception](../skills/perception.html#_perception) +8, [Stealth](../skills/stealth.html#_stealth) +2
+**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +6, [Climb](../skills/climb.md#_climb) +16, [Perception](../skills/perception.md#_perception) +8, [Stealth](../skills/stealth.md#_stealth) +2
 
 **Ecology**
 

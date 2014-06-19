@@ -6,9 +6,9 @@ This four-armed creature looks like a cross between a human and a black and ochr
 
 **XP 800**
 
-N Medium [outsider](/pathfinderRPG/prd/monsters/creatureTypes.html#_outsider) ( [extraplanar](/pathfinderRPG/prd/monsters/creatureTypes.html#_extraplanar-subtype))
+N Medium [outsider](monsters/creatureTypes.md#_outsider) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
 
-**Init** +2; **Senses** darkvision 120 ft., low-light vision; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +9
+**Init** +2; **Senses** darkvision 120 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +9
 
 Defense
 
@@ -22,13 +22,13 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** 2 claws +6 (1d6+1 plus [grab](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_grab))
+**Melee** 2 claws +6 (1d6+1 plus [grab](monsters/universalMonsterRules.md#_grab))
 
 **Special Attacks** dazzling burst
 
 **Spell-Like Abilities** (CL 3rd; concentration +6)
 
-1/day—_ [plane shift](/pathfinderRPG/prd/additionalMonsters/../spells/planeShift.html#_plane-shift)_ (self only, to Plane of Shadow only)
+1/day—_ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (self only, to Plane of Shadow only)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +5 (+9 grapple); **CMD** 17
 
-**Feats** [Combat Reflexes](/pathfinderRPG/prd/additionalMonsters/../feats.html#_combat-reflexes), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (claw)
+**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (claw)
 
-**Skills** [Climb](/pathfinderRPG/prd/additionalMonsters/../skills/climb.html#_climb) +8, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (arcana) +8, [Knowledge](/pathfinderRPG/prd/additionalMonsters/../skills/knowledge.html#_knowledge) (planes) +8, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +9, [Sense Motive](/pathfinderRPG/prd/additionalMonsters/../skills/senseMotive.html#_sense-motive) +9, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +9, [Survival](/pathfinderRPG/prd/additionalMonsters/../skills/survival.html#_survival) +7, [Use Magic Device](/pathfinderRPG/prd/additionalMonsters/../skills/useMagicDevice.html#_use-magic-device) +8
+**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +8, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +8, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +8, [Perception](additionalMonsters/../skills/perception.md#_perception) +9, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +9, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +9, [Survival](additionalMonsters/../skills/survival.md#_survival) +7, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +8
 
 **Languages** D'ziriak; telepathy 100 ft.
 
@@ -48,7 +48,7 @@ Ecology
 
 **Environment** any land (Plane of Shadow)
 
-**Organization** solitary, pair, [swarm](/pathfinderRPG/prd/monsters/creatureTypes.html#_swarm-subtype) (3–20), or hive (21–100)
+**Organization** solitary, pair, [swarm](monsters/creatureTypes.md#_swarm-subtype) (3–20), or hive (21–100)
 
 **Treasure** standard
 

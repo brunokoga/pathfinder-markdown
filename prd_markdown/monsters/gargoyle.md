@@ -6,9 +6,9 @@ _Seemingly carved from a dark gray stone, this sinister crouching humanoid resem
 
 **XP 1,200**
 
-CE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid) ( [earth](creatureTypes.html#_earth-subtype))
+CE Medium [monstrous humanoid](creatureTypes.md#_monstrous-humanoid) ( [earth](creatureTypes.md#_earth-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft.; [Perception](../skills/perception.html#_perception) +5
+**Init** +6; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +5
 
 **Defense**
 
@@ -32,9 +32,9 @@ CE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid) ( [earth]
 
 **Base Atk** +5; **CMB** +7; **CMD** 19
 
-**Feats** [Hover](monsterFeats.html#_hover), [Improved Initiative](../feats.html#_improved-initiative), [Skill Focus](../feats.html#_skill-focus) ( [Fly](../skills/fly.html#_fly))
+**Feats** [Hover](monsterFeats.md#_hover), [Improved Initiative](../feats.md#_improved-initiative), [Skill Focus](../feats.md#_skill-focus) ( [Fly](../skills/fly.md#_fly))
 
-**Skills** [Fly](../skills/fly.html#_fly) +12, [Perception](../skills/perception.html#_perception) +5, [Stealth](../skills/stealth.html#_stealth) +11 (+17 in stony areas); **Racial Modifiers** +2 [Stealth](../skills/stealth.html#_stealth) (+6 in stony environs)
+**Skills** [Fly](../skills/fly.md#_fly) +12, [Perception](../skills/perception.md#_perception) +5, [Stealth](../skills/stealth.md#_stealth) +11 (+17 in stony areas); **Racial Modifiers** +2 [Stealth](../skills/stealth.md#_stealth) (+6 in stony environs)
 
 **Languages** Common, Terran
 
@@ -50,9 +50,9 @@ CE Medium [monstrous humanoid](creatureTypes.html#_monstrous-humanoid) ( [earth]
 
 **Special Abilities**
 
-**Freeze (Ex)** A gargoyle can hold itself so still it appears to be a statue. A gargoyle that uses freeze can take 20 on its [Stealth](../skills/stealth.html#_stealth) check to hide in plain sight as a stone statue.
+**Freeze (Ex)** A gargoyle can hold itself so still it appears to be a statue. A gargoyle that uses freeze can take 20 on its [Stealth](../skills/stealth.md#_stealth) check to hide in plain sight as a stone statue.
 
-Gargoyles often appear to be winged stone statues, for they can perch indefinitely without moving, allowing them to surprise their foes. Gargoyles tend toward obsessive-compulsive behaviors that are as varied as their kind is plentiful. Books, stolen trinkets, weapons, and grisly trophies harvested from fallen foes are just a few examples of the types of things a gargoyle might collect to decorate its lair and territory. Gargoyles tend toward a solitary lifestyle, though they sometimes form fearsome groups called âwingsâ for protection and sport. In certain conditions, a tribe of gargoyles might even ally with other creatures, but even the most stable alliances with a gargoyle tribe can collapse for the smallest of reasons—gargoyles are nothing if not treacherous, petty, and vindictive. Gargoyles have been known to dwell in the heart of the largest of cities, crouching amid the decorations of stone cathedrals and buildings where they hide in plain sight by day and swoop down to feed on vagabonds, beggars, and other unfortunates at night.
+Gargoyles often appear to be winged stone statues, for they can perch indefinitely without moving, allowing them to surprise their foes. Gargoyles tend toward obsessive-compulsive behaviors that are as varied as their kind is plentiful. Books, stolen trinkets, weapons, and grisly trophies harvested from fallen foes are just a few examples of the types of things a gargoyle might collect to decorate its lair and territory. Gargoyles tend toward a solitary lifestyle, though they sometimes form fearsome groups called “wings” for protection and sport. In certain conditions, a tribe of gargoyles might even ally with other creatures, but even the most stable alliances with a gargoyle tribe can collapse for the smallest of reasons—gargoyles are nothing if not treacherous, petty, and vindictive. Gargoyles have been known to dwell in the heart of the largest of cities, crouching amid the decorations of stone cathedrals and buildings where they hide in plain sight by day and swoop down to feed on vagabonds, beggars, and other unfortunates at night.
 
 The longer a tribe of gargoyles abides in a region of ruins or buildings, the more its members come to resemble that region's architectural styles. The changes a gargoyle's appearance undergoes are slow and subtle, but over the course of years, it can shift radically.
 

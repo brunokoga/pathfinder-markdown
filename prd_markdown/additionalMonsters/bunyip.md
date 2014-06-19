@@ -6,9 +6,9 @@ A disturbing combination of shark and seal, this brown-furred creature has a wid
 
 **XP 800**
 
-N Medium [magical beast](/pathfinderRPG/prd/monsters/creatureTypes.html#_magical-beast) ( [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype))
+N Medium [magical beast](monsters/creatureTypes.md#_magical-beast) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft., low-light vision, keen [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent) 180 ft.; [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +8
+**Init** +3; **Senses** darkvision 60 ft., low-light vision, keen [scent](monsters/universalMonsterRules.md#_scent) 180 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +8
 
 Defense
 
@@ -22,9 +22,9 @@ Offense
 
 **Speed** 10 ft., swim 50 ft.
 
-**Melee** bite +7 (1d8+1/19–20 plus [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed))
+**Melee** bite +7 (1d8+1/19–20 plus [bleed](monsters/universalMonsterRules.md#_bleed))
 
-**Special Attacks** [bleed](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_bleed) (1d6), blood frenzy, roar
+**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d6), blood frenzy, roar
 
 Statistics
 
@@ -32,15 +32,15 @@ Statistics
 
 **Base Atk** +5; **CMB** +6; **CMD** 19
 
-**Feats** [Improved Critical](/pathfinderRPG/prd/additionalMonsters/../feats.html#_improved-critical) (bite)B, [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception)), [Skill Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_skill-focus) ( [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth)), [Weapon Focus](/pathfinderRPG/prd/additionalMonsters/../feats.html#_weapon-focus) (bite)
+**Feats** [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite)B, [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception)), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth.md#_stealth)), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite)
 
-**Skills** [Escape Artist](/pathfinderRPG/prd/additionalMonsters/../skills/escapeArtist.html#_escape-artist) +5, [Perception](/pathfinderRPG/prd/additionalMonsters/../skills/perception.html#_perception) +8, [Stealth](/pathfinderRPG/prd/additionalMonsters/../skills/stealth.html#_stealth) +10, [Swim](/pathfinderRPG/prd/additionalMonsters/../skills/swim.html#_swim) +9
+**Skills** [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +5, [Perception](additionalMonsters/../skills/perception.md#_perception) +8, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +10, [Swim](additionalMonsters/../skills/swim.md#_swim) +9
 
 **SQ** amphibious
 
 Ecology
 
-**Environment** any [aquatic](/pathfinderRPG/prd/monsters/creatureTypes.html#_aquatic-subtype)
+**Environment** any [aquatic](monsters/creatureTypes.md#_aquatic-subtype)
 
 **Organization** solitary or pair
 
@@ -48,9 +48,9 @@ Ecology
 
 Special Abilities
 
-**[Blood Rage](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blood-rage) (Ex)** A bunyip's [blood rage](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_blood-rage) ability activates whenever it detects blood in the water using its keen [scent](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_scent), but otherwise functions as the universal monster rule of the same name.
+**[Blood Rage](monsters/universalMonsterRules.md#_blood-rage) (Ex)** A bunyip's [blood rage](monsters/universalMonsterRules.md#_blood-rage) ability activates whenever it detects blood in the water using its keen [scent](monsters/universalMonsterRules.md#_scent), but otherwise functions as the universal monster rule of the same name.
 
-**Roar (Su)** A bunyip's roar is supernaturally loud and horrifying. When a bunyip roars (a standard action the creature can perform at will), all hearing creatures with 4 or fewer HD within a 100-foot spread must succeed on a DC 13 Will save or become panicked for 2d4 rounds. Whether or not the save is successful, creatures in the area are immune to the roar of that bunyip for 24 hours. This is a sonic, mind-affecting [fear](/pathfinderRPG/prd/monsters/universalMonsterRules.html#_fear-(su-or-sp)) effect. The save DC is Constitution-based.
+**Roar (Su)** A bunyip's roar is supernaturally loud and horrifying. When a bunyip roars (a standard action the creature can perform at will), all hearing creatures with 4 or fewer HD within a 100-foot spread must succeed on a DC 13 Will save or become panicked for 2d4 rounds. Whether or not the save is successful, creatures in the area are immune to the roar of that bunyip for 24 hours. This is a sonic, mind-affecting [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) effect. The save DC is Constitution-based.
 
 The bunyip is a fierce and avid hunter, possessing a primal ruthlessness that seems almost evil in its rapacity. A bunyip typically inhabits large freshwater inlets or sheltered coastal sea caves where food is plentiful—the bunyip is equally at home in fresh or salt water. It prefers feeding on animals of Small size or larger, though it isn't averse to eating humanoids when presented the opportunity. Bunyips are quite territorial, and readily attack when intruders threaten their hunting grounds. Bunyips mate annually, during the late spring. During this period, bunyips become even more aggressive. After mating, couples split, with the female wandering off to find a place to birth a small litter of four to six pups. Females watch their pups for a few days, until they become independent enough for the mothers to move on.
 

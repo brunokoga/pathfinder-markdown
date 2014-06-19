@@ -4,5 +4,5 @@ Spider Climb, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [spider climb](/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb)_, except you divide the duration in 10-minute intervals among the creatures touched.
+This spell functions like _ [spider climb](spells/spiderClimb.md#_spider-climb)_, except you divide the duration in 10-minute intervals among the creatures touched.
 
