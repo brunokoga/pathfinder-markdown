@@ -214,7 +214,7 @@ Armor of Rage
 
 **Slot** Armor; **Aura** strong necromancy; **CL** 16th; **Weight** 50 lbs.
 
-This armor is similar in appearance to _armor of [command](spells/command.md#_command) _and functions as a suit of _+1 full plate_. However, when it is worn, the armor causes the character to take a –4 penalty to Charisma. All unfriendly creatures within 300 feet gain a +1 morale bonus on attack rolls against her. The effect is not noticeable to the wearer or those affected. In other words, the wearer does not immediately notice that donning the armor is the cause of her problems, nor do foes understand the reason for the depth of their enmity.
+This armor is similar in appearance to _armor of [command](spells/command#_command) _and functions as a suit of _+1 full plate_. However, when it is worn, the armor causes the character to take a –4 penalty to Charisma. All unfriendly creatures within 300 feet gain a +1 morale bonus on attack rolls against her. The effect is not noticeable to the wearer or those affected. In other words, the wearer does not immediately notice that donning the armor is the cause of her problems, nor do foes understand the reason for the depth of their enmity.
 
 **Intended Magic Item**
 
@@ -224,7 +224,7 @@ Arrowbreak Bow
 
 **Slot** none; **Aura** moderate evocation; **CL** 6th; **Weight** 2 lbs.
 
-This shortbow is beautifully made and inlaid with iridescent designs, appearing to be a _+2 shortbow_. When it fires its arrows, though, it does it with so much force that the arrows are always broken on either a hit or a miss. This bow must be used as its owner's primary ranged weapon and can only be discarded after the owner is subject to a _ [remove curse](spells/removeCurse.md#_remove-curse)_ spell or similar effect.
+This shortbow is beautifully made and inlaid with iridescent designs, appearing to be a _+2 shortbow_. When it fires its arrows, though, it does it with so much force that the arrows are always broken on either a hit or a miss. This bow must be used as its owner's primary ranged weapon and can only be discarded after the owner is subject to a _ [remove curse](spells/removeCurse#_remove-curse)_ spell or similar effect.
 
 **Intended Magic Item**
 
@@ -248,11 +248,11 @@ Belt of Weakness
 
 **Slot** belt; **Aura** moderate transmutation; **CL** 8th; **Weight** 1 lb.
 
-Appearing to be a wide leather belt that functions as a _ [belt of mighty constitution](magicItems/wondrousItems.md#_belt-of-mighty-constitution) +4_, this belt in fact saps the wearer's health rather than supplement it. A _belt of weakness _confers a –4 penalty to its wearer's Constitution score. Furthermore, when the wearer rolls a natural 1 on any Fortitude save, the belt constricts, dealing 2d8 points of damage.
+Appearing to be a wide leather belt that functions as a _ [belt of mighty constitution](magicItems/wondrousItems#_belt-of-mighty-constitution) +4_, this belt in fact saps the wearer's health rather than supplement it. A _belt of weakness _confers a –4 penalty to its wearer's Constitution score. Furthermore, when the wearer rolls a natural 1 on any Fortitude save, the belt constricts, dealing 2d8 points of damage.
 
 **Intended Magic Item**
 
-_ [belt of mighty constitution](magicItems/wondrousItems.md#_belt-of-mighty-constitution)_ (any)
+_ [belt of mighty constitution](magicItems/wondrousItems#_belt-of-mighty-constitution)_ (any)
 
 Berserking Sword
 
@@ -268,7 +268,7 @@ Biting Battleaxe
 
 **Slot** none; **Aura** moderate evocation; **CL** 8th; **Weight** 6 lbs.
 
-This vicious-looking _+2 battleaxe_ grants its wielder the Great Cleave feat. But when using this feat, the wielder makes an additional attack against a random adjacent creature instead of choosing which creature to attack. When determining which creature is attacked, the wielder always counts himself as a possible target, even if he is not adjacent to the target. The wielder of a _biting battleaxe_ must always uses it as his primary weapon and must use Great Cleave at every opportunity until subject to a _ [remove curse](spells/removeCurse.md#_remove-curse)_ spell or similar effect.
+This vicious-looking _+2 battleaxe_ grants its wielder the Great Cleave feat. But when using this feat, the wielder makes an additional attack against a random adjacent creature instead of choosing which creature to attack. When determining which creature is attacked, the wielder always counts himself as a possible target, even if he is not adjacent to the target. The wielder of a _biting battleaxe_ must always uses it as his primary weapon and must use Great Cleave at every opportunity until subject to a _ [remove curse](spells/removeCurse#_remove-curse)_ spell or similar effect.
 
 **Intended Magic Item**
 
@@ -278,7 +278,7 @@ Boots of Dancing
 
 **Slot** feet; **Aura** strong enchantment; **CL** 16th; **Weight** 1 lb.
 
-These boots appear and initially function as one of the other kinds of magic boots. When the wearer is in (or fleeing from) melee combat, _boots of [dancing](magicItems/weapons.md#_weapons-dancing) _impede movement, making him behave as if _irresistible dance_ had been cast upon him. Only a _remove curse_ spell enables the wearer to be rid of the boots once their true nature is revealed.
+These boots appear and initially function as one of the other kinds of magic boots. When the wearer is in (or fleeing from) melee combat, _boots of [dancing](magicItems/weapons#_weapons-dancing) _impede movement, making him behave as if _irresistible dance_ had been cast upon him. Only a _remove curse_ spell enables the wearer to be rid of the boots once their true nature is revealed.
 
 **Intended Magic Item**
 
@@ -310,39 +310,39 @@ Buffoon's Sword
 
 **Slot** none; **Aura** moderate divination; **CL** 10th; **Weight** 2 lbs.
 
-This blade seems to be and behaves in all ways as a _ [sword of subtlety](magicItems/weapons.md#_sword-of-subtlety)_ until actually used in combat. Once used in combat, it imposes a –10 penalty on all [Stealth](skills/stealth.md#_stealth) checks made by its wielder. It also makes it nearly impossible for the owner to tell a lie or engage in any other sort of subterfuge. Each time he does so, he must make a DC 15 Will saving throw to avoid blurting out the truth or taking some other involuntary action that spoils his attempted ruse. Only curse-ending magic can rid the wielder of the sword once its curse activates.
+This blade seems to be and behaves in all ways as a _ [sword of subtlety](magicItems/weapons#_sword-of-subtlety)_ until actually used in combat. Once used in combat, it imposes a –10 penalty on all [Stealth](skills/stealth#_stealth) checks made by its wielder. It also makes it nearly impossible for the owner to tell a lie or engage in any other sort of subterfuge. Each time he does so, he must make a DC 15 Will saving throw to avoid blurting out the truth or taking some other involuntary action that spoils his attempted ruse. Only curse-ending magic can rid the wielder of the sword once its curse activates.
 
 **Intended Magic Item**
 
-_ [sword of subtlety](magicItems/weapons.md#_sword-of-subtlety)_
+_ [sword of subtlety](magicItems/weapons#_sword-of-subtlety)_
 
 Cape of Anchoring
 
 **Slot** shoulders; **Aura** moderate abjuration; **CL** 9th; **Weight** 1 lb.
 
-This bright red and gold cape appears to be a _ [cape of the mountebank](magicItems/wondrousItems.md#_cape-of-the-mountebank)_. Once worn, however, it affects its wearer as if subject to a _ [dimensional anchor](spells/dimensionalAnchor.md#_dimensional)_ spell. The cape can only be removed after its wearer is subject to a _ [remove curse](spells/removeCurse.md#_remove-curse)_ spell or similar effect.
+This bright red and gold cape appears to be a _ [cape of the mountebank](magicItems/wondrousItems#_cape-of-the-mountebank)_. Once worn, however, it affects its wearer as if subject to a _ [dimensional anchor](spells/dimensionalAnchor#_dimensional)_ spell. The cape can only be removed after its wearer is subject to a _ [remove curse](spells/removeCurse#_remove-curse)_ spell or similar effect.
 
 **Intended Magic Item**
 
-_ [cape of the mountebank](magicItems/wondrousItems.md#_cape-of-the-mountebank)_
+_ [cape of the mountebank](magicItems/wondrousItems#_cape-of-the-mountebank)_
 
 Cannibal Ring
 
 **Slot** ring; **Aura** strong transmutation; **CL** 16th; **WEIGHT** —
 
-This simple and unadorned copper ring appears slightly tarnished, but seemingly wards off the effects of hunger or other sorts of deprivation; all tests reveal it to be a _ [ring of sustenance](magicItems/rings.md#_ring-of-sustenance)_. However, after wearing it for 7 days, its owner instead comes to suffer from almost constant hunger and thirst, which, if not sated, ultimately drives him mad enough to become a cannibal. The wearer must eat and drink a full day's worth of food and water each hour to avoid making a starvation or thirst check. Once the wearer starts to take lethal damage instead of nonlethal damage due to failed checks, he begins to experience ever more powerful cravings for the flesh of intelligent creatures (any living creature with an Intelligence of 3 or higher).
+This simple and unadorned copper ring appears slightly tarnished, but seemingly wards off the effects of hunger or other sorts of deprivation; all tests reveal it to be a _ [ring of sustenance](magicItems/rings#_ring-of-sustenance)_. However, after wearing it for 7 days, its owner instead comes to suffer from almost constant hunger and thirst, which, if not sated, ultimately drives him mad enough to become a cannibal. The wearer must eat and drink a full day's worth of food and water each hour to avoid making a starvation or thirst check. Once the wearer starts to take lethal damage instead of nonlethal damage due to failed checks, he begins to experience ever more powerful cravings for the flesh of intelligent creatures (any living creature with an Intelligence of 3 or higher).
 
 Once the wearer feasts in such a manner, he recovers all nonlethal damage sustained from hunger and thirst, though he continues to suffer lethal damage on failed starvation and thirst checks. The next time he is in a situation in which he could eat part of an intelligent being, he must make a DC 15 Will save or dine on the forbidden meat. If the wearer succumbs to this urge again, he recovers all lethal damage from failed starvation and thirst checks, and realizes cannibalism is the key to avoiding the increased hunger and thirst—on any day he eats at least one meal of flesh from an intelligent creature, he does not have to make hourly starvation and thirst checks, and recovers any accumulated damage from failing these checks. Once its curse activates, the ring cannot be removed until the curse is broken.
 
 **Intended Magic Item**
 
-_ [ring of sustenance](magicItems/rings.md#_ring-of-sustenance)_
+_ [ring of sustenance](magicItems/rings#_ring-of-sustenance)_
 
 Cloak of Immolation
 
 **Slot** shoulders; **Aura** strong evocation; **CL** 12th; **Weight** 1 lb.
 
-This cloak appears to be a finely made garment that radiates protective magic. The cloak can be handled or examined without harm, but when it is put on, it immediately bursts into flames that burn continuously but do not harm the cloak, only its wearer. The cloak deals 1d6 points of fire damage each round and cannot be removed unless the curse is broken. Sufficient amounts of water or other smothering materials can douse the flames temporarily, but the cloak reignites when exposed to air again. Spells like _ [resist energy](spells/resistEnergy.md#_resist-energy)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, and similar effects can protect the wearer against the cloak's flames while they last.
+This cloak appears to be a finely made garment that radiates protective magic. The cloak can be handled or examined without harm, but when it is put on, it immediately bursts into flames that burn continuously but do not harm the cloak, only its wearer. The cloak deals 1d6 points of fire damage each round and cannot be removed unless the curse is broken. Sufficient amounts of water or other smothering materials can douse the flames temporarily, but the cloak reignites when exposed to air again. Spells like _ [resist energy](spells/resistEnergy#_resist-energy)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, and similar effects can protect the wearer against the cloak's flames while they last.
 
 **Intended Magic Item**
 
@@ -352,11 +352,11 @@ Crown of Blindness
 
 **Slot** headband; **Aura** moderate illusion; **CL** 10th; **Weight** 1 lb.
 
-This fine silver circlet is often set with a milky moonstone. When a wearer places it on his head, the stone quickly goes dark like the waning moon, and the wearer must make a DC 14 Fortitude saving throw or immediately go blind. The saving throw must be made each round that the crown is worn until the wearer succumbs to the blindness. Removing the circlet requires breaking the curse. In addition to a _ [remove curse](spells/removeCurse.md#_remove-curse)_ spell or similar effect, _ [remove blindness/deafness](spells/removeBlindnessDeafness.md#_remove-blindness-deafness)_ can be used to end the circlet's curse long enough to remove the item.
+This fine silver circlet is often set with a milky moonstone. When a wearer places it on his head, the stone quickly goes dark like the waning moon, and the wearer must make a DC 14 Fortitude saving throw or immediately go blind. The saving throw must be made each round that the crown is worn until the wearer succumbs to the blindness. Removing the circlet requires breaking the curse. In addition to a _ [remove curse](spells/removeCurse#_remove-curse)_ spell or similar effect, _ [remove blindness/deafness](spells/removeBlindnessDeafness#_remove-blindness-deafness)_ can be used to end the circlet's curse long enough to remove the item.
 
 **Intended Magic Item**
 
-_ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma)_, _ [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom)_, _ [headband of mental prowess](magicItems/wondrousItems.md#_headband-of-mental-prowess)_, _ [headband of mental superiority](magicItems/wondrousItems.md#_headband-of-mental-superiority)_, _ [headband of vast intelligence](magicItems/wondrousItems.md#_headband-of-vast-intelligence)_,_ [moon circlet](advanced/magicItems/wondrousItems.md#_moon-circlet)_
+_ [headband of alluring charisma](magicItems/wondrousItems#_headband-of-alluring-charisma)_, _ [headband of inspired wisdom](magicItems/wondrousItems#_headband-of-inspired-wisdom)_, _ [headband of mental prowess](magicItems/wondrousItems#_headband-of-mental-prowess)_, _ [headband of mental superiority](magicItems/wondrousItems#_headband-of-mental-superiority)_, _ [headband of vast intelligence](magicItems/wondrousItems#_headband-of-vast-intelligence)_,_ [moon circlet](advanced/magicItems/wondrousItems#_moon-circlet)_
 
 Crystal Hypnosis Ball
 
@@ -384,21 +384,21 @@ Deadly Returns Throwing Axe
 
 **Slot** none; **Aura** moderate evocation; **CL** 8th; **Weight** 2 lbs.
 
-This weapon appears to be a _+2 [returning](magicItems/weapons.md#_weapons-returning) [throwing](magicItems/weapons.md#_throwing) axe_. Instead of the normal returning ability, this axe only returns when the wielder misses her target. When it does return, it attacks the wielder. It uses the wielder's full base attack bonus with this attack. If it hits, it sticks in the wielder, and the wielder can pull out the axe with a swift action. If it misses the wielder, it falls to a random unoccupied square adjacent to the wielder and must be picked up as soon as possible. The wielder of the _deadly returns [throwing](magicItems/weapons.md#_throwing) axe_ always uses it as her primary weapon until subject to a _ [remove curse](spells/removeCurse.md#_remove-curse)_ spell or similar effect.
+This weapon appears to be a _+2 [returning](magicItems/weapons#_weapons-returning) [throwing](magicItems/weapons#_throwing) axe_. Instead of the normal returning ability, this axe only returns when the wielder misses her target. When it does return, it attacks the wielder. It uses the wielder's full base attack bonus with this attack. If it hits, it sticks in the wielder, and the wielder can pull out the axe with a swift action. If it misses the wielder, it falls to a random unoccupied square adjacent to the wielder and must be picked up as soon as possible. The wielder of the _deadly returns [throwing](magicItems/weapons#_throwing) axe_ always uses it as her primary weapon until subject to a _ [remove curse](spells/removeCurse#_remove-curse)_ spell or similar effect.
 
 **Intended Magic Item**
 
-_+2 [returning](magicItems/weapons.md#_weapons-returning) [throwing](magicItems/weapons.md#_throwing) axe_
+_+2 [returning](magicItems/weapons#_weapons-returning) [throwing](magicItems/weapons#_throwing) axe_
 
 Drums of Lethargy
 
 **Slot** none; **Aura** faint transmutation; **CL** 5th; **Weight** 5 lbs.
 
-This set of kettle drums appears to be _drums of [haste](spells/haste.md#_haste)_. When a creature plays the drums, it affects all creatures (including the creature playing the drums) as though subject to a _ [slow](spells/slow.md#_slow) _spell. A DC 14 Will save negates the effect. No [Perform](skills/perform.md#_perform) check is needed to create the _ [slow](spells/slow.md#_slow)_ effect.
+This set of kettle drums appears to be _drums of [haste](spells/haste#_haste)_. When a creature plays the drums, it affects all creatures (including the creature playing the drums) as though subject to a _ [slow](spells/slow#_slow) _spell. A DC 14 Will save negates the effect. No [Perform](skills/perform#_perform) check is needed to create the _ [slow](spells/slow#_slow)_ effect.
 
 **Intended Magic Item**
 
-_drums of [haste](spells/haste.md#_haste)_
+_drums of [haste](spells/haste#_haste)_
 
 Dust of Sneezing and Choking
 
@@ -414,7 +414,7 @@ Eyes of Blindness
 
 **Slot** Eyes; **Aura** faint necromancy; **CL** 5th; **Weight** ­—
 
-These normal-looking glasses appear harmless and nondescript. When they are worn, the wearer becomes blinded as if subject to the _ [blindness/deafness](spells/blindnessDeafness.md#_blindness-deafness)_ spell (no saving throw).
+These normal-looking glasses appear harmless and nondescript. When they are worn, the wearer becomes blinded as if subject to the _ [blindness/deafness](spells/blindnessDeafness#_blindness-deafness)_ spell (no saving throw).
 
 **Intended Magic Item**
 
@@ -454,19 +454,19 @@ Gravesoul Armor
 
 **Slot** armor; **Aura** moderate enchantment; **CL** 10th; **Weight** 20 lbs.
 
-This armor behaves in all ways as if it were _+1 [undead controlling](magicItems/armor.md#_armor-undead-controlling) studded leather_ until its owner actually attempts to use its special property. At that point, the wearer and all living creatures within a 20-foot radius must succeed at a DC 15 Will saving throw to avoid believing that they are actually some sort of undead creature for the next 24 hours. The GM can either roll randomly (1d6; 1–3 zombies, 4–5 ghouls, 6 vampires) or choose which sorts of specific undead the affected creatures believe themselves to be. Creatures affected by the armor behave as normal for the sorts of undead they regard themselves as—“zombies” mindlessly attack unassociated creatures near them, vampires attempt to bite victims on the neck, and so on—but gain none of the special abilities of that creature. The affected creatures react negatively to effects that harm “their” type of undead, so “vampires” avoid garlic, “wraiths” recoil from sunlight, and so on. The creatures continue to believe they are actually undead and ignore all evidence to the contrary. If attacked, they defend themselves, even if this requires using abilities they have but “their” type of undead normally lacks; for example, a barbarian who thinks she's a ghoul can still rage. Channel energy and other undead-affecting effects have no effect on creatures affected by _gravesoul armor_.
+This armor behaves in all ways as if it were _+1 [undead controlling](magicItems/armor#_armor-undead-controlling) studded leather_ until its owner actually attempts to use its special property. At that point, the wearer and all living creatures within a 20-foot radius must succeed at a DC 15 Will saving throw to avoid believing that they are actually some sort of undead creature for the next 24 hours. The GM can either roll randomly (1d6; 1–3 zombies, 4–5 ghouls, 6 vampires) or choose which sorts of specific undead the affected creatures believe themselves to be. Creatures affected by the armor behave as normal for the sorts of undead they regard themselves as—“zombies” mindlessly attack unassociated creatures near them, vampires attempt to bite victims on the neck, and so on—but gain none of the special abilities of that creature. The affected creatures react negatively to effects that harm “their” type of undead, so “vampires” avoid garlic, “wraiths” recoil from sunlight, and so on. The creatures continue to believe they are actually undead and ignore all evidence to the contrary. If attacked, they defend themselves, even if this requires using abilities they have but “their” type of undead normally lacks; for example, a barbarian who thinks she's a ghoul can still rage. Channel energy and other undead-affecting effects have no effect on creatures affected by _gravesoul armor_.
 
 This is a mind-affecting, compulsion enchantment. The wearer of the armor can use this power up to three times per day, though it can only work on a particular creature once in any 24-hour period. Regardless of the curse, the armor is still _+1 studded leather_, and some characters may find it useful despite its (nonexistent) power over undead. Unlike most cursed items, this one is easily discarded without any magical assistance.
 
 **Intended Magic Item**
 
-_+1 [undead controlling](magicItems/armor.md#_armor-undead-controlling) studded leather_
+_+1 [undead controlling](magicItems/armor#_armor-undead-controlling) studded leather_
 
 Hat of Hatreds
 
 **Slot** head; **Aura** moderate illusion; **CL** 10th; **Weight** —
 
-This hat performs in all ways like a _ [hat of disguise](magicItems/wondrousItems.md#_hat-of-disguise)_ until its owner attempts to use it to disguise himself in the presence of a hostile creature. Once he does, the hat causes him to assume the guise of the creature or person the hostile creature most wants to harm. The hat never causes the wearer to assume the appearance of someone the viewer wouldn't harm if he had the opportunity (for example, the greatly feared leader of the local temple).
+This hat performs in all ways like a _ [hat of disguise](magicItems/wondrousItems#_hat-of-disguise)_ until its owner attempts to use it to disguise himself in the presence of a hostile creature. Once he does, the hat causes him to assume the guise of the creature or person the hostile creature most wants to harm. The hat never causes the wearer to assume the appearance of someone the viewer wouldn't harm if he had the opportunity (for example, the greatly feared leader of the local temple).
 
 Once the hat reveals its true abilities, it no longer responds to attempts by its wearer to change his appearance. Instead, it automatically causes him to take on the guise of someone known to and despised by those viewing him, complete with supplementary illusions that make that wearer appear disoriented, injured, or weak. For example, in a goblin lair, the wearer might look like the tribe's chief, but sleepy and vulnerable. In a human town, the wearer may look like the hated local bully, drunk and staggering. In an evil town, the wearer looks like a confused visitor and appears to be an ideal target to victimize with some crime.
 
@@ -474,13 +474,13 @@ Curse-breaking magic is necessary to remove the hat.
 
 **Intended Magic Item**
 
-_ [hat of disguise](magicItems/wondrousItems.md#_hat-of-disguise)_
+_ [hat of disguise](magicItems/wondrousItems#_hat-of-disguise)_
 
 Headband of Stupidity
 
 **Slot** headband; **Aura** strong transmutation; **CL** 8th; **Weight** 1 lb.
 
-This headband appears to be a _headband of vast intellect +4_, but instead of granting a +4 bonus to Intelligence and bonuses to associated skills, the wearer take a –4 penalty to Intelligence and a further –2 penalty on all [Knowledge](skills/knowledge.md#_knowledge) checks. The wearer is not aware of the debilitating effects of the headband; even the stupidest statement or misguided insight seems intelligent to him while he is wearing it.
+This headband appears to be a _headband of vast intellect +4_, but instead of granting a +4 bonus to Intelligence and bonuses to associated skills, the wearer take a –4 penalty to Intelligence and a further –2 penalty on all [Knowledge](skills/knowledge#_knowledge) checks. The wearer is not aware of the debilitating effects of the headband; even the stupidest statement or misguided insight seems intelligent to him while he is wearing it.
 
 **Intended Magic Item**
 
@@ -490,7 +490,7 @@ Heavy Hammer
 
 **Slot** none; **Aura** moderate transmutation; **CL** 8th; **Weight** 20 lbs.
 
-This massive warhammer is even heavier than its size would normally warrant. A creature wielding the hammer takes a –2 penalty on attack rolls and a +4 bonus on damage rolls, as well as a –10 penalty to speed. Once picked up, this weapon must be used as the creature's primary weapon until subject to a successful _ [remove curse](spells/removeCurse.md#_remove-curse)_ spell.
+This massive warhammer is even heavier than its size would normally warrant. A creature wielding the hammer takes a –2 penalty on attack rolls and a +4 bonus on damage rolls, as well as a –10 penalty to speed. Once picked up, this weapon must be used as the creature's primary weapon until subject to a successful _ [remove curse](spells/removeCurse#_remove-curse)_ spell.
 
 **Intended Magic Item**
 
@@ -532,11 +532,11 @@ Mask of Ugliness
 
 **Slot** head; **Aura** moderate transmutation; **CL** 8th; **Weight** 1 lb.
 
-This strange, featureless mask seems to have the powers of a _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +4_, but instead of granting a bonus to Charisma, the mask melds to the wearer's face, making him seem uglier and his words come off as crude and insulting. The wearer takes a –4 penalty to [Bluff](skills/bluff.md#_bluff) and [Diplomacy](skills/diplomacy.md#_diplomacy) checks but gains a +2 bonus to [Intimidate](skills/intimidate.md#_intimidate) checks.
+This strange, featureless mask seems to have the powers of a _ [headband of alluring charisma](magicItems/wondrousItems#_headband-of-alluring-charisma) +4_, but instead of granting a bonus to Charisma, the mask melds to the wearer's face, making him seem uglier and his words come off as crude and insulting. The wearer takes a –4 penalty to [Bluff](skills/bluff#_bluff) and [Diplomacy](skills/diplomacy#_diplomacy) checks but gains a +2 bonus to [Intimidate](skills/intimidate#_intimidate) checks.
 
 **Intended Magic Item**
 
-any magical mask or a _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma)_
+any magical mask or a _ [headband of alluring charisma](magicItems/wondrousItems#_headband-of-alluring-charisma)_
 
 Medallion of Thought Projection
 
@@ -552,11 +552,11 @@ Nearfiring Bow
 
 **Slot** none; **Aura** moderate divination; **CL** 6th; **Weight** 2 lbs.
 
-This bow appears to be a _+2 [distance](magicItems/weapons.md#_weapons-distance) shortbow_, but its curse is that it suffers a –4 cumulative penalty for each range increment beyond the first. Furthermore, it takes an additional –4 penalty on critical confirmation rolls when firing beyond the first range increment. This bow must be used as its wielder's primary ranged weapon and can only be discarded after the owner is subject to a _ [remove curse](spells/removeCurse.md#_remove-curse)_ spell or similar effect.
+This bow appears to be a _+2 [distance](magicItems/weapons#_weapons-distance) shortbow_, but its curse is that it suffers a –4 cumulative penalty for each range increment beyond the first. Furthermore, it takes an additional –4 penalty on critical confirmation rolls when firing beyond the first range increment. This bow must be used as its wielder's primary ranged weapon and can only be discarded after the owner is subject to a _ [remove curse](spells/removeCurse#_remove-curse)_ spell or similar effect.
 
 **Intended Magic Item**
 
-_+2 [distance](magicItems/weapons.md#_weapons-distance) shortbow_
+_+2 [distance](magicItems/weapons#_weapons-distance) shortbow_
 
 Necklace of Strangulation
 
@@ -586,19 +586,19 @@ This small, 6-inch-square glass tablet grows to a 6-foot-by-3-foot window if pla
 
 On command, the front of this glass displays all activities on the other side of this surface like a window, piercing wood, earth, or stone up to 10 feet deep, but not metal. The window does not reveal its existence to non-hostile creatures depicted within it, allowing observers to study them at their leisure.
 
-However, once the owner of the window uses it to spy on hostile creatures, its curse activates. From that moment on, the window presents its owner and anyone looking through the window with an artificial image of the other side designed to lull them into a sense of false confidence—enemies appear sleeping or drunk, pits have obvious plank bridges for easy crossing, and so on. While presenting this image to those in front of the mirror, it reveals those viewers to the enemies being observed, creating a two-way window; however, viewed creatures see those using the mirror accurately and can read their thoughts as if using _ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_. Furthermore, the image shown to those using the mirror does not reveal that the creatures they are watching can see them as well.
+However, once the owner of the window uses it to spy on hostile creatures, its curse activates. From that moment on, the window presents its owner and anyone looking through the window with an artificial image of the other side designed to lull them into a sense of false confidence—enemies appear sleeping or drunk, pits have obvious plank bridges for easy crossing, and so on. While presenting this image to those in front of the mirror, it reveals those viewers to the enemies being observed, creating a two-way window; however, viewed creatures see those using the mirror accurately and can read their thoughts as if using _ [detect thoughts](spells/detectThoughts#_detect-thoughts)_. Furthermore, the image shown to those using the mirror does not reveal that the creatures they are watching can see them as well.
 
 Once the curse activates, the owner comes to regard using the mirror to spy ahead as his most effective tactic (after all, it has no limit to its duration) and does so whenever possible until curse-breaking magic frees him from its influence. Anyone who uses the mirror to spy on hostiles, even if he wasn't the one to activate the mirror, is also subject to this desire to continue using it.
 
 **Intended Magic Item**
 
-_ [mirror of life trapping](magicItems/wondrousItems.md#_mirror-of-life-trapping)_, _ [mirror of opposition](magicItems/wondrousItems.md#_mirror-of-opposition)_
+_ [mirror of life trapping](magicItems/wondrousItems#_mirror-of-life-trapping)_, _ [mirror of opposition](magicItems/wondrousItems#_mirror-of-opposition)_
 
 Ornery Pistol
 
 **Slot** none; **Aura** strong transmutation; **CL** 12th; **Weight** 4 lbs.
 
-This pistol acts as a normal _+2 pistol_, but it has a strange aversion to talk of peace. Anytime the wielder or an ally within line of sight that the wielder can hear attempts to improve a creature's initial attitude with the [Diplomacy](skills/diplomacy.md#_diplomacy) skill, without spending an action, the pistol leaps into the wielder's hand and takes a single shot at the creature the wielder or ally is using [Diplomacy](skills/diplomacy.md#_diplomacy) against. If the wielder or ally is attempting to affect multiple creatures, the gun shoots a random member of the group. This occurs even if the pistol is unloaded, as the pistol's curse magically loads itself with a normal bullet and black powder when the action is taken.
+This pistol acts as a normal _+2 pistol_, but it has a strange aversion to talk of peace. Anytime the wielder or an ally within line of sight that the wielder can hear attempts to improve a creature's initial attitude with the [Diplomacy](skills/diplomacy#_diplomacy) skill, without spending an action, the pistol leaps into the wielder's hand and takes a single shot at the creature the wielder or ally is using [Diplomacy](skills/diplomacy#_diplomacy) against. If the wielder or ally is attempting to affect multiple creatures, the gun shoots a random member of the group. This occurs even if the pistol is unloaded, as the pistol's curse magically loads itself with a normal bullet and black powder when the action is taken.
 
 **Intended Magic Item**
 
@@ -608,7 +608,7 @@ Pauldrons of the Jackass
 
 **Slot** shoulders; **Aura** moderate transmutation; **CL** 7th; **Weight** 3 lbs.
 
-These steel pauldrons seem to be emblazoned with stampeding horses until they are worn, and then the horses change shape to that of dumfounded donkeys. The wearer of these pauldrons takes a –4 penalty to Dexterity and reduces all speeds by 10 feet. A successful _ [remove curse](spells/removeCurse.md#_remove-curse)_ spell is required before this item can be removed.
+These steel pauldrons seem to be emblazoned with stampeding horses until they are worn, and then the horses change shape to that of dumfounded donkeys. The wearer of these pauldrons takes a –4 penalty to Dexterity and reduces all speeds by 10 feet. A successful _ [remove curse](spells/removeCurse#_remove-curse)_ spell is required before this item can be removed.
 
 **Intended Magic Item**
 
@@ -628,7 +628,7 @@ Petrifying Cloak
 
 **Slot** shoulders; **Aura** moderate transmutation; **CL** 11th; **Weight** 1 lb.
 
-This gray magical cloak seems to be a protective cloak, but when it is donned, the wearer must succeed at a DC 20 Fortitude save or be instantly petrified. If the initial saving throw succeeds, the creature wearing the cloak must make further checks at the start of each of its turns. On any failed saving throw the creature becomes petrified. A _ [remove curse](spells/removeCurse.md#_remove-curse)_ or _ [stone to flesh](spells/stoneToFlesh.md#_stone-to-flesh) _transforms the wearer back, at least long enough for someone to take the cloak off the wearer.
+This gray magical cloak seems to be a protective cloak, but when it is donned, the wearer must succeed at a DC 20 Fortitude save or be instantly petrified. If the initial saving throw succeeds, the creature wearing the cloak must make further checks at the start of each of its turns. On any failed saving throw the creature becomes petrified. A _ [remove curse](spells/removeCurse#_remove-curse)_ or _ [stone to flesh](spells/stoneToFlesh#_stone-to-flesh) _transforms the wearer back, at least long enough for someone to take the cloak off the wearer.
 
 **Intended Magic Item**
 
@@ -638,19 +638,19 @@ Planar Invasion Shield
 
 **Slot** shield; **Aura** strong conjuration; **CL** 17th; **Weight** 15 lbs.
 
-This shield behaves in all ways as an _ [absorbing shield](magicItems/armor.md#_absorbing-shield)_ until its owner attempts to use its disintegration power in combat. Once he does, it instead causes one or more monsters to pour forth from the shield and attack the nearest creature each round (including the shield-bearer) for 1d6 rounds before retreating by the safest possible route. If there is no such path for them to escape, the monsters fight to the death. To determine the nature and number of the monsters, roll 2d4 to determine the level of the _summon monster_ spell and roll 1d3 to determine the number of creatures that appear. Monsters conjured by this shield remain until killed, act as normal for their kind, and are treated as summoned creatures with a permanent duration.
+This shield behaves in all ways as an _ [absorbing shield](magicItems/armor#_absorbing-shield)_ until its owner attempts to use its disintegration power in combat. Once he does, it instead causes one or more monsters to pour forth from the shield and attack the nearest creature each round (including the shield-bearer) for 1d6 rounds before retreating by the safest possible route. If there is no such path for them to escape, the monsters fight to the death. To determine the nature and number of the monsters, roll 2d4 to determine the level of the _summon monster_ spell and roll 1d3 to determine the number of creatures that appear. Monsters conjured by this shield remain until killed, act as normal for their kind, and are treated as summoned creatures with a permanent duration.
 
-Once its curse activates, the shield calls forth monsters three times per day, approximately every 8 hours. If the monsters cannot emerge directly from the shield and survive (for example, because it's buried or underwater), they instead appear at the nearest safe location within 50 feet. Successful curse-breaking magic cast on the shield restores it to its previous guise as an _ [absorbing shield](magicItems/armor.md#_absorbing-shield)_ and allows its wearer to abandon it.
+Once its curse activates, the shield calls forth monsters three times per day, approximately every 8 hours. If the monsters cannot emerge directly from the shield and survive (for example, because it's buried or underwater), they instead appear at the nearest safe location within 50 feet. Successful curse-breaking magic cast on the shield restores it to its previous guise as an _ [absorbing shield](magicItems/armor#_absorbing-shield)_ and allows its wearer to abandon it.
 
 **Intended Magic Item**
 
-_ [absorbing shield](magicItems/armor.md#_absorbing-shield)_
+_ [absorbing shield](magicItems/armor#_absorbing-shield)_
 
 Poisonous Cloak
 
 **Slot** shoulders; **Aura** moderate transmutation; **CL** 15th; **Weight** 1 lb.
 
-This cloak is usually made of wool, although it can be made of leather. A _ [detect poison](spells/detectPoison.md#_detect-poison) _spell can reveal the presence of poison in the cloak's fabric. The garment can be handled without harm, but as soon as it is actually donned, the wearer takes 4d6 points of Constitution damage unless she succeeds on a DC 28 Fortitude save.
+This cloak is usually made of wool, although it can be made of leather. A _ [detect poison](spells/detectPoison#_detect-poison) _spell can reveal the presence of poison in the cloak's fabric. The garment can be handled without harm, but as soon as it is actually donned, the wearer takes 4d6 points of Constitution damage unless she succeeds on a DC 28 Fortitude save.
 
 Once donned, a _poisonous cloak_ can be removed only with a _remove curse_ spell; doing this destroys the magical property of the cloak. If a _neutralize poison_ spell is then used, it is possible to revive a dead victim with a _raise dead_ or _resurrection spell_.
 
@@ -682,21 +682,21 @@ Ring of Lifebleed
 
 **Slot** ring; **Aura** moderate necromancy; **CL** 10th; **Weight** —
 
-Before being worn, this ring appears to be a _ [ring of regeneration](magicItems/rings.md#_ring-of-regeneration)_. Once it is worn in combat, however, the true nature of the ring becomes apparent. Each time the wearer is hit with a melee or ranged weapon attack, he takes an additional 1d4 points of damage. This ring cannot be removed until the wearer dies or by way of a _ [remove curse](spells/removeCurse.md#_remove-curse)_, _ [wish](spells/wish.md#_wish),_ or _ [miracle](spells/miracle.md#_miracle)_ spell.
+Before being worn, this ring appears to be a _ [ring of regeneration](magicItems/rings#_ring-of-regeneration)_. Once it is worn in combat, however, the true nature of the ring becomes apparent. Each time the wearer is hit with a melee or ranged weapon attack, he takes an additional 1d4 points of damage. This ring cannot be removed until the wearer dies or by way of a _ [remove curse](spells/removeCurse#_remove-curse)_, _ [wish](spells/wish#_wish),_ or _ [miracle](spells/miracle#_miracle)_ spell.
 
 **Intended Magic Item**
 
-_ [ring of regeneration](magicItems/rings.md#_ring-of-regeneration)_
+_ [ring of regeneration](magicItems/rings#_ring-of-regeneration)_
 
 Ring of Spell Devouring
 
 **Slot** ring; **Aura** strong abjuration; **CL** 13th; **Weight** —
 
-This delicate ring appears to be a _ [ring of spell storing](magicItems/rings.md#_ring-of-spell-storing-minor)_ or a _ [ring of spell turning](magicItems/rings.md#_ring-of-spell-tuning)_, but instead of aiding casting or counterspelling, the ring hinders such efforts. Each time the wearer casts an arcane spell, he suffers a 25% spell failure chance. Furthermore, the wearer of the ring takes a –4 penalty on [Spellcraft](skills/spellcraft.md#_spellcraft) checks to identify a spell when attempting to counterspell. The ring can only be removed by a _ [remove curse](spells/removeCurse.md#_remove-curse)_ spell or a similar effect.
+This delicate ring appears to be a _ [ring of spell storing](magicItems/rings#_ring-of-spell-storing-minor)_ or a _ [ring of spell turning](magicItems/rings#_ring-of-spell-tuning)_, but instead of aiding casting or counterspelling, the ring hinders such efforts. Each time the wearer casts an arcane spell, he suffers a 25% spell failure chance. Furthermore, the wearer of the ring takes a –4 penalty on [Spellcraft](skills/spellcraft#_spellcraft) checks to identify a spell when attempting to counterspell. The ring can only be removed by a _ [remove curse](spells/removeCurse#_remove-curse)_ spell or a similar effect.
 
 **Intended Magic Item**
 
-_ [ring of spell storing](magicItems/rings.md#_ring-of-spell-storing-minor)_ (any) or a _ [ring of spell turning](magicItems/rings.md#_ring-of-spell-tuning)_
+_ [ring of spell storing](magicItems/rings#_ring-of-spell-storing-minor)_ (any) or a _ [ring of spell turning](magicItems/rings#_ring-of-spell-tuning)_
 
 Ring of Truth
 
@@ -706,18 +706,18 @@ Deceptively pleasant-looking, a _ring of truth_ bears images of childlike angels
 
 **Intended Magic Item**
 
-_ [ring of mind shielding](magicItems/rings.md#_ring-of-mind-shielding)_, _ [ring of x-ray vision](magicItems/rings.md#_ring-of-x-ray-vision)_
+_ [ring of mind shielding](magicItems/rings#_ring-of-mind-shielding)_, _ [ring of x-ray vision](magicItems/rings#_ring-of-x-ray-vision)_
 
 Riot Pipes
 
 **Slot** none; **Aura** moderate enchantment; **CL** 10th; **Weight** 3 lbs.
 
-This simple musical instrument seems and behaves in all ways like any other kind of magical pipes until its owner plays it in an urban setting. Once he does, it requires all people within hearing range to make a DC 15 Will saving throw to avoid falling into a murderous fury. Those who fail their saves gain the effects of a _ [rage](spells/rage.md#_rage)_ spell for the next 1d6 hours and experience a strong compulsion (DC 15 Will save negates) to attack any stranger or disliked person whom they encounter during this time.   
+This simple musical instrument seems and behaves in all ways like any other kind of magical pipes until its owner plays it in an urban setting. Once he does, it requires all people within hearing range to make a DC 15 Will saving throw to avoid falling into a murderous fury. Those who fail their saves gain the effects of a _ [rage](spells/rage#_rage)_ spell for the next 1d6 hours and experience a strong compulsion (DC 15 Will save negates) to attack any stranger or disliked person whom they encounter during this time.   
 If the owner spends more than 3 consecutive days in an urban setting, he must make a DC 15 Will saving throw each day to avoid playing the _riot pipes_ at some point during each subsequent day. The pipes remain with the player until the curse is broken.
 
 **Intended Magic Item**
 
-_ [pipes of haunting](magicItems/wondrousItems.md#_pipes-of-haunting)_, _ [pipes of the sewers](magicItems/wondrousItems.md#_pipes-of-the-sewers)_, _ [pipes of sounding](magicItems/wondrousItems.md#_pipes-of-sounding)_
+_ [pipes of haunting](magicItems/wondrousItems#_pipes-of-haunting)_, _ [pipes of the sewers](magicItems/wondrousItems#_pipes-of-the-sewers)_, _ [pipes of sounding](magicItems/wondrousItems#_pipes-of-sounding)_
 
 Robe of Powerlessness
 
@@ -745,19 +745,19 @@ Rod of Arson
 
 **Slot** none; **Aura** strong evocation; **CL** 12th; **Weight** 5 lbs.
 
-All tests indicate that this hollow metal tube is a _ [rod of flame extinguishing](magicItems/rods.md#_rod-of-flame-extinguishing)_ until its owner uses it to extinguish or suppress a fire in a combat or other dangerous situation. Once she does, she discovers that rather than quenching the flame, the rod causes the flame to enter her body. This flame persists inside of her for the next 24 hours, causing minor discomfort and giving her the sickened condition, but causing no visible injury. However, when the wielder is adjacent to or within a flammable object or structure, she feels inclined to set the object ablaze, using any means at her disposal. Each round the wielder resists this urge, she takes 1d6 points of fire damage as the flame within her surges and roils. After 1 minute of this, she must make a DC 15 Will save or succumb to the temptation; if she saves, the urge passes, the internal fire stops harming her, and she can interact normally with the flammable target thereafter.
+All tests indicate that this hollow metal tube is a _ [rod of flame extinguishing](magicItems/rods#_rod-of-flame-extinguishing)_ until its owner uses it to extinguish or suppress a fire in a combat or other dangerous situation. Once she does, she discovers that rather than quenching the flame, the rod causes the flame to enter her body. This flame persists inside of her for the next 24 hours, causing minor discomfort and giving her the sickened condition, but causing no visible injury. However, when the wielder is adjacent to or within a flammable object or structure, she feels inclined to set the object ablaze, using any means at her disposal. Each round the wielder resists this urge, she takes 1d6 points of fire damage as the flame within her surges and roils. After 1 minute of this, she must make a DC 15 Will save or succumb to the temptation; if she saves, the urge passes, the internal fire stops harming her, and she can interact normally with the flammable target thereafter.
 
 Once the curse reveals itself, the owner must make a DC 15 Will saving throw to avoid using the item to try and extinguish or suppress any fire she encounters which she herself did not start. She cannot use the rod against fires that she personally started. Successful curse-breaking magic allows the wielder to get rid of the rod and harmlessly dissipates any fire persisting inside her from the action of the rod.
 
 **Intended Magic Item**
 
-_ [rod of flame extinguishing](magicItems/rods.md#_rod-of-flame-extinguishing)_
+_ [rod of flame extinguishing](magicItems/rods#_rod-of-flame-extinguishing)_
 
 Rod of Foiled Magic
 
 **Slot** none; **Aura** strong (no school); **CL** 17th; **Weight** 5 lbs.
 
-This rod is similar in appearance to a _metamagic rod_. Once a creature picks up such a rod, it cannot be discarded without use of a _ [remove curse](spells/removeCurse.md#_remove-curse)_ spell or similar magic. Each time the wielder casts a spell, he takes the _rod of foiled magic_ in hand and treats the caster level of the spell as 2 levels lower. If this would reduce the caster level to 0 or lower, than the caster has only a 50% chance of casting the spell (any chance of arcane spell failure is added to this percentile chance), but if he is able to cast the spell, the spell has a caster level of 1st.
+This rod is similar in appearance to a _metamagic rod_. Once a creature picks up such a rod, it cannot be discarded without use of a _ [remove curse](spells/removeCurse#_remove-curse)_ spell or similar magic. Each time the wielder casts a spell, he takes the _rod of foiled magic_ in hand and treats the caster level of the spell as 2 levels lower. If this would reduce the caster level to 0 or lower, than the caster has only a 50% chance of casting the spell (any chance of arcane spell failure is added to this percentile chance), but if he is able to cast the spell, the spell has a caster level of 1st.
 
 **Intended Magic Item**
 
@@ -777,7 +777,7 @@ Scattershot Bracers
 
 **Slot** wrists; **Aura** faint transmutation; **CL** 5th; **Weight** 1 lb.
 
-These wristbands appear to be _bracers of archery_ until they are worn. The wearer takes a –2 penalty on all ranged attack rolls. A successful _ [remove curse](spells/removeCurse.md#_remove-curse)_ spell is required before these bracers can be removed.
+These wristbands appear to be _bracers of archery_ until they are worn. The wearer takes a –2 penalty on all ranged attack rolls. A successful _ [remove curse](spells/removeCurse#_remove-curse)_ spell is required before these bracers can be removed.
 
 **Intended Magic Item**
 
@@ -787,7 +787,7 @@ Staff of Occasional Wonder
 
 **Slot** none; **Aura** varies; **CL** varies; **Weight** ­­­4 lbs.
 
-A _staff of occasional wonder_ can appear to be any magical staff, and in fact such items are usually the result of accidents during an attempted crafting of the staff it appears to be. It usually functions as intended, but each time someone uses the staff, they must roll d%. On a roll of 1–10, instead of the desired effect, the staff acts like a _ [rod of wonder](magicItems/rods.md#_rod-of-wonder)_.
+A _staff of occasional wonder_ can appear to be any magical staff, and in fact such items are usually the result of accidents during an attempted crafting of the staff it appears to be. It usually functions as intended, but each time someone uses the staff, they must roll d%. On a roll of 1–10, instead of the desired effect, the staff acts like a _ [rod of wonder](magicItems/rods#_rod-of-wonder)_.
 
 **Intended Magic Item**
 
@@ -807,27 +807,27 @@ Unguent of Aging
 
 **Slot** none; **Aura** moderate transmutation; **CL** 6th; **Weight** —
 
-This unguent appears at first to be _ [unguent of timelessness](magicItems/wondrousItems.md#_unguent-of-timelessness)_. When it touches the skin of a living creature or matter that was once alive, however, it accelerates the aging of that creature or item. Living creatures that touch the unguent age by 30 years. Once living matter—such as wood, paper, or a dead body—crumbles to dust and is destroyed. One flask contains enough unguent to affect eight Medium or smaller creatures or objects. A Large creature or object counts as two Medium creatures or objects and a Huge creature or object counts as four Medium creatures or objects.
+This unguent appears at first to be _ [unguent of timelessness](magicItems/wondrousItems#_unguent-of-timelessness)_. When it touches the skin of a living creature or matter that was once alive, however, it accelerates the aging of that creature or item. Living creatures that touch the unguent age by 30 years. Once living matter—such as wood, paper, or a dead body—crumbles to dust and is destroyed. One flask contains enough unguent to affect eight Medium or smaller creatures or objects. A Large creature or object counts as two Medium creatures or objects and a Huge creature or object counts as four Medium creatures or objects.
 
 **Intended Magic Item**
 
-_ [unguent of timelessness](magicItems/wondrousItems.md#_unguent-of-timelessness)_
+_ [unguent of timelessness](magicItems/wondrousItems#_unguent-of-timelessness)_
 
 Unlucky Figurine
 
 **Slot** none; **Aura** moderate enchantment; **CL** 11th; **Weight** 1 lb.
 
-This figurine appears to be a _ [figurine of wondrous power](magicItems/wondrousItems.md#_figurines-of-wondrous-power)_, but instead of having the ability to animate and serve its owner, it curses that owner with bad luck. While in possession of this figurine, the owner takes a –2 penalty to AC and CMD, and a –2 penalty on attack rolls, skill checks, ability checks, and saving throws.
+This figurine appears to be a _ [figurine of wondrous power](magicItems/wondrousItems#_figurines-of-wondrous-power)_, but instead of having the ability to animate and serve its owner, it curses that owner with bad luck. While in possession of this figurine, the owner takes a –2 penalty to AC and CMD, and a –2 penalty on attack rolls, skill checks, ability checks, and saving throws.
 
 **Intended Magic Item**
 
-any_ [figurine of wondrous power](magicItems/wondrousItems.md#_figurines-of-wondrous-power)_
+any_ [figurine of wondrous power](magicItems/wondrousItems#_figurines-of-wondrous-power)_
 
 Unstable Musket
 
 **Slot** none; **Aura** moderate transmutation; **CL** 6th; **Weight** 9 lbs.
 
-This item seems to be a normal _+1 musket_ but has a misfire chance of 1–5. No effect or ability can reduce this misfire chance. This musket must be used as its owner's primary ranged weapon and can only be discarded after the owner is subject to a _ [remove curse](spells/removeCurse.md#_remove-curse)_ spell or similar effect.
+This item seems to be a normal _+1 musket_ but has a misfire chance of 1–5. No effect or ability can reduce this misfire chance. This musket must be used as its owner's primary ranged weapon and can only be discarded after the owner is subject to a _ [remove curse](spells/removeCurse#_remove-curse)_ spell or similar effect.
 
 **Intended Magic Item**
 

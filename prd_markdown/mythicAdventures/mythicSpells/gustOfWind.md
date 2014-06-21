@@ -1,6 +1,6 @@
 Gust of Wind
 
-**Source** [_gust of wind_](spells/gustOfWind.md#_gust-of-wind)
+**Source** [_gust of wind_](spells/gustOfWind#_gust-of-wind)
 
 The force of the wind increases to windstorm (approximately 70 mph). All effects described in the spell affect creatures one size larger. Ranged attacks can't be attempted in the area of the spell. The wind automatically blows out unprotected flames and has a 75% chance of blowing out protected flames.
 

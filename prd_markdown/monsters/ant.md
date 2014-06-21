@@ -6,9 +6,9 @@ _A writhing carpet of ants seethes over the ground, consuming everything in its 
 
 **XP 1,600**
 
-N Fine [vermin](creatureTypes.md#_vermin) ( [swarm](creatureTypes.md#_swarm-subtype))
+N Fine [vermin](creatureTypes#_vermin) ( [swarm](creatureTypes#_swarm-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft., scent; [Perception](../skills/perception.md#_perception) +4
+**Init** +2; **Senses** darkvision 60 ft., scent; [Perception](../skills/perception#_perception) +4
 
 **Defense**
 
@@ -18,7 +18,7 @@ N Fine [vermin](creatureTypes.md#_vermin) ( [swarm](creatureTypes.md#_swarm-subt
 
 **Fort** +7, **Ref** +5, **Will** +3
 
-**Defensive Abilities** [swarm traits](creatureTypes.md#_swarm-subtype); **Immune** weapon damage
+**Defensive Abilities** [swarm traits](creatureTypes#_swarm-subtype); **Immune** weapon damage
 
 **Offense**
 
@@ -36,7 +36,7 @@ N Fine [vermin](creatureTypes.md#_vermin) ( [swarm](creatureTypes.md#_swarm-subt
 
 **Base**  **Atk** +8; **CMB** —; **CMD** —
 
-**Skills** [Climb](../skills/climb.md#_climb) +10, [Perception](../skills/perception.md#_perception) +4; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception)
+**Skills** [Climb](../skills/climb#_climb) +10, [Perception](../skills/perception#_perception) +4; **Racial Modifiers** +4 [Perception](../skills/perception#_perception)
 
 **Ecology**
 
@@ -62,9 +62,9 @@ _A thin, six-legged ant the size of a pony stands at the ready, its mandibles ch
 
 **XP 600**
 
-N Medium [vermin](creatureTypes.md#_vermin)
+N Medium [vermin](creatureTypes#_vermin)
 
-**Init** +0; **Senses** darkvision 60 ft., scent; [Perception](../skills/perception.md#_perception) +5
+**Init** +0; **Senses** darkvision 60 ft., scent; [Perception](../skills/perception#_perception) +5
 
 **Defense**
 
@@ -80,7 +80,7 @@ N Medium [vermin](creatureTypes.md#_vermin)
 
 **Speed** 50 ft., climb 20 ft.
 
-**Melee** bite +3 (1d6+2 plus [grab](universalMonsterRules.md#_grab)), sting +3 (1d4+2 plus [poison](universalMonsterRules.md#_poison))
+**Melee** bite +3 (1d6+2 plus [grab](universalMonsterRules#_grab)), sting +3 (1d4+2 plus [poison](universalMonsterRules#_poison))
 
 **Statistics**
 
@@ -88,9 +88,9 @@ N Medium [vermin](creatureTypes.md#_vermin)
 
 **Base**  **Atk** +1; **CMB** +3 (+7 grapple); **CMD** 13 (21 vs. trip)
 
-**Feats** [Toughness](../feats.md#_toughness)B
+**Feats** [Toughness](../feats#_toughness)B
 
-**Skills** [Climb](../skills/climb.md#_climb) +10, [Perception](../skills/perception.md#_perception) +5, [Survival](../skills/survival.md#_survival) +5; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception), +4 [Survival](../skills/survival.md#_survival)
+**Skills** [Climb](../skills/climb#_climb) +10, [Perception](../skills/perception#_perception) +5, [Survival](../skills/survival#_survival) +5; **Racial Modifiers** +4 [Perception](../skills/perception#_perception), +4 [Survival](../skills/survival#_survival)
 
 **Ecology**
 

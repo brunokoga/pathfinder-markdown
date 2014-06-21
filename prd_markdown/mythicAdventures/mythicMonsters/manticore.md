@@ -6,9 +6,9 @@ Mythic Manticore CR 6/MR 2
 
 XP 2,400
 
-LE Large magical beast ( [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
+LE Large magical beast ( [mythic](mythicAdventures/mythicMonsters#_mythic-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft., [low-light vision](monsters/universalMonsterRules.md#_low-light-vision), [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +9
+**Init** +2; **Senses** darkvision 60 ft., [low-light vision](monsters/universalMonsterRules#_low-light-vision), [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +9
 
 Defense
 
@@ -26,11 +26,11 @@ Offense
 
 **Melee** bite +11 (1d8+6), 2 claws +11 (2d4+6)
 
-**Ranged** 4 spikes +9 (1d6+6 plus [poison](monsters/universalMonsterRules.md#_poison))
+**Ranged** 4 spikes +9 (1d6+6 plus [poison](monsters/universalMonsterRules#_poison))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** mythic power (2/day, surge +1d6), [poison](monsters/universalMonsterRules.md#_poison), [pounce](monsters/universalMonsterRules.md#_pounce), skewer
+**Special Attacks** mythic power (2/day, surge +1d6), [poison](monsters/universalMonsterRules#_poison), [pounce](monsters/universalMonsterRules#_pounce), skewer
 
 Statistics
 
@@ -38,9 +38,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +13; **CMD** 25 (29 vs. trip)
 
-**Feats** [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Hover](monsters/monsterFeats.md#_hover), [Weapon Focus](feats.md#_weapon-focus) (spikes)M
+**Feats** [Flyby Attack](monsters/monsterFeats#_flyby-attack), [Hover](monsters/monsterFeats#_hover), [Weapon Focus](feats#_weapon-focus) (spikes)M
 
-**Skills** [Fly](skills/fly.md#_fly) –3, [Perception](skills/perception.md#_perception) +9, [Survival](skills/survival.md#_survival) +4 (+8 when tracking); **Racial Modifiers** +4 [Perception](skills/perception.md#_perception), +4 [Survival](skills/survival.md#_survival) when tracking
+**Skills** [Fly](skills/fly#_fly) –3, [Perception](skills/perception#_perception) +9, [Survival](skills/survival#_survival) +4 (+8 when tracking); **Racial Modifiers** +4 [Perception](skills/perception#_perception), +4 [Survival](skills/survival#_survival) when tracking
 
 **Languages** Common
 

@@ -6,9 +6,9 @@ _This three-legged freak is mostly mouth. Three tentacles, two tipped with barbs
 
 **XP 1,200**
 
-N Large [aberration](creatureTypes.md#_aberration)
+N Large [aberration](creatureTypes#_aberration)
 
-**Init** +0; **Senses** darkvision 60 ft., [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +9
+**Init** +0; **Senses** darkvision 60 ft., [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +9
 
 **Defense**
 
@@ -24,11 +24,11 @@ N Large [aberration](creatureTypes.md#_aberration)
 
 **Speed** 20 ft.
 
-**Melee** bite +7 (1d8+4 plus [disease](universalMonsterRules.md#_disease)), 2 tentacles +3 (1d6+2 plus [grab](universalMonsterRules.md#_grab))
+**Melee** bite +7 (1d8+4 plus [disease](universalMonsterRules#_disease)), 2 tentacles +3 (1d6+2 plus [grab](universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft. (15 ft. with tentacle)
 
-**Special Attacks** [constrict](universalMonsterRules.md#_constrict) (tentacle, 1d6+2)
+**Special Attacks** [constrict](universalMonsterRules#_constrict) (tentacle, 1d6+2)
 
 **Statistics**
 
@@ -36,15 +36,15 @@ N Large [aberration](creatureTypes.md#_aberration)
 
 **Base Atk** +4; **CMB** +9 (+13 grapple); **CMD** 19 (21 vs. trip)
 
-**Feats** [Alertness](../feats.md#_alertness), [Toughness](../feats.md#_toughness), [Weapon Focus](../feats.md#_weapon-focus) (tentacle)
+**Feats** [Alertness](../feats#_alertness), [Toughness](../feats#_toughness), [Weapon Focus](../feats#_weapon-focus) (tentacle)
 
-**Skills** [Perception](../skills/perception.md#_perception) +9, [Stealth](../skills/stealth.md#_stealth) +2 (+10 in lair); **Racial Modifiers** +8 [Stealth](../skills/stealth.md#_stealth) in lair
+**Skills** [Perception](../skills/perception#_perception) +9, [Stealth](../skills/stealth#_stealth) +2 (+10 in lair); **Racial Modifiers** +8 [Stealth](../skills/stealth#_stealth) in lair
 
 **Languages** Common
 
 **Special Abilities**
 
-**Disease (Ex)** _Filth fever_: Bite—injury; _save_ Fortitude DC 14; _onset_ 1d3 days; _frequency_ 1/day; _effect_ 1d3 Dex [damage](universalMonsterRules.md#_ability-damage-and-drain) and 1d3 Con [damage](universalMonsterRules.md#_ability-damage-and-drain); _cure_ 2 consecutive saves. The save DC is Constitution-based.
+**Disease (Ex)** _Filth fever_: Bite—injury; _save_ Fortitude DC 14; _onset_ 1d3 days; _frequency_ 1/day; _effect_ 1d3 Dex [damage](universalMonsterRules#_ability-damage-and-drain) and 1d3 Con [damage](universalMonsterRules#_ability-damage-and-drain); _cure_ 2 consecutive saves. The save DC is Constitution-based.
 
 **Ecology**
 

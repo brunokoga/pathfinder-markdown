@@ -6,9 +6,9 @@ SlurkCR 2
 
 **XP 600**
 
-N Medium [magical beast](monsters/creatureTypes.md#_magical-beast)
+N Medium [magical beast](monsters/creatureTypes#_magical-beast)
 
-**Init** +6; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +0
+**Init** +6; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +0
 
 Defense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +4; **CMD** 16 (20 vs. bull rush, grapple, overrun, and trip)
 
-**Feats** [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Overrun](additionalMonsters/../feats.md#_improved-overrun)
+**Feats** [Improved Bull Rush](additionalMonsters/../feats#_improved-bull-rush), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Improved Overrun](additionalMonsters/../feats#_improved-overrun)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +16, [Climb](additionalMonsters/../skills/climb.md#_climb) +14, [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +6; **Racial Modifiers** +10 Acrobatics, +4 [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +16, [Climb](additionalMonsters/../skills/climb#_climb) +14, [Escape Artist](additionalMonsters/../skills/escapeArtist#_escape-artist) +6; **Racial Modifiers** +10 Acrobatics, +4 [Escape Artist](additionalMonsters/../skills/escapeArtist#_escape-artist)
 
 **Languages** Boggard (can't speak)
 
@@ -52,11 +52,11 @@ Ecology
 
 Special Abilities
 
-**Belly Grease (Ex)** The slurk exudes a slippery grease from its belly that grants it a +4 bonus on [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) skill checks and to its CMD versus grapples. Once per minute, a slurk may wallow on a solid surface as a full-round action to coat the floor in a 5-foot radius with this grease. The smear created turns that area of floor into difficult terrain for 10 minutes, after which the grease dries to a nasty crust.
+**Belly Grease (Ex)** The slurk exudes a slippery grease from its belly that grants it a +4 bonus on [Escape Artist](additionalMonsters/../skills/escapeArtist#_escape-artist) skill checks and to its CMD versus grapples. Once per minute, a slurk may wallow on a solid surface as a full-round action to coat the floor in a 5-foot radius with this grease. The smear created turns that area of floor into difficult terrain for 10 minutes, after which the grease dries to a nasty crust.
 
 **Hunker (Ex)** The slurk gains a +4 bonus to its CMD to avoid bull rush or overrun attempts.
 
-**Slime (Ex)** A slurk's back is crusted with thick, dry slime and dozens of nodules. As a standard action at will, a slurk can squirt a [jet](monsters/universalMonsterRules.md#_jet) of this slime from one of these nodules as a ranged touch attack against any target within 30 feet. The slime quickly hardens to the texture of [cold](monsters/creatureTypes.md#_cold-subtype) tar, entangling the foe. Anyone the slurk successfully bull rushes or overruns is automatically squirted with back slime. The hardened slime can be removed as a full-round action with a DC 15 Strength check. The slurk's back slime grants a creature riding it a +8 bonus on [Ride](additionalMonsters/../skills/ride.md#_ride) checks made to stay in the saddle, but a –8 penalty on [Ride](additionalMonsters/../skills/ride.md#_ride) checks to dismount.
+**Slime (Ex)** A slurk's back is crusted with thick, dry slime and dozens of nodules. As a standard action at will, a slurk can squirt a [jet](monsters/universalMonsterRules#_jet) of this slime from one of these nodules as a ranged touch attack against any target within 30 feet. The slime quickly hardens to the texture of [cold](monsters/creatureTypes#_cold-subtype) tar, entangling the foe. Anyone the slurk successfully bull rushes or overruns is automatically squirted with back slime. The hardened slime can be removed as a full-round action with a DC 15 Strength check. The slurk's back slime grants a creature riding it a +8 bonus on [Ride](additionalMonsters/../skills/ride#_ride) checks made to stay in the saddle, but a –8 penalty on [Ride](additionalMonsters/../skills/ride#_ride) checks to dismount.
 
 Slurks are frog-like creatures, the descendants of the failed result of a dwarven attempt to domesticate and breed subterranean frogs as food and labor animals. Though the dwarves failed to create suitable livestock, the sticky frog-beasts are often befriended by other underground races.
 

@@ -6,9 +6,9 @@ _A sharp-featured humanoid head crowns the powerful, sinuous body of this snake-
 
 **XP 4,800**
 
-LE Large [aberration](creatureTypes.md#_aberration)
+LE Large [aberration](creatureTypes#_aberration)
 
-**Init** +5; **Senses** darkvision 60 ft., detect thoughts; [Perception](../skills/perception.md#_perception) +19
+**Init** +5; **Senses** darkvision 60 ft., detect thoughts; [Perception](../skills/perception#_perception) +19
 
 **Defense**
 
@@ -24,19 +24,19 @@ LE Large [aberration](creatureTypes.md#_aberration)
 
 **Speed** 40 ft.
 
-**Melee** bite +8 (1d4+2), sting +8 (2d4+2 plus [poison](universalMonsterRules.md#_poison))
+**Melee** bite +8 (1d4+2), sting +8 (2d4+2 plus [poison](universalMonsterRules#_poison))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
 **Spells Known** (CL 7th)
 
-3rd (5/day)—_ [displacement](../spells/displacement.md#_displacement), [lightning bolt](../spells/lightningBolt.md#_lightning-bolt) _(DC 16)
+3rd (5/day)—_ [displacement](../spells/displacement#_displacement), [lightning bolt](../spells/lightningBolt#_lightning-bolt) _(DC 16)
 
-2nd (7/day)—_ [cat's grace](../spells/catSGrace.md#_cat-s-grace), [invisibility](../spells/invisibility.md#_invisibility), [scorching ray](../spells/scorchingRay.md#_scorching-ray)_
+2nd (7/day)—_ [cat's grace](../spells/catSGrace#_cat-s-grace), [invisibility](../spells/invisibility#_invisibility), [scorching ray](../spells/scorchingRay#_scorching-ray)_
 
-1st (7/day)—_ [expeditious retreat](../spells/expeditiousRetreat.md#_expeditious-retreat), [magic missile](../spells/magicMissile.md#_magic-missile), [ray of enfeeblement](../spells/rayOfEnfeeblement.md#_ray-of-enfeeblement) _(DC 14), _ [shield](../spells/shield.md#_shield), [silent image](../spells/silentImage.md#_silent-image)_
+1st (7/day)—_ [expeditious retreat](../spells/expeditiousRetreat#_expeditious-retreat), [magic missile](../spells/magicMissile#_magic-missile), [ray of enfeeblement](../spells/rayOfEnfeeblement#_ray-of-enfeeblement) _(DC 14), _ [shield](../spells/shield#_shield), [silent image](../spells/silentImage#_silent-image)_
 
-0 (at will)—_ [daze](../spells/daze.md#_daze), [detect magic](../spells/detectMagic.md#_detect-magic), [light](../spells/light.md#_light), [mage hand](../spells/mageHand.md#_mage-hand), [open/close](../spells/openClose.md#_open-close), [ray of frost](../spells/rayOfFrost.md#_ray-of-frost), [read magic](../spells/readMagic.md#_read-magic)_
+0 (at will)—_ [daze](../spells/daze#_daze), [detect magic](../spells/detectMagic#_detect-magic), [light](../spells/light#_light), [mage hand](../spells/mageHand#_mage-hand), [open/close](../spells/openClose#_open-close), [ray of frost](../spells/rayOfFrost#_ray-of-frost), [read magic](../spells/readMagic#_read-magic)_
 
 **Statistics**
 
@@ -44,9 +44,9 @@ LE Large [aberration](creatureTypes.md#_aberration)
 
 **Base Atk** +7; **CMB** +10; **CMD** 26 (can't be tripped)
 
-**Feats** [Alertness](../feats.md#_alertness), [Combat Casting](../feats.md#_combat-casting), [Dodge](../feats.md#_dodge), [Eschew Materials](../feats.md#_eschew-materials)B, [Lightning Reflexes](../feats.md#_lightning-reflexes), [Stealthy](../feats.md#_stealthy)
+**Feats** [Alertness](../feats#_alertness), [Combat Casting](../feats#_combat-casting), [Dodge](../feats#_dodge), [Eschew Materials](../feats#_eschew-materials)B, [Lightning Reflexes](../feats#_lightning-reflexes), [Stealthy](../feats#_stealthy)
 
-**Skills** [Bluff](../skills/bluff.md#_bluff) +13, [Diplomacy](../skills/diplomacy.md#_diplomacy) +9, [Disguise](../skills/disguise.md#_disguise) +9, [Escape Artist](../skills/escapeArtist.md#_escape-artist) +13, [Intimidate](../skills/intimidate.md#_intimidate) +12, [Knowledge](../skills/knowledge.md#_knowledge) (arcana) +13, [Perception](../skills/perception.md#_perception) +19, [Sense Motive](../skills/senseMotive.md#_sense-motive) +10, [Spellcraft](../skills/spellcraft.md#_spellcraft) +12, [Stealth](../skills/stealth.md#_stealth) +18
+**Skills** [Bluff](../skills/bluff#_bluff) +13, [Diplomacy](../skills/diplomacy#_diplomacy) +9, [Disguise](../skills/disguise#_disguise) +9, [Escape Artist](../skills/escapeArtist#_escape-artist) +13, [Intimidate](../skills/intimidate#_intimidate) +12, [Knowledge](../skills/knowledge#_knowledge) (arcana) +13, [Perception](../skills/perception#_perception) +19, [Sense Motive](../skills/senseMotive#_sense-motive) +10, [Spellcraft](../skills/spellcraft#_spellcraft) +12, [Stealth](../skills/stealth#_stealth) +18
 
 **Languages** Common, Infernal
 
@@ -60,9 +60,9 @@ LE Large [aberration](creatureTypes.md#_aberration)
 
 **Special Abilities**
 
-**Detect Thoughts (Su)** A dark naga can continuously use _ [detect thoughts](../spells/detectThoughts.md#_detect-thoughts) _as per the spell (caster level 9th; Will DC 18 negates). The save DC is Charisma-based.
+**Detect Thoughts (Su)** A dark naga can continuously use _ [detect thoughts](../spells/detectThoughts#_detect-thoughts) _as per the spell (caster level 9th; Will DC 18 negates). The save DC is Charisma-based.
 
-**Guarded Thoughts (Ex)** Dark nagas are immune to any form of mind reading, such as that granted by _ [detect thoughts](../spells/detectThoughts.md#_detect-thoughts)_. This ability also grants a +2 racial bonus on all saves against charm effects.
+**Guarded Thoughts (Ex)** Dark nagas are immune to any form of mind reading, such as that granted by _ [detect thoughts](../spells/detectThoughts#_detect-thoughts)_. This ability also grants a +2 racial bonus on all saves against charm effects.
 
 **Poison (Ex)** Sting—injury; _save_ Fort DC 19; _frequency_ 1 round; _effect_ sleep for 2d4 minutes; _cure_ 1 save.
 
@@ -82,9 +82,9 @@ _A contemplative humanoid face framed by a cobra-like hood adorns the body of th
 
 **XP 9,600**
 
-LG Large [aberration](creatureTypes.md#_aberration)
+LG Large [aberration](creatureTypes#_aberration)
 
-**Init** +6; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +23
+**Init** +6; **Senses** darkvision 60 ft.; [Perception](../skills/perception#_perception) +23
 
 **Defense**
 
@@ -98,23 +98,23 @@ LG Large [aberration](creatureTypes.md#_aberration)
 
 **Speed** 40 ft.
 
-**Melee** bite +13 (2d6+7 plus [poison](universalMonsterRules.md#_poison))
+**Melee** bite +13 (2d6+7 plus [poison](universalMonsterRules#_poison))
 
-**Ranged** spit +14 touch ( [poison](universalMonsterRules.md#_poison))
+**Ranged** spit +14 touch ( [poison](universalMonsterRules#_poison))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
 **Spells Known** (CL 9th)
 
-4th (5/day)—_ [divine power](../spells/divinePower.md#_divine-power), [greater invisibility](../spells/invisibility.md#_invisibility-greater)_
+4th (5/day)—_ [divine power](../spells/divinePower#_divine-power), [greater invisibility](../spells/invisibility#_invisibility-greater)_
 
-3rd (7/day)—_ [cure serious wounds](../spells/cureSeriousWounds.md#_cure-serious-wounds), [dispel magic](../spells/dispelMagic.md#_dispel-magic), [lightning bolt](../spells/lightningBolt.md#_lightning-bolt) _(DC 17)
+3rd (7/day)—_ [cure serious wounds](../spells/cureSeriousWounds#_cure-serious-wounds), [dispel magic](../spells/dispelMagic#_dispel-magic), [lightning bolt](../spells/lightningBolt#_lightning-bolt) _(DC 17)
 
-2nd (7/day)—_ [detect thoughts](../spells/detectThoughts.md#_detect-thoughts) _(DC 16), _ [lesser restoration](../spells/restoration.md#_restoration-lesser), [see invisibility](../spells/seeInvisibility.md#_see-invisibility), [scorching ray](../spells/scorchingRay.md#_scorching-ray)_
+2nd (7/day)—_ [detect thoughts](../spells/detectThoughts#_detect-thoughts) _(DC 16), _ [lesser restoration](../spells/restoration#_restoration-lesser), [see invisibility](../spells/seeInvisibility#_see-invisibility), [scorching ray](../spells/scorchingRay#_scorching-ray)_
 
-1st (7/day)—_ [cure light wounds](../spells/cureLightWounds.md#_cure-light-wounds), [divine favor](../spells/divineFavor.md#_divine-favor), [expeditious retreat](../spells/expeditiousRetreat.md#_expeditious-retreat), [mage armor](../spells/mageArmor.md#_mage-armor), [magic missile](../spells/magicMissile.md#_magic-missile)_
+1st (7/day)—_ [cure light wounds](../spells/cureLightWounds#_cure-light-wounds), [divine favor](../spells/divineFavor#_divine-favor), [expeditious retreat](../spells/expeditiousRetreat#_expeditious-retreat), [mage armor](../spells/mageArmor#_mage-armor), [magic missile](../spells/magicMissile#_magic-missile)_
 
-0 (at will)—_ [daze](../spells/daze.md#_daze) _(DC 14), _ [detect magic](../spells/detectMagic.md#_detect-magic), [light](../spells/light.md#_light), [mage hand](../spells/mageHand.md#_mage-hand), [open/close](../spells/openClose.md#_open-close), [ray of frost](../spells/rayOfFrost.md#_ray-of-frost), [read magic](../spells/readMagic.md#_read-magic), [stabilize](../spells/stabilize.md#_stabilize)_
+0 (at will)—_ [daze](../spells/daze#_daze) _(DC 14), _ [detect magic](../spells/detectMagic#_detect-magic), [light](../spells/light#_light), [mage hand](../spells/mageHand#_mage-hand), [open/close](../spells/openClose#_open-close), [ray of frost](../spells/rayOfFrost#_ray-of-frost), [read magic](../spells/readMagic#_read-magic), [stabilize](../spells/stabilize#_stabilize)_
 
 **Statistics**
 
@@ -122,9 +122,9 @@ LG Large [aberration](creatureTypes.md#_aberration)
 
 **Base Atk** +9; **CMB** +15; **CMD** 31 (can't be tripped)
 
-**Feats** [Alertness](../feats.md#_alertness), [Blind-Fight](../feats.md#_blind-fight), [Combat Casting](../feats.md#_combat-casting), [Combat Expertise](../feats.md#_combat-expertise), [Eschew Materials](../feats.md#_eschew-materials)B, [Improved Trip](../feats.md#_improved-trip), [Lightning Reflexes](../feats.md#_lightning-reflexes)
+**Feats** [Alertness](../feats#_alertness), [Blind-Fight](../feats#_blind-fight), [Combat Casting](../feats#_combat-casting), [Combat Expertise](../feats#_combat-expertise), [Eschew Materials](../feats#_eschew-materials)B, [Improved Trip](../feats#_improved-trip), [Lightning Reflexes](../feats#_lightning-reflexes)
 
-**Skills** [Bluff](../skills/bluff.md#_bluff) +16, [Diplomacy](../skills/diplomacy.md#_diplomacy) +16, [Knowledge](../skills/knowledge.md#_knowledge) (arcana) +18, [Perception](../skills/perception.md#_perception) +23, [Sense Motive](../skills/senseMotive.md#_sense-motive) +20, [Spellcraft](../skills/spellcraft.md#_spellcraft) +18, [Stealth](../skills/stealth.md#_stealth) +17
+**Skills** [Bluff](../skills/bluff#_bluff) +16, [Diplomacy](../skills/diplomacy#_diplomacy) +16, [Knowledge](../skills/knowledge#_knowledge) (arcana) +18, [Perception](../skills/perception#_perception) +23, [Sense Motive](../skills/senseMotive#_sense-motive) +20, [Spellcraft](../skills/spellcraft#_spellcraft) +18, [Stealth](../skills/stealth#_stealth) +17
 
 **Languages** Celestial, Common
 
@@ -138,7 +138,7 @@ LG Large [aberration](creatureTypes.md#_aberration)
 
 **Special Abilities**
 
-**Poison (Ex)** Bite—injury or spit—contact; _save_ Fort DC 21; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Con [damage](universalMonsterRules.md#_ability-damage-and-drain); _cure_ 2 consecutive saves. The save DC is Constitution-based.
+**Poison (Ex)** Bite—injury or spit—contact; _save_ Fort DC 21; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Con [damage](universalMonsterRules#_ability-damage-and-drain); _cure_ 2 consecutive saves. The save DC is Constitution-based.
 
 **Spells** A guardian naga casts spells as a 9th-level sorcerer, and can cast spells from the cleric list as well as those normally available to a sorcerer. Cleric spells are considered arcane spells for a guardian naga.
 
@@ -156,9 +156,9 @@ _Yellowed, venom-dripping fangs fill the human-like mouth of this sinister serpe
 
 **XP 6,400**
 
-CE Large [aberration](creatureTypes.md#_aberration)
+CE Large [aberration](creatureTypes#_aberration)
 
-**Init** +5; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +22
+**Init** +5; **Senses** darkvision 60 ft.; [Perception](../skills/perception#_perception) +22
 
 **Defense**
 
@@ -172,21 +172,21 @@ CE Large [aberration](creatureTypes.md#_aberration)
 
 **Speed** 40 ft., swim 20 ft.
 
-**Melee** bite +10 (2d6+6 plus [poison](universalMonsterRules.md#_poison))
+**Melee** bite +10 (2d6+6 plus [poison](universalMonsterRules#_poison))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** charming [gaze](universalMonsterRules.md#_gaze)
+**Special Attacks** charming [gaze](universalMonsterRules#_gaze)
 
 **Spells Known** (CL 7th)
 
-3rd (5/day)—_ [displacement](../spells/displacement.md#_displacement), [fireball](../spells/fireball.md#_fireball)_ (DC 16)
+3rd (5/day)—_ [displacement](../spells/displacement#_displacement), [fireball](../spells/fireball#_fireball)_ (DC 16)
 
-2nd (7/day)—_ [cat's grace](../spells/catSGrace.md#_cat-s-grace), [invisibility](../spells/invisibility.md#_invisibility), [summon swarm](../spells/summonSwarm.md#_summon-swarm)_
+2nd (7/day)—_ [cat's grace](../spells/catSGrace#_cat-s-grace), [invisibility](../spells/invisibility#_invisibility), [summon swarm](../spells/summonSwarm#_summon-swarm)_
 
-1st (7/day)—_ [charm person](../spells/charmPerson.md#_charm-person) _(DC 14), _ [cure light wounds](../spells/cureLightWounds.md#_cure-light-wounds), [divine favor](../spells/divineFavor.md#_divine-favor), [magic missile](../spells/magicMissile.md#_magic-missile), [shield of faith](../spells/shieldOfFaith.md#_shield-of-faith)_
+1st (7/day)—_ [charm person](../spells/charmPerson#_charm-person) _(DC 14), _ [cure light wounds](../spells/cureLightWounds#_cure-light-wounds), [divine favor](../spells/divineFavor#_divine-favor), [magic missile](../spells/magicMissile#_magic-missile), [shield of faith](../spells/shieldOfFaith#_shield-of-faith)_
 
-0 (at will)—_ [bleed](../spells/bleed.md#_bleed), [daze](../spells/daze.md#_daze) _(DC 13), _ [detect magic](../spells/detectMagic.md#_detect-magic), [mage hand](../spells/mageHand.md#_mage-hand), [open/close](../spells/openClose.md#_open-close), [ray of frost](../spells/rayOfFrost.md#_ray-of-frost), [read magic](../spells/readMagic.md#_read-magic)_
+0 (at will)—_ [bleed](../spells/bleed#_bleed), [daze](../spells/daze#_daze) _(DC 13), _ [detect magic](../spells/detectMagic#_detect-magic), [mage hand](../spells/mageHand#_mage-hand), [open/close](../spells/openClose#_open-close), [ray of frost](../spells/rayOfFrost#_ray-of-frost), [read magic](../spells/readMagic#_read-magic)_
 
 **Statistics**
 
@@ -194,9 +194,9 @@ CE Large [aberration](creatureTypes.md#_aberration)
 
 **Base Atk** +7; **CMB** +12; **CMD** 27 (can't be tripped)
 
-**Feats** [Ability Focus](monsterFeats.md#_ability-focus) (charming gaze), [Combat Casting](../feats.md#_combat-casting), [Eschew Materials](../feats.md#_eschew-materials)B, [Lightning Reflexes](../feats.md#_lightning-reflexes), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Stealthy](../feats.md#_stealthy)
+**Feats** [Ability Focus](monsterFeats#_ability-focus) (charming gaze), [Combat Casting](../feats#_combat-casting), [Eschew Materials](../feats#_eschew-materials)B, [Lightning Reflexes](../feats#_lightning-reflexes), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception)), [Stealthy](../feats#_stealthy)
 
-**Skills** [Bluff](../skills/bluff.md#_bluff) +13, [Escape Artist](../skills/escapeArtist.md#_escape-artist) +13, [Intimidate](../skills/intimidate.md#_intimidate) +9, [Knowledge](../skills/knowledge.md#_knowledge) (arcana) +14, [Perception](../skills/perception.md#_perception) +22, [Spellcraft](../skills/spellcraft.md#_spellcraft) +11, [Stealth](../skills/stealth.md#_stealth) +15, [Swim](../skills/swim.md#_swim) +12
+**Skills** [Bluff](../skills/bluff#_bluff) +13, [Escape Artist](../skills/escapeArtist#_escape-artist) +13, [Intimidate](../skills/intimidate#_intimidate) +9, [Knowledge](../skills/knowledge#_knowledge) (arcana) +14, [Perception](../skills/perception#_perception) +22, [Spellcraft](../skills/spellcraft#_spellcraft) +11, [Stealth](../skills/stealth#_stealth) +15, [Swim](../skills/swim#_swim) +12
 
 **Languages** Abyssal, Common
 
@@ -210,9 +210,9 @@ CE Large [aberration](creatureTypes.md#_aberration)
 
 **Special Abilities**
 
-**Charming Gaze (Su)** As _ [charm person](../spells/charmPerson.md#_charm-person), _30 feet, Will DC 20 negates. The save DC is Charisma-based.
+**Charming Gaze (Su)** As _ [charm person](../spells/charmPerson#_charm-person), _30 feet, Will DC 20 negates. The save DC is Charisma-based.
 
-**Poison (Ex)** Bite—injury; _save_ Fort DC 20; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Con [damage](universalMonsterRules.md#_ability-damage-and-drain); _cure_ 1 save.
+**Poison (Ex)** Bite—injury; _save_ Fort DC 20; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Con [damage](universalMonsterRules#_ability-damage-and-drain); _cure_ 1 save.
 
 **Spells** A spirit naga casts spells as a 7th-level sorcerer, and can cast spells from the cleric list as well as those normally available to a sorcerer. Cleric spells are considered arcane spells for a spirit naga.
 

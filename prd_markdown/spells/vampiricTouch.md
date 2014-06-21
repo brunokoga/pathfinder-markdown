@@ -12,7 +12,7 @@
 
 **Duration** instantaneous/1 hour; see text
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-You must succeed on a melee touch attack. Your touch deals 1d6 points of damage per two caster levels (maximum 10d6). You gain temporary hit points equal to the damage you deal. You can't gain more than the subject's current hit points + the subject's [Constitution](../gettingStarted.md#_constitution) score (which is enough to kill the subject). The temporary hit points disappear 1 hour later.
+You must succeed on a melee touch attack. Your touch deals 1d6 points of damage per two caster levels (maximum 10d6). You gain temporary hit points equal to the damage you deal. You can't gain more than the subject's current hit points + the subject's [Constitution](../gettingStarted#_constitution) score (which is enough to kill the subject). The temporary hit points disappear 1 hour later.
 

@@ -6,9 +6,9 @@ _This slithering, multilegged blue reptile has a fearsome head crowned with two 
 
 **XP 4,800**
 
-N Huge [magical beast](creatureTypes.md#_magical-beast)
+N Huge [magical beast](creatureTypes#_magical-beast)
 
-**Init** +1; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) +6
+**Init** +1; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception#_perception) +6
 
 **Defense**
 
@@ -24,11 +24,11 @@ N Huge [magical beast](creatureTypes.md#_magical-beast)
 
 **Speed** 40 ft., climb 20 ft.
 
-**Melee** bite +15 (2d6+9 plus [grab](universalMonsterRules.md#_grab))
+**Melee** bite +15 (2d6+9 plus [grab](universalMonsterRules#_grab))
 
 **Space** 15 ft.; **Reach** 10 ft.
 
-**Special Attacks** [breath weapon](universalMonsterRules.md#_breath-weapon) (20-foot line, 7d6 electricity damage, Reflex DC 20 for half, usable every 1d4 rounds), [constrict](universalMonsterRules.md#_constrict) (2d6+9), [rake](universalMonsterRules.md#_rake) (6 claws +14, 1d4+6), [swallow whole](universalMonsterRules.md#_swallow-whole) (2d8+9 bludgeoning damage, AC 16, 10 hp)
+**Special Attacks** [breath weapon](universalMonsterRules#_breath-weapon) (20-foot line, 7d6 electricity damage, Reflex DC 20 for half, usable every 1d4 rounds), [constrict](universalMonsterRules#_constrict) (2d6+9), [rake](universalMonsterRules#_rake) (6 claws +14, 1d4+6), [swallow whole](universalMonsterRules#_swallow-whole) (2d8+9 bludgeoning damage, AC 16, 10 hp)
 
 **Statistics**
 
@@ -36,9 +36,9 @@ N Huge [magical beast](creatureTypes.md#_magical-beast)
 
 **Base**  **Atk** +10; **CMB** +18 (+22 grapple); **CMD** 29 (can't be tripped)
 
-**Feats** [Alertness](../feats.md#_alertness), [Cleave](../feats.md#_cleave), [Great Cleave](../feats.md#_great-cleave), [Power Attack](../feats.md#_power-attack), [Weapon Focus](../feats.md#_weapon-focus) (bite)
+**Feats** [Alertness](../feats#_alertness), [Cleave](../feats#_cleave), [Great Cleave](../feats#_great-cleave), [Power Attack](../feats#_power-attack), [Weapon Focus](../feats#_weapon-focus) (bite)
 
-**Skills** [Climb](../skills/climb.md#_climb) +14, [Perception](../skills/perception.md#_perception) +8, [Stealth](../skills/stealth.md#_stealth) +5
+**Skills** [Climb](../skills/climb#_climb) +14, [Perception](../skills/perception#_perception) +8, [Stealth](../skills/stealth#_stealth) +5
 
 **Languages** Common
 

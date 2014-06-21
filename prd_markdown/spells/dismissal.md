@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Will](../combat.md#_will) negates; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) negates; see text; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-This spell forces an extraplanar creature back to its proper plane if it fails a [Will](../combat.md#_will) save. If the spell is successful, the creature is instantly whisked away, but there is a 20% chance of actually sending the subject to a plane other than its own.
+This spell forces an extraplanar creature back to its proper plane if it fails a [Will](../combat#_will) save. If the spell is successful, the creature is instantly whisked away, but there is a 20% chance of actually sending the subject to a plane other than its own.
 

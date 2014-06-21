@@ -8,9 +8,9 @@ XP 2,400
 
 N Large undead
 
-**Init** +6; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +15
+**Init** +6; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +15
 
-**Aura** infestation (5 ft., 1d6 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
+**Aura** infestation (5 ft., 1d6 plus [poison](monsters/universalMonsterRules#_poison-(ex-or-su)))
 
 Defense
 
@@ -38,11 +38,11 @@ Statistics
 
 **Base Atk** +8; **CMB** +17; **CMD** 29 (41 vs. trip)
 
-**Feats** [Awesome Blow](monsters/monsterFeats.md#_awesome-blow), [Cleave](feats.md#_cleave), [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Initiative](feats.md#_improved-initiative), [Power Attack](feats.md#_power-attack), [Vital Strike](feats.md#_vital-strike)
+**Feats** [Awesome Blow](monsters/monsterFeats#_awesome-blow), [Cleave](feats#_cleave), [Improved Bull Rush](feats#_improved-bull-rush), [Improved Initiative](feats#_improved-initiative), [Power Attack](feats#_power-attack), [Vital Strike](feats#_vital-strike)
 
-**Skills** [Climb](skills/climb.md#_climb) +16, [Perception](skills/perception.md#_perception) +15, [Stealth](skills/stealth.md#_stealth) +16; **Racial Modifiers** +4 [Stealth](skills/stealth.md#_stealth)
+**Skills** [Climb](skills/climb#_climb) +16, [Perception](skills/perception#_perception) +15, [Stealth](skills/stealth#_stealth) +16; **Racial Modifiers** +4 [Stealth](skills/stealth#_stealth)
 
-**SQ** [compression](monsters/universalMonsterRules.md#_compression)
+**SQ** [compression](monsters/universalMonsterRules#_compression)
 
 Ecology
 
@@ -54,7 +54,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Infestation—injury; _save_ Fort DC 17; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Str damage; _cure_ 2 consecutive saves. The save DC is Charisma-based.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (Ex)** Infestation—injury; _save_ Fort DC 17; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Str damage; _cure_ 2 consecutive saves. The save DC is Charisma-based.
 
 **Infestation (Su)** An infestation of poisonous spiders, which nest within this creature's exoskeleton, constantly surrounds a deathweb, to a radius of 5 feet. Any creature within the infestation takes 1d6 points of damage at the end of each round it remains in the area. A creature that takes this damage must make a DC 17 Fortitude save or be nauseated for 1 round. In addition, those damaged by this infestation are poisoned as well. Any area effect attack that deals 10 or more points of damage to a deathweb destroys its infesting spiders, removing its aura for 3 rounds, after which a new batch of spiders swarms out of the undead's body to replenish the infestation. The save DC is Charisma-based.
 

@@ -1,6 +1,6 @@
 # Handle Animal
 
-## ( [Cha](../gettingStarted.md#_charisma-new); Trained Only)
+## ( [Cha](../gettingStarted#_charisma-new); Trained Only)
 
 You are trained at working with animals, and can teach them tricks, get them to follow your simple commands, or even domesticate them.
 
@@ -18,7 +18,7 @@ _Handle an Animal_: This task involves commanding an animal to perform a task or
 
 “_Push” an Animal_: To push an animal means to get it to perform a task or trick that it doesn't know but is physically capable of performing. This category also covers making an animal perform a forced march or forcing it to hustle for more than 1 hour between sleep cycles. If the animal is wounded or has taken any nonlethal damage or ability score damage, the DC increases by 2. If your check succeeds, the animal performs the task or trick on its next action.
 
-_Teach an Animal a Trick_: You can teach an animal a specific trick with 1 week of work and a successful Handle Animal check against the indicated DC. An animal with an [Intelligence](../gettingStarted.md#_intelligence) score of 1 can learn a maximum of three tricks, while an animal with an [Intelligence](../gettingStarted.md#_intelligence) score of 2 can learn a maximum of six tricks. Possible tricks (and their associated DCs) include, but are not necessarily limited to, the following.
+_Teach an Animal a Trick_: You can teach an animal a specific trick with 1 week of work and a successful Handle Animal check against the indicated DC. An animal with an [Intelligence](../gettingStarted#_intelligence) score of 1 can learn a maximum of three tricks, while an animal with an [Intelligence](../gettingStarted#_intelligence) score of 2 can learn a maximum of six tricks. Possible tricks (and their associated DCs) include, but are not necessarily limited to, the following.
 
 - Attack (DC 20): The animal attacks apparent enemies. You may point to a particular creature that you wish the animal to attack, and it will comply if able. Normally, an animal will attack only humanoids, monstrous humanoids, giants, or other animals. Teaching an animal to attack all creatures (including such unnatural creatures as undead and aberrations) counts as two tricks.
 - Come (DC 15): The animal comes to you, even if it normally would not do so.
@@ -33,7 +33,7 @@ _Teach an Animal a Trick_: You can teach an animal a specific trick with 1 week 
 - Track (DC 20): The animal tracks the scent presented to it. (This requires the animal to have the scent ability.)
 - Work (DC 15): The animal pulls or pushes a medium or heavy load.
 
-_Train an Animal for a General Purpose_: Rather than teaching an animal individual tricks, you can simply train it for a general purpose. Essentially, an animal's purpose represents a preselected set of known tricks that fit into a common scheme, such as guarding or heavy labor. The animal must meet all the normal prerequisites for all tricks included in the training package. If the package includes more than three tricks, the animal must have an [Intelligence](../gettingStarted.md#_intelligence) score of 2 or higher.
+_Train an Animal for a General Purpose_: Rather than teaching an animal individual tricks, you can simply train it for a general purpose. Essentially, an animal's purpose represents a preselected set of known tricks that fit into a common scheme, such as guarding or heavy labor. The animal must meet all the normal prerequisites for all tricks included in the training package. If the package includes more than three tricks, the animal must have an [Intelligence](../gettingStarted#_intelligence) score of 2 or higher.
 
 An animal can be trained for only one general purpose, though if the creature is capable of learning additional tricks (above and beyond those included in its general purpose), it may do so. Training an animal for a purpose requires fewer checks than teaching individual tricks does, but no less time.
 
@@ -53,13 +53,13 @@ A successfully domesticated animal can be taught tricks at the same time it's be
 
 **Try Again** : Yes, except for rearing an animal.
 
-**Special** : You can use this skill on a creature with an [Intelligence](../gettingStarted.md#_intelligence) score of 1 or 2 that is not an animal, but the DC of any such check increases by 5. Such creatures have the same limit on tricks known as animals do.
+**Special** : You can use this skill on a creature with an [Intelligence](../gettingStarted#_intelligence) score of 1 or 2 that is not an animal, but the DC of any such check increases by 5. Such creatures have the same limit on tricks known as animals do.
 
 A druid or ranger gains a +4 circumstance bonus on Handle Animal checks involving an animal companion.
 
 In addition, a druid's or ranger's animal companion knows one or more bonus tricks, which don't count against the normal limit on tricks known and don't require any training time or Handle Animal checks to teach.
 
-If you have the [Animal Affinity](../feats.md#_animal-affinity) feat, you get a bonus on Handle Animal checks (see [Feats](../feats.md)).
+If you have the [Animal Affinity](../feats#_animal-affinity) feat, you get a bonus on Handle Animal checks (see [Feats](../feats)).
 
-**Untrained** : If you have no ranks in Handle Animal, you can use a [Charisma](../gettingStarted.md#_charisma-new) check to handle and push domestic animals, but you can't teach, rear, or train animals. A druid or ranger with no ranks in Handle Animal can use a [Charisma](../gettingStarted.md#_charisma-new) check to handle and push her animal companion, but she can't teach, rear, or train other nondomestic animals.
+**Untrained** : If you have no ranks in Handle Animal, you can use a [Charisma](../gettingStarted#_charisma-new) check to handle and push domestic animals, but you can't teach, rear, or train animals. A druid or ranger with no ranks in Handle Animal can use a [Charisma](../gettingStarted#_charisma-new) check to handle and push her animal companion, but she can't teach, rear, or train other nondomestic animals.
 

@@ -6,9 +6,9 @@ Lamia MatriarchCR 8
 
 **XP 4,800**
 
-CE Large [monstrous humanoid](monsters/creatureTypes.md#_monstrous-humanoid) ( [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
+CE Large [monstrous humanoid](monsters/creatureTypes#_monstrous-humanoid) ( [shapechanger](monsters/creatureTypes#_shapechanger-subtype))
 
-**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +3
+**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +3
 
 Defense
 
@@ -34,19 +34,19 @@ touch +16 (1d4 Wisdom drain)
 
 **Spell-Like Abilities** (CL 12th; concentration +17)
 
-At will—_ [charm monster](additionalMonsters/../spells/charmMonster.md#_charm-monster)_ (DC 19), _ [ventriloquism](additionalMonsters/../spells/ventriloquism.md#_ventriloquism)_ (DC 16)
+At will—_ [charm monster](additionalMonsters/../spells/charmMonster#_charm-monster)_ (DC 19), _ [ventriloquism](additionalMonsters/../spells/ventriloquism#_ventriloquism)_ (DC 16)
 
-3/day—_ [deep slumber](additionalMonsters/../spells/deepSlumber.md#_deep-slumber)_ (DC 18), _ [dream](additionalMonsters/../spells/dream.md#_dream)_, _ [major image](additionalMonsters/../spells/majorImage.md#_major-image)_ (DC 18), _ [mirror image](additionalMonsters/../spells/mirrorImage.md#_mirror-image)_, _ [suggestion](additionalMonsters/../spells/suggestion.md#_suggestion)_ (DC 18)
+3/day—_ [deep slumber](additionalMonsters/../spells/deepSlumber#_deep-slumber)_ (DC 18), _ [dream](additionalMonsters/../spells/dream#_dream)_, _ [major image](additionalMonsters/../spells/majorImage#_major-image)_ (DC 18), _ [mirror image](additionalMonsters/../spells/mirrorImage#_mirror-image)_, _ [suggestion](additionalMonsters/../spells/suggestion#_suggestion)_ (DC 18)
 
 **Spells Known** (CL 6th; concentration +11)
 
-3rd (4/day)—_ [haste](additionalMonsters/../spells/haste.md#_haste)_
+3rd (4/day)—_ [haste](additionalMonsters/../spells/haste#_haste)_
 
-2nd (6/day)—_ [death knell](additionalMonsters/../spells/deathKnell.md#_death-knell)_ (DC 17), _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_
+2nd (6/day)—_ [death knell](additionalMonsters/../spells/deathKnell#_death-knell)_ (DC 17), _ [invisibility](additionalMonsters/../spells/invisibility#_invisibility)_
 
-1st (8/day)—_ [cure light wounds](additionalMonsters/../spells/cureLightWounds.md#_cure-light-wounds)_, _ [divine favor](additionalMonsters/../spells/divineFavor.md#_divine-favor)_, _ [mage armor](additionalMonsters/../spells/mageArmor.md#_mage-armor)_, _ [magic missile](additionalMonsters/../spells/magicMissile.md#_magic-missile)_
+1st (8/day)—_ [cure light wounds](additionalMonsters/../spells/cureLightWounds#_cure-light-wounds)_, _ [divine favor](additionalMonsters/../spells/divineFavor#_divine-favor)_, _ [mage armor](additionalMonsters/../spells/mageArmor#_mage-armor)_, _ [magic missile](additionalMonsters/../spells/magicMissile#_magic-missile)_
 
-0 (at will)—_ [dancing lights](additionalMonsters/../spells/dancingLights.md#_dancing-lights)_, _ [daze](additionalMonsters/../spells/daze.md#_daze)_ (DC 15), _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [ghost sound](additionalMonsters/../spells/ghostSound.md#_ghost-sound)_ (DC 15), _ [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand)_, _ [mending](additionalMonsters/../spells/mending.md#_mending)_, _ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_
+0 (at will)—_ [dancing lights](additionalMonsters/../spells/dancingLights#_dancing-lights)_, _ [daze](additionalMonsters/../spells/daze#_daze)_ (DC 15), _ [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic)_, _ [ghost sound](additionalMonsters/../spells/ghostSound#_ghost-sound)_ (DC 15), _ [mage hand](additionalMonsters/../spells/mageHand#_mage-hand)_, _ [mending](additionalMonsters/../spells/mending#_mending)_, _ [prestidigitation](additionalMonsters/../spells/prestidigitation#_prestidigitation)_
 
 Statistics
 
@@ -54,13 +54,13 @@ Statistics
 
 **Base Atk** +12; **CMB** +18; **CMD** 32 (can't be tripped)
 
-**Feats** [Double Slice](additionalMonsters/../feats.md#_double-slice), [Extend Spell](additionalMonsters/../feats.md#_extend-spell), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (scimitar), [Improved Two-Weapon Fighting](additionalMonsters/../feats.md#_improved-two-weapon-fighting), [Two-Weapon Fighting](additionalMonsters/../feats.md#_two-weapon-fighting), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (scimitar)
+**Feats** [Double Slice](additionalMonsters/../feats#_double-slice), [Extend Spell](additionalMonsters/../feats#_extend-spell), [Improved Critical](additionalMonsters/../feats#_improved-critical) (scimitar), [Improved Two-Weapon Fighting](additionalMonsters/../feats#_improved-two-weapon-fighting), [Two-Weapon Fighting](additionalMonsters/../feats#_two-weapon-fighting), [Weapon Focus](additionalMonsters/../feats#_weapon-focus) (scimitar)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +8 (+12 jump), [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +21, [Climb](additionalMonsters/../skills/climb.md#_climb) +13, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +11, [Disguise](additionalMonsters/../skills/disguise.md#_disguise) +11, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +20, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (any one) +15, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +15, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +15, [Swim](additionalMonsters/../skills/swim.md#_swim) +13, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +21; **Racial Modifiers** +4 Acrobatics, +4 [Bluff](additionalMonsters/../skills/bluff.md#_bluff), +4 [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +8 (+12 jump), [Bluff](additionalMonsters/../skills/bluff#_bluff) +21, [Climb](additionalMonsters/../skills/climb#_climb) +13, [Diplomacy](additionalMonsters/../skills/diplomacy#_diplomacy) +11, [Disguise](additionalMonsters/../skills/disguise#_disguise) +11, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +20, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (any one) +15, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana) +15, [Spellcraft](additionalMonsters/../skills/spellcraft#_spellcraft) +15, [Swim](additionalMonsters/../skills/swim#_swim) +13, [Use Magic Device](additionalMonsters/../skills/useMagicDevice#_use-magic-device) +21; **Racial Modifiers** +4 Acrobatics, +4 [Bluff](additionalMonsters/../skills/bluff#_bluff), +4 [Use Magic Device](additionalMonsters/../skills/useMagicDevice#_use-magic-device)
 
 **Languages** Abyssal, Common, Draconic
 
-**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (fixed Medium [humanoid](monsters/creatureTypes.md#_humanoid) form, _ [alter self](additionalMonsters/../spells/alterSelf.md#_alter-self)_), [undersized weapons](monsters/universalMonsterRules.md#_undersized-weapons)
+**SQ** [change shape](monsters/universalMonsterRules#_change-shape) (fixed Medium [humanoid](monsters/creatureTypes#_humanoid) form, _ [alter self](additionalMonsters/../spells/alterSelf#_alter-self)_), [undersized weapons](monsters/universalMonsterRules#_undersized-weapons)
 
 Ecology
 

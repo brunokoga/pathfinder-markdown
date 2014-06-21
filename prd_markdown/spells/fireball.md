@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Reflex](../combat.md#_reflex) half; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Reflex](../combat#_reflex) half; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
 A _fireball _spell generates a searing explosion of flame that detonates with a low roar and deals 1d6 points of fire damage per caster level (maximum 10d6) to every creature within the area. Unattended objects also take this damage. The explosion creates almost no pressure.
 

@@ -12,9 +12,9 @@
 
 **Duration** 1 min./level
 
-**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) negates (harmless); **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to [Wisdom](../gettingStarted.md#_wisdom), adding the usual benefit to [Wisdom](../gettingStarted.md#_wisdom)-related skills. Clerics, druids, and rangers (and other [Wisdom](../gettingStarted.md#_wisdom)-based spellcasters) who receive _owl's wisdom _do not gain any additional bonus spells for the increased [Wisdom](../gettingStarted.md#_wisdom), but the save DCs for their spells increase.
+The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to [Wisdom](../gettingStarted#_wisdom), adding the usual benefit to [Wisdom](../gettingStarted#_wisdom)-related skills. Clerics, druids, and rangers (and other [Wisdom](../gettingStarted#_wisdom)-based spellcasters) who receive _owl's wisdom _do not gain any additional bonus spells for the increased [Wisdom](../gettingStarted#_wisdom), but the save DCs for their spells increase.
 
 **Owl's Wisdom, Mass**
 

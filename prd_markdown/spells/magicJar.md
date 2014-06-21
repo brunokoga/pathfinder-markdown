@@ -12,7 +12,7 @@
 
 **Duration** 1 hour/level or until you return to your body
 
-**Saving Throw** [Will](../combat.md#_will) negates; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) negates; see text; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
 By casting _magic jar, _you place your soul in a gem or large crystal (known as the _magic jar_), leaving your body lifeless. Then you can attempt to take control of a nearby body, forcing its soul into the _magic jar. _You may move back to the jar (thereby returning the trapped soul to its body) and attempt to possess another body. The spell ends when you send your soul back to your own body, leaving the receptacle empty. To cast the spell, the _magic jar _must be within spell range and you must know where it is, though you do not need line of sight or line of effect to it. When you transfer your soul upon casting, your body is, as near as anyone can tell, dead.
 
@@ -20,9 +20,9 @@ While in the _magic jar, _you can sense and attack any life force within 10 feet
 
 You could choose to take over either a stronger or a weaker creature, but which particular stronger or weaker creature you attempt to possess is determined randomly.
 
-Attempting to possess a body is a full-round action. It is blocked by _ [protection from evil](protectionFromEvil.md#_protection-from-evil) _or a similar ward. You possess the body and force the creature's soul into the _magic jar _unless the subject succeeds on a [Will](../combat.md#_will) save. Failure to take over the host leaves your life force in the _magic jar, _and the target automatically succeeds on further saving throws if you attempt to possess its body again.
+Attempting to possess a body is a full-round action. It is blocked by _ [protection from evil](protectionFromEvil#_protection-from-evil) _or a similar ward. You possess the body and force the creature's soul into the _magic jar _unless the subject succeeds on a [Will](../combat#_will) save. Failure to take over the host leaves your life force in the _magic jar, _and the target automatically succeeds on further saving throws if you attempt to possess its body again.
 
-If you are successful, your life force occupies the host body, and the host's life force is imprisoned in the _magic jar. _You keep your [Intelligence](../gettingStarted.md#_intelligence), [Wisdom](../gettingStarted.md#_wisdom), [Charisma](../gettingStarted.md#_charisma-new), level, class, base attack bonus, base save bonuses, alignment, and mental abilities. The body retains its [Strength](../gettingStarted.md#_strength), [Dexterity](../gettingStarted.md#_dexterity), [Constitution](../gettingStarted.md#_constitution), hit points, natural abilities, and automatic abilities. A body with extra limbs does not allow you to make more attacks (or more advantageous two-weapon attacks) than normal. You can't choose to activate the body's extraordinary or supernatural abilities. The creature's spells and spell-like abilities do not stay with the body.
+If you are successful, your life force occupies the host body, and the host's life force is imprisoned in the _magic jar. _You keep your [Intelligence](../gettingStarted#_intelligence), [Wisdom](../gettingStarted#_wisdom), [Charisma](../gettingStarted#_charisma-new), level, class, base attack bonus, base save bonuses, alignment, and mental abilities. The body retains its [Strength](../gettingStarted#_strength), [Dexterity](../gettingStarted#_dexterity), [Constitution](../gettingStarted#_constitution), hit points, natural abilities, and automatic abilities. A body with extra limbs does not allow you to make more attacks (or more advantageous two-weapon attacks) than normal. You can't choose to activate the body's extraordinary or supernatural abilities. The creature's spells and spell-like abilities do not stay with the body.
 
 As a standard action, you can shift freely from a host to the _magic jar _if within range, sending the trapped soul back to its body. The spell ends when you shift from the jar to your own body.
 

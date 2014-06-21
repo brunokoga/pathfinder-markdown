@@ -16,27 +16,27 @@ There's much more nuance to the ebb and flow of battle then merely charging into
 
 Combat maneuvers allow a character to perform special actions in combat, other than just attacking with a weapon or casting a spell. While the _Pathfinder RPG Core Rulebook_ covers the most common sorts of combat maneuvers that a character might perform, the combat maneuver mechanics can be used for a wide variety of tricks and stunts.
 
-The following four combat maneuvers can be made using the same rules for all other [combat maneuvers](../combat.md#_combat-maneuvers). Each one requires the attacking character to make an attack roll, adding in his Combat Maneuver Bonus (CMB) in place of his normal attack bonuses. If the result is equal to or greater than the target's Combat Maneuver Defense (CMD), the maneuver is a success. The drag and reposition maneuvers have varying levels of success depending on how much the attacker's roll exceeds the target's CMD.
+The following four combat maneuvers can be made using the same rules for all other [combat maneuvers](../combat#_combat-maneuvers). Each one requires the attacking character to make an attack roll, adding in his Combat Maneuver Bonus (CMB) in place of his normal attack bonuses. If the result is equal to or greater than the target's Combat Maneuver Defense (CMD), the maneuver is a success. The drag and reposition maneuvers have varying levels of success depending on how much the attacker's roll exceeds the target's CMD.
 
 # Dirty Trick
 
-You can attempt to hinder a foe in melee as a standard action. This maneuver covers any sort of situational attack that imposes a penalty on a foe for a short period of time. Examples include kicking sand into an opponent's face to blind him for 1 round, pulling down an enemy's pants to halve his speed, or hitting a foe in a sensitive spot to make him sickened for a round. The GM is the arbiter of what can be accomplished with this maneuver, but it cannot be used to impose a permanent penalty, and the results can be undone if the target spends a move action. If you do not have the [Improved Dirty Trick](advancedFeats.md#_improved-dirty-trick) feat or a similar ability, attempting a dirty trick provokes an attack of opportunity from the target of your maneuver.
+You can attempt to hinder a foe in melee as a standard action. This maneuver covers any sort of situational attack that imposes a penalty on a foe for a short period of time. Examples include kicking sand into an opponent's face to blind him for 1 round, pulling down an enemy's pants to halve his speed, or hitting a foe in a sensitive spot to make him sickened for a round. The GM is the arbiter of what can be accomplished with this maneuver, but it cannot be used to impose a permanent penalty, and the results can be undone if the target spends a move action. If you do not have the [Improved Dirty Trick](advancedFeats#_improved-dirty-trick) feat or a similar ability, attempting a dirty trick provokes an attack of opportunity from the target of your maneuver.
 
-If your attack is successful, the target takes a penalty. The penalty is limited to one of the following conditions: blinded, dazzled, deafened, entangled, shaken, or sickened. This condition lasts for 1 round. For every 5 by which your attack exceeds your opponent's CMD, the penalty lasts 1 additional round. This penalty can usually be removed if the target spends a move action. If you possess the [Greater Dirty Trick](advancedFeats.md#_greater-dirty-trick) feat, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds your opponent's CMD. In addition, removing the condition requires the target to spend a standard action.
+If your attack is successful, the target takes a penalty. The penalty is limited to one of the following conditions: blinded, dazzled, deafened, entangled, shaken, or sickened. This condition lasts for 1 round. For every 5 by which your attack exceeds your opponent's CMD, the penalty lasts 1 additional round. This penalty can usually be removed if the target spends a move action. If you possess the [Greater Dirty Trick](advancedFeats#_greater-dirty-trick) feat, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds your opponent's CMD. In addition, removing the condition requires the target to spend a standard action.
 
 # Drag
 
-You can attempt to drag a foe as a standard action. You can only drag an opponent who is no more than one size category larger than you. The aim of this maneuver is to drag a foe in a straight line behind you without doing any harm. If you do not have the [Improved Drag](advancedFeats.md#_improved-drag) feat or a similar ability, initiating a drag provokes an attack of opportunity from the target of your maneuver.
+You can attempt to drag a foe as a standard action. You can only drag an opponent who is no more than one size category larger than you. The aim of this maneuver is to drag a foe in a straight line behind you without doing any harm. If you do not have the [Improved Drag](advancedFeats#_improved-drag) feat or a similar ability, initiating a drag provokes an attack of opportunity from the target of your maneuver.
 
 If your attack is successful, both you and your target are moved 5 feet back, with your opponent occupying your original space and you in the space behind that in a straight line. For every 5 by which your attack exceeds your opponent's CMD, you can drag the target back an additional 5 feet. You must be able to move with the target to perform this maneuver. If you do not have enough movement, the drag goes to the maximum amount of movement available to you and ends.
 
-An enemy being moved by a drag does not provoke an attack of opportunity because of the movement unless you possess the [Greater Drag](advancedFeats.md#_greater-drag) feat. You cannot move a creature into a square that is occupied by a solid object or obstacle. If there is another creature in the way of your movement, the drag ends adjacent to that creature.
+An enemy being moved by a drag does not provoke an attack of opportunity because of the movement unless you possess the [Greater Drag](advancedFeats#_greater-drag) feat. You cannot move a creature into a square that is occupied by a solid object or obstacle. If there is another creature in the way of your movement, the drag ends adjacent to that creature.
 
 **Stability** : Some characters or types of creatures prove particularly sure-footed, making them more difficult to overthrow and move around the battlefield. Any racial ability that grants a bonus to CMD versus bull rush attempts grants the same bonus against drag combat maneuvers.
 
 # Reposition
 
-You can attempt to reposition a foe to a different location as a standard action. You can only reposition an opponent that is no more than one size category larger than you. A reposition attempts to force a foe to move to a different position in relation to your location without doing any harm. If you do not have the [Improved Reposition](advancedFeats.md#_improved-reposition) feat or a similar ability, attempting to reposition a foe provokes an attack of opportunity from the target of your maneuver. You cannot use this maneuver to move a foe into a space that is intrinsically dangerous, such as a pit or _ [wall of fire](../spells/wallOfFire.md#_wall-of-fire)_.
+You can attempt to reposition a foe to a different location as a standard action. You can only reposition an opponent that is no more than one size category larger than you. A reposition attempts to force a foe to move to a different position in relation to your location without doing any harm. If you do not have the [Improved Reposition](advancedFeats#_improved-reposition) feat or a similar ability, attempting to reposition a foe provokes an attack of opportunity from the target of your maneuver. You cannot use this maneuver to move a foe into a space that is intrinsically dangerous, such as a pit or _ [wall of fire](../spells/wallOfFire#_wall-of-fire)_.
 
 If your attack is successful, you may move your target 5 feet to a new location. For every 5 by which your attack exceeds your opponent's CMD, you can move the target an additional 5 feet. The target must remain within your reach at all times during this movement, except for the final 5 feet of movement, which can be to a space adjacent to your reach.
 
@@ -44,11 +44,11 @@ An enemy being moved by a reposition does not provoke an attack of opportunity b
 
 # Steal
 
-You can attempt to take an item from a foe as a standard action. This maneuver can be used in melee to take any item that is neither held nor hidden in a bag or pack. You must have at least one hand free (holding nothing) to attempt this maneuver. You must select the item to be taken before the check is made. Items that are simply tucked into a belt or loosely attached (such as brooches or necklaces) are the easiest to take. Items fastened to a foe (such as cloaks, sheathed weapons, or pouches) are more difficult to take, and give the opponent a +5 bonus (or greater) to his CMD. Items that are closely worn (such as armor, backpacks, boots, clothing, or rings) cannot be taken with this maneuver. Items held in the hands (such as wielded weapons or wands) also cannot be taken with the steal maneuver—you must use the disarm combat maneuver instead. The GM is the final arbiter of what items can be taken. If you do not have the [Improved Steal](advancedFeats.md#_improved-steal) feat or a similar ability, attempting to steal an object provokes an attack of opportunity from the target of your maneuver.
+You can attempt to take an item from a foe as a standard action. This maneuver can be used in melee to take any item that is neither held nor hidden in a bag or pack. You must have at least one hand free (holding nothing) to attempt this maneuver. You must select the item to be taken before the check is made. Items that are simply tucked into a belt or loosely attached (such as brooches or necklaces) are the easiest to take. Items fastened to a foe (such as cloaks, sheathed weapons, or pouches) are more difficult to take, and give the opponent a +5 bonus (or greater) to his CMD. Items that are closely worn (such as armor, backpacks, boots, clothing, or rings) cannot be taken with this maneuver. Items held in the hands (such as wielded weapons or wands) also cannot be taken with the steal maneuver—you must use the disarm combat maneuver instead. The GM is the final arbiter of what items can be taken. If you do not have the [Improved Steal](advancedFeats#_improved-steal) feat or a similar ability, attempting to steal an object provokes an attack of opportunity from the target of your maneuver.
 
 Although this maneuver can only be performed if the target is within your reach, you can use a whip to steal an object from a target within range with a –4 penalty on the attack roll.
 
-If your attack is successful, you may take one item from your opponent. You must be able to reach the item to be taken (subject to GM discretion). Your enemy is immediately aware of this theft unless you possess the [Greater Steal](advancedFeats.md#_greater-steal) feat.
+If your attack is successful, you may take one item from your opponent. You must be able to reach the item to be taken (subject to GM discretion). Your enemy is immediately aware of this theft unless you possess the [Greater Steal](advancedFeats#_greater-steal) feat.
 
 # Hero Points
 
@@ -76,7 +76,7 @@ Each character begins play with 1 hero point, regardless of her level. In additi
 
 **Heroic Acts** : Whenever a character performs an exceptionally heroic act, she can be awarded a hero point. This might include anything from slaying an evil dragon when the rest of the group has fled to rescuing townsfolk from a burning building despite being terribly wounded. It does not have to be related to combat. Convincing the reticent king to send troops to help with a bandit problem or successfully jumping a wide chasm might earn a character a hero point, depending on the circumstances. Note that a hero point should only be awarded if the PC involved did not spend a hero point to accomplish the task.
 
-**Return from the Dead** : When a character dies, she does not lose any hero points she has accumulated. If she died with no hero points remaining, she gains 1 hero point when she is brought back from the dead through powerful magic, such as _ [raise dead](../spells/raiseDead.md#_raise-dead)_ or _ [resurrection](../spells/resurrection.md#_resurrection)_.
+**Return from the Dead** : When a character dies, she does not lose any hero points she has accumulated. If she died with no hero points remaining, she gains 1 hero point when she is brought back from the dead through powerful magic, such as _ [raise dead](../spells/raiseDead#_raise-dead)_ or _ [resurrection](../spells/resurrection#_resurrection)_.
 
 **Maximum Hero Points** : Characters can have no more than 3 hero points at any one time. Excess hero points are lost.
 
@@ -96,7 +96,7 @@ Hero points can be spent at any time and do not require an action to use (althou
 
 **Reroll** : You may spend a hero point to reroll any one d20 roll you just made. You must take the results of the second roll, even if it is worse.
 
-**Special** : You can petition the GM to allow a hero point to be used to attempt nearly anything that would normally be almost impossible. Such uses are not guaranteed and should be considered carefully by the GM. Possibilities include casting a single spell that is one level higher than you could normally cast (or a 1st-level spell if you are not a spellcaster), making an attack that blinds a foe or bypasses its damage reduction entirely, or attempting to use [Diplomacy](../skills/diplomacy.md#_diplomacy) to convince a raging dragon to give up its attack. Regardless of the desired action, the attempt should be accompanied by a difficult check or penalty on the attack roll. No additional hero points may be spent on such an attempt, either by the character or her allies.
+**Special** : You can petition the GM to allow a hero point to be used to attempt nearly anything that would normally be almost impossible. Such uses are not guaranteed and should be considered carefully by the GM. Possibilities include casting a single spell that is one level higher than you could normally cast (or a 1st-level spell if you are not a spellcaster), making an attack that blinds a foe or bypasses its damage reduction entirely, or attempting to use [Diplomacy](../skills/diplomacy#_diplomacy) to convince a raging dragon to give up its attack. Regardless of the desired action, the attempt should be accompanied by a difficult check or penalty on the attack roll. No additional hero points may be spent on such an attempt, either by the character or her allies.
 
 **Cheat Death** : A character can spend 2 hero points to cheat death. How this plays out is up to the GM, but generally the character is left alive, with negative hit points but stable. For example, a character is about to be slain by a critical hit from an arrow. If the character spends 2 hero points, the GM decides that the arrow pierced the character's holy symbol, reducing the damage enough to prevent him from being killed, and that he made his stabilization roll at the end of his turn. Cheating death is the only way for a character to spend more than 1 hero point in a turn. The character can spend hero points in this way to prevent the death of a familiar, animal companion, eidolon, or special mount, but not another character or NPC.
 
@@ -204,7 +204,7 @@ You utter a dire curse over the body of a dying creature, allowing you to consum
 
 **Saving Throw** Will negates; **Spell Resistance** yes
 
-You curse the target, preventing it from drawing upon the powers of destiny. The target is shaken and cannot use hero points for the duration of the spell. This effect can be removed by _ [dispel magic](../spells/dispelMagic.md#_dispel-magic), [remove curse](../spells/removeCurse.md#_remove-curse)_, or other similar effects.
+You curse the target, preventing it from drawing upon the powers of destiny. The target is shaken and cannot use hero points for the duration of the spell. This effect can be removed by _ [dispel magic](../spells/dispelMagic#_dispel-magic), [remove curse](../spells/removeCurse#_remove-curse)_, or other similar effects.
 
 **Unravel Destiny**
 
@@ -240,7 +240,7 @@ This golden elixir grants good luck to the imbiber. After drinking the elixir, t
 
 **Construction**
 
-**Requirements** [Craft Wondrous Item](../feats.md#_craft-wondrous-item), _heroic fortune_; **Cost** 1,800 gp
+**Requirements** [Craft Wondrous Item](../feats#_craft-wondrous-item), _heroic fortune_; **Cost** 1,800 gp
 
 **Hero's Blade**
 
@@ -254,7 +254,7 @@ The pommel of this ornate _+2 longsword_ is made to look like a coiled golden dr
 
 **Construction**
 
-**Requirements** [Craft Magic Arms and Armor](../feats.md#_craft-magic-arms-and-armor), _heroic fortune_; **Cost** 8,815 gp
+**Requirements** [Craft Magic Arms and Armor](../feats#_craft-magic-arms-and-armor), _heroic fortune_; **Cost** 8,815 gp
 
 **Reaver's Scythe**
 
@@ -264,11 +264,11 @@ The pommel of this ornate _+2 longsword_ is made to look like a coiled golden dr
 
 **Description**
 
-The black blade of this _+2 [keen](../magicItems/weapons.md#_weapons-keen) [unholy](../magicItems/weapons.md#_unholy) scythe_ reflects faint images of the souls of those it has claimed. Whenever the scythe is used to drop a creature to –1 hit points or less, the creature must immediately make a DC 14 Will save or be instantly slain. If the _reaver's scythe_ kills a creature, either through damage or because the creature failed its Will save, the wielder immediately receives 1 hero point. This hero point must be used within 1 hour or it is lost. The wielder cannot gain another hero point from the scythe until the first is used or lost.
+The black blade of this _+2 [keen](../magicItems/weapons#_weapons-keen) [unholy](../magicItems/weapons#_unholy) scythe_ reflects faint images of the souls of those it has claimed. Whenever the scythe is used to drop a creature to –1 hit points or less, the creature must immediately make a DC 14 Will save or be instantly slain. If the _reaver's scythe_ kills a creature, either through damage or because the creature failed its Will save, the wielder immediately receives 1 hero point. This hero point must be used within 1 hour or it is lost. The wielder cannot gain another hero point from the scythe until the first is used or lost.
 
 **Construction**
 
-**Requirements** [Craft Magic Arms and Armor](../feats.md#_craft-magic-arms-and-armor), _ [keen edge](../spells/keenEdge.md#_keen-edge), malediction, [unholy blight](../spells/unholyBlight.md#_unholy-blight)_; **Cost** 40,318 gp
+**Requirements** [Craft Magic Arms and Armor](../feats#_craft-magic-arms-and-armor), _ [keen edge](../spells/keenEdge#_keen-edge), malediction, [unholy blight](../spells/unholyBlight#_unholy-blight)_; **Cost** 40,318 gp
 
 **Ring of Heroes**
 
@@ -282,7 +282,7 @@ Sculpted in the shape of two noble looking bronze lions charging toward a centra
 
 **Construction**
 
-**Requirements** [Forge Ring](../feats.md#_forge-ring), Luck of Heroes; **Cost** 4,000 gp
+**Requirements** [Forge Ring](../feats#_forge-ring), Luck of Heroes; **Cost** 4,000 gp
 
 **Staff of Fortune**
 
@@ -299,7 +299,7 @@ This staff is made of ivory and gold and is topped by a large, flawless piece of
 
 **Construction**
 
-**Requirements** [Craft Staff](../feats.md#_craft-staff), _heroic fortune, mass heroic fortune_; **Cost** 37,200 gp
+**Requirements** [Craft Staff](../feats#_craft-staff), _heroic fortune, mass heroic fortune_; **Cost** 37,200 gp
 
 # Traits
 
@@ -307,11 +307,11 @@ Character traits are abilities that are not tied to your character's race or cla
 
 Many traits grant a new type of bonus: a “trait” bonus. Trait bonuses do not stack—they're intended to give player characters a slight edge, not a secret backdoor way to focus all of a character's traits on one type of bonus and thus gain an unseemly advantage. It's certainly possible, for example, that somewhere down the line, a “Courageous” trait might be on the list of dwarf race traits, but just because this trait is on both the dwarf race traits list and the basic combat traits list doesn't mean you're any more brave if you choose both versions than if you choose only one.
 
-Character traits are only for player characters. If you want an NPC to have traits, that NPC must “buy” them with the [Additional Traits feat](advancedFeats.md#_additional-traits). Player characters are special; they're the stars of the game, after all, and it makes sense that they have an advantage over the NPCs of the world in this way.
+Character traits are only for player characters. If you want an NPC to have traits, that NPC must “buy” them with the [Additional Traits feat](advancedFeats#_additional-traits). Player characters are special; they're the stars of the game, after all, and it makes sense that they have an advantage over the NPCs of the world in this way.
 
 # Gaining Traits
 
-When you create your character for a campaign, ask your GM how many traits you can select. In most cases, a new PC should gain two traits, effectively gaining what amounts to a bonus feat at character creation. Some GMs may wish to adjust this number somewhat, depending upon their style of play; you may only be able to pick one trait, or your GM might allow three or more. Even if your GM normally doesn't allow bonus traits, you might still be able to pick up some with the [Additional Traits feat](advancedFeats.md#_additional-traits).
+When you create your character for a campaign, ask your GM how many traits you can select. In most cases, a new PC should gain two traits, effectively gaining what amounts to a bonus feat at character creation. Some GMs may wish to adjust this number somewhat, depending upon their style of play; you may only be able to pick one trait, or your GM might allow three or more. Even if your GM normally doesn't allow bonus traits, you might still be able to pick up some with the [Additional Traits feat](advancedFeats#_additional-traits).
 
 # Types of Traits
 
@@ -345,7 +345,7 @@ These traits are associated with combat, battle, and physical prowess; they give
 
 **Armor Expert** : You have worn armor as long as you can remember, either as part of your training to become a knight's squire or simply because you were seeking to emulate a hero. Your childhood armor wasn't the real thing as far as protection, but it did encumber you as much as real armor would have, and you've grown used to moving in such suits with relative grace. When you wear armor of any sort, reduce that suit's armor check penalty by 1, to a minimum check penalty of 0.
 
-**Bullied** : You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near. You gain a +1 trait bonus on attacks of opportunity attack rolls made with unarmed strikes. Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes—you must have a level of monk, the [Improved Unarmed Strike](../feats.md#_improved-unarmed-strike) feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do.
+**Bullied** : You were bullied often as a child, and you are now constantly ready to defend yourself with your fists when an enemy comes near. You gain a +1 trait bonus on attacks of opportunity attack rolls made with unarmed strikes. Note that this trait does not grant the ability to make attacks of opportunity with your unarmed strikes—you must have a level of monk, the [Improved Unarmed Strike](../feats#_improved-unarmed-strike) feat, or some other similar power to gain the use of this character trait. However, that doesn't prevent you from selecting this trait. You simply cannot make use of it until a later point if you do.
 
 **Courageous** : Your childhood was brutal, yet you persevered primarily through force of will and faith that no matter how hard things might get, as long as you kept a level head you'd make it through. You gain a +2 trait bonus on saving throws against fear effects.
 
@@ -367,13 +367,13 @@ These traits rely upon conviction of spirit, perception, and religion, but are n
 
 **Birthmark** : You were born with a strange birthmark that looks very similar to the holy symbol of the god you chose to worship later in life. This birthmark can serve you as a divine focus for casting spells, and as a physical manifestation of your faith, it increases your devotion to your god—you gain a +2 trait bonus on all saving throws against charm and compulsion effects as a result.
 
-**Caretaker** : As the child of an herbalist or an assistant in a temple infirmary, you often had to assist in tending to the sick and wounded. You gain a +1 trait bonus on [Heal](../skills/heal.md#_heal) checks, and [Heal](../skills/heal.md#_heal) is always a class skill for you.
+**Caretaker** : As the child of an herbalist or an assistant in a temple infirmary, you often had to assist in tending to the sick and wounded. You gain a +1 trait bonus on [Heal](../skills/heal#_heal) checks, and [Heal](../skills/heal#_heal) is always a class skill for you.
 
-**Child of the Temple** : You have long served at a temple in a city, and not only did you pick up on many of the nobility's customs, you spent much time in the temple libraries studying your faith. You gain a +1 trait bonus on [Knowledge](../skills/knowledge.md#_knowledge) (nobility) and [Knowledge](../skills/knowledge.md#_knowledge) (religion) checks, and one of these skills (your choice) is always a class skill for you.
+**Child of the Temple** : You have long served at a temple in a city, and not only did you pick up on many of the nobility's customs, you spent much time in the temple libraries studying your faith. You gain a +1 trait bonus on [Knowledge](../skills/knowledge#_knowledge) (nobility) and [Knowledge](../skills/knowledge#_knowledge) (religion) checks, and one of these skills (your choice) is always a class skill for you.
 
-**Devotee of the Green** : Your faith in the natural world or one of the gods of nature makes it easy for you to pick up on related concepts. You gain a +1 trait bonus on [Knowledge](../skills/knowledge.md#_knowledge) (geography) and [Knowledge](../skills/knowledge.md#_knowledge) (nature) checks, and one of these skills (your choice) is always a class skill for you.
+**Devotee of the Green** : Your faith in the natural world or one of the gods of nature makes it easy for you to pick up on related concepts. You gain a +1 trait bonus on [Knowledge](../skills/knowledge#_knowledge) (geography) and [Knowledge](../skills/knowledge#_knowledge) (nature) checks, and one of these skills (your choice) is always a class skill for you.
 
-**Ease of Faith** : Your mentor, the person who invested your faith in you from an early age, took steps to ensure that you understood that what powers your divine magic is no different than that which powers the magic of other religions. This philosophy makes it easier for you to interact with others who may not share your views. You gain a +1 bonus on [Diplomacy](../skills/diplomacy.md#_diplomacy) checks, and [Diplomacy](../skills/diplomacy.md#_diplomacy) is always a class skill for you.
+**Ease of Faith** : Your mentor, the person who invested your faith in you from an early age, took steps to ensure that you understood that what powers your divine magic is no different than that which powers the magic of other religions. This philosophy makes it easier for you to interact with others who may not share your views. You gain a +1 bonus on [Diplomacy](../skills/diplomacy#_diplomacy) checks, and [Diplomacy](../skills/diplomacy#_diplomacy) is always a class skill for you.
 
 **History of Heresy** : You were raised with heretical views that have made it difficult for you to accept most religious beliefs and often caused you or those you love to be treated as pariahs. As a result, you have turned your back on religious teachings, and as long as you do not possess any levels in a class that grants divine spellcasting power, you gain a +1 trait bonus on all saving throws made against divine spells.
 
@@ -383,15 +383,15 @@ These traits rely upon conviction of spirit, perception, and religion, but are n
 
 **Sacred Touch** : You were exposed to a potent source of positive energy as a child, perhaps by being born under the right cosmic sign, or maybe because one of your parents was a gifted healer. As a standard action, you may automatically stabilize a dying creature merely by touching it.
 
-**Scholar of the Great Beyond** : Your great interests as a child did not lie with current events or the mundane—you have always felt out of place, as if you were born in the wrong era. You take to philosophical discussions of the Great Beyond and of historical events with ease. You gain a +1 trait bonus on [Knowledge](../skills/knowledge.md#_knowledge) (history) and [Knowledge](../skills/knowledge.md#_knowledge) (planes) checks, and one of these skills (your choice) is always a class skill for you.
+**Scholar of the Great Beyond** : Your great interests as a child did not lie with current events or the mundane—you have always felt out of place, as if you were born in the wrong era. You take to philosophical discussions of the Great Beyond and of historical events with ease. You gain a +1 trait bonus on [Knowledge](../skills/knowledge#_knowledge) (history) and [Knowledge](../skills/knowledge#_knowledge) (planes) checks, and one of these skills (your choice) is always a class skill for you.
 
 ## Magic Traits
 
 These traits are associated with magic and focus on spellcasting and manipulating magic. You need not be a spellcaster to take a Magic Trait (although several of these traits aren't as useful to non-spellcasters). Magic Traits can represent a character's early exposure to magical effects or childhood studies of magic.
 
-**Classically Schooled** : Your apprenticeship or early education was particularly focused on the direct application of magic. You gain a +1 trait bonus on [Spellcraft](../skills/spellcraft.md#_spellcraft) checks, and [Spellcraft](../skills/spellcraft.md#_spellcraft) is always a class skill for you.
+**Classically Schooled** : Your apprenticeship or early education was particularly focused on the direct application of magic. You gain a +1 trait bonus on [Spellcraft](../skills/spellcraft#_spellcraft) checks, and [Spellcraft](../skills/spellcraft#_spellcraft) is always a class skill for you.
 
-**Dangerously Curious** : You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and frequently caused quite a bit of damage and headaches for your parent as a result. You gain a +1 bonus on [Use Magic Device](../skills/useMagicDevice.md#_use-magic-device) checks, and [Use Magic Device](../skills/useMagicDevice.md#_use-magic-device) is always a class skill for you.
+**Dangerously Curious** : You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and frequently caused quite a bit of damage and headaches for your parent as a result. You gain a +1 bonus on [Use Magic Device](../skills/useMagicDevice#_use-magic-device) checks, and [Use Magic Device](../skills/useMagicDevice#_use-magic-device) is always a class skill for you.
 
 **Focused Mind** : Your childhood was either dominated by lessons of some sort (whether musical, academic, or other) or by a horrible home life that encouraged your ability to block out distractions and focus on the immediate task at hand. You gain a +2 trait bonus on concentration checks.
 
@@ -405,7 +405,7 @@ These traits are associated with magic and focus on spellcasting and manipulatin
 
 **Magical Talent** : Either from inborn talent, the whimsy of the gods, or obsessive study of strange tomes, you have mastered the use of a cantrip. Choose a 0-level spell. You may cast that spell once per day as a spell-like ability. This spell-like ability is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st. The spell-like ability's save DC is Charisma-based.
 
-**Mathematical Prodigy** : Mathematics has always come easily for you, and you have always been able to “see the math” in the physical and magical world. You gain a +1 bonus on [Knowledge](../skills/knowledge.md#_knowledge) (arcana) and [Knowledge](../skills/knowledge.md#_knowledge) (engineering) checks, and one of these skills (your choice) is always a class skill for you.
+**Mathematical Prodigy** : Mathematics has always come easily for you, and you have always been able to “see the math” in the physical and magical world. You gain a +1 bonus on [Knowledge](../skills/knowledge#_knowledge) (arcana) and [Knowledge](../skills/knowledge#_knowledge) (engineering) checks, and one of these skills (your choice) is always a class skill for you.
 
 **Skeptic** : Growing up, you were always around magical effects to the extent that you realized much of it was mere smoke and mirrors. You gain a +2 trait bonus on all saving throws against illusions.
 
@@ -415,23 +415,23 @@ Social Traits are a sort of catch-all category—these traits reflect the social
 
 **Adopted** : You were adopted and raised by someone not of your actual race, and raised in a society not your own. As a result, you picked up a race trait from your adoptive parents and society, and may immediately select a race trait from your adoptive parents' race.
 
-**Bully** : You grew up in an environment where the meek were ignored and you often had to resort to threats or violence to be heard. You gain a +1 trait bonus on [Intimidate](../skills/intimidate.md#_intimidate) checks, and [Intimidate](../skills/intimidate.md#_intimidate) is always a class skill for you.
+**Bully** : You grew up in an environment where the meek were ignored and you often had to resort to threats or violence to be heard. You gain a +1 trait bonus on [Intimidate](../skills/intimidate#_intimidate) checks, and [Intimidate](../skills/intimidate#_intimidate) is always a class skill for you.
 
-**Canter** : You grew up among thieves and scoundrels, and their unusual speech patterns and turns of phrase don't faze you in the slightest today as a result. Anyone who attempts to use [Bluff](../skills/bluff.md#_bluff) to deliver a secret message to you gains a +5 bonus on his [Bluff](../skills/bluff.md#_bluff) check. When you attempt to intercept a secret message using [Sense Motive](../skills/senseMotive.md#_sense-motive), you gain a +5 trait bonus on the attempt.
+**Canter** : You grew up among thieves and scoundrels, and their unusual speech patterns and turns of phrase don't faze you in the slightest today as a result. Anyone who attempts to use [Bluff](../skills/bluff#_bluff) to deliver a secret message to you gains a +5 bonus on his [Bluff](../skills/bluff#_bluff) check. When you attempt to intercept a secret message using [Sense Motive](../skills/senseMotive#_sense-motive), you gain a +5 trait bonus on the attempt.
 
-**Charming** : Blessed with good looks, you've come to depend on the fact that others find you attractive. You gain a +1 trait bonus when you use [Bluff](../skills/bluff.md#_bluff) or [Diplomacy](../skills/diplomacy.md#_diplomacy) on a character that is (or could be) sexually attracted to you, and a +1 trait bonus to the save DC of any language-dependent spell you cast on such characters or creatures.
+**Charming** : Blessed with good looks, you've come to depend on the fact that others find you attractive. You gain a +1 trait bonus when you use [Bluff](../skills/bluff#_bluff) or [Diplomacy](../skills/diplomacy#_diplomacy) on a character that is (or could be) sexually attracted to you, and a +1 trait bonus to the save DC of any language-dependent spell you cast on such characters or creatures.
 
-**Child of the Streets** : You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person. You gain a +1 trait bonus on [Sleight of Hand](../skills/sleightOfHand.md#_sleight-of-hand) checks, and [Sleight of Hand](../skills/sleightOfHand.md#_sleight-of-hand) is always a class skill for you.
+**Child of the Streets** : You grew up on the streets of a large city, and as a result you have developed a knack for picking pockets and hiding small objects on your person. You gain a +1 trait bonus on [Sleight of Hand](../skills/sleightOfHand#_sleight-of-hand) checks, and [Sleight of Hand](../skills/sleightOfHand#_sleight-of-hand) is always a class skill for you.
 
-**Fast-Talker** : You had a knack at getting yourself into trouble as a child, and as a result developed a silver tongue at an early age. You gain a +1 trait bonus on [Bluff](../skills/bluff.md#_bluff) checks, and [Bluff](../skills/bluff.md#_bluff) is always a class skill for you.
+**Fast-Talker** : You had a knack at getting yourself into trouble as a child, and as a result developed a silver tongue at an early age. You gain a +1 trait bonus on [Bluff](../skills/bluff#_bluff) checks, and [Bluff](../skills/bluff#_bluff) is always a class skill for you.
 
-**Natural-Born Leader** : You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the [Leadership](../feats.md#_leadership) feat, you gain a +1 trait bonus to your [Leadership](../feats.md#_leadership) score.
+**Natural-Born Leader** : You've always found yourself in positions where others look up to you as a leader, and you can distinctly remember an event from your early childhood where you led several other children to accomplish a goal that each of you individually could not. All cohorts, followers, or summoned creatures under your leadership gain a +1 morale bonus on Will saves to avoid mind-affecting effects. If you ever take the [Leadership](../feats#_leadership) feat, you gain a +1 trait bonus to your [Leadership](../feats#_leadership) score.
 
-**Poverty-Stricken** : Your childhood was tough, and your parents had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild. You gain a +1 bonus on [Survival](../skills/survival.md#_survival) checks, and [Survival](../skills/survival.md#_survival) is always a class skill for you.
+**Poverty-Stricken** : Your childhood was tough, and your parents had to make every copper piece count. Hunger was your constant companion, and you often had to live off the land or sleep in the wild. You gain a +1 bonus on [Survival](../skills/survival#_survival) checks, and [Survival](../skills/survival#_survival) is always a class skill for you.
 
 **Rich Parents** : You were born into a rich family, perhaps even the nobility, and even though you turned to a life of adventure anyway, you enjoy a one-time benefit to your initial finances—your starting cash increases to 900 gp.
 
-**Suspicious** : You discovered at an early age that someone you trusted, perhaps an older sibling or a parent, had lied to you, and lied often, about something you had taken for granted, leaving you quick to question the claims of others. You gain a +1 trait bonus on [Sense Motive](../skills/senseMotive.md#_sense-motive) checks, and [Sense Motive](../skills/senseMotive.md#_sense-motive) is always a class skill for you.
+**Suspicious** : You discovered at an early age that someone you trusted, perhaps an older sibling or a parent, had lied to you, and lied often, about something you had taken for granted, leaving you quick to question the claims of others. You gain a +1 trait bonus on [Sense Motive](../skills/senseMotive#_sense-motive) checks, and [Sense Motive](../skills/senseMotive#_sense-motive) is always a class skill for you.
 
 # Campaign Traits
 
@@ -439,29 +439,29 @@ Campaign traits are specifically designed to tie your character into a campaign'
 
 ## Favored Son/Daughter
 
-You were born and raised in the town of Sandpoint or its surrounding farms. You know many of the region's secrets, and the locals already know who you are. You are well liked in town, and you'll have lots of friends in the region, but the town's tougher side sees you as a snitch or a pansy. You gain a +1 trait bonus on [Knowledge](../skills/knowledge.md#_knowledge) (local) checks, and [Knowledge](../skills/knowledge.md#_knowledge) (local) is always a class skill for you. In addition, you can choose any one law-abiding citizen of Sandpoint from below as an ally; depending on the person you pick, you'll get different benefits.
+You were born and raised in the town of Sandpoint or its surrounding farms. You know many of the region's secrets, and the locals already know who you are. You are well liked in town, and you'll have lots of friends in the region, but the town's tougher side sees you as a snitch or a pansy. You gain a +1 trait bonus on [Knowledge](../skills/knowledge#_knowledge) (local) checks, and [Knowledge](../skills/knowledge#_knowledge) (local) is always a class skill for you. In addition, you can choose any one law-abiding citizen of Sandpoint from below as an ally; depending on the person you pick, you'll get different benefits.
 
 **Tavern Owner** : One of the town’s most influential and beloved nobles. Her inn/tavern is the most popular in town, and as one of her friends, you're guaranteed a place to eat and sleep for free. She's got lots of great contacts with merchants as well, and she'll sell any of your loot for you—as a result, you gain an additional 10% over the amount of gp you normally would get from selling off treasure.
 
-**Sherrif** : The no nonsense arm of the law, is like the uncle you never had. The benefits of being close friends with the town sheriff are extensive, and you can call in favors from him once per game session. A favor can either get you out of a legal jam, hook you up with a town guard for help, or give you a one-time +10 bonus on a [Bluff](../skills/bluff.md#_bluff), [Diplomacy](../skills/diplomacy.md#_diplomacy), or [Intimidate](../skills/intimidate.md#_intimidate) check made against any local person.
+**Sherrif** : The no nonsense arm of the law, is like the uncle you never had. The benefits of being close friends with the town sheriff are extensive, and you can call in favors from him once per game session. A favor can either get you out of a legal jam, hook you up with a town guard for help, or give you a one-time +10 bonus on a [Bluff](../skills/bluff#_bluff), [Diplomacy](../skills/diplomacy#_diplomacy), or [Intimidate](../skills/intimidate#_intimidate) check made against any local person.
 
 ## Black Sheep
 
-You were born and raised in town. You know many of the region's secrets and the locals already know who you are. You aren't quite hated in town, but folk seem to think you're a troublemaker and a bastard and not to be trusted. The town's tougher folk respect you, but the law-abiding citizens don't. You gain a +1 trait bonus on [Knowledge](../skills/knowledge.md#_knowledge) (local) checks, and [Knowledge](../skills/knowledge.md#_knowledge) (local) is a class skill for you. In addition, you can choose any one notorious citizen from below as an ally; depending on the person you pick, you'll get different benefits.
+You were born and raised in town. You know many of the region's secrets and the locals already know who you are. You aren't quite hated in town, but folk seem to think you're a troublemaker and a bastard and not to be trusted. The town's tougher folk respect you, but the law-abiding citizens don't. You gain a +1 trait bonus on [Knowledge](../skills/knowledge#_knowledge) (local) checks, and [Knowledge](../skills/knowledge#_knowledge) (local) is a class skill for you. In addition, you can choose any one notorious citizen from below as an ally; depending on the person you pick, you'll get different benefits.
 
 **Apothecary** : Everyone suspects the sweaty, shifty-eyed apothecary sells poisons from his cluttered, acrid smelling wreck of a shop. You're one of the few in town who know this for a fact. You start the game with 400 gp worth of poison, and the apothecary will continue to sell you poison as long as you don't spread the word.
 
-**Bitter Nobleman** : A local unscrupulous family was hit hard recently, revealing criminal ties that damaged its reputation as well. One noble is eager to rebuild his presence in town, and you're one of the ones he's selected as an agent. Choose one of the following skills: [Bluff](../skills/bluff.md#_bluff), [Sleight of Hand](../skills/sleightOfHand.md#_sleight-of-hand), or [Stealth](../skills/stealth.md#_stealth). Your work for the family gives you a +1 trait bonus on that skill, and it is always a class skill for you.
+**Bitter Nobleman** : A local unscrupulous family was hit hard recently, revealing criminal ties that damaged its reputation as well. One noble is eager to rebuild his presence in town, and you're one of the ones he's selected as an agent. Choose one of the following skills: [Bluff](../skills/bluff#_bluff), [Sleight of Hand](../skills/sleightOfHand#_sleight-of-hand), or [Stealth](../skills/stealth#_stealth). Your work for the family gives you a +1 trait bonus on that skill, and it is always a class skill for you.
 
 ## Outlander
 
 You are not from town; you've recently come from somewhere else and are hoping to make your fortune here. Pick one of the following reasons to be a newcomer to the area.
 
-**Lore Seeker** : The secrets of an ancient fallen civilization intrigue you, particularly the magical traditions of its highly mystical culture. You've studied magic intensely, and hope to increase that knowledge by adding ancient lore. You've come to the region to pursue that study, and chose the town as your base because it was out of the way of bigger cities—meaning less competition to study the ancient monuments in the region, you hope! You gain a +1 trait bonus on [Knowledge](../skills/knowledge.md#_knowledge) (arcana) checks, and [Knowledge](../skills/knowledge.md#_knowledge) (arcana) is a class skill for you. If you cast arcane spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.
+**Lore Seeker** : The secrets of an ancient fallen civilization intrigue you, particularly the magical traditions of its highly mystical culture. You've studied magic intensely, and hope to increase that knowledge by adding ancient lore. You've come to the region to pursue that study, and chose the town as your base because it was out of the way of bigger cities—meaning less competition to study the ancient monuments in the region, you hope! You gain a +1 trait bonus on [Knowledge](../skills/knowledge#_knowledge) (arcana) checks, and [Knowledge](../skills/knowledge#_knowledge) (arcana) is a class skill for you. If you cast arcane spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.
 
 **Exile** : For whatever reason, you were forced to flee your homeland. Chance or fate has brought you to twon, and it's here that your money ran out, leaving you stranded in this small town. You are also being pursued by enemies from your homeland, and that has made you paranoid and quick to react to danger. You gain a +2 trait bonus on Initiative checks.
 
-**Missionary** : You have come to town to see about expanding the presence of your chosen faith after receiving visions that told you your faith is needed in the region—what that need is, though, you're not quite sure. You gain a +1 trait bonus on [Knowledge](../skills/knowledge.md#_knowledge) (religion) checks, and [Knowledge](../skills/knowledge.md#_knowledge) (religion) is a class skill for you. If you cast divine spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.
+**Missionary** : You have come to town to see about expanding the presence of your chosen faith after receiving visions that told you your faith is needed in the region—what that need is, though, you're not quite sure. You gain a +1 trait bonus on [Knowledge](../skills/knowledge#_knowledge) (religion) checks, and [Knowledge](../skills/knowledge#_knowledge) (religion) is a class skill for you. If you cast divine spells, pick three spells on your spell list. You are particularly adept at casting these spells, so they function at +1 caster level when you cast them, and their save DCs (if any) gain a +1 bonus.
 
 # Race Traits
 
@@ -471,7 +471,7 @@ Race traits are tied to specific races or ethnicities. In order to select a race
 
 Only dwarves may select one of these traits.
 
-**Goldsniffer** : Your keen senses lead you to hidden treasures. You gain a +2 trait bonus on [Perception](../skills/perception.md#_perception) checks related to metals, jewels, and gemstones.
+**Goldsniffer** : Your keen senses lead you to hidden treasures. You gain a +2 trait bonus on [Perception](../skills/perception#_perception) checks related to metals, jewels, and gemstones.
 
 **Tunnel Fighter** : Caves and tunnels are a second home to you. While underground, you receive a +2 trait bonus on initiative checks and a +1 trait bonus on weapon damage rolls for critical hits (this damage is multiplied on a critical hit).
 
@@ -487,9 +487,9 @@ Only elves may select one of these traits.
 
 Only gnomes may select one of these traits.
 
-**Animal Friend** : You've long been a friend to animals, and feel safer when there are animals nearby. You gain a +1 trait bonus on Will saving throws as long as an animal (Tiny or larger, must be at least indifferent toward you) is within 30 feet, and [Handle Animal](../skills/handleAnimal.md#_handle-animal) is always a class skill for you.
+**Animal Friend** : You've long been a friend to animals, and feel safer when there are animals nearby. You gain a +1 trait bonus on Will saving throws as long as an animal (Tiny or larger, must be at least indifferent toward you) is within 30 feet, and [Handle Animal](../skills/handleAnimal#_handle-animal) is always a class skill for you.
 
-**Rapscallion** : You've spent your entire life thumbing your nose at the establishment and take pride in your run-ins with the law. Somehow, despite all the mischievous behavior in your life, you've never been caught. You gain a +1 trait bonus on [Escape Artist](../skills/escapeArtist.md#_escape-artist) checks and a +1 trait bonus on Initiative checks.
+**Rapscallion** : You've spent your entire life thumbing your nose at the establishment and take pride in your run-ins with the law. Somehow, despite all the mischievous behavior in your life, you've never been caught. You gain a +1 trait bonus on [Escape Artist](../skills/escapeArtist#_escape-artist) checks and a +1 trait bonus on Initiative checks.
 
 ## Half-Elf Race Traits
 
@@ -503,25 +503,25 @@ Only half-elves may select one of these traits.
 
 Only half-orcs may select one of these traits.
 
-**Brute** : You have worked for a crime lord, either as a low-level enforcer or as a guard, and are adept at frightening away people. You gain a +1 trait bonus on [Intimidate](../skills/intimidate.md#_intimidate) checks, and [Intimidate](../skills/intimidate.md#_intimidate) is always a class skill for you.
+**Brute** : You have worked for a crime lord, either as a low-level enforcer or as a guard, and are adept at frightening away people. You gain a +1 trait bonus on [Intimidate](../skills/intimidate#_intimidate) checks, and [Intimidate](../skills/intimidate#_intimidate) is always a class skill for you.
 
-**Outcast** : Driven from town after town because of your heritage, you have become adept at living apart from others. You gain a +1 trait bonus on [Survival](../skills/survival.md#_survival) skill checks, and [Survival](../skills/survival.md#_survival) is always a class skill for you.
+**Outcast** : Driven from town after town because of your heritage, you have become adept at living apart from others. You gain a +1 trait bonus on [Survival](../skills/survival#_survival) skill checks, and [Survival](../skills/survival#_survival) is always a class skill for you.
 
 ## Halfling Race Traits
 
 Only halflings may select one of these traits.
 
-**Freedom Fighter** : Your parents allowed escaping slaves to hide in your home, and the stories you've heard from them instilled into you a deep loathing of slavery. You gain a +1 trait bonus on any skill check or attack roll made during the process of escaping capture or in helping a slave escape bondage, and [Escape Artist](../skills/escapeArtist.md#_escape-artist) is always a class skill for you.
+**Freedom Fighter** : Your parents allowed escaping slaves to hide in your home, and the stories you've heard from them instilled into you a deep loathing of slavery. You gain a +1 trait bonus on any skill check or attack roll made during the process of escaping capture or in helping a slave escape bondage, and [Escape Artist](../skills/escapeArtist#_escape-artist) is always a class skill for you.
 
-**Well-Informed** : You make it a point to know everyone and to be connected to everything around you. You frequent the best taverns, attend all of the right events, and graciously help anyone who needs it. Because of this, you gain a +1 trait bonus on [Diplomacy](../skills/diplomacy.md#_diplomacy) checks to gather information and [Knowledge](../skills/knowledge.md#_knowledge) (local) checks. One of these skills (your choice) is always a class skill for you.
+**Well-Informed** : You make it a point to know everyone and to be connected to everything around you. You frequent the best taverns, attend all of the right events, and graciously help anyone who needs it. Because of this, you gain a +1 trait bonus on [Diplomacy](../skills/diplomacy#_diplomacy) checks to gather information and [Knowledge](../skills/knowledge#_knowledge) (local) checks. One of these skills (your choice) is always a class skill for you.
 
 ## Human Race Traits
 
 Only humans may select one of these traits.
 
-**Scholar of Ruins** : From the moment you could walk and talk, the ruins of ancient civilizations have fascinated you. Because of this, you have special insight into geography as well as expertise in exploring lost places. You gain a +1 trait bonus on [Knowledge](../skills/knowledge.md#_knowledge) (geography) and [Knowledge](../skills/knowledge.md#_knowledge) (dungeoneering) checks. One of these skills (your choice) is always a class skill for you.
+**Scholar of Ruins** : From the moment you could walk and talk, the ruins of ancient civilizations have fascinated you. Because of this, you have special insight into geography as well as expertise in exploring lost places. You gain a +1 trait bonus on [Knowledge](../skills/knowledge#_knowledge) (geography) and [Knowledge](../skills/knowledge#_knowledge) (dungeoneering) checks. One of these skills (your choice) is always a class skill for you.
 
-**World Traveler** : Your family has taken the love of travel to an extreme, roaming the world extensively. You've seen dozens of cultures and have learned to appreciate the diversity of what the world has to offer. Select one of the following skills: [Diplomacy](../skills/diplomacy.md#_diplomacy), [Knowledge](../skills/knowledge.md#_knowledge) (local), or [Sense Motive](../skills/senseMotive.md#_sense-motive). You gain a +1 trait bonus on that skill, and it is always a class skill for you.
+**World Traveler** : Your family has taken the love of travel to an extreme, roaming the world extensively. You've seen dozens of cultures and have learned to appreciate the diversity of what the world has to offer. Select one of the following skills: [Diplomacy](../skills/diplomacy#_diplomacy), [Knowledge](../skills/knowledge#_knowledge) (local), or [Sense Motive](../skills/senseMotive#_sense-motive). You gain a +1 trait bonus on that skill, and it is always a class skill for you.
 
 # Regional Traits
 
@@ -529,45 +529,45 @@ Regional traits are tied to particular regions, often specific nations, territor
 
 **Desert Child (desert)** : You were born and raised in rocky deserts. You are accustomed to high temperatures, and gain a +4 trait bonus on any saving throws made to resist the effects of being in hot conditions and a +1 trait bonus on all saving throws against fire effects.
 
-**Highlander (hills or mountains)** : You were born and raised in rugged badlands or hills, and you've become something of an expert at evading the predators, monsters, and worse that haunt the highlands. You gain a +1 trait bonus on [Stealth](../skills/stealth.md#_stealth) checks, and [Stealth](../skills/stealth.md#_stealth) is always a class skill for you. This trait bonus increases to +2 in hilly or rocky areas.
+**Highlander (hills or mountains)** : You were born and raised in rugged badlands or hills, and you've become something of an expert at evading the predators, monsters, and worse that haunt the highlands. You gain a +1 trait bonus on [Stealth](../skills/stealth#_stealth) checks, and [Stealth](../skills/stealth#_stealth) is always a class skill for you. This trait bonus increases to +2 in hilly or rocky areas.
 
-**Log Roller (forest)** : The time you spent leaping between slippery logs as they whirled down the river to market taught you how to keep your footing. You gain a +1 trait bonus on [Acrobatics](../skills/acrobatics.md#_acrobatics) checks and a +1 trait bonus to your CMB when attempting to resist trip attacks.
+**Log Roller (forest)** : The time you spent leaping between slippery logs as they whirled down the river to market taught you how to keep your footing. You gain a +1 trait bonus on [Acrobatics](../skills/acrobatics#_acrobatics) checks and a +1 trait bonus to your CMB when attempting to resist trip attacks.
 
-**Militia Veteran (any town or village)** : Your first job was serving in a civilian militia in your home town. Skills learned through daily drilling and protecting your fellow townsfolk gave you special insight into military life. Select one of the following skills: [Profession](../skills/profession.md#_profession) (soldier), [Ride](../skills/ride.md#_ride), or [Survival](../skills/survival.md#_survival). You gain a +1 trait bonus on that skill, and it is always a class skill for you.
+**Militia Veteran (any town or village)** : Your first job was serving in a civilian militia in your home town. Skills learned through daily drilling and protecting your fellow townsfolk gave you special insight into military life. Select one of the following skills: [Profession](../skills/profession#_profession) (soldier), [Ride](../skills/ride#_ride), or [Survival](../skills/survival#_survival). You gain a +1 trait bonus on that skill, and it is always a class skill for you.
 
-**River Rat (marsh or river)** : You learned to swim right after you learned to walk. As a youth, a gang of river pirates put you to work swimming in nighttime rivers and canals with a dagger in your teeth so you could sever the anchor ropes of merchant vessels. You gain a +1 trait bonus on damage dealt with a dagger and a +1 trait bonus on [Swim](../skills/swim.md#_swim) checks. [Swim](../skills/swim.md#_swim) is always a class skill for you.
+**River Rat (marsh or river)** : You learned to swim right after you learned to walk. As a youth, a gang of river pirates put you to work swimming in nighttime rivers and canals with a dagger in your teeth so you could sever the anchor ropes of merchant vessels. You gain a +1 trait bonus on damage dealt with a dagger and a +1 trait bonus on [Swim](../skills/swim#_swim) checks. [Swim](../skills/swim#_swim) is always a class skill for you.
 
-**Savanna Child (plains)** : You were born and raised among rolling plains or savannas. You spent much of your youth exploring these vast reaches and know many of the savanna's secrets. Pick one of the following skills: [Handle Animal](../skills/handleAnimal.md#_handle-animal), [Knowledge](../skills/knowledge.md#_knowledge) (nature), or [Ride](../skills/ride.md#_ride). You gain a +1 trait bonus on that skill, and it is always a class skill for you.
+**Savanna Child (plains)** : You were born and raised among rolling plains or savannas. You spent much of your youth exploring these vast reaches and know many of the savanna's secrets. Pick one of the following skills: [Handle Animal](../skills/handleAnimal#_handle-animal), [Knowledge](../skills/knowledge#_knowledge) (nature), or [Ride](../skills/ride#_ride). You gain a +1 trait bonus on that skill, and it is always a class skill for you.
 
-**Vagabond Child (urban)** : You grew up among the outcasts and outlaws of your society, learning to forage and survive in an urban environment. Select one of the following skills: [Disable Device](../skills/disableDevice.md#_disable-device), [Escape Artist](../skills/escapeArtist.md#_escape-artist), or [Sleight of Hand](../skills/sleightOfHand.md#_sleight-of-hand). You gain a +1 trait bonus on that skill, and it is always a class skill for you.
+**Vagabond Child (urban)** : You grew up among the outcasts and outlaws of your society, learning to forage and survive in an urban environment. Select one of the following skills: [Disable Device](../skills/disableDevice#_disable-device), [Escape Artist](../skills/escapeArtist#_escape-artist), or [Sleight of Hand](../skills/sleightOfHand#_sleight-of-hand). You gain a +1 trait bonus on that skill, and it is always a class skill for you.
 
 # Religion Traits
 
 Religion traits are tied to specific deities.
 
-**Child of Nature (N)** You have been blessed to be as comfortable in the wilderness as you are at home. You gain a +2 trait bonus on [Survival](../skills/survival.md#_survival) checks to find food and water, and a +1 trait bonus on [Knowledge](../skills/knowledge.md#_knowledge) (nature) checks. One of these skills (your choice) is always a class skill for you.
+**Child of Nature (N)** You have been blessed to be as comfortable in the wilderness as you are at home. You gain a +2 trait bonus on [Survival](../skills/survival#_survival) checks to find food and water, and a +1 trait bonus on [Knowledge](../skills/knowledge#_knowledge) (nature) checks. One of these skills (your choice) is always a class skill for you.
 
-**Demon Hunter (LE):** Raised in the church (whether or not you are currently a follower), you’ve focused your indoctrinated fervor primarily on the elimination of demons. You gain a +3 trait bonus on [Knowledge](../skills/knowledge.md#_knowledge) (planes) checks about demons and a +2 trait bonus on Will saves against mind-affecting spells and effects from demons.
+**Demon Hunter (LE):** Raised in the church (whether or not you are currently a follower), you’ve focused your indoctrinated fervor primarily on the elimination of demons. You gain a +3 trait bonus on [Knowledge](../skills/knowledge#_knowledge) (planes) checks about demons and a +2 trait bonus on Will saves against mind-affecting spells and effects from demons.
 
-**Divine Courtesan (CN):** You worked in one of your goddess’s temples as a sacred courtesan, and you know how to flatter, please, and (most of all) listen. You gain a +1 trait bonus on [Sense Motive](../skills/senseMotive.md#_sense-motive) checks and [Diplomacy](../skills/diplomacy.md#_diplomacy) checks to gather information, and one of these skills (your choice) is always a class skill for you.
+**Divine Courtesan (CN):** You worked in one of your goddess’s temples as a sacred courtesan, and you know how to flatter, please, and (most of all) listen. You gain a +1 trait bonus on [Sense Motive](../skills/senseMotive#_sense-motive) checks and [Diplomacy](../skills/diplomacy#_diplomacy) checks to gather information, and one of these skills (your choice) is always a class skill for you.
 
 **Divine Warrior (LG):** From an early age, you were trained by a militaristic order of clerics. You are devoted both to the teachings of your goddess and to spreading those teachings by force. You gain a +1 trait bonus on melee weapon damage when you cast a divine spell that affect weapons.
 
-**Ear for Music (NG):** You spent countless hours of your youth in one of your goddess’s temples, listening to wonderful musicians and singers. You gain a +1 trait bonus on one category of [Perform](../skills/perform.md#_perform) checks and a +2 trait bonus on any [Knowledge](../skills/knowledge.md#_knowledge) (local) checks that deal with the local art or music scene.
+**Ear for Music (NG):** You spent countless hours of your youth in one of your goddess’s temples, listening to wonderful musicians and singers. You gain a +1 trait bonus on one category of [Perform](../skills/perform#_perform) checks and a +2 trait bonus on any [Knowledge](../skills/knowledge#_knowledge) (local) checks that deal with the local art or music scene.
 
-**Eyes and Ears of the City (LN):** Your religious training involved serving in the city watch of a large city, the primary duty of which was standing sentinel on a city wall. You gain a +1 trait bonus on [Perception](../skills/perception.md#_perception) checks, and [Perception](../skills/perception.md#_perception) is always a class skill for you.
+**Eyes and Ears of the City (LN):** Your religious training involved serving in the city watch of a large city, the primary duty of which was standing sentinel on a city wall. You gain a +1 trait bonus on [Perception](../skills/perception#_perception) checks, and [Perception](../skills/perception#_perception) is always a class skill for you.
 
 **Flame of the Dawnflower (NG):** You have been raised to view yourself as a blade in your goddess’s service, or you have taken that duty on for yourself. Whenever you score a critical hit with a scimitar, you deal an additional 2 points of fire damage to your target.
 
 **Fortified Drinker (CG):** Your god’s holy brews invigorate your mind, making you less susceptible to mental attacks. Whenever you imbibe any alcoholic beverage, you gain a +2 trait bonus on saves against mind-affecting effects for 1 hour.
 
-**Guardian of the Forge (LG):** Your god’s sacred duties are to protect the faithful, take lessons from the great craftsmen and strategists of the past, and prepare against dark times. You receive a +1 trait bonus on [Knowledge](../skills/knowledge.md#_knowledge) (engineering) and [Knowledge](../skills/knowledge.md#_knowledge) (history) checks. One of these skills (your choice) is a class skill for you.
+**Guardian of the Forge (LG):** Your god’s sacred duties are to protect the faithful, take lessons from the great craftsmen and strategists of the past, and prepare against dark times. You receive a +1 trait bonus on [Knowledge](../skills/knowledge#_knowledge) (engineering) and [Knowledge](../skills/knowledge#_knowledge) (history) checks. One of these skills (your choice) is a class skill for you.
 
 **Magic is Life (N):** Your faith in magic allows you to reflexively use the energy of any spell effect on you to save you from death. As long as you are under the effects of any spell, you gain a +2 trait bonus on saving throws against death effects. If you are reduced to negative hit points while you are under the effects of any spell, you automatically confirm stabilization checks to stop bleeding.
 
-**Patient Optimist (LG):** You know that all things pass in time, and are used to having to repeat arguments multiple times to convince even the most stubborn believer. You gain a +2 trait bonus on [Diplomacy](../skills/diplomacy.md#_diplomacy) checks to influence hostile or unfriendly creatures, and if you fail at such an attempt, you may retry it once.
+**Patient Optimist (LG):** You know that all things pass in time, and are used to having to repeat arguments multiple times to convince even the most stubborn believer. You gain a +2 trait bonus on [Diplomacy](../skills/diplomacy#_diplomacy) checks to influence hostile or unfriendly creatures, and if you fail at such an attempt, you may retry it once.
 
-**Starchild (CG):** Your goddess sensed your love of travel and promised you would always be able to find your way home. You can automatically determine where true north is. You gain a +4 trait bonus on [Survival](../skills/survival.md#_survival) checks to avoid becoming lost.
+**Starchild (CG):** Your goddess sensed your love of travel and promised you would always be able to find your way home. You can automatically determine where true north is. You gain a +4 trait bonus on [Survival](../skills/survival#_survival) checks to avoid becoming lost.
 
 **Undead Slayer (N):** Instructed at a young age in the tenets of your faith, you view the undead as abominations that must be destroyed, so their souls can journey beyond to be judged. You gain a +1 trait bonus on weapon damage against undead.
 

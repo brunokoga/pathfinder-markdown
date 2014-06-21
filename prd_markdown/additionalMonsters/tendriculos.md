@@ -6,25 +6,25 @@ This plant's thick trunk is capped by a crown of wide leaves, whipping vines, mu
 
 **XP 2,400**
 
-N Huge [plant](monsters/creatureTypes.md#_plant)
+N Huge [plant](monsters/creatureTypes#_plant)
 
-**Init** +3; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +7
+**Init** +3; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +7
 
 Defense
 
 **AC** 19, touch 7, flat-footed 19 (–1 Dex, +12 natural, –2 size)
 
-**hp** 76 (9d8+36); regeneration 10 (bludgeoning or [fire](monsters/creatureTypes.md#_fire-subtype))
+**hp** 76 (9d8+36); regeneration 10 (bludgeoning or [fire](monsters/creatureTypes#_fire-subtype))
 
 **Fort** +10, **Ref** +4, **Will** +4
 
-**Immune** acid, [plant](monsters/creatureTypes.md#_plant) traits
+**Immune** acid, [plant](monsters/creatureTypes#_plant) traits
 
 Offense
 
 **Speed** 20 ft.
 
-**Melee** bite +11 (2d6+7 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 tentacles +6 (1d6+3 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** bite +11 (2d6+7 plus [grab](monsters/universalMonsterRules#_grab)), 2 tentacles +6 (1d6+3 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +15 (+19 grapple); **CMD** 24 (can't be tripped)
 
-**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth.md#_stealth))
+**Feats** [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Iron Will](additionalMonsters/../feats#_iron-will), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Power Attack](additionalMonsters/../feats#_power-attack), [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth#_stealth))
 
-**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +7, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +1 (+9 in undergrowth); **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in undergrowth
+**Skills** [Perception](additionalMonsters/../skills/perception#_perception) +7, [Stealth](additionalMonsters/../skills/stealth#_stealth) +1 (+9 in undergrowth); **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth#_stealth) in undergrowth
 
 **Languages** Sylvan (cannot speak)
 

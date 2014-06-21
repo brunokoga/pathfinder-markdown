@@ -12,15 +12,15 @@
 
 **Duration** 1 round/level (D)
 
-**Saving Throw** see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless)
+**Saving Throw** see text; **[Spell Resistance](../glossary#_spell-resistance)** yes (harmless)
 
 A dim, blue glow surrounds the subjects, protecting them from attacks, granting them resistance to spells cast by chaotic creatures, and _slowing _chaotic creatures when they strike the subjects. This abjuration has four effects.
 
-First, each warded creature gains a +4 deflection bonus to [AC](../combat.md#_armor-class) and a +4 resistance bonus on saves. Unlike _ [protection from chaos](protectionFromChaos.md#_protection-from-chaos)_, this benefit applies against all attacks, not just against attacks by chaotic creatures.
+First, each warded creature gains a +4 deflection bonus to [AC](../combat#_armor-class) and a +4 resistance bonus on saves. Unlike _ [protection from chaos](protectionFromChaos#_protection-from-chaos)_, this benefit applies against all attacks, not just against attacks by chaotic creatures.
 
-Second, a warded creature gains [spell resistance](../glossary.md#_spell-resistance) 25 against chaotic spells and spells cast by chaotic creatures.
+Second, a warded creature gains [spell resistance](../glossary#_spell-resistance) 25 against chaotic spells and spells cast by chaotic creatures.
 
-Third, the abjuration protects you from possession and mental influence, just as _ [protection from chaos](protectionFromChaos.md#_protection-from-chaos) _does.
+Third, the abjuration protects you from possession and mental influence, just as _ [protection from chaos](protectionFromChaos#_protection-from-chaos) _does.
 
-Finally, if a chaotic creature succeeds on a melee attack against a warded creature, the attacker is _slowed _( [Will](../combat.md#_will) save negates, as the _ [slow](slow.md#_slow) _spell, but against _shield of law_'s save DC).
+Finally, if a chaotic creature succeeds on a melee attack against a warded creature, the attacker is _slowed _( [Will](../combat#_will) save negates, as the _ [slow](slow#_slow) _spell, but against _shield of law_'s save DC).
 

@@ -6,9 +6,9 @@ Dull, red eyes, grasping claws, and leathery wings give a demonic aspect to this
 
 **XP 2,400**
 
-NE Large [outsider](monsters/creatureTypes.md#_outsider) ( [air](monsters/creatureTypes.md#_air-subtype), [elemental](monsters/creatureTypes.md#_elemental-subtype), [evil](monsters/creatureTypes.md#_evil-subtype))
+NE Large [outsider](monsters/creatureTypes#_outsider) ( [air](monsters/creatureTypes#_air-subtype), [elemental](monsters/creatureTypes#_elemental-subtype), [evil](monsters/creatureTypes#_evil-subtype))
 
-**Init** +5; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +11
+**Init** +5; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +11
 
 Defense
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +8; **CMB** +11; **CMD** 26 (can't be tripped)
 
-**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Flyby Attack](additionalMonsters/../monsters/monsterFeats.md#_flyby-attack), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
+**Feats** [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Flyby Attack](additionalMonsters/../monsters/monsterFeats#_flyby-attack), [Multiattack](additionalMonsters/../monsters/monsterFeats#_multiattack), [Weapon Finesse](additionalMonsters/../feats#_weapon-finesse)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +16, [Fly](additionalMonsters/../skills/fly.md#_fly) +22, [Perception](additionalMonsters/../skills/perception.md#_perception) +11, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +16; **Racial Modifiers** +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +16, [Fly](additionalMonsters/../skills/fly#_fly) +22, [Perception](additionalMonsters/../skills/perception#_perception) +11, [Stealth](additionalMonsters/../skills/stealth#_stealth) +16; **Racial Modifiers** +4 [Stealth](additionalMonsters/../skills/stealth#_stealth)
 
 **Languages** Auran
 
@@ -46,7 +46,7 @@ Statistics
 
 Ecology
 
-**Environment** any (Plane of [Air](monsters/creatureTypes.md#_air-subtype))
+**Environment** any (Plane of [Air](monsters/creatureTypes#_air-subtype))
 
 **Organization** solitary, pair, or clutch (3–4)
 
@@ -56,7 +56,7 @@ Special Abilities
 
 **Smoke Claws (Ex)** A belker using its smoke form ability can enter a target's square as a standard action that does not provoke attacks of opportunity. The target must make a DC 17 Fortitude save or inhale part of the creature. Smoke inside the victim solidifies into a claw and attacks the target from within, dealing 3d4 points of damage per round as a swift action. If the target moves, the belker may automatically move with the target (this movement does not count toward the belker's movement and does not provoke attacks of opportunity against the belker). Each round, the target can attempt another DC 17 Fortitude to cough out the belker's smoke, which ends the smoke claws attack and forces the belker into an adjacent square. Creatures that do not need to breathe are immune to this attack. The save DC is Constitution-based.
 
-**Smoke Form (Su)** A belker can switch from its normal form to one of pure smoke or back again a swift action. It can spend up to 20 rounds per day in smoke form. In smoke form, the belker acts as if under the effects of a _ [gaseous form](additionalMonsters/../spells/gaseousForm.md#_gaseous-form)_ spell, except that it retains its natural fly speed of 50 feet (perfect).
+**Smoke Form (Su)** A belker can switch from its normal form to one of pure smoke or back again a swift action. It can spend up to 20 rounds per day in smoke form. In smoke form, the belker acts as if under the effects of a _ [gaseous form](additionalMonsters/../spells/gaseousForm#_gaseous-form)_ spell, except that it retains its natural fly speed of 50 feet (perfect).
 
 Belkers are hateful elemental air creatures resembling fiends made of smoke. Xenophobic in the extreme, they see most non-elemental creatures as threats, and stalk and kill any such intruders in their territory. Among their elemental kin, they especially hate djinn and jann. They tolerate air mephits, dust mephits, steam mephits, air elementals, and fire elementals, but given the choice, prefer the company of their own kind.
 

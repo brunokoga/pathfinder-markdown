@@ -6,9 +6,9 @@ Vodyanoi CR 5
 
 XP 1,600
 
-CN Medium monstrous humanoid ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
+CN Medium monstrous humanoid ( [aquatic](monsters/creatureTypes#_aquatic-subtype))
 
-**Init** +8; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +14
+**Init** +8; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +14
 
 Defense
 
@@ -28,9 +28,9 @@ Offense
 
 **Spell-Like Abilities** (CL 6th; concentration +7)
 
-3/day— _ [control water](spells/controlWater.md#_control-water), [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [grease](spells/grease.md#_grease) _ (DC 12), _ [hydraulic push](advanced/spells/hydraulicPush.md#_hydraulic-push-) _(DC 12),_ [water breathing](spells/waterBreathing.md#_water-breathing)_
+3/day— _ [control water](spells/controlWater#_control-water), [dancing lights](spells/dancingLights#_dancing-lights)_, _ [grease](spells/grease#_grease) _ (DC 12), _ [hydraulic push](advanced/spells/hydraulicPush#_hydraulic-push-) _(DC 12),_ [water breathing](spells/waterBreathing#_water-breathing)_
 
-1/day—_ [aqueous orb](advanced/spells/aqueousOrb.md#_aqueous-orb)_ (DC 14), _cure disease_, _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_
+1/day—_ [aqueous orb](advanced/spells/aqueousOrb#_aqueous-orb)_ (DC 14), _cure disease_, _ [neutralize poison](spells/neutralizePoison#_neutralize-poison)_
 
 Statistics
 
@@ -38,9 +38,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +9; **CMD** 24
 
-**Feats** [Dodge](feats.md#_dodge), [Improved Initiative](feats.md#_improved-initiative), [Skill Focus](feats.md#_skill-focus) ( [Heal](skills/heal.md#_heal))
+**Feats** [Dodge](feats#_dodge), [Improved Initiative](feats#_improved-initiative), [Skill Focus](feats#_skill-focus) ( [Heal](skills/heal#_heal))
 
-**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +3, [Heal](skills/heal.md#_heal) +18, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +3, [Knowledge](skills/knowledge.md#_knowledge) (nature) +5, [Perception](skills/perception.md#_perception) +14, [Sense Motive](skills/senseMotive.md#_sense-motive) +11, [Swim](skills/swim.md#_swim) +18; **Racial Modifiers** +4 [Heal](skills/heal.md#_heal)
+**Skills** [Diplomacy](skills/diplomacy#_diplomacy) +3, [Heal](skills/heal#_heal) +18, [Knowledge](skills/knowledge#_knowledge) (arcana) +3, [Knowledge](skills/knowledge#_knowledge) (nature) +5, [Perception](skills/perception#_perception) +14, [Sense Motive](skills/senseMotive#_sense-motive) +11, [Swim](skills/swim#_swim) +18; **Racial Modifiers** +4 [Heal](skills/heal#_heal)
 
 **Languages** Aquan, Common, Sylvan
 
@@ -56,7 +56,7 @@ Ecology
 
 Special Abilities
 
-**Suffocating Water (Su)** Once per day as a standard action, a vodyanoi can cause the water surrounding it up to a radius of 30 feet to grow thick and slimy, making it difficult for water-breathing creatures within the area other than vodyanois to breathe. A vodyanoi can control narrow currents of breathable water to provide oxygen to up to 3 other creatures in the area of effect—vodyanois themselves are immune to this effect. All other creatures in an area of suffocating water must hold their breath or risk suffocation. Once created, an area of suffocating water does not move—it persists for a number of minutes equal to the vodyanoi's Hit Dice. The slimy water does not impact swim speeds or visibility in any significant manner. A creature can make a DC 20 [Perception](skills/perception.md#_perception) check to notice the difference between suffocating water and any normal water that may surround it.
+**Suffocating Water (Su)** Once per day as a standard action, a vodyanoi can cause the water surrounding it up to a radius of 30 feet to grow thick and slimy, making it difficult for water-breathing creatures within the area other than vodyanois to breathe. A vodyanoi can control narrow currents of breathable water to provide oxygen to up to 3 other creatures in the area of effect—vodyanois themselves are immune to this effect. All other creatures in an area of suffocating water must hold their breath or risk suffocation. Once created, an area of suffocating water does not move—it persists for a number of minutes equal to the vodyanoi's Hit Dice. The slimy water does not impact swim speeds or visibility in any significant manner. A creature can make a DC 20 [Perception](skills/perception#_perception) check to notice the difference between suffocating water and any normal water that may surround it.
 
 Vodyanois resemble humanoid salamanders. They have short noses, bulging eyes, and broad mouths covered with thickets of fleshy tendrils. Skin color varies wildly depending on the climate and terrain, from drab greens and grays to vibrant oranges and reds. Vodyanois stand roughly 5-1/2 feet tall and weigh just over 100 pounds. They can live up to 120 years.
 

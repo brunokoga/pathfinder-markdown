@@ -2,35 +2,35 @@
 
 Archetypes are a quick and easy way to specialize characters of a given class, adding fun and flavorful new abilities to already established adventurers. The class archetypes and corresponding new abilities mentioned below are all included in this section, and characters may take more than one archetype as long as they meet the requirements.
 
-**[Alchemist](classArchetypes/alchemist.md)** : This section presents new discoveries, as well as the beastmorph and ragechemist archetypes.
+**[Alchemist](classArchetypes/alchemist)** : This section presents new discoveries, as well as the beastmorph and ragechemist archetypes.
 
-**[Barbarian](classArchetypes/barbarian.md)** : This section includes new rage powers, as well as the armored hulk, scarred rager, sea reaver, titan mauler, true primitive, urban barbarian, and wild rager.
+**[Barbarian](classArchetypes/barbarian)** : This section includes new rage powers, as well as the armored hulk, scarred rager, sea reaver, titan mauler, true primitive, urban barbarian, and wild rager.
 
-**[Bard](classArchetypes/bard.md)** : This section includes the archaeologist, daredevil, and dervish dancer.
+**[Bard](classArchetypes/bard)** : This section includes the archaeologist, daredevil, and dervish dancer.
 
-**[Cavalier](classArchetypes/cavalier.md)** : This section includes new cavalier orders, plus the beast rider, emissary, gendarme, honor guard, luring cavalier, musketeer, standard bearer, and strategist.
+**[Cavalier](classArchetypes/cavalier)** : This section includes new cavalier orders, plus the beast rider, emissary, gendarme, honor guard, luring cavalier, musketeer, standard bearer, and strategist.
 
-**[Cleric](classArchetypes/cleric.md)** : This section includes the crusader, divine strategist, evangelist, and merciful healer.
+**[Cleric](classArchetypes/cleric)** : This section includes the crusader, divine strategist, evangelist, and merciful healer.
 
-**[Druid](classArchetypes/druid.md)** : This section includes the ape shaman, bat shaman, and boar shaman, as well as the world walker.
+**[Druid](classArchetypes/druid)** : This section includes the ape shaman, bat shaman, and boar shaman, as well as the world walker.
 
-**[Fighter](classArchetypes/fighter.md)** : This section includes expanded weapon groups, plus the armor master, brawler, cad, dragoon, gladiator, tactician, thunderstriker, tower shield specialist, unarmed fighter, and unbreakable.
+**[Fighter](classArchetypes/fighter)** : This section includes expanded weapon groups, plus the armor master, brawler, cad, dragoon, gladiator, tactician, thunderstriker, tower shield specialist, unarmed fighter, and unbreakable.
 
-**[Gunslinger](classArchetypes/gunslinger.md)** : This section includes the gun tank, musket master, mysterious stranger, and pistolero.
+**[Gunslinger](classArchetypes/gunslinger)** : This section includes the gun tank, musket master, mysterious stranger, and pistolero.
 
-**[Inquisitor](classArchetypes/inquisitor.md)** : This section includes new inquisitions, plus the iconoclast, spellbreaker, and witch hunter.
+**[Inquisitor](classArchetypes/inquisitor)** : This section includes new inquisitions, plus the iconoclast, spellbreaker, and witch hunter.
 
-**[Magus](classArchetypes/magus.md)** : This section includes new magus arcana, plus the kensai, myrmidarch, skirnir, and soul forger.
+**[Magus](classArchetypes/magus)** : This section includes new magus arcana, plus the kensai, myrmidarch, skirnir, and soul forger.
 
-**[Monk](classArchetypes/monk.md)** : This section includes the flowing monk, maneuver master, martial artist, master of many styles, sensei, sohei, and tetori.
+**[Monk](classArchetypes/monk)** : This section includes the flowing monk, maneuver master, martial artist, master of many styles, sensei, sohei, and tetori.
 
-**[Paladin](classArchetypes/paladin.md)** : This section includes the divine hunter, empyreal knight, holy gun, holy tactician, knight of the sepulcher, and sacred shield.
+**[Paladin](classArchetypes/paladin)** : This section includes the divine hunter, empyreal knight, holy gun, holy tactician, knight of the sepulcher, and sacred shield.
 
-**[Ranger](classArchetypes/ranger.md)** : This section includes the battle scout, deep walker, falconer, trophy hunter, warden, and wild stalker.
+**[Ranger](classArchetypes/ranger)** : This section includes the battle scout, deep walker, falconer, trophy hunter, warden, and wild stalker.
 
-**[Rogue](classArchetypes/rogue.md)** : This section includes new rogue talents, plus the bandit, chameleon, charlatan, driver, knife master, pirate, roof runner, sanctified rogue, and survivalist.
+**[Rogue](classArchetypes/rogue)** : This section includes new rogue talents, plus the bandit, chameleon, charlatan, driver, knife master, pirate, roof runner, sanctified rogue, and survivalist.
 
-**[Wizard](classArchetypes/wizard.md)** : This section includes the arcane bomber, siege mage, and spellslinger.
+**[Wizard](classArchetypes/wizard)** : This section includes the arcane bomber, siege mage, and spellslinger.
 
 ## Using Archetypes
 
@@ -42,7 +42,7 @@ While the types of options presented for each base class differ, each subsystem 
 
 ## Alternate Class Features
 
-The primary way in which archetypes modify their corresponding base classes is via the use of alternate class features. When a character selects a class, he must normally choose to use the standard class features found in the class's original source—the exception is if he chooses to adopt an archetype. Each alternate class feature presented in an archetype replaces a specific class feature from its parent class. For example, the flowing monk archetype's redirection class feature replaces the [Stunning Fist](feats.md#_stunning-fist) feature of the standard monk class.
+The primary way in which archetypes modify their corresponding base classes is via the use of alternate class features. When a character selects a class, he must normally choose to use the standard class features found in the class's original source—the exception is if he chooses to adopt an archetype. Each alternate class feature presented in an archetype replaces a specific class feature from its parent class. For example, the flowing monk archetype's redirection class feature replaces the [Stunning Fist](feats#_stunning-fist) feature of the standard monk class.
 
 When an archetype includes multiple alternate class features, a character must take them all—often blocking the character from ever gaining certain standard class features, but replacing them with other options. All other class features of the base class that aren't mentioned among the alternate class features remain unchanged and are acquired normally when the character reaches the appropriate level, unless noted otherwise. A character who takes an alternate class feature does not count as having the class feature that was replaced for the purposes of meeting any requirements or prerequisites.
 

@@ -8,7 +8,7 @@ XP 1,600
 
 N Large magical beast
 
-**Init** +2; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +15
+**Init** +2; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +15
 
 Defense
 
@@ -18,13 +18,13 @@ Defense
 
 **Fort** +9, **Ref** +6, **Will** +2
 
-**Defensive Abilities** _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_
+**Defensive Abilities** _ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_
 
 Offense
 
 **Speed** 30 ft., fly 60 ft. (good)
 
-**Melee** bite +9 (1d8+5), 2 pincers +4 (1d6+2), sting +9 (1d6+5 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
+**Melee** bite +9 (1d8+5), 2 pincers +4 (1d6+2), sting +9 (1d6+5 plus [poison](monsters/universalMonsterRules#_poison-(ex-or-su)))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
@@ -32,7 +32,7 @@ Offense
 
 **Spell-Like Abilities** (CL 10th; concentration +10)
 
-Constant—_ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_
+Constant—_ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_
 
 Statistics
 
@@ -40,9 +40,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +11; **CMD** 24
 
-**Feats** [Dodge](feats.md#_dodge), [Hover](monsters/monsterFeats.md#_hover), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
+**Feats** [Dodge](feats#_dodge), [Hover](monsters/monsterFeats#_hover), [Skill Focus](feats#_skill-focus) ( [Perception](skills/perception#_perception))
 
-**Skills** [Fly](skills/fly.md#_fly) +8, [Perception](skills/perception.md#_perception) +15
+**Skills** [Fly](skills/fly#_fly) +8, [Perception](skills/perception#_perception) +15
 
 **Languages** Aklo (cannot speak)
 
@@ -56,7 +56,7 @@ Ecology
 
 Special Abilities
 
-**Implant (Ex)** A spider eaters grows its eggs inside of a living host. Implanting an egg in a host is a full-round action that provokes attacks of opportunity, and the target must be helpless but alive. Once an egg is implanted, it exudes paralytic enzymes that not only keep the victim in state of perpetual paralysis, but also keep it nourished and alive in its comatose but fully aware state. This condition lasts until the egg hatches in 1d6 weeks, at which point the young spider eater consumes most of its host, killing it. An egg can be surgically removed with a DC 25 [Heal](skills/heal.md#_heal) check (this check deals 2d6 points of damage to the host regardless of success), at which point the host recovers from the paralysis in 1d6 rounds. Any magical effect that removes paralysis or [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) (such as _ [remove paralysis](spells/removeParalysis.md#_remove-paralysis)_, _ [remove disease](spells/removeDisease.md#_remove-disease)_, or _ [heal](spells/heal.md#_heal)_) also destroys the egg, but mere [immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to paralysis or [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) does not offer protection.
+**Implant (Ex)** A spider eaters grows its eggs inside of a living host. Implanting an egg in a host is a full-round action that provokes attacks of opportunity, and the target must be helpless but alive. Once an egg is implanted, it exudes paralytic enzymes that not only keep the victim in state of perpetual paralysis, but also keep it nourished and alive in its comatose but fully aware state. This condition lasts until the egg hatches in 1d6 weeks, at which point the young spider eater consumes most of its host, killing it. An egg can be surgically removed with a DC 25 [Heal](skills/heal#_heal) check (this check deals 2d6 points of damage to the host regardless of success), at which point the host recovers from the paralysis in 1d6 rounds. Any magical effect that removes paralysis or [disease](monsters/universalMonsterRules#_disease-(ex-or-su)) (such as _ [remove paralysis](spells/removeParalysis#_remove-paralysis)_, _ [remove disease](spells/removeDisease#_remove-disease)_, or _ [heal](spells/heal#_heal)_) also destroys the egg, but mere [immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to paralysis or [disease](monsters/universalMonsterRules#_disease-(ex-or-su)) does not offer protection.
 
 **Poison (Ex)** Sting—injury; _save_ Fort DC 17; _frequency_ 1/minute for 6 minutes; _effect_ paralysis for 1 minute; _cure_ 1 save. The save DC is Constitution-based.
 

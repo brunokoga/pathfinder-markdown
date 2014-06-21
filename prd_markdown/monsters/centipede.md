@@ -6,9 +6,9 @@ _This lengthy, segmented horror writhes and twists, pulsing its venomous mandibl
 
 **XP 200**
 
-N Medium [vermin](creatureTypes.md#_vermin)
+N Medium [vermin](creatureTypes#_vermin)
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +4
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](../skills/perception#_perception) +4
 
 **Defense**
 
@@ -24,9 +24,9 @@ N Medium [vermin](creatureTypes.md#_vermin)
 
 **Speed** 40 ft., climb 40 ft.
 
-**Melee** bite +2 (1d6–1 plus [poison](universalMonsterRules.md#_poison))
+**Melee** bite +2 (1d6–1 plus [poison](universalMonsterRules#_poison))
 
-**Special Attacks** [poison](universalMonsterRules.md#_poison)
+**Special Attacks** [poison](universalMonsterRules#_poison)
 
 **Statistics**
 
@@ -34,9 +34,9 @@ N Medium [vermin](creatureTypes.md#_vermin)
 
 **Base**  **Atk** +0; **CMB** –1; **CMD** 11 (can't be tripped)
 
-**Feats** [Weapon Finesse](../feats.md#_weapon-finesse)B
+**Feats** [Weapon Finesse](../feats#_weapon-finesse)B
 
-**Skills** [Climb](../skills/climb.md#_climb) +10, [Perception](../skills/perception.md#_perception) +4, [Stealth](../skills/stealth.md#_stealth) +10; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception), +8 [Stealth](../skills/stealth.md#_stealth)
+**Skills** [Climb](../skills/climb#_climb) +10, [Perception](../skills/perception#_perception) +4, [Stealth](../skills/stealth#_stealth) +10; **Racial Modifiers** +4 [Perception](../skills/perception#_perception), +8 [Stealth](../skills/stealth#_stealth)
 
 **Ecology**
 
@@ -48,7 +48,7 @@ N Medium [vermin](creatureTypes.md#_vermin)
 
 **Special Abilities**
 
-**Poison (EX)** Bite—injury; _save_ Fort DC 13; _frequency_ 1/round for 6 rounds; _effect_ 1d3 Dex [damage](universalMonsterRules.md#_ability-damage-and-drain); _cure_ 1 save. The save DC is Constitution-based and includes a +2 racial bonus.
+**Poison (EX)** Bite—injury; _save_ Fort DC 13; _frequency_ 1/round for 6 rounds; _effect_ 1d3 Dex [damage](universalMonsterRules#_ability-damage-and-drain); _cure_ 1 save. The save DC is Constitution-based and includes a +2 racial bonus.
 
 Giant centipedes attack nearly any living creatures with their poisonous jaws. These creatures adapt to many environments and feed voraciously on the local fauna, including humanoids. The coloration of giant centipedes mirrors that of normal centipedes and spans the spectrum, ranging from dull hues to bright reds and fiery oranges.
 
@@ -71,9 +71,9 @@ _A writhing mass of legs and poisonous pincers swarms across the ground in a dea
 
 **XP 1,200**
 
-N Diminutive [vermin](creatureTypes.md#_vermin) (swarm)
+N Diminutive [vermin](creatureTypes#_vermin) (swarm)
 
-**Init** +4; **Senses** darkvision 60 ft., [tremorsense](universalMonsterRules.md#_tremorsense) 30 ft.; [Perception](../skills/perception.md#_perception) +4
+**Init** +4; **Senses** darkvision 60 ft., [tremorsense](universalMonsterRules#_tremorsense) 30 ft.; [Perception](../skills/perception#_perception) +4
 
 **Defense**
 
@@ -89,11 +89,11 @@ N Diminutive [vermin](creatureTypes.md#_vermin) (swarm)
 
 **Speed** 30 ft., climb 30 ft.
 
-**Melee** swarm (2d6 plus [poison](universalMonsterRules.md#_poison))
+**Melee** swarm (2d6 plus [poison](universalMonsterRules#_poison))
 
 **Space** 10 ft.; **Reach** 0 ft.
 
-**Special Attacks** distraction (DC 13), [poison](universalMonsterRules.md#_poison)
+**Special Attacks** distraction (DC 13), [poison](universalMonsterRules#_poison)
 
 **Statistics**
 
@@ -101,9 +101,9 @@ N Diminutive [vermin](creatureTypes.md#_vermin) (swarm)
 
 **Base**  **Atk** +6; **CMB** —; **CMD** —
 
-**Feats** [Weapon Finesse](../feats.md#_weapon-finesse)B
+**Feats** [Weapon Finesse](../feats#_weapon-finesse)B
 
-**Skills** [Climb](../skills/climb.md#_climb) +12, [Perception](../skills/perception.md#_perception) +4; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception)
+**Skills** [Climb](../skills/climb#_climb) +12, [Perception](../skills/perception#_perception) +4; **Racial Modifiers** +4 [Perception](../skills/perception#_perception)
 
 **Ecology**
 
@@ -115,5 +115,5 @@ N Diminutive [vermin](creatureTypes.md#_vermin) (swarm)
 
 **Special Abilities**
 
-**Poison (Ex)** Bite—injury; _save_ Fort DC 13; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Dex [damage](universalMonsterRules.md#_ability-damage-and-drain); _cure_ 1 save. The save DC is Constitution-based and includes a +2 racial bonus.
+**Poison (Ex)** Bite—injury; _save_ Fort DC 13; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Dex [damage](universalMonsterRules#_ability-damage-and-drain); _cure_ 1 save. The save DC is Constitution-based and includes a +2 racial bonus.
 

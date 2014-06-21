@@ -12,9 +12,9 @@
 
 **Duration** 10 min./level (D)
 
-**Saving Throw** none or [Will](../combat.md#_will) negates; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** none or [Will](../combat#_will) negates; see text; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
 An invisible barrier holds back vermin. A vermin with HD of less than one-third your level cannot penetrate the barrier.
 
-A vermin with HD of one-third your level or more can penetrate the barrier if it succeeds on a [Will](../combat.md#_will) save. Even so, crossing the barrier deals the vermin 2d6 points of damage, and pressing against the barrier causes pain, which deters most vermin.
+A vermin with HD of one-third your level or more can penetrate the barrier if it succeeds on a [Will](../combat#_will) save. Even so, crossing the barrier deals the vermin 2d6 points of damage, and pressing against the barrier causes pain, which deters most vermin.
 

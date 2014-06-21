@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Will](../combat.md#_will) half; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) half; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
 When laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage + 1 point per caster level (maximum +5).
 
@@ -32,7 +32,7 @@ Since undead are powered by negative energy, this spell cures such a creature of
 
 **Duration** instantaneous
 
-**Saving Throw** [Will](../combat.md#_will) half; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) half; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
 Negative energy spreads out in all directions from the point of origin, dealing 1d8 points of damage + 1 point per caster level (maximum +25) to nearby living enemies.
 

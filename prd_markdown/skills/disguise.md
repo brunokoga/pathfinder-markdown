@@ -1,6 +1,6 @@
 # Disguise
 
-## ( [Cha](../gettingStarted.md#_charisma-new))
+## ( [Cha](../gettingStarted#_charisma-new))
 
 You are skilled at changing your appearance.
 
@@ -40,5 +40,5 @@ An individual makes a Perception check to see through your disguise immediately 
 
 You must make a Disguise check when you cast a _simulacrum _spell to determine how good the likeness is.
 
-If you have the [Deceitful](../feats.md#_deceitful) feat, you gain a bonus on Disguise checks (see [Feats](../feats.md)).
+If you have the [Deceitful](../feats#_deceitful) feat, you gain a bonus on Disguise checks (see [Feats](../feats)).
 

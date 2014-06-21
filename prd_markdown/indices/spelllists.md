@@ -18,3902 +18,3902 @@ An M or F appearing at the end of a spell's name in the spell lists denotes a sp
 
  Alchemist   Antipaladin   Bard   Cleric/Oracle   Druid   Elementalist Wizard   Inquisitor   Magus   Paladin   Ranger   Sorcerer/Wizard   Summoner   Witch  
 
-- [**Adjuring Step**](ultimateCombat/spells/adjuringStep.md#_adjuring-step-): You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell. 
-- [**Ant Haul**](advanced/spells/antHaul.md#_ant-haul-): Triples carrying capacity of a creature.
-- [**Anticipate Peril**](ultimateMagic/spells/anticipatePeril.md#_anticipate-peril): Target gains a bonus on one initiative check.
-- [**Blend**](advancedRaceGuide/coreRaces/elves.md#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
-- [**Bomber's Eye**](advanced/spells/bomberSEye.md#_bomber's-eye): Increases thrown weapon range; +1 attack.
-- [**Comprehend Languages**](spells/comprehendLanguages.md#_comprehend-languages): You understand all spoken and written languages.
-- [**Crafter's Fortune**](advanced/spells/crafterSFortune.md#_crafter's-fortune): Subject gains +5 on next [Craft](skills/craft.md#_craft) check.
-- [**Cure Light Wounds**](spells/cureLightWounds.md#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
-- [**Detect Secret Doors**](spells/detectSecretDoors.md#_detect-secret-doors): Reveals hidden doors within 60 ft.
-- [**Detect Undead**](spells/detectUndead.md#_detect-undead): Reveals undead within 60 ft.
-- [**Disguise Self**](spells/disguiseSelf.md#_disguise-self): Changes your appearance.
-- [**Endure Elements**](spells/endureElements.md#_endure-elements): Exist comfortably in hot or cold regions.
-- [**Enlarge Person**](spells/enlargePerson.md#_enlarge-person): Humanoid creature doubles in size.
-- [**Expeditious Retreat**](spells/expeditiousRetreat.md#_expeditious-retreat): Your base speed increases by 30 ft.
-- [**Identify**](spells/identify.md#_identify): Gives +10 bonus to identify magic items.
-- [**Illusion of Calm**](ultimateCombat/spells/illusionOfCalm.md#_illusion-of-calm): You appear to be standing still, even when you take some actions. 
-- [**Jump**](spells/jump.md#_jump): Subject gets bonus on Acrobatics checks.
-- [**Keen Senses**](advanced/spells/keenSenses.md#_keen-senses): Gain +2 [Perception](skills/perception.md#_perception) and low-light vision.
-- [**Linebreaker**](advancedRaceGuide/coreRaces/halfOrcs.md#_linebreaker): You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun.
-- [**Longshot**](ultimateCombat/spells/longshot.md#_longshot): Grants a +10-foot bonus to the range increment for any ranged weapon fired.
-- [**Negate Aroma**](advanced/spells/negateAroma.md#_negate-aroma): Subject cannot be tracked by scent.
-- [**Polypurpose Panacea**](ultimateMagic/spells/polypurposePanacea.md#_polypurpose-panacea): Gain a relaxing or entertaining effect.
-- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes.md#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
-- [**Reduce Person**](spells/reducePerson.md#_reduce-person): Humanoid creature halves in size.
-- [**See Alignment**](ultimateCombat/spells/seeAlignment.md#_see-alignment): Pick an alignment; in your sight, creatures and items with that alignment emit a ghostly radiance.
-- [**Shield**](spells/shield.md#_shield): Invisible disc gives +4 to [AC](combat.md#_armor-class), blocks _ [magic missile](spells/magicMissile.md#_magic-missile)s._
-- [**Shock Shield**](ultimateCombat/spells/shockShield.md#_shock-shield): A shield of force protects you until you dismiss it in an explosion of electricity. 
-- [**Stone Fist**](advanced/spells/stoneFist.md#_stone-fist): Your unarmed strikes are lethal.
-- [**Targeted Bomb Admixture**](ultimateCombat/spells/targetedBombAdmixture.md#_targeted-bomb-admixture): Empowers bombs you throw to deal more damage to a single creature.
-- [**Touch of the Sea**](advanced/spells/touchOfTheSea.md#_touch-of-the-sea): [Swim](skills/swim.md#_swim) speed becomes 30 ft.
-- [**True Strike**](spells/trueStrike.md#_true-strike): +20 on your next attack roll.
-- [**Urban Grace**](advancedRaceGuide/coreRaces/halfElves.md#_urban-grace): You become one with the city around you, allowing you to move more easily through its crowds and buildings.
-- [**Vocal Alteration**](ultimateMagic/spells/vocalAlteration.md#_vocal-alteration): [Disguise](/skills/disguise.md#_disguise) target's voice.
-- [**Youthful Appearance**](ultimateMagic/spells/youthfulAppearance.md#_youthful-appearance): Target appears younger.
-
-- [**Ablative Barrier**](ultimateCombat/spells/ablativeBarrier.md#_ablative-barrier): Surrounds the target with layers of force.
-- [**Acute Senses**](ultimateMagic/spells/acuteSenses.md#_acute-senses): Subject gains a bonus on [Perception](/skills/perception.md#_perception) checks.
-- [**Aid**](spells/aid.md#_aid): +1 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).
-- [**Alchemical Allocation**](advanced/spells/alchemicalAllocation.md#_alchemical-allocation): Gain potion's benefits without consuming it.
-- [**Alter Self**](spells/alterSelf.md#_alter-self): Assume form of a Small or Medium humanoid.
-- [**Ancestral Regression**](advancedRaceGuide/featuredRaces/drow.md#_ancestral-regression): The target drow transforms into a surface elf.
-- [**Animal Aspect**](ultimateCombat/spells/animalAspect.md#_animal-aspect): You gain some of the beneficial qualities of an animal.
-- [**Ant Haul, Communal**](ultimateCombat/spells/antHaul.md#_ant-haul,-communal): As _ [ant haul](advanced/spells/antHaul.md#_ant-haul-)_, but you may divide the duration among creatures touched.
-- [**Barkskin**](spells/barkskin.md#_barkskin): Grants +2 (or higher) enhancement to natural armor.
-- [**Bear's Endurance**](spells/bearSEndurance.md#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted.md#_constitution) for 1 min./level.
-- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency.md#_bestow-weapon-proficiency): Grants a creature proficiency in a single weapon for short period of time.
-- [**Blistering Invective**](ultimateCombat/spells/blisteringInvective.md#_blistering-invective): Make an [Intimidate](skills/intimidate.md#_intimidate) check against all foes within 30 feet; those demoralized also take fire damage.
-- [**Blood Blaze**](advancedRaceGuide/featuredRaces/orcs.md#_blood-blaze): 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air.
-- [**Blood Transcription**](ultimateMagic/spells/bloodTranscription.md#_blood-transcription): Learn a spell from the target's blood.
-- [**Blur**](spells/blur.md#_blur): Attacks miss subject 20% of the time.
-- [**Bull's Strength**](spells/bullSStrength.md#_bull-s-strength): Subject gains +4 to Str for 1 min./level.
-- [**Bullet Shield**](ultimateCombat/spells/bulletShield.md#_bullet-shield): You gain a +4 deflection bonus to AC against firearm attacks.
-- [**Cat's Grace**](spells/catSGrace.md#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted.md#_dexterity) for 1 min./level.
-- [**Certain Grip**](ultimateCombat/spells/certainGrip.md#_certain-grip-): You gain a +4 competence bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) and [Climb](skills/climb.md#_climb) checks and to CMD.
-- [**Cure Moderate Wounds**](spells/cureModerateWounds.md#_cure-moderate-wounds): Cures 2d8 damage +1/level (max. +10).
-- [**Darkvision**](spells/darkvision.md#_darkvision): See 60 ft. in total darkness.
-- [**Defensive Shock**](ultimateMagic/spells/defensiveShock.md#_defensive-shock): Electricity damages your attackers.
-- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk.md#_delay-disease): The target becomes temporarily immune to disease.
-- [**Delay Poison**](spells/delayPoison.md#_delay-poison): Stops poison from harming subject for 1 hour/level.
-- [**Detect Thoughts**](spells/detectThoughts.md#_detect-thoughts): Allows “listening” to surface thoughts.
-- [**Eagle's Splendor**](spells/eagleSSplendor.md#_eagle-s-splendor): Subject gains +4 to Cha for 1 min./level.
-- [**Elemental Touch**](advanced/spells/elementalTouch.md#_elemental-touch): Gain energy damage touch attack.
-- [**False Life**](spells/falseLife.md#_false-life): Gain 1d10 temporary hp + 1/level (max +10).
-- [**Fire Breath**](advanced/spells/fireBreath.md#_fire-breath): Exhale a cone of flame at will.
-- [**Fox's Cunning**](spells/foxSCunning.md#_fox-s-cunning): Subject gains +4 to [Int](gettingStarted.md#_intelligence) for 1 min./level.
-- [**Ghostly Disguise**](ultimateMagic/spells/ghostlyDisguise.md#_ghostly-disguise): You look like a ghost of yourself.
-- [**Invisibility**](spells/invisibility.md#_invisibility): Subject is invisible for 1 min./level or until it attacks.
-- [**Kinetic Reverberation**](ultimateCombat/spells/kineticReverberation.md#_kinetic-reverberation-): Channels the force of an enemy's attack back into its weapon.
-- [**Levitate**](spells/levitate.md#_levitate): Subject moves up and down at your direction.
-- [**Minor Dream**](advancedRaceGuide/coreRaces/gnomes.md#_minor-dream): This spell functions as the _dream spell_, except the messenger must be yourself or a gnome touched.
-- [**Owl's Wisdom**](spells/owlSWisdom.md#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted.md#_wisdom) for 1 min./level.
-- [**Perceive Cues**](advanced/spells/perceiveCues.md#_perceive-cues): +5 [Perception](skills/perception.md#_perception) and [Sense Motive](../skills/senseMotive.md#_sense-motive) 10 min./level.
-- [**Poison**](spells/poison.md#_poison): Touch deals 1d3 Con damage 1/round for 6 rounds.
-- [**Protection from Arrows**](spells/protectionFromArrows.md#_protection-from-arrows): Subject gains [DR](glossary.md#_damage-reduction) 10/magic against ranged attacks.
-- [**Resist Energy**](spells/resistEnergy.md#_resist-energy): Ignores first 10 (or more) points of damage per attack from specified energy type.
-- [**Restoration, Lesser**](spells/restoration.md#_restoration-lesser): Dispels magical ability penalty or repairs 1d4 ability damage.
-- [**See Invisibility**](spells/seeInvisibility.md#_see-invisibility): Reveals [invisible](glossary.md#_invisible) creatures or objects.
-- [**Shadow Bomb Admixture**](ultimateCombat/spells/shadowBombAdmixture.md#_shadow-bomb-admixture): Empowers bombs you throw to cover the target with a shadowy substance that grants it concealment and limits its vision.
-- [**Sickening Strikes**](advancedRaceGuide/featuredRaces/ratfolk.md#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
-- [**Skinsend**](ultimateMagic/spells/skinsend.md#_skinsend): Animate and possess your own skin as if it were a separate creature.
-- [**Spider Climb**](spells/spiderClimb.md#_spider-climb): Grants ability to walk on walls and ceilings.
-- [**Squeeze**](advancedRaceGuide/uncommonRaces/vishkanyas.md#_squeeze): The target becomes flexible regardless of its actual size and mass.
-- [**Touch Injection**](ultimateCombat/spells/touchInjection.md#_touch-injection): You can deliver an infusion, elixir, poison, or potion as a touch attack.
-- [**Transmute Potion to Poison**](advanced/spells/transmutePotionToPoison.md#_transmute-potion-to-poison): Spit poison onto weapon after drinking potion.
-- [**Undetectable Alignment**](spells/undetectableAlignment.md#_undetectable-alignment): Conceals alignment for 24 hours.
-- [**Vomit Swarm**](advanced/spells/vomitSwarm.md#_vomit-swarm): Produces a spider swarm that fights for you.
-
-- [**Absorb Toxicity**](ultimateCombat/spells/absorbToxicity.md#_absorb-toxicity): You become immune to diseases and toxins, absorb one, and then spread it to others.
-- [**Absorbing Touch**](advanced/spells/absorbingTouch.md#_absorbing-touch): Caster absorbs an item for 1 day/level.
-- [**Age Resistance, Lesser**](ultimateMagic/spells/ageResistance.md#_age-resistance,-lesser): Ignore penalties from middle age.
-- [**Amplify Elixir**](advanced/spells/amplifyElixir.md#_amplify-elixir): Empowers or extends the effects of any potion or elixir.
-- [**Animal Aspect, Greater**](ultimateCombat/spells/animalAspect.md#_animal-aspect,-greater): As _ [animal aspect](ultimateCombat/spells/animalAspect.md#_animal-aspect)_, but you gain two animal qualities.
-- [**Arcane Sight**](spells/arcaneSight.md#_arcane-sight): Magical auras become visible to you.
-- [**Battle Trance**](advancedRaceGuide/coreRaces/halfOrcs.md#_battle-trance): You are transformed into a single-minded force of destruction.
-- [**Beast Shape I**](spells/beastShape.md#_beast-shape-i): You take the form and some of the powers of a Small or Medium animal.
-- [**Bloodhound**](advanced/spells/bloodhound.md#_bloodhound): Enhances sense of smell and grants the caster the scent special ability.
-- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs.md#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
-- [**Burrow**](ultimateMagic/spells/burrow.md#_burrow): Target gains a burrow speed of 15.
-- [**Burst of Speed**](ultimateCombat/spells/burstOfSpeed.md#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
-- [**Countless Eyes**](ultimateMagic/spells/countlessEyes.md#_countless-eyes): Extra eyes give all-around vision.
-- [**Cure Serious Wounds**](spells/cureSeriousWounds.md#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
-- [**Darkvision, Communal**](ultimateCombat/spells/darkvision.md#_darkvision,-communal): As _ [darkvision](spells/darkvision.md#_darkvision)_, but you may divide the duration among creatures touched.
-- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison.md#_delay-poison,-communal): As _ [delay poison](spells/delayPoison.md#_delay-poison)_, but you may divide the duration among creatures touched.
-- [**Displacement**](spells/displacement.md#_displacement): Attacks miss subject 50% of the time.
-- [**Draconic Reservoir**](advanced/spells/draconicReservoir.md#_draconic-reservoir-): Subject can absorb energy damage and enhance melee attacks with it.
-- [**Elemental Aura**](advanced/spells/elementalAura.md#_elemental-aura): Creates an aura of energy around you.
-- [**Endure Elements, Communal**](ultimateCombat/spells/endureElements.md#_endure-elements,-communal): As _ [endure elements](spells/endureElements.md#_endure-elements)_, but you may divide the duration among creatures touched.
-- [**Eruptive Pustules**](ultimateMagic/spells/eruptivePustules.md#_eruptive-pustules): Acid boils burst when you are attacked.
-- [**Fire Trail**](advancedRaceGuide/featuredRaces/goblins.md#_fire-trail): Flammable liquid oozes from your pores, dripping onto the ground and spontaneously combusting.
-- [**Fly**](spells/fly.md): Subject flies at a speed of 60 ft.
-- [**Gaseous Form**](spells/gaseousForm.md#_gaseous-form): Become insubstantial and fly slowly.
-- [**Haste**](spells/haste.md#_haste): One creature/level moves faster, +1 on attack rolls, [AC](combat.md#_armor-class), and [Reflex](combat.md#_reflex) saves.
-- [**Heroism**](spells/heroism.md#_heroism): Gives +2 bonus on attack rolls, saves, skill checks.
-- [**Lightning Lash Bomb Admixture**](ultimateCombat/spells/lightningLashBombAdmixture.md#_lightning-lash-bomb-admixture): Empowers bombs you throw with a ward that deals lightning damage each time those damaged by the bomb move more than 5 feet. 
-- [**Marionette Possession**](ultimateMagic/spells/marionettePossession.md#_marionette-possession): As _ [magic jar](/spells/magicJar.md#_magic-jar)_, but limited to line of sight.
-- [**Monstrous Physique I**](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-i): Take the form and some of the powers of a Small or Medium monstrous humanoid.
-- [**Nondetection**](spells/nondetection.md#_nondetection)M: Hides subject from divination, [scrying](spells/scrying.md#_scrying).
-- [**Paragon Surge**](advancedRaceGuide/coreRaces/halfElves.md#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
-- [**Prehensile Pilfer**](advancedRaceGuide/uncommonRaces/vanaras.md#_prehensile-pilfer): The target's tail moves and acts more quickly, almost with a mind of its own.
-- [**Protection From Energy**](spells/protectionFromEnergy.md#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
-- [**Protection from Arrows, Communal**](ultimateCombat/spells/protectionFromArrows.md#_protection-from-arrows,-communal): As _ [protection from arrows](spells/protectionFromArrows.md#_protection-from-arrows)_, but you may divide the duration among creatures touched.
-- [**Rage**](spells/rage.md#_rage): Gives +2 to [Str](gettingStarted.md#_strength) and [Con](gettingStarted.md#_constitution), +1 on [Will](combat.md#_will) saves, –2 to [AC](combat.md#_armor-class).
-- [**Remove Blindness/Deafness**](spells/removeBlindnessDeafness.md#_remove-blindness-deafness): Cures normal or magical blindness or deafness.
-- [**Remove Curse**](spells/removeCurse.md#_remove-curse): Frees object or person from curse.
-- [**Remove Disease**](spells/removeDisease.md#_remove-disease): Cures all diseases affecting subject.
-- [**Resinous Skin**](ultimateCombat/spells/resinousSkin.md#_resinous-skin): You gain DR 5/piercing and +4 to CMD against disarm attempts.
-- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy.md#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy.md#_resist-energy)_, but you may divide the duration among creatures touched.
-- [**Seek Thoughts**](advanced/spells/seekThoughts.md#_seek-thoughts): Detects thinking creatures' thoughts.
-- [**Spider Climb, Communal**](ultimateCombat/spells/spiderClimb.md#_spider-climb,-communal): As _ [spider climb](spells/spiderClimb.md#_spider-climb)_, but you may divide the duration among creatures touched.
-- [**Thorn Body**](advanced/spells/thornBody.md#_thorn-body): Those attacking you take 1d6 +1 damage/level.
-- [**Tongues**](spells/tongues.md#_tongues): Speak and understand any language.
-- [**Undead Anatomy I**](ultimateMagic/spells/undeadAnatomy.md#_undead-anatomy-i): Take the form and some of the powers of a Small or Medium undead.
-- [**Vomit Twin**](advancedRaceGuide/featuredRaces/goblins.md#_vomit-twin): You vomit forth a disgusting ooze copy of yourself into a single adjacent square.
-- [**Water Breathing**](spells/waterBreathing.md#_water-breathing): Subjects can breathe underwater.
-
-- [**Absorbing Inhalation**](advancedRaceGuide/featuredRaces/sylphs.md#_absorbing-inhalation): Harmlessly and completely inhale one gas, fog, smoke, mist, or similar cloud-like effect.
-- [**Age Resistance**](ultimateMagic/spells/ageResistance.md#_age-resistance): Ignore penalties from old age.
-- [**Air Walk**](spells/airWalk.md#_air-walk): Subject treads on air as if solid (climb or descend at 45-degree angle).
-- [**Arcane Eye**](spells/arcaneEye.md#_arcane-eye): Invisible floating eye moves 30 ft./round.
-- [**Beast Shape II**](spells/beastShape.md#_beast-shape-ii): You take the form and some of the powers of a Tiny or Large animal.
-- [**Cure Critical Wounds**](spells/cureCriticalWounds.md#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
-- [**Darkvision, Greater**](ultimateMagic/spells/darkvision.md#_darkvision,-greater): See 120 ft. in total darkness.
-- [**Death Ward**](spells/deathWard.md#_death-ward): Grants bonuses against death spells and negative energy.
-- [**Detonate**](advanced/spells/detonate.md#_detonate)M: Inflicts 1d8/level energy damage to all creatures within 15 ft.
-- [**Discern Lies**](spells/discernLies.md#_discern-lies): Reveals deliberate falsehoods.
-- [**Dragon's Breath**](advanced/spells/dragonSBreath.md#_dragon's-breath): Gives you a dragon's breath weapon.
-- [**Earth Glide**](advancedRaceGuide/uncommonRaces/svirfneblins.md#_earth-glide): The target can pass through stone, dirt, or almost any other sort of earth except metal.
-- [**Echolocation**](ultimateMagic/spells/echolocation.md#_echolocation): Sonic sense gives you blindsight 40 ft.
-- [**Elemental Body I**](spells/elementalBody.md#_elemental-body-i): Turns you into a Small elemental.
-- [**False Life, Greater**](ultimateMagic/spells/falseLife.md#_false-life,-greater): Gain 2d10 temporary hp + 1/level.
-- [**Fire Shield**](spells/fireShield.md#_fire-shield): Creatures attacking you take fire damage; you're protected from heat or cold.
-- [**Fluid Form**](advanced/spells/fluidForm.md#_fluid-form): Gain DR 10/slashing, increases reach 10 ft., and breathe water.
-- [**Freedom of Movement**](spells/freedomOfMovement.md#_freedom-of-movement): Subject moves normally despite impediments to movement.
-- [**Healing Warmth**](advancedRaceGuide/featuredRaces/ifrits.md#_healing-warmth): Temporary immunity to fire damage as _protection from energy_.
-- [**Invisibility, Greater**](spells/invisibility.md#_invisibility-greater): As _ [invisibility](../spells/invisibility.md#_invisibility)_, but subject can attack and stay invisible.
-- [**Miasmatic Form**](advancedRaceGuide/featuredRaces/sylphs.md#_miasmatic-form): Functions like _gaseous form_, except target's vaporous body is dangerous to creatures that touch it.
-- [**Monstrous Physique II**](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-ii): Take the form and some of the powers of a Tiny or Large monstrous humanoid.
-- [**Mutagenic Touch**](ultimateCombat/spells/mutagenicTouch.md#_mutagenic-touch): You can pass a weaker version of your mutagen to another creature.
-- [**Neutralize Poison**](spells/neutralizePoison.md#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
-- [**Restoration**](spells/restoration.md#_restoration)M: Restores level and ability score drains.
-- [**Scorching Ash Form**](advancedRaceGuide/featuredRaces/ifrits.md#_scorching-ash-form): Functions like _gaseous form_, except the target becomes a visible swirl of hot ash and smoke.
-- [**Spell Immunity**](spells/spellImmunity.md#_spell-immunity): Subject is immune to one spell per 4 levels.
-- [**Stoneskin**](spells/stoneskin.md#_stoneskin)M: Grants DR 10/adamantine.
-- [**Tongues, Communal**](ultimateCombat/spells/tongues.md#_tongues,-communal): As _ [tongues](spells/tongues.md#_tongues)_, but you may divide the duration among creatures touched.
-- [**Touch of Slime**](ultimateMagic/spells/touchOfSlime.md#_touch-of-slime): Touch infests a target with green slime.
-- [**Universal Formula**](advanced/spells/universalFormula.md#_universal-formula)M: Acts as any extract 3rd level or lower.
-- [**Vermin Shape I**](ultimateMagic/spells/verminShape.md#_vermin-shape-i-): Take the form and some of the powers of a Small or Medium vermin.
-- [**Viper Bomb Admixture**](ultimateCombat/spells/viperBombAdmixture.md#_viper-bomb-admixture): Empowers bombs you throw to summon poisonous biting vipers that bite those hit or splashed by the bomb.
-- [**Vitriolic Mist**](ultimateMagic/spells/vitriolicMist.md#_vitriolic-mist): As _ [fire shield](/spells/fireShield.md#_fire-shield)_, except acid damage.
-
-- [**Air Walk, Communal**](ultimateCombat/spells/airWalk.md#_air-walk,-communal): As _ [air walk](spells/airWalk.md#_air-walk)_, but you may divide the duration among creatures touched.
-- [**Age Resistance, Greater**](ultimateMagic/spells/ageResistance.md#_age-resistance,-greater): Ignore any penalties from venerable age.
-- [**Beast Shape III**](spells/beastShape.md#_beast-shape-iii): You take the form of a Diminutive or Huge animal, or Small or Medium magical beast.
-- [**Contact Other Plane**](spells/contactOtherPlane.md#_contact-other-plane): Lets you ask question of extraplanar entity.
-- [**Delayed Consumption**](advanced/spells/delayedConsumption.md#_delayed-consumption): Extract doesn't come into effect until you want it to.
-- [**Dream**](spells/dream.md#_dream): Sends message to anyone sleeping.
-- [**Dust Form**](ultimateCombat/spells/dustForm.md#_dust-form): You become an incorporeal creature of dust for a short period of time.
-- [**Elemental Body II**](spells/elementalBody.md#_elemental-body-ii): You become a Medium elemental.
-- [**Elude Time**](advanced/spells/eludeTime.md#_elude-time)M: Puts you in temporary suspended animation.
-- [**Half-blood Extraction**](advancedRaceGuide/coreRaces/halfOrcs.md#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
-- [**Languid Bomb Admixture**](ultimateCombat/spells/languidBombAdmixture.md#_languid-bomb-admixture): Empowers bombs you throw to cause fatigue in those directly hit or splashed by the bomb.
-- [**Magic Jar**](spells/magicJar.md#_magic-jar)F: Enables possession of another creature.
-- [**Monstrous Physique III**](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-iii): Take the form and some of the powers of a Diminutive or Huge monstrous humanoid.
-- [**Nightmare**](spells/nightmare.md#_nightmare): Sends vision dealing 1d10 damage, fatigue.
-- [**Overland Flight**](spells/overlandFlight.md#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
-- [**Planar Adaptation**](advanced/spells/planarAdaptation.md#_planar-adaptation): Resist harmful effects of one plane.
-- [**Plant Shape I**](spells/plantShape.md#_plant-shape-i): Turns you into a Small or Medium plant.
-- [**Polymorph**](spells/polymorph.md#_polymorph): Gives one willing subject a new form.
-- [**Resurgent Transformation**](advanced/spells/resurgentTransformation.md#_resurgent-transformation)M: Gain second wind when close to death.
-- [**Sending**](spells/sending.md#_sending): Delivers short message anywhere, instantly.
-- [**Spell Resistance**](spells/spellResistance.md#_spell-resistance): Subject gains SR 12 + level.
-- [**Stoneskin, Communal**](ultimateCombat/spells/stoneskin.md#_stoneskin,-communal)M: As _ [stoneskin](spells/stoneskin.md#_stoneskin)_, but you may divide the duration among creatures touched.
-- [**Undead Anatomy II**](ultimateMagic/spells/undeadAnatomy.md#_undead-anatomy-ii): Take the form and some of the powers of a Tiny or Large undead.
-- [**Vermin Shape II**](ultimateMagic/spells/verminShape.md#_vermin-shape-ii): As _vermin shape_, but Tiny or Large.
-
-- [**Analyze Dweomer**](spells/analyzeDweomer.md#_analyze-dweomer)F: Reveals magical aspects of subject.
-- [**Beast Shape IV**](spells/beastShape.md#_beast-shape-iv): You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast.
-- [**Caging Bomb Admixture**](ultimateCombat/spells/cagingBombAdmixture.md#_caging-bomb-admixture): Your bombs create a cage of force that traps creatures inside the bomb's splash radius. 
-- [**Elemental Body III**](spells/elementalBody.md#_elemental-body-iii): Turns you into a Large elemental.
-- [**Eyebite**](spells/eyebite.md#_eyebite): Target becomes [panicked](glossary.md#_panicked), [sickened](glossary.md#_sickened), and comatose.
-- [**Form of the Dragon I**](spells/formOfTheDragon.md#_form-of-the-dragon-i): Turns you into a Medium dragon.
-- [**Giant Form I**](spells/giantForm.md#_giant-form-i): Turns you into a Large giant.
-- [**Heal**](spells/heal.md#_heal): Cures 10 points/level damage, all diseases and mental conditions.
-- [**Mislead**](spells/mislead.md#_mislead): Turns you [invisible](glossary.md#_invisible) and creates illusory double.
-- [**Monstrous Physique IV**](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-iv): As _ [monstrous physique III](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-iii)_, with more abilities.
-- [**Plant Shape II**](spells/plantShape.md#_plant-shape-ii): Turns you into a Large plant creature.
-- [**Shadow Walk**](spells/shadowWalk.md#_shadow-walk): Step into shadow to travel rapidly.
-- [**Statue**](spells/statue.md#_statue): Subject can become a statue at will.
-- [**Transformation**](spells/transformation.md#_transformation)M: You gain combat bonuses.
-- [**True Seeing**](spells/trueSeeing.md#_true-seeing)M: Lets you see all things as they really are.
-- [**Twin Form**](advanced/spells/twinForm.md#_twin-form): Creates controllable duplicate of you.
-- [**Undead Anatomy III**](ultimateMagic/spells/undeadAnatomy.md#_undead-anatomy-iii): Take the form and some of the powers of a Diminutive or Huge undead.
-- [**Walk through Space**](ultimateCombat/spells/walkThroughSpace.md#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
-- [**Wind Walk**](spells/windWalk.md#_wind-walk): You and your allies turn vaporous and travel fast.
-
-- [**Bane**](spells/bane.md): Enemies take –1 on attack rolls and saves vs. fear.
-- [**Blood Blaze**](advancedRaceGuide/featuredRaces/orcs.md#_blood-blaze): 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air.
-- [**Cause Fear**](spells/causeFear.md#_cause-fear): A creature of 5 HD or less flees for 1d4 rounds.
-- [**Command**](spells/command.md#_command): One subject obeys a command for 1 round.
-- [**Death Candle**](advancedRaceGuide/featuredRaces/ifrits.md#_death-candle): Functions like _death knell_, except you summon a Small fire elemental resembling the slain creature.
-- [**Death Knell**](spells/deathKnell.md#_death-knell): Kills dying creature; you gain 1d8 temporary hp, +2 to Str, and +1 caster level.
-- [**Detect Poison**](spells/detectPoison.md#_detect-poison): Detects poison in a creature or object.
-- [**Disguise Self**](spells/disguiseSelf.md#_disguise-self): Changes your appearance.
-- [**Doom**](spells/doom.md#_doom): One subject takes –2 on attack rolls, damage rolls, saves, and checks.
-- [**Inflict Light Wounds**](spells/inflictLightWounds.md#_inflict-light-wounds): Touch deals 1d8 damage +1/level (max +5).
-- [**Ironbeard**](advancedRaceGuide/coreRaces/dwarves.md#_ironbeard): Causes a brushy beard of stiff iron to erupt from the face of a willing target.
-- [**Linebreaker**](advancedRaceGuide/coreRaces/halfOrcs.md#_linebreaker): You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun.
-- [**Litany of Sloth**](ultimateCombat/spells/litanyOfSloth.md#_litany-of-sloth): Single target cannot make attacks of opportunity for 1 round.
-- [**Litany of Weakness**](ultimateCombat/spells/litanyOfWeakness.md#_litany-of-weakness): Single target is fatigued for 1 round.
-- [**Longshot**](ultimateCombat/spells/longshot.md#_longshot): Grants a +10 foot bonus to the range increment for any ranged weapon fired.
-- [**Magic Weapon**](spells/magicWeapon.md#_magic-weapon): Weapon gains +1 bonus.
-- [**Murderous Command**](ultimateMagic/spells/murderousCommand.md#_murderous-command): Target is compelled to kill its ally.
-- [**Read Magic**](spells/readMagic.md#_read-magic): Read scrolls and spellbooks.
-- [**Savage Maw**](advancedRaceGuide/coreRaces/halfOrcs.md#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
-- [**Sentry Skull**](advancedRaceGuide/featuredRaces/orcs.md#_sentry-skull): Restore the senses to the severed head of a humanoid or monstrous humanoid killed within the past 24 hours, creating a grisly sentinel.
-- [**Summon Minor Monster**](ultimateMagic/spells/summonMinorMonster.md#_summon-minor-monster): Summon 1d3 Tiny animals.
-- [**Summon Monster I**](spells/summonMonster.md#_summon-monster-i): _(Evil creatures only.) _Summons extraplanar creature to fight for you.
-- [**Wartrain Mount**](ultimateMagic/spells/wartrainMount.md#_wartrain-mount): Animal gains the combat training general purpose.
-
-- [**Agonizing Rebuke**](advancedRaceGuide/featuredRaces/hobgoblins.md#_agonizing-rebuke): You instill such apprehension about attacking you in your target that doing so causes it mental distress and pain.
-- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency.md#_bestow-weapon-proficiency): Grant a creature proficiency in a single weapon for short period of time.
-- [**Blindness/Deafness**](spells/blindnessDeafness.md#_blindness-deafness): Makes subject blind or deaf.
-- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs.md#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
-- [**Bull's Strength**](spells/bullSStrength.md#_bull-s-strength): Subject gains +4 to Str for 1 min./level.
-- [**Corruption Resistance**](advanced/spells/corruptionResistance.md#_corruption-resistance): Protects creature against damage from alignment-based attacks.
-- [**Darkness**](spells/darkness.md#_darkness): 20-ft. radius of supernatural shadow.
-- [**Darkvision**](spells/darkvision.md#_darkvision): See 60 ft. in total darkness.
-- [**Eagle's Splendor**](spells/eagleSSplendor.md#_eagle-s-splendor): Subject gains +4 to Cha for 1 min./level.
-- [**Enemy's Heart**](advancedRaceGuide/featuredRaces/orcs.md#_enemy's-heart): Cut out an enemy's heart and consume it, absorbing that enemy's power as your own.
-- [**Hold Person**](spells/holdPerson.md#_hold-person): Paralyzes one humanoid for 1 round/level.
-- [**Improve Trap**](advancedRaceGuide/featuredRaces/kobolds.md#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
-- [**Invisibility**](spells/invisibility.md#_invisibility): Subject is invisible for 1 min./level or until it attacks.
-- [**Litany of Defense**](ultimateCombat/spells/litanyOfDefense.md#_litany-of-defense): Doubles armor's enhancement bonus.
-- [**Litany of Eloquence**](ultimateCombat/spells/litanyOfEloquence.md#_litany-of-eloquence): Fascinates a single creature for 1 round.
-- [**Litany of Entanglement**](ultimateCombat/spells/litanyOfEntanglement.md#_litany-of-entanglement): Entangles a creature for 1 round.
-- [**Litany of Warding**](ultimateCombat/spells/litanyOfWarding.md#_litany-of-warding): You gain two additional attacks of opportunity for 1 round.
-- [**Magic Siege Engine**](ultimateCombat/spells/magicSiegeEngine.md#_magic-siege-engine): Siege engine gains +1 on targeting and damage rolls.
-- [**Pernicious Poison**](ultimateMagic/spells/perniciousPoison.md#_pernicious-poison): Target takes a –4 penalty against poison.
-- [**Protection from Good, Communal**](ultimateCombat/spells/protectionFromGood.md#_protection-from-good,-communal): As _ [protection from good](spells/protectionFromGood.md#_protection-from-good)_, but you may divide the duration among creatures touched.
-- [**Protection from Law, Communal**](ultimateCombat/spells/protectionFromLaw.md#_protection-from-law,-communal): As _ [protection from law](spells/protectionFromLaw.md#_protection-from-law)_, but you may divide the duration among creatures touched.
-- [**Scare**](spells/scare.md#_scare): Frightens creature of less than 6 HD.
-- [**Sickening Strikes**](advancedRaceGuide/featuredRaces/ratfolk.md#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
-- [**Silence**](spells/silence.md#_silence): Negates sound in 20-ft. radius.
-- [**Summon Monster II**](spells/summonMonster.md#_summon-monster-ii): _(Evil creatures only.)_ Summons extraplanar creature to fight for you.
-- [**Toxic Gift**](ultimateMagic/spells/toxicGift.md#_toxic-gift): Target suffers the effect of a poison in you.
-- [**Unadulterated Loathing**](ultimateMagic/spells/unadulteratedLoathing.md#_unadulterated-loathing): Target is compelled to avoid another creature.
-- [**Undetectable Alignment**](spells/undetectableAlignment.md#_undetectable-alignment): Conceals alignment for 24 hours.
-- [**Vestment of the Champion**](ultimateMagic/spells/vestmentOfTheChampion.md#_vestment-of-the-champion): Armor or shield gains a +1 enhancement per four levels.
-
-- [**Ancestral Regression**](advancedRaceGuide/featuredRaces/drow.md#_ancestral-regression): The target drow transforms into a surface elf.
-- [**Battle Trance**](advancedRaceGuide/coreRaces/halfOrcs.md#_battle-trance): You are transformed into a single-minded force of destruction.
-- [**Bestow Curse**](spells/bestowCurse.md#_bestow-curse): –6 to an ability score; –4 on attack rolls, saves, and checks; or 50% chance of losing each action.
-- [**Blade of Dark Triumph**](ultimateMagic/spells/bladeOfDarkTriumph.md#_blade-of-dark-triumph): Bonded weapon gains _ [ghost touch](/magicItems/weapons.md#_weapons-ghost-touch)_.
-- [**Burst of Speed**](ultimateCombat/spells/burstOfSpeed.md#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
-- [**Contagion**](spells/contagion.md#_contagion): Infects subject with chosen disease.
-- [**Darkvision, Communal**](ultimateCombat/spells/darkvision.md#_darkvision,-communal): As _ [darkvision](spells/darkvision.md#_darkvision)_, but you may divide the duration among creatures touched.
-- [**Deadly Juggernaut**](ultimateCombat/spells/deadlyJuggernaut.md#_deadly-juggernaut): Your might increases with every kill you make.
-- [**Deeper Darkness**](spells/deeperDarkness.md#_deeper-darkness): Object sheds shadows in 60-ft. radius.
-- [**Defile Armor**](advanced/spells/defileArmor.md#_defile-armor): As _ [sanctify armor](advanced/spells/sanctifyArmor.md#_sanctify-armor)_, but gain DR 5/good when using judgment or smite.
-- [**Dispel Magic**](spells/dispelMagic.md#_dispel-magic): Cancels one magical spell or effect.
-- [**Inflict Moderate Wounds**](spells/inflictModerateWounds.md#_inflict-moderate-wounds): Touch attack, 2d8 damage +1/level (max +10).
-- [**Litany of Escape**](ultimateCombat/spells/litanyOfEscape.md#_litany-of-escape): Teleports a friend out of a grapple.
-- [**Litany of Sight**](ultimateCombat/spells/litanyOfSight.md#_litany-of-sight): You can see invisible creatures and objects within 30 feet of you.
-- [**Magic Weapon, Greater**](spells/magicWeapon.md#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
-- [**Summon Monster III**](spells/summonMonster.md#_summon-monster-iii): _(Evil creatures only.)_ Summons extraplanar creature to fight for you.
-- [**Utter Contempt**](ultimateMagic/spells/utterContempt.md#_utter-contempt): Target's attitude worsens by two categories.
-- [**Vampiric Touch**](spells/vampiricTouch.md#_vampiric-touch): Touch deals 1d6 damage/2 levels; caster gains damage as temporary hp.
-
-- [**Darkvision, Greater**](ultimateMagic/spells/darkvision.md#_darkvision,-greater): See 120 ft. in total darkness.
-- [**Dispel Good**](spells/dispelGood.md#_dispel-good): +4 against attacks by good creatures.
-- [**Dispel Law**](spells/dispelLaw.md#_dispel-law): +4 against attacks by lawful creatures.
-- [**Fear**](spells/fear.md#_fear): Subjects within cone flee for 1 round/level.
-- [**Inflict Serious Wounds**](spells/inflictSeriousWounds.md#_inflict-serious-wounds): Touch attack, 3d8 damage +1/level (max +15).
-- [**Invisibility, Greater**](spells/invisibility.md#_invisibility-greater): As _ [invisibility](../spells/invisibility.md#_invisibility)_, but subject can attack and stay invisible.
-- [**Litany of Madness**](ultimateCombat/spells/litanyOfMadness.md#_litany-of-madness): A single target is confused for at least 1 round.
-- [**Litany of Thunder**](ultimateCombat/spells/litanyOfThunder.md#_litany-of-thunder): A single target is deafened until the condition is removed, and is confused for 1 round.
-- [**Litany of Vengeance**](ultimateCombat/spells/litanyOfVengeance.md#_litany-of-vengeance): Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.
-- [**Magic Siege Engine, Greater**](ultimateCombat/spells/magicSiegeEngine.md#_magic-siege-engine,-greater): Siege engine gains +1 on targeting and damage rolls for every four caster levels.
-- [**Nondetection, Communal**](ultimateCombat/spells/nondetection.md#_nondetection,-communal)M: As _ [nondetection](spells/nondetection.md#_nondetection)_, but you may divide the duration among creatures touched.
-- [**Poison**](spells/poison.md#_poison): Touch deals 1d3 Con damage 1/round for 6 rounds.
-- [**Resounding Blow**](advanced/spells/resoundingBlow.md#_resounding-blow): Melee attack deals 1d6 more damage.
-- [**Slay Living**](spells/slayLiving.md#_slay-living): Touch attack deals 12d6 +1 per level.
-- [**Summon Monster IV**](spells/summonMonster.md#_summon-monster-iv): _(Evil creatures only.)_ Summons extraplanar creature to fight for you.
-- [**Unholy Sword**](ultimateMagic/spells/unholySword.md#_unholy-sword): Weapon becomes +5, deals +2d6 damage vs. good.
-
-- [**Dancing Lights**](spells/dancingLights.md#_dancing-lights): Creates torches or other lights.
-- [**Daze**](spells/daze.md#_daze): Humanoid creature of 4 HD or less loses next action.
-- [**Detect Magic**](spells/detectMagic.md#_detect-magic): Detects spells and magic items within 60 ft.
-- [**Flare**](spells/flare.md#_flare): Dazzles one creature (–1 on attack rolls).
-- [**Ghost Sound**](spells/ghostSound.md#_ghost-sound): Figment sounds.
-- [**Haunted Fey Aspect**](ultimateCombat/spells/hauntedFeyAspect.md#_haunted-fey-aspect): You surround yourself with disturbing illusions. 
-- [**Know Direction**](spells/knowDirection.md#_know-direction): You discern north.
-- [**Light**](spells/light.md#_light): Object shines like a torch.
-- [**Lullaby**](spells/lullaby.md#_lullaby): Makes subject drowsy
-- [**Mage Hand**](spells/mageHand.md#_mage-hand): 5-pound telekinesis.
-- [**Mending**](spells/mending.md#_mending): Makes minor repairs on an object.
-- [**Message**](spells/message.md#_message): Whisper conversation at distance.
-- [**Open/Close**](spells/openClose.md#_open-close): Opens or closes small or light things.
-- [**Prestidigitation**](spells/prestidigitation.md#_prestidigitation): Performs minor tricks.
-- [**Read Magic**](spells/readMagic.md#_read-magic): Read scrolls and spellbooks.
-- [**Resistance**](spells/resistance.md#_resistance): Subject gains +1 on saving throws.
-- [**Sift**](advanced/spells/sift.md#_sift): See area as though examining it.
-- [**Spark**](advanced/spells/spark.md#_spark-): Ignites flammable objects.
-- [**Summon Instrument**](spells/summonInstrument.md#_summon-instrument): Summons one musical instrument.
-- [**Unwitting Ally**](advanced/spells/unwittingAlly.md#_unwitting-ally): Subject is considered ally for 1 round.
-
-- [**Abundant Ammunition**](ultimateCombat/spells/abundantAmmunition.md#_abundant-ammunition): Replaces nonmagical ammunition every round.
-- [**Adjuring Step**](ultimateCombat/spells/adjuringStep.md#_adjuring-step-): You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell. 
-- [**Adoration**](ultimateCombat/spells/adoration.md#_adoration): You gain a bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) checks and performance combat checks.
-- [**Alarm**](spells/alarm.md#_alarm): Wards an area for 2 hours/level.
-- [**Animate Rope**](spells/animateRope.md#_animate-rope): Makes a rope move at your command.
-- [**Anticipate Peril**](ultimateMagic/spells/anticipatePeril.md#_anticipate-peril): Target gains a bonus on one initiative check.
-- [**Beguiling Gift**](advanced/spells/beguilingGift.md#_beguiling-gift): Subject immediately accepts an offered item and uses it.
-- [**Borrow Skill**](advanced/spells/borrowSkill.md#_borrow-skill): Make a skill check using another's ranks.
-- [**Cause Fear**](spells/causeFear.md#_cause-fear): One creature of 5 HD or less flees for 1d4 rounds.
-- [**Charm Person**](spells/charmPerson.md#_charm-person): Makes one person your friend.
-- [**Chord of Shards**](ultimateMagic/spells/chordOfShards.md#_chord-of-shards): Performance deals 2d6 piercing damage.
-- [**Compel Hostility**](ultimateCombat/spells/compelHostility.md#_compel-hostility): Compels opponents to attack you instead of your allies.
-- [**Comprehend Languages**](spells/comprehendLanguages.md#_comprehend-languages): You understand all languages.
-- [**Confusion, Lesser**](spells/confusion.md#_confusion-lesser): One creature is _ [confused](glossary.md#_confused) _for 1 round.
-- [**Cure Light Wounds**](spells/cureLightWounds.md#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
-- [**Dancing Lantern**](advanced/spells/dancingLantern.md#_dancing-lantern-): Animates a lantern that follows you.
-- [**Deadeye's Lore**](ultimateCombat/spells/deadeyeSLore.md#_deadeye's-lore): Gain a +4 bonus on [Survival](skills/survival.md#_survival) and move full speed while tracking.
-- [**Delusional Pride**](ultimateMagic/spells/delusionalPride.md#_delusional-pride): Target is penalized on attacks and checks but gains bonus against charms and compulsions.
-- [**Detect Secret Doors**](spells/detectSecretDoors.md#_detect-secret-doors): Reveals hidden doors within 60 ft.
-- [**Disguise Self**](spells/disguiseSelf.md#_disguise-self): Changes your appearance.
-- [**Ear-Piercing Scream**](ultimateMagic/spells/earPiercingScream.md#_ear-piercing-scream): Deal sonic damage and daze target.
-- [**Erase**](spells/erase.md#_erase): Mundane or magical writing vanishes.
-- [**Expeditious Retreat**](spells/expeditiousRetreat.md#_expeditious-retreat): Your base land speed increases by 30 ft.
-- [**Feather Fall**](spells/featherFall.md#_feather-fall): Objects or creatures fall slowly.
-- [**Feather Step**](advanced/spells/featherStep.md#_feather-step): Ignore movement penalty in difficult terrain.
-- [**Flare Burst**](advanced/spells/flareBurst.md#_flare-burst): As flare, but on all creatures within 10 ft.
-- [**Forced Quiet**](ultimateMagic/spells/forcedQuiet.md#_forced-quiet): Target cannot make loud noises.
-- [**Fumbletongue**](ultimateMagic/spells/fumbletongue.md#_fumbletongue): Target cannot speak intelligently.
-- [**Grease**](spells/grease.md#_grease): Makes 10-ft. square or one object slippery.
-- [**Hideous Laughter**](spells/hideousLaughter.md#_hideous-laughter): Subject loses actions for 1 round/ level.
-- [**Horn of Pursuit**](ultimateMagic/spells/hornOfPursuit.md#_horn-of-pursuit): Create three notes heard miles away.
-- [**Hypnotism**](spells/hypnotism.md#_hypnotism): Fascinates 2d4 HD of creatures.
-- [**Identify**](spells/identify.md#_identify): Gives +10 bonus to identify magic items.
-- [**Innocence**](advanced/spells/innocence.md#_innocence): Gain +10 on [Bluff](skills/bluff.md#_bluff) checks to seem innocent.
-- [**Invigorate**](advanced/spells/invigorate.md#_invigorate): Temporarily relieves fatigue or exhaustion.
-- [**Jitterbugs**](advancedRaceGuide/coreRaces/gnomes.md#_jitterbugs): Cause the target to perceive itself as being covered in creeping, crawling, stinging bugs.
-- [**Jury-Rig**](ultimateCombat/spells/juryRig.md#_jury-rig): Removes the broken condition from the targeted object.
-- [**Ki Arrow**](ultimateMagic/spells/kiArrow.md#_ki-arrow): Arrow deals damage as your unarmed strike.
-- [**Liberating Command**](ultimateCombat/spells/liberatingCommand.md#_liberating-command): Target makes an [Escape Artist](skills/escapeArtist.md#_escape-artist) check as an immediate action and gains a bonus on it.
-- [**Lock Gaze**](ultimateCombat/spells/lockGaze.md#_lock-gaze): Compels the target to look only at you for the duration of the spell.
-- [**Magic Aura**](spells/magicAura.md#_magic-aura): Alters object's magic aura.
-- [**Magic Mouth**](spells/magicMouth.md#_magic-mouth)M: Objects speaks once when triggered.
-- [**Memory Lapse**](advanced/spells/memoryLapse.md#_memory-lapse): Subject forgets events back to last turn.
-- [**Moment of Greatness**](ultimateCombat/spells/momentOfGreatness.md#_moment-of-greatness): Doubles a morale bonus.
-- [**Negative Reaction**](ultimateCombat/spells/negativeReaction.md#_negative-reaction): Targeted creature may not positively influence anyone.
-- [**Obscure Object**](spells/obscureObject.md#_obscure-object): Masks object against _ [scrying](spells/scrying.md#_scrying)_.
-- [**Play Instrument**](ultimateMagic/spells/playInstrument.md#_play-instrument): Play instrument as if you were skilled.
-- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes.md#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
-- [**Remove Fear**](spells/removeFear.md#_remove-fear): Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.
-- [**Restful Sleep**](advanced/spells/restfulSleep.md#_restful-sleep): Gain more hit points while sleeping.
-- [**Saving Finale**](advanced/spells/savingFinale.md#_saving-finale): Subject rerolls failed saving throw.
-- [**See Alignment**](ultimateCombat/spells/seeAlignment.md#_see-alignment): Pick an alignment; in your sight, creatures and items with that alignment emit a ghostly radiance.
-- [**Share Language**](advanced/spells/shareLanguage.md#_share-language-): Subject understands chosen language.
-- [**Silent Image**](spells/silentImage.md#_silent-image): Creates minor illusion of your design.
-- [**Sleep**](spells/sleep.md#_sleep): Puts 4 HD of creatures into magical slumber.
-- [**Solid Note**](advanced/spells/solidNote.md#_solid-note): Creates tangible music note.
-- [**Sow Thought**](advancedRaceGuide/uncommonRaces/changelings.md#_sow-thought): Plant an idea, concept, or suspicion in the mind of the subject.
-- [**Summon Minor Monster**](ultimateMagic/spells/summonMinorMonster.md#_summon-minor-monster): Summon 1d3 Tiny animals.
-- [**Summon Monster I**](spells/summonMonster.md#_summon-monster-i): Summons extraplanar creature to fight for you.
-- [**Timely Inspiration**](advanced/spells/timelyInspiration.md#_timely-inspiration): Gives bonus on failed check/attack.
-- [**Toilsome Chant**](advancedRaceGuide/coreRaces/dwarves.md#_toilsome-chant): You begin an inspire competence bardic performance.
-- [**Touch of Gracelessness**](advanced/spells/touchOfGracelessness.md#_touch-of-gracelessness): Subject loses 1d6 + 1 Dex/two levels and is prone to falling down.
-- [**Undetectable Alignment**](spells/undetectableAlignment.md#_undetectable-alignment): Conceals alignment for 24 hours.
-- [**Unnatural Lust**](ultimateMagic/spells/unnaturalLust.md#_unnatural-lust): Target is compelled to kiss or caress another.
-- [**Unprepared Combatant**](ultimateMagic/spells/unpreparedCombatant.md#_unprepared-combatant): Target takes –4 on initiative and Reflex saves.
-- [**Unseen Servant**](spells/unseenServant.md#_unseen-servant): Invisible force obeys your commands.
-- [**Urban Grace**](advancedRaceGuide/coreRaces/halfElves.md#_urban-grace): You become one with the city around you, allowing you to move more easily through its crowds and buildings.
-- [**Vanish**](advanced/spells/vanish.md#_vanish): As _ [invisibility](spells/invisibility.md#_invisibility)_ for 1 round/level (5 max).
-- [**Ventriloquism**](spells/ventriloquism.md#_ventriloquism): Throws voice for 1 min./level.
-- [**Vocal Alteration**](ultimateMagic/spells/vocalAlteration.md#_vocal-alteration): [Disguise](/skills/disguise.md#_disguise) target's voice.
-- [**Windy Escape**](advancedRaceGuide/featuredRaces/sylphs.md#_windy-escape): You respond to an attack by briefly becoming vaporous and insubstantial.
-- [**Youthful Appearance**](ultimateMagic/spells/youthfulAppearance.md#_youthful-appearance): Target appears younger.
-
-- [**Acute Senses**](ultimateMagic/spells/acuteSenses.md#_acute-senses): Subject gains bonus on [Perception](/skills/perception.md#_perception) checks.
-- [**Allegro**](ultimateMagic/spells/allegro.md#_allegro): Gain _ [haste](/spells/haste.md#_haste)_ while maintaining bardic performance.
-- [**Alter Self**](spells/alterSelf.md#_alter-self): Assume form of a Small or Medium humanoid.
-- [**Animal Messenger**](spells/animalMessenger.md#_animal-messenger): Sends a Tiny animal to a specific place.
-- [**Animal Trance**](spells/animalTrance.md#_animal-trance): Fascinates 2d6 HD of animals.
-- [**Bestow Insight**](advancedRaceGuide/coreRaces/humans.md#_bestow-insight): Target gains a +2 insight bonus and is considered trained in one single ranked skill.
-- [**Blindness/Deafness**](spells/blindnessDeafness.md#_blindness-deafness): Makes subject blind or deaf.
-- [**Blistering Invective**](ultimateCombat/spells/blisteringInvective.md#_blistering-invective): Make an [Intimidate](skills/intimidate.md#_intimidate) check against all foes within 30 feet; those demoralized also take fire damage.
-- [**Blood Biography**](advanced/spells/bloodBiography.md#_blood-biography-): Learn about a creature with its blood.
-- [**Blur**](spells/blur.md#_blur): Attacks miss subject 20% of the time.
-- [**Boiling Blood**](ultimateMagic/spells/boilingBlood.md#_boiling-blood): Targets take fire damage; orcs get +2 Strength.
-- [**Cacophonous Call**](advanced/spells/cacophonousCall.md#_cacophonous-call): Nauseates target.
-- [**Calm Emotions**](spells/calmEmotions.md#_calm-emotions): Calms creatures, negating emotion effects.
-- [**Cat's Grace**](spells/catSGrace.md#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted.md#_dexterity) for 1 min./level.
-- [**Commune with Birds**](advancedRaceGuide/featuredRaces/tengus.md#_commune-with-birds): You can understand the responses given by birds.
-- [**Compassionate Ally**](ultimateMagic/spells/compassionateAlly.md#_compassionate-ally): Target compelled to help injured ally.
-- [**Create Treasure Map**](advanced/spells/createTreasureMap.md#_create-treasure-map-)M: Creates a treasure map out of a creature's corpse.
-- [**Cure Moderate Wounds**](spells/cureModerateWounds.md#_cure-moderate-wounds): Cures 2d8 damage + 1/level (max +10).
-- [**Darkness**](spells/darkness.md#_darkness): 20-ft. radius of supernatural shadow.
-- [**Daze Monster**](spells/dazeMonster.md#_daze-monster): Living creature of 6 HD or less loses next action.
-- [**Delay Pain**](ultimateMagic/spells/delayPain.md#_delay-pain): Ignore pain for 1 hour/level.
-- [**Delay Poison**](spells/delayPoison.md#_delay-poison): Stops poison from harming target for 1 hour/level.
-- [**Detect Thoughts**](spells/detectThoughts.md#_detect-thoughts): Allows “listening” to surface thoughts.
-- [**Discovery Torch**](ultimateCombat/spells/discoveryTorch.md#_discovery-torch-): Touched object emanates bright light, granting [Perception](skills/perception.md#_perception) and [Sense Motive](skills/senseMotive.md#_sense-motive) bonuses.
-- [**Disguise Other**](ultimateMagic/spells/disguiseOther.md#_disguise-other): As _ [disguise self](/spells/disguiseSelf.md#_disguise-self)_, but affects you or another.
-- [**Distracting Cacophony**](ultimateMagic/spells/distractingCacophony.md#_distracting-cacophony): Noise makes it difficult to cast.
-- [**Distressing Tone**](ultimateMagic/spells/distressingTone.md#_distressing-tone): Sound sickens 1d4 creatures.
-- [**Dust of Twilight**](advanced/spells/dustOfTwilight.md#_dust-of-twilight): Black particles extinguish light sources.
-- [**Eagle's Splendor**](spells/eagleSSplendor.md#_eagle-s-splendor): Subject gains +4 to [Cha](gettingStarted.md#_charisma-new) for 1 min./level.
-- [**Enter Image**](advanced/spells/enterImage.md#_enter-image-): Transfers your consciousness to an object bearing your likeness.
-- [**Enthrall**](spells/enthrall.md#_enthrall): Captivates all within 100 ft. + 10 ft./level.
-- [**Escaping Ward**](advancedRaceGuide/coreRaces/halflings.md#_escaping-ward): Grants extra maneuverability when you avoid attacks against larger foes.
-- [**Fox's Cunning**](spells/foxSCunning.md#_fox-s-cunning): Subject gains +4 to [Int](gettingStarted.md#_intelligence) for 1 min./level.
-- [**Gallant Inspiration**](advanced/spells/gallantInspiration.md#_gallant-inspiration): +2d4 bonus on failed attack roll or skill check.
-- [**Ghostbane Dirge**](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge): Incorporeal creature takes half damage from nonmagical weapons.
-- [**Ghostly Disguise**](ultimateMagic/spells/ghostlyDisguise.md#_ghostly-disguise): You look like a ghost of yourself.
-- [**Glitterdust**](spells/glitterdust.md#_glitterdust): Blinds creatures, outlines [invisible](glossary.md#_invisible) creatures.
-- [**Heroism**](spells/heroism.md#_heroism): Gives +2 on attack rolls, saves, skill checks.
-- [**Hidden Speech**](advanced/spells/hiddenSpeech.md#_hidden-speech): Gain +10 on [Bluff](skills/bluff.md#_bluff) to send secret messages.
-- [**Hold Person**](spells/holdPerson.md#_hold-person): Paralyzes one humanoid for 1 round/level.
-- [**Honeyed Tongue**](advanced/spells/honeyedTongue.md#_honeyed-tongue): Roll 2 dice when using [Diplomacy](skills/diplomacy.md#_diplomacy), take higher roll.
-- [**Haunting Mists**](ultimateMagic/spells/HauntingMists.md#_haunting-mists): Creatures are shaken and take Wis damage.
-- [**Hypnotic Pattern**](spells/hypnoticPattern.md#_hypnotic-pattern): Fascinates (2d4 + level) HD of creatures.
-- [**Invisibility**](spells/invisibility.md#_invisibility): Subject is [invisible](glossary.md#_invisible) for 1 min./level or until it attacks.
-- [**Locate Object**](spells/locateObject.md#_locate-object): Senses direction toward object (specific or type).
-- [**Mad Hallucination**](ultimateMagic/spells/madHallucination.md#_mad-hallucination): Target takes penalties to mental actions.
-- [**Masterwork Transformation**](ultimateMagic/spells/masterworkTransformation.md#_masterwork-transformation): Make a normal item into a masterwork one.
-- [**Minor Image**](spells/minorImage.md#_minor-image): As _ [silent image](spells/silentImage.md#_silent-image)_, plus some sound.
-- [**Mirror Image**](spells/mirrorImage.md#_mirror-image): Creates decoy duplicates of you (1d4 + 1 per three levels, max 8).
-- [**Misdirection**](spells/misdirection.md#_misdirection): Misleads divinations for one creature or object.
-- [**Miserable Pity**](ultimateMagic/spells/miserablePity.md#_miserable-pity): Opponents cannot attack a pathetic creature.
-- [**Oppressive Boredom**](ultimateMagic/spells/oppressiveBoredom.md#_oppressive-boredom): Target loses its next action.
-- [**Piercing Shriek**](ultimateMagic/spells/piercingShriek.md#_piercing-shriek): Target is staggered by a painful sound.
-- [**Pilfering Hand**](ultimateCombat/spells/pilferingHand.md#_pilfering-hand): You may seize an object or manipulate it from afar.
-- [**Pyrotechnics**](spells/pyrotechnics.md#_pyrotechnics): Turns fire into blinding light or choking smoke.
-- [**Qualm**](ultimateCombat/spells/qualm.md#_qualm): Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing.
-- [**Rage**](spells/rage.md#_rage): Gives +2 to [Str](gettingStarted.md#_strength) and [Con](gettingStarted.md#_constitution), +1 on [Will](combat.md#_will) saves, –2 to [AC](combat.md#_armor-class).
-- [**Reckless Infatuation**](ultimateMagic/spells/recklessInfatuation.md#_reckless-infatuation): Target is compelled to stay near another.
-- [**Returning Weapon**](ultimateCombat/spells/returningWeapon.md#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons.md#_weapons-returning)_ special weapon quality.
-- [**Scare**](spells/scare.md#_scare): Panics creatures of less than 6 HD.
-- [**Shadow Anchor**](advancedRaceGuide/uncommonRaces/wayangs.md#_shadow-anchor): Target's shadow becomes a flexible tether to its current square.
-- [**Share Language, Communal**](ultimateCombat/spells/shareLanguage.md#_share-language,-communal): As _ [share language](advanced/spells/shareLanguage.md#_share-language-)_, but you may divide the duration among creatures touched.
-- [**Share Memory**](ultimateMagic/spells/shareMemory.md#_share-memory): Share one memory with the target.
-- [**Shatter**](spells/shatter.md#_shatter): Sonic vibration damages objects or crystalline creatures.
-- [**Silence**](spells/silence.md#_silence): Negates sound in 20-ft. radius.
-- [**Silk to Steel**](ultimateMagic/spells/silkToSteel.md#_silk-to-steel): Use a scarf as a shield or whip.
-- [**Snapdragon Fireworks**](ultimateMagic/spells/snapdragonFireworks.md#_snapdragon-fireworks): Create 1 dragon firework/level.
-- [**Sound Burst**](spells/soundBurst.md#_sound-burst): Deals 1d8 sonic damage and may stun subjects.
-- [**Steal Breath**](advancedRaceGuide/featuredRaces/catfolk.md#_steal-breath): Pull the breath from a creature's lungs, dealing damage and leaving it unable to speak, use breath weapons, or cast spells with verbal components.
-- [**Steal Voice**](ultimateMagic/spells/stealVoice.md#_steal-voice): Target gains the croaking spellblight.
-- [**Suggestion**](spells/suggestion.md#_suggestion): Compels subject to follow stated course of action.
-- [**Summon Monster II**](spells/summonMonster.md#_summon-monster-ii): Summons extraplanar creature to fight for you.
-- [**Summon Swarm**](spells/summonSwarm.md#_summon-swarm): Summons swarm of bats, rats, or spiders.
-- [**Tactical Acumen**](ultimateCombat/spells/tacticalAcumen.md#_tactical-acumen): You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
-- [**Thunder Fire**](ultimateCombat/spells/thunderFire.md#_thunder-fire): Ammunition in the targeted firearm deafens opponents.
-- [**Tongues**](spells/tongues.md#_tongues): Speak and understand any language.
-- [**Unadulterated Loathing**](ultimateMagic/spells/unadulteratedLoathing.md#_unadulterated-loathing): Target is compelled to avoid another creature.
-- [**Versatile Weapon**](advanced/spells/versatileWeapon.md#_versatile-weapon): Weapon bypasses some DR.
-- [**Wartrain Mount**](ultimateMagic/spells/wartrainMount.md#_wartrain-mount): Animal gains the combat training general purpose.
-- [**Whispering Wind**](spells/whisperingWind.md#_whispering-wind): Sends a short message 1 mile/level.
-
-- [**Arcane Concordance**](advanced/spells/arcaneConcordance.md#_arcane-concordance): Grants metamagic to arcane spells.
-- [**Blink**](spells/blink.md#_blink): You randomly vanish and reappear for 1 round/level.
-- [**Campfire Wall**](advanced/spells/campfireWall.md#_campfire-wall-): Creates a shelter around a campfire.
-- [**Charm Monster**](spells/charmMonster.md#_charm-monster): Makes monster believe it is your ally.
-- [**Clairaudience/Clairvoyance**](spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance): Hear or see at a distance for 1 min./level.
-- [**Confusion**](spells/confusion.md#_confusion): Subjects behave oddly for 1 round/level.
-- [**Control Summoned Creature**](ultimateMagic/spells/controlSummonedCreature.md#_control-summoned-creature): Direct a summoned monster as if you had summoned it.
-- [**Coordinated Effort**](advanced/spells/coordinatedEffort.md#_coordinated-effort): Grants a teamwork feat you have.
-- [**Crushing Despair**](spells/crushingDespair.md#_crushing-despair): Subjects take –2 on attack rolls, damage rolls, saves, and checks.
-- [**Cure Serious Wounds**](spells/cureSeriousWounds.md#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
-- [**Curse of Disgust**](ultimateMagic/spells/curseOfDisgust.md#_curse-of-disgust): Target is sickened when viewing a trigger.
-- [**Death from Below**](advancedRaceGuide/coreRaces/gnomes.md#_death-from-below): Grant the target a dodge bonus to its AC against attacks from larger creatures.
-- [**Daylight**](spells/daylight.md#_daylight): 60-ft. radius of bright light.
-- [**Deep Slumber**](spells/deepSlumber.md#_deep-slumber): Puts 10 HD of creatures to [sleep](spells/sleep.md#_sleep).
-- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison.md#_delay-poison,-communal): As _ [delay poison](spells/delayPoison.md#_delay-poison)_, but you may divide the duration among creatures touched.
-- [**Dispel Magic**](spells/dispelMagic.md#_dispel-magic): Cancels one magical spell or effect.
-- [**Displacement**](spells/displacement.md#_displacement): Attacks miss subject 50% of the time.
-- [**Elemental Speech**](advanced/spells/elementalSpeech.md#_elemental-speech): Enables you to speak to elementals and some creatures.
-- [**Exquisite Accompaniment**](ultimateMagic/spells/exquisiteAccompaniment.md#_exquisite-accompaniment): Instrument maintains bardic performance for you.
-- [**Fear**](spells/fear.md#_fear): Subjects within cone flee for 1 round/level.
-- [**Fearsome Duplicate**](advancedRaceGuide/coreRaces/halflings.md#_fearsome-duplicate): You create a larger and far more menacing version of yourself.
-- [**Feather Step, Mass**](advanced/spells/featherStep.md#_feather-step,-mass): As _ [feather step](advanced/spells/featherStep.md#_feather-step)_, but multiple creatures.
-- [**Gaseous Form**](spells/gaseousForm.md#_gaseous-form): Subject becomes insubstantial and can fly slowly.
-- [**Geas, Lesser**](spells/geasQuest.md#_geas-lesser): Commands subject of 7 HD or less.
-- [**Glibness**](spells/glibness.md#_glibness): You gain +20 bonus on Bluff checks, and your lies can escape magical discernment.
-- [**Good Hope**](spells/goodHope.md#_good-hope): Subjects gain +2 on attack rolls, damage rolls, saves, and checks.
-- [**Haste**](spells/haste.md#_haste): One creature/level moves faster, receives +1 on attack rolls, [AC](combat.md#_armor-class), and [Reflex](combat.md#_reflex) saves.
-- [**Haunting Choir**](ultimateMagic/spells/hauntingChoir.md#_haunting-choir): Spirits cause wracking pain to listeners.
-- [**Illusory Script**](spells/illusoryScript.md#_illusory-script)M: Only select creatures can read text.
-- [**Invigorate, Mass**](advanced/spells/invigorate.md#_invigorate,-mass): As _ [invigorate](advanced/spells/invigorate.md#_invigorate)_, but multiple creatures.
-- [**Invisibility Sphere**](spells/invisibilitySphere.md#_invisibility-sphere): Makes everyone within 10 feet [invisible](glossary.md#_invisible).
-- [**Jester's Jaunt**](advanced/spells/jesterSJaunt.md#_jester's-jaunt): Teleport target within 30 ft. of itself.
-- [**Mad Monkeys**](ultimateMagic/spells/madMonkeys.md#_mad-monkeys): Summon a swarm of mischievous monkeys.
-- [**Major Image**](spells/majorImage.md#_major-image): As _ [silent image](spells/silentImage.md#_silent-image)_, plus sound, smell, and thermal effects.
-- [**Malicious Spite**](ultimateMagic/spells/maliciousSpite.md#_malicious-spite): Target is compelled to plot against another.
-- [**Minor Dream**](advancedRaceGuide/coreRaces/gnomes.md#_minor-dream): This spell functions as the _dream spell_, except the messenger must be yourself or a gnome touched.
-- [**Overwhelming Grief**](ultimateMagic/spells/overwhelmingGrief.md#_overwhelming-grief): Grieving target can take no actions and is denied its Dex bonus.
-- [**Phantom Driver**](ultimateCombat/spells/phantomDriver.md#_phantom-driver): Conjures a phantom to drive vehicles.
-- [**Phantom Steed**](spells/phantomSteed.md#_phantom-steed): Magic horse appears for 1 hour/level.
-- [**Prehensile Pilfer**](advancedRaceGuide/uncommonRaces/vanaras.md#_prehensile-pilfer): The target's tail moves and acts more quickly, almost with a mind of its own.
-- [**Purging Finale**](advanced/spells/purgingFinale.md#_purging-finale): Removes one negative effect.
-- [**Raging Rubble**](advancedRaceGuide/featuredRaces/oreads.md#_raging-rubble): You animate an area of rubble, creating a dangerous, rolling area of debris.
-- [**Rain of Frogs**](ultimateMagic/spells/rainOfFrogs.md#_rain-of-frogs): Summon a swarm of poisonous frogs.
-- [**Remove Curse**](spells/removeCurse.md#_remove-curse): Frees object or person from curse.
-- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon.md#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon.md#_returning-weapon)_, but you may divide the duration among weapons touched.
-- [**Reviving Finale**](advanced/spells/revivingFinale.md#_reviving-finale): Allies cured 2d6 damage.
-- [**Scrying**](spells/scrying.md#_scrying)F: Spies on subject from a distance.
-- [**Sculpt Sound**](spells/sculptSound.md#_sculpt-sound): Creates new sounds or changes existing ones into new sounds.
-- [**Secret Page**](spells/secretPage.md#_secret-page): Changes one page to hide its real content.
-- [**See Invisibility**](spells/seeInvisibility.md#_see-invisibility): Reveals [invisible](glossary.md#_invisible) creatures or objects.
-- [**Seek Thoughts**](advanced/spells/seekThoughts.md#_seek-thoughts): Detects thinking creatures' thoughts.
-- [**Sepia Snake Sigil**](spells/sepiaSnakeSigil.md#_sepia-snake-sigil)M: Creates a snake-shaped text symbol that immobilizes reader.
-- [**Slow**](spells/slow.md#_slow): One subject/level takes only one action/round, –1 to [AC](combat.md#_armor-class), [Reflex](combat.md#_reflex) saves, and attack rolls.
-- [**Smug Narcissism**](ultimateMagic/spells/smugNarcissism.md#_smug-narcissism): Target is distracted by its sense of self.
-- [**Speak with Animals**](spells/speakWithAnimals.md#_speak-with-animals): You can communicate with animals.
-- [**Summon Monster III**](spells/summonMonster.md#_summon-monster-iii): Summons extraplanar creature to fight for you.
-- [**Terrible Remorse**](ultimateMagic/spells/terribleRemorse.md#_terrible-remorse): Creature is compelled to harm itself.
-- [**Thunderous Drums**](advanced/spells/thunderingDrums.md#_thundering-drums): 1d8 damage/level and knocked prone.
-- [**Tiny Hut**](spells/tinyHut.md#_tiny-hut): Creates shelter for 10 creatures.
-- [**Tongues, Communal**](ultimateCombat/spells/tongues.md#_tongues,-communal): As _ [tongues](spells/tongues.md#_tongues)_, but you may divide the duration among creatures touched.
-- [**Vision of Hell**](ultimateMagic/spells/visionOfHell.md#_vision-of-hell): Illusory hellscape makes creatures shaken.
-- [**Witness**](ultimateMagic/spells/witness.md#_witness): See through the target's eyes and ears.
-
-- [**Break Enchantment**](spells/breakEnchantment.md#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
-- [**Cure Critical Wounds**](spells/cureCriticalWounds.md#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
-- [**Dance of a Hundred Cuts**](ultimateMagic/spells/danceOfAHundredCuts.md#_dance-of-a-hundred-cuts): Gain +1 combat bonus/3 levels.
-- [**Daze, Mass**](ultimateMagic/spells/daze.md#_daze,-mass): As _ [daze](/spells/daze.md#_daze)_, but affecting multiple creatures.
-- [**Denounce**](advanced/spells/denounce.md#_denounce): Worsens attitudes toward target creature.
-- [**Detect Scrying**](spells/detectScrying.md#_detect-scrying): Alerts you to magical eavesdropping.
-- [**Dimension Door**](spells/dimensionDoor.md#_dimension-door): Teleports you a short distance.
-- [**Discordant Blast**](advanced/spells/discordantBlast.md#_discordant-blast): 3d6 sonic damage in 10-ft. burst or 30-ft. cone can also bull rush creatures.
-- [**Dominate Person**](spells/dominatePerson.md#_dominate-person): Controls humanoid telepathically.
-- [**Echolocation**](ultimateMagic/spells/echolocation.md#_echolocation): Sonic sense gives you blindsight 40 ft.
-- [**Envious Urge**](ultimateMagic/spells/enviousUrge.md#_envious-urge): Targets steal from or disarm others.
-- [**Freedom of Movement**](spells/freedomOfMovement.md#_freedom-of-movement): Subject moves normally despite impediments to restrict movement.
-- [**Ghostbane Dirge, Mass**](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge,-mass): As _ [ghostbane dirge](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge)_, but affecting multiple creatures.
-- [**Hallucinatory Terrain**](spells/hallucinatoryTerrain.md#_hallucinatory-terrain): Makes one type of terrain appear like another (field as forest, or the like).
-- [**Heroic Finale**](advanced/spells/heroicFinale.md#_heroic-finale): Subject within range of your bardic performance can take an action.
-- [**Hold Monster**](spells/holdMonster.md#_hold-monster): As _ [hold person](spells/holdPerson.md#_hold-person)_, but any creature.
-- [**Invisibility, Greater**](spells/invisibility.md#_invisibility-greater): As _ [invisibility](spells/invisibility.md#_invisibility), _but subject can attack and stay [invisible](glossary.md#_invisible).
-- [**Legend Lore**](spells/legendLore.md#_legend-lore)MF: Lets you learn tales about a person, place, or thing.
-- [**Locate Creature**](spells/locateCreature.md#_locate-creature): Indicates direction to known creature.
-- [**Modify Memory**](spells/modifyMemory.md#_modify-memory): Changes 5 minutes of subject's memories.
-- [**Neutralize Poison**](spells/neutralizePoison.md#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
-- [**Nixie's Lure**](advancedRaceGuide/featuredRaces/undines.md#_nixie's-lure): Creates an unearthly and infectious song that seductively summons all who hear it.
-- [**Phantom Steed, Communal**](ultimateCombat/spells/phantomSteed.md#_phantom-steed,-communal): As _ [phantom steed](spells/phantomSteed.md#_phantom-steed)_, but you may divide the duration among creatures touched.
-- [**Primal Scream**](ultimateMagic/spells/primalScream.md#_primal-scream): Free yourself from enchantments and paralysis effects.
-- [**Rainbow Pattern**](spells/rainbowPattern.md#_rainbow-pattern): Lights fascinate 24 HD of creatures.
-- [**Repel Vermin**](spells/repelVermin.md#_repel-vermin): Insects, spiders, and other vermin stay 10 ft. away.
-- [**Secure Shelter**](spells/secureShelter.md#_secure-shelter): Creates sturdy cottage.
-- [**Serenity**](ultimateMagic/spells/serenity.md#_serenity): Peaceful feelings harm those attempting violence.
-- [**Shadow Conjuration**](spells/shadowConjuration.md#_shadow-conjuration): Mimics conjuration below 4th level, but only 20% real.
-- [**Shadow Step**](ultimateMagic/spells/shadowStep.md#_shadow-step): Teleport from one shadow to another.
-- [**Shocking Image**](ultimateCombat/spells/shockingImage.md#_shocking-image): As _ [mirror image](spells/mirrorImage.md#_mirror-image)_, but the duplicates emit electrical damage when destroyed.
-- [**Shout**](spells/shout.md#_shout): Deafens all within cone and deals 5d6 sonic damage.
-- [**Sonic Thrust**](ultimateMagic/spells/sonicThrust.md#_sonic-thrust): Sound moves targets away from you.
-- [**Speak with Plants**](spells/speakWithPlants.md#_speak-with-plants): You can talk to plants and plant creatures.
-- [**Summon Monster IV**](spells/summonMonster.md#_summon-monster-iv): Summons extraplanar creature to fight for you.
-- [**Treasure Stitching**](advanced/spells/treasureStitching.md#_treasure-stitching-)M: Objects on cloth become embroidered.
-- [**Truespeak**](advancedRaceGuide/featuredRaces/aasimars.md#_truespeak): You can communicate with any creature that is not mindless.
-- [**Utter Contempt**](ultimateMagic/spells/utterContempt.md#_utter-contempt): Target's attitude worsens by two categories.
-- [**Virtuoso Performance**](ultimateMagic/spells/virtuosoPerformance.md#_virtuoso-performance): Start a second bardic performance while maintaining the first.
-- [**Wall of Sound**](ultimateMagic/spells/wallOfSound.md#_wall-of-sound): Sonic wall deflects and damages creatures.
-- [**Wandering Star Motes**](advanced/spells/wanderingStarMotes.md#_wandering-star-motes): Outlines subject, produces light.
-- [**Zone of Silence**](spells/zoneOfSilence.md#_zone-of-silence): Keeps eavesdroppers from overhearing you.
-
-- [**Bard's Escape**](advanced/spells/bardSEscape.md#_bard's-escape): You and allies escape an emergency by teleporting to safety.
-- [**Cacophonous Call, Mass**](advanced/spells/cacophonousCall.md#_cacophonous-call,-mass): Nauseates multiple targets.
-- [**Cloak of Dreams**](advanced/spells/cloakOfDreams.md#_cloak-of-dreams): Living creatures within 5 ft. fall asleep.
-- [**Cure Light Wounds, Mass**](spells/cureLightWounds.md#_cure-light-wounds-mass): Cures 1d8 damage + 1/level, affects 1 subject/level.
-- [**Deafening Song Bolt**](advanced/spells/deafeningSongBolt.md#_deafening-song-bolt): Blast of song deals 3d10 damage and deafens targets.
-- [**Dispel Magic, Greater**](spells/dispelMagic.md#_dispel-magic-greater): Works as _ [dispel magic](spells/dispelMagic.md#_dispel-magic),_ but can affect multiple targets.
-- [**Dream**](spells/dream.md#_dream): Sends message to anyone sleeping.
-- [**False Vision**](spells/falseVision.md#_false-vision)M: Fools scrying with an illusion.
-- [**Foe to Friend**](advanced/spells/foeToFriend.md#_foe-to-friend): Redirect an enemy creature's attack.
-- [**Frozen Note**](advanced/spells/frozenNote.md#_frozen-note-): Paralyzes creatures listening to your song.
-- [**Heroism, Greater**](spells/heroism.md#_heroism-greater): Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.
-- [**Joyful Rapture**](ultimateMagic/spells/joyfulRapture.md#_joyful-rapture): Negate harmful emotions.
-- [**Ki Shout**](ultimateMagic/spells/kiShout.md#_ki-shout): Target takes 1d6 sonic/level and is stunned.
-- [**Mind Fog**](spells/mindFog.md#_mind-fog): Subjects in fog get –10 to [Wis](gettingStarted.md#_wisdom) and [Will](combat.md#_will) checks.
-- [**Mirage Arcana**](spells/mirageArcana.md#_mirage-arcana): As _ [hallucinatory terrain](spells/hallucinatoryTerrain.md#_hallucinatory-terrain), _plus structures.
-- [**Mislead**](spells/mislead.md#_mislead): Turns you [invisible](glossary.md#_invisible) and creates illusory double.
-- [**Nightmare**](spells/nightmare.md#_nightmare): Sends vision dealing 1d10 damage, fatigue.
-- [**Persistent Image**](spells/persistentImage.md#_persistent-image): As _ [major image](spells/majorImage.md#_major-image)_, but no concentration required.
-- [**Phantasmal Web**](advanced/spells/phantasmalWeb.md#_phantasmal-web): Catches subjects in illusory web.
-- [**Resonating Word**](ultimateMagic/spells/resonatingWord.md#_resonating-word): Target is damaged, staggered, and stunned.
-- [**Seeming**](spells/seeming.md#_seeming): Changes appearance of one person per two levels.
-- [**Shadow Evocation**](spells/shadowEvocation.md#_shadow-evocation): Mimics evocation of lower than 5th level, but only 20% real.
-- [**Shadow Walk**](spells/shadowWalk.md#_shadow-walk): Step into shadow to travel rapidly.
-- [**Shadowbard**](ultimateMagic/spells/shadowbard.md#_shadowbard): Shadowy duplicate starts a bardic performance.
-- [**Song of Discord**](spells/songOfDiscord.md#_song-of-discord): Forces targets to attack each other.
-- [**Stunning Finale**](advanced/spells/stunningFinale.md#_stunning-finale): Stuns 3 creatures for 1 round.
-- [**Suggestion, Mass**](spells/suggestion.md#_suggestion-mass): As _ [suggestion](spells/suggestion.md#_suggestion), _affects subject/level.
-- [**Summon Monster V**](spells/summonMonster.md#_summon-monster-v): Summons extraplanar creature to fight for you.
-- [**Unwilling Shield**](advanced/spells/unwillingShield.md#_unwilling-shield)M: Subject shares wounds you receive.
-- [**Vengeful Outrage**](ultimateMagic/spells/vengefulOutrage.md#_vengeful-outrage): Target is compelled to destroy one enemy.
-
-- [**Analyze Dweomer**](spells/analyzeDweomer.md#_analyze-dweomer)F: Reveals magical aspects of subject.
-- [**Animate Objects**](spells/animateObjects.md#_animate-objects): Objects attack your foes.
-- [**Brilliant Inspiration**](advanced/spells/brilliantInspiration.md#_brilliant-inspiration): Take best of two d20 rolls.
-- [**Cat's Grace, Mass**](spells/catSGrace.md#_cat-s-grace-mass): As _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, affects 1 subject/level.
-- [**Charm Monster, Mass**](spells/charmMonster.md#_charm-monster-mass): As _ [charm monster](spells/charmMonster.md#_charm-monster), _but all within 30 ft.
-- [**Cure Moderate Wounds, Mass**](spells/cureModerateWounds.md#_cure-moderate-wounds-mass): Cures 2d8 damage + 1/level, affects 1 subject/level.
-- [**Dance of a Thousand Cuts**](ultimateMagic/spells/danceOfAThousandCuts.md#_dance-of-a-thousand-cuts): As _ [dance of a hundred cuts](ultimateMagic/spells/danceOfAHundredCuts.md#_dance-of-a-hundred-cuts)_, plus the benefits of _ [haste](/spells/haste.md#_haste)_.
-- [**Deadly Finale**](advanced/spells/deadlyFinale.md#_deadly-finale): Deals 2d8 damage to multiple targets.
-- [**Eagle's Splendor, Mass**](spells/eagleSSplendor.md#_eagle-s-splendor-mass): As _ [eagle's splendor](spells/eagleSSplendor.md#_eagle-s-splendor)_, affects 1 subject/level.
-- [**Euphoric Tranquility**](advanced/spells/euphoricTranquility.md#_euphoric-tranquility): Makes a single creature peaceful and friendly.
-- [**Eyebite**](spells/eyebite.md#_eyebite): Target becomes [panicked](glossary.md#_panicked), [sickened](glossary.md#_sickened), and/or comatose.
-- [**Find the Path**](spells/findThePath.md#_find-the-path): Shows most direct way to a location.
-- [**Fool's Forbiddance**](advanced/spells/foolSForbiddance.md#_fool's-forbiddance): Confuses enemies who come within a magical emanation centered on you.
-- [**Fox's Cunning, Mass**](spells/foxSCunning.md#_fox-s-cunning-mass): As _ [fox's cunning](spells/foxSCunning.md#_fox-s-cunning)_, affects 1 subject/level.
-- [**Geas/Quest**](spells/geasQuest.md#_geas-quest): As _lesser geas, _but affects any creature.
-- [**Getaway**](advanced/spells/getaway.md#_getaway-): Teleports a group of predetermined allies and creatures to a predetermined location.
-- [**Heroes' Feast**](spells/heroesFeast.md#_heroes-feast): Food for one creature/level cures and grants combat bonuses_._
-- [**Irresistible Dance**](spells/irresistibleDance.md#_irresistible-dance): Forces subject to dance.
-- [**Overwhelming Presence**](ultimateMagic/spells/overwhelmingPresence.md#_overwhelming-presence): Creatures bow before you as if you were divine.
-- [**Permanent Image**](spells/permanentImage.md#_permanent-image): Permanent illusion, includes sight, sound, smell, and thermal effects.
-- [**Pied Piping**](advanced/spells/piedPiping.md#_pied-piping-): Compel similar creatures to follow you.
-- [**Programmed Image**](spells/programmedImage.md#_programmed-image)M: As _ [major image](spells/majorImage.md#_major-image)_, plus triggered by event.
-- [**Project Image**](spells/projectImage.md#_project-image)M: Illusory double can talk and cast spells.
-- [**Scrying, Greater**](spells/scrying.md#_scrying-greater): As _ [scrying](spells/scrying.md#_scrying)_, but faster and longer.
-- [**Shout, Greater**](spells/shout.md#_shout-greater): Devastating yell deals 10d6 sonic damage; stuns creatures.
-- [**Summon Monster VI**](spells/summonMonster.md#_summon-monster-vi): Summons extraplanar creature to fight for you.
-- [**Sympathetic Vibration**](spells/sympatheticVibration.md#_sympathetic-vibration): Deals 2d10 damage/round to freestanding structure.
-- [**Veil**](spells/veil.md#_veil): Changes appearance of group of creatures.
-- [**Waves of Ecstasy**](ultimateMagic/spells/wavesOfEcstasy.md#_waves-of-ecstasy): Pleasure stuns and staggers creatures.
-
-- [**Bleed**](spells/bleed.md#_bleed): Cause a stabilized creature to resume [dying](glossary.md#_dying).
-- [**Create Water**](spells/createWater.md#_create-water): Creates 2 gallons/level of pure water.
-- [**Detect Magic**](spells/detectMagic.md#_detect-magic): Detects spells and magic items within 60 ft.
-- [**Detect Poison**](spells/detectPoison.md#_detect-poison): Detects poison in one creature or object.
-- [**Guidance**](spells/guidance.md#_guidance): +1 on one attack roll, saving throw, or skill check.
-- [**Light**](spells/light.md#_light): Object shines like a torch.
-- [**Mending**](spells/mending.md#_mending): Makes minor repairs on an object.
-- [**Purify Food and Drink**](spells/purifyFoodAndDrink.md#_purify-food-and-drink): Purifies 1 cu. ft./level of food or water.
-- [**Read Magic**](spells/readMagic.md#_read-magic): Read scrolls and spellbooks.
-- [**Resistance**](spells/resistance.md#_resistance): Subject gains +1 on saving throws.
-- [**Spark**](advanced/spells/spark.md#_spark-): Ignites flammable objects.
-- [**Stabilize**](spells/stabilize.md#_stabilize): Cause a [dying](glossary.md#_dying) creature to stabilize.
-- [**Virtue**](spells/virtue.md#_virtue): Subject gains 1 temporary hp.
-
-- [**Abundant Ammunition**](ultimateCombat/spells/abundantAmmunition.md#_abundant-ammunition): Replaces nonmagical ammunition every round.
-- [**Air Bubble**](ultimateCombat/spells/airBubble.md#_air-bubble): Creates a small pocket of air around your head or an object.
-- [**Ant Haul**](advanced/spells/antHaul.md#_ant-haul-): Triples carrying capacity of a creature.
-- [**Bane**](spells/bane.md#_bane): Enemies take –1 on attack rolls and saves against fear.
-- [**Bless**](spells/bless.md#_bless): Allies gain +1 on attack rolls and saves against fear.
-- [**Bless Water**](spells/blessWater.md#_bless-water)M: Makes holy water.
-- [**Cause Fear**](spells/causeFear.md#_cause-fear): One creature of 5 HD or less flees for 1d4 rounds.
-- [**Command**](spells/command.md#_command): One subject obeys selected command for 1 round.
-- [**Compel Hostility**](ultimateCombat/spells/compelHostility.md#_compel-hostility): Compels opponents to attack you instead of your allies.
-- [**Comprehend Languages**](spells/comprehendLanguages.md#_comprehend-languages): You understand all spoken and written languages.
-- [**Cure Light Wounds**](spells/cureLightWounds.md#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
-- [**Curse Water**](spells/curseWater.md#_curse-water)M: Makes unholy water.
-- [**Dancing Lantern**](advanced/spells/dancingLantern.md#_dancing-lantern-): Animates a lantern that follows you.
-- [**Deadeye's Lore**](ultimateCombat/spells/deadeyeSLore.md#_deadeye's-lore): Gain a +4 bonus on [Survival](skills/survival.md#_survival) and move full speed while tracking.
-- [**Deathwatch**](spells/deathwatch.md): Reveals how near death subjects within 30 ft. are.
-- [**Decompose Corpse**](ultimateMagic/spells/decomposeCorpse.md#_decompose-corpse): Turn corpse into clean skeleton.
-- [**Detect Chaos/Evil/Good/Law**](spells/detectChaos.md#_detect-chaos): Reveals creatures, spells, or objects of selected alignment.
-- [**Detect Undead**](spells/detectUndead.md#_detect-undead): Reveals undead within 60 ft.
-- [**Diagnose Disease**](ultimateMagic/spells/diagnoseDisease.md#_diagnose-disease): Detect and identify diseases.
-- [**Divine Favor**](spells/divineFavor.md#_divine-favor): You gain +1 per three levels on attack and damage rolls.
-- [**Doom**](spells/doom.md#_doom): One subject takes –2 on attack rolls, damage rolls, saves, and checks.
-- [**Endure Elements**](spells/endureElements.md#_endure-elements): Exist comfortably in hot or cold regions.
-- [**Entropic Shield**](spells/entropicShield.md#_entropic-shield): Ranged attacks against you have 20% miss chance.
-- [**Forbid Action**](ultimateMagic/spells/forbidAction.md#_forbid-action): Target obeys your command to not do something.
-- [**Hide from Undead**](spells/hideFromUndead.md#_hide-from-undead): Undead can't perceive one subject/level.
-- [**Inflict Light Wounds**](spells/inflictLightWounds.md#_inflict-light-wounds): Touch deals 1d8 damage +1/level (max +5).
-- [**Ironbeard**](advancedRaceGuide/coreRaces/dwarves.md#_ironbeard): Causes a brushy beard of stiff iron to erupt from the face of a willing target.
-- [**Karmic Blessing**](advancedRaceGuide/uncommonRaces/samsarans.md#_karmic-blessing): The target treats one skill of your choice as a class skill.
-- [**Know the Enemy**](ultimateMagic/spells/knowTheEnemy.md#_know-the-enemy): Gain +10 on a monster [Knowledge](/skills/knowledge.md#_knowledge) check.
-- [**Liberating Command**](ultimateCombat/spells/liberatingCommand.md#_liberating-command): Target makes an [Escape Artist](skills/escapeArtist.md#_escape-artist) check as an immediate action and gains a bonus on it.
-- [**Magic Stone**](spells/magicStone.md#_magic-stone): Three stones gain +1 on attack, deal 1d6 +1 damage.
-- [**Magic Weapon**](spells/magicWeapon.md#_magic-weapon): Weapon gains +1 bonus.
-- [**Marid's Mastery**](advancedRaceGuide/featuredRaces/undines.md#_marid's-mastery): Target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water.
-- [**Mighty Fist of the Earth**](advancedRaceGuide/featuredRaces/oreads.md#_mighty-fist-of-the-earth): You create a fist-sized rock that flies toward one enemy.
-- [**Moment of Greatness**](ultimateCombat/spells/momentOfGreatness.md#_moment-of-greatness): Doubles a morale bonus.
-- [**Murderous Command**](ultimateMagic/spells/murderousCommand.md#_murderous-command): Target is compelled to kill its ally.
-- [**Obscuring Mist**](spells/obscuringMist.md#_obscuring-mist): Fog surrounds you.
-- [**Protection from Chaos**](spells/protectionFromChaos.md#_protection-from-chaos): +2 to [AC](combat.md#_armor-class) and saves, plus additional protection against selected alignment.
-- [**Protection from Evil**](spells/protectionFromEvil.md#_protection-from-evil): +2 to [AC](combat.md#_armor-class) and saves, plus additional protection against selected alignment.
-- [**Protection from Good**](spells/protectionFromGood.md#_protection-from-good): +2 to [AC](combat.md#_armor-class) and saves, plus additional protection against selected alignment.
-- [**Protection from Law**](spells/protectionFromLaw.md#_protection-from-law): +2 to [AC](combat.md#_armor-class) and saves, plus additional protection against selected alignment.
-- [**Ray of Sickening**](ultimateMagic/spells/rayOfSickening.md#_ray-of-sickening): Ray makes the subject sickened.
-- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes.md#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
-- [**Reinforce Armaments**](ultimateCombat/spells/reinforceArmaments.md#_reinforce-armaments): Temporarily mitigates the fragile quality in targeted weapon or armor.
-- [**Remove Fear**](spells/removeFear.md#_remove-fear): Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.
-- [**Remove Sickness**](ultimateMagic/spells/removeSickness.md#_remove-sickness): Suppress disease, nausea, and the sickened condition.
-- [**Restore Corpse**](ultimateMagic/spells/restoreCorpse.md#_restore-corpse): Skeletal corpse grows flesh.
-- [**Sanctify Corpse**](ultimateMagic/spells/sanctifyCorpse.md#_sanctify-corpse): Prevent a corpse from becoming an undead creature.
-- [**Sanctuary**](spells/sanctuary.md#_sanctuary): Opponents can't attack you, and you can't attack.
-- [**Shield of Faith**](spells/shieldOfFaith.md#_shield-of-faith): Aura grants +2 or higher deflection bonus.
-- [**Stone Shield**](advancedRaceGuide/featuredRaces/oreads.md#_stone-shield): 1-inch-thick slab of stone springs up from the ground, shielding you.
-- [**Summon Minor Monster**](ultimateMagic/spells/summonMinorMonster.md#_summon-minor-monster): Summon 1d3 Tiny animals.
-- [**Summon Monster I**](spells/summonMonster.md#_summon-monster-i): Summons extraplanar creature to fight for you.
-- [**Sun Metal**](ultimateCombat/spells/sunMetal.md#_sun-metal): Weapon touched bursts into flames.
-- [**Theft Ward**](advancedRaceGuide/featuredRaces/tengus.md#_theft-ward): You ward a single object in your possession against theft.
-- [**Winter Feathers**](advancedRaceGuide/featuredRaces/tengus.md#_winter-feathers): Target's feathers thicken and fluff up to ward against winter's chill.
-
-- [**Aboleth's Lung**](advancedRaceGuide/uncommonRaces/gillmen.md#_aboleth's-lung): Targets are able to breathe water, freely.
-- [**Aid**](spells/aid.md#_aid): +1 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).
-- [**Alchemical Tinkering**](advancedRaceGuide/featuredRaces/ratfolk.md#_alchemical-tinkering): Transform one alchemical item or firearm into another alchemical item or firearm of the same or lesser cost.
-- [**Align Weapon**](spells/alignWeapon.md#_align-weapon): Weapon becomes good, evil, lawful, or chaotic.
-- [**Ancestral Regression**](advancedRaceGuide/featuredRaces/drow.md#_ancestral-regression): The target drow transforms into a surface elf.
-- [**Animate Dead, Lesser**](ultimateMagic/spells/animateDead.md#_animate-dead,-lesser): Create one skeleton or zombie.
-- [**Ant Haul, Communal**](ultimateCombat/spells/antHaul.md#_ant-haul,-communal): As _ [ant haul](advanced/spells/antHaul.md#_ant-haul-)_, but you may divide the duration among creatures touched.
-- [**Arrow of Law**](ultimateMagic/spells/arrowOfLaw.md#_arrow-of-law): Harm and possibly daze chaotic creatures.
-- [**Augury**](spells/augury.md#_augury)MF: Learns whether an action will be good or bad.
-- [**Bear's Endurance**](spells/bearSEndurance.md#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted.md#_constitution) for 1 min./level.
-- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency.md#_bestow-weapon-proficiency): Grant a creature proficiency in a single weapon for short period of time.
-- [**Blessing of Courage and Life**](advanced/spells/blessingOfCourageAndLife.md#_blessing-of-courage-and-life): +2 on saves vs. fear and death.
-- [**Blessing of Luck and Resolve**](advancedRaceGuide/coreRaces/halflings.md#_blessing-of-luck-and-resolve): Grants target a +2 morale bonus on saving throws against fear effects.
-- [**Blinding Ray**](advancedRaceGuide/featuredRaces/dhampirs.md#_blinding-ray): You blast your enemies with blinding rays of sunlight.
-- [**Blood Blaze**](advancedRaceGuide/featuredRaces/orcs.md#_blood-blaze): 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air.
-- [**Boiling Blood**](ultimateMagic/spells/boilingBlood.md#_boiling-blood): Targets take fire damage; orcs get +2 Strength.
-- [**Bull's Strength**](spells/bullSStrength.md#_bull-s-strength): Subject gains +4 to [Str](gettingStarted.md#_strength) for 1 min./level.
-- [**Calm Emotions**](spells/calmEmotions.md#_calm-emotions): Calms creatures, negating emotion effects.
-- [**Compassionate Ally**](ultimateMagic/spells/compassionateAlly.md#_compassionate-ally): Target is compelled to help injured ally.
-- [**Consecrate**](spells/consecrate.md#_consecrate)M: Fills area with positive energy, weakening undead.
-- [**Cure Moderate Wounds**](spells/cureModerateWounds.md#_cure-moderate-wounds): Cures 2d8 damage + 1/level (max +10).
-- [**Darkness**](spells/darkness.md#_darkness): 20-ft. radius of supernatural shadow.
-- [**Death Candle**](advancedRaceGuide/featuredRaces/ifrits.md#_death-candle): Functions like _death knell_, except you summon a Small fire elemental resembling the slain creature.
-- [**Death Knell**](spells/deathKnell.md#_death-knell): Kills [dying](glossary.md#_dying) creature; you gain 1d8 temporary hp, +2 to [Str](gettingStarted.md#_strength), and +1 caster level.
-- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk.md#_delay-disease): The target becomes temporarily immune to disease.
-- [**Delay Pain**](ultimateMagic/spells/delayPain.md#_delay-pain): Ignore pain for 1 hour/level.
-- [**Delay Poison**](spells/delayPoison.md#_delay-poison): Stops poison from harming target for 1 hour/level.
-- [**Desecrate**](spells/desecrate.md#_desecrate)M: Fills area with negative energy, making undead stronger.
-- [**Disfiguring Touch**](ultimateMagic/spells/disfiguringTouch.md#_disfiguring-touch-): Target becomes disfigured.
-- [**Dread Bolt**](ultimateMagic/spells/dreadBolt.md#_dread-bolt): Harm and possibly sicken good creatures.
-- [**Eagle's Splendor**](spells/eagleSSplendor.md#_eagle-s-splendor): Subject gains +4 to [Cha](gettingStarted.md#_charisma-new) for 1 min./level.
-- [**Effortless Armor**](ultimateCombat/spells/effortlessArmor.md#_effortless-armor): Armor you wear no longer slows your speed.
-- [**Endure Elements, Communal**](ultimateCombat/spells/endureElements.md#_endure-elements,-communal): As _ [endure elements](spells/endureElements.md#_endure-elements)_, but you may divide the duration among creatures touched.
-- [**Enemy's Heart**](advancedRaceGuide/featuredRaces/orcs.md#_enemy's-heart): Cut out an enemy's heart and consume it, absorbing that enemy's power as your own.
-- [**Enthrall**](spells/enthrall.md#_enthrall): Captivates all within 100 ft. + 10 ft./level.
-- [**Find Traps**](spells/findTraps.md#_find-traps): Notice traps as a rogue does.
-- [**Gentle Repose**](spells/gentleRepose.md#_gentle-repose): Preserves one corpse.
-- [**Ghostbane Dirge**](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge): Incorporeal creature takes half damage from nonmagical weapons.
-- [**Grace**](advanced/spells/grace.md#_grace): Movement doesn't provoke attacks of opportunity.
-- [**Groundswell**](advancedRaceGuide/coreRaces/dwarves.md#_groundswell): Allows the target to cause the ground to rise up beneath him.
-- [**Hold Person**](spells/holdPerson.md#_hold-person): Paralyzes one humanoid for 1 round/level.
-- [**Imbue with Aura**](ultimateMagic/spells/imbueWithAura.md#_imbue-with-aura): Target emulates your cleric aura.
-- [**Imbue with Elemental Might**](advancedRaceGuide/uncommonRaces/sulis.md#_imbue-with-elemental-might): Functions like _imbue with spell ability_, except you transfer the use of your elemental assault ability to the target.
-- [**Inflict Moderate Wounds**](spells/inflictModerateWounds.md#_inflict-moderate-wounds): Touch attack, 2d8 damage + 1/level (max +10).
-- [**Instant Armor**](advanced/spells/instantArmor.md#_instant-armor-): Summon armor temporarily replacing your current attire.
-- [**Instrument of Agony**](ultimateCombat/spells/instrumentOfAgony.md#_instrument-of-agony): Weapon exudes divine fury, granting a bonus on [Intimidate](skills/intimidate.md#_intimidate) checks.
-- [**Life Channel**](advancedRaceGuide/featuredRaces/dhampirs.md#_life-channel): When cast on a creature with negative energy affinity, the target is able to convert channeled positive energy into temporary hit points.
-- [**Magic Siege Engine**](ultimateCombat/spells/magicSiegeEngine.md#_magic-siege-engine): Siege engine gains +1 on targeting and damage rolls.
-- [**Make Whole**](spells/makeWhole.md#_make-whole): Repairs an object.
-- [**Masterwork Transformation**](ultimateMagic/spells/masterworkTransformation.md#_masterwork-transformation): Make a normal item into a masterwork one.
-- [**Oracle's Burden**](advanced/spells/oracleSBurden.md#_oracle's-burden): _(Oracle only.)_ Creature is affected by negative oracle's curse effects.
-- [**Owl's Wisdom**](spells/owlSWisdom.md#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted.md#_wisdom) for 1 min./level.
-- [**Pilfering Hand**](ultimateCombat/spells/pilferingHand.md#_pilfering-hand): You may seize an object or manipulate it from afar.
-- [**Protection from Chaos, Communal**](ultimateCombat/spells/protectionFromChaos.md#_protection-from-chaos,-communal): As _ [protection from chaos](spells/protectionFromChaos.md#_protection-from-chaos)_, but you may divide the duration among creatures touched.
-- [**Protection from Evil, Communal**](ultimateCombat/spells/protectionFromEvil.md#_protection-from-evil,-communal): As _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_, but you may divide the duration among creatures touched.
-- [**Protection from Good, Communal**](ultimateCombat/spells/protectionFromGood.md#_protection-from-good,-communal): As _ [protection from good](spells/protectionFromGood.md#_protection-from-good)_, but you may divide the duration among creatures touched.
-- [**Protection from Law, Communal**](ultimateCombat/spells/protectionFromLaw.md#_protection-from-law,-communal): As _ [protection from law](spells/protectionFromLaw.md#_protection-from-law)_, but you may divide the duration among creatures touched.
-- [**Protective Penumbra**](ultimateMagic/spells/protectivePenumbra.md#_protective-penumbra): Shadow protects the target from light.
-- [**Reinforce Armaments, Communal**](ultimateCombat/spells/reinforceArmaments.md#_reinforce-armaments,-communal): As _ [reinforce armaments](ultimateCombat/spells/reinforceArmaments.md#_reinforce-armaments)_, but you may divide the duration among objects touched.
-- [**Remove Paralysis**](spells/removeParalysis.md#_remove-paralysis): Frees creatures from paralysis or _ [slow](spells/slow.md#_slow)_ effect.
-- [**Resist Energy**](spells/resistEnergy.md#_resist-energy): Ignores 10 (or more) points of damage/attack from specified energy type.
-- [**Restoration, Lesser**](spells/restoration.md#_restoration-lesser): Dispels magical ability penalty or repairs 1d4 ability damage.
-- [**Returning Weapon**](ultimateCombat/spells/returningWeapon.md#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons.md#_weapons-returning)_ special weapon quality.
-- [**Sacred Space**](advancedRaceGuide/featuredRaces/aasimars.md#_sacred-space): Sanctifies an area with heavenly power.
-- [**Savage Maw**](advancedRaceGuide/coreRaces/halfOrcs.md#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
-- [**Sentry Skull**](advancedRaceGuide/featuredRaces/orcs.md#_sentry-skull): Restore the senses to the severed head of a humanoid or monstrous humanoid killed within the past 24 hours, creating a grisly sentinel.
-- [**Shard of Chaos**](ultimateMagic/spells/shardOfChaos.md#_shard-of-chaos): Harm and possibly slow lawful creatures.
-- [**Share Language**](advanced/spells/shareLanguage.md#_share-language-): Subject understands chosen language.
-- [**Shatter**](spells/shatter.md#_shatter): Sonic vibration damages objects or crystalline creatures.
-- [**Shield Other**](spells/shieldOther.md#_shield-other)F: You take half of subject's damage.
-- [**Silence**](spells/silence.md#_silence): Negates sound in 20-ft. radius.
-- [**Sound Burst**](spells/soundBurst.md#_sound-burst): Deals 1d8 sonic damage to subjects; may stun them.
-- [**Spear of Purity**](ultimateMagic/spells/spearOfPurity.md#_spear-of-purity): Harm and possibly blind evil creatures.
-- [**Spiritual Weapon**](spells/spiritualWeapon.md#_spiritual-weapon): Magic weapon attacks on its own.
-- [**Status**](spells/status.md#_status): Monitors condition, position of allies.
-- [**Summon Monster II**](spells/summonMonster.md#_summon-monster-ii): Summons extraplanar creature to fight for you.
-- [**Surmount Affliction**](ultimateMagic/spells/surmountAffliction.md#_surmount-affliction): Temporarily suppress one condition.
-- [**Undetectable Alignment**](spells/undetectableAlignment.md#_undetectable-alignment): Conceals alignment for 24 hours.
-- [**Weapon of Awe**](advanced/spells/weaponOfAwe.md#_weapon-of-awe): Weapon gets +2 on damage rolls.
-- [**Web Shelter**](ultimateMagic/spells/webShelter.md#_web-shelter): Create a comfortable shelter made of webbing.
-- [**Whispering Lore**](advancedRaceGuide/coreRaces/elves.md#_whispering-lore): You are able to gain knowledge from the land itself.
-- [**Zone of Truth**](spells/zoneOfTruth.md#_zone-of-truth): Subjects within range cannot lie.
-
-- [**Agonize**](ultimateMagic/spells/agonize.md#_agonize-): Pain encourages an outsider to obey you.
-- [**Agonizing Rebuke**](advancedRaceGuide/featuredRaces/hobgoblins.md#_agonizing-rebuke): You instill such apprehension about attacking you in your target that doing so causes it mental distress and pain.
-- [**Animate Dead**](spells/animateDead.md#_animate-dead)M: Creates undead skeletons and zombies.
-- [**Archon's Aura**](ultimateMagic/spells/archonSAura.md#_archon's-aura): Aura penalizes enemy attacks and AC.
-- [**Badger's Ferocity**](ultimateMagic/spells/badgerSFerocity.md#_badger's-ferocity): Weapons are _ [keen](/magicItems/weapons.md#_weapons-keen)_ while you concentrate.
-- [**Bestow Curse**](spells/bestowCurse.md#_bestow-curse): –6 to an ability score; –4 on attack rolls, saves, and checks; or 50% chance of losing each action.
-- [**Bestow Insight**](advancedRaceGuide/coreRaces/humans.md#_bestow-insight): Target gains a +2 insight bonus and is considered trained in one single ranked skill.
-- [**Blessing of the Mole**](ultimateMagic/spells/blessingOfTheMole.md#_blessing-of-the-mole): 1 ally/level gains darkvision and a +2 [Stealth](/skills/stealth.md#_stealth) bonus.
-- [**Blindness/Deafness**](spells/blindnessDeafness.md#_blindness-deafness): Makes subject [blinded](glossary.md#_blinded) or deafened.
-- [**Blood Biography**](advanced/spells/bloodBiography.md#_blood-biography-): Learn about a creature with its blood.
-- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs.md#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
-- [**Borrow Fortune**](advanced/spells/borrowFortune.md#_borrow-fortune): _(Oracle only.)_ Retry attack or check, but do worse on next two.
-- [**Chain of Perdition**](ultimateCombat/spells/chainOfPerdition.md#_chain-of-perdition): Creates a floating chain of force.
-- [**Contagion**](spells/contagion.md#_contagion): Infects subject with chosen disease.
-- [**Continual Flame**](spells/continualFlame.md#_continual-flame)M: Makes a permanent, heatless light.
-- [**Create Food and Water**](spells/createFoodAndWater.md#_create-food-and-water): Feeds three humans (or one horse)/level.
-- [**Cure Serious Wounds**](spells/cureSeriousWounds.md#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
-- [**Daybreak Arrow**](ultimateCombat/spells/daybreakArrow.md#_daybreak-arrow): Targeted ammunition exudes radiant energy.
-- [**Daylight**](spells/daylight.md#_daylight): 60-ft. radius of bright light.
-- [**Deadly Juggernaut**](ultimateCombat/spells/deadlyJuggernaut.md#_deadly-juggernaut): Your might increases with every kill you make.
-- [**Deeper Darkness**](spells/deeperDarkness.md#_deeper-darkness): Object sheds supernatural shadow in 60-ft. radius.
-- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison.md#_delay-poison,-communal): As _ [delay poison](spells/delayPoison.md#_delay-poison)_, but you may divide the duration among creatures touched.
-- [**Discovery Torch**](ultimateCombat/spells/discoveryTorch.md#_discovery-torch-): Touched object emanates bright light, granting [Perception](skills/perception.md#_perception) and [Sense Motive](skills/senseMotive.md#_sense-motive) bonuses.
-- [**Dispel Magic**](spells/dispelMagic.md#_dispel-magic): Cancels one magical spell or effect.
-- [**Elemental Speech**](advanced/spells/elementalSpeech.md#_elemental-speech): You can speak with elementals and some creatures.
-- [**Enter Image**](advanced/spells/enterImage.md#_enter-image-): Transfers your consciousness to an object bearing your likeness.
-- [**Glyph of Warding**](spells/glyphOfWarding.md#_glyph-of-warding)M: Inscription harms those who pass it.
-- [**Guiding Star**](advanced/spells/guidingStar.md#_guiding-star-): Know approximate distance from where you cast this spell.
-- [**Helping Hand**](spells/helpingHand.md#_helping-hand): Ghostly hand leads subject to you.
-- [**Inflict Serious Wounds**](spells/inflictSeriousWounds.md#_inflict-serious-wounds): Touch attack, 3d8 damage + 1/level (max +15).
-- [**Invisibility Purge**](spells/invisibilityPurge.md#_invisibility-purge): Dispels invisibility within 5 ft./level.
-- [**Ki Leech**](ultimateMagic/spells/kiLeech.md#_ki-leech): Add to your _ki_ pool when you critically hit.
-- [**Locate Object**](spells/locateObject.md#_locate-object): Senses direction toward object (specific or type).
-- [**Magic Circle against Chaos/Evil/Good/Law**](spells/magicCircleAgainstChaos.md#_magic-circle-against-chaos): As _protection _spells, but 10-ft. radius and 10 min./level.
-- [**Magic Vestment**](spells/magicVestment.md#_magic-vestment): Armor or shield gains +1 enhancement per four levels.
-- [**Meld into Stone**](spells/meldIntoStone.md#_meld-into-stone): You and your gear merge with stone.
-- [**Nap Stack**](advanced/spells/napStack.md#_nap-stack-)M: Subjects only need 2 hours for a night's sleep, and can sleep even longer for more benefits.
-- [**Obscure Object**](spells/obscureObject.md#_obscure-object): Masks object against [scrying](spells/scrying.md#_scrying).
-- [**Paragon Surge**](advancedRaceGuide/coreRaces/halfElves.md#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
-- [**Prayer**](spells/prayer.md#_prayer): Allies get +1 bonus on most rolls, enemies –1 penalty.
-- [**Protection from Energy**](spells/protectionFromEnergy.md#_protection-from-energy): Absorb 12 points/level of damage from one kind of energy.
-- [**Raging Rubble**](advancedRaceGuide/featuredRaces/oreads.md#_raging-rubble): You animate an area of rubble, creating a dangerous, rolling area of debris.
-- [**Remove Blindness/Deafness**](spells/removeBlindnessDeafness.md#_remove-blindness-deafness): Cures normal or magical blindness or deafness.
-- [**Remove Curse**](spells/removeCurse.md#_remove-curse): Frees object or person from curse.
-- [**Remove Disease**](spells/removeDisease.md#_remove-disease): Cures all diseases affecting subject.
-- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy.md#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy.md#_resist-energy)_, but you may divide the duration among creatures touched.
-- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon.md#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon.md#_returning-weapon)_, but you may divide the duration among weapons touched.
-- [**Sacred Bond**](advanced/spells/sacredBond.md#_sacred-bond)F: Cast touch healing spells from a distance.
-- [**Sands of Time**](ultimateMagic/spells/sandsOfTime.md#_sands-of-time): Target temporarily ages.
-- [**Searing Light**](spells/searingLight.md#_searing-light): Ray deals 1d8/two levels damage (more against undead).
-- [**Share Language, Communal**](ultimateCombat/spells/shareLanguage.md#_share-language,-communal): As _ [share language](advanced/spells/shareLanguage.md#_share-language-)_, but you may divide the duration among creatures touched.
-- [**Speak with Dead**](spells/speakWithDead.md#_speak-with-dead): Corpse answers one question/two levels.
-- [**Stone Shape**](spells/stoneShape.md#_stone-shape): Sculpts stone into any shape.
-- [**Summon Monster III**](spells/summonMonster.md#_summon-monster-iii): Summons extraplanar creature to fight for you.
-- [**Symbol of Healing**](ultimateMagic/spells/symbolOfHealing.md#_symbol-of-healing): Triggered rune heals living creatures.
-- [**Vision of Hell**](ultimateMagic/spells/visionOfHell.md#_vision-of-hell): Illusory hellscape makes creatures shaken.
-- [**Water Breathing**](spells/waterBreathing.md#_water-breathing): Subjects can breathe underwater.
-- [**Water Walk**](spells/waterWalk.md#_water-walk): Subject treads on water as if solid.
-- [**Wind Wall**](spells/windWall.md#_wind-wall): Deflects arrows, smaller creatures, and gases.
-- [**Wrathful Mantle**](advanced/spells/wrathfulMantle.md#_wrathful-mantle): Subject gets +1/four levels on all saves.
-
-- [**Air Walk**](spells/airWalk.md#_air-walk): Subject treads on air as if solid (climb or descend at 45-degree angle).
-- [**Aura of Doom**](ultimateMagic/spells/auraOfDoom.md#_aura-of-doom): Creatures in your aura become shaken.
-- [**Battle Trance**](advancedRaceGuide/coreRaces/halfOrcs.md#_battle-trance): You are transformed into a single-minded force of destruction.
-- [**Blessing of Fervor**](advanced/spells/blessingOfFervor.md#_blessing-of-fervor): Gives allies a choice of benefits.
-- [**Blood Crow Strike**](ultimateMagic/spells/bloodCrowStrike.md#_blood-crow-strike): Unarmed strikes create crows that deal fire and negative energy damage.
-- [**Chaos Hammer**](spells/chaosHammer.md#_chaos-hammer): Harms and slows lawful creatures (1d8 damage/2 levels).
-- [**Control Summoned Creature**](ultimateMagic/spells/controlSummonedCreature.md#_control-summoned-creature): Direct a summoned monster as if you had summoned it.
-- [**Control Water**](spells/controlWater.md#_control-water): Raises or lowers bodies of water.
-- [**Cure Critical Wounds**](spells/cureCriticalWounds.md#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
-- [**Death Ward**](spells/deathWard.md#_death-ward): Grants bonuses against death spells and negative energy.
-- [**Debilitating Portent**](ultimateCombat/spells/debilitatingPortent.md#_debilitating-portent): Inflicts an ill fate on a creature, halving its damage when it attacks or casts a spell.
-- [**Dimensional Anchor**](spells/dimensionalAnchor.md#_dimensional-anchor): Bars extradimensional movement.
-- [**Discern Lies**](spells/discernLies.md#_discern-lies): Reveals deliberate falsehoods.
-- [**Dismissal**](spells/dismissal.md#_dismissal): Forces a creature to return to native plane.
-- [**Divination**](spells/divination.md#_divination)M: Provides useful advice for specific proposed actions.
-- [**Divine Power**](spells/divinePower.md#_divine-power): You gain attack bonuses and 1 hp/level.
-- [**Fleshworm Infestation**](ultimateMagic/spells/fleshwormInfestation.md#_fleshworm-infestation): Worms deal hp and Dex damage.
-- [**Freedom of Movement**](spells/freedomOfMovement.md#_freedom-of-movement): Subject moves normally despite impediments to movement.
-- [**Giant Vermin**](spells/giantVermin.md#_giant-vermin): Turns centipedes, scorpions, or spiders into giant vermin.
-- [**Healing Warmth**](advancedRaceGuide/featuredRaces/ifrits.md#_healing-warmth): Temporary immunity to fire damage as _protection from energy_.
-- [**Holy Smite**](spells/holySmite.md#_holy-smite): Harms and possibly blinds evil creatures (1d8 damage/2 levels).
-- [**Imbue with Spell Ability**](spells/imbueWithSpellAbility.md#_imbue-with-spell-ability): Transfer spells to subject.
-- [**Inflict Critical Wounds**](spells/inflictCriticalWounds.md#_inflict-critical-wounds): Touch attack, 4d8 damage + 1/level (max +20).
-- [**Magic Weapon, Greater**](spells/magicWeapon.md#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
-- [**Neutralize Poison**](spells/neutralizePoison.md#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
-- [**Order's Wrath**](spells/orderSWrath.md#_order-s-wrath): Harms and dazes chaotic creatures (1d8 damage/2 levels).
-- [**Plague Carrier**](ultimateMagic/spells/plagueCarrier.md#_plague-carrier): Target's attacks carry filth fever.
-- [**Planar Adaptation**](advanced/spells/planarAdaptation.md#_planar-adaptation): Resist harmful effects of other plane.
-- [**Planar Ally, Lesser**](spells/planarAlly.md#_planar-ally-lesser)M: Exchange services with a 6 HD extraplanar creature.
-- [**Poison**](spells/poison.md#_poison): Touch deals 1d3 [Con](gettingStarted.md#_constitution) damage 1/round for 6 rounds.
-- [**Protection from Energy, Communal**](ultimateCombat/spells/protectionFromEnergy.md#_protection-from-energy,-communal): As _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, but you may divide the duration among creatures touched.
-- [**Repel Vermin**](spells/repelVermin.md#_repel-vermin): Insects, spiders, and other vermin stay 10 ft. away.
-- [**Rest Eternal**](advanced/spells/restEternal.md#_rest-eternal)M: Dead creature cannot be revived.
-- [**Restoration**](spells/restoration.md#_restoration)M: Restores level and ability score drains.
-- [**Ride the Waves**](ultimateMagic/spells/rideTheWaves.md#_ride-the-waves): Target can breathe water and swim.
-- [**Sending**](spells/sending.md#_sending): Delivers short message anywhere, instantly.
-- [**Soothe Construct**](ultimateMagic/spells/sootheConstruct.md#_soothe-construct): Reduce the berserk chance of a construct.
-- [**Spell Immunity**](spells/spellImmunity.md#_spell-immunity): Subject is immune to one spell per 4 levels.
-- [**Spiritual Ally**](advanced/spells/spiritualAlly.md#_spiritual-ally): Creates a divine ally to aid you.
-- [**Spit Venom**](ultimateMagic/spells/spitVenom.md#_spit-venom): Spit blinding black adder venom.
-- [**Summon Monster IV**](spells/summonMonster.md#_summon-monster-iv): Summons extraplanar creature to fight for you.
-- [**Summoner Conduit**](ultimateCombat/spells/summonerConduit.md#_summoner-conduit): The target takes damage whenever its summoned creature does.
-- [**Symbol of Revelation**](ultimateMagic/spells/symbolOfRevelation.md#_symbol-of-revelation): Triggered symbol reveals illusions.
-- [**Symbol of Slowing**](ultimateMagic/spells/symbolOfSlowing.md#_symbol-of-slowing): Triggered rune slows creatures.
-- [**Terrible Remorse**](ultimateMagic/spells/terribleRemorse.md#_terrible-remorse): Creature is compelled to harm itself.
-- [**Tongues**](spells/tongues.md#_tongues): Speak and understand any language.
-- [**Unholy Blight**](spells/unholyBlight.md#_unholy-blight): Harms and sickens good creatures (1d8 damage/2 levels).
-- [**Ward of the Season**](advancedRaceGuide/coreRaces/elves.md#_ward-of-the-season): Harnesses the power of the seasons to protect the target and grant a number of bonuses.
-- [**Water Walk, Communal**](ultimateCombat/spells/waterWalk.md#_water-walk,-communal): As _ [water walk](spells/waterWalk.md#_water-walk)_, but you may divide the duration among creatures touched.
-
-- [**Air Walk, Communal**](ultimateCombat/spells/airWalk.md#_air-walk,-communal): As _ [air walk](spells/airWalk.md#_air-walk)_, but you may divide the duration among creatures touched.
-- [**Astral Projection, Lesser**](ultimateMagic/spells/astralProjection.md#_astral-projection,-lesser): Limited astral travel.
-- [**Atonement**](spells/atonement.md#_atonement)FM: Removes burden of misdeeds from subject and reverses magical alignment change.
-- [**Break Enchantment**](spells/breakEnchantment.md#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
-- [**Breath of Life**](spells/breathOfLife.md#_breath-of-life): Cures 5d8 damage + 1/level and restores life to recently slain creatures.
-- [**Cleanse**](advanced/spells/cleanse.md#_cleanse): Cures 4d8 damage +1/level (max +25) and also removes several afflictions.
-- [**Command, Greater**](spells/command.md#_command-greater): As _ [command](spells/command.md#_command), _but affects one subject/level.
-- [**Commune**](spells/commune.md#_commune)M: Deity answers one yes-or-no question/level.
-- [**Contagion, Greater**](ultimateMagic/spells/contagion.md#_contagion,-greater): Infect a subject with a magical disease.
-- [**Cure Light Wounds, Mass**](spells/cureLightWounds.md#_cure-light-wounds-mass): Cures 1d8 damage + 1/level, affects 1 subject/level.
-- [**Curse of Magic Negation**](ultimateMagic/spells/curseOfMagicNegation.md#_curse-of-magic-negation): Target gains the negated spellblight.
-- [**Curse, Major**](ultimateMagic/spells/curse.md#_curse,-major): As _ [bestow curse](/spells/bestowCurse.md#_bestow-curse)_, but harder to remove.
-- [**Dispel Chaos/Evil/Good/Law**](spells/dispelEvil.md#_dispel-evil): +4 bonus against attacks.
-- [**Disrupting Weapon**](spells/disruptingWeapon.md#_disrupting-weapon): Melee weapon destroys undead.
-- [**Fickle Winds**](ultimateMagic/spells/fickleWinds.md#_fickle-winds): Wind walls selectively block attacks.
-- [**Flame Strike**](spells/flameStrike.md#_flame-strike): Smites foes with divine fire (1d6/level damage).
-- [**Forbid Action, Greater**](ultimateMagic/spells/forbidAction.md#_forbid-action,-greater): As _ [forbid action](ultimateMagic/spells/forbidAction.md#_forbid-action)_, but 1 creature/level.
-- [**Ghostbane Dirge, Mass**](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge,-mass): As _ [ghostbane dirge](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge)_, but affects multiple creatures.
-- [**Half-blood Extraction**](advancedRaceGuide/coreRaces/halfOrcs.md#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
-- [**Hallow**](spells/hallow.md#_hallow)M: Designates location as holy.
-- [**Holy Ice**](ultimateMagic/spells/holyIce.md#_holy-ice): Create wall or javelins of frozen holy water.
-- [**Inflict Light Wounds, Mass**](spells/inflictLightWounds.md#_inflict-light-wounds-mass): Deals 1d8 damage + 1/level, affects 1 subject/level.
-- [**Insect Plague**](spells/insectPlague.md#_insect-plague): Wasp swarms attack creatures.
-- [**Life Bubble**](advanced/spells/lifeBubble.md#_life-bubble-): Protects creatures from environment.
-- [**Magic Siege Engine, Greater**](ultimateCombat/spells/magicSiegeEngine.md#_magic-siege-engine,-greater): Siege engine gains +1 on targeting and damage rolls for every four caster levels.
-- [**Mark of Justice**](spells/markOfJustice.md#_mark-of-justice): Designates action that triggers _curse _on subject.
-- [**Pillar of Life**](advanced/spells/pillarOfLife.md#_pillar-of-life): Created pillar heals 2d8 + 1/level (max +20).
-- [**Plane Shift**](spells/planeShift.md#_plane-shift)F: As many as 8 subjects travel to another plane.
-- [**Raise Dead**](spells/raiseDead.md#_raise-dead)M: Restores life to subject who died as long as one day/level ago.
-- [**Rapid Repair**](ultimateMagic/spells/rapidRepair.md#_rapid-repair): Construct gains fast healing 5.
-- [**Reprobation**](ultimateMagic/spells/reprobation.md#_reprobation): Marked target is shunned by your religion.
-- [**Righteous Might**](spells/righteousMight.md#_righteous-might): Your size increases, and you gain bonuses in combat.
-- [**Scrying**](spells/scrying.md#_scrying)F: Spies on subject from a distance.
-- [**Serenity**](ultimateMagic/spells/serenity.md#_serenity): Peaceful feelings harm those attempting violence.
-- [**Slay Living**](spells/slayLiving.md#_slay-living): Touch attack deals 12d6 + 1 per level.
-- [**Snake Staff**](advanced/spells/snakeStaff.md#_snake-staff): Transforms staff or other wood into snakes to fight for you.
-- [**Spawn Ward**](advancedRaceGuide/featuredRaces/dhampirs.md#_spawn-ward): Target becomes resistant to the effects of energy drain and blood drain attacks made by undead creatures.
-- [**Spell Immunity, Communal**](ultimateCombat/spells/spellImmunity.md#_spell-immunity,-communal): As _ [spell immunity](spells/spellImmunity.md#_spell-immunity)_, but you may divide the duration among creatures touched.
-- [**Spell Resistance**](spells/spellResistance.md#_spell-resistance): Subject gains SR 12 + level.
-- [**Summon Monster V**](spells/summonMonster.md#_summon-monster-v): Summons extraplanar creature to fight for you.
-- [**Symbol of Pain**](spells/symbolOfPain.md#_symbol-of-pain)M: Triggered rune wracks nearby creatures with pain.
-- [**Symbol of Scrying**](ultimateMagic/spells/symbolOfScrying.md#_symbol-of-scrying): Triggered rune activates scrying sensor.
-- [**Symbol of Sleep**](spells/symbolOfSleep.md#_symbol-of-sleep)M: Triggered rune puts nearby creatures into catatonic slumber.
-- [**Symbol of Striking**](ultimateCombat/spells/symbolOfStriking.md#_symbol-of-striking)M: As _ [symbol of death](spells/symbolOfDeath.md#_symbol-of-death)_, but fills a 5-foot square.
-- [**Tongues, Communal**](ultimateCombat/spells/tongues.md#_tongues,-communal): As _ [tongues](spells/tongues.md#_tongues)_, but you may divide the duration among creatures touched.
-- [**Treasure Stitching**](advanced/spells/treasureStitching.md#_treasure-stitching-)M: Objects on cloth become embroidered.
-- [**True Seeing**](spells/trueSeeing.md#_true-seeing)M: Lets you see all things as they really are.
-- [**Unhallow**](spells/unhallow.md#_unhallow)M: Designates location as unholy.
-- [**Unholy Ice**](ultimateMagic/spells/unholyIce.md#_unholy-ice): Create wall or javelins of frozen unholy water.
-- [**Village Veil**](advancedRaceGuide/coreRaces/halflings.md#_village-veil): Creates an illusion over an area to make creatures that view or interact with it believe it has suffered a catastrophe that renders it utterly worthless.
-- [**Wall of Stone**](spells/wallOfStone.md#_wall-of-stone): Creates a stone wall that can be shaped.
-
-- [**Animate Objects**](spells/animateObjects.md#_animate-objects): Objects attack your foes.
-- [**Antilife Shell**](spells/antilifeShell.md#_antilife-shell): 10-ft.-radius field hedges out living creatures.
-- [**Banishment**](spells/banishment.md#_banishment): Banishes 2 HD/level of extraplanar creatures.
-- [**Bear's Endurance, Mass**](spells/bearSEndurance.md#_bear-s-endurance-mass): As _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, affects 1 subject/level.
-- [**Blade Barrier**](spells/bladeBarrier.md#_blade-barrier): Wall of blades deals 1d6/level damage.
-- [**Blessing of Luck and Resolve, Mass**](advancedRaceGuide/coreRaces/halflings.md#_blessing-of-luck-and-resolve,-mass): Functions like _blessing of luck and resolve_, except that it affects multiple creatures.
-- [**Bull's Strength, Mass**](spells/bullSStrength.md#_bull-s-strength-mass): As _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, affects 1 subject/level.
-- [**Cold Ice Strike**](ultimateMagic/spells/coldIceStrike.md#_cold-ice-strike): Cone of ice slivers deals 1d6 cold/level.
-- [**Create Undead**](spells/createUndead.md#_create-undead)M: Create ghasts, ghouls, mohrgs, or mummies.
-- [**Cure Moderate Wounds, Mass**](spells/cureModerateWounds.md#_cure-moderate-wounds-mass): Cures 2d8 damage + 1/level, affects 1 subject/level.
-- [**Dispel Magic, Greater**](spells/dispelMagic.md#_dispel-magic-greater): As _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, but with multiple targets.
-- [**Dust Form**](ultimateCombat/spells/dustForm.md#_dust-form): You become an incorporeal creature of dust for a short period of time.
-- [**Eagle's Splendor, Mass**](spells/eagleSSplendor.md#_eagle-s-splendor-mass): As _ [eagle's splendor](spells/eagleSSplendor.md#_eagle-s-splendor)_, affects 1 subject/level.
-- [**Epidemic**](ultimateMagic/spells/epidemic.md#_epidemic): Infect a subject with a highly contagious disease.
-- [**Find the Path**](spells/findThePath.md#_find-the-path): Shows most direct way to a location.
-- [**Forbiddance**](spells/forbiddance.md#_forbiddance)M: Blocks planar travel, damages creatures of different alignment.
-- [**Geas/Quest**](spells/geasQuest.md#_geas-quest): As _lesser geas, _but affects any creature.
-- [**Glyph of Warding, Greater**](spells/glyphOfWarding.md#_glyph-of-warding-greater)M: As _ [glyph of warding](spells/glyphOfWarding.md#_glyph-of-warding)_, but up to 10d8 damage or 6th-level spell.
-- [**Harm**](spells/harm.md#_harm): Deals 10 points/level damage to target.
-- [**Heal**](spells/heal.md#_heal): Cures 10 points/level damage, all diseases and mental conditions.
-- [**Heroes' Feast**](spells/heroesFeast.md#_heroes-feast): Food for one creature/level cures and grants combat bonuses_._
-- [**Inflict Moderate Wounds, Mass**](spells/inflictModerateWounds.md#_inflict-moderate-wounds-mass): Deals 2d8 damage + 1/level, affects 1 subject/level.
-- [**Joyful Rapture**](ultimateMagic/spells/joyfulRapture.md#_joyful-rapture): Negate harmful emotions.
-- [**Owl's Wisdom, Mass**](spells/owlSWisdom.md#_owl-s-wisdom-mass): As _ [owl's wisdom](spells/owlSWisdom.md#_owl-s-wisdom)_, affects 1 subject/level.
-- [**Plague Storm**](ultimateMagic/spells/plagueStorm.md#_plague-storm): Cloud infects creatures like _ [contagion](/spells/contagion.md#_contagion)_.
-- [**Planar Adaptation, Mass**](advanced/spells/planarAdaptation.md#_planar-adaptation,-mass): As _ [planar adaptation](advanced/spells/planarAdaptation.md#_planar-adaptation)_, but affects multiple creatures.
-- [**Planar Ally**](spells/planarAlly.md#_planar-ally)M: As _ [lesser planar ally](spells/planarAlly.md#_planar-ally-lesser), _but up to 12 HD.
-- [**Summon Monster VI**](spells/summonMonster.md#_summon-monster-vi): Summons extraplanar creature to fight for you.
-- [**Symbol of Fear**](spells/symbolOfFear.md#_symbol-of-fear)M: Triggered rune panics nearby creatures.
-- [**Symbol of Persuasion**](spells/symbolOfPersuasion.md#_symbol-of-persuasion)M: Triggered rune charms nearby creatures.
-- [**Symbol of Sealing**](ultimateMagic/spells/symbolOfSealing.md#_symbol-of-sealing): Creates triggered _ [wall of force](/spells/wallOfForce.md#_wall-of-force)_.
-- [**Truespeak**](advancedRaceGuide/featuredRaces/aasimars.md#_truespeak): You can communicate with any creature that is not mindless.
-- [**Undeath to Death**](spells/undeathToDeath.md#_undeath-to-death)M: Destroys 1d4 HD/level undead (max. 20d4).
-- [**Wind Walk**](spells/windWalk.md#_wind-walk): You and your allies turn vaporous and travel fast.
-- [**Word of Recall**](spells/wordOfRecall.md#_word-of-recall): Teleports you back to designated place.
-
-- [**Bestow Grace of the Champion**](ultimateMagic/spells/bestowGraceOfTheChampion.md#_bestow-grace-of-the-champion): Target gains paladin abilities for 1 round/level.
-- [**Blasphemy**](spells/blasphemy.md#_blasphemy): Kills, paralyzes, weakens, or dazes nonevil subjects.
-- [**Circle of Clarity**](ultimateMagic/spells/circleOfClarity.md#_circle-of-clarity): Emanation hampers illusions and stealth.
-- [**Control Weather**](spells/controlWeather.md#_control-weather): Changes weather in local area.
-- [**Create Demiplane, Lesser**](ultimateMagic/spells/createDemiplane.md#_create-demiplane,-lesser): Create your own demiplane.
-- [**Cure Serious Wounds, Mass**](spells/cureSeriousWounds.md#_cure-serious-wounds-mass): Cures 3d8 damage + 1/level, affects 1 subject/level.
-- [**Destruction**](spells/destruction.md#_destruction)F: Kills subject and destroys remains.
-- [**Dictum**](spells/dictum.md#_dictum): Kills, paralyzes, staggers, or deafens nonlawful targets.
-- [**Ethereal Jaunt**](spells/etherealJaunt.md#_ethereal-jaunt): You become ethereal for 1 round/level.
-- [**Holy Word**](spells/holyWord.md#_holy-word): Kills, paralyzes, blinds, or deafens nongood subjects.
-- [**Inflict Serious Wounds, Mass**](spells/inflictSeriousWounds.md#_inflict-serious-wounds-mass): Deals 3d8 damage + 1/level, affects 1 subject/level.
-- [**Jolting Portent**](ultimateCombat/spells/joltingPortent.md#_jolting-portent): You inflict a vengeful fate on a creature, dealing electricity damage each time it attacks or casts a spell.
-- [**Lunar Veil**](ultimateMagic/spells/lunarVeil.md#_lunar-veil): Dispel light and revert lycanthropes.
-- [**Refuge**](spells/refuge.md#_refuge)M: Alters item to transport its possessor to you.
-- [**Regenerate**](spells/regenerate.md#_regenerate): Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).
-- [**Repulsion**](spells/repulsion.md#_repulsion): Creatures can't approach you.
-- [**Restoration, Greater**](spells/restoration.md#_restoration-greater)M: As _ [restoration](spells/restoration.md#_restoration), _plus restores all levels and ability scores.
-- [**Resurrection**](spells/resurrection.md#_resurrection)M: Fully restore dead subject.
-- [**Scrying, Greater**](spells/scrying.md#_scrying-greater): As _ [scrying](spells/scrying.md#_scrying)_, but faster and longer.
-- [**Summon Monster VII**](spells/summonMonster.md#_summon-monster-vii): Summons extraplanar creature to fight for you.
-- [**Symbol of Stunning**](spells/symbolOfStunning.md#_symbol-of-stunning)M: Triggered rune stuns nearby creatures.
-- [**Symbol of Weakness**](spells/symbolOfWeakness.md#_symbol-of-weakness)M: Triggered rune weakens nearby creatures.
-- [**Waves of Ecstasy**](ultimateMagic/spells/wavesOfEcstasy.md#_waves-of-ecstasy): Pleasure stuns and staggers creatures.
-- [**Word of Chaos**](spells/wordOfChaos.md#_word-of-chaos): Kills, confuses_, _stuns, or deafens nonchaotic subjects.
-
-- [**Antimagic Field**](spells/antimagicField.md#_antimagic-field): Negates magic within 10 ft.
-- [**Call Construct**](ultimateMagic/spells/callConstruct.md#_call-construct): Summon your golem to you.
-- [**Cloak of Chaos**](spells/cloakOfChaos.md#_cloak-of-chaos)F: +4 to [AC](combat.md#_armor-class), +4 resistance, and SR 25 against lawful spells.
-- [**Create Demiplane**](ultimateMagic/spells/createDemiplane.md#_create-demiplane): As _ [lesser create demiplane](ultimateMagic/spells/createDemiplane.md#_create-demiplane,-lesser)_, but larger and with planar traits.
-- [**Create Greater Undead**](spells/createGreaterUndead.md#_create-greater-undead)M: Create shadows, wraiths, spectres, or devourers.
-- [**Cure Critical Wounds, Mass**](spells/cureCriticalWounds.md#_cure-critical-wounds-mass): Cures 4d8 damage + 1/level for many creatures.
-- [**Dimensional Lock**](spells/dimensionalLock.md#_dimensional-lock): Teleportation and interplanar travel blocked for 1 day/level.
-- [**Discern Location**](spells/discernLocation.md#_discern-location): Reveals exact location of creature or object.
-- [**Divine Vessel**](advanced/spells/divineVessel.md#_divine-vessel): _(Oracle only.)_ Change into a huge, otherworldly creature.
-- [**Earthquake**](spells/earthquake.md#_earthquake): Intense tremor shakes 80-ft. radius.
-- [**Euphoric Tranquility**](advanced/spells/euphoricTranquility.md#_euphoric-tranquility): Makes a single creature peaceful and friendly.
-- [**Fire Storm**](spells/fireStorm.md#_fire-storm): Deals 1d6/level fire damage.
-- [**Frightful Aspect**](ultimateCombat/spells/frightfulAspect.md#_frightful-aspect): You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.
-- [**Holy Aura**](spells/holyAura.md#_holy-aura)F: +4 to [AC](combat.md#_armor-class), +4 resistance, and SR 25 against evil spells.
-- [**Inflict Critical Wounds, Mass**](spells/inflictCriticalWounds.md#_inflict-critical-wounds-mass): Deals 4d8 damage + 1/level, affects 1 subject/level.
-- [**Nine Lives**](advancedRaceGuide/featuredRaces/catfolk.md#_nine-lives): Gives the target the ability to get out of trouble and relieves harmful effects and conditions.
-- [**Orb of the Void**](ultimateMagic/spells/orbOfTheVoid.md#_orb-of-the-void): Sphere inflicts negative levels.
-- [**Planar Ally, Greater**](spells/planarAlly.md#_planar-ally-greater)M: As _ [lesser planar ally](spells/planarAlly.md#_planar-ally-lesser), _but up to 18 HD.
-- [**Shield of Law**](spells/shieldOfLaw.md#_shield-of-law)F: +4 to [AC](combat.md#_armor-class), +4 resistance, and SR 25 against chaotic spells.
-- [**Spell Immunity, Greater**](spells/spellImmunity.md#_spell-immunity-greater): As _ [spell immunity](spells/spellImmunity.md#_spell-immunity), _but up to 8th-level spells.
-- [**Stormbolts**](advanced/spells/stormbolts.md#_stormbolts): 1d8 damage/level (max 20d8) to targets.
-- [**Summon Monster VIII**](spells/summonMonster.md#_summon-monster-viii): Summons extraplanar creature to fight for you.
-- [**Symbol of Death**](spells/symbolOfDeath.md#_symbol-of-death)M: Triggered rune kills nearby creatures.
-- [**Symbol of Insanity**](spells/symbolOfInsanity.md#_symbol-of-insanity)M: Triggered rune renders nearby creatures insane.
-- [**Unholy Aura**](spells/unholyAura.md#_unholy-aura)F: +4 to [AC](combat.md#_armor-class), +4 resistance, and SR 25 against good spells.
-
-- [**Astral Projection**](spells/astralProjection.md#_astral-projection)M: Projects you and others onto Astral Plane.
-- [**Create Demiplane, Greater**](ultimateMagic/spells/createDemiplane.md#_create-demiplane,-greater): As _ [create demiplane](ultimateMagic/spells/createDemiplane.md#_create-demiplane)_, but larger and with more planar traits.
-- [**Cursed Earth**](ultimateMagic/spells/cursedEarth.md#_cursed-earth): Plants die, living creatures catch diseases, or dead creatures rise as zombies.
-- [**Energy Drain**](spells/energyDrain.md#_energy-drain): Subject gains 2d4 [negative levels](glossary.md#_energy-drain-and-negative-levels).
-- [**Etherealness**](spells/etherealness.md#_etherealness): Travel to Ethereal Plane with companions.
-- [**Gate**](spells/gate.md#_gate)M: Connects two planes for travel or summoning.
-- [**Heal, Mass**](spells/heal.md#_heal-mass): As _ [heal](spells/heal.md#_heal)_, but affects 1 subject/level.
-- [**Implosion**](spells/implosion.md#_implosion): Inflict 10 damage/level to one creature/round.
-- [**Interplanetary Teleport**](ultimateMagic/spells/interplanetaryTeleport.md#_interplanetary-teleport): Teleport to another planet.
-- [**Miracle**](spells/miracle.md#_miracle)M: Requests a deity's intercession.
-- [**Overwhelming Presence**](ultimateMagic/spells/overwhelmingPresence.md#_overwhelming-presence): Creatures bow before you as if you were divine.
-- [**Polar Midnight**](ultimateMagic/spells/polarMidnight.md#_polar-midnight): Cold darkness paralyzes and deals damage.
-- [**Soul Bind**](spells/soulBind.md#_soul-bind)F: Traps newly dead soul to prevent _ [resurrection](spells/resurrection.md#_resurrection)_.
-- [**Spell Immunity, Greater Communal**](ultimateCombat/spells/spellImmunity.md#_spell-immunity,-greater-communal): As _ [greater spell immunity](spells/spellImmunity.md#_spell-immunity-greater)_, but you may divide the duration among creatures touched.
-- [**Storm of Vengeance**](spells/stormOfVengeance.md#_storm-of-vengeance): Storm rains acid, lightning, and hail.
-- [**Summon Monster IX**](spells/summonMonster.md#_summon-monster-ix): Summons extraplanar creature to fight for you.
-- [**Symbol of Strife**](ultimateMagic/spells/symbolOfStrife.md#_symbol-of-strife): Triggered rune makes creatures attack.
-- [**Symbol of Vulnerability**](ultimateMagic/spells/symbolOfVulnerability.md#_symbol-of-vulnerability): Triggered rune gives penalties.
-- [**True Resurrection**](spells/trueResurrection.md#_true-resurrection)M: As _ [resurrection](spells/resurrection.md#_resurrection)_, plus remains aren't needed.
-- [**Winds of Vengeance**](advanced/spells/windsOfVengeance.md#_winds-of-vengeance): Grants flight; attack with wind.
-- [**Wooden Phalanx**](ultimateMagic/spells/woodenPhalanx.md#_wooden-phalanx): Creates 1d4+2 temporary wood golems to fight for you.
-
-- [**Create Water**](spells/createWater.md#_create-water): Creates 2 gallons/level of pure water.
-- [**Detect Magic**](spells/detectMagic.md#_detect-magic): Detects spells and magic items within 60 ft.
-- [**Detect Poison**](spells/detectPoison.md#_detect-poison): Detects poison in one creature or object.
-- [**Flare**](spells/flare.md#_flare): Dazzles one creature (–1 penalty on attack rolls).
-- [**Guidance**](spells/guidance.md#_guidance): +1 on one attack roll, saving throw, or skill check.
-- [**Know Direction**](spells/knowDirection.md#_know-direction): You discern north.
-- [**Light**](spells/light.md#_light): Object shines like a torch.
-- [**Mending**](spells/mending.md#_mending): Makes minor repairs on an object.
-- [**Purify Food and Drink**](spells/purifyFoodAndDrink.md#_purify-food-and-drink): Purifies 1 cu. ft./level of food or water.
-- [**Read Magic**](spells/readMagic.md#_read-magic): Read scrolls and spellbooks.
-- [**Resistance**](spells/resistance.md#_resistance): Subject gains +1 bonus on saving throws.
-- [**Spark**](advanced/spells/spark.md#_spark-): Ignites flammable objects.
-- [**Stabilize**](spells/stabilize.md#_stabilize): Cause a [dying](glossary.md#_dying) creature to stabilize.
-- [**Virtue**](spells/virtue.md#_virtue): Subject gains 1 temporary hp.
-
-- [**Air Bubble**](ultimateCombat/spells/airBubble.md#_air-bubble): Creates a small pocket of air around your head or an object.
-- [**Alter Winds**](advanced/spells/alterWinds.md#_alter-winds): Increase/decrease strength of natural winds.
-- [**Ant Haul**](advanced/spells/antHaul.md#_ant-haul-): Triples carrying capacity of a creature.
-- [**Aspect of the Falcon**](advanced/spells/aspectOfTheFalcon.md#_aspect-of-the-falcon): Gives bonuses on [Perception](skills/perception.md#_perception) checks and ranged attacks. 
-- [**Blend**](advancedRaceGuide/coreRaces/elves.md#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
-- [**Bristle**](advanced/spells/bristle.md#_bristle-): Trade natural armor bonus for a bonus on attacks with natural weapons.
-- [**Call Animal**](advanced/spells/callAnimal.md#_call-animal): Makes an animal come to you.
-- [**Calm Animals**](spells/calmAnimals.md#_calm-animals): Calms 2d4 + level HD of animals.
-- [**Charm Animal**](spells/charmAnimal.md#_charm-animal): Makes one animal your friend.
-- [**Cloak of Shade**](advanced/spells/cloakOfShade.md#_cloak-of-shade): Reduces effects of sun exposure and heat.
-- [**Commune with Birds**](advancedRaceGuide/featuredRaces/tengus.md#_commune-with-birds): You can understand the responses given by birds.
-- [**Cure Light Wounds**](spells/cureLightWounds.md#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
-- [**Damp Powder**](ultimateCombat/spells/dampPowder.md#_damp-powder): Ruins ammunition loaded in the targeted firearm.
-- [**Deadeye's Lore**](ultimateCombat/spells/deadeyeSLore.md#_deadeye's-lore): Gain a +4 bonus on [Survival](skills/survival.md#_survival) and move full speed while tracking.
-- [**Decompose Corpse**](ultimateMagic/spells/decomposeCorpse.md#_decompose-corpse): Turn a corpse into a clean skeleton.
-- [**Detect Aberration**](advanced/spells/detectAberration.md#_detect-aberration): Reveals presence of aberrations.
-- [**Detect Animals or Plants**](spells/detectAnimalsOrPlants.md#_detect-animals-or-plants): Detects kinds of animals or plants.
-- [**Detect Snares and Pits**](spells/detectSnaresAndPits.md#_detect-snares-and-pits): Reveals natural or primitive traps.
-- [**Diagnose Disease**](ultimateMagic/spells/diagnoseDisease.md#_diagnose-disease): Detect and identify diseases.
-- [**Endure Elements**](spells/endureElements.md#_endure-elements): Exist comfortably in hot or cold regions.
-- [**Entangle**](spells/entangle.md#_entangle): Plants entangle everyone in 40-ft. radius.
-- [**Expeditious Excavation**](advanced/spells/expeditiousExcavation.md#_expeditious-excavation): Moves 5-ft. cubes of earth.
-- [**Faerie Fire**](spells/faerieFire.md#_faerie-fire): Outlines subjects with light, canceling _ [blur](spells/blur.md#_blur)_, concealment, and the like.
-- [**Feather Step**](advanced/spells/featherStep.md#_feather-step): Ignore movement penalty in difficult terrain.
-- [**Flare Burst**](advanced/spells/flareBurst.md#_flare-burst): As _ [flare](spells/flare.md#_flare)_, but all creatures within 10 ft.
-- [**Frostbite**](ultimateMagic/spells/frostbite.md#_frostbite): Target takes cold damage and is fatigued.
-- [**Goodberry**](spells/goodberry.md#_goodberry): 2d4 berries each cure 1 hp (max 8 hp/24 hours).
-- [**Hide from Animals**](spells/hideFromAnimals.md#_hide-from-animals): Animals can't perceive one subject/level.
-- [**Hydraulic Push**](advanced/spells/hydraulicPush.md#_hydraulic-push-): Wave of water bull rushes an enemy.
-- [**Jump**](spells/jump.md#_jump): Subject gets bonus on Acrobatics checks.
-- [**Keen Senses**](advanced/spells/keenSenses.md#_keen-senses): Gain +2 [Perception](skills/perception.md#_perception) and low-light vision.
-- [**Liberating Command**](ultimateCombat/spells/liberatingCommand.md#_liberating-command): Target makes an [Escape Artist](skills/escapeArtist.md#_escape-artist) check as an immediate action and gains a bonus on it.
-- [**Longstrider**](spells/longstrider.md#_longstrider): Your speed increases by 10 ft.
-- [**Magic Fang**](spells/magicFang.md#_magic-fang): One natural weapon of subject creature gets +1 on attack and damage rolls.
-- [**Magic Stone**](spells/magicStone.md#_magic-stone): Three stones gain +1 on attack rolls, deal 1d6+1 damage.
-- [**Marid's Mastery**](advancedRaceGuide/featuredRaces/undines.md#_marid's-mastery): Target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water.
-- [**Mighty Fist of the Earth**](advancedRaceGuide/featuredRaces/oreads.md#_mighty-fist-of-the-earth): You create a fist-sized rock that flies toward one enemy.
-- [**Mudball**](advancedRaceGuide/featuredRaces/goblins.md#_mudball): You conjure a single ball of sticky mud and launch it at an enemy's face as a ranged touch attack.
-- [**Negate Aroma**](advanced/spells/negateAroma.md#_negate-aroma): Subject cannot be tracked by scent.
-- [**Nereid's Grace**](advancedRaceGuide/featuredRaces/undines.md#_nereid's-grace): You radiate the unearthly grace of a nereid.
-- [**Obscuring Mist**](spells/obscuringMist.md#_obscuring-mist): Fog surrounds you.
-- [**Pass without Trace**](spells/passWithoutTrace.md#_pass-without-trace): One subject/level leaves no tracks.
-- [**Produce Flame**](spells/produceFlame.md#_produce-flame): 1d6 damage + 1/level, touch or thrown.
-- [**Ray of Sickening**](ultimateMagic/spells/rayOfSickening.md#_ray-of-sickening): Ray makes the subject sickened.
-- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes.md#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
-- [**Remove Sickness**](ultimateMagic/spells/removeSickness.md#_remove-sickness): Suppress disease, nausea, and the sickened condition.
-- [**Restore Corpse**](ultimateMagic/spells/restoreCorpse.md#_restore-corpse): Skeletal corpse grows flesh.
-- [**Shillelagh**](spells/shillelagh.md#_shillelagh): Cudgel or quarterstaff becomes +1 weapon (2d6 damage) for 1 min./level.
-- [**Speak with Animals**](spells/speakWithAnimals.md#_speak-with-animals): You can communicate with animals.
-- [**Stone Fist**](advanced/spells/stoneFist.md#_stone-fist): Your unarmed strikes are lethal.
-- [**Stone Shield**](advancedRaceGuide/featuredRaces/oreads.md#_stone-shield): 1-inch-thick slab of stone springs up from the ground, shielding you.
-- [**Strong Wings**](advancedRaceGuide/uncommonRaces/strix.md#_strong-wings): The target's wings grow more powerful, increases fly speed by +10 feet and its maneuverability to improve by one category.
-- [**Summon Minor Ally**](ultimateMagic/spells/summonMinorAlly.md#_summon-minor-ally): Summon 1d3 Tiny animals.
-- [**Summon Nature's Ally I**](spells/summonNatureSAlly.md#_summon-nature-s-ally-i): Summons creature to fight.
-- [**Touch of Combustion**](advancedRaceGuide/featuredRaces/ifrits.md#_touch-of-combustion): Causes the target to ignite in a violent burst of flame.
-- [**Touch of the Sea**](advanced/spells/touchOfTheSea.md#_touch-of-the-sea): [Swim](skills/swim.md#_swim) speed becomes 30 ft.
-- [**Weaken Powder**](ultimateCombat/spells/weakenPowder.md#_weaken-powder): Targeted firearm's ammunition halves the firearm's range and imposes a –2 penalty on damage rolls.
-- [**Whispering Lore**](advancedRaceGuide/coreRaces/elves.md#_whispering-lore): You are able to gain knowledge from the land itself.
-- [**Windy Escape**](advancedRaceGuide/featuredRaces/sylphs.md#_windy-escape): You respond to an attack by briefly becoming vaporous and insubstantial.
-- [**Winter Feathers**](advancedRaceGuide/featuredRaces/tengus.md#_winter-feathers): Target's feathers thicken and fluff up to ward against winter's chill.
-
-- [**Aboleth's Lung**](advancedRaceGuide/uncommonRaces/gillmen.md#_aboleth's-lung): Targets are able to breathe water, freely.
-- [**Accelerate Poison**](advanced/spells/acceleratePoison.md#_accelerate-poison): Hastens targeted poison's onset.
-- [**Animal Aspect**](ultimateCombat/spells/animalAspect.md#_animal-aspect): You gain some of the beneficial qualities of an animal.
-- [**Animal Messenger**](spells/animalMessenger.md#_animal-messenger): Sends a Tiny animal to a specific place.
-- [**Animal Trance**](spells/animalTrance.md#_animal-trance): Fascinates 2d6 HD of animals.
-- [**Ant Haul, Communal**](ultimateCombat/spells/antHaul.md#_ant-haul,-communal): As _ [ant haul](advanced/spells/antHaul.md#_ant-haul-)_, but you may divide the duration among creatures touched.
-- [**Aspect of the Bear**](advanced/spells/aspectOfTheBear.md#_aspect-of-the-bear): +2 AC and combat maneuver rolls.
-- [**Barkskin**](spells/barkskin.md#_barkskin): Grants +2 (or higher) enhancement to natural armor.
-- [**Bear's Endurance**](spells/bearSEndurance.md#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted.md#_constitution) for 1 min./level.
-- [**Binding Earth**](advancedRaceGuide/featuredRaces/oreads.md#_binding-earth): Areas of earth and stone floor act as a snapping quagmire that pulls the target down and damages it if it attempts to move through such terrain.
-- [**Bull's Strength**](spells/bullSStrength.md#_bull-s-strength): Subject gains +4 to [Str](gettingStarted.md#_strength) for 1 min./level.
-- [**Burning Gaze**](advanced/spells/burningGaze.md#_burning-gaze): Inflict 1d6 fire damage to creature.
-- [**Campfire Wall**](advanced/spells/campfireWall.md#_campfire-wall-): Creates a shelter around a campfire.
-- [**Cat's Grace**](spells/catSGrace.md#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted.md#_dexterity) for 1 min./level.
-- [**Certain Grip**](ultimateCombat/spells/certainGrip.md#_certain-grip-): You gain a +4 competence bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) and [Climb](skills/climb.md#_climb) checks and to CMD.
-- [**Chill Metal**](spells/chillMetal.md#_chill-metal): Cold metal damages those who touch it.
-- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk.md#_delay-disease): The target becomes temporarily immune to disease.
-- [**Delay Poison**](spells/delayPoison.md#_delay-poison): Stops poison from harming subject for 1 hour/level.
-- [**Eagle Eye**](advanced/spells/eagleEye.md#_eagle-eye): Creates a magical sensor high above you.
-- [**Elemental Speech**](advanced/spells/elementalSpeech.md#_elemental-speech): Enables you to speak to elementals and some creatures.
-- [**Endure Elements, Communal**](ultimateCombat/spells/endureElements.md#_endure-elements,-communal): As _ [endure elements](spells/endureElements.md#_endure-elements)_, but you may divide the duration among creatures touched.
-- [**Feast of Ashes**](advanced/spells/feastOfAshes.md#_feast-of-ashes): A target starves with an insatiable hunger.
-- [**Fire Trap**](spells/fireTrap.md#_fire-trap)M: Opened object deals 1d4 + 1/level damage.
-- [**Flame Blade**](spells/flameBlade.md#_flame-blade): Touch attack deals 1d8 + 1/two levels damage.
-- [**Flaming Sphere**](spells/flamingSphere.md#_flaming-sphere): Rolling ball of fire deals 3d6 fire damage.
-- [**Fog Cloud**](spells/fogCloud.md): Fog obscures vision.
-- [**Forest Friend**](ultimateCombat/spells/forestFriend.md#_forest-friend-): Plants in a forested area become helpful instead of hindering you and your allies.
-- [**Frigid Touch**](ultimateMagic/spells/frigidTouch.md#_frigid-touch): Target takes cold damage and is staggered.
-- [**Frost Fall**](ultimateCombat/spells/frostFall.md#_frost-fall): The area is covered in a chilling frost.
-- [**Fury of the Sun**](advancedRaceGuide/featuredRaces/ifrits.md#_fury-of-the-sun): You curse the target to suffer unbearable heat.
-- [**Glide**](advanced/spells/glide.md#_glide-): You take no falling damage, move 60 ft./round while falling.
-- [**Groundswell**](advancedRaceGuide/coreRaces/dwarves.md#_groundswell): Allows the target to cause the ground to rise up beneath him.
-- [**Gusting Sphere**](advancedRaceGuide/featuredRaces/sylphs.md#_gusting-sphere): A swirling ball of wind rolls in whichever direction you point, hurling those it strikes with great force.
-- [**Gust of Wind**](spells/gustOfWind.md#_gust-of-wind): Blows away or knocks down smaller creatures.
-- [**Heat Metal**](spells/heatMetal.md#_heat-metal): Makes metal so hot it damages those who touch it.
-- [**Hold Animal**](spells/holdAnimal.md#_hold-animal): Paralyzes one animal for 1 round/level.
-- [**Lockjaw**](advanced/spells/lockjaw.md#_lockjaw): Creature gains grab ability with natural attack.
-- [**Masterwork Transformation**](ultimateMagic/spells/masterworkTransformation.md#_masterwork-transformation): Make a normal item into a masterwork one.
-- [**Natural Rhythm**](advanced/spells/naturalRhythm.md#_natural-rhythm-): +1 on damage rolls with each hit (max +5).
-- [**Owl's Wisdom**](spells/owlSWisdom.md#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted.md#_wisdom) for 1 min./level.
-- [**Pernicious Poison**](ultimateMagic/spells/perniciousPoison.md#_pernicious-poison): Target takes a –4 penalty against poison.
-- [**Pox Pustules**](advanced/spells/poxPustules.md#_pox-pustules): Subject is sickened and has –4 Dex.
-- [**Reduce Animal**](spells/reduceAnimal.md#_reduce-animal): Shrinks one willing animal.
-- [**Resist Energy**](spells/resistEnergy.md#_resist-energy): Ignores 10 or more points of damage per attack from specified energy type.
-- [**Restoration, Lesser**](spells/restoration.md#_restoration-lesser): Dispels magical ability penalty or repairs 1d4 ability damage.
-- [**Savage Maw**](advancedRaceGuide/coreRaces/halfOrcs.md#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
-- [**Scent Trail**](advanced/spells/scentTrail.md#_scent-trail-): Leave trail for allies to follow.
-- [**Share Language**](advanced/spells/shareLanguage.md#_share-language-): Subject understands chosen language.
-- [**Sickening Strikes**](advancedRaceGuide/featuredRaces/ratfolk.md#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
-- [**Slipstream**](advanced/spells/slipstream.md#_slipstream): Wave boosts creature's speed.
-- [**Soften Earth and Stone**](spells/softenEarthAndStone.md#_soften-earth-and-stone): Turns stone to clay, or dirt to sand or mud.
-- [**Spider Climb**](spells/spiderClimb.md#_spider-climb): Grants ability to walk on walls and ceilings.
-- [**Steal Breath**](advancedRaceGuide/featuredRaces/catfolk.md#_steal-breath): Pull the breath from a creature's lungs, dealing damage and leaving it unable to speak, use breath weapons, or cast spells with verbal components.
-- [**Stone Call**](advanced/spells/stoneCall.md#_stone-call): 2d6 damage to all creatures in area.
-- [**Summon Nature's Ally II**](spells/summonNatureSAlly.md#_summon-nature-s-ally-ii): Summons creature to fight.
-- [**Summon Swarm**](spells/summonSwarm.md#_summon-swarm): Summons swarm of bats, rats, or spiders.
-- [**Tar Ball**](ultimateMagic/spells/tarBall.md#_tar-ball): Burning tar harms target and penalizes its Dex.
-- [**Tree Shape**](spells/treeShape.md#_tree-shape): You look exactly like a tree for 1 hour/level.
-- [**Unshakable Chill**](ultimateMagic/spells/unshakableChill.md#_unshakable-chill): Target is afflicted with severe cold.
-- [**Warp Wood**](spells/warpWood.md#_warp-wood): Bends wood.
-- [**Wartrain Mount**](ultimateMagic/spells/wartrainMount.md#_wartrain-mount): Animal gains the combat training general purpose.
-- [**Web Shelter**](ultimateMagic/spells/webShelter.md#_web-shelter): Create a comfortable shelter made of webbing.
-- [**Wilderness Soldiers**](ultimateCombat/spells/wildernessSoldiers.md#_wilderness-soldiers): Nearby plants aid you in combat.
-- [**Wood Shape**](spells/woodShape.md#_wood-shape): Reshapes wooden objects to suit you.
-
-- [**Animal Aspect, Greater**](ultimateCombat/spells/animalAspect.md#_animal-aspect,-greater): As _ [animal aspect](ultimateCombat/spells/animalAspect.md#_animal-aspect)_, but you gain two animal qualities.
-- [**Anthropomorphic Animal**](ultimateMagic/spells/anthropomorphicAnimal.md#_anthropomorphic-animal): Animal becomes bipedal.
-- [**Aqueous Orb**](advanced/spells/aqueousOrb.md#_aqueous-orb): Creates rolling sphere of water.
-- [**Ash Storm**](ultimateMagic/spells/ashStorm.md#_ash-storm): Hamper vision and movement.
-- [**Badger's Ferocity**](ultimateMagic/spells/badgerSFerocity.md#_badger's-ferocity): Weapons are _ [keen](/magicItems/weapons.md#_weapons-keen)_ while you concentrate.
-- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs.md#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
-- [**Burrow**](ultimateMagic/spells/burrow.md#_burrow): Target gains a burrow speed of 15.
-- [**Burst of Nettles**](ultimateMagic/spells/burstOfNettles.md#_burst-of-nettles): Burst deals 3d6 damage and 1d6 acid.
-- [**Call Lightning**](spells/callLightning.md#_call-lightning): Calls down lightning bolts (3d6 per bolt) from sky.
-- [**Cloak of Winds**](advanced/spells/cloakOfWinds.md#_cloak-of-winds): Creates screen of strong wind around you.
-- [**Companion Mind Link**](ultimateCombat/spells/companionMindLink.md#_companion-mind-link): You can talk with your animal companion, and can handle it with supernatural ease.
-- [**Contagion**](spells/contagion.md#_contagion): Infects subject with chosen disease.
-- [**Create Treasure Map**](advanced/spells/createTreasureMap.md#_create-treasure-map-)M: Creates treasure map out of a creature's corpse.
-- [**Cup of Dust**](advanced/spells/cupOfDust.md#_cup-of-dust): Causes a creature to become dehydrated.
-- [**Cure Moderate Wounds**](spells/cureModerateWounds.md#_cure-moderate-wounds): Cures 2d8 damage + 1/level (max +10).
-- [**Daylight**](spells/daylight.md#_daylight): 60-ft. radius of bright light.
-- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison.md#_delay-poison,-communal): As _ [delay poison](spells/delayPoison.md#_delay-poison)_, but you may divide the duration among creatures touched.
-- [**Diminish Plants**](spells/diminishPlants.md#_diminish-plants): Reduces size or blights the growth of normal plants.
-- [**Dominate Animal**](spells/dominateAnimal.md#_dominate-animal): One animal obeys your silent mental commands and orders.
-- [**Feather Step, Mass**](advanced/spells/featherStep.md#_feather-step,-mass): As _ [feather step](advanced/spells/featherStep.md#_feather-step)_, but multiple creatures.
-- [**Fins to Feet**](advancedRaceGuide/uncommonRaces/merfolk.md#_fins-to-feet): Transform the target's fins, flippers, or tail into legs and feet, allowing it to walk on land.
-- [**Fungal Infestation**](ultimateMagic/spells/fungalInfestation.md#_fungal-infestation): Target takes bleed from attacks.
-- [**Hide Campsite**](advanced/spells/hideCampsite.md#_hide-campsite): Hides all traces of your campsite.
-- [**Hydraulic Torrent**](advanced/spells/hydraulicTorrent.md#_hydraulic-torrent-): Creates torrent of water that bull rushes any creature in its path.
-- [**Improve Trap**](advancedRaceGuide/featuredRaces/kobolds.md#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
-- [**Lily Pad Stride**](advanced/spells/lilyPadStride.md#_lily-pad-stride): Walk across water on moving lily pads.
-- [**Mad Monkeys**](ultimateMagic/spells/madMonkeys.md#_mad-monkeys): Summon a swarm of mischievous monkeys.
-- [**Magic Fang, Greater**](spells/magicFang.md#_magic-fang-greater): One natural weapon gets + 1/four levels (max +5).
-- [**Meld into Stone**](spells/meldIntoStone.md#_meld-into-stone): You and your gear merge with stone.
-- [**Nature's Exile**](advanced/spells/natureSExile.md#_nature's-exile): Gives subject –10 on [Survival](skills/survival.md#_survival) checks.
-- [**Neutralize Poison**](spells/neutralizePoison.md#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
-- [**Nixie's Lure**](advancedRaceGuide/featuredRaces/undines.md#_nixie's-lure): Creates an unearthly and infectious song that seductively summons all who hear it.
-- [**Plant Growth**](spells/plantGrowth.md#_plant-growth): Grows vegetation, improves crops.
-- [**Poison**](spells/poison.md#_poison): Touch deals 1d3 [Con](gettingStarted.md#_constitution) damage 1/round for 6 rounds.
-- [**Protection from Energy**](spells/protectionFromEnergy.md#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
-- [**Pup Shape**](ultimateCombat/spells/pupShape.md#_pup-shape): Transforms a single animal or magical beast into a younger and cuter version of itself for a short time.
-- [**Quench**](spells/quench.md#_quench): Extinguishes fires.
-- [**Raging Rubble**](advancedRaceGuide/featuredRaces/oreads.md#_raging-rubble): You animate an area of rubble, creating a dangerous, rolling area of debris.
-- [**Rain of Frogs**](ultimateMagic/spells/rainOfFrogs.md#_rain-of-frogs): Summon a swarm of poisonous frogs.
-- [**Remove Disease**](spells/removeDisease.md#_remove-disease): Cures all diseases affecting subject.
-- [**Resinous Skin**](ultimateCombat/spells/resinousSkin.md#_resinous-skin): You gain DR 5/piercing and +4 to CMD against disarm attempts.
-- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy.md#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy.md#_resist-energy)_, but you may divide the duration among creatures touched.
-- [**Share Language, Communal**](ultimateCombat/spells/shareLanguage.md#_share-language,-communal): As _ [share language](advanced/spells/shareLanguage.md#_share-language-)_, but you may divide the duration among creatures touched.
-- [**Shifting Sand**](advanced/spells/shiftingSand.md#_shifting-sand): Creates difficult terrain and erases tracks; can carry creatures or objects along.
-- [**Sleet Storm**](spells/sleetStorm.md#_sleet-storm): Hampers vision and movement.
-- [**Snare**](spells/snare.md#_snare): Creates a magic booby trap.
-- [**Speak with Plants**](spells/speakWithPlants.md#_speak-with-plants): You can talk to plants and plant creatures.
-- [**Spider Climb, Communal**](ultimateCombat/spells/spiderClimb.md#_spider-climb,-communal): As _ [spider climb](spells/spiderClimb.md#_spider-climb)_, but you may divide the duration among creatures touched.
-- [**Spike Growth**](spells/spikeGrowth.md#_spike-growth): Creatures in area take 1d4 damage, may be slowed_._
-- [**Spit Venom**](ultimateMagic/spells/spitVenom.md#_spit-venom): Spit blinding black adder venom.
-- [**Stone Shape**](spells/stoneShape.md#_stone-shape): Sculpts stone into any shape.
-- [**Summon Nature's Ally III**](spells/summonNatureSAlly.md#_summon-nature-s-ally-iii): Summons creature to fight.
-- [**Vermin Shape I**](ultimateMagic/spells/verminShape.md#_vermin-shape-i-): Take the form and some of the powers of a Small or Medium vermin.
-- [**Ward of the Season**](advancedRaceGuide/coreRaces/elves.md#_ward-of-the-season): Harnesses the power of the seasons to protect the target and grant a number of bonuses.
-- [**Water Breathing**](spells/waterBreathing.md#_water-breathing): Subjects can breathe underwater.
-- [**Wind Wall**](spells/windWall.md#_wind-wall): Deflects arrows, smaller creatures, and gases.
-
-- [**Absorb Toxicity**](ultimateCombat/spells/absorbToxicity.md#_absorb-toxicity): You become immune to diseases and toxins, absorb one, and then spread it to others.
-- [**Absorbing Inhalation**](advancedRaceGuide/featuredRaces/sylphs.md#_absorbing-inhalation): Harmlessly and completely inhale one gas, fog, smoke, mist, or similar cloud-like effect.
-- [**Age Resistance, Lesser**](ultimateMagic/spells/ageResistance.md#_age-resistance,-lesser): Ignore penalties from middle age.
-- [**Air Walk**](spells/airWalk.md#_air-walk): Subject treads on air as if solid (climb or descend at 45-degree angle).
-- [**Antiplant Shell**](spells/antiplantShell.md#_antiplant-shell): Keeps animated plants at bay.
-- [**Arboreal Hammer**](ultimateMagic/spells/arborealHammer.md#_arboreal-hammer): Tree branches attack opponents.
-- [**Aspect of the Stag**](advanced/spells/aspectOfTheStag.md#_aspect-of-the-stag): +2 AC against attacks of opportunity and increases speed.
-- [**Atavism**](ultimateMagic/spells/atavism.md#_atavism): Animal gains advanced creature simple template.
-- [**Ball Lightning**](advanced/spells/ballLightning.md#_ball-lightning): Flying lightning spheres deal 3d6 electricity damage each.
-- [**Blight**](spells/blight.md#_blight): Withers one plant or deals 1d6/level damage to plant creature.
-- [**Bloody Claws**](advanced/spells/bloodyClaws.md#_bloody-claws): Causes bleed damage with natural attacks.
-- [**Cape of Wasps**](ultimateMagic/spells/capeOfWasps.md#_cape-of-wasps): Wasp swarm defends or carries you.
-- [**Command Plants**](spells/commandPlants.md#_command-plants): Sways the actions of plant creatures.
-- [**Command Plants**](spells/commandPlants.md#_command-plants)
-- [**Control Water**](spells/controlWater.md#_control-water): Raises or lowers bodies of water.
-- [**Cure Serious Wounds**](spells/cureSeriousWounds.md#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
-- [**Dispel Magic**](spells/dispelMagic.md#_dispel-magic): Cancels one magical spell or effect.
-- [**Earth Glide**](advancedRaceGuide/uncommonRaces/svirfneblins.md#_earth-glide): The target can pass through stone, dirt, or almost any other sort of earth except metal.
-- [**Echolocation**](ultimateMagic/spells/echolocation.md#_echolocation): Sonic sense gives you blindsight 40 ft.
-- [**Flame Strike**](spells/flameStrike.md#_flame-strike): Smites foes with divine fire (1d6/level damage).
-- [**Freedom of Movement**](spells/freedomOfMovement.md#_freedom-of-movement): Subject moves normally despite impediments to movement.
-- [**Geyser**](advanced/spells/geyser.md#_geyser-): Creates a geyser of boiling water.
-- [**Giant Vermin**](spells/giantVermin.md#_giant-vermin): Turns centipedes, scorpions, or spiders into giant vermin.
-- [**Grove of Respite**](advanced/spells/groveOfRespite.md#_grove-of-respite): Creates trees and a small spring.
-- [**Healing Warmth**](advancedRaceGuide/featuredRaces/ifrits.md#_healing-warmth): Temporary immunity to fire damage as _protection from energy_.
-- [**Ice Storm**](spells/iceStorm.md#_ice-storm): Hail deals 5d6 damage in cylinder 40 ft. across.
-- [**Life Bubble**](advanced/spells/lifeBubble.md#_life-bubble-): Protects from environmental effects.
-- [**Moonstruck**](advanced/spells/moonstruck.md#_moonstruck): Subject is enraged and confused.
-- [**Obsidian Flow**](ultimateCombat/spells/obsidianFlow.md#_obsidian-flow): Converts the surface of the ground into molten glass.
-- [**Plague Carrier**](ultimateMagic/spells/plagueCarrier.md#_plague-carrier): Target's attacks carry filth fever.
-- [**Protection from Energy, Communal**](ultimateCombat/spells/protectionFromEnergy.md#_protection-from-energy,-communal): As _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, but you may divide the duration among creatures touched.
-- [**Reincarnate**](spells/reincarnate.md#_reincarnate): Brings dead subject back in a random body.
-- [**Repel Vermin**](spells/repelVermin.md#_repel-vermin): Insects, spiders, and other vermin stay 10 ft. away.
-- [**Ride the Waves**](ultimateMagic/spells/rideTheWaves.md#_ride-the-waves): Target can breathe water and swim.
-- [**River of Wind**](advanced/spells/riverOfWind.md#_river-of-wind): Creates wind that causes nonlethal damage and can knock down or push creatures.
-- [**Rusting Grasp**](spells/rustingGrasp.md#_rusting-grasp): Your touch corrodes iron and alloys.
-- [**Scrying**](spells/scrying.md#_scrying)F: Spies on subject from a distance.
-- [**Spike Stones**](spells/spikeStones.md#_spike-stones): Creatures in area take 1d8 damage, may also be slowed_._
-- [**Strong Jaw**](advanced/spells/strongJaw.md#_strong-jaw): Natural attacks damage as two sizes bigger.
-- [**Summon Nature's Ally IV**](spells/summonNatureSAlly.md#_summon-nature-s-ally-iv): Summons creature to fight.
-- [**Thorn Body**](advanced/spells/thornBody.md#_thorn-body): Your attackers take 1d6 +1 damage/level.
-- [**Touch of Slime**](ultimateMagic/spells/touchOfSlime.md#_touch-of-slime): Touch infests a target with green slime.
-- [**True Form**](advanced/spells/trueForm.md#_true-form): Removes polymorph effects.
-- [**Vermin Shape II**](ultimateMagic/spells/verminShape.md#_vermin-shape-ii): As _vermin shape_, but Tiny or Large.
-- [**Volcanic Storm**](ultimateMagic/spells/volcanicStorm.md#_volcanic-storm): Hot rocks deal 5d6 damage.
-
-- [**Air Walk, Communal**](ultimateCombat/spells/airWalk.md#_air-walk,-communal): As _ [air walk](spells/airWalk.md#_air-walk)_, but you may divide the duration among creatures touched.
-- [**Animal Growth**](spells/animalGrowth.md#_animal-growth): One animal doubles in size.
-- [**Aspect of the Wolf**](advanced/spells/aspectOfTheWolf.md#_aspect-of-the-wolf): +4 Str and Dex, +2 bonus on trip attacks.
-- [**Atonement**](spells/atonement.md#_atonement)FM: Removes burden of misdeeds from subject.
-- [**Awaken**](spells/awaken.md#_awaken)M: Animal or tree gains human intellect.
-- [**Baleful Polymorph**](spells/balefulPolymorph.md#_baleful-polymorph): Transforms subject into harmless animal.
-- [**Blessing of the Salamander**](advanced/spells/blessingOfTheSalamander.md#_blessing-of-the-salamander): Subject gets fast healing 2, fire resistance 10, and +2 to its CMD.
-- [**Call Lightning Storm**](spells/callLightningStorm.md#_call-lightning-storm): As _ [call lightning](spells/callLightning.md#_call-lightning), _but 5d6 damage per bolt.
-- [**Commune with Nature**](spells/communeWithNature.md#_commune-with-nature): Learn about terrain for 1 mile/level.
-- [**Contagion, Greater**](ultimateMagic/spells/contagion.md#_contagion,-greater): Infect a subject with a magical disease.
-- [**Control Winds**](spells/controlWinds.md#_control-winds): Changes wind direction and speed.
-- [**Cure Critical Wounds**](spells/cureCriticalWounds.md#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
-- [**Death Ward**](spells/deathWard.md#_death-ward): Grants bonuses against death spells and negative energy.
-- [**Fickle Winds**](ultimateMagic/spells/fickleWinds.md#_fickle-winds): Wind walls selectively block attacks.
-- [**Fire Snake**](advanced/spells/fireSnake.md#_fire-snake): Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.
-- [**Half-blood Extraction**](advancedRaceGuide/coreRaces/halfOrcs.md#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
-- [**Hallow**](spells/hallow.md#_hallow)M: Designates location as holy.
-- [**Insect Plague**](spells/insectPlague.md#_insect-plague): Wasp swarms attack creatures.
-- [**Old Salt's Curse**](advancedRaceGuide/coreRaces/humans.md#_old-salt's-curse): Inflict a curse of the roiling sea upon the target, making it permanently sickened.
-- [**Raise Animal Companion**](ultimateMagic/spells/raiseAnimalCompanion.md#_raise-animal-companion): As _ [raise dead](/spells/raiseDead.md#_raise-dead)_, but on an animal.
-- [**Reprobation**](ultimateMagic/spells/reprobation.md#_reprobation): Marked target is shunned by your religion.
-- [**Rest Eternal**](advanced/spells/restEternal.md#_rest-eternal)M: Dead creature cannot be revived.
-- [**Snake Staff**](advanced/spells/snakeStaff.md#_snake-staff): Transforms wood into snakes to fight for you.
-- [**Stoneskin**](spells/stoneskin.md#_stoneskin)M: Grants [DR](glossary.md#_damage-reduction) 10/adamantine.
-- [**Summon Nature's Ally V**](spells/summonNatureSAlly.md#_summon-nature-s-ally-v): Summons creature to fight.
-- [**Threefold Aspect**](advanced/spells/threefoldAspect.md#_threefold-aspect)F: Appear older or younger.
-- [**Transmute Mud to Rock**](spells/transmuteMudToRock.md#_transmute-mud-to-rock): Transforms two 10-ft. cubes per level.
-- [**Transmute Rock to Mud**](spells/transmuteRockToMud.md#_transmute-rock-to-mud): Transforms two 10-ft. cubes per level.
-- [**Tree Stride**](spells/treeStride.md#_tree-stride): Step from one tree to another far away.
-- [**Unhallow**](spells/unhallow.md#_unhallow)M: Designates location as unholy.
-- [**Wall of Fire**](spells/wallOfFire.md#_wall-of-fire): Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
-- [**Wall of Thorns**](spells/wallOfThorns.md#_wall-of-thorns): Thorns damage anyone who tries to pass.
-- [**Wind Blades**](advancedRaceGuide/featuredRaces/sylphs.md#_wind-blades): Harden the air around the target into jagged invisible blades.
-
-- [**Age Resistance**](ultimateMagic/spells/ageResistance.md#_age-resistance): Ignore penalties from old age.
-- [**Antilife Shell**](spells/antilifeShell.md#_antilife-shell): 10-ft.-radius field hedges out living creatures.
-- [**Bear's Endurance, Mass**](spells/bearSEndurance.md#_bear-s-endurance-mass): As _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, affects 1 subject/level.
-- [**Binding Earth, Mass**](advancedRaceGuide/featuredRaces/oreads.md#_binding-earth,-mass): Functions as _binding earth_, mass.
-- [**Bull's Strength, Mass**](spells/bullSStrength.md#_bull-s-strength-mass): As _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, affects 1 subject/level.
-- [**Cat's Grace, Mass**](spells/catSGrace.md#_cat-s-grace-mass): As _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, affects one subject/level.
-- [**Cure Light Wounds, Mass**](spells/cureLightWounds.md#_cure-light-wounds-mass): Cures 1d8 damage + 1/level, affects 1 subject/level.
-- [**Dispel Magic, Greater**](spells/dispelMagic.md#_dispel-magic-greater): As _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, but with multiple targets.
-- [**Dust Form**](ultimateCombat/spells/dustForm.md#_dust-form): You become an incorporeal creature of dust for a short period of time.
-- [**Eagle Aerie**](ultimateMagic/spells/eagleAerie.md#_eagle-aerie): Summon 1 giant eagle/3 levels.
-- [**Epidemic**](ultimateMagic/spells/epidemic.md#_epidemic): Infect a subject with a highly contagious disease.
-- [**Find the Path**](spells/findThePath.md#_find-the-path): Shows most direct way to a location.
-- [**Fire Seeds**](spells/fireSeeds.md#_fire-seeds): Acorns and berries become grenades and bombs.
-- [**Ironwood**](spells/ironwood.md#_ironwood): Magic wood is as strong as steel.
-- [**Liveoak**](spells/liveoak.md#_liveoak): Oak becomes treant guardian.
-- [**Move Earth**](spells/moveEarth.md#_move-earth): Digs trenches and builds hills.
-- [**Owl's Wisdom, Mass**](spells/owlSWisdom.md#_owl-s-wisdom-mass): As _ [owl's wisdom](spells/owlSWisdom.md#_owl-s-wisdom)_, affects 1 subject/level.
-- [**Path of the Winds**](advancedRaceGuide/featuredRaces/sylphs.md#_path-of-the-winds): You call forth mighty winds to clear a path ahead of you.
-- [**Plague Storm**](ultimateMagic/spells/plagueStorm.md#_plague-storm): Cloud infects creatures like _ [contagion](/spells/contagion.md#_contagion)_.
-- [**Repel Wood**](spells/repelWood.md#_repel-wood): Pushes away wooden objects.
-- [**Sirocco**](advanced/spells/sirocco.md#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
-- [**Spellstaff**](spells/spellstaff.md#_spellstaff): Stores one spell in wooden quarterstaff.
-- [**Stone Tell**](spells/stoneTell.md#_stone-tell): Talk to natural or worked stone.
-- [**Stoneskin, Communal**](ultimateCombat/spells/stoneskin.md#_stoneskin,-communal)M: As _ [stoneskin](spells/stoneskin.md#_stoneskin)_, but you may divide the duration among creatures touched.
-- [**Summon Nature's Ally VI**](spells/summonNatureSAlly.md#_summon-nature-s-ally-vi): Summons creature to fight.
-- [**Swarm Skin**](advanced/spells/swarmSkin.md#_swarm-skin-): Turns your body into a swarm that can attack.
-- [**Tar Pool**](ultimateCombat/spells/tarPool.md#_tar-pool): Converts the top layer of the ground into hot tar.
-- [**Transport via Plants**](spells/transportViaPlants.md#_transport-via-plants): Move instantly from one plant to another of the same kind.
-- [**Wall of Stone**](spells/wallOfStone.md#_wall-of-stone): Creates a stone wall that can be shaped.
-
-- [**Age Resistance, Greater**](ultimateMagic/spells/ageResistance.md#_age-resistance,-greater): Ignore penalties from venerable age.
-- [**Animate Plants**](spells/animatePlants.md#_animate-plants): One or more plants animate and fight for you.
-- [**Black Mark**](advancedRaceGuide/coreRaces/humans.md#_black-mark): Functions as a _mark of justice_
-- [**Changestaff**](spells/changestaff.md#_changestaff): Your staff becomes a treant on command.
-- [**Control Weather**](spells/controlWeather.md#_control-weather): Changes weather in local area.
-- [**Creeping Doom**](spells/creepingDoom.md#_creeping-doom): Swarms of centipedes attack at your command.
-- [**Cure Moderate Wounds, Mass**](spells/cureModerateWounds.md#_cure-moderate-wounds-mass): Cures 2d8 damage + 1/level, affects 1 subject/level.
-- [**Fire Storm**](spells/fireStorm.md#_fire-storm): Deals 1d6/level fire damage.
-- [**Heal**](spells/heal.md#_heal): Cures 10 points/level damage, all diseases and mental conditions.
-- [**Rampart**](advanced/spells/rampart.md#_rampart): Creates 5-ft.-thick earthen barrier.
-- [**Scouring Winds**](ultimateMagic/spells/scouringWinds.md#_scouring-winds): Winds block vision and deal 3d6 damage.
-- [**Scrying, Greater**](spells/scrying.md#_scrying-greater): As _ [scrying](spells/scrying.md#_scrying)_, but faster and longer.
-- [**Siege of Trees**](ultimateCombat/spells/siegeOfTrees.md#_siege-of-trees): Transforms Large trees into arboreal catapults of the same size.
-- [**Summon Nature's Ally VII**](spells/summonNatureSAlly.md#_summon-nature-s-ally-vii): Summons creature to fight.
-- [**Sunbeam**](spells/sunbeam.md#_sunbeam): Beam blinds and deals 4d6 damage.
-- [**Transmute Metal to Wood**](spells/transmuteMetalToWood.md#_transmute-metal-to-wood): Metal within 40 ft. becomes wood.
-- [**True Seeing**](spells/trueSeeing.md#_true-seeing)M: Lets you see all things as they really are.
-- [**Vortex**](advanced/spells/vortex.md#_vortex): Creates a whirlpool in water.
-- [**Wind Walk**](spells/windWalk.md#_wind-walk): You and your allies turn vaporous and travel fast.
-
-- [**Animal Shapes**](spells/animalShapes.md#_animal-shapes): One ally/level polymorphs into chosen animal.
-- [**Atavism, Mass**](ultimateMagic/spells/atavism.md#_atavism,-mass): One animal/level gains advanced template.
-- [**Blood Mist**](ultimateMagic/spells/bloodMist.md#_blood-mist): Mist causes Wisdom damage and rage.
-- [**Control Plants**](spells/controlPlants.md#_control-plants): Controls actions of one or more plant creatures.
-- [**Cure Serious Wounds, Mass**](spells/cureSeriousWounds.md#_cure-serious-wounds-mass): Cures 3d8 damage + 1/level, affects 1 subject/level.
-- [**Earthquake**](spells/earthquake.md#_earthquake): Intense tremor shakes 80-ft.-radius.
-- [**Euphoric Tranquility**](advanced/spells/euphoricTranquility.md#_euphoric-tranquility): Makes a creature friendly.
-- [**Finger of Death**](spells/fingerOfDeath.md#_finger-of-death): Deals 10 damage/level to one subject.
-- [**Frightful Aspect**](ultimateCombat/spells/frightfulAspect.md#_frightful-aspect): You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.
-- [**Repel Metal or Stone**](spells/repelMetalOrStone.md#_repel-metal-or-stone): Pushes away metal and stone.
-- [**Reverse Gravity**](spells/reverseGravity.md#_reverse-gravity): Objects and creatures fall upward.
-- [**Seamantle**](advanced/spells/seamantle.md#_seamantle): Sheathes you in protective water.
-- [**Stormbolts**](advanced/spells/stormbolts.md#_stormbolts): 1d8 damage/level (max 20d8) to targets.
-- [**Summon Nature's Ally VIII**](spells/summonNatureSAlly.md#_summon-nature-s-ally-viii): Summons creature to fight.
-- [**Sunburst**](spells/sunburst.md#_sunburst): Blinds all within 10 ft., deals 6d6 damage.
-- [**Wall of Lava**](advanced/spells/wallOfLava.md#_wall-of-lava): Wall damages foes that try to enter, periodically launches lava at nearby targets.
-- [**Whirlwind**](spells/whirlwind.md#_whirlwind): Cyclone deals damage and can pick up creatures.
-- [**Word of Recall**](spells/wordOfRecall.md#_word-of-recall): Teleports you back to designated place.
-
-- [**Antipathy**](spells/antipathy.md#_antipathy): Object or location affected by spell repels certain creatures.
-- [**Clashing Rocks**](advanced/spells/clashingRocks.md#_clashing-rocks): 20d6 damage to target creature.
-- [**Cure Critical Wounds, Mass**](spells/cureCriticalWounds.md#_cure-critical-wounds-mass): Cures 4d8 damage + 1/level for many creatures.
-- [**Elemental Swarm**](spells/elementalSwarm.md#_elemental-swarm): Summons multiple elementals.
-- [**Foresight**](spells/foresight.md#_foresight): “Sixth sense” warns of impending danger.
-- [**Polar Midnight**](ultimateMagic/spells/polarMidnight.md#_polar-midnight): Cold darkness paralyzes and deals damage.
-- [**Regenerate**](spells/regenerate.md#_regenerate): Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).
-- [**Shambler**](spells/shambler.md#_shambler): Creates 1d4+2 shambling mounds to fight for you.
-- [**Shapechange**](spells/shapechange.md#_shapechange)F: Transforms you into certain creatures, and you can change forms once per round.
-- [**Siege of Trees, Greater**](ultimateCombat/spells/siegeOfTrees.md#_siege-of-trees,-greater): As _ [siege of trees](ultimateCombat/spells/siegeOfTrees.md#_siege-of-trees)_, but can transform Huge and Gargantuan trees into arboreal catapults of the same size.
-- [**Storm of Vengeance**](spells/stormOfVengeance.md#_storm-of-vengeance): Storm rains acid, lightning, and hail.
-- [**Summon Elder Worm**](ultimateMagic/spells/summonElderWorm.md#_summon-elder-worm): Summon a giant purple worm.
-- [**Summon Froghemoth**](ultimateMagic/spells/summonFroghemoth.md#_summon-froghemoth): Summon a froghemoth.
-- [**Summon Nature's Ally IX**](spells/summonNatureSAlly.md#_summon-nature-s-ally-ix): Summons creature to fight.
-- [**Sympathy**](spells/sympathy.md#_sympathy)M: Object or location attracts certain creatures.
-- [**Tsunami**](advanced/spells/tsunami.md#_tsunami): Huge wave damages and sweeps up all in its path.
-- [**Winds of Vengeance**](advanced/spells/windsOfVengeance.md#_winds-of-vengeance): You can fly and attack with wind.
-- [**World Wave**](advanced/spells/worldWave.md#_world-wave-): Earth or water moves you across distances and damages things not of the natural world.
-
-- [**Acid Splash**](spells/acidSplash.md#_acid-splash): Orb deals 1d3 acid damage.
-- [**Message**](spells/message.md#_message): Whisper conversation at distance.
-- [**Ray of Frost**](spells/rayOfFrost.md#_ray-of-frost): Ray deals 1d3 cold damage.
-- [**Spark**](advanced/spells/spark.md#_spark-): Ignites flammable objects.
-
-- [**Alter Winds**](advanced/spells/alterWinds.md#_alter-winds): Increases/decreases natural wind strength.
-- [**Burning Hands**](spells/burningHands.md#_burning-hands): 1d4/level fire damage (max 5d4).
-- [**Dancing Lantern**](advanced/spells/dancingLantern.md#_dancing-lantern-): Animates a lantern that follows you.
-- [**Expeditious Excavation**](advanced/spells/expeditiousExcavation.md#_expeditious-excavation): Moves 5-ft. cubes of earth.
-- [**Feather Fall**](spells/featherFall.md#_feather-fall): Objects or creatures fall slowly.
-- [**Grease**](spells/grease.md#_grease): Makes 10-ft. square or one object slippery.
-- [**Hydraulic Push**](advanced/spells/hydraulicPush.md#_hydraulic-push-): Sudden and powerful wave of water bull rushes an enemy.
-- [**Obscuring Mist**](spells/obscuringMist.md#_obscuring-mist): Fog surrounds you.
-- [**Shocking Grasp**](spells/shockingGrasp.md#_shocking-grasp): Touch delivers 1d6/level electricity damage (max 5d6).
-- [**Stone Fist**](advanced/spells/stoneFist.md#_stone-fist): Your unarmed strikes are lethal.
-- [**Touch of the Sea**](advanced/spells/touchOfTheSea.md#_touch-of-the-sea): [Swim](skills/swim.md#_swim) speed becomes 30 ft.
-
-- [**Accelerate Poison**](advanced/spells/acceleratePoison.md#_accelerate-poison): Hastens targeted poison's onset.
-- [**Acid Arrow**](spells/acidArrow.md#_acid-arrow): Ranged touch attack; 2d4 damage for 1 round + 1 round/3 levels.
-- [**Burning Gaze**](advanced/spells/burningGaze.md#_burning-gaze): 1d6 fire damage to target by looking at it.
-- [**Create Pit**](advanced/spells/createPit.md#_create-pit-)F: Creates an extradimensional pit.
-- [**Elemental Speech**](advanced/spells/elementalSpeech.md#_elemental-speech): Enables you to speak to elementals and some creatures.
-- [**Elemental Touch**](advanced/spells/elementalTouch.md#_elemental-touch): Gain energy damage touch attack.
-- [**Fire Breath**](advanced/spells/fireBreath.md#_fire-breath): Exhale a cone of flame at will.
-- [**Flaming Sphere**](spells/flamingSphere.md#_flaming-sphere): Ball of fire deals 3d6 fire damage.
-- [**Fog Cloud**](spells/fogCloud.md): Fog obscures vision.
-- [**Glide**](advanced/spells/glide.md#_glide-): No fall damage, move 60 ft./round while falling.
-- [**Glitterdust**](spells/glitterdust.md#_glitterdust): Blinds targets, outlines invisible things.
-- [**Gust of Wind**](spells/gustOfWind.md#_gust-of-wind): Blast of wind blows away or knocks down creatures.
-- [**Levitate**](spells/levitate.md#_levitate): Subject moves up and down at your direction.
-- [**Pyrotechnics**](spells/pyrotechnics.md#_pyrotechnics): Turns fire into light or thick smoke.
-- [**Resist Energy**](spells/resistEnergy.md#_resist-energy): Ignores first 10 (or more) points of damage per attack from specified energy type.
-- [**Scorching Ray**](spells/scorchingRay.md#_scorching-ray): Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).
-- [**Shatter**](spells/shatter.md#_shatter): Sonic energy damages objects or creatures composed of crystal.
-- [**Slipstream**](advanced/spells/slipstream.md#_slipstream): Wave boosts creature's speed.
-- [**Stone Call**](advanced/spells/stoneCall.md#_stone-call): 2d6 damage to all creatures in area.
-- [**Summon Monster II**](spells/summonMonster.md#_summon-monster-ii): Summons elemental creature.
-- [**Whispering Wind**](spells/whisperingWind.md#_whispering-wind): Sends a short message 1 mile/level.
-
-- [**Aqueous Orb**](advanced/spells/aqueousOrb.md#_aqueous-orb): Creates rolling sphere of water.
-- [**Campfire Wall**](advanced/spells/campfireWall.md#_campfire-wall-): Creates a shelter around a campfire.
-- [**Cloak of Winds**](advanced/spells/cloakOfWinds.md#_cloak-of-winds): A screen of strong wind around you.
-- [**Draconic Reservoir**](advanced/spells/draconicReservoir.md#_draconic-reservoir-): Subject can absorb energy damage and enhance melee attacks with it.
-- [**Elemental Aura**](advanced/spells/elementalAura.md#_elemental-aura): Creates an aura of energy around you.
-- [**Fireball**](spells/fireball.md#_fireball): 1d6 fire damage per level, 20-ft. radius.
-- [**Flame Arrow**](spells/flameArrow.md#_flame-arrow): Arrows deal +1d6 fire damage.
-- [**Fly**](spells/fly.md): Subject flies at a speed of 60 ft.
-- [**Gaseous Form**](spells/gaseousForm.md#_gaseous-form): Become insubstantial and fly slowly.
-- [**Hydraulic Torrent**](advanced/spells/hydraulicTorrent.md#_hydraulic-torrent-): Creates torrent of water that bull rushes any creature in its path.
-- [**Lightning Bolt**](spells/lightningBolt.md#_lightning-bolt): Electricity deals 1d6/level damage.
-- [**Protection From Energy**](spells/protectionFromEnergy.md#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
-- [**Shifting Sand**](advanced/spells/shiftingSand.md#_shifting-sand): Creates difficult terrain, erases tracks.
-- [**Sleet Storm**](spells/sleetStorm.md#_sleet-storm): Hampers vision and movement.
-- [**Spiked Pit**](advanced/spells/spikedPit.md#_spiked-pit): As _ [create pit](advanced/spells/createPit.md#_create-pit-)_, but filled with spikes.
-- [**Stinking Cloud**](spells/stinkingCloud.md#_stinking-cloud): Nauseating vapors, 1 round/level.
-- [**Water Breathing**](spells/waterBreathing.md#_water-breathing): Subjects can breathe underwater.
-- [**Wind Wall**](spells/windWall.md#_wind-wall): Deflects arrows, smaller creatures, gasses.
-
-- [**Acid Pit**](advanced/spells/acidPit.md#_acid-pit-)M: Creates a pit with acid at the bottom.
-- [**Ball Lightning**](advanced/spells/ballLightning.md#_ball-lightning): Flying balls of lightning deal 3d6 electricity damage each.
-- [**Calcific Touch**](advanced/spells/calcificTouch.md#_calcific-touch): Touch slows target, 1d4 Dex damage.
-- [**Detonate**](advanced/spells/detonate.md#_detonate): 1d8/level energy damage to nearby creatures.
-- [**Dragon's Breath**](advanced/spells/dragonSBreath.md#_dragon's-breath): Gives you a dragon's breath weapon.
-- [**Elemental Body I**](spells/elementalBody.md#_elemental-body-i): Turns you into a Small elemental.
-- [**Fire Shield**](spells/fireShield.md#_fire-shield): Creatures attacking you take fire damage; you're protected from heat or cold.
-- [**Fire Trap**](spells/fireTrap.md#_fire-trap)M: Opened object deals 1d4 damage +1/level.
-- [**Firefall**](advanced/spells/firefall.md#_firefall): Fire bursts upward, dealing 2d6 fire damage.
-- [**Ice Storm**](spells/iceStorm.md#_ice-storm): Hail deals 5d6 damage in area 40 ft. across.
-- [**River of Wind**](advanced/spells/riverOfWind.md#_river-of-wind): A stream of wind causes nonlethal damage and can knock down or push creatures.
-- [**Shout**](spells/shout.md#_shout): Deafens all within cone, 5d6 sonic damage.
-- [**Solid Fog**](spells/solidFog.md#_solid-fog): Blocks vision and slows movement.
-- [**Stone Shape**](spells/stoneShape.md#_stone-shape): Sculpts stone into any shape.
-- [**Stoneskin**](spells/stoneskin.md#_stoneskin)M: Grants DR 10/adamantine.
-- [**Summon Monster IV**](spells/summonMonster.md#_summon-monster-iv): Summons elemental creature to fight for you.
-- [**Wall of Fire**](spells/wallOfFire.md#_wall-of-fire): 2d4 fire damage to 10 ft. and 1d4 to 20 ft. Passing through wall deals 2d6 damage +1/level.
-- [**Wall of Ice**](spells/wallOfIce.md#_wall-of-ice): Ice plane creates wall or hemisphere creates dome.
-
-- [**Cloudkill**](spells/cloudkill.md#_cloudkill): Kills 3 HD or less; 4–6 HD save or die; 6+ HD take Con damage.
-- [**Cone of Cold**](spells/coneOfCold.md#_cone-of-cold): 1d6/level cold damage.
-- [**Elemental Body II**](spells/elementalBody.md#_elemental-body-ii): You become a Medium elemental.
-- [**Fire Snake**](advanced/spells/fireSnake.md#_fire-snake): Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.
-- [**Geyser**](advanced/spells/geyser.md#_geyser-): Creates a geyser of boiling water.
-- [**Geyser**](advanced/spells/geyser.md#_geyser-): Creates a geyser of boiling water.
-- [**Hungry Pit**](advanced/spells/hungryPit.md#_hungry-pit-): As _ [create pit](advanced/spells/createPit.md#_create-pit-)_, but dealing 4d6 damage to those in it as it closes.
-- [**Overland Flight**](spells/overlandFlight.md#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
-- [**Passwall**](spells/passwall.md#_passwall): Creates passage through wood or stone wall.
-- [**Planar Adaptation**](advanced/spells/planarAdaptation.md#_planar-adaptation): Resist harmful effects of a plane.
-- [**Suffocation**](advanced/spells/suffocation.md#_suffocation): Target quickly suffocates to death.
-- [**Summon Monster V**](spells/summonMonster.md#_summon-monster-v): Summons elemental creature to fight for you.
-- [**Transmute Mud to Rock**](spells/transmuteMudToRock.md#_transmute-mud-to-rock): Two 10-ft. cubes per level.
-- [**Transmute Rock to Mud**](spells/transmuteRockToMud.md#_transmute-rock-to-mud): Two 10-ft. cubes per level.
-- [**Wall of Stone**](spells/wallOfStone.md#_wall-of-stone): Creates a stone wall that can be shaped.
-
-- [**Acid Fog**](spells/acidFog.md#_acid-fog): Fog deals acid damage.
-- [**Chain Lightning**](spells/chainLightning.md#_chain-lightning): 1d6/level damage, 1 more bolt/level.
-- [**Contagious Flame**](advanced/spells/contagiousFlame.md#_contagious-flame): Rays do 4d6 fire damage, then move on to new targets.
-- [**Elemental Body III**](spells/elementalBody.md#_elemental-body-iii): Turns you into a Large elemental.
-- [**Flesh to Stone**](spells/fleshToStone.md#_flesh-to-stone): Turns subject creature into statue.
-- [**Fluid Form**](advanced/spells/fluidForm.md#_fluid-form): Gain DR 10/slashing, increases reach 10 ft., and breathe water.
-- [**Freezing Sphere**](spells/freezingSphere.md#_freezing-sphere): Freezes water or deals cold damage.
-- [**Move Earth**](spells/moveEarth.md#_move-earth): Digs trenches and builds hills.
-- [**Planar Binding**](spells/planarBinding.md#_planar-binding): As _ [lesser planar binding](../spells/planarBinding.md#_planar-binding-lesser)_, but up to 12 HD.
-- [**Sirocco**](advanced/spells/sirocco.md#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
-- [**Sirocco**](advanced/spells/sirocco.md#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
-- [**Stone to Flesh**](spells/stoneToFlesh.md#_stone-to-flesh): Restores petrified creature.
-- [**Summon Monster VI**](spells/summonMonster.md#_summon-monster-vi): Summons elemental creature to fight for you.
-- [**Wall of Iron**](spells/wallOfIron.md#_wall-of-iron)M: 30 hp/four levels; can topple onto foes.
-
-- [**Control Weather**](spells/controlWeather.md#_control-weather): Changes weather in local area.
-- [**Control Weather**](spells/controlWeather.md#_control-weather): Changes weather in local area.
-- [**Delayed Blast Fireball**](spells/delayedBlastFireball.md#_delayed-blast-fireball): 1d6/level fire damage; you can postpone blast for up to 5 rounds.
-- [**Elemental Body IV**](spells/elementalBody.md#_elemental-body-iv): Turns you into a Huge elemental.
-- [**Firebrand**](advanced/spells/firebrand.md#_firebrand): Allies gain _ [flaming](magicItems/weapons.md#_weapons-flaming)_ weapons, immunity to your fire spells, and a one-use ray of fire attack.
-- [**Fly, Mass**](advanced/spells/fly.md#_fly,-mass): One creature/level gains ability to fly.
-- [**Planar Adaptation, Mass**](advanced/spells/planarAdaptation.md#_planar-adaptation,-mass): As _ [planar adaptation](advanced/spells/planarAdaptation.md#_planar-adaptation)_, but affects multiple creatures.
-- [**Rampart**](advanced/spells/rampart.md#_rampart): Creates 5-ft. thick earthen barrier.
-- [**Reverse Gravity**](spells/reverseGravity.md#_reverse-gravity): Objects and creatures fall upward.
-- [**Statue**](spells/statue.md#_statue): Subject can become a statue at will.
-- [**Summon Monster VII**](spells/summonMonster.md#_summon-monster-vii): Summons elemental creature to fight for you.
-- [**Vortex**](advanced/spells/vortex.md#_vortex): Creates a whirlpool in water.
-
-- [**Horrid Wilting**](spells/horridWilting.md#_horrid-wilting): Deals 1d6/level damage within 30 ft.
-- [**Incendiary Cloud**](spells/incendiaryCloud.md#_incendiary-cloud): Deals 6d6 fire damage/round.
-- [**Iron Body**](spells/ironBody.md#_iron-body): Your body becomes living iron.
-- [**Polar Ray**](spells/polarRay.md#_polar-ray): Ranged touch attack deals 1d6/level cold damage and 1d4 points of Dexterity drain.
-- [**Seamantle**](advanced/spells/seamantle.md#_seamantle): Sheathes you in protective water.
-- [**Shout, Greater**](spells/shout.md#_shout-greater): Devastating yell deals 10d6 sonic damage; stuns creatures.
-- [**Stormbolts**](advanced/spells/stormbolts.md#_stormbolts): 1d8 damage/level (max 20d8) to targets.
-- [**Summon Monster VIII**](spells/summonMonster.md#_summon-monster-viii): Summons elemental creature to fight for you.
-- [**Wall of Lava**](advanced/spells/wallOfLava.md#_wall-of-lava): Wall damages foes that try to enter, periodically launches lava at nearby targets.
-- [**Wall of Lava**](advanced/spells/wallOfLava.md#_wall-of-lava): Wall damages foes that try to enter, periodically launches lava at nearby targets.
-
-- [**Clashing Rocks**](advanced/spells/clashingRocks.md#_clashing-rocks): 20d6 damage to target creature.
-- [**Fiery Body**](advanced/spells/fieryBody.md#_fiery-body): You gain various fire-related powers.
-- [**Gate**](spells/gate.md#_gate)M: Connects two planes for travel or summoning.
-- [**Meteor Swarm**](spells/meteorSwarm.md#_meteor-swarm): Four meteors each deal 6d6 fire damage.
-- [**Suffocation, Mass**](advanced/spells/suffocation.md#_suffocation,-mass): One creature/level suffocates.
-- [**Tsunami**](advanced/spells/tsunami.md#_tsunami): Wave damages and sweeps up all in its path.
-- [**Winds of Vengeance**](advanced/spells/windsOfVengeance.md#_winds-of-vengeance): Gives you the ability to fly and attack with wind.
-- [**World Wave**](advanced/spells/worldWave.md#_world-wave-): Earth moves you across distances.
-- [**World Wave**](advanced/spells/worldWave.md#_world-wave-): Earth moves you across distances.
-
-- [**Acid Splash**](spells/acidSplash.md#_acid-splash): Orb deals 1d3 acid damage.
-- [**Bleed**](spells/bleed.md#_bleed): Cause a stabilized creature to resume [dying](glossary.md#_dying).
-- [**Brand**](advanced/spells/brand.md#_brand): Creates permanent brand on target creature.
-- [**Brand**](advanced/spells/brand.md#_brand): Creates permanent brand on target creature.
-- [**Create Water**](spells/createWater.md#_create-water): Creates 2 gallons/level of pure water.
-- [**Daze**](spells/daze.md#_daze): A single humanoid creature with 4 HD or less loses its next action.
-- [**Detect Magic**](spells/detectMagic.md#_detect-magic): Detects all spells and magic items within 60 ft.
-- [**Detect Poison**](spells/detectPoison.md#_detect-poison): Detects poison in a creature or object.
-- [**Disrupt Undead**](spells/disruptUndead.md#_disrupt-undead): Deals 1d6 damage to one undead.
-- [**Guidance**](spells/guidance.md#_guidance): +1 on one attack roll, saving throw, or skill check.
-- [**Light**](spells/light.md#_light): Object shines like a torch.
-- [**Read Magic**](spells/readMagic.md#_read-magic): Read scrolls and spellbooks.
-- [**Resistance**](spells/resistance.md#_resistance): Subject gains +1 on saving throws.
-- [**Sift**](advanced/spells/sift.md#_sift): See area as though examining it.
-- [**Sift**](advanced/spells/sift.md#_sift): See area as though examining it.
-- [**Stabilize**](spells/stabilize.md#_stabilize): Cause a [dying](glossary.md#_dying) creature to stabilize.
-- [**Virtue**](spells/virtue.md#_virtue): Subject gains 1 temporary hp.
-
-- [**Alarm**](spells/alarm.md#_alarm): Wards an area for 2 hours/level.
-- [**Bane**](spells/bane.md#_bane): Enemies take –1 on attack rolls and saves against fear.
-- [**Bless**](spells/bless.md#_bless): Allies gain +1 on attack rolls and saves against fear.
-- [**Bless Water**](spells/blessWater.md#_bless-water)M: Makes holy water.
-- [**Bowstaff**](ultimateCombat/spells/bowstaff.md#_bowstaff): A shortbow may double as a club, or a longbow as a quarterstaff.
-- [**Burst Bonds**](advanced/spells/burstBonds.md#_burst-bonds): 1d6 damage/level (max 5d6) to restraints.
-- [**Cause Fear**](spells/causeFear.md#_cause-fear): A creature of 5 HD or less flees for 1d4 rounds.
-- [**Command**](spells/command.md#_command): One subject obeys a command for 1 round.
-- [**Compel Hostility**](ultimateCombat/spells/compelHostility.md#_compel-hostility): Compels opponents to attack you instead of your allies.
-- [**Comprehend Languages**](spells/comprehendLanguages.md#_comprehend-languages): You understand all spoken and written languages.
-- [**Cure Light Wounds**](spells/cureLightWounds.md#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
-- [**Curse Water**](spells/curseWater.md#_curse-water)M: Makes unholy water.
-- [**Deadeye's Lore**](ultimateCombat/spells/deadeyeSLore.md#_deadeye's-lore): Gain a +4 bonus on [Survival](skills/survival.md#_survival) and move full speed while tracking.
-- [**Detect Chaos/Evil/Good/Law**](spells/detectChaos.md#_detect-chaos): Reveals creatures, spells, or objects of selected alignment.
-- [**Detect Undead**](spells/detectUndead.md#_detect-undead): Reveals undead within 60 ft.
-- [**Disguise Self**](spells/disguiseSelf.md#_disguise-self): Changes your appearance.
-- [**Divine Favor**](spells/divineFavor.md#_divine-favor): You gain +1 per three levels on attack and damage rolls.
-- [**Doom**](spells/doom.md#_doom): One subject takes –2 on attack rolls, damage rolls, saves, and checks.
-- [**Ear-Piercing Scream**](ultimateMagic/spells/earPiercingScream.md#_ear-piercing-scream): Deal sonic damage and daze target.
-- [**Expeditious Retreat**](spells/expeditiousRetreat.md#_expeditious-retreat): Your base speed increases by 30 ft.
-- [**Forbid Action**](ultimateMagic/spells/forbidAction.md#_forbid-action): Target obeys command to not do something.
-- [**Forced Quiet**](ultimateMagic/spells/forcedQuiet.md#_forced-quiet): Target cannot make loud noises.
-- [**Hex Ward**](ultimateMagic/spells/hexWard.md#_hex-ward): Target gains +4 on saves against witch hexes.
-- [**Hide from Undead**](spells/hideFromUndead.md#_hide-from-undead): Undead can't perceive one subject/level.
-- [**Horn of Pursuit**](ultimateMagic/spells/hornOfPursuit.md#_horn-of-pursuit): Create three notes heard miles away.
-- [**Inflict Light Wounds**](spells/inflictLightWounds.md#_inflict-light-wounds): Touch deals 1d8 damage +1/level (max +5).
-- [**Interrogation**](ultimateMagic/spells/interrogation.md#_interrogation): Target answers questions or suffers pain.
-- [**Know the Enemy**](ultimateMagic/spells/knowTheEnemy.md#_know-the-enemy): Gain +10 on a monster [Knowledge](/skills/knowledge.md#_knowledge) check.
-- [**Linebreaker**](advancedRaceGuide/coreRaces/halfOrcs.md#_linebreaker): You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun.
-- [**Lend Judgment**](ultimateMagic/spells/lendJudgment.md#_lend-judgment): Ally gains the benefit of one judgment.
-- [**Litany of Sloth**](ultimateCombat/spells/litanyOfSloth.md#_litany-of-sloth): Single target cannot make attacks of opportunity for 1 round.
-- [**Litany of Weakness**](ultimateCombat/spells/litanyOfWeakness.md#_litany-of-weakness): Single target is fatigued for 1 round.
-- [**Lock Gaze**](ultimateCombat/spells/lockGaze.md#_lock-gaze): Compels the target to look only at you for the duration of the spell.
-- [**Longshot**](ultimateCombat/spells/longshot.md#_longshot): Grants a +10-foot bonus to the range increment for any ranged weapon fired.
-- [**Magic Weapon**](spells/magicWeapon.md#_magic-weapon): Weapon gains +1 bonus.
-- [**Peacebond**](ultimateCombat/spells/peacebond.md#_peacebond): Locks a weapon in place on the target's body.
-- [**Persuasive Goad**](ultimateMagic/spells/persuasiveGoad.md#_persuasive-goad): Target takes 1d6 nonlethal damage; you gain an [Intimidate](/skills/intimidate.md#_intimidate) bonus.
-- [**Protection from Chaos**](spells/protectionFromChaos.md#_protection-from-chaos): +2 to [AC](combat.md#_armor-class) and saves, plus additional protection against selected alignment.
-- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes.md#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
-- [**Remove Fear**](spells/removeFear.md#_remove-fear): Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.
-- [**Returning Weapon**](ultimateCombat/spells/returningWeapon.md#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons.md#_weapons-returning)_ special weapon quality.
-- [**Sanctify Corpse**](ultimateMagic/spells/sanctifyCorpse.md#_sanctify-corpse): Prevent a corpse from becoming an undead.
-- [**Sanctuary**](spells/sanctuary.md#_sanctuary): Opponents can't attack you, and you can't attack.
-- [**Shield of Faith**](spells/shieldOfFaith.md#_shield-of-faith): Aura grants +2 or higher deflection bonus.
-- [**Theft Ward**](advancedRaceGuide/featuredRaces/tengus.md#_theft-ward): You ward a single object in your possession against theft.
-- [**Tireless Pursuit**](advanced/spells/tirelessPursuit.md#_tireless-pursuit): Ignore fatigue while hustling.
-- [**Touch of Combustion**](advancedRaceGuide/featuredRaces/ifrits.md#_touch-of-combustion): Causes the target to ignite in a violent burst of flame.
-- [**True Strike**](spells/trueStrike.md#_true-strike): +20 on your next attack roll.
-- [**Unerring Weapon**](ultimateCombat/spells/unerringWeapon.md#_unerring-weapon): Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.
-- [**Vocal Alteration**](ultimateMagic/spells/vocalAlteration.md#_vocal-alteration): [Disguise](/skills/disguise.md#_disguise) target's voice.
-- [**Wartrain Mount**](ultimateMagic/spells/wartrainMount.md#_wartrain-mount): Animal gains combat training.
-- [**Winter Feathers**](advancedRaceGuide/featuredRaces/tengus.md#_winter-feathers): Target's feathers thicken and fluff up to ward against winter's chill.
-- [**Wrath**](advanced/spells/wrath.md#_wrath): +1 attack and damage against target creature.
-
-- [**Acute Senses**](ultimateMagic/spells/acuteSenses.md#_acute-senses): Subject gains a bonus on [Perception](/skills/perception.md#_perception) checks.
-- [**Aid**](spells/aid.md#_aid): +1 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).
-- [**Align Weapon**](spells/alignWeapon.md#_align-weapon): Weapon becomes good, evil, lawful, or chaotic.
-- [**Bestow Insight**](advancedRaceGuide/coreRaces/humans.md#_bestow-insight): Target gains a +2 insight bonus and is considered trained in one single ranked skill.
-- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency.md#_bestow-weapon-proficiency): Grant a creature proficiency in a single weapon for short period of time.
-- [**Blessing of Luck and Resolve**](advancedRaceGuide/coreRaces/halflings.md#_blessing-of-luck-and-resolve): Grants target a +2 morale bonus on saving throws against fear effects.
-- [**Blistering Invective**](ultimateCombat/spells/blisteringInvective.md#_blistering-invective): Make an [Intimidate](skills/intimidate.md#_intimidate) check against all foes within 30 feet; those demoralized also take fire damage.
-- [**Bloodhound**](advanced/spells/bloodhound.md#_bloodhound): Gives caster the scent special ability.
-- [**Brow Gasher**](ultimateCombat/spells/browGasher.md#_brow-gasher): Slashing weapon deals bleed damage to an opponent's head.
-- [**Calm Emotions**](spells/calmEmotions.md#_calm-emotions): Calms creatures, negating emotion effects.
-- [**Castigate**](advanced/spells/castigate.md#_castigate): Causes target to be shaken and cower.
-- [**Confess**](advanced/spells/confess.md#_confess): Creature answers question truthfully or takes 1d6 damage/two levels (max 5d6).
-- [**Consecrate**](spells/consecrate.md#_consecrate)M: Fills area with positive energy, weakening undead.
-- [**Corruption Resistance**](advanced/spells/corruptionResistance.md#_corruption-resistance): Protects creature against damage from alignment-based attacks.
-- [**Cure Moderate Wounds**](spells/cureModerateWounds.md#_cure-moderate-wounds): Cures 2d8 damage +1/level (max. +10).
-- [**Darkness**](spells/darkness.md#_darkness): 20-ft. radius of supernatural shadow.
-- [**Death Candle**](advancedRaceGuide/featuredRaces/ifrits.md#_death-candle): Functions like _death knell_, except you summon a Small fire elemental resembling the slain creature.
-- [**Death Knell**](spells/deathKnell.md#_death-knell): Kills dying creature; you gain 1d8 temporary hp, +2 to Str, and +1 caster level.
-- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk.md#_delay-disease): The target becomes temporarily immune to disease.
-- [**Delay Pain**](ultimateMagic/spells/delayPain.md#_delay-pain): Ignore pain for 1 hour/level.
-- [**Delay Poison**](spells/delayPoison.md#_delay-poison): Stops poison from harming subject for 1 hour/level.
-- [**Desecrate**](spells/desecrate.md#_desecrate)M: Fills area with negative energy, making undead stronger.
-- [**Detect Thoughts**](spells/detectThoughts.md#_detect-thoughts): Allows “listening” to surface thoughts.
-- [**Discovery Torch**](ultimateCombat/spells/discoveryTorch.md#_discovery-torch-): Object touched emanates bright light, granting [Perception](skills/perception.md#_perception) and [Sense Motive](skills/senseMotive.md#_sense-motive) bonuses.
-- [**Disguise Other**](ultimateMagic/spells/disguiseOther.md#_disguise-other): As _ [disguise self](/spells/disguiseSelf.md#_disguise-self)_, but affects you or another.
-- [**Distressing Tone**](ultimateMagic/spells/distressingTone.md#_distressing-tone): Sound sickens 1d4 creatures.
-- [**Effortless Armor**](ultimateCombat/spells/effortlessArmor.md#_effortless-armor): Armor you wear no longer slows your speed.
-- [**Enthrall**](spells/enthrall.md#_enthrall): Captivates all within 100 ft. + 10 ft./level.
-- [**Escaping Ward**](advancedRaceGuide/coreRaces/halflings.md#_escaping-ward): Grants extra maneuverability when you avoid attacks against larger foes.
-- [**Find Traps**](spells/findTraps.md#_find-traps): Notice traps as a rogue does.
-- [**Flames of the Faithful**](advanced/spells/flamesOfTheFaithful.md#_flames-of-the-faithful): Gives weapon _ [flaming](magicItems/weapons.md#_weapons-flaming)_ property.
-- [**Follow Aura**](advanced/spells/followAura.md#_follow-aura): Gain ability to follow the trail of the aura of an alignment.
-- [**Ghostbane Dirge**](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge): Incorporeal creature takes half damage from nonmagical weapons.
-- [**Ghostly Disguise**](ultimateMagic/spells/ghostlyDisguise.md#_ghostly-disguise): You look like a ghost of yourself.
-- [**Hold Person**](spells/holdPerson.md#_hold-person): Paralyzes one humanoid for 1 round/level.
-- [**Honeyed Tongue**](advanced/spells/honeyedTongue.md#_honeyed-tongue): Roll 2 dice when using [Diplomacy](skills/diplomacy.md#_diplomacy), take higher roll.
-- [**Howling Agony**](ultimateMagic/spells/howlingAgony.md#_howling-agony): Screaming pain limits the target's actions.
-- [**Inflict Moderate Wounds**](spells/inflictModerateWounds.md#_inflict-moderate-wounds): Touch attack, 2d8 damage +1/level (max +10).
-- [**Instrument of Agony**](ultimateCombat/spells/instrumentOfAgony.md#_instrument-of-agony): Weapon exudes divine fury, granting a bonus on [Intimidate](skills/intimidate.md#_intimidate) checks.
-- [**Invisibility**](spells/invisibility.md#_invisibility): Subject is invisible for 1 min./level or until it attacks.
-- [**Knock**](spells/knock.md#_knock): Opens locked or magically sealed door.
-- [**Litany of Defense**](ultimateCombat/spells/litanyOfDefense.md#_litany-of-defense): Doubles armor's enhancement bonus.
-- [**Magic Siege Engine**](ultimateCombat/spells/magicSiegeEngine.md#_magic-siege-engine): Siege engine gains +1 on targeting and damage rolls.
-- [**Perceive Cues**](advanced/spells/perceiveCues.md#_perceive-cues): +5 [Perception](skills/perception.md#_perception) and [Sense Motive](../skills/senseMotive.md#_sense-motive) 10 min./level.
-- [**Protection from Chaos, Communal**](ultimateCombat/spells/protectionFromChaos.md#_protection-from-chaos,-communal): As _ [protection from chaos](spells/protectionFromChaos.md#_protection-from-chaos)_, but you may divide the duration among creatures touched.
-- [**Protection from Evil, Communal**](ultimateCombat/spells/protectionFromEvil.md#_protection-from-evil,-communal): As _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_, but you may divide the duration among creatures touched.
-- [**Protection from Good, Communal**](ultimateCombat/spells/protectionFromGood.md#_protection-from-good,-communal): As _ [protection from good](spells/protectionFromGood.md#_protection-from-good)_, but you may divide the duration among creatures touched.
-- [**Protection from Law, Communal**](ultimateCombat/spells/protectionFromLaw.md#_protection-from-law,-communal): As _ [protection from law](spells/protectionFromLaw.md#_protection-from-law)_, but you may divide the duration among creatures touched.
-- [**Qualm**](ultimateCombat/spells/qualm.md#_qualm): Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing.
-- [**Remove Paralysis**](spells/removeParalysis.md#_remove-paralysis): Frees one or more creatures from paralysis or [slow](spells/slow.md#_slow) effect.
-- [**Resist Energy**](spells/resistEnergy.md#_resist-energy): Ignores first 10 (or more) points of damage per attack from specified energy type.
-- [**Resistance**](spells/resistance.md#_resistance): Subject gains +1 on saving throws.
-- [**Restoration, Lesser**](spells/restoration.md#_restoration-lesser): Dispels magical ability penalty or repairs 1d4 ability damage.
-- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon.md#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon.md#_returning-weapon)_, but you may divide the duration among weapons touched.
-- [**Sacred Bond**](advanced/spells/sacredBond.md#_sacred-bond)F: Cast touch healing spells from a distance.
-- [**Savage Maw**](advancedRaceGuide/coreRaces/halfOrcs.md#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
-- [**See Invisibility**](spells/seeInvisibility.md#_see-invisibility): Reveals [invisible](glossary.md#_invisible) creatures or objects.
-- [**Shield Other**](spells/shieldOther.md#_shield-other)F: You take half of subject's damage.
-- [**Silence**](spells/silence.md#_silence): Negates sound in 20-ft. radius.
-- [**Spiritual Weapon**](spells/spiritualWeapon.md#_spiritual-weapon): Magic weapon attacks on its own.
-- [**Surmount Affliction**](ultimateMagic/spells/surmountAffliction.md#_surmount-affliction): Temporarily suppress one condition.
-- [**Tactical Acumen**](ultimateCombat/spells/tacticalAcumen.md#_tactical-acumen): You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
-- [**Tongues**](spells/tongues.md#_tongues): Speak and understand any language.
-- [**Undetectable Alignment**](spells/undetectableAlignment.md#_undetectable-alignment): Conceals alignment for 24 hours.
-- [**Weapon of Awe**](advanced/spells/weaponOfAwe.md#_weapon-of-awe): Weapon gets +2 on damage rolls.
-- [**Whispering Wind**](spells/whisperingWind.md#_whispering-wind): Sends a short message 1 mile/level.
-- [**Zone of Truth**](spells/zoneOfTruth.md#_zone-of-truth): Subjects within range cannot lie.
-
-- [**Agonizing Rebuke**](advancedRaceGuide/featuredRaces/hobgoblins.md#_agonizing-rebuke): You instill such apprehension about attacking you in your target that doing so causes it mental distress and pain.
-- [**Arcane Sight**](spells/arcaneSight.md#_arcane-sight): Magical auras become visible to you.
-- [**Banish Seeming**](advanced/spells/banishSeeming.md#_banish-seeming): Dispels touched illusion or a creature's change in form.
-- [**Battle Trance**](advancedRaceGuide/coreRaces/halfOrcs.md#_battle-trance): You are transformed into a single-minded force of destruction.
-- [**Blessing of the Mole**](ultimateMagic/spells/blessingOfTheMole.md#_blessing-of-the-mole): 1 ally/level gains darkvision and a +2 [Stealth](/skills/stealth.md#_stealth) bonus.
-- [**Blinding Ray**](advancedRaceGuide/featuredRaces/dhampirs.md#_blinding-ray): You blast your enemies with blinding rays of sunlight.
-- [**Blood Biography**](advanced/spells/bloodBiography.md#_blood-biography-): Learn about a creature and how it became wounded by examining its blood.
-- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs.md#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
-- [**Burst of Speed**](ultimateCombat/spells/burstOfSpeed.md#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
-- [**Cast Out**](advanced/spells/castOut.md#_cast-out): Does 2d8 damage +1/level (max +15) to creature and dispels an effect.
-- [**Continual Flame**](spells/continualFlame.md#_continual-flame)M: Makes a permanent, heatless light.
-- [**Coordinated Effort**](advanced/spells/coordinatedEffort.md#_coordinated-effort): Grants allies a teamwork feat.
-- [**Countless Eyes**](ultimateMagic/spells/countlessEyes.md#_countless-eyes): Extra eyes give all-around vision.
-- [**Cure Serious Wounds**](spells/cureSeriousWounds.md#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
-- [**Daybreak Arrow**](ultimateCombat/spells/daybreakArrow.md#_daybreak-arrow): Targeted ammunition exudes radiant energy.
-- [**Daylight**](spells/daylight.md#_daylight): 60-ft. radius of bright light.
-- [**Deadly Juggernaut**](ultimateCombat/spells/deadlyJuggernaut.md#_deadly-juggernaut): Your might increases with every kill you make.
-- [**Deeper Darkness**](spells/deeperDarkness.md#_deeper-darkness): Object sheds shadows in 60-ft. radius.
-- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison.md#_delay-poison,-communal): As _ [delay poison](spells/delayPoison.md#_delay-poison)_, but you may divide the duration among creatures touched.
-- [**Dimensional Anchor**](spells/dimensionalAnchor.md#_dimensional-anchor): Bars extradimensional movement.
-- [**Dispel Magic**](spells/dispelMagic.md#_dispel-magic): Cancels one magical spell or effect.
-- [**Eldritch Fever**](ultimateMagic/spells/eldritchFever.md#_eldritch-fever): Target gains the eldritch ague spellblight.
-- [**Fearsome Duplicate**](advancedRaceGuide/coreRaces/halflings.md#_fearsome-duplicate): You create a larger and far more menacing version of yourself.
-- [**Fester**](advanced/spells/fester.md#_fester): Gives subject SR 12 + your level vs. healing effects.
-- [**Glyph of Warding**](spells/glyphOfWarding.md#_glyph-of-warding)M: Inscription harms those who pass it.
-- [**Halt Undead**](spells/haltUndead.md#_halt-undead-copy): Immobilizes undead for 1 round/level.
-- [**Heroism**](spells/heroism.md#_heroism): Gives +2 bonus on attack rolls, saves, skill checks.
-- [**Hidden Speech**](advanced/spells/hiddenSpeech.md#_hidden-speech): Gain +10 on [Bluff](skills/bluff.md#_bluff) to send secret messages.
-- [**Hunter's Eye**](advanced/spells/hunterSEye.md#_hunter's-eye): +20 on [Perception](skills/perception.md#_perception) checks to locate a target.
-- [**Inflict Serious Wounds**](spells/inflictSeriousWounds.md#_inflict-serious-wounds): Touch attack, 3d8 damage +1/level (max +15).
-- [**Improve Trap**](advancedRaceGuide/featuredRaces/kobolds.md#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
-- [**Invisibility Purge**](spells/invisibilityPurge.md#_invisibility-purge): Dispels invisibility within 5 ft./level.
-- [**Keen Edge**](spells/keenEdge.md#_keen-edge): Doubles normal weapon's threat range.
-- [**Litany of Eloquence**](ultimateCombat/spells/litanyOfEloquence.md#_litany-of-eloquence): Fascinates a single creature for 1 round.
-- [**Litany of Entanglement**](ultimateCombat/spells/litanyOfEntanglement.md#_litany-of-entanglement): Entangles a creature for 1 round. 
-- [**Litany of Righteousness**](ultimateCombat/spells/litanyOfRighteousness.md#_litany-of-righteousness): A single evil creature takes more damage from creatures with a good aura.
-- [**Litany of Warding**](ultimateCombat/spells/litanyOfWarding.md#_litany-of-warding): You gain two additional attacks of opportunity for 1 round.
-- [**Locate Object**](spells/locateObject.md#_locate-object): Senses direction toward object (specific or type).
-- [**Locate Weakness**](ultimateCombat/spells/locateWeakness.md#_locate-weakness): You roll damage twice when you roll damage for a critical hit and take the best damage.
-- [**Magic Vestment**](spells/magicVestment.md#_magic-vestment): Armor or shield gains +1 enhancement per four levels.
-- [**Magic Weapon, Greater**](spells/magicWeapon.md#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
-- [**Nondetection**](spells/nondetection.md#_nondetection)M: Hides subject from divination, [scrying](spells/scrying.md#_scrying).
-- [**Obscure Object**](spells/obscureObject.md#_obscure-object): Masks object against [scrying](spells/scrying.md#_scrying).
-- [**Prayer**](spells/prayer.md#_prayer): Allies get +1 bonus on most rolls, enemies –1 penalty.
-- [**Protection From Energy**](spells/protectionFromEnergy.md#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
-- [**Remove Curse**](spells/removeCurse.md#_remove-curse): Frees object or person from curse.
-- [**Remove Disease**](spells/removeDisease.md#_remove-disease): Cures all diseases affecting subject.
-- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy.md#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy.md#_resist-energy)_, but you may divide the duration among creatures touched.
-- [**Retribution**](advanced/spells/retribution.md#_retribution): Recent attacker is afflicted with penalties.
-- [**Righteous Vigor**](advanced/spells/righteousVigor.md#_righteous-vigor): Boosts attack bonus with each hit.
-- [**Searing Light**](spells/searingLight.md#_searing-light): Ray deals 1d8/two levels damage (more against undead).
-- [**Seek Thoughts**](advanced/spells/seekThoughts.md#_seek-thoughts): Detects thinking creatures' thoughts.
-- [**Seeming**](spells/seeming.md#_seeming): Changes appearance of 1 person per 2 levels.
-- [**Speak with Dead**](spells/speakWithDead.md#_speak-with-dead): Corpse answers one question/two levels.
-- [**Terrible Remorse**](ultimateMagic/spells/terribleRemorse.md#_terrible-remorse): Creature is compelled to harm itself.
-- [**Ward the Faithful**](advanced/spells/wardTheFaithful.md#_ward-the-faithful): Creatures of same faith gain bonuses to AC and on saving throws.
-- [**Witness**](ultimateMagic/spells/witness.md#_witness): See through the target's eyes and ears.
-
-- [**Battlemind Link**](ultimateMagic/spells/battlemindLink.md#_battlemind-link): You and an ally gain attack and AC bonuses.
-- [**Brand, Greater**](advanced/spells/brand.md#_brand,-greater): As _ [brand](advanced/spells/brand.md#_brand)_, but brand glows when near your holy symbol.
-- [**Chaos Hammer**](spells/chaosHammer.md#_chaos-hammer): Harms and slows lawful creatures (1d8 damage/2 levels).
-- [**Coward's Lament**](advanced/spells/cowardSLament.md#_coward's-lament): If subject doesn't attack you it receives a penalty.
-- [**Cure Critical Wounds**](spells/cureCriticalWounds.md#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
-- [**Curse of Magic Negation**](ultimateMagic/spells/curseOfMagicNegation.md#_curse-of-magic-negation): Target gains the negated spellblight.
-- [**Daze, Mass**](ultimateMagic/spells/daze.md#_daze,-mass): As _ [daze](/spells/daze.md#_daze)_, but affecting multiple creatures.
-- [**Death Ward**](spells/deathWard.md#_death-ward): Grants bonuses against death spells and negative energy.
-- [**Defile Armor**](advanced/spells/defileArmor.md#_defile-armor): As _ [sanctify armor](advanced/spells/sanctifyArmor.md#_sanctify-armor)_, but gain DR 5/good when using judgment or smite.
-- [**Denounce**](advanced/spells/denounce.md#_denounce): Worsens creatures' attitudes.
-- [**Detect Scrying**](spells/detectScrying.md#_detect-scrying): Alerts you to magical eavesdropping
-- [**Discern Lies**](spells/discernLies.md#_discern-lies): Reveals deliberate falsehoods.
-- [**Dismissal**](spells/dismissal.md#_dismissal): Forces a creature to return to its native plane.
-- [**Divination**](spells/divination.md#_divination)M: Provides useful advice for specific proposed actions.
-- [**Divine Power**](spells/divinePower.md#_divine-power): You gain attack bonuses and 1 hp/level.
-- [**Fear**](spells/fear.md#_fear): Subjects within cone flee for 1 round/level.
-- [**Find Quarry**](ultimateCombat/spells/findQuarry.md#_find-quarry): You can sense whether a particular creature is within 20 miles of your location.
-- [**Fleshworm Infestation**](ultimateMagic/spells/fleshwormInfestation.md#_fleshworm-infestation): Worms deal hp and Dex damage.
-- [**Forced Repentance**](advanced/spells/forcedRepentance.md#_forced-repentance): Target falls prone and confesses all of its sins.
-- [**Freedom of Movement**](spells/freedomOfMovement.md#_freedom-of-movement): Subject moves normally despite impediments to movement.
-- [**Healing Warmth**](advancedRaceGuide/featuredRaces/ifrits.md#_healing-warmth): Temporary immunity to fire damage as _protection from energy_.
-- [**Geas, Lesser**](spells/geasQuest.md#_geas-lesser): Commands subject of 7 HD or less.
-- [**Hold Monster**](spells/holdMonster.md#_hold-monster): As _ [hold person](spells/holdPerson.md#_hold-person)_, but any creature.
-- [**Holy Smite**](spells/holySmite.md#_holy-smite): Harms and possibly blinds evil creatures (1d8 damage/2 levels).
-- [**Inflict Critical Wounds**](spells/inflictCriticalWounds.md#_inflict-critical-wounds): Touch attack, 4d8 damage + 1/level (max +20).
-- [**Interrogation, Greater**](ultimateMagic/spells/interrogation.md#_interrogation,-greater): As _ [interrogation](ultimateMagic/spells/interrogation.md#_interrogation)_, except with more pain and more questions.
-- [**Invisibility, Greater**](spells/invisibility.md#_invisibility-greater): As _ [invisibility](../spells/invisibility.md#_invisibility)_, but subject can attack and stay invisible.
-- [**Judgment Light**](ultimateCombat/spells/judgmentLight.md#_judgment-light): You gain an additional effect while a judgment is active.
-- [**Litany of Escape**](ultimateCombat/spells/litanyOfEscape.md#_litany-of-escape): Teleports a friend out of a grapple.
-- [**Litany of Sight**](ultimateCombat/spells/litanyOfSight.md#_litany-of-sight): You can see invisible creatures and objects within 30 feet of you.
-- [**Magic Siege Engine, Greater**](ultimateCombat/spells/magicSiegeEngine.md#_magic-siege-engine,-greater): Siege engine gains +1 on targeting and damage rolls for every four caster levels.
-- [**Named Bullet**](ultimateCombat/spells/namedBullet.md#_named-bullet): Imbues ammunition with accuracy against a specific creature type.
-- [**Neutralize Poison**](spells/neutralizePoison.md#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
-- [**Order's Wrath**](spells/orderSWrath.md#_order-s-wrath): Harms and dazes chaotic creatures (1d8 damage/2 levels).
-- [**Protection from Energy, Communal**](ultimateCombat/spells/protectionFromEnergy.md#_protection-from-energy,-communal): As _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, but you may divide the duration among creatures touched.
-- [**Rebuke**](advanced/spells/rebuke.md#_rebuke): Foes take 1d8 damage/two caster levels (max 5d8).
-- [**Reprobation**](ultimateMagic/spells/reprobation.md#_reprobation): Marked target is shunned by your religion.
-- [**Restoration**](spells/restoration.md#_restoration)M: Restores level and ability score drains.
-- [**Sanctify Armor**](advanced/spells/sanctifyArmor.md#_sanctify-armor): +1 AC/four levels (max +5).
-- [**Sending**](spells/sending.md#_sending): Delivers short message anywhere, instantly.
-- [**Shared Wrath**](advanced/spells/sharedWrath.md#_shared-wrath): As _ [wrath](advanced/spells/wrath.md#_wrath)_, but affects multiple creatures.
-- [**Sleepwalk**](advanced/spells/sleepwalk.md#_sleepwalk)M: Causes creature to move while asleep.
-- [**Spell Immunity**](spells/spellImmunity.md#_spell-immunity): Subject is immune to one spell per 4 levels.
-- [**Stoneskin**](spells/stoneskin.md#_stoneskin)M: Grants DR 10/adamantine.
-- [**Tireless Pursuers**](advanced/spells/tirelessPursuers.md#_tireless-pursuers): As _ [tireless pursuit](advanced/spells/tirelessPursuit.md#_tireless-pursuit)_, but affects multiple creatures.
-- [**Unholy Blight**](spells/unholyBlight.md#_unholy-blight): Harms and sickens good creatures (1d8 damage/2 levels).
-
-- [**Atonement**](spells/atonement.md#_atonement)FM: Removes burden of misdeeds from subject.
-- [**Banishment**](spells/banishment.md#_banishment): Banishes 2 HD/level of extraplanar creatures.
-- [**Break Enchantment**](spells/breakEnchantment.md#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
-- [**Castigate, Mass**](advanced/spells/castigate.md#_castigate,-mass): As _ [castigate](advanced/spells/castigate.md#_castigate)_, but affects multiple creatures.
-- [**Command, Greater**](spells/command.md#_command-greater): As _ [command](spells/command.md#_command), _but affects one subject/level.
-- [**Commune**](spells/commune.md#_commune)M: Deity answers one yes-or-no question/level.
-- [**Cure Light Wounds, Mass**](spells/cureLightWounds.md#_cure-light-wounds-mass): Cures 1d8 damage + 1/level, affects 1 subject/level.
-- [**Dispel Chaos**](spells/dispelChaos.md#_dispel-chaos): +4 bonus against attacks by chaotic creatures.
-- [**Disrupting Weapon**](spells/disruptingWeapon.md#_disrupting-weapon): Melee weapon destroys undead.
-- [**Divine Pursuit**](ultimateMagic/spells/divinePursuit.md#_divine-pursuit): Gain a movement type of your prey.
-- [**Flame Strike**](spells/flameStrike.md#_flame-strike): Smites foes with divine fire (1d6/level damage).
-- [**Forbid Action, Greater**](ultimateMagic/spells/forbidAction.md#_forbid-action,-greater): As _ [forbid action](ultimateMagic/spells/forbidAction.md#_forbid-action)_, but 1 creature/level.
-- [**Geas/Quest**](spells/geasQuest.md#_geas-quest): As _lesser geas, _but affects any creature.
-- [**Ghostbane Dirge, Mass**](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge,-mass): As _ [ghostbane dirge](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge)_, but affects multiple creatures.
-- [**Hallow**](spells/hallow.md#_hallow)M: Designates location as holy.
-- [**Inflict Light Wounds, Mass**](spells/inflictLightWounds.md#_inflict-light-wounds-mass): Deals 1d8 damage + 1/level, affects 1 subject/level.
-- [**Litany of Thunder**](ultimateCombat/spells/litanyOfThunder.md#_litany-of-thunder): A single target is deafened until the condition is removed, and is confused for 1 round.
-- [**Litany of Vengeance**](ultimateCombat/spells/litanyOfVengeance.md#_litany-of-vengeance): Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.
-- [**Mark of Justice**](spells/markOfJustice.md#_mark-of-justice): Designates action that triggers _curse _on subject.
-- [**Resounding Blow**](advanced/spells/resoundingBlow.md#_resounding-blow): Melee attack deals 1d6 more damage.
-- [**Righteous Might**](spells/righteousMight.md#_righteous-might): Your size increases, and you gain bonuses in combat.
-- [**Shield**](spells/shield.md#_shield): Invisible disc gives +4 to [AC](combat.md#_armor-class), blocks _ [magic missile](spells/magicMissile.md#_magic-missile)s._
-- [**Spawn Ward**](advancedRaceGuide/featuredRaces/dhampirs.md#_spawn-ward): Target becomes resistant to the effects of energy drain and blood drain attacks made by undead creatures.
-- [**Spell Immunity, Communal**](ultimateCombat/spells/spellImmunity.md#_spell-immunity,-communal): As _ [spell immunity](spells/spellImmunity.md#_spell-immunity)_, but you may divide the duration among creatures touched.
-- [**Spell Resistance**](spells/spellResistance.md#_spell-resistance): Subject gains SR 12 + level.
-- [**Stoneskin, Communal**](ultimateCombat/spells/stoneskin.md#_stoneskin,-communal)M: As _ [stoneskin](spells/stoneskin.md#_stoneskin)_, but you may divide the duration among creatures touched.
-- [**Telepathic Bond**](spells/telepathicBond.md#_telepathic-bond): Link lets allies communicate.
-- [**True Seeing**](spells/trueSeeing.md#_true-seeing)M: Lets you see all things as they really are.
-- [**Unhallow**](spells/unhallow.md#_unhallow)M: Designates location as unholy.
-- [**Unwilling Shield**](advanced/spells/unwillingShield.md#_unwilling-shield)M: Subject shares wounds you receive.
-
-- [**Blade Barrier**](spells/bladeBarrier.md#_blade-barrier): Wall of blades deals 1d6/level damage.
-- [**Blasphemy**](spells/blasphemy.md#_blasphemy): Kills, paralyzes, weakens, or dazes nonevil subjects.
-- [**Blessing of Luck and Resolve, Mass**](advancedRaceGuide/coreRaces/halflings.md#_blessing-of-luck-and-resolve,-mass): Functions like _blessing of luck and resolve_, except that it affects multiple creatures.
-- [**Circle of Death**](spells/circleOfDeath.md#_circle-of-death)M: Kills 1d4/level HD of creatures.
-- [**Cleanse**](advanced/spells/cleanse.md#_cleanse): As _ [heal](spells/heal.md#_heal)_, but only cures 4d8 damage +1/level (max +25).
-- [**Cure Moderate Wounds, Mass**](spells/cureModerateWounds.md#_cure-moderate-wounds-mass): Cures 2d8 damage + 1/level, affects 1 subject/level.
-- [**Dictum**](spells/dictum.md#_dictum): Kills, paralyzes, staggers, or deafens nonlawful targets.
-- [**Dispel Magic, Greater**](spells/dispelMagic.md#_dispel-magic-greater): As _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, but with multiple targets.
-- [**Fester, Mass**](advanced/spells/fester.md#_fester,-mass): As _ [fester](advanced/spells/fester.md#_fester)_, but affecting multiple targets.
-- [**Find the Path**](spells/findThePath.md#_find-the-path): Shows most direct way to a location.
-- [**Forbiddance**](spells/forbiddance.md#_forbiddance)M: Blocks planar travel, damages creatures of different alignment.
-- [**Glyph of Warding, Greater**](spells/glyphOfWarding.md#_glyph-of-warding-greater)M: As _ [glyph of warding](spells/glyphOfWarding.md#_glyph-of-warding)_, but up to 10d8 damage or 6th-level spell.
-- [**Harm**](spells/harm.md#_harm): Deals 10 points/level damage to target.
-- [**Heal**](spells/heal.md#_heal): Cures 10 points/level damage, all diseases and mental conditions.
-- [**Heroes' Feast**](spells/heroesFeast.md#_heroes-feast): Food for one creature/level cures and grants combat bonuses_._
-- [**Holy Word**](spells/holyWord.md#_holy-word): Kills, paralyzes, blinds, or deafens nongood subjects.
-- [**Inflict Moderate Wounds, Mass**](spells/inflictModerateWounds.md#_inflict-moderate-wounds-mass): Deals 2d8 damage + 1/level, affects 1 subject/level.
-- [**Legend Lore**](spells/legendLore.md#_legend-lore)MF: Lets you learn tales about a person, place, or thing.
-- [**Litany of Madness**](ultimateCombat/spells/litanyOfMadness.md#_litany-of-madness): A single target is confused for at least 1 round.
-- [**Named Bullet, Greater**](ultimateCombat/spells/namedBullet.md#_named-bullet,-greater): As _ [named bullet](ultimateCombat/spells/namedBullet.md#_named-bullet)_, but deals 2 points of damage per caster level.
-- [**Overwhelming Presence**](ultimateMagic/spells/overwhelmingPresence.md#_overwhelming-presence): Creatures bow before you as if you were divine.
-- [**Repulsion**](spells/repulsion.md#_repulsion)F: Creatures can't approach you.
-- [**Undeath to Death**](spells/undeathToDeath.md#_undeath-to-death)M: Destroys 1d4/level HD of undead (max. 20d4).
-- [**Word of Chaos**](spells/wordOfChaos.md#_word-of-chaos): Kills, confuses_, _stuns, or deafens nonchaotic subjects.
-
-- [**Acid Splash**](spells/acidSplash.md#_acid-splash): Orb deals 1d3 acid damage.
-- [**Arcane Mark**](spells/arcaneMark.md#_arcane-mark): Inscribes a personal rune on an object or creature (visible or invisible).
-- [**Dancing Lights**](spells/dancingLights.md#_dancing-lights): Creates torches or other lights.
-- [**Daze**](spells/daze.md#_daze): A single humanoid creature with 4 HD or less loses its next action.
-- [**Detect Magic**](spells/detectMagic.md#_detect-magic): Detects all spells and magic items within 60 ft.
-- [**Disrupt Undead**](spells/disruptUndead.md#_disrupt-undead): Deals 1d6 damage to one undead.
-- [**Flare**](spells/flare.md#_flare): Dazzles one creature (–1 on attack rolls).
-- [**Ghost Sound**](spells/ghostSound.md#_ghost-sound): Figment sounds.
-- [**Light**](spells/light.md#_light): Object shines like a torch.
-- [**Mage Hand**](spells/mageHand.md#_mage-hand): 5-pound telekinesis.
-- [**Open/Close**](spells/openClose.md#_open-close): Opens or closes small or light things.
-- [**Prestidigitation**](spells/prestidigitation.md#_prestidigitation): Performs minor tricks.
-- [**Ray of Frost**](spells/rayOfFrost.md#_ray-of-frost): Ray deals 1d3 cold damage.
-- [**Read Magic**](spells/readMagic.md#_read-magic): Read scrolls and spellbooks.
-- [**Spark**](advanced/spells/spark.md#_spark-): Ignites flammable objects.
-
-- [**Adjuring Step**](ultimateCombat/spells/adjuringStep.md#_adjuring-step-): You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell. 
-- [**Blend**](advancedRaceGuide/coreRaces/elves.md#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
-- [**Burning Hands**](spells/burningHands.md#_burning-hands): 1d4/level fire damage (max 5d4).
-- [**Chill Touch**](spells/chillTouch.md#_chill-touch): One touch/level deals 1d6 damage and possibly 1 [Str](gettingStarted.md#_strength) damage.
-- [**Color Spray**](spells/colorSpray.md#_color-spray): Knocks [unconscious](glossary.md#_unconscious), blinds, and/or stuns weak creatures.
-- [**Corrosive Touch**](ultimateMagic/spells/corrosiveTouch.md#_corrosive-touch): Touch attack deals 1d4 acid/level.
-- [**Enlarge Person**](spells/enlargePerson.md#_enlarge-person): Humanoid creature doubles in size.
-- [**Expeditious Retreat**](spells/expeditiousRetreat.md#_expeditious-retreat): Your base speed increases by 30 ft.
-- [**Feather Fall**](spells/featherFall.md#_feather-fall): Objects or creatures fall slowly.
-- [**Flare Burst**](advanced/spells/flareBurst.md#_flare-burst): As _ [flare](spells/flare.md#_flare)_, but affects all creatures in 10 ft.
-- [**Floating Disk**](spells/floatingDisk.md#_floating-disk): Creates 3-ft.-diameter horizontal disk that holds 100 lbs./level.
-- [**Frostbite**](ultimateMagic/spells/frostbite.md#_frostbite): Target takes cold damage and is fatigued.
-- [**Grease**](spells/grease.md#_grease): Makes 10-ft. square or one object slippery.
-- [**Hydraulic Push**](advanced/spells/hydraulicPush.md#_hydraulic-push-): Wave of water bull rushes an enemy.
-- [**Illusion of Calm**](ultimateCombat/spells/illusionOfCalm.md#_illusion-of-calm): You appear to be standing still, even when you take some actions. 
-- [**Ironbeard**](advancedRaceGuide/coreRaces/dwarves.md#_ironbeard): Causes a brushy beard of stiff iron to erupt from the face of a willing target.
-- [**Jump**](spells/jump.md#_jump): Subject gets bonus on Acrobatics checks.
-- [**Jury-Rig**](ultimateCombat/spells/juryRig.md#_jury-rig): Removes the broken condition from the targeted object.
-- [**Linebreaker**](advancedRaceGuide/coreRaces/halfOrcs.md#_linebreaker): You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun.
-- [**Lock Gaze**](ultimateCombat/spells/lockGaze.md#_lock-gaze): Compels the target to look only at you for the duration of the spell.
-- [**Longshot**](ultimateCombat/spells/longshot.md#_longshot): Grants a +10-foot bonus to the range increment for any ranged weapon fired.
-- [**Magic Missile**](spells/magicMissile.md#_magic-missile): 1d4+1 damage; +1 missile per two levels above 1st (max 5).
-- [**Magic Weapon**](spells/magicWeapon.md#_magic-weapon): Weapon gains +1 bonus.
-- [**Mirror Strike**](ultimateCombat/spells/mirrorStrike.md#_mirror-strike): You may strike multiple opponents with a single attack.
-- [**Mount**](spells/mount.md#_mount): Summons riding horse for 2 hours/level.
-- [**Mudball**](advancedRaceGuide/featuredRaces/goblins.md#_mudball): You conjure a single ball of sticky mud and launch it at an enemy's face as a ranged touch attack.
-- [**Negative Reaction**](ultimateCombat/spells/negativeReaction.md#_negative-reaction): Targeted creature may not positively influence anyone.
-- [**Obscuring Mist**](spells/obscuringMist.md#_obscuring-mist): Fog surrounds you.
-- [**Ray of Enfeeblement**](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement): Ray causes 1d6 [Str](gettingStarted.md#_strength) penalty + 1 per 2 levels.
-- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes.md#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
-- [**Reduce Person**](spells/reducePerson.md#_reduce-person): Humanoid creature halves in size.
-- [**Reinforce Armaments**](ultimateCombat/spells/reinforceArmaments.md#_reinforce-armaments): Temporarily mitigates the fragile quality in targeted weapon or armor.
-- [**Returning Weapon**](ultimateCombat/spells/returningWeapon.md#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons.md#_weapons-returning)_ special weapon quality.
-- [**Shield**](spells/shield.md#_shield): Invisible disc gives +4 to [AC](combat.md#_armor-class), blocks _ [magic missile](spells/magicMissile.md#_magic-missile)s._
-- [**Shock Shield**](ultimateCombat/spells/shockShield.md#_shock-shield): A shield of force protects you until you dismiss it in an explosion of electricity.
-- [**Shocking Grasp**](spells/shockingGrasp.md#_shocking-grasp): Touch delivers 1d6/level electricity damage (max 5d6).
-- [**Silent Image**](spells/silentImage.md#_silent-image): Creates minor illusion of your design.
-- [**Stone Fist**](advanced/spells/stoneFist.md#_stone-fist): Your unarmed strikes are lethal.
-- [**True Strike**](spells/trueStrike.md#_true-strike): +20 on your next attack roll.
-- [**Unerring Weapon**](ultimateCombat/spells/unerringWeapon.md#_unerring-weapon): Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.
-- [**Unseen Servant**](spells/unseenServant.md#_unseen-servant): Invisible force obeys your commands.
-- [**Vanish**](advanced/spells/vanish.md#_vanish): As _ [invisibility](spells/invisibility.md#_invisibility)_ for 1 round/level (5 max).
-- [**Warding Weapon**](ultimateCombat/spells/wardingWeapon.md#_warding-weapon)F: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
-- [**Web Bolt**](advancedRaceGuide/featuredRaces/drow.md#_web-bolt): You launch a ball of webbing at a target, causes target to be affected as if by a _web_ spell.
-- [**Windy Escape**](advancedRaceGuide/featuredRaces/sylphs.md#_windy-escape): You respond to an attack by briefly becoming vaporous and insubstantial.
-
-**[Ablative Barrier](ultimateCombat/spells/ablativeBarrier.md#_ablative-barrier)**** F**: Surrounds the target with layers of force.
-
-- [**Acid Arrow**](spells/acidArrow.md#_acid-arrow): Ranged touch attack; 2d4 damage for 1 round + 1 round/3 levels.
-- [**Alter Self**](spells/alterSelf.md#_alter-self): Assume form of a Small or Medium humanoid.
-- [**Animal Aspect**](ultimateCombat/spells/animalAspect.md#_animal-aspect): You gain some of the beneficial qualities of an animal.
-- [**Bear's Endurance**](spells/bearSEndurance.md#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted.md#_constitution) for 1 min./level.
-- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency.md#_bestow-weapon-proficiency): Grants a creature proficiency in a single weapon for short period of time.
-- [**Blood Blaze**](advancedRaceGuide/featuredRaces/orcs.md#_blood-blaze): 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air.
-- [**Blood Transcription**](ultimateMagic/spells/bloodTranscription.md#_blood-transcription): Learn a spell from the target's blood.
-- [**Blur**](spells/blur.md#_blur): Attacks miss subject 20% of the time.
-- [**Brow Gasher**](ultimateCombat/spells/browGasher.md#_brow-gasher): Slashing weapon deals bleed damage to an opponent's head.
-- [**Bull's Strength**](spells/bullSStrength.md#_bull-s-strength): Subject gains +4 to Str for 1 min./level.
-- [**Burning Gaze**](advanced/spells/burningGaze.md#_burning-gaze): Inflict 1d6 fire damage to creature by looking at it.
-- [**Cat's Grace**](spells/catSGrace.md#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted.md#_dexterity) for 1 min./level.
-- [**Darkness**](spells/darkness.md#_darkness): 20-ft. radius of supernatural shadow.
-- [**Defensive Shock**](ultimateMagic/spells/defensiveShock.md#_defensive-shock): Electricity damages your attackers.
-- [**Effortless Armor**](ultimateCombat/spells/effortlessArmor.md#_effortless-armor): Armor you wear no longer slows your speed.
-- [**Elemental Touch**](advanced/spells/elementalTouch.md#_elemental-touch): Gain energy damage touch attack.
-- [**Escaping Ward**](advancedRaceGuide/coreRaces/halflings.md#_escaping-ward): Grants extra maneuverability when you avoid attacks against larger foes.
-- [**Fire Breath**](advanced/spells/fireBreath.md#_fire-breath): Exhale a cone of flame at will.
-- [**Flaming Sphere**](spells/flamingSphere.md#_flaming-sphere): Ball of fire deals 3d6 fire damage.
-- [**Fog Cloud**](spells/fogCloud.md): Fog obscures vision.
-- [**Frigid Touch**](ultimateMagic/spells/frigidTouch.md#_frigid-touch): Target takes cold damage and is staggered.
-- [**Glitterdust**](spells/glitterdust.md#_glitterdust): Blinds targets, outlines invisible things.
-- [**Groundswell**](advancedRaceGuide/coreRaces/dwarves.md#_groundswell): Allows the target to cause the ground to rise up beneath him.
-- [**Gusting Sphere**](advancedRaceGuide/featuredRaces/sylphs.md#_gusting-sphere): A swirling ball of wind rolls in whichever direction you point, hurling those it strikes with great force.
-- [**Gust of Wind**](spells/gustOfWind.md#_gust-of-wind): Blast of wind blows away or knocks down creatures.
-- [**Imbue with Elemental Might**](advancedRaceGuide/uncommonRaces/sulis.md#_imbue-with-elemental-might): Functions like _imbue with spell ability_, except you transfer the use of your elemental assault ability to the target.
-- [**Invisibility**](spells/invisibility.md#_invisibility): Subject is invisible for 1 min./level or until it attacks.
-- [**Levitate**](spells/levitate.md#_levitate): Subject moves up and down at your direction.
-- [**Minor Image**](spells/minorImage.md#_minor-image): As _ [silent image](spells/silentImage.md#_silent-image)_, plus some sound.
-- [**Mirror Image**](spells/mirrorImage.md#_mirror-image): Creates decoy duplicates of you.
-- [**Mount, Communal**](ultimateCombat/spells/mount.md#_mount,-communal): As _ [mount](spells/mount.md#_mount)_, but you may divide the duration among creatures touched. 
-- [**Pilfering Hand**](ultimateCombat/spells/pilferingHand.md#_pilfering-hand): You may seize an object or manipulate it from afar.
-- [**Pyrotechnics**](spells/pyrotechnics.md#_pyrotechnics): Turns fire into light or thick smoke.
-- [**Reinforce Armaments, Communal**](ultimateCombat/spells/reinforceArmaments.md#_reinforce-armaments,-communal): As _ [reinforce armaments](ultimateCombat/spells/reinforceArmaments.md#_reinforce-armaments)_, but you may divide the duration among objects touched.
-- [**Reloading Hands**](ultimateCombat/spells/reloadingHands.md#_reloading-hands): Loads a single shot into your weapon every round.
-- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon.md#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon.md#_returning-weapon)_, but you may divide the duration among weapons touched.
-- [**Savage Maw**](advancedRaceGuide/coreRaces/halfOrcs.md#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
-- [**Scorching Ray**](spells/scorchingRay.md#_scorching-ray): Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).
-- [**Shatter**](spells/shatter.md#_shatter): Sonic energy damages objects or creatures composed of crystal.
-- [**Spider Climb**](spells/spiderClimb.md#_spider-climb): Grants ability to walk on walls and ceilings.
-- [**Stone Call**](advanced/spells/stoneCall.md#_stone-call): 2d6 damage to all creatures in area.
-- [**Stone Shield**](advancedRaceGuide/featuredRaces/oreads.md#_stone-shield): 1-inch-thick slab of stone springs up from the ground, shielding you.
-- [**Tactical Acumen**](ultimateCombat/spells/tacticalAcumen.md#_tactical-acumen): You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
-- [**Telekinetic Assembly**](ultimateCombat/spells/telekineticAssembly.md#_telekinetic-assembly)F: Assembles a siege engine using 1 fewer worker for every two caster levels.
-- [**Twisted Space**](ultimateCombat/spells/twistedSpace.md#_twisted-space): Targeted creature's attacks target a random square instead of the intended target.
-- [**Web**](spells/web.md#_web): Fills 20-ft.-radius spread with sticky spiderwebs that can grapple foes and impair movement.
-
-- [**Animal Aspect, Greater**](ultimateCombat/spells/animalAspect.md#_animal-aspect,-greater): As _ [animal aspect](ultimateCombat/spells/animalAspect.md#_animal-aspect)_, but you gain two animal qualities.
-- [**Aqueous Orb**](advanced/spells/aqueousOrb.md#_aqueous-orb): Creates rolling sphere of water.
-- [**Arcane Sight**](spells/arcaneSight.md#_arcane-sight): Magical auras become visible to you.
-- [**Beast Shape I**](spells/beastShape.md#_beast-shape-i): You take the form and some of the powers of a Small or Medium animal.
-- [**Blink**](spells/blink.md#_blink): You randomly vanish and reappear for 1 round per level.
-- [**Burst of Speed**](ultimateCombat/spells/burstOfSpeed.md#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
-- [**Cloak of Winds**](advanced/spells/cloakOfWinds.md#_cloak-of-winds): Creates a screen of wind around you.
-- [**Daylight**](spells/daylight.md#_daylight): 60-ft. radius of bright light.
-- [**Dispel Magic**](spells/dispelMagic.md#_dispel-magic): Cancels one magical spell or effect.
-- [**Displacement**](spells/displacement.md#_displacement): Attacks miss subject 50% of the time.
-- [**Elemental Aura**](advanced/spells/elementalAura.md#_elemental-aura): Creates an aura of energy around you.
-- [**Fireball**](spells/fireball.md#_fireball): 1d6 fire damage per level, 20-ft. radius.
-- [**Flame Arrow**](spells/flameArrow.md#_flame-arrow): Arrows deal +1d6 fire damage.
-- [**Fire Trail**](advancedRaceGuide/featuredRaces/goblins.md#_fire-trail): Flammable liquid oozes from your pores, dripping onto the ground and spontaneously combusting.
-- [**Firestream**](advancedRaceGuide/featuredRaces/ifrits.md#_firestream): A rushing stream of fire sprays from your outstretched hand, dealing fire damage to every creature in the area.
-- [**Fly**](spells/fly.md): Subject flies at a speed of 60 ft.
-- [**Force Hook Charge**](ultimateMagic/spells/forceHookCharge.md#_force-hook-charge): Hook of force drags you to the target.
-- [**Force Punch**](ultimateMagic/spells/forcePunch.md#_force-punch): Target takes 1d4 force damage per level and is pushed away.
-- [**Gaseous Form**](spells/gaseousForm.md#_gaseous-form): Become insubstantial and fly slowly.
-- [**Gloomblind Bolts**](advancedRaceGuide/featuredRaces/fetchlings.md#_gloomblind-bolts): Create one or more bolts of negative energy infused with shadow pulled from the Shadow Plane.
-- [**Haste**](spells/haste.md#_haste): One creature/level moves faster, +1 on attack rolls, [AC](combat.md#_armor-class), and [Reflex](combat.md#_reflex) saves.
-- [**Hydraulic Torrent**](advanced/spells/hydraulicTorrent.md#_hydraulic-torrent-): Creates torrent of water that bull rushes any creature in its path.
-- [**Keen Edge**](spells/keenEdge.md#_keen-edge): Doubles normal weapon's threat range.
-- [**Lightning Bolt**](spells/lightningBolt.md#_lightning-bolt): Electricity deals 1d6/level damage.
-- [**Locate Weakness**](ultimateCombat/spells/locateWeakness.md#_locate-weakness): You roll damage twice when you roll damage for a critical hit and take the best damage.
-- [**Magic Weapon, Greater**](spells/magicWeapon.md#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
-- [**Major Image**](spells/majorImage.md#_major-image): As _ [silent image](spells/silentImage.md#_silent-image)_, plus sound, smell and thermal effects.
-- [**Monstrous Physique I**](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-i): Take the form and some of the powers of a Small or Medium monstrous humanoid.
-- [**Phantom Steed**](spells/phantomSteed.md#_phantom-steed): Magic horse appears for 1 hour/level.
-- [**Prehensile Pilfer**](advancedRaceGuide/uncommonRaces/vanaras.md#_prehensile-pilfer): The target's tail moves and acts more quickly, almost with a mind of its own.
-- [**Ray of Exhaustion**](spells/rayOfExhaustion.md#_ray-of-exhaustion): Ray makes subject [exhausted](glossary.md#_exhausted).
-- [**Resilient Reservoir**](advancedRaceGuide/coreRaces/halfElves.md#_resilient-reservoir): Creates a magical well of retribution that a caster can unleash with blinding speed.
-- [**Sickening Strikes**](advancedRaceGuide/featuredRaces/ratfolk.md#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
-- [**Sleet Storm**](spells/sleetStorm.md#_sleet-storm): Hampers vision and movement.
-- [**Slow**](spells/slow.md#_slow): One subject/level takes only one action/round, –1 to [AC](combat.md#_armor-class), [Reflex](combat.md#_reflex) saves, and attack rolls.
-- [**Stinking Cloud**](spells/stinkingCloud.md#_stinking-cloud): Nauseating vapors, 1 round/level.
-- [**Undead Anatomy I**](ultimateMagic/spells/undeadAnatomy.md#_undead-anatomy-i): Take the form and some of the powers of a Small or Medium undead.
-- [**Vampiric Touch**](spells/vampiricTouch.md#_vampiric-touch): Touch deals 1d6 damage/2 levels; caster gains damage as temporary hp.
-- [**Versatile Weapon**](advanced/spells/versatileWeapon.md#_versatile-weapon): Weapon bypasses some DR.
-- [**Vomit Twin**](advancedRaceGuide/featuredRaces/goblins.md#_vomit-twin): You vomit forth a disgusting ooze copy of yourself into a single adjacent square.
-- [**Water Breathing**](spells/waterBreathing.md#_water-breathing): Subjects can breathe underwater.
-- [**Wind Wall**](spells/windWall.md#_wind-wall): Deflects arrows, smaller creatures, gasses.
-
-- [**Arcana Theft**](ultimateMagic/spells/arcanaTheft.md#_arcana-theft): Targeted dispel transfers an effect to you.
-- [**Ball Lightning**](advanced/spells/ballLightning.md#_ball-lightning): Flying balls of lightning deal 3d6 electricity damage each.
-- [**Beast Shape II**](spells/beastShape.md#_beast-shape-ii): You take the form and some of the powers of a Tiny or Large animal.
-- [**Black Tentacles**](spells/blackTentacles.md#_black-tentacles): Tentacles grapple all creatures within a 20-ft. spread.
-- [**Detonate**](advanced/spells/detonate.md#_detonate)M: Inflicts 1d8/level energy damage to all creatures within 15 ft.
-- [**Dimension Door**](spells/dimensionDoor.md#_dimension-door): Teleports you a short distance.
-- [**Dragon's Breath**](advanced/spells/dragonSBreath.md#_dragon's-breath): Gives you a dragon's breath weapon.
-- [**Elemental Body I**](spells/elementalBody.md#_elemental-body-i): Turns you into a Small elemental.
-- [**Enlarge Person, Mass**](spells/enlargePerson.md#_enlarge-person-mass): 1 humanoid creature/level doubles in size.
-- [**Fire Shield**](spells/fireShield.md#_fire-shield): Creatures attacking you take fire damage; you're protected from heat or cold.
-- [**Firefall**](advanced/spells/firefall.md#_firefall): Causes fire to burst up, dealing 2d6 fire damage.
-- [**Ice Storm**](spells/iceStorm.md#_ice-storm): Hail deals 5d6 damage in area 40 ft. across.
-- [**Invisibility, Greater**](spells/invisibility.md#_invisibility-greater): As _ [invisibility](../spells/invisibility.md#_invisibility)_, but subject can attack and stay invisible.
-- [**Monstrous Physique II**](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-ii): Take the form and some of the powers of a Tiny or Large monstrous humanoid.
-- [**Paragon Surge**](advancedRaceGuide/coreRaces/halfElves.md#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
-- [**Pellet Blast**](ultimateCombat/spells/pelletBlast.md#_pellet-blast)M: Creates an explosion of conjured metal pellets. 
-- [**Phantasmal Killer**](spells/phantasmalKiller.md#_phantasmal-killer): Fearsome illusion kills subject or deals 3d6 damage.
-- [**Reduce Person, Mass**](spells/reducePerson.md#_reduce-person-mass): As _ [reduce person](spells/reducePerson.md#_reduce-person)_, but affects 1 humanoid creature/level.
-- [**River of Wind**](advanced/spells/riverOfWind.md#_river-of-wind): A stream of wind causes nonlethal damage and can knock down or push creatures.
-- [**Shout**](spells/shout.md#_shout): Deafens all within cone, 5d6 sonic damage.
-- [**Solid Fog**](spells/solidFog.md#_solid-fog): Blocks vision and slows movement.
-- [**Stoneskin**](spells/stoneskin.md#_stoneskin)M: Grants DR 10/adamantine.
-- [**Vermin Shape I**](ultimateMagic/spells/verminShape.md#_vermin-shape-i-): Take the form and some of the powers of a Small or Medium vermin.
-- [**Wall of Fire**](spells/wallOfFire.md#_wall-of-fire): 2d4 fire damage to 10 ft. and 1d4 to 20 ft. Passing through wall deals 2d6 damage +1/level.
-- [**Wall of Ice**](spells/wallOfIce.md#_wall-of-ice): Ice plane creates wall or hemisphere creates dome.
-- [**Wall of Sound**](ultimateMagic/spells/wallOfSound.md#_wall-of-sound): Sonic wall deflects and damages creatures.
-
-- [**Acidic Spray**](ultimateMagic/spells/acidicSpray.md#_acidic-spray): 1d6/level acid damage plus 1 round of acid.
-- [**Baleful Polymorph**](spells/balefulPolymorph.md#_baleful-polymorph): Turns subject into harmless animal.
-- [**Beast Shape III**](spells/beastShape.md#_beast-shape-iii): You take the form of a Diminutive or Huge animal, or Small or Medium magical beast.
-- [**Cloudkill**](spells/cloudkill.md#_cloudkill): Kills 3 HD or less; 4–6 HD save or die; 6+ HD take Con damage.
-- [**Cone of Cold**](spells/coneOfCold.md#_cone-of-cold): 1d6/level cold damage.
-- [**Corrosive Consumption**](ultimateMagic/spells/corrosiveConsumption.md#_corrosive-consumption): Acidic patch damages an opponent.
-- [**Elemental Body II**](spells/elementalBody.md#_elemental-body-ii): You become a Medium elemental.
-- [**Fire Snake**](advanced/spells/fireSnake.md#_fire-snake): Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.
-- [**Geyser**](advanced/spells/geyser.md#_geyser-): Creates a geyser of boiling water.
-- [**Interposing Hand**](spells/interposingHand.md#_interposing-hand): Hand provides cover against 1 opponent.
-- [**Monstrous Physique III**](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-iii): Take the form and some of the powers of a Diminutive or Huge monstrous humanoid.
-- [**Overland Flight**](spells/overlandFlight.md#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
-- [**Symbol of Striking**](ultimateCombat/spells/symbolOfStriking.md#_symbol-of-striking)M: As _ [symbol of death](spells/symbolOfDeath.md#_symbol-of-death)_, but fills a 5-foot square.
-- [**Telekinesis**](spells/telekinesis.md#_telekinesis): Moves object, attacks creature, or hurls object or creature.
-- [**Teleport**](spells/teleport.md#_teleport): Instantly transports you as far as 100 miles per level.
-- [**Undead Anatomy II**](ultimateMagic/spells/undeadAnatomy.md#_undead-anatomy-ii): Take the form and some of the powers of a Tiny or Large undead.
-- [**Vermin Shape II**](ultimateMagic/spells/verminShape.md#_vermin-shape-ii): As _vermin shape_, but Tiny or Large.
-- [**Wall of Force**](spells/wallOfForce.md#_wall-of-force): Wall is immune to damage.
-- [**Wall of Stone**](spells/wallOfStone.md#_wall-of-stone): Creates a stone wall that can be shaped.
-- [**Wind Blades**](advancedRaceGuide/featuredRaces/sylphs.md#_wind-blades): Harden the air around the target into jagged invisible blades.
-
-- [**Acid Fog**](spells/acidFog.md#_acid-fog): Fog deals acid damage.
-- [**Bear's Endurance, Mass**](spells/bearSEndurance.md#_bear-s-endurance-mass): As _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, affects one subject/level.
-- [**Beast Shape IV**](spells/beastShape.md#_beast-shape-iv): You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast.
-- [**Bull's Strength, Mass**](spells/bullSStrength.md#_bull-s-strength-mass): As _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, affects 1 subject per level.
-- [**Cat's Grace, Mass**](spells/catSGrace.md#_cat-s-grace-mass): As _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, affects 1 subject/level.
-- [**Chains of Fire**](advancedRaceGuide/featuredRaces/ifrits.md#_chains-of-fire): Functions like _chain lightning_, except deals fire damage.
-- [**Chain Lightning**](spells/chainLightning.md#_chain-lightning): 1d6/level damage, 1 more bolt/level.
-- [**Contagious Flame**](advanced/spells/contagiousFlame.md#_contagious-flame): Scorching rays cause 4d6 fire damage, then move on to new targets.
-- [**Disintegrate**](spells/disintegrate.md#_disintegrate): Reduces one creature or object to dust.
-- [**Elemental Body III**](spells/elementalBody.md#_elemental-body-iii): Turns you into a Large elemental.
-- [**Flesh to Stone**](spells/fleshToStone.md#_flesh-to-stone): Turns subject creature into statue.
-- [**Forceful Hand**](spells/forcefulHand.md#_forceful-hand): Hand pushes creatures away.
-- [**Form of the Dragon I**](spells/formOfTheDragon.md#_form-of-the-dragon-i): Turns you into a Medium dragon.
-- [**Freezing Sphere**](spells/freezingSphere.md#_freezing-sphere): Freezes water or deals cold damage.
-- [**Mislead**](spells/mislead.md#_mislead): Turns you [invisible](glossary.md#_invisible) and creates illusory double.
-- [**Monstrous Physique IV**](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-iv): As _ [monstrous physique III](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-iii)_, with more abilities.
-- [**Sirocco**](advanced/spells/sirocco.md#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
-- [**Stone to Flesh**](spells/stoneToFlesh.md#_stone-to-flesh): Restores petrified creature.
-- [**Transformation**](spells/transformation.md#_transformation)M: You gain combat bonuses.
-- [**True Seeing**](spells/trueSeeing.md#_true-seeing)M: Lets you see all things as they really are.
-- [**Undead Anatomy III**](ultimateMagic/spells/undeadAnatomy.md#_undead-anatomy-iii): Take the form and some of the powers of a Diminutive or Huge undead.
-- [**Walk through Space**](ultimateCombat/spells/walkThroughSpace.md#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
-- [**Wall of Iron**](spells/wallOfIron.md#_wall-of-iron)M: 30 hp/four levels; can topple onto foes.
-
-- [**Bless**](spells/bless.md#_bless): Allies gain +1 on attack rolls and saves against fear.
-- [**Bless Water**](spells/blessWater.md#_bless-water)M: Makes holy water.
-- [**Bless Weapon**](spells/blessWeapon.md#_bless-weapon): Weapon strikes true against evil foes.
-- [**Bowstaff**](ultimateCombat/spells/bowstaff.md#_bowstaff): A shortbow may double as a club, or a longbow as a quarterstaff.
-- [**Challenge Evil**](advanced/spells/challengeEvil.md#_challenge-evil): Sickens creature if it refuses to fight you.
-- [**Compel Hostility**](ultimateCombat/spells/compelHostility.md#_compel-hostility): Compels opponents to attack you instead of your allies.
-- [**Create Water**](spells/createWater.md#_create-water): Creates 2 gallons/level of pure water.
-- [**Cure Light Wounds**](spells/cureLightWounds.md#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
-- [**Detect Poison**](spells/detectPoison.md#_detect-poison): Detects poison in one creature or small object.
-- [**Detect Undead**](spells/detectUndead.md#_detect-undead): Reveals undead within 60 ft.
-- [**Diagnose Disease**](ultimateMagic/spells/diagnoseDisease.md#_diagnose-disease): Detect and identify diseases.
-- [**Divine Favor**](spells/divineFavor.md#_divine-favor): You gain +1 per three levels on attack and damage rolls.
-- [**Endure Elements**](spells/endureElements.md#_endure-elements): Exist comfortably in hot or cold regions.
-- [**Ghostbane Dirge**](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge): Incorporeal creature takes half damage from nonmagical weapons.
-- [**Grace**](advanced/spells/grace.md#_grace): Movement doesn't provoke attacks of opportunity.
-- [**Hero's Defiance**](advanced/spells/heroSDefiance.md#_hero's-defiance): Allows the use of lay on hands while falling unconscious.
-- [**Honeyed Tongue**](advanced/spells/honeyedTongue.md#_honeyed-tongue): Roll 2 dice when using [Diplomacy](skills/diplomacy.md#_diplomacy), take higher roll.
-- [**Horn of Pursuit**](ultimateMagic/spells/hornOfPursuit.md#_horn-of-pursuit): Create three notes heard miles away.
-- [**Ironbeard**](advancedRaceGuide/coreRaces/dwarves.md#_ironbeard): Causes a brushy beard of stiff iron to erupt from the face of a willing target.
-- [**Knight's Calling**](advanced/spells/knightSCalling.md#_knight's-calling): Forces target to move toward you and fight you.
-- [**Know the Enemy**](ultimateMagic/spells/knowTheEnemy.md#_know-the-enemy): Gain +10 on a monster [Knowledge](/skills/knowledge.md#_knowledge) check.
-- [**Liberating Command**](ultimateCombat/spells/liberatingCommand.md#_liberating-command): Target makes an [Escape Artist](skills/escapeArtist.md#_escape-artist) check as an immediate action and gains a bonus on it.
-- [**Litany of Sloth**](ultimateCombat/spells/litanyOfSloth.md#_litany-of-sloth): Single target cannot make attacks of opportunity for 1 round.
-- [**Linebreaker**](advancedRaceGuide/coreRaces/halfOrcs.md#_linebreaker): You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun.
-- [**Longshot**](ultimateCombat/spells/longshot.md#_longshot): Grants a +10-foot bonus to the range increment for any ranged weapon fired.
-- [**Magic Weapon**](spells/magicWeapon.md#_magic-weapon): Weapon gains +1 bonus.
-- [**Protection from Chaos**](spells/protectionFromChaos.md#_protection-from-chaos): +2 to [AC](combat.md#_armor-class) and saves, plus additional protection against selected alignment.
-- [**Protection from Evil**](spells/protectionFromEvil.md#_protection-from-evil): +2 to [AC](combat.md#_armor-class) and saves, plus additional protection against selected alignment.
-- [**Rally Point**](advanced/spells/rallyPoint.md#_rally-point-): Square gives good creatures bonuses.
-- [**Read Magic**](spells/readMagic.md#_read-magic): Read scrolls and spellbooks.
-- [**Resistance**](spells/resistance.md#_resistance): Subject gains +1 on saving throws.
-- [**Restoration, Lesser**](spells/restoration.md#_restoration-lesser): Dispels magical ability penalty or repairs 1d4 ability damage.
-- [**Sanctify Corpse**](ultimateMagic/spells/sanctifyCorpse.md#_sanctify-corpse): Prevent a corpse from becoming an undead.
-- [**Sun Metal**](ultimateCombat/spells/sunMetal.md#_sun-metal): Weapon touched bursts into flames.
-- [**Tactical Acumen**](ultimateCombat/spells/tacticalAcumen.md#_tactical-acumen): You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
-- [**Veil of Heaven**](advancedRaceGuide/featuredRaces/aasimars.md#_veil-of-heaven): You surround yourself with a veil of positive energy, making it harder for evil outsiders to harm you.
-- [**Veil of Positive Energy**](advanced/spells/veilOfPositiveEnergy.md#_veil-of-positive-energy): +2 AC, +2 on saves vs. undead.
-- [**Virtue**](spells/virtue.md#_virtue): Subject gains 1 temporary hp.
-- [**Wartrain Mount**](ultimateMagic/spells/wartrainMount.md#_wartrain-mount): Animal gains the combat training general purpose.
-- [**Word of Resolve**](ultimateMagic/spells/wordOfResolve.md#_word-of-resolve): Ally rerolls a save against charm or fear.
-
-- [**Arrow of Law**](ultimateMagic/spells/arrowOfLaw.md#_arrow-of-law): Harm and possibly daze chaotic creatures.
-- [**Aura of Greater Courage**](advanced/spells/auraOfGreaterCourage.md#_aura-of-greater-courage): Increases strength of a paladin's aura of courage.
-- [**Bestow Grace**](advanced/spells/bestowGrace.md#_bestow-grace): Subject gains bonus on saving throws equal to Cha modifier.
-- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency.md#_bestow-weapon-proficiency): Grants a creature proficiency in a single weapon for short period of time.
-- [**Blessing of Courage and Life**](advanced/spells/blessingOfCourageAndLife.md#_blessing-of-courage-and-life): Grants a +2 bonus on saves vs. fear and death.
-- [**Blessing of Luck and Resolve**](advancedRaceGuide/coreRaces/halflings.md#_blessing-of-luck-and-resolve): Grants target a +2 morale bonus on saving throws against fear effects.
-- [**Blinding Ray**](advancedRaceGuide/featuredRaces/dhampirs.md#_blinding-ray): You blast your enemies with blinding rays of sunlight.
-- [**Bull's Strength**](spells/bullSStrength.md#_bull-s-strength): Subject gains +4 to [Str](gettingStarted.md#_strength) for 1 min./level.
-- [**Corruption Resistance**](advanced/spells/corruptionResistance.md#_corruption-resistance): Protects creature against damage from alignment-based attacks.
-- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk.md#_delay-disease): The target becomes temporarily immune to disease.
-- [**Delay Poison**](spells/delayPoison.md#_delay-poison): Stops poison from harming subject for 1 hour/level.
-- [**Divine Arrow**](ultimateCombat/spells/divineArrow.md#_divine-arrow): Imbues a projectile with holy energy.
-- [**Eagle's Splendor**](spells/eagleSSplendor.md#_eagle-s-splendor): Subject gains +4 to [Cha](gettingStarted.md#_charisma-new) for 1 min./level.
-- [**Effortless Armor**](ultimateCombat/spells/effortlessArmor.md#_effortless-armor): Armor you wear no longer slows your speed.
-- [**Endure Elements, Communal**](ultimateCombat/spells/endureElements.md#_endure-elements,-communal): As _ [endure elements](spells/endureElements.md#_endure-elements)_, but you may divide the duration among creatures touched.
-- [**Fire of Entanglement**](advanced/spells/fireOfEntanglement.md#_fire-of-entanglement): Your ability to smite evil also entangles your foe.
-- [**Holy Shield**](ultimateMagic/spells/holyShield.md#_holy-shield): Lend your shield's protection to another.
-- [**Instant Armor**](advanced/spells/instantArmor.md#_instant-armor-): Summon armor temporarily replacing your current attire.
-- [**Light Lance**](advanced/spells/lightLance.md#_light-lance-): Creates a soaring beacon of light.
-- [**Litany of Defense**](ultimateCombat/spells/litanyOfDefense.md#_litany-of-defense): Doubles armor's enhancement bonus.
-- [**Litany of Eloquence**](ultimateCombat/spells/litanyOfEloquence.md#_litany-of-eloquence): Fascinates a single creature for 1 round.
-- [**Litany of Entanglement**](ultimateCombat/spells/litanyOfEntanglement.md#_litany-of-entanglement): Entangles a creature for 1 round.
-- [**Litany of Righteousness**](ultimateCombat/spells/litanyOfRighteousness.md#_litany-of-righteousness): A single evil creature takes more damage from creatures with a good aura.
-- [**Litany of Warding**](ultimateCombat/spells/litanyOfWarding.md#_litany-of-warding): You gain two additional attacks of opportunity for 1 round.
-- [**Magic Siege Engine**](ultimateCombat/spells/magicSiegeEngine.md#_magic-siege-engine): Siege engine gains +1 on targeting and damage rolls.
-- [**Owl's Wisdom**](spells/owlSWisdom.md#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted.md#_wisdom) for 1 min./level.
-- [**Paladin's Sacrifice**](advanced/spells/paladinSSacrifice.md#_paladin's-sacrifice): Take the damage and effects for another creature.
-- [**Protection from Chaos, Communal**](ultimateCombat/spells/protectionFromChaos.md#_protection-from-chaos,-communal): As _ [protection from chaos](spells/protectionFromChaos.md#_protection-from-chaos)_, but you may divide the duration among creatures touched.
-- [**Protection from Evil, Communal**](ultimateCombat/spells/protectionFromEvil.md#_protection-from-evil,-communal): As _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_, but you may divide the duration among creatures touched.
-- [**Remove Paralysis**](spells/removeParalysis.md#_remove-paralysis): Frees one or more creatures from paralysis or [slow](spells/slow.md#_slow) effect.
-- [**Resist Energy**](spells/resistEnergy.md#_resist-energy): Ignores 10 or more points of damage per attack from specified energy type.
-- [**Righteous Vigor**](advanced/spells/righteousVigor.md#_righteous-vigor): Boosts attack bonus with each hit.
-- [**Sacred Bond**](advanced/spells/sacredBond.md#_sacred-bond)F: Cast touch healing spells from a distance.
-- [**Sacred Space**](advancedRaceGuide/featuredRaces/aasimars.md#_sacred-space): Sanctifies an area with heavenly power.
-- [**Saddle Surge**](advanced/spells/saddleSurge.md#_saddle-surge-): Bonus damage for moving on mount.
-- [**Shield Other**](spells/shieldOther.md#_shield-other)F: You take half of subject's damage.
-- [**Undetectable Alignment**](spells/undetectableAlignment.md#_undetectable-alignment): Conceals alignment from magical detection for 24 hours.
-- [**Vestment of the Champion**](ultimateMagic/spells/vestmentOfTheChampion.md#_vestment-of-the-champion): Armor or shield gains a +1 enhancement per four levels.
-- [**Wake of Light**](advanced/spells/wakeOfLight.md#_wake-of-light-): Magical trail aids good creatures, hinders evil ones.
-- [**Weapon of Awe**](advanced/spells/weaponOfAwe.md#_weapon-of-awe): Weapon gets +2 on damage rolls.
-- [**Zone of Truth**](spells/zoneOfTruth.md#_zone-of-truth): Subjects within range cannot lie.
-
-- [**Archon's Aura**](ultimateMagic/spells/archonSAura.md#_archon's-aura): Aura penalizes enemy attacks and AC.
-- [**Blade of Bright Victory**](ultimateMagic/spells/bladeOfBrightVictory.md#_blade-of-bright-victory): Bonded weapon gains _ [ghost touch](/magicItems/weapons.md#_weapons-ghost-touch)_.
-- [**Blessing of the Mole**](ultimateMagic/spells/blessingOfTheMole.md#_blessing-of-the-mole): 1 ally/level gains darkvision and a +2 [Stealth](/skills/stealth.md#_stealth) bonus.
-- [**Burst of Speed**](ultimateCombat/spells/burstOfSpeed.md#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
-- [**Cure Moderate Wounds**](spells/cureModerateWounds.md#_cure-moderate-wounds): Cures 2d8 damage +1/level (max. +10).
-- [**Daybreak Arrow**](ultimateCombat/spells/daybreakArrow.md#_daybreak-arrow): Targeted ammunition exudes radiant energy.
-- [**Daylight**](spells/daylight.md#_daylight): 60-ft. radius of bright light.
-- [**Deadly Juggernaut**](ultimateCombat/spells/deadlyJuggernaut.md#_deadly-juggernaut): Your might increases with every kill you make.
-- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison.md#_delay-poison,-communal): As _ [delay poison](spells/delayPoison.md#_delay-poison)_, but you may divide the duration among creatures touched.
-- [**Discern Lies**](spells/discernLies.md#_discern-lies): Reveals deliberate falsehoods.
-- [**Dispel Magic**](spells/dispelMagic.md#_dispel-magic): Cancels one magical spell or effect.
-- [**Divine Transfer**](advanced/spells/divineTransfer.md#_divine-transfer): Transfer hit points and give DR/evil to target creature.
-- [**Fire of Judgment**](advanced/spells/fireOfJudgment.md#_fire-of-judgment): Smited creature takes damage when it attacks.
-- [**Ghostbane Dirge, Mass**](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge,-mass): As _ [ghostbane dirge](advanced/spells/ghostbaneDirge.md#_ghostbane-dirge)_, but affects multiple creatures.
-- [**Heal Mount**](spells/healMount.md#_heal-mount): As _ [heal](spells/heal.md#_heal) _on horse or other special mount.
-- [**Holy Whisper**](advanced/spells/holyWhisper.md#_holy-whisper): Whisper sickens evil creatures, gives good creatures bonuses.
-- [**Litany of Escape**](ultimateCombat/spells/litanyOfEscape.md#_litany-of-escape): Teleports a friend out of a grapple.
-- [**Litany of Sight**](ultimateCombat/spells/litanyOfSight.md#_litany-of-sight): You can see invisible creatures and objects within 30 feet of you.
-- [**Magic Circle against Chaos/Evil**](spells/magicCircleAgainstEvil.md#_magic-circle-against-evil): As _ [protection from chaos](spells/protectionFromChaos.md#_protection-from-chaos)_, but 10-ft. radius and 10 min./level.
-- [**Magic Weapon, Greater**](spells/magicWeapon.md#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
-- [**Marks of Forbiddance**](advanced/spells/marksOfForbiddance.md#_marks-of-forbiddance): Makes 2 creatures pass Will saves in order to attack each other.
-- [**Prayer**](spells/prayer.md#_prayer): Allies get +1 bonus on most rolls, enemies –1 penalty.
-- [**Remove Blindness/Deafness**](spells/removeBlindnessDeafness.md#_remove-blindness-deafness): Cures normal or magical blindness or deafness.
-- [**Remove Curse**](spells/removeCurse.md#_remove-curse): Frees object or person from curse.
-- [**Resilient Reservoir**](advancedRaceGuide/coreRaces/halfElves.md#_resilient-reservoir): Creates a magical well of retribution that a caster can unleash with blinding speed.
-- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy.md#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy.md#_resist-energy)_, but you may divide the duration among creatures touched.
-- [**Sanctify Armor**](advanced/spells/sanctifyArmor.md#_sanctify-armor): +1 AC/four levels (max +5).
-- [**Wrathful Mantle**](advanced/spells/wrathfulMantle.md#_wrathful-mantle): Subject shines and gets +1/four levels on all saves.
-
-- [**Bestow Grace of the Champion**](ultimateMagic/spells/bestowGraceOfTheChampion.md#_bestow-grace-of-the-champion): Target gains paladin abilities for 1 round/level.
-- [**Blaze of Glory**](advanced/spells/blazeOfGlory.md#_blaze-of-glory-): Last stand cures good creatures, hurts evil.
-- [**Blessing of Luck and Resolve, Mass**](advancedRaceGuide/coreRaces/halflings.md#_blessing-of-luck-and-resolve,-mass): Functions like _blessing of luck and resolve_, except that it affects multiple creatures.
-- [**Break Enchantment**](spells/breakEnchantment.md#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
-- [**Cure Serious Wounds**](spells/cureSeriousWounds.md#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
-- [**Death Ward**](spells/deathWard.md#_death-ward): Grants bonuses against death spells and negative energy.
-- [**Dispel Chaos**](spells/dispelChaos.md#_dispel-chaos): +4 bonus against attacks by chaotic creatures.
-- [**Dispel Evil**](spells/dispelEvil.md#_dispel-evil): +4 bonus against attacks by evil creatures.
-- [**Fire of Vengeance**](advanced/spells/fireOfVengeance.md#_fire-of-vengeance): Smited creature takes 3d8 damage.
-- [**Forced Repentance**](advanced/spells/forcedRepentance.md#_forced-repentance): Target falls prone and confesses sins.
-- [**Holy Sword**](spells/holySword.md#_holy-sword): Weapon becomes +5, deals +2d6 damage against evil.
-- [**King's Castle**](advanced/spells/kingSCastle.md#_king's-castle): Instantly switch places with a single ally.
-- [**Litany of Thunder**](ultimateCombat/spells/litanyOfThunder.md#_litany-of-thunder): A single target is deafened until the condition is removed, and is confused for 1 round.
-- [**Litany of Vengeance**](ultimateCombat/spells/litanyOfVengeance.md#_litany-of-vengeance): Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.
-- [**Magic Siege Engine, Greater**](ultimateCombat/spells/magicSiegeEngine.md#_magic-siege-engine,-greater): Siege engine gains +1 on targeting and damage rolls for every four caster levels.
-- [**Mark of Justice**](spells/markOfJustice.md#_mark-of-justice): Designates action that triggers _curse _on subject.
-- [**Neutralize Poison**](spells/neutralizePoison.md#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
-- [**Oath of Peace**](advanced/spells/oathOfPeace.md#_oath-of-peace): Grants +5 AC and DR 10/evil, can't attack.
-- [**Paragon Surge**](advancedRaceGuide/coreRaces/halfElves.md#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
-- [**Raise Animal Companion**](ultimateMagic/spells/raiseAnimalCompanion.md#_raise-animal-companion): As _ [raise dead](/spells/raiseDead.md#_raise-dead)_, but on an animal.
-- [**Reprobation**](ultimateMagic/spells/reprobation.md#_reprobation): Marked target is shunned by your religion.
-- [**Resounding Blow**](advanced/spells/resoundingBlow.md#_resounding-blow): Melee attack deals 1d6 more damage.
-- [**Restoration**](spells/restoration.md#_restoration)M: Restores level and ability score drains.
-- [**Sacrificial Oath**](advanced/spells/sacrificialOath.md#_sacrificial-oath): Take damage for an ally for many rounds.
-- [**Stay the Hand**](advanced/spells/stayTheHand.md#_stay-the-hand): Subject cannot attack with melee weapon.
-- [**Symbol of Healing**](ultimateMagic/spells/symbolOfHealing.md#_symbol-of-healing): Triggered rune heals living creatures.
-
-- [**Abundant Ammunition**](ultimateCombat/spells/abundantAmmunition.md#_abundant-ammunition): Replaces nonmagical ammunition every round.
-- [**Air Bubble**](ultimateCombat/spells/airBubble.md#_air-bubble): Creates a small pocket of air around your head or an object.
-- [**Alarm**](spells/alarm.md#_alarm): Wards an area for 2 hours/level.
-- [**Animal Messenger**](spells/animalMessenger.md#_animal-messenger): Sends a Tiny animal to a specific place.
-- [**Ant Haul**](advanced/spells/antHaul.md#_ant-haul-): Triples carrying capacity of a creature.
-- [**Anticipate Peril**](ultimateMagic/spells/anticipatePeril.md#_anticipate-peril): Target gains a bonus on one initiative check.
-- [**Aspect of the Falcon**](advanced/spells/aspectOfTheFalcon.md#_aspect-of-the-falcon): Gives bonuses on [Perception](skills/perception.md#_perception) and ranged attacks.
-- [**Blend**](advancedRaceGuide/coreRaces/elves.md#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
-- [**Bowstaff**](ultimateCombat/spells/bowstaff.md#_bowstaff): A shortbow may double as a club, or a longbow as a quarterstaff.
-- [**Call Animal**](advanced/spells/callAnimal.md#_call-animal): Makes an animal come to you.
-- [**Calm Animals**](spells/calmAnimals.md#_calm-animals): Calms 2d4 + level HD of animals.
-- [**Charm Animal**](spells/charmAnimal.md#_charm-animal): Makes one animal your friend.
-- [**Cloak of Shade**](advanced/spells/cloakOfShade.md#_cloak-of-shade): Reduces effects of intense sun exposure and environmental heat.
-- [**Commune with Birds**](advancedRaceGuide/featuredRaces/tengus.md#_commune-with-birds): You can understand the responses given by birds.
-- [**Compel Hostility**](ultimateCombat/spells/compelHostility.md#_compel-hostility): Compels opponents to attack you instead of your allies.
-- [**Dancing Lantern**](advanced/spells/dancingLantern.md#_dancing-lantern-): Animates a lantern that follows you.
-- [**Deadeye's Lore**](ultimateCombat/spells/deadeyeSLore.md#_deadeye's-lore): Gain a +4 bonus on [Survival](skills/survival.md#_survival) and move full speed while tracking.
-- [**Delay Poison**](spells/delayPoison.md#_delay-poison): Stops poison from harming subject for 1 hour/level.
-- [**Detect Aberration**](advanced/spells/detectAberration.md#_detect-aberration): Detect presence of aberrations.
-- [**Detect Animals or Plants**](spells/detectAnimalsOrPlants.md#_detect-animals-or-plants): Detects kinds of animals or plants.
-- [**Detect Poison**](spells/detectPoison.md#_detect-poison): Detects poison in one creature or object.
-- [**Detect Snares and Pits**](spells/detectSnaresAndPits.md#_detect-snares-and-pits): Reveals natural or primitive traps.
-- [**Diagnose Disease**](ultimateMagic/spells/diagnoseDisease.md#_diagnose-disease): Detect and identify diseases.
-- [**Endure Elements**](spells/endureElements.md#_endure-elements): Exist comfortably in hot or cold regions.
-- [**Entangle**](spells/entangle.md#_entangle): Plants entangle everyone in 40-ft. radius.
-- [**Feather Step**](advanced/spells/featherStep.md#_feather-step): Subject ignores adverse movement effects in difficult terrain.
-- [**Glide**](advanced/spells/glide.md#_glide-): No fall damage, move 60 ft./round while falling.
-- [**Gravity Bow**](advanced/spells/gravityBow.md#_gravity-bow-): Arrows do damage as though one size category bigger.
-- [**Hide from Animals**](spells/hideFromAnimals.md#_hide-from-animals): Animals can't perceive one subject/level.
-- [**Horn of Pursuit**](ultimateMagic/spells/hornOfPursuit.md#_horn-of-pursuit): Create three notes heard miles away.
-- [**Hunter's Howl**](advanced/spells/hunterSHowl.md#_hunter's-howl): Treat enemies as favored for 1 round/level.
-- [**Ironbeard**](advancedRaceGuide/coreRaces/dwarves.md#_ironbeard): Causes a brushy beard of stiff iron to erupt from the face of a willing target.
-- [**Jump**](spells/jump.md#_jump): Subject gets bonus on Acrobatics checks.
-- [**Keen Senses**](advanced/spells/keenSenses.md#_keen-senses): Subject gains +2 [Perception](skills/perception.md#_perception), low-light vision.
-- [**Know the Enemy**](ultimateMagic/spells/knowTheEnemy.md#_know-the-enemy): Gain +10 on a monster [Knowledge](/skills/knowledge.md#_knowledge) check.
-- [**Lead Blades**](advanced/spells/leadBlades.md#_lead-blades-): Melee weapons damage as if one size bigger.
-- [**Liberating Command**](ultimateCombat/spells/liberatingCommand.md#_liberating-command): Target makes an [Escape Artist](skills/escapeArtist.md#_escape-artist) check as an immediate action and gains a bonus on it.
-- [**Linebreaker**](advancedRaceGuide/coreRaces/halfOrcs.md#_linebreaker): You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun.
-- [**Longshot**](ultimateCombat/spells/longshot.md#_longshot): Grants a +10-foot bonus to the range increment for any ranged weapon fired.
-- [**Longstrider**](spells/longstrider.md#_longstrider): Your base speed increases by 10 ft.
-- [**Magic Fang**](spells/magicFang.md#_magic-fang): One natural weapon of subject creature gets +1 on attack and damage rolls.
-- [**Marid's Mastery**](advancedRaceGuide/featuredRaces/undines.md#_marid's-mastery): Target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water.
-- [**Negate Aroma**](advanced/spells/negateAroma.md#_negate-aroma): Subject cannot be tracked by scent.
-- [**Pass without Trace**](spells/passWithoutTrace.md#_pass-without-trace): One subject/level leaves no tracks.
-- [**Read Magic**](spells/readMagic.md#_read-magic): Read scrolls and spellbooks.
-- [**Residual Tracking**](advanced/spells/residualTracking.md#_residual-tracking): Tell creature's appearance by footprint.
-- [**Resist Energy**](spells/resistEnergy.md#_resist-energy): Ignores 10 (or more) points of damage/attack from specified energy type.
-- [**Returning Weapon**](ultimateCombat/spells/returningWeapon.md#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons.md#_weapons-returning)_ special weapon quality.
-- [**Savage Maw**](advancedRaceGuide/coreRaces/halfOrcs.md#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
-- [**Speak with Animals**](spells/speakWithAnimals.md#_speak-with-animals): You can communicate with animals.
-- [**Strong Wings**](advancedRaceGuide/uncommonRaces/strix.md#_strong-wings): The target's wings grow more powerful, increases fly speed by +10 feet and its maneuverability to improve by one category.
-- [**Summon Minor Ally**](ultimateMagic/spells/summonMinorAlly.md#_summon-minor-ally): Summon 1d3 Tiny animals.
-- [**Summon Nature's Ally I**](spells/summonNatureSAlly.md#_summon-nature-s-ally-i): Summons creature to fight for you.
-- [**Sun Metal**](ultimateCombat/spells/sunMetal.md#_sun-metal): Weapon touched bursts into flames.
-- [**Tireless Pursuit**](advanced/spells/tirelessPursuit.md#_tireless-pursuit): Ignore fatigue while hustling.
-- [**Urban Grace**](advancedRaceGuide/coreRaces/halfElves.md#_urban-grace): You become one with the city around you, allowing you to move more easily through its crowds and buildings.
-- [**Wartrain Mount**](ultimateMagic/spells/wartrainMount.md#_wartrain-mount): Animal gains combat training.
-- [**Whispering Lore**](advancedRaceGuide/coreRaces/elves.md#_whispering-lore): You are able to gain knowledge from the land itself.
-- [**Winter Feathers**](advancedRaceGuide/featuredRaces/tengus.md#_winter-feathers): Target's feathers thicken and fluff up to ward against winter's chill.
-
-- [**Accelerate Poison**](advanced/spells/acceleratePoison.md#_accelerate-poison): Hastens targeted poison's onset.
-- [**Acute Senses**](ultimateMagic/spells/acuteSenses.md#_acute-senses): Subject gains a bonus on [Perception](/skills/perception.md#_perception) checks.
-- [**Allfood**](advanced/spells/allfood.md#_allfood-): Turns item up to 5 lbs./level into food.
-- [**Animal Aspect**](ultimateCombat/spells/animalAspect.md#_animal-aspect): You gain some of the beneficial qualities of an animal.
-- [**Ant Haul, Communal**](ultimateCombat/spells/antHaul.md#_ant-haul,-communal): As _ [ant haul](advanced/spells/antHaul.md#_ant-haul-)_, but you may divide the duration among creatures touched.
-- [**Arrow Eruption**](advanced/spells/arrowEruption.md#_arrow-eruption-): Creates duplicates of an arrow used to kill a creature in the previous round.
-- [**Aspect of the Bear**](advanced/spells/aspectOfTheBear.md#_aspect-of-the-bear): +2 AC and combat maneuver rolls.
-- [**Badger's Ferocity**](ultimateMagic/spells/badgerSFerocity.md#_badger's-ferocity): Weapons are _ [keen](/magicItems/weapons.md#_weapons-keen)_ while you concentrate.
-- [**Barkskin**](spells/barkskin.md#_barkskin): Grants +2 (or higher) enhancement to natural armor.
-- [**Bear's Endurance**](spells/bearSEndurance.md#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted.md#_constitution) for 1 min./level.
-- [**Bloodhound**](advanced/spells/bloodhound.md#_bloodhound): Gives caster the scent special ability.
-- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs.md#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
-- [**Brow Gasher**](ultimateCombat/spells/browGasher.md#_brow-gasher): Slashing weapon deals bleed damage to an opponent's head.
-- [**Campfire Wall**](advanced/spells/campfireWall.md#_campfire-wall-): Creates a shelter around a campfire.
-- [**Cat's Grace**](spells/catSGrace.md#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted.md#_dexterity) for 1 min./level.
-- [**Chameleon Stride**](advanced/spells/chameleonStride.md#_chameleon-stride): Gives a +4 bonus on [Stealth](skills/stealth.md#_stealth) checks and concealment.
-- [**Create Treasure Map**](advanced/spells/createTreasureMap.md#_create-treasure-map-)M: Creates treasure map out of a creature's corpse.
-- [**Cure Light Wounds**](spells/cureLightWounds.md#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
-- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk.md#_delay-disease): The target becomes temporarily immune to disease.
-- [**Eagle Eye**](advanced/spells/eagleEye.md#_eagle-eye): Creates a magical sensor high above you.
-- [**Effortless Armor**](ultimateCombat/spells/effortlessArmor.md#_effortless-armor): Armor you wear no longer slows your speed.
-- [**Endure Elements, Communal**](ultimateCombat/spells/endureElements.md#_endure-elements,-communal): As _ [endure elements](spells/endureElements.md#_endure-elements)_, but you may divide the duration among creatures touched.
-- [**Escaping Ward**](advancedRaceGuide/coreRaces/halflings.md#_escaping-ward): Grants extra maneuverability when you avoid attacks against larger foes.
-- [**Forest Friend**](ultimateCombat/spells/forestFriend.md#_forest-friend-): Plants in a forested area become helpful instead of hindering you and your allies.
-- [**Groundswell**](advancedRaceGuide/coreRaces/dwarves.md#_groundswell): Allows the target to cause the ground to rise up beneath him.
-- [**Guiding Star**](advanced/spells/guidingStar.md#_guiding-star-): Know approximate distance from where you cast this spell.
-- [**Hide Campsite**](advanced/spells/hideCampsite.md#_hide-campsite): Hides all traces of your campsite.
-- [**Hold Animal**](spells/holdAnimal.md#_hold-animal): Paralyzes one animal for 1 round/level.
-- [**Hunter's Eye**](advanced/spells/hunterSEye.md#_hunter's-eye): +20 on [Perception](skills/perception.md#_perception) checks to locate a target.
-- [**Improve Trap**](advancedRaceGuide/featuredRaces/kobolds.md#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
-- [**Locate Weakness**](ultimateCombat/spells/locateWeakness.md#_locate-weakness): You roll damage twice when you roll damage for a critical hit and take the best damage.
-- [**Lockjaw**](advanced/spells/lockjaw.md#_lockjaw): Gives creature grab ability with a natural attack.
-- [**Owl's Wisdom**](spells/owlSWisdom.md#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted.md#_wisdom) for 1 min./level.
-- [**Perceive Cues**](advanced/spells/perceiveCues.md#_perceive-cues): +5 [Perception](skills/perception.md#_perception) and [Sense Motive](../skills/senseMotive.md#_sense-motive) 10 min./level.
-- [**Protection from Energy**](spells/protectionFromEnergy.md#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
-- [**Protective Spirit**](advanced/spells/protectiveSpirit.md#_protective-spirit): Protects from attacks of opportunity.
-- [**Reloading Hands**](ultimateCombat/spells/reloadingHands.md#_reloading-hands): Loads a single shot into your weapon every round.
-- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon.md#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon.md#_returning-weapon)_, but you may divide the duration among weapons touched.
-- [**Ricochet Shot**](ultimateCombat/spells/ricochetShot.md#_ricochet-shot): Imbues a projectile weapon to give its ammunition the ability to ricochet. 
-- [**Slipstream**](advanced/spells/slipstream.md#_slipstream): Wave boosts creature's speed.
-- [**Snare**](spells/snare.md#_snare): Creates a magic booby trap.
-- [**Speak with Plants**](spells/speakWithPlants.md#_speak-with-plants): You can talk to plants and plant creatures.
-- [**Spike Growth**](spells/spikeGrowth.md#_spike-growth): Creatures in area take 1d4 damage, may be slowed_._
-- [**Stone Call**](advanced/spells/stoneCall.md#_stone-call): 2d6 damage to all creatures in area.
-- [**Summon Nature's Ally II**](spells/summonNatureSAlly.md#_summon-nature-s-ally-ii): Summons creature to fight for you.
-- [**Versatile Weapon**](advanced/spells/versatileWeapon.md#_versatile-weapon): Weapon bypasses some DR.
-- [**Web Shelter**](ultimateMagic/spells/webShelter.md#_web-shelter): Create a comfortable shelter made of webbing.
-- [**Wilderness Soldiers**](ultimateCombat/spells/wildernessSoldiers.md#_wilderness-soldiers): Nearby plants aid you in combat.
-- [**Wind Wall**](spells/windWall.md#_wind-wall): Deflects arrows, smaller creatures, and gases.
-
-- [**Animal Aspect, Greater**](ultimateCombat/spells/animalAspect.md#_animal-aspect,-greater): As _ [animal aspect](ultimateCombat/spells/animalAspect.md#_animal-aspect)_, but you gain two animal qualities.
-- [**Aspect of the Stag**](advanced/spells/aspectOfTheStag.md#_aspect-of-the-stag): +2 AC against attacks of opportunity and increases speed.
-- [**Battle Trance**](advancedRaceGuide/coreRaces/halfOrcs.md#_battle-trance): You are transformed into a single-minded force of destruction.
-- [**Blessing of the Mole**](ultimateMagic/spells/blessingOfTheMole.md#_blessing-of-the-mole): 1 ally/level gains darkvision and a +2 [Stealth](/skills/stealth.md#_stealth) bonus.
-- [**Bloody Claws**](advanced/spells/bloodyClaws.md#_bloody-claws): Gives creature the ability to deal bleed damage with natural attacks.
-- [**Burrow**](ultimateMagic/spells/burrow.md#_burrow): Target gains a burrow speed of 15.
-- [**Burst of Speed**](ultimateCombat/spells/burstOfSpeed.md#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
-- [**Cloak of Winds**](advanced/spells/cloakOfWinds.md#_cloak-of-winds): Creates a whirling screen of strong wind around you.
-- [**Command Plants**](spells/commandPlants.md#_command-plants): Sway the actions of plant creatures.
-- [**Companion Mind Link**](ultimateCombat/spells/companionMindLink.md#_companion-mind-link): You can talk with your animal companion, and can handle it with supernatural ease.
-- [**Cure Moderate Wounds**](spells/cureModerateWounds.md#_cure-moderate-wounds): Cures 2d8 damage +1/level (max. +10).
-- [**Darkvision**](spells/darkvision.md#_darkvision): See 60 ft. in total darkness.
-- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison.md#_delay-poison,-communal): As _ [delay poison](spells/delayPoison.md#_delay-poison)_, but you may divide the duration among creatures touched.
-- [**Diminish Plants**](spells/diminishPlants.md#_diminish-plants): Reduces size or blights growth of normal plants.
-- [**Feather Step, Mass**](advanced/spells/featherStep.md#_feather-step,-mass): As _ [feather step](advanced/spells/featherStep.md#_feather-step)_, but affects many targets rather than one.
-- [**Fickle Winds**](ultimateMagic/spells/fickleWinds.md#_fickle-winds): Wind walls selectively block attacks.
-- [**Instant Enemy**](advanced/spells/instantEnemy.md#_instant-enemy): Target is treated as a favored enemy type of your choice.
-- [**Life Bubble**](advanced/spells/lifeBubble.md#_life-bubble-): Protects creatures from sustained environmental effects.
-- [**Magic Fang, Greater**](spells/magicFang.md#_magic-fang-greater): One natural weapon gets + 1/four levels (max. +5).
-- [**Named Bullet**](ultimateCombat/spells/namedBullet.md#_named-bullet): Imbues ammunition with accuracy against a specific creature type.
-- [**Neutralize Poison**](spells/neutralizePoison.md#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
-- [**Plant Growth**](spells/plantGrowth.md#_plant-growth): Grows vegetation, improves crops.
-- [**Protection from Energy, Communal**](ultimateCombat/spells/protectionFromEnergy.md#_protection-from-energy,-communal): As _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, but you may divide the duration among creatures touched.
-- [**Reduce Animal**](spells/reduceAnimal.md#_reduce-animal): Shrinks one willing animal.
-- [**Remove Disease**](spells/removeDisease.md#_remove-disease): Cures all diseases affecting subject.
-- [**Repel Vermin**](spells/repelVermin.md#_repel-vermin): Insects, spiders, and other vermin stay 10 ft. away.
-- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy.md#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy.md#_resist-energy)_, but you may divide the duration among creatures touched.
-- [**Strong Jaw**](advanced/spells/strongJaw.md#_strong-jaw): Natural attacks damage as two sizes bigger.
-- [**Summon Nature's Ally III**](spells/summonNatureSAlly.md#_summon-nature-s-ally-iii): Summons creature to fight for you.
-- [**Tireless Pursuers**](advanced/spells/tirelessPursuers.md#_tireless-pursuers): As _ [tireless pursuit](advanced/spells/tirelessPursuit.md#_tireless-pursuit)_, but affects many targets rather than one.
-- [**Tree Shape**](spells/treeShape.md#_tree-shape): You look exactly like a tree for 1 hour/level.
-- [**Venomous Bolt**](advanced/spells/venomousBolt.md#_venomous-bolt): Arrow or bolt poisons target.
-- [**Ward of the Season**](advancedRaceGuide/coreRaces/elves.md#_ward-of-the-season): Harnesses the power of the seasons to protect the target and grant a number of bonuses.
-- [**Water Walk**](spells/waterWalk.md#_water-walk): Subject treads on water as if solid.
-
-- [**Animal Growth**](spells/animalGrowth.md#_animal-growth): One animal doubles in size.
-- [**Aspect of the Wolf**](advanced/spells/aspectOfTheWolf.md#_aspect-of-the-wolf): Subject gains +4 Str and Dex, and +2 bonus on trip attacks.
-- [**Blessing of the Salamander**](advanced/spells/blessingOfTheSalamander.md#_blessing-of-the-salamander): Subject gets fast healing 2, fire resistance 10, +2 CMD.
-- [**Bow Spirit**](advanced/spells/bowSpirit.md#_bow-spirit): Summons an invisible spirit that fires your arrows for you as a swift action.
-- [**Commune with Nature**](spells/communeWithNature.md#_commune-with-nature): Learn about terrain for 1 mile/level.
-- [**Commune with Nature**](spells/communeWithNature.md#_commune-with-nature)
-- [**Cure Serious Wounds**](spells/cureSeriousWounds.md#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
-- [**Darkvision, Communal**](ultimateCombat/spells/darkvision.md#_darkvision,-communal): As _ [darkvision](spells/darkvision.md#_darkvision)_, but you may divide the duration among creatures touched.
-- [**Darkvision, Greater**](ultimateMagic/spells/darkvision.md#_darkvision,-greater): See 120 ft. in total darkness.
-- [**Find Quarry**](ultimateCombat/spells/findQuarry.md#_find-quarry): You can sense whether a particular creature is within 20 miles of your location.
-- [**Freedom of Movement**](spells/freedomOfMovement.md#_freedom-of-movement): Subject moves normally despite impediments to movement.
-- [**Grove of Respite**](advanced/spells/groveOfRespite.md#_grove-of-respite): Creates trees and a small spring.
-- [**Named Bullet, Greater**](ultimateCombat/spells/namedBullet.md#_named-bullet,-greater): As _ [named bullet](ultimateCombat/spells/namedBullet.md#_named-bullet)_, but deals 2 points of damage per caster level.
-- [**Nondetection**](spells/nondetection.md#_nondetection)M: Hides subject from divination, [scrying](spells/scrying.md#_scrying).
-- [**Raise Animal Companion**](ultimateMagic/spells/raiseAnimalCompanion.md#_raise-animal-companion): As _ [raise dead](/spells/raiseDead.md#_raise-dead)_, but on an animal.
-- [**Sickening Strikes**](advancedRaceGuide/featuredRaces/ratfolk.md#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
-- [**Summon Nature's Ally IV**](spells/summonNatureSAlly.md#_summon-nature-s-ally-iv): Summons creature to fight for you.
-- [**Terrain Bond**](ultimateCombat/spells/terrainBond.md#_terrain-bond): Treat the terrain you are in as a favored terrain for the spell's duration.
-- [**Tree Stride**](spells/treeStride.md#_tree-stride): Step from one tree to another far away.
-- [**Water Walk, Communal**](ultimateCombat/spells/waterWalk.md#_water-walk,-communal): As _ [water walk](spells/waterWalk.md#_water-walk)_, but you may divide the duration among creatures touched.
-
-- [**Acid Splash**](spells/acidSplash.md#_acid-splash): Orb deals 1d3 acid damage.
-- [**Arcane Mark**](spells/arcaneMark.md#_arcane-mark): Inscribes a personal rune on an object or creature (visible or invisible).
-- [**Bleed**](spells/bleed.md#_bleed): Cause a stabilized creature to resume [dying](glossary.md#_dying).
-- [**Dancing Lights**](spells/dancingLights.md#_dancing-lights): Creates torches or other lights.
-- [**Daze**](spells/daze.md#_daze): A single humanoid creature with 4 HD or less loses its next action.
-- [**Detect Magic**](spells/detectMagic.md#_detect-magic): Detects all spells and magic items within 60 ft.
-- [**Detect Poison**](spells/detectPoison.md#_detect-poison): Detects poison in one creature or small object.
-- [**Disrupt Undead**](spells/disruptUndead.md#_disrupt-undead): Deals 1d6 damage to one undead.
-- [**Flare**](spells/flare.md#_flare): Dazzles one creature (–1 on attack rolls).
-- [**Ghost Sound**](spells/ghostSound.md#_ghost-sound): Figment sounds.
-- [**Haunted Fey Aspect**](ultimateCombat/spells/hauntedFeyAspect.md#_haunted-fey-aspect): You surround yourself with disturbing illusions. 
-- [**Light**](spells/light.md#_light): Object shines like a torch.
-- [**Mage Hand**](spells/mageHand.md#_mage-hand): 5-pound telekinesis.
-- [**Mending**](spells/mending.md#_mending): Makes minor repairs on an object.
-- [**Message**](spells/message.md#_message): Whisper conversation at distance.
-- [**Open/Close**](spells/openClose.md#_open-close): Opens or closes small or light things.
-- [**Prestidigitation**](spells/prestidigitation.md#_prestidigitation): Performs minor tricks.
-- [**Ray of Frost**](spells/rayOfFrost.md#_ray-of-frost): Ray deals 1d3 cold damage.
-- [**Read Magic**](spells/readMagic.md#_read-magic): Read scrolls and spellbooks.
-- [**Resistance**](spells/resistance.md#_resistance): Subject gains +1 on saving throws.
-- [**Spark**](advanced/spells/spark.md#_spark-): Ignites flammable objects.
-- [**Touch of Fatigue**](spells/touchOfFatigue.md#_touch-of-fatigue): Touch attack fatigues target.
-
-- [**Abundant Ammunition**](ultimateCombat/spells/abundantAmmunition.md#_abundant-ammunition): Replaces nonmagical ammunition every round.
-- [**Adjuring Step**](ultimateCombat/spells/adjuringStep.md#_adjuring-step-): You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell. 
-- [**Air Bubble**](ultimateCombat/spells/airBubble.md#_air-bubble): Creates a small pocket of air around your head or an object.
-- [**Alarm**](spells/alarm.md#_alarm): Wards an area for 2 hours/level.
-- [**Alchemical Tinkering**](advancedRaceGuide/featuredRaces/ratfolk.md#_alchemical-tinkering): Transform one alchemical item or firearm into another alchemical item or firearm of the same or lesser cost.
-- [**Alter Winds**](advanced/spells/alterWinds.md#_alter-winds): Increase/decrease strength of natural winds.
-- [**Animate Rope**](spells/animateRope.md#_animate-rope): Makes a rope move at your command.
-- [**Ant Haul**](advanced/spells/antHaul.md#_ant-haul-): Triples carrying capacity of a creature.
-- [**Anticipate Peril**](ultimateMagic/spells/anticipatePeril.md#_anticipate-peril): Target gains a bonus on one initiative check.
-- [**Blend**](advancedRaceGuide/coreRaces/elves.md#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
-- [**Break**](advanced/spells/break.md#_break-): Gives an object the broken condition.
-- [**Bungle**](ultimateMagic/spells/bungle.md#_bungle): Target takes a –20 penalty on its next attack roll or check. 
-- [**Burning Hands**](spells/burningHands.md#_burning-hands): 1d4/level fire damage (max 5d4).
-- [**Cause Fear**](spells/causeFear.md#_cause-fear): One creature of 5 HD or less flees for 1d4 rounds.
-- [**Charm Person**](spells/charmPerson.md#_charm-person): Makes one person your friend.
-- [**Chill Touch**](spells/chillTouch.md#_chill-touch): One touch/level deals 1d6 damage and possibly 1 [Str](gettingStarted.md#_strength) damage.
-- [**Color Spray**](spells/colorSpray.md#_color-spray): Knocks [unconscious](glossary.md#_unconscious), blinds, and/or stuns weak creatures.
-- [**Comprehend Languages**](spells/comprehendLanguages.md#_comprehend-languages): You understand all spoken and written languages.
-- [**Corrosive Touch**](ultimateMagic/spells/corrosiveTouch.md#_corrosive-touch): Touch attack deals 1d4 acid/level.
-- [**Crafter's Curse**](advanced/spells/crafterSCurse.md#_crafter's-curse): Subject takes –5 on [Craft](skills/craft.md#_craft) skill checks.
-- [**Crafter's Fortune**](advanced/spells/crafterSFortune.md#_crafter's-fortune): Subject gains +5 on next [Craft](skills/craft.md#_craft) check.
-- [**Damp Powder**](ultimateCombat/spells/dampPowder.md#_damp-powder): Ruins ammunition loaded in the targeted firearm.
-- [**Dancing Lantern**](advanced/spells/dancingLantern.md#_dancing-lantern-): Animates a lantern that follows you.
-- [**Decompose Corpse**](ultimateMagic/spells/decomposeCorpse.md#_decompose-corpse): Turn a corpse into a clean skeleton.
-- [**Delusional Pride**](ultimateMagic/spells/delusionalPride.md#_delusional-pride): Target is penalized on attacks and checks but gains bonus against charms and compulsions.
-- [**Detect Secret Doors**](spells/detectSecretDoors.md#_detect-secret-doors): Reveals hidden doors within 60 ft.
-- [**Detect Undead**](spells/detectUndead.md#_detect-undead): Reveals undead within 60 ft.
-- [**Disguise Self**](spells/disguiseSelf.md#_disguise-self): Changes your appearance.
-- [**Ear-Piercing Scream**](ultimateMagic/spells/earPiercingScream.md#_ear-piercing-scream): Deal sonic damage and daze target.
-- [**Endure Elements**](spells/endureElements.md#_endure-elements): Exist comfortably in hot or cold regions.
-- [**Enlarge Person**](spells/enlargePerson.md#_enlarge-person): Humanoid creature doubles in size.
-- [**Erase**](spells/erase.md#_erase): Mundane or magical writing vanishes.
-- [**Expeditious Excavation**](advanced/spells/expeditiousExcavation.md#_expeditious-excavation): Moves 5-ft. cubes of earth.
-- [**Expeditious Retreat**](spells/expeditiousRetreat.md#_expeditious-retreat): Your base speed increases by 30 ft.
-- [**Fabricate Bullets**](ultimateCombat/spells/fabricateBullets.md#_fabricate-bullets-)M: Converts 1 pound of metal into ammunition.
-- [**Feather Fall**](spells/featherFall.md#_feather-fall): Objects or creatures fall slowly.
-- [**Flare Burst**](advanced/spells/flareBurst.md#_flare-burst): As _ [flare](spells/flare.md#_flare)_, but affects all creatures in 10 ft.
-- [**Floating Disk**](spells/floatingDisk.md#_floating-disk): Creates 3-ft.-diameter horizontal disk that holds 100 lbs./level.
-- [**Forced Quiet**](ultimateMagic/spells/forcedQuiet.md#_forced-quiet): Target cannot make loud noises.
-- [**Gravity Bow**](advanced/spells/gravityBow.md#_gravity-bow-): Arrows do damage as though one size category bigger.
-- [**Grease**](spells/grease.md#_grease): Makes 10-ft. square or one object slippery.
-- [**Hold Portal**](spells/holdPortal.md#_hold-portal): Holds door shut.
-- [**Hydraulic Push**](advanced/spells/hydraulicPush.md#_hydraulic-push-): Wave of water bull rushes an enemy.
-- [**Hypnotism**](spells/hypnotism.md#_hypnotism): Fascinates 2d4 HD of creatures.
-- [**Icicle Dagger**](ultimateMagic/spells/icicleDagger.md#_icicle-dagger): Masterwork ice dagger deals +1 cold damage.
-- [**Identify**](spells/identify.md#_identify): Gives +10 bonus to identify magic items.
-- [**Illusion of Calm**](ultimateCombat/spells/illusionOfCalm.md#_illusion-of-calm): You appear to be standing still, even when you take some actions. 
-- [**Interrogation**](ultimateMagic/spells/interrogation.md#_interrogation): Target answers questions or suffers pain.
-- [**Jump**](spells/jump.md#_jump): Subject gets bonus on Acrobatics checks.
-- [**Jury-Rig**](ultimateCombat/spells/juryRig.md#_jury-rig): Removes the broken condition from the targeted object.
-- [**Ki Arrow**](ultimateMagic/spells/kiArrow.md#_ki-arrow): Arrow deals damage as your unarmed strike.
-- [**Liberating Command**](ultimateCombat/spells/liberatingCommand.md#_liberating-command): Target makes an [Escape Artist](skills/escapeArtist.md#_escape-artist) check as an immediate action and gains a bonus on it.
-- [**Lock Gaze**](ultimateCombat/spells/lockGaze.md#_lock-gaze): You compel the target to only look at you for the duration of the spell.
-- [**Longshot**](ultimateCombat/spells/longshot.md#_longshot): Grants a +10-foot bonus to the range increment for any ranged weapon fired.
-- [**Mage Armor**](spells/mageArmor.md#_mage-armor): Gives subject +4 armor bonus.
-- [**Magic Aura**](spells/magicAura.md#_magic-aura): Alters object's magic aura.
-- [**Magic Missile**](spells/magicMissile.md#_magic-missile): 1d4+1 damage; +1 missile per two levels above 1st (max 5).
-- [**Magic Weapon**](spells/magicWeapon.md#_magic-weapon): Weapon gains +1 bonus.
-- [**Marid's Mastery**](advancedRaceGuide/featuredRaces/undines.md#_marid's-mastery): Target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water.
-- [**Memory Lapse**](advanced/spells/memoryLapse.md#_memory-lapse): Subject forgets events back to last turn.
-- [**Mirror Strike**](ultimateCombat/spells/mirrorStrike.md#_mirror-strike): You may strike multiple opponents with a single attack.
-- [**Moment of Greatness**](ultimateCombat/spells/momentOfGreatness.md#_moment-of-greatness): Doubles a morale bonus.
-- [**Mount**](spells/mount.md#_mount): Summons riding horse for 2 hours/level.
-- [**Mudball**](advancedRaceGuide/featuredRaces/goblins.md#_mudball): You conjure a single ball of sticky mud and launch it at an enemy's face as a ranged touch attack.
-- [**Negative Reaction**](ultimateCombat/spells/negativeReaction.md#_negative-reaction): Targeted creature may not positively influence anyone.
-- [**Obscuring Mist**](spells/obscuringMist.md#_obscuring-mist): Fog surrounds you.
-- [**Peacebond**](ultimateCombat/spells/peacebond.md#_peacebond): Locks a weapon in place on the target's body.
-- [**Polypurpose Panacea**](ultimateMagic/spells/polypurposePanacea.md#_polypurpose-panacea): Gain a relaxing or entertaining effect.
-- [**Protection from Chaos**](spells/protectionFromChaos.md#_protection-from-chaos): +2 to [AC](combat.md#_armor-class) and saves, plus additional protection against selected alignment.
-- [**Protection from Evil**](spells/protectionFromEvil.md#_protection-from-evil): +2 to [AC](combat.md#_armor-class) and saves, plus additional protection against selected alignment.
-- [**Protection from Good**](spells/protectionFromGood.md#_protection-from-good): +2 to [AC](combat.md#_armor-class) and saves, plus additional protection against selected alignment.
-- [**Protection from Law**](spells/protectionFromLaw.md#_protection-from-law): +2 to [AC](combat.md#_armor-class) and saves, plus additional protection against selected alignment.
-- [**Ray of Enfeeblement**](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement): Ray causes 1d6 [Str](gettingStarted.md#_strength) penalty + 1 per 2 levels.
-- [**Ray of Sickening**](ultimateMagic/spells/rayOfSickening.md#_ray-of-sickening): Ray makes the subject sickened.
-- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes.md#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
-- [**Reduce Person**](spells/reducePerson.md#_reduce-person): Humanoid creature halves in size.
-- [**Reinforce Armaments**](ultimateCombat/spells/reinforceArmaments.md#_reinforce-armaments): Temporarily mitigates the fragile quality in targeted weapon or armor.
-- [**Restore Corpse**](ultimateMagic/spells/restoreCorpse.md#_restore-corpse): Skeletal corpse grows flesh.
-- [**Sculpt Corpse**](advanced/spells/sculptCorpse.md#_sculpt-corpse-): Makes corpse look like another creature.
-- [**See Alignment**](ultimateCombat/spells/seeAlignment.md#_see-alignment): Pick an alignment; in your sight, creatures and items with that alignment emit a ghostly radiance.
-- [**Shadow Weapon**](ultimateMagic/spells/shadowWeapon.md#_shadow-weapon): Create a quasi-real masterwork weapon.
-- [**Shield**](spells/shield.md#_shield): Invisible disc gives +4 to [AC](combat.md#_armor-class), blocks _ [magic missile](spells/magicMissile.md#_magic-missile)s._
-- [**Shock Shield**](ultimateCombat/spells/shockShield.md#_shock-shield): A shield of force protects you until you dismiss it in an explosion of electricity. 
-- [**Shocking Grasp**](spells/shockingGrasp.md#_shocking-grasp): Touch delivers 1d6/level electricity damage (max 5d6).
-- [**Silent Image**](spells/silentImage.md#_silent-image): Creates minor illusion of your design.
-- [**Sleep**](spells/sleep.md#_sleep): Puts 4 HD of creatures into magical slumber.
-- [**Snapdragon Fireworks**](ultimateMagic/spells/snapdragonFireworks.md#_snapdragon-fireworks): Create 1 dragon firework/level.
-- [**Sow Thought**](advancedRaceGuide/uncommonRaces/changelings.md#_sow-thought): Plant an idea, concept, or suspicion in the mind of the subject.
-- [**Stone Fist**](advanced/spells/stoneFist.md#_stone-fist): Your unarmed strikes are lethal.
-- [**Stone Shield**](advancedRaceGuide/featuredRaces/oreads.md#_stone-shield): 1-inch-thick slab of stone springs up from the ground, shielding you.
-- [**Strong Wings**](advancedRaceGuide/uncommonRaces/strix.md#_strong-wings): The target's wings grow more powerful, increases fly speed by +10 feet and its maneuverability to improve by one category.
-- [**Stumble Gap**](advanced/spells/stumbleGap.md#_stumble-gap-)F: Small hole trips creatures.
-- [**Summon Minor Monster**](ultimateMagic/spells/summonMinorMonster.md#_summon-minor-monster): Summon 1d3 Tiny animals.
-- [**Summon Monster I**](spells/summonMonster.md#_summon-monster-i): Summons extraplanar creature to fight for you.
-- [**Theft Ward**](advancedRaceGuide/featuredRaces/tengus.md#_theft-ward): You ward a single object in your possession against theft.
-- [**Touch of Combustion**](advancedRaceGuide/featuredRaces/ifrits.md#_touch-of-combustion): Causes the target to ignite in a violent burst of flame.
-- [**Touch of Gracelessness**](advanced/spells/touchOfGracelessness.md#_touch-of-gracelessness): Subject loses 1d6 + 1 Dex/two levels and is prone to falling down.
-- [**Touch of the Sea**](advanced/spells/touchOfTheSea.md#_touch-of-the-sea): [Swim](skills/swim.md#_swim) speed becomes 30 ft.
-- [**True Strike**](spells/trueStrike.md#_true-strike): +20 on your next attack roll.
-- [**Undine's Curse**](advancedRaceGuide/featuredRaces/undines.md#_undine's-curse): Target loses its body's natural ability to breathe automatically.
-- [**Unerring Weapon**](ultimateCombat/spells/unerringWeapon.md#_unerring-weapon): Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.
-- [**Unprepared Combatant**](ultimateMagic/spells/unpreparedCombatant.md#_unprepared-combatant): Target takes –4 on initiative and Reflex saves.
-- [**Unseen Servant**](spells/unseenServant.md#_unseen-servant): Invisible force obeys your commands.
-- [**Urban Grace**](advancedRaceGuide/coreRaces/halfElves.md#_urban-grace): You become one with the city around you, allowing you to move more easily through its crowds and buildings.
-- [**Vanish**](advanced/spells/vanish.md#_vanish): As _ [invisibility](spells/invisibility.md#_invisibility)_ for 1 round/level (5 max).
-- [**Ventriloquism**](spells/ventriloquism.md#_ventriloquism): Throws voice for 1 min./level.
-- [**Vocal Alteration**](ultimateMagic/spells/vocalAlteration.md#_vocal-alteration): [Disguise](/skills/disguise.md#_disguise) target's voice.
-- [**Weaken Powder**](ultimateCombat/spells/weakenPowder.md#_weaken-powder): Targeted firearm's ammunition halves the firearm's range and imposes a –2 penalty on damage rolls.
-- [**Web Bolt**](advancedRaceGuide/featuredRaces/drow.md#_web-bolt): You launch a ball of webbing at a target, causes target to be affected as if by a _web_ spell.
-- [**Windy Escape**](advancedRaceGuide/featuredRaces/sylphs.md#_windy-escape): You respond to an attack by briefly becoming vaporous and insubstantial.
-- [**Winter Feathers**](advancedRaceGuide/featuredRaces/tengus.md#_winter-feathers): Target's feathers thicken and fluff up to ward against winter's chill.
-- [**Youthful Appearance**](ultimateMagic/spells/youthfulAppearance.md#_youthful-appearance): Target appears younger.
-
-- [**Aboleth's Lung**](advancedRaceGuide/uncommonRaces/gillmen.md#_aboleth's-lung): Targets are able to breathe water, freely.
-- [**Accelerate Poison**](advanced/spells/acceleratePoison.md#_accelerate-poison): Hastens targeted poison's onset.
-- [**Acid Arrow**](spells/acidArrow.md#_acid-arrow): Ranged touch attack; 2d4 damage for 1 round + 1 round/three levels.
-- [**Adoration**](ultimateCombat/spells/adoration.md#_adoration): You gain a bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) checks and performance combat checks.
-- [**Alter Self**](spells/alterSelf.md#_alter-self): Assume form of a Small or Medium humanoid.
-- [**Animal Aspect**](ultimateCombat/spells/animalAspect.md#_animal-aspect): You gain some of the beneficial qualities of an animal.
-- [**Ant Haul, Communal**](ultimateCombat/spells/antHaul.md#_ant-haul,-communal): As _ [ant haul](advanced/spells/antHaul.md#_ant-haul-)_, but you may divide the duration among creatures touched.
-- [**Arcane Lock**](spells/arcaneLock.md#_arcane-lock)M: Magically locks a portal or chest.
-- [**Arrow Eruption**](advanced/spells/arrowEruption.md#_arrow-eruption-): Creates duplicates of killing arrow.
-- [**Badger's Ferocity**](ultimateMagic/spells/badgerSFerocity.md#_badger's-ferocity): Weapons are _ [keen](/magicItems/weapons.md#_weapons-keen)_ while you concentrate.
-- [**Bear's Endurance**](spells/bearSEndurance.md#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted.md#_constitution) for 1 min./level.
-- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency.md#_bestow-weapon-proficiency): Grants a creature proficiency in a single weapon for short period of time.
-- [**Blend**](advancedRaceGuide/coreRaces/elves.md#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
-- [**Blindness/Deafness**](spells/blindnessDeafness.md#_blindness-deafness): Makes subject [blinded](glossary.md#_blinded) or [deafened](glossary.md#_deafened).
-- [**Blood Blaze**](advancedRaceGuide/featuredRaces/orcs.md#_blood-blaze): 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air.
-- [**Blood Transcription**](ultimateMagic/spells/bloodTranscription.md#_blood-transcription): _Wizard only. _Learn a spell from the target's blood.
-- [**Blur**](spells/blur.md#_blur): Attacks miss subject 20% of the time.
-- [**Boiling Blood**](ultimateMagic/spells/boilingBlood.md#_boiling-blood): Targets take fire damage; orcs get +2 Strength.
-- [**Brow Gasher**](ultimateCombat/spells/browGasher.md#_brow-gahser): Slashing weapon deals bleed damage to an opponent's head.
-- [**Bull's Strength**](spells/bullSStrength.md#_bull-s-strength): Subject gains +4 to [Str](gettingStarted.md#_strength) for 1 min./level.
-- [**Bullet Shield**](ultimateCombat/spells/bulletShield.md#_bullet-shield): You gain a +4 deflection bonus to AC against firearm attacks.
-- [**Burning Gaze**](advanced/spells/burningGaze.md#_burning-gaze): Inflict 1d6 fire damage to creature by looking at it.
-- [**Cat's Grace**](spells/catSGrace.md#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted.md#_dexterity) for 1 min./level.
-- [**Certain Grip**](ultimateCombat/spells/certainGrip.md#_certain-grip-): You gain a +4 competence bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) and [Climb](skills/climb.md#_climb) checks and to CMD.
-- [**Command Undead**](spells/commandUndead.md#_command-undead): Undead creature obeys your commands.
-- [**Commune with Birds**](advancedRaceGuide/featuredRaces/tengus.md#_commune-with-birds): You can understand the responses given by birds.
-- [**Compassionate Ally**](ultimateMagic/spells/compassionateAlly.md#_compassionate-ally): Target is compelled to help injured ally.
-- [**Continual Flame**](spells/continualFlame.md#_continual-flame)M: Makes a permanent, heatless light.
-- [**Create Pit**](advanced/spells/createPit.md#_create-pit-)F: Creates an extradimensional pit.
-- [**Create Treasure Map**](advanced/spells/createTreasureMap.md#_create-treasure-map-)M: Creates treasure map out of a creature's corpse.
-- [**Cushioning Bands**](ultimateMagic/spells/cushioningBands.md#_cushioning-bands): Force bands protect against crushing.
-- [**Death from Below**](advancedRaceGuide/coreRaces/gnomes.md#_death-from-below): Grant the target a dodge bonus to its AC against attacks from larger creatures.
-- [**Darkness**](spells/darkness.md#_darkness): 20-ft. radius of supernatural shadow.
-- [**Darkvision**](spells/darkvision.md#_darkvision): See 60 ft. in total darkness.
-- [**Daze Monster**](spells/dazeMonster.md#_daze-monster): Living creature of 6 HD or less loses its next action.
-- [**Defensive Shock**](ultimateMagic/spells/defensiveShock.md#_defensive-shock): Electricity damages your attackers.
-- [**Delay Pain**](ultimateMagic/spells/delayPain.md#_delay-pain): Ignore pain for 1 hour/level.
-- [**Destabilize Powder**](ultimateCombat/spells/destabilizePowder.md#_destabilize-powder): Ammunition in the targeted firearm is prone to misfire.
-- [**Detect Thoughts**](spells/detectThoughts.md#_detect-thoughts): Allows “listening” to surface thoughts.
-- [**Disguise Other**](ultimateMagic/spells/disguiseOther.md#_disguise-other): As _ [disguise self](/spells/disguiseSelf.md#_disguise-self)_, but affects you or another.
-- [**Dust of Twilight**](advanced/spells/dustOfTwilight.md#_dust-of-twilight): Black particles extinguish light sources within area.
-- [**Eagle's Splendor**](spells/eagleSSplendor.md#_eagle-s-splendor): Subject gains +4 to [Cha](gettingStarted.md#_charisma-new) for 1 min./level.
-- [**Elemental Speech**](advanced/spells/elementalSpeech.md#_elemental-speech): Enables you to speak to elementals and some creatures.
-- [**Elemental Touch**](advanced/spells/elementalTouch.md#_elemental-touch): Gain energy damage touch attack.
-- [**Endure Elements, Communal**](ultimateCombat/spells/endureElements.md#_endure-elements,-communal): As _ [endure elements](spells/endureElements.md#_endure-elements)_, but you may divide the duration among creatures touched.
-- [**Escaping Ward**](advancedRaceGuide/coreRaces/halflings.md#_escaping-ward): Grants extra maneuverability when you avoid attacks against larger foes.
-- [**False Life**](spells/falseLife.md#_false-life): Gain 1d10 temporary hp + 1/level (max +10).
-- [**Fire Breath**](advanced/spells/fireBreath.md#_fire-breath): Exhale a cone of flame at will.
-- [**Fiery Shuriken**](ultimateCombat/spells/fieryShuriken.md#_fiery-shuriken-)M: Calls forth several fiery projectiles ready to be flung at opponents. 
-- [**Flaming Sphere**](spells/flamingSphere.md#_flaming-sphere): Rolling ball of fire deals 3d6 fire damage.
-- [**Fog Cloud**](spells/fogCloud.md): Fog obscures vision.
-- [**Fox's Cunning**](spells/foxSCunning.md#_fox-s-cunning): Subject gains +4 to [Int](gettingStarted.md#_intelligence) for 1 min./level.
-- [**Frigid Touch**](ultimateMagic/spells/frigidTouch.md#_frigid-touch): Target takes cold damage and is staggered.
-- [**Frost Fall**](ultimateCombat/spells/frostFall.md#_frost-fall): The area is covered in a chilling frost.
-- [**Ghostly Disguise**](ultimateMagic/spells/ghostlyDisguise.md#_ghostly-disguise): You look like a ghost of yourself.
-- [**Ghoul Touch**](spells/ghoulTouch.md#_ghoul-touch): Paralyzes one subject, which exudes stench that makes those nearby [sickened](glossary.md#_sickened).
-- [**Glide**](advanced/spells/glide.md#_glide-): You take no falling damage, move 60 ft./round while falling.
-- [**Glitterdust**](spells/glitterdust.md#_glitterdust): Blinds creatures, outlines [invisible](glossary.md#_invisible) creatures.
-- [**Gusting Sphere**](advancedRaceGuide/featuredRaces/sylphs.md#_gusting-sphere): A swirling ball of wind rolls in whichever direction you point, hurling those it strikes with great force.
-- [**Gust of Wind**](spells/gustOfWind.md#_gust-of-wind): Blows away or knocks down smaller creatures.
-- [**Haunting Mists**](ultimateMagic/spells/hauntingChoir.md#_haunting-mists): Creatures are shaken and take Wis damage.
-- [**Hideous Laughter**](spells/hideousLaughter.md#_hideous-laughter): Subject loses actions for 1 round/level.
-- [**Hypnotic Pattern**](spells/hypnoticPattern.md#_hypnotic-pattern): Fascinates 2d4 + level HD of creatures.
-- [**Imbue with Elemental Might**](advancedRaceGuide/uncommonRaces/sulis.md#_imbue-with-elemental-might): Functions like _imbue with spell ability_, except you transfer the use of your elemental assault ability to the target.
-- [**Invisibility**](spells/invisibility.md#_invisibility): Subject is [invisible](glossary.md#_invisible) for 1 min./level or until it attacks.
-- [**Jitterbugs**](advancedRaceGuide/coreRaces/gnomes.md#_jitterbugs): Cause the target to perceive itself as being covered in creeping, crawling, stinging bugs.
-- [**Kinetic Reverberation**](ultimateCombat/spells/kineticReverberation.md#_kinetic-reverberation-): Channels the force of an enemy's attack back into its weapon.
-- [**Knock**](spells/knock.md#_knock): Opens locked or magically sealed door.
-- [**Levitate**](spells/levitate.md#_levitate): Subject moves up and down at your direction.
-- [**Locate Object**](spells/locateObject.md#_locate-object): Senses direction toward object (specific or type).
-- [**Mad Hallucination**](ultimateMagic/spells/madHallucination.md#_mad-hallucination): Target takes penalties to mental actions.
-- [**Magic Mouth**](spells/magicMouth.md#_magic-mouth)M: Object speaks once when triggered.
-- [**Magic Siege Engine**](ultimateCombat/spells/magicSiegeEngine.md#_magic-siege-engine): Siege gains +1 on targeting and damage rolls.
-- [**Make Whole**](spells/makeWhole.md#_make-whole): Repairs an object.
-- [**Masterwork Transformation**](ultimateMagic/spells/masterworkTransformation.md#_masterwork-transformation): Make a normal item into a masterwork one.
-- [**Minor Image**](spells/minorImage.md#_minor-image): As _ [silent image](spells/silentImage.md#_silent-image)_, plus some sound.
-- [**Mirror Image**](spells/mirrorImage.md#_mirror-image): Creates decoy duplicates of you.
-- [**Misdirection**](spells/misdirection.md#_misdirection): Misleads divinations for 1 creature or object.
-- [**Miserable Pity**](ultimateMagic/spells/miserablePity.md#_miserable-pity): Opponents cannot attack a pathetic creature.
-- [**Mount, Communal**](ultimateCombat/spells/mount.md#_mount,-communal): As _ [mount](spells/mount.md#_mount)_, but you may divide the duration among creatures touched. 
-- [**Obscure Object**](spells/obscureObject.md#_obscure-object): Masks object against [scrying](spells/scrying.md#_scrying).
-- [**Oppressive Boredom**](ultimateMagic/spells/oppressiveBoredom.md#_oppressive-boredom): Target loses its next action.
-- [**Owl's Wisdom**](spells/owlSWisdom.md#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted.md#_wisdom) for 1 min./level.
-- [**Pernicious Poison**](ultimateMagic/spells/perniciousPoison.md#_pernicious-poison): Target takes a –4 penalty against poison.
-- [**Phantom Trap**](spells/phantomTrap.md#_phantom-trap)M: Makes item seem trapped.
-- [**Pilfering Hand**](ultimateCombat/spells/pilferingHand.md#_pilfering-hand): You may seize an object or manipulate it from afar.
-- [**Protection from Arrows**](spells/protectionFromArrows.md#_protection-from-arrows): Subject gains [DR](glossary.md#_damage-reduction) 10/magic against ranged attacks.
-- [**Protection from Chaos, Communal**](ultimateCombat/spells/protectionFromChaos.md#_protection-from-chaos,-communal): As _ [protection from chaos](spells/protectionFromChaos.md#_protection-from-chaos)_, but you may divide the duration among creatures touched.
-- [**Protection from Evil, Communal**](ultimateCombat/spells/protectionFromEvil.md#_protection-from-evil,-communal): As _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_, but you may divide the duration among creatures touched.
-- [**Protection from Good, Communal**](ultimateCombat/spells/protectionFromGood.md#_protection-from-good,-communal): As _ [protection from good](spells/protectionFromGood.md#_protection-from-good)_, but you may divide the duration among creatures touched.
-- [**Protection from Law, Communal**](ultimateCombat/spells/protectionFromLaw.md#_protection-from-law,-communal): As _ [protection from law](spells/protectionFromLaw.md#_protection-from-law)_, but you may divide the duration among creatures touched.
-- [**Protective Penumbra**](ultimateMagic/spells/protectivePenumbra.md#_protective-penumbra): Shadow protects the target from light.
-- [**Pyrotechnics**](spells/pyrotechnics.md#_pyrotechnics): Turns fire into blinding light or thick smoke.
-- [**Qualm**](ultimateCombat/spells/qualm.md#_qualm): Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing.
-- [**Recoil Fire**](ultimateCombat/spells/recoilFire.md#_recoil-fire): Ammunition in the targeted firearm generates excessive recoil.
-- [**Reinforce Armaments, Communal**](ultimateCombat/spells/reinforceArmaments.md#_reinforce-armaments,-communal): As _ [reinforce armaments](ultimateCombat/spells/reinforceArmaments.md#_reinforce-armaments)_, but you may divide the duration among objects touched.
-- [**Reloading Hands**](ultimateCombat/spells/reloadingHands.md#_reloading-hands): Loads a single shot into your weapon every round.
-- [**Resist Energy**](spells/resistEnergy.md#_resist-energy): Ignores first 10 (or more) points of damage per attack from specified energy type.
-- [**Returning Weapon**](ultimateCombat/spells/returningWeapon.md#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons.md#_weapons-returning)_ special weapon quality.
-- [**Ricochet Shot**](ultimateCombat/spells/ricochetShot.md#_ricochet-shot): Imbues a projectile weapon to give its ammunition the ability to ricochet.
-- [**Rope Trick**](spells/ropeTrick.md#_rope-trick): As many as eight creatures hide in extradimensional space.
-- [**Scare**](spells/scare.md#_scare): Frightens creatures of less than 6 HD.
-- [**Scorching Ray**](spells/scorchingRay.md#_scorching-ray): Ranged touch attack deals 4d6 fire damage, + 1 ray/four levels (max 3).
-- [**Sculpt Simulacrum**](ultimateMagic/spells/sculptSimulacrum.md#_sculpt-simulacrum-): Alter a simulacrum's appearance.
-- [**See Invisibility**](spells/seeInvisibility.md#_see-invisibility): Reveals [invisible](glossary.md#_invisible) creatures or objects.
-- [**Sentry Skull**](advancedRaceGuide/featuredRaces/orcs.md#_sentry-skull): Restore the senses to the severed head of a humanoid or monstrous humanoid killed within the past 24 hours, creating a grisly sentinel.
-- [**Shadow Anchor**](advancedRaceGuide/uncommonRaces/wayangs.md#_shadow-anchor): Target's shadow becomes a flexible tether to its current square.
-- [**Share Language**](advanced/spells/shareLanguage.md#_share-language-): Subject understands chosen language.
-- [**Share Memory**](ultimateMagic/spells/shareMemory.md#_share-memory): Share one memory with the target.
-- [**Shatter**](spells/shatter.md#_shatter): Sonic energy damages objects or crystalline creatures.
-- [**Silk To Steel**](ultimateMagic/spells/silkToSteel.md#_silk-to-steel): Use a scarf as a shield or whip.
-- [**Skinsend**](ultimateMagic/spells/skinsend.md#_skinsend): Animate and possess your own skin as if it were a separate creature.
-- [**Slipstream**](advanced/spells/slipstream.md#_slipstream): Wave boosts creature's speed.
-- [**Spectral Hand**](spells/spectralHand.md#_spectral-hand): Creates disembodied glowing hand to deliver touch attacks.
-- [**Spider Climb**](spells/spiderClimb.md#_spider-climb): Grants ability to walk on walls and ceilings.
-- [**Spontaneous Immolation**](ultimateCombat/spells/spontaneousImmolation.md#_spontaneous-immolation): Target takes 3d6 points of fire damage and catches on fire.
-- [**Squeeze**](advancedRaceGuide/uncommonRaces/vishkanyas.md#_squeeze): The target becomes flexible regardless of its actual size and mass.
-- [**Stabilize Powder**](ultimateCombat/spells/stabilizePowder.md#_stabilize-powder): Ammunition in the targeted firearm is less likely to misfire.
-- [**Steal Breath**](advancedRaceGuide/featuredRaces/catfolk.md#_steal-breath): Pull the breath from a creature's lungs, dealing damage and leaving it unable to speak, use breath weapons, or cast spells with verbal components.
-- [**Steal Voice**](ultimateMagic/spells/stealVoice.md#_steal-voice): Target gains the croaking spellblight.
-- [**Stone Call**](advanced/spells/stoneCall.md#_stone-call): 2d6 damage to all creatures in area.
-- [**Summon Monster II**](spells/summonMonster.md#_summon-monster-ii): Summons extraplanar creature to fight for you.
-- [**Summon Swarm**](spells/summonSwarm.md#_summon-swarm): Summons swarm of bats, rats, or spiders.
-- [**Symbol of Mirroring**](ultimateMagic/spells/symbolOfMirroring.md#_symbol-of-mirroring): Triggered rune creates mirror images.
-- [**Tactical Acumen**](ultimateCombat/spells/tacticalAcumen.md#_tactical-acumen): You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
-- [**Telekinetic Assembly**](ultimateCombat/spells/telekineticAssembly.md#_telekinetic-assembly)F: Assembles a siege engine using 1 fewer worker for every two caster levels.
-- [**Thunder Fire**](ultimateCombat/spells/thunderFire.md#_thunder-fire): Ammunition in the targeted firearm deafens opponents.
-- [**Touch of Idiocy**](spells/touchOfIdiocy.md#_touch-of-idiocy): Subject takes 1d6 penalty to [Int](gettingStarted.md#_intelligence), [Wis](gettingStarted.md#_wisdom), and [Cha](gettingStarted.md#_charisma-new).
-- [**Twisted Space**](ultimateCombat/spells/twistedSpace.md#_twisted-space): Targeted creature's attacks target a random square instead of the intended target.
-- [**Unnatural Lust**](ultimateMagic/spells/unnaturalLust.md#_unnatural-lust): Target is compelled to kiss or caress another creature.
-- [**Unshakable Chill**](ultimateMagic/spells/unshakableChill.md#_unshakable-chill): Target is afflicted with severe cold.
-- [**Warding Weapon**](ultimateCombat/spells/wardingWeapon.md#_warding-weapon)F: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
-- [**Web**](spells/web.md#_web): Fills 20-ft.-radius spread with sticky spiderwebs that can grapple foes and impair movement.
-- [**Web Shelter**](ultimateMagic/spells/webShelter.md#_web-shelter): Create a comfortable shelter made of webbing.
-- [**Whispering Wind**](spells/whisperingWind.md#_whispering-wind): Sends a short message 1 mile/level.
-
-**[Ablative Barrier](ultimateCombat/spells/ablativeBarrier.md#_ablative-barrier)**** F**: Surrounds the target with layers of force.
-
-- [**Ancestral Regression**](advancedRaceGuide/featuredRaces/drow.md#_ancestral-regression): The target drow transforms into a surface elf.
-- [**Animate Dead, Lesser**](ultimateMagic/spells/animateDead.md#_animate-dead,-lesser): Create one skeleton or zombie.
-- [**Anthropomorphic Animal**](ultimateMagic/spells/anthropomorphicAnimal.md#_anthropomorphic-animal): Animal becomes bipedal.
-- [**Aqueous Orb**](advanced/spells/aqueousOrb.md#_aqueous-orb): Creates rolling sphere of water.
-- [**Arcane Sight**](spells/arcaneSight.md#_arcane-sight): Magical auras become visible to you.
-- [**Ash Storm**](ultimateMagic/spells/ashStorm.md#_ash-storm): Hamper vision and movement.
-- [**Beast Shape I**](spells/beastShape.md#_beast-shape-i): You take the form and some of the powers of a Small or Medium animal.
-- [**Blink**](spells/blink.md#_blink): You randomly vanish and reappear for 1 round per level.
-- [**Blood Biography**](advanced/spells/bloodBiography.md#_blood-biography-): Learn about a creature with its blood.
-- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs.md#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
-- [**Burrow**](ultimateMagic/spells/burrow.md#_burrow): Target gains a burrow speed of 15.
-- [**Campfire Wall**](advanced/spells/campfireWall.md#_campfire-wall-): Creates a shelter around a campfire.
-- [**Chain of Perdition**](ultimateCombat/spells/chainOfPerdition.md#_chain-of-perdition): Creates a floating chain of force.
-- [**Clairaudience/Clairvoyance**](spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance): Hear or see at a distance for 1 min./level.
-- [**Cloak of Winds**](advanced/spells/cloakOfWinds.md#_cloak-of-winds): Creates a screen of wind around you.
-- [**Countless Eyes**](ultimateMagic/spells/countlessEyes.md#_countless-eyes): Extra eyes give all-around vision.
-- [**Darkvision, Communal**](ultimateCombat/spells/darkvision.md#_darkvision,-communal): As _ [darkvision](spells/darkvision.md#_darkvision)_, but you may divide the duration among creatures touched.
-- [**Daylight**](spells/daylight.md#_daylight): 60-ft. radius of bright light.
-- [**Deep Slumber**](spells/deepSlumber.md#_deep-slumber): Puts 10 HD of creatures to [sleep](spells/sleep.md#_sleep).
-- [**Devolution**](advanced/spells/devolution.md#_devolution): Target eidolon temporarily loses 1 evolution +1/five levels.
-- [**Dispel Magic**](spells/dispelMagic.md#_dispel-magic): Cancels one magical spell or effect.
-- [**Displacement**](spells/displacement.md#_displacement): Attacks miss subject 50% of the time.
-- [**Distracting Cacophony**](ultimateMagic/spells/distractingCacophony.md#_distracting-cacophony): Noise makes it difficult to cast.
-- [**Draconic Reservoir**](advanced/spells/draconicReservoir.md#_draconic-reservoir-): Subject can absorb energy damage and enhance melee attacks with it.
-- [**Eldritch Fever**](ultimateMagic/spells/eldritchFever.md#_eldritch-fever): Target gains the eldritch ague spellblight.
-- [**Elemental Aura**](advanced/spells/elementalAura.md#_elemental-aura): Creates an aura of energy around you.
-- [**Enter Image**](advanced/spells/enterImage.md#_enter-image-): Transfers your consciousness to an object bearing your likeness.
-- [**Eruptive Pustules**](ultimateMagic/spells/eruptivePustules.md#_eruptive-pustules): Acid boils burst when you are attacked.
-- [**Excruciating Deformation**](ultimateMagic/spells/excruciatingDeformation.md#_excruciating-deformation): Target takes Dex and Con damage.
-- [**Explosive Runes**](spells/explosiveRunes.md#_explosive-runes): Deals 6d6 damage when read.
-- [**Fearsome Duplicate**](advancedRaceGuide/coreRaces/halflings.md#_fearsome-duplicate): You create a larger and far more menacing version of yourself.
-- [**Fins to Feet**](advancedRaceGuide/uncommonRaces/merfolk.md#_fins-to-feet): Transform the target's fins, flippers, or tail into legs and feet, allowing it to walk on land.
-- [**Fire Trail**](advancedRaceGuide/featuredRaces/goblins.md#_fire-trail): Flammable liquid oozes from your pores, dripping onto the ground and spontaneously combusting.
-- [**Firestream**](advancedRaceGuide/featuredRaces/ifrits.md#_firestream): A rushing stream of fire sprays from your outstretched hand, dealing fire damage to every creature in the area.
-- [**Fireball**](spells/fireball.md#_fireball): 1d6 damage per level, 20-ft. radius.
-- [**Flame Arrow**](spells/flameArrow.md#_flame-arrow): Arrows deal +1d6 fire damage.
-- [**Flash Fire**](ultimateCombat/spells/flashFire.md#_flash-fire): Ammunition in the targeted firearm creates a tremendous flash capable of blinding the weapon's bearer and those around him.
-- [**Fly**](spells/fly.md): Subject flies at speed of 60 ft.
-- [**Force Punch**](ultimateMagic/spells/forcePunch.md#_force-punch): Target takes force damage and is pushed away.
-- [**Gaseous Form**](spells/gaseousForm.md#_gaseous-form): Subject becomes insubstantial and can fly slowly.
-- [**Gentle Repose**](spells/gentleRepose.md#_gentle-repose): Preserves one corpse.
-- [**Gloomblind Bolts**](advancedRaceGuide/featuredRaces/fetchlings.md#_gloomblind-bolts): Create one or more bolts of negative energy infused with shadow pulled from the Shadow Plane.
-- [**Halt Undead**](spells/haltUndead.md#_halt-undead-copy): Immobilizes undead for 1 round/level.
-- [**Haste**](spells/haste.md#_haste): One creature/level moves faster, +1 on attack rolls, [AC](combat.md#_armor-class), and [Reflex](combat.md#_reflex) saves.
-- [**Healing Thief**](ultimateCombat/spells/healingThief.md#_healing-thief): You siphon half of all magical healing that the targeted creature receives.
-- [**Heroism**](spells/heroism.md#_heroism): Gives +2 bonus on attack rolls, saves, skill checks.
-- [**Hold Person**](spells/holdPerson.md#_hold-person): Paralyzes one humanoid for 1 round/level.
-- [**Hostile Levitation**](ultimateCombat/spells/hostileLevitation.md#_hostile-levitation): Levitates the targeted creature up off the ground.
-- [**Howling Agony**](ultimateMagic/spells/howlingAgony.md#_howling-agony): Screaming pain limits the target's actions.
-- [**Hydraulic Torrent**](advanced/spells/hydraulicTorrent.md#_hydraulic-torrent-): Creates torrent of water that bull rushes any creature in its path.
-- [**Illusory Script**](spells/illusoryScript.md#_illusory-script)M: Only select creatures can read text.
-- [**Improve Trap**](advancedRaceGuide/featuredRaces/kobolds.md#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
-- [**Invisibility Sphere**](spells/invisibilitySphere.md#_invisibility-sphere): Makes everyone within 10 ft. [invisible](glossary.md#_invisible).
-- [**Keen Edge**](spells/keenEdge.md#_keen-edge): Doubles normal weapon's threat range.
-- [**Ki Leech**](ultimateMagic/spells/kiLeech.md#_ki-leech): Add to your _ki_ pool when you critically hit.
-- [**Lightning Bolt**](spells/lightningBolt.md#_lightning-bolt): Electricity deals 1d6/level damage.
-- [**Loathsome Veil**](ultimateMagic/spells/loathsomeVeil.md#_loathsome-veil): Nauseate and/or sicken weak creatures.
-- [**Locate Weakness**](ultimateCombat/spells/locateWeakness.md#_locate-weakness): You roll damage twice when you roll damage for a critical hit and take the best damage.
-- [**Mad Monkeys**](ultimateMagic/spells/madMonkeys.md#_mad-monkeys): Summon a swarm of mischievous monkeys.
-- [**Magic Circle against Chaos/Evil/Good/Law**](spells/magicCircleAgainstChaos.md#_magic-circle-against-chaos): As _protection _spells, but 10-ft. radius and 10 min./level.
-- [**Magic Weapon, Greater**](spells/magicWeapon.md#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
-- [**Major Image**](spells/majorImage.md#_major-image): As _ [silent image](spells/silentImage.md#_silent-image)_, plus sound, smell and thermal effects.
-- [**Marionette Possession**](ultimateMagic/spells/marionettePossession.md#_marionette-possession): As _ [magic jar](/spells/magicJar.md#_magic-jar), _but limited to line of sight.
-- [**Minor Dream**](advancedRaceGuide/coreRaces/gnomes.md#_minor-dream): This spell functions as the _dream spell_, except the messenger must be yourself or a gnome touched.
-- [**Monstrous Physique I**](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-i): Take the form and some of the powers of a Small or Medium monstrous humanoid.
-- [**Nixie's Lure**](advancedRaceGuide/featuredRaces/undines.md#_nixie's-lure): Creates an unearthly and infectious song that seductively summons all who hear it.
-- [**Nondetection**](spells/nondetection.md#_nondetection)M: Hides subject from divination, [scrying](spells/scrying.md#_scrying).
-- [**Pain Strike**](advanced/spells/painStrike.md#_pain-strike): Inflicts 1d6 nonlethal damage 1 round/level.
-- [**Paragon Surge**](advancedRaceGuide/coreRaces/halfElves.md#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
-- [**Pellet Blast**](ultimateCombat/spells/pelletBlast.md#_pellet-blast)M: Creates an explosion of conjured metal pellets. 
-- [**Phantom Driver**](ultimateCombat/spells/phantomDriver.md#_phantom-driver): Conjures a phantom to drive vehicles.
-- [**Phantom Steed**](spells/phantomSteed.md#_phantom-steed): Magic horse appears for 1 hour/level.
-- [**Prehensile Pilfer**](advancedRaceGuide/uncommonRaces/vanaras.md#_prehensile-pilfer): The target's tail moves and acts more quickly, almost with a mind of its own.
-- [**Protection from Arrows, Communal**](ultimateCombat/spells/protectionFromArrows.md#_protection-from-arrows,-communal): As _ [protection from arrows](spells/protectionFromArrows.md#_protection-from-arrows)_, but you may divide the duration among creatures touched.
-- [**Protection from Energy**](spells/protectionFromEnergy.md#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
-- [**Pup Shape**](ultimateCombat/spells/pupShape.md#_pup-shape): Transforms a single animal or magical beast into a younger and cuter version of itself for a short period of time.
-- [**Rage**](spells/rage.md#_rage): Gives +2 to [Str](gettingStarted.md#_strength) and [Con](gettingStarted.md#_constitution), +1 on [Will](combat.md#_will) saves, –2 to [AC](combat.md#_armor-class).
-- [**Raging Rubble**](advancedRaceGuide/featuredRaces/oreads.md#_raging-rubble): You animate an area of rubble, creating a dangerous, rolling area of debris.
-- [**Rain of Frogs**](ultimateMagic/spells/rainOfFrogs.md#_rain-of-frogs): Summon a swarm of poisonous frogs.
-- [**Ray of Exhaustion**](spells/rayOfExhaustion.md#_ray-of-exhaustion): Ray makes subject [exhausted](glossary.md#_exhausted).
-- [**Reckless Infatuation**](ultimateMagic/spells/recklessInfatuation.md#_reckless-infatuation): Target is compelled to stay near another.
-- [**Resinous Skin**](ultimateCombat/spells/resinousSkin.md#_resinous-skin): You gain DR 5/piercing and +4 to CMD against disarm attempts.
-- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy.md#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy.md#_resist-energy)_, but you may divide the duration among creatures touched.
-- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon.md#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon.md#_returning-weapon)_, but you may divide the duration among weapons touched.
-- [**Sands of Time**](ultimateMagic/spells/sandsOfTime.md#_sands-of-time): Target temporarily ages.
-- [**Secret Page**](spells/secretPage.md#_secret-page): Changes one page to hide its real content.
-- [**Seek Thoughts**](advanced/spells/seekThoughts.md#_seek-thoughts): Detects thinking creatures' thoughts.
-- [**Sepia Snake Sigil**](spells/sepiaSnakeSigil.md#_sepia-snake-sigil)M: Creates text symbol that immobilizes reader.
-- [**Share Language, Communal**](ultimateCombat/spells/shareLanguage.md#_share-language,-communal): As _ [share language](advanced/spells/shareLanguage.md#_share-language-)_, but you may divide the duration among creatures touched.
-- [**Shifting Sand**](advanced/spells/shiftingSand.md#_shifting-sand): Creates difficult terrain and erases tracks, can carry along some creatures and objects.
-- [**Shrink Item**](spells/shrinkItem.md#_shrink-item): Object shrinks to one-sixteenth size.
-- [**Sleet Storm**](spells/sleetStorm.md#_sleet-storm): Hampers vision and movement.
-- [**Slow**](spells/slow.md#_slow): One subject/level takes only one action/round, –1 to [AC](combat.md#_armor-class), [Reflex](combat.md#_reflex) saves, and attack rolls.
-- [**Spider Climb, Communal**](ultimateCombat/spells/spiderClimb.md#_spider-climb,-communal): As _ [spider climb](spells/spiderClimb.md#_spider-climb)_, but you may divide the duration among creatures touched.
-- [**Spiked Pit**](advanced/spells/spikedPit.md#_spiked-pit): As _ [create pit](advanced/spells/createPit.md#_create-pit-)_, but filled with spikes.
-- [**Stinking Cloud**](spells/stinkingCloud.md#_stinking-cloud): Nauseating vapors, 1 round/level.
-- [**Strangling Hair**](ultimateMagic/spells/stranglingHair.md#_strangling-hair): Your hair animates and grapples.
-- [**Suggestion**](spells/suggestion.md#_suggestion): Compels a subject to follow stated course of action.
-- [**Summon Monster III**](spells/summonMonster.md#_summon-monster-iii): Summons extraplanar creature to fight for you.
-- [**Tiny Hut**](spells/tinyHut.md#_tiny-hut): Creates shelter for 10 creatures.
-- [**Tongues**](spells/tongues.md#_tongues): Speak and understand any language.
-- [**Touch Injection**](ultimateCombat/spells/touchInjection.md#_touch-injection): You can deliver an infusion, elixir, poison, or potion as a touch attack.
-- [**Toxic Gift**](ultimateMagic/spells/toxicGift.md#_toxic-gift): Target suffers the effect of the poison in you.
-- [**Twilight Knife**](advanced/spells/twilightKnife.md#_twilight-knife-): Floating knife attacks with you.
-- [**Unadulterated Loathing**](ultimateMagic/spells/unadulteratedLoathing.md#_unadulterated-loathing): Target is compelled to avoid another creature.
-- [**Undead Anatomy I**](ultimateMagic/spells/undeadAnatomy.md#_undead-anatomy-i): Take the form and some of the powers of a Small or Medium undead.
-- [**Vampiric Touch**](spells/vampiricTouch.md#_vampiric-touch): Touch deals 1d6 damage per two levels; caster gains damage as temporary hp.
-- [**Versatile Weapon**](advanced/spells/versatileWeapon.md#_versatile-weapon): Weapon bypasses some DR.
-- [**Vision of Hell**](ultimateMagic/spells/visionOfHell.md#_vision-of-hell): Illusory hellscape makes creatures shaken.
-- [**Water Breathing**](spells/waterBreathing.md#_water-breathing): Subjects can breathe underwater.
-- [**Wind Wall**](spells/windWall.md#_wind-wall): Deflects arrows, smaller creatures, and gases.
-
-- [**Absorbing Inhalation**](advancedRaceGuide/featuredRaces/sylphs.md#_absorbing-inhalation): Harmlessly and completely inhale one gas, fog, smoke, mist, or similar cloud-like effect.
-- [**Acid Pit**](advanced/spells/acidPit.md#_acid-pit-)F: Creates a pit with a layer of acid on the bottom.
-- [**Age Resistance, Lesser**](ultimateMagic/spells/ageResistance.md#_age-resistance,-lesser): Ignore penalties from middle age.
-- [**Agonize**](ultimateMagic/spells/agonize.md#_agonize-): Pain encourages an outsider to obey you.
-- [**Animal Aspect, Greater**](ultimateCombat/spells/animalAspect.md#_animal-aspect,-greater): As _ [animal aspect](ultimateCombat/spells/animalAspect.md#_animal-aspect)_, but you gain two animal qualities.
-- [**Animate Dead**](spells/animateDead.md#_animate-dead)M: Creates undead skeletons and zombies out of corpses.
-- [**Arcane Eye**](spells/arcaneEye.md#_arcane-eye): Invisible floating eye moves 30 ft./round.
-- [**Ball Lightning**](advanced/spells/ballLightning.md#_ball-lightning): Flying balls of lightning deal 3d6 electricity damage each.
-- [**Beast Shape II**](spells/beastShape.md#_beast-shape-ii): You take the form and some of the powers of a Tiny or Large animal.
-- [**Bestow Curse**](spells/bestowCurse.md#_bestow-curse): –6 to an ability score; –4 on attack rolls, saves, and checks; or 50% chance of losing each action.
-- [**Black Tentacles**](spells/blackTentacles.md#_black-tentacles): Tentacles grapple all creatures within a 20-ft. spread.
-- [**Calcific Touch**](advanced/spells/calcificTouch.md#_calcific-touch): Touch attack slows target, 1d4 Dex damage.
-- [**Charm Monster**](spells/charmMonster.md#_charm-monster): Makes monster believe it is your ally.
-- [**Cloud Shape**](advancedRaceGuide/featuredRaces/sylphs.md#_cloud-shape): Functions like _gaseous form_, except you assume the shape of a Colossal cloud.
-- [**Confusion**](spells/confusion.md#_confusion): Subjects behave oddly for 1 round/level.
-- [**Contagion**](spells/contagion.md#_contagion): Infects subject with chosen disease.
-- [**Control Summoned Creature**](ultimateMagic/spells/controlSummonedCreature.md#_control-summoned-creature): Direct a summoned monster as if you had summoned it.
-- [**Crushing Despair**](spells/crushingDespair.md#_crushing-despair): Subjects take –2 on attack rolls, damage rolls, saves, and checks.
-- [**Curse of Magic Negation**](ultimateMagic/spells/curseOfMagicNegation.md#_curse-of-magic-negation): Target gains the negated spellblight.
-- [**Darkvision, Greater**](ultimateMagic/spells/darkvision.md#_darkvision,-greater): See 120 ft. in total darkness.
-- [**Daze, Mass**](ultimateMagic/spells/daze.md#_daze,-mass): As _ [daze](/spells/daze.md#_daze)_, but affecting multiple creatures.
-- [**Detect Scrying**](spells/detectScrying.md#_detect-scrying): Alerts you to magical eavesdropping
-- [**Detonate**](advanced/spells/detonate.md#_detonate)M: Inflicts 1d8/level energy damage to all creatures within 15 ft.
-- [**Dimension Door**](spells/dimensionDoor.md#_dimension-door): Teleports you a short distance.
-- [**Dimensional Anchor**](spells/dimensionalAnchor.md#_dimensional-anchor): Bars extradimensional movement.
-- [**Dragon's Breath**](advanced/spells/dragonSBreath.md#_dragon's-breath): Gives you a dragon's breath weapon.
-- [**Earth Glide**](advancedRaceGuide/uncommonRaces/svirfneblins.md#_earth-glide): The target can pass through stone, dirt, or almost any other sort of earth except metal.
-- [**Elemental Body I**](spells/elementalBody.md#_elemental-body-i): Turns you into a Small elemental.
-- [**Enervation**](spells/enervation.md#_enervation): Subject gains 1d4 [negative levels](glossary.md#_energy-drain-and-negative-levels).
-- [**Enlarge Person, Mass**](spells/enlargePerson.md#_enlarge-person-mass): 1 humanoid creature/level doubles in size.
-- [**False Life, Greater**](ultimateMagic/spells/falseLife.md#_false-life,-greater): Gain 2d10 temporary hp + 1/level.
-- [**Familiar Melding**](ultimateMagic/spells/familiarMelding.md#_familiar-melding): Possess your familiar.
-- [**Fear**](spells/fear.md#_fear): Subjects within cone flee for 1 round/level.
-- [**Fire Shield**](spells/fireShield.md#_fire-shield): Creatures attacking you take fire damage; you're protected from heat or cold.
-- [**Fire Trap**](spells/fireTrap.md#_fire-trap)M: Opened object deals 1d4 damage + 1/level.
-- [**Firefall**](advanced/spells/firefall.md#_firefall): Causes fire to burst up, dealing 2d6 fire damage.
-- [**Fleshworm Infestation**](ultimateMagic/spells/fleshwormInfestation.md#_fleshworm-infestation): Worms deal hp and Dex damage.
-- [**Forgetful Slumber**](advancedRaceGuide/coreRaces/halfElves.md#_forgetful-slumber): Acts as the _deeper slumber spell_, but only affects one creature of 10 Hit Dice or fewer.
-- [**Geas, Lesser**](spells/geasQuest.md#_geas-lesser): Commands subject of 7 HD or less.
-- [**Ghost Wolf**](advancedRaceGuide/coreRaces/halfOrcs.md#_ghost-wolf): Conjures a Large, quasi-real, wolflike creature made of roiling black smoke.
-- [**Globe of Invulnerability, Lesser**](spells/globeOfInvulnerability.md#_globe-of-invulnerability-lesser): Stops 1st- through 3rd-level spell effects.
-- [**Hallucinatory Terrain**](spells/hallucinatoryTerrain.md#_hallucinatory-terrain): Makes one type of terrain appear like another (field as forest, or the like).
-- [**Hellmouth Lash**](advancedRaceGuide/featuredRaces/tieflings.md#_hellmouth-lash): Your tongue transforms into an energy whip weapon that can deal acid, electricity, or fire damage.
-- [**Ice Storm**](spells/iceStorm.md#_ice-storm): Hail deals 5d6 damage in cylinder 40 ft. across.
-- [**Illusory Wall**](spells/illusoryWall.md#_illusory-wall): Wall, floor, or ceiling looks real, but anything can pass through.
-- [**Invisibility, Greater**](spells/invisibility.md#_invisibility-greater): As _ [invisibility](spells/invisibility.md#_invisibility), _but subject can attack and stay [invisible](glossary.md#_invisible).
-- [**Locate Creature**](spells/locateCreature.md#_locate-creature): Indicates direction to familiar creature.
-- [**Magic Siege Engine, Greater**](ultimateCombat/spells/magicSiegeEngine.md#_magic-siege-engine,-greater): Siege engine gains +1 on targeting and damage rolls for every four caster levels.
-- [**Malfunction**](ultimateMagic/spells/malfunction.md#_malfunction): Construct behaves oddly for 1 round/level.
-- [**Malicious Spite**](ultimateMagic/spells/maliciousSpite.md#_malicious-spite): Target is compelled to plot against another.
-- [**Miasmatic Form**](advancedRaceGuide/featuredRaces/sylphs.md#_miasmatic-form): Functions like _gaseous form_, except target's vaporous body is dangerous to creatures that touch it.
-- [**Minor Creation**](spells/minorCreation.md#_minor-creation): Creates one cloth or wood object.
-- [**Minor Phantom Object**](advancedRaceGuide/coreRaces/gnomes.md#_minor-phantom-object): Functions as the _minor creation_ spell, except the object created is a semi-real phantasm.
-- [**Mnemonic Enhancer**](spells/mnemonicEnhancer.md#_mnemonic-enhancer)F: _Wizard only. _Prepare extra spells or retain one just cast.
-- [**Monstrous Physique II**](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-ii): Take the form and some of the powers of a Tiny or Large monstrous humanoid.
-- [**Moonstruck**](advanced/spells/moonstruck.md#_moonstruck): Subject is enraged and confused.
-- [**Named Bullet**](ultimateCombat/spells/namedBullet.md#_named-bullet): Imbues ammunition with accuracy against a specific creature type.
-- [**Nondetection, Communal**](ultimateCombat/spells/nondetection.md#_nondetection,-communal)M: As _ [nondetection](spells/nondetection.md#_nondetection)_, but you may divide the duration among creatures touched.
-- [**Obsidian Flow**](ultimateCombat/spells/obsidianFlow.md#_obsidian-flow): Converts the surface of the ground into molten glass.
-- [**Overwhelming Grief**](ultimateMagic/spells/overwhelmingGrief.md#_overwhelming-grief): Grieving target can take no actions and is denied its Dex bonus.
-- [**Phantasmal Killer**](spells/phantasmalKiller.md#_phantasmal-killer): Fearsome illusion kills subject or deals 3d6 damage.
-- [**Phantom Chariot**](ultimateCombat/spells/phantomChariot.md#_phantom-chariot): Conjures a quasi-real heavy chariot pulled by four horses.
-- [**Phantom Steed, Communal**](ultimateCombat/spells/phantomSteed.md#_phantom-steed,-communal): As _ [phantom steed](spells/phantomSteed.md#_phantom-steed)_, but you may divide the duration among creatures touched.
-- [**Protection from Energy, Communal**](ultimateCombat/spells/protectionFromEnergy.md#_protection-from-energy,-communal): As _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, but you may divide the duration among creatures touched.
-- [**Rainbow Pattern**](spells/rainbowPattern.md#_rainbow-pattern): Lights fascinate 24 HD of creatures.
-- [**Reduce Person, Mass**](spells/reducePerson.md#_reduce-person-mass): As _ [reduce person](spells/reducePerson.md#_reduce-person)_, but affects 1 humanoid creature/level.
-- [**Remove Curse**](spells/removeCurse.md#_remove-curse): Frees object or person from curse.
-- [**Resilient Reservoir**](advancedRaceGuide/coreRaces/halfElves.md#_resilient-reservoir): Creates a magical well of retribution that a caster can unleash with blinding speed.
-- [**Resilient Sphere**](spells/resilientSphere.md#_resilient-sphere): Force globe protects but traps one subject.
-- [**Ride the Waves**](ultimateMagic/spells/rideTheWaves.md#_ride-the-waves): Target can breathe water and swim.
-- [**River of Wind**](advanced/spells/riverOfWind.md#_river-of-wind): A stream of wind causes nonlethal damage and can knock down or push creatures.
-- [**Scorching Ash Form**](advancedRaceGuide/featuredRaces/ifrits.md#_scorching-ash-form): Functions like _gaseous form_, except the target becomes a visible swirl of hot ash and smoke.
-- [**Scrying**](spells/scrying.md#_scrying)F: Spies on subject from a distance.
-- [**Secure Shelter**](spells/secureShelter.md#_secure-shelter): Creates sturdy cottage.
-- [**Shadow Conjuration**](spells/shadowConjuration.md#_shadow-conjuration): Mimics conjuration below 4th level, but only 20% real.
-- [**Shadow Projection**](advanced/spells/shadowProjection.md#_shadow-projection): Temporarily become a shadow.
-- [**Shadow Step**](ultimateMagic/spells/shadowStep.md#_shadow-step): Teleport from one shadow to another.
-- [**Shadowy Haven**](advancedRaceGuide/featuredRaces/fetchlings.md#_shadowy-haven): Functions like _rope trick_, except the point of entry is through a 5-foot-square instead of a rope.
-- [**Share Senses**](advanced/spells/shareSenses.md#_share-senses): See/hear/smell what your familiar is.
-- [**Shocking Image**](ultimateCombat/spells/shockingImage.md#_shocking-image): As _ [mirror image](spells/mirrorImage.md#_mirror-image)_, but the duplicates emit electrical damage when destroyed.
-- [**Shout**](spells/shout.md#_shout): Deafens all within cone and deals 5d6 sonic damage.
-- [**Simulacrum, Lesser**](ultimateMagic/spells/simulacrum.md#_simulacrum,-lesser): Creates a double of a weak creature.
-- [**Solid Fog**](spells/solidFog.md#_solid-fog): Blocks vision and slows movement.
-- [**Stone Shape**](spells/stoneShape.md#_stone-shape): Sculpts stone into any shape.
-- [**Stoneskin**](spells/stoneskin.md#_stoneskin)M: Grants [DR](glossary.md#_damage-reduction) 10/adamantine.
-- [**Summon Monster IV**](spells/summonMonster.md#_summon-monster-iv): Summons extraplanar creature to fight for you.
-- [**Symbol of Revelation**](ultimateMagic/spells/symbolOfRevelation.md#_symbol-of-revelation): Triggered symbol reveals illusions.
-- [**Symbol of Slowing**](ultimateMagic/spells/symbolOfSlowing.md#_symbol-of-slowing): Triggered rune slows creatures.
-- [**Telekinetic Charge**](ultimateCombat/spells/telekineticCharge.md#_telekinetic-charge-): Launches an ally through the air. 
-- [**Terrible Remorse**](ultimateMagic/spells/terribleRemorse.md#_terrible-remorse): Creature is compelled to harm itself.
-- [**Tongues, Communal**](ultimateCombat/spells/tongues.md#_tongues,-communal): As _ [tongues](spells/tongues.md#_tongues)_, but you may divide the duration among creatures touched.
-- [**Touch of Slime**](ultimateMagic/spells/touchOfSlime.md#_touch-of-slime): Touch infests a target with green slime.
-- [**True Form**](advanced/spells/trueForm.md#_true-form): Removes polymorph effects.
-- [**Vermin Shape I**](ultimateMagic/spells/verminShape.md#_vermin-shape-i-): Take the form and some of the powers of a Small or Medium vermin.
-- [**Vitriolic Mist**](ultimateMagic/spells/vitriolicMist.md#_vitriolic-mist): As _ [fire shield](/spells/fireShield.md#_fire-shield)_, except acid damage.
-- [**Volcanic Storm**](ultimateMagic/spells/volcanicStorm.md#_volcanic-storm): Hot rocks deal 5d6 damage.
-- [**Vomit Twin**](advancedRaceGuide/featuredRaces/goblins.md#_vomit-twin): You vomit forth a disgusting ooze copy of yourself into a single adjacent square.
-- [**Wall of Fire**](spells/wallOfFire.md#_wall-of-fire): Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage + 1/level.
-- [**Wall of Ice**](spells/wallOfIce.md#_wall-of-ice): _Ice plane _creates wall or _hemisphere _creates dome.
-- [**Wandering Star Motes**](advanced/spells/wanderingStarMotes.md#_wandering-star-motes): Outlines subject and produces light as a sunrod.
-- [**Web Cloud**](advancedRaceGuide/featuredRaces/drow.md#_web-cloud): Creates a cloud of flame-resistant strands of adhesive webbing.
-
-- [**Absorb Toxicity**](ultimateCombat/spells/absorbToxicity.md#_absorb-toxicity): You become immune to diseases and toxins, absorb one, and then spread it to others.
-- [**Acidic Spray**](ultimateMagic/spells/acidicSpray.md#_acidic-spray): 1d6/level acid damage plus 1 round of acid.
-- [**Animal Growth**](spells/animalGrowth.md#_animal-growth): One animal doubles in size.
-- [**Astral Projection, Lesser**](ultimateMagic/spells/astralProjection.md#_astral-projection,-lesser): Limited astral travel.
-- [**Baleful Polymorph**](spells/balefulPolymorph.md#_baleful-polymorph): Turns subject into harmless animal.
-- [**Beast Shape III**](spells/beastShape.md#_beast-shape-iii): You take the form of a Diminutive or Huge animal, or Small or Medium magical beast.
-- [**Blight**](spells/blight.md#_blight): Withers one plant or deals 1d6/level damage to plant creature.
-- [**Break Enchantment**](spells/breakEnchantment.md#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
-- [**Cloudkill**](spells/cloudkill.md#_cloudkill): Kills 3 HD or less; 4–6 HD save or die, 6+ HD take [Con](gettingStarted.md#_constitution) damage.
-- [**Cone of Cold**](spells/coneOfCold.md#_cone-of-cold): 1d6/level cold damage.
-- [**Contact Other Plane**](spells/contactOtherPlane.md#_contact-other-plane): Lets you ask question of extraplanar entity.
-- [**Corrosive Consumption**](ultimateMagic/spells/corrosiveConsumption.md#_corrosive-consumption): Acidic patch damages an opponent.
-- [**Curse of Disgust**](ultimateMagic/spells/curseOfDisgust.md#_curse-of-disgust): Target is sickened when viewing a trigger.
-- [**Damnation Stride**](advancedRaceGuide/featuredRaces/tieflings.md#_damnation-stride): Functions like _dimension door_, except you leave behind a burst of fire.
-- [**Dismissal**](spells/dismissal.md#_dismissal): Forces a creature to return to its native plane.
-- [**Dominate Person**](spells/dominatePerson.md#_dominate-person): Controls humanoid telepathically.
-- [**Dream**](spells/dream.md#_dream): Sends message to anyone sleeping.
-- [**Echolocation**](ultimateMagic/spells/echolocation.md#_echolocation): Sonic sense gives you blindsight 40 ft.
-- [**Elemental Body II**](spells/elementalBody.md#_elemental-body-ii): Turns you into a Medium elemental.
-- [**Energy Siege Shot**](ultimateCombat/spells/energySiegeShot.md#_energy-siege-shot): A Large siege engine deals energy damage that you designate with other effects depending on the type of energy you choose.
-- [**Fabricate**](spells/fabricate.md#_fabricate)M: Transforms raw materials into finished items.
-- [**False Vision**](spells/falseVision.md#_false-vision)M: Fools [scrying](spells/scrying.md#_scrying) with an illusion.
-- [**Feeblemind**](spells/feeblemind.md#_feeblemind): Subject's [Int](gettingStarted.md#_intelligence) and [Cha](gettingStarted.md#_charisma-new) drop to 1.
-- [**Fickle Winds**](ultimateMagic/spells/fickleWinds.md#_fickle-winds): Wind walls selectively block attacks.
-- [**Fire Snake**](advanced/spells/fireSnake.md#_fire-snake): Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.
-- [**Geyser**](advanced/spells/geyser.md#_geyser-): Creates a geyser of boiling water.
-- [**Half-blood Extraction**](advancedRaceGuide/coreRaces/halfOrcs.md#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
-- [**Hold Monster**](spells/holdMonster.md#_hold-monster): As _ [hold person](spells/holdPerson.md#_hold-person)_, but any creature.
-- [**Hostile Juxtaposition**](ultimateCombat/spells/hostileJuxtaposition.md#_hostile-juxtaposition): You create a dimensional link with a targeted creature, and switch spots with it.
-- [**Hungry Pit**](advanced/spells/hungryPit.md#_hungry-pit-): As _ [create pit](advanced/spells/createPit.md#_create-pit-)_, but dealing 4d6 damage to those in it as it closes.
-- [**Icy Prison**](ultimateMagic/spells/icyPrison.md#_icy-prison): Thick ice holds and damages the target.
-- [**Interposing Hand**](spells/interposingHand.md#_interposing-hand): Hand provides cover against 1 opponent.
-- [**Life Bubble**](advanced/spells/lifeBubble.md#_life-bubble-): Protects creatures from sustained environmental effects.
-- [**Lightning Arc**](ultimateMagic/spells/lightningArc.md#_lightning-arc): Targets in a line take 1d6 electricity/level.
-- [**Mage's Faithful Hound**](spells/mageSFaithfulHound.md#_mage-s-faithful-hound): Phantom dog can guard a location and attack intruders.
-- [**Mage's Private Sanctum**](spells/mageSPrivateSanctum.md#_mage-s-private-sanctum): Prevents anyone from viewing or [scrying](spells/scrying.md#_scrying) an area for 24 hours.
-- [**Magic Jar**](spells/magicJar.md#_magic-jar)F: Enables possession of another creature.
-- [**Major Creation**](spells/majorCreation.md#_major-creation): As _ [minor creation](spells/minorCreation.md#_minor-creation), _plus stone and metal.
-- [**Major Phantom Object**](advancedRaceGuide/coreRaces/gnomes.md#_major-phantom-object): Functions as the _major creation_ spell, except the object created is a semi-real phantasm.
-- [**Mind Fog**](spells/mindFog.md#_mind-fog): Subjects in fog get –10 to [Wis](gettingStarted.md#_wisdom) and [Will](combat.md#_will) checks.
-- [**Mirage Arcana**](spells/mirageArcana.md#_mirage-arcana): As _ [hallucinatory terrain](spells/hallucinatoryTerrain.md#_hallucinatory-terrain), _plus structures.
-- [**Monstrous Physique III**](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-iii): Take the form and some of the powers of a Diminutive or Huge monstrous humanoid.
-- [**Nightmare**](spells/nightmare.md#_nightmare): Sends vision dealing 1d10 damage, fatigue.
-- [**Overland Flight**](spells/overlandFlight.md#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
-- [**Pain Strike, Mass**](advanced/spells/painStrike.md#_pain-strike,-mass): As _pain_, but affects multiple creatures.
-- [**Passwall**](spells/passwall.md#_passwall): Creates passage through wood or stone wall.
-- [**Permanency**](spells/permanency.md#_permanency)M: Makes certain spells permanent.
-- [**Persistent Image**](spells/persistentImage.md#_persistent-image): As _ [major image](spells/majorImage.md#_major-image)_, but with no concentration required.
-- [**Phantasmal Web**](advanced/spells/phantasmalWeb.md#_phantasmal-web): Catches subjects in illusory web.
-- [**Plague Carrier**](ultimateMagic/spells/plagueCarrier.md#_plague-carrier): Target's attacks carry filth fever.
-- [**Planar Adaptation**](advanced/spells/planarAdaptation.md#_planar-adaptation): Resist harmful effects of other plane.
-- [**Planar Binding, Lesser**](spells/planarBinding.md#_planar-binding-lesser): Traps extraplanar creature of 6 HD or less until it performs a task.
-- [**Plant Shape I**](spells/plantShape.md#_plant-shape-i): Turns you into a Small or Medium plant.
-- [**Polymorph**](spells/polymorph.md#_polymorph): Gives one willing subject a new form.
-- [**Possess Object**](ultimateMagic/spells/possessObject.md#_possess-object): Possess and animate one object.
-- [**Prying Eyes**](spells/pryingEyes.md#_prying-eyes): 1d4 + 1/level floating eyes scout for you.
-- [**Rapid Repair**](ultimateMagic/spells/rapidRepair.md#_rapid-repair): Construct gains fast healing 5.
-- [**Secret Chest**](spells/secretChest.md#_secret-chest)F: Hides expensive chest on Ethereal Plane; you retrieve it at will.
-- [**Seeming**](spells/seeming.md#_seeming): Changes appearance of 1 person per 2 levels.
-- [**Sending**](spells/sending.md#_sending): Delivers short message anywhere, instantly.
-- [**Shadow Evocation**](spells/shadowEvocation.md#_shadow-evocation): Mimics evocation below 5th level, but only 20% real.
-- [**Smug Narcissism**](ultimateMagic/spells/smugNarcissism.md#_smug-narcissism): Target is distracted by its sense of self.
-- [**Sonic Thrust**](ultimateMagic/spells/sonicThrust.md#_sonic-thrust): Sound moves targets away from you.
-- [**Soothe Construct**](ultimateMagic/spells/sootheConstruct.md#_soothe-construct): Reduce the berserk chance of a construct.
-- [**Stoneskin, Communal**](ultimateCombat/spells/stoneskin.md#_stoneskin,-communal)M: As _ [stoneskin](spells/stoneskin.md#_stoneskin)_, but you may divide the duration among creatures touched.
-- [**Suffocation**](advanced/spells/suffocation.md#_suffocation): Target quickly suffocates to death.
-- [**Summon Monster V**](spells/summonMonster.md#_summon-monster-v): Summons extraplanar creature to fight for you.
-- [**Summoner Conduit**](ultimateCombat/spells/summonerConduit.md#_summoner-conduit): The target eidolon's summoner takes damage whenever the eidolon does.
-- [**Symbol of Pain**](spells/symbolOfPain.md#_symbol-of-pain)M: Triggered rune wracks creatures with pain.
-- [**Symbol of Scrying**](ultimateMagic/spells/symbolOfScrying.md#_symbol-of-scrying): Triggered rune activates scrying sensor.
-- [**Symbol of Sleep**](spells/symbolOfSleep.md#_symbol-of-sleep)M: Triggered rune puts nearby creatures into catatonic slumber.
-- [**Symbol of Striking**](ultimateCombat/spells/symbolOfStriking.md#_symbol-of-striking)M: As _ [symbol of death](spells/symbolOfDeath.md#_symbol-of-death)_, but fills a 5-foot square.
-- [**Telekinesis**](spells/telekinesis.md#_telekinesis): Moves object, attacks creature, or hurls object or creature.
-- [**Telepathic Bond**](spells/telepathicBond.md#_telepathic-bond): Link lets allies communicate.
-- [**Teleport**](spells/teleport.md#_teleport): Instantly transports you as far as 100 miles per level.
-- [**Transmute Mud to Rock**](spells/transmuteMudToRock.md#_transmute-mud-to-rock): Transforms two 10-ft. cubes per level.
-- [**Transmute Rock to Mud**](spells/transmuteRockToMud.md#_transmute-rock-to-mud): Transforms two 10-ft. cubes per level.
-- [**Treasure Stitching**](advanced/spells/treasureStitching.md#_treasure-stitching-)M: Objects on cloth become embroidered.
-- [**Truespeak**](advancedRaceGuide/featuredRaces/aasimars.md#_truespeak): You can communicate with any creature that is not mindless.
-- [**Unbreakable Construct**](ultimateMagic/spells/unbreakableConstruct.md#_unbreakable-construct): Increase construct hardness or DR.
-- [**Undead Anatomy II**](ultimateMagic/spells/undeadAnatomy.md#_undead-anatomy-ii): Take the form and some of the powers of a Tiny or Large undead.
-- [**Vermin Shape II**](ultimateMagic/spells/verminShape.md#_vermin-shape-ii): As _vermin shape_, but Tiny or Large.
-- [**Village Veil**](advancedRaceGuide/coreRaces/halflings.md#_village-veil): Creates an illusion over an area to make creatures that view or interact with it believe it has suffered a catastrophe that renders it utterly worthless.
-- [**Wall of Force**](spells/wallOfForce.md#_wall-of-force): Wall is immune to damage.
-- [**Wall of Sound**](ultimateMagic/spells/wallOfSound.md#_wall-of-sound): Sonic wall deflects and damages creatures.
-- [**Wall of Stone**](spells/wallOfStone.md#_wall-of-stone): Creates a stone wall that can be shaped.
-- [**Waves of Fatigue**](spells/wavesOfFatigue.md#_waves-of-fatigue): Several targets become [fatigued](glossary.md#_fatigued).
-- [**Wind Blades**](advancedRaceGuide/featuredRaces/sylphs.md#_wind-blades): Harden the air around the target into jagged invisible blades.
-- [**Wreath of Blades**](ultimateCombat/spells/wreathOfBlades.md#_wreath-of-blades)F: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
-
-- [**Acid Fog**](spells/acidFog.md#_acid-fog): Fog deals acid damage.
-- [**Age Resistance**](ultimateMagic/spells/ageResistance.md#_age-resistance): Ignore penalties from old age.
-- [**Analyze Dweomer**](spells/analyzeDweomer.md#_analyze-dweomer)F: Reveals magical aspects of subject.
-- [**Antimagic Field**](spells/antimagicField.md#_antimagic-field): Negates magic within 10 ft.
-- [**Battlemind Link**](ultimateMagic/spells/battlemindLink.md#_battlemind-link): You and an ally gain attack and AC bonuses.
-- [**Bear's Endurance, Mass**](spells/bearSEndurance.md#_bear-s-endurance-mass): As _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, affects one subject/level.
-- [**Beast Shape IV**](spells/beastShape.md#_beast-shape-iv): You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast.
-- [**Bull's Strength, Mass**](spells/bullSStrength.md#_bull-s-strength-mass): As _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, affects 1 subject per level.
-- [**Cat's Grace, Mass**](spells/catSGrace.md#_cat-s-grace-mass): As _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, affects 1 subject/level.
-- [**Chain Lightning**](spells/chainLightning.md#_chain-lightning): 1d6/level damage and 1 secondary bolt/level.
-- [**Chains of Fire**](advancedRaceGuide/featuredRaces/ifrits.md#_chains-of-fire): Functions like _chain lightning_, except deals fire damage.
-- [**Circle of Death**](spells/circleOfDeath.md#_circle-of-death)M: Kills 1d4/level HD of creatures.
-- [**Cloak of Dreams**](advanced/spells/cloakOfDreams.md#_cloak-of-dreams): Creatures within 5 ft. fall asleep.
-- [**Cold Ice Strike**](ultimateMagic/spells/coldIceStrike.md#_cold-ice-strike): Cone of ice slivers deals 1d6 cold/level.
-- [**Conjure Black Pudding**](ultimateMagic/spells/conjureBlackPudding.md#_conjure-black-pudding): Summon a black pudding.
-- [**Contagion, Greater**](ultimateMagic/spells/contagion.md#_contagion,-greater): Infect a subject with a magical disease.
-- [**Contagious Flame**](advanced/spells/contagiousFlame.md#_contagious-flame): Scorching rays cause 4d6 fire damage, then move on to new targets.
-- [**Contingency**](spells/contingency.md#_contingency)F: Sets trigger condition for another spell.
-- [**Control Water**](spells/controlWater.md#_control-water): Raises or lowers bodies of water.
-- [**Create Undead**](spells/createUndead.md#_create-undead)M: Raises ghouls, ghasts, mummies, or mohrgs from physical remains.
-- [**Curse, Major**](ultimateMagic/spells/curse.md#_curse,-major): As _ [bestow curse](/spells/bestowCurse.md#_bestow-curse)_, but harder to remove.
-- [**Disintegrate**](spells/disintegrate.md#_disintegrate): Reduces one creature or object to dust.
-- [**Dispel Magic, Greater**](spells/dispelMagic.md#_dispel-magic-greater): As _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, but with multiple targets.
-- [**Eagle's Splendor, Mass**](spells/eagleSSplendor.md#_eagle-s-splendor-mass): As _ [eagle's splendor](spells/eagleSSplendor.md#_eagle-s-splendor)_, 1 subject/level.
-- [**Elemental Body III**](spells/elementalBody.md#_elemental-body-iii): Turns you into a Large elemental.
-- [**Enemy Hammer**](advanced/spells/enemyHammer.md#_enemy-hammer-): Allows you to telekinetically use a creature as a weapon.
-- [**Energy Siege Shot, Greater**](ultimateCombat/spells/energySiegeShot.md#_energy-siege-shot,-greater): As _ [energy siege shot](ultimateCombat/spells/energySiegeShot.md#_energy-siege-shot)_, but you can affect any size siege engine.
-- [**Envious Urge**](ultimateMagic/spells/enviousUrge.md#_envious-urge): Targets steal from or disarm others.
-- [**Eyebite**](spells/eyebite.md#_eyebite): Target becomes [panicked](glossary.md#_panicked), [sickened](glossary.md#_sickened), and comatose.
-- [**Flesh to Stone**](spells/fleshToStone.md#_flesh-to-stone): Turns subject creature into statue.
-- [**Fluid Form**](advanced/spells/fluidForm.md#_fluid-form): Gain DR 10/slashing, increases reach 10 ft., and breathe water.
-- [**Forceful Hand**](spells/forcefulHand.md#_forceful-hand): Hand pushes creatures away.
-- [**Form of the Dragon I**](spells/formOfTheDragon.md#_form-of-the-dragon-i): Turns you into a Medium dragon.
-- [**Fox's Cunning, Mass**](spells/foxSCunning.md#_fox-s-cunning-mass): As _ [fox's cunning](spells/foxSCunning.md#_fox-s-cunning)_, affects 1 subject/ level.
-- [**Freezing Sphere**](spells/freezingSphere.md#_freezing-sphere): Freezes water or deals cold damage.
-- [**Geas/Quest**](spells/geasQuest.md#_geas-quest): As _lesser geas, _but affects any creature.
-- [**Getaway**](advanced/spells/getaway.md#_getaway-): Teleports you and select creatures to predetermined location.
-- [**Globe of Invulnerability**](spells/globeOfInvulnerability.md#_globe-of-invulnerability): As _ [lesser globe of invulnerability](spells/globeOfInvulnerability.md#_globe-of-invulnerability-lesser)_, plus 4th-level spell effects.
-- [**Guards and Wards**](spells/guardsAndWards.md#_guards-and-wards): Array of magic effects protect area.
-- [**Heroism, Greater**](spells/heroism.md#_heroism-greater): Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.
-- [**Ice Crystal Teleport**](ultimateMagic/spells/iceCrystalTeleport.md#_ice-crystal-teleport): Target is frozen, then teleported.
-- [**Legend Lore**](spells/legendLore.md#_legend-lore)MF: Lets you learn tales about a person, place, or thing.
-- [**Mage's Lucubration**](spells/mageSLucubration.md#_mage-s-lucubration): _Wizard only. _Recalls spell of 5th level or lower.
-- [**Mislead**](spells/mislead.md#_mislead): Turns you [invisible](glossary.md#_invisible) and creates illusory double.
-- [**Monstrous Physique IV**](ultimateMagic/spells/monstrousPhysique.md#_monstrous-physique-iv): As monstrous physique III, with more abilities.
-- [**Move Earth**](spells/moveEarth.md#_move-earth): Digs trenches and builds hills.
-- [**Named Bullet, Greater**](ultimateCombat/spells/namedBullet.md#_named-bullet,-greater): As _ [named bullet](ultimateCombat/spells/namedBullet.md#_named-bullet)_, but deals 2 points of damage for every caster level.
-- [**Owl's Wisdom, Mass**](spells/owlSWisdom.md#_owl-s-wisdom-mass): As _ [owl's wisdom](spells/owlSWisdom.md#_owl-s-wisdom)_, affects 1 subject/level.
-- [**Path of the Winds**](advancedRaceGuide/featuredRaces/sylphs.md#_path-of-the-winds): You call forth mighty winds to clear a path ahead of you.
-- [**Permanent Image**](spells/permanentImage.md#_permanent-image): Permanent illusion, includes sight, sound, smell, and thermal effects.
-- [**Planar Binding**](spells/planarBinding.md#_planar-binding): As _ [lesser planar binding](spells/planarBinding.md#_planar-binding-lesser), _but up to 12 HD.
-- [**Plant Shape II**](spells/plantShape.md#_plant-shape-ii): Turns you into a Large plant creature.
-- [**Programmed Image**](spells/programmedImage.md#_programmed-image)M: As _ [major image](spells/majorImage.md#_major-image)_, but triggered by event.
-- [**Repulsion**](spells/repulsion.md#_repulsion)F: Creatures can't approach you.
-- [**Serenity**](ultimateMagic/spells/serenity.md#_serenity): Peaceful feelings harm those attempting violence.
-- [**Shadow Walk**](spells/shadowWalk.md#_shadow-walk): Step into shadow to travel rapidly.
-- [**Sirocco**](advanced/spells/sirocco.md#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
-- [**Stone to Flesh**](spells/stoneToFlesh.md#_stone-to-flesh): Restores [petrified](glossary.md#_petrified) creature.
-- [**Suggestion, Mass**](spells/suggestion.md#_suggestion-mass): As _ [suggestion](spells/suggestion.md#_suggestion), _affects 1 subject/level.
-- [**Summon Monster VI**](spells/summonMonster.md#_summon-monster-vi): Summons extraplanar creature to fight for you.
-- [**Symbol of Fear**](spells/symbolOfPain.md#_symbol-of-pain)M: Triggered rune panics nearby creatures.
-- [**Symbol of Persuasion**](spells/symbolOfPersuasion.md#_symbol-of-persuasion)M: Triggered rune charms creatures.
-- [**Symbol of Sealing**](ultimateMagic/spells/symbolOfSealing.md#_symbol-of-sealing): Create triggered _ [wall of force](/spells/wallOfForce.md#_wall-of-force)_.
-- [**Tar Pool**](ultimateCombat/spells/tarPool.md#_tar-pool): Converts the top layer of the ground into hot tar.
-- [**Transformation**](spells/transformation.md#_transformation)M: You gain combat bonuses.
-- [**True Seeing**](spells/trueSeeing.md#_true-seeing)M: Lets you see all things as they really are.
-- [**Undead Anatomy III**](ultimateMagic/spells/undeadAnatomy.md#_undead-anatomy-iii): Take the form and some of the powers of a Diminutive or Huge undead.
-- [**Undeath to Death**](spells/undeathToDeath.md#_undeath-to-death)M: Destroys 1d4/level HD of undead (max. 20d4).
-- [**Unwilling Shield**](advanced/spells/unwillingShield.md#_unwilling-shield)M: Subject shares wounds you receive.
-- [**Utter Contempt**](ultimateMagic/spells/utterContempt.md#_utter-contempt): Target's attitude worsens by two categories.
-- [**Veil**](spells/veil.md#_veil): Changes appearance of a group of creatures.
-- [**Vengeful Outrage**](ultimateMagic/spells/vengefulOutrage.md#_vengeful-outrage): Target is compelled to destroy one enemy.
-- [**Wall of Iron**](spells/wallOfIron.md#_wall-of-iron)M: 30 hp/four levels; can topple onto foes.
-
-- [**Arcane Cannon**](ultimateCombat/spells/arcaneCannon.md#_arcane-cannon)F: Your focus becomes a magical cannon that fires on its own.
-- [**Age Resistance, Greater**](ultimateMagic/spells/ageResistance.md#_age-resistance,-greater): Ignore penalties from venerable age.
-- [**Arcane Sight, Greater**](spells/arcaneSight.md#_arcane-sight-greater): As _ [arcane sight](spells/arcaneSight.md#_arcane-sight)_, but also reveals magic effects on creatures and objects.
-- [**Banishment**](spells/banishment.md#_banishment): Banishes 2 HD/level of extraplanar creatures.
-- [**Caustic Eruption**](ultimateMagic/spells/causticEruption.md#_caustic-eruption): Burst deals 1d6 acid/level and lingers.
-- [**Circle of Clarity**](ultimateMagic/spells/circleOfClarity.md#_circle-of-clarity): Emanation hampers illusions and stealth.
-- [**Control Construct**](ultimateMagic/spells/controlConstruct.md#_control-construct): Take control of a construct.
-- [**Control Undead**](spells/controlUndead.md#_control-undead): Undead don't attack you while under your command.
-- [**Control Weather**](spells/controlWeather.md#_control-weather): Changes weather in local area.
-- [**Create Demiplane, Lesser**](ultimateMagic/spells/createDemiplane.md#_create-demiplane,-lesser): Create your own demiplane.
-- [**Deflection**](advanced/spells/deflection.md#_deflection-): Attacks that miss are redirected back to the source of the attack.
-- [**Delayed Blast Fireball**](spells/delayedBlastFireball.md#_delayed-blast-fireball): 1d6/level fire damage; you can postpone blast for up to 5 rounds.
-- [**Elemental Body IV**](spells/elementalBody.md#_elemental-body-iv): Turns you into a Huge elemental.
-- [**Epidemic**](ultimateMagic/spells/epidemic.md#_epidemic): Infect a subject with a highly contagious disease.
-- [**Ethereal Jaunt**](spells/etherealJaunt.md#_ethereal-jaunt): You become ethereal for 1 round/level.
-- [**Expend**](advanced/spells/expend.md#_expend-): Wastes creatures' limited use magical ability.
-- [**Finger of Death**](spells/fingerOfDeath.md#_finger-of-death): Deals 10 damage/level to one subject.
-- [**Firebrand**](advanced/spells/firebrand.md#_firebrand): Allies gain _ [flaming](magicItems/weapons.md#_weapons-flaming)_ weapons, immunity to your fire spells, and a one-use ray of fire attack.
-- [**Fly, Mass**](advanced/spells/fly.md#_fly,-mass): One creature/level gains ability to fly.
-- [**Forcecage**](spells/forcecage.md#_forcecage)M: Cube or cage of force imprisons all inside.
-- [**Form of the Dragon II**](spells/formOfTheDragon.md#_form-of-the-dragon-ii): Turns you into a Large dragon.
-- [**Giant Form I**](spells/giantForm.md#_giant-form-i): Turns you into a Large giant.
-- [**Grasping Hand**](spells/graspingHand.md#_grasping-hand): Hand provides cover, pushes, or grapples.
-- [**Hold Person, Mass**](spells/holdPerson.md#_hold-person-mass): As _ [hold person](spells/holdPerson.md#_hold-person)_, but all within 30 ft.
-- [**Hostile Juxtaposition, Greater**](ultimateCombat/spells/hostileJuxtaposition.md#_hostile-juxtaposition,-greater): You may target one creature for every four of your caster levels.
-- [**Ice Body**](ultimateMagic/spells/iceBody.md#_ice-body): Your body becomes living ice.
-- [**Insanity**](spells/insanity.md#_insanity): Subject suffers continuous _ [confusion](spells/confusion.md#_confusion)_.
-- [**Instant Summons**](spells/instantSummons.md#_instant-summons)M: Prepared object appears in your hand.
-- [**Invisibility, Mass**](spells/invisibility.md#_invisibility-mass): As _ [invisibility](spells/invisibility.md#_invisibility)_, but affects all in range.
-- [**Joyful Rapture**](ultimateMagic/spells/joyfulRapture.md#_joyful-rapture): Negate harmful emotions.
-- [**Ki Shout**](ultimateMagic/spells/kiShout.md#_ki-shout): Target takes 1d6 sonic/level and is stunned.
-- [**Limited Wish**](spells/limitedWish.md#_limited-wish)M: Alters reality (within limits).
-- [**Lunar Veil**](ultimateMagic/spells/lunarVeil.md#_lunar-veil): Dispel light and revert lycanthropes.
-- [**Mage's Magnificent Mansion**](spells/mageSMagnificentMansion.md#_mage-s-magnificent-mansion)F: Door leads to extradimensional mansion.
-- [**Mage's Sword**](spells/mageSSword.md#_mage-s-sword)F: Floating magic blade strikes opponents.
-- [**Phantasmal Revenge**](advanced/spells/phantasmalRevenge.md#_phantasmal-revenge): Ghost from corpse hunts killer.
-- [**Phase Door**](spells/phaseDoor.md#_phase-door): Creates an [invisible](glossary.md#_invisible) passage through a barrier.
-- [**Plague Storm**](ultimateMagic/spells/plagueStorm.md#_plague-storm): Cloud infects creatures like _ [contagion](/spells/contagion.md#_contagion)_.
-- [**Planar Adaptation, Mass**](advanced/spells/planarAdaptation.md#_planar-adaptation,-mass): As _ [planar adaptation](advanced/spells/planarAdaptation.md#_planar-adaptation)_, but affects multiple creatures.
-- [**Plane Shift**](spells/planeShift.md#_plane-shift)F: As many as eight subjects travel to another plane.
-- [**Plant Shape III**](spells/plantShape.md#_plant-shape-iii): Turns you into a Huge plant.
-- [**Polymorph, Greater**](spells/polymorph.md#_polymorph-greater): Gives one willing subject a new, more powerful form.
-- [**Power Word Blind**](spells/powerWordBlind.md#_power-word-blind): Blinds creature with 200 hp or less.
-- [**Prismatic Spray**](spells/prismaticSpray.md#_prismatic-spray): Rays hit subjects with variety of effects.
-- [**Project Image**](spells/projectImage.md#_project-image): Illusory double can talk and cast spells.
-- [**Rampart**](advanced/spells/rampart.md#_rampart): Creates 5-ft.-thick earthen barrier.
-- [**Resonating Word**](ultimateMagic/spells/resonatingWord.md#_resonating-word): Target is damaged, staggered, and stunned.
-- [**Reverse Gravity**](spells/reverseGravity.md#_reverse-gravity): Objects and creatures fall upward.
-- [**Scouring Winds**](ultimateMagic/spells/scouringWinds.md#_scouring-winds): Winds block vision and deal 3d6 damage per round.
-- [**Scrying, Greater**](spells/scrying.md#_scrying-greater): As _ [scrying](spells/scrying.md#_scrying)_, but faster and longer.
-- [**Sequester**](spells/sequester.md#_sequester): Subject is [invisible](glossary.md#_invisible) to sight and [scrying](spells/scrying.md#_scrying); renders creature comatose.
-- [**Shadow Conjuration, Greater**](spells/shadowConjuration.md#_shadow-conjuration-greater): As _ [shadow conjuration](spells/shadowConjuration.md#_shadow-conjuration), _but up to 6th level and 60% real.
-- [**Simulacrum**](spells/simulacrum.md#_simulacrum)M: Creates partially real double of a creature.
-- [**Spell Turning**](spells/spellTurning.md#_spell-turning)M: Reflect 1d4+6 spell levels back at caster.
-- [**Statue**](spells/statue.md#_statue): Subject can become a statue at will.
-- [**Summon Monster VII**](spells/summonMonster.md#_summon-monster-vii): Summons extraplanar creature to fight for you.
-- [**Symbol of Stunning**](spells/symbolOfStunning.md#_symbol-of-stunning)M: Triggered rune stuns creatures.
-- [**Symbol of Weakness**](spells/symbolOfWeakness.md#_symbol-of-weakness)M: Triggered rune weakens creatures.
-- [**Teleport Object**](spells/teleportObject.md#_teleport-object): As _ [teleport](spells/teleport.md#_teleport), _but affects a touched object.
-- [**Teleport, Greater**](spells/teleport.md#_teleport-greater): As _ [teleport](spells/teleport.md#_teleport), _but no range limit and no off-target arrival.
-- [**Temporary Resurrection**](ultimateMagic/spells/temporaryResurrection.md#_temporary-resurrection): Bring a creature to life for 24 hours, after which it dies again.
-- [**Vision**](spells/vision.md#_vision)M: As _ [legend lore](spells/legendLore.md#_legend-lore)_, but quicker.
-- [**Vortex**](advanced/spells/vortex.md#_vortex): Creates a whirlpool in water.
-- [**Walk through Space**](ultimateCombat/spells/walkThroughSpace.md#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
-- [**Waves of Ecstasy**](ultimateMagic/spells/wavesOfEcstasy.md#_waves-of-ecstasy): Pleasure stuns and staggers creatures.
-- [**Waves of Exhaustion**](spells/wavesOfExhaustion.md#_waves-of-exhaustion): Several targets become [exhausted](glossary.md#_exhausted).
-
-- [**Antipathy**](spells/antipathy.md#_antipathy): Object or location affected by spell repels certain creatures.
-- [**Binding**](spells/binding.md#_binding)M: Utilizes an array of techniques to imprison a creature.
-- [**Call Construct**](ultimateMagic/spells/callConstruct.md#_call-construct): Summon your construct to you.
-- [**Charm Monster, Mass**](spells/charmMonster.md#_charm-monster-mass): As _ [charm monster](spells/charmMonster.md#_charm-monster), _but all within 30 ft.
-- [**Clenched Fist**](spells/clenchedFist.md#_clenched-fist): Large hand provides cover, pushes, or attacks your foes.
-- [**Clone**](spells/clone.md#_clone)MF: Duplicate awakens when original dies.
-- [**Create Demiplane**](ultimateMagic/spells/createDemiplane.md#_create-demiplane): As _ [lesser create demiplane](ultimateMagic/spells/createDemiplane.md#_create-demiplane,-lesser)_, but larger and with planar traits.
-- [**Create Greater Undead**](spells/createGreaterUndead.md#_create-greater-undead)M: Creates shadows, wraiths, spectres, or devourers.
-- [**Demand**](spells/demand.md#_demand): As _ [sending](spells/sending.md#_sending), _plus you can send _ [suggestion](spells/suggestion.md#_suggestion)._
-- [**Dimensional Lock**](spells/dimensionalLock.md#_dimensional-lock): Teleportation and interplanar travel blocked for 1 day/level.
-- [**Discern Location**](spells/discernLocation.md#_discern-location): Reveals exact location of creature or object.
-- [**Euphoric Tranquility**](advanced/spells/euphoricTranquility.md#_euphoric-tranquility): Makes a creature friendly.
-- [**Form of the Dragon III**](spells/formOfTheDragon.md#_form-of-the-dragon-iii): Turns you into a Huge dragon.
-- [**Frightful Aspect**](ultimateCombat/spells/frightfulAspect.md#_frightful-aspect): You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.
-- [**Giant Form II**](spells/giantForm.md#_giant-form-ii): Turns you into a Huge giant.
-- [**Horrid Wilting**](spells/horridWilting.md#_horrid-wilting): Deals 1d6/level damage within 30 ft.
-- [**Incendiary Cloud**](spells/incendiaryCloud.md#_incendiary-cloud): Cloud deals 6d6 fire damage/round.
-- [**Iron Body**](spells/ironBody.md#_iron-body): Your body becomes living iron.
-- [**Irresistible Dance**](spells/irresistibleDance.md#_irresistible-dance): Forces subject to dance.
-- [**Maze**](spells/maze.md#_maze): Traps subject in extradimensional maze.
-- [**Mind Blank**](spells/mindBlank.md#_mind-blank): Subject is protected from mental/emotional magic and [scrying](spells/scrying.md#_scrying).
-- [**Moment of Prescience**](spells/momentOfPrescience.md#_moment-of-prescience): You gain +1/level insight bonus on single attack roll, check, or save.
-- [**Orb of the Void**](ultimateMagic/spells/orbOfTheVoid.md#_orb-of-the-void): Sphere inflicts negative levels.
-- [**Planar Binding, Greater**](spells/planarBinding.md#_planar-binding-greater): As _ [lesser planar binding](spells/planarBinding.md#_planar-binding-lesser), _but up to 18 HD.
-- [**Polar Ray**](spells/polarRay.md#_polar-ray): Ranged touch attack deals 1d6/level cold damage and 1d4 points of [Dexterity](gettingStarted.md#_dexterity) drain.
-- [**Polymorph Any Object**](spells/polymorphAnyObject.md#_polymorph-any-object): Changes a subject into anything else.
-- [**Power Word Stun**](spells/powerWordStun.md#_power-word-stun): Stuns creature with 150 hp or less.
-- [**Prediction of Failure**](ultimateMagic/spells/predictionOfFailure.md#_prediction-of-failure): Target is permanently shaken and sickened, and may gain a spellblight.
-- [**Prismatic Wall**](spells/prismaticWall.md#_prismatic-wall): Wall's colors have array of effects.
-- [**Protection from Spells**](spells/protectionFromSpells.md#_protection-from-spells)MF: Confers +8 resistance bonus.
-- [**Prying Eyes, Greater**](spells/pryingEyes.md#_prying-eyes-greater): As _ [prying eyes](spells/pryingEyes.md#_prying-eyes)_, but eyes have _ [true seeing](spells/trueSeeing.md#_true-seeing)_.
-- [**Scintillating Pattern**](spells/scintillatingPattern.md#_scintillating-pattern): Twisting colors _confuse, _stun, or render [unconscious](glossary.md#_unconscious).
-- [**Screen**](spells/screen.md#_screen): Illusion hides area from vision and [scrying](spells/scrying.md#_scrying).
-- [**Seamantle**](advanced/spells/seamantle.md#_seamantle): Sheathes you in protective water.
-- [**Shadow Evocation, Greater**](spells/shadowEvocation.md#_shadow-evocation-greater): As _ [shadow evocation](spells/shadowEvocation.md#_shadow-evocation), _but up to 7th level and 60% real.
-- [**Shout, Greater**](spells/shout.md#_shout-greater): Devastating yell deals 10d6 sonic damage; stuns creatures.
-- [**Stormbolts**](advanced/spells/stormbolts.md#_stormbolts): 1d8 damage/level (max 20d8) to targets.
-- [**Summon Monster VIII**](spells/summonMonster.md#_summon-monster-viii): Summons extraplanar creature to fight for you.
-- [**Sunburst**](spells/sunburst.md#_sunburst): Blinds all within 10 ft., deals 6d6 damage.
-- [**Symbol of Death**](spells/symbolOfDeath.md#_symbol-of-death)M: Triggered rune kills nearby creatures.
-- [**Symbol of Insanity**](spells/symbolOfInsanity.md#_symbol-of-insanity)M: Triggered rune renders nearby creatures insane.
-- [**Sympathy**](spells/sympathy.md#_sympathy)M: Object or location attracts certain creatures.
-- [**Telekinetic Sphere**](spells/telekineticSphere.md#_telekinetic-sphere): As_ [resilient sphere](spells/resilientSphere.md#_resilient-sphere), _but you move the sphere telekinetically.
-- [**Temporal Stasis**](spells/temporalStasis.md#_temporal-stasis)M: Puts subject into suspended animation.
-- [**Trap the Soul**](spells/trapTheSoul.md#_trap-the-soul)M: Imprisons subject within gem.
-- [**Undead Anatomy IV**](ultimateMagic/spells/undeadAnatomy.md#_undead-anatomy-iv): As _ [undead anatomy III](ultimateMagic/spells/undeadAnatomy.md#_undead-anatomy-iii)_, but with more abilities.
-- [**Wall of Lava**](advanced/spells/wallOfLava.md#_wall-of-lava): Wall damages foes that try to enter, periodically launches lava at nearby targets.
-
-- [**Astral Projection**](spells/astralProjection.md#_astral-projection)M: Projects you and companions onto Astral Plane.
-- [**Clashing Rocks**](advanced/spells/clashingRocks.md#_clashing-rocks): 20d6 damage to target creature.
-- [**Create Demiplane, Greater**](ultimateMagic/spells/createDemiplane.md#_create-demiplane,-greater): As _ [create demiplane](ultimateMagic/spells/createDemiplane.md#_create-demiplane)_, but larger and with more planar traits.
-- [**Crushing Hand**](spells/crushingHand.md#_crushing-hand): Large hand provides cover, pushes, or crushes your foes.
-- [**Cursed Earth**](ultimateMagic/spells/cursedEarth.md#_cursed-earth): Plants die, living creatures catch diseases, or dead creatures rise as zombies.
-- [**Dominate Monster**](spells/dominateMonster.md#_dominate-monster): As _ [dominate person](spells/dominatePerson.md#_dominate-person), _but any creature.
-- [**Energy Drain**](spells/energyDrain.md#_energy-drain): Subject gains 2d4 [negative levels](glossary.md#_energy-drain-and-negative-levels).
-- [**Etherealness**](spells/etherealness.md#_etherealness): Travel to Ethereal Plane with companions.
-- [**Fiery Body**](advanced/spells/fieryBody.md#_fiery-body): You gain various fire-related powers.
-- [**Foresight**](spells/foresight.md#_foresight): “Sixth sense” warns of impending danger.
-- [**Freedom**](spells/freedom.md#_freedom): Releases creature from _ [imprisonment](spells/imprisonment.md#_imprisonment)._
-- [**Gate**](spells/gate.md#_gate)M: Connects two planes for travel or summoning.
-- [**Heroic Invocation**](ultimateCombat/spells/heroicInvocation.md#_heroic-invocation): Grants a number of creatures bonuses on attacks and damage, temporary hit points, and immunity to fear and charm effects.
-- [**Hold Monster, Mass**](spells/holdMonster.md#_hold-monster-mass): As _ [hold monster](spells/holdMonster.md#_hold-monster), _but all within 30 ft.
-- [**Icy Prison, Mass**](ultimateMagic/spells/icyPrison.md#_icy-prison,-mass): As _ [icy prison](ultimateMagic/spells/icyPrison.md#_icy-prison)_, but it affects 1 creature/level.
-- [**Imprisonment**](spells/imprisonment.md#_imprisonment): Entombs subject beneath the earth.
-- [**Interplanetary Teleport**](ultimateMagic/spells/interplanetaryTeleport.md#_interplanetary-teleport): Teleport to another planet.
-- [**Mage's Disjunction**](spells/mageSDisjunction.md#_mage-s-disjunction): Dispels magic, disenchants magic items.
-- [**Meteor Swarm**](spells/meteorSwarm.md#_meteor-swarm): Four exploding spheres each deal 6d6 fire damage.
-- [**Mind Blank, Communal**](ultimateCombat/spells/mindBlank.md#_mind-blank,-communal): As _ [mind blank](spells/mindBlank.md#_mind-blank)_, but you may divide the duration among creatures touched.
-- [**Overwhelming Presence**](ultimateMagic/spells/overwhelmingPresence.md#_overwhelming-presence): Creatures bow before you as if you were divine.
-- [**Power Word Kill**](spells/powerWordKill.md#_power-word-kill): Kills one creature with 100 hp or less.
-- [**Prismatic Sphere**](spells/prismaticSphere.md#_prismatic-sphere): As _ [prismatic wall](spells/prismaticWall.md#_prismatic-wall)_, but surrounds on all sides.
-- [**Refuge**](spells/refuge.md#_refuge)M: Alters item to transport its possessor to your abode.
-- [**Ride the Lightning**](ultimateMagic/spells/rideTheLightning.md#_ride-the-lightning): Transform into electricity.
-- [**Shades**](spells/shades.md#_shades): As _ [shadow conjuration](spells/shadowConjuration.md#_shadow-conjuration)_, but up to 8th level and 80% real.
-- [**Shapechange**](spells/shapechange.md#_shapechange)F: Transforms you into certain creatures, and lets you change forms once per round.
-- [**Soul Bind**](spells/soulBind.md#_soul-bind)F: Traps newly dead soul to prevent _ [resurrection](spells/resurrection.md#_resurrection)_.
-- [**Suffocation, Mass**](advanced/spells/suffocation.md#_suffocation,-mass): One creature/level suffocates to death.
-- [**Summon Monster IX**](spells/summonMonster.md#_summon-monster-ix): Summons extraplanar creature to fight for you.
-- [**Symbol of Strife**](ultimateMagic/spells/symbolOfStrife.md#_symbol-of-strife): Triggered rune makes creatures attack.
-- [**Symbol of Vulnerability**](ultimateMagic/spells/symbolOfVulnerability.md#_symbol-of-vulnerability): Triggered rune gives penalties.
-- [**Teleportation Circle**](spells/teleportationCircle.md#_teleportation-circle)M: Teleports creatures inside circle.
-- [**Time Stop**](spells/timeStop.md#_time-stop): You act freely for 1d4+1 rounds.
-- [**Transmute Blood to Acid**](ultimateMagic/spells/transmuteBloodToAcid.md#_transmute-blood-to-acid): Target takes acid damage each round, and its attackers take acid damage.
-- [**Tsunami**](advanced/spells/tsunami.md#_tsunami): Huge wave damages and sweeps up all in its path.
-- [**Wail of the Banshee**](spells/wailOfTheBanshee.md#_wail-of-the-banshee): Deals 10 damage/level to 1 creature/level.
-- [**Wall of Suppression**](advanced/spells/wallOfSuppression.md#_wall-of-suppression-)M: Creates wall that disables magic. 
-- [**Weird**](spells/weird.md#_weird): As _ [phantasmal killer](spells/phantasmalKiller.md#_phantasmal-killer), _but affects all within 30 ft.
-- [**Winds of Vengeance**](advanced/spells/windsOfVengeance.md#_winds-of-vengeance): Gives you the ability to fly and attack with wind.
-- [**Wish**](spells/wish.md#_wish)M: As _ [limited wish](spells/limitedWish.md#_limited-wish), _but with fewer limits.
-- [**Wooden Phalanx**](ultimateMagic/spells/woodenPhalanx.md#_wooden-phalanx): Creates 1d4+2 temporary wood golems to fight for you.
-- [**World Wave**](advanced/spells/worldWave.md#_world-wave-): Earth moves you across distances.
-
-- [**Acid Splash**](spells/acidSplash.md#_acid-splash): Orb deals 1d3 acid damage.
-- [**Arcane Mark**](spells/arcaneMark.md#_arcane-mark): Inscribes a personal rune on an object or creature (visible or invisible).
-- [**Daze**](spells/daze.md#_daze): A single humanoid creature with 4 HD or less loses its next action.
-- [**Detect Magic**](spells/detectMagic.md#_detect-magic): Detects all spells and magic items within 60 ft.
-- [**Guidance**](spells/guidance.md#_guidance): +1 on one attack roll, saving throw, or skill check.
-- [**Light**](spells/light.md#_light): Object shines like a torch.
-- [**Mage Hand**](spells/mageHand.md#_mage-hand): 5-pound telekinesis.
-- [**Mending**](spells/mending.md#_mending): Makes minor repairs on an object.
-- [**Message**](spells/message.md#_message): Whisper conversation at distance.
-- [**Open/Close**](spells/openClose.md#_open-close): Opens or closes small or light things.
-- [**Read Magic**](spells/readMagic.md#_read-magic): Read scrolls and spellbooks.
-- [**Resistance**](spells/resistance.md#_resistance): Subject gains +1 on saving throws.
-
-- [**Alarm**](spells/alarm.md#_alarm): Wards an area for 2 hours/level.
-- [**Ant Haul**](advanced/spells/antHaul.md#_ant-haul-): Triples carrying capacity of a creature.
-- [**Compel Hostility**](ultimateCombat/spells/compelHostility.md#_compel-hostility): Compels opponents to attack you instead of your allies.
-- [**Corrosive Touch**](ultimateMagic/spells/corrosiveTouch.md#_corrosive-touch): Touch attack deals 1d4 acid/level.
-- [**Daze Monster**](spells/dazeMonster.md#_daze-monster): Living creature of 6 HD or less loses its next action.
-- [**Endure Elements**](spells/endureElements.md#_endure-elements): Exist comfortably in hot or cold regions.
-- [**Enlarge Person**](spells/enlargePerson.md#_enlarge-person): Humanoid creature doubles in size.
-- [**Expeditious Retreat**](spells/expeditiousRetreat.md#_expeditious-retreat): Your base speed increases by 30 ft.
-- [**Feather Fall**](spells/featherFall.md#_feather-fall): Objects or creatures fall slowly.
-- [**Grease**](spells/grease.md#_grease): Makes 10-ft. square or one object slippery.
-- [**Icicle Dagger**](ultimateMagic/spells/icicleDagger.md#_icicle-dagger): Masterwork ice dagger deals +1 cold damage.
-- [**Identify**](spells/identify.md#_identify): Gives +10 bonus to identify magic items.
-- [**Jump**](spells/jump.md#_jump): Subject gets bonus on Acrobatics checks.
-- [**Jury-Rig**](ultimateCombat/spells/juryRig.md#_jury-rig): Removes the broken condition from the targeted object.
-- [**Life Conduit**](ultimateCombat/spells/lifeConduit.md#_life-conduit): You are bound even tighter to your eidolon than normal, and may share hit points with it through your life link ability.
-- [**Mage Armor**](spells/mageArmor.md#_mage-armor): Gives subject +4 armor bonus.
-- [**Magic Fang**](spells/magicFang.md#_magic-fang): One natural weapon of subject creature gets +1 on attack and damage rolls.
-- [**Magic Mouth**](spells/magicMouth.md#_magic-mouth)M: Object speaks once when triggered.
-- [**Mount**](spells/mount.md#_mount): Summons riding horse for 2 hours/level.
-- [**Protection from Chaos**](spells/protectionFromChaos.md#_protection-from-chaos): +2 to [AC](combat.md#_armor-class) and saves, plus additional protection against selected alignment.
-- [**Ray of Sickening**](ultimateMagic/spells/rayOfSickening.md#_ray-of-sickening): Ray makes the subject sickened.
-- [**Reduce Person**](spells/reducePerson.md#_reduce-person): Humanoid creature halves in size.
-- [**Rejuvenate Eidolon, Lesser**](advanced/spells/rejuvenateEidolon.md#_rejuvenate-eidolon,-lesser): Eidolon cured 1d10 damage +1/level (max +5).
-- [**Shield**](spells/shield.md#_shield): Invisible disc gives +4 to [AC](combat.md#_armor-class), blocks _ [magic missile](spells/magicMissile.md#_magic-missile)s._
-- [**Stone Shield**](advancedRaceGuide/featuredRaces/oreads.md#_stone-shield): 1-inch-thick slab of stone springs up from the ground, shielding you.
-- [**Summon Minor Monster**](ultimateMagic/spells/summonMinorMonster.md#_summon-minor-monster): Summon 1d3 Tiny animals.
-- [**Summon Monster I**](spells/summonMonster.md#_summon-monster-i): _(Evil creatures only.) _Summons extraplanar creature to fight for you.
-- [**Unfetter**](advanced/spells/unfetter.md#_unfetter): Remove distance restriction on eidolon.
-- [**Unseen Servant**](spells/unseenServant.md#_unseen-servant): Invisible force obeys your commands.
-- [**Ventriloquism**](spells/ventriloquism.md#_ventriloquism): Throws voice for 1 min./level.
-
-- [**Ablative Barrier**](ultimateCombat/spells/ablativeBarrier.md#_ablative-barrier): Surrounds the target with layers of force.
-- [**Alter Self**](spells/alterSelf.md#_alter-self): Assume form of a Small or Medium humanoid.
-- [**Ant Haul, Communal**](ultimateCombat/spells/antHaul.md#_ant-haul,-communal): As _ [ant haul](advanced/spells/antHaul.md#_ant-haul-)_, but you may divide the duration among creatures touched.
-- [**Barkskin**](spells/barkskin.md#_barkskin): Grants +2 (or higher) enhancement to natural armor.
-- [**Bear's Endurance**](spells/bearSEndurance.md#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted.md#_constitution) for 1 min./level.
-- [**Blur**](spells/blur.md#_blur): Attacks miss subject 20% of the time.
-- [**Bull's Strength**](spells/bullSStrength.md#_bull-s-strength): Subject gains +4 to Str for 1 min./level.
-- [**Cat's Grace**](spells/catSGrace.md#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted.md#_dexterity) for 1 min./level.
-- [**Create Pit**](advanced/spells/createPit.md#_create-pit-)F: Creates an extradimensional pit.
-- [**Cushioning Bands**](ultimateMagic/spells/cushioningBands.md#_cushioning-bands): Force bands protect against crushing.
-- [**Detect Thoughts**](spells/detectThoughts.md#_detect-thoughts): Allows “listening” to surface thoughts.
-- [**Eagle's Splendor**](spells/eagleSSplendor.md#_eagle-s-splendor): Subject gains +4 to Cha for 1 min./level.
-- [**Evolution Surge, Lesser**](advanced/spells/evolutionSurge.md#_evolution-surge,-lesser): Grants eidolon an evolution with 2 evolution points.
-- [**Fox's Cunning**](spells/foxSCunning.md#_fox-s-cunning): Subject gains +4 to [Int](gettingStarted.md#_intelligence) for 1 min./level.
-- [**Ghost Wolf**](advancedRaceGuide/coreRaces/halfOrcs.md#_ghost-wolf): Conjures a Large, quasi-real, wolflike creature made of roiling black smoke.
-- [**Glide**](advanced/spells/glide.md#_glide-): You take no falling damage and move 60 ft./round while falling.
-- [**Glitterdust**](spells/glitterdust.md#_glitterdust): Blinds targets, outlines invisible things.
-- [**Haste**](spells/haste.md#_haste): One creature/level moves faster, +1 on attack rolls, [AC](combat.md#_armor-class), and [Reflex](combat.md#_reflex) saves.
-- [**Invisibility**](spells/invisibility.md#_invisibility): Subject is invisible for 1 min./level or until it attacks.
-- [**Levitate**](spells/levitate.md#_levitate): Subject moves up and down at your direction.
-- [**Misdirection**](spells/misdirection.md#_misdirection): Misleads divinations for 1 creature or object.
-- [**Mount, Communal**](ultimateCombat/spells/mount.md#_mount,-communal): As _ [mount](spells/mount.md#_mount)_, but you may divide the duration among creatures touched. 
-- [**Owl's Wisdom**](spells/owlSWisdom.md#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted.md#_wisdom) for 1 min./level.
-- [**Phantom Steed**](spells/phantomSteed.md#_phantom-steed): Magic horse appears for 1 hour/level.
-- [**Protection from Arrows**](spells/protectionFromArrows.md#_protection-from-arrows): Subject gains [DR](glossary.md#_damage-reduction) 10/magic against ranged attacks.
-- [**Protection from Chaos, Communal**](ultimateCombat/spells/protectionFromChaos.md#_protection-from-chaos,-communal): As _ [protection from chaos](spells/protectionFromChaos.md#_protection-from-chaos)_, but you may divide the duration among creatures touched.
-- [**Protection from Evil, Communal**](ultimateCombat/spells/protectionFromEvil.md#_protection-from-evil,-communal): As _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_, but you may divide the duration among creatures touched.
-- [**Protection from Good, Communal**](ultimateCombat/spells/protectionFromGood.md#_protection-from-good,-communal): As _ [protection from good](spells/protectionFromGood.md#_protection-from-good)_, but you may divide the duration among creatures touched.
-- [**Protection from Law, Communal**](ultimateCombat/spells/protectionFromLaw.md#_protection-from-law,-communal): As _ [protection from law](spells/protectionFromLaw.md#_protection-from-law)_, but you may divide the duration among creatures touched.
-- [**Resist Energy**](spells/resistEnergy.md#_resist-energy): Ignores first 10 (or more) points of damage per attack from specified energy type.
-- [**Restore Eidolon, Lesser**](ultimateMagic/spells/restoreEidolon.md#_restore-eidolon,-lesser): _ [Lesser restoration](/spells/restoration.md#_restoration-lesser)_ for an eidolon.
-- [**See Invisibility**](spells/seeInvisibility.md#_see-invisibility): Reveals [invisible](glossary.md#_invisible) creatures or objects.
-- [**Slow**](spells/slow.md#_slow): One subject/level takes only one action/round, –1 to [AC](combat.md#_armor-class), [Reflex](combat.md#_reflex) saves, and attack rolls.
-- [**Spider Climb**](spells/spiderClimb.md#_spider-climb): Grants ability to walk on walls and ceilings.
-- [**Summon Eidolon**](advanced/spells/summonEidolon.md#_summon-eidolon): Instantly summons your eidolon for duration of spell.
-- [**Summon Monster II**](spells/summonMonster.md#_summon-monster-ii): Summons elemental creature.
-- [**Summon Swarm**](spells/summonSwarm.md#_summon-swarm): Summons swarm of bats, rats, or spiders.
-- [**Twisted Space**](ultimateCombat/spells/twistedSpace.md#_twisted-space): Targeted creature's attacks target a random square instead of the intended target.
-- [**Warding Weapon**](ultimateCombat/spells/wardingWeapon.md#_warding-weapon)F: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
-- [**Web Shelter**](ultimateMagic/spells/webShelter.md#_web-shelter): Create a comfortable shelter made of webbing.
-- [**Wind Wall**](spells/windWall.md#_wind-wall): Deflects arrows, smaller creatures, gasses.
-
-- [**Agonize**](ultimateMagic/spells/agonize.md#_agonize-): Pain encourages an outsider to obey you.
-- [**Aqueous Orb**](advanced/spells/aqueousOrb.md#_aqueous-orb): Creates rolling sphere of water.
-- [**Black Tentacles**](spells/blackTentacles.md#_black-tentacles): Tentacles grapple all creatures within a 20-ft. spread.
-- [**Charm Monster**](spells/charmMonster.md#_charm-monster): Makes monster believe it is your ally.
-- [**Control Summoned Creature**](ultimateMagic/spells/controlSummonedCreature.md#_control-summoned-creature): Direct a summoned monster as if you had summoned it.
-- [**Devolution**](advanced/spells/devolution.md#_devolution): An eidolon temporarily loses 1 evolution +1/five levels.
-- [**Dimension Door**](spells/dimensionDoor.md#_dimension-door): Teleports you a short distance.
-- [**Dimensional Anchor**](spells/dimensionalAnchor.md#_dimensional-anchor): Bars extradimensional movement.
-- [**Dispel Magic**](spells/dispelMagic.md#_dispel-magic): Cancels one magical spell or effect.
-- [**Displacement**](spells/displacement.md#_displacement): Attacks miss subject 50% of the time.
-- [**Enlarge Person, Mass**](spells/enlargePerson.md#_enlarge-person-mass): 1 humanoid creature/level doubles in size.
-- [**Evolution Surge**](advanced/spells/evolutionSurge.md#_evolution-surge): Grants eidolon an evolution with 4 evolution points.
-- [**Fire Shield**](spells/fireShield.md#_fire-shield): Creatures attacking you take fire damage; you're protected from heat or cold.
-- [**Fly**](spells/fly.md): Subject flies at a speed of 60 ft.
-- [**Heroism**](spells/heroism.md#_heroism): Gives +2 bonus on attack rolls, saves, skill checks.
-- [**Invisibility, Greater**](spells/invisibility.md#_invisibility-greater): As _ [invisibility](../spells/invisibility.md#_invisibility)_, but subject can attack and stay invisible.
-- [**Life Conduit, Improved**](ultimateCombat/spells/lifeConduit.md#_life-conduit,-improved): Transfers 2d6 hit points to your eidolon as a swift action.
-- [**Locate Creature**](spells/locateCreature.md#_locate-creature): Indicates direction to familiar creature.
-- [**Mad Monkeys**](ultimateMagic/spells/madMonkeys.md#_mad-monkeys): Summon a swarm of mischievous monkeys.
-- [**Magic Circle against Chaos/Evil/Good/Law**](spells/magicCircleAgainstChaos.md#_magic-circle-against-chaos): As _protection _spells, but 10-ft. radius and 10 min./level.
-- [**Magic Fang, Greater**](spells/magicFang.md#_magic-fang-greater): One natural weapon gets + 1/four levels (max. +5).
-- [**Marionette Possession**](ultimateMagic/spells/marionettePossession.md#_marionette-possession): As magic jar, but limited to line of sight.
-- [**Minor Creation**](spells/minorCreation.md#_minor-creation): Creates one cloth or wood object.
-- [**Nondetection**](spells/nondetection.md#_nondetection)M: Hides subject from divination, [scrying](spells/scrying.md#_scrying).
-- [**Obsidian Flow**](ultimateCombat/spells/obsidianFlow.md#_obsidian-flow): Converts the surface of the ground into molten glass.
-- [**Pellet Blast**](ultimateCombat/spells/pelletBlast.md#_pellet-blast)M: Creates an explosion of conjured metal pellets. 
-- [**Phantom Chariot**](ultimateCombat/spells/phantomChariot.md#_phantom-chariot): Conjures a quasi-real heavy chariot pulled by four horses.
-- [**Phantom Steed, Communal**](ultimateCombat/spells/phantomSteed.md#_phantom-steed,-communal): As _ [phantom steed](spells/phantomSteed.md#_phantom-steed)_, but you may divide the duration among creatures touched.
-- [**Protection From Energy**](spells/protectionFromEnergy.md#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
-- [**Protection from Arrows, Communal**](ultimateCombat/spells/protectionFromArrows.md#_protection-from-arrows,-communal): As _ [protection from arrows](spells/protectionFromArrows.md#_protection-from-arrows)_, but you may divide the duration among creatures touched.
-- [**Rage**](spells/rage.md#_rage): Gives +2 to [Str](gettingStarted.md#_strength) and [Con](gettingStarted.md#_constitution), +1 on [Will](combat.md#_will) saves, –2 to [AC](combat.md#_armor-class).
-- [**Rain of Frogs**](ultimateMagic/spells/rainOfFrogs.md#_rain-of-frogs): Summon a swarm of poisonous frogs.
-- [**Reduce Person, Mass**](spells/reducePerson.md#_reduce-person-mass): As _ [reduce person](spells/reducePerson.md#_reduce-person)_, but affects 1 humanoid creature/level.
-- [**Rejuvenate Eidolon**](advanced/spells/rejuvenateEidolon.md#_rejuvenate-eidolon): As _ [lesser rejuvenate eidolon](advanced/spells/rejuvenateEidolon.md#_rejuvenate-eidolon,-lesser)_, but cures 3d10 damage +1/level (max +10).
-- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy.md#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy.md#_resist-energy)_, but you may divide the duration among creatures touched.
-- [**Restore Eidolon**](ultimateMagic/spells/restoreEidolon.md#_restore-eidolon): _ [Restoration](/spells/restoration.md#_restoration)_ for an eidolon.
-- [**Seek Thoughts**](advanced/spells/seekThoughts.md#_seek-thoughts): Detects creatures in the area thinking about something.
-- [**Spider Climb, Communal**](ultimateCombat/spells/spiderClimb.md#_spider-climb,-communal): As _ [spider climb](spells/spiderClimb.md#_spider-climb)_, but you may divide the duration among creatures touched.
-- [**Spiked Pit**](advanced/spells/spikedPit.md#_spiked-pit): As _ [create pit](advanced/spells/createPit.md#_create-pit-)_, but filled with spikes.
-- [**Stoneskin**](spells/stoneskin.md#_stoneskin)M: Grants DR 10/adamantine.
-- [**Summon Monster IV**](spells/summonMonster.md#_summon-monster-iv): Summons elemental creature to fight for you.
-- [**Tongues**](spells/tongues.md#_tongues): Speak and understand any language.
-- [**Vomit Twin**](advancedRaceGuide/featuredRaces/goblins.md#_vomit-twin): You vomit forth a disgusting ooze copy of yourself into a single adjacent square.
-- [**Wall of Fire**](spells/wallOfFire.md#_wall-of-fire): 2d4 fire damage to 10 ft. and 1d4 to 20 ft. Passing through wall deals 2d6 damage +1/level.
-- [**Wall of Ice**](spells/wallOfIce.md#_wall-of-ice): Ice plane creates wall or hemisphere creates dome.
-- [**Water Breathing**](spells/waterBreathing.md#_water-breathing): Subjects can breathe underwater.
-
-- [**Acid Pit**](advanced/spells/acidPit.md#_acid-pit-)M: Creates a pit with a layer of acid on the bottom.
-- [**Baleful Polymorph**](spells/balefulPolymorph.md#_baleful-polymorph): Turns subject into harmless animal.
-- [**Bear's Endurance, Mass**](spells/bearSEndurance.md#_bear-s-endurance-mass): As _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, affects one subject/level.
-- [**Binding**](spells/binding.md#_binding)M: Utilizes an array of techniques to imprison a creature.
-- [**Bull's Strength, Mass**](spells/bullSStrength.md#_bull-s-strength-mass): As _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, affects 1 subject per level.
-- [**Cat's Grace, Mass**](spells/catSGrace.md#_cat-s-grace-mass): As _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, affects 1 subject/level.
-- [**Contact Other Plane**](spells/contactOtherPlane.md#_contact-other-plane): Lets you ask question of extraplanar entity.
-- [**Damnation Stride**](advancedRaceGuide/featuredRaces/tieflings.md#_damnation-stride): Functions like _dimension door_, except you leave behind a burst of fire.
-- [**Daze, Mass**](ultimateMagic/spells/daze.md#_daze,-mass): As _ [daze](/spells/daze.md#_daze)_, but affecting multiple creatures.
-- [**Dismissal**](spells/dismissal.md#_dismissal): Forces a creature to return to its native plane.
-- [**Eagle's Splendor, Mass**](spells/eagleSSplendor.md#_eagle-s-splendor-mass): As _ [eagle's splendor](spells/eagleSSplendor.md#_eagle-s-splendor)_, 1 subject/level.
-- [**Evolution Surge, Greater**](advanced/spells/evolutionSurge.md#_evolution-surge,-greater): Grants eidolon two evolutions with a total of 6 evolution points.
-- [**Fox's Cunning, Mass**](spells/foxSCunning.md#_fox-s-cunning-mass): As _ [fox's cunning](spells/foxSCunning.md#_fox-s-cunning)_, affects 1 subject/ level.
-- [**Grace**](advanced/spells/grace.md#_grace): Movement doesn't provoke attacks of opportunity.
-- [**Hold Monster**](spells/holdMonster.md#_hold-monster): As _ [hold person](spells/holdPerson.md#_hold-person)_, but any creature.
-- [**Hostile Juxtaposition**](ultimateCombat/spells/hostileJuxtaposition.md#_hostile-juxtaposition): You create a dimensional link with a targeted creature, and switch spots with it.
-- [**Insect Plague**](spells/insectPlague.md#_insect-plague): Wasp swarms attack creatures.
-- [**Mage's Faithful Hound**](spells/mageSFaithfulHound.md#_mage-s-faithful-hound): Phantom dog can guard a location and attack intruders.
-- [**Magic Jar**](spells/magicJar.md#_magic-jar)F: Enables possession of another creature.
-- [**Major Creation**](spells/majorCreation.md#_major-creation): As _ [minor creation](spells/minorCreation.md#_minor-creation), _plus stone and metal.
-- [**Nixie's Lure**](advancedRaceGuide/featuredRaces/undines.md#_nixie's-lure): Creates an unearthly and infectious song that seductively summons all who hear it.
-- [**Overland Flight**](spells/overlandFlight.md#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
-- [**Owl's Wisdom, Mass**](spells/owlSWisdom.md#_owl-s-wisdom-mass): As _ [owl's wisdom](spells/owlSWisdom.md#_owl-s-wisdom)_, affects 1 subject/level.
-- [**Planar Binding, Lesser**](spells/planarBinding.md#_planar-binding-lesser): Traps extraplanar creature of 6 HD or less until it performs a task.
-- [**Protection from Energy, Communal**](ultimateCombat/spells/protectionFromEnergy.md#_protection-from-energy,-communal): As _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, but you may divide the duration among creatures touched.
-- [**Purified Calling**](advanced/spells/purifiedCalling.md#_purified-calling): Eidolon summoned is fully healed.
-- [**Sending**](spells/sending.md#_sending): Delivers short message anywhere, instantly.
-- [**Stoneskin, Communal**](ultimateCombat/spells/stoneskin.md#_stoneskin,-communal)M: As _ [stoneskin](spells/stoneskin.md#_stoneskin)_, but you may divide the duration among creatures touched.
-- [**Summon Monster V**](spells/summonMonster.md#_summon-monster-v): Summons elemental creature to fight for you.
-- [**Summoner Conduit**](ultimateCombat/spells/summonerConduit.md#_summoner-conduit): The target takes damage whenever its summoned creature does.
-- [**Teleport**](spells/teleport.md#_teleport): Instantly transports you as far as 100 miles per level.
-- [**Tongues, Communal**](ultimateCombat/spells/tongues.md#_tongues,-communal): As _ [tongues](spells/tongues.md#_tongues)_, but you may divide the duration among creatures touched.
-- [**Transmogrify**](advanced/spells/transmogrify.md#_transmogrify)M: Change your eidolon's evolutions.
-- [**Vitriolic Mist**](ultimateMagic/spells/vitriolicMist.md#_vitriolic-mist): As _ [fire shield](/spells/fireShield.md#_fire-shield)_, except acid damage.
-- [**Wall of Stone**](spells/wallOfStone.md#_wall-of-stone): Creates a stone wall that can be shaped.
-
-- [**Banishment**](spells/banishment.md#_banishment): Banishes 2 HD/level of extraplanar creatures.
-- [**Conjure Black Pudding**](ultimateMagic/spells/conjureBlackPudding.md#_conjure-black-pudding): Summon a black pudding.
-- [**Create Demiplane, Lesser**](ultimateMagic/spells/createDemiplane.md#_create-demiplane,-lesser): Create your own demiplane.
-- [**Creeping Doom**](spells/creepingDoom.md#_creeping-doom): Swarms of centipedes attack at your command.
-- [**Dispel Magic, Greater**](spells/dispelMagic.md#_dispel-magic-greater): As _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, but with multiple targets.
-- [**Energy Siege Shot**](ultimateCombat/spells/energySiegeShot.md#_energy-siege-shot): A Large siege engine deals energy damage that you designate with other effects depending on the type of energy you choose.
-- [**Ethereal Jaunt**](spells/etherealJaunt.md#_ethereal-jaunt): You become ethereal for 1 round/level.
-- [**Heroism, Greater**](spells/heroism.md#_heroism-greater): Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.
-- [**Hungry Pit**](advanced/spells/hungryPit.md#_hungry-pit-): As _ [create pit](advanced/spells/createPit.md#_create-pit-)_, but dealing 4d6 damage to those in it as it closes.
-- [**Ice Crystal Teleport**](ultimateMagic/spells/iceCrystalTeleport.md#_ice-crystal-teleport): Target is frozen, then teleported.
-- [**Invisibility, Mass**](spells/invisibility.md#_invisibility-mass): As _ [invisibility](spells/invisibility.md#_invisibility)_, but affects all in range.
-- [**Life Conduit, Greater**](ultimateCombat/spells/lifeConduit.md#_life-conduit,-greater): You transfer 3d6 hit points to your eidolon as a swift action.
-- [**Planar Adaptation**](advanced/spells/planarAdaptation.md#_planar-adaptation): Resist harmful effects of other plane.
-- [**Planar Binding**](spells/planarBinding.md#_planar-binding): As _ [lesser planar binding](../spells/planarBinding.md#_planar-binding-lesser)_, but up to 12 HD.
-- [**Plane Shift**](spells/planeShift.md#_plane-shift)F: As many as eight subjects travel to another plane.
-- [**Rejuvenate Eidolon, Greater**](advanced/spells/rejuvenateEidolon.md#_rejuvenate-eidolon,-greater): As _ [lesser rejuvenate eidolon](advanced/spells/rejuvenateEidolon.md#_rejuvenate-eidolon,-lesser)_, but cures 5d10 damage +1/level (max +20).
-- [**Repulsion**](spells/repulsion.md#_repulsion)F: Creatures can't approach you.
-- [**Sequester**](spells/sequester.md#_sequester): Subject is [invisible](glossary.md#_invisible) to sight and [scrying](spells/scrying.md#_scrying); renders creature comatose.
-- [**Simulacrum**](spells/simulacrum.md#_simulacrum)M: Creates partially real double of a creature.
-- [**Spell Turning**](spells/spellTurning.md#_spell-turning)M: Reflect 1d4+6 spell levels back at caster.
-- [**Summon Monster VII**](spells/summonMonster.md#_summon-monster-vii): Summons elemental creature to fight for you.
-- [**Tar Pool**](ultimateCombat/spells/tarPool.md#_tar-pool): Converts the top layer of the ground into hot tar.
-- [**Teleport, Greater**](spells/teleport.md#_teleport-greater): As _ [teleport](spells/teleport.md#_teleport), _but no range limit and no off-target arrival.
-- [**True Seeing**](spells/trueSeeing.md#_true-seeing)M: Lets you see all things as they really are.
-- [**Wall of Iron**](spells/wallOfIron.md#_wall-of-iron)M: 30 hp/four levels; can topple onto foes.
-- [**Wreath of Blades**](ultimateCombat/spells/wreathOfBlades.md#_wreath-of-blades)F: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
-
-- [**Antipathy**](spells/antipathy.md#_antipathy): Object or location affected by spell repels certain creatures.
-- [**Charm Monster, Mass**](spells/charmMonster.md#_charm-monster-mass): As _ [charm monster](spells/charmMonster.md#_charm-monster), _but all within 30 ft.
-- [**Create Demiplane**](ultimateMagic/spells/createDemiplane.md#_create-demiplane): As _ [lesser create demiplane](ultimateMagic/spells/createDemiplane.md#_create-demiplane,-lesser)_, but larger and with planar traits.
-- [**Dimensional Lock**](spells/dimensionalLock.md#_dimensional-lock): Teleportation and interplanar travel blocked for 1 day/level.
-- [**Discern Location**](spells/discernLocation.md#_discern-location): Reveals exact location of creature or object.
-- [**Dominate Monster**](spells/dominateMonster.md#_dominate-monster): As _ [dominate person](spells/dominatePerson.md#_dominate-person), _but any creature.
-- [**Eagle Aerie**](ultimateMagic/spells/eagleAerie.md#_eagle-aerie): Summon 1 giant eagle/3 levels.
-- [**Energy Siege Shot, Greater**](ultimateCombat/spells/energySiegeShot.md#_energy-siege-shot,-greater): As _ [energy siege shot](ultimateCombat/spells/energySiegeShot.md#_energy-siege-shot)_, but you can affect any size siege engine.
-- [**Hostile Juxtaposition, Greater**](ultimateCombat/spells/hostileJuxtaposition.md#_hostile-juxtaposition,-greater): You may target one creature for every four of your caster levels.
-- [**Incendiary Cloud**](spells/incendiaryCloud.md#_incendiary-cloud): Deals 6d6 fire damage/round.
-- [**Maze**](spells/maze.md#_maze): Traps subject in extradimensional maze.
-- [**Planar Adaptation, Mass**](advanced/spells/planarAdaptation.md#_planar-adaptation,-mass): As _ [planar adaptation](advanced/spells/planarAdaptation.md#_planar-adaptation)_, but affects multiple creatures.
-- [**Planar Binding, Greater**](spells/planarBinding.md#_planar-binding-greater): As _ [lesser planar binding](spells/planarBinding.md#_planar-binding-lesser), _but up to 18 HD.
-- [**Protection from Spells**](spells/protectionFromSpells.md#_protection-from-spells)MF: Confers +8 resistance bonus.
-- [**Summon Monster VIII**](spells/summonMonster.md#_summon-monster-viii): Summons elemental creature to fight for you.
-- [**Sympathy**](spells/sympathy.md#_sympathy)M: Object or location attracts certain creatures.
-- [**Teleportation Circle**](spells/teleportationCircle.md#_teleportation-circle)M: Teleports creatures inside circle.
-- [**Walk through Space**](ultimateCombat/spells/walkThroughSpace.md#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
-
-- [**Arcane Mark**](spells/arcaneMark.md#_arcane-mark): Inscribes a personal rune on an object or creature (visible or invisible).
-- [**Bleed**](spells/bleed.md#_bleed): Cause a stabilized creature to resume [dying](glossary.md#_dying).
-- [**Dancing Lights**](spells/dancingLights.md#_dancing-lights): Creates torches or other lights.
-- [**Daze**](spells/daze.md#_daze): A single humanoid creature with 4 HD or less loses its next action.
-- [**Detect Magic**](spells/detectMagic.md#_detect-magic): Detects all spells and magic items within 60 ft.
-- [**Detect Poison**](spells/detectPoison.md#_detect-poison): Detects poison in a creature or object.
-- [**Guidance**](spells/guidance.md#_guidance): +1 on one attack roll, saving throw, or skill check.
-- [**Light**](spells/light.md#_light): Object shines like a torch.
-- [**Mending**](spells/mending.md#_mending): Makes minor repairs on an object.
-- [**Message**](spells/message.md#_message): Whisper conversation at distance.
-- [**Putrefy Food and Drink**](advanced/spells/putrefyFoodAndDrink.md#_putrefy-food-and-drink): Makes food and water inedible.
-- [**Putrefy Food and Drink**](advanced/spells/putrefyFoodAndDrink.md#_putrefy-food-and-drink): Makes food and water inedible.
-- [**Read Magic**](spells/readMagic.md#_read-magic): Read scrolls and spellbooks.
-- [**Resistance**](spells/resistance.md#_resistance): Subject gains +1 on saving throws.
-- [**Spark**](advanced/spells/spark.md#_spark-): Ignites flammable objects.
-- [**Spark**](advanced/spells/spark.md#_spark-): Ignites flammable objects.
-- [**Stabilize**](spells/stabilize.md#_stabilize): Cause a [dying](glossary.md#_dying) creature to stabilize.
-- [**Touch of Fatigue**](spells/touchOfFatigue.md#_touch-of-fatigue): Touch attack fatigues target.
-
-- [**Air Bubble**](ultimateCombat/spells/airBubble.md#_air-bubble): Creates a small pocket of air around your head or an object.
-- [**Alchemical Tinkering**](advancedRaceGuide/featuredRaces/ratfolk.md#_alchemical-tinkering): Transform one alchemical item or firearm into another alchemical item or firearm of the same or lesser cost.
-- [**Beguiling Gift**](advanced/spells/beguilingGift.md#_beguiling-gift): Subject immediately accepts an offered item and uses it.
-- [**Blend**](advancedRaceGuide/coreRaces/elves.md#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
-- [**Bungle**](ultimateMagic/spells/bungle.md#_bungle): Target takes a –20 penalty on its next attack roll or check. 
-- [**Burning Hands**](spells/burningHands.md#_burning-hands): 1d4/level fire damage (max 5d4).
-- [**Cause Fear**](spells/causeFear.md#_cause-fear): A creature of 5 HD or less flees for 1d4 rounds.
-- [**Charm Person**](spells/charmPerson.md#_charm-person): Makes one person your friend.
-- [**Chill Touch**](spells/chillTouch.md#_chill-touch): One touch/level deals 1d6 damage and possibly 1 [Str](gettingStarted.md#_strength) damage.
-- [**Command**](spells/command.md#_command): One subject obeys a command for 1 round.
-- [**Compel Hostility**](ultimateCombat/spells/compelHostility.md#_compel-hostility): Compels opponents to attack you instead of your allies.
-- [**Comprehend Languages**](spells/comprehendLanguages.md#_comprehend-languages): You understand all spoken and written languages.
-- [**Cure Light Wounds**](spells/cureLightWounds.md#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
-- [**Damp Powder**](ultimateCombat/spells/dampPowder.md#_damp-powder): Ruins ammunition loaded in the targeted firearm.
-- [**Dancing Lantern**](advanced/spells/dancingLantern.md#_dancing-lantern-): Animates a lantern that follows you.
-- [**Decompose Corpse**](ultimateMagic/spells/decomposeCorpse.md#_decompose-corpse): Turn a corpse into a clean skeleton.
-- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk.md#_delay-disease): The target becomes temporarily immune to disease.
-- [**Delusional Pride**](ultimateMagic/spells/delusionalPride.md#_delusional-pride): Target is penalized on attacks and checks but gains bonus against charms and compulsions.
-- [**Detect Secret Doors**](spells/detectSecretDoors.md#_detect-secret-doors): Reveals hidden doors within 60 ft.
-- [**Diagnose Disease**](ultimateMagic/spells/diagnoseDisease.md#_diagnose-disease): Detect and identify diseases.
-- [**Ear-Piercing Scream**](ultimateMagic/spells/earPiercingScream.md#_ear-piercing-scream): Deal sonic damage and daze target.
-- [**Enlarge Person**](spells/enlargePerson.md#_enlarge-person): Humanoid creature doubles in size.
-- [**Forced Quiet**](ultimateMagic/spells/forcedQuiet.md#_forced-quiet): Target cannot make loud noises.
-- [**Frostbite**](ultimateMagic/spells/frostbite.md#_frostbite): Target takes cold damage and is fatigued.
-- [**Fumbletongue**](ultimateMagic/spells/fumbletongue.md#_fumbletongue): Target cannot speak intelligently.
-- [**Hex Ward**](ultimateMagic/spells/hexWard.md#_hex-ward): Target gains +4 on saves against witch hexes.
-- [**Hypnotism**](spells/hypnotism.md#_hypnotism): Fascinates 2d4 HD of creatures.
-- [**Icicle Dagger**](ultimateMagic/spells/icicleDagger.md#_icicle-dagger): Masterwork ice dagger deals +1 cold damage.
-- [**Identify**](spells/identify.md#_identify): Gives +10 bonus to identify magic items.
-- [**Ill Omen**](advanced/spells/illOmen.md#_ill-omen): Target rolls twice for checks and attacks and uses worst roll.
-- [**Inflict Light Wounds**](spells/inflictLightWounds.md#_inflict-light-wounds): Touch deals 1d8 damage +1/level (max +5).
-- [**Interrogation**](ultimateMagic/spells/interrogation.md#_interrogation): Target answers questions or suffers pain.
-- [**Jury-Rig**](ultimateCombat/spells/juryRig.md#_jury-rig): Removes the broken condition from the targeted object.
-- [**Karmic Blessing**](advancedRaceGuide/uncommonRaces/samsarans.md#_karmic-blessing): The target treats one skill of your choice as a class skill.
-- [**Ki Arrow**](ultimateMagic/spells/kiArrow.md#_ki-arrow): Arrow deals damage as your unarmed strike.
-- [**Lock Gaze**](ultimateCombat/spells/lockGaze.md#_lock-gaze): Compels the target to look only at you for the duration of the spell.
-- [**Mage Armor**](spells/mageArmor.md#_mage-armor): Gives subject +4 armor bonus.
-- [**Marid's Mastery**](advancedRaceGuide/featuredRaces/undines.md#_marid's-mastery): Target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water.
-- [**Mask Dweomer**](advanced/spells/maskDweomer.md#_mask-dweomer): Hides presence of a spell from d_etect magic_.
-- [**Mount**](spells/mount.md#_mount): Summons riding horse for 2 hours/level.
-- [**Negative Reaction**](ultimateCombat/spells/negativeReaction.md#_negative-reaction): Targeted creature may not positively influence anyone.
-- [**Nereid's Grace**](advancedRaceGuide/featuredRaces/undines.md#_nereid's-grace): You radiate the unearthly grace of a nereid.
-- [**Obscuring Mist**](spells/obscuringMist.md#_obscuring-mist): Fog surrounds you.
-- [**Peacebond**](ultimateCombat/spells/peacebond.md#_peacebond): Locks a weapon in place on the target's body.
-- [**Ray of Enfeeblement**](spells/rayOfEnfeeblement.md#_ray-of-enfeeblement): Ray causes 1d6 [Str](gettingStarted.md#_strength) penalty + 1 per 2 levels.
-- [**Ray of Sickening**](ultimateMagic/spells/rayOfSickening.md#_ray-of-sickening): Ray makes subject sickened.
-- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes.md#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
-- [**Reduce Person**](spells/reducePerson.md#_reduce-person): Humanoid creature halves in size.
-- [**Reinforce Armaments**](ultimateCombat/spells/reinforceArmaments.md#_reinforce-armaments): Temporarily mitigates the fragile quality in targeted weapon or armor.
-- [**Remove Sickness**](ultimateMagic/spells/removeSickness.md#_remove-sickness): Suppress disease, nausea, and the sickened condition.
-- [**Restore Corpse**](ultimateMagic/spells/restoreCorpse.md#_restore-corpse): Skeletal corpse grows flesh.
-- [**Sanctify Corpse**](ultimateMagic/spells/sanctifyCorpse.md#_sanctify-corpse): Prevent a corpse from becoming an undead.
-- [**Shadow Weapon**](ultimateMagic/spells/shadowWeapon.md#_shadow-weapon): Create a quasi-real masterwork weapon.
-- [**Sleep**](spells/sleep.md#_sleep): Puts 4 HD of creatures into magical slumber.
-- [**Sow Thought**](advancedRaceGuide/uncommonRaces/changelings.md#_sow-thought): Plant an idea, concept, or suspicion in the mind of the subject.
-- [**Strong Wings**](advancedRaceGuide/uncommonRaces/strix.md#_strong-wings): The target's wings grow more powerful, increases fly speed by +10 feet and its maneuverability to improve by one category.
-- [**Summon Minor Monster**](ultimateMagic/spells/summonMinorMonster.md#_summon-minor-monster): Summon 1d3 Tiny animals.
-- [**Summon Monster I**](spells/summonMonster.md#_summon-monster-i): _(Evil creatures only.) _Summons extraplanar creature to fight for you.
-- [**Theft Ward**](advancedRaceGuide/featuredRaces/tengus.md#_theft-ward): You ward a single object in your possession against theft.
-- [**Touch of Combustion**](advancedRaceGuide/featuredRaces/ifrits.md#_touch-of-combustion): Causes the target to ignite in a violent burst of flame.
-- [**Unerring Weapon**](ultimateCombat/spells/unerringWeapon.md#_unerring-weapon): Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.
-- [**Undine's Curse**](advancedRaceGuide/featuredRaces/undines.md#_undine's-curse): Target loses its body's natural ability to breathe automatically.
-- [**Urban Grace**](advancedRaceGuide/coreRaces/halfElves.md#_urban-grace): You become one with the city around you, allowing you to move more easily through its crowds and buildings.
-- [**Unprepared Combatant**](ultimateMagic/spells/unpreparedCombatant.md#_unprepared-combatant): Target takes –4 on initiative and Reflex saves.
-- [**Unseen Servant**](spells/unseenServant.md#_unseen-servant): Invisible force obeys your commands.
-- [**Vocal Alteration**](ultimateMagic/spells/vocalAlteration.md#_vocal-alteration): [Disguise](/skills/disguise.md#_disguise) target's voice.
-- [**Weaken Powder**](ultimateCombat/spells/weakenPowder.md#_weaken-powder): Targeted firearm's ammunition halves the firearm's range and imposes a –2 penalty on damage rolls.
-- [**Web Bolt**](advancedRaceGuide/featuredRaces/drow.md#_web-bolt): You launch a ball of webbing at a target, causes target to be affected as if by a _web_ spell.
-- [**Whispering Lore**](advancedRaceGuide/coreRaces/elves.md#_whispering-lore): You are able to gain knowledge from the land itself.
-- [**Youthful Appearance**](ultimateMagic/spells/youthfulAppearance.md#_youthful-appearance): Target appears younger.
-
-- [**Aboleth's Lung**](advancedRaceGuide/uncommonRaces/gillmen.md#_aboleth's-lung): Targets are able to breathe water, freely.
-- [**Adoration**](ultimateCombat/spells/adoration.md#_adoration): You gain a bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) checks and performance combat checks.
-- [**Alter Self**](spells/alterSelf.md#_alter-self): Assume form of a Small or Medium humanoid.
-- [**Ancestral Regression**](advancedRaceGuide/featuredRaces/drow.md#_ancestral-regression): The target drow transforms into a surface elf.
-- [**Augury**](spells/augury.md#_augury)MF: Learns whether an action will be good or bad.
-- [**Bestow Insight**](advancedRaceGuide/coreRaces/humans.md#_bestow-insight): Target gains a +2 insight bonus and is considered trained in one single ranked skill.
-- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency.md#_bestow-weapon-proficiency): Grants a creature proficiency in a single weapon for short period of time.
-- [**Binding Earth**](advancedRaceGuide/featuredRaces/oreads.md#_binding-earth): Areas of earth and stone floor act as a snapping quagmire that pulls the target down and damages it if it attempts to move through such terrain.
-- [**Blindness/Deafness**](spells/blindnessDeafness.md#_blindness-deafness): Makes subject blind or deaf.
-- [**Blood Blaze**](advancedRaceGuide/featuredRaces/orcs.md#_blood-blaze): 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air.
-- [**Blood Transcription**](ultimateMagic/spells/bloodTranscription.md#_blood-transcription): Learn a spell from the target's blood.
-- [**Boiling Blood**](ultimateMagic/spells/boilingBlood.md#_boiling-blood): Targets take fire damage; orcs get +2 Strength.
-- [**Burning Gaze**](advanced/spells/burningGaze.md#_burning-gaze): Inflict 1d6 fire damage to creature by looking at it.
-- [**Commune with Birds**](advancedRaceGuide/featuredRaces/tengus.md#_commune-with-birds): You can understand the responses given by birds.
-- [**Cure Moderate Wounds**](spells/cureModerateWounds.md#_cure-moderate-wounds): Cures 2d8 damage +1/level (max. +10).
-- [**Daze Monster**](spells/dazeMonster.md#_daze-monster): Living creature of 6 HD or less loses its next action.
-- [**Death Candle**](advancedRaceGuide/featuredRaces/ifrits.md#_death-candle): Functions like _death knell_, except you summon a Small fire elemental resembling the slain creature.
-- [**Death Knell**](spells/deathKnell.md#_death-knell): Kills dying creature; you gain 1d8 temporary hp, +2 to Str, and +1 caster level.
-- [**Delay Pain**](ultimateMagic/spells/delayPain.md#_delay-pain): Ignore pain for 1 hour/level.
-- [**Delay Poison**](spells/delayPoison.md#_delay-poison): Stops poison from harming subject for 1 hour/level.
-- [**Destabilize Powder**](ultimateCombat/spells/destabilizePowder.md#_destabilize-powder): Ammunition in the targeted firearm is prone to misfire.
-- [**Detect Thoughts**](spells/detectThoughts.md#_detect-thoughts): Allows “listening” to surface thoughts.
-- [**Enemy's Heart**](advancedRaceGuide/featuredRaces/orcs.md#_enemy's-heart): Cut out an enemy's heart and consume it, absorbing that enemy's power as your own.
-- [**Enthrall**](spells/enthrall.md#_enthrall): Captivates all within 100 ft. + 10 ft./level.
-- [**False Life**](spells/falseLife.md#_false-life): Gain 1d10 temporary hp + 1/level (max +10).
-- [**Feast of Ashes**](advanced/spells/feastOfAshes.md#_feast-of-ashes): A target starves with an insatiable hunger.
-- [**Fester**](advanced/spells/fester.md#_fester): Gives subject SR 12 + your level vs. healing effects.
-- [**Find Traps**](spells/findTraps.md#_find-traps): Notice traps as a rogue does.
-- [**Fog Cloud**](spells/fogCloud.md): Fog obscures vision.
-- [**Frost Fall**](ultimateCombat/spells/frostFall.md#_frost-fall): The area is covered in a chilling frost.
-- [**Fury of the Sun**](advancedRaceGuide/featuredRaces/ifrits.md#_fury-of-the-sun): You curse the target to suffer unbearable heat.
-- [**Gentle Repose**](spells/gentleRepose.md#_gentle-repose): Preserves one corpse.
-- [**Ghostly Disguise**](ultimateMagic/spells/ghostlyDisguise.md#_ghostly-disguise): You look like a ghost of yourself.
-- [**Glide**](advanced/spells/glide.md#_glide-): You take no falling damage and move 60 ft./round while falling.
-- [**Glitterdust**](spells/glitterdust.md#_glitterdust): Blinds targets, outlines invisible things.
-- [**Hidden Speech**](advanced/spells/hiddenSpeech.md#_hidden-speech): Gain +10 on [Bluff](skills/bluff.md#_bluff) to send secret messages.
-- [**Hold Person**](spells/holdPerson.md#_hold-person): Paralyzes one humanoid for 1 round/level.
-- [**Inflict Moderate Wounds**](spells/inflictModerateWounds.md#_inflict-moderate-wounds): Touch attack, 2d8 damage +1/level (max +10).
-- [**Levitate**](spells/levitate.md#_levitate): Subject moves up and down at your direction.
-- [**Mad Hallucination**](ultimateMagic/spells/madHallucination.md#_mad-hallucination): Target takes penalties to mental actions.
-- [**Mask Dweomer, Communal**](ultimateCombat/spells/maskDweomer.md#_mask-dweomer,-communal): As _ [mask dweomer](advanced/spells/maskDweomer.md#_mask-dweomer)_, but you may divide the duration among creatures touched.
-- [**Masterwork Transformation**](ultimateMagic/spells/masterworkTransformation.md#_masterwork-transformation): Make a normal item into a masterwork one.
-- [**Minor Dream**](advancedRaceGuide/coreRaces/gnomes.md#_minor-dream): This spell functions as the _dream spell_, except the messenger must be yourself or a gnome touched.
-- [**Miserable Pity**](ultimateMagic/spells/miserablePity.md#_miserable-pity): Opponents cannot attack a pathetic creature.
-- [**Mount, Communal**](ultimateCombat/spells/mount.md#_mount,-communal): As _ [mount](spells/mount.md#_mount)_, but you may divide the duration among creatures touched. 
-- [**Perceive Cues**](advanced/spells/perceiveCues.md#_perceive-cues): +5 [Perception](skills/perception.md#_perception) and [Sense Motive](../skills/senseMotive.md#_sense-motive) 10 min./level.
-- [**Pernicious Poison**](ultimateMagic/spells/perniciousPoison.md#_pernicious-poison): Target takes a –4 penalty against poison.
-- [**Pox Pustules**](advanced/spells/poxPustules.md#_pox-pustules): Subject is sickened and has –4 Dex.
-- [**Protective Penumbra**](ultimateMagic/spells/protectivePenumbra.md#_protective-penumbra): Shadow protects the target from light.
-- [**Qualm**](ultimateCombat/spells/qualm.md#_qualm): Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing.
-- [**Recoil Fire**](ultimateCombat/spells/recoilFire.md#_recoil-fire): Ammunition in the targeted firearm generates excessive recoil.
-- [**Reinforce Armaments, Communal**](ultimateCombat/spells/reinforceArmaments.md#_reinforce-armaments,-communal): As _ [reinforce armaments](ultimateCombat/spells/reinforceArmaments.md#_reinforce-armaments)_, but you may divide the spell's duration among objects touched.
-- [**Returning Weapon**](ultimateCombat/spells/returningWeapon.md#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons.md#_weapons-returning)_ special weapon quality.
-- [**Scare**](spells/scare.md#_scare): Frightens creature of less than 6 HD.
-- [**See Invisibility**](spells/seeInvisibility.md#_see-invisibility): Reveals [invisible](glossary.md#_invisible) creatures or objects.
-- [**Sentry Skull**](advancedRaceGuide/featuredRaces/orcs.md#_sentry-skull): Restore the senses to the severed head of a humanoid or monstrous humanoid killed within the past 24 hours, creating a grisly sentinel.
-- [**Shadow Anchor**](advancedRaceGuide/uncommonRaces/wayangs.md#_shadow-anchor): Target's shadow becomes a flexible tether to its current square.
-- [**Share Memory**](ultimateMagic/spells/shareMemory.md#_share-memory): Share one memory with the target.
-- [**Sickening Strikes**](advancedRaceGuide/featuredRaces/ratfolk.md#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
-- [**Silk to Steel**](ultimateMagic/spells/silkToSteel.md#_silk-to-steel): Use a scarf as a shield or whip.
-- [**Skinsend**](ultimateMagic/spells/skinsend.md#_skinsend): Animate and possess your own skin as if it were a separate creature.
-- [**Spectral Hand**](spells/spectralHand.md#_spectral-hand): Creates disembodied glowing hand to deliver touch attacks.
-- [**Squeeze**](advancedRaceGuide/uncommonRaces/vishkanyas.md#_squeeze): The target becomes flexible regardless of its actual size and mass.
-- [**Stabilize Powder**](ultimateCombat/spells/stabilizePowder.md#_stabilize-powder): Ammunition in the targeted firearm is less likely to misfire.
-- [**Status**](spells/status.md#_status): Monitors condition, position of allies.
-- [**Steal Breath**](advancedRaceGuide/featuredRaces/catfolk.md#_steal-breath): Pull the breath from a creature's lungs, dealing damage and leaving it unable to speak, use breath weapons, or cast spells with verbal components.
-- [**Steal Voice**](ultimateMagic/spells/stealVoice.md#_steal-voice): Target gains the croaking spellblight.
-- [**Summon Monster II**](spells/summonMonster.md#_summon-monster-ii): Summons elemental creature.
-- [**Summon Swarm**](spells/summonSwarm.md#_summon-swarm): Summons swarm of bats, rats, or spiders.
-- [**Symbol of Mirroring**](ultimateMagic/spells/symbolOfMirroring.md#_symbol-of-mirroring): Triggered rune creates mirror images.
-- [**Thunder Fire**](ultimateCombat/spells/thunderFire.md#_thunder-fire): Ammunition in the targeted firearm deafens opponents.
-- [**Touch of Idiocy**](spells/touchOfIdiocy.md#_touch-of-idiocy): Subject takes 1d6 penalty to [Int](gettingStarted.md#_intelligence), [Wis](gettingStarted.md#_wisdom), and [Cha](gettingStarted.md#_charisma-new).
-- [**Unnatural Lust**](ultimateMagic/spells/unnaturalLust.md#_unnatural-lust): Target is compelled to kiss or caress another.
-- [**Unshakable Chill**](ultimateMagic/spells/unshakableChill.md#_unshakable-chill): Target is afflicted with severe cold.
-- [**Vomit Swarm**](advanced/spells/vomitSwarm.md#_vomit-swarm): Produces a spider swarm that fights for you.
-- [**Web**](spells/web.md#_web): Fills 20-ft.-radius spread with sticky spiderwebs that can grapple foes and impair movement.
-- [**Web Shelter**](ultimateMagic/spells/webShelter.md#_web-shelter): Create a comfortable shelter made of webbing.
-- [**Zone of Truth**](spells/zoneOfTruth.md#_zone-of-truth): Subjects within range cannot lie.
-
-- [**Agonizing Rebuke**](advancedRaceGuide/featuredRaces/hobgoblins.md#_agonizing-rebuke): You instill such apprehension about attacking you in your target that doing so causes it mental distress and pain.
-- [**Anthropomorphic Animal**](ultimateMagic/spells/anthropomorphicAnimal.md#_anthropomorphic-animal): Animal becomes bipedal.
-- [**Arcane Sight**](spells/arcaneSight.md#_arcane-sight): Magical auras become visible to you.
-- [**Ash Storm**](ultimateMagic/spells/ashStorm.md#_ash-storm): Hamper vision and movement.
-- [**Bestow Curse**](spells/bestowCurse.md#_bestow-curse): –6 to an ability score; –4 on attack rolls, saves, and checks; or 50% chance of losing each action.
-- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs.md#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
-- [**Cackling Skull**](ultimateMagic/spells/cacklingSkull.md#_cackling-skull): Skull acts as _ [magic mouth](/spells/magicMouth.md#_magic-mouth)_, listeners are shaken.
-- [**Clairaudience/Clairvoyance**](spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance): Hear or see at a distance for 1 min./level.
-- [**Countless Eyes**](ultimateMagic/spells/countlessEyes.md#_countless-eyes): Extra eyes give all-around vision.
-- [**Cup of Dust**](advanced/spells/cupOfDust.md#_cup-of-dust): Causes a creature to become dehydrated.
-- [**Deep Slumber**](spells/deepSlumber.md#_deep-slumber): Puts 10 HD of creatures to [sleep](spells/sleep.md#_sleep).
-- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison.md#_delay-poison,-communal): As _ [delay poison](spells/delayPoison.md#_delay-poison)_, but you may divide the duration among creatures touched.
-- [**Dispel Magic**](spells/dispelMagic.md#_dispel-magic): Cancels one magical spell or effect.
-- [**Eldritch Fever**](ultimateMagic/spells/eldritchFever.md#_eldritch-fever): Target gains the eldritch ague spellblight.
-- [**Eruptive Pustules**](ultimateMagic/spells/eruptivePustules.md#_eruptive-pustules): Acid boils burst when you are attacked.
-- [**Excruciating Deformation**](ultimateMagic/spells/excruciatingDeformation.md#_excruciating-deformation): Target takes Dex and Con damage.
-- [**Fearsome Duplicate**](advancedRaceGuide/coreRaces/halflings.md#_fearsome-duplicate): You create a larger and far more menacing version of yourself.
-- [**Fins to Feet**](advancedRaceGuide/uncommonRaces/merfolk.md#_fins-to-feet): Transform the target's fins, flippers, or tail into legs and feet, allowing it to walk on land.
-- [**Flash Fire**](ultimateCombat/spells/flashFire.md#_flash-fire): Ammunition in the targeted firearm creates a tremendous flash capable of blinding the weapon's bearer and those around him.
-- [**Fly**](spells/fly.md): Subject flies at a speed of 60 ft.
-- [**Gloomblind Bolts**](advancedRaceGuide/featuredRaces/fetchlings.md#_gloomblind-bolts): Create one or more bolts of negative energy infused with shadow pulled from the Shadow Plane.
-- [**Glyph of Warding**](spells/glyphOfWarding.md#_glyph-of-warding)M: Inscription harms those who pass it.
-- [**Guiding Star**](advanced/spells/guidingStar.md#_guiding-star-): Know approximate distance from where you cast this spell.
-- [**Healing Thief**](ultimateCombat/spells/healingThief.md#_healing-thief): You siphon half of all magical healing that the targeted creature receives.
-- [**Heroism**](spells/heroism.md#_heroism): Gives +2 bonus on attack rolls, saves, skill checks.
-- [**Hostile Levitation**](ultimateCombat/spells/hostileLevitation.md#_hostile-levitation): Levitates the targeted creature up off the ground.
-- [**Howling Agony**](ultimateMagic/spells/howlingAgony.md#_howling-agony): Screaming pain limits the target's actions.
-- [**Improve Trap**](advancedRaceGuide/featuredRaces/kobolds.md#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
-- [**Ki Leech**](ultimateMagic/spells/kiLeech.md#_ki-leech): Add to your _ki_ pool when you critically hit.
-- [**Lightning Bolt**](spells/lightningBolt.md#_lightning-bolt): Electricity deals 1d6/level damage.
-- [**Loathsome Veil**](ultimateMagic/spells/loathsomeVeil.md#_loathsome-veil): Nauseates and/or sickens weak creatures.
-- [**Locate Object**](spells/locateObject.md#_locate-object): Senses direction toward object (specific or type).
-- [**Locate Weakness**](ultimateCombat/spells/locateWeakness.md#_locate-weakness): You roll damage twice when you roll damage for a critical hit and take the best damage.
-- [**Marionette Possession**](ultimateMagic/spells/marionettePossession.md#_marionette-possession): As _ [magic jar](/spells/magicJar.md#_magic-jar)_, but limited to line of sight.
-- [**Nature's Exile**](advanced/spells/natureSExile.md#_nature's-exile): Gives subject –10 on [Survival](skills/survival.md#_survival) checks.
-- [**Nixie's Lure**](advancedRaceGuide/featuredRaces/undines.md#_nixie's-lure): Creates an unearthly and infectious song that seductively summons all who hear it.
-- [**Pain Strike**](advanced/spells/painStrike.md#_pain-strike): Inflicts 1d6 nonlethal damage 1 round/level.
-- [**Paragon Surge**](advancedRaceGuide/coreRaces/halfElves.md#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
-- [**Pup Shape**](ultimateCombat/spells/pupShape.md#_pup-shape): Transforms a single animal or magical beast into a younger and cuter version of itself for a short period of time.
-- [**Rage**](spells/rage.md#_rage): Gives +2 to [Str](gettingStarted.md#_strength) and [Con](gettingStarted.md#_constitution), +1 on [Will](combat.md#_will) saves, –2 to [AC](combat.md#_armor-class).
-- [**Raging Rubble**](advancedRaceGuide/featuredRaces/oreads.md#_raging-rubble): You animate an area of rubble, creating a dangerous, rolling area of debris.
-- [**Rain of Frogs**](ultimateMagic/spells/rainOfFrogs.md#_rain-of-frogs): Summon a swarm of poisonous frogs.
-- [**Ray of Exhaustion**](spells/rayOfExhaustion.md#_ray-of-exhaustion): Ray makes subject [exhausted](glossary.md#_exhausted).
-- [**Reckless Infatuation**](ultimateMagic/spells/recklessInfatuation.md#_reckless-infatuation): Target is compelled to stay near another.
-- [**Remove Blindness/Deafness**](spells/removeBlindnessDeafness.md#_remove-blindness-deafness): Cures normal or magical blindness or deafness.
-- [**Remove Curse**](spells/removeCurse.md#_remove-curse): Frees object or person from curse.
-- [**Remove Disease**](spells/removeDisease.md#_remove-disease): Cures all diseases affecting subject.
-- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon.md#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon.md#_returning-weapon)_, but you may divide the duration among weapons touched.
-- [**Sands of Time**](ultimateMagic/spells/sandsOfTime.md#_sands-of-time): Target temporarily ages.
-- [**Screech**](advanced/spells/screech.md#_screech): Foes provoke attacks of opportunity.
-- [**Seek Thoughts**](advanced/spells/seekThoughts.md#_seek-thoughts): Detects thinking creatures' thoughts.
-- [**Sepia Snake Sigil**](spells/sepiaSnakeSigil.md#_sepia-snake-sigil)M: Creates text symbol that immobilizes reader.
-- [**Share Senses**](advanced/spells/shareSenses.md#_share-senses): Perceive the world around your familiar.
-- [**Sleet Storm**](spells/sleetStorm.md#_sleet-storm): Hampers vision and movement.
-- [**Speak with Dead**](spells/speakWithDead.md#_speak-with-dead): Corpse answers one question/two levels.
-- [**Spit Venom**](ultimateMagic/spells/spitVenom.md#_spit-venom): Spit blinding black adder venom.
-- [**Stinking Cloud**](spells/stinkingCloud.md#_stinking-cloud): Nauseating vapors, 1 round/level.
-- [**Strangling Hair**](ultimateMagic/spells/stranglingHair.md#_strangling-hair): Your hair animates and grapples.
-- [**Suggestion**](spells/suggestion.md#_suggestion): Compels a subject to follow stated course of action.
-- [**Summon Monster III**](spells/summonMonster.md#_summon-monster-iii): _(Evil creatures only.)_ Summons extraplanar creature to fight for you.
-- [**Tongues**](spells/tongues.md#_tongues): Speak and understand any language.
-- [**Twilight Knife**](advanced/spells/twilightKnife.md#_twilight-knife-): Floating knife attacks with you.
-- [**Unadulterated Loathing**](ultimateMagic/spells/unadulteratedLoathing.md#_unadulterated-loathing): Target is compelled to avoid another creature.
-- [**Vampiric Touch**](spells/vampiricTouch.md#_vampiric-touch): Touch deals 1d6 damage/2 levels; caster gains damage as temporary hp.
-- [**Vermin Shape I**](ultimateMagic/spells/verminShape.md#_vermin-shape-i-): Take the form and some of the powers of a Small or Medium vermin.
-- [**Vision of Hell**](ultimateMagic/spells/visionOfHell.md#_vision-of-hell): Illusory hellscape makes creatures shaken.
-- [**Ward of the Season**](advancedRaceGuide/coreRaces/elves.md#_ward-of-the-season): Harnesses the power of the seasons to protect the target and grant a number of bonuses.
-- [**Water Walk**](spells/waterWalk.md#_water-walk): Subject treads on water as if solid.
-- [**Witness**](ultimateMagic/spells/witness.md#_witness): See through the target's eyes and ears.
-
-- [**Absorb Toxicity**](ultimateCombat/spells/absorbToxicity.md#_absorb-toxicity): You become immune to diseases and toxins, absorb one, and then spread it to others.
-- [**Age Resistance, Lesser**](ultimateMagic/spells/ageResistance.md#_age-resistance,-lesser): Ignore penalties from middle age.
-- [**Arcane Eye**](spells/arcaneEye.md#_arcane-eye): Invisible floating eye moves 30 ft./round.
-- [**Battle Trance**](advancedRaceGuide/coreRaces/halfOrcs.md#_battle-trance): You are transformed into a single-minded force of destruction.
-- [**Black Tentacles**](spells/blackTentacles.md#_black-tentacles): Tentacles grapple all creatures within a 20-ft. spread.
-- [**Cape of Wasps**](ultimateMagic/spells/capeOfWasps.md#_cape-of-wasps): Wasp swarm defends or carries you.
-- [**Charm Monster**](spells/charmMonster.md#_charm-monster): Makes monster believe it is your ally.
-- [**Confusion**](spells/confusion.md#_confusion): Subjects behave oddly for 1 round/level.
-- [**Crushing Despair**](spells/crushingDespair.md#_crushing-despair): Subjects take –2 on attack rolls, damage rolls, saves, and checks.
-- [**Cure Serious Wounds**](spells/cureSeriousWounds.md#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
-- [**Curse of Magic Negation**](ultimateMagic/spells/curseOfMagicNegation.md#_curse-of-magic-negation): Target gains the negated spellblight.
-- [**Daze, Mass**](ultimateMagic/spells/daze.md#_daze,-mass): As _ [daze](/spells/daze.md#_daze)_, but affecting multiple creatures.
-- [**Death Ward**](spells/deathWard.md#_death-ward): Grants bonuses against death spells and negative energy.
-- [**Debilitating Portent**](ultimateCombat/spells/debilitatingPortent.md#_debilitating-portent): Inflicts an ill fate on a creature, halving its damage when it attacks or casts a spell
-- [**Detect Scrying**](spells/detectScrying.md#_detect-scrying): Alerts you to magical eavesdropping
-- [**Dimension Door**](spells/dimensionDoor.md#_dimension-door): Teleports you a short distance.
-- [**Discern Lies**](spells/discernLies.md#_discern-lies): Reveals deliberate falsehoods.
-- [**Divination**](spells/divination.md#_divination)M: Provides useful advice for specific proposed actions.
-- [**Enervation**](spells/enervation.md#_enervation): Subject gains 1d4 [negative levels](glossary.md#_energy-drain-and-negative-levels).
-- [**False Life, Greater**](ultimateMagic/spells/falseLife.md#_false-life,-greater): Gain 2d10 temporary hp + 1/level.
-- [**Familiar Melding**](ultimateMagic/spells/familiarMelding.md#_familiar-melding): Possess your familiar.
-- [**Fear**](spells/fear.md#_fear): Subjects within cone flee for 1 round/level.
-- [**Fleshworm Infestation**](ultimateMagic/spells/fleshwormInfestation.md#_fleshworm-infestation): Worms deal hp and Dex damage.
-- [**Forgetful Slumber**](advancedRaceGuide/coreRaces/halfElves.md#_forgetful-slumber): Acts as the _deeper slumber spell_, but only affects one creature of 10 Hit Dice or fewer.
-- [**Geas, Lesser**](spells/geasQuest.md#_geas-lesser): Commands subject of 7 HD or less.
-- [**Hellmouth Lash**](advancedRaceGuide/featuredRaces/tieflings.md#_hellmouth-lash): Your tongue transforms into an energy whip weapon that can deal acid, electricity, or fire damage.
-- [**Ice Storm**](spells/iceStorm.md#_ice-storm): Hail deals 5d6 damage in area 40 ft. across.
-- [**Inflict Serious Wounds**](spells/inflictSeriousWounds.md#_inflict-serious-wounds): Touch attack, 3d8 damage +1/level (max +15).
-- [**Locate Creature**](spells/locateCreature.md#_locate-creature): Indicates direction to familiar creature.
-- [**Minor Creation**](spells/minorCreation.md#_minor-creation): Creates one cloth or wood object.
-- [**Moonstruck**](advanced/spells/moonstruck.md#_moonstruck): Subject is enraged and confused.
-- [**Named Bullet**](ultimateCombat/spells/namedBullet.md#_named-bullet): Imbues ammunition with accuracy against a specific creature type.
-- [**Neutralize Poison**](spells/neutralizePoison.md#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
-- [**Phantasmal Killer**](spells/phantasmalKiller.md#_phantasmal-killer): Fearsome illusion kills subject or deals 3d6 damage.
-- [**Poison**](spells/poison.md#_poison): Touch deals 1d3 Con damage 1/round for 6 rounds.
-- [**Resilient Reservoir**](advancedRaceGuide/coreRaces/halfElves.md#_resilient-reservoir): Creates a magical well of retribution that a caster can unleash with blinding speed.
-- [**Ride the Waves**](ultimateMagic/spells/rideTheWaves.md#_ride-the-waves): Target can breathe water and swim.
-- [**Scrying**](spells/scrying.md#_scrying)F: Spies on subject from a distance.
-- [**Secure Shelter**](spells/secureShelter.md#_secure-shelter): Creates sturdy cottage.
-- [**Shadow Step**](ultimateMagic/spells/shadowStep.md#_shadow-step): Teleport from one shadow to another.
-- [**Sleepwalk**](advanced/spells/sleepwalk.md#_sleepwalk)M: Causes creature to move while asleep.
-- [**Solid Fog**](spells/solidFog.md#_solid-fog): Blocks vision and slows movement.
-- [**Spite**](advanced/spells/spite.md#_spite)M: Inflict touch spell upon creature that attacks you.
-- [**Summon Monster IV**](spells/summonMonster.md#_summon-monster-iv): Summons elemental creature to fight for you.
-- [**Symbol of Healing**](ultimateMagic/spells/symbolOfHealing.md#_symbol-of-healing): Triggered rune heals living creatures.
-- [**Symbol of Revelation**](ultimateMagic/spells/symbolOfRevelation.md#_symbol-of-revelation): Triggered symbol reveals illusions.
-- [**Symbol of Slowing**](ultimateMagic/spells/symbolOfSlowing.md#_symbol-of-slowing): Triggered rune slows creatures.
-- [**Threefold Aspect**](advanced/spells/threefoldAspect.md#_threefold-aspect)F: Appear older or younger.
-- [**Tongues, Communal**](ultimateCombat/spells/tongues.md#_tongues,-communal): As _ [tongues](spells/tongues.md#_tongues)_, but you may divide the duration among creatures touched.
-- [**Touch of Slime**](ultimateMagic/spells/touchOfSlime.md#_touch-of-slime): Touch infests a target with green slime.
-- [**Vermin Shape II**](ultimateMagic/spells/verminShape.md#_vermin-shape-ii): As _vermin shape_, but Tiny or Large.
-- [**Volcanic Storm**](ultimateMagic/spells/volcanicStorm.md#_volcanic-storm): Hot rocks deal 5d6 damage.
-- [**Wandering Star Motes**](advanced/spells/wanderingStarMotes.md#_wandering-star-motes): Outlines subject and produces light as a sunrod.
-- [**Web Cloud**](advancedRaceGuide/featuredRaces/drow.md#_web-cloud): Creates a cloud of flame-resistant strands of adhesive webbing.
-- [**Wreath of Blades**](ultimateCombat/spells/wreathOfBlades.md#_wreath-of-blades)F: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
-
-- [**Baleful Polymorph**](spells/balefulPolymorph.md#_baleful-polymorph): Turns subject into harmless animal.
-- [**Banish Seeming**](advanced/spells/banishSeeming.md#_banish-seeming): Dispels touched illusion or a creature's change in form.
-- [**Blight**](spells/blight.md#_blight): Withers one plant or deals 1d6/level damage to plant creature.
-- [**Break Enchantment**](spells/breakEnchantment.md#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
-- [**Cloudkill**](spells/cloudkill.md#_cloudkill): Kills 3 HD or less; 4–6 HD save or die; 6+ HD take Con damage.
-- [**Contact Other Plane**](spells/contactOtherPlane.md#_contact-other-plane): Lets you ask question of extraplanar entity.
-- [**Contagion, Greater**](ultimateMagic/spells/contagion.md#_contagion,-greater): Infect a subject with a magical disease.
-- [**Cure Critical Wounds**](spells/cureCriticalWounds.md#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
-- [**Curse of Disgust**](ultimateMagic/spells/curseOfDisgust.md#_curse-of-disgust): Target is sickened while viewing trigger.
-- [**Curse, Major**](ultimateMagic/spells/curse.md#_curse,-major): As _ [bestow curse](/spells/bestowCurse.md#_bestow-curse)_, but harder to remove.
-- [**Damnation Stride**](advancedRaceGuide/featuredRaces/tieflings.md#_damnation-stride): Functions like _dimension door_, except you leave behind a burst of fire.
-- [**Dominate Person**](spells/dominatePerson.md#_dominate-person): Controls humanoid telepathically.
-- [**Feeblemind**](spells/feeblemind.md#_feeblemind): Subject's [Int](gettingStarted.md#_intelligence) and [Cha](gettingStarted.md#_charisma-new) drop to 1.
-- [**Half-blood Extraction**](advancedRaceGuide/coreRaces/halfOrcs.md#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
-- [**Hold Monster**](spells/holdMonster.md#_hold-monster): As _ [hold person](spells/holdPerson.md#_hold-person)_, but any creature.
-- [**Hostile Juxtaposition**](ultimateCombat/spells/hostileJuxtaposition.md#_hostile-juxtaposition): You create a dimensional link with a targeted creature, and switch spots with it.
-- [**Inflict Critical Wounds**](spells/inflictCriticalWounds.md#_inflict-critical-wounds): Touch attack, 4d8 damage + 1/level (max +20).
-- [**Magic Jar**](spells/magicJar.md#_magic-jar)F: Enables possession of another creature.
-- [**Major Creation**](spells/majorCreation.md#_major-creation): As _ [minor creation](spells/minorCreation.md#_minor-creation), _plus stone and metal.
-- [**Mark of Justice**](spells/markOfJustice.md#_mark-of-justice): Designates action that triggers _curse _on subject.
-- [**Mind Fog**](spells/mindFog.md#_mind-fog): Subjects in fog get –10 to [Wis](gettingStarted.md#_wisdom) and [Will](combat.md#_will) checks.
-- [**Old Salt's Curse**](advancedRaceGuide/coreRaces/humans.md#_old-salt's-curse): Inflict a curse of the roiling sea upon the target, making it permanently sickened.
-- [**Overland Flight**](spells/overlandFlight.md#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
-- [**Pain Strike, Mass**](advanced/spells/painStrike.md#_pain-strike,-mass): As _ [pain strike](advanced/spells/painStrike.md#_pain-strike)_, but affects multiple creatures.
-- [**Plague Carrier**](ultimateMagic/spells/plagueCarrier.md#_plague-carrier): Target's attacks carry filth fever.
-- [**Possess Object**](ultimateMagic/spells/possessObject.md#_possess-object): Possess and animate one object.
-- [**Prying Eyes**](spells/pryingEyes.md#_prying-eyes): 1d4 + 1/level floating eyes scout for you.
-- [**Reincarnate**](spells/reincarnate.md#_reincarnate): Brings dead subject back in a random body.
-- [**Rest Eternal**](advanced/spells/restEternal.md#_rest-eternal)M: Dead creature cannot be revived.
-- [**Secret Chest**](spells/secretChest.md#_secret-chest)F: Hides expensive chest on Ethereal Plane; you retrieve it at will.
-- [**Seeming**](spells/seeming.md#_seeming): Changes appearance of 1 person per 2 levels.
-- [**Smug Narcissism**](ultimateMagic/spells/smugNarcissism.md#_smug-narcissism): Target is distracted by its sense of self.
-- [**Suffocation**](advanced/spells/suffocation.md#_suffocation): Target quickly suffocates to death.
-- [**Summon Monster V**](spells/summonMonster.md#_summon-monster-v): Summons elemental creature to fight for you.
-- [**Summoner Conduit**](ultimateCombat/spells/summonerConduit.md#_summoner-conduit): The target takes damage whenever its summoned creature does.
-- [**Symbol of Fear**](spells/symbolOfPain.md#_symbol-of-pain)M: Triggered rune panics nearby creatures.
-- [**Symbol of Scrying**](ultimateMagic/spells/symbolOfScrying.md#_symbol-of-scrying): Triggered rune activates scrying sensor.
-- [**Symbol of Sleep**](spells/symbolOfSleep.md#_symbol-of-sleep)M: Triggered rune puts nearby creatures into catatonic slumber.
-- [**Symbol of Striking**](ultimateCombat/spells/symbolOfStriking.md#_symbol-of-striking)M: As _ [symbol of death](spells/symbolOfDeath.md#_symbol-of-death)_, but fills a 5-foot square.
-- [**Telepathic Bond**](spells/telepathicBond.md#_telepathic-bond): Link lets allies communicate.
-- [**Teleport**](spells/teleport.md#_teleport): Instantly transports you as far as 100 miles per level.
-- [**Truespeak**](advancedRaceGuide/featuredRaces/aasimars.md#_truespeak): You can communicate with any creature that is not mindless.
-- [**Village Veil**](advancedRaceGuide/coreRaces/halflings.md#_village-veil): Creates an illusion over an area to make creatures that view or interact with it believe it has suffered a catastrophe that renders it utterly worthless.
-- [**Waves of Fatigue**](spells/wavesOfFatigue.md#_waves-of-fatigue): Several targets become [fatigued](glossary.md#_fatigued).
-- [**Wind Blades**](advancedRaceGuide/featuredRaces/sylphs.md#_wind-blades): Harden the air around the target into jagged invisible blades.
-
-- [**Age Resistance**](ultimateMagic/spells/ageResistance.md#_age-resistance): Ignore penalties from old age.
-- [**Analyze Dweomer**](spells/analyzeDweomer.md#_analyze-dweomer)F: Reveals magical aspects of subject.
-- [**Animate Objects**](spells/animateObjects.md#_animate-objects): Objects attack your foes.
-- [**Binding Earth, Mass**](advancedRaceGuide/featuredRaces/oreads.md#_binding-earth,-mass): Functions as _binding earth_, mass.
-- [**Cloak of Dreams**](advanced/spells/cloakOfDreams.md#_cloak-of-dreams): Causes living creatures within 5 ft. to fall asleep.
-- [**Cone of Cold**](spells/coneOfCold.md#_cone-of-cold): 1d6/level cold damage.
-- [**Cure Light Wounds, Mass**](spells/cureLightWounds.md#_cure-light-wounds-mass): Cures 1d8 damage + 1/level, affects 1 subject/level.
-- [**Dispel Magic, Greater**](spells/dispelMagic.md#_dispel-magic-greater): As _ [dispel magic](spells/dispelMagic.md#_dispel-magic)_, but with multiple targets.
-- [**Dust Form**](ultimateCombat/spells/dustForm.md#_dust-form): You become an incorporeal creature of dust for a short period of time.
-- [**Epidemic**](ultimateMagic/spells/epidemic.md#_epidemic): Infect a subject with a highly contagious disease.
-- [**Eyebite**](spells/eyebite.md#_eyebite): Target becomes [panicked](glossary.md#_panicked), [sickened](glossary.md#_sickened), and comatose.
-- [**Fester, Mass**](advanced/spells/fester.md#_fester,-mass): As _ [fester](advanced/spells/fester.md#_fester)_, but affecting multiple targets.
-- [**Find the Path**](spells/findThePath.md#_find-the-path): Shows most direct way to a location.
-- [**Flesh to Stone**](spells/fleshToStone.md#_flesh-to-stone): Turns subject creature into statue.
-- [**Geas/Quest**](spells/geasQuest.md#_geas-quest): As _lesser geas, _but affects any creature.
-- [**Guards and Wards**](spells/guardsAndWards.md#_guards-and-wards): Array of magic effects protect area.
-- [**Heroism, Greater**](spells/heroism.md#_heroism-greater): Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.
-- [**Ice Crystal Teleport**](ultimateMagic/spells/iceCrystalTeleport.md#_ice-crystal-teleport): Target is frozen, then teleported.
-- [**Inflict Light Wounds, Mass**](spells/inflictLightWounds.md#_inflict-light-wounds-mass): Deals 1d8 damage + 1/level, affects 1 subject/level.
-- [**Legend Lore**](spells/legendLore.md#_legend-lore)MF: Lets you learn tales about a person, place, or thing.
-- [**Named Bullet, Greater**](ultimateCombat/spells/namedBullet.md#_named-bullet,-greater): As _ [named bullet](ultimateCombat/spells/namedBullet.md#_named-bullet)_, but deals 2 points of damage for every caster level.
-- [**Plague Storm**](ultimateMagic/spells/plagueStorm.md#_plague-storm): Cloud infects creatures like _ [contagion](/spells/contagion.md#_contagion)_.
-- [**Raise Dead**](spells/raiseDead.md#_raise-dead)M: Restores life to subject who died as long as one day/level ago.
-- [**Slay Living**](spells/slayLiving.md#_slay-living): Touch attack deals 12d6 +1 per level.
-- [**Stone to Flesh**](spells/stoneToFlesh.md#_stone-to-flesh): Restores petrified creature.
-- [**Suggestion, Mass**](spells/suggestion.md#_suggestion-mass): As _ [suggestion](spells/suggestion.md#_suggestion), _affects 1 subject/level.
-- [**Summon Monster VI**](spells/summonMonster.md#_summon-monster-vi): Summons elemental creature to fight for you.
-- [**Swarm Skin**](advanced/spells/swarmSkin.md#_swarm-skin-): Turns your body into a swarm of vermin.
-- [**Symbol of Fear**](spells/symbolOfFear.md#_symbol-of-fear)M: Triggered rune panics nearby creatures.
-- [**Symbol of Persuasion**](spells/symbolOfPersuasion.md#_symbol-of-persuasion)M: Triggered rune charms creatures.
-- [**Symbol of Sealing**](ultimateMagic/spells/symbolOfSealing.md#_symbol-of-sealing): Create triggered _ [wall of force](/spells/wallOfForce.md#_wall-of-force)_.
-- [**Transformation**](spells/transformation.md#_transformation)M: You gain combat bonuses.
-- [**True Seeing**](spells/trueSeeing.md#_true-seeing)M: Lets you see all things as they really are.
-- [**Unwilling Shield**](advanced/spells/unwillingShield.md#_unwilling-shield)M: Subject shares wounds you receive.
-- [**Vengeful Outrage**](ultimateMagic/spells/vengefulOutrage.md#_vengeful-outrage): Target is compelled to destroy one enemy.
-
-- [**Age Resistance, Greater**](ultimateMagic/spells/ageResistance.md#_age-resistance,-greater): Ignore penalties from venerable age.
-- [**Arcane Sight, Greater**](spells/arcaneSight.md#_arcane-sight-greater): As _ [arcane sight](spells/arcaneSight.md#_arcane-sight)_, but also reveals magic effects on creatures and objects.
-- [**Black Mark**](advancedRaceGuide/coreRaces/humans.md#_black-mark): Functions as a _mark of justice_
-- [**Chain Lightning**](spells/chainLightning.md#_chain-lightning): 1d6/level damage, 1 more bolt/level.
-- [**Control Weather**](spells/controlWeather.md#_control-weather): Changes weather in local area.
-- [**Create Demiplane, Lesser**](ultimateMagic/spells/createDemiplane.md#_create-demiplane,-lesser): Create your own demiplane.
-- [**Cure Moderate Wounds, Mass**](spells/cureModerateWounds.md#_cure-moderate-wounds-mass): Cures 2d8 damage + 1/level, affects 1 subject/level.
-- [**Harm**](spells/harm.md#_harm): Deals 10 points/level damage to target.
-- [**Heal**](spells/heal.md#_heal): Cures 10 points/level damage, all diseases and mental conditions.
-- [**Hold Person, Mass**](spells/holdPerson.md#_hold-person-mass): As _ [hold person](spells/holdPerson.md#_hold-person)_, but all within 30 ft.
-- [**Hostile Juxtaposition, Greater**](ultimateCombat/spells/hostileJuxtaposition.md#_hostile-juxtaposition,-greater): You may target one creature for every four of your caster levels.
-- [**Ice Body**](ultimateMagic/spells/iceBody.md#_ice-body): Your body becomes living ice.
-- [**Inflict Moderate Wounds, Mass**](spells/inflictModerateWounds.md#_inflict-moderate-wounds-mass): Deals 2d8 damage + 1/level, affects 1 subject/level.
-- [**Insanity**](spells/insanity.md#_insanity): Subject suffers continuous _ [confusion](spells/confusion.md#_confusion)_.
-- [**Instant Summons**](spells/instantSummons.md#_instant-summons)M: Prepared object appears in your hand.
-- [**Lunar Veil**](ultimateMagic/spells/lunarVeil.md#_lunar-veil): Dispel light and revert lycanthropes.
-- [**Phase Door**](spells/phaseDoor.md#_phase-door): Creates an [invisible](glossary.md#_invisible) passage through a barrier.
-- [**Plane Shift**](spells/planeShift.md#_plane-shift)F: As many as eight subjects travel to another plane.
-- [**Power Word Blind**](spells/powerWordBlind.md#_power-word-blind): Blinds creature with 200 hp or less.
-- [**Regenerate**](spells/regenerate.md#_regenerate): Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).
-- [**Scouring Winds**](ultimateMagic/spells/scouringWinds.md#_scouring-winds): Winds block vision and deal 3d6 damage per round.
-- [**Scrying, Greater**](spells/scrying.md#_scrying-greater): As _ [scrying](spells/scrying.md#_scrying)_, but faster and longer.
-- [**Summon Monster VII**](spells/summonMonster.md#_summon-monster-vii): Summons elemental creature to fight for you.
-- [**Symbol of Stunning**](spells/symbolOfStunning.md#_symbol-of-stunning)M: Triggered rune stuns creatures.
-- [**Symbol of Weakness**](spells/symbolOfWeakness.md#_symbol-of-weakness)M: Triggered rune weakens creatures.
-- [**Teleport Object**](spells/teleportObject.md#_teleport-object): As _ [teleport](spells/teleport.md#_teleport), _but affects a touched object.
-- [**Teleport, Greater**](spells/teleport.md#_teleport-greater): As _ [teleport](spells/teleport.md#_teleport), _but no range limit and no off-target arrival.
-- [**Temporary Resurrection**](ultimateMagic/spells/temporaryResurrection.md#_temporary-resurrection): Bring a creature to life for 24 hours.
-- [**Vision**](spells/vision.md#_vision)M: As _ [legend lore](spells/legendLore.md#_legend-lore)_, but quicker.
-- [**Walk through Space**](ultimateCombat/spells/walkThroughSpace.md#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
-- [**Waves of Ecstasy**](ultimateMagic/spells/wavesOfEcstasy.md#_waves-of-ecstasy): Pleasure stuns and staggers creatures.
-- [**Waves of Exhaustion**](spells/wavesOfExhaustion.md#_waves-of-exhaustion): Several targets become [exhausted](glossary.md#_exhausted).
-
-- [**Antipathy**](spells/antipathy.md#_antipathy): Object or location affected by spell repels certain creatures.
-- [**Charm Monster, Mass**](spells/charmMonster.md#_charm-monster-mass): As _ [charm monster](spells/charmMonster.md#_charm-monster), _but all within 30 ft.
-- [**Clone**](spells/clone.md#_clone)MF: Duplicate awakens when original dies.
-- [**Create Demiplane**](ultimateMagic/spells/createDemiplane.md#_create-demiplane): As _ [lesser create demiplane](ultimateMagic/spells/createDemiplane.md#_create-demiplane,-lesser)_, but larger and with planar traits.
-- [**Cure Serious Wounds, Mass**](spells/cureSeriousWounds.md#_cure-serious-wounds-mass): Cures 3d8 damage + 1/level, affects 1 subject/level.
-- [**Demand**](spells/demand.md#_demand): As _ [sending](spells/sending.md#_sending), _plus you can send _ [suggestion](spells/suggestion.md#_suggestion)._
-- [**Destruction**](spells/destruction.md#_destruction)F: Kills subject and destroys remains.
-- [**Discern Location**](spells/discernLocation.md#_discern-location): Reveals exact location of creature or object.
-- [**Frightful Aspect**](ultimateCombat/spells/frightfulAspect.md#_frightful-aspect): You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.
-- [**Horrid Wilting**](spells/horridWilting.md#_horrid-wilting): Deals 1d6/level damage within 30 ft.
-- [**Inflict Serious Wounds, Mass**](spells/inflictSeriousWounds.md#_inflict-serious-wounds-mass): Deals 3d8 damage + 1/level, affects 1 subject/level.
-- [**Irresistible Dance**](spells/irresistibleDance.md#_irresistible-dance): Forces subject to dance.
-- [**Maze**](spells/maze.md#_maze): Traps subject in extradimensional maze.
-- [**Mind Blank**](spells/mindBlank.md#_mind-blank): Subject is protected from mental/emotional magic and [scrying](spells/scrying.md#_scrying).
-- [**Moment of Prescience**](spells/momentOfPrescience.md#_moment-of-prescience): You gain +1/level insight bonus on single attack roll, check, or save.
-- [**Nine Lives**](advancedRaceGuide/featuredRaces/catfolk.md#_nine-lives): Gives the target the ability to get out of trouble and relieves harmful effects and conditions.
-- [**Power Word Stun**](spells/powerWordStun.md#_power-word-stun): Stuns creature with 150 hp or less.
-- [**Prediction of Failure**](ultimateMagic/spells/predictionOfFailure.md#_prediction-of-failure): Target is permanently shaken and sickened, and may gain a spellblight.
-- [**Prying Eyes, Greater**](spells/pryingEyes.md#_prying-eyes-greater): As _ [prying eyes](spells/pryingEyes.md#_prying-eyes)_, but eyes have _ [true seeing](spells/trueSeeing.md#_true-seeing)_.
-- [**Resurrection**](spells/resurrection.md#_resurrection)M: Fully restore dead subject.
-- [**Stormbolts**](advanced/spells/stormbolts.md#_stormbolts): 1d8 damage/level (max 20d8) to targets.
-- [**Summon Monster VIII**](spells/summonMonster.md#_summon-monster-viii): Summons elemental creature to fight for you.
-- [**Symbol of Death**](spells/symbolOfDeath.md#_symbol-of-death)M: Triggered rune kills nearby creatures.
-- [**Symbol of Insanity**](spells/symbolOfInsanity.md#_symbol-of-insanity)M: Triggered rune renders nearby creatures insane.
-- [**Sympathy**](spells/sympathy.md#_sympathy)M: Object or location attracts certain creatures.
-- [**Trap the Soul**](spells/trapTheSoul.md#_trap-the-soul)M: Imprisons subject within gem.
-
-- [**Astral Projection**](spells/astralProjection.md#_astral-projection)M: Projects you and companions onto Astral Plane.
-- [**Create Demiplane, Greater**](ultimateMagic/spells/createDemiplane.md#_create-demiplane,-greater): As _ [create demiplane](ultimateMagic/spells/createDemiplane.md#_create-demiplane)_, but larger and with more planar traits.
-- [**Cure Critical Wounds, Mass**](spells/cureCriticalWounds.md#_cure-critical-wounds-mass): Cures 4d8 damage + 1/level for many creatures.
-- [**Cursed Earth**](ultimateMagic/spells/cursedEarth.md#_cursed-earth): Plants die, living creatures catch diseases, or dead creatures rise as zombies.
-- [**Dominate Monster**](spells/dominateMonster.md#_dominate-monster): As _ [dominate person](spells/dominatePerson.md#_dominate-person), _but any creature.
-- [**Elemental Swarm**](spells/elementalSwarm.md#_elemental-swarm): Summons multiple elementals.
-- [**Foresight**](spells/foresight.md#_foresight): “Sixth sense” warns of impending danger.
-- [**Heroic Invocation**](ultimateCombat/spells/heroicInvocation.md#_heroic-invocation): Grants a number of creatures bonuses on attacks and damage, temporary hit points, and immunity to fear and charm effects.
-- [**Hold Monster, Mass**](spells/holdMonster.md#_hold-monster-mass): As _ [hold monster](spells/holdMonster.md#_hold-monster), _but all within 30 ft.
-- [**Inflict Critical Wounds, Mass**](spells/inflictCriticalWounds.md#_inflict-critical-wounds-mass): Deals 4d8 damage + 1/level, affects 1 subject/level.
-- [**Mind Blank, Communal**](ultimateCombat/spells/mindBlank.md#_mind-blank,-communal): As _ [mind blank](spells/mindBlank.md#_mind-blank)_, but you may divide the duration among creatures touched. 
-- [**Polar Midnight**](ultimateMagic/spells/polarMidnight.md#_polar-midnight): Cold darkness paralyzes and deals damage.
-- [**Power Word Kill**](spells/powerWordKill.md#_power-word-kill): Kills one creature with 100 hp or less.
-- [**Refuge**](spells/refuge.md#_refuge)M: Alters item to transport its possessor to your abode.
-- [**Soul Bind**](spells/soulBind.md#_soul-bind)F: Traps newly dead soul to prevent _ [resurrection](spells/resurrection.md#_resurrection)_.
-- [**Storm of Vengeance**](spells/stormOfVengeance.md#_storm-of-vengeance): Storm rains acid, lightning, and hail.
-- [**Suffocation, Mass**](advanced/spells/suffocation.md#_suffocation,-mass): One creature/level suffocates to death.
-- [**Summon Monster IX**](spells/summonMonster.md#_summon-monster-ix): Summons extraplanar creature to fight for you.
-- [**Symbol of Strife**](ultimateMagic/spells/symbolOfStrife.md#_symbol-of-strife): Triggered rune makes creatures attack.
-- [**Symbol of Vulnerability**](ultimateMagic/spells/symbolOfVulnerability.md#_symbol-of-vulnerability): Triggered rune gives penalties.
-- [**Teleportation Circle**](spells/teleportationCircle.md#_teleportation-circle)M: Teleports creatures inside circle.
-- [**Wail of the Banshee**](spells/wailOfTheBanshee.md#_wail-of-the-banshee): Deals 10 damage/level to 1 creature/level.
+- [**Adjuring Step**](ultimateCombat/spells/adjuringStep#_adjuring-step-): You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell. 
+- [**Ant Haul**](advanced/spells/antHaul#_ant-haul-): Triples carrying capacity of a creature.
+- [**Anticipate Peril**](ultimateMagic/spells/anticipatePeril#_anticipate-peril): Target gains a bonus on one initiative check.
+- [**Blend**](advancedRaceGuide/coreRaces/elves#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
+- [**Bomber's Eye**](advanced/spells/bomberSEye#_bomber's-eye): Increases thrown weapon range; +1 attack.
+- [**Comprehend Languages**](spells/comprehendLanguages#_comprehend-languages): You understand all spoken and written languages.
+- [**Crafter's Fortune**](advanced/spells/crafterSFortune#_crafter's-fortune): Subject gains +5 on next [Craft](skills/craft#_craft) check.
+- [**Cure Light Wounds**](spells/cureLightWounds#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
+- [**Detect Secret Doors**](spells/detectSecretDoors#_detect-secret-doors): Reveals hidden doors within 60 ft.
+- [**Detect Undead**](spells/detectUndead#_detect-undead): Reveals undead within 60 ft.
+- [**Disguise Self**](spells/disguiseSelf#_disguise-self): Changes your appearance.
+- [**Endure Elements**](spells/endureElements#_endure-elements): Exist comfortably in hot or cold regions.
+- [**Enlarge Person**](spells/enlargePerson#_enlarge-person): Humanoid creature doubles in size.
+- [**Expeditious Retreat**](spells/expeditiousRetreat#_expeditious-retreat): Your base speed increases by 30 ft.
+- [**Identify**](spells/identify#_identify): Gives +10 bonus to identify magic items.
+- [**Illusion of Calm**](ultimateCombat/spells/illusionOfCalm#_illusion-of-calm): You appear to be standing still, even when you take some actions. 
+- [**Jump**](spells/jump#_jump): Subject gets bonus on Acrobatics checks.
+- [**Keen Senses**](advanced/spells/keenSenses#_keen-senses): Gain +2 [Perception](skills/perception#_perception) and low-light vision.
+- [**Linebreaker**](advancedRaceGuide/coreRaces/halfOrcs#_linebreaker): You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun.
+- [**Longshot**](ultimateCombat/spells/longshot#_longshot): Grants a +10-foot bonus to the range increment for any ranged weapon fired.
+- [**Negate Aroma**](advanced/spells/negateAroma#_negate-aroma): Subject cannot be tracked by scent.
+- [**Polypurpose Panacea**](ultimateMagic/spells/polypurposePanacea#_polypurpose-panacea): Gain a relaxing or entertaining effect.
+- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
+- [**Reduce Person**](spells/reducePerson#_reduce-person): Humanoid creature halves in size.
+- [**See Alignment**](ultimateCombat/spells/seeAlignment#_see-alignment): Pick an alignment; in your sight, creatures and items with that alignment emit a ghostly radiance.
+- [**Shield**](spells/shield#_shield): Invisible disc gives +4 to [AC](combat#_armor-class), blocks _ [magic missile](spells/magicMissile#_magic-missile)s._
+- [**Shock Shield**](ultimateCombat/spells/shockShield#_shock-shield): A shield of force protects you until you dismiss it in an explosion of electricity. 
+- [**Stone Fist**](advanced/spells/stoneFist#_stone-fist): Your unarmed strikes are lethal.
+- [**Targeted Bomb Admixture**](ultimateCombat/spells/targetedBombAdmixture#_targeted-bomb-admixture): Empowers bombs you throw to deal more damage to a single creature.
+- [**Touch of the Sea**](advanced/spells/touchOfTheSea#_touch-of-the-sea): [Swim](skills/swim#_swim) speed becomes 30 ft.
+- [**True Strike**](spells/trueStrike#_true-strike): +20 on your next attack roll.
+- [**Urban Grace**](advancedRaceGuide/coreRaces/halfElves#_urban-grace): You become one with the city around you, allowing you to move more easily through its crowds and buildings.
+- [**Vocal Alteration**](ultimateMagic/spells/vocalAlteration#_vocal-alteration): [Disguise](/skills/disguise#_disguise) target's voice.
+- [**Youthful Appearance**](ultimateMagic/spells/youthfulAppearance#_youthful-appearance): Target appears younger.
+
+- [**Ablative Barrier**](ultimateCombat/spells/ablativeBarrier#_ablative-barrier): Surrounds the target with layers of force.
+- [**Acute Senses**](ultimateMagic/spells/acuteSenses#_acute-senses): Subject gains a bonus on [Perception](/skills/perception#_perception) checks.
+- [**Aid**](spells/aid#_aid): +1 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).
+- [**Alchemical Allocation**](advanced/spells/alchemicalAllocation#_alchemical-allocation): Gain potion's benefits without consuming it.
+- [**Alter Self**](spells/alterSelf#_alter-self): Assume form of a Small or Medium humanoid.
+- [**Ancestral Regression**](advancedRaceGuide/featuredRaces/drow#_ancestral-regression): The target drow transforms into a surface elf.
+- [**Animal Aspect**](ultimateCombat/spells/animalAspect#_animal-aspect): You gain some of the beneficial qualities of an animal.
+- [**Ant Haul, Communal**](ultimateCombat/spells/antHaul#_ant-haul,-communal): As _ [ant haul](advanced/spells/antHaul#_ant-haul-)_, but you may divide the duration among creatures touched.
+- [**Barkskin**](spells/barkskin#_barkskin): Grants +2 (or higher) enhancement to natural armor.
+- [**Bear's Endurance**](spells/bearSEndurance#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted#_constitution) for 1 min./level.
+- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency#_bestow-weapon-proficiency): Grants a creature proficiency in a single weapon for short period of time.
+- [**Blistering Invective**](ultimateCombat/spells/blisteringInvective#_blistering-invective): Make an [Intimidate](skills/intimidate#_intimidate) check against all foes within 30 feet; those demoralized also take fire damage.
+- [**Blood Blaze**](advancedRaceGuide/featuredRaces/orcs#_blood-blaze): 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air.
+- [**Blood Transcription**](ultimateMagic/spells/bloodTranscription#_blood-transcription): Learn a spell from the target's blood.
+- [**Blur**](spells/blur#_blur): Attacks miss subject 20% of the time.
+- [**Bull's Strength**](spells/bullSStrength#_bull-s-strength): Subject gains +4 to Str for 1 min./level.
+- [**Bullet Shield**](ultimateCombat/spells/bulletShield#_bullet-shield): You gain a +4 deflection bonus to AC against firearm attacks.
+- [**Cat's Grace**](spells/catSGrace#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted#_dexterity) for 1 min./level.
+- [**Certain Grip**](ultimateCombat/spells/certainGrip#_certain-grip-): You gain a +4 competence bonus on [Acrobatics](skills/acrobatics#_acrobatics) and [Climb](skills/climb#_climb) checks and to CMD.
+- [**Cure Moderate Wounds**](spells/cureModerateWounds#_cure-moderate-wounds): Cures 2d8 damage +1/level (max. +10).
+- [**Darkvision**](spells/darkvision#_darkvision): See 60 ft. in total darkness.
+- [**Defensive Shock**](ultimateMagic/spells/defensiveShock#_defensive-shock): Electricity damages your attackers.
+- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk#_delay-disease): The target becomes temporarily immune to disease.
+- [**Delay Poison**](spells/delayPoison#_delay-poison): Stops poison from harming subject for 1 hour/level.
+- [**Detect Thoughts**](spells/detectThoughts#_detect-thoughts): Allows “listening” to surface thoughts.
+- [**Eagle's Splendor**](spells/eagleSSplendor#_eagle-s-splendor): Subject gains +4 to Cha for 1 min./level.
+- [**Elemental Touch**](advanced/spells/elementalTouch#_elemental-touch): Gain energy damage touch attack.
+- [**False Life**](spells/falseLife#_false-life): Gain 1d10 temporary hp + 1/level (max +10).
+- [**Fire Breath**](advanced/spells/fireBreath#_fire-breath): Exhale a cone of flame at will.
+- [**Fox's Cunning**](spells/foxSCunning#_fox-s-cunning): Subject gains +4 to [Int](gettingStarted#_intelligence) for 1 min./level.
+- [**Ghostly Disguise**](ultimateMagic/spells/ghostlyDisguise#_ghostly-disguise): You look like a ghost of yourself.
+- [**Invisibility**](spells/invisibility#_invisibility): Subject is invisible for 1 min./level or until it attacks.
+- [**Kinetic Reverberation**](ultimateCombat/spells/kineticReverberation#_kinetic-reverberation-): Channels the force of an enemy's attack back into its weapon.
+- [**Levitate**](spells/levitate#_levitate): Subject moves up and down at your direction.
+- [**Minor Dream**](advancedRaceGuide/coreRaces/gnomes#_minor-dream): This spell functions as the _dream spell_, except the messenger must be yourself or a gnome touched.
+- [**Owl's Wisdom**](spells/owlSWisdom#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted#_wisdom) for 1 min./level.
+- [**Perceive Cues**](advanced/spells/perceiveCues#_perceive-cues): +5 [Perception](skills/perception#_perception) and [Sense Motive](../skills/senseMotive#_sense-motive) 10 min./level.
+- [**Poison**](spells/poison#_poison): Touch deals 1d3 Con damage 1/round for 6 rounds.
+- [**Protection from Arrows**](spells/protectionFromArrows#_protection-from-arrows): Subject gains [DR](glossary#_damage-reduction) 10/magic against ranged attacks.
+- [**Resist Energy**](spells/resistEnergy#_resist-energy): Ignores first 10 (or more) points of damage per attack from specified energy type.
+- [**Restoration, Lesser**](spells/restoration#_restoration-lesser): Dispels magical ability penalty or repairs 1d4 ability damage.
+- [**See Invisibility**](spells/seeInvisibility#_see-invisibility): Reveals [invisible](glossary#_invisible) creatures or objects.
+- [**Shadow Bomb Admixture**](ultimateCombat/spells/shadowBombAdmixture#_shadow-bomb-admixture): Empowers bombs you throw to cover the target with a shadowy substance that grants it concealment and limits its vision.
+- [**Sickening Strikes**](advancedRaceGuide/featuredRaces/ratfolk#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
+- [**Skinsend**](ultimateMagic/spells/skinsend#_skinsend): Animate and possess your own skin as if it were a separate creature.
+- [**Spider Climb**](spells/spiderClimb#_spider-climb): Grants ability to walk on walls and ceilings.
+- [**Squeeze**](advancedRaceGuide/uncommonRaces/vishkanyas#_squeeze): The target becomes flexible regardless of its actual size and mass.
+- [**Touch Injection**](ultimateCombat/spells/touchInjection#_touch-injection): You can deliver an infusion, elixir, poison, or potion as a touch attack.
+- [**Transmute Potion to Poison**](advanced/spells/transmutePotionToPoison#_transmute-potion-to-poison): Spit poison onto weapon after drinking potion.
+- [**Undetectable Alignment**](spells/undetectableAlignment#_undetectable-alignment): Conceals alignment for 24 hours.
+- [**Vomit Swarm**](advanced/spells/vomitSwarm#_vomit-swarm): Produces a spider swarm that fights for you.
+
+- [**Absorb Toxicity**](ultimateCombat/spells/absorbToxicity#_absorb-toxicity): You become immune to diseases and toxins, absorb one, and then spread it to others.
+- [**Absorbing Touch**](advanced/spells/absorbingTouch#_absorbing-touch): Caster absorbs an item for 1 day/level.
+- [**Age Resistance, Lesser**](ultimateMagic/spells/ageResistance#_age-resistance,-lesser): Ignore penalties from middle age.
+- [**Amplify Elixir**](advanced/spells/amplifyElixir#_amplify-elixir): Empowers or extends the effects of any potion or elixir.
+- [**Animal Aspect, Greater**](ultimateCombat/spells/animalAspect#_animal-aspect,-greater): As _ [animal aspect](ultimateCombat/spells/animalAspect#_animal-aspect)_, but you gain two animal qualities.
+- [**Arcane Sight**](spells/arcaneSight#_arcane-sight): Magical auras become visible to you.
+- [**Battle Trance**](advancedRaceGuide/coreRaces/halfOrcs#_battle-trance): You are transformed into a single-minded force of destruction.
+- [**Beast Shape I**](spells/beastShape#_beast-shape-i): You take the form and some of the powers of a Small or Medium animal.
+- [**Bloodhound**](advanced/spells/bloodhound#_bloodhound): Enhances sense of smell and grants the caster the scent special ability.
+- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
+- [**Burrow**](ultimateMagic/spells/burrow#_burrow): Target gains a burrow speed of 15.
+- [**Burst of Speed**](ultimateCombat/spells/burstOfSpeed#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
+- [**Countless Eyes**](ultimateMagic/spells/countlessEyes#_countless-eyes): Extra eyes give all-around vision.
+- [**Cure Serious Wounds**](spells/cureSeriousWounds#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
+- [**Darkvision, Communal**](ultimateCombat/spells/darkvision#_darkvision,-communal): As _ [darkvision](spells/darkvision#_darkvision)_, but you may divide the duration among creatures touched.
+- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison#_delay-poison,-communal): As _ [delay poison](spells/delayPoison#_delay-poison)_, but you may divide the duration among creatures touched.
+- [**Displacement**](spells/displacement#_displacement): Attacks miss subject 50% of the time.
+- [**Draconic Reservoir**](advanced/spells/draconicReservoir#_draconic-reservoir-): Subject can absorb energy damage and enhance melee attacks with it.
+- [**Elemental Aura**](advanced/spells/elementalAura#_elemental-aura): Creates an aura of energy around you.
+- [**Endure Elements, Communal**](ultimateCombat/spells/endureElements#_endure-elements,-communal): As _ [endure elements](spells/endureElements#_endure-elements)_, but you may divide the duration among creatures touched.
+- [**Eruptive Pustules**](ultimateMagic/spells/eruptivePustules#_eruptive-pustules): Acid boils burst when you are attacked.
+- [**Fire Trail**](advancedRaceGuide/featuredRaces/goblins#_fire-trail): Flammable liquid oozes from your pores, dripping onto the ground and spontaneously combusting.
+- [**Fly**](spells/fly): Subject flies at a speed of 60 ft.
+- [**Gaseous Form**](spells/gaseousForm#_gaseous-form): Become insubstantial and fly slowly.
+- [**Haste**](spells/haste#_haste): One creature/level moves faster, +1 on attack rolls, [AC](combat#_armor-class), and [Reflex](combat#_reflex) saves.
+- [**Heroism**](spells/heroism#_heroism): Gives +2 bonus on attack rolls, saves, skill checks.
+- [**Lightning Lash Bomb Admixture**](ultimateCombat/spells/lightningLashBombAdmixture#_lightning-lash-bomb-admixture): Empowers bombs you throw with a ward that deals lightning damage each time those damaged by the bomb move more than 5 feet. 
+- [**Marionette Possession**](ultimateMagic/spells/marionettePossession#_marionette-possession): As _ [magic jar](/spells/magicJar#_magic-jar)_, but limited to line of sight.
+- [**Monstrous Physique I**](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-i): Take the form and some of the powers of a Small or Medium monstrous humanoid.
+- [**Nondetection**](spells/nondetection#_nondetection)M: Hides subject from divination, [scrying](spells/scrying#_scrying).
+- [**Paragon Surge**](advancedRaceGuide/coreRaces/halfElves#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
+- [**Prehensile Pilfer**](advancedRaceGuide/uncommonRaces/vanaras#_prehensile-pilfer): The target's tail moves and acts more quickly, almost with a mind of its own.
+- [**Protection From Energy**](spells/protectionFromEnergy#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
+- [**Protection from Arrows, Communal**](ultimateCombat/spells/protectionFromArrows#_protection-from-arrows,-communal): As _ [protection from arrows](spells/protectionFromArrows#_protection-from-arrows)_, but you may divide the duration among creatures touched.
+- [**Rage**](spells/rage#_rage): Gives +2 to [Str](gettingStarted#_strength) and [Con](gettingStarted#_constitution), +1 on [Will](combat#_will) saves, –2 to [AC](combat#_armor-class).
+- [**Remove Blindness/Deafness**](spells/removeBlindnessDeafness#_remove-blindness-deafness): Cures normal or magical blindness or deafness.
+- [**Remove Curse**](spells/removeCurse#_remove-curse): Frees object or person from curse.
+- [**Remove Disease**](spells/removeDisease#_remove-disease): Cures all diseases affecting subject.
+- [**Resinous Skin**](ultimateCombat/spells/resinousSkin#_resinous-skin): You gain DR 5/piercing and +4 to CMD against disarm attempts.
+- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy#_resist-energy)_, but you may divide the duration among creatures touched.
+- [**Seek Thoughts**](advanced/spells/seekThoughts#_seek-thoughts): Detects thinking creatures' thoughts.
+- [**Spider Climb, Communal**](ultimateCombat/spells/spiderClimb#_spider-climb,-communal): As _ [spider climb](spells/spiderClimb#_spider-climb)_, but you may divide the duration among creatures touched.
+- [**Thorn Body**](advanced/spells/thornBody#_thorn-body): Those attacking you take 1d6 +1 damage/level.
+- [**Tongues**](spells/tongues#_tongues): Speak and understand any language.
+- [**Undead Anatomy I**](ultimateMagic/spells/undeadAnatomy#_undead-anatomy-i): Take the form and some of the powers of a Small or Medium undead.
+- [**Vomit Twin**](advancedRaceGuide/featuredRaces/goblins#_vomit-twin): You vomit forth a disgusting ooze copy of yourself into a single adjacent square.
+- [**Water Breathing**](spells/waterBreathing#_water-breathing): Subjects can breathe underwater.
+
+- [**Absorbing Inhalation**](advancedRaceGuide/featuredRaces/sylphs#_absorbing-inhalation): Harmlessly and completely inhale one gas, fog, smoke, mist, or similar cloud-like effect.
+- [**Age Resistance**](ultimateMagic/spells/ageResistance#_age-resistance): Ignore penalties from old age.
+- [**Air Walk**](spells/airWalk#_air-walk): Subject treads on air as if solid (climb or descend at 45-degree angle).
+- [**Arcane Eye**](spells/arcaneEye#_arcane-eye): Invisible floating eye moves 30 ft./round.
+- [**Beast Shape II**](spells/beastShape#_beast-shape-ii): You take the form and some of the powers of a Tiny or Large animal.
+- [**Cure Critical Wounds**](spells/cureCriticalWounds#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
+- [**Darkvision, Greater**](ultimateMagic/spells/darkvision#_darkvision,-greater): See 120 ft. in total darkness.
+- [**Death Ward**](spells/deathWard#_death-ward): Grants bonuses against death spells and negative energy.
+- [**Detonate**](advanced/spells/detonate#_detonate)M: Inflicts 1d8/level energy damage to all creatures within 15 ft.
+- [**Discern Lies**](spells/discernLies#_discern-lies): Reveals deliberate falsehoods.
+- [**Dragon's Breath**](advanced/spells/dragonSBreath#_dragon's-breath): Gives you a dragon's breath weapon.
+- [**Earth Glide**](advancedRaceGuide/uncommonRaces/svirfneblins#_earth-glide): The target can pass through stone, dirt, or almost any other sort of earth except metal.
+- [**Echolocation**](ultimateMagic/spells/echolocation#_echolocation): Sonic sense gives you blindsight 40 ft.
+- [**Elemental Body I**](spells/elementalBody#_elemental-body-i): Turns you into a Small elemental.
+- [**False Life, Greater**](ultimateMagic/spells/falseLife#_false-life,-greater): Gain 2d10 temporary hp + 1/level.
+- [**Fire Shield**](spells/fireShield#_fire-shield): Creatures attacking you take fire damage; you're protected from heat or cold.
+- [**Fluid Form**](advanced/spells/fluidForm#_fluid-form): Gain DR 10/slashing, increases reach 10 ft., and breathe water.
+- [**Freedom of Movement**](spells/freedomOfMovement#_freedom-of-movement): Subject moves normally despite impediments to movement.
+- [**Healing Warmth**](advancedRaceGuide/featuredRaces/ifrits#_healing-warmth): Temporary immunity to fire damage as _protection from energy_.
+- [**Invisibility, Greater**](spells/invisibility#_invisibility-greater): As _ [invisibility](../spells/invisibility#_invisibility)_, but subject can attack and stay invisible.
+- [**Miasmatic Form**](advancedRaceGuide/featuredRaces/sylphs#_miasmatic-form): Functions like _gaseous form_, except target's vaporous body is dangerous to creatures that touch it.
+- [**Monstrous Physique II**](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-ii): Take the form and some of the powers of a Tiny or Large monstrous humanoid.
+- [**Mutagenic Touch**](ultimateCombat/spells/mutagenicTouch#_mutagenic-touch): You can pass a weaker version of your mutagen to another creature.
+- [**Neutralize Poison**](spells/neutralizePoison#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
+- [**Restoration**](spells/restoration#_restoration)M: Restores level and ability score drains.
+- [**Scorching Ash Form**](advancedRaceGuide/featuredRaces/ifrits#_scorching-ash-form): Functions like _gaseous form_, except the target becomes a visible swirl of hot ash and smoke.
+- [**Spell Immunity**](spells/spellImmunity#_spell-immunity): Subject is immune to one spell per 4 levels.
+- [**Stoneskin**](spells/stoneskin#_stoneskin)M: Grants DR 10/adamantine.
+- [**Tongues, Communal**](ultimateCombat/spells/tongues#_tongues,-communal): As _ [tongues](spells/tongues#_tongues)_, but you may divide the duration among creatures touched.
+- [**Touch of Slime**](ultimateMagic/spells/touchOfSlime#_touch-of-slime): Touch infests a target with green slime.
+- [**Universal Formula**](advanced/spells/universalFormula#_universal-formula)M: Acts as any extract 3rd level or lower.
+- [**Vermin Shape I**](ultimateMagic/spells/verminShape#_vermin-shape-i-): Take the form and some of the powers of a Small or Medium vermin.
+- [**Viper Bomb Admixture**](ultimateCombat/spells/viperBombAdmixture#_viper-bomb-admixture): Empowers bombs you throw to summon poisonous biting vipers that bite those hit or splashed by the bomb.
+- [**Vitriolic Mist**](ultimateMagic/spells/vitriolicMist#_vitriolic-mist): As _ [fire shield](/spells/fireShield#_fire-shield)_, except acid damage.
+
+- [**Air Walk, Communal**](ultimateCombat/spells/airWalk#_air-walk,-communal): As _ [air walk](spells/airWalk#_air-walk)_, but you may divide the duration among creatures touched.
+- [**Age Resistance, Greater**](ultimateMagic/spells/ageResistance#_age-resistance,-greater): Ignore any penalties from venerable age.
+- [**Beast Shape III**](spells/beastShape#_beast-shape-iii): You take the form of a Diminutive or Huge animal, or Small or Medium magical beast.
+- [**Contact Other Plane**](spells/contactOtherPlane#_contact-other-plane): Lets you ask question of extraplanar entity.
+- [**Delayed Consumption**](advanced/spells/delayedConsumption#_delayed-consumption): Extract doesn't come into effect until you want it to.
+- [**Dream**](spells/dream#_dream): Sends message to anyone sleeping.
+- [**Dust Form**](ultimateCombat/spells/dustForm#_dust-form): You become an incorporeal creature of dust for a short period of time.
+- [**Elemental Body II**](spells/elementalBody#_elemental-body-ii): You become a Medium elemental.
+- [**Elude Time**](advanced/spells/eludeTime#_elude-time)M: Puts you in temporary suspended animation.
+- [**Half-blood Extraction**](advancedRaceGuide/coreRaces/halfOrcs#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
+- [**Languid Bomb Admixture**](ultimateCombat/spells/languidBombAdmixture#_languid-bomb-admixture): Empowers bombs you throw to cause fatigue in those directly hit or splashed by the bomb.
+- [**Magic Jar**](spells/magicJar#_magic-jar)F: Enables possession of another creature.
+- [**Monstrous Physique III**](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-iii): Take the form and some of the powers of a Diminutive or Huge monstrous humanoid.
+- [**Nightmare**](spells/nightmare#_nightmare): Sends vision dealing 1d10 damage, fatigue.
+- [**Overland Flight**](spells/overlandFlight#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
+- [**Planar Adaptation**](advanced/spells/planarAdaptation#_planar-adaptation): Resist harmful effects of one plane.
+- [**Plant Shape I**](spells/plantShape#_plant-shape-i): Turns you into a Small or Medium plant.
+- [**Polymorph**](spells/polymorph#_polymorph): Gives one willing subject a new form.
+- [**Resurgent Transformation**](advanced/spells/resurgentTransformation#_resurgent-transformation)M: Gain second wind when close to death.
+- [**Sending**](spells/sending#_sending): Delivers short message anywhere, instantly.
+- [**Spell Resistance**](spells/spellResistance#_spell-resistance): Subject gains SR 12 + level.
+- [**Stoneskin, Communal**](ultimateCombat/spells/stoneskin#_stoneskin,-communal)M: As _ [stoneskin](spells/stoneskin#_stoneskin)_, but you may divide the duration among creatures touched.
+- [**Undead Anatomy II**](ultimateMagic/spells/undeadAnatomy#_undead-anatomy-ii): Take the form and some of the powers of a Tiny or Large undead.
+- [**Vermin Shape II**](ultimateMagic/spells/verminShape#_vermin-shape-ii): As _vermin shape_, but Tiny or Large.
+
+- [**Analyze Dweomer**](spells/analyzeDweomer#_analyze-dweomer)F: Reveals magical aspects of subject.
+- [**Beast Shape IV**](spells/beastShape#_beast-shape-iv): You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast.
+- [**Caging Bomb Admixture**](ultimateCombat/spells/cagingBombAdmixture#_caging-bomb-admixture): Your bombs create a cage of force that traps creatures inside the bomb's splash radius. 
+- [**Elemental Body III**](spells/elementalBody#_elemental-body-iii): Turns you into a Large elemental.
+- [**Eyebite**](spells/eyebite#_eyebite): Target becomes [panicked](glossary#_panicked), [sickened](glossary#_sickened), and comatose.
+- [**Form of the Dragon I**](spells/formOfTheDragon#_form-of-the-dragon-i): Turns you into a Medium dragon.
+- [**Giant Form I**](spells/giantForm#_giant-form-i): Turns you into a Large giant.
+- [**Heal**](spells/heal#_heal): Cures 10 points/level damage, all diseases and mental conditions.
+- [**Mislead**](spells/mislead#_mislead): Turns you [invisible](glossary#_invisible) and creates illusory double.
+- [**Monstrous Physique IV**](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-iv): As _ [monstrous physique III](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-iii)_, with more abilities.
+- [**Plant Shape II**](spells/plantShape#_plant-shape-ii): Turns you into a Large plant creature.
+- [**Shadow Walk**](spells/shadowWalk#_shadow-walk): Step into shadow to travel rapidly.
+- [**Statue**](spells/statue#_statue): Subject can become a statue at will.
+- [**Transformation**](spells/transformation#_transformation)M: You gain combat bonuses.
+- [**True Seeing**](spells/trueSeeing#_true-seeing)M: Lets you see all things as they really are.
+- [**Twin Form**](advanced/spells/twinForm#_twin-form): Creates controllable duplicate of you.
+- [**Undead Anatomy III**](ultimateMagic/spells/undeadAnatomy#_undead-anatomy-iii): Take the form and some of the powers of a Diminutive or Huge undead.
+- [**Walk through Space**](ultimateCombat/spells/walkThroughSpace#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
+- [**Wind Walk**](spells/windWalk#_wind-walk): You and your allies turn vaporous and travel fast.
+
+- [**Bane**](spells/bane): Enemies take –1 on attack rolls and saves vs. fear.
+- [**Blood Blaze**](advancedRaceGuide/featuredRaces/orcs#_blood-blaze): 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air.
+- [**Cause Fear**](spells/causeFear#_cause-fear): A creature of 5 HD or less flees for 1d4 rounds.
+- [**Command**](spells/command#_command): One subject obeys a command for 1 round.
+- [**Death Candle**](advancedRaceGuide/featuredRaces/ifrits#_death-candle): Functions like _death knell_, except you summon a Small fire elemental resembling the slain creature.
+- [**Death Knell**](spells/deathKnell#_death-knell): Kills dying creature; you gain 1d8 temporary hp, +2 to Str, and +1 caster level.
+- [**Detect Poison**](spells/detectPoison#_detect-poison): Detects poison in a creature or object.
+- [**Disguise Self**](spells/disguiseSelf#_disguise-self): Changes your appearance.
+- [**Doom**](spells/doom#_doom): One subject takes –2 on attack rolls, damage rolls, saves, and checks.
+- [**Inflict Light Wounds**](spells/inflictLightWounds#_inflict-light-wounds): Touch deals 1d8 damage +1/level (max +5).
+- [**Ironbeard**](advancedRaceGuide/coreRaces/dwarves#_ironbeard): Causes a brushy beard of stiff iron to erupt from the face of a willing target.
+- [**Linebreaker**](advancedRaceGuide/coreRaces/halfOrcs#_linebreaker): You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun.
+- [**Litany of Sloth**](ultimateCombat/spells/litanyOfSloth#_litany-of-sloth): Single target cannot make attacks of opportunity for 1 round.
+- [**Litany of Weakness**](ultimateCombat/spells/litanyOfWeakness#_litany-of-weakness): Single target is fatigued for 1 round.
+- [**Longshot**](ultimateCombat/spells/longshot#_longshot): Grants a +10 foot bonus to the range increment for any ranged weapon fired.
+- [**Magic Weapon**](spells/magicWeapon#_magic-weapon): Weapon gains +1 bonus.
+- [**Murderous Command**](ultimateMagic/spells/murderousCommand#_murderous-command): Target is compelled to kill its ally.
+- [**Read Magic**](spells/readMagic#_read-magic): Read scrolls and spellbooks.
+- [**Savage Maw**](advancedRaceGuide/coreRaces/halfOrcs#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
+- [**Sentry Skull**](advancedRaceGuide/featuredRaces/orcs#_sentry-skull): Restore the senses to the severed head of a humanoid or monstrous humanoid killed within the past 24 hours, creating a grisly sentinel.
+- [**Summon Minor Monster**](ultimateMagic/spells/summonMinorMonster#_summon-minor-monster): Summon 1d3 Tiny animals.
+- [**Summon Monster I**](spells/summonMonster#_summon-monster-i): _(Evil creatures only.) _Summons extraplanar creature to fight for you.
+- [**Wartrain Mount**](ultimateMagic/spells/wartrainMount#_wartrain-mount): Animal gains the combat training general purpose.
+
+- [**Agonizing Rebuke**](advancedRaceGuide/featuredRaces/hobgoblins#_agonizing-rebuke): You instill such apprehension about attacking you in your target that doing so causes it mental distress and pain.
+- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency#_bestow-weapon-proficiency): Grant a creature proficiency in a single weapon for short period of time.
+- [**Blindness/Deafness**](spells/blindnessDeafness#_blindness-deafness): Makes subject blind or deaf.
+- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
+- [**Bull's Strength**](spells/bullSStrength#_bull-s-strength): Subject gains +4 to Str for 1 min./level.
+- [**Corruption Resistance**](advanced/spells/corruptionResistance#_corruption-resistance): Protects creature against damage from alignment-based attacks.
+- [**Darkness**](spells/darkness#_darkness): 20-ft. radius of supernatural shadow.
+- [**Darkvision**](spells/darkvision#_darkvision): See 60 ft. in total darkness.
+- [**Eagle's Splendor**](spells/eagleSSplendor#_eagle-s-splendor): Subject gains +4 to Cha for 1 min./level.
+- [**Enemy's Heart**](advancedRaceGuide/featuredRaces/orcs#_enemy's-heart): Cut out an enemy's heart and consume it, absorbing that enemy's power as your own.
+- [**Hold Person**](spells/holdPerson#_hold-person): Paralyzes one humanoid for 1 round/level.
+- [**Improve Trap**](advancedRaceGuide/featuredRaces/kobolds#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
+- [**Invisibility**](spells/invisibility#_invisibility): Subject is invisible for 1 min./level or until it attacks.
+- [**Litany of Defense**](ultimateCombat/spells/litanyOfDefense#_litany-of-defense): Doubles armor's enhancement bonus.
+- [**Litany of Eloquence**](ultimateCombat/spells/litanyOfEloquence#_litany-of-eloquence): Fascinates a single creature for 1 round.
+- [**Litany of Entanglement**](ultimateCombat/spells/litanyOfEntanglement#_litany-of-entanglement): Entangles a creature for 1 round.
+- [**Litany of Warding**](ultimateCombat/spells/litanyOfWarding#_litany-of-warding): You gain two additional attacks of opportunity for 1 round.
+- [**Magic Siege Engine**](ultimateCombat/spells/magicSiegeEngine#_magic-siege-engine): Siege engine gains +1 on targeting and damage rolls.
+- [**Pernicious Poison**](ultimateMagic/spells/perniciousPoison#_pernicious-poison): Target takes a –4 penalty against poison.
+- [**Protection from Good, Communal**](ultimateCombat/spells/protectionFromGood#_protection-from-good,-communal): As _ [protection from good](spells/protectionFromGood#_protection-from-good)_, but you may divide the duration among creatures touched.
+- [**Protection from Law, Communal**](ultimateCombat/spells/protectionFromLaw#_protection-from-law,-communal): As _ [protection from law](spells/protectionFromLaw#_protection-from-law)_, but you may divide the duration among creatures touched.
+- [**Scare**](spells/scare#_scare): Frightens creature of less than 6 HD.
+- [**Sickening Strikes**](advancedRaceGuide/featuredRaces/ratfolk#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
+- [**Silence**](spells/silence#_silence): Negates sound in 20-ft. radius.
+- [**Summon Monster II**](spells/summonMonster#_summon-monster-ii): _(Evil creatures only.)_ Summons extraplanar creature to fight for you.
+- [**Toxic Gift**](ultimateMagic/spells/toxicGift#_toxic-gift): Target suffers the effect of a poison in you.
+- [**Unadulterated Loathing**](ultimateMagic/spells/unadulteratedLoathing#_unadulterated-loathing): Target is compelled to avoid another creature.
+- [**Undetectable Alignment**](spells/undetectableAlignment#_undetectable-alignment): Conceals alignment for 24 hours.
+- [**Vestment of the Champion**](ultimateMagic/spells/vestmentOfTheChampion#_vestment-of-the-champion): Armor or shield gains a +1 enhancement per four levels.
+
+- [**Ancestral Regression**](advancedRaceGuide/featuredRaces/drow#_ancestral-regression): The target drow transforms into a surface elf.
+- [**Battle Trance**](advancedRaceGuide/coreRaces/halfOrcs#_battle-trance): You are transformed into a single-minded force of destruction.
+- [**Bestow Curse**](spells/bestowCurse#_bestow-curse): –6 to an ability score; –4 on attack rolls, saves, and checks; or 50% chance of losing each action.
+- [**Blade of Dark Triumph**](ultimateMagic/spells/bladeOfDarkTriumph#_blade-of-dark-triumph): Bonded weapon gains _ [ghost touch](/magicItems/weapons#_weapons-ghost-touch)_.
+- [**Burst of Speed**](ultimateCombat/spells/burstOfSpeed#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
+- [**Contagion**](spells/contagion#_contagion): Infects subject with chosen disease.
+- [**Darkvision, Communal**](ultimateCombat/spells/darkvision#_darkvision,-communal): As _ [darkvision](spells/darkvision#_darkvision)_, but you may divide the duration among creatures touched.
+- [**Deadly Juggernaut**](ultimateCombat/spells/deadlyJuggernaut#_deadly-juggernaut): Your might increases with every kill you make.
+- [**Deeper Darkness**](spells/deeperDarkness#_deeper-darkness): Object sheds shadows in 60-ft. radius.
+- [**Defile Armor**](advanced/spells/defileArmor#_defile-armor): As _ [sanctify armor](advanced/spells/sanctifyArmor#_sanctify-armor)_, but gain DR 5/good when using judgment or smite.
+- [**Dispel Magic**](spells/dispelMagic#_dispel-magic): Cancels one magical spell or effect.
+- [**Inflict Moderate Wounds**](spells/inflictModerateWounds#_inflict-moderate-wounds): Touch attack, 2d8 damage +1/level (max +10).
+- [**Litany of Escape**](ultimateCombat/spells/litanyOfEscape#_litany-of-escape): Teleports a friend out of a grapple.
+- [**Litany of Sight**](ultimateCombat/spells/litanyOfSight#_litany-of-sight): You can see invisible creatures and objects within 30 feet of you.
+- [**Magic Weapon, Greater**](spells/magicWeapon#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
+- [**Summon Monster III**](spells/summonMonster#_summon-monster-iii): _(Evil creatures only.)_ Summons extraplanar creature to fight for you.
+- [**Utter Contempt**](ultimateMagic/spells/utterContempt#_utter-contempt): Target's attitude worsens by two categories.
+- [**Vampiric Touch**](spells/vampiricTouch#_vampiric-touch): Touch deals 1d6 damage/2 levels; caster gains damage as temporary hp.
+
+- [**Darkvision, Greater**](ultimateMagic/spells/darkvision#_darkvision,-greater): See 120 ft. in total darkness.
+- [**Dispel Good**](spells/dispelGood#_dispel-good): +4 against attacks by good creatures.
+- [**Dispel Law**](spells/dispelLaw#_dispel-law): +4 against attacks by lawful creatures.
+- [**Fear**](spells/fear#_fear): Subjects within cone flee for 1 round/level.
+- [**Inflict Serious Wounds**](spells/inflictSeriousWounds#_inflict-serious-wounds): Touch attack, 3d8 damage +1/level (max +15).
+- [**Invisibility, Greater**](spells/invisibility#_invisibility-greater): As _ [invisibility](../spells/invisibility#_invisibility)_, but subject can attack and stay invisible.
+- [**Litany of Madness**](ultimateCombat/spells/litanyOfMadness#_litany-of-madness): A single target is confused for at least 1 round.
+- [**Litany of Thunder**](ultimateCombat/spells/litanyOfThunder#_litany-of-thunder): A single target is deafened until the condition is removed, and is confused for 1 round.
+- [**Litany of Vengeance**](ultimateCombat/spells/litanyOfVengeance#_litany-of-vengeance): Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.
+- [**Magic Siege Engine, Greater**](ultimateCombat/spells/magicSiegeEngine#_magic-siege-engine,-greater): Siege engine gains +1 on targeting and damage rolls for every four caster levels.
+- [**Nondetection, Communal**](ultimateCombat/spells/nondetection#_nondetection,-communal)M: As _ [nondetection](spells/nondetection#_nondetection)_, but you may divide the duration among creatures touched.
+- [**Poison**](spells/poison#_poison): Touch deals 1d3 Con damage 1/round for 6 rounds.
+- [**Resounding Blow**](advanced/spells/resoundingBlow#_resounding-blow): Melee attack deals 1d6 more damage.
+- [**Slay Living**](spells/slayLiving#_slay-living): Touch attack deals 12d6 +1 per level.
+- [**Summon Monster IV**](spells/summonMonster#_summon-monster-iv): _(Evil creatures only.)_ Summons extraplanar creature to fight for you.
+- [**Unholy Sword**](ultimateMagic/spells/unholySword#_unholy-sword): Weapon becomes +5, deals +2d6 damage vs. good.
+
+- [**Dancing Lights**](spells/dancingLights#_dancing-lights): Creates torches or other lights.
+- [**Daze**](spells/daze#_daze): Humanoid creature of 4 HD or less loses next action.
+- [**Detect Magic**](spells/detectMagic#_detect-magic): Detects spells and magic items within 60 ft.
+- [**Flare**](spells/flare#_flare): Dazzles one creature (–1 on attack rolls).
+- [**Ghost Sound**](spells/ghostSound#_ghost-sound): Figment sounds.
+- [**Haunted Fey Aspect**](ultimateCombat/spells/hauntedFeyAspect#_haunted-fey-aspect): You surround yourself with disturbing illusions. 
+- [**Know Direction**](spells/knowDirection#_know-direction): You discern north.
+- [**Light**](spells/light#_light): Object shines like a torch.
+- [**Lullaby**](spells/lullaby#_lullaby): Makes subject drowsy
+- [**Mage Hand**](spells/mageHand#_mage-hand): 5-pound telekinesis.
+- [**Mending**](spells/mending#_mending): Makes minor repairs on an object.
+- [**Message**](spells/message#_message): Whisper conversation at distance.
+- [**Open/Close**](spells/openClose#_open-close): Opens or closes small or light things.
+- [**Prestidigitation**](spells/prestidigitation#_prestidigitation): Performs minor tricks.
+- [**Read Magic**](spells/readMagic#_read-magic): Read scrolls and spellbooks.
+- [**Resistance**](spells/resistance#_resistance): Subject gains +1 on saving throws.
+- [**Sift**](advanced/spells/sift#_sift): See area as though examining it.
+- [**Spark**](advanced/spells/spark#_spark-): Ignites flammable objects.
+- [**Summon Instrument**](spells/summonInstrument#_summon-instrument): Summons one musical instrument.
+- [**Unwitting Ally**](advanced/spells/unwittingAlly#_unwitting-ally): Subject is considered ally for 1 round.
+
+- [**Abundant Ammunition**](ultimateCombat/spells/abundantAmmunition#_abundant-ammunition): Replaces nonmagical ammunition every round.
+- [**Adjuring Step**](ultimateCombat/spells/adjuringStep#_adjuring-step-): You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell. 
+- [**Adoration**](ultimateCombat/spells/adoration#_adoration): You gain a bonus on [Diplomacy](skills/diplomacy#_diplomacy) checks and performance combat checks.
+- [**Alarm**](spells/alarm#_alarm): Wards an area for 2 hours/level.
+- [**Animate Rope**](spells/animateRope#_animate-rope): Makes a rope move at your command.
+- [**Anticipate Peril**](ultimateMagic/spells/anticipatePeril#_anticipate-peril): Target gains a bonus on one initiative check.
+- [**Beguiling Gift**](advanced/spells/beguilingGift#_beguiling-gift): Subject immediately accepts an offered item and uses it.
+- [**Borrow Skill**](advanced/spells/borrowSkill#_borrow-skill): Make a skill check using another's ranks.
+- [**Cause Fear**](spells/causeFear#_cause-fear): One creature of 5 HD or less flees for 1d4 rounds.
+- [**Charm Person**](spells/charmPerson#_charm-person): Makes one person your friend.
+- [**Chord of Shards**](ultimateMagic/spells/chordOfShards#_chord-of-shards): Performance deals 2d6 piercing damage.
+- [**Compel Hostility**](ultimateCombat/spells/compelHostility#_compel-hostility): Compels opponents to attack you instead of your allies.
+- [**Comprehend Languages**](spells/comprehendLanguages#_comprehend-languages): You understand all languages.
+- [**Confusion, Lesser**](spells/confusion#_confusion-lesser): One creature is _ [confused](glossary#_confused) _for 1 round.
+- [**Cure Light Wounds**](spells/cureLightWounds#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
+- [**Dancing Lantern**](advanced/spells/dancingLantern#_dancing-lantern-): Animates a lantern that follows you.
+- [**Deadeye's Lore**](ultimateCombat/spells/deadeyeSLore#_deadeye's-lore): Gain a +4 bonus on [Survival](skills/survival#_survival) and move full speed while tracking.
+- [**Delusional Pride**](ultimateMagic/spells/delusionalPride#_delusional-pride): Target is penalized on attacks and checks but gains bonus against charms and compulsions.
+- [**Detect Secret Doors**](spells/detectSecretDoors#_detect-secret-doors): Reveals hidden doors within 60 ft.
+- [**Disguise Self**](spells/disguiseSelf#_disguise-self): Changes your appearance.
+- [**Ear-Piercing Scream**](ultimateMagic/spells/earPiercingScream#_ear-piercing-scream): Deal sonic damage and daze target.
+- [**Erase**](spells/erase#_erase): Mundane or magical writing vanishes.
+- [**Expeditious Retreat**](spells/expeditiousRetreat#_expeditious-retreat): Your base land speed increases by 30 ft.
+- [**Feather Fall**](spells/featherFall#_feather-fall): Objects or creatures fall slowly.
+- [**Feather Step**](advanced/spells/featherStep#_feather-step): Ignore movement penalty in difficult terrain.
+- [**Flare Burst**](advanced/spells/flareBurst#_flare-burst): As flare, but on all creatures within 10 ft.
+- [**Forced Quiet**](ultimateMagic/spells/forcedQuiet#_forced-quiet): Target cannot make loud noises.
+- [**Fumbletongue**](ultimateMagic/spells/fumbletongue#_fumbletongue): Target cannot speak intelligently.
+- [**Grease**](spells/grease#_grease): Makes 10-ft. square or one object slippery.
+- [**Hideous Laughter**](spells/hideousLaughter#_hideous-laughter): Subject loses actions for 1 round/ level.
+- [**Horn of Pursuit**](ultimateMagic/spells/hornOfPursuit#_horn-of-pursuit): Create three notes heard miles away.
+- [**Hypnotism**](spells/hypnotism#_hypnotism): Fascinates 2d4 HD of creatures.
+- [**Identify**](spells/identify#_identify): Gives +10 bonus to identify magic items.
+- [**Innocence**](advanced/spells/innocence#_innocence): Gain +10 on [Bluff](skills/bluff#_bluff) checks to seem innocent.
+- [**Invigorate**](advanced/spells/invigorate#_invigorate): Temporarily relieves fatigue or exhaustion.
+- [**Jitterbugs**](advancedRaceGuide/coreRaces/gnomes#_jitterbugs): Cause the target to perceive itself as being covered in creeping, crawling, stinging bugs.
+- [**Jury-Rig**](ultimateCombat/spells/juryRig#_jury-rig): Removes the broken condition from the targeted object.
+- [**Ki Arrow**](ultimateMagic/spells/kiArrow#_ki-arrow): Arrow deals damage as your unarmed strike.
+- [**Liberating Command**](ultimateCombat/spells/liberatingCommand#_liberating-command): Target makes an [Escape Artist](skills/escapeArtist#_escape-artist) check as an immediate action and gains a bonus on it.
+- [**Lock Gaze**](ultimateCombat/spells/lockGaze#_lock-gaze): Compels the target to look only at you for the duration of the spell.
+- [**Magic Aura**](spells/magicAura#_magic-aura): Alters object's magic aura.
+- [**Magic Mouth**](spells/magicMouth#_magic-mouth)M: Objects speaks once when triggered.
+- [**Memory Lapse**](advanced/spells/memoryLapse#_memory-lapse): Subject forgets events back to last turn.
+- [**Moment of Greatness**](ultimateCombat/spells/momentOfGreatness#_moment-of-greatness): Doubles a morale bonus.
+- [**Negative Reaction**](ultimateCombat/spells/negativeReaction#_negative-reaction): Targeted creature may not positively influence anyone.
+- [**Obscure Object**](spells/obscureObject#_obscure-object): Masks object against _ [scrying](spells/scrying#_scrying)_.
+- [**Play Instrument**](ultimateMagic/spells/playInstrument#_play-instrument): Play instrument as if you were skilled.
+- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
+- [**Remove Fear**](spells/removeFear#_remove-fear): Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.
+- [**Restful Sleep**](advanced/spells/restfulSleep#_restful-sleep): Gain more hit points while sleeping.
+- [**Saving Finale**](advanced/spells/savingFinale#_saving-finale): Subject rerolls failed saving throw.
+- [**See Alignment**](ultimateCombat/spells/seeAlignment#_see-alignment): Pick an alignment; in your sight, creatures and items with that alignment emit a ghostly radiance.
+- [**Share Language**](advanced/spells/shareLanguage#_share-language-): Subject understands chosen language.
+- [**Silent Image**](spells/silentImage#_silent-image): Creates minor illusion of your design.
+- [**Sleep**](spells/sleep#_sleep): Puts 4 HD of creatures into magical slumber.
+- [**Solid Note**](advanced/spells/solidNote#_solid-note): Creates tangible music note.
+- [**Sow Thought**](advancedRaceGuide/uncommonRaces/changelings#_sow-thought): Plant an idea, concept, or suspicion in the mind of the subject.
+- [**Summon Minor Monster**](ultimateMagic/spells/summonMinorMonster#_summon-minor-monster): Summon 1d3 Tiny animals.
+- [**Summon Monster I**](spells/summonMonster#_summon-monster-i): Summons extraplanar creature to fight for you.
+- [**Timely Inspiration**](advanced/spells/timelyInspiration#_timely-inspiration): Gives bonus on failed check/attack.
+- [**Toilsome Chant**](advancedRaceGuide/coreRaces/dwarves#_toilsome-chant): You begin an inspire competence bardic performance.
+- [**Touch of Gracelessness**](advanced/spells/touchOfGracelessness#_touch-of-gracelessness): Subject loses 1d6 + 1 Dex/two levels and is prone to falling down.
+- [**Undetectable Alignment**](spells/undetectableAlignment#_undetectable-alignment): Conceals alignment for 24 hours.
+- [**Unnatural Lust**](ultimateMagic/spells/unnaturalLust#_unnatural-lust): Target is compelled to kiss or caress another.
+- [**Unprepared Combatant**](ultimateMagic/spells/unpreparedCombatant#_unprepared-combatant): Target takes –4 on initiative and Reflex saves.
+- [**Unseen Servant**](spells/unseenServant#_unseen-servant): Invisible force obeys your commands.
+- [**Urban Grace**](advancedRaceGuide/coreRaces/halfElves#_urban-grace): You become one with the city around you, allowing you to move more easily through its crowds and buildings.
+- [**Vanish**](advanced/spells/vanish#_vanish): As _ [invisibility](spells/invisibility#_invisibility)_ for 1 round/level (5 max).
+- [**Ventriloquism**](spells/ventriloquism#_ventriloquism): Throws voice for 1 min./level.
+- [**Vocal Alteration**](ultimateMagic/spells/vocalAlteration#_vocal-alteration): [Disguise](/skills/disguise#_disguise) target's voice.
+- [**Windy Escape**](advancedRaceGuide/featuredRaces/sylphs#_windy-escape): You respond to an attack by briefly becoming vaporous and insubstantial.
+- [**Youthful Appearance**](ultimateMagic/spells/youthfulAppearance#_youthful-appearance): Target appears younger.
+
+- [**Acute Senses**](ultimateMagic/spells/acuteSenses#_acute-senses): Subject gains bonus on [Perception](/skills/perception#_perception) checks.
+- [**Allegro**](ultimateMagic/spells/allegro#_allegro): Gain _ [haste](/spells/haste#_haste)_ while maintaining bardic performance.
+- [**Alter Self**](spells/alterSelf#_alter-self): Assume form of a Small or Medium humanoid.
+- [**Animal Messenger**](spells/animalMessenger#_animal-messenger): Sends a Tiny animal to a specific place.
+- [**Animal Trance**](spells/animalTrance#_animal-trance): Fascinates 2d6 HD of animals.
+- [**Bestow Insight**](advancedRaceGuide/coreRaces/humans#_bestow-insight): Target gains a +2 insight bonus and is considered trained in one single ranked skill.
+- [**Blindness/Deafness**](spells/blindnessDeafness#_blindness-deafness): Makes subject blind or deaf.
+- [**Blistering Invective**](ultimateCombat/spells/blisteringInvective#_blistering-invective): Make an [Intimidate](skills/intimidate#_intimidate) check against all foes within 30 feet; those demoralized also take fire damage.
+- [**Blood Biography**](advanced/spells/bloodBiography#_blood-biography-): Learn about a creature with its blood.
+- [**Blur**](spells/blur#_blur): Attacks miss subject 20% of the time.
+- [**Boiling Blood**](ultimateMagic/spells/boilingBlood#_boiling-blood): Targets take fire damage; orcs get +2 Strength.
+- [**Cacophonous Call**](advanced/spells/cacophonousCall#_cacophonous-call): Nauseates target.
+- [**Calm Emotions**](spells/calmEmotions#_calm-emotions): Calms creatures, negating emotion effects.
+- [**Cat's Grace**](spells/catSGrace#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted#_dexterity) for 1 min./level.
+- [**Commune with Birds**](advancedRaceGuide/featuredRaces/tengus#_commune-with-birds): You can understand the responses given by birds.
+- [**Compassionate Ally**](ultimateMagic/spells/compassionateAlly#_compassionate-ally): Target compelled to help injured ally.
+- [**Create Treasure Map**](advanced/spells/createTreasureMap#_create-treasure-map-)M: Creates a treasure map out of a creature's corpse.
+- [**Cure Moderate Wounds**](spells/cureModerateWounds#_cure-moderate-wounds): Cures 2d8 damage + 1/level (max +10).
+- [**Darkness**](spells/darkness#_darkness): 20-ft. radius of supernatural shadow.
+- [**Daze Monster**](spells/dazeMonster#_daze-monster): Living creature of 6 HD or less loses next action.
+- [**Delay Pain**](ultimateMagic/spells/delayPain#_delay-pain): Ignore pain for 1 hour/level.
+- [**Delay Poison**](spells/delayPoison#_delay-poison): Stops poison from harming target for 1 hour/level.
+- [**Detect Thoughts**](spells/detectThoughts#_detect-thoughts): Allows “listening” to surface thoughts.
+- [**Discovery Torch**](ultimateCombat/spells/discoveryTorch#_discovery-torch-): Touched object emanates bright light, granting [Perception](skills/perception#_perception) and [Sense Motive](skills/senseMotive#_sense-motive) bonuses.
+- [**Disguise Other**](ultimateMagic/spells/disguiseOther#_disguise-other): As _ [disguise self](/spells/disguiseSelf#_disguise-self)_, but affects you or another.
+- [**Distracting Cacophony**](ultimateMagic/spells/distractingCacophony#_distracting-cacophony): Noise makes it difficult to cast.
+- [**Distressing Tone**](ultimateMagic/spells/distressingTone#_distressing-tone): Sound sickens 1d4 creatures.
+- [**Dust of Twilight**](advanced/spells/dustOfTwilight#_dust-of-twilight): Black particles extinguish light sources.
+- [**Eagle's Splendor**](spells/eagleSSplendor#_eagle-s-splendor): Subject gains +4 to [Cha](gettingStarted#_charisma-new) for 1 min./level.
+- [**Enter Image**](advanced/spells/enterImage#_enter-image-): Transfers your consciousness to an object bearing your likeness.
+- [**Enthrall**](spells/enthrall#_enthrall): Captivates all within 100 ft. + 10 ft./level.
+- [**Escaping Ward**](advancedRaceGuide/coreRaces/halflings#_escaping-ward): Grants extra maneuverability when you avoid attacks against larger foes.
+- [**Fox's Cunning**](spells/foxSCunning#_fox-s-cunning): Subject gains +4 to [Int](gettingStarted#_intelligence) for 1 min./level.
+- [**Gallant Inspiration**](advanced/spells/gallantInspiration#_gallant-inspiration): +2d4 bonus on failed attack roll or skill check.
+- [**Ghostbane Dirge**](advanced/spells/ghostbaneDirge#_ghostbane-dirge): Incorporeal creature takes half damage from nonmagical weapons.
+- [**Ghostly Disguise**](ultimateMagic/spells/ghostlyDisguise#_ghostly-disguise): You look like a ghost of yourself.
+- [**Glitterdust**](spells/glitterdust#_glitterdust): Blinds creatures, outlines [invisible](glossary#_invisible) creatures.
+- [**Heroism**](spells/heroism#_heroism): Gives +2 on attack rolls, saves, skill checks.
+- [**Hidden Speech**](advanced/spells/hiddenSpeech#_hidden-speech): Gain +10 on [Bluff](skills/bluff#_bluff) to send secret messages.
+- [**Hold Person**](spells/holdPerson#_hold-person): Paralyzes one humanoid for 1 round/level.
+- [**Honeyed Tongue**](advanced/spells/honeyedTongue#_honeyed-tongue): Roll 2 dice when using [Diplomacy](skills/diplomacy#_diplomacy), take higher roll.
+- [**Haunting Mists**](ultimateMagic/spells/HauntingMists#_haunting-mists): Creatures are shaken and take Wis damage.
+- [**Hypnotic Pattern**](spells/hypnoticPattern#_hypnotic-pattern): Fascinates (2d4 + level) HD of creatures.
+- [**Invisibility**](spells/invisibility#_invisibility): Subject is [invisible](glossary#_invisible) for 1 min./level or until it attacks.
+- [**Locate Object**](spells/locateObject#_locate-object): Senses direction toward object (specific or type).
+- [**Mad Hallucination**](ultimateMagic/spells/madHallucination#_mad-hallucination): Target takes penalties to mental actions.
+- [**Masterwork Transformation**](ultimateMagic/spells/masterworkTransformation#_masterwork-transformation): Make a normal item into a masterwork one.
+- [**Minor Image**](spells/minorImage#_minor-image): As _ [silent image](spells/silentImage#_silent-image)_, plus some sound.
+- [**Mirror Image**](spells/mirrorImage#_mirror-image): Creates decoy duplicates of you (1d4 + 1 per three levels, max 8).
+- [**Misdirection**](spells/misdirection#_misdirection): Misleads divinations for one creature or object.
+- [**Miserable Pity**](ultimateMagic/spells/miserablePity#_miserable-pity): Opponents cannot attack a pathetic creature.
+- [**Oppressive Boredom**](ultimateMagic/spells/oppressiveBoredom#_oppressive-boredom): Target loses its next action.
+- [**Piercing Shriek**](ultimateMagic/spells/piercingShriek#_piercing-shriek): Target is staggered by a painful sound.
+- [**Pilfering Hand**](ultimateCombat/spells/pilferingHand#_pilfering-hand): You may seize an object or manipulate it from afar.
+- [**Pyrotechnics**](spells/pyrotechnics#_pyrotechnics): Turns fire into blinding light or choking smoke.
+- [**Qualm**](ultimateCombat/spells/qualm#_qualm): Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing.
+- [**Rage**](spells/rage#_rage): Gives +2 to [Str](gettingStarted#_strength) and [Con](gettingStarted#_constitution), +1 on [Will](combat#_will) saves, –2 to [AC](combat#_armor-class).
+- [**Reckless Infatuation**](ultimateMagic/spells/recklessInfatuation#_reckless-infatuation): Target is compelled to stay near another.
+- [**Returning Weapon**](ultimateCombat/spells/returningWeapon#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons#_weapons-returning)_ special weapon quality.
+- [**Scare**](spells/scare#_scare): Panics creatures of less than 6 HD.
+- [**Shadow Anchor**](advancedRaceGuide/uncommonRaces/wayangs#_shadow-anchor): Target's shadow becomes a flexible tether to its current square.
+- [**Share Language, Communal**](ultimateCombat/spells/shareLanguage#_share-language,-communal): As _ [share language](advanced/spells/shareLanguage#_share-language-)_, but you may divide the duration among creatures touched.
+- [**Share Memory**](ultimateMagic/spells/shareMemory#_share-memory): Share one memory with the target.
+- [**Shatter**](spells/shatter#_shatter): Sonic vibration damages objects or crystalline creatures.
+- [**Silence**](spells/silence#_silence): Negates sound in 20-ft. radius.
+- [**Silk to Steel**](ultimateMagic/spells/silkToSteel#_silk-to-steel): Use a scarf as a shield or whip.
+- [**Snapdragon Fireworks**](ultimateMagic/spells/snapdragonFireworks#_snapdragon-fireworks): Create 1 dragon firework/level.
+- [**Sound Burst**](spells/soundBurst#_sound-burst): Deals 1d8 sonic damage and may stun subjects.
+- [**Steal Breath**](advancedRaceGuide/featuredRaces/catfolk#_steal-breath): Pull the breath from a creature's lungs, dealing damage and leaving it unable to speak, use breath weapons, or cast spells with verbal components.
+- [**Steal Voice**](ultimateMagic/spells/stealVoice#_steal-voice): Target gains the croaking spellblight.
+- [**Suggestion**](spells/suggestion#_suggestion): Compels subject to follow stated course of action.
+- [**Summon Monster II**](spells/summonMonster#_summon-monster-ii): Summons extraplanar creature to fight for you.
+- [**Summon Swarm**](spells/summonSwarm#_summon-swarm): Summons swarm of bats, rats, or spiders.
+- [**Tactical Acumen**](ultimateCombat/spells/tacticalAcumen#_tactical-acumen): You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
+- [**Thunder Fire**](ultimateCombat/spells/thunderFire#_thunder-fire): Ammunition in the targeted firearm deafens opponents.
+- [**Tongues**](spells/tongues#_tongues): Speak and understand any language.
+- [**Unadulterated Loathing**](ultimateMagic/spells/unadulteratedLoathing#_unadulterated-loathing): Target is compelled to avoid another creature.
+- [**Versatile Weapon**](advanced/spells/versatileWeapon#_versatile-weapon): Weapon bypasses some DR.
+- [**Wartrain Mount**](ultimateMagic/spells/wartrainMount#_wartrain-mount): Animal gains the combat training general purpose.
+- [**Whispering Wind**](spells/whisperingWind#_whispering-wind): Sends a short message 1 mile/level.
+
+- [**Arcane Concordance**](advanced/spells/arcaneConcordance#_arcane-concordance): Grants metamagic to arcane spells.
+- [**Blink**](spells/blink#_blink): You randomly vanish and reappear for 1 round/level.
+- [**Campfire Wall**](advanced/spells/campfireWall#_campfire-wall-): Creates a shelter around a campfire.
+- [**Charm Monster**](spells/charmMonster#_charm-monster): Makes monster believe it is your ally.
+- [**Clairaudience/Clairvoyance**](spells/clairaudienceClairvoyance#_clairaudience-clairvoyance): Hear or see at a distance for 1 min./level.
+- [**Confusion**](spells/confusion#_confusion): Subjects behave oddly for 1 round/level.
+- [**Control Summoned Creature**](ultimateMagic/spells/controlSummonedCreature#_control-summoned-creature): Direct a summoned monster as if you had summoned it.
+- [**Coordinated Effort**](advanced/spells/coordinatedEffort#_coordinated-effort): Grants a teamwork feat you have.
+- [**Crushing Despair**](spells/crushingDespair#_crushing-despair): Subjects take –2 on attack rolls, damage rolls, saves, and checks.
+- [**Cure Serious Wounds**](spells/cureSeriousWounds#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
+- [**Curse of Disgust**](ultimateMagic/spells/curseOfDisgust#_curse-of-disgust): Target is sickened when viewing a trigger.
+- [**Death from Below**](advancedRaceGuide/coreRaces/gnomes#_death-from-below): Grant the target a dodge bonus to its AC against attacks from larger creatures.
+- [**Daylight**](spells/daylight#_daylight): 60-ft. radius of bright light.
+- [**Deep Slumber**](spells/deepSlumber#_deep-slumber): Puts 10 HD of creatures to [sleep](spells/sleep#_sleep).
+- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison#_delay-poison,-communal): As _ [delay poison](spells/delayPoison#_delay-poison)_, but you may divide the duration among creatures touched.
+- [**Dispel Magic**](spells/dispelMagic#_dispel-magic): Cancels one magical spell or effect.
+- [**Displacement**](spells/displacement#_displacement): Attacks miss subject 50% of the time.
+- [**Elemental Speech**](advanced/spells/elementalSpeech#_elemental-speech): Enables you to speak to elementals and some creatures.
+- [**Exquisite Accompaniment**](ultimateMagic/spells/exquisiteAccompaniment#_exquisite-accompaniment): Instrument maintains bardic performance for you.
+- [**Fear**](spells/fear#_fear): Subjects within cone flee for 1 round/level.
+- [**Fearsome Duplicate**](advancedRaceGuide/coreRaces/halflings#_fearsome-duplicate): You create a larger and far more menacing version of yourself.
+- [**Feather Step, Mass**](advanced/spells/featherStep#_feather-step,-mass): As _ [feather step](advanced/spells/featherStep#_feather-step)_, but multiple creatures.
+- [**Gaseous Form**](spells/gaseousForm#_gaseous-form): Subject becomes insubstantial and can fly slowly.
+- [**Geas, Lesser**](spells/geasQuest#_geas-lesser): Commands subject of 7 HD or less.
+- [**Glibness**](spells/glibness#_glibness): You gain +20 bonus on Bluff checks, and your lies can escape magical discernment.
+- [**Good Hope**](spells/goodHope#_good-hope): Subjects gain +2 on attack rolls, damage rolls, saves, and checks.
+- [**Haste**](spells/haste#_haste): One creature/level moves faster, receives +1 on attack rolls, [AC](combat#_armor-class), and [Reflex](combat#_reflex) saves.
+- [**Haunting Choir**](ultimateMagic/spells/hauntingChoir#_haunting-choir): Spirits cause wracking pain to listeners.
+- [**Illusory Script**](spells/illusoryScript#_illusory-script)M: Only select creatures can read text.
+- [**Invigorate, Mass**](advanced/spells/invigorate#_invigorate,-mass): As _ [invigorate](advanced/spells/invigorate#_invigorate)_, but multiple creatures.
+- [**Invisibility Sphere**](spells/invisibilitySphere#_invisibility-sphere): Makes everyone within 10 feet [invisible](glossary#_invisible).
+- [**Jester's Jaunt**](advanced/spells/jesterSJaunt#_jester's-jaunt): Teleport target within 30 ft. of itself.
+- [**Mad Monkeys**](ultimateMagic/spells/madMonkeys#_mad-monkeys): Summon a swarm of mischievous monkeys.
+- [**Major Image**](spells/majorImage#_major-image): As _ [silent image](spells/silentImage#_silent-image)_, plus sound, smell, and thermal effects.
+- [**Malicious Spite**](ultimateMagic/spells/maliciousSpite#_malicious-spite): Target is compelled to plot against another.
+- [**Minor Dream**](advancedRaceGuide/coreRaces/gnomes#_minor-dream): This spell functions as the _dream spell_, except the messenger must be yourself or a gnome touched.
+- [**Overwhelming Grief**](ultimateMagic/spells/overwhelmingGrief#_overwhelming-grief): Grieving target can take no actions and is denied its Dex bonus.
+- [**Phantom Driver**](ultimateCombat/spells/phantomDriver#_phantom-driver): Conjures a phantom to drive vehicles.
+- [**Phantom Steed**](spells/phantomSteed#_phantom-steed): Magic horse appears for 1 hour/level.
+- [**Prehensile Pilfer**](advancedRaceGuide/uncommonRaces/vanaras#_prehensile-pilfer): The target's tail moves and acts more quickly, almost with a mind of its own.
+- [**Purging Finale**](advanced/spells/purgingFinale#_purging-finale): Removes one negative effect.
+- [**Raging Rubble**](advancedRaceGuide/featuredRaces/oreads#_raging-rubble): You animate an area of rubble, creating a dangerous, rolling area of debris.
+- [**Rain of Frogs**](ultimateMagic/spells/rainOfFrogs#_rain-of-frogs): Summon a swarm of poisonous frogs.
+- [**Remove Curse**](spells/removeCurse#_remove-curse): Frees object or person from curse.
+- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon#_returning-weapon)_, but you may divide the duration among weapons touched.
+- [**Reviving Finale**](advanced/spells/revivingFinale#_reviving-finale): Allies cured 2d6 damage.
+- [**Scrying**](spells/scrying#_scrying)F: Spies on subject from a distance.
+- [**Sculpt Sound**](spells/sculptSound#_sculpt-sound): Creates new sounds or changes existing ones into new sounds.
+- [**Secret Page**](spells/secretPage#_secret-page): Changes one page to hide its real content.
+- [**See Invisibility**](spells/seeInvisibility#_see-invisibility): Reveals [invisible](glossary#_invisible) creatures or objects.
+- [**Seek Thoughts**](advanced/spells/seekThoughts#_seek-thoughts): Detects thinking creatures' thoughts.
+- [**Sepia Snake Sigil**](spells/sepiaSnakeSigil#_sepia-snake-sigil)M: Creates a snake-shaped text symbol that immobilizes reader.
+- [**Slow**](spells/slow#_slow): One subject/level takes only one action/round, –1 to [AC](combat#_armor-class), [Reflex](combat#_reflex) saves, and attack rolls.
+- [**Smug Narcissism**](ultimateMagic/spells/smugNarcissism#_smug-narcissism): Target is distracted by its sense of self.
+- [**Speak with Animals**](spells/speakWithAnimals#_speak-with-animals): You can communicate with animals.
+- [**Summon Monster III**](spells/summonMonster#_summon-monster-iii): Summons extraplanar creature to fight for you.
+- [**Terrible Remorse**](ultimateMagic/spells/terribleRemorse#_terrible-remorse): Creature is compelled to harm itself.
+- [**Thunderous Drums**](advanced/spells/thunderingDrums#_thundering-drums): 1d8 damage/level and knocked prone.
+- [**Tiny Hut**](spells/tinyHut#_tiny-hut): Creates shelter for 10 creatures.
+- [**Tongues, Communal**](ultimateCombat/spells/tongues#_tongues,-communal): As _ [tongues](spells/tongues#_tongues)_, but you may divide the duration among creatures touched.
+- [**Vision of Hell**](ultimateMagic/spells/visionOfHell#_vision-of-hell): Illusory hellscape makes creatures shaken.
+- [**Witness**](ultimateMagic/spells/witness#_witness): See through the target's eyes and ears.
+
+- [**Break Enchantment**](spells/breakEnchantment#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
+- [**Cure Critical Wounds**](spells/cureCriticalWounds#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
+- [**Dance of a Hundred Cuts**](ultimateMagic/spells/danceOfAHundredCuts#_dance-of-a-hundred-cuts): Gain +1 combat bonus/3 levels.
+- [**Daze, Mass**](ultimateMagic/spells/daze#_daze,-mass): As _ [daze](/spells/daze#_daze)_, but affecting multiple creatures.
+- [**Denounce**](advanced/spells/denounce#_denounce): Worsens attitudes toward target creature.
+- [**Detect Scrying**](spells/detectScrying#_detect-scrying): Alerts you to magical eavesdropping.
+- [**Dimension Door**](spells/dimensionDoor#_dimension-door): Teleports you a short distance.
+- [**Discordant Blast**](advanced/spells/discordantBlast#_discordant-blast): 3d6 sonic damage in 10-ft. burst or 30-ft. cone can also bull rush creatures.
+- [**Dominate Person**](spells/dominatePerson#_dominate-person): Controls humanoid telepathically.
+- [**Echolocation**](ultimateMagic/spells/echolocation#_echolocation): Sonic sense gives you blindsight 40 ft.
+- [**Envious Urge**](ultimateMagic/spells/enviousUrge#_envious-urge): Targets steal from or disarm others.
+- [**Freedom of Movement**](spells/freedomOfMovement#_freedom-of-movement): Subject moves normally despite impediments to restrict movement.
+- [**Ghostbane Dirge, Mass**](advanced/spells/ghostbaneDirge#_ghostbane-dirge,-mass): As _ [ghostbane dirge](advanced/spells/ghostbaneDirge#_ghostbane-dirge)_, but affecting multiple creatures.
+- [**Hallucinatory Terrain**](spells/hallucinatoryTerrain#_hallucinatory-terrain): Makes one type of terrain appear like another (field as forest, or the like).
+- [**Heroic Finale**](advanced/spells/heroicFinale#_heroic-finale): Subject within range of your bardic performance can take an action.
+- [**Hold Monster**](spells/holdMonster#_hold-monster): As _ [hold person](spells/holdPerson#_hold-person)_, but any creature.
+- [**Invisibility, Greater**](spells/invisibility#_invisibility-greater): As _ [invisibility](spells/invisibility#_invisibility), _but subject can attack and stay [invisible](glossary#_invisible).
+- [**Legend Lore**](spells/legendLore#_legend-lore)MF: Lets you learn tales about a person, place, or thing.
+- [**Locate Creature**](spells/locateCreature#_locate-creature): Indicates direction to known creature.
+- [**Modify Memory**](spells/modifyMemory#_modify-memory): Changes 5 minutes of subject's memories.
+- [**Neutralize Poison**](spells/neutralizePoison#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
+- [**Nixie's Lure**](advancedRaceGuide/featuredRaces/undines#_nixie's-lure): Creates an unearthly and infectious song that seductively summons all who hear it.
+- [**Phantom Steed, Communal**](ultimateCombat/spells/phantomSteed#_phantom-steed,-communal): As _ [phantom steed](spells/phantomSteed#_phantom-steed)_, but you may divide the duration among creatures touched.
+- [**Primal Scream**](ultimateMagic/spells/primalScream#_primal-scream): Free yourself from enchantments and paralysis effects.
+- [**Rainbow Pattern**](spells/rainbowPattern#_rainbow-pattern): Lights fascinate 24 HD of creatures.
+- [**Repel Vermin**](spells/repelVermin#_repel-vermin): Insects, spiders, and other vermin stay 10 ft. away.
+- [**Secure Shelter**](spells/secureShelter#_secure-shelter): Creates sturdy cottage.
+- [**Serenity**](ultimateMagic/spells/serenity#_serenity): Peaceful feelings harm those attempting violence.
+- [**Shadow Conjuration**](spells/shadowConjuration#_shadow-conjuration): Mimics conjuration below 4th level, but only 20% real.
+- [**Shadow Step**](ultimateMagic/spells/shadowStep#_shadow-step): Teleport from one shadow to another.
+- [**Shocking Image**](ultimateCombat/spells/shockingImage#_shocking-image): As _ [mirror image](spells/mirrorImage#_mirror-image)_, but the duplicates emit electrical damage when destroyed.
+- [**Shout**](spells/shout#_shout): Deafens all within cone and deals 5d6 sonic damage.
+- [**Sonic Thrust**](ultimateMagic/spells/sonicThrust#_sonic-thrust): Sound moves targets away from you.
+- [**Speak with Plants**](spells/speakWithPlants#_speak-with-plants): You can talk to plants and plant creatures.
+- [**Summon Monster IV**](spells/summonMonster#_summon-monster-iv): Summons extraplanar creature to fight for you.
+- [**Treasure Stitching**](advanced/spells/treasureStitching#_treasure-stitching-)M: Objects on cloth become embroidered.
+- [**Truespeak**](advancedRaceGuide/featuredRaces/aasimars#_truespeak): You can communicate with any creature that is not mindless.
+- [**Utter Contempt**](ultimateMagic/spells/utterContempt#_utter-contempt): Target's attitude worsens by two categories.
+- [**Virtuoso Performance**](ultimateMagic/spells/virtuosoPerformance#_virtuoso-performance): Start a second bardic performance while maintaining the first.
+- [**Wall of Sound**](ultimateMagic/spells/wallOfSound#_wall-of-sound): Sonic wall deflects and damages creatures.
+- [**Wandering Star Motes**](advanced/spells/wanderingStarMotes#_wandering-star-motes): Outlines subject, produces light.
+- [**Zone of Silence**](spells/zoneOfSilence#_zone-of-silence): Keeps eavesdroppers from overhearing you.
+
+- [**Bard's Escape**](advanced/spells/bardSEscape#_bard's-escape): You and allies escape an emergency by teleporting to safety.
+- [**Cacophonous Call, Mass**](advanced/spells/cacophonousCall#_cacophonous-call,-mass): Nauseates multiple targets.
+- [**Cloak of Dreams**](advanced/spells/cloakOfDreams#_cloak-of-dreams): Living creatures within 5 ft. fall asleep.
+- [**Cure Light Wounds, Mass**](spells/cureLightWounds#_cure-light-wounds-mass): Cures 1d8 damage + 1/level, affects 1 subject/level.
+- [**Deafening Song Bolt**](advanced/spells/deafeningSongBolt#_deafening-song-bolt): Blast of song deals 3d10 damage and deafens targets.
+- [**Dispel Magic, Greater**](spells/dispelMagic#_dispel-magic-greater): Works as _ [dispel magic](spells/dispelMagic#_dispel-magic),_ but can affect multiple targets.
+- [**Dream**](spells/dream#_dream): Sends message to anyone sleeping.
+- [**False Vision**](spells/falseVision#_false-vision)M: Fools scrying with an illusion.
+- [**Foe to Friend**](advanced/spells/foeToFriend#_foe-to-friend): Redirect an enemy creature's attack.
+- [**Frozen Note**](advanced/spells/frozenNote#_frozen-note-): Paralyzes creatures listening to your song.
+- [**Heroism, Greater**](spells/heroism#_heroism-greater): Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.
+- [**Joyful Rapture**](ultimateMagic/spells/joyfulRapture#_joyful-rapture): Negate harmful emotions.
+- [**Ki Shout**](ultimateMagic/spells/kiShout#_ki-shout): Target takes 1d6 sonic/level and is stunned.
+- [**Mind Fog**](spells/mindFog#_mind-fog): Subjects in fog get –10 to [Wis](gettingStarted#_wisdom) and [Will](combat#_will) checks.
+- [**Mirage Arcana**](spells/mirageArcana#_mirage-arcana): As _ [hallucinatory terrain](spells/hallucinatoryTerrain#_hallucinatory-terrain), _plus structures.
+- [**Mislead**](spells/mislead#_mislead): Turns you [invisible](glossary#_invisible) and creates illusory double.
+- [**Nightmare**](spells/nightmare#_nightmare): Sends vision dealing 1d10 damage, fatigue.
+- [**Persistent Image**](spells/persistentImage#_persistent-image): As _ [major image](spells/majorImage#_major-image)_, but no concentration required.
+- [**Phantasmal Web**](advanced/spells/phantasmalWeb#_phantasmal-web): Catches subjects in illusory web.
+- [**Resonating Word**](ultimateMagic/spells/resonatingWord#_resonating-word): Target is damaged, staggered, and stunned.
+- [**Seeming**](spells/seeming#_seeming): Changes appearance of one person per two levels.
+- [**Shadow Evocation**](spells/shadowEvocation#_shadow-evocation): Mimics evocation of lower than 5th level, but only 20% real.
+- [**Shadow Walk**](spells/shadowWalk#_shadow-walk): Step into shadow to travel rapidly.
+- [**Shadowbard**](ultimateMagic/spells/shadowbard#_shadowbard): Shadowy duplicate starts a bardic performance.
+- [**Song of Discord**](spells/songOfDiscord#_song-of-discord): Forces targets to attack each other.
+- [**Stunning Finale**](advanced/spells/stunningFinale#_stunning-finale): Stuns 3 creatures for 1 round.
+- [**Suggestion, Mass**](spells/suggestion#_suggestion-mass): As _ [suggestion](spells/suggestion#_suggestion), _affects subject/level.
+- [**Summon Monster V**](spells/summonMonster#_summon-monster-v): Summons extraplanar creature to fight for you.
+- [**Unwilling Shield**](advanced/spells/unwillingShield#_unwilling-shield)M: Subject shares wounds you receive.
+- [**Vengeful Outrage**](ultimateMagic/spells/vengefulOutrage#_vengeful-outrage): Target is compelled to destroy one enemy.
+
+- [**Analyze Dweomer**](spells/analyzeDweomer#_analyze-dweomer)F: Reveals magical aspects of subject.
+- [**Animate Objects**](spells/animateObjects#_animate-objects): Objects attack your foes.
+- [**Brilliant Inspiration**](advanced/spells/brilliantInspiration#_brilliant-inspiration): Take best of two d20 rolls.
+- [**Cat's Grace, Mass**](spells/catSGrace#_cat-s-grace-mass): As _ [cat's grace](spells/catSGrace#_cat-s-grace)_, affects 1 subject/level.
+- [**Charm Monster, Mass**](spells/charmMonster#_charm-monster-mass): As _ [charm monster](spells/charmMonster#_charm-monster), _but all within 30 ft.
+- [**Cure Moderate Wounds, Mass**](spells/cureModerateWounds#_cure-moderate-wounds-mass): Cures 2d8 damage + 1/level, affects 1 subject/level.
+- [**Dance of a Thousand Cuts**](ultimateMagic/spells/danceOfAThousandCuts#_dance-of-a-thousand-cuts): As _ [dance of a hundred cuts](ultimateMagic/spells/danceOfAHundredCuts#_dance-of-a-hundred-cuts)_, plus the benefits of _ [haste](/spells/haste#_haste)_.
+- [**Deadly Finale**](advanced/spells/deadlyFinale#_deadly-finale): Deals 2d8 damage to multiple targets.
+- [**Eagle's Splendor, Mass**](spells/eagleSSplendor#_eagle-s-splendor-mass): As _ [eagle's splendor](spells/eagleSSplendor#_eagle-s-splendor)_, affects 1 subject/level.
+- [**Euphoric Tranquility**](advanced/spells/euphoricTranquility#_euphoric-tranquility): Makes a single creature peaceful and friendly.
+- [**Eyebite**](spells/eyebite#_eyebite): Target becomes [panicked](glossary#_panicked), [sickened](glossary#_sickened), and/or comatose.
+- [**Find the Path**](spells/findThePath#_find-the-path): Shows most direct way to a location.
+- [**Fool's Forbiddance**](advanced/spells/foolSForbiddance#_fool's-forbiddance): Confuses enemies who come within a magical emanation centered on you.
+- [**Fox's Cunning, Mass**](spells/foxSCunning#_fox-s-cunning-mass): As _ [fox's cunning](spells/foxSCunning#_fox-s-cunning)_, affects 1 subject/level.
+- [**Geas/Quest**](spells/geasQuest#_geas-quest): As _lesser geas, _but affects any creature.
+- [**Getaway**](advanced/spells/getaway#_getaway-): Teleports a group of predetermined allies and creatures to a predetermined location.
+- [**Heroes' Feast**](spells/heroesFeast#_heroes-feast): Food for one creature/level cures and grants combat bonuses_._
+- [**Irresistible Dance**](spells/irresistibleDance#_irresistible-dance): Forces subject to dance.
+- [**Overwhelming Presence**](ultimateMagic/spells/overwhelmingPresence#_overwhelming-presence): Creatures bow before you as if you were divine.
+- [**Permanent Image**](spells/permanentImage#_permanent-image): Permanent illusion, includes sight, sound, smell, and thermal effects.
+- [**Pied Piping**](advanced/spells/piedPiping#_pied-piping-): Compel similar creatures to follow you.
+- [**Programmed Image**](spells/programmedImage#_programmed-image)M: As _ [major image](spells/majorImage#_major-image)_, plus triggered by event.
+- [**Project Image**](spells/projectImage#_project-image)M: Illusory double can talk and cast spells.
+- [**Scrying, Greater**](spells/scrying#_scrying-greater): As _ [scrying](spells/scrying#_scrying)_, but faster and longer.
+- [**Shout, Greater**](spells/shout#_shout-greater): Devastating yell deals 10d6 sonic damage; stuns creatures.
+- [**Summon Monster VI**](spells/summonMonster#_summon-monster-vi): Summons extraplanar creature to fight for you.
+- [**Sympathetic Vibration**](spells/sympatheticVibration#_sympathetic-vibration): Deals 2d10 damage/round to freestanding structure.
+- [**Veil**](spells/veil#_veil): Changes appearance of group of creatures.
+- [**Waves of Ecstasy**](ultimateMagic/spells/wavesOfEcstasy#_waves-of-ecstasy): Pleasure stuns and staggers creatures.
+
+- [**Bleed**](spells/bleed#_bleed): Cause a stabilized creature to resume [dying](glossary#_dying).
+- [**Create Water**](spells/createWater#_create-water): Creates 2 gallons/level of pure water.
+- [**Detect Magic**](spells/detectMagic#_detect-magic): Detects spells and magic items within 60 ft.
+- [**Detect Poison**](spells/detectPoison#_detect-poison): Detects poison in one creature or object.
+- [**Guidance**](spells/guidance#_guidance): +1 on one attack roll, saving throw, or skill check.
+- [**Light**](spells/light#_light): Object shines like a torch.
+- [**Mending**](spells/mending#_mending): Makes minor repairs on an object.
+- [**Purify Food and Drink**](spells/purifyFoodAndDrink#_purify-food-and-drink): Purifies 1 cu. ft./level of food or water.
+- [**Read Magic**](spells/readMagic#_read-magic): Read scrolls and spellbooks.
+- [**Resistance**](spells/resistance#_resistance): Subject gains +1 on saving throws.
+- [**Spark**](advanced/spells/spark#_spark-): Ignites flammable objects.
+- [**Stabilize**](spells/stabilize#_stabilize): Cause a [dying](glossary#_dying) creature to stabilize.
+- [**Virtue**](spells/virtue#_virtue): Subject gains 1 temporary hp.
+
+- [**Abundant Ammunition**](ultimateCombat/spells/abundantAmmunition#_abundant-ammunition): Replaces nonmagical ammunition every round.
+- [**Air Bubble**](ultimateCombat/spells/airBubble#_air-bubble): Creates a small pocket of air around your head or an object.
+- [**Ant Haul**](advanced/spells/antHaul#_ant-haul-): Triples carrying capacity of a creature.
+- [**Bane**](spells/bane#_bane): Enemies take –1 on attack rolls and saves against fear.
+- [**Bless**](spells/bless#_bless): Allies gain +1 on attack rolls and saves against fear.
+- [**Bless Water**](spells/blessWater#_bless-water)M: Makes holy water.
+- [**Cause Fear**](spells/causeFear#_cause-fear): One creature of 5 HD or less flees for 1d4 rounds.
+- [**Command**](spells/command#_command): One subject obeys selected command for 1 round.
+- [**Compel Hostility**](ultimateCombat/spells/compelHostility#_compel-hostility): Compels opponents to attack you instead of your allies.
+- [**Comprehend Languages**](spells/comprehendLanguages#_comprehend-languages): You understand all spoken and written languages.
+- [**Cure Light Wounds**](spells/cureLightWounds#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
+- [**Curse Water**](spells/curseWater#_curse-water)M: Makes unholy water.
+- [**Dancing Lantern**](advanced/spells/dancingLantern#_dancing-lantern-): Animates a lantern that follows you.
+- [**Deadeye's Lore**](ultimateCombat/spells/deadeyeSLore#_deadeye's-lore): Gain a +4 bonus on [Survival](skills/survival#_survival) and move full speed while tracking.
+- [**Deathwatch**](spells/deathwatch): Reveals how near death subjects within 30 ft. are.
+- [**Decompose Corpse**](ultimateMagic/spells/decomposeCorpse#_decompose-corpse): Turn corpse into clean skeleton.
+- [**Detect Chaos/Evil/Good/Law**](spells/detectChaos#_detect-chaos): Reveals creatures, spells, or objects of selected alignment.
+- [**Detect Undead**](spells/detectUndead#_detect-undead): Reveals undead within 60 ft.
+- [**Diagnose Disease**](ultimateMagic/spells/diagnoseDisease#_diagnose-disease): Detect and identify diseases.
+- [**Divine Favor**](spells/divineFavor#_divine-favor): You gain +1 per three levels on attack and damage rolls.
+- [**Doom**](spells/doom#_doom): One subject takes –2 on attack rolls, damage rolls, saves, and checks.
+- [**Endure Elements**](spells/endureElements#_endure-elements): Exist comfortably in hot or cold regions.
+- [**Entropic Shield**](spells/entropicShield#_entropic-shield): Ranged attacks against you have 20% miss chance.
+- [**Forbid Action**](ultimateMagic/spells/forbidAction#_forbid-action): Target obeys your command to not do something.
+- [**Hide from Undead**](spells/hideFromUndead#_hide-from-undead): Undead can't perceive one subject/level.
+- [**Inflict Light Wounds**](spells/inflictLightWounds#_inflict-light-wounds): Touch deals 1d8 damage +1/level (max +5).
+- [**Ironbeard**](advancedRaceGuide/coreRaces/dwarves#_ironbeard): Causes a brushy beard of stiff iron to erupt from the face of a willing target.
+- [**Karmic Blessing**](advancedRaceGuide/uncommonRaces/samsarans#_karmic-blessing): The target treats one skill of your choice as a class skill.
+- [**Know the Enemy**](ultimateMagic/spells/knowTheEnemy#_know-the-enemy): Gain +10 on a monster [Knowledge](/skills/knowledge#_knowledge) check.
+- [**Liberating Command**](ultimateCombat/spells/liberatingCommand#_liberating-command): Target makes an [Escape Artist](skills/escapeArtist#_escape-artist) check as an immediate action and gains a bonus on it.
+- [**Magic Stone**](spells/magicStone#_magic-stone): Three stones gain +1 on attack, deal 1d6 +1 damage.
+- [**Magic Weapon**](spells/magicWeapon#_magic-weapon): Weapon gains +1 bonus.
+- [**Marid's Mastery**](advancedRaceGuide/featuredRaces/undines#_marid's-mastery): Target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water.
+- [**Mighty Fist of the Earth**](advancedRaceGuide/featuredRaces/oreads#_mighty-fist-of-the-earth): You create a fist-sized rock that flies toward one enemy.
+- [**Moment of Greatness**](ultimateCombat/spells/momentOfGreatness#_moment-of-greatness): Doubles a morale bonus.
+- [**Murderous Command**](ultimateMagic/spells/murderousCommand#_murderous-command): Target is compelled to kill its ally.
+- [**Obscuring Mist**](spells/obscuringMist#_obscuring-mist): Fog surrounds you.
+- [**Protection from Chaos**](spells/protectionFromChaos#_protection-from-chaos): +2 to [AC](combat#_armor-class) and saves, plus additional protection against selected alignment.
+- [**Protection from Evil**](spells/protectionFromEvil#_protection-from-evil): +2 to [AC](combat#_armor-class) and saves, plus additional protection against selected alignment.
+- [**Protection from Good**](spells/protectionFromGood#_protection-from-good): +2 to [AC](combat#_armor-class) and saves, plus additional protection against selected alignment.
+- [**Protection from Law**](spells/protectionFromLaw#_protection-from-law): +2 to [AC](combat#_armor-class) and saves, plus additional protection against selected alignment.
+- [**Ray of Sickening**](ultimateMagic/spells/rayOfSickening#_ray-of-sickening): Ray makes the subject sickened.
+- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
+- [**Reinforce Armaments**](ultimateCombat/spells/reinforceArmaments#_reinforce-armaments): Temporarily mitigates the fragile quality in targeted weapon or armor.
+- [**Remove Fear**](spells/removeFear#_remove-fear): Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.
+- [**Remove Sickness**](ultimateMagic/spells/removeSickness#_remove-sickness): Suppress disease, nausea, and the sickened condition.
+- [**Restore Corpse**](ultimateMagic/spells/restoreCorpse#_restore-corpse): Skeletal corpse grows flesh.
+- [**Sanctify Corpse**](ultimateMagic/spells/sanctifyCorpse#_sanctify-corpse): Prevent a corpse from becoming an undead creature.
+- [**Sanctuary**](spells/sanctuary#_sanctuary): Opponents can't attack you, and you can't attack.
+- [**Shield of Faith**](spells/shieldOfFaith#_shield-of-faith): Aura grants +2 or higher deflection bonus.
+- [**Stone Shield**](advancedRaceGuide/featuredRaces/oreads#_stone-shield): 1-inch-thick slab of stone springs up from the ground, shielding you.
+- [**Summon Minor Monster**](ultimateMagic/spells/summonMinorMonster#_summon-minor-monster): Summon 1d3 Tiny animals.
+- [**Summon Monster I**](spells/summonMonster#_summon-monster-i): Summons extraplanar creature to fight for you.
+- [**Sun Metal**](ultimateCombat/spells/sunMetal#_sun-metal): Weapon touched bursts into flames.
+- [**Theft Ward**](advancedRaceGuide/featuredRaces/tengus#_theft-ward): You ward a single object in your possession against theft.
+- [**Winter Feathers**](advancedRaceGuide/featuredRaces/tengus#_winter-feathers): Target's feathers thicken and fluff up to ward against winter's chill.
+
+- [**Aboleth's Lung**](advancedRaceGuide/uncommonRaces/gillmen#_aboleth's-lung): Targets are able to breathe water, freely.
+- [**Aid**](spells/aid#_aid): +1 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).
+- [**Alchemical Tinkering**](advancedRaceGuide/featuredRaces/ratfolk#_alchemical-tinkering): Transform one alchemical item or firearm into another alchemical item or firearm of the same or lesser cost.
+- [**Align Weapon**](spells/alignWeapon#_align-weapon): Weapon becomes good, evil, lawful, or chaotic.
+- [**Ancestral Regression**](advancedRaceGuide/featuredRaces/drow#_ancestral-regression): The target drow transforms into a surface elf.
+- [**Animate Dead, Lesser**](ultimateMagic/spells/animateDead#_animate-dead,-lesser): Create one skeleton or zombie.
+- [**Ant Haul, Communal**](ultimateCombat/spells/antHaul#_ant-haul,-communal): As _ [ant haul](advanced/spells/antHaul#_ant-haul-)_, but you may divide the duration among creatures touched.
+- [**Arrow of Law**](ultimateMagic/spells/arrowOfLaw#_arrow-of-law): Harm and possibly daze chaotic creatures.
+- [**Augury**](spells/augury#_augury)MF: Learns whether an action will be good or bad.
+- [**Bear's Endurance**](spells/bearSEndurance#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted#_constitution) for 1 min./level.
+- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency#_bestow-weapon-proficiency): Grant a creature proficiency in a single weapon for short period of time.
+- [**Blessing of Courage and Life**](advanced/spells/blessingOfCourageAndLife#_blessing-of-courage-and-life): +2 on saves vs. fear and death.
+- [**Blessing of Luck and Resolve**](advancedRaceGuide/coreRaces/halflings#_blessing-of-luck-and-resolve): Grants target a +2 morale bonus on saving throws against fear effects.
+- [**Blinding Ray**](advancedRaceGuide/featuredRaces/dhampirs#_blinding-ray): You blast your enemies with blinding rays of sunlight.
+- [**Blood Blaze**](advancedRaceGuide/featuredRaces/orcs#_blood-blaze): 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air.
+- [**Boiling Blood**](ultimateMagic/spells/boilingBlood#_boiling-blood): Targets take fire damage; orcs get +2 Strength.
+- [**Bull's Strength**](spells/bullSStrength#_bull-s-strength): Subject gains +4 to [Str](gettingStarted#_strength) for 1 min./level.
+- [**Calm Emotions**](spells/calmEmotions#_calm-emotions): Calms creatures, negating emotion effects.
+- [**Compassionate Ally**](ultimateMagic/spells/compassionateAlly#_compassionate-ally): Target is compelled to help injured ally.
+- [**Consecrate**](spells/consecrate#_consecrate)M: Fills area with positive energy, weakening undead.
+- [**Cure Moderate Wounds**](spells/cureModerateWounds#_cure-moderate-wounds): Cures 2d8 damage + 1/level (max +10).
+- [**Darkness**](spells/darkness#_darkness): 20-ft. radius of supernatural shadow.
+- [**Death Candle**](advancedRaceGuide/featuredRaces/ifrits#_death-candle): Functions like _death knell_, except you summon a Small fire elemental resembling the slain creature.
+- [**Death Knell**](spells/deathKnell#_death-knell): Kills [dying](glossary#_dying) creature; you gain 1d8 temporary hp, +2 to [Str](gettingStarted#_strength), and +1 caster level.
+- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk#_delay-disease): The target becomes temporarily immune to disease.
+- [**Delay Pain**](ultimateMagic/spells/delayPain#_delay-pain): Ignore pain for 1 hour/level.
+- [**Delay Poison**](spells/delayPoison#_delay-poison): Stops poison from harming target for 1 hour/level.
+- [**Desecrate**](spells/desecrate#_desecrate)M: Fills area with negative energy, making undead stronger.
+- [**Disfiguring Touch**](ultimateMagic/spells/disfiguringTouch#_disfiguring-touch-): Target becomes disfigured.
+- [**Dread Bolt**](ultimateMagic/spells/dreadBolt#_dread-bolt): Harm and possibly sicken good creatures.
+- [**Eagle's Splendor**](spells/eagleSSplendor#_eagle-s-splendor): Subject gains +4 to [Cha](gettingStarted#_charisma-new) for 1 min./level.
+- [**Effortless Armor**](ultimateCombat/spells/effortlessArmor#_effortless-armor): Armor you wear no longer slows your speed.
+- [**Endure Elements, Communal**](ultimateCombat/spells/endureElements#_endure-elements,-communal): As _ [endure elements](spells/endureElements#_endure-elements)_, but you may divide the duration among creatures touched.
+- [**Enemy's Heart**](advancedRaceGuide/featuredRaces/orcs#_enemy's-heart): Cut out an enemy's heart and consume it, absorbing that enemy's power as your own.
+- [**Enthrall**](spells/enthrall#_enthrall): Captivates all within 100 ft. + 10 ft./level.
+- [**Find Traps**](spells/findTraps#_find-traps): Notice traps as a rogue does.
+- [**Gentle Repose**](spells/gentleRepose#_gentle-repose): Preserves one corpse.
+- [**Ghostbane Dirge**](advanced/spells/ghostbaneDirge#_ghostbane-dirge): Incorporeal creature takes half damage from nonmagical weapons.
+- [**Grace**](advanced/spells/grace#_grace): Movement doesn't provoke attacks of opportunity.
+- [**Groundswell**](advancedRaceGuide/coreRaces/dwarves#_groundswell): Allows the target to cause the ground to rise up beneath him.
+- [**Hold Person**](spells/holdPerson#_hold-person): Paralyzes one humanoid for 1 round/level.
+- [**Imbue with Aura**](ultimateMagic/spells/imbueWithAura#_imbue-with-aura): Target emulates your cleric aura.
+- [**Imbue with Elemental Might**](advancedRaceGuide/uncommonRaces/sulis#_imbue-with-elemental-might): Functions like _imbue with spell ability_, except you transfer the use of your elemental assault ability to the target.
+- [**Inflict Moderate Wounds**](spells/inflictModerateWounds#_inflict-moderate-wounds): Touch attack, 2d8 damage + 1/level (max +10).
+- [**Instant Armor**](advanced/spells/instantArmor#_instant-armor-): Summon armor temporarily replacing your current attire.
+- [**Instrument of Agony**](ultimateCombat/spells/instrumentOfAgony#_instrument-of-agony): Weapon exudes divine fury, granting a bonus on [Intimidate](skills/intimidate#_intimidate) checks.
+- [**Life Channel**](advancedRaceGuide/featuredRaces/dhampirs#_life-channel): When cast on a creature with negative energy affinity, the target is able to convert channeled positive energy into temporary hit points.
+- [**Magic Siege Engine**](ultimateCombat/spells/magicSiegeEngine#_magic-siege-engine): Siege engine gains +1 on targeting and damage rolls.
+- [**Make Whole**](spells/makeWhole#_make-whole): Repairs an object.
+- [**Masterwork Transformation**](ultimateMagic/spells/masterworkTransformation#_masterwork-transformation): Make a normal item into a masterwork one.
+- [**Oracle's Burden**](advanced/spells/oracleSBurden#_oracle's-burden): _(Oracle only.)_ Creature is affected by negative oracle's curse effects.
+- [**Owl's Wisdom**](spells/owlSWisdom#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted#_wisdom) for 1 min./level.
+- [**Pilfering Hand**](ultimateCombat/spells/pilferingHand#_pilfering-hand): You may seize an object or manipulate it from afar.
+- [**Protection from Chaos, Communal**](ultimateCombat/spells/protectionFromChaos#_protection-from-chaos,-communal): As _ [protection from chaos](spells/protectionFromChaos#_protection-from-chaos)_, but you may divide the duration among creatures touched.
+- [**Protection from Evil, Communal**](ultimateCombat/spells/protectionFromEvil#_protection-from-evil,-communal): As _ [protection from evil](spells/protectionFromEvil#_protection-from-evil)_, but you may divide the duration among creatures touched.
+- [**Protection from Good, Communal**](ultimateCombat/spells/protectionFromGood#_protection-from-good,-communal): As _ [protection from good](spells/protectionFromGood#_protection-from-good)_, but you may divide the duration among creatures touched.
+- [**Protection from Law, Communal**](ultimateCombat/spells/protectionFromLaw#_protection-from-law,-communal): As _ [protection from law](spells/protectionFromLaw#_protection-from-law)_, but you may divide the duration among creatures touched.
+- [**Protective Penumbra**](ultimateMagic/spells/protectivePenumbra#_protective-penumbra): Shadow protects the target from light.
+- [**Reinforce Armaments, Communal**](ultimateCombat/spells/reinforceArmaments#_reinforce-armaments,-communal): As _ [reinforce armaments](ultimateCombat/spells/reinforceArmaments#_reinforce-armaments)_, but you may divide the duration among objects touched.
+- [**Remove Paralysis**](spells/removeParalysis#_remove-paralysis): Frees creatures from paralysis or _ [slow](spells/slow#_slow)_ effect.
+- [**Resist Energy**](spells/resistEnergy#_resist-energy): Ignores 10 (or more) points of damage/attack from specified energy type.
+- [**Restoration, Lesser**](spells/restoration#_restoration-lesser): Dispels magical ability penalty or repairs 1d4 ability damage.
+- [**Returning Weapon**](ultimateCombat/spells/returningWeapon#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons#_weapons-returning)_ special weapon quality.
+- [**Sacred Space**](advancedRaceGuide/featuredRaces/aasimars#_sacred-space): Sanctifies an area with heavenly power.
+- [**Savage Maw**](advancedRaceGuide/coreRaces/halfOrcs#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
+- [**Sentry Skull**](advancedRaceGuide/featuredRaces/orcs#_sentry-skull): Restore the senses to the severed head of a humanoid or monstrous humanoid killed within the past 24 hours, creating a grisly sentinel.
+- [**Shard of Chaos**](ultimateMagic/spells/shardOfChaos#_shard-of-chaos): Harm and possibly slow lawful creatures.
+- [**Share Language**](advanced/spells/shareLanguage#_share-language-): Subject understands chosen language.
+- [**Shatter**](spells/shatter#_shatter): Sonic vibration damages objects or crystalline creatures.
+- [**Shield Other**](spells/shieldOther#_shield-other)F: You take half of subject's damage.
+- [**Silence**](spells/silence#_silence): Negates sound in 20-ft. radius.
+- [**Sound Burst**](spells/soundBurst#_sound-burst): Deals 1d8 sonic damage to subjects; may stun them.
+- [**Spear of Purity**](ultimateMagic/spells/spearOfPurity#_spear-of-purity): Harm and possibly blind evil creatures.
+- [**Spiritual Weapon**](spells/spiritualWeapon#_spiritual-weapon): Magic weapon attacks on its own.
+- [**Status**](spells/status#_status): Monitors condition, position of allies.
+- [**Summon Monster II**](spells/summonMonster#_summon-monster-ii): Summons extraplanar creature to fight for you.
+- [**Surmount Affliction**](ultimateMagic/spells/surmountAffliction#_surmount-affliction): Temporarily suppress one condition.
+- [**Undetectable Alignment**](spells/undetectableAlignment#_undetectable-alignment): Conceals alignment for 24 hours.
+- [**Weapon of Awe**](advanced/spells/weaponOfAwe#_weapon-of-awe): Weapon gets +2 on damage rolls.
+- [**Web Shelter**](ultimateMagic/spells/webShelter#_web-shelter): Create a comfortable shelter made of webbing.
+- [**Whispering Lore**](advancedRaceGuide/coreRaces/elves#_whispering-lore): You are able to gain knowledge from the land itself.
+- [**Zone of Truth**](spells/zoneOfTruth#_zone-of-truth): Subjects within range cannot lie.
+
+- [**Agonize**](ultimateMagic/spells/agonize#_agonize-): Pain encourages an outsider to obey you.
+- [**Agonizing Rebuke**](advancedRaceGuide/featuredRaces/hobgoblins#_agonizing-rebuke): You instill such apprehension about attacking you in your target that doing so causes it mental distress and pain.
+- [**Animate Dead**](spells/animateDead#_animate-dead)M: Creates undead skeletons and zombies.
+- [**Archon's Aura**](ultimateMagic/spells/archonSAura#_archon's-aura): Aura penalizes enemy attacks and AC.
+- [**Badger's Ferocity**](ultimateMagic/spells/badgerSFerocity#_badger's-ferocity): Weapons are _ [keen](/magicItems/weapons#_weapons-keen)_ while you concentrate.
+- [**Bestow Curse**](spells/bestowCurse#_bestow-curse): –6 to an ability score; –4 on attack rolls, saves, and checks; or 50% chance of losing each action.
+- [**Bestow Insight**](advancedRaceGuide/coreRaces/humans#_bestow-insight): Target gains a +2 insight bonus and is considered trained in one single ranked skill.
+- [**Blessing of the Mole**](ultimateMagic/spells/blessingOfTheMole#_blessing-of-the-mole): 1 ally/level gains darkvision and a +2 [Stealth](/skills/stealth#_stealth) bonus.
+- [**Blindness/Deafness**](spells/blindnessDeafness#_blindness-deafness): Makes subject [blinded](glossary#_blinded) or deafened.
+- [**Blood Biography**](advanced/spells/bloodBiography#_blood-biography-): Learn about a creature with its blood.
+- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
+- [**Borrow Fortune**](advanced/spells/borrowFortune#_borrow-fortune): _(Oracle only.)_ Retry attack or check, but do worse on next two.
+- [**Chain of Perdition**](ultimateCombat/spells/chainOfPerdition#_chain-of-perdition): Creates a floating chain of force.
+- [**Contagion**](spells/contagion#_contagion): Infects subject with chosen disease.
+- [**Continual Flame**](spells/continualFlame#_continual-flame)M: Makes a permanent, heatless light.
+- [**Create Food and Water**](spells/createFoodAndWater#_create-food-and-water): Feeds three humans (or one horse)/level.
+- [**Cure Serious Wounds**](spells/cureSeriousWounds#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
+- [**Daybreak Arrow**](ultimateCombat/spells/daybreakArrow#_daybreak-arrow): Targeted ammunition exudes radiant energy.
+- [**Daylight**](spells/daylight#_daylight): 60-ft. radius of bright light.
+- [**Deadly Juggernaut**](ultimateCombat/spells/deadlyJuggernaut#_deadly-juggernaut): Your might increases with every kill you make.
+- [**Deeper Darkness**](spells/deeperDarkness#_deeper-darkness): Object sheds supernatural shadow in 60-ft. radius.
+- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison#_delay-poison,-communal): As _ [delay poison](spells/delayPoison#_delay-poison)_, but you may divide the duration among creatures touched.
+- [**Discovery Torch**](ultimateCombat/spells/discoveryTorch#_discovery-torch-): Touched object emanates bright light, granting [Perception](skills/perception#_perception) and [Sense Motive](skills/senseMotive#_sense-motive) bonuses.
+- [**Dispel Magic**](spells/dispelMagic#_dispel-magic): Cancels one magical spell or effect.
+- [**Elemental Speech**](advanced/spells/elementalSpeech#_elemental-speech): You can speak with elementals and some creatures.
+- [**Enter Image**](advanced/spells/enterImage#_enter-image-): Transfers your consciousness to an object bearing your likeness.
+- [**Glyph of Warding**](spells/glyphOfWarding#_glyph-of-warding)M: Inscription harms those who pass it.
+- [**Guiding Star**](advanced/spells/guidingStar#_guiding-star-): Know approximate distance from where you cast this spell.
+- [**Helping Hand**](spells/helpingHand#_helping-hand): Ghostly hand leads subject to you.
+- [**Inflict Serious Wounds**](spells/inflictSeriousWounds#_inflict-serious-wounds): Touch attack, 3d8 damage + 1/level (max +15).
+- [**Invisibility Purge**](spells/invisibilityPurge#_invisibility-purge): Dispels invisibility within 5 ft./level.
+- [**Ki Leech**](ultimateMagic/spells/kiLeech#_ki-leech): Add to your _ki_ pool when you critically hit.
+- [**Locate Object**](spells/locateObject#_locate-object): Senses direction toward object (specific or type).
+- [**Magic Circle against Chaos/Evil/Good/Law**](spells/magicCircleAgainstChaos#_magic-circle-against-chaos): As _protection _spells, but 10-ft. radius and 10 min./level.
+- [**Magic Vestment**](spells/magicVestment#_magic-vestment): Armor or shield gains +1 enhancement per four levels.
+- [**Meld into Stone**](spells/meldIntoStone#_meld-into-stone): You and your gear merge with stone.
+- [**Nap Stack**](advanced/spells/napStack#_nap-stack-)M: Subjects only need 2 hours for a night's sleep, and can sleep even longer for more benefits.
+- [**Obscure Object**](spells/obscureObject#_obscure-object): Masks object against [scrying](spells/scrying#_scrying).
+- [**Paragon Surge**](advancedRaceGuide/coreRaces/halfElves#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
+- [**Prayer**](spells/prayer#_prayer): Allies get +1 bonus on most rolls, enemies –1 penalty.
+- [**Protection from Energy**](spells/protectionFromEnergy#_protection-from-energy): Absorb 12 points/level of damage from one kind of energy.
+- [**Raging Rubble**](advancedRaceGuide/featuredRaces/oreads#_raging-rubble): You animate an area of rubble, creating a dangerous, rolling area of debris.
+- [**Remove Blindness/Deafness**](spells/removeBlindnessDeafness#_remove-blindness-deafness): Cures normal or magical blindness or deafness.
+- [**Remove Curse**](spells/removeCurse#_remove-curse): Frees object or person from curse.
+- [**Remove Disease**](spells/removeDisease#_remove-disease): Cures all diseases affecting subject.
+- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy#_resist-energy)_, but you may divide the duration among creatures touched.
+- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon#_returning-weapon)_, but you may divide the duration among weapons touched.
+- [**Sacred Bond**](advanced/spells/sacredBond#_sacred-bond)F: Cast touch healing spells from a distance.
+- [**Sands of Time**](ultimateMagic/spells/sandsOfTime#_sands-of-time): Target temporarily ages.
+- [**Searing Light**](spells/searingLight#_searing-light): Ray deals 1d8/two levels damage (more against undead).
+- [**Share Language, Communal**](ultimateCombat/spells/shareLanguage#_share-language,-communal): As _ [share language](advanced/spells/shareLanguage#_share-language-)_, but you may divide the duration among creatures touched.
+- [**Speak with Dead**](spells/speakWithDead#_speak-with-dead): Corpse answers one question/two levels.
+- [**Stone Shape**](spells/stoneShape#_stone-shape): Sculpts stone into any shape.
+- [**Summon Monster III**](spells/summonMonster#_summon-monster-iii): Summons extraplanar creature to fight for you.
+- [**Symbol of Healing**](ultimateMagic/spells/symbolOfHealing#_symbol-of-healing): Triggered rune heals living creatures.
+- [**Vision of Hell**](ultimateMagic/spells/visionOfHell#_vision-of-hell): Illusory hellscape makes creatures shaken.
+- [**Water Breathing**](spells/waterBreathing#_water-breathing): Subjects can breathe underwater.
+- [**Water Walk**](spells/waterWalk#_water-walk): Subject treads on water as if solid.
+- [**Wind Wall**](spells/windWall#_wind-wall): Deflects arrows, smaller creatures, and gases.
+- [**Wrathful Mantle**](advanced/spells/wrathfulMantle#_wrathful-mantle): Subject gets +1/four levels on all saves.
+
+- [**Air Walk**](spells/airWalk#_air-walk): Subject treads on air as if solid (climb or descend at 45-degree angle).
+- [**Aura of Doom**](ultimateMagic/spells/auraOfDoom#_aura-of-doom): Creatures in your aura become shaken.
+- [**Battle Trance**](advancedRaceGuide/coreRaces/halfOrcs#_battle-trance): You are transformed into a single-minded force of destruction.
+- [**Blessing of Fervor**](advanced/spells/blessingOfFervor#_blessing-of-fervor): Gives allies a choice of benefits.
+- [**Blood Crow Strike**](ultimateMagic/spells/bloodCrowStrike#_blood-crow-strike): Unarmed strikes create crows that deal fire and negative energy damage.
+- [**Chaos Hammer**](spells/chaosHammer#_chaos-hammer): Harms and slows lawful creatures (1d8 damage/2 levels).
+- [**Control Summoned Creature**](ultimateMagic/spells/controlSummonedCreature#_control-summoned-creature): Direct a summoned monster as if you had summoned it.
+- [**Control Water**](spells/controlWater#_control-water): Raises or lowers bodies of water.
+- [**Cure Critical Wounds**](spells/cureCriticalWounds#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
+- [**Death Ward**](spells/deathWard#_death-ward): Grants bonuses against death spells and negative energy.
+- [**Debilitating Portent**](ultimateCombat/spells/debilitatingPortent#_debilitating-portent): Inflicts an ill fate on a creature, halving its damage when it attacks or casts a spell.
+- [**Dimensional Anchor**](spells/dimensionalAnchor#_dimensional-anchor): Bars extradimensional movement.
+- [**Discern Lies**](spells/discernLies#_discern-lies): Reveals deliberate falsehoods.
+- [**Dismissal**](spells/dismissal#_dismissal): Forces a creature to return to native plane.
+- [**Divination**](spells/divination#_divination)M: Provides useful advice for specific proposed actions.
+- [**Divine Power**](spells/divinePower#_divine-power): You gain attack bonuses and 1 hp/level.
+- [**Fleshworm Infestation**](ultimateMagic/spells/fleshwormInfestation#_fleshworm-infestation): Worms deal hp and Dex damage.
+- [**Freedom of Movement**](spells/freedomOfMovement#_freedom-of-movement): Subject moves normally despite impediments to movement.
+- [**Giant Vermin**](spells/giantVermin#_giant-vermin): Turns centipedes, scorpions, or spiders into giant vermin.
+- [**Healing Warmth**](advancedRaceGuide/featuredRaces/ifrits#_healing-warmth): Temporary immunity to fire damage as _protection from energy_.
+- [**Holy Smite**](spells/holySmite#_holy-smite): Harms and possibly blinds evil creatures (1d8 damage/2 levels).
+- [**Imbue with Spell Ability**](spells/imbueWithSpellAbility#_imbue-with-spell-ability): Transfer spells to subject.
+- [**Inflict Critical Wounds**](spells/inflictCriticalWounds#_inflict-critical-wounds): Touch attack, 4d8 damage + 1/level (max +20).
+- [**Magic Weapon, Greater**](spells/magicWeapon#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
+- [**Neutralize Poison**](spells/neutralizePoison#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
+- [**Order's Wrath**](spells/orderSWrath#_order-s-wrath): Harms and dazes chaotic creatures (1d8 damage/2 levels).
+- [**Plague Carrier**](ultimateMagic/spells/plagueCarrier#_plague-carrier): Target's attacks carry filth fever.
+- [**Planar Adaptation**](advanced/spells/planarAdaptation#_planar-adaptation): Resist harmful effects of other plane.
+- [**Planar Ally, Lesser**](spells/planarAlly#_planar-ally-lesser)M: Exchange services with a 6 HD extraplanar creature.
+- [**Poison**](spells/poison#_poison): Touch deals 1d3 [Con](gettingStarted#_constitution) damage 1/round for 6 rounds.
+- [**Protection from Energy, Communal**](ultimateCombat/spells/protectionFromEnergy#_protection-from-energy,-communal): As _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, but you may divide the duration among creatures touched.
+- [**Repel Vermin**](spells/repelVermin#_repel-vermin): Insects, spiders, and other vermin stay 10 ft. away.
+- [**Rest Eternal**](advanced/spells/restEternal#_rest-eternal)M: Dead creature cannot be revived.
+- [**Restoration**](spells/restoration#_restoration)M: Restores level and ability score drains.
+- [**Ride the Waves**](ultimateMagic/spells/rideTheWaves#_ride-the-waves): Target can breathe water and swim.
+- [**Sending**](spells/sending#_sending): Delivers short message anywhere, instantly.
+- [**Soothe Construct**](ultimateMagic/spells/sootheConstruct#_soothe-construct): Reduce the berserk chance of a construct.
+- [**Spell Immunity**](spells/spellImmunity#_spell-immunity): Subject is immune to one spell per 4 levels.
+- [**Spiritual Ally**](advanced/spells/spiritualAlly#_spiritual-ally): Creates a divine ally to aid you.
+- [**Spit Venom**](ultimateMagic/spells/spitVenom#_spit-venom): Spit blinding black adder venom.
+- [**Summon Monster IV**](spells/summonMonster#_summon-monster-iv): Summons extraplanar creature to fight for you.
+- [**Summoner Conduit**](ultimateCombat/spells/summonerConduit#_summoner-conduit): The target takes damage whenever its summoned creature does.
+- [**Symbol of Revelation**](ultimateMagic/spells/symbolOfRevelation#_symbol-of-revelation): Triggered symbol reveals illusions.
+- [**Symbol of Slowing**](ultimateMagic/spells/symbolOfSlowing#_symbol-of-slowing): Triggered rune slows creatures.
+- [**Terrible Remorse**](ultimateMagic/spells/terribleRemorse#_terrible-remorse): Creature is compelled to harm itself.
+- [**Tongues**](spells/tongues#_tongues): Speak and understand any language.
+- [**Unholy Blight**](spells/unholyBlight#_unholy-blight): Harms and sickens good creatures (1d8 damage/2 levels).
+- [**Ward of the Season**](advancedRaceGuide/coreRaces/elves#_ward-of-the-season): Harnesses the power of the seasons to protect the target and grant a number of bonuses.
+- [**Water Walk, Communal**](ultimateCombat/spells/waterWalk#_water-walk,-communal): As _ [water walk](spells/waterWalk#_water-walk)_, but you may divide the duration among creatures touched.
+
+- [**Air Walk, Communal**](ultimateCombat/spells/airWalk#_air-walk,-communal): As _ [air walk](spells/airWalk#_air-walk)_, but you may divide the duration among creatures touched.
+- [**Astral Projection, Lesser**](ultimateMagic/spells/astralProjection#_astral-projection,-lesser): Limited astral travel.
+- [**Atonement**](spells/atonement#_atonement)FM: Removes burden of misdeeds from subject and reverses magical alignment change.
+- [**Break Enchantment**](spells/breakEnchantment#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
+- [**Breath of Life**](spells/breathOfLife#_breath-of-life): Cures 5d8 damage + 1/level and restores life to recently slain creatures.
+- [**Cleanse**](advanced/spells/cleanse#_cleanse): Cures 4d8 damage +1/level (max +25) and also removes several afflictions.
+- [**Command, Greater**](spells/command#_command-greater): As _ [command](spells/command#_command), _but affects one subject/level.
+- [**Commune**](spells/commune#_commune)M: Deity answers one yes-or-no question/level.
+- [**Contagion, Greater**](ultimateMagic/spells/contagion#_contagion,-greater): Infect a subject with a magical disease.
+- [**Cure Light Wounds, Mass**](spells/cureLightWounds#_cure-light-wounds-mass): Cures 1d8 damage + 1/level, affects 1 subject/level.
+- [**Curse of Magic Negation**](ultimateMagic/spells/curseOfMagicNegation#_curse-of-magic-negation): Target gains the negated spellblight.
+- [**Curse, Major**](ultimateMagic/spells/curse#_curse,-major): As _ [bestow curse](/spells/bestowCurse#_bestow-curse)_, but harder to remove.
+- [**Dispel Chaos/Evil/Good/Law**](spells/dispelEvil#_dispel-evil): +4 bonus against attacks.
+- [**Disrupting Weapon**](spells/disruptingWeapon#_disrupting-weapon): Melee weapon destroys undead.
+- [**Fickle Winds**](ultimateMagic/spells/fickleWinds#_fickle-winds): Wind walls selectively block attacks.
+- [**Flame Strike**](spells/flameStrike#_flame-strike): Smites foes with divine fire (1d6/level damage).
+- [**Forbid Action, Greater**](ultimateMagic/spells/forbidAction#_forbid-action,-greater): As _ [forbid action](ultimateMagic/spells/forbidAction#_forbid-action)_, but 1 creature/level.
+- [**Ghostbane Dirge, Mass**](advanced/spells/ghostbaneDirge#_ghostbane-dirge,-mass): As _ [ghostbane dirge](advanced/spells/ghostbaneDirge#_ghostbane-dirge)_, but affects multiple creatures.
+- [**Half-blood Extraction**](advancedRaceGuide/coreRaces/halfOrcs#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
+- [**Hallow**](spells/hallow#_hallow)M: Designates location as holy.
+- [**Holy Ice**](ultimateMagic/spells/holyIce#_holy-ice): Create wall or javelins of frozen holy water.
+- [**Inflict Light Wounds, Mass**](spells/inflictLightWounds#_inflict-light-wounds-mass): Deals 1d8 damage + 1/level, affects 1 subject/level.
+- [**Insect Plague**](spells/insectPlague#_insect-plague): Wasp swarms attack creatures.
+- [**Life Bubble**](advanced/spells/lifeBubble#_life-bubble-): Protects creatures from environment.
+- [**Magic Siege Engine, Greater**](ultimateCombat/spells/magicSiegeEngine#_magic-siege-engine,-greater): Siege engine gains +1 on targeting and damage rolls for every four caster levels.
+- [**Mark of Justice**](spells/markOfJustice#_mark-of-justice): Designates action that triggers _curse _on subject.
+- [**Pillar of Life**](advanced/spells/pillarOfLife#_pillar-of-life): Created pillar heals 2d8 + 1/level (max +20).
+- [**Plane Shift**](spells/planeShift#_plane-shift)F: As many as 8 subjects travel to another plane.
+- [**Raise Dead**](spells/raiseDead#_raise-dead)M: Restores life to subject who died as long as one day/level ago.
+- [**Rapid Repair**](ultimateMagic/spells/rapidRepair#_rapid-repair): Construct gains fast healing 5.
+- [**Reprobation**](ultimateMagic/spells/reprobation#_reprobation): Marked target is shunned by your religion.
+- [**Righteous Might**](spells/righteousMight#_righteous-might): Your size increases, and you gain bonuses in combat.
+- [**Scrying**](spells/scrying#_scrying)F: Spies on subject from a distance.
+- [**Serenity**](ultimateMagic/spells/serenity#_serenity): Peaceful feelings harm those attempting violence.
+- [**Slay Living**](spells/slayLiving#_slay-living): Touch attack deals 12d6 + 1 per level.
+- [**Snake Staff**](advanced/spells/snakeStaff#_snake-staff): Transforms staff or other wood into snakes to fight for you.
+- [**Spawn Ward**](advancedRaceGuide/featuredRaces/dhampirs#_spawn-ward): Target becomes resistant to the effects of energy drain and blood drain attacks made by undead creatures.
+- [**Spell Immunity, Communal**](ultimateCombat/spells/spellImmunity#_spell-immunity,-communal): As _ [spell immunity](spells/spellImmunity#_spell-immunity)_, but you may divide the duration among creatures touched.
+- [**Spell Resistance**](spells/spellResistance#_spell-resistance): Subject gains SR 12 + level.
+- [**Summon Monster V**](spells/summonMonster#_summon-monster-v): Summons extraplanar creature to fight for you.
+- [**Symbol of Pain**](spells/symbolOfPain#_symbol-of-pain)M: Triggered rune wracks nearby creatures with pain.
+- [**Symbol of Scrying**](ultimateMagic/spells/symbolOfScrying#_symbol-of-scrying): Triggered rune activates scrying sensor.
+- [**Symbol of Sleep**](spells/symbolOfSleep#_symbol-of-sleep)M: Triggered rune puts nearby creatures into catatonic slumber.
+- [**Symbol of Striking**](ultimateCombat/spells/symbolOfStriking#_symbol-of-striking)M: As _ [symbol of death](spells/symbolOfDeath#_symbol-of-death)_, but fills a 5-foot square.
+- [**Tongues, Communal**](ultimateCombat/spells/tongues#_tongues,-communal): As _ [tongues](spells/tongues#_tongues)_, but you may divide the duration among creatures touched.
+- [**Treasure Stitching**](advanced/spells/treasureStitching#_treasure-stitching-)M: Objects on cloth become embroidered.
+- [**True Seeing**](spells/trueSeeing#_true-seeing)M: Lets you see all things as they really are.
+- [**Unhallow**](spells/unhallow#_unhallow)M: Designates location as unholy.
+- [**Unholy Ice**](ultimateMagic/spells/unholyIce#_unholy-ice): Create wall or javelins of frozen unholy water.
+- [**Village Veil**](advancedRaceGuide/coreRaces/halflings#_village-veil): Creates an illusion over an area to make creatures that view or interact with it believe it has suffered a catastrophe that renders it utterly worthless.
+- [**Wall of Stone**](spells/wallOfStone#_wall-of-stone): Creates a stone wall that can be shaped.
+
+- [**Animate Objects**](spells/animateObjects#_animate-objects): Objects attack your foes.
+- [**Antilife Shell**](spells/antilifeShell#_antilife-shell): 10-ft.-radius field hedges out living creatures.
+- [**Banishment**](spells/banishment#_banishment): Banishes 2 HD/level of extraplanar creatures.
+- [**Bear's Endurance, Mass**](spells/bearSEndurance#_bear-s-endurance-mass): As _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, affects 1 subject/level.
+- [**Blade Barrier**](spells/bladeBarrier#_blade-barrier): Wall of blades deals 1d6/level damage.
+- [**Blessing of Luck and Resolve, Mass**](advancedRaceGuide/coreRaces/halflings#_blessing-of-luck-and-resolve,-mass): Functions like _blessing of luck and resolve_, except that it affects multiple creatures.
+- [**Bull's Strength, Mass**](spells/bullSStrength#_bull-s-strength-mass): As _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, affects 1 subject/level.
+- [**Cold Ice Strike**](ultimateMagic/spells/coldIceStrike#_cold-ice-strike): Cone of ice slivers deals 1d6 cold/level.
+- [**Create Undead**](spells/createUndead#_create-undead)M: Create ghasts, ghouls, mohrgs, or mummies.
+- [**Cure Moderate Wounds, Mass**](spells/cureModerateWounds#_cure-moderate-wounds-mass): Cures 2d8 damage + 1/level, affects 1 subject/level.
+- [**Dispel Magic, Greater**](spells/dispelMagic#_dispel-magic-greater): As _ [dispel magic](spells/dispelMagic#_dispel-magic)_, but with multiple targets.
+- [**Dust Form**](ultimateCombat/spells/dustForm#_dust-form): You become an incorporeal creature of dust for a short period of time.
+- [**Eagle's Splendor, Mass**](spells/eagleSSplendor#_eagle-s-splendor-mass): As _ [eagle's splendor](spells/eagleSSplendor#_eagle-s-splendor)_, affects 1 subject/level.
+- [**Epidemic**](ultimateMagic/spells/epidemic#_epidemic): Infect a subject with a highly contagious disease.
+- [**Find the Path**](spells/findThePath#_find-the-path): Shows most direct way to a location.
+- [**Forbiddance**](spells/forbiddance#_forbiddance)M: Blocks planar travel, damages creatures of different alignment.
+- [**Geas/Quest**](spells/geasQuest#_geas-quest): As _lesser geas, _but affects any creature.
+- [**Glyph of Warding, Greater**](spells/glyphOfWarding#_glyph-of-warding-greater)M: As _ [glyph of warding](spells/glyphOfWarding#_glyph-of-warding)_, but up to 10d8 damage or 6th-level spell.
+- [**Harm**](spells/harm#_harm): Deals 10 points/level damage to target.
+- [**Heal**](spells/heal#_heal): Cures 10 points/level damage, all diseases and mental conditions.
+- [**Heroes' Feast**](spells/heroesFeast#_heroes-feast): Food for one creature/level cures and grants combat bonuses_._
+- [**Inflict Moderate Wounds, Mass**](spells/inflictModerateWounds#_inflict-moderate-wounds-mass): Deals 2d8 damage + 1/level, affects 1 subject/level.
+- [**Joyful Rapture**](ultimateMagic/spells/joyfulRapture#_joyful-rapture): Negate harmful emotions.
+- [**Owl's Wisdom, Mass**](spells/owlSWisdom#_owl-s-wisdom-mass): As _ [owl's wisdom](spells/owlSWisdom#_owl-s-wisdom)_, affects 1 subject/level.
+- [**Plague Storm**](ultimateMagic/spells/plagueStorm#_plague-storm): Cloud infects creatures like _ [contagion](/spells/contagion#_contagion)_.
+- [**Planar Adaptation, Mass**](advanced/spells/planarAdaptation#_planar-adaptation,-mass): As _ [planar adaptation](advanced/spells/planarAdaptation#_planar-adaptation)_, but affects multiple creatures.
+- [**Planar Ally**](spells/planarAlly#_planar-ally)M: As _ [lesser planar ally](spells/planarAlly#_planar-ally-lesser), _but up to 12 HD.
+- [**Summon Monster VI**](spells/summonMonster#_summon-monster-vi): Summons extraplanar creature to fight for you.
+- [**Symbol of Fear**](spells/symbolOfFear#_symbol-of-fear)M: Triggered rune panics nearby creatures.
+- [**Symbol of Persuasion**](spells/symbolOfPersuasion#_symbol-of-persuasion)M: Triggered rune charms nearby creatures.
+- [**Symbol of Sealing**](ultimateMagic/spells/symbolOfSealing#_symbol-of-sealing): Creates triggered _ [wall of force](/spells/wallOfForce#_wall-of-force)_.
+- [**Truespeak**](advancedRaceGuide/featuredRaces/aasimars#_truespeak): You can communicate with any creature that is not mindless.
+- [**Undeath to Death**](spells/undeathToDeath#_undeath-to-death)M: Destroys 1d4 HD/level undead (max. 20d4).
+- [**Wind Walk**](spells/windWalk#_wind-walk): You and your allies turn vaporous and travel fast.
+- [**Word of Recall**](spells/wordOfRecall#_word-of-recall): Teleports you back to designated place.
+
+- [**Bestow Grace of the Champion**](ultimateMagic/spells/bestowGraceOfTheChampion#_bestow-grace-of-the-champion): Target gains paladin abilities for 1 round/level.
+- [**Blasphemy**](spells/blasphemy#_blasphemy): Kills, paralyzes, weakens, or dazes nonevil subjects.
+- [**Circle of Clarity**](ultimateMagic/spells/circleOfClarity#_circle-of-clarity): Emanation hampers illusions and stealth.
+- [**Control Weather**](spells/controlWeather#_control-weather): Changes weather in local area.
+- [**Create Demiplane, Lesser**](ultimateMagic/spells/createDemiplane#_create-demiplane,-lesser): Create your own demiplane.
+- [**Cure Serious Wounds, Mass**](spells/cureSeriousWounds#_cure-serious-wounds-mass): Cures 3d8 damage + 1/level, affects 1 subject/level.
+- [**Destruction**](spells/destruction#_destruction)F: Kills subject and destroys remains.
+- [**Dictum**](spells/dictum#_dictum): Kills, paralyzes, staggers, or deafens nonlawful targets.
+- [**Ethereal Jaunt**](spells/etherealJaunt#_ethereal-jaunt): You become ethereal for 1 round/level.
+- [**Holy Word**](spells/holyWord#_holy-word): Kills, paralyzes, blinds, or deafens nongood subjects.
+- [**Inflict Serious Wounds, Mass**](spells/inflictSeriousWounds#_inflict-serious-wounds-mass): Deals 3d8 damage + 1/level, affects 1 subject/level.
+- [**Jolting Portent**](ultimateCombat/spells/joltingPortent#_jolting-portent): You inflict a vengeful fate on a creature, dealing electricity damage each time it attacks or casts a spell.
+- [**Lunar Veil**](ultimateMagic/spells/lunarVeil#_lunar-veil): Dispel light and revert lycanthropes.
+- [**Refuge**](spells/refuge#_refuge)M: Alters item to transport its possessor to you.
+- [**Regenerate**](spells/regenerate#_regenerate): Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).
+- [**Repulsion**](spells/repulsion#_repulsion): Creatures can't approach you.
+- [**Restoration, Greater**](spells/restoration#_restoration-greater)M: As _ [restoration](spells/restoration#_restoration), _plus restores all levels and ability scores.
+- [**Resurrection**](spells/resurrection#_resurrection)M: Fully restore dead subject.
+- [**Scrying, Greater**](spells/scrying#_scrying-greater): As _ [scrying](spells/scrying#_scrying)_, but faster and longer.
+- [**Summon Monster VII**](spells/summonMonster#_summon-monster-vii): Summons extraplanar creature to fight for you.
+- [**Symbol of Stunning**](spells/symbolOfStunning#_symbol-of-stunning)M: Triggered rune stuns nearby creatures.
+- [**Symbol of Weakness**](spells/symbolOfWeakness#_symbol-of-weakness)M: Triggered rune weakens nearby creatures.
+- [**Waves of Ecstasy**](ultimateMagic/spells/wavesOfEcstasy#_waves-of-ecstasy): Pleasure stuns and staggers creatures.
+- [**Word of Chaos**](spells/wordOfChaos#_word-of-chaos): Kills, confuses_, _stuns, or deafens nonchaotic subjects.
+
+- [**Antimagic Field**](spells/antimagicField#_antimagic-field): Negates magic within 10 ft.
+- [**Call Construct**](ultimateMagic/spells/callConstruct#_call-construct): Summon your golem to you.
+- [**Cloak of Chaos**](spells/cloakOfChaos#_cloak-of-chaos)F: +4 to [AC](combat#_armor-class), +4 resistance, and SR 25 against lawful spells.
+- [**Create Demiplane**](ultimateMagic/spells/createDemiplane#_create-demiplane): As _ [lesser create demiplane](ultimateMagic/spells/createDemiplane#_create-demiplane,-lesser)_, but larger and with planar traits.
+- [**Create Greater Undead**](spells/createGreaterUndead#_create-greater-undead)M: Create shadows, wraiths, spectres, or devourers.
+- [**Cure Critical Wounds, Mass**](spells/cureCriticalWounds#_cure-critical-wounds-mass): Cures 4d8 damage + 1/level for many creatures.
+- [**Dimensional Lock**](spells/dimensionalLock#_dimensional-lock): Teleportation and interplanar travel blocked for 1 day/level.
+- [**Discern Location**](spells/discernLocation#_discern-location): Reveals exact location of creature or object.
+- [**Divine Vessel**](advanced/spells/divineVessel#_divine-vessel): _(Oracle only.)_ Change into a huge, otherworldly creature.
+- [**Earthquake**](spells/earthquake#_earthquake): Intense tremor shakes 80-ft. radius.
+- [**Euphoric Tranquility**](advanced/spells/euphoricTranquility#_euphoric-tranquility): Makes a single creature peaceful and friendly.
+- [**Fire Storm**](spells/fireStorm#_fire-storm): Deals 1d6/level fire damage.
+- [**Frightful Aspect**](ultimateCombat/spells/frightfulAspect#_frightful-aspect): You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.
+- [**Holy Aura**](spells/holyAura#_holy-aura)F: +4 to [AC](combat#_armor-class), +4 resistance, and SR 25 against evil spells.
+- [**Inflict Critical Wounds, Mass**](spells/inflictCriticalWounds#_inflict-critical-wounds-mass): Deals 4d8 damage + 1/level, affects 1 subject/level.
+- [**Nine Lives**](advancedRaceGuide/featuredRaces/catfolk#_nine-lives): Gives the target the ability to get out of trouble and relieves harmful effects and conditions.
+- [**Orb of the Void**](ultimateMagic/spells/orbOfTheVoid#_orb-of-the-void): Sphere inflicts negative levels.
+- [**Planar Ally, Greater**](spells/planarAlly#_planar-ally-greater)M: As _ [lesser planar ally](spells/planarAlly#_planar-ally-lesser), _but up to 18 HD.
+- [**Shield of Law**](spells/shieldOfLaw#_shield-of-law)F: +4 to [AC](combat#_armor-class), +4 resistance, and SR 25 against chaotic spells.
+- [**Spell Immunity, Greater**](spells/spellImmunity#_spell-immunity-greater): As _ [spell immunity](spells/spellImmunity#_spell-immunity), _but up to 8th-level spells.
+- [**Stormbolts**](advanced/spells/stormbolts#_stormbolts): 1d8 damage/level (max 20d8) to targets.
+- [**Summon Monster VIII**](spells/summonMonster#_summon-monster-viii): Summons extraplanar creature to fight for you.
+- [**Symbol of Death**](spells/symbolOfDeath#_symbol-of-death)M: Triggered rune kills nearby creatures.
+- [**Symbol of Insanity**](spells/symbolOfInsanity#_symbol-of-insanity)M: Triggered rune renders nearby creatures insane.
+- [**Unholy Aura**](spells/unholyAura#_unholy-aura)F: +4 to [AC](combat#_armor-class), +4 resistance, and SR 25 against good spells.
+
+- [**Astral Projection**](spells/astralProjection#_astral-projection)M: Projects you and others onto Astral Plane.
+- [**Create Demiplane, Greater**](ultimateMagic/spells/createDemiplane#_create-demiplane,-greater): As _ [create demiplane](ultimateMagic/spells/createDemiplane#_create-demiplane)_, but larger and with more planar traits.
+- [**Cursed Earth**](ultimateMagic/spells/cursedEarth#_cursed-earth): Plants die, living creatures catch diseases, or dead creatures rise as zombies.
+- [**Energy Drain**](spells/energyDrain#_energy-drain): Subject gains 2d4 [negative levels](glossary#_energy-drain-and-negative-levels).
+- [**Etherealness**](spells/etherealness#_etherealness): Travel to Ethereal Plane with companions.
+- [**Gate**](spells/gate#_gate)M: Connects two planes for travel or summoning.
+- [**Heal, Mass**](spells/heal#_heal-mass): As _ [heal](spells/heal#_heal)_, but affects 1 subject/level.
+- [**Implosion**](spells/implosion#_implosion): Inflict 10 damage/level to one creature/round.
+- [**Interplanetary Teleport**](ultimateMagic/spells/interplanetaryTeleport#_interplanetary-teleport): Teleport to another planet.
+- [**Miracle**](spells/miracle#_miracle)M: Requests a deity's intercession.
+- [**Overwhelming Presence**](ultimateMagic/spells/overwhelmingPresence#_overwhelming-presence): Creatures bow before you as if you were divine.
+- [**Polar Midnight**](ultimateMagic/spells/polarMidnight#_polar-midnight): Cold darkness paralyzes and deals damage.
+- [**Soul Bind**](spells/soulBind#_soul-bind)F: Traps newly dead soul to prevent _ [resurrection](spells/resurrection#_resurrection)_.
+- [**Spell Immunity, Greater Communal**](ultimateCombat/spells/spellImmunity#_spell-immunity,-greater-communal): As _ [greater spell immunity](spells/spellImmunity#_spell-immunity-greater)_, but you may divide the duration among creatures touched.
+- [**Storm of Vengeance**](spells/stormOfVengeance#_storm-of-vengeance): Storm rains acid, lightning, and hail.
+- [**Summon Monster IX**](spells/summonMonster#_summon-monster-ix): Summons extraplanar creature to fight for you.
+- [**Symbol of Strife**](ultimateMagic/spells/symbolOfStrife#_symbol-of-strife): Triggered rune makes creatures attack.
+- [**Symbol of Vulnerability**](ultimateMagic/spells/symbolOfVulnerability#_symbol-of-vulnerability): Triggered rune gives penalties.
+- [**True Resurrection**](spells/trueResurrection#_true-resurrection)M: As _ [resurrection](spells/resurrection#_resurrection)_, plus remains aren't needed.
+- [**Winds of Vengeance**](advanced/spells/windsOfVengeance#_winds-of-vengeance): Grants flight; attack with wind.
+- [**Wooden Phalanx**](ultimateMagic/spells/woodenPhalanx#_wooden-phalanx): Creates 1d4+2 temporary wood golems to fight for you.
+
+- [**Create Water**](spells/createWater#_create-water): Creates 2 gallons/level of pure water.
+- [**Detect Magic**](spells/detectMagic#_detect-magic): Detects spells and magic items within 60 ft.
+- [**Detect Poison**](spells/detectPoison#_detect-poison): Detects poison in one creature or object.
+- [**Flare**](spells/flare#_flare): Dazzles one creature (–1 penalty on attack rolls).
+- [**Guidance**](spells/guidance#_guidance): +1 on one attack roll, saving throw, or skill check.
+- [**Know Direction**](spells/knowDirection#_know-direction): You discern north.
+- [**Light**](spells/light#_light): Object shines like a torch.
+- [**Mending**](spells/mending#_mending): Makes minor repairs on an object.
+- [**Purify Food and Drink**](spells/purifyFoodAndDrink#_purify-food-and-drink): Purifies 1 cu. ft./level of food or water.
+- [**Read Magic**](spells/readMagic#_read-magic): Read scrolls and spellbooks.
+- [**Resistance**](spells/resistance#_resistance): Subject gains +1 bonus on saving throws.
+- [**Spark**](advanced/spells/spark#_spark-): Ignites flammable objects.
+- [**Stabilize**](spells/stabilize#_stabilize): Cause a [dying](glossary#_dying) creature to stabilize.
+- [**Virtue**](spells/virtue#_virtue): Subject gains 1 temporary hp.
+
+- [**Air Bubble**](ultimateCombat/spells/airBubble#_air-bubble): Creates a small pocket of air around your head or an object.
+- [**Alter Winds**](advanced/spells/alterWinds#_alter-winds): Increase/decrease strength of natural winds.
+- [**Ant Haul**](advanced/spells/antHaul#_ant-haul-): Triples carrying capacity of a creature.
+- [**Aspect of the Falcon**](advanced/spells/aspectOfTheFalcon#_aspect-of-the-falcon): Gives bonuses on [Perception](skills/perception#_perception) checks and ranged attacks. 
+- [**Blend**](advancedRaceGuide/coreRaces/elves#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
+- [**Bristle**](advanced/spells/bristle#_bristle-): Trade natural armor bonus for a bonus on attacks with natural weapons.
+- [**Call Animal**](advanced/spells/callAnimal#_call-animal): Makes an animal come to you.
+- [**Calm Animals**](spells/calmAnimals#_calm-animals): Calms 2d4 + level HD of animals.
+- [**Charm Animal**](spells/charmAnimal#_charm-animal): Makes one animal your friend.
+- [**Cloak of Shade**](advanced/spells/cloakOfShade#_cloak-of-shade): Reduces effects of sun exposure and heat.
+- [**Commune with Birds**](advancedRaceGuide/featuredRaces/tengus#_commune-with-birds): You can understand the responses given by birds.
+- [**Cure Light Wounds**](spells/cureLightWounds#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
+- [**Damp Powder**](ultimateCombat/spells/dampPowder#_damp-powder): Ruins ammunition loaded in the targeted firearm.
+- [**Deadeye's Lore**](ultimateCombat/spells/deadeyeSLore#_deadeye's-lore): Gain a +4 bonus on [Survival](skills/survival#_survival) and move full speed while tracking.
+- [**Decompose Corpse**](ultimateMagic/spells/decomposeCorpse#_decompose-corpse): Turn a corpse into a clean skeleton.
+- [**Detect Aberration**](advanced/spells/detectAberration#_detect-aberration): Reveals presence of aberrations.
+- [**Detect Animals or Plants**](spells/detectAnimalsOrPlants#_detect-animals-or-plants): Detects kinds of animals or plants.
+- [**Detect Snares and Pits**](spells/detectSnaresAndPits#_detect-snares-and-pits): Reveals natural or primitive traps.
+- [**Diagnose Disease**](ultimateMagic/spells/diagnoseDisease#_diagnose-disease): Detect and identify diseases.
+- [**Endure Elements**](spells/endureElements#_endure-elements): Exist comfortably in hot or cold regions.
+- [**Entangle**](spells/entangle#_entangle): Plants entangle everyone in 40-ft. radius.
+- [**Expeditious Excavation**](advanced/spells/expeditiousExcavation#_expeditious-excavation): Moves 5-ft. cubes of earth.
+- [**Faerie Fire**](spells/faerieFire#_faerie-fire): Outlines subjects with light, canceling _ [blur](spells/blur#_blur)_, concealment, and the like.
+- [**Feather Step**](advanced/spells/featherStep#_feather-step): Ignore movement penalty in difficult terrain.
+- [**Flare Burst**](advanced/spells/flareBurst#_flare-burst): As _ [flare](spells/flare#_flare)_, but all creatures within 10 ft.
+- [**Frostbite**](ultimateMagic/spells/frostbite#_frostbite): Target takes cold damage and is fatigued.
+- [**Goodberry**](spells/goodberry#_goodberry): 2d4 berries each cure 1 hp (max 8 hp/24 hours).
+- [**Hide from Animals**](spells/hideFromAnimals#_hide-from-animals): Animals can't perceive one subject/level.
+- [**Hydraulic Push**](advanced/spells/hydraulicPush#_hydraulic-push-): Wave of water bull rushes an enemy.
+- [**Jump**](spells/jump#_jump): Subject gets bonus on Acrobatics checks.
+- [**Keen Senses**](advanced/spells/keenSenses#_keen-senses): Gain +2 [Perception](skills/perception#_perception) and low-light vision.
+- [**Liberating Command**](ultimateCombat/spells/liberatingCommand#_liberating-command): Target makes an [Escape Artist](skills/escapeArtist#_escape-artist) check as an immediate action and gains a bonus on it.
+- [**Longstrider**](spells/longstrider#_longstrider): Your speed increases by 10 ft.
+- [**Magic Fang**](spells/magicFang#_magic-fang): One natural weapon of subject creature gets +1 on attack and damage rolls.
+- [**Magic Stone**](spells/magicStone#_magic-stone): Three stones gain +1 on attack rolls, deal 1d6+1 damage.
+- [**Marid's Mastery**](advancedRaceGuide/featuredRaces/undines#_marid's-mastery): Target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water.
+- [**Mighty Fist of the Earth**](advancedRaceGuide/featuredRaces/oreads#_mighty-fist-of-the-earth): You create a fist-sized rock that flies toward one enemy.
+- [**Mudball**](advancedRaceGuide/featuredRaces/goblins#_mudball): You conjure a single ball of sticky mud and launch it at an enemy's face as a ranged touch attack.
+- [**Negate Aroma**](advanced/spells/negateAroma#_negate-aroma): Subject cannot be tracked by scent.
+- [**Nereid's Grace**](advancedRaceGuide/featuredRaces/undines#_nereid's-grace): You radiate the unearthly grace of a nereid.
+- [**Obscuring Mist**](spells/obscuringMist#_obscuring-mist): Fog surrounds you.
+- [**Pass without Trace**](spells/passWithoutTrace#_pass-without-trace): One subject/level leaves no tracks.
+- [**Produce Flame**](spells/produceFlame#_produce-flame): 1d6 damage + 1/level, touch or thrown.
+- [**Ray of Sickening**](ultimateMagic/spells/rayOfSickening#_ray-of-sickening): Ray makes the subject sickened.
+- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
+- [**Remove Sickness**](ultimateMagic/spells/removeSickness#_remove-sickness): Suppress disease, nausea, and the sickened condition.
+- [**Restore Corpse**](ultimateMagic/spells/restoreCorpse#_restore-corpse): Skeletal corpse grows flesh.
+- [**Shillelagh**](spells/shillelagh#_shillelagh): Cudgel or quarterstaff becomes +1 weapon (2d6 damage) for 1 min./level.
+- [**Speak with Animals**](spells/speakWithAnimals#_speak-with-animals): You can communicate with animals.
+- [**Stone Fist**](advanced/spells/stoneFist#_stone-fist): Your unarmed strikes are lethal.
+- [**Stone Shield**](advancedRaceGuide/featuredRaces/oreads#_stone-shield): 1-inch-thick slab of stone springs up from the ground, shielding you.
+- [**Strong Wings**](advancedRaceGuide/uncommonRaces/strix#_strong-wings): The target's wings grow more powerful, increases fly speed by +10 feet and its maneuverability to improve by one category.
+- [**Summon Minor Ally**](ultimateMagic/spells/summonMinorAlly#_summon-minor-ally): Summon 1d3 Tiny animals.
+- [**Summon Nature's Ally I**](spells/summonNatureSAlly#_summon-nature-s-ally-i): Summons creature to fight.
+- [**Touch of Combustion**](advancedRaceGuide/featuredRaces/ifrits#_touch-of-combustion): Causes the target to ignite in a violent burst of flame.
+- [**Touch of the Sea**](advanced/spells/touchOfTheSea#_touch-of-the-sea): [Swim](skills/swim#_swim) speed becomes 30 ft.
+- [**Weaken Powder**](ultimateCombat/spells/weakenPowder#_weaken-powder): Targeted firearm's ammunition halves the firearm's range and imposes a –2 penalty on damage rolls.
+- [**Whispering Lore**](advancedRaceGuide/coreRaces/elves#_whispering-lore): You are able to gain knowledge from the land itself.
+- [**Windy Escape**](advancedRaceGuide/featuredRaces/sylphs#_windy-escape): You respond to an attack by briefly becoming vaporous and insubstantial.
+- [**Winter Feathers**](advancedRaceGuide/featuredRaces/tengus#_winter-feathers): Target's feathers thicken and fluff up to ward against winter's chill.
+
+- [**Aboleth's Lung**](advancedRaceGuide/uncommonRaces/gillmen#_aboleth's-lung): Targets are able to breathe water, freely.
+- [**Accelerate Poison**](advanced/spells/acceleratePoison#_accelerate-poison): Hastens targeted poison's onset.
+- [**Animal Aspect**](ultimateCombat/spells/animalAspect#_animal-aspect): You gain some of the beneficial qualities of an animal.
+- [**Animal Messenger**](spells/animalMessenger#_animal-messenger): Sends a Tiny animal to a specific place.
+- [**Animal Trance**](spells/animalTrance#_animal-trance): Fascinates 2d6 HD of animals.
+- [**Ant Haul, Communal**](ultimateCombat/spells/antHaul#_ant-haul,-communal): As _ [ant haul](advanced/spells/antHaul#_ant-haul-)_, but you may divide the duration among creatures touched.
+- [**Aspect of the Bear**](advanced/spells/aspectOfTheBear#_aspect-of-the-bear): +2 AC and combat maneuver rolls.
+- [**Barkskin**](spells/barkskin#_barkskin): Grants +2 (or higher) enhancement to natural armor.
+- [**Bear's Endurance**](spells/bearSEndurance#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted#_constitution) for 1 min./level.
+- [**Binding Earth**](advancedRaceGuide/featuredRaces/oreads#_binding-earth): Areas of earth and stone floor act as a snapping quagmire that pulls the target down and damages it if it attempts to move through such terrain.
+- [**Bull's Strength**](spells/bullSStrength#_bull-s-strength): Subject gains +4 to [Str](gettingStarted#_strength) for 1 min./level.
+- [**Burning Gaze**](advanced/spells/burningGaze#_burning-gaze): Inflict 1d6 fire damage to creature.
+- [**Campfire Wall**](advanced/spells/campfireWall#_campfire-wall-): Creates a shelter around a campfire.
+- [**Cat's Grace**](spells/catSGrace#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted#_dexterity) for 1 min./level.
+- [**Certain Grip**](ultimateCombat/spells/certainGrip#_certain-grip-): You gain a +4 competence bonus on [Acrobatics](skills/acrobatics#_acrobatics) and [Climb](skills/climb#_climb) checks and to CMD.
+- [**Chill Metal**](spells/chillMetal#_chill-metal): Cold metal damages those who touch it.
+- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk#_delay-disease): The target becomes temporarily immune to disease.
+- [**Delay Poison**](spells/delayPoison#_delay-poison): Stops poison from harming subject for 1 hour/level.
+- [**Eagle Eye**](advanced/spells/eagleEye#_eagle-eye): Creates a magical sensor high above you.
+- [**Elemental Speech**](advanced/spells/elementalSpeech#_elemental-speech): Enables you to speak to elementals and some creatures.
+- [**Endure Elements, Communal**](ultimateCombat/spells/endureElements#_endure-elements,-communal): As _ [endure elements](spells/endureElements#_endure-elements)_, but you may divide the duration among creatures touched.
+- [**Feast of Ashes**](advanced/spells/feastOfAshes#_feast-of-ashes): A target starves with an insatiable hunger.
+- [**Fire Trap**](spells/fireTrap#_fire-trap)M: Opened object deals 1d4 + 1/level damage.
+- [**Flame Blade**](spells/flameBlade#_flame-blade): Touch attack deals 1d8 + 1/two levels damage.
+- [**Flaming Sphere**](spells/flamingSphere#_flaming-sphere): Rolling ball of fire deals 3d6 fire damage.
+- [**Fog Cloud**](spells/fogCloud): Fog obscures vision.
+- [**Forest Friend**](ultimateCombat/spells/forestFriend#_forest-friend-): Plants in a forested area become helpful instead of hindering you and your allies.
+- [**Frigid Touch**](ultimateMagic/spells/frigidTouch#_frigid-touch): Target takes cold damage and is staggered.
+- [**Frost Fall**](ultimateCombat/spells/frostFall#_frost-fall): The area is covered in a chilling frost.
+- [**Fury of the Sun**](advancedRaceGuide/featuredRaces/ifrits#_fury-of-the-sun): You curse the target to suffer unbearable heat.
+- [**Glide**](advanced/spells/glide#_glide-): You take no falling damage, move 60 ft./round while falling.
+- [**Groundswell**](advancedRaceGuide/coreRaces/dwarves#_groundswell): Allows the target to cause the ground to rise up beneath him.
+- [**Gusting Sphere**](advancedRaceGuide/featuredRaces/sylphs#_gusting-sphere): A swirling ball of wind rolls in whichever direction you point, hurling those it strikes with great force.
+- [**Gust of Wind**](spells/gustOfWind#_gust-of-wind): Blows away or knocks down smaller creatures.
+- [**Heat Metal**](spells/heatMetal#_heat-metal): Makes metal so hot it damages those who touch it.
+- [**Hold Animal**](spells/holdAnimal#_hold-animal): Paralyzes one animal for 1 round/level.
+- [**Lockjaw**](advanced/spells/lockjaw#_lockjaw): Creature gains grab ability with natural attack.
+- [**Masterwork Transformation**](ultimateMagic/spells/masterworkTransformation#_masterwork-transformation): Make a normal item into a masterwork one.
+- [**Natural Rhythm**](advanced/spells/naturalRhythm#_natural-rhythm-): +1 on damage rolls with each hit (max +5).
+- [**Owl's Wisdom**](spells/owlSWisdom#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted#_wisdom) for 1 min./level.
+- [**Pernicious Poison**](ultimateMagic/spells/perniciousPoison#_pernicious-poison): Target takes a –4 penalty against poison.
+- [**Pox Pustules**](advanced/spells/poxPustules#_pox-pustules): Subject is sickened and has –4 Dex.
+- [**Reduce Animal**](spells/reduceAnimal#_reduce-animal): Shrinks one willing animal.
+- [**Resist Energy**](spells/resistEnergy#_resist-energy): Ignores 10 or more points of damage per attack from specified energy type.
+- [**Restoration, Lesser**](spells/restoration#_restoration-lesser): Dispels magical ability penalty or repairs 1d4 ability damage.
+- [**Savage Maw**](advancedRaceGuide/coreRaces/halfOrcs#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
+- [**Scent Trail**](advanced/spells/scentTrail#_scent-trail-): Leave trail for allies to follow.
+- [**Share Language**](advanced/spells/shareLanguage#_share-language-): Subject understands chosen language.
+- [**Sickening Strikes**](advancedRaceGuide/featuredRaces/ratfolk#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
+- [**Slipstream**](advanced/spells/slipstream#_slipstream): Wave boosts creature's speed.
+- [**Soften Earth and Stone**](spells/softenEarthAndStone#_soften-earth-and-stone): Turns stone to clay, or dirt to sand or mud.
+- [**Spider Climb**](spells/spiderClimb#_spider-climb): Grants ability to walk on walls and ceilings.
+- [**Steal Breath**](advancedRaceGuide/featuredRaces/catfolk#_steal-breath): Pull the breath from a creature's lungs, dealing damage and leaving it unable to speak, use breath weapons, or cast spells with verbal components.
+- [**Stone Call**](advanced/spells/stoneCall#_stone-call): 2d6 damage to all creatures in area.
+- [**Summon Nature's Ally II**](spells/summonNatureSAlly#_summon-nature-s-ally-ii): Summons creature to fight.
+- [**Summon Swarm**](spells/summonSwarm#_summon-swarm): Summons swarm of bats, rats, or spiders.
+- [**Tar Ball**](ultimateMagic/spells/tarBall#_tar-ball): Burning tar harms target and penalizes its Dex.
+- [**Tree Shape**](spells/treeShape#_tree-shape): You look exactly like a tree for 1 hour/level.
+- [**Unshakable Chill**](ultimateMagic/spells/unshakableChill#_unshakable-chill): Target is afflicted with severe cold.
+- [**Warp Wood**](spells/warpWood#_warp-wood): Bends wood.
+- [**Wartrain Mount**](ultimateMagic/spells/wartrainMount#_wartrain-mount): Animal gains the combat training general purpose.
+- [**Web Shelter**](ultimateMagic/spells/webShelter#_web-shelter): Create a comfortable shelter made of webbing.
+- [**Wilderness Soldiers**](ultimateCombat/spells/wildernessSoldiers#_wilderness-soldiers): Nearby plants aid you in combat.
+- [**Wood Shape**](spells/woodShape#_wood-shape): Reshapes wooden objects to suit you.
+
+- [**Animal Aspect, Greater**](ultimateCombat/spells/animalAspect#_animal-aspect,-greater): As _ [animal aspect](ultimateCombat/spells/animalAspect#_animal-aspect)_, but you gain two animal qualities.
+- [**Anthropomorphic Animal**](ultimateMagic/spells/anthropomorphicAnimal#_anthropomorphic-animal): Animal becomes bipedal.
+- [**Aqueous Orb**](advanced/spells/aqueousOrb#_aqueous-orb): Creates rolling sphere of water.
+- [**Ash Storm**](ultimateMagic/spells/ashStorm#_ash-storm): Hamper vision and movement.
+- [**Badger's Ferocity**](ultimateMagic/spells/badgerSFerocity#_badger's-ferocity): Weapons are _ [keen](/magicItems/weapons#_weapons-keen)_ while you concentrate.
+- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
+- [**Burrow**](ultimateMagic/spells/burrow#_burrow): Target gains a burrow speed of 15.
+- [**Burst of Nettles**](ultimateMagic/spells/burstOfNettles#_burst-of-nettles): Burst deals 3d6 damage and 1d6 acid.
+- [**Call Lightning**](spells/callLightning#_call-lightning): Calls down lightning bolts (3d6 per bolt) from sky.
+- [**Cloak of Winds**](advanced/spells/cloakOfWinds#_cloak-of-winds): Creates screen of strong wind around you.
+- [**Companion Mind Link**](ultimateCombat/spells/companionMindLink#_companion-mind-link): You can talk with your animal companion, and can handle it with supernatural ease.
+- [**Contagion**](spells/contagion#_contagion): Infects subject with chosen disease.
+- [**Create Treasure Map**](advanced/spells/createTreasureMap#_create-treasure-map-)M: Creates treasure map out of a creature's corpse.
+- [**Cup of Dust**](advanced/spells/cupOfDust#_cup-of-dust): Causes a creature to become dehydrated.
+- [**Cure Moderate Wounds**](spells/cureModerateWounds#_cure-moderate-wounds): Cures 2d8 damage + 1/level (max +10).
+- [**Daylight**](spells/daylight#_daylight): 60-ft. radius of bright light.
+- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison#_delay-poison,-communal): As _ [delay poison](spells/delayPoison#_delay-poison)_, but you may divide the duration among creatures touched.
+- [**Diminish Plants**](spells/diminishPlants#_diminish-plants): Reduces size or blights the growth of normal plants.
+- [**Dominate Animal**](spells/dominateAnimal#_dominate-animal): One animal obeys your silent mental commands and orders.
+- [**Feather Step, Mass**](advanced/spells/featherStep#_feather-step,-mass): As _ [feather step](advanced/spells/featherStep#_feather-step)_, but multiple creatures.
+- [**Fins to Feet**](advancedRaceGuide/uncommonRaces/merfolk#_fins-to-feet): Transform the target's fins, flippers, or tail into legs and feet, allowing it to walk on land.
+- [**Fungal Infestation**](ultimateMagic/spells/fungalInfestation#_fungal-infestation): Target takes bleed from attacks.
+- [**Hide Campsite**](advanced/spells/hideCampsite#_hide-campsite): Hides all traces of your campsite.
+- [**Hydraulic Torrent**](advanced/spells/hydraulicTorrent#_hydraulic-torrent-): Creates torrent of water that bull rushes any creature in its path.
+- [**Improve Trap**](advancedRaceGuide/featuredRaces/kobolds#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
+- [**Lily Pad Stride**](advanced/spells/lilyPadStride#_lily-pad-stride): Walk across water on moving lily pads.
+- [**Mad Monkeys**](ultimateMagic/spells/madMonkeys#_mad-monkeys): Summon a swarm of mischievous monkeys.
+- [**Magic Fang, Greater**](spells/magicFang#_magic-fang-greater): One natural weapon gets + 1/four levels (max +5).
+- [**Meld into Stone**](spells/meldIntoStone#_meld-into-stone): You and your gear merge with stone.
+- [**Nature's Exile**](advanced/spells/natureSExile#_nature's-exile): Gives subject –10 on [Survival](skills/survival#_survival) checks.
+- [**Neutralize Poison**](spells/neutralizePoison#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
+- [**Nixie's Lure**](advancedRaceGuide/featuredRaces/undines#_nixie's-lure): Creates an unearthly and infectious song that seductively summons all who hear it.
+- [**Plant Growth**](spells/plantGrowth#_plant-growth): Grows vegetation, improves crops.
+- [**Poison**](spells/poison#_poison): Touch deals 1d3 [Con](gettingStarted#_constitution) damage 1/round for 6 rounds.
+- [**Protection from Energy**](spells/protectionFromEnergy#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
+- [**Pup Shape**](ultimateCombat/spells/pupShape#_pup-shape): Transforms a single animal or magical beast into a younger and cuter version of itself for a short time.
+- [**Quench**](spells/quench#_quench): Extinguishes fires.
+- [**Raging Rubble**](advancedRaceGuide/featuredRaces/oreads#_raging-rubble): You animate an area of rubble, creating a dangerous, rolling area of debris.
+- [**Rain of Frogs**](ultimateMagic/spells/rainOfFrogs#_rain-of-frogs): Summon a swarm of poisonous frogs.
+- [**Remove Disease**](spells/removeDisease#_remove-disease): Cures all diseases affecting subject.
+- [**Resinous Skin**](ultimateCombat/spells/resinousSkin#_resinous-skin): You gain DR 5/piercing and +4 to CMD against disarm attempts.
+- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy#_resist-energy)_, but you may divide the duration among creatures touched.
+- [**Share Language, Communal**](ultimateCombat/spells/shareLanguage#_share-language,-communal): As _ [share language](advanced/spells/shareLanguage#_share-language-)_, but you may divide the duration among creatures touched.
+- [**Shifting Sand**](advanced/spells/shiftingSand#_shifting-sand): Creates difficult terrain and erases tracks; can carry creatures or objects along.
+- [**Sleet Storm**](spells/sleetStorm#_sleet-storm): Hampers vision and movement.
+- [**Snare**](spells/snare#_snare): Creates a magic booby trap.
+- [**Speak with Plants**](spells/speakWithPlants#_speak-with-plants): You can talk to plants and plant creatures.
+- [**Spider Climb, Communal**](ultimateCombat/spells/spiderClimb#_spider-climb,-communal): As _ [spider climb](spells/spiderClimb#_spider-climb)_, but you may divide the duration among creatures touched.
+- [**Spike Growth**](spells/spikeGrowth#_spike-growth): Creatures in area take 1d4 damage, may be slowed_._
+- [**Spit Venom**](ultimateMagic/spells/spitVenom#_spit-venom): Spit blinding black adder venom.
+- [**Stone Shape**](spells/stoneShape#_stone-shape): Sculpts stone into any shape.
+- [**Summon Nature's Ally III**](spells/summonNatureSAlly#_summon-nature-s-ally-iii): Summons creature to fight.
+- [**Vermin Shape I**](ultimateMagic/spells/verminShape#_vermin-shape-i-): Take the form and some of the powers of a Small or Medium vermin.
+- [**Ward of the Season**](advancedRaceGuide/coreRaces/elves#_ward-of-the-season): Harnesses the power of the seasons to protect the target and grant a number of bonuses.
+- [**Water Breathing**](spells/waterBreathing#_water-breathing): Subjects can breathe underwater.
+- [**Wind Wall**](spells/windWall#_wind-wall): Deflects arrows, smaller creatures, and gases.
+
+- [**Absorb Toxicity**](ultimateCombat/spells/absorbToxicity#_absorb-toxicity): You become immune to diseases and toxins, absorb one, and then spread it to others.
+- [**Absorbing Inhalation**](advancedRaceGuide/featuredRaces/sylphs#_absorbing-inhalation): Harmlessly and completely inhale one gas, fog, smoke, mist, or similar cloud-like effect.
+- [**Age Resistance, Lesser**](ultimateMagic/spells/ageResistance#_age-resistance,-lesser): Ignore penalties from middle age.
+- [**Air Walk**](spells/airWalk#_air-walk): Subject treads on air as if solid (climb or descend at 45-degree angle).
+- [**Antiplant Shell**](spells/antiplantShell#_antiplant-shell): Keeps animated plants at bay.
+- [**Arboreal Hammer**](ultimateMagic/spells/arborealHammer#_arboreal-hammer): Tree branches attack opponents.
+- [**Aspect of the Stag**](advanced/spells/aspectOfTheStag#_aspect-of-the-stag): +2 AC against attacks of opportunity and increases speed.
+- [**Atavism**](ultimateMagic/spells/atavism#_atavism): Animal gains advanced creature simple template.
+- [**Ball Lightning**](advanced/spells/ballLightning#_ball-lightning): Flying lightning spheres deal 3d6 electricity damage each.
+- [**Blight**](spells/blight#_blight): Withers one plant or deals 1d6/level damage to plant creature.
+- [**Bloody Claws**](advanced/spells/bloodyClaws#_bloody-claws): Causes bleed damage with natural attacks.
+- [**Cape of Wasps**](ultimateMagic/spells/capeOfWasps#_cape-of-wasps): Wasp swarm defends or carries you.
+- [**Command Plants**](spells/commandPlants#_command-plants): Sways the actions of plant creatures.
+- [**Command Plants**](spells/commandPlants#_command-plants)
+- [**Control Water**](spells/controlWater#_control-water): Raises or lowers bodies of water.
+- [**Cure Serious Wounds**](spells/cureSeriousWounds#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
+- [**Dispel Magic**](spells/dispelMagic#_dispel-magic): Cancels one magical spell or effect.
+- [**Earth Glide**](advancedRaceGuide/uncommonRaces/svirfneblins#_earth-glide): The target can pass through stone, dirt, or almost any other sort of earth except metal.
+- [**Echolocation**](ultimateMagic/spells/echolocation#_echolocation): Sonic sense gives you blindsight 40 ft.
+- [**Flame Strike**](spells/flameStrike#_flame-strike): Smites foes with divine fire (1d6/level damage).
+- [**Freedom of Movement**](spells/freedomOfMovement#_freedom-of-movement): Subject moves normally despite impediments to movement.
+- [**Geyser**](advanced/spells/geyser#_geyser-): Creates a geyser of boiling water.
+- [**Giant Vermin**](spells/giantVermin#_giant-vermin): Turns centipedes, scorpions, or spiders into giant vermin.
+- [**Grove of Respite**](advanced/spells/groveOfRespite#_grove-of-respite): Creates trees and a small spring.
+- [**Healing Warmth**](advancedRaceGuide/featuredRaces/ifrits#_healing-warmth): Temporary immunity to fire damage as _protection from energy_.
+- [**Ice Storm**](spells/iceStorm#_ice-storm): Hail deals 5d6 damage in cylinder 40 ft. across.
+- [**Life Bubble**](advanced/spells/lifeBubble#_life-bubble-): Protects from environmental effects.
+- [**Moonstruck**](advanced/spells/moonstruck#_moonstruck): Subject is enraged and confused.
+- [**Obsidian Flow**](ultimateCombat/spells/obsidianFlow#_obsidian-flow): Converts the surface of the ground into molten glass.
+- [**Plague Carrier**](ultimateMagic/spells/plagueCarrier#_plague-carrier): Target's attacks carry filth fever.
+- [**Protection from Energy, Communal**](ultimateCombat/spells/protectionFromEnergy#_protection-from-energy,-communal): As _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, but you may divide the duration among creatures touched.
+- [**Reincarnate**](spells/reincarnate#_reincarnate): Brings dead subject back in a random body.
+- [**Repel Vermin**](spells/repelVermin#_repel-vermin): Insects, spiders, and other vermin stay 10 ft. away.
+- [**Ride the Waves**](ultimateMagic/spells/rideTheWaves#_ride-the-waves): Target can breathe water and swim.
+- [**River of Wind**](advanced/spells/riverOfWind#_river-of-wind): Creates wind that causes nonlethal damage and can knock down or push creatures.
+- [**Rusting Grasp**](spells/rustingGrasp#_rusting-grasp): Your touch corrodes iron and alloys.
+- [**Scrying**](spells/scrying#_scrying)F: Spies on subject from a distance.
+- [**Spike Stones**](spells/spikeStones#_spike-stones): Creatures in area take 1d8 damage, may also be slowed_._
+- [**Strong Jaw**](advanced/spells/strongJaw#_strong-jaw): Natural attacks damage as two sizes bigger.
+- [**Summon Nature's Ally IV**](spells/summonNatureSAlly#_summon-nature-s-ally-iv): Summons creature to fight.
+- [**Thorn Body**](advanced/spells/thornBody#_thorn-body): Your attackers take 1d6 +1 damage/level.
+- [**Touch of Slime**](ultimateMagic/spells/touchOfSlime#_touch-of-slime): Touch infests a target with green slime.
+- [**True Form**](advanced/spells/trueForm#_true-form): Removes polymorph effects.
+- [**Vermin Shape II**](ultimateMagic/spells/verminShape#_vermin-shape-ii): As _vermin shape_, but Tiny or Large.
+- [**Volcanic Storm**](ultimateMagic/spells/volcanicStorm#_volcanic-storm): Hot rocks deal 5d6 damage.
+
+- [**Air Walk, Communal**](ultimateCombat/spells/airWalk#_air-walk,-communal): As _ [air walk](spells/airWalk#_air-walk)_, but you may divide the duration among creatures touched.
+- [**Animal Growth**](spells/animalGrowth#_animal-growth): One animal doubles in size.
+- [**Aspect of the Wolf**](advanced/spells/aspectOfTheWolf#_aspect-of-the-wolf): +4 Str and Dex, +2 bonus on trip attacks.
+- [**Atonement**](spells/atonement#_atonement)FM: Removes burden of misdeeds from subject.
+- [**Awaken**](spells/awaken#_awaken)M: Animal or tree gains human intellect.
+- [**Baleful Polymorph**](spells/balefulPolymorph#_baleful-polymorph): Transforms subject into harmless animal.
+- [**Blessing of the Salamander**](advanced/spells/blessingOfTheSalamander#_blessing-of-the-salamander): Subject gets fast healing 2, fire resistance 10, and +2 to its CMD.
+- [**Call Lightning Storm**](spells/callLightningStorm#_call-lightning-storm): As _ [call lightning](spells/callLightning#_call-lightning), _but 5d6 damage per bolt.
+- [**Commune with Nature**](spells/communeWithNature#_commune-with-nature): Learn about terrain for 1 mile/level.
+- [**Contagion, Greater**](ultimateMagic/spells/contagion#_contagion,-greater): Infect a subject with a magical disease.
+- [**Control Winds**](spells/controlWinds#_control-winds): Changes wind direction and speed.
+- [**Cure Critical Wounds**](spells/cureCriticalWounds#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
+- [**Death Ward**](spells/deathWard#_death-ward): Grants bonuses against death spells and negative energy.
+- [**Fickle Winds**](ultimateMagic/spells/fickleWinds#_fickle-winds): Wind walls selectively block attacks.
+- [**Fire Snake**](advanced/spells/fireSnake#_fire-snake): Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.
+- [**Half-blood Extraction**](advancedRaceGuide/coreRaces/halfOrcs#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
+- [**Hallow**](spells/hallow#_hallow)M: Designates location as holy.
+- [**Insect Plague**](spells/insectPlague#_insect-plague): Wasp swarms attack creatures.
+- [**Old Salt's Curse**](advancedRaceGuide/coreRaces/humans#_old-salt's-curse): Inflict a curse of the roiling sea upon the target, making it permanently sickened.
+- [**Raise Animal Companion**](ultimateMagic/spells/raiseAnimalCompanion#_raise-animal-companion): As _ [raise dead](/spells/raiseDead#_raise-dead)_, but on an animal.
+- [**Reprobation**](ultimateMagic/spells/reprobation#_reprobation): Marked target is shunned by your religion.
+- [**Rest Eternal**](advanced/spells/restEternal#_rest-eternal)M: Dead creature cannot be revived.
+- [**Snake Staff**](advanced/spells/snakeStaff#_snake-staff): Transforms wood into snakes to fight for you.
+- [**Stoneskin**](spells/stoneskin#_stoneskin)M: Grants [DR](glossary#_damage-reduction) 10/adamantine.
+- [**Summon Nature's Ally V**](spells/summonNatureSAlly#_summon-nature-s-ally-v): Summons creature to fight.
+- [**Threefold Aspect**](advanced/spells/threefoldAspect#_threefold-aspect)F: Appear older or younger.
+- [**Transmute Mud to Rock**](spells/transmuteMudToRock#_transmute-mud-to-rock): Transforms two 10-ft. cubes per level.
+- [**Transmute Rock to Mud**](spells/transmuteRockToMud#_transmute-rock-to-mud): Transforms two 10-ft. cubes per level.
+- [**Tree Stride**](spells/treeStride#_tree-stride): Step from one tree to another far away.
+- [**Unhallow**](spells/unhallow#_unhallow)M: Designates location as unholy.
+- [**Wall of Fire**](spells/wallOfFire#_wall-of-fire): Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.
+- [**Wall of Thorns**](spells/wallOfThorns#_wall-of-thorns): Thorns damage anyone who tries to pass.
+- [**Wind Blades**](advancedRaceGuide/featuredRaces/sylphs#_wind-blades): Harden the air around the target into jagged invisible blades.
+
+- [**Age Resistance**](ultimateMagic/spells/ageResistance#_age-resistance): Ignore penalties from old age.
+- [**Antilife Shell**](spells/antilifeShell#_antilife-shell): 10-ft.-radius field hedges out living creatures.
+- [**Bear's Endurance, Mass**](spells/bearSEndurance#_bear-s-endurance-mass): As _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, affects 1 subject/level.
+- [**Binding Earth, Mass**](advancedRaceGuide/featuredRaces/oreads#_binding-earth,-mass): Functions as _binding earth_, mass.
+- [**Bull's Strength, Mass**](spells/bullSStrength#_bull-s-strength-mass): As _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, affects 1 subject/level.
+- [**Cat's Grace, Mass**](spells/catSGrace#_cat-s-grace-mass): As _ [cat's grace](spells/catSGrace#_cat-s-grace)_, affects one subject/level.
+- [**Cure Light Wounds, Mass**](spells/cureLightWounds#_cure-light-wounds-mass): Cures 1d8 damage + 1/level, affects 1 subject/level.
+- [**Dispel Magic, Greater**](spells/dispelMagic#_dispel-magic-greater): As _ [dispel magic](spells/dispelMagic#_dispel-magic)_, but with multiple targets.
+- [**Dust Form**](ultimateCombat/spells/dustForm#_dust-form): You become an incorporeal creature of dust for a short period of time.
+- [**Eagle Aerie**](ultimateMagic/spells/eagleAerie#_eagle-aerie): Summon 1 giant eagle/3 levels.
+- [**Epidemic**](ultimateMagic/spells/epidemic#_epidemic): Infect a subject with a highly contagious disease.
+- [**Find the Path**](spells/findThePath#_find-the-path): Shows most direct way to a location.
+- [**Fire Seeds**](spells/fireSeeds#_fire-seeds): Acorns and berries become grenades and bombs.
+- [**Ironwood**](spells/ironwood#_ironwood): Magic wood is as strong as steel.
+- [**Liveoak**](spells/liveoak#_liveoak): Oak becomes treant guardian.
+- [**Move Earth**](spells/moveEarth#_move-earth): Digs trenches and builds hills.
+- [**Owl's Wisdom, Mass**](spells/owlSWisdom#_owl-s-wisdom-mass): As _ [owl's wisdom](spells/owlSWisdom#_owl-s-wisdom)_, affects 1 subject/level.
+- [**Path of the Winds**](advancedRaceGuide/featuredRaces/sylphs#_path-of-the-winds): You call forth mighty winds to clear a path ahead of you.
+- [**Plague Storm**](ultimateMagic/spells/plagueStorm#_plague-storm): Cloud infects creatures like _ [contagion](/spells/contagion#_contagion)_.
+- [**Repel Wood**](spells/repelWood#_repel-wood): Pushes away wooden objects.
+- [**Sirocco**](advanced/spells/sirocco#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
+- [**Spellstaff**](spells/spellstaff#_spellstaff): Stores one spell in wooden quarterstaff.
+- [**Stone Tell**](spells/stoneTell#_stone-tell): Talk to natural or worked stone.
+- [**Stoneskin, Communal**](ultimateCombat/spells/stoneskin#_stoneskin,-communal)M: As _ [stoneskin](spells/stoneskin#_stoneskin)_, but you may divide the duration among creatures touched.
+- [**Summon Nature's Ally VI**](spells/summonNatureSAlly#_summon-nature-s-ally-vi): Summons creature to fight.
+- [**Swarm Skin**](advanced/spells/swarmSkin#_swarm-skin-): Turns your body into a swarm that can attack.
+- [**Tar Pool**](ultimateCombat/spells/tarPool#_tar-pool): Converts the top layer of the ground into hot tar.
+- [**Transport via Plants**](spells/transportViaPlants#_transport-via-plants): Move instantly from one plant to another of the same kind.
+- [**Wall of Stone**](spells/wallOfStone#_wall-of-stone): Creates a stone wall that can be shaped.
+
+- [**Age Resistance, Greater**](ultimateMagic/spells/ageResistance#_age-resistance,-greater): Ignore penalties from venerable age.
+- [**Animate Plants**](spells/animatePlants#_animate-plants): One or more plants animate and fight for you.
+- [**Black Mark**](advancedRaceGuide/coreRaces/humans#_black-mark): Functions as a _mark of justice_
+- [**Changestaff**](spells/changestaff#_changestaff): Your staff becomes a treant on command.
+- [**Control Weather**](spells/controlWeather#_control-weather): Changes weather in local area.
+- [**Creeping Doom**](spells/creepingDoom#_creeping-doom): Swarms of centipedes attack at your command.
+- [**Cure Moderate Wounds, Mass**](spells/cureModerateWounds#_cure-moderate-wounds-mass): Cures 2d8 damage + 1/level, affects 1 subject/level.
+- [**Fire Storm**](spells/fireStorm#_fire-storm): Deals 1d6/level fire damage.
+- [**Heal**](spells/heal#_heal): Cures 10 points/level damage, all diseases and mental conditions.
+- [**Rampart**](advanced/spells/rampart#_rampart): Creates 5-ft.-thick earthen barrier.
+- [**Scouring Winds**](ultimateMagic/spells/scouringWinds#_scouring-winds): Winds block vision and deal 3d6 damage.
+- [**Scrying, Greater**](spells/scrying#_scrying-greater): As _ [scrying](spells/scrying#_scrying)_, but faster and longer.
+- [**Siege of Trees**](ultimateCombat/spells/siegeOfTrees#_siege-of-trees): Transforms Large trees into arboreal catapults of the same size.
+- [**Summon Nature's Ally VII**](spells/summonNatureSAlly#_summon-nature-s-ally-vii): Summons creature to fight.
+- [**Sunbeam**](spells/sunbeam#_sunbeam): Beam blinds and deals 4d6 damage.
+- [**Transmute Metal to Wood**](spells/transmuteMetalToWood#_transmute-metal-to-wood): Metal within 40 ft. becomes wood.
+- [**True Seeing**](spells/trueSeeing#_true-seeing)M: Lets you see all things as they really are.
+- [**Vortex**](advanced/spells/vortex#_vortex): Creates a whirlpool in water.
+- [**Wind Walk**](spells/windWalk#_wind-walk): You and your allies turn vaporous and travel fast.
+
+- [**Animal Shapes**](spells/animalShapes#_animal-shapes): One ally/level polymorphs into chosen animal.
+- [**Atavism, Mass**](ultimateMagic/spells/atavism#_atavism,-mass): One animal/level gains advanced template.
+- [**Blood Mist**](ultimateMagic/spells/bloodMist#_blood-mist): Mist causes Wisdom damage and rage.
+- [**Control Plants**](spells/controlPlants#_control-plants): Controls actions of one or more plant creatures.
+- [**Cure Serious Wounds, Mass**](spells/cureSeriousWounds#_cure-serious-wounds-mass): Cures 3d8 damage + 1/level, affects 1 subject/level.
+- [**Earthquake**](spells/earthquake#_earthquake): Intense tremor shakes 80-ft.-radius.
+- [**Euphoric Tranquility**](advanced/spells/euphoricTranquility#_euphoric-tranquility): Makes a creature friendly.
+- [**Finger of Death**](spells/fingerOfDeath#_finger-of-death): Deals 10 damage/level to one subject.
+- [**Frightful Aspect**](ultimateCombat/spells/frightfulAspect#_frightful-aspect): You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.
+- [**Repel Metal or Stone**](spells/repelMetalOrStone#_repel-metal-or-stone): Pushes away metal and stone.
+- [**Reverse Gravity**](spells/reverseGravity#_reverse-gravity): Objects and creatures fall upward.
+- [**Seamantle**](advanced/spells/seamantle#_seamantle): Sheathes you in protective water.
+- [**Stormbolts**](advanced/spells/stormbolts#_stormbolts): 1d8 damage/level (max 20d8) to targets.
+- [**Summon Nature's Ally VIII**](spells/summonNatureSAlly#_summon-nature-s-ally-viii): Summons creature to fight.
+- [**Sunburst**](spells/sunburst#_sunburst): Blinds all within 10 ft., deals 6d6 damage.
+- [**Wall of Lava**](advanced/spells/wallOfLava#_wall-of-lava): Wall damages foes that try to enter, periodically launches lava at nearby targets.
+- [**Whirlwind**](spells/whirlwind#_whirlwind): Cyclone deals damage and can pick up creatures.
+- [**Word of Recall**](spells/wordOfRecall#_word-of-recall): Teleports you back to designated place.
+
+- [**Antipathy**](spells/antipathy#_antipathy): Object or location affected by spell repels certain creatures.
+- [**Clashing Rocks**](advanced/spells/clashingRocks#_clashing-rocks): 20d6 damage to target creature.
+- [**Cure Critical Wounds, Mass**](spells/cureCriticalWounds#_cure-critical-wounds-mass): Cures 4d8 damage + 1/level for many creatures.
+- [**Elemental Swarm**](spells/elementalSwarm#_elemental-swarm): Summons multiple elementals.
+- [**Foresight**](spells/foresight#_foresight): “Sixth sense” warns of impending danger.
+- [**Polar Midnight**](ultimateMagic/spells/polarMidnight#_polar-midnight): Cold darkness paralyzes and deals damage.
+- [**Regenerate**](spells/regenerate#_regenerate): Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).
+- [**Shambler**](spells/shambler#_shambler): Creates 1d4+2 shambling mounds to fight for you.
+- [**Shapechange**](spells/shapechange#_shapechange)F: Transforms you into certain creatures, and you can change forms once per round.
+- [**Siege of Trees, Greater**](ultimateCombat/spells/siegeOfTrees#_siege-of-trees,-greater): As _ [siege of trees](ultimateCombat/spells/siegeOfTrees#_siege-of-trees)_, but can transform Huge and Gargantuan trees into arboreal catapults of the same size.
+- [**Storm of Vengeance**](spells/stormOfVengeance#_storm-of-vengeance): Storm rains acid, lightning, and hail.
+- [**Summon Elder Worm**](ultimateMagic/spells/summonElderWorm#_summon-elder-worm): Summon a giant purple worm.
+- [**Summon Froghemoth**](ultimateMagic/spells/summonFroghemoth#_summon-froghemoth): Summon a froghemoth.
+- [**Summon Nature's Ally IX**](spells/summonNatureSAlly#_summon-nature-s-ally-ix): Summons creature to fight.
+- [**Sympathy**](spells/sympathy#_sympathy)M: Object or location attracts certain creatures.
+- [**Tsunami**](advanced/spells/tsunami#_tsunami): Huge wave damages and sweeps up all in its path.
+- [**Winds of Vengeance**](advanced/spells/windsOfVengeance#_winds-of-vengeance): You can fly and attack with wind.
+- [**World Wave**](advanced/spells/worldWave#_world-wave-): Earth or water moves you across distances and damages things not of the natural world.
+
+- [**Acid Splash**](spells/acidSplash#_acid-splash): Orb deals 1d3 acid damage.
+- [**Message**](spells/message#_message): Whisper conversation at distance.
+- [**Ray of Frost**](spells/rayOfFrost#_ray-of-frost): Ray deals 1d3 cold damage.
+- [**Spark**](advanced/spells/spark#_spark-): Ignites flammable objects.
+
+- [**Alter Winds**](advanced/spells/alterWinds#_alter-winds): Increases/decreases natural wind strength.
+- [**Burning Hands**](spells/burningHands#_burning-hands): 1d4/level fire damage (max 5d4).
+- [**Dancing Lantern**](advanced/spells/dancingLantern#_dancing-lantern-): Animates a lantern that follows you.
+- [**Expeditious Excavation**](advanced/spells/expeditiousExcavation#_expeditious-excavation): Moves 5-ft. cubes of earth.
+- [**Feather Fall**](spells/featherFall#_feather-fall): Objects or creatures fall slowly.
+- [**Grease**](spells/grease#_grease): Makes 10-ft. square or one object slippery.
+- [**Hydraulic Push**](advanced/spells/hydraulicPush#_hydraulic-push-): Sudden and powerful wave of water bull rushes an enemy.
+- [**Obscuring Mist**](spells/obscuringMist#_obscuring-mist): Fog surrounds you.
+- [**Shocking Grasp**](spells/shockingGrasp#_shocking-grasp): Touch delivers 1d6/level electricity damage (max 5d6).
+- [**Stone Fist**](advanced/spells/stoneFist#_stone-fist): Your unarmed strikes are lethal.
+- [**Touch of the Sea**](advanced/spells/touchOfTheSea#_touch-of-the-sea): [Swim](skills/swim#_swim) speed becomes 30 ft.
+
+- [**Accelerate Poison**](advanced/spells/acceleratePoison#_accelerate-poison): Hastens targeted poison's onset.
+- [**Acid Arrow**](spells/acidArrow#_acid-arrow): Ranged touch attack; 2d4 damage for 1 round + 1 round/3 levels.
+- [**Burning Gaze**](advanced/spells/burningGaze#_burning-gaze): 1d6 fire damage to target by looking at it.
+- [**Create Pit**](advanced/spells/createPit#_create-pit-)F: Creates an extradimensional pit.
+- [**Elemental Speech**](advanced/spells/elementalSpeech#_elemental-speech): Enables you to speak to elementals and some creatures.
+- [**Elemental Touch**](advanced/spells/elementalTouch#_elemental-touch): Gain energy damage touch attack.
+- [**Fire Breath**](advanced/spells/fireBreath#_fire-breath): Exhale a cone of flame at will.
+- [**Flaming Sphere**](spells/flamingSphere#_flaming-sphere): Ball of fire deals 3d6 fire damage.
+- [**Fog Cloud**](spells/fogCloud): Fog obscures vision.
+- [**Glide**](advanced/spells/glide#_glide-): No fall damage, move 60 ft./round while falling.
+- [**Glitterdust**](spells/glitterdust#_glitterdust): Blinds targets, outlines invisible things.
+- [**Gust of Wind**](spells/gustOfWind#_gust-of-wind): Blast of wind blows away or knocks down creatures.
+- [**Levitate**](spells/levitate#_levitate): Subject moves up and down at your direction.
+- [**Pyrotechnics**](spells/pyrotechnics#_pyrotechnics): Turns fire into light or thick smoke.
+- [**Resist Energy**](spells/resistEnergy#_resist-energy): Ignores first 10 (or more) points of damage per attack from specified energy type.
+- [**Scorching Ray**](spells/scorchingRay#_scorching-ray): Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).
+- [**Shatter**](spells/shatter#_shatter): Sonic energy damages objects or creatures composed of crystal.
+- [**Slipstream**](advanced/spells/slipstream#_slipstream): Wave boosts creature's speed.
+- [**Stone Call**](advanced/spells/stoneCall#_stone-call): 2d6 damage to all creatures in area.
+- [**Summon Monster II**](spells/summonMonster#_summon-monster-ii): Summons elemental creature.
+- [**Whispering Wind**](spells/whisperingWind#_whispering-wind): Sends a short message 1 mile/level.
+
+- [**Aqueous Orb**](advanced/spells/aqueousOrb#_aqueous-orb): Creates rolling sphere of water.
+- [**Campfire Wall**](advanced/spells/campfireWall#_campfire-wall-): Creates a shelter around a campfire.
+- [**Cloak of Winds**](advanced/spells/cloakOfWinds#_cloak-of-winds): A screen of strong wind around you.
+- [**Draconic Reservoir**](advanced/spells/draconicReservoir#_draconic-reservoir-): Subject can absorb energy damage and enhance melee attacks with it.
+- [**Elemental Aura**](advanced/spells/elementalAura#_elemental-aura): Creates an aura of energy around you.
+- [**Fireball**](spells/fireball#_fireball): 1d6 fire damage per level, 20-ft. radius.
+- [**Flame Arrow**](spells/flameArrow#_flame-arrow): Arrows deal +1d6 fire damage.
+- [**Fly**](spells/fly): Subject flies at a speed of 60 ft.
+- [**Gaseous Form**](spells/gaseousForm#_gaseous-form): Become insubstantial and fly slowly.
+- [**Hydraulic Torrent**](advanced/spells/hydraulicTorrent#_hydraulic-torrent-): Creates torrent of water that bull rushes any creature in its path.
+- [**Lightning Bolt**](spells/lightningBolt#_lightning-bolt): Electricity deals 1d6/level damage.
+- [**Protection From Energy**](spells/protectionFromEnergy#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
+- [**Shifting Sand**](advanced/spells/shiftingSand#_shifting-sand): Creates difficult terrain, erases tracks.
+- [**Sleet Storm**](spells/sleetStorm#_sleet-storm): Hampers vision and movement.
+- [**Spiked Pit**](advanced/spells/spikedPit#_spiked-pit): As _ [create pit](advanced/spells/createPit#_create-pit-)_, but filled with spikes.
+- [**Stinking Cloud**](spells/stinkingCloud#_stinking-cloud): Nauseating vapors, 1 round/level.
+- [**Water Breathing**](spells/waterBreathing#_water-breathing): Subjects can breathe underwater.
+- [**Wind Wall**](spells/windWall#_wind-wall): Deflects arrows, smaller creatures, gasses.
+
+- [**Acid Pit**](advanced/spells/acidPit#_acid-pit-)M: Creates a pit with acid at the bottom.
+- [**Ball Lightning**](advanced/spells/ballLightning#_ball-lightning): Flying balls of lightning deal 3d6 electricity damage each.
+- [**Calcific Touch**](advanced/spells/calcificTouch#_calcific-touch): Touch slows target, 1d4 Dex damage.
+- [**Detonate**](advanced/spells/detonate#_detonate): 1d8/level energy damage to nearby creatures.
+- [**Dragon's Breath**](advanced/spells/dragonSBreath#_dragon's-breath): Gives you a dragon's breath weapon.
+- [**Elemental Body I**](spells/elementalBody#_elemental-body-i): Turns you into a Small elemental.
+- [**Fire Shield**](spells/fireShield#_fire-shield): Creatures attacking you take fire damage; you're protected from heat or cold.
+- [**Fire Trap**](spells/fireTrap#_fire-trap)M: Opened object deals 1d4 damage +1/level.
+- [**Firefall**](advanced/spells/firefall#_firefall): Fire bursts upward, dealing 2d6 fire damage.
+- [**Ice Storm**](spells/iceStorm#_ice-storm): Hail deals 5d6 damage in area 40 ft. across.
+- [**River of Wind**](advanced/spells/riverOfWind#_river-of-wind): A stream of wind causes nonlethal damage and can knock down or push creatures.
+- [**Shout**](spells/shout#_shout): Deafens all within cone, 5d6 sonic damage.
+- [**Solid Fog**](spells/solidFog#_solid-fog): Blocks vision and slows movement.
+- [**Stone Shape**](spells/stoneShape#_stone-shape): Sculpts stone into any shape.
+- [**Stoneskin**](spells/stoneskin#_stoneskin)M: Grants DR 10/adamantine.
+- [**Summon Monster IV**](spells/summonMonster#_summon-monster-iv): Summons elemental creature to fight for you.
+- [**Wall of Fire**](spells/wallOfFire#_wall-of-fire): 2d4 fire damage to 10 ft. and 1d4 to 20 ft. Passing through wall deals 2d6 damage +1/level.
+- [**Wall of Ice**](spells/wallOfIce#_wall-of-ice): Ice plane creates wall or hemisphere creates dome.
+
+- [**Cloudkill**](spells/cloudkill#_cloudkill): Kills 3 HD or less; 4–6 HD save or die; 6+ HD take Con damage.
+- [**Cone of Cold**](spells/coneOfCold#_cone-of-cold): 1d6/level cold damage.
+- [**Elemental Body II**](spells/elementalBody#_elemental-body-ii): You become a Medium elemental.
+- [**Fire Snake**](advanced/spells/fireSnake#_fire-snake): Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.
+- [**Geyser**](advanced/spells/geyser#_geyser-): Creates a geyser of boiling water.
+- [**Geyser**](advanced/spells/geyser#_geyser-): Creates a geyser of boiling water.
+- [**Hungry Pit**](advanced/spells/hungryPit#_hungry-pit-): As _ [create pit](advanced/spells/createPit#_create-pit-)_, but dealing 4d6 damage to those in it as it closes.
+- [**Overland Flight**](spells/overlandFlight#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
+- [**Passwall**](spells/passwall#_passwall): Creates passage through wood or stone wall.
+- [**Planar Adaptation**](advanced/spells/planarAdaptation#_planar-adaptation): Resist harmful effects of a plane.
+- [**Suffocation**](advanced/spells/suffocation#_suffocation): Target quickly suffocates to death.
+- [**Summon Monster V**](spells/summonMonster#_summon-monster-v): Summons elemental creature to fight for you.
+- [**Transmute Mud to Rock**](spells/transmuteMudToRock#_transmute-mud-to-rock): Two 10-ft. cubes per level.
+- [**Transmute Rock to Mud**](spells/transmuteRockToMud#_transmute-rock-to-mud): Two 10-ft. cubes per level.
+- [**Wall of Stone**](spells/wallOfStone#_wall-of-stone): Creates a stone wall that can be shaped.
+
+- [**Acid Fog**](spells/acidFog#_acid-fog): Fog deals acid damage.
+- [**Chain Lightning**](spells/chainLightning#_chain-lightning): 1d6/level damage, 1 more bolt/level.
+- [**Contagious Flame**](advanced/spells/contagiousFlame#_contagious-flame): Rays do 4d6 fire damage, then move on to new targets.
+- [**Elemental Body III**](spells/elementalBody#_elemental-body-iii): Turns you into a Large elemental.
+- [**Flesh to Stone**](spells/fleshToStone#_flesh-to-stone): Turns subject creature into statue.
+- [**Fluid Form**](advanced/spells/fluidForm#_fluid-form): Gain DR 10/slashing, increases reach 10 ft., and breathe water.
+- [**Freezing Sphere**](spells/freezingSphere#_freezing-sphere): Freezes water or deals cold damage.
+- [**Move Earth**](spells/moveEarth#_move-earth): Digs trenches and builds hills.
+- [**Planar Binding**](spells/planarBinding#_planar-binding): As _ [lesser planar binding](../spells/planarBinding#_planar-binding-lesser)_, but up to 12 HD.
+- [**Sirocco**](advanced/spells/sirocco#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
+- [**Sirocco**](advanced/spells/sirocco#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
+- [**Stone to Flesh**](spells/stoneToFlesh#_stone-to-flesh): Restores petrified creature.
+- [**Summon Monster VI**](spells/summonMonster#_summon-monster-vi): Summons elemental creature to fight for you.
+- [**Wall of Iron**](spells/wallOfIron#_wall-of-iron)M: 30 hp/four levels; can topple onto foes.
+
+- [**Control Weather**](spells/controlWeather#_control-weather): Changes weather in local area.
+- [**Control Weather**](spells/controlWeather#_control-weather): Changes weather in local area.
+- [**Delayed Blast Fireball**](spells/delayedBlastFireball#_delayed-blast-fireball): 1d6/level fire damage; you can postpone blast for up to 5 rounds.
+- [**Elemental Body IV**](spells/elementalBody#_elemental-body-iv): Turns you into a Huge elemental.
+- [**Firebrand**](advanced/spells/firebrand#_firebrand): Allies gain _ [flaming](magicItems/weapons#_weapons-flaming)_ weapons, immunity to your fire spells, and a one-use ray of fire attack.
+- [**Fly, Mass**](advanced/spells/fly#_fly,-mass): One creature/level gains ability to fly.
+- [**Planar Adaptation, Mass**](advanced/spells/planarAdaptation#_planar-adaptation,-mass): As _ [planar adaptation](advanced/spells/planarAdaptation#_planar-adaptation)_, but affects multiple creatures.
+- [**Rampart**](advanced/spells/rampart#_rampart): Creates 5-ft. thick earthen barrier.
+- [**Reverse Gravity**](spells/reverseGravity#_reverse-gravity): Objects and creatures fall upward.
+- [**Statue**](spells/statue#_statue): Subject can become a statue at will.
+- [**Summon Monster VII**](spells/summonMonster#_summon-monster-vii): Summons elemental creature to fight for you.
+- [**Vortex**](advanced/spells/vortex#_vortex): Creates a whirlpool in water.
+
+- [**Horrid Wilting**](spells/horridWilting#_horrid-wilting): Deals 1d6/level damage within 30 ft.
+- [**Incendiary Cloud**](spells/incendiaryCloud#_incendiary-cloud): Deals 6d6 fire damage/round.
+- [**Iron Body**](spells/ironBody#_iron-body): Your body becomes living iron.
+- [**Polar Ray**](spells/polarRay#_polar-ray): Ranged touch attack deals 1d6/level cold damage and 1d4 points of Dexterity drain.
+- [**Seamantle**](advanced/spells/seamantle#_seamantle): Sheathes you in protective water.
+- [**Shout, Greater**](spells/shout#_shout-greater): Devastating yell deals 10d6 sonic damage; stuns creatures.
+- [**Stormbolts**](advanced/spells/stormbolts#_stormbolts): 1d8 damage/level (max 20d8) to targets.
+- [**Summon Monster VIII**](spells/summonMonster#_summon-monster-viii): Summons elemental creature to fight for you.
+- [**Wall of Lava**](advanced/spells/wallOfLava#_wall-of-lava): Wall damages foes that try to enter, periodically launches lava at nearby targets.
+- [**Wall of Lava**](advanced/spells/wallOfLava#_wall-of-lava): Wall damages foes that try to enter, periodically launches lava at nearby targets.
+
+- [**Clashing Rocks**](advanced/spells/clashingRocks#_clashing-rocks): 20d6 damage to target creature.
+- [**Fiery Body**](advanced/spells/fieryBody#_fiery-body): You gain various fire-related powers.
+- [**Gate**](spells/gate#_gate)M: Connects two planes for travel or summoning.
+- [**Meteor Swarm**](spells/meteorSwarm#_meteor-swarm): Four meteors each deal 6d6 fire damage.
+- [**Suffocation, Mass**](advanced/spells/suffocation#_suffocation,-mass): One creature/level suffocates.
+- [**Tsunami**](advanced/spells/tsunami#_tsunami): Wave damages and sweeps up all in its path.
+- [**Winds of Vengeance**](advanced/spells/windsOfVengeance#_winds-of-vengeance): Gives you the ability to fly and attack with wind.
+- [**World Wave**](advanced/spells/worldWave#_world-wave-): Earth moves you across distances.
+- [**World Wave**](advanced/spells/worldWave#_world-wave-): Earth moves you across distances.
+
+- [**Acid Splash**](spells/acidSplash#_acid-splash): Orb deals 1d3 acid damage.
+- [**Bleed**](spells/bleed#_bleed): Cause a stabilized creature to resume [dying](glossary#_dying).
+- [**Brand**](advanced/spells/brand#_brand): Creates permanent brand on target creature.
+- [**Brand**](advanced/spells/brand#_brand): Creates permanent brand on target creature.
+- [**Create Water**](spells/createWater#_create-water): Creates 2 gallons/level of pure water.
+- [**Daze**](spells/daze#_daze): A single humanoid creature with 4 HD or less loses its next action.
+- [**Detect Magic**](spells/detectMagic#_detect-magic): Detects all spells and magic items within 60 ft.
+- [**Detect Poison**](spells/detectPoison#_detect-poison): Detects poison in a creature or object.
+- [**Disrupt Undead**](spells/disruptUndead#_disrupt-undead): Deals 1d6 damage to one undead.
+- [**Guidance**](spells/guidance#_guidance): +1 on one attack roll, saving throw, or skill check.
+- [**Light**](spells/light#_light): Object shines like a torch.
+- [**Read Magic**](spells/readMagic#_read-magic): Read scrolls and spellbooks.
+- [**Resistance**](spells/resistance#_resistance): Subject gains +1 on saving throws.
+- [**Sift**](advanced/spells/sift#_sift): See area as though examining it.
+- [**Sift**](advanced/spells/sift#_sift): See area as though examining it.
+- [**Stabilize**](spells/stabilize#_stabilize): Cause a [dying](glossary#_dying) creature to stabilize.
+- [**Virtue**](spells/virtue#_virtue): Subject gains 1 temporary hp.
+
+- [**Alarm**](spells/alarm#_alarm): Wards an area for 2 hours/level.
+- [**Bane**](spells/bane#_bane): Enemies take –1 on attack rolls and saves against fear.
+- [**Bless**](spells/bless#_bless): Allies gain +1 on attack rolls and saves against fear.
+- [**Bless Water**](spells/blessWater#_bless-water)M: Makes holy water.
+- [**Bowstaff**](ultimateCombat/spells/bowstaff#_bowstaff): A shortbow may double as a club, or a longbow as a quarterstaff.
+- [**Burst Bonds**](advanced/spells/burstBonds#_burst-bonds): 1d6 damage/level (max 5d6) to restraints.
+- [**Cause Fear**](spells/causeFear#_cause-fear): A creature of 5 HD or less flees for 1d4 rounds.
+- [**Command**](spells/command#_command): One subject obeys a command for 1 round.
+- [**Compel Hostility**](ultimateCombat/spells/compelHostility#_compel-hostility): Compels opponents to attack you instead of your allies.
+- [**Comprehend Languages**](spells/comprehendLanguages#_comprehend-languages): You understand all spoken and written languages.
+- [**Cure Light Wounds**](spells/cureLightWounds#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
+- [**Curse Water**](spells/curseWater#_curse-water)M: Makes unholy water.
+- [**Deadeye's Lore**](ultimateCombat/spells/deadeyeSLore#_deadeye's-lore): Gain a +4 bonus on [Survival](skills/survival#_survival) and move full speed while tracking.
+- [**Detect Chaos/Evil/Good/Law**](spells/detectChaos#_detect-chaos): Reveals creatures, spells, or objects of selected alignment.
+- [**Detect Undead**](spells/detectUndead#_detect-undead): Reveals undead within 60 ft.
+- [**Disguise Self**](spells/disguiseSelf#_disguise-self): Changes your appearance.
+- [**Divine Favor**](spells/divineFavor#_divine-favor): You gain +1 per three levels on attack and damage rolls.
+- [**Doom**](spells/doom#_doom): One subject takes –2 on attack rolls, damage rolls, saves, and checks.
+- [**Ear-Piercing Scream**](ultimateMagic/spells/earPiercingScream#_ear-piercing-scream): Deal sonic damage and daze target.
+- [**Expeditious Retreat**](spells/expeditiousRetreat#_expeditious-retreat): Your base speed increases by 30 ft.
+- [**Forbid Action**](ultimateMagic/spells/forbidAction#_forbid-action): Target obeys command to not do something.
+- [**Forced Quiet**](ultimateMagic/spells/forcedQuiet#_forced-quiet): Target cannot make loud noises.
+- [**Hex Ward**](ultimateMagic/spells/hexWard#_hex-ward): Target gains +4 on saves against witch hexes.
+- [**Hide from Undead**](spells/hideFromUndead#_hide-from-undead): Undead can't perceive one subject/level.
+- [**Horn of Pursuit**](ultimateMagic/spells/hornOfPursuit#_horn-of-pursuit): Create three notes heard miles away.
+- [**Inflict Light Wounds**](spells/inflictLightWounds#_inflict-light-wounds): Touch deals 1d8 damage +1/level (max +5).
+- [**Interrogation**](ultimateMagic/spells/interrogation#_interrogation): Target answers questions or suffers pain.
+- [**Know the Enemy**](ultimateMagic/spells/knowTheEnemy#_know-the-enemy): Gain +10 on a monster [Knowledge](/skills/knowledge#_knowledge) check.
+- [**Linebreaker**](advancedRaceGuide/coreRaces/halfOrcs#_linebreaker): You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun.
+- [**Lend Judgment**](ultimateMagic/spells/lendJudgment#_lend-judgment): Ally gains the benefit of one judgment.
+- [**Litany of Sloth**](ultimateCombat/spells/litanyOfSloth#_litany-of-sloth): Single target cannot make attacks of opportunity for 1 round.
+- [**Litany of Weakness**](ultimateCombat/spells/litanyOfWeakness#_litany-of-weakness): Single target is fatigued for 1 round.
+- [**Lock Gaze**](ultimateCombat/spells/lockGaze#_lock-gaze): Compels the target to look only at you for the duration of the spell.
+- [**Longshot**](ultimateCombat/spells/longshot#_longshot): Grants a +10-foot bonus to the range increment for any ranged weapon fired.
+- [**Magic Weapon**](spells/magicWeapon#_magic-weapon): Weapon gains +1 bonus.
+- [**Peacebond**](ultimateCombat/spells/peacebond#_peacebond): Locks a weapon in place on the target's body.
+- [**Persuasive Goad**](ultimateMagic/spells/persuasiveGoad#_persuasive-goad): Target takes 1d6 nonlethal damage; you gain an [Intimidate](/skills/intimidate#_intimidate) bonus.
+- [**Protection from Chaos**](spells/protectionFromChaos#_protection-from-chaos): +2 to [AC](combat#_armor-class) and saves, plus additional protection against selected alignment.
+- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
+- [**Remove Fear**](spells/removeFear#_remove-fear): Suppresses fear or gives +4 on saves against fear for one subject + one per four levels.
+- [**Returning Weapon**](ultimateCombat/spells/returningWeapon#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons#_weapons-returning)_ special weapon quality.
+- [**Sanctify Corpse**](ultimateMagic/spells/sanctifyCorpse#_sanctify-corpse): Prevent a corpse from becoming an undead.
+- [**Sanctuary**](spells/sanctuary#_sanctuary): Opponents can't attack you, and you can't attack.
+- [**Shield of Faith**](spells/shieldOfFaith#_shield-of-faith): Aura grants +2 or higher deflection bonus.
+- [**Theft Ward**](advancedRaceGuide/featuredRaces/tengus#_theft-ward): You ward a single object in your possession against theft.
+- [**Tireless Pursuit**](advanced/spells/tirelessPursuit#_tireless-pursuit): Ignore fatigue while hustling.
+- [**Touch of Combustion**](advancedRaceGuide/featuredRaces/ifrits#_touch-of-combustion): Causes the target to ignite in a violent burst of flame.
+- [**True Strike**](spells/trueStrike#_true-strike): +20 on your next attack roll.
+- [**Unerring Weapon**](ultimateCombat/spells/unerringWeapon#_unerring-weapon): Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.
+- [**Vocal Alteration**](ultimateMagic/spells/vocalAlteration#_vocal-alteration): [Disguise](/skills/disguise#_disguise) target's voice.
+- [**Wartrain Mount**](ultimateMagic/spells/wartrainMount#_wartrain-mount): Animal gains combat training.
+- [**Winter Feathers**](advancedRaceGuide/featuredRaces/tengus#_winter-feathers): Target's feathers thicken and fluff up to ward against winter's chill.
+- [**Wrath**](advanced/spells/wrath#_wrath): +1 attack and damage against target creature.
+
+- [**Acute Senses**](ultimateMagic/spells/acuteSenses#_acute-senses): Subject gains a bonus on [Perception](/skills/perception#_perception) checks.
+- [**Aid**](spells/aid#_aid): +1 on attack rolls and saves against fear, 1d8 temporary hp +1/level (max +10).
+- [**Align Weapon**](spells/alignWeapon#_align-weapon): Weapon becomes good, evil, lawful, or chaotic.
+- [**Bestow Insight**](advancedRaceGuide/coreRaces/humans#_bestow-insight): Target gains a +2 insight bonus and is considered trained in one single ranked skill.
+- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency#_bestow-weapon-proficiency): Grant a creature proficiency in a single weapon for short period of time.
+- [**Blessing of Luck and Resolve**](advancedRaceGuide/coreRaces/halflings#_blessing-of-luck-and-resolve): Grants target a +2 morale bonus on saving throws against fear effects.
+- [**Blistering Invective**](ultimateCombat/spells/blisteringInvective#_blistering-invective): Make an [Intimidate](skills/intimidate#_intimidate) check against all foes within 30 feet; those demoralized also take fire damage.
+- [**Bloodhound**](advanced/spells/bloodhound#_bloodhound): Gives caster the scent special ability.
+- [**Brow Gasher**](ultimateCombat/spells/browGasher#_brow-gasher): Slashing weapon deals bleed damage to an opponent's head.
+- [**Calm Emotions**](spells/calmEmotions#_calm-emotions): Calms creatures, negating emotion effects.
+- [**Castigate**](advanced/spells/castigate#_castigate): Causes target to be shaken and cower.
+- [**Confess**](advanced/spells/confess#_confess): Creature answers question truthfully or takes 1d6 damage/two levels (max 5d6).
+- [**Consecrate**](spells/consecrate#_consecrate)M: Fills area with positive energy, weakening undead.
+- [**Corruption Resistance**](advanced/spells/corruptionResistance#_corruption-resistance): Protects creature against damage from alignment-based attacks.
+- [**Cure Moderate Wounds**](spells/cureModerateWounds#_cure-moderate-wounds): Cures 2d8 damage +1/level (max. +10).
+- [**Darkness**](spells/darkness#_darkness): 20-ft. radius of supernatural shadow.
+- [**Death Candle**](advancedRaceGuide/featuredRaces/ifrits#_death-candle): Functions like _death knell_, except you summon a Small fire elemental resembling the slain creature.
+- [**Death Knell**](spells/deathKnell#_death-knell): Kills dying creature; you gain 1d8 temporary hp, +2 to Str, and +1 caster level.
+- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk#_delay-disease): The target becomes temporarily immune to disease.
+- [**Delay Pain**](ultimateMagic/spells/delayPain#_delay-pain): Ignore pain for 1 hour/level.
+- [**Delay Poison**](spells/delayPoison#_delay-poison): Stops poison from harming subject for 1 hour/level.
+- [**Desecrate**](spells/desecrate#_desecrate)M: Fills area with negative energy, making undead stronger.
+- [**Detect Thoughts**](spells/detectThoughts#_detect-thoughts): Allows “listening” to surface thoughts.
+- [**Discovery Torch**](ultimateCombat/spells/discoveryTorch#_discovery-torch-): Object touched emanates bright light, granting [Perception](skills/perception#_perception) and [Sense Motive](skills/senseMotive#_sense-motive) bonuses.
+- [**Disguise Other**](ultimateMagic/spells/disguiseOther#_disguise-other): As _ [disguise self](/spells/disguiseSelf#_disguise-self)_, but affects you or another.
+- [**Distressing Tone**](ultimateMagic/spells/distressingTone#_distressing-tone): Sound sickens 1d4 creatures.
+- [**Effortless Armor**](ultimateCombat/spells/effortlessArmor#_effortless-armor): Armor you wear no longer slows your speed.
+- [**Enthrall**](spells/enthrall#_enthrall): Captivates all within 100 ft. + 10 ft./level.
+- [**Escaping Ward**](advancedRaceGuide/coreRaces/halflings#_escaping-ward): Grants extra maneuverability when you avoid attacks against larger foes.
+- [**Find Traps**](spells/findTraps#_find-traps): Notice traps as a rogue does.
+- [**Flames of the Faithful**](advanced/spells/flamesOfTheFaithful#_flames-of-the-faithful): Gives weapon _ [flaming](magicItems/weapons#_weapons-flaming)_ property.
+- [**Follow Aura**](advanced/spells/followAura#_follow-aura): Gain ability to follow the trail of the aura of an alignment.
+- [**Ghostbane Dirge**](advanced/spells/ghostbaneDirge#_ghostbane-dirge): Incorporeal creature takes half damage from nonmagical weapons.
+- [**Ghostly Disguise**](ultimateMagic/spells/ghostlyDisguise#_ghostly-disguise): You look like a ghost of yourself.
+- [**Hold Person**](spells/holdPerson#_hold-person): Paralyzes one humanoid for 1 round/level.
+- [**Honeyed Tongue**](advanced/spells/honeyedTongue#_honeyed-tongue): Roll 2 dice when using [Diplomacy](skills/diplomacy#_diplomacy), take higher roll.
+- [**Howling Agony**](ultimateMagic/spells/howlingAgony#_howling-agony): Screaming pain limits the target's actions.
+- [**Inflict Moderate Wounds**](spells/inflictModerateWounds#_inflict-moderate-wounds): Touch attack, 2d8 damage +1/level (max +10).
+- [**Instrument of Agony**](ultimateCombat/spells/instrumentOfAgony#_instrument-of-agony): Weapon exudes divine fury, granting a bonus on [Intimidate](skills/intimidate#_intimidate) checks.
+- [**Invisibility**](spells/invisibility#_invisibility): Subject is invisible for 1 min./level or until it attacks.
+- [**Knock**](spells/knock#_knock): Opens locked or magically sealed door.
+- [**Litany of Defense**](ultimateCombat/spells/litanyOfDefense#_litany-of-defense): Doubles armor's enhancement bonus.
+- [**Magic Siege Engine**](ultimateCombat/spells/magicSiegeEngine#_magic-siege-engine): Siege engine gains +1 on targeting and damage rolls.
+- [**Perceive Cues**](advanced/spells/perceiveCues#_perceive-cues): +5 [Perception](skills/perception#_perception) and [Sense Motive](../skills/senseMotive#_sense-motive) 10 min./level.
+- [**Protection from Chaos, Communal**](ultimateCombat/spells/protectionFromChaos#_protection-from-chaos,-communal): As _ [protection from chaos](spells/protectionFromChaos#_protection-from-chaos)_, but you may divide the duration among creatures touched.
+- [**Protection from Evil, Communal**](ultimateCombat/spells/protectionFromEvil#_protection-from-evil,-communal): As _ [protection from evil](spells/protectionFromEvil#_protection-from-evil)_, but you may divide the duration among creatures touched.
+- [**Protection from Good, Communal**](ultimateCombat/spells/protectionFromGood#_protection-from-good,-communal): As _ [protection from good](spells/protectionFromGood#_protection-from-good)_, but you may divide the duration among creatures touched.
+- [**Protection from Law, Communal**](ultimateCombat/spells/protectionFromLaw#_protection-from-law,-communal): As _ [protection from law](spells/protectionFromLaw#_protection-from-law)_, but you may divide the duration among creatures touched.
+- [**Qualm**](ultimateCombat/spells/qualm#_qualm): Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing.
+- [**Remove Paralysis**](spells/removeParalysis#_remove-paralysis): Frees one or more creatures from paralysis or [slow](spells/slow#_slow) effect.
+- [**Resist Energy**](spells/resistEnergy#_resist-energy): Ignores first 10 (or more) points of damage per attack from specified energy type.
+- [**Resistance**](spells/resistance#_resistance): Subject gains +1 on saving throws.
+- [**Restoration, Lesser**](spells/restoration#_restoration-lesser): Dispels magical ability penalty or repairs 1d4 ability damage.
+- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon#_returning-weapon)_, but you may divide the duration among weapons touched.
+- [**Sacred Bond**](advanced/spells/sacredBond#_sacred-bond)F: Cast touch healing spells from a distance.
+- [**Savage Maw**](advancedRaceGuide/coreRaces/halfOrcs#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
+- [**See Invisibility**](spells/seeInvisibility#_see-invisibility): Reveals [invisible](glossary#_invisible) creatures or objects.
+- [**Shield Other**](spells/shieldOther#_shield-other)F: You take half of subject's damage.
+- [**Silence**](spells/silence#_silence): Negates sound in 20-ft. radius.
+- [**Spiritual Weapon**](spells/spiritualWeapon#_spiritual-weapon): Magic weapon attacks on its own.
+- [**Surmount Affliction**](ultimateMagic/spells/surmountAffliction#_surmount-affliction): Temporarily suppress one condition.
+- [**Tactical Acumen**](ultimateCombat/spells/tacticalAcumen#_tactical-acumen): You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
+- [**Tongues**](spells/tongues#_tongues): Speak and understand any language.
+- [**Undetectable Alignment**](spells/undetectableAlignment#_undetectable-alignment): Conceals alignment for 24 hours.
+- [**Weapon of Awe**](advanced/spells/weaponOfAwe#_weapon-of-awe): Weapon gets +2 on damage rolls.
+- [**Whispering Wind**](spells/whisperingWind#_whispering-wind): Sends a short message 1 mile/level.
+- [**Zone of Truth**](spells/zoneOfTruth#_zone-of-truth): Subjects within range cannot lie.
+
+- [**Agonizing Rebuke**](advancedRaceGuide/featuredRaces/hobgoblins#_agonizing-rebuke): You instill such apprehension about attacking you in your target that doing so causes it mental distress and pain.
+- [**Arcane Sight**](spells/arcaneSight#_arcane-sight): Magical auras become visible to you.
+- [**Banish Seeming**](advanced/spells/banishSeeming#_banish-seeming): Dispels touched illusion or a creature's change in form.
+- [**Battle Trance**](advancedRaceGuide/coreRaces/halfOrcs#_battle-trance): You are transformed into a single-minded force of destruction.
+- [**Blessing of the Mole**](ultimateMagic/spells/blessingOfTheMole#_blessing-of-the-mole): 1 ally/level gains darkvision and a +2 [Stealth](/skills/stealth#_stealth) bonus.
+- [**Blinding Ray**](advancedRaceGuide/featuredRaces/dhampirs#_blinding-ray): You blast your enemies with blinding rays of sunlight.
+- [**Blood Biography**](advanced/spells/bloodBiography#_blood-biography-): Learn about a creature and how it became wounded by examining its blood.
+- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
+- [**Burst of Speed**](ultimateCombat/spells/burstOfSpeed#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
+- [**Cast Out**](advanced/spells/castOut#_cast-out): Does 2d8 damage +1/level (max +15) to creature and dispels an effect.
+- [**Continual Flame**](spells/continualFlame#_continual-flame)M: Makes a permanent, heatless light.
+- [**Coordinated Effort**](advanced/spells/coordinatedEffort#_coordinated-effort): Grants allies a teamwork feat.
+- [**Countless Eyes**](ultimateMagic/spells/countlessEyes#_countless-eyes): Extra eyes give all-around vision.
+- [**Cure Serious Wounds**](spells/cureSeriousWounds#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
+- [**Daybreak Arrow**](ultimateCombat/spells/daybreakArrow#_daybreak-arrow): Targeted ammunition exudes radiant energy.
+- [**Daylight**](spells/daylight#_daylight): 60-ft. radius of bright light.
+- [**Deadly Juggernaut**](ultimateCombat/spells/deadlyJuggernaut#_deadly-juggernaut): Your might increases with every kill you make.
+- [**Deeper Darkness**](spells/deeperDarkness#_deeper-darkness): Object sheds shadows in 60-ft. radius.
+- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison#_delay-poison,-communal): As _ [delay poison](spells/delayPoison#_delay-poison)_, but you may divide the duration among creatures touched.
+- [**Dimensional Anchor**](spells/dimensionalAnchor#_dimensional-anchor): Bars extradimensional movement.
+- [**Dispel Magic**](spells/dispelMagic#_dispel-magic): Cancels one magical spell or effect.
+- [**Eldritch Fever**](ultimateMagic/spells/eldritchFever#_eldritch-fever): Target gains the eldritch ague spellblight.
+- [**Fearsome Duplicate**](advancedRaceGuide/coreRaces/halflings#_fearsome-duplicate): You create a larger and far more menacing version of yourself.
+- [**Fester**](advanced/spells/fester#_fester): Gives subject SR 12 + your level vs. healing effects.
+- [**Glyph of Warding**](spells/glyphOfWarding#_glyph-of-warding)M: Inscription harms those who pass it.
+- [**Halt Undead**](spells/haltUndead#_halt-undead-copy): Immobilizes undead for 1 round/level.
+- [**Heroism**](spells/heroism#_heroism): Gives +2 bonus on attack rolls, saves, skill checks.
+- [**Hidden Speech**](advanced/spells/hiddenSpeech#_hidden-speech): Gain +10 on [Bluff](skills/bluff#_bluff) to send secret messages.
+- [**Hunter's Eye**](advanced/spells/hunterSEye#_hunter's-eye): +20 on [Perception](skills/perception#_perception) checks to locate a target.
+- [**Inflict Serious Wounds**](spells/inflictSeriousWounds#_inflict-serious-wounds): Touch attack, 3d8 damage +1/level (max +15).
+- [**Improve Trap**](advancedRaceGuide/featuredRaces/kobolds#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
+- [**Invisibility Purge**](spells/invisibilityPurge#_invisibility-purge): Dispels invisibility within 5 ft./level.
+- [**Keen Edge**](spells/keenEdge#_keen-edge): Doubles normal weapon's threat range.
+- [**Litany of Eloquence**](ultimateCombat/spells/litanyOfEloquence#_litany-of-eloquence): Fascinates a single creature for 1 round.
+- [**Litany of Entanglement**](ultimateCombat/spells/litanyOfEntanglement#_litany-of-entanglement): Entangles a creature for 1 round. 
+- [**Litany of Righteousness**](ultimateCombat/spells/litanyOfRighteousness#_litany-of-righteousness): A single evil creature takes more damage from creatures with a good aura.
+- [**Litany of Warding**](ultimateCombat/spells/litanyOfWarding#_litany-of-warding): You gain two additional attacks of opportunity for 1 round.
+- [**Locate Object**](spells/locateObject#_locate-object): Senses direction toward object (specific or type).
+- [**Locate Weakness**](ultimateCombat/spells/locateWeakness#_locate-weakness): You roll damage twice when you roll damage for a critical hit and take the best damage.
+- [**Magic Vestment**](spells/magicVestment#_magic-vestment): Armor or shield gains +1 enhancement per four levels.
+- [**Magic Weapon, Greater**](spells/magicWeapon#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
+- [**Nondetection**](spells/nondetection#_nondetection)M: Hides subject from divination, [scrying](spells/scrying#_scrying).
+- [**Obscure Object**](spells/obscureObject#_obscure-object): Masks object against [scrying](spells/scrying#_scrying).
+- [**Prayer**](spells/prayer#_prayer): Allies get +1 bonus on most rolls, enemies –1 penalty.
+- [**Protection From Energy**](spells/protectionFromEnergy#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
+- [**Remove Curse**](spells/removeCurse#_remove-curse): Frees object or person from curse.
+- [**Remove Disease**](spells/removeDisease#_remove-disease): Cures all diseases affecting subject.
+- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy#_resist-energy)_, but you may divide the duration among creatures touched.
+- [**Retribution**](advanced/spells/retribution#_retribution): Recent attacker is afflicted with penalties.
+- [**Righteous Vigor**](advanced/spells/righteousVigor#_righteous-vigor): Boosts attack bonus with each hit.
+- [**Searing Light**](spells/searingLight#_searing-light): Ray deals 1d8/two levels damage (more against undead).
+- [**Seek Thoughts**](advanced/spells/seekThoughts#_seek-thoughts): Detects thinking creatures' thoughts.
+- [**Seeming**](spells/seeming#_seeming): Changes appearance of 1 person per 2 levels.
+- [**Speak with Dead**](spells/speakWithDead#_speak-with-dead): Corpse answers one question/two levels.
+- [**Terrible Remorse**](ultimateMagic/spells/terribleRemorse#_terrible-remorse): Creature is compelled to harm itself.
+- [**Ward the Faithful**](advanced/spells/wardTheFaithful#_ward-the-faithful): Creatures of same faith gain bonuses to AC and on saving throws.
+- [**Witness**](ultimateMagic/spells/witness#_witness): See through the target's eyes and ears.
+
+- [**Battlemind Link**](ultimateMagic/spells/battlemindLink#_battlemind-link): You and an ally gain attack and AC bonuses.
+- [**Brand, Greater**](advanced/spells/brand#_brand,-greater): As _ [brand](advanced/spells/brand#_brand)_, but brand glows when near your holy symbol.
+- [**Chaos Hammer**](spells/chaosHammer#_chaos-hammer): Harms and slows lawful creatures (1d8 damage/2 levels).
+- [**Coward's Lament**](advanced/spells/cowardSLament#_coward's-lament): If subject doesn't attack you it receives a penalty.
+- [**Cure Critical Wounds**](spells/cureCriticalWounds#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
+- [**Curse of Magic Negation**](ultimateMagic/spells/curseOfMagicNegation#_curse-of-magic-negation): Target gains the negated spellblight.
+- [**Daze, Mass**](ultimateMagic/spells/daze#_daze,-mass): As _ [daze](/spells/daze#_daze)_, but affecting multiple creatures.
+- [**Death Ward**](spells/deathWard#_death-ward): Grants bonuses against death spells and negative energy.
+- [**Defile Armor**](advanced/spells/defileArmor#_defile-armor): As _ [sanctify armor](advanced/spells/sanctifyArmor#_sanctify-armor)_, but gain DR 5/good when using judgment or smite.
+- [**Denounce**](advanced/spells/denounce#_denounce): Worsens creatures' attitudes.
+- [**Detect Scrying**](spells/detectScrying#_detect-scrying): Alerts you to magical eavesdropping
+- [**Discern Lies**](spells/discernLies#_discern-lies): Reveals deliberate falsehoods.
+- [**Dismissal**](spells/dismissal#_dismissal): Forces a creature to return to its native plane.
+- [**Divination**](spells/divination#_divination)M: Provides useful advice for specific proposed actions.
+- [**Divine Power**](spells/divinePower#_divine-power): You gain attack bonuses and 1 hp/level.
+- [**Fear**](spells/fear#_fear): Subjects within cone flee for 1 round/level.
+- [**Find Quarry**](ultimateCombat/spells/findQuarry#_find-quarry): You can sense whether a particular creature is within 20 miles of your location.
+- [**Fleshworm Infestation**](ultimateMagic/spells/fleshwormInfestation#_fleshworm-infestation): Worms deal hp and Dex damage.
+- [**Forced Repentance**](advanced/spells/forcedRepentance#_forced-repentance): Target falls prone and confesses all of its sins.
+- [**Freedom of Movement**](spells/freedomOfMovement#_freedom-of-movement): Subject moves normally despite impediments to movement.
+- [**Healing Warmth**](advancedRaceGuide/featuredRaces/ifrits#_healing-warmth): Temporary immunity to fire damage as _protection from energy_.
+- [**Geas, Lesser**](spells/geasQuest#_geas-lesser): Commands subject of 7 HD or less.
+- [**Hold Monster**](spells/holdMonster#_hold-monster): As _ [hold person](spells/holdPerson#_hold-person)_, but any creature.
+- [**Holy Smite**](spells/holySmite#_holy-smite): Harms and possibly blinds evil creatures (1d8 damage/2 levels).
+- [**Inflict Critical Wounds**](spells/inflictCriticalWounds#_inflict-critical-wounds): Touch attack, 4d8 damage + 1/level (max +20).
+- [**Interrogation, Greater**](ultimateMagic/spells/interrogation#_interrogation,-greater): As _ [interrogation](ultimateMagic/spells/interrogation#_interrogation)_, except with more pain and more questions.
+- [**Invisibility, Greater**](spells/invisibility#_invisibility-greater): As _ [invisibility](../spells/invisibility#_invisibility)_, but subject can attack and stay invisible.
+- [**Judgment Light**](ultimateCombat/spells/judgmentLight#_judgment-light): You gain an additional effect while a judgment is active.
+- [**Litany of Escape**](ultimateCombat/spells/litanyOfEscape#_litany-of-escape): Teleports a friend out of a grapple.
+- [**Litany of Sight**](ultimateCombat/spells/litanyOfSight#_litany-of-sight): You can see invisible creatures and objects within 30 feet of you.
+- [**Magic Siege Engine, Greater**](ultimateCombat/spells/magicSiegeEngine#_magic-siege-engine,-greater): Siege engine gains +1 on targeting and damage rolls for every four caster levels.
+- [**Named Bullet**](ultimateCombat/spells/namedBullet#_named-bullet): Imbues ammunition with accuracy against a specific creature type.
+- [**Neutralize Poison**](spells/neutralizePoison#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
+- [**Order's Wrath**](spells/orderSWrath#_order-s-wrath): Harms and dazes chaotic creatures (1d8 damage/2 levels).
+- [**Protection from Energy, Communal**](ultimateCombat/spells/protectionFromEnergy#_protection-from-energy,-communal): As _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, but you may divide the duration among creatures touched.
+- [**Rebuke**](advanced/spells/rebuke#_rebuke): Foes take 1d8 damage/two caster levels (max 5d8).
+- [**Reprobation**](ultimateMagic/spells/reprobation#_reprobation): Marked target is shunned by your religion.
+- [**Restoration**](spells/restoration#_restoration)M: Restores level and ability score drains.
+- [**Sanctify Armor**](advanced/spells/sanctifyArmor#_sanctify-armor): +1 AC/four levels (max +5).
+- [**Sending**](spells/sending#_sending): Delivers short message anywhere, instantly.
+- [**Shared Wrath**](advanced/spells/sharedWrath#_shared-wrath): As _ [wrath](advanced/spells/wrath#_wrath)_, but affects multiple creatures.
+- [**Sleepwalk**](advanced/spells/sleepwalk#_sleepwalk)M: Causes creature to move while asleep.
+- [**Spell Immunity**](spells/spellImmunity#_spell-immunity): Subject is immune to one spell per 4 levels.
+- [**Stoneskin**](spells/stoneskin#_stoneskin)M: Grants DR 10/adamantine.
+- [**Tireless Pursuers**](advanced/spells/tirelessPursuers#_tireless-pursuers): As _ [tireless pursuit](advanced/spells/tirelessPursuit#_tireless-pursuit)_, but affects multiple creatures.
+- [**Unholy Blight**](spells/unholyBlight#_unholy-blight): Harms and sickens good creatures (1d8 damage/2 levels).
+
+- [**Atonement**](spells/atonement#_atonement)FM: Removes burden of misdeeds from subject.
+- [**Banishment**](spells/banishment#_banishment): Banishes 2 HD/level of extraplanar creatures.
+- [**Break Enchantment**](spells/breakEnchantment#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
+- [**Castigate, Mass**](advanced/spells/castigate#_castigate,-mass): As _ [castigate](advanced/spells/castigate#_castigate)_, but affects multiple creatures.
+- [**Command, Greater**](spells/command#_command-greater): As _ [command](spells/command#_command), _but affects one subject/level.
+- [**Commune**](spells/commune#_commune)M: Deity answers one yes-or-no question/level.
+- [**Cure Light Wounds, Mass**](spells/cureLightWounds#_cure-light-wounds-mass): Cures 1d8 damage + 1/level, affects 1 subject/level.
+- [**Dispel Chaos**](spells/dispelChaos#_dispel-chaos): +4 bonus against attacks by chaotic creatures.
+- [**Disrupting Weapon**](spells/disruptingWeapon#_disrupting-weapon): Melee weapon destroys undead.
+- [**Divine Pursuit**](ultimateMagic/spells/divinePursuit#_divine-pursuit): Gain a movement type of your prey.
+- [**Flame Strike**](spells/flameStrike#_flame-strike): Smites foes with divine fire (1d6/level damage).
+- [**Forbid Action, Greater**](ultimateMagic/spells/forbidAction#_forbid-action,-greater): As _ [forbid action](ultimateMagic/spells/forbidAction#_forbid-action)_, but 1 creature/level.
+- [**Geas/Quest**](spells/geasQuest#_geas-quest): As _lesser geas, _but affects any creature.
+- [**Ghostbane Dirge, Mass**](advanced/spells/ghostbaneDirge#_ghostbane-dirge,-mass): As _ [ghostbane dirge](advanced/spells/ghostbaneDirge#_ghostbane-dirge)_, but affects multiple creatures.
+- [**Hallow**](spells/hallow#_hallow)M: Designates location as holy.
+- [**Inflict Light Wounds, Mass**](spells/inflictLightWounds#_inflict-light-wounds-mass): Deals 1d8 damage + 1/level, affects 1 subject/level.
+- [**Litany of Thunder**](ultimateCombat/spells/litanyOfThunder#_litany-of-thunder): A single target is deafened until the condition is removed, and is confused for 1 round.
+- [**Litany of Vengeance**](ultimateCombat/spells/litanyOfVengeance#_litany-of-vengeance): Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.
+- [**Mark of Justice**](spells/markOfJustice#_mark-of-justice): Designates action that triggers _curse _on subject.
+- [**Resounding Blow**](advanced/spells/resoundingBlow#_resounding-blow): Melee attack deals 1d6 more damage.
+- [**Righteous Might**](spells/righteousMight#_righteous-might): Your size increases, and you gain bonuses in combat.
+- [**Shield**](spells/shield#_shield): Invisible disc gives +4 to [AC](combat#_armor-class), blocks _ [magic missile](spells/magicMissile#_magic-missile)s._
+- [**Spawn Ward**](advancedRaceGuide/featuredRaces/dhampirs#_spawn-ward): Target becomes resistant to the effects of energy drain and blood drain attacks made by undead creatures.
+- [**Spell Immunity, Communal**](ultimateCombat/spells/spellImmunity#_spell-immunity,-communal): As _ [spell immunity](spells/spellImmunity#_spell-immunity)_, but you may divide the duration among creatures touched.
+- [**Spell Resistance**](spells/spellResistance#_spell-resistance): Subject gains SR 12 + level.
+- [**Stoneskin, Communal**](ultimateCombat/spells/stoneskin#_stoneskin,-communal)M: As _ [stoneskin](spells/stoneskin#_stoneskin)_, but you may divide the duration among creatures touched.
+- [**Telepathic Bond**](spells/telepathicBond#_telepathic-bond): Link lets allies communicate.
+- [**True Seeing**](spells/trueSeeing#_true-seeing)M: Lets you see all things as they really are.
+- [**Unhallow**](spells/unhallow#_unhallow)M: Designates location as unholy.
+- [**Unwilling Shield**](advanced/spells/unwillingShield#_unwilling-shield)M: Subject shares wounds you receive.
+
+- [**Blade Barrier**](spells/bladeBarrier#_blade-barrier): Wall of blades deals 1d6/level damage.
+- [**Blasphemy**](spells/blasphemy#_blasphemy): Kills, paralyzes, weakens, or dazes nonevil subjects.
+- [**Blessing of Luck and Resolve, Mass**](advancedRaceGuide/coreRaces/halflings#_blessing-of-luck-and-resolve,-mass): Functions like _blessing of luck and resolve_, except that it affects multiple creatures.
+- [**Circle of Death**](spells/circleOfDeath#_circle-of-death)M: Kills 1d4/level HD of creatures.
+- [**Cleanse**](advanced/spells/cleanse#_cleanse): As _ [heal](spells/heal#_heal)_, but only cures 4d8 damage +1/level (max +25).
+- [**Cure Moderate Wounds, Mass**](spells/cureModerateWounds#_cure-moderate-wounds-mass): Cures 2d8 damage + 1/level, affects 1 subject/level.
+- [**Dictum**](spells/dictum#_dictum): Kills, paralyzes, staggers, or deafens nonlawful targets.
+- [**Dispel Magic, Greater**](spells/dispelMagic#_dispel-magic-greater): As _ [dispel magic](spells/dispelMagic#_dispel-magic)_, but with multiple targets.
+- [**Fester, Mass**](advanced/spells/fester#_fester,-mass): As _ [fester](advanced/spells/fester#_fester)_, but affecting multiple targets.
+- [**Find the Path**](spells/findThePath#_find-the-path): Shows most direct way to a location.
+- [**Forbiddance**](spells/forbiddance#_forbiddance)M: Blocks planar travel, damages creatures of different alignment.
+- [**Glyph of Warding, Greater**](spells/glyphOfWarding#_glyph-of-warding-greater)M: As _ [glyph of warding](spells/glyphOfWarding#_glyph-of-warding)_, but up to 10d8 damage or 6th-level spell.
+- [**Harm**](spells/harm#_harm): Deals 10 points/level damage to target.
+- [**Heal**](spells/heal#_heal): Cures 10 points/level damage, all diseases and mental conditions.
+- [**Heroes' Feast**](spells/heroesFeast#_heroes-feast): Food for one creature/level cures and grants combat bonuses_._
+- [**Holy Word**](spells/holyWord#_holy-word): Kills, paralyzes, blinds, or deafens nongood subjects.
+- [**Inflict Moderate Wounds, Mass**](spells/inflictModerateWounds#_inflict-moderate-wounds-mass): Deals 2d8 damage + 1/level, affects 1 subject/level.
+- [**Legend Lore**](spells/legendLore#_legend-lore)MF: Lets you learn tales about a person, place, or thing.
+- [**Litany of Madness**](ultimateCombat/spells/litanyOfMadness#_litany-of-madness): A single target is confused for at least 1 round.
+- [**Named Bullet, Greater**](ultimateCombat/spells/namedBullet#_named-bullet,-greater): As _ [named bullet](ultimateCombat/spells/namedBullet#_named-bullet)_, but deals 2 points of damage per caster level.
+- [**Overwhelming Presence**](ultimateMagic/spells/overwhelmingPresence#_overwhelming-presence): Creatures bow before you as if you were divine.
+- [**Repulsion**](spells/repulsion#_repulsion)F: Creatures can't approach you.
+- [**Undeath to Death**](spells/undeathToDeath#_undeath-to-death)M: Destroys 1d4/level HD of undead (max. 20d4).
+- [**Word of Chaos**](spells/wordOfChaos#_word-of-chaos): Kills, confuses_, _stuns, or deafens nonchaotic subjects.
+
+- [**Acid Splash**](spells/acidSplash#_acid-splash): Orb deals 1d3 acid damage.
+- [**Arcane Mark**](spells/arcaneMark#_arcane-mark): Inscribes a personal rune on an object or creature (visible or invisible).
+- [**Dancing Lights**](spells/dancingLights#_dancing-lights): Creates torches or other lights.
+- [**Daze**](spells/daze#_daze): A single humanoid creature with 4 HD or less loses its next action.
+- [**Detect Magic**](spells/detectMagic#_detect-magic): Detects all spells and magic items within 60 ft.
+- [**Disrupt Undead**](spells/disruptUndead#_disrupt-undead): Deals 1d6 damage to one undead.
+- [**Flare**](spells/flare#_flare): Dazzles one creature (–1 on attack rolls).
+- [**Ghost Sound**](spells/ghostSound#_ghost-sound): Figment sounds.
+- [**Light**](spells/light#_light): Object shines like a torch.
+- [**Mage Hand**](spells/mageHand#_mage-hand): 5-pound telekinesis.
+- [**Open/Close**](spells/openClose#_open-close): Opens or closes small or light things.
+- [**Prestidigitation**](spells/prestidigitation#_prestidigitation): Performs minor tricks.
+- [**Ray of Frost**](spells/rayOfFrost#_ray-of-frost): Ray deals 1d3 cold damage.
+- [**Read Magic**](spells/readMagic#_read-magic): Read scrolls and spellbooks.
+- [**Spark**](advanced/spells/spark#_spark-): Ignites flammable objects.
+
+- [**Adjuring Step**](ultimateCombat/spells/adjuringStep#_adjuring-step-): You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell. 
+- [**Blend**](advancedRaceGuide/coreRaces/elves#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
+- [**Burning Hands**](spells/burningHands#_burning-hands): 1d4/level fire damage (max 5d4).
+- [**Chill Touch**](spells/chillTouch#_chill-touch): One touch/level deals 1d6 damage and possibly 1 [Str](gettingStarted#_strength) damage.
+- [**Color Spray**](spells/colorSpray#_color-spray): Knocks [unconscious](glossary#_unconscious), blinds, and/or stuns weak creatures.
+- [**Corrosive Touch**](ultimateMagic/spells/corrosiveTouch#_corrosive-touch): Touch attack deals 1d4 acid/level.
+- [**Enlarge Person**](spells/enlargePerson#_enlarge-person): Humanoid creature doubles in size.
+- [**Expeditious Retreat**](spells/expeditiousRetreat#_expeditious-retreat): Your base speed increases by 30 ft.
+- [**Feather Fall**](spells/featherFall#_feather-fall): Objects or creatures fall slowly.
+- [**Flare Burst**](advanced/spells/flareBurst#_flare-burst): As _ [flare](spells/flare#_flare)_, but affects all creatures in 10 ft.
+- [**Floating Disk**](spells/floatingDisk#_floating-disk): Creates 3-ft.-diameter horizontal disk that holds 100 lbs./level.
+- [**Frostbite**](ultimateMagic/spells/frostbite#_frostbite): Target takes cold damage and is fatigued.
+- [**Grease**](spells/grease#_grease): Makes 10-ft. square or one object slippery.
+- [**Hydraulic Push**](advanced/spells/hydraulicPush#_hydraulic-push-): Wave of water bull rushes an enemy.
+- [**Illusion of Calm**](ultimateCombat/spells/illusionOfCalm#_illusion-of-calm): You appear to be standing still, even when you take some actions. 
+- [**Ironbeard**](advancedRaceGuide/coreRaces/dwarves#_ironbeard): Causes a brushy beard of stiff iron to erupt from the face of a willing target.
+- [**Jump**](spells/jump#_jump): Subject gets bonus on Acrobatics checks.
+- [**Jury-Rig**](ultimateCombat/spells/juryRig#_jury-rig): Removes the broken condition from the targeted object.
+- [**Linebreaker**](advancedRaceGuide/coreRaces/halfOrcs#_linebreaker): You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun.
+- [**Lock Gaze**](ultimateCombat/spells/lockGaze#_lock-gaze): Compels the target to look only at you for the duration of the spell.
+- [**Longshot**](ultimateCombat/spells/longshot#_longshot): Grants a +10-foot bonus to the range increment for any ranged weapon fired.
+- [**Magic Missile**](spells/magicMissile#_magic-missile): 1d4+1 damage; +1 missile per two levels above 1st (max 5).
+- [**Magic Weapon**](spells/magicWeapon#_magic-weapon): Weapon gains +1 bonus.
+- [**Mirror Strike**](ultimateCombat/spells/mirrorStrike#_mirror-strike): You may strike multiple opponents with a single attack.
+- [**Mount**](spells/mount#_mount): Summons riding horse for 2 hours/level.
+- [**Mudball**](advancedRaceGuide/featuredRaces/goblins#_mudball): You conjure a single ball of sticky mud and launch it at an enemy's face as a ranged touch attack.
+- [**Negative Reaction**](ultimateCombat/spells/negativeReaction#_negative-reaction): Targeted creature may not positively influence anyone.
+- [**Obscuring Mist**](spells/obscuringMist#_obscuring-mist): Fog surrounds you.
+- [**Ray of Enfeeblement**](spells/rayOfEnfeeblement#_ray-of-enfeeblement): Ray causes 1d6 [Str](gettingStarted#_strength) penalty + 1 per 2 levels.
+- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
+- [**Reduce Person**](spells/reducePerson#_reduce-person): Humanoid creature halves in size.
+- [**Reinforce Armaments**](ultimateCombat/spells/reinforceArmaments#_reinforce-armaments): Temporarily mitigates the fragile quality in targeted weapon or armor.
+- [**Returning Weapon**](ultimateCombat/spells/returningWeapon#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons#_weapons-returning)_ special weapon quality.
+- [**Shield**](spells/shield#_shield): Invisible disc gives +4 to [AC](combat#_armor-class), blocks _ [magic missile](spells/magicMissile#_magic-missile)s._
+- [**Shock Shield**](ultimateCombat/spells/shockShield#_shock-shield): A shield of force protects you until you dismiss it in an explosion of electricity.
+- [**Shocking Grasp**](spells/shockingGrasp#_shocking-grasp): Touch delivers 1d6/level electricity damage (max 5d6).
+- [**Silent Image**](spells/silentImage#_silent-image): Creates minor illusion of your design.
+- [**Stone Fist**](advanced/spells/stoneFist#_stone-fist): Your unarmed strikes are lethal.
+- [**True Strike**](spells/trueStrike#_true-strike): +20 on your next attack roll.
+- [**Unerring Weapon**](ultimateCombat/spells/unerringWeapon#_unerring-weapon): Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.
+- [**Unseen Servant**](spells/unseenServant#_unseen-servant): Invisible force obeys your commands.
+- [**Vanish**](advanced/spells/vanish#_vanish): As _ [invisibility](spells/invisibility#_invisibility)_ for 1 round/level (5 max).
+- [**Warding Weapon**](ultimateCombat/spells/wardingWeapon#_warding-weapon)F: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
+- [**Web Bolt**](advancedRaceGuide/featuredRaces/drow#_web-bolt): You launch a ball of webbing at a target, causes target to be affected as if by a _web_ spell.
+- [**Windy Escape**](advancedRaceGuide/featuredRaces/sylphs#_windy-escape): You respond to an attack by briefly becoming vaporous and insubstantial.
+
+**[Ablative Barrier](ultimateCombat/spells/ablativeBarrier#_ablative-barrier)**** F**: Surrounds the target with layers of force.
+
+- [**Acid Arrow**](spells/acidArrow#_acid-arrow): Ranged touch attack; 2d4 damage for 1 round + 1 round/3 levels.
+- [**Alter Self**](spells/alterSelf#_alter-self): Assume form of a Small or Medium humanoid.
+- [**Animal Aspect**](ultimateCombat/spells/animalAspect#_animal-aspect): You gain some of the beneficial qualities of an animal.
+- [**Bear's Endurance**](spells/bearSEndurance#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted#_constitution) for 1 min./level.
+- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency#_bestow-weapon-proficiency): Grants a creature proficiency in a single weapon for short period of time.
+- [**Blood Blaze**](advancedRaceGuide/featuredRaces/orcs#_blood-blaze): 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air.
+- [**Blood Transcription**](ultimateMagic/spells/bloodTranscription#_blood-transcription): Learn a spell from the target's blood.
+- [**Blur**](spells/blur#_blur): Attacks miss subject 20% of the time.
+- [**Brow Gasher**](ultimateCombat/spells/browGasher#_brow-gasher): Slashing weapon deals bleed damage to an opponent's head.
+- [**Bull's Strength**](spells/bullSStrength#_bull-s-strength): Subject gains +4 to Str for 1 min./level.
+- [**Burning Gaze**](advanced/spells/burningGaze#_burning-gaze): Inflict 1d6 fire damage to creature by looking at it.
+- [**Cat's Grace**](spells/catSGrace#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted#_dexterity) for 1 min./level.
+- [**Darkness**](spells/darkness#_darkness): 20-ft. radius of supernatural shadow.
+- [**Defensive Shock**](ultimateMagic/spells/defensiveShock#_defensive-shock): Electricity damages your attackers.
+- [**Effortless Armor**](ultimateCombat/spells/effortlessArmor#_effortless-armor): Armor you wear no longer slows your speed.
+- [**Elemental Touch**](advanced/spells/elementalTouch#_elemental-touch): Gain energy damage touch attack.
+- [**Escaping Ward**](advancedRaceGuide/coreRaces/halflings#_escaping-ward): Grants extra maneuverability when you avoid attacks against larger foes.
+- [**Fire Breath**](advanced/spells/fireBreath#_fire-breath): Exhale a cone of flame at will.
+- [**Flaming Sphere**](spells/flamingSphere#_flaming-sphere): Ball of fire deals 3d6 fire damage.
+- [**Fog Cloud**](spells/fogCloud): Fog obscures vision.
+- [**Frigid Touch**](ultimateMagic/spells/frigidTouch#_frigid-touch): Target takes cold damage and is staggered.
+- [**Glitterdust**](spells/glitterdust#_glitterdust): Blinds targets, outlines invisible things.
+- [**Groundswell**](advancedRaceGuide/coreRaces/dwarves#_groundswell): Allows the target to cause the ground to rise up beneath him.
+- [**Gusting Sphere**](advancedRaceGuide/featuredRaces/sylphs#_gusting-sphere): A swirling ball of wind rolls in whichever direction you point, hurling those it strikes with great force.
+- [**Gust of Wind**](spells/gustOfWind#_gust-of-wind): Blast of wind blows away or knocks down creatures.
+- [**Imbue with Elemental Might**](advancedRaceGuide/uncommonRaces/sulis#_imbue-with-elemental-might): Functions like _imbue with spell ability_, except you transfer the use of your elemental assault ability to the target.
+- [**Invisibility**](spells/invisibility#_invisibility): Subject is invisible for 1 min./level or until it attacks.
+- [**Levitate**](spells/levitate#_levitate): Subject moves up and down at your direction.
+- [**Minor Image**](spells/minorImage#_minor-image): As _ [silent image](spells/silentImage#_silent-image)_, plus some sound.
+- [**Mirror Image**](spells/mirrorImage#_mirror-image): Creates decoy duplicates of you.
+- [**Mount, Communal**](ultimateCombat/spells/mount#_mount,-communal): As _ [mount](spells/mount#_mount)_, but you may divide the duration among creatures touched. 
+- [**Pilfering Hand**](ultimateCombat/spells/pilferingHand#_pilfering-hand): You may seize an object or manipulate it from afar.
+- [**Pyrotechnics**](spells/pyrotechnics#_pyrotechnics): Turns fire into light or thick smoke.
+- [**Reinforce Armaments, Communal**](ultimateCombat/spells/reinforceArmaments#_reinforce-armaments,-communal): As _ [reinforce armaments](ultimateCombat/spells/reinforceArmaments#_reinforce-armaments)_, but you may divide the duration among objects touched.
+- [**Reloading Hands**](ultimateCombat/spells/reloadingHands#_reloading-hands): Loads a single shot into your weapon every round.
+- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon#_returning-weapon)_, but you may divide the duration among weapons touched.
+- [**Savage Maw**](advancedRaceGuide/coreRaces/halfOrcs#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
+- [**Scorching Ray**](spells/scorchingRay#_scorching-ray): Ranged touch attack deals 4d6 fire damage, +1 ray/four levels (max 3).
+- [**Shatter**](spells/shatter#_shatter): Sonic energy damages objects or creatures composed of crystal.
+- [**Spider Climb**](spells/spiderClimb#_spider-climb): Grants ability to walk on walls and ceilings.
+- [**Stone Call**](advanced/spells/stoneCall#_stone-call): 2d6 damage to all creatures in area.
+- [**Stone Shield**](advancedRaceGuide/featuredRaces/oreads#_stone-shield): 1-inch-thick slab of stone springs up from the ground, shielding you.
+- [**Tactical Acumen**](ultimateCombat/spells/tacticalAcumen#_tactical-acumen): You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
+- [**Telekinetic Assembly**](ultimateCombat/spells/telekineticAssembly#_telekinetic-assembly)F: Assembles a siege engine using 1 fewer worker for every two caster levels.
+- [**Twisted Space**](ultimateCombat/spells/twistedSpace#_twisted-space): Targeted creature's attacks target a random square instead of the intended target.
+- [**Web**](spells/web#_web): Fills 20-ft.-radius spread with sticky spiderwebs that can grapple foes and impair movement.
+
+- [**Animal Aspect, Greater**](ultimateCombat/spells/animalAspect#_animal-aspect,-greater): As _ [animal aspect](ultimateCombat/spells/animalAspect#_animal-aspect)_, but you gain two animal qualities.
+- [**Aqueous Orb**](advanced/spells/aqueousOrb#_aqueous-orb): Creates rolling sphere of water.
+- [**Arcane Sight**](spells/arcaneSight#_arcane-sight): Magical auras become visible to you.
+- [**Beast Shape I**](spells/beastShape#_beast-shape-i): You take the form and some of the powers of a Small or Medium animal.
+- [**Blink**](spells/blink#_blink): You randomly vanish and reappear for 1 round per level.
+- [**Burst of Speed**](ultimateCombat/spells/burstOfSpeed#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
+- [**Cloak of Winds**](advanced/spells/cloakOfWinds#_cloak-of-winds): Creates a screen of wind around you.
+- [**Daylight**](spells/daylight#_daylight): 60-ft. radius of bright light.
+- [**Dispel Magic**](spells/dispelMagic#_dispel-magic): Cancels one magical spell or effect.
+- [**Displacement**](spells/displacement#_displacement): Attacks miss subject 50% of the time.
+- [**Elemental Aura**](advanced/spells/elementalAura#_elemental-aura): Creates an aura of energy around you.
+- [**Fireball**](spells/fireball#_fireball): 1d6 fire damage per level, 20-ft. radius.
+- [**Flame Arrow**](spells/flameArrow#_flame-arrow): Arrows deal +1d6 fire damage.
+- [**Fire Trail**](advancedRaceGuide/featuredRaces/goblins#_fire-trail): Flammable liquid oozes from your pores, dripping onto the ground and spontaneously combusting.
+- [**Firestream**](advancedRaceGuide/featuredRaces/ifrits#_firestream): A rushing stream of fire sprays from your outstretched hand, dealing fire damage to every creature in the area.
+- [**Fly**](spells/fly): Subject flies at a speed of 60 ft.
+- [**Force Hook Charge**](ultimateMagic/spells/forceHookCharge#_force-hook-charge): Hook of force drags you to the target.
+- [**Force Punch**](ultimateMagic/spells/forcePunch#_force-punch): Target takes 1d4 force damage per level and is pushed away.
+- [**Gaseous Form**](spells/gaseousForm#_gaseous-form): Become insubstantial and fly slowly.
+- [**Gloomblind Bolts**](advancedRaceGuide/featuredRaces/fetchlings#_gloomblind-bolts): Create one or more bolts of negative energy infused with shadow pulled from the Shadow Plane.
+- [**Haste**](spells/haste#_haste): One creature/level moves faster, +1 on attack rolls, [AC](combat#_armor-class), and [Reflex](combat#_reflex) saves.
+- [**Hydraulic Torrent**](advanced/spells/hydraulicTorrent#_hydraulic-torrent-): Creates torrent of water that bull rushes any creature in its path.
+- [**Keen Edge**](spells/keenEdge#_keen-edge): Doubles normal weapon's threat range.
+- [**Lightning Bolt**](spells/lightningBolt#_lightning-bolt): Electricity deals 1d6/level damage.
+- [**Locate Weakness**](ultimateCombat/spells/locateWeakness#_locate-weakness): You roll damage twice when you roll damage for a critical hit and take the best damage.
+- [**Magic Weapon, Greater**](spells/magicWeapon#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
+- [**Major Image**](spells/majorImage#_major-image): As _ [silent image](spells/silentImage#_silent-image)_, plus sound, smell and thermal effects.
+- [**Monstrous Physique I**](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-i): Take the form and some of the powers of a Small or Medium monstrous humanoid.
+- [**Phantom Steed**](spells/phantomSteed#_phantom-steed): Magic horse appears for 1 hour/level.
+- [**Prehensile Pilfer**](advancedRaceGuide/uncommonRaces/vanaras#_prehensile-pilfer): The target's tail moves and acts more quickly, almost with a mind of its own.
+- [**Ray of Exhaustion**](spells/rayOfExhaustion#_ray-of-exhaustion): Ray makes subject [exhausted](glossary#_exhausted).
+- [**Resilient Reservoir**](advancedRaceGuide/coreRaces/halfElves#_resilient-reservoir): Creates a magical well of retribution that a caster can unleash with blinding speed.
+- [**Sickening Strikes**](advancedRaceGuide/featuredRaces/ratfolk#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
+- [**Sleet Storm**](spells/sleetStorm#_sleet-storm): Hampers vision and movement.
+- [**Slow**](spells/slow#_slow): One subject/level takes only one action/round, –1 to [AC](combat#_armor-class), [Reflex](combat#_reflex) saves, and attack rolls.
+- [**Stinking Cloud**](spells/stinkingCloud#_stinking-cloud): Nauseating vapors, 1 round/level.
+- [**Undead Anatomy I**](ultimateMagic/spells/undeadAnatomy#_undead-anatomy-i): Take the form and some of the powers of a Small or Medium undead.
+- [**Vampiric Touch**](spells/vampiricTouch#_vampiric-touch): Touch deals 1d6 damage/2 levels; caster gains damage as temporary hp.
+- [**Versatile Weapon**](advanced/spells/versatileWeapon#_versatile-weapon): Weapon bypasses some DR.
+- [**Vomit Twin**](advancedRaceGuide/featuredRaces/goblins#_vomit-twin): You vomit forth a disgusting ooze copy of yourself into a single adjacent square.
+- [**Water Breathing**](spells/waterBreathing#_water-breathing): Subjects can breathe underwater.
+- [**Wind Wall**](spells/windWall#_wind-wall): Deflects arrows, smaller creatures, gasses.
+
+- [**Arcana Theft**](ultimateMagic/spells/arcanaTheft#_arcana-theft): Targeted dispel transfers an effect to you.
+- [**Ball Lightning**](advanced/spells/ballLightning#_ball-lightning): Flying balls of lightning deal 3d6 electricity damage each.
+- [**Beast Shape II**](spells/beastShape#_beast-shape-ii): You take the form and some of the powers of a Tiny or Large animal.
+- [**Black Tentacles**](spells/blackTentacles#_black-tentacles): Tentacles grapple all creatures within a 20-ft. spread.
+- [**Detonate**](advanced/spells/detonate#_detonate)M: Inflicts 1d8/level energy damage to all creatures within 15 ft.
+- [**Dimension Door**](spells/dimensionDoor#_dimension-door): Teleports you a short distance.
+- [**Dragon's Breath**](advanced/spells/dragonSBreath#_dragon's-breath): Gives you a dragon's breath weapon.
+- [**Elemental Body I**](spells/elementalBody#_elemental-body-i): Turns you into a Small elemental.
+- [**Enlarge Person, Mass**](spells/enlargePerson#_enlarge-person-mass): 1 humanoid creature/level doubles in size.
+- [**Fire Shield**](spells/fireShield#_fire-shield): Creatures attacking you take fire damage; you're protected from heat or cold.
+- [**Firefall**](advanced/spells/firefall#_firefall): Causes fire to burst up, dealing 2d6 fire damage.
+- [**Ice Storm**](spells/iceStorm#_ice-storm): Hail deals 5d6 damage in area 40 ft. across.
+- [**Invisibility, Greater**](spells/invisibility#_invisibility-greater): As _ [invisibility](../spells/invisibility#_invisibility)_, but subject can attack and stay invisible.
+- [**Monstrous Physique II**](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-ii): Take the form and some of the powers of a Tiny or Large monstrous humanoid.
+- [**Paragon Surge**](advancedRaceGuide/coreRaces/halfElves#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
+- [**Pellet Blast**](ultimateCombat/spells/pelletBlast#_pellet-blast)M: Creates an explosion of conjured metal pellets. 
+- [**Phantasmal Killer**](spells/phantasmalKiller#_phantasmal-killer): Fearsome illusion kills subject or deals 3d6 damage.
+- [**Reduce Person, Mass**](spells/reducePerson#_reduce-person-mass): As _ [reduce person](spells/reducePerson#_reduce-person)_, but affects 1 humanoid creature/level.
+- [**River of Wind**](advanced/spells/riverOfWind#_river-of-wind): A stream of wind causes nonlethal damage and can knock down or push creatures.
+- [**Shout**](spells/shout#_shout): Deafens all within cone, 5d6 sonic damage.
+- [**Solid Fog**](spells/solidFog#_solid-fog): Blocks vision and slows movement.
+- [**Stoneskin**](spells/stoneskin#_stoneskin)M: Grants DR 10/adamantine.
+- [**Vermin Shape I**](ultimateMagic/spells/verminShape#_vermin-shape-i-): Take the form and some of the powers of a Small or Medium vermin.
+- [**Wall of Fire**](spells/wallOfFire#_wall-of-fire): 2d4 fire damage to 10 ft. and 1d4 to 20 ft. Passing through wall deals 2d6 damage +1/level.
+- [**Wall of Ice**](spells/wallOfIce#_wall-of-ice): Ice plane creates wall or hemisphere creates dome.
+- [**Wall of Sound**](ultimateMagic/spells/wallOfSound#_wall-of-sound): Sonic wall deflects and damages creatures.
+
+- [**Acidic Spray**](ultimateMagic/spells/acidicSpray#_acidic-spray): 1d6/level acid damage plus 1 round of acid.
+- [**Baleful Polymorph**](spells/balefulPolymorph#_baleful-polymorph): Turns subject into harmless animal.
+- [**Beast Shape III**](spells/beastShape#_beast-shape-iii): You take the form of a Diminutive or Huge animal, or Small or Medium magical beast.
+- [**Cloudkill**](spells/cloudkill#_cloudkill): Kills 3 HD or less; 4–6 HD save or die; 6+ HD take Con damage.
+- [**Cone of Cold**](spells/coneOfCold#_cone-of-cold): 1d6/level cold damage.
+- [**Corrosive Consumption**](ultimateMagic/spells/corrosiveConsumption#_corrosive-consumption): Acidic patch damages an opponent.
+- [**Elemental Body II**](spells/elementalBody#_elemental-body-ii): You become a Medium elemental.
+- [**Fire Snake**](advanced/spells/fireSnake#_fire-snake): Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.
+- [**Geyser**](advanced/spells/geyser#_geyser-): Creates a geyser of boiling water.
+- [**Interposing Hand**](spells/interposingHand#_interposing-hand): Hand provides cover against 1 opponent.
+- [**Monstrous Physique III**](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-iii): Take the form and some of the powers of a Diminutive or Huge monstrous humanoid.
+- [**Overland Flight**](spells/overlandFlight#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
+- [**Symbol of Striking**](ultimateCombat/spells/symbolOfStriking#_symbol-of-striking)M: As _ [symbol of death](spells/symbolOfDeath#_symbol-of-death)_, but fills a 5-foot square.
+- [**Telekinesis**](spells/telekinesis#_telekinesis): Moves object, attacks creature, or hurls object or creature.
+- [**Teleport**](spells/teleport#_teleport): Instantly transports you as far as 100 miles per level.
+- [**Undead Anatomy II**](ultimateMagic/spells/undeadAnatomy#_undead-anatomy-ii): Take the form and some of the powers of a Tiny or Large undead.
+- [**Vermin Shape II**](ultimateMagic/spells/verminShape#_vermin-shape-ii): As _vermin shape_, but Tiny or Large.
+- [**Wall of Force**](spells/wallOfForce#_wall-of-force): Wall is immune to damage.
+- [**Wall of Stone**](spells/wallOfStone#_wall-of-stone): Creates a stone wall that can be shaped.
+- [**Wind Blades**](advancedRaceGuide/featuredRaces/sylphs#_wind-blades): Harden the air around the target into jagged invisible blades.
+
+- [**Acid Fog**](spells/acidFog#_acid-fog): Fog deals acid damage.
+- [**Bear's Endurance, Mass**](spells/bearSEndurance#_bear-s-endurance-mass): As _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, affects one subject/level.
+- [**Beast Shape IV**](spells/beastShape#_beast-shape-iv): You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast.
+- [**Bull's Strength, Mass**](spells/bullSStrength#_bull-s-strength-mass): As _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, affects 1 subject per level.
+- [**Cat's Grace, Mass**](spells/catSGrace#_cat-s-grace-mass): As _ [cat's grace](spells/catSGrace#_cat-s-grace)_, affects 1 subject/level.
+- [**Chains of Fire**](advancedRaceGuide/featuredRaces/ifrits#_chains-of-fire): Functions like _chain lightning_, except deals fire damage.
+- [**Chain Lightning**](spells/chainLightning#_chain-lightning): 1d6/level damage, 1 more bolt/level.
+- [**Contagious Flame**](advanced/spells/contagiousFlame#_contagious-flame): Scorching rays cause 4d6 fire damage, then move on to new targets.
+- [**Disintegrate**](spells/disintegrate#_disintegrate): Reduces one creature or object to dust.
+- [**Elemental Body III**](spells/elementalBody#_elemental-body-iii): Turns you into a Large elemental.
+- [**Flesh to Stone**](spells/fleshToStone#_flesh-to-stone): Turns subject creature into statue.
+- [**Forceful Hand**](spells/forcefulHand#_forceful-hand): Hand pushes creatures away.
+- [**Form of the Dragon I**](spells/formOfTheDragon#_form-of-the-dragon-i): Turns you into a Medium dragon.
+- [**Freezing Sphere**](spells/freezingSphere#_freezing-sphere): Freezes water or deals cold damage.
+- [**Mislead**](spells/mislead#_mislead): Turns you [invisible](glossary#_invisible) and creates illusory double.
+- [**Monstrous Physique IV**](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-iv): As _ [monstrous physique III](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-iii)_, with more abilities.
+- [**Sirocco**](advanced/spells/sirocco#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
+- [**Stone to Flesh**](spells/stoneToFlesh#_stone-to-flesh): Restores petrified creature.
+- [**Transformation**](spells/transformation#_transformation)M: You gain combat bonuses.
+- [**True Seeing**](spells/trueSeeing#_true-seeing)M: Lets you see all things as they really are.
+- [**Undead Anatomy III**](ultimateMagic/spells/undeadAnatomy#_undead-anatomy-iii): Take the form and some of the powers of a Diminutive or Huge undead.
+- [**Walk through Space**](ultimateCombat/spells/walkThroughSpace#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
+- [**Wall of Iron**](spells/wallOfIron#_wall-of-iron)M: 30 hp/four levels; can topple onto foes.
+
+- [**Bless**](spells/bless#_bless): Allies gain +1 on attack rolls and saves against fear.
+- [**Bless Water**](spells/blessWater#_bless-water)M: Makes holy water.
+- [**Bless Weapon**](spells/blessWeapon#_bless-weapon): Weapon strikes true against evil foes.
+- [**Bowstaff**](ultimateCombat/spells/bowstaff#_bowstaff): A shortbow may double as a club, or a longbow as a quarterstaff.
+- [**Challenge Evil**](advanced/spells/challengeEvil#_challenge-evil): Sickens creature if it refuses to fight you.
+- [**Compel Hostility**](ultimateCombat/spells/compelHostility#_compel-hostility): Compels opponents to attack you instead of your allies.
+- [**Create Water**](spells/createWater#_create-water): Creates 2 gallons/level of pure water.
+- [**Cure Light Wounds**](spells/cureLightWounds#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
+- [**Detect Poison**](spells/detectPoison#_detect-poison): Detects poison in one creature or small object.
+- [**Detect Undead**](spells/detectUndead#_detect-undead): Reveals undead within 60 ft.
+- [**Diagnose Disease**](ultimateMagic/spells/diagnoseDisease#_diagnose-disease): Detect and identify diseases.
+- [**Divine Favor**](spells/divineFavor#_divine-favor): You gain +1 per three levels on attack and damage rolls.
+- [**Endure Elements**](spells/endureElements#_endure-elements): Exist comfortably in hot or cold regions.
+- [**Ghostbane Dirge**](advanced/spells/ghostbaneDirge#_ghostbane-dirge): Incorporeal creature takes half damage from nonmagical weapons.
+- [**Grace**](advanced/spells/grace#_grace): Movement doesn't provoke attacks of opportunity.
+- [**Hero's Defiance**](advanced/spells/heroSDefiance#_hero's-defiance): Allows the use of lay on hands while falling unconscious.
+- [**Honeyed Tongue**](advanced/spells/honeyedTongue#_honeyed-tongue): Roll 2 dice when using [Diplomacy](skills/diplomacy#_diplomacy), take higher roll.
+- [**Horn of Pursuit**](ultimateMagic/spells/hornOfPursuit#_horn-of-pursuit): Create three notes heard miles away.
+- [**Ironbeard**](advancedRaceGuide/coreRaces/dwarves#_ironbeard): Causes a brushy beard of stiff iron to erupt from the face of a willing target.
+- [**Knight's Calling**](advanced/spells/knightSCalling#_knight's-calling): Forces target to move toward you and fight you.
+- [**Know the Enemy**](ultimateMagic/spells/knowTheEnemy#_know-the-enemy): Gain +10 on a monster [Knowledge](/skills/knowledge#_knowledge) check.
+- [**Liberating Command**](ultimateCombat/spells/liberatingCommand#_liberating-command): Target makes an [Escape Artist](skills/escapeArtist#_escape-artist) check as an immediate action and gains a bonus on it.
+- [**Litany of Sloth**](ultimateCombat/spells/litanyOfSloth#_litany-of-sloth): Single target cannot make attacks of opportunity for 1 round.
+- [**Linebreaker**](advancedRaceGuide/coreRaces/halfOrcs#_linebreaker): You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun.
+- [**Longshot**](ultimateCombat/spells/longshot#_longshot): Grants a +10-foot bonus to the range increment for any ranged weapon fired.
+- [**Magic Weapon**](spells/magicWeapon#_magic-weapon): Weapon gains +1 bonus.
+- [**Protection from Chaos**](spells/protectionFromChaos#_protection-from-chaos): +2 to [AC](combat#_armor-class) and saves, plus additional protection against selected alignment.
+- [**Protection from Evil**](spells/protectionFromEvil#_protection-from-evil): +2 to [AC](combat#_armor-class) and saves, plus additional protection against selected alignment.
+- [**Rally Point**](advanced/spells/rallyPoint#_rally-point-): Square gives good creatures bonuses.
+- [**Read Magic**](spells/readMagic#_read-magic): Read scrolls and spellbooks.
+- [**Resistance**](spells/resistance#_resistance): Subject gains +1 on saving throws.
+- [**Restoration, Lesser**](spells/restoration#_restoration-lesser): Dispels magical ability penalty or repairs 1d4 ability damage.
+- [**Sanctify Corpse**](ultimateMagic/spells/sanctifyCorpse#_sanctify-corpse): Prevent a corpse from becoming an undead.
+- [**Sun Metal**](ultimateCombat/spells/sunMetal#_sun-metal): Weapon touched bursts into flames.
+- [**Tactical Acumen**](ultimateCombat/spells/tacticalAcumen#_tactical-acumen): You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
+- [**Veil of Heaven**](advancedRaceGuide/featuredRaces/aasimars#_veil-of-heaven): You surround yourself with a veil of positive energy, making it harder for evil outsiders to harm you.
+- [**Veil of Positive Energy**](advanced/spells/veilOfPositiveEnergy#_veil-of-positive-energy): +2 AC, +2 on saves vs. undead.
+- [**Virtue**](spells/virtue#_virtue): Subject gains 1 temporary hp.
+- [**Wartrain Mount**](ultimateMagic/spells/wartrainMount#_wartrain-mount): Animal gains the combat training general purpose.
+- [**Word of Resolve**](ultimateMagic/spells/wordOfResolve#_word-of-resolve): Ally rerolls a save against charm or fear.
+
+- [**Arrow of Law**](ultimateMagic/spells/arrowOfLaw#_arrow-of-law): Harm and possibly daze chaotic creatures.
+- [**Aura of Greater Courage**](advanced/spells/auraOfGreaterCourage#_aura-of-greater-courage): Increases strength of a paladin's aura of courage.
+- [**Bestow Grace**](advanced/spells/bestowGrace#_bestow-grace): Subject gains bonus on saving throws equal to Cha modifier.
+- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency#_bestow-weapon-proficiency): Grants a creature proficiency in a single weapon for short period of time.
+- [**Blessing of Courage and Life**](advanced/spells/blessingOfCourageAndLife#_blessing-of-courage-and-life): Grants a +2 bonus on saves vs. fear and death.
+- [**Blessing of Luck and Resolve**](advancedRaceGuide/coreRaces/halflings#_blessing-of-luck-and-resolve): Grants target a +2 morale bonus on saving throws against fear effects.
+- [**Blinding Ray**](advancedRaceGuide/featuredRaces/dhampirs#_blinding-ray): You blast your enemies with blinding rays of sunlight.
+- [**Bull's Strength**](spells/bullSStrength#_bull-s-strength): Subject gains +4 to [Str](gettingStarted#_strength) for 1 min./level.
+- [**Corruption Resistance**](advanced/spells/corruptionResistance#_corruption-resistance): Protects creature against damage from alignment-based attacks.
+- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk#_delay-disease): The target becomes temporarily immune to disease.
+- [**Delay Poison**](spells/delayPoison#_delay-poison): Stops poison from harming subject for 1 hour/level.
+- [**Divine Arrow**](ultimateCombat/spells/divineArrow#_divine-arrow): Imbues a projectile with holy energy.
+- [**Eagle's Splendor**](spells/eagleSSplendor#_eagle-s-splendor): Subject gains +4 to [Cha](gettingStarted#_charisma-new) for 1 min./level.
+- [**Effortless Armor**](ultimateCombat/spells/effortlessArmor#_effortless-armor): Armor you wear no longer slows your speed.
+- [**Endure Elements, Communal**](ultimateCombat/spells/endureElements#_endure-elements,-communal): As _ [endure elements](spells/endureElements#_endure-elements)_, but you may divide the duration among creatures touched.
+- [**Fire of Entanglement**](advanced/spells/fireOfEntanglement#_fire-of-entanglement): Your ability to smite evil also entangles your foe.
+- [**Holy Shield**](ultimateMagic/spells/holyShield#_holy-shield): Lend your shield's protection to another.
+- [**Instant Armor**](advanced/spells/instantArmor#_instant-armor-): Summon armor temporarily replacing your current attire.
+- [**Light Lance**](advanced/spells/lightLance#_light-lance-): Creates a soaring beacon of light.
+- [**Litany of Defense**](ultimateCombat/spells/litanyOfDefense#_litany-of-defense): Doubles armor's enhancement bonus.
+- [**Litany of Eloquence**](ultimateCombat/spells/litanyOfEloquence#_litany-of-eloquence): Fascinates a single creature for 1 round.
+- [**Litany of Entanglement**](ultimateCombat/spells/litanyOfEntanglement#_litany-of-entanglement): Entangles a creature for 1 round.
+- [**Litany of Righteousness**](ultimateCombat/spells/litanyOfRighteousness#_litany-of-righteousness): A single evil creature takes more damage from creatures with a good aura.
+- [**Litany of Warding**](ultimateCombat/spells/litanyOfWarding#_litany-of-warding): You gain two additional attacks of opportunity for 1 round.
+- [**Magic Siege Engine**](ultimateCombat/spells/magicSiegeEngine#_magic-siege-engine): Siege engine gains +1 on targeting and damage rolls.
+- [**Owl's Wisdom**](spells/owlSWisdom#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted#_wisdom) for 1 min./level.
+- [**Paladin's Sacrifice**](advanced/spells/paladinSSacrifice#_paladin's-sacrifice): Take the damage and effects for another creature.
+- [**Protection from Chaos, Communal**](ultimateCombat/spells/protectionFromChaos#_protection-from-chaos,-communal): As _ [protection from chaos](spells/protectionFromChaos#_protection-from-chaos)_, but you may divide the duration among creatures touched.
+- [**Protection from Evil, Communal**](ultimateCombat/spells/protectionFromEvil#_protection-from-evil,-communal): As _ [protection from evil](spells/protectionFromEvil#_protection-from-evil)_, but you may divide the duration among creatures touched.
+- [**Remove Paralysis**](spells/removeParalysis#_remove-paralysis): Frees one or more creatures from paralysis or [slow](spells/slow#_slow) effect.
+- [**Resist Energy**](spells/resistEnergy#_resist-energy): Ignores 10 or more points of damage per attack from specified energy type.
+- [**Righteous Vigor**](advanced/spells/righteousVigor#_righteous-vigor): Boosts attack bonus with each hit.
+- [**Sacred Bond**](advanced/spells/sacredBond#_sacred-bond)F: Cast touch healing spells from a distance.
+- [**Sacred Space**](advancedRaceGuide/featuredRaces/aasimars#_sacred-space): Sanctifies an area with heavenly power.
+- [**Saddle Surge**](advanced/spells/saddleSurge#_saddle-surge-): Bonus damage for moving on mount.
+- [**Shield Other**](spells/shieldOther#_shield-other)F: You take half of subject's damage.
+- [**Undetectable Alignment**](spells/undetectableAlignment#_undetectable-alignment): Conceals alignment from magical detection for 24 hours.
+- [**Vestment of the Champion**](ultimateMagic/spells/vestmentOfTheChampion#_vestment-of-the-champion): Armor or shield gains a +1 enhancement per four levels.
+- [**Wake of Light**](advanced/spells/wakeOfLight#_wake-of-light-): Magical trail aids good creatures, hinders evil ones.
+- [**Weapon of Awe**](advanced/spells/weaponOfAwe#_weapon-of-awe): Weapon gets +2 on damage rolls.
+- [**Zone of Truth**](spells/zoneOfTruth#_zone-of-truth): Subjects within range cannot lie.
+
+- [**Archon's Aura**](ultimateMagic/spells/archonSAura#_archon's-aura): Aura penalizes enemy attacks and AC.
+- [**Blade of Bright Victory**](ultimateMagic/spells/bladeOfBrightVictory#_blade-of-bright-victory): Bonded weapon gains _ [ghost touch](/magicItems/weapons#_weapons-ghost-touch)_.
+- [**Blessing of the Mole**](ultimateMagic/spells/blessingOfTheMole#_blessing-of-the-mole): 1 ally/level gains darkvision and a +2 [Stealth](/skills/stealth#_stealth) bonus.
+- [**Burst of Speed**](ultimateCombat/spells/burstOfSpeed#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
+- [**Cure Moderate Wounds**](spells/cureModerateWounds#_cure-moderate-wounds): Cures 2d8 damage +1/level (max. +10).
+- [**Daybreak Arrow**](ultimateCombat/spells/daybreakArrow#_daybreak-arrow): Targeted ammunition exudes radiant energy.
+- [**Daylight**](spells/daylight#_daylight): 60-ft. radius of bright light.
+- [**Deadly Juggernaut**](ultimateCombat/spells/deadlyJuggernaut#_deadly-juggernaut): Your might increases with every kill you make.
+- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison#_delay-poison,-communal): As _ [delay poison](spells/delayPoison#_delay-poison)_, but you may divide the duration among creatures touched.
+- [**Discern Lies**](spells/discernLies#_discern-lies): Reveals deliberate falsehoods.
+- [**Dispel Magic**](spells/dispelMagic#_dispel-magic): Cancels one magical spell or effect.
+- [**Divine Transfer**](advanced/spells/divineTransfer#_divine-transfer): Transfer hit points and give DR/evil to target creature.
+- [**Fire of Judgment**](advanced/spells/fireOfJudgment#_fire-of-judgment): Smited creature takes damage when it attacks.
+- [**Ghostbane Dirge, Mass**](advanced/spells/ghostbaneDirge#_ghostbane-dirge,-mass): As _ [ghostbane dirge](advanced/spells/ghostbaneDirge#_ghostbane-dirge)_, but affects multiple creatures.
+- [**Heal Mount**](spells/healMount#_heal-mount): As _ [heal](spells/heal#_heal) _on horse or other special mount.
+- [**Holy Whisper**](advanced/spells/holyWhisper#_holy-whisper): Whisper sickens evil creatures, gives good creatures bonuses.
+- [**Litany of Escape**](ultimateCombat/spells/litanyOfEscape#_litany-of-escape): Teleports a friend out of a grapple.
+- [**Litany of Sight**](ultimateCombat/spells/litanyOfSight#_litany-of-sight): You can see invisible creatures and objects within 30 feet of you.
+- [**Magic Circle against Chaos/Evil**](spells/magicCircleAgainstEvil#_magic-circle-against-evil): As _ [protection from chaos](spells/protectionFromChaos#_protection-from-chaos)_, but 10-ft. radius and 10 min./level.
+- [**Magic Weapon, Greater**](spells/magicWeapon#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
+- [**Marks of Forbiddance**](advanced/spells/marksOfForbiddance#_marks-of-forbiddance): Makes 2 creatures pass Will saves in order to attack each other.
+- [**Prayer**](spells/prayer#_prayer): Allies get +1 bonus on most rolls, enemies –1 penalty.
+- [**Remove Blindness/Deafness**](spells/removeBlindnessDeafness#_remove-blindness-deafness): Cures normal or magical blindness or deafness.
+- [**Remove Curse**](spells/removeCurse#_remove-curse): Frees object or person from curse.
+- [**Resilient Reservoir**](advancedRaceGuide/coreRaces/halfElves#_resilient-reservoir): Creates a magical well of retribution that a caster can unleash with blinding speed.
+- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy#_resist-energy)_, but you may divide the duration among creatures touched.
+- [**Sanctify Armor**](advanced/spells/sanctifyArmor#_sanctify-armor): +1 AC/four levels (max +5).
+- [**Wrathful Mantle**](advanced/spells/wrathfulMantle#_wrathful-mantle): Subject shines and gets +1/four levels on all saves.
+
+- [**Bestow Grace of the Champion**](ultimateMagic/spells/bestowGraceOfTheChampion#_bestow-grace-of-the-champion): Target gains paladin abilities for 1 round/level.
+- [**Blaze of Glory**](advanced/spells/blazeOfGlory#_blaze-of-glory-): Last stand cures good creatures, hurts evil.
+- [**Blessing of Luck and Resolve, Mass**](advancedRaceGuide/coreRaces/halflings#_blessing-of-luck-and-resolve,-mass): Functions like _blessing of luck and resolve_, except that it affects multiple creatures.
+- [**Break Enchantment**](spells/breakEnchantment#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
+- [**Cure Serious Wounds**](spells/cureSeriousWounds#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
+- [**Death Ward**](spells/deathWard#_death-ward): Grants bonuses against death spells and negative energy.
+- [**Dispel Chaos**](spells/dispelChaos#_dispel-chaos): +4 bonus against attacks by chaotic creatures.
+- [**Dispel Evil**](spells/dispelEvil#_dispel-evil): +4 bonus against attacks by evil creatures.
+- [**Fire of Vengeance**](advanced/spells/fireOfVengeance#_fire-of-vengeance): Smited creature takes 3d8 damage.
+- [**Forced Repentance**](advanced/spells/forcedRepentance#_forced-repentance): Target falls prone and confesses sins.
+- [**Holy Sword**](spells/holySword#_holy-sword): Weapon becomes +5, deals +2d6 damage against evil.
+- [**King's Castle**](advanced/spells/kingSCastle#_king's-castle): Instantly switch places with a single ally.
+- [**Litany of Thunder**](ultimateCombat/spells/litanyOfThunder#_litany-of-thunder): A single target is deafened until the condition is removed, and is confused for 1 round.
+- [**Litany of Vengeance**](ultimateCombat/spells/litanyOfVengeance#_litany-of-vengeance): Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.
+- [**Magic Siege Engine, Greater**](ultimateCombat/spells/magicSiegeEngine#_magic-siege-engine,-greater): Siege engine gains +1 on targeting and damage rolls for every four caster levels.
+- [**Mark of Justice**](spells/markOfJustice#_mark-of-justice): Designates action that triggers _curse _on subject.
+- [**Neutralize Poison**](spells/neutralizePoison#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
+- [**Oath of Peace**](advanced/spells/oathOfPeace#_oath-of-peace): Grants +5 AC and DR 10/evil, can't attack.
+- [**Paragon Surge**](advancedRaceGuide/coreRaces/halfElves#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
+- [**Raise Animal Companion**](ultimateMagic/spells/raiseAnimalCompanion#_raise-animal-companion): As _ [raise dead](/spells/raiseDead#_raise-dead)_, but on an animal.
+- [**Reprobation**](ultimateMagic/spells/reprobation#_reprobation): Marked target is shunned by your religion.
+- [**Resounding Blow**](advanced/spells/resoundingBlow#_resounding-blow): Melee attack deals 1d6 more damage.
+- [**Restoration**](spells/restoration#_restoration)M: Restores level and ability score drains.
+- [**Sacrificial Oath**](advanced/spells/sacrificialOath#_sacrificial-oath): Take damage for an ally for many rounds.
+- [**Stay the Hand**](advanced/spells/stayTheHand#_stay-the-hand): Subject cannot attack with melee weapon.
+- [**Symbol of Healing**](ultimateMagic/spells/symbolOfHealing#_symbol-of-healing): Triggered rune heals living creatures.
+
+- [**Abundant Ammunition**](ultimateCombat/spells/abundantAmmunition#_abundant-ammunition): Replaces nonmagical ammunition every round.
+- [**Air Bubble**](ultimateCombat/spells/airBubble#_air-bubble): Creates a small pocket of air around your head or an object.
+- [**Alarm**](spells/alarm#_alarm): Wards an area for 2 hours/level.
+- [**Animal Messenger**](spells/animalMessenger#_animal-messenger): Sends a Tiny animal to a specific place.
+- [**Ant Haul**](advanced/spells/antHaul#_ant-haul-): Triples carrying capacity of a creature.
+- [**Anticipate Peril**](ultimateMagic/spells/anticipatePeril#_anticipate-peril): Target gains a bonus on one initiative check.
+- [**Aspect of the Falcon**](advanced/spells/aspectOfTheFalcon#_aspect-of-the-falcon): Gives bonuses on [Perception](skills/perception#_perception) and ranged attacks.
+- [**Blend**](advancedRaceGuide/coreRaces/elves#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
+- [**Bowstaff**](ultimateCombat/spells/bowstaff#_bowstaff): A shortbow may double as a club, or a longbow as a quarterstaff.
+- [**Call Animal**](advanced/spells/callAnimal#_call-animal): Makes an animal come to you.
+- [**Calm Animals**](spells/calmAnimals#_calm-animals): Calms 2d4 + level HD of animals.
+- [**Charm Animal**](spells/charmAnimal#_charm-animal): Makes one animal your friend.
+- [**Cloak of Shade**](advanced/spells/cloakOfShade#_cloak-of-shade): Reduces effects of intense sun exposure and environmental heat.
+- [**Commune with Birds**](advancedRaceGuide/featuredRaces/tengus#_commune-with-birds): You can understand the responses given by birds.
+- [**Compel Hostility**](ultimateCombat/spells/compelHostility#_compel-hostility): Compels opponents to attack you instead of your allies.
+- [**Dancing Lantern**](advanced/spells/dancingLantern#_dancing-lantern-): Animates a lantern that follows you.
+- [**Deadeye's Lore**](ultimateCombat/spells/deadeyeSLore#_deadeye's-lore): Gain a +4 bonus on [Survival](skills/survival#_survival) and move full speed while tracking.
+- [**Delay Poison**](spells/delayPoison#_delay-poison): Stops poison from harming subject for 1 hour/level.
+- [**Detect Aberration**](advanced/spells/detectAberration#_detect-aberration): Detect presence of aberrations.
+- [**Detect Animals or Plants**](spells/detectAnimalsOrPlants#_detect-animals-or-plants): Detects kinds of animals or plants.
+- [**Detect Poison**](spells/detectPoison#_detect-poison): Detects poison in one creature or object.
+- [**Detect Snares and Pits**](spells/detectSnaresAndPits#_detect-snares-and-pits): Reveals natural or primitive traps.
+- [**Diagnose Disease**](ultimateMagic/spells/diagnoseDisease#_diagnose-disease): Detect and identify diseases.
+- [**Endure Elements**](spells/endureElements#_endure-elements): Exist comfortably in hot or cold regions.
+- [**Entangle**](spells/entangle#_entangle): Plants entangle everyone in 40-ft. radius.
+- [**Feather Step**](advanced/spells/featherStep#_feather-step): Subject ignores adverse movement effects in difficult terrain.
+- [**Glide**](advanced/spells/glide#_glide-): No fall damage, move 60 ft./round while falling.
+- [**Gravity Bow**](advanced/spells/gravityBow#_gravity-bow-): Arrows do damage as though one size category bigger.
+- [**Hide from Animals**](spells/hideFromAnimals#_hide-from-animals): Animals can't perceive one subject/level.
+- [**Horn of Pursuit**](ultimateMagic/spells/hornOfPursuit#_horn-of-pursuit): Create three notes heard miles away.
+- [**Hunter's Howl**](advanced/spells/hunterSHowl#_hunter's-howl): Treat enemies as favored for 1 round/level.
+- [**Ironbeard**](advancedRaceGuide/coreRaces/dwarves#_ironbeard): Causes a brushy beard of stiff iron to erupt from the face of a willing target.
+- [**Jump**](spells/jump#_jump): Subject gets bonus on Acrobatics checks.
+- [**Keen Senses**](advanced/spells/keenSenses#_keen-senses): Subject gains +2 [Perception](skills/perception#_perception), low-light vision.
+- [**Know the Enemy**](ultimateMagic/spells/knowTheEnemy#_know-the-enemy): Gain +10 on a monster [Knowledge](/skills/knowledge#_knowledge) check.
+- [**Lead Blades**](advanced/spells/leadBlades#_lead-blades-): Melee weapons damage as if one size bigger.
+- [**Liberating Command**](ultimateCombat/spells/liberatingCommand#_liberating-command): Target makes an [Escape Artist](skills/escapeArtist#_escape-artist) check as an immediate action and gains a bonus on it.
+- [**Linebreaker**](advancedRaceGuide/coreRaces/halfOrcs#_linebreaker): You gain a +20 foot bonus to your base speed when charging and a +2 bonus on combat maneuver checks made to bull rush or overrun.
+- [**Longshot**](ultimateCombat/spells/longshot#_longshot): Grants a +10-foot bonus to the range increment for any ranged weapon fired.
+- [**Longstrider**](spells/longstrider#_longstrider): Your base speed increases by 10 ft.
+- [**Magic Fang**](spells/magicFang#_magic-fang): One natural weapon of subject creature gets +1 on attack and damage rolls.
+- [**Marid's Mastery**](advancedRaceGuide/featuredRaces/undines#_marid's-mastery): Target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water.
+- [**Negate Aroma**](advanced/spells/negateAroma#_negate-aroma): Subject cannot be tracked by scent.
+- [**Pass without Trace**](spells/passWithoutTrace#_pass-without-trace): One subject/level leaves no tracks.
+- [**Read Magic**](spells/readMagic#_read-magic): Read scrolls and spellbooks.
+- [**Residual Tracking**](advanced/spells/residualTracking#_residual-tracking): Tell creature's appearance by footprint.
+- [**Resist Energy**](spells/resistEnergy#_resist-energy): Ignores 10 (or more) points of damage/attack from specified energy type.
+- [**Returning Weapon**](ultimateCombat/spells/returningWeapon#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons#_weapons-returning)_ special weapon quality.
+- [**Savage Maw**](advancedRaceGuide/coreRaces/halfOrcs#_savage-maw): Your teeth extend and sharpen, transforming your mouth into a maw of razor-sharp fangs.
+- [**Speak with Animals**](spells/speakWithAnimals#_speak-with-animals): You can communicate with animals.
+- [**Strong Wings**](advancedRaceGuide/uncommonRaces/strix#_strong-wings): The target's wings grow more powerful, increases fly speed by +10 feet and its maneuverability to improve by one category.
+- [**Summon Minor Ally**](ultimateMagic/spells/summonMinorAlly#_summon-minor-ally): Summon 1d3 Tiny animals.
+- [**Summon Nature's Ally I**](spells/summonNatureSAlly#_summon-nature-s-ally-i): Summons creature to fight for you.
+- [**Sun Metal**](ultimateCombat/spells/sunMetal#_sun-metal): Weapon touched bursts into flames.
+- [**Tireless Pursuit**](advanced/spells/tirelessPursuit#_tireless-pursuit): Ignore fatigue while hustling.
+- [**Urban Grace**](advancedRaceGuide/coreRaces/halfElves#_urban-grace): You become one with the city around you, allowing you to move more easily through its crowds and buildings.
+- [**Wartrain Mount**](ultimateMagic/spells/wartrainMount#_wartrain-mount): Animal gains combat training.
+- [**Whispering Lore**](advancedRaceGuide/coreRaces/elves#_whispering-lore): You are able to gain knowledge from the land itself.
+- [**Winter Feathers**](advancedRaceGuide/featuredRaces/tengus#_winter-feathers): Target's feathers thicken and fluff up to ward against winter's chill.
+
+- [**Accelerate Poison**](advanced/spells/acceleratePoison#_accelerate-poison): Hastens targeted poison's onset.
+- [**Acute Senses**](ultimateMagic/spells/acuteSenses#_acute-senses): Subject gains a bonus on [Perception](/skills/perception#_perception) checks.
+- [**Allfood**](advanced/spells/allfood#_allfood-): Turns item up to 5 lbs./level into food.
+- [**Animal Aspect**](ultimateCombat/spells/animalAspect#_animal-aspect): You gain some of the beneficial qualities of an animal.
+- [**Ant Haul, Communal**](ultimateCombat/spells/antHaul#_ant-haul,-communal): As _ [ant haul](advanced/spells/antHaul#_ant-haul-)_, but you may divide the duration among creatures touched.
+- [**Arrow Eruption**](advanced/spells/arrowEruption#_arrow-eruption-): Creates duplicates of an arrow used to kill a creature in the previous round.
+- [**Aspect of the Bear**](advanced/spells/aspectOfTheBear#_aspect-of-the-bear): +2 AC and combat maneuver rolls.
+- [**Badger's Ferocity**](ultimateMagic/spells/badgerSFerocity#_badger's-ferocity): Weapons are _ [keen](/magicItems/weapons#_weapons-keen)_ while you concentrate.
+- [**Barkskin**](spells/barkskin#_barkskin): Grants +2 (or higher) enhancement to natural armor.
+- [**Bear's Endurance**](spells/bearSEndurance#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted#_constitution) for 1 min./level.
+- [**Bloodhound**](advanced/spells/bloodhound#_bloodhound): Gives caster the scent special ability.
+- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
+- [**Brow Gasher**](ultimateCombat/spells/browGasher#_brow-gasher): Slashing weapon deals bleed damage to an opponent's head.
+- [**Campfire Wall**](advanced/spells/campfireWall#_campfire-wall-): Creates a shelter around a campfire.
+- [**Cat's Grace**](spells/catSGrace#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted#_dexterity) for 1 min./level.
+- [**Chameleon Stride**](advanced/spells/chameleonStride#_chameleon-stride): Gives a +4 bonus on [Stealth](skills/stealth#_stealth) checks and concealment.
+- [**Create Treasure Map**](advanced/spells/createTreasureMap#_create-treasure-map-)M: Creates treasure map out of a creature's corpse.
+- [**Cure Light Wounds**](spells/cureLightWounds#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
+- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk#_delay-disease): The target becomes temporarily immune to disease.
+- [**Eagle Eye**](advanced/spells/eagleEye#_eagle-eye): Creates a magical sensor high above you.
+- [**Effortless Armor**](ultimateCombat/spells/effortlessArmor#_effortless-armor): Armor you wear no longer slows your speed.
+- [**Endure Elements, Communal**](ultimateCombat/spells/endureElements#_endure-elements,-communal): As _ [endure elements](spells/endureElements#_endure-elements)_, but you may divide the duration among creatures touched.
+- [**Escaping Ward**](advancedRaceGuide/coreRaces/halflings#_escaping-ward): Grants extra maneuverability when you avoid attacks against larger foes.
+- [**Forest Friend**](ultimateCombat/spells/forestFriend#_forest-friend-): Plants in a forested area become helpful instead of hindering you and your allies.
+- [**Groundswell**](advancedRaceGuide/coreRaces/dwarves#_groundswell): Allows the target to cause the ground to rise up beneath him.
+- [**Guiding Star**](advanced/spells/guidingStar#_guiding-star-): Know approximate distance from where you cast this spell.
+- [**Hide Campsite**](advanced/spells/hideCampsite#_hide-campsite): Hides all traces of your campsite.
+- [**Hold Animal**](spells/holdAnimal#_hold-animal): Paralyzes one animal for 1 round/level.
+- [**Hunter's Eye**](advanced/spells/hunterSEye#_hunter's-eye): +20 on [Perception](skills/perception#_perception) checks to locate a target.
+- [**Improve Trap**](advancedRaceGuide/featuredRaces/kobolds#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
+- [**Locate Weakness**](ultimateCombat/spells/locateWeakness#_locate-weakness): You roll damage twice when you roll damage for a critical hit and take the best damage.
+- [**Lockjaw**](advanced/spells/lockjaw#_lockjaw): Gives creature grab ability with a natural attack.
+- [**Owl's Wisdom**](spells/owlSWisdom#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted#_wisdom) for 1 min./level.
+- [**Perceive Cues**](advanced/spells/perceiveCues#_perceive-cues): +5 [Perception](skills/perception#_perception) and [Sense Motive](../skills/senseMotive#_sense-motive) 10 min./level.
+- [**Protection from Energy**](spells/protectionFromEnergy#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
+- [**Protective Spirit**](advanced/spells/protectiveSpirit#_protective-spirit): Protects from attacks of opportunity.
+- [**Reloading Hands**](ultimateCombat/spells/reloadingHands#_reloading-hands): Loads a single shot into your weapon every round.
+- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon#_returning-weapon)_, but you may divide the duration among weapons touched.
+- [**Ricochet Shot**](ultimateCombat/spells/ricochetShot#_ricochet-shot): Imbues a projectile weapon to give its ammunition the ability to ricochet. 
+- [**Slipstream**](advanced/spells/slipstream#_slipstream): Wave boosts creature's speed.
+- [**Snare**](spells/snare#_snare): Creates a magic booby trap.
+- [**Speak with Plants**](spells/speakWithPlants#_speak-with-plants): You can talk to plants and plant creatures.
+- [**Spike Growth**](spells/spikeGrowth#_spike-growth): Creatures in area take 1d4 damage, may be slowed_._
+- [**Stone Call**](advanced/spells/stoneCall#_stone-call): 2d6 damage to all creatures in area.
+- [**Summon Nature's Ally II**](spells/summonNatureSAlly#_summon-nature-s-ally-ii): Summons creature to fight for you.
+- [**Versatile Weapon**](advanced/spells/versatileWeapon#_versatile-weapon): Weapon bypasses some DR.
+- [**Web Shelter**](ultimateMagic/spells/webShelter#_web-shelter): Create a comfortable shelter made of webbing.
+- [**Wilderness Soldiers**](ultimateCombat/spells/wildernessSoldiers#_wilderness-soldiers): Nearby plants aid you in combat.
+- [**Wind Wall**](spells/windWall#_wind-wall): Deflects arrows, smaller creatures, and gases.
+
+- [**Animal Aspect, Greater**](ultimateCombat/spells/animalAspect#_animal-aspect,-greater): As _ [animal aspect](ultimateCombat/spells/animalAspect#_animal-aspect)_, but you gain two animal qualities.
+- [**Aspect of the Stag**](advanced/spells/aspectOfTheStag#_aspect-of-the-stag): +2 AC against attacks of opportunity and increases speed.
+- [**Battle Trance**](advancedRaceGuide/coreRaces/halfOrcs#_battle-trance): You are transformed into a single-minded force of destruction.
+- [**Blessing of the Mole**](ultimateMagic/spells/blessingOfTheMole#_blessing-of-the-mole): 1 ally/level gains darkvision and a +2 [Stealth](/skills/stealth#_stealth) bonus.
+- [**Bloody Claws**](advanced/spells/bloodyClaws#_bloody-claws): Gives creature the ability to deal bleed damage with natural attacks.
+- [**Burrow**](ultimateMagic/spells/burrow#_burrow): Target gains a burrow speed of 15.
+- [**Burst of Speed**](ultimateCombat/spells/burstOfSpeed#_burst-of-speed): You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.
+- [**Cloak of Winds**](advanced/spells/cloakOfWinds#_cloak-of-winds): Creates a whirling screen of strong wind around you.
+- [**Command Plants**](spells/commandPlants#_command-plants): Sway the actions of plant creatures.
+- [**Companion Mind Link**](ultimateCombat/spells/companionMindLink#_companion-mind-link): You can talk with your animal companion, and can handle it with supernatural ease.
+- [**Cure Moderate Wounds**](spells/cureModerateWounds#_cure-moderate-wounds): Cures 2d8 damage +1/level (max. +10).
+- [**Darkvision**](spells/darkvision#_darkvision): See 60 ft. in total darkness.
+- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison#_delay-poison,-communal): As _ [delay poison](spells/delayPoison#_delay-poison)_, but you may divide the duration among creatures touched.
+- [**Diminish Plants**](spells/diminishPlants#_diminish-plants): Reduces size or blights growth of normal plants.
+- [**Feather Step, Mass**](advanced/spells/featherStep#_feather-step,-mass): As _ [feather step](advanced/spells/featherStep#_feather-step)_, but affects many targets rather than one.
+- [**Fickle Winds**](ultimateMagic/spells/fickleWinds#_fickle-winds): Wind walls selectively block attacks.
+- [**Instant Enemy**](advanced/spells/instantEnemy#_instant-enemy): Target is treated as a favored enemy type of your choice.
+- [**Life Bubble**](advanced/spells/lifeBubble#_life-bubble-): Protects creatures from sustained environmental effects.
+- [**Magic Fang, Greater**](spells/magicFang#_magic-fang-greater): One natural weapon gets + 1/four levels (max. +5).
+- [**Named Bullet**](ultimateCombat/spells/namedBullet#_named-bullet): Imbues ammunition with accuracy against a specific creature type.
+- [**Neutralize Poison**](spells/neutralizePoison#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
+- [**Plant Growth**](spells/plantGrowth#_plant-growth): Grows vegetation, improves crops.
+- [**Protection from Energy, Communal**](ultimateCombat/spells/protectionFromEnergy#_protection-from-energy,-communal): As _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, but you may divide the duration among creatures touched.
+- [**Reduce Animal**](spells/reduceAnimal#_reduce-animal): Shrinks one willing animal.
+- [**Remove Disease**](spells/removeDisease#_remove-disease): Cures all diseases affecting subject.
+- [**Repel Vermin**](spells/repelVermin#_repel-vermin): Insects, spiders, and other vermin stay 10 ft. away.
+- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy#_resist-energy)_, but you may divide the duration among creatures touched.
+- [**Strong Jaw**](advanced/spells/strongJaw#_strong-jaw): Natural attacks damage as two sizes bigger.
+- [**Summon Nature's Ally III**](spells/summonNatureSAlly#_summon-nature-s-ally-iii): Summons creature to fight for you.
+- [**Tireless Pursuers**](advanced/spells/tirelessPursuers#_tireless-pursuers): As _ [tireless pursuit](advanced/spells/tirelessPursuit#_tireless-pursuit)_, but affects many targets rather than one.
+- [**Tree Shape**](spells/treeShape#_tree-shape): You look exactly like a tree for 1 hour/level.
+- [**Venomous Bolt**](advanced/spells/venomousBolt#_venomous-bolt): Arrow or bolt poisons target.
+- [**Ward of the Season**](advancedRaceGuide/coreRaces/elves#_ward-of-the-season): Harnesses the power of the seasons to protect the target and grant a number of bonuses.
+- [**Water Walk**](spells/waterWalk#_water-walk): Subject treads on water as if solid.
+
+- [**Animal Growth**](spells/animalGrowth#_animal-growth): One animal doubles in size.
+- [**Aspect of the Wolf**](advanced/spells/aspectOfTheWolf#_aspect-of-the-wolf): Subject gains +4 Str and Dex, and +2 bonus on trip attacks.
+- [**Blessing of the Salamander**](advanced/spells/blessingOfTheSalamander#_blessing-of-the-salamander): Subject gets fast healing 2, fire resistance 10, +2 CMD.
+- [**Bow Spirit**](advanced/spells/bowSpirit#_bow-spirit): Summons an invisible spirit that fires your arrows for you as a swift action.
+- [**Commune with Nature**](spells/communeWithNature#_commune-with-nature): Learn about terrain for 1 mile/level.
+- [**Commune with Nature**](spells/communeWithNature#_commune-with-nature)
+- [**Cure Serious Wounds**](spells/cureSeriousWounds#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
+- [**Darkvision, Communal**](ultimateCombat/spells/darkvision#_darkvision,-communal): As _ [darkvision](spells/darkvision#_darkvision)_, but you may divide the duration among creatures touched.
+- [**Darkvision, Greater**](ultimateMagic/spells/darkvision#_darkvision,-greater): See 120 ft. in total darkness.
+- [**Find Quarry**](ultimateCombat/spells/findQuarry#_find-quarry): You can sense whether a particular creature is within 20 miles of your location.
+- [**Freedom of Movement**](spells/freedomOfMovement#_freedom-of-movement): Subject moves normally despite impediments to movement.
+- [**Grove of Respite**](advanced/spells/groveOfRespite#_grove-of-respite): Creates trees and a small spring.
+- [**Named Bullet, Greater**](ultimateCombat/spells/namedBullet#_named-bullet,-greater): As _ [named bullet](ultimateCombat/spells/namedBullet#_named-bullet)_, but deals 2 points of damage per caster level.
+- [**Nondetection**](spells/nondetection#_nondetection)M: Hides subject from divination, [scrying](spells/scrying#_scrying).
+- [**Raise Animal Companion**](ultimateMagic/spells/raiseAnimalCompanion#_raise-animal-companion): As _ [raise dead](/spells/raiseDead#_raise-dead)_, but on an animal.
+- [**Sickening Strikes**](advancedRaceGuide/featuredRaces/ratfolk#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
+- [**Summon Nature's Ally IV**](spells/summonNatureSAlly#_summon-nature-s-ally-iv): Summons creature to fight for you.
+- [**Terrain Bond**](ultimateCombat/spells/terrainBond#_terrain-bond): Treat the terrain you are in as a favored terrain for the spell's duration.
+- [**Tree Stride**](spells/treeStride#_tree-stride): Step from one tree to another far away.
+- [**Water Walk, Communal**](ultimateCombat/spells/waterWalk#_water-walk,-communal): As _ [water walk](spells/waterWalk#_water-walk)_, but you may divide the duration among creatures touched.
+
+- [**Acid Splash**](spells/acidSplash#_acid-splash): Orb deals 1d3 acid damage.
+- [**Arcane Mark**](spells/arcaneMark#_arcane-mark): Inscribes a personal rune on an object or creature (visible or invisible).
+- [**Bleed**](spells/bleed#_bleed): Cause a stabilized creature to resume [dying](glossary#_dying).
+- [**Dancing Lights**](spells/dancingLights#_dancing-lights): Creates torches or other lights.
+- [**Daze**](spells/daze#_daze): A single humanoid creature with 4 HD or less loses its next action.
+- [**Detect Magic**](spells/detectMagic#_detect-magic): Detects all spells and magic items within 60 ft.
+- [**Detect Poison**](spells/detectPoison#_detect-poison): Detects poison in one creature or small object.
+- [**Disrupt Undead**](spells/disruptUndead#_disrupt-undead): Deals 1d6 damage to one undead.
+- [**Flare**](spells/flare#_flare): Dazzles one creature (–1 on attack rolls).
+- [**Ghost Sound**](spells/ghostSound#_ghost-sound): Figment sounds.
+- [**Haunted Fey Aspect**](ultimateCombat/spells/hauntedFeyAspect#_haunted-fey-aspect): You surround yourself with disturbing illusions. 
+- [**Light**](spells/light#_light): Object shines like a torch.
+- [**Mage Hand**](spells/mageHand#_mage-hand): 5-pound telekinesis.
+- [**Mending**](spells/mending#_mending): Makes minor repairs on an object.
+- [**Message**](spells/message#_message): Whisper conversation at distance.
+- [**Open/Close**](spells/openClose#_open-close): Opens or closes small or light things.
+- [**Prestidigitation**](spells/prestidigitation#_prestidigitation): Performs minor tricks.
+- [**Ray of Frost**](spells/rayOfFrost#_ray-of-frost): Ray deals 1d3 cold damage.
+- [**Read Magic**](spells/readMagic#_read-magic): Read scrolls and spellbooks.
+- [**Resistance**](spells/resistance#_resistance): Subject gains +1 on saving throws.
+- [**Spark**](advanced/spells/spark#_spark-): Ignites flammable objects.
+- [**Touch of Fatigue**](spells/touchOfFatigue#_touch-of-fatigue): Touch attack fatigues target.
+
+- [**Abundant Ammunition**](ultimateCombat/spells/abundantAmmunition#_abundant-ammunition): Replaces nonmagical ammunition every round.
+- [**Adjuring Step**](ultimateCombat/spells/adjuringStep#_adjuring-step-): You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell. 
+- [**Air Bubble**](ultimateCombat/spells/airBubble#_air-bubble): Creates a small pocket of air around your head or an object.
+- [**Alarm**](spells/alarm#_alarm): Wards an area for 2 hours/level.
+- [**Alchemical Tinkering**](advancedRaceGuide/featuredRaces/ratfolk#_alchemical-tinkering): Transform one alchemical item or firearm into another alchemical item or firearm of the same or lesser cost.
+- [**Alter Winds**](advanced/spells/alterWinds#_alter-winds): Increase/decrease strength of natural winds.
+- [**Animate Rope**](spells/animateRope#_animate-rope): Makes a rope move at your command.
+- [**Ant Haul**](advanced/spells/antHaul#_ant-haul-): Triples carrying capacity of a creature.
+- [**Anticipate Peril**](ultimateMagic/spells/anticipatePeril#_anticipate-peril): Target gains a bonus on one initiative check.
+- [**Blend**](advancedRaceGuide/coreRaces/elves#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
+- [**Break**](advanced/spells/break#_break-): Gives an object the broken condition.
+- [**Bungle**](ultimateMagic/spells/bungle#_bungle): Target takes a –20 penalty on its next attack roll or check. 
+- [**Burning Hands**](spells/burningHands#_burning-hands): 1d4/level fire damage (max 5d4).
+- [**Cause Fear**](spells/causeFear#_cause-fear): One creature of 5 HD or less flees for 1d4 rounds.
+- [**Charm Person**](spells/charmPerson#_charm-person): Makes one person your friend.
+- [**Chill Touch**](spells/chillTouch#_chill-touch): One touch/level deals 1d6 damage and possibly 1 [Str](gettingStarted#_strength) damage.
+- [**Color Spray**](spells/colorSpray#_color-spray): Knocks [unconscious](glossary#_unconscious), blinds, and/or stuns weak creatures.
+- [**Comprehend Languages**](spells/comprehendLanguages#_comprehend-languages): You understand all spoken and written languages.
+- [**Corrosive Touch**](ultimateMagic/spells/corrosiveTouch#_corrosive-touch): Touch attack deals 1d4 acid/level.
+- [**Crafter's Curse**](advanced/spells/crafterSCurse#_crafter's-curse): Subject takes –5 on [Craft](skills/craft#_craft) skill checks.
+- [**Crafter's Fortune**](advanced/spells/crafterSFortune#_crafter's-fortune): Subject gains +5 on next [Craft](skills/craft#_craft) check.
+- [**Damp Powder**](ultimateCombat/spells/dampPowder#_damp-powder): Ruins ammunition loaded in the targeted firearm.
+- [**Dancing Lantern**](advanced/spells/dancingLantern#_dancing-lantern-): Animates a lantern that follows you.
+- [**Decompose Corpse**](ultimateMagic/spells/decomposeCorpse#_decompose-corpse): Turn a corpse into a clean skeleton.
+- [**Delusional Pride**](ultimateMagic/spells/delusionalPride#_delusional-pride): Target is penalized on attacks and checks but gains bonus against charms and compulsions.
+- [**Detect Secret Doors**](spells/detectSecretDoors#_detect-secret-doors): Reveals hidden doors within 60 ft.
+- [**Detect Undead**](spells/detectUndead#_detect-undead): Reveals undead within 60 ft.
+- [**Disguise Self**](spells/disguiseSelf#_disguise-self): Changes your appearance.
+- [**Ear-Piercing Scream**](ultimateMagic/spells/earPiercingScream#_ear-piercing-scream): Deal sonic damage and daze target.
+- [**Endure Elements**](spells/endureElements#_endure-elements): Exist comfortably in hot or cold regions.
+- [**Enlarge Person**](spells/enlargePerson#_enlarge-person): Humanoid creature doubles in size.
+- [**Erase**](spells/erase#_erase): Mundane or magical writing vanishes.
+- [**Expeditious Excavation**](advanced/spells/expeditiousExcavation#_expeditious-excavation): Moves 5-ft. cubes of earth.
+- [**Expeditious Retreat**](spells/expeditiousRetreat#_expeditious-retreat): Your base speed increases by 30 ft.
+- [**Fabricate Bullets**](ultimateCombat/spells/fabricateBullets#_fabricate-bullets-)M: Converts 1 pound of metal into ammunition.
+- [**Feather Fall**](spells/featherFall#_feather-fall): Objects or creatures fall slowly.
+- [**Flare Burst**](advanced/spells/flareBurst#_flare-burst): As _ [flare](spells/flare#_flare)_, but affects all creatures in 10 ft.
+- [**Floating Disk**](spells/floatingDisk#_floating-disk): Creates 3-ft.-diameter horizontal disk that holds 100 lbs./level.
+- [**Forced Quiet**](ultimateMagic/spells/forcedQuiet#_forced-quiet): Target cannot make loud noises.
+- [**Gravity Bow**](advanced/spells/gravityBow#_gravity-bow-): Arrows do damage as though one size category bigger.
+- [**Grease**](spells/grease#_grease): Makes 10-ft. square or one object slippery.
+- [**Hold Portal**](spells/holdPortal#_hold-portal): Holds door shut.
+- [**Hydraulic Push**](advanced/spells/hydraulicPush#_hydraulic-push-): Wave of water bull rushes an enemy.
+- [**Hypnotism**](spells/hypnotism#_hypnotism): Fascinates 2d4 HD of creatures.
+- [**Icicle Dagger**](ultimateMagic/spells/icicleDagger#_icicle-dagger): Masterwork ice dagger deals +1 cold damage.
+- [**Identify**](spells/identify#_identify): Gives +10 bonus to identify magic items.
+- [**Illusion of Calm**](ultimateCombat/spells/illusionOfCalm#_illusion-of-calm): You appear to be standing still, even when you take some actions. 
+- [**Interrogation**](ultimateMagic/spells/interrogation#_interrogation): Target answers questions or suffers pain.
+- [**Jump**](spells/jump#_jump): Subject gets bonus on Acrobatics checks.
+- [**Jury-Rig**](ultimateCombat/spells/juryRig#_jury-rig): Removes the broken condition from the targeted object.
+- [**Ki Arrow**](ultimateMagic/spells/kiArrow#_ki-arrow): Arrow deals damage as your unarmed strike.
+- [**Liberating Command**](ultimateCombat/spells/liberatingCommand#_liberating-command): Target makes an [Escape Artist](skills/escapeArtist#_escape-artist) check as an immediate action and gains a bonus on it.
+- [**Lock Gaze**](ultimateCombat/spells/lockGaze#_lock-gaze): You compel the target to only look at you for the duration of the spell.
+- [**Longshot**](ultimateCombat/spells/longshot#_longshot): Grants a +10-foot bonus to the range increment for any ranged weapon fired.
+- [**Mage Armor**](spells/mageArmor#_mage-armor): Gives subject +4 armor bonus.
+- [**Magic Aura**](spells/magicAura#_magic-aura): Alters object's magic aura.
+- [**Magic Missile**](spells/magicMissile#_magic-missile): 1d4+1 damage; +1 missile per two levels above 1st (max 5).
+- [**Magic Weapon**](spells/magicWeapon#_magic-weapon): Weapon gains +1 bonus.
+- [**Marid's Mastery**](advancedRaceGuide/featuredRaces/undines#_marid's-mastery): Target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water.
+- [**Memory Lapse**](advanced/spells/memoryLapse#_memory-lapse): Subject forgets events back to last turn.
+- [**Mirror Strike**](ultimateCombat/spells/mirrorStrike#_mirror-strike): You may strike multiple opponents with a single attack.
+- [**Moment of Greatness**](ultimateCombat/spells/momentOfGreatness#_moment-of-greatness): Doubles a morale bonus.
+- [**Mount**](spells/mount#_mount): Summons riding horse for 2 hours/level.
+- [**Mudball**](advancedRaceGuide/featuredRaces/goblins#_mudball): You conjure a single ball of sticky mud and launch it at an enemy's face as a ranged touch attack.
+- [**Negative Reaction**](ultimateCombat/spells/negativeReaction#_negative-reaction): Targeted creature may not positively influence anyone.
+- [**Obscuring Mist**](spells/obscuringMist#_obscuring-mist): Fog surrounds you.
+- [**Peacebond**](ultimateCombat/spells/peacebond#_peacebond): Locks a weapon in place on the target's body.
+- [**Polypurpose Panacea**](ultimateMagic/spells/polypurposePanacea#_polypurpose-panacea): Gain a relaxing or entertaining effect.
+- [**Protection from Chaos**](spells/protectionFromChaos#_protection-from-chaos): +2 to [AC](combat#_armor-class) and saves, plus additional protection against selected alignment.
+- [**Protection from Evil**](spells/protectionFromEvil#_protection-from-evil): +2 to [AC](combat#_armor-class) and saves, plus additional protection against selected alignment.
+- [**Protection from Good**](spells/protectionFromGood#_protection-from-good): +2 to [AC](combat#_armor-class) and saves, plus additional protection against selected alignment.
+- [**Protection from Law**](spells/protectionFromLaw#_protection-from-law): +2 to [AC](combat#_armor-class) and saves, plus additional protection against selected alignment.
+- [**Ray of Enfeeblement**](spells/rayOfEnfeeblement#_ray-of-enfeeblement): Ray causes 1d6 [Str](gettingStarted#_strength) penalty + 1 per 2 levels.
+- [**Ray of Sickening**](ultimateMagic/spells/rayOfSickening#_ray-of-sickening): Ray makes the subject sickened.
+- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
+- [**Reduce Person**](spells/reducePerson#_reduce-person): Humanoid creature halves in size.
+- [**Reinforce Armaments**](ultimateCombat/spells/reinforceArmaments#_reinforce-armaments): Temporarily mitigates the fragile quality in targeted weapon or armor.
+- [**Restore Corpse**](ultimateMagic/spells/restoreCorpse#_restore-corpse): Skeletal corpse grows flesh.
+- [**Sculpt Corpse**](advanced/spells/sculptCorpse#_sculpt-corpse-): Makes corpse look like another creature.
+- [**See Alignment**](ultimateCombat/spells/seeAlignment#_see-alignment): Pick an alignment; in your sight, creatures and items with that alignment emit a ghostly radiance.
+- [**Shadow Weapon**](ultimateMagic/spells/shadowWeapon#_shadow-weapon): Create a quasi-real masterwork weapon.
+- [**Shield**](spells/shield#_shield): Invisible disc gives +4 to [AC](combat#_armor-class), blocks _ [magic missile](spells/magicMissile#_magic-missile)s._
+- [**Shock Shield**](ultimateCombat/spells/shockShield#_shock-shield): A shield of force protects you until you dismiss it in an explosion of electricity. 
+- [**Shocking Grasp**](spells/shockingGrasp#_shocking-grasp): Touch delivers 1d6/level electricity damage (max 5d6).
+- [**Silent Image**](spells/silentImage#_silent-image): Creates minor illusion of your design.
+- [**Sleep**](spells/sleep#_sleep): Puts 4 HD of creatures into magical slumber.
+- [**Snapdragon Fireworks**](ultimateMagic/spells/snapdragonFireworks#_snapdragon-fireworks): Create 1 dragon firework/level.
+- [**Sow Thought**](advancedRaceGuide/uncommonRaces/changelings#_sow-thought): Plant an idea, concept, or suspicion in the mind of the subject.
+- [**Stone Fist**](advanced/spells/stoneFist#_stone-fist): Your unarmed strikes are lethal.
+- [**Stone Shield**](advancedRaceGuide/featuredRaces/oreads#_stone-shield): 1-inch-thick slab of stone springs up from the ground, shielding you.
+- [**Strong Wings**](advancedRaceGuide/uncommonRaces/strix#_strong-wings): The target's wings grow more powerful, increases fly speed by +10 feet and its maneuverability to improve by one category.
+- [**Stumble Gap**](advanced/spells/stumbleGap#_stumble-gap-)F: Small hole trips creatures.
+- [**Summon Minor Monster**](ultimateMagic/spells/summonMinorMonster#_summon-minor-monster): Summon 1d3 Tiny animals.
+- [**Summon Monster I**](spells/summonMonster#_summon-monster-i): Summons extraplanar creature to fight for you.
+- [**Theft Ward**](advancedRaceGuide/featuredRaces/tengus#_theft-ward): You ward a single object in your possession against theft.
+- [**Touch of Combustion**](advancedRaceGuide/featuredRaces/ifrits#_touch-of-combustion): Causes the target to ignite in a violent burst of flame.
+- [**Touch of Gracelessness**](advanced/spells/touchOfGracelessness#_touch-of-gracelessness): Subject loses 1d6 + 1 Dex/two levels and is prone to falling down.
+- [**Touch of the Sea**](advanced/spells/touchOfTheSea#_touch-of-the-sea): [Swim](skills/swim#_swim) speed becomes 30 ft.
+- [**True Strike**](spells/trueStrike#_true-strike): +20 on your next attack roll.
+- [**Undine's Curse**](advancedRaceGuide/featuredRaces/undines#_undine's-curse): Target loses its body's natural ability to breathe automatically.
+- [**Unerring Weapon**](ultimateCombat/spells/unerringWeapon#_unerring-weapon): Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.
+- [**Unprepared Combatant**](ultimateMagic/spells/unpreparedCombatant#_unprepared-combatant): Target takes –4 on initiative and Reflex saves.
+- [**Unseen Servant**](spells/unseenServant#_unseen-servant): Invisible force obeys your commands.
+- [**Urban Grace**](advancedRaceGuide/coreRaces/halfElves#_urban-grace): You become one with the city around you, allowing you to move more easily through its crowds and buildings.
+- [**Vanish**](advanced/spells/vanish#_vanish): As _ [invisibility](spells/invisibility#_invisibility)_ for 1 round/level (5 max).
+- [**Ventriloquism**](spells/ventriloquism#_ventriloquism): Throws voice for 1 min./level.
+- [**Vocal Alteration**](ultimateMagic/spells/vocalAlteration#_vocal-alteration): [Disguise](/skills/disguise#_disguise) target's voice.
+- [**Weaken Powder**](ultimateCombat/spells/weakenPowder#_weaken-powder): Targeted firearm's ammunition halves the firearm's range and imposes a –2 penalty on damage rolls.
+- [**Web Bolt**](advancedRaceGuide/featuredRaces/drow#_web-bolt): You launch a ball of webbing at a target, causes target to be affected as if by a _web_ spell.
+- [**Windy Escape**](advancedRaceGuide/featuredRaces/sylphs#_windy-escape): You respond to an attack by briefly becoming vaporous and insubstantial.
+- [**Winter Feathers**](advancedRaceGuide/featuredRaces/tengus#_winter-feathers): Target's feathers thicken and fluff up to ward against winter's chill.
+- [**Youthful Appearance**](ultimateMagic/spells/youthfulAppearance#_youthful-appearance): Target appears younger.
+
+- [**Aboleth's Lung**](advancedRaceGuide/uncommonRaces/gillmen#_aboleth's-lung): Targets are able to breathe water, freely.
+- [**Accelerate Poison**](advanced/spells/acceleratePoison#_accelerate-poison): Hastens targeted poison's onset.
+- [**Acid Arrow**](spells/acidArrow#_acid-arrow): Ranged touch attack; 2d4 damage for 1 round + 1 round/three levels.
+- [**Adoration**](ultimateCombat/spells/adoration#_adoration): You gain a bonus on [Diplomacy](skills/diplomacy#_diplomacy) checks and performance combat checks.
+- [**Alter Self**](spells/alterSelf#_alter-self): Assume form of a Small or Medium humanoid.
+- [**Animal Aspect**](ultimateCombat/spells/animalAspect#_animal-aspect): You gain some of the beneficial qualities of an animal.
+- [**Ant Haul, Communal**](ultimateCombat/spells/antHaul#_ant-haul,-communal): As _ [ant haul](advanced/spells/antHaul#_ant-haul-)_, but you may divide the duration among creatures touched.
+- [**Arcane Lock**](spells/arcaneLock#_arcane-lock)M: Magically locks a portal or chest.
+- [**Arrow Eruption**](advanced/spells/arrowEruption#_arrow-eruption-): Creates duplicates of killing arrow.
+- [**Badger's Ferocity**](ultimateMagic/spells/badgerSFerocity#_badger's-ferocity): Weapons are _ [keen](/magicItems/weapons#_weapons-keen)_ while you concentrate.
+- [**Bear's Endurance**](spells/bearSEndurance#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted#_constitution) for 1 min./level.
+- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency#_bestow-weapon-proficiency): Grants a creature proficiency in a single weapon for short period of time.
+- [**Blend**](advancedRaceGuide/coreRaces/elves#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
+- [**Blindness/Deafness**](spells/blindnessDeafness#_blindness-deafness): Makes subject [blinded](glossary#_blinded) or [deafened](glossary#_deafened).
+- [**Blood Blaze**](advancedRaceGuide/featuredRaces/orcs#_blood-blaze): 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air.
+- [**Blood Transcription**](ultimateMagic/spells/bloodTranscription#_blood-transcription): _Wizard only. _Learn a spell from the target's blood.
+- [**Blur**](spells/blur#_blur): Attacks miss subject 20% of the time.
+- [**Boiling Blood**](ultimateMagic/spells/boilingBlood#_boiling-blood): Targets take fire damage; orcs get +2 Strength.
+- [**Brow Gasher**](ultimateCombat/spells/browGasher#_brow-gahser): Slashing weapon deals bleed damage to an opponent's head.
+- [**Bull's Strength**](spells/bullSStrength#_bull-s-strength): Subject gains +4 to [Str](gettingStarted#_strength) for 1 min./level.
+- [**Bullet Shield**](ultimateCombat/spells/bulletShield#_bullet-shield): You gain a +4 deflection bonus to AC against firearm attacks.
+- [**Burning Gaze**](advanced/spells/burningGaze#_burning-gaze): Inflict 1d6 fire damage to creature by looking at it.
+- [**Cat's Grace**](spells/catSGrace#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted#_dexterity) for 1 min./level.
+- [**Certain Grip**](ultimateCombat/spells/certainGrip#_certain-grip-): You gain a +4 competence bonus on [Acrobatics](skills/acrobatics#_acrobatics) and [Climb](skills/climb#_climb) checks and to CMD.
+- [**Command Undead**](spells/commandUndead#_command-undead): Undead creature obeys your commands.
+- [**Commune with Birds**](advancedRaceGuide/featuredRaces/tengus#_commune-with-birds): You can understand the responses given by birds.
+- [**Compassionate Ally**](ultimateMagic/spells/compassionateAlly#_compassionate-ally): Target is compelled to help injured ally.
+- [**Continual Flame**](spells/continualFlame#_continual-flame)M: Makes a permanent, heatless light.
+- [**Create Pit**](advanced/spells/createPit#_create-pit-)F: Creates an extradimensional pit.
+- [**Create Treasure Map**](advanced/spells/createTreasureMap#_create-treasure-map-)M: Creates treasure map out of a creature's corpse.
+- [**Cushioning Bands**](ultimateMagic/spells/cushioningBands#_cushioning-bands): Force bands protect against crushing.
+- [**Death from Below**](advancedRaceGuide/coreRaces/gnomes#_death-from-below): Grant the target a dodge bonus to its AC against attacks from larger creatures.
+- [**Darkness**](spells/darkness#_darkness): 20-ft. radius of supernatural shadow.
+- [**Darkvision**](spells/darkvision#_darkvision): See 60 ft. in total darkness.
+- [**Daze Monster**](spells/dazeMonster#_daze-monster): Living creature of 6 HD or less loses its next action.
+- [**Defensive Shock**](ultimateMagic/spells/defensiveShock#_defensive-shock): Electricity damages your attackers.
+- [**Delay Pain**](ultimateMagic/spells/delayPain#_delay-pain): Ignore pain for 1 hour/level.
+- [**Destabilize Powder**](ultimateCombat/spells/destabilizePowder#_destabilize-powder): Ammunition in the targeted firearm is prone to misfire.
+- [**Detect Thoughts**](spells/detectThoughts#_detect-thoughts): Allows “listening” to surface thoughts.
+- [**Disguise Other**](ultimateMagic/spells/disguiseOther#_disguise-other): As _ [disguise self](/spells/disguiseSelf#_disguise-self)_, but affects you or another.
+- [**Dust of Twilight**](advanced/spells/dustOfTwilight#_dust-of-twilight): Black particles extinguish light sources within area.
+- [**Eagle's Splendor**](spells/eagleSSplendor#_eagle-s-splendor): Subject gains +4 to [Cha](gettingStarted#_charisma-new) for 1 min./level.
+- [**Elemental Speech**](advanced/spells/elementalSpeech#_elemental-speech): Enables you to speak to elementals and some creatures.
+- [**Elemental Touch**](advanced/spells/elementalTouch#_elemental-touch): Gain energy damage touch attack.
+- [**Endure Elements, Communal**](ultimateCombat/spells/endureElements#_endure-elements,-communal): As _ [endure elements](spells/endureElements#_endure-elements)_, but you may divide the duration among creatures touched.
+- [**Escaping Ward**](advancedRaceGuide/coreRaces/halflings#_escaping-ward): Grants extra maneuverability when you avoid attacks against larger foes.
+- [**False Life**](spells/falseLife#_false-life): Gain 1d10 temporary hp + 1/level (max +10).
+- [**Fire Breath**](advanced/spells/fireBreath#_fire-breath): Exhale a cone of flame at will.
+- [**Fiery Shuriken**](ultimateCombat/spells/fieryShuriken#_fiery-shuriken-)M: Calls forth several fiery projectiles ready to be flung at opponents. 
+- [**Flaming Sphere**](spells/flamingSphere#_flaming-sphere): Rolling ball of fire deals 3d6 fire damage.
+- [**Fog Cloud**](spells/fogCloud): Fog obscures vision.
+- [**Fox's Cunning**](spells/foxSCunning#_fox-s-cunning): Subject gains +4 to [Int](gettingStarted#_intelligence) for 1 min./level.
+- [**Frigid Touch**](ultimateMagic/spells/frigidTouch#_frigid-touch): Target takes cold damage and is staggered.
+- [**Frost Fall**](ultimateCombat/spells/frostFall#_frost-fall): The area is covered in a chilling frost.
+- [**Ghostly Disguise**](ultimateMagic/spells/ghostlyDisguise#_ghostly-disguise): You look like a ghost of yourself.
+- [**Ghoul Touch**](spells/ghoulTouch#_ghoul-touch): Paralyzes one subject, which exudes stench that makes those nearby [sickened](glossary#_sickened).
+- [**Glide**](advanced/spells/glide#_glide-): You take no falling damage, move 60 ft./round while falling.
+- [**Glitterdust**](spells/glitterdust#_glitterdust): Blinds creatures, outlines [invisible](glossary#_invisible) creatures.
+- [**Gusting Sphere**](advancedRaceGuide/featuredRaces/sylphs#_gusting-sphere): A swirling ball of wind rolls in whichever direction you point, hurling those it strikes with great force.
+- [**Gust of Wind**](spells/gustOfWind#_gust-of-wind): Blows away or knocks down smaller creatures.
+- [**Haunting Mists**](ultimateMagic/spells/hauntingChoir#_haunting-mists): Creatures are shaken and take Wis damage.
+- [**Hideous Laughter**](spells/hideousLaughter#_hideous-laughter): Subject loses actions for 1 round/level.
+- [**Hypnotic Pattern**](spells/hypnoticPattern#_hypnotic-pattern): Fascinates 2d4 + level HD of creatures.
+- [**Imbue with Elemental Might**](advancedRaceGuide/uncommonRaces/sulis#_imbue-with-elemental-might): Functions like _imbue with spell ability_, except you transfer the use of your elemental assault ability to the target.
+- [**Invisibility**](spells/invisibility#_invisibility): Subject is [invisible](glossary#_invisible) for 1 min./level or until it attacks.
+- [**Jitterbugs**](advancedRaceGuide/coreRaces/gnomes#_jitterbugs): Cause the target to perceive itself as being covered in creeping, crawling, stinging bugs.
+- [**Kinetic Reverberation**](ultimateCombat/spells/kineticReverberation#_kinetic-reverberation-): Channels the force of an enemy's attack back into its weapon.
+- [**Knock**](spells/knock#_knock): Opens locked or magically sealed door.
+- [**Levitate**](spells/levitate#_levitate): Subject moves up and down at your direction.
+- [**Locate Object**](spells/locateObject#_locate-object): Senses direction toward object (specific or type).
+- [**Mad Hallucination**](ultimateMagic/spells/madHallucination#_mad-hallucination): Target takes penalties to mental actions.
+- [**Magic Mouth**](spells/magicMouth#_magic-mouth)M: Object speaks once when triggered.
+- [**Magic Siege Engine**](ultimateCombat/spells/magicSiegeEngine#_magic-siege-engine): Siege gains +1 on targeting and damage rolls.
+- [**Make Whole**](spells/makeWhole#_make-whole): Repairs an object.
+- [**Masterwork Transformation**](ultimateMagic/spells/masterworkTransformation#_masterwork-transformation): Make a normal item into a masterwork one.
+- [**Minor Image**](spells/minorImage#_minor-image): As _ [silent image](spells/silentImage#_silent-image)_, plus some sound.
+- [**Mirror Image**](spells/mirrorImage#_mirror-image): Creates decoy duplicates of you.
+- [**Misdirection**](spells/misdirection#_misdirection): Misleads divinations for 1 creature or object.
+- [**Miserable Pity**](ultimateMagic/spells/miserablePity#_miserable-pity): Opponents cannot attack a pathetic creature.
+- [**Mount, Communal**](ultimateCombat/spells/mount#_mount,-communal): As _ [mount](spells/mount#_mount)_, but you may divide the duration among creatures touched. 
+- [**Obscure Object**](spells/obscureObject#_obscure-object): Masks object against [scrying](spells/scrying#_scrying).
+- [**Oppressive Boredom**](ultimateMagic/spells/oppressiveBoredom#_oppressive-boredom): Target loses its next action.
+- [**Owl's Wisdom**](spells/owlSWisdom#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted#_wisdom) for 1 min./level.
+- [**Pernicious Poison**](ultimateMagic/spells/perniciousPoison#_pernicious-poison): Target takes a –4 penalty against poison.
+- [**Phantom Trap**](spells/phantomTrap#_phantom-trap)M: Makes item seem trapped.
+- [**Pilfering Hand**](ultimateCombat/spells/pilferingHand#_pilfering-hand): You may seize an object or manipulate it from afar.
+- [**Protection from Arrows**](spells/protectionFromArrows#_protection-from-arrows): Subject gains [DR](glossary#_damage-reduction) 10/magic against ranged attacks.
+- [**Protection from Chaos, Communal**](ultimateCombat/spells/protectionFromChaos#_protection-from-chaos,-communal): As _ [protection from chaos](spells/protectionFromChaos#_protection-from-chaos)_, but you may divide the duration among creatures touched.
+- [**Protection from Evil, Communal**](ultimateCombat/spells/protectionFromEvil#_protection-from-evil,-communal): As _ [protection from evil](spells/protectionFromEvil#_protection-from-evil)_, but you may divide the duration among creatures touched.
+- [**Protection from Good, Communal**](ultimateCombat/spells/protectionFromGood#_protection-from-good,-communal): As _ [protection from good](spells/protectionFromGood#_protection-from-good)_, but you may divide the duration among creatures touched.
+- [**Protection from Law, Communal**](ultimateCombat/spells/protectionFromLaw#_protection-from-law,-communal): As _ [protection from law](spells/protectionFromLaw#_protection-from-law)_, but you may divide the duration among creatures touched.
+- [**Protective Penumbra**](ultimateMagic/spells/protectivePenumbra#_protective-penumbra): Shadow protects the target from light.
+- [**Pyrotechnics**](spells/pyrotechnics#_pyrotechnics): Turns fire into blinding light or thick smoke.
+- [**Qualm**](ultimateCombat/spells/qualm#_qualm): Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing.
+- [**Recoil Fire**](ultimateCombat/spells/recoilFire#_recoil-fire): Ammunition in the targeted firearm generates excessive recoil.
+- [**Reinforce Armaments, Communal**](ultimateCombat/spells/reinforceArmaments#_reinforce-armaments,-communal): As _ [reinforce armaments](ultimateCombat/spells/reinforceArmaments#_reinforce-armaments)_, but you may divide the duration among objects touched.
+- [**Reloading Hands**](ultimateCombat/spells/reloadingHands#_reloading-hands): Loads a single shot into your weapon every round.
+- [**Resist Energy**](spells/resistEnergy#_resist-energy): Ignores first 10 (or more) points of damage per attack from specified energy type.
+- [**Returning Weapon**](ultimateCombat/spells/returningWeapon#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons#_weapons-returning)_ special weapon quality.
+- [**Ricochet Shot**](ultimateCombat/spells/ricochetShot#_ricochet-shot): Imbues a projectile weapon to give its ammunition the ability to ricochet.
+- [**Rope Trick**](spells/ropeTrick#_rope-trick): As many as eight creatures hide in extradimensional space.
+- [**Scare**](spells/scare#_scare): Frightens creatures of less than 6 HD.
+- [**Scorching Ray**](spells/scorchingRay#_scorching-ray): Ranged touch attack deals 4d6 fire damage, + 1 ray/four levels (max 3).
+- [**Sculpt Simulacrum**](ultimateMagic/spells/sculptSimulacrum#_sculpt-simulacrum-): Alter a simulacrum's appearance.
+- [**See Invisibility**](spells/seeInvisibility#_see-invisibility): Reveals [invisible](glossary#_invisible) creatures or objects.
+- [**Sentry Skull**](advancedRaceGuide/featuredRaces/orcs#_sentry-skull): Restore the senses to the severed head of a humanoid or monstrous humanoid killed within the past 24 hours, creating a grisly sentinel.
+- [**Shadow Anchor**](advancedRaceGuide/uncommonRaces/wayangs#_shadow-anchor): Target's shadow becomes a flexible tether to its current square.
+- [**Share Language**](advanced/spells/shareLanguage#_share-language-): Subject understands chosen language.
+- [**Share Memory**](ultimateMagic/spells/shareMemory#_share-memory): Share one memory with the target.
+- [**Shatter**](spells/shatter#_shatter): Sonic energy damages objects or crystalline creatures.
+- [**Silk To Steel**](ultimateMagic/spells/silkToSteel#_silk-to-steel): Use a scarf as a shield or whip.
+- [**Skinsend**](ultimateMagic/spells/skinsend#_skinsend): Animate and possess your own skin as if it were a separate creature.
+- [**Slipstream**](advanced/spells/slipstream#_slipstream): Wave boosts creature's speed.
+- [**Spectral Hand**](spells/spectralHand#_spectral-hand): Creates disembodied glowing hand to deliver touch attacks.
+- [**Spider Climb**](spells/spiderClimb#_spider-climb): Grants ability to walk on walls and ceilings.
+- [**Spontaneous Immolation**](ultimateCombat/spells/spontaneousImmolation#_spontaneous-immolation): Target takes 3d6 points of fire damage and catches on fire.
+- [**Squeeze**](advancedRaceGuide/uncommonRaces/vishkanyas#_squeeze): The target becomes flexible regardless of its actual size and mass.
+- [**Stabilize Powder**](ultimateCombat/spells/stabilizePowder#_stabilize-powder): Ammunition in the targeted firearm is less likely to misfire.
+- [**Steal Breath**](advancedRaceGuide/featuredRaces/catfolk#_steal-breath): Pull the breath from a creature's lungs, dealing damage and leaving it unable to speak, use breath weapons, or cast spells with verbal components.
+- [**Steal Voice**](ultimateMagic/spells/stealVoice#_steal-voice): Target gains the croaking spellblight.
+- [**Stone Call**](advanced/spells/stoneCall#_stone-call): 2d6 damage to all creatures in area.
+- [**Summon Monster II**](spells/summonMonster#_summon-monster-ii): Summons extraplanar creature to fight for you.
+- [**Summon Swarm**](spells/summonSwarm#_summon-swarm): Summons swarm of bats, rats, or spiders.
+- [**Symbol of Mirroring**](ultimateMagic/spells/symbolOfMirroring#_symbol-of-mirroring): Triggered rune creates mirror images.
+- [**Tactical Acumen**](ultimateCombat/spells/tacticalAcumen#_tactical-acumen): You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
+- [**Telekinetic Assembly**](ultimateCombat/spells/telekineticAssembly#_telekinetic-assembly)F: Assembles a siege engine using 1 fewer worker for every two caster levels.
+- [**Thunder Fire**](ultimateCombat/spells/thunderFire#_thunder-fire): Ammunition in the targeted firearm deafens opponents.
+- [**Touch of Idiocy**](spells/touchOfIdiocy#_touch-of-idiocy): Subject takes 1d6 penalty to [Int](gettingStarted#_intelligence), [Wis](gettingStarted#_wisdom), and [Cha](gettingStarted#_charisma-new).
+- [**Twisted Space**](ultimateCombat/spells/twistedSpace#_twisted-space): Targeted creature's attacks target a random square instead of the intended target.
+- [**Unnatural Lust**](ultimateMagic/spells/unnaturalLust#_unnatural-lust): Target is compelled to kiss or caress another creature.
+- [**Unshakable Chill**](ultimateMagic/spells/unshakableChill#_unshakable-chill): Target is afflicted with severe cold.
+- [**Warding Weapon**](ultimateCombat/spells/wardingWeapon#_warding-weapon)F: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
+- [**Web**](spells/web#_web): Fills 20-ft.-radius spread with sticky spiderwebs that can grapple foes and impair movement.
+- [**Web Shelter**](ultimateMagic/spells/webShelter#_web-shelter): Create a comfortable shelter made of webbing.
+- [**Whispering Wind**](spells/whisperingWind#_whispering-wind): Sends a short message 1 mile/level.
+
+**[Ablative Barrier](ultimateCombat/spells/ablativeBarrier#_ablative-barrier)**** F**: Surrounds the target with layers of force.
+
+- [**Ancestral Regression**](advancedRaceGuide/featuredRaces/drow#_ancestral-regression): The target drow transforms into a surface elf.
+- [**Animate Dead, Lesser**](ultimateMagic/spells/animateDead#_animate-dead,-lesser): Create one skeleton or zombie.
+- [**Anthropomorphic Animal**](ultimateMagic/spells/anthropomorphicAnimal#_anthropomorphic-animal): Animal becomes bipedal.
+- [**Aqueous Orb**](advanced/spells/aqueousOrb#_aqueous-orb): Creates rolling sphere of water.
+- [**Arcane Sight**](spells/arcaneSight#_arcane-sight): Magical auras become visible to you.
+- [**Ash Storm**](ultimateMagic/spells/ashStorm#_ash-storm): Hamper vision and movement.
+- [**Beast Shape I**](spells/beastShape#_beast-shape-i): You take the form and some of the powers of a Small or Medium animal.
+- [**Blink**](spells/blink#_blink): You randomly vanish and reappear for 1 round per level.
+- [**Blood Biography**](advanced/spells/bloodBiography#_blood-biography-): Learn about a creature with its blood.
+- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
+- [**Burrow**](ultimateMagic/spells/burrow#_burrow): Target gains a burrow speed of 15.
+- [**Campfire Wall**](advanced/spells/campfireWall#_campfire-wall-): Creates a shelter around a campfire.
+- [**Chain of Perdition**](ultimateCombat/spells/chainOfPerdition#_chain-of-perdition): Creates a floating chain of force.
+- [**Clairaudience/Clairvoyance**](spells/clairaudienceClairvoyance#_clairaudience-clairvoyance): Hear or see at a distance for 1 min./level.
+- [**Cloak of Winds**](advanced/spells/cloakOfWinds#_cloak-of-winds): Creates a screen of wind around you.
+- [**Countless Eyes**](ultimateMagic/spells/countlessEyes#_countless-eyes): Extra eyes give all-around vision.
+- [**Darkvision, Communal**](ultimateCombat/spells/darkvision#_darkvision,-communal): As _ [darkvision](spells/darkvision#_darkvision)_, but you may divide the duration among creatures touched.
+- [**Daylight**](spells/daylight#_daylight): 60-ft. radius of bright light.
+- [**Deep Slumber**](spells/deepSlumber#_deep-slumber): Puts 10 HD of creatures to [sleep](spells/sleep#_sleep).
+- [**Devolution**](advanced/spells/devolution#_devolution): Target eidolon temporarily loses 1 evolution +1/five levels.
+- [**Dispel Magic**](spells/dispelMagic#_dispel-magic): Cancels one magical spell or effect.
+- [**Displacement**](spells/displacement#_displacement): Attacks miss subject 50% of the time.
+- [**Distracting Cacophony**](ultimateMagic/spells/distractingCacophony#_distracting-cacophony): Noise makes it difficult to cast.
+- [**Draconic Reservoir**](advanced/spells/draconicReservoir#_draconic-reservoir-): Subject can absorb energy damage and enhance melee attacks with it.
+- [**Eldritch Fever**](ultimateMagic/spells/eldritchFever#_eldritch-fever): Target gains the eldritch ague spellblight.
+- [**Elemental Aura**](advanced/spells/elementalAura#_elemental-aura): Creates an aura of energy around you.
+- [**Enter Image**](advanced/spells/enterImage#_enter-image-): Transfers your consciousness to an object bearing your likeness.
+- [**Eruptive Pustules**](ultimateMagic/spells/eruptivePustules#_eruptive-pustules): Acid boils burst when you are attacked.
+- [**Excruciating Deformation**](ultimateMagic/spells/excruciatingDeformation#_excruciating-deformation): Target takes Dex and Con damage.
+- [**Explosive Runes**](spells/explosiveRunes#_explosive-runes): Deals 6d6 damage when read.
+- [**Fearsome Duplicate**](advancedRaceGuide/coreRaces/halflings#_fearsome-duplicate): You create a larger and far more menacing version of yourself.
+- [**Fins to Feet**](advancedRaceGuide/uncommonRaces/merfolk#_fins-to-feet): Transform the target's fins, flippers, or tail into legs and feet, allowing it to walk on land.
+- [**Fire Trail**](advancedRaceGuide/featuredRaces/goblins#_fire-trail): Flammable liquid oozes from your pores, dripping onto the ground and spontaneously combusting.
+- [**Firestream**](advancedRaceGuide/featuredRaces/ifrits#_firestream): A rushing stream of fire sprays from your outstretched hand, dealing fire damage to every creature in the area.
+- [**Fireball**](spells/fireball#_fireball): 1d6 damage per level, 20-ft. radius.
+- [**Flame Arrow**](spells/flameArrow#_flame-arrow): Arrows deal +1d6 fire damage.
+- [**Flash Fire**](ultimateCombat/spells/flashFire#_flash-fire): Ammunition in the targeted firearm creates a tremendous flash capable of blinding the weapon's bearer and those around him.
+- [**Fly**](spells/fly): Subject flies at speed of 60 ft.
+- [**Force Punch**](ultimateMagic/spells/forcePunch#_force-punch): Target takes force damage and is pushed away.
+- [**Gaseous Form**](spells/gaseousForm#_gaseous-form): Subject becomes insubstantial and can fly slowly.
+- [**Gentle Repose**](spells/gentleRepose#_gentle-repose): Preserves one corpse.
+- [**Gloomblind Bolts**](advancedRaceGuide/featuredRaces/fetchlings#_gloomblind-bolts): Create one or more bolts of negative energy infused with shadow pulled from the Shadow Plane.
+- [**Halt Undead**](spells/haltUndead#_halt-undead-copy): Immobilizes undead for 1 round/level.
+- [**Haste**](spells/haste#_haste): One creature/level moves faster, +1 on attack rolls, [AC](combat#_armor-class), and [Reflex](combat#_reflex) saves.
+- [**Healing Thief**](ultimateCombat/spells/healingThief#_healing-thief): You siphon half of all magical healing that the targeted creature receives.
+- [**Heroism**](spells/heroism#_heroism): Gives +2 bonus on attack rolls, saves, skill checks.
+- [**Hold Person**](spells/holdPerson#_hold-person): Paralyzes one humanoid for 1 round/level.
+- [**Hostile Levitation**](ultimateCombat/spells/hostileLevitation#_hostile-levitation): Levitates the targeted creature up off the ground.
+- [**Howling Agony**](ultimateMagic/spells/howlingAgony#_howling-agony): Screaming pain limits the target's actions.
+- [**Hydraulic Torrent**](advanced/spells/hydraulicTorrent#_hydraulic-torrent-): Creates torrent of water that bull rushes any creature in its path.
+- [**Illusory Script**](spells/illusoryScript#_illusory-script)M: Only select creatures can read text.
+- [**Improve Trap**](advancedRaceGuide/featuredRaces/kobolds#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
+- [**Invisibility Sphere**](spells/invisibilitySphere#_invisibility-sphere): Makes everyone within 10 ft. [invisible](glossary#_invisible).
+- [**Keen Edge**](spells/keenEdge#_keen-edge): Doubles normal weapon's threat range.
+- [**Ki Leech**](ultimateMagic/spells/kiLeech#_ki-leech): Add to your _ki_ pool when you critically hit.
+- [**Lightning Bolt**](spells/lightningBolt#_lightning-bolt): Electricity deals 1d6/level damage.
+- [**Loathsome Veil**](ultimateMagic/spells/loathsomeVeil#_loathsome-veil): Nauseate and/or sicken weak creatures.
+- [**Locate Weakness**](ultimateCombat/spells/locateWeakness#_locate-weakness): You roll damage twice when you roll damage for a critical hit and take the best damage.
+- [**Mad Monkeys**](ultimateMagic/spells/madMonkeys#_mad-monkeys): Summon a swarm of mischievous monkeys.
+- [**Magic Circle against Chaos/Evil/Good/Law**](spells/magicCircleAgainstChaos#_magic-circle-against-chaos): As _protection _spells, but 10-ft. radius and 10 min./level.
+- [**Magic Weapon, Greater**](spells/magicWeapon#_magic-weapon-greater): Weapon gains +1 bonus/four levels (max +5).
+- [**Major Image**](spells/majorImage#_major-image): As _ [silent image](spells/silentImage#_silent-image)_, plus sound, smell and thermal effects.
+- [**Marionette Possession**](ultimateMagic/spells/marionettePossession#_marionette-possession): As _ [magic jar](/spells/magicJar#_magic-jar), _but limited to line of sight.
+- [**Minor Dream**](advancedRaceGuide/coreRaces/gnomes#_minor-dream): This spell functions as the _dream spell_, except the messenger must be yourself or a gnome touched.
+- [**Monstrous Physique I**](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-i): Take the form and some of the powers of a Small or Medium monstrous humanoid.
+- [**Nixie's Lure**](advancedRaceGuide/featuredRaces/undines#_nixie's-lure): Creates an unearthly and infectious song that seductively summons all who hear it.
+- [**Nondetection**](spells/nondetection#_nondetection)M: Hides subject from divination, [scrying](spells/scrying#_scrying).
+- [**Pain Strike**](advanced/spells/painStrike#_pain-strike): Inflicts 1d6 nonlethal damage 1 round/level.
+- [**Paragon Surge**](advancedRaceGuide/coreRaces/halfElves#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
+- [**Pellet Blast**](ultimateCombat/spells/pelletBlast#_pellet-blast)M: Creates an explosion of conjured metal pellets. 
+- [**Phantom Driver**](ultimateCombat/spells/phantomDriver#_phantom-driver): Conjures a phantom to drive vehicles.
+- [**Phantom Steed**](spells/phantomSteed#_phantom-steed): Magic horse appears for 1 hour/level.
+- [**Prehensile Pilfer**](advancedRaceGuide/uncommonRaces/vanaras#_prehensile-pilfer): The target's tail moves and acts more quickly, almost with a mind of its own.
+- [**Protection from Arrows, Communal**](ultimateCombat/spells/protectionFromArrows#_protection-from-arrows,-communal): As _ [protection from arrows](spells/protectionFromArrows#_protection-from-arrows)_, but you may divide the duration among creatures touched.
+- [**Protection from Energy**](spells/protectionFromEnergy#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
+- [**Pup Shape**](ultimateCombat/spells/pupShape#_pup-shape): Transforms a single animal or magical beast into a younger and cuter version of itself for a short period of time.
+- [**Rage**](spells/rage#_rage): Gives +2 to [Str](gettingStarted#_strength) and [Con](gettingStarted#_constitution), +1 on [Will](combat#_will) saves, –2 to [AC](combat#_armor-class).
+- [**Raging Rubble**](advancedRaceGuide/featuredRaces/oreads#_raging-rubble): You animate an area of rubble, creating a dangerous, rolling area of debris.
+- [**Rain of Frogs**](ultimateMagic/spells/rainOfFrogs#_rain-of-frogs): Summon a swarm of poisonous frogs.
+- [**Ray of Exhaustion**](spells/rayOfExhaustion#_ray-of-exhaustion): Ray makes subject [exhausted](glossary#_exhausted).
+- [**Reckless Infatuation**](ultimateMagic/spells/recklessInfatuation#_reckless-infatuation): Target is compelled to stay near another.
+- [**Resinous Skin**](ultimateCombat/spells/resinousSkin#_resinous-skin): You gain DR 5/piercing and +4 to CMD against disarm attempts.
+- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy#_resist-energy)_, but you may divide the duration among creatures touched.
+- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon#_returning-weapon)_, but you may divide the duration among weapons touched.
+- [**Sands of Time**](ultimateMagic/spells/sandsOfTime#_sands-of-time): Target temporarily ages.
+- [**Secret Page**](spells/secretPage#_secret-page): Changes one page to hide its real content.
+- [**Seek Thoughts**](advanced/spells/seekThoughts#_seek-thoughts): Detects thinking creatures' thoughts.
+- [**Sepia Snake Sigil**](spells/sepiaSnakeSigil#_sepia-snake-sigil)M: Creates text symbol that immobilizes reader.
+- [**Share Language, Communal**](ultimateCombat/spells/shareLanguage#_share-language,-communal): As _ [share language](advanced/spells/shareLanguage#_share-language-)_, but you may divide the duration among creatures touched.
+- [**Shifting Sand**](advanced/spells/shiftingSand#_shifting-sand): Creates difficult terrain and erases tracks, can carry along some creatures and objects.
+- [**Shrink Item**](spells/shrinkItem#_shrink-item): Object shrinks to one-sixteenth size.
+- [**Sleet Storm**](spells/sleetStorm#_sleet-storm): Hampers vision and movement.
+- [**Slow**](spells/slow#_slow): One subject/level takes only one action/round, –1 to [AC](combat#_armor-class), [Reflex](combat#_reflex) saves, and attack rolls.
+- [**Spider Climb, Communal**](ultimateCombat/spells/spiderClimb#_spider-climb,-communal): As _ [spider climb](spells/spiderClimb#_spider-climb)_, but you may divide the duration among creatures touched.
+- [**Spiked Pit**](advanced/spells/spikedPit#_spiked-pit): As _ [create pit](advanced/spells/createPit#_create-pit-)_, but filled with spikes.
+- [**Stinking Cloud**](spells/stinkingCloud#_stinking-cloud): Nauseating vapors, 1 round/level.
+- [**Strangling Hair**](ultimateMagic/spells/stranglingHair#_strangling-hair): Your hair animates and grapples.
+- [**Suggestion**](spells/suggestion#_suggestion): Compels a subject to follow stated course of action.
+- [**Summon Monster III**](spells/summonMonster#_summon-monster-iii): Summons extraplanar creature to fight for you.
+- [**Tiny Hut**](spells/tinyHut#_tiny-hut): Creates shelter for 10 creatures.
+- [**Tongues**](spells/tongues#_tongues): Speak and understand any language.
+- [**Touch Injection**](ultimateCombat/spells/touchInjection#_touch-injection): You can deliver an infusion, elixir, poison, or potion as a touch attack.
+- [**Toxic Gift**](ultimateMagic/spells/toxicGift#_toxic-gift): Target suffers the effect of the poison in you.
+- [**Twilight Knife**](advanced/spells/twilightKnife#_twilight-knife-): Floating knife attacks with you.
+- [**Unadulterated Loathing**](ultimateMagic/spells/unadulteratedLoathing#_unadulterated-loathing): Target is compelled to avoid another creature.
+- [**Undead Anatomy I**](ultimateMagic/spells/undeadAnatomy#_undead-anatomy-i): Take the form and some of the powers of a Small or Medium undead.
+- [**Vampiric Touch**](spells/vampiricTouch#_vampiric-touch): Touch deals 1d6 damage per two levels; caster gains damage as temporary hp.
+- [**Versatile Weapon**](advanced/spells/versatileWeapon#_versatile-weapon): Weapon bypasses some DR.
+- [**Vision of Hell**](ultimateMagic/spells/visionOfHell#_vision-of-hell): Illusory hellscape makes creatures shaken.
+- [**Water Breathing**](spells/waterBreathing#_water-breathing): Subjects can breathe underwater.
+- [**Wind Wall**](spells/windWall#_wind-wall): Deflects arrows, smaller creatures, and gases.
+
+- [**Absorbing Inhalation**](advancedRaceGuide/featuredRaces/sylphs#_absorbing-inhalation): Harmlessly and completely inhale one gas, fog, smoke, mist, or similar cloud-like effect.
+- [**Acid Pit**](advanced/spells/acidPit#_acid-pit-)F: Creates a pit with a layer of acid on the bottom.
+- [**Age Resistance, Lesser**](ultimateMagic/spells/ageResistance#_age-resistance,-lesser): Ignore penalties from middle age.
+- [**Agonize**](ultimateMagic/spells/agonize#_agonize-): Pain encourages an outsider to obey you.
+- [**Animal Aspect, Greater**](ultimateCombat/spells/animalAspect#_animal-aspect,-greater): As _ [animal aspect](ultimateCombat/spells/animalAspect#_animal-aspect)_, but you gain two animal qualities.
+- [**Animate Dead**](spells/animateDead#_animate-dead)M: Creates undead skeletons and zombies out of corpses.
+- [**Arcane Eye**](spells/arcaneEye#_arcane-eye): Invisible floating eye moves 30 ft./round.
+- [**Ball Lightning**](advanced/spells/ballLightning#_ball-lightning): Flying balls of lightning deal 3d6 electricity damage each.
+- [**Beast Shape II**](spells/beastShape#_beast-shape-ii): You take the form and some of the powers of a Tiny or Large animal.
+- [**Bestow Curse**](spells/bestowCurse#_bestow-curse): –6 to an ability score; –4 on attack rolls, saves, and checks; or 50% chance of losing each action.
+- [**Black Tentacles**](spells/blackTentacles#_black-tentacles): Tentacles grapple all creatures within a 20-ft. spread.
+- [**Calcific Touch**](advanced/spells/calcificTouch#_calcific-touch): Touch attack slows target, 1d4 Dex damage.
+- [**Charm Monster**](spells/charmMonster#_charm-monster): Makes monster believe it is your ally.
+- [**Cloud Shape**](advancedRaceGuide/featuredRaces/sylphs#_cloud-shape): Functions like _gaseous form_, except you assume the shape of a Colossal cloud.
+- [**Confusion**](spells/confusion#_confusion): Subjects behave oddly for 1 round/level.
+- [**Contagion**](spells/contagion#_contagion): Infects subject with chosen disease.
+- [**Control Summoned Creature**](ultimateMagic/spells/controlSummonedCreature#_control-summoned-creature): Direct a summoned monster as if you had summoned it.
+- [**Crushing Despair**](spells/crushingDespair#_crushing-despair): Subjects take –2 on attack rolls, damage rolls, saves, and checks.
+- [**Curse of Magic Negation**](ultimateMagic/spells/curseOfMagicNegation#_curse-of-magic-negation): Target gains the negated spellblight.
+- [**Darkvision, Greater**](ultimateMagic/spells/darkvision#_darkvision,-greater): See 120 ft. in total darkness.
+- [**Daze, Mass**](ultimateMagic/spells/daze#_daze,-mass): As _ [daze](/spells/daze#_daze)_, but affecting multiple creatures.
+- [**Detect Scrying**](spells/detectScrying#_detect-scrying): Alerts you to magical eavesdropping
+- [**Detonate**](advanced/spells/detonate#_detonate)M: Inflicts 1d8/level energy damage to all creatures within 15 ft.
+- [**Dimension Door**](spells/dimensionDoor#_dimension-door): Teleports you a short distance.
+- [**Dimensional Anchor**](spells/dimensionalAnchor#_dimensional-anchor): Bars extradimensional movement.
+- [**Dragon's Breath**](advanced/spells/dragonSBreath#_dragon's-breath): Gives you a dragon's breath weapon.
+- [**Earth Glide**](advancedRaceGuide/uncommonRaces/svirfneblins#_earth-glide): The target can pass through stone, dirt, or almost any other sort of earth except metal.
+- [**Elemental Body I**](spells/elementalBody#_elemental-body-i): Turns you into a Small elemental.
+- [**Enervation**](spells/enervation#_enervation): Subject gains 1d4 [negative levels](glossary#_energy-drain-and-negative-levels).
+- [**Enlarge Person, Mass**](spells/enlargePerson#_enlarge-person-mass): 1 humanoid creature/level doubles in size.
+- [**False Life, Greater**](ultimateMagic/spells/falseLife#_false-life,-greater): Gain 2d10 temporary hp + 1/level.
+- [**Familiar Melding**](ultimateMagic/spells/familiarMelding#_familiar-melding): Possess your familiar.
+- [**Fear**](spells/fear#_fear): Subjects within cone flee for 1 round/level.
+- [**Fire Shield**](spells/fireShield#_fire-shield): Creatures attacking you take fire damage; you're protected from heat or cold.
+- [**Fire Trap**](spells/fireTrap#_fire-trap)M: Opened object deals 1d4 damage + 1/level.
+- [**Firefall**](advanced/spells/firefall#_firefall): Causes fire to burst up, dealing 2d6 fire damage.
+- [**Fleshworm Infestation**](ultimateMagic/spells/fleshwormInfestation#_fleshworm-infestation): Worms deal hp and Dex damage.
+- [**Forgetful Slumber**](advancedRaceGuide/coreRaces/halfElves#_forgetful-slumber): Acts as the _deeper slumber spell_, but only affects one creature of 10 Hit Dice or fewer.
+- [**Geas, Lesser**](spells/geasQuest#_geas-lesser): Commands subject of 7 HD or less.
+- [**Ghost Wolf**](advancedRaceGuide/coreRaces/halfOrcs#_ghost-wolf): Conjures a Large, quasi-real, wolflike creature made of roiling black smoke.
+- [**Globe of Invulnerability, Lesser**](spells/globeOfInvulnerability#_globe-of-invulnerability-lesser): Stops 1st- through 3rd-level spell effects.
+- [**Hallucinatory Terrain**](spells/hallucinatoryTerrain#_hallucinatory-terrain): Makes one type of terrain appear like another (field as forest, or the like).
+- [**Hellmouth Lash**](advancedRaceGuide/featuredRaces/tieflings#_hellmouth-lash): Your tongue transforms into an energy whip weapon that can deal acid, electricity, or fire damage.
+- [**Ice Storm**](spells/iceStorm#_ice-storm): Hail deals 5d6 damage in cylinder 40 ft. across.
+- [**Illusory Wall**](spells/illusoryWall#_illusory-wall): Wall, floor, or ceiling looks real, but anything can pass through.
+- [**Invisibility, Greater**](spells/invisibility#_invisibility-greater): As _ [invisibility](spells/invisibility#_invisibility), _but subject can attack and stay [invisible](glossary#_invisible).
+- [**Locate Creature**](spells/locateCreature#_locate-creature): Indicates direction to familiar creature.
+- [**Magic Siege Engine, Greater**](ultimateCombat/spells/magicSiegeEngine#_magic-siege-engine,-greater): Siege engine gains +1 on targeting and damage rolls for every four caster levels.
+- [**Malfunction**](ultimateMagic/spells/malfunction#_malfunction): Construct behaves oddly for 1 round/level.
+- [**Malicious Spite**](ultimateMagic/spells/maliciousSpite#_malicious-spite): Target is compelled to plot against another.
+- [**Miasmatic Form**](advancedRaceGuide/featuredRaces/sylphs#_miasmatic-form): Functions like _gaseous form_, except target's vaporous body is dangerous to creatures that touch it.
+- [**Minor Creation**](spells/minorCreation#_minor-creation): Creates one cloth or wood object.
+- [**Minor Phantom Object**](advancedRaceGuide/coreRaces/gnomes#_minor-phantom-object): Functions as the _minor creation_ spell, except the object created is a semi-real phantasm.
+- [**Mnemonic Enhancer**](spells/mnemonicEnhancer#_mnemonic-enhancer)F: _Wizard only. _Prepare extra spells or retain one just cast.
+- [**Monstrous Physique II**](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-ii): Take the form and some of the powers of a Tiny or Large monstrous humanoid.
+- [**Moonstruck**](advanced/spells/moonstruck#_moonstruck): Subject is enraged and confused.
+- [**Named Bullet**](ultimateCombat/spells/namedBullet#_named-bullet): Imbues ammunition with accuracy against a specific creature type.
+- [**Nondetection, Communal**](ultimateCombat/spells/nondetection#_nondetection,-communal)M: As _ [nondetection](spells/nondetection#_nondetection)_, but you may divide the duration among creatures touched.
+- [**Obsidian Flow**](ultimateCombat/spells/obsidianFlow#_obsidian-flow): Converts the surface of the ground into molten glass.
+- [**Overwhelming Grief**](ultimateMagic/spells/overwhelmingGrief#_overwhelming-grief): Grieving target can take no actions and is denied its Dex bonus.
+- [**Phantasmal Killer**](spells/phantasmalKiller#_phantasmal-killer): Fearsome illusion kills subject or deals 3d6 damage.
+- [**Phantom Chariot**](ultimateCombat/spells/phantomChariot#_phantom-chariot): Conjures a quasi-real heavy chariot pulled by four horses.
+- [**Phantom Steed, Communal**](ultimateCombat/spells/phantomSteed#_phantom-steed,-communal): As _ [phantom steed](spells/phantomSteed#_phantom-steed)_, but you may divide the duration among creatures touched.
+- [**Protection from Energy, Communal**](ultimateCombat/spells/protectionFromEnergy#_protection-from-energy,-communal): As _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, but you may divide the duration among creatures touched.
+- [**Rainbow Pattern**](spells/rainbowPattern#_rainbow-pattern): Lights fascinate 24 HD of creatures.
+- [**Reduce Person, Mass**](spells/reducePerson#_reduce-person-mass): As _ [reduce person](spells/reducePerson#_reduce-person)_, but affects 1 humanoid creature/level.
+- [**Remove Curse**](spells/removeCurse#_remove-curse): Frees object or person from curse.
+- [**Resilient Reservoir**](advancedRaceGuide/coreRaces/halfElves#_resilient-reservoir): Creates a magical well of retribution that a caster can unleash with blinding speed.
+- [**Resilient Sphere**](spells/resilientSphere#_resilient-sphere): Force globe protects but traps one subject.
+- [**Ride the Waves**](ultimateMagic/spells/rideTheWaves#_ride-the-waves): Target can breathe water and swim.
+- [**River of Wind**](advanced/spells/riverOfWind#_river-of-wind): A stream of wind causes nonlethal damage and can knock down or push creatures.
+- [**Scorching Ash Form**](advancedRaceGuide/featuredRaces/ifrits#_scorching-ash-form): Functions like _gaseous form_, except the target becomes a visible swirl of hot ash and smoke.
+- [**Scrying**](spells/scrying#_scrying)F: Spies on subject from a distance.
+- [**Secure Shelter**](spells/secureShelter#_secure-shelter): Creates sturdy cottage.
+- [**Shadow Conjuration**](spells/shadowConjuration#_shadow-conjuration): Mimics conjuration below 4th level, but only 20% real.
+- [**Shadow Projection**](advanced/spells/shadowProjection#_shadow-projection): Temporarily become a shadow.
+- [**Shadow Step**](ultimateMagic/spells/shadowStep#_shadow-step): Teleport from one shadow to another.
+- [**Shadowy Haven**](advancedRaceGuide/featuredRaces/fetchlings#_shadowy-haven): Functions like _rope trick_, except the point of entry is through a 5-foot-square instead of a rope.
+- [**Share Senses**](advanced/spells/shareSenses#_share-senses): See/hear/smell what your familiar is.
+- [**Shocking Image**](ultimateCombat/spells/shockingImage#_shocking-image): As _ [mirror image](spells/mirrorImage#_mirror-image)_, but the duplicates emit electrical damage when destroyed.
+- [**Shout**](spells/shout#_shout): Deafens all within cone and deals 5d6 sonic damage.
+- [**Simulacrum, Lesser**](ultimateMagic/spells/simulacrum#_simulacrum,-lesser): Creates a double of a weak creature.
+- [**Solid Fog**](spells/solidFog#_solid-fog): Blocks vision and slows movement.
+- [**Stone Shape**](spells/stoneShape#_stone-shape): Sculpts stone into any shape.
+- [**Stoneskin**](spells/stoneskin#_stoneskin)M: Grants [DR](glossary#_damage-reduction) 10/adamantine.
+- [**Summon Monster IV**](spells/summonMonster#_summon-monster-iv): Summons extraplanar creature to fight for you.
+- [**Symbol of Revelation**](ultimateMagic/spells/symbolOfRevelation#_symbol-of-revelation): Triggered symbol reveals illusions.
+- [**Symbol of Slowing**](ultimateMagic/spells/symbolOfSlowing#_symbol-of-slowing): Triggered rune slows creatures.
+- [**Telekinetic Charge**](ultimateCombat/spells/telekineticCharge#_telekinetic-charge-): Launches an ally through the air. 
+- [**Terrible Remorse**](ultimateMagic/spells/terribleRemorse#_terrible-remorse): Creature is compelled to harm itself.
+- [**Tongues, Communal**](ultimateCombat/spells/tongues#_tongues,-communal): As _ [tongues](spells/tongues#_tongues)_, but you may divide the duration among creatures touched.
+- [**Touch of Slime**](ultimateMagic/spells/touchOfSlime#_touch-of-slime): Touch infests a target with green slime.
+- [**True Form**](advanced/spells/trueForm#_true-form): Removes polymorph effects.
+- [**Vermin Shape I**](ultimateMagic/spells/verminShape#_vermin-shape-i-): Take the form and some of the powers of a Small or Medium vermin.
+- [**Vitriolic Mist**](ultimateMagic/spells/vitriolicMist#_vitriolic-mist): As _ [fire shield](/spells/fireShield#_fire-shield)_, except acid damage.
+- [**Volcanic Storm**](ultimateMagic/spells/volcanicStorm#_volcanic-storm): Hot rocks deal 5d6 damage.
+- [**Vomit Twin**](advancedRaceGuide/featuredRaces/goblins#_vomit-twin): You vomit forth a disgusting ooze copy of yourself into a single adjacent square.
+- [**Wall of Fire**](spells/wallOfFire#_wall-of-fire): Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage + 1/level.
+- [**Wall of Ice**](spells/wallOfIce#_wall-of-ice): _Ice plane _creates wall or _hemisphere _creates dome.
+- [**Wandering Star Motes**](advanced/spells/wanderingStarMotes#_wandering-star-motes): Outlines subject and produces light as a sunrod.
+- [**Web Cloud**](advancedRaceGuide/featuredRaces/drow#_web-cloud): Creates a cloud of flame-resistant strands of adhesive webbing.
+
+- [**Absorb Toxicity**](ultimateCombat/spells/absorbToxicity#_absorb-toxicity): You become immune to diseases and toxins, absorb one, and then spread it to others.
+- [**Acidic Spray**](ultimateMagic/spells/acidicSpray#_acidic-spray): 1d6/level acid damage plus 1 round of acid.
+- [**Animal Growth**](spells/animalGrowth#_animal-growth): One animal doubles in size.
+- [**Astral Projection, Lesser**](ultimateMagic/spells/astralProjection#_astral-projection,-lesser): Limited astral travel.
+- [**Baleful Polymorph**](spells/balefulPolymorph#_baleful-polymorph): Turns subject into harmless animal.
+- [**Beast Shape III**](spells/beastShape#_beast-shape-iii): You take the form of a Diminutive or Huge animal, or Small or Medium magical beast.
+- [**Blight**](spells/blight#_blight): Withers one plant or deals 1d6/level damage to plant creature.
+- [**Break Enchantment**](spells/breakEnchantment#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
+- [**Cloudkill**](spells/cloudkill#_cloudkill): Kills 3 HD or less; 4–6 HD save or die, 6+ HD take [Con](gettingStarted#_constitution) damage.
+- [**Cone of Cold**](spells/coneOfCold#_cone-of-cold): 1d6/level cold damage.
+- [**Contact Other Plane**](spells/contactOtherPlane#_contact-other-plane): Lets you ask question of extraplanar entity.
+- [**Corrosive Consumption**](ultimateMagic/spells/corrosiveConsumption#_corrosive-consumption): Acidic patch damages an opponent.
+- [**Curse of Disgust**](ultimateMagic/spells/curseOfDisgust#_curse-of-disgust): Target is sickened when viewing a trigger.
+- [**Damnation Stride**](advancedRaceGuide/featuredRaces/tieflings#_damnation-stride): Functions like _dimension door_, except you leave behind a burst of fire.
+- [**Dismissal**](spells/dismissal#_dismissal): Forces a creature to return to its native plane.
+- [**Dominate Person**](spells/dominatePerson#_dominate-person): Controls humanoid telepathically.
+- [**Dream**](spells/dream#_dream): Sends message to anyone sleeping.
+- [**Echolocation**](ultimateMagic/spells/echolocation#_echolocation): Sonic sense gives you blindsight 40 ft.
+- [**Elemental Body II**](spells/elementalBody#_elemental-body-ii): Turns you into a Medium elemental.
+- [**Energy Siege Shot**](ultimateCombat/spells/energySiegeShot#_energy-siege-shot): A Large siege engine deals energy damage that you designate with other effects depending on the type of energy you choose.
+- [**Fabricate**](spells/fabricate#_fabricate)M: Transforms raw materials into finished items.
+- [**False Vision**](spells/falseVision#_false-vision)M: Fools [scrying](spells/scrying#_scrying) with an illusion.
+- [**Feeblemind**](spells/feeblemind#_feeblemind): Subject's [Int](gettingStarted#_intelligence) and [Cha](gettingStarted#_charisma-new) drop to 1.
+- [**Fickle Winds**](ultimateMagic/spells/fickleWinds#_fickle-winds): Wind walls selectively block attacks.
+- [**Fire Snake**](advanced/spells/fireSnake#_fire-snake): Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level.
+- [**Geyser**](advanced/spells/geyser#_geyser-): Creates a geyser of boiling water.
+- [**Half-blood Extraction**](advancedRaceGuide/coreRaces/halfOrcs#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
+- [**Hold Monster**](spells/holdMonster#_hold-monster): As _ [hold person](spells/holdPerson#_hold-person)_, but any creature.
+- [**Hostile Juxtaposition**](ultimateCombat/spells/hostileJuxtaposition#_hostile-juxtaposition): You create a dimensional link with a targeted creature, and switch spots with it.
+- [**Hungry Pit**](advanced/spells/hungryPit#_hungry-pit-): As _ [create pit](advanced/spells/createPit#_create-pit-)_, but dealing 4d6 damage to those in it as it closes.
+- [**Icy Prison**](ultimateMagic/spells/icyPrison#_icy-prison): Thick ice holds and damages the target.
+- [**Interposing Hand**](spells/interposingHand#_interposing-hand): Hand provides cover against 1 opponent.
+- [**Life Bubble**](advanced/spells/lifeBubble#_life-bubble-): Protects creatures from sustained environmental effects.
+- [**Lightning Arc**](ultimateMagic/spells/lightningArc#_lightning-arc): Targets in a line take 1d6 electricity/level.
+- [**Mage's Faithful Hound**](spells/mageSFaithfulHound#_mage-s-faithful-hound): Phantom dog can guard a location and attack intruders.
+- [**Mage's Private Sanctum**](spells/mageSPrivateSanctum#_mage-s-private-sanctum): Prevents anyone from viewing or [scrying](spells/scrying#_scrying) an area for 24 hours.
+- [**Magic Jar**](spells/magicJar#_magic-jar)F: Enables possession of another creature.
+- [**Major Creation**](spells/majorCreation#_major-creation): As _ [minor creation](spells/minorCreation#_minor-creation), _plus stone and metal.
+- [**Major Phantom Object**](advancedRaceGuide/coreRaces/gnomes#_major-phantom-object): Functions as the _major creation_ spell, except the object created is a semi-real phantasm.
+- [**Mind Fog**](spells/mindFog#_mind-fog): Subjects in fog get –10 to [Wis](gettingStarted#_wisdom) and [Will](combat#_will) checks.
+- [**Mirage Arcana**](spells/mirageArcana#_mirage-arcana): As _ [hallucinatory terrain](spells/hallucinatoryTerrain#_hallucinatory-terrain), _plus structures.
+- [**Monstrous Physique III**](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-iii): Take the form and some of the powers of a Diminutive or Huge monstrous humanoid.
+- [**Nightmare**](spells/nightmare#_nightmare): Sends vision dealing 1d10 damage, fatigue.
+- [**Overland Flight**](spells/overlandFlight#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
+- [**Pain Strike, Mass**](advanced/spells/painStrike#_pain-strike,-mass): As _pain_, but affects multiple creatures.
+- [**Passwall**](spells/passwall#_passwall): Creates passage through wood or stone wall.
+- [**Permanency**](spells/permanency#_permanency)M: Makes certain spells permanent.
+- [**Persistent Image**](spells/persistentImage#_persistent-image): As _ [major image](spells/majorImage#_major-image)_, but with no concentration required.
+- [**Phantasmal Web**](advanced/spells/phantasmalWeb#_phantasmal-web): Catches subjects in illusory web.
+- [**Plague Carrier**](ultimateMagic/spells/plagueCarrier#_plague-carrier): Target's attacks carry filth fever.
+- [**Planar Adaptation**](advanced/spells/planarAdaptation#_planar-adaptation): Resist harmful effects of other plane.
+- [**Planar Binding, Lesser**](spells/planarBinding#_planar-binding-lesser): Traps extraplanar creature of 6 HD or less until it performs a task.
+- [**Plant Shape I**](spells/plantShape#_plant-shape-i): Turns you into a Small or Medium plant.
+- [**Polymorph**](spells/polymorph#_polymorph): Gives one willing subject a new form.
+- [**Possess Object**](ultimateMagic/spells/possessObject#_possess-object): Possess and animate one object.
+- [**Prying Eyes**](spells/pryingEyes#_prying-eyes): 1d4 + 1/level floating eyes scout for you.
+- [**Rapid Repair**](ultimateMagic/spells/rapidRepair#_rapid-repair): Construct gains fast healing 5.
+- [**Secret Chest**](spells/secretChest#_secret-chest)F: Hides expensive chest on Ethereal Plane; you retrieve it at will.
+- [**Seeming**](spells/seeming#_seeming): Changes appearance of 1 person per 2 levels.
+- [**Sending**](spells/sending#_sending): Delivers short message anywhere, instantly.
+- [**Shadow Evocation**](spells/shadowEvocation#_shadow-evocation): Mimics evocation below 5th level, but only 20% real.
+- [**Smug Narcissism**](ultimateMagic/spells/smugNarcissism#_smug-narcissism): Target is distracted by its sense of self.
+- [**Sonic Thrust**](ultimateMagic/spells/sonicThrust#_sonic-thrust): Sound moves targets away from you.
+- [**Soothe Construct**](ultimateMagic/spells/sootheConstruct#_soothe-construct): Reduce the berserk chance of a construct.
+- [**Stoneskin, Communal**](ultimateCombat/spells/stoneskin#_stoneskin,-communal)M: As _ [stoneskin](spells/stoneskin#_stoneskin)_, but you may divide the duration among creatures touched.
+- [**Suffocation**](advanced/spells/suffocation#_suffocation): Target quickly suffocates to death.
+- [**Summon Monster V**](spells/summonMonster#_summon-monster-v): Summons extraplanar creature to fight for you.
+- [**Summoner Conduit**](ultimateCombat/spells/summonerConduit#_summoner-conduit): The target eidolon's summoner takes damage whenever the eidolon does.
+- [**Symbol of Pain**](spells/symbolOfPain#_symbol-of-pain)M: Triggered rune wracks creatures with pain.
+- [**Symbol of Scrying**](ultimateMagic/spells/symbolOfScrying#_symbol-of-scrying): Triggered rune activates scrying sensor.
+- [**Symbol of Sleep**](spells/symbolOfSleep#_symbol-of-sleep)M: Triggered rune puts nearby creatures into catatonic slumber.
+- [**Symbol of Striking**](ultimateCombat/spells/symbolOfStriking#_symbol-of-striking)M: As _ [symbol of death](spells/symbolOfDeath#_symbol-of-death)_, but fills a 5-foot square.
+- [**Telekinesis**](spells/telekinesis#_telekinesis): Moves object, attacks creature, or hurls object or creature.
+- [**Telepathic Bond**](spells/telepathicBond#_telepathic-bond): Link lets allies communicate.
+- [**Teleport**](spells/teleport#_teleport): Instantly transports you as far as 100 miles per level.
+- [**Transmute Mud to Rock**](spells/transmuteMudToRock#_transmute-mud-to-rock): Transforms two 10-ft. cubes per level.
+- [**Transmute Rock to Mud**](spells/transmuteRockToMud#_transmute-rock-to-mud): Transforms two 10-ft. cubes per level.
+- [**Treasure Stitching**](advanced/spells/treasureStitching#_treasure-stitching-)M: Objects on cloth become embroidered.
+- [**Truespeak**](advancedRaceGuide/featuredRaces/aasimars#_truespeak): You can communicate with any creature that is not mindless.
+- [**Unbreakable Construct**](ultimateMagic/spells/unbreakableConstruct#_unbreakable-construct): Increase construct hardness or DR.
+- [**Undead Anatomy II**](ultimateMagic/spells/undeadAnatomy#_undead-anatomy-ii): Take the form and some of the powers of a Tiny or Large undead.
+- [**Vermin Shape II**](ultimateMagic/spells/verminShape#_vermin-shape-ii): As _vermin shape_, but Tiny or Large.
+- [**Village Veil**](advancedRaceGuide/coreRaces/halflings#_village-veil): Creates an illusion over an area to make creatures that view or interact with it believe it has suffered a catastrophe that renders it utterly worthless.
+- [**Wall of Force**](spells/wallOfForce#_wall-of-force): Wall is immune to damage.
+- [**Wall of Sound**](ultimateMagic/spells/wallOfSound#_wall-of-sound): Sonic wall deflects and damages creatures.
+- [**Wall of Stone**](spells/wallOfStone#_wall-of-stone): Creates a stone wall that can be shaped.
+- [**Waves of Fatigue**](spells/wavesOfFatigue#_waves-of-fatigue): Several targets become [fatigued](glossary#_fatigued).
+- [**Wind Blades**](advancedRaceGuide/featuredRaces/sylphs#_wind-blades): Harden the air around the target into jagged invisible blades.
+- [**Wreath of Blades**](ultimateCombat/spells/wreathOfBlades#_wreath-of-blades)F: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
+
+- [**Acid Fog**](spells/acidFog#_acid-fog): Fog deals acid damage.
+- [**Age Resistance**](ultimateMagic/spells/ageResistance#_age-resistance): Ignore penalties from old age.
+- [**Analyze Dweomer**](spells/analyzeDweomer#_analyze-dweomer)F: Reveals magical aspects of subject.
+- [**Antimagic Field**](spells/antimagicField#_antimagic-field): Negates magic within 10 ft.
+- [**Battlemind Link**](ultimateMagic/spells/battlemindLink#_battlemind-link): You and an ally gain attack and AC bonuses.
+- [**Bear's Endurance, Mass**](spells/bearSEndurance#_bear-s-endurance-mass): As _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, affects one subject/level.
+- [**Beast Shape IV**](spells/beastShape#_beast-shape-iv): You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast.
+- [**Bull's Strength, Mass**](spells/bullSStrength#_bull-s-strength-mass): As _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, affects 1 subject per level.
+- [**Cat's Grace, Mass**](spells/catSGrace#_cat-s-grace-mass): As _ [cat's grace](spells/catSGrace#_cat-s-grace)_, affects 1 subject/level.
+- [**Chain Lightning**](spells/chainLightning#_chain-lightning): 1d6/level damage and 1 secondary bolt/level.
+- [**Chains of Fire**](advancedRaceGuide/featuredRaces/ifrits#_chains-of-fire): Functions like _chain lightning_, except deals fire damage.
+- [**Circle of Death**](spells/circleOfDeath#_circle-of-death)M: Kills 1d4/level HD of creatures.
+- [**Cloak of Dreams**](advanced/spells/cloakOfDreams#_cloak-of-dreams): Creatures within 5 ft. fall asleep.
+- [**Cold Ice Strike**](ultimateMagic/spells/coldIceStrike#_cold-ice-strike): Cone of ice slivers deals 1d6 cold/level.
+- [**Conjure Black Pudding**](ultimateMagic/spells/conjureBlackPudding#_conjure-black-pudding): Summon a black pudding.
+- [**Contagion, Greater**](ultimateMagic/spells/contagion#_contagion,-greater): Infect a subject with a magical disease.
+- [**Contagious Flame**](advanced/spells/contagiousFlame#_contagious-flame): Scorching rays cause 4d6 fire damage, then move on to new targets.
+- [**Contingency**](spells/contingency#_contingency)F: Sets trigger condition for another spell.
+- [**Control Water**](spells/controlWater#_control-water): Raises or lowers bodies of water.
+- [**Create Undead**](spells/createUndead#_create-undead)M: Raises ghouls, ghasts, mummies, or mohrgs from physical remains.
+- [**Curse, Major**](ultimateMagic/spells/curse#_curse,-major): As _ [bestow curse](/spells/bestowCurse#_bestow-curse)_, but harder to remove.
+- [**Disintegrate**](spells/disintegrate#_disintegrate): Reduces one creature or object to dust.
+- [**Dispel Magic, Greater**](spells/dispelMagic#_dispel-magic-greater): As _ [dispel magic](spells/dispelMagic#_dispel-magic)_, but with multiple targets.
+- [**Eagle's Splendor, Mass**](spells/eagleSSplendor#_eagle-s-splendor-mass): As _ [eagle's splendor](spells/eagleSSplendor#_eagle-s-splendor)_, 1 subject/level.
+- [**Elemental Body III**](spells/elementalBody#_elemental-body-iii): Turns you into a Large elemental.
+- [**Enemy Hammer**](advanced/spells/enemyHammer#_enemy-hammer-): Allows you to telekinetically use a creature as a weapon.
+- [**Energy Siege Shot, Greater**](ultimateCombat/spells/energySiegeShot#_energy-siege-shot,-greater): As _ [energy siege shot](ultimateCombat/spells/energySiegeShot#_energy-siege-shot)_, but you can affect any size siege engine.
+- [**Envious Urge**](ultimateMagic/spells/enviousUrge#_envious-urge): Targets steal from or disarm others.
+- [**Eyebite**](spells/eyebite#_eyebite): Target becomes [panicked](glossary#_panicked), [sickened](glossary#_sickened), and comatose.
+- [**Flesh to Stone**](spells/fleshToStone#_flesh-to-stone): Turns subject creature into statue.
+- [**Fluid Form**](advanced/spells/fluidForm#_fluid-form): Gain DR 10/slashing, increases reach 10 ft., and breathe water.
+- [**Forceful Hand**](spells/forcefulHand#_forceful-hand): Hand pushes creatures away.
+- [**Form of the Dragon I**](spells/formOfTheDragon#_form-of-the-dragon-i): Turns you into a Medium dragon.
+- [**Fox's Cunning, Mass**](spells/foxSCunning#_fox-s-cunning-mass): As _ [fox's cunning](spells/foxSCunning#_fox-s-cunning)_, affects 1 subject/ level.
+- [**Freezing Sphere**](spells/freezingSphere#_freezing-sphere): Freezes water or deals cold damage.
+- [**Geas/Quest**](spells/geasQuest#_geas-quest): As _lesser geas, _but affects any creature.
+- [**Getaway**](advanced/spells/getaway#_getaway-): Teleports you and select creatures to predetermined location.
+- [**Globe of Invulnerability**](spells/globeOfInvulnerability#_globe-of-invulnerability): As _ [lesser globe of invulnerability](spells/globeOfInvulnerability#_globe-of-invulnerability-lesser)_, plus 4th-level spell effects.
+- [**Guards and Wards**](spells/guardsAndWards#_guards-and-wards): Array of magic effects protect area.
+- [**Heroism, Greater**](spells/heroism#_heroism-greater): Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.
+- [**Ice Crystal Teleport**](ultimateMagic/spells/iceCrystalTeleport#_ice-crystal-teleport): Target is frozen, then teleported.
+- [**Legend Lore**](spells/legendLore#_legend-lore)MF: Lets you learn tales about a person, place, or thing.
+- [**Mage's Lucubration**](spells/mageSLucubration#_mage-s-lucubration): _Wizard only. _Recalls spell of 5th level or lower.
+- [**Mislead**](spells/mislead#_mislead): Turns you [invisible](glossary#_invisible) and creates illusory double.
+- [**Monstrous Physique IV**](ultimateMagic/spells/monstrousPhysique#_monstrous-physique-iv): As monstrous physique III, with more abilities.
+- [**Move Earth**](spells/moveEarth#_move-earth): Digs trenches and builds hills.
+- [**Named Bullet, Greater**](ultimateCombat/spells/namedBullet#_named-bullet,-greater): As _ [named bullet](ultimateCombat/spells/namedBullet#_named-bullet)_, but deals 2 points of damage for every caster level.
+- [**Owl's Wisdom, Mass**](spells/owlSWisdom#_owl-s-wisdom-mass): As _ [owl's wisdom](spells/owlSWisdom#_owl-s-wisdom)_, affects 1 subject/level.
+- [**Path of the Winds**](advancedRaceGuide/featuredRaces/sylphs#_path-of-the-winds): You call forth mighty winds to clear a path ahead of you.
+- [**Permanent Image**](spells/permanentImage#_permanent-image): Permanent illusion, includes sight, sound, smell, and thermal effects.
+- [**Planar Binding**](spells/planarBinding#_planar-binding): As _ [lesser planar binding](spells/planarBinding#_planar-binding-lesser), _but up to 12 HD.
+- [**Plant Shape II**](spells/plantShape#_plant-shape-ii): Turns you into a Large plant creature.
+- [**Programmed Image**](spells/programmedImage#_programmed-image)M: As _ [major image](spells/majorImage#_major-image)_, but triggered by event.
+- [**Repulsion**](spells/repulsion#_repulsion)F: Creatures can't approach you.
+- [**Serenity**](ultimateMagic/spells/serenity#_serenity): Peaceful feelings harm those attempting violence.
+- [**Shadow Walk**](spells/shadowWalk#_shadow-walk): Step into shadow to travel rapidly.
+- [**Sirocco**](advanced/spells/sirocco#_sirocco): Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures prone.
+- [**Stone to Flesh**](spells/stoneToFlesh#_stone-to-flesh): Restores [petrified](glossary#_petrified) creature.
+- [**Suggestion, Mass**](spells/suggestion#_suggestion-mass): As _ [suggestion](spells/suggestion#_suggestion), _affects 1 subject/level.
+- [**Summon Monster VI**](spells/summonMonster#_summon-monster-vi): Summons extraplanar creature to fight for you.
+- [**Symbol of Fear**](spells/symbolOfPain#_symbol-of-pain)M: Triggered rune panics nearby creatures.
+- [**Symbol of Persuasion**](spells/symbolOfPersuasion#_symbol-of-persuasion)M: Triggered rune charms creatures.
+- [**Symbol of Sealing**](ultimateMagic/spells/symbolOfSealing#_symbol-of-sealing): Create triggered _ [wall of force](/spells/wallOfForce#_wall-of-force)_.
+- [**Tar Pool**](ultimateCombat/spells/tarPool#_tar-pool): Converts the top layer of the ground into hot tar.
+- [**Transformation**](spells/transformation#_transformation)M: You gain combat bonuses.
+- [**True Seeing**](spells/trueSeeing#_true-seeing)M: Lets you see all things as they really are.
+- [**Undead Anatomy III**](ultimateMagic/spells/undeadAnatomy#_undead-anatomy-iii): Take the form and some of the powers of a Diminutive or Huge undead.
+- [**Undeath to Death**](spells/undeathToDeath#_undeath-to-death)M: Destroys 1d4/level HD of undead (max. 20d4).
+- [**Unwilling Shield**](advanced/spells/unwillingShield#_unwilling-shield)M: Subject shares wounds you receive.
+- [**Utter Contempt**](ultimateMagic/spells/utterContempt#_utter-contempt): Target's attitude worsens by two categories.
+- [**Veil**](spells/veil#_veil): Changes appearance of a group of creatures.
+- [**Vengeful Outrage**](ultimateMagic/spells/vengefulOutrage#_vengeful-outrage): Target is compelled to destroy one enemy.
+- [**Wall of Iron**](spells/wallOfIron#_wall-of-iron)M: 30 hp/four levels; can topple onto foes.
+
+- [**Arcane Cannon**](ultimateCombat/spells/arcaneCannon#_arcane-cannon)F: Your focus becomes a magical cannon that fires on its own.
+- [**Age Resistance, Greater**](ultimateMagic/spells/ageResistance#_age-resistance,-greater): Ignore penalties from venerable age.
+- [**Arcane Sight, Greater**](spells/arcaneSight#_arcane-sight-greater): As _ [arcane sight](spells/arcaneSight#_arcane-sight)_, but also reveals magic effects on creatures and objects.
+- [**Banishment**](spells/banishment#_banishment): Banishes 2 HD/level of extraplanar creatures.
+- [**Caustic Eruption**](ultimateMagic/spells/causticEruption#_caustic-eruption): Burst deals 1d6 acid/level and lingers.
+- [**Circle of Clarity**](ultimateMagic/spells/circleOfClarity#_circle-of-clarity): Emanation hampers illusions and stealth.
+- [**Control Construct**](ultimateMagic/spells/controlConstruct#_control-construct): Take control of a construct.
+- [**Control Undead**](spells/controlUndead#_control-undead): Undead don't attack you while under your command.
+- [**Control Weather**](spells/controlWeather#_control-weather): Changes weather in local area.
+- [**Create Demiplane, Lesser**](ultimateMagic/spells/createDemiplane#_create-demiplane,-lesser): Create your own demiplane.
+- [**Deflection**](advanced/spells/deflection#_deflection-): Attacks that miss are redirected back to the source of the attack.
+- [**Delayed Blast Fireball**](spells/delayedBlastFireball#_delayed-blast-fireball): 1d6/level fire damage; you can postpone blast for up to 5 rounds.
+- [**Elemental Body IV**](spells/elementalBody#_elemental-body-iv): Turns you into a Huge elemental.
+- [**Epidemic**](ultimateMagic/spells/epidemic#_epidemic): Infect a subject with a highly contagious disease.
+- [**Ethereal Jaunt**](spells/etherealJaunt#_ethereal-jaunt): You become ethereal for 1 round/level.
+- [**Expend**](advanced/spells/expend#_expend-): Wastes creatures' limited use magical ability.
+- [**Finger of Death**](spells/fingerOfDeath#_finger-of-death): Deals 10 damage/level to one subject.
+- [**Firebrand**](advanced/spells/firebrand#_firebrand): Allies gain _ [flaming](magicItems/weapons#_weapons-flaming)_ weapons, immunity to your fire spells, and a one-use ray of fire attack.
+- [**Fly, Mass**](advanced/spells/fly#_fly,-mass): One creature/level gains ability to fly.
+- [**Forcecage**](spells/forcecage#_forcecage)M: Cube or cage of force imprisons all inside.
+- [**Form of the Dragon II**](spells/formOfTheDragon#_form-of-the-dragon-ii): Turns you into a Large dragon.
+- [**Giant Form I**](spells/giantForm#_giant-form-i): Turns you into a Large giant.
+- [**Grasping Hand**](spells/graspingHand#_grasping-hand): Hand provides cover, pushes, or grapples.
+- [**Hold Person, Mass**](spells/holdPerson#_hold-person-mass): As _ [hold person](spells/holdPerson#_hold-person)_, but all within 30 ft.
+- [**Hostile Juxtaposition, Greater**](ultimateCombat/spells/hostileJuxtaposition#_hostile-juxtaposition,-greater): You may target one creature for every four of your caster levels.
+- [**Ice Body**](ultimateMagic/spells/iceBody#_ice-body): Your body becomes living ice.
+- [**Insanity**](spells/insanity#_insanity): Subject suffers continuous _ [confusion](spells/confusion#_confusion)_.
+- [**Instant Summons**](spells/instantSummons#_instant-summons)M: Prepared object appears in your hand.
+- [**Invisibility, Mass**](spells/invisibility#_invisibility-mass): As _ [invisibility](spells/invisibility#_invisibility)_, but affects all in range.
+- [**Joyful Rapture**](ultimateMagic/spells/joyfulRapture#_joyful-rapture): Negate harmful emotions.
+- [**Ki Shout**](ultimateMagic/spells/kiShout#_ki-shout): Target takes 1d6 sonic/level and is stunned.
+- [**Limited Wish**](spells/limitedWish#_limited-wish)M: Alters reality (within limits).
+- [**Lunar Veil**](ultimateMagic/spells/lunarVeil#_lunar-veil): Dispel light and revert lycanthropes.
+- [**Mage's Magnificent Mansion**](spells/mageSMagnificentMansion#_mage-s-magnificent-mansion)F: Door leads to extradimensional mansion.
+- [**Mage's Sword**](spells/mageSSword#_mage-s-sword)F: Floating magic blade strikes opponents.
+- [**Phantasmal Revenge**](advanced/spells/phantasmalRevenge#_phantasmal-revenge): Ghost from corpse hunts killer.
+- [**Phase Door**](spells/phaseDoor#_phase-door): Creates an [invisible](glossary#_invisible) passage through a barrier.
+- [**Plague Storm**](ultimateMagic/spells/plagueStorm#_plague-storm): Cloud infects creatures like _ [contagion](/spells/contagion#_contagion)_.
+- [**Planar Adaptation, Mass**](advanced/spells/planarAdaptation#_planar-adaptation,-mass): As _ [planar adaptation](advanced/spells/planarAdaptation#_planar-adaptation)_, but affects multiple creatures.
+- [**Plane Shift**](spells/planeShift#_plane-shift)F: As many as eight subjects travel to another plane.
+- [**Plant Shape III**](spells/plantShape#_plant-shape-iii): Turns you into a Huge plant.
+- [**Polymorph, Greater**](spells/polymorph#_polymorph-greater): Gives one willing subject a new, more powerful form.
+- [**Power Word Blind**](spells/powerWordBlind#_power-word-blind): Blinds creature with 200 hp or less.
+- [**Prismatic Spray**](spells/prismaticSpray#_prismatic-spray): Rays hit subjects with variety of effects.
+- [**Project Image**](spells/projectImage#_project-image): Illusory double can talk and cast spells.
+- [**Rampart**](advanced/spells/rampart#_rampart): Creates 5-ft.-thick earthen barrier.
+- [**Resonating Word**](ultimateMagic/spells/resonatingWord#_resonating-word): Target is damaged, staggered, and stunned.
+- [**Reverse Gravity**](spells/reverseGravity#_reverse-gravity): Objects and creatures fall upward.
+- [**Scouring Winds**](ultimateMagic/spells/scouringWinds#_scouring-winds): Winds block vision and deal 3d6 damage per round.
+- [**Scrying, Greater**](spells/scrying#_scrying-greater): As _ [scrying](spells/scrying#_scrying)_, but faster and longer.
+- [**Sequester**](spells/sequester#_sequester): Subject is [invisible](glossary#_invisible) to sight and [scrying](spells/scrying#_scrying); renders creature comatose.
+- [**Shadow Conjuration, Greater**](spells/shadowConjuration#_shadow-conjuration-greater): As _ [shadow conjuration](spells/shadowConjuration#_shadow-conjuration), _but up to 6th level and 60% real.
+- [**Simulacrum**](spells/simulacrum#_simulacrum)M: Creates partially real double of a creature.
+- [**Spell Turning**](spells/spellTurning#_spell-turning)M: Reflect 1d4+6 spell levels back at caster.
+- [**Statue**](spells/statue#_statue): Subject can become a statue at will.
+- [**Summon Monster VII**](spells/summonMonster#_summon-monster-vii): Summons extraplanar creature to fight for you.
+- [**Symbol of Stunning**](spells/symbolOfStunning#_symbol-of-stunning)M: Triggered rune stuns creatures.
+- [**Symbol of Weakness**](spells/symbolOfWeakness#_symbol-of-weakness)M: Triggered rune weakens creatures.
+- [**Teleport Object**](spells/teleportObject#_teleport-object): As _ [teleport](spells/teleport#_teleport), _but affects a touched object.
+- [**Teleport, Greater**](spells/teleport#_teleport-greater): As _ [teleport](spells/teleport#_teleport), _but no range limit and no off-target arrival.
+- [**Temporary Resurrection**](ultimateMagic/spells/temporaryResurrection#_temporary-resurrection): Bring a creature to life for 24 hours, after which it dies again.
+- [**Vision**](spells/vision#_vision)M: As _ [legend lore](spells/legendLore#_legend-lore)_, but quicker.
+- [**Vortex**](advanced/spells/vortex#_vortex): Creates a whirlpool in water.
+- [**Walk through Space**](ultimateCombat/spells/walkThroughSpace#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
+- [**Waves of Ecstasy**](ultimateMagic/spells/wavesOfEcstasy#_waves-of-ecstasy): Pleasure stuns and staggers creatures.
+- [**Waves of Exhaustion**](spells/wavesOfExhaustion#_waves-of-exhaustion): Several targets become [exhausted](glossary#_exhausted).
+
+- [**Antipathy**](spells/antipathy#_antipathy): Object or location affected by spell repels certain creatures.
+- [**Binding**](spells/binding#_binding)M: Utilizes an array of techniques to imprison a creature.
+- [**Call Construct**](ultimateMagic/spells/callConstruct#_call-construct): Summon your construct to you.
+- [**Charm Monster, Mass**](spells/charmMonster#_charm-monster-mass): As _ [charm monster](spells/charmMonster#_charm-monster), _but all within 30 ft.
+- [**Clenched Fist**](spells/clenchedFist#_clenched-fist): Large hand provides cover, pushes, or attacks your foes.
+- [**Clone**](spells/clone#_clone)MF: Duplicate awakens when original dies.
+- [**Create Demiplane**](ultimateMagic/spells/createDemiplane#_create-demiplane): As _ [lesser create demiplane](ultimateMagic/spells/createDemiplane#_create-demiplane,-lesser)_, but larger and with planar traits.
+- [**Create Greater Undead**](spells/createGreaterUndead#_create-greater-undead)M: Creates shadows, wraiths, spectres, or devourers.
+- [**Demand**](spells/demand#_demand): As _ [sending](spells/sending#_sending), _plus you can send _ [suggestion](spells/suggestion#_suggestion)._
+- [**Dimensional Lock**](spells/dimensionalLock#_dimensional-lock): Teleportation and interplanar travel blocked for 1 day/level.
+- [**Discern Location**](spells/discernLocation#_discern-location): Reveals exact location of creature or object.
+- [**Euphoric Tranquility**](advanced/spells/euphoricTranquility#_euphoric-tranquility): Makes a creature friendly.
+- [**Form of the Dragon III**](spells/formOfTheDragon#_form-of-the-dragon-iii): Turns you into a Huge dragon.
+- [**Frightful Aspect**](ultimateCombat/spells/frightfulAspect#_frightful-aspect): You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.
+- [**Giant Form II**](spells/giantForm#_giant-form-ii): Turns you into a Huge giant.
+- [**Horrid Wilting**](spells/horridWilting#_horrid-wilting): Deals 1d6/level damage within 30 ft.
+- [**Incendiary Cloud**](spells/incendiaryCloud#_incendiary-cloud): Cloud deals 6d6 fire damage/round.
+- [**Iron Body**](spells/ironBody#_iron-body): Your body becomes living iron.
+- [**Irresistible Dance**](spells/irresistibleDance#_irresistible-dance): Forces subject to dance.
+- [**Maze**](spells/maze#_maze): Traps subject in extradimensional maze.
+- [**Mind Blank**](spells/mindBlank#_mind-blank): Subject is protected from mental/emotional magic and [scrying](spells/scrying#_scrying).
+- [**Moment of Prescience**](spells/momentOfPrescience#_moment-of-prescience): You gain +1/level insight bonus on single attack roll, check, or save.
+- [**Orb of the Void**](ultimateMagic/spells/orbOfTheVoid#_orb-of-the-void): Sphere inflicts negative levels.
+- [**Planar Binding, Greater**](spells/planarBinding#_planar-binding-greater): As _ [lesser planar binding](spells/planarBinding#_planar-binding-lesser), _but up to 18 HD.
+- [**Polar Ray**](spells/polarRay#_polar-ray): Ranged touch attack deals 1d6/level cold damage and 1d4 points of [Dexterity](gettingStarted#_dexterity) drain.
+- [**Polymorph Any Object**](spells/polymorphAnyObject#_polymorph-any-object): Changes a subject into anything else.
+- [**Power Word Stun**](spells/powerWordStun#_power-word-stun): Stuns creature with 150 hp or less.
+- [**Prediction of Failure**](ultimateMagic/spells/predictionOfFailure#_prediction-of-failure): Target is permanently shaken and sickened, and may gain a spellblight.
+- [**Prismatic Wall**](spells/prismaticWall#_prismatic-wall): Wall's colors have array of effects.
+- [**Protection from Spells**](spells/protectionFromSpells#_protection-from-spells)MF: Confers +8 resistance bonus.
+- [**Prying Eyes, Greater**](spells/pryingEyes#_prying-eyes-greater): As _ [prying eyes](spells/pryingEyes#_prying-eyes)_, but eyes have _ [true seeing](spells/trueSeeing#_true-seeing)_.
+- [**Scintillating Pattern**](spells/scintillatingPattern#_scintillating-pattern): Twisting colors _confuse, _stun, or render [unconscious](glossary#_unconscious).
+- [**Screen**](spells/screen#_screen): Illusion hides area from vision and [scrying](spells/scrying#_scrying).
+- [**Seamantle**](advanced/spells/seamantle#_seamantle): Sheathes you in protective water.
+- [**Shadow Evocation, Greater**](spells/shadowEvocation#_shadow-evocation-greater): As _ [shadow evocation](spells/shadowEvocation#_shadow-evocation), _but up to 7th level and 60% real.
+- [**Shout, Greater**](spells/shout#_shout-greater): Devastating yell deals 10d6 sonic damage; stuns creatures.
+- [**Stormbolts**](advanced/spells/stormbolts#_stormbolts): 1d8 damage/level (max 20d8) to targets.
+- [**Summon Monster VIII**](spells/summonMonster#_summon-monster-viii): Summons extraplanar creature to fight for you.
+- [**Sunburst**](spells/sunburst#_sunburst): Blinds all within 10 ft., deals 6d6 damage.
+- [**Symbol of Death**](spells/symbolOfDeath#_symbol-of-death)M: Triggered rune kills nearby creatures.
+- [**Symbol of Insanity**](spells/symbolOfInsanity#_symbol-of-insanity)M: Triggered rune renders nearby creatures insane.
+- [**Sympathy**](spells/sympathy#_sympathy)M: Object or location attracts certain creatures.
+- [**Telekinetic Sphere**](spells/telekineticSphere#_telekinetic-sphere): As_ [resilient sphere](spells/resilientSphere#_resilient-sphere), _but you move the sphere telekinetically.
+- [**Temporal Stasis**](spells/temporalStasis#_temporal-stasis)M: Puts subject into suspended animation.
+- [**Trap the Soul**](spells/trapTheSoul#_trap-the-soul)M: Imprisons subject within gem.
+- [**Undead Anatomy IV**](ultimateMagic/spells/undeadAnatomy#_undead-anatomy-iv): As _ [undead anatomy III](ultimateMagic/spells/undeadAnatomy#_undead-anatomy-iii)_, but with more abilities.
+- [**Wall of Lava**](advanced/spells/wallOfLava#_wall-of-lava): Wall damages foes that try to enter, periodically launches lava at nearby targets.
+
+- [**Astral Projection**](spells/astralProjection#_astral-projection)M: Projects you and companions onto Astral Plane.
+- [**Clashing Rocks**](advanced/spells/clashingRocks#_clashing-rocks): 20d6 damage to target creature.
+- [**Create Demiplane, Greater**](ultimateMagic/spells/createDemiplane#_create-demiplane,-greater): As _ [create demiplane](ultimateMagic/spells/createDemiplane#_create-demiplane)_, but larger and with more planar traits.
+- [**Crushing Hand**](spells/crushingHand#_crushing-hand): Large hand provides cover, pushes, or crushes your foes.
+- [**Cursed Earth**](ultimateMagic/spells/cursedEarth#_cursed-earth): Plants die, living creatures catch diseases, or dead creatures rise as zombies.
+- [**Dominate Monster**](spells/dominateMonster#_dominate-monster): As _ [dominate person](spells/dominatePerson#_dominate-person), _but any creature.
+- [**Energy Drain**](spells/energyDrain#_energy-drain): Subject gains 2d4 [negative levels](glossary#_energy-drain-and-negative-levels).
+- [**Etherealness**](spells/etherealness#_etherealness): Travel to Ethereal Plane with companions.
+- [**Fiery Body**](advanced/spells/fieryBody#_fiery-body): You gain various fire-related powers.
+- [**Foresight**](spells/foresight#_foresight): “Sixth sense” warns of impending danger.
+- [**Freedom**](spells/freedom#_freedom): Releases creature from _ [imprisonment](spells/imprisonment#_imprisonment)._
+- [**Gate**](spells/gate#_gate)M: Connects two planes for travel or summoning.
+- [**Heroic Invocation**](ultimateCombat/spells/heroicInvocation#_heroic-invocation): Grants a number of creatures bonuses on attacks and damage, temporary hit points, and immunity to fear and charm effects.
+- [**Hold Monster, Mass**](spells/holdMonster#_hold-monster-mass): As _ [hold monster](spells/holdMonster#_hold-monster), _but all within 30 ft.
+- [**Icy Prison, Mass**](ultimateMagic/spells/icyPrison#_icy-prison,-mass): As _ [icy prison](ultimateMagic/spells/icyPrison#_icy-prison)_, but it affects 1 creature/level.
+- [**Imprisonment**](spells/imprisonment#_imprisonment): Entombs subject beneath the earth.
+- [**Interplanetary Teleport**](ultimateMagic/spells/interplanetaryTeleport#_interplanetary-teleport): Teleport to another planet.
+- [**Mage's Disjunction**](spells/mageSDisjunction#_mage-s-disjunction): Dispels magic, disenchants magic items.
+- [**Meteor Swarm**](spells/meteorSwarm#_meteor-swarm): Four exploding spheres each deal 6d6 fire damage.
+- [**Mind Blank, Communal**](ultimateCombat/spells/mindBlank#_mind-blank,-communal): As _ [mind blank](spells/mindBlank#_mind-blank)_, but you may divide the duration among creatures touched.
+- [**Overwhelming Presence**](ultimateMagic/spells/overwhelmingPresence#_overwhelming-presence): Creatures bow before you as if you were divine.
+- [**Power Word Kill**](spells/powerWordKill#_power-word-kill): Kills one creature with 100 hp or less.
+- [**Prismatic Sphere**](spells/prismaticSphere#_prismatic-sphere): As _ [prismatic wall](spells/prismaticWall#_prismatic-wall)_, but surrounds on all sides.
+- [**Refuge**](spells/refuge#_refuge)M: Alters item to transport its possessor to your abode.
+- [**Ride the Lightning**](ultimateMagic/spells/rideTheLightning#_ride-the-lightning): Transform into electricity.
+- [**Shades**](spells/shades#_shades): As _ [shadow conjuration](spells/shadowConjuration#_shadow-conjuration)_, but up to 8th level and 80% real.
+- [**Shapechange**](spells/shapechange#_shapechange)F: Transforms you into certain creatures, and lets you change forms once per round.
+- [**Soul Bind**](spells/soulBind#_soul-bind)F: Traps newly dead soul to prevent _ [resurrection](spells/resurrection#_resurrection)_.
+- [**Suffocation, Mass**](advanced/spells/suffocation#_suffocation,-mass): One creature/level suffocates to death.
+- [**Summon Monster IX**](spells/summonMonster#_summon-monster-ix): Summons extraplanar creature to fight for you.
+- [**Symbol of Strife**](ultimateMagic/spells/symbolOfStrife#_symbol-of-strife): Triggered rune makes creatures attack.
+- [**Symbol of Vulnerability**](ultimateMagic/spells/symbolOfVulnerability#_symbol-of-vulnerability): Triggered rune gives penalties.
+- [**Teleportation Circle**](spells/teleportationCircle#_teleportation-circle)M: Teleports creatures inside circle.
+- [**Time Stop**](spells/timeStop#_time-stop): You act freely for 1d4+1 rounds.
+- [**Transmute Blood to Acid**](ultimateMagic/spells/transmuteBloodToAcid#_transmute-blood-to-acid): Target takes acid damage each round, and its attackers take acid damage.
+- [**Tsunami**](advanced/spells/tsunami#_tsunami): Huge wave damages and sweeps up all in its path.
+- [**Wail of the Banshee**](spells/wailOfTheBanshee#_wail-of-the-banshee): Deals 10 damage/level to 1 creature/level.
+- [**Wall of Suppression**](advanced/spells/wallOfSuppression#_wall-of-suppression-)M: Creates wall that disables magic. 
+- [**Weird**](spells/weird#_weird): As _ [phantasmal killer](spells/phantasmalKiller#_phantasmal-killer), _but affects all within 30 ft.
+- [**Winds of Vengeance**](advanced/spells/windsOfVengeance#_winds-of-vengeance): Gives you the ability to fly and attack with wind.
+- [**Wish**](spells/wish#_wish)M: As _ [limited wish](spells/limitedWish#_limited-wish), _but with fewer limits.
+- [**Wooden Phalanx**](ultimateMagic/spells/woodenPhalanx#_wooden-phalanx): Creates 1d4+2 temporary wood golems to fight for you.
+- [**World Wave**](advanced/spells/worldWave#_world-wave-): Earth moves you across distances.
+
+- [**Acid Splash**](spells/acidSplash#_acid-splash): Orb deals 1d3 acid damage.
+- [**Arcane Mark**](spells/arcaneMark#_arcane-mark): Inscribes a personal rune on an object or creature (visible or invisible).
+- [**Daze**](spells/daze#_daze): A single humanoid creature with 4 HD or less loses its next action.
+- [**Detect Magic**](spells/detectMagic#_detect-magic): Detects all spells and magic items within 60 ft.
+- [**Guidance**](spells/guidance#_guidance): +1 on one attack roll, saving throw, or skill check.
+- [**Light**](spells/light#_light): Object shines like a torch.
+- [**Mage Hand**](spells/mageHand#_mage-hand): 5-pound telekinesis.
+- [**Mending**](spells/mending#_mending): Makes minor repairs on an object.
+- [**Message**](spells/message#_message): Whisper conversation at distance.
+- [**Open/Close**](spells/openClose#_open-close): Opens or closes small or light things.
+- [**Read Magic**](spells/readMagic#_read-magic): Read scrolls and spellbooks.
+- [**Resistance**](spells/resistance#_resistance): Subject gains +1 on saving throws.
+
+- [**Alarm**](spells/alarm#_alarm): Wards an area for 2 hours/level.
+- [**Ant Haul**](advanced/spells/antHaul#_ant-haul-): Triples carrying capacity of a creature.
+- [**Compel Hostility**](ultimateCombat/spells/compelHostility#_compel-hostility): Compels opponents to attack you instead of your allies.
+- [**Corrosive Touch**](ultimateMagic/spells/corrosiveTouch#_corrosive-touch): Touch attack deals 1d4 acid/level.
+- [**Daze Monster**](spells/dazeMonster#_daze-monster): Living creature of 6 HD or less loses its next action.
+- [**Endure Elements**](spells/endureElements#_endure-elements): Exist comfortably in hot or cold regions.
+- [**Enlarge Person**](spells/enlargePerson#_enlarge-person): Humanoid creature doubles in size.
+- [**Expeditious Retreat**](spells/expeditiousRetreat#_expeditious-retreat): Your base speed increases by 30 ft.
+- [**Feather Fall**](spells/featherFall#_feather-fall): Objects or creatures fall slowly.
+- [**Grease**](spells/grease#_grease): Makes 10-ft. square or one object slippery.
+- [**Icicle Dagger**](ultimateMagic/spells/icicleDagger#_icicle-dagger): Masterwork ice dagger deals +1 cold damage.
+- [**Identify**](spells/identify#_identify): Gives +10 bonus to identify magic items.
+- [**Jump**](spells/jump#_jump): Subject gets bonus on Acrobatics checks.
+- [**Jury-Rig**](ultimateCombat/spells/juryRig#_jury-rig): Removes the broken condition from the targeted object.
+- [**Life Conduit**](ultimateCombat/spells/lifeConduit#_life-conduit): You are bound even tighter to your eidolon than normal, and may share hit points with it through your life link ability.
+- [**Mage Armor**](spells/mageArmor#_mage-armor): Gives subject +4 armor bonus.
+- [**Magic Fang**](spells/magicFang#_magic-fang): One natural weapon of subject creature gets +1 on attack and damage rolls.
+- [**Magic Mouth**](spells/magicMouth#_magic-mouth)M: Object speaks once when triggered.
+- [**Mount**](spells/mount#_mount): Summons riding horse for 2 hours/level.
+- [**Protection from Chaos**](spells/protectionFromChaos#_protection-from-chaos): +2 to [AC](combat#_armor-class) and saves, plus additional protection against selected alignment.
+- [**Ray of Sickening**](ultimateMagic/spells/rayOfSickening#_ray-of-sickening): Ray makes the subject sickened.
+- [**Reduce Person**](spells/reducePerson#_reduce-person): Humanoid creature halves in size.
+- [**Rejuvenate Eidolon, Lesser**](advanced/spells/rejuvenateEidolon#_rejuvenate-eidolon,-lesser): Eidolon cured 1d10 damage +1/level (max +5).
+- [**Shield**](spells/shield#_shield): Invisible disc gives +4 to [AC](combat#_armor-class), blocks _ [magic missile](spells/magicMissile#_magic-missile)s._
+- [**Stone Shield**](advancedRaceGuide/featuredRaces/oreads#_stone-shield): 1-inch-thick slab of stone springs up from the ground, shielding you.
+- [**Summon Minor Monster**](ultimateMagic/spells/summonMinorMonster#_summon-minor-monster): Summon 1d3 Tiny animals.
+- [**Summon Monster I**](spells/summonMonster#_summon-monster-i): _(Evil creatures only.) _Summons extraplanar creature to fight for you.
+- [**Unfetter**](advanced/spells/unfetter#_unfetter): Remove distance restriction on eidolon.
+- [**Unseen Servant**](spells/unseenServant#_unseen-servant): Invisible force obeys your commands.
+- [**Ventriloquism**](spells/ventriloquism#_ventriloquism): Throws voice for 1 min./level.
+
+- [**Ablative Barrier**](ultimateCombat/spells/ablativeBarrier#_ablative-barrier): Surrounds the target with layers of force.
+- [**Alter Self**](spells/alterSelf#_alter-self): Assume form of a Small or Medium humanoid.
+- [**Ant Haul, Communal**](ultimateCombat/spells/antHaul#_ant-haul,-communal): As _ [ant haul](advanced/spells/antHaul#_ant-haul-)_, but you may divide the duration among creatures touched.
+- [**Barkskin**](spells/barkskin#_barkskin): Grants +2 (or higher) enhancement to natural armor.
+- [**Bear's Endurance**](spells/bearSEndurance#_bear-s-endurance): Subject gains +4 to [Con](gettingStarted#_constitution) for 1 min./level.
+- [**Blur**](spells/blur#_blur): Attacks miss subject 20% of the time.
+- [**Bull's Strength**](spells/bullSStrength#_bull-s-strength): Subject gains +4 to Str for 1 min./level.
+- [**Cat's Grace**](spells/catSGrace#_cat-s-grace): Subject gains +4 to [Dex](gettingStarted#_dexterity) for 1 min./level.
+- [**Create Pit**](advanced/spells/createPit#_create-pit-)F: Creates an extradimensional pit.
+- [**Cushioning Bands**](ultimateMagic/spells/cushioningBands#_cushioning-bands): Force bands protect against crushing.
+- [**Detect Thoughts**](spells/detectThoughts#_detect-thoughts): Allows “listening” to surface thoughts.
+- [**Eagle's Splendor**](spells/eagleSSplendor#_eagle-s-splendor): Subject gains +4 to Cha for 1 min./level.
+- [**Evolution Surge, Lesser**](advanced/spells/evolutionSurge#_evolution-surge,-lesser): Grants eidolon an evolution with 2 evolution points.
+- [**Fox's Cunning**](spells/foxSCunning#_fox-s-cunning): Subject gains +4 to [Int](gettingStarted#_intelligence) for 1 min./level.
+- [**Ghost Wolf**](advancedRaceGuide/coreRaces/halfOrcs#_ghost-wolf): Conjures a Large, quasi-real, wolflike creature made of roiling black smoke.
+- [**Glide**](advanced/spells/glide#_glide-): You take no falling damage and move 60 ft./round while falling.
+- [**Glitterdust**](spells/glitterdust#_glitterdust): Blinds targets, outlines invisible things.
+- [**Haste**](spells/haste#_haste): One creature/level moves faster, +1 on attack rolls, [AC](combat#_armor-class), and [Reflex](combat#_reflex) saves.
+- [**Invisibility**](spells/invisibility#_invisibility): Subject is invisible for 1 min./level or until it attacks.
+- [**Levitate**](spells/levitate#_levitate): Subject moves up and down at your direction.
+- [**Misdirection**](spells/misdirection#_misdirection): Misleads divinations for 1 creature or object.
+- [**Mount, Communal**](ultimateCombat/spells/mount#_mount,-communal): As _ [mount](spells/mount#_mount)_, but you may divide the duration among creatures touched. 
+- [**Owl's Wisdom**](spells/owlSWisdom#_owl-s-wisdom): Subject gains +4 to [Wis](gettingStarted#_wisdom) for 1 min./level.
+- [**Phantom Steed**](spells/phantomSteed#_phantom-steed): Magic horse appears for 1 hour/level.
+- [**Protection from Arrows**](spells/protectionFromArrows#_protection-from-arrows): Subject gains [DR](glossary#_damage-reduction) 10/magic against ranged attacks.
+- [**Protection from Chaos, Communal**](ultimateCombat/spells/protectionFromChaos#_protection-from-chaos,-communal): As _ [protection from chaos](spells/protectionFromChaos#_protection-from-chaos)_, but you may divide the duration among creatures touched.
+- [**Protection from Evil, Communal**](ultimateCombat/spells/protectionFromEvil#_protection-from-evil,-communal): As _ [protection from evil](spells/protectionFromEvil#_protection-from-evil)_, but you may divide the duration among creatures touched.
+- [**Protection from Good, Communal**](ultimateCombat/spells/protectionFromGood#_protection-from-good,-communal): As _ [protection from good](spells/protectionFromGood#_protection-from-good)_, but you may divide the duration among creatures touched.
+- [**Protection from Law, Communal**](ultimateCombat/spells/protectionFromLaw#_protection-from-law,-communal): As _ [protection from law](spells/protectionFromLaw#_protection-from-law)_, but you may divide the duration among creatures touched.
+- [**Resist Energy**](spells/resistEnergy#_resist-energy): Ignores first 10 (or more) points of damage per attack from specified energy type.
+- [**Restore Eidolon, Lesser**](ultimateMagic/spells/restoreEidolon#_restore-eidolon,-lesser): _ [Lesser restoration](/spells/restoration#_restoration-lesser)_ for an eidolon.
+- [**See Invisibility**](spells/seeInvisibility#_see-invisibility): Reveals [invisible](glossary#_invisible) creatures or objects.
+- [**Slow**](spells/slow#_slow): One subject/level takes only one action/round, –1 to [AC](combat#_armor-class), [Reflex](combat#_reflex) saves, and attack rolls.
+- [**Spider Climb**](spells/spiderClimb#_spider-climb): Grants ability to walk on walls and ceilings.
+- [**Summon Eidolon**](advanced/spells/summonEidolon#_summon-eidolon): Instantly summons your eidolon for duration of spell.
+- [**Summon Monster II**](spells/summonMonster#_summon-monster-ii): Summons elemental creature.
+- [**Summon Swarm**](spells/summonSwarm#_summon-swarm): Summons swarm of bats, rats, or spiders.
+- [**Twisted Space**](ultimateCombat/spells/twistedSpace#_twisted-space): Targeted creature's attacks target a random square instead of the intended target.
+- [**Warding Weapon**](ultimateCombat/spells/wardingWeapon#_warding-weapon)F: The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity.
+- [**Web Shelter**](ultimateMagic/spells/webShelter#_web-shelter): Create a comfortable shelter made of webbing.
+- [**Wind Wall**](spells/windWall#_wind-wall): Deflects arrows, smaller creatures, gasses.
+
+- [**Agonize**](ultimateMagic/spells/agonize#_agonize-): Pain encourages an outsider to obey you.
+- [**Aqueous Orb**](advanced/spells/aqueousOrb#_aqueous-orb): Creates rolling sphere of water.
+- [**Black Tentacles**](spells/blackTentacles#_black-tentacles): Tentacles grapple all creatures within a 20-ft. spread.
+- [**Charm Monster**](spells/charmMonster#_charm-monster): Makes monster believe it is your ally.
+- [**Control Summoned Creature**](ultimateMagic/spells/controlSummonedCreature#_control-summoned-creature): Direct a summoned monster as if you had summoned it.
+- [**Devolution**](advanced/spells/devolution#_devolution): An eidolon temporarily loses 1 evolution +1/five levels.
+- [**Dimension Door**](spells/dimensionDoor#_dimension-door): Teleports you a short distance.
+- [**Dimensional Anchor**](spells/dimensionalAnchor#_dimensional-anchor): Bars extradimensional movement.
+- [**Dispel Magic**](spells/dispelMagic#_dispel-magic): Cancels one magical spell or effect.
+- [**Displacement**](spells/displacement#_displacement): Attacks miss subject 50% of the time.
+- [**Enlarge Person, Mass**](spells/enlargePerson#_enlarge-person-mass): 1 humanoid creature/level doubles in size.
+- [**Evolution Surge**](advanced/spells/evolutionSurge#_evolution-surge): Grants eidolon an evolution with 4 evolution points.
+- [**Fire Shield**](spells/fireShield#_fire-shield): Creatures attacking you take fire damage; you're protected from heat or cold.
+- [**Fly**](spells/fly): Subject flies at a speed of 60 ft.
+- [**Heroism**](spells/heroism#_heroism): Gives +2 bonus on attack rolls, saves, skill checks.
+- [**Invisibility, Greater**](spells/invisibility#_invisibility-greater): As _ [invisibility](../spells/invisibility#_invisibility)_, but subject can attack and stay invisible.
+- [**Life Conduit, Improved**](ultimateCombat/spells/lifeConduit#_life-conduit,-improved): Transfers 2d6 hit points to your eidolon as a swift action.
+- [**Locate Creature**](spells/locateCreature#_locate-creature): Indicates direction to familiar creature.
+- [**Mad Monkeys**](ultimateMagic/spells/madMonkeys#_mad-monkeys): Summon a swarm of mischievous monkeys.
+- [**Magic Circle against Chaos/Evil/Good/Law**](spells/magicCircleAgainstChaos#_magic-circle-against-chaos): As _protection _spells, but 10-ft. radius and 10 min./level.
+- [**Magic Fang, Greater**](spells/magicFang#_magic-fang-greater): One natural weapon gets + 1/four levels (max. +5).
+- [**Marionette Possession**](ultimateMagic/spells/marionettePossession#_marionette-possession): As magic jar, but limited to line of sight.
+- [**Minor Creation**](spells/minorCreation#_minor-creation): Creates one cloth or wood object.
+- [**Nondetection**](spells/nondetection#_nondetection)M: Hides subject from divination, [scrying](spells/scrying#_scrying).
+- [**Obsidian Flow**](ultimateCombat/spells/obsidianFlow#_obsidian-flow): Converts the surface of the ground into molten glass.
+- [**Pellet Blast**](ultimateCombat/spells/pelletBlast#_pellet-blast)M: Creates an explosion of conjured metal pellets. 
+- [**Phantom Chariot**](ultimateCombat/spells/phantomChariot#_phantom-chariot): Conjures a quasi-real heavy chariot pulled by four horses.
+- [**Phantom Steed, Communal**](ultimateCombat/spells/phantomSteed#_phantom-steed,-communal): As _ [phantom steed](spells/phantomSteed#_phantom-steed)_, but you may divide the duration among creatures touched.
+- [**Protection From Energy**](spells/protectionFromEnergy#_protection-from-energy): Absorbs 12 points/level of damage from one kind of energy.
+- [**Protection from Arrows, Communal**](ultimateCombat/spells/protectionFromArrows#_protection-from-arrows,-communal): As _ [protection from arrows](spells/protectionFromArrows#_protection-from-arrows)_, but you may divide the duration among creatures touched.
+- [**Rage**](spells/rage#_rage): Gives +2 to [Str](gettingStarted#_strength) and [Con](gettingStarted#_constitution), +1 on [Will](combat#_will) saves, –2 to [AC](combat#_armor-class).
+- [**Rain of Frogs**](ultimateMagic/spells/rainOfFrogs#_rain-of-frogs): Summon a swarm of poisonous frogs.
+- [**Reduce Person, Mass**](spells/reducePerson#_reduce-person-mass): As _ [reduce person](spells/reducePerson#_reduce-person)_, but affects 1 humanoid creature/level.
+- [**Rejuvenate Eidolon**](advanced/spells/rejuvenateEidolon#_rejuvenate-eidolon): As _ [lesser rejuvenate eidolon](advanced/spells/rejuvenateEidolon#_rejuvenate-eidolon,-lesser)_, but cures 3d10 damage +1/level (max +10).
+- [**Resist Energy, Communal**](ultimateCombat/spells/resistEnergy#_resist-energy,-communal): As _ [resist energy](spells/resistEnergy#_resist-energy)_, but you may divide the duration among creatures touched.
+- [**Restore Eidolon**](ultimateMagic/spells/restoreEidolon#_restore-eidolon): _ [Restoration](/spells/restoration#_restoration)_ for an eidolon.
+- [**Seek Thoughts**](advanced/spells/seekThoughts#_seek-thoughts): Detects creatures in the area thinking about something.
+- [**Spider Climb, Communal**](ultimateCombat/spells/spiderClimb#_spider-climb,-communal): As _ [spider climb](spells/spiderClimb#_spider-climb)_, but you may divide the duration among creatures touched.
+- [**Spiked Pit**](advanced/spells/spikedPit#_spiked-pit): As _ [create pit](advanced/spells/createPit#_create-pit-)_, but filled with spikes.
+- [**Stoneskin**](spells/stoneskin#_stoneskin)M: Grants DR 10/adamantine.
+- [**Summon Monster IV**](spells/summonMonster#_summon-monster-iv): Summons elemental creature to fight for you.
+- [**Tongues**](spells/tongues#_tongues): Speak and understand any language.
+- [**Vomit Twin**](advancedRaceGuide/featuredRaces/goblins#_vomit-twin): You vomit forth a disgusting ooze copy of yourself into a single adjacent square.
+- [**Wall of Fire**](spells/wallOfFire#_wall-of-fire): 2d4 fire damage to 10 ft. and 1d4 to 20 ft. Passing through wall deals 2d6 damage +1/level.
+- [**Wall of Ice**](spells/wallOfIce#_wall-of-ice): Ice plane creates wall or hemisphere creates dome.
+- [**Water Breathing**](spells/waterBreathing#_water-breathing): Subjects can breathe underwater.
+
+- [**Acid Pit**](advanced/spells/acidPit#_acid-pit-)M: Creates a pit with a layer of acid on the bottom.
+- [**Baleful Polymorph**](spells/balefulPolymorph#_baleful-polymorph): Turns subject into harmless animal.
+- [**Bear's Endurance, Mass**](spells/bearSEndurance#_bear-s-endurance-mass): As _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, affects one subject/level.
+- [**Binding**](spells/binding#_binding)M: Utilizes an array of techniques to imprison a creature.
+- [**Bull's Strength, Mass**](spells/bullSStrength#_bull-s-strength-mass): As _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, affects 1 subject per level.
+- [**Cat's Grace, Mass**](spells/catSGrace#_cat-s-grace-mass): As _ [cat's grace](spells/catSGrace#_cat-s-grace)_, affects 1 subject/level.
+- [**Contact Other Plane**](spells/contactOtherPlane#_contact-other-plane): Lets you ask question of extraplanar entity.
+- [**Damnation Stride**](advancedRaceGuide/featuredRaces/tieflings#_damnation-stride): Functions like _dimension door_, except you leave behind a burst of fire.
+- [**Daze, Mass**](ultimateMagic/spells/daze#_daze,-mass): As _ [daze](/spells/daze#_daze)_, but affecting multiple creatures.
+- [**Dismissal**](spells/dismissal#_dismissal): Forces a creature to return to its native plane.
+- [**Eagle's Splendor, Mass**](spells/eagleSSplendor#_eagle-s-splendor-mass): As _ [eagle's splendor](spells/eagleSSplendor#_eagle-s-splendor)_, 1 subject/level.
+- [**Evolution Surge, Greater**](advanced/spells/evolutionSurge#_evolution-surge,-greater): Grants eidolon two evolutions with a total of 6 evolution points.
+- [**Fox's Cunning, Mass**](spells/foxSCunning#_fox-s-cunning-mass): As _ [fox's cunning](spells/foxSCunning#_fox-s-cunning)_, affects 1 subject/ level.
+- [**Grace**](advanced/spells/grace#_grace): Movement doesn't provoke attacks of opportunity.
+- [**Hold Monster**](spells/holdMonster#_hold-monster): As _ [hold person](spells/holdPerson#_hold-person)_, but any creature.
+- [**Hostile Juxtaposition**](ultimateCombat/spells/hostileJuxtaposition#_hostile-juxtaposition): You create a dimensional link with a targeted creature, and switch spots with it.
+- [**Insect Plague**](spells/insectPlague#_insect-plague): Wasp swarms attack creatures.
+- [**Mage's Faithful Hound**](spells/mageSFaithfulHound#_mage-s-faithful-hound): Phantom dog can guard a location and attack intruders.
+- [**Magic Jar**](spells/magicJar#_magic-jar)F: Enables possession of another creature.
+- [**Major Creation**](spells/majorCreation#_major-creation): As _ [minor creation](spells/minorCreation#_minor-creation), _plus stone and metal.
+- [**Nixie's Lure**](advancedRaceGuide/featuredRaces/undines#_nixie's-lure): Creates an unearthly and infectious song that seductively summons all who hear it.
+- [**Overland Flight**](spells/overlandFlight#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
+- [**Owl's Wisdom, Mass**](spells/owlSWisdom#_owl-s-wisdom-mass): As _ [owl's wisdom](spells/owlSWisdom#_owl-s-wisdom)_, affects 1 subject/level.
+- [**Planar Binding, Lesser**](spells/planarBinding#_planar-binding-lesser): Traps extraplanar creature of 6 HD or less until it performs a task.
+- [**Protection from Energy, Communal**](ultimateCombat/spells/protectionFromEnergy#_protection-from-energy,-communal): As _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, but you may divide the duration among creatures touched.
+- [**Purified Calling**](advanced/spells/purifiedCalling#_purified-calling): Eidolon summoned is fully healed.
+- [**Sending**](spells/sending#_sending): Delivers short message anywhere, instantly.
+- [**Stoneskin, Communal**](ultimateCombat/spells/stoneskin#_stoneskin,-communal)M: As _ [stoneskin](spells/stoneskin#_stoneskin)_, but you may divide the duration among creatures touched.
+- [**Summon Monster V**](spells/summonMonster#_summon-monster-v): Summons elemental creature to fight for you.
+- [**Summoner Conduit**](ultimateCombat/spells/summonerConduit#_summoner-conduit): The target takes damage whenever its summoned creature does.
+- [**Teleport**](spells/teleport#_teleport): Instantly transports you as far as 100 miles per level.
+- [**Tongues, Communal**](ultimateCombat/spells/tongues#_tongues,-communal): As _ [tongues](spells/tongues#_tongues)_, but you may divide the duration among creatures touched.
+- [**Transmogrify**](advanced/spells/transmogrify#_transmogrify)M: Change your eidolon's evolutions.
+- [**Vitriolic Mist**](ultimateMagic/spells/vitriolicMist#_vitriolic-mist): As _ [fire shield](/spells/fireShield#_fire-shield)_, except acid damage.
+- [**Wall of Stone**](spells/wallOfStone#_wall-of-stone): Creates a stone wall that can be shaped.
+
+- [**Banishment**](spells/banishment#_banishment): Banishes 2 HD/level of extraplanar creatures.
+- [**Conjure Black Pudding**](ultimateMagic/spells/conjureBlackPudding#_conjure-black-pudding): Summon a black pudding.
+- [**Create Demiplane, Lesser**](ultimateMagic/spells/createDemiplane#_create-demiplane,-lesser): Create your own demiplane.
+- [**Creeping Doom**](spells/creepingDoom#_creeping-doom): Swarms of centipedes attack at your command.
+- [**Dispel Magic, Greater**](spells/dispelMagic#_dispel-magic-greater): As _ [dispel magic](spells/dispelMagic#_dispel-magic)_, but with multiple targets.
+- [**Energy Siege Shot**](ultimateCombat/spells/energySiegeShot#_energy-siege-shot): A Large siege engine deals energy damage that you designate with other effects depending on the type of energy you choose.
+- [**Ethereal Jaunt**](spells/etherealJaunt#_ethereal-jaunt): You become ethereal for 1 round/level.
+- [**Heroism, Greater**](spells/heroism#_heroism-greater): Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.
+- [**Hungry Pit**](advanced/spells/hungryPit#_hungry-pit-): As _ [create pit](advanced/spells/createPit#_create-pit-)_, but dealing 4d6 damage to those in it as it closes.
+- [**Ice Crystal Teleport**](ultimateMagic/spells/iceCrystalTeleport#_ice-crystal-teleport): Target is frozen, then teleported.
+- [**Invisibility, Mass**](spells/invisibility#_invisibility-mass): As _ [invisibility](spells/invisibility#_invisibility)_, but affects all in range.
+- [**Life Conduit, Greater**](ultimateCombat/spells/lifeConduit#_life-conduit,-greater): You transfer 3d6 hit points to your eidolon as a swift action.
+- [**Planar Adaptation**](advanced/spells/planarAdaptation#_planar-adaptation): Resist harmful effects of other plane.
+- [**Planar Binding**](spells/planarBinding#_planar-binding): As _ [lesser planar binding](../spells/planarBinding#_planar-binding-lesser)_, but up to 12 HD.
+- [**Plane Shift**](spells/planeShift#_plane-shift)F: As many as eight subjects travel to another plane.
+- [**Rejuvenate Eidolon, Greater**](advanced/spells/rejuvenateEidolon#_rejuvenate-eidolon,-greater): As _ [lesser rejuvenate eidolon](advanced/spells/rejuvenateEidolon#_rejuvenate-eidolon,-lesser)_, but cures 5d10 damage +1/level (max +20).
+- [**Repulsion**](spells/repulsion#_repulsion)F: Creatures can't approach you.
+- [**Sequester**](spells/sequester#_sequester): Subject is [invisible](glossary#_invisible) to sight and [scrying](spells/scrying#_scrying); renders creature comatose.
+- [**Simulacrum**](spells/simulacrum#_simulacrum)M: Creates partially real double of a creature.
+- [**Spell Turning**](spells/spellTurning#_spell-turning)M: Reflect 1d4+6 spell levels back at caster.
+- [**Summon Monster VII**](spells/summonMonster#_summon-monster-vii): Summons elemental creature to fight for you.
+- [**Tar Pool**](ultimateCombat/spells/tarPool#_tar-pool): Converts the top layer of the ground into hot tar.
+- [**Teleport, Greater**](spells/teleport#_teleport-greater): As _ [teleport](spells/teleport#_teleport), _but no range limit and no off-target arrival.
+- [**True Seeing**](spells/trueSeeing#_true-seeing)M: Lets you see all things as they really are.
+- [**Wall of Iron**](spells/wallOfIron#_wall-of-iron)M: 30 hp/four levels; can topple onto foes.
+- [**Wreath of Blades**](ultimateCombat/spells/wreathOfBlades#_wreath-of-blades)F: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
+
+- [**Antipathy**](spells/antipathy#_antipathy): Object or location affected by spell repels certain creatures.
+- [**Charm Monster, Mass**](spells/charmMonster#_charm-monster-mass): As _ [charm monster](spells/charmMonster#_charm-monster), _but all within 30 ft.
+- [**Create Demiplane**](ultimateMagic/spells/createDemiplane#_create-demiplane): As _ [lesser create demiplane](ultimateMagic/spells/createDemiplane#_create-demiplane,-lesser)_, but larger and with planar traits.
+- [**Dimensional Lock**](spells/dimensionalLock#_dimensional-lock): Teleportation and interplanar travel blocked for 1 day/level.
+- [**Discern Location**](spells/discernLocation#_discern-location): Reveals exact location of creature or object.
+- [**Dominate Monster**](spells/dominateMonster#_dominate-monster): As _ [dominate person](spells/dominatePerson#_dominate-person), _but any creature.
+- [**Eagle Aerie**](ultimateMagic/spells/eagleAerie#_eagle-aerie): Summon 1 giant eagle/3 levels.
+- [**Energy Siege Shot, Greater**](ultimateCombat/spells/energySiegeShot#_energy-siege-shot,-greater): As _ [energy siege shot](ultimateCombat/spells/energySiegeShot#_energy-siege-shot)_, but you can affect any size siege engine.
+- [**Hostile Juxtaposition, Greater**](ultimateCombat/spells/hostileJuxtaposition#_hostile-juxtaposition,-greater): You may target one creature for every four of your caster levels.
+- [**Incendiary Cloud**](spells/incendiaryCloud#_incendiary-cloud): Deals 6d6 fire damage/round.
+- [**Maze**](spells/maze#_maze): Traps subject in extradimensional maze.
+- [**Planar Adaptation, Mass**](advanced/spells/planarAdaptation#_planar-adaptation,-mass): As _ [planar adaptation](advanced/spells/planarAdaptation#_planar-adaptation)_, but affects multiple creatures.
+- [**Planar Binding, Greater**](spells/planarBinding#_planar-binding-greater): As _ [lesser planar binding](spells/planarBinding#_planar-binding-lesser), _but up to 18 HD.
+- [**Protection from Spells**](spells/protectionFromSpells#_protection-from-spells)MF: Confers +8 resistance bonus.
+- [**Summon Monster VIII**](spells/summonMonster#_summon-monster-viii): Summons elemental creature to fight for you.
+- [**Sympathy**](spells/sympathy#_sympathy)M: Object or location attracts certain creatures.
+- [**Teleportation Circle**](spells/teleportationCircle#_teleportation-circle)M: Teleports creatures inside circle.
+- [**Walk through Space**](ultimateCombat/spells/walkThroughSpace#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
+
+- [**Arcane Mark**](spells/arcaneMark#_arcane-mark): Inscribes a personal rune on an object or creature (visible or invisible).
+- [**Bleed**](spells/bleed#_bleed): Cause a stabilized creature to resume [dying](glossary#_dying).
+- [**Dancing Lights**](spells/dancingLights#_dancing-lights): Creates torches or other lights.
+- [**Daze**](spells/daze#_daze): A single humanoid creature with 4 HD or less loses its next action.
+- [**Detect Magic**](spells/detectMagic#_detect-magic): Detects all spells and magic items within 60 ft.
+- [**Detect Poison**](spells/detectPoison#_detect-poison): Detects poison in a creature or object.
+- [**Guidance**](spells/guidance#_guidance): +1 on one attack roll, saving throw, or skill check.
+- [**Light**](spells/light#_light): Object shines like a torch.
+- [**Mending**](spells/mending#_mending): Makes minor repairs on an object.
+- [**Message**](spells/message#_message): Whisper conversation at distance.
+- [**Putrefy Food and Drink**](advanced/spells/putrefyFoodAndDrink#_putrefy-food-and-drink): Makes food and water inedible.
+- [**Putrefy Food and Drink**](advanced/spells/putrefyFoodAndDrink#_putrefy-food-and-drink): Makes food and water inedible.
+- [**Read Magic**](spells/readMagic#_read-magic): Read scrolls and spellbooks.
+- [**Resistance**](spells/resistance#_resistance): Subject gains +1 on saving throws.
+- [**Spark**](advanced/spells/spark#_spark-): Ignites flammable objects.
+- [**Spark**](advanced/spells/spark#_spark-): Ignites flammable objects.
+- [**Stabilize**](spells/stabilize#_stabilize): Cause a [dying](glossary#_dying) creature to stabilize.
+- [**Touch of Fatigue**](spells/touchOfFatigue#_touch-of-fatigue): Touch attack fatigues target.
+
+- [**Air Bubble**](ultimateCombat/spells/airBubble#_air-bubble): Creates a small pocket of air around your head or an object.
+- [**Alchemical Tinkering**](advancedRaceGuide/featuredRaces/ratfolk#_alchemical-tinkering): Transform one alchemical item or firearm into another alchemical item or firearm of the same or lesser cost.
+- [**Beguiling Gift**](advanced/spells/beguilingGift#_beguiling-gift): Subject immediately accepts an offered item and uses it.
+- [**Blend**](advancedRaceGuide/coreRaces/elves#_blend): You change the coloration of yourself and your equipment to match that of your surroundings.
+- [**Bungle**](ultimateMagic/spells/bungle#_bungle): Target takes a –20 penalty on its next attack roll or check. 
+- [**Burning Hands**](spells/burningHands#_burning-hands): 1d4/level fire damage (max 5d4).
+- [**Cause Fear**](spells/causeFear#_cause-fear): A creature of 5 HD or less flees for 1d4 rounds.
+- [**Charm Person**](spells/charmPerson#_charm-person): Makes one person your friend.
+- [**Chill Touch**](spells/chillTouch#_chill-touch): One touch/level deals 1d6 damage and possibly 1 [Str](gettingStarted#_strength) damage.
+- [**Command**](spells/command#_command): One subject obeys a command for 1 round.
+- [**Compel Hostility**](ultimateCombat/spells/compelHostility#_compel-hostility): Compels opponents to attack you instead of your allies.
+- [**Comprehend Languages**](spells/comprehendLanguages#_comprehend-languages): You understand all spoken and written languages.
+- [**Cure Light Wounds**](spells/cureLightWounds#_cure-light-wounds): Cures 1d8 damage + 1/level (max +5).
+- [**Damp Powder**](ultimateCombat/spells/dampPowder#_damp-powder): Ruins ammunition loaded in the targeted firearm.
+- [**Dancing Lantern**](advanced/spells/dancingLantern#_dancing-lantern-): Animates a lantern that follows you.
+- [**Decompose Corpse**](ultimateMagic/spells/decomposeCorpse#_decompose-corpse): Turn a corpse into a clean skeleton.
+- [**Delay Disease**](advancedRaceGuide/featuredRaces/ratfolk#_delay-disease): The target becomes temporarily immune to disease.
+- [**Delusional Pride**](ultimateMagic/spells/delusionalPride#_delusional-pride): Target is penalized on attacks and checks but gains bonus against charms and compulsions.
+- [**Detect Secret Doors**](spells/detectSecretDoors#_detect-secret-doors): Reveals hidden doors within 60 ft.
+- [**Diagnose Disease**](ultimateMagic/spells/diagnoseDisease#_diagnose-disease): Detect and identify diseases.
+- [**Ear-Piercing Scream**](ultimateMagic/spells/earPiercingScream#_ear-piercing-scream): Deal sonic damage and daze target.
+- [**Enlarge Person**](spells/enlargePerson#_enlarge-person): Humanoid creature doubles in size.
+- [**Forced Quiet**](ultimateMagic/spells/forcedQuiet#_forced-quiet): Target cannot make loud noises.
+- [**Frostbite**](ultimateMagic/spells/frostbite#_frostbite): Target takes cold damage and is fatigued.
+- [**Fumbletongue**](ultimateMagic/spells/fumbletongue#_fumbletongue): Target cannot speak intelligently.
+- [**Hex Ward**](ultimateMagic/spells/hexWard#_hex-ward): Target gains +4 on saves against witch hexes.
+- [**Hypnotism**](spells/hypnotism#_hypnotism): Fascinates 2d4 HD of creatures.
+- [**Icicle Dagger**](ultimateMagic/spells/icicleDagger#_icicle-dagger): Masterwork ice dagger deals +1 cold damage.
+- [**Identify**](spells/identify#_identify): Gives +10 bonus to identify magic items.
+- [**Ill Omen**](advanced/spells/illOmen#_ill-omen): Target rolls twice for checks and attacks and uses worst roll.
+- [**Inflict Light Wounds**](spells/inflictLightWounds#_inflict-light-wounds): Touch deals 1d8 damage +1/level (max +5).
+- [**Interrogation**](ultimateMagic/spells/interrogation#_interrogation): Target answers questions or suffers pain.
+- [**Jury-Rig**](ultimateCombat/spells/juryRig#_jury-rig): Removes the broken condition from the targeted object.
+- [**Karmic Blessing**](advancedRaceGuide/uncommonRaces/samsarans#_karmic-blessing): The target treats one skill of your choice as a class skill.
+- [**Ki Arrow**](ultimateMagic/spells/kiArrow#_ki-arrow): Arrow deals damage as your unarmed strike.
+- [**Lock Gaze**](ultimateCombat/spells/lockGaze#_lock-gaze): Compels the target to look only at you for the duration of the spell.
+- [**Mage Armor**](spells/mageArmor#_mage-armor): Gives subject +4 armor bonus.
+- [**Marid's Mastery**](advancedRaceGuide/featuredRaces/undines#_marid's-mastery): Target gains a +1 bonus on attack and damage rolls if it and its opponent are touching water.
+- [**Mask Dweomer**](advanced/spells/maskDweomer#_mask-dweomer): Hides presence of a spell from d_etect magic_.
+- [**Mount**](spells/mount#_mount): Summons riding horse for 2 hours/level.
+- [**Negative Reaction**](ultimateCombat/spells/negativeReaction#_negative-reaction): Targeted creature may not positively influence anyone.
+- [**Nereid's Grace**](advancedRaceGuide/featuredRaces/undines#_nereid's-grace): You radiate the unearthly grace of a nereid.
+- [**Obscuring Mist**](spells/obscuringMist#_obscuring-mist): Fog surrounds you.
+- [**Peacebond**](ultimateCombat/spells/peacebond#_peacebond): Locks a weapon in place on the target's body.
+- [**Ray of Enfeeblement**](spells/rayOfEnfeeblement#_ray-of-enfeeblement): Ray causes 1d6 [Str](gettingStarted#_strength) penalty + 1 per 2 levels.
+- [**Ray of Sickening**](ultimateMagic/spells/rayOfSickening#_ray-of-sickening): Ray makes subject sickened.
+- [**Recharge Innate Magic**](advancedRaceGuide/coreRaces/gnomes#_recharge-innate-magic): You channel magic energy into your own aura, recharging your innate magic abilities.
+- [**Reduce Person**](spells/reducePerson#_reduce-person): Humanoid creature halves in size.
+- [**Reinforce Armaments**](ultimateCombat/spells/reinforceArmaments#_reinforce-armaments): Temporarily mitigates the fragile quality in targeted weapon or armor.
+- [**Remove Sickness**](ultimateMagic/spells/removeSickness#_remove-sickness): Suppress disease, nausea, and the sickened condition.
+- [**Restore Corpse**](ultimateMagic/spells/restoreCorpse#_restore-corpse): Skeletal corpse grows flesh.
+- [**Sanctify Corpse**](ultimateMagic/spells/sanctifyCorpse#_sanctify-corpse): Prevent a corpse from becoming an undead.
+- [**Shadow Weapon**](ultimateMagic/spells/shadowWeapon#_shadow-weapon): Create a quasi-real masterwork weapon.
+- [**Sleep**](spells/sleep#_sleep): Puts 4 HD of creatures into magical slumber.
+- [**Sow Thought**](advancedRaceGuide/uncommonRaces/changelings#_sow-thought): Plant an idea, concept, or suspicion in the mind of the subject.
+- [**Strong Wings**](advancedRaceGuide/uncommonRaces/strix#_strong-wings): The target's wings grow more powerful, increases fly speed by +10 feet and its maneuverability to improve by one category.
+- [**Summon Minor Monster**](ultimateMagic/spells/summonMinorMonster#_summon-minor-monster): Summon 1d3 Tiny animals.
+- [**Summon Monster I**](spells/summonMonster#_summon-monster-i): _(Evil creatures only.) _Summons extraplanar creature to fight for you.
+- [**Theft Ward**](advancedRaceGuide/featuredRaces/tengus#_theft-ward): You ward a single object in your possession against theft.
+- [**Touch of Combustion**](advancedRaceGuide/featuredRaces/ifrits#_touch-of-combustion): Causes the target to ignite in a violent burst of flame.
+- [**Unerring Weapon**](ultimateCombat/spells/unerringWeapon#_unerring-weapon): Grants a +2 bonus, +1 per four caster levels, on attack rolls to confirm a critical hit.
+- [**Undine's Curse**](advancedRaceGuide/featuredRaces/undines#_undine's-curse): Target loses its body's natural ability to breathe automatically.
+- [**Urban Grace**](advancedRaceGuide/coreRaces/halfElves#_urban-grace): You become one with the city around you, allowing you to move more easily through its crowds and buildings.
+- [**Unprepared Combatant**](ultimateMagic/spells/unpreparedCombatant#_unprepared-combatant): Target takes –4 on initiative and Reflex saves.
+- [**Unseen Servant**](spells/unseenServant#_unseen-servant): Invisible force obeys your commands.
+- [**Vocal Alteration**](ultimateMagic/spells/vocalAlteration#_vocal-alteration): [Disguise](/skills/disguise#_disguise) target's voice.
+- [**Weaken Powder**](ultimateCombat/spells/weakenPowder#_weaken-powder): Targeted firearm's ammunition halves the firearm's range and imposes a –2 penalty on damage rolls.
+- [**Web Bolt**](advancedRaceGuide/featuredRaces/drow#_web-bolt): You launch a ball of webbing at a target, causes target to be affected as if by a _web_ spell.
+- [**Whispering Lore**](advancedRaceGuide/coreRaces/elves#_whispering-lore): You are able to gain knowledge from the land itself.
+- [**Youthful Appearance**](ultimateMagic/spells/youthfulAppearance#_youthful-appearance): Target appears younger.
+
+- [**Aboleth's Lung**](advancedRaceGuide/uncommonRaces/gillmen#_aboleth's-lung): Targets are able to breathe water, freely.
+- [**Adoration**](ultimateCombat/spells/adoration#_adoration): You gain a bonus on [Diplomacy](skills/diplomacy#_diplomacy) checks and performance combat checks.
+- [**Alter Self**](spells/alterSelf#_alter-self): Assume form of a Small or Medium humanoid.
+- [**Ancestral Regression**](advancedRaceGuide/featuredRaces/drow#_ancestral-regression): The target drow transforms into a surface elf.
+- [**Augury**](spells/augury#_augury)MF: Learns whether an action will be good or bad.
+- [**Bestow Insight**](advancedRaceGuide/coreRaces/humans#_bestow-insight): Target gains a +2 insight bonus and is considered trained in one single ranked skill.
+- [**Bestow Weapon Proficiency**](ultimateCombat/spells/bestowWeaponProficiency#_bestow-weapon-proficiency): Grants a creature proficiency in a single weapon for short period of time.
+- [**Binding Earth**](advancedRaceGuide/featuredRaces/oreads#_binding-earth): Areas of earth and stone floor act as a snapping quagmire that pulls the target down and damages it if it attempts to move through such terrain.
+- [**Blindness/Deafness**](spells/blindnessDeafness#_blindness-deafness): Makes subject blind or deaf.
+- [**Blood Blaze**](advancedRaceGuide/featuredRaces/orcs#_blood-blaze): 5-foot-radius aura that causes the blood of creatures in that area to ignite upon contact with air.
+- [**Blood Transcription**](ultimateMagic/spells/bloodTranscription#_blood-transcription): Learn a spell from the target's blood.
+- [**Boiling Blood**](ultimateMagic/spells/boilingBlood#_boiling-blood): Targets take fire damage; orcs get +2 Strength.
+- [**Burning Gaze**](advanced/spells/burningGaze#_burning-gaze): Inflict 1d6 fire damage to creature by looking at it.
+- [**Commune with Birds**](advancedRaceGuide/featuredRaces/tengus#_commune-with-birds): You can understand the responses given by birds.
+- [**Cure Moderate Wounds**](spells/cureModerateWounds#_cure-moderate-wounds): Cures 2d8 damage +1/level (max. +10).
+- [**Daze Monster**](spells/dazeMonster#_daze-monster): Living creature of 6 HD or less loses its next action.
+- [**Death Candle**](advancedRaceGuide/featuredRaces/ifrits#_death-candle): Functions like _death knell_, except you summon a Small fire elemental resembling the slain creature.
+- [**Death Knell**](spells/deathKnell#_death-knell): Kills dying creature; you gain 1d8 temporary hp, +2 to Str, and +1 caster level.
+- [**Delay Pain**](ultimateMagic/spells/delayPain#_delay-pain): Ignore pain for 1 hour/level.
+- [**Delay Poison**](spells/delayPoison#_delay-poison): Stops poison from harming subject for 1 hour/level.
+- [**Destabilize Powder**](ultimateCombat/spells/destabilizePowder#_destabilize-powder): Ammunition in the targeted firearm is prone to misfire.
+- [**Detect Thoughts**](spells/detectThoughts#_detect-thoughts): Allows “listening” to surface thoughts.
+- [**Enemy's Heart**](advancedRaceGuide/featuredRaces/orcs#_enemy's-heart): Cut out an enemy's heart and consume it, absorbing that enemy's power as your own.
+- [**Enthrall**](spells/enthrall#_enthrall): Captivates all within 100 ft. + 10 ft./level.
+- [**False Life**](spells/falseLife#_false-life): Gain 1d10 temporary hp + 1/level (max +10).
+- [**Feast of Ashes**](advanced/spells/feastOfAshes#_feast-of-ashes): A target starves with an insatiable hunger.
+- [**Fester**](advanced/spells/fester#_fester): Gives subject SR 12 + your level vs. healing effects.
+- [**Find Traps**](spells/findTraps#_find-traps): Notice traps as a rogue does.
+- [**Fog Cloud**](spells/fogCloud): Fog obscures vision.
+- [**Frost Fall**](ultimateCombat/spells/frostFall#_frost-fall): The area is covered in a chilling frost.
+- [**Fury of the Sun**](advancedRaceGuide/featuredRaces/ifrits#_fury-of-the-sun): You curse the target to suffer unbearable heat.
+- [**Gentle Repose**](spells/gentleRepose#_gentle-repose): Preserves one corpse.
+- [**Ghostly Disguise**](ultimateMagic/spells/ghostlyDisguise#_ghostly-disguise): You look like a ghost of yourself.
+- [**Glide**](advanced/spells/glide#_glide-): You take no falling damage and move 60 ft./round while falling.
+- [**Glitterdust**](spells/glitterdust#_glitterdust): Blinds targets, outlines invisible things.
+- [**Hidden Speech**](advanced/spells/hiddenSpeech#_hidden-speech): Gain +10 on [Bluff](skills/bluff#_bluff) to send secret messages.
+- [**Hold Person**](spells/holdPerson#_hold-person): Paralyzes one humanoid for 1 round/level.
+- [**Inflict Moderate Wounds**](spells/inflictModerateWounds#_inflict-moderate-wounds): Touch attack, 2d8 damage +1/level (max +10).
+- [**Levitate**](spells/levitate#_levitate): Subject moves up and down at your direction.
+- [**Mad Hallucination**](ultimateMagic/spells/madHallucination#_mad-hallucination): Target takes penalties to mental actions.
+- [**Mask Dweomer, Communal**](ultimateCombat/spells/maskDweomer#_mask-dweomer,-communal): As _ [mask dweomer](advanced/spells/maskDweomer#_mask-dweomer)_, but you may divide the duration among creatures touched.
+- [**Masterwork Transformation**](ultimateMagic/spells/masterworkTransformation#_masterwork-transformation): Make a normal item into a masterwork one.
+- [**Minor Dream**](advancedRaceGuide/coreRaces/gnomes#_minor-dream): This spell functions as the _dream spell_, except the messenger must be yourself or a gnome touched.
+- [**Miserable Pity**](ultimateMagic/spells/miserablePity#_miserable-pity): Opponents cannot attack a pathetic creature.
+- [**Mount, Communal**](ultimateCombat/spells/mount#_mount,-communal): As _ [mount](spells/mount#_mount)_, but you may divide the duration among creatures touched. 
+- [**Perceive Cues**](advanced/spells/perceiveCues#_perceive-cues): +5 [Perception](skills/perception#_perception) and [Sense Motive](../skills/senseMotive#_sense-motive) 10 min./level.
+- [**Pernicious Poison**](ultimateMagic/spells/perniciousPoison#_pernicious-poison): Target takes a –4 penalty against poison.
+- [**Pox Pustules**](advanced/spells/poxPustules#_pox-pustules): Subject is sickened and has –4 Dex.
+- [**Protective Penumbra**](ultimateMagic/spells/protectivePenumbra#_protective-penumbra): Shadow protects the target from light.
+- [**Qualm**](ultimateCombat/spells/qualm#_qualm): Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing.
+- [**Recoil Fire**](ultimateCombat/spells/recoilFire#_recoil-fire): Ammunition in the targeted firearm generates excessive recoil.
+- [**Reinforce Armaments, Communal**](ultimateCombat/spells/reinforceArmaments#_reinforce-armaments,-communal): As _ [reinforce armaments](ultimateCombat/spells/reinforceArmaments#_reinforce-armaments)_, but you may divide the spell's duration among objects touched.
+- [**Returning Weapon**](ultimateCombat/spells/returningWeapon#_returning-weapon): Grants a weapon the _ [returning](magicItems/weapons#_weapons-returning)_ special weapon quality.
+- [**Scare**](spells/scare#_scare): Frightens creature of less than 6 HD.
+- [**See Invisibility**](spells/seeInvisibility#_see-invisibility): Reveals [invisible](glossary#_invisible) creatures or objects.
+- [**Sentry Skull**](advancedRaceGuide/featuredRaces/orcs#_sentry-skull): Restore the senses to the severed head of a humanoid or monstrous humanoid killed within the past 24 hours, creating a grisly sentinel.
+- [**Shadow Anchor**](advancedRaceGuide/uncommonRaces/wayangs#_shadow-anchor): Target's shadow becomes a flexible tether to its current square.
+- [**Share Memory**](ultimateMagic/spells/shareMemory#_share-memory): Share one memory with the target.
+- [**Sickening Strikes**](advancedRaceGuide/featuredRaces/ratfolk#_sickening-strikes): You are imbued with disease, and any creature you strike may be sickened.
+- [**Silk to Steel**](ultimateMagic/spells/silkToSteel#_silk-to-steel): Use a scarf as a shield or whip.
+- [**Skinsend**](ultimateMagic/spells/skinsend#_skinsend): Animate and possess your own skin as if it were a separate creature.
+- [**Spectral Hand**](spells/spectralHand#_spectral-hand): Creates disembodied glowing hand to deliver touch attacks.
+- [**Squeeze**](advancedRaceGuide/uncommonRaces/vishkanyas#_squeeze): The target becomes flexible regardless of its actual size and mass.
+- [**Stabilize Powder**](ultimateCombat/spells/stabilizePowder#_stabilize-powder): Ammunition in the targeted firearm is less likely to misfire.
+- [**Status**](spells/status#_status): Monitors condition, position of allies.
+- [**Steal Breath**](advancedRaceGuide/featuredRaces/catfolk#_steal-breath): Pull the breath from a creature's lungs, dealing damage and leaving it unable to speak, use breath weapons, or cast spells with verbal components.
+- [**Steal Voice**](ultimateMagic/spells/stealVoice#_steal-voice): Target gains the croaking spellblight.
+- [**Summon Monster II**](spells/summonMonster#_summon-monster-ii): Summons elemental creature.
+- [**Summon Swarm**](spells/summonSwarm#_summon-swarm): Summons swarm of bats, rats, or spiders.
+- [**Symbol of Mirroring**](ultimateMagic/spells/symbolOfMirroring#_symbol-of-mirroring): Triggered rune creates mirror images.
+- [**Thunder Fire**](ultimateCombat/spells/thunderFire#_thunder-fire): Ammunition in the targeted firearm deafens opponents.
+- [**Touch of Idiocy**](spells/touchOfIdiocy#_touch-of-idiocy): Subject takes 1d6 penalty to [Int](gettingStarted#_intelligence), [Wis](gettingStarted#_wisdom), and [Cha](gettingStarted#_charisma-new).
+- [**Unnatural Lust**](ultimateMagic/spells/unnaturalLust#_unnatural-lust): Target is compelled to kiss or caress another.
+- [**Unshakable Chill**](ultimateMagic/spells/unshakableChill#_unshakable-chill): Target is afflicted with severe cold.
+- [**Vomit Swarm**](advanced/spells/vomitSwarm#_vomit-swarm): Produces a spider swarm that fights for you.
+- [**Web**](spells/web#_web): Fills 20-ft.-radius spread with sticky spiderwebs that can grapple foes and impair movement.
+- [**Web Shelter**](ultimateMagic/spells/webShelter#_web-shelter): Create a comfortable shelter made of webbing.
+- [**Zone of Truth**](spells/zoneOfTruth#_zone-of-truth): Subjects within range cannot lie.
+
+- [**Agonizing Rebuke**](advancedRaceGuide/featuredRaces/hobgoblins#_agonizing-rebuke): You instill such apprehension about attacking you in your target that doing so causes it mental distress and pain.
+- [**Anthropomorphic Animal**](ultimateMagic/spells/anthropomorphicAnimal#_anthropomorphic-animal): Animal becomes bipedal.
+- [**Arcane Sight**](spells/arcaneSight#_arcane-sight): Magical auras become visible to you.
+- [**Ash Storm**](ultimateMagic/spells/ashStorm#_ash-storm): Hamper vision and movement.
+- [**Bestow Curse**](spells/bestowCurse#_bestow-curse): –6 to an ability score; –4 on attack rolls, saves, and checks; or 50% chance of losing each action.
+- [**Blood Scent**](advancedRaceGuide/featuredRaces/orcs#_blood-scent): You greatly magnify the target's ability to smell the presence of blood.
+- [**Cackling Skull**](ultimateMagic/spells/cacklingSkull#_cackling-skull): Skull acts as _ [magic mouth](/spells/magicMouth#_magic-mouth)_, listeners are shaken.
+- [**Clairaudience/Clairvoyance**](spells/clairaudienceClairvoyance#_clairaudience-clairvoyance): Hear or see at a distance for 1 min./level.
+- [**Countless Eyes**](ultimateMagic/spells/countlessEyes#_countless-eyes): Extra eyes give all-around vision.
+- [**Cup of Dust**](advanced/spells/cupOfDust#_cup-of-dust): Causes a creature to become dehydrated.
+- [**Deep Slumber**](spells/deepSlumber#_deep-slumber): Puts 10 HD of creatures to [sleep](spells/sleep#_sleep).
+- [**Delay Poison, Communal**](ultimateCombat/spells/delayPoison#_delay-poison,-communal): As _ [delay poison](spells/delayPoison#_delay-poison)_, but you may divide the duration among creatures touched.
+- [**Dispel Magic**](spells/dispelMagic#_dispel-magic): Cancels one magical spell or effect.
+- [**Eldritch Fever**](ultimateMagic/spells/eldritchFever#_eldritch-fever): Target gains the eldritch ague spellblight.
+- [**Eruptive Pustules**](ultimateMagic/spells/eruptivePustules#_eruptive-pustules): Acid boils burst when you are attacked.
+- [**Excruciating Deformation**](ultimateMagic/spells/excruciatingDeformation#_excruciating-deformation): Target takes Dex and Con damage.
+- [**Fearsome Duplicate**](advancedRaceGuide/coreRaces/halflings#_fearsome-duplicate): You create a larger and far more menacing version of yourself.
+- [**Fins to Feet**](advancedRaceGuide/uncommonRaces/merfolk#_fins-to-feet): Transform the target's fins, flippers, or tail into legs and feet, allowing it to walk on land.
+- [**Flash Fire**](ultimateCombat/spells/flashFire#_flash-fire): Ammunition in the targeted firearm creates a tremendous flash capable of blinding the weapon's bearer and those around him.
+- [**Fly**](spells/fly): Subject flies at a speed of 60 ft.
+- [**Gloomblind Bolts**](advancedRaceGuide/featuredRaces/fetchlings#_gloomblind-bolts): Create one or more bolts of negative energy infused with shadow pulled from the Shadow Plane.
+- [**Glyph of Warding**](spells/glyphOfWarding#_glyph-of-warding)M: Inscription harms those who pass it.
+- [**Guiding Star**](advanced/spells/guidingStar#_guiding-star-): Know approximate distance from where you cast this spell.
+- [**Healing Thief**](ultimateCombat/spells/healingThief#_healing-thief): You siphon half of all magical healing that the targeted creature receives.
+- [**Heroism**](spells/heroism#_heroism): Gives +2 bonus on attack rolls, saves, skill checks.
+- [**Hostile Levitation**](ultimateCombat/spells/hostileLevitation#_hostile-levitation): Levitates the targeted creature up off the ground.
+- [**Howling Agony**](ultimateMagic/spells/howlingAgony#_howling-agony): Screaming pain limits the target's actions.
+- [**Improve Trap**](advancedRaceGuide/featuredRaces/kobolds#_improve-trap): Improves one specific element of a trap chosen at the time of casting.
+- [**Ki Leech**](ultimateMagic/spells/kiLeech#_ki-leech): Add to your _ki_ pool when you critically hit.
+- [**Lightning Bolt**](spells/lightningBolt#_lightning-bolt): Electricity deals 1d6/level damage.
+- [**Loathsome Veil**](ultimateMagic/spells/loathsomeVeil#_loathsome-veil): Nauseates and/or sickens weak creatures.
+- [**Locate Object**](spells/locateObject#_locate-object): Senses direction toward object (specific or type).
+- [**Locate Weakness**](ultimateCombat/spells/locateWeakness#_locate-weakness): You roll damage twice when you roll damage for a critical hit and take the best damage.
+- [**Marionette Possession**](ultimateMagic/spells/marionettePossession#_marionette-possession): As _ [magic jar](/spells/magicJar#_magic-jar)_, but limited to line of sight.
+- [**Nature's Exile**](advanced/spells/natureSExile#_nature's-exile): Gives subject –10 on [Survival](skills/survival#_survival) checks.
+- [**Nixie's Lure**](advancedRaceGuide/featuredRaces/undines#_nixie's-lure): Creates an unearthly and infectious song that seductively summons all who hear it.
+- [**Pain Strike**](advanced/spells/painStrike#_pain-strike): Inflicts 1d6 nonlethal damage 1 round/level.
+- [**Paragon Surge**](advancedRaceGuide/coreRaces/halfElves#_paragon-surge): +2 enhancement bonus to Dex and Int, and are treated as if you possess any one feat for which you meet the prerequisites.
+- [**Pup Shape**](ultimateCombat/spells/pupShape#_pup-shape): Transforms a single animal or magical beast into a younger and cuter version of itself for a short period of time.
+- [**Rage**](spells/rage#_rage): Gives +2 to [Str](gettingStarted#_strength) and [Con](gettingStarted#_constitution), +1 on [Will](combat#_will) saves, –2 to [AC](combat#_armor-class).
+- [**Raging Rubble**](advancedRaceGuide/featuredRaces/oreads#_raging-rubble): You animate an area of rubble, creating a dangerous, rolling area of debris.
+- [**Rain of Frogs**](ultimateMagic/spells/rainOfFrogs#_rain-of-frogs): Summon a swarm of poisonous frogs.
+- [**Ray of Exhaustion**](spells/rayOfExhaustion#_ray-of-exhaustion): Ray makes subject [exhausted](glossary#_exhausted).
+- [**Reckless Infatuation**](ultimateMagic/spells/recklessInfatuation#_reckless-infatuation): Target is compelled to stay near another.
+- [**Remove Blindness/Deafness**](spells/removeBlindnessDeafness#_remove-blindness-deafness): Cures normal or magical blindness or deafness.
+- [**Remove Curse**](spells/removeCurse#_remove-curse): Frees object or person from curse.
+- [**Remove Disease**](spells/removeDisease#_remove-disease): Cures all diseases affecting subject.
+- [**Returning Weapon, Communal**](ultimateCombat/spells/returningWeapon#_returning-weapon,-communal): As _ [returning weapon](ultimateCombat/spells/returningWeapon#_returning-weapon)_, but you may divide the duration among weapons touched.
+- [**Sands of Time**](ultimateMagic/spells/sandsOfTime#_sands-of-time): Target temporarily ages.
+- [**Screech**](advanced/spells/screech#_screech): Foes provoke attacks of opportunity.
+- [**Seek Thoughts**](advanced/spells/seekThoughts#_seek-thoughts): Detects thinking creatures' thoughts.
+- [**Sepia Snake Sigil**](spells/sepiaSnakeSigil#_sepia-snake-sigil)M: Creates text symbol that immobilizes reader.
+- [**Share Senses**](advanced/spells/shareSenses#_share-senses): Perceive the world around your familiar.
+- [**Sleet Storm**](spells/sleetStorm#_sleet-storm): Hampers vision and movement.
+- [**Speak with Dead**](spells/speakWithDead#_speak-with-dead): Corpse answers one question/two levels.
+- [**Spit Venom**](ultimateMagic/spells/spitVenom#_spit-venom): Spit blinding black adder venom.
+- [**Stinking Cloud**](spells/stinkingCloud#_stinking-cloud): Nauseating vapors, 1 round/level.
+- [**Strangling Hair**](ultimateMagic/spells/stranglingHair#_strangling-hair): Your hair animates and grapples.
+- [**Suggestion**](spells/suggestion#_suggestion): Compels a subject to follow stated course of action.
+- [**Summon Monster III**](spells/summonMonster#_summon-monster-iii): _(Evil creatures only.)_ Summons extraplanar creature to fight for you.
+- [**Tongues**](spells/tongues#_tongues): Speak and understand any language.
+- [**Twilight Knife**](advanced/spells/twilightKnife#_twilight-knife-): Floating knife attacks with you.
+- [**Unadulterated Loathing**](ultimateMagic/spells/unadulteratedLoathing#_unadulterated-loathing): Target is compelled to avoid another creature.
+- [**Vampiric Touch**](spells/vampiricTouch#_vampiric-touch): Touch deals 1d6 damage/2 levels; caster gains damage as temporary hp.
+- [**Vermin Shape I**](ultimateMagic/spells/verminShape#_vermin-shape-i-): Take the form and some of the powers of a Small or Medium vermin.
+- [**Vision of Hell**](ultimateMagic/spells/visionOfHell#_vision-of-hell): Illusory hellscape makes creatures shaken.
+- [**Ward of the Season**](advancedRaceGuide/coreRaces/elves#_ward-of-the-season): Harnesses the power of the seasons to protect the target and grant a number of bonuses.
+- [**Water Walk**](spells/waterWalk#_water-walk): Subject treads on water as if solid.
+- [**Witness**](ultimateMagic/spells/witness#_witness): See through the target's eyes and ears.
+
+- [**Absorb Toxicity**](ultimateCombat/spells/absorbToxicity#_absorb-toxicity): You become immune to diseases and toxins, absorb one, and then spread it to others.
+- [**Age Resistance, Lesser**](ultimateMagic/spells/ageResistance#_age-resistance,-lesser): Ignore penalties from middle age.
+- [**Arcane Eye**](spells/arcaneEye#_arcane-eye): Invisible floating eye moves 30 ft./round.
+- [**Battle Trance**](advancedRaceGuide/coreRaces/halfOrcs#_battle-trance): You are transformed into a single-minded force of destruction.
+- [**Black Tentacles**](spells/blackTentacles#_black-tentacles): Tentacles grapple all creatures within a 20-ft. spread.
+- [**Cape of Wasps**](ultimateMagic/spells/capeOfWasps#_cape-of-wasps): Wasp swarm defends or carries you.
+- [**Charm Monster**](spells/charmMonster#_charm-monster): Makes monster believe it is your ally.
+- [**Confusion**](spells/confusion#_confusion): Subjects behave oddly for 1 round/level.
+- [**Crushing Despair**](spells/crushingDespair#_crushing-despair): Subjects take –2 on attack rolls, damage rolls, saves, and checks.
+- [**Cure Serious Wounds**](spells/cureSeriousWounds#_cure-serious-wounds): Cures 3d8 damage + 1/level (max +15).
+- [**Curse of Magic Negation**](ultimateMagic/spells/curseOfMagicNegation#_curse-of-magic-negation): Target gains the negated spellblight.
+- [**Daze, Mass**](ultimateMagic/spells/daze#_daze,-mass): As _ [daze](/spells/daze#_daze)_, but affecting multiple creatures.
+- [**Death Ward**](spells/deathWard#_death-ward): Grants bonuses against death spells and negative energy.
+- [**Debilitating Portent**](ultimateCombat/spells/debilitatingPortent#_debilitating-portent): Inflicts an ill fate on a creature, halving its damage when it attacks or casts a spell
+- [**Detect Scrying**](spells/detectScrying#_detect-scrying): Alerts you to magical eavesdropping
+- [**Dimension Door**](spells/dimensionDoor#_dimension-door): Teleports you a short distance.
+- [**Discern Lies**](spells/discernLies#_discern-lies): Reveals deliberate falsehoods.
+- [**Divination**](spells/divination#_divination)M: Provides useful advice for specific proposed actions.
+- [**Enervation**](spells/enervation#_enervation): Subject gains 1d4 [negative levels](glossary#_energy-drain-and-negative-levels).
+- [**False Life, Greater**](ultimateMagic/spells/falseLife#_false-life,-greater): Gain 2d10 temporary hp + 1/level.
+- [**Familiar Melding**](ultimateMagic/spells/familiarMelding#_familiar-melding): Possess your familiar.
+- [**Fear**](spells/fear#_fear): Subjects within cone flee for 1 round/level.
+- [**Fleshworm Infestation**](ultimateMagic/spells/fleshwormInfestation#_fleshworm-infestation): Worms deal hp and Dex damage.
+- [**Forgetful Slumber**](advancedRaceGuide/coreRaces/halfElves#_forgetful-slumber): Acts as the _deeper slumber spell_, but only affects one creature of 10 Hit Dice or fewer.
+- [**Geas, Lesser**](spells/geasQuest#_geas-lesser): Commands subject of 7 HD or less.
+- [**Hellmouth Lash**](advancedRaceGuide/featuredRaces/tieflings#_hellmouth-lash): Your tongue transforms into an energy whip weapon that can deal acid, electricity, or fire damage.
+- [**Ice Storm**](spells/iceStorm#_ice-storm): Hail deals 5d6 damage in area 40 ft. across.
+- [**Inflict Serious Wounds**](spells/inflictSeriousWounds#_inflict-serious-wounds): Touch attack, 3d8 damage +1/level (max +15).
+- [**Locate Creature**](spells/locateCreature#_locate-creature): Indicates direction to familiar creature.
+- [**Minor Creation**](spells/minorCreation#_minor-creation): Creates one cloth or wood object.
+- [**Moonstruck**](advanced/spells/moonstruck#_moonstruck): Subject is enraged and confused.
+- [**Named Bullet**](ultimateCombat/spells/namedBullet#_named-bullet): Imbues ammunition with accuracy against a specific creature type.
+- [**Neutralize Poison**](spells/neutralizePoison#_neutralize-poison): Immunizes subject against poison, detoxifies venom in or on subject.
+- [**Phantasmal Killer**](spells/phantasmalKiller#_phantasmal-killer): Fearsome illusion kills subject or deals 3d6 damage.
+- [**Poison**](spells/poison#_poison): Touch deals 1d3 Con damage 1/round for 6 rounds.
+- [**Resilient Reservoir**](advancedRaceGuide/coreRaces/halfElves#_resilient-reservoir): Creates a magical well of retribution that a caster can unleash with blinding speed.
+- [**Ride the Waves**](ultimateMagic/spells/rideTheWaves#_ride-the-waves): Target can breathe water and swim.
+- [**Scrying**](spells/scrying#_scrying)F: Spies on subject from a distance.
+- [**Secure Shelter**](spells/secureShelter#_secure-shelter): Creates sturdy cottage.
+- [**Shadow Step**](ultimateMagic/spells/shadowStep#_shadow-step): Teleport from one shadow to another.
+- [**Sleepwalk**](advanced/spells/sleepwalk#_sleepwalk)M: Causes creature to move while asleep.
+- [**Solid Fog**](spells/solidFog#_solid-fog): Blocks vision and slows movement.
+- [**Spite**](advanced/spells/spite#_spite)M: Inflict touch spell upon creature that attacks you.
+- [**Summon Monster IV**](spells/summonMonster#_summon-monster-iv): Summons elemental creature to fight for you.
+- [**Symbol of Healing**](ultimateMagic/spells/symbolOfHealing#_symbol-of-healing): Triggered rune heals living creatures.
+- [**Symbol of Revelation**](ultimateMagic/spells/symbolOfRevelation#_symbol-of-revelation): Triggered symbol reveals illusions.
+- [**Symbol of Slowing**](ultimateMagic/spells/symbolOfSlowing#_symbol-of-slowing): Triggered rune slows creatures.
+- [**Threefold Aspect**](advanced/spells/threefoldAspect#_threefold-aspect)F: Appear older or younger.
+- [**Tongues, Communal**](ultimateCombat/spells/tongues#_tongues,-communal): As _ [tongues](spells/tongues#_tongues)_, but you may divide the duration among creatures touched.
+- [**Touch of Slime**](ultimateMagic/spells/touchOfSlime#_touch-of-slime): Touch infests a target with green slime.
+- [**Vermin Shape II**](ultimateMagic/spells/verminShape#_vermin-shape-ii): As _vermin shape_, but Tiny or Large.
+- [**Volcanic Storm**](ultimateMagic/spells/volcanicStorm#_volcanic-storm): Hot rocks deal 5d6 damage.
+- [**Wandering Star Motes**](advanced/spells/wanderingStarMotes#_wandering-star-motes): Outlines subject and produces light as a sunrod.
+- [**Web Cloud**](advancedRaceGuide/featuredRaces/drow#_web-cloud): Creates a cloud of flame-resistant strands of adhesive webbing.
+- [**Wreath of Blades**](ultimateCombat/spells/wreathOfBlades#_wreath-of-blades)F: Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity.
+
+- [**Baleful Polymorph**](spells/balefulPolymorph#_baleful-polymorph): Turns subject into harmless animal.
+- [**Banish Seeming**](advanced/spells/banishSeeming#_banish-seeming): Dispels touched illusion or a creature's change in form.
+- [**Blight**](spells/blight#_blight): Withers one plant or deals 1d6/level damage to plant creature.
+- [**Break Enchantment**](spells/breakEnchantment#_break-enchantment): Frees subjects from enchantments, transmutations, and curses.
+- [**Cloudkill**](spells/cloudkill#_cloudkill): Kills 3 HD or less; 4–6 HD save or die; 6+ HD take Con damage.
+- [**Contact Other Plane**](spells/contactOtherPlane#_contact-other-plane): Lets you ask question of extraplanar entity.
+- [**Contagion, Greater**](ultimateMagic/spells/contagion#_contagion,-greater): Infect a subject with a magical disease.
+- [**Cure Critical Wounds**](spells/cureCriticalWounds#_cure-critical-wounds): Cures 4d8 damage + 1/level (max +20).
+- [**Curse of Disgust**](ultimateMagic/spells/curseOfDisgust#_curse-of-disgust): Target is sickened while viewing trigger.
+- [**Curse, Major**](ultimateMagic/spells/curse#_curse,-major): As _ [bestow curse](/spells/bestowCurse#_bestow-curse)_, but harder to remove.
+- [**Damnation Stride**](advancedRaceGuide/featuredRaces/tieflings#_damnation-stride): Functions like _dimension door_, except you leave behind a burst of fire.
+- [**Dominate Person**](spells/dominatePerson#_dominate-person): Controls humanoid telepathically.
+- [**Feeblemind**](spells/feeblemind#_feeblemind): Subject's [Int](gettingStarted#_intelligence) and [Cha](gettingStarted#_charisma-new) drop to 1.
+- [**Half-blood Extraction**](advancedRaceGuide/coreRaces/halfOrcs#_half-blood-extraction): You transform the target half-orc into a full-blooded orc.
+- [**Hold Monster**](spells/holdMonster#_hold-monster): As _ [hold person](spells/holdPerson#_hold-person)_, but any creature.
+- [**Hostile Juxtaposition**](ultimateCombat/spells/hostileJuxtaposition#_hostile-juxtaposition): You create a dimensional link with a targeted creature, and switch spots with it.
+- [**Inflict Critical Wounds**](spells/inflictCriticalWounds#_inflict-critical-wounds): Touch attack, 4d8 damage + 1/level (max +20).
+- [**Magic Jar**](spells/magicJar#_magic-jar)F: Enables possession of another creature.
+- [**Major Creation**](spells/majorCreation#_major-creation): As _ [minor creation](spells/minorCreation#_minor-creation), _plus stone and metal.
+- [**Mark of Justice**](spells/markOfJustice#_mark-of-justice): Designates action that triggers _curse _on subject.
+- [**Mind Fog**](spells/mindFog#_mind-fog): Subjects in fog get –10 to [Wis](gettingStarted#_wisdom) and [Will](combat#_will) checks.
+- [**Old Salt's Curse**](advancedRaceGuide/coreRaces/humans#_old-salt's-curse): Inflict a curse of the roiling sea upon the target, making it permanently sickened.
+- [**Overland Flight**](spells/overlandFlight#_overland-flight): You fly at a speed of 40 ft. and can hustle over long distances.
+- [**Pain Strike, Mass**](advanced/spells/painStrike#_pain-strike,-mass): As _ [pain strike](advanced/spells/painStrike#_pain-strike)_, but affects multiple creatures.
+- [**Plague Carrier**](ultimateMagic/spells/plagueCarrier#_plague-carrier): Target's attacks carry filth fever.
+- [**Possess Object**](ultimateMagic/spells/possessObject#_possess-object): Possess and animate one object.
+- [**Prying Eyes**](spells/pryingEyes#_prying-eyes): 1d4 + 1/level floating eyes scout for you.
+- [**Reincarnate**](spells/reincarnate#_reincarnate): Brings dead subject back in a random body.
+- [**Rest Eternal**](advanced/spells/restEternal#_rest-eternal)M: Dead creature cannot be revived.
+- [**Secret Chest**](spells/secretChest#_secret-chest)F: Hides expensive chest on Ethereal Plane; you retrieve it at will.
+- [**Seeming**](spells/seeming#_seeming): Changes appearance of 1 person per 2 levels.
+- [**Smug Narcissism**](ultimateMagic/spells/smugNarcissism#_smug-narcissism): Target is distracted by its sense of self.
+- [**Suffocation**](advanced/spells/suffocation#_suffocation): Target quickly suffocates to death.
+- [**Summon Monster V**](spells/summonMonster#_summon-monster-v): Summons elemental creature to fight for you.
+- [**Summoner Conduit**](ultimateCombat/spells/summonerConduit#_summoner-conduit): The target takes damage whenever its summoned creature does.
+- [**Symbol of Fear**](spells/symbolOfPain#_symbol-of-pain)M: Triggered rune panics nearby creatures.
+- [**Symbol of Scrying**](ultimateMagic/spells/symbolOfScrying#_symbol-of-scrying): Triggered rune activates scrying sensor.
+- [**Symbol of Sleep**](spells/symbolOfSleep#_symbol-of-sleep)M: Triggered rune puts nearby creatures into catatonic slumber.
+- [**Symbol of Striking**](ultimateCombat/spells/symbolOfStriking#_symbol-of-striking)M: As _ [symbol of death](spells/symbolOfDeath#_symbol-of-death)_, but fills a 5-foot square.
+- [**Telepathic Bond**](spells/telepathicBond#_telepathic-bond): Link lets allies communicate.
+- [**Teleport**](spells/teleport#_teleport): Instantly transports you as far as 100 miles per level.
+- [**Truespeak**](advancedRaceGuide/featuredRaces/aasimars#_truespeak): You can communicate with any creature that is not mindless.
+- [**Village Veil**](advancedRaceGuide/coreRaces/halflings#_village-veil): Creates an illusion over an area to make creatures that view or interact with it believe it has suffered a catastrophe that renders it utterly worthless.
+- [**Waves of Fatigue**](spells/wavesOfFatigue#_waves-of-fatigue): Several targets become [fatigued](glossary#_fatigued).
+- [**Wind Blades**](advancedRaceGuide/featuredRaces/sylphs#_wind-blades): Harden the air around the target into jagged invisible blades.
+
+- [**Age Resistance**](ultimateMagic/spells/ageResistance#_age-resistance): Ignore penalties from old age.
+- [**Analyze Dweomer**](spells/analyzeDweomer#_analyze-dweomer)F: Reveals magical aspects of subject.
+- [**Animate Objects**](spells/animateObjects#_animate-objects): Objects attack your foes.
+- [**Binding Earth, Mass**](advancedRaceGuide/featuredRaces/oreads#_binding-earth,-mass): Functions as _binding earth_, mass.
+- [**Cloak of Dreams**](advanced/spells/cloakOfDreams#_cloak-of-dreams): Causes living creatures within 5 ft. to fall asleep.
+- [**Cone of Cold**](spells/coneOfCold#_cone-of-cold): 1d6/level cold damage.
+- [**Cure Light Wounds, Mass**](spells/cureLightWounds#_cure-light-wounds-mass): Cures 1d8 damage + 1/level, affects 1 subject/level.
+- [**Dispel Magic, Greater**](spells/dispelMagic#_dispel-magic-greater): As _ [dispel magic](spells/dispelMagic#_dispel-magic)_, but with multiple targets.
+- [**Dust Form**](ultimateCombat/spells/dustForm#_dust-form): You become an incorporeal creature of dust for a short period of time.
+- [**Epidemic**](ultimateMagic/spells/epidemic#_epidemic): Infect a subject with a highly contagious disease.
+- [**Eyebite**](spells/eyebite#_eyebite): Target becomes [panicked](glossary#_panicked), [sickened](glossary#_sickened), and comatose.
+- [**Fester, Mass**](advanced/spells/fester#_fester,-mass): As _ [fester](advanced/spells/fester#_fester)_, but affecting multiple targets.
+- [**Find the Path**](spells/findThePath#_find-the-path): Shows most direct way to a location.
+- [**Flesh to Stone**](spells/fleshToStone#_flesh-to-stone): Turns subject creature into statue.
+- [**Geas/Quest**](spells/geasQuest#_geas-quest): As _lesser geas, _but affects any creature.
+- [**Guards and Wards**](spells/guardsAndWards#_guards-and-wards): Array of magic effects protect area.
+- [**Heroism, Greater**](spells/heroism#_heroism-greater): Gives +4 bonus on attack rolls, saves, skill checks; immunity to fear; temporary hp.
+- [**Ice Crystal Teleport**](ultimateMagic/spells/iceCrystalTeleport#_ice-crystal-teleport): Target is frozen, then teleported.
+- [**Inflict Light Wounds, Mass**](spells/inflictLightWounds#_inflict-light-wounds-mass): Deals 1d8 damage + 1/level, affects 1 subject/level.
+- [**Legend Lore**](spells/legendLore#_legend-lore)MF: Lets you learn tales about a person, place, or thing.
+- [**Named Bullet, Greater**](ultimateCombat/spells/namedBullet#_named-bullet,-greater): As _ [named bullet](ultimateCombat/spells/namedBullet#_named-bullet)_, but deals 2 points of damage for every caster level.
+- [**Plague Storm**](ultimateMagic/spells/plagueStorm#_plague-storm): Cloud infects creatures like _ [contagion](/spells/contagion#_contagion)_.
+- [**Raise Dead**](spells/raiseDead#_raise-dead)M: Restores life to subject who died as long as one day/level ago.
+- [**Slay Living**](spells/slayLiving#_slay-living): Touch attack deals 12d6 +1 per level.
+- [**Stone to Flesh**](spells/stoneToFlesh#_stone-to-flesh): Restores petrified creature.
+- [**Suggestion, Mass**](spells/suggestion#_suggestion-mass): As _ [suggestion](spells/suggestion#_suggestion), _affects 1 subject/level.
+- [**Summon Monster VI**](spells/summonMonster#_summon-monster-vi): Summons elemental creature to fight for you.
+- [**Swarm Skin**](advanced/spells/swarmSkin#_swarm-skin-): Turns your body into a swarm of vermin.
+- [**Symbol of Fear**](spells/symbolOfFear#_symbol-of-fear)M: Triggered rune panics nearby creatures.
+- [**Symbol of Persuasion**](spells/symbolOfPersuasion#_symbol-of-persuasion)M: Triggered rune charms creatures.
+- [**Symbol of Sealing**](ultimateMagic/spells/symbolOfSealing#_symbol-of-sealing): Create triggered _ [wall of force](/spells/wallOfForce#_wall-of-force)_.
+- [**Transformation**](spells/transformation#_transformation)M: You gain combat bonuses.
+- [**True Seeing**](spells/trueSeeing#_true-seeing)M: Lets you see all things as they really are.
+- [**Unwilling Shield**](advanced/spells/unwillingShield#_unwilling-shield)M: Subject shares wounds you receive.
+- [**Vengeful Outrage**](ultimateMagic/spells/vengefulOutrage#_vengeful-outrage): Target is compelled to destroy one enemy.
+
+- [**Age Resistance, Greater**](ultimateMagic/spells/ageResistance#_age-resistance,-greater): Ignore penalties from venerable age.
+- [**Arcane Sight, Greater**](spells/arcaneSight#_arcane-sight-greater): As _ [arcane sight](spells/arcaneSight#_arcane-sight)_, but also reveals magic effects on creatures and objects.
+- [**Black Mark**](advancedRaceGuide/coreRaces/humans#_black-mark): Functions as a _mark of justice_
+- [**Chain Lightning**](spells/chainLightning#_chain-lightning): 1d6/level damage, 1 more bolt/level.
+- [**Control Weather**](spells/controlWeather#_control-weather): Changes weather in local area.
+- [**Create Demiplane, Lesser**](ultimateMagic/spells/createDemiplane#_create-demiplane,-lesser): Create your own demiplane.
+- [**Cure Moderate Wounds, Mass**](spells/cureModerateWounds#_cure-moderate-wounds-mass): Cures 2d8 damage + 1/level, affects 1 subject/level.
+- [**Harm**](spells/harm#_harm): Deals 10 points/level damage to target.
+- [**Heal**](spells/heal#_heal): Cures 10 points/level damage, all diseases and mental conditions.
+- [**Hold Person, Mass**](spells/holdPerson#_hold-person-mass): As _ [hold person](spells/holdPerson#_hold-person)_, but all within 30 ft.
+- [**Hostile Juxtaposition, Greater**](ultimateCombat/spells/hostileJuxtaposition#_hostile-juxtaposition,-greater): You may target one creature for every four of your caster levels.
+- [**Ice Body**](ultimateMagic/spells/iceBody#_ice-body): Your body becomes living ice.
+- [**Inflict Moderate Wounds, Mass**](spells/inflictModerateWounds#_inflict-moderate-wounds-mass): Deals 2d8 damage + 1/level, affects 1 subject/level.
+- [**Insanity**](spells/insanity#_insanity): Subject suffers continuous _ [confusion](spells/confusion#_confusion)_.
+- [**Instant Summons**](spells/instantSummons#_instant-summons)M: Prepared object appears in your hand.
+- [**Lunar Veil**](ultimateMagic/spells/lunarVeil#_lunar-veil): Dispel light and revert lycanthropes.
+- [**Phase Door**](spells/phaseDoor#_phase-door): Creates an [invisible](glossary#_invisible) passage through a barrier.
+- [**Plane Shift**](spells/planeShift#_plane-shift)F: As many as eight subjects travel to another plane.
+- [**Power Word Blind**](spells/powerWordBlind#_power-word-blind): Blinds creature with 200 hp or less.
+- [**Regenerate**](spells/regenerate#_regenerate): Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).
+- [**Scouring Winds**](ultimateMagic/spells/scouringWinds#_scouring-winds): Winds block vision and deal 3d6 damage per round.
+- [**Scrying, Greater**](spells/scrying#_scrying-greater): As _ [scrying](spells/scrying#_scrying)_, but faster and longer.
+- [**Summon Monster VII**](spells/summonMonster#_summon-monster-vii): Summons elemental creature to fight for you.
+- [**Symbol of Stunning**](spells/symbolOfStunning#_symbol-of-stunning)M: Triggered rune stuns creatures.
+- [**Symbol of Weakness**](spells/symbolOfWeakness#_symbol-of-weakness)M: Triggered rune weakens creatures.
+- [**Teleport Object**](spells/teleportObject#_teleport-object): As _ [teleport](spells/teleport#_teleport), _but affects a touched object.
+- [**Teleport, Greater**](spells/teleport#_teleport-greater): As _ [teleport](spells/teleport#_teleport), _but no range limit and no off-target arrival.
+- [**Temporary Resurrection**](ultimateMagic/spells/temporaryResurrection#_temporary-resurrection): Bring a creature to life for 24 hours.
+- [**Vision**](spells/vision#_vision)M: As _ [legend lore](spells/legendLore#_legend-lore)_, but quicker.
+- [**Walk through Space**](ultimateCombat/spells/walkThroughSpace#_walk-through-space): You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
+- [**Waves of Ecstasy**](ultimateMagic/spells/wavesOfEcstasy#_waves-of-ecstasy): Pleasure stuns and staggers creatures.
+- [**Waves of Exhaustion**](spells/wavesOfExhaustion#_waves-of-exhaustion): Several targets become [exhausted](glossary#_exhausted).
+
+- [**Antipathy**](spells/antipathy#_antipathy): Object or location affected by spell repels certain creatures.
+- [**Charm Monster, Mass**](spells/charmMonster#_charm-monster-mass): As _ [charm monster](spells/charmMonster#_charm-monster), _but all within 30 ft.
+- [**Clone**](spells/clone#_clone)MF: Duplicate awakens when original dies.
+- [**Create Demiplane**](ultimateMagic/spells/createDemiplane#_create-demiplane): As _ [lesser create demiplane](ultimateMagic/spells/createDemiplane#_create-demiplane,-lesser)_, but larger and with planar traits.
+- [**Cure Serious Wounds, Mass**](spells/cureSeriousWounds#_cure-serious-wounds-mass): Cures 3d8 damage + 1/level, affects 1 subject/level.
+- [**Demand**](spells/demand#_demand): As _ [sending](spells/sending#_sending), _plus you can send _ [suggestion](spells/suggestion#_suggestion)._
+- [**Destruction**](spells/destruction#_destruction)F: Kills subject and destroys remains.
+- [**Discern Location**](spells/discernLocation#_discern-location): Reveals exact location of creature or object.
+- [**Frightful Aspect**](ultimateCombat/spells/frightfulAspect#_frightful-aspect): You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened.
+- [**Horrid Wilting**](spells/horridWilting#_horrid-wilting): Deals 1d6/level damage within 30 ft.
+- [**Inflict Serious Wounds, Mass**](spells/inflictSeriousWounds#_inflict-serious-wounds-mass): Deals 3d8 damage + 1/level, affects 1 subject/level.
+- [**Irresistible Dance**](spells/irresistibleDance#_irresistible-dance): Forces subject to dance.
+- [**Maze**](spells/maze#_maze): Traps subject in extradimensional maze.
+- [**Mind Blank**](spells/mindBlank#_mind-blank): Subject is protected from mental/emotional magic and [scrying](spells/scrying#_scrying).
+- [**Moment of Prescience**](spells/momentOfPrescience#_moment-of-prescience): You gain +1/level insight bonus on single attack roll, check, or save.
+- [**Nine Lives**](advancedRaceGuide/featuredRaces/catfolk#_nine-lives): Gives the target the ability to get out of trouble and relieves harmful effects and conditions.
+- [**Power Word Stun**](spells/powerWordStun#_power-word-stun): Stuns creature with 150 hp or less.
+- [**Prediction of Failure**](ultimateMagic/spells/predictionOfFailure#_prediction-of-failure): Target is permanently shaken and sickened, and may gain a spellblight.
+- [**Prying Eyes, Greater**](spells/pryingEyes#_prying-eyes-greater): As _ [prying eyes](spells/pryingEyes#_prying-eyes)_, but eyes have _ [true seeing](spells/trueSeeing#_true-seeing)_.
+- [**Resurrection**](spells/resurrection#_resurrection)M: Fully restore dead subject.
+- [**Stormbolts**](advanced/spells/stormbolts#_stormbolts): 1d8 damage/level (max 20d8) to targets.
+- [**Summon Monster VIII**](spells/summonMonster#_summon-monster-viii): Summons elemental creature to fight for you.
+- [**Symbol of Death**](spells/symbolOfDeath#_symbol-of-death)M: Triggered rune kills nearby creatures.
+- [**Symbol of Insanity**](spells/symbolOfInsanity#_symbol-of-insanity)M: Triggered rune renders nearby creatures insane.
+- [**Sympathy**](spells/sympathy#_sympathy)M: Object or location attracts certain creatures.
+- [**Trap the Soul**](spells/trapTheSoul#_trap-the-soul)M: Imprisons subject within gem.
+
+- [**Astral Projection**](spells/astralProjection#_astral-projection)M: Projects you and companions onto Astral Plane.
+- [**Create Demiplane, Greater**](ultimateMagic/spells/createDemiplane#_create-demiplane,-greater): As _ [create demiplane](ultimateMagic/spells/createDemiplane#_create-demiplane)_, but larger and with more planar traits.
+- [**Cure Critical Wounds, Mass**](spells/cureCriticalWounds#_cure-critical-wounds-mass): Cures 4d8 damage + 1/level for many creatures.
+- [**Cursed Earth**](ultimateMagic/spells/cursedEarth#_cursed-earth): Plants die, living creatures catch diseases, or dead creatures rise as zombies.
+- [**Dominate Monster**](spells/dominateMonster#_dominate-monster): As _ [dominate person](spells/dominatePerson#_dominate-person), _but any creature.
+- [**Elemental Swarm**](spells/elementalSwarm#_elemental-swarm): Summons multiple elementals.
+- [**Foresight**](spells/foresight#_foresight): “Sixth sense” warns of impending danger.
+- [**Heroic Invocation**](ultimateCombat/spells/heroicInvocation#_heroic-invocation): Grants a number of creatures bonuses on attacks and damage, temporary hit points, and immunity to fear and charm effects.
+- [**Hold Monster, Mass**](spells/holdMonster#_hold-monster-mass): As _ [hold monster](spells/holdMonster#_hold-monster), _but all within 30 ft.
+- [**Inflict Critical Wounds, Mass**](spells/inflictCriticalWounds#_inflict-critical-wounds-mass): Deals 4d8 damage + 1/level, affects 1 subject/level.
+- [**Mind Blank, Communal**](ultimateCombat/spells/mindBlank#_mind-blank,-communal): As _ [mind blank](spells/mindBlank#_mind-blank)_, but you may divide the duration among creatures touched. 
+- [**Polar Midnight**](ultimateMagic/spells/polarMidnight#_polar-midnight): Cold darkness paralyzes and deals damage.
+- [**Power Word Kill**](spells/powerWordKill#_power-word-kill): Kills one creature with 100 hp or less.
+- [**Refuge**](spells/refuge#_refuge)M: Alters item to transport its possessor to your abode.
+- [**Soul Bind**](spells/soulBind#_soul-bind)F: Traps newly dead soul to prevent _ [resurrection](spells/resurrection#_resurrection)_.
+- [**Storm of Vengeance**](spells/stormOfVengeance#_storm-of-vengeance): Storm rains acid, lightning, and hail.
+- [**Suffocation, Mass**](advanced/spells/suffocation#_suffocation,-mass): One creature/level suffocates to death.
+- [**Summon Monster IX**](spells/summonMonster#_summon-monster-ix): Summons extraplanar creature to fight for you.
+- [**Symbol of Strife**](ultimateMagic/spells/symbolOfStrife#_symbol-of-strife): Triggered rune makes creatures attack.
+- [**Symbol of Vulnerability**](ultimateMagic/spells/symbolOfVulnerability#_symbol-of-vulnerability): Triggered rune gives penalties.
+- [**Teleportation Circle**](spells/teleportationCircle#_teleportation-circle)M: Teleports creatures inside circle.
+- [**Wail of the Banshee**](spells/wailOfTheBanshee#_wail-of-the-banshee): Deals 10 damage/level to 1 creature/level.
 

@@ -1,6 +1,6 @@
 # Use Magic Device
 
-## ( [Cha](../gettingStarted.md#_charisma-new); Trained Only)
+## ( [Cha](../gettingStarted#_charisma-new); Trained Only)
 
 You are skilled at activating magic items, even if you are not otherwise trained in their use.
 
@@ -25,7 +25,7 @@ _Activate Blindly_: Some magic items are activated by special words, thoughts, o
 
 _Decipher a Written Spell_: This usage works just like deciphering a written spell with the Spellcraft skill, except that the DC is 5 points higher. Deciphering a written spell requires 1 minute of concentration.
 
-_Emulate an Ability Score_: To cast a spell from a scroll, you need a high score in the appropriate ability ( [Intelligence](../gettingStarted.md#_intelligence) for wizard spells, [Wisdom](../gettingStarted.md#_wisdom) for divine spells, or [Charisma](../gettingStarted.md#_charisma-new) for sorcerer or bard spells). Your effective ability score (appropriate to the class you're emulating when you try to cast the spell from the scroll) is your Use Magic Device check result minus 15. If you already have a high enough score in the appropriate ability, you don't need to make this check.
+_Emulate an Ability Score_: To cast a spell from a scroll, you need a high score in the appropriate ability ( [Intelligence](../gettingStarted#_intelligence) for wizard spells, [Wisdom](../gettingStarted#_wisdom) for divine spells, or [Charisma](../gettingStarted#_charisma-new) for sorcerer or bard spells). Your effective ability score (appropriate to the class you're emulating when you try to cast the spell from the scroll) is your Use Magic Device check result minus 15. If you already have a high enough score in the appropriate ability, you don't need to make this check.
 
 _Emulate an Alignment_: Some magic items have positive or negative effects based on the user's alignment. Use Magic Device lets you use these items as if you were of an alignment of your choice. You can emulate only one alignment at a time.
 
@@ -45,5 +45,5 @@ _Use a Wand, Staff, or Other Spell Trigger Item_: Normally, to use a wand, you m
 
 **Special** : You cannot take 10 with this skill. You can't aid another on Use Magic Device checks. Only the user of the item may attempt such a check.
 
-If you have the [Magical Aptitude](../feats.md#_magical-aptitude) feat, you gain a bonus on Use Magic Device checks (see [Feats](../feats.md)).
+If you have the [Magical Aptitude](../feats#_magical-aptitude) feat, you gain a bonus on Use Magic Device checks (see [Feats](../feats)).
 

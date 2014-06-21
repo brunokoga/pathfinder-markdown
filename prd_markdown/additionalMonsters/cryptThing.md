@@ -6,11 +6,11 @@ Crypt ThingCR 5
 
 **XP 1,600**
 
-NE Medium [undead](monsters/creatureTypes.md#_undead)
+NE Medium [undead](monsters/creatureTypes#_undead)
 
-**Init** +6; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +15
+**Init** +6; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +15
 
-**Aura** [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) (10 ft., frightened for 1d4 rounds, Will DC 16 negates)
+**Aura** [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) (10 ft., frightened for 1d4 rounds, Will DC 16 negates)
 
 Defense
 
@@ -20,7 +20,7 @@ Defense
 
 **Fort** +4, **Ref** +6, **Will** +8
 
-**Defensive Abilities** channel [resistance](monsters/universalMonsterRules.md#_resistance) +2; **DR** 10/bludgeoning or magic; **Immune** [undead](monsters/creatureTypes.md#_undead) traits
+**Defensive Abilities** channel [resistance](monsters/universalMonsterRules#_resistance) +2; **DR** 10/bludgeoning or magic; **Immune** [undead](monsters/creatureTypes#_undead) traits
 
 Offense
 
@@ -32,7 +32,7 @@ Offense
 
 **Spell-Like Abilities** (CL 8th; concentration +10)
 
-3/day—quickened _ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_
+3/day—quickened _ [dimension door](additionalMonsters/../spells/dimensionDoor#_dimension-door)_
 
 Statistics
 
@@ -40,9 +40,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +10; **CMD** 23
 
-**Feats** [Alertness](additionalMonsters/../feats.md#_alertness), [Dodge](additionalMonsters/../feats.md#_dodge), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes)
+**Feats** [Alertness](additionalMonsters/../feats#_alertness), [Dodge](additionalMonsters/../feats#_dodge), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes)
 
-**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +6, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +13, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +6, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (dungeoneering) +5, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (history) +3, [Perception](additionalMonsters/../skills/perception.md#_perception) +15, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +15, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +9
+**Skills** [Bluff](additionalMonsters/../skills/bluff#_bluff) +6, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +13, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana) +6, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (dungeoneering) +5, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (history) +3, [Perception](additionalMonsters/../skills/perception#_perception) +15, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +15, [Stealth](additionalMonsters/../skills/stealth#_stealth) +9
 
 **Languages** Common
 
@@ -64,5 +64,5 @@ A crypt thing only initiates combat if it is attacked or if the object or crypt 
 
 ## Creation
 
-A 15th-level spellcaster can create a crypt thing using _ [create undead](additionalMonsters/../spells/createUndead.md#_create-undead)._ The spell also requires the creator or an assistant to be able to cast _ [teleport](additionalMonsters/../spells/teleport.md#_teleport)_, _ [greater teleport](additionalMonsters/../spells/teleport.md#_teleport-greater)_, or _ [word of recall](additionalMonsters/../spells/wordOfRecall.md#_word-of-recall)_ (or provide this magic from a scroll or other source).
+A 15th-level spellcaster can create a crypt thing using _ [create undead](additionalMonsters/../spells/createUndead#_create-undead)._ The spell also requires the creator or an assistant to be able to cast _ [teleport](additionalMonsters/../spells/teleport#_teleport)_, _ [greater teleport](additionalMonsters/../spells/teleport#_teleport-greater)_, or _ [word of recall](additionalMonsters/../spells/wordOfRecall#_word-of-recall)_ (or provide this magic from a scroll or other source).
 

@@ -6,9 +6,9 @@ Mythic Human Skeleton CR 1/MR 1
 
 XP 400
 
-NE Medium undead ( [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
+NE Medium undead ( [mythic](mythicAdventures/mythicMonsters#_mythic-subtype))
 
-**Init** +7M; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +0
+**Init** +7M; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +0
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +0, **Ref** +2, **Will** +3
 
-**Defensive Abilities** channel resistance +2; **DR** 5/bludgeoning; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), undead traits
+**Defensive Abilities** channel resistance +2; **DR** 5/bludgeoning; **Immune** [cold](monsters/creatureTypes#_cold-subtype), undead traits
 
 Offense
 
@@ -34,7 +34,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +3; **CMD** 15
 
-**Feats** [Improved Initiative](feats.md#_improved-initiative)B, M
+**Feats** [Improved Initiative](feats#_improved-initiative)B, M
 
 Ecology
 
@@ -44,17 +44,17 @@ Ecology
 
 **Treasure** standard (2 scimitars, other treasure)
 
-A mythic skeleton is an animated corpse created with mythic magic such as _mythic [animate dead](spells/animateDead.md#_animate-dead)_. It has an unnatural cunning that belies its mindless nature and a natural instinct for killing.
+A mythic skeleton is an animated corpse created with mythic magic such as _mythic [animate dead](spells/animateDead#_animate-dead)_. It has an unnatural cunning that belies its mindless nature and a natural instinct for killing.
 
 ## Creating a Mythic Skeleton
 
 "Mythic skeleton" is an acquired template that can be added to any creature with the skeleton template (referred to hereafter as the base skeleton).
 
-[**Mythic Subtype**](mythicAdventures/mythicMonsters.md#_mythic-subtype): A mythic skeleton gains the mythic subtype, with a rank equal to half the CR of the base skeleton. Instead of gaining additional abilities according to its CR, it always gains channel resistance +2, relentless, and superior two-weapon fighting. The mythic skeleton gains all other benefits of having the mythic subtype: ability score bonuses, bonus hit points, mythic feats, mythic power, natural armor bonus, and spell resistance increase (if any).
+[**Mythic Subtype**](mythicAdventures/mythicMonsters#_mythic-subtype): A mythic skeleton gains the mythic subtype, with a rank equal to half the CR of the base skeleton. Instead of gaining additional abilities according to its CR, it always gains channel resistance +2, relentless, and superior two-weapon fighting. The mythic skeleton gains all other benefits of having the mythic subtype: ability score bonuses, bonus hit points, mythic feats, mythic power, natural armor bonus, and spell resistance increase (if any).
 
 **CR** : Adjust the base skeleton's CR according to its mythic rank (this template doesn't increase the base skeleton's CR other than from the mythic rank).
 
-**Hit Dice** : A mythic skeleton's Hit Dice are determined as though it were a [zombie](monsters/zombie.md#_zombie) instead of a skeleton.
+**Hit Dice** : A mythic skeleton's Hit Dice are determined as though it were a [zombie](monsters/zombie#_zombie) instead of a skeleton.
 
 **Relentless (Ex)** : Any melee attack made against a mythic skeleton provokes an attack of opportunity from the skeleton.
 
@@ -64,7 +64,7 @@ A mythic skeleton is an animated corpse created with mythic magic such as _mythi
 
 Other types of skeletons have the following additional or altered abilities.
 
-**Mythic Bloody Skeleton** : Destroying a mythic bloody skeleton in the area of a non-mythic _ [bless](spells/bless.md#_bless)_ spell doesn't prevent it from returning to unlife.
+**Mythic Bloody Skeleton** : Destroying a mythic bloody skeleton in the area of a non-mythic _ [bless](spells/bless#_bless)_ spell doesn't prevent it from returning to unlife.
 
 **Mythic Burning Skeleton** : Add half the burning skeleton's mythic rank to its fiery aura damage and melee attack fire damage. Add its mythic rank to the DC of its fiery death ability.
 

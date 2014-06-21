@@ -4,5 +4,5 @@ Protection from Law, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [protection from law](spells/protectionFromLaw.md#_protection-from-law)_, except you divide the duration in 1-minute intervals among the creatures touched.
+This spell functions like _ [protection from law](spells/protectionFromLaw#_protection-from-law)_, except you divide the duration in 1-minute intervals among the creatures touched.
 

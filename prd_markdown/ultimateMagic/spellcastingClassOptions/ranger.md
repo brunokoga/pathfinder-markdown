@@ -6,9 +6,9 @@ The following section introduces ranger traps (simple improvised traps that some
 
 # Ranger Traps
 
-Rangers are legendary for their ability to hunt down and capture their prey. Some rangers can create elaborate traps out of scraps, vines, and perhaps a little bit of specialized magic. Characters can learn how to set these traps by taking the [Learn Ranger Trap](ultimateMagic/ultimateMagicFeats.md#_learn-ranger-trap) feat or by having the trapper ranger archetype.
+Rangers are legendary for their ability to hunt down and capture their prey. Some rangers can create elaborate traps out of scraps, vines, and perhaps a little bit of specialized magic. Characters can learn how to set these traps by taking the [Learn Ranger Trap](ultimateMagic/ultimateMagicFeats#_learn-ranger-trap) feat or by having the trapper ranger archetype.
 
-Setting a trap is a full-round action that provokes attacks of opportunity. A trap fills a single 5-foot square, and cannot be placed in the same area as another ranger trap or a magical trap such as a glyph of warding. The ranger only needs simple materials to create the trap, such as a piece of cloth, a small amount of metal (such as a dagger, iron spike, or a few nails), a foot of rope or vine, and so on. The DCs for [Perception](skills/perception.md#_perception) checks to notice the trap, [Disable Device](skills/disableDevice.md#_disable-device) checks to disable it, and for saving throws to avoid it are equal to 10 + 1/2 the character's level + the character's Wisdom bonus. All ranger traps are **Trigger** : location, and **Reset** : none.
+Setting a trap is a full-round action that provokes attacks of opportunity. A trap fills a single 5-foot square, and cannot be placed in the same area as another ranger trap or a magical trap such as a glyph of warding. The ranger only needs simple materials to create the trap, such as a piece of cloth, a small amount of metal (such as a dagger, iron spike, or a few nails), a foot of rope or vine, and so on. The DCs for [Perception](skills/perception#_perception) checks to notice the trap, [Disable Device](skills/disableDevice#_disable-device) checks to disable it, and for saving throws to avoid it are equal to 10 + 1/2 the character's level + the character's Wisdom bonus. All ranger traps are **Trigger** : location, and **Reset** : none.
 
 Ranger traps are either extraordinary or supernatural; extraordinary traps are **Type** : mechanical, and supernatural traps are **Type** : magic. Some of the traps listed below may be set as extraordinary traps or as magical (supernatural) traps; learning such a trap lets a ranger set it either way. An extraordinary trap has a –2 penalty to its DC. An extraordinary trap lasts 1 day per ranger level or until it is triggered, whichever comes first. A magical trap lasts only 1 hour per level or until triggered, whichever comes first. A trap's DC decreases by 1 for each full day (or hour, for a magical trap) that passes after it is set. Traps marked with an asterisk (\*) add to or modify the effects of another trap; a ranger can add one of these trap types to any standard ranger trap (this costs 1 additional use of the trap ability).
 
@@ -16,7 +16,7 @@ Alarm Trap\* (Ex or Su)
 
 Effects
 
-**Effect** When the trap is triggered, it also creates a momentary loud noise equivalent to the audible alarm version of _ [alarm](spells/alarm.md#_alarm)_.
+**Effect** When the trap is triggered, it also creates a momentary loud noise equivalent to the audible alarm version of _ [alarm](spells/alarm#_alarm)_.
 
 Burning Trap\* (Ex or Su)
 
@@ -58,13 +58,13 @@ Sleet Trap (Su)
 
 Effects
 
-**Effect** The detonating trap creates a 20-foot-radius burst of sleet with the effects of a _ [sleet storm](spells/sleetStorm.md#_sleet-storm)_. The driving sleet lasts for 1 round, but the icy ground persists for 1 round per ranger level.
+**Effect** The detonating trap creates a 20-foot-radius burst of sleet with the effects of a _ [sleet storm](spells/sleetStorm#_sleet-storm)_. The driving sleet lasts for 1 round, but the icy ground persists for 1 round per ranger level.
 
 Snare Trap (Ex or Su)
 
 Effects
 
-**Effect** The trap constricts around a limb or other part of the triggering creature's body (Reflex avoids). The creature cannot move from the location of the trap, unless the ranger included a “leash” when setting the trap, in which case the creature is limited to the length of the leash. The trapped creature can escape with an [Escape Artist](skills/escapeArtist.md#_escape-artist) check (DC equal to the trap's DC) as a full-round action. The trap or its leash has a number of hit points equal to 1/2 the ranger's level, or can be burst as a full-round action with a DC 25 Strength check. The trap can hold up to a Medium creature; each extra daily use of the ranger's trap ability spent when the trap is set increases the maximum size of creature the trap can hold. At the ranger's option, if there is a tall object or structure nearby, she can have the trap lift the creature.
+**Effect** The trap constricts around a limb or other part of the triggering creature's body (Reflex avoids). The creature cannot move from the location of the trap, unless the ranger included a “leash” when setting the trap, in which case the creature is limited to the length of the leash. The trapped creature can escape with an [Escape Artist](skills/escapeArtist#_escape-artist) check (DC equal to the trap's DC) as a full-round action. The trap or its leash has a number of hit points equal to 1/2 the ranger's level, or can be burst as a full-round action with a DC 25 Strength check. The trap can hold up to a Medium creature; each extra daily use of the ranger's trap ability spent when the trap is set increases the maximum size of creature the trap can hold. At the ranger's option, if there is a tall object or structure nearby, she can have the trap lift the creature.
 
 Swarm Trap (Ex or Su)
 
@@ -76,9 +76,9 @@ Effects
 
 A trapper is a ranger who focuses exclusively on traps, rather than learning conventional magic. A trapper has the following class features.
 
-**Class Skills** : A trapper adds [Disable Device](skills/disableDevice.md#_disable-device) to her list of class skills in addition to the normal ranger class skills.
+**Class Skills** : A trapper adds [Disable Device](skills/disableDevice#_disable-device) to her list of class skills in addition to the normal ranger class skills.
 
-**Trapfinding** : A trapper adds 1/2 her ranger level on [Perception](skills/perception.md#_perception) skill checks made to locate traps and on [Disable Device](skills/disableDevice.md#_disable-device) skill checks (minimum +1). A trapper can use [Disable Device](skills/disableDevice.md#_disable-device) to disarm magic traps.
+**Trapfinding** : A trapper adds 1/2 her ranger level on [Perception](skills/perception#_perception) skill checks made to locate traps and on [Disable Device](skills/disableDevice#_disable-device) skill checks (minimum +1). A trapper can use [Disable Device](skills/disableDevice#_disable-device) to disarm magic traps.
 
 **Trap** : At 5th level, a trapper learns how to create a snare trap and one other ranger trap of her choice. At 7th level and every two levels thereafter, she learns another trap. The trapper can use these traps a total number of times per day equal to 1/2 her ranger level + her Wisdom modifier. Once a trap is learned, it can't be unlearned and replaced with a different type of trap. The trapper cannot select an individual trap more than once. This ability replaces the ranger's spells class feature. Trappers do not gain any spells or spellcasting ability, do not have a caster level, and cannot use spell trigger and spell completion magic items.
 

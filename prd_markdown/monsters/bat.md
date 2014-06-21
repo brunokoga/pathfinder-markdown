@@ -6,9 +6,9 @@ _This giant, furry bat is nearly the size of an ox, with dark leathery wings tha
 
 **XP 600**
 
-N Large [animal](creatureTypes.md#_animal)
+N Large [animal](creatureTypes#_animal)
 
-**Init** +2; **Senses** [blindsense](universalMonsterRules.md#_blindsense) 40 ft.; **[Perception](../skills/perception.md#_perception)** +12
+**Init** +2; **Senses** [blindsense](universalMonsterRules#_blindsense) 40 ft.; **[Perception](../skills/perception#_perception)** +12
 
 **Defense**
 
@@ -32,9 +32,9 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Base**  **Atk** +3; **CMB** +7; **CMD** 19
 
-**Feats** [Alertness](../feats.md#_alertness), [Stealthy](../feats.md#_stealthy)
+**Feats** [Alertness](../feats#_alertness), [Stealthy](../feats#_stealthy)
 
-**Skills** [Fly](../skills/fly.md#_fly) +9, [Perception](../skills/perception.md#_perception) +12, [Stealth](../skills/stealth.md#_stealth) +4; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception) when using [blindsense](universalMonsterRules.md#_blindsense)
+**Skills** [Fly](../skills/fly#_fly) +9, [Perception](../skills/perception#_perception) +12, [Stealth](../skills/stealth#_stealth) +4; **Racial Modifiers** +4 [Perception](../skills/perception#_perception) when using [blindsense](universalMonsterRules#_blindsense)
 
 **Ecology**
 
@@ -52,7 +52,7 @@ The dire bat generally doesn't shelter in groups larger than eight, often living
 
 Starting Statistics
 
-**Size** Medium; **Speed** 20 ft., fly 40 ft. (good); **AC** +0 natural armor; **Attack** bite (1d6); **Ability Scores** Str 9, Dex 17, Con 9, Int 2, Wis 14, Cha 6; **Special Qualities** [blindsense](universalMonsterRules.md#_blindsense) 40 ft.
+**Size** Medium; **Speed** 20 ft., fly 40 ft. (good); **AC** +0 natural armor; **Attack** bite (1d6); **Ability Scores** Str 9, Dex 17, Con 9, Int 2, Wis 14, Cha 6; **Special Qualities** [blindsense](universalMonsterRules#_blindsense) 40 ft.
 
   
   
@@ -69,9 +69,9 @@ _Hundreds of high-pitched squeaks fill the air as a mass of small, carnivorous b
 
 **XP 600**
 
-N Diminutive [animal](creatureTypes.md#_animal) ( [swarm](creatureTypes.md#_swarm-subtype))
+N Diminutive [animal](creatureTypes#_animal) ( [swarm](creatureTypes#_swarm-subtype))
 
-**Init** +2; **Senses** [blindsense](universalMonsterRules.md#_blindsense) 20 ft., low-light vision; [Perception](../skills/perception.md#_perception) +15
+**Init** +2; **Senses** [blindsense](universalMonsterRules#_blindsense) 20 ft., low-light vision; [Perception](../skills/perception#_perception) +15
 
 **Defense**
 
@@ -81,7 +81,7 @@ N Diminutive [animal](creatureTypes.md#_animal) ( [swarm](creatureTypes.md#_swar
 
 **Fort** +3, **Ref** +7, **Will** +3
 
-**Defensive Abilities** [swarm traits](creatureTypes.md#_swarm-subtype); **Immune** weapon damage
+**Defensive Abilities** [swarm traits](creatureTypes#_swarm-subtype); **Immune** weapon damage
 
 **Offense**
 
@@ -99,9 +99,9 @@ N Diminutive [animal](creatureTypes.md#_animal) ( [swarm](creatureTypes.md#_swar
 
 **Base Atk** +2; **CMB** —; **CMD** —
 
-**Feats** [Lightning Reflexes](../feats.md#_lightning-reflexes), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
+**Feats** [Lightning Reflexes](../feats#_lightning-reflexes), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception))
 
-**Skills** [Fly](../skills/fly.md#_fly) +12, [Perception](../skills/perception.md#_perception) +15; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception) when using [blindsense](universalMonsterRules.md#_blindsense)
+**Skills** [Fly](../skills/fly#_fly) +12, [Perception](../skills/perception#_perception) +15; **Racial Modifiers** +4 [Perception](../skills/perception#_perception) when using [blindsense](universalMonsterRules#_blindsense)
 
 **SQ** swarm traits
 
@@ -115,7 +115,7 @@ N Diminutive [animal](creatureTypes.md#_animal) ( [swarm](creatureTypes.md#_swar
 
 **Special Features**
 
-**Wounding (Ex)** Any living creature damaged by a bat swarm continues to [bleed](universalMonsterRules.md#_bleed), losing 1 hit point per round thereafter. Multiple wounds do not result in cumulative bleeding loss. The bleeding can be stopped by a DC 10 [Heal](../skills/heal.md#_heal) check or the application of a cure spell or some other healing magic.
+**Wounding (Ex)** Any living creature damaged by a bat swarm continues to [bleed](universalMonsterRules#_bleed), losing 1 hit point per round thereafter. Multiple wounds do not result in cumulative bleeding loss. The bleeding can be stopped by a DC 10 [Heal](../skills/heal#_heal) check or the application of a cure spell or some other healing magic.
 
 Bat swarms dwell in large caves, ruins, or even city sewers—anywhere they can find darkness to hide in during the day and a supply of food to feast upon at night. They are only encountered outside in a group at dawn or dusk, or when they have been startled and forced to flee their lairs.
 

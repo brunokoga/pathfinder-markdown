@@ -40,21 +40,21 @@ Offense
 
 **Conjurer Spells Prepared** (CL 3rd; concentration +4; arcane spell failure 15%)
 
-2nd—_ [glitterdust](spells/glitterdust.md#_glitterdust)_ (DC 13), _ [web](spells/web.md#_web)_ (DC 13)
+2nd—_ [glitterdust](spells/glitterdust#_glitterdust)_ (DC 13), _ [web](spells/web#_web)_ (DC 13)
 
-1st—_ [burning hands](spells/burningHands.md#_burning-hands)_ (2, DC 12), _ [color spray](spells/colorSpray.md#_color-spray)_ (2, DC 12)
+1st—_ [burning hands](spells/burningHands#_burning-hands)_ (2, DC 12), _ [color spray](spells/colorSpray#_color-spray)_ (2, DC 12)
 
-0 (at will)—_ [bleed](spells/bleed.md#_bleed)_ (DC 11), _ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 11), _ [mage hand](spells/mageHand.md#_mage-hand)_
+0 (at will)—_ [bleed](spells/bleed#_bleed)_ (DC 11), _ [dancing lights](spells/dancingLights#_dancing-lights)_, _ [ghost sound](spells/ghostSound#_ghost-sound)_ (DC 11), _ [mage hand](spells/mageHand#_mage-hand)_
 
 **Opposition Schools** divination, necromancy
 
 Tactics
 
-**Before Combat** The arcane archer attempts to start combat from a hard-to-reach spot, such as a high tree branch or steep elevation. He casts _ [heroism](spells/heroism.md#_heroism)_ and _ [protection from arrows](spells/protectionFromArrows.md#_protection-from-arrows)_ on himself from scrolls.
+**Before Combat** The arcane archer attempts to start combat from a hard-to-reach spot, such as a high tree branch or steep elevation. He casts _ [heroism](spells/heroism#_heroism)_ and _ [protection from arrows](spells/protectionFromArrows#_protection-from-arrows)_ on himself from scrolls.
 
-**During Combat** The archer keeps his distance and uses his magic arrows first. He casts _ [glitterdust](spells/glitterdust.md#_glitterdust)_ and _ [web](spells/web.md#_web)_ to slow down any approaching enemies, using imbue arrow to increase the range of such spells if needed. He uses [Arcane Armor Training](feats.md#_arcane-armor-training) each round.
+**During Combat** The archer keeps his distance and uses his magic arrows first. He casts _ [glitterdust](spells/glitterdust#_glitterdust)_ and _ [web](spells/web#_web)_ to slow down any approaching enemies, using imbue arrow to increase the range of such spells if needed. He uses [Arcane Armor Training](feats#_arcane-armor-training) each round.
 
-**Base Statistics** Without _ [heroism](spells/heroism.md#_heroism)_ and _ [protection from arrows](spells/protectionFromArrows.md#_protection-from-arrows)_, the archer's base statistics are **Senses** Perception +12; **Fort** +5, **Ref** +7, **Will** +8; **DR** none; **Melee** _+2 short sword_ +12/+7 (1d6+4/19–20); **Ranged** mwk composite longbow +16/+11 (1d8+5/×3); **Skills** [Climb](skills/climb.md#_climb) +8, [Knowledge](skills/knowledge.md#_knowledge) (arcana, nature) +7, Perception +12, [Spellcraft](skills/spellcraft.md#_spellcraft) +7 (+9 to identify magic item properties), [Stealth](skills/stealth.md#_stealth) +12, [Swim](skills/swim.md#_swim) +8.
+**Base Statistics** Without _ [heroism](spells/heroism#_heroism)_ and _ [protection from arrows](spells/protectionFromArrows#_protection-from-arrows)_, the archer's base statistics are **Senses** Perception +12; **Fort** +5, **Ref** +7, **Will** +8; **DR** none; **Melee** _+2 short sword_ +12/+7 (1d6+4/19–20); **Ranged** mwk composite longbow +16/+11 (1d8+5/×3); **Skills** [Climb](skills/climb#_climb) +8, [Knowledge](skills/knowledge#_knowledge) (arcana, nature) +7, Perception +12, [Spellcraft](skills/spellcraft#_spellcraft) +7 (+9 to identify magic item properties), [Stealth](skills/stealth#_stealth) +12, [Swim](skills/swim#_swim) +8.
 
 Statistics
 
@@ -62,15 +62,15 @@ Statistics
 
 **Base Atk** +8; **CMB** +10; **CMD** 25
 
-**Feats** [Arcane Armor Training](feats.md#_arcane-armor-training), [Iron Will](feats.md#_iron-will), Manyshot, [Point-Blank Shot](feats.md#_point-blank-shot), Precise Shot, Rapid Shot, [Scribe Scroll](feats.md#_scribe-scroll), [Weapon Focus](feats.md#_weapon-focus) (longbow), Weapon Specialization (longbow)
+**Feats** [Arcane Armor Training](feats#_arcane-armor-training), [Iron Will](feats#_iron-will), Manyshot, [Point-Blank Shot](feats#_point-blank-shot), Precise Shot, Rapid Shot, [Scribe Scroll](feats#_scribe-scroll), [Weapon Focus](feats#_weapon-focus) (longbow), Weapon Specialization (longbow)
 
-**Skills** [Climb](skills/climb.md#_climb) +10, [Knowledge](skills/knowledge.md#_knowledge) (arcana, nature) +9, Perception +14, [Spellcraft](skills/spellcraft.md#_spellcraft) +9 (+11 to identify magic items), [Stealth](skills/stealth.md#_stealth) +14, [Swim](skills/swim.md#_swim) +10
+**Skills** [Climb](skills/climb#_climb) +10, [Knowledge](skills/knowledge#_knowledge) (arcana, nature) +9, Perception +14, [Spellcraft](skills/spellcraft#_spellcraft) +9 (+11 to identify magic items), [Stealth](skills/stealth#_stealth) +14, [Swim](skills/swim#_swim) +10
 
 **Languages** Common, Elven, Goblin
 
 **SQ** arcane bond (masterwork composite longbow), armor training 1, elven magic, summoner's charm (1 round), weapon familiarity
 
-**Combat Gear** _+1 [frost](magicItems/weapons.md#_weapons-frost) arrows_ (5), _+1 human-bane arrows _(5), _+1 [shock](magicItems/weapons.md#_weapons-shock) arrows_ (5), _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _scroll of [heroism](spells/heroism.md#_heroism)_, _scrolls of [invisibility](spells/invisibility.md#_invisibility)_ (2), _scroll of [protection from arrows](spells/protectionFromArrows.md#_protection-from-arrows)_; **Other Gear** _+1 studded leather_, _+2 short sword_, masterwork composite longbow with 50 arrows, _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +2_, spell component pouch, spellbook, 165 gp
+**Combat Gear** _+1 [frost](magicItems/weapons#_weapons-frost) arrows_ (5), _+1 human-bane arrows _(5), _+1 [shock](magicItems/weapons#_weapons-shock) arrows_ (5), _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _scroll of [heroism](spells/heroism#_heroism)_, _scrolls of [invisibility](spells/invisibility#_invisibility)_ (2), _scroll of [protection from arrows](spells/protectionFromArrows#_protection-from-arrows)_; **Other Gear** _+1 studded leather_, _+2 short sword_, masterwork composite longbow with 50 arrows, _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +2_, spell component pouch, spellbook, 165 gp
 
 Protectors of the forest, green wardens are sworn to defend their sylvan homes from enemy encroachment, using magic arrows to kill from the trees' canopy.
 
@@ -104,35 +104,35 @@ Offense
 
 **Ranged** _+2 longbow _+21/+16 (1d8+2/×3)
 
-**Special Attacks** bardic performance 19 rounds/day (move action; countersong, distraction, fascinate, inspire competence +3, inspire courage +2, _ [suggestion](spells/suggestion.md#_suggestion)_), enhance arrows (elemental, magic), imbue arrow, seeker arrow (1/day).
+**Special Attacks** bardic performance 19 rounds/day (move action; countersong, distraction, fascinate, inspire competence +3, inspire courage +2, _ [suggestion](spells/suggestion#_suggestion)_), enhance arrows (elemental, magic), imbue arrow, seeker arrow (1/day).
 
 **Bard Spells Known** (CL 10th; concentration +13)
 
-4th (1/day)—_ [greater invisibility](spells/invisibility.md#_invisibility-greater)_, _ [shout](spells/shout.md#_shout)_ (DC 17)
+4th (1/day)—_ [greater invisibility](spells/invisibility#_invisibility-greater)_, _ [shout](spells/shout#_shout)_ (DC 17)
 
-3rd (4/day)—_ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 16), _ [crushing despair](spells/crushingDespair.md#_crushing-despair)_ (DC 16), _ [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (DC 16), _ [deep slumber](spells/deepSlumber.md#_deep-slumber) _(DC 16)
+3rd (4/day)—_ [charm monster](spells/charmMonster#_charm-monster)_ (DC 16), _ [crushing despair](spells/crushingDespair#_crushing-despair)_ (DC 16), _ [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_ (DC 16), _ [deep slumber](spells/deepSlumber#_deep-slumber) _(DC 16)
 
-2nd (5/day)—_ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [eagle's splendor](spells/eagleSSplendor.md#_eagle-s-splendor)_, _ [invisibility](spells/invisibility.md#_invisibility)_, _ [shatter](spells/shatter.md#_shatter)_, _ [silence](spells/silence.md#_silence)_ (DC 15)
+2nd (5/day)—_ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [eagle's splendor](spells/eagleSSplendor#_eagle-s-splendor)_, _ [invisibility](spells/invisibility#_invisibility)_, _ [shatter](spells/shatter#_shatter)_, _ [silence](spells/silence#_silence)_ (DC 15)
 
-1st (6/day)—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 14), _ [feather fall](spells/featherFall.md#_feather-fall)_, _ [grease](spells/grease.md#_grease)_, _ [lesser confusion](spells/confusion.md#_confusion-lesser)_ (DC 14), _ [unseen servant](spells/unseenServant.md#_unseen-servant)_
+1st (6/day)—_ [charm person](spells/charmPerson#_charm-person)_ (DC 14), _ [feather fall](spells/featherFall#_feather-fall)_, _ [grease](spells/grease#_grease)_, _ [lesser confusion](spells/confusion#_confusion-lesser)_ (DC 14), _ [unseen servant](spells/unseenServant#_unseen-servant)_
 
-0 (at will)—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [flare](spells/flare.md#_flare)_ (DC 13), _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [mending](spells/mending.md#_mending)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_
+0 (at will)—_ [dancing lights](spells/dancingLights#_dancing-lights)_, _ [detect magic](spells/detectMagic#_detect-magic)_, _ [flare](spells/flare#_flare)_ (DC 13), _ [mage hand](spells/mageHand#_mage-hand)_, _ [mending](spells/mending#_mending)_, _ [prestidigitation](spells/prestidigitation#_prestidigitation)_
 
 **Sorcerer Spells Known** (CL 2nd; concentration +5; arcane spell failure 20%)
 
-1st (5/day)—_ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [true strike](spells/trueStrike.md#_true-strike)_
+1st (5/day)—_ [magic missile](spells/magicMissile#_magic-missile)_, _ [true strike](spells/trueStrike#_true-strike)_
 
-0 (at will)—_ [arcane mark](spells/arcaneMark.md#_arcane-mark)_, _ [daze](spells/daze.md#_daze)_ (DC 13), _ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 13), _ [open/close](spells/openClose.md#_open-close)_, _ [read magic](spells/readMagic.md#_read-magic)_
+0 (at will)—_ [arcane mark](spells/arcaneMark#_arcane-mark)_, _ [daze](spells/daze#_daze)_ (DC 13), _ [ghost sound](spells/ghostSound#_ghost-sound)_ (DC 13), _ [open/close](spells/openClose#_open-close)_, _ [read magic](spells/readMagic#_read-magic)_
 
 **Bloodline** arcane
 
 Tactics
 
-**Before Combat** The arcane archer casts _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_ and drinks her _potion of [haste](spells/haste.md#_haste)_. She typically prepares _ [shock](magicItems/weapons.md#_weapons-shock)_ arrows as her enhance arrows ability.
+**Before Combat** The arcane archer casts _ [cat's grace](spells/catSGrace#_cat-s-grace)_ and drinks her _potion of [haste](spells/haste#_haste)_. She typically prepares _ [shock](magicItems/weapons#_weapons-shock)_ arrows as her enhance arrows ability.
 
-**During Combat** The archer's favorite tactic is to cast _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_, then make shots from a distance using _ [true strike](spells/trueStrike.md#_true-strike)_.
+**During Combat** The archer's favorite tactic is to cast _ [greater invisibility](spells/invisibility#_invisibility-greater)_, then make shots from a distance using _ [true strike](spells/trueStrike#_true-strike)_.
 
-**Base Statistics** Without _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, the arcane archer's statistics are **Init** +5; **Ref** +13; **Ranged** _+2 longbow _+19/+14 (1d8+2/×3); **Dex** 20; **CMD** 26.
+**Base Statistics** Without _ [cat's grace](spells/catSGrace#_cat-s-grace)_, the arcane archer's statistics are **Init** +5; **Ref** +13; **Ranged** _+2 longbow _+19/+14 (1d8+2/×3); **Dex** 20; **CMD** 26.
 
 Statistics
 
@@ -140,15 +140,15 @@ Statistics
 
 **Base Atk** +10; **CMB** +10; **CMD** 28
 
-**Feats** [Deadly Aim](feats.md#_deadly-aim), [Eschew Materials](feats.md#_eschew-materials), Far Shot, Manyshot, [Point-Blank Shot](feats.md#_point-blank-shot), Precise Shot, Rapid Shot, [Skill Focus](feats.md#_skill-focus) (Perception), [Weapon Focus](feats.md#_weapon-focus) (longbow)
+**Feats** [Deadly Aim](feats#_deadly-aim), [Eschew Materials](feats#_eschew-materials), Far Shot, Manyshot, [Point-Blank Shot](feats#_point-blank-shot), Precise Shot, Rapid Shot, [Skill Focus](feats#_skill-focus) (Perception), [Weapon Focus](feats#_weapon-focus) (longbow)
 
-**Skills** [Knowledge](skills/knowledge.md#_knowledge) (geography) +6, [Knowledge](skills/knowledge.md#_knowledge) (local, nobility) +8, Perception +25, [Perform](skills/perform.md#_perform) (oratory, sing) +19, [Spellcraft](skills/spellcraft.md#_spellcraft) +3, [Swim](skills/swim.md#_swim) +0, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +7
+**Skills** [Knowledge](skills/knowledge#_knowledge) (geography) +6, [Knowledge](skills/knowledge#_knowledge) (local, nobility) +8, Perception +25, [Perform](skills/perform#_perform) (oratory, sing) +19, [Spellcraft](skills/spellcraft#_spellcraft) +3, [Swim](skills/swim#_swim) +0, [Use Magic Device](skills/useMagicDevice#_use-magic-device) +7
 
 **Languages** Common, Elven
 
 **SQ** arcane bond (_+2 longbow_), bardic knowledge +3, bloodline arcana (+1 DC for spells with metamagic feats that increase spell level), elf blood, lore master 1/day, versatile performance (oratory, sing)
 
-**Combat Gear** _+1 human-bane arrow_ (2), _+1 magical beast-bane arrow_ (4),_ potion of [haste](spells/haste.md#_haste)_; **Other Gear** _+2 chain shirt_, _+2 longbow_ with 40 arrows, masterwork rapier, _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _lesser bracers of archery_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 309 gp
+**Combat Gear** _+1 human-bane arrow_ (2), _+1 magical beast-bane arrow_ (4),_ potion of [haste](spells/haste#_haste)_; **Other Gear** _+2 chain shirt_, _+2 longbow_ with 40 arrows, masterwork rapier, _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _lesser bracers of archery_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, 309 gp
 
 These half-elves travel from fair to fair, entertaining crowds with archery prowess, arcane flourishes, and epic ballads.
 
@@ -190,9 +190,9 @@ Offense
 
 **Melee** _+1 short sword_ +17/+12/+7/+2 (1d6+1/19–20)
 
-**Ranged** _+2 [flaming](magicItems/weapons.md#_weapons-flaming) [shock](magicItems/weapons.md#_weapons-shock) shortbow_ +24/+19/+14/+9 (1d6+2/×3 plus 1d6 electricity and 1d6 fire)
+**Ranged** _+2 [flaming](magicItems/weapons#_weapons-flaming) [shock](magicItems/weapons#_weapons-shock) shortbow_ +24/+19/+14/+9 (1d6+2/×3 plus 1d6 electricity and 1d6 fire)
 
-**Special Attacks** enhance arrows (_ [distance](magicItems/weapons.md#_weapons-distance)_, elemental, elemental burst, magic), favored enemy (humans +2, undead +4), imbue arrow, phase arrow (1/day), seeker arrow (2/day)
+**Special Attacks** enhance arrows (_ [distance](magicItems/weapons#_weapons-distance)_, elemental, elemental burst, magic), favored enemy (humans +2, undead +4), imbue arrow, phase arrow (1/day), seeker arrow (2/day)
 
 **Bloodline**  **Spell-Like Abilities** (CL 6th; concentration +8)
 
@@ -200,29 +200,29 @@ Offense
 
 **Ranger Spells Prepared** (CL 6th; concentration +8)
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [snare](spells/snare.md#_snare)_
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [snare](spells/snare#_snare)_
 
-1st—_ [alarm](spells/alarm.md#_alarm)_, _ [entangle](spells/entangle.md#_entangle)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [alarm](spells/alarm#_alarm)_, _ [entangle](spells/entangle#_entangle)_, _ [resist energy](spells/resistEnergy#_resist-energy)_
 
 **Sorcerer Spells Known** (CL 6th; concentration +8; arcane spell failure 20%)
 
-3rd (3/day)—_ [slow](spells/slow.md#_slow)_ (DC 15)
+3rd (3/day)—_ [slow](spells/slow#_slow)_ (DC 15)
 
-2nd (6/day)—_ [false life](spells/falseLife.md#_false-life)_, _ [mirror image](spells/mirrorImage.md#_mirror-image)_
+2nd (6/day)—_ [false life](spells/falseLife#_false-life)_, _ [mirror image](spells/mirrorImage#_mirror-image)_
 
-1st (7/day)—_ [burning hands](spells/burningHands.md#_burning-hands)_ (DC 13), _ [detect undead](spells/detectUndead.md#_detect-undead)_, _ [silent image](spells/silentImage.md#_silent-image)_ (DC 13), _ [true strike](spells/trueStrike.md#_true-strike)_
+1st (7/day)—_ [burning hands](spells/burningHands#_burning-hands)_ (DC 13), _ [detect undead](spells/detectUndead#_detect-undead)_, _ [silent image](spells/silentImage#_silent-image)_ (DC 13), _ [true strike](spells/trueStrike#_true-strike)_
 
-0 (at will)—_ [acid splash](spells/acidSplash.md#_acid-splash)_, _ [disrupt undead](spells/disruptUndead.md#_disrupt-undead)_, _ [light](spells/light.md#_light)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [message](spells/message.md#_message)_, _ [open/close](spells/openClose.md#_open-close)_, _ [resistance](spells/resistance.md#_resistance)_
+0 (at will)—_ [acid splash](spells/acidSplash#_acid-splash)_, _ [disrupt undead](spells/disruptUndead#_disrupt-undead)_, _ [light](spells/light#_light)_, _ [mage hand](spells/mageHand#_mage-hand)_, _ [message](spells/message#_message)_, _ [open/close](spells/openClose#_open-close)_, _ [resistance](spells/resistance#_resistance)_
 
 **Bloodline** destined
 
 Tactics
 
-**Before Combat** The arcane archer casts _ [barkskin](spells/barkskin.md#_barkskin)_ and uses her _wand of [shield](spells/shield.md#_shield)_. She prepares _ [frost](magicItems/weapons.md#_weapons-frost) burst _arrows using her enhance arrows ability.
+**Before Combat** The arcane archer casts _ [barkskin](spells/barkskin#_barkskin)_ and uses her _wand of [shield](spells/shield#_shield)_. She prepares _ [frost](magicItems/weapons#_weapons-frost) burst _arrows using her enhance arrows ability.
 
-**During Combat** Preferring to stay out of the reach and sight of powerful enemies, the arcane archer casts _ [fly](spells/fly.md) _and _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_ on herself, takes flight, and pelts her enemies with arrows from relative safety.
+**During Combat** Preferring to stay out of the reach and sight of powerful enemies, the arcane archer casts _ [fly](spells/fly) _and _ [greater invisibility](spells/invisibility#_invisibility-greater)_ on herself, takes flight, and pelts her enemies with arrows from relative safety.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, the arcane archer's statistics are **AC** 24, touch 17, flat-footed 19
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, the arcane archer's statistics are **AC** 24, touch 17, flat-footed 19
 
 Statistics
 
@@ -230,15 +230,15 @@ Statistics
 
 **Base Atk** +16; **CMB** +16; **CMD** 34
 
-**Feats** [Deadly Aim](feats.md#_deadly-aim), [Dodge](feats.md#_dodge), [Endurance](feats.md#_endurance), [Eschew Materials](feats.md#_eschew-materials), [Great Fortitude](feats.md#_great-fortitude), Greater [Vital Strike](feats.md#_vital-strike), [Improved Initiative](feats.md#_improved-initiative), Improved [Vital Strike](feats.md#_vital-strike), Manyshot, [Point-Blank Shot](feats.md#_point-blank-shot), Precise Shot, Rapid Shot, [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (shortbow)
+**Feats** [Deadly Aim](feats#_deadly-aim), [Dodge](feats#_dodge), [Endurance](feats#_endurance), [Eschew Materials](feats#_eschew-materials), [Great Fortitude](feats#_great-fortitude), Greater [Vital Strike](feats#_vital-strike), [Improved Initiative](feats#_improved-initiative), Improved [Vital Strike](feats#_vital-strike), Manyshot, [Point-Blank Shot](feats#_point-blank-shot), Precise Shot, Rapid Shot, [Vital Strike](feats#_vital-strike), [Weapon Focus](feats#_weapon-focus) (shortbow)
 
-**Skills** [Climb](skills/climb.md#_climb) +12, [Heal](skills/heal.md#_heal) +15, [Intimidate](skills/intimidate.md#_intimidate) +12, [Knowledge](skills/knowledge.md#_knowledge) (religion) +9, Perception +22, [Stealth](skills/stealth.md#_stealth) +17, [Survival](skills/survival.md#_survival) +15, [Swim](skills/swim.md#_swim) +12
+**Skills** [Climb](skills/climb#_climb) +12, [Heal](skills/heal#_heal) +15, [Intimidate](skills/intimidate#_intimidate) +12, [Knowledge](skills/knowledge#_knowledge) (religion) +9, Perception +22, [Stealth](skills/stealth#_stealth) +17, [Survival](skills/survival#_survival) +15, [Swim](skills/swim#_swim) +12
 
 **Languages** Common
 
 **SQ** bloodline arcana (gains a luck bonus on saves when casting personal-range spells), evasion, favored terrain (forest +2, underground +4), hunter's bond (companions), swift tracker, track +4, wild empathy +11, woodland stride
 
-**Combat Gear** _+1 [ghost touch](magicItems/weapons.md#_weapons-ghost-touch) arrows_ (10), _+1 undead-bane arrows_ (10), _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds),_ _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _potion of [lesser restoration](spells/restoration.md#_restoration-lesser)_, _potion of remove disease,_ _scrolls of [greater invisibility](spells/invisibility.md#_invisibility-greater)_ (2), _scrolls of [invisibility](spells/invisibility.md#_invisibility)_ (2), _wand of [fly](spells/fly.md)_ (10 charges), _wand of [shield](spells/shield.md#_shield)_ (20 charges), holy water (10); **Other Gear** _+2 chain shirt_, _+2 [flaming](magicItems/weapons.md#_weapons-flaming) [shock](magicItems/weapons.md#_weapons-shock) shortbow_ with 20 arrows, _+1 short sword_, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [belt of physical might](magicItems/wondrousItems.md#_belt-of-physical-might) +2 _(Dex, Con), _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2_, _dusky rose prism [ioun stone](magicItems/wondrousItems.md#_ioun-stones), [efficient quiver](magicItems/wondrousItems.md#_efficient-quiver)_, _ring of [feather fall](spells/featherFall.md#_feather-fall)_,_ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 238 gp
+**Combat Gear** _+1 [ghost touch](magicItems/weapons#_weapons-ghost-touch) arrows_ (10), _+1 undead-bane arrows_ (10), _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds),_ _potion of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_, _potion of [lesser restoration](spells/restoration#_restoration-lesser)_, _potion of remove disease,_ _scrolls of [greater invisibility](spells/invisibility#_invisibility-greater)_ (2), _scrolls of [invisibility](spells/invisibility#_invisibility)_ (2), _wand of [fly](spells/fly)_ (10 charges), _wand of [shield](spells/shield#_shield)_ (20 charges), holy water (10); **Other Gear** _+2 chain shirt_, _+2 [flaming](magicItems/weapons#_weapons-flaming) [shock](magicItems/weapons#_weapons-shock) shortbow_ with 20 arrows, _+1 short sword_, _ [amulet of natural armor](magicItems/wondrousItems#_amulet-of-natural-armor) +1_, _ [belt of physical might](magicItems/wondrousItems#_belt-of-physical-might) +2 _(Dex, Con), _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +2_, _dusky rose prism [ioun stone](magicItems/wondrousItems#_ioun-stones), [efficient quiver](magicItems/wondrousItems#_efficient-quiver)_, _ring of [feather fall](spells/featherFall#_feather-fall)_,_ [ring of protection](magicItems/rings#_ring-of-protection) +1_, 238 gp
 
 Though these archers primarily hunt undead, they are dangerous foes for any creatures.
 
@@ -258,7 +258,7 @@ Chaos Arrow CR 19
 
 CE Small humanoid (gnome)
 
-**Init** +11; **Senses** low-light vision, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_; Perception +26
+**Init** +11; **Senses** low-light vision, _ [see invisibility](spells/seeInvisibility#_see-invisibility)_; Perception +26
 
 Defense
 
@@ -276,13 +276,13 @@ Offense
 
 **Melee** dagger +17/+12/+7/+2 (1d3/19–20)
 
-**Ranged** _+2 [frost](magicItems/weapons.md#_weapons-frost) [shock](magicItems/weapons.md#_weapons-shock) shortbow_ +27/+22/+17/+12 (1d4+2/×3 plus 1d6 cold and 1d6 electricity)
+**Ranged** _+2 [frost](magicItems/weapons#_weapons-frost) [shock](magicItems/weapons#_weapons-shock) shortbow_ +27/+22/+17/+12 (1d4+2/×3 plus 1d6 cold and 1d6 electricity)
 
-**Special Attacks** +1 on attack rolls against goblinoid and reptilian humanoids, arrow of death, enhance arrows (aligned, _ [distance](magicItems/weapons.md#_weapons-distance)_, elemental, elemental burst, magic), imbue arrow, phase arrow (3/day), seeker arrow (4/day), sneak attack +3d6
+**Special Attacks** +1 on attack rolls against goblinoid and reptilian humanoids, arrow of death, enhance arrows (aligned, _ [distance](magicItems/weapons#_weapons-distance)_, elemental, elemental burst, magic), imbue arrow, phase arrow (3/day), seeker arrow (4/day), sneak attack +3d6
 
 **Gnome Spell-Like Abilities** (CL 20th; concentration +24)
 
-1/day—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
+1/day—_ [dancing lights](spells/dancingLights#_dancing-lights)_, _ [ghost sound](spells/ghostSound#_ghost-sound)_, _ [prestidigitation](spells/prestidigitation#_prestidigitation)_, _ [speak with animals](spells/speakWithAnimals#_speak-with-animals)_
 
 **Bloodline**  **Spell-Like Abilities** (CL 11th; concentration +15)
 
@@ -290,27 +290,27 @@ Offense
 
 **Sorcerer Spells Known** (CL 11th; concentration +15; arcane spell failure 10%)
 
-5th (4/day)—_ [cloudkill](spells/cloudkill.md#_cloudkill) _(DC 19), _ [teleport](spells/teleport.md#_teleport)_
+5th (4/day)—_ [cloudkill](spells/cloudkill#_cloudkill) _(DC 19), _ [teleport](spells/teleport#_teleport)_
 
-4th (7/day)—_ [confusion](spells/confusion.md#_confusion)_ (DC 20), _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_, _ [shout](spells/shout.md#_shout)_ (DC 18)
+4th (7/day)—_ [confusion](spells/confusion#_confusion)_ (DC 20), _ [greater invisibility](spells/invisibility#_invisibility-greater)_, _ [shout](spells/shout#_shout)_ (DC 18)
 
-3rd (7/day)—_ [explosive runes](spells/explosiveRunes.md#_explosive-runes)_, _ [haste](spells/haste.md#_haste)_, _ [heroism](spells/heroism.md#_heroism)_, _ [stinking cloud](spells/stinkingCloud.md#_stinking-cloud)_ (DC 17)
+3rd (7/day)—_ [explosive runes](spells/explosiveRunes#_explosive-runes)_, _ [haste](spells/haste#_haste)_, _ [heroism](spells/heroism#_heroism)_, _ [stinking cloud](spells/stinkingCloud#_stinking-cloud)_ (DC 17)
 
-2nd (7/day)—_ [darkvision](spells/darkvision.md#_darkvision)_, _ [glitterdust](spells/glitterdust.md#_glitterdust)_ (DC 16), _ [rope trick](spells/ropeTrick.md#_rope-trick)_, _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, _ [web](spells/web.md#_web)_ (DC 16)
+2nd (7/day)—_ [darkvision](spells/darkvision#_darkvision)_, _ [glitterdust](spells/glitterdust#_glitterdust)_ (DC 16), _ [rope trick](spells/ropeTrick#_rope-trick)_, _ [see invisibility](spells/seeInvisibility#_see-invisibility)_, _ [web](spells/web#_web)_ (DC 16)
 
-1st (7/day)—_ [color spray](spells/colorSpray.md#_color-spray)_ (DC 16), _ [entangle](spells/entangle.md#_entangle)_ (DC 15), _ [expeditious retreat](spells/expeditiousRetreat.md#_expeditious-retreat)_, _ [magic missile](spells/magicMissile.md#_magic-missile)_, _ [reduce person](spells/reducePerson.md#_reduce-person)_ (DC 15), _ [true strike](spells/trueStrike.md#_true-strike)_
+1st (7/day)—_ [color spray](spells/colorSpray#_color-spray)_ (DC 16), _ [entangle](spells/entangle#_entangle)_ (DC 15), _ [expeditious retreat](spells/expeditiousRetreat#_expeditious-retreat)_, _ [magic missile](spells/magicMissile#_magic-missile)_, _ [reduce person](spells/reducePerson#_reduce-person)_ (DC 15), _ [true strike](spells/trueStrike#_true-strike)_
 
-0 (at will)—_ [bleed](spells/bleed.md#_bleed)_ (DC 14), _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [flare](spells/flare.md#_flare)_ (DC 14), _ [light](spells/light.md#_light)_, _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [message](spells/message.md#_message)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [ray of frost](spells/rayOfFrost.md#_ray-of-frost)_, _ [read magic](spells/readMagic.md#_read-magic)_
+0 (at will)—_ [bleed](spells/bleed#_bleed)_ (DC 14), _ [detect magic](spells/detectMagic#_detect-magic)_, _ [flare](spells/flare#_flare)_ (DC 14), _ [light](spells/light#_light)_, _ [mage hand](spells/mageHand#_mage-hand)_, _ [message](spells/message#_message)_, _ [prestidigitation](spells/prestidigitation#_prestidigitation)_, _ [ray of frost](spells/rayOfFrost#_ray-of-frost)_, _ [read magic](spells/readMagic#_read-magic)_
 
 **Bloodline** fey
 
 Tactics
 
-**Before Combat** The arcane archer casts _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_ and _ [haste](spells/haste.md#_haste)_. She prepares _ [flaming burst](magicItems/weapons.md#_weapons-flaming-burst)_ arrows as her enhance arrows ability.
+**Before Combat** The arcane archer casts _ [see invisibility](spells/seeInvisibility#_see-invisibility)_ and _ [haste](spells/haste#_haste)_. She prepares _ [flaming burst](magicItems/weapons#_weapons-flaming-burst)_ arrows as her enhance arrows ability.
 
-**During Combat** A arcane archer uses imbue arrows to fire off _ [cloudkill](spells/cloudkill.md#_cloudkill)_, _ [stinking cloud](spells/stinkingCloud.md#_stinking-cloud)_, and _ [entangle](spells/entangle.md#_entangle)_ from a distance.
+**During Combat** A arcane archer uses imbue arrows to fire off _ [cloudkill](spells/cloudkill#_cloudkill)_, _ [stinking cloud](spells/stinkingCloud#_stinking-cloud)_, and _ [entangle](spells/entangle#_entangle)_ from a distance.
 
-**Base Statistics** Without _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, the arcane archer's statistics are **Senses** low-light vision; Perception +26.
+**Base Statistics** Without _ [see invisibility](spells/seeInvisibility#_see-invisibility)_, the arcane archer's statistics are **Senses** low-light vision; Perception +26.
 
 Statistics
 
@@ -318,15 +318,15 @@ Statistics
 
 **Base Atk** +16; **CMB** +15; **CMD** 36
 
-**Feats** [Deadly Aim](feats.md#_deadly-aim), [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials), [Improved Initiative](feats.md#_improved-initiative), Mobility, Pinpoint Targeting, [Point-Blank Shot](feats.md#_point-blank-shot), Precise Shot, Rapid Shot, Shot on the [Run](feats.md#_run), [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (shortbow)
+**Feats** [Deadly Aim](feats#_deadly-aim), [Dodge](feats#_dodge), [Eschew Materials](feats#_eschew-materials), [Improved Initiative](feats#_improved-initiative), Mobility, Pinpoint Targeting, [Point-Blank Shot](feats#_point-blank-shot), Precise Shot, Rapid Shot, Shot on the [Run](feats#_run), [Vital Strike](feats#_vital-strike), [Weapon Focus](feats#_weapon-focus) (shortbow)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +27, [Craft](skills/craft.md#_craft) (bows) +8, [Disguise](skills/disguise.md#_disguise) +13, [Knowledge](skills/knowledge.md#_knowledge) (local, nature) +8, Perception +26, [Spellcraft](skills/spellcraft.md#_spellcraft) +8, [Stealth](skills/stealth.md#_stealth) +34, [Swim](skills/swim.md#_swim) +8, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +12
+**Skills** [Bluff](skills/bluff#_bluff) +27, [Craft](skills/craft#_craft) (bows) +8, [Disguise](skills/disguise#_disguise) +13, [Knowledge](skills/knowledge#_knowledge) (local, nature) +8, Perception +26, [Spellcraft](skills/spellcraft#_spellcraft) +8, [Stealth](skills/stealth#_stealth) +34, [Swim](skills/swim#_swim) +8, [Use Magic Device](skills/useMagicDevice#_use-magic-device) +12
 
 **Languages** Common, Gnome
 
 **SQ** bloodline arcana (+2 DC for compulsion spells), rogue talents (bleeding attack +3, combat trick, surprise attack), trapfinding +3, woodland stride
 
-**Combat Gear** _+1 dwarf-bane arrows _(10), _+1 elf-bane arrows _(10), _+1 human-bane arrows_ (10), _+1 [holy](magicItems/weapons.md#_weapons-holy) arrows_ (5), _+1 [unholy](magicItems/weapons.md#_unholy) arrows_ (5), _ [dust of illusion](magicItems/wondrousItems.md#_dust-of-illusion)_, _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (3); **Other Gear** _+3 mithral chain shirt_, _+2 [frost](magicItems/weapons.md#_weapons-frost) [shock](magicItems/weapons.md#_weapons-shock) shortbow_ with 20 arrows, daggers (3), _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +3_, _ [belt of physical might](magicItems/wondrousItems.md#_belt-of-physical-might) +4 _(Dex, Con), _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3_, _deck of illusions_, _ [efficient quiver](magicItems/wondrousItems.md#_efficient-quiver)_, _ [hat of disguise](magicItems/wondrousItems.md#_hat-of-disguise)_, _ [headband of alluring charisma](magicItems/wondrousItems.md#_headband-of-alluring-charisma) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +3_, _ [rope of climbing](magicItems/wondrousItems.md#_rope-of-climbing)_, 621 gp
+**Combat Gear** _+1 dwarf-bane arrows _(10), _+1 elf-bane arrows _(10), _+1 human-bane arrows_ (10), _+1 [holy](magicItems/weapons#_weapons-holy) arrows_ (5), _+1 [unholy](magicItems/weapons#_unholy) arrows_ (5), _ [dust of illusion](magicItems/wondrousItems#_dust-of-illusion)_, _potions of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_ (3); **Other Gear** _+3 mithral chain shirt_, _+2 [frost](magicItems/weapons#_weapons-frost) [shock](magicItems/weapons#_weapons-shock) shortbow_ with 20 arrows, daggers (3), _ [amulet of natural armor](magicItems/wondrousItems#_amulet-of-natural-armor) +3_, _ [belt of physical might](magicItems/wondrousItems#_belt-of-physical-might) +4 _(Dex, Con), _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +3_, _deck of illusions_, _ [efficient quiver](magicItems/wondrousItems#_efficient-quiver)_, _ [hat of disguise](magicItems/wondrousItems#_hat-of-disguise)_, _ [headband of alluring charisma](magicItems/wondrousItems#_headband-of-alluring-charisma) +2_, _ [ring of protection](magicItems/rings#_ring-of-protection) +3_, _ [rope of climbing](magicItems/wondrousItems#_rope-of-climbing)_, 621 gp
 
 Often whimsical in their destruction, chaos arrows roam the world playing the cruelest pranks for their own twisted amusement.
 

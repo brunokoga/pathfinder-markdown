@@ -6,9 +6,9 @@ _This immense reptilian beast towers over the surroundings like a dinosaur, all 
 
 **XP 1,638,400**
 
-N Colossal [magical beast](creatureTypes.md#_magical-beast)
+N Colossal [magical beast](creatureTypes#_magical-beast)
 
-**Init** +7; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +43
+**Init** +7; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +43
 
 **Aura** frightful presence (300 ft., DC 27)
 
@@ -16,23 +16,23 @@ N Colossal [magical beast](creatureTypes.md#_magical-beast)
 
 **AC** 40, touch 5, flat-footed 37 (+3 Dex, +35 natural, –8 size)
 
-**hp** 525 (30d10+360); [regeneration](universalMonsterRules.md#_regeneration) 40
+**hp** 525 (30d10+360); [regeneration](universalMonsterRules#_regeneration) 40
 
 **Fort** +31, **Ref** +22, **Will** +12
 
-**DR** 15/epic; **Immune** ability [damage](universalMonsterRules.md#_ability-damage-and-drain), acid, [bleed](universalMonsterRules.md#_bleed), disease, energy drain, fire, mind-affecting effects, paralysis, permanent wounds, petrification, poison, polymorph; **SR** 36
+**DR** 15/epic; **Immune** ability [damage](universalMonsterRules#_ability-damage-and-drain), acid, [bleed](universalMonsterRules#_bleed), disease, energy drain, fire, mind-affecting effects, paralysis, permanent wounds, petrification, poison, polymorph; **SR** 36
 
 **Offense**
 
 **Speed** 40 ft.
 
-**Melee** bite +37 (4d8+15/15–20/×3 plus [grab](universalMonsterRules.md#_grab)), 2 claws +37 (1d12+15), 2 gores +37 (1d10+15), tail slap +32 (3d8+7)
+**Melee** bite +37 (4d8+15/15–20/×3 plus [grab](universalMonsterRules#_grab)), 2 claws +37 (1d12+15), 2 gores +37 (1d10+15), tail slap +32 (3d8+7)
 
 **Ranged** 6 spines +25 (2d10+15/×3)
 
 **Space** 30 ft.; **Reach** 30 ft. (60 ft. with tail slap)
 
-**Special Attacks** rush, spines, [swallow whole](universalMonsterRules.md#_swallow-whole) (6d6+22 plus 6d6 acid, AC 27, hp 52)
+**Special Attacks** rush, spines, [swallow whole](universalMonsterRules#_swallow-whole) (6d6+22 plus 6d6 acid, AC 27, hp 52)
 
 **Statistics**
 
@@ -40,9 +40,9 @@ N Colossal [magical beast](creatureTypes.md#_magical-beast)
 
 **Base Atk** +30; **CMB** +53 (+57 grapple); **CMD** 66
 
-**Feats** [Awesome Blow](monsterFeats.md#_awesome-blow), [Blind-Fight](../feats.md#_blind-fight), [Bleeding Critical](../feats.md#_bleeding-critical), [Cleave](../feats.md#_cleave), [Combat Reflexes](../feats.md#_combat-reflexes), [Critical Focus](../feats.md#_critical-focus), [Great Cleave](../feats.md#_great-cleave), [Great Fortitude](../feats.md#_great-fortitude), [Improved Bull Rush](../feats.md#_improved-bull-rush), [Improved Critical](../feats.md#_improved-critical) (bite), [Improved Initiative](../feats.md#_improved-initiative), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Power Attack](../feats.md#_power-attack), [Run](../feats.md#_run), [Staggering Critical](../feats.md#_staggering-critical)
+**Feats** [Awesome Blow](monsterFeats#_awesome-blow), [Blind-Fight](../feats#_blind-fight), [Bleeding Critical](../feats#_bleeding-critical), [Cleave](../feats#_cleave), [Combat Reflexes](../feats#_combat-reflexes), [Critical Focus](../feats#_critical-focus), [Great Cleave](../feats#_great-cleave), [Great Fortitude](../feats#_great-fortitude), [Improved Bull Rush](../feats#_improved-bull-rush), [Improved Critical](../feats#_improved-critical) (bite), [Improved Initiative](../feats#_improved-initiative), [Lightning Reflexes](../feats#_lightning-reflexes), [Power Attack](../feats#_power-attack), [Run](../feats#_run), [Staggering Critical](../feats#_staggering-critical)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +3 (+43 when jumping), [Perception](../skills/perception.md#_perception) +43; **Racial Modifiers** +8 [Perception](../skills/perception.md#_perception)
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +3 (+43 when jumping), [Perception](../skills/perception#_perception) +43; **Racial Modifiers** +8 [Perception](../skills/perception#_perception)
 
 **Languages** Aklo (cannot speak)
 
@@ -58,13 +58,13 @@ N Colossal [magical beast](creatureTypes.md#_magical-beast)
 
 **Special Abilities**
 
-**Carapace (Su)** The tarrasque's scales deflect cones, lines, rays, and _ [magic missile](../spells/magicMissile.md#_magic-missile)_ spells, rendering the tarrasque immune to such effects. There is a 30% chance a deflected effect reflects back in full force at the caster; otherwise it is simply negated.
+**Carapace (Su)** The tarrasque's scales deflect cones, lines, rays, and _ [magic missile](../spells/magicMissile#_magic-missile)_ spells, rendering the tarrasque immune to such effects. There is a 30% chance a deflected effect reflects back in full force at the caster; otherwise it is simply negated.
 
-**Powerful Leaper (Ex)** The tarrasque uses its Strength to modify [Acrobatics](../skills/acrobatics.md#_acrobatics) checks made to jump, and has a +24 racial bonus on [Acrobatics](../skills/acrobatics.md#_acrobatics) checks made to jump.
+**Powerful Leaper (Ex)** The tarrasque uses its Strength to modify [Acrobatics](../skills/acrobatics#_acrobatics) checks made to jump, and has a +24 racial bonus on [Acrobatics](../skills/acrobatics#_acrobatics) checks made to jump.
 
 **Regeneration (Ex)** No form of attack can suppress the tarrasque's regeneration—it regenerates even if disintegrated or slain by a death effect. If the tarrasque fails a save against an effect that would kill it instantly, it rises from death 3 rounds later with 1 hit point if no further damage is inflicted upon its remains. It can be banished or otherwise transported as a means to save a region, but the method to truly kill it has yet to be discovered.
 
-**Rush (Ex)** Once per minute for 1 round, the tarrasque can move at a speed of 150 feet. This increases its [Acrobatics](../skills/acrobatics.md#_acrobatics) bonus on checks made to jump to +87.
+**Rush (Ex)** Once per minute for 1 round, the tarrasque can move at a speed of 150 feet. This increases its [Acrobatics](../skills/acrobatics#_acrobatics) bonus on checks made to jump to +87.
 
 **Spines (Ex)** The tarrasque can loose a volley of six spear-like spines from its body as a standard action with a toss of its head or a lash of its tail. Make an attack roll for each spine—all targets must be within 30 feet of each other. The spines have a range increment of 120 ft.
 

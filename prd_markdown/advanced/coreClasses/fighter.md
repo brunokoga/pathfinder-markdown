@@ -8,11 +8,11 @@ Presented below are a number of common martial themes, complete with variant cla
 
 The archer is dedicated to the careful mastery of the bow, perfecting his skills with years of practice honed day after day on ranges and hunting for game, or else on the battlefield, raining destruction down on the enemy lines.
 
-**Hawkeye (Ex)** : At 2nd level, an archer gains a +1 bonus on [Perception](../../skills/perception.md#_perception) checks, and the range increment for any bow he uses increases by 5 feet. These bonuses increase by +1 and 5 additional feet for every 4 levels beyond 2nd. This ability replaces bravery.
+**Hawkeye (Ex)** : At 2nd level, an archer gains a +1 bonus on [Perception](../../skills/perception#_perception) checks, and the range increment for any bow he uses increases by 5 feet. These bonuses increase by +1 and 5 additional feet for every 4 levels beyond 2nd. This ability replaces bravery.
 
 **Trick Shot (Ex)** : At 3rd level, an archer can choose one of the following combat maneuvers or actions: disarm, feint, or sunder. He can perform this action with a bow against any target within 30 feet, with a –4 penalty to his CMB. Every four levels beyond 3rd, he may choose an additional trick shot to learn. These maneuvers use up arrows as normal.
 
-At 11th level, he may also choose from the following combat maneuvers: bull rush, grapple, trip. A target grappled by an arrow can break free by destroying the archer's arrow (hardness 5, hit points 1, break DC 13) or with an [Escape Artist](../../skills/escapeArtist.md#_escape-artist) or CMB check (against the archer's CMD –4). This ability replaces armor training 1, 2, 3, and 4.
+At 11th level, he may also choose from the following combat maneuvers: bull rush, grapple, trip. A target grappled by an arrow can break free by destroying the archer's arrow (hardness 5, hit points 1, break DC 13) or with an [Escape Artist](../../skills/escapeArtist#_escape-artist) or CMB check (against the archer's CMD –4). This ability replaces armor training 1, 2, 3, and 4.
 
 **Expert Archer (Ex)** : At 5th level, an archer gains a +1 bonus on attack and damage rolls with bows. This bonus increases by +1 for every four levels beyond 5th. This ability replaces weapon training 1.
 
@@ -22,7 +22,7 @@ At 11th level, he may also choose from the following combat maneuvers: bull rush
 
 **Volley (Ex)** : At 17th level, as a full-round action, an archer can make a single bow attack at his highest base attack bonus against any number of creatures in a 15-foot- radius burst, making separate attack and damage rolls for each creature. This ability replaces weapon training 4.
 
-**Ranged Defense (Ex)** : At 19th level, an archer gains DR 5/— against ranged attacks. In addition, as an immediate action, he can catch an arrow fired at him and shoot it any target he chooses, as if he had the [Snatch Arrows](../../feats.md#_snatch-arrows) feat. This ability replaces armor mastery.
+**Ranged Defense (Ex)** : At 19th level, an archer gains DR 5/— against ranged attacks. In addition, as an immediate action, he can catch an arrow fired at him and shoot it any target he chooses, as if he had the [Snatch Arrows](../../feats#_snatch-arrows) feat. This ability replaces armor mastery.
 
 **Weapon Mastery (Ex)** : An archer must choose a type of bow.
 
@@ -36,13 +36,13 @@ The crossbowman has perfected the deadly use of the crossbow, a simple but cruel
 
 **Improved Deadshot (Ex)** : At 7th level, when a crossbowman attacks with a crossbow as a readied action, his target is denied its Dexterity bonus to its AC. This ability replaces armor training 2.
 
-**Quick Sniper (Ex)** : At 9th level, a crossbowman gains a bonus equal to 1/2 his fighter level on [Stealth](../../skills/stealth.md#_stealth) checks when sniping. When he is hit with a ranged attack, he can shoot his crossbow at his attacker as an immediate action if it is loaded. This ability replaces weapon training 2.
+**Quick Sniper (Ex)** : At 9th level, a crossbowman gains a bonus equal to 1/2 his fighter level on [Stealth](../../skills/stealth#_stealth) checks when sniping. When he is hit with a ranged attack, he can shoot his crossbow at his attacker as an immediate action if it is loaded. This ability replaces weapon training 2.
 
 **Greater Deadshot (Ex)** : At 11th level, when a crossbowman attacks with a crossbow as a readied action, he may add his Dexterity bonus (minimum +1) on his damage roll. This ability replaces armor training 3.
 
 **Safe Shot (Ex)** : At 13th level, a crossbowman does not provoke attacks of opportunity when making ranged attacks with a crossbow. This ability replaces weapon training 3.
 
-**Pinpoint Targeting** : At 15th level, a crossbowman gains [Pinpoint Targeting](../../feats.md#_pinpoint-targeting) as a bonus feat. This ability replaces armor training 4.
+**Pinpoint Targeting** : At 15th level, a crossbowman gains [Pinpoint Targeting](../../feats#_pinpoint-targeting) as a bonus feat. This ability replaces armor training 4.
 
 **Meteor Shot (Ex)** : At 17th level, as a standard action, a crossbowman can make one attack with a crossbow at a –4 penalty. If the attack hits, it inflicts damage normally and the target is subject to a bull rush or a trip maneuver using the attack roll as the combat maneuver check. The crossbowman must decide which maneuver to attempt before making his attack roll. This ability replaces weapon training 4.
 
@@ -54,7 +54,7 @@ The crossbowman has perfected the deadly use of the crossbow, a simple but cruel
 
 The free hand fighter specializes in the delicate art of handling a single weapon in one hand while using his free hand to balance, block, tip, and distract his opponents. While not a brawler, his open hand is as much a weapon as a bow or blade. His fighting school benefits only apply when he is using a one-handed weapon and carrying nothing in his other hand.
 
-**Deceptive Strike (Ex)** : At 2nd level, a free hand fighter gains a +1 bonus to CMB and CMD on disarm checks and on [Bluff](../../skills/bluff.md#_bluff) checks to feint or create a diversion to hide. This bonus increases by +1 for every four levels after 2nd. This ability replaces bravery.
+**Deceptive Strike (Ex)** : At 2nd level, a free hand fighter gains a +1 bonus to CMB and CMD on disarm checks and on [Bluff](../../skills/bluff#_bluff) checks to feint or create a diversion to hide. This bonus increases by +1 for every four levels after 2nd. This ability replaces bravery.
 
 **Elusive (Ex)** : At 3rd level, a free hand fighter gains a +1 dodge bonus to AC. This bonus increases by +1 for every four levels after 2nd. This bonus does not apply when wearing medium or heavy armor or carrying a medium or heavier load. This ability replaces armor training 1, 2, 3, and 4.
 
@@ -76,9 +76,9 @@ Where some fighters focus on strength and raw power, the mobile fighter relies o
 
 **Rapid Attack (Ex)** : At 11th level, a mobile fighter can combine a full attack action with a single move. He must forgo the attack at his highest bonus but may take the remaining attacks at any point during his movement. This movement provokes attacks of opportunity as normal. This ability replaces armor training 3.
 
-**[Fleet](../../feats.md#_fleet) Footed (Ex)** : At 15th level, the mobile fighter's speed increases by 10 feet. He can take 10 on [Acrobatics](../../skills/acrobatics.md#_acrobatics) checks even while distracted or threatened, and can take 20 on an [Acrobatics](../../skills/acrobatics.md#_acrobatics) check once per day for every five fighter levels he possesses. This ability replaces armor training 4.
+**[Fleet](../../feats#_fleet) Footed (Ex)** : At 15th level, the mobile fighter's speed increases by 10 feet. He can take 10 on [Acrobatics](../../skills/acrobatics#_acrobatics) checks even while distracted or threatened, and can take 20 on an [Acrobatics](../../skills/acrobatics#_acrobatics) check once per day for every five fighter levels he possesses. This ability replaces armor training 4.
 
-**Whirlwind Blitz (Ex)** : At 20th level, a mobile fighter can make a full-attack action as a standard action. He may also use the [Whirlwind Attack](../../feats.md#_whirlwind-attack) feat as a standard action. This ability replaces weapon mastery.
+**Whirlwind Blitz (Ex)** : At 20th level, a mobile fighter can make a full-attack action as a standard action. He may also use the [Whirlwind Attack](../../feats#_whirlwind-attack) feat as a standard action. This ability replaces weapon mastery.
 
 # Phalanx Soldier
 
@@ -94,7 +94,7 @@ The phalanx soldier specializes in defensive tactics, using his shield to guard 
 
 **Shield Ally (Ex)** : At 9th level, when a phalanx fighter is using a heavy or tower shield, he can, as a move action, provide partial cover (+2 cover bonus to AC, +1 bonus on Reflex saves) to himself and all adjacent allies until the beginning of his next turn.
 
-At 13th level, he can instead provide cover (+4 cover bonus to AC, +2 bonus on Reflex saves) and evasion (as a rogue) to one adjacent ally until the beginning of his next turn. This cover does not allow [Stealth](../../skills/stealth.md#_stealth) checks.
+At 13th level, he can instead provide cover (+4 cover bonus to AC, +2 bonus on Reflex saves) and evasion (as a rogue) to one adjacent ally until the beginning of his next turn. This cover does not allow [Stealth](../../skills/stealth#_stealth) checks.
 
 At 17th level, he can provide cover to himself and all adjacent allies, or he can provide improved cover (+8 cover bonus to AC, +4 bonus on Reflex saves, improved evasion) to a single adjacent ally. This ability replaces weapon training 2, 3, and 4.
 
@@ -128,15 +128,15 @@ Roughriders study and practice the fine points of mounted combat, drilling endle
 
 **Steadfast Mount (Ex)** : At 2nd level, after a roughrider has spent 1 hour practicing with a mount, the mount gains a +1 dodge bonus to AC and a +1 morale bonus on saves, but only while the roughrider is mounted on it or adjacent to it. This bonus increases by +1 for every four levels after 2nd. This ability replaces bravery.
 
-**Armored Charger (Ex)** : At 3rd level, a roughrider no longer suffers armor check penalties on [Ride](../../skills/ride.md#_ride) skill checks. His mount's speed is not reduced when carrying a medium load or wearing medium barding. This ability replaces armor training 1.
+**Armored Charger (Ex)** : At 3rd level, a roughrider no longer suffers armor check penalties on [Ride](../../skills/ride#_ride) skill checks. His mount's speed is not reduced when carrying a medium load or wearing medium barding. This ability replaces armor training 1.
 
 **Mounted Mettle (Ex)** : At 5th level, a roughrider and his mount gain a +1 bonus on attack and damage rolls when he is mounted or adjacent to his mount. This bonus increases by +1 for every four levels after 5th. This ability replaces weapon training 1, 2, 3, and 4.
 
-**Leap from the Saddle (Ex)** : At 7th level, after a roughrider's mount takes a single move, he may attempt a fast dismount (DC 20 [Ride](../../skills/ride.md#_ride) check). If he succeeds, he can take a full attack action. This ability replaces armor training 2.
+**Leap from the Saddle (Ex)** : At 7th level, after a roughrider's mount takes a single move, he may attempt a fast dismount (DC 20 [Ride](../../skills/ride#_ride) check). If he succeeds, he can take a full attack action. This ability replaces armor training 2.
 
-**Relentless Steed (Ex)** : At 11th level, a roughrider's mount does not reduce its speed when wearing heavy barding or carrying a heavy load. The roughrider may also reroll a [Ride](../../skills/ride.md#_ride) skill check or a saving throw made by the mount once per day, but must use the second roll even if it is worse. This ability may be used one additional time per day for every four levels beyond 11th. This ability replaces armor training 3.
+**Relentless Steed (Ex)** : At 11th level, a roughrider's mount does not reduce its speed when wearing heavy barding or carrying a heavy load. The roughrider may also reroll a [Ride](../../skills/ride#_ride) skill check or a saving throw made by the mount once per day, but must use the second roll even if it is worse. This ability may be used one additional time per day for every four levels beyond 11th. This ability replaces armor training 3.
 
-**[Ride](../../skills/ride.md#_ride) Them Down (Ex)** : At 15th level, can spur his mount on while readying an attack. If a roughrider's mount takes a single move, the roughrider can make a full attack, taking his attacks at any point during his mount's movement. If he has the [Trample](../../feats.md#_trample) feat, he may substitute an overrun combat maneuver for each of his attacks. This movement provokes attacks of opportunity against the roughrider but not his mount. This ability replaces armor training 4.
+**[Ride](../../skills/ride#_ride) Them Down (Ex)** : At 15th level, can spur his mount on while readying an attack. If a roughrider's mount takes a single move, the roughrider can make a full attack, taking his attacks at any point during his mount's movement. If he has the [Trample](../../feats#_trample) feat, he may substitute an overrun combat maneuver for each of his attacks. This movement provokes attacks of opportunity against the roughrider but not his mount. This ability replaces armor training 4.
 
 **Unavoidable Onslaught (Ex)** : At 15th level, a roughrider's mounted charge is not blocked by friendly creatures or difficult terrain. This ability replaces armor training 4.
 
@@ -152,7 +152,7 @@ Warriors' might is not measured only by their skill with steel, but also by thei
 
 **Savage Charge (Ex)** : At 9th level, when a savage warrior attacks with a natural weapon at the end of a charge, he gains a bonus on his natural weapon attack rolls equal to half his fighter level, while suffering a penalty to his AC equal to half his fighter level. These replace the normal attack roll bonus and AC penalty for charging. This bonus also applies to his CMB for a bull rush or overrun combat maneuvers made when charging. This ability replaces weapon training 2.
 
-**Careful Claw (Ex)** : At 13th level, when using a natural weapon to attack a creature using _ [fire shield](../../spells/fireShield.md#_fire-shield)_ or a similar effect that damages creatures attacking it (such as a barbed devil's barbed defense), a savage warrior reduces the damage from such effects by an amount equal to 1/2 his fighter level. This ability replaces weapon training 3.
+**Careful Claw (Ex)** : At 13th level, when using a natural weapon to attack a creature using _ [fire shield](../../spells/fireShield#_fire-shield)_ or a similar effect that damages creatures attacking it (such as a barbed devil's barbed defense), a savage warrior reduces the damage from such effects by an amount equal to 1/2 his fighter level. This ability replaces weapon training 3.
 
 **Greater Savage Charge (Ex)** : At 17th level, when using savage charge, the AC penalty is reduced to 1/4 his fighter level instead of 1/2 his fighter level. In addition, a savage warrior can charge through friendly creatures and difficult terrain. This ability replaces weapon training 4.
 
@@ -162,7 +162,7 @@ Warriors' might is not measured only by their skill with steel, but also by thei
 
 A shielded fighter focuses on both offense and defense, blending weapon and shield in perfect balance to impede his enemies while delivering deadly blows, and even turning the shield itself into a formidable weapon. These fighting school benefits apply when wielding a weapon and a shield simultaneously.
 
-**Active Defense (Ex)** : At 3rd level, a shielded fighter gains a +1 dodge bonus to AC when wielding a shield and fighting defensively, using [Combat Expertise](../../feats.md#_combat-expertise), or using total defense. This bonus increases by +1 for every four levels beyond 3rd. As a swift action, he may share this bonus with one adjacent ally, or half of the bonus (minimum +0) with all adjacent allies, until the beginning of his next turn. This ability replaces armor training 1, 2, 3, and 4.
+**Active Defense (Ex)** : At 3rd level, a shielded fighter gains a +1 dodge bonus to AC when wielding a shield and fighting defensively, using [Combat Expertise](../../feats#_combat-expertise), or using total defense. This bonus increases by +1 for every four levels beyond 3rd. As a swift action, he may share this bonus with one adjacent ally, or half of the bonus (minimum +0) with all adjacent allies, until the beginning of his next turn. This ability replaces armor training 1, 2, 3, and 4.
 
 **Shield Fighter (Ex)** : At 5th level, a shielded fighter gains a +1 bonus on attack and damage rolls when making a shield bash. These bonuses increase by +1 every four levels beyond 5th. With a full attack action, a shielded fighter may alternate between using his weapon or his shield for each attack. This action does not grant additional attacks or incur penalties as two-weapon fighting does. This ability replaces weapon training 1.
 
@@ -190,7 +190,7 @@ Some fighters focus their efforts on finding the biggest, heaviest, most imposin
 
 **Piledriver (Ex)** : At 11th level, as a standard action, a two-handed fighter can make a single melee attack with a two-handed weapon. If the attack hits, he may make a bull rush or trip combat maneuver against the target of his attack as a free action that does not provoke an attack of opportunity. This ability replaces armor training 3.
 
-**Greater [Power Attack](../../feats.md#_power-attack) (Ex)** : At 15th level, when using [Power Attack](../../feats.md#_power-attack) with a two-handed melee weapon, the bonus damage from [Power Attack](../../feats.md#_power-attack) is doubled (+100%) instead of increased by half (+50%). This ability replaces armor training 4.
+**Greater [Power Attack](../../feats#_power-attack) (Ex)** : At 15th level, when using [Power Attack](../../feats#_power-attack) with a two-handed melee weapon, the bonus damage from [Power Attack](../../feats#_power-attack) is doubled (+100%) instead of increased by half (+50%). This ability replaces armor training 4.
 
 **Devastating Blow (Ex)** : At 19th level, as a standard action, a two-handed fighter may make a single melee attack with a two-handed weapon at a –5 penalty. If the attack hits, it is treated as a critical threat. Special weapon abilities that activate only on a critical hit do not activate if this critical hit is confirmed. This ability replaces armor mastery.
 
@@ -218,7 +218,7 @@ Trained under great masters who preached the simple truth that two are better th
 
 Devoted to the perfection of a single weapon, the weapon master's meditations upon his favored weapon border on the obsessive, but none can deny his consummate skill. The weapon master must select a single type of weapon (such as longsword or shortbow). All of his abilities apply to that weapon type.
 
-**Weapon Guard (Ex)** : At 2nd level, a weapon master gains a +1 bonus to CMD against disarm and sunder attempts while wielding his chosen weapon. This bonus also applies on saves against any effect that targets his chosen weapon (for example, _ [grease](../../spells/grease.md#_grease), [heat metal](../../spells/heatMetal.md#_heat-metal), [shatter](../../spells/shatter.md#_shatter), [warp wood](../../spells/warpWood.md#_warp-wood)_). The bonus increases by +1 for every four levels beyond 2nd. This ability replaces bravery.
+**Weapon Guard (Ex)** : At 2nd level, a weapon master gains a +1 bonus to CMD against disarm and sunder attempts while wielding his chosen weapon. This bonus also applies on saves against any effect that targets his chosen weapon (for example, _ [grease](../../spells/grease#_grease), [heat metal](../../spells/heatMetal#_heat-metal), [shatter](../../spells/shatter#_shatter), [warp wood](../../spells/warpWood#_warp-wood)_). The bonus increases by +1 for every four levels beyond 2nd. This ability replaces bravery.
 
 **Weapon Training (Ex)** : At 3rd level, a weapon master gains a +1 bonus on attack and damage rolls with his chosen weapon. The bonus improves by +1 for every four levels beyond 3rd. This ability replaces armor training 1, 2, 3, and 4.
 

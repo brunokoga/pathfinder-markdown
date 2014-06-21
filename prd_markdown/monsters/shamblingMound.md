@@ -6,9 +6,9 @@ _A mass of tangled vines and dripping slime rises on two trunk-like legs, reekin
 
 **XP 2,400**
 
-N Large [plant](creatureTypes.md#_plant)
+N Large [plant](creatureTypes#_plant)
 
-**Init** +0; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) +11
+**Init** +0; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception#_perception) +11
 
 **Defense**
 
@@ -18,17 +18,17 @@ N Large [plant](creatureTypes.md#_plant)
 
 **Fort** +9, **Ref** +5, **Will** +5
 
-**Defensive Abilities** [plant traits](universalMonsterRules.md#_plant-traits); **Immune** electricity; **Resist** fire 10
+**Defensive Abilities** [plant traits](universalMonsterRules#_plant-traits); **Immune** electricity; **Resist** fire 10
 
 **Offense**
 
 **Speed** 20 ft., swim 20 ft.
 
-**Melee** 2 slams +11 (2d6+5 plus [grab](universalMonsterRules.md#_grab))
+**Melee** 2 slams +11 (2d6+5 plus [grab](universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [constrict](universalMonsterRules.md#_constrict) (2d6+7)
+**Special Attacks** [constrict](universalMonsterRules#_constrict) (2d6+7)
 
 **Statistics**
 
@@ -36,9 +36,9 @@ N Large [plant](creatureTypes.md#_plant)
 
 **Base**  **Atk** +6; **CMB** +12 (+16 grapple); **CMD** 22
 
-**Feats** [Cleave](../feats.md#_cleave), [Iron Will](../feats.md#_iron-will), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Power Attack](../feats.md#_power-attack), [Weapon Focus](../feats.md#_weapon-focus) (slam)
+**Feats** [Cleave](../feats#_cleave), [Iron Will](../feats#_iron-will), [Lightning Reflexes](../feats#_lightning-reflexes), [Power Attack](../feats#_power-attack), [Weapon Focus](../feats#_weapon-focus) (slam)
 
-**Skills** [Perception](../skills/perception.md#_perception) +11, [Stealth](../skills/stealth.md#_stealth) +8 (+16 in swamps or forest), [Swim](../skills/swim.md#_swim) +13; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception), +4 [Stealth](../skills/stealth.md#_stealth) (+12 in swamps or forests)
+**Skills** [Perception](../skills/perception#_perception) +11, [Stealth](../skills/stealth#_stealth) +8 (+16 in swamps or forest), [Swim](../skills/swim#_swim) +13; **Racial Modifiers** +4 [Perception](../skills/perception#_perception), +4 [Stealth](../skills/stealth#_stealth) (+12 in swamps or forests)
 
 **Languages** Common, Sylvan (cannot speak)
 

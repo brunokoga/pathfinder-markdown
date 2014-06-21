@@ -6,33 +6,33 @@ The 14 races presented in this chapter are all suitable to be played as PCs, but
 
 While these races are rare, the same can be said of anyone willing to become an adventurer. Such an activity is not for those who crave a normal life, and these races also produce the rare spirit who strikes out into the wild places of the world in search of excitement and exploration. With your GM's permission, you can select any of the following uncommon races for your player character. Each racial section provides all the information you need to create a character along with a number of new options available to characters of that race. This chapter details the following uncommon races.
 
-[**Changelings**](advancedRaceGuide/uncommonRaces/changelings.md): The offspring of hags and their mortal lovers, changelings are abandoned and raised by foster parents. Always female, changelings all hear a spiritual call during puberty to find their true origins. Tall and slender, with dark hair and eyes mismatched in color, changelings are eerily attractive.
+[**Changelings**](advancedRaceGuide/uncommonRaces/changelings): The offspring of hags and their mortal lovers, changelings are abandoned and raised by foster parents. Always female, changelings all hear a spiritual call during puberty to find their true origins. Tall and slender, with dark hair and eyes mismatched in color, changelings are eerily attractive.
 
-[**Duergar**](advancedRaceGuide/uncommonRaces/duergar.md): Gray skinned, deep-dwelling dwarves who hate their lighter skinned cousins, duergar view life as constant toil ending only in death. Though these dwarves are typically evil, honor and keeping one's word means everything to them, and a rare few make loyal adventuring companions.
+[**Duergar**](advancedRaceGuide/uncommonRaces/duergar): Gray skinned, deep-dwelling dwarves who hate their lighter skinned cousins, duergar view life as constant toil ending only in death. Though these dwarves are typically evil, honor and keeping one's word means everything to them, and a rare few make loyal adventuring companions.
 
-[**Gillmen**](advancedRaceGuide/uncommonRaces/gillmen.md): Survivors of a land-dwelling culture whose homeland was destroyed, gillmen were saved and transformed into an amphibious race by the aboleths. Though in many ways they appear nearly human, gillmen's bright purple eyes and gills set them apart from humanity. Reclusive and suspicious, gillmen know that one day the aboleths will call in the debt owed to them.
+[**Gillmen**](advancedRaceGuide/uncommonRaces/gillmen): Survivors of a land-dwelling culture whose homeland was destroyed, gillmen were saved and transformed into an amphibious race by the aboleths. Though in many ways they appear nearly human, gillmen's bright purple eyes and gills set them apart from humanity. Reclusive and suspicious, gillmen know that one day the aboleths will call in the debt owed to them.
 
-[**Gripplis**](advancedRaceGuide/uncommonRaces/gripplis.md): Furtive frogfolk with the ability to camouflage themselves among fens and swamps, gripplis typically keep to their wetland homes, only rarely interacting with the outside world. Their chief motivation for leaving their marshy environs is to trade in metal and gems.
+[**Gripplis**](advancedRaceGuide/uncommonRaces/gripplis): Furtive frogfolk with the ability to camouflage themselves among fens and swamps, gripplis typically keep to their wetland homes, only rarely interacting with the outside world. Their chief motivation for leaving their marshy environs is to trade in metal and gems.
 
-[**Kitsune**](advancedRaceGuide/uncommonRaces/kitsune.md): These shapeshifting, foxlike folk share a love of mischief, art, and the finer things in life. They can appear as a single human as well as their true form, that of a foxlike humanoid. Kitsune are quick-witted, nimble, and gregarious, and because of this, a fair number of them become adventurers.
+[**Kitsune**](advancedRaceGuide/uncommonRaces/kitsune): These shapeshifting, foxlike folk share a love of mischief, art, and the finer things in life. They can appear as a single human as well as their true form, that of a foxlike humanoid. Kitsune are quick-witted, nimble, and gregarious, and because of this, a fair number of them become adventurers.
 
-[**Merfolk**](advancedRaceGuide/uncommonRaces/merfolk.md): These creatures have the upper torso of a well-built and attractive humanoid and a lower half consisting of a finned tail. Though they are amphibious and extremely strong swimmers, their lower bodies make it difficult for them to move on land. Merfolk can be shy and reclusive. Typically keeping to themselves, they are distrustful of land-dwelling strangers.
+[**Merfolk**](advancedRaceGuide/uncommonRaces/merfolk): These creatures have the upper torso of a well-built and attractive humanoid and a lower half consisting of a finned tail. Though they are amphibious and extremely strong swimmers, their lower bodies make it difficult for them to move on land. Merfolk can be shy and reclusive. Typically keeping to themselves, they are distrustful of land-dwelling strangers.
 
-[**Nagaji**](advancedRaceGuide/uncommonRaces/nagaji.md): It is believed that nagas created the nagaji as a race of servants and that the nagaji worship their creators as living gods. Due to their reptilian nature and strange mannerisms, these strange, scaly folk inspire fear and wonder in others not of their kind. They are resistant to both poison and mind-affecting magic.
+[**Nagaji**](advancedRaceGuide/uncommonRaces/nagaji): It is believed that nagas created the nagaji as a race of servants and that the nagaji worship their creators as living gods. Due to their reptilian nature and strange mannerisms, these strange, scaly folk inspire fear and wonder in others not of their kind. They are resistant to both poison and mind-affecting magic.
 
-[**Samsarans**](advancedRaceGuide/uncommonRaces/samsarans.md): Ghostly servants of karma, samsarans are creatures reincarnated hundreds if not thousands of times in the hope of reaching true enlightenment. Unlike humans and other races, these humanoids remember much of their past lives.
+[**Samsarans**](advancedRaceGuide/uncommonRaces/samsarans): Ghostly servants of karma, samsarans are creatures reincarnated hundreds if not thousands of times in the hope of reaching true enlightenment. Unlike humans and other races, these humanoids remember much of their past lives.
 
-[**Strix**](advancedRaceGuide/uncommonRaces/strix.md): Hunted to dwindling numbers by humans, who see them as winged devils, strix are black-skinned masters of the nighttime sky. Their territorial conflicts have fueled their hatred for humans. This longstanding feud means that these nocturnal creatures often attack humans on sight.
+[**Strix**](advancedRaceGuide/uncommonRaces/strix): Hunted to dwindling numbers by humans, who see them as winged devils, strix are black-skinned masters of the nighttime sky. Their territorial conflicts have fueled their hatred for humans. This longstanding feud means that these nocturnal creatures often attack humans on sight.
 
-[**Sulis**](advancedRaceGuide/uncommonRaces/sulis.md): Also called suli-jann, these humanoids are the descendants of mortals and jann. These strong and charismatic individuals manifest mastery over elemental power in their adolescence, giving them the ability to manipulate earth, fire, ice, or electricity. This elemental power tends to be reflected in the suli's personality as well.
+[**Sulis**](advancedRaceGuide/uncommonRaces/sulis): Also called suli-jann, these humanoids are the descendants of mortals and jann. These strong and charismatic individuals manifest mastery over elemental power in their adolescence, giving them the ability to manipulate earth, fire, ice, or electricity. This elemental power tends to be reflected in the suli's personality as well.
 
-[**Svirfneblins**](advancedRaceGuide/uncommonRaces/svirfneblins.md): Gnomes who guard their hidden enclaves within dark tunnels and caverns deep under the earth, svirfneblin are as serious as their surface cousins are whimsical. They are resistant to the magic of the foul creatures that share their subterranean environs, and wield powerful protective magic. Svirfneblin are distrustful of outsiders and often hide at their approach.
+[**Svirfneblins**](advancedRaceGuide/uncommonRaces/svirfneblins): Gnomes who guard their hidden enclaves within dark tunnels and caverns deep under the earth, svirfneblin are as serious as their surface cousins are whimsical. They are resistant to the magic of the foul creatures that share their subterranean environs, and wield powerful protective magic. Svirfneblin are distrustful of outsiders and often hide at their approach.
 
-[**Vanaras**](advancedRaceGuide/uncommonRaces/vanaras.md): These mischievous, monkeylike humanoids dwell in jungles and warm forests. Covered in soft fur and sporting prehensile tails and handlike feet, vanaras are strong climbers. These creatures are at home both on the ground and among the treetops.
+[**Vanaras**](advancedRaceGuide/uncommonRaces/vanaras): These mischievous, monkeylike humanoids dwell in jungles and warm forests. Covered in soft fur and sporting prehensile tails and handlike feet, vanaras are strong climbers. These creatures are at home both on the ground and among the treetops.
 
-[**Vishkanyas**](advancedRaceGuide/uncommonRaces/vishkanyas.md): Strangely beautiful on the outside and poisonous on the inside, vishkanyas see the world through slitted serpent eyes. Vishkanyas possess a serpent's grace and ability to writhe out of their enemies' grasp with ease. Vishkanyas have a reputation for being both seductive and manipulative. They can use their saliva or blood to poison their weapons.
+[**Vishkanyas**](advancedRaceGuide/uncommonRaces/vishkanyas): Strangely beautiful on the outside and poisonous on the inside, vishkanyas see the world through slitted serpent eyes. Vishkanyas possess a serpent's grace and ability to writhe out of their enemies' grasp with ease. Vishkanyas have a reputation for being both seductive and manipulative. They can use their saliva or blood to poison their weapons.
 
-[**Wayangs**](advancedRaceGuide/uncommonRaces/wayangs.md): The small wayangs are creatures of the Plane of Shadow. They are so attuned to shadow that it even shapes their philosophy, believing that upon death they merely merge back into darkness. The mysteries of their shadowy existence grant them the ability to gain healing from negative energy as well as positive energy.
+[**Wayangs**](advancedRaceGuide/uncommonRaces/wayangs): The small wayangs are creatures of the Plane of Shadow. They are so attuned to shadow that it even shapes their philosophy, believing that upon death they merely merge back into darkness. The mysteries of their shadowy existence grant them the ability to gain healing from negative energy as well as positive energy.
 
 # General Description
 
@@ -54,33 +54,33 @@ Each race can take the listed favored class options instead of the normal favore
 
 This section presents a single racial archetype for each of the uncommon races. Typically, only members of the section's race can take the listed archetype. An archetype usually features a thematic link to the race, granting it class features that complement the abilities and the background of the race. Because adventurers are often societal outliers, sometimes these archetypes feature a theme that is the exception to the norm for racial tendencies. At the GM's discretion, a member of another race can take most of these archetypes either because they fit a character concept or because the character was raised or trained by a member of the race that can typically select the archetype. Such exceptions should be rare for the archetypes detailed in this chapter, however, since these races are not common in most campaigns. The following is a list of all the archetypes featured in this chapter, listed by race. The class for each archetype is listed in parentheses.
 
-**Changelings** : [Dreamweaver (witch)](advancedRaceGuide/uncommonRaces/changelings.md#_dreamweaver-(witch))
+**Changelings** : [Dreamweaver (witch)](advancedRaceGuide/uncommonRaces/changelings#_dreamweaver-(witch))
 
-**Duergar** : [Gray disciple (monk)](advancedRaceGuide/uncommonRaces/duergar.md#_gray-disciple-(monk))
+**Duergar** : [Gray disciple (monk)](advancedRaceGuide/uncommonRaces/duergar#_gray-disciple-(monk))
 
-**Gillmen** : [Eldritch raider (rogue)](advancedRaceGuide/uncommonRaces/gillmen.md#_eldritch-raider-(rogue))
+**Gillmen** : [Eldritch raider (rogue)](advancedRaceGuide/uncommonRaces/gillmen#_eldritch-raider-(rogue))
 
-**Gripplis** : [Bogborn alchemist (alchemist)](advancedRaceGuide/uncommonRaces/gripplis.md#_bogborn-alchemist-(alchemist))
+**Gripplis** : [Bogborn alchemist (alchemist)](advancedRaceGuide/uncommonRaces/gripplis#_bogborn-alchemist-(alchemist))
 
-**Kitsune** : [Kitsune trickster (rogue)](advancedRaceGuide/uncommonRaces/kitsune.md#_kitsune-trickster-(rogue))
+**Kitsune** : [Kitsune trickster (rogue)](advancedRaceGuide/uncommonRaces/kitsune#_kitsune-trickster-(rogue))
 
-**Merfolk** : [Wave warden (ranger)](advancedRaceGuide/uncommonRaces/merfolk.md#_wave-warden-(ranger))
+**Merfolk** : [Wave warden (ranger)](advancedRaceGuide/uncommonRaces/merfolk#_wave-warden-(ranger))
 
-**Nagaji** : [Naga aspirant (druid)](advancedRaceGuide/uncommonRaces/nagaji.md#_naga-aspirant-(druid))
+**Nagaji** : [Naga aspirant (druid)](advancedRaceGuide/uncommonRaces/nagaji#_naga-aspirant-(druid))
 
-**Samsarans** : [Reincarnated oracle (oracle)](advancedRaceGuide/uncommonRaces/samsarans.md#_reincarnated-oracle-(oracle))
+**Samsarans** : [Reincarnated oracle (oracle)](advancedRaceGuide/uncommonRaces/samsarans#_reincarnated-oracle-(oracle))
 
-**Strix** : [Airborne ambusher (fighter)](advancedRaceGuide/uncommonRaces/strix.md#_airborne-ambusher-(fighter))
+**Strix** : [Airborne ambusher (fighter)](advancedRaceGuide/uncommonRaces/strix#_airborne-ambusher-(fighter))
 
-**Sulis** : [Elemental knight (magus)](advancedRaceGuide/uncommonRaces/sulis.md#_elemental-knight-(magus))
+**Sulis** : [Elemental knight (magus)](advancedRaceGuide/uncommonRaces/sulis#_elemental-knight-(magus))
 
-**Svirfneblin** : [Deep bomber (alchemist)](advancedRaceGuide/uncommonRaces/svirfneblin.md#_deep-bomber-(alchemist))
+**Svirfneblin** : [Deep bomber (alchemist)](advancedRaceGuide/uncommonRaces/svirfneblin#_deep-bomber-(alchemist))
 
-**Vanaras** : [Treetop monk (monk)](advancedRaceGuide/uncommonRaces/vanaras.md#_treetop-monk-(monk))
+**Vanaras** : [Treetop monk (monk)](advancedRaceGuide/uncommonRaces/vanaras#_treetop-monk-(monk))
 
-**Vishkanyas** : [Deadly courtesan (rogue)](advancedRaceGuide/uncommonRaces/vishkanyas.md#_deadly-courtesan-(rogue))
+**Vishkanyas** : [Deadly courtesan (rogue)](advancedRaceGuide/uncommonRaces/vishkanyas#_deadly-courtesan-(rogue))
 
-**Wayangs** : [Shadow puppeteer (bard)](advancedRaceGuide/uncommonRaces/wayangs.md#_shadow-puppeteer-(bard))
+**Wayangs** : [Shadow puppeteer (bard)](advancedRaceGuide/uncommonRaces/wayangs#_shadow-puppeteer-(bard))
 
 # New Racial Rules
 

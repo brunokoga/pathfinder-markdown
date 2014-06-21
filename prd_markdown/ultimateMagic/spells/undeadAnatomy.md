@@ -14,7 +14,7 @@ Undead Anatomy I
 
 When you cast this spell, you can assume the form of any Small or Medium corporeal creature of the undead type, which must be vaguely humanoid-shaped (like a ghoul, skeleton, or zombie). You gain a bite attack (1d6 for Medium forms, 1d4 for Small forms), two claw or slam attacks (1d6 for Medium forms, 1d4 for Small forms), and darkvision 60 feet. If the form you assume has any of the following abilities, you gain the listed ability: climb 30 feet, fly 30 feet (average maneuverability), swim 30 feet, low-light vision, and scent.
 
-In this form, you detect as an undead creature (such as with _ [detect undead](spells/detectUndead.md#_detect-undead)_, but not with magic that reveals your true form, such as _ [true seeing](spells/trueSeeing.md#_true-seeing)_) and are treated as undead for the purposes of channeled energy, _cure_ spells, and _inflict_ spells, but not for other effects that specifically target or react differently to undead (such as _ [searing light](spells/searingLight.md#_searing-light)_).
+In this form, you detect as an undead creature (such as with _ [detect undead](spells/detectUndead#_detect-undead)_, but not with magic that reveals your true form, such as _ [true seeing](spells/trueSeeing#_true-seeing)_) and are treated as undead for the purposes of channeled energy, _cure_ spells, and _inflict_ spells, but not for other effects that specifically target or react differently to undead (such as _ [searing light](spells/searingLight#_searing-light)_).
 
 _Small undead_: If the form you take is that of a Small undead, you gain a +2 size bonus to your Dexterity and a +1 natural armor bonus.
 

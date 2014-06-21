@@ -1,6 +1,6 @@
 # Escape Artist
 
-## ( [Dex](../gettingStarted.md#_dexterity); Armor Check Penalty)
+## ( [Dex](../gettingStarted#_dexterity); Armor Check Penalty)
 
 Your training allows you to slip out of bonds and escape from grapples.
 
@@ -12,7 +12,7 @@ _Manacles and Masterwork Manacles_: The DC for manacles is set by their construc
 
 _Tight Space_: The DC noted is for getting through a space through which your head fits but your shoulders don't. If the space is long, you may need to make multiple checks. You can't squeeze through a space that your head does not fit through.
 
-_Grappler_: You can make an Escape Artist check in place of a combat maneuver check to escape a grapple (see [Combat](../combat.md)) or a pin.
+_Grappler_: You can make an Escape Artist check in place of a combat maneuver check to escape a grapple (see [Combat](../combat)) or a pin.
 
 | Restraint | Escape Artist DC |
 | --- | --- |
@@ -28,5 +28,5 @@ _Grappler_: You can make an Escape Artist check in place of a combat maneuver ch
 
 **Try Again** : Varies. You can make another check after a failed check if you're squeezing your way through a tight space, making multiple checks. If the situation permits, you can make additional checks, or even take 20, as long as you're not being actively opposed. If the DC to escape from rope or bindings is higher than 20 + your Escape Artist skill bonus, you cannot escape from the bonds using Escape Artist.
 
-**Special** : If you have the [Stealthy](../feats.md#_stealthy) feat, you gain a bonus on Escape Artist checks (see [Feats](../feats.md)).
+**Special** : If you have the [Stealthy](../feats#_stealthy) feat, you gain a bonus on Escape Artist checks (see [Feats](../feats)).
 

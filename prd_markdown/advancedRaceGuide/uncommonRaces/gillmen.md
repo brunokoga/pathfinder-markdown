@@ -10,7 +10,7 @@ Gillmen are the remnants of a race of surface-dwelling humanoids whose homeland 
 
 **Aquatic** : Gillmen are humanoids with the aquatic subtype.
 
-**Normal Speed** : Gillmen have a base speed of 30 feet on land. As aquatic creatures, they also have a swim speed of 30 feet, can move in water without making [Swim](skills/swim.md#_swim) checks, and always treat [Swim](skills/swim.md#_swim) as a class skill.
+**Normal Speed** : Gillmen have a base speed of 30 feet on land. As aquatic creatures, they also have a swim speed of 30 feet, can move in water without making [Swim](skills/swim#_swim) checks, and always treat [Swim](skills/swim#_swim) as a class skill.
 
 **Amphibious** : Gillmen have the aquatic subtype, but can breathe both water and air.
 
@@ -28,7 +28,7 @@ The following racial traits may be selected instead of existing gillman racial t
 
 **Slimehunter** : Gillmen with this trait are from lineages that have fought against aboleths since the aberrations rescued their human ancestors. They receive a +2 racial bonus on saving throws against aboleth spells, spell-like abilities, and supernatural abilities. This racial trait replaces enchantment resistance.
 
-**Throwback** : Some gillmen are throwbacks to their land-dwelling human ancestors. Gillmen with this racial trait do not have the amphibious trait, have the human subtype instead of the aquatic subtype, have no swim speed or bonuses to the [Swim](skills/swim.md#_swim) skill, cannot breathe water, and do not have the water dependent racial trait.
+**Throwback** : Some gillmen are throwbacks to their land-dwelling human ancestors. Gillmen with this racial trait do not have the amphibious trait, have the human subtype instead of the aquatic subtype, have no swim speed or bonuses to the [Swim](skills/swim#_swim) skill, cannot breathe water, and do not have the water dependent racial trait.
 
 # Favored Class Options
 
@@ -50,13 +50,13 @@ The following racial archetype is available to gillmen.
 
 An eldritch raider is a rogue who seeks to unravel the mysteries of the destruction of the gillmen's homeland. They explore old ruins that date back to the days of the old human empire and track down relics and lore from its glory days. An eldritch raider has the following class features.
 
-**Class Skills** : An eldritch raider adds [Knowledge](skills/knowledge.md#_knowledge) (arcana), [Knowledge](skills/knowledge.md#_knowledge) (history), and [Spellcraft](skills/spellcraft.md#_spellcraft) to her list of class skills and removes [Disguise](skills/disguise.md#_disguise), [Perform](skills/perform.md#_perform), and [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) from her list of class skills.
+**Class Skills** : An eldritch raider adds [Knowledge](skills/knowledge#_knowledge) (arcana), [Knowledge](skills/knowledge#_knowledge) (history), and [Spellcraft](skills/spellcraft#_spellcraft) to her list of class skills and removes [Disguise](skills/disguise#_disguise), [Perform](skills/perform#_perform), and [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand) from her list of class skills.
 
 **Skill Ranks per Level** : 6 + Int modifier.
 
-**Detect Magic (Sp)** : At 2nd level, an eldritch raider gains the ability to use _ [detect magic](spells/detectMagic.md#_detect-magic)_ at will. The eldritch raider treats her rogue level as her caster level for this ability. This ability counts as the minor magic rogue talent for purposes of qualifying for other rogue talents. This ability replaces the rogue talent rogues gained at 2nd level.
+**Detect Magic (Sp)** : At 2nd level, an eldritch raider gains the ability to use _ [detect magic](spells/detectMagic#_detect-magic)_ at will. The eldritch raider treats her rogue level as her caster level for this ability. This ability counts as the minor magic rogue talent for purposes of qualifying for other rogue talents. This ability replaces the rogue talent rogues gained at 2nd level.
 
-**Eldritch Intuition (Ex)** : At 3rd level, an eldritch raider gains an intuitive sense that allows her to more easily activate sorcerer and wizard spell completion and spell trigger items. She gains a +1 bonus on [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) checks for this purpose. This bonus increases to +2 at 6th level, +3 at 9th level, +4 at 12th level, +5 at 15th level, and +6 at 18th level. This ability replaces the trap sense class feature.
+**Eldritch Intuition (Ex)** : At 3rd level, an eldritch raider gains an intuitive sense that allows her to more easily activate sorcerer and wizard spell completion and spell trigger items. She gains a +1 bonus on [Use Magic Device](skills/useMagicDevice#_use-magic-device) checks for this purpose. This bonus increases to +2 at 6th level, +3 at 9th level, +4 at 12th level, +5 at 15th level, and +6 at 18th level. This ability replaces the trap sense class feature.
 
 **New Talents** : An eldritch raider has access to the following new advanced talents when selecting rogue advanced talents.
 

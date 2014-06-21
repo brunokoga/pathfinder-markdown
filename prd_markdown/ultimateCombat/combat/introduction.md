@@ -6,7 +6,7 @@ While the _Pathfinder Roleplaying Game_ presents a robust system capable of simu
 
 Major subjects and subsystems covered in this section include the following.
 
-## [Eastern Armor and Weapons](ultimateCombat/combat/easternArmorAndWeapons.md)
+## [Eastern Armor and Weapons](ultimateCombat/combat/easternArmorAndWeapons)
 
 The weapons of Asian cultures such as China, Japan, Korea, India, and the Philippines have long held a powerful attraction and mystique for many players of fantasy roleplaying games. Even when a setting otherwise uses Medieval Europe as its primary analogue, there's something about the elegance and specialization of Eastern armor and weapons—and in some cases the powerful traditions and discipline of their users—that calls to players and characters of all backgrounds.
 
@@ -18,7 +18,7 @@ Characters need not always be of an Eastern-inspired class—such as the ninja o
 
 This exoticism also provides a very real advantage when it comes to the combat itself: if an enemy has never seen a particular weapon before, he's much less likely to be able to defend against it effectively, and many of the new weapons presented in this section have unique or specialized uses and tactics which aren't immediately apparent to opponents.
 
-## [Firearms](ultimateCombat/combat/firearms.md)
+## [Firearms](ultimateCombat/combat/firearms)
 
 Guns are one of the most controversial subjects in fantasy gaming. GM and player opinions run the gamut from staunch traditionalists who refuse to wield any weapon more complex than a crossbow to gaming groups who believe that the best way to stop a raging orc chieftain is to unload all six cylinders of your trusty revolver into his gray-green hide.
 
@@ -26,23 +26,23 @@ Neither side is wrong. Firearms are best introduced carefully, but are by no mea
 
 The firearms section presented in this chapter covers everything you need to know to introduce firearms into your campaign. Firearms are broken down into early and advanced types, as well as into one- and two-handed weapons. There are scatter guns like shotguns that fire spreads of pellets, straightforward slug-throwers that fire a single bullet, and some weapons that can do both. Included as well are rules for misfires and repairs, reloading and ammunition, concealed or inappropriately sized weapons, magical weapon special abilities and ammunition specifically for firearms, and more. Perhaps most importantly, there's a discussion of the various levels of gun technology and its emergence into society, with suggestions for which weapons are appropriate for each level.
 
-## [Gladiator Weapons](ultimateCombat/combat/gladiatorWeapons.md)
+## [Gladiator Weapons](ultimateCombat/combat/gladiatorWeapons)
 
 Inspired by blood sports from ancient Rome and beyond, these unusual and sometimes bizarre weapons are perfect for pit fighters and performers of all stripes. Whether you're performing death-defying martial feats for the court of the king or fighting for your life in the seediest back-alley brawl-house, these weapons are sure to take the crowd's breath away. From the Indian madu—a specialized shield combined with sharpened antelope horns—to the scizore punching-blade to the simple amentum, which sends javelins flying farther and straighter than any humanoid arm, these weapons can easily add a blast of exoticism and the thrill of discovery to the jaded fighter who thinks she's seen it all.
 
-## [Primitive Armor and Weapons](ultimateCombat/combat/primitiveArmorAndWeapons.md)
+## [Primitive Armor and Weapons](ultimateCombat/combat/primitiveArmorAndWeapons)
 
 Not everyone chooses to craft their weapons and armor from steel—or can afford to. This section presents primitive weapons and armor in great detail, beginning with the introduction of the fragile weapon quality and going on to present rules for conventional weapons and armor made from stone, bone, bronze, gold, and obsidian. From there, it introduces numerous weapons more common to primitive cultures than more established civilizations. Throwing arms called atlatls fling darts the size of javelins, while long clubs lined with shark teeth called great terbutjes are surprisingly effective at slicing through armor and flesh. No warrior headed into uncivilized lands can afford to underestimate these so-called “primitive” weapons—and players may decide that they fit perfectly with brave warriors coming from primitive backgrounds or who actively reject the trappings of more modern society.
 
-## [Duels](ultimateCombat/combat/duels.md)
+## [Duels](ultimateCombat/combat/duels)
 
 Contests of honor are a timeless tradition in many cultures, and may range from the casual sparring of students and wealthy nobles to the deadly serious challenges of experienced warriors establishing hierarchies and settling entire battles through single combat. This section explores the various rituals and rules of honor and scoring inherent in most duels, as well as the special mechanics of the contests, including such new moves as the dueling parry, the dueling dodge, the dueling counter, and dueling resolve.
 
-## [Performance Combat](ultimateCombat/combat/performanceCombat.md)
+## [Performance Combat](ultimateCombat/combat/performanceCombat)
 
 Not all fights are about winning at all costs. Sometimes it matters less whether you score the final blow than how you looked doing it. For all those pit fighters and gladiators—or local champions and lowborn heroes hoping to impress the queen with their mastery on the battlefield—this section offers a new rules subsystem designed to simulate fighting for acclaim rather than blood. Covered here are the various types of performance combat—from the most genteel exhibitions to ruthless blood sports, back-room betting brawls to gangland initiation fights—as well as rules regarding crowd responses and how to turn the onlookers to your side no matter what the situation.
 
-## [Siege Engines](ultimateCombat/combat/siegeEngines.md)
+## [Siege Engines](ultimateCombat/combat/siegeEngines)
 
 One of the worst—and best—moments in any siege is the point at which the horrified castle defenders look out from their walls and see the looming forms of siege engines rolling slowly and inexorably toward them. This section expands on the mechanics presented in the _Core Rulebook_ to give you everything you need to know to run a fortress assault with massive and terrifying engines of war, including both direct-fire weapons—such as ballistae and their ilk—and arcing, indirect-fire weapons like catapults. In addition to these strictly mechanical and medieval constructs, this section also covers their more advanced successors, the huge and terrifying siege firearms and flamethrowers. Adding to this section are rules for equipment useful in direct fortress assaults (such as siege towers, bridges, and scaling ladders), special ammunition for siege engines, and rules for attacking particular parts of fortresses, such as gates and walls.
 

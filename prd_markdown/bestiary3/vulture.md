@@ -8,7 +8,7 @@ XP 200
 
 N Small animal
 
-**Init** +1; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +9
+**Init** +1; **Senses** low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +9
 
 Defense
 
@@ -16,7 +16,7 @@ Defense
 
 **hp** 6 (1d8+2)
 
-**Fort** +6, **Ref** +3, **Will** +1; +4 vs. [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su))
+**Fort** +6, **Ref** +3, **Will** +1; +4 vs. [disease](monsters/universalMonsterRules#_disease-(ex-or-su))
 
 Offense
 
@@ -30,9 +30,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +0; **CMD** 11
 
-**Feats** [Great Fortitude](feats.md#_great-fortitude)
+**Feats** [Great Fortitude](feats#_great-fortitude)
 
-**Skills** [Fly](skills/fly.md#_fly) +7, [Perception](skills/perception.md#_perception) +9; **Racial Modifiers** +8 [Perception](skills/perception.md#_perception)
+**Skills** [Fly](skills/fly#_fly) +7, [Perception](skills/perception#_perception) +9; **Racial Modifiers** +8 [Perception](skills/perception#_perception)
 
 Ecology
 
@@ -56,7 +56,7 @@ XP 1,200
 
 N Large animal
 
-**Init** +2; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +13
+**Init** +2; **Senses** low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +13
 
 Defense
 
@@ -64,13 +64,13 @@ Defense
 
 **hp** 42 (5d8+20)
 
-**Fort** +10, **Ref** +6, **Will** +3; +4 vs. [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su))
+**Fort** +10, **Ref** +6, **Will** +3; +4 vs. [disease](monsters/universalMonsterRules#_disease-(ex-or-su))
 
 Offense
 
 **Speed** 10 ft., fly 50 ft. (average)
 
-**Melee** bite +9 (2d6+9 plus [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)))
+**Melee** bite +9 (2d6+9 plus [disease](monsters/universalMonsterRules#_disease-(ex-or-su)))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
@@ -80,9 +80,9 @@ Statistics
 
 **Base** Atk +3; **CMB** +10; **CMD** 22
 
-**Feats** [Great Fortitude](feats.md#_great-fortitude), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception)), [Toughness](feats.md#_toughness), [Weapon Focus](feats.md#_weapon-focus) (bite)
+**Feats** [Great Fortitude](feats#_great-fortitude), [Skill Focus](feats#_skill-focus) ( [Perception](skills/perception#_perception)), [Toughness](feats#_toughness), [Weapon Focus](feats#_weapon-focus) (bite)
 
-**Skills** [Fly](skills/fly.md#_fly) +7, [Perception](skills/perception.md#_perception) +13; **Racial Modifiers** +4 [Perception](skills/perception.md#_perception)
+**Skills** [Fly](skills/fly#_fly) +7, [Perception](skills/perception#_perception) +13; **Racial Modifiers** +4 [Perception](skills/perception#_perception)
 
 **SQ** diseased
 
@@ -96,7 +96,7 @@ Ecology
 
 Special Abilities
 
-**Diseased (Ex)** Due to their filthy eating habits and constant exposure to decaying flesh, giant vultures are harbingers of [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su))—much more so than the standard vulture. Any creature bitten by a giant vulture has a 10% chance of being exposed to filth fever, blinding sickness, or a similar [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)). Once this check is made, a victim can no longer be infected by this particular giant vulture, though attacks by different giant vultures are resolved normally and may result in multiple illnesses. While vultures aren't immune to all diseases, they do gain a +4 racial bonus on all saving throws against such ailments.
+**Diseased (Ex)** Due to their filthy eating habits and constant exposure to decaying flesh, giant vultures are harbingers of [disease](monsters/universalMonsterRules#_disease-(ex-or-su))—much more so than the standard vulture. Any creature bitten by a giant vulture has a 10% chance of being exposed to filth fever, blinding sickness, or a similar [disease](monsters/universalMonsterRules#_disease-(ex-or-su)). Once this check is made, a victim can no longer be infected by this particular giant vulture, though attacks by different giant vultures are resolved normally and may result in multiple illnesses. While vultures aren't immune to all diseases, they do gain a +4 racial bonus on all saving throws against such ailments.
 
 Larger even than condors, giant vultures dwell only in regions where carrion is both large and plentiful, such as the primeval wildernesses where megafauna roam. They also flock to regions torn by war, feasting on the dead with no concern for allegiance or race. Giant vultures rarely wait for wounded creatures to finish dying before they feed, and are much braver than most wild animals. A giant vulture, for example, wouldn't think twice about swooping down on a heavily armored column of soldiers just to snatch up a few wounded stragglers from the end of the line.
 

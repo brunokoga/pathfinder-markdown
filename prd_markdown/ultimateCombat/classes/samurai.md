@@ -43,7 +43,7 @@ The following table lists the starting gold piece value for the new classes pres
 | 19th | +19/+14/+9/+4 | +11 | +6 | +6 | Challenge 7/day |
 | 20th | +20/+15/+10/+5 | +12 | +6 | +6 | Last stand |
 
-The samurai's class skills are [Bluff](skills/bluff.md#_bluff) (Cha), [Climb](skills/climb.md#_climb) (Str), [Craft](skills/craft.md#_craft) (Int), [Diplomacy](skills/diplomacy.md#_diplomacy) (Cha), [Handle Animal](skills/handleAnimal.md#_handle-animal) (Cha), [Intimidate](skills/intimidate.md#_intimidate) (Cha), [Profession](skills/profession.md#_profession) (Wis), [Ride](skills/ride.md#_ride) (Dex), [Sense Motive](skills/senseMotive.md#_sense-motive) (Wis), and [Swim](skills/swim.md#_swim) (Str).
+The samurai's class skills are [Bluff](skills/bluff#_bluff) (Cha), [Climb](skills/climb#_climb) (Str), [Craft](skills/craft#_craft) (Int), [Diplomacy](skills/diplomacy#_diplomacy) (Cha), [Handle Animal](skills/handleAnimal#_handle-animal) (Cha), [Intimidate](skills/intimidate#_intimidate) (Cha), [Profession](skills/profession#_profession) (Wis), [Ride](skills/ride#_ride) (Dex), [Sense Motive](skills/senseMotive#_sense-motive) (Wis), and [Swim](skills/swim#_swim) (Str).
 
 **Skill Ranks per Level** : 4 + Int modifier.
 
@@ -61,7 +61,7 @@ The challenge remains in effect until the target is dead or unconscious, or unti
 
 **Mount (Ex)** : A samurai gains the service of a loyal and trusty steed to carry him into battle. This mount functions as a druid's animal companion, using the samurai's level as his effective druid level. The creature must be one that he is capable of riding and that is suitable as a mount. A Medium samurai can select a camel or a horse. A Small samurai can select a pony or a wolf, but can also select a boar or a dog if he is at least 4th level. The GM may approve other animals as suitable mounts.
 
-A samurai does not take an armor check penalty on [Ride](skills/ride.md#_ride) checks while riding his mount. The mount is always considered combat trained and begins play with Light Armor Proficiency as a bonus feat. A samurai's mount does not gain the share spells special ability.
+A samurai does not take an armor check penalty on [Ride](skills/ride#_ride) checks while riding his mount. The mount is always considered combat trained and begins play with Light Armor Proficiency as a bonus feat. A samurai's mount does not gain the share spells special ability.
 
 A samurai's bond with his mount is strong, with the pair learning to anticipate each other's moods and moves. Should a samurai's mount die, the samurai may find another mount to serve him after 1 week of mourning. The new mount does not gain the link, evasion, devotion, or improved evasion special abilities until the next time the samurai gains a level.
 
@@ -88,7 +88,7 @@ _Unstoppable_: When the samurai is reduced to fewer than 0 hit points but not sl
   
   
 
-**Weapon Expertise (Ex)** : At 3rd level, a samurai gains an unparalleled expertise with his chosen weapons. At 3rd level, the samurai selects either the katana, longbow, naginata, or wakizashi. The samurai can draw the selected weapon as a free action as if he had the [Quick Draw](feats.md#_quick-draw) feat. In addition, whenever he threatens a critical hit with the selected weapon, he gains a +2 bonus on the confirmation roll. Finally, his samurai levels stack with any fighter levels he possesses for the purposes of meeting the prerequisites for feats that specifically select his chosen weapon, such as [Weapon Specialization](feats.md#_weapon-specialization).
+**Weapon Expertise (Ex)** : At 3rd level, a samurai gains an unparalleled expertise with his chosen weapons. At 3rd level, the samurai selects either the katana, longbow, naginata, or wakizashi. The samurai can draw the selected weapon as a free action as if he had the [Quick Draw](feats#_quick-draw) feat. In addition, whenever he threatens a critical hit with the selected weapon, he gains a +2 bonus on the confirmation roll. Finally, his samurai levels stack with any fighter levels he possesses for the purposes of meeting the prerequisites for feats that specifically select his chosen weapon, such as [Weapon Specialization](feats#_weapon-specialization).
 
 **Mounted Archer (Ex)** : At 4th level, the samurai becomes skilled at firing ranged weapons while mounted. A samurai only takes a –2 penalty on attack rolls with ranged weapons while his mount takes a double move. This penalty increases to –4 while his mount is running.
 
@@ -126,7 +126,7 @@ Most samurai swear themselves to the code of the warrior, which emphasizes duty,
   
   
 
-**Skills** : An order of the warrior samurai adds [Knowledge](skills/knowledge.md#_knowledge) (history) (Int) and [Knowledge](skills/knowledge.md#_knowledge) (nobility) (Int) to his list of class skills. An order of the warrior samurai can make [Knowledge](skills/knowledge.md#_knowledge) (nobility) checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his samurai level (minimum +1) as long as the check involves the nobles or politics of his land.
+**Skills** : An order of the warrior samurai adds [Knowledge](skills/knowledge#_knowledge) (history) (Int) and [Knowledge](skills/knowledge#_knowledge) (nobility) (Int) to his list of class skills. An order of the warrior samurai can make [Knowledge](skills/knowledge#_knowledge) (nobility) checks untrained. If he has ranks in the skill, he receives a bonus on the check equal to 1/2 his samurai level (minimum +1) as long as the check involves the nobles or politics of his land.
 
   
   
@@ -158,7 +158,7 @@ While most samurai belong to the order of the warrior, dedicating their consider
   
   
 
-**Skills** : A ronin adds [Knowledge](skills/knowledge.md#_knowledge) (local) (Int) and [Survival](skills/survival.md#_survival) (Wis) to his list of class skills.
+**Skills** : A ronin adds [Knowledge](skills/knowledge#_knowledge) (local) (Int) and [Survival](skills/survival#_survival) (Wis) to his list of class skills.
 
   
   

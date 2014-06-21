@@ -8,7 +8,7 @@ XP 2,400
 
 CE Large monstrous humanoid
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +13
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +13
 
 Defense
 
@@ -24,7 +24,7 @@ Offense
 
 **Speed** 40 ft.
 
-**Melee** bite +13 (1d6+7), 2 claws +13 (1d6+7 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** bite +13 (1d6+7), 2 claws +13 (1d6+7 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -32,7 +32,7 @@ Offense
 
 **Spell-Like Abilities** (CL 7th; concentration +7)
 
-3/day—_ [alter self](spells/alterSelf.md#_alter-self)_, _ [fog cloud](spells/fogCloud.md)_
+3/day—_ [alter self](spells/alterSelf#_alter-self)_, _ [fog cloud](spells/fogCloud)_
 
 Statistics
 
@@ -40,15 +40,15 @@ Statistics
 
 **Base Atk** +7; **CMB** +15 (+19 grapple); **CMD** 26
 
-**Feats** [Alertness](feats.md#_alertness), [Blind-Fight](feats.md#_blind-fight), [Great Fortitude](feats.md#_great-fortitude), [Intimidating Prowess](feats.md#_intimidating-prowess)
+**Feats** [Alertness](feats#_alertness), [Blind-Fight](feats#_blind-fight), [Great Fortitude](feats#_great-fortitude), [Intimidating Prowess](feats#_intimidating-prowess)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +7, [Diplomacy](skills/diplomacy.md#_diplomacy) +7, [Intimidate](skills/intimidate.md#_intimidate) +17, [Perception](skills/perception.md#_perception) +13, [Sense Motive](skills/senseMotive.md#_sense-motive) +3, [Stealth](skills/stealth.md#_stealth) +7
+**Skills** [Bluff](skills/bluff#_bluff) +7, [Diplomacy](skills/diplomacy#_diplomacy) +7, [Intimidate](skills/intimidate#_intimidate) +17, [Perception](skills/perception#_perception) +13, [Sense Motive](skills/senseMotive#_sense-motive) +3, [Stealth](skills/stealth#_stealth) +7
 
-**Languages** Common, [Giant](monsters/creatureTypes.md#_giant-subtype)
+**Languages** Common, [Giant](monsters/creatureTypes#_giant-subtype)
 
 Ecology
 
-**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) marshes
+**Environment** [cold](monsters/creatureTypes#_cold-subtype) marshes
 
 **Organization** solitary or coven (3 hags of any kind)
 
@@ -56,7 +56,7 @@ Ecology
 
 Also known as black hags or iron hags, annis hags are the largest and most physically intimidating of their foul brood. Known for their iron-hard, wart-covered skin that varies from shades of deep blue to black and their claws like rusty blades, annis hags forgo much of the cunning and deceptiveness of their kind to revel in the more visceral evils of torture and slaughter. The typical annis hag stands just over 8 feet tall and weighs upward of 300 pounds.
 
-Dwelling in dark caves, tangled hollows, and cursed ruins deep within frozen swamps or icy moors, annis hags stalk forth by night to sow fear and hunt the unwary. Although possessed of cunning minds, annis prove more decadent than most other hags, frequently indulging in their taste for living flesh and the music of pleading screams. Unlike green hags, they use their ability to assume humanoid form via _ [alter self](spells/alterSelf.md#_alter-self)_ not to infiltrate societies but to lure victims into a false sense of security before attacking—often posing as travelers in need of aid or pilgrims seeking to share a camp.
+Dwelling in dark caves, tangled hollows, and cursed ruins deep within frozen swamps or icy moors, annis hags stalk forth by night to sow fear and hunt the unwary. Although possessed of cunning minds, annis prove more decadent than most other hags, frequently indulging in their taste for living flesh and the music of pleading screams. Unlike green hags, they use their ability to assume humanoid form via _ [alter self](spells/alterSelf#_alter-self)_ not to infiltrate societies but to lure victims into a false sense of security before attacking—often posing as travelers in need of aid or pilgrims seeking to share a camp.
 
 Annis hags find the flesh of children, young animals, and the pure of heart particularly pleasing, both for the tenderness of such meals and for the sorrow such murders spread. After gorging themselves, these hags delight in stripping the skin from their victims, often garbing themselves in the grisly trophies. They are also known to retain and even preserve identifiable portions of their victims (such as heads) for later use in spreading misery. An annis who eats the children of a local farmer might keep the heads (or at least the faces) handy to return to the victims' parents, for example—often in the guise of an anonymous gift. The most insidious of annis hags present these gifts in ways that implicate friends or family in the victim's death.
 

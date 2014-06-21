@@ -6,9 +6,9 @@ Unfettered Eidolon CR 8
 
 XP 4,800
 
-CN Medium outsider ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
+CN Medium outsider ( [extraplanar](monsters/creatureTypes#_extraplanar-subtype))
 
-**Init** +4; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +13
+**Init** +4; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +13
 
 Defense
 
@@ -34,13 +34,13 @@ Statistics
 
 **Base Atk** +10; **CMB** +13; **CMD** 27 (can_'_t be tripped)
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Great Fortitude](feats.md#_great-fortitude), [Iron Will](feats.md#_iron-will), [Multiattack](monsters/monsterFeats.md#_multiattack)B, [Toughness](feats.md#_toughness), [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Combat Reflexes](feats#_combat-reflexes), [Great Fortitude](feats#_great-fortitude), [Iron Will](feats#_iron-will), [Multiattack](monsters/monsterFeats#_multiattack)B, [Toughness](feats#_toughness), [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +13, [Climb](skills/climb.md#_climb) +11, [Fly](skills/fly.md#_fly) +16, [Knowledge](skills/knowledge.md#_knowledge) (planes) +6, [Perception](skills/perception.md#_perception) +13, [Sense Motive](skills/senseMotive.md#_sense-motive) +8, [Stealth](skills/stealth.md#_stealth) +12
+**Skills** [Bluff](skills/bluff#_bluff) +13, [Climb](skills/climb#_climb) +11, [Fly](skills/fly#_fly) +16, [Knowledge](skills/knowledge#_knowledge) (planes) +6, [Perception](skills/perception#_perception) +13, [Sense Motive](skills/senseMotive#_sense-motive) +8, [Stealth](skills/stealth#_stealth) +12
 
 **Languages** Common
 
-**SQ** evolution points (bite, climb, energy attacks, [flight](monsters/universalMonsterRules.md#_flight-(ex,-sp,-or-su)) [2], gore, improved natural armor [2], reach [bite], slam, tail, tail slap)
+**SQ** evolution points (bite, climb, energy attacks, [flight](monsters/universalMonsterRules#_flight-(ex,-sp,-or-su)) [2], gore, improved natural armor [2], reach [bite], slam, tail, tail slap)
 
 Ecology
 
@@ -64,7 +64,7 @@ Unfettered eidolons can take on many shapes and sizes. The stats presented here 
 
 **Serpentine Base Form** : **Speed** 20 ft., climb 20 ft.; **Saves** Fort (bad), Ref (good), Will (good); **Ability Scores** Str 12, Dex 16, Con 13, Int 7, Wis 10, Cha 11; **Starting Evolutions** bite, climb, reach (bite), tail, tail slap.
 
-An unfettered eidolon begins with 1 Hit Die, a +2 natural armor bonus, and the evasion ability. As an unfettered eidolon's Hit Dice increase (see Evolution Points, below), it gains additional bonuses and abilities. At 2 Hit Dice, and every 3 HD thereafter, an unfettered eidolon's base armor bonus increases by +2. This bonus may be split between an armor bonus and a natural armor bonus. Also at 2 Hit Dice, and every 3 HD thereafter, an unfettered eidolon adds +1 to both its Strength and Dexterity scores. At 5 Hit Dice, and every 4 HD thereafter, an unfettered eidolon adds +1 to any one of its ability scores. At 7 Hit Dice, an unfettered eidolon gains [Multiattack](monsters/monsterFeats.md#_multiattack) as a bonus feat.
+An unfettered eidolon begins with 1 Hit Die, a +2 natural armor bonus, and the evasion ability. As an unfettered eidolon's Hit Dice increase (see Evolution Points, below), it gains additional bonuses and abilities. At 2 Hit Dice, and every 3 HD thereafter, an unfettered eidolon's base armor bonus increases by +2. This bonus may be split between an armor bonus and a natural armor bonus. Also at 2 Hit Dice, and every 3 HD thereafter, an unfettered eidolon adds +1 to both its Strength and Dexterity scores. At 5 Hit Dice, and every 4 HD thereafter, an unfettered eidolon adds +1 to any one of its ability scores. At 7 Hit Dice, an unfettered eidolon gains [Multiattack](monsters/monsterFeats#_multiattack) as a bonus feat.
 
 ## Evolution Points
 
@@ -74,11 +74,11 @@ _Arms_ (Ex, 2 EP): Grows an additional pair of arms and hands. The eidolon must 
 
 _Bite_ (Ex, 1 EP): Gains a bite attack (1d6 damage).
 
-_ [Burrow](ultimateMagic/spells/burrow.md#_burrow)_ (Ex, 3 EP): Gains a burrow speed equal to 1/2 its base speed. The eidolon must have at least 7 Hit Dice to select this evolution.
+_ [Burrow](ultimateMagic/spells/burrow#_burrow)_ (Ex, 3 EP): Gains a burrow speed equal to 1/2 its base speed. The eidolon must have at least 7 Hit Dice to select this evolution.
 
 _Claw_ (Ex, 1 EP): Gains two claw attacks (1d4 damage). The eidolon must have arms or legs to take this evolution.
 
-_ [Climb](skills/climb.md#_climb)_ (Ex, 1 EP): Gains a climb speed equal to its base speed. For each additional EP spent on this evolution, this speed increases by 20 feet.
+_ [Climb](skills/climb#_climb)_ (Ex, 1 EP): Gains a climb speed equal to its base speed. For each additional EP spent on this evolution, this speed increases by 20 feet.
 
 _Energy Attacks_ (Su, 2 EP): Choose one energy type (acid, cold, electricity, or fire). All of the eidolon's natural attacks deal +1d6 points of damage of this energy type. The eidolon must have at least 4 Hit Dice to select this evolution.
 
@@ -92,7 +92,7 @@ _Huge_ (Ex, 6 EP): Grows to Huge size (adjusting its Strength, Constitution, Dex
 
 _Improved Evasion_ (Ex, 3 EP): Gains improved evasion.
 
-_ [Improved Natural Armor](monsters/monsterFeats.md#_improved-natural-armor)_ (Ex, 1 EP): Gains a +2 bonus to its natural armor. This evolution can be taken once if it has 3 or fewer Hit Dice, and one additional time for every 4 additional Hit Dice the eidolon has.
+_ [Improved Natural Armor](monsters/monsterFeats#_improved-natural-armor)_ (Ex, 1 EP): Gains a +2 bonus to its natural armor. This evolution can be taken once if it has 3 or fewer Hit Dice, and one additional time for every 4 additional Hit Dice the eidolon has.
 
 _Large_ (Ex, 4 EP): Grows to Large size (adjusting its Strength, Constitution, Dexterity, natural armor bonus, and size modifier to attacks and AC as detailed on page 296 of the _Bestiary_, and increasing the damage of all of its attacks as detailed on page 297 of this book). If the eidolon has the biped base form, it also gains 10-foot reach. The eidolon must have at least 6 Hit Dice to select this evolution.
 
@@ -102,21 +102,21 @@ _Magical Flight_ (Su, 4 EP): Flies by means of magic, gaining a fly speed equal 
 
 _Reach_ (Ex, 1 EP): The reach of one of the eidolon's attacks increases by 5 feet.
 
-_ [Resistance](spells/resistance.md#_resistance)_ (Ex, 1 EP): Gains resistance 5 against one energy type (acid, cold, electricity, fire, or sonic).
+_ [Resistance](spells/resistance#_resistance)_ (Ex, 1 EP): Gains resistance 5 against one energy type (acid, cold, electricity, fire, or sonic).
 
 _Slam_ (Ex, 1 EP): Gains a slam attack (1d8 damage). The eidolon must have arms to take this evolution.
 
 _Sting_ (Ex, 1 EP): Gains a sting attack (1d4 damage). The eidolon must have a tail to take this evolution.
 
-_ [Swim](skills/swim.md#_swim)_ (Ex, 1 EP): Gains a swim speed equal to its base speed. For each additional EP spent, this speed increases by 20 feet.
+_ [Swim](skills/swim#_swim)_ (Ex, 1 EP): Gains a swim speed equal to its base speed. For each additional EP spent, this speed increases by 20 feet.
 
-_Tail_ (Ex, 1 EP): Grows a long, powerful tail, gaining a +2 racial bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) checks made to balance on a surface.
+_Tail_ (Ex, 1 EP): Grows a long, powerful tail, gaining a +2 racial bonus on [Acrobatics](skills/acrobatics#_acrobatics) checks made to balance on a surface.
 
 _Tail Slap_ (Ex, 1 EP): Gains a tail slap attack (1d6 damage). The eidolon must have a tail to take this evolution.
 
-_Weapon Training_ (Ex, 2 or 4 EP): Gains [Simple Weapon Proficiency](feats.md#_simple-weapon-proficiency) as a bonus feat. For 2 additional EP, it gains proficiency with all martial weapons as well.
+_Weapon Training_ (Ex, 2 or 4 EP): Gains [Simple Weapon Proficiency](feats#_simple-weapon-proficiency) as a bonus feat. For 2 additional EP, it gains proficiency with all martial weapons as well.
 
 ## Small Eidolons
 
-The standard eidolon starts as Medium-sized, but Small eidolons are also possible. Compared to a Medium eidolon, a Small eidolon gains +2 to its Dexterity, –4 to its Strength, and –2 to its Constitution. It also gains a +1 size bonus to its AC and on attack rolls, a –1 size penalty on its CMB and to its CMD score, and a +4 size bonus on [Stealth](skills/stealth.md#_stealth) skill checks. If it can fly, it gains a +2 size bonus on [Fly](skills/fly.md#_fly) skill checks. Reduce the damage of all of its attacks by one step.
+The standard eidolon starts as Medium-sized, but Small eidolons are also possible. Compared to a Medium eidolon, a Small eidolon gains +2 to its Dexterity, –4 to its Strength, and –2 to its Constitution. It also gains a +1 size bonus to its AC and on attack rolls, a –1 size penalty on its CMB and to its CMD score, and a +4 size bonus on [Stealth](skills/stealth#_stealth) skill checks. If it can fly, it gains a +2 size bonus on [Fly](skills/fly#_fly) skill checks. Reduce the damage of all of its attacks by one step.
 

@@ -12,9 +12,9 @@
 
 **Duration** 1 min./level
 
-**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) negates (harmless); **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to [Dexterity](../gettingStarted.md#_dexterity), adding the usual benefits to [AC](../combat.md#_armor-class), [Reflex](../combat.md#_reflex) saves, and other uses of the [Dexterity](../gettingStarted.md#_dexterity) modifier.
+The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to [Dexterity](../gettingStarted#_dexterity), adding the usual benefits to [AC](../combat#_armor-class), [Reflex](../combat#_reflex) saves, and other uses of the [Dexterity](../gettingStarted#_dexterity) modifier.
 
 **Cat's Grace, Mass**
 

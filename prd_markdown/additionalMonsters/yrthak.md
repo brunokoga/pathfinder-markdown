@@ -6,9 +6,9 @@ This flying reptile has large, leathery wings and a vibrantly colored crest on i
 
 **XP 6,400**
 
-N Huge [magical beast](monsters/creatureTypes.md#_magical-beast)
+N Huge [magical beast](monsters/creatureTypes#_magical-beast)
 
-**Init** +6; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 120 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +18
+**Init** +6; **Senses** [blindsight](monsters/universalMonsterRules#_blindsight) 120 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +18
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +12, **Ref** +12, **Will** +8
 
-**Immune** [gaze](monsters/universalMonsterRules.md#_gaze) attacks, visual effects and illusions, sight-based attacks, sonic
+**Immune** [gaze](monsters/universalMonsterRules#_gaze) attacks, visual effects and illusions, sight-based attacks, sonic
 
 **Weaknesses** blind
 
@@ -40,11 +40,11 @@ Statistics
 
 **Base Atk** +12; **CMB** +21; **CMD** 34 (38 vs. trip)
 
-**Feats** [Dodge](additionalMonsters/../feats.md#_dodge), [Flyby Attack](additionalMonsters/../monsters/monsterFeats.md#_flyby-attack), Improved   
-Initiative, [Iron Will](additionalMonsters/../feats.md#_iron-will), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes),   
- [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
+**Feats** [Dodge](additionalMonsters/../feats#_dodge), [Flyby Attack](additionalMonsters/../monsters/monsterFeats#_flyby-attack), Improved   
+Initiative, [Iron Will](additionalMonsters/../feats#_iron-will), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes),   
+ [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Perception](additionalMonsters/../skills/perception#_perception))
 
-**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +7, [Perception](additionalMonsters/../skills/perception.md#_perception) +18; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
+**Skills** [Fly](additionalMonsters/../skills/fly#_fly) +7, [Perception](additionalMonsters/../skills/perception#_perception) +18; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception#_perception)
 
 **Languages** Draconic
 
@@ -58,9 +58,9 @@ Ecology
 
 Special Abilities
 
-**Blind (Ex)** A yrthak sees and senses exclusively through its [blindsight](monsters/universalMonsterRules.md#_blindsight) ability, which is based on sound and movement—beyond 120 feet, it is considered blind. A deaf yrthak is effectively blinded as well except against adjacent foes—its weak eyesight functions enough for it to attack targets this close, although in such cases these creatures still gain the benefit of concealment (20% miss chance) because of the creature's poor vision. It is invulnerable to all sight-based effects and attacks, including [gaze](monsters/universalMonsterRules.md#_gaze) attacks.
+**Blind (Ex)** A yrthak sees and senses exclusively through its [blindsight](monsters/universalMonsterRules#_blindsight) ability, which is based on sound and movement—beyond 120 feet, it is considered blind. A deaf yrthak is effectively blinded as well except against adjacent foes—its weak eyesight functions enough for it to attack targets this close, although in such cases these creatures still gain the benefit of concealment (20% miss chance) because of the creature's poor vision. It is invulnerable to all sight-based effects and attacks, including [gaze](monsters/universalMonsterRules#_gaze) attacks.
 
-**Explosion (Ex)** As a standard action, a yrthak can [fire](monsters/creatureTypes.md#_fire-subtype) its sonic lance at the ground, a large rock, a stone wall, or a similar nonmagical object within 60 feet to create an explosion. This attack deals 2d6 points of piercing damage to all within 10 feet of the effect's center.
+**Explosion (Ex)** As a standard action, a yrthak can [fire](monsters/creatureTypes#_fire-subtype) its sonic lance at the ground, a large rock, a stone wall, or a similar nonmagical object within 60 feet to create an explosion. This attack deals 2d6 points of piercing damage to all within 10 feet of the effect's center.
 
 **Sonic Lance (Ex)** Once per round, a yrthak can focus sonic energy in a 60-foot ray that deals 8d6 sonic damage to one target.
 

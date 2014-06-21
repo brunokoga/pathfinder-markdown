@@ -12,9 +12,9 @@
 
 **Duration** 1 round/level
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** no
 
-Driving sleet blocks all sight (even [darkvision](../glossary.md#_darkvision)) within it and causes the ground in the area to be icy. A creature can walk within or through the area of sleet at half normal speed with a DC 10 Acrobatics check. Failure means it can't move in that round, while failure by 5 or more means it falls (see the Acrobatics skill for details).
+Driving sleet blocks all sight (even [darkvision](../glossary#_darkvision)) within it and causes the ground in the area to be icy. A creature can walk within or through the area of sleet at half normal speed with a DC 10 Acrobatics check. Failure means it can't move in that round, while failure by 5 or more means it falls (see the Acrobatics skill for details).
 
 The sleet extinguishes torches and small fires.
 

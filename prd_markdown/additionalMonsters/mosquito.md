@@ -6,9 +6,9 @@ Giant MosquitoCR 6
 
 **XP 2,400**
 
-N Medium [vermin](monsters/creatureTypes.md#_vermin)
+N Medium [vermin](monsters/creatureTypes#_vermin)
 
-**Init** +7; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +9
+**Init** +7; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules#_scent); [Perception](additionalMonsters/../skills/perception#_perception) +9
 
 Defense
 
@@ -24,9 +24,9 @@ Offense
 
 **Speed** 20 ft., fly 60 ft. (good)
 
-**Melee** bite +10 (1d8+6 plus [bleed](monsters/universalMonsterRules.md#_bleed), [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), and [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** bite +10 (1d8+6 plus [bleed](monsters/universalMonsterRules#_bleed), [disease](monsters/universalMonsterRules#_disease-(ex-or-su)), and [grab](monsters/universalMonsterRules#_grab))
 
-**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (2d4), [blood drain](monsters/universalMonsterRules.md#_blood-drain) (1d2 Constitution)
+**Special Attacks** [bleed](monsters/universalMonsterRules#_bleed) (2d4), [blood drain](monsters/universalMonsterRules#_blood-drain) (1d2 Constitution)
 
 Statistics
 
@@ -34,19 +34,19 @@ Statistics
 
 **Base Atk** +6; **CMB** +10 (+14 grapple); **CMD** 27 (35 vs. trip)
 
-**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +11, [Perception](additionalMonsters/../skills/perception.md#_perception) +9; **Racial Modifiers** [Perception](additionalMonsters/../skills/perception.md#_perception)+8
+**Skills** [Fly](additionalMonsters/../skills/fly#_fly) +11, [Perception](additionalMonsters/../skills/perception#_perception) +9; **Racial Modifiers** [Perception](additionalMonsters/../skills/perception#_perception)+8
 
 Ecology
 
 **Environment** temperate or tropical swamps
 
-**Organization** solitary, pair, or [swarm](monsters/creatureTypes.md#_swarm-subtype) (3–12)
+**Organization** solitary, pair, or [swarm](monsters/creatureTypes#_swarm-subtype) (3–12)
 
 **Treasure** none
 
 Special Abilities
 
-**[Disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) (Ex)** _Malaria_: Bite—injury; _save_ Fortitude DC 17; _onset_ 1d3 days; _frequency_ 1 day; _effect_ 1d3 Con damage and 1d3 Wis Damage; _cure_ 2 consecutive saves. The save DC is Constitution-based.
+**[Disease](monsters/universalMonsterRules#_disease-(ex-or-su)) (Ex)** _Malaria_: Bite—injury; _save_ Fortitude DC 17; _onset_ 1d3 days; _frequency_ 1 day; _effect_ 1d3 Con damage and 1d3 Wis Damage; _cure_ 2 consecutive saves. The save DC is Constitution-based.
 
 Horrifically enlarged versions of the common mosquito, giant mosquitoes bring death on swift wings. A single specimen can drain the blood from a human adult with shocking speed, while swarms of fist-sized mosquitoes can lay waste to herds of livestock or entire villages. In the wild, giant mosquitoes prey upon megafauna like dinosaurs and other huge creatures.
 
@@ -60,9 +60,9 @@ Mosquito SwarmCR 3
 
 **XP 800**
 
-N Diminutive [vermin](monsters/creatureTypes.md#_vermin) ( [swarm](monsters/creatureTypes.md#_swarm-subtype))
+N Diminutive [vermin](monsters/creatureTypes#_vermin) ( [swarm](monsters/creatureTypes#_swarm-subtype))
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +9
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +9
 
 Defense
 
@@ -72,17 +72,17 @@ Defense
 
 **Fort** +5, **Ref** +3, **Will** +3
 
-**Defensive Abilities** [swarm](monsters/creatureTypes.md#_swarm-subtype) traits; **Immune** mind-affecting effects, weapon damage
+**Defensive Abilities** [swarm](monsters/creatureTypes#_swarm-subtype) traits; **Immune** mind-affecting effects, weapon damage
 
 Offense
 
 **Speed** 5 ft., fly 40 ft. (good)
 
-**Melee** [swarm](monsters/creatureTypes.md#_swarm-subtype) (2d6 plus [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) and [bleed](monsters/universalMonsterRules.md#_bleed))
+**Melee** [swarm](monsters/creatureTypes#_swarm-subtype) (2d6 plus [disease](monsters/universalMonsterRules#_disease-(ex-or-su)) and [bleed](monsters/universalMonsterRules#_bleed))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d6), [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) (malaria, DC 13), [distraction](monsters/universalMonsterRules.md#_distraction) (DC 13)
+**Special Attacks** [bleed](monsters/universalMonsterRules#_bleed) (1d6), [disease](monsters/universalMonsterRules#_disease-(ex-or-su)) (malaria, DC 13), [distraction](monsters/universalMonsterRules#_distraction) (DC 13)
 
 Statistics
 
@@ -90,7 +90,7 @@ Statistics
 
 **Base Atk** +5; **CMB** —; **CMD** —
 
-**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +11, [Perception](additionalMonsters/../skills/perception.md#_perception) +9; **Racial Modifiers** [Perception](additionalMonsters/../skills/perception.md#_perception) +8
+**Skills** [Fly](additionalMonsters/../skills/fly#_fly) +11, [Perception](additionalMonsters/../skills/perception#_perception) +9; **Racial Modifiers** [Perception](additionalMonsters/../skills/perception#_perception) +8
 
 Ecology
 

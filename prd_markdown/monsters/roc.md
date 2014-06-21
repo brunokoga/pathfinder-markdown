@@ -6,9 +6,9 @@ _This immense raptor unleashes a shrill cry as it bares its talons, each large e
 
 **XP 6,400**
 
-N Gargantuan [animal](creatureTypes.md#_animal)
+N Gargantuan [animal](creatureTypes#_animal)
 
-**Init** +6; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +15
+**Init** +6; **Senses** low-light vision; [Perception](../skills/perception#_perception) +15
 
 **Defense**
 
@@ -22,7 +22,7 @@ N Gargantuan [animal](creatureTypes.md#_animal)
 
 **Speed** 20 ft., fly 80 ft. (average)
 
-**Melee** 2 talons +18 (2d6+9/19–20 plus [grab](universalMonsterRules.md#_grab)), bite +17 (2d8+9)
+**Melee** 2 talons +18 (2d6+9/19–20 plus [grab](universalMonsterRules#_grab)), bite +17 (2d8+9)
 
 **Space** 20 ft.; **Reach** 15 ft.
 
@@ -32,9 +32,9 @@ N Gargantuan [animal](creatureTypes.md#_animal)
 
 **Base**  **Atk** +12; **CMB** +25 (+29 grapple); **CMD** 37
 
-**Feats** [Flyby Attack](monsterFeats.md#_flyby-attack), [Improved Critical](../feats.md#_improved-critical) (talons), [Improved Initiative](../feats.md#_improved-initiative), [Iron Will](../feats.md#_iron-will), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Power Attack](../feats.md#_power-attack), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Weapon Focus](../feats.md#_weapon-focus) (talons)
+**Feats** [Flyby Attack](monsterFeats#_flyby-attack), [Improved Critical](../feats#_improved-critical) (talons), [Improved Initiative](../feats#_improved-initiative), [Iron Will](../feats#_iron-will), [Lightning Reflexes](../feats#_lightning-reflexes), [Power Attack](../feats#_power-attack), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception)), [Weapon Focus](../feats#_weapon-focus) (talons)
 
-**Skills** [Fly](../skills/fly.md#_fly) +7, [Perception](../skills/perception.md#_perception) +15
+**Skills** [Fly](../skills/fly#_fly) +7, [Perception](../skills/perception#_perception) +15
 
 **Ecology**
 

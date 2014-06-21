@@ -1,6 +1,6 @@
 Tsunami
 
-**Source** [_tsunami_](advanced/spells/tsunami.md#_tsunami)
+**Source** [_tsunami_](advanced/spells/tsunami#_tsunami)
 
 The wave increases to 20 feet wide per caster level and 3 feet tall per caster level. The damage dealt to those struck by the wave increases to 12d6 points of bludgeoning damage. Add your tier to the wave's special combat maneuver check. The damage dealt to those that fail to escape the wave increases to 6d8 points of bludgeoning damage.
 

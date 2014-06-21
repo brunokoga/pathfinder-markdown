@@ -22,7 +22,7 @@ Potions are like spells cast upon the imbiber. The character taking the potion d
 
 The person applying an oil is the effective caster, but the object is the target.
 
-**Physical Description** : A typical potion or oil consists of 1 ounce of liquid held in a ceramic or glass vial fitted with a tight stopper. The stoppered container is usually no more than 1 inch wide and 2 inches high. The vial has [AC](../combat.md#_armor-class) 13, 1 hit point, hardness 1, and a break DC of 12.
+**Physical Description** : A typical potion or oil consists of 1 ounce of liquid held in a ceramic or glass vial fitted with a tight stopper. The stoppered container is usually no more than 1 inch wide and 2 inches high. The vial has [AC](../combat#_armor-class) 13, 1 hit point, hardness 1, and a break DC of 12.
 
 **Identifying Potions** : In addition to the standard methods of identification, PCs can sample from each container they find to attempt to determine the nature of the liquid inside with a Perception check. The DC of this check is equal to 15 + the spell level of the potion (although this DC might be higher for rare or unusual potions).
 
@@ -30,7 +30,7 @@ The person applying an oil is the effective caster, but the object is the target
 
 Drinking a potion or using an oil is a standard action. The potion or oil takes effect immediately. Using a potion or oil provokes attacks of opportunity. An enemy may direct an attack of opportunity against the potion or oil container rather than against the character. A successful attack of this sort can destroy the container, preventing the character from drinking the potion or applying the oil.
 
-A creature must be able to swallow a potion or smear on an oil. Because of this, [incorporeal](../glossary.md#_incorporeal) creatures cannot use potions or oils. Any corporeal creature can imbibe a potion or use an oil.
+A creature must be able to swallow a potion or smear on an oil. Because of this, [incorporeal](../glossary#_incorporeal) creatures cannot use potions or oils. Any corporeal creature can imbibe a potion or use an oil.
 
-A character can carefully administer a potion to an [unconscious](../glossary.md#_unconscious) creature as a full-round action, trickling the liquid down the creature's throat. Likewise, it takes a full-round action to apply an oil to an [unconscious](../glossary.md#_unconscious) creature.
+A character can carefully administer a potion to an [unconscious](../glossary#_unconscious) creature as a full-round action, trickling the liquid down the creature's throat. Likewise, it takes a full-round action to apply an oil to an [unconscious](../glossary#_unconscious) creature.
 

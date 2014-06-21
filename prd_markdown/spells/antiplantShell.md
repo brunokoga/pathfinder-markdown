@@ -12,7 +12,7 @@
 
 **Duration** 1 min./level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
 The _antiplant shell _spell creates an invisible, mobile barrier that keeps all creatures within the shell protected from attacks by plant creatures or animated plants. As with many abjuration spells, forcing the barrier against creatures that the spell keeps at bay strains and collapses the field.
 

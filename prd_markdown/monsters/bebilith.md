@@ -6,9 +6,9 @@ _A spider the size of an elephant, this dark blue arachnid rears up on its six h
 
 **XP 9,600**
 
-CE Huge [outsider](creatureTypes.md#_outsider) (chaotic, evil, extraplanar)
+CE Huge [outsider](creatureTypes#_outsider) (chaotic, evil, extraplanar)
 
-**Init** +5; **Senses** darkvision 60 ft., [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +16
+**Init** +5; **Senses** darkvision 60 ft., [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +16
 
 **Defense**
 
@@ -28,11 +28,11 @@ CE Huge [outsider](creatureTypes.md#_outsider) (chaotic, evil, extraplanar)
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** dismantle armor, penetrating strike, [web](universalMonsterRules.md#_web) (+11 ranged, DC 23, 12 hp)
+**Special Attacks** dismantle armor, penetrating strike, [web](universalMonsterRules#_web) (+11 ranged, DC 23, 12 hp)
 
 **Spell-Like Abilities** (CL 12th)
 
-At will—_ [plane shift](../spells/planeShift.md#_plane-shift)_ (bebilith only)
+At will—_ [plane shift](../spells/planeShift#_plane-shift)_ (bebilith only)
 
 **Statistics**
 
@@ -40,11 +40,11 @@ At will—_ [plane shift](../spells/planeShift.md#_plane-shift)_ (bebilith only)
 
 **Base Atk** +12; **CMB** +23; **CMD** 34 (46 vs. trip)
 
-**Feats** [Cleave](../feats.md#_cleave), [Improved Critical](../feats.md#_improved-critical) (claws), [Improved Initiative](../feats.md#_improved-initiative), [Iron Will](../feats.md#_iron-will), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Power Attack](../feats.md#_power-attack)
+**Feats** [Cleave](../feats#_cleave), [Improved Critical](../feats#_improved-critical) (claws), [Improved Initiative](../feats#_improved-initiative), [Iron Will](../feats#_iron-will), [Lightning Reflexes](../feats#_lightning-reflexes), [Power Attack](../feats#_power-attack)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +16, [Climb](../skills/climb.md#_climb) +32, [Perception](../skills/perception.md#_perception) +16, [Sense Motive](../skills/senseMotive.md#_sense-motive) +16, [Stealth](../skills/stealth.md#_stealth) +16, [Survival](../skills/survival.md#_survival) +16; **Racial Modifiers** +8 [Stealth](../skills/stealth.md#_stealth)
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +16, [Climb](../skills/climb#_climb) +32, [Perception](../skills/perception#_perception) +16, [Sense Motive](../skills/senseMotive#_sense-motive) +16, [Stealth](../skills/stealth#_stealth) +16, [Survival](../skills/survival#_survival) +16; **Racial Modifiers** +8 [Stealth](../skills/stealth#_stealth)
 
-**Languages** Abyssal (cannot speak); [telepathy](universalMonsterRules.md#_telepathy) 100 ft.
+**Languages** Abyssal (cannot speak); [telepathy](universalMonsterRules#_telepathy) 100 ft.
 
 **Ecology**
 
@@ -60,9 +60,9 @@ At will—_ [plane shift](../spells/planeShift.md#_plane-shift)_ (bebilith only)
 
 **Penetrating Strike (Su)** A bebilith's natural weapons are treated as chaotic and magical for the purposes of penetrating damage reduction. Against creatures with the demon type, its natural weapons are also treated as cold iron and good.
 
-**Rot (Su)** A bebilith's bite causes a horrible withering and weakening of the flesh, resulting in a hideous melting and foul rotting effect. This catastrophic withering begins on the round the creature is bitten and continues for another 4 rounds thereafter, for 5 rounds of withering in all. Each round the rot persists, the target must succeed on a DC 23 Fortitude save or take 2 points of Constitution damage. If the target makes two consecutive saving throws in a row, the effect is cured. _ [Heal](../skills/heal.md#_heal)_ can also halt the rot effect. The save DC is Constitution-based.
+**Rot (Su)** A bebilith's bite causes a horrible withering and weakening of the flesh, resulting in a hideous melting and foul rotting effect. This catastrophic withering begins on the round the creature is bitten and continues for another 4 rounds thereafter, for 5 rounds of withering in all. Each round the rot persists, the target must succeed on a DC 23 Fortitude save or take 2 points of Constitution damage. If the target makes two consecutive saving throws in a row, the effect is cured. _ [Heal](../skills/heal#_heal)_ can also halt the rot effect. The save DC is Constitution-based.
 
 The Abyss is a terrible place, yet even in this horrific realm there exist predators and wild beasts that prey upon the demonic horde—the bebilith being the most notorious, a creature evolved to hunt and slay demons.
 
-Far more intelligent than its verminous shape would suggest, it is perhaps a blessing that the bebilith is such a focused and devoted hunter of demons, for had these dangerous outsiders more of a mind to conquer and expand empires, their ability to _ [plane shift](../spells/planeShift.md#_plane-shift)_ would make them a menace indeed. Although, as an outsider, the bebilith has no biological need to eat, it does enjoy the sensation of chewing on demonic flesh.
+Far more intelligent than its verminous shape would suggest, it is perhaps a blessing that the bebilith is such a focused and devoted hunter of demons, for had these dangerous outsiders more of a mind to conquer and expand empires, their ability to _ [plane shift](../spells/planeShift#_plane-shift)_ would make them a menace indeed. Although, as an outsider, the bebilith has no biological need to eat, it does enjoy the sensation of chewing on demonic flesh.
 

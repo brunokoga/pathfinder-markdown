@@ -8,7 +8,7 @@ XP 4,800
 
 N Huge vermin
 
-**Init** +2; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](skills/perception.md#_perception) +6
+**Init** +2; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](skills/perception#_perception) +6
 
 Defense
 
@@ -24,11 +24,11 @@ Offense
 
 **Speed** 50 ft.
 
-**Melee** 2 claws +13 (1d8+8 plus [grab](monsters/universalMonsterRules.md#_grab)), sting +13 (1d8+8 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
+**Melee** 2 claws +13 (1d8+8 plus [grab](monsters/universalMonsterRules#_grab)), sting +13 (1d8+8 plus [poison](monsters/universalMonsterRules#_poison-(ex-or-su)))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) (1d8+8), sudden strike
+**Special Attacks** [constrict](monsters/universalMonsterRules#_constrict) (1d8+8), sudden strike
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +7; **CMB** +17 (+21 grapple); **CMD** 29 (41 vs. trip)
 
-**Feats** [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth))B
+**Feats** [Skill Focus](feats#_skill-focus) ( [Stealth](skills/stealth#_stealth))B
 
-**Skills** [Perception](skills/perception.md#_perception) +6, [Stealth](skills/stealth.md#_stealth) +5 (+13 in forests); **Racial Modifiers** +4 [Perception](skills/perception.md#_perception), +8 [Stealth](skills/stealth.md#_stealth) (+16 in forests)
+**Skills** [Perception](skills/perception#_perception) +6, [Stealth](skills/stealth#_stealth) +5 (+13 in forests); **Racial Modifiers** +4 [Perception](skills/perception#_perception), +8 [Stealth](skills/stealth#_stealth) (+16 in forests)
 
 Ecology
 
@@ -50,7 +50,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 20; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Str damage; _cure_ 2 consecutive saves.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 20; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Str damage; _cure_ 2 consecutive saves.
 
 **Sudden Strike (Ex)** A deadfall scorpion is adept at moving quickly when its foes are surprised. During a surprise round, a deadfall scorpion may act as if it had a full round to act, rather than just one standard action.
 
@@ -67,7 +67,7 @@ XP 200
 
 N Small vermin
 
-**Init** +0; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](skills/perception.md#_perception) +4
+**Init** +0; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](skills/perception#_perception) +4
 
 Defense
 
@@ -83,9 +83,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** 2 claws +2 (1d3), sting +2 (1d3 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
+**Melee** 2 claws +2 (1d3), sting +2 (1d3 plus [poison](monsters/universalMonsterRules#_poison-(ex-or-su)))
 
-**Special Attacks** [pounce](monsters/universalMonsterRules.md#_pounce)
+**Special Attacks** [pounce](monsters/universalMonsterRules#_pounce)
 
 Statistics
 
@@ -93,7 +93,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +0; **CMD** 10 (22 vs. trip)
 
-**Skills** [Perception](skills/perception.md#_perception) +4, [Stealth](skills/stealth.md#_stealth) +8; **Racial Modifiers** +4 [Perception](skills/perception.md#_perception), +4 [Stealth](skills/stealth.md#_stealth)
+**Skills** [Perception](skills/perception#_perception) +4, [Stealth](skills/stealth#_stealth) +8; **Racial Modifiers** +4 [Perception](skills/perception#_perception), +4 [Stealth](skills/stealth#_stealth)
 
 Ecology
 
@@ -105,7 +105,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 13; _frequency_ 1/round for 4 rounds; _effect_ 1 Str damage; _cure_ 1 save.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 13; _frequency_ 1/round for 4 rounds; _effect_ 1 Str damage; _cure_ 1 save.
 
 So named for their eerie, translucent carapaces, ghost scorpions are nocturnal desert hunters. A ghost scorpion's body is 3 feet long with a 3-foot long tail, and it weighs 45 pounds.
 

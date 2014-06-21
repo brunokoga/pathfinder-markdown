@@ -8,9 +8,9 @@ XP 200
 
 Suli ranger 1
 
-N Medium outsider ( [native](monsters/creatureTypes.md#_native-subtype))
+N Medium outsider ( [native](monsters/creatureTypes#_native-subtype))
 
-**Init** +1; **Senses** low-light vision; [Perception](skills/perception.md#_perception) –1
+**Init** +1; **Senses** low-light vision; [Perception](skills/perception#_perception) –1
 
 Defense
 
@@ -20,7 +20,7 @@ Defense
 
 **Fort** +2, **Ref** +3, **Will** –1
 
-**Resist** acid 5, [cold](monsters/creatureTypes.md#_cold-subtype) 5, electricity 5, [fire](monsters/creatureTypes.md#_fire-subtype) 5
+**Resist** acid 5, [cold](monsters/creatureTypes#_cold-subtype) 5, electricity 5, [fire](monsters/creatureTypes#_fire-subtype) 5
 
 Offense
 
@@ -30,7 +30,7 @@ Offense
 
 **Ranged** shortbow +2 (1d6/×3)
 
-**Special Attacks** [elemental](monsters/creatureTypes.md#_elemental-subtype) assault, favored enemy (humans +2)
+**Special Attacks** [elemental](monsters/creatureTypes#_elemental-subtype) assault, favored enemy (humans +2)
 
 Statistics
 
@@ -38,11 +38,11 @@ Statistics
 
 **Base Atk** +1; **CMB** +3; **CMD** 14
 
-**Feats** [Weapon Focus](feats.md#_weapon-focus) (scimitar)
+**Feats** [Weapon Focus](feats#_weapon-focus) (scimitar)
 
-**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +3, [Knowledge](skills/knowledge.md#_knowledge) (geography) +4, [Knowledge](skills/knowledge.md#_knowledge) (nature) +4, [Ride](skills/ride.md#_ride) +0, [Sense Motive](skills/senseMotive.md#_sense-motive) +2, [Survival](skills/survival.md#_survival) +3; **Racial Modifiers** +2 [Diplomacy](skills/diplomacy.md#_diplomacy), +2 [Sense Motive](skills/senseMotive.md#_sense-motive)
+**Skills** [Diplomacy](skills/diplomacy#_diplomacy) +3, [Knowledge](skills/knowledge#_knowledge) (geography) +4, [Knowledge](skills/knowledge#_knowledge) (nature) +4, [Ride](skills/ride#_ride) +0, [Sense Motive](skills/senseMotive#_sense-motive) +2, [Survival](skills/survival#_survival) +3; **Racial Modifiers** +2 [Diplomacy](skills/diplomacy#_diplomacy), +2 [Sense Motive](skills/senseMotive#_sense-motive)
 
-**Languages** Common plus one [elemental](monsters/creatureTypes.md#_elemental-subtype) language
+**Languages** Common plus one [elemental](monsters/creatureTypes#_elemental-subtype) language
 
 **SQ** track +1, wild empathy +1
 
@@ -56,7 +56,7 @@ Ecology
 
 Special Abilities
 
-**Elemental Assault (Su)** Once per day as a swift action, a suli can call on the [elemental](monsters/creatureTypes.md#_elemental-subtype) power lurking in its veins to shroud its arms in acid, [cold](monsters/creatureTypes.md#_cold-subtype), electricity, or [fire](monsters/creatureTypes.md#_fire-subtype). Unarmed strikes with its elbows or hands (or attacks with weapons held in those hands) deal +1d6 points of damage of the appropriate energy type. This lasts for 1 round per level. The suli can end the effects of its [elemental](monsters/creatureTypes.md#_elemental-subtype) power early as a free action.
+**Elemental Assault (Su)** Once per day as a swift action, a suli can call on the [elemental](monsters/creatureTypes#_elemental-subtype) power lurking in its veins to shroud its arms in acid, [cold](monsters/creatureTypes#_cold-subtype), electricity, or [fire](monsters/creatureTypes#_fire-subtype). Unarmed strikes with its elbows or hands (or attacks with weapons held in those hands) deal +1d6 points of damage of the appropriate energy type. This lasts for 1 round per level. The suli can end the effects of its [elemental](monsters/creatureTypes#_elemental-subtype) power early as a free action.
 
 Sulis (or suli-jann) are minor offshoots of the jann that live among humans. They are tall and look like ordinary men and women but for their abnormal beauty and the occasional flash of elemental light in their eyes. Though physically superior to and more attractive than normal humans, some suli-jann remain unaware of their genie heritage until later in life, when contact with a full-blooded genie draws forth a portion of their elemental power.
 
@@ -72,7 +72,7 @@ Sulis are defined by class levels—they do not possess racial Hit Dice. Sulis h
 
 **Low-Light Vision** : Sulis can see twice as far as humans in dim light.
 
-**Negotiator** : Sulis are keen negotiators, and gain a +2 racial bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) and [Sense Motive](skills/senseMotive.md#_sense-motive) checks.
+**Negotiator** : Sulis are keen negotiators, and gain a +2 racial bonus on [Diplomacy](skills/diplomacy#_diplomacy) and [Sense Motive](skills/senseMotive#_sense-motive) checks.
 
 **Elemental Assault** : See above.
 

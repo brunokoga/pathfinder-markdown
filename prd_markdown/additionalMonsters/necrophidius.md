@@ -6,9 +6,9 @@ The soft scrape of bone reveals the long, sinuous skeleton of a large snake, its
 
 **XP 800**
 
-N Medium [construct](monsters/creatureTypes.md#_construct)
+N Medium [construct](monsters/creatureTypes#_construct)
 
-**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +0
+**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +0
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +1, **Ref** +4, **Will** +1
 
-**DR** 5/bludgeoning; **Immune** [construct](monsters/creatureTypes.md#_construct) traits
+**DR** 5/bludgeoning; **Immune** [construct](monsters/creatureTypes#_construct) traits
 
 Offense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +6; **CMD** 19 (can't be tripped)
 
-**Skills** [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +15; **Racial Modifiers**
+**Skills** [Stealth](additionalMonsters/../skills/stealth#_stealth) +15; **Racial Modifiers**
 
-+12 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
++12 [Stealth](additionalMonsters/../skills/stealth#_stealth)
 
 Ecology
 
@@ -54,7 +54,7 @@ Special Abilities
 
 Despite its sinister appearance, the snake-like necrophidius is not an undead creature. Rather, it is a magical construct built from the skeleton of a giant snake and then mounted with the skull of a humanoid creature. Fangs are cemented into the jaws of the skull, after which the entire creation can be brought to life by a series of obscure and expensive rituals—these rituals are traditionally well guarded by those who discover them.
 
-As a mindless construct that requires neither food nor sleep, a necrophidius makes an excellent guardian, and its innate stealth allows it to slip up on the unwary undetected. In certain areas, the necrophidius is commonly employed as an assassin, able to disable its quarries with its dance of death or paralyzing bite before disposing of them in a gruesome manner—as long as the assassination doesn't require any particular intelligence to carry out. Particularly macabre creators might even construct the creature from the skull of a friend or loved one of the intended victim in order to magnify the horror of the assassination, leaving much of the flesh on the skull so the victim can recognize its source. This flesh rots eventually—only freshly crafted necrophidiuses have this grisly feature (although regular applications of _ [gentle repose](additionalMonsters/../spells/gentleRepose.md#_gentle-repose)_ spells can keep such a morbid decoration fresh for a much longer period of time).
+As a mindless construct that requires neither food nor sleep, a necrophidius makes an excellent guardian, and its innate stealth allows it to slip up on the unwary undetected. In certain areas, the necrophidius is commonly employed as an assassin, able to disable its quarries with its dance of death or paralyzing bite before disposing of them in a gruesome manner—as long as the assassination doesn't require any particular intelligence to carry out. Particularly macabre creators might even construct the creature from the skull of a friend or loved one of the intended victim in order to magnify the horror of the assassination, leaving much of the flesh on the skull so the victim can recognize its source. This flesh rots eventually—only freshly crafted necrophidiuses have this grisly feature (although regular applications of _ [gentle repose](additionalMonsters/../spells/gentleRepose#_gentle-repose)_ spells can keep such a morbid decoration fresh for a much longer period of time).
 
 Although a necrophidius is mindless, it can follow the simple commands of its creator. These can include commands to lie dormant until some specific condition is met or to follow and kill an indicated target to the exclusion of all other activities.
 
@@ -70,5 +70,5 @@ Necrophidius
 
 Construction
 
-**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats.md#_craft-construct), _ [cat's grace](additionalMonsters/../spells/catSGrace.md#_cat-s-grace)_, _ [daze monster](additionalMonsters/../spells/dazeMonster.md#_daze-monster)_, _ [geas/quest](additionalMonsters/../spells/geasQuest.md#_geas-quest)_, _ [ghoul touch](additionalMonsters/../spells/ghoulTouch.md#_ghoul-touch)_, creator must be caster level 7th; **Skill** [Craft](additionalMonsters/../skills/craft.md#_craft) (sculpture) or [Heal](additionalMonsters/../skills/heal.md#_heal) DC 15; **Cost** 4,250 gp
+**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats#_craft-construct), _ [cat's grace](additionalMonsters/../spells/catSGrace#_cat-s-grace)_, _ [daze monster](additionalMonsters/../spells/dazeMonster#_daze-monster)_, _ [geas/quest](additionalMonsters/../spells/geasQuest#_geas-quest)_, _ [ghoul touch](additionalMonsters/../spells/ghoulTouch#_ghoul-touch)_, creator must be caster level 7th; **Skill** [Craft](additionalMonsters/../skills/craft#_craft) (sculpture) or [Heal](additionalMonsters/../skills/heal#_heal) DC 15; **Cost** 4,250 gp
 

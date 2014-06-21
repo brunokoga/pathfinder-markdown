@@ -8,7 +8,7 @@ XP 400
 
 LG Small aberration
 
-**Init** +3; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +7
+**Init** +3; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +7
 
 Defense
 
@@ -32,9 +32,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +0; **CMD** 13
 
-**Feats** [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +2, [Fly](skills/fly.md#_fly) +18, [Perception](skills/perception.md#_perception) +7, [Sense Motive](skills/senseMotive.md#_sense-motive) +3, [Stealth](skills/stealth.md#_stealth) +11
+**Skills** [Diplomacy](skills/diplomacy#_diplomacy) +2, [Fly](skills/fly#_fly) +18, [Perception](skills/perception#_perception) +7, [Sense Motive](skills/senseMotive#_sense-motive) +3, [Stealth](skills/stealth#_stealth) +11
 
 **Languages** Aklo, Common
 
@@ -48,9 +48,9 @@ Ecology
 
 Special Abilities
 
-**Acid Injection (Ex)** When a flumph strikes an opponent with its spikes, it injects a burning, irritating acid that deals 1d4 points of acid damage immediately and another 1d4 points of acid damage on the round after the attack. The target can end the acid's effects by submerging the wound in [water](monsters/creatureTypes.md#_water-subtype) for a round or by being treated with a DC 15 [Heal](skills/heal.md#_heal) check. A creature that grapples or swallows the flumph takes this acid damage automatically every round it maintains this contact with a living flumph.
+**Acid Injection (Ex)** When a flumph strikes an opponent with its spikes, it injects a burning, irritating acid that deals 1d4 points of acid damage immediately and another 1d4 points of acid damage on the round after the attack. The target can end the acid's effects by submerging the wound in [water](monsters/creatureTypes#_water-subtype) for a round or by being treated with a DC 15 [Heal](skills/heal#_heal) check. A creature that grapples or swallows the flumph takes this acid damage automatically every round it maintains this contact with a living flumph.
 
-**Stench Spray (Ex)** A flumph can spray a 20-foot line of foul- smelling liquid once every 1d4 rounds. This spray functions like the stench universal monster ability, except it only affects creatures struck by the spray, which must make a DC 10 Fortitude save or be sickened for 5 rounds. The save DC is Constitution-based. Alternatively, the flumph can concentrate the spray on a single target within 5 feet. To use this version of its stench spray, the flumph must succeed at a ranged touch attack (+5 for most flumphs). If the target is hit, it must make a DC 10 Fortitude save or become nauseated for 5 rounds; otherwise, it is sickened for 5 rounds. The odor from this spray lingers in the area and on all creatures struck for 1d4 hours, and can be detected at a range of 100 feet (creatures with the [scent](monsters/universalMonsterRules.md#_scent) ability can smell it at double this range).
+**Stench Spray (Ex)** A flumph can spray a 20-foot line of foul- smelling liquid once every 1d4 rounds. This spray functions like the stench universal monster ability, except it only affects creatures struck by the spray, which must make a DC 10 Fortitude save or be sickened for 5 rounds. The save DC is Constitution-based. Alternatively, the flumph can concentrate the spray on a single target within 5 feet. To use this version of its stench spray, the flumph must succeed at a ranged touch attack (+5 for most flumphs). If the target is hit, it must make a DC 10 Fortitude save or become nauseated for 5 rounds; otherwise, it is sickened for 5 rounds. The odor from this spray lingers in the area and on all creatures struck for 1d4 hours, and can be detected at a range of 100 feet (creatures with the [scent](monsters/universalMonsterRules#_scent) ability can smell it at double this range).
 
 Come from distant stars to protect unprepared worlds from cosmic horrors, flumphs are jellyfish-like creatures that float in the air and hunt with acidic spikes growing from their undersides. Gentle at heart, flumphs understand that their appearance often terrifies viewers, and thus conceal themselves and observe neighboring settlements from afar, only revealing themselves when absolutely necessary. They also know full well the limitations of their fragile forms, and rather than directly opposing the horrors they seek to defeat, they prefer to recruit and advise heroes to tackle these dangerous tasks instead.
 

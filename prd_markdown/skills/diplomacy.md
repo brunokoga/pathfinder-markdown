@@ -1,20 +1,20 @@
 # Diplomacy
 
-## ( [Cha](../gettingStarted.md#_charisma-new))
+## ( [Cha](../gettingStarted#_charisma-new))
 
 You can use this skill to persuade others to agree with your arguments, to resolve differences, and to gather valuable information or rumors from people. This skill is also used to negotiate conflicts by using the proper etiquette and manners suitable to the problem.
 
-**Check** : You can change the initial attitudes of nonplayer characters with a successful check. The DC of this check depends on the creature's starting attitude toward you, adjusted by its [Charisma](../gettingStarted.md#_charisma-new) modifier. If you succeed, the character's attitude toward you is improved by one step. For every 5 by which your check result exceeds the DC, the character's attitude toward you increases by one additional step. A creature's attitude cannot be shifted more than two steps up in this way, although the GM can override this rule in some situations. If you fail the check by 4 or less, the character's attitude toward you is unchanged. If you fail by 5 or more, the character's attitude toward you is decreased by one step.
+**Check** : You can change the initial attitudes of nonplayer characters with a successful check. The DC of this check depends on the creature's starting attitude toward you, adjusted by its [Charisma](../gettingStarted#_charisma-new) modifier. If you succeed, the character's attitude toward you is improved by one step. For every 5 by which your check result exceeds the DC, the character's attitude toward you increases by one additional step. A creature's attitude cannot be shifted more than two steps up in this way, although the GM can override this rule in some situations. If you fail the check by 4 or less, the character's attitude toward you is unchanged. If you fail by 5 or more, the character's attitude toward you is decreased by one step.
 
-You cannot use Diplomacy against a creature that does not understand you or has an [Intelligence](../gettingStarted.md#_intelligence) of 3 or less. Diplomacy is generally ineffective in combat and against creatures that intend to harm you or your allies in the immediate future. Any attitude shift caused through Diplomacy generally lasts for 1d4 hours but can last much longer or shorter depending upon the situation (GM discretion).
+You cannot use Diplomacy against a creature that does not understand you or has an [Intelligence](../gettingStarted#_intelligence) of 3 or less. Diplomacy is generally ineffective in combat and against creatures that intend to harm you or your allies in the immediate future. Any attitude shift caused through Diplomacy generally lasts for 1d4 hours but can last much longer or shorter depending upon the situation (GM discretion).
 
 | Starting Attitude | Diplomacy DC |
 | --- | --- |
-| Hostile | 25 + creature's [Cha](../gettingStarted.md#_charisma-new) modifier |
-| Unfriendly | 20 + creature's [Cha](../gettingStarted.md#_charisma-new) modifier |
-| Indifferent | 15 + creature's [Cha](../gettingStarted.md#_charisma-new) modifier |
-| Friendly | 10 + creature's [Cha](../gettingStarted.md#_charisma-new) modifier |
-| Helpful | 0 + creature's [Cha](../gettingStarted.md#_charisma-new) modifier |
+| Hostile | 25 + creature's [Cha](../gettingStarted#_charisma-new) modifier |
+| Unfriendly | 20 + creature's [Cha](../gettingStarted#_charisma-new) modifier |
+| Indifferent | 15 + creature's [Cha](../gettingStarted#_charisma-new) modifier |
+| Friendly | 10 + creature's [Cha](../gettingStarted#_charisma-new) modifier |
+| Helpful | 0 + creature's [Cha](../gettingStarted#_charisma-new) modifier |
 
 If a creature's attitude toward you is at least indifferent, you can make requests of the creature. This is an additional Diplomacy check, using the creature's current attitude to determine the base DC, with one of the following modifiers. Once a creature's attitude has shifted to helpful, the creature gives in to most requests without a check, unless the request is against its nature or puts it in serious peril. Some requests automatically fail if the request goes against the creature's values or its nature, subject to GM discretion.
 
@@ -36,5 +36,5 @@ _Gather Information_: You can also use Diplomacy to gather information about a s
 
 **Try Again** : You cannot use Diplomacy to influence a given creature's attitude more than once in a 24-hour period. If a request is refused, the result does not change with additional checks, although other requests might be made. You can retry Diplomacy checks made to gather information.
 
-**Special** : If you have the [Persuasive](../feats.md#_persuasive) feat, you gain a bonus on Diplomacy checks (see [Feats](../feats.md)).
+**Special** : If you have the [Persuasive](../feats#_persuasive) feat, you gain a bonus on Diplomacy checks (see [Feats](../feats)).
 

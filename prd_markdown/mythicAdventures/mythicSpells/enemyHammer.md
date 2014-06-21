@@ -1,6 +1,6 @@
 Enemy Hammer
 
-**Source** [_enemy hammer_](advanced/spells/enemyHammer.md#_enemy-hammer-)
+**Source** [_enemy hammer_](advanced/spells/enemyHammer#_enemy-hammer-)
 
 The target becomes entangled whether or not it succeeds at its saving throw. When using the target as a weapon, add half your tier to your attack roll, and add your tier to the damage roll.
 

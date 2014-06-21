@@ -6,9 +6,9 @@ _The pile of bones suddenly stirs, rising up to take on a human shape. Its long,
 
 **XP 135**
 
-NE Medium [undead](creatureTypes.md#_undead)
+NE Medium [undead](creatureTypes#_undead)
 
-**Init** +6; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +0
+**Init** +6; **Senses** darkvision 60 ft.; [Perception](../skills/perception#_perception) +0
 
 **Defense**
 
@@ -18,7 +18,7 @@ NE Medium [undead](creatureTypes.md#_undead)
 
 **Fort** +0, **Ref** +2, **Will** +2
 
-**DR** 5/bludgeoning; **Immune** cold, [undead traits](universalMonsterRules.md#_undead-traits)
+**DR** 5/bludgeoning; **Immune** cold, [undead traits](universalMonsterRules#_undead-traits)
 
 **Offense**
 
@@ -32,7 +32,7 @@ NE Medium [undead](creatureTypes.md#_undead)
 
 **Base**  **Atk** +0; **CMB** +2; **CMD** 14
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative)B
+**Feats** [Improved Initiative](../feats#_improved-initiative)B
 
 **Gear** broken chain shirt, broken scimitar
 
@@ -67,7 +67,7 @@ Skeletons are the animated bones of the dead, brought to unlife through foul mag
 
 **Alignment** : Always neutral evil.
 
-**Type** : The creature's type changes to [undead](creatureTypes.md#_undead). It retains any subtype except for alignment subtypes (such as good) and subtypes that indicate kind (such as giant). It does not gain the augmented subtype. It uses all the base creature's statistics and special abilities except as noted here.
+**Type** : The creature's type changes to [undead](creatureTypes#_undead). It retains any subtype except for alignment subtypes (such as good) and subtypes that indicate kind (such as giant). It does not gain the augmented subtype. It uses all the base creature's statistics and special abilities except as noted here.
 
 **Armor Class** : Natural armor bonus changes as follows:
 
@@ -80,7 +80,7 @@ Skeletons are the animated bones of the dead, brought to unlife through foul mag
 | Gargantuan | +6 |
 | Colossal | +10 |
 
-**Hit Dice** : A skeleton drops any HD gained from class levels and changes racial HD to d8s. Creatures without racial HD are treated as if they have 1 racial HD. If the creature has more than 20 Hit Dice, it can't be made into a skeleton by the _ [animate dead](../spells/animateDead.md#_animate-dead) _spell. A skeleton uses its Cha modifier (instead of its Con modifier) to determine bonus hit points.
+**Hit Dice** : A skeleton drops any HD gained from class levels and changes racial HD to d8s. Creatures without racial HD are treated as if they have 1 racial HD. If the creature has more than 20 Hit Dice, it can't be made into a skeleton by the _ [animate dead](../spells/animateDead#_animate-dead) _spell. A skeleton uses its Cha modifier (instead of its Con modifier) to determine bonus hit points.
 
 **Saves** : Base save bonuses are Fort +1/3 HD, Ref +1/3 HD, and Will +1/2 HD + 2.
 
@@ -88,7 +88,7 @@ Skeletons are the animated bones of the dead, brought to unlife through foul mag
 
 **Speed** : A winged skeleton can't use its wings to fly. If the base creature flew magically, so can the skeleton. All other movement types are retained.
 
-**Attacks** : A skeleton retains all the natural weapons, manufactured weapon attacks, and weapon proficiencies of the base creature, except for attacks that can't work without flesh. A creature with hands gains one claw attack per hand; the skeleton can strike with each of its claw attacks at its full attack bonus. A claw attack deals damage depending on the skeleton's size (see [Natural Attacks](universalMonsterRules.md#_natural-attacks)). If the base creature already had claw attacks with its hands, use the skeleton claw damage only if it's better.
+**Attacks** : A skeleton retains all the natural weapons, manufactured weapon attacks, and weapon proficiencies of the base creature, except for attacks that can't work without flesh. A creature with hands gains one claw attack per hand; the skeleton can strike with each of its claw attacks at its full attack bonus. A claw attack deals damage depending on the skeleton's size (see [Natural Attacks](universalMonsterRules#_natural-attacks)). If the base creature already had claw attacks with its hands, use the skeleton claw damage only if it's better.
 
 **Special Attacks** : A skeleton retains none of the base creature's special attacks.
 
@@ -98,7 +98,7 @@ Skeletons are the animated bones of the dead, brought to unlife through foul mag
 
 **Skills** : A skeleton loses all skill ranks possessed by the base creature and gains none of its own.
 
-**Feats** : A skeleton loses all feats possessed by the base creature and gains [Improved Initiative](../feats.md#_improved-initiative) as a bonus feat.
+**Feats** : A skeleton loses all feats possessed by the base creature and gains [Improved Initiative](../feats#_improved-initiative) as a bonus feat.
 
 **Special Qualities** : A skeleton loses most special qualities of the base creature. It retains any extraordinary special qualities that improve its melee or ranged attacks.
 
@@ -110,9 +110,9 @@ Skeletons are the animated bones of the dead, brought to unlife through foul mag
 
 # Variant Skeletons
 
-Numerous variant skeletons exist, such as those whose bones burn with an unending fire and those who drip with gore and reassemble themselves over time. Both of these variant skeletons can be created using _ [animate dead](../spells/animateDead.md#_animate-dead)_, but they count as twice their normal number of Hit Dice per casting. Once controlled, they count normally against the controller's limit.
+Numerous variant skeletons exist, such as those whose bones burn with an unending fire and those who drip with gore and reassemble themselves over time. Both of these variant skeletons can be created using _ [animate dead](../spells/animateDead#_animate-dead)_, but they count as twice their normal number of Hit Dice per casting. Once controlled, they count normally against the controller's limit.
 
-Perhaps the most dangerous variant skeleton, though, is the skeletal champion. This skeleton retains its intellect, and often any class levels it possessed in life. A skeletal champion cannot be created with _ [animate dead](../spells/animateDead.md#_animate-dead)_—these potent undead only arise under rare conditions similar to those that cause the manifestation of ghosts or via rare and highly evil rituals.
+Perhaps the most dangerous variant skeleton, though, is the skeletal champion. This skeleton retains its intellect, and often any class levels it possessed in life. A skeletal champion cannot be created with _ [animate dead](../spells/animateDead#_animate-dead)_—these potent undead only arise under rare conditions similar to those that cause the manifestation of ghosts or via rare and highly evil rituals.
 
 Each of the following skeleton types modifies the base skeleton in a few key ways. Except as noted, these variations can be stacked with one another—it's possible to have a bloody burning skeletal champion.
 
@@ -130,7 +130,7 @@ A bloody skeleton is coated in a slick layer of blood and gore infused with nega
 
 **Special Qualities** : A bloody skeleton gains the deathless special quality.
 
-_Deathless (Su)_: A bloody skeleton is destroyed when reduced to 0 hit points, but it returns to unlife 1 hour later at 1 hit point, allowing its fast healing thereafter to resume healing it. A bloody skeleton can be permanently destroyed if it is destroyed by positive energy, if it is reduced to 0 hit points in the area of a _ [bless](../spells/bless.md#_bless) _or _ [hallow](../spells/hallow.md#_hallow)_ spell, or if its remains are sprinkled with a vial of holy water.
+_Deathless (Su)_: A bloody skeleton is destroyed when reduced to 0 hit points, but it returns to unlife 1 hour later at 1 hit point, allowing its fast healing thereafter to resume healing it. A bloody skeleton can be permanently destroyed if it is destroyed by positive energy, if it is reduced to 0 hit points in the area of a _ [bless](../spells/bless#_bless) _or _ [hallow](../spells/hallow#_hallow)_ spell, or if its remains are sprinkled with a vial of holy water.
 
 ## Burning Skeleton
 

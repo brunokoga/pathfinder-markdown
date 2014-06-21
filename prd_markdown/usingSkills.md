@@ -4,24 +4,24 @@ Skills represent some of the most basic and yet most fundamental abilities your 
 
 # Acquiring Skills
 
-Each level, your character gains a number of skill ranks dependent upon your class plus your [Intelligence](gettingStarted.md#_intelligence) modifier. Investing a rank in a skill represents a measure of training in that skill. You can never have more ranks in a skill than your total number of Hit Dice. In addition, each class has a number of favored skills, called class skills. It is easier for your character to become more proficient in these skills, as they represent part of his professional training and constant practice. You gain a +3 bonus on all class skills that you put ranks into. If you have more than one class and both grant you a class skill bonus, these bonuses do not stack.
+Each level, your character gains a number of skill ranks dependent upon your class plus your [Intelligence](gettingStarted#_intelligence) modifier. Investing a rank in a skill represents a measure of training in that skill. You can never have more ranks in a skill than your total number of Hit Dice. In addition, each class has a number of favored skills, called class skills. It is easier for your character to become more proficient in these skills, as they represent part of his professional training and constant practice. You gain a +3 bonus on all class skills that you put ranks into. If you have more than one class and both grant you a class skill bonus, these bonuses do not stack.
 
 [Table: Skill Ranks]
 | Class | Skill Ranks per Level |
 | --- | --- |
-| Barbarian | 4 + [Int](gettingStarted.md#_intelligence) modifier |
-| Bard | 6 + [Int](gettingStarted.md#_intelligence) modifier |
-| Cleric | 2 + [Int](gettingStarted.md#_intelligence) modifier |
-| Druid | 4 + [Int](gettingStarted.md#_intelligence) modifier |
-| Fighter | 2 + [Int](gettingStarted.md#_intelligence) modifier |
-| Monk | 4 + [Int](gettingStarted.md#_intelligence) modifier |
-| Paladin | 2 + [Int](gettingStarted.md#_intelligence) modifier |
-| Ranger | 6 + [Int](gettingStarted.md#_intelligence) modifier |
-| Rogue | 8 + [Int](gettingStarted.md#_intelligence) modifier |
-| Sorcerer | 2 + [Int](gettingStarted.md#_intelligence) modifier |
-| Wizard | 2 + [Int](gettingStarted.md#_intelligence) modifier |
+| Barbarian | 4 + [Int](gettingStarted#_intelligence) modifier |
+| Bard | 6 + [Int](gettingStarted#_intelligence) modifier |
+| Cleric | 2 + [Int](gettingStarted#_intelligence) modifier |
+| Druid | 4 + [Int](gettingStarted#_intelligence) modifier |
+| Fighter | 2 + [Int](gettingStarted#_intelligence) modifier |
+| Monk | 4 + [Int](gettingStarted#_intelligence) modifier |
+| Paladin | 2 + [Int](gettingStarted#_intelligence) modifier |
+| Ranger | 6 + [Int](gettingStarted#_intelligence) modifier |
+| Rogue | 8 + [Int](gettingStarted#_intelligence) modifier |
+| Sorcerer | 2 + [Int](gettingStarted#_intelligence) modifier |
+| Wizard | 2 + [Int](gettingStarted#_intelligence) modifier |
 
-The number of skill ranks you gain when taking a level in one of the base classes is shown on Table: Skill Ranks. Humans gain 1 additional skill rank per class level. Characters who take a level in a [favored class](classes.md#_favored-class) have the option of gaining 1 additional skill rank or an additional hit point . If you select a level in a new class, all of its class skills are automatically added to your list of class skills, and you gain a +3 bonus on these skills if you have ranks in them.
+The number of skill ranks you gain when taking a level in one of the base classes is shown on Table: Skill Ranks. Humans gain 1 additional skill rank per class level. Characters who take a level in a [favored class](classes#_favored-class) have the option of gaining 1 additional skill rank or an additional hit point . If you select a level in a new class, all of its class skills are automatically added to your list of class skills, and you gain a +3 bonus on these skills if you have ranks in them.
 
 ## Skill Checks
 

@@ -14,5 +14,5 @@ Conjure Black Pudding
 
 **Saving Throw** none; **Spell Resistance** no
 
-You summon a [black pudding](monsters/blackPudding.md#_black-pudding) that immediately attacks creatures near it. You have no control over the creature, and it may attack you if there are no more obvious opponents. The black pudding is treated as a summoned creature and has the extraplanar subtype. The black pudding's split ability works normally, but all puddings derived from the summoned one disappear when the spell ends.
+You summon a [black pudding](monsters/blackPudding#_black-pudding) that immediately attacks creatures near it. You have no control over the creature, and it may attack you if there are no more obvious opponents. The black pudding is treated as a summoned creature and has the extraplanar subtype. The black pudding's split ability works normally, but all puddings derived from the summoned one disappear when the spell ends.
 

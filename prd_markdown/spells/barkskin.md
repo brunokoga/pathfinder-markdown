@@ -12,7 +12,7 @@
 
 **Duration** 10 min./level
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless)
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** yes (harmless)
 
 _Barkskin _toughens a creature's skin. The effect grants a +2 enhancement bonus to the creature's existing natural armor bonus. This enhancement bonus increases by 1 for every three caster levels above 3rd, to a maximum of +5 at 12th level.
 

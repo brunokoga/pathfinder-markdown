@@ -2,7 +2,7 @@
 
 **School** necromancy; **Level** cleric 3
 
-This spell functions like _ [inflict light wounds](inflictLightWounds.md#_inflict-light-wounds)_, except that you deal 3d8 points of damage + 1 point per caster level (maximum +15).
+This spell functions like _ [inflict light wounds](inflictLightWounds#_inflict-light-wounds)_, except that you deal 3d8 points of damage + 1 point per caster level (maximum +15).
 
 **Inflict Serious Wounds, Mass**
 

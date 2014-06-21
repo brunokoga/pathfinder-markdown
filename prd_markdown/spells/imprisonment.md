@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Will](../combat.md#_will) negates; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) negates; see text; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-When you cast _imprisonment _and touch a creature, it is entombed in a state of suspended animation (see the _ [temporal stasis](temporalStasis.md#_temporal-stasis) _spell) in a small sphere far beneath the surface of the ground. The subject remains there unless a _freedom _spell is cast at the locale where the imprisonment took place. Magical search by a _crystal ball, _a _ [locate object](locateObject.md#_locate-object) _spell, or some other similar divination does not reveal the fact that a creature is imprisoned, but _ [discern location](discernLocation.md#_discern-location) _does. A _ [wish](wish.md#_wish) _or _ [miracle](miracle.md#_miracle) _spell will not free the recipient, but will reveal where it is entombed. If you know the target's name and some facts about its life, the target takes a –4 penalty on its save.
+When you cast _imprisonment _and touch a creature, it is entombed in a state of suspended animation (see the _ [temporal stasis](temporalStasis#_temporal-stasis) _spell) in a small sphere far beneath the surface of the ground. The subject remains there unless a _freedom _spell is cast at the locale where the imprisonment took place. Magical search by a _crystal ball, _a _ [locate object](locateObject#_locate-object) _spell, or some other similar divination does not reveal the fact that a creature is imprisoned, but _ [discern location](discernLocation#_discern-location) _does. A _ [wish](wish#_wish) _or _ [miracle](miracle#_miracle) _spell will not free the recipient, but will reveal where it is entombed. If you know the target's name and some facts about its life, the target takes a –4 penalty on its save.
 

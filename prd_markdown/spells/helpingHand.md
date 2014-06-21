@@ -12,7 +12,7 @@
 
 **Duration** 1 hour/level
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** no
 
 You create the ghostly image of a hand, which you can send to find a creature within 5 miles. The hand then beckons to that creature and leads it to you if the creature is willing to follow.
 
@@ -36,5 +36,5 @@ If more than one subject in a 5-mile radius meets the description, the hand loca
 
 If, at the end of 4 hours of searching, the hand has found no subject that matches the description within 5 miles, it returns to you, displays an outstretched palm (indicating that no such creature was found), and disappears.
 
-The ghostly hand has no physical form. It is [invisible](../glossary.md#_invisible) to anyone except you and a potential subject. It cannot engage in combat or execute any other task aside from locating a subject and leading it back to you. The hand can't pass through solid objects but can ooze through small cracks and slits. The hand cannot travel more than 5 miles from the spot it appeared when you cast the spell.
+The ghostly hand has no physical form. It is [invisible](../glossary#_invisible) to anyone except you and a potential subject. It cannot engage in combat or execute any other task aside from locating a subject and leading it back to you. The hand can't pass through solid objects but can ooze through small cracks and slits. The hand cannot travel more than 5 miles from the spot it appeared when you cast the spell.
 

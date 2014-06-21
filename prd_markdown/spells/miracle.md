@@ -12,7 +12,7 @@
 
 **Duration** see text
 
-**Saving Throw** see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** see text; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
 You don't so much cast a _miracle _as request one. You state what you would like to have happen and request that your deity (or the power you pray to for spells) intercede.
 
@@ -20,7 +20,7 @@ A _miracle _can do any of the following things.
 
 - Duplicate any cleric spell of 8th level or lower. 
 - Duplicate any other spell of 7th level or lower.
-- Undo the harmful effects of certain spells, such as _ [feeblemind](feeblemind.md#_feeblemind) _or _ [insanity](insanity.md#_insanity)_.
+- Undo the harmful effects of certain spells, such as _ [feeblemind](feeblemind#_feeblemind) _or _ [insanity](insanity#_insanity)_.
 - Have any effect whose power level is in line with the above effects.
 
 Alternatively, a cleric can make a very powerful request. Casting such a _miracle _costs the cleric 25,000 gp in powdered diamond because of the powerful divine energies involved. Examples of especially powerful _miracles _of this sort could include the following:
@@ -31,5 +31,5 @@ Alternatively, a cleric can make a very powerful request. Casting such a _miracl
 
 In any event, a request that is out of line with the deity's (or alignment's) nature is refused.
 
-A duplicated spell allows saving throws and [spell resistance](../glossary.md#_spell-resistance) as normal, but the save DCs are as for a 9th-level spell. When a _miracle _spell duplicates a spell with a material component that costs more than 100 gp, you must provide that component.
+A duplicated spell allows saving throws and [spell resistance](../glossary#_spell-resistance) as normal, but the save DCs are as for a 9th-level spell. When a _miracle _spell duplicates a spell with a material component that costs more than 100 gp, you must provide that component.
 

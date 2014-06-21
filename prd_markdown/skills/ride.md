@@ -1,6 +1,6 @@
 # Ride
 
-## ( [Dex](../gettingStarted.md#_dexterity); Armor Check Penalty)
+## ( [Dex](../gettingStarted#_dexterity); Armor Check Penalty)
 
 You are skilled at riding mounts, usually a horse, but possibly something more exotic, like a griffon or pegasus. If you attempt to ride a creature that is ill suited as a mount, you take a –5 penalty on your Ride checks.
 
@@ -30,7 +30,7 @@ _Soft Fall_: You negate damage when you fall off a mount. If you fail the Ride c
 
 _Leap_: You can get your mount to leap obstacles as part of its movement. If the Ride check to make the leap succeeds, make a check using your Ride modifier or the mount's jump modifier, which is lower, to see how far the creature can jump. If you fail your Ride check, you fall off the mount when it leaps and take the appropriate falling damage (at least 1d6 points). This usage does not take an action but is part of the mount's movement.
 
-_Spur Mount_: You can spur your mount to greater speed with a move action. A successful Ride check increases the mount's speed by 10 feet for 1 round but deals 1d3 points of damage to the creature. You can use this ability every round, but the mount becomes fatigued after a number of rounds equal to its [Constitution](../gettingStarted.md#_constitution) score. This ability cannot be used on a fatigued mount.
+_Spur Mount_: You can spur your mount to greater speed with a move action. A successful Ride check increases the mount's speed by 10 feet for 1 round but deals 1d3 points of damage to the creature. You can use this ability every round, but the mount becomes fatigued after a number of rounds equal to its [Constitution](../gettingStarted#_constitution) score. This ability cannot be used on a fatigued mount.
 
 _Control Mount in Battle_: As a move action, you can attempt to control a light horse, pony, heavy horse, or other mount not trained for combat riding while in battle. If you fail the Ride check, you can do nothing else in that round. You do not need to roll for horses or ponies trained for combat.
 
@@ -40,9 +40,9 @@ _Fast Mount or Dismount_: You can attempt to mount or dismount from a mount of u
 
 **Special** : If you are riding bareback, you take a –5 penalty on Ride checks.
 
-If you have the [Animal Affinity](../feats.md#_animal-affinity) feat, you get a bonus on Ride checks (see [Feats](../feats.md)).
+If you have the [Animal Affinity](../feats#_animal-affinity) feat, you get a bonus on Ride checks (see [Feats](../feats)).
 
 If you use a military saddle you get a +2 circumstance bonus on Ride checks related to staying in the saddle.
 
-Ride is a prerequisite for [Mounted Archery](../feats.md#_mounted-archery), [Mounted Combat](../feats.md#_mounted-combat), [Ride-By Attack](../feats.md#_ride-by-attack), [Spirited Charge](../feats.md#_spirited-charge), and [Trample](../feats.md#_trample).
+Ride is a prerequisite for [Mounted Archery](../feats#_mounted-archery), [Mounted Combat](../feats#_mounted-combat), [Ride-By Attack](../feats#_ride-by-attack), [Spirited Charge](../feats#_spirited-charge), and [Trample](../feats#_trample).
 

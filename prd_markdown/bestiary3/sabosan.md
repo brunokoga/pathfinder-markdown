@@ -8,7 +8,7 @@ XP 1,600
 
 NE Medium monstrous humanoid
 
-**Init** +8; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 60 ft., darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +14
+**Init** +8; **Senses** [blindsense](monsters/universalMonsterRules#_blindsense) 60 ft., darkvision 60 ft., [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +14
 
 Defense
 
@@ -22,9 +22,9 @@ Offense
 
 **Speed** 30 ft., fly 40 ft. (good)
 
-**Melee** bite +10 (1d6+3 plus [bleed](monsters/universalMonsterRules.md#_bleed)), 2 claws +10 (1d6+3 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** bite +10 (1d6+3 plus [bleed](monsters/universalMonsterRules#_bleed)), 2 claws +10 (1d6+3 plus [grab](monsters/universalMonsterRules#_grab))
 
-**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d4), [blood drain](monsters/universalMonsterRules.md#_blood-drain) (1 Constitution), dust cloud, fell shriek, [powerful charge](monsters/universalMonsterRules.md#_powerful-charge) (claw, 2d6+6)
+**Special Attacks** [bleed](monsters/universalMonsterRules#_bleed) (1d4), [blood drain](monsters/universalMonsterRules#_blood-drain) (1 Constitution), dust cloud, fell shriek, [powerful charge](monsters/universalMonsterRules#_powerful-charge) (claw, 2d6+6)
 
 Statistics
 
@@ -32,9 +32,9 @@ Statistics
 
 **Base Atk** +7; **CMB** +10; **CMD** 24
 
-**Feats** [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Hover](monsters/monsterFeats.md#_hover)B, [Improved Initiative](feats.md#_improved-initiative), [Power Attack](feats.md#_power-attack), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
+**Feats** [Flyby Attack](monsters/monsterFeats#_flyby-attack), [Hover](monsters/monsterFeats#_hover)B, [Improved Initiative](feats#_improved-initiative), [Power Attack](feats#_power-attack), [Skill Focus](feats#_skill-focus) ( [Perception](skills/perception#_perception))
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +14, [Fly](skills/fly.md#_fly) +8, [Perception](skills/perception.md#_perception) +14, [Stealth](skills/stealth.md#_stealth) +14
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +14, [Fly](skills/fly#_fly) +8, [Perception](skills/perception#_perception) +14, [Stealth](skills/stealth#_stealth) +14
 
 **Languages** Abyssal
 
@@ -48,7 +48,7 @@ Ecology
 
 Special Abilities
 
-**Dust Cloud (Ex)** A sabosan gains [Hover](monsters/monsterFeats.md#_hover) as a bonus feat, and can use this feat to create a dust cloud even though it is not Large. The resulting dust cloud has only a 30-foot radius.
+**Dust Cloud (Ex)** A sabosan gains [Hover](monsters/monsterFeats#_hover) as a bonus feat, and can use this feat to create a dust cloud even though it is not Large. The resulting dust cloud has only a 30-foot radius.
 
 **Fell Shriek (Su)** As a standard action, a sabosan can emit a deafening cry in a 30-foot cone. Creatures in this area must make a successful DC 15 Fortitude save or be deafened for 1 minute. Sabosan are immune to this ability. The save DC is Constitution-based.
 

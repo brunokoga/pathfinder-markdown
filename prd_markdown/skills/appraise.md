@@ -1,6 +1,6 @@
 # Appraise
 
-## ( [Int](../gettingStarted.md#_intelligence))
+## ( [Int](../gettingStarted#_intelligence))
 
 You can evaluate the monetary value of an object.
 

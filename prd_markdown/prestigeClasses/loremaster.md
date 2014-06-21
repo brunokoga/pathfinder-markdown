@@ -14,17 +14,17 @@ The loremaster class holds little appeal for non-spellcasters—indeed, before o
 
 To qualify to become a loremaster, a character must fulfill all the following criteria.
 
-**Skills** : [Knowledge](../skills/knowledge.md#_knowledge) (any two) 7 ranks in each.
+**Skills** : [Knowledge](../skills/knowledge#_knowledge) (any two) 7 ranks in each.
 
-**Feats** : Any three [metamagic](../feats.md#_metamagic-feats) or [item creation feats](../feats.md#_item-creation-feats), plus [Skill Focus](../feats.md#_skill-focus) ( [Knowledge](../skills/knowledge.md#_knowledge) [any individual [Knowledge](../skills/knowledge.md#_knowledge) skill]).
+**Feats** : Any three [metamagic](../feats#_metamagic-feats) or [item creation feats](../feats#_item-creation-feats), plus [Skill Focus](../feats#_skill-focus) ( [Knowledge](../skills/knowledge#_knowledge) [any individual [Knowledge](../skills/knowledge#_knowledge) skill]).
 
 **Spells** : Able to cast seven different divination spells, one of which must be 3rd level or higher.
 
 ## Class Skills
 
-The loremaster's class skills (and the key ability for each skill) are [Appraise](../skills/appraise.md#_appraise) ( [Int](../gettingStarted.md#_intelligence)), [Diplomacy](../skills/diplomacy.md#_diplomacy) ( [Cha](../gettingStarted.md#_charisma-new)), [Handle Animals](../skills/handleAnimal.md#_handle-animal) ( [Cha](../gettingStarted.md#_charisma-new)), [Heal](../skills/heal.md#_heal) ( [Wis](../gettingStarted.md#_wisdom)), [Knowledge](../skills/knowledge.md#_knowledge) (all skills taken individually) ( [Int](../gettingStarted.md#_intelligence)), [Linguistics](../skills/linguistics.md#_linguistics) ( [Int](../gettingStarted.md#_intelligence)), [Perform](../skills/perform.md#_perform) ( [Cha](../gettingStarted.md#_charisma-new)), [Spellcraft](../skills/spellcraft.md#_spellcraft) ( [Int](../gettingStarted.md#_intelligence)), and [Use Magic Device](../skills/useMagicDevice.md#_use-magic-device) ( [Cha](../gettingStarted.md#_charisma-new)).
+The loremaster's class skills (and the key ability for each skill) are [Appraise](../skills/appraise#_appraise) ( [Int](../gettingStarted#_intelligence)), [Diplomacy](../skills/diplomacy#_diplomacy) ( [Cha](../gettingStarted#_charisma-new)), [Handle Animals](../skills/handleAnimal#_handle-animal) ( [Cha](../gettingStarted#_charisma-new)), [Heal](../skills/heal#_heal) ( [Wis](../gettingStarted#_wisdom)), [Knowledge](../skills/knowledge#_knowledge) (all skills taken individually) ( [Int](../gettingStarted#_intelligence)), [Linguistics](../skills/linguistics#_linguistics) ( [Int](../gettingStarted#_intelligence)), [Perform](../skills/perform#_perform) ( [Cha](../gettingStarted#_charisma-new)), [Spellcraft](../skills/spellcraft#_spellcraft) ( [Int](../gettingStarted#_intelligence)), and [Use Magic Device](../skills/useMagicDevice#_use-magic-device) ( [Cha](../gettingStarted#_charisma-new)).
 
-**Skill Ranks at Each Level** : 4 + [Int](../gettingStarted.md#_intelligence) modifier.
+**Skill Ranks at Each Level** : 4 + [Int](../gettingStarted#_intelligence) modifier.
 
 [Table: Loremaster]
 | Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special | Spells per Day |
@@ -48,27 +48,27 @@ All of the following are Class Features of the loremaster prestige class.
 
 **Spells per Day/Spells Known** : When a new loremaster level is gained, the character gains new spells per day as if he had also gained a level in a spellcasting class he belonged to before adding the prestige class. He does not, however, gain other benefits a character of that class would have gained, except for additional spells per day, spells known (if he is a spontaneous spellcaster), and an increased effective level of spellcasting. If a character had more than one spellcasting class before becoming a loremaster, he must decide to which class he adds the new level for purposes of determining spells per day.
 
-**Secret** : At 1st level and every two levels higher than 1st (3rd, 5th, 7th, and 9th), the loremaster chooses one secret from the Loremaster Secrets table. His level plus [Intelligence](../gettingStarted.md#_intelligence) modifier determines which secrets he can choose. He can't choose the same secret twice.
+**Secret** : At 1st level and every two levels higher than 1st (3rd, 5th, 7th, and 9th), the loremaster chooses one secret from the Loremaster Secrets table. His level plus [Intelligence](../gettingStarted#_intelligence) modifier determines which secrets he can choose. He can't choose the same secret twice.
 
 [Loremaster Secrets]
 | Level + Int Modifier | Secret | Effect |
 | --- | --- | --- |
 | 1 | Instant mastery | 4 ranks of a skill in which the character has no ranks |
-| 2 | Secret health | [Toughness](../feats.md#_toughness) bonus feat |
+| 2 | Secret health | [Toughness](../feats#_toughness) bonus feat |
 | 3 | Secrets of inner strength | +2 bonus on Will saves |
 | 4 | The lore of true stamina | +2 bonus on Fortitude saves |
 | 5 | Secret knowledge of avoidance | +2 bonus on Reflex saves |
 | 6 | Weapon trick | +1 bonus on attack rolls |
 | 7 | Dodge trick | +1 dodge bonus to AC |
-| 8 | Applicable knowledge | Any one [feat](../feats.md#_feat-descriptions) |
+| 8 | Applicable knowledge | Any one [feat](../feats#_feat-descriptions) |
 | 9 | Newfound arcana | 1 bonus 1st-level spell\* |
 | 10 | More newfound arcana | 1 bonus 2nd-level spell\* |
 
-**Lore** : At 2nd level, a loremaster adds half his level to all [Knowledge](../skills/knowledge.md#_knowledge) skill checks and may make such checks untrained. The bonuses gained from this ability stack with those gained from [Bardic Knowledge](../classes/bard.md#_bardic-knowledge).
+**Lore** : At 2nd level, a loremaster adds half his level to all [Knowledge](../skills/knowledge#_knowledge) skill checks and may make such checks untrained. The bonuses gained from this ability stack with those gained from [Bardic Knowledge](../classes/bard#_bardic-knowledge).
 
 **Bonus Languages** : A loremaster can learn any new language at 4th and 8th level.
 
-**Greater Lore (Ex)** : At 6th level, a loremaster gains the ability to understand magic items. Whenever a loremaster examines a magic item to determine its properties, he gains a +10 circumstance bonus on his [Spellcraft](../skills/spellcraft.md#_spellcraft) skill check.
+**Greater Lore (Ex)** : At 6th level, a loremaster gains the ability to understand magic items. Whenever a loremaster examines a magic item to determine its properties, he gains a +10 circumstance bonus on his [Spellcraft](../skills/spellcraft#_spellcraft) skill check.
 
-**True Lore (Ex)** : At 10th level, a loremaster's knowledge becomes vast indeed. Once per day a loremaster can use his knowledge to gain the effect of a _ [legend lore](../spells/legendLore.md#_legend-lore) _spell or an _ [analyze dweomer](../spells/analyzeDweomer.md#_analyze-dweomer) _spell. If used to create a _ [legend lore](../spells/legendLore.md#_legend-lore)_ effect, this ability has a casting time of 1 minute, regardless of how much information is already known about the subject in question.
+**True Lore (Ex)** : At 10th level, a loremaster's knowledge becomes vast indeed. Once per day a loremaster can use his knowledge to gain the effect of a _ [legend lore](../spells/legendLore#_legend-lore) _spell or an _ [analyze dweomer](../spells/analyzeDweomer#_analyze-dweomer) _spell. If used to create a _ [legend lore](../spells/legendLore#_legend-lore)_ effect, this ability has a casting time of 1 minute, regardless of how much information is already known about the subject in question.
 

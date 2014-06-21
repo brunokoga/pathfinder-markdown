@@ -6,9 +6,9 @@ Mythic Hell Hound CR 4/MR 1
 
 XP 1,200
 
-LE Medium outsider ( [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [fire](monsters/creatureTypes.md#_fire-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype), [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
+LE Medium outsider ( [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [fire](monsters/creatureTypes#_fire-subtype), [lawful](monsters/creatureTypes#_lawful-subtype), [mythic](mythicAdventures/mythicMonsters#_mythic-subtype))
 
-**Init** +5; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +8
+**Init** +5; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +8
 
 Defense
 
@@ -18,9 +18,9 @@ Defense
 
 **Fort** +6, **Ref** +5, **Will** +1
 
-**DR** 5/epic; **Immune** [fire](monsters/creatureTypes.md#_fire-subtype)
+**DR** 5/epic; **Immune** [fire](monsters/creatureTypes#_fire-subtype)
 
-**Weaknesses** vulnerable to [cold](monsters/creatureTypes.md#_cold-subtype)
+**Weaknesses** vulnerable to [cold](monsters/creatureTypes#_cold-subtype)
 
 Offense
 
@@ -28,7 +28,7 @@ Offense
 
 **Melee** bite +9 (2d6+3 plus burn)
 
-**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (10-ft. cone, 2d6 fire plus clinging flames, Reflex DC 14 half, usable every 1d4 rounds), burn (1d6, DC 14), mythic power (1/day, surge +1d6)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules#_breath-weapon) (10-ft. cone, 2d6 fire plus clinging flames, Reflex DC 14 half, usable every 1d4 rounds), burn (1d6, DC 14), mythic power (1/day, surge +1d6)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +7; **CMD** 18 (22 vs. trip)
 
-**Feats** [Improved Initiative](feats.md#_improved-initiative), [Run](feats.md#_run), [Weapon Focus](feats.md#_weapon-focus) (bite)M
+**Feats** [Improved Initiative](feats#_improved-initiative), [Run](feats#_run), [Weapon Focus](feats#_weapon-focus) (bite)M
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +9 (+13 when jumping), [Perception](skills/perception.md#_perception) +8, [Stealth](skills/stealth.md#_stealth) +14, [Survival](skills/survival.md#_survival) +8; **Racial Modifiers** +5 [Stealth](skills/stealth.md#_stealth)
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +9 (+13 when jumping), [Perception](skills/perception#_perception) +8, [Stealth](skills/stealth#_stealth) +14, [Survival](skills/survival#_survival) +8; **Racial Modifiers** +5 [Stealth](skills/stealth#_stealth)
 
 **Languages** Infernal (can't speak)
 
@@ -58,9 +58,9 @@ Mythic Nessian Warhound CR 11/MR 4
 
 XP 12,800
 
-LE Large outsider ( [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [fire](monsters/creatureTypes.md#_fire-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype), [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
+LE Large outsider ( [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [fire](monsters/creatureTypes#_fire-subtype), [lawful](monsters/creatureTypes#_lawful-subtype), [mythic](mythicAdventures/mythicMonsters#_mythic-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent), [see in darkness](monsters/universalMonsterRules.md#_see-in-darkness); [Perception](skills/perception.md#_perception) +14
+**Init** +6; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules#_scent), [see in darkness](monsters/universalMonsterRules#_see-in-darkness); [Perception](skills/perception#_perception) +14
 
 Defense
 
@@ -70,9 +70,9 @@ Defense
 
 **Fort** +13, **Ref** +10, **Will** +6
 
-**DR** 10/epic; **Immune** [fire](monsters/creatureTypes.md#_fire-subtype)
+**DR** 10/epic; **Immune** [fire](monsters/creatureTypes#_fire-subtype)
 
-**Weaknesses** vulnerable to [cold](monsters/creatureTypes.md#_cold-subtype)
+**Weaknesses** vulnerable to [cold](monsters/creatureTypes#_cold-subtype)
 
 Offense
 
@@ -82,11 +82,11 @@ Offense
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) (30-ft. cone, 10d6 fire plus clinging flames, Reflex DC 21 half, usable every 1d4 rounds), burn (1d6, DC 21), mythic power (4/day, surge +1d8)
+**Special Attacks** [breath weapon](monsters/universalMonsterRules#_breath-weapon) (30-ft. cone, 10d6 fire plus clinging flames, Reflex DC 21 half, usable every 1d4 rounds), burn (1d6, DC 21), mythic power (4/day, surge +1d8)
 
 **Spell-Like Abilities** (CL 12th; concentration +10)
 
-3/day—_ [dimension door](spells/dimensionDoor.md#_dimension-door), [locate creature](spells/locateCreature.md#_locate-creature)_
+3/day—_ [dimension door](spells/dimensionDoor#_dimension-door), [locate creature](spells/locateCreature#_locate-creature)_
 
 Statistics
 
@@ -94,9 +94,9 @@ Statistics
 
 **Base Atk** +12; **CMB** +22; **CMD** 34 (38 vs. trip)
 
-**Feats** [Alertness](feats.md#_alertness), [Improved Critical](mythicAdventures/mythicFeats.md#_improved-critical-mythic) (bite)M, [Improved Initiative](feats.md#_improved-initiative), [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth)), [Skill Focus](feats.md#_skill-focus) ( [Survival](skills/survival.md#_survival)), [Weapon Focus](feats.md#_weapon-focus) (bite)M
+**Feats** [Alertness](feats#_alertness), [Improved Critical](mythicAdventures/mythicFeats#_improved-critical-mythic) (bite)M, [Improved Initiative](feats#_improved-initiative), [Skill Focus](feats#_skill-focus) ( [Stealth](skills/stealth#_stealth)), [Skill Focus](feats#_skill-focus) ( [Survival](skills/survival#_survival)), [Weapon Focus](feats#_weapon-focus) (bite)M
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +15 (+19 when jumping), [Perception](skills/perception.md#_perception) +14, [Sense Motive](skills/senseMotive.md#_sense-motive) +4, [Stealth](skills/stealth.md#_stealth) +17, [Survival](skills/survival.md#_survival) +17; **Racial Modifiers** +5 [Stealth](skills/stealth.md#_stealth)
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +15 (+19 when jumping), [Perception](skills/perception#_perception) +14, [Sense Motive](skills/senseMotive#_sense-motive) +4, [Stealth](skills/stealth#_stealth) +17, [Survival](skills/survival#_survival) +17; **Racial Modifiers** +5 [Stealth](skills/stealth#_stealth)
 
 **Languages** Infernal
 

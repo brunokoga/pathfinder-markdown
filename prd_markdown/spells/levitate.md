@@ -12,7 +12,7 @@
 
 **Duration** 1 min./level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** no
 
 _Levitate _allows you to move yourself, another creature, or an object up and down as you wish. A creature must be willing to be levitated_, _and an object must be unattended or possessed by a willing creature. You can mentally direct the recipient to move up or down as much as 20 feet each round; doing so is a move action. You cannot move the recipient horizontally, but the recipient could clamber along the face of a cliff, for example, or push against a ceiling to move laterally (generally at half its base land speed).
 

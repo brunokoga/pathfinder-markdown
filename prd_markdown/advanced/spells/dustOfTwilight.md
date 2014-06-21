@@ -14,5 +14,5 @@
 
 **Saving Throw** Fortitude negates (fatigue only); **Spell Resistance** no
 
-A shower of iridescent black particles clings to and extinguishes torches, lanterns, sunrods, and similar mundane light sources and dispels any spell of 2nd level or lower with the light descriptor (as _ [dispel magic](../../spells/dispelMagic.md#_dispel-magic)_). Creatures in the area must make a Fortitude save or become fatigued.
+A shower of iridescent black particles clings to and extinguishes torches, lanterns, sunrods, and similar mundane light sources and dispels any spell of 2nd level or lower with the light descriptor (as _ [dispel magic](../../spells/dispelMagic#_dispel-magic)_). Creatures in the area must make a Fortitude save or become fatigued.
 

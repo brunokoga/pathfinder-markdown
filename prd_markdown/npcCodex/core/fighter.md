@@ -36,13 +36,13 @@ Statistics
 
 **Base Atk** +1; **CMB** +4; **CMD** 16
 
-**Feats** [Iron Will](feats.md#_iron-will), [Power Attack](feats.md#_power-attack), [Toughness](feats.md#_toughness)
+**Feats** [Iron Will](feats#_iron-will), [Power Attack](feats#_power-attack), [Toughness](feats#_toughness)
 
-**Skills** [Heal](skills/heal.md#_heal) +2, Perception +2, [Survival](skills/survival.md#_survival) +5
+**Skills** [Heal](skills/heal#_heal) +2, Perception +2, [Survival](skills/survival#_survival) +5
 
 **Languages** Common
 
-**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, alchemist's fire, holy water, oil (2), healer's kit (2 uses remaining); **Other Gear** breastplate, heavy wooden shield, cold iron dagger, heavy crossbow with 20 bolts, longsword, bedroll, tindertwigs (2), whetstone, wooden holy symbol, 3 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_, alchemist's fire, holy water, oil (2), healer's kit (2 uses remaining); **Other Gear** breastplate, heavy wooden shield, cold iron dagger, heavy crossbow with 20 bolts, longsword, bedroll, tindertwigs (2), whetstone, wooden holy symbol, 3 gp
 
 Some mercenaries believe their survival has less to do with skill and more to do with their ability to gain the gods' favor.
 
@@ -94,9 +94,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +2; **CMD** 15
 
-**Feats** [Dodge](feats.md#_dodge), Mobility, [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Dodge](feats#_dodge), Mobility, [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +3 (–1 when jumping), [Intimidate](skills/intimidate.md#_intimidate) +4, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +2, Perception +2, [Stealth](skills/stealth.md#_stealth) +7
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +3 (–1 when jumping), [Intimidate](skills/intimidate#_intimidate) +4, [Knowledge](skills/knowledge#_knowledge) (nobility) +2, Perception +2, [Stealth](skills/stealth#_stealth) +7
 
 **Languages** Common, Gnome, Halfling, Sylvan
 
@@ -138,7 +138,7 @@ Offense
 
 Tactics
 
-**During Combat** The fighter opens with an [Intimidate](skills/intimidate.md#_intimidate) check to demoralize the nearest enemy, then wades in with his axe using Cleave when possible.
+**During Combat** The fighter opens with an [Intimidate](skills/intimidate#_intimidate) check to demoralize the nearest enemy, then wades in with his axe using Cleave when possible.
 
 Statistics
 
@@ -146,15 +146,15 @@ Statistics
 
 **Base Atk** +3; **CMB** +6; **CMD** 17
 
-**Feats** Cleave, [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Power Attack](feats.md#_power-attack)
+**Feats** Cleave, [Improved Initiative](feats#_improved-initiative), [Iron Will](feats#_iron-will), [Power Attack](feats#_power-attack)
 
-**Skills** [Climb](skills/climb.md#_climb) +5, [Intimidate](skills/intimidate.md#_intimidate) +9, [Survival](skills/survival.md#_survival) +3, [Swim](skills/swim.md#_swim) +5
+**Skills** [Climb](skills/climb#_climb) +5, [Intimidate](skills/intimidate#_intimidate) +9, [Survival](skills/survival#_survival) +3, [Swim](skills/swim#_swim) +5
 
 **Languages** Common, Orc
 
 **SQ** armor training 1, orc blood, weapon familiarity
 
-**Combat Gear** _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [enlarge person](spells/enlargePerson.md#_enlarge-person)_ (CL 3rd); **Other Gear** masterwork breastplate, javelins (4), masterwork greataxe, sap, sack, gold necklace (worth 100 gp), 124 gp
+**Combat Gear** _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_, _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _potion of [enlarge person](spells/enlargePerson#_enlarge-person)_ (CL 3rd); **Other Gear** masterwork breastplate, javelins (4), masterwork greataxe, sap, sack, gold necklace (worth 100 gp), 124 gp
 
 Brigands are hard as nails and always look out for themselves first.
 
@@ -192,7 +192,7 @@ Offense
 
 Tactics
 
-**During Combat** The fighter hurls daggers until her foes close with her. In melee, she fights defensively (and gains a +3 dodge bonus from her ranks in [Acrobatics](skills/acrobatics.md#_acrobatics)). She keeps her _ [feather token](magicItems/wondrousItems.md#_feather-token)_ in reserve for dangerous spellcasters or when battle turns against her.
+**During Combat** The fighter hurls daggers until her foes close with her. In melee, she fights defensively (and gains a +3 dodge bonus from her ranks in [Acrobatics](skills/acrobatics#_acrobatics)). She keeps her _ [feather token](magicItems/wondrousItems#_feather-token)_ in reserve for dangerous spellcasters or when battle turns against her.
 
 Statistics
 
@@ -200,15 +200,15 @@ Statistics
 
 **Base Atk** +4; **CMB** +4; **CMD** 18
 
-**Feats** [Deadly Aim](feats.md#_deadly-aim), [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Finesse](feats.md#_weapon-finesse), [Weapon Focus](feats.md#_weapon-focus) (dagger), Weapon Specialization (dagger)
+**Feats** [Deadly Aim](feats#_deadly-aim), [Two-Weapon Fighting](feats#_two-weapon-fighting), [Weapon Finesse](feats#_weapon-finesse), [Weapon Focus](feats#_weapon-focus) (dagger), Weapon Specialization (dagger)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +10 (+6 when jumping), [Bluff](skills/bluff.md#_bluff) +4, [Climb](skills/climb.md#_climb) +3, Perception +6, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +5, [Stealth](skills/stealth.md#_stealth) +11
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +10 (+6 when jumping), [Bluff](skills/bluff#_bluff) +4, [Climb](skills/climb#_climb) +3, Perception +6, [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand) +5, [Stealth](skills/stealth#_stealth) +11
 
 **Languages** Common, Goblin, Halfling
 
 **SQ** armor training 1
 
-**Combat Gear** _ [feather token](magicItems/wondrousItems.md#_feather-token) _(whip), flask of acid; **Other Gear** _+1 chain shirt_, daggers (6), masterwork daggers (2), 24 gp
+**Combat Gear** _ [feather token](magicItems/wondrousItems#_feather-token) _(whip), flask of acid; **Other Gear** _+1 chain shirt_, daggers (6), masterwork daggers (2), 24 gp
 
 Small, sly, and seemingly innocuous, evil halflings make perfect murderers.
 
@@ -248,11 +248,11 @@ Offense
 
 Tactics
 
-**Before Combat** The fighter drinks his _potion of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_ and finds a prime location for an ambush.
+**Before Combat** The fighter drinks his _potion of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_ and finds a prime location for an ambush.
 
 **During Combat** The fighter keeps his distance and fights at range, sending his dog to harry foes that approach.
 
-**Base Statistics** Without _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, the fighter's statistics are **hp** 37; **Fort** +5; **Con** +10.
+**Base Statistics** Without _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, the fighter's statistics are **hp** 37; **Fort** +5; **Con** +10.
 
 Statistics
 
@@ -260,15 +260,15 @@ Statistics
 
 **Base Atk** +5; **CMB** +7; **CMD** 21
 
-**Feats** [Deadly Aim](feats.md#_deadly-aim), [Point-Blank Shot](feats.md#_point-blank-shot), Precise Shot, Rapid Shot, [Weapon Focus](feats.md#_weapon-focus) (composite longbow), Weapon Specialization (composite longbow)
+**Feats** [Deadly Aim](feats#_deadly-aim), [Point-Blank Shot](feats#_point-blank-shot), Precise Shot, Rapid Shot, [Weapon Focus](feats#_weapon-focus) (composite longbow), Weapon Specialization (composite longbow)
 
-**Skills** [Climb](skills/climb.md#_climb) +5, [Craft](skills/craft.md#_craft) (bows) +8, [Handle Animal](skills/handleAnimal.md#_handle-animal) +8, Perception +6, [Stealth](skills/stealth.md#_stealth) +6, [Survival](skills/survival.md#_survival) +3, [Swim](skills/swim.md#_swim) +5
+**Skills** [Climb](skills/climb#_climb) +5, [Craft](skills/craft#_craft) (bows) +8, [Handle Animal](skills/handleAnimal#_handle-animal) +8, Perception +6, [Stealth](skills/stealth#_stealth) +6, [Survival](skills/survival#_survival) +3, [Swim](skills/swim#_swim) +5
 
 **Languages** Common, Elven, Gnome, Orc
 
 **SQ** armor training 1, elven magic, weapon familiarity
 
-**Combat Gear** _+1 arrows_ (5), _potion of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _potion of cure moderate wound_, alchemical silver arrows (5), cold iron arrows (5); **Other Gear** masterwork breastplate, masterwork composite longbow (+2 Str) with 35 arrows, masterwork elven curve blade, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, masterwork artisan's tools, riding dog, 67 gp
+**Combat Gear** _+1 arrows_ (5), _potion of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _potion of cure moderate wound_, alchemical silver arrows (5), cold iron arrows (5); **Other Gear** masterwork breastplate, masterwork composite longbow (+2 Str) with 35 arrows, masterwork elven curve blade, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, masterwork artisan's tools, riding dog, 67 gp
 
 Cautious archers are adept at hit-and-run tactics and ambushes.
 
@@ -316,15 +316,15 @@ Statistics
 
 **Base Atk** +6; **CMB** +9; **CMD** 18
 
-**Feats** Diehard, [Endurance](feats.md#_endurance), [Master Craftsman](feats.md#_master-craftsman), [Skill Focus](feats.md#_skill-focus) ( [Craft](skills/craft.md#_craft) [weapons]), [Throw Anything](feats.md#_throw-anything), [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (warhammer), Weapon Specialization (warhammer)
+**Feats** Diehard, [Endurance](feats#_endurance), [Master Craftsman](feats#_master-craftsman), [Skill Focus](feats#_skill-focus) ( [Craft](skills/craft#_craft) [weapons]), [Throw Anything](feats#_throw-anything), [Vital Strike](feats#_vital-strike), [Weapon Focus](feats#_weapon-focus) (warhammer), Weapon Specialization (warhammer)
 
-**Skills** [Appraise](skills/appraise.md#_appraise) +7, [Craft](skills/craft.md#_craft) (armor) +10, [Craft](skills/craft.md#_craft) (weapons) +17, Perception +3
+**Skills** [Appraise](skills/appraise#_appraise) +7, [Craft](skills/craft#_craft) (armor) +10, [Craft](skills/craft#_craft) (weapons) +17, Perception +3
 
 **Languages** Common, Dwarven, Elven
 
 **SQ** armor training 1, elf blood
 
-**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potions of [endure elements](spells/endureElements.md#_endure-elements)_ (2); **Other Gear** masterwork full plate, masterwork heavy steel shield, _+1 warhammer_, warhammers (2), masterwork artisan's tools, waterskin, 43 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _potions of [endure elements](spells/endureElements#_endure-elements)_ (2); **Other Gear** masterwork full plate, masterwork heavy steel shield, _+1 warhammer_, warhammers (2), masterwork artisan's tools, waterskin, 43 gp
 
 Smiths who craft weapons may also be skilled in their use.
 
@@ -364,11 +364,11 @@ Offense
 
 Tactics
 
-**Before Combat** The fighter drinks her _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_.
+**Before Combat** The fighter drinks her _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_.
 
-**During Combat** When fighting with a group, the fighter uses bull rush to grant attacks of opportunity to her allies. She uses the combination of [Step Up](feats.md#_step-up) and [Disruptive](feats.md#_disruptive) to interrupt spellcasting.
+**During Combat** When fighting with a group, the fighter uses bull rush to grant attacks of opportunity to her allies. She uses the combination of [Step Up](feats#_step-up) and [Disruptive](feats#_disruptive) to interrupt spellcasting.
 
-**Base Statistics** Without _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, the fighter's statistics are **Melee** mwk cold iron dwarven waraxe +12/+7 (1d10+6/×3); **Ranged** mwk throwing axe +11 (1d6+3); **Str** 15; **CMB** +9 (+13 bull rush); **CMD** 21 (27 vs. bull rush, 25 vs. trip); **Skills** [Climb](skills/climb.md#_climb) +8.
+**Base Statistics** Without _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, the fighter's statistics are **Melee** mwk cold iron dwarven waraxe +12/+7 (1d10+6/×3); **Ranged** mwk throwing axe +11 (1d6+3); **Str** 15; **CMB** +9 (+13 bull rush); **CMD** 21 (27 vs. bull rush, 25 vs. trip); **Skills** [Climb](skills/climb#_climb) +8.
 
 Statistics
 
@@ -376,15 +376,15 @@ Statistics
 
 **Base Atk** +7; **CMB** +12 (+16 bull rush); **CMD** 23 (29 vs. bull rush, 27 vs. trip)
 
-**Feats** [Blind-Fight](feats.md#_blind-fight), [Disruptive](feats.md#_disruptive), Greater Bull Rush, Improved Bull Rush, [Power Attack](feats.md#_power-attack), [Step Up](feats.md#_step-up), [Weapon Focus](feats.md#_weapon-focus) (dwarven waraxe), Weapon Specialization (dwarven waraxe)
+**Feats** [Blind-Fight](feats#_blind-fight), [Disruptive](feats#_disruptive), Greater Bull Rush, Improved Bull Rush, [Power Attack](feats#_power-attack), [Step Up](feats#_step-up), [Weapon Focus](feats#_weapon-focus) (dwarven waraxe), Weapon Specialization (dwarven waraxe)
 
-**Skills** [Climb](skills/climb.md#_climb) +10, [Intimidate](skills/intimidate.md#_intimidate) +8, Perception +5 (+7 to notice unusual stonework), [Survival](skills/survival.md#_survival) +10
+**Skills** [Climb](skills/climb#_climb) +10, [Intimidate](skills/intimidate#_intimidate) +8, Perception +5 (+7 to notice unusual stonework), [Survival](skills/survival#_survival) +10
 
 **Languages** Common, Dwarven
 
 **SQ** armor training 2
 
-**Combat Gear** _oil of [magic weapon](spells/magicWeapon.md#_magic-weapon)_ (2), _potion of [aid](spells/aid.md#_aid)_, _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _potions of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_ (2); **Other Gear** _+1 full plate_, masterwork cold iron dwarven waraxe, masterwork light crossbow with 20 bolts, masterwork throwing axe, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, 46 gp
+**Combat Gear** _oil of [magic weapon](spells/magicWeapon#_magic-weapon)_ (2), _potion of [aid](spells/aid#_aid)_, _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_, _potions of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_ (2); **Other Gear** _+1 full plate_, masterwork cold iron dwarven waraxe, masterwork light crossbow with 20 bolts, masterwork throwing axe, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, 46 gp
 
 Spell hunters specialize in locking down and then murdering enemy spellcasters.
 
@@ -414,7 +414,7 @@ Offense
 
 **Melee** mwk glaive +10/+5 (1d8/×3) or short sword +9/+4 (1d4/19–20)
 
-**Ranged** mwk light crossbow +13/+13/+8 (1d6+3/17–20) or mwk light crossbow with _+1 [frost](magicItems/weapons.md#_weapons-frost) bolts_ +13/+13/+8 (1d6+4+1d6 cold/17–20)
+**Ranged** mwk light crossbow +13/+13/+8 (1d6+3/17–20) or mwk light crossbow with _+1 [frost](magicItems/weapons#_weapons-frost) bolts_ +13/+13/+8 (1d6+4+1d6 cold/17–20)
 
 **Space** 5 ft.; **Reach** 5 ft. (10 ft. with glaive)
 
@@ -422,15 +422,15 @@ Offense
 
 **Gnome Spell-Like Abilities** (CL 8th; concentration +9)
 
-1/day—_ [dancing lights](spells/dancingLights.md#_dancing-lights), [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 11), _ [prestidigitation](spells/prestidigitation.md#_prestidigitation), [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
+1/day—_ [dancing lights](spells/dancingLights#_dancing-lights), [ghost sound](spells/ghostSound#_ghost-sound)_ (DC 11), _ [prestidigitation](spells/prestidigitation#_prestidigitation), [speak with animals](spells/speakWithAnimals#_speak-with-animals)_
 
 Tactics
 
-**Before Combat** The fighter drinks her _potion of [shield of faith](spells/shieldOfFaith.md#_shield-of-faith)_.
+**Before Combat** The fighter drinks her _potion of [shield of faith](spells/shieldOfFaith#_shield-of-faith)_.
 
-**During Combat** The fighter drinks her _potion of [haste](spells/haste.md#_haste)_ and launches full attacks with _screaming bolts_.
+**During Combat** The fighter drinks her _potion of [haste](spells/haste#_haste)_ and launches full attacks with _screaming bolts_.
 
-**Base Statistics** Without_ [shield of faith](spells/shieldOfFaith.md#_shield-of-faith)_, the fighter's statistics are **AC** 20, touch 14, flat-footed 17; **CMD** 20.
+**Base Statistics** Without_ [shield of faith](spells/shieldOfFaith#_shield-of-faith)_, the fighter's statistics are **AC** 20, touch 14, flat-footed 17; **CMD** 20.
 
 Statistics
 
@@ -438,15 +438,15 @@ Statistics
 
 **Base Atk** +8; **CMB** +7; **CMD** 23
 
-**Feats** [Deadly Aim](feats.md#_deadly-aim), [Fleet](feats.md#_fleet), [Improved Critical](feats.md#_improved-critical) (light crossbow), [Point-Blank Shot](feats.md#_point-blank-shot), Precise Shot, [Rapid Reload](ultimateCombat/ultimateCombatFeats.md#rapid-reload), Rapid Shot, [Weapon Focus](feats.md#_weapon-focus) (light crossbow), Weapon Specialization (light crossbow)
+**Feats** [Deadly Aim](feats#_deadly-aim), [Fleet](feats#_fleet), [Improved Critical](feats#_improved-critical) (light crossbow), [Point-Blank Shot](feats#_point-blank-shot), Precise Shot, [Rapid Reload](ultimateCombat/ultimateCombatFeats#rapid-reload), Rapid Shot, [Weapon Focus](feats#_weapon-focus) (light crossbow), Weapon Specialization (light crossbow)
 
-**Skills** Perception +10, [Profession](skills/profession.md#_profession) (soldier) +8, [Sense Motive](skills/senseMotive.md#_sense-motive) +7
+**Skills** Perception +10, [Profession](skills/profession#_profession) (soldier) +8, [Sense Motive](skills/senseMotive#_sense-motive) +7
 
 **Languages** Common, Gnome, Sylvan
 
 **SQ** armor training 2
 
-**Combat Gear** _+1 [frost](magicItems/weapons.md#_weapons-frost) bolts_ (8), _potion of [haste](spells/haste.md#_haste)_, _potion of [shield of faith](spells/shieldOfFaith.md#_shield-of-faith) _(CL 7th), _screaming bolts_ (2); **Other Gear** mithral breastplate, masterwork glaive, masterwork light crossbow with 40 bolts, short sword, sunrods (2), 27 gp
+**Combat Gear** _+1 [frost](magicItems/weapons#_weapons-frost) bolts_ (8), _potion of [haste](spells/haste#_haste)_, _potion of [shield of faith](spells/shieldOfFaith#_shield-of-faith) _(CL 7th), _screaming bolts_ (2); **Other Gear** mithral breastplate, masterwork glaive, masterwork light crossbow with 40 bolts, short sword, sunrods (2), 27 gp
 
 Halfling Slinger CR 8
 
@@ -480,11 +480,11 @@ Offense
 
 Tactics
 
-**Before Combat** The fighter drinks his _potions of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_ and _ [heroism](spells/heroism.md#_heroism)_.
+**Before Combat** The fighter drinks his _potions of [bull's strength](spells/bullSStrength#_bull-s-strength)_ and _ [heroism](spells/heroism#_heroism)_.
 
-**During Combat** If fighting elves, the fighter stays back from the fight, wielding his sling staff until he's out of _elf-bane_ bullets. Otherwise, he rides into the fray, bashing foes and hurling bulletswith his sling staff while using [Deadly Aim](feats.md#_deadly-aim) and [Vital Strike](feats.md#_vital-strike).
+**During Combat** If fighting elves, the fighter stays back from the fight, wielding his sling staff until he's out of _elf-bane_ bullets. Otherwise, he rides into the fray, bashing foes and hurling bulletswith his sling staff while using [Deadly Aim](feats#_deadly-aim) and [Vital Strike](feats#_vital-strike).
 
-**Base Statistics** Without_ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_ and _ [heroism](spells/heroism.md#_heroism)_, the fighter's statistics are **Senses** Perception +3; **Fort** +9, **Ref** +9, **Will** +7; **Melee** _+1 halfling sling staff_ +14/+9 (1d4+6/19–20) or short sword +12/+7 (1d4+2/19–20); **Ranged** _+1 halfling sling staff_ +20 (1d6+6/19–20/×3); **Str** 12; **CMB** +9; **CMD** 24; **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +5 (+1 when jumping), [Climb](skills/climb.md#_climb) +1, Perception +3, [Ride](skills/ride.md#_ride) +15, [Survival](skills/survival.md#_survival) +13.
+**Base Statistics** Without_ [bull's strength](spells/bullSStrength#_bull-s-strength)_ and _ [heroism](spells/heroism#_heroism)_, the fighter's statistics are **Senses** Perception +3; **Fort** +9, **Ref** +9, **Will** +7; **Melee** _+1 halfling sling staff_ +14/+9 (1d4+6/19–20) or short sword +12/+7 (1d4+2/19–20); **Ranged** _+1 halfling sling staff_ +20 (1d6+6/19–20/×3); **Str** 12; **CMB** +9; **CMD** 24; **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +5 (+1 when jumping), [Climb](skills/climb#_climb) +1, Perception +3, [Ride](skills/ride#_ride) +15, [Survival](skills/survival#_survival) +13.
 
 Statistics
 
@@ -492,15 +492,15 @@ Statistics
 
 **Base Atk** +9; **CMB** +13; **CMD** 26
 
-**Feats** [Deadly Aim](feats.md#_deadly-aim), Greater [Weapon Focus](feats.md#_weapon-focus) (halfling sling staff), [Improved Critical](feats.md#_improved-critical) (halfling sling staff), [Iron Will](feats.md#_iron-will), [Mounted Combat](feats.md#_mounted-combat), [Point-Blank Shot](feats.md#_point-blank-shot), Precise Shot, [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (halfling sling staff), Weapon Specialization (halfling sling staff)
+**Feats** [Deadly Aim](feats#_deadly-aim), Greater [Weapon Focus](feats#_weapon-focus) (halfling sling staff), [Improved Critical](feats#_improved-critical) (halfling sling staff), [Iron Will](feats#_iron-will), [Mounted Combat](feats#_mounted-combat), [Point-Blank Shot](feats#_point-blank-shot), Precise Shot, [Vital Strike](feats#_vital-strike), [Weapon Focus](feats#_weapon-focus) (halfling sling staff), Weapon Specialization (halfling sling staff)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +7 (+3 when jumping), [Climb](skills/climb.md#_climb) +5, Perception +5, [Ride](skills/ride.md#_ride) +17, [Survival](skills/survival.md#_survival) +15
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +7 (+3 when jumping), [Climb](skills/climb#_climb) +5, Perception +5, [Ride](skills/ride#_ride) +17, [Survival](skills/survival#_survival) +15
 
 **Languages** Common, Halfling
 
 **SQ** armor training 2
 
-**Combat Gear** _+1 elf-bane bullets _(5), _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [heroism](spells/heroism.md#_heroism)_, _potion of [invisibility](spells/invisibility.md#_invisibility)_; **Other Gear** breastplate, _+1 halfling sling staff_ with 20 bullets, short sword, _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +_2, _ [brooch of shielding](magicItems/wondrousItems.md#_brooch-of-shielding)_ (35 points of damage remaining), bit and bridle, masterwork studded leather barding, military saddle, riding dog, saddlebags, 161 gp
+**Combat Gear** _+1 elf-bane bullets _(5), _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_, _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _potion of [heroism](spells/heroism#_heroism)_, _potion of [invisibility](spells/invisibility#_invisibility)_; **Other Gear** breastplate, _+1 halfling sling staff_ with 20 bullets, short sword, _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +_2, _ [brooch of shielding](magicItems/wondrousItems#_brooch-of-shielding)_ (35 points of damage remaining), bit and bridle, masterwork studded leather barding, military saddle, riding dog, saddlebags, 161 gp
 
 Halfling slingers often patrol the areas surrounding halfling settlements. Sometimes they hire themselves out as scouts and skirmishers.
 
@@ -548,11 +548,11 @@ Offense
 
 Tactics
 
-**Before Combat** Well in advance of battle, the fighter activates her _bronze griffon_ and saddles and armors it. Before the fighting starts, she mounts her griffon, takes to the air, and quaffs her _potion of [heroism](spells/heroism.md#_heroism)_.
+**Before Combat** Well in advance of battle, the fighter activates her _bronze griffon_ and saddles and armors it. Before the fighting starts, she mounts her griffon, takes to the air, and quaffs her _potion of [heroism](spells/heroism#_heroism)_.
 
 **During Combat** The fighter flies above the battlefield taking passes with her lance, never flying lower than 10 feet above the ground. If outmatched in melee, she retreats to higher altitude and uses her bow. A griffon rider loves to unseat other mounted combatants, particularly if they're flying. She keeps a plentiful supply of alchemist's fire in case any flammable targets present themselves.
 
-**Base Statistics** Without_ [heroism](spells/heroism.md#_heroism)_, the fighter's statistics are **Senses** Perception +13; **Fort** +9, **Ref** +5, **Will** +4; **Melee** mwk lance +16/+11 (1d8+4/×3) or flail +12/+7 (1d8+2); **Ranged** mwk composite longbow +14/+9 (1d8+3/×3); **CMB** +12; **Skills** [Handle Animal](skills/handleAnimal.md#_handle-animal) +8, Perception +13, [Ride](skills/ride.md#_ride) +17.
+**Base Statistics** Without_ [heroism](spells/heroism#_heroism)_, the fighter's statistics are **Senses** Perception +13; **Fort** +9, **Ref** +5, **Will** +4; **Melee** mwk lance +16/+11 (1d8+4/×3) or flail +12/+7 (1d8+2); **Ranged** mwk composite longbow +14/+9 (1d8+3/×3); **CMB** +12; **Skills** [Handle Animal](skills/handleAnimal#_handle-animal) +8, Perception +13, [Ride](skills/ride#_ride) +17.
 
 Statistics
 
@@ -560,15 +560,15 @@ Statistics
 
 **Base Atk** +10; **CMB** +14; **CMD** 24
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), Improved Bull Rush, [Mounted Combat](feats.md#_mounted-combat), [Power Attack](feats.md#_power-attack), Ride-By Attack, Shield Focus, [Skill Focus](feats.md#_skill-focus) ( [Ride](skills/ride.md#_ride)), Spirited Charge, [Toughness](feats.md#_toughness), Unseat, [Weapon Focus](feats.md#_weapon-focus) (lance)
+**Feats** [Combat Reflexes](feats#_combat-reflexes), Improved Bull Rush, [Mounted Combat](feats#_mounted-combat), [Power Attack](feats#_power-attack), Ride-By Attack, Shield Focus, [Skill Focus](feats#_skill-focus) ( [Ride](skills/ride#_ride)), Spirited Charge, [Toughness](feats#_toughness), Unseat, [Weapon Focus](feats#_weapon-focus) (lance)
 
-**Skills** [Handle Animal](skills/handleAnimal.md#_handle-animal) +10, Perception +15, [Ride](skills/ride.md#_ride) +19
+**Skills** [Handle Animal](skills/handleAnimal#_handle-animal) +10, Perception +15, [Ride](skills/ride#_ride) +19
 
 **Languages** Common, Elven
 
 **SQ** armor training 2, elven magic, weapon familiarity
 
-**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2)_, potion of [heroism](spells/heroism.md#_heroism)_, alchemist's fire (5); **Other Gear** masterwork banded mail, masterwork heavy steel shield, masterwork lance, masterwork composite longbow (Str +2) with 20 arrows, _ [figurine of wondrous power](magicItems/wondrousItems.md#_figurines-of-wondrous-power)_ (bronze griffon), bit and bridle, exotic military saddle, masterwork studded leather barding, 47 gp
+**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_ (2)_, potion of [heroism](spells/heroism#_heroism)_, alchemist's fire (5); **Other Gear** masterwork banded mail, masterwork heavy steel shield, masterwork lance, masterwork composite longbow (Str +2) with 20 arrows, _ [figurine of wondrous power](magicItems/wondrousItems#_figurines-of-wondrous-power)_ (bronze griffon), bit and bridle, exotic military saddle, masterwork studded leather barding, 47 gp
 
 Griffon riders patrol the skies around remote elven enclaves. Rare individuals serve powerful spellcasters or serve as mercenary shock troops.
 
@@ -614,11 +614,11 @@ Offense
 
 Tactics
 
-**Before Combat** The fighter drinks her _potions of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, and _ [barkskin](spells/barkskin.md#_barkskin)_. If she's planning betrayal, a scheming fencer doesn't down her potions until just before her treachery.
+**Before Combat** The fighter drinks her _potions of [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, and _ [barkskin](spells/barkskin#_barkskin)_. If she's planning betrayal, a scheming fencer doesn't down her potions until just before her treachery.
 
-**During Combat** The fighter uses [Combat Expertise](feats.md#_combat-expertise), hoping to wear her foes down. Every few rounds, she makes a disarm attempt with one of her attacks. She likes to gain a height advantage using her _ [slippers of spider climbing](magicItems/wondrousItems.md#_slippers-of-spider-climbing)_.
+**During Combat** The fighter uses [Combat Expertise](feats#_combat-expertise), hoping to wear her foes down. Every few rounds, she makes a disarm attempt with one of her attacks. She likes to gain a height advantage using her _ [slippers of spider climbing](magicItems/wondrousItems#_slippers-of-spider-climbing)_.
 
-**Base Statistics** Without _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, and _ [barkskin](spells/barkskin.md#_barkskin)_, the fighter's statistics are **Init** +4; **AC** 21, touch 14, flat-footed 17; **Ref** +8; **Melee** _+1 rapier_ +17/+12/+7 (1d6+6/15–20), mwk dagger +16/+11 (1d4+3/19–20); **Ranged** dagger +17 (1d4+3/19–20) or mwk composite longbow +17/+12/+7 (1d8+2/×3); **Str** 12, **Dex** 19; **CMB** +12 (+14 disarm); **CMD** 26 (28 vs. disarm); **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +15, [Climb](skills/climb.md#_climb) +13.
+**Base Statistics** Without _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, and _ [barkskin](spells/barkskin#_barkskin)_, the fighter's statistics are **Init** +4; **AC** 21, touch 14, flat-footed 17; **Ref** +8; **Melee** _+1 rapier_ +17/+12/+7 (1d6+6/15–20), mwk dagger +16/+11 (1d4+3/19–20); **Ranged** dagger +17 (1d4+3/19–20) or mwk composite longbow +17/+12/+7 (1d8+2/×3); **Str** 12, **Dex** 19; **CMB** +12 (+14 disarm); **CMD** 26 (28 vs. disarm); **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +15, [Climb](skills/climb#_climb) +13.
 
 Statistics
 
@@ -626,17 +626,17 @@ Statistics
 
 **Base Atk** +11; **CMB** +14 (+16 disarm); **CMD** 30 (+32 vs. disarm)
 
-**Feats** [Combat Expertise](feats.md#_combat-expertise), [Critical Focus](feats.md#_critical-focus), Double Slice, [Improved Critical](feats.md#_improved-critical) (rapier), Improved Disarm, Improved [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Iron Will](feats.md#_iron-will), Sickening Critical, [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Two-Weapon Rend, [Weapon Finesse](feats.md#_weapon-finesse), [Weapon Focus](feats.md#_weapon-focus) (rapier), Weapon Specialization (rapier)
+**Feats** [Combat Expertise](feats#_combat-expertise), [Critical Focus](feats#_critical-focus), Double Slice, [Improved Critical](feats#_improved-critical) (rapier), Improved Disarm, Improved [Two-Weapon Fighting](feats#_two-weapon-fighting), [Iron Will](feats#_iron-will), Sickening Critical, [Two-Weapon Fighting](feats#_two-weapon-fighting), Two-Weapon Rend, [Weapon Finesse](feats#_weapon-finesse), [Weapon Focus](feats#_weapon-focus) (rapier), Weapon Specialization (rapier)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +17, [Bluff](skills/bluff.md#_bluff) +10, [Climb](skills/climb.md#_climb) +15, [Knowledge](skills/knowledge.md#_knowledge) (local) +5, [Perform](skills/perform.md#_perform) (sing) +5, [Sense Motive](skills/senseMotive.md#_sense-motive) +9
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +17, [Bluff](skills/bluff#_bluff) +10, [Climb](skills/climb#_climb) +15, [Knowledge](skills/knowledge#_knowledge) (local) +5, [Perform](skills/perform#_perform) (sing) +5, [Sense Motive](skills/senseMotive#_sense-motive) +9
 
 **Languages** Common, Elven
 
 **SQ** armor training 3
 
-**Combat Gear** _potion of [barkskin](spells/barkskin.md#_barkskin)_, _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _potion of [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _potions of cure moderate wounds_ (2), _potions of [protection from good](spells/protectionFromGood.md#_protection-from-good) _(CL 2nd) (2), _ [silversheen](magicItems/wondrousItems.md#_silversheen)_; **Other Gear** _+1 breastplate_, _+1 rapier_, daggers (3), masterwork composite longbow (+1 Str) with 20 arrows, masterwork dagger, _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [slippers of spider climbing](magicItems/wondrousItems.md#_slippers-of-spider-climbing)_, 121 gp
+**Combat Gear** _potion of [barkskin](spells/barkskin#_barkskin)_, _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_, _potion of [cat's grace](spells/catSGrace#_cat-s-grace)_, _potions of cure moderate wounds_ (2), _potions of [protection from good](spells/protectionFromGood#_protection-from-good) _(CL 2nd) (2), _ [silversheen](magicItems/wondrousItems#_silversheen)_; **Other Gear** _+1 breastplate_, _+1 rapier_, daggers (3), masterwork composite longbow (+1 Str) with 20 arrows, masterwork dagger, _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _ [slippers of spider climbing](magicItems/wondrousItems#_slippers-of-spider-climbing)_, 121 gp
 
-[Cosmopolitan](advanced/advancedFeats.md#cosmopolitan) patrons hire scheming fencers as either bodyguards or enforcers. Groups of these warriors can also serve as soldiers, guards, and protectors.
+[Cosmopolitan](advanced/advancedFeats#cosmopolitan) patrons hire scheming fencers as either bodyguards or enforcers. Groups of these warriors can also serve as soldiers, guards, and protectors.
 
 ### Eralin Lisinar
 
@@ -676,11 +676,11 @@ Offense
 
 Tactics
 
-**Before Combat** The fighter drinks his _potions of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_ and _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, plus his _potion of [enlarge person](spells/enlargePerson.md#_enlarge-person)_ if he has time.
+**Before Combat** The fighter drinks his _potions of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_ and _ [cat's grace](spells/catSGrace#_cat-s-grace)_, plus his _potion of [enlarge person](spells/enlargePerson#_enlarge-person)_ if he has time.
 
-**During Combat** The fighter gets many foes within reach, then makes a Whirlwind Attack to hit them all, using [Lunge](feats.md#_lunge) if he can get a few more. He tries to sunder shields to get a free attack with Greater Sunder.
+**During Combat** The fighter gets many foes within reach, then makes a Whirlwind Attack to hit them all, using [Lunge](feats#_lunge) if he can get a few more. He tries to sunder shields to get a free attack with Greater Sunder.
 
-**Base Statistics** Without _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_ and _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, the fighter's statistics are **Init** +0; **AC** 22, touch 12, flat-footed 20; **hp** 110; **Fort** +12, **Ref** +6; **Ranged** javelin +13 (1d6+5); **Dex** 13, **Con** 16; **CMB** +16 (+20 sunder); **CMD** 28 (32 vs. bull rush, sunder, or trip); **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +0 (+5 when jumping).
+**Base Statistics** Without _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_ and _ [cat's grace](spells/catSGrace#_cat-s-grace)_, the fighter's statistics are **Init** +0; **AC** 22, touch 12, flat-footed 20; **hp** 110; **Fort** +12, **Ref** +6; **Ranged** javelin +13 (1d6+5); **Dex** 13, **Con** 16; **CMB** +16 (+20 sunder); **CMD** 28 (32 vs. bull rush, sunder, or trip); **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +0 (+5 when jumping).
 
 Statistics
 
@@ -688,15 +688,15 @@ Statistics
 
 **Base Atk** +12; **CMB** +16 (+20 sunder); **CMD** 30 (34 vs. bull rush, sunder, or trip)
 
-**Feats** [Combat Expertise](feats.md#_combat-expertise), [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), Greater Sunder, Greater [Weapon Focus](feats.md#_weapon-focus) (guisarme), Improved Sunder, [Iron Will](feats.md#_iron-will), [Lunge](feats.md#_lunge), Mobility, [Power Attack](feats.md#_power-attack), [Weapon Focus](feats.md#_weapon-focus) (guisarme), Weapon Specialization (guisarme), Whirlwind Attack
+**Feats** [Combat Expertise](feats#_combat-expertise), [Combat Reflexes](feats#_combat-reflexes), [Dodge](feats#_dodge), Greater Sunder, Greater [Weapon Focus](feats#_weapon-focus) (guisarme), Improved Sunder, [Iron Will](feats#_iron-will), [Lunge](feats#_lunge), Mobility, [Power Attack](feats#_power-attack), [Weapon Focus](feats#_weapon-focus) (guisarme), Weapon Specialization (guisarme), Whirlwind Attack
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +2 (+7 when jumping), [Intimidate](skills/intimidate.md#_intimidate) +14, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering) +15, Perception +12 (+14 to notice unusual stonework), [Survival](skills/survival.md#_survival) +11
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +2 (+7 when jumping), [Intimidate](skills/intimidate#_intimidate) +14, [Knowledge](skills/knowledge#_knowledge) (dungeoneering) +15, Perception +12 (+14 to notice unusual stonework), [Survival](skills/survival#_survival) +11
 
 **Languages** Common, Dwarven, Terran
 
 **SQ** armor training 3
 
-**Combat Gear** _potion of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _potion of [cat's grace](spells/catSGrace.md#_cat-s-grace)_,_ potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _potions of [enlarge person](spells/enlargePerson.md#_enlarge-person)_ (2, CL 5th), _potion of [shield of faith](spells/shieldOfFaith.md#_shield-of-faith) _(CL 7th); **Other Gear** _+1 full plate_, _+1 adamantine guisarme_, javelins (6), masterwork spiked gauntlet, _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +_2, _ [boots of striding and springing](magicItems/wondrousItems.md#_boots-of-striding-and-springing)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, portable ram, whetstone, 69 gp
+**Combat Gear** _potion of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _potion of [cat's grace](spells/catSGrace#_cat-s-grace)_,_ potion of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_, _potions of [enlarge person](spells/enlargePerson#_enlarge-person)_ (2, CL 5th), _potion of [shield of faith](spells/shieldOfFaith#_shield-of-faith) _(CL 7th); **Other Gear** _+1 full plate_, _+1 adamantine guisarme_, javelins (6), masterwork spiked gauntlet, _ [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +_2, _ [boots of striding and springing](magicItems/wondrousItems#_boots-of-striding-and-springing)_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, portable ram, whetstone, 69 gp
 
 These warriors serve as shock troops, wading through enemy forces and sundering their weapons and armor.
 
@@ -732,19 +732,19 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** _+1 [vicious](magicItems/weapons.md#_vicious) flail_ +20/+15/+10 (1d8+10/19–20 plus 2d6), _ [lion's shield](magicItems/armor.md#_lion-s-shield)_ +23 (1d4+6 plus bull rush attempt) or _+1 [vicious](magicItems/weapons.md#_vicious) flail_ +24/+19/+14 (1d8+10/19–20 plus 2d6)
+**Melee** _+1 [vicious](magicItems/weapons#_vicious) flail_ +20/+15/+10 (1d8+10/19–20 plus 2d6), _ [lion's shield](magicItems/armor#_lion-s-shield)_ +23 (1d4+6 plus bull rush attempt) or _+1 [vicious](magicItems/weapons#_vicious) flail_ +24/+19/+14 (1d8+10/19–20 plus 2d6)
 
 **Ranged** mwk throwing axe +19 (1d6+5)
 
-**Special Attacks** _ [lion's shield](magicItems/armor.md#_lion-s-shield) _bite (free action, 3/day, +13/+8/+3, 2d6 damage), weapon training (heavy flails +3, close +2, thrown +1)
+**Special Attacks** _ [lion's shield](magicItems/armor#_lion-s-shield) _bite (free action, 3/day, +13/+8/+3, 2d6 damage), weapon training (heavy flails +3, close +2, thrown +1)
 
 Tactics
 
-**Before Combat** The fighter drinks her _potions of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_ and _ [heroism](spells/heroism.md#_heroism)_.
+**Before Combat** The fighter drinks her _potions of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_ and _ [heroism](spells/heroism#_heroism)_.
 
 **During Combat** Using the free bull rush from her shield bash attack, the fighter pushes her foes around the battlefield, forcing them back until they're pressed against an obstacle, then bull rushes again to knock them prone. She saves her shield's bite attack for prone enemies and other easy targets.
 
-**Base Statistics** Without _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance) _and _ [heroism](spells/heroism.md#_heroism)_, the fighter's statistics are **Senses** Perception –1; **hp** 115; **Fort** +11, **Ref** +7, **Will** +6; **Melee** _+1 [vicious](magicItems/weapons.md#_vicious) flail_+18/+13/+8 (1d8+10/19–20 plus 2d6), _ [lion's shield](magicItems/armor.md#_lion-s-shield)_ +21 (1d4+6 plus bull rush attempt) or _+1 [vicious](magicItems/weapons.md#_vicious) flail_ +22/+17/+2 (1d8+10/19–20 plus 2d6); **Ranged** mwk throwing axe +17 (1d6+5); **Con** 14; **CMB** +17; **Skills** [Intimidate](skills/intimidate.md#_intimidate) +19, [Sense Motive](skills/senseMotive.md#_sense-motive) +12.
+**Base Statistics** Without _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance) _and _ [heroism](spells/heroism#_heroism)_, the fighter's statistics are **Senses** Perception –1; **hp** 115; **Fort** +11, **Ref** +7, **Will** +6; **Melee** _+1 [vicious](magicItems/weapons#_vicious) flail_+18/+13/+8 (1d8+10/19–20 plus 2d6), _ [lion's shield](magicItems/armor#_lion-s-shield)_ +21 (1d4+6 plus bull rush attempt) or _+1 [vicious](magicItems/weapons#_vicious) flail_ +22/+17/+2 (1d8+10/19–20 plus 2d6); **Ranged** mwk throwing axe +17 (1d6+5); **Con** 14; **CMB** +17; **Skills** [Intimidate](skills/intimidate#_intimidate) +19, [Sense Motive](skills/senseMotive#_sense-motive) +12.
 
 Statistics
 
@@ -752,15 +752,15 @@ Statistics
 
 **Base Atk** +13; **CMB** +19; **CMD** 29
 
-**Feats** [Critical Focus](feats.md#_critical-focus), [Disruptive](feats.md#_disruptive), [Improved Critical](feats.md#_improved-critical) (flail), Improved Shield Bash, [Iron Will](feats.md#_iron-will), Shield Focus, Shield Master, Shield Slam, Spellbreaker, Staggering Critical, [Step Up](feats.md#_step-up), [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Focus](feats.md#_weapon-focus) (flail), Weapon Specialization (flail)
+**Feats** [Critical Focus](feats#_critical-focus), [Disruptive](feats#_disruptive), [Improved Critical](feats#_improved-critical) (flail), Improved Shield Bash, [Iron Will](feats#_iron-will), Shield Focus, Shield Master, Shield Slam, Spellbreaker, Staggering Critical, [Step Up](feats#_step-up), [Two-Weapon Fighting](feats#_two-weapon-fighting), [Weapon Focus](feats#_weapon-focus) (flail), Weapon Specialization (flail)
 
-**Skills** [Intimidate](skills/intimidate.md#_intimidate) +21, [Sense Motive](skills/senseMotive.md#_sense-motive) +14
+**Skills** [Intimidate](skills/intimidate#_intimidate) +21, [Sense Motive](skills/senseMotive#_sense-motive) +14
 
 **Languages** Common, Orc
 
 **SQ** armor training 3, orc blood, weapon familiarity
 
-**Combat Gear** _potion of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [heroism](spells/heroism.md#_heroism)_; **Other Gear** _+1 full plate_, _ [lion's shield](magicItems/armor.md#_lion-s-shield)_, _+1 [vicious](magicItems/weapons.md#_vicious) flail_, masterwork throwing axe, throwing axes (2), _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, 198 gp
+**Combat Gear** _potion of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _potion of [heroism](spells/heroism#_heroism)_; **Other Gear** _+1 full plate_, _ [lion's shield](magicItems/armor#_lion-s-shield)_, _+1 [vicious](magicItems/weapons#_vicious) flail_, masterwork throwing axe, throwing axes (2), _ [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, 198 gp
 
 Serving as a leader to orcs, half-orcs, or other barbaric forces, the brutal warlord uses her martial control to shape the battlefield.
 
@@ -800,11 +800,11 @@ Offense
 
 Tactics
 
-**Before Combat** The fighter uses her _scrolls of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [fly](spells/fly.md)_, and _ [heroism](spells/heroism.md#_heroism)_.
+**Before Combat** The fighter uses her _scrolls of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [fly](spells/fly)_, and _ [heroism](spells/heroism#_heroism)_.
 
-**During Combat** The fighter uses _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_ and _ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_ to soften up targets, then moves in with her bastard sword, using her first attack to disarm. If facing a spellcaster, she uses a _scroll of [silence](spells/silence.md#_silence)_. If she disarms a particularly powerful weapon, she spends a round picking it up and stuffing it in her _ [handy haversack](magicItems/wondrousItems.md#_handy-haversack)_.
+**During Combat** The fighter uses _ [scorching ray](spells/scorchingRay#_scorching-ray)_ and _ [lightning bolt](spells/lightningBolt#_lightning-bolt)_ to soften up targets, then moves in with her bastard sword, using her first attack to disarm. If facing a spellcaster, she uses a _scroll of [silence](spells/silence#_silence)_. If she disarms a particularly powerful weapon, she spends a round picking it up and stuffing it in her _ [handy haversack](magicItems/wondrousItems#_handy-haversack)_.
 
-**Base Statistics** Without _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, and _ [heroism](spells/heroism.md#_heroism)_, the fighter's statistics are **Senses** Perception +1; **hp** 95; **Fort** +12, **Ref** +11, **Will** +8; **Speed** 20 ft.; **Melee** _+1 bastard sword_ +22/+17/+12 (1d8+8/19–20); **Str** 15, **Con** 10; **CMB** +15 (+19 disarm); **CMD** 28 (+30 vs. disarm); **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +18 (+14 when jumping), [Bluff](skills/bluff.md#_bluff) +17, [Climb](skills/climb.md#_climb) +4, [Fly](skills/fly.md#_fly) +6, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +14, Perception +1, [Spellcraft](skills/spellcraft.md#_spellcraft) +16, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +23.
+**Base Statistics** Without _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, and _ [heroism](spells/heroism#_heroism)_, the fighter's statistics are **Senses** Perception +1; **hp** 95; **Fort** +12, **Ref** +11, **Will** +8; **Speed** 20 ft.; **Melee** _+1 bastard sword_ +22/+17/+12 (1d8+8/19–20); **Str** 15, **Con** 10; **CMB** +15 (+19 disarm); **CMD** 28 (+30 vs. disarm); **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +18 (+14 when jumping), [Bluff](skills/bluff#_bluff) +17, [Climb](skills/climb#_climb) +4, [Fly](skills/fly#_fly) +6, [Knowledge](skills/knowledge#_knowledge) (arcana) +14, Perception +1, [Spellcraft](skills/spellcraft#_spellcraft) +16, [Use Magic Device](skills/useMagicDevice#_use-magic-device) +23.
 
 Statistics
 
@@ -812,15 +812,15 @@ Statistics
 
 **Base Atk** +14; **CMB** +19 (+23 disarm); **CMD** 32 (+34 vs. disarm)
 
-**Feats** [Combat Expertise](feats.md#_combat-expertise), [Dodge](feats.md#_dodge), [Exotic Weapon Proficiency](feats.md#_exotic-weapon-proficiency) (bastard sword), Greater Disarm, Improved Disarm, [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), Mobility, Penetrating Strike, [Skill Focus](feats.md#_skill-focus) ( [Use Magic Device](skills/useMagicDevice.md#_use-magic-device)), [Strike Back](feats.md#_strike-back), [Toughness](feats.md#_toughness), [Weapon Focus](feats.md#_weapon-focus) (bastard sword), Weapon Specialization (bastard sword)
+**Feats** [Combat Expertise](feats#_combat-expertise), [Dodge](feats#_dodge), [Exotic Weapon Proficiency](feats#_exotic-weapon-proficiency) (bastard sword), Greater Disarm, Improved Disarm, [Improved Initiative](feats#_improved-initiative), [Iron Will](feats#_iron-will), [Lightning Reflexes](feats#_lightning-reflexes), Mobility, Penetrating Strike, [Skill Focus](feats#_skill-focus) ( [Use Magic Device](skills/useMagicDevice#_use-magic-device)), [Strike Back](feats#_strike-back), [Toughness](feats#_toughness), [Weapon Focus](feats#_weapon-focus) (bastard sword), Weapon Specialization (bastard sword)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +20 (+16 when jumping), [Bluff](skills/bluff.md#_bluff) +19, [Climb](skills/climb.md#_climb) +8, [Fly](skills/fly.md#_fly) +12, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +16, Perception +3, [Spellcraft](skills/spellcraft.md#_spellcraft) +18, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +25
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +20 (+16 when jumping), [Bluff](skills/bluff#_bluff) +19, [Climb](skills/climb#_climb) +8, [Fly](skills/fly#_fly) +12, [Knowledge](skills/knowledge#_knowledge) (arcana) +16, Perception +3, [Spellcraft](skills/spellcraft#_spellcraft) +18, [Use Magic Device](skills/useMagicDevice#_use-magic-device) +25
 
 **Languages** Common, Elven, Goblin, Halfling
 
 **SQ** armor training 3
 
-**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _scrolls of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_ (2), _scrolls of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_ (2), _scroll of cure serious wounds_ (arcane, CL 7th), _scroll of [dimension door](spells/dimensionDoor.md#_dimension-door)_, _scroll of [fly](spells/fly.md)_ (CL 8th), _scroll of [heroism](spells/heroism.md#_heroism)_, _scroll of [silence](spells/silence.md#_silence)_ (CL 6th), _wand of lightning bolts_ (CL 10th, 5 charges), _wand of [scorching ray](spells/scorchingRay.md#_scorching-ray)_ (CL 11th, 18 charges), _wand of [shield](spells/shield.md#_shield)_ (CL 3rd, 12 charges), _wand of [shield of faith](spells/shieldOfFaith.md#_shield-of-faith)_ (CL 6th, 11 charges); **Other Gear** _+1 adamantine breastplate_, _+1 bastard sword_, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2_, _ [handy haversack](magicItems/wondrousItems.md#_handy-haversack)_, 370 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _scrolls of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_ (2), _scrolls of [bull's strength](spells/bullSStrength#_bull-s-strength)_ (2), _scroll of cure serious wounds_ (arcane, CL 7th), _scroll of [dimension door](spells/dimensionDoor#_dimension-door)_, _scroll of [fly](spells/fly)_ (CL 8th), _scroll of [heroism](spells/heroism#_heroism)_, _scroll of [silence](spells/silence#_silence)_ (CL 6th), _wand of lightning bolts_ (CL 10th, 5 charges), _wand of [scorching ray](spells/scorchingRay#_scorching-ray)_ (CL 11th, 18 charges), _wand of [shield](spells/shield#_shield)_ (CL 3rd, 12 charges), _wand of [shield of faith](spells/shieldOfFaith#_shield-of-faith)_ (CL 6th, 11 charges); **Other Gear** _+1 adamantine breastplate_, _+1 bastard sword_, _ [amulet of natural armor](magicItems/wondrousItems#_amulet-of-natural-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +2_, _ [handy haversack](magicItems/wondrousItems#_handy-haversack)_, 370 gp
 
 Mixing martial prowess with magic support, arcane pretenders typically serve as guards for powerful casters. Other arcane pretenders become adventurers, sellswords, or explorers.
 
@@ -864,11 +864,11 @@ Offense
 
 Tactics
 
-**Before Combat** The fighter drinks his _potions of [barkskin](spells/barkskin.md#_barkskin)_ and _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_.
+**Before Combat** The fighter drinks his _potions of [barkskin](spells/barkskin#_barkskin)_ and _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_.
 
-**During Combat** The fighter cows his foes with Dazzling Display. He goes after shaken enemies first, especially humans. He uses his first attack each round for a trip attempt. If hard pressed, the fighter uses [Combat Expertise](feats.md#_combat-expertise) to improve his Armor Class and positions himself for a leaping escape into the nearest body of water. He likes to take out healers and support first.
+**During Combat** The fighter cows his foes with Dazzling Display. He goes after shaken enemies first, especially humans. He uses his first attack each round for a trip attempt. If hard pressed, the fighter uses [Combat Expertise](feats#_combat-expertise) to improve his Armor Class and positions himself for a leaping escape into the nearest body of water. He likes to take out healers and support first.
 
-**Base Statistics** Without_ [barkskin](spells/barkskin.md#_barkskin)_ and _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, the fighter's statistics are **AC** 22, touch 15, flat-footed 17; **hp** 120; **Fort** +13; **Con** 12.
+**Base Statistics** Without_ [barkskin](spells/barkskin#_barkskin)_ and _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, the fighter's statistics are **AC** 22, touch 15, flat-footed 17; **hp** 120; **Fort** +13; **Con** 12.
 
 Statistics
 
@@ -876,15 +876,15 @@ Statistics
 
 **Base Atk** +15; **CMB** +19 (+23 trip); **CMD** 34 (36 vs. trip)
 
-**Feats** [Combat Expertise](feats.md#_combat-expertise), Dazzling Display, Double Slice, Greater Trip, Improved Trip, Improved [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), Penetrating Strike, [Quick Draw](feats.md#_quick-draw), Shatter Defenses, [Skill Focus](feats.md#_skill-focus) ( [Intimidate](skills/intimidate.md#_intimidate)), [Toughness](feats.md#_toughness), [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Two-Weapon Rend, [Weapon Focus](feats.md#_weapon-focus) (scimitar), Weapon Specialization (scimitar)
+**Feats** [Combat Expertise](feats#_combat-expertise), Dazzling Display, Double Slice, Greater Trip, Improved Trip, Improved [Two-Weapon Fighting](feats#_two-weapon-fighting), [Iron Will](feats#_iron-will), [Lightning Reflexes](feats#_lightning-reflexes), Penetrating Strike, [Quick Draw](feats#_quick-draw), Shatter Defenses, [Skill Focus](feats#_skill-focus) ( [Intimidate](skills/intimidate#_intimidate)), [Toughness](feats#_toughness), [Two-Weapon Fighting](feats#_two-weapon-fighting), Two-Weapon Rend, [Weapon Focus](feats#_weapon-focus) (scimitar), Weapon Specialization (scimitar)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +20, [Climb](skills/climb.md#_climb) +11, [Intimidate](skills/intimidate.md#_intimidate) +23, Perception +2, [Profession](skills/profession.md#_profession) (sailor) +6, [Stealth](skills/stealth.md#_stealth) +12, [Survival](skills/survival.md#_survival) +8, [Swim](skills/swim.md#_swim) +15
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +20, [Climb](skills/climb#_climb) +11, [Intimidate](skills/intimidate#_intimidate) +23, Perception +2, [Profession](skills/profession#_profession) (sailor) +6, [Stealth](skills/stealth#_stealth) +12, [Survival](skills/survival#_survival) +8, [Swim](skills/swim#_swim) +15
 
 **Languages** Common, Elven, Halfling
 
 **SQ** armor training 4, elf blood
 
-**Combat Gear** _ [feather token](magicItems/wondrousItems.md#_feather-token) _(anchor) (3), _ [feather token](magicItems/wondrousItems.md#_feather-token) _(bird), _feather token _(fan) (2), _ [feather token](magicItems/wondrousItems.md#_feather-token) _(swan boat), _potion of [barkskin](spells/barkskin.md#_barkskin) _(CL 9th), _potion of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _potion of cure serious wounds_, _potion of [shield of faith](spells/shieldOfFaith.md#_shield-of-faith) _(CL 12th); **Other Gear** _+1 [light](spells/light.md#_light) [fortification](magicItems/armor.md#_armor-fortification) breastplate_, _+1 human-bane scimitar_, daggers (8), masterwork handaxe, _ [belt of physical might](magicItems/wondrousItems.md#_belt-of-physical-might) +2_ (Str, Dex), _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3, [necklace of adaptation](magicItems/wondrousItems.md#_necklace-of-adaptation)_, gold earring worth 50 gp, 413 gp
+**Combat Gear** _ [feather token](magicItems/wondrousItems#_feather-token) _(anchor) (3), _ [feather token](magicItems/wondrousItems#_feather-token) _(bird), _feather token _(fan) (2), _ [feather token](magicItems/wondrousItems#_feather-token) _(swan boat), _potion of [barkskin](spells/barkskin#_barkskin) _(CL 9th), _potion of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _potion of cure serious wounds_, _potion of [shield of faith](spells/shieldOfFaith#_shield-of-faith) _(CL 12th); **Other Gear** _+1 [light](spells/light#_light) [fortification](magicItems/armor#_armor-fortification) breastplate_, _+1 human-bane scimitar_, daggers (8), masterwork handaxe, _ [belt of physical might](magicItems/wondrousItems#_belt-of-physical-might) +2_ (Str, Dex), _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +3, [necklace of adaptation](magicItems/wondrousItems#_necklace-of-adaptation)_, gold earring worth 50 gp, 413 gp
 
 Serving as the captains of pirate ships or the commandants of pirate fleets, pirate kings command those pressed into their service with ruthless efficiency.
 
@@ -918,17 +918,17 @@ Offense
 
 **Melee** mwk dwarven waraxe +23/+18/+13/+8 (1d10+5/×3) or mwk warhammer +22/+17/+12/+7 (1d8+3/×3)
 
-**Ranged** _+3 [unholy](magicItems/weapons.md#_unholy) heavy crossbow_ +31 (1d10+11/17–20)
+**Ranged** _+3 [unholy](magicItems/weapons#_unholy) heavy crossbow_ +31 (1d10+11/17–20)
 
 **Special Attacks** +1 on attack rolls against goblinoid and orc humanoids, weapon training (crossbows +3, axes +2, hammers +1)
 
 Tactics
 
-**Before Combat** The fighter applies _oil of [greater magic weapon](spells/magicWeapon.md#_magic-weapon-greater)_ to his heavy crossbow, then drinks _potions of [barkskin](spells/barkskin.md#_barkskin)_ and _ [heroism](spells/heroism.md#_heroism)._
+**Before Combat** The fighter applies _oil of [greater magic weapon](spells/magicWeapon#_magic-weapon-greater)_ to his heavy crossbow, then drinks _potions of [barkskin](spells/barkskin#_barkskin)_ and _ [heroism](spells/heroism#_heroism)._
 
-**During Combat** For as long as he can, the fighter stays mounted and takes shots from long range. He takes most shots with magical ammunition, tailoring the bolt to the foe. He uses Greater [Vital Strike](feats.md#_vital-strike) unless he has trouble hitting, in which case he switches to Pinpoint Targeting. He nearly always uses [Deadly Aim](feats.md#_deadly-aim).
+**During Combat** For as long as he can, the fighter stays mounted and takes shots from long range. He takes most shots with magical ammunition, tailoring the bolt to the foe. He uses Greater [Vital Strike](feats#_vital-strike) unless he has trouble hitting, in which case he switches to Pinpoint Targeting. He nearly always uses [Deadly Aim](feats#_deadly-aim).
 
-**Base Statistics** Without_ [greater magic weapon](spells/magicWeapon.md#_magic-weapon-greater), [barkskin](spells/barkskin.md#_barkskin),_ and _ [heroism](spells/heroism.md#_heroism)_, the fighter's statistics are **Senses** Perception +18; **AC** 25, flat-footed 20; **Fort** +17, **Ref** +13, **Will** +10; **Melee** mwk dwarven waraxe +21/+16/+11/+6 (1d10+5/×3) or mwk warhammer +20/+15/+10/+5 (1d8+3/×3); **Ranged** _+1 [unholy](magicItems/weapons.md#_unholy) heavy crossbow_ +27 (1d10+8/17–20); **CMB** +18; **Skills** Perception +18 (+20 to notice unusual stonework), [Ride](skills/ride.md#_ride) +23.
+**Base Statistics** Without_ [greater magic weapon](spells/magicWeapon#_magic-weapon-greater), [barkskin](spells/barkskin#_barkskin),_ and _ [heroism](spells/heroism#_heroism)_, the fighter's statistics are **Senses** Perception +18; **AC** 25, flat-footed 20; **Fort** +17, **Ref** +13, **Will** +10; **Melee** mwk dwarven waraxe +21/+16/+11/+6 (1d10+5/×3) or mwk warhammer +20/+15/+10/+5 (1d8+3/×3); **Ranged** _+1 [unholy](magicItems/weapons#_unholy) heavy crossbow_ +27 (1d10+8/17–20); **CMB** +18; **Skills** Perception +18 (+20 to notice unusual stonework), [Ride](skills/ride#_ride) +23.
 
 Statistics
 
@@ -936,15 +936,15 @@ Statistics
 
 **Base Atk** +16; **CMB** +20; **CMD** 34 (38 vs. bull rush or trip)
 
-**Feats** Blinding Critical, [Critical Focus](feats.md#_critical-focus), [Deadly Aim](feats.md#_deadly-aim), Greater [Vital Strike](feats.md#_vital-strike), Greater [Weapon Focus](feats.md#_weapon-focus) (heavy crossbow), Greater Weapon Specialization (heavy crossbow), [Improved Critical](feats.md#_improved-critical) (heavy crossbow), Improved Precise Shot, Improved [Vital Strike](feats.md#_vital-strike), [Mounted Combat](feats.md#_mounted-combat), Pinpoint Targeting, [Point-Blank Shot](feats.md#_point-blank-shot), Precise Shot, [Rapid Reload](ultimateCombat/ultimateCombatFeats.md#rapid-reload) (heavy crossbow), [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (heavy crossbow), Weapon Specialization (heavy crossbow)
+**Feats** Blinding Critical, [Critical Focus](feats#_critical-focus), [Deadly Aim](feats#_deadly-aim), Greater [Vital Strike](feats#_vital-strike), Greater [Weapon Focus](feats#_weapon-focus) (heavy crossbow), Greater Weapon Specialization (heavy crossbow), [Improved Critical](feats#_improved-critical) (heavy crossbow), Improved Precise Shot, Improved [Vital Strike](feats#_vital-strike), [Mounted Combat](feats#_mounted-combat), Pinpoint Targeting, [Point-Blank Shot](feats#_point-blank-shot), Precise Shot, [Rapid Reload](ultimateCombat/ultimateCombatFeats#rapid-reload) (heavy crossbow), [Vital Strike](feats#_vital-strike), [Weapon Focus](feats#_weapon-focus) (heavy crossbow), Weapon Specialization (heavy crossbow)
 
-**Skills** Perception +20 (+22 to notice unusual stonework), [Ride](skills/ride.md#_ride) +25
+**Skills** Perception +20 (+22 to notice unusual stonework), [Ride](skills/ride#_ride) +25
 
 **Languages** Common, Dwarven
 
 **SQ** armor training 4
 
-**Combat Gear** _+1 [axiomatic](magicItems/weapons.md#_weapons-axiomatic) bolts_ (5), _+1 human-bane bolts _(5), _+1 [merciful](magicItems/weapons.md#_weapons-merciful) bolts _(5), _oil of [greater magic weapon](spells/magicWeapon.md#_magic-weapon-greater)_ (CL 12th)_, potion of [barkskin](spells/barkskin.md#_barkskin) _(CL 9th), _potion of cure serious wounds_, _potion of [heroism](spells/heroism.md#_heroism)_, adamantine bolts (15), cold iron bolts (10), silver bolts (10); **Other Gear** _+2 banded mail_, _+1 [unholy](magicItems/weapons.md#_unholy) heavy crossbow_ with 50 bolts, masterwork dwarven waraxe, masterwork warhammer, _ [belt of physical might](magicItems/wondrousItems.md#_belt-of-physical-might)_ +2 (Dex, Con), _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3_, _ [efficient quiver](magicItems/wondrousItems.md#_efficient-quiver)_, _ [eyes of the eagle](magicItems/wondrousItems.md#_eyes-of-the-eagle)_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, manacles (4), silk rope (100 ft.), bit and bridle, heavy horse (combat trained), manacles (4), masterwork chain shirt barding, military saddle, saddlebags, 118 gp
+**Combat Gear** _+1 [axiomatic](magicItems/weapons#_weapons-axiomatic) bolts_ (5), _+1 human-bane bolts _(5), _+1 [merciful](magicItems/weapons#_weapons-merciful) bolts _(5), _oil of [greater magic weapon](spells/magicWeapon#_magic-weapon-greater)_ (CL 12th)_, potion of [barkskin](spells/barkskin#_barkskin) _(CL 9th), _potion of cure serious wounds_, _potion of [heroism](spells/heroism#_heroism)_, adamantine bolts (15), cold iron bolts (10), silver bolts (10); **Other Gear** _+2 banded mail_, _+1 [unholy](magicItems/weapons#_unholy) heavy crossbow_ with 50 bolts, masterwork dwarven waraxe, masterwork warhammer, _ [belt of physical might](magicItems/wondrousItems#_belt-of-physical-might)_ +2 (Dex, Con), _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +3_, _ [efficient quiver](magicItems/wondrousItems#_efficient-quiver)_, _ [eyes of the eagle](magicItems/wondrousItems#_eyes-of-the-eagle)_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, manacles (4), silk rope (100 ft.), bit and bridle, heavy horse (combat trained), manacles (4), masterwork chain shirt barding, military saddle, saddlebags, 118 gp
 
 Dwarven arbalesters are usually employed by slavers and warlords to either incapacitate or kill at a distance.
 
@@ -978,7 +978,7 @@ Offense
 
 **Melee** mwk quarterstaff +26/+26/+21/+16/+11 (1d6+11), mwk quarterstaff +26/+21/+16 (1d6+9) or longspear +23/+23/+18/+13/+8 (1d8+6/×3) or kukri +22/+22/+17/+12/+7 (1d4+4/18–20)
 
-**Ranged** _+1 [seeking](magicItems/weapons.md#_weapons-seeking) composite longbow_ +26/+26/+26/+21/+16/+11 (1d8+9/×3)
+**Ranged** _+1 [seeking](magicItems/weapons#_weapons-seeking) composite longbow_ +26/+26/+26/+21/+16/+11 (1d8+9/×3)
 
 **Space** 5 ft.; **Reach** 5 ft. (10 ft. with longspear)
 
@@ -986,11 +986,11 @@ Offense
 
 Tactics
 
-**Before Combat** The fighter drinks her _potion of [barkskin](spells/barkskin.md#_barkskin)_ and both _potions of [resist energy](spells/resistEnergy.md#_resist-energy)_. She then activates her _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)._
+**Before Combat** The fighter drinks her _potion of [barkskin](spells/barkskin#_barkskin)_ and both _potions of [resist energy](spells/resistEnergy#_resist-energy)_. She then activates her _ [boots of speed](magicItems/wondrousItems#_boots-of-speed)._
 
-**During Combat** The fighter chooses her weapon based on the weaknesses of her foes. She engages slower foes with her bow and keeps her distance. Against lightly armored enemies or spellcasters, she fights with a _ [shillelagh](spells/shillelagh.md#_shillelagh)_-enhanced quarterstaff.
+**During Combat** The fighter chooses her weapon based on the weaknesses of her foes. She engages slower foes with her bow and keeps her distance. Against lightly armored enemies or spellcasters, she fights with a _ [shillelagh](spells/shillelagh#_shillelagh)_-enhanced quarterstaff.
 
-**Base Statistics** Without_ [barkskin](spells/barkskin.md#_barkskin)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_, and _ [haste](spells/haste.md#_haste)_ from her _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)_, the fighter's statistics are **AC** 29, touch 17, flat-footed 23; **Resist** —; **Ref** +13; **Speed** 30 ft.; **Melee** mwk quarterstaff +25/+20/+15/+10 (1d6+11), mwk quarterstaff +25/+20/+15 (1d6+9) or longspear +22/+17/+12/+7 (1d8+6/×3) or kukri +21/+16/+11/+6 (1d4+4/18–20); **Ranged** _+1 [seeking](magicItems/weapons.md#_weapons-seeking) composite longbow_ +25/+25/+20/+15/+10 (1d8+9/×3); **CMB** +20.
+**Base Statistics** Without_ [barkskin](spells/barkskin#_barkskin)_, _ [resist energy](spells/resistEnergy#_resist-energy)_, and _ [haste](spells/haste#_haste)_ from her _ [boots of speed](magicItems/wondrousItems#_boots-of-speed)_, the fighter's statistics are **AC** 29, touch 17, flat-footed 23; **Resist** —; **Ref** +13; **Speed** 30 ft.; **Melee** mwk quarterstaff +25/+20/+15/+10 (1d6+11), mwk quarterstaff +25/+20/+15 (1d6+9) or longspear +22/+17/+12/+7 (1d8+6/×3) or kukri +21/+16/+11/+6 (1d4+4/18–20); **Ranged** _+1 [seeking](magicItems/weapons#_weapons-seeking) composite longbow_ +25/+25/+20/+15/+10 (1d8+9/×3); **CMB** +20.
 
 Statistics
 
@@ -998,15 +998,15 @@ Statistics
 
 **Base Atk** +17; **CMB** +21; **CMD** 38
 
-**Feats** [Combat Expertise](feats.md#_combat-expertise), [Dodge](feats.md#_dodge), Greater [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Greater [Weapon Focus](feats.md#_weapon-focus) (quarterstaff), Greater Weapon Specialization (quarterstaff), Improved [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Iron Will](feats.md#_iron-will), [Lunge](feats.md#_lunge), [Point-Blank Shot](feats.md#_point-blank-shot), [Power Attack](feats.md#_power-attack), Rapid Shot, [Toughness](feats.md#_toughness), Two-Weapon Defense, [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Focus](feats.md#_weapon-focus) (composite longbow), [Weapon Focus](feats.md#_weapon-focus) (quarterstaff), Weapon Specialization (composite longbow), Weapon Specialization (quarterstaff)
+**Feats** [Combat Expertise](feats#_combat-expertise), [Dodge](feats#_dodge), Greater [Two-Weapon Fighting](feats#_two-weapon-fighting), Greater [Weapon Focus](feats#_weapon-focus) (quarterstaff), Greater Weapon Specialization (quarterstaff), Improved [Two-Weapon Fighting](feats#_two-weapon-fighting), [Iron Will](feats#_iron-will), [Lunge](feats#_lunge), [Point-Blank Shot](feats#_point-blank-shot), [Power Attack](feats#_power-attack), Rapid Shot, [Toughness](feats#_toughness), Two-Weapon Defense, [Two-Weapon Fighting](feats#_two-weapon-fighting), [Weapon Focus](feats#_weapon-focus) (composite longbow), [Weapon Focus](feats#_weapon-focus) (quarterstaff), Weapon Specialization (composite longbow), Weapon Specialization (quarterstaff)
 
-**Skills** [Climb](skills/climb.md#_climb) +10, [Craft](skills/craft.md#_craft) (bows) +5, [Craft](skills/craft.md#_craft) (weapons) +5, [Knowledge](skills/knowledge.md#_knowledge) (geography) +11, [Knowledge](skills/knowledge.md#_knowledge) (nature) +16, Perception +3, [Stealth](skills/stealth.md#_stealth) +10, [Survival](skills/survival.md#_survival) +16, [Swim](skills/swim.md#_swim) +6
+**Skills** [Climb](skills/climb#_climb) +10, [Craft](skills/craft#_craft) (bows) +5, [Craft](skills/craft#_craft) (weapons) +5, [Knowledge](skills/knowledge#_knowledge) (geography) +11, [Knowledge](skills/knowledge#_knowledge) (nature) +16, Perception +3, [Stealth](skills/stealth#_stealth) +10, [Survival](skills/survival#_survival) +16, [Swim](skills/swim#_swim) +6
 
 **Languages** Common, Elven, Sylvan
 
 **SQ** armor training 4, elven magic, weapon familiarity
 
-**Combat Gear** _oil of [shillelagh](spells/shillelagh.md#_shillelagh)_ (CL 5th) (3), _potion of [barkskin](spells/barkskin.md#_barkskin) _(CL 12th), _potion of [resist energy](spells/resistEnergy.md#_resist-energy)_ (cold), _potion of [resist energy](spells/resistEnergy.md#_resist-energy)_ (fire), _ [restorative ointment](magicItems/wondrousItems.md#_restorative-ointment)_; **Other Gear** _+2 full plate_, _+1 [seeking](magicItems/weapons.md#_weapons-seeking) composite longbow_ with 40 arrows, kukri, longspear, masterwork quarterstaff, _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +4_, _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3_, _ [periapt of wound closure](magicItems/wondrousItems.md#_periapt-of-wound-closure)_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, artisan's tools, ink (2), inkpens (2), journal (as spellbook), 48 gp
+**Combat Gear** _oil of [shillelagh](spells/shillelagh#_shillelagh)_ (CL 5th) (3), _potion of [barkskin](spells/barkskin#_barkskin) _(CL 12th), _potion of [resist energy](spells/resistEnergy#_resist-energy)_ (cold), _potion of [resist energy](spells/resistEnergy#_resist-energy)_ (fire), _ [restorative ointment](magicItems/wondrousItems#_restorative-ointment)_; **Other Gear** _+2 full plate_, _+1 [seeking](magicItems/weapons#_weapons-seeking) composite longbow_ with 40 arrows, kukri, longspear, masterwork quarterstaff, _ [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +4_, _ [boots of speed](magicItems/wondrousItems#_boots-of-speed)_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +3_, _ [periapt of wound closure](magicItems/wondrousItems#_periapt-of-wound-closure)_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, artisan's tools, ink (2), inkpens (2), journal (as spellbook), 48 gp
 
 These elves shun civilization and protect ancient groves.
 
@@ -1038,19 +1038,19 @@ Offense
 
 **Speed** 40 ft.
 
-**Melee** _ [vicious](magicItems/weapons.md#_vicious)_ unarmed strike +36/+31/+26/+21 (1d8+18 plus 2d6) or mwk ranseur +29/+24/+19/+14 (2d4+11/×3)
+**Melee** _ [vicious](magicItems/weapons#_vicious)_ unarmed strike +36/+31/+26/+21 (1d8+18 plus 2d6) or mwk ranseur +29/+24/+19/+14 (2d4+11/×3)
 
-**Ranged** _+1 [returning](magicItems/weapons.md#_weapons-returning) javelin_ +27 (1d6+10)
+**Ranged** _+1 [returning](magicItems/weapons#_weapons-returning) javelin_ +27 (1d6+10)
 
 **Special Attacks** stunning fist (5/day, DC 21), weapon training (natural +4, thrown +3, heavy blades +2, close +1)
 
 Tactics
 
-**Before Combat** The fighter drinks his _potions of [barkskin](spells/barkskin.md#_barkskin)_, _ [greater magic fang](spells/magicFang.md#_magic-fang-greater)_, and _ [heroism](spells/heroism.md#_heroism)_.
+**Before Combat** The fighter drinks his _potions of [barkskin](spells/barkskin#_barkskin)_, _ [greater magic fang](spells/magicFang#_magic-fang-greater)_, and _ [heroism](spells/heroism#_heroism)_.
 
 **During Combat** The fighter prefers to grapple, pin, and then bind his foes. He fights defensively when he can, abandoning that tactic against enemies with high armor classes.
 
-**Base Statistics** Without_ [barkskin](spells/barkskin.md#_barkskin)_, _ [greater magic fang](spells/magicFang.md#_magic-fang-greater)_, and _ [heroism](spells/heroism.md#_heroism)_, the fighter's statistics are **Senses** Perception +2; **AC** 20, touch 16, flat-footed 16; **Fort** +17, **Ref** +15, **Will** +14; **Melee** unarmed strike +30/+25/+20/+15 (1d8+14 plus 2d6) or mwk ranseur +27/+22/+17/+12 (2d4+11/×3); **Ranged** _+1 [returning](magicItems/weapons.md#_weapons-returning) javelin_ +25 (1d6+10); **CMB** +24 (+28 grapple); **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +21 (+30 when jumping), [Intimidate](skills/intimidate.md#_intimidate) +22.
+**Base Statistics** Without_ [barkskin](spells/barkskin#_barkskin)_, _ [greater magic fang](spells/magicFang#_magic-fang-greater)_, and _ [heroism](spells/heroism#_heroism)_, the fighter's statistics are **Senses** Perception +2; **AC** 20, touch 16, flat-footed 16; **Fort** +17, **Ref** +15, **Will** +14; **Melee** unarmed strike +30/+25/+20/+15 (1d8+14 plus 2d6) or mwk ranseur +27/+22/+17/+12 (2d4+11/×3); **Ranged** _+1 [returning](magicItems/weapons#_weapons-returning) javelin_ +25 (1d6+10); **CMB** +24 (+28 grapple); **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +21 (+30 when jumping), [Intimidate](skills/intimidate#_intimidate) +22.
 
 Statistics
 
@@ -1058,15 +1058,15 @@ Statistics
 
 **Base Atk** +18; **CMB** +26 (+30 grapple); **CMD** 40 (42 vs. grapple)
 
-**Feats** Deflect Arrows, [Dodge](feats.md#_dodge), Greater Grapple, Greater Penetrating Strike, Greater [Weapon Focus](feats.md#_weapon-focus) (unarmed strike), Greater Weapon Specialization (unarmed strike), Improved Grapple, Improved [Iron Will](feats.md#_iron-will), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), Mobility, [Nimble Moves](feats.md#_nimble-moves), Penetrating Strike, [Power Attack](feats.md#_power-attack), Stunning Fist, [Toughness](feats.md#_toughness), [Weapon Focus](feats.md#_weapon-focus) (unarmed strike), Weapon Specialization (unarmed strike)
+**Feats** Deflect Arrows, [Dodge](feats#_dodge), Greater Grapple, Greater Penetrating Strike, Greater [Weapon Focus](feats#_weapon-focus) (unarmed strike), Greater Weapon Specialization (unarmed strike), Improved Grapple, Improved [Iron Will](feats#_iron-will), [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Iron Will](feats#_iron-will), [Lightning Reflexes](feats#_lightning-reflexes), Mobility, [Nimble Moves](feats#_nimble-moves), Penetrating Strike, [Power Attack](feats#_power-attack), Stunning Fist, [Toughness](feats#_toughness), [Weapon Focus](feats#_weapon-focus) (unarmed strike), Weapon Specialization (unarmed strike)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +23 (+32 when jumping), [Intimidate](skills/intimidate.md#_intimidate) +24
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +23 (+32 when jumping), [Intimidate](skills/intimidate#_intimidate) +24
 
 **Languages** Common, Orc
 
 **SQ** armor training 4, orc blood, weapon familiarity
 
-**Combat Gear** _potion of [barkskin](spells/barkskin.md#_barkskin) _(CL 12th), _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _potion of [greater magic fang](spells/magicFang.md#_magic-fang-greater)_ (CL 16th), _potions of [haste](spells/haste.md#_haste)_ (2), _potion of [heroism](spells/heroism.md#_heroism)_, _potion of [shield of faith](spells/shieldOfFaith.md#_shield-of-faith) _(18th); **Other Gear** _+1 [returning](magicItems/weapons.md#_weapons-returning) javelin_, masterwork ranseur, _ [belt of physical perfection](magicItems/wondrousItems.md#_belt-of-physical-perfection) +2_, _ [boots of striding and springing](magicItems/wondrousItems.md#_boots-of-striding-and-springing)_, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +4_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +4_, _dusty rose prism [ioun stone](magicItems/wondrousItems.md#_ioun-stones)_, _monk's robe_, _ [ring of sustenance](magicItems/rings.md#_ring-of-sustenance)_, _ [vicious](magicItems/weapons.md#_vicious) [amulet of mighty fists](magicItems/wondrousItems.md#_amulet-of-mighty-fists)_, masterwork manacles (2), silk rope (50 ft.), 779 gp
+**Combat Gear** _potion of [barkskin](spells/barkskin#_barkskin) _(CL 12th), _potion of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_, _potion of [greater magic fang](spells/magicFang#_magic-fang-greater)_ (CL 16th), _potions of [haste](spells/haste#_haste)_ (2), _potion of [heroism](spells/heroism#_heroism)_, _potion of [shield of faith](spells/shieldOfFaith#_shield-of-faith) _(18th); **Other Gear** _+1 [returning](magicItems/weapons#_weapons-returning) javelin_, masterwork ranseur, _ [belt of physical perfection](magicItems/wondrousItems#_belt-of-physical-perfection) +2_, _ [boots of striding and springing](magicItems/wondrousItems#_boots-of-striding-and-springing)_, _ [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +4_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +4_, _dusty rose prism [ioun stone](magicItems/wondrousItems#_ioun-stones)_, _monk's robe_, _ [ring of sustenance](magicItems/rings#_ring-of-sustenance)_, _ [vicious](magicItems/weapons#_vicious) [amulet of mighty fists](magicItems/wondrousItems#_amulet-of-mighty-fists)_, masterwork manacles (2), silk rope (50 ft.), 779 gp
 
 Many failed disciples wander the land purely to prove their martial prowess. Others latch on to evil cults, dealing death for a dark god.
 
@@ -1094,7 +1094,7 @@ Defense
 
 **Fort** +20, **Ref** +14, **Will** +11; +2 vs. illusions, +5 vs. fear
 
-**Defensive Abilities** _ [blink](spells/blink.md#_blink)_, bravery +5, defensive training (+4 dodge bonus to AC vs. giants); **DR** 5/—
+**Defensive Abilities** _ [blink](spells/blink#_blink)_, bravery +5, defensive training (+4 dodge bonus to AC vs. giants); **DR** 5/—
 
 Offense
 
@@ -1108,15 +1108,15 @@ Offense
 
 **Gnome Spell-Like Abilities** (CL 19th; concentration +20)
 
-1/day—_ [dancing lights](spells/dancingLights.md#_dancing-lights), [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 11), _ [prestidigitation](spells/prestidigitation.md#_prestidigitation), [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
+1/day—_ [dancing lights](spells/dancingLights#_dancing-lights), [ghost sound](spells/ghostSound#_ghost-sound)_ (DC 11), _ [prestidigitation](spells/prestidigitation#_prestidigitation), [speak with animals](spells/speakWithAnimals#_speak-with-animals)_
 
 Tactics
 
-**Before Combat** The fighter drinks his _potions of [barkskin](spells/barkskin.md#_barkskin)_ and _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, then activates his _ [ring of blinking](magicItems/rings.md#_ring-of-blinking)_ and _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)._
+**Before Combat** The fighter drinks his _potions of [barkskin](spells/barkskin#_barkskin)_ and _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, then activates his _ [ring of blinking](magicItems/rings#_ring-of-blinking)_ and _ [boots of speed](magicItems/wondrousItems#_boots-of-speed)._
 
 **During Combat** The fighter starts off with a Dazzling Display, then engages in melee, fighting less armored enemies first. He deals most of his attacks with the spear end of his weapon.
 
-**Base Statistics** Without_ [barkskin](spells/barkskin.md#_barkskin), [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [blink](spells/blink.md#_blink)_ from his _ [ring of blinking](magicItems/rings.md#_ring-of-blinking), _and _ [haste](spells/haste.md#_haste)_ from his _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)_, the fighter's statistics are **AC** 28, touch 17, flat-footed 24; **hp** 166; **Fort** +18, **Ref** +13; **Defensive Abilities** no _ [blink](spells/blink.md#_blink)_; **Speed** 20 ft.; **Melee** _+2 dwarven urgrosh_ +29/+24/+19/+14 (1d4+12/19–20/×3), _+2 dwarven urgrosh_ +29 (1d6+12/19–20/×3) or _+2 dwarven urgrosh_ (two-handed) +31/+26/+21/+16 (1d4+14/19–20/×3) or _+1 spiked armor_ +27/+22/+17/+12 (1d4+8); **Ranged** dart +26/+21/+16/+11 (1d4+7); **Con** 16; **CMB** +22; **CMD** 38.
+**Base Statistics** Without_ [barkskin](spells/barkskin#_barkskin), [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [blink](spells/blink#_blink)_ from his _ [ring of blinking](magicItems/rings#_ring-of-blinking), _and _ [haste](spells/haste#_haste)_ from his _ [boots of speed](magicItems/wondrousItems#_boots-of-speed)_, the fighter's statistics are **AC** 28, touch 17, flat-footed 24; **hp** 166; **Fort** +18, **Ref** +13; **Defensive Abilities** no _ [blink](spells/blink#_blink)_; **Speed** 20 ft.; **Melee** _+2 dwarven urgrosh_ +29/+24/+19/+14 (1d4+12/19–20/×3), _+2 dwarven urgrosh_ +29 (1d6+12/19–20/×3) or _+2 dwarven urgrosh_ (two-handed) +31/+26/+21/+16 (1d4+14/19–20/×3) or _+1 spiked armor_ +27/+22/+17/+12 (1d4+8); **Ranged** dart +26/+21/+16/+11 (1d4+7); **Con** 16; **CMB** +22; **CMD** 38.
 
 Statistics
 
@@ -1124,15 +1124,15 @@ Statistics
 
 **Base Atk** +19; **CMB** +23; **CMD** 39
 
-**Feats** [Blind-Fight](feats.md#_blind-fight), Dazzling Display, Diehard, [Disruptive](feats.md#_disruptive), [Dodge](feats.md#_dodge), Double Slice, [Endurance](feats.md#_endurance), [Exotic Weapon Proficiency](feats.md#_exotic-weapon-proficiency) (dwarven urgrosh), [Improved Critical](feats.md#_improved-critical) (dwarven urgrosh), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Nimble Moves](feats.md#_nimble-moves), [Persuasive](feats.md#_persuasive), [Power Attack](feats.md#_power-attack), [Quick Draw](feats.md#_quick-draw), Spellbreaker, [Step Up](feats.md#_step-up), [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Focus](feats.md#_weapon-focus) (dwarven urgrosh), Weapon Specialization (dwarven urgrosh)
+**Feats** [Blind-Fight](feats#_blind-fight), Dazzling Display, Diehard, [Disruptive](feats#_disruptive), [Dodge](feats#_dodge), Double Slice, [Endurance](feats#_endurance), [Exotic Weapon Proficiency](feats#_exotic-weapon-proficiency) (dwarven urgrosh), [Improved Critical](feats#_improved-critical) (dwarven urgrosh), [Improved Initiative](feats#_improved-initiative), [Iron Will](feats#_iron-will), [Nimble Moves](feats#_nimble-moves), [Persuasive](feats#_persuasive), [Power Attack](feats#_power-attack), [Quick Draw](feats#_quick-draw), Spellbreaker, [Step Up](feats#_step-up), [Two-Weapon Fighting](feats#_two-weapon-fighting), [Weapon Focus](feats#_weapon-focus) (dwarven urgrosh), Weapon Specialization (dwarven urgrosh)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +19, [Diplomacy](skills/diplomacy.md#_diplomacy) +18, [Intimidate](skills/intimidate.md#_intimidate) +30, [Knowledge](skills/knowledge.md#_knowledge) (local) +13, Perception +1, [Profession](skills/profession.md#_profession) (gambler) +5, [Sense Motive](skills/senseMotive.md#_sense-motive) +18
+**Skills** [Bluff](skills/bluff#_bluff) +19, [Diplomacy](skills/diplomacy#_diplomacy) +18, [Intimidate](skills/intimidate#_intimidate) +30, [Knowledge](skills/knowledge#_knowledge) (local) +13, Perception +1, [Profession](skills/profession#_profession) (gambler) +5, [Sense Motive](skills/senseMotive#_sense-motive) +18
 
 **Languages** Common, Gnome, Sylvan
 
 **SQ** armor mastery, armor training 4
 
-**Combat Gear** _potion of [barkskin](spells/barkskin.md#_barkskin) _(CL 12th), _potion of bear's endurance_, _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2); **Other Gear** _+2 full plate _with_ +1 armor spikes_, _+2/+2 dwarven urgrosh_, darts (10), _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +4_, _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed), [circlet of persuasion](magicItems/wondrousItems.md#_circlet-of-persuasion)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +4_, _ [hat of disguise](magicItems/wondrousItems.md#_hat-of-disguise)_, _ring of blinking_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, ruby signet ring (worth 1,000 gp), 5,075 gp
+**Combat Gear** _potion of [barkskin](spells/barkskin#_barkskin) _(CL 12th), _potion of bear's endurance_, _potions of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_ (2); **Other Gear** _+2 full plate _with_ +1 armor spikes_, _+2/+2 dwarven urgrosh_, darts (10), _ [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +4_, _ [boots of speed](magicItems/wondrousItems#_boots-of-speed), [circlet of persuasion](magicItems/wondrousItems#_circlet-of-persuasion)_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +4_, _ [hat of disguise](magicItems/wondrousItems#_hat-of-disguise)_, _ring of blinking_, _ [ring of protection](magicItems/rings#_ring-of-protection) +2_, ruby signet ring (worth 1,000 gp), 5,075 gp
 
 Though most criminal masterminds work behind the scenes, crime lords don't mind getting their hands dirty.
 
@@ -1164,19 +1164,19 @@ Offense
 
 **Speed** 30 ft., fly 60 ft. (good)
 
-**Melee** _+3 [unholy](magicItems/weapons.md#_unholy) cold iron falchion_ +40/+35/+30/+25 (2d4+23/15–20/×3 plus 2d6 vs. good) or mwk light pick +34/+29/+24/+19 (1d4+10/×4), or mwk alchemical silver falchion +38/+33/+28/+23 (2d4+19/15–20/×3)
+**Melee** _+3 [unholy](magicItems/weapons#_unholy) cold iron falchion_ +40/+35/+30/+25 (2d4+23/15–20/×3 plus 2d6 vs. good) or mwk light pick +34/+29/+24/+19 (1d4+10/×4), or mwk alchemical silver falchion +38/+33/+28/+23 (2d4+19/15–20/×3)
 
-**Ranged** _+1 [shock](magicItems/weapons.md#_weapons-shock) composite longbow_ +30/+25/+20/+15 (1d8+12/×3)
+**Ranged** _+1 [shock](magicItems/weapons#_weapons-shock) composite longbow_ +30/+25/+20/+15 (1d8+12/×3)
 
 **Special Attacks** weapon mastery (falchion), weapon training (heavy blades +4, bows +3, axes +2, close +1)
 
 Tactics
 
-**Before Combat** The fighter applies _oil of [greater magic weapon](spells/magicWeapon.md#_magic-weapon-greater)_ to his falchion and _oil of [magic vestment](spells/magicVestment.md#_magic-vestment)_, then drinks his _potions of [barkskin](spells/barkskin.md#_barkskin)_, _ [heroism](spells/heroism.md#_heroism)_, and _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_ and activates his _boots of flying_.
+**Before Combat** The fighter applies _oil of [greater magic weapon](spells/magicWeapon#_magic-weapon-greater)_ to his falchion and _oil of [magic vestment](spells/magicVestment#_magic-vestment)_, then drinks his _potions of [barkskin](spells/barkskin#_barkskin)_, _ [heroism](spells/heroism#_heroism)_, and _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_ and activates his _boots of flying_.
 
 **During Combat** The fighter attacks a single enemy until he deals a pair of critical hits, then switches to another. He usually opts to inflict stun and bleed, then blind and exhaust. He goes after good outsiders, paladins, and clerics of good-aligned deities first.
 
-**Base Statistics** Without_ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [greater magic weapon](spells/magicWeapon.md#_magic-weapon-greater)_, _ [heroism](spells/heroism.md#_heroism)_, and _oil of [magic vestment](spells/magicVestment.md#_magic-vestment)_, the fighter's statistics are **Senses** Perception +2; **AC** 23, touch 13, flat-footed 20_;_ **hp** 193; **Fort** +20, **Ref** +17, **Will** +15; **Speed** 30 ft.; **Melee** _+1 [unholy](magicItems/weapons.md#_unholy) cold iron falchion_ +36/+31/+26/+21 (2d4+21/15–20/×3 plus 2d6 vs. good), or mwk light pick +32/+27/+22/+17 (1d4+14/×4), or mwk silver falchion +36/+31/+26/+21 (2d4+19/15–20/×3); **Ranged** _+1 [shock](magicItems/weapons.md#_weapons-shock) composite longbow_ +28/+23/+18/+13 (1d8+12/×3); **Con** 14; **CMB** +28; **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +23, [Intimidate](skills/intimidate.md#_intimidate) +24, [Linguistics](skills/linguistics.md#_linguistics) +0, Perception +2
+**Base Statistics** Without_ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [greater magic weapon](spells/magicWeapon#_magic-weapon-greater)_, _ [heroism](spells/heroism#_heroism)_, and _oil of [magic vestment](spells/magicVestment#_magic-vestment)_, the fighter's statistics are **Senses** Perception +2; **AC** 23, touch 13, flat-footed 20_;_ **hp** 193; **Fort** +20, **Ref** +17, **Will** +15; **Speed** 30 ft.; **Melee** _+1 [unholy](magicItems/weapons#_unholy) cold iron falchion_ +36/+31/+26/+21 (2d4+21/15–20/×3 plus 2d6 vs. good), or mwk light pick +32/+27/+22/+17 (1d4+14/×4), or mwk silver falchion +36/+31/+26/+21 (2d4+19/15–20/×3); **Ranged** _+1 [shock](magicItems/weapons#_weapons-shock) composite longbow_ +28/+23/+18/+13 (1d8+12/×3); **Con** 14; **CMB** +28; **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +23, [Intimidate](skills/intimidate#_intimidate) +24, [Linguistics](skills/linguistics#_linguistics) +0, Perception +2
 
 Statistics
 
@@ -1184,13 +1184,13 @@ Statistics
 
 **Base Atk** +20; **CMB** +30; **CMD** 41
 
-**Feats** Bleeding Critical, Blinding Critical, Cleave, [Critical Focus](feats.md#_critical-focus), Critical Mastery, Exhausting Critical, Greater Penetrating Strike, Greater [Weapon Focus](feats.md#_weapon-focus) (falchion), Greater Weapon Specialization (falchion), [Improved Critical](feats.md#_improved-critical) (falchion), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), Penetrating Strike, [Power Attack](feats.md#_power-attack), Staggering Critical, [Step Up](feats.md#_step-up), Stunning Critical, Tiring Critical, [Toughness](feats.md#_toughness), [Weapon Focus](feats.md#_weapon-focus) (falchion), Weapon Specialization (falchion)
+**Feats** Bleeding Critical, Blinding Critical, Cleave, [Critical Focus](feats#_critical-focus), Critical Mastery, Exhausting Critical, Greater Penetrating Strike, Greater [Weapon Focus](feats#_weapon-focus) (falchion), Greater Weapon Specialization (falchion), [Improved Critical](feats#_improved-critical) (falchion), [Improved Initiative](feats#_improved-initiative), [Iron Will](feats#_iron-will), [Lightning Reflexes](feats#_lightning-reflexes), Penetrating Strike, [Power Attack](feats#_power-attack), Staggering Critical, [Step Up](feats#_step-up), Stunning Critical, Tiring Critical, [Toughness](feats#_toughness), [Weapon Focus](feats#_weapon-focus) (falchion), Weapon Specialization (falchion)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +25, [Fly](skills/fly.md#_fly) +8, [Intimidate](skills/intimidate.md#_intimidate) +26, [Linguistics](skills/linguistics.md#_linguistics) +2, Perception +4
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +25, [Fly](skills/fly#_fly) +8, [Intimidate](skills/intimidate#_intimidate) +26, [Linguistics](skills/linguistics#_linguistics) +2, Perception +4
 
 **Languages** Common, Infernal
 
 **SQ** armor mastery, armor training 4
 
-**Combat Gear** _oil of [greater magic weapon](spells/magicWeapon.md#_magic-weapon-greater) _(CL 12th), _oil of [magic vestment](spells/magicVestment.md#_magic-vestment) _(CL 12th)_, potion of [barkskin](spells/barkskin.md#_barkskin) _(CL 12th), _potion of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _potion of [heroism](spells/heroism.md#_heroism)_, _potion of [shield of faith](spells/shieldOfFaith.md#_shield-of-faith) _(CL 18th); **Other Gear** _+1 full plate_, _+1 [shock](magicItems/weapons.md#_weapons-shock) composite longbow_ (+8 Str) with 50 arrows, _+1 [unholy](magicItems/weapons.md#_unholy) cold iron falchion_, masterwork alchemical silver falchion, masterwork light pick, _ [belt of physical might](magicItems/wondrousItems.md#_belt-of-physical-might) +4_ (Str, Dex),_ clear spindle [ioun stone](magicItems/wondrousItems.md#_ioun-stones)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +5_, _pale green prism [ioun stone](magicItems/wondrousItems.md#_ioun-stones)_, _winged boots_, 2,788 gp
+**Combat Gear** _oil of [greater magic weapon](spells/magicWeapon#_magic-weapon-greater) _(CL 12th), _oil of [magic vestment](spells/magicVestment#_magic-vestment) _(CL 12th)_, potion of [barkskin](spells/barkskin#_barkskin) _(CL 12th), _potion of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _potions of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_ (2), _potion of [heroism](spells/heroism#_heroism)_, _potion of [shield of faith](spells/shieldOfFaith#_shield-of-faith) _(CL 18th); **Other Gear** _+1 full plate_, _+1 [shock](magicItems/weapons#_weapons-shock) composite longbow_ (+8 Str) with 50 arrows, _+1 [unholy](magicItems/weapons#_unholy) cold iron falchion_, masterwork alchemical silver falchion, masterwork light pick, _ [belt of physical might](magicItems/wondrousItems#_belt-of-physical-might) +4_ (Str, Dex),_ clear spindle [ioun stone](magicItems/wondrousItems#_ioun-stones)_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +5_, _pale green prism [ioun stone](magicItems/wondrousItems#_ioun-stones)_, _winged boots_, 2,788 gp
 

@@ -81,19 +81,19 @@ Construction Requirements
 
 **Cost** 9,250 gp
 
-Craft Wondrous Item, _ [beast shape I](spells/beastShape.md#_beast-shape-i), [bull's strength](spells/bullSStrength.md#_bull-s-strength)_
+Craft Wondrous Item, _ [beast shape I](spells/beastShape#_beast-shape-i), [bull's strength](spells/bullSStrength#_bull-s-strength)_
 
 Aquatic Cummerbund
 
 **Price** 2,600 gp; **Aura** faint transmutation; **CL** 5th; **Weight** —
 
-Long believed to have been gnome in origin, this stately cummerbund features a number of dancing dolphins embroidered on its deep blue material. The cummerbund grants its wearer a +4 competence bonus on [Swim](skills/swim.md#_swim) checks, and allows her to take 10 on such checks even if distracted or endangered.
+Long believed to have been gnome in origin, this stately cummerbund features a number of dancing dolphins embroidered on its deep blue material. The cummerbund grants its wearer a +4 competence bonus on [Swim](skills/swim#_swim) checks, and allows her to take 10 on such checks even if distracted or endangered.
 
 Construction Requirements
 
 **Cost** 1,300 gp
 
-Craft Wondrous Item, _ [touch of the sea](advanced/spells/touchOfTheSea.md#_touch-of-the-sea)_
+Craft Wondrous Item, _ [touch of the sea](advanced/spells/touchOfTheSea#_touch-of-the-sea)_
 
 Belt of Dwarvenkind
 
@@ -105,7 +105,7 @@ Construction Requirements
 
 **Cost** 7,450 gp
 
-Craft Wondrous Item, _ [tongues](spells/tongues.md#_tongues)_, creator must be a dwarf
+Craft Wondrous Item, _ [tongues](spells/tongues#_tongues)_, creator must be a dwarf
 
 Belt of Equilibrium
 
@@ -117,31 +117,31 @@ Construction Requirements
 
 **Cost** 6,000 gp
 
-Craft Wondrous Item,_ [lesser restoration](spells/restoration.md#_restoration-lesser)_, _ [remove fear](spells/removeFear.md#_remove-fear)_
+Craft Wondrous Item,_ [lesser restoration](spells/restoration#_restoration-lesser)_, _ [remove fear](spells/removeFear#_remove-fear)_
 
 Belt of Fallen Heroes
 
 **Price** 21,000 gp; **Aura** moderate conjuration; **CL** 6th; **Weight** 1 lb.
 
-This large brass belt has three panels depicting scenes of battle. Once per day on command, the wearer can summon the spirit of a hero of one of the depicted battles. This spirit acts as an _ [unseen servant](spells/unseenServant.md#_unseen-servant)_, though unlike the force created by that spell, the summoned hero is not entirely mindless_._ While the summoned hero is active, it attempts to guide its wearer to victory via telepathic warning and advice, granting its user a +1 insight bonus on all saving throws.
+This large brass belt has three panels depicting scenes of battle. Once per day on command, the wearer can summon the spirit of a hero of one of the depicted battles. This spirit acts as an _ [unseen servant](spells/unseenServant#_unseen-servant)_, though unlike the force created by that spell, the summoned hero is not entirely mindless_._ While the summoned hero is active, it attempts to guide its wearer to victory via telepathic warning and advice, granting its user a +1 insight bonus on all saving throws.
 
 Construction Requirements
 
 **Cost** 10,500 gp
 
-Craft Wondrous Item, _ [divine favor](spells/divineFavor.md#_divine-favor), [unseen servant](spells/unseenServant.md#_unseen-servant)_
+Craft Wondrous Item, _ [divine favor](spells/divineFavor#_divine-favor), [unseen servant](spells/unseenServant#_unseen-servant)_
 
 Belt of Foraging
 
 **Price** 6,000 gp; **Aura** faint divination; **CL** 3rd; **Weight** 1 lb.
 
-This belt allows its wearer to easily forage while in the wilderness. As long as the wearer of this belt has at least 1 rank in [Survival](skills/survival.md#_survival), she need not make a check to get along in the wild; she always succeeds at that [Survival](skills/survival.md#_survival) check as long as she moves at half her overland speed. She can still choose to make that check to provide food and water for one other creature for every 2 points by which her result exceeds DC 10. Furthermore, she can instead make a DC 20 [Survival](skills/survival.md#_survival) check to get along in the wild while moving at full speed instead of half speed. While doing so, she can provide food and water for one other creature for every 2 points by which his check result exceeds 20.
+This belt allows its wearer to easily forage while in the wilderness. As long as the wearer of this belt has at least 1 rank in [Survival](skills/survival#_survival), she need not make a check to get along in the wild; she always succeeds at that [Survival](skills/survival#_survival) check as long as she moves at half her overland speed. She can still choose to make that check to provide food and water for one other creature for every 2 points by which her result exceeds DC 10. Furthermore, she can instead make a DC 20 [Survival](skills/survival#_survival) check to get along in the wild while moving at full speed instead of half speed. While doing so, she can provide food and water for one other creature for every 2 points by which his check result exceeds 20.
 
 Construction Requirements
 
 **Cost** 3,000 gp
 
-Craft Wondrous Item, _detect animals and plants_, creator must have 1 rank in [Survival](skills/survival.md#_survival)
+Craft Wondrous Item, _detect animals and plants_, creator must have 1 rank in [Survival](skills/survival#_survival)
 
 Belt of Giant Strength
 
@@ -157,7 +157,7 @@ Construction Requirements
 
 **+2 Strength** 2,000 gp; **+4 Strength** 8,000 gp; **+6 Strength** 18,000 gp
 
-Craft Wondrous Item, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_
+Craft Wondrous Item, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_
 
 Belt of Incredible Dexterity
 
@@ -173,7 +173,7 @@ Construction Requirements
 
 **+2 Dexterity** 2,000 gp; **+4 Dexterity** 8,000 gp; **+6 Dexterity** 18,000 gp
 
-Craft Wondrous Item, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_
+Craft Wondrous Item, _ [cat's grace](spells/catSGrace#_cat-s-grace)_
 
 Belt of Mighty Constitution
 
@@ -189,19 +189,19 @@ Construction Requirements
 
 **+2 Constitution** 2,000 gp; **+4 Constitution** 8,000 gp; **+6 Constitution** 18,000 gp
 
-Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_
+Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_
 
 Belt of Mighty Hurling, Greater
 
 **Price** 42,000 gp; **Aura** moderate transmutation; **CL** 12th; **Weight** 1 lb.
 
-This item functions as the _lesser belt of mighty hurling_, except it grants a +4 enhancement bonus to Strength and any thrown weapons its wearer hurls are treated as though they had the _ [returning](magicItems/weapons.md#_weapons-returning)_ quality. This does not apply to improvised ranged weapons, splash weapons, or weapons the wearer lacks proficiency with. Treat the bonus to Strength as a temporary ability bonus for the first 24 hours the belt is worn.
+This item functions as the _lesser belt of mighty hurling_, except it grants a +4 enhancement bonus to Strength and any thrown weapons its wearer hurls are treated as though they had the _ [returning](magicItems/weapons#_weapons-returning)_ quality. This does not apply to improvised ranged weapons, splash weapons, or weapons the wearer lacks proficiency with. Treat the bonus to Strength as a temporary ability bonus for the first 24 hours the belt is worn.
 
 Construction Requirements
 
 **Cost** 21,000 gp
 
-Craft Wondrous Item, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [longshot](ultimateCombat/spells/longshot.md#_longshot)_, _ [returning weapon](ultimateCombat/spells/returningWeapon.md#_returning-weapon)_
+Craft Wondrous Item, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [longshot](ultimateCombat/spells/longshot#_longshot)_, _ [returning weapon](ultimateCombat/spells/returningWeapon#_returning-weapon)_
 
 Belt of Mighty Hurling, lesser
 
@@ -213,7 +213,7 @@ Construction Requirements
 
 **Cost** 7,000 gp
 
-Craft Wondrous Item, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [longshot](ultimateCombat/spells/longshot.md#_longshot)_
+Craft Wondrous Item, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [longshot](ultimateCombat/spells/longshot#_longshot)_
 
 Belt of Physical Might
 
@@ -229,7 +229,7 @@ Construction Requirements
 
 **+2 to two physical ability scores** 5,000 gp; **+4 to two physical ability scores** 20,000 gp; **+6 to two physical ability scores** 45,000 gp
 
-Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, and/or _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_
+Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, and/or _ [cat's grace](spells/catSGrace#_cat-s-grace)_
 
 Belt of Physical Perfection
 
@@ -245,7 +245,7 @@ Construction Requirements
 
 **+2 Strength, Dexterity, and Constitution** 8,000 gp; **+4 Strength, Dexterity, and Constitution** 32,000 gp; **+6 Strength, Dexterity, and Constitution** 77,000 gp
 
-Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_
+Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_
 
 Belt of Stoneskin
 
@@ -257,7 +257,7 @@ Construction Requirements
 
 **Cost** 30,000 gp
 
-Craft Wondrous Item, _ [stoneskin](spells/stoneskin.md#_stoneskin)_, creator must be an oread or a creature with the earth subtype
+Craft Wondrous Item, _ [stoneskin](spells/stoneskin#_stoneskin)_, creator must be an oread or a creature with the earth subtype
 
 Belt of Teeth
 
@@ -269,7 +269,7 @@ Construction Requirements
 
 **Cost** 2,000 gp
 
-Craft Wondrous Item, _ [magic fang](spells/magicFang.md#_magic-fang)_
+Craft Wondrous Item, _ [magic fang](spells/magicFang#_magic-fang)_
 
 Belt of the Weasel
 
@@ -281,7 +281,7 @@ Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item, _ [beast shape I](spells/beastShape.md#_beast-shape-i)_
+Craft Wondrous Item, _ [beast shape I](spells/beastShape#_beast-shape-i)_
 
 Belt of Thunderous Charging
 
@@ -295,19 +295,19 @@ Construction Requirements
 
 **Cost** 5,000 gp
 
-Craft Wondrous Item, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [lead blades](advanced/spells/leadBlades.md#_lead-blades-)_
+Craft Wondrous Item, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [lead blades](advanced/spells/leadBlades#_lead-blades-)_
 
 Belt of Tumbling
 
 **Price** 800 gp; **Aura** faint transmutation; **CL** 1st; **Weight** 1 lb.
 
-This thin and flexible cotton cord is meant to be wrapped several times around wearer's waist. The belt's wearer gains a +4 competence bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) checks made to move through a threatened square or through an enemy's space.
+This thin and flexible cotton cord is meant to be wrapped several times around wearer's waist. The belt's wearer gains a +4 competence bonus on [Acrobatics](skills/acrobatics#_acrobatics) checks made to move through a threatened square or through an enemy's space.
 
 Construction Requirements
 
 **Cost** 400 gp
 
-Craft Wondrous Item, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_
+Craft Wondrous Item, _ [cat's grace](spells/catSGrace#_cat-s-grace)_
 
 Beneficial Bandolier
 
@@ -321,7 +321,7 @@ Construction Requirements
 
 **Cost** 500 gp
 
-Craft Wondrous Item, _ [secret chest](spells/secretChest.md#_secret-chest)_
+Craft Wondrous Item, _ [secret chest](spells/secretChest#_secret-chest)_
 
 Bladed Belt
 
@@ -333,7 +333,7 @@ Construction Requirements
 
 **Cost** 1,000 gp
 
-Craft Wondrous Item, _ [magic weapon](spells/magicWeapon.md#_magic-weapon)_
+Craft Wondrous Item, _ [magic weapon](spells/magicWeapon#_magic-weapon)_
 
 Blinkback Belt
 
@@ -345,7 +345,7 @@ Construction Requirements
 
 **Cost** 2,500 gp
 
-Craft Wondrous Item, _ [teleport object](spells/teleportObject.md#_teleport-object)_
+Craft Wondrous Item, _ [teleport object](spells/teleportObject#_teleport-object)_
 
 Cord of Stubborn Resolve
 
@@ -359,13 +359,13 @@ Construction Requirements
 
 **Cost** 7,500 gp
 
-Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [lesser restoration](spells/restoration.md#_restoration-lesser)_
+Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [lesser restoration](spells/restoration#_restoration-lesser)_
 
 Elemental Earth Belt
 
 **Price** 24,000 gp; **Aura** moderate transmutation; **CL** 11th; **Weight** 3 lbs.
 
-This belt is constructed of flat pieces of slate connected with strong leather straps. This belt grants its wearer a +4 enhancement bonus to Constitution, and the wearer is immune to effects that would push, pull, or forcefully move the wearer. This offers no protection from teleportation effects. Furthermore, once per day on command, the wearer can take the form of a Large earth elemental, and though subject to the _ [elemental body III](spells/elementalBody.md#_elemental-body-iii)_ spell.
+This belt is constructed of flat pieces of slate connected with strong leather straps. This belt grants its wearer a +4 enhancement bonus to Constitution, and the wearer is immune to effects that would push, pull, or forcefully move the wearer. This offers no protection from teleportation effects. Furthermore, once per day on command, the wearer can take the form of a Large earth elemental, and though subject to the _ [elemental body III](spells/elementalBody#_elemental-body-iii)_ spell.
 
 Treat the enhancement bonus to Constitution as a temporary ability bonus for the first 24 hours the belt is worn.
 
@@ -373,19 +373,19 @@ Construction Requirements
 
 **Cost** 12,000 gp
 
-Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [elemental body III](spells/elementalBody.md#_elemental-body-iii)_
+Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [elemental body III](spells/elementalBody#_elemental-body-iii)_
 
 Equestrian Belt
 
 **Price** 3,200 gp; **Aura** faint transmutation; **CL** 3rd; **Weight** 1 lb.
 
-This belt is worked with images of horses stampeding across a barren, windswept plain. The belt's wearer automatically succeeds at any check to guide with the knees, stay in the saddle, fight with a combat-trained mount, control a mount in battle, or make a fast mount or dismount, as long as the belt's wearer is wearing medium, light, or no armor. Furthermore, the belt grants a +4 competence bonus on all other [Ride](skills/ride.md#_ride) checks, including ones made while the wearer is in heavy armor.
+This belt is worked with images of horses stampeding across a barren, windswept plain. The belt's wearer automatically succeeds at any check to guide with the knees, stay in the saddle, fight with a combat-trained mount, control a mount in battle, or make a fast mount or dismount, as long as the belt's wearer is wearing medium, light, or no armor. Furthermore, the belt grants a +4 competence bonus on all other [Ride](skills/ride#_ride) checks, including ones made while the wearer is in heavy armor.
 
 Construction Requirements
 
 **Cost** 1,600 gp
 
-Craft Wondrous Item, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_
+Craft Wondrous Item, _ [cat's grace](spells/catSGrace#_cat-s-grace)_
 
 Gorgon Belt
 
@@ -397,19 +397,19 @@ Construction Requirements
 
 **Cost** 11,500 gp
 
-Craft Wondrous Items, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [feather step](advanced/spells/featherStep.md#_feather-step)_, _ [poison](spells/poison.md#_poison)_
+Craft Wondrous Items, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [feather step](advanced/spells/featherStep#_feather-step)_, _ [poison](spells/poison#_poison)_
 
 Heavyload Belt
 
 **Price** 2,000 gp; **Aura** faint transmutation; **CL** 1st; **Weight** 3 lbs.
 
-This wide leather is held together with two strands of oxen skin threaded through holes on each end. The belt's wearer is affected as though subject to a permanent _ [ant haul](advanced/spells/antHaul.md#_ant-haul-)_ spell.
+This wide leather is held together with two strands of oxen skin threaded through holes on each end. The belt's wearer is affected as though subject to a permanent _ [ant haul](advanced/spells/antHaul#_ant-haul-)_ spell.
 
 Construction Requirements
 
 **Cost** 1,000 gp
 
-Craft Wondrous Item, _ [ant haul](advanced/spells/antHaul.md#_ant-haul-)_
+Craft Wondrous Item, _ [ant haul](advanced/spells/antHaul#_ant-haul-)_
 
 Merform Belt
 
@@ -421,21 +421,21 @@ Construction Requirements
 
 **Cost** 16,000 gp
 
-Craft Wondrous Item, _ [alter self](spells/alterSelf.md#_alter-self), [water breathing](spells/waterBreathing.md#_water-breathing)_
+Craft Wondrous Item, _ [alter self](spells/alterSelf#_alter-self), [water breathing](spells/waterBreathing#_water-breathing)_
 
 Meridian Belt
 
 **Price** 1,000 gp; **Aura** moderate transmutation; **CL** 9th; **Weight** 1 lb.
 
-This narrow cloth belt has a silver buckle in the shape of four rings. The belt allows a creature to wear a magic ring on each foot in addition to the ring on each hand, though only two rings function at any given time. As a swift action, the wearer can change which of his rings are active (both hands, both feet, left hand and right foot, and so on). For example, a creature could wear a _ [ring of protection](magicItems/rings.md#_ring-of-protection)_, _ [ring of energy resistance](magicItems/rings.md#_ring-of-energy-resistance)_, _ [ring of swimming](magicItems/rings.md#_ring-of-swimming)_, and _ [ring of counterspells](magicItems/rings.md#_ring-of-counterspells)_, switching between any two of them as a swift action each round as it desires.
+This narrow cloth belt has a silver buckle in the shape of four rings. The belt allows a creature to wear a magic ring on each foot in addition to the ring on each hand, though only two rings function at any given time. As a swift action, the wearer can change which of his rings are active (both hands, both feet, left hand and right foot, and so on). For example, a creature could wear a _ [ring of protection](magicItems/rings#_ring-of-protection)_, _ [ring of energy resistance](magicItems/rings#_ring-of-energy-resistance)_, _ [ring of swimming](magicItems/rings#_ring-of-swimming)_, and _ [ring of counterspells](magicItems/rings#_ring-of-counterspells)_, switching between any two of them as a swift action each round as it desires.
 
-The belt does not change the type of action required to activate a ring (for example, activating a _ [ring of invisibility](magicItems/rings.md#_ring-of-invisibility)_ is still a standard action), but allows the wearer to easily switch between the constant powers of several worn rings. While the belt is worn, wearing a ring on a foot counts toward the attunement process of certain rings (such as a _ [ring of sustenance](magicItems/rings.md#_ring-of-sustenance)_) even if the belt isn't used to make that ring active during that attunement period.
+The belt does not change the type of action required to activate a ring (for example, activating a _ [ring of invisibility](magicItems/rings#_ring-of-invisibility)_ is still a standard action), but allows the wearer to easily switch between the constant powers of several worn rings. While the belt is worn, wearing a ring on a foot counts toward the attunement process of certain rings (such as a _ [ring of sustenance](magicItems/rings#_ring-of-sustenance)_) even if the belt isn't used to make that ring active during that attunement period.
 
 Construction Requirements
 
 **Cost** 500 gp
 
-Craft Wondrous Item, _ [polymorph](spells/polymorph.md#_polymorph)_
+Craft Wondrous Item, _ [polymorph](spells/polymorph#_polymorph)_
 
 Minotaur Belt
 
@@ -447,19 +447,19 @@ Construction Requirements
 
 **Cost** 5,500 gp
 
-Craft Wondrous Items, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [feather step](advanced/spells/featherStep.md#_feather-step)_
+Craft Wondrous Items, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [feather step](advanced/spells/featherStep#_feather-step)_
 
 Monkey Belt
 
 **Price** 9,400 gp; **Aura** moderate transmutation; **CL** 8th; **Weight** 1 lb.
 
-This furry brown belt resembles the tail of a monkey. The belt grants the wearer a +2 enhancement bonus to Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. The wearer does not lose his Dexterity bonus to AC while climbing, and does not take a –5 penalty on [Climb](skills/climb.md#_climb) checks when climbing at half his speed. As a swift action the wearer can command the belt to animate, transforming it into a prehensile tail under the wearer's control. The tail does not grant the wearer any additional attacks or actions per round, nor can it wield weapons, but it can make unarmed attacks and hold or manipulate objects about as well as the wearer's normal limbs (though any activity requiring fingers is beyond the tail's capabilities). The belt can function as a tail for 5 minutes per day. These minutes do not need to be consecutive.
+This furry brown belt resembles the tail of a monkey. The belt grants the wearer a +2 enhancement bonus to Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. The wearer does not lose his Dexterity bonus to AC while climbing, and does not take a –5 penalty on [Climb](skills/climb#_climb) checks when climbing at half his speed. As a swift action the wearer can command the belt to animate, transforming it into a prehensile tail under the wearer's control. The tail does not grant the wearer any additional attacks or actions per round, nor can it wield weapons, but it can make unarmed attacks and hold or manipulate objects about as well as the wearer's normal limbs (though any activity requiring fingers is beyond the tail's capabilities). The belt can function as a tail for 5 minutes per day. These minutes do not need to be consecutive.
 
 Construction Requirements
 
 **Cost** 4,700 gp
 
-Craft Wondrous Item, _ [beast shape I](spells/beastShape.md#_beast-shape-i)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_
+Craft Wondrous Item, _ [beast shape I](spells/beastShape#_beast-shape-i)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_
 
 Monkey Belt, Greater
 
@@ -467,13 +467,13 @@ Monkey Belt, Greater
 
 This belt functions as a _monkey belt_, except it grants the wearer a +2 enhancement bonus to Strength and Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.
 
-When the wearer speaks the command word to transform the belt into a prehensile tail, a _greater monkey belt_ also gives the wearer a +5 circumstance bonus on [Climb](skills/climb.md#_climb) checks.
+When the wearer speaks the command word to transform the belt into a prehensile tail, a _greater monkey belt_ also gives the wearer a +5 circumstance bonus on [Climb](skills/climb#_climb) checks.
 
 Construction Requirements
 
 **Cost** 9,000 gp
 
-Craft Wondrous Item, _ [beast shape I](spells/beastShape.md#_beast-shape-i)_, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_
+Craft Wondrous Item, _ [beast shape I](spells/beastShape#_beast-shape-i)_, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_
 
 Plague Rat Belt
 
@@ -485,7 +485,7 @@ Construction Requirements
 
 **Cost** 2,600 gp
 
-Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_, _ [remove disease](spells/removeDisease.md#_remove-disease)_
+Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [neutralize poison](spells/neutralizePoison#_neutralize-poison)_, _ [remove disease](spells/removeDisease#_remove-disease)_
 
 Plague Rat Belt, Greater
 
@@ -497,43 +497,43 @@ Construction Requirements
 
 **Cost** 5,600 gp
 
-Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_, _ [remove disease](spells/removeDisease.md#_remove-disease)_
+Craft Wondrous Item, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [neutralize poison](spells/neutralizePoison#_neutralize-poison)_, _ [remove disease](spells/removeDisease#_remove-disease)_
 
 Sash of Flowing Water
 
 **Price** 25,000 gp; **Aura** moderate abjuration; **CL** 10th; **Weight** 1 lb.
 
-If this belt's wearer has at least one hand free (holding nothing), he can attempt to deflect a successful melee attack with an immediate action. To do so, he rolls an unarmed strike against the opponent, including any applicable modifiers such as a favored enemy bonus or the penalty for [Power Attack](feats.md#_power-attack). If his attack roll is greater than the opponent's attack roll, the attack is negated without effect. The unarmed strike itself causes no damage and does not count as a successful attack against the opponent. The opponent does not need to be within the wearer's reach to use this ability. Whether the attack succeeds or not, the wearer takes a –4 penalty on attack rolls until the end of his next turn.
+If this belt's wearer has at least one hand free (holding nothing), he can attempt to deflect a successful melee attack with an immediate action. To do so, he rolls an unarmed strike against the opponent, including any applicable modifiers such as a favored enemy bonus or the penalty for [Power Attack](feats#_power-attack). If his attack roll is greater than the opponent's attack roll, the attack is negated without effect. The unarmed strike itself causes no damage and does not count as a successful attack against the opponent. The opponent does not need to be within the wearer's reach to use this ability. Whether the attack succeeds or not, the wearer takes a –4 penalty on attack rolls until the end of his next turn.
 
 Construction Requirements
 
 **Cost** 12,500 gp
 
-Craft Wondrous Item, [Combat Expertise](feats.md#_combat-expertise), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike)
+Craft Wondrous Item, [Combat Expertise](feats#_combat-expertise), [Improved Unarmed Strike](feats#_improved-unarmed-strike)
 
 Security Belt
 
 **Price** 12,500 gp; **Aura** faint transmutation; **CL** 5th; **Weight** 1 lb.
 
-A _security belt _increases the DC of [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks made against the wearer and checks to locate items or weapons hidden on the wearer's person by 5. The wearer also gets a +5 bonus to CMD against the steal maneuver. Once per day on command, the wearer can touch a single item of up to 10 cubic feet and shrink it into a tiny cloth duplicate as the _ [shrink item](spells/shrinkItem.md#_shrink-item) _spell. With a move action, the wearer can draw one of these items from one of the belt's pockets and return it to normal size_. _It is difficult to detect a _security belt _and any items in the pockets as magic. They are affected as though a constant _ [magic aura](spells/magicAura.md#_magic-aura)_ spell were making them appear nonmagical.
+A _security belt _increases the DC of [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand) checks made against the wearer and checks to locate items or weapons hidden on the wearer's person by 5. The wearer also gets a +5 bonus to CMD against the steal maneuver. Once per day on command, the wearer can touch a single item of up to 10 cubic feet and shrink it into a tiny cloth duplicate as the _ [shrink item](spells/shrinkItem#_shrink-item) _spell. With a move action, the wearer can draw one of these items from one of the belt's pockets and return it to normal size_. _It is difficult to detect a _security belt _and any items in the pockets as magic. They are affected as though a constant _ [magic aura](spells/magicAura#_magic-aura)_ spell were making them appear nonmagical.
 
 Construction Requirements
 
 **Cost** 6,250 gp
 
-Craft Wondrous Item, _ [magic aura](spells/magicAura.md#_magic-aura)_,_ [shrink item](spells/shrinkItem.md#_shrink-item)_
+Craft Wondrous Item, _ [magic aura](spells/magicAura#_magic-aura)_,_ [shrink item](spells/shrinkItem#_shrink-item)_
 
 Serpent Belt
 
 **Price** 9,000 gp; **Aura** faint transmutation; **CL** 5th; **Weight** 1 lb.
 
-This belt's wearer gains a +4 bonus to all poisons and a +2 bonus on [Escape Artist](skills/escapeArtist.md#_escape-artist) checks. In addition, once per day on command, the belt can be animated as a venomous snake or constrictor snake that obeys the animator's spoken commands for up to an hour. If the animated snake is slain or moves 100 feet away from the animator, the snake reverts into belt form.
+This belt's wearer gains a +4 bonus to all poisons and a +2 bonus on [Escape Artist](skills/escapeArtist#_escape-artist) checks. In addition, once per day on command, the belt can be animated as a venomous snake or constrictor snake that obeys the animator's spoken commands for up to an hour. If the animated snake is slain or moves 100 feet away from the animator, the snake reverts into belt form.
 
 Construction Requirements
 
 **Cost** 4,500 gp
 
-Craft Wondrous Item, _beast form I_,_ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_,_ [summon nature's ally II](spells/summonNatureSAlly.md#_summon-nature-s-ally-ii)_
+Craft Wondrous Item, _beast form I_,_ [neutralize poison](spells/neutralizePoison#_neutralize-poison)_,_ [summon nature's ally II](spells/summonNatureSAlly#_summon-nature-s-ally-ii)_
 
 Serpent Belt, Greater
 
@@ -545,7 +545,7 @@ Construction Requirements
 
 **Cost** 10,000 gp
 
-Craft Wondrous Item, _beast form I_, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_, _ [summon monster II](spells/summonMonster.md#_summon-monster-ii)_ or _ [summon nature's ally II](spells/summonNatureSAlly.md#_summon-nature-s-ally-ii)_
+Craft Wondrous Item, _beast form I_, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [neutralize poison](spells/neutralizePoison#_neutralize-poison)_, _ [summon monster II](spells/summonMonster#_summon-monster-ii)_ or _ [summon nature's ally II](spells/summonNatureSAlly#_summon-nature-s-ally-ii)_
 
 Shadowform Belt
 
@@ -557,5 +557,5 @@ Construction Requirements
 
 **Cost** 55,000 gp
 
-Craft Wondrous Item, _cats [grace](advanced/spells/grace.md#_grace)_, _ [etherealness](magicItems/armor.md#_armor-etherealness)_
+Craft Wondrous Item, _cats [grace](advanced/spells/grace#_grace)_, _ [etherealness](magicItems/armor#_armor-etherealness)_
 

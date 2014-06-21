@@ -8,17 +8,17 @@ The six new base classes presented in this book are equivalent in power to the 1
 
 Each new class presents interesting character themes and special abilities as follows.
 
-**[Alchemist](baseClasses/alchemist.md)** : The alchemist is the master of alchemy, using extracts to grant him great power, mutagens to enhance his form, and bombs to destroy his enemies.
+**[Alchemist](baseClasses/alchemist)** : The alchemist is the master of alchemy, using extracts to grant him great power, mutagens to enhance his form, and bombs to destroy his enemies.
 
-**[Cavalier](baseClasses/cavalier.md)** : Mounted upon his mighty steed, the cavalier is a brave warrior, using his wit, charm, and strength at arms to rally his companions and achieve his goals.
+**[Cavalier](baseClasses/cavalier)** : Mounted upon his mighty steed, the cavalier is a brave warrior, using his wit, charm, and strength at arms to rally his companions and achieve his goals.
 
-**[Inquisitor](baseClasses/inquisitor.md)** : Scourge of the unfaithful and hunter of horrors, the inquisitor roots out the enemies of her faith with grim conviction and an array of divine blessings.
+**[Inquisitor](baseClasses/inquisitor)** : Scourge of the unfaithful and hunter of horrors, the inquisitor roots out the enemies of her faith with grim conviction and an array of divine blessings.
 
-**[Oracle](baseClasses/oracle.md)** : Drawing upon divine mysteries, the oracle channels divine power through her body and soul, but at a terrible price.
+**[Oracle](baseClasses/oracle)** : Drawing upon divine mysteries, the oracle channels divine power through her body and soul, but at a terrible price.
 
-**[Summoner](baseClasses/summoner.md)** : Bonded to a mysterious creature called an eidolon, the summoner focuses his power on strengthing that connection and enhancing his strange, otherworldy companion.
+**[Summoner](baseClasses/summoner)** : Bonded to a mysterious creature called an eidolon, the summoner focuses his power on strengthing that connection and enhancing his strange, otherworldy companion.
 
-**[Witch](baseClasses/witch.md)** : Lurking on the fringe of civilization, the witch makes a powerful connection with a patron that grants her strange and mysterious powers through a special familiar.
+**[Witch](baseClasses/witch)** : Lurking on the fringe of civilization, the witch makes a powerful connection with a patron that grants her strange and mysterious powers through a special familiar.
 
 # Starting Wealth
 

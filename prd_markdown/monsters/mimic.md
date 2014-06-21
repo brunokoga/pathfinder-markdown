@@ -6,9 +6,9 @@ _What appeared to be a chest filled with treasure comes to life as it grows long
 
 **XP 1,200**
 
-N Medium [aberration](creatureTypes.md#_aberration) (shapechanger)
+N Medium [aberration](creatureTypes#_aberration) (shapechanger)
 
-**Init** +5; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +11
+**Init** +5; **Senses** darkvision 60 ft.; [Perception](../skills/perception#_perception) +11
 
 **Defense**
 
@@ -26,7 +26,7 @@ N Medium [aberration](creatureTypes.md#_aberration) (shapechanger)
 
 **Melee** slam +10 (1d8+6 plus adhesive)
 
-**Special Attacks** [constrict](universalMonsterRules.md#_constrict) (slam, 1d8+6)
+**Special Attacks** [constrict](universalMonsterRules#_constrict) (slam, 1d8+6)
 
 **Statistics**
 
@@ -34,9 +34,9 @@ N Medium [aberration](creatureTypes.md#_aberration) (shapechanger)
 
 **Base Atk** +5; **CMB** +9; **CMD** 20 (can't be tripped)
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Weapon Focus](../feats.md#_weapon-focus) (slam)
+**Feats** [Improved Initiative](../feats#_improved-initiative), [Lightning Reflexes](../feats#_lightning-reflexes), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception)), [Weapon Focus](../feats#_weapon-focus) (slam)
 
-**Skills** [Climb](../skills/climb.md#_climb) +14, [Disguise](../skills/disguise.md#_disguise) +10 (+30 when mimicking objects), [Knowledge](../skills/knowledge.md#_knowledge) (dungeoneering) +10, [Perception](../skills/perception.md#_perception) +14; **Racial Modifiers** +20 [Disguise](../skills/disguise.md#_disguise) when mimicking objects
+**Skills** [Climb](../skills/climb#_climb) +14, [Disguise](../skills/disguise#_disguise) +10 (+30 when mimicking objects), [Knowledge](../skills/knowledge#_knowledge) (dungeoneering) +10, [Perception](../skills/perception#_perception) +14; **Racial Modifiers** +20 [Disguise](../skills/disguise#_disguise) when mimicking objects
 
 **Languages** Common
 
@@ -54,7 +54,7 @@ N Medium [aberration](creatureTypes.md#_aberration) (shapechanger)
 
 **Adhesive (Ex)** A mimic exudes a thick slime that acts as a powerful adhesive, holding fast any creatures or items that touch it. An adhesive-covered mimic automatically grapples any creature it hits with its slam attack. Opponents so grappled cannot get free while the mimic is alive without removing the adhesive first. A weapon that strikes an adhesive-coated mimic is stuck fast unless the wielder succeeds on a DC 17 Reflex save. A successful DC 17 Strength check is needed to pry off a stuck weapon. Strong alcohol or _universal solvent_ dissolves the adhesive, but the mimic can still grapple normally. A mimic can dissolve its adhesive at will, and the substance breaks down 5 rounds after the creature dies. The save DC is Strength-based.
 
-**Mimic Object (Ex)** A mimic can assume the general shape of any Medium object, such as a massive chest, a stout bed, or a door. The creature cannot substantially alter its size, though. A mimic's body is hard and has a rough texture, no matter what appearance it might present. A mimic gains a +20 racial bonus on [Disguise](../skills/disguise.md#_disguise) checks when imitating an object in this manner. [Disguise](../skills/disguise.md#_disguise) is always a class skill for a mimic.
+**Mimic Object (Ex)** A mimic can assume the general shape of any Medium object, such as a massive chest, a stout bed, or a door. The creature cannot substantially alter its size, though. A mimic's body is hard and has a rough texture, no matter what appearance it might present. A mimic gains a +20 racial bonus on [Disguise](../skills/disguise#_disguise) checks when imitating an object in this manner. [Disguise](../skills/disguise#_disguise) is always a class skill for a mimic.
 
 Mimics are thought to be the result of an alchemist's attempt to grant life to an inanimate object through the application of an eldritch reagent, the recipe for which is long lost. Over time, these strange but clever creatures have learned the ability to transform themselves into simulacra of man-made objects, particularly in locations that have infrequent traffic by small numbers of creatures, thus increasing their odds of successfully attacking their victims.
 

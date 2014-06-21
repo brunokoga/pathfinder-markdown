@@ -18,7 +18,7 @@ Each hex on the map is 12 miles across from corner to corner, representing an ar
 
 To determine how long it takes the PCs to travel through a hex or fully explore it, determine the group's base speed (set by the slowest member of the group) and consult the Travel Time (1 Hex) table or Exploration Time (1 Hex) table. These times represent the movement and exploration of a normal hex of the specified terrain type; rules presented later in this section modify the amount of time it takes to travel through or fully explore a hex.
 
-A typical wilderness hex is trackless ( [see the Terrain and Overland Movement table](additionalRules.md#_local-movement)). Though no humanoid-created roads or trails pass through it, trails by game animals might. If a hex contains more than one terrain type, treat it as the most prevalent terrain for the purpose of travel times.
+A typical wilderness hex is trackless ( [see the Terrain and Overland Movement table](additionalRules#_local-movement)). Though no humanoid-created roads or trails pass through it, trails by game animals might. If a hex contains more than one terrain type, treat it as the most prevalent terrain for the purpose of travel times.
 
 [Travel Time (1 Hex)]
 | Party Speed | Plain | All Other Terrain |
@@ -78,7 +78,7 @@ A specific, planned encounter for a hex does not have to be especially complicat
 
 After creating these encounters, choose a hex on the map and note that an encounter occurs there. When the party draws closer to a hex with a planned encounter, foreshadow it with appropriate details. For example, if you plan to have the party discover a battle between two armies, the nearby hexes should contain signs of an army's passage—old cooking fires, piles of refuse, and even the graves of soldiers who fell to illness along the way give your players clues about the impending encounter.
 
-A few encounter sites are landmarks immediately obvious or visible with just a little bit of looking or scouting. A PC who enters the hex automatically discovers the landmark. If a PC in an adjacent hex spends an hour studying the landmark's hex and succeeds at a DC 10 [Survival](skills/survival.md#_survival) check, he discovers the landmark. When the PCs discover a landmark, note it on the landmark's hex.
+A few encounter sites are landmarks immediately obvious or visible with just a little bit of looking or scouting. A PC who enters the hex automatically discovers the landmark. If a PC in an adjacent hex spends an hour studying the landmark's hex and succeeds at a DC 10 [Survival](skills/survival#_survival) check, he discovers the landmark. When the PCs discover a landmark, note it on the landmark's hex.
 
 Many encounter sites remain undiscovered unless the PCs decide to explore a hex rather than just travel through it. By exploring the hex, the PCs discover the site automatically. Some sites are hidden, requiring the PCs to make an appropriate skill check as they explore. The skill and its DC depend on the nature of the site.
 
@@ -96,7 +96,7 @@ A desert is any sort of terrain that receives very little rainfall. It can be wa
 
 This section pertains mostly to warm and temperate deserts. In cold environments, a desert is usually tundra, which acts like another terrain category depending on the current season. During most of the year, a cold desert is covered in a layer of permafrost, creating hard, stable terrain (which is treated as plains). During the warm season, the permafrost thaws and turns the area into mud (which is treated as marsh).
 
-**Difficult** : A difficult desert is a treacherous place, full of sand dunes, sinkholes, rubble, sandstorms, or numerous ravines. Rare seasonal rains might cause flash floods, sweeping away or drowning any creature in their path. [Survival](skills/survival.md#_survival) checks to avoid getting lost or to become un-lost in this hex gain a +1 bonus. [Survival](skills/survival.md#_survival) checks to get along in the wild increase by 5.
+**Difficult** : A difficult desert is a treacherous place, full of sand dunes, sinkholes, rubble, sandstorms, or numerous ravines. Rare seasonal rains might cause flash floods, sweeping away or drowning any creature in their path. [Survival](skills/survival#_survival) checks to avoid getting lost or to become un-lost in this hex gain a +1 bonus. [Survival](skills/survival#_survival) checks to get along in the wild increase by 5.
 
 Treat a flash flood as an avalanche, except instead of suffocating from being buried under rock, creatures who are buried must hold their breaths or start drowning.
 
@@ -114,13 +114,13 @@ Ruins half-buried in the desert could still contain lost treasures or might alre
 
 A normal forest hex can be any sort of common forest: sparse patches of trees in the lowlands, thickly needled pines of the taiga, a lush tropical jungle, or even an ancient fruit tree grove turned overgrown and wild.
 
-**Difficult** : A difficult forest is a treacherous place, full of rotting trees that can fall without warning, twisted scythe trees that lunge at their victims, or witch-lights that lead expeditions off the path. For each hour spent traveling through a difficult forest, there is a 5% chance of a falling tree hazard. [Survival](skills/survival.md#_survival) check DCs to avoid getting lost increase by 5.
+**Difficult** : A difficult forest is a treacherous place, full of rotting trees that can fall without warning, twisted scythe trees that lunge at their victims, or witch-lights that lead expeditions off the path. For each hour spent traveling through a difficult forest, there is a 5% chance of a falling tree hazard. [Survival](skills/survival#_survival) check DCs to avoid getting lost increase by 5.
 
 **Feature** : A forest hex feature could be either a cluster of massive old-growth trees or some type of tree that is unique to that region. In an old-growth forest, the canopy limits how much light reaches the ground, so undergrowth tends to be low-lying, tough plants like mosses and ferns.
 
 **Hunting Ground** : This kind of forest hex is often treated with awe by local people, as hunting grounds are full of a terrifying array of arboreal creatures. The chance of random encounters within these forests increases by 10%.
 
-**Resource** : This hex contains valuable lumber, medicinal herbs, or plentiful sources of game meat. [Survival](skills/survival.md#_survival) checks to get along in the wild gain a +5 bonus.
+**Resource** : This hex contains valuable lumber, medicinal herbs, or plentiful sources of game meat. [Survival](skills/survival#_survival) checks to get along in the wild gain a +5 bonus.
 
 **Secret** : A secret forest hex has thick mists or deep shadows that make fully exploring it a time-consuming prospect. Exploration time increases by 50%.
 
@@ -130,19 +130,19 @@ A hill is lower and less steep than a mountain. Hills are often transitional ter
 
 **Difficult** : Full of short cliffs and jagged stones, a difficult hill hex requires extra caution to avoid dangerous falls. For the purposes of travel and exploration times, treat the party's speed as one category slower.
 
-**Feature** : The hex might be the site of a famous historical battle or the burial mound of long-dead chieftains. It provides a commanding view of the surrounding region and is useful as a waypoint. [Survival](skills/survival.md#_survival) checks to avoid getting lost or to become un-lost in this hex gain a +1 bonus.
+**Feature** : The hex might be the site of a famous historical battle or the burial mound of long-dead chieftains. It provides a commanding view of the surrounding region and is useful as a waypoint. [Survival](skills/survival#_survival) checks to avoid getting lost or to become un-lost in this hex gain a +1 bonus.
 
 **Hunting Ground** : The hex is cut with valleys and trenches that obscure predators from view. The chance of random encounters increases by 25%.
 
 **Resource** : The hex contains resources such as quality stone, coal, precious metals, or gems.
 
-**Secret** : Hidden caverns provide shelter and lairs for monsters. Locating these caverns requires a successful DC 10 [Perception](skills/perception.md#_perception) or [Survival](skills/survival.md#_survival) check. PCs who take shelter here suffer no effect from storms and similar hazards, but the chance of random encounters increases by 10%.
+**Secret** : Hidden caverns provide shelter and lairs for monsters. Locating these caverns requires a successful DC 10 [Perception](skills/perception#_perception) or [Survival](skills/survival#_survival) check. PCs who take shelter here suffer no effect from storms and similar hazards, but the chance of random encounters increases by 10%.
 
 ### Marsh
 
-Marshes, swamps, and bogs are challenging ground to traverse. [Survival](skills/survival.md#_survival) check DCs to avoid getting lost increase by 1 in a marsh hex.
+Marshes, swamps, and bogs are challenging ground to traverse. [Survival](skills/survival#_survival) check DCs to avoid getting lost increase by 1 in a marsh hex.
 
-**Difficult** : A difficult marsh hex is a deadly place, replete with quicksand, poisonous plants, and treacherous water. The DCs for [Survival](skills/survival.md#_survival) checks to get along in the wild increase by 5. For the purposes of travel and exploration times, treat the party's speed as one category slower.
+**Difficult** : A difficult marsh hex is a deadly place, replete with quicksand, poisonous plants, and treacherous water. The DCs for [Survival](skills/survival#_survival) checks to get along in the wild increase by 5. For the purposes of travel and exploration times, treat the party's speed as one category slower.
 
 **Feature** : The hex might be the location of a marsh creature's den (such as a hag), a sunken ruin, a large water causeway, or a shallow lake.
 
@@ -150,13 +150,13 @@ Marshes, swamps, and bogs are challenging ground to traverse. [Survival](skills/
 
 **Resource** : Marsh resources primarily come in the form of medicinal plants and herbs.
 
-**Secret** : Unfortunate explorers died in the marsh and left behind all their gear. With a successful DC 25 [Survival](skills/survival.md#_survival) check, the PCs can each salvage equipment worth 10 gp per character level.
+**Secret** : Unfortunate explorers died in the marsh and left behind all their gear. With a successful DC 25 [Survival](skills/survival#_survival) check, the PCs can each salvage equipment worth 10 gp per character level.
 
 ### Mountain
 
 Mountains form long barriers across the landscape that greatly impede the movement of travelers.
 
-**Difficult** : All [Climb](skills/climb.md#_climb) DCs in a difficult mountain hex increase by 2. For the purposes of travel and exploration times, treat the party's speed as one category slower.
+**Difficult** : All [Climb](skills/climb#_climb) DCs in a difficult mountain hex increase by 2. For the purposes of travel and exploration times, treat the party's speed as one category slower.
 
 **Feature** : The mountain is the highest in the vicinity or has an unusual shape, perhaps resembling a face or creature. Alternatively, use a feature from the Feature section of the hill hex terrain type.
 
@@ -164,7 +164,7 @@ Mountains form long barriers across the landscape that greatly impede the moveme
 
 **Resource** : The hex contains resources such as quality stone, coal, precious metals, or gems.
 
-**Secret** : Hidden pathways carved through the mountains offer speedier paths. If the PCs succeed at a DC 20 [Perception](skills/perception.md#_perception) check to find the pathways, they can ignore the default travel time increase for the mountain hex.
+**Secret** : Hidden pathways carved through the mountains offer speedier paths. If the PCs succeed at a DC 20 [Perception](skills/perception#_perception) check to find the pathways, they can ignore the default travel time increase for the mountain hex.
 
 ### Plain
 
@@ -178,7 +178,7 @@ Plains can be fields of high grasses, permanently frozen tundra, or flat badland
 
 **Resource** : The hex has edible plants (such as wheat or cacti) or useful vegetable matter (such as flax or cotton).
 
-**Secret** : Stolen goods are buried in the hex and marked with an innocuous sign, such as an out-of-place river rock. With a successful DC 25 [Perception](skills/perception.md#_perception) check, the PCs recognize the marker and can each salvage treasure or nonmagical gear worth 10 gp per character level.
+**Secret** : Stolen goods are buried in the hex and marked with an innocuous sign, such as an out-of-place river rock. With a successful DC 25 [Perception](skills/perception#_perception) check, the PCs recognize the marker and can each salvage treasure or nonmagical gear worth 10 gp per character level.
 
 ### Settlement
 
@@ -198,7 +198,7 @@ Normal settlement hexes are small villages or military encampments. Settlements 
 
 Whether a river, lake, or ocean, this type of hex is predominantly water. If the PCs lack swim speeds or boats, it is best to treat lakes and oceans as obstacles for the PCs to travel around rather than through. Treat the shores of the water hex as the adjacent terrain type.
 
-**Difficult** : Whitewater rapids, strong tides, or underwater vortexes mean this water is more challenging to cross. The [Swim](skills/swim.md#_swim) DCs to cross these waters increase by 5.
+**Difficult** : Whitewater rapids, strong tides, or underwater vortexes mean this water is more challenging to cross. The [Swim](skills/swim#_swim) DCs to cross these waters increase by 5.
 
 **Feature** : The hex is part of a large or well-known river's course, or has a sturdy bridge that facilitates easy crossing.
 
@@ -240,19 +240,19 @@ Hazards are dangerous obstacles or events relevant to a hex's terrain type. They
 
 ### Bad Weather (Any)
 
-Bad weather can range from minor precipitation to a [serious storm](environment.md#_weather). The weather can include lightning strikes and cause floods, landslides, and other natural hazards.
+Bad weather can range from minor precipitation to a [serious storm](environment#_weather). The weather can include lightning strikes and cause floods, landslides, and other natural hazards.
 
 ### Blight (Any)
 
-Whether from a lack of water, a plague, or hostile magic, the plants and wildlife in the hex are suffering. A blight affects the hex and all adjacent unexplored hexes, and lasts for 1d4+2 weeks. During a blight, [Survival](skills/survival.md#_survival) DCs to get along in the wild increase by 5.
+Whether from a lack of water, a plague, or hostile magic, the plants and wildlife in the hex are suffering. A blight affects the hex and all adjacent unexplored hexes, and lasts for 1d4+2 weeks. During a blight, [Survival](skills/survival#_survival) DCs to get along in the wild increase by 5.
 
 ### Deadly Gas (Desert, Marsh)
 
 In a marsh, pockets of flammable gas can build up under the surface before violently erupting, throwing rocks, mud, and debris in all directions with startling force. In a desert, toxic fumes from a natural vent, old mine, or magical disaster might leak into the air, poisoning or mutating nearby creatures.
 
-In a marsh, PCs can attempt a DC 15 [Perception](skills/perception.md#_perception) check to notice the smell and swelling before it erupts. The eruption deals 2d6 points of bludgeoning damage in a 20-foot radius, or 4d6 points of fire damage if the area contains open flame.
+In a marsh, PCs can attempt a DC 15 [Perception](skills/perception#_perception) check to notice the smell and swelling before it erupts. The eruption deals 2d6 points of bludgeoning damage in a 20-foot radius, or 4d6 points of fire damage if the area contains open flame.
 
-In a desert, PCs can attempt a DC 15 [Perception](skills/perception.md#_perception) check to notice the fumes and get out of their path before coming to harm. Otherwise, they must succeed at a DC 15 Fortitude save or take 1d4 points of Constitution damage and be nauseated for 10 minutes.
+In a desert, PCs can attempt a DC 15 [Perception](skills/perception#_perception) check to notice the fumes and get out of their path before coming to harm. Otherwise, they must succeed at a DC 15 Fortitude save or take 1d4 points of Constitution damage and be nauseated for 10 minutes.
 
 ### Dust Devil (Desert, Hill, Plain)
 
@@ -264,5 +264,5 @@ Grass fires are often caused by lightning or careless camp fires. A grass fire i
 
 ### Volcanic Tremor (Hill, Mountain)
 
-Though active volcanoes are rare, even dormant volcanoes can produce tremors. Tremors last anywhere from 1d4 rounds to 2d6 minutes and increase [Climb](skills/climb.md#_climb) DCs by 2. The tremors might start an avalanche or collapse a cave or cliff (similar to an _ [earthquake](spells/earthquake.md#__earthquake)_ spell).
+Though active volcanoes are rare, even dormant volcanoes can produce tremors. Tremors last anywhere from 1d4 rounds to 2d6 minutes and increase [Climb](skills/climb#_climb) DCs by 2. The tremors might start an avalanche or collapse a cave or cliff (similar to an _ [earthquake](spells/earthquake#__earthquake)_ spell).
 

@@ -10,7 +10,7 @@ Human ranger 4
 
 N Medium humanoid
 
-**Init** +2; **Senses** [Perception](../../skills/perception.md#_perception) +7
+**Init** +2; **Senses** [Perception](../../skills/perception#_perception) +7
 
 **Defense**
 
@@ -32,7 +32,7 @@ N Medium humanoid
 
 **Ranger Spells Prepared** (CL 1st; concentration +2)
 
-1st—_ [charm animal](../../spells/charmAnimal.md#_charm-animal) _(DC 12)
+1st—_ [charm animal](../../spells/charmAnimal#_charm-animal) _(DC 12)
 
 **Statistics**
 
@@ -40,17 +40,17 @@ N Medium humanoid
 
 **Base Atk** +4; **CMB** +6; **CMD** 19
 
-**Feats** [Deadly Aim](../../feats.md#_deadly-aim), [Dodge](../../feats.md#_dodge), [Endurance](../../feats.md#_endurance), [Mobility](../../feats.md#_mobility), Point Blank Shot
+**Feats** [Deadly Aim](../../feats#_deadly-aim), [Dodge](../../feats#_dodge), [Endurance](../../feats#_endurance), [Mobility](../../feats#_mobility), Point Blank Shot
 
-**Skills** [Climb](../../skills/climb.md#_climb) +10, [Craft](../../skills/craft.md#_craft) (traps) +9, [Handle Animal](../../skills/handleAnimal.md#_handle-animal) +6, [Heal](../../skills/heal.md#_heal) +8, [Perception](../../skills/perception.md#_perception) +7, [Profession](../../skills/profession.md#_profession) (trapper) +8, [Ride](../../skills/ride.md#_ride) +6, [Stealth](../../skills/stealth.md#_stealth) +8, [Survival](../../skills/survival.md#_survival) +8 (+10 to follow tracks), [Swim](../../skills/swim.md#_swim) +6
+**Skills** [Climb](../../skills/climb#_climb) +10, [Craft](../../skills/craft#_craft) (traps) +9, [Handle Animal](../../skills/handleAnimal#_handle-animal) +6, [Heal](../../skills/heal#_heal) +8, [Perception](../../skills/perception#_perception) +7, [Profession](../../skills/profession#_profession) (trapper) +8, [Ride](../../skills/ride#_ride) +6, [Stealth](../../skills/stealth#_stealth) +8, [Survival](../../skills/survival#_survival) +8 (+10 to follow tracks), [Swim](../../skills/swim#_swim) +6
 
 **Languages** Common
 
 **SQ** favored terrain (woods +2), hunter's bond (badger animal companion), track +2, wild empathy +4
 
-**Combat Gear** black adder venom (1 dose), _scrolls of [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_ (2), _scrolls of [speak with animals](../../spells/speakWithAnimals.md#_speak-with-animals)_ (2); **Other Gear** masterwork studded leather, masterwork buckler, masterwork battleaxe, masterwork composite longbow (+1 Str) with 20 arrows, throwing axes (2), climber's kit, healer's kit, masterwork trapmaking tools
+**Combat Gear** black adder venom (1 dose), _scrolls of [cure light wounds](../../spells/cureLightWounds#_cure-light-wounds)_ (2), _scrolls of [speak with animals](../../spells/speakWithAnimals#_speak-with-animals)_ (2); **Other Gear** masterwork studded leather, masterwork buckler, masterwork battleaxe, masterwork composite longbow (+1 Str) with 20 arrows, throwing axes (2), climber's kit, healer's kit, masterwork trapmaking tools
 
-**Boon** Trappers can provide food for the PCs for 1 week and can tell them secrets of the wild lands where they live, granting a +2 circumstance bonus on [Survival](../../skills/survival.md#_survival) checks within a 20-mile radius.
+**Boon** Trappers can provide food for the PCs for 1 week and can tell them secrets of the wild lands where they live, granting a +2 circumstance bonus on [Survival](../../skills/survival#_survival) checks within a 20-mile radius.
 
 Trappers are roving hunters who wander the woods. They take any animal they can safely hunt or trap, but they are best known as the heart of the fur trade, making a variety of handcrafted but deadly effective traps to catch the unwary beasts of the forest. Trappers could be used as royal game wardens, as scouts, or as hunters for a nomadic tribe.
 
@@ -64,7 +64,7 @@ Human druid 7
 
 N Medium humanoid
 
-**Init** +0; **Senses** [Perception](../../skills/perception.md#_perception) +10
+**Init** +0; **Senses** [Perception](../../skills/perception#_perception) +10
 
 **Defense**
 
@@ -86,15 +86,15 @@ N Medium humanoid
 
 **Druid Spells Prepared** (CL 7th; concentration +11)
 
-4th—_ [air walk](../../spells/airWalk.md#_air-walk)_, _ [flame strike](../../spells/flameStrike.md#_flame-strike)_ (DC 18)
+4th—_ [air walk](../../spells/airWalk#_air-walk)_, _ [flame strike](../../spells/flameStrike#_flame-strike)_ (DC 18)
 
-3rd—_ [call lightning](../../spells/callLightning.md#_call-lightning)_ (DC 18), _ [speak with plants](../../spells/speakWithPlants.md#_speak-with-plants)_, _ [stone shape](../../spells/stoneShape.md#_stone-shape)_
+3rd—_ [call lightning](../../spells/callLightning#_call-lightning)_ (DC 18), _ [speak with plants](../../spells/speakWithPlants#_speak-with-plants)_, _ [stone shape](../../spells/stoneShape#_stone-shape)_
 
-2nd—_ [flaming sphere](../../spells/flamingSphere.md#_flaming-sphere)_ (DC 18), _ [hold animal](../../spells/holdAnimal.md#_hold-animal)_ (DC 18), _ [resist energy](../../spells/resistEnergy.md#_resist-energy)_, _ [tree shape](../../spells/treeShape.md#_tree-shape)_
+2nd—_ [flaming sphere](../../spells/flamingSphere#_flaming-sphere)_ (DC 18), _ [hold animal](../../spells/holdAnimal#_hold-animal)_ (DC 18), _ [resist energy](../../spells/resistEnergy#_resist-energy)_, _ [tree shape](../../spells/treeShape#_tree-shape)_
 
-1st—_ [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_, _ [endure elements](../../spells/endureElements.md#_endure-elements)_, _ [hide from animals](../../spells/hideFromAnimals.md#_hide-from-animals)_, _ [longstrider](../../spells/longstrider.md#_longstrider)_, _ [produce flame](../../spells/produceFlame.md#_produce-flame)_
+1st—_ [cure light wounds](../../spells/cureLightWounds#_cure-light-wounds)_, _ [endure elements](../../spells/endureElements#_endure-elements)_, _ [hide from animals](../../spells/hideFromAnimals#_hide-from-animals)_, _ [longstrider](../../spells/longstrider#_longstrider)_, _ [produce flame](../../spells/produceFlame#_produce-flame)_
 
-0 (at will)—_ [create water](../../spells/createWater.md#_create-water)_, _ [guidance](../../spells/guidance.md#_guidance)_, _ [mending](../../spells/mending.md#_mending)_, _ [purify food and drink](../../spells/purifyFoodAndDrink.md#_purify-food-and-drink)_
+0 (at will)—_ [create water](../../spells/createWater#_create-water)_, _ [guidance](../../spells/guidance#_guidance)_, _ [mending](../../spells/mending#_mending)_, _ [purify food and drink](../../spells/purifyFoodAndDrink#_purify-food-and-drink)_
 
 **Statistics**
 
@@ -102,17 +102,17 @@ N Medium humanoid
 
 **Base Atk** +5; **CMB** +4; **CMD** 14
 
-**Feats** [Blind-Fight](../../feats.md#_blind-fight), [Combat Casting](../../feats.md#_combat-casting), [Craft Wand](../../feats.md#_craft-wand), [Natural Spell](../../feats.md#_natural-spell), [Self-Sufficient](../../feats.md#_self-sufficient)
+**Feats** [Blind-Fight](../../feats#_blind-fight), [Combat Casting](../../feats#_combat-casting), [Craft Wand](../../feats#_craft-wand), [Natural Spell](../../feats#_natural-spell), [Self-Sufficient](../../feats#_self-sufficient)
 
-**Skills** [Fly](../../skills/fly.md#_fly) +10, [Handle Animal](../../skills/handleAnimal.md#_handle-animal) +11, [Heal](../../skills/heal.md#_heal) +18, [Knowledge](../../skills/knowledge.md#_knowledge) (dungeoneering) +5, [Knowledge](../../skills/knowledge.md#_knowledge) (geography) +10, [Knowledge](../../skills/knowledge.md#_knowledge) (nature) +12, [Linguistics](../../skills/linguistics.md#_linguistics) +5, [Perception](../../skills/perception.md#_perception) +10, [Profession](../../skills/profession.md#_profession) (gardener) +10, [Profession](../../skills/profession.md#_profession) (herbalist) +10, [Spellcraft](../../skills/spellcraft.md#_spellcraft) +6, [Survival](../../skills/survival.md#_survival) +18, [Swim](../../skills/swim.md#_swim) +4
+**Skills** [Fly](../../skills/fly#_fly) +10, [Handle Animal](../../skills/handleAnimal#_handle-animal) +11, [Heal](../../skills/heal#_heal) +18, [Knowledge](../../skills/knowledge#_knowledge) (dungeoneering) +5, [Knowledge](../../skills/knowledge#_knowledge) (geography) +10, [Knowledge](../../skills/knowledge#_knowledge) (nature) +12, [Linguistics](../../skills/linguistics#_linguistics) +5, [Perception](../../skills/perception#_perception) +10, [Profession](../../skills/profession#_profession) (gardener) +10, [Profession](../../skills/profession#_profession) (herbalist) +10, [Spellcraft](../../skills/spellcraft#_spellcraft) +6, [Survival](../../skills/survival#_survival) +18, [Swim](../../skills/swim#_swim) +4
 
 **Languages** Aquan, Auran, Common, Ignan, Sylvan, Terran
 
 **SQ** nature bond (owl animal companion), nature sense, trackless step, wild empathy +8, woodland stride
 
-**Combat Gear** _wands of [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_, _ [detect animals or plants](../../spells/detectAnimalsOrPlants.md#_detect-animals-or-plants)_, _ [faerie fire](../../spells/faerieFire.md#_faerie-fire)_, _ [lesser restoration](../../spells/restoration.md#_restoration-lesser)_,_ [speak with animals](../../spells/speakWithAnimals.md#_speak-with-animals) _(50 charges each); **Other Gear** quarterstaff, _ [bracers of armor](../../magicItems/wondrousItems.md#_bracers-of-armor) +1_, _ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +1_, antitoxin (2), healer's kit, wooden holy symbol
+**Combat Gear** _wands of [cure light wounds](../../spells/cureLightWounds#_cure-light-wounds)_, _ [detect animals or plants](../../spells/detectAnimalsOrPlants#_detect-animals-or-plants)_, _ [faerie fire](../../spells/faerieFire#_faerie-fire)_, _ [lesser restoration](../../spells/restoration#_restoration-lesser)_,_ [speak with animals](../../spells/speakWithAnimals#_speak-with-animals) _(50 charges each); **Other Gear** quarterstaff, _ [bracers of armor](../../magicItems/wondrousItems#_bracers-of-armor) +1_, _ [cloak of resistance](../../magicItems/wondrousItems#_cloak-of-resistance) +1_, antitoxin (2), healer's kit, wooden holy symbol
 
-**Boon** A hermit can offer healing, food, and shelter for up to a week. A hermit can also arrange a meeting with a sentient creature or wilderness NPC with a +5 bonus on related [Diplomacy](../../skills/diplomacy.md#_diplomacy) checks due to the hermit's reputation.
+**Boon** A hermit can offer healing, food, and shelter for up to a week. A hermit can also arrange a meeting with a sentient creature or wilderness NPC with a +5 bonus on related [Diplomacy](../../skills/diplomacy#_diplomacy) checks due to the hermit's reputation.
 
 Hermits are lonely dwellers in the wilderness, eking out an existence in harmony with nature and delighting in their solitude, far from the noise and bustle of civilization. Hermits can act as woodland sentinels, spying on trespassers. Hermits rarely have companions other than animals, but they may occasionally have a pilgrim or a pair of vagabonds as guests (CR 7) or take counsel with a shaman and beast master (CR 9) whose tribe lives nearby.
 
@@ -124,7 +124,7 @@ Human expert 9
 
 N Medium humanoid
 
-**Init** +2; **Senses** [Perception](../../skills/perception.md#_perception) +14
+**Init** +2; **Senses** [Perception](../../skills/perception#_perception) +14
 
 **Defense**
 
@@ -140,7 +140,7 @@ N Medium humanoid
 
 **Melee** mwk shortspear +7/+2 (1d6) or dagger +6/+1 (1d4/19–20)
 
-**Ranged** _+1 [light](../../spells/light.md#_light) crossbow_ +9 (1d8+1/19–20) or mwk shortspear +9 (1d6) or dagger +8 (1d4/19–20)
+**Ranged** _+1 [light](../../spells/light#_light) crossbow_ +9 (1d8+1/19–20) or mwk shortspear +9 (1d6) or dagger +8 (1d4/19–20)
 
 **Statistics**
 
@@ -148,13 +148,13 @@ N Medium humanoid
 
 **Base Atk** +6; **CMB** +6; **CMD** 18
 
-**Feats** [Animal Affinity](../../feats.md#_animal-affinity), [Endurance](../../feats.md#_endurance), [Far Shot](../../feats.md#_far-shot), [Mounted Combat](../../feats.md#_mounted-combat), Point Blank Shot, [Skill Focus](../../feats.md#_skill-focus) ( [Survival](../../skills/survival.md#_survival))
+**Feats** [Animal Affinity](../../feats#_animal-affinity), [Endurance](../../feats#_endurance), [Far Shot](../../feats#_far-shot), [Mounted Combat](../../feats#_mounted-combat), Point Blank Shot, [Skill Focus](../../feats#_skill-focus) ( [Survival](../../skills/survival#_survival))
 
-**Skills** [Climb](../../skills/climb.md#_climb) +8, [Handle Animal](../../skills/handleAnimal.md#_handle-animal) +12, [Knowledge](../../skills/knowledge.md#_knowledge) (geography) +12, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +5, [Knowledge](../../skills/knowledge.md#_knowledge) (nature) +5, [Linguistics](../../skills/linguistics.md#_linguistics) +9, [Perception](../../skills/perception.md#_perception) +14, [Ride](../../skills/ride.md#_ride) +15, [Stealth](../../skills/stealth.md#_stealth) +13, [Survival](../../skills/survival.md#_survival) +17, [Swim](../../skills/swim.md#_swim) +4
+**Skills** [Climb](../../skills/climb#_climb) +8, [Handle Animal](../../skills/handleAnimal#_handle-animal) +12, [Knowledge](../../skills/knowledge#_knowledge) (geography) +12, [Knowledge](../../skills/knowledge#_knowledge) (local) +5, [Knowledge](../../skills/knowledge#_knowledge) (nature) +5, [Linguistics](../../skills/linguistics#_linguistics) +9, [Perception](../../skills/perception#_perception) +14, [Ride](../../skills/ride#_ride) +15, [Stealth](../../skills/stealth#_stealth) +13, [Survival](../../skills/survival#_survival) +17, [Swim](../../skills/swim#_swim) +4
 
 **Languages** Common, Elven, Gnoll, Gnome, Halfling, Orc, Sylvan
 
-**Combat Gear** _potion of [spider climb](../../spells/spiderClimb.md#_spider-climb)_, smokestick, tanglefoot bags (2); **Other Gear** _+1 chain shirt_, _+1 [light](../../spells/light.md#_light) crossbow_ with 20 bolts, dagger, mwk shortspear, climber's kit, heavy horse (combat trained) with studded leather barding and _ [horseshoes of speed](../../magicItems/wondrousItems.md#_horseshoes-of-speed)_, tindertwigs (5), 5 gp
+**Combat Gear** _potion of [spider climb](../../spells/spiderClimb#_spider-climb)_, smokestick, tanglefoot bags (2); **Other Gear** _+1 chain shirt_, _+1 [light](../../spells/light#_light) crossbow_ with 20 bolts, dagger, mwk shortspear, climber's kit, heavy horse (combat trained) with studded leather barding and _ [horseshoes of speed](../../magicItems/wondrousItems#_horseshoes-of-speed)_, tindertwigs (5), 5 gp
 
 **Boon** A guide can track a particular creature or lead the PCs safely through a wilderness area for up to 3 days.
 

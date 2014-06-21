@@ -36,7 +36,7 @@ Lengthy
 
 **Level** 0
 
-A wordspell with this meta word doubles its duration. This meta word has no affect on effect words with a duration of instantaneous. The effect of this word does not stack with the effect of the [Extend Spell](feats.md#_extend-spell) feat.
+A wordspell with this meta word doubles its duration. This meta word has no affect on effect words with a duration of instantaneous. The effect of this word does not stack with the effect of the [Extend Spell](feats#_extend-spell) feat.
 
 Manifestation
 

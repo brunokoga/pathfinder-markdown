@@ -1,12 +1,12 @@
 # Inevitable
 
-Originally invented and forged in the Outer Planes by the [axiomites](additionalMonsters/axiomite.md), inevitables are living machines whose sole purpose is to seek out and destroy agents of chaos wherever they can.
+Originally invented and forged in the Outer Planes by the [axiomites](additionalMonsters/axiomite), inevitables are living machines whose sole purpose is to seek out and destroy agents of chaos wherever they can.
 
 During the height of the first war between law and chaos, while the Outer Planes were still forming from the raw chaos of the primal reality, inevitables were constructed by the axiomites as an unflinching army—soldiers powerful and devoted enough to march on the madness-inducing hordes of proteans who sought to unmake reality and return it all to the primal chaos they so adored. While this war has long since cooled to a simmer, and the reality of the Outer Planes is now not so easily threatened by the entropic influence of the proteans and their home plane, the defense of the axiomites' home plane remains the inevitables' primary goal. Despite the proteans' subsequent adaptation and study of how best to make themselves more resistant to the inevitables' attacks, these constructed soldiers remain imposingly effective.
 
 Today, many inevitables—almost all of those encountered on the Material Plane—pursue a new aspect of their original mission: tracking down those who flagrantly flout the forces of law and redeeming them or, more often, eliminating the threat they present to the ordered nature of the multiverse. Matched on the side of chaos by the manipulative imentesh proteans, new inevitables awake to find themselves locked in a proxy war, knowing that losing the Material Plane to chaos would place their masters in a dangerous position.
 
-Genderless, incorruptible, and caring nothing for power or personal advancement, inevitables are cunning and valiant shock troops in the service of law. Though they regularly interact with their creator race on their home plane, they have no society of their own, and are almost always encountered singly on other planes, each more than capable of pursuing its own mission. These individual crusades range from enforcing important or high-profile contracts and laws to forcibly correcting those mortals who would seek to cheat death. How they deal with the guilty varies according to the transgression: sometimes this means a simple _geas_ or _ [mark of justice](additionalMonsters/../spells/markOfJustice.md#_mark-of-justice)_ to ensure that the target works to right his wrongs or never again strays from the path of law, but just as often an offense worthy of an inevitable's attention is severe enough that only immediate execution will suffice. Such decisions are not always popular—for the kindly priest who transcends mortality and the freedom fighter who battles the evil-yet-rightful king are every bit as guilty as grave-robbing necromancers and demon-worshipers—but the inevitables are always just, and few dare stand in the way of their judgment. Those inevitables who have completed a given mission often wander through whatever society they find themselves in, seeking other lawbreakers worthy of their ministrations. Brave souls with a worthy cause are always welcome to approach an inevitable and present their case, but should be wary of invoking the help of such powerful, single-minded beings—for an inevitable may not see the situation the same way they do, and though all inevitables do their best to preserve innocent life, they're not above sacrificing a few allies or innocents in an effort to bring down a greater villain.
+Genderless, incorruptible, and caring nothing for power or personal advancement, inevitables are cunning and valiant shock troops in the service of law. Though they regularly interact with their creator race on their home plane, they have no society of their own, and are almost always encountered singly on other planes, each more than capable of pursuing its own mission. These individual crusades range from enforcing important or high-profile contracts and laws to forcibly correcting those mortals who would seek to cheat death. How they deal with the guilty varies according to the transgression: sometimes this means a simple _geas_ or _ [mark of justice](additionalMonsters/../spells/markOfJustice#_mark-of-justice)_ to ensure that the target works to right his wrongs or never again strays from the path of law, but just as often an offense worthy of an inevitable's attention is severe enough that only immediate execution will suffice. Such decisions are not always popular—for the kindly priest who transcends mortality and the freedom fighter who battles the evil-yet-rightful king are every bit as guilty as grave-robbing necromancers and demon-worshipers—but the inevitables are always just, and few dare stand in the way of their judgment. Those inevitables who have completed a given mission often wander through whatever society they find themselves in, seeking other lawbreakers worthy of their ministrations. Brave souls with a worthy cause are always welcome to approach an inevitable and present their case, but should be wary of invoking the help of such powerful, single-minded beings—for an inevitable may not see the situation the same way they do, and though all inevitables do their best to preserve innocent life, they're not above sacrificing a few allies or innocents in an effort to bring down a greater villain.
 
 Physically, inevitables often have humanoid forms or aspects, but their bodies appear somewhere between clockwork constructs and fine statues in the greatest classical tradition. Constructed of stone, adamantine, and even more precious materials, each inevitable is brought to sentience in the axiomites' forges already programmed with the details of its first target. Though they know that all beings outside of the lawful planes harbor chaos in their hearts, inevitables also understand that such conflicted creatures may yet be forces for law as much as for chaos, and thus overlook all but the most flagrant offenses. The most commonly recognized types of inevitables are as follows.
 
@@ -32,15 +32,15 @@ A sphere of bronze and copper set with a single eye, this winged creature has tw
 
 **XP 600**
 
-LN Tiny [outsider](monsters/creatureTypes.md#_outsider) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [inevitable](monsters/creatureTypes.md#_inevitable-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype))
+LN Tiny [outsider](monsters/creatureTypes#_outsider) ( [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [inevitable](monsters/creatureTypes#_inevitable-subtype), [lawful](monsters/creatureTypes#_lawful-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft., _ [detect chaos](additionalMonsters/../spells/detectChaos.md#_detect-chaos)_, low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +5
+**Init** +3; **Senses** darkvision 60 ft., _ [detect chaos](additionalMonsters/../spells/detectChaos#_detect-chaos)_, low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +5
 
 Defense
 
 **AC** 16, touch 15, flat-footed 13 (+3 Dex, +1 natural, +2 size)
 
-**hp** 15 (2d10+4); regeneration 2 ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype))
+**hp** 15 (2d10+4); regeneration 2 ( [chaotic](monsters/creatureTypes#_chaotic-subtype))
 
 **Fort** +5, **Ref** +3, **Will** +3
 
@@ -58,11 +58,11 @@ Offense
 
 **Spell-Like Abilities** (CL 2nd; concentration +4)
 
-Constant—_ [detect chaos](additionalMonsters/../spells/detectChaos.md#_detect-chaos)_
+Constant—_ [detect chaos](additionalMonsters/../spells/detectChaos#_detect-chaos)_
 
-3/day—_ [command](additionalMonsters/../spells/command.md#_command)_ (DC 13), _ [make whole](additionalMonsters/../spells/makeWhole.md#_make-whole)_, _ [protection from chaos](additionalMonsters/../spells/protectionFromChaos.md#_protection-from-chaos)_
+3/day—_ [command](additionalMonsters/../spells/command#_command)_ (DC 13), _ [make whole](additionalMonsters/../spells/makeWhole#_make-whole)_, _ [protection from chaos](additionalMonsters/../spells/protectionFromChaos#_protection-from-chaos)_
 
-1/week—_ [commune](additionalMonsters/../spells/commune.md#_commune)_ (CL 12th, 6 questions)
+1/week—_ [commune](additionalMonsters/../spells/commune#_commune)_ (CL 12th, 6 questions)
 
 Statistics
 
@@ -70,13 +70,13 @@ Statistics
 
 **Base Atk** +2; **CMB** +3; **CMD** 13
 
-**Feats** [Flyby Attack](additionalMonsters/../monsters/monsterFeats.md#_flyby-attack), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)B
+**Feats** [Flyby Attack](additionalMonsters/../monsters/monsterFeats#_flyby-attack), [Weapon Finesse](additionalMonsters/../feats#_weapon-finesse)B
 
-**Skills** [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +7, [Fly](additionalMonsters/../skills/fly.md#_fly) +12, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +5, [Perception](additionalMonsters/../skills/perception.md#_perception) +5, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +5, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +16
+**Skills** [Diplomacy](additionalMonsters/../skills/diplomacy#_diplomacy) +7, [Fly](additionalMonsters/../skills/fly#_fly) +12, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +5, [Perception](additionalMonsters/../skills/perception#_perception) +5, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +5, [Stealth](additionalMonsters/../skills/stealth#_stealth) +16
 
 **Languages** truespeech
 
-**SQ** locate [inevitable](monsters/creatureTypes.md#_inevitable-subtype)
+**SQ** locate [inevitable](monsters/creatureTypes#_inevitable-subtype)
 
 Ecology
 
@@ -88,19 +88,19 @@ Ecology
 
 Special Abilities
 
-**Constant Vigilance (Su)** An arbiter gains a +4 bonus to recognize and disbelieve illusions created by creatures with the [chaotic](monsters/creatureTypes.md#_chaotic-subtype) subtype or possessing the [chaotic](monsters/creatureTypes.md#_chaotic-subtype) descriptor.
+**Constant Vigilance (Su)** An arbiter gains a +4 bonus to recognize and disbelieve illusions created by creatures with the [chaotic](monsters/creatureTypes#_chaotic-subtype) subtype or possessing the [chaotic](monsters/creatureTypes#_chaotic-subtype) descriptor.
 
 **Electrical Burst (Ex)** An arbiter can release electrical energy from its body in a 10-foot-radius burst that deals 3d6 electricity damage (DC 13 Reflex half). Immediately following such a burst, the arbiter becomes stunned for 24 hours. The save DC is Constitution-based.
 
-**Locate [Inevitable](monsters/creatureTypes.md#_inevitable-subtype) (Su)** An arbiter can always sense the direction of the nearest non-arbiter [inevitable](monsters/creatureTypes.md#_inevitable-subtype) on the plane, the better to help it report back to its superiors. It cannot sense the range to this [inevitable](monsters/creatureTypes.md#_inevitable-subtype).
+**Locate [Inevitable](monsters/creatureTypes#_inevitable-subtype) (Su)** An arbiter can always sense the direction of the nearest non-arbiter [inevitable](monsters/creatureTypes#_inevitable-subtype) on the plane, the better to help it report back to its superiors. It cannot sense the range to this [inevitable](monsters/creatureTypes#_inevitable-subtype).
 
-[Stealthy](additionalMonsters/../feats.md#_stealthy), observant, and frequently persuasive, arbiter inevitables are the scouts and diplomats of the inevitable race. Found throughout the multiverse in courts and on battlefields, arbiters keep a close eye on the forces of chaos and do their best to keep the lawful from straying, while simultaneously winning over the hearts and minds of those who might yet be saved. Though their assorted abilities make them extremely useful, arbiters see themselves less as servants than as advisers and counselors, preferring to ride around on their summoners' shoulders and help guide their “partners” on the path of law. They detest being summoned by chaotic individuals, and when teamed with such a creature, they aren't above using [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) to try to influence the summoner's friends or refusing to undertake actions that seem contrary to their programming.
+[Stealthy](additionalMonsters/../feats#_stealthy), observant, and frequently persuasive, arbiter inevitables are the scouts and diplomats of the inevitable race. Found throughout the multiverse in courts and on battlefields, arbiters keep a close eye on the forces of chaos and do their best to keep the lawful from straying, while simultaneously winning over the hearts and minds of those who might yet be saved. Though their assorted abilities make them extremely useful, arbiters see themselves less as servants than as advisers and counselors, preferring to ride around on their summoners' shoulders and help guide their “partners” on the path of law. They detest being summoned by chaotic individuals, and when teamed with such a creature, they aren't above using [Diplomacy](additionalMonsters/../skills/diplomacy#_diplomacy) to try to influence the summoner's friends or refusing to undertake actions that seem contrary to their programming.
 
 An arbiter who comes across evidence of a significant insurgence of chaos upon a given plane does everything in its power to rally its allies against the dangerous instability, and in situations that are clearly beyond its ability to handle, it may refuse to continue onward until the group agrees to help it reach the nearest greater inevitable and make a full report, or else may travel to Utopia itself and present its urgent information in person.
 
-Arbiters typically bear the shapes of tiny clockwork spheres with shiny metal wings. Generally peaceful unless combating true creatures of chaos, arbiters prefer to cast _ [protection from chaos](additionalMonsters/../spells/protectionFromChaos.md#_protection-from-chaos)_ on their allies and use _ [command](additionalMonsters/../spells/command.md#_command)_ to make opponents drop their weapons and run. Their most powerful weapon, the ability to release their internal energy as a deadly burst, is reserved for dire need and battles of the utmost service to law, as the resulting period of darkness while they're powered down is the only thing that seems to truly scare the tiny automatons.
+Arbiters typically bear the shapes of tiny clockwork spheres with shiny metal wings. Generally peaceful unless combating true creatures of chaos, arbiters prefer to cast _ [protection from chaos](additionalMonsters/../spells/protectionFromChaos#_protection-from-chaos)_ on their allies and use _ [command](additionalMonsters/../spells/command#_command)_ to make opponents drop their weapons and run. Their most powerful weapon, the ability to release their internal energy as a deadly burst, is reserved for dire need and battles of the utmost service to law, as the resulting period of darkness while they're powered down is the only thing that seems to truly scare the tiny automatons.
 
-An arbiter inevitable can serve a spellcaster as a familiar. Such a spellcaster must be lawful neutral, must be at least caster level 7th, and must have the [Improved Familiar](additionalMonsters/../feats.md#_improved-familiar) feat. Arbiter inevitables measure 1 foot in diameter but are surprisingly heavy, weighing 60 pounds. Their ability to fly on metal wings is as much a supernatural ability as a physical one.
+An arbiter inevitable can serve a spellcaster as a familiar. Such a spellcaster must be lawful neutral, must be at least caster level 7th, and must have the [Improved Familiar](additionalMonsters/../feats#_improved-familiar) feat. Arbiter inevitables measure 1 foot in diameter but are surprisingly heavy, weighing 60 pounds. Their ability to fly on metal wings is as much a supernatural ability as a physical one.
 
 # Inevitable, Kolyarut
 
@@ -110,15 +110,15 @@ Beneath its cloak, this man-shaped creature appears to be part statue and part m
 
 **XP 19,200**
 
-LN Medium [outsider](monsters/creatureTypes.md#_outsider) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [inevitable](monsters/creatureTypes.md#_inevitable-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype))
+LN Medium [outsider](monsters/creatureTypes#_outsider) ( [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [inevitable](monsters/creatureTypes#_inevitable-subtype), [lawful](monsters/creatureTypes#_lawful-subtype))
 
-**Init** +8; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +22
+**Init** +8; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +22
 
 Defense
 
 **AC** 26, touch 14, flat-footed 22 (+4 Dex, +12 natural)
 
-**hp** 158 (12d10+92); regeneration 5 ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype))
+**hp** 158 (12d10+92); regeneration 5 ( [chaotic](monsters/creatureTypes#_chaotic-subtype))
 
 **Fort** +14, **Ref** +10, **Will** +11
 
@@ -134,11 +134,11 @@ Offense
 
 **Spell-Like Abilities** (CL 12th; concentration +15)
 
-At will—_ [discern lies](additionalMonsters/../spells/discernLies.md#_discern-lies)_ (DC 17), _ [disguise self](additionalMonsters/../spells/disguiseSelf.md#_disguise-self)_, _ [enervation](additionalMonsters/../spells/enervation.md#_enervation)_, _ [fear](additionalMonsters/../spells/fear.md#_fear)_ (DC 17), _ [hold person](additionalMonsters/../spells/holdPerson.md#_hold-person)_ (DC 16), _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_ (self only), _ [locate creature](additionalMonsters/../spells/locateCreature.md#_locate-creature)_, _ [suggestion](additionalMonsters/../spells/suggestion.md#_suggestion)_ (DC 16), _ [vampiric touch](additionalMonsters/../spells/vampiricTouch.md#_vampiric-touch)_
+At will—_ [discern lies](additionalMonsters/../spells/discernLies#_discern-lies)_ (DC 17), _ [disguise self](additionalMonsters/../spells/disguiseSelf#_disguise-self)_, _ [enervation](additionalMonsters/../spells/enervation#_enervation)_, _ [fear](additionalMonsters/../spells/fear#_fear)_ (DC 17), _ [hold person](additionalMonsters/../spells/holdPerson#_hold-person)_ (DC 16), _ [invisibility](additionalMonsters/../spells/invisibility#_invisibility)_ (self only), _ [locate creature](additionalMonsters/../spells/locateCreature#_locate-creature)_, _ [suggestion](additionalMonsters/../spells/suggestion#_suggestion)_ (DC 16), _ [vampiric touch](additionalMonsters/../spells/vampiricTouch#_vampiric-touch)_
 
-3/day—_ [hold monster](additionalMonsters/../spells/holdMonster.md#_hold-monster)_ (DC 18), _ [mark of justice](additionalMonsters/../spells/markOfJustice.md#_mark-of-justice)_, quickened_ [suggestion](additionalMonsters/../spells/suggestion.md#_suggestion)_ (DC 16)
+3/day—_ [hold monster](additionalMonsters/../spells/holdMonster#_hold-monster)_ (DC 18), _ [mark of justice](additionalMonsters/../spells/markOfJustice#_mark-of-justice)_, quickened_ [suggestion](additionalMonsters/../spells/suggestion#_suggestion)_ (DC 16)
 
-1/week—_ [geas/quest](additionalMonsters/../spells/geasQuest.md#_geas-quest)_
+1/week—_ [geas/quest](additionalMonsters/../spells/geasQuest#_geas-quest)_
 
 Statistics
 
@@ -146,9 +146,9 @@ Statistics
 
 **Base Atk** +12; **CMB** +18; **CMD** 32
 
-**Feats** [Alertness](additionalMonsters/../feats.md#_alertness), [Combat Casting](additionalMonsters/../feats.md#_combat-casting), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats.md#_quicken-spell-like-ability) (_ [suggestion](additionalMonsters/../spells/suggestion.md#_suggestion)_)
+**Feats** [Alertness](additionalMonsters/../feats#_alertness), [Combat Casting](additionalMonsters/../feats#_combat-casting), [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats#_quicken-spell-like-ability) (_ [suggestion](additionalMonsters/../spells/suggestion#_suggestion)_)
 
-**Skills** [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +22, [Disguise](additionalMonsters/../skills/disguise.md#_disguise) +22, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +15, [Perception](additionalMonsters/../skills/perception.md#_perception) +22, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +22, [Survival](additionalMonsters/../skills/survival.md#_survival) +18; **Racial Modifiers** +4 [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy), +4 [Disguise](additionalMonsters/../skills/disguise.md#_disguise)
+**Skills** [Diplomacy](additionalMonsters/../skills/diplomacy#_diplomacy) +22, [Disguise](additionalMonsters/../skills/disguise#_disguise) +22, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +15, [Perception](additionalMonsters/../skills/perception#_perception) +22, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +22, [Survival](additionalMonsters/../skills/survival#_survival) +18; **Racial Modifiers** +4 [Diplomacy](additionalMonsters/../skills/diplomacy#_diplomacy), +4 [Disguise](additionalMonsters/../skills/disguise#_disguise)
 
 **Languages** truespeech
 
@@ -162,7 +162,7 @@ Ecology
 
 Kolyaruts are enforcers of bargains, traveling to the very edges of the planes in order to punish oath-breakers and see that contracts are kept. They care little for the terms of the agreements in question, only that promises are fulfilled, debts are paid, and balance is maintained.
 
-Least conspicuous of the inevitables, even in their natural form, kolyaruts are the size of tall humans, though they weigh far more because of their composition. Capable of using both _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_ and _ [disguise self](additionalMonsters/../spells/disguiseSelf.md#_disguise-self)_ to pass completely unnoticed through humanoid lands, kolyaruts most frequently appear as cloaked warriors bearing finely crafted bastard swords, allowing others to chalk up any metallic noises to the clanking of hidden armor until the moment when they pull back their hoods and let their quarries look upon their mechanical faces, understanding only too late the nature of the mysterious strangers.
+Least conspicuous of the inevitables, even in their natural form, kolyaruts are the size of tall humans, though they weigh far more because of their composition. Capable of using both _ [invisibility](additionalMonsters/../spells/invisibility#_invisibility)_ and _ [disguise self](additionalMonsters/../spells/disguiseSelf#_disguise-self)_ to pass completely unnoticed through humanoid lands, kolyaruts most frequently appear as cloaked warriors bearing finely crafted bastard swords, allowing others to chalk up any metallic noises to the clanking of hidden armor until the moment when they pull back their hoods and let their quarries look upon their mechanical faces, understanding only too late the nature of the mysterious strangers.
 
 Perhaps because their missions can be the murkiest and most open to interpretation, kolyaruts are by far the most talkative of the inevitables, naturally possessing a courtly grace and an encyclopedic knowledge of social customs, which they use both to assist them in gathering information on their targets and in issuing challenges (or executing dignified sentences) on the battlefield. Though naturally as solitary as their kindred, kolyaruts are occasionally content to let members of other races tag along and assist them in achieving shared goals, though they have little problem abandoning or even exploiting these “comrades” if it brings them closer to fulfilling their mission.
 
@@ -174,17 +174,17 @@ This six-armed creature appears to be made of stone. Its lower torso is a collec
 
 **XP 307,200**
 
-LN Huge [outsider](monsters/creatureTypes.md#_outsider) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [inevitable](monsters/creatureTypes.md#_inevitable-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype))
+LN Huge [outsider](monsters/creatureTypes#_outsider) ( [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [inevitable](monsters/creatureTypes#_inevitable-subtype), [lawful](monsters/creatureTypes#_lawful-subtype))
 
-**Init** +5; **Senses** darkvision 60 ft., _ [detect chaos](additionalMonsters/../spells/detectChaos.md#_detect-chaos)_, _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, low-light vision, _ [true seeing](additionalMonsters/../spells/trueSeeing.md#_true-seeing)_; [Perception](additionalMonsters/../skills/perception.md#_perception) +34
+**Init** +5; **Senses** darkvision 60 ft., _ [detect chaos](additionalMonsters/../spells/detectChaos#_detect-chaos)_, _ [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic)_, low-light vision, _ [true seeing](additionalMonsters/../spells/trueSeeing#_true-seeing)_; [Perception](additionalMonsters/../skills/perception#_perception) +34
 
-**Aura** _ [shield of law](additionalMonsters/../spells/shieldOfLaw.md#_shield-of-law)_ (DC 23)
+**Aura** _ [shield of law](additionalMonsters/../spells/shieldOfLaw#_shield-of-law)_ (DC 23)
 
 Defense
 
 **AC** 36, touch 18, flat-footed 35 (+4 deflection, +1 Dex, +5 insight, +18 natural, –2 size)
 
-**hp** 337 (22d10+216); regeneration 10 ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype))
+**hp** 337 (22d10+216); regeneration 10 ( [chaotic](monsters/creatureTypes#_chaotic-subtype))
 
 **Fort** +25, **Ref** +12, **Will** +22
 
@@ -194,7 +194,7 @@ Offense
 
 **Speed** fly 60 ft. (perfect)
 
-**Melee** _+2 [wounding](additionalMonsters/../magicItems/weapons.md#_wounding) spear_ +32/+27/+22/+17 (3d6+17/x3 plus 1 bleed), _+2 [wounding](additionalMonsters/../magicItems/weapons.md#_wounding) longsword_ +32 (3d6+12/19–20 plus 1 bleed), +_2 [wounding](additionalMonsters/../magicItems/weapons.md#_wounding) morningstar_ +32 (3d6+12 plus 1 bleed) or
+**Melee** _+2 [wounding](additionalMonsters/../magicItems/weapons#_wounding) spear_ +32/+27/+22/+17 (3d6+17/x3 plus 1 bleed), _+2 [wounding](additionalMonsters/../magicItems/weapons#_wounding) longsword_ +32 (3d6+12/19–20 plus 1 bleed), +_2 [wounding](additionalMonsters/../magicItems/weapons#_wounding) morningstar_ +32 (3d6+12 plus 1 bleed) or
 
 4 slams +30 (2d8+10)
 
@@ -202,17 +202,17 @@ Offense
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** cunning reflexes, [multiweapon mastery](monsters/universalMonsterRules.md#_multiweapon-mastery), perfect prediction, wounding weapons
+**Special Attacks** cunning reflexes, [multiweapon mastery](monsters/universalMonsterRules#_multiweapon-mastery), perfect prediction, wounding weapons
 
 **Spell-Like Abilities** (CL 22th; concentration +27)
 
-Constant—_ [detect chaos](additionalMonsters/../spells/detectChaos.md#_detect-chaos), [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic), [shield of law](additionalMonsters/../spells/shieldOfLaw.md#_shield-of-law)_ (DC 23)_, [true seeing](additionalMonsters/../spells/trueSeeing.md#_true-seeing)_
+Constant—_ [detect chaos](additionalMonsters/../spells/detectChaos#_detect-chaos), [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic), [shield of law](additionalMonsters/../spells/shieldOfLaw#_shield-of-law)_ (DC 23)_, [true seeing](additionalMonsters/../spells/trueSeeing#_true-seeing)_
 
-At will—_ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [greater teleport](additionalMonsters/../spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [sending](additionalMonsters/../spells/sending.md#_sending)_
+At will—_ [dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic)_, _ [greater teleport](additionalMonsters/../spells/teleport#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [sending](additionalMonsters/../spells/sending#_sending)_
 
-3/day—_ [dictum](additionalMonsters/../spells/dictum.md#_dictum)_ (DC 22), _ [dimensional anchor](additionalMonsters/../spells/dimensionalAnchor.md#_dimensional)_ (DC 19), _ [dimensional lock](additionalMonsters/../spells/dimensionalLock.md#_dimensional-lock)_ (DC 23), _ [disintegrate](additionalMonsters/../spells/disintegrate.md#_disintegrate)_ (DC 21), _ [dismissal](additionalMonsters/../spells/dismissal.md#_dismissal)_ (DC 20), _ [greater scrying](additionalMonsters/../spells/scrying.md#_scrying-greater)_ (DC 22), _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 20), _ [wall of force](additionalMonsters/../spells/wallOfForce.md#_wall-of-force)_
+3/day—_ [dictum](additionalMonsters/../spells/dictum#_dictum)_ (DC 22), _ [dimensional anchor](additionalMonsters/../spells/dimensionalAnchor#_dimensional)_ (DC 19), _ [dimensional lock](additionalMonsters/../spells/dimensionalLock#_dimensional-lock)_ (DC 23), _ [disintegrate](additionalMonsters/../spells/disintegrate#_disintegrate)_ (DC 21), _ [dismissal](additionalMonsters/../spells/dismissal#_dismissal)_ (DC 20), _ [greater scrying](additionalMonsters/../spells/scrying#_scrying-greater)_ (DC 22), _ [plane shift](additionalMonsters/../spells/planeShift#_plane-shift)_ (DC 20), _ [wall of force](additionalMonsters/../spells/wallOfForce#_wall-of-force)_
 
-1/day—_ [imprisonment](additionalMonsters/../spells/imprisonment.md#_imprisonment)_ (DC 24)
+1/day—_ [imprisonment](additionalMonsters/../spells/imprisonment#_imprisonment)_ (DC 24)
 
 Statistics
 
@@ -220,9 +220,9 @@ Statistics
 
 **Base Atk** +22; **CMB** +34; **CMD** 50 (can't be tripped)
 
-**Feats** [Blind-Fight](additionalMonsters/../feats.md#_blind-fight), [Combat Expertise](additionalMonsters/../feats.md#_combat-expertise), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Greater Bull Rush](additionalMonsters/../feats.md#_greater-bull-rush), [Greater Vital Strike](additionalMonsters/../feats.md#_greater-vital-strike), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Improved Disarm](additionalMonsters/../feats.md#_improved-disarm), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
+**Feats** [Blind-Fight](additionalMonsters/../feats#_blind-fight), [Combat Expertise](additionalMonsters/../feats#_combat-expertise), [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Greater Bull Rush](additionalMonsters/../feats#_greater-bull-rush), [Greater Vital Strike](additionalMonsters/../feats#_greater-vital-strike), [Improved Bull Rush](additionalMonsters/../feats#_improved-bull-rush), [Improved Disarm](additionalMonsters/../feats#_improved-disarm), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats#_improved-vital-strike), [Power Attack](additionalMonsters/../feats#_power-attack), [Vital Strike](additionalMonsters/../feats#_vital-strike)
 
-**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +30, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +30, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +24, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (geography) +24, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +27, [Perception](additionalMonsters/../skills/perception.md#_perception) +34, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +30, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +24; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
+**Skills** [Fly](additionalMonsters/../skills/fly#_fly) +30, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +30, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana) +24, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (geography) +24, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +27, [Perception](additionalMonsters/../skills/perception#_perception) +34, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +30, [Spellcraft](additionalMonsters/../skills/spellcraft#_spellcraft) +24; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception#_perception)
 
 **Languages** truespeech
 
@@ -238,17 +238,17 @@ Ecology
 
 Special Abilities
 
-**Cunning Reflexes (Ex)** A lhaksharut uses its Wisdom modifier, rather than its Dexterity modifier, to determine how many additional attacks of opportunity it gains with the [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes) feat. For most lhaksharut inevitables, this benefit equates to 5 additional attacks of opportunity per round.
+**Cunning Reflexes (Ex)** A lhaksharut uses its Wisdom modifier, rather than its Dexterity modifier, to determine how many additional attacks of opportunity it gains with the [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes) feat. For most lhaksharut inevitables, this benefit equates to 5 additional attacks of opportunity per round.
 
-**Energy Bolt (Su)** A lhaksharut can [fire](monsters/creatureTypes.md#_fire-subtype) bolts of [elemental](monsters/creatureTypes.md#_elemental-subtype) energy from two of its six arms—it never wields weapons in these hands. These attacks have a range increment of 100 feet and deal 10d6 energy damage of the [inevitable](monsters/creatureTypes.md#_inevitable-subtype)'s choice (acid, [cold](monsters/creatureTypes.md#_cold-subtype), electricity, or [fire](monsters/creatureTypes.md#_fire-subtype), chosen for each bolt as it is thrown). It can throw two bolts of energy as a standard action, and cannot attack with these hands when it makes weapon or slam attacks with its other limbs.
+**Energy Bolt (Su)** A lhaksharut can [fire](monsters/creatureTypes#_fire-subtype) bolts of [elemental](monsters/creatureTypes#_elemental-subtype) energy from two of its six arms—it never wields weapons in these hands. These attacks have a range increment of 100 feet and deal 10d6 energy damage of the [inevitable](monsters/creatureTypes#_inevitable-subtype)'s choice (acid, [cold](monsters/creatureTypes#_cold-subtype), electricity, or [fire](monsters/creatureTypes#_fire-subtype), chosen for each bolt as it is thrown). It can throw two bolts of energy as a standard action, and cannot attack with these hands when it makes weapon or slam attacks with its other limbs.
 
-**[Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to Energy Spells (Ex)** A lhaksharut is immune to any spell or spell-like ability with the acid, [cold](monsters/creatureTypes.md#_cold-subtype), electricity, [fire](monsters/creatureTypes.md#_fire-subtype), or sonic descriptor that allows spell [resistance](monsters/universalMonsterRules.md#_resistance).
+**[Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to Energy Spells (Ex)** A lhaksharut is immune to any spell or spell-like ability with the acid, [cold](monsters/creatureTypes#_cold-subtype), electricity, [fire](monsters/creatureTypes#_fire-subtype), or sonic descriptor that allows spell [resistance](monsters/universalMonsterRules#_resistance).
 
-**[Multiweapon Mastery](monsters/universalMonsterRules.md#_multiweapon-mastery) (Ex)** A lhaksharut never takes penalties on its attack rolls when fighting with multiple weapons.
+**[Multiweapon Mastery](monsters/universalMonsterRules#_multiweapon-mastery) (Ex)** A lhaksharut never takes penalties on its attack rolls when fighting with multiple weapons.
 
 **Perfect Prediction (Su)** A lhaksharut gains an insight bonus to AC equal to its Wisdom bonus.
 
-**Wounding Weapons (Su)** Any weapon wielded by a lhaksharut gains the _ [wounding](additionalMonsters/../magicItems/weapons.md#_wounding)_ weapon quality as long as it remains in the creature's grasp.
+**Wounding Weapons (Su)** Any weapon wielded by a lhaksharut gains the _ [wounding](additionalMonsters/../magicItems/weapons#_wounding)_ weapon quality as long as it remains in the creature's grasp.
 
 A typical lhaksharut is a six-armed construct that appears to be made of a mix of metals and stone. Where a human would have legs, it instead possesses a complex orb of spinning rings similar in shape to an orrery—it is this whirling machine that grants the lhaksharut the ability to fly. Though a lhaksharut has huge, metal wings, they serve as little more than stabilizers when it's in flight. Four of the construct's arms end in functional hands that it normally uses to carry a mix of weapons. The lhaksharut's lower two arms hold large, flaming metal spheres in their hands—it uses these spheres to generate elemental bolts of energy that it can hurl great distances to damage foes.
 
@@ -270,15 +270,15 @@ This humanoid is mostly hidden behind plates of elaborate golden armor, the spac
 
 **XP 51,200**
 
-LN Large [outsider](monsters/creatureTypes.md#_outsider) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [inevitable](monsters/creatureTypes.md#_inevitable-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype))
+LN Large [outsider](monsters/creatureTypes#_outsider) ( [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [inevitable](monsters/creatureTypes#_inevitable-subtype), [lawful](monsters/creatureTypes#_lawful-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft., low-light vision, _ [true seeing](additionalMonsters/../spells/trueSeeing.md#_true-seeing)_; [Perception](additionalMonsters/../skills/perception.md#_perception) +26
+**Init** +3; **Senses** darkvision 60 ft., low-light vision, _ [true seeing](additionalMonsters/../spells/trueSeeing#_true-seeing)_; [Perception](additionalMonsters/../skills/perception#_perception) +26
 
 Defense
 
 **AC** 30, touch 13, flat-footed 26 (+3 Dex, +1 dodge, +17 natural, –1 size)
 
-**hp** 214 (16d10+126); regeneration 10 ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype))
+**hp** 214 (16d10+126); regeneration 10 ( [chaotic](monsters/creatureTypes#_chaotic-subtype))
 
 **Fort** +16, **Ref** +8, **Will** +13
 
@@ -296,13 +296,13 @@ Offense
 
 **Spell-Like Abilities** (CL 16th; concentration +23)
 
-Constant—_ [air walk](additionalMonsters/../spells/airWalk.md#_air-walk)_, _ [true seeing](additionalMonsters/../spells/trueSeeing.md#_true-seeing)_
+Constant—_ [air walk](additionalMonsters/../spells/airWalk#_air-walk)_, _ [true seeing](additionalMonsters/../spells/trueSeeing#_true-seeing)_
 
-At will—_ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_, _ [fear](additionalMonsters/../spells/fear.md#_fear)_ (DC 21), _ [greater command](additionalMonsters/../spells/command.md#_command-greater)_ (DC 22), _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_, _ [mass inflict light wounds](additionalMonsters/../spells/inflictLightWounds.md#_inflict-light-wounds-mass)_ (DC 22), _ [locate creature](additionalMonsters/../spells/locateCreature.md#_locate-creature)_
+At will—_ [dimension door](additionalMonsters/../spells/dimensionDoor#_dimension-door)_, _ [fear](additionalMonsters/../spells/fear#_fear)_ (DC 21), _ [greater command](additionalMonsters/../spells/command#_command-greater)_ (DC 22), _ [greater dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic-greater)_, _ [mass inflict light wounds](additionalMonsters/../spells/inflictLightWounds#_inflict-light-wounds-mass)_ (DC 22), _ [locate creature](additionalMonsters/../spells/locateCreature#_locate-creature)_
 
-1/day—_ [chain lightning](additionalMonsters/../spells/chainLightning.md#_chain-lightning)_ (DC 23), _ [circle of death](additionalMonsters/../spells/circleOfDeath.md#_circle-of-death)_ (DC 23), _ [mark of justice](additionalMonsters/../spells/markOfJustice.md#_mark-of-justice)_, _ [wall of force](additionalMonsters/../spells/wallOfForce.md#_wall-of-force)_
+1/day—_ [chain lightning](additionalMonsters/../spells/chainLightning#_chain-lightning)_ (DC 23), _ [circle of death](additionalMonsters/../spells/circleOfDeath#_circle-of-death)_ (DC 23), _ [mark of justice](additionalMonsters/../spells/markOfJustice#_mark-of-justice)_, _ [wall of force](additionalMonsters/../spells/wallOfForce#_wall-of-force)_
 
-1/week—_ [earthquake](additionalMonsters/../spells/earthquake.md#_earthquake)_ (DC 25), _ [geas/quest](additionalMonsters/../spells/geasQuest.md#_geas-quest)_, _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 22)
+1/week—_ [earthquake](additionalMonsters/../spells/earthquake#_earthquake)_ (DC 25), _ [geas/quest](additionalMonsters/../spells/geasQuest#_geas-quest)_, _ [plane shift](additionalMonsters/../spells/planeShift#_plane-shift)_ (DC 22)
 
 Statistics
 
@@ -310,9 +310,9 @@ Statistics
 
 **Base Atk** +16; **CMB** +29; **CMD** 43
 
-**Feats** [Ability Focus](additionalMonsters/../monsters/monsterFeats.md#_ability-focus) (fists of lightning and thunder), [Awesome Blow](additionalMonsters/../monsters/monsterFeats.md#_awesome-blow), [Combat Casting](additionalMonsters/../feats.md#_combat-casting), [Dodge](additionalMonsters/../feats.md#_dodge), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
+**Feats** [Ability Focus](additionalMonsters/../monsters/monsterFeats#_ability-focus) (fists of lightning and thunder), [Awesome Blow](additionalMonsters/../monsters/monsterFeats#_awesome-blow), [Combat Casting](additionalMonsters/../feats#_combat-casting), [Dodge](additionalMonsters/../feats#_dodge), [Improved Bull Rush](additionalMonsters/../feats#_improved-bull-rush), [Improved Vital Strike](additionalMonsters/../feats#_improved-vital-strike), [Power Attack](additionalMonsters/../feats#_power-attack), [Vital Strike](additionalMonsters/../feats#_vital-strike)
 
-**Skills** [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +26, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +26, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +20, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +20, [Perception](additionalMonsters/../skills/perception.md#_perception) +26, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +22, [Survival](additionalMonsters/../skills/survival.md#_survival) +22; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
+**Skills** [Diplomacy](additionalMonsters/../skills/diplomacy#_diplomacy) +26, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +26, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +20, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (religion) +20, [Perception](additionalMonsters/../skills/perception#_perception) +26, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +22, [Survival](additionalMonsters/../skills/survival#_survival) +22; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception#_perception)
 
 **Languages** truespeech
 
@@ -342,15 +342,15 @@ This creature looks like a mechanical centaur. Golden, clockwork wings sprout fr
 
 **XP 6,400**
 
-LN Large [outsider](monsters/creatureTypes.md#_outsider) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [inevitable](monsters/creatureTypes.md#_inevitable-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype))
+LN Large [outsider](monsters/creatureTypes#_outsider) ( [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [inevitable](monsters/creatureTypes#_inevitable-subtype), [lawful](monsters/creatureTypes#_lawful-subtype))
 
-**Init** +9; **Senses** darkvision 60 ft., low-light vision, _ [true seeing](additionalMonsters/../spells/trueSeeing.md#_true-seeing)_; [Perception](additionalMonsters/../skills/perception.md#_perception) +20
+**Init** +9; **Senses** darkvision 60 ft., low-light vision, _ [true seeing](additionalMonsters/../spells/trueSeeing#_true-seeing)_; [Perception](additionalMonsters/../skills/perception#_perception) +20
 
 Defense
 
 **AC** 24, touch 15, flat-footed 18 (+5 Dex, +1 dodge, +9 natural, –1 size)
 
-**hp** 115 (10d10+60); regeneration 5 ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype))
+**hp** 115 (10d10+60); regeneration 5 ( [chaotic](monsters/creatureTypes#_chaotic-subtype))
 
 **Fort** +10, **Ref** +8, **Will** +10
 
@@ -366,13 +366,13 @@ Offense
 
 **Spell-Like Abilities** (CL 10th; concentration +13)
 
-Constant—_ [true seeing](additionalMonsters/../spells/trueSeeing.md#_true-seeing)_
+Constant—_ [true seeing](additionalMonsters/../spells/trueSeeing#_true-seeing)_
 
-At will—_ [clairaudience/clairvoyance](additionalMonsters/../spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance)_, _ [dimensional anchor](additionalMonsters/../spells/dimensionalAnchor.md#_dimensional)_, _ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [fear](additionalMonsters/../spells/fear.md#_fear)_ (DC 17), _ [hold person](additionalMonsters/../spells/holdPerson.md#_hold-person)_ (DC 16), _ [locate creature](additionalMonsters/../spells/locateCreature.md#_locate-creature)_
+At will—_ [clairaudience/clairvoyance](additionalMonsters/../spells/clairaudienceClairvoyance#_clairaudience-clairvoyance)_, _ [dimensional anchor](additionalMonsters/../spells/dimensionalAnchor#_dimensional)_, _ [dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic)_, _ [fear](additionalMonsters/../spells/fear#_fear)_ (DC 17), _ [hold person](additionalMonsters/../spells/holdPerson#_hold-person)_ (DC 16), _ [locate creature](additionalMonsters/../spells/locateCreature#_locate-creature)_
 
-3/day—_ [hold monster](additionalMonsters/../spells/holdMonster.md#_hold-monster)_ (DC 18), _ [mark of justice](additionalMonsters/../spells/markOfJustice.md#_mark-of-justice)_
+3/day—_ [hold monster](additionalMonsters/../spells/holdMonster#_hold-monster)_ (DC 18), _ [mark of justice](additionalMonsters/../spells/markOfJustice#_mark-of-justice)_
 
-1/week—_ [lesser geas](additionalMonsters/../spells/geasQuest.md#_geas-lesser)_ (DC 17)
+1/week—_ [lesser geas](additionalMonsters/../spells/geasQuest#_geas-lesser)_ (DC 17)
 
 Statistics
 
@@ -380,9 +380,9 @@ Statistics
 
 **Base Atk** +10; **CMB** +18; **CMD** 34 (38 vs. trip)
 
-**Feats** [Dodge](additionalMonsters/../feats.md#_dodge), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Mobility](additionalMonsters/../feats.md#_mobility), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (chain), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
+**Feats** [Dodge](additionalMonsters/../feats#_dodge), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Mobility](additionalMonsters/../feats#_mobility), [Weapon Focus](additionalMonsters/../feats#_weapon-focus) (chain), [Vital Strike](additionalMonsters/../feats#_vital-strike)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +18 (+26 jump), [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +16, [Fly](additionalMonsters/../skills/fly.md#_fly) +16, [Perception](additionalMonsters/../skills/perception.md#_perception) +20, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +20, [Survival](additionalMonsters/../skills/survival.md#_survival) +16; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception), +4 [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +18 (+26 jump), [Diplomacy](additionalMonsters/../skills/diplomacy#_diplomacy) +16, [Fly](additionalMonsters/../skills/fly#_fly) +16, [Perception](additionalMonsters/../skills/perception#_perception) +20, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +20, [Survival](additionalMonsters/../skills/survival#_survival) +16; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception#_perception), +4 [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive)
 
 **Languages** truespeech
 
@@ -390,7 +390,7 @@ Statistics
 
 Ecology
 
-**Environment** any land ( [lawful](monsters/creatureTypes.md#_lawful-subtype) plane)
+**Environment** any land ( [lawful](monsters/creatureTypes#_lawful-subtype) plane)
 
 **Organization** solitary
 

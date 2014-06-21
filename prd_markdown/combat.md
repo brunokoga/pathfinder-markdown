@@ -22,11 +22,11 @@ When the rules refer to a “full round”, they usually mean a span of time fro
 
 ## Initiative
 
-At the start of a battle, each combatant makes an initiative check. An initiative check is a [Dexterity](gettingStarted.md#_dexterity) check. Each character applies his or her [Dexterity](gettingStarted.md#_dexterity) modifier to the roll, as well as other modifiers from feats, spells, and other effects. Characters act in order, counting down from the highest result to the lowest. In every round that follows, the characters act in the same order (unless a character takes an action that results in his or her initiative changing; see Special Initiative Actions).
+At the start of a battle, each combatant makes an initiative check. An initiative check is a [Dexterity](gettingStarted#_dexterity) check. Each character applies his or her [Dexterity](gettingStarted#_dexterity) modifier to the roll, as well as other modifiers from feats, spells, and other effects. Characters act in order, counting down from the highest result to the lowest. In every round that follows, the characters act in the same order (unless a character takes an action that results in his or her initiative changing; see Special Initiative Actions).
 
 If two or more combatants have the same initiative check result, the combatants who are tied act in order of total initiative modifier (highest first). If there is still a tie, the tied characters should roll to determine which one of them goes before the other.
 
-**Flat-Footed** : At the start of a battle, before you have had a chance to act (specifically, before your first regular turn in the initiative order), you are flat-footed. You can't use your [Dexterity](gettingStarted.md#_dexterity) bonus to AC (if any) while flat-footed. Barbarians and rogues of high enough level have the uncanny dodge extraordinary ability, which means that they cannot be caught flat-footed. Characters with uncanny dodge retain their [Dexterity](gettingStarted.md#_dexterity) bonus to their AC and can make attacks of opportunity before they have acted in the first round of combat. A flat-footed character can't make attacks of opportunity, unless he has the [Combat Reflexes](feats.md#_combat-reflexes) feat.
+**Flat-Footed** : At the start of a battle, before you have had a chance to act (specifically, before your first regular turn in the initiative order), you are flat-footed. You can't use your [Dexterity](gettingStarted#_dexterity) bonus to AC (if any) while flat-footed. Barbarians and rogues of high enough level have the uncanny dodge extraordinary ability, which means that they cannot be caught flat-footed. Characters with uncanny dodge retain their [Dexterity](gettingStarted#_dexterity) bonus to their AC and can make attacks of opportunity before they have acted in the first round of combat. A flat-footed character can't make attacks of opportunity, unless he has the [Combat Reflexes](feats#_combat-reflexes) feat.
 
 **Inaction** : Even if you can't take actions, you retain your initiative score for the duration of the encounter.
 
@@ -40,7 +40,7 @@ Determining awareness may call for Perception checks or other checks.
 
 **The Surprise Round** : If some but not all of the combatants are aware of their opponents, a surprise round happens before regular rounds begin. In initiative order (highest to lowest), combatants who started the battle aware of their opponents each take a standard or move action during the surprise round. You can also take free actions during the surprise round. If no one or everyone is surprised, no surprise round occurs.
 
-**Unaware Combatants** : Combatants who are unaware at the start of battle don't get to act in the surprise round. Unaware combatants are [flat-footed](glossary.md#_flat-footed) because they have not acted yet, so they lose any [Dexterity](gettingStarted.md#_dexterity) bonus to AC.
+**Unaware Combatants** : Combatants who are unaware at the start of battle don't get to act in the surprise round. Unaware combatants are [flat-footed](glossary#_flat-footed) because they have not acted yet, so they lose any [Dexterity](gettingStarted#_dexterity) bonus to AC.
 
 # Combat Statistics
 
@@ -56,21 +56,21 @@ An attack roll represents your attempt to strike your opponent on your turn in a
 
 Your attack bonus with a melee weapon is the following:
 
-**Base attack bonus + [Strength](gettingStarted.md#_strength) modifier + size modifier**
+**Base attack bonus + [Strength](gettingStarted#_strength) modifier + size modifier**
 
 With a ranged weapon, your attack bonus is the following:
 
-**Base attack bonus + [Dexterity](gettingStarted.md#_dexterity) modifier + size modifier + range penalty**
+**Base attack bonus + [Dexterity](gettingStarted#_dexterity) modifier + size modifier + range penalty**
 
 ## Armor Class
 
 Your Armor Class (AC) represents how hard it is for opponents to land a solid, damaging blow on you. It's the attack roll result that an opponent needs to achieve to hit you. Your AC is equal to the following:
 
-**10 + armor bonus + shield bonus + [Dexterity](gettingStarted.md#_dexterity) modifier + other modifiers**
+**10 + armor bonus + shield bonus + [Dexterity](gettingStarted#_dexterity) modifier + other modifiers**
 
-Note that armor limits your [Dexterity](gettingStarted.md#_dexterity) bonus, so if you're wearing armor, you might not be able to apply your whole [Dexterity](gettingStarted.md#_dexterity) bonus to your AC (see [Table: Armor and Shields](equipment.md#_table-6-6-armor-and-shields)).
+Note that armor limits your [Dexterity](gettingStarted#_dexterity) bonus, so if you're wearing armor, you might not be able to apply your whole [Dexterity](gettingStarted#_dexterity) bonus to your AC (see [Table: Armor and Shields](equipment#_table-6-6-armor-and-shields)).
 
-Sometimes you can't use your [Dexterity](gettingStarted.md#_dexterity) bonus (if you have one). If you can't react to a blow, you can't use your [Dexterity](gettingStarted.md#_dexterity) bonus to AC. If you don't have a [Dexterity](gettingStarted.md#_dexterity) bonus, your AC does not change.
+Sometimes you can't use your [Dexterity](gettingStarted#_dexterity) bonus (if you have one). If you can't react to a blow, you can't use your [Dexterity](gettingStarted#_dexterity) bonus to AC. If you don't have a [Dexterity](gettingStarted#_dexterity) bonus, your AC does not change.
 
 **Other Modifiers** : Many other factors modify your AC.
 
@@ -80,7 +80,7 @@ _Deflection Bonus_: Magical deflection effects ward off attacks and improve your
 
 _Natural Armor_: If your race has a tough hide, scales, or thick skin you receive a bonus to your AC.
 
-_Dodge Bonuses_: Dodge bonuses represent actively avoiding blows. Any situation that denies you your [Dexterity](gettingStarted.md#_dexterity) bonus also denies you dodge bonuses. (Wearing armor, however, does not limit these bonuses the way it limits a [Dexterity](gettingStarted.md#_dexterity) bonus to AC.) Unlike most sorts of bonuses, dodge bonuses stack with each other.
+_Dodge Bonuses_: Dodge bonuses represent actively avoiding blows. Any situation that denies you your [Dexterity](gettingStarted#_dexterity) bonus also denies you dodge bonuses. (Wearing armor, however, does not limit these bonuses the way it limits a [Dexterity](gettingStarted#_dexterity) bonus to AC.) Unlike most sorts of bonuses, dodge bonuses stack with each other.
 
 [Table: Size Modifiers]
 | Size | Size Modifier |
@@ -97,7 +97,7 @@ _Dodge Bonuses_: Dodge bonuses represent actively avoiding blows. Any situation 
 
 _Size Modifier_: You receive a bonus or penalty to your AC based on your size. See Table: Size Modifiers.
 
-**Touch Attacks** : Some attacks completely disregard armor, including shields and natural armor—the aggressor need only touch a foe for such an attack to take full effect. In these cases, the attacker makes a touch attack roll (either ranged or melee). When you are the target of a touch attack, your AC doesn't include any armor bonus, shield bonus, or natural armor bonus. All other modifiers, such as your size modifier, [Dexterity](gettingStarted.md#_dexterity) modifier, and deflection bonus (if any) apply normally. Some creatures have the ability to make [incorporeal](glossary.md#_incorporeal) touch attacks. These attacks bypass solid objects, such as armor and shields, by passing through them. [Incorporeal](glossary.md#_incorporeal) touch attacks work similarly to normal touch attacks except that they also ignore cover bonuses. [Incorporeal](glossary.md#_incorporeal) touch attacks do not ignore armor bonuses granted by force effects, such as _mage armor_ and _bracers of armor_.
+**Touch Attacks** : Some attacks completely disregard armor, including shields and natural armor—the aggressor need only touch a foe for such an attack to take full effect. In these cases, the attacker makes a touch attack roll (either ranged or melee). When you are the target of a touch attack, your AC doesn't include any armor bonus, shield bonus, or natural armor bonus. All other modifiers, such as your size modifier, [Dexterity](gettingStarted#_dexterity) modifier, and deflection bonus (if any) apply normally. Some creatures have the ability to make [incorporeal](glossary#_incorporeal) touch attacks. These attacks bypass solid objects, such as armor and shields, by passing through them. [Incorporeal](glossary#_incorporeal) touch attacks work similarly to normal touch attacks except that they also ignore cover bonuses. [Incorporeal](glossary#_incorporeal) touch attacks do not ignore armor bonuses granted by force effects, such as _mage armor_ and _bracers of armor_.
 
 ## Damage
 
@@ -107,11 +107,11 @@ Damage reduces a target's current hit points.
 
 **Minimum Damage** : If penalties reduce the damage result to less than 1, a hit still deals 1 point of nonlethal damage.
 
-**[Strength](gettingStarted.md#_strength) Bonus** : When you hit with a melee or thrown weapon, including a sling, add your [Strength](gettingStarted.md#_strength) modifier to the damage result. A [Strength](gettingStarted.md#_strength) penalty, but not a bonus, applies on damage rolls made with a bow that is not a composite bow.
+**[Strength](gettingStarted#_strength) Bonus** : When you hit with a melee or thrown weapon, including a sling, add your [Strength](gettingStarted#_strength) modifier to the damage result. A [Strength](gettingStarted#_strength) penalty, but not a bonus, applies on damage rolls made with a bow that is not a composite bow.
 
-_Off-Hand Weapon_: When you deal damage with a weapon in your off hand, you add only 1/2 your [Strength](gettingStarted.md#_strength) bonus. If you have a [Strength](gettingStarted.md#_strength) penalty, the entire penalty applies.
+_Off-Hand Weapon_: When you deal damage with a weapon in your off hand, you add only 1/2 your [Strength](gettingStarted#_strength) bonus. If you have a [Strength](gettingStarted#_strength) penalty, the entire penalty applies.
 
-_Wielding a Weapon Two-Handed_: When you deal damage with a weapon that you are wielding two-handed, you add 1-1/2 times your [Strength](gettingStarted.md#_strength) bonus ( [Strength](gettingStarted.md#_strength) penalties are not multiplied). You don't get this higher [Strength](gettingStarted.md#_strength) bonus, however, when using a light weapon with two hands.
+_Wielding a Weapon Two-Handed_: When you deal damage with a weapon that you are wielding two-handed, you add 1-1/2 times your [Strength](gettingStarted#_strength) bonus ( [Strength](gettingStarted#_strength) penalties are not multiplied). You don't get this higher [Strength](gettingStarted#_strength) bonus, however, when using a light weapon with two hands.
 
 **Multiplying Damage** : Sometimes you multiply damage by some factor, such as on a critical hit. Roll the damage (with all modifiers) multiple times and total the results.
 
@@ -119,11 +119,11 @@ _Note_: When you multiply damage more than once, each multiplier works off the o
 
 _Exception_: Extra damage dice over and above a weapon's normal damage are never multiplied.
 
-**Ability Damage** : Certain creatures and magical effects can cause temporary or permanent [ability damage](glossary.md#_ability-score-damage-penalty-and-drain) (a reduction to an ability score).
+**Ability Damage** : Certain creatures and magical effects can cause temporary or permanent [ability damage](glossary#_ability-score-damage-penalty-and-drain) (a reduction to an ability score).
 
 ## Hit Points
 
-When your hit point total reaches 0, you're disabled. When it reaches –1, you're [dying](glossary.md#_dying). When it gets to a negative amount equal to your [Constitution](gettingStarted.md#_constitution) score, you're dead. See Injury and Death, for more information.
+When your hit point total reaches 0, you're disabled. When it reaches –1, you're [dying](glossary#_dying). When it gets to a negative amount equal to your [Constitution](gettingStarted#_constitution) score, you're dead. See Injury and Death, for more information.
 
 ## Attacks of Opportunity
 
@@ -145,7 +145,7 @@ Remember that even actions that normally provoke attacks of opportunity may have
 
 An attack of opportunity “interrupts” the normal flow of actions in the round. If an attack of opportunity is provoked, immediately resolve the attack of opportunity, then continue with the next character's turn (or complete the current turn, if the attack of opportunity was provoked in the midst of a character's turn).
 
-_Combat Reflexes and Additional Attacks of Opportunity_: If you have the [Combat Reflexes](feats.md#_combat-reflexes) feat, you can add your [Dexterity](gettingStarted.md#_dexterity) bonus to the number of attacks of opportunity you can make in a round. This feat does not let you make more than one attack for a given opportunity, but if the same opponent provokes two attacks of opportunity from you, you could make two separate attacks of opportunity (since each one represents a different opportunity). Moving out of more than one square threatened by the same opponent in the same round doesn't count as more than one opportunity for that opponent. All these attacks are at your full normal attack bonus.
+_Combat Reflexes and Additional Attacks of Opportunity_: If you have the [Combat Reflexes](feats#_combat-reflexes) feat, you can add your [Dexterity](gettingStarted#_dexterity) bonus to the number of attacks of opportunity you can make in a round. This feat does not let you make more than one attack for a given opportunity, but if the same opponent provokes two attacks of opportunity from you, you could make two separate attacks of opportunity (since each one represents a different opportunity). Moving out of more than one square threatened by the same opponent in the same round doesn't count as more than one opportunity for that opponent. All these attacks are at your full normal attack bonus.
 
  ![](image/AttacksOfOpportunity.jpg)
 
@@ -161,21 +161,21 @@ If you use two move actions in a round (sometimes called a “double move” act
 
 ## Saving Throws
 
-Generally, when you are subject to an unusual or magical attack, you get a saving throw to avoid or reduce the effect. Like an attack roll, a saving throw is a d20 roll plus a bonus based on your class and level (see [Classes](classes.md)), and an associated ability score. Your saving throw modifier is:
+Generally, when you are subject to an unusual or magical attack, you get a saving throw to avoid or reduce the effect. Like an attack roll, a saving throw is a d20 roll plus a bonus based on your class and level (see [Classes](classes)), and an associated ability score. Your saving throw modifier is:
 
 **Base save bonus + ability modifier**
 
 **Saving Throw Types** : The three different kinds of saving throws are Fortitude, Reflex, and Will:
 
-_Fortitude_: These saves measure your ability to stand up to physical punishment or attacks against your vitality and health. Apply your [Constitution](gettingStarted.md#_constitution) modifier to your Fortitude saving throws.
+_Fortitude_: These saves measure your ability to stand up to physical punishment or attacks against your vitality and health. Apply your [Constitution](gettingStarted#_constitution) modifier to your Fortitude saving throws.
 
-_Reflex_: These saves test your ability to dodge area attacks and unexpected situations. Apply your [Dexterity](gettingStarted.md#_dexterity) modifier to your Reflex saving throws.
+_Reflex_: These saves test your ability to dodge area attacks and unexpected situations. Apply your [Dexterity](gettingStarted#_dexterity) modifier to your Reflex saving throws.
 
-_Will_: These saves reflect your resistance to mental influence as well as many magical effects. Apply your [Wisdom](gettingStarted.md#_wisdom) modifier to your Will saving throws.
+_Will_: These saves reflect your resistance to mental influence as well as many magical effects. Apply your [Wisdom](gettingStarted#_wisdom) modifier to your Will saving throws.
 
 **Saving Throw Difficulty Class** : The DC for a save is determined by the attack itself.
 
-**Automatic Failures and Successes** : A natural 1 (the d20 comes up 1) on a saving throw is always a failure (and may cause damage to exposed items; see [Items Surviving after a Saving Throw](magic.md#_items-surviving-after-a-saving-throw)). A natural 20 (the d20 comes up 20) is always a success.
+**Automatic Failures and Successes** : A natural 1 (the d20 comes up 1) on a saving throw is always a failure (and may cause damage to exposed items; see [Items Surviving after a Saving Throw](magic#_items-surviving-after-a-saving-throw)). A natural 20 (the d20 comes up 20) is always a success.
 
 # Actions In Combat
 
@@ -188,23 +188,23 @@ _Will_: These saves reflect your resistance to mental influence as well as many 
 | Activate a magic item other than a potion or oil | No |
 | Aid another | Maybe⁲ |
 | Cast a spell (1 standard action casting time) | Yes |
-| [Channel energy](classes/cleric.md#_channel-energy-cleric) | No |
-| [Concentrate to maintain an active spell](magic.md#_concentration) | No |
+| [Channel energy](classes/cleric#_channel-energy-cleric) | No |
+| [Concentrate to maintain an active spell](magic#_concentration) | No |
 | Dismiss a spell | No |
-| Draw a hidden weapon (see [Sleight of Hand skill](skills/sleightOfHand.md#_sleight-of-hand)) | No |
-| Drink a [potion](magicItems/potions.md#_potions) or apply an oil | Yes |
-| Escape a [grapple](glossary.md#_grappled) | No |
-| [Feint](skills/bluff.md#_feint) | No |
+| Draw a hidden weapon (see [Sleight of Hand skill](skills/sleightOfHand#_sleight-of-hand)) | No |
+| Drink a [potion](magicItems/potions#_potions) or apply an oil | Yes |
+| Escape a [grapple](glossary#_grappled) | No |
+| [Feint](skills/bluff#_feint) | No |
 | Light a torch with a tindertwig | Yes |
-| Lower [spell resistance](glossary.md#_spell-resistance) | No |
-| Read a [scroll](magicItems/scrolls.md#_table-15-15-scrolls) | Yes |
+| Lower [spell resistance](glossary#_spell-resistance) | No |
+| Read a [scroll](magicItems/scrolls#_table-15-15-scrolls) | Yes |
 | Ready (triggers a standard action) | No |
-| Stabilize a dying friend (see [Heal skill](skills/heal.md#_heal)) | Yes |
+| Stabilize a dying friend (see [Heal skill](skills/heal#_heal)) | Yes |
 | Total defense | No |
-| Use [extraordinary ability](gettingStarted.md#_extraordinary-abilities) | No |
+| Use [extraordinary ability](gettingStarted#_extraordinary-abilities) | No |
 | Use skill that takes 1 action | Usually |
-| Use [spell-like ability](glossary.md#_spell-like-abilities-sp) | Yes |
-| Use [supernatural ability](glossary.md#_supernatural-abilities-su) | No |
+| Use [spell-like ability](glossary#_spell-like-abilities-sp) | Yes |
+| Use [supernatural ability](glossary#_supernatural-abilities-su) | No |
 
 | Move Action | Attack of Opportunityⁱ |
 | --- | --- |
@@ -212,13 +212,13 @@ _Will_: These saves reflect your resistance to mental influence as well as many 
 | Control a frightened mount | Yes |
 | Direct or redirect an active spell | No |
 | Draw a weapon⁳ | No |
-| Load a [hand crossbow](equipment.md#_weapon-descriptions) or [light crossbow](equipment.md#_weapon-descriptions) | Yes |
+| Load a [hand crossbow](equipment#_weapon-descriptions) or [light crossbow](equipment#_weapon-descriptions) | Yes |
 | Open or close a door | No |
 | Mount/dismount a steed | No |
 | Move a heavy object | Yes |
 | Pick up an item | Yes |
 | Sheathe a weapon | Yes |
-| Stand up from [prone](glossary.md#_prone) | Yes |
+| Stand up from [prone](glossary#_prone) | Yes |
 | Ready or drop a shield⁳ | No |
 | Retrieve a stored item | Yes |
 
@@ -227,11 +227,11 @@ _Will_: These saves reflect your resistance to mental influence as well as many 
 | Full attack | No |
 | Charge⁴ | No |
 | Deliver coup de grace | Yes |
-| Escape from a [net](equipment.md#_table-6-4-weapons) | Yes |
-| [Extinguish flames](environment.md#_catching-on-fire) | No |
+| Escape from a [net](equipment#_table-6-4-weapons) | Yes |
+| [Extinguish flames](environment#_catching-on-fire) | No |
 | Light a torch | Yes |
-| Load a [heavy or repeating crossbow](equipment.md#_table-6-4-weapons) | Yes |
-| Lock or unlock weapon in [locked gauntlet](equipment.md#_armor-spikes) | Yes |
+| Load a [heavy or repeating crossbow](equipment#_table-6-4-weapons) | Yes |
+| Lock or unlock weapon in [locked gauntlet](equipment#_armor-spikes) | Yes |
 | Prepare to throw splash weapon | Yes |
 | Run | Yes |
 | Use skill that takes 1 round | Usually |
@@ -240,10 +240,10 @@ _Will_: These saves reflect your resistance to mental influence as well as many 
 
 | Free Action | Attack of Opportunityⁱ |
 | --- | --- |
-| Cease [concentration](magic.md#_concentration) on a spell | No |
+| Cease [concentration](magic#_concentration) on a spell | No |
 | Drop an item | No |
 | Drop to the floor | No |
-| Prepare [spell components](magic.md#_preparing-wizard-spells) to cast a spell⁵ | No |
+| Prepare [spell components](magic#_preparing-wizard-spells) to cast a spell⁵ | No |
 | Speak | No |
 
 | Swift Action | Attack of Opportunityⁱ |
@@ -252,7 +252,7 @@ _Will_: These saves reflect your resistance to mental influence as well as many 
 
 | Immediate Action | Attack of Opportunityⁱ |
 | --- | --- |
-| Cast [_feather fall_](spells/featherFall.md#_feather-fall) | No |
+| Cast [_feather fall_](spells/featherFall#_feather-fall) | No |
 
 | No Action | Attack of Opportunityⁱ |
 | --- | --- |
@@ -266,7 +266,7 @@ _Will_: These saves reflect your resistance to mental influence as well as many 
 
  1 Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.  
  2 If you aid someone performing an action that would normally provoke an attack of opportunity, then the act of aiding another provokes an attack of opportunity as well.  
- 3 If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the [Two-Weapon Fighting](feats.md#_two-weapon-fighting) feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one.  
+ 3 If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the [Two-Weapon Fighting](feats#_two-weapon-fighting) feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one.  
  4 May be taken as a standard action if you are limited to taking only a single action in a round.  
  5 Unless the component is an extremely large or awkward item.  
  6 Some combat maneuvers substitute for a melee attack, not an action. As melee attacks, they can be used once in an attack or charge action, one or more times in a full-attack action, or even as an attack of opportunity. Others are used as a separate action.  
@@ -320,31 +320,31 @@ _Attacks of Opportunity_: Attacking unarmed provokes an attack of opportunity fr
 
 An unarmed character can't take attacks of opportunity (but see “Armed” Unarmed Attacks, below).
 
-_“Armed” Unarmed Attacks_: Sometimes a character's or creature's unarmed attack counts as an armed attack. A monk, a character with the [Improved Unarmed Strike](feats.md#_improved-unarmed-strike) feat, a spellcaster delivering a touch attack spell, and a creature with natural physical weapons all count as being armed (see natural attacks).
+_“Armed” Unarmed Attacks_: Sometimes a character's or creature's unarmed attack counts as an armed attack. A monk, a character with the [Improved Unarmed Strike](feats#_improved-unarmed-strike) feat, a spellcaster delivering a touch attack spell, and a creature with natural physical weapons all count as being armed (see natural attacks).
 
 Note that being armed counts for both offense and defense (the character can make attacks of opportunity).
 
-_Unarmed Strike Damage_: An unarmed strike from a Medium character deals 1d3 points of bludgeoning damage (plus your [Strength](gettingStarted.md#_strength) modifier, as normal). A Small character's unarmed strike deals 1d2 points of bludgeoning damage, while a Large character's unarmed strike deals 1d4 points of bludgeoning damage. All damage from unarmed strikes is nonlethal damage. Unarmed strikes count as light weapons (for purposes of two-weapon attack penalties and so on).
+_Unarmed Strike Damage_: An unarmed strike from a Medium character deals 1d3 points of bludgeoning damage (plus your [Strength](gettingStarted#_strength) modifier, as normal). A Small character's unarmed strike deals 1d2 points of bludgeoning damage, while a Large character's unarmed strike deals 1d4 points of bludgeoning damage. All damage from unarmed strikes is nonlethal damage. Unarmed strikes count as light weapons (for purposes of two-weapon attack penalties and so on).
 
-_Dealing Lethal Damage_: You can specify that your unarmed strike will deal lethal damage before you make your attack roll, but you take a –4 penalty on your attack roll. If you have the [Improved Unarmed Strike](feats.md#_improved-unarmed-strike) feat, you can deal lethal damage with an unarmed strike without taking a penalty on the attack roll.
+_Dealing Lethal Damage_: You can specify that your unarmed strike will deal lethal damage before you make your attack roll, but you take a –4 penalty on your attack roll. If you have the [Improved Unarmed Strike](feats#_improved-unarmed-strike) feat, you can deal lethal damage with an unarmed strike without taking a penalty on the attack roll.
 
 **Ranged Attacks** : With a ranged weapon, you can shoot or throw at any target that is within the weapon's maximum range and in line of sight. The maximum range for a thrown weapon is five range increments. For projectile weapons, it is 10 range increments. Some ranged weapons have shorter maximum ranges, as specified in their descriptions.
 
-**Natural Attacks** : Attacks made with natural weapons, such as claws and bites, are melee attacks that can be made against any creature within your reach (usually 5 feet). These attacks are made using your full attack bonus and deal an amount of damage that depends on their type (plus your [Strength](gettingStarted.md#_strength) modifier, as normal). You do not receive additional natural attacks for a high base attack bonus. Instead, you receive additional attack rolls for multiple limb and body parts capable of making the attack (as noted by the race or ability that grants the attacks). If you possess only one natural attack (such as a bite—two claw attacks do not qualify), you add 1–1/2 times your [Strength](gettingStarted.md#_strength) bonus on damage rolls made with that attack.
+**Natural Attacks** : Attacks made with natural weapons, such as claws and bites, are melee attacks that can be made against any creature within your reach (usually 5 feet). These attacks are made using your full attack bonus and deal an amount of damage that depends on their type (plus your [Strength](gettingStarted#_strength) modifier, as normal). You do not receive additional natural attacks for a high base attack bonus. Instead, you receive additional attack rolls for multiple limb and body parts capable of making the attack (as noted by the race or ability that grants the attacks). If you possess only one natural attack (such as a bite—two claw attacks do not qualify), you add 1–1/2 times your [Strength](gettingStarted#_strength) bonus on damage rolls made with that attack.
 
-Some natural attacks are denoted as secondary natural attacks, such as tails and wings. Attacks with secondary natural attacks are made using your base attack bonus minus 5. These attacks deal an amount of damage depending on their type, but you only add half your [Strength](gettingStarted.md#_strength) modifier on damage rolls.
+Some natural attacks are denoted as secondary natural attacks, such as tails and wings. Attacks with secondary natural attacks are made using your base attack bonus minus 5. These attacks deal an amount of damage depending on their type, but you only add half your [Strength](gettingStarted#_strength) modifier on damage rolls.
 
-You can make attacks with natural weapons in combination with attacks made with a melee weapon and unarmed strikes, so long as a different limb is used for each attack. For example, you cannot make a claw attack and also use that hand to make attacks with a longsword. When you make additional attacks in this way, all of your natural attacks are treated as secondary natural attacks, using your base attack bonus minus 5 and adding only 1/2 of your [Strength](gettingStarted.md#_strength) modifier on damage rolls. Feats such as [Two-Weapon Fighting](feats.md#_two-weapon-fighting) and Multiattack can reduce these penalties.
+You can make attacks with natural weapons in combination with attacks made with a melee weapon and unarmed strikes, so long as a different limb is used for each attack. For example, you cannot make a claw attack and also use that hand to make attacks with a longsword. When you make additional attacks in this way, all of your natural attacks are treated as secondary natural attacks, using your base attack bonus minus 5 and adding only 1/2 of your [Strength](gettingStarted#_strength) modifier on damage rolls. Feats such as [Two-Weapon Fighting](feats#_two-weapon-fighting) and Multiattack can reduce these penalties.
 
 **Multiple Attacks** : A character who can make more than one attack per round must use the full-attack action (see Full-Round Actions) in order to get more than one attack.
 
-**Shooting or Throwing into a Melee** : If you shoot or throw a ranged weapon at a target engaged in melee with a friendly character, you take a –4 penalty on your attack roll. Two characters are engaged in melee if they are enemies of each other and either threatens the other. (An [unconscious](glossary.md#_unconscious) or otherwise immobilized character is not considered engaged unless he is actually being attacked.)
+**Shooting or Throwing into a Melee** : If you shoot or throw a ranged weapon at a target engaged in melee with a friendly character, you take a –4 penalty on your attack roll. Two characters are engaged in melee if they are enemies of each other and either threatens the other. (An [unconscious](glossary#_unconscious) or otherwise immobilized character is not considered engaged unless he is actually being attacked.)
 
 If your target (or the part of your target you're aiming at, if it's a big target) is at least 10 feet away from the nearest friendly character, you can avoid the –4 penalty, even if the creature you're aiming at is engaged in melee with a friendly character.
 
 If your target is two size categories larger than the friendly characters it is engaged with, this penalty is reduced to –2. There is no penalty for firing at a creature that is three size categories larger than the friendly characters it is engaged with.
 
-_Precise Shot_: If you have the [Precise Shot](feats.md#_precise-shot) feat, you don't take this penalty.
+_Precise Shot_: If you have the [Precise Shot](feats#_precise-shot) feat, you don't take this penalty.
 
 **Fighting Defensively as a Standard Action** : You can choose to fight defensively when attacking. If you do so, you take a –4 penalty on all attacks in a round to gain a +2 dodge bonus to AC until the start of your next turn.
 
@@ -356,15 +356,15 @@ _Exception_: Precision damage (such as from a rogue's sneak attack class feature
 
 _Increased Threat Range_: Sometimes your threat range is greater than 20. That is, you can score a threat on a lower number. In such cases, a roll of lower than 20 is not an automatic hit. Any attack roll that doesn't result in a hit is not a threat.
 
-_Increased Critical Multiplier_: Some weapons deal better than double damage on a critical hit (see [Equipment](equipment.md)).
+_Increased Critical Multiplier_: Some weapons deal better than double damage on a critical hit (see [Equipment](equipment)).
 
-_Spells and Critical Hits_: A spell that requires an attack roll can score a critical hit. A spell attack that requires no attack roll cannot score a critical hit. If a spell causes ability damage or drain (see [Special Abilities](glossary.md#_appendix-1-special-abilities)), the damage or drain is doubled on a critical hit.
+_Spells and Critical Hits_: A spell that requires an attack roll can score a critical hit. A spell attack that requires no attack roll cannot score a critical hit. If a spell causes ability damage or drain (see [Special Abilities](glossary#_appendix-1-special-abilities)), the damage or drain is doubled on a critical hit.
 
 ### Activate Magic Item
 
 Many magic items don't need to be activated. Certain magic items, however, do need to be activated, especially potions, scrolls, wands, rods, and staves. Unless otherwise noted, activating a magic item is a standard action.
 
-**Spell Completion Items** : Activating a [spell completion item](magicItems.md#_spell-completion) is the equivalent of casting a spell. It requires concentration and provokes attacks of opportunity. You lose the spell if your concentration is broken, and you can attempt to activate the item while on the defensive, as with casting a spell.
+**Spell Completion Items** : Activating a [spell completion item](magicItems#_spell-completion) is the equivalent of casting a spell. It requires concentration and provokes attacks of opportunity. You lose the spell if your concentration is broken, and you can attempt to activate the item while on the defensive, as with casting a spell.
 
 **Spell Trigger, Command Word, or Use-Activated Items** : Activating any of these kinds of items does not require concentration and does not provoke attacks of opportunity.
 
@@ -372,15 +372,15 @@ Many magic items don't need to be activated. Certain magic items, however, do ne
 
 Most spells require 1 standard action to cast. You can cast such a spell either before or after you take a move action.
 
-_Note_: You retain your [Dexterity](gettingStarted.md#_dexterity) bonus to AC while casting.
+_Note_: You retain your [Dexterity](gettingStarted#_dexterity) bonus to AC while casting.
 
-**Spell Components** : To cast a spell with a verbal (V) component, your character must speak in a firm voice. If you're gagged or in the area of a _silence _spell, you can't cast such a spell. A spellcaster who has been [deafened](glossary.md#_deafened) has a 20% chance to spoil any spell he tries to cast if that spell has a verbal component.
+**Spell Components** : To cast a spell with a verbal (V) component, your character must speak in a firm voice. If you're gagged or in the area of a _silence _spell, you can't cast such a spell. A spellcaster who has been [deafened](glossary#_deafened) has a 20% chance to spoil any spell he tries to cast if that spell has a verbal component.
 
 To cast a spell with a somatic (S) component, you must gesture freely with at least one hand. You can't cast a spell of this type while bound, grappling, or with both your hands full or occupied.
 
 To cast a spell with a material (M), focus (F), or divine focus (DF) component, you have to have the proper materials, as described by the spell. Unless these components are elaborate, preparing them is a free action. For material components and focuses whose costs are not listed in the spell description, you can assume that you have them if you have your spell component pouch.
 
-**Concentration** : You must concentrate to cast a spell. If you can't concentrate, you can't cast a spell. If you start casting a spell but something interferes with your concentration, you must make a concentration check or lose the spell. The check's DC depends on what is threatening your concentration (see [Magic](magic.md)). If you fail, the spell fizzles with no effect. If you prepare spells, it is lost from preparation. If you cast at will, it counts against your daily limit of spells even though you did not cast it successfully.
+**Concentration** : You must concentrate to cast a spell. If you can't concentrate, you can't cast a spell. If you start casting a spell but something interferes with your concentration, you must make a concentration check or lose the spell. The check's DC depends on what is threatening your concentration (see [Magic](magic)). If you fail, the spell fizzles with no effect. If you prepare spells, it is lost from preparation. If you cast at will, it counts against your daily limit of spells even though you did not cast it successfully.
 
 **Concentrating to Maintain a Spell** : Some spells require continued concentration to keep them going. Concentrating to maintain a spell is a standard action that doesn't provoke an attack of opportunity. Anything that could break your concentration when casting a spell can keep you from concentrating to maintain a spell. If your concentration breaks, the spell ends.
 
@@ -392,7 +392,7 @@ To cast a spell with a material (M), focus (F), or divine focus (DF) component, 
 
 **Touch Spells in Combat** : Many spells have a range of touch. To use these spells, you cast the spell and then touch the subject. In the same round that you cast the spell, you may also touch (or attempt to touch) as a free action. You may take your move before casting the spell, after touching the target, or between casting the spell and touching the target. You can automatically touch one friend or use the spell on yourself, but to touch an opponent, you must succeed on an attack roll.
 
-_Touch Attacks_: Touching an opponent with a touch spell is considered to be an armed attack and therefore does not provoke attacks of opportunity. The act of casting a spell, however, does provoke an attack of opportunity. Touch attacks come in two types: melee touch attacks and ranged touch attacks. You can score critical hits with either type of attack as long as the spell deals damage. Your opponent's AC against a touch attack does not include any armor bonus, shield bonus, or natural armor bonus. His size modifier, [Dexterity](gettingStarted.md#_dexterity) modifier, and deflection bonus (if any) all apply normally.
+_Touch Attacks_: Touching an opponent with a touch spell is considered to be an armed attack and therefore does not provoke attacks of opportunity. The act of casting a spell, however, does provoke an attack of opportunity. Touch attacks come in two types: melee touch attacks and ranged touch attacks. You can score critical hits with either type of attack as long as the spell deals damage. Your opponent's AC against a touch attack does not include any armor bonus, shield bonus, or natural armor bonus. His size modifier, [Dexterity](gettingStarted#_dexterity) modifier, and deflection bonus (if any) all apply normally.
 
 _Holding the Charge_: If you don't discharge the spell in the round when you cast the spell, you can hold the charge indefinitely. You can continue to make touch attacks round after round. If you touch anything or anyone while holding a charge, even unintentionally, the spell discharges. If you cast another spell, the touch spell dissipates. You can touch one friend as a standard action or up to six friends as a full-round action. Alternatively, you may make a normal unarmed attack (or an attack with a natural weapon) while holding a charge. In this case, you aren't considered armed and you provoke attacks of opportunity as normal for the attack. If your unarmed attack or natural weapon attack normally doesn't provoke attacks of opportunity, neither does this attack. If the attack hits, you deal normal damage for your unarmed attack or natural weapon and the spell discharges. If the attack misses, you are still holding the charge.
 
@@ -406,7 +406,7 @@ The “start full-round action” standard action lets you start undertaking a f
 
 ### Total Defense
 
-You can defend yourself as a standard action. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with fighting defensively or with the benefit of the [Combat Expertise](feats.md#_combat-expertise) feat. You can't make attacks of opportunity while using total defense.
+You can defend yourself as a standard action. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with fighting defensively or with the benefit of the [Combat Expertise](feats#_combat-expertise) feat. You can't make attacks of opportunity while using total defense.
 
 ### Use Special Ability
 
@@ -432,7 +432,7 @@ Many nonstandard modes of movement are covered under this category, including cl
 
 **Accelerated Climbing** : You can climb at half your speed as a move action by accepting a –5 penalty on your Climb check.
 
-**Crawling** : You can crawl 5 feet as a move action. Crawling incurs attacks of opportunity from any attackers who threaten you at any point of your crawl. A crawling character is considered [prone](glossary.md#_prone) and must take a move action to stand up, provoking an attack of opportunity.
+**Crawling** : You can crawl 5 feet as a move action. Crawling incurs attacks of opportunity from any attackers who threaten you at any point of your crawl. A crawling character is considered [prone](glossary#_prone) and must take a move action to stand up, provoking an attack of opportunity.
 
 ### Direct or Redirect a Spell
 
@@ -442,7 +442,7 @@ Some spells allow you to redirect the effect to new targets or areas after you c
 
 Drawing a weapon so that you can use it in combat, or putting it away so that you have a free hand, requires a move action. This action also applies to weapon-like objects carried in easy reach, such as wands. If your weapon or weapon-like object is stored in a pack or otherwise out of easy reach, treat this action as retrieving a stored item.
 
-If you have a base attack bonus of +1 or higher, you may draw a weapon as a free action combined with a regular move. If you have the [Two-Weapon Fighting](feats.md#_two-weapon-fighting) feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one.
+If you have a base attack bonus of +1 or higher, you may draw a weapon as a free action combined with a regular move. If you have the [Two-Weapon Fighting](feats#_two-weapon-fighting) feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one.
 
 Drawing ammunition for use with a ranged weapon (such as arrows, bolts, sling bullets, or shuriken) is a free action.
 
@@ -466,7 +466,7 @@ Dropping a carried (but not worn) shield is a free action.
 
 ### Stand Up
 
-Standing up from a [prone](glossary.md#_prone) position requires a move action and provokes attacks of opportunity.
+Standing up from a [prone](glossary#_prone) position requires a move action and provokes attacks of opportunity.
 
 ## Full-Round Actions
 
@@ -474,7 +474,7 @@ A full-round action requires an entire round to complete. Thus, it can't be coup
 
 ### Full Attack
 
-If you get more than one attack per round because your base attack bonus is high enough (see Base Attack Bonus in [Classes](classes.md)), because you fight with two weapons or a double weapon, or for some special reason, you must use a full-round action to get your additional attacks. You do not need to specify the targets of your attacks ahead of time. You can see how the earlier attacks turn out before assigning the later ones.
+If you get more than one attack per round because your base attack bonus is high enough (see Base Attack Bonus in [Classes](classes)), because you fight with two weapons or a double weapon, or for some special reason, you must use a full-round action to get your additional attacks. You do not need to specify the targets of your attacks ahead of time. You can see how the earlier attacks turn out before assigning the later ones.
 
 The only movement you can take during a full attack is a 5-foot step. You may take the step before, after, or between your attacks.
 
@@ -506,9 +506,9 @@ In some situations, your movement may be so hampered that you don't have suffici
 
 ### Run
 
-You can run as a full-round action. If you do, you do not also get a 5-foot step. When you run, you can move up to four times your speed in a straight line (or three times your speed if you're in heavy armor). You lose any [Dexterity](gettingStarted.md#_dexterity) bonus to AC unless you have the [Run](feats.md#_run) feat.
+You can run as a full-round action. If you do, you do not also get a 5-foot step. When you run, you can move up to four times your speed in a straight line (or three times your speed if you're in heavy armor). You lose any [Dexterity](gettingStarted#_dexterity) bonus to AC unless you have the [Run](feats#_run) feat.
 
-You can run for a number of rounds equal to your [Constitution](gettingStarted.md#_constitution) score, but after that you must make a DC 10 [Constitution](gettingStarted.md#_constitution) check to continue running. You must check again each round in which you continue to run, and the DC of this check increases by 1 for each check you have made. When you fail this check, you must stop running. A character who has run to his limit must rest for 1 minute (10 rounds) before running again. During a rest period, a character can move no faster than a normal move action.
+You can run for a number of rounds equal to your [Constitution](gettingStarted#_constitution) score, but after that you must make a DC 10 [Constitution](gettingStarted#_constitution) check to continue running. You must check again each round in which you continue to run, and the DC of this check increases by 1 for each check you have made. When you fail this check, you must stop running. A character who has run to his limit must rest for 1 minute (10 rounds) before running again. During a rest period, a character can move no faster than a normal move action.
 
 You can't run across difficult terrain or if you can't see where you're going.
 
@@ -520,7 +520,7 @@ Using a special ability is usually a standard action, but some may be full-round
 
 ### Withdraw
 
-Withdrawing from melee combat is a full-round action. When you withdraw, you can move up to double your speed. The square you start out in is not considered threatened by any opponent you can see, and therefore visible enemies do not get attacks of opportunity against you when you move from that square. [Invisible](glossary.md#_invisible) enemies still get attacks of opportunity against you, and you can't withdraw from combat if you're blinded. You can't take a 5-foot step during the same round in which you withdraw.
+Withdrawing from melee combat is a full-round action. When you withdraw, you can move up to double your speed. The square you start out in is not considered threatened by any opponent you can see, and therefore visible enemies do not get attacks of opportunity against you when you move from that square. [Invisible](glossary#_invisible) enemies still get attacks of opportunity against you, and you can't withdraw from combat if you're blinded. You can't take a 5-foot step during the same round in which you withdraw.
 
 If, during the process of withdrawing, you move out of a threatened square (other than the one you started in), enemies get attacks of opportunity as normal.
 
@@ -544,7 +544,7 @@ Dropping an item in your space or into an adjacent square is a free action.
 
 ### Drop Prone
 
-Dropping to a [prone](glossary.md#_prone) position in your space is a free action.
+Dropping to a [prone](glossary#_prone) position in your space is a free action.
 
 ### Speak
 
@@ -562,7 +562,7 @@ You can cast a quickened spell (see the Quicken Spell feat), or any spell whose 
 
 Much like a swift action, an immediate action consumes a very small amount of time but represents a larger expenditure of effort and energy than a free action. However, unlike a swift action, an immediate action can be performed at any time—even if it's not your turn. Casting _feather fall_ is an immediate action, since the spell can be cast at any time.
 
-Using an immediate action on your turn is the same as using a swift action and counts as your swift action for that turn. You cannot use another immediate action or a swift action until after your next turn if you have used an immediate action when it is not currently your turn (effectively, using an immediate action before your turn is equivalent to using your swift action for the coming turn). You also cannot use an immediate action if you are [flat-footed](glossary.md#_flat-footed).
+Using an immediate action on your turn is the same as using a swift action and counts as your swift action for that turn. You cannot use another immediate action or a swift action until after your next turn if you have used an immediate action when it is not currently your turn (effectively, using an immediate action before your turn is equivalent to using your swift action for the coming turn). You also cannot use an immediate action if you are [flat-footed](glossary#_flat-footed).
 
 ## Miscellaneous Actions
 
@@ -586,7 +586,7 @@ Certain feats let you take special actions in combat. Other feats do not require
 
 Most skill uses are standard actions, but some might be move actions, full-round actions, free actions, or something else entirely.
 
-The individual skill descriptions in [Using Skills](usingSkills.md) tell you what sorts of actions are required to perform skills.
+The individual skill descriptions in [Using Skills](usingSkills) tell you what sorts of actions are required to perform skills.
 
 # Injury and Death
 
@@ -600,9 +600,9 @@ The most common way that your character gets hurt is to take lethal damage and l
 
 **Effects of Hit Point Damage** : Damage doesn't slow you down until your current hit points reach 0 or lower. At 0 hit points, you're disabled.
 
-If your hit point total is negative, but not equal to or greater than your [Constitution](gettingStarted.md#_constitution) score, you are [unconscious](glossary.md#_unconscious) and [dying](glossary.md#_dying).
+If your hit point total is negative, but not equal to or greater than your [Constitution](gettingStarted#_constitution) score, you are [unconscious](glossary#_unconscious) and [dying](glossary#_dying).
 
-When your negative hit point total is equal to your [Constitution](gettingStarted.md#_constitution), you're dead.
+When your negative hit point total is equal to your [Constitution](gettingStarted#_constitution), you're dead.
 
 **Massive Damage (Optional Rule)** : If you ever sustain a single attack that deals an amount of damage equal to half your total hit points (minimum 50 points of damage) or more and it doesn't kill you outright, you must make a DC 15 Fortitude save. If this saving throw fails, you die regardless of your current hit points. If you take half your total hit points or more in damage from multiple attacks, no one of which dealt more than half your total hit points (minimum 50), the massive damage rule does not apply.
 
@@ -610,43 +610,43 @@ When your negative hit point total is equal to your [Constitution](gettingStarte
 
 When your current hit point total drops to exactly 0, you are disabled.
 
-You gain the [staggered](glossary.md#_staggered) condition and can only take a single move or standard action each turn (but not both, nor can you take full-round actions). You can take move actions without further injuring yourself, but if you perform any standard action (or any other strenuous action) you take 1 point of damage after completing the act. Unless your activity increased your hit points, you are now at –1 hit points and [dying](glossary.md#_dying).
+You gain the [staggered](glossary#_staggered) condition and can only take a single move or standard action each turn (but not both, nor can you take full-round actions). You can take move actions without further injuring yourself, but if you perform any standard action (or any other strenuous action) you take 1 point of damage after completing the act. Unless your activity increased your hit points, you are now at –1 hit points and [dying](glossary#_dying).
 
 Healing that raises your hit points above 0 makes you fully functional again, just as if you'd never been reduced to 0 or fewer hit points.
 
-You can also become disabled when recovering from [dying](glossary.md#_dying). In this case, it's a step toward recovery, and you can have fewer than 0 hit points (see [Stable](glossary.md#_stable) Characters and Recovery).
+You can also become disabled when recovering from [dying](glossary#_dying). In this case, it's a step toward recovery, and you can have fewer than 0 hit points (see [Stable](glossary#_stable) Characters and Recovery).
 
 ## Dying (Negative Hit Points)
 
-If your hit point total is negative, but not equal to or greater than your [Constitution](gettingStarted.md#_constitution) score, you're dying.
+If your hit point total is negative, but not equal to or greater than your [Constitution](gettingStarted#_constitution) score, you're dying.
 
-A dying character immediately falls [unconscious](glossary.md#_unconscious) and can take no actions.
+A dying character immediately falls [unconscious](glossary#_unconscious) and can take no actions.
 
-A dying character loses 1 hit point every round. This continues until the character dies or becomes [stable](glossary.md#_stable).
+A dying character loses 1 hit point every round. This continues until the character dies or becomes [stable](glossary#_stable).
 
 ## Dead
 
-When your character's current hit points drop to a negative amount equal to his [Constitution](gettingStarted.md#_constitution) score or lower, or if he succumbs to massive damage, he's dead. A character can also die from taking ability damage or suffering an ability drain that reduces his [Constitution](gettingStarted.md#_constitution) score to 0 (see [Special Abilities](glossary.md#_appendix-1-special-abilities)).
+When your character's current hit points drop to a negative amount equal to his [Constitution](gettingStarted#_constitution) score or lower, or if he succumbs to massive damage, he's dead. A character can also die from taking ability damage or suffering an ability drain that reduces his [Constitution](gettingStarted#_constitution) score to 0 (see [Special Abilities](glossary#_appendix-1-special-abilities)).
 
-Certain types of powerful magic, such as _raise dead_ and _resurrection_, can restore life to a dead character. See [Magic](magic.md) for more information.
+Certain types of powerful magic, such as _raise dead_ and _resurrection_, can restore life to a dead character. See [Magic](magic) for more information.
 
 ## Stable Characters and Recovery
 
-On the character's next turn, after being reduced to negative hit points (but not dead), and on all subsequent turns, the character must make a DC 10 [Constitution](gettingStarted.md#_constitution) check to become [stable](glossary.md#_stable). The character takes a penalty on this roll equal to his negative hit point total. A character that is [stable](glossary.md#_stable) does not need to make this check. A natural 20 on this check is an automatic success. If the character fails this check, he loses 1 hit point. An [unconscious](glossary.md#_unconscious) or [dying](glossary.md#_dying) character cannot use any special action that changes the initiative count on which his action occurs.
+On the character's next turn, after being reduced to negative hit points (but not dead), and on all subsequent turns, the character must make a DC 10 [Constitution](gettingStarted#_constitution) check to become [stable](glossary#_stable). The character takes a penalty on this roll equal to his negative hit point total. A character that is [stable](glossary#_stable) does not need to make this check. A natural 20 on this check is an automatic success. If the character fails this check, he loses 1 hit point. An [unconscious](glossary#_unconscious) or [dying](glossary#_dying) character cannot use any special action that changes the initiative count on which his action occurs.
 
-Characters taking continuous damage, such as from an _acid arrow_ or a bleed effect, automatically fail all [Constitution](gettingStarted.md#_constitution) checks made to stabilize. Such characters lose 1 hit point per round in addition to the continuous damage.
+Characters taking continuous damage, such as from an _acid arrow_ or a bleed effect, automatically fail all [Constitution](gettingStarted#_constitution) checks made to stabilize. Such characters lose 1 hit point per round in addition to the continuous damage.
 
-You can keep a [dying](glossary.md#_dying) character from losing any more hit points and make him [stable](glossary.md#_stable) with a DC 15 Heal check.
+You can keep a [dying](glossary#_dying) character from losing any more hit points and make him [stable](glossary#_stable) with a DC 15 Heal check.
 
-If any sort of healing cures the [dying](glossary.md#_dying) character of even 1 point of damage, he becomes [stable](glossary.md#_stable) and stops losing hit points.
+If any sort of healing cures the [dying](glossary#_dying) character of even 1 point of damage, he becomes [stable](glossary#_stable) and stops losing hit points.
 
-Healing that raises the [dying](glossary.md#_dying) character's hit points to 0 makes him conscious and disabled. Healing that raises his hit points to 1 or more makes him fully functional again, just as if he'd never been reduced to 0 or lower. A spellcaster retains the spellcasting capability she had before dropping below 0 hit points.
+Healing that raises the [dying](glossary#_dying) character's hit points to 0 makes him conscious and disabled. Healing that raises his hit points to 1 or more makes him fully functional again, just as if he'd never been reduced to 0 or lower. A spellcaster retains the spellcasting capability she had before dropping below 0 hit points.
 
-A [stable](glossary.md#_stable) character who has been tended by a healer or who has been magically healed eventually regains consciousness and recovers hit points naturally. If the character has no one to tend him, however, his life is still in danger, and he may yet slip away.
+A [stable](glossary#_stable) character who has been tended by a healer or who has been magically healed eventually regains consciousness and recovers hit points naturally. If the character has no one to tend him, however, his life is still in danger, and he may yet slip away.
 
-**Recovering with Help** : One hour after a tended, [dying](glossary.md#_dying) character becomes [stable](glossary.md#_stable), the character must make a DC 10 [Constitution](gettingStarted.md#_constitution) check to become conscious. The character takes a penalty on this roll equal to his negative hit point total. Conscious characters with negative hit point totals are treated as disabled characters. If the character remains [unconscious](glossary.md#_unconscious), he receives another check every hour to regain consciousness. A natural 20 on this check is an automatic success. Even if [unconscious](glossary.md#_unconscious), the character recovers hit points naturally. He automatically regains consciousness when his hit points rise to 1 or higher.
+**Recovering with Help** : One hour after a tended, [dying](glossary#_dying) character becomes [stable](glossary#_stable), the character must make a DC 10 [Constitution](gettingStarted#_constitution) check to become conscious. The character takes a penalty on this roll equal to his negative hit point total. Conscious characters with negative hit point totals are treated as disabled characters. If the character remains [unconscious](glossary#_unconscious), he receives another check every hour to regain consciousness. A natural 20 on this check is an automatic success. Even if [unconscious](glossary#_unconscious), the character recovers hit points naturally. He automatically regains consciousness when his hit points rise to 1 or higher.
 
-**Recovering without Help** : A severely wounded character left alone usually dies. He has a small chance of recovering on his own. Treat such characters as those attempting to recover with help, but every failed [Constitution](gettingStarted.md#_constitution) check to regain consciousness results in the loss of 1 hit point. An unaided character does not recover hit points naturally. Once conscious, the character can make a DC 10 [Constitution](gettingStarted.md#_constitution) check once per day, after resting for 8 hours, to begin recovering hit points naturally. The character takes a penalty on this roll equal to his negative hit point total. Failing this check causes the character to lose 1 hit point, but this does not cause the character to become [unconscious](glossary.md#_unconscious). Once a character makes this check, he continues to heal naturally and is no longer in danger of losing hit points naturally.
+**Recovering without Help** : A severely wounded character left alone usually dies. He has a small chance of recovering on his own. Treat such characters as those attempting to recover with help, but every failed [Constitution](gettingStarted#_constitution) check to regain consciousness results in the loss of 1 hit point. An unaided character does not recover hit points naturally. Once conscious, the character can make a DC 10 [Constitution](gettingStarted#_constitution) check once per day, after resting for 8 hours, to begin recovering hit points naturally. The character takes a penalty on this roll equal to his negative hit point total. Failing this check causes the character to lose 1 hit point, but this does not cause the character to become [unconscious](glossary#_unconscious). Once a character makes this check, he continues to heal naturally and is no longer in danger of losing hit points naturally.
 
 ## Healing
 
@@ -668,25 +668,25 @@ Certain effects give a character temporary hit points. These hit points are in a
 
 When temporary hit points are lost, they cannot be restored as real hit points can be, even by magic.
 
-**Increases in [Constitution](gettingStarted.md#_constitution) Score and Current Hit Points** : An increase in a character's [Constitution](gettingStarted.md#_constitution) score, even a temporary one, can give her more hit points (an effective hit point increase), but these are not temporary hit points. They can be restored, and they are not lost first as temporary hit points are.
+**Increases in [Constitution](gettingStarted#_constitution) Score and Current Hit Points** : An increase in a character's [Constitution](gettingStarted#_constitution) score, even a temporary one, can give her more hit points (an effective hit point increase), but these are not temporary hit points. They can be restored, and they are not lost first as temporary hit points are.
 
 ## Nonlethal Damage
 
 Nonlethal damage represents harm to a character that is not life-threatening. Unlike normal damage, nonlethal damage is healed quickly with rest.
 
-**Dealing Nonlethal Damage** : Certain attacks deal nonlethal damage. Other effects, such as heat or being [exhausted](glossary.md#_exhausted), also deal nonlethal damage. When you take nonlethal damage, keep a running total of how much you've accumulated. Do not deduct the nonlethal damage number from your current hit points. It is not “real” damage. Instead, when your nonlethal damage equals your current hit points, you're [staggered](glossary.md#_staggered) (see below), and when it exceeds your current hit points, you fall [unconscious](glossary.md#_unconscious).
+**Dealing Nonlethal Damage** : Certain attacks deal nonlethal damage. Other effects, such as heat or being [exhausted](glossary#_exhausted), also deal nonlethal damage. When you take nonlethal damage, keep a running total of how much you've accumulated. Do not deduct the nonlethal damage number from your current hit points. It is not “real” damage. Instead, when your nonlethal damage equals your current hit points, you're [staggered](glossary#_staggered) (see below), and when it exceeds your current hit points, you fall [unconscious](glossary#_unconscious).
 
 _Nonlethal Damage with a Weapon that Deals Lethal Damage_: You can use a melee weapon that deals lethal damage to deal nonlethal damage instead, but you take a –4 penalty on your attack roll.
 
 _Lethal Damage with a Weapon that Deals Nonlethal Damage_: You can use a weapon that deals nonlethal damage, including an unarmed strike, to deal lethal damage instead, but you take a –4 penalty on your attack roll.
 
-**Staggered and Unconscious** : When your nonlethal damage equals your current hit points, you're [staggered](glossary.md#_staggered). You can only take a standard action or a move action in each round (in addition to free, immediate, and swift actions). You cease being [staggered](glossary.md#_staggered) when your current hit points once again exceed your nonlethal damage.
+**Staggered and Unconscious** : When your nonlethal damage equals your current hit points, you're [staggered](glossary#_staggered). You can only take a standard action or a move action in each round (in addition to free, immediate, and swift actions). You cease being [staggered](glossary#_staggered) when your current hit points once again exceed your nonlethal damage.
 
-When your nonlethal damage exceeds your current hit points, you fall [unconscious](glossary.md#_unconscious). While [unconscious](glossary.md#_unconscious), you are [helpless](glossary.md#_helpless).
+When your nonlethal damage exceeds your current hit points, you fall [unconscious](glossary#_unconscious). While [unconscious](glossary#_unconscious), you are [helpless](glossary#_helpless).
 
-Spellcasters who fall [unconscious](glossary.md#_unconscious) retain any spellcasting ability they had before going [unconscious](glossary.md#_unconscious).
+Spellcasters who fall [unconscious](glossary#_unconscious) retain any spellcasting ability they had before going [unconscious](glossary#_unconscious).
 
-If a creature's nonlethal damage is equal to his total maximum hit points (not his current hit points), all further nonlethal damage is treated as lethal damage. This does not apply to creatures with regeneration. Such creatures simply accrue additional nonlethal damage, increasing the amount of time they remain [unconscious](glossary.md#_unconscious).
+If a creature's nonlethal damage is equal to his total maximum hit points (not his current hit points), all further nonlethal damage is treated as lethal damage. This does not apply to creatures with regeneration. Such creatures simply accrue additional nonlethal damage, increasing the amount of time they remain [unconscious](glossary#_unconscious).
 
 **Healing Nonlethal Damage** : You heal nonlethal damage at the rate of 1 hit point per hour per character level. When a spell or ability cures hit point damage, it also removes an equal amount of nonlethal damage.
 
@@ -705,7 +705,7 @@ Miniatures are on the 30mm scale—a miniature of a 6-foot-tall man is approxima
 
 Your speed is determined by your race and your armor (see Table: Tactical Speed). Your speed while unarmored is your base land speed.
 
-**Encumbrance** : A character encumbered by carrying treasure. a large amount of gear, or fallen comrades may move slower than normal (see [Additional Rules](additionalRules.md)).
+**Encumbrance** : A character encumbered by carrying treasure. a large amount of gear, or fallen comrades may move slower than normal (see [Additional Rules](additionalRules)).
 
 **Hampered Movement** : Difficult terrain, obstacles, or poor visibility can hamper movement.
 
@@ -735,9 +735,9 @@ You can move through an unoccupied square without difficulty in most circumstanc
 
 **Friend** : You can move through a square occupied by a friendly character, unless you are charging. When you move through a square occupied by a friendly character, that character doesn't provide you with cover.
 
-**Opponent** : You can't move through a square occupied by an opponent unless the opponent is [helpless](glossary.md#_helpless). You can move through a square occupied by a [helpless](glossary.md#_helpless) opponent without penalty. Some creatures, particularly very large ones, may present an obstacle even when [helpless](glossary.md#_helpless). In such cases, each square you move through counts as 2 squares.
+**Opponent** : You can't move through a square occupied by an opponent unless the opponent is [helpless](glossary#_helpless). You can move through a square occupied by a [helpless](glossary#_helpless) opponent without penalty. Some creatures, particularly very large ones, may present an obstacle even when [helpless](glossary#_helpless). In such cases, each square you move through counts as 2 squares.
 
-**Ending Your Movement** : You can't end your movement in the same square as another creature unless it is [helpless](glossary.md#_helpless).
+**Ending Your Movement** : You can't end your movement in the same square as another creature unless it is [helpless](glossary#_helpless).
 
 **Overrun** : During your movement, you can attempt to move through a square occupied by an opponent (see Overrun).
 
@@ -759,13 +759,13 @@ From tangled plants to broken stone, there are a number of terrain features that
 
 If you occupy squares with different kinds of terrain, you can move only as fast as the most difficult terrain you occupy will allow.
 
-Flying and [incorporeal](glossary.md#_incorporeal) creatures are not hampered by difficult terrain.
+Flying and [incorporeal](glossary#_incorporeal) creatures are not hampered by difficult terrain.
 
 **Obstacles** : Like difficult terrain, obstacles can hamper movement. If an obstacle hampers movement but doesn't completely block it, each obstructed square or obstacle between squares counts as 2 squares of movement. You must pay this cost to cross the obstacle, in addition to the cost to move into the square on the other side. If you don't have sufficient movement to cross the obstacle and move into the square on the other side, you can't cross it. Some obstacles may also require a skill check to cross.
 
 On the other hand, some obstacles block movement entirely. A character can't move through a blocking obstacle.
 
-Flying and [incorporeal](glossary.md#_incorporeal) creatures are able to avoid most obstacles.
+Flying and [incorporeal](glossary#_incorporeal) creatures are able to avoid most obstacles.
 
 **Squeezing** : In some cases, you may have to squeeze into or through an area that isn't as wide as the space you take up. You can squeeze through or into a space that is at least half as wide as your normal space. Each move into or through a narrow space counts as if it were 2 squares, and while squeezed in a narrow space, you take a –4 penalty on attack rolls and a –4 penalty to AC.
 
@@ -773,7 +773,7 @@ When a Large creature (which normally takes up 4 squares) squeezes into a space 
 
 A creature can squeeze past a creature while moving but it can't end its movement in an occupied square.
 
-To squeeze through or into a space less than half your space's width, you must use the Escape Artist skill. You can't attack while using Escape Artist to squeeze through or into a narrow space, you take a –4 penalty to AC, and you lose any [Dexterity](gettingStarted.md#_dexterity) bonus to AC.
+To squeeze through or into a space less than half your space's width, you must use the Escape Artist skill. You can't attack while using Escape Artist to squeeze through or into a narrow space, you take a –4 penalty to AC, and you lose any [Dexterity](gettingStarted#_dexterity) bonus to AC.
 
 ## Special Movement Rules
 
@@ -825,13 +825,13 @@ Large or larger creatures using reach weapons can strike up to double their natu
 [Table: Attack Roll Modifiers]
 | Attacker is… | Melee | Ranged |
 | --- | --- | --- |
-| [Dazzled](glossary.md#_dazzled) | –1 | –1 |
-| [Entangled](glossary.md#_entangled) | –2ⁱ | –2ⁱ |
+| [Dazzled](glossary#_dazzled) | –1 | –1 |
+| [Entangled](glossary#_entangled) | –2ⁱ | –2ⁱ |
 | Flanking defender | +2 | — |
-| [Invisible](glossary.md#_invisible) | +2⁲ | +2⁲ |
+| [Invisible](glossary#_invisible) | +2⁲ | +2⁲ |
 | On higher ground | +1 | +0 |
-| [Prone](glossary.md#_prone) | –4 | —⁳ |
-| [Shaken](glossary.md#_shaken) or [frightened](glossary.md#_frightened) | –2 | –2 |
+| [Prone](glossary#_prone) | –4 | —⁳ |
+| [Shaken](glossary#_shaken) or [frightened](glossary#_frightened) | –2 | –2 |
 | Squeezing through a space | –4 | –4 |
 
 [Table: Armor Class Modifiers]
@@ -839,17 +839,17 @@ Large or larger creatures using reach weapons can strike up to double their natu
 | --- | --- | --- |
 | Behind cover | +4 | +4 |
 | Blinded | –2ⁱ | –2ⁱ |
-| Concealed or [invisible](glossary.md#_invisible) | See Concealment |
+| Concealed or [invisible](glossary#_invisible) | See Concealment |
 | Cowering | –2ⁱ | –2ⁱ |
-| [Entangled](glossary.md#_entangled) | +0⁲ | +0⁲ |
-| [Flat-footed](glossary.md#_flat-footed) | +0ⁱ | +0ⁱ |
+| [Entangled](glossary#_entangled) | +0⁲ | +0⁲ |
+| [Flat-footed](glossary#_flat-footed) | +0ⁱ | +0ⁱ |
 | Grappling (but attacker is not) | +0 | +0 |
-| [Helpless](glossary.md#_helpless) | –4⁳ | +0⁳ |
+| [Helpless](glossary#_helpless) | –4⁳ | +0⁳ |
 | Kneeling or sitting | –2 | +2 |
-| [Pinned](glossary.md#_pinned) | –4⁳ | +0⁳ |
-| [Prone](glossary.md#_prone) | –4 | +4 |
+| [Pinned](glossary#_pinned) | –4⁳ | +0⁳ |
+| [Prone](glossary#_prone) | –4 | +4 |
 | Squeezing through a space | –4 | –4 |
-| [Stunned](glossary.md#_stunned) | –2ⁱ | –2ⁱ |
+| [Stunned](glossary#_stunned) | –2ⁱ | –2ⁱ |
 
 A number of factors and conditions can influence an attack roll. Many of these situations grant a bonus or penalty on attack rolls or to a defender's Armor Class.
 
@@ -895,7 +895,7 @@ In addition, some magical effects provide concealment against all attacks, regar
 
 You can't execute an attack of opportunity against an opponent with total concealment, even if you know what square or squares the opponent occupies.
 
-**Ignoring Concealment** : Concealment isn't always effective. An area of dim lighting or darkness doesn't provide any concealment against an opponent with darkvision. Characters with low-light vision can see clearly for a greater distance than other characters with the same light source. Although _invisibility_ provides total concealment, sighted opponents may still make Perception checks to notice the location of an [invisible](glossary.md#_invisible) character. An [invisible](glossary.md#_invisible) character gains a +20 bonus on Stealth checks if moving, or a +40 bonus on Stealth checks when not moving (even though opponents can't see you, they might be able to figure out where you are from other visual or auditory clues).
+**Ignoring Concealment** : Concealment isn't always effective. An area of dim lighting or darkness doesn't provide any concealment against an opponent with darkvision. Characters with low-light vision can see clearly for a greater distance than other characters with the same light source. Although _invisibility_ provides total concealment, sighted opponents may still make Perception checks to notice the location of an [invisible](glossary#_invisible) character. An [invisible](glossary#_invisible) character gains a +20 bonus on Stealth checks if moving, or a +40 bonus on Stealth checks when not moving (even though opponents can't see you, they might be able to figure out where you are from other visual or auditory clues).
 
 **Varying Degrees of Concealment** : Certain situations may provide more or less than typical concealment, and modify the miss chance accordingly.
 
@@ -915,13 +915,13 @@ Creatures with a reach of 0 feet can't flank an opponent.
 
 ## Helpless Defenders
 
-A helpless opponent is someone who is bound, sleeping, [paralyzed](glossary.md#_paralyzed), [unconscious](glossary.md#_unconscious), or otherwise at your mercy.
+A helpless opponent is someone who is bound, sleeping, [paralyzed](glossary#_paralyzed), [unconscious](glossary#_unconscious), or otherwise at your mercy.
 
-**Regular Attack** : A [helpless](glossary.md#_helpless) character takes a –4 penalty to AC against melee attacks. In addition, a [helpless](glossary.md#_helpless) character is treated as having a [Dexterity](gettingStarted.md#_dexterity) of 0, giving him a –5 penalty to AC against both melee and ranged attacks (for a total of –9 against melee and –5 against ranged). A [helpless](glossary.md#_helpless) character is also [flat-footed](glossary.md#_flat-footed).
+**Regular Attack** : A [helpless](glossary#_helpless) character takes a –4 penalty to AC against melee attacks. In addition, a [helpless](glossary#_helpless) character is treated as having a [Dexterity](gettingStarted#_dexterity) of 0, giving him a –5 penalty to AC against both melee and ranged attacks (for a total of –9 against melee and –5 against ranged). A [helpless](glossary#_helpless) character is also [flat-footed](glossary#_flat-footed).
 
-**Coup de Grace** : As a full-round action, you can use a melee weapon to deliver a coup de grace (pronounced “coo day grahs”) to a [helpless](glossary.md#_helpless) opponent. You can also use a bow or crossbow, provided you are adjacent to the target.
+**Coup de Grace** : As a full-round action, you can use a melee weapon to deliver a coup de grace (pronounced “coo day grahs”) to a [helpless](glossary#_helpless) opponent. You can also use a bow or crossbow, provided you are adjacent to the target.
 
-You automatically hit and score a critical hit. If the defender survives the damage, he must make a Fortitude save (DC 10 + damage dealt) or die. A rogue also gets her extra sneak attack damage against a [helpless](glossary.md#_helpless) opponent when delivering a coup de grace.
+You automatically hit and score a critical hit. If the defender survives the damage, he must make a Fortitude save (DC 10 + damage dealt) or die. A rogue also gets her extra sneak attack damage against a [helpless](glossary#_helpless) opponent when delivering a coup de grace.
 
 Delivering a coup de grace provokes attacks of opportunity from threatening opponents.
 
@@ -943,13 +943,13 @@ Charging is a special full-round action that allows you to move up to twice your
 
 **Movement During a Charge** : You must move before your attack, not after. You must move at least 10 feet (2 squares) and may move up to double your speed directly toward the designated opponent. If you move a distance equal to your speed or less, you can also draw a weapon during a charge attack if your base attack bonus is at least +1.
 
-You must have a clear path toward the opponent, and nothing can hinder your movement (such as difficult terrain or obstacles). You must move to the closest space from which you can attack the opponent. If this space is occupied or otherwise blocked, you can't charge. If any line from your starting space to the ending space passes through a square that blocks movement, slows movement, or contains a creature (even an ally), you can't charge. [Helpless](glossary.md#_helpless) creatures don't stop a charge.
+You must have a clear path toward the opponent, and nothing can hinder your movement (such as difficult terrain or obstacles). You must move to the closest space from which you can attack the opponent. If this space is occupied or otherwise blocked, you can't charge. If any line from your starting space to the ending space passes through a square that blocks movement, slows movement, or contains a creature (even an ally), you can't charge. [Helpless](glossary#_helpless) creatures don't stop a charge.
 
 If you don't have line of sight to the opponent at the start of your turn, you can't charge that opponent.
 
 You can't take a 5-foot step in the same round as a charge.
 
-If you are able to take only a standard action on your turn, you can still charge, but you are only allowed to move up to your speed (instead of up to double your speed) and you cannot draw a weapon unless you possess the [Quick Draw](feats.md#_quick-draw) feat. You can't use this option unless you are restricted to taking only a standard action on your turn.
+If you are able to take only a standard action on your turn, you can still charge, but you are only allowed to move up to your speed (instead of up to double your speed) and you cannot draw a weapon unless you possess the [Quick Draw](feats#_quick-draw) feat. You can't use this option unless you are restricted to taking only a standard action on your turn.
 
 **Attacking on a Charge** : After moving, you may make a single melee attack. You get a +2 bonus on the attack roll and take a –2 penalty to your AC until the start of your next turn.
 
@@ -967,25 +967,25 @@ During combat, you can attempt to perform a number of maneuvers that can hinder 
 
 **Combat Maneuver Bonus** : Each character and creature has a Combat Maneuver Bonus (or CMB) that represents its skill at performing combat maneuvers. A creature's CMB is determined using the following formula:
 
-**CMB = Base attack bonus + [Strength](gettingStarted.md#_strength) modifier + special size modifier**
+**CMB = Base attack bonus + [Strength](gettingStarted#_strength) modifier + special size modifier**
 
-Creatures that are size Tiny or smaller use their [Dexterity](gettingStarted.md#_dexterity) modifier in place of their [Strength](gettingStarted.md#_strength) modifier to determine their CMB. The special size modifier for a creature's Combat Maneuver Bonus is as follows: Fine –8, Diminutive –4, Tiny –2, Small –1, Medium +0, Large +1, Huge +2, Gargantuan +4, Colossal +8. Some feats and abilities grant a bonus to your CMB when performing specific maneuvers.
+Creatures that are size Tiny or smaller use their [Dexterity](gettingStarted#_dexterity) modifier in place of their [Strength](gettingStarted#_strength) modifier to determine their CMB. The special size modifier for a creature's Combat Maneuver Bonus is as follows: Fine –8, Diminutive –4, Tiny –2, Small –1, Medium +0, Large +1, Huge +2, Gargantuan +4, Colossal +8. Some feats and abilities grant a bonus to your CMB when performing specific maneuvers.
 
-**Performing a Combat Maneuver** : When performing a combat maneuver, you must use an action appropriate to the maneuver you are attempting to perform. While many combat maneuvers can be performed as part of an attack action, full-attack action, or attack of opportunity (in place of a melee attack), others require a specific action. Unless otherwise noted, performing a combat maneuver provokes an attack of opportunity from the target of the maneuver. If you are hit by the target, you take the damage normally and apply that amount as a penalty to the attack roll to perform the maneuver. If your target is immobilized, [unconscious](glossary.md#_unconscious), or otherwise incapacitated, your maneuver automatically succeeds (treat as if you rolled a natural 20 on the attack roll). If your target is [stunned](glossary.md#_stunned), you receive a +4 bonus on your attack roll to perform a combat maneuver against it.
+**Performing a Combat Maneuver** : When performing a combat maneuver, you must use an action appropriate to the maneuver you are attempting to perform. While many combat maneuvers can be performed as part of an attack action, full-attack action, or attack of opportunity (in place of a melee attack), others require a specific action. Unless otherwise noted, performing a combat maneuver provokes an attack of opportunity from the target of the maneuver. If you are hit by the target, you take the damage normally and apply that amount as a penalty to the attack roll to perform the maneuver. If your target is immobilized, [unconscious](glossary#_unconscious), or otherwise incapacitated, your maneuver automatically succeeds (treat as if you rolled a natural 20 on the attack roll). If your target is [stunned](glossary#_stunned), you receive a +4 bonus on your attack roll to perform a combat maneuver against it.
 
 When you attempt to perform a combat maneuver, make an attack roll and add your CMB in place of your normal attack bonus. Add any bonuses you currently have on attack rolls due to spells, feats, and other effects. These bonuses must be applicable to the weapon or attack used to perform the maneuver. The DC of this maneuver is your target's Combat Maneuver Defense. Combat maneuvers are attack rolls, so you must roll for concealment and take any other penalties that would normally apply to an attack roll.
 
 **Combat Maneuver Defense** : Each character and creature has a Combat Maneuver Defense (or CMD) that represents its ability to resist combat maneuvers. A creature's CMD is determined using the following formula:
 
-**CMD = 10 + Base attack bonus + [Strength](gettingStarted.md#_strength) modifier + [Dexterity](gettingStarted.md#_dexterity) modifier + special size modifier**
+**CMD = 10 + Base attack bonus + [Strength](gettingStarted#_strength) modifier + [Dexterity](gettingStarted#_dexterity) modifier + special size modifier**
 
-The special size modifier for a creature's Combat Maneuver Defense is as follows: Fine –8, Diminutive –4, Tiny –2, Small –1, Medium +0, Large +1, Huge +2, Gargantuan +4, Colossal +8. Some feats and abilities grant a bonus to your CMD when resisting specific maneuvers. A creature can also add any circumstance, deflection, dodge, insight, luck, morale, profane, and sacred bonuses to AC to its CMD. Any penalties to a creature's AC also apply to its CMD. A [flat-footed](glossary.md#_flat-footed) creature does not add its [Dexterity](gettingStarted.md#_dexterity) bonus to its CMD.
+The special size modifier for a creature's Combat Maneuver Defense is as follows: Fine –8, Diminutive –4, Tiny –2, Small –1, Medium +0, Large +1, Huge +2, Gargantuan +4, Colossal +8. Some feats and abilities grant a bonus to your CMD when resisting specific maneuvers. A creature can also add any circumstance, deflection, dodge, insight, luck, morale, profane, and sacred bonuses to AC to its CMD. Any penalties to a creature's AC also apply to its CMD. A [flat-footed](glossary#_flat-footed) creature does not add its [Dexterity](gettingStarted#_dexterity) bonus to its CMD.
 
 **Determine Success** : If your attack roll equals or exceeds the CMD of the target, your maneuver is a success and has the listed effect. Some maneuvers, such as bull rush, have varying levels of success depending on how much your attack roll exceeds the target's CMD. Rolling a natural 20 while attempting a combat maneuver is always a success (except when attempting to escape from bonds), while rolling a natural 1 is always a failure.
 
 ### Bull Rush
 
-You can make a bull rush as a standard action or as part of a charge, in place of the melee attack. You can only bull rush an opponent who is no more than one size category larger than you. A bull rush attempts to push an opponent straight back without doing any harm. If you do not have the [Improved Bull Rush](feats.md#_improved-bull-rush) feat, or a similar ability, initiating a bull rush provokes an attack of opportunity from the target of your maneuver.
+You can make a bull rush as a standard action or as part of a charge, in place of the melee attack. You can only bull rush an opponent who is no more than one size category larger than you. A bull rush attempts to push an opponent straight back without doing any harm. If you do not have the [Improved Bull Rush](feats#_improved-bull-rush) feat, or a similar ability, initiating a bull rush provokes an attack of opportunity from the target of your maneuver.
 
 If your attack is successful, your target is pushed back 5 feet. For every 5 by which your attack exceeds your opponent's CMD you can push the target back an additional 5 feet. You can move with the target if you wish but you must have the available movement to do so. If your attack fails, your movement ends in front of the target.
 
@@ -993,49 +993,49 @@ An enemy being moved by a bull rush does not provoke an attack of opportunity be
 
 ### Disarm
 
-You can attempt to disarm your opponent in place of a melee attack. If you do not have the [Improved Disarm](feats.md#_improved-disarm) feat, or a similar ability, attempting to disarm a foe provokes an attack of opportunity from the target of your maneuver. Attempting to disarm a foe while unarmed imposes a –4 penalty on the attack.
+You can attempt to disarm your opponent in place of a melee attack. If you do not have the [Improved Disarm](feats#_improved-disarm) feat, or a similar ability, attempting to disarm a foe provokes an attack of opportunity from the target of your maneuver. Attempting to disarm a foe while unarmed imposes a –4 penalty on the attack.
 
 If your attack is successful, your target drops one item it is carrying of your choice (even if the item is wielded with two hands). If your attack exceeds the CMD of the target by 10 or more, the target drops the items it is carrying in both hands (maximum two items if the target has more than two hands). If your attack fails by 10 or more, you drop the weapon that you were using to attempt the disarm. If you successfully disarm your opponent without using a weapon, you may automatically pick up the item dropped.
 
 ### Grapple
 
-As a standard action, you can attempt to grapple a foe, hindering his combat options. If you do not have [Improved Grapple](feats.md#_improved-grapple), grab, or a similar ability, attempting to grapple a foe provokes an attack of opportunity from the target of your maneuver. Humanoid creatures without two free hands attempting to grapple a foe take a –4 penalty on the combat maneuver roll. If successful, both you and the target gain the [grappled](glossary.md#_grappled) condition (see the Appendices). If you successfully grapple a creature that is not adjacent to you, move that creature to an adjacent open space (if no space is available, your grapple fails). Although both creatures have the [grappled](glossary.md#_grappled) condition, you can, as the creature that initiated the grapple, release the grapple as a free action, removing the condition from both you and the target. If you do not release the grapple, you must continue to make a check each round, as a standard action, to maintain the hold. If your target does not break the grapple, you get a +5 circumstance bonus on grapple checks made against the same target in subsequent rounds. Once you are grappling an opponent, a successful check allows you to continue grappling the foe, and also allows you to perform one of the following actions (as part of the standard action spent to maintain the grapple).
+As a standard action, you can attempt to grapple a foe, hindering his combat options. If you do not have [Improved Grapple](feats#_improved-grapple), grab, or a similar ability, attempting to grapple a foe provokes an attack of opportunity from the target of your maneuver. Humanoid creatures without two free hands attempting to grapple a foe take a –4 penalty on the combat maneuver roll. If successful, both you and the target gain the [grappled](glossary#_grappled) condition (see the Appendices). If you successfully grapple a creature that is not adjacent to you, move that creature to an adjacent open space (if no space is available, your grapple fails). Although both creatures have the [grappled](glossary#_grappled) condition, you can, as the creature that initiated the grapple, release the grapple as a free action, removing the condition from both you and the target. If you do not release the grapple, you must continue to make a check each round, as a standard action, to maintain the hold. If your target does not break the grapple, you get a +5 circumstance bonus on grapple checks made against the same target in subsequent rounds. Once you are grappling an opponent, a successful check allows you to continue grappling the foe, and also allows you to perform one of the following actions (as part of the standard action spent to maintain the grapple).
 
 _Move_: You can move both yourself and your target up to half your speed. At the end of your movement, you can place your target in any square adjacent to you. If you attempt to place your foe in a hazardous location, such as in a _wall of fire_ or over a pit, the target receives a free attempt to break your grapple with a +4 bonus.
 
 _Damage_: You can inflict damage to your target equal to your unarmed strike, a natural attack, or an attack made with armor spikes or a light or one-handed weapon. This damage can be either lethal or nonlethal.
 
-_Pin_: You can give your opponent the [pinned](glossary.md#_pinned) condition (see [Conditions](glossary.md#_appendix-2-conditions)). Despite pinning your opponent, you still only have the [grappled](glossary.md#_grappled) condition, but you lose your [Dexterity](gettingStarted.md#_dexterity) bonus to AC.
+_Pin_: You can give your opponent the [pinned](glossary#_pinned) condition (see [Conditions](glossary#_appendix-2-conditions)). Despite pinning your opponent, you still only have the [grappled](glossary#_grappled) condition, but you lose your [Dexterity](gettingStarted#_dexterity) bonus to AC.
 
-_Tie Up_: If you have your target [pinned](glossary.md#_pinned), otherwise restrained, or [unconscious](glossary.md#_unconscious), you can use rope to tie him up. This works like a pin effect, but the DC to escape the bonds is equal to 20 + your Combat Maneuver Bonus (instead of your CMD). The ropes do not need to make a check every round to maintain the pin. If you are grappling the target, you can attempt to tie him up in ropes, but doing so requires a combat maneuver check at a –10 penalty. If the DC to escape from these bindings is higher than 20 + the target's CMB, the target cannot escape from the bonds, even with a natural 20 on the check.
+_Tie Up_: If you have your target [pinned](glossary#_pinned), otherwise restrained, or [unconscious](glossary#_unconscious), you can use rope to tie him up. This works like a pin effect, but the DC to escape the bonds is equal to 20 + your Combat Maneuver Bonus (instead of your CMD). The ropes do not need to make a check every round to maintain the pin. If you are grappling the target, you can attempt to tie him up in ropes, but doing so requires a combat maneuver check at a –10 penalty. If the DC to escape from these bindings is higher than 20 + the target's CMB, the target cannot escape from the bonds, even with a natural 20 on the check.
 
-**If You Are Grappled** : If you are [grappled](glossary.md#_grappled), you can attempt to break the grapple as a standard action by making a combat maneuver check (DC equal to your opponent's CMD; this does not provoke an attack of opportunity) or Escape Artist check (with a DC equal to your opponent's CMD). If you succeed, you break the grapple and can act normally. Alternatively, if you succeed, you can become the grappler, grappling the other creature (meaning that the other creature cannot freely release the grapple without making a combat maneuver check, while you can). Instead of attempting to break or reverse the grapple, you can take any action that doesn't require two hands to perform, such as cast a spell or make an attack or full attack with a light or one-handed weapon against any creature within your reach, including the creature that is grappling you. See the [grappled](glossary.md#_grappled) condition for additional details. If you are [pinned](glossary.md#_pinned), your actions are very limited. See the [pinned](glossary.md#_pinned) condition in [Conditions](glossary.md#_appendix-2-conditions) for additional details.
+**If You Are Grappled** : If you are [grappled](glossary#_grappled), you can attempt to break the grapple as a standard action by making a combat maneuver check (DC equal to your opponent's CMD; this does not provoke an attack of opportunity) or Escape Artist check (with a DC equal to your opponent's CMD). If you succeed, you break the grapple and can act normally. Alternatively, if you succeed, you can become the grappler, grappling the other creature (meaning that the other creature cannot freely release the grapple without making a combat maneuver check, while you can). Instead of attempting to break or reverse the grapple, you can take any action that doesn't require two hands to perform, such as cast a spell or make an attack or full attack with a light or one-handed weapon against any creature within your reach, including the creature that is grappling you. See the [grappled](glossary#_grappled) condition for additional details. If you are [pinned](glossary#_pinned), your actions are very limited. See the [pinned](glossary#_pinned) condition in [Conditions](glossary#_appendix-2-conditions) for additional details.
 
-**Multiple Creatures** : Multiple creatures can attempt to grapple one target. The creature that first initiates the grapple is the only one that makes a check, with a +2 bonus for each creature that assists in the grapple (using the Aid Another action). Multiple creatures can also assist another creature in breaking free from a grapple, with each creature that assists (using the Aid Another action) granting a +2 bonus on the [grappled](glossary.md#_grappled) creature's combat maneuver check.
+**Multiple Creatures** : Multiple creatures can attempt to grapple one target. The creature that first initiates the grapple is the only one that makes a check, with a +2 bonus for each creature that assists in the grapple (using the Aid Another action). Multiple creatures can also assist another creature in breaking free from a grapple, with each creature that assists (using the Aid Another action) granting a +2 bonus on the [grappled](glossary#_grappled) creature's combat maneuver check.
 
 ### Overrun
 
-As a standard action, taken during your move or as part of a charge, you can attempt to overrun your target, moving through its square. You can only overrun an opponent who is no more than one size category larger than you. If you do not have the [Improved Overrun](feats.md#_improved-overrun) feat, or a similar ability, initiating an overrun provokes an attack of opportunity from the target of your maneuver. If your overrun attempt fails, you stop in the space directly in front of the opponent, or the nearest open space in front of the creature if there are other creatures occupying that space.
+As a standard action, taken during your move or as part of a charge, you can attempt to overrun your target, moving through its square. You can only overrun an opponent who is no more than one size category larger than you. If you do not have the [Improved Overrun](feats#_improved-overrun) feat, or a similar ability, initiating an overrun provokes an attack of opportunity from the target of your maneuver. If your overrun attempt fails, you stop in the space directly in front of the opponent, or the nearest open space in front of the creature if there are other creatures occupying that space.
 
-When you attempt to overrun a target, it can choose to avoid you, allowing you to pass through its square without requiring an attack. If your target does not avoid you, make a combat maneuver check as normal. If your maneuver is successful, you move through the target's space. If your attack exceeds your opponent's CMD by 5 or more, you move through the target's space and the target is knocked [prone](glossary.md#_prone). If the target has more than two legs, add +2 to the DC of the combat maneuver attack roll for each additional leg it has.
+When you attempt to overrun a target, it can choose to avoid you, allowing you to pass through its square without requiring an attack. If your target does not avoid you, make a combat maneuver check as normal. If your maneuver is successful, you move through the target's space. If your attack exceeds your opponent's CMD by 5 or more, you move through the target's space and the target is knocked [prone](glossary#_prone). If the target has more than two legs, add +2 to the DC of the combat maneuver attack roll for each additional leg it has.
 
 ### Sunder
 
-You can attempt to sunder an item held or worn by your opponent as part of an attack action in place of a melee attack. If you do not have the [Improved Sunder](feats.md#_improved-sunder) feat, or a similar ability, attempting to sunder an item provokes an attack of opportunity from the target of your maneuver.
+You can attempt to sunder an item held or worn by your opponent as part of an attack action in place of a melee attack. If you do not have the [Improved Sunder](feats#_improved-sunder) feat, or a similar ability, attempting to sunder an item provokes an attack of opportunity from the target of your maneuver.
 
-If your attack is successful, you deal damage to the item normally. Damage that exceeds the object's Hardness is subtracted from its hit points. If an object has equal to or less than half its total hit points remaining, it gains the broken condition (see [Conditions](glossary.md#_appendix-2-conditions)). If the damage you deal would reduce the object to less than 0 hit points, you can choose to destroy it. If you do not choose to destroy it, the object is left with only 1 hit point and the broken condition.
+If your attack is successful, you deal damage to the item normally. Damage that exceeds the object's Hardness is subtracted from its hit points. If an object has equal to or less than half its total hit points remaining, it gains the broken condition (see [Conditions](glossary#_appendix-2-conditions)). If the damage you deal would reduce the object to less than 0 hit points, you can choose to destroy it. If you do not choose to destroy it, the object is left with only 1 hit point and the broken condition.
 
 ### Trip
 
 You can attempt to trip your opponent in place of a melee attack. You can only trip an opponent who is no more than one size category larger than you. If you do not have the Improved Trip feat, or a similar ability, initiating a trip provokes an attack of opportunity from the target of your maneuver.
 
-If your attack exceeds the target's CMD, the target is knocked [prone](glossary.md#_prone). If your attack fails by 10 or more, you are knocked [prone](glossary.md#_prone) instead. If the target has more than two legs, add +2 to the DC of the combat maneuver attack roll for each additional leg it has. Some creatures—such as oozes, creatures without legs, and flying creatures—cannot be tripped.
+If your attack exceeds the target's CMD, the target is knocked [prone](glossary#_prone). If your attack fails by 10 or more, you are knocked [prone](glossary#_prone) instead. If the target has more than two legs, add +2 to the DC of the combat maneuver attack roll for each additional leg it has. Some creatures—such as oozes, creatures without legs, and flying creatures—cannot be tripped.
 
 ## Feint
 
-Feinting is a standard action. To feint, make a Bluff skill check. The DC of this check is equal to 10 + your opponent's base attack bonus + your opponent's [Wisdom](gettingStarted.md#_wisdom) modifier. If your opponent is trained in Sense Motive, the DC is instead equal to 10 + your opponent's Sense Motive bonus, if higher. If successful, the next melee attack you make against the target does not allow him to use his [Dexterity](gettingStarted.md#_dexterity) bonus to AC (if any). This attack must be made on or before your next turn.
+Feinting is a standard action. To feint, make a Bluff skill check. The DC of this check is equal to 10 + your opponent's base attack bonus + your opponent's [Wisdom](gettingStarted#_wisdom) modifier. If your opponent is trained in Sense Motive, the DC is instead equal to 10 + your opponent's Sense Motive bonus, if higher. If successful, the next melee attack you make against the target does not allow him to use his [Dexterity](gettingStarted#_dexterity) bonus to AC (if any). This attack must be made on or before your next turn.
 
-When feinting against a nonhumanoid you take a –4 penalty. Against a creature of animal [Intelligence](gettingStarted.md#_intelligence) (1 or 2), you take a –8 penalty. Against a creature lacking an [Intelligence](gettingStarted.md#_intelligence) score, it's impossible. Feinting in combat does not provoke attacks of opportunity.
+When feinting against a nonhumanoid you take a –4 penalty. Against a creature of animal [Intelligence](gettingStarted#_intelligence) (1 or 2), you take a –8 penalty. Against a creature lacking an [Intelligence](gettingStarted#_intelligence) score, it's impossible. Feinting in combat does not provoke attacks of opportunity.
 
 **Feinting as a Move Action** : With the Improved Feint feat, you can attempt a feint as a move action.
 
@@ -1061,7 +1061,7 @@ You can use ranged weapons while your mount is taking a double move, but at a �
 
 **If Your Mount Falls in Battle** : If your mount falls, you have to succeed on a DC 15 Ride check to make a soft fall and take no damage. If the check fails, you take 1d6 points of damage.
 
-**If You Are Dropped** : If you are knocked [unconscious](glossary.md#_unconscious), you have a 50% chance to stay in the saddle (75% if you're in a military saddle). Otherwise you fall and take 1d6 points of damage. Without you to guide it, your mount avoids combat.
+**If You Are Dropped** : If you are knocked [unconscious](glossary#_unconscious), you have a 50% chance to stay in the saddle (75% if you're in a military saddle). Otherwise you fall and take 1d6 points of damage. Without you to guide it, your mount avoids combat.
 
 ## Throw Splash Weapon
 
@@ -1073,7 +1073,7 @@ If you miss the target (whether aiming at a creature or a grid intersection), ro
 
 ## Two-Weapon Fighting
 
-If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. You suffer a –6 penalty with your regular attack or attacks with your primary hand and a –10 penalty to the attack with your off hand when you fight this way. You can reduce these penalties in two ways. First, if your off-hand weapon is light, the penalties are reduced by 2 each. An unarmed strike is always considered light. Second, the [Two-Weapon Fighting](feats.md#_two-weapon-fighting) feat lessens the primary hand penalty by 2, and the off-hand penalty by 6.
+If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. You suffer a –6 penalty with your regular attack or attacks with your primary hand and a –10 penalty to the attack with your off hand when you fight this way. You can reduce these penalties in two ways. First, if your off-hand weapon is light, the penalties are reduced by 2 each. An unarmed strike is always considered light. Second, the [Two-Weapon Fighting](feats#_two-weapon-fighting) feat lessens the primary hand penalty by 2, and the off-hand penalty by 6.
 
 Table: Two-weapon Fighting Penalties summarizes the interaction of all these factors.
 
@@ -1086,8 +1086,8 @@ Table: Two-weapon Fighting Penalties summarizes the interaction of all these fac
 | --- | --- | --- |
 | Normal penalties | –6 | –10 |
 | Off-hand weapon is light | –4 | –8 |
-| [Two-Weapon Fighting](feats.md#_two-weapon-fighting) feat | –4 | –4 |
-| Off-hand weapon is light and [Two-Weapon Fighting](feats.md#_two-weapon-fighting) feat | –2 | –2 |
+| [Two-Weapon Fighting](feats#_two-weapon-fighting) feat | –4 | –4 |
+| Off-hand weapon is light and [Two-Weapon Fighting](feats#_two-weapon-fighting) feat | –2 | –2 |
 
 # Special Initiative Actions
 

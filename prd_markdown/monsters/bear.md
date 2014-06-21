@@ -6,9 +6,9 @@ _Broad, powerful muscles move beneath this massive bear's brown fur, promising b
 
 **XP 1,200**
 
-N Large [animal](creatureTypes.md#_animal)
+N Large [animal](creatureTypes#_animal)
 
-**Init** +1; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent) ; [Perception](../skills/perception.md#_perception) +6
+**Init** +1; **Senses** low-light vision, [scent](universalMonsterRules#_scent) ; [Perception](../skills/perception#_perception) +6
 
 **Defense**
 
@@ -22,7 +22,7 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Speed** 40 ft.
 
-**Melee** 2 claws +7 (1d6+5 plus [grab](universalMonsterRules.md#_grab)), bite +7 (1d6+5)
+**Melee** 2 claws +7 (1d6+5 plus [grab](universalMonsterRules#_grab)), bite +7 (1d6+5)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
@@ -32,9 +32,9 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Base**  **Atk** +3; **CMB** +9 (+13 grapple); **CMD** 20 (24 vs. trip)
 
-**Feats** [Endurance](../feats.md#_endurance), [Run](../feats.md#_run), [Skill Focus](../feats.md#_skill-focus) ( [Survival](../skills/survival.md#_survival))
+**Feats** [Endurance](../feats#_endurance), [Run](../feats#_run), [Skill Focus](../feats#_skill-focus) ( [Survival](../skills/survival#_survival))
 
-**Skills** [Perception](../skills/perception.md#_perception) +6, [Survival](../skills/survival.md#_survival) +5, [Swim](../skills/swim.md#_swim) +14; **Racial Modifiers** +4 [Swim](../skills/swim.md#_swim)
+**Skills** [Perception](../skills/perception#_perception) +6, [Survival](../skills/survival#_survival) +5, [Swim](../skills/swim#_swim) +14; **Racial Modifiers** +4 [Swim](../skills/swim#_swim)
 
 **Ecology**
 
@@ -58,9 +58,9 @@ _Spittle drips from this feral bear's roaring maw, and its matted fur is broken 
 
 **XP 3,200**
 
-N Large [animal](creatureTypes.md#_animal)
+N Large [animal](creatureTypes#_animal)
 
-**Init** +5; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +12
+**Init** +5; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +12
 
 **Defense**
 
@@ -74,7 +74,7 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Speed** 40 ft.
 
-**Melee** 2 claws +13 (1d6+7 plus [grab](universalMonsterRules.md#_grab)), bite +13 (1d8+7)
+**Melee** 2 claws +13 (1d6+7 plus [grab](universalMonsterRules#_grab)), bite +13 (1d8+7)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
@@ -84,9 +84,9 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Base**  **Atk** +7; **CMB** +15 (+19 grapple); **CMD** 26 (30 vs. trip)
 
-**Feats** [Endurance](../feats.md#_endurance), [Improved Initiative](../feats.md#_improved-initiative), [Iron Will](../feats.md#_iron-will), [Run](../feats.md#_run), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
+**Feats** [Endurance](../feats#_endurance), [Improved Initiative](../feats#_improved-initiative), [Iron Will](../feats#_iron-will), [Run](../feats#_run), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception))
 
-**Skills** [Perception](../skills/perception.md#_perception) +12, [Swim](../skills/swim.md#_swim) +19; **Racial Modifiers** +4 [Swim](../skills/swim.md#_swim)
+**Skills** [Perception](../skills/perception#_perception) +12, [Swim](../skills/swim#_swim) +19; **Racial Modifiers** +4 [Swim](../skills/swim#_swim)
 
 **Ecology**
 

@@ -12,11 +12,11 @@
 
 **Duration** instantaneous
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-You point your finger and fire a black ray of negative energy that suppresses the life force of any living creature it strikes. You must make a ranged touch attack to hit. If you hit, the subject gains 1d4 temporary [negative levels](../glossary.md#_energy-drain-and-negative-levels) (see [Special Abilities](../glossary.md#_appendix-1-special-abilities)). [Negative levels](../glossary.md#_energy-drain-and-negative-levels) stack.
+You point your finger and fire a black ray of negative energy that suppresses the life force of any living creature it strikes. You must make a ranged touch attack to hit. If you hit, the subject gains 1d4 temporary [negative levels](../glossary#_energy-drain-and-negative-levels) (see [Special Abilities](../glossary#_appendix-1-special-abilities)). [Negative levels](../glossary#_energy-drain-and-negative-levels) stack.
 
-Assuming the subject survives, it regains lost levels after a number of hours equal to your caster level (maximum 15 hours). Usually, [negative levels](../glossary.md#_energy-drain-and-negative-levels) have a chance of becoming permanent, but the [negative levels](../glossary.md#_energy-drain-and-negative-levels) from _enervation _don't last long enough to do so.
+Assuming the subject survives, it regains lost levels after a number of hours equal to your caster level (maximum 15 hours). Usually, [negative levels](../glossary#_energy-drain-and-negative-levels) have a chance of becoming permanent, but the [negative levels](../glossary#_energy-drain-and-negative-levels) from _enervation _don't last long enough to do so.
 
 An undead creature struck by the ray gains 1d4 × 5 temporary hit points for 1 hour.
 

@@ -1,6 +1,6 @@
 # Climb
 
-## ( [Str](../gettingStarted.md#_strength); Armor Check Penalty)
+## ( [Str](../gettingStarted#_strength); Armor Check Penalty)
 
 You are skilled at scaling vertical surfaces, from smooth city walls to rocky cliffs.
 
@@ -26,7 +26,7 @@ The DC of the check depends on the conditions of the climb. Compare the task wit
 | –5 | Climbing a corner where you can brace against perpendicular walls. |
 | +5 | Surface is slippery. |
 
-You need both hands free to climb, but you may cling to a wall with one hand while you cast a spell or take some other action that requires only one hand. While climbing, you can't move to avoid a blow, so you lose your [Dexterity](../gettingStarted.md#_dexterity) bonus to [AC](../combat.md#_armor-class) (if any). You also can't use a shield while climbing. Anytime you take damage while climbing, make a Climb check against the DC of the slope or wall. Failure means you fall from your current height and sustain the appropriate falling damage.
+You need both hands free to climb, but you may cling to a wall with one hand while you cast a spell or take some other action that requires only one hand. While climbing, you can't move to avoid a blow, so you lose your [Dexterity](../gettingStarted#_dexterity) bonus to [AC](../combat#_armor-class) (if any). You also can't use a shield while climbing. Anytime you take damage while climbing, make a Climb check against the DC of the slope or wall. Failure means you fall from your current height and sustain the appropriate falling damage.
 
 _Accelerated Climbing_: You try to climb more quickly than normal. By accepting a –5 penalty, you can move half your speed (instead of one-quarter your speed).
 
@@ -34,13 +34,13 @@ _Make Your Own Handholds and Footholds_: You can make your own handholds and foo
 
 _Catch Yourself When Falling_: It's practically impossible to catch yourself on a wall while falling, yet if you wish to attempt such a difficult task, you can make a Climb check (DC = wall's DC + 20) to do so. It's much easier to catch yourself on a slope (DC = slope's DC + 10).
 
-_Catch a Falling Character While Climbing_: If someone climbing above you or adjacent to you falls, you can attempt to catch the falling character if he or she is within your reach. Doing so requires a successful melee touch attack against the falling character (though he or she can voluntarily forego any [Dexterity](../gettingStarted.md#_dexterity) bonus to [AC](../combat.md#_armor-class) if desired). If you hit, you must immediately attempt a Climb check (DC = wall's DC + 10). Success indicates that you catch the falling character, but his total weight, including equipment, cannot exceed your heavy load limit or you automatically fall. If you fail your Climb check by 4 or less, you fail to stop the character's fall but don't lose your grip on the wall. If you fail by 5 or more, you fail to stop the character's fall and begin falling as well.
+_Catch a Falling Character While Climbing_: If someone climbing above you or adjacent to you falls, you can attempt to catch the falling character if he or she is within your reach. Doing so requires a successful melee touch attack against the falling character (though he or she can voluntarily forego any [Dexterity](../gettingStarted#_dexterity) bonus to [AC](../combat#_armor-class) if desired). If you hit, you must immediately attempt a Climb check (DC = wall's DC + 10). Success indicates that you catch the falling character, but his total weight, including equipment, cannot exceed your heavy load limit or you automatically fall. If you fail your Climb check by 4 or less, you fail to stop the character's fall but don't lose your grip on the wall. If you fail by 5 or more, you fail to stop the character's fall and begin falling as well.
 
 **Action** : Climbing is part of movement, so it's generally part of a move action (and may be combined with other types of movement in a move action). Each move action that includes any climbing requires a separate Climb check. Catching yourself or another falling character doesn't take an action.
 
 **Special** : You can use a rope to haul a character upward (or lower a character) through sheer strength. You can lift double your maximum load in this manner.
 
-A creature with a climb speed has a +8 racial bonus on all Climb checks. The creature must make a Climb check to climb any wall or slope with a DC higher than 0, but it can always choose to take 10, even if rushed or threatened while climbing. If a creature with a climb speed chooses an accelerated climb (see above), it moves at double its climb speed (or at its land speed, whichever is slower) and makes a single Climb check at a –5 penalty. Such a creature retains its [Dexterity](../gettingStarted.md#_dexterity) bonus to [Armor Class](../combat.md#_armor-class) (if any) while climbing, and opponents get no special bonus to their attacks against it. It cannot, however, use the run action while climbing.
+A creature with a climb speed has a +8 racial bonus on all Climb checks. The creature must make a Climb check to climb any wall or slope with a DC higher than 0, but it can always choose to take 10, even if rushed or threatened while climbing. If a creature with a climb speed chooses an accelerated climb (see above), it moves at double its climb speed (or at its land speed, whichever is slower) and makes a single Climb check at a –5 penalty. Such a creature retains its [Dexterity](../gettingStarted#_dexterity) bonus to [Armor Class](../combat#_armor-class) (if any) while climbing, and opponents get no special bonus to their attacks against it. It cannot, however, use the run action while climbing.
 
-If you have the [Athletic](../feats.md#_athletic) feat, you get a bonus on Climb checks (see [Feats](../feats.md)).
+If you have the [Athletic](../feats#_athletic) feat, you get a bonus on Climb checks (see [Feats](../feats)).
 

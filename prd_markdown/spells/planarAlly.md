@@ -32,7 +32,7 @@ This spell functions like _lesser planar ally_, except that you may call a singl
 
 **Duration** instantaneous
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** no
 
 By casting this spell, you request your deity to send you an outsider (of 6 HD or less) of the deity's choice. If you serve no particular deity, the spell is a general plea answered by a creature sharing your philosophical alignment. If you know an individual creature's name, you may request that individual by speaking the name during the spell (though you might get a different creature anyway).
 

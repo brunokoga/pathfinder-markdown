@@ -1,6 +1,6 @@
 Hex Ward
 
-**Source** [_hex ward_](ultimateMagic/spells/hexWard.md#_hex-ward)
+**Source** [_hex ward_](ultimateMagic/spells/hexWard#_hex-ward)
 
 The target gains immunity to one witch hex (but not a major hex or grand hex) of your choice.
 

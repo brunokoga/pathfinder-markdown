@@ -14,5 +14,5 @@
 
 **Saving Throw** Fortitude negates; see text; **Spell Resistance** yes
 
-You infuse a single arrow or crossbow bolt with natural venom as you fire it. In addition to its normal damage, anyone struck by this arrow or bolt is affected as if by the _ [poison](../../spells/poison.md#_poison)_ spell. If the arrow is not fired immediately, the spell ends with no effect.
+You infuse a single arrow or crossbow bolt with natural venom as you fire it. In addition to its normal damage, anyone struck by this arrow or bolt is affected as if by the _ [poison](../../spells/poison#_poison)_ spell. If the arrow is not fired immediately, the spell ends with no effect.
 

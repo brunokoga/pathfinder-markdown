@@ -6,9 +6,9 @@ This creature has the body of a hawk and the head of a beautiful woman with long
 
 **XP 1,600**
 
-CN Medium [magical beast](monsters/creatureTypes.md#_magical-beast)
+CN Medium [magical beast](monsters/creatureTypes#_magical-beast)
 
-**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +15
+**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +15
 
 Defense
 
@@ -30,7 +30,7 @@ Offense
 
 **Spell-Like Abilities** (CL 7th; concentration +12)
 
-3/day—_ [cause fear](additionalMonsters/../spells/causeFear.md#_cause-fear)_ (DC 16), _ [charm person](additionalMonsters/../spells/charmPerson.md#_charm-person)_ (DC 16), _ [deep slumber](additionalMonsters/../spells/deepSlumber.md#_deep-slumber)_ (DC 18), _ [shout](additionalMonsters/../spells/shout.md#_shout)_ (DC 19)
+3/day—_ [cause fear](additionalMonsters/../spells/causeFear#_cause-fear)_ (DC 16), _ [charm person](additionalMonsters/../spells/charmPerson#_charm-person)_ (DC 16), _ [deep slumber](additionalMonsters/../spells/deepSlumber#_deep-slumber)_ (DC 18), _ [shout](additionalMonsters/../spells/shout#_shout)_ (DC 19)
 
 Statistics
 
@@ -38,9 +38,9 @@ Statistics
 
 **Base Atk** +8; **CMB** +8; **CMD** 22
 
-**Feats** [Dodge](additionalMonsters/../feats.md#_dodge), [Flyby Attack](additionalMonsters/../monsters/monsterFeats.md#_flyby-attack), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
+**Feats** [Dodge](additionalMonsters/../feats#_dodge), [Flyby Attack](additionalMonsters/../monsters/monsterFeats#_flyby-attack), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Weapon Finesse](additionalMonsters/../feats#_weapon-finesse)
 
-**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +7, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (history) +10, [Perception](additionalMonsters/../skills/perception.md#_perception) +15, [Perform](additionalMonsters/../skills/perform.md#_perform) (sing) +13, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +14
+**Skills** [Fly](additionalMonsters/../skills/fly#_fly) +7, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (history) +10, [Perception](additionalMonsters/../skills/perception#_perception) +15, [Perform](additionalMonsters/../skills/perform#_perform) (sing) +13, [Stealth](additionalMonsters/../skills/stealth#_stealth) +14
 
 **Languages** Auran, Common
 
@@ -48,17 +48,17 @@ Ecology
 
 **Environment** temperate or warm hills
 
-**Organization** solitary or [flight](monsters/universalMonsterRules.md#_flight-(ex,-sp,-or-su)) (2–7)
+**Organization** solitary or [flight](monsters/universalMonsterRules#_flight-(ex,-sp,-or-su)) (2–7)
 
 **Treasure** standard
 
 Special Abilities
 
-**Bardic Performance (Su)** A siren may use bardic performance as a 4th-level bard (9 rounds/day), and can use countersong, [distraction](monsters/universalMonsterRules.md#_distraction), fascinate, inspire competence, and inspire courage. Levels in the bard class stack with this ability.
+**Bardic Performance (Su)** A siren may use bardic performance as a 4th-level bard (9 rounds/day), and can use countersong, [distraction](monsters/universalMonsterRules#_distraction), fascinate, inspire competence, and inspire courage. Levels in the bard class stack with this ability.
 
 **Siren Song (Su)** When a siren sings, all non-sirens within a 300-foot spread must succeed on a DC 19 Will save or become enthralled (see below). The effect depends on the type of song the siren chooses, and continues for as long as the siren sings and for 1 round thereafter. A creature that successfully saves cannot be affected again by any of that siren's songs for 1 hour. These are sonic, mind-affecting effects. The save DC is Charisma-based. Enthralled creatures behave in one of the following four ways, which the siren chooses when she begins singing.
 
-_•Captivation_: This functions exactly like a [harpy's captivating song](additionalMonsters/../monsters/harpy.md#_harpy).
+_•Captivation_: This functions exactly like a [harpy's captivating song](additionalMonsters/../monsters/harpy#_harpy).
 
 _•Fascination_: Affected creatures are fascinated.
 

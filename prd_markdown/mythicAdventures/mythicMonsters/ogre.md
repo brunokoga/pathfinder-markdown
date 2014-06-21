@@ -6,9 +6,9 @@ Mythic Ogre CR 4/MR 1
 
 XP 1,200
 
-CE Large humanoid ( [giant](monsters/creatureTypes.md#_giant-subtype), [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
+CE Large humanoid ( [giant](monsters/creatureTypes#_giant-subtype), [mythic](mythicAdventures/mythicMonsters#_mythic-subtype))
 
-**Init** –1; **Senses** darkvision 60 ft., [low-light vision](monsters/universalMonsterRules.md#_low-light-vision); [Perception](skills/perception.md#_perception) +6
+**Init** –1; **Senses** darkvision 60 ft., [low-light vision](monsters/universalMonsterRules#_low-light-vision); [Perception](skills/perception#_perception) +6
 
 Defense
 
@@ -38,15 +38,15 @@ Statistics
 
 **Base Atk** +3; **CMB** +9; **CMD** 18
 
-**Feats** [Iron Will](mythicAdventures/mythicFeats.md#_iron-will-mythic)M, [Toughness](feats.md#_toughness), [Weapon Focus](feats.md#_weapon-focus) (greatclub)
+**Feats** [Iron Will](mythicAdventures/mythicFeats#_iron-will-mythic)M, [Toughness](feats#_toughness), [Weapon Focus](feats#_weapon-focus) (greatclub)
 
-**Skills** [Climb](skills/climb.md#_climb) +7, [Perception](skills/perception.md#_perception) +6
+**Skills** [Climb](skills/climb#_climb) +7, [Perception](skills/perception#_perception) +6
 
-**Languages** [Giant](monsters/creatureTypes.md#_giant-subtype)
+**Languages** [Giant](monsters/creatureTypes#_giant-subtype)
 
 Ecology
 
-**Environment** temperate or [cold](monsters/creatureTypes.md#_cold-subtype) hills
+**Environment** temperate or [cold](monsters/creatureTypes#_cold-subtype) hills
 
 **Organization** solitary, pair, gang (3–4), or family (5–16)
 

@@ -6,9 +6,9 @@ _This small dog has a rough coat and a hungry look in its dark brown eyes._
 
 **XP 135**
 
-N Small [animal](creatureTypes.md#_animal)
+N Small [animal](creatureTypes#_animal)
 
-**Init** +1; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +8
+**Init** +1; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +8
 
 **Defense**
 
@@ -30,9 +30,9 @@ N Small [animal](creatureTypes.md#_animal)
 
 **Base Atk** +0; **CMB** +0; **CMD** 11 (15 vs. trip)
 
-**Feats** [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
+**Feats** [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception))
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +1 (+9 jumping), [Perception](../skills/perception.md#_perception) +8, [Survival](../skills/survival.md#_survival) +1 (+5 scent tracking); **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics.md#_acrobatics) when jumping, +4 [Survival](../skills/survival.md#_survival) when tracking by scent
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +1 (+9 jumping), [Perception](../skills/perception#_perception) +8, [Survival](../skills/survival#_survival) +1 (+5 scent tracking); **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics#_acrobatics) when jumping, +4 [Survival](../skills/survival#_survival) when tracking by scent
 
 **Ecology**
 
@@ -64,9 +64,9 @@ _This burly dog is fitted with a small saddle. A low, menacing growl rumbles up 
 
 **XP 400**
 
-N Medium [Animal](creatureTypes.md#_animal)
+N Medium [Animal](creatureTypes#_animal)
 
-**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +8
+**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +8
 
 **Defense**
 
@@ -80,7 +80,7 @@ N Medium [Animal](creatureTypes.md#_animal)
 
 **Speed** 40 ft.
 
-**Melee** bite +3 (1d6+3 plus [trip](universalMonsterRules.md#_trip))
+**Melee** bite +3 (1d6+3 plus [trip](universalMonsterRules#_trip))
 
 **Statistics**
 
@@ -88,9 +88,9 @@ N Medium [Animal](creatureTypes.md#_animal)
 
 **Base Atk** +1; **CMB** +3; **CMD** 15 (19 vs. trip)
 
-**Feats** [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
+**Feats** [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception))
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +6 (+14 jumping), [Perception](../skills/perception.md#_perception) +8, [Survival](../skills/survival.md#_survival) +1 (+5 scent tracking); **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics.md#_acrobatics) when jumping, +4 [Survival](../skills/survival.md#_survival) when tracking by scent
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +6 (+14 jumping), [Perception](../skills/perception#_perception) +8, [Survival](../skills/survival#_survival) +1 (+5 scent tracking); **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics#_acrobatics) when jumping, +4 [Survival](../skills/survival#_survival) when tracking by scent
 
 **Ecology**
 
@@ -100,5 +100,5 @@ N Medium [Animal](creatureTypes.md#_animal)
 
 **Treasure** none
 
-Larger dogs (known to Small races like halflings and gnomes as riding dogs) include hardier breeds such as huskies, mastiffs, and wolfhounds. A riding dog can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a DC 10 [Ride](../skills/ride.md#_ride) check.
+Larger dogs (known to Small races like halflings and gnomes as riding dogs) include hardier breeds such as huskies, mastiffs, and wolfhounds. A riding dog can fight while carrying a rider, but the rider cannot also attack unless he or she succeeds on a DC 10 [Ride](../skills/ride#_ride) check.
 

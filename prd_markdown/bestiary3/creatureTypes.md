@@ -16,15 +16,15 @@ A construct is an animated object or artificially created creature. A construct 
 
 •No Constitution score. Any DCs or other statistics that rely on a Constitution score treat a construct as having a score of 10 (no bonus or penalty).
 
-• [Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).
+• [Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).
 
-• [Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to [bleed](monsters/universalMonsterRules.md#_bleed), [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), death effects, necromancy effects, paralysis, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), sleep effects, and stunning.
+• [Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to [bleed](monsters/universalMonsterRules#_bleed), [disease](monsters/universalMonsterRules#_disease-(ex-or-su)), death effects, necromancy effects, paralysis, [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), sleep effects, and stunning.
 
-•Cannot heal damage on its own, but often can be repaired via exposure to a certain kind of effect (see the creature's description for details) or through the use of the [Craft Construct](monsters/monsterFeats.md#_craft-construct) feat. Constructs can also be healed through spells such as _ [make whole](spells/makeWhole.md#_make-whole)_. A construct with the fast healing special quality still benefits from that quality.
+•Cannot heal damage on its own, but often can be repaired via exposure to a certain kind of effect (see the creature's description for details) or through the use of the [Craft Construct](monsters/monsterFeats#_craft-construct) feat. Constructs can also be healed through spells such as _ [make whole](spells/makeWhole#_make-whole)_. A construct with the fast healing special quality still benefits from that quality.
 
-•Not subject to ability damage, ability drain, [energy drain](monsters/universalMonsterRules.md#_energy-drain), exhaustion, fatigue, or nonlethal damage.
+•Not subject to ability damage, ability drain, [energy drain](monsters/universalMonsterRules#_energy-drain), exhaustion, fatigue, or nonlethal damage.
 
-• [Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to any effect that requires a Fortitude save (unless the effect also works on objects, or is harmless).
+• [Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to any effect that requires a Fortitude save (unless the effect also works on objects, or is harmless).
 
 •Not at risk of death from massive damage, but is immediately destroyed when reduced to 0 hit points or fewer.
 
@@ -60,11 +60,11 @@ Ooze
 
 An ooze is an amorphous or mutable creature, usually mindless. An ooze has the following traits.
 
-•Mindless: No Intelligence score, and [immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects). Mindless creatures have no skills or feats. An ooze with an Intelligence score loses this trait.
+•Mindless: No Intelligence score, and [immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to all mind-affecting effects (charms, compulsions, phantasms, patterns, and morale effects). Mindless creatures have no skills or feats. An ooze with an Intelligence score loses this trait.
 
-•Blind (but have the [blindsight](monsters/universalMonsterRules.md#_blindsight) special quality), with [immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to [gaze](monsters/universalMonsterRules.md#_gaze) attacks, illusions, visual effects, and other attack forms that rely on sight.
+•Blind (but have the [blindsight](monsters/universalMonsterRules#_blindsight) special quality), with [immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to [gaze](monsters/universalMonsterRules#_gaze) attacks, illusions, visual effects, and other attack forms that rely on sight.
 
-• [Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to paralysis, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), polymorph, sleep effects, and stunning.
+• [Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to paralysis, [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), polymorph, sleep effects, and stunning.
 
 •Oozes eat and breathe, but do not sleep.
 
@@ -72,17 +72,17 @@ Outsider
 
 An outsider is at least partially composed of the essence (but not necessarily the material) of some plane other than the Material Plane. An outsider has the following traits.
 
-•Unlike most living creatures, an outsider does not have a dual nature—its soul and body form one unit. When an outsider is slain, no soul is set loose. Spells that restore souls to their bodies, such as _ [raise dead](spells/raiseDead.md#_raise-dead)_, _ [reincarnate](spells/reincarnate.md#_reincarnate)_, and _ [resurrection](spells/resurrection.md#_resurrection)_, don't work on an outsider. A different magical effect, such as _ [limited wish](spells/limitedWish.md#_limited-wish)_, _ [wish](spells/wish.md#_wish)_, _ [miracle](spells/miracle.md#_miracle)_, or _ [true resurrection](spells/trueResurrection.md#_true-resurrection)_, is required to restore it to life. An outsider with the [native](monsters/creatureTypes.md#_native-subtype) subtype can be raised, reincarnated, or resurrected just as other living creatures can be.
+•Unlike most living creatures, an outsider does not have a dual nature—its soul and body form one unit. When an outsider is slain, no soul is set loose. Spells that restore souls to their bodies, such as _ [raise dead](spells/raiseDead#_raise-dead)_, _ [reincarnate](spells/reincarnate#_reincarnate)_, and _ [resurrection](spells/resurrection#_resurrection)_, don't work on an outsider. A different magical effect, such as _ [limited wish](spells/limitedWish#_limited-wish)_, _ [wish](spells/wish#_wish)_, _ [miracle](spells/miracle#_miracle)_, or _ [true resurrection](spells/trueResurrection#_true-resurrection)_, is required to restore it to life. An outsider with the [native](monsters/creatureTypes#_native-subtype) subtype can be raised, reincarnated, or resurrected just as other living creatures can be.
 
-•Outsiders breathe, but do not need to eat or sleep (although they can do so if they wish). [Native](monsters/creatureTypes.md#_native-subtype) outsiders breathe, eat, and sleep.
+•Outsiders breathe, but do not need to eat or sleep (although they can do so if they wish). [Native](monsters/creatureTypes#_native-subtype) outsiders breathe, eat, and sleep.
 
 Plant
 
 This type comprises vegetable creatures. Note that regular plants, such as one finds growing in gardens and fields, lack Intelligence, Wisdom, and Charisma scores; even though plants are alive, they are objects, not creatures. A plant creature has the following traits.
 
-• [Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).
+• [Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).
 
-• [Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to paralysis, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), polymorph, sleep effects, and stunning.
+• [Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to paralysis, [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), polymorph, sleep effects, and stunning.
 
 •Plants breathe and eat, but do not sleep.
 
@@ -90,21 +90,21 @@ Undead
 
 Undead are once-living creatures animated by spiritual or supernatural forces. An undead creature has the following traits.
 
-•No Constitution score. Undead use their Charisma score in place of their Constitution score when calculating hit points, Fortitude saves, and any special ability that relies on Constitution (such as when calculating a [breath weapon](monsters/universalMonsterRules.md#_breath-weapon)'s DC).
+•No Constitution score. Undead use their Charisma score in place of their Constitution score when calculating hit points, Fortitude saves, and any special ability that relies on Constitution (such as when calculating a [breath weapon](monsters/universalMonsterRules#_breath-weapon)'s DC).
 
-• [Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).
+• [Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms).
 
-• [Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to [bleed](monsters/universalMonsterRules.md#_bleed), death effects, [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), paralysis, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), sleep effects, and stunning.
+• [Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to [bleed](monsters/universalMonsterRules#_bleed), death effects, [disease](monsters/universalMonsterRules#_disease-(ex-or-su)), paralysis, [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), sleep effects, and stunning.
 
-•Not subject to nonlethal damage, ability drain, or [energy drain](monsters/universalMonsterRules.md#_energy-drain). [Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to damage to its physical ability scores (Constitution, Dexterity, and Strength), as well as to exhaustion and fatigue effects.
+•Not subject to nonlethal damage, ability drain, or [energy drain](monsters/universalMonsterRules#_energy-drain). [Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to damage to its physical ability scores (Constitution, Dexterity, and Strength), as well as to exhaustion and fatigue effects.
 
 •Cannot heal damage on its own if it has no Intelligence score, although it can be healed. Negative energy (such as an inflict spell) can heal undead creatures. The fast healing special quality works regardless of the creature's Intelligence score.
 
-• [Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).
+• [Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).
 
 •Not at risk of death from massive damage, but is immediately destroyed when reduced to 0 hit points.
 
-•Not affected by _ [raise dead](spells/raiseDead.md#_raise-dead)_ and _ [reincarnate](spells/reincarnate.md#_reincarnate)_ spells or abilities. _ [Resurrection](spells/resurrection.md#_resurrection)_ and _ [true resurrection](spells/trueResurrection.md#_true-resurrection)_ can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.
+•Not affected by _ [raise dead](spells/raiseDead#_raise-dead)_ and _ [reincarnate](spells/reincarnate#_reincarnate)_ spells or abilities. _ [Resurrection](spells/resurrection#_resurrection)_ and _ [true resurrection](spells/trueResurrection#_true-resurrection)_ can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.
 
 •Undead do not breathe, eat, or sleep.
 
@@ -112,7 +112,7 @@ Vermin
 
 This type includes insects, arachnids, other arthropods, worms, and similar invertebrates. Vermin have the following traits.
 
-•Mindless: No Intelligence score, and [immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms). Mindless creatures have no feats or skills. A verminlike creature with an Intelligence score is usually either an animal or a magical beast, depending on its other abilities.
+•Mindless: No Intelligence score, and [immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to all mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms). Mindless creatures have no feats or skills. A verminlike creature with an Intelligence score is usually either an animal or a magical beast, depending on its other abilities.
 
 •Vermin breathe, eat, and sleep.
 
@@ -122,9 +122,9 @@ Some creatures have one or more subtypes. Subtypes add additional abilities and 
 
 **Adlet Subtype** : This subtype is applied to the strange humanoid wolf creatures called adlets, and to creatures related to adlets.
 
-**Air Subtype** : This subtype is usually used for outsiders with a connection to the Elemental Plane of Air. Air creatures always have fly speeds and usually have perfect maneuverability. Air creatures treat [Fly](skills/fly.md#_fly) as a class skill.
+**Air Subtype** : This subtype is usually used for outsiders with a connection to the Elemental Plane of Air. Air creatures always have fly speeds and usually have perfect maneuverability. Air creatures treat [Fly](skills/fly#_fly) as a class skill.
 
-**Aquatic Subtype** : These creatures always have swim speeds and can move in water without making [Swim](skills/swim.md#_swim) checks. An aquatic creature can breathe water. It cannot breathe air unless it has the amphibious special quality. Aquatic creatures always treat [Swim](skills/swim.md#_swim) as a class skill.
+**Aquatic Subtype** : These creatures always have swim speeds and can move in water without making [Swim](skills/swim#_swim) checks. An aquatic creature can breathe water. It cannot breathe air unless it has the amphibious special quality. Aquatic creatures always treat [Swim](skills/swim#_swim) as a class skill.
 
 **Archon Subtype** : Archons are a race of celestials, or good outsiders, native to lawful good-aligned Outer Planes. An archon possesses the following traits.
 
@@ -136,9 +136,9 @@ Some creatures have one or more subtypes. Subtypes add additional abilities and 
 
   • +4 racial bonus on saves against poison.
 
-  • _ [Teleport](spells/teleport.md#_teleport) (Sp) _Archons can use _ [greater teleport](spells/teleport.md#_teleport-greater)_ at will, as the spell (caster level 14th), except that the creature can transport only itself and up to 50 pounds of carried objects.
+  • _ [Teleport](spells/teleport#_teleport) (Sp) _Archons can use _ [greater teleport](spells/teleport#_teleport-greater)_ at will, as the spell (caster level 14th), except that the creature can transport only itself and up to 50 pounds of carried objects.
 
-  • _Truespeech (Su)_ All archons can speak with any creature that has a language, as though using a _ [tongues](spells/tongues.md#_tongues) _spell (caster level 14th). This ability is always active.
+  • _Truespeech (Su)_ All archons can speak with any creature that has a language, as though using a _ [tongues](spells/tongues#_tongues) _spell (caster level 14th). This ability is always active.
 
 **Augmented Subtype** : A creature receives this subtype when something (usually a template) changes its original type. Some creatures (those with an inherited template) are born with this subtype; others acquire it when they take on an acquired template. The augmented subtype is always paired with the creature's original type.
 
@@ -152,17 +152,17 @@ Some creatures have one or more subtypes. Subtypes add additional abilities and 
 
   • Telepathy.
 
-  • _Elusive Aura (Su)_ Asuras exist within reality but apart from it. All but the least of asuras exude an aura that affects all creatures within the area as if by a _ [nondetection](spells/nondetection.md#_nondetection)_ spell. The size of the aura is proportional to the asura's power. The caster level check to attempt divination on creatures within the aura is 15 + the spell-like ability caster level of the asura creating the aura.
+  • _Elusive Aura (Su)_ Asuras exist within reality but apart from it. All but the least of asuras exude an aura that affects all creatures within the area as if by a _ [nondetection](spells/nondetection#_nondetection)_ spell. The size of the aura is proportional to the asura's power. The caster level check to attempt divination on creatures within the aura is 15 + the spell-like ability caster level of the asura creating the aura.
 
   • _Regeneration (Ex)_ The divine spark at the core of their being allows asuras to regenerate at varying rates. Good weapons and spells can kill an asura.
 
-  • _Spell [Resistance](spells/resistance.md#_resistance) (Ex)_ Most asuras are resistant to magic and have an SR equal to 11 + their CR. Only the weakest asuras lack this ability.
+  • _Spell [Resistance](spells/resistance#_resistance) (Ex)_ Most asuras are resistant to magic and have an SR equal to 11 + their CR. Only the weakest asuras lack this ability.
 
   • _Summon (Sp)_ Asuras share the ability to summon others of their kind, typically another of their type or a small number of weaker asuras.
 
   • An asura's natural weapons, as well as any weapons it wields, are treated as lawful and evil for the purpose of overcoming damage reduction.
 
-  • +6 racial bonus on [Escape Artist](skills/escapeArtist.md#_escape-artist) checks and a +4 racial bonus on [Perception](skills/perception.md#_perception) checks.
+  • +6 racial bonus on [Escape Artist](skills/escapeArtist#_escape-artist) checks and a +4 racial bonus on [Perception](skills/perception#_perception) checks.
 
 **Behemoth Subtype** : A behemoth is a neutral Colossal magical beast of great strength and power. Behemoths possess the following traits unless otherwise noted.
 
@@ -170,7 +170,7 @@ Some creatures have one or more subtypes. Subtypes add additional abilities and 
 
   • Immunity to ability damage, aging, bleed, disease, energy drain, fire, mind-affecting effects, negative levels, paralysis, permanent wounds, petrification, poison, and polymorph. Some behemoths possess additional immunities.
 
-  • _Regeneration (Ex)_ No form of attack can suppress a behemoth's regeneration—it regenerates even if disintegrated or slain by a death effect. If a behemoth fails a save against an effect that would kill it instantly, it rises from death 3 rounds later with 1 hit point if no further damage is dealt to its remains. It can be banished or otherwise transported away as a means to save a region, but the only way to truly kill a behemoth is to use _ [miracle](spells/miracle.md#_miracle)_ or _ [wish](spells/wish.md#_wish)_ to negate its regeneration (see below).
+  • _Regeneration (Ex)_ No form of attack can suppress a behemoth's regeneration—it regenerates even if disintegrated or slain by a death effect. If a behemoth fails a save against an effect that would kill it instantly, it rises from death 3 rounds later with 1 hit point if no further damage is dealt to its remains. It can be banished or otherwise transported away as a means to save a region, but the only way to truly kill a behemoth is to use _ [miracle](spells/miracle#_miracle)_ or _ [wish](spells/wish#_wish)_ to negate its regeneration (see below).
 
   • DR 15/epic.
 
@@ -180,11 +180,11 @@ Some creatures have one or more subtypes. Subtypes add additional abilities and 
 
   • Behemoths eat, but do not breathe or sleep.
 
-  • _Ruinous (Su)_ A behemoth's natural attacks penetrate damage reduction as if they were epic and magic, and ignore up to 20 points of hardness on objects struck. As a swift action, whenever it strikes a creature or object with a spell effect in place, it can attempt to dispel one randomly determined spell effect on that creature as if with a _ [greater dispel magic](spells/dispelMagic.md#_dispel-magic-greater)_ (CL 20th).
+  • _Ruinous (Su)_ A behemoth's natural attacks penetrate damage reduction as if they were epic and magic, and ignore up to 20 points of hardness on objects struck. As a swift action, whenever it strikes a creature or object with a spell effect in place, it can attempt to dispel one randomly determined spell effect on that creature as if with a _ [greater dispel magic](spells/dispelMagic#_dispel-magic-greater)_ (CL 20th).
 
   • _Unstoppable (Ex)_ If a behemoth starts its turn suffering from any or all of the following conditions, it recovers from them at the end of its turn: blind, confused, dazed, deafened, dazzled, exhausted, fatigued, nauseated, sickened, slowed, staggered, and stunned.
 
-  • _Vulnerable to Miracles and Wishes (Su)_ A spell effect created by a _ [miracle](spells/miracle.md#_miracle)_ or _ [wish](spells/wish.md#_wish)_ spell is particularly effective against a behemoth. A spellcaster gains a +6 bonus on its caster level check to penetrate a behemoth's SR with a _ [miracle](spells/miracle.md#_miracle)_ or _ [wish](spells/wish.md#_wish)_ spell, and the behemoth suffers a –6 penalty on saves against these spells. A _ [miracle](spells/miracle.md#_miracle)_ or a _ [wish](spells/wish.md#_wish)_ spell can negate a behemoth's regeneration, but only for 1d4 rounds per casting.
+  • _Vulnerable to Miracles and Wishes (Su)_ A spell effect created by a _ [miracle](spells/miracle#_miracle)_ or _ [wish](spells/wish#_wish)_ spell is particularly effective against a behemoth. A spellcaster gains a +6 bonus on its caster level check to penetrate a behemoth's SR with a _ [miracle](spells/miracle#_miracle)_ or _ [wish](spells/wish#_wish)_ spell, and the behemoth suffers a –6 penalty on saves against these spells. A _ [miracle](spells/miracle#_miracle)_ or a _ [wish](spells/wish#_wish)_ spell can negate a behemoth's regeneration, but only for 1d4 rounds per casting.
 
 **Catfolk Subtype** : This subtype is applied to the humanoid felines called catfolk and creatures related to catfolk.
 
@@ -197,7 +197,7 @@ Some creatures have one or more subtypes. Subtypes add additional abilities and 
   • _Vulnerable to Electricity_: Clockwork constructs take 150% as much damage as normal from electricity attacks.
 
   • _Swift Reactions (Ex)_ Clockwork constructs generally react much more swiftly than other constructs.   
-They gain [Improved Initiative](feats.md#_improved-initiative) and [Lightning Reflexes](feats.md#_lightning-reflexes) as bonus feats, and gain a +2 dodge bonus to AC.
+They gain [Improved Initiative](feats#_improved-initiative) and [Lightning Reflexes](feats#_lightning-reflexes) as bonus feats, and gain a +2 dodge bonus to AC.
 
   • _Difficult to Create (Ex)_ The time and gp cost required to create a clockwork is 150% of normal. Construction requirements in individual clockwork monster entries are already increased.
 
@@ -263,7 +263,7 @@ They gain [Improved Initiative](feats.md#_improved-initiative) and [Lightning Re
 
   • Resistance to acid 10 and electricity 10.
 
-  • _See in [Darkness](spells/darkness.md#_darkness) (Su)_ Some divs can see perfectly in darkness of any kind, even that created by a _ [deeper darkness](spells/deeperDarkness.md#_deeper-darkness)_ spell.
+  • _See in [Darkness](spells/darkness#_darkness) (Su)_ Some divs can see perfectly in darkness of any kind, even that created by a _ [deeper darkness](spells/deeperDarkness#_deeper-darkness)_ spell.
 
   • _Summon (Sp)_ Some divs share the ability to summon others of their kind. Each entry describes the success chance and type of divs summoned.
 
@@ -287,13 +287,13 @@ They gain [Improved Initiative](feats.md#_improved-initiative) and [Lightning Re
 
 **Fire Subtype** : A creature with the fire subtype has immunity to fire and vulnerability to cold.
 
-**Giant Subtype** : A giant is a humanoid creature of great strength, usually of at least Large size. Giants have racial Hit Dice and never substitute such Hit Dice for class levels like some humanoids. Giants have low-light vision, and treat [Intimidate](skills/intimidate.md#_intimidate) and [Perception](skills/perception.md#_perception) as class skills.
+**Giant Subtype** : A giant is a humanoid creature of great strength, usually of at least Large size. Giants have racial Hit Dice and never substitute such Hit Dice for class levels like some humanoids. Giants have low-light vision, and treat [Intimidate](skills/intimidate#_intimidate) and [Perception](skills/perception#_perception) as class skills.
 
 **Good Subtype** : This subtype is usually applied to outsiders native to the good-aligned Outer Planes. Most creatures that have this subtype also have good alignments; however, if their alignments change, they still retain the subtype. Any effect that depends on alignment affects a creature with this subtype as if the creature had a good alignment, no matter what its alignment actually is. The creature also suffers effects according to its actual alignment. A creature with the good subtype overcomes damage reduction as if its natural weapons and any weapons it wields were good-aligned.
 
 **Human Subtype** : This subtype is applied to humans and creatures that are related to humans.
 
-**Incorporeal Subtype** : An incorporeal creature has no physical body. An incorporeal creature is immune to critical hits and precision-based damage (such as sneak attack damage) unless the attacks are made using a weapon with the _ [ghost touch](magicItems/weapons.md#_weapons-ghost-touch)_ special ability. In addition, creatures with the incorporeal subtype gain the incorporeal defensive ability (see page 296).
+**Incorporeal Subtype** : An incorporeal creature has no physical body. An incorporeal creature is immune to critical hits and precision-based damage (such as sneak attack damage) unless the attacks are made using a weapon with the _ [ghost touch](magicItems/weapons#_weapons-ghost-touch)_ special ability. In addition, creatures with the incorporeal subtype gain the incorporeal defensive ability (see page 296).
 
 **Kami Subtype** : Kami are a race of native outsiders who serve to protect what they refer to as “wards”—animals, plants, objects, and even locations—from being harmed or dishonored. All kami are outsiders with the native subtype. A kami possesses the following traits unless otherwise noted in a creature's entry.
 
@@ -329,11 +329,11 @@ They gain [Improved Initiative](feats.md#_improved-initiative) and [Lightning Re
 
   • Immunity to electricity and sonic.
 
-  • _Spell-Like Abilities_: All leshys have _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_ as a constant spell-like ability (CL equal to twice the leshy's HD).
+  • _Spell-Like Abilities_: All leshys have _ [pass without trace](spells/passWithoutTrace#_pass-without-trace)_ as a constant spell-like ability (CL equal to twice the leshy's HD).
 
-  • _Change Shape (Su)_ All leshys can transform into plants, with results similar to the _ [tree shape](spells/treeShape.md#_tree-shape)_ spell. Unlike that spell, this ability only allows transformation into Small plants of the same type of growth the leshy is related to. In this form, the leshy appears as a particularly healthy specimen of that particular plant. A leshy can assume plant form or revert to its true form as a swift action.
+  • _Change Shape (Su)_ All leshys can transform into plants, with results similar to the _ [tree shape](spells/treeShape#_tree-shape)_ spell. Unlike that spell, this ability only allows transformation into Small plants of the same type of growth the leshy is related to. In this form, the leshy appears as a particularly healthy specimen of that particular plant. A leshy can assume plant form or revert to its true form as a swift action.
 
-  • _Plantspeech (Ex)_ All leshys can speak with plants as if subject to a continual _ [speak with plants](spells/speakWithPlants.md#_speak-with-plants)_ spell, but only with species they are related to.
+  • _Plantspeech (Ex)_ All leshys can speak with plants as if subject to a continual _ [speak with plants](spells/speakWithPlants#_speak-with-plants)_ spell, but only with species they are related to.
 
   • _Verdant Burst (Su)_ When slain, a leshy explodes in a burst of fertile energies. All plant creatures within 30 feet of a slain leshy heal 1d8 points of damage plus 1 point per HD of the slain leshy, and plant life of the same type as the leshy itself quickly infests the area. If the terrain can support this type of plant, the undergrowth is dense enough to make the region into difficult terrain for 24 hours, after which the plant life diminishes to a normal level; otherwise, the plant life has no significant effect on movement and withers and dies within an hour.
 
@@ -355,13 +355,13 @@ They gain [Improved Initiative](feats.md#_improved-initiative) and [Lightning Re
 
   • Darkvision 60 feet.
 
-  • _Change Shape (Su) _All rakshasas have the ability to change shape into any humanoid, as if using _ [alter self](spells/alterSelf.md#_alter-self)_.
+  • _Change Shape (Su) _All rakshasas have the ability to change shape into any humanoid, as if using _ [alter self](spells/alterSelf#_alter-self)_.
 
   • _Detect Thoughts (Su) _A rakshasa can detect thoughts as per the spell of the same name. This effect functions at CL 18th. A rakshasa can suppress or resume this ability as a free action. When a rakshasa uses this ability, it always functions as if it had spent 3 rounds concentrating and thus gains the maximum amount of information possible. The Will save DC to resist this effect is equal to 10 + 1/2 the rakshasa's HD + the rakshasa's Charisma modifier.
 
   • _Enhanced Defenses (Ex)_ All rakshasas have DR that can be penetrated by good and piercing weapons only. The amount of damage reduction varies according to the specific rakshasa. In addition, rakshasas are exceptionally resistant to magic, and possess SR equal to their CR + 15.
 
-  • _Master of Deception (Ex)_ All rakshasas gain a +4 racial bonus on [Bluff](skills/bluff.md#_bluff) checks and a +8 racial bonus on [Disguise](skills/disguise.md#_disguise) checks.
+  • _Master of Deception (Ex)_ All rakshasas gain a +4 racial bonus on [Bluff](skills/bluff#_bluff) checks and a +8 racial bonus on [Disguise](skills/disguise#_disguise) checks.
 
   • _Spellcasting:_ All but the least of rakshasas have some level   
 of spellcasting ability, and can cast spells as sorcerers. The rakshasa's effective caster level as a sorcerer depends on its type, but is generally equal to its CR – 3.
@@ -380,9 +380,9 @@ A swarm of Tiny creatures consists of 300 non-flying creatures or 1,000 flying c
 
 _Swarm Traits_: A swarm has no clear front or back and no discernible anatomy, so it is not subject to critical hits or flanking. A swarm made up of Tiny creatures takes half damage from slashing and piercing weapons. A swarm composed of Fine or Diminutive creatures is immune to all weapon damage. Reducing a swarm to 0 hit points or less causes it to break up, though damage taken until that point does not degrade its ability to attack or resist attack. Swarms are never staggered or reduced to a dying state by damage. Also, they cannot be tripped, grappled, or bull rushed, and they cannot grapple an opponent.
 
-A swarm is immune to any spell or effect that targets a specific number of creatures (including single-target spells such as _ [disintegrate](spells/disintegrate.md#_disintegrate)_), with the exception of mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms) if the swarm has an Intelligence score and a hive mind. A swarm takes half again as much damage (+50%) from spells or effects that affect an area, such as splash weapons and many evocation spells.
+A swarm is immune to any spell or effect that targets a specific number of creatures (including single-target spells such as _ [disintegrate](spells/disintegrate#_disintegrate)_), with the exception of mind-affecting effects (charms, compulsions, morale effects, patterns, and phantasms) if the swarm has an Intelligence score and a hive mind. A swarm takes half again as much damage (+50%) from spells or effects that affect an area, such as splash weapons and many evocation spells.
 
-Swarms made up of Diminutive or Fine creatures are susceptible to high winds, such as those created by a _ [gust of wind](spells/gustOfWind.md#_gust-of-wind) _spell. For the purpose of determining the effects of wind on a swarm, treat the swarm as a creature of the same size as its constituent creatures. A swarm rendered unconscious by means of nonlethal damage becomes disorganized and dispersed, and does not reform until its hit points exceed its nonlethal damage.
+Swarms made up of Diminutive or Fine creatures are susceptible to high winds, such as those created by a _ [gust of wind](spells/gustOfWind#_gust-of-wind) _spell. For the purpose of determining the effects of wind on a swarm, treat the swarm as a creature of the same size as its constituent creatures. A swarm rendered unconscious by means of nonlethal damage becomes disorganized and dispersed, and does not reform until its hit points exceed its nonlethal damage.
 
 _Swarm Attacks_: Creatures with the swarm subtype don't make standard melee attacks. Instead, they deal automatic damage to any creature whose space they occupy at the end of their move, with no attack roll needed. Swarm attacks are not subject to a miss chance for concealment or cover. A swarm's stat block has “swarm” in the Melee entries, with no attack bonus given.
 
@@ -396,5 +396,5 @@ Swarms possess the distraction universal monster rule. Spellcasting or concentra
 
 **Vishkanya Subtype** : This subtype is applied to vishkanyas and creatures related to vishkanyas.
 
-**Water Subtype** : This subtype is usually used for outsiders with a connection to the Elemental Plane of Water. Creatures with the water subtype always have swim speeds and can move in water without making [Swim](skills/swim.md#_swim) checks. A water creature can breathe underwater and can usually breathe air as well. Water creatures treat the [Swim](skills/swim.md#_swim) skill as a class skill.
+**Water Subtype** : This subtype is usually used for outsiders with a connection to the Elemental Plane of Water. Creatures with the water subtype always have swim speeds and can move in water without making [Swim](skills/swim#_swim) checks. A water creature can breathe underwater and can usually breathe air as well. Water creatures treat the [Swim](skills/swim#_swim) skill as a class skill.
 

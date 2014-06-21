@@ -12,9 +12,9 @@
 
 **Duration** see text
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-You utter a single word of power that causes a creature to become [blinded](../glossary.md#_blinded), whether the creature can hear the word or not. The duration of the spell depends on the target's current hit point total. Any creature that currently has 201 or more hit points is unaffected.
+You utter a single word of power that causes a creature to become [blinded](../glossary#_blinded), whether the creature can hear the word or not. The duration of the spell depends on the target's current hit point total. Any creature that currently has 201 or more hit points is unaffected.
 
 | Hit Points | Duration |
 | --- | --- |

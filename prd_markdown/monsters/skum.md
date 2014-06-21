@@ -6,9 +6,9 @@ _This hunchbacked, green-skinned humanoid has a wide, frog-like head but a mouth
 
 **XP 600**
 
-LE Medium [monstrous humanoid](creatureTypes.md#_monstrous-humanoid) ( [aquatic](creatureTypes.md#_aquatic-subtype))
+LE Medium [monstrous humanoid](creatureTypes#_monstrous-humanoid) ( [aquatic](creatureTypes#_aquatic-subtype))
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +5
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](../skills/perception#_perception) +5
 
 **Defense**
 
@@ -34,13 +34,13 @@ LE Medium [monstrous humanoid](creatureTypes.md#_monstrous-humanoid) ( [aquatic]
 
 **Base Atk** +2; **CMB** +4; **CMD** 15
 
-**Feats** [Multiattack](monsterFeats.md#_multiattack)B, [Toughness](../feats.md#_toughness)
+**Feats** [Multiattack](monsterFeats#_multiattack)B, [Toughness](../feats#_toughness)
 
-**Skills** [Intimidate](../skills/intimidate.md#_intimidate) +3, [Perception](../skills/perception.md#_perception) +5 (+9 underwater), [Stealth](../skills/stealth.md#_stealth) +6 (+10 underwater), [Swim](../skills/swim.md#_swim) +15; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception) and [Stealth](../skills/stealth.md#_stealth) underwater
+**Skills** [Intimidate](../skills/intimidate#_intimidate) +3, [Perception](../skills/perception#_perception) +5 (+9 underwater), [Stealth](../skills/stealth#_stealth) +6 (+10 underwater), [Swim](../skills/swim#_swim) +15; **Racial Modifiers** +4 [Perception](../skills/perception#_perception) and [Stealth](../skills/stealth#_stealth) underwater
 
 **Languages** Aboleth, Undercommon
 
-**SQ** [amphibious](universalMonsterRules.md#_amphibious)
+**SQ** [amphibious](universalMonsterRules#_amphibious)
 
 **Ecology**
 

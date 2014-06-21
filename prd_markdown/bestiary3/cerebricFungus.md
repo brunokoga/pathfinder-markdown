@@ -8,7 +8,7 @@ XP 800
 
 N Medium plant
 
-**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +12
+**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception#_perception) +12
 
 **Aura** unsettling appearance (60 ft., DC 14)
 
@@ -20,7 +20,7 @@ Defense
 
 **Fort** +7, **Ref** +1, **Will** +6
 
-**Defensive Abilities** otherworldly mind; **Immune** plant traits, **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 5
+**Defensive Abilities** otherworldly mind; **Immune** plant traits, **Resist** [cold](monsters/creatureTypes#_cold-subtype) 5
 
 **Weaknesses** vulnerable to sonic
 
@@ -36,11 +36,11 @@ Offense
 
 **Spell-Like Abilities** (CL 4th; concentration +6)
 
-Constant—_ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_ (DC 14)
+Constant—_ [detect thoughts](spells/detectThoughts#_detect-thoughts)_ (DC 14)
 
 At will—touch of madness (DC 14)
 
-3/day—_ [calm emotions](spells/calmEmotions.md#_calm-emotions)_ (DC 14), _ [touch of idiocy](spells/touchOfIdiocy.md#_touch-of-idiocy)_ (DC 14)
+3/day—_ [calm emotions](spells/calmEmotions#_calm-emotions)_ (DC 14), _ [touch of idiocy](spells/touchOfIdiocy#_touch-of-idiocy)_ (DC 14)
 
 Statistics
 
@@ -48,9 +48,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +5; **CMD** 15 (21 vs. trip)
 
-**Feats** [Improved Initiative](feats.md#_improved-initiative), [Multiattack](monsters/monsterFeats.md#_multiattack)
+**Feats** [Improved Initiative](feats#_improved-initiative), [Multiattack](monsters/monsterFeats#_multiattack)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +6, [Diplomacy](skills/diplomacy.md#_diplomacy) +6, [Perception](skills/perception.md#_perception) +12, [Stealth](skills/stealth.md#_stealth) +7
+**Skills** [Bluff](skills/bluff#_bluff) +6, [Diplomacy](skills/diplomacy#_diplomacy) +6, [Perception](skills/perception#_perception) +12, [Stealth](skills/stealth#_stealth) +7
 
 **Languages** telepathy 100 ft.
 

@@ -6,9 +6,9 @@ _This immense, three-eyed frog-like creature rears up on powerful hind legs. In 
 
 **XP 25,600**
 
-N Huge [aberration](creatureTypes.md#_aberration)
+N Huge [aberration](creatureTypes#_aberration)
 
-**Init** +5; **Senses** all-around vision, [blindsight](universalMonsterRules.md#_blindsight) 30 ft., darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +16
+**Init** +5; **Senses** all-around vision, [blindsight](universalMonsterRules#_blindsight) 30 ft., darkvision 60 ft.; [Perception](../skills/perception#_perception) +16
 
 **Defense**
 
@@ -26,11 +26,11 @@ N Huge [aberration](creatureTypes.md#_aberration)
 
 **Speed** 20 ft., swim 30 ft.
 
-**Melee** bite +20 (2d6+10/19–20 plus [grab](universalMonsterRules.md#_grab)), 4 tentacles +18 (1d8+5 plus [grab](universalMonsterRules.md#_grab)), tongue +18 (1d4+5 plus [grab](universalMonsterRules.md#_grab))
+**Melee** bite +20 (2d6+10/19–20 plus [grab](universalMonsterRules#_grab)), 4 tentacles +18 (1d8+5 plus [grab](universalMonsterRules#_grab)), tongue +18 (1d4+5 plus [grab](universalMonsterRules#_grab))
 
 **Space** 15 ft.; **Reach** 15 ft. (30 ft. with tongue)
 
-**Special Attacks** [constrict](universalMonsterRules.md#_constrict) (tentacle, 1d6+10), [swallow whole](universalMonsterRules.md#_swallow-whole) (3d6+10 damage, AC 19, hp 18)
+**Special Attacks** [constrict](universalMonsterRules#_constrict) (tentacle, 1d6+10), [swallow whole](universalMonsterRules#_swallow-whole) (3d6+10 damage, AC 19, hp 18)
 
 **Statistics**
 
@@ -38,9 +38,9 @@ N Huge [aberration](creatureTypes.md#_aberration)
 
 **Base Atk** +12; **CMB** +24 (+28 grapple); **CMD** 35
 
-**Feats** [Cleave](../feats.md#_cleave), [Improved Critical](../feats.md#_improved-critical) (bite), [Improved Initiative](../feats.md#_improved-initiative), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Lunge](../feats.md#_lunge), [Multiattack](monsterFeats.md#_multiattack), [Power Attack](../feats.md#_power-attack), [Skill Focus](../feats.md#_skill-focus) ( [Stealth](../skills/stealth.md#_stealth))
+**Feats** [Cleave](../feats#_cleave), [Improved Critical](../feats#_improved-critical) (bite), [Improved Initiative](../feats#_improved-initiative), [Lightning Reflexes](../feats#_lightning-reflexes), [Lunge](../feats#_lunge), [Multiattack](monsterFeats#_multiattack), [Power Attack](../feats#_power-attack), [Skill Focus](../feats#_skill-focus) ( [Stealth](../skills/stealth#_stealth))
 
-**Skills** [Perception](../skills/perception.md#_perception) +16, [Stealth](../skills/stealth.md#_stealth) +14 (+22 in marshes), [Swim](../skills/swim.md#_swim) +18; **Racial Modifiers** +8 [Perception](../skills/perception.md#_perception), +8 [Stealth](../skills/stealth.md#_stealth) in marshes
+**Skills** [Perception](../skills/perception#_perception) +16, [Stealth](../skills/stealth#_stealth) +14 (+22 in marshes), [Swim](../skills/swim#_swim) +18; **Racial Modifiers** +8 [Perception](../skills/perception#_perception), +8 [Stealth](../skills/stealth#_stealth) in marshes
 
 **Ecology**
 

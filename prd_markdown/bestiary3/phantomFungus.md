@@ -8,7 +8,7 @@ XP 800
 
 N Medium plant
 
-**Init** +0; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 30 ft., low-light vision, tremorsense 60 ft.; [Perception](skills/perception.md#_perception) +10
+**Init** +0; **Senses** [blindsight](monsters/universalMonsterRules#_blindsight) 30 ft., low-light vision, tremorsense 60 ft.; [Perception](skills/perception#_perception) +10
 
 Defense
 
@@ -32,9 +32,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +5; **CMD** 15 (17 vs. trip)
 
-**Feats** [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception)), [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth))
+**Feats** [Skill Focus](feats#_skill-focus) ( [Perception](skills/perception#_perception)), [Skill Focus](feats#_skill-focus) ( [Stealth](skills/stealth#_stealth))
 
-**Skills** [Climb](skills/climb.md#_climb) +10, [Perception](skills/perception.md#_perception) +10, [Stealth](skills/stealth.md#_stealth) +7; **Racial Modifiers** +4 [Stealth](skills/stealth.md#_stealth)
+**Skills** [Climb](skills/climb#_climb) +10, [Perception](skills/perception#_perception) +10, [Stealth](skills/stealth#_stealth) +7; **Racial Modifiers** +4 [Stealth](skills/stealth#_stealth)
 
 Ecology
 
@@ -46,7 +46,7 @@ Ecology
 
 Special Abilities
 
-**Phantom Flesh (Su)** As a move action, a phantom fungus can turn invisible as if using _ [greater invisibility](spells/invisibility.md#_invisibility-greater)_ (caster level 4th). A moment after it attacks with invisibility, the creature appears briefly as a semi-transparent version of its normal self. This allows any viewer with line of sight to the phantom fungus to pinpoint its location at the time of the attack (though if the creature moves after it attacks, opponents have to pinpoint it again). An opponent can ready an action to strike at the fungus when it momentarily appears, in which case the creature only has concealment instead of invisibility (20% miss chance). The fungus can turn completely visible as a move action, though it normally remains invisible all the time. If killed while invisible, it becomes visible 1d4 minutes later.
+**Phantom Flesh (Su)** As a move action, a phantom fungus can turn invisible as if using _ [greater invisibility](spells/invisibility#_invisibility-greater)_ (caster level 4th). A moment after it attacks with invisibility, the creature appears briefly as a semi-transparent version of its normal self. This allows any viewer with line of sight to the phantom fungus to pinpoint its location at the time of the attack (though if the creature moves after it attacks, opponents have to pinpoint it again). An opponent can ready an action to strike at the fungus when it momentarily appears, in which case the creature only has concealment instead of invisibility (20% miss chance). The fungus can turn completely visible as a move action, though it normally remains invisible all the time. If killed while invisible, it becomes visible 1d4 minutes later.
 
 A phantom fungus is a tripedal carnivorous plant that roams the vast and deep underground caverns of the world. It wanders in search of food, using its rootlike feet to detect movement along the cavern floors and the sensitive tendrils surrounding its mouth to pinpoint prey.
 

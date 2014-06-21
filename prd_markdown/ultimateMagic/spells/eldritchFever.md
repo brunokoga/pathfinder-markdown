@@ -14,5 +14,5 @@ Eldritch Fever
 
 **Saving Throw** Fortitude negates; **Spell Resistance** yes
 
-The target gains the [eldritch ague spellblight](../magic/spellblights.md#_eldritch-ague).
+The target gains the [eldritch ague spellblight](../magic/spellblights#_eldritch-ague).
 

@@ -16,7 +16,7 @@ Cursed Earth
 
 You lay a terrible curse upon the land, blighting those who live and die there. Choose one of the following effects.
 
-_Famine_: All normal plants in the area reduce their growth and food production by half, as if affected by the stunt growth effect of _ [diminish plants](spells/diminishPlants.md#_diminish-plants)_.
+_Famine_: All normal plants in the area reduce their growth and food production by half, as if affected by the stunt growth effect of _ [diminish plants](spells/diminishPlants#_diminish-plants)_.
 
 _Living Death_: Any creatures of Small size or larger killed in the area rise as uncontrolled zombies 24 hours after their death, as do corpses buried in the area. Burning or dismembering the corpses prevents them from rising as zombies.
 

@@ -12,9 +12,9 @@
 
 **Duration** 1 min./level
 
-**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) negates (harmless); **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-The target becomes smarter. The spell grants a +4 enhancement bonus to [Intelligence](../gettingStarted.md#_intelligence), adding the usual benefits to [Intelligence](../gettingStarted.md#_intelligence)-based skill checks and other uses of the [Intelligence](../gettingStarted.md#_intelligence) modifier. Wizards (and other spellcasters who rely on [Intelligence](../gettingStarted.md#_intelligence)) affected by this spell do not gain any additional bonus spells for the increased [Intelligence](../gettingStarted.md#_intelligence), but the save DCs for spells they cast while under this spell's effect do increase. This spell doesn't grant extra skill ranks.
+The target becomes smarter. The spell grants a +4 enhancement bonus to [Intelligence](../gettingStarted#_intelligence), adding the usual benefits to [Intelligence](../gettingStarted#_intelligence)-based skill checks and other uses of the [Intelligence](../gettingStarted#_intelligence) modifier. Wizards (and other spellcasters who rely on [Intelligence](../gettingStarted#_intelligence)) affected by this spell do not gain any additional bonus spells for the increased [Intelligence](../gettingStarted#_intelligence), but the save DCs for spells they cast while under this spell's effect do increase. This spell doesn't grant extra skill ranks.
 
 **Fox's Cunning, Mass**
 

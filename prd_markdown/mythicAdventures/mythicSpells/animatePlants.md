@@ -1,6 +1,6 @@
 Animate Plants
 
-**Source** [_animate plants_](spells/animatePlants.md#_animate-plants)
+**Source** [_animate plants_](spells/animatePlants#_animate-plants)
 
-As _ [animate objects](mythicAdventures/mythicSpells/animateObjects.md#_animate-objects-mythic)_.
+As _ [animate objects](mythicAdventures/mythicSpells/animateObjects#_animate-objects-mythic)_.
 

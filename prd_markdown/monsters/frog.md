@@ -6,9 +6,9 @@ _This creature looks like a normal frog, with moist, mottled, blackish-green ski
 
 **XP 400**
 
-N Medium [Animal](creatureTypes.md#_animal)
+N Medium [Animal](creatureTypes#_animal)
 
-**Init** +1; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +3
+**Init** +1; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +3
 
 **Defense**
 
@@ -22,11 +22,11 @@ N Medium [Animal](creatureTypes.md#_animal)
 
 **Speed** 30 ft., swim 30 ft.
 
-**Melee** bite +3 (1d6+2 plus [grab](universalMonsterRules.md#_grab)) or tongue +3 touch ( [grab](universalMonsterRules.md#_grab))
+**Melee** bite +3 (1d6+2 plus [grab](universalMonsterRules#_grab)) or tongue +3 touch ( [grab](universalMonsterRules#_grab))
 
 **Space** 5 ft.; **Reach** 5 ft. (15 ft. with tongue)
 
-**Special Attacks** [pull](universalMonsterRules.md#_pull) (tongue, 5 feet), [swallow whole](universalMonsterRules.md#_swallow-whole) (1d4 bludgeoning damage, AC 10, 1 hp), tongue
+**Special Attacks** [pull](universalMonsterRules#_pull) (tongue, 5 feet), [swallow whole](universalMonsterRules#_swallow-whole) (1d4 bludgeoning damage, AC 10, 1 hp), tongue
 
 **Statistics**
 
@@ -34,9 +34,9 @@ N Medium [Animal](creatureTypes.md#_animal)
 
 **Base Atk** +1; **CMB** +3 (+7 grapple); **CMD** 14 (18 vs. trip)
 
-**Feats** [Lightning Reflexes](../feats.md#_lightning-reflexes)
+**Feats** [Lightning Reflexes](../feats#_lightning-reflexes)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +9 (+13 jumping), [Perception](../skills/perception.md#_perception) +3, [Stealth](../skills/stealth.md#_stealth) +5, [Swim](../skills/swim.md#_swim) +10; **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics.md#_acrobatics) (+8 jumping), +4 [Stealth](../skills/stealth.md#_stealth)
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +9 (+13 jumping), [Perception](../skills/perception#_perception) +3, [Stealth](../skills/stealth#_stealth) +5, [Swim](../skills/swim#_swim) +10; **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics#_acrobatics) (+8 jumping), +4 [Stealth](../skills/stealth#_stealth)
 
 **Ecology**
 
@@ -66,9 +66,9 @@ _This small frog is bright green and red, with electric-blue stripes on its hind
 
 **XP 200**
 
-N Tiny [animal](creatureTypes.md#_animal)
+N Tiny [animal](creatureTypes#_animal)
 
-**Init** +1; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +3
+**Init** +1; **Senses** low-light vision; [Perception](../skills/perception#_perception) +3
 
 **Defense**
 
@@ -82,7 +82,7 @@ N Tiny [animal](creatureTypes.md#_animal)
 
 **Speed** 10 ft., swim 20 ft.
 
-**Melee** bite +3 (1 plus [poison](universalMonsterRules.md#_poison))
+**Melee** bite +3 (1 plus [poison](universalMonsterRules#_poison))
 
 **Space** 2-1/2 ft.; **Reach** 0 ft.
 
@@ -92,9 +92,9 @@ N Tiny [animal](creatureTypes.md#_animal)
 
 **Base**  **Atk** +0; **CMB** –1; **CMD** 5 (9 vs. trip)
 
-**Feats** [Weapon Finesse](../feats.md#_weapon-finesse)
+**Feats** [Weapon Finesse](../feats#_weapon-finesse)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +5 (+1 jumping), [Perception](../skills/perception.md#_perception) +3, [Stealth](../skills/stealth.md#_stealth) +13, [Swim](../skills/swim.md#_swim) + 9; **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics.md#_acrobatics) (+8 jumping), +4 [Stealth](../skills/stealth.md#_stealth); uses Dex to swim
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +5 (+1 jumping), [Perception](../skills/perception#_perception) +3, [Stealth](../skills/stealth#_stealth) +13, [Swim](../skills/swim#_swim) + 9; **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics#_acrobatics) (+8 jumping), +4 [Stealth](../skills/stealth#_stealth); uses Dex to swim
 
 **Ecology**
 
@@ -106,7 +106,7 @@ N Tiny [animal](creatureTypes.md#_animal)
 
 **Special Abilities**
 
-**Poison (Ex)** Injury; _save_ Fort DC 10; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Con [damage](universalMonsterRules.md#_ability-damage-and-drain); _cure _1 save
+**Poison (Ex)** Injury; _save_ Fort DC 10; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Con [damage](universalMonsterRules#_ability-damage-and-drain); _cure _1 save
 
 Poisonous frogs are a bright green color, with additional bright yellow, red, or blue markings. They are just over a foot long and weigh 10 pounds. The poison of poisonous frogs is often gathered by primitive tribes and used to coat darts and arrows for hunting.
 

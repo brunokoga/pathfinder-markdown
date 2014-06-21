@@ -8,7 +8,7 @@ XP 200
 
 NE Tiny aberration
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +4
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +4
 
 Defense
 
@@ -34,13 +34,13 @@ Statistics
 
 **Base Atk** +0; **CMB** +0; **CMD** 9 (can't be tripped)
 
-**Feats** [Lightning Reflexes](feats.md#_lightning-reflexes)
+**Feats** [Lightning Reflexes](feats#_lightning-reflexes)
 
-**Skills** [Fly](skills/fly.md#_fly) +10, [Perception](skills/perception.md#_perception) +4, [Stealth](skills/stealth.md#_stealth) +14
+**Skills** [Fly](skills/fly#_fly) +10, [Perception](skills/perception#_perception) +4, [Stealth](skills/stealth#_stealth) +14
 
 **Languages** Aklo
 
-**SQ** [flight](monsters/universalMonsterRules.md#_flight-(ex,-sp,-or-su))
+**SQ** [flight](monsters/universalMonsterRules#_flight-(ex,-sp,-or-su))
 
 Ecology
 
@@ -54,7 +54,7 @@ Special Abilities
 
 **Baleful Whinny (Su)** As a standard action, a sagari can emit a monstrous whinny. Any creature within 60 feet must succeed at a DC 12 Will save or become sickened for 1d4 rounds by the hideous sound. This is a sonic, mind-affecting effect. Whether or not the save is successful, the affected creature is immune to the same sagari's baleful whinny for 24 hours. The save DC is Charisma-based.
 
-**[Flight](monsters/universalMonsterRules.md#_flight-(ex,-sp,-or-su)) (Su)** A sagari's [flight](monsters/universalMonsterRules.md#_flight-(ex,-sp,-or-su)) is supernatural in nature.
+**[Flight](monsters/universalMonsterRules#_flight-(ex,-sp,-or-su)) (Su)** A sagari's [flight](monsters/universalMonsterRules#_flight-(ex,-sp,-or-su)) is supernatural in nature.
 
 **Lashing Strike (Ex)** Although a sagari is Tiny, it does not provoke attacks of opportunity when it makes melee attacks. In addition, its tentacle attack is a primary attack.
 

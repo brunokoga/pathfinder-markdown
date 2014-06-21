@@ -8,7 +8,7 @@ XP 400
 
 CE Small aberration
 
-**Init** +2; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +5
+**Init** +2; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +5
 
 Defense
 
@@ -32,9 +32,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +2; **CMD** 14 (can't be tripped)
 
-**Feats** [Lunge](feats.md#_lunge)B, [Skill Focus](feats.md#_skill-focus) ( [Bluff](skills/bluff.md#_bluff))
+**Feats** [Lunge](feats#_lunge)B, [Skill Focus](feats#_skill-focus) ( [Bluff](skills/bluff#_bluff))
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +6, [Intimidate](skills/intimidate.md#_intimidate) +5, [Knowledge](skills/knowledge.md#_knowledge) (local) +3, [Perception](skills/perception.md#_perception) +5, [Stealth](skills/stealth.md#_stealth) +10
+**Skills** [Bluff](skills/bluff#_bluff) +6, [Intimidate](skills/intimidate#_intimidate) +5, [Knowledge](skills/knowledge#_knowledge) (local) +3, [Perception](skills/perception#_perception) +5, [Stealth](skills/stealth#_stealth) +10
 
 **Languages** Common, Goblin
 
@@ -50,7 +50,7 @@ Ecology
 
 Special Abilities
 
-**Goblin Breath (Ex)** Once every 1d4 rounds, a goblin snake can release a disgusting belch as a standard action. Any creature within 5 feet of the goblin snake must succeed at a DC 13 Fortitude save or be sickened for 1d6 rounds by the stench. Creatures that successfully save cannot be affected by the same goblin snake's goblin breath for 24 hours. Goblin snakes and goblins are immune to this effect. This is a [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) effect. The save DC is Constitution-based.
+**Goblin Breath (Ex)** Once every 1d4 rounds, a goblin snake can release a disgusting belch as a standard action. Any creature within 5 feet of the goblin snake must succeed at a DC 13 Fortitude save or be sickened for 1d6 rounds by the stench. Creatures that successfully save cannot be affected by the same goblin snake's goblin breath for 24 hours. Goblin snakes and goblins are immune to this effect. This is a [poison](monsters/universalMonsterRules#_poison-(ex-or-su)) effect. The save DC is Constitution-based.
 
 **Snake Empathy (Ex)** This ability functions similarly to a druid's wild empathy ability, but allows a goblin snake to verbally communicate with and be understood by snakes and similar serpentine reptiles. The bonus equals the goblin snake's racial Hit Dice plus its Charisma modifier and a +4 racial bonus.
 

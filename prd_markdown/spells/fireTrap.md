@@ -12,13 +12,13 @@
 
 **Duration** permanent until discharged (D)
 
-**Saving Throw** [Reflex](../combat.md#_reflex) half; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Reflex](../combat#_reflex) half; see text; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
 _Fire trap _creates a fiery explosion when an intruder opens the item that the trap protects. A _fire trap _spell can ward any object that can be opened and closed.
 
 When casting _fire trap, _you select a point on the object as the spell's center. When someone other than you opens the object, a fiery explosion fills the area within a 5-foot radius around the spell's center. The flames deal 1d4 points of fire damage + 1 point per caster level (maximum +20). The item protected by the trap is not harmed by this explosion.
 
-A fire-trapped item cannot have a second closure or warding spell placed on it. A _ [knock](knock.md#_knock) _spell does not bypass a _fire trap_. An unsuccessful _ [dispel magic](dispelMagic.md#_dispel-magic) _spell does not detonate the spell. Underwater, this ward deals half damage and creates a large cloud of steam.
+A fire-trapped item cannot have a second closure or warding spell placed on it. A _ [knock](knock#_knock) _spell does not bypass a _fire trap_. An unsuccessful _ [dispel magic](dispelMagic#_dispel-magic) _spell does not detonate the spell. Underwater, this ward deals half damage and creates a large cloud of steam.
 
 You can use the fire-trapped object without discharging it, as can any individual to whom the object was specifically attuned when cast. Attuning a fire-trapped object to an individual usually involves setting a password that you can share with friends.
 

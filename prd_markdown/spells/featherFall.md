@@ -12,7 +12,7 @@
 
 **Duration** until landing or 1 round/level
 
-**Saving Throw** [Will](../combat.md#_will) negates (harmless) or [Will](../combat.md#_will) negates (object); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (object)
+**Saving Throw** [Will](../combat#_will) negates (harmless) or [Will](../combat#_will) negates (object); **[Spell Resistance](../glossary#_spell-resistance)** yes (object)
 
 The affected creatures or objects fall slowly. _Feather fall _instantly changes the rate at which the targets fall to a mere 60 feet per round (equivalent to the end of a fall from a few feet), and the subjects take no damage upon landing while the spell is in effect. When the spell duration expires, a normal rate of falling resumes.
 

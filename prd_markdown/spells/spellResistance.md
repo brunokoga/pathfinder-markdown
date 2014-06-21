@@ -12,7 +12,7 @@
 
 **Duration** 1 min./level
 
-**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless)
+**Saving Throw** [Will](../combat#_will) negates (harmless); **[Spell Resistance](../glossary#_spell-resistance)** yes (harmless)
 
-The target gains [spell resistance](../glossary.md#_spell-resistance) equal to 12 + your caster level.
+The target gains [spell resistance](../glossary#_spell-resistance) equal to 12 + your caster level.
 

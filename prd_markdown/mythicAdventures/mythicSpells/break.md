@@ -1,6 +1,6 @@
 Break
 
-**Source** [_break_](advanced/spells/break.md#_break-)
+**Source** [_break_](advanced/spells/break#_break-)
 
 You can target up to 1 Medium or smaller object per caster level.
 

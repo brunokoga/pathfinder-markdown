@@ -1,6 +1,6 @@
 # Perform
 
-## ( [Cha](../gettingStarted.md#_charisma-new))
+## ( [Cha](../gettingStarted#_charisma-new))
 
 You are skilled at one form of entertainment, from singing to acting to playing an instrument. Like Craft, Knowledge, and Profession, Perform is actually a number of separate skills. You could have several Perform skills, each with its own ranks.
 
@@ -32,5 +32,5 @@ A masterwork musical instrument gives you a +2 circumstance bonus on all Perform
 
 **Try Again** : Yes. Retries are allowed, but they don't negate previous failures, and an audience that has been unimpressed in the past is likely to be prejudiced against future performances. (Increase the DC by 2 for each previous failure.)
 
-**Special** : A bard must have ranks in specific Perform categories to use some of his [Bardic Performance](../classes/bard.md#_bardic-performance) abilities.
+**Special** : A bard must have ranks in specific Perform categories to use some of his [Bardic Performance](../classes/bard#_bardic-performance) abilities.
 

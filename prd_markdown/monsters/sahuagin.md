@@ -6,9 +6,9 @@ _This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed
 
 **XP 600**
 
-LE Medium [monstrous humanoid](creatureTypes.md#_monstrous-humanoid) ( [aquatic](creatureTypes.md#_aquatic-subtype))
+LE Medium [monstrous humanoid](creatureTypes#_monstrous-humanoid) ( [aquatic](creatureTypes#_aquatic-subtype))
 
-**Init** +1; **Senses** [blindsense](universalMonsterRules.md#_blindsense) 30 ft., darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +6
+**Init** +1; **Senses** [blindsense](universalMonsterRules#_blindsense) 30 ft., darkvision 60 ft.; [Perception](../skills/perception#_perception) +6
 
 **Defense**
 
@@ -18,7 +18,7 @@ LE Medium [monstrous humanoid](creatureTypes.md#_monstrous-humanoid) ( [aquatic]
 
 **Fort** +4, **Ref** +4, **Will** +4
 
-**Weaknesses** [light blindness](universalMonsterRules.md#_light-blindness)
+**Weaknesses** [light blindness](universalMonsterRules#_light-blindness)
 
 **Offense**
 
@@ -36,9 +36,9 @@ LE Medium [monstrous humanoid](creatureTypes.md#_monstrous-humanoid) ( [aquatic]
 
 **Base Atk** +2; **CMB** +4; **CMD** 15
 
-**Feats** [Great Fortitude](../feats.md#_great-fortitude)
+**Feats** [Great Fortitude](../feats#_great-fortitude)
 
-**Skills** [Handle Animal](../skills/handleAnimal.md#_handle-animal) +1, [Perception](../skills/perception.md#_perception) +6, [Ride](../skills/ride.md#_ride) +6, [Stealth](../skills/stealth.md#_stealth) +6, [Survival](../skills/survival.md#_survival) +6, [Swim](../skills/swim.md#_swim) +15
+**Skills** [Handle Animal](../skills/handleAnimal#_handle-animal) +1, [Perception](../skills/perception#_perception) +6, [Ride](../skills/ride#_ride) +6, [Stealth](../skills/stealth#_stealth) +6, [Survival](../skills/survival#_survival) +6, [Swim](../skills/swim#_swim) +15
 
 **Languages** Aquan, Common; speak with sharks
 

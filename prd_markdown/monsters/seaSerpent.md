@@ -6,9 +6,9 @@ _Spine-frilled neck arching up from the water like a snake ready to strike, this
 
 **XP 19,200**
 
-N Gargantuan [magical beast](creatureTypes.md#_magical-beast) ( [aquatic](creatureTypes.md#_aquatic-subtype))
+N Gargantuan [magical beast](creatureTypes#_magical-beast) ( [aquatic](creatureTypes#_aquatic-subtype))
 
-**Init** +6; **Senses** darkvision 120 ft., low-light vision; [Perception](../skills/perception.md#_perception) +8
+**Init** +6; **Senses** darkvision 120 ft., low-light vision; [Perception](../skills/perception#_perception) +8
 
 **Defense**
 
@@ -24,11 +24,11 @@ N Gargantuan [magical beast](creatureTypes.md#_magical-beast) ( [aquatic](creatu
 
 **Speed** 20 ft., swim 60 ft.
 
-**Melee** bite +23 (4d8+22/19–20 plus [grab](universalMonsterRules.md#_grab)), tail slap +18 (3d6+6 plus [grab](universalMonsterRules.md#_grab))
+**Melee** bite +23 (4d8+22/19–20 plus [grab](universalMonsterRules#_grab)), tail slap +18 (3d6+6 plus [grab](universalMonsterRules#_grab))
 
 **Space** 20 ft.; **Reach** 20 ft.
 
-**Special Attacks** capsize, [constrict](universalMonsterRules.md#_constrict) (3d6+18), [swallow whole](universalMonsterRules.md#_swallow-whole) (4d8+18 bludgeoning damage, AC 18, hp 18)
+**Special Attacks** capsize, [constrict](universalMonsterRules#_constrict) (3d6+18), [swallow whole](universalMonsterRules#_swallow-whole) (4d8+18 bludgeoning damage, AC 18, hp 18)
 
 **Statistics**
 
@@ -36,9 +36,9 @@ N Gargantuan [magical beast](creatureTypes.md#_magical-beast) ( [aquatic](creatu
 
 **Base Atk** +15; **CMB** +31 (+35 grapple); **CMD** 43 (can't be tripped)
 
-**Feats** [Improved Bull Rush](../feats.md#_improved-bull-rush), [Improved Critical](../feats.md#_improved-critical) (bite), [Improved Initiative](../feats.md#_improved-initiative), [Iron Will](../feats.md#_iron-will), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Power Attack](../feats.md#_power-attack), [Skill Focus](../feats.md#_skill-focus) ( [Stealth](../skills/stealth.md#_stealth)), [Stealthy](../feats.md#_stealthy)
+**Feats** [Improved Bull Rush](../feats#_improved-bull-rush), [Improved Critical](../feats#_improved-critical) (bite), [Improved Initiative](../feats#_improved-initiative), [Iron Will](../feats#_iron-will), [Lightning Reflexes](../feats#_lightning-reflexes), [Power Attack](../feats#_power-attack), [Skill Focus](../feats#_skill-focus) ( [Stealth](../skills/stealth#_stealth)), [Stealthy](../feats#_stealthy)
 
-**Skills** [Perception](../skills/perception.md#_perception) +8, [Stealth](../skills/stealth.md#_stealth) +13, [Swim](../skills/swim.md#_swim) +20
+**Skills** [Perception](../skills/perception#_perception) +8, [Stealth](../skills/stealth#_stealth) +13, [Swim](../skills/swim#_swim) +20
 
 **Ecology**
 
@@ -50,9 +50,9 @@ N Gargantuan [magical beast](creatureTypes.md#_magical-beast) ( [aquatic](creatu
 
 **Special Abilities**
 
-**Capsize (Ex)** A sea serpent can attempt to capsize a boat or ship of its size or smaller by ramming it as a charge attack and making a combat maneuver check. The DC of this check is 25 or the result of the boat captain's [Profession](../skills/profession.md#_profession) (sailor) check, whichever is higher.
+**Capsize (Ex)** A sea serpent can attempt to capsize a boat or ship of its size or smaller by ramming it as a charge attack and making a combat maneuver check. The DC of this check is 25 or the result of the boat captain's [Profession](../skills/profession#_profession) (sailor) check, whichever is higher.
 
-**Elusive (Su)** Sea serpents have long been the stuff of maritime legends, but despite countless attempts to hunt them, they are rarely encountered unless they wish it. As a full-round action while in water, a sea serpent can move up to its run speed (300 ft.) without leaving any trace of its passing (identical in effect to a _ [pass without trace](../spells/passWithoutTrace.md#_pass-without-trace)_). An elusive sea serpent gains a +40 circumstance bonus to its [Stealth](../skills/stealth.md#_stealth) check. In addition, except when in combat, a sea serpent is considered to be under the effects of a _ [nondetection](../spells/nondetection.md#_nondetection) _spell. Both of these spell effects are at caster level 20th and cannot be dispelled.
+**Elusive (Su)** Sea serpents have long been the stuff of maritime legends, but despite countless attempts to hunt them, they are rarely encountered unless they wish it. As a full-round action while in water, a sea serpent can move up to its run speed (300 ft.) without leaving any trace of its passing (identical in effect to a _ [pass without trace](../spells/passWithoutTrace#_pass-without-trace)_). An elusive sea serpent gains a +40 circumstance bonus to its [Stealth](../skills/stealth#_stealth) check. In addition, except when in combat, a sea serpent is considered to be under the effects of a _ [nondetection](../spells/nondetection#_nondetection) _spell. Both of these spell effects are at caster level 20th and cannot be dispelled.
 
 Tales of immense sea serpents have colored the accounts of seagoing folk since the first ship sailed beyond sight of land. Yet proof of these immense and elusive creatures is remarkably difficult to come by, for not only is the ocean vast and the true sea serpent rare, but these creatures are quite adept at both avoiding capture and destroying ships bent on such a daunting task. Due to the sea serpent's hermitic nature, many sailors take to ascribing the sighting of such a beast to an omen, although whether the sighting portends peril or providence depends as much upon the ship's morale as it does anything else—the sea serpent itself has little interest in prophecy, and only its hunger determines how dangerous its proximity to a curious ship can be.
 

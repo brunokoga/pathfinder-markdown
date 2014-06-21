@@ -4,5 +4,5 @@ Share Language, Communal
 
 **Targets** creatures touched
 
-This spell functions like _ [share language](advanced/spells/shareLanguage.md#_share-language-) _, except you divide the duration in 1-hour increments among the creatures touched.
+This spell functions like _ [share language](advanced/spells/shareLanguage#_share-language-) _, except you divide the duration in 1-hour increments among the creatures touched.
 

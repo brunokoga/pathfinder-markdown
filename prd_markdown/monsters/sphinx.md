@@ -6,9 +6,9 @@ _This creature has the body of a lion, the wings of a falcon, and the head and t
 
 **XP 4,800**
 
-N Large [magical beast](creatureTypes.md#_magical-beast)
+N Large [magical beast](creatureTypes#_magical-beast)
 
-**Init** +5; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) +21
+**Init** +5; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception#_perception) +21
 
 **Defense**
 
@@ -26,17 +26,17 @@ N Large [magical beast](creatureTypes.md#_magical-beast)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [pounce](universalMonsterRules.md#_pounce), [rake](universalMonsterRules.md#_rake) (2 claws +17, 2d6+6)
+**Special Attacks** [pounce](universalMonsterRules#_pounce), [rake](universalMonsterRules#_rake) (2 claws +17, 2d6+6)
 
 **Spell-Like Abilities** (CL 12th)
 
-Constant—_ [comprehend languages](../spells/comprehendLanguages.md#_comprehend-languages), [detect magic](../spells/detectMagic.md#_detect-magic), [read magic](../spells/readMagic.md#_read-magic), [see invisibility](../spells/seeInvisibility.md#_see-invisibility)_
+Constant—_ [comprehend languages](../spells/comprehendLanguages#_comprehend-languages), [detect magic](../spells/detectMagic#_detect-magic), [read magic](../spells/readMagic#_read-magic), [see invisibility](../spells/seeInvisibility#_see-invisibility)_
 
-3/day—_ [clairaudience/clairvoyance](../spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance)_
+3/day—_ [clairaudience/clairvoyance](../spells/clairaudienceClairvoyance#_clairaudience-clairvoyance)_
 
-1/day—_ [dispel magic](../spells/dispelMagic.md#_dispel-magic), [locate object](../spells/locateObject.md#_locate-object), [remove curse](../spells/removeCurse.md#_remove-curse)_, _ [legend lore](../spells/legendLore.md#_legend-lore)_
+1/day—_ [dispel magic](../spells/dispelMagic#_dispel-magic), [locate object](../spells/locateObject#_locate-object), [remove curse](../spells/removeCurse#_remove-curse)_, _ [legend lore](../spells/legendLore#_legend-lore)_
 
-1/week—any one of the following: _ [symbol of fear](../spells/symbolOfFear.md#_symbol-of-fear)_ (DC 20)_, [symbol of pain](../spells/symbolOfPain.md#_symbol-of-pain) _(DC 19)_, [symbol of persuasion](../spells/symbolOfPersuasion.md#_symbol-of-persuasion) _(DC 20)_, [symbol of sleep](../spells/symbolOfSleep.md#_symbol-of-sleep) _(DC 19)_, [symbol of stunning](../spells/symbolOfStunning.md#_symbol-of-stunning) _(DC 21); all symbols last for 1 week maximum
+1/week—any one of the following: _ [symbol of fear](../spells/symbolOfFear#_symbol-of-fear)_ (DC 20)_, [symbol of pain](../spells/symbolOfPain#_symbol-of-pain) _(DC 19)_, [symbol of persuasion](../spells/symbolOfPersuasion#_symbol-of-persuasion) _(DC 20)_, [symbol of sleep](../spells/symbolOfSleep#_symbol-of-sleep) _(DC 19)_, [symbol of stunning](../spells/symbolOfStunning#_symbol-of-stunning) _(DC 21); all symbols last for 1 week maximum
 
 **Statistics**
 
@@ -44,9 +44,9 @@ Constant—_ [comprehend languages](../spells/comprehendLanguages.md#_comprehend
 
 **Base**  **Atk** +12; **CMB** +19; **CMD** 30 (34 vs. trip)
 
-**Feats** [Alertness](../feats.md#_alertness), [Combat Casting](../feats.md#_combat-casting), [Hover](monsterFeats.md#_hover), [Improved Critical](../feats.md#_improved-critical) (claw), [Improved Initiative](../feats.md#_improved-initiative), [Iron Will](../feats.md#_iron-will)
+**Feats** [Alertness](../feats#_alertness), [Combat Casting](../feats#_combat-casting), [Hover](monsterFeats#_hover), [Improved Critical](../feats#_improved-critical) (claw), [Improved Initiative](../feats#_improved-initiative), [Iron Will](../feats#_iron-will)
 
-**Skills** [Bluff](../skills/bluff.md#_bluff) +14, [Diplomacy](../skills/diplomacy.md#_diplomacy) +14, [Fly](../skills/fly.md#_fly) +7, [Intimidate](../skills/intimidate.md#_intimidate) +14, [Knowledge](../skills/knowledge.md#_knowledge) (any two) +6, [Perception](../skills/perception.md#_perception) +21, [Sense Motive](../skills/senseMotive.md#_sense-motive) +19, [Spellcraft](../skills/spellcraft.md#_spellcraft) +12
+**Skills** [Bluff](../skills/bluff#_bluff) +14, [Diplomacy](../skills/diplomacy#_diplomacy) +14, [Fly](../skills/fly#_fly) +7, [Intimidate](../skills/intimidate#_intimidate) +14, [Knowledge](../skills/knowledge#_knowledge) (any two) +6, [Perception](../skills/perception#_perception) +21, [Sense Motive](../skills/senseMotive#_sense-motive) +19, [Spellcraft](../skills/spellcraft#_spellcraft) +12
 
 **Languages** Common, Draconic, Sphinx
 

@@ -8,7 +8,7 @@ XP 3,200
 
 N Large magical beast
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +12
+**Init** +7; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +12
 
 Defense
 
@@ -26,7 +26,7 @@ Offense
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** roar, [pounce](monsters/universalMonsterRules.md#_pounce)
+**Special Attacks** roar, [pounce](monsters/universalMonsterRules#_pounce)
 
 Statistics
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +9; **CMB** +15; **CMD** 28 (32 vs. trip)
 
-**Feats** [Blind-Fight](feats.md#_blind-fight), [Combat Reflexes](feats.md#_combat-reflexes), [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Improved Initiative](feats.md#_improved-initiative), [Power Attack](feats.md#_power-attack)
+**Feats** [Blind-Fight](feats#_blind-fight), [Combat Reflexes](feats#_combat-reflexes), [Flyby Attack](monsters/monsterFeats#_flyby-attack), [Improved Initiative](feats#_improved-initiative), [Power Attack](feats#_power-attack)
 
-**Skills** [Fly](skills/fly.md#_fly) +5, [Perception](skills/perception.md#_perception) +12; **Racial Modifiers** +4 [Perception](skills/perception.md#_perception)
+**Skills** [Fly](skills/fly#_fly) +5, [Perception](skills/perception#_perception) +12; **Racial Modifiers** +4 [Perception](skills/perception#_perception)
 
 **Languages** Draconic
 
@@ -58,7 +58,7 @@ The origin of dragonnes generates endless speculation. The odds of these creatur
 
 Although many creatures rightly fear these ferocious hunters, few dragonnes are blatantly evil—most are just highly territorial and seek to defend their homes and hunting grounds from interlopers. Creatures that draw too close to a dragonne's lair are typically met by the resident's fearsome roar, followed by its claws and fangs if this warning is ignored. Those who attempt to settle in a dragonne's territory find themselves harassed constantly until they decide to leave or the dragonne is slain. These intimidating predators spend the majority of their time on the ground, even when in combat, since their wings prove somewhat ungainly. They typically search for prey and intruders from the air, then land nearby to charge and pounce.
 
-Despite their deadliness, dragonnes form strong bonds with those they consider members of their pride, sometimes even adopting creatures of other races. A character with the [Leadership](feats.md#_leadership) feat can take a dragonne as a cohort. Such characters must have an effective leadership level of 10th. Most dragonne cohorts gain levels in barbarian, fighter, or ranger.
+Despite their deadliness, dragonnes form strong bonds with those they consider members of their pride, sometimes even adopting creatures of other races. A character with the [Leadership](feats#_leadership) feat can take a dragonne as a cohort. Such characters must have an effective leadership level of 10th. Most dragonne cohorts gain levels in barbarian, fighter, or ranger.
 
 A dragonne measures between 10 and 12 feet long and weighs up to 1,200 pounds.
 

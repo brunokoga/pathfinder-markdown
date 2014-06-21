@@ -1,26 +1,26 @@
 # Classes
 
-**[Barbarian](classes/barbarian.md#_barbarian)** : The barbarian is a brutal berserker from beyond the edge of civilized lands.
+**[Barbarian](classes/barbarian#_barbarian)** : The barbarian is a brutal berserker from beyond the edge of civilized lands.
 
-**[Bard](classes/bard.md#_bard)** : The bard uses skill and spell alike to bolster his allies, confound his enemies, and build upon his fame.
+**[Bard](classes/bard#_bard)** : The bard uses skill and spell alike to bolster his allies, confound his enemies, and build upon his fame.
 
-**[Cleric](classes/cleric.md#_cleric)** : A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods.
+**[Cleric](classes/cleric#_cleric)** : A devout follower of a deity, the cleric can heal wounds, raise the dead, and call down the wrath of the gods.
 
-**[Druid](classes/druid.md#_druid)** : The druid is a worshiper of all things natural—a spellcaster, a friend to animals, and a skilled shapechanger.
+**[Druid](classes/druid#_druid)** : The druid is a worshiper of all things natural—a spellcaster, a friend to animals, and a skilled shapechanger.
 
-**[Fighter](classes/fighter.md#_fighter)** : Brave and stalwart, the fighter is a master of all manner of arms and armor.
+**[Fighter](classes/fighter#_fighter)** : Brave and stalwart, the fighter is a master of all manner of arms and armor.
 
-**[Monk](classes/monk.md#_monk)** : A student of martial arts, the monk trains his body to be his greatest weapon and defense.
+**[Monk](classes/monk#_monk)** : A student of martial arts, the monk trains his body to be his greatest weapon and defense.
 
-**[Paladin](classes/paladin.md#_paladin)** : The paladin is the knight in shining armor, a devoted follower of law and good.
+**[Paladin](classes/paladin#_paladin)** : The paladin is the knight in shining armor, a devoted follower of law and good.
 
-**[Ranger](classes/ranger.md#_ranger)** : A tracker and hunter, the ranger is a creature of the wild and of tracking down his favored foes.
+**[Ranger](classes/ranger#_ranger)** : A tracker and hunter, the ranger is a creature of the wild and of tracking down his favored foes.
 
-**[Rogue](classes/rogue.md#_rogue)** : The rogue is a thief and a scout, an opportunist capable of delivering brutal strikes against unwary foes.
+**[Rogue](classes/rogue#_rogue)** : The rogue is a thief and a scout, an opportunist capable of delivering brutal strikes against unwary foes.
 
-**[Sorcerer](classes/sorcerer.md#_sorcerer)** : The spellcasting sorcerer is born with an innate knack for magic and has strange, eldritch powers.
+**[Sorcerer](classes/sorcerer#_sorcerer)** : The spellcasting sorcerer is born with an innate knack for magic and has strange, eldritch powers.
 
-**[Wizard](classes/wizard.md#_wizard)** : The wizard masters magic through constant study that gives him incredible magical power.
+**[Wizard](classes/wizard#_wizard)** : The wizard masters magic through constant study that gives him incredible magical power.
 
 # Character Advancement
 
@@ -70,5 +70,5 @@ Note that there are a number of effects and prerequisites that rely on a charact
 
 ## Favored Class
 
-Each character begins play with a single favored class of his choosing—typically, this is the same class as the one he chooses at 1st level. Whenever a character gains a level in his favored class, he receives either + 1 hit point or + 1 skill rank. The choice of favored class cannot be changed once the character is created, and the choice of gaining a hit point or a skill rank each time a character gains a level (including his first level) cannot be changed once made for a particular level. Prestige classes (see [Prestige Classes](prestigeClasses.md)) can never be a favored class.
+Each character begins play with a single favored class of his choosing—typically, this is the same class as the one he chooses at 1st level. Whenever a character gains a level in his favored class, he receives either + 1 hit point or + 1 skill rank. The choice of favored class cannot be changed once the character is created, and the choice of gaining a hit point or a skill rank each time a character gains a level (including his first level) cannot be changed once made for a particular level. Prestige classes (see [Prestige Classes](prestigeClasses)) can never be a favored class.
 

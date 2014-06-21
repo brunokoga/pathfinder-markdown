@@ -8,5 +8,5 @@ Daze, Mass
 
 **Targets** one or more humanoid creatures, no two of which may be more than 30 ft. apart
 
-This spell functions as _ [daze](spells/daze.md#_daze)_, except as noted above.
+This spell functions as _ [daze](spells/daze#_daze)_, except as noted above.
 

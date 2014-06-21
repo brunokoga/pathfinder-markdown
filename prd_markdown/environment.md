@@ -61,9 +61,9 @@ Masonry walls—stones piled on top of each other, usually but not always held i
 
 **Wooden Walls** : Wooden walls often exist as recent additions to older dungeons, used to create animal pens, storage bins, and temporary structures, or just to make a number of smaller rooms out of a larger one.
 
-**Magically Treated Walls** : These walls are stronger than average, with a greater hardness, more hit points, and a higher break DC. Magic can usually double the hardness and hit points of a wall and add up to 20 to the break DC. A magically treated wall also gains a saving throw against spells that could affect it, with the save bonus equaling 2 + 1/2 the caster level of the magic reinforcing the wall. Creating a magic wall requires the [Craft Wondrous Item](feats.md#_craft-wondrous-item) feat and the expenditure of 1,500 gp for each 10-foot-by-10-foot wall section.
+**Magically Treated Walls** : These walls are stronger than average, with a greater hardness, more hit points, and a higher break DC. Magic can usually double the hardness and hit points of a wall and add up to 20 to the break DC. A magically treated wall also gains a saving throw against spells that could affect it, with the save bonus equaling 2 + 1/2 the caster level of the magic reinforcing the wall. Creating a magic wall requires the [Craft Wondrous Item](feats#_craft-wondrous-item) feat and the expenditure of 1,500 gp for each 10-foot-by-10-foot wall section.
 
-**Walls with Arrow Slits** : Walls with arrow slits can be made of any durable material but are most commonly masonry, hewn stone, or wood. Such a wall allows defenders to fire arrows or crossbow bolts at intruders from behind the safety of the wall. Archers behind arrow slits have improved cover that gives them a +8 bonus to [Armor Class](combat.md#_armor-class), a +4 bonus on [Reflex](combat.md#_reflex) saves, and the benefits of the improved evasion class feature.
+**Walls with Arrow Slits** : Walls with arrow slits can be made of any durable material but are most commonly masonry, hewn stone, or wood. Such a wall allows defenders to fire arrows or crossbow bolts at intruders from behind the safety of the wall. Archers behind arrow slits have improved cover that gives them a +8 bonus to [Armor Class](combat#_armor-class), a +4 bonus on [Reflex](combat#_reflex) saves, and the benefits of the improved evasion class feature.
 
 ### Floors
 
@@ -176,13 +176,13 @@ Stairs are the most common means of traveling up and down within a dungeon. A ch
 
 ### Cave-Ins and Collapses (CR 8)
 
-Cave-ins and collapsing tunnels are extremely dangerous. Not only do dungeon explorers face the danger of being crushed by tons of falling rock, but even if they survive they might be buried beneath a pile of rubble or cut off from the only known exit. A cave-in buries anyone in the middle of the collapsing area, and then sliding debris damages anyone in the periphery of the collapse. A typical corridor subject to a cave-in might have a bury zone with a 15-foot radius and a 10-foot-wide slide zone extending beyond the bury zone. A weakened ceiling can be spotted with a DC 20 Knowledge (engineering) or DC 20 Craft (stonemasonry) check. Remember that Craft checks can be made untrained as [Intelligence](gettingStarted.md#_intelligence) checks. A dwarf can make such a check if he simply passes within 10 feet of a weakened ceiling.
+Cave-ins and collapsing tunnels are extremely dangerous. Not only do dungeon explorers face the danger of being crushed by tons of falling rock, but even if they survive they might be buried beneath a pile of rubble or cut off from the only known exit. A cave-in buries anyone in the middle of the collapsing area, and then sliding debris damages anyone in the periphery of the collapse. A typical corridor subject to a cave-in might have a bury zone with a 15-foot radius and a 10-foot-wide slide zone extending beyond the bury zone. A weakened ceiling can be spotted with a DC 20 Knowledge (engineering) or DC 20 Craft (stonemasonry) check. Remember that Craft checks can be made untrained as [Intelligence](gettingStarted#_intelligence) checks. A dwarf can make such a check if he simply passes within 10 feet of a weakened ceiling.
 
 A weakened ceiling might collapse when subjected to a major impact or concussion. A character can cause a cave-in by destroying half the pillars holding up the ceiling.
 
-Characters in the bury zone of a cave-in take 8d6 points of damage, or half that amount if they make a DC 15 [Reflex](combat.md#_reflex) save. They are subsequently buried. Characters in the slide zone take 3d6 points of damage, or no damage at all if they make a DC 15 [Reflex](combat.md#_reflex) save. Characters in the slide zone who fail their saves are buried.
+Characters in the bury zone of a cave-in take 8d6 points of damage, or half that amount if they make a DC 15 [Reflex](combat#_reflex) save. They are subsequently buried. Characters in the slide zone take 3d6 points of damage, or no damage at all if they make a DC 15 [Reflex](combat#_reflex) save. Characters in the slide zone who fail their saves are buried.
 
-Characters take 1d6 points of nonlethal damage per minute while buried. If such a character falls [unconscious](glossary.md#_unconscious), he must make a DC 15 [Constitution](gettingStarted.md#_constitution) check each minute. If it fails, he takes 1d6 points of lethal damage each minute until freed or dead.
+Characters take 1d6 points of nonlethal damage per minute while buried. If such a character falls [unconscious](glossary#_unconscious), he must make a DC 15 [Constitution](gettingStarted#_constitution) check each minute. If it fails, he takes 1d6 points of lethal damage each minute until freed or dead.
 
 Characters who aren't buried can dig out their friends. In 1 minute, using only her hands, a character can clear rocks and debris equal to five times her heavy load limit. The amount of loose stone that fills a 5-foot-by-5-foot area weighs 1 ton (2,000 pounds). Armed with an appropriate tool, such as a pick, crowbar, or shovel, a digger can clear loose stone twice as quickly as by hand. A buried character can attempt to free himself with a DC 25 Strength check.
 
@@ -196,13 +196,13 @@ A form of glistening organic sludge coats almost anything that remains in the da
 
 **Green Slime (CR 4)** : This dungeon peril is a dangerous variety of normal slime. Green slime devours flesh and organic materials on contact and is even capable of dissolving metal. Bright green, wet, and sticky, it clings to walls, floors, and ceilings in patches, reproducing as it consumes organic matter. It drops from walls and ceilings when it detects movement (and possible food) below.
 
-A single 5-foot square of green slime deals 1d6 points of [Constitution](gettingStarted.md#_constitution) damage per round while it devours flesh. On the first round of contact, the slime can be scraped off a creature (destroying the scraping device), but after that it must be frozen, burned, or cut away (dealing damage to the victim as well). Anything that deals cold or fire damage, sunlight, or a _remove disease _spell destroys a patch of green slime. Against wood or metal, green slime deals 2d6 points of damage per round, ignoring metal's hardness but not that of wood. It does not harm stone.
+A single 5-foot square of green slime deals 1d6 points of [Constitution](gettingStarted#_constitution) damage per round while it devours flesh. On the first round of contact, the slime can be scraped off a creature (destroying the scraping device), but after that it must be frozen, burned, or cut away (dealing damage to the victim as well). Anything that deals cold or fire damage, sunlight, or a _remove disease _spell destroys a patch of green slime. Against wood or metal, green slime deals 2d6 points of damage per round, ignoring metal's hardness but not that of wood. It does not harm stone.
 
 **Phosphorescent Fungus** : This strange underground fungus gives off a soft violet glow that illuminates underground caverns and passages as well as a candle does. Rare patches of fungus illuminate as well as a torch does.
 
 **Shrieker** : This human-sized purple mushroom emits a piercing sound that lasts for 1d3 rounds whenever there is movement or a light source within 10 feet. This shriek makes it impossible to hear any other sound within 50 feet. The sound attracts nearby creatures that are disposed to investigate it. Some creatures that live near shriekers learn that this noise means there is food or an intruder nearby.
 
-**Yellow Mold (CR 6)** : If disturbed, a 5-foot square of this mold bursts forth with a cloud of poisonous spores. All within 10 feet of the mold must make a DC 15 [Fortitude](combat.md#_fortitude) save or take 1d3 points of [Constitution](gettingStarted.md#_constitution) damage. Another DC 15 [Fortitude](combat.md#_fortitude) save is required once per round for the next 5 rounds, to avoid taking 1d3 points of [Constitution](gettingStarted.md#_constitution) damage each round. A successful [Fortitude](combat.md#_fortitude) save ends this effect. Fire destroys yellow mold, and sunlight renders it dormant.
+**Yellow Mold (CR 6)** : If disturbed, a 5-foot square of this mold bursts forth with a cloud of poisonous spores. All within 10 feet of the mold must make a DC 15 [Fortitude](combat#_fortitude) save or take 1d3 points of [Constitution](gettingStarted#_constitution) damage. Another DC 15 [Fortitude](combat#_fortitude) save is required once per round for the next 5 rounds, to avoid taking 1d3 points of [Constitution](gettingStarted#_constitution) damage each round. A successful [Fortitude](combat#_fortitude) save ends this effect. Fire destroys yellow mold, and sunlight renders it dormant.
 
 # Traps
 
@@ -216,7 +216,7 @@ All traps—mechanical or magical—have the following elements: CR, type, Perce
 
 A trap can be either mechanical or magical in nature.
 
-**Mechanical** : Dungeons are frequently equipped with deadly mechanical (nonmagical) traps. A trap typically is defined by its location and triggering conditions, how hard it is to spot before it goes off, how much damage it deals, and whether or not the characters receive a saving throw to mitigate its effects. Traps that attack with arrows, sweeping blades, and other types of weaponry make normal attack rolls, with specific attack bonuses dictated by the trap's design. A mechanical trap can be constructed by a PC through successful use of the Craft (traps) skill (see Designing a Trap and the [Craft skill description](skills/craft.md)).
+**Mechanical** : Dungeons are frequently equipped with deadly mechanical (nonmagical) traps. A trap typically is defined by its location and triggering conditions, how hard it is to spot before it goes off, how much damage it deals, and whether or not the characters receive a saving throw to mitigate its effects. Traps that attack with arrows, sweeping blades, and other types of weaponry make normal attack rolls, with specific attack bonuses dictated by the trap's design. A mechanical trap can be constructed by a PC through successful use of the Craft (traps) skill (see Designing a Trap and the [Craft skill description](skills/craft)).
 
 Creatures that succeed on a Perception check detect a trap before it is triggered. The DC of this check depends on the trap itself. Success generally indicates that the creature has detected the mechanism that activates the trap, such as a pressure plate, odd gears attached to a door handle, and the like. Beating this check by 5 or more also gives some indication of what the trap is designed to do.
 
@@ -226,7 +226,7 @@ Creatures that succeed on a Perception check detect a trap before it is triggere
 - Magic traps permit a saving throw in order to avoid the effect (DC 10 + spell level × 1.5).
 - Magic traps may be disarmed by a character with the trapfinding class feature with a successful Disable Device skill check (DC 25 + spell level). Other characters have no chance to disarm a magic trap with a Disable Device check.
 
-Magic traps are further divided into spell traps and magic device traps. Magic device traps initiate spell effects when activated, just as wands, rods, rings, and other magic items do. Creating a magic device trap requires the [Craft Wondrous Item](feats.md#_craft-wondrous-item) feat.
+Magic traps are further divided into spell traps and magic device traps. Magic device traps initiate spell effects when activated, just as wands, rods, rings, and other magic items do. Creating a magic device trap requires the [Craft Wondrous Item](feats#_craft-wondrous-item) feat.
 
 Spell traps are simply spells that themselves function as traps_. _Creating a spell trap requires the services of a character who can cast the needed spell or spells, who is usually either the character creating the trap or an NPC spellcaster hired for that purpose.
 
@@ -298,13 +298,13 @@ If the builder of a trap wants to be able to move past the trap after it is crea
 
 The effect of a trap is what happens to those who spring it. This often takes the form of either damage or a spell effect, but some traps have special effects. A trap usually either makes an attack roll or forces a saving throw to avoid it. Occasionally a trap uses both of these options, or neither (see Never Miss).
 
-**Pits** : These are holes (covered or not) that characters can fall into, causing them to take damage. A pit needs no attack roll, but a successful [Reflex](combat.md#_reflex) save (DC set by the builder) avoids it. Other save-dependent mechanical traps also fall into this category. Falling into a pit deals 1d6 points of damage per 10 feet of depth.
+**Pits** : These are holes (covered or not) that characters can fall into, causing them to take damage. A pit needs no attack roll, but a successful [Reflex](combat#_reflex) save (DC set by the builder) avoids it. Other save-dependent mechanical traps also fall into this category. Falling into a pit deals 1d6 points of damage per 10 feet of depth.
 
 Pits in dungeons come in three basic varieties: uncovered, covered, and chasms. Pits and chasms can be defeated by judicious application of the Acrobatics skill, the Climb skill, or various mechanical or magical means.
 
 Uncovered pits and natural chasms serve mainly to discourage intruders from going a certain way, although they cause much grief to characters who stumble into them in the dark, and they can greatly complicate nearby melee.
 
-Covered pits are much more dangerous. They can be detected with a DC 20 Perception check, but only if the character is taking the time to carefully examine the area before walking across it. A character who fails to detect a covered pit is still entitled to a DC 20 [Reflex](combat.md#_reflex) save to avoid falling into it. If she was running or moving recklessly at the time, however, she gets no saving throw and falls automatically.
+Covered pits are much more dangerous. They can be detected with a DC 20 Perception check, but only if the character is taking the time to carefully examine the area before walking across it. A character who fails to detect a covered pit is still entitled to a DC 20 [Reflex](combat#_reflex) save to avoid falling into it. If she was running or moving recklessly at the time, however, she gets no saving throw and falls automatically.
 
 Trap coverings can be as simple as piled refuse (straw, leaves, sticks, garbage), a large rug, or an actual trap door concealed to appear as a normal part of the floor. Such a trap door usually swings open when enough weight (usually about 50 to 80 pounds) is placed upon it. Devious trap builders sometimes design trap doors so they spring back shut after they open. The trap door might lock once it's back in place, leaving the stranded character well and truly trapped. Opening such a trap door is just as difficult as opening a regular door (assuming the trapped character can reach it), and a DC 13 Strength check is needed to keep a spring-loaded door open.
 
@@ -342,7 +342,7 @@ Some traps include optional features that can make them considerably more deadly
 
 **Onset Delay** : An onset delay is the amount of time between when the trap is sprung and when it deals damage. A never miss trap always has an onset delay.
 
-**Poison** : Traps that employ [poison](glossary.md#_poison) are deadlier than their nonpoisonous counterparts, so they have correspondingly higher CRs. To determine the CR modifier for a given poison, consult Table: CR Modifiers for Mechanical Traps. Only injury, contact, and inhaled poisons are suitable for traps; ingested types are not. Some traps simply deal the poison's damage. Others deal damage with ranged or melee attacks as well.
+**Poison** : Traps that employ [poison](glossary#_poison) are deadlier than their nonpoisonous counterparts, so they have correspondingly higher CRs. To determine the CR modifier for a given poison, consult Table: CR Modifiers for Mechanical Traps. Only injury, contact, and inhaled poisons are suitable for traps; ingested types are not. Some traps simply deal the poison's damage. Others deal damage with ranged or melee attacks as well.
 
 **Pit Spikes** : Treat spikes at the bottom of a pit as daggers, each with a +10 attack bonus. The damage bonus for each spike is +1 per 10 feet of pit depth (to a maximum of +5). Each character who falls into the pit is attacked by 1d4 spikes. This damage is in addition to any damage from the fall itself, and the statistics presented above are merely the most common variant—some traps might have far more dangerous spikes at their bottom. Pit spikes add to the average damage of the trap (see Average Damage, below).
 
@@ -372,7 +372,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** location; **Reset** manual
 
-**Effect** 20-ft.-deep pit (2d6 falling damage); DC 20 [Reflex](combat.md#_reflex) avoids; multiple targets (all targets in a 10-ft.-square area)
+**Effect** 20-ft.-deep pit (2d6 falling damage); DC 20 [Reflex](combat#_reflex) avoids; multiple targets (all targets in a 10-ft.-square area)
 
 **Poisoned Dart Trap CR 1**
 
@@ -402,7 +402,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** proximity (_alarm_); **Reset** none
 
-**Effect** spell effect (_burning hands, _2d4 fire damage, DC 11 [Reflex](combat.md#_reflex) save for half damage); multiple targets (all targets in a 15-ft. cone)
+**Effect** spell effect (_burning hands, _2d4 fire damage, DC 11 [Reflex](combat#_reflex) save for half damage); multiple targets (all targets in a 15-ft. cone)
 
 **Javelin Trap CR 2**
 
@@ -422,7 +422,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** location; **Reset** manual
 
-**Effect** 10-ft.-deep pit (1d6 falling damage); pit spikes (Atk +10 melee, 1d4 spikes per target for 1d4+2 damage each); DC 20 [Reflex](combat.md#_reflex) avoids; multiple targets (all targets in a 10-ft.-square area)
+**Effect** 10-ft.-deep pit (1d6 falling damage); pit spikes (Atk +10 melee, 1d4 spikes per target for 1d4+2 damage each); DC 20 [Reflex](combat#_reflex) avoids; multiple targets (all targets in a 10-ft.-square area)
 
 **Acid Arrow Trap CR 3**
 
@@ -442,7 +442,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** location; **Reset** manual
 
-**Effect** 30-ft.-deep pit (3d6 falling damage); DC 20 [Reflex](combat.md#_reflex) avoids; multiple targets (all targets in a 10-ft.-square area)
+**Effect** 30-ft.-deep pit (3d6 falling damage); DC 20 [Reflex](combat#_reflex) avoids; multiple targets (all targets in a 10-ft.-square area)
 
 **Electricity Arc Trap CR 4**
 
@@ -452,7 +452,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** touch; **Reset** none
 
-**Effect** electricity arc (4d6 electricity damage, DC 20 [Reflex](combat.md#_reflex) save for half damage); multiple targets (all targets in a 30-ft. line)
+**Effect** electricity arc (4d6 electricity damage, DC 20 [Reflex](combat#_reflex) save for half damage); multiple targets (all targets in a 30-ft. line)
 
 **Wall Scythe Trap CR 4**
 
@@ -482,7 +482,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** proximity (_alarm_); **Reset** none
 
-**Effect** spell effect (_fireball, _6d6 fire damage, DC 14 [Reflex](combat.md#_reflex) save for half damage); multiple targets (all targets in a 20-ft.-radius burst)
+**Effect** spell effect (_fireball, _6d6 fire damage, DC 14 [Reflex](combat#_reflex) save for half damage); multiple targets (all targets in a 20-ft.-radius burst)
 
 **Flame Strike Trap CR 6**
 
@@ -492,7 +492,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** proximity (_alarm_); **Reset** none
 
-**Effect** spell effect (_flame strike, _8d6 fire damage, DC 17 [Reflex](combat.md#_reflex) save for half damage); multiple targets (all targets in a 10-ft.-radius cylinder)
+**Effect** spell effect (_flame strike, _8d6 fire damage, DC 17 [Reflex](combat#_reflex) save for half damage); multiple targets (all targets in a 10-ft.-radius cylinder)
 
 **Wyvern Arrow Trap CR 6**
 
@@ -512,7 +512,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** location; **Duration** 3 rounds; **Reset** none
 
-**Effect** jets of freezing water (3d6 cold damage, DC 20 [Reflex](combat.md#_reflex) save for half damage); multiple targets (all targets in a 40-ft.-square chamber)
+**Effect** jets of freezing water (3d6 cold damage, DC 20 [Reflex](combat#_reflex) save for half damage); multiple targets (all targets in a 40-ft.-square chamber)
 
 **Summon Monster VI Trap CR 7**
 
@@ -532,7 +532,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** location; **Reset** manual
 
-**Effect** 50-ft.-deep pit (5d6 falling damage); pit spikes (Atk +15 melee, 1d4 spikes per target for 1d6+5 damage each); DC 20 [Reflex](combat.md#_reflex) avoids; multiple targets (all targets in a 10-ft.-square area)
+**Effect** 50-ft.-deep pit (5d6 falling damage); pit spikes (Atk +15 melee, 1d4 spikes per target for 1d6+5 damage each); DC 20 [Reflex](combat#_reflex) avoids; multiple targets (all targets in a 10-ft.-square area)
 
 **Insanity Mist Trap CR 8**
 
@@ -572,7 +572,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** visual (_true seeing_); **Reset** none
 
-**Effect** spell effect (_energy drain, _Atk +10 ranged touch, 2d4 temporary negative levels_, _DC 23 [Fortitude](combat.md#_fortitude) negates after 24 hours)
+**Effect** spell effect (_energy drain, _Atk +10 ranged touch, 2d4 temporary negative levels_, _DC 23 [Fortitude](combat#_fortitude) negates after 24 hours)
 
 **Chamber of Blades Trap CR 10**
 
@@ -592,7 +592,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** proximity (_alarm_); **Reset** none
 
-**Effect** spell effect (_cone of cold, _15d6 cold damage, DC 17 [Reflex](combat.md#_reflex) save for half damage); multiple targets (all targets in a 60-ft. cone)
+**Effect** spell effect (_cone of cold, _15d6 cold damage, DC 17 [Reflex](combat#_reflex) save for half damage); multiple targets (all targets in a 60-ft. cone)
 
 **Poisoned Pit Trap CR 12**
 
@@ -602,7 +602,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** location; **Reset** manual
 
-**Effect** 50-ft.-deep pit (5d6 falling damage); pit spikes (Atk +15 melee, 1d4 spikes per target for 1d6+5 damage each plus poison [shadow essence]); DC 25 [Reflex](combat.md#_reflex) avoids; multiple targets (all targets in a 10-ft.-square area)
+**Effect** 50-ft.-deep pit (5d6 falling damage); pit spikes (Atk +15 melee, 1d4 spikes per target for 1d6+5 damage each plus poison [shadow essence]); DC 25 [Reflex](combat#_reflex) avoids; multiple targets (all targets in a 10-ft.-square area)
 
 **Maximized Fireball Trap CR 13**
 
@@ -612,7 +612,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** proximity (_alarm_); **Reset** none
 
-**Effect** spell effect (_fireball, _60 fire damage, DC 14 [Reflex](combat.md#_reflex) save for half damage); multiple targets (all targets in a 20-ft.-radius burst)
+**Effect** spell effect (_fireball, _60 fire damage, DC 14 [Reflex](combat#_reflex) save for half damage); multiple targets (all targets in a 20-ft.-radius burst)
 
 **Harm Trap CR 14**
 
@@ -622,7 +622,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** touch; **Reset** none
 
-**Effect** spell effect (_harm, _+6 melee touch, 130 damage, DC 19 [Will](combat.md#_will) save for half, cannot be reduced to less than 1 hit point)
+**Effect** spell effect (_harm, _+6 melee touch, 130 damage, DC 19 [Will](combat#_will) save for half, cannot be reduced to less than 1 hit point)
 
 **Crushing Stone Trap CR 15**
 
@@ -642,7 +642,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** sight (_true seeing_); **Reset** none
 
-**Effect** spell effect (empowered _disintegrate, _+9 ranged touch, 30d6 damage plus 50%, DC 19 [Fort](combat.md#_fortitude) save reduces the damage to 5d6 plus 50%)
+**Effect** spell effect (empowered _disintegrate, _+9 ranged touch, 30d6 damage plus 50%, DC 19 [Fort](combat#_fortitude) save reduces the damage to 5d6 plus 50%)
 
 **Lightning Bolt Gallery Trap CR 17**
 
@@ -652,7 +652,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** proximity (_alarm_); **Duration** 1d6 rounds; **Reset** none
 
-**Effect** spell effect (heightened _lighting bolt, _8d6 electricity damage, DC 16 [Reflex](combat.md#_reflex) save for half); multiple targets (all targets in a 60-ft.-square chamber)
+**Effect** spell effect (heightened _lighting bolt, _8d6 electricity damage, DC 16 [Reflex](combat#_reflex) save for half); multiple targets (all targets in a 60-ft.-square chamber)
 
 **Deadly Spear Trap CR 18**
 
@@ -672,7 +672,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** sight (_true seeing_); **Reset** none
 
-**Effect** spell effect (meteor swarm_, _4 meteors at separate targets, +9 ranged touch, 2d6 plus 6d6 fire [–4 save on a hit], DC 23 [Reflex](combat.md#_reflex) save for half fire damage, 18d6 fire damage from other meteors, DC 23 [Reflex](combat.md#_reflex) save for half damage); multiple targets (four targets, no two of which can be more than 40 ft. apart)
+**Effect** spell effect (meteor swarm_, _4 meteors at separate targets, +9 ranged touch, 2d6 plus 6d6 fire [–4 save on a hit], DC 23 [Reflex](combat#_reflex) save for half fire damage, 18d6 fire damage from other meteors, DC 23 [Reflex](combat#_reflex) save for half damage); multiple targets (four targets, no two of which can be more than 40 ft. apart)
 
 **Destruction Trap CR 20**
 
@@ -682,7 +682,7 @@ The following sample traps represent just some of the possibilities when constru
 
 **Trigger** proximity (_alarm_); **Reset** none
 
-**Effect** spell effect (heightened _destruction, _190 damage, DC 23 [Fortitude](combat.md#_fortitude) save reduces damage to 10d6)
+**Effect** spell effect (heightened _destruction, _190 damage, DC 23 [Fortitude](combat#_fortitude) save reduces damage to 10d6)
 
 ## Designing a Trap
 
@@ -779,7 +779,7 @@ Designing new traps is a simple process. Start by deciding what type of trap you
 
 **Mechanical Traps** : Simply select the elements you want the trap to have and add up the adjustments to the trap's Challenge Rating that those elements require (see Table: CR Modifiers for Mechanical Traps) to arrive at the trap's final CR. From the CR you can derive the DC of the Craft (traps) checks a character must make to construct the trap.
 
-**Magic Traps** : As with mechanical traps, decide what elements you want and then determine the CR of the resulting trap (see CR Modifiers for Magic Traps). If a player character wants to design and construct a magic trap, he, or an ally, must have the [Craft Wondrous Item](feats.md#_craft-wondrous-item) feat. In addition, he must be able to cast the spell or spells that the trap requires—or he must be able to hire an NPC to cast the spells for him.
+**Magic Traps** : As with mechanical traps, decide what elements you want and then determine the CR of the resulting trap (see CR Modifiers for Magic Traps). If a player character wants to design and construct a magic trap, he, or an ally, must have the [Craft Wondrous Item](feats#_craft-wondrous-item) feat. In addition, he must be able to cast the spell or spells that the trap requires—or he must be able to hire an NPC to cast the spells for him.
 
 ### Challenge Rating of a Trap
 
@@ -811,7 +811,7 @@ After you've determined the cost by Challenge Rating, add the price of any alche
 
 Building a magic device trap involves the expenditure of gp and requires the services of a spellcaster. Table: Cost Modifiers for Magic Device Traps summarizes the cost information for magic device traps. If the trap uses more than one spell (for instance, a sound or visual trigger spell in addition to the main spell effect), the builder must pay for them all (except _alarm_, which is free unless it must be cast by an NPC).
 
-The costs derived from Table: Cost Modifiers for Magic Device Traps assume that the builder is casting the necessary spells himself (or perhaps some other PC is providing the spells for free). If an NPC spellcaster must be hired to cast them, those costs must be factored in as well (see [Equipment](equipment.md)).
+The costs derived from Table: Cost Modifiers for Magic Device Traps assume that the builder is casting the necessary spells himself (or perhaps some other PC is providing the spells for free). If an NPC spellcaster must be hired to cast them, those costs must be factored in as well (see [Equipment](equipment)).
 
 A magic device trap takes 1 day to construct per 500 gp of its cost.
 
@@ -883,7 +883,7 @@ The table below describes in general terms how likely it is that a given square 
 | Light undergrowth | 50% | 70% | 50% |
 | Heavy undergrowth | — | 20% | 50% |
 
-**Trees** : The most important terrain element in a forest is the trees, obviously. A creature standing in the same square as a tree gains partial cover, which grants a +2 bonus to [Armor Class](combat.md#_armor-class) and a +1 bonus on [Reflex](combat.md#_reflex) saves. The presence of a tree doesn't otherwise affect a creature's fighting space, because it's assumed that the creature is using the tree to its advantage when it can. The trunk of a typical tree has [AC](combat.md#_armor-class) 4, hardness 5, and 150 hp. A DC 15 Climb check is sufficient to climb a tree. Medium and dense forests have massive trees as well. These trees take up an entire square and provide cover to anyone behind them. They have [AC](combat.md#_armor-class) 3, hardness 5, and 600 hp. Like their smaller counterparts, it takes a DC 15 Climb check to climb them.
+**Trees** : The most important terrain element in a forest is the trees, obviously. A creature standing in the same square as a tree gains partial cover, which grants a +2 bonus to [Armor Class](combat#_armor-class) and a +1 bonus on [Reflex](combat#_reflex) saves. The presence of a tree doesn't otherwise affect a creature's fighting space, because it's assumed that the creature is using the tree to its advantage when it can. The trunk of a typical tree has [AC](combat#_armor-class) 4, hardness 5, and 150 hp. A DC 15 Climb check is sufficient to climb a tree. Medium and dense forests have massive trees as well. These trees take up an entire square and provide cover to anyone behind them. They have [AC](combat#_armor-class) 3, hardness 5, and 600 hp. Like their smaller counterparts, it takes a DC 15 Climb check to climb them.
 
 **Undergrowth** : Vines, roots, and short bushes cover much of the ground in a forest. A space covered with light undergrowth costs 2 squares of movement to move into, and provides concealment. Undergrowth increases the DC of Acrobatics and Stealth checks by 2 because the leaves and branches get in the way. Heavy undergrowth costs 4 squares of movement to move into and provides concealment with a 30% miss chance (instead of the usual 20%). It increases the DC of Acrobatics checks by 5. Heavy undergrowth is easy to hide in, granting a +5 circumstance bonus on Stealth checks. Running and charging are impossible. Squares with undergrowth are often clustered together. Undergrowth and trees aren't mutually exclusive; it's common for a 5-foot square to have both a tree and undergrowth.
 
@@ -905,15 +905,15 @@ A forest fire can be spotted from as far away as 2d6 × 100 feet by a character 
 
 Characters who are blinded or otherwise unable to make Perception checks can feel the heat of the fire (and thus automatically “spot” it) when it is 100 feet away.
 
-The leading edge of a fire (the downwind side) can advance faster than a human can run (assume 120 feet per round for winds of moderate strength). Once a particular portion of the forest is ablaze, it remains so for 2d4 × 10 minutes before [dying](glossary.md#_dying) to a smoking wasteland. Characters overtaken by a forest fire might find the leading edge of the fire advancing away from them faster than they can keep up, trapping them deeper and deeper within its grasp.
+The leading edge of a fire (the downwind side) can advance faster than a human can run (assume 120 feet per round for winds of moderate strength). Once a particular portion of the forest is ablaze, it remains so for 2d4 × 10 minutes before [dying](glossary#_dying) to a smoking wasteland. Characters overtaken by a forest fire might find the leading edge of the fire advancing away from them faster than they can keep up, trapping them deeper and deeper within its grasp.
 
 Within the bounds of a forest fire, a character faces three dangers: heat damage, catching on fire, and smoke inhalation.
 
-**Heat Damage** : Getting caught within a forest fire is even worse than being exposed to extreme heat (see Heat Dangers). Breathing the air causes a character to take 1d6 points of fire damage per round (no save). In addition, a character must make a [Fortitude](combat.md#_fortitude) save every 5 rounds (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage. A character who holds his breath can avoid the lethal damage, but not the nonlethal damage. Those wearing heavy clothing or any sort of armor take a –4 penalty on their saving throws. Those wearing metal armor or who come into contact with very hot metal are affected as if by a _heat metal _spell.
+**Heat Damage** : Getting caught within a forest fire is even worse than being exposed to extreme heat (see Heat Dangers). Breathing the air causes a character to take 1d6 points of fire damage per round (no save). In addition, a character must make a [Fortitude](combat#_fortitude) save every 5 rounds (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage. A character who holds his breath can avoid the lethal damage, but not the nonlethal damage. Those wearing heavy clothing or any sort of armor take a –4 penalty on their saving throws. Those wearing metal armor or who come into contact with very hot metal are affected as if by a _heat metal _spell.
 
 **Catching on Fire** : Characters engulfed in a forest fire are at risk of catching on fire when the leading edge of the fire overtakes them, and continue to be at risk once per minute thereafter.
 
-**Smoke Inhalation** : Forest fires naturally produce a great deal of smoke. A character who breathes heavy smoke must make a [Fortitude](combat.md#_fortitude) save each round (DC 15, +1 per previous check) or spend that round choking and coughing. A character who chokes for 2 consecutive rounds takes 1d6 points of nonlethal damage. Smoke also provides concealment to characters within it.
+**Smoke Inhalation** : Forest fires naturally produce a great deal of smoke. A character who breathes heavy smoke must make a [Fortitude](combat#_fortitude) save each round (DC 15, +1 per previous check) or spend that round choking and coughing. A character who chokes for 2 consecutive rounds takes 1d6 points of nonlethal damage. Smoke also provides concealment to characters within it.
 
 ## Marsh Terrain
 
@@ -932,7 +932,7 @@ Two categories of marsh exist: relatively dry moors and watery swamps. Both are 
 
 A square that is part of a deep bog has roughly 4 feet of standing water. It costs Medium or larger creatures 4 squares of movement to move into a square with a deep bog, or characters can swim if they wish. Small or smaller creatures must swim to move through a deep bog. Tumbling is impossible in a deep bog.
 
-The water in a deep bog provides cover for Medium or larger creatures. Smaller creatures gain improved cover (+8 bonus to [AC](combat.md#_armor-class), +4 bonus on [Reflex](combat.md#_reflex) saves). Medium or larger creatures can crouch as a move action to gain this improved cover. Creatures with this improved cover take a –10 penalty on attacks against creatures that aren't underwater.
+The water in a deep bog provides cover for Medium or larger creatures. Smaller creatures gain improved cover (+8 bonus to [AC](combat#_armor-class), +4 bonus on [Reflex](combat#_reflex) saves). Medium or larger creatures can crouch as a move action to gain this improved cover. Creatures with this improved cover take a –10 penalty on attacks against creatures that aren't underwater.
 
 Deep bog squares are usually clustered together and surrounded by an irregular ring of shallow bog squares.
 
@@ -942,7 +942,7 @@ Both shallow and deep bogs increase the DC of Stealth checks by 2.
 
 **Quicksand** : Patches of quicksand present a deceptively solid appearance (appearing as undergrowth or open land) that might trap careless characters. A character approaching a patch of quicksand at a normal pace is entitled to a DC 8 Survival check to spot the danger before stepping in, but charging or running characters don't have a chance to detect a hidden patch before blundering into it. A typical patch of quicksand is 20 feet in diameter; the momentum of a charging or running character carries him 1d2 × 5 feet into the quicksand.
 
-_Effects of Quicksand_: Characters in quicksand must make a DC 10 Swim check every round to simply tread water in place, or a DC 15 Swim check to move 5 feet in whatever direction is desired. If a trapped character fails this check by 5 or more, he sinks below the surface and begins to drown whenever he can no longer hold his breath (see the Swim skill description in [Using Skills](usingSkills.md))_._
+_Effects of Quicksand_: Characters in quicksand must make a DC 10 Swim check every round to simply tread water in place, or a DC 15 Swim check to move 5 feet in whatever direction is desired. If a trapped character fails this check by 5 or more, he sinks below the surface and begins to drown whenever he can no longer hold his breath (see the Swim skill description in [Using Skills](usingSkills))_._
 
 Characters below the surface of quicksand may swim back to the surface with a successful Swim check (DC 15, +1 per consecutive round of being under the surface).
 
@@ -971,7 +971,7 @@ A hill can exist in most other types of terrain, but hills can also dominate the
 
 **Gradual Slope** : This incline isn't steep enough to affect movement, but characters gain a +1 bonus on melee attacks against foes downhill from them.
 
-**Steep Slope** : Characters moving uphill (to an adjacent square of higher elevation) must spend 2 squares of movement to enter each square of steep slope. Characters running or charging downhill (moving to an adjacent square of lower elevation) must succeed on a DC 10 Acrobatics check upon entering the first steep slope square. Mounted characters make a DC 10 Ride check instead. Characters who fail this check stumble and must end their movement 1d2 × 5 feet later. Characters who fail by 5 or more fall [prone](glossary.md#_prone) in the square where they end their movement. A steep slope increases the DC of Acrobatics checks by 2.
+**Steep Slope** : Characters moving uphill (to an adjacent square of higher elevation) must spend 2 squares of movement to enter each square of steep slope. Characters running or charging downhill (moving to an adjacent square of lower elevation) must succeed on a DC 10 Acrobatics check upon entering the first steep slope square. Mounted characters make a DC 10 Ride check instead. Characters who fail this check stumble and must end their movement 1d2 × 5 feet later. Characters who fail by 5 or more fall [prone](glossary#_prone) in the square where they end their movement. A steep slope increases the DC of Acrobatics checks by 2.
 
 **Cliff** : A cliff typically requires a DC 15 Climb check to scale and is 1d4 × 10 feet tall, although the needs of your map might mandate a taller cliff. A cliff isn't perfectly vertical, taking up 5-foot squares if it's less than 30 feet tall and 10-foot squares if it's 30 feet or taller.
 
@@ -1029,9 +1029,9 @@ The combination of high peaks and heavy snowfalls means that avalanches are a de
 
 An avalanche can be spotted from as far away as 1d10 × 500 feet by a character who makes a DC 20 Perception check, treating the avalanche as a Colossal creature. If all characters fail their Perception checks to determine the encounter distance, the avalanche moves closer to them, and they automatically become aware of it when it closes to half the original distance. It's possible to hear an avalanche coming even if you can't see it. Under optimum conditions (no other loud noises occurring), a character who makes a DC 15 Perception check can hear the avalanche or landslide when it is 1d6 × 500 feet away. This check might have a DC of 20, 25, or higher in conditions where hearing is difficult (such as in the middle of a thunderstorm).
 
-A landslide or avalanche consists of two distinct areas: the bury zone (in the direct path of the falling debris) and the slide zone (the area the debris spreads out to encompass). Characters in the bury zone always take damage from the avalanche; characters in the slide zone might be able to get out of the way. Characters in the bury zone take 8d6 points of damage, or half that amount if they make a DC 15 [Reflex](combat.md#_reflex) save. They are subsequently buried. Characters in the slide zone take 3d6 points of damage, or no damage if they make a DC 15 [Reflex](combat.md#_reflex) save. Those who fail their saves are buried.
+A landslide or avalanche consists of two distinct areas: the bury zone (in the direct path of the falling debris) and the slide zone (the area the debris spreads out to encompass). Characters in the bury zone always take damage from the avalanche; characters in the slide zone might be able to get out of the way. Characters in the bury zone take 8d6 points of damage, or half that amount if they make a DC 15 [Reflex](combat#_reflex) save. They are subsequently buried. Characters in the slide zone take 3d6 points of damage, or no damage if they make a DC 15 [Reflex](combat#_reflex) save. Those who fail their saves are buried.
 
-Buried characters take 1d6 points of nonlethal damage per minute. If a buried character falls [unconscious](glossary.md#_unconscious), he must make a DC 15 [Constitution](gettingStarted.md#_constitution) check or take 1d6 points of lethal damage each minute thereafter until freed or dead. See Cave-Ins and Collapses for rules on digging out buried creatures.
+Buried characters take 1d6 points of nonlethal damage per minute. If a buried character falls [unconscious](glossary#_unconscious), he must make a DC 15 [Constitution](gettingStarted#_constitution) check or take 1d6 points of lethal damage each minute thereafter until freed or dead. See Cave-Ins and Collapses for rules on digging out buried creatures.
 
 The typical avalanche has a width of 1d6 × 100 feet, from one edge of the slide zone to the opposite edge. The bury zone in the center of the avalanche is half as wide as the avalanche's full width.
 
@@ -1047,9 +1047,9 @@ High altitude travel can be extremely fatiguing—and sometimes deadly—to crea
 
 _Low Pass (lower than 5,000 feet)_: Most travel in low mountains takes place in low passes, a zone consisting largely of alpine meadows and forests. Travelers might find the going difficult (which is reflected in the movement modifiers for traveling through mountains), but the altitude itself has no game effect.
 
-_Low Peak or High Pass (5,000 to 15,000 feet)_: Ascending to the highest slopes of low mountains, or most normal travel through high mountains, falls into this category. All non-acclimated creatures labor to breathe in the thin air at this altitude. Characters must succeed on a [Fortitude](combat.md#_fortitude) save each hour (DC 15, +1 per previous check) or be [fatigued](glossary.md#_fatigued). The fatigue ends when the character descends to an altitude with more air. Acclimated characters do not have to attempt the [Fortitude](combat.md#_fortitude) save.
+_Low Peak or High Pass (5,000 to 15,000 feet)_: Ascending to the highest slopes of low mountains, or most normal travel through high mountains, falls into this category. All non-acclimated creatures labor to breathe in the thin air at this altitude. Characters must succeed on a [Fortitude](combat#_fortitude) save each hour (DC 15, +1 per previous check) or be [fatigued](glossary#_fatigued). The fatigue ends when the character descends to an altitude with more air. Acclimated characters do not have to attempt the [Fortitude](combat#_fortitude) save.
 
-_High Peak (more than 15,000 feet)_: The highest mountains exceed 15,000 feet in height. At these elevations, creatures are subject to both high altitude fatigue (as described above) and altitude sickness, whether or not they're acclimated to high altitudes_. _Altitude sickness represents long-term oxygen deprivation, and affects mental and physical ability scores. After each 6-hour period a character spends at an altitude of over 15,000 feet, he must succeed on a [Fortitude](combat.md#_fortitude) save (DC 15, +1 per previous check) or take 1 point of damage to all ability scores. Creatures acclimated to high altitude receive a +4 competence bonus on their saving throws to resist high altitude effects and altitude sickness, but eventually even seasoned mountaineers must abandon these dangerous elevations.
+_High Peak (more than 15,000 feet)_: The highest mountains exceed 15,000 feet in height. At these elevations, creatures are subject to both high altitude fatigue (as described above) and altitude sickness, whether or not they're acclimated to high altitudes_. _Altitude sickness represents long-term oxygen deprivation, and affects mental and physical ability scores. After each 6-hour period a character spends at an altitude of over 15,000 feet, he must succeed on a [Fortitude](combat#_fortitude) save (DC 15, +1 per previous check) or take 1 point of damage to all ability scores. Creatures acclimated to high altitude receive a +4 competence bonus on their saving throws to resist high altitude effects and altitude sickness, but eventually even seasoned mountaineers must abandon these dangerous elevations.
 
 ## Desert Terrain
 
@@ -1133,7 +1133,7 @@ _Swept Away_: Characters swept away by a river moving 60 feet per round or faste
 
 It's hard to find cover or concealment to hide underwater (except along the sea floor).
 
-_Invisibility_: An [invisible](glossary.md#_invisible) creature displaces water and leaves a visible, body-shaped “bubble” where the water was displaced. The creature still has concealment (20% miss chance), but not total concealment (50% miss chance).
+_Invisibility_: An [invisible](glossary#_invisible) creature displaces water and leaves a visible, body-shaped “bubble” where the water was displaced. The creature still has concealment (20% miss chance), but not total concealment (50% miss chance).
 
 ### Underwater Combat
 
@@ -1152,7 +1152,7 @@ Land-based creatures can have considerable difficulty when fighting in water. Wa
 
 **Ranged Attacks Underwater** : Thrown weapons are ineffective underwater, even when launched from land. Attacks with other ranged weapons take a –2 penalty on attack rolls for every 5 feet of water they pass through, in addition to the normal penalties for range.
 
-**Attacks from Land** : Characters swimming, floating, or treading water on the surface, or wading in water at least chest deep, have improved cover (+8 bonus to [AC](combat.md#_armor-class), +4 bonus on [Reflex](combat.md#_reflex) saves) from opponents on land. Land-bound opponents who have _freedom of movement _effects ignore this cover when making melee attacks against targets in the water. A completely submerged creature has total cover against opponents on land unless those opponents have _freedom of movement _effects. Magical effects are unaffected except for those that require attack rolls (which are treated like any other effects) and fire effects.
+**Attacks from Land** : Characters swimming, floating, or treading water on the surface, or wading in water at least chest deep, have improved cover (+8 bonus to [AC](combat#_armor-class), +4 bonus on [Reflex](combat#_reflex) saves) from opponents on land. Land-bound opponents who have _freedom of movement _effects ignore this cover when making melee attacks against targets in the water. A completely submerged creature has total cover against opponents on land unless those opponents have _freedom of movement _effects. Magical effects are unaffected except for those that require attack rolls (which are treated like any other effects) and fire effects.
 
 **Fire** : Nonmagical fire (including alchemist's fire) does not burn underwater. Spells or spell-like effects with the fire descriptor are ineffective underwater unless the caster makes a caster level check (DC 20 + spell level). If the check succeeds, the spell creates a bubble of steam instead of its usual fiery effect, but otherwise the spell works as described. A supernatural fire effect is ineffective underwater unless its description states otherwise. The surface of a body of water blocks line of effect for any fire spell. If the caster has made the caster level check to make the fire spell usable underwater, the surface still blocks the spell's line of effect.
 
@@ -1188,11 +1188,11 @@ Walls, doors, poor lighting, and uneven footing: in many ways a city is much lik
 
 ### Walls and Gates
 
-Many cities are surrounded by walls. A typical small city wall is a fortified stone wall 5 feet thick and 20 feet high. Such a wall is fairly smooth, requiring a DC 30 Climb check to scale. The walls are crenellated on one side to provide a low wall for the guards atop it, and there is just barely room for guards to walk along the top of the wall. A typical small city wall has [AC](combat.md#_armor-class) 3, hardness 8, and 450 hp per 10-foot section.
+Many cities are surrounded by walls. A typical small city wall is a fortified stone wall 5 feet thick and 20 feet high. Such a wall is fairly smooth, requiring a DC 30 Climb check to scale. The walls are crenellated on one side to provide a low wall for the guards atop it, and there is just barely room for guards to walk along the top of the wall. A typical small city wall has [AC](combat#_armor-class) 3, hardness 8, and 450 hp per 10-foot section.
 
-A typical large city wall is 10 feet thick and 30 feet high, with crenellations on both sides for the guards on top of the wall. It is likewise smooth, requiring a DC 30 Climb check to scale. Such a wall has [AC](combat.md#_armor-class) 3, hardness 8, and 720 hp per 10-foot section.
+A typical large city wall is 10 feet thick and 30 feet high, with crenellations on both sides for the guards on top of the wall. It is likewise smooth, requiring a DC 30 Climb check to scale. Such a wall has [AC](combat#_armor-class) 3, hardness 8, and 720 hp per 10-foot section.
 
-A typical metropolis wall is 15 feet thick and 40 feet tall. It has crenellations on both sides and often has a tunnel and small rooms running through its interior. Metropolis walls have [AC](combat.md#_armor-class) 3, hardness 8, and 1,170 hp per 10-foot section.
+A typical metropolis wall is 15 feet thick and 40 feet tall. It has crenellations on both sides and often has a tunnel and small rooms running through its interior. Metropolis walls have [AC](combat#_armor-class) 3, hardness 8, and 1,170 hp per 10-foot section.
 
 Unlike smaller cities, metropolises often have interior walls as well as surrounding walls—either old walls that the city has outgrown, or walls dividing individual districts from each other. Sometimes these walls are as large and thick as the outer walls, but more often they have the characteristics of a large city's or small city's walls.
 
@@ -1234,9 +1234,9 @@ Siege engines are large weapons, temporary structures, or pieces of equipment tr
 | Successive shots (crew can see where most recent misses landed) | Cumulative +2 per previous miss (maximum +10) |
 | Successive shots (crew can't see where most recent misses landed, but observer is providing feedback) | Cumulative +1 per previous miss (maximum +5) |
 
-Siege engines are treated as difficult devices if someone tries to disable them using Disable Device. This takes 2d4 rounds and requires a DC 20 Disable Device check. Siege engines are typically made out of wood and have an [AC](combat.md#_armor-class) of 3 (–5 [Dex](gettingStarted.md#_dexterity), –2 size), a Hardness of 5, and 80 hit points. Siege engines made up of a different material might have different values. Some siege engines are armored as well. Treat the siege engine as a Huge creature to determine the cost of such armor. Siege engines can be crafted as masterwork and enchanted as magic weapons, adding bonuses on attack rolls to the checks made to hit with the siege engine. A masterwork siege engine costs 300 gp more than the listed price. Enchanting a siege engine costs twice the normal amount. For example, a _+1 flaming heavy catapult_, armored with full plate, would have an [AC](combat.md#_armor-class) of 11 and would cost 23,100 gp (800 gp base + 6,000 gp for the armor + 300 gp masterwork + 16,000 gp for the enhancements).
+Siege engines are treated as difficult devices if someone tries to disable them using Disable Device. This takes 2d4 rounds and requires a DC 20 Disable Device check. Siege engines are typically made out of wood and have an [AC](combat#_armor-class) of 3 (–5 [Dex](gettingStarted#_dexterity), –2 size), a Hardness of 5, and 80 hit points. Siege engines made up of a different material might have different values. Some siege engines are armored as well. Treat the siege engine as a Huge creature to determine the cost of such armor. Siege engines can be crafted as masterwork and enchanted as magic weapons, adding bonuses on attack rolls to the checks made to hit with the siege engine. A masterwork siege engine costs 300 gp more than the listed price. Enchanting a siege engine costs twice the normal amount. For example, a _+1 flaming heavy catapult_, armored with full plate, would have an [AC](combat#_armor-class) of 11 and would cost 23,100 gp (800 gp base + 6,000 gp for the armor + 300 gp masterwork + 16,000 gp for the enhancements).
 
-**Catapult, Heavy** : A heavy catapult is a massive engine capable of throwing rocks or heavy objects with great force. Because the catapult throws its payload in a high arc, it can hit squares out of its line of sight. To fire a heavy catapult, the crew chief makes a special check against DC 15 using only his base attack bonus, [Intelligence](gettingStarted.md#_intelligence) modifier, range increment penalty, and the appropriate modifiers from the lower section of Table: Siege Engines. If the check succeeds, the catapult stone hits the square the catapult was aimed at, dealing the indicated damage to any object or character in the square. Characters who succeed on a DC 15 [Reflex](combat.md#_reflex) save take half damage. Once a catapult stone hits a square, subsequent shots hit the same square unless the catapult is reaimed or the wind changes direction or speed.
+**Catapult, Heavy** : A heavy catapult is a massive engine capable of throwing rocks or heavy objects with great force. Because the catapult throws its payload in a high arc, it can hit squares out of its line of sight. To fire a heavy catapult, the crew chief makes a special check against DC 15 using only his base attack bonus, [Intelligence](gettingStarted#_intelligence) modifier, range increment penalty, and the appropriate modifiers from the lower section of Table: Siege Engines. If the check succeeds, the catapult stone hits the square the catapult was aimed at, dealing the indicated damage to any object or character in the square. Characters who succeed on a DC 15 [Reflex](combat#_reflex) save take half damage. Once a catapult stone hits a square, subsequent shots hit the same square unless the catapult is reaimed or the wind changes direction or speed.
 
 If a catapult stone misses, roll 1d8 to determine where it lands. This determines the misdirection of the throw, with 1 being back toward the catapult and 2 through 8 counting clockwise around the target square. Finally, count 1d4 squares away from the target square for every range increment of the attack.
 
@@ -1252,7 +1252,7 @@ A light catapult takes up a space 10 feet across.
 
 A ballista takes up a space 5 feet across.
 
-**Ram** : This heavy pole is sometimes suspended from a movable scaffold that allows the crew to swing it back and forth against objects. As a full-round action, the character closest to the front of the ram makes an attack roll against the [AC](combat.md#_armor-class) of the construction, applying the –4 penalty for lack of proficiency. It's not possible to be proficient with this device. In addition to the damage given on Table: Siege Engines, up to nine other characters holding the ram can add their Strength modifiers to the ram's damage, if they devote an attack action to doing so. It takes at least one Huge or larger creature, two Large creatures, four Medium creatures, or eight Small creatures to swing a ram.
+**Ram** : This heavy pole is sometimes suspended from a movable scaffold that allows the crew to swing it back and forth against objects. As a full-round action, the character closest to the front of the ram makes an attack roll against the [AC](combat#_armor-class) of the construction, applying the –4 penalty for lack of proficiency. It's not possible to be proficient with this device. In addition to the damage given on Table: Siege Engines, up to nine other characters holding the ram can add their Strength modifiers to the ram's damage, if they devote an attack action to doing so. It takes at least one Huge or larger creature, two Large creatures, four Medium creatures, or eight Small creatures to swing a ram.
 
 A ram is typically 30 feet long. In a battle, the creatures wielding the ram stand in two adjacent columns of equal length, with the ram between them.
 
@@ -1266,7 +1266,7 @@ Typical city streets are narrow and twisting. Most streets average 15 to 20 feet
 
 Some cities have no larger thoroughfares, particularly cities that gradually grew from small settlements to larger cities. Cities that are planned, or perhaps have suffered a major fire that allowed authorities to construct new roads through formerly inhabited areas, might have a few larger streets through town. These main roads are 25 feet wide—offering room for wagons to pass each other—with 5-foot-wide sidewalks on either side.
 
-**Crowds** : Urban streets are often full of people going about their daily lives. In most cases, it isn't necessary to put every 1st-level commoner on the map when a fight breaks out on the city's main thoroughfare. Instead, just indicate which squares on the map contain crowds. If crowds see something obviously dangerous, they'll move away at 30 feet per round at initiative count 0. It takes 2 squares of movement to enter a square with crowds. The crowds provide cover for anyone who does so, enabling a Stealth check and providing a bonus to [Armor Class](combat.md#_armor-class) and on [Reflex](combat.md#_reflex) saves.
+**Crowds** : Urban streets are often full of people going about their daily lives. In most cases, it isn't necessary to put every 1st-level commoner on the map when a fight breaks out on the city's main thoroughfare. Instead, just indicate which squares on the map contain crowds. If crowds see something obviously dangerous, they'll move away at 30 feet per round at initiative count 0. It takes 2 squares of movement to enter a square with crowds. The crowds provide cover for anyone who does so, enabling a Stealth check and providing a bonus to [Armor Class](combat#_armor-class) and on [Reflex](combat#_reflex) saves.
 
 _Directing Crowds_: It takes a DC 15 Diplomacy check or DC 20 Intimidate check to convince a crowd to move in a particular direction, and the crowd must be able to hear or see the character making the attempt. It takes a full-round action to make the Diplomacy check, but only a free action to make the Intimidate check.
 
@@ -1288,7 +1288,7 @@ Inns, successful businesses, and large warehouses—as well as millers, tanners,
 
 Finally, small residences, shops, warehouses, or storage sheds are simple, one-story wooden buildings, especially if they're in poorer neighborhoods.
 
-Most city buildings are made of a combination of stone or clay brick (on the lower one or two stories) and timbers (for the upper stories, interior walls, and floors). Roofs are a mixture of boards, thatch, and slates, sealed with pitch. A typical lower-story wall is 1 foot thick, with [AC](combat.md#_armor-class) 3, hardness 8, 90 hp, and a Climb DC of 25. Upper-story walls are 6 inches thick, with [AC](combat.md#_armor-class) 3, hardness 5, 60 hp, and a Climb DC of 21. Exterior doors on most buildings are good wooden doors that are usually kept locked, except on public buildings such as shops and taverns.
+Most city buildings are made of a combination of stone or clay brick (on the lower one or two stories) and timbers (for the upper stories, interior walls, and floors). Roofs are a mixture of boards, thatch, and slates, sealed with pitch. A typical lower-story wall is 1 foot thick, with [AC](combat#_armor-class) 3, hardness 8, 90 hp, and a Climb DC of 25. Upper-story walls are 6 inches thick, with [AC](combat#_armor-class) 3, hardness 5, 60 hp, and a Climb DC of 21. Exterior doors on most buildings are good wooden doors that are usually kept locked, except on public buildings such as shops and taverns.
 
 ### City Lights
 
@@ -1357,13 +1357,13 @@ _Hail_: Hail does not reduce visibility, but the sound of falling hail makes sou
 
 The combined effects of precipitation (or dust) and wind that accompany all storms reduce visibility ranges by three-quarters, imposing a –8 penalty on Perception checks. Storms make ranged weapon attacks impossible, except for those using siege weapons, which have a –4 penalty on attack rolls. They automatically extinguish candles, torches, and similar unprotected flames. They cause protected flames, such as those of lanterns, to dance wildly and have a 50% chance to extinguish these lights. See Table: Wind Effects for possible consequences to creatures caught outside without shelter during such a storm. Storms are divided into the following three types.
 
-_Duststorm (CR 3)_: These desert storms differ from other storms in that they have no precipitation. Instead, a duststorm blows fine grains of sand that obscure vision, smother unprotected flames, and can even choke protected flames (50% chance). Most duststorms are accompanied by severe winds and leave behind a deposit of 1d6 inches of sand. There is a 10% chance for a greater duststorm to be accompanied by windstorm-magnitude winds (see Table: Wind Effects). These greater duststorms deal 1d3 points of nonlethal damage each round to anyone caught out in the open without shelter and also pose a choking hazard (see Drowning, except that a character with a scarf or similar protection across her mouth and nose does not begin to choke until after a number of rounds equal to 10 + her [Constitution](gettingStarted.md#_constitution) score). Greater duststorms leave 2d3–1 feet of fine sand in their wake.
+_Duststorm (CR 3)_: These desert storms differ from other storms in that they have no precipitation. Instead, a duststorm blows fine grains of sand that obscure vision, smother unprotected flames, and can even choke protected flames (50% chance). Most duststorms are accompanied by severe winds and leave behind a deposit of 1d6 inches of sand. There is a 10% chance for a greater duststorm to be accompanied by windstorm-magnitude winds (see Table: Wind Effects). These greater duststorms deal 1d3 points of nonlethal damage each round to anyone caught out in the open without shelter and also pose a choking hazard (see Drowning, except that a character with a scarf or similar protection across her mouth and nose does not begin to choke until after a number of rounds equal to 10 + her [Constitution](gettingStarted#_constitution) score). Greater duststorms leave 2d3–1 feet of fine sand in their wake.
 
 _Snowstorm_: In addition to the wind and precipitation common to other storms, snowstorms leave 1d6 inches of snow on the ground afterward.
 
 _Thunderstorm_: In addition to wind and precipitation (usually rain, but sometimes also hail), thunderstorms are accompanied by lightning that can pose a hazard to characters without proper shelter (especially those in metal armor). As a rule of thumb, assume one bolt per minute for a 1-hour period at the center of the storm. Each bolt causes between 4d8 and 10d8 points of electricity damage. One in 10 thunderstorms is accompanied by a tornado.
 
-**Powerful Storms** : Very high winds and torrential precipitation reduce visibility to zero, making Perception checks and all ranged weapon attacks impossible. Unprotected flames are automatically extinguished, and protected flames have a 75% chance of being doused. Creatures caught in the area must make a [Fortitude](combat.md#_fortitude) save or face the effects based on the size of the creature (see Table: Wind Effects). Powerful storms are divided into the following four types.
+**Powerful Storms** : Very high winds and torrential precipitation reduce visibility to zero, making Perception checks and all ranged weapon attacks impossible. Unprotected flames are automatically extinguished, and protected flames have a 75% chance of being doused. Creatures caught in the area must make a [Fortitude](combat#_fortitude) save or face the effects based on the size of the creature (see Table: Wind Effects). Powerful storms are divided into the following four types.
 
 _Windstorm_: While accompanied by little or no precipitation, windstorms can cause considerable damage simply through the force of their winds.
 
@@ -1404,7 +1404,7 @@ _Windstorm_: Powerful enough to bring down branches if not whole trees, windstor
 
 _Hurricane-Force Wind_: All flames are extinguished. Ranged attacks are impossible (except with siege weapons, which have a –8 penalty on attack rolls). Perception checks based on sound are impossible: all characters can hear is the roaring of the wind. Hurricane-force winds often fell trees.
 
-_Tornado (CR 10)_: All flames are extinguished. All ranged attacks are impossible (even with siege weapons), as are sound-based Perception checks. Instead of being blown away (see Table: Wind Effects), characters in close proximity to a tornado who fail their [Fortitude](combat.md#_fortitude) saves are sucked toward the tornado. Those who come in contact with the actual funnel cloud are picked up and whirled around for 1d10 rounds, taking 6d6 points of damage per round, before being violently expelled (falling damage might apply). While a tornado's rotational speed can be as great as 300 mph, the funnel itself moves forward at an average of 30 mph (roughly 250 feet per round). A tornado uproots trees, destroys buildings, and causes similar forms of major destruction.
+_Tornado (CR 10)_: All flames are extinguished. All ranged attacks are impossible (even with siege weapons), as are sound-based Perception checks. Instead of being blown away (see Table: Wind Effects), characters in close proximity to a tornado who fail their [Fortitude](combat#_fortitude) saves are sucked toward the tornado. Those who come in contact with the actual funnel cloud are picked up and whirled around for 1d10 rounds, taking 6d6 points of damage per round, before being violently expelled (falling damage might apply). While a tornado's rotational speed can be as great as 300 mph, the funnel itself moves forward at an average of 30 mph (roughly 250 feet per round). A tornado uproots trees, destroys buildings, and causes similar forms of major destruction.
 
 # The Planes
 
@@ -1454,7 +1454,7 @@ Environmental hazards specific to one kind of terrain are described in the Wilde
 
 Corrosive acids deals 1d6 points of damage per round of exposure except in the case of total immersion (such as in a vat of acid), which deals 10d6 points of damage per round. An attack with acid, such as from a hurled vial or a monster's spittle, counts as a round of exposure.
 
-The fumes from most acids are inhaled poisons. Those who are adjacent to a large body of acid must make a DC 13 [Fortitude](combat.md#_fortitude) save or take 1 point of [Constitution](gettingStarted.md#_constitution) damage each round. This poison does not have a frequency, a creature is safe as soon as it moves away from the acid.
+The fumes from most acids are inhaled poisons. Those who are adjacent to a large body of acid must make a DC 13 [Fortitude](combat#_fortitude) save or take 1 point of [Constitution](gettingStarted#_constitution) damage each round. This poison does not have a frequency, a creature is safe as soon as it moves away from the acid.
 
 Creatures immune to acid's caustic properties might still drown in it if they are totally immersed (see Drowning).
 
@@ -1462,13 +1462,13 @@ Creatures immune to acid's caustic properties might still drown in it if they ar
 
 Cold and exposure deal nonlethal damage to the victim. A character cannot recover from the damage dealt by a cold environment until she gets out of the cold and warms up again. Once a character has taken an amount of nonlethal damage equal to her total hit points, any further damage from a cold environment is lethal damage.
 
-An unprotected character in cold weather (below 40° F)must make a [Fortitude](combat.md#_fortitude) save each hour (DC 15, +1 per previous check) or take 1d6 points of nonlethal damage. A character who has the Survival skill may receive a bonus on this saving throw and might be able to apply this bonus to other characters as well (see the skill description).
+An unprotected character in cold weather (below 40° F)must make a [Fortitude](combat#_fortitude) save each hour (DC 15, +1 per previous check) or take 1d6 points of nonlethal damage. A character who has the Survival skill may receive a bonus on this saving throw and might be able to apply this bonus to other characters as well (see the skill description).
 
-In conditions of severe cold or exposure (below 0° F), an unprotected character must make a [Fortitude](combat.md#_fortitude) save once every 10 minutes (DC 15, +1 per previous check), taking 1d6 points of nonlethal damage on each failed save. A character who has the Survival skill may receive a bonus on this saving throw and might be able to apply this bonus to other characters as well. Characters wearing a cold weather outfit only need check once per hour for cold and exposure damage.
+In conditions of severe cold or exposure (below 0° F), an unprotected character must make a [Fortitude](combat#_fortitude) save once every 10 minutes (DC 15, +1 per previous check), taking 1d6 points of nonlethal damage on each failed save. A character who has the Survival skill may receive a bonus on this saving throw and might be able to apply this bonus to other characters as well. Characters wearing a cold weather outfit only need check once per hour for cold and exposure damage.
 
-A character who takes any nonlethal damage from cold or exposure is beset by frostbite or hypothermia (treat her as [fatigued](glossary.md#_fatigued)). These penalties end when the character recovers the nonlethal damage she took from the cold and exposure.
+A character who takes any nonlethal damage from cold or exposure is beset by frostbite or hypothermia (treat her as [fatigued](glossary#_fatigued)). These penalties end when the character recovers the nonlethal damage she took from the cold and exposure.
 
-Extreme cold (below –20° F) deals 1d6 points of lethal damage per minute (no save). In addition, a character must make a [Fortitude](combat.md#_fortitude) save (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage.
+Extreme cold (below –20° F) deals 1d6 points of lethal damage per minute (no save). In addition, a character must make a [Fortitude](combat#_fortitude) save (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage.
 
 ### Ice Effects
 
@@ -1482,13 +1482,13 @@ In many cases, some characters or monsters might be able to see while others are
 
 Creatures blinded by darkness lose the ability to deal extra damage due to precision (for example, via sneak attack or a duelist's precise strike ability).
 
-Blind creatures must make a DC 10 Acrobatics skill check to move faster than half speed. Creatures that fail this check fall [prone](glossary.md#_prone). Blinded creatures can't run or charge.
+Blind creatures must make a DC 10 Acrobatics skill check to move faster than half speed. Creatures that fail this check fall [prone](glossary#_prone). Blinded creatures can't run or charge.
 
 All opponents have total concealment from a blinded creature, so the blinded creature has a 50% miss chance in combat. A blinded creature must first pinpoint the location of an opponent in order to attack the right square; if the blinded creature launches an attack without pinpointing its foe, it attacks a random square within its reach. For ranged attacks or spells against a foe whose location is not pinpointed, roll to determine which adjacent square the blinded creature is facing; its attack is directed at the closest target that lies in that direction.
 
-A blinded creature loses its [Dexterity](gettingStarted.md#_dexterity) modifier to [AC](combat.md#_armor-class) (if positive) and takes a –2 penalty to [AC](combat.md#_armor-class).
+A blinded creature loses its [Dexterity](gettingStarted#_dexterity) modifier to [AC](combat#_armor-class) (if positive) and takes a –2 penalty to [AC](combat#_armor-class).
 
-A blinded creature takes a –4 penalty on Perception checks and most Strength- and [Dexterity](gettingStarted.md#_dexterity)-based skill checks, including any with an armor check penalty. A creature blinded by darkness automatically fails any skill check relying on vision.
+A blinded creature takes a –4 penalty on Perception checks and most Strength- and [Dexterity](gettingStarted#_dexterity)-based skill checks, including any with an armor check penalty. A creature blinded by darkness automatically fails any skill check relying on vision.
 
 Creatures blinded by darkness cannot use gaze attacks and are immune to gaze attacks.
 
@@ -1502,7 +1502,7 @@ A creature with the scent ability automatically pinpoints unseen creatures withi
 
 ## Falling
 
-Creatures that fall take 1d6 points of damage per 10 feet fallen, to a maximum of 20d6. Creatures that take lethal damage from a fall land in a [prone](glossary.md#_prone) position.
+Creatures that fall take 1d6 points of damage per 10 feet fallen, to a maximum of 20d6. Creatures that take lethal damage from a fall land in a [prone](glossary#_prone) position.
 
 If a character deliberately jumps instead of merely slipping or falling, the damage is the same but the first 1d6 is nonlethal damage. A DC 15 Acrobatics check allows the character to avoid any damage from the first 10 feet fallen and converts any damage from the second 10 feet to nonlethal damage. Thus, a character who slips from a ledge 30 feet up takes 3d6 damage. If the same character deliberately jumps, he takes 1d6 points of nonlethal damage and 2d6 points of lethal damage. And if the character leaps down with a successful Acrobatics check, he takes only 1d6 points of nonlethal damage and 1d6 points of lethal damage from the plunge.
 
@@ -1530,19 +1530,19 @@ Just as characters take damage when they fall more than 10 feet, so too do they 
 
 Objects that fall upon characters deal damage based on their size and the distance they have fallen. Table: Damage from Falling Objects determines the amount of damage dealt by an object based on its size. Note that this assumes that the object is made of dense, heavy material, such as stone. Objects made of lighter materials might deal as little as half the listed damage, subject to GM discretion. For example, a Huge boulder that hits a character deals 6d6 points of damage, whereas a Huge wooden wagon might deal only 3d6 damage. In addition, if an object falls less than 30 feet, it deals half the listed damage. If an object falls more than 150 feet, it deals double the listed damage. Note that a falling object takes the same amount of damage as it deals.
 
-Dropping an object on a creature requires a ranged touch attack. Such attacks generally have a range increment of 20 feet. If an object falls on a creature (instead of being thrown), that creature can make a DC 15 [Reflex](combat.md#_reflex) save to halve the damage if he is aware of the object. Falling objects that are part of a trap use the trap rules instead of these general guidelines.
+Dropping an object on a creature requires a ranged touch attack. Such attacks generally have a range increment of 20 feet. If an object falls on a creature (instead of being thrown), that creature can make a DC 15 [Reflex](combat#_reflex) save to halve the damage if he is aware of the object. Falling objects that are part of a trap use the trap rules instead of these general guidelines.
 
 ## Heat Dangers
 
 Heat deals nonlethal damage that cannot be recovered from until the character gets cooled off (reaches shade, survives until nightfall, gets doused in water, is targeted by _endure elements_, and so forth). Once a character has taken an amount of nonlethal damage equal to her total hit points, any further damage from a hot environment is lethal damage.
 
-A character in very hot conditions (above 90° F) must make a [Fortitude](combat.md#_fortitude) saving throw each hour (DC 15, +1 for each previous check) or take 1d4 points of nonlethal damage. Characters wearing heavy clothing or armor of any sort take a –4 penalty on their saves. A character with the Survival skill may receive a bonus on this saving throw and might be able to apply this bonus to other characters as well (see the skill description). Characters reduced to unconsciousness begin taking lethal damage (1d4 points per hour).
+A character in very hot conditions (above 90° F) must make a [Fortitude](combat#_fortitude) saving throw each hour (DC 15, +1 for each previous check) or take 1d4 points of nonlethal damage. Characters wearing heavy clothing or armor of any sort take a –4 penalty on their saves. A character with the Survival skill may receive a bonus on this saving throw and might be able to apply this bonus to other characters as well (see the skill description). Characters reduced to unconsciousness begin taking lethal damage (1d4 points per hour).
 
-In severe heat (above 110° F), a character must make a [Fortitude](combat.md#_fortitude) save once every 10 minutes (DC 15, +1 for each previous check) or take 1d4 points of nonlethal damage. Characters wearing heavy clothing or armor of any sort take a –4 penalty on their saves. A character with the Survival skill may receive a bonus on this saving throw and might be able to apply this bonus to other characters as well (see the Survival skill in [Using Skills](usingSkills.md)). Characters reduced to unconsciousness begin taking lethal damage (1d4 points per each 10-minute period).
+In severe heat (above 110° F), a character must make a [Fortitude](combat#_fortitude) save once every 10 minutes (DC 15, +1 for each previous check) or take 1d4 points of nonlethal damage. Characters wearing heavy clothing or armor of any sort take a –4 penalty on their saves. A character with the Survival skill may receive a bonus on this saving throw and might be able to apply this bonus to other characters as well (see the Survival skill in [Using Skills](usingSkills)). Characters reduced to unconsciousness begin taking lethal damage (1d4 points per each 10-minute period).
 
-A character who takes any nonlethal damage from heat exposure now suffers from heatstroke and is [fatigued](glossary.md#_fatigued). These penalties end when the character recovers from the nonlethal damage she took from the heat.
+A character who takes any nonlethal damage from heat exposure now suffers from heatstroke and is [fatigued](glossary#_fatigued). These penalties end when the character recovers from the nonlethal damage she took from the heat.
 
-Extreme heat (air temperature over 140° F, fire, boiling water, lava) deals lethal damage. Breathing air in these temperatures deals 1d6 points of fire damage per minute (no save). In addition, a character must make a [Fortitude](combat.md#_fortitude) save every 5 minutes (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage. Those wearing heavy clothing or any sort of armor take a –4 penalty on their saves.
+Extreme heat (air temperature over 140° F, fire, boiling water, lava) deals lethal damage. Breathing air in these temperatures deals 1d6 points of fire damage per minute (no save). In addition, a character must make a [Fortitude](combat#_fortitude) save every 5 minutes (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage. Those wearing heavy clothing or any sort of armor take a –4 penalty on their saves.
 
 Boiling water deals 1d6 points of scalding damage, unless the character is fully immersed, in which case it deals 10d6 points of damage per round of exposure.
 
@@ -1550,11 +1550,11 @@ Boiling water deals 1d6 points of scalding damage, unless the character is fully
 
 Characters exposed to burning oil, bonfires, and non-instantaneous magic fires might find their clothes, hair, or equipment on fire. Spells with an instantaneous duration don't normally set a character on fire, since the heat and flame from these come and go in a flash.
 
-Characters at risk of catching fire are allowed a DC 15 [Reflex](combat.md#_reflex) save to avoid this fate. If a character's clothes or hair catch fire, he takes 1d6 points of damage immediately. In each subsequent round, the burning character must make another [Reflex](combat.md#_reflex) saving throw. Failure means he takes another 1d6 points of damage that round. Success means that the fire has gone out—that is, once he succeeds on his saving throw, he's no longer on fire.
+Characters at risk of catching fire are allowed a DC 15 [Reflex](combat#_reflex) save to avoid this fate. If a character's clothes or hair catch fire, he takes 1d6 points of damage immediately. In each subsequent round, the burning character must make another [Reflex](combat#_reflex) saving throw. Failure means he takes another 1d6 points of damage that round. Success means that the fire has gone out—that is, once he succeeds on his saving throw, he's no longer on fire.
 
 A character on fire may automatically extinguish the flames by jumping into enough water to douse himself. If no body of water is at hand, rolling on the ground or smothering the fire with cloaks or the like permits the character another save with a +4 bonus.
 
-Those whose clothes or equipment catch fire must make DC 15 [Reflex](combat.md#_reflex) saves for each item. Flammable items that fail take the same amount of damage as the character.
+Those whose clothes or equipment catch fire must make DC 15 [Reflex](combat#_reflex) saves for each item. Flammable items that fail take the same amount of damage as the character.
 
 ### Lava Effects
 
@@ -1564,25 +1564,25 @@ Damage from lava continues for 1d3 rounds after exposure ceases, but this additi
 
 ## Smoke Effects
 
-A character who breathes heavy smoke must make a [Fortitude](combat.md#_fortitude) save each round (DC 15, +1 per previous check) or spend that round choking and coughing. A character who chokes for 2 consecutive rounds takes 1d6 points of nonlethal damage. Smoke obscures vision, giving concealment (20% miss chance) to characters within it.
+A character who breathes heavy smoke must make a [Fortitude](combat#_fortitude) save each round (DC 15, +1 per previous check) or spend that round choking and coughing. A character who chokes for 2 consecutive rounds takes 1d6 points of nonlethal damage. Smoke obscures vision, giving concealment (20% miss chance) to characters within it.
 
 ## Starvation and Thirst
 
 Characters might find themselves without food or water and with no means to obtain them. In normal climates, Medium characters need at least a gallon of fluids and about a pound of decent food per day to avoid starvation. (Small characters need half as much.) In very hot climates, characters need two or three times as much water to avoid dehydration.
 
-A character can go without water for 1 day plus a number of hours equal to his [Constitution](gettingStarted.md#_constitution) score. After this time, the character must make a [Constitution](gettingStarted.md#_constitution) check each hour (DC 10, +1 for each previous check) or take 1d6 points of nonlethal damage. Characters that take an amount of nonlethal damage equal to their total hit points begin to take lethal damage instead.
+A character can go without water for 1 day plus a number of hours equal to his [Constitution](gettingStarted#_constitution) score. After this time, the character must make a [Constitution](gettingStarted#_constitution) check each hour (DC 10, +1 for each previous check) or take 1d6 points of nonlethal damage. Characters that take an amount of nonlethal damage equal to their total hit points begin to take lethal damage instead.
 
-A character can go without food for 3 days, in growing discomfort. After this time, the character must make a [Constitution](gettingStarted.md#_constitution) check each day (DC 10, +1 for each previous check) or take 1d6 points of nonlethal damage. Characters that take an amount of nonlethal damage equal to their total hit points begin to take lethal damage instead.
+A character can go without food for 3 days, in growing discomfort. After this time, the character must make a [Constitution](gettingStarted#_constitution) check each day (DC 10, +1 for each previous check) or take 1d6 points of nonlethal damage. Characters that take an amount of nonlethal damage equal to their total hit points begin to take lethal damage instead.
 
-Characters who have taken nonlethal damage from lack of food or water are [fatigued](glossary.md#_fatigued). Nonlethal damage from thirst or starvation cannot be recovered until the character gets food or water, as needed—not even magic that restores hit points heals this damage.
+Characters who have taken nonlethal damage from lack of food or water are [fatigued](glossary#_fatigued). Nonlethal damage from thirst or starvation cannot be recovered until the character gets food or water, as needed—not even magic that restores hit points heals this damage.
 
 ## Suffocation
 
-A character who has no air to breathe can hold her breath for 2 rounds per point of [Constitution](gettingStarted.md#_constitution). If a character takes a standard or full-round action, the remaining duration that the character can hold her breath is reduced by 1 round. After this period of time, the character must make a DC 10 [Constitution](gettingStarted.md#_constitution) check in order to continue holding her breath. The check must be repeated each round, with the DC increasing by +1 for each previous success.
+A character who has no air to breathe can hold her breath for 2 rounds per point of [Constitution](gettingStarted#_constitution). If a character takes a standard or full-round action, the remaining duration that the character can hold her breath is reduced by 1 round. After this period of time, the character must make a DC 10 [Constitution](gettingStarted#_constitution) check in order to continue holding her breath. The check must be repeated each round, with the DC increasing by +1 for each previous success.
 
-When the character fails one of these [Constitution](gettingStarted.md#_constitution) checks, she begins to suffocate. In the first round, she falls [unconscious](glossary.md#_unconscious) (0 hit points). In the following round, she drops to –1 hit points and is [dying](glossary.md#_dying). In the third round, she suffocates.
+When the character fails one of these [Constitution](gettingStarted#_constitution) checks, she begins to suffocate. In the first round, she falls [unconscious](glossary#_unconscious) (0 hit points). In the following round, she drops to –1 hit points and is [dying](glossary#_dying). In the third round, she suffocates.
 
-**Slow Suffocation** : A Medium character can breathe easily for 6 hours in a sealed chamber measuring 10 feet on a side. After that time, the character takes 1d6 points of nonlethal damage every 15 minutes. Each additional Medium character or significant fire source (a torch, for example) proportionally reduces the time the air will last. Once rendered [unconscious](glossary.md#_unconscious) through the accumulation of nonlethal damage, the character begins to take lethal damage at the same rate. Small characters consume half as much air as Medium characters.
+**Slow Suffocation** : A Medium character can breathe easily for 6 hours in a sealed chamber measuring 10 feet on a side. After that time, the character takes 1d6 points of nonlethal damage every 15 minutes. Each additional Medium character or significant fire source (a torch, for example) proportionally reduces the time the air will last. Once rendered [unconscious](glossary#_unconscious) through the accumulation of nonlethal damage, the character begins to take lethal damage at the same rate. Small characters consume half as much air as Medium characters.
 
 ## Water Dangers
 
@@ -1590,15 +1590,15 @@ Any character can wade in relatively calm water that isn't over his head, no che
 
 By contrast, fast-moving water is much more dangerous. Characters must make a successful DC 15 Swim check or a DC 15 Strength check to avoid going under. On a failed check, the character takes 1d3 points of nonlethal damage per round (1d6 points of lethal damage if flowing over rocks and cascades).
 
-Very deep water is not only generally pitch black, posing a navigational hazard, but worse, deals water pressure damage of 1d6 points per minute for every 100 feet the character is below the surface. A successful [Fortitude](combat.md#_fortitude) save (DC 15, +1 for each previous check) means the diver takes no damage in that minute. Very cold water deals 1d6 points of nonlethal damage from hypothermia per minute of exposure.
+Very deep water is not only generally pitch black, posing a navigational hazard, but worse, deals water pressure damage of 1d6 points per minute for every 100 feet the character is below the surface. A successful [Fortitude](combat#_fortitude) save (DC 15, +1 for each previous check) means the diver takes no damage in that minute. Very cold water deals 1d6 points of nonlethal damage from hypothermia per minute of exposure.
 
 ### Drowning
 
-Any character can hold her breath for a number of rounds equal to twice her [Constitution](gettingStarted.md#_constitution) score. If a character takes a standard or full-round action, the remaining duration that the character can hold her breath is reduced by 1 round. After this period of time, the character must make a DC 10 [Constitution](gettingStarted.md#_constitution) check every round in order to continue holding her breath. Each round, the DC increases by 1.
+Any character can hold her breath for a number of rounds equal to twice her [Constitution](gettingStarted#_constitution) score. If a character takes a standard or full-round action, the remaining duration that the character can hold her breath is reduced by 1 round. After this period of time, the character must make a DC 10 [Constitution](gettingStarted#_constitution) check every round in order to continue holding her breath. Each round, the DC increases by 1.
 
-When the character finally fails her [Constitution](gettingStarted.md#_constitution) check, she begins to drown. In the first round, she falls [unconscious](glossary.md#_unconscious) (0 hp). In the following round, she drops to –1 hit points and is [dying](glossary.md#_dying). In the third round, she drowns.
+When the character finally fails her [Constitution](gettingStarted#_constitution) check, she begins to drown. In the first round, she falls [unconscious](glossary#_unconscious) (0 hp). In the following round, she drops to –1 hit points and is [dying](glossary#_dying). In the third round, she drowns.
 
-[Unconscious](glossary.md#_unconscious) characters must begin making [Constitution](gettingStarted.md#_constitution) checks immediately upon being submerged (or upon becoming [unconscious](glossary.md#_unconscious) if the character was conscious when submerged). Once she fails one of these checks, she immediately drops to –1 (or loses 1 additional hit point, if her total is below –1). On the following round, she drowns.
+[Unconscious](glossary#_unconscious) characters must begin making [Constitution](gettingStarted#_constitution) checks immediately upon being submerged (or upon becoming [unconscious](glossary#_unconscious) if the character was conscious when submerged). Once she fails one of these checks, she immediately drops to –1 (or loses 1 additional hit point, if her total is below –1). On the following round, she drowns.
 
 It is possible to drown in substances other than water, such as sand, quicksand, fine dust, and silos full of grain.
 

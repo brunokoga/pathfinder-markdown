@@ -6,9 +6,9 @@ Adamantine GolemCR 19
 
 **XP 204,800**
 
-N Huge [construct](monsters/creatureTypes.md#_construct)
+N Huge [construct](monsters/creatureTypes#_construct)
 
-**Init** –1; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +0
+**Init** –1; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +0
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +10, **Ref** +9, **Will** +10
 
-**Defensive Abilities** indestructible; **DR** 15/epic; **Immune** [construct](monsters/creatureTypes.md#_construct) traits, magic
+**Defensive Abilities** indestructible; **DR** 15/epic; **Immune** [construct](monsters/creatureTypes#_construct) traits, magic
 
 Offense
 
@@ -48,11 +48,11 @@ Special Abilities
 
 **Destructive Strike (Ex)** An adamantine golem's slam attacks threaten a critical hit on a 19 or 20. In addition, whenever an adamantine golem scores a critical hit, it deals 6d10+13 points of damage to the target's armor or shield in addition to the normal damage, as if it had also made a successful sunder combat maneuver.
 
-**Indestructible (Ex)** An adamantine golem is nearly impossible to destroy. Even if reduced below 0 hit points, its fast healing continues to restore hit points, though the golem is helpless unless above 0 hit points. It can only be permanently destroyed if reduced to negative hit points and then decapitated using an adamantine _ [vorpal](additionalMonsters/../magicItems/weapons.md#_vorpal) _weapon—alternatively, _ [miracle](additionalMonsters/../spells/miracle.md#_miracle)_ or _ [wish](additionalMonsters/../spells/wish.md#_wish)_ can be used to slay it while it is at negative hit points.
+**Indestructible (Ex)** An adamantine golem is nearly impossible to destroy. Even if reduced below 0 hit points, its fast healing continues to restore hit points, though the golem is helpless unless above 0 hit points. It can only be permanently destroyed if reduced to negative hit points and then decapitated using an adamantine _ [vorpal](additionalMonsters/../magicItems/weapons#_vorpal) _weapon—alternatively, _ [miracle](additionalMonsters/../spells/miracle#_miracle)_ or _ [wish](additionalMonsters/../spells/wish#_wish)_ can be used to slay it while it is at negative hit points.
 
-**[Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to Magic (Ex)** An adamantine golem is immune to any spell or spell-like ability that allows spell [resistance](monsters/universalMonsterRules.md#_resistance), except as noted below.
+**[Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to Magic (Ex)** An adamantine golem is immune to any spell or spell-like ability that allows spell [resistance](monsters/universalMonsterRules#_resistance), except as noted below.
 
-• _ [Transmute metal to wood](additionalMonsters/../spells/transmuteMetalToWood.md#_transmute-metal-to-wood)_ slows an adamantine golem for 1d4 rounds, during which time its damage reduction is reduced to 15/adamantine (no save).
+• _ [Transmute metal to wood](additionalMonsters/../spells/transmuteMetalToWood#_transmute-metal-to-wood)_ slows an adamantine golem for 1d4 rounds, during which time its damage reduction is reduced to 15/adamantine (no save).
 
 Made using one of the hardest and most precious substances, the adamantine golem is a deadly work of art. It can crush the life from foes that dare to get in its way and is nearly impossible to permanently destroy. The vast amount of adamantine required to build even one of these destructive golems is so significant that most worlds do not have enough resources, forcing the creator to travel to the Plane of Earth or remote Outer Planes simply to gather the raw materials needed to build the golem's body.
 
@@ -66,7 +66,7 @@ Adamantine Golem
 
 Construction
 
-**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats.md#_craft-construct), _crushing fist, [geas/quest](additionalMonsters/../spells/geasQuest.md#_geas-quest), [heal](additionalMonsters/../spells/heal.md#_heal), [stoneskin](additionalMonsters/../spells/stoneskin.md#_stoneskin), [wish](additionalMonsters/../spells/wish.md#_wish)_, creator must be caster level 20th; **Skill** [Craft](additionalMonsters/../skills/craft.md#_craft) (sculpture) DC 35; **Cost** 350,000 gp
+**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats#_craft-construct), _crushing fist, [geas/quest](additionalMonsters/../spells/geasQuest#_geas-quest), [heal](additionalMonsters/../spells/heal#_heal), [stoneskin](additionalMonsters/../spells/stoneskin#_stoneskin), [wish](additionalMonsters/../spells/wish#_wish)_, creator must be caster level 20th; **Skill** [Craft](additionalMonsters/../skills/craft#_craft) (sculpture) DC 35; **Cost** 350,000 gp
 
 # Golem, Alchemical
 
@@ -76,9 +76,9 @@ Alchemical GolemCR 9
 
 **XP 6,400**
 
-N Large [construct](monsters/creatureTypes.md#_construct)
+N Large [construct](monsters/creatureTypes#_construct)
 
-**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +0
+**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +0
 
 Defense
 
@@ -88,7 +88,7 @@ Defense
 
 **Fort** +4, **Ref** +8, **Will** +4
 
-**DR** 10/adamantine or bludgeoning; **Immune** [construct](monsters/creatureTypes.md#_construct) traits, magic
+**DR** 10/adamantine or bludgeoning; **Immune** [construct](monsters/creatureTypes#_construct) traits, magic
 
 Offense
 
@@ -118,13 +118,13 @@ Ecology
 
 Special Abilities
 
-**Alchemy (Ex)** When an alchemical golem strikes a foe, the attack has an additional random effect, chosen from the options below. The attack can either deal 1d6 points of acid, [cold](monsters/creatureTypes.md#_cold-subtype), electricity, or [fire](monsters/creatureTypes.md#_fire-subtype) damage, or cause the target to become sickened (Fortitude DC 16 negates) or entangled (Reflex DC 16 negates) for 1d4 rounds. These save DCs are Constitution-based.
+**Alchemy (Ex)** When an alchemical golem strikes a foe, the attack has an additional random effect, chosen from the options below. The attack can either deal 1d6 points of acid, [cold](monsters/creatureTypes#_cold-subtype), electricity, or [fire](monsters/creatureTypes#_fire-subtype) damage, or cause the target to become sickened (Fortitude DC 16 negates) or entangled (Reflex DC 16 negates) for 1d4 rounds. These save DCs are Constitution-based.
 
-**Bombs (Ex)** As a standard action, an alchemical golem can throw a bomb as a ranged touch attack to a distance of 60 feet (no range increment). If the attack misses, treat it as a thrown splash weapon to determine where it lands. Anyone struck by an alchemical golem's bomb takes 8d6 points of acid, [cold](monsters/creatureTypes.md#_cold-subtype), electricity, or [fire](monsters/creatureTypes.md#_fire-subtype) damage (determine type randomly). All creatures adjacent to the location where the bomb hits take 1d6 points of energy damage of the same type.
+**Bombs (Ex)** As a standard action, an alchemical golem can throw a bomb as a ranged touch attack to a distance of 60 feet (no range increment). If the attack misses, treat it as a thrown splash weapon to determine where it lands. Anyone struck by an alchemical golem's bomb takes 8d6 points of acid, [cold](monsters/creatureTypes#_cold-subtype), electricity, or [fire](monsters/creatureTypes#_fire-subtype) damage (determine type randomly). All creatures adjacent to the location where the bomb hits take 1d6 points of energy damage of the same type.
 
-**[Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to Magic (Ex)** An alchemical golem is immune to spells or spell-like abilities that allow spell [resistance](monsters/universalMonsterRules.md#_resistance), save for spells with the sonic descriptor. _ [Shatter](additionalMonsters/../spells/shatter.md#_shatter)_ damages an alchemical golem as if it were a crystalline creature.
+**[Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to Magic (Ex)** An alchemical golem is immune to spells or spell-like abilities that allow spell [resistance](monsters/universalMonsterRules#_resistance), save for spells with the sonic descriptor. _ [Shatter](additionalMonsters/../spells/shatter#_shatter)_ damages an alchemical golem as if it were a crystalline creature.
 
-**Splash (Ex)** Any strike on an alchemical golem with a non-reach melee weapon deals 1 point of acid, [cold](monsters/creatureTypes.md#_cold-subtype), electricity, or [fire](monsters/creatureTypes.md#_fire-subtype) damage (determine type randomly) to the attacker. This amount increases to 1d6 points of damage if the attack is a critical hit.
+**Splash (Ex)** Any strike on an alchemical golem with a non-reach melee weapon deals 1 point of acid, [cold](monsters/creatureTypes#_cold-subtype), electricity, or [fire](monsters/creatureTypes#_fire-subtype) damage (determine type randomly) to the attacker. This amount increases to 1d6 points of damage if the attack is a critical hit.
 
 This golem is a walking alchemical nightmare, capable of inflicting all manner of painful wounds on its foes. Its ability to follow orders is granted by the otherwise mindless humanoid brain that floats in its dome-like head, while its animating force is a curious combination of alchemy and elemental spirits bound into the fluids and metals of its body.
 
@@ -138,7 +138,7 @@ Alchemical Golem
 
 Construction
 
-**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats.md#_craft-construct)_, [geas/quest](additionalMonsters/../spells/geasQuest.md#_geas-quest), [gentle repose](additionalMonsters/../spells/gentleRepose.md#_gentle-repose), [major creation](additionalMonsters/../spells/majorCreation.md#_major-creation), [resist energy](additionalMonsters/../spells/resistEnergy.md#_resist-energy), [telekinesis](additionalMonsters/../spells/telekinesis.md#_telekinesis)_, creator must be caster level 10th; **Skill** [Craft](additionalMonsters/../skills/craft.md#_craft) (alchemy) DC 20; **Cost** 18,000 gp
+**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats#_craft-construct)_, [geas/quest](additionalMonsters/../spells/geasQuest#_geas-quest), [gentle repose](additionalMonsters/../spells/gentleRepose#_gentle-repose), [major creation](additionalMonsters/../spells/majorCreation#_major-creation), [resist energy](additionalMonsters/../spells/resistEnergy#_resist-energy), [telekinesis](additionalMonsters/../spells/telekinesis#_telekinesis)_, creator must be caster level 10th; **Skill** [Craft](additionalMonsters/../skills/craft#_craft) (alchemy) DC 20; **Cost** 18,000 gp
 
 # Golem, Carrion
 
@@ -148,9 +148,9 @@ Carrion GolemCR 4
 
 **XP 1,200**
 
-N Medium [construct](monsters/creatureTypes.md#_construct)
+N Medium [construct](monsters/creatureTypes#_construct)
 
-**Init** +1; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 10 ft., darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +0
+**Init** +1; **Senses** [blindsense](monsters/universalMonsterRules#_blindsense) 10 ft., darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +0
 
 **Aura** foul stench (DC 12, 1 round)
 
@@ -162,13 +162,13 @@ Defense
 
 **Fort** +1, **Ref** +2, **Will** +1
 
-**DR** 5/bludgeoning or slashing; **Immune** [construct](monsters/creatureTypes.md#_construct) traits, magic
+**DR** 5/bludgeoning or slashing; **Immune** [construct](monsters/creatureTypes#_construct) traits, magic
 
 Offense
 
 **Speed** 30 ft.
 
-**Melee** 2 slams +7 (1d8+3 plus [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)))
+**Melee** 2 slams +7 (1d8+3 plus [disease](monsters/universalMonsterRules#_disease-(ex-or-su)))
 
 **Special Attacks** plague carrier
 
@@ -190,17 +190,17 @@ Special Abilities
 
 **Foul Stench (Ex)** This functions as the stench ability, but causes affected creatures to be nauseated rather than sickened.
 
-**Immune to Magic (Ex)** A carrion golem is immune to any spell or spell-like ability that allows spell [resistance](monsters/universalMonsterRules.md#_resistance). In addition, certain spells and effects function differently against the creature, as noted below.
+**Immune to Magic (Ex)** A carrion golem is immune to any spell or spell-like ability that allows spell [resistance](monsters/universalMonsterRules#_resistance). In addition, certain spells and effects function differently against the creature, as noted below.
 
-•_ [Gentle repose](additionalMonsters/../spells/gentleRepose.md#_gentle-repose)_ causes a carrion golem to become stiff and helpless for 1d4 rounds if it fails a Will save against the spell.
+•_ [Gentle repose](additionalMonsters/../spells/gentleRepose#_gentle-repose)_ causes a carrion golem to become stiff and helpless for 1d4 rounds if it fails a Will save against the spell.
 
-•_ [Animate dead](additionalMonsters/../spells/animateDead.md#_animate-dead)_ causes the various parts of the golem's body to shudder and tear, dealing 1d6 points of damage per caster level to the golem (no save).
+•_ [Animate dead](additionalMonsters/../spells/animateDead#_animate-dead)_ causes the various parts of the golem's body to shudder and tear, dealing 1d6 points of damage per caster level to the golem (no save).
 
-•Any magical attack that deals [cold](monsters/creatureTypes.md#_cold-subtype) or [fire](monsters/creatureTypes.md#_fire-subtype) damage slows a carrion golem (as the _ [slow](additionalMonsters/../spells/slow.md#_slow)_ spell) for 2d6 rounds (no save).
+•Any magical attack that deals [cold](monsters/creatureTypes#_cold-subtype) or [fire](monsters/creatureTypes#_fire-subtype) damage slows a carrion golem (as the _ [slow](additionalMonsters/../spells/slow#_slow)_ spell) for 2d6 rounds (no save).
 
-•Any magical attack that deals electricity damage hastes a carrion golem (as the _ [haste](additionalMonsters/../spells/haste.md#_haste)_ spell) for 2d6 rounds.
+•Any magical attack that deals electricity damage hastes a carrion golem (as the _ [haste](additionalMonsters/../spells/haste#_haste)_ spell) for 2d6 rounds.
 
-**Plague Carrier (Ex)** When a carrion golem is created, its creator infects it with a specific [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)). The carrion golem can then infect those it strikes with its slams with this [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su))—most carrion golems inflict filth fever. The save DC is Constitution-based and includes a +2 racial bonus.
+**Plague Carrier (Ex)** When a carrion golem is created, its creator infects it with a specific [disease](monsters/universalMonsterRules#_disease-(ex-or-su)). The carrion golem can then infect those it strikes with its slams with this [disease](monsters/universalMonsterRules#_disease-(ex-or-su))—most carrion golems inflict filth fever. The save DC is Constitution-based and includes a +2 racial bonus.
 
 _Filth Fever_: Slam—injury; _save_ Fortitude DC 14; _onset_ 1d3 days; _frequency_ 1/day; _effect_ 1d3 Dex damage and 1d3 Con damage; _cure_ 2 consecutive saves.
 
@@ -216,7 +216,7 @@ Carrion Golem
 
 Construction
 
-**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats.md#_craft-construct), _ [animate dead](additionalMonsters/../spells/animateDead.md#_animate-dead)_, _ [contagion](additionalMonsters/../spells/contagion.md#_contagion)_, _ [false life](additionalMonsters/../spells/falseLife.md#_false-life)_, _ [gentle repose](additionalMonsters/../spells/gentleRepose.md#_gentle-repose)_, _ [lesser geas](additionalMonsters/../spells/geasQuest.md#_geas-lesser)_, creator must be caster level 7th; **Skill** [Craft](additionalMonsters/../skills/craft.md#_craft) (leather) or [Heal](additionalMonsters/../skills/heal.md#_heal) DC 13; **Cost** 5,500 gp
+**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats#_craft-construct), _ [animate dead](additionalMonsters/../spells/animateDead#_animate-dead)_, _ [contagion](additionalMonsters/../spells/contagion#_contagion)_, _ [false life](additionalMonsters/../spells/falseLife#_false-life)_, _ [gentle repose](additionalMonsters/../spells/gentleRepose#_gentle-repose)_, _ [lesser geas](additionalMonsters/../spells/geasQuest#_geas-lesser)_, creator must be caster level 7th; **Skill** [Craft](additionalMonsters/../skills/craft#_craft) (leather) or [Heal](additionalMonsters/../skills/heal#_heal) DC 13; **Cost** 5,500 gp
 
 # Golem, Clockwork
 
@@ -226,9 +226,9 @@ Clockwork GolemCR 12
 
 **XP 19,200**
 
-N Large [construct](monsters/creatureTypes.md#_construct)
+N Large [construct](monsters/creatureTypes#_construct)
 
-**Init** +1; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +0
+**Init** +1; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +0
 
 Defense
 
@@ -238,13 +238,13 @@ Defense
 
 **Fort** +5, **Ref** +6, **Will** +5
 
-**DR** 10/adamantine; **Immune** [construct](monsters/creatureTypes.md#_construct) traits, magic
+**DR** 10/adamantine; **Immune** [construct](monsters/creatureTypes#_construct) traits, magic
 
 Offense
 
 **Speed** 30 ft.
 
-**Melee** 2 slams +23 (2d10+8 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** 2 slams +23 (2d10+8 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -270,11 +270,11 @@ Special Abilities
 
 **Grind (Ex)** A clockwork golem deals an additional 2d10+12 points of slashing damage when it makes a successful grapple check as razor-sharp gears and blades emerge from its body to grind and slice its foe.
 
-**[Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to Magic (Ex)** A clockwork golem is immune to any spell or spell-like ability that allows spell [resistance](monsters/universalMonsterRules.md#_resistance). In addition, certain spells and effects function differently against a clockwork golem, as noted below.
+**[Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to Magic (Ex)** A clockwork golem is immune to any spell or spell-like ability that allows spell [resistance](monsters/universalMonsterRules#_resistance). In addition, certain spells and effects function differently against a clockwork golem, as noted below.
 
-•A _ [grease](additionalMonsters/../spells/grease.md#_grease) _spell cast on the golem causes it to move quickly for 1d6 rounds, as if under the effects of _ [haste](additionalMonsters/../spells/haste.md#_haste)._
+•A _ [grease](additionalMonsters/../spells/grease#_grease) _spell cast on the golem causes it to move quickly for 1d6 rounds, as if under the effects of _ [haste](additionalMonsters/../spells/haste#_haste)._
 
-•A _ [rusting grasp](additionalMonsters/../spells/rustingGrasp.md#_rusting-grasp) _spell deals damage to a clockwork golem normally, and makes the golem staggered for 1d6 rounds (no save).
+•A _ [rusting grasp](additionalMonsters/../spells/rustingGrasp#_rusting-grasp) _spell deals damage to a clockwork golem normally, and makes the golem staggered for 1d6 rounds (no save).
 
 **Wall of Gears (Su)** As a standard action, a clockwork golem can fold into a whirling wall of grinding gears measuring 10 feet by 10 feet or 5 feet by 20 feet. Anyone passing through the wall takes 15d6 points of slashing damage. If the wall appears in a creature's space, that creature can attempt a DC 18 Reflex save to leap to one side and avoid the damage entirely. The clockwork golem can take no actions while in this form except to resume its normal form as a move action. A clockwork golem's AC and immunities remain the same while it is in this form.
 
@@ -290,7 +290,7 @@ Clockwork Golem
 
 Construction
 
-**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats.md#_craft-construct), _ [animate objects](additionalMonsters/../spells/animateObjects.md#_animate-objects)_, _ [blade barrier](additionalMonsters/../spells/bladeBarrier.md#_blade-barrier), [geas/quest](additionalMonsters/../spells/geasQuest.md#_geas-quest), [grease](additionalMonsters/../spells/grease.md#_grease), [telekinesis](additionalMonsters/../spells/telekinesis.md#_telekinesis)_, creator must be caster level 15th; **Skill** [Craft](additionalMonsters/../skills/craft.md#_craft) (clocks) or [Craft](additionalMonsters/../skills/craft.md#_craft) (locks) DC 20; **Cost** 65,000 gp
+**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats#_craft-construct), _ [animate objects](additionalMonsters/../spells/animateObjects#_animate-objects)_, _ [blade barrier](additionalMonsters/../spells/bladeBarrier#_blade-barrier), [geas/quest](additionalMonsters/../spells/geasQuest#_geas-quest), [grease](additionalMonsters/../spells/grease#_grease), [telekinesis](additionalMonsters/../spells/telekinesis#_telekinesis)_, creator must be caster level 15th; **Skill** [Craft](additionalMonsters/../skills/craft#_craft) (clocks) or [Craft](additionalMonsters/../skills/craft#_craft) (locks) DC 20; **Cost** 65,000 gp
 
 # Golem, Glass
 
@@ -300,9 +300,9 @@ Glass GolemCR 8
 
 **XP 4,800**
 
-N Large [construct](monsters/creatureTypes.md#_construct)
+N Large [construct](monsters/creatureTypes#_construct)
 
-**Init** –1; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +0
+**Init** –1; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +0
 
 Defense
 
@@ -312,17 +312,17 @@ Defense
 
 **Fort** +4, **Ref** +3, **Will** +4
 
-**Defensive Abilities** reflect spells; **DR** 5/adamantine; **Immune** magic, [construct](monsters/creatureTypes.md#_construct) traits
+**Defensive Abilities** reflect spells; **DR** 5/adamantine; **Immune** magic, [construct](monsters/creatureTypes#_construct) traits
 
 Offense
 
 **Speed** 30 ft.
 
-**Melee** 2 slams +16 (2d8+5 plus [bleed](monsters/universalMonsterRules.md#_bleed))
+**Melee** 2 slams +16 (2d8+5 plus [bleed](monsters/universalMonsterRules#_bleed))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d8), dazzling brightness
+**Special Attacks** [bleed](monsters/universalMonsterRules#_bleed) (1d8), dazzling brightness
 
 Statistics
 
@@ -342,23 +342,23 @@ Special Abilities
 
 **Dazzling Brightness (Ex)** A glass golem in an area of bright light dazzles any creature within 30 feet that sees it for 1 round (Fortitude DC 16 negates). Once a creature makes its save against this ability, it is immune to that golem's brightness for 24 hours. The DC is Constitution-based.
 
-**Immune to Magic (Ex)** A glass golem is immune to any spell or spell-like ability that allows spell [resistance](monsters/universalMonsterRules.md#_resistance). In addition, certain spells and effects function differently against a glass golem, as noted below.
+**Immune to Magic (Ex)** A glass golem is immune to any spell or spell-like ability that allows spell [resistance](monsters/universalMonsterRules#_resistance). In addition, certain spells and effects function differently against a glass golem, as noted below.
 
-•A _ [shatter](additionalMonsters/../spells/shatter.md#_shatter)_ spell damages a glass golem as if it were a crystalline creature.
+•A _ [shatter](additionalMonsters/../spells/shatter#_shatter)_ spell damages a glass golem as if it were a crystalline creature.
 
-•A _ [keen edge](additionalMonsters/../spells/keenEdge.md#_keen-edge)_ spell affects all of a glass golem's slam attacks as if they were slashing weapons.
+•A _ [keen edge](additionalMonsters/../spells/keenEdge#_keen-edge)_ spell affects all of a glass golem's slam attacks as if they were slashing weapons.
 
-•A magical attack that deals [cold](monsters/creatureTypes.md#_cold-subtype) damage slows a glass golem (as the _ [slow](additionalMonsters/../spells/slow.md#_slow)_ spell) for 3 rounds (no saving throw).
+•A magical attack that deals [cold](monsters/creatureTypes#_cold-subtype) damage slows a glass golem (as the _ [slow](additionalMonsters/../spells/slow#_slow)_ spell) for 3 rounds (no saving throw).
 
-•A magical attack that deals [fire](monsters/creatureTypes.md#_fire-subtype) damage ends any slow effect on the golem and heals 1 point of damage for each 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. A glass golem gets no saving throw against [fire](monsters/creatureTypes.md#_fire-subtype) effects.
+•A magical attack that deals [fire](monsters/creatureTypes#_fire-subtype) damage ends any slow effect on the golem and heals 1 point of damage for each 3 points of damage the attack would otherwise deal. If the amount of healing would cause the golem to exceed its full normal hit points, it gains any excess as temporary hit points. A glass golem gets no saving throw against [fire](monsters/creatureTypes#_fire-subtype) effects.
 
-**Reflect Spells (Ex)** As a free action once every 1d4 rounds, a glass golem can align its internal structure to enhance its [resistance](monsters/universalMonsterRules.md#_resistance) to magic for 1 round. During this time, the golem reflects spells (even spells that function differently against the golem as described in its immune to magic ability) as if under the effect of a _ [spell turning](additionalMonsters/../spells/spellTurning.md#_spell-turning)_ spell.
+**Reflect Spells (Ex)** As a free action once every 1d4 rounds, a glass golem can align its internal structure to enhance its [resistance](monsters/universalMonsterRules#_resistance) to magic for 1 round. During this time, the golem reflects spells (even spells that function differently against the golem as described in its immune to magic ability) as if under the effect of a _ [spell turning](additionalMonsters/../spells/spellTurning#_spell-turning)_ spell.
 
 A glass golem is a sizable guardian constructed by a powerful caster, usually in the shape of an armored humanoid. They are more common in desert lands where quartz-based sand is readily available, or in urban centers where glassblowing is commonplace.
 
 A typical glass golem is 10 feet tall and weighs 2,500 pounds.
 
-**Stained Glass Golems (+0 CR)** : Divine casters sometimes build glass golems that resemble the windowpanes commonly found in temples. Thin and agile, these colorful beings often act as spies, wielding powers of stealth that their other counterparts do not possess. A stained glass golem has a +8 racial bonus on [Stealth](additionalMonsters/../skills/stealth.md#_stealth) checks.
+**Stained Glass Golems (+0 CR)** : Divine casters sometimes build glass golems that resemble the windowpanes commonly found in temples. Thin and agile, these colorful beings often act as spies, wielding powers of stealth that their other counterparts do not possess. A stained glass golem has a +8 racial bonus on [Stealth](additionalMonsters/../skills/stealth#_stealth) checks.
 
 ## Construction
 
@@ -370,7 +370,7 @@ Glass Golem
 
 Construction
 
-**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats.md#_craft-construct), _ [animate objects](additionalMonsters/../spells/animateObjects.md#_animate-objects)_, _ [flame strike](additionalMonsters/../spells/flameStrike.md#_flame-strike)_, _ [geas/quest](additionalMonsters/../spells/geasQuest.md#_geas-quest)_, _ [spell turning](additionalMonsters/../spells/spellTurning.md#_spell-turning)_, creator must be caster level 10th; **Skill** [Craft](additionalMonsters/../skills/craft.md#_craft) (sculptures) DC 17; **Cost** 17,000 gp (glass golem); 20,200 gp (stained glass golem)
+**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats#_craft-construct), _ [animate objects](additionalMonsters/../spells/animateObjects#_animate-objects)_, _ [flame strike](additionalMonsters/../spells/flameStrike#_flame-strike)_, _ [geas/quest](additionalMonsters/../spells/geasQuest#_geas-quest)_, _ [spell turning](additionalMonsters/../spells/spellTurning#_spell-turning)_, creator must be caster level 10th; **Skill** [Craft](additionalMonsters/../skills/craft#_craft) (sculptures) DC 17; **Cost** 17,000 gp (glass golem); 20,200 gp (stained glass golem)
 
 # Golem, Mithral
 
@@ -380,9 +380,9 @@ Mithral GolemCR 16
 
 **XP 76,800**
 
-N Huge [construct](monsters/creatureTypes.md#_construct)
+N Huge [construct](monsters/creatureTypes#_construct)
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +0
+**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +0
 
 Defense
 
@@ -392,7 +392,7 @@ Defense
 
 **Fort** +8, **Ref** +15, **Will** +8
 
-**DR** 15/adamantine, evasion; **Immune** [construct](monsters/creatureTypes.md#_construct) traits, magic
+**DR** 15/adamantine, evasion; **Immune** [construct](monsters/creatureTypes#_construct) traits, magic
 
 Offense
 
@@ -410,7 +410,7 @@ Statistics
 
 **Base Atk** +24; **CMB** +37; **CMD** 55
 
-**Feats** [Dodge](additionalMonsters/../feats.md#_dodge)B, [Mobility](additionalMonsters/../feats.md#_mobility)B, [Run](additionalMonsters/../feats.md#_run)B, [Spring Attack](additionalMonsters/../feats.md#_spring-attack)B
+**Feats** [Dodge](additionalMonsters/../feats#_dodge)B, [Mobility](additionalMonsters/../feats#_mobility)B, [Run](additionalMonsters/../feats#_run)B, [Spring Attack](additionalMonsters/../feats#_spring-attack)B
 
 Ecology
 
@@ -424,13 +424,13 @@ Special Abilities
 
 **Fluid Form (Ex)** A mithral golem's body can take on a form like liquid silver as a swift action. While in this form, the mithral golem's reach increases to 30 feet and its DR becomes 15/bludgeoning and adamantine. A mithral golem in this form can also move through any crack or hole in a wall or door, no matter how small, without impeding its movement. A mithral golem can maintain this form for up to 10 rounds per day, but these rounds do not need to be consecutive. Reverting to its normal form is a free action.
 
-**[Immunity](monsters/universalMonsterRules.md#_immunity-(ex-or-su)) to Magic (Ex)** A mithral golem is immune to any spell or spell-like ability that allows spell [resistance](monsters/universalMonsterRules.md#_resistance). In addition, certain spells and effects function differently against a mithral golem, as noted below.
+**[Immunity](monsters/universalMonsterRules#_immunity-(ex-or-su)) to Magic (Ex)** A mithral golem is immune to any spell or spell-like ability that allows spell [resistance](monsters/universalMonsterRules#_resistance). In addition, certain spells and effects function differently against a mithral golem, as noted below.
 
-•A _ [slow](additionalMonsters/../spells/slow.md#_slow) _spell cast on the golem causes it to lose its quickness ability for 1d6 rounds_._
+•A _ [slow](additionalMonsters/../spells/slow#_slow) _spell cast on the golem causes it to lose its quickness ability for 1d6 rounds_._
 
-•A _ [haste](additionalMonsters/../spells/haste.md#_haste)_ spell heals the golem of 1d6 points of damage per level of the caster (maximum 10d6).
+•A _ [haste](additionalMonsters/../spells/haste#_haste)_ spell heals the golem of 1d6 points of damage per level of the caster (maximum 10d6).
 
-•Hitting a mithral golem in fluid form with any spell of 6th level or higher with the [cold](monsters/creatureTypes.md#_cold-subtype) descriptor causes the golem to take 10d6 points of damage (no save) and lose the use of its fluid form ability for 24 hours.
+•Hitting a mithral golem in fluid form with any spell of 6th level or higher with the [cold](monsters/creatureTypes#_cold-subtype) descriptor causes the golem to take 10d6 points of damage (no save) and lose the use of its fluid form ability for 24 hours.
 
 **Quickness (Ex)** A mithral golem is incredibly quick. It can take an extra move action during its turn each round. This means it can move up to its speed and still make a full attack.
 
@@ -446,5 +446,5 @@ Mithral Golem
 
 Construction
 
-**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats.md#_craft-construct), _ [animate objects](additionalMonsters/../spells/animateObjects.md#_animate-objects), [geas/quest](additionalMonsters/../spells/geasQuest.md#_geas-quest), [haste](additionalMonsters/../spells/haste.md#_haste), [polymorph any object](additionalMonsters/../spells/polymorphAnyObject.md#_polymorph-any-object), [wish](additionalMonsters/../spells/wish.md#_wish)_, creator must be caster level 18th; **Skill** [Craft](additionalMonsters/../skills/craft.md#_craft) (sculpture) DC 25; **Cost** 150,000 gp
+**Requirements** [Craft Construct](additionalMonsters/../monsters/monsterFeats#_craft-construct), _ [animate objects](additionalMonsters/../spells/animateObjects#_animate-objects), [geas/quest](additionalMonsters/../spells/geasQuest#_geas-quest), [haste](additionalMonsters/../spells/haste#_haste), [polymorph any object](additionalMonsters/../spells/polymorphAnyObject#_polymorph-any-object), [wish](additionalMonsters/../spells/wish#_wish)_, creator must be caster level 18th; **Skill** [Craft](additionalMonsters/../skills/craft#_craft) (sculpture) DC 25; **Cost** 150,000 gp
 

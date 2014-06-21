@@ -1,16 +1,16 @@
-[Armor](magicItems/armor.md)  
- [Weapons](magicItems/weapons.md)  
- [Rings](magicItems/rings.md)  
- [Rods](magicItems/rods.md)  
- [Staves](magicItems/staves.md)  
- [Wondrous Items](magicItems/wondrousItems.md)  
- [Cursed Items](magicItems/cursedItems.md)  
- [Minor Artifacts](magicItems/minorArtifacts.md)  
- [Major Artifacts](magicItems/majorArtifacts.md)
+[Armor](magicItems/armor)  
+ [Weapons](magicItems/weapons)  
+ [Rings](magicItems/rings)  
+ [Rods](magicItems/rods)  
+ [Staves](magicItems/staves)  
+ [Wondrous Items](magicItems/wondrousItems)  
+ [Cursed Items](magicItems/cursedItems)  
+ [Minor Artifacts](magicItems/minorArtifacts)  
+ [Major Artifacts](magicItems/majorArtifacts)
 
 # Magic Items
 
-Beyond well-known magic items, from ubiquitous _potions of [cure light wounds](../spells/cureLightWounds.md#_cure-light-wounds) _to prized relics like _ [holy](../magicItems/weapons.md#_weapons-holy) avengers_, stretch troves of legendary treasures, rare masterworks discovered in the depths of the deadliest dungeons or groundbreaking discoveries crafted by geniuses and madmen. This chapter reaches past the familiar items of the _Pathfinder RPG Core Rulebook_, revealing a wealth of magical masterpieces, some long renowned, others entirely new. GMs who wish to incorporate these new magical items should feel free to make these treasures just as pervasive and fundamental elements of their campaigns as those in the _Core Rulebook._
+Beyond well-known magic items, from ubiquitous _potions of [cure light wounds](../spells/cureLightWounds#_cure-light-wounds) _to prized relics like _ [holy](../magicItems/weapons#_weapons-holy) avengers_, stretch troves of legendary treasures, rare masterworks discovered in the depths of the deadliest dungeons or groundbreaking discoveries crafted by geniuses and madmen. This chapter reaches past the familiar items of the _Pathfinder RPG Core Rulebook_, revealing a wealth of magical masterpieces, some long renowned, others entirely new. GMs who wish to incorporate these new magical items should feel free to make these treasures just as pervasive and fundamental elements of their campaigns as those in the _Core Rulebook._
 
 With the exception of potions, scrolls, and wands, all the various types of magic items are presented in this chapter. The new spells presented in Chapter 5 are just as likely to be found brewed into potions, written upon scrolls, or empowering wands as those in the _Core Rulebook,_ and might be discovered as such items following the same rules detailed in Chapter 15 of that book.
 
@@ -20,9 +20,9 @@ The following descriptions include notes on activation, random generation, and o
 
 Each of the following topics is covered in notational form as part of an item's description.
 
-**Aura** : Most of the time, a _ [detect magic](../spells/detectMagic.md#_detect-magic)_ spell reveals the school of magic associated with the magic item and the strength of the aura that the item emits. See the _ [detect magic](../spells/detectMagic.md#_detect-magic)_ spell description for details.
+**Aura** : Most of the time, a _ [detect magic](../spells/detectMagic#_detect-magic)_ spell reveals the school of magic associated with the magic item and the strength of the aura that the item emits. See the _ [detect magic](../spells/detectMagic#_detect-magic)_ spell description for details.
 
-**Caster Level (CL)** : An item's caster level indicates its relative power. It also determines the item's saving throw bonus, as well as range or other level-dependent aspects of the item's powers (if variable). It also determines the level that must be contended with should the item come under the effect of a _ [dispel magic](../spells/dispelMagic.md#_dispel-magic)_ spell or similar situation.
+**Caster Level (CL)** : An item's caster level indicates its relative power. It also determines the item's saving throw bonus, as well as range or other level-dependent aspects of the item's powers (if variable). It also determines the level that must be contended with should the item come under the effect of a _ [dispel magic](../spells/dispelMagic#_dispel-magic)_ spell or similar situation.
 
 The creator's caster level must be as high as the item's caster level (and additional requirements may effectively put a higher minimum on the creator's level).
 

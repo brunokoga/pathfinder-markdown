@@ -1,6 +1,6 @@
 Irresistible Dance
 
-**Source** [_irresistible dance_](spells/irresistibleDance.md#_irresistible-dance)
+**Source** [_irresistible dance_](spells/irresistibleDance#_irresistible-dance)
 
 When casting the spell, you can choose to make the dance either an unending dance or a dance of death.
 

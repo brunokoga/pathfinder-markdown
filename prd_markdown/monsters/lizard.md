@@ -6,9 +6,9 @@ _This immense lizard moves with a slow but relentless gait. Its feet end in larg
 
 **XP 600**
 
-N Medium [animal](creatureTypes.md#_animal)
+N Medium [animal](creatureTypes#_animal)
 
-**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +8
+**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +8
 
 **Defense**
 
@@ -22,7 +22,7 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Speed** 30 ft., swim 30 ft.
 
-**Melee** bite +5 (1d8+4 plus [grab](universalMonsterRules.md#_grab) and [poison](universalMonsterRules.md#_poison))
+**Melee** bite +5 (1d8+4 plus [grab](universalMonsterRules#_grab) and [poison](universalMonsterRules#_poison))
 
 **Statistics**
 
@@ -30,9 +30,9 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Base Atk** +2; **CMB** +5 (+9 grapple); **CMD** 17 (21 vs. trip)
 
-**Feats** [Great Fortitude](../feats.md#_great-fortitude), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
+**Feats** [Great Fortitude](../feats#_great-fortitude), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception))
 
-**Skills** [Climb](../skills/climb.md#_climb) +7, [Perception](../skills/perception.md#_perception) +8, [Stealth](../skills/stealth.md#_stealth) +10 (+14 in undergrowth), [Swim](../skills/swim.md#_swim) +11; **Racial Modifiers** +4 [Stealth](../skills/stealth.md#_stealth) (+8 in undergrowth)
+**Skills** [Climb](../skills/climb#_climb) +7, [Perception](../skills/perception#_perception) +8, [Stealth](../skills/stealth#_stealth) +10 (+14 in undergrowth), [Swim](../skills/swim#_swim) +11; **Racial Modifiers** +4 [Stealth](../skills/stealth#_stealth) (+8 in undergrowth)
 
 **Ecology**
 
@@ -44,7 +44,7 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Special Abilities**
 
-**Poison (Ex)** Bite—injury; _save_ Fort DC 14; _onset_ 1 minute; _frequency_ 1/hour for 6 hours; _effect_ 1d2 Dexterity [damage](universalMonsterRules.md#_ability-damage-and-drain); _cure_ 1 save. The save DC is Constitution-based.
+**Poison (Ex)** Bite—injury; _save_ Fort DC 14; _onset_ 1 minute; _frequency_ 1/hour for 6 hours; _effect_ 1d2 Dexterity [damage](universalMonsterRules#_ability-damage-and-drain); _cure_ 1 save. The save DC is Constitution-based.
 
 Monitor lizards are large enough to pose a threat to humans, and in some societies are often mistaken for dragons. Some can reach lengths of 10 feet or more and weights of 350 pounds.
 
@@ -62,9 +62,9 @@ _This bright-eyed lizard is larger than a horse. As it hisses in anger, a bright
 
 **XP 1,600**
 
-N Large [animal](creatureTypes.md#_animal)
+N Large [animal](creatureTypes#_animal)
 
-**Init** +5; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +11
+**Init** +5; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +11
 
 **Defense**
 
@@ -90,9 +90,9 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Base Atk** +5; **CMB** +11; **CMD** 22 (26 vs. trip)
 
-**Feats** [Great Fortitude](../feats.md#_great-fortitude), [Improved Initiative](../feats.md#_improved-initiative), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
+**Feats** [Great Fortitude](../feats#_great-fortitude), [Improved Initiative](../feats#_improved-initiative), [Lightning Reflexes](../feats#_lightning-reflexes), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception))
 
-**Skills** [Climb](../skills/climb.md#_climb) +13, [Perception](../skills/perception.md#_perception) +11, [Stealth](../skills/stealth.md#_stealth) +8; **Racial Modifiers** +4 [Stealth](../skills/stealth.md#_stealth)
+**Skills** [Climb](../skills/climb#_climb) +13, [Perception](../skills/perception#_perception) +11, [Stealth](../skills/stealth#_stealth) +8; **Racial Modifiers** +4 [Stealth](../skills/stealth#_stealth)
 
 **Ecology**
 

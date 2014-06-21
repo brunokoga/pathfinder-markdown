@@ -6,9 +6,9 @@ Voonith CR 4
 
 XP 1,200
 
-CN Small magical beast ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
+CN Small magical beast ( [aquatic](monsters/creatureTypes#_aquatic-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +8
+**Init** +3; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +8
 
 Defense
 
@@ -26,7 +26,7 @@ Offense
 
 **Space** 5 ft.; **Reach** 5 ft. (10 ft. with bite)
 
-**Special Attacks** blood-freezing howl, [pounce](monsters/universalMonsterRules.md#_pounce)
+**Special Attacks** blood-freezing howl, [pounce](monsters/universalMonsterRules#_pounce)
 
 Statistics
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +5; **CMD** 18 (26 vs. trip)
 
-**Feats** [Ability Focus](monsters/monsterFeats.md#_ability-focus) (blood-freezing howl), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception)), [Weapon Focus](feats.md#_weapon-focus) (bite)
+**Feats** [Ability Focus](monsters/monsterFeats#_ability-focus) (blood-freezing howl), [Skill Focus](feats#_skill-focus) ( [Perception](skills/perception#_perception)), [Weapon Focus](feats#_weapon-focus) (bite)
 
-**Skills** [Perception](skills/perception.md#_perception) +8, [Stealth](skills/stealth.md#_stealth) +12, [Swim](skills/swim.md#_swim) +17
+**Skills** [Perception](skills/perception#_perception) +8, [Stealth](skills/stealth#_stealth) +12, [Swim](skills/swim#_swim) +17
 
 **SQ** amphibious
 
@@ -52,7 +52,7 @@ Ecology
 
 Special Abilities
 
-**Blood-Freezing Howl (Su)** As a standard action, a voonith can unleash a bloodcurdling howl. All creatures within a 30-foot-radius burst must succeed at a DC 15 Will save or become dazed for 1 round and then shaken for an additional 1d6 rounds. Any creature that makes a successful save against a voonith's howl is immune to the same voonith's howl for 24 hours. This is a sonic mind-affecting [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) effect. The save DC is Charisma-based.
+**Blood-Freezing Howl (Su)** As a standard action, a voonith can unleash a bloodcurdling howl. All creatures within a 30-foot-radius burst must succeed at a DC 15 Will save or become dazed for 1 round and then shaken for an additional 1d6 rounds. Any creature that makes a successful save against a voonith's howl is immune to the same voonith's howl for 24 hours. This is a sonic mind-affecting [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) effect. The save DC is Charisma-based.
 
 Cunning and aggressive, vooniths are amphibious nocturnal predators with voracious appetites and mild intelligence. A voonith's howl is said to freeze the blood and is more than capable of stopping a creature in its tracks. Vooniths usually howl when they see prey too far away from the water's edge to ambush. While the vooniths are native to the strange Dimension of Dream, many have found their way out of that realm and into the waking world to take up lairs in the swampy fens and remote coastlines of the world. How the vooniths originally managed to make this transition between worlds is unclear.
 

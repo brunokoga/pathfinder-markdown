@@ -1,6 +1,6 @@
 Disintegrate
 
-**Source** [_disintegrate_](spells/disintegrate.md#_disintegrate)
+**Source** [_disintegrate_](spells/disintegrate#_disintegrate)
 
 The damage dealt increases to 3d6 points of damage per caster level (maximum 60d6) plus 1d4 points of Constitution damage. A creature that succeeds at its saving throw takes 5d8 points of damage plus 1 point of Constitution damage.
 

@@ -12,9 +12,9 @@
 
 **Duration** 1 min./level
 
-**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) negates (harmless); **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to [Charisma](../gettingStarted.md#_charisma-new), adding the usual benefits to [Charisma](../gettingStarted.md#_charisma-new)-based skill checks and other uses of the [Charisma](../gettingStarted.md#_charisma-new) modifier. Bards, paladins, and sorcerers (and other spellcasters who rely on [Charisma](../gettingStarted.md#_charisma-new)) affected by this spell do not gain any additional bonus spells for the increased [Charisma](../gettingStarted.md#_charisma-new), but the save DCs for spells they cast while under this spell's effect do increase.
+The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to [Charisma](../gettingStarted#_charisma-new), adding the usual benefits to [Charisma](../gettingStarted#_charisma-new)-based skill checks and other uses of the [Charisma](../gettingStarted#_charisma-new) modifier. Bards, paladins, and sorcerers (and other spellcasters who rely on [Charisma](../gettingStarted#_charisma-new)) affected by this spell do not gain any additional bonus spells for the increased [Charisma](../gettingStarted#_charisma-new), but the save DCs for spells they cast while under this spell's effect do increase.
 
 **Eagle's Splendor, Mass**
 

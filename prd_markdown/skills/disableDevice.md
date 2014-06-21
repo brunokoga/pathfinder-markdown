@@ -1,6 +1,6 @@
 # Disable Device
 
-## ( [Dex](../gettingStarted.md#_dexterity); Armor Check Penalty; Trained Only)
+## ( [Dex](../gettingStarted#_dexterity); Armor Check Penalty; Trained Only)
 
 You are skilled at disarming traps and opening locks. In addition, this skill lets you sabotage simple mechanical devices, such as catapults, wagon wheels, and doors.
 
@@ -33,7 +33,7 @@ _Open Locks_: The DC for opening a lock depends on its quality. If you do not ha
 
 **Try Again** : Varies. You can retry checks made to disable traps if you miss the check by 4 or less. You can retry checks made to open locks.
 
-**Special** : If you have the [Deft Hands](../feats.md#_deft-hands) feat, you get a bonus on Disable Device checks (see [Feats](../feats.md)).
+**Special** : If you have the [Deft Hands](../feats#_deft-hands) feat, you get a bonus on Disable Device checks (see [Feats](../feats)).
 
 A rogue who beats a trap's DC by 10 or more can study the trap, figure out how it works, and bypass it without disarming it. A rogue can rig a trap so her allies can bypass it as well.
 

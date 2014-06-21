@@ -6,11 +6,11 @@ Penanggalen CR 5
 
 XP 1,600
 
-[Human](monsters/creatureTypes.md#_human-subtype) penanggalen witch 5
+[Human](monsters/creatureTypes#_human-subtype) penanggalen witch 5
 
-NE Medium undead ( [augmented](monsters/creatureTypes.md#_augmented-subtype) humanoid)
+NE Medium undead ( [augmented](monsters/creatureTypes#_augmented-subtype) humanoid)
 
-**Init** +4; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +16
+**Init** +4; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +16
 
 Defense
 
@@ -20,7 +20,7 @@ Defense
 
 **Fort** +4, **Ref** +5, **Will** +7
 
-**Defensive Abilities** channel [resistance](monsters/universalMonsterRules.md#_resistance) +4; **DR** 5/silver and slashing; **Immune** undead traits; **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10
+**Defensive Abilities** channel [resistance](monsters/universalMonsterRules#_resistance) +4; **DR** 5/silver and slashing; **Immune** undead traits; **Resist** [cold](monsters/creatureTypes#_cold-subtype) 10, [fire](monsters/creatureTypes#_fire-subtype) 10
 
 **Weaknesses** light sensitivity, penanggalen weaknesses
 
@@ -28,19 +28,19 @@ Offense
 
 **Speed** fly 60 ft. (good)
 
-**Melee** bite +6 (1d6+4 plus [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su))), slam +6 (1d4+4 plus [grab](monsters/universalMonsterRules.md#_grab) and wither)
+**Melee** bite +6 (1d6+4 plus [disease](monsters/universalMonsterRules#_disease-(ex-or-su))), slam +6 (1d4+4 plus [grab](monsters/universalMonsterRules#_grab) and wither)
 
-**Special Attacks** [blood drain](monsters/universalMonsterRules.md#_blood-drain) (1d4 Constitution), create spawn, [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) (filth fever, DC 15), hexes (cackle, [evil](monsters/creatureTypes.md#_evil-subtype) eye, misfortune)
+**Special Attacks** [blood drain](monsters/universalMonsterRules#_blood-drain) (1d4 Constitution), create spawn, [disease](monsters/universalMonsterRules#_disease-(ex-or-su)) (filth fever, DC 15), hexes (cackle, [evil](monsters/creatureTypes#_evil-subtype) eye, misfortune)
 
 **Witch Spells Prepared** (CL 5th; concentration +8)
 
-3rd—_ [stinking cloud](spells/stinkingCloud.md#_stinking-cloud)_ (DC 16)
+3rd—_ [stinking cloud](spells/stinkingCloud#_stinking-cloud)_ (DC 16)
 
-2nd—_ [glitterdust](spells/glitterdust.md#_glitterdust)_ (DC 15), _ [hold person](spells/holdPerson.md#_hold-person)_ (DC 16), _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_
+2nd—_ [glitterdust](spells/glitterdust#_glitterdust)_ (DC 15), _ [hold person](spells/holdPerson#_hold-person)_ (DC 16), _ [see invisibility](spells/seeInvisibility#_see-invisibility)_
 
-1st—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 15), _ [command](spells/command.md#_command)_ (DC 15), _ [mage armor](spells/mageArmor.md#_mage-armor)_, _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_
+1st—_ [charm person](spells/charmPerson#_charm-person)_ (DC 15), _ [command](spells/command#_command)_ (DC 15), _ [mage armor](spells/mageArmor#_mage-armor)_, _ [obscuring mist](spells/obscuringMist#_obscuring-mist)_
 
-0 (at will)—_ [bleed](spells/bleed.md#_bleed)_ (DC 13), _ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [detect magic](spells/detectMagic.md#_detect-magic)_, _ [read magic](spells/readMagic.md#_read-magic)_, _ [touch of fatigue](spells/touchOfFatigue.md#_touch-of-fatigue) _(DC 13)
+0 (at will)—_ [bleed](spells/bleed#_bleed)_ (DC 13), _ [dancing lights](spells/dancingLights#_dancing-lights)_, _ [detect magic](spells/detectMagic#_detect-magic)_, _ [read magic](spells/readMagic#_read-magic)_, _ [touch of fatigue](spells/touchOfFatigue#_touch-of-fatigue) _(DC 13)
 
 **Patron** Plague
 
@@ -50,10 +50,10 @@ Statistics
 
 **Base Atk** +2; **CMB** +6 (+10 grapple); **CMD** 21
 
-**Feats** [Dodge](feats.md#_dodge), [Eschew Materials](feats.md#_eschew-materials), [Spell Focus](feats.md#_spell-focus) (enchantment)
+**Feats** [Dodge](feats#_dodge), [Eschew Materials](feats#_eschew-materials), [Spell Focus](feats#_spell-focus) (enchantment)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +11, [Fly](skills/fly.md#_fly) +16, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +19, [Knowledge](skills/knowledge.md#_knowledge) (nature) +7, [Perception](skills/perception.md#_perception) +16, [Sense Motive](skills/senseMotive.md#_sense-motive) +14, [Spellcraft](skills/spellcraft.md#_spellcraft) +11,   
- [Stealth](skills/stealth.md#_stealth) +17, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +11; **Racial Modifiers** +8 [Bluff](skills/bluff.md#_bluff), +8 [Fly](skills/fly.md#_fly), +8 [Knowledge](skills/knowledge.md#_knowledge) (arcana), +8 [Perception](skills/perception.md#_perception), +8 [Sense Motive](skills/senseMotive.md#_sense-motive), +8 [Stealth](skills/stealth.md#_stealth)
+**Skills** [Bluff](skills/bluff#_bluff) +11, [Fly](skills/fly#_fly) +16, [Knowledge](skills/knowledge#_knowledge) (arcana) +19, [Knowledge](skills/knowledge#_knowledge) (nature) +7, [Perception](skills/perception#_perception) +16, [Sense Motive](skills/senseMotive#_sense-motive) +14, [Spellcraft](skills/spellcraft#_spellcraft) +11,   
+ [Stealth](skills/stealth#_stealth) +17, [Use Magic Device](skills/useMagicDevice#_use-magic-device) +11; **Racial Modifiers** +8 [Bluff](skills/bluff#_bluff), +8 [Fly](skills/fly#_fly), +8 [Knowledge](skills/knowledge#_knowledge) (arcana), +8 [Perception](skills/perception#_perception), +8 [Sense Motive](skills/senseMotive#_sense-motive), +8 [Stealth](skills/stealth#_stealth)
 
 **Languages** Common, Draconic, Gnoll, Infernal
 
@@ -123,7 +123,7 @@ _Wither (Su)_: A penanggalen's entrails drip with a foul bile that blisters and 
 
 **Ability Scores** : Str +6, Dex +4, Int +2, Wis +2, Cha +4. As an undead creature, a penanggalen has no Constitution score.
 
-**Skills** : A penanggalen gains a +8 racial bonus on [Bluff](skills/bluff.md#_bluff), [Fly](skills/fly.md#_fly), [Knowledge](skills/knowledge.md#_knowledge) (arcana), [Perception](skills/perception.md#_perception), [Sense Motive](skills/senseMotive.md#_sense-motive), and [Stealth](skills/stealth.md#_stealth) checks.
+**Skills** : A penanggalen gains a +8 racial bonus on [Bluff](skills/bluff#_bluff), [Fly](skills/fly#_fly), [Knowledge](skills/knowledge#_knowledge) (arcana), [Perception](skills/perception#_perception), [Sense Motive](skills/senseMotive#_sense-motive), and [Stealth](skills/stealth#_stealth) checks.
 
 **Special Qualities** : A penanggalen gains the following special quality.
 

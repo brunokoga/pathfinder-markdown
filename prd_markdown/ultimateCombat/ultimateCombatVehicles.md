@@ -44,19 +44,19 @@ Drivers, riders, any crew, and creatures that serve as propulsion for a vehicle 
 
 Every vehicle has a method of propulsion. Creatures pull chariots and wagons. Boats and ships are propelled by water currents, wind, muscle, or all three forces. Fantastical airships are held aloft by a variety of propulsion sources, both magical and mundane. The method of propulsion typically affects the speed and maneuverability of a vehicle, but more importantly, a vehicle's propulsion determines the required skill needed to control a vehicle. The following are the general methods of vehicle propulsion, along with what skills are typically needed to drive such vehicles.
 
-**Alchemical** : Rarely, an alchemical engine may propel a vehicle. Powered by steam or more volatile gases and reagents, a vehicle with an alchemical engine requires either a [Knowledge](skills/knowledge.md#_knowledge) (arcana) or [Craft](skills/craft.md#_craft) (alchemy) check to be driven. The base DC to drive an alchemical vehicle is 10 higher than normal. Alchemical engines can be extremely powerful, with the ability to propel vehicles hundreds of times their size. They can also be very fickle when driven by creatures uninitiated in the secrets of alchemy.
+**Alchemical** : Rarely, an alchemical engine may propel a vehicle. Powered by steam or more volatile gases and reagents, a vehicle with an alchemical engine requires either a [Knowledge](skills/knowledge#_knowledge) (arcana) or [Craft](skills/craft#_craft) (alchemy) check to be driven. The base DC to drive an alchemical vehicle is 10 higher than normal. Alchemical engines can be extremely powerful, with the ability to propel vehicles hundreds of times their size. They can also be very fickle when driven by creatures uninitiated in the secrets of alchemy.
 
 When a driver makes a driving check to control an alchemically propelled vehicle with a Wisdom check or a skill she is not trained in and rolls a natural 1, the vehicle's alchemical engine gains the broken condition. When it gains the broken condition, the vehicle's maximum speed and acceleration are both halved, and if the vehicle is currently moving at a rate faster than its new maximum speed, it immediately slows to that speed.
 
-**Current** : From canoes and large ships to winged gliders, vehicles propelled by currents typically manipulate an already existing power source within or outside of nature—an air current, a water current, or more exotic currents, like conduits of magical energy. Usually, manipulating a current-propelled vehicle requires a skill like [Fly](skills/fly.md#_fly), [Knowledge](skills/knowledge.md#_knowledge) (nature), [Profession](skills/profession.md#_profession) (sailor), [Survival](skills/survival.md#_survival), or even [Acrobatics](skills/acrobatics.md#_acrobatics) or [Knowledge](skills/knowledge.md#_knowledge) (arcana), depending on the nature or makeup of the vehicle and the current the vehicle is manipulating.
+**Current** : From canoes and large ships to winged gliders, vehicles propelled by currents typically manipulate an already existing power source within or outside of nature—an air current, a water current, or more exotic currents, like conduits of magical energy. Usually, manipulating a current-propelled vehicle requires a skill like [Fly](skills/fly#_fly), [Knowledge](skills/knowledge#_knowledge) (nature), [Profession](skills/profession#_profession) (sailor), [Survival](skills/survival#_survival), or even [Acrobatics](skills/acrobatics#_acrobatics) or [Knowledge](skills/knowledge#_knowledge) (arcana), depending on the nature or makeup of the vehicle and the current the vehicle is manipulating.
 
-_Water Current_: Vehicles that only rely on currents of water for their propulsion are somewhat limited. These vehicles can only move in the direction and at the speed of a current unless they also employ some other means of propulsion or manipulation, and thus often have an additional form of propulsion, such as muscle in the case of a canoe, and wind in the case of a galley. A current-driven ship such as a river barge with a crew of two or more creatures requires either a [Profession](skills/profession.md#_profession) (sailor) or [Knowledge](skills/knowledge.md#_knowledge) (nature) check for the driving check, as ships require precision, discipline, and knowledge of the natural world. Smaller water-current vehicles, like canoes, use the [Survival](skills/survival.md#_survival) skill as the drive skill, as reading the terrain is a very important aspect of maintaining control over those types of vehicles.  
+_Water Current_: Vehicles that only rely on currents of water for their propulsion are somewhat limited. These vehicles can only move in the direction and at the speed of a current unless they also employ some other means of propulsion or manipulation, and thus often have an additional form of propulsion, such as muscle in the case of a canoe, and wind in the case of a galley. A current-driven ship such as a river barge with a crew of two or more creatures requires either a [Profession](skills/profession#_profession) (sailor) or [Knowledge](skills/knowledge#_knowledge) (nature) check for the driving check, as ships require precision, discipline, and knowledge of the natural world. Smaller water-current vehicles, like canoes, use the [Survival](skills/survival#_survival) skill as the drive skill, as reading the terrain is a very important aspect of maintaining control over those types of vehicles.  
 If it moves with the current, a water-current vehicle's maximum speed depends on the speed of the current (often as high as 120 feet). The acceleration of a water-current vehicle is 30 feet.
 
   
   
 
-_Air Current_: Air-current vehicles are rather diverse. They can be sailing ships, airships, land ships, or even gliders. A vehicle propelled by air with a crew of two or more creatures requires a [Profession](skills/profession.md#_profession) (sailor) or [Knowledge](skills/knowledge.md#_knowledge) (nature) check as its driving check. Because of their complexity, air-current vehicles always have their driving check DCs increased by 10. Smaller air-current vehicles, such as gliders and wind sleds, use [Acrobatics](skills/acrobatics.md#_acrobatics) or [Fly](skills/fly.md#_fly) instead. Much of their control depends on knowledge of flight or proper movements of the body to control the vehicle.   
+_Air Current_: Air-current vehicles are rather diverse. They can be sailing ships, airships, land ships, or even gliders. A vehicle propelled by air with a crew of two or more creatures requires a [Profession](skills/profession#_profession) (sailor) or [Knowledge](skills/knowledge#_knowledge) (nature) check as its driving check. Because of their complexity, air-current vehicles always have their driving check DCs increased by 10. Smaller air-current vehicles, such as gliders and wind sleds, use [Acrobatics](skills/acrobatics#_acrobatics) or [Fly](skills/fly#_fly) instead. Much of their control depends on knowledge of flight or proper movements of the body to control the vehicle.   
 Smaller vehicles (size Large or smaller) can move at a speed of 60 feet, can move at twice that amount when they are moving with the air current, and have an acceleration of 30 feet. Larger vehicles can move at a speed of 90 feet, or twice that amount when they are moving with the air current, and have an acceleration of 30 feet.
 
   
@@ -65,20 +65,20 @@ Smaller vehicles (size Large or smaller) can move at a speed of 60 feet, can mov
 _Weird Current_: Navigating currents of magical energy, burning magma, or the murky rivers of the Shadow Plane could use a number of skills, but likely use skills similar to those needed to operate water-current and air-current vehicles. Weird-current vehicles always have their driving check DCs increased by 10, and sometimes by 15 in more exotic locales and conditions.  
 Weird-current vehicles typically move at the speed of water or air currents, depending on their nature, but have been known to move twice or even triple those speeds.
 
-**Magic** : Magic provides some of the most powerful and easy-to-use methods of propelling a vehicle, such as an elemental-powered juggernaut or an airship with an arcane device at its heart. Often simply identifying the properties of the magic item providing propulsion gives a creature the ability to use it, but sometimes more complicated magical devices require [Spellcraft](skills/spellcraft.md#_spellcraft) or [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) to drive properly.
+**Magic** : Magic provides some of the most powerful and easy-to-use methods of propelling a vehicle, such as an elemental-powered juggernaut or an airship with an arcane device at its heart. Often simply identifying the properties of the magic item providing propulsion gives a creature the ability to use it, but sometimes more complicated magical devices require [Spellcraft](skills/spellcraft#_spellcraft) or [Use Magic Device](skills/useMagicDevice#_use-magic-device) to drive properly.
 
-**Muscle** : From a chariot to a slave ship filled with captive rowers, moving a vehicle powered by muscle is all about getting a creature or creatures to push, pull, or otherwise propel the vehicle. Based on the type and intelligence of the creatures moving the vehicle, checks for driving muscle-propelled vehicles can use a diverse number of skills, including, but not limited to, [Diplomacy](skills/diplomacy.md#_diplomacy), [Handle Animal](skills/handleAnimal.md#_handle-animal), [Intimidate](skills/intimidate.md#_intimidate), and [Profession](skills/profession.md#_profession) (driver).
+**Muscle** : From a chariot to a slave ship filled with captive rowers, moving a vehicle powered by muscle is all about getting a creature or creatures to push, pull, or otherwise propel the vehicle. Based on the type and intelligence of the creatures moving the vehicle, checks for driving muscle-propelled vehicles can use a diverse number of skills, including, but not limited to, [Diplomacy](skills/diplomacy#_diplomacy), [Handle Animal](skills/handleAnimal#_handle-animal), [Intimidate](skills/intimidate#_intimidate), and [Profession](skills/profession#_profession) (driver).
 
 Muscle-propelled vehicles come in two forms: pulled and pushed.
 
-_Pulled_: This type of propulsion involves one or more creature pulling a vehicle. Unless the creature pulling the vehicle is intelligent (Intelligence score of 3 or higher), either [Handle Animal](skills/handleAnimal.md#_handle-animal) or [Profession](skills/profession.md#_profession) (driver) is used for the driving check (driver's choice). Intelligent creatures must be convinced with a [Diplomacy](skills/diplomacy.md#_diplomacy) check (decrease the driving check by 5 if the creature or creatures have the helpful attitude), or forced with an [Intimidate](skills/intimidate.md#_intimidate) check. Forcing an intelligent creature to pull a vehicle increases the DC by 20.  
+_Pulled_: This type of propulsion involves one or more creature pulling a vehicle. Unless the creature pulling the vehicle is intelligent (Intelligence score of 3 or higher), either [Handle Animal](skills/handleAnimal#_handle-animal) or [Profession](skills/profession#_profession) (driver) is used for the driving check (driver's choice). Intelligent creatures must be convinced with a [Diplomacy](skills/diplomacy#_diplomacy) check (decrease the driving check by 5 if the creature or creatures have the helpful attitude), or forced with an [Intimidate](skills/intimidate#_intimidate) check. Forcing an intelligent creature to pull a vehicle increases the DC by 20.  
 A creature can pull a number of vehicle squares equal to the number of squares in the creature's space to a top speed equal to twice the creature's speed. It can accelerate its space in vehicle squares up to its speed. For instance, a single horse takes up 4 squares, and can pull a 4-square cart 100 feet each round with an acceleration of 50 feet.
 
   
   
 
-_Pushed_: Pushed vehicles are the exact opposite of pulled vehicles—vehicles that are pushed by muscle, usually using some form of device manipulated by crew members. Aquatic vehicles are the most likely to be pushed. Lines of rowers use their oars to push the vehicle forward, or a pair of cloud giants may churn a propeller at the aft end of a dirigible. Driving checks for pushed vehicles tend to be [Diplomacy](skills/diplomacy.md#_diplomacy), [Intimidate](skills/intimidate.md#_intimidate), or [Handle Animal](skills/handleAnimal.md#_handle-animal), depending on the intelligence and attitude of the creatures supplying the muscle for the propulsion.  
-For intelligent creatures, use [Diplomacy](skills/diplomacy.md#_diplomacy) if the creatures providing the propulsion have an attitude of indifferent, friendly, or helpful. Decrease the [Diplomacy](skills/diplomacy.md#_diplomacy) driving check by 5 if the creatures providing the propulsion are friendly. [Intimidate](skills/intimidate.md#_intimidate) is used for intelligent creatures with an attitude of unfriendly or hostile. [Handle Animal](skills/handleAnimal.md#_handle-animal) is used if the creatures providing the propulsion are not intelligent.  
+_Pushed_: Pushed vehicles are the exact opposite of pulled vehicles—vehicles that are pushed by muscle, usually using some form of device manipulated by crew members. Aquatic vehicles are the most likely to be pushed. Lines of rowers use their oars to push the vehicle forward, or a pair of cloud giants may churn a propeller at the aft end of a dirigible. Driving checks for pushed vehicles tend to be [Diplomacy](skills/diplomacy#_diplomacy), [Intimidate](skills/intimidate#_intimidate), or [Handle Animal](skills/handleAnimal#_handle-animal), depending on the intelligence and attitude of the creatures supplying the muscle for the propulsion.  
+For intelligent creatures, use [Diplomacy](skills/diplomacy#_diplomacy) if the creatures providing the propulsion have an attitude of indifferent, friendly, or helpful. Decrease the [Diplomacy](skills/diplomacy#_diplomacy) driving check by 5 if the creatures providing the propulsion are friendly. [Intimidate](skills/intimidate#_intimidate) is used for intelligent creatures with an attitude of unfriendly or hostile. [Handle Animal](skills/handleAnimal#_handle-animal) is used if the creatures providing the propulsion are not intelligent.  
 A creature that is pushing a vehicle with the proper mechanical help can push between 5 times to 20 times its space in vehicle squares.  
 The maximum speed and acceleration of a muscle-propelled vehicle depends on the mechanism used to assist the pushing—see the sample vehicle statistics for examples.
 
@@ -121,7 +121,7 @@ _Accelerate (standard action)_: With a successful driving check, the vehicle's c
   
   
 
-_Decelerate (standard action)_: With a successful driving check, the vehicle's current speed decreases by a rate up to its acceleration (in 5-foot increments; minimum 5 feet). On a failed check, the vehicle does not decelerate. Either way, the vehicle can move forward diagonally. If deceleration reduces a vehicle's speed to 0, some amount of inertia will continue to move the vehicle forward. The vehicle moves forward (either directly forward or forward diagonally) 1d4 × 5 feet before coming to a complete stop. Having the [Expert Driver](ultimateCombat/ultimateCombatFeats.md#_expert-driver) feat reduces this distance by 10 feet (minimum 0 feet).
+_Decelerate (standard action)_: With a successful driving check, the vehicle's current speed decreases by a rate up to its acceleration (in 5-foot increments; minimum 5 feet). On a failed check, the vehicle does not decelerate. Either way, the vehicle can move forward diagonally. If deceleration reduces a vehicle's speed to 0, some amount of inertia will continue to move the vehicle forward. The vehicle moves forward (either directly forward or forward diagonally) 1d4 × 5 feet before coming to a complete stop. Having the [Expert Driver](ultimateCombat/ultimateCombatFeats#_expert-driver) feat reduces this distance by 10 feet (minimum 0 feet).
 
   
   
@@ -167,11 +167,11 @@ Vehicles and creatures that occupy vehicles can enter the spaces of other vehicl
 
 **Line of Sight and Cover** : Vehicles typically grant their occupants partial cover (+2 to AC and +1 on Reflex saving throws) against those outside the vehicle, and may grant partial cover against opponents within the vehicles as well. Vehicles with more protection or internal chambers can offer greater cover and can even block line of sight.
 
-**Jumping On or Off a Vehicle** : Jumping on a vehicle is a normal jump of its distance assuming the vehicle has a deck or handholds within the character's height from the ground. Increase the DC of the [Acrobatics](skills/acrobatics.md#_acrobatics) check by 5 for every 30 feet of the vehicle's current speed. If the jumping creature is on a moving vehicle, calculate the increase in the [Acrobatics](skills/acrobatics.md#_acrobatics) skill check DC by calculating the difference between the current speeds of the two vehicles. For every difference of 30 feet (round up), the DC increases by 5.
+**Jumping On or Off a Vehicle** : Jumping on a vehicle is a normal jump of its distance assuming the vehicle has a deck or handholds within the character's height from the ground. Increase the DC of the [Acrobatics](skills/acrobatics#_acrobatics) check by 5 for every 30 feet of the vehicle's current speed. If the jumping creature is on a moving vehicle, calculate the increase in the [Acrobatics](skills/acrobatics#_acrobatics) skill check DC by calculating the difference between the current speeds of the two vehicles. For every difference of 30 feet (round up), the DC increases by 5.
 
-For example, jumping onto a vehicle with a current speed of 90 feet increases the DC by 15 if the jumper is not also on a moving vehicle. If the jumper is on a moving vehicle, and that vehicle is moving at the same current speed as the vehicle the jumper wants to jump to, there is no increase to the DC. If the difference between their speeds is less than 30 feet, the DC of the [Acrobatics](skills/acrobatics.md#_acrobatics) check increases by 5. If it's between 30 and 60, it increases by 10, and so on.
+For example, jumping onto a vehicle with a current speed of 90 feet increases the DC by 15 if the jumper is not also on a moving vehicle. If the jumper is on a moving vehicle, and that vehicle is moving at the same current speed as the vehicle the jumper wants to jump to, there is no increase to the DC. If the difference between their speeds is less than 30 feet, the DC of the [Acrobatics](skills/acrobatics#_acrobatics) check increases by 5. If it's between 30 and 60, it increases by 10, and so on.
 
-Jumping off a vehicle onto the ground is considered a fall, and treated as if the fall were an additional 10 feet farther for every 30 feet of the vehicle's movement for the purposes of determining damage. [Acrobatics](skills/acrobatics.md#_acrobatics) can be used to soften this fall, and magic abilities such as _ [feather fall](spells/featherFall.md#_feather-fall)_ can be used to negate the effects of jumping off a vehicle.
+Jumping off a vehicle onto the ground is considered a fall, and treated as if the fall were an additional 10 feet farther for every 30 feet of the vehicle's movement for the purposes of determining damage. [Acrobatics](skills/acrobatics#_acrobatics) can be used to soften this fall, and magic abilities such as _ [feather fall](spells/featherFall#_feather-fall)_ can be used to negate the effects of jumping off a vehicle.
 
 **Taking Control of a Vehicle** : If a vehicle has no driver, any creature can take control of the vehicle as long as the creature is within the driving space of the vehicle and makes a driving check as a free action. The vehicle's driver can always give over control to another adjacent creature that is within the driving space of the vehicle as a free action. When a new creature becomes the driver, the vehicle moves on the new driver's turn, but not on the new driver's first turn after taking control of the vehicle.
 
@@ -219,15 +219,15 @@ _Attacking Conveyance_: An attack against wheels, rudders, or similar forms of c
   
 
 _Vehicular Overrun_: Any time any part of a vehicle (including any creatures used as propulsion) enters the space of a creature or vehicle smaller than it, the driver must make a vehicular overrun combat maneuver against the creature or vehicle. This may require the driver to make vehicular overrun checks against the same creature numerous times as new parts of the vehicle enter its square.  
-When performing a vehicular overrun, the driver uses the base CMB of the vehicle plus her driving skill modifier (or Wisdom skill modifier if she is using that ability to drive the vehicle) as the CMB of the vehicular overrun. If the driver has feats that improve her CMB when overrunning, like the [Improved Overrun](feats.md#_improved-overrun) feat, she may also add those modifiers and benefits to the vehicular overrun. Like a normal overrun, this action provokes an attack of opportunity from the creature being overrun, unless the driver has the [Improved Overrun](feats.md#_improved-overrun) feat. The creature being overrun can make this attack of opportunity on any part of the vehicle that is within reach.  
-When a vehicular overrun is attempted, the target of the overrun may choose to avoid the vehicle, allowing the vehicle to pass through its space without requiring a vehicular overrun maneuver check. The creature or vehicle cannot avoid a maneuver check if the driver has the [Improved Overrun](feats.md#_improved-overrun) feat, the vehicle is two or more size categories larger than the target, or the target creature is confused, dazed, entangled, flat-footed, helpless, paralyzed, prone, or stunned. If the target does not avoid the vehicle, make the combat maneuver check as normal. If the maneuver is successful, the vehicle moves through the target's space, and the target of the overrun takes the vehicle's ramming damage. If the driver's combat maneuver check exceeds the target's CMD by 5 or more, the target takes twice the vehicle's ramming damage. If the target is a creature, it is also knocked prone. If the target has more than two legs, it gets a +2 bonus to its CMD for each additional leg it has. Vehicles that are overrun are knocked prone if the opposing driver's combat maneuver check result exceeds the vehicle's CMD by 10 or more. A vehicle that is knocked prone makes a sudden stop.  
-It takes at least 5 full-round actions and a DC 25 Strength check from creatures adjacent to the vehicle to push a Large land or water vehicle up from being prone. For every size category that the vehicle is larger than size Large, increase the number of full-round actions by three and the Strength check DC by 5. The driver of a prone air vehicle must succeed at a DC 25 [Fly](skills/fly.md#_fly) check immediately to avoid falling. A vehicle equipped with a ram deals +2d8 points of damage with a vehicular overrun.
+When performing a vehicular overrun, the driver uses the base CMB of the vehicle plus her driving skill modifier (or Wisdom skill modifier if she is using that ability to drive the vehicle) as the CMB of the vehicular overrun. If the driver has feats that improve her CMB when overrunning, like the [Improved Overrun](feats#_improved-overrun) feat, she may also add those modifiers and benefits to the vehicular overrun. Like a normal overrun, this action provokes an attack of opportunity from the creature being overrun, unless the driver has the [Improved Overrun](feats#_improved-overrun) feat. The creature being overrun can make this attack of opportunity on any part of the vehicle that is within reach.  
+When a vehicular overrun is attempted, the target of the overrun may choose to avoid the vehicle, allowing the vehicle to pass through its space without requiring a vehicular overrun maneuver check. The creature or vehicle cannot avoid a maneuver check if the driver has the [Improved Overrun](feats#_improved-overrun) feat, the vehicle is two or more size categories larger than the target, or the target creature is confused, dazed, entangled, flat-footed, helpless, paralyzed, prone, or stunned. If the target does not avoid the vehicle, make the combat maneuver check as normal. If the maneuver is successful, the vehicle moves through the target's space, and the target of the overrun takes the vehicle's ramming damage. If the driver's combat maneuver check exceeds the target's CMD by 5 or more, the target takes twice the vehicle's ramming damage. If the target is a creature, it is also knocked prone. If the target has more than two legs, it gets a +2 bonus to its CMD for each additional leg it has. Vehicles that are overrun are knocked prone if the opposing driver's combat maneuver check result exceeds the vehicle's CMD by 10 or more. A vehicle that is knocked prone makes a sudden stop.  
+It takes at least 5 full-round actions and a DC 25 Strength check from creatures adjacent to the vehicle to push a Large land or water vehicle up from being prone. For every size category that the vehicle is larger than size Large, increase the number of full-round actions by three and the Strength check DC by 5. The driver of a prone air vehicle must succeed at a DC 25 [Fly](skills/fly#_fly) check immediately to avoid falling. A vehicle equipped with a ram deals +2d8 points of damage with a vehicular overrun.
 
   
   
 
-_Vehicular Bull Rush_: As a swift action, taken when the driver takes all but the “uncontrolled” action while driving the vehicle, a driver can choose to substitute all or some of her vehicular overruns with vehicular bull rush maneuvers until the end of the vehicle's movement that turn. A vehicular bull rush pushes a creature or a vehicle away without doing harm. If the driver does not have the [Improved Bull Rush](feats.md#_improved-bull-rush) feat or a similar ability, initiating a vehicular bull rush provokes an attack of opportunity from the creature being bull rushed with the vehicle.  
-If the bull rush is successful, the target of the bull rush is pushed 5 feet away from the vehicle. If you succeed at the check for the vehicular bull rush by 5 or more, you can deal the vehicle's ramming damage to the creature. For every 5 by which your attack exceeds your opponent's CMD, you push the target an additional 5 feet away. A creature being moved by a vehicular bull rush does not provoke attacks of opportunity, unless the driver possesses the [Greater Bull Rush](feats.md#_greater-bull-rush) feat. You cannot bull rush a creature or vehicle into a square that is occupied by an object (including a vehicle). If there is another creature in the way of a bull rush, the driver must immediately make a combat maneuver check to bull rush that creature, taking a –4 penalty on this check for each creature being pushed beyond the first. If successful, the driver can continue to push the creature or vehicle a distance equal to the lesser result.
+_Vehicular Bull Rush_: As a swift action, taken when the driver takes all but the “uncontrolled” action while driving the vehicle, a driver can choose to substitute all or some of her vehicular overruns with vehicular bull rush maneuvers until the end of the vehicle's movement that turn. A vehicular bull rush pushes a creature or a vehicle away without doing harm. If the driver does not have the [Improved Bull Rush](feats#_improved-bull-rush) feat or a similar ability, initiating a vehicular bull rush provokes an attack of opportunity from the creature being bull rushed with the vehicle.  
+If the bull rush is successful, the target of the bull rush is pushed 5 feet away from the vehicle. If you succeed at the check for the vehicular bull rush by 5 or more, you can deal the vehicle's ramming damage to the creature. For every 5 by which your attack exceeds your opponent's CMD, you push the target an additional 5 feet away. A creature being moved by a vehicular bull rush does not provoke attacks of opportunity, unless the driver possesses the [Greater Bull Rush](feats#_greater-bull-rush) feat. You cannot bull rush a creature or vehicle into a square that is occupied by an object (including a vehicle). If there is another creature in the way of a bull rush, the driver must immediately make a combat maneuver check to bull rush that creature, taking a –4 penalty on this check for each creature being pushed beyond the first. If successful, the driver can continue to push the creature or vehicle a distance equal to the lesser result.
 
   
   
@@ -237,7 +237,7 @@ When a vehicle makes a ramming maneuver against a solid object, to determine how
 When a vehicle makes a ramming maneuver against a creature, a nonsolid object, or another vehicle, it can enter the space of the object or the creature, and even end its move within that space.  
 A vehicle can have a ram or similar ramming device on its forward facing. If it does, it ignores the damage for the first square it enters of a solid object, and all squares for other objects and creatures. A ram can be added to a Large vehicle for 50 gp, a Huge vehicle for 100 gp, a Gargantuan vehicle for 200 gp, and a Colossal vehicle for 400 gp. A vehicle cannot have a ram if it uses muscle propulsion (pulled).  
 If a vehicle is being pulled by a creature or creatures when the vehicle takes damage due to a ramming maneuver, the creatures that are pulling it are damaged as well, and are knocked prone. A successful Reflex saving throw (DC 10 + 1 for every 10 feet of the speed the vehicle was moving when it hit the vehicle, structure, or creature) halves the damage and the creatures pulling it are not knocked prone.   
-If the vehicle making the ramming maneuver is a muscle-propelled (pulled) vehicle, the creatures pulling the vehicle attempt to avoid making a ramming maneuver. If a ramming maneuver is imminent, those creatures decelerate at a rate of up to twice their acceleration as an immediate action or attempt to swerve out of the way (automatically moving diagonally to avoid the vehicle or structure even if they were not driven to do so), avoiding the vehicle or structure if possible. The driver chooses which of these options occurs. A skilled driver can attempt to force the creature to continue the ramming maneuver, but doing so requires a DC 30 [Handle Animal](skills/handleAnimal.md#_handle-animal), [Diplomacy](skills/diplomacy.md#_diplomacy), or [Intimidate](skills/intimidate.md#_intimidate) check, depending on the type and intelligence of the creature. The driver makes this check as an immediate action when the creature tries to decelerate or swerve out of the way.
+If the vehicle making the ramming maneuver is a muscle-propelled (pulled) vehicle, the creatures pulling the vehicle attempt to avoid making a ramming maneuver. If a ramming maneuver is imminent, those creatures decelerate at a rate of up to twice their acceleration as an immediate action or attempt to swerve out of the way (automatically moving diagonally to avoid the vehicle or structure even if they were not driven to do so), avoiding the vehicle or structure if possible. The driver chooses which of these options occurs. A skilled driver can attempt to force the creature to continue the ramming maneuver, but doing so requires a DC 30 [Handle Animal](skills/handleAnimal#_handle-animal), [Diplomacy](skills/diplomacy#_diplomacy), or [Intimidate](skills/intimidate#_intimidate) check, depending on the type and intelligence of the creature. The driver makes this check as an immediate action when the creature tries to decelerate or swerve out of the way.
 
   
   
@@ -290,7 +290,7 @@ If either the means of propulsion or the vehicle is destroyed, it comes to a sud
 
 For instance, if a vehicle with a movement of 60 feet makes a sudden stop due to hitting a brick wall, its driver is thrown 30 feet toward the brick wall. If the brick wall was only 5 feet away from the driver at the point of impact, the driver moves forward 5 feet, hits the wall, and takes 5d6 points of damage. She then takes the original 1d6 points of damage, after which she makes a Reflex saving throw to see if she falls prone for the sudden stop.
 
-**Repairing a Vehicle** : The fastest and easiest way to repair a vehicle is with the _ [mending](spells/mending.md#_mending)_ and _ [make whole](spells/makeWhole.md#_make-whole) _spells, but more mundane methods can also be used. [Craft](skills/craft.md#_craft) (carpentry) can be used to repair most vehicles made of wood; because of their specialized construction, water vehicles require [Craft](skills/craft.md#_craft) (ships) to repair. Depending on the nature of the damage, such skills like [Craft](skills/craft.md#_craft) (cloth), [Craft](skills/craft.md#_craft) (alchemy), [Knowledge](skills/knowledge.md#_knowledge) (engineering), and even various professions can be used to repair vehicles, if the GM approves. In general, a day's worth of work by a single person using the appropriate skill to repair a vehicle requires 10 gp of raw material and a DC 10 skill check, and repairs 10 points of damage on a success, or 5 hit points on a failure.
+**Repairing a Vehicle** : The fastest and easiest way to repair a vehicle is with the _ [mending](spells/mending#_mending)_ and _ [make whole](spells/makeWhole#_make-whole) _spells, but more mundane methods can also be used. [Craft](skills/craft#_craft) (carpentry) can be used to repair most vehicles made of wood; because of their specialized construction, water vehicles require [Craft](skills/craft#_craft) (ships) to repair. Depending on the nature of the damage, such skills like [Craft](skills/craft#_craft) (cloth), [Craft](skills/craft#_craft) (alchemy), [Knowledge](skills/knowledge#_knowledge) (engineering), and even various professions can be used to repair vehicles, if the GM approves. In general, a day's worth of work by a single person using the appropriate skill to repair a vehicle requires 10 gp of raw material and a DC 10 skill check, and repairs 10 points of damage on a success, or 5 hit points on a failure.
 
 # Vehicle Statistics
 
@@ -372,7 +372,7 @@ This four-wheeled vehicle can transport as many as four people within an enclose
 
 **Propulsion** muscle (pulled; 6 Medium creatures or 2 Large creatures)
 
-**Driving Check** [Handle Animal](skills/handleAnimal.md#_handle-animal) or [Profession](skills/profession.md#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes.md#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) (in the case of intelligent creatures pulling the vehicle)
+**Driving Check** [Handle Animal](skills/handleAnimal#_handle-animal) or [Profession](skills/profession#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) (in the case of intelligent creatures pulling the vehicle)
 
 **Forward Facing** toward the creatures pulling the vehicle
 
@@ -410,7 +410,7 @@ This two-wheeled vehicle is often used to transport small loads of up to 300 pou
 
 **Propulsion** muscle (pulled; 2 Medium creatures or 1 Large creature)
 
-**Driving Check** [Handle Animal](skills/handleAnimal.md#_handle-animal) or [Profession](skills/profession.md#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes.md#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) (in the case of intelligent creatures pulling the vehicle)
+**Driving Check** [Handle Animal](skills/handleAnimal#_handle-animal) or [Profession](skills/profession#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) (in the case of intelligent creatures pulling the vehicle)
 
 **Forward Facing** toward the creatures pulling the vehicle
 
@@ -448,7 +448,7 @@ These two-wheeled vehicles are often used for racing or as the platform for a si
 
 **Propulsion** Muscle (pulled; 2 Medium creatures or 1 Large creature)
 
-**Driving Check** [Handle Animal](skills/handleAnimal.md#_handle-animal) or [Profession](skills/profession.md#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes.md#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) (in the case of intelligent creatures pulling the vehicle)
+**Driving Check** [Handle Animal](skills/handleAnimal#_handle-animal) or [Profession](skills/profession#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) (in the case of intelligent creatures pulling the vehicle)
 
 **Forward Facing** toward the creatures pulling the vehicle
 
@@ -486,7 +486,7 @@ This two-wheeled vehicle is often used on the battlefield to break apart infantr
 
 **Propulsion** muscle (pulled; 4 Medium creatures or 1 Large creature)
 
-**Driving Check** [Handle Animal](skills/handleAnimal.md#_handle-animal) or [Profession](skills/profession.md#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes.md#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) (in the case of intelligent creatures pulling the vehicle)
+**Driving Check** [Handle Animal](skills/handleAnimal#_handle-animal) or [Profession](skills/profession#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) (in the case of intelligent creatures pulling the vehicle)
 
 **Forward Facing** toward the creatures pulling the vehicle
 
@@ -524,7 +524,7 @@ This two-wheeled vehicle is sometimes used as a fighting platform or for transpo
 
 **Propulsion** muscle (pulled; 6 Medium creatures or 2 Large creatures)
 
-**Driving Check** [Handle Animal](skills/handleAnimal.md#_handle-animal) or [Profession](skills/profession.md#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes.md#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) (in the case of intelligent creatures)
+**Driving Check** [Handle Animal](skills/handleAnimal#_handle-animal) or [Profession](skills/profession#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) (in the case of intelligent creatures)
 
 **Forward Facing** toward the creatures pulling the vehicle
 
@@ -564,7 +564,7 @@ This open carriage uses a pair of runners instead of wheels. It is used to trave
 
 **Propulsion** muscle (pulled; 4 Medium creatures or 1 Large creature; on ice, the creatures must be clawed rather than hoofed) or current (air; 8-square sail; hp 40)
 
-**Driving Check** [Handle Animal](skills/handleAnimal.md#_handle-animal) or [Profession](skills/profession.md#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes.md#_animal) intelligence), [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) (in the case of intelligent creatures pulling the vehicle), or [Acrobatics](skills/acrobatics.md#_acrobatics) (in the case of air current; +10 to the DC)
+**Driving Check** [Handle Animal](skills/handleAnimal#_handle-animal) or [Profession](skills/profession#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes#_animal) intelligence), [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) (in the case of intelligent creatures pulling the vehicle), or [Acrobatics](skills/acrobatics#_acrobatics) (in the case of air current; +10 to the DC)
 
 **Forward Facing** toward the creatures pulling the vehicle or the front of the sleigh in the case of air current propulsion
 
@@ -602,7 +602,7 @@ This thankfully rare and expensive walking monstrosity is one of the more bizarr
 
 **Propulsion** alchemical (10 squares of alchemical engines; hardness 8, hp 200)
 
-**Driving Check** [Knowledge](skills/knowledge.md#_knowledge) (arcana) or [Craft](skills/craft.md#_craft) (alchemy) +10 to the DC
+**Driving Check** [Knowledge](skills/knowledge#_knowledge) (arcana) or [Craft](skills/craft#_craft) (alchemy) +10 to the DC
 
 **Forward Facing** one side of the square vehicle space
 
@@ -646,7 +646,7 @@ This four-wheeled vehicle is ideal for transporting decent quantities of goods b
 
 **Propulsion** muscle (pulled; 4 Medium creatures or 1 Large creature)
 
-**Driving Check** [Handle Animal](skills/handleAnimal.md#_handle-animal) or [Profession](skills/profession.md#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes.md#_animal) intelligence), [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) (in the case of intelligent creatures pulling the vehicle)
+**Driving Check** [Handle Animal](skills/handleAnimal#_handle-animal) or [Profession](skills/profession#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes#_animal) intelligence), [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) (in the case of intelligent creatures pulling the vehicle)
 
 **Forward Facing** toward the creatures pulling the vehicle
 
@@ -684,7 +684,7 @@ This four-wheeled vehicle is used to transport large amounts of goods between co
 
 **Propulsion** muscle (pulled; 4 Medium creatures or 1 Large creature)
 
-**Driving Check** [Handle Animal](skills/handleAnimal.md#_handle-animal) or [Profession](skills/profession.md#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes.md#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) (in the case of intelligent creatures pulling the vehicle)
+**Driving Check** [Handle Animal](skills/handleAnimal#_handle-animal) or [Profession](skills/profession#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) (in the case of intelligent creatures pulling the vehicle)
 
 **Forward Facing** toward the creatures pulling the vehicle
 
@@ -722,7 +722,7 @@ This large, four-wheeled vehicle is primarily used in caravans to transport good
 
 **Propulsion** muscle (pulled; 4 Medium creatures or 1 Large creature)
 
-**Driving Check** [Handle Animal](skills/handleAnimal.md#_handle-animal) or [Profession](skills/profession.md#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes.md#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) (in the case of intelligent creatures pulling the vehicle)
+**Driving Check** [Handle Animal](skills/handleAnimal#_handle-animal) or [Profession](skills/profession#_profession) (driver) (in the case of creatures with [animal](monsters/creatureTypes#_animal) intelligence pulling the vehicle), [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) (in the case of intelligent creatures pulling the vehicle)
 
 **Forward Facing** toward the creatures pulling the vehicle
 
@@ -764,7 +764,7 @@ One of the largest sailing ships on the sea, this massive vessel cannot make oce
 
 **Propulsion** current (air; three masts, 60 squares of sails, hp 300), current (water), or muscle (pushed; 140 Medium rowers)
 
-**Driving Check** [Profession](skills/profession.md#_profession) (sailor) or [Knowledge](skills/knowledge.md#_knowledge) (nature) +10 to the DC
+**Driving Check** [Profession](skills/profession#_profession) (sailor) or [Knowledge](skills/knowledge#_knowledge) (nature) +10 to the DC
 
 **Forward Facing** the ship's forward
 
@@ -806,7 +806,7 @@ This long, flat-bottomed ship has a few oars to supplement its single mast with 
 
 **Propulsion** current (air; 20 squares of sails, hp 100), current (water), or muscle (pushed; 8 Medium rowers)
 
-**Driving Check** [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) while rowed, or [Profession](skills/profession.md#_profession) (sailor) or [Knowledge](skills/knowledge.md#_knowledge) (nature) +10 to the DC when sail is used
+**Driving Check** [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) while rowed, or [Profession](skills/profession#_profession) (sailor) or [Knowledge](skills/knowledge#_knowledge) (nature) +10 to the DC when sail is used
 
 **Forward Facing** ship's forward
 
@@ -846,7 +846,7 @@ This long and relatively thin boat has a single mast with a square sail. It can 
 
 **Propulsion** current (air; 10 squares of sails, hp 50), current (water), or muscle (pushed; 40 Medium rowers)
 
-**Driving Check** [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) while rowed, or [Profession](skills/profession.md#_profession) (sailor) or [Knowledge](skills/knowledge.md#_knowledge) (nature) +10 to the DC when sail is used
+**Driving Check** [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) while rowed, or [Profession](skills/profession#_profession) (sailor) or [Knowledge](skills/knowledge#_knowledge) (nature) +10 to the DC when sail is used
 
 **Forward Facing** the ship's forward
 
@@ -886,7 +886,7 @@ This small water vehicle is primarily used to disembark from larger ships or to 
 
 **Propulsion** current (water) or muscle (pushed; 1 or 2 Medium rowers; one is the driver)
 
-**Driving Check** [Survival](skills/survival.md#_survival)
+**Driving Check** [Survival](skills/survival#_survival)
 
 **Forward Facing** boat's forward
 
@@ -924,7 +924,7 @@ This massive sailing ship is used for ocean travel. It can carry 150 tons of car
 
 **Propulsion** current (air; two masts, 30 squares of sails, hp 150) or current (water)
 
-**Driving Check** [Profession](skills/profession.md#_profession) (sailor) or [Knowledge](skills/knowledge.md#_knowledge) (nature) +10 to the DC
+**Driving Check** [Profession](skills/profession#_profession) (sailor) or [Knowledge](skills/knowledge#_knowledge) (nature) +10 to the DC
 
 **Forward Facing** the ship's forward
 
@@ -966,7 +966,7 @@ This ship is treated with reinforced wood, and is used for short-distance forays
 
 **Propulsion** current (air and water; one mast, 160 squares of sails, hp 800) or muscle (pushed; 80 Medium rowers)
 
-**Driving Check** [Profession](skills/profession.md#_profession) (sailor) or [Knowledge](skills/knowledge.md#_knowledge) (nature) +10 to the DC
+**Driving Check** [Profession](skills/profession#_profession) (sailor) or [Knowledge](skills/knowledge#_knowledge) (nature) +10 to the DC
 
 **Forward Facing** the ship's forward
 
@@ -1054,7 +1054,7 @@ This ship is made of wood and is usually crafted in the shape of a dragon. It is
 
 **Propulsion** alchemical (6 squares of alchemical engines in the middle of the ship; hardness 8, hp 120)
 
-**Driving Check** [Craft](skills/craft.md#_craft) (alchemy) or [Knowledge](skills/knowledge.md#_knowledge) (arcana) +10 to the DC
+**Driving Check** [Craft](skills/craft#_craft) (alchemy) or [Knowledge](skills/knowledge#_knowledge) (arcana) +10 to the DC
 
 **Forward Facing** the ship's forward
 
@@ -1066,7 +1066,7 @@ This ship is made of wood and is usually crafted in the shape of a dragon. It is
 
 **Decks** 1
 
-**Weapons** Up to 6 Large direct-fire siege engines in banks of 3 positioned on the port and starboard sides of the alchemical [dragon](monsters/creatureTypes.md#_dragon), or up to 4 Huge direct-fire siege engines in banks of two on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship.
+**Weapons** Up to 6 Large direct-fire siege engines in banks of 3 positioned on the port and starboard sides of the alchemical [dragon](monsters/creatureTypes#_dragon), or up to 4 Huge direct-fire siege engines in banks of two on the port and starboard sides of the ship. The siege engines may only fire out the sides of the ship they are positioned on. They cannot be swiveled to fire toward the forward or aft sides of the ship.
 
 Glider
 
@@ -1096,7 +1096,7 @@ A glider is basically a large piece of sail stretched out with a frame and conne
 
 **Propulsion** current (air; four squares of sail, which serve as the majority of the vehicle, hp 20)
 
-**Driving Check** [Fly](skills/fly.md#_fly) or [Acrobatics](skills/acrobatics.md#_acrobatics) +10 to the DC
+**Driving Check** [Fly](skills/fly#_fly) or [Acrobatics](skills/acrobatics#_acrobatics) +10 to the DC
 
 # Maneuvering a Vehicle
 

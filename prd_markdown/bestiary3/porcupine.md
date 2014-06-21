@@ -8,7 +8,7 @@ XP 100
 
 N Tiny animal
 
-**Init** +1; **Senses** low-light vision; [Perception](skills/perception.md#_perception) –1
+**Init** +1; **Senses** low-light vision; [Perception](skills/perception#_perception) –1
 
 Defense
 
@@ -32,10 +32,10 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 9 (13 vs. trip)
 
-**Feats** [Lightning Reflexes](feats.md#_lightning-reflexes)
+**Feats** [Lightning Reflexes](feats#_lightning-reflexes)
 
-**Skills** [Climb](skills/climb.md#_climb) +4, [Stealth](skills/stealth.md#_stealth) +9 (+13 in grass); **Racial Modifiers**   
-+4 [Stealth](skills/stealth.md#_stealth) in grass
+**Skills** [Climb](skills/climb#_climb) +4, [Stealth](skills/stealth#_stealth) +9 (+13 in grass); **Racial Modifiers**   
++4 [Stealth](skills/stealth#_stealth) in grass
 
 Ecology
 
@@ -61,7 +61,7 @@ XP 600
 
 N Medium animal
 
-**Init** +1; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +6
+**Init** +1; **Senses** low-light vision; [Perception](skills/perception#_perception) +6
 
 Defense
 
@@ -85,9 +85,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +3; **CMD** 16 (20 vs. trip)
 
-**Feats** [Agile Maneuvers](feats.md#_agile-maneuvers), [Lightning Reflexes](feats.md#_lightning-reflexes)
+**Feats** [Agile Maneuvers](feats#_agile-maneuvers), [Lightning Reflexes](feats#_lightning-reflexes)
 
-**Skills** [Climb](skills/climb.md#_climb) +7, [Perception](skills/perception.md#_perception) +6
+**Skills** [Climb](skills/climb#_climb) +7, [Perception](skills/perception#_perception) +6
 
 Ecology
 
@@ -99,7 +99,7 @@ Ecology
 
 Special Abilities
 
-**Quills (Ex)** Any creature attacking a [giant](monsters/creatureTypes.md#_giant-subtype) porcupine with light or one-handed melee weapons, natural weapons, or an unarmed strike takes 1d3 points of piercing damage. A creature that grapples a [giant](monsters/creatureTypes.md#_giant-subtype) porcupine takes 2d4 points of piercing damage each round it does so.
+**Quills (Ex)** Any creature attacking a [giant](monsters/creatureTypes#_giant-subtype) porcupine with light or one-handed melee weapons, natural weapons, or an unarmed strike takes 1d3 points of piercing damage. A creature that grapples a [giant](monsters/creatureTypes#_giant-subtype) porcupine takes 2d4 points of piercing damage each round it does so.
 
 More so than its smaller kin, the human-sized giant porcupine is a foul-tempered creature that is just as content chewing on carrion as on living creatures. Worse, giant porcupines are notorious in their almost foolhardy bravery, and have been known to attack creatures much larger than their own size. This unexpected aggression, when combined with their tangle of spearlike quills, makes the giant porcupine a dangerous foe.
 

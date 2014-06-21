@@ -6,9 +6,9 @@ _This winged monster has the body of a lion, though two more heads flank its cen
 
 **XP 3,200**
 
-CE Large [magical beast](creatureTypes.md#_magical-beast)
+CE Large [magical beast](creatureTypes#_magical-beast)
 
-**Init** +5; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +10
+**Init** +5; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +10
 
 **Defense**
 
@@ -26,7 +26,7 @@ CE Large [magical beast](creatureTypes.md#_magical-beast)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [breath weapon](universalMonsterRules.md#_breath-weapon) (usable every 1d4 rounds)
+**Special Attacks** [breath weapon](universalMonsterRules#_breath-weapon) (usable every 1d4 rounds)
 
 **Statistics**
 
@@ -34,9 +34,9 @@ CE Large [magical beast](creatureTypes.md#_magical-beast)
 
 **Base Atk** +9; **CMB** +14; **CMD** 25 (29 vs. trip)
 
-**Feats** [Hover](monsterFeats.md#_hover), [Improved Initiative](../feats.md#_improved-initiative), [Iron Will](../feats.md#_iron-will), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Toughness](../feats.md#_toughness)
+**Feats** [Hover](monsterFeats#_hover), [Improved Initiative](../feats#_improved-initiative), [Iron Will](../feats#_iron-will), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception)), [Toughness](../feats#_toughness)
 
-**Skills** [Fly](../skills/fly.md#_fly) +2, [Perception](../skills/perception.md#_perception) +10, [Stealth](../skills/stealth.md#_stealth) +4 (+8 in scrubland or brush); **Racial Modifiers** +2 [Perception](../skills/perception.md#_perception), +4 [Stealth](../skills/stealth.md#_stealth) in scrubland or brush
+**Skills** [Fly](../skills/fly#_fly) +2, [Perception](../skills/perception#_perception) +10, [Stealth](../skills/stealth#_stealth) +4 (+8 in scrubland or brush); **Racial Modifiers** +2 [Perception](../skills/perception#_perception), +4 [Stealth](../skills/stealth#_stealth) in scrubland or brush
 
 **Languages** Draconic
 

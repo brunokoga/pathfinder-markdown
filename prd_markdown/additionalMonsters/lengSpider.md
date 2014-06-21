@@ -6,9 +6,9 @@ Leng SpiderCR 14
 
 **XP 38,400**
 
-CE Huge [magical beast](monsters/creatureTypes.md#_magical-beast) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
+CE Huge [magical beast](monsters/creatureTypes#_magical-beast) ( [extraplanar](monsters/creatureTypes#_extraplanar-subtype))
 
-**Init** +13; **Senses** _ [arcane sight](additionalMonsters/../spells/arcaneSight.md#_arcane-sight),_ darkvision 60 ft., low-light vision, tremorsense 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +21
+**Init** +13; **Senses** _ [arcane sight](additionalMonsters/../spells/arcaneSight#_arcane-sight),_ darkvision 60 ft., low-light vision, tremorsense 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +21
 
 Defense
 
@@ -18,13 +18,13 @@ Defense
 
 **Fort** +17, **Ref** +18, **Will** +10
 
-**Immune** [cold](monsters/creatureTypes.md#_cold-subtype), confusion and insanity effects, [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), sonic; **SR** 25
+**Immune** [cold](monsters/creatureTypes#_cold-subtype), confusion and insanity effects, [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), sonic; **SR** 25
 
 Offense
 
 **Speed** 40 ft., climb 40 ft.
 
-**Melee** mwk flail +22/+17/+12 (3d6+8), bite +16 (2d6+4 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
+**Melee** mwk flail +22/+17/+12 (3d6+8), bite +16 (2d6+4 plus [poison](monsters/universalMonsterRules#_poison-(ex-or-su)))
 
 **Ranged** mwk bolas +23 (1d8+8)
 
@@ -34,13 +34,13 @@ Offense
 
 **Spell-Like Abilities** (CL 15th; concentration +21)
 
-Constant—_ [arcane sight](additionalMonsters/../spells/arcaneSight.md#_arcane-sight)_, _ [freedom of movement](additionalMonsters/../spells/freedomOfMovement.md#_freedom-of-movement)_, _ [tongues](additionalMonsters/../spells/tongues.md#_tongues)_
+Constant—_ [arcane sight](additionalMonsters/../spells/arcaneSight#_arcane-sight)_, _ [freedom of movement](additionalMonsters/../spells/freedomOfMovement#_freedom-of-movement)_, _ [tongues](additionalMonsters/../spells/tongues#_tongues)_
 
-At will—_ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [fabricate](additionalMonsters/../spells/fabricate.md#_fabricate)_ (webs only)
+At will—_ [dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic)_, _ [fabricate](additionalMonsters/../spells/fabricate#_fabricate)_ (webs only)
 
-3/day—_ [air walk](additionalMonsters/../spells/airWalk.md#_air-walk)_, _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_, _ [major image](additionalMonsters/../spells/majorImage.md#_major-image)_ (DC 19)
+3/day—_ [air walk](additionalMonsters/../spells/airWalk#_air-walk)_, _ [invisibility](additionalMonsters/../spells/invisibility#_invisibility)_, _ [major image](additionalMonsters/../spells/majorImage#_major-image)_ (DC 19)
 
-1/day—_ [charm monster](additionalMonsters/../spells/charmMonster.md#_charm-monster)_ (DC 20), _ [insanity](additionalMonsters/../spells/insanity.md#_insanity)_ (DC 23), _ [mirage arcana](additionalMonsters/../spells/mirageArcana.md#_mirage-arcana)_ (DC 21), _ [veil](additionalMonsters/../spells/veil.md#_veil)_ (DC 22)
+1/day—_ [charm monster](additionalMonsters/../spells/charmMonster#_charm-monster)_ (DC 20), _ [insanity](additionalMonsters/../spells/insanity#_insanity)_ (DC 23), _ [mirage arcana](additionalMonsters/../spells/mirageArcana#_mirage-arcana)_ (DC 21), _ [veil](additionalMonsters/../spells/veil#_veil)_ (DC 22)
 
 Statistics
 
@@ -48,11 +48,11 @@ Statistics
 
 **Base Atk** +15; **CMB** +25; **CMD** 44 (54 vs. trip)
 
-**Feats** [Combat Expertise](additionalMonsters/../feats.md#_combat-expertise), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Trip](additionalMonsters/../feats.md#_improved-trip), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Point-Blank Shot](additionalMonsters/../feats.md#_point-blank-shot), [Precise Shot](additionalMonsters/../feats.md#_precise-shot), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
+**Feats** [Combat Expertise](additionalMonsters/../feats#_combat-expertise), [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Improved Trip](additionalMonsters/../feats#_improved-trip), [Iron Will](additionalMonsters/../feats#_iron-will), [Point-Blank Shot](additionalMonsters/../feats#_point-blank-shot), [Precise Shot](additionalMonsters/../feats#_precise-shot), [Vital Strike](additionalMonsters/../feats#_vital-strike)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +27 (+31 jump), [Climb](additionalMonsters/../skills/climb.md#_climb) +34, [Craft](additionalMonsters/../skills/craft.md#_craft) (traps) +20, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (any one) +20, [Perception](additionalMonsters/../skills/perception.md#_perception) +21, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +20, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +21
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +27 (+31 jump), [Climb](additionalMonsters/../skills/climb#_climb) +34, [Craft](additionalMonsters/../skills/craft#_craft) (traps) +20, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (any one) +20, [Perception](additionalMonsters/../skills/perception#_perception) +21, [Spellcraft](additionalMonsters/../skills/spellcraft#_spellcraft) +20, [Use Magic Device](additionalMonsters/../skills/useMagicDevice#_use-magic-device) +21
 
-**Languages** Aklo; _ [tongues](additionalMonsters/../spells/tongues.md#_tongues)_
+**Languages** Aklo; _ [tongues](additionalMonsters/../spells/tongues#_tongues)_
 
 Ecology
 
@@ -64,9 +64,9 @@ Ecology
 
 Special Abilities
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Su)** Bite—injury; _save_ Fort DC 25; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Con plus confusion for 1 round; _cure_ 2 consecutive saves. A Leng spider's venom causes flesh to blister and rot away and the mind to experience vivid and horrific hallucinations—these visions cause the poisoned creature to react in an unpredictable manner, as if confused. The hallucination element of this [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) is mind-affecting. The save DC is Constitution-based.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (Su)** Bite—injury; _save_ Fort DC 25; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Con plus confusion for 1 round; _cure_ 2 consecutive saves. A Leng spider's venom causes flesh to blister and rot away and the mind to experience vivid and horrific hallucinations—these visions cause the poisoned creature to react in an unpredictable manner, as if confused. The hallucination element of this [poison](monsters/universalMonsterRules#_poison-(ex-or-su)) is mind-affecting. The save DC is Constitution-based.
 
-**Web Weaponry (Ex)** A Leng spider is talented at using its webs to [construct](monsters/creatureTypes.md#_construct) masterwork weapons. This technique of weapon creation allows the spider to effectively create a flail or bolas by attaching a heavy object such as a rock or chunk of metal to a cord of webbing. The spider attaches one end of this webbing to a leg and can then wield the weighted cord as a masterwork flail or a masterwork bolas. It can only wield one such weapon at a time—it must use its other legs to walk. If a Leng spider drops or loses a web weapon, it can create a new one as a full-round action, provided it has access to heavy-weight objects of the correct size (such as loose rocks or skulls).
+**Web Weaponry (Ex)** A Leng spider is talented at using its webs to [construct](monsters/creatureTypes#_construct) masterwork weapons. This technique of weapon creation allows the spider to effectively create a flail or bolas by attaching a heavy object such as a rock or chunk of metal to a cord of webbing. The spider attaches one end of this webbing to a leg and can then wield the weighted cord as a masterwork flail or a masterwork bolas. It can only wield one such weapon at a time—it must use its other legs to walk. If a Leng spider drops or loses a web weapon, it can create a new one as a full-round action, provided it has access to heavy-weight objects of the correct size (such as loose rocks or skulls).
 
 The spiders of Leng have long warred with that realm's more humanoid denizens, yet this does not make the spiders allies of sane life. These spiders see themselves as deserving of true positions of power, and the only creatures they suffer to live apart from their kin are their magically controlled slaves. Fortunately, the spiders have no intrinsic way to travel to the Material Plane, and must use portals or other methods to visit this world. Artistic trap builders, Leng spiders construct lairs of dangerous and haunting beauty made of webs and other materials found nearby.
 

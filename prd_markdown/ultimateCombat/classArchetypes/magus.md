@@ -8,7 +8,7 @@ As he gains levels, a magus masters arcane secrets that supplement his magical a
 
 _Accurate Strike (Ex)_: The magus can expend 2 points from his arcane pool as a swift action to resolve all of his melee weapon attacks until the end of his turn as melee touch attacks. The magus must be at least 9th level before selecting this arcana.
 
-_Arcane Cloak (Su)_: The magus can expend 1 point from his arcane pool to add his Intelligence bonus to [Stealth](skills/stealth.md#_stealth) checks and [Bluff](skills/bluff.md#_bluff) checks to create a diversion in order to hide. This bonus lasts for 1 minute.
+_Arcane Cloak (Su)_: The magus can expend 1 point from his arcane pool to add his Intelligence bonus to [Stealth](skills/stealth#_stealth) checks and [Bluff](skills/bluff#_bluff) checks to create a diversion in order to hide. This bonus lasts for 1 minute.
 
 _Arcane Edge (Su)_: The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a slashing or piercing weapon in order to deal an amount of bleed damage equal to his Intelligence modifier (minimum 0). The magus must be at least 9th level before he selects this arcana.
 
@@ -16,15 +16,15 @@ _Arcane Redoubt (Su)_: As a swift action, the magus can expend 1 point from his 
 
 _Arcane Redoubt, Greater (Su)_: Whenever the magus uses his arcane redoubt magus arcana, he may spend an additional point from his arcane pool in order to apply his shield bonus to AC (including any enhancement bonus) as a bonus on Reflex saves until the beginning of his next turn. If he is targeted with an effect requiring a Reflex save while using this power, he may spend 2 points from his arcane pool as an immediate action to grant himself evasion, or 4 points to grant himself improved evasion. The magus must have the arcane redoubt magus arcana and be at least 12th level to select this magus arcana.
 
-_Bane Blade (Su)_: Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add the _ [bane](magicItems/weapons.md#_weapons-bane)_ special ability to the weapon. The magus must be at least 15th level before selecting this arcana.
+_Bane Blade (Su)_: Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add the _ [bane](magicItems/weapons#_weapons-bane)_ special ability to the weapon. The magus must be at least 15th level before selecting this arcana.
 
-_Devoted Blade (Su)_: Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add either the _ [anarchic](magicItems/weapons.md#_weapons-anarchic)_, _ [axiomatic](magicItems/weapons.md#_weapons-axiomatic)_, _ [holy](magicItems/weapons.md#_weapons-holy)_, or _ [unholy](magicItems/weapons.md#_unholy)_ special ability to the list of available options. A magus may only add one of these abilities if it matches his own alignment. The magus must be at least 12th level before selecting this arcana.
+_Devoted Blade (Su)_: Whenever the magus enhances his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add either the _ [anarchic](magicItems/weapons#_weapons-anarchic)_, _ [axiomatic](magicItems/weapons#_weapons-axiomatic)_, _ [holy](magicItems/weapons#_weapons-holy)_, or _ [unholy](magicItems/weapons#_unholy)_ special ability to the list of available options. A magus may only add one of these abilities if it matches his own alignment. The magus must be at least 12th level before selecting this arcana.
 
-_Disruptive (Ex)_: The magus gains [Disruptive](feats.md#_disruptive) as a bonus feat. The magus must be at least 6th level before selecting this arcana.
+_Disruptive (Ex)_: The magus gains [Disruptive](feats#_disruptive) as a bonus feat. The magus must be at least 6th level before selecting this arcana.
 
 _Enduring Blade (Su)_: Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to increase the duration to 1 minute per magus level. The magus must be at least 6th level before selecting this arcana.
 
-_Ghost Blade (Su)_: Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add the _ [brilliant energy](magicItems/weapons.md#_weapons-brilliant-energy)_ and _ [ghost touch](magicItems/weapons.md#_weapons-ghost-touch)_ special abilities to the list of available options. The magus must be at least 9th level before selecting this arcana.
+_Ghost Blade (Su)_: Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add the _ [brilliant energy](magicItems/weapons#_weapons-brilliant-energy)_ and _ [ghost touch](magicItems/weapons#_weapons-ghost-touch)_ special abilities to the list of available options. The magus must be at least 9th level before selecting this arcana.
 
 _Lingering Pain (Su)_: The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack. All damage from that attack (including damage from a spell cast using the spellstrike ability) is considered continuous damage for the purposes of any concentration checks made by the target prior to the beginning of the magus's next turn.
 
@@ -42,7 +42,7 @@ _Rod Mastery (Su)_: Whenever the magus uses a rod, he calculates the DC for any 
 
 _Rod Wielder (Su)_: The magus adds his Intelligence bonus (minimum 0) on caster level checks made to overcome spell resistance when using a spell contained within a rod or when making a spellstrike attack channeled through a rod.
 
-_Spellbreaker (Ex)_: The magus gains [Spellbreaker](feats.md#_spellbreaker) as a bonus feat. The magus must be at least 9th level before selecting this arcana.
+_Spellbreaker (Ex)_: The magus gains [Spellbreaker](feats#_spellbreaker) as a bonus feat. The magus must be at least 9th level before selecting this arcana.
 
 ## Kensai (Archetype)
 
@@ -54,7 +54,7 @@ A kensai spends his life focusing his training and meditation into a rapturous p
 
 **Canny Defense (Ex)** : At 1st level, when a kensai is wielding his chosen weapon, he gains the canny defense ability. This is identical to the duelist prestige class ability of the same name (_Core Rulebook_ 382), save that his chosen weapon may be of any type.
 
-**Weapon Focus (Ex)** : At 1st level, a kensai gains [Weapon Focus](feats.md#_weapon-focus) with his chosen weapon as a bonus feat.
+**Weapon Focus (Ex)** : At 1st level, a kensai gains [Weapon Focus](feats#_weapon-focus) with his chosen weapon as a bonus feat.
 
 Perfect Strike (Ex): At 4th level, when a kensai hits with his chosen weapon, he can spend 1 point from his arcane pool in order to maximize his weapon damage. Don't roll for damage—the weapon deals maximum damage. This affects only the weapon's base damage dice, not additional damage from sneak attack, magical weapon properties, spellstrike, or critical hits.
 
@@ -64,9 +64,9 @@ If the kensai confirms a critical hit, he can instead spend 2 points from his ar
 
 **Iaijutsu (Ex)** : At 7th level, a kensai applies his Intelligence modifier as well as his Dexterity modifier on initiative rolls (minimum 0). A kensai may make attacks of opportunity when flat-footed, and may draw his favored weapon as a free action as part of taking an attack of opportunity. This ability replaces the medium armor ability.
 
-**Critical Perfection (Ex)** : At 9th level, a kensai adds his Intelligence bonus (minimum 0) on critical hit confirmation rolls with his favored weapon. In addition, the kensai may use his magus levels in place of his base attack bonuses to qualify for [Critical Focus](feats.md#_critical-focus) and any feat for which it is a prerequisite; these feats apply only with a kensai's favored weapon. This ability replaces the magus arcana normally gained at 9th level.
+**Critical Perfection (Ex)** : At 9th level, a kensai adds his Intelligence bonus (minimum 0) on critical hit confirmation rolls with his favored weapon. In addition, the kensai may use his magus levels in place of his base attack bonuses to qualify for [Critical Focus](feats#_critical-focus) and any feat for which it is a prerequisite; these feats apply only with a kensai's favored weapon. This ability replaces the magus arcana normally gained at 9th level.
 
-**Superior Reflexes (Ex)** : At 11th level, kensai can make a number of attacks of opportunity in a round equal to his Intelligence modifier (minimum 1). This effect stacks with the [Combat Reflexes](feats.md#_combat-reflexes) feat. This ability replaces improved spell recall.
+**Superior Reflexes (Ex)** : At 11th level, kensai can make a number of attacks of opportunity in a round equal to his Intelligence modifier (minimum 1). This effect stacks with the [Combat Reflexes](feats#_combat-reflexes) feat. This ability replaces improved spell recall.
 
 **Iaijutsu Focus (Ex)** : At 13th level, a kensai may always act and may draw his weapon as a swift action during a surprise round, though he is considered flat-footed until he acts. During a surprise round or when attacking a flat-footed opponent, he adds his Intelligence modifier on damage with his chosen weapon (minimum 0). This ability replaces heavy armor.
 
@@ -105,7 +105,7 @@ Sometimes called a shield-vassal or shieldmaiden, the skirnir has learned to inf
 
 **Arcane Bond (Su)** : At 1st level, a skirnir gains a shield (except for a tower shield) as an arcane bond item. This is identical to the wizard class ability, but the skirnir may only bond with a shield, not a familiar or other item.
 
-**Arcane Pool** : At 1st level, a skirnir can use his arcane pool to grant an enhancement bonus to a weapon as normal, as well as to his shield, paying the arcane pool cost separately for each. At 5th level and above, he can also add the following shield special abilities: _ [animated](magicItems/armor.md#_armor-animated)_, _ [arrow catching](magicItems/armor.md#_armor-arrow-catching)_, _ [arrow deflection](magicItems/armor.md#_armor-arrow-deflection)_, _ [bashing](magicItems/armor.md#_armor-bashing)_, _ [blinding](magicItems/armor.md#_armor-blinding)_, _ [fortification](magicItems/armor.md#_armor-fortification)_ (any), _ [reflecting](magicItems/armor.md#_armor-reflecting)_, _ [spell resistance](magicItems/armor.md#_armor-spell-resistance)_ (any).
+**Arcane Pool** : At 1st level, a skirnir can use his arcane pool to grant an enhancement bonus to a weapon as normal, as well as to his shield, paying the arcane pool cost separately for each. At 5th level and above, he can also add the following shield special abilities: _ [animated](magicItems/armor#_armor-animated)_, _ [arrow catching](magicItems/armor#_armor-arrow-catching)_, _ [arrow deflection](magicItems/armor#_armor-arrow-deflection)_, _ [bashing](magicItems/armor#_armor-bashing)_, _ [blinding](magicItems/armor#_armor-blinding)_, _ [fortification](magicItems/armor#_armor-fortification)_ (any), _ [reflecting](magicItems/armor#_armor-reflecting)_, _ [spell resistance](magicItems/armor#_armor-spell-resistance)_ (any).
 
 **Sorcerous Shield (Ex)** : At 1st level, skirnirs are proficient with all types of shields, including tower shields, and do not suffer an arcane spell failure chance when casting magus spells while using a shield. They treat their magus levels as their fighter levels for the purpose of qualifying for shield-related feats. This ability replaces spell combat.
 
@@ -113,7 +113,7 @@ Sometimes called a shield-vassal or shieldmaiden, the skirnir has learned to inf
 
 **Shield Pool (Ex)** : At 4th level, as a free action, a skirnir may spend 1 point from his arcane pool to add his shield bonus to AC (not including enhancement bonuses) on a concentration check to cast defensively. He may also use a touch attack or shield bash with his shield in conjunction with any pool strike magus arcana. This ability replaces spell recall.
 
-**Spellshield (Su)** : At 7th level, as a standard action, a skirnir may store a magus spell in his shield by spending 1 point from his arcane pool per level of the spell. This functions as the _ [spell storing](magicItems/weapons.md#_spell-storing)_ weapon special ability, but activates only on a successful shield bash by the skirnir and is not limited to spells of 3rd level or less. This ability replaces knowledge pool.
+**Spellshield (Su)** : At 7th level, as a standard action, a skirnir may store a magus spell in his shield by spending 1 point from his arcane pool per level of the spell. This functions as the _ [spell storing](magicItems/weapons#_spell-storing)_ weapon special ability, but activates only on a successful shield bash by the skirnir and is not limited to spells of 3rd level or less. This ability replaces knowledge pool.
 
 **Shielded Spell Combat (Su)** : At 8th level, a skirnir gains the spell combat ability, but only when wielding his bonded shield. A skirnir may use his shield hand to perform somatic components for magus spells, forfeiting the shield's bonus to AC until the beginning of his next turn; if the bonded shield is a buckler, he retains its bonus to AC. At 14th level, he gains the benefits of improved spell combat.
 
@@ -135,7 +135,7 @@ The soul forger has learned the skill of infusing the raw magical essence of his
 
 **Spellstrike (Su)** : A soul forger may use this ability only when wielding his bonded weapon.
 
-**Master Smith (Ex)** : A soul forger adds his magus class level on [Craft](skills/craft.md#_craft) checks to manufacture armor, shields, and weapons. This bonus applies on skill checks required when using [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor).
+**Master Smith (Ex)** : A soul forger adds his magus class level on [Craft](skills/craft#_craft) checks to manufacture armor, shields, and weapons. This bonus applies on skill checks required when using [Craft Magic Arms and Armor](feats#_craft-magic-arms-and-armor).
 
 At 7th level, a soul forger uses the 1/10 gp value of armor, shields, and weapons to determine how much time it takes to craft mundane items, and he requires only half the normal amount of time to enchant magical arms and armor. This ability replaces knowledge pool.
 

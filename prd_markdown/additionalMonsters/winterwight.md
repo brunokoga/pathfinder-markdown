@@ -6,11 +6,11 @@ Human-sized and of a deathly blue color, this long-taloned skeletal creature is 
 
 **XP 102,400**
 
-CE Medium [undead](monsters/creatureTypes.md#_undead) ( [cold](monsters/creatureTypes.md#_cold-subtype))
+CE Medium [undead](monsters/creatureTypes#_undead) ( [cold](monsters/creatureTypes#_cold-subtype))
 
-**Init** +10; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +27
+**Init** +10; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +27
 
-**Aura** [cold](monsters/creatureTypes.md#_cold-subtype) (10 ft.)
+**Aura** [cold](monsters/creatureTypes#_cold-subtype) (10 ft.)
 
 Defense
 
@@ -20,9 +20,9 @@ Defense
 
 **Fort** +15, **Ref** +14, **Will** +16
 
-**Defensive Abilities** channel [resistance](monsters/universalMonsterRules.md#_resistance) +4; **DR** 15/bludgeoning and [good](monsters/creatureTypes.md#_good-subtype); **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [undead](monsters/creatureTypes.md#_undead) traits; **SR** 28
+**Defensive Abilities** channel [resistance](monsters/universalMonsterRules#_resistance) +4; **DR** 15/bludgeoning and [good](monsters/creatureTypes#_good-subtype); **Immune** [cold](monsters/creatureTypes#_cold-subtype), [undead](monsters/creatureTypes#_undead) traits; **SR** 28
 
-**Weaknesses** vulnerability to [fire](monsters/creatureTypes.md#_fire-subtype)
+**Weaknesses** vulnerability to [fire](monsters/creatureTypes#_fire-subtype)
 
 Offense
 
@@ -34,13 +34,13 @@ Offense
 
 **Spell-Like Abilities** (CL 17th; concentration +26)
 
-Constant—_ [air walk](additionalMonsters/../spells/airWalk.md#_air-walk)_
+Constant—_ [air walk](additionalMonsters/../spells/airWalk#_air-walk)_
 
-At will—_ [cone of cold](additionalMonsters/../spells/coneOfCold.md#_cone-of-cold)_ (DC 24), _ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_, _ [sleet storm](additionalMonsters/../spells/sleetStorm.md#_sleet-storm)_, _ [wall of ice](additionalMonsters/../spells/wallOfIce.md#_wall-of-ice)_
+At will—_ [cone of cold](additionalMonsters/../spells/coneOfCold#_cone-of-cold)_ (DC 24), _ [dimension door](additionalMonsters/../spells/dimensionDoor#_dimension-door)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic-greater)_, _ [sleet storm](additionalMonsters/../spells/sleetStorm#_sleet-storm)_, _ [wall of ice](additionalMonsters/../spells/wallOfIce#_wall-of-ice)_
 
-3/day—_ [polar ray](additionalMonsters/../spells/polarRay.md#_polar-ray)_
+3/day—_ [polar ray](additionalMonsters/../spells/polarRay#_polar-ray)_
 
-1/day—_ [control weather](additionalMonsters/../spells/controlWeather.md#_control-weather)_
+1/day—_ [control weather](additionalMonsters/../spells/controlWeather#_control-weather)_
 
 Statistics
 
@@ -48,15 +48,15 @@ Statistics
 
 **Base Atk** +15; **CMB** +30; **CMD** 46
 
-**Feats** [Blind-Fight](additionalMonsters/../feats.md#_blind-fight), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Critical Focus](additionalMonsters/../feats.md#_critical-focus), [Greater Vital Strike](additionalMonsters/../feats.md#_greater-vital-strike), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Staggering Critical](additionalMonsters/../feats.md#_staggering-critical), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
+**Feats** [Blind-Fight](additionalMonsters/../feats#_blind-fight), [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Critical Focus](additionalMonsters/../feats#_critical-focus), [Greater Vital Strike](additionalMonsters/../feats#_greater-vital-strike), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats#_improved-vital-strike), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Power Attack](additionalMonsters/../feats#_power-attack), [Staggering Critical](additionalMonsters/../feats#_staggering-critical), [Vital Strike](additionalMonsters/../feats#_vital-strike)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +26, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +32, [Perception](additionalMonsters/../skills/perception.md#_perception) +27, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +29
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +26, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +32, [Perception](additionalMonsters/../skills/perception#_perception) +27, [Stealth](additionalMonsters/../skills/stealth#_stealth) +29
 
 **Languages** Common
 
 Ecology
 
-**Environment** any [cold](monsters/creatureTypes.md#_cold-subtype) land
+**Environment** any [cold](monsters/creatureTypes#_cold-subtype) land
 
 **Organization** solitary, pair, or incursion (3–6)
 
@@ -64,9 +64,9 @@ Ecology
 
 Special Abilities
 
-**Aura of [Cold](monsters/creatureTypes.md#_cold-subtype) (Su)** Winterwights are surrounded by a 10-foot radius of deathly chill. Any creatures within this area during the winterwight's turn takes 2d10 points of [cold](monsters/creatureTypes.md#_cold-subtype) damage. All creatures of the [cold](monsters/creatureTypes.md#_cold-subtype) subtype within this area (including the winterwight) are treated as having fast healing 10.
+**Aura of [Cold](monsters/creatureTypes#_cold-subtype) (Su)** Winterwights are surrounded by a 10-foot radius of deathly chill. Any creatures within this area during the winterwight's turn takes 2d10 points of [cold](monsters/creatureTypes#_cold-subtype) damage. All creatures of the [cold](monsters/creatureTypes#_cold-subtype) subtype within this area (including the winterwight) are treated as having fast healing 10.
 
-**Blightfire (Su)** Whenever a winterwight damages a creature with a bite or claw, the wound erupts with tongues of black [fire](monsters/creatureTypes.md#_fire-subtype). For the next 5 rounds, the victim must make a DC 29 Fortitude saving throw at the start of its turn or take 1d6 points of Constitution drain. The winterwight gains 10 temporary hit points each time the creature fails a saving throw against blightfire. A creature cannot be affected by more than one instance of blightfire at a time. The save DC is Charisma-based.
+**Blightfire (Su)** Whenever a winterwight damages a creature with a bite or claw, the wound erupts with tongues of black [fire](monsters/creatureTypes#_fire-subtype). For the next 5 rounds, the victim must make a DC 29 Fortitude saving throw at the start of its turn or take 1d6 points of Constitution drain. The winterwight gains 10 temporary hit points each time the creature fails a saving throw against blightfire. A creature cannot be affected by more than one instance of blightfire at a time. The save DC is Charisma-based.
 
 The winterwight is an undead horror born from the coldest depths of the negative energy plane. Infused with the dark, cold magic that permeates this realm of death, the winterwight takes the form of a skeleton coated in armor of jagged ice.
 

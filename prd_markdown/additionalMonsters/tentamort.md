@@ -6,9 +6,9 @@ This dark blue creature has a conical body covered in angry red eyes and numerou
 
 **XP 1,200**
 
-N Medium [aberration](monsters/creatureTypes.md#_aberration)
+N Medium [aberration](monsters/creatureTypes#_aberration)
 
-**Init** +5; **Senses** [all-around vision](monsters/universalMonsterRules.md#_all-around-vision), [blindsense](monsters/universalMonsterRules.md#_blindsense) 30 ft., darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +11
+**Init** +5; **Senses** [all-around vision](monsters/universalMonsterRules#_all-around-vision), [blindsense](monsters/universalMonsterRules#_blindsense) 30 ft., darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +11
 
 Defense
 
@@ -22,11 +22,11 @@ Offense
 
 **Speed** 20 ft., climb 20 ft.
 
-**Melee** sting +6 (1d6+2 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))), tentacle +2 (1d6+1 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** sting +6 (1d6+2 plus [poison](monsters/universalMonsterRules#_poison-(ex-or-su))), tentacle +2 (1d6+1 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 5 ft.; **Reach** 10 ft.
 
-**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) (1d6+1)
+**Special Attacks** [constrict](monsters/universalMonsterRules#_constrict) (1d6+1)
 
 Statistics
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +6 (+10 grapple); **CMD** 17 (can't be tripped)
 
-**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (tentacle)
+**Feats** [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Weapon Focus](additionalMonsters/../feats#_weapon-focus) (tentacle)
 
-**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +10, [Perception](additionalMonsters/../skills/perception.md#_perception) +11
+**Skills** [Climb](additionalMonsters/../skills/climb#_climb) +10, [Perception](additionalMonsters/../skills/perception#_perception) +11
 
 Ecology
 
@@ -48,7 +48,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 15; _frequency_ 2 rounds; _effect_ 1d4 Con plus nausea; _cure_ 1 save.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (Ex)** Sting—injury; _save_ Fort DC 15; _frequency_ 2 rounds; _effect_ 1d4 Con plus nausea; _cure_ 1 save.
 
 Tentamorts are eerie ambush predators, preferring to let prey come to them rather than seeking food out, and relying on their excellent senses to warn them of approaching meals. A tentamort possesses several tentacles, most of which are used for locomotion but two of which have evolved for singular purposes in securing food. One of these longer tentacles is covered with tiny, sticky nodules and is capable of constricting prey, while the other ends in a long, thin stinger. The tentamort's method of attack is to grab its prey with its constricting tentacle and sting the grappled target with the other. Tentamort poison is particularly horrific, as it swiftly liquefies the creature's internal organs into a rancid slurry the monster can then drink with the same stinger, siphoning out the fluid with foul sucking sounds. Larger creatures often require multiple stings (and multiple failed saving throws against the venom) before they can be fully absorbed by a tentamort. Tentamorts are almost mindless, possessing just enough intellect to make crude animal judgments about peril and food. Once a tentamort has grabbed prey, it tends to focus entirely on that creature, ignoring attacks upon it from other sources as long as its current victim remains a source of nutrition. After a tentamort finishes consuming a creature, all that typically remains are the bones and skin.
 

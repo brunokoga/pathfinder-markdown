@@ -12,9 +12,9 @@
 
 **Duration** instantaneous
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** no
 
-A much more potent spell than _ [animate dead](animateDead.md#_animate-dead), _this evil spell allows you to infuse a dead body with negative energy to create more powerful sorts of undead: ghouls, ghasts, mummies, and mohrgs. The type or types of undead you can create are based on your caster level, as shown on the table below.
+A much more potent spell than _ [animate dead](animateDead#_animate-dead), _this evil spell allows you to infuse a dead body with negative energy to create more powerful sorts of undead: ghouls, ghasts, mummies, and mohrgs. The type or types of undead you can create are based on your caster level, as shown on the table below.
 
 | Caster Level | Undead Created |
 | --- | --- |

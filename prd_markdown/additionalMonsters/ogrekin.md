@@ -8,9 +8,9 @@ Its body twisted and deformed, this lumbering giant has tiny eyes and a mouth of
 
 Male human ogrekin fighter 2
 
-CE Medium [humanoid](monsters/creatureTypes.md#_humanoid) (giant)
+CE Medium [humanoid](monsters/creatureTypes#_humanoid) (giant)
 
-**Int** +5; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +1
+**Int** +5; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +1
 
 Defense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +7; **CMD** 18
 
-**Feats** [Cleave](additionalMonsters/../feats.md#_cleave), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Power Attack](additionalMonsters/../feats.md#_power-attack)
+**Feats** [Cleave](additionalMonsters/../feats#_cleave), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Iron Will](additionalMonsters/../feats#_iron-will), [Power Attack](additionalMonsters/../feats#_power-attack)
 
-**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +10, [Swim](additionalMonsters/../skills/swim.md#_swim) +10
+**Skills** [Climb](additionalMonsters/../skills/climb#_climb) +10, [Swim](additionalMonsters/../skills/swim#_swim) +10
 
 **Languages** Giant
 

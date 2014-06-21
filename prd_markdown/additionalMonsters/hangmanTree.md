@@ -6,9 +6,9 @@ Hangman TreeCR 7
 
 **XP 3,200**
 
-NE Huge [plant](monsters/creatureTypes.md#_plant)
+NE Huge [plant](monsters/creatureTypes#_plant)
 
-**Init** +3; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +11
+**Init** +3; **Senses** [blindsight](monsters/universalMonsterRules#_blindsight) 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +11
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +12, **Ref** +3, **Will** +5
 
-**Immune** [plant](monsters/creatureTypes.md#_plant) traits; **SR** 18
+**Immune** [plant](monsters/creatureTypes#_plant) traits; **SR** 18
 
 **Weaknesses** vulnerable to electricity
 
@@ -26,11 +26,11 @@ Offense
 
 **Speed** 10 ft.
 
-**Melee** 3 vines +11 (1d6+7 plus [grab](monsters/universalMonsterRules.md#_grab) and pull)
+**Melee** 3 vines +11 (1d6+7 plus [grab](monsters/universalMonsterRules#_grab) and pull)
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) (1d6+7), hallucinatory spores, pull (vine, 5 feet), [strangle](monsters/universalMonsterRules.md#_strangle), swallow whole (2d6+7 bludgeoning damage, AC 16, 8 hp), vines
+**Special Attacks** [constrict](monsters/universalMonsterRules#_constrict) (1d6+7), hallucinatory spores, pull (vine, 5 feet), [strangle](monsters/universalMonsterRules#_strangle), swallow whole (2d6+7 bludgeoning damage, AC 16, 8 hp), vines
 
 Statistics
 
@@ -38,9 +38,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +15 (+19 grapple); **CMD** 24
 
-**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
+**Feats** [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Iron Will](additionalMonsters/../feats#_iron-will), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Perception](additionalMonsters/../skills/perception#_perception))
 
-**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +11, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) –2
+**Skills** [Perception](additionalMonsters/../skills/perception#_perception) +11, [Stealth](additionalMonsters/../skills/stealth#_stealth) –2
 
 **Languages** Sylvan
 

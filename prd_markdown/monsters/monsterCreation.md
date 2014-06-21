@@ -86,19 +86,19 @@ A creature's total number of Hit Dice depends on a number of factors, but the tw
 | --- | --- |
 | 1/2 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Aberration](monstersByType.md#_appendix-8-monsters-by-type) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
-| [Animal](creatureTypes.md#_animal) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
-| [Construct](creatureTypes.md#_construct) | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 21 | 23 | 25 | 28 | 31 |
-| [Dragon](creatureTypes.md#_dragon) | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 16 | 17 | 18 | 19 | 21 | 23 | 25 | 29 |
-| [Fey](creatureTypes.md#_fey) | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 12 | 13 | 15 | 17 | 18 | 20 | 22 | 23 | 25 | 26 | 28 | 31 | 33 | 37 |
-| [Humanoid](creatureTypes.md#_humanoid) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
-| [Magical beast](creatureTypes.md#_magical-beast) | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 21 | 23 | 25 | 28 | 31 |
-| [Monstrous humanoid](creatureTypes.md#_monstrous-humanoid) | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 21 | 23 | 25 | 28 | 31 |
-| [Ooze](creatureTypes.md#_ooze) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
-| [Outsider](creatureTypes.md#_outsider) | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 21 | 23 | 25 | 28 | 31 |
-| [Plant](creatureTypes.md#_plant) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
-| [Undead](creatureTypes.md#_undead) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
-| [Vermin](creatureTypes.md#_vermin) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 32 |
+| [Aberration](monstersByType#_appendix-8-monsters-by-type) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
+| [Animal](creatureTypes#_animal) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
+| [Construct](creatureTypes#_construct) | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 21 | 23 | 25 | 28 | 31 |
+| [Dragon](creatureTypes#_dragon) | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 11 | 12 | 13 | 14 | 16 | 17 | 18 | 19 | 21 | 23 | 25 | 29 |
+| [Fey](creatureTypes#_fey) | 2 | 3 | 4 | 5 | 6 | 8 | 10 | 12 | 13 | 15 | 17 | 18 | 20 | 22 | 23 | 25 | 26 | 28 | 31 | 33 | 37 |
+| [Humanoid](creatureTypes#_humanoid) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
+| [Magical beast](creatureTypes#_magical-beast) | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 21 | 23 | 25 | 28 | 31 |
+| [Monstrous humanoid](creatureTypes#_monstrous-humanoid) | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 21 | 23 | 25 | 28 | 31 |
+| [Ooze](creatureTypes#_ooze) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
+| [Outsider](creatureTypes#_outsider) | 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 13 | 14 | 16 | 18 | 19 | 20 | 21 | 23 | 25 | 28 | 31 |
+| [Plant](creatureTypes#_plant) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
+| [Undead](creatureTypes#_undead) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 34 |
+| [Vermin](creatureTypes#_vermin) | 1 | 2 | 3 | 4 | 5 | 7 | 9 | 10 | 12 | 14 | 15 | 16 | 17 | 19 | 20 | 22 | 24 | 26 | 28 | 30 | 32 |
 
 [Table: Size]
 | Size | Minimum CR | Maximum CR | Base Str | Base Dex | Base Con |
@@ -186,19 +186,19 @@ When determining a creature's speed, first decide if it has any alternative mode
 [Table: Creature Statistics by Type]
 | Type | Hit Die | Base Attack Bonus (BAB) | Good Saving Throws | Skill Ranks\* |
 | --- | --- | --- | --- | --- |
-| [Aberration](monstersByType.md#_appendix-8-monsters-by-type) | d8 | HD × 3/4 (Medium BAB) | Will | 4 + Int mod per HD |
-| [Animal](creatureTypes.md#_animal) | d8 | HD × 3/4 (Medium BAB) | Fort, Ref | 2 + Int mod per HD |
-| [Construct](creatureTypes.md#_construct) | d10 | HD (Fast BAB) | — | 2 + Int mod per HD |
-| [Dragon](creatureTypes.md#_dragon) | d12 | HD (Fast BAB) | Fort, Ref, Will | 6 + Int mod per HD |
-| [Fey](creatureTypes.md#_fey) | d6 | HD × 1/2 (Slow BAB) | Ref, Will | 6 + Int mod per HD |
-| [Humanoid](creatureTypes.md#_humanoid) | d8 | HD × 3/4 (Medium BAB) | Varies (any one) | 2 + Int mod per HD |
-| [Magical beast](creatureTypes.md#_magical-beast) | d10 | HD (Fast BAB) | Fort, Ref | 2 + Int mod per HD |
-| [Monstrous humanoid](creatureTypes.md#_monstrous-humanoid) | d10 | HD (Fast BAB) | Ref, Will | 4 + Int mod per HD |
-| [Ooze](creatureTypes.md#_ooze) | d8 | HD × 3/4 (Medium BAB) | — | 2 + Int mod per HD |
-| [Outsider](creatureTypes.md#_outsider) | d10 | HD (Fast BAB) | Varies (any two) | 6 + Int mod per HD |
-| [Plant](creatureTypes.md#_plant) | d8 | HD × 3/4 (Medium BAB) | Fort | 2 + Int mod per HD |
-| [Undead](creatureTypes.md#_undead) | d8 | HD × 3/4 (Medium BAB) | Will | 4 + Int mod per HD |
-| [Vermin](creatureTypes.md#_vermin) | d8 | HD × 3/4 (Medium BAB) | Fort | 2 + Int mod per HD |
+| [Aberration](monstersByType#_appendix-8-monsters-by-type) | d8 | HD × 3/4 (Medium BAB) | Will | 4 + Int mod per HD |
+| [Animal](creatureTypes#_animal) | d8 | HD × 3/4 (Medium BAB) | Fort, Ref | 2 + Int mod per HD |
+| [Construct](creatureTypes#_construct) | d10 | HD (Fast BAB) | — | 2 + Int mod per HD |
+| [Dragon](creatureTypes#_dragon) | d12 | HD (Fast BAB) | Fort, Ref, Will | 6 + Int mod per HD |
+| [Fey](creatureTypes#_fey) | d6 | HD × 1/2 (Slow BAB) | Ref, Will | 6 + Int mod per HD |
+| [Humanoid](creatureTypes#_humanoid) | d8 | HD × 3/4 (Medium BAB) | Varies (any one) | 2 + Int mod per HD |
+| [Magical beast](creatureTypes#_magical-beast) | d10 | HD (Fast BAB) | Fort, Ref | 2 + Int mod per HD |
+| [Monstrous humanoid](creatureTypes#_monstrous-humanoid) | d10 | HD (Fast BAB) | Ref, Will | 4 + Int mod per HD |
+| [Ooze](creatureTypes#_ooze) | d8 | HD × 3/4 (Medium BAB) | — | 2 + Int mod per HD |
+| [Outsider](creatureTypes#_outsider) | d10 | HD (Fast BAB) | Varies (any two) | 6 + Int mod per HD |
+| [Plant](creatureTypes#_plant) | d8 | HD × 3/4 (Medium BAB) | Fort | 2 + Int mod per HD |
+| [Undead](creatureTypes#_undead) | d8 | HD × 3/4 (Medium BAB) | Will | 4 + Int mod per HD |
+| [Vermin](creatureTypes#_vermin) | d8 | HD × 3/4 (Medium BAB) | Fort | 2 + Int mod per HD |
 
 ## Step 8: Special Abilities and Qualities
 

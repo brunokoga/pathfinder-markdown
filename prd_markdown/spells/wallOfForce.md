@@ -12,13 +12,13 @@
 
 **Duration** 1 round /level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** no
 
-A _wall of force_ creates an invisible wall of pure force. The wall cannot move and is not easily destroyed. A _wall of force_ is immune to _ [dispel magic](dispelMagic.md#_dispel-magic), _although a _ [mage's disjunction](mageSDisjunction.md#_mage-s-disjunction)_ can still dispel it_. _A_ wall of force _can be damaged by spells as normal, except for_ [disintegrate](disintegrate.md#_disintegrate),_ which automatically destroys it. It can be damaged by weapons and supernatural abilities, but a _wall of force_ has hardness 30 and a number of hit points equal to 20 per caster level. Contact with a _ [sphere of annihilation](../magicItems/artifacts.md#_sphere-of-annihilation) _or _ [rod of cancellation](../magicItems/rods.md#_rod-of-cancellation)_ instantly destroys a _wall of force._
+A _wall of force_ creates an invisible wall of pure force. The wall cannot move and is not easily destroyed. A _wall of force_ is immune to _ [dispel magic](dispelMagic#_dispel-magic), _although a _ [mage's disjunction](mageSDisjunction#_mage-s-disjunction)_ can still dispel it_. _A_ wall of force _can be damaged by spells as normal, except for_ [disintegrate](disintegrate#_disintegrate),_ which automatically destroys it. It can be damaged by weapons and supernatural abilities, but a _wall of force_ has hardness 30 and a number of hit points equal to 20 per caster level. Contact with a _ [sphere of annihilation](../magicItems/artifacts#_sphere-of-annihilation) _or _ [rod of cancellation](../magicItems/rods#_rod-of-cancellation)_ instantly destroys a _wall of force._
 
-Breath weapons and spells cannot pass through a _wall of force_ in either direction, although _ [dimension door](dimensionDoor.md#_dimension-door)_, _ [teleport](teleport.md#_teleport)_, and similar effects can bypass the barrier. It blocks ethereal creatures as well as material ones (though ethereal creatures can usually circumvent the wall by going around it, through material floors and ceilings). Gaze attacks can operate through a _wall of force_.
+Breath weapons and spells cannot pass through a _wall of force_ in either direction, although _ [dimension door](dimensionDoor#_dimension-door)_, _ [teleport](teleport#_teleport)_, and similar effects can bypass the barrier. It blocks ethereal creatures as well as material ones (though ethereal creatures can usually circumvent the wall by going around it, through material floors and ceilings). Gaze attacks can operate through a _wall of force_.
 
 The caster can form the wall into a flat, vertical plane whose area is up to one 10-foot square per level. The wall must be continuous and unbroken when formed. If its surface is broken by any object or creature, the spell fails.
 
-_Wall of force _can be made permanent with a _ [permanency](permanency.md#_permanency) _spell.
+_Wall of force _can be made permanent with a _ [permanency](permanency#_permanency) _spell.
 

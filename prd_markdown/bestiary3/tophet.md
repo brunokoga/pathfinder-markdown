@@ -8,7 +8,7 @@ XP 9,600
 
 N Large construct
 
-**Init** –1; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +1
+**Init** –1; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception#_perception) +1
 
 Defense
 
@@ -24,11 +24,11 @@ Offense
 
 **Speed** 20 ft.
 
-**Melee** bite +21 (2d6+8 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 slams +16 (1d6+8)
+**Melee** bite +21 (2d6+8 plus [grab](monsters/universalMonsterRules#_grab)), 2 slams +16 (1d6+8)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** swallow whole (no damage [see below], AC 18, 40 hp), [trample](monsters/universalMonsterRules.md#_trample) (2d6+12, DC 25)
+**Special Attacks** swallow whole (no damage [see below], AC 18, 40 hp), [trample](monsters/universalMonsterRules#_trample) (2d6+12, DC 25)
 
 Statistics
 
@@ -50,7 +50,7 @@ Special Abilities
 
 **Conductive (Ex)** Anytime a tophet is affected by an effect that deals fire damage, determine how much damage the construct would have taken if it were not immune to fire. Creatures currently swallowed whole by the construct take fire damage equal to half of this amount.
 
-**Swallow Whole (Ex)** Once swallowed by a tophet, an opponent takes no damage, but is trapped inside the creature's hollow interior. The construct's maw locks down, preventing creatures from climbing back out. A creature can attempt to hack or smash its way out as normal, but a tophet's stomach has hit points equal to one-tenth its actual hit points plus its bonus hit points for being a construct (totalling 40 hit points for most tophets). Alternatively, a swallowed creature can attempt to pick the lock on the iron hatch in the tophet's stomach by making a DC 30 [Disable Device](skills/disableDevice.md#_disable-device) check. If a creature exits by picking the lock, the tophet closes its hatch and can swallow whole again. These locks can also be picked from the outside, but only after the tophet is slain. A Large tophet's belly can hold 1 Medium creature at a time.
+**Swallow Whole (Ex)** Once swallowed by a tophet, an opponent takes no damage, but is trapped inside the creature's hollow interior. The construct's maw locks down, preventing creatures from climbing back out. A creature can attempt to hack or smash its way out as normal, but a tophet's stomach has hit points equal to one-tenth its actual hit points plus its bonus hit points for being a construct (totalling 40 hit points for most tophets). Alternatively, a swallowed creature can attempt to pick the lock on the iron hatch in the tophet's stomach by making a DC 30 [Disable Device](skills/disableDevice#_disable-device) check. If a creature exits by picking the lock, the tophet closes its hatch and can swallow whole again. These locks can also be picked from the outside, but only after the tophet is slain. A Large tophet's belly can hold 1 Medium creature at a time.
 
 Known in some lands as furnace guards or iron gluttons, tophets have long served in the palaces and prisons of tyrants as vigilant sentinels and dreaded punishments. Appearing as rotund iron statues, often bearing the caricatured visages of past kings or dishonored nobles, these constructs all possess yawning maws, capable of easily gobbling up smaller creatures. Upon consuming a victim, the animate statue becomes a walking prison, holding its victim within with little chance for escape. The iron statue can then return its victim to the proper cell, the feet of its lord, or any other fate its creator determines. In the most feared case, tophets capture or are fed prisoners, then wander out into the desert heat or even rivers of molten rock, where their interiors attain hellish temperatures, torturing and often outright killing those trapped within.
 
@@ -68,5 +68,5 @@ Tophet
 
 Construction
 
-**Requirements** [Craft Construct](monsters/monsterFeats.md#_craft-construct), _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [endure elements](spells/endureElements.md#_endure-elements)_, creator must be CL 12th; **Skill** [Craft](skills/craft.md#_craft) (sculptures) DC 20; **Cost** 22,500 gp.
+**Requirements** [Craft Construct](monsters/monsterFeats#_craft-construct), _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [endure elements](spells/endureElements#_endure-elements)_, creator must be CL 12th; **Skill** [Craft](skills/craft#_craft) (sculptures) DC 20; **Cost** 22,500 gp.
 

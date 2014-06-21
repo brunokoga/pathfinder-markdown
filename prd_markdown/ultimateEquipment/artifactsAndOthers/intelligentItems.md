@@ -68,7 +68,7 @@ Every intelligent magic item begins with the ability to see and hear within 30 f
 
 **Read Languages (Ex)** : The item can read script in any language, regardless of its known languages.
 
-**Read Magic (Sp)** : An intelligent magic item with this ability can read magical writings and scrolls as if through _ [read magic](spells/readMagic.md#_read-magic). _This ability does not allow the magic item to activate scrolls or other items. An intelligent magic item can suppress and resume this ability as a free action.
+**Read Magic (Sp)** : An intelligent magic item with this ability can read magical writings and scrolls as if through _ [read magic](spells/readMagic#_read-magic). _This ability does not allow the magic item to activate scrolls or other items. An intelligent magic item can suppress and resume this ability as a free action.
 
 [Intelligent Item Senses and Communication]
 | Ability | Base Price Modifier | Ego Modifier |
@@ -82,7 +82,7 @@ Every intelligent magic item begins with the ability to see and hear within 30 f
 | Darkvision | +500 gp | — |
 | Blindsense | +5,000 gp | +1 |
 | Read languages | +1,000 gp | +1 |
-| _ [Read magic](spells/readMagic.md#_read-magic)_ | +2,000 gp | +1 |
+| _ [Read magic](spells/readMagic#_read-magic)_ | +2,000 gp | +1 |
 
 ## Intelligent Item Powers
 
@@ -93,7 +93,7 @@ Each intelligent item should possess at least one power, although some might pos
 | --- | --- | --- | --- |
 | 01–10 | Item can cast a 0-level spell at will | +1,000 gp | +1 |
 | 11–20 | Item can cast a 1st-level spell 3/day | +1,200 gp | +1 |
-| 21–25 | Item can use _ [magic aura](spells/magicAura.md#_magic-aura) _on itself at will | +2,000 gp | +1 |
+| 21–25 | Item can use _ [magic aura](spells/magicAura#_magic-aura) _on itself at will | +2,000 gp | +1 |
 | 26–35 | Item can cast a 2nd-level spell 1/day | +2,400 gp | +1 |
 | 36–45 | Item has 5 ranks in one skill\* | +2,500 gp | +1 |
 | 46–50 | Item can sprout limbs and move with a speed of 10 feet | +5,000 gp | +1 |
@@ -101,9 +101,9 @@ Each intelligent item should possess at least one power, although some might pos
 | 56–60 | Item can cast a 2nd-level spell 3/day | +7,200 gp | +1 |
 | 61–70 | Item has 10 ranks in one skill\* | +10,000 gp | +2 |
 | 71–75 | Item can change shape into one other form of the same size | +10,000 gp | +2 |
-| 76–80 | Item can_ [fly](spells/fly.md), _as the spell, at a speed of 30 feet | +10,000 gp | +2 |
+| 76–80 | Item can_ [fly](spells/fly), _as the spell, at a speed of 30 feet | +10,000 gp | +2 |
 | 81–85 | Item can cast a 4th-level spell 1/day | +11,200 gp | +2 |
-| 86–90 | Item can _ [teleport](spells/teleport.md#_teleport)_ itself 1/day | +15,000 gp | +2 |
+| 86–90 | Item can _ [teleport](spells/teleport#_teleport)_ itself 1/day | +15,000 gp | +2 |
 | 91–95 | Item can cast a 3rd-level spell 3/day | +18,000 gp | +2 |
 | 96–100 | Item can cast a 4th-level spell 3/day | +33,600 gp | +2 |
 
@@ -120,7 +120,7 @@ The table below has a number of sample purposes that a magic item might possess.
 | 21–30 | Defeat/slay arcane spellcasters (including spellcasting monsters and those that use spell-like abilities) | +2 |
 | 31–40 | Defeat/slay divine spellcasters (including divine entities and servitors) | +2 |
 | 41–50 | Defeat/slay nonspellcasters | +2 |
-| 51–55 | Defeat/slay a particular creature type (see the _ [bane](magicItems/weapons.md#_weapons-bane)_ special ability for choices) | +2 |
+| 51–55 | Defeat/slay a particular creature type (see the _ [bane](magicItems/weapons#_weapons-bane)_ special ability for choices) | +2 |
 | 56–60 | Defeat/slay a particular race or kind of creature | +2 |
 | 61–70 | Defend a particular race or kind of creature | +2 |
 | 71–80 | Defeat/slay the servants of a specific deity | +2 |
@@ -141,7 +141,7 @@ A dedicated power operates only when an intelligent item is in pursuit of its sp
 | 51–65 | Item can use a 5th-level spell at will | +90,000 gp | +2 |
 | 66–80 | Item can use a 6th-level spell at will | +132,000 gp | +2 |
 | 81–95 | Item can use a 7th-level spell at will | +182,000 gp | +2 |
-| 96–100 | Item can use _ [true resurrection](spells/trueResurrection.md#_true-resurrection)_ on wielder, once per month | +200,000 gp | +2 |
+| 96–100 | Item can use _ [true resurrection](spells/trueResurrection#_true-resurrection)_ on wielder, once per month | +200,000 gp | +2 |
 
 ## Item Ego
 
@@ -308,19 +308,19 @@ Armor of the Shadow Lord
 
 **Language** telepathy (Aklo, Common, and Elven)
 
-This suit of _+4 greater [shadow](magicItems/armor.md#_armor-shadow) greater [slick](magicItems/armor.md#_armor-slick) leather armor _fits as snugly as a tight suit of silk against its wearer's skin and harbors an amoral and bloodthirsty intelligence. Via the telepathy it shares with its wielder, the armor gives constant advice on how to be stealthy, reach out of the way spots, and get the drop on foes. It also grants an extra +1d6 points of sneak attack damage, but the wearer must already have the sneak attack class feature to gain this bonus. Furthermore the armor has a maximum Dexterity bonus of +10 and no arcane spell failure.
+This suit of _+4 greater [shadow](magicItems/armor#_armor-shadow) greater [slick](magicItems/armor#_armor-slick) leather armor _fits as snugly as a tight suit of silk against its wearer's skin and harbors an amoral and bloodthirsty intelligence. Via the telepathy it shares with its wielder, the armor gives constant advice on how to be stealthy, reach out of the way spots, and get the drop on foes. It also grants an extra +1d6 points of sneak attack damage, but the wearer must already have the sneak attack class feature to gain this bonus. Furthermore the armor has a maximum Dexterity bonus of +10 and no arcane spell failure.
 
 **Construction Requirements**
 
 **Cost** 58,660 GP
 
-[Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [grease](spells/grease.md#_grease)_, _ [invisibility](spells/invisibility.md#_invisibility)_, _ [silence](spells/silence.md#_silence)_, creator must have the sneak attack class feature
+[Craft Magic Arms and Armor](feats#_craft-magic-arms-and-armor), _ [grease](spells/grease#_grease)_, _ [invisibility](spells/invisibility#_invisibility)_, _ [silence](spells/silence#_silence)_, creator must have the sneak attack class feature
 
 Chomper
 
 **Price** None; **Aura** strong conjuration; **CL** 17th; **Weight** 15 lbs.
 
-**Alignment** chaotic evil; **Senses** 30 ft., [blindsense](bestiary3/universalMonsterRules.md#_blindsense)
+**Alignment** chaotic evil; **Senses** 30 ft., [blindsense](bestiary3/universalMonsterRules#_blindsense)
 
 **Intelligence** 10; **Wisdom** 14; **Charisma** 13; **Ego** 17
 
@@ -335,7 +335,7 @@ _Chomper_ has all of the magical abilities of a regular _bag of devouring_, alon
 
 **Intended Magic Item**
 
-_ [bag of holding](magicItems/wondrousItems.md#_bag-of-holding) type III_
+_ [bag of holding](magicItems/wondrousItems#_bag-of-holding) type III_
 
 Hammer of Enemies
 
@@ -347,7 +347,7 @@ Hammer of Enemies
 
 **Language** speech (Common)
 
-This special _+3 [bane](magicItems/weapons.md#_weapons-bane) warhammer_ seeks only to crush the enemy of its wielder in battle. The hammer can speak Common, constantly mutters, curses when it is not engaged in battle, and sings deeply of its love of carnage when it is being used in a fight. The _hammer of enemies_ is always eager to point out potential enemies within its vision. Because of its bloodlust it does not bestow negative levels on creatures that do not share its alignment—it is willing to fight for anyone. Additionally, three times per day, the _hammer of enemies _can change the creature type of its bane ability. A creature type remains until a new one is chosen.
+This special _+3 [bane](magicItems/weapons#_weapons-bane) warhammer_ seeks only to crush the enemy of its wielder in battle. The hammer can speak Common, constantly mutters, curses when it is not engaged in battle, and sings deeply of its love of carnage when it is being used in a fight. The _hammer of enemies_ is always eager to point out potential enemies within its vision. Because of its bloodlust it does not bestow negative levels on creatures that do not share its alignment—it is willing to fight for anyone. Additionally, three times per day, the _hammer of enemies _can change the creature type of its bane ability. A creature type remains until a new one is chosen.
 
 **Construction Requirements**
 
@@ -359,15 +359,15 @@ harbinger rod
 
 **Price** 44,200 gp; **Aura** moderate conjuration; **CL** 8th; **Weight** 5 lbs.
 
-**Alignment** lawful [good](bestiary3/creatureTypes.md#_good-subtype); **Senses** 30 ft.
+**Alignment** lawful [good](bestiary3/creatureTypes#_good-subtype); **Senses** 30 ft.
 
 **Intelligence** 10; **Wisdom** 13; **Charisma** 12; **Ego** 10
 
 **Language** telepathy (Celestial;_ truespeech_)
 
-This copper rod is made up of constantly grinding gearlike parts. It is believed that these rods may be some alternate or lesser form of harbinger archons. The rod can take may useful forms, and after 24 hours in the possession of a lawful good creature, the wielder can command it to take the form of any tool, including a _ [chime of opening](magicItems/wondrousItems.md#_chime-of-opening)_. Very intelligent and witty, these rods communicate with their wielders in truespeech or Celestial. Furthermore, the rod has the following powers.
+This copper rod is made up of constantly grinding gearlike parts. It is believed that these rods may be some alternate or lesser form of harbinger archons. The rod can take may useful forms, and after 24 hours in the possession of a lawful good creature, the wielder can command it to take the form of any tool, including a _ [chime of opening](magicItems/wondrousItems#_chime-of-opening)_. Very intelligent and witty, these rods communicate with their wielders in truespeech or Celestial. Furthermore, the rod has the following powers.
 
-- Three times per day, on command, the rod's wielder can use _ [dimension door](spells/dimensionDoor.md#_dimension-door)_, as the spell.
+- Three times per day, on command, the rod's wielder can use _ [dimension door](spells/dimensionDoor#_dimension-door)_, as the spell.
 - Once per day, on command, the rod can emit a blast of energy that deals 2d6 points of force damage to creatures adjacent to the wielder. A successful DC 12 Reflex save halves the damage. The wielder can choose to omit any target from this blast that it desires, damaging only the foes it chooses.
 
 The rod's purpose is to destroy or foil the plans of chaotic evil creatures.
@@ -376,7 +376,7 @@ The rod's purpose is to destroy or foil the plans of chaotic evil creatures.
 
 **Cost** 22,100 GP
 
-Craft Rod, _ [dimension door](spells/dimensionDoor.md#_dimension-door), [knock](spells/knock.md#_knock), [explosive runes](spells/explosiveRunes.md#_explosive-runes), _creator must be lawful good
+Craft Rod, _ [dimension door](spells/dimensionDoor#_dimension-door), [knock](spells/knock#_knock), [explosive runes](spells/explosiveRunes#_explosive-runes), _creator must be lawful good
 
 Headband of the sage
 
@@ -388,19 +388,19 @@ Headband of the sage
 
 **Language** telepathy (Common and 10 other languages)
 
-A _headband of vast intellect +6_ also holds a consciousness that shares its knowledge and education with a suitable wearer. This intellect can be of any alignment and its only purpose is to share its vast knowledge with its wearer. The headband also functions as a _ [helm of](magicItems/wondrousItems.md#_helm-of-comprehend-languages-and-read-magic) [comprehend languages](spells/comprehendLanguages.md#_comprehend-languages) and read magic._ Furthermore, instead of granting the normal skill ranks of a _headband of vast intellect +6_, this headband grants 4 ranks in six skills, but all of those skills must be [Knowledge](skills/knowledge.md#_knowledge) skills. It grants such intelligence by a stream of constant whispers and arguments that the headband communicates telepathically in Common or in one of 10 other languages it knows. Once per week on command, the wearer can also convince the headband to use _ [legend lore](spells/legendLore.md#_legend-lore)_ as the spell, though the casting time is only a standard action.
+A _headband of vast intellect +6_ also holds a consciousness that shares its knowledge and education with a suitable wearer. This intellect can be of any alignment and its only purpose is to share its vast knowledge with its wearer. The headband also functions as a _ [helm of](magicItems/wondrousItems#_helm-of-comprehend-languages-and-read-magic) [comprehend languages](spells/comprehendLanguages#_comprehend-languages) and read magic._ Furthermore, instead of granting the normal skill ranks of a _headband of vast intellect +6_, this headband grants 4 ranks in six skills, but all of those skills must be [Knowledge](skills/knowledge#_knowledge) skills. It grants such intelligence by a stream of constant whispers and arguments that the headband communicates telepathically in Common or in one of 10 other languages it knows. Once per week on command, the wearer can also convince the headband to use _ [legend lore](spells/legendLore#_legend-lore)_ as the spell, though the casting time is only a standard action.
 
 **Construction Requirements**
 
 **Cost** 35,650 GP
 
-Craft Wondrous Item, _ [comprehend languages](spells/comprehendLanguages.md#_comprehend-languages)_, _ [fox's cunning](spells/foxSCunning.md#_fox-s-cunning)_, _legend and lore_, _ [read magic](spells/readMagic.md#_read-magic)_
+Craft Wondrous Item, _ [comprehend languages](spells/comprehendLanguages#_comprehend-languages)_, _ [fox's cunning](spells/foxSCunning#_fox-s-cunning)_, _legend and lore_, _ [read magic](spells/readMagic#_read-magic)_
 
 Helmet of the Golden General
 
 **Price** 62,000 gp; **Aura** strong divination; **CL** 13th; **Weight** 3 lbs.
 
-**Alignment** neutral [good](bestiary3/creatureTypes.md#_good-subtype); **Senses** 30 ft.
+**Alignment** neutral [good](bestiary3/creatureTypes#_good-subtype); **Senses** 30 ft.
 
 **Intelligence** 14; **Wisdom** 16; **Charisma** 14; **Ego** 14
 
@@ -410,14 +410,14 @@ This golden gem-studded helmet acts like a _crown of conquest_ and grants its wi
 
 Furthermore this helmet can speak through a central ruby that sits over the nose guard of the helmet. It knows Common and four other languages. These helmets are always confident—even arrogant—and give a running commentary of the battle, praising heroism, chiding tactical missteps, and giving its wearer and its allies martial advice. It has the following other powers.
 
-- Three times per day, it can affect its wearer or an ally within 30 feet as the _ [true strike](spells/trueStrike.md#_true-strike) _spell.
-- Three times per day, it can attempt to demoralize all enemies within 30 feet as a free action, as if using the [Intimidate](skills/intimidate.md#_intimidate) skill. The helmet's [Intimidate](skills/intimidate.md#_intimidate) is bonus +17.
+- Three times per day, it can affect its wearer or an ally within 30 feet as the _ [true strike](spells/trueStrike#_true-strike) _spell.
+- Three times per day, it can attempt to demoralize all enemies within 30 feet as a free action, as if using the [Intimidate](skills/intimidate#_intimidate) skill. The helmet's [Intimidate](skills/intimidate#_intimidate) is bonus +17.
 
 **Construction Requirements**
 
 **Cost** 31,000 GP
 
-Craft Wondrous Item, the item's performance and teamwork feat, _ [bless](spells/bless.md#_bless)_, _ [eagle's splendor](spells/eagleSSplendor.md#_eagle-s-splendor)_, _ [prayer](spells/prayer.md#_prayer)_, _ [scare](spells/scare.md#_scare)_, _ [true strike](spells/trueStrike.md#_true-strike)_
+Craft Wondrous Item, the item's performance and teamwork feat, _ [bless](spells/bless#_bless)_, _ [eagle's splendor](spells/eagleSSplendor#_eagle-s-splendor)_, _ [prayer](spells/prayer#_prayer)_, _ [scare](spells/scare#_scare)_, _ [true strike](spells/trueStrike#_true-strike)_
 
 Lightning Bow
 
@@ -431,15 +431,15 @@ Lightning Bow
 
 This intelligent item is called a _lightning bow_ by mortals, a name is seen as a slight to the lightning elemental trapped within it—a creature honor-bound to serve in the bow for no less than 100 years. Each of these _+3 adaptive composite longbows_ is a haughty and often highly intelligent member of its race, who chides those who don't know its true name—which is often a complicated series of high pitched squeaks, like live wood burning on a pyre. The elemental in a _lightning bow _only speaks Auran. _Lightning bows_ will not fire on other outsiders with the elemental subtype. Some are also bound not to attack other individuals, based on their history. For instance, one of these bows might be foresworn not to attack the Sultan of Fire, fire giants, or red dragons. Additionally, _lightning bows_ have the following powers.
 
-- A _lightning bow_ needs no ammunition. With the pull of a string, it creates a _+3 [shock](magicItems/weapons.md#_weapons-shock) arrow_ or a _+3 [brilliant energy](magicItems/weapons.md#_weapons-brilliant-energy) arrow (_the wielder's choice with each shot).
-- Three times per day, the wielder can cast _ [true strike](spells/trueStrike.md#_true-strike)_ as a swift action. The _ [true strike](spells/trueStrike.md#_true-strike)_ can only be used with attacks made with the _lightning bow_.
-- Three times per day, the wielder can use _ [lightning bolt](spells/lightningBolt.md#_lightning-bolt)_ as a spell-like ability.
+- A _lightning bow_ needs no ammunition. With the pull of a string, it creates a _+3 [shock](magicItems/weapons#_weapons-shock) arrow_ or a _+3 [brilliant energy](magicItems/weapons#_weapons-brilliant-energy) arrow (_the wielder's choice with each shot).
+- Three times per day, the wielder can cast _ [true strike](spells/trueStrike#_true-strike)_ as a swift action. The _ [true strike](spells/trueStrike#_true-strike)_ can only be used with attacks made with the _lightning bow_.
+- Three times per day, the wielder can use _ [lightning bolt](spells/lightningBolt#_lightning-bolt)_ as a spell-like ability.
 
 **Construction Requirements**
 
 **Cost** 27,300 GP
 
-Craft Magic Arms and Armor, _ [call lightning](spells/callLightning.md#_call-lightning)_, the willing service of one Huge lighting elemental for at least 100 years
+Craft Magic Arms and Armor, _ [call lightning](spells/callLightning#_call-lightning)_, the willing service of one Huge lighting elemental for at least 100 years
 
 Lute of Discord
 
@@ -451,17 +451,17 @@ Lute of Discord
 
 **Language** telepathy (Common and four other languages)
 
-This lute is a masterwork instrument constructed of polished ebony, with mother of pearl embellishments and gold frets. It grants any creature playing it a +2 competence bonus on [Perform](skills/perform.md#_perform) (string instruments) checks as it gently telepathically whispers ways the creature can improve is current performance. It also grants those who can play the lute the following abilities.
+This lute is a masterwork instrument constructed of polished ebony, with mother of pearl embellishments and gold frets. It grants any creature playing it a +2 competence bonus on [Perform](skills/perform#_perform) (string instruments) checks as it gently telepathically whispers ways the creature can improve is current performance. It also grants those who can play the lute the following abilities.
 
-- Three times per day on command, a creature with at least 6 ranks in [Perform](skills/perform.md#_perform) (string instruments) can play a chord on the lute of discord to employ the _ [murderous command](ultimateMagic/spells/murderousCommand.md#_murderous-command) _spell.
-- Three times per day on command, a creature with at least 6 ranks in [Perform](skills/perform.md#_perform) (string instruments) can play a chord on the _lute of discord_ to use the _ [distracting cacophony](ultimateMagic/spells/distractingCacophony.md#_distracting-cacophony)_ spell (3rd level).
-- Once per day on command, a creature with at least 6 ranks in [Perform](skills/perform.md#_perform) (string instruments) can play a chord to use the _ [echolocation](ultimateMagic/spells/echolocation.md#_echolocation)_ spell (4th level caster)
+- Three times per day on command, a creature with at least 6 ranks in [Perform](skills/perform#_perform) (string instruments) can play a chord on the lute of discord to employ the _ [murderous command](ultimateMagic/spells/murderousCommand#_murderous-command) _spell.
+- Three times per day on command, a creature with at least 6 ranks in [Perform](skills/perform#_perform) (string instruments) can play a chord on the _lute of discord_ to use the _ [distracting cacophony](ultimateMagic/spells/distractingCacophony#_distracting-cacophony)_ spell (3rd level).
+- Once per day on command, a creature with at least 6 ranks in [Perform](skills/perform#_perform) (string instruments) can play a chord to use the _ [echolocation](ultimateMagic/spells/echolocation#_echolocation)_ spell (4th level caster)
 
 **Construction Requirements**
 
 **Cost** 18,950 GP
 
-Craft Wondrous Item, _ [distracting cacophony](ultimateMagic/spells/distractingCacophony.md#_distracting-cacophony)_, _ [echolocation](ultimateMagic/spells/echolocation.md#_echolocation)_, _ [murderous command](ultimateMagic/spells/murderousCommand.md#_murderous-command) _
+Craft Wondrous Item, _ [distracting cacophony](ultimateMagic/spells/distractingCacophony#_distracting-cacophony)_, _ [echolocation](ultimateMagic/spells/echolocation#_echolocation)_, _ [murderous command](ultimateMagic/spells/murderousCommand#_murderous-command) _
 
 metamagician's apprentice
 
@@ -477,11 +477,11 @@ This slender rod is usually capped with a metal knob resembling the face of a yo
 
 The bound apprentices' intellects have no free will but retain their rebellious imaginations. Under normal circumstances, the rod must do what its wielder commands, but it can make telepathic, respectful complaints about how unhappy it is to be a group of living minds imprisoned in an inanimate object—though few wielders care. While no good creature would create a _metamagician's apprentice_, he or she can still wield one.
 
-The rod can be used as a _+1 [light](spells/light.md#_light) mace_. On command, it transforms into a _+1/+1 quarterstaff_ or back to its rod form.
+The rod can be used as a _+1 [light](spells/light#_light) mace_. On command, it transforms into a _+1/+1 quarterstaff_ or back to its rod form.
 
-A _metamagician's apprentice_ knows four metamagic feats (limited to feats that use a spell slot one or two levels higher than the spell's actual level, such as [Silent Spell](feats.md#_silent-spell) and [Empower Spell](feats.md#_empower-spell)) and acts as a _greater metamagic rod_ for those feats. The rod can only apply one metamagic feat to a spell at a time, though (like a _metamagic rod_) the wielder can use his own feats and the rod's on the same spell.
+A _metamagician's apprentice_ knows four metamagic feats (limited to feats that use a spell slot one or two levels higher than the spell's actual level, such as [Silent Spell](feats#_silent-spell) and [Empower Spell](feats#_empower-spell)) and acts as a _greater metamagic rod_ for those feats. The rod can only apply one metamagic feat to a spell at a time, though (like a _metamagic rod_) the wielder can use his own feats and the rod's on the same spell.
 
-The rod can use _ [read magic](spells/readMagic.md#_read-magic)_ and _ [detect magic](spells/detectMagic.md#_detect-magic)_ at will. The _metamagician's apprentice_ is never overwhelmed by powerful magic auras. These abilities do not trigger effects that require reading to activate (such as the _ [explosive runes](spells/explosiveRunes.md#_explosive-runes)_ spell). The rod grants the wielder a +2 competence bonus on three [Knowledge](skills/knowledge.md#_knowledge) skills; these skills are determined when the rod is created (and require the apprentice to have ranks in that skill) and can never be changed. [Knowledge](skills/knowledge.md#_knowledge) (arcana) is almost always one of these three skills.
+The rod can use _ [read magic](spells/readMagic#_read-magic)_ and _ [detect magic](spells/detectMagic#_detect-magic)_ at will. The _metamagician's apprentice_ is never overwhelmed by powerful magic auras. These abilities do not trigger effects that require reading to activate (such as the _ [explosive runes](spells/explosiveRunes#_explosive-runes)_ spell). The rod grants the wielder a +2 competence bonus on three [Knowledge](skills/knowledge#_knowledge) skills; these skills are determined when the rod is created (and require the apprentice to have ranks in that skill) and can never be changed. [Knowledge](skills/knowledge#_knowledge) (arcana) is almost always one of these three skills.
 
 A typical rod of this type is lawful neutral, though rods with other alignments exist.
 
@@ -509,7 +509,7 @@ Gnomes with the obsession racial trait have a unique understanding of the ring's
 
 When an _obsession ring_ is engaged in action directly related to its obsession, it grants its wearer the following powers, but can choose to withhold such powers if it does not believe their uses would further its obsession.
 
-- The ring functions as a _ [ring of protection](magicItems/rings.md#_ring-of-protection) +5_.
+- The ring functions as a _ [ring of protection](magicItems/rings#_ring-of-protection) +5_.
 - The ring grants its wearer a +2 luck bonus on attack rolls against creatures its obsession is sworn to defeat.
 - Three times per day, the ring can allow its wearer to reroll any saving throw. The wearer gains a +4 luck bonus on the saving throw reroll.
 
@@ -519,7 +519,7 @@ These rings are typically quite emphatic on their desire to fulfill their obsess
 
 **Cost** 58,250 GP
 
-Forge Ring, _ [shield of faith](spells/shieldOfFaith.md#_shield-of-faith)_, creator must be 15th level (or 9th level if the creator is a gnome)
+Forge Ring, _ [shield of faith](spells/shieldOfFaith#_shield-of-faith)_, creator must be 15th level (or 9th level if the creator is a gnome)
 
 Rod that Should Not Be (lesser)
 
@@ -563,13 +563,13 @@ Shield of the Mage
 
 **Language** telepathy (Common and six other languages)
 
-This _ [caster's shield](magicItems/armor.md#_caster-s-shield) _always has one arcane scroll and knows the same arcane spells as the wielder. When the spell on the scroll is cast, another scroll of a spell the wielder knows randomly manifests to replace it. The shield has no arcane spell failure. The shield can also _ [read magic](spells/readMagic.md#_read-magic)_. It will often debate with its wielder for the most devastating course of action, but does what the wielder commands.
+This _ [caster's shield](magicItems/armor#_caster-s-shield) _always has one arcane scroll and knows the same arcane spells as the wielder. When the spell on the scroll is cast, another scroll of a spell the wielder knows randomly manifests to replace it. The shield has no arcane spell failure. The shield can also _ [read magic](spells/readMagic#_read-magic)_. It will often debate with its wielder for the most devastating course of action, but does what the wielder commands.
 
 **Construction Requirements**
 
 **Cost** 7,250 GP
 
-Craft Magic Arms and Armor, [Scribe Scroll](feats.md#_scribe-scroll), creator must be an arcane spellcaster of at least 14th level
+Craft Magic Arms and Armor, [Scribe Scroll](feats#_scribe-scroll), creator must be an arcane spellcaster of at least 14th level
 
 Singing Sword
 
@@ -581,14 +581,14 @@ Singing Sword
 
 **Language** speech (Common and four other languages)
 
-This _+2 [keen](magicItems/weapons.md#_weapons-keen) [dancing](magicItems/weapons.md#_weapons-dancing) longsword_ is infused with the soul of a bard who chose to instill his consciousness into a weapon rather than to see his voice die. The sword constantly sings. The only way to silence it to a whisper is with a DC 15 [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) check, and even this only quiets the sword for 10 minutes plus another 10 minutes for every 5 points by which the DC is exceeded. The sword speaks, though it typically communicates through song. A _singing sword_ has the following powers.
+This _+2 [keen](magicItems/weapons#_weapons-keen) [dancing](magicItems/weapons#_weapons-dancing) longsword_ is infused with the soul of a bard who chose to instill his consciousness into a weapon rather than to see his voice die. The sword constantly sings. The only way to silence it to a whisper is with a DC 15 [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) check, and even this only quiets the sword for 10 minutes plus another 10 minutes for every 5 points by which the DC is exceeded. The sword speaks, though it typically communicates through song. A _singing sword_ has the following powers.
 
 - Eight times per day, a _singing sword_ can use bardic performance, but can only use the countersong, distraction, fascinate, inspire courage, or inspire competence abilities. The sword is treated as an 8th-level bard for the purposes of these abilities.
-- Three times per day, the _singing sword_ can use the _ [heroic finale](advanced/spells/heroicFinale.md#_heroic-finale)_ spell.
+- Three times per day, the _singing sword_ can use the _ [heroic finale](advanced/spells/heroicFinale#_heroic-finale)_ spell.
 
 **Construction Requirements**
 
 **Cost** 500 GP
 
-Craft Arms and Armor, _ [keen edge](spells/keenEdge.md#_keen-edge),_ _animate object_, the soul of a willing bard of at least 8th level
+Craft Arms and Armor, _ [keen edge](spells/keenEdge#_keen-edge),_ _animate object_, the soul of a willing bard of at least 8th level
 

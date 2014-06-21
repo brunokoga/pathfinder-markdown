@@ -6,9 +6,9 @@ _No true form can be detected, yet a sense of force and hulking malevolence is u
 
 **XP 3,200**
 
-N Medium [outsider](creatureTypes.md#_outsider) ( [air](creatureTypes.md#_air-subtype), [elemental](creatureTypes.md#_elemental-subtype), [extraplanar](creatureTypes.md#_extraplanar-subtype))
+N Medium [outsider](creatureTypes#_outsider) ( [air](creatureTypes#_air-subtype), [elemental](creatureTypes#_elemental-subtype), [extraplanar](creatureTypes#_extraplanar-subtype))
 
-**Init** +8; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +12
+**Init** +8; **Senses** darkvision 60 ft.; [Perception](../skills/perception#_perception) +12
 
 **Defense**
 
@@ -18,7 +18,7 @@ N Medium [outsider](creatureTypes.md#_outsider) ( [air](creatureTypes.md#_air-su
 
 **Fort** +11, **Ref** +11, **Will** +4
 
-**Defensive Abilities** natural invisibility; **Immune** [elemental traits](creatureTypes.md#_elemental-subtype)
+**Defensive Abilities** natural invisibility; **Immune** [elemental traits](creatureTypes#_elemental-subtype)
 
 **Offense**
 
@@ -32,9 +32,9 @@ N Medium [outsider](creatureTypes.md#_outsider) ( [air](creatureTypes.md#_air-su
 
 **Base**  **Atk** +7; **CMB** +11; **CMD** 25
 
-**Feats** [Combat Reflexes](../feats.md#_combat-reflexes), [Improved Initiative](../feats.md#_improved-initiative), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Weapon Focus](../feats.md#_weapon-focus) (slam)
+**Feats** [Combat Reflexes](../feats#_combat-reflexes), [Improved Initiative](../feats#_improved-initiative), [Lightning Reflexes](../feats#_lightning-reflexes), [Weapon Focus](../feats#_weapon-focus) (slam)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +14, [Bluff](../skills/bluff.md#_bluff) +10, [Fly](../skills/fly.md#_fly) +22, [Knowledge](../skills/knowledge.md#_knowledge) (planes) +12, [Perception](../skills/perception.md#_perception) +12, [Sense Motive](../skills/senseMotive.md#_sense-motive) +12, [Stealth](../skills/stealth.md#_stealth) +14, [Survival](../skills/survival.md#_survival) +12
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +14, [Bluff](../skills/bluff#_bluff) +10, [Fly](../skills/fly#_fly) +22, [Knowledge](../skills/knowledge#_knowledge) (planes) +12, [Perception](../skills/perception#_perception) +12, [Sense Motive](../skills/senseMotive#_sense-motive) +12, [Stealth](../skills/stealth#_stealth) +14, [Survival](../skills/survival#_survival) +12
 
 **Languages** Auran, Common
 
@@ -50,9 +50,9 @@ N Medium [outsider](creatureTypes.md#_outsider) ( [air](creatureTypes.md#_air-su
 
 **Special Abilities**
 
-**Improved Tracking (Ex)** An invisible stalker takes no penalty to [Survival](../skills/survival.md#_survival) checks when tracking and moving at any speed.
+**Improved Tracking (Ex)** An invisible stalker takes no penalty to [Survival](../skills/survival#_survival) checks when tracking and moving at any speed.
 
-**Natural Invisibility (Ex)** This ability is constant—an invisible stalker remains invisible at all times, even when attacking. As this ability is inherent, it is not subject to the _ [invisibility purge](../spells/invisibilityPurge.md#_invisibility-purge)_ spell. Against foes that cannot pinpoint it, the invisible stalker gains a +20 bonus on [Stealth](../skills/stealth.md#_stealth) checks when moving, or +40 when standing still—these bonuses are not included in the statistics above.
+**Natural Invisibility (Ex)** This ability is constant—an invisible stalker remains invisible at all times, even when attacking. As this ability is inherent, it is not subject to the _ [invisibility purge](../spells/invisibilityPurge#_invisibility-purge)_ spell. Against foes that cannot pinpoint it, the invisible stalker gains a +20 bonus on [Stealth](../skills/stealth#_stealth) checks when moving, or +40 when standing still—these bonuses are not included in the statistics above.
 
 Very little is known about these enigmatic and mysterious creatures, as their very nature makes details of their true form difficult to discern. Brought to this world from the Plane of Air, these creatures fulfill tasks for those who conjure them. Invisible stalkers act as guardians, assassins, and trackers, occupations in which they excel. Their natural invisibility and skill at stealth allow them to follow their quarry without detection and give them the upper hand when it comes to exterminating a mark.
 

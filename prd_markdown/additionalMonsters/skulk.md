@@ -6,9 +6,9 @@ This smooth-skinned, hairless humanoid has penetrating eyes and skin that shifts
 
 **XP 400**
 
-CE Medium [humanoid](monsters/creatureTypes.md#_humanoid) (skulk)
+CE Medium [humanoid](monsters/creatureTypes#_humanoid) (skulk)
 
-**Init** +6; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +5
+**Init** +6; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +5
 
 Defense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +2; **CMD** 14
 
-**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth.md#_stealth))
+**Feats** [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth#_stealth))
 
-**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +5, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +16; **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
+**Skills** [Perception](additionalMonsters/../skills/perception#_perception) +5, [Stealth](additionalMonsters/../skills/stealth#_stealth) +16; **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth#_stealth)
 
 **Languages** Common, Undercommon
 
@@ -54,7 +54,7 @@ Special Abilities
 
 **Camouflaged Step (Ex)** Skulks can pass through forest and subterranean settings almost without a trace. Add +10 to the DC to track a skulk in these environments.
 
-**Chameleon Skin (Ex)** A skulk's racial bonus to [Stealth](additionalMonsters/../skills/stealth.md#_stealth) comes from his ability to change the color of his skin to match his surroundings, even complex or regular patterns like bricks and mortar. A skulk loses this conditional bonus if he is wearing armor, or if he wears any clothing that covers more than one-quarter of his body, as skulks can only change their own flesh, not things they carry. A skulk normally conceals small items behind his body; by putting his back to a wall and changing his front half, he can hide the item because observers don't have line of sight to the item.
+**Chameleon Skin (Ex)** A skulk's racial bonus to [Stealth](additionalMonsters/../skills/stealth#_stealth) comes from his ability to change the color of his skin to match his surroundings, even complex or regular patterns like bricks and mortar. A skulk loses this conditional bonus if he is wearing armor, or if he wears any clothing that covers more than one-quarter of his body, as skulks can only change their own flesh, not things they carry. A skulk normally conceals small items behind his body; by putting his back to a wall and changing his front half, he can hide the item because observers don't have line of sight to the item.
 
 Skulks are a race of cowardly and lazy humanoids that live on the fringes of society, stealing what they need and doing what they must—even committing casual murder—to survive. Their unabashed cowardice is perhaps their most widely known trait, but skulks don't see themselves as particularly craven. Instead, they view their dishonorable behaviors as the most expedient method of survival. They hate most other humanoids, viewing them as lazy and foolish, and think nothing of sneaking into a home, killing all the residents, and burglarizing what they can carry off without getting caught.
 

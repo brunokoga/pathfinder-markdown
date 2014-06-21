@@ -12,7 +12,7 @@
 
 **Duration** permanent (D)
 
-**Saving Throw** [Fortitude](../combat.md#_fortitude) negates; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Fortitude](../combat#_fortitude) negates; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-You call upon the powers of unlife to render the subject [blinded](../glossary.md#_blinded) or [deafened](../glossary.md#_deafened), as you choose.
+You call upon the powers of unlife to render the subject [blinded](../glossary#_blinded) or [deafened](../glossary#_deafened), as you choose.
 

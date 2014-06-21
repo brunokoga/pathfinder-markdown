@@ -47,9 +47,9 @@ Angelskin
 
 **Weight** 45 lb.
 
-The preserved skin of an angel retains a portion of celestial grace and can be crafted into leather, hide, or studded leather armor. Angelskin radiates a moderate good aura that masks malign auras. Any evil aura radiated by the wearer is reduced in strength by 10 Hit Dice. Auras reduced below 1 Hit Die can't be detected by means such as _ [detect evil](spells/detectEvil.md#_detect-evil)_; the creature doesn't detect as evil, though this has no effect on other aspects of the creature's alignment. For example, a weak chaotic creature wearing angelskin armor detects as chaotic, but not evil.
+The preserved skin of an angel retains a portion of celestial grace and can be crafted into leather, hide, or studded leather armor. Angelskin radiates a moderate good aura that masks malign auras. Any evil aura radiated by the wearer is reduced in strength by 10 Hit Dice. Auras reduced below 1 Hit Die can't be detected by means such as _ [detect evil](spells/detectEvil#_detect-evil)_; the creature doesn't detect as evil, though this has no effect on other aspects of the creature's alignment. For example, a weak chaotic creature wearing angelskin armor detects as chaotic, but not evil.
 
-Spells and supernatural abilities that have special effects when cast on or used against creatures with evil alignments (even beneficial effects) have a 20% chance of treating an evil wearer as neutral instead. Ongoing effects such as smite evil make this roll the first time they are used against the creature; if the effect treats the target as neutral, it does so for the remainder of the effect's duration. If the ongoing effect applies to an area and the wearer leaves that area, the percentage chance should be rolled again. Permanent magic items such as _ [holy](magicItems/weapons.md#_weapons-holy) _weapons always treat the wearer as evil. Armor constructed from angelskin is always of masterwork quality; the masterwork cost is included in the prices given below.
+Spells and supernatural abilities that have special effects when cast on or used against creatures with evil alignments (even beneficial effects) have a 20% chance of treating an evil wearer as neutral instead. Ongoing effects such as smite evil make this roll the first time they are used against the creature; if the effect treats the target as neutral, it does so for the remainder of the effect's duration. If the ongoing effect applies to an area and the wearer leaves that area, the percentage chance should be rolled again. Permanent magic items such as _ [holy](magicItems/weapons#_weapons-holy) _weapons always treat the wearer as evil. Armor constructed from angelskin is always of masterwork quality; the masterwork cost is included in the prices given below.
 
 Angelskin has 5 hit points per inch of thickness and hardness 5.
 
@@ -124,7 +124,7 @@ Armorsmiths can work with the hides of dragons to produce armor or shields of ma
 
 Because dragonhide armor isn't made of metal, druids can wear it without penalty.
 
-Dragonhide armor costs twice as much as masterwork armor of that type, but it takes no longer to make than ordinary armor of that type (double all [Craft](skills/craft.md#_craft) results).
+Dragonhide armor costs twice as much as masterwork armor of that type, but it takes no longer to make than ordinary armor of that type (double all [Craft](skills/craft#_craft) results).
 
 Dragonhide has 10 hit points per inch of thickness and hardness 10. The hide of a dragon is typically between 1/2 inch and 1 inch thick.
 
@@ -171,7 +171,7 @@ Fire-forged steel
 
 Dwarves stumbled across the secret of crafting fire-forged steel in an effort to make forge-friendly tools. It didn't take them long to adapt its unique properties to arms and armor. Fire-forged steel channels heat in one direction to protect its wearer or wielder. When it is crafted into armor, heat is channeled away from the wearer, offering some limited protection. Armor crafted from fire-forged steel grants the wearer fire resistance 2.
 
-Weapons crafted from fire-forged steel similarly channel heat away from the wearer; this does not grant the wielder energy resistance. Instead, the blade absorbs and channels heat to the parts of the weapon that contact enemies. If the weapon is exposed to 10 points or more of fire damage (such as from an opponent's _ [fireball](spells/fireball.md#_fireball)_ or by holding it in a campfire for 1 full round), the weapon adds +1d4 points of fire damage to its attacks for the next 2 rounds. If the wielder is wearing fire-forged armor and using a fire-forged weapon, this bonus damage increases to 1d6 points of fire damage and lasts for 4 rounds. This bonus damage does not stack with fire damage from weapon enhancements such as _ [flaming](magicItems/weapons.md#_weapons-flaming)_.
+Weapons crafted from fire-forged steel similarly channel heat away from the wearer; this does not grant the wielder energy resistance. Instead, the blade absorbs and channels heat to the parts of the weapon that contact enemies. If the weapon is exposed to 10 points or more of fire damage (such as from an opponent's _ [fireball](spells/fireball#_fireball)_ or by holding it in a campfire for 1 full round), the weapon adds +1d4 points of fire damage to its attacks for the next 2 rounds. If the wielder is wearing fire-forged armor and using a fire-forged weapon, this bonus damage increases to 1d6 points of fire damage and lasts for 4 rounds. This bonus damage does not stack with fire damage from weapon enhancements such as _ [flaming](magicItems/weapons#_weapons-flaming)_.
 
 Armor or weapons made from fire-forged steel are always considered masterwork, and the masterwork costs are included in the listed prices.
 
@@ -207,7 +207,7 @@ The secret of greenwood lies in its harvesting. Each length is taken, with leave
 
 When damp and in contact with fertile soil, living greenwood heals damage to itself at a rate of 1 hit point per hour, even repairing breaks and regrowing missing pieces. If the weapon has the broken condition, it is repaired during the first hour of contact with fertile soil. Greenwood items take only one-quarter damage from fire.
 
-Greenwood can be altered or enhanced with wood-shaping magic such as _ [ironwood](spells/ironwood.md#_ironwood)_, _shape wood_, and _ [warp wood](spells/warpWood.md#_warp-wood)_. The duration of any such effect on a greenwood item is doubled.
+Greenwood can be altered or enhanced with wood-shaping magic such as _ [ironwood](spells/ironwood#_ironwood)_, _shape wood_, and _ [warp wood](spells/warpWood#_warp-wood)_. The duration of any such effect on a greenwood item is doubled.
 
 To determine the price of a greenwood item, use the original weight but add 50 gp per pound to the price of a masterwork version of that item. Items made from darkwood cannot be made into greenwood.
 
@@ -219,7 +219,7 @@ griffon mane
 
 **Weight** 45 lb.
 
-This rough-spun cloth, ranging in color from golden-brown to brown-black, is woven from the mane of leonine magical beasts, primarily griffons but also chimeras and manticores, and is exceptionally strong and light. Wearing a cloak, robe, clothing outfit, or padded or quilted armor made from griffon mane grants a +2 competence bonus on [Fly](skills/fly.md#_fly) checks. If an item made of griffon mane is magically given the ability to fly, the cost to add that specific magical property is reduced by 10%, though this does not reduce the cost of any other abilities the item has.
+This rough-spun cloth, ranging in color from golden-brown to brown-black, is woven from the mane of leonine magical beasts, primarily griffons but also chimeras and manticores, and is exceptionally strong and light. Wearing a cloak, robe, clothing outfit, or padded or quilted armor made from griffon mane grants a +2 competence bonus on [Fly](skills/fly#_fly) checks. If an item made of griffon mane is magically given the ability to fly, the cost to add that specific magical property is reduced by 10%, though this does not reduce the cost of any other abilities the item has.
 
 Griffon mane has twice the number of hit points of normal cloth and hardness 1.
 
@@ -282,7 +282,7 @@ This deep green volcanic glass is similar to obsidian but is formed when molten 
 
 Any successful hit with a viridium weapon causes the target to contract leprosy (Fortitude DC 12 negates). On a successful critical hit, a tiny fragment of viridium breaks off within the target, affecting it as though with greenblood oil (Fortitude DC 13 negates).
 
-A creature carrying a viridium weapon must save every 24 hours or contract leprosy unless the weapon is kept inside an extradimensional space (such as an _ [efficient quiver](magicItems/wondrousItems.md#_efficient-quiver)_) or a scabbard lined with lead.
+A creature carrying a viridium weapon must save every 24 hours or contract leprosy unless the weapon is kept inside an extradimensional space (such as an _ [efficient quiver](magicItems/wondrousItems#_efficient-quiver)_) or a scabbard lined with lead.
 
 Oozes, plants, and outsiders are immune to the deadly emanations of viridium.
 
@@ -299,7 +299,7 @@ whipwood
 
 **Weight** 45 lb.
 
-Vanara woodworkers craft this extremely flexible material in a time-consuming process. Whipwood is actually a composite of several bendable wooden fibers woven and fused together to form a flexible but sturdy unit. Only wooden weapons or weapons with wooden hafts (such as axes and spears) can be made out of whipwood. A creature wielding a whipwood weapon gains a +2 bonus to its CMD when defending against sunder attempts against the weapon. A whipwood weapon's hit points increase by +5. Whipwood loses its special qualities if under the effect of an _ [ironwood](spells/ironwood.md#_ironwood)_ spell. Whipwood weapons cost 500 gp more than normal weapons of their type.
+Vanara woodworkers craft this extremely flexible material in a time-consuming process. Whipwood is actually a composite of several bendable wooden fibers woven and fused together to form a flexible but sturdy unit. Only wooden weapons or weapons with wooden hafts (such as axes and spears) can be made out of whipwood. A creature wielding a whipwood weapon gains a +2 bonus to its CMD when defending against sunder attempts against the weapon. A whipwood weapon's hit points increase by +5. Whipwood loses its special qualities if under the effect of an _ [ironwood](spells/ironwood#_ironwood)_ spell. Whipwood weapons cost 500 gp more than normal weapons of their type.
 
 WYROOT
 

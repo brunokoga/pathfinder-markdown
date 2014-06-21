@@ -6,9 +6,9 @@ This humanoid creature has the legs of a bald goat, a completely hairless body, 
 
 **XP 600**
 
-NE Medium [fey](monsters/creatureTypes.md#_fey)
+NE Medium [fey](monsters/creatureTypes#_fey)
 
-**Init** +2; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +11
+**Init** +2; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +11
 
 Defense
 
@@ -30,7 +30,7 @@ Offense
 
 **Spell-Like Abilities** (CL 4th; concentration +3)
 
-3/day—_ [heat metal](additionalMonsters/../spells/heatMetal.md#_heat-metal)_ (DC 11)
+3/day—_ [heat metal](additionalMonsters/../spells/heatMetal#_heat-metal)_ (DC 11)
 
 Statistics
 
@@ -38,9 +38,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +3; **CMD** 15
 
-**Feats** [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception)), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
+**Feats** [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Perception](additionalMonsters/../skills/perception#_perception)), [Weapon Finesse](additionalMonsters/../feats#_weapon-finesse)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +9, [Perception](additionalMonsters/../skills/perception.md#_perception) +11, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +9
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +9, [Perception](additionalMonsters/../skills/perception#_perception) +11, [Stealth](additionalMonsters/../skills/stealth#_stealth) +9
 
 **Languages** Common, Sylvan
 
@@ -64,7 +64,7 @@ Most forlarrens are female, and few are capable of conceiving children of their 
 
 The forlarren attacks with its clawed hands, typically focusing on a single opponent at a time and attacking until it or its opponent is slain. Yet curiously, when a forlarren succeeds in killing an opponent, the kindly traits of its fey mother sometimes surface, and it shows profound remorse for its cruelty. With such a pendulum of erratic behavior, it is no wonder that forlarrens are all but incapable of forming lasting friendships—even with others of their own kind.
 
-The majority of forlarrens inherit little in the way of the magical abilities possessed by their fey mothers, but they do gain a small measure of the powers of their fiendish fathers. In most cases, this manifests as the ability to use _ [heat metal](additionalMonsters/../spells/heatMetal.md#_heat-metal)_ three times per day, but some forlarren instead gain a different spell-like ability chosen from the following list: _ [chill metal](additionalMonsters/../spells/chillMetal.md#_chill-metal)_, _ [flame blade](additionalMonsters/../spells/flameBlade.md#_flame-blade)_, _ [flaming sphere](additionalMonsters/../spells/flamingSphere.md#_flaming-sphere)_, _ [gust of wind](additionalMonsters/../spells/gustOfWind.md#_gust-of-wind)_, _ [summon swarm](additionalMonsters/../spells/summonSwarm.md#_summon-swarm)_, or _ [warp wood](additionalMonsters/../spells/warpWood.md#_warp-wood)_.
+The majority of forlarrens inherit little in the way of the magical abilities possessed by their fey mothers, but they do gain a small measure of the powers of their fiendish fathers. In most cases, this manifests as the ability to use _ [heat metal](additionalMonsters/../spells/heatMetal#_heat-metal)_ three times per day, but some forlarren instead gain a different spell-like ability chosen from the following list: _ [chill metal](additionalMonsters/../spells/chillMetal#_chill-metal)_, _ [flame blade](additionalMonsters/../spells/flameBlade#_flame-blade)_, _ [flaming sphere](additionalMonsters/../spells/flamingSphere#_flaming-sphere)_, _ [gust of wind](additionalMonsters/../spells/gustOfWind#_gust-of-wind)_, _ [summon swarm](additionalMonsters/../spells/summonSwarm#_summon-swarm)_, or _ [warp wood](additionalMonsters/../spells/warpWood#_warp-wood)_.
 
 A forlarren stands 6 feet tall and weighs about 160 pounds. In theory, these creatures can live for hundreds of years, but most perish through violence before they turn 10.
 

@@ -6,9 +6,9 @@ Achaierai CR 5
 
 **XP 1,600**
 
-LE Large [outsider](monsters/creatureTypes.md#_outsider) ( [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype))
+LE Large [outsider](monsters/creatureTypes#_outsider) ( [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [lawful](monsters/creatureTypes#_lawful-subtype))
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +12
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +12
 
 Defense
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +7; **CMB** +12; **CMD** 24 (28 vs. trip)
 
-**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Dodge](additionalMonsters/../feats.md#_dodge), [Mobility](additionalMonsters/../feats.md#_mobility), [Spring Attack](additionalMonsters/../feats.md#_spring-attack)
+**Feats** [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Dodge](additionalMonsters/../feats#_dodge), [Mobility](additionalMonsters/../feats#_mobility), [Spring Attack](additionalMonsters/../feats#_spring-attack)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +11 (+19 jump), [Climb](additionalMonsters/../skills/climb.md#_climb) +14, [Perception](additionalMonsters/../skills/perception.md#_perception) +12, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +12, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +7, [Swim](additionalMonsters/../skills/swim.md#_swim) +14
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +11 (+19 jump), [Climb](additionalMonsters/../skills/climb#_climb) +14, [Perception](additionalMonsters/../skills/perception#_perception) +12, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +12, [Stealth](additionalMonsters/../skills/stealth#_stealth) +7, [Swim](additionalMonsters/../skills/swim#_swim) +14
 
 **Language** Infernal
 
@@ -52,7 +52,7 @@ Ecology
 
 Special Abilities
 
-**Black Cloud (Su)** An achaierai can exhale a cloud of choking, toxic smoke three times per day. All creatures within 10 feet of the achaierai immediately take 2d6 points of damage as their flesh melts and rots away. The cloud erodes sanity as well as flesh, and anyone who takes damage from the black cloud must also make a DC 15 Fortitude save or become confused. Every round, the victim may attempt another DC 15 Fortitude save to recover from the confusion; otherwise it persists, lasting indefinitely until the condition is removed or the victim eventually makes her saving throw. The confusion element of a black cloud is a mind-affecting effect. The save DC is Constitution-based. This is a [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) effect. Achaierais are immune to this ability.
+**Black Cloud (Su)** An achaierai can exhale a cloud of choking, toxic smoke three times per day. All creatures within 10 feet of the achaierai immediately take 2d6 points of damage as their flesh melts and rots away. The cloud erodes sanity as well as flesh, and anyone who takes damage from the black cloud must also make a DC 15 Fortitude save or become confused. Every round, the victim may attempt another DC 15 Fortitude save to recover from the confusion; otherwise it persists, lasting indefinitely until the condition is removed or the victim eventually makes her saving throw. The confusion element of a black cloud is a mind-affecting effect. The save DC is Constitution-based. This is a [poison](monsters/universalMonsterRules#_poison-(ex-or-su)) effect. Achaierais are immune to this ability.
 
 An achaierai is a predator and scavenger of the lower planes that looks like a 15-foot-tall flightless bird, though its head and body are fused into one large unit, with four legs and atrophied wings. The thick, oily plumage covering its body all but conceals these tiny wings. An adult achaierai weighs roughly 750 pounds.
 

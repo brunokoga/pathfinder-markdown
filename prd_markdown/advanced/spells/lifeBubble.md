@@ -14,7 +14,7 @@
 
 **Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)
 
-You surround the touched creatures with a constant and moveable 1-inch shell of tolerable living conditions. This shell enables the subjects to breathe freely, even underwater or in a vacuum, as well as making them immune to harmful gases and vapors, including inhaled diseases and poisons and spells like _ [cloudkill](../../spells/cloudkill.md#_cloudkill)_ and _ [stinking cloud](../../spells/stinkingCloud.md#_stinking-cloud)_. In addition, the shell protects subjects from extremes of temperature (per _ [endure elements](../../spells/endureElements.md#_endure-elements)_) as well as extremes of pressure.
+You surround the touched creatures with a constant and moveable 1-inch shell of tolerable living conditions. This shell enables the subjects to breathe freely, even underwater or in a vacuum, as well as making them immune to harmful gases and vapors, including inhaled diseases and poisons and spells like _ [cloudkill](../../spells/cloudkill#_cloudkill)_ and _ [stinking cloud](../../spells/stinkingCloud#_stinking-cloud)_. In addition, the shell protects subjects from extremes of temperature (per _ [endure elements](../../spells/endureElements#_endure-elements)_) as well as extremes of pressure.
 
 _Life bubble_ does not provide protection from negative or positive energy (such as found on the Negative and Positive Energy planes), the ability to see in conditions of poor visibility (such as in smoke or fog), nor the ability to move or act normally in conditions that impede movement (such as underwater).
 

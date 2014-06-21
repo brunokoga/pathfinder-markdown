@@ -6,9 +6,9 @@ _This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy 
 
 **XP 800**
 
-CE Large [humanoid](creatureTypes.md#_humanoid) ( [giant](creatureTypes.md#_giant-type))
+CE Large [humanoid](creatureTypes#_humanoid) ( [giant](creatureTypes#_giant-type))
 
-**Init** –1; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) +5
+**Init** –1; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception#_perception) +5
 
 **Defense**
 
@@ -34,9 +34,9 @@ CE Large [humanoid](creatureTypes.md#_humanoid) ( [giant](creatureTypes.md#_gian
 
 **Base Atk** +3; **CMB** +9; **CMD** 18
 
-**Feats** [Iron Will](../feats.md#_iron-will), [Toughness](../feats.md#_toughness)
+**Feats** [Iron Will](../feats#_iron-will), [Toughness](../feats#_toughness)
 
-**Skills** [Climb](../skills/climb.md#_climb) +7, [Perception](../skills/perception.md#_perception) +5
+**Skills** [Climb](../skills/climb#_climb) +7, [Perception](../skills/perception#_perception) +5
 
 **Languages** Giant
 

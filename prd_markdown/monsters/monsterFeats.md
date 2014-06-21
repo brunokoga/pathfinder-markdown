@@ -1,6 +1,6 @@
 # Monster Feats
 
-Most of the following feats apply specifically to monsters, although some player characters might qualify for them (particularly [Craft Construct](monsterFeats.md#_craft-construct)).
+Most of the following feats apply specifically to monsters, although some player characters might qualify for them (particularly [Craft Construct](monsterFeats#_craft-construct)).
 
 ## Ability Focus
 
@@ -18,7 +18,7 @@ uisite: Special attack.
 
 This creature can send opponents flying.
 
-**Prerequisites** : Str 25, [Power Attack](../feats.md#_power-attack), [Improved Bull Rush](../feats.md#_improved-bull-rush), size Large or larger.
+**Prerequisites** : Str 25, [Power Attack](../feats#_power-attack), [Improved Bull Rush](../feats#_improved-bull-rush), size Large or larger.
 
 **Benefit** : As a standard action, the creature may perform an awesome blow combat maneuver. If the creature's maneuver succeeds against a corporeal opponent smaller than itself, its opponent takes damage (typically slam damage plus Strength bonus) and is knocked flying 10 feet in a direction of the attacking creature's choice and falls prone. The attacking creature can only push the opponent in a straight line, and the opponent can't move closer to the attacking creature than the square it started in. If an obstacle prevents the completion of the opponent's move, the opponent and the obstacle each take 1d6 points of damage, and the opponent is knocked prone in the space adjacent to the obstacle.
 
@@ -26,9 +26,9 @@ This creature can send opponents flying.
 
 You can create construct creatures like golems.
 
-**Prerequisites** : Caster level 5th, [Craft Magic Arms and Armor](../feats.md#_craft-magic-arms-and-armor), [Craft Wondrous Item](../feats.md#_craft-wondrous-item).
+**Prerequisites** : Caster level 5th, [Craft Magic Arms and Armor](../feats#_craft-magic-arms-and-armor), [Craft Wondrous Item](../feats#_craft-wondrous-item).
 
-**Benefit** : You can create any [construct](creatureTypes.md#_construct) whose prerequisites you meet. The act of animating a [construct](creatureTypes.md#_construct) takes one day for each 1,000 gp in its market price. To create a [construct](creatureTypes.md#_construct), you must use up raw materials costing half of its base price, plus the full cost of the basic body created for the [construct](creatureTypes.md#_construct). Each [construct](creatureTypes.md#_construct) has a special section that summarizes its costs and other prerequisites. A newly created [construct](creatureTypes.md#_construct) has average hit points for its Hit Dice.
+**Benefit** : You can create any [construct](creatureTypes#_construct) whose prerequisites you meet. The act of animating a [construct](creatureTypes#_construct) takes one day for each 1,000 gp in its market price. To create a [construct](creatureTypes#_construct), you must use up raw materials costing half of its base price, plus the full cost of the basic body created for the [construct](creatureTypes#_construct). Each [construct](creatureTypes#_construct) has a special section that summarizes its costs and other prerequisites. A newly created [construct](creatureTypes#_construct) has average hit points for its Hit Dice.
 
 ## Empower Spell-Like Ability
 
@@ -40,7 +40,7 @@ One of this creature's spell-like abilities is particularly potent and powerful.
 
 When a creature uses an empowered spell-like ability, all variable, numeric effects of the spell-like ability are increased by half (+50%). Saving throws and opposed rolls are not affected. Spell-like abilities without random variables are not affected.
 
-The creature can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 its caster level (round down) – 2. For a summary, see the table in the description of the [Quicken Spell-Like Ability](monsterFeats.md#_quicken-spell-like-ability).
+The creature can only select a spell-like ability duplicating a spell with a level less than or equal to 1/2 its caster level (round down) – 2. For a summary, see the table in the description of the [Quicken Spell-Like Ability](monsterFeats#_quicken-spell-like-ability).
 
 **Special** : This feat can be taken multiple times. Each time it is taken, the creature can apply it to a different spell-like ability.
 
@@ -48,7 +48,7 @@ The creature can only select a spell-like ability duplicating a spell with a lev
 
 This creature can make an attack before and after it moves while flying.
 
-**Prerequisite** : [Fly](../skills/fly.md#_fly) speed.
+**Prerequisite** : [Fly](../skills/fly#_fly) speed.
 
 **Benefit** : When flying, the creature can take a move action and another standard action at any point during the move. The creature cannot take a second move action during a round when it makes a flyby attack.
 
@@ -58,13 +58,13 @@ This creature can make an attack before and after it moves while flying.
 
 This creature can hover in place with ease and can kick up clouds of dust and debris.
 
-**Prerequisite** : [Fly](../skills/fly.md#_fly) speed.
+**Prerequisite** : [Fly](../skills/fly#_fly) speed.
 
-**Benefit** : A creature with this feat can halt its movement while flying, allowing it to hover without needing to make a [Fly](../skills/fly.md#_fly) skill check.
+**Benefit** : A creature with this feat can halt its movement while flying, allowing it to hover without needing to make a [Fly](../skills/fly#_fly) skill check.
 
 If a creature of size Large or larger with this feat hovers within 20 feet of the ground in an area with lots of loose debris, the draft from its wings creates a hemispherical cloud with a radius of 60 feet. The winds generated can snuff torches, small campfires, exposed lanterns, and other small, open flames of non-magical origin. Clear vision within the cloud is limited to 10 feet. Creatures have concealment at 15 to 20 feet (20% miss chance). At 25 feet or more, creatures have total concealment (50% miss chance, and opponents cannot use sight to locate the creature).
 
-**Normal** : Without this feat, a creature must make a [Fly](../skills/fly.md#_fly) skill check to hover and the creature does not create a cloud of debris while hovering.
+**Normal** : Without this feat, a creature must make a [Fly](../skills/fly#_fly) skill check to hover and the creature does not create a cloud of debris while hovering.
 
 ## Improved Natural Armor
 
@@ -106,9 +106,9 @@ This multi-armed creature is skilled at making attacks with multiple weapons.
 
 **Benefit** : Penalties for fighting with multiple weapons are reduced by –2 with the primary hand and by –6 with off hands.
 
-**Normal** : A creature without this feat takes a –6 penalty on attacks made with its primary hand and a –10 penalty on attacks made with all of its off hands. (It has one primary hand, and all the others are off hands.) See [Two-Weapon Fighting](../feats.md#_two-weapon-fighting) in the _Pathfinder RPG Core Rulebook._
+**Normal** : A creature without this feat takes a –6 penalty on attacks made with its primary hand and a –10 penalty on attacks made with all of its off hands. (It has one primary hand, and all the others are off hands.) See [Two-Weapon Fighting](../feats#_two-weapon-fighting) in the _Pathfinder RPG Core Rulebook._
 
-**Special** : This feat replaces the [Two-Weapon Fighting](../feats.md#_two-weapon-fighting) feat for creatures with more than two arms.
+**Special** : This feat replaces the [Two-Weapon Fighting](../feats#_two-weapon-fighting) feat for creatures with more than two arms.
 
 ## Quicken Spell-Like Ability
 
@@ -156,9 +156,9 @@ The creature can drop a creature it has snatched as a free action or use a stand
 
 This creature can make turns with ease while flying.
 
-**Prerequisite** : [Fly](../skills/fly.md#_fly) speed.
+**Prerequisite** : [Fly](../skills/fly#_fly) speed.
 
-**Benefits** : Once each round, a creature with this feat can turn up to 180 degrees as a free action without making a [Fly](../skills/fly.md#_fly) skill check. This free turn does not consume any additional movement from the creature.
+**Benefits** : Once each round, a creature with this feat can turn up to 180 degrees as a free action without making a [Fly](../skills/fly#_fly) skill check. This free turn does not consume any additional movement from the creature.
 
-**Normal** : A flying creature can turn up to 90 degrees by making a DC 15 [Fly](../skills/fly.md#_fly) skill check and expending 5 feet of movement. A flying creature can turn up to 180 degrees by making a DC 20 [Fly](../skills/fly.md#_fly) skill check and expending 10 feet of movement.
+**Normal** : A flying creature can turn up to 90 degrees by making a DC 15 [Fly](../skills/fly#_fly) skill check and expending 5 feet of movement. A flying creature can turn up to 180 degrees by making a DC 20 [Fly](../skills/fly#_fly) skill check and expending 10 feet of movement.
 

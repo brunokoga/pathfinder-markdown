@@ -24,5 +24,5 @@ _9 or more HD_: The creature is sickened while it can see the veil.
 
 A successful saving throw ignores all effects of the veil. Sightless creatures are not affected by _loathsome veil_. Affected creatures can avert or close their eyes to avoid seeing the veil, similar to avoiding a gaze attack.
 
-_Loathsome veil_ can be made permanent with the _ [permanency](spells/permanency.md#_permanency)_ spell by a caster of 10th level or higher for the cost of 7,500 gp.
+_Loathsome veil_ can be made permanent with the _ [permanency](spells/permanency#_permanency)_ spell by a caster of 10th level or higher for the cost of 7,500 gp.
 

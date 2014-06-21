@@ -12,7 +12,7 @@
 
 **Duration** 24 hours
 
-**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless)
+**Saving Throw** [Will](../combat#_will) negates (harmless); **[Spell Resistance](../glossary#_spell-resistance)** yes (harmless)
 
-The subject is protected from all devices and spells that gather information about the target through divination magic (such as _ [detect evil](detectEvil.md#_detect-evil), [locate creature](locateCreature.md#_locate-creature), scry, _and_ see invisible_). This spell also grants a +8 resistance bonus on saving throws against all mind-affecting spells and effects. _Mind blank _even foils _ [limited wish](limitedWish.md#_limited-wish)_, _ [miracle](miracle.md#_miracle)_, and _ [wish](wish.md#_wish) _spells when they are used in such a way as to gain information about the target. In the case of scrying that scans an area the creature is in, such as _ [arcane eye](arcaneEye.md#_arcane-eye), _the spell works but the creature simply isn't detected. Scrying attempts that are targeted specifically at the subject do not work at all.
+The subject is protected from all devices and spells that gather information about the target through divination magic (such as _ [detect evil](detectEvil#_detect-evil), [locate creature](locateCreature#_locate-creature), scry, _and_ see invisible_). This spell also grants a +8 resistance bonus on saving throws against all mind-affecting spells and effects. _Mind blank _even foils _ [limited wish](limitedWish#_limited-wish)_, _ [miracle](miracle#_miracle)_, and _ [wish](wish#_wish) _spells when they are used in such a way as to gain information about the target. In the case of scrying that scans an area the creature is in, such as _ [arcane eye](arcaneEye#_arcane-eye), _the spell works but the creature simply isn't detected. Scrying attempts that are targeted specifically at the subject do not work at all.
 

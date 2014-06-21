@@ -12,7 +12,7 @@
 
 **Duration** 10 min./level
 
-**Saving Throw** [Fortitude](../combat.md#_fortitude) negates; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** [Fortitude](../combat#_fortitude) negates; **[Spell Resistance](../glossary#_spell-resistance)** no
 
 You alter wind force in the area surrounding you. You can make the wind blow in a certain direction or manner, increase its strength, or decrease its strength. The new wind direction and strength persist until the spell ends or until you choose to alter your handiwork, which requires concentration. You may create an “eye” of calm air up to 80 feet in diameter at the center of the area if you so desire, and you may choose to limit the area to any cylindrical area less than your full limit.
 
@@ -23,7 +23,7 @@ _Wind Direction_: You may choose one of four basic wind patterns to function ove
 - Rotation causes the winds to circle the center in clockwise or counterclockwise fashion.
 - A blast simply causes the winds to blow in one direction across the entire area from one side to the other.
 
-_Wind Strength_: For every three caster levels, you can increase or decrease wind strength by one level. Each round on your turn, a creature in the wind must make a [Fortitude](../combat.md#_fortitude) save or suffer the effect of being in the windy area. See [Environment](../environment.md) for more details.
+_Wind Strength_: For every three caster levels, you can increase or decrease wind strength by one level. Each round on your turn, a creature in the wind must make a [Fortitude](../combat#_fortitude) save or suffer the effect of being in the windy area. See [Environment](../environment) for more details.
 
 Strong winds (21+ mph) make sailing difficult.
 

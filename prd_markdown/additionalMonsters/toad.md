@@ -6,9 +6,9 @@ Giant ToadCR 2
 
 **XP 600**
 
-N Large [animal](monsters/creatureTypes.md#_animal)
+N Large [animal](monsters/creatureTypes#_animal)
 
-**Init** +1; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +8
+**Init** +1; **Senses** low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](additionalMonsters/../skills/perception#_perception) +8
 
 Defense
 
@@ -18,13 +18,13 @@ Defense
 
 **Fort** +6, **Ref** +6, **Will** +0
 
-**Defensive Abilities** [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) skin
+**Defensive Abilities** [poison](monsters/universalMonsterRules#_poison-(ex-or-su)) skin
 
 Offense
 
 **Speed** 30 ft., swim 15 ft.
 
-**Melee** bite +5 (1d6+6 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** bite +5 (1d6+6 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +2; **CMB** +7 (+11 grapple); **CMD** 18 (22 vs. trip)
 
-**Feats** [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
+**Feats** [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Perception](additionalMonsters/../skills/perception#_perception))
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +5 (+9 jump), [Perception](additionalMonsters/../skills/perception.md#_perception) +8, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +5, [Swim](additionalMonsters/../skills/swim.md#_swim) +12; **Racial Modifiers** +4 [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) (+8 jump), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +5 (+9 jump), [Perception](additionalMonsters/../skills/perception#_perception) +8, [Stealth](additionalMonsters/../skills/stealth#_stealth) +5, [Swim](additionalMonsters/../skills/swim#_swim) +12; **Racial Modifiers** +4 [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) (+8 jump), +4 [Stealth](additionalMonsters/../skills/stealth#_stealth)
 
 Ecology
 
@@ -50,7 +50,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) Skin (Ex)** A creature that strikes a giant toad with an unarmed strike or natural weapon exposes itself to the toad's poisonous skin.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) Skin (Ex)** A creature that strikes a giant toad with an unarmed strike or natural weapon exposes itself to the toad's poisonous skin.
 
 Skin—contact; _save_ Fort DC 14; _frequency_ 1/round for 4 rounds; _effect_ 1d2 Wisdom damage; _cure_ 1 save.
 
@@ -66,11 +66,11 @@ Glacier ToadCR 6
 
 **XP 2,400**
 
-N Large [magical beast](monsters/creatureTypes.md#_magical-beast) ( [cold](monsters/creatureTypes.md#_cold-subtype))
+N Large [magical beast](monsters/creatureTypes#_magical-beast) ( [cold](monsters/creatureTypes#_cold-subtype))
 
-**Init** +1; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +11
+**Init** +1; **Senses** low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](additionalMonsters/../skills/perception#_perception) +11
 
-**Aura** bitter [cold](monsters/creatureTypes.md#_cold-subtype) (20 ft.)
+**Aura** bitter [cold](monsters/creatureTypes#_cold-subtype) (20 ft.)
 
 Defense
 
@@ -80,19 +80,19 @@ Defense
 
 **Fort** +10, **Ref** +8, **Will** +3
 
-**Immune** [cold](monsters/creatureTypes.md#_cold-subtype)
+**Immune** [cold](monsters/creatureTypes#_cold-subtype)
 
-**Weaknesses** vulnerable to [fire](monsters/creatureTypes.md#_fire-subtype)
+**Weaknesses** vulnerable to [fire](monsters/creatureTypes#_fire-subtype)
 
 Offense
 
 **Speed** 30 ft., swim 15 ft.
 
-**Melee** bite +13 (2d6+9 plus 1d6 [cold](monsters/creatureTypes.md#_cold-subtype) and [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** bite +13 (2d6+9 plus 1d6 [cold](monsters/creatureTypes#_cold-subtype) and [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** swallow whole (1d4 bludgeoning and 1d6 [cold](monsters/creatureTypes.md#_cold-subtype), AC 14, 7 hp)
+**Special Attacks** swallow whole (1d4 bludgeoning and 1d6 [cold](monsters/creatureTypes#_cold-subtype), AC 14, 7 hp)
 
 Statistics
 
@@ -100,15 +100,15 @@ Statistics
 
 **Base Atk** +7; **CMB** +14 (+18 grapple); **CMD** 25 (29 vs. trip)
 
-**Feats** [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception)), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite)
+**Feats** [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Power Attack](additionalMonsters/../feats#_power-attack), [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Perception](additionalMonsters/../skills/perception#_perception)), [Weapon Focus](additionalMonsters/../feats#_weapon-focus) (bite)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +9 (+13 jumping), [Perception](additionalMonsters/../skills/perception.md#_perception) +11, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +6 (+14 in snow), [Swim](additionalMonsters/../skills/swim.md#_swim) +14; **Racial Modifiers** +4 [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics), (+8 jumping), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) (+12 in snow)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +9 (+13 jumping), [Perception](additionalMonsters/../skills/perception#_perception) +11, [Stealth](additionalMonsters/../skills/stealth#_stealth) +6 (+14 in snow), [Swim](additionalMonsters/../skills/swim#_swim) +14; **Racial Modifiers** +4 [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics), (+8 jumping), +4 [Stealth](additionalMonsters/../skills/stealth#_stealth) (+12 in snow)
 
 **Languages** Aklo
 
 Ecology
 
-**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) hills or glaciers
+**Environment** [cold](monsters/creatureTypes#_cold-subtype) hills or glaciers
 
 **Organization** solitary, pair, or knot (3–12)
 
@@ -116,7 +116,7 @@ Ecology
 
 Special Abilities
 
-**Bitter [Cold](monsters/creatureTypes.md#_cold-subtype) (Su)** All creatures within 20 feet of a glacier toad take 1d6 points of [cold](monsters/creatureTypes.md#_cold-subtype) damage each round on the toad's turn.
+**Bitter [Cold](monsters/creatureTypes#_cold-subtype) (Su)** All creatures within 20 feet of a glacier toad take 1d6 points of [cold](monsters/creatureTypes#_cold-subtype) damage each round on the toad's turn.
 
 Glacier toads are strange, magical cousins of the more common giant toads. None can say for certain whether they were bred, or evolved from exposure to elemental energies. Glacier toads have no practical use for most treasure, but have a fondness for shiny objects like gems and glowing items.
 

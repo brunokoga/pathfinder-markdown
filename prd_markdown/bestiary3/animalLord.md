@@ -6,11 +6,11 @@ Cat Lord CR 11
 
 XP 12,800
 
-[Human](monsters/creatureTypes.md#_human-subtype) animal lord ranger 10
+[Human](monsters/creatureTypes#_human-subtype) animal lord ranger 10
 
-NG Medium outsider ( [native](monsters/creatureTypes.md#_native-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
+NG Medium outsider ( [native](monsters/creatureTypes#_native-subtype), [shapechanger](monsters/creatureTypes#_shapechanger-subtype))
 
-**Init** +7; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +17
+**Init** +7; **Senses** low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +17
 
 Defense
 
@@ -26,23 +26,23 @@ Offense
 
 **Speed** 30 ft., climb 20 ft.; leap
 
-**Melee** bite +15 (1d6+5 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 claws +15 (1d3+5)
+**Melee** bite +15 (1d6+5 plus [grab](monsters/universalMonsterRules#_grab)), 2 claws +15 (1d3+5)
 
-**Ranged** _+1 [keen](magicItems/weapons.md#_weapons-keen) composite longbow_ +18/+13 (1d8+6/×3)
+**Ranged** _+1 [keen](magicItems/weapons#_weapons-keen) composite longbow_ +18/+13 (1d8+6/×3)
 
-**Special Attacks** favored enemy ( [evil](monsters/creatureTypes.md#_evil-subtype) outsiders +6, giants +2, undead +2), [pounce](monsters/universalMonsterRules.md#_pounce), [rake](monsters/universalMonsterRules.md#_rake) (2 claws +15, 1d3+5)
+**Special Attacks** favored enemy ( [evil](monsters/creatureTypes#_evil-subtype) outsiders +6, giants +2, undead +2), [pounce](monsters/universalMonsterRules#_pounce), [rake](monsters/universalMonsterRules#_rake) (2 claws +15, 1d3+5)
 
 **Spell-Like Abilities** (CL 10th; concentration +12)
 
-At will—_ [charm animal](spells/charmAnimal.md#_charm-animal)_ (cats only, DC 13)
+At will—_ [charm animal](spells/charmAnimal#_charm-animal)_ (cats only, DC 13)
 
 **Ranger Spells Prepared** (CL 7th; concentration +11)
 
-3rd—_ [greater magic fang](spells/magicFang.md#_magic-fang-greater)_
+3rd—_ [greater magic fang](spells/magicFang#_magic-fang-greater)_
 
-2nd—_ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [hold animal](spells/holdAnimal.md#_hold-animal)_ (DC 16)
+2nd—_ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [hold animal](spells/holdAnimal#_hold-animal)_ (DC 16)
 
-1st—_ [charm animal](spells/charmAnimal.md#_charm-animal)_ (DC 15), _ [longstrider](spells/longstrider.md#_longstrider)_, _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_
+1st—_ [charm animal](spells/charmAnimal#_charm-animal)_ (DC 15), _ [longstrider](spells/longstrider#_longstrider)_, _ [pass without trace](spells/passWithoutTrace#_pass-without-trace)_
 
 Statistics
 
@@ -50,13 +50,13 @@ Statistics
 
 **Base Atk** +10; **CMB** +17 (+21 grapple); **CMD** 34
 
-**Feats** [Agile Maneuvers](feats.md#_agile-maneuvers), [Deadly Aim](feats.md#_deadly-aim), [Dodge](feats.md#_dodge), [Endurance](feats.md#_endurance), [Point-Blank Shot](feats.md#_point-blank-shot), [Precise Shot](feats.md#_precise-shot), [Rapid Shot](feats.md#_rapid-shot), [Shot on the Run](feats.md#_shot-on-the-run), [Toughness](feats.md#_toughness), [Vital Strike](feats.md#_vital-strike)
+**Feats** [Agile Maneuvers](feats#_agile-maneuvers), [Deadly Aim](feats#_deadly-aim), [Dodge](feats#_dodge), [Endurance](feats#_endurance), [Point-Blank Shot](feats#_point-blank-shot), [Precise Shot](feats#_precise-shot), [Rapid Shot](feats#_rapid-shot), [Shot on the Run](feats#_shot-on-the-run), [Toughness](feats#_toughness), [Vital Strike](feats#_vital-strike)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +17 (+22 when jumping), [Climb](skills/climb.md#_climb) +26, [Handle Animal](skills/handleAnimal.md#_handle-animal) +15, [Knowledge](skills/knowledge.md#_knowledge) (nature) +14, [Perception](skills/perception.md#_perception) +17, [Sense Motive](skills/senseMotive.md#_sense-motive) +14, [Stealth](skills/stealth.md#_stealth) +20 (+24 in undergrowth), [Survival](skills/survival.md#_survival) +17; **Racial Modifiers** +5 [Acrobatics](skills/acrobatics.md#_acrobatics) when jumping, +4 [Stealth](skills/stealth.md#_stealth) in undergrowth
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +17 (+22 when jumping), [Climb](skills/climb#_climb) +26, [Handle Animal](skills/handleAnimal#_handle-animal) +15, [Knowledge](skills/knowledge#_knowledge) (nature) +14, [Perception](skills/perception#_perception) +17, [Sense Motive](skills/senseMotive#_sense-motive) +14, [Stealth](skills/stealth#_stealth) +20 (+24 in undergrowth), [Survival](skills/survival#_survival) +17; **Racial Modifiers** +5 [Acrobatics](skills/acrobatics#_acrobatics) when jumping, +4 [Stealth](skills/stealth#_stealth) in undergrowth
 
-**Languages** Common, Sylvan; _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_ (cats only)
+**Languages** Common, Sylvan; _ [speak with animals](spells/speakWithAnimals#_speak-with-animals)_ (cats only)
 
-**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (leopard; _ [shapechange](spells/shapechange.md#_shapechange)_), favored terrain (jungle +4, plains +2), hunter's bond (leopard), swift tracker, track +5, wild empathy +12, woodland stride
+**SQ** [change shape](monsters/universalMonsterRules#_change-shape) (leopard; _ [shapechange](spells/shapechange#_shapechange)_), favored terrain (jungle +4, plains +2), hunter's bond (leopard), swift tracker, track +5, wild empathy +12, woodland stride
 
 Ecology
 
@@ -64,7 +64,7 @@ Ecology
 
 **Organization** solitary
 
-**Treasure** NPC gear (_+1 leather armor_, _+1 [keen](magicItems/weapons.md#_weapons-keen) composite longbow_ [+5 Str] with 20 arrows, _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, other treasure)
+**Treasure** NPC gear (_+1 leather armor_, _+1 [keen](magicItems/weapons#_weapons-keen) composite longbow_ [+5 Str] with 20 arrows, _ [amulet of natural armor](magicItems/wondrousItems#_amulet-of-natural-armor) +1_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, other treasure)
 
 When the gods of nature or powerful spirits desire a champion to defend the animal world, they invest a token of their power in a chosen vessel—be it animal or humanoid. Traditionally, only one animal lord for a specific animal species is active on a world at any one time, although sometimes, when an extant animal lord strays from its charge or otherwise fails, the force that created it might create a replacement to send against the fallen animal lord to challenge it in a combat to the death, with the victor claiming the right to rule or a chance at redemption.
 
@@ -100,9 +100,9 @@ The cat lord above uses a leopard as the base animal—this particular cat lord 
 
 **Special Qualities** : An animal lord gains the following special qualities.
 
-_Change Shape (Su)_: An animal lord has two forms—a humanoid and an animal form. When an animal lord in humanoid form uses the base animal's defensive abilities, movement types, attacks, and other features, the animal lord's body instantaneously changes as appropriate to allow the use of that ability, growing wings or claws or fangs as necessary. The animal lord can use this ability to take the shape of the base animal (as _ [shapechange](spells/shapechange.md#_shapechange)_) as a move action.
+_Change Shape (Su)_: An animal lord has two forms—a humanoid and an animal form. When an animal lord in humanoid form uses the base animal's defensive abilities, movement types, attacks, and other features, the animal lord's body instantaneously changes as appropriate to allow the use of that ability, growing wings or claws or fangs as necessary. The animal lord can use this ability to take the shape of the base animal (as _ [shapechange](spells/shapechange#_shapechange)_) as a move action.
 
-_Dominion (Su)_: In both forms, an animal lord is treated as if constantly under the effects of a _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_ spell, but this only applies to creatures of the animal lord's species affinity (see below). In addition, an animal lord can cast _ [charm animal](spells/charmAnimal.md#_charm-animal)_ on any animal of its affinity as a spell-like ability at will (CL equals the animal lord's HD).
+_Dominion (Su)_: In both forms, an animal lord is treated as if constantly under the effects of a _ [speak with animals](spells/speakWithAnimals#_speak-with-animals)_ spell, but this only applies to creatures of the animal lord's species affinity (see below). In addition, an animal lord can cast _ [charm animal](spells/charmAnimal#_charm-animal)_ on any animal of its affinity as a spell-like ability at will (CL equals the animal lord's HD).
 
 ## Species Affinity
 
@@ -118,7 +118,7 @@ _Savage (Ex):_ A canine lord deals +1d6 extra points of damage on its first atta
 
 **Cat Lord (Leopard, Lion, Tiger)** : Cat lords move with a fluid agility, and have slender bodies and catlike eyes. Cat lords gain the following additional ability.
 
-_Leap (Ex)_: A cat lord adds half its Hit Dice to all [Acrobatics](skills/acrobatics.md#_acrobatics) checks made to jump, and is always treated as if it had a running start when jumping.
+_Leap (Ex)_: A cat lord adds half its Hit Dice to all [Acrobatics](skills/acrobatics#_acrobatics) checks made to jump, and is always treated as if it had a running start when jumping.
 
 **Crocodile Lord (Crocodile)** : Crocodile lords have reptilian eyes, sharp teeth, and a scaly ridge along the spine. Crocodile lords gain the following additional ability.
 
@@ -142,5 +142,5 @@ _Brutal Jaws (Ex)_: A shark lord's bite attack causes bleed (1d6).
 
 **Serpent Lord (Snake)** : Serpent lords tend to have unusual skin colors, often with stripes or other patterns), snakelike eyes, and forked tongues. Serpent lords gain the following ability.
 
-_ [Poison](spells/poison.md#_poison) Immunity (Ex):_ Serpent lords are immune to poison.
+_ [Poison](spells/poison#_poison) Immunity (Ex):_ Serpent lords are immune to poison.
 

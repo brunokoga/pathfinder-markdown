@@ -6,9 +6,9 @@ _This powerful feline predator moves with a deadly grace, its reddish-orange fur
 
 **XP 1,200**
 
-N Large [animal](creatureTypes.md#_animal)
+N Large [animal](creatureTypes#_animal)
 
-**Init** +6; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +8
+**Init** +6; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +8
 
 **Defense**
 
@@ -22,11 +22,11 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Speed** 40 ft.
 
-**Melee** 2 claws +10 (1d8+6 plus [grab](universalMonsterRules.md#_grab)), bite +9 (2d6+6 plus [grab](universalMonsterRules.md#_grab))
+**Melee** 2 claws +10 (1d8+6 plus [grab](universalMonsterRules#_grab)), bite +9 (2d6+6 plus [grab](universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [pounce](universalMonsterRules.md#_pounce), [rake](universalMonsterRules.md#_rake) (2 claws +10, 1d8+6)
+**Special Attacks** [pounce](universalMonsterRules#_pounce), [rake](universalMonsterRules#_rake) (2 claws +10, 1d8+6)
 
 **Statistics**
 
@@ -34,9 +34,9 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Base Atk** +4; **CMB** +11 (+15 grapple); **CMD** 23 (27 vs. trip)
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Weapon Focus](../feats.md#_weapon-focus) (claw)
+**Feats** [Improved Initiative](../feats#_improved-initiative), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception)), [Weapon Focus](../feats#_weapon-focus) (claw)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +10, [Perception](../skills/perception.md#_perception) +8, [Stealth](../skills/stealth.md#_stealth) +7 (+11 in areas of tall grass), [Swim](../skills/swim.md#_swim) +11; **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics.md#_acrobatics), +4 [Stealth](../skills/stealth.md#_stealth) (+8 in tall grass)
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +10, [Perception](../skills/perception#_perception) +8, [Stealth](../skills/stealth#_stealth) +7 (+11 in areas of tall grass), [Swim](../skills/swim#_swim) +11; **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics#_acrobatics), +4 [Stealth](../skills/stealth#_stealth) (+8 in tall grass)
 
 **Environment** any forests
 
@@ -60,9 +60,9 @@ _This large tiger grumbles a warning as it crouches. Two saber-like fangs jut do
 
 **XP 4,800**
 
-N Large [animal](creatureTypes.md#_animal)
+N Large [animal](creatureTypes#_animal)
 
-**Init** +6; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +12
+**Init** +6; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +12
 
 **Defense**
 
@@ -76,11 +76,11 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Speed** 40 ft.
 
-**Melee** 2 claws +18 (2d4+8 plus [grab](universalMonsterRules.md#_grab)), bite +18 (2d6+8/19–20 plus [grab](universalMonsterRules.md#_grab))
+**Melee** 2 claws +18 (2d4+8 plus [grab](universalMonsterRules#_grab)), bite +18 (2d6+8/19–20 plus [grab](universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [pounce](universalMonsterRules.md#_pounce), [rake](universalMonsterRules.md#_rake) (2 claws +18, 2d4+8)
+**Special Attacks** [pounce](universalMonsterRules#_pounce), [rake](universalMonsterRules#_rake) (2 claws +18, 2d4+8)
 
 **Statistics**
 
@@ -88,9 +88,9 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Base Atk** +10; **CMB** +19 (+23 grapple); **CMD** 31 (35 vs. trip)
 
-**Feats** [Improved Critical](../feats.md#_improved-critical) (bite), [Improved Initiative](../feats.md#_improved-initiative), [Run](../feats.md#_run), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Skill Focus](../feats.md#_skill-focus) ( [Stealth](../skills/stealth.md#_stealth)), [Weapon Focus](../feats.md#_weapon-focus) (bite, claw)
+**Feats** [Improved Critical](../feats#_improved-critical) (bite), [Improved Initiative](../feats#_improved-initiative), [Run](../feats#_run), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception)), [Skill Focus](../feats#_skill-focus) ( [Stealth](../skills/stealth#_stealth)), [Weapon Focus](../feats#_weapon-focus) (bite, claw)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +6, [Perception](../skills/perception.md#_perception) +12, [Stealth](../skills/stealth.md#_stealth) +15 (+23 in tall grass), [Swim](../skills/swim.md#_swim) +13; **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics.md#_acrobatics), +4 [Stealth](../skills/stealth.md#_stealth) (+8 in tall grass)
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +6, [Perception](../skills/perception#_perception) +12, [Stealth](../skills/stealth#_stealth) +15 (+23 in tall grass), [Swim](../skills/swim#_swim) +13; **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics#_acrobatics), +4 [Stealth](../skills/stealth#_stealth) (+8 in tall grass)
 
 **Ecology**
 

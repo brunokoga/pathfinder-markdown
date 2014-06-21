@@ -1,6 +1,6 @@
 Fog Cloud
 
-**Source** [_fog cloud_](spells/fogCloud.md)
+**Source** [_fog cloud_](spells/fogCloud)
 
 The radius of the fog increases to 50 feet.
 

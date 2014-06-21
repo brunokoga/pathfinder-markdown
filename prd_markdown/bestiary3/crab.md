@@ -6,9 +6,9 @@ Shark-Eating Crab CR 7
 
 XP 3,200
 
-N Huge vermin ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
+N Huge vermin ( [aquatic](monsters/creatureTypes#_aquatic-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +5
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +5
 
 Defense
 
@@ -24,11 +24,11 @@ Offense
 
 **Speed** 30 ft., swim 60 ft.
 
-**Melee** 2 claws +13 (1d8+9 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** 2 claws +13 (1d8+9 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) (1d8+9), darting claw
+**Special Attacks** [constrict](monsters/universalMonsterRules#_constrict) (1d8+9), darting claw
 
 Statistics
 
@@ -36,13 +36,13 @@ Statistics
 
 **Base Atk** +6; **CMB** +17 (+21 grapple); **CMD** 29 (41 vs. trip)
 
-**Skills** [Perception](skills/perception.md#_perception) +5, [Swim](skills/swim.md#_swim) +17; **Racial Modifiers** +4 [Perception](skills/perception.md#_perception)
+**Skills** [Perception](skills/perception#_perception) +5, [Swim](skills/swim#_swim) +17; **Racial Modifiers** +4 [Perception](skills/perception#_perception)
 
-**SQ** [water](monsters/creatureTypes.md#_water-subtype) dependency
+**SQ** [water](monsters/creatureTypes#_water-subtype) dependency
 
 Ecology
 
-**Environment** any [water](monsters/creatureTypes.md#_water-subtype)
+**Environment** any [water](monsters/creatureTypes#_water-subtype)
 
 **Organization** solitary or cast (2–8)
 
@@ -64,9 +64,9 @@ Shipwrecker Crab CR 13
 
 XP 25,600
 
-N Colossal vermin ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
+N Colossal vermin ( [aquatic](monsters/creatureTypes#_aquatic-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +10
+**Init** +3; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +10
 
 Defense
 
@@ -82,11 +82,11 @@ Offense
 
 **Speed** 30 ft., swim 40 ft.
 
-**Melee** 2 claws +16 (2d8+21 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** 2 claws +16 (2d8+21 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 30 ft.; **Reach** 30 ft.
 
-**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) (2d8+21)
+**Special Attacks** [constrict](monsters/universalMonsterRules#_constrict) (2d8+21)
 
 Statistics
 
@@ -94,13 +94,13 @@ Statistics
 
 **Base Atk** +10; **CMB** +32 (+36 grapple); **CMD** 45 (61 vs. trip)
 
-**Skills** [Perception](skills/perception.md#_perception) +10, [Swim](skills/swim.md#_swim) +22
+**Skills** [Perception](skills/perception#_perception) +10, [Swim](skills/swim#_swim) +22
 
 **SQ** powerful claws
 
 Ecology
 
-**Environment** any [water](monsters/creatureTypes.md#_water-subtype)
+**Environment** any [water](monsters/creatureTypes#_water-subtype)
 
 **Organization** solitary or cast (2–12)
 

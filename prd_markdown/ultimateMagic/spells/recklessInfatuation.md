@@ -16,5 +16,5 @@ Reckless Infatuation
 
 You fill your target with feelings of intense infatuation for a specific individual known to the target. At the time of the casting, you designate a single creature as the focus of the target's desire. Thereafter, the target does all it can to remain within 30 feet of the object of its desire. If the target moves outside this range, it gains the staggered condition until it is again near the focus of its desire. If remaining within 30 feet of the focus of its affection would place the target in obvious physical danger, the target can attempt a second save to break the spell's effect.
 
-_Reckless infatuation_ counters _ [unadulterated loathing](unadulteratedLoathing.md#_unadulterated-loathing)_.
+_Reckless infatuation_ counters _ [unadulterated loathing](unadulteratedLoathing#_unadulterated-loathing)_.
 

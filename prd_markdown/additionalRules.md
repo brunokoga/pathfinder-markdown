@@ -92,9 +92,9 @@ Chaotic evil represents the destruction not only of beauty and life, but also of
 
 Alignment is a tool, a convenient shorthand you can use to summarize the general attitude of an NPC, region, religion, organization, monster, or even magic item.
 
-Certain character classes in [Classes](classes.md) list repercussions for those who don't adhere to a specific alignment, and some spells and magic items have different effects on targets depending on alignment, but beyond that it's generally not necessary to worry too much about whether someone is behaving differently from his stated alignment. In the end, the Game Master is the one who gets to decide if something's in accordance with its indicated alignment, based on the descriptions given previously and his own opinion and interpretation—the only thing the GM needs to strive for is to be consistent as to what constitutes the difference between alignments like chaotic neutral and chaotic evil. There's no hard and fast mechanic by which you can measure alignment—unlike hit points or skill ranks or [Armor Class](combat.md#_armor-class), alignment is solely a label the GM controls.
+Certain character classes in [Classes](classes) list repercussions for those who don't adhere to a specific alignment, and some spells and magic items have different effects on targets depending on alignment, but beyond that it's generally not necessary to worry too much about whether someone is behaving differently from his stated alignment. In the end, the Game Master is the one who gets to decide if something's in accordance with its indicated alignment, based on the descriptions given previously and his own opinion and interpretation—the only thing the GM needs to strive for is to be consistent as to what constitutes the difference between alignments like chaotic neutral and chaotic evil. There's no hard and fast mechanic by which you can measure alignment—unlike hit points or skill ranks or [Armor Class](combat#_armor-class), alignment is solely a label the GM controls.
 
-It's best to let players play their characters as they want. If a player is roleplaying in a way that you, as the GM, think doesn't fit his alignment, let him know that he's acting out of alignment and tell him why—but do so in a friendly manner. If a character wants to change his alignment, let him—in most cases, this should amount to little more than a change of personality, or in some cases, no change at all if the alignment change was more of an adjustment to more accurately summarize how a player, in your opinion, is portraying his character. In some cases, changing alignments can impact a character's abilities—see the class write-ups in [Classes](classes.md) for details. An atonement spell may be necessary to repair damage done by alignment changes arising from involuntary sources or momentary lapses in personality.
+It's best to let players play their characters as they want. If a player is roleplaying in a way that you, as the GM, think doesn't fit his alignment, let him know that he's acting out of alignment and tell him why—but do so in a friendly manner. If a character wants to change his alignment, let him—in most cases, this should amount to little more than a change of personality, or in some cases, no change at all if the alignment change was more of an adjustment to more accurately summarize how a player, in your opinion, is portraying his character. In some cases, changing alignments can impact a character's abilities—see the class write-ups in [Classes](classes) for details. An atonement spell may be necessary to repair damage done by alignment changes arising from involuntary sources or momentary lapses in personality.
 
 Players who frequently have their characters change alignment should in all likelihood be playing chaotic neutral characters.
 
@@ -160,7 +160,7 @@ To determine a character's height, roll the modifier dice indicated on Table: Ra
 
 These carrying capacity rules determine how much a character's equipment slows him down. Encumbrance comes in two parts: encumbrance by armor and encumbrance by total weight.
 
-Encumbrance by Armor: A character's armor determines his maximum [Dexterity](gettingStarted.md#_dexterity) bonus to [AC](combat.md#_armor-class), armor check penalty, speed, and running speed. Unless your character is weak or carrying a lot of gear, that's all you need to know; the extra gear your character carries won't slow him down any more than the armor already does.
+Encumbrance by Armor: A character's armor determines his maximum [Dexterity](gettingStarted#_dexterity) bonus to [AC](combat#_armor-class), armor check penalty, speed, and running speed. Unless your character is weak or carrying a lot of gear, that's all you need to know; the extra gear your character carries won't slow him down any more than the armor already does.
 
 If your character is weak or carrying a lot of gear, however, then you'll need to calculate encumbrance by weight. Doing so is most important when your character is trying to carry some heavy object.
 
@@ -198,7 +198,7 @@ If your character is weak or carrying a lot of gear, however, then you'll need t
 | 29 | 466 lbs. or less | 467–933 lbs. | 934–1,400 lbs. |
 | +10 | ×4 | ×4 | ×4 |
 
-Encumbrance by Weight: If you want to determine whether your character's gear is heavy enough to slow him down more than his armor already does, total the weight of all the character's items, including armor, weapons, and gear. Compare this total to the character's Strength on Table: Carrying Capacity. Depending on the character's carrying capacity, he or she may be carrying a light, medium, or heavy load. Like armor, a character's load affects his maximum [Dexterity](gettingStarted.md#_dexterity) bonus to [AC](combat.md#_armor-class), carries a check penalty (which works like an armor check penalty), reduces the character's speed, and affects how fast the character can run, as shown on Table: Encumbrance Effects. A medium or heavy load counts as medium or heavy armor for the purpose of abilities or skills that are restricted by armor. Carrying a light load does not encumber a character.
+Encumbrance by Weight: If you want to determine whether your character's gear is heavy enough to slow him down more than his armor already does, total the weight of all the character's items, including armor, weapons, and gear. Compare this total to the character's Strength on Table: Carrying Capacity. Depending on the character's carrying capacity, he or she may be carrying a light, medium, or heavy load. Like armor, a character's load affects his maximum [Dexterity](gettingStarted#_dexterity) bonus to [AC](combat#_armor-class), carries a check penalty (which works like an armor check penalty), reduces the character's speed, and affects how fast the character can run, as shown on Table: Encumbrance Effects. A medium or heavy load counts as medium or heavy armor for the purpose of abilities or skills that are restricted by armor. Carrying a light load does not encumber a character.
 
 If your character is wearing armor, use the worse figure (from armor or from load) for each category. Do not stack the penalties.
 
@@ -212,7 +212,7 @@ If your character is wearing armor, use the worse figure (from armor or from loa
 
 Lifting and Dragging: A character can lift as much as his maximum load over his head. A character's maximum load is the highest amount of weight listed for a character's Strength in the heavy load column of Table: Carrying Capacity.
 
-A character can lift as much as double his maximum load off the ground, but he or she can only stagger around with it. While overloaded in this way, the character loses any [Dexterity](gettingStarted.md#_dexterity) bonus to [AC](combat.md#_armor-class) and can move only 5 feet per round (as a full-round action).
+A character can lift as much as double his maximum load off the ground, but he or she can only stagger around with it. While overloaded in this way, the character loses any [Dexterity](gettingStarted#_dexterity) bonus to [AC](combat#_armor-class) and can move only 5 feet per round (as a full-round action).
 
 A character can generally push or drag along the ground as much as five times his maximum load. Favorable conditions can double these numbers, and bad circumstances can reduce them by half or more.
 
@@ -317,7 +317,7 @@ Walk: A character can walk without a problem on the local scale.
 
 Hustle: A character can hustle without a problem on the local scale. See Overland Movement, below, for movement measured in miles per hour.
 
-Run: A character can run for a number of rounds equal to his [Constitution](gettingStarted.md#_constitution) score on the local scale without needing to rest. See [Combat](combat.md) for rules covering extended periods of running.
+Run: A character can run for a number of rounds equal to his [Constitution](gettingStarted#_constitution) score on the local scale without needing to rest. See [Combat](combat) for rules covering extended periods of running.
 
 [Table: Terrain and Overland Movement]
 | Terrain | Highway | Road or Trail | Trackless |
@@ -340,7 +340,7 @@ Walk: A character can walk 8 hours in a day of travel without a problem. Walking
 
 Hustle: A character can hustle for 1 hour without a problem. Hustling for a second hour in between sleep cycles deals 1 point of nonlethal damage, and each additional hour deals twice the damage taken during the previous hour of hustling. A character who takes any nonlethal damage from hustling becomes fatigued.
 
-A fatigued character can't run or charge and takes a penalty of –2 to Strength and [Dexterity](gettingStarted.md#_dexterity). Eliminating the nonlethal damage also eliminates the fatigue.
+A fatigued character can't run or charge and takes a penalty of –2 to Strength and [Dexterity](gettingStarted#_dexterity). Eliminating the nonlethal damage also eliminates the fatigue.
 
 Run: A character can't run for an extended period of time. Attempts to run and rest in cycles effectively work out to a hustle.
 
@@ -348,9 +348,9 @@ Terrain: The terrain through which a character travels affects the distance he c
 
 Forced March: In a day of normal walking, a character walks for 8 hours. The rest of the daylight time is spent making and breaking camp, resting, and eating.
 
-A character can walk for more than 8 hours in a day by making a forced march. For each hour of marching beyond 8 hours, a [Constitution](gettingStarted.md#_constitution) check (DC 10, +2 per extra hour) is required. If the check fails, the character takes 1d6 points of nonlethal damage. A character who takes any nonlethal damage from a forced march becomes fatigued. Eliminating the nonlethal damage also eliminates the fatigue. It's possible for a character to march into unconsciousness by pushing himself too hard.
+A character can walk for more than 8 hours in a day by making a forced march. For each hour of marching beyond 8 hours, a [Constitution](gettingStarted#_constitution) check (DC 10, +2 per extra hour) is required. If the check fails, the character takes 1d6 points of nonlethal damage. A character who takes any nonlethal damage from a forced march becomes fatigued. Eliminating the nonlethal damage also eliminates the fatigue. It's possible for a character to march into unconsciousness by pushing himself too hard.
 
-Mounted Movement: A mount bearing a rider can move at a hustle. The damage it takes when doing so, however, is lethal damage, not nonlethal damage. The creature can also be ridden in a forced march, but its [Constitution](gettingStarted.md#_constitution) checks automatically fail, and the damage it takes is lethal damage. Mounts also become fatigued when they take any damage from hustling or forced marches.
+Mounted Movement: A mount bearing a rider can move at a hustle. The damage it takes when doing so, however, is lethal damage, not nonlethal damage. The creature can also be ridden in a forced march, but its [Constitution](gettingStarted#_constitution) checks automatically fail, and the damage it takes is lethal damage. Mounts also become fatigued when they take any damage from hustling or forced marches.
 
 See Table: Mounts and Vehicles: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled by draft animals.
 
@@ -384,9 +384,9 @@ Waterborne Movement: See Table: Mounts and Vehicles: Mounts and Vehicles for spe
 
 In round-by-round movement, when simply counting off squares, it's impossible for a slow character to get away from a determined fast character without mitigating circumstances. Likewise, it's no problem for a fast character to get away from a slower one.
 
-When the speeds of the two concerned characters are equal, there's a simple way to resolve a chase: If one creature is pursuing another, both are moving at the same speed, and the chase continues for at least a few rounds, have them make opposed [Dexterity](gettingStarted.md#_dexterity) checks to see who is the faster over those rounds. If the creature being chased wins, it escapes. If the pursuer wins, it catches the fleeing creature.
+When the speeds of the two concerned characters are equal, there's a simple way to resolve a chase: If one creature is pursuing another, both are moving at the same speed, and the chase continues for at least a few rounds, have them make opposed [Dexterity](gettingStarted#_dexterity) checks to see who is the faster over those rounds. If the creature being chased wins, it escapes. If the pursuer wins, it catches the fleeing creature.
 
-Sometimes a chase occurs overland and could last all day, with the two sides only occasionally getting glimpses of each other at a distance. In the case of a long chase, an opposed [Constitution](gettingStarted.md#_constitution) check made by all parties determines which can keep pace the longest. If the creature being chased rolls the highest, it gets away. If not, the chaser runs down its prey, outlasting it with stamina.
+Sometimes a chase occurs overland and could last all day, with the two sides only occasionally getting glimpses of each other at a distance. In the case of a long chase, an opposed [Constitution](gettingStarted#_constitution) check made by all parties determines which can keep pace the longest. If the creature being chased rolls the highest, it gets away. If not, the chaser runs down its prey, outlasting it with stamina.
 
 # Exploration
 
@@ -394,7 +394,7 @@ Few rules are as vital to the success of adventurers than those pertaining to vi
 
 ## Vision and Light
 
-Dwarves and half-orcs have darkvision, but the other races presented in [Races](races.md) need light to see by. See Table: Light Sources and Illumination for the radius that a light source illuminates and how long it lasts. The increased entry indicates an area outside the lit radius in which the light level is increased by one step (from darkness to dim light, for example).
+Dwarves and half-orcs have darkvision, but the other races presented in [Races](races) need light to see by. See Table: Light Sources and Illumination for the radius that a light source illuminates and how long it lasts. The increased entry indicates an area outside the lit radius in which the light level is increased by one step (from darkness to dim light, for example).
 
 [Table: Light Sources and Illumination]
 | Object | Normal | Increased | Duration |
@@ -420,7 +420,7 @@ Normal light functions just like bright light, but characters with light sensiti
 
 In an area of dim light, a character can see somewhat. Creatures within this area have concealment (20% miss chance in combat) from those without darkvision or the ability to see in darkness. A creature within an area of dim light can make a Stealth check to conceal itself. Areas of dim light include outside at night with a moon in the sky, bright starlight, and the area between 20 and 40 feet from a torch.
 
-In areas of darkness, creatures without darkvision are effectively blinded. In addition to the obvious effects, a blinded creature has a 50% miss chance in combat (all opponents have total concealment), loses any [Dexterity](gettingStarted.md#_dexterity) bonus to [AC](combat.md#_armor-class), takes a –2 penalty to [AC](combat.md#_armor-class), and takes a –4 penalty on Perception checks that rely on sight and most Strength- and [Dexterity](gettingStarted.md#_dexterity)-based skill checks. Areas of darkness include an unlit dungeon chamber, most caverns, and outside on a cloudy, moonless night.
+In areas of darkness, creatures without darkvision are effectively blinded. In addition to the obvious effects, a blinded creature has a 50% miss chance in combat (all opponents have total concealment), loses any [Dexterity](gettingStarted#_dexterity) bonus to [AC](combat#_armor-class), takes a –2 penalty to [AC](combat#_armor-class), and takes a –4 penalty on Perception checks that rely on sight and most Strength- and [Dexterity](gettingStarted#_dexterity)-based skill checks. Areas of darkness include an unlit dungeon chamber, most caverns, and outside on a cloudy, moonless night.
 
 Characters with low-light vision (elves, gnomes, and half-elves) can see objects twice as far away as the given radius. Double the effective radius of bright light, normal light, and dim light for such characters.
 
@@ -491,19 +491,19 @@ When attempting to break an object, you have two choices: smash it with a weapon
 
 ### Smashing an Object
 
-Smashing a weapon or shield with a slashing or bludgeoning weapon is accomplished with the sunder combat maneuver (see [Combat](combat.md)). Smashing an object is like sundering a weapon or shield, except that your combat maneuver check is opposed by the object's [AC](combat.md#_armor-class). Generally, you can smash an object only with a bludgeoning or slashing weapon.
+Smashing a weapon or shield with a slashing or bludgeoning weapon is accomplished with the sunder combat maneuver (see [Combat](combat)). Smashing an object is like sundering a weapon or shield, except that your combat maneuver check is opposed by the object's [AC](combat#_armor-class). Generally, you can smash an object only with a bludgeoning or slashing weapon.
 
-[Armor Class](combat.md#_armor-class): Objects are easier to hit than creatures because they don't usually move, but many are tough enough to shrug off some damage from each blow. An object's [Armor Class](combat.md#_armor-class) is equal to 10 + its size modifier (see Table: Size and Armor Class of Objects) + its [Dexterity](gettingStarted.md#_dexterity) modifier. An inanimate object has not only a [Dexterity](gettingStarted.md#_dexterity) of 0 (–5 penalty to [AC](combat.md#_armor-class)), but also an additional –2 penalty to its [AC](combat.md#_armor-class). Furthermore, if you take a full-round action to line up a shot, you get an automatic hit with a melee weapon and a +5 bonus on attack rolls with a ranged weapon.
+[Armor Class](combat#_armor-class): Objects are easier to hit than creatures because they don't usually move, but many are tough enough to shrug off some damage from each blow. An object's [Armor Class](combat#_armor-class) is equal to 10 + its size modifier (see Table: Size and Armor Class of Objects) + its [Dexterity](gettingStarted#_dexterity) modifier. An inanimate object has not only a [Dexterity](gettingStarted#_dexterity) of 0 (–5 penalty to [AC](combat#_armor-class)), but also an additional –2 penalty to its [AC](combat#_armor-class). Furthermore, if you take a full-round action to line up a shot, you get an automatic hit with a melee weapon and a +5 bonus on attack rolls with a ranged weapon.
 
 Hardness: Each object has hardness—a number that represents how well it resists damage. When an object is damaged, subtract its hardness from the damage. Only damage in excess of its hardness is deducted from the object's hit points (see Table: Common Armor, Weapon, and Shield Hardness and Hit Points, Table: Substance Hardness and Hit Points, and Table: Object Hardness and Hit Points).
 
-Hit Points: An object's hit point total depends on what it is made of and how big it is (see Table: Common Armor, Weapon, and Shield Hardness and Hit Points, Table: Substance Hardness and Hit Points, and Table: Object Hardness and Hit Points). Objects that take damage equal to or greater than half their total hit points gain the [broken](glossary.md#_broken) condition (see [Conditions](glossary.md#_appendix-2-conditions)). When an object's hit points reach 0, it's ruined.
+Hit Points: An object's hit point total depends on what it is made of and how big it is (see Table: Common Armor, Weapon, and Shield Hardness and Hit Points, Table: Substance Hardness and Hit Points, and Table: Object Hardness and Hit Points). Objects that take damage equal to or greater than half their total hit points gain the [broken](glossary#_broken) condition (see [Conditions](glossary#_appendix-2-conditions)). When an object's hit points reach 0, it's ruined.
 
 Very large objects have separate hit point totals for different sections.
 
 Energy Attacks: Energy attacks deal half damage to most objects. Divide the damage by 2 before applying the object's hardness. Some energy types might be particularly effective against certain objects, subject to GM discretion. For example, fire might do full damage against parchment, cloth, and other objects that burn easily. Sonic might do full damage against glass and crystal objects.
 
-Ranged Weapon Damage: Objects take half damage from ranged weapons (unless the weapon is a [siege engine](environment.md#_siege-engines) or something similar). Divide the damage dealt by 2 before applying the object's hardness.
+Ranged Weapon Damage: Objects take half damage from ranged weapons (unless the weapon is a [siege engine](environment#_siege-engines) or something similar). Divide the damage dealt by 2 before applying the object's hardness.
 
 Ineffective Weapons: Certain weapons just can't effectively deal damage to certain objects. For example, a bludgeoning weapon cannot be used to damage a rope. Likewise, most melee weapons have little effect on stone walls and doors, unless they are designed for breaking up stone, such as a pick or hammer.
 
@@ -513,25 +513,25 @@ Magic Armor, Shields, and Weapons: Each +1 of enhancement bonus adds 2 to the ha
 
 Vulnerability to Certain Attacks: Certain attacks are especially successful against some objects. In such cases, attacks deal double their normal damage and may ignore the object's hardness.
 
-Damaged Objects: A damaged object remains functional with the [broken](glossary.md#_broken) condition until the item's hit points are reduced to 0, at which point it is destroyed.
+Damaged Objects: A damaged object remains functional with the [broken](glossary#_broken) condition until the item's hit points are reduced to 0, at which point it is destroyed.
 
 Damaged (but not destroyed) objects can be repaired with the Craft skill and a number of spells.
 
 Saving Throws: Nonmagical, unattended items never make saving throws. They are considered to have failed their saving throws, so they are always fully affected by spells and other attacks that allow saving throws to resist or negate. An item attended by a character (being grasped, touched, or worn) makes saving throws as the character (that is, using the character's saving throw bonus).
 
-Magic items always get saving throws. A magic item's [Fortitude](combat.md#_fortitude), [Reflex](combat.md#_reflex), and [Will](combat.md#_will) save bonuses are equal to 2 + half its caster level. An attended magic item either makes saving throws as its owner or uses its own saving throw bonus, whichever is better.
+Magic items always get saving throws. A magic item's [Fortitude](combat#_fortitude), [Reflex](combat#_reflex), and [Will](combat#_will) save bonuses are equal to 2 + half its caster level. An attended magic item either makes saving throws as its owner or uses its own saving throw bonus, whichever is better.
 
-Animated Objects: Animated objects count as creatures for purposes of determining their [Armor Class](combat.md#_armor-class) (do not treat them as inanimate objects).
+Animated Objects: Animated objects count as creatures for purposes of determining their [Armor Class](combat#_armor-class) (do not treat them as inanimate objects).
 
 ### Breaking Items
 
 When a character tries to break or burst something with sudden force rather than by dealing damage, use a Strength check (rather than an attack roll and damage roll, as with the sunder special attack) to determine whether he succeeds. Since hardness doesn't affect an object's break DC, this value depends more on the construction of the item than on the material the item is made of. Consult Table: DCs to Break or Burst Items for a list of common break DCs.
 
-If an item has lost half or more of its hit points, the item gains the [broken](glossary.md#_broken) condition (see [Conditions](glossary.md#_appendix-2-conditions)) and the DC to break it drops by 2.
+If an item has lost half or more of its hit points, the item gains the [broken](glossary#_broken) condition (see [Conditions](glossary#_appendix-2-conditions)) and the DC to break it drops by 2.
 
 Larger and smaller creatures get size bonuses and size penalties on Strength checks to break open doors as follows: Fine –16, Diminutive –12, Tiny –8, Small –4, Large +4, Huge +8, Gargantuan +12, Colossal +16.
 
-A crowbar or portable ram improves a character's chance of breaking open a door (see [Equipment](equipment.md)).
+A crowbar or portable ram improves a character's chance of breaking open a door (see [Equipment](equipment)).
 
 [Table: Common Armor, Weapon, and Shield Hardness and Hit Points]
 | Weapon or Shield | Hardnessⁱ | Hit Points⁲, ⁳ |

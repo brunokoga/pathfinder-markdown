@@ -6,9 +6,9 @@ Harbinger Archon CR 2
 
 XP 600
 
-LG Tiny outsider ( [archon](monsters/creatureTypes.md#_archon-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [good](monsters/creatureTypes.md#_good-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype))
+LG Tiny outsider ( [archon](monsters/creatureTypes#_archon-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [good](monsters/creatureTypes#_good-subtype), [lawful](monsters/creatureTypes#_lawful-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft., _ [detect evil](spells/detectEvil.md#_detect-evil)_, low-light vision; [Perception](skills/perception.md#_perception) +7
+**Init** +6; **Senses** darkvision 60 ft., _ [detect evil](spells/detectEvil#_detect-evil)_, low-light vision; [Perception](skills/perception#_perception) +7
 
 Defense
 
@@ -16,7 +16,7 @@ Defense
 
 **hp** 16 (3d10)
 
-**Fort** +1, **Ref** +5, **Will** +4; +4 vs. [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))
+**Fort** +1, **Ref** +5, **Will** +4; +4 vs. [poison](monsters/universalMonsterRules#_poison-(ex-or-su))
 
 **DR** 5/evil; **Immune** electricity, petrification
 
@@ -32,13 +32,13 @@ Offense
 
 **Spell-Like Abilities** (CL 6th; concentration +7)
 
-Constant—_ [detect evil](spells/detectEvil.md#_detect-evil)_
+Constant—_ [detect evil](spells/detectEvil#_detect-evil)_
 
-At will—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_ (duration lasts until dismissed)
+At will—_ [dancing lights](spells/dancingLights#_dancing-lights)_ (duration lasts until dismissed)
 
-3/day—_ [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_
+3/day—_ [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_, _ [protection from evil](spells/protectionFromEvil#_protection-from-evil)_
 
-1/week—_ [commune](spells/commune.md#_commune)_ (CL 12th, 6 questions)
+1/week—_ [commune](spells/commune#_commune)_ (CL 12th, 6 questions)
 
 Statistics
 
@@ -46,13 +46,13 @@ Statistics
 
 **Base Atk** +3; **CMB** +3; **CMD** 12
 
-**Feats** [Dodge](feats.md#_dodge), [Improved Initiative](feats.md#_improved-initiative)
+**Feats** [Dodge](feats#_dodge), [Improved Initiative](feats#_improved-initiative)
 
-**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +7, [Fly](skills/fly.md#_fly) +20, [Knowledge](skills/knowledge.md#_knowledge) (planes) +6, [Knowledge](skills/knowledge.md#_knowledge) (religion) +6, [Perception](skills/perception.md#_perception) +7, [Sense Motive](skills/senseMotive.md#_sense-motive) +7
+**Skills** [Diplomacy](skills/diplomacy#_diplomacy) +7, [Fly](skills/fly#_fly) +20, [Knowledge](skills/knowledge#_knowledge) (planes) +6, [Knowledge](skills/knowledge#_knowledge) (religion) +6, [Perception](skills/perception#_perception) +7, [Sense Motive](skills/senseMotive#_sense-motive) +7
 
 **Languages** Celestial, Draconic, Infernal; truespeech
 
-**SQ** disassemble, minor [archon](monsters/creatureTypes.md#_archon-subtype)
+**SQ** disassemble, minor [archon](monsters/creatureTypes#_archon-subtype)
 
 Ecology
 
@@ -64,17 +64,17 @@ Ecology
 
 Special Abilities
 
-**Blades (Ex)** A harbinger can extend blades from its body to strike with as primary natural attacks. These blades possess a +1 enhancement bonus on attack and damage rolls, and are treated as both magic and good-aligned for the purposes of penetrating [damage reduction](monsters/universalMonsterRules.md#_damage-reduction-(ex-or-su)).
+**Blades (Ex)** A harbinger can extend blades from its body to strike with as primary natural attacks. These blades possess a +1 enhancement bonus on attack and damage rolls, and are treated as both magic and good-aligned for the purposes of penetrating [damage reduction](monsters/universalMonsterRules#_damage-reduction-(ex-or-su)).
 
-**Disassemble (Su)** As a move-equivalent action, a harbinger can break apart into its components. This is treated as _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_, except the [archon](monsters/creatureTypes.md#_archon-subtype) retains its full [flight](monsters/universalMonsterRules.md#_flight-(ex,-sp,-or-su)) speed and DR, and cannot fit through gaps smaller than 1 inch in diameter. Reforming into an orrery is a standard action.
+**Disassemble (Su)** As a move-equivalent action, a harbinger can break apart into its components. This is treated as _ [gaseous form](spells/gaseousForm#_gaseous-form)_, except the [archon](monsters/creatureTypes#_archon-subtype) retains its full [flight](monsters/universalMonsterRules#_flight-(ex,-sp,-or-su)) speed and DR, and cannot fit through gaps smaller than 1 inch in diameter. Reforming into an orrery is a standard action.
 
-**Minor [Archon](monsters/creatureTypes.md#_archon-subtype) (Ex)** Harbinger archons lack the _aura of menace_ and _ [teleport](spells/teleport.md#_teleport)_ abilities of more powerful archons.
+**Minor [Archon](monsters/creatureTypes#_archon-subtype) (Ex)** Harbinger archons lack the _aura of menace_ and _ [teleport](spells/teleport#_teleport)_ abilities of more powerful archons.
 
-**Wrath (Su)** Once per minute, a harbinger [archon](monsters/creatureTypes.md#_archon-subtype) can emit a blast of energy that deals 2d6 points of force damage to adjacent creatures. A DC 12 Reflex save halves this damage. The harbinger can choose to omit any target from this blast that it desires, damaging only those foes it chooses. The save DC is Charisma-based.
+**Wrath (Su)** Once per minute, a harbinger [archon](monsters/creatureTypes#_archon-subtype) can emit a blast of energy that deals 2d6 points of force damage to adjacent creatures. A DC 12 Reflex save halves this damage. The harbinger can choose to omit any target from this blast that it desires, damaging only those foes it chooses. The save DC is Charisma-based.
 
-Though counted among the least of the archons, harbingers nonetheless remain steadfast in their dedication to combating evil. These tiny beings serve as heralds and assistants for the forces of Heaven. While on the Material Plane, they advise mortals on how best to serve the causes of order and light. Some even venture to the other Outer Planes as minor ambassadors. Harbingers can also be bound into service as familiars, a role they accept eagerly, taking full responsibility for guiding their masters' souls toward salvation. A spellcaster must have the [Improved Familiar](feats.md#_improved-familiar) feat, a lawful good alignment, and be an arcane caster level of 7th or higher to gain a harbinger familiar.
+Though counted among the least of the archons, harbingers nonetheless remain steadfast in their dedication to combating evil. These tiny beings serve as heralds and assistants for the forces of Heaven. While on the Material Plane, they advise mortals on how best to serve the causes of order and light. Some even venture to the other Outer Planes as minor ambassadors. Harbingers can also be bound into service as familiars, a role they accept eagerly, taking full responsibility for guiding their masters' souls toward salvation. A spellcaster must have the [Improved Familiar](feats#_improved-familiar) feat, a lawful good alignment, and be an arcane caster level of 7th or higher to gain a harbinger familiar.
 
-A harbinger resembles a whirling mechanical model of a planetary system. Its sun, moons, and planets are crafted of tiny glowing jewels whose color shifts with the harbinger's mood. Electric arcs and sparks of magical essence dance between its whirling pieces. The harbinger can dismantle itself into its component parts to squeeze through tiny gaps, its rings dissolving into glowing vapor while its star and planets remain. Harbingers shed light as brightly as a torch under normal conditions, but can dim to a faint glow if desired, and frequently spin off bits of their essence into _ [dancing lights](spells/dancingLights.md#_dancing-lights)_.
+A harbinger resembles a whirling mechanical model of a planetary system. Its sun, moons, and planets are crafted of tiny glowing jewels whose color shifts with the harbinger's mood. Electric arcs and sparks of magical essence dance between its whirling pieces. The harbinger can dismantle itself into its component parts to squeeze through tiny gaps, its rings dissolving into glowing vapor while its star and planets remain. Harbingers shed light as brightly as a torch under normal conditions, but can dim to a faint glow if desired, and frequently spin off bits of their essence into _ [dancing lights](spells/dancingLights#_dancing-lights)_.
 
 A harbinger archon's voice resembles the ringing of a dozen tiny bells, and regardless of the language the archon speaks, it retains that tinkling musical quality.
 
@@ -88,19 +88,19 @@ Legion Archon CR 7
 
 XP 3,200
 
-LG Medium outsider ( [archon](monsters/creatureTypes.md#_archon-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [good](monsters/creatureTypes.md#_good-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype))
+LG Medium outsider ( [archon](monsters/creatureTypes#_archon-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [good](monsters/creatureTypes#_good-subtype), [lawful](monsters/creatureTypes#_lawful-subtype))
 
-**Init** +1; **Senses** darkvision 60 ft. _ [detect evil](spells/detectEvil.md#_detect-evil)_, low-light vision; [Perception](skills/perception.md#_perception) +13
+**Init** +1; **Senses** darkvision 60 ft. _ [detect evil](spells/detectEvil#_detect-evil)_, low-light vision; [Perception](skills/perception#_perception) +13
 
 **Aura** aura of menace (DC 17)
 
 Defense
 
-**AC** 23, touch 11, flat-footed 22 (+9 armor, +1 Dex, +3 natural; +2 deflection vs. [evil](monsters/creatureTypes.md#_evil-subtype))
+**AC** 23, touch 11, flat-footed 22 (+9 armor, +1 Dex, +3 natural; +2 deflection vs. [evil](monsters/creatureTypes#_evil-subtype))
 
 **hp** 76 (8d10+32)
 
-**Fort** +10, **Ref** +3, **Will** +8; +4 vs. [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), +2 vs. [evil](monsters/creatureTypes.md#_evil-subtype)
+**Fort** +10, **Ref** +3, **Will** +8; +4 vs. [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), +2 vs. [evil](monsters/creatureTypes#_evil-subtype)
 
 **DR** 10/evil; **Immune** electricity, petrification; **SR** 18
 
@@ -108,19 +108,19 @@ Offense
 
 **Speed** 40 ft., fly 90 ft. (average)
 
-**Melee** _+1 [flaming burst](magicItems/weapons.md#_weapons-flaming-burst) greatsword_ +13/+8 (2d6+5/17–20 plus 1d6 [fire](monsters/creatureTypes.md#_fire-subtype))
+**Melee** _+1 [flaming burst](magicItems/weapons#_weapons-flaming-burst) greatsword_ +13/+8 (2d6+5/17–20 plus 1d6 [fire](monsters/creatureTypes#_fire-subtype))
 
-**Ranged** _+1 [flaming](magicItems/weapons.md#_weapons-flaming) javelin_ +10 (1d6+4 plus 1d6 [fire](monsters/creatureTypes.md#_fire-subtype))
+**Ranged** _+1 [flaming](magicItems/weapons#_weapons-flaming) javelin_ +10 (1d6+4 plus 1d6 [fire](monsters/creatureTypes#_fire-subtype))
 
 **Special Attacks** flames of faith
 
 **Spell-Like Abilities** (CL 8th; concentration +11)
 
-Constant—_ [detect evil](spells/detectEvil.md#_detect-evil)_, _ [magic circle against evil](spells/magicCircleAgainstEvil.md#_magic-circle-against-evil)_
+Constant—_ [detect evil](spells/detectEvil#_detect-evil)_, _ [magic circle against evil](spells/magicCircleAgainstEvil#_magic-circle-against-evil)_
 
-At will—_ [aid](spells/aid.md#_aid)_, _ [continual flame](spells/continualFlame.md#_continual-flame)_, _ [greater teleport](spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [message](spells/message.md#_message)_
+At will—_ [aid](spells/aid#_aid)_, _ [continual flame](spells/continualFlame#_continual-flame)_, _ [greater teleport](spells/teleport#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [message](spells/message#_message)_
 
-3/day—_ [align weapon](spells/alignWeapon.md#_align-weapon)_, _ [mirror image](spells/mirrorImage.md#_mirror-image)_, _ [versatile weapon](advanced/spells/versatileWeapon.md#_versatile-weapon)_
+3/day—_ [align weapon](spells/alignWeapon#_align-weapon)_, _ [mirror image](spells/mirrorImage#_mirror-image)_, _ [versatile weapon](advanced/spells/versatileWeapon#_versatile-weapon)_
 
 Statistics
 
@@ -128,9 +128,9 @@ Statistics
 
 **Base Atk** +8; **CMB** +11; **CMD** 22
 
-**Feats** [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Critical](feats.md#_improved-critical) (greatsword)B, [Power Attack](feats.md#_power-attack), [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (greatsword), [Whirlwind](monsters/universalMonsterRules.md#_whirlwind) AttackB
+**Feats** [Improved Bull Rush](feats#_improved-bull-rush), [Improved Critical](feats#_improved-critical) (greatsword)B, [Power Attack](feats#_power-attack), [Vital Strike](feats#_vital-strike), [Weapon Focus](feats#_weapon-focus) (greatsword), [Whirlwind](monsters/universalMonsterRules#_whirlwind) AttackB
 
-**Skills** [Diplomacy](skills/diplomacy.md#_diplomacy) +14, [Fly](skills/fly.md#_fly) +12, [Intimidate](skills/intimidate.md#_intimidate) +14, [Knowledge](skills/knowledge.md#_knowledge) (religion) +11, [Perception](skills/perception.md#_perception) +13, [Sense Motive](skills/senseMotive.md#_sense-motive) +9, [Survival](skills/survival.md#_survival) +9
+**Skills** [Diplomacy](skills/diplomacy#_diplomacy) +14, [Fly](skills/fly#_fly) +12, [Intimidate](skills/intimidate#_intimidate) +14, [Knowledge](skills/knowledge#_knowledge) (religion) +11, [Perception](skills/perception#_perception) +13, [Sense Motive](skills/senseMotive#_sense-motive) +9, [Survival](skills/survival#_survival) +9
 
 **Languages** Celestial, Draconic, Infernal; truespeech
 
@@ -146,9 +146,9 @@ Ecology
 
 Special Abilities
 
-**Flames of Faith (Ex)** A legion [archon](monsters/creatureTypes.md#_archon-subtype) can manifest a _+1 [flaming burst](magicItems/weapons.md#_weapons-flaming-burst) greatsword_ or _+1 [flaming](magicItems/weapons.md#_weapons-flaming) javelin_ as a move-equivalent action. The legion [archon](monsters/creatureTypes.md#_archon-subtype)'s sword vanishes if it leaves its hand, and its javelin vanishes after striking or missing its target.
+**Flames of Faith (Ex)** A legion [archon](monsters/creatureTypes#_archon-subtype) can manifest a _+1 [flaming burst](magicItems/weapons#_weapons-flaming-burst) greatsword_ or _+1 [flaming](magicItems/weapons#_weapons-flaming) javelin_ as a move-equivalent action. The legion [archon](monsters/creatureTypes#_archon-subtype)'s sword vanishes if it leaves its hand, and its javelin vanishes after striking or missing its target.
 
-**Second Skin (Ex)** A legion [archon](monsters/creatureTypes.md#_archon-subtype) is proficient in all forms of armor. It takes no reduction to its speed or any armor check penalties from wearing any sort of armor. Most legion archons wear full plate armor.
+**Second Skin (Ex)** A legion [archon](monsters/creatureTypes#_archon-subtype) is proficient in all forms of armor. It takes no reduction to its speed or any armor check penalties from wearing any sort of armor. Most legion archons wear full plate armor.
 
 Where shield archons are the bulwarks of the armies of Heaven, legion archons are the swords, sent in file after file to match evil's boundless hordes.
 

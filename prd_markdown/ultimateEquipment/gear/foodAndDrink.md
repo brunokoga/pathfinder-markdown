@@ -151,7 +151,7 @@ Elven Trail Rations
 
 **Price** 2 gp; **Weight** 1 lb.
 
-Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the [Endurance](feats.md#_endurance) feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.
+Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the [Endurance](feats#_endurance) feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.
 
 Fortune Cookie
 
@@ -163,7 +163,7 @@ Gnome Trail Rations
 
 **Price** 2 gp; **Weight** 1 lb.
 
-Almost any preserved food can be found in gnome trail rations, which are designed to keep a wandering gnome from needing to dine on the same meal twice in a week. If you are a gnome who subsists on nothing but these rations for at least 1 week, you are treated as being 1 Hit Die higher for the purposes of spells and supernatural abilities that have variable effects based on Hit Dice, such as _ [color spray](spells/colorSpray.md#_color-spray)_ and _ [sleep](spells/sleep.md#_sleep)_. This does not actually improve your caster level, character level, or Hit Dice in any other way. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.
+Almost any preserved food can be found in gnome trail rations, which are designed to keep a wandering gnome from needing to dine on the same meal twice in a week. If you are a gnome who subsists on nothing but these rations for at least 1 week, you are treated as being 1 Hit Die higher for the purposes of spells and supernatural abilities that have variable effects based on Hit Dice, such as _ [color spray](spells/colorSpray#_color-spray)_ and _ [sleep](spells/sleep#_sleep)_. This does not actually improve your caster level, character level, or Hit Dice in any other way. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.
 
 Grog
 
@@ -255,7 +255,7 @@ Orc Trail Rations
 
 **Price** 1 gp; **Weight** 1 lb.
 
-A typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you are an orc or half-orc who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any [Intimidate](skills/intimidate.md#_intimidate) checks you make. This bonus lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.
+A typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you are an orc or half-orc who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any [Intimidate](skills/intimidate#_intimidate) checks you make. This bonus lasts until you eat a meal other than the rations or go for a full day without eating a day's worth.
 
 Powdered Milk
 
@@ -297,7 +297,7 @@ Tea Ceremony Set
 
 **Price** 25 gp; **Weight** 5 lbs.
 
-This includes a tray, a teapot, a whisk, a bowl to mix the tea in, four tiny cups, and a decorative box in which to store all of these items. The ceremonial brewing of tea is part of the classical tea ceremony. Knowing the proper steps for preparing and participating in a tea ceremony requires a successful DC 15 [Knowledge](skills/knowledge.md#_knowledge) (nobility) skill check.
+This includes a tray, a teapot, a whisk, a bowl to mix the tea in, four tiny cups, and a decorative box in which to store all of these items. The ceremonial brewing of tea is part of the classical tea ceremony. Knowing the proper steps for preparing and participating in a tea ceremony requires a successful DC 15 [Knowledge](skills/knowledge#_knowledge) (nobility) skill check.
 
 Tepache
 

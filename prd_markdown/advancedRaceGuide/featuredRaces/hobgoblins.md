@@ -28,7 +28,7 @@ Fierce and militaristic, hobgoblins survive by conquest. The raw materials to fu
 
 **Darkvision** : Hobgoblins can see in the dark up to 60 feet.
 
-**Sneaky** : Hobgoblins receive a +4 racial bonus on [Stealth](skills/stealth.md#_stealth) checks.
+**Sneaky** : Hobgoblins receive a +4 racial bonus on [Stealth](skills/stealth#_stealth) checks.
 
 **Languages** : Hobgoblins begin play speaking Common and Goblin. Hobgoblins with high Intelligence scores can choose from the following: Draconic, Dwarven, Infernal, Giant, and Orc.
 
@@ -36,23 +36,23 @@ Fierce and militaristic, hobgoblins survive by conquest. The raw materials to fu
 
 The following racial traits may be selected instead of existing hobgoblin racial traits. Consult your GM before selecting any of these new options.
 
-**Bandy-Legged** : Bandy-legged hobgoblins have an even more exaggerated stature than other hobgoblins, with bowed legs and massive shoulders. Hobgoblins with this racial trait gain a +2 racial bonus on [Climb](skills/climb.md#_climb) and [Ride](skills/ride.md#_ride) checks, and a +2 racial bonus to their CMD against bull rush or trip attempts while on solid ground. The base speed of bandy-legged hobgoblins is reduced to 20 feet.
+**Bandy-Legged** : Bandy-legged hobgoblins have an even more exaggerated stature than other hobgoblins, with bowed legs and massive shoulders. Hobgoblins with this racial trait gain a +2 racial bonus on [Climb](skills/climb#_climb) and [Ride](skills/ride#_ride) checks, and a +2 racial bonus to their CMD against bull rush or trip attempts while on solid ground. The base speed of bandy-legged hobgoblins is reduced to 20 feet.
 
 **Battle-Hardened** : Incessant drills make defense second nature to some hobgoblins. Hobgoblins with this racial trait gain a +1 bonus to CMD. This racial trait replaces sneaky.
 
-**Engineer** : Hobgoblin engineers tinker endlessly with fire, explosives, and the engines of war. Hobgoblins with this racial trait gain a +2 racial bonus on [Craft](skills/craft.md#_craft) (alchemy) and [Knowledge](skills/knowledge.md#_knowledge) (engineering) checks. This racial trait replaces sneaky.
+**Engineer** : Hobgoblin engineers tinker endlessly with fire, explosives, and the engines of war. Hobgoblins with this racial trait gain a +2 racial bonus on [Craft](skills/craft#_craft) (alchemy) and [Knowledge](skills/knowledge#_knowledge) (engineering) checks. This racial trait replaces sneaky.
 
-**Fearsome** : Some hobgoblins scorn caution and subtlety for swagger and bluster. Hobgoblins with this racial trait gain a +4 racial bonus on [Intimidate](skills/intimidate.md#_intimidate) checks. This racial trait replaces sneaky.
+**Fearsome** : Some hobgoblins scorn caution and subtlety for swagger and bluster. Hobgoblins with this racial trait gain a +4 racial bonus on [Intimidate](skills/intimidate#_intimidate) checks. This racial trait replaces sneaky.
 
-**Magehunter** : Hobgoblins hate and fear arcane casters. A magehunter gains a +2 racial bonus on [Spellcraft](skills/spellcraft.md#_spellcraft) checks made to identify a spell being cast and a +1 racial bonus on attack rolls against arcane spellcasters. He only gains this bonus against creatures that use spells, and not against those that only use spell-like abilities. This racial trait replaces sneaky.
+**Magehunter** : Hobgoblins hate and fear arcane casters. A magehunter gains a +2 racial bonus on [Spellcraft](skills/spellcraft#_spellcraft) checks made to identify a spell being cast and a +1 racial bonus on attack rolls against arcane spellcasters. He only gains this bonus against creatures that use spells, and not against those that only use spell-like abilities. This racial trait replaces sneaky.
 
 **Pit Boss** : Slave blood fuels the hobgoblin war machine. Pit bosses extract the last breath of labor from their charges with a liberal touch of the lash. Hobgoblins with this racial trait gain proficiency with whips and a +1 racial bonus on combat maneuver checks made to disarm or trip with a whip. This racial trait replaces sneaky.
 
 **Scarred** : A hobgoblin can scar himself with both blade and fire to toughen his hide into a mass of horny scars. Hobgoblins with this racial trait gain a +1 natural armor bonus to Armor Class. However, the repeated exposure to fire permanently damages their eyes. This racial trait replaces the darkvision racial trait.
 
-**Slave Hunter** : Hobgoblin slavers excel at tracking down runaway slaves and surviving in filthy conditions. Hobgoblins with this racial trait gain a +2 racial bonus on [Survival](skills/survival.md#_survival) checks and a +2 racial bonus on Fortitude saves against disease. This racial trait replaces sneaky.
+**Slave Hunter** : Hobgoblin slavers excel at tracking down runaway slaves and surviving in filthy conditions. Hobgoblins with this racial trait gain a +2 racial bonus on [Survival](skills/survival#_survival) checks and a +2 racial bonus on Fortitude saves against disease. This racial trait replaces sneaky.
 
-**Unfit** : Hobgoblins who failed to secure a position in the military hold the lowest status in hobgoblin society, and quickly learn the value of currying favor with their betters. Hobgoblins with this racial trait gain proficiency in a single martial weapon and +1 racial bonus on [Bluff](skills/bluff.md#_bluff) and [Diplomacy](skills/diplomacy.md#_diplomacy) checks. This racial trait replaces sneaky.
+**Unfit** : Hobgoblins who failed to secure a position in the military hold the lowest status in hobgoblin society, and quickly learn the value of currying favor with their betters. Hobgoblins with this racial trait gain proficiency in a single martial weapon and +1 racial bonus on [Bluff](skills/bluff#_bluff) and [Diplomacy](skills/diplomacy#_diplomacy) checks. This racial trait replaces sneaky.
 
 # Favored Class Options
 
@@ -60,11 +60,11 @@ The following options are available to all hobgoblins who have the listed favore
 
 **Alchemist** : Add +1/2 to the number of bombs per day the alchemist can create.
 
-**Cavalier** : Add a +1/2 bonus on [Intimidate](skills/intimidate.md#_intimidate) checks and [Ride](skills/ride.md#_ride) checks.
+**Cavalier** : Add a +1/2 bonus on [Intimidate](skills/intimidate#_intimidate) checks and [Ride](skills/ride#_ride) checks.
 
 **Cleric** : Add +1/2 to negative energy spell damage, including inflict spells.
 
-**Fighter** : Add a +1/2 circumstance bonus on critical hit confirmation rolls with a weapon of the fighter's choice (maximum bonus +4). This bonus does not stack with [Critical Focus](feats.md#_critical-focus).
+**Fighter** : Add a +1/2 circumstance bonus on critical hit confirmation rolls with a weapon of the fighter's choice (maximum bonus +4). This bonus does not stack with [Critical Focus](feats#_critical-focus).
 
 **Gunslinger** : Add +1/4 to the gunslinger's grit points.
 
@@ -74,7 +74,7 @@ The following options are available to all hobgoblins who have the listed favore
 
 **Ranger** : Add +1/4 to a single existing favored enemy bonus (maximum bonus +1 per favored enemy).
 
-**Rogue** : Reduce the penalty for not being proficient with one weapon by 1. When the nonproficiency penalty for a weapon becomes 0 because of this ability, the rogue is treated as having the appropriate Martial or [Exotic Weapon Proficiency](feats.md#_exotic-weapon-proficiency) feat for that weapon.
+**Rogue** : Reduce the penalty for not being proficient with one weapon by 1. When the nonproficiency penalty for a weapon becomes 0 because of this ability, the rogue is treated as having the appropriate Martial or [Exotic Weapon Proficiency](feats#_exotic-weapon-proficiency) feat for that weapon.
 
 # Racial Archetypes
 
@@ -88,7 +88,7 @@ The fell rider rides a bestial steed, a mount mastered by him alone. He tramples
 
 **Rampage (Ex)** : At 3rd level, a fell rider gains Trample as a bonus feat. The fell rider receives a +2 bonus on overrun attempts made while mounted. In addition, his mount gains a +2 bonus on damage rolls when making hoof attacks or using the trample monster ability, even when not overrunning. This ability replaces cavalier's charge.
 
-**Dread Rider (Ex)** : At 4th level, a fell rider gains a bonus equal to 1/2 his level on [Intimidate](skills/intimidate.md#_intimidate) checks made while mounted. Once per round as a free action, he can make an [Intimidate](skills/intimidate.md#_intimidate) check to demoralize a foe he has trampled or charged while mounted. This ability replaces expert trainer.
+**Dread Rider (Ex)** : At 4th level, a fell rider gains a bonus equal to 1/2 his level on [Intimidate](skills/intimidate#_intimidate) checks made while mounted. Once per round as a free action, he can make an [Intimidate](skills/intimidate#_intimidate) check to demoralize a foe he has trampled or charged while mounted. This ability replaces expert trainer.
 
 **Fell Presence (Ex)** : At 5th level, a fell rider inspires dread while mounted. As long as the fell rider is mounted, all enemies within 60 feet receive a –2 penalty on savings throws against fear. At 10th level and every 5 levels thereafter, this penalty increases by –1. This ability replaces banner.
 
@@ -104,7 +104,7 @@ Through discipline and training, an ironskin monk hardens his body to withstand 
 
 **Iron Skin (Ex)** : At 1st level, an ironskin monk gains a +1 bonus to his natural armor. This bonus stacks with any existing natural armor the ironskin monk already has. At 4th level, and every 4 levels thereafter, this bonus increases by +1. This ability replaces the monk's AC bonus ability and the ability to add his Wisdom bonus to his AC.
 
-**Bonus Feat** : At 1st level, an ironskin monk adds [Power Attack](feats.md#_power-attack) to his list of bonus feats. At 6th level, he adds Improved Sunder to the list. At 10th level, he adds Greater Sunder to the list. These bonus feat choices replace [Dodge](feats.md#_dodge), Mobility, and Spring Attack on his bonus feat list.
+**Bonus Feat** : At 1st level, an ironskin monk adds [Power Attack](feats#_power-attack) to his list of bonus feats. At 6th level, he adds Improved Sunder to the list. At 10th level, he adds Greater Sunder to the list. These bonus feat choices replace [Dodge](feats#_dodge), Mobility, and Spring Attack on his bonus feat list.
 
 **Resilience (Ex)** : At 2nd level, an ironskin monk can shake off the physical effects of certain attacks. If he makes a Fortitude saving throw against an attack that has a reduced effect on a successful save, he instead avoids the effect entirely. This ability can be used only if the monk is wearing light armor or no armor. A helpless monk does not gain the benefits of resilience. This ability replaces evasion.
 
@@ -130,7 +130,7 @@ Hobgoblins have access to the following equipment.
 
 **Brewed Reek** : Animal musk, spoiled meat, pungent plants, and any other foul-smelling substances on hand go into a batch of brewed reek. When boiled, this mixture becomes a thick alchemical slime that adheres to anything it touches. You can hurl brewed reek as a splash weapon with a range increment of 10 feet. A creature struck with a direct hit must succeed at a DC 15 Fortitude save or be sickened for 2d6 rounds. If the target fails its save, it must make a second Fortitude save or be nauseated for 1 round. Creatures in the splash area must make a Fortitude save or be sickened for 1 round. A creature that drinks brewed reek does not get a saving throw and is sickened for 2d6 rounds and nauseated for 1 round.
 
-**Fetters** : Fetters are manacles fitted around the ankles rather than the wrists, and use the same rules for breaking, escape, and cost relative to size. A creature in fetters is entangled and can only move at half speed. In addition, a fettered creature must succeed at a DC 15 [Acrobatics](skills/acrobatics.md#_acrobatics) check to move more than its (reduced) speed in a round. If it fails the check by 5 or more, the creature falls prone.
+**Fetters** : Fetters are manacles fitted around the ankles rather than the wrists, and use the same rules for breaking, escape, and cost relative to size. A creature in fetters is entangled and can only move at half speed. In addition, a fettered creature must succeed at a DC 15 [Acrobatics](skills/acrobatics#_acrobatics) check to move more than its (reduced) speed in a round. If it fails the check by 5 or more, the creature falls prone.
 
 **Hobgoblin War Draught** : This drink is a foul-smelling alchemical blend of raw alcohol, mashed grubs, and medicinal mushrooms. A hobgoblin under the effects of hobgoblin war draught ignores all penalties resulting from the fatigued and shaken conditions for 10 minutes, after which he must succeed at a DC 15 Fortitude save or be sickened for 1 hour. Anyone lacking the goblinoid subtype who drinks hobgoblin war draught must immediately make a DC 15 Fortitude save or be sickened for 1 hour; success means the drinker ignores all penalties resulting from the fatigued and shaken conditions for 1 minute, after which he is sickened for 10 minutes. Hobgoblin war draught has no effect on creatures that are immune to poison.
 
@@ -166,9 +166,9 @@ Your bombs explode with deafening force.
 
 You cow your enemies with the lash of a whip.
 
-**Prerequisites** : Base attack bonus +1, [Intimidate](skills/intimidate.md#_intimidate) 1 rank, hobgoblin.
+**Prerequisites** : Base attack bonus +1, [Intimidate](skills/intimidate#_intimidate) 1 rank, hobgoblin.
 
-**Benefit** : To use this feat, you must use a whip (or another weapon in the flails fighter weapon group) to attack a foe demoralized by an [Intimidate](skills/intimidate.md#_intimidate) check. If the attack hits, you extend the duration the creature is shaken by 1 round. This feat has no effect on creatures whose shaken conditions are from sources other than [Intimidate](skills/intimidate.md#_intimidate) checks.
+**Benefit** : To use this feat, you must use a whip (or another weapon in the flails fighter weapon group) to attack a foe demoralized by an [Intimidate](skills/intimidate#_intimidate) check. If the attack hits, you extend the duration the creature is shaken by 1 round. This feat has no effect on creatures whose shaken conditions are from sources other than [Intimidate](skills/intimidate#_intimidate) checks.
 
 ### Focusing Blow (Teamwork)
 
@@ -190,19 +190,19 @@ The presence of other hobgoblins bolsters your resolve.
 
 You intimidate weaker allies into reckless ferocity.
 
-**Prerequisites** : Demoralizing Lash, [Intimidate](skills/intimidate.md#_intimidate) 5 ranks, hobgoblin.
+**Prerequisites** : Demoralizing Lash, [Intimidate](skills/intimidate#_intimidate) 5 ranks, hobgoblin.
 
-**Benefit** : As a standard action, you spur an ally, who must have fewer Hit Dice than yourself, to reckless effort. For 1 minute, the ally gains a +1 morale bonus on attack rolls, weapon damage rolls, and Will saves against mind-affecting effects. However, the ally also takes a –2 penalty to AC and on skill checks. To affect an unwilling ally, you must succeed at an [Intimidate](skills/intimidate.md#_intimidate) check with the same DC used to demoralize your ally.
+**Benefit** : As a standard action, you spur an ally, who must have fewer Hit Dice than yourself, to reckless effort. For 1 minute, the ally gains a +1 morale bonus on attack rolls, weapon damage rolls, and Will saves against mind-affecting effects. However, the ally also takes a –2 penalty to AC and on skill checks. To affect an unwilling ally, you must succeed at an [Intimidate](skills/intimidate#_intimidate) check with the same DC used to demoralize your ally.
 
-**Special** : If you have 10 or more ranks in [Intimidate](skills/intimidate.md#_intimidate), the morale bonus increases to +2.
+**Special** : If you have 10 or more ranks in [Intimidate](skills/intimidate#_intimidate), the morale bonus increases to +2.
 
 ### Terrorizing Display (Combat)
 
 Your battle prowess frightens friend and foe alike.
 
-**Prerequisites** : Dazzling Display, Demoralizing Lash, Taskmaster, [Weapon Focus](feats.md#_weapon-focus), [Intimidate](skills/intimidate.md#_intimidate) 10 ranks, hobgoblin, proficiency with selected weapon.
+**Prerequisites** : Dazzling Display, Demoralizing Lash, Taskmaster, [Weapon Focus](feats#_weapon-focus), [Intimidate](skills/intimidate#_intimidate) 10 ranks, hobgoblin, proficiency with selected weapon.
 
-**Benefits** : When you use Dazzling Display, in addition to its normal effects, you can use it to spur allies within 30 feet as if you had used the Taskmaster feat. Use the same [Intimidate](skills/intimidate.md#_intimidate) check to determine the effects of Dazzling Display and this feat.
+**Benefits** : When you use Dazzling Display, in addition to its normal effects, you can use it to spur allies within 30 feet as if you had used the Taskmaster feat. Use the same [Intimidate](skills/intimidate#_intimidate) check to determine the effects of Dazzling Display and this feat.
 
 ## Hobgoblin Magic Items
 
@@ -210,11 +210,11 @@ Hobgoblins have access to the following weapon special abilities and magic items
 
 **Cruel (weapon special ability)** : A _cruel_ weapon feeds on fear and suffering. When the wielder strikes a creature that is frightened, shaken, or panicked with a _cruel_ weapon, that creature becomes sickened for 1 round. When the wielder uses the weapon to knock unconscious or kill a creature, he gains 5 temporary hit points that last for 10 minutes.
 
-Faint necromancy; CL 5th; [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [cause fear](spells/causeFear.md#_cause-fear)_, _ [death knell](spells/deathKnell.md#_death-knell)_; Price +1 bonus.
+Faint necromancy; CL 5th; [Craft Magic Arms and Armor](feats#_craft-magic-arms-and-armor), _ [cause fear](spells/causeFear#_cause-fear)_, _ [death knell](spells/deathKnell#_death-knell)_; Price +1 bonus.
 
 **Deadly (weapon special ability)** : This special ability can only be placed on weapons that normally deal nonlethal damage, such as whips and saps. All damage a _deadly _weapon deals is lethal damage. A whip (or similar weapon that cannot damage creatures with armor or natural armor bonuses) with this special ability deals damage even to creatures with armor or natural armor. On command, the weapon suppresses this ability until told to resume it.
 
-Faint necromancy; CL 5th; [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), _ [inflict light wounds](spells/inflictLightWounds.md#_inflict-light-wounds)_; Price +1 bonus.
+Faint necromancy; CL 5th; [Craft Magic Arms and Armor](feats#_craft-magic-arms-and-armor), _ [inflict light wounds](spells/inflictLightWounds#_inflict-light-wounds)_; Price +1 bonus.
 
 Hobgoblin Battle Standard
 
@@ -236,7 +236,7 @@ A battle standard may be carried (on foot or mounted) or planted. In the latter 
 
 Construction
 
-**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [crushing despair](spells/crushingDespair.md#_crushing-despair) _(despair), _ [rage](spells/rage.md#_rage)_ (ferocity), _ [aid](spells/aid.md#_aid)_ and _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_ (iron resolve); **Cost** 25,000 gp (despair), 30,000 gp (ferocity), 22,500 gp (iron resolve)
+**Requirements** [Craft Wondrous Item](feats#_craft-wondrous-item), _ [crushing despair](spells/crushingDespair#_crushing-despair) _(despair), _ [rage](spells/rage#_rage)_ (ferocity), _ [aid](spells/aid#_aid)_ and _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_ (iron resolve); **Cost** 25,000 gp (despair), 30,000 gp (ferocity), 22,500 gp (iron resolve)
 
 Horseshoes of Crushing Blows
 
@@ -246,13 +246,13 @@ Horseshoes of Crushing Blows
 
 Description
 
-_Horseshoes of crushing blows_ grant an enhancement bonus on attack and damage rolls made with hoof attacks; this bonus varies based on the item's price. Alternatively, as described for the _ [amulet of mighty fists](magicItems/wondrousItems.md#_amulet-of-mighty-fists),_ they can grant melee weapon special abilities so long as they can be applied to unarmed attacks. _Horseshoes of crushing blows_ cannot have a modified bonus (enhancement bonus plus special ability bonus equivalents) higher than +5. _Horseshoes of crushing blows_ are crafted as sets of four, with each shoe in the set bearing the same enhancements. All four shoes must be worn by the same animal to be effective.
+_Horseshoes of crushing blows_ grant an enhancement bonus on attack and damage rolls made with hoof attacks; this bonus varies based on the item's price. Alternatively, as described for the _ [amulet of mighty fists](magicItems/wondrousItems#_amulet-of-mighty-fists),_ they can grant melee weapon special abilities so long as they can be applied to unarmed attacks. _Horseshoes of crushing blows_ cannot have a modified bonus (enhancement bonus plus special ability bonus equivalents) higher than +5. _Horseshoes of crushing blows_ are crafted as sets of four, with each shoe in the set bearing the same enhancements. All four shoes must be worn by the same animal to be effective.
 
 _Horseshoes of crushing blows_ may be crafted out of special materials, gaining the usual benefits. For purposes of pricing, they count as a single one-handed weapon weighing 4 pounds (for example, _adamantine horseshoes of crushing blows_ would cost an additional 3,000 gp). The materials needed to make _cold iron horseshoes of crushing blows_ add no extra costs in and of themselves, but enhancing _cold iron horseshoes of crushing blows_ increases the price by the usual 2,000 gp.
 
 Construction
 
-**Requirements** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), [Craft Wondrous Item](feats.md#_craft-wondrous-item), creator's caster level must be at least three times the amulet's bonus, plus any requirements of the melee weapon special abilities; **Cost** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)
+**Requirements** [Craft Magic Arms and Armor](feats#_craft-magic-arms-and-armor), [Craft Wondrous Item](feats#_craft-wondrous-item), creator's caster level must be at least three times the amulet's bonus, plus any requirements of the melee weapon special abilities; **Cost** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)
 
 Shackles of Durance Vile
 
@@ -262,11 +262,11 @@ Shackles of Durance Vile
 
 Description
 
-These masterwork iron manacles sap the will of their wearer. When attached to a humanoid creature as their command word is spoken, they affect their prisoner with a _ [dominate person](spells/dominatePerson.md#_dominate-person)_ spell, except that if the prisoner fails its saving throw, the effect lasts for as long as the shackles are attached. Removing or destroying the shackles immediately breaks the enchantment. The shackles can be so used once per day. _Shackles of durance vile_ can only be activated against a helpless, restrained, or willing creature; if attached to a creature still able to resist they function only as manacles, albeit superior ones. _Shackles of durance vile_ have hardness 15, 20 hit points, and a superior lock. They have a break DC of 30 and an [Escape Artist](skills/escapeArtist.md#_escape-artist) DC of 35.
+These masterwork iron manacles sap the will of their wearer. When attached to a humanoid creature as their command word is spoken, they affect their prisoner with a _ [dominate person](spells/dominatePerson#_dominate-person)_ spell, except that if the prisoner fails its saving throw, the effect lasts for as long as the shackles are attached. Removing or destroying the shackles immediately breaks the enchantment. The shackles can be so used once per day. _Shackles of durance vile_ can only be activated against a helpless, restrained, or willing creature; if attached to a creature still able to resist they function only as manacles, albeit superior ones. _Shackles of durance vile_ have hardness 15, 20 hit points, and a superior lock. They have a break DC of 30 and an [Escape Artist](skills/escapeArtist#_escape-artist) DC of 35.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [dominate person](spells/dominatePerson.md#_dominate-person)_; **Cost** 8,200 gp
+**Requirements** [Craft Wondrous Item](feats#_craft-wondrous-item), _ [dominate person](spells/dominatePerson#_dominate-person)_; **Cost** 8,200 gp
 
 Wound Paste
 
@@ -276,11 +276,11 @@ Wound Paste
 
 Description
 
-Prized by slavers as an affordable way to stop a captive from bleeding to death, a dose of _wound paste_ acts as a _ [stabilize](spells/stabilize.md#_stabilize)_ spell when slathered on a dying creature. Applying _wound paste_ is a standard action that provokes an attack of opportunity. A pot of _wound paste_ contains 5 doses.
+Prized by slavers as an affordable way to stop a captive from bleeding to death, a dose of _wound paste_ acts as a _ [stabilize](spells/stabilize#_stabilize)_ spell when slathered on a dying creature. Applying _wound paste_ is a standard action that provokes an attack of opportunity. A pot of _wound paste_ contains 5 doses.
 
 Construction
 
-**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _ [stabilize](spells/stabilize.md#_stabilize)_; **Cost** 25 gp
+**Requirements** [Craft Wondrous Item](feats#_craft-wondrous-item), _ [stabilize](spells/stabilize#_stabilize)_; **Cost** 25 gp
 
 ## Hobgoblin Spells
 

@@ -4,5 +4,5 @@ Mind Blank, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [mind blank](spells/mindBlank.md#_mind-blank)_, except you divide the duration in 1-hour increments among the creatures touched.
+This spell functions like _ [mind blank](spells/mindBlank#_mind-blank)_, except you divide the duration in 1-hour increments among the creatures touched.
 

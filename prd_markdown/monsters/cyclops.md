@@ -6,9 +6,9 @@ _A single huge eye stares from the forehead of this nine-foot-tall giant. Below 
 
 **XP 1,600**
 
-NE Large [humanoid](creatureTypes.md#_humanoid) ( [giant](creatureTypes.md#_giant-type))
+NE Large [humanoid](creatureTypes#_humanoid) ( [giant](creatureTypes#_giant-type))
 
-**Init** –1; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +11
+**Init** –1; **Senses** low-light vision; [Perception](../skills/perception#_perception) +11
 
 **Defense**
 
@@ -18,7 +18,7 @@ NE Large [humanoid](creatureTypes.md#_humanoid) ( [giant](creatureTypes.md#_gian
 
 **Fort** +9, **Ref** +2, **Will** +4
 
-**Defensive Abilities** [ferocity](universalMonsterRules.md#_ferocity)
+**Defensive Abilities** [ferocity](universalMonsterRules#_ferocity)
 
 **Offense**
 
@@ -36,9 +36,9 @@ NE Large [humanoid](creatureTypes.md#_humanoid) ( [giant](creatureTypes.md#_gian
 
 **Base**  **Atk** +7; **CMB** +13; **CMD** 22
 
-**Feats** [Alertness](../feats.md#_alertness), [Cleave](../feats.md#_cleave), [Great Cleave](../feats.md#_great-cleave), [Improved Bull Rush](../feats.md#_improved-bull-rush), [Power Attack](../feats.md#_power-attack)
+**Feats** [Alertness](../feats#_alertness), [Cleave](../feats#_cleave), [Great Cleave](../feats#_great-cleave), [Improved Bull Rush](../feats#_improved-bull-rush), [Power Attack](../feats#_power-attack)
 
-**Skills** [Intimidate](../skills/intimidate.md#_intimidate) +9, [Perception](../skills/perception.md#_perception) +11, [Profession](../skills/profession.md#_profession) (soothsayer) +10 [Sense Motive](../skills/senseMotive.md#_sense-motive) +5, [Survival](../skills/survival.md#_survival) +6; **Racial Modifiers** +8 [Perception](../skills/perception.md#_perception)
+**Skills** [Intimidate](../skills/intimidate#_intimidate) +9, [Perception](../skills/perception#_perception) +11, [Profession](../skills/profession#_profession) (soothsayer) +10 [Sense Motive](../skills/senseMotive#_sense-motive) +5, [Survival](../skills/survival#_survival) +6; **Racial Modifiers** +8 [Perception](../skills/perception#_perception)
 
 **Languages** Common, Cyclops, Giant
 

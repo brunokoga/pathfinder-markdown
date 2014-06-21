@@ -1,6 +1,6 @@
 Sleep
 
-**Source** [_sleep_](spells/sleep.md#_sleep)
+**Source** [_sleep_](spells/sleep#_sleep)
 
 The spell affects up to 8 Hit Dice of creatures, and you can choose the order in which creatures are affected by the spell. Any effect that would automatically awaken a sleeping creature instead allows it to attempt a new Will saving throw to awaken.
 

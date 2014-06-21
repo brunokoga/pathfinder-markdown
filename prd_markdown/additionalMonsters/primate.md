@@ -6,9 +6,9 @@ BaboonCR 1/2
 
 **XP 200**
 
-N Small [animal](monsters/creatureTypes.md#_animal)
+N Small [animal](monsters/creatureTypes#_animal)
 
-**Init** +2; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +1
+**Init** +2; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +1
 
 Defense
 
@@ -30,9 +30,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +0; **CMD** 12
 
-**Feats** [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
+**Feats** [Weapon Finesse](additionalMonsters/../feats#_weapon-finesse)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +10, [Climb](additionalMonsters/../skills/climb.md#_climb) +5; **Racial Modifiers** +4 [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics), +4 [Climb](additionalMonsters/../skills/climb.md#_climb)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +10, [Climb](additionalMonsters/../skills/climb#_climb) +5; **Racial Modifiers** +4 [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics), +4 [Climb](additionalMonsters/../skills/climb#_climb)
 
 Ecology
 
@@ -60,9 +60,9 @@ Monkey SwarmCR 2
 
 **XP 600**
 
-N Tiny [animal](monsters/creatureTypes.md#_animal) ( [swarm](monsters/creatureTypes.md#_swarm-subtype))
+N Tiny [animal](monsters/creatureTypes#_animal) ( [swarm](monsters/creatureTypes#_swarm-subtype))
 
-**Init** +7; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +5
+**Init** +7; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +5
 
 Defense
 
@@ -72,17 +72,17 @@ Defense
 
 **Fort** +6, **Ref** +8, **Will** +2
 
-**Defensive Abilities** half damage from weapons, [swarm](monsters/creatureTypes.md#_swarm-subtype) traits
+**Defensive Abilities** half damage from weapons, [swarm](monsters/creatureTypes#_swarm-subtype) traits
 
 Offense
 
 **Speed** 30 ft., climb 20 ft.
 
-**Melee** [swarm](monsters/creatureTypes.md#_swarm-subtype) (2d6 plus [distraction](monsters/universalMonsterRules.md#_distraction))
+**Melee** [swarm](monsters/creatureTypes#_swarm-subtype) (2d6 plus [distraction](monsters/universalMonsterRules#_distraction))
 
 **Space** 10 ft.; **Reach** 0 ft.
 
-**Special Attacks** [distraction](monsters/universalMonsterRules.md#_distraction) (DC 14)
+**Special Attacks** [distraction](monsters/universalMonsterRules#_distraction) (DC 14)
 
 Statistics
 
@@ -90,11 +90,11 @@ Statistics
 
 **Base Atk** +2; **CMB** —; **CMD** —
 
-**Feats** Improved Initiative, [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes)
+**Feats** Improved Initiative, [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +11, [Climb](additionalMonsters/../skills/climb.md#_climb) +10, [Perception](additionalMonsters/../skills/perception.md#_perception) +5; **Racial Modifiers** +4 [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +11, [Climb](additionalMonsters/../skills/climb#_climb) +10, [Perception](additionalMonsters/../skills/perception#_perception) +5; **Racial Modifiers** +4 [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics)
 
-**SQ** coordinated [swarm](monsters/creatureTypes.md#_swarm-subtype)
+**SQ** coordinated [swarm](monsters/creatureTypes#_swarm-subtype)
 
 Ecology
 
@@ -106,7 +106,7 @@ Ecology
 
 Special Abilities
 
-**Coordinated [Swarm](monsters/creatureTypes.md#_swarm-subtype) (Ex)** A monkey [swarm](monsters/creatureTypes.md#_swarm-subtype) coordinates its attacks more than a typical [swarm](monsters/creatureTypes.md#_swarm-subtype), and deals [swarm](monsters/creatureTypes.md#_swarm-subtype) damage one step higher than a [swarm](monsters/creatureTypes.md#_swarm-subtype) of its HD would normally cause.
+**Coordinated [Swarm](monsters/creatureTypes#_swarm-subtype) (Ex)** A monkey [swarm](monsters/creatureTypes#_swarm-subtype) coordinates its attacks more than a typical [swarm](monsters/creatureTypes#_swarm-subtype), and deals [swarm](monsters/creatureTypes#_swarm-subtype) damage one step higher than a [swarm](monsters/creatureTypes#_swarm-subtype) of its HD would normally cause.
 
 Monkeys sometimes travel in huge colonies of hundreds of individuals. In such quantities, these primates can become quite dangerous, capable of overwhelming many foes by their sheer numbers.
 

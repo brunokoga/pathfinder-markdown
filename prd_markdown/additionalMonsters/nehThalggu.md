@@ -6,9 +6,9 @@ Neh-ThalgguCR 8
 
 **XP 4,800**
 
-CE Large [aberration](monsters/creatureTypes.md#_aberration)
+CE Large [aberration](monsters/creatureTypes#_aberration)
 
-**Init** +7; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +17
+**Init** +7; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +17
 
 Defense
 
@@ -24,7 +24,7 @@ Offense
 
 **Speed** 10 ft., fly 40 ft. (perfect)
 
-**Melee** bite +13 (1d8+7 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))), 2 claws +13 (1d6+7)
+**Melee** bite +13 (1d8+7 plus [poison](monsters/universalMonsterRules#_poison-(ex-or-su))), 2 claws +13 (1d6+7)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
@@ -32,13 +32,13 @@ Offense
 
 **Sorcerer Spells Known** (CL 7th; concentration +17)
 
-3rd (5/day)—_ [lightning bolt](additionalMonsters/../spells/lightningBolt.md#_lightning-bolt)_ (DC16), _ [hold person](additionalMonsters/../spells/holdPerson.md#_hold-person)_ (DC 16)
+3rd (5/day)—_ [lightning bolt](additionalMonsters/../spells/lightningBolt#_lightning-bolt)_ (DC16), _ [hold person](additionalMonsters/../spells/holdPerson#_hold-person)_ (DC 16)
 
-2nd (7/day)—_ [acid arrow](additionalMonsters/../spells/acidArrow.md#_acid-arrow), [alter self](additionalMonsters/../spells/alterSelf.md#_alter-self), [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_
+2nd (7/day)—_ [acid arrow](additionalMonsters/../spells/acidArrow#_acid-arrow), [alter self](additionalMonsters/../spells/alterSelf#_alter-self), [invisibility](additionalMonsters/../spells/invisibility#_invisibility)_
 
-1st (7/day)—_ [grease](additionalMonsters/../spells/grease.md#_grease)_ (DC 14), _ [magic missile](additionalMonsters/../spells/magicMissile.md#_magic-missile)_, _ [ray of enfeeblement](additionalMonsters/../spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 14), _ [shield](additionalMonsters/../spells/shield.md#_shield)_, _ [unseen servant](additionalMonsters/../spells/unseenServant.md#_unseen-servant)_
+1st (7/day)—_ [grease](additionalMonsters/../spells/grease#_grease)_ (DC 14), _ [magic missile](additionalMonsters/../spells/magicMissile#_magic-missile)_, _ [ray of enfeeblement](additionalMonsters/../spells/rayOfEnfeeblement#_ray-of-enfeeblement)_ (DC 14), _ [shield](additionalMonsters/../spells/shield#_shield)_, _ [unseen servant](additionalMonsters/../spells/unseenServant#_unseen-servant)_
 
-0 (at will)—_ [acid splash](additionalMonsters/../spells/acidSplash.md#_acid-splash), [dancing lights](additionalMonsters/../spells/dancingLights.md#_dancing-lights), [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic), [mage hand](additionalMonsters/../spells/mageHand.md#_mage-hand), [open/close](additionalMonsters/../spells/openClose.md#_open-close), [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation), [read magic](additionalMonsters/../spells/readMagic.md#_read-magic)_
+0 (at will)—_ [acid splash](additionalMonsters/../spells/acidSplash#_acid-splash), [dancing lights](additionalMonsters/../spells/dancingLights#_dancing-lights), [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic), [mage hand](additionalMonsters/../spells/mageHand#_mage-hand), [open/close](additionalMonsters/../spells/openClose#_open-close), [prestidigitation](additionalMonsters/../spells/prestidigitation#_prestidigitation), [read magic](additionalMonsters/../spells/readMagic#_read-magic)_
 
 Statistics
 
@@ -46,11 +46,11 @@ Statistics
 
 **Base Atk** +7; **CMB** +15; **CMD** 35 (cannot be tripped)
 
-**Feats** [Arcane Strike](additionalMonsters/../feats.md#_arcane-strike), [Extend Spell](additionalMonsters/../feats.md#_extend-spell), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Eschew Materials](additionalMonsters/../feats.md#_eschew-materials)B, [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Power Attack](additionalMonsters/../feats.md#_power-attack)
+**Feats** [Arcane Strike](additionalMonsters/../feats#_arcane-strike), [Extend Spell](additionalMonsters/../feats#_extend-spell), [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Eschew Materials](additionalMonsters/../feats#_eschew-materials)B, [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Power Attack](additionalMonsters/../feats#_power-attack)
 
-**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +15, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana, dungeoneering, and planes) +23, [Perception](additionalMonsters/../skills/perception.md#_perception) +17, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +17, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +17, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +12, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +16
+**Skills** [Fly](additionalMonsters/../skills/fly#_fly) +15, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana, dungeoneering, and planes) +23, [Perception](additionalMonsters/../skills/perception#_perception) +17, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +17, [Spellcraft](additionalMonsters/../skills/spellcraft#_spellcraft) +17, [Stealth](additionalMonsters/../skills/stealth#_stealth) +12, [Use Magic Device](additionalMonsters/../skills/useMagicDevice#_use-magic-device) +16
 
-**Languages** Abyssal, Aklo, Common, Draconic, [Protean](monsters/creatureTypes.md#_protean-subtype), Undercommon; telepathy (100 feet)
+**Languages** Abyssal, Aklo, Common, Draconic, [Protean](monsters/creatureTypes#_protean-subtype), Undercommon; telepathy (100 feet)
 
 **SQ** brain collection, strange knowledge
 
@@ -64,9 +64,9 @@ Ecology
 
 Special Abilities
 
-**Brain Collection (Ex)** A neh-thalggu can store up to seven [humanoid](monsters/creatureTypes.md#_humanoid) brains and use them to enhance its knowledge and power. Each stored brain grants a neh-thalggu a cumulative +1 insight bonus to AC, concentration checks, and [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) checks. A neh-thalggu can extract a brain from a helpless opponent with a coup de grace attack, or as a standard action from a body that has been dead for no more than 1 minute. A neh-thalggu that has fewer than seven brains gains one negative level for each missing brain. These negative levels can never become permanent, but they can only be removed by replacing one of its collected brains. The stats presented here assume a monster with a full collection.
+**Brain Collection (Ex)** A neh-thalggu can store up to seven [humanoid](monsters/creatureTypes#_humanoid) brains and use them to enhance its knowledge and power. Each stored brain grants a neh-thalggu a cumulative +1 insight bonus to AC, concentration checks, and [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) checks. A neh-thalggu can extract a brain from a helpless opponent with a coup de grace attack, or as a standard action from a body that has been dead for no more than 1 minute. A neh-thalggu that has fewer than seven brains gains one negative level for each missing brain. These negative levels can never become permanent, but they can only be removed by replacing one of its collected brains. The stats presented here assume a monster with a full collection.
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 21; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Strength damage and staggered; _cure_ 2 consecutive saves. The save DC is Constitution-based.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 21; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Strength damage and staggered; _cure_ 2 consecutive saves. The save DC is Constitution-based.
 
 **Spells** A neh-thalggu casts spells as a 7th-level sorcerer. For each negative level it takes from missing brains, its caster level is reduced by 1. A neh-thalggu with no collected brains cannot cast any of its spells.
 

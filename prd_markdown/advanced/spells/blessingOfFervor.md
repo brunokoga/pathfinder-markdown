@@ -22,5 +22,5 @@ With this blessing, you call your allies to move forth and empower them to conqu
 - Gain a +2 bonus on attack rolls and a +2 dodge bonus to AC and Reflex saves.
 - Cast a single spell of 2nd level or lower as if it were an enlarged, extended, silent, or still spell. 
 
-These effects are not cumulative with similar effects, such as those provided by _ [haste](../../spells/haste.md#_haste)_ or a _ [speed](../../magicItems/weapons.md#_weapons-speed)_ weapon, nor do they actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round. _Blessing of fervor_ does not stack with _ [haste](../../spells/haste.md#_haste)_.
+These effects are not cumulative with similar effects, such as those provided by _ [haste](../../spells/haste#_haste)_ or a _ [speed](../../magicItems/weapons#_weapons-speed)_ weapon, nor do they actually grant an extra action, so you can't use it to cast a second spell or otherwise take an extra action in the round. _Blessing of fervor_ does not stack with _ [haste](../../spells/haste#_haste)_.
 

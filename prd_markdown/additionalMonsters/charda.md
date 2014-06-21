@@ -6,9 +6,9 @@ Armored in dense, bony plates, this four-armed creature drools wretched strings 
 
 **XP 3,200**
 
-CN Small [monstrous humanoid](monsters/creatureTypes.md#_monstrous-humanoid) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
+CN Small [monstrous humanoid](monsters/creatureTypes#_monstrous-humanoid) ( [aquatic](monsters/creatureTypes#_aquatic-subtype))
 
-**Init** +2; **Senses** darkvision 120 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +13
+**Init** +2; **Senses** darkvision 120 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +13
 
 Defense
 
@@ -18,13 +18,13 @@ Defense
 
 **Fort** +7, **Ref** +10, **Will** +7
 
-**Defensive Abilities** ferocity, **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))
+**Defensive Abilities** ferocity, **Immune** [cold](monsters/creatureTypes#_cold-subtype), [poison](monsters/universalMonsterRules#_poison-(ex-or-su))
 
 Offense
 
 **Speed** 20 ft., swim 60 ft.
 
-**Melee** bite +13 (1d6+3 plus 1d6 [cold](monsters/creatureTypes.md#_cold-subtype)), 4 claws +14 (1d4+3)
+**Melee** bite +13 (1d6+3 plus 1d6 [cold](monsters/creatureTypes#_cold-subtype)), 4 claws +14 (1d4+3)
 
 **Special Attacks** black bile
 
@@ -34,17 +34,17 @@ Statistics
 
 **Base Atk** +9; **CMB** +11 (+19 bull rush and trip); **CMD** 23
 
-**Feats** Combat Expertise, [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Improved Trip](additionalMonsters/../feats.md#_improved-trip), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (claw)
+**Feats** Combat Expertise, [Improved Bull Rush](additionalMonsters/../feats#_improved-bull-rush), [Improved Trip](additionalMonsters/../feats#_improved-trip), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Power Attack](additionalMonsters/../feats#_power-attack), [Weapon Focus](additionalMonsters/../feats#_weapon-focus) (claw)
 
-**Skills** [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +6, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +4, [Perception](additionalMonsters/../skills/perception.md#_perception) +13, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +18, [Survival](additionalMonsters/../skills/survival.md#_survival) +10, [Swim](additionalMonsters/../skills/swim.md#_swim) +18
+**Skills** [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +6, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (religion) +4, [Perception](additionalMonsters/../skills/perception#_perception) +13, [Stealth](additionalMonsters/../skills/stealth#_stealth) +18, [Survival](additionalMonsters/../skills/survival#_survival) +10, [Swim](additionalMonsters/../skills/swim#_swim) +18
 
 **Languages** Aklo, Undercommon
 
-**SQ** amphibious, [cold](monsters/creatureTypes.md#_cold-subtype) vigor, overwhelming
+**SQ** amphibious, [cold](monsters/creatureTypes#_cold-subtype) vigor, overwhelming
 
 Ecology
 
-**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) [aquatic](monsters/creatureTypes.md#_aquatic-subtype) or underground
+**Environment** [cold](monsters/creatureTypes#_cold-subtype) [aquatic](monsters/creatureTypes#_aquatic-subtype) or underground
 
 **Organization** solitary, pair, gang (3–5), or tribe (6–14)
 
@@ -52,9 +52,9 @@ Ecology
 
 Special Abilities
 
-**Black Bile (Su)** A charda's body seethes with freezing black bile. Its supernaturally [cold](monsters/creatureTypes.md#_cold-subtype), black bile is the source of the additional [cold](monsters/creatureTypes.md#_cold-subtype) damage when a charda bites a creature. As a standard action, a charda can expel its full store of bile as a [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) that can take the form of a 60-foot line or a 30-foot cone. All creatures in this area take 8d6 points of [cold](monsters/creatureTypes.md#_cold-subtype) damage (DC 18 Reflex half). A charda can use this [breath weapon](monsters/universalMonsterRules.md#_breath-weapon) once every 1d4 rounds—while its black bile is recharging, it does not deal additional [cold](monsters/creatureTypes.md#_cold-subtype) damage with its bite. The save DC is Constitution-based.
+**Black Bile (Su)** A charda's body seethes with freezing black bile. Its supernaturally [cold](monsters/creatureTypes#_cold-subtype), black bile is the source of the additional [cold](monsters/creatureTypes#_cold-subtype) damage when a charda bites a creature. As a standard action, a charda can expel its full store of bile as a [breath weapon](monsters/universalMonsterRules#_breath-weapon) that can take the form of a 60-foot line or a 30-foot cone. All creatures in this area take 8d6 points of [cold](monsters/creatureTypes#_cold-subtype) damage (DC 18 Reflex half). A charda can use this [breath weapon](monsters/universalMonsterRules#_breath-weapon) once every 1d4 rounds—while its black bile is recharging, it does not deal additional [cold](monsters/creatureTypes#_cold-subtype) damage with its bite. The save DC is Constitution-based.
 
-**[Cold](monsters/creatureTypes.md#_cold-subtype) Vigor (Ex)** When a charda is in a [cold](monsters/creatureTypes.md#_cold-subtype) environment, it becomes more animated and gains a +1 racial bonus on attack rolls and weapon damage rolls.
+**[Cold](monsters/creatureTypes#_cold-subtype) Vigor (Ex)** When a charda is in a [cold](monsters/creatureTypes#_cold-subtype) environment, it becomes more animated and gains a +1 racial bonus on attack rolls and weapon damage rolls.
 
 **Overwhelming (Ex)** A charda gains a +8 racial bonus on bull rush and trip attacks.
 

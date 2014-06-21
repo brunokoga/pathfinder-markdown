@@ -12,9 +12,9 @@
 
 **Duration** 1 min./level
 
-**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless)
+**Saving Throw** [Will](../combat#_will) negates (harmless); **[Spell Resistance](../glossary#_spell-resistance)** yes (harmless)
 
-The subject becomes stronger. The spell grants a +4 enhancement bonus to [Strength](../gettingStarted.md#_strength), adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the [Strength](../gettingStarted.md#_strength) modifier.
+The subject becomes stronger. The spell grants a +4 enhancement bonus to [Strength](../gettingStarted#_strength), adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the [Strength](../gettingStarted#_strength) modifier.
 
 **Bull's Strength, Mass**
 

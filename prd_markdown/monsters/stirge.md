@@ -6,9 +6,9 @@ _This insectoid creature has two pairs of bat wings, a tangle of thin legs, and 
 
 **XP 200**
 
-N Tiny [magical beast](creatureTypes.md#_magical-beast)
+N Tiny [magical beast](creatureTypes#_magical-beast)
 
-**Init** +4; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +1
+**Init** +4; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +1
 
 **Defense**
 
@@ -34,9 +34,9 @@ N Tiny [magical beast](creatureTypes.md#_magical-beast)
 
 **Base**  **Atk** +1; **CMB** +3 (+11 grapple when attached); **CMD** 9 (17 vs. trip)
 
-**Feats** [Weapon Finesse](../feats.md#_weapon-finesse)
+**Feats** [Weapon Finesse](../feats#_weapon-finesse)
 
-**Skills** [Fly](../skills/fly.md#_fly) +8, [Stealth](../skills/stealth.md#_stealth) +16
+**Skills** [Fly](../skills/fly#_fly) +8, [Stealth](../skills/stealth#_stealth) +16
 
 **SQ** diseased
 
@@ -50,9 +50,9 @@ N Tiny [magical beast](creatureTypes.md#_magical-beast)
 
 **Special Abilities**
 
-**Attach (Ex)** When a stirge hits with a touch attack, its barbed legs latch onto the target, anchoring it in place. An attached stirge is effectively grappling its prey. The stirge loses its Dexterity bonus to AC and has an AC of 12, but holds on with great tenacity and inserts its proboscis into the grappled target's flesh. A stirge has a +8 racial bonus to maintain its grapple on a foe once it is attached. An attached stirge can be struck with a weapon or grappled itself—if its prey manages to win a grapple check or [Escape Artist](../skills/escapeArtist.md#_escape-artist) check against it, the stirge is removed.
+**Attach (Ex)** When a stirge hits with a touch attack, its barbed legs latch onto the target, anchoring it in place. An attached stirge is effectively grappling its prey. The stirge loses its Dexterity bonus to AC and has an AC of 12, but holds on with great tenacity and inserts its proboscis into the grappled target's flesh. A stirge has a +8 racial bonus to maintain its grapple on a foe once it is attached. An attached stirge can be struck with a weapon or grappled itself—if its prey manages to win a grapple check or [Escape Artist](../skills/escapeArtist#_escape-artist) check against it, the stirge is removed.
 
-**Blood Drain (Ex)** A stirge drains blood at the end of its turn if it is attached to a foe, inflicting 1 point of Constitution [damage](universalMonsterRules.md#_ability-damage-and-drain). Once a stirge has dealt 4 points of Constitution [damage](universalMonsterRules.md#_ability-damage-and-drain), it detaches and flies off to digest the meal. If its victim dies before the stirge's appetite has been sated, the stirge detaches and seeks a new target.
+**Blood Drain (Ex)** A stirge drains blood at the end of its turn if it is attached to a foe, inflicting 1 point of Constitution [damage](universalMonsterRules#_ability-damage-and-drain). Once a stirge has dealt 4 points of Constitution [damage](universalMonsterRules#_ability-damage-and-drain), it detaches and flies off to digest the meal. If its victim dies before the stirge's appetite has been sated, the stirge detaches and seeks a new target.
 
 **Diseased (Ex)** Due to the stagnant swamps in which they live and their contact with the blood of numerous creatures, stirges are harbingers of disease. Any creature subjected to a stirge's blood drain attack has a 10% chance of being exposed to filth fever, blinding sickness, or a similar disease (_Pathfinder RPG Core Rulebook_ 557). Once this check is made, the victim can no longer be infected by this particular stirge, though attacks by different stirges are resolved normally and may result in multiple illnesses.
 

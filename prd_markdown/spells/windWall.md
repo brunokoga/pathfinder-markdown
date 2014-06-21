@@ -12,9 +12,9 @@
 
 **Duration** 1 round/level
 
-**Saving Throw** none; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** none; see text; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-An invisible vertical curtain of wind appears. It is 2 feet thick and of considerable strength. It is a roaring blast sufficient to blow away any bird smaller than an eagle, or tear papers and similar materials from unsuspecting hands. (A [Reflex](../combat.md#_reflex) save allows a creature to maintain its grasp on an object.) Tiny and Small flying creatures cannot pass through the barrier. Loose materials and cloth garments fly upward when caught in a _wind wall. _Arrows and bolts are deflected upward and miss, while any other normal ranged weapon passing through the wall has a 30% miss chance. (A giant-thrown boulder, a siege engine projectile, and other massive ranged weapons are not affected.) Gases, most gaseous breath weapons, and creatures in [gaseous form](gaseousForm.md#_gaseous-form) cannot pass through the wall (although it is no barrier to [incorporeal](../glossary.md#_incorporeal) creatures).
+An invisible vertical curtain of wind appears. It is 2 feet thick and of considerable strength. It is a roaring blast sufficient to blow away any bird smaller than an eagle, or tear papers and similar materials from unsuspecting hands. (A [Reflex](../combat#_reflex) save allows a creature to maintain its grasp on an object.) Tiny and Small flying creatures cannot pass through the barrier. Loose materials and cloth garments fly upward when caught in a _wind wall. _Arrows and bolts are deflected upward and miss, while any other normal ranged weapon passing through the wall has a 30% miss chance. (A giant-thrown boulder, a siege engine projectile, and other massive ranged weapons are not affected.) Gases, most gaseous breath weapons, and creatures in [gaseous form](gaseousForm#_gaseous-form) cannot pass through the wall (although it is no barrier to [incorporeal](../glossary#_incorporeal) creatures).
 
 While the wall must be vertical, you can shape it in any continuous path along the ground that you like. It is possible to create cylindrical or square _wind walls_ to enclose specific points.
 

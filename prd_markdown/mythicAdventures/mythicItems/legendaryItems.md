@@ -4,13 +4,13 @@ Mythic heroes are known for their trials and the incredible deeds they accomplis
 
 Legendary items often start out as simple magic items, but can grow in power to become artifacts in their own right. Even long after their creators pass away, they influence events, becoming instrumental in the creation of future legends.
 
-[Legendary Artifacts](mythicAdventures/mythicItems/legendaryItems.md#_legendary-artifacts) [Base Legendary Abilities](mythicAdventures/mythicItems/legendaryItems.md#_base-legendary-abilities) [Legendary Item Abilities](mythicAdventures/mythicItems/legendaryItems.md#_legendary-item-abilities)
+[Legendary Artifacts](mythicAdventures/mythicItems/legendaryItems#_legendary-artifacts) [Base Legendary Abilities](mythicAdventures/mythicItems/legendaryItems#_base-legendary-abilities) [Legendary Item Abilities](mythicAdventures/mythicItems/legendaryItems#_legendary-item-abilities)
 
 ## Becoming Legendary
 
 Legendary items are magic items that transcend mere magic and become tied to mythic destiny. Though all are powerful, some become even greater magical objects—minor and major artifacts.
 
-Paralleling the trajectory of a mythic character, a legendary item begins as a normal magic item that ascends to something greater. Typically this ascension occurs when a character first takes the [legendary item universal path ability](mythicAdventures/mythicHeroes.md#_legendary-item), but this isn't always the case. Deities, the servants of deities, peculiar chance, magical experimentation, and destiny can serve as catalysts for legendary item ascension. Such items can be bestowed upon the worthy or found by the lucky.
+Paralleling the trajectory of a mythic character, a legendary item begins as a normal magic item that ascends to something greater. Typically this ascension occurs when a character first takes the [legendary item universal path ability](mythicAdventures/mythicHeroes#_legendary-item), but this isn't always the case. Deities, the servants of deities, peculiar chance, magical experimentation, and destiny can serve as catalysts for legendary item ascension. Such items can be bestowed upon the worthy or found by the lucky.
 
 Legendary items are always non-consumable magic items, and are typically magic weapons, magic armor, or magic items that take up an item slot (though there are a few legendary items that don't take up slots). Even vehicles and siege weapons can become legendary items.
 
@@ -48,7 +48,7 @@ The legendary surge ability allows the bearer to add the result of a d6 to the a
 
 ## Legendary Item Abilities
 
-When a mythic creature creates a legendary item (using the [legendary item universal path ability](mythicAdventures/mythicHeroes.md#_legendary-item)), the item can have up to three additional abilities, but no more than the number of tiers possessed by the creature bonded to it. This maximum increases to six if the bonded creature selects the legendary item universal path ability twice, and then to 10 if the bonded creature selects the ability three times (again, the maximum cannot exceed the bonded creature's number of tiers). These abilities are added at the rate of one per day. Once selected, these abilities cannot be changed.
+When a mythic creature creates a legendary item (using the [legendary item universal path ability](mythicAdventures/mythicHeroes#_legendary-item)), the item can have up to three additional abilities, but no more than the number of tiers possessed by the creature bonded to it. This maximum increases to six if the bonded creature selects the legendary item universal path ability twice, and then to 10 if the bonded creature selects the ability three times (again, the maximum cannot exceed the bonded creature's number of tiers). These abilities are added at the rate of one per day. Once selected, these abilities cannot be changed.
 
 If a mythic creature bonds to an existing legendary item, it can use a number of the item's existing abilities equal to its tier, but cannot add abilities unless it possesses the legendary item universal path ability (subject to the limitations of that ability).
 
@@ -56,7 +56,7 @@ The following legendary abilities can be added to a legendary item.
 
 **Adroit** : Choose a single skill that can be augmented by the item's legendary surge. As a swift action, the item's bonded creature can expend one use of legendary power to gain a +20 insight bonus on the next check she attempts with that skill before the end of her turn. The item must have a legendary surge that augments skill checks to have this ability.
 
-**Dedicated Bond** : An item with this ability can't be used by anyone not bonded with it. Such creatures can't use the item's non-mythic special abilities, its legendary power, or its legendary surge. Furthermore, using a special ritual that takes 10 minutes to perform, the bonded creature can sequester the item in a solid object at least twice as large as the item (such as putting a sword in a stone or an oak tree). The item becomes impossible to remove by any creature not bonded to it unless by means of a _ [wish](spells/wish.md#_wish)_ or _ [miracle](spells/miracle.md#_miracle)_ cast by a mythic creature of higher tier than the bonded creature. If the bonded creature is at least 8th tier, she can instead perform this sequestering ritual and transfer the bond to another mythic creature she designates upon completing the ritual.
+**Dedicated Bond** : An item with this ability can't be used by anyone not bonded with it. Such creatures can't use the item's non-mythic special abilities, its legendary power, or its legendary surge. Furthermore, using a special ritual that takes 10 minutes to perform, the bonded creature can sequester the item in a solid object at least twice as large as the item (such as putting a sword in a stone or an oak tree). The item becomes impossible to remove by any creature not bonded to it unless by means of a _ [wish](spells/wish#_wish)_ or _ [miracle](spells/miracle#_miracle)_ cast by a mythic creature of higher tier than the bonded creature. If the bonded creature is at least 8th tier, she can instead perform this sequestering ritual and transfer the bond to another mythic creature she designates upon completing the ritual.
 
 An item must be a minor or major artifact to have this ability. This is a persistent ability.
 
@@ -70,7 +70,7 @@ An item must be a major artifact to have this ability. This is a persistent abil
 
 **Flexible Bond** : The bonded creature can lend this item out with full utility to other creatures. As a standard action, the bonded creature can grant a temporary bond to a number of creatures equal to or less than her mythic tier. These creatures can be mythic or non-mythic. A creature with a temporary bond can fully utilize all of the item's legendary abilities, and if that creature has mythic power, he can expend it to use the item's legendary abilities that require legendary power use (including its legendary surge). This temporary bond ends either when the bonded creature wills it—a mental command requiring no action, which can be done at any time while she is conscious—or when the bond is broken between this item and its bonded creature.
 
-**Foe-Biting** : When this item deals damage, its user can use mythic power to double the total amount of damage it deals. If the attack is a normal attack, the bearer can expend one use of legendary power to double the total amount of damage. If the attack is a confirmed critical hit, the bearer must instead expend two uses of legendary power to double the total damage. Damage from weapon special abilities (such as _ [flaming](magicItems/weapons.md#_weapons-flaming)_) and precision-based damage are also doubled.
+**Foe-Biting** : When this item deals damage, its user can use mythic power to double the total amount of damage it deals. If the attack is a normal attack, the bearer can expend one use of legendary power to double the total amount of damage. If the attack is a confirmed critical hit, the bearer must instead expend two uses of legendary power to double the total damage. Damage from weapon special abilities (such as _ [flaming](magicItems/weapons#_weapons-flaming)_) and precision-based damage are also doubled.
 
 This ability can be applied only to weapons. An item must be a minor or major artifact to have this ability.
 
@@ -88,27 +88,27 @@ _Animate_: This item can sprout limbs and move with a speed of 10 feet.
 
 _Blindsense_: This item gains blindsense with the same range as its other senses. The item must have the darkvision ability to have this ability.
 
-_ [Darkvision](spells/darkvision.md#_darkvision)_: This item gains darkvision with the same range as its other senses.
+_ [Darkvision](spells/darkvision#_darkvision)_: This item gains darkvision with the same range as its other senses.
 
 _Expanded Senses (60 ft.)_: The range of this item's senses increases to 60 feet.
 
 _Expanded Senses (120 ft.)_: The range of this item's senses increases to 120 feet. The item must have expanded senses (60 ft.) to have this ability.
 
-_ [Fly](skills/fly.md#_fly)_: The item gains a fly speed of 30 feet with average maneuverability. The item must have the animate ability to have this ability.
+_ [Fly](skills/fly#_fly)_: The item gains a fly speed of 30 feet with average maneuverability. The item must have the animate ability to have this ability.
 
 _Read Languages_: This item can read script in any language regardless of its known languages.
 
-_Read Magic_: This item can read magical writing and scrolls as if using _ [read magic](spells/readMagic.md#_read-magic)_. This ability doesn't allow the item to activate scrolls or other spell-completion items. The item can suppress and resume this ability as a free action.
+_Read Magic_: This item can read magical writing and scrolls as if using _ [read magic](spells/readMagic#_read-magic)_. This ability doesn't allow the item to activate scrolls or other spell-completion items. The item can suppress and resume this ability as a free action.
 
 _Shape Change_: The item can change its shape into one other form of the same size.
 
-_Skill Ranks_: This item gains 10 ranks in one skill. This must be an Intelligence-, Wisdom-, or Charisma-based skill, unless the item has the animate ability (allowing it to choose [Acrobatics](skills/acrobatics.md#_acrobatics)) or the fly ability (allowing it to choose [Fly](skills/fly.md#_fly)).
+_Skill Ranks_: This item gains 10 ranks in one skill. This must be an Intelligence-, Wisdom-, or Charisma-based skill, unless the item has the animate ability (allowing it to choose [Acrobatics](skills/acrobatics#_acrobatics)) or the fly ability (allowing it to choose [Fly](skills/fly#_fly)).
 
 _Spellcasting_: This item allows its bearer to cast a limited number of spells as spell-like abilities. This ability can be taken more than once. Each time it's taken, the bonded creature gains 5 points to spend on selecting what spells the item can cast. A spell costs a number of points equal to its level (minimum 1). The bearer can then activate the item to use each spell-like ability once per day. By spending double the cost, the bearer can use each spell-like ability three times per day. All spells must come from the same class's spell list. No spell can have a level higher than the bonded creature's tier. The caster level for these spells is equal to double the bonded creature's tier. The save DC for these spells is equal to 10 + the spell level + the bonded creature's tier.
 
 _Telepathy_: This item can hold private mental conversations with its bearer, regardless of whether they share a known language. The item must be in physical contact with a creature to communicate this way.
 
-_ [Teleport](spells/teleport.md#_teleport)_: Once per day, the item can _ [teleport](spells/teleport.md#_teleport)_ as the spell. It must have either the spellcasting ability or the fly ability to have this ability.
+_ [Teleport](spells/teleport#_teleport)_: Once per day, the item can _ [teleport](spells/teleport#_teleport)_ as the spell. It must have either the spellcasting ability or the fly ability to have this ability.
 
 **Legendary Fortification** : When a critical hit or sneak attack is scored against a creature wearing an item with this ability, the wearer can expend one use of legendary power to negate the critical hit or sneak attack and instead take normal damage.
 
@@ -124,7 +124,7 @@ Only armor, shields, and worn items can have this ability.
 
 A legendary item must be a minor or major artifact to have this ability.
 
-**Returning** : The creature bonded to this item can expend one use of mythic power to teleport the item to her waiting hand, as if using _ [teleport object](spells/teleportObject.md#_teleport-object)_. The item must be on the same plane as the bonded creature for this ability to function. This ability can be taken a second time, allowing the item to cross planes to return to the bonded creature. The item must be a major artifact to take this ability again.
+**Returning** : The creature bonded to this item can expend one use of mythic power to teleport the item to her waiting hand, as if using _ [teleport object](spells/teleportObject#_teleport-object)_. The item must be on the same plane as the bonded creature for this ability to function. This ability can be taken a second time, allowing the item to cross planes to return to the bonded creature. The item must be a major artifact to take this ability again.
 
 **Undetectable** : This grants its bonded user the ability to become utterly undetectable while invisible. While invisible and in physical contact with this item, the bonded creature can't be detected or scryed by any method.
 
@@ -134,7 +134,7 @@ An item must be a weapon and be a minor or major artifact to have this ability.
 
 **Unyielding** : A legendary item with this ability has double the hardness of a typical item of its type and triple the hit points. Furthermore, it's immune to all attempts to sunder it made by non-mythic creatures. This is a persistent ability.
 
-**Upgradable** : This ability grants the bonded creature the ability to more easily increase the non-mythic magical power of the legendary item. If the base magic item has a version with a higher bonus or greater version (such as a _+1 longsword_, a _+2 [light](spells/light.md#_light) steel [shield](spells/shield.md#_shield)_, a _cloak of protection +3_, an _amulet of might fists +4_, or a _minor ring of inner fortitude_), the bonded creature can improve it by performing a special ritual. She must spend a number of gold pieces equal to half the difference between the cost of the legendary item's current, non-mythic base item and the greater version she wishes to upgrade the item into. For example, she would pay 3,000 gp to upgrade a _+1 longsword_ into a _+2 longsword_.
+**Upgradable** : This ability grants the bonded creature the ability to more easily increase the non-mythic magical power of the legendary item. If the base magic item has a version with a higher bonus or greater version (such as a _+1 longsword_, a _+2 [light](spells/light#_light) steel [shield](spells/shield#_shield)_, a _cloak of protection +3_, an _amulet of might fists +4_, or a _minor ring of inner fortitude_), the bonded creature can improve it by performing a special ritual. She must spend a number of gold pieces equal to half the difference between the cost of the legendary item's current, non-mythic base item and the greater version she wishes to upgrade the item into. For example, she would pay 3,000 gp to upgrade a _+1 longsword_ into a _+2 longsword_.
 
 This ritual takes 8 hours. When it's completed, the bonded creature transmutes the item's base version into the desired version. When upgraded in this fashion, the legendary item retains all legendary item abilities it had before the transmutation.
 

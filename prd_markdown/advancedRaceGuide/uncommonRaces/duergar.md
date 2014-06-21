@@ -18,7 +18,7 @@ Duergar dwell in subterranean caverns far from the touch of light. They detest a
 
 **Stability** : Duergar receive a +4 racial bonus to their CMD against bull rush or trip attempts while on solid ground.
 
-**Spell-Like Abilities** : A duergar can use _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_ and _ [invisibility](spells/invisibility.md#_invisibility)_ once each per day, using its character level as its caster level and affecting itself only.
+**Spell-Like Abilities** : A duergar can use _ [enlarge person](spells/enlargePerson#_enlarge-person)_ and _ [invisibility](spells/invisibility#_invisibility)_ once each per day, using its character level as its caster level and affecting itself only.
 
 **Light Sensitivity** : Duergar are dazzled in areas of bright light.
 
@@ -28,11 +28,11 @@ Duergar dwell in subterranean caverns far from the touch of light. They detest a
 
 The following racial traits may be selected instead of existing duergar racial traits. Consult your GM before selecting any of these new options.
 
-**Blood Enmity** : Duergar have long warred against their dwarven cousins and the hated drow. Duergar with this racial trait receive a +1 racial bonus on attack rolls against humanoid creatures of the dwarf or elf subtypes. This racial trait replaces the _ [invisibility](spells/invisibility.md#_invisibility)_ spell-like ability.
+**Blood Enmity** : Duergar have long warred against their dwarven cousins and the hated drow. Duergar with this racial trait receive a +1 racial bonus on attack rolls against humanoid creatures of the dwarf or elf subtypes. This racial trait replaces the _ [invisibility](spells/invisibility#_invisibility)_ spell-like ability.
 
 **Daysighted** : The cruel light of the sun harms some duergar less than others. Such duergar lack the light sensitivity racial trait, but have darkvision of only 60 feet.
 
-**Deep Magic** : Duergar spellcasters labor long to overcome the inborn spell resistance held by so many of their underground foes. Duergar with this racial trait receive a +2 racial bonus on caster level checks made to overcome spell resistance and a +2 racial bonus on dispel checks. This racial trait replaces the _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_ and _ [invisibility](spells/invisibility.md#_invisibility)_ spell-like abilities.
+**Deep Magic** : Duergar spellcasters labor long to overcome the inborn spell resistance held by so many of their underground foes. Duergar with this racial trait receive a +2 racial bonus on caster level checks made to overcome spell resistance and a +2 racial bonus on dispel checks. This racial trait replaces the _ [enlarge person](spells/enlargePerson#_enlarge-person)_ and _ [invisibility](spells/invisibility#_invisibility)_ spell-like abilities.
 
 **Dwarf Traits** : Duergar can select any dwarf racial trait that replaces stability. They can select dwarf racial traits that replace the hardy dwarf racial trait by giving up duergar immunities instead.
 
@@ -54,17 +54,17 @@ The following racial archetype is available to duergar.
 
 The gray disciple contemplates the inner voice of duergar magic and the silent eternity of stone, mastering these dual mysteries and combining them to deadly effect.
 
-**Fade from Sight (Sp)** : At 4th level, as a swift action, the gray disciple can become invisible (as the _ [invisibility](spells/invisibility.md#_invisibility)_ spell) for 1 round by spending 1 _ki_ point. To use this ability, the gray disciple must already have _ [invisibility](spells/invisibility.md#_invisibility)_ as a spell-like ability. This ability replaces slow fall and still mind.
+**Fade from Sight (Sp)** : At 4th level, as a swift action, the gray disciple can become invisible (as the _ [invisibility](spells/invisibility#_invisibility)_ spell) for 1 round by spending 1 _ki_ point. To use this ability, the gray disciple must already have _ [invisibility](spells/invisibility#_invisibility)_ as a spell-like ability. This ability replaces slow fall and still mind.
 
-**Gray Heart (Sp)** : At 6th level, as a swift action, the gray disciple can enlarge himself (as the _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_ spell) for 1 minute by spending 1 _ki_ point. To use this ability, the gray disciple must already have _ [enlarge person](spells/enlargePerson.md#_enlarge-person)_ available as a spell-like ability. This ability replaces high jump and the bonus feat gained at 6th level.
+**Gray Heart (Sp)** : At 6th level, as a swift action, the gray disciple can enlarge himself (as the _ [enlarge person](spells/enlargePerson#_enlarge-person)_ spell) for 1 minute by spending 1 _ki_ point. To use this ability, the gray disciple must already have _ [enlarge person](spells/enlargePerson#_enlarge-person)_ available as a spell-like ability. This ability replaces high jump and the bonus feat gained at 6th level.
 
-**Born in Darkness (Sp)** : At 7th level, as a standard action, the gray disciple can radiate _ [darkness](spells/darkness.md#_darkness)_ (as the spell, except originating from the disciple's person) for 1 round per level by spending 1 _ki_ point. This ability replaces wholeness of body.
+**Born in Darkness (Sp)** : At 7th level, as a standard action, the gray disciple can radiate _ [darkness](spells/darkness#_darkness)_ (as the spell, except originating from the disciple's person) for 1 round per level by spending 1 _ki_ point. This ability replaces wholeness of body.
 
-**Earth Glide (Su)** : At 12th level, as a swift action, the gray disciple can spend a _ki_ point to walk through solid stone for 1 round. This functions as the earth glide universal monster ability. The gray disciple may continue earth gliding as long as he spends 1 _ki_ point every round as a swift action. If he ceases earth gliding within a solid object, he is violently ejected and takes 5d6 points of damage. The gray disciple is not harmed by damage caused to material he is earth gliding through, but a _ [stone to flesh](spells/stoneToFlesh.md#_stone-to-flesh)_ spell cast upon it causes violent ejection as described above. This ability replaces abundant step.
+**Earth Glide (Su)** : At 12th level, as a swift action, the gray disciple can spend a _ki_ point to walk through solid stone for 1 round. This functions as the earth glide universal monster ability. The gray disciple may continue earth gliding as long as he spends 1 _ki_ point every round as a swift action. If he ceases earth gliding within a solid object, he is violently ejected and takes 5d6 points of damage. The gray disciple is not harmed by damage caused to material he is earth gliding through, but a _ [stone to flesh](spells/stoneToFlesh#_stone-to-flesh)_ spell cast upon it causes violent ejection as described above. This ability replaces abundant step.
 
 **Entomb (Su):** At 15th level, a gray disciple can phase a foe into solid rock, killing it instantly. To use this ability, he expends 1 ki point as part of a bull rush or reposition combat maneuver against a creature adjacent to unworked earth or stone. If the attempt succeeds, the gray disciple pushes his foe inside the rock using his earth glide ability. If the creature succeeds at a Reflex save (DC 10 + 1/2 the gray disciple's monk level + the gray disciple's Wisdom modifier), it is ejected in the nearest open space and takes 5d6 points of damage. If it fails, it dies instantly as its body merges with the surrounding stone. Entomb is usable once per day, but a failed bull rush or reposition attempt does not count as a use of the ability. Entomb has no effect on creatures that can earth glide, are incorporeal, or can otherwise can survive merging with a solid object. This ability replaces quivering palm.
 
-**Earthen Thrall (Sp)** : At 17th level, a gray disciple can attempt to control a creature with the earth subtype once per day. This ability is treated as _ [dominate monster](spells/dominateMonster.md#_dominate-monster)_ (DC 10 + 1/2 the gray disciple's monk level + the gray disciple's Wisdom modifier), but is only effective against creatures with the earth subtype, and the gray disciple can keep only a single creature enthralled. If he attempts to control a second creature with this ability, the first creature is automatically released from domination whether or not the second attempt succeeds. This ability replaces tongue of the sun and moon and empty body.
+**Earthen Thrall (Sp)** : At 17th level, a gray disciple can attempt to control a creature with the earth subtype once per day. This ability is treated as _ [dominate monster](spells/dominateMonster#_dominate-monster)_ (DC 10 + 1/2 the gray disciple's monk level + the gray disciple's Wisdom modifier), but is only effective against creatures with the earth subtype, and the gray disciple can keep only a single creature enthralled. If he attempts to control a second creature with this ability, the first creature is automatically released from domination whether or not the second attempt succeeds. This ability replaces tongue of the sun and moon and empty body.
 
 # New Racial Rules
 
@@ -90,11 +90,11 @@ When enlarged, your speed increases.
 
 ### Lingering Invisibility
 
-You remain briefly translucent after losing _ [invisibility](spells/invisibility.md#_invisibility)_.
+You remain briefly translucent after losing _ [invisibility](spells/invisibility#_invisibility)_.
 
 **Prerequisite** : Duergar.
 
-**Benefit** : When your _ [invisibility](spells/invisibility.md#_invisibility)_ ends, you gain concealment for 1 round per minute of duration the invisibility effect had remaining (minimum 1 round). This only occurs if the invisibility is from your racial spell-like ability or a spell you cast. Effects that negate invisibility negate this concealment.
+**Benefit** : When your _ [invisibility](spells/invisibility#_invisibility)_ ends, you gain concealment for 1 round per minute of duration the invisibility effect had remaining (minimum 1 round). This only occurs if the invisibility is from your racial spell-like ability or a spell you cast. Effects that negate invisibility negate this concealment.
 
 [Duergar Poison]
 | Name | Type | Fort DC | Onset | Frequency | Effect | Cure | Cost |

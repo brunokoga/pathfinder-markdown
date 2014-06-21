@@ -6,9 +6,9 @@ Snapping TurtleCR 1/3
 
 **XP 135**
 
-N Tiny [animal](monsters/creatureTypes.md#_animal)
+N Tiny [animal](monsters/creatureTypes#_animal)
 
-**Init** –1; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +5
+**Init** –1; **Senses** low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](additionalMonsters/../skills/perception#_perception) +5
 
 Defense
 
@@ -32,11 +32,11 @@ Statistics
 
 **Base Atk** +0; **CMB** –3; **CMD** 4 (8 vs. trip)
 
-**Feats** [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
+**Feats** [Weapon Finesse](additionalMonsters/../feats#_weapon-finesse)
 
-**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +5, [Swim](additionalMonsters/../skills/swim.md#_swim) +5
+**Skills** [Perception](additionalMonsters/../skills/perception#_perception) +5, [Swim](additionalMonsters/../skills/swim#_swim) +5
 
-**SQ** [hold breath](monsters/universalMonsterRules.md#_hold-breath), shell
+**SQ** [hold breath](monsters/universalMonsterRules#_hold-breath), shell
 
 Ecology
 
@@ -67,9 +67,9 @@ Giant Snapping TurtleCR 9
 
 XP 6,400
 
-N Gargantuan [animal](monsters/creatureTypes.md#_animal)
+N Gargantuan [animal](monsters/creatureTypes#_animal)
 
-**Init** +2; **Senses** low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +21
+**Init** +2; **Senses** low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](additionalMonsters/../skills/perception#_perception) +21
 
 Defense
 
@@ -83,7 +83,7 @@ Offense
 
 **Speed** 20 ft., swim 20 ft.
 
-**Melee** bite +16 (4d6+16 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** bite +16 (4d6+16 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 20 ft.; **Reach** 15 ft.
 
@@ -95,11 +95,11 @@ Statistics
 
 **Base Atk** +8; **CMB** +23 (+27 grapple); **CMD** 31 (35 vs. trip)
 
-**Feats** [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Lunge](additionalMonsters/../feats.md#_lunge), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception)), [Toughness](additionalMonsters/../feats.md#_toughness), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite)
+**Feats** [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Iron Will](additionalMonsters/../feats#_iron-will), [Lunge](additionalMonsters/../feats#_lunge), [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Perception](additionalMonsters/../skills/perception#_perception)), [Toughness](additionalMonsters/../feats#_toughness), [Weapon Focus](additionalMonsters/../feats#_weapon-focus) (bite)
 
-**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +21, [Swim](additionalMonsters/../skills/swim.md#_swim) +19
+**Skills** [Perception](additionalMonsters/../skills/perception#_perception) +21, [Swim](additionalMonsters/../skills/swim#_swim) +19
 
-**SQ** armored stomach, [hold breath](monsters/universalMonsterRules.md#_hold-breath), shell
+**SQ** armored stomach, [hold breath](monsters/universalMonsterRules#_hold-breath), shell
 
 Ecology
 

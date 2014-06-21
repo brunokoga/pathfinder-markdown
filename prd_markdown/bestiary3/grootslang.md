@@ -8,7 +8,7 @@ XP 76,800
 
 CE Gargantuan magical beast
 
-**Init** +4; **Senses** darkvision 120 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +28
+**Init** +4; **Senses** darkvision 120 ft., [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +28
 
 Defense
 
@@ -28,7 +28,7 @@ Offense
 
 **Space** 20 ft.; **Reach** 20 ft.
 
-**Special Attacks** impaling bite, thunderous stomp (DC 28), [trample](monsters/universalMonsterRules.md#_trample) (2d6+19, DC 33)
+**Special Attacks** impaling bite, thunderous stomp (DC 28), [trample](monsters/universalMonsterRules#_trample) (2d6+19, DC 33)
 
 Statistics
 
@@ -36,14 +36,14 @@ Statistics
 
 **Base Atk** +21; **CMB** +38; **CMD** 53 (55 vs. trip)
 
-**Feats** [Awesome Blow](monsters/monsterFeats.md#_awesome-blow), [Bleeding Critical](feats.md#_bleeding-critical), [Cleave](feats.md#_cleave), [Critical Focus](feats.md#_critical-focus), [Dodge](feats.md#_dodge), [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Critical](feats.md#_improved-critical) (bite), [Mobility](feats.md#_mobility), [Multiattack](monsters/monsterFeats.md#_multiattack), [Power Attack](feats.md#_power-attack), [Spring Attack](feats.md#_spring-attack)
+**Feats** [Awesome Blow](monsters/monsterFeats#_awesome-blow), [Bleeding Critical](feats#_bleeding-critical), [Cleave](feats#_cleave), [Critical Focus](feats#_critical-focus), [Dodge](feats#_dodge), [Improved Bull Rush](feats#_improved-bull-rush), [Improved Critical](feats#_improved-critical) (bite), [Mobility](feats#_mobility), [Multiattack](monsters/monsterFeats#_multiattack), [Power Attack](feats#_power-attack), [Spring Attack](feats#_spring-attack)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +15 (+19 when jumping), [Bluff](skills/bluff.md#_bluff) +4, [Intimidate](skills/intimidate.md#_intimidate) +15, [Perception](skills/perception.md#_perception) +28, [Sense Motive](skills/senseMotive.md#_sense-motive) +13, [Stealth](skills/stealth.md#_stealth) +10,   
- [Swim](skills/swim.md#_swim) +45
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +15 (+19 when jumping), [Bluff](skills/bluff#_bluff) +4, [Intimidate](skills/intimidate#_intimidate) +15, [Perception](skills/perception#_perception) +28, [Sense Motive](skills/senseMotive#_sense-motive) +13, [Stealth](skills/stealth#_stealth) +10,   
+ [Swim](skills/swim#_swim) +45
 
 **Languages** Aquan, Common, Draconic
 
-**SQ** [aquatic](monsters/creatureTypes.md#_aquatic-subtype) elusion, [hold breath](monsters/universalMonsterRules.md#_hold-breath)
+**SQ** [aquatic](monsters/creatureTypes#_aquatic-subtype) elusion, [hold breath](monsters/universalMonsterRules#_hold-breath)
 
 Ecology
 
@@ -55,7 +55,7 @@ Ecology
 
 Special Abilities
 
-**[Aquatic](monsters/creatureTypes.md#_aquatic-subtype) Elusion (Su)** As a standard action, a grootslang that is fully immersed in [water](monsters/creatureTypes.md#_water-subtype) can teleport to another body of [water](monsters/creatureTypes.md#_water-subtype) without error. This ability functions like _ [tree stride](spells/treeStride.md#_tree-stride)_, but the grootslang can exit from any body of [water](monsters/creatureTypes.md#_water-subtype) within 1 mile so long as both the entry and exit are wide enough for the creature to enter.
+**[Aquatic](monsters/creatureTypes#_aquatic-subtype) Elusion (Su)** As a standard action, a grootslang that is fully immersed in [water](monsters/creatureTypes#_water-subtype) can teleport to another body of [water](monsters/creatureTypes#_water-subtype) without error. This ability functions like _ [tree stride](spells/treeStride#_tree-stride)_, but the grootslang can exit from any body of [water](monsters/creatureTypes#_water-subtype) within 1 mile so long as both the entry and exit are wide enough for the creature to enter.
 
 **Impaling Bite (Ex)** A grootslang can make a bite attack against any creature it is grappling with its tail. If this attack hits, it is automatically treated as a critical threat.
 

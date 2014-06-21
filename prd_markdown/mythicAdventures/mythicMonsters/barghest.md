@@ -6,9 +6,9 @@ Mythic Greater Barghest CR 8/MR 2
 
 XP 4,800
 
-LE Large outsider ( [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype), [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
+LE Large outsider ( [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [lawful](monsters/creatureTypes#_lawful-subtype), [mythic](mythicAdventures/mythicMonsters#_mythic-subtype), [shapechanger](monsters/creatureTypes#_shapechanger-subtype))
 
-**Init** +8; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +16
+**Init** +8; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +16
 
 Defense
 
@@ -24,7 +24,7 @@ Offense
 
 **Speed** 40 ft.
 
-**Melee** _ [ghost touch](magicItems/weapons.md#_weapons-ghost-touch) bite_ +15 (1d8+7/18–20/×3 plus burn and vorpal bite), 2 claws +15 (1d6+7)
+**Melee** _ [ghost touch](magicItems/weapons#_weapons-ghost-touch) bite_ +15 (1d8+7/18–20/×3 plus burn and vorpal bite), 2 claws +15 (1d6+7)
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -32,9 +32,9 @@ Offense
 
 **Spell-Like Abilities** (CL 9th; concentration +13)
 
-At will—_ [blink](spells/blink.md#_blink)_, _ [invisibility sphere](spells/invisibilitySphere.md#_invisibility-sphere)_, _ [levitate](spells/levitate.md#_levitate)_, _ [misdirection](spells/misdirection.md#_misdirection)_
+At will—_ [blink](spells/blink#_blink)_, _ [invisibility sphere](spells/invisibilitySphere#_invisibility-sphere)_, _ [levitate](spells/levitate#_levitate)_, _ [misdirection](spells/misdirection#_misdirection)_
 
-1/day—_ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 18), _ [crushing despair](spells/crushingDespair.md#_crushing-despair)_ (DC 18), _ [dimension door](spells/dimensionDoor.md#_dimension-door)_, _ [mass bull's strength](spells/bullSStrength.md#_bull-s-strength-mass)_, _mass enlarge_
+1/day—_ [charm monster](spells/charmMonster#_charm-monster)_ (DC 18), _ [crushing despair](spells/crushingDespair#_crushing-despair)_ (DC 18), _ [dimension door](spells/dimensionDoor#_dimension-door)_, _ [mass bull's strength](spells/bullSStrength#_bull-s-strength-mass)_, _mass enlarge_
 
 Statistics
 
@@ -42,13 +42,13 @@ Statistics
 
 **Base Atk** +9; **CMB** +17; **CMD** 29 (33 vs. trip)
 
-**Feats** [Combat Casting](feats.md#_combat-casting), [Combat Reflexes](feats.md#_combat-reflexes), [Great Fortitude](mythicAdventures/mythicFeats.md#_great-fortitude-mythic)M, [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes)
+**Feats** [Combat Casting](feats#_combat-casting), [Combat Reflexes](feats#_combat-reflexes), [Great Fortitude](mythicAdventures/mythicFeats#_great-fortitude-mythic)M, [Improved Initiative](feats#_improved-initiative), [Lightning Reflexes](feats#_lightning-reflexes)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +14 (+18 when jumping), [Bluff](skills/bluff.md#_bluff) +16, [Climb](skills/climb.md#_climb) +16, [Diplomacy](skills/diplomacy.md#_diplomacy) +16, [Intimidate](skills/intimidate.md#_intimidate) +16, [Perception](skills/perception.md#_perception) +16, [Sense Motive](skills/senseMotive.md#_sense-motive) +16, [Stealth](skills/stealth.md#_stealth) +10, [Survival](skills/survival.md#_survival) +16, [Swim](skills/swim.md#_swim) +16
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +14 (+18 when jumping), [Bluff](skills/bluff#_bluff) +16, [Climb](skills/climb#_climb) +16, [Diplomacy](skills/diplomacy#_diplomacy) +16, [Intimidate](skills/intimidate#_intimidate) +16, [Perception](skills/perception#_perception) +16, [Sense Motive](skills/senseMotive#_sense-motive) +16, [Stealth](skills/stealth#_stealth) +10, [Survival](skills/survival#_survival) +16, [Swim](skills/swim#_swim) +16
 
 **Languages** Common, Goblin, Infernal
 
-**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (goblin or wolf, _ [polymorph](spells/polymorph.md#_polymorph)_)
+**SQ** [change shape](monsters/universalMonsterRules#_change-shape) (goblin or wolf, _ [polymorph](spells/polymorph#_polymorph)_)
 
 Ecology
 
@@ -70,7 +70,7 @@ A mythic greater barghest is a near-divine offspring of one of the barghest gods
 
 ## Mythic Barghest
 
-Only exceptional barghests that feed on mythic humanoids can become mythic greater barghests. To create a mythic barghest, add the [agile mythic simple template](mythicAdventures/mythicMonsters.md#_agile-mythic) to a non-mythic [barghest](monsters/barghest.md).
+Only exceptional barghests that feed on mythic humanoids can become mythic greater barghests. To create a mythic barghest, add the [agile mythic simple template](mythicAdventures/mythicMonsters#_agile-mythic) to a non-mythic [barghest](monsters/barghest).
 
 If the mythic barghest uses its feed ability on a mythic humanoid's corpse, it gains a mythic growth point instead of a growth point. If a mythic barghest reaches 4 growth points, it transforms into a greater barghest with the agile mythic simple template and loses its mythic growth points. If a mythic barghest gains 4 mythic growth points, it transforms into a mythic greater barghest and loses the agile mythic simple template.
 

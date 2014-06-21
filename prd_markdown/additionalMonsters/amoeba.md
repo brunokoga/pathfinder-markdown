@@ -6,9 +6,9 @@ Amoeba, GiantCR 1
 
 **XP 400**
 
-N Small [ooze](monsters/creatureTypes.md#_ooze) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
+N Small [ooze](monsters/creatureTypes#_ooze) ( [aquatic](monsters/creatureTypes#_aquatic-subtype))
 
-**Init** –5; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 30 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) –5
+**Init** –5; **Senses** [blindsight](monsters/universalMonsterRules#_blindsight) 30 ft.; [Perception](additionalMonsters/../skills/perception#_perception) –5
 
 Defense
 
@@ -18,17 +18,17 @@ Defense
 
 **Fort** +3, **Ref** –5, **Will** –5
 
-**Defensive Abilities** [ooze](monsters/creatureTypes.md#_ooze) traits
+**Defensive Abilities** [ooze](monsters/creatureTypes#_ooze) traits
 
 Offense
 
 **Speed** 10 ft., climb 10 ft., swim 20 ft.
 
-**Melee** slam +3 (1d3+1 plus 1d3 acid and [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** slam +3 (1d3+1 plus 1d3 acid and [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 5 ft.; **Reach** 5 ft.
 
-**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) (1d3+1 plus 1d3 acid)
+**Special Attacks** [constrict](monsters/universalMonsterRules#_constrict) (1d3+1 plus 1d3 acid)
 
 Statistics
 
@@ -36,7 +36,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +1 (+5 grapple); **CMD** 6 (can't be tripped)
 
-**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +9, [Swim](additionalMonsters/../skills/swim.md#_swim) +9
+**Skills** [Climb](additionalMonsters/../skills/climb#_climb) +9, [Swim](additionalMonsters/../skills/swim#_swim) +9
 
 **SQ** amphibious
 
@@ -58,9 +58,9 @@ Amoeba SwarmCR 1
 
 **XP 400**
 
-N Fine [ooze](monsters/creatureTypes.md#_ooze) ( [swarm](monsters/creatureTypes.md#_swarm-subtype))
+N Fine [ooze](monsters/creatureTypes#_ooze) ( [swarm](monsters/creatureTypes#_swarm-subtype))
 
-**Init** –5; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 30 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) –5
+**Init** –5; **Senses** [blindsight](monsters/universalMonsterRules#_blindsight) 30 ft.; [Perception](additionalMonsters/../skills/perception#_perception) –5
 
 Defense
 
@@ -70,18 +70,18 @@ Defense
 
 **Fort** +0, **Ref** –5, **Will** –5
 
-**Defensive Abilities** [ooze](monsters/creatureTypes.md#_ooze) and [swarm](monsters/creatureTypes.md#_swarm-subtype) traits; **Immune**   
+**Defensive Abilities** [ooze](monsters/creatureTypes#_ooze) and [swarm](monsters/creatureTypes#_swarm-subtype) traits; **Immune**   
 weapon damage
 
 Offense
 
 **Speed** 10 ft., climb 10 ft., swim 20 ft.
 
-**Melee** [swarm](monsters/creatureTypes.md#_swarm-subtype) (1d6 acid plus [distraction](monsters/universalMonsterRules.md#_distraction))
+**Melee** [swarm](monsters/creatureTypes#_swarm-subtype) (1d6 acid plus [distraction](monsters/universalMonsterRules#_distraction))
 
 **Space** 10 ft.; **Reach** 0 ft.
 
-**Special Attacks** [distraction](monsters/universalMonsterRules.md#_distraction) (DC 11)
+**Special Attacks** [distraction](monsters/universalMonsterRules#_distraction) (DC 11)
 
 Statistics
 
@@ -89,7 +89,7 @@ Statistics
 
 **Base Atk** +1; **CMB** — **CMD** —
 
-**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +3, [Swim](additionalMonsters/../skills/swim.md#_swim) +3
+**Skills** [Climb](additionalMonsters/../skills/climb#_climb) +3, [Swim](additionalMonsters/../skills/swim#_swim) +3
 
 **SQ** amphibious
 

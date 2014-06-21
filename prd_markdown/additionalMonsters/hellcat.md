@@ -6,9 +6,9 @@ This eerie beast appears to be the animated skeleton of a huge fanged cat, its b
 
 **XP 3,200**
 
-LE Large [outsider](monsters/creatureTypes.md#_outsider) ( [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype))
+LE Large [outsider](monsters/creatureTypes#_outsider) ( [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [lawful](monsters/creatureTypes#_lawful-subtype))
 
-**Init** +9; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +18
+**Init** +9; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules#_scent); [Perception](additionalMonsters/../skills/perception#_perception) +18
 
 Defense
 
@@ -18,17 +18,17 @@ Defense
 
 **Fort** +10, **Ref** +13, **Will** +5
 
-**Defensive Abilities** invisible in light; **DR** 5/good; **Resist** [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 18
+**Defensive Abilities** invisible in light; **DR** 5/good; **Resist** [fire](monsters/creatureTypes#_fire-subtype) 10; **SR** 18
 
 Offense
 
 **Speed** 40 ft.
 
-**Melee** bite +13 (1d8+5), 2 claws +13 (1d6+5/19–20 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** bite +13 (1d8+5), 2 claws +13 (1d6+5/19–20 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [pounce](monsters/universalMonsterRules.md#_pounce), [rake](monsters/universalMonsterRules.md#_rake) (2 claws +13, 1d6+5/19–20)
+**Special Attacks** [pounce](monsters/universalMonsterRules#_pounce), [rake](monsters/universalMonsterRules#_rake) (2 claws +13, 1d6+5/19–20)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +9; **CMB** +15 (+19 grapple); **CMD** 31 (35 vs. trip)
 
-**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Dodge](additionalMonsters/../feats.md#_dodge), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Mobility](additionalMonsters/../feats.md#_mobility)
+**Feats** [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Dodge](additionalMonsters/../feats#_dodge), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Mobility](additionalMonsters/../feats#_mobility)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +17 (+21 jump), [Climb](additionalMonsters/../skills/climb.md#_climb) +17, [Perception](additionalMonsters/../skills/perception.md#_perception) +18, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +17, [Survival](additionalMonsters/../skills/survival.md#_survival) +14, [Swim](additionalMonsters/../skills/swim.md#_swim) +17; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +17 (+21 jump), [Climb](additionalMonsters/../skills/climb#_climb) +17, [Perception](additionalMonsters/../skills/perception#_perception) +18, [Stealth](additionalMonsters/../skills/stealth#_stealth) +17, [Survival](additionalMonsters/../skills/survival#_survival) +14, [Swim](additionalMonsters/../skills/swim#_swim) +17; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception#_perception), +4 [Stealth](additionalMonsters/../skills/stealth#_stealth)
 
 **Languages** Infernal (can't speak); telepathy 100 ft.
 
@@ -52,11 +52,11 @@ Ecology
 
 Special Abilities
 
-**Invisible in Light (Su)** In bright light, a hellcat has [natural invisibility](monsters/universalMonsterRules.md#_natural-invisibility-(ex-or-su)). In normal light, a hellcat has partial concealment (20% miss chance). In dim light, it has no concealment. In darkness, a hellcat's flickering glow limits it to partial concealment, unless the darkness is magical in nature.
+**Invisible in Light (Su)** In bright light, a hellcat has [natural invisibility](monsters/universalMonsterRules#_natural-invisibility-(ex-or-su)). In normal light, a hellcat has partial concealment (20% miss chance). In dim light, it has no concealment. In darkness, a hellcat's flickering glow limits it to partial concealment, unless the darkness is magical in nature.
 
 The hellcat is a devious predator native to the fiery pits of Hell. While the hellcat is not a devil itself, it often acts as a guardian or mount for devils. Some might assume that hellcats serve devils as pets, but since hellcats are as intelligent as humans, they take offense to the idea that they might be anyone's pet.
 
-On its own, a hellcat prefers to spend its time hunting and stalking prey. While the hellcat, as an outsider, need not eat to survive, it does enjoy eating for pleasure, often leaving significant portions of its kills behind for others to find. A hellcat that enters into an alliance with a devil is often used as a sort of hunter as a result. Human mortals can use spells like _ [planar ally](additionalMonsters/../spells/planarAlly.md#_planar-ally)_ or _ [planar binding](additionalMonsters/../spells/planarBinding.md#_planar-binding)_ to conjure hellcats for similar purposes. Those who do so are well advised to treat the hellcat with respect, for should any master prove too haughty with his hellcat or treat it as a dumb animal, the hellcat nurtures a lasting grudge. In such instances, the hellcat goes to great lengths to plan and coordinate revenge on the spellcaster, hoping to satisfy its own pride and to provide a lesson and example to all those who would deal with their kind.
+On its own, a hellcat prefers to spend its time hunting and stalking prey. While the hellcat, as an outsider, need not eat to survive, it does enjoy eating for pleasure, often leaving significant portions of its kills behind for others to find. A hellcat that enters into an alliance with a devil is often used as a sort of hunter as a result. Human mortals can use spells like _ [planar ally](additionalMonsters/../spells/planarAlly#_planar-ally)_ or _ [planar binding](additionalMonsters/../spells/planarBinding#_planar-binding)_ to conjure hellcats for similar purposes. Those who do so are well advised to treat the hellcat with respect, for should any master prove too haughty with his hellcat or treat it as a dumb animal, the hellcat nurtures a lasting grudge. In such instances, the hellcat goes to great lengths to plan and coordinate revenge on the spellcaster, hoping to satisfy its own pride and to provide a lesson and example to all those who would deal with their kind.
 
 Though incapable of speech themselves, hellcats understand the Infernal tongue of their home plane, and can communicate by telepathy with any creature capable of speech. Hellcats are quick to retreat if they are clearly overmatched or up against foes they cannot reach, but they never forget prey that escapes them, and will often track potential victims and try to lead allies (including other hellcats) to them in order to make coordinated attacks or ambushes.
 

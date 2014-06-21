@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Fortitude](../combat.md#_fortitude) partial; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Fortitude](../combat#_fortitude) partial; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-You can attempt to slay any one living creature. When you cast this spell, your hand seethes with eerie dark fire. You must succeed on a melee touch attack to touch the target. The target takes 12d6 points of damage + 1 point per caster level. If the target's [Fortitude](../combat.md#_fortitude) saving throw succeeds, it instead takes 3d6 points of damage + 1 point per caster level. The subject might die from damage even if it succeeds on its saving throw.
+You can attempt to slay any one living creature. When you cast this spell, your hand seethes with eerie dark fire. You must succeed on a melee touch attack to touch the target. The target takes 12d6 points of damage + 1 point per caster level. If the target's [Fortitude](../combat#_fortitude) saving throw succeeds, it instead takes 3d6 points of damage + 1 point per caster level. The subject might die from damage even if it succeeds on its saving throw.
 

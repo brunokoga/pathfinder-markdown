@@ -6,9 +6,9 @@ Perched on the prickly legs of a cricket, this tiny creature has gossamer wings 
 
 **XP 400**
 
-NG Tiny [fey](monsters/creatureTypes.md#_fey)
+NG Tiny [fey](monsters/creatureTypes#_fey)
 
-**Init** +4; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +5
+**Init** +4; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +5
 
 Defense
 
@@ -34,7 +34,7 @@ Offense
 
 **Spell-Like Abilities** (CL 9th; concentration +11)
 
-3/day—_ [disguise self](additionalMonsters/../spells/disguiseSelf.md#_disguise-self)_, _ [entangle](additionalMonsters/../spells/entangle.md#_entangle)_ (DC 13), _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_ (self only), _ [pyrotechnics](additionalMonsters/../spells/pyrotechnics.md#_pyrotechnics)_ (DC 14)
+3/day—_ [disguise self](additionalMonsters/../spells/disguiseSelf#_disguise-self)_, _ [entangle](additionalMonsters/../spells/entangle#_entangle)_ (DC 13), _ [invisibility](additionalMonsters/../spells/invisibility#_invisibility)_ (self only), _ [pyrotechnics](additionalMonsters/../spells/pyrotechnics#_pyrotechnics)_ (DC 14)
 
 Statistics
 
@@ -42,9 +42,9 @@ Statistics
 
 **Base Atk** +0; **CMB** +2; **CMD** 10 (16 vs. trip)
 
-**Feats** [Dodge](additionalMonsters/../feats.md#_dodge)
+**Feats** [Dodge](additionalMonsters/../feats#_dodge)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +8 (+12 jump), [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +8, [Fly](additionalMonsters/../skills/fly.md#_fly) +12, [Perception](additionalMonsters/../skills/perception.md#_perception) +5, [Perform](additionalMonsters/../skills/perform.md#_perform) (string) +6, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +16; **Racial Modifiers** +4 Acrobatics when jumping
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +8 (+12 jump), [Escape Artist](additionalMonsters/../skills/escapeArtist#_escape-artist) +8, [Fly](additionalMonsters/../skills/fly#_fly) +12, [Perception](additionalMonsters/../skills/perception#_perception) +5, [Perform](additionalMonsters/../skills/perform#_perform) (string) +6, [Stealth](additionalMonsters/../skills/stealth#_stealth) +16; **Racial Modifiers** +4 Acrobatics when jumping
 
 **Languages** Common, Sylvan
 

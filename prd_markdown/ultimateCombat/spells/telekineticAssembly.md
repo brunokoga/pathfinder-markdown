@@ -14,5 +14,5 @@ Telekinetic Assembly
 
 **Saving throw** none **Spell Resistance** no
 
-You assemble a siege engine, using up to one fewer worker per two caster levels you possess. You can do without one additional worker if you have any ranks in [Knowledge](skills/knowledge.md#_knowledge) (engineering), plus one additional worker per 5 ranks you have in that skill. If your caster level combined with [Knowledge](skills/knowledge.md#_knowledge) (engineering) fails to eliminate the need for workers, this spell fails.
+You assemble a siege engine, using up to one fewer worker per two caster levels you possess. You can do without one additional worker if you have any ranks in [Knowledge](skills/knowledge#_knowledge) (engineering), plus one additional worker per 5 ranks you have in that skill. If your caster level combined with [Knowledge](skills/knowledge#_knowledge) (engineering) fails to eliminate the need for workers, this spell fails.
 

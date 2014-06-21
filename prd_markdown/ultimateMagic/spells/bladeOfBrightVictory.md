@@ -14,5 +14,5 @@ Blade of Bright Victory
 
 **Saving Throw** Will negates (harmless); **Spell Resistance** no
 
-You strengthen the bond between your divine bond weapon and its celestial spirit. The weapon gains the _ [ghost touch](magicItems/weapons.md#_weapons-ghost-touch)_ property. You may change your weapon's damage type (bludgeoning, piercing, slashing) as a swift action. You gain a sacred bonus to your CMD against disarm and sunder attacks directed at your bonded weapon; this bonus is equal to half your caster level.
+You strengthen the bond between your divine bond weapon and its celestial spirit. The weapon gains the _ [ghost touch](magicItems/weapons#_weapons-ghost-touch)_ property. You may change your weapon's damage type (bludgeoning, piercing, slashing) as a swift action. You gain a sacred bonus to your CMD against disarm and sunder attacks directed at your bonded weapon; this bonus is equal to half your caster level.
 

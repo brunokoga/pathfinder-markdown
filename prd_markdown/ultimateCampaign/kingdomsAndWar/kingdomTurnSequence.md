@@ -14,7 +14,7 @@ These phases are always undertaken in the above order. Many steps allow you to p
 
 ## Who Rolls the Kingdom Check?
 
-Running a kingdom is more fun if all the players are involved and each is responsible for making some of the kingdom checks. Who makes each roll depends on the players in your group and what roles they want to play. Some players may not want to make any of these rolls. You may want to start with the following die roll responsibilities and modify them to suit your kingdom and the other players. Anything marked as an optional rule is described in the [optional kingdom-building rules](ultimateCampaign/kingdomsAndWar/optionalKingdomRules.md).
+Running a kingdom is more fun if all the players are involved and each is responsible for making some of the kingdom checks. Who makes each roll depends on the players in your group and what roles they want to play. Some players may not want to make any of these rolls. You may want to start with the following die roll responsibilities and modify them to suit your kingdom and the other players. Anything marked as an optional rule is described in the [optional kingdom-building rules](ultimateCampaign/kingdomsAndWar/optionalKingdomRules).
 
 **Ruler** : Loyalty checks, any checks or edicts not covered by other rulers
 
@@ -54,15 +54,15 @@ During the Upkeep phase, you adjust your kingdom's scores based on what's happen
 
 **Step 3—Fill Vacant Magic Item Slots** : If any of your settlement districts have buildings that produce magic items (such as a Caster's Tower or Herbalist) with vacant magic item slots, there is a chance of those slots filling with new items (see the Magic Items in Settlements section).
 
-**Step 4—Modify Unrest** : Unrest increases by 1 for each kingdom attribute (Economy, Loyalty, or Stability) that is a negative number. The Royal [Enforcer](advanced/advancedFeats.md#enforcer) may attempt to reduce Unrest during this step. If the kingdom's Unrest is 11 or higher, it loses 1 hex (the leaders choose which hex). If your kingdom's Unrest ever reaches 20, the kingdom falls into anarchy. While in anarchy, your kingdom can take no action and treats all Economy, Loyalty, and Stability check results as 0. Restoring order once a kingdom falls into anarchy typically requires a number of quests and lengthy adventures by you and the other would-be leaders to restore the people's faith in you.
+**Step 4—Modify Unrest** : Unrest increases by 1 for each kingdom attribute (Economy, Loyalty, or Stability) that is a negative number. The Royal [Enforcer](advanced/advancedFeats#enforcer) may attempt to reduce Unrest during this step. If the kingdom's Unrest is 11 or higher, it loses 1 hex (the leaders choose which hex). If your kingdom's Unrest ever reaches 20, the kingdom falls into anarchy. While in anarchy, your kingdom can take no action and treats all Economy, Loyalty, and Stability check results as 0. Restoring order once a kingdom falls into anarchy typically requires a number of quests and lengthy adventures by you and the other would-be leaders to restore the people's faith in you.
 
-_Example_: Jessica is the Ruler of a kingdom with a Size of 30 and a Control DC of 60. Based on leadership role bonuses, kingdom alignment bonuses, and buildings in her settlements, the kingdom's Economy is 52, its Loyalty is 45, and its Stability is 56. Its Unrest is currently 5, its Consumption is 5, and the Treasury has 12 BP. In Step 1 of the Upkeep phase, Adam, the Warden, attempts a Stability check to determine the kingdom's stability. Adam rolls a 19, adds the kingdom's Stability (56), and subtracts its Unrest (5), for a total of 70; that's a success, so Unrest decreases by 1. In Step 2, the kingdom pays 5 BP for Consumption. None of the kingdom's magic item slots are empty, so they skip Step 3. In Step 4, none of the attributes are negative, so Unrest doesn't increase. Mark, the Royal [Enforcer](advanced/advancedFeats.md#enforcer), doesn't want to risk reducing the kingdom's Loyalty, so he doesn't use his leadership role to reduce Unrest. At the end of this phase, the kingdom has Economy 52, Loyalty 45, Stability 56, Unrest 4, Consumption 5, and Treasury 7 BP.
+_Example_: Jessica is the Ruler of a kingdom with a Size of 30 and a Control DC of 60. Based on leadership role bonuses, kingdom alignment bonuses, and buildings in her settlements, the kingdom's Economy is 52, its Loyalty is 45, and its Stability is 56. Its Unrest is currently 5, its Consumption is 5, and the Treasury has 12 BP. In Step 1 of the Upkeep phase, Adam, the Warden, attempts a Stability check to determine the kingdom's stability. Adam rolls a 19, adds the kingdom's Stability (56), and subtracts its Unrest (5), for a total of 70; that's a success, so Unrest decreases by 1. In Step 2, the kingdom pays 5 BP for Consumption. None of the kingdom's magic item slots are empty, so they skip Step 3. In Step 4, none of the attributes are negative, so Unrest doesn't increase. Mark, the Royal [Enforcer](advanced/advancedFeats#enforcer), doesn't want to risk reducing the kingdom's Loyalty, so he doesn't use his leadership role to reduce Unrest. At the end of this phase, the kingdom has Economy 52, Loyalty 45, Stability 56, Unrest 4, Consumption 5, and Treasury 7 BP.
 
 ## Edict Phase
 
 The Edict phase is when you make proclamations on expansion, improvements, taxation, holidays, and so on.
 
-**Step 1—Assign Leadership** : Assign PCs or NPCs to any vacant leadership roles or change the roles being filled by particular PCs or closely allied NPCs (see [Leadership Roles](ultimateCampaign/kingdomsAndWar/kingdomBuilding.md#_leadership-roles)).
+**Step 1—Assign Leadership** : Assign PCs or NPCs to any vacant leadership roles or change the roles being filled by particular PCs or closely allied NPCs (see [Leadership Roles](ultimateCampaign/kingdomsAndWar/kingdomBuilding#_leadership-roles)).
 
 **Step 2—Claim and Abandon Hexes** : For your kingdom to grow, you must claim additional hexes. You can only claim a hex that is adjacent to at least 1 other hex in your kingdom. Before you can claim it, the hex must first be explored, then cleared of monsters and dangerous hazards (see Steps 2 and 3 of Founding a Settlement). Then, to claim the hex, spend 1 BP; this establishes the hex as part of your kingdom and increases your kingdom's Size by 1. The Improvement Edicts table tells you the maximum number of hexes you can claim per turn.
 
@@ -78,7 +78,7 @@ The Improvement Edicts table tells you the maximum number of terrain improvement
 
 You may construct a building in any settlement in your kingdom. When a building is completed, apply its modifiers to your kingdom sheet. The Improvement Edicts table tells you the maximum number of buildings you can construct in your kingdom per turn. The first House, Mansion, Noble Villa, or Tenement your kingdom builds each turn does not count against that limit.
 
-**Step 6—Create Army Units** : You may create, expand, equip, or repair army units (see [Mass Combat](ultimateCampaign/massCombat.md)).
+**Step 6—Create Army Units** : You may create, expand, equip, or repair army units (see [Mass Combat](ultimateCampaign/massCombat)).
 
 **Step 7—Issue Edicts** : Select or adjust your edict levels (see Edicts).
 
@@ -195,7 +195,7 @@ If your kingdom is reduced to 0 hexes—whether through Unrest, a natural disast
 
 Terrain improvements are changes to a hex that improve the land for your kingdom's use, such as cultivating fields, digging mines, and clearing forests for lumber. The following list describes common improvements. An improvement marked with an asterisk (\*) can share the same hex as other improvements.
 
-Some terrain improvements affect a settlement's Defense, which is used in the [mass combat rules](ultimateCampaign/kingdomsAndWar/massCombat.md).
+Some terrain improvements affect a settlement's Defense, which is used in the [mass combat rules](ultimateCampaign/kingdomsAndWar/massCombat).
 
 **Terrain** : This indicates what kind of hex you can build this terrain improvement in.
 
@@ -351,13 +351,13 @@ Most settlements only have 1 district. If your District Grid is full and you wan
 
 The placement of buildings in your district is up to you—you can start in the center of the district and build outward, or start at the edge and build toward the center. Some buildings (such as the Guildhall) take up more than 1 lot on the grid. You can't divide up these larger structures, though you can place them so they cover a street. (Streets do not count as lots.)
 
-**Construction** : Construction is completed in the same turn you spend BP for the building, no matter what its size is. A building's benefits apply to your kingdom immediately. At the GM's discretion, construction magic (such as _lyre of __building_, _ [fabricate](spells/fabricate.md#__ fabricate)_, or _ [wall of stone](spells/wallOfStone.md#__wall-of-stone)_) can reduce a single building's BP cost by 2 (minimum 0). This is a one-time reduction per turn, regardless of the amount of magic used.
+**Construction** : Construction is completed in the same turn you spend BP for the building, no matter what its size is. A building's benefits apply to your kingdom immediately. At the GM's discretion, construction magic (such as _lyre of __building_, _ [fabricate](spells/fabricate#__ fabricate)_, or _ [wall of stone](spells/wallOfStone#__wall-of-stone)_) can reduce a single building's BP cost by 2 (minimum 0). This is a one-time reduction per turn, regardless of the amount of magic used.
 
 **Population** : A settlement's population is approximately equal to the number of completed lots within its districts × 250. A grid that has all 36 lots filled with buildings has a population of approximately 9,000.
 
 **Base Value** : The base value of a settlement is used to determine what magic items may easily be purchased there. There is a 75% chance that any item of that value or lower can be found for sale in the settlement with little effort. The base value of a new settlement is 0 gp. Certain buildings (such as a Market or Tavern) increase a settlement's base value. A settlement's base value can never increase above the values listed in Table 4—5: Settlement Size and Base Value (except under special circumstances decided by the GM).
 
-**Defense** : A settlement's Defense is used with the [mass combat rules](ultimateCampaign/kingdomsAndWar/massCombat.md). It otherwise has no effect unless the settlement is attacked. You can increase a settlement's Defense by building certain structures (such as City Walls).
+**Defense** : A settlement's Defense is used with the [mass combat rules](ultimateCampaign/kingdomsAndWar/massCombat). It otherwise has no effect unless the settlement is attacked. You can increase a settlement's Defense by building certain structures (such as City Walls).
 
 [Settlement Size and Base Value]
 | Population | Settlement Size | Base Value |
@@ -443,7 +443,7 @@ Buildings are described in the following format.
 
 **Lots** : How many lots the building fills.
 
-**Kingdom** : Building modifiers to Economy, Loyalty, and Stability stack, affect your entire kingdom, and are ongoing from turn to turn. Modifiers to Unrest occur once when the building is completed. This category also lists any bonuses to Fame (see [Fame and Infamy](ultimateCampaign/kingdomsAndWar/optionalKingdomRules.md#_fame-and-infamy)) from having the building.
+**Kingdom** : Building modifiers to Economy, Loyalty, and Stability stack, affect your entire kingdom, and are ongoing from turn to turn. Modifiers to Unrest occur once when the building is completed. This category also lists any bonuses to Fame (see [Fame and Infamy](ultimateCampaign/kingdomsAndWar/optionalKingdomRules#_fame-and-infamy)) from having the building.
 
 **Discount** : Some buildings halve the cost of constructing a related type of building in the same settlement. This cost reduction applies only to the first constructed building of the types listed in this line. For example, an Academy halves the cost of your next Library in that settlement; if you build a second Library in that settlement, you pay the normal cost for it. If 2 buildings give the same discount, only one discount applies per new building, but you may construct 2 buildings at the discounted cost. For example, Market and Theater both halve the cost of an Inn; if your settlement has a Market and a Theater, you may construct 2 Inns at half cost (the Market discounts one, and the Theater discounts the other).
 
@@ -475,7 +475,7 @@ Academy52 BP, 2 lots
 
 **Magic Items** 3 minor scrolls or wondrous items, 2 medium scrolls or wondrous items
 
-**Settlement** Lore +2, Productivity +1, Society +2; increase Lore bonus by 2 for questions relating to one [Knowledge](skills/knowledge.md#_knowledge) or [Profession](skills/profession.md#_profession) skill
+**Settlement** Lore +2, Productivity +1, Society +2; increase Lore bonus by 2 for questions relating to one [Knowledge](skills/knowledge#_knowledge) or [Profession](skills/profession#_profession) skill
 
 An institution of higher learning.
 
@@ -823,7 +823,7 @@ Magical Academy58 BP, 2 lots
 
 **Magic Items** 3 minor potions, scrolls, or wondrous items; 1 medium potion, scroll, or wondrous item
 
-**Settlement** Lore +2, Society +1; increase Lore bonus by 2 for questions relating to [Knowledge](skills/knowledge.md#_knowledge) (arcana)
+**Settlement** Lore +2, Society +1; increase Lore bonus by 2 for questions relating to [Knowledge](skills/knowledge#_knowledge) (arcana)
 
 An institution for training students in spellcasting, magic item crafting, and various arcane arts.
 
@@ -835,7 +835,7 @@ Magical Streetlamps5 BP
 
 **Settlement** Crime —1
 
-_ [Continual flame](spells/continualFlame.md#__continual-flame)_ lamps that illuminate the lot.
+_ [Continual flame](spells/continualFlame#__continual-flame)_ lamps that illuminate the lot.
 
 Mansion10 BP, 1 lot
 
@@ -879,7 +879,7 @@ Military Academy36 BP, 2 lots
 
 **Limit** 1 per settlement
 
-**Special** Armies and commanders recruited at the settlement gain one bonus tactic (see [Army Tactics](ultimateCampaign/kingdomsAndWar/massCombat.md#_army-tactics))
+**Special** Armies and commanders recruited at the settlement gain one bonus tactic (see [Army Tactics](ultimateCampaign/kingdomsAndWar/massCombat#_army-tactics))
 
 **Magic Items** 1 minor armor, shield, or weapon; 1 medium armor, shield, or weapon
 
@@ -933,7 +933,7 @@ Museum30 BP, 2 lots
 
 **Kingdom** Economy +1, Loyalty +1; Fame +1
 
-**Settlement** Lore +2, Society +1; increase Lore bonus by 2 for questions relating to [Knowledge](skills/knowledge.md#_knowledge) (history); apply Lore bonus on [Appraise](skills/appraise.md#_appraise) checks regarding art objects
+**Settlement** Lore +2, Society +1; increase Lore bonus by 2 for questions relating to [Knowledge](skills/knowledge#_knowledge) (history); apply Lore bonus on [Appraise](skills/appraise#_appraise) checks regarding art objects
 
 A place to display art and artifacts both modern and historical. The GM may allow the kingdom leaders to display a valuable item (such as a magic item or bejeweled statue) in the museum, increasing Fame during this display by 1 for every 10,000 gp of the item's price (maximum +5 Fame), and by an additional 1 if the item is significant to the kingdom's history.
 
@@ -971,7 +971,7 @@ Palace108 BP, 4 lots
 
 **Discount** Mansion, Mint, Noble Villa
 
-**Special** Base value +1,000 gp; you may make two [special edicts](ultimateCampaign/kingdomsAndWar/optionalKingdomRules.md#_special-edicts) per turn, but take a —2 penalty on kingdom checks associated with each special edict
+**Special** Base value +1,000 gp; you may make two [special edicts](ultimateCampaign/kingdomsAndWar/optionalKingdomRules#_special-edicts) per turn, but take a —2 penalty on kingdom checks associated with each special edict
 
 **Settlement** Law +2
 
@@ -1157,7 +1157,7 @@ University78 BP, 4 lots
 
 **Upgrade From** Academy
 
-**Magic Items** 4 minor scrolls or wondrous items, 2 medium scrolls or wondrous items  **Settlement** Lore +4, Society +3; increase Lore bonus by 4 for questions relating to one [Knowledge](skills/knowledge.md#_knowledge) or [Profession](skills/profession.md#_profession) skill
+**Magic Items** 4 minor scrolls or wondrous items, 2 medium scrolls or wondrous items  **Settlement** Lore +4, Society +3; increase Lore bonus by 4 for questions relating to one [Knowledge](skills/knowledge#_knowledge) or [Profession](skills/profession#_profession) skill
 
 An institution of higher learning, focusing mainly on mundane subjects but dabbling in magical theory.
 
@@ -1209,7 +1209,7 @@ Some events impact the whole kingdom, while others are centered on a specific se
 
 **Localized Events** : Some events are listed as "settlement" or "hex." The effect of these events are localized to a single settlement or hex. Randomly select a settlement or hex for the location of that event. Some events (such as a feud) could be confined to a settlement or start in one settlement and spread to affect the entire kingdom, depending on whether they're rolled on one of the Kingdom Events tables or one of the Settlement Events tables.
 
-**Settlement Modifiers** : Some events adjust settlement modifiers (Crime, Lore, etc.). If an event is localized to 1 settlement, its settlement modifier adjustments apply only to that settlement; if it's localized to a hex, it affects only settlements in that hex. If the GM is using settlement modifiers for the entire kingdom (see [Expanding Settlement Modifiers](ultimateCampaign/kingdomsAndWar/optionalKingdomRules.md#_expanding-settlement-modifiers)) and the event is not localized, its adjustments apply to the final modifier for the entire kingdom. For example, the new subjects event increases Society and Stability for the entire kingdom by 1.
+**Settlement Modifiers** : Some events adjust settlement modifiers (Crime, Lore, etc.). If an event is localized to 1 settlement, its settlement modifier adjustments apply only to that settlement; if it's localized to a hex, it affects only settlements in that hex. If the GM is using settlement modifiers for the entire kingdom (see [Expanding Settlement Modifiers](ultimateCampaign/kingdomsAndWar/optionalKingdomRules#_expanding-settlement-modifiers)) and the event is not localized, its adjustments apply to the final modifier for the entire kingdom. For example, the new subjects event increases Society and Stability for the entire kingdom by 1.
 
 **Hiring Adventurers** : Once per Event phase, you can hire NPC adventurers to help deal with an event, gaining a bonus on one Economy, Loyalty, or Stability check made as part of that event. Adventurers of levels 1—2 grant a +2 bonus on the check and cost 4 BP; adventurers of levels 3—5 grant a +5 bonus on the check and cost 8 BP; adventurers of level 6+ (but never higher than your APL) grant a +10 bonus on the check and cost 16 BP.
 
@@ -1302,7 +1302,7 @@ Some events impact the whole kingdom, while others are centered on a specific se
 
 **Cult Activity (Settlement, Continuous)** : A religious cult of an alignment opposed to the kingdom's alignment begins kidnapping, converting, or even publicly sacrificing citizens. Attempt a Loyalty check and a Stability check. If both succeed, the cult is disbanded before your kingdom takes any penalties from the event. For each of these checks you fail, Unrest increases by 1 and Productivity, Society, and Stability decrease by 1. If both checks fail, the event continues in the next Event phase.
 
-**Diplomatic Overture** : A nearby kingdom sends an ambassador to you to negotiate an embassy (01—60), treaty (61—90), or alliance (91—100), as if using a diplomatic edict (see [Special Edicts](ultimateCampaign/kingdomsAndWar/optionalKingdomRules.md#_special-edicts)). If the GM doesn't have an appropriate kingdom in mind when this event occurs, determine the kingdom's alignment randomly; it may be hostile or friendly. The ambassador bears 1d4 BP worth of gifts for your kingdom.
+**Diplomatic Overture** : A nearby kingdom sends an ambassador to you to negotiate an embassy (01—60), treaty (61—90), or alliance (91—100), as if using a diplomatic edict (see [Special Edicts](ultimateCampaign/kingdomsAndWar/optionalKingdomRules#_special-edicts)). If the GM doesn't have an appropriate kingdom in mind when this event occurs, determine the kingdom's alignment randomly; it may be hostile or friendly. The ambassador bears 1d4 BP worth of gifts for your kingdom.
 
 **Discovery (Settlement)** : Scholars unearth a bit of ancient lore or devise important new research of their own. Fame increases by 1 and Lore increases by 1d4.
 
@@ -1346,7 +1346,7 @@ Some events impact the whole kingdom, while others are centered on a specific se
 
 **Plague (Hex or Settlement, Continuous)** : A deadly sickness strikes the target hex or settlement. You cannot construct terrain improvements or buildings there while plague persists. Attempt two Stability checks, each with a penalty equal to the number of Brothels, Foreign Quarters, Highways, Inns, Piers, Roads, Stables, Stockyards, Tenements, and Waterfronts in the hex, and a bonus equal to the number of Alchemists, Cathedrals, Herbalists, Hospitals, and Temples in the hex. If you succeed at both checks, the event ends, but Stability decreases by 2 and Treasury by 1d3 BP. If you fail at one check, Stability decreases by 4, Treasury decreases by 1d6 BP, and Unrest increases by 1d3. If you fail at both, Stability decreases by 4, Treasury decreases by 1d6 BP, Unrest increases by 1d6, and in the next Event phase the plague spreads to an adjacent hex.
 
-**Political Calm** : A sudden absence of political machinations coincides with an increase in public approval. Unrest decreases by 1d6. Until the next Event phase, you gain a +2 bonus on checks to resolve continuous events. If your kingdom has no Unrest and no continuous events, both Loyalty and Stability increase by 1. If you are using Law settlement modifiers for the kingdom (see [Expanding Settlement Modifiers](ultimateCampaign/kingdomsAndWar/optionalKingdomRules.md#_expanding-settlement-modifiers)), this also increases Law by 1 for the entire kingdom.
+**Political Calm** : A sudden absence of political machinations coincides with an increase in public approval. Unrest decreases by 1d6. Until the next Event phase, you gain a +2 bonus on checks to resolve continuous events. If your kingdom has no Unrest and no continuous events, both Loyalty and Stability increase by 1. If you are using Law settlement modifiers for the kingdom (see [Expanding Settlement Modifiers](ultimateCampaign/kingdomsAndWar/optionalKingdomRules#_expanding-settlement-modifiers)), this also increases Law by 1 for the entire kingdom.
 
 **Public Scandal** : One of your leaders is implicated in a crime or an embarrassing situation, such as an affair with another leader's spouse. Infamy increases by 1. Attempt a Loyalty check. If you fail, Unrest increases by 2 and you take a —4 penalty on all Loyalty checks until the next Event phase.
 

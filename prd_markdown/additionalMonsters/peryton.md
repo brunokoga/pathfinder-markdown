@@ -6,9 +6,9 @@ This creature has a stag's body, a hawk's wings and talons, and the head of a sl
 
 **XP 1,200**
 
-CE Medium [magical beast](monsters/creatureTypes.md#_magical-beast)
+CE Medium [magical beast](monsters/creatureTypes#_magical-beast)
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +10
+**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +10
 
 Defense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +8; **CMD** 21 (25 vs. trip)
 
-**Feats** [Flyby Attack](additionalMonsters/../monsters/monsterFeats.md#_flyby-attack), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (gore)
+**Feats** [Flyby Attack](additionalMonsters/../monsters/monsterFeats#_flyby-attack), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Weapon Focus](additionalMonsters/../feats#_weapon-focus) (gore)
 
-**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +12, [Perception](additionalMonsters/../skills/perception.md#_perception) +10, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +9
+**Skills** [Fly](additionalMonsters/../skills/fly#_fly) +12, [Perception](additionalMonsters/../skills/perception#_perception) +10, [Stealth](additionalMonsters/../skills/stealth#_stealth) +9
 
 **Languages** Common
 
@@ -50,9 +50,9 @@ Ecology
 
 Special Abilities
 
-**Horrific Critical (Ex)** A peryton's gore attack threatens a critical hit on an 18–20. If a peryton kills a [humanoid](monsters/creatureTypes.md#_humanoid) foe with a critical hit, it can tear out the victim's heart with its wolf-like teeth as a free action. Any creature that witnesses this savage event must make a DC 13 Fortitude save or be shaken for 1 round. This is a mind-affecting [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) effect. The save DC is Charisma-based.
+**Horrific Critical (Ex)** A peryton's gore attack threatens a critical hit on an 18–20. If a peryton kills a [humanoid](monsters/creatureTypes#_humanoid) foe with a critical hit, it can tear out the victim's heart with its wolf-like teeth as a free action. Any creature that witnesses this savage event must make a DC 13 Fortitude save or be shaken for 1 round. This is a mind-affecting [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) effect. The save DC is Charisma-based.
 
-**Shadow Mark (Su)** As a free action, a peryton can make a ranged touch attack by flying over a [humanoid](monsters/creatureTypes.md#_humanoid) target—the maximum range of this attack is 300 feet. If the peryton hits, its shadow transforms to match the shadow of the creature struck. Once a peryton has established this link, it gains a +2 morale bonus on attack rolls and damage rolls made against that target, and every time the peryton hits that target with an attack, the creature must make a DC 13 Will save or become frightened for 1 round. This is a mind-affecting [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) effect. The save DC is Charisma-based.
+**Shadow Mark (Su)** As a free action, a peryton can make a ranged touch attack by flying over a [humanoid](monsters/creatureTypes#_humanoid) target—the maximum range of this attack is 300 feet. If the peryton hits, its shadow transforms to match the shadow of the creature struck. Once a peryton has established this link, it gains a +2 morale bonus on attack rolls and damage rolls made against that target, and every time the peryton hits that target with an attack, the creature must make a DC 13 Will save or become frightened for 1 round. This is a mind-affecting [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) effect. The save DC is Charisma-based.
 
 Savage creatures of nightmare, perytons combine the features of stags, wolves, and great birds of prey. Though vicious beasts, perytons possess all the intelligence of a human. Perytons hunt any creature weaker than themselves, but prefer humanoid prey, as they particularly relish the taste of such creatures' still-beating hearts.
 

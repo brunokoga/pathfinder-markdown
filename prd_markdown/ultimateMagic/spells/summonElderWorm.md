@@ -14,5 +14,5 @@ Summon Elder Worm
 
 **Saving Throw** none; **Spell Resistance** no
 
-This spell functions as _ [summon nature's ally VIII](spells/summonNatureSAlly.md#_summon-nature-s-ally-viii)_, except you summon a [purple worm](monsters/purpleWorm.md#_purple-worm) with the [giant creature](monsters/monsterAdvancement.md#_giant-creature) simple template.
+This spell functions as _ [summon nature's ally VIII](spells/summonNatureSAlly#_summon-nature-s-ally-viii)_, except you summon a [purple worm](monsters/purpleWorm#_purple-worm) with the [giant creature](monsters/monsterAdvancement#_giant-creature) simple template.
 

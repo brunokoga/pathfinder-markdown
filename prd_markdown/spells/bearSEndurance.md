@@ -12,9 +12,9 @@
 
 **Duration** 1 min./level
 
-**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) negates (harmless); **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-The affected creature gains greater vitality and stamina. The spell grants the subject a +4 enhancement bonus to [Constitution](../gettingStarted.md#_constitution), which adds the usual benefits to hit points, [Fortitude](../combat.md#_fortitude) saves, [Constitution](../gettingStarted.md#_constitution) checks, and so forth. Hit points gained by a temporary increase in [Constitution](../gettingStarted.md#_constitution) score are not temporary hit points. They go away when the subject's [Constitution](../gettingStarted.md#_constitution) drops back to normal. They are not lost first as temporary hit points are.
+The affected creature gains greater vitality and stamina. The spell grants the subject a +4 enhancement bonus to [Constitution](../gettingStarted#_constitution), which adds the usual benefits to hit points, [Fortitude](../combat#_fortitude) saves, [Constitution](../gettingStarted#_constitution) checks, and so forth. Hit points gained by a temporary increase in [Constitution](../gettingStarted#_constitution) score are not temporary hit points. They go away when the subject's [Constitution](../gettingStarted#_constitution) drops back to normal. They are not lost first as temporary hit points are.
 
 **Bear's Endurance, Mass**
 

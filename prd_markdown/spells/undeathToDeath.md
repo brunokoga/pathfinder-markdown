@@ -6,7 +6,7 @@
 
 **Area** several undead creatures within a 40-ft.-radius burst
 
-**Saving Throw** [Will](../combat.md#_will) negates
+**Saving Throw** [Will](../combat#_will) negates
 
-This spell functions like _ [circle of death](circleOfDeath.md#_circle-of-death)_, except that it destroys undead creatures as noted above.
+This spell functions like _ [circle of death](circleOfDeath#_circle-of-death)_, except that it destroys undead creatures as noted above.
 

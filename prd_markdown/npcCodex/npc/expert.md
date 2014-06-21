@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 11
 
-**Feats** [Run](feats.md#_run), [Skill Focus](feats.md#_skill-focus) ( [Craft](skills/craft.md#_craft) [jewelry])
+**Feats** [Run](feats#_run), [Skill Focus](feats#_skill-focus) ( [Craft](skills/craft#_craft) [jewelry])
 
-**Skills** [Appraise](skills/appraise.md#_appraise) +5, [Craft](skills/craft.md#_craft) (jewelry) +8, [Diplomacy](skills/diplomacy.md#_diplomacy) +3, [Disable Device](skills/disableDevice.md#_disable-device) +6, [Knowledge](skills/knowledge.md#_knowledge) (history, local, nobility) +5, Perception +4, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +3
+**Skills** [Appraise](skills/appraise#_appraise) +5, [Craft](skills/craft#_craft) (jewelry) +8, [Diplomacy](skills/diplomacy#_diplomacy) +3, [Disable Device](skills/disableDevice#_disable-device) +6, [Knowledge](skills/knowledge#_knowledge) (history, local, nobility) +5, Perception +4, [Use Magic Device](skills/useMagicDevice#_use-magic-device) +3
 
 **Languages** Common
 
@@ -76,7 +76,7 @@ Offense
 
 Tactics
 
-**During Combat** The expert keeps his back to the wall, seeks the high ground, and uses [Acrobatics](skills/acrobatics.md#_acrobatics) to maintain a tactical advantage.
+**During Combat** The expert keeps his back to the wall, seeks the high ground, and uses [Acrobatics](skills/acrobatics#_acrobatics) to maintain a tactical advantage.
 
 Statistics
 
@@ -84,9 +84,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +2; **CMD** 13
 
-**Feats** [Athletic](feats.md#_athletic)
+**Feats** [Athletic](feats#_athletic)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +5, [Climb](skills/climb.md#_climb) +8, [Craft](skills/craft.md#_craft) (scrimshaw) +4, [Knowledge](skills/knowledge.md#_knowledge) (religion) +4, Perception +6, [Perform](skills/perform.md#_perform) (string) +3, [Profession](skills/profession.md#_profession) (sailor) +4, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +5, [Survival](skills/survival.md#_survival) +4, [Swim](skills/swim.md#_swim) +8
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +5, [Climb](skills/climb#_climb) +8, [Craft](skills/craft#_craft) (scrimshaw) +4, [Knowledge](skills/knowledge#_knowledge) (religion) +4, Perception +6, [Perform](skills/perform#_perform) (string) +3, [Profession](skills/profession#_profession) (sailor) +4, [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand) +5, [Survival](skills/survival#_survival) +4, [Swim](skills/swim#_swim) +8
 
 **Languages** Common, Elven
 
@@ -134,13 +134,13 @@ Statistics
 
 **Base Atk** +2; **CMB** +1; **CMD** 13
 
-**Feats** [Deadly Aim](feats.md#_deadly-aim), [Skill Focus](feats.md#_skill-focus) ( [Survival](skills/survival.md#_survival))
+**Feats** [Deadly Aim](feats#_deadly-aim), [Skill Focus](feats#_skill-focus) ( [Survival](skills/survival#_survival))
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +3 (–1 when jumping), [Climb](skills/climb.md#_climb) +5, [Craft](skills/craft.md#_craft) (leather) +5, [Craft](skills/craft.md#_craft) (traps) +7, [Heal](skills/heal.md#_heal) +6, [Knowledge](skills/knowledge.md#_knowledge) (nature) +3, Perception +7, [Ride](skills/ride.md#_ride) +5, [Stealth](skills/stealth.md#_stealth) +11, [Survival](skills/survival.md#_survival) +9, [Swim](skills/swim.md#_swim) +4
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +3 (–1 when jumping), [Climb](skills/climb#_climb) +5, [Craft](skills/craft#_craft) (leather) +5, [Craft](skills/craft#_craft) (traps) +7, [Heal](skills/heal#_heal) +6, [Knowledge](skills/knowledge#_knowledge) (nature) +3, Perception +7, [Ride](skills/ride#_ride) +5, [Stealth](skills/stealth#_stealth) +11, [Survival](skills/survival#_survival) +9, [Swim](skills/swim#_swim) +4
 
 **Languages** Common, Halfling
 
-**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_; **Other Gear** studded leather, masterwork light crossbow with 40 bolts, spear, masterwork artisan's tools (leather, traps), bit and bridle, riding dog, riding saddle, 92 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_; **Other Gear** studded leather, masterwork light crossbow with 40 bolts, spear, masterwork artisan's tools (leather, traps), bit and bridle, riding dog, riding saddle, 92 gp
 
 A trapper catches animals with snares, then turns their hides into leather and fur goods. Most are independent folk, content to live on the edge of civilization so they don't have to deal with the niceties of polite society. A few find themselves trying to escape a past crime or tragedy, using the wilderness to hide and eking out a livelihood from the natural world. Most know the best places to hunt and trap, hidden paths that lead to observation points, and the locations of caves and dangerous natural hazards.
 
@@ -184,15 +184,15 @@ Statistics
 
 **Base Atk** +3; **CMB** +4; **CMD** 14
 
-**Feats** [Power Attack](feats.md#_power-attack), [Skill Focus](feats.md#_skill-focus) ( [Craft](skills/craft.md#_craft) [carpentry])
+**Feats** [Power Attack](feats#_power-attack), [Skill Focus](feats#_skill-focus) ( [Craft](skills/craft#_craft) [carpentry])
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +6, [Bluff](skills/bluff.md#_bluff) +5, [Climb](skills/climb.md#_climb) +6, [Craft](skills/craft.md#_craft) (carpentry) +11, [Diplomacy](skills/diplomacy.md#_diplomacy) +5, [Disable Device](skills/disableDevice.md#_disable-device) +6, [Escape Artist](skills/escapeArtist.md#_escape-artist) +2, [Intimidate](skills/intimidate.md#_intimidate) +9, [Knowledge](skills/knowledge.md#_knowledge) (engineering, local) +8, Perception +4
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +6, [Bluff](skills/bluff#_bluff) +5, [Climb](skills/climb#_climb) +6, [Craft](skills/craft#_craft) (carpentry) +11, [Diplomacy](skills/diplomacy#_diplomacy) +5, [Disable Device](skills/disableDevice#_disable-device) +6, [Escape Artist](skills/escapeArtist#_escape-artist) +2, [Intimidate](skills/intimidate#_intimidate) +9, [Knowledge](skills/knowledge#_knowledge) (engineering, local) +8, Perception +4
 
 **Languages** Common, Orc
 
 **SQ** orc blood, weapon familiarity
 
-**Combat Gear** _oil of [mending](spells/mending.md#_mending)_ (5), _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), _potions of [spider climb](spells/spiderClimb.md#_spider-climb)_ (2); **Other Gear** light hammer, block and tackle, chain (20 ft.), crowbars (2), everburning torch, hammers (2), ladder, masterwork artisan's tools, bits and bridles (2), mules (2), pack saddles (2), wagon, 561 gp
+**Combat Gear** _oil of [mending](spells/mending#_mending)_ (5), _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_ (2), _potions of [spider climb](spells/spiderClimb#_spider-climb)_ (2); **Other Gear** light hammer, block and tackle, chain (20 ft.), crowbars (2), everburning torch, hammers (2), ladder, masterwork artisan's tools, bits and bridles (2), mules (2), pack saddles (2), wagon, 561 gp
 
 A journeyman carpenter is skilled with a hammer, but tries to avoid violence except to defend himself and his family. Tools can be rebuilt or replaced, and he will not waste his life protecting mere objects.
 
@@ -234,13 +234,13 @@ Statistics
 
 **Base Atk** +3; **CMB** +2; **CMD** 13
 
-**Feats** [Lightning Reflexes](feats.md#_lightning-reflexes), [Point-Blank Shot](feats.md#_point-blank-shot), [Skill Focus](feats.md#_skill-focus) ( [Knowledge](skills/knowledge.md#_knowledge) [engineering], [Stealth](skills/stealth.md#_stealth))
+**Feats** [Lightning Reflexes](feats#_lightning-reflexes), [Point-Blank Shot](feats#_point-blank-shot), [Skill Focus](feats#_skill-focus) ( [Knowledge](skills/knowledge#_knowledge) [engineering], [Stealth](skills/stealth#_stealth))
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +9, [Climb](skills/climb.md#_climb) +7, [Craft](skills/craft.md#_craft) (alchemy) +11, [Disable Device](skills/disableDevice.md#_disable-device) +9, [Escape Artist](skills/escapeArtist.md#_escape-artist) +9, [Knowledge](skills/knowledge.md#_knowledge) (arcana, geography) +11, [Knowledge](skills/knowledge.md#_knowledge) (engineering) +14, Perception +8, [Stealth](skills/stealth.md#_stealth) +12
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +9, [Climb](skills/climb#_climb) +7, [Craft](skills/craft#_craft) (alchemy) +11, [Disable Device](skills/disableDevice#_disable-device) +9, [Escape Artist](skills/escapeArtist#_escape-artist) +9, [Knowledge](skills/knowledge#_knowledge) (arcana, geography) +11, [Knowledge](skills/knowledge#_knowledge) (engineering) +14, Perception +8, [Stealth](skills/stealth#_stealth) +12
 
 **Languages** Common, Dwarven, Goblin
 
-**Combat Gear** _elixirs of hiding_ (2), _potion of [barkskin](spells/barkskin.md#_barkskin)_, _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [invisibility](spells/invisibility.md#_invisibility),_ acid (4), alchemist's fire (4); **Other Gear** leather armor, masterwork dagger, alchemist's lab, antitoxin, everburning torch, masterwork thieves' tools, smokestick (2), tindertwig (4), 171 gp
+**Combat Gear** _elixirs of hiding_ (2), _potion of [barkskin](spells/barkskin#_barkskin)_, _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _potion of [invisibility](spells/invisibility#_invisibility),_ acid (4), alchemist's fire (4); **Other Gear** leather armor, masterwork dagger, alchemist's lab, antitoxin, everburning torch, masterwork thieves' tools, smokestick (2), tindertwig (4), 171 gp
 
 Sappers specialize in undermining fortifications and tunneling under walls. Using a combination of time, engineering, and explosives, sappers can rig a tunnel to collapse to protect a retreat or create a path over a mountainside. Their enthusiasm for blowing things up means they take unnecessary risks, and the lifespan of a professional sapper is often cut short in a dramatic blast.
 
@@ -284,13 +284,13 @@ Statistics
 
 **Base Atk** +4; **CMB** +5; **CMD** 15 (19 vs. bull rush or trip)
 
-**Feats** [Craft Magic Arms and Armor](feats.md#_craft-magic-arms-and-armor), [Master Craftsman](feats.md#_master-craftsman) ( [Craft](skills/craft.md#_craft) [weapons]), [Skill Focus](feats.md#_skill-focus) ( [Craft](skills/craft.md#_craft) [armor, weapons])
+**Feats** [Craft Magic Arms and Armor](feats#_craft-magic-arms-and-armor), [Master Craftsman](feats#_master-craftsman) ( [Craft](skills/craft#_craft) [weapons]), [Skill Focus](feats#_skill-focus) ( [Craft](skills/craft#_craft) [armor, weapons])
 
-**Skills** [Appraise](skills/appraise.md#_appraise) +10 (+12 to assess nonmagical metals or gemstones), [Craft](skills/craft.md#_craft) (armor, blacksmithing) +10, [Craft](skills/craft.md#_craft) (weapons) +15, [Knowledge](skills/knowledge.md#_knowledge) (history) +8, [Knowledge](skills/knowledge.md#_knowledge) (local) +9, [Linguistics](skills/linguistics.md#_linguistics) +7, [Perform](skills/perform.md#_perform) (sing) +7, [Sense Motive](skills/senseMotive.md#_sense-motive) +9
+**Skills** [Appraise](skills/appraise#_appraise) +10 (+12 to assess nonmagical metals or gemstones), [Craft](skills/craft#_craft) (armor, blacksmithing) +10, [Craft](skills/craft#_craft) (weapons) +15, [Knowledge](skills/knowledge#_knowledge) (history) +8, [Knowledge](skills/knowledge#_knowledge) (local) +9, [Linguistics](skills/linguistics#_linguistics) +7, [Perform](skills/perform#_perform) (sing) +7, [Sense Motive](skills/senseMotive#_sense-motive) +9
 
 **Languages** Common, Draconic, Dwarven, Giant, Gnome, Halfling
 
-**Combat Gear** _oil of [mending](spells/mending.md#_mending)_ (5), _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), _potions of [endure elements](spells/endureElements.md#_endure-elements)_ (2), acid (2), alchemist's fire (2), thunderstone; **Other Gear** leather armor, _+1 warhammer_, masterwork cold iron warhammer, masterwork breastplate (not worn), _ [feather token](magicItems/wondrousItems.md#_feather-token)_ (fan), block and tackle, chain (20 ft.), masterwork artisan's tools, 1,211 gp
+**Combat Gear** _oil of [mending](spells/mending#_mending)_ (5), _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_ (2), _potions of [endure elements](spells/endureElements#_endure-elements)_ (2), acid (2), alchemist's fire (2), thunderstone; **Other Gear** leather armor, _+1 warhammer_, masterwork cold iron warhammer, masterwork breastplate (not worn), _ [feather token](magicItems/wondrousItems#_feather-token)_ (fan), block and tackle, chain (20 ft.), masterwork artisan's tools, 1,211 gp
 
 A blacksmith enjoys talking about metal almost as much as working it. She is proud that her skill allows her to craft everything from mundane items to magic weapons.
 
@@ -322,7 +322,7 @@ Offense
 
 Tactics
 
-**During Combat** The expert hides behind his bodyguards or tries to use his _potion of [invisibility](spells/invisibility.md#_invisibility)_ to escape combat. The rapier he wears is only for show, and he defends himself with his dagger.
+**During Combat** The expert hides behind his bodyguards or tries to use his _potion of [invisibility](spells/invisibility#_invisibility)_ to escape combat. The rapier he wears is only for show, and he defends himself with his dagger.
 
 Statistics
 
@@ -330,13 +330,13 @@ Statistics
 
 **Base Atk** +5; **CMB** +4; **CMD** 13
 
-**Feats** [Alertness](feats.md#_alertness), [Iron Will](feats.md#_iron-will), [Persuasive](feats.md#_persuasive), [Skill Focus](feats.md#_skill-focus) ( [Appraise](skills/appraise.md#_appraise), [Intimidate](skills/intimidate.md#_intimidate))
+**Feats** [Alertness](feats#_alertness), [Iron Will](feats#_iron-will), [Persuasive](feats#_persuasive), [Skill Focus](feats#_skill-focus) ( [Appraise](skills/appraise#_appraise), [Intimidate](skills/intimidate#_intimidate))
 
-**Skills** [Appraise](skills/appraise.md#_appraise) +15, [Bluff](skills/bluff.md#_bluff) +11, [Diplomacy](skills/diplomacy.md#_diplomacy) +13, [Handle Animal](skills/handleAnimal.md#_handle-animal) +6, [Intimidate](skills/intimidate.md#_intimidate) +11, [Knowledge](skills/knowledge.md#_knowledge) (geography) +7, [Knowledge](skills/knowledge.md#_knowledge) (history, nobility) +4, [Knowledge](skills/knowledge.md#_knowledge) (local) +12, Perception +13, [Profession](skills/profession.md#_profession) (merchant) +11, [Ride](skills/ride.md#_ride) +9, [Sense Motive](skills/senseMotive.md#_sense-motive) +13, [Survival](skills/survival.md#_survival) +2
+**Skills** [Appraise](skills/appraise#_appraise) +15, [Bluff](skills/bluff#_bluff) +11, [Diplomacy](skills/diplomacy#_diplomacy) +13, [Handle Animal](skills/handleAnimal#_handle-animal) +6, [Intimidate](skills/intimidate#_intimidate) +11, [Knowledge](skills/knowledge#_knowledge) (geography) +7, [Knowledge](skills/knowledge#_knowledge) (history, nobility) +4, [Knowledge](skills/knowledge#_knowledge) (local) +12, Perception +13, [Profession](skills/profession#_profession) (merchant) +11, [Ride](skills/ride#_ride) +9, [Sense Motive](skills/senseMotive#_sense-motive) +13, [Survival](skills/survival#_survival) +2
 
 **Languages** Common, Dwarven, Elven
 
-**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [invisibility](spells/invisibility.md#_invisibility)_; **Other Gear** masterwork silver dagger, masterwork rapier, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, guard dog, magnifying glass, merchant's scale, bit and bridle, heavy horses (2), light horse (combat trained), riding saddle, saddlebags, wagon, 720 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _potion of [invisibility](spells/invisibility#_invisibility)_; **Other Gear** masterwork silver dagger, masterwork rapier, _ [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, guard dog, magnifying glass, merchant's scale, bit and bridle, heavy horses (2), light horse (combat trained), riding saddle, saddlebags, wagon, 720 gp
 
 A successful merchant is pleasant to customers but often an impatient taskmaster to his employees. He has spent a lifetime thinking of ways to avoid physical work and complains if expected to lend a hand. He considers himself better than anyone dumber or poorer than he is.
 
@@ -376,13 +376,13 @@ Statistics
 
 **Base Atk** +6; **CMB** +5; **CMD** 16
 
-**Feats** [Magical Aptitude](feats.md#_magical-aptitude), [Skill Focus](feats.md#_skill-focus) ( [Knowledge](skills/knowledge.md#_knowledge) [arcana, nature, planes], [Use Magic Device](skills/useMagicDevice.md#_use-magic-device))
+**Feats** [Magical Aptitude](feats#_magical-aptitude), [Skill Focus](feats#_skill-focus) ( [Knowledge](skills/knowledge#_knowledge) [arcana, nature, planes], [Use Magic Device](skills/useMagicDevice#_use-magic-device))
 
-**Skills** [Appraise](skills/appraise.md#_appraise) +14, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +17, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, engineering, local) +7, [Knowledge](skills/knowledge.md#_knowledge) (geography) +12, [Knowledge](skills/knowledge.md#_knowledge) (history) +14, [Knowledge](skills/knowledge.md#_knowledge) (nature, planes) +17, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +5, [Knowledge](skills/knowledge.md#_knowledge) (religion) +10, [Linguistics](skills/linguistics.md#_linguistics) +14, [Spellcraft](skills/spellcraft.md#_spellcraft) +16, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +16
+**Skills** [Appraise](skills/appraise#_appraise) +14, [Knowledge](skills/knowledge#_knowledge) (arcana) +17, [Knowledge](skills/knowledge#_knowledge) (dungeoneering, engineering, local) +7, [Knowledge](skills/knowledge#_knowledge) (geography) +12, [Knowledge](skills/knowledge#_knowledge) (history) +14, [Knowledge](skills/knowledge#_knowledge) (nature, planes) +17, [Knowledge](skills/knowledge#_knowledge) (nobility) +5, [Knowledge](skills/knowledge#_knowledge) (religion) +10, [Linguistics](skills/linguistics#_linguistics) +14, [Spellcraft](skills/spellcraft#_spellcraft) +16, [Use Magic Device](skills/useMagicDevice#_use-magic-device) +16
 
 **Languages** Abyssal, Aklo, Aquan, Auran, Celestial, Common, Draconic, Dwarven, Elven, Ignan, Infernal, Terran
 
-**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _scroll of [expeditious retreat](spells/expeditiousRetreat.md#_expeditious-retreat)_, _scroll of [glitterdust](spells/glitterdust.md#_glitterdust)_, _scrolls of [identify](spells/identify.md#_identify)_ (4), _scroll of [invisibility](spells/invisibility.md#_invisibility)_, _scroll of [mage armor](spells/mageArmor.md#_mage-armor)_, _scroll of [remove curse](spells/removeCurse.md#_remove-curse)_, _wand of [detect magic](spells/detectMagic.md#_detect-magic)_ (20 charges), _wand of [scorching ray](spells/scorchingRay.md#_scorching-ray)_ (10 charges); **Other Gear** quarterstaff, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, everburning torch, bit and bridle, light horse, riding saddle, 628 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _scroll of [expeditious retreat](spells/expeditiousRetreat#_expeditious-retreat)_, _scroll of [glitterdust](spells/glitterdust#_glitterdust)_, _scrolls of [identify](spells/identify#_identify)_ (4), _scroll of [invisibility](spells/invisibility#_invisibility)_, _scroll of [mage armor](spells/mageArmor#_mage-armor)_, _scroll of [remove curse](spells/removeCurse#_remove-curse)_, _wand of [detect magic](spells/detectMagic#_detect-magic)_ (20 charges), _wand of [scorching ray](spells/scorchingRay#_scorching-ray)_ (10 charges); **Other Gear** quarterstaff, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, everburning torch, bit and bridle, light horse, riding saddle, 628 gp
 
 A wise sage's cantankerous manner evaporates when she's expounding on matters of scholarly minutia. The sage's breadth of general knowledge allows her to speak on most topics, and her precious magic items let her gain enough clues to direct her further research. If she reaches her limit on a topic, she may refer the questioner to a specialist in that field—or she may not, in order to preserve her pride.
 
@@ -420,15 +420,15 @@ Statistics
 
 **Base Atk** +6; **CMB** +5; **CMD** 14
 
-**Feats** [Alertness](feats.md#_alertness), [Iron Will](feats.md#_iron-will), [Martial Weapon Proficiency](feats.md#_martial-weapon-proficiency) (rapier), [Persuasive](feats.md#_persuasive), [Skill Focus](feats.md#_skill-focus) ( [Bluff](skills/bluff.md#_bluff), [Diplomacy](skills/diplomacy.md#_diplomacy))
+**Feats** [Alertness](feats#_alertness), [Iron Will](feats#_iron-will), [Martial Weapon Proficiency](feats#_martial-weapon-proficiency) (rapier), [Persuasive](feats#_persuasive), [Skill Focus](feats#_skill-focus) ( [Bluff](skills/bluff#_bluff), [Diplomacy](skills/diplomacy#_diplomacy))
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +21, [Diplomacy](skills/diplomacy.md#_diplomacy) +23, [Intimidate](skills/intimidate.md#_intimidate) +20, [Knowledge](skills/knowledge.md#_knowledge) (history) +8, [Knowledge](skills/knowledge.md#_knowledge) (local, nobility) +9, [Linguistics](skills/linguistics.md#_linguistics) +6, Perception +12, [Profession](skills/profession.md#_profession) (barrister) +13, [Sense Motive](skills/senseMotive.md#_sense-motive) +15, [Spellcraft](skills/spellcraft.md#_spellcraft) +8
+**Skills** [Bluff](skills/bluff#_bluff) +21, [Diplomacy](skills/diplomacy#_diplomacy) +23, [Intimidate](skills/intimidate#_intimidate) +20, [Knowledge](skills/knowledge#_knowledge) (history) +8, [Knowledge](skills/knowledge#_knowledge) (local, nobility) +9, [Linguistics](skills/linguistics#_linguistics) +6, Perception +12, [Profession](skills/profession#_profession) (barrister) +13, [Sense Motive](skills/senseMotive#_sense-motive) +15, [Spellcraft](skills/spellcraft#_spellcraft) +8
 
 **Languages** Celestial, Common, Draconic, Dwarven, Elven, Gnome, Halfling, Infernal
 
 **SQ** elf blood
 
-**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds), potion of [heroism](spells/heroism.md#_heroism)_; **Other Gear** masterwork rapier, _ [circlet of persuasion](magicItems/wondrousItems.md#_circlet-of-persuasion)_, _ [elixir of truth](magicItems/wondrousItems.md#_elixir-of-truth),_ antitoxin, courtier's outfit, light horses (2), carriage, 1,100 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds), potion of [heroism](spells/heroism#_heroism)_; **Other Gear** masterwork rapier, _ [circlet of persuasion](magicItems/wondrousItems#_circlet-of-persuasion)_, _ [elixir of truth](magicItems/wondrousItems#_elixir-of-truth),_ antitoxin, courtier's outfit, light horses (2), carriage, 1,100 gp
 
 A cutthroat lawyer is a master of loopholes, doublespeak, intimidation, and litigation. She prides herself on doing whatever it takes—within the law—to win her case. Though this means she won't use illusions to falsify evidence or enchantments to alter a witness's memories or coerce a judge or juror to change a vote, it leaves her many opportunities to enhance her own ability to persuade and investigate. Given enough gold and access to the right potions, she destroys the opposition's arguments, eradicates the witnesses' credibility, discovers conflicts of interest in judges and jurors, digs up obscure laws that invalidate the charges of which her client is accused, suggests plausible conspiracies or mistaken identities, points fingers at other possible suspects, bogs down trial proceedings, and offers plea bargains to a trivially smaller sentence in order to get trials over with.
 
@@ -470,7 +470,7 @@ Offense
 
 **Gnome Spell-Like Abilities** (CL 10th; concentration +13)
 
-1/day—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
+1/day—_ [dancing lights](spells/dancingLights#_dancing-lights)_, _ [ghost sound](spells/ghostSound#_ghost-sound)_, _ [prestidigitation](spells/prestidigitation#_prestidigitation)_, _ [speak with animals](spells/speakWithAnimals#_speak-with-animals)_
 
 Tactics
 
@@ -482,13 +482,13 @@ Statistics
 
 **Base Atk** +7; **CMB** +4; **CMD** 15
 
-**Feats** [Lightning Reflexes](feats.md#_lightning-reflexes), [Point-Blank Shot](feats.md#_point-blank-shot), [Quick Draw](feats.md#_quick-draw), Rapid Shot, [Weapon Focus](feats.md#_weapon-focus) (dagger)
+**Feats** [Lightning Reflexes](feats#_lightning-reflexes), [Point-Blank Shot](feats#_point-blank-shot), [Quick Draw](feats#_quick-draw), Rapid Shot, [Weapon Focus](feats#_weapon-focus) (dagger)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +14 (+10 when jumping), [Bluff](skills/bluff.md#_bluff) +11, [Craft](skills/craft.md#_craft) (painting) +10, [Disguise](skills/disguise.md#_disguise) +9, [Escape Artist](skills/escapeArtist.md#_escape-artist) +9, [Knowledge](skills/knowledge.md#_knowledge) (local, nobility) +9, Perception +2, [Perform](skills/perform.md#_perform) (comedy) +16, [Perform](skills/perform.md#_perform) (dance) +11, [Perform](skills/perform.md#_perform) (wind) +8, [Sense Motive](skills/senseMotive.md#_sense-motive) +5, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +14, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +16
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +14 (+10 when jumping), [Bluff](skills/bluff#_bluff) +11, [Craft](skills/craft#_craft) (painting) +10, [Disguise](skills/disguise#_disguise) +9, [Escape Artist](skills/escapeArtist#_escape-artist) +9, [Knowledge](skills/knowledge#_knowledge) (local, nobility) +9, Perception +2, [Perform](skills/perform#_perform) (comedy) +16, [Perform](skills/perform#_perform) (dance) +11, [Perform](skills/perform#_perform) (wind) +8, [Sense Motive](skills/senseMotive#_sense-motive) +5, [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand) +14, [Use Magic Device](skills/useMagicDevice#_use-magic-device) +16
 
 **Languages** Common, Elven, Gnome, Sylvan
 
-**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _scrolls of [cat's grace](spells/catSGrace.md#_cat-s-grace)_ (2), _scroll of [major image](spells/majorImage.md#_major-image)_, _scroll of [shrink item](spells/shrinkItem.md#_shrink-item)_, _wand of [invisibility](spells/invisibility.md#_invisibility)_ (10 charges), _wand of [prestidigitation](spells/prestidigitation.md#_prestidigitation)_ (20 charges), _wand of [pyrotechnics](spells/pyrotechnics.md#_pyrotechnics)_ (10 charges), _wand of silent image_ (10 charges), alchemist's fire (2), thunderstones (2); **Other Gear** daggers (8), _ [elixir of love](magicItems/wondrousItems.md#_elixir-of-love)_, _ [hat of disguise](magicItems/wondrousItems.md#_hat-of-disguise)_, _ [marvelous pigments](magicItems/wondrousItems.md#_marvelous-pigments)_, masterwork artisan's tools, masterwork panpipes, smokesticks (2), tindertwigs (4), 335 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _scrolls of [cat's grace](spells/catSGrace#_cat-s-grace)_ (2), _scroll of [major image](spells/majorImage#_major-image)_, _scroll of [shrink item](spells/shrinkItem#_shrink-item)_, _wand of [invisibility](spells/invisibility#_invisibility)_ (10 charges), _wand of [prestidigitation](spells/prestidigitation#_prestidigitation)_ (20 charges), _wand of [pyrotechnics](spells/pyrotechnics#_pyrotechnics)_ (10 charges), _wand of silent image_ (10 charges), alchemist's fire (2), thunderstones (2); **Other Gear** daggers (8), _ [elixir of love](magicItems/wondrousItems#_elixir-of-love)_, _ [hat of disguise](magicItems/wondrousItems#_hat-of-disguise)_, _ [marvelous pigments](magicItems/wondrousItems#_marvelous-pigments)_, masterwork artisan's tools, masterwork panpipes, smokesticks (2), tindertwigs (4), 335 gp
 
 Accomplished as an acrobat, clown, dancer, juggler, and piper, a master entertainer augments her performance with magical effects for audiences that pay high enough ticket prices. Odd-looking even by gnome standards, she is adept at making herself appear male or female, a human or elf child, or even something monstrous like a goblin or tiefling. When augmented by her magic cap, the disguise is instantaneous and flawless. It is often her practice to create a mundane disguise, then use the cap to create an identical disguise over it, so that any who magically detect or penetrate the disguise see the same thing underneath, leading them to believe their magic is erratic.
 
@@ -498,5 +498,5 @@ Because of her experience traveling with unsavory characters, she has no qualms 
 
 She may travel alone or as part of a troupe of actors or musicians (use the journeyman carpenter stat block, expert 4), tavern singers (bards 1), street performers (bards 2), or laborers (use the ruffian stat block, commoner 7). During most of her travels she is content to cavort and entertain, but from time to time she sneaks out to burgle or rob the rich and split the money with her companions.
 
-The above stat block can be used for any kind of skilled nonmagical performer or artisan, such as an actor, musician, painter, or singer. Alter the NPC's magic items to suit the particular role; for example, _scrolls of [eagle's splendor](spells/eagleSSplendor.md#_eagle-s-splendor)_ instead of _scrolls of [cat's grace](spells/catSGrace.md#_cat-s-grace)_.
+The above stat block can be used for any kind of skilled nonmagical performer or artisan, such as an actor, musician, painter, or singer. Alter the NPC's magic items to suit the particular role; for example, _scrolls of [eagle's splendor](spells/eagleSSplendor#_eagle-s-splendor)_ instead of _scrolls of [cat's grace](spells/catSGrace#_cat-s-grace)_.
 

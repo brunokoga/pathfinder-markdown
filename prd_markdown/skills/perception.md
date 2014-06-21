@@ -1,6 +1,6 @@
 # Perception
 
-## ( [Wis](../gettingStarted.md#_wisdom))
+## ( [Wis](../gettingStarted#_wisdom))
 
 Your senses allow you to notice fine details and alert you to danger. Perception covers all five senses, including sight, hearing, touch, taste, and smell.
 
@@ -43,7 +43,7 @@ Perception is also used to notice fine details in the environment. The DC to not
 
 **Try Again** : Yes. You can try to sense something you missed the first time, so long as the stimulus is still present.
 
-**Special** : Elves, half-elves, gnomes, and halflings receive a +2 racial bonus on Perception checks. Creatures with the scent special quality have a +8 bonus on Perception checks made to detect a scent. Creatures with the tremorsense special quality have a +8 bonus on Perception checks against creatures touching the ground and automatically make any such checks within their range. For more on special qualities, see [Special Abilities](../glossary.md#_appendix-1-special-abilities).
+**Special** : Elves, half-elves, gnomes, and halflings receive a +2 racial bonus on Perception checks. Creatures with the scent special quality have a +8 bonus on Perception checks made to detect a scent. Creatures with the tremorsense special quality have a +8 bonus on Perception checks against creatures touching the ground and automatically make any such checks within their range. For more on special qualities, see [Special Abilities](../glossary#_appendix-1-special-abilities).
 
-A spellcaster with a hawk or owl familiar gains a +3 bonus on Perception checks. If you have the [Alertness](../feats.md#_alertness) feat, you get a bonus on Perception checks (see [Feats](../feats.md)).
+A spellcaster with a hawk or owl familiar gains a +3 bonus on Perception checks. If you have the [Alertness](../feats#_alertness) feat, you get a bonus on Perception checks (see [Feats](../feats)).
 

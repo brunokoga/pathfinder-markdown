@@ -6,9 +6,9 @@ Bhuta CR 11
 
 XP 12,800
 
-NE Medium undead ( [incorporeal](monsters/creatureTypes.md#_incorporeal-subtype))
+NE Medium undead ( [incorporeal](monsters/creatureTypes#_incorporeal-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +13
+**Init** +7; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +13
 
 Defense
 
@@ -18,25 +18,25 @@ Defense
 
 **Fort** +10, **Ref** +11, **Will** +10
 
-**Defensive Abilities** [incorporeal](monsters/creatureTypes.md#_incorporeal-subtype), channel [resistance](monsters/universalMonsterRules.md#_resistance) +4; **Immune** undead traits
+**Defensive Abilities** [incorporeal](monsters/creatureTypes#_incorporeal-subtype), channel [resistance](monsters/universalMonsterRules#_resistance) +4; **Immune** undead traits
 
-**Weaknesses** [cold](monsters/creatureTypes.md#_cold-subtype) iron
+**Weaknesses** [cold](monsters/creatureTypes#_cold-subtype) iron
 
 Offense
 
 **Speed** fly 30 ft. (perfect)
 
-**Melee** 2 [incorporeal](monsters/creatureTypes.md#_incorporeal-subtype) claws +17 (5d8 plus [bleed](monsters/universalMonsterRules.md#_bleed))
+**Melee** 2 [incorporeal](monsters/creatureTypes#_incorporeal-subtype) claws +17 (5d8 plus [bleed](monsters/universalMonsterRules#_bleed))
 
-**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d8), [blood drain](monsters/universalMonsterRules.md#_blood-drain) (1d6 Constitution)
+**Special Attacks** [bleed](monsters/universalMonsterRules#_bleed) (1d8), [blood drain](monsters/universalMonsterRules#_blood-drain) (1d6 Constitution)
 
 **Spell-Like Abilities** (CL 11th; concentration +17)
 
-At will—_ [animal trance](spells/animalTrance.md#_animal-trance)_ (DC 18), _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals), [veil](spells/veil.md#_veil)_ (self only, as animal with backward feet; DC 22)
+At will—_ [animal trance](spells/animalTrance#_animal-trance)_ (DC 18), _ [speak with animals](spells/speakWithAnimals#_speak-with-animals), [veil](spells/veil#_veil)_ (self only, as animal with backward feet; DC 22)
 
-3/day—_ [charm animal](spells/charmAnimal.md#_charm-animal)_ (DC 17)
+3/day—_ [charm animal](spells/charmAnimal#_charm-animal)_ (DC 17)
 
-1/day—_ [magic jar](spells/magicJar.md#_magic-jar)_ (animals only, DC 21)
+1/day—_ [magic jar](spells/magicJar#_magic-jar)_ (animals only, DC 21)
 
 Statistics
 
@@ -44,9 +44,9 @@ Statistics
 
 **Base Atk** +10; **CMB** +17; **CMD** 35
 
-**Feats** [Animal Affinity](feats.md#_animal-affinity), [Dodge](feats.md#_dodge), [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Iron Will](feats.md#_iron-will), [Lunge](feats.md#_lunge), [Mobility](feats.md#_mobility), [Stealthy](feats.md#_stealthy)
+**Feats** [Animal Affinity](feats#_animal-affinity), [Dodge](feats#_dodge), [Flyby Attack](monsters/monsterFeats#_flyby-attack), [Iron Will](feats#_iron-will), [Lunge](feats#_lunge), [Mobility](feats#_mobility), [Stealthy](feats#_stealthy)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +16, [Escape Artist](skills/escapeArtist.md#_escape-artist) +9, [Fly](skills/fly.md#_fly) +15, [Handle Animal](skills/handleAnimal.md#_handle-animal) +14, [Knowledge](skills/knowledge.md#_knowledge) (nature) +8, [Perception](skills/perception.md#_perception) +13, [Ride](skills/ride.md#_ride) +9, [Sense Motive](skills/senseMotive.md#_sense-motive) +13, [Stealth](skills/stealth.md#_stealth) +24
+**Skills** [Bluff](skills/bluff#_bluff) +16, [Escape Artist](skills/escapeArtist#_escape-artist) +9, [Fly](skills/fly#_fly) +15, [Handle Animal](skills/handleAnimal#_handle-animal) +14, [Knowledge](skills/knowledge#_knowledge) (nature) +8, [Perception](skills/perception#_perception) +13, [Ride](skills/ride#_ride) +9, [Sense Motive](skills/senseMotive#_sense-motive) +13, [Stealth](skills/stealth#_stealth) +24
 
 **Languages** Common
 
@@ -60,13 +60,13 @@ Ecology
 
 Special Abilities
 
-**[Blood Drain](monsters/universalMonsterRules.md#_blood-drain) (Su)** As a standard action, a bhuta can suck blood from an adjacent opponent that is taking [bleed](monsters/universalMonsterRules.md#_bleed) damage. The target takes 1d6 points of Constitution damage (Fort DC 23 for half). The bhuta heals 5 hit points when it drains blood.
+**[Blood Drain](monsters/universalMonsterRules#_blood-drain) (Su)** As a standard action, a bhuta can suck blood from an adjacent opponent that is taking [bleed](monsters/universalMonsterRules#_bleed) damage. The target takes 1d6 points of Constitution damage (Fort DC 23 for half). The bhuta heals 5 hit points when it drains blood.
 
-**[Cold](monsters/creatureTypes.md#_cold-subtype) Iron Weakness (Su)** A [cold](monsters/creatureTypes.md#_cold-subtype) iron weapon is considered to be magical when used against a bhuta. A magic [cold](monsters/creatureTypes.md#_cold-subtype) iron weapon always functions as a _ [ghost touch](magicItems/weapons.md#_weapons-ghost-touch)_ weapon when used against a bhuta.
+**[Cold](monsters/creatureTypes#_cold-subtype) Iron Weakness (Su)** A [cold](monsters/creatureTypes#_cold-subtype) iron weapon is considered to be magical when used against a bhuta. A magic [cold](monsters/creatureTypes#_cold-subtype) iron weapon always functions as a _ [ghost touch](magicItems/weapons#_weapons-ghost-touch)_ weapon when used against a bhuta.
 
 A bhuta is a ghostlike undead creature born of horrible death or murder in a natural setting. It is a manifestation of rage at the injustice of a death that interrupted important business or unsated desires. Doomed to haunt the wilderness within several miles of the site of its demise, a bhuta turns to the local fauna as tools for its vengeance.
 
-A bhuta can appear in a variety of animalistic forms by using its _ [veil](spells/veil.md#_veil)_ ability, but its natural appearance is that of a bestial humanoid phantom that floats a foot above the ground as it moves. While bhutas are incorporeal, the touch of their claws creates horrific, bleeding wounds. A bhuta's feet point backward. To disguise its nature, a bhuta can appear solid, manifesting in long robes that help disguise the fact that it floats and has strange feet. By means of its _ [magic jar](spells/magicJar.md#_magic-jar)_ spell-like ability, a bhuta can also possess living animals to use as its minions; an animal possessed by a bhuta casts no shadow, and therefore prefers to lurk in heavily canopied or thicketed areas, waiting for the right time to strike out and attack intruders.
+A bhuta can appear in a variety of animalistic forms by using its _ [veil](spells/veil#_veil)_ ability, but its natural appearance is that of a bestial humanoid phantom that floats a foot above the ground as it moves. While bhutas are incorporeal, the touch of their claws creates horrific, bleeding wounds. A bhuta's feet point backward. To disguise its nature, a bhuta can appear solid, manifesting in long robes that help disguise the fact that it floats and has strange feet. By means of its _ [magic jar](spells/magicJar#_magic-jar)_ spell-like ability, a bhuta can also possess living animals to use as its minions; an animal possessed by a bhuta casts no shadow, and therefore prefers to lurk in heavily canopied or thicketed areas, waiting for the right time to strike out and attack intruders.
 
 Animals find themselves attracted to bhutas, which use their spell-like abilities to manipulate such victims toward evil and deceptive ends. Bhutas generally avoid influencing animal companions or domesticated animals, for changes in behavior among such creatures can easily arouse suspicion and reveal a bhuta's presence and influence.
 

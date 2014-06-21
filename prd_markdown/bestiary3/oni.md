@@ -35,21 +35,21 @@ Fire Yai CR 15
 
 XP 51,200
 
-NE Large outsider (fire, [giant](monsters/creatureTypes.md#_giant-subtype), [native](monsters/creatureTypes.md#_native-subtype), [oni](monsters/creatureTypes.md#_oni-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
+NE Large outsider (fire, [giant](monsters/creatureTypes#_giant-subtype), [native](monsters/creatureTypes#_native-subtype), [oni](monsters/creatureTypes#_oni-subtype), [shapechanger](monsters/creatureTypes#_shapechanger-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +23
+**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception#_perception) +23
 
 Defense
 
 **AC** 29, touch 10, flat-footed 28 (+8 armor, +1 Dex, +11 natural, –1 size)
 
-**hp** 229 (17d10+136); regeneration 5 (acid or [cold](monsters/creatureTypes.md#_cold-subtype))
+**hp** 229 (17d10+136); regeneration 5 (acid or [cold](monsters/creatureTypes#_cold-subtype))
 
 **Fort** +18, **Ref** +10, **Will** +15
 
 **Immune** fire; **SR** 26
 
-**Weaknesses** vulnerability to [cold](monsters/creatureTypes.md#_cold-subtype)
+**Weaknesses** vulnerability to [cold](monsters/creatureTypes#_cold-subtype)
 
 Offense
 
@@ -66,13 +66,13 @@ Offense
 
 **Spell-Like Abilities** (CL 15th; concentration +17)
 
-Constant—_ [fly](spells/fly.md)_
+Constant—_ [fly](spells/fly)_
 
-At will—_ [darkness](spells/darkness.md#_darkness)_, _ [invisibility](spells/invisibility.md#_invisibility)_ (self only), _ [scorching ray](spells/scorchingRay.md#_scorching-ray)_
+At will—_ [darkness](spells/darkness#_darkness)_, _ [invisibility](spells/invisibility#_invisibility)_ (self only), _ [scorching ray](spells/scorchingRay#_scorching-ray)_
 
-3/day—_ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 16), _ [deep slumber](spells/deepSlumber.md#_deep-slumber)_ (DC 15), _ [fireball](spells/fireball.md#_fireball)_ (DC 15), _ [fire shield](spells/fireShield.md#_fire-shield)_ (warm shield only), _ [wall of fire](spells/wallOfFire.md#_wall-of-fire)_
+3/day—_ [charm monster](spells/charmMonster#_charm-monster)_ (DC 16), _ [deep slumber](spells/deepSlumber#_deep-slumber)_ (DC 15), _ [fireball](spells/fireball#_fireball)_ (DC 15), _ [fire shield](spells/fireShield#_fire-shield)_ (warm shield only), _ [wall of fire](spells/wallOfFire#_wall-of-fire)_
 
-1/day—_ [incendiary cloud](spells/incendiaryCloud.md#_incendiary-cloud)_ (DC 20)
+1/day—_ [incendiary cloud](spells/incendiaryCloud#_incendiary-cloud)_ (DC 20)
 
 Statistics
 
@@ -80,19 +80,19 @@ Statistics
 
 **Base Atk** +17; **CMB** +28; **CMD** 41
 
-**Feats** [Cleave](feats.md#_cleave), [Combat Reflexes](feats.md#_combat-reflexes), [Great Cleave](feats.md#_great-cleave), [Improved Initiative](feats.md#_improved-initiative), [Improved Overrun](feats.md#_improved-overrun), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Vital Strike](feats.md#_vital-strike)
+**Feats** [Cleave](feats#_cleave), [Combat Reflexes](feats#_combat-reflexes), [Great Cleave](feats#_great-cleave), [Improved Initiative](feats#_improved-initiative), [Improved Overrun](feats#_improved-overrun), [Iron Will](feats#_iron-will), [Lightning Reflexes](feats#_lightning-reflexes), [Power Attack](feats#_power-attack), [Vital Strike](feats#_vital-strike)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +22, [Craft](skills/craft.md#_craft) (weapons) +12, [Craft](skills/craft.md#_craft) (armor) +12, [Diplomacy](skills/diplomacy.md#_diplomacy) +11, [Disguise](skills/disguise.md#_disguise) +11, [Fly](skills/fly.md#_fly) +14, [Intimidate](skills/intimidate.md#_intimidate) +22, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +14, [Perception](skills/perception.md#_perception) +23, [Sense Motive](skills/senseMotive.md#_sense-motive) +23, [Spellcraft](skills/spellcraft.md#_spellcraft) +11, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +14
+**Skills** [Bluff](skills/bluff#_bluff) +22, [Craft](skills/craft#_craft) (weapons) +12, [Craft](skills/craft#_craft) (armor) +12, [Diplomacy](skills/diplomacy#_diplomacy) +11, [Disguise](skills/disguise#_disguise) +11, [Fly](skills/fly#_fly) +14, [Intimidate](skills/intimidate#_intimidate) +22, [Knowledge](skills/knowledge#_knowledge) (arcana) +14, [Perception](skills/perception#_perception) +23, [Sense Motive](skills/senseMotive#_sense-motive) +23, [Spellcraft](skills/spellcraft#_spellcraft) +11, [Use Magic Device](skills/useMagicDevice#_use-magic-device) +14
 
 **Languages** Common, Giant
 
-**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (Medium or Large humanoid; _ [alter self](spells/alterSelf.md#_alter-self)_ or _ [giant form I](spells/giantForm.md#_giant-form-i)_)
+**SQ** [change shape](monsters/universalMonsterRules#_change-shape) (Medium or Large humanoid; _ [alter self](spells/alterSelf#_alter-self)_ or _ [giant form I](spells/giantForm#_giant-form-i)_)
 
 Ecology
 
 **Environment** temperate or warm hills or mountains
 
-**Organization** solitary, band (1 plus 4–8 fire giants), tribe (1 plus 20–30 fire giants), or dynasty (1 plus 2–20 other [oni](monsters/creatureTypes.md#_oni-subtype))
+**Organization** solitary, band (1 plus 4–8 fire giants), tribe (1 plus 20–30 fire giants), or dynasty (1 plus 2–20 other [oni](monsters/creatureTypes#_oni-subtype))
 
 **Treasure** standard (_+1 banded mail_, _+1 katana_, other treasure)
 
@@ -100,7 +100,7 @@ Special Abilities
 
 **Fiery Missile (Su)** As a swift action, a fire yai can launch a bolt of fire from its third eye. This attack has a range of 180 feet with no range increment.
 
-**Smoke Form (Sp)** As a standard action, a fire yai can turn into a cloud of smoke. This functions like _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_, except the cloud has the properties of the smoke cloud from a _ [pyrotechnics](spells/pyrotechnics.md#_pyrotechnics)_ spell (Fort DC 26 negates the effects of the smoke cloud). The fire yai can end this ability as a standard action.
+**Smoke Form (Sp)** As a standard action, a fire yai can turn into a cloud of smoke. This functions like _ [gaseous form](spells/gaseousForm#_gaseous-form)_, except the cloud has the properties of the smoke cloud from a _ [pyrotechnics](spells/pyrotechnics#_pyrotechnics)_ spell (Fort DC 26 negates the effects of the smoke cloud). The fire yai can end this ability as a standard action.
 
 Fire yai prefer to live in luxury—an orderly and well-built abode is essential. Even a lone fire yai prefers to build or inhabit a fortified stone dwelling in its territory, and surrounds itself with as many luxuries as it can acquire. Vain, greedy, and brutal, fire yai are the most impulsive of their kind—several tales tell of clever heroes taunting fire yai to act rashly. They rarely let challenges pass uncontested and react quickly to squelch any threat to their rule.
 
@@ -116,9 +116,9 @@ Ice Yai CR 14
 
 XP 38,400
 
-CE Large outsider ( [cold](monsters/creatureTypes.md#_cold-subtype), [oni](monsters/creatureTypes.md#_oni-subtype), [giant](monsters/creatureTypes.md#_giant-subtype), [native](monsters/creatureTypes.md#_native-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
+CE Large outsider ( [cold](monsters/creatureTypes#_cold-subtype), [oni](monsters/creatureTypes#_oni-subtype), [giant](monsters/creatureTypes#_giant-subtype), [native](monsters/creatureTypes#_native-subtype), [shapechanger](monsters/creatureTypes#_shapechanger-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +22
+**Init** +2; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception#_perception) +22
 
 Defense
 
@@ -128,7 +128,7 @@ Defense
 
 **Fort** +17, **Ref** +7, **Will** +12
 
-**Immune** [cold](monsters/creatureTypes.md#_cold-subtype); **SR** 25
+**Immune** [cold](monsters/creatureTypes#_cold-subtype); **SR** 25
 
 **Weaknesses** vulnerability to fire
 
@@ -138,7 +138,7 @@ Offense
 
 **Melee** 4 slams +24 (2d8+9)
 
-**Ranged** icy missile +17 (4d6 [cold](monsters/creatureTypes.md#_cold-subtype))
+**Ranged** icy missile +17 (4d6 [cold](monsters/creatureTypes#_cold-subtype))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -146,13 +146,13 @@ Offense
 
 **Spell-Like Abilities** (CL 18th; concentration +22)
 
-Constant—_ [fly](spells/fly.md), [mage armor](spells/mageArmor.md#_mage-armor)_
+Constant—_ [fly](spells/fly), [mage armor](spells/mageArmor#_mage-armor)_
 
-At will—_ [darkness](spells/darkness.md#_darkness)_, _ [invisibility](spells/invisibility.md#_invisibility)_ (self only)
+At will—_ [darkness](spells/darkness#_darkness)_, _ [invisibility](spells/invisibility#_invisibility)_ (self only)
 
-3/day— _ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 18), _ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_ (DC 19), _ [deep slumber](spells/deepSlumber.md#_deep-slumber)_ (DC 17), _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_ (self only)
+3/day— _ [charm monster](spells/charmMonster#_charm-monster)_ (DC 18), _ [cone of cold](spells/coneOfCold#_cone-of-cold)_ (DC 19), _ [deep slumber](spells/deepSlumber#_deep-slumber)_ (DC 17), _ [gaseous form](spells/gaseousForm#_gaseous-form)_ (self only)
 
-1/day—_ [polar ray](spells/polarRay.md#_polar-ray)_, _ [solid fog](spells/solidFog.md#_solid-fog)_
+1/day—_ [polar ray](spells/polarRay#_polar-ray)_, _ [solid fog](spells/solidFog#_solid-fog)_
 
 Statistics
 
@@ -160,18 +160,18 @@ Statistics
 
 **Base Atk** +16; **CMB** +26; **CMD** 39
 
-**Feats** [Cleave](feats.md#_cleave), [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Great Cleave](feats.md#_great-cleave), [Mobility](feats.md#_mobility), [Power Attack](feats.md#_power-attack), [Spring Attack](feats.md#_spring-attack), [Vital Strike](feats.md#_vital-strike)
+**Feats** [Cleave](feats#_cleave), [Combat Reflexes](feats#_combat-reflexes), [Dodge](feats#_dodge), [Great Cleave](feats#_great-cleave), [Mobility](feats#_mobility), [Power Attack](feats#_power-attack), [Spring Attack](feats#_spring-attack), [Vital Strike](feats#_vital-strike)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +23, [Disguise](skills/disguise.md#_disguise) +13, [Fly](skills/fly.md#_fly) +20, [Intimidate](skills/intimidate.md#_intimidate) +23,   
- [Knowledge](skills/knowledge.md#_knowledge) (arcana) +11, [Perception](skills/perception.md#_perception) +22, [Sense Motive](skills/senseMotive.md#_sense-motive) +13, [Spellcraft](skills/spellcraft.md#_spellcraft) +8, [Stealth](skills/stealth.md#_stealth) +17 (+21 in snow), [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +14; **Racial Modifiers** +4 [Stealth](skills/stealth.md#_stealth) in snow
+**Skills** [Bluff](skills/bluff#_bluff) +23, [Disguise](skills/disguise#_disguise) +13, [Fly](skills/fly#_fly) +20, [Intimidate](skills/intimidate#_intimidate) +23,   
+ [Knowledge](skills/knowledge#_knowledge) (arcana) +11, [Perception](skills/perception#_perception) +22, [Sense Motive](skills/senseMotive#_sense-motive) +13, [Spellcraft](skills/spellcraft#_spellcraft) +8, [Stealth](skills/stealth#_stealth) +17 (+21 in snow), [Use Magic Device](skills/useMagicDevice#_use-magic-device) +14; **Racial Modifiers** +4 [Stealth](skills/stealth#_stealth) in snow
 
 **Languages** Common, Giant
 
-**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (Medium or Large humanoid; _ [alter self](spells/alterSelf.md#_alter-self)_ or _ [giant form I](spells/giantForm.md#_giant-form-i)_)
+**SQ** [change shape](monsters/universalMonsterRules#_change-shape) (Medium or Large humanoid; _ [alter self](spells/alterSelf#_alter-self)_ or _ [giant form I](spells/giantForm#_giant-form-i)_)
 
 Ecology
 
-**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) mountains
+**Environment** [cold](monsters/creatureTypes#_cold-subtype) mountains
 
 **Organization** solitary or gang (1 plus 4–16 frost giants)
 
@@ -179,7 +179,7 @@ Ecology
 
 Special Abilities
 
-**Icy Missile (Su)** As a swift action, the ice yai can fire a dart of ice from its third eye. This dart is a ranged touch attack (+20 attack bonus), dealing 4d6 points of [cold](monsters/creatureTypes.md#_cold-subtype) damage on a hit. This attack has a range of 180 feet with no range increment.
+**Icy Missile (Su)** As a swift action, the ice yai can fire a dart of ice from its third eye. This dart is a ranged touch attack (+20 attack bonus), dealing 4d6 points of [cold](monsters/creatureTypes#_cold-subtype) damage on a hit. This attack has a range of 180 feet with no range increment.
 
 **Staggering Strikes (Ex)** An ice yai can strike twice per round with its two slam attacks. A creature struck by more than two of these slam attacks in a round must make a DC 28 Fortitude save or be staggered for 1 round. The save DC is Strength-based.
 
@@ -195,9 +195,9 @@ Kuwa CR 4
 
 XP 1,200
 
-LE Medium outsider ( [human](monsters/creatureTypes.md#_human-subtype), [native](monsters/creatureTypes.md#_native-subtype), [oni](monsters/creatureTypes.md#_oni-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
+LE Medium outsider ( [human](monsters/creatureTypes#_human-subtype), [native](monsters/creatureTypes#_native-subtype), [oni](monsters/creatureTypes#_oni-subtype), [shapechanger](monsters/creatureTypes#_shapechanger-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +10
+**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception#_perception) +10
 
 Defense
 
@@ -220,9 +220,9 @@ Offense
 
 **Spell-Like Abilities** (CL 5th; concentration +8)
 
-3/day—_ [darkness](spells/darkness.md#_darkness), [fly](spells/fly.md)_
+3/day—_ [darkness](spells/darkness#_darkness), [fly](spells/fly)_
 
-1/day—_ [charm person](spells/charmPerson.md#_charm-person)_ (DC 14), _ [deep slumber](spells/deepSlumber.md#_deep-slumber)_ (DC 16), _ [invisibility](spells/invisibility.md#_invisibility)_ (self only)
+1/day—_ [charm person](spells/charmPerson#_charm-person)_ (DC 14), _ [deep slumber](spells/deepSlumber#_deep-slumber)_ (DC 16), _ [invisibility](spells/invisibility#_invisibility)_ (self only)
 
 Statistics
 
@@ -230,13 +230,13 @@ Statistics
 
 **Base Atk** +5; **CMB** +9; **CMD** 22
 
-**Feats** [Cleave](feats.md#_cleave), [Combat Reflexes](feats.md#_combat-reflexes), [Power Attack](feats.md#_power-attack)
+**Feats** [Cleave](feats#_cleave), [Combat Reflexes](feats#_combat-reflexes), [Power Attack](feats#_power-attack)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +11, [Disguise](skills/disguise.md#_disguise) +7, [Intimidate](skills/intimidate.md#_intimidate) +11, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +9, [Perception](skills/perception.md#_perception) +10, [Sense Motive](skills/senseMotive.md#_sense-motive) +10, [Spellcraft](skills/spellcraft.md#_spellcraft) +3, [Stealth](skills/stealth.md#_stealth) +4, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +11
+**Skills** [Bluff](skills/bluff#_bluff) +11, [Disguise](skills/disguise#_disguise) +7, [Intimidate](skills/intimidate#_intimidate) +11, [Knowledge](skills/knowledge#_knowledge) (arcana) +9, [Perception](skills/perception#_perception) +10, [Sense Motive](skills/senseMotive#_sense-motive) +10, [Spellcraft](skills/spellcraft#_spellcraft) +3, [Stealth](skills/stealth#_stealth) +4, [Use Magic Device](skills/useMagicDevice#_use-magic-device) +11
 
 **Languages** Common
 
-**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (any [human](monsters/creatureTypes.md#_human-subtype); _ [alter self](spells/alterSelf.md#_alter-self)_)
+**SQ** [change shape](monsters/universalMonsterRules#_change-shape) (any [human](monsters/creatureTypes#_human-subtype); _ [alter self](spells/alterSelf#_alter-self)_)
 
 Ecology
 
@@ -261,9 +261,9 @@ Spirit Oni CR 2
 
 XP 600
 
-NE Tiny outsider ( [native](monsters/creatureTypes.md#_native-subtype), [oni](monsters/creatureTypes.md#_oni-subtype))
+NE Tiny outsider ( [native](monsters/creatureTypes#_native-subtype), [oni](monsters/creatureTypes#_oni-subtype))
 
-**Init** +8; **Senses** darkvision 60 ft., _ [detect magic](spells/detectMagic.md#_detect-magic)_; [Perception](skills/perception.md#_perception) +7
+**Init** +8; **Senses** darkvision 60 ft., _ [detect magic](spells/detectMagic#_detect-magic)_; [Perception](skills/perception#_perception) +7
 
 Defense
 
@@ -277,19 +277,19 @@ Offense
 
 **Speed** 10 ft., fly 30 ft. (good)
 
-**Melee** bite +9 (1d4–2), gore +9 (1d4–2 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
+**Melee** bite +9 (1d4–2), gore +9 (1d4–2 plus [poison](monsters/universalMonsterRules#_poison-(ex-or-su)))
 
-**Special Attacks** [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))
+**Special Attacks** [poison](monsters/universalMonsterRules#_poison-(ex-or-su))
 
 **Spell-Like Abilities** (CL 6th; concentration +8)
 
-Constant—_ [detect magic](spells/detectMagic.md#_detect-magic)_
+Constant—_ [detect magic](spells/detectMagic#_detect-magic)_
 
-At will—_ [invisibility](spells/invisibility.md#_invisibility)_ (self only), _ [mage hand](spells/mageHand.md#_mage-hand)_
+At will—_ [invisibility](spells/invisibility#_invisibility)_ (self only), _ [mage hand](spells/mageHand#_mage-hand)_
 
-1/day—_ [command](spells/command.md#_command)_ (DC 13), _ [sleep](spells/sleep.md#_sleep)_ (DC 13)
+1/day—_ [command](spells/command#_command)_ (DC 13), _ [sleep](spells/sleep#_sleep)_ (DC 13)
 
-1/week—_ [commune](spells/commune.md#_commune)_ (CL 12th, 6 questions)
+1/week—_ [commune](spells/commune#_commune)_ (CL 12th, 6 questions)
 
 Statistics
 
@@ -297,9 +297,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +5; **CMD** 13 (can't be tripped)
 
-**Feats** [Improved Initiative](feats.md#_improved-initiative), [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Improved Initiative](feats#_improved-initiative), [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +7, [Bluff](skills/bluff.md#_bluff) +8, [Fly](skills/fly.md#_fly) +16, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +7, [Perception](skills/perception.md#_perception) +7, [Sense Motive](skills/senseMotive.md#_sense-motive) +7, [Spellcraft](skills/spellcraft.md#_spellcraft) +4, [Stealth](skills/stealth.md#_stealth) +17
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +7, [Bluff](skills/bluff#_bluff) +8, [Fly](skills/fly#_fly) +16, [Knowledge](skills/knowledge#_knowledge) (arcana) +7, [Perception](skills/perception#_perception) +7, [Sense Motive](skills/senseMotive#_sense-motive) +7, [Spellcraft](skills/spellcraft#_spellcraft) +4, [Stealth](skills/stealth#_stealth) +17
 
 **Languages** Common
 
@@ -315,13 +315,13 @@ Ecology
 
 Special Abilities
 
-**Mask Symbiosis (Ex)** A spirit [oni](monsters/creatureTypes.md#_oni-subtype) can be worn as a mask by a willing Small or Medium creature. While worn in this way, the wearer can see through the [oni](monsters/creatureTypes.md#_oni-subtype)'s eyes and speak through its mouth, although the wearer retains its own senses and voice. The spirit [oni](monsters/creatureTypes.md#_oni-subtype) remains a separate creature, and must detach from its host's face (as a move action) if it wishes to take any action of its own (including attacking or using a spell-like ability). While a spirit [oni](monsters/creatureTypes.md#_oni-subtype) is worn as a mask, it grants a +2 insight bonus on its host's [Perception](skills/perception.md#_perception) checks.
+**Mask Symbiosis (Ex)** A spirit [oni](monsters/creatureTypes#_oni-subtype) can be worn as a mask by a willing Small or Medium creature. While worn in this way, the wearer can see through the [oni](monsters/creatureTypes#_oni-subtype)'s eyes and speak through its mouth, although the wearer retains its own senses and voice. The spirit [oni](monsters/creatureTypes#_oni-subtype) remains a separate creature, and must detach from its host's face (as a move action) if it wishes to take any action of its own (including attacking or using a spell-like ability). While a spirit [oni](monsters/creatureTypes#_oni-subtype) is worn as a mask, it grants a +2 insight bonus on its host's [Perception](skills/perception#_perception) checks.
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Gore—injury; _save_ Fort DC 12; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Cha; _cure_ 2 consecutive saves.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (Ex)** Gore—injury; _save_ Fort DC 12; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Cha; _cure_ 2 consecutive saves.
 
 Most oni that emerge on the Material Plane do so into a new body of humanoid flesh, yet this is not the case for all oni. Periodically, when an evil spellcaster wishes to engage the servitude of an oni as a familiar, the result is something relatively unusual—an oni made flesh directly from its spiritual form rather than one who takes the features of a humanoid as its own.
 
-Any lawful evil 7th-level spellcaster who takes the [Improved Familiar](feats.md#_improved-familiar) feat can gain a spirit oni as a familiar. The ritual to gain such a familiar requires the spellcaster to craft a particularly fiendish and fierce-looking oni mask—this does not require a [Craft](skills/craft.md#_craft) check or any additional expenditure of gold, and is assumed to be part of the overall ritual for securing the familiar. When the ritual is complete a raw oni spirit is lured into the mask, which immediately transforms it into the animate, living creature presented here.
+Any lawful evil 7th-level spellcaster who takes the [Improved Familiar](feats#_improved-familiar) feat can gain a spirit oni as a familiar. The ritual to gain such a familiar requires the spellcaster to craft a particularly fiendish and fierce-looking oni mask—this does not require a [Craft](skills/craft#_craft) check or any additional expenditure of gold, and is assumed to be part of the overall ritual for securing the familiar. When the ritual is complete a raw oni spirit is lured into the mask, which immediately transforms it into the animate, living creature presented here.
 
 While the ritual binds the oni to its new master, it also robs the oni of its immediate chance to achieve a human form. As a result, spirit oni are foul-tempered and cantankerous creatures, even to their masters. They must be regularly reprimanded and disciplined, lest their jealousy and bitterness get the better of them.
 
@@ -335,19 +335,19 @@ Void Yai CR 20
 
 XP 307,200
 
-LE Huge outsider ( [giant](monsters/creatureTypes.md#_giant-subtype), [native](monsters/creatureTypes.md#_native-subtype), [oni](monsters/creatureTypes.md#_oni-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
+LE Huge outsider ( [giant](monsters/creatureTypes#_giant-subtype), [native](monsters/creatureTypes#_native-subtype), [oni](monsters/creatureTypes#_oni-subtype), [shapechanger](monsters/creatureTypes#_shapechanger-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft., low-light vision, _ [true seeing](spells/trueSeeing.md#_true-seeing)_; [Perception](skills/perception.md#_perception) +29
+**Init** +6; **Senses** darkvision 60 ft., low-light vision, _ [true seeing](spells/trueSeeing#_true-seeing)_; [Perception](skills/perception#_perception) +29
 
 Defense
 
 **AC** 36, touch 9, flat-footed 35 (+9 armor, +1 Dex, +18 natural, –2 size)
 
-**hp** 379 (23d10+253); regeneration 15 (fire or [good](monsters/creatureTypes.md#_good-subtype) spells)
+**hp** 379 (23d10+253); regeneration 15 (fire or [good](monsters/creatureTypes#_good-subtype) spells)
 
 **Fort** +24, **Ref** +9, **Will** +21
 
-**Immune** [cold](monsters/creatureTypes.md#_cold-subtype); **SR** 31
+**Immune** [cold](monsters/creatureTypes#_cold-subtype); **SR** 31
 
 Offense
 
@@ -356,21 +356,21 @@ Offense
 **Melee** mwk greatclub +39/+34/+29/+24 (3d8+25/19–20) or   
 2 slams +23 (2d6+25)
 
-**Ranged** void missile +23 touch (6d6 plus [energy drain](monsters/universalMonsterRules.md#_energy-drain))
+**Ranged** void missile +23 touch (6d6 plus [energy drain](monsters/universalMonsterRules#_energy-drain))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** commanding voice, [energy drain](monsters/universalMonsterRules.md#_energy-drain) (2 levels, DC 28), void trap
+**Special Attacks** commanding voice, [energy drain](monsters/universalMonsterRules#_energy-drain) (2 levels, DC 28), void trap
 
 **Spell-Like Abilities** (CL 20th; concentration +27)
 
-Constant—_ [fire shield](spells/fireShield.md#_fire-shield)_ (chill shield), _ [fly](spells/fly.md)_, _ [true seeing](spells/trueSeeing.md#_true-seeing)_
+Constant—_ [fire shield](spells/fireShield#_fire-shield)_ (chill shield), _ [fly](spells/fly)_, _ [true seeing](spells/trueSeeing#_true-seeing)_
 
-At will—_ [deeper darkness](spells/deeperDarkness.md#_deeper-darkness)_, _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_ (self only), _ [greater dispel magic](spells/dispelMagic.md#_dispel-magic-greater)_, _ [greater teleport](spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [invisibility](spells/invisibility.md#_invisibility)_ (self only), _ [minor creation](spells/minorCreation.md#_minor-creation), [vision](spells/vision.md#_vision)_
+At will—_ [deeper darkness](spells/deeperDarkness#_deeper-darkness)_, _ [gaseous form](spells/gaseousForm#_gaseous-form)_ (self only), _ [greater dispel magic](spells/dispelMagic#_dispel-magic-greater)_, _ [greater teleport](spells/teleport#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [invisibility](spells/invisibility#_invisibility)_ (self only), _ [minor creation](spells/minorCreation#_minor-creation), [vision](spells/vision#_vision)_
 
-3/day—_ [cone of cold](spells/coneOfCold.md#_cone-of-cold)_ (DC 22), _ [demand](spells/demand.md#_demand)_ (DC 25), _ [dominate person](spells/dominatePerson.md#_dominate-person)_ (DC 22), _ [major creation](spells/majorCreation.md#_major-creation)_, _ [mass charm monster](spells/charmMonster.md#_charm-monster-mass)_ (DC 25), _ [polar ray](spells/polarRay.md#_polar-ray), [teleport object](spells/teleportObject.md#_teleport-object)_ (DC 24)
+3/day—_ [cone of cold](spells/coneOfCold#_cone-of-cold)_ (DC 22), _ [demand](spells/demand#_demand)_ (DC 25), _ [dominate person](spells/dominatePerson#_dominate-person)_ (DC 22), _ [major creation](spells/majorCreation#_major-creation)_, _ [mass charm monster](spells/charmMonster#_charm-monster-mass)_ (DC 25), _ [polar ray](spells/polarRay#_polar-ray), [teleport object](spells/teleportObject#_teleport-object)_ (DC 24)
 
-1/day—_ [implosion](spells/implosion.md#_implosion)_ (DC 26), _ [plane shift](spells/planeShift.md#_plane-shift)_ (DC 24)
+1/day—_ [implosion](spells/implosion#_implosion)_ (DC 26), _ [plane shift](spells/planeShift#_plane-shift)_ (DC 24)
 
 Statistics
 
@@ -378,17 +378,17 @@ Statistics
 
 **Base Atk** +23; **CMB** +42; **CMD** 54
 
-**Feats** [Awesome Blow](monsters/monsterFeats.md#_awesome-blow), [Cleave](feats.md#_cleave), [Combat Reflexes](feats.md#_combat-reflexes), [Critical Focus](feats.md#_critical-focus), [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Critical](feats.md#_improved-critical) (greatclub), [Improved Initiative](feats.md#_improved-initiative), [Improved Vital Strike](feats.md#_improved-vital-strike), [Iron Will](feats.md#_iron-will), [Power Attack](feats.md#_power-attack), [Staggering Critical](feats.md#_staggering-critical), [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Awesome Blow](monsters/monsterFeats#_awesome-blow), [Cleave](feats#_cleave), [Combat Reflexes](feats#_combat-reflexes), [Critical Focus](feats#_critical-focus), [Improved Bull Rush](feats#_improved-bull-rush), [Improved Critical](feats#_improved-critical) (greatclub), [Improved Initiative](feats#_improved-initiative), [Improved Vital Strike](feats#_improved-vital-strike), [Iron Will](feats#_iron-will), [Power Attack](feats#_power-attack), [Staggering Critical](feats#_staggering-critical), [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +17 (+25 when jumping), [Bluff](skills/bluff.md#_bluff) +30, [Fly](skills/fly.md#_fly) +20, [Intimidate](skills/intimidate.md#_intimidate) +30, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +27, [Knowledge](skills/knowledge.md#_knowledge) (history) +24, [Knowledge](skills/knowledge.md#_knowledge) (nobility) +14, [Knowledge](skills/knowledge.md#_knowledge) (planes) +27, [Perception](skills/perception.md#_perception) +29, [Sense Motive](skills/senseMotive.md#_sense-motive) +29, [Spellcraft](skills/spellcraft.md#_spellcraft) +24, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +30
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +17 (+25 when jumping), [Bluff](skills/bluff#_bluff) +30, [Fly](skills/fly#_fly) +20, [Intimidate](skills/intimidate#_intimidate) +30, [Knowledge](skills/knowledge#_knowledge) (arcana) +27, [Knowledge](skills/knowledge#_knowledge) (history) +24, [Knowledge](skills/knowledge#_knowledge) (nobility) +14, [Knowledge](skills/knowledge#_knowledge) (planes) +27, [Perception](skills/perception#_perception) +29, [Sense Motive](skills/senseMotive#_sense-motive) +29, [Spellcraft](skills/spellcraft#_spellcraft) +24, [Use Magic Device](skills/useMagicDevice#_use-magic-device) +30
 
 **Languages** Common, Giant
 
-**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (Large, Huge, or Gargantuan humanoid; _ [giant form II](spells/giantForm.md#_giant-form-ii)_), void form
+**SQ** [change shape](monsters/universalMonsterRules#_change-shape) (Large, Huge, or Gargantuan humanoid; _ [giant form II](spells/giantForm#_giant-form-ii)_), void form
 
 Ecology
 
-**Environment** [cold](monsters/creatureTypes.md#_cold-subtype) or temperate mountains
+**Environment** [cold](monsters/creatureTypes#_cold-subtype) or temperate mountains
 
 **Organization** solitary
 
@@ -396,13 +396,13 @@ Ecology
 
 Special Abilities
 
-**Commanding Voice (Su)** A void [oni](monsters/creatureTypes.md#_oni-subtype) gains a +4 racial bonus on the save DC of any charm or compulsion effects it uses against humanoids.
+**Commanding Voice (Su)** A void [oni](monsters/creatureTypes#_oni-subtype) gains a +4 racial bonus on the save DC of any charm or compulsion effects it uses against humanoids.
 
-**Void Form (Su)** A void yai may become [incorporeal](monsters/creatureTypes.md#_incorporeal-subtype) as a swift action. In this form, it appears as a solid black shadow of its true form. It gains the [incorporeal](monsters/creatureTypes.md#_incorporeal-subtype) subtype and [incorporeal](monsters/creatureTypes.md#_incorporeal-subtype) defensive ability while in void form. Any gear or armor the yai carries becomes [incorporeal](monsters/creatureTypes.md#_incorporeal-subtype) as well—it loses its AC bonus from armor and natural armor, but gains a deflection bonus to its AC equal to its Charisma modifier (+7 for most void yai, for an AC of 16). It may still speak while [incorporeal](monsters/creatureTypes.md#_incorporeal-subtype) and can still use its spell-like and special abilities.
+**Void Form (Su)** A void yai may become [incorporeal](monsters/creatureTypes#_incorporeal-subtype) as a swift action. In this form, it appears as a solid black shadow of its true form. It gains the [incorporeal](monsters/creatureTypes#_incorporeal-subtype) subtype and [incorporeal](monsters/creatureTypes#_incorporeal-subtype) defensive ability while in void form. Any gear or armor the yai carries becomes [incorporeal](monsters/creatureTypes#_incorporeal-subtype) as well—it loses its AC bonus from armor and natural armor, but gains a deflection bonus to its AC equal to its Charisma modifier (+7 for most void yai, for an AC of 16). It may still speak while [incorporeal](monsters/creatureTypes#_incorporeal-subtype) and can still use its spell-like and special abilities.
 
 **Void Missile (Su)** As a swift action, a void yai can launch a bolt of darkness from its third eye. Damage caused by this missile is negative energy damage. This attack has a range of 180 feet with no range increment.
 
-**Void Trap (Su)** When a void [oni](monsters/creatureTypes.md#_oni-subtype) uses any teleportation effect on itself (including its _ [greater teleport](spells/teleport.md#_teleport-greater)_ and _ [plane shift](spells/planeShift.md#_plane-shift)_ spell-like abilities, but not its _ [teleport object](spells/teleportObject.md#_teleport-object)_ spell-like ability), it can choose to arrive at its destination in void form as a free action. When it does so, it leaves behind a temporary lesser _sphere of annihilation_ in a square of its choice that was part of its space before it teleported. This _sphere of annihilation_ cannot be caused to move by other creatures, but the sphere itself moves at a fly speed of 30 feet (perfect) toward the closest Tiny or larger creature on the [oni](monsters/creatureTypes.md#_oni-subtype)'s next turn. If no appropriate creature is within 30 feet, the sphere does not move that round. If the sphere enters a square occupied by a creature (or if a creature touches the sphere), that creature is affected as if by a _ [disintegrate](spells/disintegrate.md#_disintegrate)_ spell (CL 20th, DC 23). Once the sphere damages a creature with this effect, the sphere vanishes—it also vanishes on its own after 24 hours in the unlikely event that it never discharges on a creature. The save DC is Charisma-based.
+**Void Trap (Su)** When a void [oni](monsters/creatureTypes#_oni-subtype) uses any teleportation effect on itself (including its _ [greater teleport](spells/teleport#_teleport-greater)_ and _ [plane shift](spells/planeShift#_plane-shift)_ spell-like abilities, but not its _ [teleport object](spells/teleportObject#_teleport-object)_ spell-like ability), it can choose to arrive at its destination in void form as a free action. When it does so, it leaves behind a temporary lesser _sphere of annihilation_ in a square of its choice that was part of its space before it teleported. This _sphere of annihilation_ cannot be caused to move by other creatures, but the sphere itself moves at a fly speed of 30 feet (perfect) toward the closest Tiny or larger creature on the [oni](monsters/creatureTypes#_oni-subtype)'s next turn. If no appropriate creature is within 30 feet, the sphere does not move that round. If the sphere enters a square occupied by a creature (or if a creature touches the sphere), that creature is affected as if by a _ [disintegrate](spells/disintegrate#_disintegrate)_ spell (CL 20th, DC 23). Once the sphere damages a creature with this effect, the sphere vanishes—it also vanishes on its own after 24 hours in the unlikely event that it never discharges on a creature. The save DC is Charisma-based.
 
 The concept of the void is a difficult one for many individuals to grasp, for it encompasses more than just an absence of anything. The concept of “void” as an element also represents the heavens above, the dark places between the stars, the nature of the spiritual world, and even the capacity to create and envision new ideas. The void yai represents all of these possibilities, interpreted in a way that exemplifies the evil of the oni race.
 
@@ -416,9 +416,9 @@ Between the considerable power of the typical void yai and the divine might of t
 
 While void yai typically content themselves with ruling nations, voidlords arrive with a greater mission—to control entire worlds and bring all that dwell upon these worlds to their knees. Voidlords are always void yai with additional racial Hit Dice or class levels—levels of fighter, monk, and rogue are favorite choices for voidlords. These powerful outsiders generally eschew spellcasting classes under the opinion that might and the oni's inborn supernatural abilities are a greater path to conquest than mortal magic. In addition to having the typical void yai abilities, each voidlord possesses an additional number of powers keyed to that voidlord's particular area of focus. Two sample voidlord foci are listed below, but these represent only a tiny fraction of the total possible.
 
-**Martial Arts** : A voidlord of martial arts always attacks with unarmed strikes—it is treated as a 20th-level monk with the flurry of blows ability for the purposes of determining its damage and number of attacks per round with its unarmed strikes. This voidlord gains Stunning Fist as a bonus feat, and gains the use of the following spell-like abilities three times per day: _ [forceful hand](spells/forcefulHand.md#_forceful-hand)_, _ [grasping hand](spells/graspingHand.md#_grasping-hand)_, and _ [greater shout](spells/shout.md#_shout-greater)_.
+**Martial Arts** : A voidlord of martial arts always attacks with unarmed strikes—it is treated as a 20th-level monk with the flurry of blows ability for the purposes of determining its damage and number of attacks per round with its unarmed strikes. This voidlord gains Stunning Fist as a bonus feat, and gains the use of the following spell-like abilities three times per day: _ [forceful hand](spells/forcefulHand#_forceful-hand)_, _ [grasping hand](spells/graspingHand#_grasping-hand)_, and _ [greater shout](spells/shout#_shout-greater)_.
 
-**Swordplay** : A voidlord of sword fighting always carries a sword of some sort—typically a katana. These voidlords gain the ability to use the following spell-like abilities three times per day: _ [blade barrier](spells/bladeBarrier.md#_blade-barrier)_, _ [keen edge](spells/keenEdge.md#_keen-edge)_, and _ [mage's sword](spells/mageSSword.md#_mage-s-sword)_. They are automatically proficient in the use of swords, and any sword they wield is treated as a _+5 weapon_, in addition to any other magical qualities the weapon might have. A voidlord of swordplay can also permanently transform any magic weapon (save for artifacts) into a sword of any size or type by touch.
+**Swordplay** : A voidlord of sword fighting always carries a sword of some sort—typically a katana. These voidlords gain the ability to use the following spell-like abilities three times per day: _ [blade barrier](spells/bladeBarrier#_blade-barrier)_, _ [keen edge](spells/keenEdge#_keen-edge)_, and _ [mage's sword](spells/mageSSword#_mage-s-sword)_. They are automatically proficient in the use of swords, and any sword they wield is treated as a _+5 weapon_, in addition to any other magical qualities the weapon might have. A voidlord of swordplay can also permanently transform any magic weapon (save for artifacts) into a sword of any size or type by touch.
 
 # Oni, Water Yai
 
@@ -428,19 +428,19 @@ Water Yai CR 18
 
 XP 153,600
 
-CE Huge outsider ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype), [giant](monsters/creatureTypes.md#_giant-subtype), [native](monsters/creatureTypes.md#_native-subtype), [oni](monsters/creatureTypes.md#_oni-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype), [water](monsters/creatureTypes.md#_water-subtype))
+CE Huge outsider ( [aquatic](monsters/creatureTypes#_aquatic-subtype), [giant](monsters/creatureTypes#_giant-subtype), [native](monsters/creatureTypes#_native-subtype), [oni](monsters/creatureTypes#_oni-subtype), [shapechanger](monsters/creatureTypes#_shapechanger-subtype), [water](monsters/creatureTypes#_water-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +26
+**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception#_perception) +26
 
 Defense
 
 **AC** 32, touch 11, flat-footed 29 (+6 armor, +3 Dex, +15 natural, –2 size)
 
-**hp** 297 (22d10+176); regeneration 10 (fire or [good](monsters/creatureTypes.md#_good-subtype) spells)
+**hp** 297 (22d10+176); regeneration 10 (fire or [good](monsters/creatureTypes#_good-subtype) spells)
 
 **Fort** +21, **Ref** +10, **Will** +18
 
-**Defensive Abilities** _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_; **Immune** acid; **SR** 29
+**Defensive Abilities** _ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_; **Immune** acid; **SR** 29
 
 Offense
 
@@ -455,11 +455,11 @@ Offense
 
 **Spell-Like Abilities** (CL 18th; concentration +24)
 
-Constant—_ [fly](spells/fly.md), [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement), [water walk](spells/waterWalk.md#_water-walk)_
+Constant—_ [fly](spells/fly), [freedom of movement](spells/freedomOfMovement#_freedom-of-movement), [water walk](spells/waterWalk#_water-walk)_
 
-At will—_ [invisibility](spells/invisibility.md#_invisibility)_ (self only), _liquid form, [water breathing](spells/waterBreathing.md#_water-breathing)_
+At will—_ [invisibility](spells/invisibility#_invisibility)_ (self only), _liquid form, [water breathing](spells/waterBreathing#_water-breathing)_
 
-3/day—_ [charm monster](spells/charmMonster.md#_charm-monster)_ (DC 20), _ [cone of cold](spells/coneOfCold.md#_cone-of-cold) _(DC 21), _ [control water](spells/controlWater.md#_control-water), [polar ray](spells/polarRay.md#_polar-ray)_
+3/day—_ [charm monster](spells/charmMonster#_charm-monster)_ (DC 20), _ [cone of cold](spells/coneOfCold#_cone-of-cold) _(DC 21), _ [control water](spells/controlWater#_control-water), [polar ray](spells/polarRay#_polar-ray)_
 
 Statistics
 
@@ -467,17 +467,17 @@ Statistics
 
 **Base Atk** +22; **CMB** +38 (+40 bull rush, disarm); **CMD** 51 (53 vs. bull rush, disarm)
 
-**Feats** [Awesome Blow](monsters/monsterFeats.md#_awesome-blow), [Blind-Fight](feats.md#_blind-fight), [Cleave](feats.md#_cleave), [Combat Expertise](feats.md#_combat-expertise), [Combat Reflexes](feats.md#_combat-reflexes), [Critical Focus](feats.md#_critical-focus), [Improved Bull Rush](feats.md#_improved-bull-rush), [Improved Critical](feats.md#_improved-critical) (spear), Improved Disarm, [Improved Initiative](feats.md#_improved-initiative), [Power Attack](feats.md#_power-attack)
+**Feats** [Awesome Blow](monsters/monsterFeats#_awesome-blow), [Blind-Fight](feats#_blind-fight), [Cleave](feats#_cleave), [Combat Expertise](feats#_combat-expertise), [Combat Reflexes](feats#_combat-reflexes), [Critical Focus](feats#_critical-focus), [Improved Bull Rush](feats#_improved-bull-rush), [Improved Critical](feats#_improved-critical) (spear), Improved Disarm, [Improved Initiative](feats#_improved-initiative), [Power Attack](feats#_power-attack)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +21 (+29 when jumping), [Bluff](skills/bluff.md#_bluff) +27, [Disguise](skills/disguise.md#_disguise) +24, [Fly](skills/fly.md#_fly) +24, [Intimidate](skills/intimidate.md#_intimidate) +27, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +24, [Perception](skills/perception.md#_perception) +26, [Perform](skills/perform.md#_perform) (sing) +24, [Sense Motive](skills/senseMotive.md#_sense-motive) +26, [Spellcraft](skills/spellcraft.md#_spellcraft) +21, [Swim](skills/swim.md#_swim) +43
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +21 (+29 when jumping), [Bluff](skills/bluff#_bluff) +27, [Disguise](skills/disguise#_disguise) +24, [Fly](skills/fly#_fly) +24, [Intimidate](skills/intimidate#_intimidate) +27, [Knowledge](skills/knowledge#_knowledge) (arcana) +24, [Perception](skills/perception#_perception) +26, [Perform](skills/perform#_perform) (sing) +24, [Sense Motive](skills/senseMotive#_sense-motive) +26, [Spellcraft](skills/spellcraft#_spellcraft) +21, [Swim](skills/swim#_swim) +43
 
 **Languages** Common, Giant
 
-**SQ** amphibious, [change shape](monsters/universalMonsterRules.md#_change-shape) (Medium, Large, or Huge humanoid; _ [alter self](spells/alterSelf.md#_alter-self)_ or _ [giant form II](spells/giantForm.md#_giant-form-ii)_)
+**SQ** amphibious, [change shape](monsters/universalMonsterRules#_change-shape) (Medium, Large, or Huge humanoid; _ [alter self](spells/alterSelf#_alter-self)_ or _ [giant form II](spells/giantForm#_giant-form-ii)_)
 
 Ecology
 
-**Environment** any [water](monsters/creatureTypes.md#_water-subtype)
+**Environment** any [water](monsters/creatureTypes#_water-subtype)
 
 **Organization** solitary
 
@@ -485,11 +485,11 @@ Ecology
 
 Special Abilities
 
-**Acidic Missile (Su)** As a swift action, a [water](monsters/creatureTypes.md#_water-subtype) yai can launch a bolt of acid from its third eye. Any creature struck by this bolt must also make a DC 29 Fortitude save to avoid becoming nauseated for 1 round by the overwhelming stench of the acid. This attack has a range of 180 feet with no range increment. The save DC is Constitution-based.
+**Acidic Missile (Su)** As a swift action, a [water](monsters/creatureTypes#_water-subtype) yai can launch a bolt of acid from its third eye. Any creature struck by this bolt must also make a DC 29 Fortitude save to avoid becoming nauseated for 1 round by the overwhelming stench of the acid. This attack has a range of 180 feet with no range increment. The save DC is Constitution-based.
 
-**Flowing Robes (Su)** A [water](monsters/creatureTypes.md#_water-subtype) yai wears a special silk kimono infused with magical [water](monsters/creatureTypes.md#_water-subtype). This kimono grants a +6 armor bonus. These robes function as armor only for [water](monsters/creatureTypes.md#_water-subtype) yai.
+**Flowing Robes (Su)** A [water](monsters/creatureTypes#_water-subtype) yai wears a special silk kimono infused with magical [water](monsters/creatureTypes#_water-subtype). This kimono grants a +6 armor bonus. These robes function as armor only for [water](monsters/creatureTypes#_water-subtype) yai.
 
-**Liquid Form (Sp)** As a standard action, a [water](monsters/creatureTypes.md#_water-subtype) yai can turn into a mobile pool of [water](monsters/creatureTypes.md#_water-subtype). This functions like _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_, except that the yai cannot fly in this form. It retains its own base speed, and its swim speed doubles to 120 feet. The [water](monsters/creatureTypes.md#_water-subtype) yai can end this ability as a standard action.
+**Liquid Form (Sp)** As a standard action, a [water](monsters/creatureTypes#_water-subtype) yai can turn into a mobile pool of [water](monsters/creatureTypes#_water-subtype). This functions like _ [gaseous form](spells/gaseousForm#_gaseous-form)_, except that the yai cannot fly in this form. It retains its own base speed, and its swim speed doubles to 120 feet. The [water](monsters/creatureTypes#_water-subtype) yai can end this ability as a standard action.
 
 The water yai clad themselves in the flesh of storm giants, yet these yai are more at home dwelling beneath the waves than they are above them. Unlike most oni, water yai have no real longing to rule or infiltrate societies—yet they still enjoy posing as humanoids. They often assume the forms of enormous merfolk in the water, but prefer to adopt the shapes of storm giants when on land. The water yai then pursues its favorite decadence—the acclimation of material wealth and luxuries. Water yai tend to be easily distracted by beautiful treasures, and despite their evil natures are prone to acts of unexpected frivolity.
 

@@ -12,9 +12,9 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Will](../combat.md#_will) half (harmless); see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless); see text
+**Saving Throw** [Will](../combat#_will) half (harmless); see text; **[Spell Resistance](../glossary#_spell-resistance)** yes (harmless); see text
 
-When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply [spell resistance](../glossary.md#_spell-resistance), and can attempt a [Will](../combat.md#_will) save to take half damage.
+When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply [spell resistance](../glossary#_spell-resistance), and can attempt a [Will](../combat#_will) save to take half damage.
 
 **Cure Light Wounds, Mass**
 
@@ -30,7 +30,7 @@ When laying your hand upon a living creature, you channel positive energy that c
 
 **Duration** instantaneous
 
-**Saving Throw** [Will](../combat.md#_will) half (harmless) or [Will](../combat.md#_will) half; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless) or yes; see text
+**Saving Throw** [Will](../combat#_will) half (harmless) or [Will](../combat#_will) half; see text; **[Spell Resistance](../glossary#_spell-resistance)** yes (harmless) or yes; see text
 
-You channel positive energy to cure 1d8 points of damage + 1 point per caster level (maximum +25) on each selected creature. Like other _cure _spells, _mass cure light wounds _deals damage to undead in its area rather than curing them. Each affected undead may attempt a [Will](../combat.md#_will) save for half damage.
+You channel positive energy to cure 1d8 points of damage + 1 point per caster level (maximum +25) on each selected creature. Like other _cure _spells, _mass cure light wounds _deals damage to undead in its area rather than curing them. Each affected undead may attempt a [Will](../combat#_will) save for half damage.
 

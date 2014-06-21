@@ -6,9 +6,9 @@ Giant Whiptail CentipedeCR 3
 
 **XP 800**
 
-N Huge [vermin](monsters/creatureTypes.md#_vermin)
+N Huge [vermin](monsters/creatureTypes#_vermin)
 
-**Init** +0; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +4
+**Init** +0; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +4
 
 Defense
 
@@ -24,7 +24,7 @@ Offense
 
 **Speed** 40 ft., climb 40 ft.
 
-**Melee** bite +8 (2d6+7 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))), tail slap +3 (1d3 nonlethal plus trip)
+**Melee** bite +8 (2d6+7 plus [poison](monsters/universalMonsterRules#_poison-(ex-or-su))), tail slap +3 (1d3 nonlethal plus trip)
 
 **Space** 15 ft.; **Reach** 15 ft. (20 ft. with tail slap)
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +12; **CMD** 22 (can't be tripped)
 
-**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +15, [Perception](additionalMonsters/../skills/perception.md#_perception) +4, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +0; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception), +8 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
+**Skills** [Climb](additionalMonsters/../skills/climb#_climb) +15, [Perception](additionalMonsters/../skills/perception#_perception) +4, [Stealth](additionalMonsters/../skills/stealth#_stealth) +0; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception#_perception), +8 [Stealth](additionalMonsters/../skills/stealth#_stealth)
 
-**SQ** [compression](monsters/universalMonsterRules.md#_compression)
+**SQ** [compression](monsters/universalMonsterRules#_compression)
 
 Ecology
 
@@ -48,7 +48,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 17; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Dex; _cure_ 1 save. The save DC is Constitution-based.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 17; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Dex; _cure_ 1 save. The save DC is Constitution-based.
 
 **Tail Slap (Ex)** A giant whiptail centipede's tail slap deals nonlethal damage and gains no bonus from its Strength score on damage dealt.
 
@@ -62,9 +62,9 @@ Titan CentipedeCR 9
 
 **XP 6,400**
 
-N Colossal [vermin](monsters/creatureTypes.md#_vermin)
+N Colossal [vermin](monsters/creatureTypes#_vermin)
 
-**Init** +0; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +4
+**Init** +0; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +4
 
 Defense
 
@@ -80,7 +80,7 @@ Offense
 
 **Speed** 60 ft., climb 60 ft.
 
-**Melee** bite +15 (4d6+24 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
+**Melee** bite +15 (4d6+24 plus [poison](monsters/universalMonsterRules#_poison-(ex-or-su)))
 
 **Space** 30 ft.; **Reach** 30 ft.
 
@@ -92,9 +92,9 @@ Statistics
 
 **Base Atk** +7; **CMB** +31; **CMD** 41 (can't be tripped)
 
-**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +24, [Perception](additionalMonsters/../skills/perception.md#_perception) +4, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) –8; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception), +8 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
+**Skills** [Climb](additionalMonsters/../skills/climb#_climb) +24, [Perception](additionalMonsters/../skills/perception#_perception) +4, [Stealth](additionalMonsters/../skills/stealth#_stealth) –8; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception#_perception), +8 [Stealth](additionalMonsters/../skills/stealth#_stealth)
 
-**SQ** [compression](monsters/universalMonsterRules.md#_compression)
+**SQ** [compression](monsters/universalMonsterRules#_compression)
 
 Ecology
 
@@ -106,7 +106,7 @@ Ecology
 
 Special Abilities
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 24; _frequency_ 1/round for 6 rounds; _effect_ 1d6 Dex; _cure_ 2 consecutive saves.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (Ex)** Bite—injury; _save_ Fort DC 24; _frequency_ 1/round for 6 rounds; _effect_ 1d6 Dex; _cure_ 2 consecutive saves.
 
 The largest of their kind, titan centipedes are thankfully also the rarest. They attack other living creatures fearlessly, and require constant sustenance to nourish their vast bulk. Humanoids are in most danger from titan centipedes when mounted rather than afoot—a good-sized horse makes a much more satisfying meal to the centipede than a few bites of human. Titan centipedes are solitary by nature and because of the demands of their appetite, though when food is plentiful, multiple centipedes sometimes lurk in the same area.
 

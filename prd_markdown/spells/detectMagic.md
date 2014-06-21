@@ -12,7 +12,7 @@
 
 **Duration** concentration, up to 1 min./level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** no
 
 You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject.
 
@@ -37,7 +37,7 @@ _Lingering Aura_: A magical aura lingers after its original source dissipates (i
 
 Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers. Each round, you can turn to detect magic in a new area. The spell can penetrate barriers, but 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt blocks it.
 
-_Detect magic _can be made permanent with a _ [permanency](permanency.md#_permanency) _spell.
+_Detect magic _can be made permanent with a _ [permanency](permanency#_permanency) _spell.
 
 [Detect Magic]
 | Spell or Object | Aura Power |

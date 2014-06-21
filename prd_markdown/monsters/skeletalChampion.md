@@ -8,9 +8,9 @@ _This armored skeleton stands in a battle-ready pose, its weapon held high as co
 
 Human skeletal champion warrior 1
 
-NE Medium [undead](creatureTypes.md#_undead)
+NE Medium [undead](creatureTypes#_undead)
 
-**Init** +5; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +6
+**Init** +5; **Senses** darkvision 60 ft.; [Perception](../skills/perception#_perception) +6
 
 **Defense**
 
@@ -18,9 +18,9 @@ NE Medium [undead](creatureTypes.md#_undead)
 
 **hp** 17 (3 HD; 2d8+1d10+3)
 
-**Fort** +3 **Ref** +1 **Will** +3; [channel resistance](universalMonsterRules.md#_channel-resistance) +4
+**Fort** +3 **Ref** +1 **Will** +3; [channel resistance](universalMonsterRules#_channel-resistance) +4
 
-**DR** 5/bludgeoning; **Immune** cold, [undead traits](universalMonsterRules.md#_undead-traits)
+**DR** 5/bludgeoning; **Immune** cold, [undead traits](universalMonsterRules#_undead-traits)
 
 **Offense**
 
@@ -34,9 +34,9 @@ NE Medium [undead](creatureTypes.md#_undead)
 
 **Base**  **Atk** +2; **CMB** +5; **CMD** 16
 
-**Feats** [Cleave](../feats.md#_cleave), [Improved Initiative](../feats.md#_improved-initiative)B, [Power Attack](../feats.md#_power-attack), [Weapon Focus](../feats.md#_weapon-focus) (longsword)
+**Feats** [Cleave](../feats#_cleave), [Improved Initiative](../feats#_improved-initiative)B, [Power Attack](../feats#_power-attack), [Weapon Focus](../feats#_weapon-focus) (longsword)
 
-**Skills** [Intimidate](../skills/intimidate.md#_intimidate) +7, [Perception](../skills/perception.md#_perception) +6, [Stealth](../skills/stealth.md#_stealth) –1
+**Skills** [Intimidate](../skills/intimidate#_intimidate) +7, [Perception](../skills/perception#_perception) +6, [Stealth](../skills/stealth#_stealth) –1
 
 **Ecology**
 
@@ -52,29 +52,29 @@ Some skeletons retain their intelligence and cunning, making them formidable war
 
 “Skeletal Champion” is an acquired template that can be added to any corporeal creature (other than an undead) that has a skeletal system (referred to hereafter as the base creature) and a minimum Intelligence of 3.
 
-**CR** : A skeletal champion's CR is +1 higher than a [normal skeleton](skeleton.md) with the same HD.
+**CR** : A skeletal champion's CR is +1 higher than a [normal skeleton](skeleton) with the same HD.
 
-**Type** : The creature's type becomes [undead](creatureTypes.md#_undead). It keeps subtypes save for alignment subtypes and subtypes that indicate kind.
+**Type** : The creature's type becomes [undead](creatureTypes#_undead). It keeps subtypes save for alignment subtypes and subtypes that indicate kind.
 
 **Alignment** : Any evil.
 
-**Armor Class** : Natural armor as [per skeleton](skeleton.md).
+**Armor Class** : Natural armor as [per skeleton](skeleton).
 
 **Hit Dice:** Change all of the creature's racial HD to d8s, then add 2 racial Hit Dice to this total (creatures without racial HD gain 2). HD from class levels are unchanged.
 
 **Defensive Abilities** : A skeletal champion gains DR 5/bludgeoning, channel resistance +4, and immunity to cold. It also gains all of the standard undead traits.
 
-**Speed** : As [standard skeleton](skeleton.md).
+**Speed** : As [standard skeleton](skeleton).
 
-**Attacks** : As [standard skeleton](skeleton.md).
+**Attacks** : As [standard skeleton](skeleton).
 
 **Abilities** : Str +2, Dex +2. As undead, it has no Constitution score.
 
 **BAB** : Its BAB for racial HD equals 3/4 of its HD.
 
-**Skills** : Gains skill ranks per racial Hit Die equal to 4 + its Int modifier. Class skills for racial HD are [Climb](../skills/climb.md#_climb), [Disguise](../skills/disguise.md#_disguise), [Fly](../skills/fly.md#_fly), [Intimidate](../skills/intimidate.md#_intimidate), [Knowledge](../skills/knowledge.md#_knowledge) (arcana), [Knowledge](../skills/knowledge.md#_knowledge) (religion), [Perception](../skills/perception.md#_perception), [Sense Motive](../skills/senseMotive.md#_sense-motive), [Spellcraft](../skills/spellcraft.md#_spellcraft), and [Stealth](../skills/stealth.md#_stealth). Skills gained from class levels remain unchanged.
+**Skills** : Gains skill ranks per racial Hit Die equal to 4 + its Int modifier. Class skills for racial HD are [Climb](../skills/climb#_climb), [Disguise](../skills/disguise#_disguise), [Fly](../skills/fly#_fly), [Intimidate](../skills/intimidate#_intimidate), [Knowledge](../skills/knowledge#_knowledge) (arcana), [Knowledge](../skills/knowledge#_knowledge) (religion), [Perception](../skills/perception#_perception), [Sense Motive](../skills/senseMotive#_sense-motive), [Spellcraft](../skills/spellcraft#_spellcraft), and [Stealth](../skills/stealth#_stealth). Skills gained from class levels remain unchanged.
 
-**Feats** : A skeletal champion gains [Improved Initiative](../feats.md#_improved-initiative) as a bonus feat.
+**Feats** : A skeletal champion gains [Improved Initiative](../feats#_improved-initiative) as a bonus feat.
 
 **Saves** : Base save bonuses for racial Hit Dice are Fort +1/3 HD, Ref +1/3 HD, and Will +1/2 HD + 2.
 

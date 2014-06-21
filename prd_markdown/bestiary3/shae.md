@@ -6,9 +6,9 @@ Shae CR 4
 
 XP 1,200
 
-N Medium outsider ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
+N Medium outsider ( [extraplanar](monsters/creatureTypes#_extraplanar-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +8
+**Init** +6; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception#_perception) +8
 
 Defense
 
@@ -18,20 +18,20 @@ Defense
 
 **Fort** +8, **Ref** +7, **Will** +7
 
-**Defensive Abilities** [amorphous](monsters/universalMonsterRules.md#_amorphous), blur; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype)
+**Defensive Abilities** [amorphous](monsters/universalMonsterRules#_amorphous), blur; **Immune** [cold](monsters/creatureTypes#_cold-subtype)
 
 Offense
 
 **Speed** 30 ft.
 
-**Melee** mwk falchion +8 (2d4+4/18–20 plus 1d6 [cold](monsters/creatureTypes.md#_cold-subtype)) or   
-touch +7 (1d6 [cold](monsters/creatureTypes.md#_cold-subtype))
+**Melee** mwk falchion +8 (2d4+4/18–20 plus 1d6 [cold](monsters/creatureTypes#_cold-subtype)) or   
+touch +7 (1d6 [cold](monsters/creatureTypes#_cold-subtype))
 
 **Spell-Like Abilities** (CL 4th; concentration +7)
 
-Constant—_ [blur](spells/blur.md#_blur)_
+Constant—_ [blur](spells/blur#_blur)_
 
-At will—_lesser [shadow evocation](spells/shadowEvocation.md#_shadow-evocation)_ (DC 16)
+At will—_lesser [shadow evocation](spells/shadowEvocation#_shadow-evocation)_ (DC 16)
 
 Statistics
 
@@ -39,9 +39,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +7; **CMD** 23
 
-**Feats** [Combat Expertise](feats.md#_combat-expertise), [Iron Will](feats.md#_iron-will)
+**Feats** [Combat Expertise](feats#_combat-expertise), [Iron Will](feats#_iron-will)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +13, [Bluff](skills/bluff.md#_bluff) +10, [Diplomacy](skills/diplomacy.md#_diplomacy) +10, [Disguise](skills/disguise.md#_disguise) +10, [Intimidate](skills/intimidate.md#_intimidate) +7, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +9, [Knowledge](skills/knowledge.md#_knowledge) (planes) +12, [Perception](skills/perception.md#_perception) +8, [Sense Motive](skills/senseMotive.md#_sense-motive) +8, [Stealth](skills/stealth.md#_stealth) +13 (+23 in regions of low light or darkness), [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +10; **Racial Modifiers** +10 [Stealth](skills/stealth.md#_stealth) in regions of low light or darkness
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +13, [Bluff](skills/bluff#_bluff) +10, [Diplomacy](skills/diplomacy#_diplomacy) +10, [Disguise](skills/disguise#_disguise) +10, [Intimidate](skills/intimidate#_intimidate) +7, [Knowledge](skills/knowledge#_knowledge) (arcana) +9, [Knowledge](skills/knowledge#_knowledge) (planes) +12, [Perception](skills/perception#_perception) +8, [Sense Motive](skills/senseMotive#_sense-motive) +8, [Stealth](skills/stealth#_stealth) +13 (+23 in regions of low light or darkness), [Use Magic Device](skills/useMagicDevice#_use-magic-device) +10; **Racial Modifiers** +10 [Stealth](skills/stealth#_stealth) in regions of low light or darkness
 
 **Languages** Aklo, Common, Shae
 
@@ -55,9 +55,9 @@ Ecology
 
 Special Abilities
 
-**[Cold](monsters/creatureTypes.md#_cold-subtype) (Su)** A shae's touch saps [heat](monsters/universalMonsterRules.md#_heat) from living creatures, leaving patches of colorless flesh rather than physical wounds. A shae can deal 1d6 points of [cold](monsters/creatureTypes.md#_cold-subtype) damage with a touch. It adds +1d6 points of [cold](monsters/creatureTypes.md#_cold-subtype) damage to any melee weapon damage it deals.
+**[Cold](monsters/creatureTypes#_cold-subtype) (Su)** A shae's touch saps [heat](monsters/universalMonsterRules#_heat) from living creatures, leaving patches of colorless flesh rather than physical wounds. A shae can deal 1d6 points of [cold](monsters/creatureTypes#_cold-subtype) damage with a touch. It adds +1d6 points of [cold](monsters/creatureTypes#_cold-subtype) damage to any melee weapon damage it deals.
 
-**Lesser Shadow Evocation (Sp)** This spell-like ability functions identically to the spell _ [shadow evocation](spells/shadowEvocation.md#_shadow-evocation)_, but it can only create quasi-real versions of sorcerer or wizard evocation spells of 2nd level or lower. This spell-like ability is the equivalent of a 3rd-level spell.
+**Lesser Shadow Evocation (Sp)** This spell-like ability functions identically to the spell _ [shadow evocation](spells/shadowEvocation#_shadow-evocation)_, but it can only create quasi-real versions of sorcerer or wizard evocation spells of 2nd level or lower. This spell-like ability is the equivalent of a 3rd-level spell.
 
 The mysterious people known as the shaes are natives of the Shadow Plane. In their own language, their name means “unbound” or “unfettered.” According to shae history, they were once humanoids who through tireless study and self-perfection managed to transcend the bonds of a definite form. Though they still bear roughly humanoid shapes, shaes' outlines are perpetually wispy and impossible for any non-shaes to focus directly on.
 

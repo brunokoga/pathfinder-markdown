@@ -6,9 +6,9 @@ _This massive, gray-brown slug leaves a viscous trail of slime in its wake as a 
 
 **XP 4,800**
 
-N Huge [vermin](creatureTypes.md#_vermin)
+N Huge [vermin](creatureTypes#_vermin)
 
-**Init** –4; **Senses** blindsight 60 ft.; [Perception](../skills/perception.md#_perception) +0
+**Init** –4; **Senses** blindsight 60 ft.; [Perception](../skills/perception#_perception) +0
 
 **Defense**
 

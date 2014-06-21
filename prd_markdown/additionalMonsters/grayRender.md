@@ -6,9 +6,9 @@ Gray RenderCR 8
 
 **XP 4,800**
 
-N Large [magical beast](monsters/creatureTypes.md#_magical-beast)
+N Large [magical beast](monsters/creatureTypes#_magical-beast)
 
-**Init** +1; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +13
+**Init** +1; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](additionalMonsters/../skills/perception#_perception) +13
 
 Defense
 
@@ -22,7 +22,7 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** bite +14 (2d6+7), 2 claws +15 (1d8+7 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** bite +14 (2d6+7), 2 claws +15 (1d8+7 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +8; **CMB** +16 (+20 grapple); **CMD** 27
 
-**Feats** [Awesome Blow](additionalMonsters/../monsters/monsterFeats.md#_awesome-blow), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (claw)
+**Feats** [Awesome Blow](additionalMonsters/../monsters/monsterFeats#_awesome-blow), [Improved Bull Rush](additionalMonsters/../feats#_improved-bull-rush), [Power Attack](additionalMonsters/../feats#_power-attack), [Weapon Focus](additionalMonsters/../feats#_weapon-focus) (claw)
 
-**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +13, [Survival](additionalMonsters/../skills/survival.md#_survival) +6; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception)
+**Skills** [Perception](additionalMonsters/../skills/perception#_perception) +13, [Survival](additionalMonsters/../skills/survival#_survival) +6; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception#_perception)
 
 **SQ** double damage against objects
 

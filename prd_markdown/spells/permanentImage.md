@@ -6,5 +6,5 @@
 
 **Duration** permanent (D)
 
-This spell functions like _ [silent image](silentImage.md#_silent-image), _except that the figment includes visual, auditory, olfactory, and thermal elements, and the spell is permanent. By concentrating, you can move the image within the limits of the range, but it is static while you are not concentrating.
+This spell functions like _ [silent image](silentImage#_silent-image), _except that the figment includes visual, auditory, olfactory, and thermal elements, and the spell is permanent. By concentrating, you can move the image within the limits of the range, but it is static while you are not concentrating.
 

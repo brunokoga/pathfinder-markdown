@@ -35,13 +35,13 @@ Using an item creation feat also requires access to a laboratory or magical work
 **_Scrolls:_ Base price = spell level × caster level × 25 gp.**  
 **_Potions:_ Base price = spell level × caster level × 50 gp.**  
 **_Wands:_ Base price = spell level × caster level × 750 gp.**  
-**_Staves:_ The price for staves is calculated using more complex formulas (see [Magic Items](magicItems.md)).**
+**_Staves:_ The price for staves is calculated using more complex formulas (see [Magic Items](magicItems)).**
 
 A 0-level spell is considered to have a spell level of 1/2 for the purpose of this calculation.
 
 **Extra Costs** : Any potion, scroll, or wand that stores a spell with a costly material component also carries a commensurate cost. For potions and scrolls, the creator must expend the material component cost when creating the item. For a wand, the creator must expend 50 units of the material component. Some magic items similarly incur extra costs in material components, as noted in their descriptions.
 
-**Skill Check** : Successfully creating a magic item requires a Spellcraft check with a DC equal to 5 + the item's caster level. Alternatively, you can use an associated Craft or Profession skill to attempt this check instead, depending upon the item being crafted. See [Magic Item Creation](magicItems/magicItemCreation.md) for more details on which Craft and Profession checks may be substituted in this manner. The DC of this check can increase if the crafter is rushed or does not meet all of the prerequisites. A failed check ruins the materials used, while a check that fails by 5 or more results in a cursed item. See [Magic Items](magicItems.md) for more details.
+**Skill Check** : Successfully creating a magic item requires a Spellcraft check with a DC equal to 5 + the item's caster level. Alternatively, you can use an associated Craft or Profession skill to attempt this check instead, depending upon the item being crafted. See [Magic Item Creation](magicItems/magicItemCreation) for more details on which Craft and Profession checks may be substituted in this manner. The DC of this check can increase if the crafter is rushed or does not meet all of the prerequisites. A failed check ruins the materials used, while a check that fails by 5 or more results in a cursed item. See [Magic Items](magicItems) for more details.
 
 ## Metamagic Feats
 
@@ -67,7 +67,7 @@ Metamagic feats cannot be used with all spells. See the specific feat descriptio
 
 **Magic Items and Metamagic Spells** : With the right item creation feat, you can store a metamagic version of a spell in a scroll, potion, or wand. Level limits for potions and wands apply to the spell's higher spell level (after the application of the metamagic feat). A character doesn't need the metamagic feat to activate an item storing a metamagic version of a spell.
 
-**Counterspelling Metamagic Spells** : Whether or not a spell has been enhanced by a metamagic feat does not affect its vulnerability to counterspelling or its ability to counterspell another spell (see [Magic](magic.md)).
+**Counterspelling Metamagic Spells** : Whether or not a spell has been enhanced by a metamagic feat does not affect its vulnerability to counterspelling or its ability to counterspell another spell (see [Magic](magic)).
 
 # Feat Descriptions
 
@@ -88,55 +88,55 @@ The following format is used for all feat descriptions.
 [Table: Feats]
 | Feats | Prerequisites | Benefits |
 | --- | --- | --- |
-| Acrobatic | — | +2 bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) and [Fly](skills/fly.md#_fly) checks |
-| Agile Maneuvers\* | — | Use your [Dex](gettingStarted.md#_dexterity) bonus when calculating your [CMB](combat.md#_combat-maneuver-bonus) |
-| Alertness | — | +2 bonus on [Perception](skills/perception.md#_perception) and [Sense Motive](skills/senseMotive.md#_sense-motive) checks |
+| Acrobatic | — | +2 bonus on [Acrobatics](skills/acrobatics#_acrobatics) and [Fly](skills/fly#_fly) checks |
+| Agile Maneuvers\* | — | Use your [Dex](gettingStarted#_dexterity) bonus when calculating your [CMB](combat#_combat-maneuver-bonus) |
+| Alertness | — | +2 bonus on [Perception](skills/perception#_perception) and [Sense Motive](skills/senseMotive#_sense-motive) checks |
 | Alignment Channel | Channel energy class feature | Channel energy can heal or harm outsiders |
-| Animal Affinity | — | +2 bonus on [Handle Animal](skills/handleAnimal.md#_handle-animal) and [Ride](skills/ride.md#_ride) checks |
+| Animal Affinity | — | +2 bonus on [Handle Animal](skills/handleAnimal#_handle-animal) and [Ride](skills/ride#_ride) checks |
 | Arcane Armor Training\* | Armor Proficiency, Light, caster level 3rd | Reduce your arcane spell failure chance by 10% |
 |   Arcane Armor Mastery\* | Arcane Armor Training, Armor Proficiency, Medium, caster level 7th | Reduce your arcane spell failure chance by 20% |
 | Arcane Strike\* | Ability to cast arcane spells | +1 damage and weapons are considered magic |
 | Armor Proficiency, Light | — | No penalties on attack rolls while wearing light armor |
 |   Armor Proficiency, Medium | Armor Proficiency, Light | No penalties on attack rolls while wearing medium armor |
 |     Armor Proficiency, Heavy | Armor Proficiency, Medium | No penalties on attack rolls while wearing heavy armor |
-| Athletic | — | +2 bonus on [Climb](skills/climb.md#_climb) and [Swim](skills/swim.md#_swim) checks |
-| Augment Summoning | Spell Focus (conjuration) | Summoned creatures gain +4 [Str](gettingStarted.md#_strength) and [Con](gettingStarted.md#_constitution) |
+| Athletic | — | +2 bonus on [Climb](skills/climb#_climb) and [Swim](skills/swim#_swim) checks |
+| Augment Summoning | Spell Focus (conjuration) | Summoned creatures gain +4 [Str](gettingStarted#_strength) and [Con](gettingStarted#_constitution) |
 | Blind-Fight\* | — | Reroll miss chances for concealment |
 | Catch Off-Guard\* | — | No penalties for improvised melee weapons |
 | Channel Smite\* | Channel energy class feature | Channel energy through your attack |
 | Combat Casting | — | +4 bonus on concentration checks for defensive casting |
-| Combat Expertise\* | [Int](gettingStarted.md#_intelligence) 13 | Trade attack bonus for AC bonus |
+| Combat Expertise\* | [Int](gettingStarted#_intelligence) 13 | Trade attack bonus for AC bonus |
 |   Improved Disarm\* | Combat Expertise | +2 bonus on disarm attempts, no attack of opportunity |
 |     Greater Disarm\* | Improved Disarm, base attack bonus +6 | Disarmed weapons are knocked away from your enemy |
 |   Improved Feint\* | Combat Expertise | Feint as a move action |
-|     Greater Feint\* | Improved Feint, base attack bonus +6 | Enemies you feint lose their [Dex](gettingStarted.md#_dexterity) bonus for 1 round |
-|   Improved Trip\* | Combat Expertise | +2 bonus on [trip](combat.md#_trip) attempts, no attack of opportunity |
-|     Greater Trip\* | Improved Trip, base attack bonus +6 | Enemies you [trip](combat.md#_trip) provoke attacks of opportunity |
-|   Whirlwind Attack\* | [Dex](gettingStarted.md#_dexterity) 13, Combat Expertise, Spring Attack, base attack bonus +4 | Make one melee attack against all foes within reach |
+|     Greater Feint\* | Improved Feint, base attack bonus +6 | Enemies you feint lose their [Dex](gettingStarted#_dexterity) bonus for 1 round |
+|   Improved Trip\* | Combat Expertise | +2 bonus on [trip](combat#_trip) attempts, no attack of opportunity |
+|     Greater Trip\* | Improved Trip, base attack bonus +6 | Enemies you [trip](combat#_trip) provoke attacks of opportunity |
+|   Whirlwind Attack\* | [Dex](gettingStarted#_dexterity) 13, Combat Expertise, Spring Attack, base attack bonus +4 | Make one melee attack against all foes within reach |
 | Combat Reflexes\* | — | Make additional attacks of opportunity |
 |   Stand Still\* | Combat Reflexes | Stop enemies from moving past you |
 | Command Undead | Channel negative energy class feature | Channel energy can be used to control undead |
 | Critical Focus\* | Base attack bonus +9 | +4 bonus on attack rolls made to confirm critical hits |
-|   Bleeding Critical\* | Critical Focus, base attack bonus +11 | Whenever you score a critical hit, the target takes 2d6 [bleed](glossary.md#_bleed) |
-|   Blinding Critical\* | Critical Focus, base attack bonus +15 | Whenever you score a critical hit, the target is [blinded](glossary.md#_blinded) |
+|   Bleeding Critical\* | Critical Focus, base attack bonus +11 | Whenever you score a critical hit, the target takes 2d6 [bleed](glossary#_bleed) |
+|   Blinding Critical\* | Critical Focus, base attack bonus +15 | Whenever you score a critical hit, the target is [blinded](glossary#_blinded) |
 |   Critical Mastery\* | Any two critical feats, 14th-level fighter | Apply two effects to your critical hits |
-|   Deafening Critical\* | Critical Focus, base attack bonus +13 | Whenever you score a critical hit, the target is [deafened](glossary.md#_deafened) |
-|   Sickening Critical\* | Critical Focus, base attack bonus +11 | Whenever you score a critical hit, the target is [sickened](glossary.md#_sickened) |
-|   Staggering Critical\* | Critical Focus, base attack bonus +13 | Whenever you score a critical hit, the target is [staggered](glossary.md#_staggered) |
-|   Stunning Critical\* | Staggering Critical, base attack bonus +17 | Whenever you score a critical hit, the target is [stunned](glossary.md#_stunned) |
-|   Tiring Critical\* | Critical Focus, base attack bonus +13 | Whenever you score a critical hit, the target is [fatigued](glossary.md#_fatigued) |
-|     Exhausting Critical\* | Tiring Critical, base attack bonus +15 | Whenever you score a critical hit, the target is [exhausted](glossary.md#_exhausted) |
-| Deadly Aim\* | [Dex](gettingStarted.md#_dexterity) 13, base attack bonus +1 | Trade ranged attack bonus for damage |
-| Deceitful | — | +2 bonus on [Bluff](skills/bluff.md#_bluff) and [Disguise](skills/disguise.md#_disguise) checks |
-| Defensive Combat Training\* | — | Use your total Hit Dice as your base attack bonus for [CMD](combat.md#_combat-maneuver-defense) |
-| Deft Hands | — | +2 bonus on [Disable Device](skills/disableDevice.md#_disable-device) and [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks |
+|   Deafening Critical\* | Critical Focus, base attack bonus +13 | Whenever you score a critical hit, the target is [deafened](glossary#_deafened) |
+|   Sickening Critical\* | Critical Focus, base attack bonus +11 | Whenever you score a critical hit, the target is [sickened](glossary#_sickened) |
+|   Staggering Critical\* | Critical Focus, base attack bonus +13 | Whenever you score a critical hit, the target is [staggered](glossary#_staggered) |
+|   Stunning Critical\* | Staggering Critical, base attack bonus +17 | Whenever you score a critical hit, the target is [stunned](glossary#_stunned) |
+|   Tiring Critical\* | Critical Focus, base attack bonus +13 | Whenever you score a critical hit, the target is [fatigued](glossary#_fatigued) |
+|     Exhausting Critical\* | Tiring Critical, base attack bonus +15 | Whenever you score a critical hit, the target is [exhausted](glossary#_exhausted) |
+| Deadly Aim\* | [Dex](gettingStarted#_dexterity) 13, base attack bonus +1 | Trade ranged attack bonus for damage |
+| Deceitful | — | +2 bonus on [Bluff](skills/bluff#_bluff) and [Disguise](skills/disguise#_disguise) checks |
+| Defensive Combat Training\* | — | Use your total Hit Dice as your base attack bonus for [CMD](combat#_combat-maneuver-defense) |
+| Deft Hands | — | +2 bonus on [Disable Device](skills/disableDevice#_disable-device) and [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand) checks |
 | Disruptive\* | 6th-level fighter | Increases the DC to cast spells adjacent to you |
 |   Spellbreaker\* | Disruptive, 10th-level fighter | Enemies provoke attacks if their spells fail |
-| Dodge\* | [Dex](gettingStarted.md#_dexterity) 13 | +1 [dodge bonus](combat.md#_dodge-bonuses) to AC |
+| Dodge\* | [Dex](gettingStarted#_dexterity) 13 | +1 [dodge bonus](combat#_dodge-bonuses) to AC |
 |   Mobility\* | Dodge | +4 AC against attacks of opportunity from movement |
 |     Spring Attack\* | Mobility, base attack bonus +4 | Move before and after melee attack |
-|   Wind Stance\* | [Dex](gettingStarted.md#_dexterity) 15, Dodge, base attack bonus +6 | Gain 20% concealment if you move |
-|     Lightning Stance\* | [Dex](gettingStarted.md#_dexterity) 17, Wind Stance, base attack bonus +11 | Gain 50% concealment if you move |
+|   Wind Stance\* | [Dex](gettingStarted#_dexterity) 15, Dodge, base attack bonus +6 | Gain 20% concealment if you move |
+|     Lightning Stance\* | [Dex](gettingStarted#_dexterity) 17, Wind Stance, base attack bonus +11 | Gain 50% concealment if you move |
 | Elemental Channel | Channel energy class feature | Channel energy can harm or heal elementals |
 | Endurance | — | +4 bonus on checks to avoid nonlethal damage |
 |   Diehard | Endurance | Automatically stabilize and remain conscious below 0 hp |
@@ -149,68 +149,68 @@ The following format is used for all feat descriptions.
 | Extra Performance | Bardic performance class feature | Use bardic performance for 6 additional rounds per day |
 | Extra Rage | Rage class feature | Use rage for 6 additional rounds per day |
 | Fleet | — | Your base speed increases by 5 feet |
-| Great Fortitude | — | +2 on [Fortitude](combat.md#_fortitude) saves |
-|   Improved Great Fortitude | Great Fortitude | Once per day, you may reroll a [Fortitude](combat.md#_fortitude) save |
+| Great Fortitude | — | +2 on [Fortitude](combat#_fortitude) saves |
+|   Improved Great Fortitude | Great Fortitude | Once per day, you may reroll a [Fortitude](combat#_fortitude) save |
 | Improved Channel | Channel energy class feature | +2 bonus on channel energy DC |
 | Improved Counterspell | — | Counterspell with spell of the same school |
 | Improved Critical\* | Proficiency with weapon, base attack bonus +8 | Double the threat range of one weapon |
 | Improved Familiar | Ability to acquire a familiar, see feat | Gain a more powerful familiar |
 | Improved Initiative\* | — | +4 bonus on initiative checks |
 | Improved Unarmed Strike\* | — | Always considered armed |
-|   Deflect Arrows\* | [Dex](gettingStarted.md#_dexterity) 13, Improved Unarmed Strike | Avoid one ranged attack per round |
-|     Snatch Arrows\* | [Dex](gettingStarted.md#_dexterity) 15, Deflect Arrows | Catch one ranged attack per round |
-|   Improved Grapple\* | [Dex](gettingStarted.md#_dexterity) 13, Improved Unarmed Strike | +2 bonus on [grapple](combat.md#_grapple) attempts, no attack of opportunity |
-|     Greater Grapple\* | Improved Grapple, base attack bonus +6 | Maintain your [grapple](combat.md#_grapple) as a move action |
+|   Deflect Arrows\* | [Dex](gettingStarted#_dexterity) 13, Improved Unarmed Strike | Avoid one ranged attack per round |
+|     Snatch Arrows\* | [Dex](gettingStarted#_dexterity) 15, Deflect Arrows | Catch one ranged attack per round |
+|   Improved Grapple\* | [Dex](gettingStarted#_dexterity) 13, Improved Unarmed Strike | +2 bonus on [grapple](combat#_grapple) attempts, no attack of opportunity |
+|     Greater Grapple\* | Improved Grapple, base attack bonus +6 | Maintain your [grapple](combat#_grapple) as a move action |
 |   Scorpion Style\* | Improved Unarmed Strike | Reduce target's speed to 5 ft. |
 |     Gorgon's Fist\* | Scorpion Style, base attack bonus +6 | Stagger a foe whose speed is reduced |
 |       Medusa's Wrath\* | Gorgon's Fist, base attack bonus +11 | Make 2 extra attacks against a hindered foe |
-|   Stunning Fist\* | [Dex](gettingStarted.md#_dexterity) 13, [Wis](gettingStarted.md#_wisdom) 13, Improved Unarmed Strike, base attack bonus +8 | Stun opponent with an unarmed strike |
+|   Stunning Fist\* | [Dex](gettingStarted#_dexterity) 13, [Wis](gettingStarted#_wisdom) 13, Improved Unarmed Strike, base attack bonus +8 | Stun opponent with an unarmed strike |
 | Improvised Weapon Mastery\* | Catch Off-Guard or Throw Anything, base attack bonus +8 | Make an improvised weapon deadly |
-| Intimidating Prowess\* | — | Add [Str](gettingStarted.md#_strength) to [Intimidate](skills/intimidate.md#_intimidate) in addition to Cha |
-| Iron Will | — | +2 bonus on [Will](combat.md#_will) saves |
-|   Improved Iron Will | Iron Will | Once per day, you may reroll a [Will](combat.md#_will) save |
+| Intimidating Prowess\* | — | Add [Str](gettingStarted#_strength) to [Intimidate](skills/intimidate#_intimidate) in addition to Cha |
+| Iron Will | — | +2 bonus on [Will](combat#_will) saves |
+|   Improved Iron Will | Iron Will | Once per day, you may reroll a [Will](combat#_will) save |
 | Leadership | Character level 7th | Gain a cohort and followers |
-| Lightning Reflexes | — | +2 bonus on [Reflex](combat.md#_reflex) saves |
-|   Improved Lightning Reflexes | Lightning Reflexes | Once per day, you may reroll a [Reflex](combat.md#_reflex) save |
+| Lightning Reflexes | — | +2 bonus on [Reflex](combat#_reflex) saves |
+|   Improved Lightning Reflexes | Lightning Reflexes | Once per day, you may reroll a [Reflex](combat#_reflex) save |
 | Lunge\* | Base attack bonus +6 | Take a –2 penalty to your AC to attack with reach |
-| Magical Aptitude | — | +2 bonus on [Spellcraft](skills/spellcraft.md#_spellcraft) and [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) checks |
+| Magical Aptitude | — | +2 bonus on [Spellcraft](skills/spellcraft#_spellcraft) and [Use Magic Device](skills/useMagicDevice#_use-magic-device) checks |
 | Martial Weapon Proficiency | — | No penalty on attacks made with one martial weapon |
 | Master Craftsman | 5 ranks in any Craft or Profession skill | You can craft magic items without being a spellcaster |
-| Mounted Combat\* | [Ride](skills/ride.md#_ride) 1 rank | Avoid attacks on mount with [Ride](skills/ride.md#_ride) check |
+| Mounted Combat\* | [Ride](skills/ride#_ride) 1 rank | Avoid attacks on mount with [Ride](skills/ride#_ride) check |
 |   Mounted Archery\* | Mounted Combat | Halve the penalty for ranged attacks while mounted |
 |   Ride-By Attack\* | Mounted Combat | Move before and after a charge attack while mounted |
 |     Spirited Charge\* | Ride-By Attack | Double damage on a mounted charge |
 |   Trample\* | Mounted Combat | Overrun targets while mounted |
 |   Unseat\* | Improved Bull Rush, Mounted Combat | Knock opponents from their mounts |
-| Natural Spell | [Wis](gettingStarted.md#_wisdom) 13, wild shape class feature | Cast spells while using wild shape |
-| Nimble Moves | [Dex](gettingStarted.md#_dexterity) 13 | Ignore 5 feet of difficult terrain when you move |
-|   Acrobatic Steps | [Dex](gettingStarted.md#_dexterity) 15, Nimble Moves | Ignore 20 feet of difficult terrain when you move |
+| Natural Spell | [Wis](gettingStarted#_wisdom) 13, wild shape class feature | Cast spells while using wild shape |
+| Nimble Moves | [Dex](gettingStarted#_dexterity) 13 | Ignore 5 feet of difficult terrain when you move |
+|   Acrobatic Steps | [Dex](gettingStarted#_dexterity) 15, Nimble Moves | Ignore 20 feet of difficult terrain when you move |
 | Persuasive | — | +2 bonus on Diplomacy and Intimidate checks |
 | Point-Blank Shot\* | — | +1 attack and damage on targets within 30 feet |
 |   Far Shot\* | Point-Blank Shot | Decrease ranged penalties by half |
 |   Precise Shot\* | Point-Blank Shot | No penalty for shooting into melee |
-|     Improved PreciseShot\* | [Dex](gettingStarted.md#_dexterity) 19, Precise Shot, base attack bonus +11 | No cover or concealment chance on ranged attacks |
+|     Improved PreciseShot\* | [Dex](gettingStarted#_dexterity) 19, Precise Shot, base attack bonus +11 | No cover or concealment chance on ranged attacks |
 |    Pinpoint Targeting\* | Improved Precise Shot, base attack bonus +16 | No armor or shield bonus on one ranged attack |
-|   Shot on the Run\* | [Dex](gettingStarted.md#_dexterity) 13, Mobility, Point-Blank Shot, base attack bonus +4 | Make ranged attack at any point during movement |
-|   Rapid Shot\* | [Dex](gettingStarted.md#_dexterity) 13, Point-Blank Shot | Make one extra ranged attack |
-|     Manyshot\* | [Dex](gettingStarted.md#_dexterity) 17, Rapid Shot, base attack bonus +6 | Shoot two arrows simultaneously |
-| Power Attack\* | [Str](gettingStarted.md#_strength) 13, base attack bonus +1 | Trade melee attack bonus for damage |
+|   Shot on the Run\* | [Dex](gettingStarted#_dexterity) 13, Mobility, Point-Blank Shot, base attack bonus +4 | Make ranged attack at any point during movement |
+|   Rapid Shot\* | [Dex](gettingStarted#_dexterity) 13, Point-Blank Shot | Make one extra ranged attack |
+|     Manyshot\* | [Dex](gettingStarted#_dexterity) 17, Rapid Shot, base attack bonus +6 | Shoot two arrows simultaneously |
+| Power Attack\* | [Str](gettingStarted#_strength) 13, base attack bonus +1 | Trade melee attack bonus for damage |
 |   Cleave\* | Power Attack | Make an additional attack if the first one hits |
 |     Great Cleave\* | Cleave, base attack bonus +4 | Make an additional attack after each attack hits |
-|   Improved Bull Rush\* | Power Attack | +2 bonus on [bull rush](combat.md#_bull-rush) attempts, no attack of opportunity |
-|     Greater Bull Rush\* | Improved Bull Rush, base attack bonus +6 | Enemies you [bull rush](combat.md#_bull-rush) provoke attacks of opportunity |
-|   Improved Overrun\* | Power Attack | +2 bonus on [overrun](combat.md#_overrun) attempts, no attack of opportunity |
-|     Greater Overrun\* | Improved Overrun, base attack bonus +6 | Enemies you [overrun](combat.md#_overrun) provoke attacks of opportunity |
-|   Improved Sunder\* | Power Attack | +2 bonus on [sunder](combat.md#_sunder) attempts, no attack of opportunity |
-|     Greater Sunder\* | Improved Sunder, base attack bonus +6 | Damage from [sunder](combat.md#_sunder) attempts transfers to your enemy |
+|   Improved Bull Rush\* | Power Attack | +2 bonus on [bull rush](combat#_bull-rush) attempts, no attack of opportunity |
+|     Greater Bull Rush\* | Improved Bull Rush, base attack bonus +6 | Enemies you [bull rush](combat#_bull-rush) provoke attacks of opportunity |
+|   Improved Overrun\* | Power Attack | +2 bonus on [overrun](combat#_overrun) attempts, no attack of opportunity |
+|     Greater Overrun\* | Improved Overrun, base attack bonus +6 | Enemies you [overrun](combat#_overrun) provoke attacks of opportunity |
+|   Improved Sunder\* | Power Attack | +2 bonus on [sunder](combat#_sunder) attempts, no attack of opportunity |
+|     Greater Sunder\* | Improved Sunder, base attack bonus +6 | Damage from [sunder](combat#_sunder) attempts transfers to your enemy |
 | Quick Draw\* | Base attack bonus +1 | Draw weapon as a free action |
 | Rapid Reload\* | Weapon proficiency (crossbow) | Reload crossbow quickly |
 | Run | — | Run at 5 times your normal speed |
 | Selective Channeling | Cha 13, channel energy class feature | Choose whom to affect with channel energy |
-| Self-Sufficient | — | +2 bonus on [Heal](skills/heal.md#_heal) and [Survival](skills/survival.md#_survival) checks |
+| Self-Sufficient | — | +2 bonus on [Heal](skills/heal#_heal) and [Survival](skills/survival#_survival) checks |
 | Shield Proficiency | — | No penalties on attack rolls when using a shield |
 |   Improved Shield Bash\* | Shield Proficiency | Keep your shield bonus when shield bashing |
-|     Shield Slam\* | Improved Shield Bash, Two-Weapon Fighting, base attack bonus +6 | Free [bull rush](combat.md#_bull-rush) with a bash attack |
+|     Shield Slam\* | Improved Shield Bash, Two-Weapon Fighting, base attack bonus +6 | Free [bull rush](combat#_bull-rush) with a bash attack |
 |       Shield Master\* | Shield Slam, base attack bonus +11 | No two-weapon penalties when attacking with a shield |
 |   Shield Focus\* | Shield Proficiency, base attack bonus +1 | Gain a +1 bonus to your AC when using a shield |
 |     Greater Shield Focus\* | Shield Focus, 8th-level fighter | Gain a +1 bonus to your AC when using a shield |
@@ -222,26 +222,26 @@ The following format is used for all feat descriptions.
 | Spell Mastery | 1st-level Wizard | Prepare some spells without a spellbook |
 | Spell Penetration | — | +2 bonus on level checks to beat spell resistance |
 |   Greater Spell Penetration | Spell Penetration | +2 bonus on level checks to beat spell resistance |
-| Stealthy | — | +2 bonus on [Escape Artist](skills/escapeArtist.md#_escape-artist) and [Stealth](skills/stealth.md#_stealth) checks |
+| Stealthy | — | +2 bonus on [Escape Artist](skills/escapeArtist#_escape-artist) and [Stealth](skills/stealth#_stealth) checks |
 | Step Up\* | Base attack bonus +1 | Take a 5-foot step as an immediate action |
 | Strike Back\* | Base attack bonus +11 | Attack foes that strike you while using reach |
 | Throw Anything\* | — | No penalties for improvised ranged weapons |
 | Toughness | — | +3 hit points, +1 per Hit Die beyond 3 |
 | Turn Undead | Channel positive energy classfeature | Channel energy can be used to make undead flee |
-| Two-Weapon Fighting\* | [Dex](gettingStarted.md#_dexterity) 15 | Reduce two-weapon fighting penalties |
-|   Double Slice\* | Two-Weapon Fighting | Add your [Str](gettingStarted.md#_strength) bonus to off-hand damage rolls |
+| Two-Weapon Fighting\* | [Dex](gettingStarted#_dexterity) 15 | Reduce two-weapon fighting penalties |
+|   Double Slice\* | Two-Weapon Fighting | Add your [Str](gettingStarted#_strength) bonus to off-hand damage rolls |
 |     Two-Weapon Rend\* | Double Slice, Improved Two-Weapon Fighting, base attack bonus +11 | Rend a foe hit by both your weapons |
-|   Improved Two-Weapon Fighting\* | [Dex](gettingStarted.md#_dexterity) 17, Two-Weapon Fighting, base attack bonus +6 | Gain additional off-hand attack |
-|     Greater Two-Weapon Fighting\* | [Dex](gettingStarted.md#_dexterity) 19, Improved Two-Weapon Fighting, base attack bonus +11 | Gain a third off-hand attack |
+|   Improved Two-Weapon Fighting\* | [Dex](gettingStarted#_dexterity) 17, Two-Weapon Fighting, base attack bonus +6 | Gain additional off-hand attack |
+|     Greater Two-Weapon Fighting\* | [Dex](gettingStarted#_dexterity) 19, Improved Two-Weapon Fighting, base attack bonus +11 | Gain a third off-hand attack |
 |   Two-Weapon Defense\* | Two-Weapon Fighting | Gain +1 shield bonus when fighting with two weapons |
 | Vital Strike\* | Base attack bonus +6 | Deal twice the normal damage on a single attack |
 |   Improved Vital Strike\* | Vital Strike, base attack bonus +11 | Deal three times the normal damage on a single attack |
 |     Greater Vital Strike\* | Improved Vital Strike, base attack bonus +16 | Deal four times the normal damage on a single attack |
-| Weapon Finesse\* | — | Use [Dex](gettingStarted.md#_dexterity) instead of [Str](gettingStarted.md#_strength) on attack rolls with light weapons |
+| Weapon Finesse\* | — | Use [Dex](gettingStarted#_dexterity) instead of [Str](gettingStarted#_strength) on attack rolls with light weapons |
 | Weapon Focus\* | Proficiency with weapon, base attack bonus +1 | +1 bonus on attack rolls with one weapon |
 |   Dazzling Display\* | Weapon Focus | Intimidate all foes within 30 feet |
-|     Shatter Defenses\* | Dazzling Display, base attack bonus +6 | Hindered foes are [flat-footed](glossary.md#_flat-footed) |
-|       Deadly Stroke\* | Greater Weapon Focus, Shatter Defenses, base attack bonus +11 | Deal double damage plus 1 [Con](gettingStarted.md#_constitution) [bleed](glossary.md#_bleed) |
+|     Shatter Defenses\* | Dazzling Display, base attack bonus +6 | Hindered foes are [flat-footed](glossary#_flat-footed) |
+|       Deadly Stroke\* | Greater Weapon Focus, Shatter Defenses, base attack bonus +11 | Deal double damage plus 1 [Con](gettingStarted#_constitution) [bleed](glossary#_bleed) |
 |   Greater Weapon Focus\* | Weapon Focus, 8th-level fighter | +1 bonus on attack rolls with one weapon |
 |   Penetrating Strike\* | Weapon Focus, 12th-level fighter | Your attacks ignore 5 points of damage reduction |
 |     Greater Penetrating Strike\* | Penetrating Strike, 16th-level fighter | Your attacks ignore 10 points of damage reduction |
@@ -273,13 +273,13 @@ The following format is used for all feat descriptions.
 
 You are skilled at leaping, jumping, and flying.
 
-**Benefit:** You get a +2 bonus on all [Acrobatics](skills/acrobatics.md#_acrobatics) and [Fly](skills/fly.md#_fly) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
+**Benefit:** You get a +2 bonus on all [Acrobatics](skills/acrobatics#_acrobatics) and [Fly](skills/fly#_fly) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
 
 ## Acrobatic Steps
 
 You can easily move over and through obstacles.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 15, Nimble Moves.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 15, Nimble Moves.
 
 **Benefit:** Whenever you move, you may move through up to 15 feet of difficult terrain each round as if it were normal terrain. The effects of this feat stack with those provided by Nimble Moves (allowing you to move normally through a total of 20 feet of difficult terrain each round).
 
@@ -287,15 +287,15 @@ You can easily move over and through obstacles.
 
 You've learned to use your quickness in place of brute force when performing combat maneuvers.
 
-**Benefit:** You add your [Dexterity](gettingStarted.md#_dexterity) bonus to your base attack bonus and size bonus when determining your [Combat Maneuver Bonus](combat.md#_combat-maneuver-bonus) (see [Combat](combat.md)) instead of your Strength bonus.
+**Benefit:** You add your [Dexterity](gettingStarted#_dexterity) bonus to your base attack bonus and size bonus when determining your [Combat Maneuver Bonus](combat#_combat-maneuver-bonus) (see [Combat](combat)) instead of your Strength bonus.
 
-**Normal:** You add your Strength bonus to your base attack bonus and size bonus when determining your [Combat Maneuver Bonus](combat.md#_combat-maneuver-bonus).
+**Normal:** You add your Strength bonus to your base attack bonus and size bonus when determining your [Combat Maneuver Bonus](combat#_combat-maneuver-bonus).
 
 ## Alertness
 
 You often notice things that others might miss.
 
-**Benefit:** You get a +2 bonus on [Perception](skills/perception.md#_perception) and [Sense Motive](skills/senseMotive.md#_sense-motive) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
+**Benefit:** You get a +2 bonus on [Perception](skills/perception#_perception) and [Sense Motive](skills/senseMotive#_sense-motive) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
 
 ## Alignment Channel
 
@@ -311,7 +311,7 @@ Choose chaos, evil, good, or law. You can channel divine energy to affect outsid
 
 You are skilled at working with animals and mounts.
 
-**Benefit:** You get a +2 bonus on all [Handle Animal](skills/handleAnimal.md#_handle-animal) and [Ride](skills/ride.md#_ride) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
+**Benefit:** You get a +2 bonus on all [Handle Animal](skills/handleAnimal#_handle-animal) and [Ride](skills/ride#_ride) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
 
 ## Arcane Armor Mastery (Combat)
 
@@ -353,7 +353,7 @@ You are skilled at wearing heavy armor.
 
 You are skilled at wearing light armor.
 
-**Benefit:** When you wear a type of armor with which you are proficient, the armor check penalty for that armor applies only to [Dexterity](gettingStarted.md#_dexterity)- and Strength-based skill checks.
+**Benefit:** When you wear a type of armor with which you are proficient, the armor check penalty for that armor applies only to [Dexterity](gettingStarted#_dexterity)- and Strength-based skill checks.
 
 **Normal:** A character who is wearing armor with which he is not proficient applies its armor check penalty to attack rolls and to all skill checks that involve moving.
 
@@ -375,7 +375,7 @@ You are skilled at wearing medium armor.
 
 You possess inherent physical prowess.
 
-**Benefit:** You get a +2 bonus on [Climb](skills/climb.md#_climb) and [Swim](skills/swim.md#_swim) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
+**Benefit:** You get a +2 bonus on [Climb](skills/climb#_climb) and [Swim](skills/swim#_swim) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
 
 ## Augment Summoning
 
@@ -383,7 +383,7 @@ Your summoned creatures are more powerful and robust.
 
 **Prerequisite:** Spell Focus (conjuration).
 
-**Benefit:** Each creature you conjure with any _summon _spell gains a +4 enhancement bonus to Strength and [Constitution](gettingStarted.md#_constitution) for the duration of the spell that summoned it.
+**Benefit:** Each creature you conjure with any _summon _spell gains a +4 enhancement bonus to Strength and [Constitution](gettingStarted#_constitution) for the duration of the spell that summoned it.
 
 ## Bleeding Critical (Combat, Critical)
 
@@ -391,7 +391,7 @@ Your critical hits cause opponents to bleed profusely.
 
 **Prerequisites:** Critical Focus, base attack bonus +11.
 
-**Benefit:** Whenever you score a critical hit with a slashing or piercing weapon, your opponent takes 2d6 points of bleed damage (see [Conditions](glossary.md#_appendix-2-conditions)) each round on his turn, in addition to the damage dealt by the critical hit. [Bleed](glossary.md#_bleed) damage can be stopped by a DC 15 Heal skill check or through any magical healing. The effects of this feat stack.
+**Benefit:** Whenever you score a critical hit with a slashing or piercing weapon, your opponent takes 2d6 points of bleed damage (see [Conditions](glossary#_appendix-2-conditions)) each round on his turn, in addition to the damage dealt by the critical hit. [Bleed](glossary#_bleed) damage can be stopped by a DC 15 Heal skill check or through any magical healing. The effects of this feat stack.
 
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.
 
@@ -399,13 +399,13 @@ Your critical hits cause opponents to bleed profusely.
 
 You are skilled at attacking opponents that you cannot clearly perceive.
 
-**Benefit:** In melee, every time you miss because of concealment (see [Combat](combat.md)), you can reroll your miss chance percentile roll one time to see if you actually hit.
+**Benefit:** In melee, every time you miss because of concealment (see [Combat](combat)), you can reroll your miss chance percentile roll one time to see if you actually hit.
 
-An [invisible](glossary.md#_invisible) attacker gets no advantages related to hitting you in melee. That is, you don't lose your [Dexterity](gettingStarted.md#_dexterity) bonus to [Armor Class](combat.md#_armor-class), and the attacker doesn't get the usual +2 bonus for being [invisible](glossary.md#_invisible). The [invisible](glossary.md#_invisible) attacker's bonuses do still apply for ranged attacks, however.
+An [invisible](glossary#_invisible) attacker gets no advantages related to hitting you in melee. That is, you don't lose your [Dexterity](gettingStarted#_dexterity) bonus to [Armor Class](combat#_armor-class), and the attacker doesn't get the usual +2 bonus for being [invisible](glossary#_invisible). The [invisible](glossary#_invisible) attacker's bonuses do still apply for ranged attacks, however.
 
 You do not need to make Acrobatics skill checks to move at full speed while blinded.
 
-**Normal:** Regular attack roll modifiers for [invisible](glossary.md#_invisible) attackers trying to hit you apply, and you lose your [Dexterity](gettingStarted.md#_dexterity) bonus to [AC](combat.md#_armor-class). The speed reduction for darkness and poor visibility also applies.
+**Normal:** Regular attack roll modifiers for [invisible](glossary#_invisible) attackers trying to hit you apply, and you lose your [Dexterity](gettingStarted#_dexterity) bonus to [AC](combat#_armor-class). The speed reduction for darkness and poor visibility also applies.
 
 **Special:** The Blind-Fight feat is of no use against a character who is the subject of a _blink _spell.
 
@@ -415,7 +415,7 @@ Your critical hits blind your opponents.
 
 **Prerequisites:** Critical Focus, base attack bonus +15.
 
-**Benefit:** Whenever you score a critical hit, your opponent is permanently [blinded](glossary.md#_blinded). A successful [Fortitude](combat.md#_fortitude) save reduces this to [dazzled](glossary.md#_dazzled) for 1d4 rounds. The DC of this [Fortitude](combat.md#_fortitude) save is equal to 10 + your base attack bonus. This feat has no effect on creatures that do not rely on eyes for sight or creatures with more than two eyes (although multiple critical hits might cause blindness, at the GM's discretion). Blindness can be cured by _heal, regeneration, remove blindness, _or similar abilities.
+**Benefit:** Whenever you score a critical hit, your opponent is permanently [blinded](glossary#_blinded). A successful [Fortitude](combat#_fortitude) save reduces this to [dazzled](glossary#_dazzled) for 1d4 rounds. The DC of this [Fortitude](combat#_fortitude) save is equal to 10 + your base attack bonus. This feat has no effect on creatures that do not rely on eyes for sight or creatures with more than two eyes (although multiple critical hits might cause blindness, at the GM's discretion). Blindness can be cured by _heal, regeneration, remove blindness, _or similar abilities.
 
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.
 
@@ -425,7 +425,7 @@ You can create magic potions.
 
 **Prerequisite:** Caster level 3rd.
 
-**Benefit:** You can create a potion of any 3rd-level or lower spell that you know and that targets one or more creatures or objects. Brewing a potion takes 2 hours if its base price is 250 gp or less, otherwise brewing a potion takes 1 day for each 1,000 gp in its base price. When you create a potion, you set the caster level, which must be sufficient to cast the spell in question and no higher than your own level. To brew a potion, you must use up raw materials costing one half this base price. See the magic item creation rules in [Magic Items](magicItems.md) for more information.
+**Benefit:** You can create a potion of any 3rd-level or lower spell that you know and that targets one or more creatures or objects. Brewing a potion takes 2 hours if its base price is 250 gp or less, otherwise brewing a potion takes 1 day for each 1,000 gp in its base price. When you create a potion, you set the caster level, which must be sufficient to cast the spell in question and no higher than your own level. To brew a potion, you must use up raw materials costing one half this base price. See the magic item creation rules in [Magic Items](magicItems) for more information.
 
 When you create a potion, you make any choices that you would normally make when casting the spell. Whoever drinks the potion is the target of the spell.
 
@@ -433,7 +433,7 @@ When you create a potion, you make any choices that you would normally make when
 
 Foes are surprised by your skilled use of unorthodox and improvised weapons.
 
-**Benefit:** You do not suffer any penalties for using an improvised melee weapon. Unarmed opponents are [flat-footed](glossary.md#_flat-footed) against any attacks you make with an improvised melee weapon.
+**Benefit:** You do not suffer any penalties for using an improvised melee weapon. Unarmed opponents are [flat-footed](glossary#_flat-footed) against any attacks you make with an improvised melee weapon.
 
 **Normal:** You take a –4 penalty on attack rolls made with an improvised weapon.
 
@@ -443,37 +443,37 @@ You can channel your divine energy through a melee weapon you wield.
 
 **Prerequisite:** Channel energy class feature.
 
-**Benefit:** Before you make a melee attack roll, you can choose to spend one use of your channel energy ability as a swift action. If you channel positive energy and you hit an undead creature, that creature takes an amount of additional damage equal to the damage dealt by your channel positive energy ability. If you channel negative energy and you hit a living creature, that creature takes an amount of additional damage equal to the damage dealt by your channel negative energy ability. Your target can make a [Will](combat.md#_will) save, as normal, to halve this additional damage. If your attack misses, the channel energy ability is still expended with no effect.
+**Benefit:** Before you make a melee attack roll, you can choose to spend one use of your channel energy ability as a swift action. If you channel positive energy and you hit an undead creature, that creature takes an amount of additional damage equal to the damage dealt by your channel positive energy ability. If you channel negative energy and you hit a living creature, that creature takes an amount of additional damage equal to the damage dealt by your channel negative energy ability. Your target can make a [Will](combat#_will) save, as normal, to halve this additional damage. If your attack misses, the channel energy ability is still expended with no effect.
 
 ## Cleave (Combat)
 
 You can strike two adjacent foes with a single swing.
 
-**Prerequisites:** [Str](gettingStarted.md#_strength) 13, Power Attack, base attack bonus +1.
+**Prerequisites:** [Str](gettingStarted#_strength) 13, Power Attack, base attack bonus +1.
 
-**Benefit:** As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the first and also within reach. You can only make one additional attack per round with this feat. When you use this feat, you take a –2 penalty to your [Armor Class](combat.md#_armor-class) until your next turn.
+**Benefit:** As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the first and also within reach. You can only make one additional attack per round with this feat. When you use this feat, you take a –2 penalty to your [Armor Class](combat#_armor-class) until your next turn.
 
 ## Combat Casting
 
 You are adept at spellcasting when threatened or distracted.
 
-**Benefit:** You get a +4 bonus on [concentration checks](magic.md#_concentration) made to cast a spell or use a spell-like ability when casting on the defensive or while [grappled](glossary.md#_grappled).
+**Benefit:** You get a +4 bonus on [concentration checks](magic#_concentration) made to cast a spell or use a spell-like ability when casting on the defensive or while [grappled](glossary#_grappled).
 
 ## Combat Expertise (Combat)
 
 You can increase your defense at the expense of your accuracy.
 
-**Prerequisite:** [Int](gettingStarted.md#_intelligence) 13.
+**Prerequisite:** [Int](gettingStarted#_intelligence) 13.
 
-**Benefit:** You can choose to take a –1 penalty on melee attack rolls and combat maneuver checks to gain a +1 [dodge bonus](combat.md#_dodge-bonuses) to your [Armor Class](combat.md#_armor-class). When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by –1 and the [dodge bonus](combat.md#_dodge-bonuses) increases by +1. You can only choose to use this feat when you declare that you are making an attack or a full-attack action with a melee weapon. The effects of this feat last until your next turn.
+**Benefit:** You can choose to take a –1 penalty on melee attack rolls and combat maneuver checks to gain a +1 [dodge bonus](combat#_dodge-bonuses) to your [Armor Class](combat#_armor-class). When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by –1 and the [dodge bonus](combat#_dodge-bonuses) increases by +1. You can only choose to use this feat when you declare that you are making an attack or a full-attack action with a melee weapon. The effects of this feat last until your next turn.
 
 ## Combat Reflexes (Combat)
 
 You can make additional attacks of opportunity.
 
-**Benefit:** You may make a number of additional attacks of opportunity per round equal to your [Dexterity](gettingStarted.md#_dexterity) bonus. With this feat, you may also make attacks of opportunity while [flat-footed](glossary.md#_flat-footed).
+**Benefit:** You may make a number of additional attacks of opportunity per round equal to your [Dexterity](gettingStarted#_dexterity) bonus. With this feat, you may also make attacks of opportunity while [flat-footed](glossary#_flat-footed).
 
-**Normal:** A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while [flat-footed](glossary.md#_flat-footed).
+**Normal:** A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while [flat-footed](glossary#_flat-footed).
 
 **Special:** The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round.
 
@@ -483,7 +483,7 @@ Using foul powers of necromancy, you can command undead creatures, making them i
 
 **Prerequisites:** Channel negative energy class feature.
 
-**Benefit:** As a standard action, you can use one of your uses of channel negative energy to enslave undead within 30 feet. Undead receive a [Will](combat.md#_will) save to negate the effect. The DC for this [Will](combat.md#_will) save is equal to 10 + 1/2 your cleric level + your [Charisma](gettingStarted.md#_charisma-new) modifier. Undead that fail their saves fall under your control, obeying your commands to the best of their ability, as if under the effects of _control undead_. Intelligent undead receive a new saving throw each day to resist your command. You can control any number of undead, so long as their total Hit Dice do not exceed your cleric level. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures). If an undead creature is under the control of another creature, you must make an opposed [Charisma](gettingStarted.md#_charisma-new) check whenever your orders conflict.
+**Benefit:** As a standard action, you can use one of your uses of channel negative energy to enslave undead within 30 feet. Undead receive a [Will](combat#_will) save to negate the effect. The DC for this [Will](combat#_will) save is equal to 10 + 1/2 your cleric level + your [Charisma](gettingStarted#_charisma-new) modifier. Undead that fail their saves fall under your control, obeying your commands to the best of their ability, as if under the effects of _control undead_. Intelligent undead receive a new saving throw each day to resist your command. You can control any number of undead, so long as their total Hit Dice do not exceed your cleric level. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures). If an undead creature is under the control of another creature, you must make an opposed [Charisma](gettingStarted#_charisma-new) check whenever your orders conflict.
 
 ## Craft Magic Arms and Armor (Item Creation)
 
@@ -491,7 +491,7 @@ You can create magic armor, shields, and weapons.
 
 **Prerequisite:** Caster level 5th.
 
-**Benefit:** You can create magic weapons, armor, or shields. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must use up raw materials costing half of this total price. See the magic item creation rules in [Magic Items](magicItems.md) for more information.
+**Benefit:** You can create magic weapons, armor, or shields. Enhancing a weapon, suit of armor, or shield takes 1 day for each 1,000 gp in the price of its magical features. To enhance a weapon, suit of armor, or shield, you must use up raw materials costing half of this total price. See the magic item creation rules in [Magic Items](magicItems) for more information.
 
 The weapon, armor, or shield to be enhanced must be a masterwork item that you provide. Its cost is not included in the above cost.
 
@@ -503,7 +503,7 @@ You can create magic rods.
 
 **Prerequisite:** Caster level 9th.
 
-**Benefit:** You can create magic rods. Crafting a rod takes 1 day for each 1,000 gp in its base price. To craft a rod, you must use up raw materials costing half of its base price. See the magic item creation rules in [Magic Items](magicItems.md) for more information.
+**Benefit:** You can create magic rods. Crafting a rod takes 1 day for each 1,000 gp in its base price. To craft a rod, you must use up raw materials costing half of its base price. See the magic item creation rules in [Magic Items](magicItems) for more information.
 
 ## Craft Staff (Item Creation)
 
@@ -511,7 +511,7 @@ You can create magic staves.
 
 **Prerequisite:** Caster level 11th.
 
-**Benefit:** You can create any staff whose prerequisites you meet. Crafting a staff takes 1 day for each 1,000 gp in its base price. To craft a staff, you must use up raw materials costing half of its base price. A newly created staff has 10 charges. See the magic item creation rules in [Magic Items](magicItems.md) for more information.
+**Benefit:** You can create any staff whose prerequisites you meet. Crafting a staff takes 1 day for each 1,000 gp in its base price. To craft a staff, you must use up raw materials costing half of its base price. A newly created staff has 10 charges. See the magic item creation rules in [Magic Items](magicItems) for more information.
 
 ## Craft Wand (Item Creation)
 
@@ -519,7 +519,7 @@ You can create magic wands.
 
 **Prerequisite:** Caster level 5th.
 
-**Benefit:** You can create a wand of any 4th-level or lower spell that you know. Crafting a wand takes 1 day for each 1,000 gp in its base price. To craft a wand, you must use up raw materials costing half of this base price. A newly created wand has 50 charges. See the magic item creation rules in [Magic Items](magicItems.md) for more information.
+**Benefit:** You can create a wand of any 4th-level or lower spell that you know. Crafting a wand takes 1 day for each 1,000 gp in its base price. To craft a wand, you must use up raw materials costing half of this base price. A newly created wand has 50 charges. See the magic item creation rules in [Magic Items](magicItems) for more information.
 
 ## Craft Wondrous Item (Item Creation)
 
@@ -527,7 +527,7 @@ You can create wondrous items, a type of magic item.
 
 **Prerequisite:** Caster level 3rd.
 
-**Benefit:** You can create a wide variety of magic wondrous items. Crafting a wondrous item takes 1 day for each 1,000 gp in its price. To create a wondrous item, you must use up raw materials costing half of its base price. See the magic item creation rules in [Magic Items](magicItems.md) for more information.
+**Benefit:** You can create a wide variety of magic wondrous items. Crafting a wondrous item takes 1 day for each 1,000 gp in its price. To create a wondrous item, you must use up raw materials costing half of its base price. See the magic item creation rules in [Magic Items](magicItems) for more information.
 
 You can also mend a broken wondrous item if it is one that you could make. Doing so costs half the raw materials and half the time it would take to craft that item.
 
@@ -555,13 +555,13 @@ Your skill with your favored weapon can frighten enemies.
 
 **Prerequisite:** Weapon Focus, proficiency with the selected weapon.
 
-**Benefit:** While wielding the weapon in which you have Weapon Focus, you can perform a bewildering show of prowess as a full-round action. Make an [Intimidate](skills/intimidate.md#_intimidate) check to demoralize all foes within 30 feet who can see your display.
+**Benefit:** While wielding the weapon in which you have Weapon Focus, you can perform a bewildering show of prowess as a full-round action. Make an [Intimidate](skills/intimidate#_intimidate) check to demoralize all foes within 30 feet who can see your display.
 
 ## Deadly Aim (Combat)
 
 You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 13, base attack bonus +1.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 13, base attack bonus +1.
 
 **Benefit:** You can choose to take a –1 penalty on all ranged attack rolls to gain a +2 bonus on all ranged damage rolls. When your base attack bonus reaches +4, and every +4 thereafter, the penalty increases by –1 and the bonus to damage increases by +2. You must choose to use this feat before making an attack roll and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage.
 
@@ -571,7 +571,7 @@ With a well-placed strike, you can bring a swift and painful end to most foes.
 
 **Prerequisites:** Dazzling Display, Greater Weapon Focus, Shatter Defenses, Weapon Focus, proficiency with the selected weapon, base attack bonus +11.
 
-**Benefit:** As a standard action, make a single attack with the weapon for which you have Greater Weapon Focus against a [stunned](glossary.md#_stunned) or [flat-footed](glossary.md#_flat-footed) opponent. If you hit, you deal double the normal damage and the target takes 1 point of [Constitution](gettingStarted.md#_constitution) [bleed](glossary.md#_bleed) (see [Conditions](glossary.md#_appendix-2-conditions)). The additional damage and [bleed](glossary.md#_bleed) is not multiplied on a critical hit.
+**Benefit:** As a standard action, make a single attack with the weapon for which you have Greater Weapon Focus against a [stunned](glossary#_stunned) or [flat-footed](glossary#_flat-footed) opponent. If you hit, you deal double the normal damage and the target takes 1 point of [Constitution](gettingStarted#_constitution) [bleed](glossary#_bleed) (see [Conditions](glossary#_appendix-2-conditions)). The additional damage and [bleed](glossary#_bleed) is not multiplied on a critical hit.
 
 ## Deafening Critical (Combat, Critical)
 
@@ -579,7 +579,7 @@ Your critical hits cause enemies to lose their hearing.
 
 **Prerequisites:** Critical Focus, base attack bonus +13.
 
-**Benefit:** Whenever you score a critical hit against an opponent, the victim is permanently [deafened](glossary.md#_deafened). A successful [Fortitude](combat.md#_fortitude) save reduces the deafness to 1 round. The DC of this [Fortitude](combat.md#_fortitude) save is equal to 10 + your base attack bonus. This feat has no effect on deaf creatures. This deafness can be cured by _heal, regeneration, remove deafness, _or a similar ability.
+**Benefit:** Whenever you score a critical hit against an opponent, the victim is permanently [deafened](glossary#_deafened). A successful [Fortitude](combat#_fortitude) save reduces the deafness to 1 round. The DC of this [Fortitude](combat#_fortitude) save is equal to 10 + your base attack bonus. This feat has no effect on deaf creatures. This deafness can be cured by _heal, regeneration, remove deafness, _or a similar ability.
 
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.
 
@@ -587,27 +587,27 @@ Your critical hits cause enemies to lose their hearing.
 
 You are skilled at deceiving others, both with the spoken word and with physical disguises.
 
-**Benefit:** You get a +2 bonus on all [Bluff](skills/bluff.md#_bluff) and [Disguise](skills/disguise.md#_disguise) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
+**Benefit:** You get a +2 bonus on all [Bluff](skills/bluff#_bluff) and [Disguise](skills/disguise#_disguise) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
 
 ## Defensive Combat Training (Combat)
 
 You excel at defending yourself from all manner of combat maneuvers.
 
-**Benefit:** You treat your total Hit Dice as your base attack bonus when calculating your [Combat Maneuver Defense](combat.md#_combat-maneuver-defense) (see [Combat](combat.md)).
+**Benefit:** You treat your total Hit Dice as your base attack bonus when calculating your [Combat Maneuver Defense](combat#_combat-maneuver-defense) (see [Combat](combat)).
 
 ## Deflect Arrows (Combat)
 
 You can knock arrows and other projectiles off course, preventing them from hitting you.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 13, Improved Unarmed Strike.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 13, Improved Unarmed Strike.
 
-**Benefit:** You must have at least one hand free (holding nothing) to use this feat. Once per round when you would normally be hit with an attack from a ranged weapon, you may deflect it so that you take no damage from it. You must be aware of the attack and not [flat-footed](glossary.md#_flat-footed). Attempting to deflect a ranged attack doesn't count as an action. Unusually massive ranged weapons (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects can't be deflected.
+**Benefit:** You must have at least one hand free (holding nothing) to use this feat. Once per round when you would normally be hit with an attack from a ranged weapon, you may deflect it so that you take no damage from it. You must be aware of the attack and not [flat-footed](glossary#_flat-footed). Attempting to deflect a ranged attack doesn't count as an action. Unusually massive ranged weapons (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects can't be deflected.
 
 ## Deft Hands
 
 You have exceptional manual dexterity.
 
-**Benefit:** You get a +2 bonus on [Disable Device](skills/disableDevice.md#_disable-device) and [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
+**Benefit:** You get a +2 bonus on [Disable Device](skills/disableDevice#_disable-device) and [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
 
 ## Diehard
 
@@ -615,11 +615,11 @@ You are especially hard to kill. Not only do your wounds automatically stabilize
 
 **Prerequisite:** Endurance.
 
-**Benefit:** When your hit point total is below 0, but you are not dead, you automatically stabilize. You do not need to make a [Constitution](gettingStarted.md#_constitution) check each round to avoid losing additional hit points. You may choose to act as if you were disabled, rather than [dying](glossary.md#_dying). You must make this decision as soon as you are reduced to negative hit points (even if it isn't your turn). If you do not choose to act as if you were disabled, you immediately fall [unconscious](glossary.md#_unconscious).
+**Benefit:** When your hit point total is below 0, but you are not dead, you automatically stabilize. You do not need to make a [Constitution](gettingStarted#_constitution) check each round to avoid losing additional hit points. You may choose to act as if you were disabled, rather than [dying](glossary#_dying). You must make this decision as soon as you are reduced to negative hit points (even if it isn't your turn). If you do not choose to act as if you were disabled, you immediately fall [unconscious](glossary#_unconscious).
 
-When using this feat, you are [staggered](glossary.md#_staggered). You can take a move action without further injuring yourself, but if you perform any standard action (or any other action deemed as strenuous, including some swift actions, such as casting a quickened spell) you take 1 point of damage after completing the act. If your negative hit points are equal to or greater than your [Constitution](gettingStarted.md#_constitution) score, you immediately die.
+When using this feat, you are [staggered](glossary#_staggered). You can take a move action without further injuring yourself, but if you perform any standard action (or any other action deemed as strenuous, including some swift actions, such as casting a quickened spell) you take 1 point of damage after completing the act. If your negative hit points are equal to or greater than your [Constitution](gettingStarted#_constitution) score, you immediately die.
 
-**Normal:** A character without this feat who is reduced to negative hit points is [unconscious](glossary.md#_unconscious) and [dying](glossary.md#_dying).
+**Normal:** A character without this feat who is reduced to negative hit points is [unconscious](glossary#_unconscious) and [dying](glossary#_dying).
 
 ## Disruptive (Combat)
 
@@ -633,15 +633,15 @@ Your training makes it difficult for enemy spellcasters to safely cast spells ne
 
 Your training and reflexes allow you to react swiftly to avoid an opponents' attacks.
 
-**Prerequisite:** [Dex](gettingStarted.md#_dexterity) 13.
+**Prerequisite:** [Dex](gettingStarted#_dexterity) 13.
 
-**Benefit:** You gain a +1 [dodge bonus](combat.md#_dodge-bonuses) to your [AC](combat.md#_armor-class). A condition that makes you lose your [Dex](gettingStarted.md#_dexterity) bonus to [AC](combat.md#_armor-class) also makes you lose the benefits of this feat.
+**Benefit:** You gain a +1 [dodge bonus](combat#_dodge-bonuses) to your [AC](combat#_armor-class). A condition that makes you lose your [Dex](gettingStarted#_dexterity) bonus to [AC](combat#_armor-class) also makes you lose the benefits of this feat.
 
 ## Double Slice (Combat)
 
 Your off-hand weapon while dual-wielding strikes with greater power.
 
-**Prerequisite:** [Dex](gettingStarted.md#_dexterity) 15, Two-Weapon Fighting.
+**Prerequisite:** [Dex](gettingStarted#_dexterity) 15, Two-Weapon Fighting.
 
 **Benefit:** Add your Strength bonus to damage rolls made with your off-hand weapon.
 
@@ -669,11 +669,11 @@ Saving throws and opposed rolls are not affected, nor are spells without random 
 
 Harsh conditions or long exertions do not easily tire you.
 
-**Benefit:** You gain a +4 bonus on the following checks and saves: Swim checks made to resist nonlethal damage from exhaustion; [Constitution](gettingStarted.md#_constitution) checks made to continue running; [Constitution](gettingStarted.md#_constitution) checks made to avoid nonlethal damage from a forced march; [Constitution](gettingStarted.md#_constitution) checks made to hold your breath; [Constitution](gettingStarted.md#_constitution) checks made to avoid nonlethal damage from starvation or thirst; [Fortitude](combat.md#_fortitude) saves made to avoid nonlethal damage from hot or cold environments; and [Fortitude](combat.md#_fortitude) saves made to resist damage from suffocation.
+**Benefit:** You gain a +4 bonus on the following checks and saves: Swim checks made to resist nonlethal damage from exhaustion; [Constitution](gettingStarted#_constitution) checks made to continue running; [Constitution](gettingStarted#_constitution) checks made to avoid nonlethal damage from a forced march; [Constitution](gettingStarted#_constitution) checks made to hold your breath; [Constitution](gettingStarted#_constitution) checks made to avoid nonlethal damage from starvation or thirst; [Fortitude](combat#_fortitude) saves made to avoid nonlethal damage from hot or cold environments; and [Fortitude](combat#_fortitude) saves made to resist damage from suffocation.
 
-You may sleep in light or medium armor without becoming [fatigued](glossary.md#_fatigued).
+You may sleep in light or medium armor without becoming [fatigued](glossary#_fatigued).
 
-**Normal:** A character without this feat who sleeps in medium or heavier armor is [fatigued](glossary.md#_fatigued) the next day.
+**Normal:** A character without this feat who sleeps in medium or heavier armor is [fatigued](glossary#_fatigued) the next day.
 
 ## Enlarge Spell (Metamagic)
 
@@ -695,7 +695,7 @@ Your critical hits cause opponents to become exhausted.
 
 **Prerequisites:** Critical Focus, Tiring Critical, base attack bonus +15.
 
-**Benefit:** When you score a critical hit on a foe, your target immediately becomes [exhausted](glossary.md#_exhausted). This feat has no effect on exhausted creatures.
+**Benefit:** When you score a critical hit on a foe, your target immediately becomes [exhausted](glossary#_exhausted). This feat has no effect on exhausted creatures.
 
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess the Critical Mastery feat.
 
@@ -801,7 +801,7 @@ You can create magic rings.
 
 **Prerequisite:** Caster level 7th.
 
-**Benefit:** You can create magic rings. Crafting a ring takes 1 day for each 1,000 gp in its base price. To craft a ring, you must use up raw materials costing half of the base price. See the magic item creation rules in [Magic Items](magicItems.md) for more information.
+**Benefit:** You can create magic rings. Crafting a ring takes 1 day for each 1,000 gp in its base price. To craft a ring, you must use up raw materials costing half of the base price. See the magic item creation rules in [Magic Items](magicItems) for more information.
 
 You can also mend a broken ring if it is one that you could make. Doing so costs half the raw materials and half the time it would take to forge that ring in the first place.
 
@@ -811,37 +811,37 @@ With one well-placed blow, you leave your target reeling.
 
 **Prerequisites:** Improved Unarmed Strike, Scorpion Style, base attack bonus +6.
 
-**Benefit:** As a standard action, make a single unarmed melee attack against a foe whose speed is reduced (such as from Scorpion Style). If the attack hits, you deal damage normally and the target is [staggered](glossary.md#_staggered) until the end of your next turn unless it makes a [Fortitude](combat.md#_fortitude) saving throw (DC 10 + 1/2 your character level + your [Wis](gettingStarted.md#_wisdom) modifier). This feat has no effect on targets that are staggered.
+**Benefit:** As a standard action, make a single unarmed melee attack against a foe whose speed is reduced (such as from Scorpion Style). If the attack hits, you deal damage normally and the target is [staggered](glossary#_staggered) until the end of your next turn unless it makes a [Fortitude](combat#_fortitude) saving throw (DC 10 + 1/2 your character level + your [Wis](gettingStarted#_wisdom) modifier). This feat has no effect on targets that are staggered.
 
 ## Great Cleave (Combat)
 
 You can strike many adjacent foes with a single blow.
 
-**Prerequisites:** [Str](gettingStarted.md#_strength) 13, Cleave, Power Attack, base attack bonus +4.
+**Prerequisites:** [Str](gettingStarted#_strength) 13, Cleave, Power Attack, base attack bonus +4.
 
-**Benefit:** As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the previous foe and also within reach. If you hit, you can continue to make attacks against foes adjacent to the previous foe, so long as they are within your reach. You cannot attack an individual foe more than once during this attack action. When you use this feat, you take a –2 penalty to your [Armor Class](combat.md#_armor-class) until your next turn.
+**Benefit:** As a standard action, you can make a single attack at your full base attack bonus against a foe within reach. If you hit, you deal damage normally and can make an additional attack (using your full base attack bonus) against a foe that is adjacent to the previous foe and also within reach. If you hit, you can continue to make attacks against foes adjacent to the previous foe, so long as they are within your reach. You cannot attack an individual foe more than once during this attack action. When you use this feat, you take a –2 penalty to your [Armor Class](combat#_armor-class) until your next turn.
 
 ## Great Fortitude
 
 You are resistant to poisons, diseases, and other maladies.
 
-**Benefit:** You get a +2 bonus on all [Fortitude](combat.md#_fortitude) saving throws.
+**Benefit:** You get a +2 bonus on all [Fortitude](combat#_fortitude) saving throws.
 
 ## Greater Bull Rush (Combat)
 
 Your bull rush attacks throw enemies off balance.
 
-**Prerequisites:** Improved Bull Rush, Power Attack, base attack bonus +6, [Str](gettingStarted.md#_strength) 13.
+**Prerequisites:** Improved Bull Rush, Power Attack, base attack bonus +6, [Str](gettingStarted#_strength) 13.
 
-**Benefit:** You receive a +2 bonus on checks made to [bull rush](combat.md#_bull-rush) a foe. This bonus stacks with the bonus granted by Improved Bull Rush. Whenever you [bull rush](combat.md#_bull-rush) an opponent, his movement provokes attacks of opportunity from all of your allies (but not you).
+**Benefit:** You receive a +2 bonus on checks made to [bull rush](combat#_bull-rush) a foe. This bonus stacks with the bonus granted by Improved Bull Rush. Whenever you [bull rush](combat#_bull-rush) an opponent, his movement provokes attacks of opportunity from all of your allies (but not you).
 
-**Normal:** Creatures moved by [bull rush](combat.md#_bull-rush) do not provoke attacks of opportunity.
+**Normal:** Creatures moved by [bull rush](combat#_bull-rush) do not provoke attacks of opportunity.
 
 ## Greater Disarm (Combat)
 
 You can knock weapons far from an enemy's grasp.
 
-**Prerequisites:** Combat Expertise, Improved Disarm, base attack bonus +6, [Int](gettingStarted.md#_intelligence) 13.
+**Prerequisites:** Combat Expertise, Improved Disarm, base attack bonus +6, [Int](gettingStarted#_intelligence) 13.
 
 **Benefit:** You receive a +2 bonus on checks made to disarm a foe. This bonus stacks with the bonus granted by Improved Disarm. Whenever you successfully disarm an opponent, the weapon lands 15 feet away from its previous wielder, in a random direction.
 
@@ -851,31 +851,31 @@ You can knock weapons far from an enemy's grasp.
 
 You are skilled at making foes overreact to your attacks.
 
-**Prerequisites:** Combat Expertise, Improved Feint, base attack bonus +6, [Int](gettingStarted.md#_intelligence) 13.
+**Prerequisites:** Combat Expertise, Improved Feint, base attack bonus +6, [Int](gettingStarted#_intelligence) 13.
 
-**Benefit:** Whenever you use feint to cause an opponent to lose his [Dexterity](gettingStarted.md#_dexterity) bonus, he loses that bonus until the beginning of your next turn, in addition to losing his [Dexterity](gettingStarted.md#_dexterity) bonus against your next attack.
+**Benefit:** Whenever you use feint to cause an opponent to lose his [Dexterity](gettingStarted#_dexterity) bonus, he loses that bonus until the beginning of your next turn, in addition to losing his [Dexterity](gettingStarted#_dexterity) bonus against your next attack.
 
-**Normal:** A creature you feint loses its [Dexterity](gettingStarted.md#_dexterity) bonus against your next attack.
+**Normal:** A creature you feint loses its [Dexterity](gettingStarted#_dexterity) bonus against your next attack.
 
 ## Greater Grapple (Combat)
 
 Maintaining a grapple is second nature to you.
 
-**Prerequisites:** Improved Grapple, Improved Unarmed Strike, base attack bonus +6, [Dex](gettingStarted.md#_dexterity) 13.
+**Prerequisites:** Improved Grapple, Improved Unarmed Strike, base attack bonus +6, [Dex](gettingStarted#_dexterity) 13.
 
-**Benefit:** You receive a +2 bonus on checks made to [grapple](combat.md#_grapple) a foe. This bonus stacks with the bonus granted by Improved Grapple. Once you have [grappled](glossary.md#_grappled) a creature, maintaining the [grapple](combat.md#_grapple) is a move action. This feat allows you to make two [grapple](combat.md#_grapple) checks each round (to move, harm, or pin your opponent), but you are not required to make two checks. You only need to succeed at one of these checks to maintain the [grapple](combat.md#_grapple).
+**Benefit:** You receive a +2 bonus on checks made to [grapple](combat#_grapple) a foe. This bonus stacks with the bonus granted by Improved Grapple. Once you have [grappled](glossary#_grappled) a creature, maintaining the [grapple](combat#_grapple) is a move action. This feat allows you to make two [grapple](combat#_grapple) checks each round (to move, harm, or pin your opponent), but you are not required to make two checks. You only need to succeed at one of these checks to maintain the [grapple](combat#_grapple).
 
-**Normal:** Maintaining a [grapple](combat.md#_grapple) is a standard action.
+**Normal:** Maintaining a [grapple](combat#_grapple) is a standard action.
 
 ## Greater Overrun (Combat)
 
 Enemies must dive to avoid your dangerous move.
 
-**Prerequisites:** Improved Overrun, Power Attack, base attack bonus +6, [Str](gettingStarted.md#_strength) 13.
+**Prerequisites:** Improved Overrun, Power Attack, base attack bonus +6, [Str](gettingStarted#_strength) 13.
 
-**Benefit:** You receive a +2 bonus on checks made to [overrun](combat.md#_overrun) a foe. This bonus stacks with the bonus granted by Improved Overrun. Whenever you [overrun](combat.md#_overrun) opponents, they provoke attacks of opportunity if they are knocked [prone](glossary.md#_prone) by your [overrun](combat.md#_overrun).
+**Benefit:** You receive a +2 bonus on checks made to [overrun](combat#_overrun) a foe. This bonus stacks with the bonus granted by Improved Overrun. Whenever you [overrun](combat#_overrun) opponents, they provoke attacks of opportunity if they are knocked [prone](glossary#_prone) by your [overrun](combat#_overrun).
 
-**Normal:** Creatures knocked [prone](glossary.md#_prone) by your [overrun](combat.md#_overrun) do not provoke an attack of opportunity.
+**Normal:** Creatures knocked [prone](glossary#_prone) by your [overrun](combat#_overrun) do not provoke an attack of opportunity.
 
 ## Greater Penetrating Strike (Combat)
 
@@ -891,7 +891,7 @@ You are skilled at deflecting blows with your shield.
 
 **Prerequisites:** Shield Focus, Shield Proficiency, base attack bonus +1, 8th-level fighter.
 
-**Benefit:** Increase the [AC](combat.md#_armor-class) bonus granted by any shield you are using by 1. This bonus stacks with the bonus granted by Shield Focus.
+**Benefit:** Increase the [AC](combat#_armor-class) bonus granted by any shield you are using by 1. This bonus stacks with the bonus granted by Shield Focus.
 
 ## Greater Spell Focus
 
@@ -915,17 +915,17 @@ Your spells break through spell resistance much more easily than most.
 
 Your devastating strikes cleave through weapons and armor and into their wielders, damaging both item and wielder alike in a single terrific strike.
 
-**Prerequisites:** Improved Sunder, Power Attack, base attack bonus +6, [Str](gettingStarted.md#_strength) 13.
+**Prerequisites:** Improved Sunder, Power Attack, base attack bonus +6, [Str](gettingStarted#_strength) 13.
 
-**Benefit:** You receive a +2 bonus on checks made to [sunder](combat.md#_sunder) an item. This bonus stacks with the bonus granted by Improved Sunder. Whenever you [sunder](combat.md#_sunder) to destroy a weapon, shield, or suit of armor, any excess damage is applied to the item's wielder. No damage is transferred if you decide to leave the item with 1 hit point.
+**Benefit:** You receive a +2 bonus on checks made to [sunder](combat#_sunder) an item. This bonus stacks with the bonus granted by Improved Sunder. Whenever you [sunder](combat#_sunder) to destroy a weapon, shield, or suit of armor, any excess damage is applied to the item's wielder. No damage is transferred if you decide to leave the item with 1 hit point.
 
 ## Greater Trip (Combat)
 
 You can make free attacks on foes that you knock down.
 
-**Prerequisites:** Combat Expertise, Improved Trip, base attack bonus +6, [Int](gettingStarted.md#_intelligence) 13.
+**Prerequisites:** Combat Expertise, Improved Trip, base attack bonus +6, [Int](gettingStarted#_intelligence) 13.
 
-**Benefit:** You receive a +2 bonus on checks made to [trip](combat.md#_trip) a foe. This bonus stacks with the bonus granted by Improved Trip. Whenever you successfully [trip](combat.md#_trip) an opponent, that opponent provokes attacks of opportunity.
+**Benefit:** You receive a +2 bonus on checks made to [trip](combat#_trip) a foe. This bonus stacks with the bonus granted by Improved Trip. Whenever you successfully [trip](combat#_trip) an opponent, that opponent provokes attacks of opportunity.
 
 **Normal:** Creatures do not provoke attacks of opportunity from being tripped.
 
@@ -933,7 +933,7 @@ You can make free attacks on foes that you knock down.
 
 You are incredibly skilled at fighting with two weapons at the same time.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 19, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 19, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11.
 
 **Benefit:** You get a third attack with your off-hand weapon, albeit at a –10 penalty.
 
@@ -943,11 +943,11 @@ You can make a single attack that deals incredible damage.
 
 **Prerequisites:** Improved Vital Strike, Vital Strike, base attack bonus +16.
 
-**Benefit:** When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack four times and add the results together before adding bonuses from Strength, weapon abilities (such as [_flaming_](./magicItems/weapons.md#_flaming)), precision based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.
+**Benefit:** When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack four times and add the results together before adding bonuses from Strength, weapon abilities (such as [_flaming_](./magicItems/weapons#_flaming)), precision based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.
 
 ## Greater Weapon Focus (Combat)
 
-Choose one type of weapon (including unarmed strike or [grapple](combat.md#_grapple)) for which you have already selected Weapon Focus. You are a master at your chosen weapon.
+Choose one type of weapon (including unarmed strike or [grapple](combat#_grapple)) for which you have already selected Weapon Focus. You are a master at your chosen weapon.
 
 **Prerequisites** : Proficiency with selected weapon, Weapon Focus with selected weapon, base attack bonus +1, 8th-level fighter.
 
@@ -957,7 +957,7 @@ Choose one type of weapon (including unarmed strike or [grapple](combat.md#_grap
 
 ## Greater Weapon Specialization (Combat)
 
-Choose one type of weapon (including unarmed strike or [grapple](combat.md#_grapple)) for which you possess the Weapon Specialization feat. Your attacks with the chosen weapon are more devastating than normal.
+Choose one type of weapon (including unarmed strike or [grapple](combat#_grapple)) for which you possess the Weapon Specialization feat. Your attacks with the chosen weapon are more devastating than normal.
 
 **Prerequisites** : Proficiency with selected weapon, Greater Weapon Focus with selected weapon, Weapon Focus with selected weapon, Weapon Specialization with selected weapon, 12th-level fighter.
 
@@ -975,11 +975,11 @@ You can cast spells as if they were a higher level.
 
 You are skilled at pushing your foes around.
 
-**Prerequisite:** [Str](gettingStarted.md#_strength) 13, Power Attack, base attack bonus +1.
+**Prerequisite:** [Str](gettingStarted#_strength) 13, Power Attack, base attack bonus +1.
 
-**Benefit:** You do not provoke an attack of opportunity when performing a [bull rush](combat.md#_bull-rush) combat maneuver. In addition, you receive a +2 bonus on checks made to [bull rush](combat.md#_bull-rush) a foe. You also receive a +2 bonus to your [Combat Maneuver Defense](combat.md#_combat-maneuver-defense) whenever an opponent tries to [bull rush](combat.md#_bull-rush) you.
+**Benefit:** You do not provoke an attack of opportunity when performing a [bull rush](combat#_bull-rush) combat maneuver. In addition, you receive a +2 bonus on checks made to [bull rush](combat#_bull-rush) a foe. You also receive a +2 bonus to your [Combat Maneuver Defense](combat#_combat-maneuver-defense) whenever an opponent tries to [bull rush](combat#_bull-rush) you.
 
-**Normal:** You provoke an attack of opportunity when performing a [bull rush](combat.md#_bull-rush) combat maneuver.
+**Normal:** You provoke an attack of opportunity when performing a [bull rush](combat#_bull-rush) combat maneuver.
 
 ## Improved Channel
 
@@ -1013,9 +1013,9 @@ This effect doesn't stack with any other effect that expands the threat range of
 
 You are skilled at knocking weapons from a foe's grasp.
 
-**Prerequisite:** [Int](gettingStarted.md#_intelligence) 13, Combat Expertise.
+**Prerequisite:** [Int](gettingStarted#_intelligence) 13, Combat Expertise.
 
-**Benefit:** You do not provoke an attack of opportunity when performing a disarm combat maneuver. In addition, you receive a +2 bonus on checks made to disarm a foe. You also receive a +2 bonus to your [Combat Maneuver Defense](combat.md#_combat-maneuver-defense) whenever an opponent tries to disarm you.
+**Benefit:** You do not provoke an attack of opportunity when performing a disarm combat maneuver. In addition, you receive a +2 bonus on checks made to disarm a foe. You also receive a +2 bonus to your [Combat Maneuver Defense](combat#_combat-maneuver-defense) whenever an opponent tries to disarm you.
 
 **Normal:** You provoke an attack of opportunity when performing a disarm combat maneuver.
 
@@ -1046,7 +1046,7 @@ Improved familiars otherwise use the rules for regular familiars_, _with two exc
 
 You are skilled at fooling your opponents in combat.
 
-**Prerequisites:** [Int](gettingStarted.md#_intelligence) 13, Combat Expertise.
+**Prerequisites:** [Int](gettingStarted#_intelligence) 13, Combat Expertise.
 
 **Benefit:** You can make a Bluff check to feint in combat as a move action.
 
@@ -1056,11 +1056,11 @@ You are skilled at fooling your opponents in combat.
 
 You are skilled at grappling opponents.
 
-**Prerequisite:** [Dex](gettingStarted.md#_dexterity) 13, Improved Unarmed Strike.
+**Prerequisite:** [Dex](gettingStarted#_dexterity) 13, Improved Unarmed Strike.
 
-**Benefit:** You do not provoke an attack of opportunity when performing a [grapple](combat.md#_grapple) combat maneuver. In addition, you receive a +2 bonus on checks made to [grapple](combat.md#_grapple) a foe. You also receive a +2 bonus to your [Combat Maneuver Defense](combat.md#_combat-maneuver-defense) whenever an opponent tries to [grapple](combat.md#_grapple) you.
+**Benefit:** You do not provoke an attack of opportunity when performing a [grapple](combat#_grapple) combat maneuver. In addition, you receive a +2 bonus on checks made to [grapple](combat#_grapple) a foe. You also receive a +2 bonus to your [Combat Maneuver Defense](combat#_combat-maneuver-defense) whenever an opponent tries to [grapple](combat#_grapple) you.
 
-**Normal:** You provoke an attack of opportunity when performing a [grapple](combat.md#_grapple) combat maneuver.
+**Normal:** You provoke an attack of opportunity when performing a [grapple](combat#_grapple) combat maneuver.
 
 ## Improved Great Fortitude
 
@@ -1068,7 +1068,7 @@ You can draw upon an inner reserve to resist diseases, poisons, and other grievo
 
 **Prerequisites:** Great Fortitude.
 
-**Benefit:** Once per day, you may reroll a [Fortitude](combat.md#_fortitude) save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse.
+**Benefit:** Once per day, you may reroll a [Fortitude](combat#_fortitude) save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse.
 
 ## Improved Initiative (Combat)
 
@@ -1082,7 +1082,7 @@ Your clarity of thought allows you to resist mental attacks.
 
 **Prerequisites:** Iron Will.
 
-**Benefit:** Once per day, you may reroll a [Will](combat.md#_will) save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse.
+**Benefit:** Once per day, you may reroll a [Will](combat#_will) save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse.
 
 ## Improved Lightning Reflexes
 
@@ -1090,27 +1090,27 @@ You have a knack for avoiding danger all around you.
 
 **Prerequisites:** Lightning Reflexes.
 
-**Benefit:** Once per day, you may reroll a [Reflex](combat.md#_reflex) save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse.
+**Benefit:** Once per day, you may reroll a [Reflex](combat#_reflex) save. You must decide to use this ability before the results are revealed. You must take the second roll, even if it is worse.
 
 ## Improved Overrun (Combat)
 
 You are skilled at running down your foes.
 
-**Prerequisite:** [Str](gettingStarted.md#_strength) 13, Power Attack, base attack bonus +1.
+**Prerequisite:** [Str](gettingStarted#_strength) 13, Power Attack, base attack bonus +1.
 
-**Benefit:** You do not provoke an attack of opportunity when performing an [overrun](combat.md#_overrun) combat maneuver. In addition, you receive a +2 bonus on checks made to overrrun a foe. You also receive a +2 bonus to your [Combat Maneuver Defense](combat.md#_combat-maneuver-defense) whenever an opponent tries to [overrun](combat.md#_overrun) you. Targets of your [overrun](combat.md#_overrun) attempt may not chose to avoid you.
+**Benefit:** You do not provoke an attack of opportunity when performing an [overrun](combat#_overrun) combat maneuver. In addition, you receive a +2 bonus on checks made to overrrun a foe. You also receive a +2 bonus to your [Combat Maneuver Defense](combat#_combat-maneuver-defense) whenever an opponent tries to [overrun](combat#_overrun) you. Targets of your [overrun](combat#_overrun) attempt may not chose to avoid you.
 
-**Normal:** You provoke an attack of opportunity when performing an [overrun](combat.md#_overrun) combat maneuver.
+**Normal:** You provoke an attack of opportunity when performing an [overrun](combat#_overrun) combat maneuver.
 
 ## Improved Precise Shot (Combat)
 
 Your ranged attacks ignore anything but total concealment and cover.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 19, Point-Blank Shot, Precise Shot, base attack bonus +11.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 19, Point-Blank Shot, Precise Shot, base attack bonus +11.
 
-**Benefit:** Your ranged attacks ignore the [AC](combat.md#_armor-class) bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks.
+**Benefit:** Your ranged attacks ignore the [AC](combat#_armor-class) bonus granted to targets by anything less than total cover, and the miss chance granted to targets by anything less than total concealment. Total cover and total concealment provide their normal benefits against your ranged attacks.
 
-**Normal:** See the normal rules on the effects of cover and concealment in [Combat](combat.md).
+**Normal:** See the normal rules on the effects of cover and concealment in [Combat](combat).
 
 ## Improved Shield Bash (Combat)
 
@@ -1118,35 +1118,35 @@ You can protect yourself with your shield, even if you use it to attack.
 
 **Prerequisite:** Shield Proficiency.
 
-**Benefit:** When you perform a shield bash, you may still apply the shield's shield bonus to your [AC](combat.md#_armor-class).
+**Benefit:** When you perform a shield bash, you may still apply the shield's shield bonus to your [AC](combat#_armor-class).
 
-**Normal:** Without this feat, a character that performs a shield bash loses the shield's shield bonus to [AC](combat.md#_armor-class) until his next turn (see [Equipment](equipment.md)).
+**Normal:** Without this feat, a character that performs a shield bash loses the shield's shield bonus to [AC](combat#_armor-class) until his next turn (see [Equipment](equipment)).
 
 ## Improved Sunder (Combat)
 
 You are skilled at damaging your foes' weapons and armor.
 
-**Prerequisite:** [Str](gettingStarted.md#_strength) 13, Power Attack, base attack bonus +1.
+**Prerequisite:** [Str](gettingStarted#_strength) 13, Power Attack, base attack bonus +1.
 
-**Benefit:** You do not provoke an attack of opportunity when performing a [sunder](combat.md#_sunder) combat maneuver. In addition, you receive a +2 bonus on checks made to [sunder](combat.md#_sunder) an item. You also receive a +2 bonus to your [Combat Maneuver Defense](combat.md#_combat-maneuver-defense) whenever an opponent tries to [sunder](combat.md#_sunder) your gear.
+**Benefit:** You do not provoke an attack of opportunity when performing a [sunder](combat#_sunder) combat maneuver. In addition, you receive a +2 bonus on checks made to [sunder](combat#_sunder) an item. You also receive a +2 bonus to your [Combat Maneuver Defense](combat#_combat-maneuver-defense) whenever an opponent tries to [sunder](combat#_sunder) your gear.
 
-**Normal:** You provoke an attack of opportunity when performing a [sunder](combat.md#_sunder) combat maneuver.
+**Normal:** You provoke an attack of opportunity when performing a [sunder](combat#_sunder) combat maneuver.
 
 ## Improved Trip (Combat)
 
 You are skilled at sending your opponents to the ground.
 
-**Prerequisite:** [Int](gettingStarted.md#_intelligence) 13, Combat Expertise.
+**Prerequisite:** [Int](gettingStarted#_intelligence) 13, Combat Expertise.
 
-**Benefit:** You do not provoke an attack of opportunity when performing a [trip](combat.md#_trip) combat maneuver. In addition, you receive a +2 bonus on checks made to [trip](combat.md#_trip) a foe. You also receive a +2 bonus to your [Combat Maneuver Defense](combat.md#_combat-maneuver-defense) whenever an opponent tries to [trip](combat.md#_trip) you.
+**Benefit:** You do not provoke an attack of opportunity when performing a [trip](combat#_trip) combat maneuver. In addition, you receive a +2 bonus on checks made to [trip](combat#_trip) a foe. You also receive a +2 bonus to your [Combat Maneuver Defense](combat#_combat-maneuver-defense) whenever an opponent tries to [trip](combat#_trip) you.
 
-**Normal:** You provoke an attack of opportunity when performing a [trip](combat.md#_trip) combat maneuver.
+**Normal:** You provoke an attack of opportunity when performing a [trip](combat#_trip) combat maneuver.
 
 ## Improved Two-Weapon Fighting (Combat)
 
 You are skilled at fighting with two weapons.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 17, Two-Weapon Fighting, base attack bonus +6.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 17, Two-Weapon Fighting, base attack bonus +6.
 
 **Benefit:** In addition to the standard single extra attack you get with an off-hand weapon, you get a second attack with it, albeit at a –5 penalty.
 
@@ -1166,7 +1166,7 @@ You can make a single attack that deals a large amount of damage.
 
 **Prerequisites:** Vital Strike, base attack bonus +11.
 
-**Benefit:** When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack three times and add the results together before adding bonuses from Strength, weapon special abilities (such as [_flaming_](./magicItems/weapons.md#_flaming)), precision based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.
+**Benefit:** When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack three times and add the results together before adding bonuses from Strength, weapon special abilities (such as [_flaming_](./magicItems/weapons#_flaming)), precision based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.
 
 ## Improvised Weapon Mastery (Combat)
 
@@ -1180,13 +1180,13 @@ You can turn nearly any object into a deadly weapon, from a razor-sharp chair le
 
 Your physical might is intimidating to others.
 
-**Benefit:** Add your Strength modifier to [Intimidate](skills/intimidate.md#_intimidate) skill checks in addition to your [Charisma](gettingStarted.md#_charisma-new) modifier.
+**Benefit:** Add your Strength modifier to [Intimidate](skills/intimidate#_intimidate) skill checks in addition to your [Charisma](gettingStarted#_charisma-new) modifier.
 
 ## Iron Will
 
 You are more resistant to mental effects.
 
-**Benefit:** You get a +2 bonus on all [Will](combat.md#_will) saving throws.
+**Benefit:** You get a +2 bonus on all [Will](combat#_will) saving throws.
 
 ## Leadership
 
@@ -1230,7 +1230,7 @@ You attract followers to your cause and a companion to join you on your adventur
 
 **Benefits:** This feat enables you to attract a loyal cohort and a number of devoted subordinates who assist you. A cohort is generally an NPC with class levels, while followers are typically lower level NPCs. See Table: Leadership for what level of cohort and how many followers you can recruit.
 
-**Leadership Modifiers:** Several factors can affect your Leadership score, causing it to vary from the base score (character level + [Cha](gettingStarted.md#_charisma-new) modifier). Your reputation (from the point of view of the cohort or follower you are trying to attract) raises or lowers your Leadership score:
+**Leadership Modifiers:** Several factors can affect your Leadership score, causing it to vary from the base score (character level + [Cha](gettingStarted#_charisma-new) modifier). Your reputation (from the point of view of the cohort or follower you are trying to attract) raises or lowers your Leadership score:
 
   
   
@@ -1275,9 +1275,9 @@ Followers have different priorities from cohorts. When you try to attract a foll
   
   
 
-_Leadership Score_: Your base Leadership score equals your level plus your [Charisma](gettingStarted.md#_charisma-new) modifier. In order to take into account negative [Charisma](gettingStarted.md#_charisma-new) modifiers, this table allows for very low Leadership scores, but you must still be 7th level or higher in order to gain the Leadership feat. Outside factors can affect your Leadership score, as detailed above.
+_Leadership Score_: Your base Leadership score equals your level plus your [Charisma](gettingStarted#_charisma-new) modifier. In order to take into account negative [Charisma](gettingStarted#_charisma-new) modifiers, this table allows for very low Leadership scores, but you must still be 7th level or higher in order to gain the Leadership feat. Outside factors can affect your Leadership score, as detailed above.
 
-_Cohort Level_: You can attract a cohort of up to this level. Regardless of your Leadership score, you can only recruit a cohort who is two or more levels lower than yourself. The cohort should be equipped with gear appropriate for its level (see [Creating NPCs](creatingNPCs.md)). A cohort can be of any race or class. The cohort's alignment may not be opposed to your alignment on either the law/chaos or good/evil axis, and you take a –1 penalty to your Leadership score if you recruit a cohort of an alignment different from your own.
+_Cohort Level_: You can attract a cohort of up to this level. Regardless of your Leadership score, you can only recruit a cohort who is two or more levels lower than yourself. The cohort should be equipped with gear appropriate for its level (see [Creating NPCs](creatingNPCs)). A cohort can be of any race or class. The cohort's alignment may not be opposed to your alignment on either the law/chaos or good/evil axis, and you take a –1 penalty to your Leadership score if you recruit a cohort of an alignment different from your own.
 
 A cohort does not count as a party member when determining the party's XP. Instead, divide the cohort's level by your level. Multiply this result by the total XP awarded to you, then add that number of experience points to the cohort's total.
 
@@ -1291,13 +1291,13 @@ Followers don't earn experience and thus don't gain levels. When you gain a new 
 
 You have faster reflexes than normal.
 
-**Benefit:** You get a +2 bonus on all [Reflex](combat.md#_reflex) saving throws.
+**Benefit:** You get a +2 bonus on all [Reflex](combat#_reflex) saving throws.
 
 ## Lightning Stance (Combat)
 
 The speed at which you move makes it nearly impossible for opponents to strike you.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 17, Dodge, Wind Stance, base attack bonus +11.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 17, Dodge, Wind Stance, base attack bonus +11.
 
 **Benefit:** If you take two actions to move or a withdraw action in a turn, you gain 50% concealment for 1 round.
 
@@ -1307,19 +1307,19 @@ You can strike foes that would normally be out of reach.
 
 **Prerequisites:** Base attack bonus +6.
 
-**Benefit:** You can increase the reach of your melee attacks by 5 feet until the end of your turn by taking a –2 penalty to your [AC](combat.md#_armor-class) until your next turn. You must decide to use this ability before any attacks are made.
+**Benefit:** You can increase the reach of your melee attacks by 5 feet until the end of your turn by taking a –2 penalty to your [AC](combat#_armor-class) until your next turn. You must decide to use this ability before any attacks are made.
 
 ## Magical Aptitude
 
 You are skilled at spellcasting and using magic items.
 
-**Benefit:** You get a +2 bonus on all [Spellcraft](skills/spellcraft.md#_spellcraft) checks and [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
+**Benefit:** You get a +2 bonus on all [Spellcraft](skills/spellcraft#_spellcraft) checks and [Use Magic Device](skills/useMagicDevice#_use-magic-device) checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
 
 ## Manyshot (Combat)
 
 You can fire multiple arrows at a single target.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 17, Point-Blank Shot, Rapid Shot, base attack bonus +6.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 17, Point-Blank Shot, Rapid Shot, base attack bonus +6.
 
 **Benefit:** When making a full-attack action with a bow, your first attack fires two arrows. If the attack hits, both arrows hit. Apply precision-based damage (such as sneak attack) and critical hit damage only once for this attack. Damage bonuses from using a composite bow with a high Strength bonus apply to each arrow, as do other damage bonuses, such as a ranger's favored enemy bonus. Damage reduction and resistances apply separately to each arrow.
 
@@ -1339,9 +1339,9 @@ You can gain Martial Weapon Proficiency multiple times. Each time you take the f
 
 Your superior crafting skills allow you to create simple magic items.
 
-**Prerequisites:** 5 ranks in any [Craft](skills/craft.md#_craft) or [Profession](skills/profession.md#_profession) skill.
+**Prerequisites:** 5 ranks in any [Craft](skills/craft#_craft) or [Profession](skills/profession#_profession) skill.
 
-**Benefit:** Choose one [Craft](skills/craft.md#_craft) or [Profession](skills/profession.md#_profession) skill in which you possess at least 5 ranks. You receive a +2 bonus on your chosen [Craft](skills/craft.md#_craft) or [Profession](skills/profession.md#_profession) skill. Ranks in your chosen skill count as your caster level for the purposes of qualifying for the Craft Magic Arms and Armor and Craft Wondrous Item feats. You can create magic items using these feats, substituting your ranks in the chosen skill for your total caster level. You must use the chosen skill for the check to create the item. The DC to create the item still increases for any necessary spell requirements (see the magic item creation rules in [Magic Items](magicItems.md)). You cannot use this feat to create any spell-trigger or spell-activation item.
+**Benefit:** Choose one [Craft](skills/craft#_craft) or [Profession](skills/profession#_profession) skill in which you possess at least 5 ranks. You receive a +2 bonus on your chosen [Craft](skills/craft#_craft) or [Profession](skills/profession#_profession) skill. Ranks in your chosen skill count as your caster level for the purposes of qualifying for the Craft Magic Arms and Armor and Craft Wondrous Item feats. You can create magic items using these feats, substituting your ranks in the chosen skill for your total caster level. You must use the chosen skill for the check to create the item. The DC to create the item still increases for any necessary spell requirements (see the magic item creation rules in [Magic Items](magicItems)). You cannot use this feat to create any spell-trigger or spell-activation item.
 
 **Normal:** Only spellcasters can qualify for the Craft Magic Arms and Armor and Craft Wondrous Item feats.
 
@@ -1359,17 +1359,17 @@ You can take advantage of your opponent's confusion, delivering multiple blows.
 
 **Prerequisites:** Improved Unarmed Strike, Gorgon's Fist, Scorpion Style, base attack bonus +11.
 
-**Benefit:** Whenever you use the full-attack action and make at least one unarmed strike, you can make two additional unarmed strikes at your highest base attack bonus. These bonus attacks must be made against a [dazed](glossary.md#_dazed), [flat-footed](glossary.md#_flat-footed), [paralyzed](glossary.md#_paralyzed), [staggered](glossary.md#_staggered), [stunned](glossary.md#_stunned), or [unconscious](glossary.md#_unconscious) foe.
+**Benefit:** Whenever you use the full-attack action and make at least one unarmed strike, you can make two additional unarmed strikes at your highest base attack bonus. These bonus attacks must be made against a [dazed](glossary#_dazed), [flat-footed](glossary#_flat-footed), [paralyzed](glossary#_paralyzed), [staggered](glossary#_staggered), [stunned](glossary#_stunned), or [unconscious](glossary#_unconscious) foe.
 
 ## Mobility (Combat)
 
 You can easily move through a dangerous melee.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 13, Dodge.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 13, Dodge.
 
-**Benefit:** You get a +4 [dodge bonus](combat.md#_dodge-bonuses) to [Armor Class](combat.md#_armor-class) against attacks of opportunity caused when you move out of or within a threatened area. A condition that makes you lose your [Dexterity](gettingStarted.md#_dexterity) bonus to [Armor Class](combat.md#_armor-class) (if any) also makes you lose [dodge bonus](combat.md#_dodge-bonuses)es.
+**Benefit:** You get a +4 [dodge bonus](combat#_dodge-bonuses) to [Armor Class](combat#_armor-class) against attacks of opportunity caused when you move out of or within a threatened area. A condition that makes you lose your [Dexterity](gettingStarted#_dexterity) bonus to [Armor Class](combat#_armor-class) (if any) also makes you lose [dodge bonus](combat#_dodge-bonuses)es.
 
-[Dodge bonus](combat.md#_dodge-bonuses)es stack with each other, unlike most types of bonuses.
+[Dodge bonus](combat#_dodge-bonuses)es stack with each other, unlike most types of bonuses.
 
 ## Mounted Archery (Combat)
 
@@ -1391,7 +1391,7 @@ You are adept at guiding your mount through combat.
 
 You can cast spells even while in a form that cannot normally cast spells.
 
-**Prerequisites:** [Wis](gettingStarted.md#_wisdom) 13, wild shape class feature.
+**Prerequisites:** [Wis](gettingStarted#_wisdom) 13, wild shape class feature.
 
 **Benefit:** You can complete the verbal and somatic components of spells while using wild shape. You substitute various noises and gestures for the normal verbal and somatic components of a spell.
 
@@ -1401,7 +1401,7 @@ You can also use any material components or focuses you possess, even if such it
 
 You can move across a single obstacle with ease.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 13.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 13.
 
 **Benefit:** Whenever you move, you may move through 5 feet of difficult terrain each round as if it were normal terrain. This feat allows you to take a 5-foot step into difficult terrain.
 
@@ -1417,15 +1417,15 @@ Your attacks are capable of penetrating the defenses of some creatures.
 
 You are skilled at swaying attitudes and intimidating others into your way of thinking.
 
-**Benefit:** You get a +2 bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) and [Intimidate](skills/intimidate.md#_intimidate) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
+**Benefit:** You get a +2 bonus on [Diplomacy](skills/diplomacy#_diplomacy) and [Intimidate](skills/intimidate#_intimidate) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
 
 ## Pinpoint Targeting (Combat)
 
 You can target the weak points in your opponent's armor.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 19, Improved Precise Shot, Point-Blank Shot, Precise Shot, base attack bonus +16.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 19, Improved Precise Shot, Point-Blank Shot, Precise Shot, base attack bonus +16.
 
-**Benefit:** As a standard action, make a single ranged attack. The target does not gain any armor, natural armor, or shield bonuses to its [Armor Class](combat.md#_armor-class). You do not gain the benefit of this feat if you move this round.
+**Benefit:** As a standard action, make a single ranged attack. The target does not gain any armor, natural armor, or shield bonuses to its [Armor Class](combat#_armor-class). You do not gain the benefit of this feat if you move this round.
 
 ## Point-Blank Shot (Combat)
 
@@ -1437,7 +1437,7 @@ You are especially accurate when making ranged attacks against close targets.
 
 You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 
-**Prerequisites:** [Str](gettingStarted.md#_strength) 13, base attack bonus +1.
+**Prerequisites:** [Str](gettingStarted#_strength) 13, base attack bonus +1.
 
 **Benefit:** You can choose to take a –1 penalty on all melee attack rolls and combat maneuver checks to gain a +2 bonus on all melee damage rolls. This bonus to damage is increased by half (+50%) if you are making an attack with a two-handed weapon, a one handed weapon using two hands, or a primary natural weapon that adds 1-1/2 times your Strength modifier on damage rolls. This bonus to damage is halved (–50%) if you are making an attack with an off-hand weapon or secondary natural weapon. When your base attack bonus reaches +4, and every 4 points thereafter, the penalty increases by –1 and the bonus to damage increases by +2. You must choose to use this feat before making an attack roll, and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage.
 
@@ -1455,7 +1455,7 @@ You can draw weapons faster than most.
 
 **Prerequisite:** Base attack bonus +1.
 
-**Benefit:** You can draw a weapon as a free action instead of as a move action. You can draw a hidden weapon (see the [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) skill) as a move action.
+**Benefit:** You can draw a weapon as a free action instead of as a move action. You can draw a hidden weapon (see the [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand) skill) as a move action.
 
 A character who has selected this feat may throw weapons at his full normal rate of attacks (much like a character with a bow).
 
@@ -1491,7 +1491,7 @@ If you have selected this feat for hand crossbow or light crossbow, you may fire
 
 You can make an additional ranged attack.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 13, Point-Blank Shot.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 13, Point-Blank Shot.
 
 **Benefit:** When making a full-attack action with a ranged weapon, you can fire one additional time this round. All of your attack rolls take a –2 penalty when using Rapid Shot.
 
@@ -1507,9 +1507,9 @@ While mounted and charging, you can move, strike at a foe, and then continue mov
 
 You are swift of foot.
 
-**Benefit:** When running, you move five times your normal speed (if wearing medium, light, or no armor and carrying no more than a medium load) or four times your speed (if wearing heavy armor or carrying a heavy load). If you make a jump after a running start (see the Acrobatics skill description), you gain a +4 bonus on your Acrobatics check. While running, you retain your [Dexterity](gettingStarted.md#_dexterity) bonus to your [Armor Class](combat.md#_armor-class).
+**Benefit:** When running, you move five times your normal speed (if wearing medium, light, or no armor and carrying no more than a medium load) or four times your speed (if wearing heavy armor or carrying a heavy load). If you make a jump after a running start (see the Acrobatics skill description), you gain a +4 bonus on your Acrobatics check. While running, you retain your [Dexterity](gettingStarted#_dexterity) bonus to your [Armor Class](combat#_armor-class).
 
-**Normal:** You move four times your speed while running (if wearing medium, light, or no armor and carrying no more than a medium load) or three times your speed (if wearing heavy armor or carrying a heavy load), and you lose your [Dexterity](gettingStarted.md#_dexterity) bonus to [AC](combat.md#_armor-class).
+**Normal:** You move four times your speed while running (if wearing medium, light, or no armor and carrying no more than a medium load) or three times your speed (if wearing heavy armor or carrying a heavy load), and you lose your [Dexterity](gettingStarted#_dexterity) bonus to [AC](combat#_armor-class).
 
 ## Scorpion Style (Combat)
 
@@ -1517,7 +1517,7 @@ You can perform an unarmed strike that greatly hampers your target's movement.
 
 **Prerequisite:** Improved Unarmed Strike.
 
-**Benefit:** To use this feat, you must make a single unarmed attack as a standard action. If this unarmed attack hits, you deal damage normally, and the target's base land speed is reduced to 5 feet for a number of rounds equal to your [Wisdom](gettingStarted.md#_wisdom) modifier unless it makes a [Fortitude](combat.md#_fortitude) saving throw (DC 10 + 1/2 your character level + your [Wis](gettingStarted.md#_wisdom) modifier).
+**Benefit:** To use this feat, you must make a single unarmed attack as a standard action. If this unarmed attack hits, you deal damage normally, and the target's base land speed is reduced to 5 feet for a number of rounds equal to your [Wisdom](gettingStarted#_wisdom) modifier unless it makes a [Fortitude](combat#_fortitude) saving throw (DC 10 + 1/2 your character level + your [Wis](gettingStarted#_wisdom) modifier).
 
 ## Scribe Scroll (Item Creation)
 
@@ -1525,15 +1525,15 @@ You can create magic scrolls.
 
 **Prerequisite:** Caster level 1st.
 
-**Benefit:** You can create a scroll of any spell that you know. Scribing a scroll takes 2 hours if its base price is 250 gp or less, otherwise scribing a scroll takes 1 day for each 1,000 gp in its base price. To scribe a scroll, you must use up raw materials costing half of this base price. See the magic item creation rules in [Magic Items](magicItems.md) for more information.
+**Benefit:** You can create a scroll of any spell that you know. Scribing a scroll takes 2 hours if its base price is 250 gp or less, otherwise scribing a scroll takes 1 day for each 1,000 gp in its base price. To scribe a scroll, you must use up raw materials costing half of this base price. See the magic item creation rules in [Magic Items](magicItems) for more information.
 
 ## Selective Channeling
 
 You can choose whom to affect when you channel energy.
 
-**Prerequisite:** [Cha](gettingStarted.md#_charisma-new) 13, channel energy class feature.
+**Prerequisite:** [Cha](gettingStarted#_charisma-new) 13, channel energy class feature.
 
-**Benefit:** When you channel energy, you can choose a number of targets in the area up to your [Charisma](gettingStarted.md#_charisma-new) modifier. These targets are not affected by your channeled energy.
+**Benefit:** When you channel energy, you can choose a number of targets in the area up to your [Charisma](gettingStarted#_charisma-new) modifier. These targets are not affected by your channeled energy.
 
 **Normal:** All targets in a 30-foot burst are affected when you channel energy. You can only choose whether or not you are affected.
 
@@ -1541,7 +1541,7 @@ You can choose whom to affect when you channel energy.
 
 You know how to get along in the wild and how to effectively treat wounds.
 
-**Benefit:** You get a +2 bonus on all [Heal](skills/heal.md#_heal) checks and [Survival](skills/survival.md#_survival) checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
+**Benefit:** You get a +2 bonus on all [Heal](skills/heal#_heal) checks and [Survival](skills/survival#_survival) checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
 
 ## Shatter Defenses (Combat)
 
@@ -1549,7 +1549,7 @@ Your skill with your chosen weapon leaves opponents unable to defend themselves 
 
 **Prerequisites:** Weapon Focus, Dazzling Display, base attack bonus +6, proficiency with weapon.
 
-**Benefit:** Any [shaken](glossary.md#_shaken), [frightened](glossary.md#_frightened), or [panicked](glossary.md#_panicked) opponent hit by you this round is [flat-footed](glossary.md#_flat-footed) to your attacks until the end of your next turn. This includes any additional attacks you make this round.
+**Benefit:** Any [shaken](glossary#_shaken), [frightened](glossary#_frightened), or [panicked](glossary#_panicked) opponent hit by you this round is [flat-footed](glossary#_flat-footed) to your attacks until the end of your next turn. This includes any additional attacks you make this round.
 
 ## Shield Focus (Combat)
 
@@ -1557,7 +1557,7 @@ You are skilled at deflecting blows with your shield.
 
 **Prerequisites:** Shield Proficiency, base attack bonus +1.
 
-**Benefit:** Increase the [AC](combat.md#_armor-class) bonus granted by any shield you are using by 1.
+**Benefit:** Increase the [AC](combat#_armor-class) bonus granted by any shield you are using by 1.
 
 ## Shield Master (Combat)
 
@@ -1571,7 +1571,7 @@ Your mastery of the shield allows you to fight with it without hindrance.
 
 You are trained in how to properly use a shield.
 
-**Benefit:** When you use a shield (except a tower shield), the shield's armor check penalty only applies to Strength- and [Dexterity](gettingStarted.md#_dexterity)-based skills.
+**Benefit:** When you use a shield (except a tower shield), the shield's armor check penalty only applies to Strength- and [Dexterity](gettingStarted#_dexterity)-based skills.
 
 **Normal:** When you are using a shield with which you are not proficient, you take the shield's armor check penalty on attack rolls and on all skill checks that involve moving.
 
@@ -1583,13 +1583,13 @@ In the right position, your shield can be used to send opponents flying.
 
 **Prerequisites:** Improved Shield Bash, Shield Proficiency, Two-Weapon Fighting, base attack bonus +6.
 
-**Benefit:** Any opponents hit by your shield bash are also hit with a free [bull rush](combat.md#_bull-rush) attack, substituting your attack roll for the combat maneuver check (see [Combat](combat.md)). This [bull rush](combat.md#_bull-rush) does not provoke an attack of opportunity. Opponents who cannot move back due to a wall or other surface are knocked [prone](glossary.md#_prone) after moving the maximum possible distance. You may choose to move with your target if you are able to take a 5-foot step or to spend an action to move this turn.
+**Benefit:** Any opponents hit by your shield bash are also hit with a free [bull rush](combat#_bull-rush) attack, substituting your attack roll for the combat maneuver check (see [Combat](combat)). This [bull rush](combat#_bull-rush) does not provoke an attack of opportunity. Opponents who cannot move back due to a wall or other surface are knocked [prone](glossary#_prone) after moving the maximum possible distance. You may choose to move with your target if you are able to take a 5-foot step or to spend an action to move this turn.
 
 ## Shot on the Run (Combat)
 
 You can move, fire a ranged weapon, and move again before your foes can react.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 13, Dodge, Mobility, Point-Blank Shot, base attack bonus +4.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 13, Dodge, Mobility, Point-Blank Shot, base attack bonus +4.
 
 **Benefit:** As a full-round action, you can move up to your speed and make a single ranged attack at any point during your movement.
 
@@ -1601,7 +1601,7 @@ Your critical hits cause opponents to become sickened.
 
 **Prerequisites:** Critical Focus, base attack bonus +11.
 
-**Benefit:** Whenever you score a critical hit, your opponent becomes [sickened](glossary.md#_sickened) for 1 minute. The effects of this feat do not stack. Additional hits instead add to the effect's duration.
+**Benefit:** Whenever you score a critical hit, your opponent becomes [sickened](glossary#_sickened) for 1 minute. The effects of this feat do not stack. Additional hits instead add to the effect's duration.
 
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.
 
@@ -1635,7 +1635,7 @@ Choose a skill. You are particularly adept at that skill.
 
 Instead of knocking an arrow or ranged attack aside, you can catch it in mid-flight.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 15, Deflect Arrows, Improved Unarmed Strike.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 15, Deflect Arrows, Improved Unarmed Strike.
 
 **Benefit:** When using the Deflect Arrows feat you may choose to catch the weapon instead of just deflecting it. Thrown weapons can immediately be thrown back as an attack against the original attacker (even though it isn't your turn) or kept for later use.
 
@@ -1655,7 +1655,7 @@ You have mastered a small handful of spells, and can prepare these spells withou
 
 **Prerequisite:** 1st-level wizard
 
-**Benefit:** Each time you take this feat, choose a number of spells that you already know equal to your [Intelligence](gettingStarted.md#_intelligence) modifier. From that point on, you can prepare these spells without referring to a spellbook.
+**Benefit:** Each time you take this feat, choose a number of spells that you already know equal to your [Intelligence](gettingStarted#_intelligence) modifier. From that point on, you can prepare these spells without referring to a spellbook.
 
 **Normal:** Without this feat, you must use a spellbook to prepare all your spells, except _read magic._
 
@@ -1663,7 +1663,7 @@ You have mastered a small handful of spells, and can prepare these spells withou
 
 Your spells break through spell resistance more easily than most.
 
-**Benefit:** You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creature's [spell resistance](glossary.md#_spell-resistance).
+**Benefit:** You get a +2 bonus on caster level checks (1d20 + caster level) made to overcome a creature's [spell resistance](glossary#_spell-resistance).
 
 ## Spellbreaker (Combat)
 
@@ -1687,7 +1687,7 @@ Your mounted charge attacks deal a tremendous amount of damage.
 
 You can deftly move up to a foe, strike, and withdraw before he can react.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 13, Dodge, Mobility, base attack bonus +4.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 13, Dodge, Mobility, base attack bonus +4.
 
 **Benefit:** As a full-round action, you can move up to your speed and make a single melee attack without provoking any attacks of opportunity from the target of your attack. You can move both before and after the attack, but you must move at least 10 feet before the attack and the total distance that you move cannot be greater than your speed. You cannot use this ability to attack a foe that is adjacent to you at the start of your turn.
 
@@ -1699,7 +1699,7 @@ Your critical hits cause opponents to slow down.
 
 **Prerequisites:** Critical Focus, base attack bonus +13.
 
-**Benefit:** Whenever you score a critical hit, your opponent becomes [staggered](glossary.md#_staggered) for 1d4+1 rounds. A successful [Fortitude](combat.md#_fortitude) save reduces the duration to 1 round. The DC of this [Fortitude](combat.md#_fortitude) save is equal to 10 + your base attack bonus. The effects of this feat do not stack. Additional hits instead add to the duration.
+**Benefit:** Whenever you score a critical hit, your opponent becomes [staggered](glossary#_staggered) for 1d4+1 rounds. A successful [Fortitude](combat#_fortitude) save reduces the duration to 1 round. The DC of this [Fortitude](combat#_fortitude) save is equal to 10 + your base attack bonus. The effects of this feat do not stack. Additional hits instead add to the duration.
 
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.
 
@@ -1715,7 +1715,7 @@ You can stop foes that try to move past you.
 
 You are good at avoiding unwanted attention and slipping out of bonds.
 
-**Benefit:** You get a +2 bonus on all [Escape Artist](skills/escapeArtist.md#_escape-artist) and [Stealth](skills/stealth.md#_stealth) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
+**Benefit:** You get a +2 bonus on all [Escape Artist](skills/escapeArtist#_escape-artist) and [Stealth](skills/stealth#_stealth) skill checks. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill.
 
 ## Step Up (Combat)
 
@@ -1745,7 +1745,7 @@ Your critical hits cause opponents to become stunned.
 
 **Prerequisites:** Critical Focus, Staggering Critical, base attack bonus +17.
 
-**Benefit:** Whenever you score a critical hit, your opponent becomes [stunned](glossary.md#_stunned) for 1d4 rounds. A successful [Fortitude](combat.md#_fortitude) save reduces this to [staggered](glossary.md#_staggered) for 1d4 rounds. The DC of this [Fortitude](combat.md#_fortitude) save is equal to 10 + your base attack bonus. The effects of this feat do not stack. Additional hits instead add to the duration.
+**Benefit:** Whenever you score a critical hit, your opponent becomes [stunned](glossary#_stunned) for 1d4 rounds. A successful [Fortitude](combat#_fortitude) save reduces this to [staggered](glossary#_staggered) for 1d4 rounds. The DC of this [Fortitude](combat#_fortitude) save is equal to 10 + your base attack bonus. The effects of this feat do not stack. Additional hits instead add to the duration.
 
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.
 
@@ -1753,9 +1753,9 @@ Your critical hits cause opponents to become stunned.
 
 You know just where to strike to temporarily stun a foe.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 13, [Wis](gettingStarted.md#_wisdom) 13, Improved Unarmed Strike, base attack bonus +8.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 13, [Wis](gettingStarted#_wisdom) 13, Improved Unarmed Strike, base attack bonus +8.
 
-**Benefit:** You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). Stunning Fist forces a foe damaged by your unarmed attack to make a [Fortitude](combat.md#_fortitude) saving throw (DC 10 + 1/2 your character level + your [Wis](gettingStarted.md#_wisdom) modifier), in addition to dealing damage normally. A defender who fails this saving throw is [stunned](glossary.md#_stunned) for 1 round (until just before your next turn). A stunned character drops everything held, can't take actions, loses any [Dexterity](gettingStarted.md#_dexterity) bonus to [AC](combat.md#_armor-class), and takes a –2 penalty to [AC](combat.md#_armor-class). You may attempt a stunning attack once per day for every four levels you have attained (but see Special), and no more than once per round. Constructs, oozes, plants, undead, [incorporeal](glossary.md#_incorporeal) creatures, and creatures immune to critical hits cannot be [stunned](glossary.md#_stunned).
+**Benefit:** You must declare that you are using this feat before you make your attack roll (thus, a failed attack roll ruins the attempt). Stunning Fist forces a foe damaged by your unarmed attack to make a [Fortitude](combat#_fortitude) saving throw (DC 10 + 1/2 your character level + your [Wis](gettingStarted#_wisdom) modifier), in addition to dealing damage normally. A defender who fails this saving throw is [stunned](glossary#_stunned) for 1 round (until just before your next turn). A stunned character drops everything held, can't take actions, loses any [Dexterity](gettingStarted#_dexterity) bonus to [AC](combat#_armor-class), and takes a –2 penalty to [AC](combat#_armor-class). You may attempt a stunning attack once per day for every four levels you have attained (but see Special), and no more than once per round. Constructs, oozes, plants, undead, [incorporeal](glossary#_incorporeal) creatures, and creatures immune to critical hits cannot be [stunned](glossary#_stunned).
 
 **Special:** A monk receives Stunning Fist as a bonus feat at 1st level, even if he does not meet the prerequisites. A monk may attempt a stunning attack a number of times per day equal to his monk level, plus one more time per day for every four levels he has in classes other than monk.
 
@@ -1773,7 +1773,7 @@ Your critical hits cause opponents to become fatigued.
 
 **Prerequisites:** Critical Focus, base attack bonus +13.
 
-**Benefit:** Whenever you score a critical hit, your opponent becomes [fatigued](glossary.md#_fatigued). This feat has no additional effect on a [fatigued](glossary.md#_fatigued) or [exhausted](glossary.md#_exhausted) creature.
+**Benefit:** Whenever you score a critical hit, your opponent becomes [fatigued](glossary#_fatigued). This feat has no additional effect on a [fatigued](glossary#_fatigued) or [exhausted](glossary#_exhausted) creature.
 
 **Special:** You can only apply the effects of one critical feat to a given critical hit unless you possess Critical Mastery.
 
@@ -1789,7 +1789,7 @@ You are trained in how to properly use a tower shield.
 
 **Prerequisite:** Shield Proficiency.
 
-**Benefit:** When you use a tower shield, the shield's armor check penalty only applies to Strength and [Dexterity](gettingStarted.md#_dexterity)-based skills.
+**Benefit:** When you use a tower shield, the shield's armor check penalty only applies to Strength and [Dexterity](gettingStarted#_dexterity)-based skills.
 
 **Normal:** A character using a shield with which he is not proficient takes the shield's armor check penalty on attack rolls and on all skill checks that involve moving, including Ride.
 
@@ -1801,7 +1801,7 @@ While mounted, you can ride down opponents and trample them under your mount.
 
 **Prerequisites:** Ride 1 rank, Mounted Combat.
 
-**Benefit:** When you attempt to [overrun](combat.md#_overrun) an opponent while mounted, your target may not choose to avoid you. Your mount may make one hoof attack against any target you knock down, gaining the standard +4 bonus on attack rolls against prone targets.
+**Benefit:** When you attempt to [overrun](combat#_overrun) an opponent while mounted, your target may not choose to avoid you. Your mount may make one hoof attack against any target you knock down, gaining the standard +4 bonus on attack rolls against prone targets.
 
 ## Turn Undead
 
@@ -1809,15 +1809,15 @@ Calling upon higher powers, you cause undead to flee from the might of your unle
 
 **Prerequisites:** Channel positive energy class feature.
 
-**Benefit:** You can, as a standard action, use one of your uses of channel positive energy to cause all undead within 30 feet of you to flee, as if [panicked](glossary.md#_panicked). Undead receive a [Will](combat.md#_will) save to negate the effect. The DC for this [Will](combat.md#_will) save is equal to 10 + 1/2 your cleric level + your [Charisma](gettingStarted.md#_charisma-new) modifier. Undead that fail their save flee for 1 minute. Intelligent undead receive a new saving throw each round to end the effect. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures).
+**Benefit:** You can, as a standard action, use one of your uses of channel positive energy to cause all undead within 30 feet of you to flee, as if [panicked](glossary#_panicked). Undead receive a [Will](combat#_will) save to negate the effect. The DC for this [Will](combat#_will) save is equal to 10 + 1/2 your cleric level + your [Charisma](gettingStarted#_charisma-new) modifier. Undead that fail their save flee for 1 minute. Intelligent undead receive a new saving throw each round to end the effect. If you use channel energy in this way, it has no other effect (it does not heal or harm nearby creatures).
 
 ## Two-Weapon Defense (Combat)
 
 You are skilled at defending yourself while dual-wielding.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 15, Two-Weapon Fighting.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 15, Two-Weapon Fighting.
 
-**Benefit:** When wielding a double weapon or two weapons (not including natural weapons or unarmed strikes), you gain a +1 shield bonus to your [AC](combat.md#_armor-class).
+**Benefit:** When wielding a double weapon or two weapons (not including natural weapons or unarmed strikes), you gain a +1 shield bonus to your [AC](combat#_armor-class).
 
 When you are fighting defensively or using the total defense action, this shield bonus increases to +2.
 
@@ -1825,9 +1825,9 @@ When you are fighting defensively or using the total defense action, this shield
 
 You can fight with a weapon wielded in each of your hands. You can make one extra attack each round with the secondary weapon.
 
-**Prerequisite:** [Dex](gettingStarted.md#_dexterity) 15.
+**Prerequisite:** [Dex](gettingStarted#_dexterity) 15.
 
-**Benefit:** Your penalties on attack rolls for fighting with two weapons are reduced. The penalty for your primary hand lessens by 2 and the one for your off hand lessens by 6. See Two-Weapon Fighting in [Combat](combat.md).
+**Benefit:** Your penalties on attack rolls for fighting with two weapons are reduced. The penalty for your primary hand lessens by 2 and the one for your off hand lessens by 6. See Two-Weapon Fighting in [Combat](combat).
 
 **Normal:** If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. When fighting in this way you suffer a –6 penalty with your regular attack or attacks with your primary hand and a –10 penalty to the attack with your off hand. If your off-hand weapon is light, the penalties are reduced by 2 each. An unarmed strike is always considered light.
 
@@ -1835,7 +1835,7 @@ You can fight with a weapon wielded in each of your hands. You can make one extr
 
 Striking with both of your weapons simultaneously, you can use them to deliver devastating wounds.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 17, Double Slice, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 17, Double Slice, Improved Two-Weapon Fighting, Two-Weapon Fighting, base attack bonus +11.
 
 **Benefit:** If you hit an opponent with both your primary hand and your off-hand weapon, you deal an additional 1d10 points of damage plus 1-1/2 times your Strength modifier. You can only deal this additional damage once each round.
 
@@ -1843,9 +1843,9 @@ Striking with both of your weapons simultaneously, you can use them to deliver d
 
 You are skilled at unseating your mounted opponents.
 
-**Prerequisites:** [Str](gettingStarted.md#_strength) 13, Ride 1 rank, Mounted Combat, Power Attack, Improved Bull Rush, base attack bonus +1.
+**Prerequisites:** [Str](gettingStarted#_strength) 13, Ride 1 rank, Mounted Combat, Power Attack, Improved Bull Rush, base attack bonus +1.
 
-**Benefits:** When charging an opponent while mounted and wielding a lance, resolve the attack as normal. If it hits, you may immediately make a free [bull rush](combat.md#_bull-rush) attempt in addition to the normal damage. If successful, the target is knocked off his horse and lands [prone](glossary.md#_prone) in a space adjacent to his mount that is directly away from you.
+**Benefits:** When charging an opponent while mounted and wielding a lance, resolve the attack as normal. If it hits, you may immediately make a free [bull rush](combat#_bull-rush) attempt in addition to the normal damage. If successful, the target is knocked off his horse and lands [prone](glossary#_prone) in a space adjacent to his mount that is directly away from you.
 
 ## Vital Strike (Combat)
 
@@ -1853,19 +1853,19 @@ You make a single attack that deals significantly more damage than normal.
 
 **Prerequisites:** Base attack bonus +6.
 
-**Benefit:** When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack twice and add the results together before adding bonuses from Strength, weapon abilities (such as [_flaming_](./magicItems/weapons.md#_flaming)), precision based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.
+**Benefit:** When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon's damage dice for the attack twice and add the results together before adding bonuses from Strength, weapon abilities (such as [_flaming_](./magicItems/weapons#_flaming)), precision based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.
 
 ## Weapon Finesse (Combat)
 
 You are trained in using your agility in melee combat, as opposed to brute strength.
 
-**Benefit:** With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your [Dexterity](gettingStarted.md#_dexterity) modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.
+**Benefit:** With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your [Dexterity](gettingStarted#_dexterity) modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.
 
 **Special:** Natural weapons are considered light weapons.
 
 ## Weapon Focus (Combat)
 
-Choose one type of weapon. You can also choose unarmed strike or [grapple](combat.md#_grapple) (or ray, if you are a spellcaster) as your weapon for the purposes of this feat.
+Choose one type of weapon. You can also choose unarmed strike or [grapple](combat#_grapple) (or ray, if you are a spellcaster) as your weapon for the purposes of this feat.
 
 **Prerequisites:** Proficiency with selected weapon, base attack bonus +1.
 
@@ -1875,7 +1875,7 @@ Choose one type of weapon. You can also choose unarmed strike or [grapple](comba
 
 ## Weapon Specialization (Combat)
 
-You are skilled at dealing damage with one weapon. Choose one type of weapon (including unarmed strike or [grapple](combat.md#_grapple)) for which you have already selected the Weapon Focus feat. You deal extra damage when using this weapon.
+You are skilled at dealing damage with one weapon. Choose one type of weapon (including unarmed strike or [grapple](combat#_grapple)) for which you have already selected the Weapon Focus feat. You deal extra damage when using this weapon.
 
 **Prerequisites:** Proficiency with selected weapon, Weapon Focus with selected weapon, fighter level 4th.
 
@@ -1887,7 +1887,7 @@ You are skilled at dealing damage with one weapon. Choose one type of weapon (in
 
 You can strike out at every foe within reach.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 13, [Int](gettingStarted.md#_intelligence) 13, Combat Expertise, Dodge, Mobility, Spring Attack, base attack bonus +4.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 13, [Int](gettingStarted#_intelligence) 13, Combat Expertise, Dodge, Mobility, Spring Attack, base attack bonus +4.
 
 **Benefit:** When you use the full-attack action, you can give up your regular attacks and instead make one melee attack at your highest base attack bonus against each opponent within reach. You must make a separate attack roll against each opponent.
 
@@ -1905,7 +1905,7 @@ Spells that do not have an area of one of these four sorts are not affected by t
 
 Your erratic movements make it difficult for enemies to pinpoint your location.
 
-**Prerequisites:** [Dex](gettingStarted.md#_dexterity) 15, Dodge, base attack bonus +6.
+**Prerequisites:** [Dex](gettingStarted#_dexterity) 15, Dodge, base attack bonus +6.
 
 **Benefit:** If you move more than 5 feet this turn, you gain 20% concealment for 1 round against ranged attacks.
 

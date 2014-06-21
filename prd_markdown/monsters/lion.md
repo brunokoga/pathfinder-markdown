@@ -6,9 +6,9 @@ _This great cat's muscles flex visibly under its skin as it bares its fangs and 
 
 **XP 800**
 
-N Large [Animal](creatureTypes.md#_animal)
+N Large [Animal](creatureTypes#_animal)
 
-**Init** +7; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +9
+**Init** +7; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +9
 
 **Defense**
 
@@ -22,11 +22,11 @@ N Large [Animal](creatureTypes.md#_animal)
 
 **Speed** 40 ft.
 
-**Melee** bite +7 (1d8+5 plus [grab](universalMonsterRules.md#_grab)), 2 claws +7 (1d4+5)
+**Melee** bite +7 (1d8+5 plus [grab](universalMonsterRules#_grab)), 2 claws +7 (1d4+5)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [pounce](universalMonsterRules.md#_pounce), [rake](universalMonsterRules.md#_rake) (2 claws +7, 1d4+5)
+**Special Attacks** [pounce](universalMonsterRules#_pounce), [rake](universalMonsterRules#_rake) (2 claws +7, 1d4+5)
 
 **Statistics**
 
@@ -34,9 +34,9 @@ N Large [Animal](creatureTypes.md#_animal)
 
 **Base Atk** +3; **CMB** +9 (+13 grapple); **CMD** 22 (26 vs. trip)
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Run](../feats.md#_run), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
+**Feats** [Improved Initiative](../feats#_improved-initiative), [Run](../feats#_run), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception))
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +11, [Perception](../skills/perception.md#_perception) +9, [Stealth](../skills/stealth.md#_stealth) +8 (+12 in undergrowth); **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics.md#_acrobatics), +4 [Stealth](../skills/stealth.md#_stealth) (+8 in undergrowth)
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +11, [Perception](../skills/perception#_perception) +9, [Stealth](../skills/stealth#_stealth) +8 (+12 in undergrowth); **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics#_acrobatics), +4 [Stealth](../skills/stealth#_stealth) (+8 in undergrowth)
 
 **Ecology**
 
@@ -60,9 +60,9 @@ _This immense spotted lion stands as tall as a man at the shoulder, its fur matt
 
 **XP 1,600**
 
-N Large [Animal](creatureTypes.md#_animal)
+N Large [Animal](creatureTypes#_animal)
 
-**Init** +6; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +11
+**Init** +6; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +11
 
 **Defense**
 
@@ -76,11 +76,11 @@ N Large [Animal](creatureTypes.md#_animal)
 
 **Speed** 40 ft.
 
-**Melee** bite +12 (1d8+7 plus [grab](universalMonsterRules.md#_grab)), 2 claws +13 (1d6+7)
+**Melee** bite +12 (1d8+7 plus [grab](universalMonsterRules#_grab)), 2 claws +13 (1d6+7)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [pounce](universalMonsterRules.md#_pounce), [rake](universalMonsterRules.md#_rake) (2 claws +13, 1d6+7)
+**Special Attacks** [pounce](universalMonsterRules#_pounce), [rake](universalMonsterRules#_rake) (2 claws +13, 1d6+7)
 
 **Statistics**
 
@@ -88,9 +88,9 @@ N Large [Animal](creatureTypes.md#_animal)
 
 **Base Atk** +6; **CMB** +14 (+18 grapple); **CMD** 26 (30 vs. trip)
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Run](../feats.md#_run), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Weapon Focus](../feats.md#_weapon-focus) (claw)
+**Feats** [Improved Initiative](../feats#_improved-initiative), [Run](../feats#_run), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception)), [Weapon Focus](../feats#_weapon-focus) (claw)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +11, [Perception](../skills/perception.md#_perception) +11, [Stealth](../skills/stealth.md#_stealth) +7 (+11 in undergrowth); **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics.md#_acrobatics), +4 [Stealth](../skills/stealth.md#_stealth) (+8 in undergrowth)
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +11, [Perception](../skills/perception#_perception) +11, [Stealth](../skills/stealth#_stealth) +7 (+11 in undergrowth); **Racial Modifiers** +4 [Acrobatics](../skills/acrobatics#_acrobatics), +4 [Stealth](../skills/stealth#_stealth) (+8 in undergrowth)
 
 **Ecology**
 

@@ -26,9 +26,9 @@ This enormous, spider-like creature has three clawed tails and eight legs connec
 
 **XP 38,400**
 
-CE Huge [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [qlippoth](monsters/creatureTypes.md#_qlippoth-subtype)
+CE Huge [outsider](monsters/creatureTypes#_outsider) ( [chaotic](monsters/creatureTypes#_chaotic-subtype), [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [qlippoth](monsters/creatureTypes#_qlippoth-subtype)
 
-**Init** +3; **Senses** blindsight 30 ft., darkvision 60 ft., scent, [_true seeing_](spells/trueSeeing.md#_true-seeing); Perception +22
+**Init** +3; **Senses** blindsight 30 ft., darkvision 60 ft., scent, [_true seeing_](spells/trueSeeing#_true-seeing); Perception +22
 
 Defense
 
@@ -38,7 +38,7 @@ Defense
 
 **Fort** +18, **Ref** +10, **Will** +9
 
-**DR** 10/lawful; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), mind-affecting effects; **Resist** acid 10, electricity 10, fire 10
+**DR** 10/lawful; **Immune** [cold](monsters/creatureTypes#_cold-subtype), [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), mind-affecting effects; **Resist** acid 10, electricity 10, fire 10
 
 Offense
 
@@ -52,9 +52,9 @@ Offense
 
 **Spell-Like Abilities** (CL 14th; concentration +18)
 
-Constant— [_true seeing_](spells/trueSeeing.md#_true-seeing)
+Constant— [_true seeing_](spells/trueSeeing#_true-seeing)
 
-3/day— [_dimension door_](spells/dimensionDoor.md#_dimension-door), [_protection from law_](spells/protectionFromLaw.md#_protection-from-law)
+3/day— [_dimension door_](spells/dimensionDoor#_dimension-door), [_protection from law_](spells/protectionFromLaw#_protection-from-law)
 
 1/day— [_waves of exhaustion_](additionalMonsters/)
 
@@ -64,7 +64,7 @@ Statistics
 
 **Base Atk** +14; **CMB** +27; **CMD** 36 (44 vs. trip)
 
-**Feats** [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Hover](monsters/monsterFeats.md#_hover), [Improved Initiative](feats.md#_improved-initiative), [Improved Vital Strike](feats.md#_improved-vital-strike), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack), [Vital Strike](feats.md#_vital-strike)
+**Feats** [Flyby Attack](monsters/monsterFeats#_flyby-attack), [Hover](monsters/monsterFeats#_hover), [Improved Initiative](feats#_improved-initiative), [Improved Vital Strike](feats#_improved-vital-strike), [Lightning Reflexes](feats#_lightning-reflexes), [Power Attack](feats#_power-attack), [Vital Strike](feats#_vital-strike)
 
 **Skills** Climb +19, Fly +12, Perception +22, Stealth +24; **Racial Modifiers** +16 Stealth
 
@@ -96,9 +96,9 @@ This slippery, writhing mass of tentacles and stalked mouths has one huge hideou
 
 **XP 19,200**
 
-CE Large [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [qlippoth](monsters/creatureTypes.md#_qlippoth-subtype))
+CE Large [outsider](monsters/creatureTypes#_outsider) ( [chaotic](monsters/creatureTypes#_chaotic-subtype), [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [qlippoth](monsters/creatureTypes#_qlippoth-subtype))
 
-**Init** +4; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules.md#_scent); [Perception](additionalMonsters/../skills/perception.md#_perception) +18
+**Init** +4; **Senses** darkvision 60 ft., [scent](monsters/universalMonsterRules#_scent); [Perception](additionalMonsters/../skills/perception#_perception) +18
 
 **Aura** misfortune (30 ft.)
 
@@ -110,7 +110,7 @@ Defense
 
 **Fort** +15, **Ref** +10, **Will** +11
 
-**DR** 10/lawful; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), mind-affecting effects; **Resist** acid 10, electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 23
+**DR** 10/lawful; **Immune** [cold](monsters/creatureTypes#_cold-subtype), [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), mind-affecting effects; **Resist** acid 10, electricity 10, [fire](monsters/creatureTypes#_fire-subtype) 10; **SR** 23
 
 **Weaknesses** light vulnerability
 
@@ -118,7 +118,7 @@ Offense
 
 **Speed** 40 ft.
 
-**Melee** 2 slams +19 (1d6+8/19–20 plus 1 Con damage), bite +19 (2d6+8 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))), 2 tentacles +14 (1d6+4)
+**Melee** 2 slams +19 (1d6+8/19–20 plus 1 Con damage), bite +19 (2d6+8 plus [poison](monsters/universalMonsterRules#_poison-(ex-or-su))), 2 tentacles +14 (1d6+4)
 
 **Space** 10 ft.; **Reach** 5 ft. (10 ft. with slams and tentacles)
 
@@ -126,13 +126,13 @@ Offense
 
 **Spell-Like Abilities** (CL 12th; concentration +16)
 
-Constant—_ [air walk](additionalMonsters/../spells/airWalk.md#_air-walk), [arcane sight](additionalMonsters/../spells/arcaneSight.md#_arcane-sight)_
+Constant—_ [air walk](additionalMonsters/../spells/airWalk#_air-walk), [arcane sight](additionalMonsters/../spells/arcaneSight#_arcane-sight)_
 
-At will—_ [chaos hammer](additionalMonsters/../spells/chaosHammer.md#_chaos-hammer)_ (DC 18), _ [darkness](additionalMonsters/../spells/darkness.md#_darkness)_
+At will—_ [chaos hammer](additionalMonsters/../spells/chaosHammer#_chaos-hammer)_ (DC 18), _ [darkness](additionalMonsters/../spells/darkness#_darkness)_
 
-3/day—_ [confusion](additionalMonsters/../spells/confusion.md#_confusion)_ (DC 18), quickened _ [darkness](additionalMonsters/../spells/darkness.md#_darkness)_, _ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [protection from law](additionalMonsters/../spells/protectionFromLaw.md#_protection-from-law)_
+3/day—_ [confusion](additionalMonsters/../spells/confusion#_confusion)_ (DC 18), quickened _ [darkness](additionalMonsters/../spells/darkness#_darkness)_, _ [dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic)_, _ [protection from law](additionalMonsters/../spells/protectionFromLaw#_protection-from-law)_
 
-1/day—_ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 21)
+1/day—_ [plane shift](additionalMonsters/../spells/planeShift#_plane-shift)_ (DC 21)
 
 Statistics
 
@@ -140,9 +140,9 @@ Statistics
 
 **Base Atk** +12; **CMB** +21; **CMD** 35 (39 vs. trip)
 
-**Feats** [Blind-Fight](additionalMonsters/../feats.md#_blind-fight), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (slam), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats.md#_quicken-spell-like-ability) (_ [darkness](additionalMonsters/../spells/darkness.md#_darkness)_), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
+**Feats** [Blind-Fight](additionalMonsters/../feats#_blind-fight), [Improved Critical](additionalMonsters/../feats#_improved-critical) (slam), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Power Attack](additionalMonsters/../feats#_power-attack), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats#_quicken-spell-like-ability) (_ [darkness](additionalMonsters/../spells/darkness#_darkness)_), [Vital Strike](additionalMonsters/../feats#_vital-strike)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +19 (+23 jump), [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +19, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +19, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +16, [Perception](additionalMonsters/../skills/perception.md#_perception) +18, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +18, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +15
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +19 (+23 jump), [Escape Artist](additionalMonsters/../skills/escapeArtist#_escape-artist) +19, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +19, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +16, [Perception](additionalMonsters/../skills/perception#_perception) +18, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +18, [Stealth](additionalMonsters/../skills/stealth#_stealth) +15
 
 **Languages** Abyssal; telepathy 100 ft.
 
@@ -156,15 +156,15 @@ Ecology
 
 Special Abilities
 
-**Aura of Misfortune (Su)** A chernobue radiates an aura of [evil](monsters/creatureTypes.md#_evil-subtype) malaise to a radius of 30 feet. All [lawful](monsters/creatureTypes.md#_lawful-subtype) or [good](monsters/creatureTypes.md#_good-subtype) creatures in this area take a –1 penalty on attack rolls and weapon damage rolls. [Lawful](monsters/creatureTypes.md#_lawful-subtype) [good](monsters/creatureTypes.md#_good-subtype) creatures take a –3 penalty and upon first entering the aura must make a DC 20 Fortitude save or be sickened for as long as they remain in the area. This ability is Charisma-based.
+**Aura of Misfortune (Su)** A chernobue radiates an aura of [evil](monsters/creatureTypes#_evil-subtype) malaise to a radius of 30 feet. All [lawful](monsters/creatureTypes#_lawful-subtype) or [good](monsters/creatureTypes#_good-subtype) creatures in this area take a –1 penalty on attack rolls and weapon damage rolls. [Lawful](monsters/creatureTypes#_lawful-subtype) [good](monsters/creatureTypes#_good-subtype) creatures take a –3 penalty and upon first entering the aura must make a DC 20 Fortitude save or be sickened for as long as they remain in the area. This ability is Charisma-based.
 
 **Horrific Appearance (Su)** Creatures that succumb to a chernobue's horrific appearance become paralyzed with disgust for 2d6 rounds; a paralyzed creature gets a new save each round to recover from the effect, provided he is no longer aware of the chernobue or within 30 feet of it.
 
 **Light Vulnerability (Ex)** A chernobue within an area of bright light takes 1 point of Constitution damage per minute it remains in the area.
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Su)** Bite—injury; _save_ Fort DC 23; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Con drain; _cure_ 1 save. The thick, orange [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) injected by a chernobue is semi-alive. As soon as the poisoned victim is cured of the [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (by making a save, being targeted with an effect like _ [neutralize poison](additionalMonsters/../spells/neutralizePoison.md#_neutralize-poison)_, or enduring the full duration of the [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))), the orange fluid bursts from the victim's body, causing 1d6 Charisma damage and rendering the victim unconscious for 2d6 rounds unless he makes a final DC 23 Fortitude save. The save DC is Constitution-based.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (Su)** Bite—injury; _save_ Fort DC 23; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Con drain; _cure_ 1 save. The thick, orange [poison](monsters/universalMonsterRules#_poison-(ex-or-su)) injected by a chernobue is semi-alive. As soon as the poisoned victim is cured of the [poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (by making a save, being targeted with an effect like _ [neutralize poison](additionalMonsters/../spells/neutralizePoison#_neutralize-poison)_, or enduring the full duration of the [poison](monsters/universalMonsterRules#_poison-(ex-or-su))), the orange fluid bursts from the victim's body, causing 1d6 Charisma damage and rendering the victim unconscious for 2d6 rounds unless he makes a final DC 23 Fortitude save. The save DC is Constitution-based.
 
-The chernobue is a living manifestation of the vile fecundity of the Abyss—a monstrous, alien pregnancy made flesh. By infecting creatures with the Abyssal taint they carry, they spread pain and misfortune wherever they flop and writhe—and with their _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift) _ability, they are ready to spread their filth throughout the multiverse. A chernobue is 13 feet long and weighs 500 pounds.
+The chernobue is a living manifestation of the vile fecundity of the Abyss—a monstrous, alien pregnancy made flesh. By infecting creatures with the Abyssal taint they carry, they spread pain and misfortune wherever they flop and writhe—and with their _ [plane shift](additionalMonsters/../spells/planeShift#_plane-shift) _ability, they are ready to spread their filth throughout the multiverse. A chernobue is 13 feet long and weighs 500 pounds.
 
 # Qlippoth, Cythnigot
 
@@ -174,9 +174,9 @@ This six-legged horror has a spider's face and a fibrous stalk growing out of it
 
 **XP 600**
 
-CE Tiny [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [qlippoth](monsters/creatureTypes.md#_qlippoth-subtype))
+CE Tiny [outsider](monsters/creatureTypes#_outsider) ( [chaotic](monsters/creatureTypes#_chaotic-subtype), [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [qlippoth](monsters/creatureTypes#_qlippoth-subtype))
 
-**Init** +1; **Senses** darkvision 60 ft., _ [detect law](additionalMonsters/../spells/detectLaw.md#_detect-law)_, _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_; [Perception](additionalMonsters/../skills/perception.md#_perception) +5
+**Init** +1; **Senses** darkvision 60 ft., _ [detect law](additionalMonsters/../spells/detectLaw#_detect-law)_, _ [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic)_; [Perception](additionalMonsters/../skills/perception#_perception) +5
 
 Defense
 
@@ -186,7 +186,7 @@ Defense
 
 **Fort** +1, **Ref** +6, **Will** +2
 
-**DR** 5/cold iron or [lawful](monsters/creatureTypes.md#_lawful-subtype); **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), mind-affecting effects; **Resist** acid 10, electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10
+**DR** 5/cold iron or [lawful](monsters/creatureTypes#_lawful-subtype); **Immune** [cold](monsters/creatureTypes#_cold-subtype), [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), mind-affecting effects; **Resist** acid 10, electricity 10, [fire](monsters/creatureTypes#_fire-subtype) 10
 
 Offense
 
@@ -200,11 +200,11 @@ Offense
 
 **Spell-Like Abilities** (CL 6th, concentration +4)
 
-Constant—_ [detect law](additionalMonsters/../spells/detectLaw.md#_detect-law)_, _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [fly](additionalMonsters/../spells/fly.md)_
+Constant—_ [detect law](additionalMonsters/../spells/detectLaw#_detect-law)_, _ [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic)_, _ [fly](additionalMonsters/../spells/fly)_
 
-1/day—_ [soften earth and stone](additionalMonsters/../spells/softenEarthAndStone.md#_soften-earth-and-stone)_, _ [warp wood](additionalMonsters/../spells/warpWood.md#_warp-wood)_
+1/day—_ [soften earth and stone](additionalMonsters/../spells/softenEarthAndStone#_soften-earth-and-stone)_, _ [warp wood](additionalMonsters/../spells/warpWood#_warp-wood)_
 
-1/week—_ [commune](additionalMonsters/../spells/commune.md#_commune)_ (six questions)
+1/week—_ [commune](additionalMonsters/../spells/commune#_commune)_ (six questions)
 
 Statistics
 
@@ -212,9 +212,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +2; **CMD** 13 (21 vs. trip)
 
-**Feats** [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
+**Feats** [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Weapon Finesse](additionalMonsters/../feats#_weapon-finesse)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +7 (+11 jump), [Fly](additionalMonsters/../skills/fly.md#_fly) +15, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (nature) +6, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +6, [Perception](additionalMonsters/../skills/perception.md#_perception) +5, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +15
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +7 (+11 jump), [Fly](additionalMonsters/../skills/fly#_fly) +15, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (nature) +6, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +6, [Perception](additionalMonsters/../skills/perception#_perception) +5, [Stealth](additionalMonsters/../skills/stealth#_stealth) +15
 
 **Languages** Abyssal; telepathy (touch)
 
@@ -228,13 +228,13 @@ Ecology
 
 Special Abilities
 
-**Horrific Appearance (Su)** Creatures that succumb to a cythnigot's horrific appearance become sickened for 1 round—a cythnigot's horrific appearance only functions to a range of 10 feet. Once a creature makes a saving throw against a particular cythnigot's horrific appearance, that creature is immune to the horrific appearance of all cythnigots for 24 hours. A spellcaster that has a cythnigot as a familiar is immune to the horrific appearance of all cythnigots, and also gains a +4 bonus on saving throws made against any [qlippoth](monsters/creatureTypes.md#_qlippoth-subtype)'s horrific appearance.
+**Horrific Appearance (Su)** Creatures that succumb to a cythnigot's horrific appearance become sickened for 1 round—a cythnigot's horrific appearance only functions to a range of 10 feet. Once a creature makes a saving throw against a particular cythnigot's horrific appearance, that creature is immune to the horrific appearance of all cythnigots for 24 hours. A spellcaster that has a cythnigot as a familiar is immune to the horrific appearance of all cythnigots, and also gains a +4 bonus on saving throws made against any [qlippoth](monsters/creatureTypes#_qlippoth-subtype)'s horrific appearance.
 
-**Spores (Su)** Any creature bitten by a cythnigot must make a DC 11 Fortitude save or become infested by the creature's otherworldly spores. These spores cause twitching spikes and hideous pallid growths of hair-like fibers to erupt from the bite wound and to writhe and wrap around the target's limbs. A creature suffering from these spores is entangled, and can attempt a new DC 11 Fortitude save in later rounds as a standard action to rip the tendrils free and escape the entangled condition. The effects of multiple cythnigot bites on a creature do not stack. [Plant](monsters/creatureTypes.md#_plant) creatures take a –4 penalty on saves against this effect. This is a [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)) effect. The save DC is Constitution-based.
+**Spores (Su)** Any creature bitten by a cythnigot must make a DC 11 Fortitude save or become infested by the creature's otherworldly spores. These spores cause twitching spikes and hideous pallid growths of hair-like fibers to erupt from the bite wound and to writhe and wrap around the target's limbs. A creature suffering from these spores is entangled, and can attempt a new DC 11 Fortitude save in later rounds as a standard action to rip the tendrils free and escape the entangled condition. The effects of multiple cythnigot bites on a creature do not stack. [Plant](monsters/creatureTypes#_plant) creatures take a –4 penalty on saves against this effect. This is a [disease](monsters/universalMonsterRules#_disease-(ex-or-su)) effect. The save DC is Constitution-based.
 
 The cythnigot is a foul fungal parasite that grows and thrives within the corpses of small animals. The fungus transforms the host corpse in hideous ways, adding legs or rearranging features—a rat might gain an extra pair of legs and an insectoid visage, while a cat could lose all its legs and fur and gain a snake-like body. The only thing that all cythnigots have in common is a long stalk of fungal material that extends up from the creature's body, ending in a surprisingly strong set of fanged jaws. A cythnigot without a host body appears as little more than a foul-smelling puffball the size of a human's fist.
 
-Chaotic evil spellcasters of caster level 7th who have the [Improved Familiar](additionalMonsters/../feats.md#_improved-familiar) feat can gain a cythnigot as a familiar—to do so, the spellcaster must already have a Tiny animal as a familiar. Infusing this familiar with the spores results in a cythnigot that is a loyal, if rather disgusting, minion of the spellcaster.
+Chaotic evil spellcasters of caster level 7th who have the [Improved Familiar](additionalMonsters/../feats#_improved-familiar) feat can gain a cythnigot as a familiar—to do so, the spellcaster must already have a Tiny animal as a familiar. Infusing this familiar with the spores results in a cythnigot that is a loyal, if rather disgusting, minion of the spellcaster.
 
 A cythnigot is about 20 inches long and weighs 10 pounds.
 
@@ -246,9 +246,9 @@ This immense creature has four bat-like wings and a spherical body. Red eyes pee
 
 **XP 307,200**
 
-CE Colossal [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [qlippoth](monsters/creatureTypes.md#_qlippoth-subtype))
+CE Colossal [outsider](monsters/creatureTypes#_outsider) ( [chaotic](monsters/creatureTypes#_chaotic-subtype), [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [qlippoth](monsters/creatureTypes#_qlippoth-subtype))
 
-**Init** –1; **Senses** [all-around vision](monsters/universalMonsterRules.md#_all-around-vision), darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +37
+**Init** –1; **Senses** [all-around vision](monsters/universalMonsterRules#_all-around-vision), darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +37
 
 **Aura** stench (DC 32, 10 rounds), _cloak of chaos_ (DC 26)
 
@@ -260,13 +260,13 @@ Defense
 
 **Fort** +28, **Ref** +15, **Will** +28
 
-**Defensive Abilities** ichor, never surprised or flat-footed; **DR** 15/cold iron and [lawful](monsters/creatureTypes.md#_lawful-subtype); **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), mind-affecting effects; **Resist** acid 30, electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 31
+**Defensive Abilities** ichor, never surprised or flat-footed; **DR** 15/cold iron and [lawful](monsters/creatureTypes#_lawful-subtype); **Immune** [cold](monsters/creatureTypes#_cold-subtype), [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), mind-affecting effects; **Resist** acid 30, electricity 10, [fire](monsters/creatureTypes#_fire-subtype) 10; **SR** 31
 
 Offense
 
 **Speed** 20 ft., fly 50 ft. (perfect)
 
-**Melee** 2 claws +31 (4d6+15/19–20 plus [grab](monsters/universalMonsterRules.md#_grab)), 4 wings +26 (2d8+7)
+**Melee** 2 claws +31 (4d6+15/19–20 plus [grab](monsters/universalMonsterRules#_grab)), 4 wings +26 (2d8+7)
 
 **Space** 30 ft.; **Reach** 30 ft.
 
@@ -274,13 +274,13 @@ Offense
 
 **Spell-Like Abilities** (CL 20th; concentration +28)
 
-Constant—_ [cloak of chaos](additionalMonsters/../spells/cloakOfChaos.md#_cloak-of-chaos)_ (DC 26), _ [foresight](additionalMonsters/../spells/foresight.md#_foresight)_, _ [freedom of movement](additionalMonsters/../spells/freedomOfMovement.md#_freedom-of-movement)_, _ [true seeing](additionalMonsters/../spells/trueSeeing.md#_true-seeing)_
+Constant—_ [cloak of chaos](additionalMonsters/../spells/cloakOfChaos#_cloak-of-chaos)_ (DC 26), _ [foresight](additionalMonsters/../spells/foresight#_foresight)_, _ [freedom of movement](additionalMonsters/../spells/freedomOfMovement#_freedom-of-movement)_, _ [true seeing](additionalMonsters/../spells/trueSeeing#_true-seeing)_
 
-At will—_ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_, _ [dispel law](additionalMonsters/../spells/dispelLaw.md#_dispel-law)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_, _ [magic missile](additionalMonsters/../spells/magicMissile.md#_magic-missile)_, _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 25), _ [wind walk](additionalMonsters/../spells/windWalk.md#_wind-walk)_, _ [word of recall](additionalMonsters/../spells/wordOfRecall.md#_word-of-recall)_
+At will—_ [dimension door](additionalMonsters/../spells/dimensionDoor#_dimension-door)_, _ [dispel law](additionalMonsters/../spells/dispelLaw#_dispel-law)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic-greater)_, _ [magic missile](additionalMonsters/../spells/magicMissile#_magic-missile)_, _ [plane shift](additionalMonsters/../spells/planeShift#_plane-shift)_ (DC 25), _ [wind walk](additionalMonsters/../spells/windWalk#_wind-walk)_, _ [word of recall](additionalMonsters/../spells/wordOfRecall#_word-of-recall)_
 
-3/day—_ [black tentacles](additionalMonsters/../spells/blackTentacles.md#_black-tentacles)_, _ [dimensional lock](additionalMonsters/../spells/dimensionalLock.md#_dimensional-lock)_, _ [horrid wilting](additionalMonsters/../spells/horridWilting.md#_horrid-wilting)_ (DC 26), _ [insanity](additionalMonsters/../spells/insanity.md#_insanity)_ (DC 25), _ [word of chaos](additionalMonsters/../spells/wordOfChaos.md#_word-of-chaos)_ (DC 25)
+3/day—_ [black tentacles](additionalMonsters/../spells/blackTentacles#_black-tentacles)_, _ [dimensional lock](additionalMonsters/../spells/dimensionalLock#_dimensional-lock)_, _ [horrid wilting](additionalMonsters/../spells/horridWilting#_horrid-wilting)_ (DC 26), _ [insanity](additionalMonsters/../spells/insanity#_insanity)_ (DC 25), _ [word of chaos](additionalMonsters/../spells/wordOfChaos#_word-of-chaos)_ (DC 25)
 
-1/day—quickened _ [heal](additionalMonsters/../spells/heal.md#_heal)_, _ [imprisonment](additionalMonsters/../spells/imprisonment.md#_imprisonment)_ (DC 27)
+1/day—quickened _ [heal](additionalMonsters/../spells/heal#_heal)_, _ [imprisonment](additionalMonsters/../spells/imprisonment#_imprisonment)_ (DC 27)
 
 Statistics
 
@@ -288,9 +288,9 @@ Statistics
 
 **Base Atk** +24; **CMB** +47 (+51 grapple); **CMD** 62 (can't be tripped)
 
-**Feats** [Awesome Blow](additionalMonsters/../monsters/monsterFeats.md#_awesome-blow), [Critical Focus](additionalMonsters/../feats.md#_critical-focus), [Greater Vital Strike](additionalMonsters/../feats.md#_greater-vital-strike), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (claw), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats.md#_quicken-spell-like-ability) (_ [heal](additionalMonsters/../spells/heal.md#_heal)_), [Spell Penetration](additionalMonsters/../feats.md#_spell-penetration), [Staggering Critical](additionalMonsters/../feats.md#_staggering-critical), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
+**Feats** [Awesome Blow](additionalMonsters/../monsters/monsterFeats#_awesome-blow), [Critical Focus](additionalMonsters/../feats#_critical-focus), [Greater Vital Strike](additionalMonsters/../feats#_greater-vital-strike), [Improved Bull Rush](additionalMonsters/../feats#_improved-bull-rush), [Improved Critical](additionalMonsters/../feats#_improved-critical) (claw), [Improved Vital Strike](additionalMonsters/../feats#_improved-vital-strike), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Power Attack](additionalMonsters/../feats#_power-attack), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats#_quicken-spell-like-ability) (_ [heal](additionalMonsters/../spells/heal#_heal)_), [Spell Penetration](additionalMonsters/../feats#_spell-penetration), [Staggering Critical](additionalMonsters/../feats#_staggering-critical), [Vital Strike](additionalMonsters/../feats#_vital-strike)
 
-**Skills** [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +35, [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +23, [Fly](additionalMonsters/../skills/fly.md#_fly) +26, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +35, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +36, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (dungeoneering) +33, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (geography) +33, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (history) +33, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +36, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +33, [Perception](additionalMonsters/../skills/perception.md#_perception) +37, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +37, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +36, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +10, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +35
+**Skills** [Bluff](additionalMonsters/../skills/bluff#_bluff) +35, [Escape Artist](additionalMonsters/../skills/escapeArtist#_escape-artist) +23, [Fly](additionalMonsters/../skills/fly#_fly) +26, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +35, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana) +36, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (dungeoneering) +33, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (geography) +33, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (history) +33, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +36, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (religion) +33, [Perception](additionalMonsters/../skills/perception#_perception) +37, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +37, [Spellcraft](additionalMonsters/../skills/spellcraft#_spellcraft) +36, [Stealth](additionalMonsters/../skills/stealth#_stealth) +10, [Use Magic Device](additionalMonsters/../skills/useMagicDevice#_use-magic-device) +35
 
 **Languages** Abyssal; telepathy 300 ft.
 
@@ -304,13 +304,13 @@ Ecology
 
 Special Abilities
 
-**Abyssal Transformation (Su)** If an iathavos establishes a hold on a creature of Large or smaller size, it can place that creature deep within the bristly folds of its flesh. Treat this as an [engulf](monsters/universalMonsterRules.md#_engulf) attack, except that at the start of the iathavos's turn, an engulfed creature must make a DC 30 Fortitude save or be transformed into a nyogoth [qlippoth](monsters/creatureTypes.md#_qlippoth-subtype) that immediately squirms out of the iathavos's body to serve its new master. Creatures transformed into nyogoths are not controlled by the iathavos, but function and behave as if they were typical members of that species—they retain no memories or abilities they may have possessed in their previous lives. Items held or worn by the unfortunate victim remain lodged within the folds of the iathavos's body and can only be retrieved if the iathavos is helpless or dead. A creature transformed into a nyogoth in this manner can be restored to its true shape via _ [break enchantment](additionalMonsters/../spells/breakEnchantment.md#_break-enchantment)_, _ [miracle](additionalMonsters/../spells/miracle.md#_miracle)_, or _ [wish](additionalMonsters/../spells/wish.md#_wish)_. Otherwise, slaying the nyogoth allows the poor soul to be restored to life via [_reincarnation_](additionalMonsters/../spells/reincarnate.md#_reincarnate), _ [resurrection](additionalMonsters/../spells/resurrection.md#_resurrection),_ or _ [true resurrection](additionalMonsters/../spells/trueResurrection.md#_true-resurrection)_. The save DC is Charisma-based.
+**Abyssal Transformation (Su)** If an iathavos establishes a hold on a creature of Large or smaller size, it can place that creature deep within the bristly folds of its flesh. Treat this as an [engulf](monsters/universalMonsterRules#_engulf) attack, except that at the start of the iathavos's turn, an engulfed creature must make a DC 30 Fortitude save or be transformed into a nyogoth [qlippoth](monsters/creatureTypes#_qlippoth-subtype) that immediately squirms out of the iathavos's body to serve its new master. Creatures transformed into nyogoths are not controlled by the iathavos, but function and behave as if they were typical members of that species—they retain no memories or abilities they may have possessed in their previous lives. Items held or worn by the unfortunate victim remain lodged within the folds of the iathavos's body and can only be retrieved if the iathavos is helpless or dead. A creature transformed into a nyogoth in this manner can be restored to its true shape via _ [break enchantment](additionalMonsters/../spells/breakEnchantment#_break-enchantment)_, _ [miracle](additionalMonsters/../spells/miracle#_miracle)_, or _ [wish](additionalMonsters/../spells/wish#_wish)_. Otherwise, slaying the nyogoth allows the poor soul to be restored to life via [_reincarnation_](additionalMonsters/../spells/reincarnate#_reincarnate), _ [resurrection](additionalMonsters/../spells/resurrection#_resurrection),_ or _ [true resurrection](additionalMonsters/../spells/trueResurrection#_true-resurrection)_. The save DC is Charisma-based.
 
-**Entropic Beams (Su)** As a standard action once every minute, an iathavos can [fire](monsters/creatureTypes.md#_fire-subtype) beams of entropic energy from its 10 eyes. Each of these beams of energy can be directed at a single target within 300 feet of the iathavos, but no more than one beam may be directed at any one creature. Beams that are not directed at a creature are wasted. The [qlippoth](monsters/creatureTypes.md#_qlippoth-subtype) must make a +15 ranged touch attack to hit with each beam. Each beam has the same effect as a CL 20th _ [disintegrate](additionalMonsters/../spells/disintegrate.md#_disintegrate)_ (40d6 damage, DC 32 Fortitude partial for 5d6 damage), except a creature killed by this damage explodes in a 5-foot burst of energy, flesh, shadow, and smoke instead of turning into dust. Any creature in this burst must make a DC 32 Will save or be staggered for 1 round. The save DCs are Constitution-based.
+**Entropic Beams (Su)** As a standard action once every minute, an iathavos can [fire](monsters/creatureTypes#_fire-subtype) beams of entropic energy from its 10 eyes. Each of these beams of energy can be directed at a single target within 300 feet of the iathavos, but no more than one beam may be directed at any one creature. Beams that are not directed at a creature are wasted. The [qlippoth](monsters/creatureTypes#_qlippoth-subtype) must make a +15 ranged touch attack to hit with each beam. Each beam has the same effect as a CL 20th _ [disintegrate](additionalMonsters/../spells/disintegrate#_disintegrate)_ (40d6 damage, DC 32 Fortitude partial for 5d6 damage), except a creature killed by this damage explodes in a 5-foot burst of energy, flesh, shadow, and smoke instead of turning into dust. Any creature in this burst must make a DC 32 Will save or be staggered for 1 round. The save DCs are Constitution-based.
 
-**Horrific Appearance (Su)** Creatures that succumb to the iathavos's horrific appearance are affected by a _ [feeblemind](additionalMonsters/../spells/feeblemind.md#_feeblemind)_ effect and permanently blinded.
+**Horrific Appearance (Su)** Creatures that succumb to the iathavos's horrific appearance are affected by a _ [feeblemind](additionalMonsters/../spells/feeblemind#_feeblemind)_ effect and permanently blinded.
 
-**Ichor (Su)** As long as the iathavos has taken any hit point damage, thick and stringy ropes of black ichor weep from the fissures and folds in its bristly hide. This ichor extrudes from the creature's body in a writhing nimbus of filaments at a rate of 5 feet per round, to a maximum range equal to its reach (30 feet). At the start the iathavos's turn, all creatures in reach of these strands of ichor must make a DC 32 Reflex save or become entangled. At the start the iathavos's turn, all creatures entangled by the ichor take 4d6 points of acid damage. If the [qlippoth](monsters/creatureTypes.md#_qlippoth-subtype) ends its turn with no hit point damage, the ichor melts away into harmless mist, releasing all entangled creatures. The save DC is Constitution-based.
+**Ichor (Su)** As long as the iathavos has taken any hit point damage, thick and stringy ropes of black ichor weep from the fissures and folds in its bristly hide. This ichor extrudes from the creature's body in a writhing nimbus of filaments at a rate of 5 feet per round, to a maximum range equal to its reach (30 feet). At the start the iathavos's turn, all creatures in reach of these strands of ichor must make a DC 32 Reflex save or become entangled. At the start the iathavos's turn, all creatures entangled by the ichor take 4d6 points of acid damage. If the [qlippoth](monsters/creatureTypes#_qlippoth-subtype) ends its turn with no hit point damage, the ichor melts away into harmless mist, releasing all entangled creatures. The save DC is Constitution-based.
 
 **Stench (Su)** The iathavos's stench ability is supernaturally disgusting—creatures that succumb to this ability are nauseated, while those that save are still sickened.
 
@@ -318,7 +318,7 @@ The most terrible of the qlippoth, with the exception of the qlippoth lords, is 
 
 The iathavos crusades against the demonic scourge, but the monster does not limit its attentions to seeking out and destroying demons in preparation for the return of the Abyss to qlippoth rule. Indeed, the iathavos has the ability to shift among the various planes of the multiverse, and often travels to Material Plane worlds to systematically scour realms clean of mortal life, thus ensuring that these worlds can no longer provide the raw materials—sinful mortal souls—the Abyss relies upon to create new demons. Worlds visited by the iathavos are notable for the widespread devastation and the unusually large populations of nyogoths that remain behind to consume every last speck of decay the iathavos leaves behind.
 
-The iathavos can be called via the most powerful spells, such as _ [gate](additionalMonsters/../spells/gate.md#_gate)_, but its immunity to mind-affecting effects and its vast size ensure that only the most desperate or most insane ever attempt such a self-destructive act. In all known cases, the deliberate conjuration of the iathavos to another world has done little more than draw the attention of the powerful creature to that world, so that even if it is banished back to the Abyss before it can cause too much devastation, the iathavos remembers the visit. It often returns under its own power at a later date to pursue its own goals on the newly discovered world. Only if the iathavos is presented with defenders that prevent it from achieving its destructive ruin does it flee back to the Abyss via _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_—in such cases, the qlippoth often waits for centuries or even millennia before returning to that world, for there are always easier realms to destroy.
+The iathavos can be called via the most powerful spells, such as _ [gate](additionalMonsters/../spells/gate#_gate)_, but its immunity to mind-affecting effects and its vast size ensure that only the most desperate or most insane ever attempt such a self-destructive act. In all known cases, the deliberate conjuration of the iathavos to another world has done little more than draw the attention of the powerful creature to that world, so that even if it is banished back to the Abyss before it can cause too much devastation, the iathavos remembers the visit. It often returns under its own power at a later date to pursue its own goals on the newly discovered world. Only if the iathavos is presented with defenders that prevent it from achieving its destructive ruin does it flee back to the Abyss via _ [plane shift](additionalMonsters/../spells/planeShift#_plane-shift)_—in such cases, the qlippoth often waits for centuries or even millennia before returning to that world, for there are always easier realms to destroy.
 
 The iathavos is a powerful and horrifying monster made all the more devastating by its incredible intellect. The creature takes care to plan its major assaults on demonic enclaves or mortal cities, even though it is powerful enough that few creatures in the multiverse can give it pause.
 
@@ -334,9 +334,9 @@ This appears to be a mass of floating intestines tangled around a fanged mouth�
 
 **XP 9,600**
 
-CE Medium [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [qlippoth](monsters/creatureTypes.md#_qlippoth-subtype))
+CE Medium [outsider](monsters/creatureTypes#_outsider) ( [chaotic](monsters/creatureTypes#_chaotic-subtype), [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [qlippoth](monsters/creatureTypes#_qlippoth-subtype))
 
-**Init** +5; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +17
+**Init** +5; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +17
 
 Defense
 
@@ -346,7 +346,7 @@ Defense
 
 **Fort** +14, **Ref** +12, **Will** +7
 
-**Defensive Abilities** acid spray; **DR** 10/lawful; **Immune** acid, [cold](monsters/creatureTypes.md#_cold-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), mind-affecting effects; **Resist** electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10
+**Defensive Abilities** acid spray; **DR** 10/lawful; **Immune** acid, [cold](monsters/creatureTypes#_cold-subtype), [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), mind-affecting effects; **Resist** electricity 10, [fire](monsters/creatureTypes#_fire-subtype) 10
 
 Offense
 
@@ -358,11 +358,11 @@ Offense
 
 **Spell-Like Abilities** (CL 10th; concentration +13)
 
-At will—_ [acid arrow](additionalMonsters/../spells/acidArrow.md#_acid-arrow)_
+At will—_ [acid arrow](additionalMonsters/../spells/acidArrow#_acid-arrow)_
 
-7/day—_ [fear](additionalMonsters/../spells/fear.md#_fear)_ (DC 17), _ [protection from law](additionalMonsters/../spells/protectionFromLaw.md#_protection-from-law)_
+7/day—_ [fear](additionalMonsters/../spells/fear#_fear)_ (DC 17), _ [protection from law](additionalMonsters/../spells/protectionFromLaw#_protection-from-law)_
 
-1/day—_ [acid fog](additionalMonsters/../spells/acidFog.md#_acid-fog)_, _ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_
+1/day—_ [acid fog](additionalMonsters/../spells/acidFog#_acid-fog)_, _ [dimension door](additionalMonsters/../spells/dimensionDoor#_dimension-door)_
 
 Statistics
 
@@ -370,13 +370,13 @@ Statistics
 
 **Base Atk** +10; **CMB** +13; **CMD** 28 (can't be tripped)
 
-**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Vital Strike](additionalMonsters/../feats.md#_vital-strike), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
+**Feats** [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Improved Critical](additionalMonsters/../feats#_improved-critical) (bite), [Power Attack](additionalMonsters/../feats#_power-attack), [Vital Strike](additionalMonsters/../feats#_vital-strike), [Weapon Finesse](additionalMonsters/../feats#_weapon-finesse)
 
-**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +22, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +16, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +12, [Perception](additionalMonsters/../skills/perception.md#_perception) +17, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +18
+**Skills** [Fly](additionalMonsters/../skills/fly#_fly) +22, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +16, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +12, [Perception](additionalMonsters/../skills/perception#_perception) +17, [Stealth](additionalMonsters/../skills/stealth#_stealth) +18
 
 **Languages** Abyssal; telepathy 100 ft.
 
-**SQ** [flight](monsters/universalMonsterRules.md#_flight-(ex,-sp,-or-su))
+**SQ** [flight](monsters/universalMonsterRules#_flight-(ex,-sp,-or-su))
 
 Ecology
 
@@ -406,9 +406,9 @@ This pale creature has four suckered arms that end in pincers. A gnashing maw ga
 
 **XP 3,200**
 
-CE Large [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [qlippoth](monsters/creatureTypes.md#_qlippoth-subtype))
+CE Large [outsider](monsters/creatureTypes#_outsider) ( [chaotic](monsters/creatureTypes#_chaotic-subtype), [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [qlippoth](monsters/creatureTypes#_qlippoth-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +18
+**Init** +7; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +18
 
 Defense
 
@@ -418,27 +418,27 @@ Defense
 
 **Fort** +11, **Ref** +5, **Will** +9
 
-**Defensive Abilities** uncanny dodge; **DR** 10/cold iron or [lawful](monsters/creatureTypes.md#_lawful-subtype); **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), mind-affecting effects; **Resist** acid 10, electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10
+**Defensive Abilities** uncanny dodge; **DR** 10/cold iron or [lawful](monsters/creatureTypes#_lawful-subtype); **Immune** [cold](monsters/creatureTypes#_cold-subtype), [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), mind-affecting effects; **Resist** acid 10, electricity 10, [fire](monsters/creatureTypes#_fire-subtype) 10
 
 Offense
 
 **Speed** 30 ft.
 
-**Melee** bite +12 (1d8+6), 4 tentacles +8 (1d4+3 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** bite +12 (1d8+6), 4 tentacles +8 (1d4+3 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** braincloud, horrific appearance (DC 15), [constrict](monsters/universalMonsterRules.md#_constrict) (1d4+6)
+**Special Attacks** braincloud, horrific appearance (DC 15), [constrict](monsters/universalMonsterRules#_constrict) (1d4+6)
 
 **Spell-Like Abilities** (CL 7th; concentration +9)
 
-Constant—_ [tongues](additionalMonsters/../spells/tongues.md#_tongues)_
+Constant—_ [tongues](additionalMonsters/../spells/tongues#_tongues)_
 
-At will—_ [command](additionalMonsters/../spells/command.md#_command)_ (DC 13)
+At will—_ [command](additionalMonsters/../spells/command#_command)_ (DC 13)
 
-3/day—_ [charm person](additionalMonsters/../spells/charmPerson.md#_charm-person)_ (DC 13), _ [protection from law](additionalMonsters/../spells/protectionFromLaw.md#_protection-from-law)_
+3/day—_ [charm person](additionalMonsters/../spells/charmPerson#_charm-person)_ (DC 13), _ [protection from law](additionalMonsters/../spells/protectionFromLaw#_protection-from-law)_
 
-1/day—_ [charm monster](additionalMonsters/../spells/charmMonster.md#_charm-monster)_ (DC 16), _ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_
+1/day—_ [charm monster](additionalMonsters/../spells/charmMonster#_charm-monster)_ (DC 16), _ [dimension door](additionalMonsters/../spells/dimensionDoor#_dimension-door)_
 
 Statistics
 
@@ -446,9 +446,9 @@ Statistics
 
 **Base Atk** +7; **CMB** +14 (+18 grapple); **CMD** 27 (31 vs. trip)
 
-**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device)), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (tentacles)
+**Feats** [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Use Magic Device](additionalMonsters/../skills/useMagicDevice#_use-magic-device)), [Weapon Focus](additionalMonsters/../feats#_weapon-focus) (tentacles)
 
-**Skills** [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +13, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +16, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +11, [Perception](additionalMonsters/../skills/perception.md#_perception) +18, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +14, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +9, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +19; **Racial Modifiers** +4 [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate), +4 [Perception](additionalMonsters/../skills/perception.md#_perception), +4 [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device)
+**Skills** [Escape Artist](additionalMonsters/../skills/escapeArtist#_escape-artist) +13, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +16, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +11, [Perception](additionalMonsters/../skills/perception#_perception) +18, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +14, [Stealth](additionalMonsters/../skills/stealth#_stealth) +9, [Use Magic Device](additionalMonsters/../skills/useMagicDevice#_use-magic-device) +19; **Racial Modifiers** +4 [Intimidate](additionalMonsters/../skills/intimidate#_intimidate), +4 [Perception](additionalMonsters/../skills/perception#_perception), +4 [Use Magic Device](additionalMonsters/../skills/useMagicDevice#_use-magic-device)
 
 **Languages** Abyssal; telepathy 100 ft.
 
@@ -480,9 +480,9 @@ This monster has ten spidery legs, a head writhing with dripping tentacles above
 
 **XP 153,600**
 
-CE Large [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [qlippoth](monsters/creatureTypes.md#_qlippoth-subtype))
+CE Large [outsider](monsters/creatureTypes#_outsider) ( [chaotic](monsters/creatureTypes#_chaotic-subtype), [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [qlippoth](monsters/creatureTypes#_qlippoth-subtype))
 
-**Init** +12; **Senses** darkvision 60 ft., _ [true seeing](additionalMonsters/../spells/trueSeeing.md#_true-seeing)_; [Perception](additionalMonsters/../skills/perception.md#_perception) +31
+**Init** +12; **Senses** darkvision 60 ft., _ [true seeing](additionalMonsters/../spells/trueSeeing#_true-seeing)_; [Perception](additionalMonsters/../skills/perception#_perception) +31
 
 **Aura** _cloak of chaos_ (DC 25)
 
@@ -494,7 +494,7 @@ Defense
 
 **Fort** +25, **Ref** +30, **Will** +18
 
-**Defensive Abilities** displacement, evasion, freedom of movement; **DR** 15/cold iron and [lawful](monsters/creatureTypes.md#_lawful-subtype); **Immune** acid, [cold](monsters/creatureTypes.md#_cold-subtype), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), mind-affecting effects; **Resist** electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10; **SR** 25 vs. [lawful](monsters/creatureTypes.md#_lawful-subtype) spells and creatures
+**Defensive Abilities** displacement, evasion, freedom of movement; **DR** 15/cold iron and [lawful](monsters/creatureTypes#_lawful-subtype); **Immune** acid, [cold](monsters/creatureTypes#_cold-subtype), [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), mind-affecting effects; **Resist** electricity 10, [fire](monsters/creatureTypes#_fire-subtype) 10; **SR** 25 vs. [lawful](monsters/creatureTypes#_lawful-subtype) spells and creatures
 
 Offense
 
@@ -508,13 +508,13 @@ Offense
 
 **Spell-Like Abilities** (CL 18th; concentration +25)
 
-Constant—_ [cloak of chaos](additionalMonsters/../spells/cloakOfChaos.md#_cloak-of-chaos)_ (DC 25), _ [displacement](additionalMonsters/../spells/displacement.md#_displacement)_, _ [freedom of movement](additionalMonsters/../spells/freedomOfMovement.md#_freedom-of-movement)_, _ [true seeing](additionalMonsters/../spells/trueSeeing.md#_true-seeing)_
+Constant—_ [cloak of chaos](additionalMonsters/../spells/cloakOfChaos#_cloak-of-chaos)_ (DC 25), _ [displacement](additionalMonsters/../spells/displacement#_displacement)_, _ [freedom of movement](additionalMonsters/../spells/freedomOfMovement#_freedom-of-movement)_, _ [true seeing](additionalMonsters/../spells/trueSeeing#_true-seeing)_
 
-At will—_ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_, _ [telekinesis](additionalMonsters/../spells/telekinesis.md#_telekinesis)_ (DC 22)
+At will—_ [dimension door](additionalMonsters/../spells/dimensionDoor#_dimension-door)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic-greater)_, _ [telekinesis](additionalMonsters/../spells/telekinesis#_telekinesis)_ (DC 22)
 
-3/day—quickened _ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_, _ [flesh to stone](additionalMonsters/../spells/fleshToStone.md#_flesh-to-stone)_ (DC 23), _ [word of chaos](additionalMonsters/../spells/wordOfChaos.md#_word-of-chaos)_ (DC 24)
+3/day—quickened _ [dimension door](additionalMonsters/../spells/dimensionDoor#_dimension-door)_, _ [flesh to stone](additionalMonsters/../spells/fleshToStone#_flesh-to-stone)_ (DC 23), _ [word of chaos](additionalMonsters/../spells/wordOfChaos#_word-of-chaos)_ (DC 24)
 
-1/day—_ [binding](additionalMonsters/../spells/binding.md#_binding)_ (DC 25), _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 24), _ [telekinetic sphere](additionalMonsters/../spells/telekineticSphere.md#_telekinetic-sphere)_ (DC 25), _ [temporal stasis](additionalMonsters/../spells/temporalStasis.md#_temporal-stasis)_ (DC 25)
+1/day—_ [binding](additionalMonsters/../spells/binding#_binding)_ (DC 25), _ [plane shift](additionalMonsters/../spells/planeShift#_plane-shift)_ (DC 24), _ [telekinetic sphere](additionalMonsters/../spells/telekineticSphere#_telekinetic-sphere)_ (DC 25), _ [temporal stasis](additionalMonsters/../spells/temporalStasis#_temporal-stasis)_ (DC 25)
 
 Statistics
 
@@ -522,13 +522,13 @@ Statistics
 
 **Base Atk** +20; **CMB** +29; **CMD** 55 (71 vs. trip)
 
-**Feats** [Combat Expertise](additionalMonsters/../feats.md#_combat-expertise), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Critical Focus](additionalMonsters/../feats.md#_critical-focus), [Greater Vital Strike](additionalMonsters/../feats.md#_greater-vital-strike), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (sting), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats.md#_quicken-spell-like-ability) (_ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_), [Staggering Critical](additionalMonsters/../feats.md#_staggering-critical), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
+**Feats** [Combat Expertise](additionalMonsters/../feats#_combat-expertise), [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Critical Focus](additionalMonsters/../feats#_critical-focus), [Greater Vital Strike](additionalMonsters/../feats#_greater-vital-strike), [Improved Critical](additionalMonsters/../feats#_improved-critical) (sting), [Improved Vital Strike](additionalMonsters/../feats#_improved-vital-strike), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats#_quicken-spell-like-ability) (_ [dimension door](additionalMonsters/../spells/dimensionDoor#_dimension-door)_), [Staggering Critical](additionalMonsters/../feats#_staggering-critical), [Vital Strike](additionalMonsters/../feats#_vital-strike)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +35 (+39 jump), [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +30, [Climb](additionalMonsters/../skills/climb.md#_climb) +36, [Fly](additionalMonsters/../skills/fly.md#_fly) +33, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +27, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +27, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (history) +30, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +30, [Perception](additionalMonsters/../skills/perception.md#_perception) +31, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +31, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +27, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +31, [Use Magic Device](additionalMonsters/../skills/useMagicDevice.md#_use-magic-device) +30
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +35 (+39 jump), [Bluff](additionalMonsters/../skills/bluff#_bluff) +30, [Climb](additionalMonsters/../skills/climb#_climb) +36, [Fly](additionalMonsters/../skills/fly#_fly) +33, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +27, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana) +27, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (history) +30, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +30, [Perception](additionalMonsters/../skills/perception#_perception) +31, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +31, [Spellcraft](additionalMonsters/../skills/spellcraft#_spellcraft) +27, [Stealth](additionalMonsters/../skills/stealth#_stealth) +31, [Use Magic Device](additionalMonsters/../skills/useMagicDevice#_use-magic-device) +30
 
 **Languages** Abyssal; telepathy 100 ft.
 
-**SQ** [demon](monsters/creatureTypes.md#_demon-subtype) hunter
+**SQ** [demon](monsters/creatureTypes#_demon-subtype) hunter
 
 Ecology
 
@@ -542,7 +542,7 @@ Special Abilities
 
 **Ability Drain (Su)** A thulgant's stingers each drain a different ability score on a hit. One stinger drains 1d4 points of Strength, another drains 1d4 points of Dexterity, and the third drains 1d4 points of Charisma. Any sting's drain is negated by a DC 29 Fortitude save. The save DC is Constitution-based.
 
-**[Demon](monsters/creatureTypes.md#_demon-subtype) Hunter (Ex)** A thulgant gains a +10 racial bonus on caster level checks to penetrate the spell [resistance](monsters/universalMonsterRules.md#_resistance) of any [demon](monsters/creatureTypes.md#_demon-subtype). Its attacks are treated as [cold](monsters/creatureTypes.md#_cold-subtype) iron and [good](monsters/creatureTypes.md#_good-subtype) against demons.
+**[Demon](monsters/creatureTypes#_demon-subtype) Hunter (Ex)** A thulgant gains a +10 racial bonus on caster level checks to penetrate the spell [resistance](monsters/universalMonsterRules#_resistance) of any [demon](monsters/creatureTypes#_demon-subtype). Its attacks are treated as [cold](monsters/creatureTypes#_cold-subtype) iron and [good](monsters/creatureTypes#_good-subtype) against demons.
 
 **Horrific Appearance (Su)** Creatures that succumb to a thulgant's horrific appearance are stunned for 1d4 rounds and take 1d6 points of Wisdom damage.
 
@@ -550,5 +550,5 @@ Special Abilities
 
 The dreaded thulgant is among the most dangerous of the qlippoth, for it supports an array of deadly and painful physical attacks with a wide range of potent magical powers. Born from the cannibalistic orgies of augnagar qlippoth, each thulgant exists for one purpose only—the eradication of all demons from the Abyss.
 
-Yet thulgants do not spend all of their lives hunting and destroying demons. They rule horrific hives deep in the Abyss populated by all manner of hideous minions, many of which are bound into servitude via _ [binding](additionalMonsters/../spells/binding.md#_binding)_ spells. These qlippoth are fond of decorating their lairs with petrified or enstasised victims of great power—the more powerful the victims, the greater the prestige held by the thulgant.
+Yet thulgants do not spend all of their lives hunting and destroying demons. They rule horrific hives deep in the Abyss populated by all manner of hideous minions, many of which are bound into servitude via _ [binding](additionalMonsters/../spells/binding#_binding)_ spells. These qlippoth are fond of decorating their lairs with petrified or enstasised victims of great power—the more powerful the victims, the greater the prestige held by the thulgant.
 

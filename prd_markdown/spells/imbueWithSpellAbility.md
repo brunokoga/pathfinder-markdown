@@ -12,9 +12,9 @@
 
 **Duration** permanent until discharged (D)
 
-**Saving Throw** [Will](../combat.md#_will) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless)
+**Saving Throw** [Will](../combat#_will) negates (harmless); **[Spell Resistance](../glossary#_spell-resistance)** yes (harmless)
 
-You transfer some of your currently prepared spells, and the ability to cast them, to another creature. Only a creature with an [Intelligence](../gettingStarted.md#_intelligence) score of at least 5 and a [Wisdom](../gettingStarted.md#_wisdom) score of at least 9 can receive this boon. Only cleric spells from the schools of abjuration, divination, and conjuration (healing) can be transferred. The number and level of spells that the subject can be granted depends on its Hit Dice; even multiple castings of _imbue with spell ability _can't exceed this limit.
+You transfer some of your currently prepared spells, and the ability to cast them, to another creature. Only a creature with an [Intelligence](../gettingStarted#_intelligence) score of at least 5 and a [Wisdom](../gettingStarted#_wisdom) score of at least 9 can receive this boon. Only cleric spells from the schools of abjuration, divination, and conjuration (healing) can be transferred. The number and level of spells that the subject can be granted depends on its Hit Dice; even multiple castings of _imbue with spell ability _can't exceed this limit.
 
 | HD of Recipient | Spells Imbued |
 | --- | --- |

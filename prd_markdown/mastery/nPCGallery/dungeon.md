@@ -10,7 +10,7 @@ Human expert 4
 
 N Medium humanoid
 
-**Init** –1; **Senses** [Perception](../../skills/perception.md#_perception) +8
+**Init** –1; **Senses** [Perception](../../skills/perception#_perception) +8
 
 **Defense**
 
@@ -32,17 +32,17 @@ N Medium humanoid
 
 **Base Atk** +3; **CMB** +2; **CMD** 11
 
-**Feats** [Catch Off-Guard](../../feats.md#_catch-off-guard), [Diehard](../../feats.md#_diehard), [Endurance](../../feats.md#_endurance)
+**Feats** [Catch Off-Guard](../../feats#_catch-off-guard), [Diehard](../../feats#_diehard), [Endurance](../../feats#_endurance)
 
-**Skills** [Craft](../../skills/craft.md#_craft) (choose one) +8, [Climb](../../skills/climb.md#_climb) +5, [Escape Artist](../../skills/escapeArtist.md#_escape-artist) +5, [Knowledge](../../skills/knowledge.md#_knowledge) (dungeoneering) +8, [Knowledge](../../skills/knowledge.md#_knowledge) (engineering) +8, [Perception](../../skills/perception.md#_perception) +8, [Profession](../../skills/profession.md#_profession) (choose one) +8, [Sleight of Hand](../../skills/sleightOfHand.md#_sleight-of-hand) +5, [Survival](../../skills/survival.md#_survival) +8, [Swim](../../skills/swim.md#_swim) +5
+**Skills** [Craft](../../skills/craft#_craft) (choose one) +8, [Climb](../../skills/climb#_climb) +5, [Escape Artist](../../skills/escapeArtist#_escape-artist) +5, [Knowledge](../../skills/knowledge#_knowledge) (dungeoneering) +8, [Knowledge](../../skills/knowledge#_knowledge) (engineering) +8, [Perception](../../skills/perception#_perception) +8, [Profession](../../skills/profession#_profession) (choose one) +8, [Sleight of Hand](../../skills/sleightOfHand#_sleight-of-hand) +5, [Survival](../../skills/survival#_survival) +8, [Swim](../../skills/swim#_swim) +5
 
 **Languages** Aklo, Common
 
-**Boon** A prisoner can impart secrets of a prison they have inhabited, granting a +2 circumstance bonus on [Perception](../../skills/perception.md#_perception), [Survival](../../skills/survival.md#_survival), and [Knowledge](../../skills/knowledge.md#_knowledge) (dungeoneering or engineering) checks within that prison. A prisoner can also draw a map of a prison, or might have information about other prisoners or know which guards are corrupt.
+**Boon** A prisoner can impart secrets of a prison they have inhabited, granting a +2 circumstance bonus on [Perception](../../skills/perception#_perception), [Survival](../../skills/survival#_survival), and [Knowledge](../../skills/knowledge#_knowledge) (dungeoneering or engineering) checks within that prison. A prisoner can also draw a map of a prison, or might have information about other prisoners or know which guards are corrupt.
 
 Prisoners are hapless wretches who have spent uncounted years locked away in the deepest cells. Battered and bruised, their minds assaulted by the endless imprisonment and the mad ravings of weak-minded cellmates, prisoners endure through sheer force of will and the hope that one day they shall see their freedom. Prisoners may be found in town jails, large prisons, or underground dungeons, either as convicted criminals, political prisoners, or wretched captives.
 
-Prisoners can be used for escaped convicts, beggars, galley slaves, shipwreck survivors, escaped slaves, or similar outlaws or desperate folk. Giving a prisoner the [Throw Anything](../../feats.md#_throw-anything) feat makes a prisoner skilled with improvised melee and ranged weapons. Giving him a [Skill Focus](../../feats.md#_skill-focus) feat makes an expert being held prisoner for his skill or knowledge, perhaps someone the PCs are hired to rescue. Prisoners might have [Great Fortitude](../../feats.md#_great-fortitude), [Iron Will](../../feats.md#_iron-will), or [Lightning Reflexes](../../feats.md#_lightning-reflexes) to represent the hardships they have overcome.
+Prisoners can be used for escaped convicts, beggars, galley slaves, shipwreck survivors, escaped slaves, or similar outlaws or desperate folk. Giving a prisoner the [Throw Anything](../../feats#_throw-anything) feat makes a prisoner skilled with improvised melee and ranged weapons. Giving him a [Skill Focus](../../feats#_skill-focus) feat makes an expert being held prisoner for his skill or knowledge, perhaps someone the PCs are hired to rescue. Prisoners might have [Great Fortitude](../../feats#_great-fortitude), [Iron Will](../../feats#_iron-will), or [Lightning Reflexes](../../feats#_lightning-reflexes) to represent the hardships they have overcome.
 
 Prisoners may be found alone or in a work gang of a half-dozen under the watchful eye of a slaver (CR 6). Five prisoners can serve as the crazed flock of a cultist (CR 7). A dozen prisoners outfitted with pitchforks and other farm implements makes an angry peasant mob (CR 9).
 
@@ -54,7 +54,7 @@ Human warrior 5
 
 N Medium humanoid
 
-**Init** +0; **Senses** [Perception](../../skills/perception.md#_perception) +4
+**Init** +0; **Senses** [Perception](../../skills/perception#_perception) +4
 
 **Defense**
 
@@ -78,9 +78,9 @@ N Medium humanoid
 
 **Base Atk** +5; **CMB** +8 (+10 bull rush); **CMD** 18 (20 vs. bull rush)
 
-**Feats** [Alertness](../../feats.md#_alertness), [Improved Bull Rush](../../feats.md#_improved-bull-rush), [Intimidating Prowess](../../feats.md#_intimidating-prowess), [Power Attack](../../feats.md#_power-attack)
+**Feats** [Alertness](../../feats#_alertness), [Improved Bull Rush](../../feats#_improved-bull-rush), [Intimidating Prowess](../../feats#_intimidating-prowess), [Power Attack](../../feats#_power-attack)
 
-**Skills** [Intimidate](../../skills/intimidate.md#_intimidate) +10, [Perception](../../skills/perception.md#_perception) +4, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +4
+**Skills** [Intimidate](../../skills/intimidate#_intimidate) +10, [Perception](../../skills/perception#_perception) +4, [Sense Motive](../../skills/senseMotive#_sense-motive) +4
 
 **Languages** Common
 
@@ -92,7 +92,7 @@ Turnkeys are jailers and wardens, walking through prison halls and keeping the i
 
 Turnkeys can also be used as armed porters, gate guards, or well-armored warehouse guards. In non-good cities, turnkeys might be used as thuggish city guards or brute squads.
 
-Changing a turnkey's feats creates a variety of different NPCs. A turnkey with [Skill Focus](../../feats.md#_skill-focus) ( [Sense Motive](../../skills/senseMotive.md#_sense-motive)) instead of [Improved Bull Rush](../../feats.md#_improved-bull-rush) is an even more canny judge of character, while [Skill Focus](../../feats.md#_skill-focus) ( [Intimidate](../../skills/intimidate.md#_intimidate)) creates an even scarier jailer. Replacing [Improved Bull Rush](../../feats.md#_improved-bull-rush) with [Improved Overrun](../../feats.md#_improved-overrun) or [Improved Sunder](../../feats.md#_improved-sunder) gives turnkeys alternate combat maneuvers to use. The [Blind-Fight](../../feats.md#_blind-fight) feat allows turnkeys to operate more effectively in dark dungeons, and [Combat Reflexes](../../feats.md#_combat-reflexes) combined with [Stand Still](../../feats.md#_stand-still) makes turnkeys almost impossible for escaped prisoners to slip by.
+Changing a turnkey's feats creates a variety of different NPCs. A turnkey with [Skill Focus](../../feats#_skill-focus) ( [Sense Motive](../../skills/senseMotive#_sense-motive)) instead of [Improved Bull Rush](../../feats#_improved-bull-rush) is an even more canny judge of character, while [Skill Focus](../../feats#_skill-focus) ( [Intimidate](../../skills/intimidate#_intimidate)) creates an even scarier jailer. Replacing [Improved Bull Rush](../../feats#_improved-bull-rush) with [Improved Overrun](../../feats#_improved-overrun) or [Improved Sunder](../../feats#_improved-sunder) gives turnkeys alternate combat maneuvers to use. The [Blind-Fight](../../feats#_blind-fight) feat allows turnkeys to operate more effectively in dark dungeons, and [Combat Reflexes](../../feats#_combat-reflexes) combined with [Stand Still](../../feats#_stand-still) makes turnkeys almost impossible for escaped prisoners to slip by.
 
 A turnkey will usually have a pair of guards to assist in his patrols (CR 5), or four guards in particularly dangerous prisons (CR 6). Four turnkeys might be found together in a well-staffed guardroom (CR 7). A slaver might be accompanied by two turnkey guards (CR 6), and a torturer often has two turnkeys as guards for her charges (CR 7).
 
@@ -104,7 +104,7 @@ Human expert 5/fighter 2
 
 NE Medium humanoid
 
-**Init** +1; **Senses** [Perception](../../skills/perception.md#_perception) +11
+**Init** +1; **Senses** [Perception](../../skills/perception#_perception) +11
 
 **Defense**
 
@@ -120,7 +120,7 @@ NE Medium humanoid
 
 **Speed** 20 ft.
 
-**Melee** _+1 heavy flail_ +10 (1d10+7/19–20) or unarmed strike +9 (1d3+4 plus [Scorpion Style](../../feats.md#_scorpion-style)) or mwk whip +10 (1d3+4 nonlethal)
+**Melee** _+1 heavy flail_ +10 (1d10+7/19–20) or unarmed strike +9 (1d3+4 plus [Scorpion Style](../../feats#_scorpion-style)) or mwk whip +10 (1d3+4 nonlethal)
 
 **Reach** 5 ft. (15 ft. with whip)
 
@@ -130,13 +130,13 @@ NE Medium humanoid
 
 **Base Atk** +5; **CMB** +9 (+11 grapple); **CMD** 20 (22 vs. grapple)
 
-**Feats** [Exotic Weapon Proficiency](../../feats.md#_exotic-weapon-proficiency) (whip), [Improved Grapple](../../feats.md#_improved-grapple), [Improved Unarmed Strike](../../feats.md#_improved-unarmed-strike), [Intimidating Prowess](../../feats.md#_intimidating-prowess), [Persuasive](../../feats.md#_persuasive), [Scorpion Style](../../feats.md#_scorpion-style), [Skill Focus](../../feats.md#_skill-focus) ( [Profession](../../skills/profession.md#_profession) [torturer])
+**Feats** [Exotic Weapon Proficiency](../../feats#_exotic-weapon-proficiency) (whip), [Improved Grapple](../../feats#_improved-grapple), [Improved Unarmed Strike](../../feats#_improved-unarmed-strike), [Intimidating Prowess](../../feats#_intimidating-prowess), [Persuasive](../../feats#_persuasive), [Scorpion Style](../../feats#_scorpion-style), [Skill Focus](../../feats#_skill-focus) ( [Profession](../../skills/profession#_profession) [torturer])
 
-**Skills** [Craft](../../skills/craft.md#_craft) (traps) +4, [Diplomacy](../../skills/diplomacy.md#_diplomacy) +6, [Heal](../../skills/heal.md#_heal) +6, [Intimidate](../../skills/intimidate.md#_intimidate) +16, [Knowledge](../../skills/knowledge.md#_knowledge) (dungeoneering) +3, [Perception](../../skills/perception.md#_perception) +11, [Profession](../../skills/profession.md#_profession) (torturer) +19, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +11
+**Skills** [Craft](../../skills/craft#_craft) (traps) +4, [Diplomacy](../../skills/diplomacy#_diplomacy) +6, [Heal](../../skills/heal#_heal) +6, [Intimidate](../../skills/intimidate#_intimidate) +16, [Knowledge](../../skills/knowledge#_knowledge) (dungeoneering) +3, [Perception](../../skills/perception#_perception) +11, [Profession](../../skills/profession#_profession) (torturer) +19, [Sense Motive](../../skills/senseMotive#_sense-motive) +11
 
 **Languages** Common
 
-**Combat Gear** vials of acid (2), alchemist's fire (2), greenblood oil (2 doses), tanglefoot bags (2); **Other Gear** _+1 banded mail_, _+1 heavy flail_, masterwork whip, masterwork torturer's tools (+5 competence bonus on [Profession](../../skills/profession.md#_profession) [torturer] checks)
+**Combat Gear** vials of acid (2), alchemist's fire (2), greenblood oil (2 doses), tanglefoot bags (2); **Other Gear** _+1 banded mail_, _+1 heavy flail_, masterwork whip, masterwork torturer's tools (+5 competence bonus on [Profession](../../skills/profession#_profession) [torturer] checks)
 
 **Boon** A torturer can question an individual delivered by the PCs, arrange for an NPC of up to 6th level to be detained for 24 hours, or release an individual from the torture chambers.
 

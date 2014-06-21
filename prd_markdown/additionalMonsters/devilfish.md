@@ -6,9 +6,9 @@ This purple, seven-armed octopoid monstrosity is the size of a horse, with hook-
 
 **XP 1,200**
 
-NE Large [magical beast](monsters/creatureTypes.md#_magical-beast) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype))
+NE Large [magical beast](monsters/creatureTypes#_magical-beast) ( [aquatic](monsters/creatureTypes#_aquatic-subtype))
 
-**Init** +3; **Senses** low-light vision, [see in darkness](monsters/universalMonsterRules.md#_see-in-darkness); [Perception](additionalMonsters/../skills/perception.md#_perception) +5
+**Init** +3; **Senses** low-light vision, [see in darkness](monsters/universalMonsterRules#_see-in-darkness); [Perception](additionalMonsters/../skills/perception#_perception) +5
 
 Defense
 
@@ -18,17 +18,17 @@ Defense
 
 **Fort** +7, **Ref** +7, **Will** +2
 
-**Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10
+**Resist** [cold](monsters/creatureTypes#_cold-subtype) 10
 
 Offense
 
-**Speed** 10 ft., swim 40 ft.; [jet](monsters/universalMonsterRules.md#_jet) (240 ft.)
+**Speed** 10 ft., swim 40 ft.; [jet](monsters/universalMonsterRules#_jet) (240 ft.)
 
-**Melee** tentacles +7 (3d6+4 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** tentacles +7 (3d6+4 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 15 ft.
 
-**Special Attacks** savage bite (+7 melee, 2d6+4/18–20 plus [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su))), unholy blood
+**Special Attacks** savage bite (+7 melee, 2d6+4/18–20 plus [poison](monsters/universalMonsterRules#_poison-(ex-or-su))), unholy blood
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +9 (+13 grapple); **CMD** 22 (can't be tripped)
 
-**Feats** [Cleave](additionalMonsters/../feats.md#_cleave), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack)
+**Feats** [Cleave](additionalMonsters/../feats#_cleave), [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Power Attack](additionalMonsters/../feats#_power-attack)
 
-**Skills** [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +5, [Perception](additionalMonsters/../skills/perception.md#_perception) +5, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +3, [Swim](additionalMonsters/../skills/swim.md#_swim) +15
+**Skills** [Escape Artist](additionalMonsters/../skills/escapeArtist#_escape-artist) +5, [Perception](additionalMonsters/../skills/perception#_perception) +5, [Stealth](additionalMonsters/../skills/stealth#_stealth) +3, [Swim](additionalMonsters/../skills/swim#_swim) +15
 
 **Languages** Abyssal, Aquan, Common
 
@@ -46,7 +46,7 @@ Statistics
 
 Ecology
 
-**Environment** any [aquatic](monsters/creatureTypes.md#_aquatic-subtype)
+**Environment** any [aquatic](monsters/creatureTypes#_aquatic-subtype)
 
 **Organization** solitary
 
@@ -54,9 +54,9 @@ Ecology
 
 Special Abilities
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Ex)** Savage bite—injury; _save_ Fort DC 15; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Str; _cure_ 2 consecutive saves.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (Ex)** Savage bite—injury; _save_ Fort DC 15; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Str; _cure_ 2 consecutive saves.
 
-**Savage Bite (Ex)** A devilfish can attack with its savage bite whenever it makes a successful grapple check. This attack is in place of any other action made with a successful grapple check. The bite threatens a critical hit on a roll of 18–20, and injects the target with [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) as well.
+**Savage Bite (Ex)** A devilfish can attack with its savage bite whenever it makes a successful grapple check. This attack is in place of any other action made with a successful grapple check. The bite threatens a critical hit on a roll of 18–20, and injects the target with [poison](monsters/universalMonsterRules#_poison-(ex-or-su)) as well.
 
 **Unholy Blood (Su)** A devilfish's blood is infused with fiendish magic. Once per day, as a swift action, a devilfish can emit a night-black cloud of this foul liquid, filling a 20-foot-radius cloud if underwater, or a 20-foot-radius burst on land. In water, the blood provides total concealment for everything but a devilfish (which can see through the blood with ease); on land the slippery blood coats the ground, making the area difficult terrain. The blood persists for 1 minute before fading. Anyone who enters a cloud of the blood in the water or who is within the area of a burst of blood on land must make a DC 15 Fortitude save or be nauseated for 1d4 rounds—this save need be made only once per cloud. The save DC is Constitution-based.
 

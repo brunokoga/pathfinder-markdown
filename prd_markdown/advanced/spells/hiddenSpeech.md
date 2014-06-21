@@ -14,5 +14,5 @@
 
 **Saving Throw** Will negates (harmless); **Spell Resistance** yes
 
-You greatly enhance the ability of the subjects to communicate hidden messages to each other. Each target gains a +10 competence bonus on [Bluff](../../skills/bluff.md#_bluff) checks to send secret message to other recipients. Others using opposed [Sense Motive](../../skills/senseMotive.md#_sense-motive) checks to decipher these messages receive a –5 penalty. All subjects affected by the spell must share a language to be able to pass messages.
+You greatly enhance the ability of the subjects to communicate hidden messages to each other. Each target gains a +10 competence bonus on [Bluff](../../skills/bluff#_bluff) checks to send secret message to other recipients. Others using opposed [Sense Motive](../../skills/senseMotive#_sense-motive) checks to decipher these messages receive a –5 penalty. All subjects affected by the spell must share a language to be able to pass messages.
 

@@ -26,9 +26,9 @@ This immense worm is covered with plates of dead-black, chitinous armor. Its too
 
 **XP 153,600**
 
-CE Gargantuan [undead](monsters/creatureTypes.md#_undead) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [nightshade](monsters/creatureTypes.md#_nightshade-subtype))
+CE Gargantuan [undead](monsters/creatureTypes#_undead) ( [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [nightshade](monsters/creatureTypes#_nightshade-subtype))
 
-**Init** +4; **Senses** darksense, darkvision 120 ft., _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, low-light vision, tremorsense 120 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +33
+**Init** +4; **Senses** darksense, darkvision 120 ft., _ [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic)_, low-light vision, tremorsense 120 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +33
 
 **Aura** desecrating aura (30 ft.)
 
@@ -40,7 +40,7 @@ Defense
 
 **Fort** +16, **Ref** +10, **Will** +23
 
-**DR** 15/good and silver; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [undead](monsters/creatureTypes.md#_undead) traits; **SR** 29
+**DR** 15/good and silver; **Immune** [cold](monsters/creatureTypes#_cold-subtype), [undead](monsters/creatureTypes#_undead) traits; **SR** 29
 
 **Weaknesses** light aversion
 
@@ -48,7 +48,7 @@ Offense
 
 **Speed** 30 ft., burrow 60 ft.
 
-**Melee** bite +32 (4d10+18/19–20 plus 4d6 [cold](monsters/creatureTypes.md#_cold-subtype) and [grab](monsters/universalMonsterRules.md#_grab)), sting +32 (4d6+18/19–20 plus 4d6 [cold](monsters/creatureTypes.md#_cold-subtype) and [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)))
+**Melee** bite +32 (4d10+18/19–20 plus 4d6 [cold](monsters/creatureTypes#_cold-subtype) and [grab](monsters/universalMonsterRules#_grab)), sting +32 (4d6+18/19–20 plus 4d6 [cold](monsters/creatureTypes#_cold-subtype) and [poison](monsters/universalMonsterRules#_poison-(ex-or-su)))
 
 **Space** 20 ft.; **Reach** 20 ft.
 
@@ -56,13 +56,13 @@ Offense
 
 **Spell-Like Abilities** (CL 18th; concentration +24)
 
-Constant—_ [air walk](additionalMonsters/../spells/airWalk.md#_air-walk)_, _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [magic fang](additionalMonsters/../spells/magicFang.md#_magic-fang)_
+Constant—_ [air walk](additionalMonsters/../spells/airWalk#_air-walk)_, _ [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic)_, _ [magic fang](additionalMonsters/../spells/magicFang#_magic-fang)_
 
-At will—_ [contagion](additionalMonsters/../spells/contagion.md#_contagion)_ (DC 20), _ [deeper darkness](additionalMonsters/../spells/deeperDarkness.md#_deeper-darkness)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_, _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_, _ [unholy blight](additionalMonsters/../spells/unholyBlight.md#_unholy-blight)_ (DC 20)
+At will—_ [contagion](additionalMonsters/../spells/contagion#_contagion)_ (DC 20), _ [deeper darkness](additionalMonsters/../spells/deeperDarkness#_deeper-darkness)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic-greater)_, _ [invisibility](additionalMonsters/../spells/invisibility#_invisibility)_, _ [unholy blight](additionalMonsters/../spells/unholyBlight#_unholy-blight)_ (DC 20)
 
-3/day—quickened _ [cone of cold](additionalMonsters/../spells/coneOfCold.md#_cone-of-cold)_ (DC 21), _ [confusion](additionalMonsters/../spells/confusion.md#_confusion)_ (DC 20), _ [haste](additionalMonsters/../spells/haste.md#_haste)_, _ [hold monster](additionalMonsters/../spells/holdMonster.md#_hold-monster)_ (DC 21)
+3/day—quickened _ [cone of cold](additionalMonsters/../spells/coneOfCold#_cone-of-cold)_ (DC 21), _ [confusion](additionalMonsters/../spells/confusion#_confusion)_ (DC 20), _ [haste](additionalMonsters/../spells/haste#_haste)_, _ [hold monster](additionalMonsters/../spells/holdMonster#_hold-monster)_ (DC 21)
 
-1/day—_ [finger of death](additionalMonsters/../spells/fingerOfDeath.md#_finger-of-death)_ (DC 23), _ [mass hold monster](additionalMonsters/../spells/holdMonster.md#_hold-monster-mass)_ (DC 25), _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 23), summon (level 8, 6 greater shadows)
+1/day—_ [finger of death](additionalMonsters/../spells/fingerOfDeath#_finger-of-death)_ (DC 23), _ [mass hold monster](additionalMonsters/../spells/holdMonster#_hold-monster-mass)_ (DC 25), _ [plane shift](additionalMonsters/../spells/planeShift#_plane-shift)_ (DC 23), summon (level 8, 6 greater shadows)
 
 Statistics
 
@@ -70,9 +70,9 @@ Statistics
 
 **Base Atk** +18; **CMB** +37 (+41 grapple); **CMD** 47 (can't be tripped)
 
-**Feats** [Combat Expertise](additionalMonsters/../feats.md#_combat-expertise), [Command Undead](additionalMonsters/../feats.md#_command-undead), [Critical Focus](additionalMonsters/../feats.md#_critical-focus), [Greater Vital Strike](additionalMonsters/../feats.md#_greater-vital-strike), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (sting), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats.md#_quicken-spell-like-ability) (_ [cone of cold](additionalMonsters/../spells/coneOfCold.md#_cone-of-cold)_), [Staggering Critical](additionalMonsters/../feats.md#_staggering-critical), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
+**Feats** [Combat Expertise](additionalMonsters/../feats#_combat-expertise), [Command Undead](additionalMonsters/../feats#_command-undead), [Critical Focus](additionalMonsters/../feats#_critical-focus), [Greater Vital Strike](additionalMonsters/../feats#_greater-vital-strike), [Improved Critical](additionalMonsters/../feats#_improved-critical) (bite), [Improved Critical](additionalMonsters/../feats#_improved-critical) (sting), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats#_improved-vital-strike), [Iron Will](additionalMonsters/../feats#_iron-will), [Power Attack](additionalMonsters/../feats#_power-attack), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats#_quicken-spell-like-ability) (_ [cone of cold](additionalMonsters/../spells/coneOfCold#_cone-of-cold)_), [Staggering Critical](additionalMonsters/../feats#_staggering-critical), [Vital Strike](additionalMonsters/../feats#_vital-strike)
 
-**Skills** [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +34, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +33, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +30, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +33, [Perception](additionalMonsters/../skills/perception.md#_perception) +33, Sense Motive +33, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +33, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +16 (+24 in darkness), [Swim](additionalMonsters/../skills/swim.md#_swim) +40; **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in dim light and darkness
+**Skills** [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +34, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana) +33, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +30, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (religion) +33, [Perception](additionalMonsters/../skills/perception#_perception) +33, Sense Motive +33, [Spellcraft](additionalMonsters/../skills/spellcraft#_spellcraft) +33, [Stealth](additionalMonsters/../skills/stealth#_stealth) +16 (+24 in darkness), [Swim](additionalMonsters/../skills/swim#_swim) +40; **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth#_stealth) in dim light and darkness
 
 **Languages** Abyssal, Common, Infernal; telepathy 100 ft.
 
@@ -88,7 +88,7 @@ Special Abilities
 
 **Energy Drain (Su)** A creature that has been swallowed whole by a nightcrawler gains 1 negative level each round.
 
-**[Poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)) (Su)** Sting—injury; _save_ Fort DC 28; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Constitution drain and 1 negative level; _cure_ 3 consecutive saves. The save DC is Charisma-based.
+**[Poison](monsters/universalMonsterRules#_poison-(ex-or-su)) (Su)** Sting—injury; _save_ Fort DC 28; _frequency_ 1/round for 6 rounds; _effect_ 1d4 Constitution drain and 1 negative level; _cure_ 3 consecutive saves. The save DC is Charisma-based.
 
 Although the nightcrawler might appear to be little more than an immense and frightening vermin, with its centipede-like body and numerous glowing eyes, it is actually incredibly intelligent. When not cleansing the deep caverns of life, the nightcrawler spends its time plotting how best to carry out its own private stages of the overall nightshade plan to expunge life from all worlds, conferring with its undead minions and, when necessary, observing living creatures from afar while invisible to learn about hidden enclaves that its depredations might otherwise have missed.
 
@@ -104,9 +104,9 @@ This towering, night-black giant has demonic features, including a huge pair of 
 
 **XP 76,800**
 
-CE Huge [undead](monsters/creatureTypes.md#_undead) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [nightshade](monsters/creatureTypes.md#_nightshade-subtype))
+CE Huge [undead](monsters/creatureTypes#_undead) ( [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [nightshade](monsters/creatureTypes#_nightshade-subtype))
 
-**Init** +2; **Senses** darksense, darkvision 60 ft., _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +29
+**Init** +2; **Senses** darksense, darkvision 60 ft., _ [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic)_, low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +29
 
 **Aura** desecrating aura (30 ft.)
 
@@ -118,7 +118,7 @@ Defense
 
 **Fort** +14, **Ref** +11, **Will** +19
 
-**DR** 15/good and silver; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [undead](monsters/creatureTypes.md#_undead) traits; **SR** 27
+**DR** 15/good and silver; **Immune** [cold](monsters/creatureTypes#_cold-subtype), [undead](monsters/creatureTypes#_undead) traits; **SR** 27
 
 **Weaknesses** light aversion
 
@@ -126,21 +126,21 @@ Offense
 
 **Speed** 40 ft.
 
-**Melee** 2 claws +28 (3d6+15/19–20 plus 4d6 [cold](monsters/creatureTypes.md#_cold-subtype))
+**Melee** 2 claws +28 (3d6+15/19–20 plus 4d6 [cold](monsters/creatureTypes#_cold-subtype))
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**Special Attacks** channel energy (8d6, DC 29, 8/day), [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) [gaze](monsters/universalMonsterRules.md#_gaze), swift sundering
+**Special Attacks** channel energy (8d6, DC 29, 8/day), [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) [gaze](monsters/universalMonsterRules#_gaze), swift sundering
 
 **Spell-Like Abilities** (CL 16th; concentration +21)
 
-Constant—_ [air walk](additionalMonsters/../spells/airWalk.md#_air-walk)_, _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [magic fang](additionalMonsters/../spells/magicFang.md#_magic-fang)_
+Constant—_ [air walk](additionalMonsters/../spells/airWalk#_air-walk)_, _ [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic)_, _ [magic fang](additionalMonsters/../spells/magicFang#_magic-fang)_
 
-At will—_ [contagion](additionalMonsters/../spells/contagion.md#_contagion)_ (DC 19), _ [deeper darkness](additionalMonsters/../spells/deeperDarkness.md#_deeper-darkness)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_, _ [unholy blight](additionalMonsters/../spells/unholyBlight.md#_unholy-blight)_ (DC 19)
+At will—_ [contagion](additionalMonsters/../spells/contagion#_contagion)_ (DC 19), _ [deeper darkness](additionalMonsters/../spells/deeperDarkness#_deeper-darkness)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic-greater)_, _ [unholy blight](additionalMonsters/../spells/unholyBlight#_unholy-blight)_ (DC 19)
 
-3/day—_ [confusion](additionalMonsters/../spells/confusion.md#_confusion)_ (DC 19), _ [haste](additionalMonsters/../spells/haste.md#_haste)_, _ [hold monster](additionalMonsters/../spells/holdMonster.md#_hold-monster)_ (DC 20), _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility), _quickened_ [unholy blight](additionalMonsters/../spells/unholyBlight.md#_unholy-blight)_ (DC 19)
+3/day—_ [confusion](additionalMonsters/../spells/confusion#_confusion)_ (DC 19), _ [haste](additionalMonsters/../spells/haste#_haste)_, _ [hold monster](additionalMonsters/../spells/holdMonster#_hold-monster)_ (DC 20), _ [invisibility](additionalMonsters/../spells/invisibility#_invisibility), _quickened_ [unholy blight](additionalMonsters/../spells/unholyBlight#_unholy-blight)_ (DC 19)
 
-1/day—_ [cone of cold](additionalMonsters/../spells/coneOfCold.md#_cone-of-cold)_ (DC 20), _ [finger of death](additionalMonsters/../spells/fingerOfDeath.md#_finger-of-death)_ (DC 22), _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 22), summon (level 7, 4 greater shadows)
+1/day—_ [cone of cold](additionalMonsters/../spells/coneOfCold#_cone-of-cold)_ (DC 20), _ [finger of death](additionalMonsters/../spells/fingerOfDeath#_finger-of-death)_ (DC 22), _ [plane shift](additionalMonsters/../spells/planeShift#_plane-shift)_ (DC 22), summon (level 7, 4 greater shadows)
 
 Statistics
 
@@ -148,9 +148,9 @@ Statistics
 
 **Base Atk** +15; **CMB** +29; **CMD** 41
 
-**Feats** [Combat Expertise](additionalMonsters/../feats.md#_combat-expertise), [Command Undead](additionalMonsters/../feats.md#_command-undead), [Greater Sunder](additionalMonsters/../feats.md#_greater-sunder), [Greater Vital Strike](additionalMonsters/../feats.md#_greater-vital-strike), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (claws), [Improved Disarm](additionalMonsters/../feats.md#_improved-disarm), [Improved Sunder](additionalMonsters/../feats.md#_improved-sunder), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats.md#_quicken-spell-like-ability) (_ [unholy blight](additionalMonsters/../spells/unholyBlight.md#_unholy-blight)_), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
+**Feats** [Combat Expertise](additionalMonsters/../feats#_combat-expertise), [Command Undead](additionalMonsters/../feats#_command-undead), [Greater Sunder](additionalMonsters/../feats#_greater-sunder), [Greater Vital Strike](additionalMonsters/../feats#_greater-vital-strike), [Improved Critical](additionalMonsters/../feats#_improved-critical) (claws), [Improved Disarm](additionalMonsters/../feats#_improved-disarm), [Improved Sunder](additionalMonsters/../feats#_improved-sunder), [Improved Vital Strike](additionalMonsters/../feats#_improved-vital-strike), [Power Attack](additionalMonsters/../feats#_power-attack), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats#_quicken-spell-like-ability) (_ [unholy blight](additionalMonsters/../spells/unholyBlight#_unholy-blight)_), [Vital Strike](additionalMonsters/../feats#_vital-strike)
 
-**Skills** [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +29, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +29, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +26, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +29, [Perception](additionalMonsters/../skills/perception.md#_perception) +29, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +29, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +29, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +18 (+26 in darkness), [Swim](additionalMonsters/../skills/swim.md#_swim) +33; **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in dim light and darkness
+**Skills** [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +29, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana) +29, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +26, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (religion) +29, [Perception](additionalMonsters/../skills/perception#_perception) +29, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +29, [Spellcraft](additionalMonsters/../skills/spellcraft#_spellcraft) +29, [Stealth](additionalMonsters/../skills/stealth#_stealth) +18 (+26 in darkness), [Swim](additionalMonsters/../skills/swim#_swim) +33; **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth#_stealth) in dim light and darkness
 
 **Languages** Abyssal, Common, Infernal; telepathy 100 ft.
 
@@ -164,7 +164,7 @@ Ecology
 
 Special Abilities
 
-**[Fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) [Gaze](monsters/universalMonsterRules.md#_gaze) (Su)** Cower in [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) for 1 round, 30 feet, Will DC 25 negates. This is a mind-affecting [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) effect. The save DC is Charisma-based.
+**[Fear](monsters/universalMonsterRules#_fear-(su-or-sp)) [Gaze](monsters/universalMonsterRules#_gaze) (Su)** Cower in [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) for 1 round, 30 feet, Will DC 25 negates. This is a mind-affecting [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) effect. The save DC is Charisma-based.
 
 **Swift Sundering (Su)** A nightwalker can make a sunder attempt as a swift action with one of its claws.
 
@@ -182,9 +182,9 @@ Immense almost beyond belief, this sleek, midnight-black shark rises from the se
 
 **XP 307,200**
 
-CE Colossal [undead](monsters/creatureTypes.md#_undead) ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [nightshade](monsters/creatureTypes.md#_nightshade-subtype))
+CE Colossal [undead](monsters/creatureTypes#_undead) ( [aquatic](monsters/creatureTypes#_aquatic-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [nightshade](monsters/creatureTypes#_nightshade-subtype))
 
-**Init** +7; **Senses** darksense, darkvision 120 ft., _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +37
+**Init** +7; **Senses** darksense, darkvision 120 ft., _ [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic)_, low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +37
 
 **Aura** blackest depths (60 ft.), desecrating aura (30 ft.)
 
@@ -196,7 +196,7 @@ Defense
 
 **Fort** +18, **Ref** +16, **Will** +25
 
-**DR** 15/good and silver; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [undead](monsters/creatureTypes.md#_undead) traits; **SR** 29
+**DR** 15/good and silver; **Immune** [cold](monsters/creatureTypes#_cold-subtype), [undead](monsters/creatureTypes#_undead) traits; **SR** 29
 
 **Weaknesses** light aversion
 
@@ -204,7 +204,7 @@ Offense
 
 **Speed** fly 60 ft. (good), swim 60 ft.
 
-**Melee** bite +35 (5d10+22/19–20 plus 4d6 [cold](monsters/creatureTypes.md#_cold-subtype), energy drain, and [grab](monsters/universalMonsterRules.md#_grab)), tail slap +30 (4d8+12/19–20 plus 4d6 [cold](monsters/creatureTypes.md#_cold-subtype))
+**Melee** bite +35 (5d10+22/19–20 plus 4d6 [cold](monsters/creatureTypes#_cold-subtype), energy drain, and [grab](monsters/universalMonsterRules#_grab)), tail slap +30 (4d8+12/19–20 plus 4d6 [cold](monsters/creatureTypes#_cold-subtype))
 
 **Space** 30 ft.; **Reach** 30 ft.
 
@@ -212,13 +212,13 @@ Offense
 
 **Spell-Like Abilities** (CL 20th; concentration +27)
 
-Constant—_ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [magic fang](additionalMonsters/../spells/magicFang.md#_magic-fang)_, _ [see invisibility](additionalMonsters/../spells/seeInvisibility.md#_see-invisibility)_
+Constant—_ [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic)_, _ [magic fang](additionalMonsters/../spells/magicFang#_magic-fang)_, _ [see invisibility](additionalMonsters/../spells/seeInvisibility#_see-invisibility)_
 
-At will—_ [confusion](additionalMonsters/../spells/confusion.md#_confusion)_ (DC 21), _ [contagion](additionalMonsters/../spells/contagion.md#_contagion)_ (DC 21), _ [deeper darkness](additionalMonsters/../spells/deeperDarkness.md#_deeper-darkness)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_, _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_, _ [unholy blight](additionalMonsters/../spells/unholyBlight.md#_unholy-blight)_ (DC 21)
+At will—_ [confusion](additionalMonsters/../spells/confusion#_confusion)_ (DC 21), _ [contagion](additionalMonsters/../spells/contagion#_contagion)_ (DC 21), _ [deeper darkness](additionalMonsters/../spells/deeperDarkness#_deeper-darkness)_, _ [greater dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic-greater)_, _ [invisibility](additionalMonsters/../spells/invisibility#_invisibility)_, _ [unholy blight](additionalMonsters/../spells/unholyBlight#_unholy-blight)_ (DC 21)
 
-3/day—quickened _ [cone of cold](additionalMonsters/../spells/coneOfCold.md#_cone-of-cold)_ (DC 22), _ [finger of death](additionalMonsters/../spells/fingerOfDeath.md#_finger-of-death) _(DC 24), _ [haste](additionalMonsters/../spells/haste.md#_haste)_, _ [hold monster](additionalMonsters/../spells/holdMonster.md#_hold-monster)_ (DC 22)
+3/day—quickened _ [cone of cold](additionalMonsters/../spells/coneOfCold#_cone-of-cold)_ (DC 22), _ [finger of death](additionalMonsters/../spells/fingerOfDeath#_finger-of-death) _(DC 24), _ [haste](additionalMonsters/../spells/haste#_haste)_, _ [hold monster](additionalMonsters/../spells/holdMonster#_hold-monster)_ (DC 22)
 
-1/day—_ [mass hold monster](additionalMonsters/../spells/holdMonster.md#_hold-monster-mass)_ (DC 26), _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 24), summon (level 9, 1 nightwing), _ [wail of the banshee](additionalMonsters/../spells/wailOfTheBanshee.md#_wail-of-the-banshee)_ (DC 26)
+1/day—_ [mass hold monster](additionalMonsters/../spells/holdMonster#_hold-monster-mass)_ (DC 26), _ [plane shift](additionalMonsters/../spells/planeShift#_plane-shift)_ (DC 24), summon (level 9, 1 nightwing), _ [wail of the banshee](additionalMonsters/../spells/wailOfTheBanshee#_wail-of-the-banshee)_ (DC 26)
 
 Statistics
 
@@ -226,9 +226,9 @@ Statistics
 
 **Base Atk** +21; **CMB** +48 (+52 grapple); **CMD** 61 (can't be tripped)
 
-**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Command Undead](additionalMonsters/../feats.md#_command-undead), [Critical Focus](additionalMonsters/../feats.md#_critical-focus), [Greater Vital Strike](additionalMonsters/../feats.md#_greater-vital-strike), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite, tail slap), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats.md#_quicken-spell-like-ability) (_ [cone of cold](additionalMonsters/../spells/coneOfCold.md#_cone-of-cold)_), [Staggering Critical](additionalMonsters/../feats.md#_staggering-critical), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
+**Feats** [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Command Undead](additionalMonsters/../feats#_command-undead), [Critical Focus](additionalMonsters/../feats#_critical-focus), [Greater Vital Strike](additionalMonsters/../feats#_greater-vital-strike), [Improved Bull Rush](additionalMonsters/../feats#_improved-bull-rush), [Improved Critical](additionalMonsters/../feats#_improved-critical) (bite, tail slap), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Improved Vital Strike](additionalMonsters/../feats#_improved-vital-strike), [Iron Will](additionalMonsters/../feats#_iron-will), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Power Attack](additionalMonsters/../feats#_power-attack), [Quicken Spell-Like Ability](additionalMonsters/../monsters/monsterFeats#_quicken-spell-like-ability) (_ [cone of cold](additionalMonsters/../spells/coneOfCold#_cone-of-cold)_), [Staggering Critical](additionalMonsters/../feats#_staggering-critical), [Vital Strike](additionalMonsters/../feats#_vital-strike)
 
-**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +31, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +39, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +38, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +35, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +38, [Perception](additionalMonsters/../skills/perception.md#_perception) +37, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +37, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +38, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +19 (+27 in darkness), [Swim](additionalMonsters/../skills/swim.md#_swim) +59; **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in dim light and darkness
+**Skills** [Fly](additionalMonsters/../skills/fly#_fly) +31, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +39, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana) +38, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +35, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (religion) +38, [Perception](additionalMonsters/../skills/perception#_perception) +37, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +37, [Spellcraft](additionalMonsters/../skills/spellcraft#_spellcraft) +38, [Stealth](additionalMonsters/../skills/stealth#_stealth) +19 (+27 in darkness), [Swim](additionalMonsters/../skills/swim#_swim) +59; **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth#_stealth) in dim light and darkness
 
 **Languages** Abyssal, Common, Infernal; telepathy 100 ft.
 
@@ -242,11 +242,11 @@ Ecology
 
 Special Abilities
 
-**Blackest Depths (Su)** The waters in which a nightwave swims become as chill, dark, and heavy as those in the ocean_'_s deepest reaches. All waters within 60 feet are completely dark (as _ [deeper darkness](additionalMonsters/../spells/deeperDarkness.md#_deeper-darkness)_), and creatures within this radius take 6d6 points of damage (half [cold](monsters/creatureTypes.md#_cold-subtype), half bludgeoning) at the end of their turn each round if they remain in the area at this time. A DC 31 Fortitude save negates the crushing damage. [Incorporeal](monsters/creatureTypes.md#_incorporeal-subtype) creatures and creatures with the [aquatic](monsters/creatureTypes.md#_aquatic-subtype) or water subtypes [native](monsters/creatureTypes.md#_native-subtype) to deep waters do not take this damage, and _ [freedom of movement](additionalMonsters/../spells/freedomOfMovement.md#_freedom-of-movement)_ protects completely against the damage. Any magical light effect within this radius at the beginning of the nightwave_'_s turn is dispelled (treat as _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_). This effect does not extend out of the water. The save DC is Charisma-based.
+**Blackest Depths (Su)** The waters in which a nightwave swims become as chill, dark, and heavy as those in the ocean_'_s deepest reaches. All waters within 60 feet are completely dark (as _ [deeper darkness](additionalMonsters/../spells/deeperDarkness#_deeper-darkness)_), and creatures within this radius take 6d6 points of damage (half [cold](monsters/creatureTypes#_cold-subtype), half bludgeoning) at the end of their turn each round if they remain in the area at this time. A DC 31 Fortitude save negates the crushing damage. [Incorporeal](monsters/creatureTypes#_incorporeal-subtype) creatures and creatures with the [aquatic](monsters/creatureTypes#_aquatic-subtype) or water subtypes [native](monsters/creatureTypes#_native-subtype) to deep waters do not take this damage, and _ [freedom of movement](additionalMonsters/../spells/freedomOfMovement#_freedom-of-movement)_ protects completely against the damage. Any magical light effect within this radius at the beginning of the nightwave_'_s turn is dispelled (treat as _ [greater dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic-greater)_). This effect does not extend out of the water. The save DC is Charisma-based.
 
 **Energy Drain (Su)** A creature that has been swallowed whole by a nightwave gains 2 negative levels each round.
 
-The most powerful of the known types of nightshade is the ravenous nightwave, an unholy personification of the remorseless gluttony of death given the form of a shark the size of the largest whales. Although the nightwave is most at home in the ocean's deeps, it has no need to breathe, and its constant _ [fly](additionalMonsters/../spells/fly.md)_ spell-like ability allows it to bring ruin above the waves as the need presents itself.
+The most powerful of the known types of nightshade is the ravenous nightwave, an unholy personification of the remorseless gluttony of death given the form of a shark the size of the largest whales. Although the nightwave is most at home in the ocean's deeps, it has no need to breathe, and its constant _ [fly](additionalMonsters/../spells/fly)_ spell-like ability allows it to bring ruin above the waves as the need presents itself.
 
 A nightwave is 100 feet long and weighs 200 tons.
 
@@ -258,9 +258,9 @@ This enormous, bat-like creature is shaped from utter darkness, its eyes tiny re
 
 **XP 38,400**
 
-CE Huge [undead](monsters/creatureTypes.md#_undead) ( [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [nightshade](monsters/creatureTypes.md#_nightshade-subtype))
+CE Huge [undead](monsters/creatureTypes#_undead) ( [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [nightshade](monsters/creatureTypes#_nightshade-subtype))
 
-**Init** +8; **Senses** darksense, darkvision 60 ft., _ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +25
+**Init** +8; **Senses** darksense, darkvision 60 ft., _ [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic)_, low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +25
 
 **Aura** desecrating aura (30 ft.)
 
@@ -272,7 +272,7 @@ Defense
 
 **Fort** +12, **Ref** +11, **Will** +17
 
-**DR** 15/good and silver; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [undead](monsters/creatureTypes.md#_undead) traits; **SR** 25
+**DR** 15/good and silver; **Immune** [cold](monsters/creatureTypes#_cold-subtype), [undead](monsters/creatureTypes#_undead) traits; **SR** 25
 
 **Weaknesses** light aversion
 
@@ -280,7 +280,7 @@ Offense
 
 **Speed** 30 ft., fly 60 ft. (good)
 
-**Melee** bite +23 (4d10+18/19–20 plus 4d6 [cold](monsters/creatureTypes.md#_cold-subtype) and magic drain)
+**Melee** bite +23 (4d10+18/19–20 plus 4d6 [cold](monsters/creatureTypes#_cold-subtype) and magic drain)
 
 **Space** 15 ft.; **Reach** 15 ft.
 
@@ -288,13 +288,13 @@ Offense
 
 **Spell-Like Abilities** (CL 14th; concentration +19)
 
-Constant—_ [detect magic](additionalMonsters/../spells/detectMagic.md#_detect-magic)_, _ [magic fang](additionalMonsters/../spells/magicFang.md#_magic-fang)_
+Constant—_ [detect magic](additionalMonsters/../spells/detectMagic#_detect-magic)_, _ [magic fang](additionalMonsters/../spells/magicFang#_magic-fang)_
 
-At will—_ [contagion](additionalMonsters/../spells/contagion.md#_contagion)_ (DC 19), _ [deeper darkness](additionalMonsters/../spells/deeperDarkness.md#_deeper-darkness)_, _ [unholy blight](additionalMonsters/../spells/unholyBlight.md#_unholy-blight)_ (DC 19)
+At will—_ [contagion](additionalMonsters/../spells/contagion#_contagion)_ (DC 19), _ [deeper darkness](additionalMonsters/../spells/deeperDarkness#_deeper-darkness)_, _ [unholy blight](additionalMonsters/../spells/unholyBlight#_unholy-blight)_ (DC 19)
 
-3/day—_ [confusion](additionalMonsters/../spells/confusion.md#_confusion)_ (DC 19), _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_, _ [haste](additionalMonsters/../spells/haste.md#_haste)_, _ [hold monster](additionalMonsters/../spells/holdMonster.md#_hold-monster)_ (DC 20), _ [invisibility](additionalMonsters/../spells/invisibility.md#_invisibility)_
+3/day—_ [confusion](additionalMonsters/../spells/confusion#_confusion)_ (DC 19), _ [greater dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic-greater)_, _ [haste](additionalMonsters/../spells/haste#_haste)_, _ [hold monster](additionalMonsters/../spells/holdMonster#_hold-monster)_ (DC 20), _ [invisibility](additionalMonsters/../spells/invisibility#_invisibility)_
 
-1/day—_ [cone of cold](additionalMonsters/../spells/coneOfCold.md#_cone-of-cold)_ (DC 20), _ [finger of death](additionalMonsters/../spells/fingerOfDeath.md#_finger-of-death)_ (DC 22), _ [plane shift](additionalMonsters/../spells/planeShift.md#_plane-shift)_ (DC 22), summon (level 6, 2 greater shadows)
+1/day—_ [cone of cold](additionalMonsters/../spells/coneOfCold#_cone-of-cold)_ (DC 20), _ [finger of death](additionalMonsters/../spells/fingerOfDeath#_finger-of-death)_ (DC 22), _ [plane shift](additionalMonsters/../spells/planeShift#_plane-shift)_ (DC 22), summon (level 6, 2 greater shadows)
 
 Statistics
 
@@ -302,9 +302,9 @@ Statistics
 
 **Base Atk** +12; **CMB** +24; **CMD** 38
 
-**Feats** [Cleave](additionalMonsters/../feats.md#_cleave), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Command Undead](additionalMonsters/../feats.md#_command-undead), [Great Cleave](additionalMonsters/../feats.md#_great-cleave), [Improved Critical](additionalMonsters/../feats.md#_improved-critical) (bite), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Sunder](additionalMonsters/../feats.md#_improved-sunder), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Snatch](additionalMonsters/../monsters/monsterFeats.md#_snatch)
+**Feats** [Cleave](additionalMonsters/../feats#_cleave), [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Command Undead](additionalMonsters/../feats#_command-undead), [Great Cleave](additionalMonsters/../feats#_great-cleave), [Improved Critical](additionalMonsters/../feats#_improved-critical) (bite), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Improved Sunder](additionalMonsters/../feats#_improved-sunder), [Power Attack](additionalMonsters/../feats#_power-attack), [Snatch](additionalMonsters/../monsters/monsterFeats#_snatch)
 
-**Skills** [Fly](additionalMonsters/../skills/fly.md#_fly) +24, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +24, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (religion) +24, [Perception](additionalMonsters/../skills/perception.md#_perception) +25, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +25, [Spellcraft](additionalMonsters/../skills/spellcraft.md#_spellcraft) +24, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +16 (+24 in darkness), [Swim](additionalMonsters/../skills/swim.md#_swim) +27; **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in dim light and darkness
+**Skills** [Fly](additionalMonsters/../skills/fly#_fly) +24, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana) +24, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (religion) +24, [Perception](additionalMonsters/../skills/perception#_perception) +25, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +25, [Spellcraft](additionalMonsters/../skills/spellcraft#_spellcraft) +24, [Stealth](additionalMonsters/../skills/stealth#_stealth) +16 (+24 in darkness), [Swim](additionalMonsters/../skills/swim#_swim) +27; **Racial Modifiers** +8 [Stealth](additionalMonsters/../skills/stealth#_stealth) in dim light and darkness
 
 **Languages** Abyssal, Common, Infernal; telepathy 100 ft.
 
@@ -312,7 +312,7 @@ Ecology
 
 **Environment** any (Negative Energy Plane)
 
-**Organization** solitary, pair, or [flight](monsters/universalMonsterRules.md#_flight-(ex,-sp,-or-su)) (3–6)
+**Organization** solitary, pair, or [flight](monsters/universalMonsterRules#_flight-(ex,-sp,-or-su)) (3–6)
 
 **Treasure** standard
 

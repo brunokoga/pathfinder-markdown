@@ -12,7 +12,7 @@
 
 **Duration** 7 rounds
 
-**Saving Throw** [Will](../combat.md#_will) negates (object); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (object)
+**Saving Throw** [Will](../combat#_will) negates (object); **[Spell Resistance](../glossary#_spell-resistance)** yes (object)
 
 _Heat metal _causes metal objects to become red-hot. Unattended, nonmagical metal gets no saving throw. Magical metal is allowed a saving throw against the spell. An item in a creature's possession uses the creature's saving throw bonus unless its own is higher.
 
@@ -30,5 +30,5 @@ On the first round of the spell, the metal becomes warm and uncomfortable to tou
 
 Any cold intense enough to damage the creature negates fire damage from the spell (and vice versa) on a point-for-point basis. If cast underwater, _heat metal _deals half damage and boils the surrounding water.
 
-_Heat metal _counters and dispels _ [chill metal](chillMetal.md#_chill-metal)_.
+_Heat metal _counters and dispels _ [chill metal](chillMetal#_chill-metal)_.
 

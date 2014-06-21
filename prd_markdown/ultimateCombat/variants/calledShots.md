@@ -16,15 +16,15 @@ Called shots are divided into three basic difficulty groups: easy, tricky, and c
 
 ## Additional Rules
 
-**Automatic Hits** : Some effects in the game, like _ [true strike](spells/trueStrike.md#_true-strike)_ or the flash of insight ability of cyclopes, provide automatic or nearly automatic hits. Using such an ability on a called shot turns it into a normal attack, with none of the benefits or penalties associated with called shots. From a story perspective, this is because the effect cannot distinguish between a hit in general and a hit in a particular area, but it's also necessary to keep the power of such abilities in line with their original intended effects. Some Game Masters may prefer a more theatrical or dangerous game in which magic can make a shot through the eye nearly certain, in which case this rule can be ignored.
+**Automatic Hits** : Some effects in the game, like _ [true strike](spells/trueStrike#_true-strike)_ or the flash of insight ability of cyclopes, provide automatic or nearly automatic hits. Using such an ability on a called shot turns it into a normal attack, with none of the benefits or penalties associated with called shots. From a story perspective, this is because the effect cannot distinguish between a hit in general and a hit in a particular area, but it's also necessary to keep the power of such abilities in line with their original intended effects. Some Game Masters may prefer a more theatrical or dangerous game in which magic can make a shot through the eye nearly certain, in which case this rule can be ignored.
 
 **Cover** : Cover other than soft cover interferes with a called shot even more than with a normal shot. Double any AC bonuses provided by cover that isn't soft cover. In addition, cover may make certain called shots impossible.
 
-**Concealment** : The miss chance for a called shot against a creature with concealment increases to 50%. It's not possible to make a called shot against a creature with total concealment. For effects that function like concealment, such as _ [blink](spells/blink.md#_blink) _and_ [displacement](spells/displacement.md#_displacement)_, a miss chance of 50% or more prevents called shots, a miss chance of 20% increases to 50%, and miss chances of other values are doubled.
+**Concealment** : The miss chance for a called shot against a creature with concealment increases to 50%. It's not possible to make a called shot against a creature with total concealment. For effects that function like concealment, such as _ [blink](spells/blink#_blink) _and_ [displacement](spells/displacement#_displacement)_, a miss chance of 50% or more prevents called shots, a miss chance of 20% increases to 50%, and miss chances of other values are doubled.
 
 **Damage Reduction** : If damage reduction completely negates the damage from a called shot, the called shot has no effect. If hit point damage does get through, the called shot has normal effects. Damage reduction does not reduce any ability damage, ability drain, penalties, or bleed damage caused by the called shot.
 
-**Immunity** : Immunity to critical hits protects against the extra effects of called shots. Partial protection, such as that provided by the _ [fortification](magicItems/armor.md#_armor-fortification)_ special ability of some magical armors, protects the creature as though the called shot were a critical hit.
+**Immunity** : Immunity to critical hits protects against the extra effects of called shots. Partial protection, such as that provided by the _ [fortification](magicItems/armor#_armor-fortification)_ special ability of some magical armors, protects the creature as though the called shot were a critical hit.
 
 **Regeneration** : Regeneration provides no special protection against called shots, but it might negate or undo some of the effects, such as bleeding or limb loss.
 
@@ -38,7 +38,7 @@ Called shots are divided into three basic difficulty groups: easy, tricky, and c
 
 **Improved Called Shot:** You are skilled at landing blows right where you want to.
 
-**Prerequisites** : Int 13, [Combat Expertise](feats.md#_combat-expertise).
+**Prerequisites** : Int 13, [Combat Expertise](feats#_combat-expertise).
 
   
   
@@ -52,7 +52,7 @@ Called shots are divided into three basic difficulty groups: easy, tricky, and c
 
 **Greater Called Shot:** You can make multiple called shots where others could land but one.
 
-**Prerequisites** : Int 13, [Combat Expertise](feats.md#_combat-expertise), Improved Called Shot, base attack bonus +6.
+**Prerequisites** : Int 13, [Combat Expertise](feats#_combat-expertise), Improved Called Shot, base attack bonus +6.
 
   
   
@@ -76,7 +76,7 @@ The consequences of a successful called shot vary depending on whether the hit i
 
 **Concentration Checks** : Concentration checks forced by called shots to parts of the body involved in spellcasting (generally the head for spells with verbal components, and the casting arm and hand for spells with somatic components) are made at a –5 penalty.
 
-**Healing Called Shot Effects** : Some called shot effects render a given location useless until healed. Remedying this condition requires the victim be healed (naturally or magically, and by one or more sources of healing) for as many hit points of damage as the called shot caused. If the victim is suffering from multiple wounds of this sort, divide healing equally between them. The _ [regenerate](spells/regenerate.md#_regenerate)_ spell repairs any and all effects of called shots except for ability damage and ability drain.
+**Healing Called Shot Effects** : Some called shot effects render a given location useless until healed. Remedying this condition requires the victim be healed (naturally or magically, and by one or more sources of healing) for as many hit points of damage as the called shot caused. If the victim is suffering from multiple wounds of this sort, divide healing equally between them. The _ [regenerate](spells/regenerate#_regenerate)_ spell repairs any and all effects of called shots except for ability damage and ability drain.
 
 [Table: Called Shot Locations]
 | Location | Type | Penalty |
@@ -99,7 +99,7 @@ The consequences of a successful called shot vary depending on whether the hit i
 
 Arms are the manipulating limbs of a creature, including tentacles. Wings are also considered to be arms for purposes of a called shot. Called shots to the arm are easy (–2 penalty).
 
-**Called Shot** : A called shot to an arm deals no additional damage, but for 1d4 rounds, any attack rolls, ability checks, or skill checks made using the wounded arm take a –2 penalty. A flying creature shot in the wing must make a [Fly](skills/fly.md#_fly) check to avoid descending involuntarily .
+**Called Shot** : A called shot to an arm deals no additional damage, but for 1d4 rounds, any attack rolls, ability checks, or skill checks made using the wounded arm take a –2 penalty. A flying creature shot in the wing must make a [Fly](skills/fly#_fly) check to avoid descending involuntarily .
 
 **Critical Called Shot** : A critical hit to the arm deals 1d4 points of Dexterity damage and 1d4 points of Strength damage. A successful Fortitude saving throw halves the ability damage (minimum 1 point to each attribute). The target also suffers the effects of a called shot to the arm for 1d4 minutes.
 
@@ -109,31 +109,31 @@ Arms are the manipulating limbs of a creature, including tentacles. Wings are al
 
 Called shots to the chest are aimed at the well-protected center of mass of a creature. Called shots to the chest are easy (–2 penalty).
 
-**Called Shot** : A called shot to the chest deals no additional damage, but any skill checks caused by the hit (such as an [Acrobatics](skills/acrobatics.md#_acrobatics) check while balancing or a [Climb](skills/climb.md#_climb) check while climbing) take a –2 penalty.
+**Called Shot** : A called shot to the chest deals no additional damage, but any skill checks caused by the hit (such as an [Acrobatics](skills/acrobatics#_acrobatics) check while balancing or a [Climb](skills/climb#_climb) check while climbing) take a –2 penalty.
 
 **Critical Called Shot** : A critical hit to the chest deals 1d4 points of Constitution damage and fatigues the target. A successful Fortitude saving throw (made after the Constitution damage is applied) negates the fatigue. The creature also suffers the effects of a called shot to the chest.
 
-**Debilitating Blow** : A debilitating blow to the chest deals 2d4 points of Constitution damage and exhausts the target. A successful Fortitude saving throw (made after the Constitution damage is applied) reduces the exhaustion to fatigue. If the saving throw fails by 5 or more, the creature's internal injuries deal 1 point of Constitution damage in any round the creature takes a standard action. The internal injuries can be healed by either a DC 25 [Heal](skills/heal.md#_heal) check or by healing as many hit points as the debilitating blow dealt, whether by magical or natural means. The creature also suffers the effects of a called shot to the chest.
+**Debilitating Blow** : A debilitating blow to the chest deals 2d4 points of Constitution damage and exhausts the target. A successful Fortitude saving throw (made after the Constitution damage is applied) reduces the exhaustion to fatigue. If the saving throw fails by 5 or more, the creature's internal injuries deal 1 point of Constitution damage in any round the creature takes a standard action. The internal injuries can be healed by either a DC 25 [Heal](skills/heal#_heal) check or by healing as many hit points as the debilitating blow dealt, whether by magical or natural means. The creature also suffers the effects of a called shot to the chest.
 
 ## Ear
 
 Ears are the organs used to hear. Creatures without visible ears generally aren't susceptible to called shots to that location. Called shots to the ear are challenging (–10 penalty).
 
-**Called Shot** : A called shot to the ear deafens that ear for 1 round, and imposes a –2 penalty on [Perception](skills/perception.md#_perception) checks. A creature that loses hearing in all ears is deafened until hearing is returned by way of the _ [remove blindness/deafness](spells/removeBlindnessDeafness.md#_remove-blindness-deafness)_ spell or a similar effect.
+**Called Shot** : A called shot to the ear deafens that ear for 1 round, and imposes a –2 penalty on [Perception](skills/perception#_perception) checks. A creature that loses hearing in all ears is deafened until hearing is returned by way of the _ [remove blindness/deafness](spells/removeBlindnessDeafness#_remove-blindness-deafness)_ spell or a similar effect.
 
 **Critical Called Shot** : A critical hit to the ear deafens that ear for 2d6 minutes and leaves the target staggered for 1 round. The target also suffers the effects of a called shot to the ear for that duration.
 
-**Debilitating Blow** : A debilitating blow to the ear destroys that ear and stuns the target for 1 round, then leaves it staggered for 1d4 rounds, and deafened until removed with the remove _ [blindness/deafness](spells/blindnessDeafness.md#_blindness-deafness) spell_ or a similar effect. A successful Fortitude saving throw deafens the creature until it is restored by the _ [remove blindness/deafness](spells/removeBlindnessDeafness.md#_remove-blindness-deafness)_ spell or a similar effect.
+**Debilitating Blow** : A debilitating blow to the ear destroys that ear and stuns the target for 1 round, then leaves it staggered for 1d4 rounds, and deafened until removed with the remove _ [blindness/deafness](spells/blindnessDeafness#_blindness-deafness) spell_ or a similar effect. A successful Fortitude saving throw deafens the creature until it is restored by the _ [remove blindness/deafness](spells/removeBlindnessDeafness#_remove-blindness-deafness)_ spell or a similar effect.
 
 ## Eye
 
 Eyes include whatever organs a creature uses to see. At the Game Master's discretion, a called shot to the eye can also target sensory organs such as antennae, potentially negating abilities like blindsense. Generally, a creature can't be blinded until it has lost all vision in all of its eyes. Creatures with five or more eyes take no penalties from called shots to their eyes until they're blinded in enough eyes to bring them down a single functional eye, but can still be blinded in that eye by a critical hit or debilitating blow. Called shots to the eye are challenging (–10 penalty).
 
-**Called Shot** : A called shot to the eye gives all of the target's foes concealment against its attacks for 1 round and gives it a –2 penalty on [Perception](skills/perception.md#_perception) checks. If the creature only has one functional eye prior to the called shot, it is blinded for 1 round instead.
+**Called Shot** : A called shot to the eye gives all of the target's foes concealment against its attacks for 1 round and gives it a –2 penalty on [Perception](skills/perception#_perception) checks. If the creature only has one functional eye prior to the called shot, it is blinded for 1 round instead.
 
 **Critical Called Shot** : A critical hit to the eye costs the target sight in that eye for 1d4 minutes. The target also suffers the effects of a called shot to the eye for that duration.
 
-**Debilitating Blow** : A debilitating blow to the eye destroys that eye, causes blindness until the condition is removed with a _ [remove blindness/deafness](spells/removeBlindnessDeafness.md#_remove-blindness-deafness)_ spell or similar effect, and deals 1d6 points of bleed damage. A successful Reflex saving throw reduces this to 1d4 hours of loss of sight in that eye and eliminates the bleeding. The target also suffers the effects of a called shot to the eye for 2d6 minutes.
+**Debilitating Blow** : A debilitating blow to the eye destroys that eye, causes blindness until the condition is removed with a _ [remove blindness/deafness](spells/removeBlindnessDeafness#_remove-blindness-deafness)_ spell or similar effect, and deals 1d6 points of bleed damage. A successful Reflex saving throw reduces this to 1d4 hours of loss of sight in that eye and eliminates the bleeding. The target also suffers the effects of a called shot to the eye for 2d6 minutes.
 
 ## Hand
 
@@ -153,7 +153,7 @@ Called shots to the head are tricky (–5 penalty), as most creatures show some 
 
 **Critical Called Shot** : A critical hit to the head deals 1d6 points of Intelligence, Wisdom, or Charisma damage (randomly determine which) and staggers the target for 1d4 rounds. A successful Fortitude saving throw prevents the target from being staggered. The target also suffers the effects of a called shot to the head for 1d4 minutes.
 
-**Debilitating Blow** : A debilitating blow to the head deals 1d6 points of Intelligence, Wisdom, and Charisma damage (roll separately for each), and knocks the target unconscious for 1d10 rounds. A successful Fortitude saving throw prevents the target from being knocked unconscious, but leaves it staggered for 1d10 rounds instead. If the saving throw fails by 5 or more, the target is rendered senseless by severe brain trauma (as the _ [feeblemind](spells/feeblemind.md#_feeblemind)_ spell) until it receives a _ [heal](spells/heal.md#_heal)_, _ [greater restoration](spells/restoration.md#_restoration-greater)_, or similar effect. The target also suffers the effects of a called shot to the head for 2d6 minutes.
+**Debilitating Blow** : A debilitating blow to the head deals 1d6 points of Intelligence, Wisdom, and Charisma damage (roll separately for each), and knocks the target unconscious for 1d10 rounds. A successful Fortitude saving throw prevents the target from being knocked unconscious, but leaves it staggered for 1d10 rounds instead. If the saving throw fails by 5 or more, the target is rendered senseless by severe brain trauma (as the _ [feeblemind](spells/feeblemind#_feeblemind)_ spell) until it receives a _ [heal](spells/heal#_heal)_, _ [greater restoration](spells/restoration#_restoration-greater)_, or similar effect. The target also suffers the effects of a called shot to the head for 2d6 minutes.
 
 ## Heart
 
@@ -173,11 +173,11 @@ A debilitating blow to the heart against a vampire made with a piercing weapon m
 
 Legs are the ambulatory limbs of a creature, including feet. Called shots to the leg have no special effect on creatures with five or more legs. Called shots to the leg are easy (–2 penalty).
 
-**Called Shot** : A called shot to a leg lowers the target creature's speed by 10 feet for 1d4 rounds if it has two or fewer legs, and by 5 feet if it has three or four legs. In either case, the creature's speed cannot be reduced below 5 feet per round. Called shots to the leg have no effect on creatures with five or more legs. Hitting the same leg more than once has no extra effect, but the speed penalty for hits on different legs stack. Additionally, any skill or ability checks involving movement (such as [Acrobatics](skills/acrobatics.md#_acrobatics) or [Swim](skills/swim.md#_swim) checks) take a –2 penalty for 1d4 rounds.
+**Called Shot** : A called shot to a leg lowers the target creature's speed by 10 feet for 1d4 rounds if it has two or fewer legs, and by 5 feet if it has three or four legs. In either case, the creature's speed cannot be reduced below 5 feet per round. Called shots to the leg have no effect on creatures with five or more legs. Hitting the same leg more than once has no extra effect, but the speed penalty for hits on different legs stack. Additionally, any skill or ability checks involving movement (such as [Acrobatics](skills/acrobatics#_acrobatics) or [Swim](skills/swim#_swim) checks) take a –2 penalty for 1d4 rounds.
 
 **Critical Called Shot** : A critical hit to the leg deals 1d4 points of Dexterity damage and knocks the target prone. A successful Fortitude save keeps the creature from falling prone. The creature also suffers the effects of a called shot to the leg for 1d4 minutes.
 
-**Debilitating Blow** : A debilitating blow to the leg knocks the creature prone. The blow renders the leg entirely useless until healed unless the target succeeds at a Fortitude saving throw. If the saving throw fails by 5 or more, the leg is severed or otherwise mangled such that only _regeneration_ or similar effects can repair it. If the save succeeds, the target is instead lamed and moves at half speed until the leg is healed, or until it receives a successful DC 20 [Heal](skills/heal.md#_heal) check. A creature with a useless or severed leg moves at half speed if it still has more than half of its legs usable; otherwise, it cannot stand up and must crawl to move. The target also suffers the effects of a called shot to the leg (if the leg remains usable) for 2d6 minutes.
+**Debilitating Blow** : A debilitating blow to the leg knocks the creature prone. The blow renders the leg entirely useless until healed unless the target succeeds at a Fortitude saving throw. If the saving throw fails by 5 or more, the leg is severed or otherwise mangled such that only _regeneration_ or similar effects can repair it. If the save succeeds, the target is instead lamed and moves at half speed until the leg is healed, or until it receives a successful DC 20 [Heal](skills/heal#_heal) check. A creature with a useless or severed leg moves at half speed if it still has more than half of its legs usable; otherwise, it cannot stand up and must crawl to move. The target also suffers the effects of a called shot to the leg (if the leg remains usable) for 2d6 minutes.
 
 ## Neck
 
@@ -185,9 +185,9 @@ The neck makes for a difficult but rewarding target. Injuries to the neck keep a
 
 **Called Shot** : A called shot to the neck makes speaking above a hoarse whisper impossible for 1 round. Spells with verbal components have a 20% chance of failing outright, as do attempts to activate command-word items (although for magic items, the use of the item is not wasted).
 
-**Critical Called Shot** : A critical hit to the neck deals 1d6 points of bleed damage. In addition, the target must succeed at a Fortitude saving throw or suffer a crushed windpipe and be unable to breathe or speak, possibly suffocating . A crushed windpipe can be repaired by magical healing (from one or more sources) that heals as many hit points of damage as the original hit dealt, or by a DC 25 [Heal](skills/heal.md#_heal) check to open up a hole into the windpipe. The latter check deals 2d6 hit points of damage, and leaves the creature still unable to speak. If target makes its saving throw, it still suffers the effects of a called shot to the neck for 1d4 minutes.
+**Critical Called Shot** : A critical hit to the neck deals 1d6 points of bleed damage. In addition, the target must succeed at a Fortitude saving throw or suffer a crushed windpipe and be unable to breathe or speak, possibly suffocating . A crushed windpipe can be repaired by magical healing (from one or more sources) that heals as many hit points of damage as the original hit dealt, or by a DC 25 [Heal](skills/heal#_heal) check to open up a hole into the windpipe. The latter check deals 2d6 hit points of damage, and leaves the creature still unable to speak. If target makes its saving throw, it still suffers the effects of a called shot to the neck for 1d4 minutes.
 
-**Debilitating Blow** : A debilitating blow to the neck leaves the target unable to speak or breathe and deals 1d4 points of Constitution bleed damage. A successful Fortitude saving throw reduces this to 2d6 points of regular (hit point) bleed damage, and the target is only unable to speak and breathe for 1d4 minutes. The Constitution bleed damage caused by a debilitating blow to the neck can only be stopped by _regeneration_ (spell or special ability), magical healing (from one or more sources) that heals as many points of damage as the original blow dealt, or a DC 20 [Heal](skills/heal.md#_heal) check that takes 1d4 rounds to complete.
+**Debilitating Blow** : A debilitating blow to the neck leaves the target unable to speak or breathe and deals 1d4 points of Constitution bleed damage. A successful Fortitude saving throw reduces this to 2d6 points of regular (hit point) bleed damage, and the target is only unable to speak and breathe for 1d4 minutes. The Constitution bleed damage caused by a debilitating blow to the neck can only be stopped by _regeneration_ (spell or special ability), magical healing (from one or more sources) that heals as many points of damage as the original blow dealt, or a DC 20 [Heal](skills/heal#_heal) check that takes 1d4 rounds to complete.
 
 ## Vitals
 
@@ -197,5 +197,5 @@ The vitals correspond to the abdomen on a humanoid: critical organs not well-pro
 
 **Critical Called Shot** : A critical hit deals 1d4 points of Constitution damage. In addition, the target is nauseated for 1d4 rounds and sickened for 1d6 minutes. A successful Fortitude saving throw negates the nauseated condition. While the target is sickened from the blow, it cannot run or charge.
 
-**Debilitating Blow** : A debilitating blow to the vitals deals 1d6 points of Constitution drain, nauseates the target for 1d4 rounds, and sickens it for 2d6 minutes. A successful Fortitude save reduces the drain to damage and the nausea to 1 round. If the save fails by 5 or more, the target is disemboweled or otherwise horrifically wounded, and takes 1 point of Constitution bleed damage. The Constitution bleed damage caused by a debilitating blow to the vitals can only be stopped by _regeneration_ (spell or special ability), magical healing that heals as many points of damage (from one or more sources) as the original blow dealt, or a DC 20 [Heal](skills/heal.md#_heal) check that takes 1d4 rounds to complete.
+**Debilitating Blow** : A debilitating blow to the vitals deals 1d6 points of Constitution drain, nauseates the target for 1d4 rounds, and sickens it for 2d6 minutes. A successful Fortitude save reduces the drain to damage and the nausea to 1 round. If the save fails by 5 or more, the target is disemboweled or otherwise horrifically wounded, and takes 1 point of Constitution bleed damage. The Constitution bleed damage caused by a debilitating blow to the vitals can only be stopped by _regeneration_ (spell or special ability), magical healing that heals as many points of damage (from one or more sources) as the original blow dealt, or a DC 20 [Heal](skills/heal#_heal) check that takes 1d4 rounds to complete.
 

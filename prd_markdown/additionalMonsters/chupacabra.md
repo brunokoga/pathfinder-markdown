@@ -6,9 +6,9 @@ This lizard-like creature stalks forward upon two muscular legs, a mane of spike
 
 **XP 800**
 
-N Small [magical beast](monsters/creatureTypes.md#_magical-beast)
+N Small [magical beast](monsters/creatureTypes#_magical-beast)
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +6
+**Init** +7; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +6
 
 Defense
 
@@ -22,9 +22,9 @@ Offense
 
 **Speed** 30 ft.
 
-**Melee** bite +6 (1d4+1 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 claws +6 (1d3+1)
+**Melee** bite +6 (1d4+1 plus [grab](monsters/universalMonsterRules#_grab)), 2 claws +6 (1d3+1)
 
-**Special Attacks** chupar, [pounce](monsters/universalMonsterRules.md#_pounce)
+**Special Attacks** chupar, [pounce](monsters/universalMonsterRules#_pounce)
 
 Statistics
 
@@ -32,9 +32,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +4 (+8 grapple); **CMD** 17
 
-**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative)
+**Feats** [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats#_improved-initiative)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +7 (+11 jumping), [Perception](additionalMonsters/../skills/perception.md#_perception) +6, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +16; **Racial Modifiers** +4 [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) when jumping, +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) (+8 in undergrowth or rocky areas)
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +7 (+11 jumping), [Perception](additionalMonsters/../skills/perception#_perception) +6, [Stealth](additionalMonsters/../skills/stealth#_stealth) +16; **Racial Modifiers** +4 [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) when jumping, +4 [Stealth](additionalMonsters/../skills/stealth#_stealth) (+8 in undergrowth or rocky areas)
 
 **Languages** Aklo (cannot speak)
 
@@ -48,7 +48,7 @@ Ecology
 
 Special Abilities
 
-**Chupar (Ex)** A chupacabra that pins an opponent or maintains a pin can suck blood from that opponent as a free action once per round, dealing 1 point of Constitution damage. Upon successfully draining blood, the chupacabra is invigorated, gaining a significant boost in speed for 10 rounds similar to the _ [haste](additionalMonsters/../spells/haste.md#_haste)_ spell. The invigorated chupacabra can still drain blood—and in so doing increase the length of its invigoration—but it gains no additional effects.
+**Chupar (Ex)** A chupacabra that pins an opponent or maintains a pin can suck blood from that opponent as a free action once per round, dealing 1 point of Constitution damage. Upon successfully draining blood, the chupacabra is invigorated, gaining a significant boost in speed for 10 rounds similar to the _ [haste](additionalMonsters/../spells/haste#_haste)_ spell. The invigorated chupacabra can still drain blood—and in so doing increase the length of its invigoration—but it gains no additional effects.
 
 These notorious predators have an undeniable thirst for blood. Chupacabras prefer to prey upon the weak and slow, often watching potential prey from hiding for long periods before attacking. Spry and stealthy, they prefer to keep to areas of high grass and protective rock, their slightly reflective scales allowing them to blend in well with such surroundings.
 

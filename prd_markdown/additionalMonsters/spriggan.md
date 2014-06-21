@@ -6,9 +6,9 @@ Flecks of saliva drip from the corners of this filthy and ill-smelling humanoid,
 
 **XP 800**
 
-CE Small [humanoid](monsters/creatureTypes.md#_humanoid) ( [gnome](monsters/creatureTypes.md#_gnome-subtype))
+CE Small [humanoid](monsters/creatureTypes#_humanoid) ( [gnome](monsters/creatureTypes#_gnome-subtype))
 
-**Init** +4; Senses low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +7
+**Init** +4; Senses low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +7
 
 Defense
 
@@ -30,7 +30,7 @@ Offense
 
 **Spell-Like Abilities** (CL 4th; concentration +4)
 
-At will—_ [flare](additionalMonsters/../spells/flare.md#_flare)_ (DC 10), _ [scare](additionalMonsters/../spells/scare.md#_scare)_ (DC 12), _ [shatter](additionalMonsters/../spells/shatter.md#_shatter)_ (DC 12)
+At will—_ [flare](additionalMonsters/../spells/flare#_flare)_ (DC 10), _ [scare](additionalMonsters/../spells/scare#_scare)_ (DC 12), _ [shatter](additionalMonsters/../spells/shatter#_shatter)_ (DC 12)
 
 Statistics
 
@@ -38,11 +38,11 @@ Statistics
 
 **Base Atk** +3; **CMB** +1; **CMD** 15
 
-**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (morningstar)
+**Feats** [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Weapon Focus](additionalMonsters/../feats#_weapon-focus) (morningstar)
 
-**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +1, [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device) +11, [Perception](additionalMonsters/../skills/perception.md#_perception) +7, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand) +11, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +15; **Racial Modifiers** +2 [Climb](additionalMonsters/../skills/climb.md#_climb), +2 [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device), +2 [Perception](additionalMonsters/../skills/perception.md#_perception), +2 [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand), +2 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
+**Skills** [Climb](additionalMonsters/../skills/climb#_climb) +1, [Disable Device](additionalMonsters/../skills/disableDevice#_disable-device) +11, [Perception](additionalMonsters/../skills/perception#_perception) +7, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand#_sleight-of-hand) +11, [Stealth](additionalMonsters/../skills/stealth#_stealth) +15; **Racial Modifiers** +2 [Climb](additionalMonsters/../skills/climb#_climb), +2 [Disable Device](additionalMonsters/../skills/disableDevice#_disable-device), +2 [Perception](additionalMonsters/../skills/perception#_perception), +2 [Sleight of Hand](additionalMonsters/../skills/sleightOfHand#_sleight-of-hand), +2 [Stealth](additionalMonsters/../skills/stealth#_stealth)
 
-**Languages** Aklo, [Gnome](monsters/creatureTypes.md#_gnome-subtype)
+**Languages** Aklo, [Gnome](monsters/creatureTypes#_gnome-subtype)
 
 **SQ** size alteration, spriggan magic, spriggan skills
 
@@ -60,15 +60,15 @@ Special Abilities
 
 **Spriggan Magic (Ex)** A spriggan gains a +1 racial bonus on concentration checks and to save DCs for all of its racial spell-like abilities.
 
-**Spriggan Skills (Ex)** [Climb](additionalMonsters/../skills/climb.md#_climb), [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device), [Perception](additionalMonsters/../skills/perception.md#_perception), [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand), and [Stealth](additionalMonsters/../skills/stealth.md#_stealth) are class skills for spriggans.
+**Spriggan Skills (Ex)** [Climb](additionalMonsters/../skills/climb#_climb), [Disable Device](additionalMonsters/../skills/disableDevice#_disable-device), [Perception](additionalMonsters/../skills/perception#_perception), [Sleight of Hand](additionalMonsters/../skills/sleightOfHand#_sleight-of-hand), and [Stealth](additionalMonsters/../skills/stealth#_stealth) are class skills for spriggans.
 
 Spriggan (Large Size)CR 3
 
 **XP 800**
 
-CE Large [humanoid](monsters/creatureTypes.md#_humanoid) ( [gnome](monsters/creatureTypes.md#_gnome-subtype))
+CE Large [humanoid](monsters/creatureTypes#_humanoid) ( [gnome](monsters/creatureTypes#_gnome-subtype))
 
-**Init** +3; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +7
+**Init** +3; **Senses** low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +7
 
 Defense
 
@@ -94,7 +94,7 @@ Statistics
 
 **Base Atk** +3; **CMB** +9; **CMD** 22
 
-**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +7, [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device) +10, [Perception](additionalMonsters/../skills/perception.md#_perception) +7, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand) +10, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +6
+**Skills** [Climb](additionalMonsters/../skills/climb#_climb) +7, [Disable Device](additionalMonsters/../skills/disableDevice#_disable-device) +10, [Perception](additionalMonsters/../skills/perception#_perception) +7, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand#_sleight-of-hand) +10, [Stealth](additionalMonsters/../skills/stealth#_stealth) +6
 
 When the gnomes first traveled to the mortal realm from the distant land of the fey, some found the Material Plane so strange and terrifying that they lost their sense of joy. Seeing only the threats of the new world but none of its wonders, they grimly resolved to survive no matter the cost. Their innate magic responded to this twisted goal by reshaping them in mind and body over the course of many generations, transforming them into the creatures known as spriggans. Love, happiness, and beauty have no meaning for these poor souls, so they lead lives of violence and malice. The best they can manage in place of positive emotions is a muted satisfaction when they make another suffer.
 

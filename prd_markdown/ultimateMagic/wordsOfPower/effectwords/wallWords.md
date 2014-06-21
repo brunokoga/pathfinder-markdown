@@ -4,7 +4,7 @@ Wall words create large barriers that impede and harm those who pass through the
 
 Wind Wall (Wall)
 
-**School** evocation [[air](monsters/creatureTypes.md#_air-subtype)]; **Level** cleric 3, druid 3, magus 3, ranger 3, sorcerer/wizard 3, summoner 3
+**School** evocation [[air](monsters/creatureTypes#_air-subtype)]; **Level** cleric 3, druid 3, magus 3, ranger 3, sorcerer/wizard 3, summoner 3
 
 **Duration** 1 round/level
 
@@ -12,11 +12,11 @@ Wind Wall (Wall)
 
 **Target Restrictions** _barrier_
 
-This effect word creates a vertical wall of swirling wind. This wind does not obscure sight, but missile weapons that pass through the wall automatically miss (with the exception of large missiles, such as giant-thrown rocks and siege weapons). Creatures that pass through the wall treat it as difficult terrain and must make a DC 10 Strength check. Failure indicates that the creature cannot pass through the wall this round, but may try again in future rounds. Gases, gaseous breath weapons, and creatures in _ [gaseous form](spells/gaseousForm.md#_gaseous-form)_ cannot pass through the wall.
+This effect word creates a vertical wall of swirling wind. This wind does not obscure sight, but missile weapons that pass through the wall automatically miss (with the exception of large missiles, such as giant-thrown rocks and siege weapons). Creatures that pass through the wall treat it as difficult terrain and must make a DC 10 Strength check. Failure indicates that the creature cannot pass through the wall this round, but may try again in future rounds. Gases, gaseous breath weapons, and creatures in _ [gaseous form](spells/gaseousForm#_gaseous-form)_ cannot pass through the wall.
 
 Fire Wall (Wall)
 
-**School** evocation [[fire](monsters/creatureTypes.md#_fire-subtype)]; **Level** druid 4, magus 4, sorcerer/wizard 4, summoner 4
+**School** evocation [[fire](monsters/creatureTypes#_fire-subtype)]; **Level** druid 4, magus 4, sorcerer/wizard 4, summoner 4
 
 **Duration** 1 round/level
 
@@ -28,7 +28,7 @@ This effect word creates a vertical wall of crackling flame. Creatures in the sp
 
 Ice Wall (Wall)
 
-**School** evocation [[cold](monsters/creatureTypes.md#_cold-subtype)]; **Level** druid 4, magus 4, sorcerer/wizard 4, summoner 4
+**School** evocation [[cold](monsters/creatureTypes#_cold-subtype)]; **Level** druid 4, magus 4, sorcerer/wizard 4, summoner 4
 
 **Duration** 1 round/level
 

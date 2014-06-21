@@ -18,7 +18,7 @@ Drawing upon the Plane of Shadow, you shape a quasi-real masterwork melee weapon
 
 If an attacked creature has spell resistance, you make a caster level check (1d20 + caster level) against that spell resistance the first time the _shadow weapon_ strikes it. If the weapon is successfully resisted, the spell is dispelled. If not, the target may save to disbelieve as normal.
 
-At 5th level, the weapon gains a +1 enhancement bonus. At 10th-level, you may increase the enhancement bonus to +2 or add the _ [frost](magicItems/weapons.md#_weapons-frost)_ or _ [keen](magicItems/weapons.md#_weapons-keen)_ weapon property. The frost and keen properties have no effect if the target makes its disbelief save.
+At 5th level, the weapon gains a +1 enhancement bonus. At 10th-level, you may increase the enhancement bonus to +2 or add the _ [frost](magicItems/weapons#_weapons-frost)_ or _ [keen](magicItems/weapons#_weapons-keen)_ weapon property. The frost and keen properties have no effect if the target makes its disbelief save.
 
 The spell ends if the weapon leaves your possession.
 

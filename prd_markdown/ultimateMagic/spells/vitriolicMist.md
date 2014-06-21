@@ -12,5 +12,5 @@ Vitriolic Mist
 
 **Duration** 1 round/level (D)
 
-This functions as _ [fire shield](spells/fireShield.md#_fire-shield)_, except it wreathes you in yellow or green acidic mist instead of hot or cold flames. The spell deals acid damage to attackers and protects you against acid damage. This spell does not shed light.
+This functions as _ [fire shield](spells/fireShield#_fire-shield)_, except it wreathes you in yellow or green acidic mist instead of hot or cold flames. The spell deals acid damage to attackers and protects you against acid damage. This spell does not shed light.
 

@@ -26,7 +26,7 @@ Creatures with the advanced template are fiercer and more powerful than their or
 
 ## Celestial Creature (CR +0 or +1)
 
-Celestial creatures dwell in the higher planes, but can be summoned using spells such as _summon monster_ and _ [planar ally](../spells/planarAlly.md#_planar-ally)_. A celestial creature's CR increases by +1 only if the base creature has 5 or more HD. A celestial creature's quick and rebuild rules are the same.
+Celestial creatures dwell in the higher planes, but can be summoned using spells such as _summon monster_ and _ [planar ally](../spells/planarAlly#_planar-ally)_. A celestial creature's CR increases by +1 only if the base creature has 5 or more HD. A celestial creature's quick and rebuild rules are the same.
 
 **Rebuild Rules** : **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite evil 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against evil foes; smite persists until target is dead or the celestial creature rests).
 
@@ -39,7 +39,7 @@ Celestial creatures dwell in the higher planes, but can be summoned using spells
 
 ## Entropic Creature (CR +0 or +1)
 
-Creatures with the entropic template live in planes where chaos is paramount. They can be summoned using spells such as [_summon monster_](../advanced/baseClasses/summoner.md#_summon-monster-i) and _ [planar ally](../spells/planarAlly.md#_planar-ally)_. An entropic creature's CR increases by +1 only if the base creature has 5 or more HD. An entropic creature's quick and rebuild rules are the same.
+Creatures with the entropic template live in planes where chaos is paramount. They can be summoned using spells such as [_summon monster_](../advanced/baseClasses/summoner#_summon-monster-i) and _ [planar ally](../spells/planarAlly#_planar-ally)_. An entropic creature's CR increases by +1 only if the base creature has 5 or more HD. An entropic creature's quick and rebuild rules are the same.
 
 **Rebuild Rules** : **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite law 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against lawful foes; smite persists until the target is dead or the entropic creature rests).
 
@@ -52,7 +52,7 @@ Creatures with the entropic template live in planes where chaos is paramount. Th
 
 ## Fiendish Creature (CR +0 or +1)
 
-Creatures with the fiendish template live in the Lower Planes, such as the Abyss and Hell, but can be summoned using spells such as _summon monster_ and _ [planar ally](../spells/planarAlly.md#_planar-ally)_. A fiendish creature's CR increases by +1 only if the base creature has 5 or more HD. A fiendish creature's quick and rebuild rules are the same.
+Creatures with the fiendish template live in the Lower Planes, such as the Abyss and Hell, but can be summoned using spells such as _summon monster_ and _ [planar ally](../spells/planarAlly#_planar-ally)_. A fiendish creature's CR increases by +1 only if the base creature has 5 or more HD. A fiendish creature's quick and rebuild rules are the same.
 
 **Rebuild Rules** : **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite good 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against good foes; smite persists until target is dead or the fiendish creature rests).
 
@@ -73,7 +73,7 @@ Creatures with the giant template are larger and stronger than their normal-size
 
 ## Resolute Creature (CR +0 or +1)
 
-Creatures with the resolute template live in planes where law is paramount. They can be summoned using spells such as [_summon monster_](../advanced/baseClasses/summoner.md#_summon-monster-i) and _ [planar ally](../spells/planarAlly.md#_planar-ally)_. A resolute creature's CR increases by +1 only if the base creature has 5 or more HD. A resolute creature's quick and rebuild rules are the same.
+Creatures with the resolute template live in planes where law is paramount. They can be summoned using spells such as [_summon monster_](../advanced/baseClasses/summoner#_summon-monster-i) and _ [planar ally](../spells/planarAlly#_planar-ally)_. A resolute creature's CR increases by +1 only if the base creature has 5 or more HD. A resolute creature's quick and rebuild rules are the same.
 
 **Rebuild Rules** : **Senses** gains darkvision 60 ft.; **Defensive Abilities** gains DR and energy resistance as noted on the table; **SR** gains SR equal to new CR +5; **Special Attacks** smite chaos 1/day as a swift action (adds Cha bonus to attack rolls and damage bonus equal to HD against chaotic foes; smite persists until target is dead or the resolute creature rests).
 
@@ -162,7 +162,7 @@ Once you have determined the number of additional Hit Dice possessed by the crea
 
 ## Step 4: Skills and Feats
 
-When adding skills, check to see if the creature's Int modifier changed. If it is unchanged, simply multiply the total number of ranks per Hit Dice gained by a monster of its type times the total number of added Hit Dice and add that number of ranks to its existing skills. If its Intelligence modifier has increased, perform the same calculation as if it had not increased and then multiply the change in its Intelligence modifier times its new total number of Hit Dice and add that number of additional ranks as well (adding new skills as needed to spend all of the ranks). If the creature changed size, make sure to adjust its [Fly](../skills/fly.md#_fly) skill and [Stealth](../skills/stealth.md#_stealth) skill bonuses (if any) as noted on Table: Size Bonuses and Penalties.
+When adding skills, check to see if the creature's Int modifier changed. If it is unchanged, simply multiply the total number of ranks per Hit Dice gained by a monster of its type times the total number of added Hit Dice and add that number of ranks to its existing skills. If its Intelligence modifier has increased, perform the same calculation as if it had not increased and then multiply the change in its Intelligence modifier times its new total number of Hit Dice and add that number of additional ranks as well (adding new skills as needed to spend all of the ranks). If the creature changed size, make sure to adjust its [Fly](../skills/fly#_fly) skill and [Stealth](../skills/stealth#_stealth) skill bonuses (if any) as noted on Table: Size Bonuses and Penalties.
 
 Next, give the creature additional feats. Creatures gain one feat at 1 Hit Die and one additional feat for every 2 Hit Dice above 1. Most additional feats should be focused on increasing the creature's combat abilities, but metamagic feats and skill feats are also possible choices depending on the creature's role.
 
@@ -190,7 +190,7 @@ Most animals, constructs, dragons, humanoids, magical beasts, monstrous humanoid
 
 Most dragons and outsiders fall into this role, but any creature that has a list of spells prepared or spells known likely falls under this heading as well.
 
-**Skill** : Creatures of this type rely on skills (usually [Stealth](../skills/stealth.md#_stealth)) to ambush or take down their prey. This also includes creatures who take advantage of the environment or spells, such as fog or _ [invisibility](../spells/invisibility.md#_invisibility)_.
+**Skill** : Creatures of this type rely on skills (usually [Stealth](../skills/stealth#_stealth)) to ambush or take down their prey. This also includes creatures who take advantage of the environment or spells, such as fog or _ [invisibility](../spells/invisibility#_invisibility)_.
 
 Some aberrations, fey, magical beasts, monstrous humanoids, and outsiders fall into this role.
 

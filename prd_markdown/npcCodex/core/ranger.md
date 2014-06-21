@@ -40,15 +40,15 @@ Statistics
 
 **Base Atk** +1; **CMB** +3; **CMD** 16
 
-**Feats** [Point-Blank Shot](feats.md#_point-blank-shot), [Skill Focus](feats.md#_skill-focus) (Perception)
+**Feats** [Point-Blank Shot](feats#_point-blank-shot), [Skill Focus](feats#_skill-focus) (Perception)
 
-**Skills** [Climb](skills/climb.md#_climb) +6, [Knowledge](skills/knowledge.md#_knowledge) (local) +1, [Knowledge](skills/knowledge.md#_knowledge) (nature) +4, Perception +10, [Stealth](skills/stealth.md#_stealth) +7, [Survival](skills/survival.md#_survival) +5
+**Skills** [Climb](skills/climb#_climb) +6, [Knowledge](skills/knowledge#_knowledge) (local) +1, [Knowledge](skills/knowledge#_knowledge) (nature) +4, Perception +10, [Stealth](skills/stealth#_stealth) +7, [Survival](skills/survival#_survival) +5
 
 **Languages** Common, Elven
 
 **SQ** elf blood, track +1, wild empathy +0
 
-**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds),_ alchemist's fire, masterwork arrows (3), smokestick; **Other Gear** masterwork studded leather, longbow with 20 arrows, longsword, shortspear, 15 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds#_cure-light-wounds),_ alchemist's fire, masterwork arrows (3), smokestick; **Other Gear** masterwork studded leather, longbow with 20 arrows, longsword, shortspear, 15 gp
 
 The novice scout is alert and eager to prove her worth.
 
@@ -98,15 +98,15 @@ Statistics
 
 **Base Atk** +2; **CMB** +2; **CMD** 15
 
-**Feats** [Point-Blank Shot](feats.md#_point-blank-shot), Precise Shot
+**Feats** [Point-Blank Shot](feats#_point-blank-shot), Precise Shot
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +7 (+3 when jumping), [Climb](skills/climb.md#_climb) +8, [Diplomacy](skills/diplomacy.md#_diplomacy) +1, [Intimidate](skills/intimidate.md#_intimidate) +4, [Knowledge](skills/knowledge.md#_knowledge) (geography, nature) +5, [Knowledge](skills/knowledge.md#_knowledge) (local) +2, Perception +8, [Stealth](skills/stealth.md#_stealth) +12, [Survival](skills/survival.md#_survival) +6, [Swim](skills/swim.md#_swim) +5
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +7 (+3 when jumping), [Climb](skills/climb#_climb) +8, [Diplomacy](skills/diplomacy#_diplomacy) +1, [Intimidate](skills/intimidate#_intimidate) +4, [Knowledge](skills/knowledge#_knowledge) (geography, nature) +5, [Knowledge](skills/knowledge#_knowledge) (local) +2, Perception +8, [Stealth](skills/stealth#_stealth) +12, [Survival](skills/survival#_survival) +6, [Swim](skills/swim#_swim) +5
 
 **Languages** Common, Halfling
 
 **SQ** track +1, wild empathy +2
 
-**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, tanglefoot bags (2), thunderstone; **Other Gear** masterwork studded leather, masterwork shortbow with 20 arrows, short sword, 84 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_, tanglefoot bags (2), thunderstone; **Other Gear** masterwork studded leather, masterwork shortbow with 20 arrows, short sword, 84 gp
 
 The town watcher protects a settlement from hostile creatures.
 
@@ -148,9 +148,9 @@ Offense
 
 Tactics
 
-**Before Combat** If hunting an animal, the ranger drinks his _potion of [hide from animals](spells/hideFromAnimals.md#_hide-from-animals)_.
+**Before Combat** If hunting an animal, the ranger drinks his _potion of [hide from animals](spells/hideFromAnimals#_hide-from-animals)_.
 
-**During Combat** The ranger sneaks close, then charges into melee. If his target is more powerful than expected, he retreats and drinks his _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_.
+**During Combat** The ranger sneaks close, then charges into melee. If his target is more powerful than expected, he retreats and drinks his _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_.
 
 Statistics
 
@@ -158,15 +158,15 @@ Statistics
 
 **Base Atk** +3; **CMB** +6; **CMD** 17
 
-**Feats** Double Slice, [Endurance](feats.md#_endurance), [Quick Draw](feats.md#_quick-draw), [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Focus](feats.md#_weapon-focus) (handaxe)
+**Feats** Double Slice, [Endurance](feats#_endurance), [Quick Draw](feats#_quick-draw), [Two-Weapon Fighting](feats#_two-weapon-fighting), [Weapon Focus](feats#_weapon-focus) (handaxe)
 
-**Skills** [Climb](skills/climb.md#_climb) +9, [Intimidate](skills/intimidate.md#_intimidate) +4, [Knowledge](skills/knowledge.md#_knowledge) (geography) +5, [Knowledge](skills/knowledge.md#_knowledge) (local) +2, [Knowledge](skills/knowledge.md#_knowledge) (nature) +6, Perception +7, [Stealth](skills/stealth.md#_stealth) +7, [Survival](skills/survival.md#_survival) +7
+**Skills** [Climb](skills/climb#_climb) +9, [Intimidate](skills/intimidate#_intimidate) +4, [Knowledge](skills/knowledge#_knowledge) (geography) +5, [Knowledge](skills/knowledge#_knowledge) (local) +2, [Knowledge](skills/knowledge#_knowledge) (nature) +6, Perception +7, [Stealth](skills/stealth#_stealth) +7, [Survival](skills/survival#_survival) +7
 
 **Languages** Common
 
 **SQ** favored terrain (forest +2), track +1, wild empathy +2
 
-**Combat Gear** _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength), potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), _potion of [hide from animals](spells/hideFromAnimals.md#_hide-from-animals)_; **Other Gear** masterwork studded leather, masterwork handaxes (2), masterwork heavy crossbow with 20 bolts, 63 gp
+**Combat Gear** _potion of [bull's strength](spells/bullSStrength#_bull-s-strength), potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_ (2), _potion of [hide from animals](spells/hideFromAnimals#_hide-from-animals)_; **Other Gear** masterwork studded leather, masterwork handaxes (2), masterwork heavy crossbow with 20 bolts, 63 gp
 
 Poachers hunt animals for meat or trophies in areas where hunting is forbidden.
 
@@ -206,15 +206,15 @@ Offense
 
 **Ranger Spells Prepared** (CL 1st; concentration +2)
 
-1st—_ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [resist energy](spells/resistEnergy#_resist-energy)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (fire).
+**Before Combat** The ranger casts _ [resist energy](spells/resistEnergy#_resist-energy)_ (fire).
 
 **During Combat** The ranger keeps her foes as far away as possible.
 
-**Base Statistics** Without _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the ranger's statistics are **Resist** none.
+**Base Statistics** Without _ [resist energy](spells/resistEnergy#_resist-energy)_, the ranger's statistics are **Resist** none.
 
 Statistics
 
@@ -222,15 +222,15 @@ Statistics
 
 **Base Atk** +4; **CMB** +6; **CMD** 20
 
-**Feats** [Endurance](feats.md#_endurance), [Point-Blank Shot](feats.md#_point-blank-shot), Precise Shot, Rapid Shot
+**Feats** [Endurance](feats#_endurance), [Point-Blank Shot](feats#_point-blank-shot), Precise Shot, Rapid Shot
 
-**Skills** [Climb](skills/climb.md#_climb) +8, [Intimidate](skills/intimidate.md#_intimidate) +8, [Knowledge](skills/knowledge.md#_knowledge) (geography) +5, [Knowledge](skills/knowledge.md#_knowledge) (local) +2, [Knowledge](skills/knowledge.md#_knowledge) (nature) +7, Perception +8, [Stealth](skills/stealth.md#_stealth) +10, [Survival](skills/survival.md#_survival) +8
+**Skills** [Climb](skills/climb#_climb) +8, [Intimidate](skills/intimidate#_intimidate) +8, [Knowledge](skills/knowledge#_knowledge) (geography) +5, [Knowledge](skills/knowledge#_knowledge) (local) +2, [Knowledge](skills/knowledge#_knowledge) (nature) +7, Perception +8, [Stealth](skills/stealth#_stealth) +10, [Survival](skills/survival#_survival) +8
 
 **Languages** Common, Orc
 
 **SQ** favored terrain (plains +2), hunter's bond (companions), orc blood, track +2, weapon familiarity, wild empathy +3
 
-**Combat Gear** _+1 [flaming](magicItems/weapons.md#_weapons-flaming) arrows_ (3), _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [divine favor](spells/divineFavor.md#_divine-favor), potion of [shield](spells/shield.md#_shield) of faith_; **Other Gear** masterwork chain shirt, masterwork composite longbow (+2 Str) with 20 arrows, masterwork falchion, _ [elixir of hiding](magicItems/wondrousItems.md#_elixir-of-hiding)_, 26 gp
+**Combat Gear** _+1 [flaming](magicItems/weapons#_weapons-flaming) arrows_ (3), _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _potion of [divine favor](spells/divineFavor#_divine-favor), potion of [shield](spells/shield#_shield) of faith_; **Other Gear** masterwork chain shirt, masterwork composite longbow (+2 Str) with 20 arrows, masterwork falchion, _ [elixir of hiding](magicItems/wondrousItems#_elixir-of-hiding)_, 26 gp
 
 A border guard protects the lands of her tribe.
 
@@ -274,15 +274,15 @@ lance +7 (1d8+2/×3)
 
 **Ranger Spells Prepared** (CL 2nd; concentration +3)
 
-1st—_ [endure elements](spells/endureElements.md#_endure-elements)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [endure elements](spells/endureElements#_endure-elements)_, _ [resist energy](spells/resistEnergy#_resist-energy)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [endure elements](spells/endureElements.md#_endure-elements)_ and _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (fire).
+**Before Combat** The ranger casts _ [endure elements](spells/endureElements#_endure-elements)_ and _ [resist energy](spells/resistEnergy#_resist-energy)_ (fire).
 
-**During Combat** The ranger shoots from horseback. When fighting dangerous opponents, she uses _oil of [magic weapon](spells/magicWeapon.md#_magic-weapon)_ on her bow and drinks her _potion of [blur](spells/blur.md#_blur)_.
+**During Combat** The ranger shoots from horseback. When fighting dangerous opponents, she uses _oil of [magic weapon](spells/magicWeapon#_magic-weapon)_ on her bow and drinks her _potion of [blur](spells/blur#_blur)_.
 
-**Base Statistics** Without _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the ranger's statistics are **Resist** none.
+**Base Statistics** Without _ [resist energy](spells/resistEnergy#_resist-energy)_, the ranger's statistics are **Resist** none.
 
 Statistics
 
@@ -290,15 +290,15 @@ Statistics
 
 **Base Atk** +5; **CMB** +7; **CMD** 20
 
-**Feats** [Endurance](feats.md#_endurance), [Improved Initiative](feats.md#_improved-initiative), Mounted Archery, [Mounted Combat](feats.md#_mounted-combat), [Point-Blank Shot](feats.md#_point-blank-shot), [Weapon Focus](feats.md#_weapon-focus) (composite shortbow)
+**Feats** [Endurance](feats#_endurance), [Improved Initiative](feats#_improved-initiative), Mounted Archery, [Mounted Combat](feats#_mounted-combat), [Point-Blank Shot](feats#_point-blank-shot), [Weapon Focus](feats#_weapon-focus) (composite shortbow)
 
-**Skills** [Handle Animal](skills/handleAnimal.md#_handle-animal) +7, [Heal](skills/heal.md#_heal) +9, [Knowledge](skills/knowledge.md#_knowledge) (geography, nature) +8, Perception +9, [Ride](skills/ride.md#_ride) +9, [Stealth](skills/stealth.md#_stealth) +9, [Survival](skills/survival.md#_survival) +9
+**Skills** [Handle Animal](skills/handleAnimal#_handle-animal) +7, [Heal](skills/heal#_heal) +9, [Knowledge](skills/knowledge#_knowledge) (geography, nature) +8, Perception +9, [Ride](skills/ride#_ride) +9, [Stealth](skills/stealth#_stealth) +9, [Survival](skills/survival#_survival) +9
 
 **Languages** Common
 
 **SQ** favored terrain (desert +2), hunter's bond (companions), track +2, wild empathy +4
 
-**Combat Gear** _oil of [magic weapon](spells/magicWeapon.md#_magic-weapon)_,_ potion of [blur](spells/blur.md#_blur)_, _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [invisibility](spells/invisibility.md#_invisibility)_; **Other Gear** masterwork chain shirt, masterwork heavy wooden shield, lance, masterwork composite shortbow (+2 Str) with 20 arrows, masterwork scimitar, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, combat-trained horse, riding saddle, 72 gp
+**Combat Gear** _oil of [magic weapon](spells/magicWeapon#_magic-weapon)_,_ potion of [blur](spells/blur#_blur)_, _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _potion of [invisibility](spells/invisibility#_invisibility)_; **Other Gear** masterwork chain shirt, masterwork heavy wooden shield, lance, masterwork composite shortbow (+2 Str) with 20 arrows, masterwork scimitar, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, combat-trained horse, riding saddle, 72 gp
 
 The mounted archer fires deadly arrows from horseback.
 
@@ -332,7 +332,7 @@ Offense
 
 **Melee** mwk dagger +9/+4 (1d3+1/19–20)
 
-**Ranged** _+1 [light](spells/light.md#_light) crossbow_ +12 (1d6+1/19–20) or
+**Ranged** _+1 [light](spells/light#_light) crossbow_ +12 (1d6+1/19–20) or
 
 mwk dagger +11/+6 (1d3+1/19–20)
 
@@ -340,15 +340,15 @@ mwk dagger +11/+6 (1d3+1/19–20)
 
 **Ranger Spells Prepared** (CL 3rd; concentration +4)
 
-1st—_ [alarm](spells/alarm.md#_alarm)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_
+1st—_ [alarm](spells/alarm#_alarm)_, _ [delay poison](spells/delayPoison#_delay-poison)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [delay poison](spells/delayPoison.md#_delay-poison)_.
+**Before Combat** The ranger casts _ [delay poison](spells/delayPoison#_delay-poison)_.
 
 **During Combat** The ranger uses Precise Shot to help allies in melee.
 
-**Base Statistics** Without _ [delay poison](spells/delayPoison.md#_delay-poison)_, the ranger's statistics are **Immune** none.
+**Base Statistics** Without _ [delay poison](spells/delayPoison#_delay-poison)_, the ranger's statistics are **Immune** none.
 
 Statistics
 
@@ -356,15 +356,15 @@ Statistics
 
 **Base Atk** +6; **CMB** +6; **CMD** 20
 
-**Feats** [Dodge](feats.md#_dodge), [Endurance](feats.md#_endurance), [Point-Blank Shot](feats.md#_point-blank-shot), Precise Shot, [Rapid Reload](ultimateCombat/ultimateCombatFeats.md#rapid-reload), [Weapon Focus](feats.md#_weapon-focus) (light crossbow)
+**Feats** [Dodge](feats#_dodge), [Endurance](feats#_endurance), [Point-Blank Shot](feats#_point-blank-shot), Precise Shot, [Rapid Reload](ultimateCombat/ultimateCombatFeats#rapid-reload), [Weapon Focus](feats#_weapon-focus) (light crossbow)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +8 (+4 when jumping), [Climb](skills/climb.md#_climb) +6, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, nature) +10, [Knowledge](skills/knowledge.md#_knowledge) (engineering) +4, Perception +12, [Stealth](skills/stealth.md#_stealth) +15, [Survival](skills/survival.md#_survival) +10
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +8 (+4 when jumping), [Climb](skills/climb#_climb) +6, [Knowledge](skills/knowledge#_knowledge) (dungeoneering, nature) +10, [Knowledge](skills/knowledge#_knowledge) (engineering) +4, Perception +12, [Stealth](skills/stealth#_stealth) +15, [Survival](skills/survival#_survival) +10
 
 **Languages** Common, Gnome, Sylvan
 
 **SQ** favored terrain (underground +2), hunter's bond (companion), track +3, wild empathy +6
 
-**Combat Gear** _+1 [flaming](magicItems/weapons.md#_weapons-flaming) arrows_ (6), _potion of [barkskin](spells/barkskin.md#_barkskin)_, _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, smokesticks (2); **Other Gear** masterwork chain shirt, _+1 [light](spells/light.md#_light) crossbow_ with 20 bolts, masterwork dagger, 167 gp
+**Combat Gear** _+1 [flaming](magicItems/weapons#_weapons-flaming) arrows_ (6), _potion of [barkskin](spells/barkskin#_barkskin)_, _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, smokesticks (2); **Other Gear** masterwork chain shirt, _+1 [light](spells/light#_light) crossbow_ with 20 bolts, masterwork dagger, 167 gp
 
 A tunnel rat patrols twisting passages underground.
 
@@ -400,17 +400,17 @@ Offense
 
 **Ranger Spells Prepared** (CL 4th; concentration +6)
 
-2nd—_ [spike growth](spells/spikeGrowth.md#_spike-growth)_
+2nd—_ [spike growth](spells/spikeGrowth#_spike-growth)_
 
-1st—_ [longstrider](spells/longstrider.md#_longstrider)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [longstrider](spells/longstrider#_longstrider)_, _ [resist energy](spells/resistEnergy#_resist-energy)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [longstrider](spells/longstrider.md#_longstrider)_ and _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (fire), then drinks his _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_.
+**Before Combat** The ranger casts _ [longstrider](spells/longstrider#_longstrider)_ and _ [resist energy](spells/resistEnergy#_resist-energy)_ (fire), then drinks his _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_.
 
-**During Combat** The ranger uses Shield Slam to push opponents into difficult terrain, off cliffs, or into the area of _ [spike growth](spells/spikeGrowth.md#_spike-growth)_.
+**During Combat** The ranger uses Shield Slam to push opponents into difficult terrain, off cliffs, or into the area of _ [spike growth](spells/spikeGrowth#_spike-growth)_.
 
-**Base Statistics** Without _ [bull's strength](spells/bullSStrength.md#_bull-s-strength), [longstrider](spells/longstrider.md#_longstrider)_, and _resist energy_, the ranger's statistics are **Resist** none; **Speed** 20 ft.; **Melee** _+1 warhammer_ +7/+2 (1d8+4/×3), mwk heavy shield +7/+2 (1d4+3 plus bull rush); **Str** 16; **CMB** +10; **CMD** 22 (26 vs. bull rush or trip); **Skills** [Climb](skills/climb.md#_climb) +9, [Swim](skills/swim.md#_swim) +7.
+**Base Statistics** Without _ [bull's strength](spells/bullSStrength#_bull-s-strength), [longstrider](spells/longstrider#_longstrider)_, and _resist energy_, the ranger's statistics are **Resist** none; **Speed** 20 ft.; **Melee** _+1 warhammer_ +7/+2 (1d8+4/×3), mwk heavy shield +7/+2 (1d4+3 plus bull rush); **Str** 16; **CMB** +10; **CMD** 22 (26 vs. bull rush or trip); **Skills** [Climb](skills/climb#_climb) +9, [Swim](skills/swim#_swim) +7.
 
 Statistics
 
@@ -418,15 +418,15 @@ Statistics
 
 **Base Atk** +7; **CMB** +12; **CMD** 24 (28 vs. bull rush or trip)
 
-**Feats** Double Slice, [Endurance](feats.md#_endurance), Improved Shield Bash, Improved [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Power Attack](feats.md#_power-attack), Shield Slam, [Two-Weapon Fighting](feats.md#_two-weapon-fighting)
+**Feats** Double Slice, [Endurance](feats#_endurance), Improved Shield Bash, Improved [Two-Weapon Fighting](feats#_two-weapon-fighting), [Power Attack](feats#_power-attack), Shield Slam, [Two-Weapon Fighting](feats#_two-weapon-fighting)
 
-**Skills** [Climb](skills/climb.md#_climb) +11, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, geography, nature) +8, Perception +12 (+14 to notice unusual stonework), [Profession](skills/profession.md#_profession) (miner) +8, [Stealth](skills/stealth.md#_stealth) +6, [Survival](skills/survival.md#_survival) +10, [Swim](skills/swim.md#_swim) +9
+**Skills** [Climb](skills/climb#_climb) +11, [Knowledge](skills/knowledge#_knowledge) (dungeoneering, geography, nature) +8, Perception +12 (+14 to notice unusual stonework), [Profession](skills/profession#_profession) (miner) +8, [Stealth](skills/stealth#_stealth) +6, [Survival](skills/survival#_survival) +10, [Swim](skills/swim#_swim) +9
 
 **Languages** Common, Dwarven
 
 **SQ** favored terrain (mountain +2), hunter's bond (companions), track +3, wild empathy +5, woodland stride
 
-**Combat Gear** _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_; **Other Gear** _+1 breastplate_, masterwork heavy wooden shield, _+1 warhammer_, masterwork heavy crossbow with 20 bolts, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, 229 gp
+**Combat Gear** _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_, _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_; **Other Gear** _+1 breastplate_, masterwork heavy wooden shield, _+1 warhammer_, masterwork heavy crossbow with 20 bolts, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, 229 gp
 
 Orc slayer CR 7
 
@@ -460,17 +460,17 @@ Offense
 
 **Ranger Spells Prepared** (CL 5th; concentration +6)
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_
 
-1st—_ [entangle](spells/entangle.md#_entangle)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [entangle](spells/entangle#_entangle)_, _ [resist energy](spells/resistEnergy#_resist-energy)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (fire).
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_ (fire).
 
-**During Combat** If ranger acts in the surprise round, she casts _ [entangle](spells/entangle.md#_entangle)_. She prefers to attack at range and from cover.
+**During Combat** If ranger acts in the surprise round, she casts _ [entangle](spells/entangle#_entangle)_. She prefers to attack at range and from cover.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the ranger's statistics are **Init** +4; **AC** 20, touch 15, flat-footed 16; **Ref** +11; **Melee** mwk elven curve blade +13/+8 (1d10+1/18–20); **Ranged** +1 longbow +13/+8 (1d8+1/×3); **Dex** 19; **CMD** +24; **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +11, [Ride](skills/ride.md#_ride) +10, [Stealth](skills/stealth.md#_stealth) +14.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_, the ranger's statistics are **Init** +4; **AC** 20, touch 15, flat-footed 16; **Ref** +11; **Melee** mwk elven curve blade +13/+8 (1d10+1/18–20); **Ranged** +1 longbow +13/+8 (1d8+1/×3); **Dex** 19; **CMD** +24; **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +11, [Ride](skills/ride#_ride) +10, [Stealth](skills/stealth#_stealth) +14.
 
 Statistics
 
@@ -478,15 +478,15 @@ Statistics
 
 **Base Atk** +8; **CMB** +9; **CMD** 26
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Deadly Aim](feats.md#_deadly-aim), [Endurance](feats.md#_endurance), [Point-Blank Shot](feats.md#_point-blank-shot), [Power Attack](feats.md#_power-attack), Precise Shot, [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Combat Reflexes](feats#_combat-reflexes), [Deadly Aim](feats#_deadly-aim), [Endurance](feats#_endurance), [Point-Blank Shot](feats#_point-blank-shot), [Power Attack](feats#_power-attack), Precise Shot, [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +13, [Climb](skills/climb.md#_climb) +9, [Heal](skills/heal.md#_heal) +8, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, geography) +6, [Knowledge](skills/knowledge.md#_knowledge) (nature) +8, Perception +14, [Ride](skills/ride.md#_ride) +12, [Stealth](skills/stealth.md#_stealth) +16, [Survival](skills/survival.md#_survival) +12, [Swim](skills/swim.md#_swim) +7
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +13, [Climb](skills/climb#_climb) +9, [Heal](skills/heal#_heal) +8, [Knowledge](skills/knowledge#_knowledge) (dungeoneering, geography) +6, [Knowledge](skills/knowledge#_knowledge) (nature) +8, Perception +14, [Ride](skills/ride#_ride) +12, [Stealth](skills/stealth#_stealth) +16, [Survival](skills/survival#_survival) +12, [Swim](skills/swim#_swim) +7
 
 **Languages** Common, Elven, Orc
 
 **SQ** elven magic, favored terrain (forest +4, plains +2), hunter's bond (companions), swift tracker, track +4, weapon familiarity, wild empathy +7, woodland stride
 
-**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_; **Other Gear** _+1 chain shirt_, _+1 longbow _with 20 arrows, masterwork elven curve blade, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 194 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_; **Other Gear** _+1 chain shirt_, _+1 longbow _with 20 arrows, masterwork elven curve blade, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, 194 gp
 
 The orc slayer is driven by vengeance to kill all orcs.
 
@@ -522,17 +522,17 @@ Offense
 
 **Ranger Spells Prepared** (CL 6th; concentration +8)
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [snare](spells/snare.md#_snare)_
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [snare](spells/snare#_snare)_
 
-1st—_ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_, _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_ (2)
+1st—_ [pass without trace](spells/passWithoutTrace#_pass-without-trace)_, _ [speak with animals](spells/speakWithAnimals#_speak-with-animals)_ (2)
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_ and _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_.
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_ and _ [pass without trace](spells/passWithoutTrace#_pass-without-trace)_.
 
-**During Combat** The ranger attacks from stealth using his bow. He might drag a Small opponent underwater, relying on [Endurance](feats.md#_endurance) to outlast his drowning foe (though he has his _potion of [water breathing](spells/waterBreathing.md#_water-breathing)_ just in case).
+**During Combat** The ranger attacks from stealth using his bow. He might drag a Small opponent underwater, relying on [Endurance](feats#_endurance) to outlast his drowning foe (though he has his _potion of [water breathing](spells/waterBreathing#_water-breathing)_ just in case).
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, the ranger's statistics are **AC** 16, touch 12, flat-footed 15.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, the ranger's statistics are **AC** 16, touch 12, flat-footed 15.
 
 Statistics
 
@@ -540,15 +540,15 @@ Statistics
 
 **Base Atk** +9; **CMB** +13; **CMD** 25
 
-**Feats** [Deadly Aim](feats.md#_deadly-aim), [Endurance](feats.md#_endurance), [Exotic Weapon Proficiency](feats.md#_exotic-weapon-proficiency) (spiked chain), [Improved Critical](feats.md#_improved-critical) (composite longbow), [Point-Blank Shot](feats.md#_point-blank-shot), Rapid Shot, [Skill Focus](feats.md#_skill-focus) ( [Stealth](skills/stealth.md#_stealth)), [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (composite longbow)
+**Feats** [Deadly Aim](feats#_deadly-aim), [Endurance](feats#_endurance), [Exotic Weapon Proficiency](feats#_exotic-weapon-proficiency) (spiked chain), [Improved Critical](feats#_improved-critical) (composite longbow), [Point-Blank Shot](feats#_point-blank-shot), Rapid Shot, [Skill Focus](feats#_skill-focus) ( [Stealth](skills/stealth#_stealth)), [Vital Strike](feats#_vital-strike), [Weapon Focus](feats#_weapon-focus) (composite longbow)
 
-**Skills** [Climb](skills/climb.md#_climb) +12, [Handle Animal](skills/handleAnimal.md#_handle-animal) +6, [Knowledge](skills/knowledge.md#_knowledge) (nature) +12, Perception +16, [Stealth](skills/stealth.md#_stealth) +16, [Survival](skills/survival.md#_survival) +14, [Swim](skills/swim.md#_swim) +16
+**Skills** [Climb](skills/climb#_climb) +12, [Handle Animal](skills/handleAnimal#_handle-animal) +6, [Knowledge](skills/knowledge#_knowledge) (nature) +12, Perception +16, [Stealth](skills/stealth#_stealth) +16, [Survival](skills/survival#_survival) +14, [Swim](skills/swim#_swim) +16
 
 **Languages** Common, Elven
 
 **SQ** elf blood, favored terrain (forest +2, swamp +4), hunter's bond (companions), swift tracker, track +4, wild empathy +8, woodland stride
 
-**Combat Gear** _+1 [frost](magicItems/weapons.md#_weapons-frost) arrows_ (5), _+1 human-bane arrows_ (5); _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [haste](spells/haste.md#_haste), potion of [water breathing](spells/waterBreathing.md#_water-breathing)_; **Other Gear** _+1 studded leather_, _+1 composite longbow_ (+4 Str) with 20 arrows, masterwork spiked chain, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 290 gp
+**Combat Gear** _+1 [frost](magicItems/weapons#_weapons-frost) arrows_ (5), _+1 human-bane arrows_ (5); _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _potion of [haste](spells/haste#_haste), potion of [water breathing](spells/waterBreathing#_water-breathing)_; **Other Gear** _+1 studded leather_, _+1 composite longbow_ (+4 Str) with 20 arrows, masterwork spiked chain, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, 290 gp
 
 The swampwalker is a savage predator of the stinking marsh. He is familiar with its threats and uses them as tools to defeat his opponents.
 
@@ -592,17 +592,17 @@ Offense
 
 **Ranger Spells Prepared** (CL 7th; concentration +9)
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [wind wall](spells/windWall.md#_wind-wall)_
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [wind wall](spells/windWall#_wind-wall)_
 
-1st—_ [endure elements](spells/endureElements.md#_endure-elements)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [endure elements](spells/endureElements#_endure-elements)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [resist energy](spells/resistEnergy#_resist-energy)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_, _ [endure elements](spells/endureElements.md#_endure-elements)_, _ [longstrider](spells/longstrider.md#_longstrider)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (fire).
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_, _ [endure elements](spells/endureElements#_endure-elements)_, _ [longstrider](spells/longstrider#_longstrider)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_ (fire).
 
 **During Combat** The ranger prefers melee, using Mobility and Spring Attack to engage the enemy leader while her pirate allies deal with underlings.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, _ [longstrider](spells/longstrider.md#_longstrider)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the ranger's statistics are **AC** 22, touch 17, flat-footed 17; **Resist** none; **Speed** 20 ft.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, _ [longstrider](spells/longstrider#_longstrider)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_, the ranger's statistics are **AC** 22, touch 17, flat-footed 17; **Resist** none; **Speed** 20 ft.
 
 Statistics
 
@@ -610,15 +610,15 @@ Statistics
 
 **Base Atk** +10; **CMB** +11; **CMD** 27
 
-**Feats** [Dodge](feats.md#_dodge), [Endurance](feats.md#_endurance), Improved [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Mobility, Spring Attack, Two-Weapon Defense, [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Vital Strike](feats.md#_vital-strike), [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Dodge](feats#_dodge), [Endurance](feats#_endurance), Improved [Two-Weapon Fighting](feats#_two-weapon-fighting), Mobility, Spring Attack, Two-Weapon Defense, [Two-Weapon Fighting](feats#_two-weapon-fighting), [Vital Strike](feats#_vital-strike), [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +11, [Climb](skills/climb.md#_climb) +17, [Knowledge](skills/knowledge.md#_knowledge) (geography, nature) +8, Perception +17, [Profession](skills/profession.md#_profession) (sailor) +10, [Stealth](skills/stealth.md#_stealth) +21, [Survival](skills/survival.md#_survival) +15, [Swim](skills/swim.md#_swim) +15
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +11, [Climb](skills/climb#_climb) +17, [Knowledge](skills/knowledge#_knowledge) (geography, nature) +8, Perception +17, [Profession](skills/profession#_profession) (sailor) +10, [Stealth](skills/stealth#_stealth) +21, [Survival](skills/survival#_survival) +15, [Swim](skills/swim#_swim) +15
 
 **Languages** Common, Halfling
 
 **SQ** favored terrain (urban +2, water +4), hunter's bond (companions), swift tracker, track +5, wild empathy +10, woodland stride
 
-**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_; **Other Gear** _+1 studded leather_, _+1 rapier_, masterwork handaxe, masterwork light crossbow with 20 bolts, _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [feather token](magicItems/wondrousItems.md#_feather-token)_ (swan boat), _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 863 gp
+**Combat Gear** _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_; **Other Gear** _+1 studded leather_, _+1 rapier_, masterwork handaxe, masterwork light crossbow with 20 bolts, _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _ [feather token](magicItems/wondrousItems#_feather-token)_ (swan boat), _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, 863 gp
 
 The pirate queen is a deadly foe, whether she's encountered in a scummy port town or out on the high seas, flying the black flag. She keeps a full crew of unruly, vicious buccaneers in line, and rewards them with the treasure and carnage they crave.
 
@@ -664,19 +664,19 @@ mwk longspear +15/+10/+5 (1d6+3/×3)
 
 **Ranger Spells Prepared** (CL 8th; concentration +10)
 
-3rd—_ [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_
+3rd—_ [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_
 
-1st—_ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [entangle](spells/entangle.md#_entangle)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [delay poison](spells/delayPoison#_delay-poison)_, _ [entangle](spells/entangle#_entangle)_, _ [resist energy](spells/resistEnergy#_resist-energy)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (fire).
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [delay poison](spells/delayPoison#_delay-poison)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_ (fire).
 
-**During Combat** If facing multiple opponents with reach, the ranger uses [Lunge](feats.md#_lunge).
+**During Combat** If facing multiple opponents with reach, the ranger uses [Lunge](feats#_lunge).
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the ranger's statistics are **hp** 94; **Fort** +10; **AC** 21, touch 15, flat-footed 18; **Immune** none; **Resist** none; **Con** 14.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [delay poison](spells/delayPoison#_delay-poison)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_, the ranger's statistics are **hp** 94; **Fort** +10; **AC** 21, touch 15, flat-footed 18; **Immune** none; **Resist** none; **Con** 14.
 
 Statistics
 
@@ -684,15 +684,15 @@ Statistics
 
 **Base Atk** +11; **CMB** +12; **CMD** 26
 
-**Feats** [Dodge](feats.md#_dodge), Double Slice, [Endurance](feats.md#_endurance), [Improved Critical](feats.md#_improved-critical) (gnome hooked hammer), [Lunge](feats.md#_lunge), Mobility, [Power Attack](feats.md#_power-attack), [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Two-Weapon Rend, [Vital Strike](feats.md#_vital-strike)
+**Feats** [Dodge](feats#_dodge), Double Slice, [Endurance](feats#_endurance), [Improved Critical](feats#_improved-critical) (gnome hooked hammer), [Lunge](feats#_lunge), Mobility, [Power Attack](feats#_power-attack), [Two-Weapon Fighting](feats#_two-weapon-fighting), Two-Weapon Rend, [Vital Strike](feats#_vital-strike)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +17 (+13 when jumping), [Climb](skills/climb.md#_climb) +8, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, local) +5, [Knowledge](skills/knowledge.md#_knowledge) (geography, nature) +8, [Linguistics](skills/linguistics.md#_linguistics) +1, Perception +18, [Stealth](skills/stealth.md#_stealth) +19, [Survival](skills/survival.md#_survival) +16, [Swim](skills/swim.md#_swim) +8
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +17 (+13 when jumping), [Climb](skills/climb#_climb) +8, [Knowledge](skills/knowledge#_knowledge) (dungeoneering, local) +5, [Knowledge](skills/knowledge#_knowledge) (geography, nature) +8, [Linguistics](skills/linguistics#_linguistics) +1, Perception +18, [Stealth](skills/stealth#_stealth) +19, [Survival](skills/survival#_survival) +16, [Swim](skills/swim#_swim) +8
 
 **Languages** Common, Giant, Gnome
 
 **SQ** favored terrain (mountain +2, underground +4), hunter's bond (companions), quarry, swift tracker, track +5, wild empathy +11, woodland stride
 
-**Combat Gear** _potion of [invisibility](spells/invisibility.md#_invisibility)_, _scroll of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_; **Other Gear** _+2 chain shirt_, _+1/masterwork gnome hooked hammer_, masterwork composite longbow (+3 Str) with 20 arrows, _ [boots of elvenkind](magicItems/wondrousItems.md#_boots-of-elvenkind)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 630 gp
+**Combat Gear** _potion of [invisibility](spells/invisibility#_invisibility)_, _scroll of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_; **Other Gear** _+2 chain shirt_, _+1/masterwork gnome hooked hammer_, masterwork composite longbow (+3 Str) with 20 arrows, _ [boots of elvenkind](magicItems/wondrousItems#_boots-of-elvenkind)_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, 630 gp
 
 The giant-killer is trained to kill monsters many times her size, using speed, specialized weapons, and time honored techniques to bring down even the most daunting foes.
 
@@ -736,17 +736,17 @@ Offense
 
 **Ranger Spells Prepared** (CL 9th; concentration +10)
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [wind wall](spells/windWall.md#_wind-wall)_
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [wind wall](spells/windWall#_wind-wall)_
 
-1st—_ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [delay poison](spells/delayPoison#_delay-poison)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [resist energy](spells/resistEnergy#_resist-energy)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [longstrider](spells/longstrider.md#_longstrider)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (fire).
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [delay poison](spells/delayPoison#_delay-poison)_, _ [longstrider](spells/longstrider#_longstrider)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_ (fire).
 
-**During Combat** The ranger attacks with his bow using [Deadly Aim](feats.md#_deadly-aim). In melee, he uses his kukris or attempts to grapple.
+**During Combat** The ranger attacks with his bow using [Deadly Aim](feats#_deadly-aim). In melee, he uses his kukris or attempts to grapple.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [longstrider](spells/longstrider.md#_longstrider)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the ranger's statistics are **Init** +6; **Senses** normal; **AC** 20, touch 14, flat-footed 17; **Ref** +11; **Immune** none; **Resist** none; **Speed** 30 ft.; **Ranged** mwk longbow +15/+10/+5 (1d8+4/×3); **Dex** 14; **CMD** 30 (32 vs. grapple); **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +12, [Stealth](skills/stealth.md#_stealth) +17.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [delay poison](spells/delayPoison#_delay-poison)_, _ [longstrider](spells/longstrider#_longstrider)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_, the ranger's statistics are **Init** +6; **Senses** normal; **AC** 20, touch 14, flat-footed 17; **Ref** +11; **Immune** none; **Resist** none; **Speed** 30 ft.; **Ranged** mwk longbow +15/+10/+5 (1d8+4/×3); **Dex** 14; **CMD** 30 (32 vs. grapple); **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +12, [Stealth](skills/stealth#_stealth) +17.
 
 Statistics
 
@@ -754,15 +754,15 @@ Statistics
 
 **Base Atk** +12; **CMB** +16 (+18 grapple); **CMD** 32 (34 vs. grapple)
 
-**Feats** [Deadly Aim](feats.md#_deadly-aim), [Dodge](feats.md#_dodge), Double Slice, [Endurance](feats.md#_endurance), Improved Grapple, [Improved Initiative](feats.md#_improved-initiative), Improved [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Point-Blank Shot](feats.md#_point-blank-shot), [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Focus](feats.md#_weapon-focus) (kukri)
+**Feats** [Deadly Aim](feats#_deadly-aim), [Dodge](feats#_dodge), Double Slice, [Endurance](feats#_endurance), Improved Grapple, [Improved Initiative](feats#_improved-initiative), Improved [Two-Weapon Fighting](feats#_two-weapon-fighting), [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Point-Blank Shot](feats#_point-blank-shot), [Two-Weapon Fighting](feats#_two-weapon-fighting), [Weapon Focus](feats#_weapon-focus) (kukri)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +14 (+18 when jumping), [Bluff](skills/bluff.md#_bluff) +10, [Climb](skills/climb.md#_climb) +12, [Disguise](skills/disguise.md#_disguise) +7, [Knowledge](skills/knowledge.md#_knowledge) (geography, nature) +8, [Knowledge](skills/knowledge.md#_knowledge) (local) +5, [Linguistics](skills/linguistics.md#_linguistics) +2, Perception +16, [Sense Motive](skills/senseMotive.md#_sense-motive) +11, [Stealth](skills/stealth.md#_stealth) +19, [Survival](skills/survival.md#_survival) +16, [Swim](skills/swim.md#_swim) +10
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +14 (+18 when jumping), [Bluff](skills/bluff#_bluff) +10, [Climb](skills/climb#_climb) +12, [Disguise](skills/disguise#_disguise) +7, [Knowledge](skills/knowledge#_knowledge) (geography, nature) +8, [Knowledge](skills/knowledge#_knowledge) (local) +5, [Linguistics](skills/linguistics#_linguistics) +2, Perception +16, [Sense Motive](skills/senseMotive#_sense-motive) +11, [Stealth](skills/stealth#_stealth) +19, [Survival](skills/survival#_survival) +16, [Swim](skills/swim#_swim) +10
 
 **Languages** Common, Elven, Orc
 
 **SQ** camouflage, favored terrain (plains +2, urban +4), hunter's bond (companions), quarry, swift tracker, track +6, wild empathy +12, woodland stride
 
-**Combat Gear** _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), smokesticks (2), tanglefoot bags (2); **Other Gear** _+2 studded leather, +1 kukris_ (2), masterwork composite longbow (+4 Str) with 20 arrows, _amulet of natural armor +1_, _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 793 gp
+**Combat Gear** _potions of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_ (2), smokesticks (2), tanglefoot bags (2); **Other Gear** _+2 studded leather, +1 kukris_ (2), masterwork composite longbow (+4 Str) with 20 arrows, _amulet of natural armor +1_, _ [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, 793 gp
 
 A bounty hunter brings back his targets dead or alive.
 
@@ -800,25 +800,25 @@ Offense
 
 **Melee** _+1 cold iron rapier_ +17/+12/+7 (1d6+3/15–20), _+1 silver dagger_ +17/+12/+7 (1d4+2/19–20)
 
-**Ranged** _+1 [light](spells/light.md#_light) crossbow_ +19 (1d8+1/19–20)
+**Ranged** _+1 [light](spells/light#_light) crossbow_ +19 (1d8+1/19–20)
 
 **Special Attacks** favored enemy (evil outsiders +6, magical beasts +2, undead +2)
 
 **Ranger Spells Prepared** (CL 10th; concentration +12)
 
-3rd—_ [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_
+3rd—_ [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_
 
-1st—_ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (2)
+1st—_ [delay poison](spells/delayPoison#_delay-poison)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [resist energy](spells/resistEnergy#_resist-energy)_ (2)
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (fire), and _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (electricity).
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [delay poison](spells/delayPoison#_delay-poison)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_ (fire), and _ [resist energy](spells/resistEnergy#_resist-energy)_ (electricity).
 
-**During Combat** If fighting demons or devils, the ranger applies _oil of [bless weapon](spells/blessWeapon.md#_bless-weapon)_ to one weapon and drinks her _potion of [heroism](spells/heroism.md#_heroism)_.
+**During Combat** If fighting demons or devils, the ranger applies _oil of [bless weapon](spells/blessWeapon#_bless-weapon)_ to one weapon and drinks her _potion of [heroism](spells/heroism#_heroism)_.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the ranger's statistics are **AC** 24, touch 16, flat-footed 18; **hp** 99; **Fort** +10; **Immune** sleep; **Resist** none; **Speed** 30; **Con** 12; **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +15.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [delay poison](spells/delayPoison#_delay-poison)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_, the ranger's statistics are **AC** 24, touch 16, flat-footed 18; **hp** 99; **Fort** +10; **Immune** sleep; **Resist** none; **Speed** 30; **Con** 12; **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +15.
 
 Statistics
 
@@ -826,15 +826,15 @@ Statistics
 
 **Base Atk** +13; **CMB** +15; **CMD** 31
 
-**Feats** [Dodge](feats.md#_dodge), Double Slice, [Endurance](feats.md#_endurance), Greater [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Improved Critical](feats.md#_improved-critical) (rapier), Improved [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Improved [Vital Strike](feats.md#_vital-strike), [Skill Focus](feats.md#_skill-focus) (Perception), [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Two-Weapon Rend, [Vital Strike](feats.md#_vital-strike), [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Dodge](feats#_dodge), Double Slice, [Endurance](feats#_endurance), Greater [Two-Weapon Fighting](feats#_two-weapon-fighting), [Improved Critical](feats#_improved-critical) (rapier), Improved [Two-Weapon Fighting](feats#_two-weapon-fighting), Improved [Vital Strike](feats#_vital-strike), [Skill Focus](feats#_skill-focus) (Perception), [Two-Weapon Fighting](feats#_two-weapon-fighting), Two-Weapon Rend, [Vital Strike](feats#_vital-strike), [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +15 (+19 when jumping), [Knowledge](skills/knowledge.md#_knowledge) (nature) +13, [Knowledge](skills/knowledge.md#_knowledge) (planes) +10, [Linguistics](skills/linguistics.md#_linguistics) +3, Perception +26, [Ride](skills/ride.md#_ride) +12, [Stealth](skills/stealth.md#_stealth) +21, [Survival](skills/survival.md#_survival) +18, [Swim](skills/swim.md#_swim) +10
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +15 (+19 when jumping), [Knowledge](skills/knowledge#_knowledge) (nature) +13, [Knowledge](skills/knowledge#_knowledge) (planes) +10, [Linguistics](skills/linguistics#_linguistics) +3, Perception +26, [Ride](skills/ride#_ride) +12, [Stealth](skills/stealth#_stealth) +21, [Survival](skills/survival#_survival) +18, [Swim](skills/swim#_swim) +10
 
 **Languages** Abyssal, Celestial, Common, Elven, Infernal
 
 **SQ** camouflage, elf blood, favored terrain (Abyss +4, underground +4, urban +2), hunter's bond (companions), quarry, swift tracker, track +6, wild empathy +12, woodland stride
 
-**Combat Gear** _oil of [bless weapon](spells/blessWeapon.md#_bless-weapon)_ (2), _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _potion of [heroism](spells/heroism.md#_heroism)_, _potions of [invisibility](spells/invisibility.md#_invisibility)_ (2), _+1 evil outsider-bane bolts_ (5), holy water (4); **Other Gear** _+2 mithral breastplate_, _+1 cold iron rapier_, _+1 [light](spells/light.md#_light) crossbow_ with 15 bolts, _+1 silver dagger_, _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, 772 gp
+**Combat Gear** _oil of [bless weapon](spells/blessWeapon#_bless-weapon)_ (2), _potions of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_ (2), _potion of [heroism](spells/heroism#_heroism)_, _potions of [invisibility](spells/invisibility#_invisibility)_ (2), _+1 evil outsider-bane bolts_ (5), holy water (4); **Other Gear** _+2 mithral breastplate_, _+1 cold iron rapier_, _+1 [light](spells/light#_light) crossbow_ with 15 bolts, _+1 silver dagger_, _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, 772 gp
 
 The fiendslayer's ultimate goal is to rid the mortal world of evil outsiders.
 
@@ -870,7 +870,7 @@ Offense
 
 **Speed** 40 ft.
 
-**Melee** _+1 scimitar_ +18/+13/+8 (1d6+6/15–20), _+2 [light](spells/light.md#_light) [shield](spells/shield.md#_shield)_ +21/+16 (1d3+7 plus bull rush)
+**Melee** _+1 scimitar_ +18/+13/+8 (1d6+6/15–20), _+2 [light](spells/light#_light) [shield](spells/shield#_shield)_ +21/+16 (1d3+7 plus bull rush)
 
 **Ranged** mwk composite longbow +16/+11/+6 (1d8+5/×3)
 
@@ -878,21 +878,21 @@ Offense
 
 **Ranger Spells Prepared** (CL 11th; concentration +13)
 
-4th—_ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_
+4th—_ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_
 
-3rd—_ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_
+3rd—_ [neutralize poison](spells/neutralizePoison#_neutralize-poison)_
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, _ [wind wall](spells/windWall.md#_wind-wall)_
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, _ [wind wall](spells/windWall#_wind-wall)_
 
-1st—_ [endure elements](spells/endureElements.md#_endure-elements)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [endure elements](spells/endureElements#_endure-elements)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [pass without trace](spells/passWithoutTrace#_pass-without-trace)_, _ [resist energy](spells/resistEnergy#_resist-energy)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_, _ [endure elements](spells/endureElements.md#_endure-elements)_, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (fire), and _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (electricity).
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_, _ [endure elements](spells/endureElements#_endure-elements)_, _ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [pass without trace](spells/passWithoutTrace#_pass-without-trace)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_ (fire), and _ [resist energy](spells/resistEnergy#_resist-energy)_ (electricity).
 
-**During Combat** The ranger casts _ [wind wall](spells/windWall.md#_wind-wall)_ to separate foes, then uses Improved Shield Bash to manipulate positioning.
+**During Combat** The ranger casts _ [wind wall](spells/windWall#_wind-wall)_ to separate foes, then uses Improved Shield Bash to manipulate positioning.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the ranger's statistics are **AC** 23, touch 14, flat-footed 21; **Immune** none; **Resist** none; **Speed** 30 ft.; **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +11.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_, the ranger's statistics are **AC** 23, touch 14, flat-footed 21; **Immune** none; **Resist** none; **Speed** 30 ft.; **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +11.
 
 Statistics
 
@@ -900,15 +900,15 @@ Statistics
 
 **Base Atk** +14; **CMB** +19; **CMD** 33
 
-**Feats** [Blind-Fight](feats.md#_blind-fight), [Dodge](feats.md#_dodge), Double Slice, [Endurance](feats.md#_endurance), [Improved Critical](feats.md#_improved-critical) (scimitar), [Improved Initiative](feats.md#_improved-initiative), Improved Shield Bash, Improved [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Power Attack](feats.md#_power-attack), Shield Master, Shield Slam, [Two-Weapon Fighting](feats.md#_two-weapon-fighting)
+**Feats** [Blind-Fight](feats#_blind-fight), [Dodge](feats#_dodge), Double Slice, [Endurance](feats#_endurance), [Improved Critical](feats#_improved-critical) (scimitar), [Improved Initiative](feats#_improved-initiative), Improved Shield Bash, Improved [Two-Weapon Fighting](feats#_two-weapon-fighting), [Power Attack](feats#_power-attack), Shield Master, Shield Slam, [Two-Weapon Fighting](feats#_two-weapon-fighting)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +11 (+15 when jumping), [Climb](skills/climb.md#_climb) +13, [Diplomacy](skills/diplomacy.md#_diplomacy) +4, [Handle Animal](skills/handleAnimal.md#_handle-animal) +7, [Heal](skills/heal.md#_heal) +10, [Intimidate](skills/intimidate.md#_intimidate) +1, [Knowledge](skills/knowledge.md#_knowledge) (geography) +8, [Knowledge](skills/knowledge.md#_knowledge) (nature) +13, Perception +19, [Ride](skills/ride.md#_ride) +9, [Sense Motive](skills/senseMotive.md#_sense-motive) +5, [Stealth](skills/stealth.md#_stealth) +18, [Survival](skills/survival.md#_survival) +15
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +11 (+15 when jumping), [Climb](skills/climb#_climb) +13, [Diplomacy](skills/diplomacy#_diplomacy) +4, [Handle Animal](skills/handleAnimal#_handle-animal) +7, [Heal](skills/heal#_heal) +10, [Intimidate](skills/intimidate#_intimidate) +1, [Knowledge](skills/knowledge#_knowledge) (geography) +8, [Knowledge](skills/knowledge#_knowledge) (nature) +13, Perception +19, [Ride](skills/ride#_ride) +9, [Sense Motive](skills/senseMotive#_sense-motive) +5, [Stealth](skills/stealth#_stealth) +18, [Survival](skills/survival#_survival) +15
 
 **Languages** Common, Orc
 
 **SQ** camouflage, favored terrain (desert +6, mountain +2, urban +2), hunter's bond (companions), orc blood, quarry, swift tracker, track +7, weapon familiarity, wild empathy +13, woodland stride
 
-**Combat Gear** _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _potion of [fly](spells/fly.md)_, _potion of [haste](spells/haste.md#_haste)_, _scrolls of [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_ (2), _wand of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_ (20 charges); **Other Gear** _+2 chain shirt_, _+2 [light](spells/light.md#_light) wooden [shield](spells/shield.md#_shield)_, _+1 scimitar_, masterwork composite longbow (+5 Str) with 20 arrows, _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, 981 gp
+**Combat Gear** _potions of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_ (2), _potion of [fly](spells/fly)_, _potion of [haste](spells/haste#_haste)_, _scrolls of [neutralize poison](spells/neutralizePoison#_neutralize-poison)_ (2), _wand of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_ (20 charges); **Other Gear** _+2 chain shirt_, _+2 [light](spells/light#_light) wooden [shield](spells/shield#_shield)_, _+1 scimitar_, masterwork composite longbow (+5 Str) with 20 arrows, _ [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +2_, _ [ring of protection](magicItems/rings#_ring-of-protection) +2_, 981 gp
 
 The desert stalker snares his prey and bleeds it dry.
 
@@ -952,21 +952,21 @@ Offense
 
 **Ranger Spells Prepared** (CL 12th; concentration +14)
 
-4th—_ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_
+4th—_ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_
 
-3rd—_ [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_
+3rd—_ [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _ [neutralize poison](spells/neutralizePoison#_neutralize-poison)_
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_
 
-1st—_ [longstrider](spells/longstrider.md#_longstrider)_, _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (2)
+1st—_ [longstrider](spells/longstrider#_longstrider)_, _ [pass without trace](spells/passWithoutTrace#_pass-without-trace)_, _ [resist energy](spells/resistEnergy#_resist-energy)_ (2)
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (cold), and _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (electricity, fire).
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [pass without trace](spells/passWithoutTrace#_pass-without-trace)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_ (cold), and _ [resist energy](spells/resistEnergy#_resist-energy)_ (electricity, fire).
 
-**During Combat** The ranger uses her bow against flying targets, but prefers melee and uses a _potion of [fly](spells/fly.md)_ if her prey won't land.
+**During Combat** The ranger uses her bow against flying targets, but prefers melee and uses a _potion of [fly](spells/fly)_ if her prey won't land.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the ranger's statistics are **Init** +5; **AC** 19, touch 12, flat-footed 18; **Ref** +15; **Immune** none; **Resist** none; **Speed** 30 ft.; **Ranged** mwk composite longbow +17/+12/+7 (1d8+6/×3); **Dex** 13; **CMD** 33; **Skills** [Ride](skills/ride.md#_ride) +8, [Stealth](skills/stealth.md#_stealth) +18.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_, the ranger's statistics are **Init** +5; **AC** 19, touch 12, flat-footed 18; **Ref** +15; **Immune** none; **Resist** none; **Speed** 30 ft.; **Ranged** mwk composite longbow +17/+12/+7 (1d8+6/×3); **Dex** 13; **CMD** 33; **Skills** [Ride](skills/ride#_ride) +8, [Stealth](skills/stealth#_stealth) +18.
 
 Statistics
 
@@ -974,15 +974,15 @@ Statistics
 
 **Base Atk** +15; **CMB** +21; **CMD** 35
 
-**Feats** Double Slice, [Endurance](feats.md#_endurance), Greater [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Improved Critical](feats.md#_improved-critical) (orc double axe), [Improved Initiative](feats.md#_improved-initiative), Improved [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), [Point-Blank Shot](feats.md#_point-blank-shot), [Power Attack](feats.md#_power-attack), Two-Weapon Defense, [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Focus](feats.md#_weapon-focus) (orc double axe)
+**Feats** Double Slice, [Endurance](feats#_endurance), Greater [Two-Weapon Fighting](feats#_two-weapon-fighting), [Improved Critical](feats#_improved-critical) (orc double axe), [Improved Initiative](feats#_improved-initiative), Improved [Two-Weapon Fighting](feats#_two-weapon-fighting), [Iron Will](feats#_iron-will), [Lightning Reflexes](feats#_lightning-reflexes), [Point-Blank Shot](feats#_point-blank-shot), [Power Attack](feats#_power-attack), Two-Weapon Defense, [Two-Weapon Fighting](feats#_two-weapon-fighting), [Weapon Focus](feats#_weapon-focus) (orc double axe)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +7, [Climb](skills/climb.md#_climb) +18, [Intimidate](skills/intimidate.md#_intimidate) +1, [Knowledge](skills/knowledge.md#_knowledge) (nature) +13, [Knowledge](skills/knowledge.md#_knowledge) (planes) +10, [Linguistics](skills/linguistics.md#_linguistics) +2, Perception +20, [Ride](skills/ride.md#_ride) +10, [Stealth](skills/stealth.md#_stealth) +20, [Survival](skills/survival.md#_survival) +15, [Swim](skills/swim.md#_swim) +18
+**Skills** [Bluff](skills/bluff#_bluff) +7, [Climb](skills/climb#_climb) +18, [Intimidate](skills/intimidate#_intimidate) +1, [Knowledge](skills/knowledge#_knowledge) (nature) +13, [Knowledge](skills/knowledge#_knowledge) (planes) +10, [Linguistics](skills/linguistics#_linguistics) +2, Perception +20, [Ride](skills/ride#_ride) +10, [Stealth](skills/stealth#_stealth) +20, [Survival](skills/survival#_survival) +15, [Swim](skills/swim#_swim) +18
 
 **Languages** Abyssal, Celestial, Common, Orc
 
 **SQ** camouflage, favored terrain (Heaven +6, mountain +2, urban +2), hunter's bond (companions), orc blood, quarry, swift tracker, track +7, weapon familiarity, wild empathy +14, woodland stride
 
-**Combat Gear** _+1 good outsider-bane arrows_ (10), _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _potions of [fly](spells/fly.md)_ (2), _potions of [restoration](spells/restoration.md#_restoration)_ (2), _ [ring of feather falling](magicItems/rings.md#_ring-of-feather-falling), wand of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds) _(50 charges); **Other Gear** _+3 studded leather_, _+1 good outsider-bane/+1 orc double axe_, masterwork composite longbow (+6 Str) with 10 arrows, _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 895 gp
+**Combat Gear** _+1 good outsider-bane arrows_ (10), _potions of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_ (2), _potions of [fly](spells/fly)_ (2), _potions of [restoration](spells/restoration#_restoration)_ (2), _ [ring of feather falling](magicItems/rings#_ring-of-feather-falling), wand of [cure light wounds](spells/cureLightWounds#_cure-light-wounds) _(50 charges); **Other Gear** _+3 studded leather_, _+1 good outsider-bane/+1 orc double axe_, masterwork composite longbow (+6 Str) with 10 arrows, _ [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +3_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, 895 gp
 
 An angel slayer decries false gods and their messengers.
 
@@ -1014,7 +1014,7 @@ Offense
 
 **Speed** 40 ft.
 
-**Melee** _+1 [holy](magicItems/weapons.md#_weapons-holy) scimitar_ +21/+16/+11/+6 (1d6+6/18–20), _+1 undead-bane [light](spells/light.md#_light) hammer_ +21/+16/+11 (1d4+6)
+**Melee** _+1 [holy](magicItems/weapons#_weapons-holy) scimitar_ +21/+16/+11/+6 (1d6+6/18–20), _+1 undead-bane [light](spells/light#_light) hammer_ +21/+16/+11 (1d4+6)
 
 **Ranged** mwk composite longbow +19/+14/+9/+4 (1d8+5/×3)
 
@@ -1022,21 +1022,21 @@ Offense
 
 **Ranger Spells Prepared** (CL 13th; concentration +15)
 
-4th—_ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_
+4th—_ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_
 
-3rd—_ [remove disease](spells/removeDisease.md#_remove-disease)_ (2)
+3rd—_ [remove disease](spells/removeDisease#_remove-disease)_ (2)
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [owl's wisdom](spells/owlSWisdom.md#_owl-s-wisdom)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (2)
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [owl's wisdom](spells/owlSWisdom#_owl-s-wisdom)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_ (2)
 
-1st—_ [calm animals](spells/calmAnimals.md#_calm-animals)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [calm animals](spells/calmAnimals#_calm-animals)_, _ [delay poison](spells/delayPoison#_delay-poison)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [resist energy](spells/resistEnergy#_resist-energy)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (cold, fire), and _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (electricity).
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_, _ [delay poison](spells/delayPoison#_delay-poison)_, _ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_ (cold, fire), and _ [resist energy](spells/resistEnergy#_resist-energy)_ (electricity).
 
-**During Combat** The ranger allows herself to be surrounded by weak undead so she can use Great Cleave and [Power Attack](feats.md#_power-attack).
+**During Combat** The ranger allows herself to be surrounded by weak undead so she can use Great Cleave and [Power Attack](feats#_power-attack).
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the ranger's statistics are **AC** 20, touch 14, flat-footed 18; **Immune** none; **Resist** none; **Speed** 30 ft.; **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +17.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, _ [delay poison](spells/delayPoison#_delay-poison)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_, the ranger's statistics are **AC** 20, touch 14, flat-footed 18; **Immune** none; **Resist** none; **Speed** 30 ft.; **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +17.
 
 Statistics
 
@@ -1044,15 +1044,15 @@ Statistics
 
 **Base Atk** +16; **CMB** +21; **CMD** 35
 
-**Feats** Cleave, Double Slice, [Endurance](feats.md#_endurance), [Great Fortitude](feats.md#_great-fortitude), Greater [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Improved [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Improved [Vital Strike](feats.md#_vital-strike), [Point-Blank Shot](feats.md#_point-blank-shot), [Power Attack](feats.md#_power-attack), [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Two-Weapon Rend, [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (light hammer, scimitar)
+**Feats** Cleave, Double Slice, [Endurance](feats#_endurance), [Great Fortitude](feats#_great-fortitude), Greater [Two-Weapon Fighting](feats#_two-weapon-fighting), Improved [Two-Weapon Fighting](feats#_two-weapon-fighting), Improved [Vital Strike](feats#_vital-strike), [Point-Blank Shot](feats#_point-blank-shot), [Power Attack](feats#_power-attack), [Two-Weapon Fighting](feats#_two-weapon-fighting), Two-Weapon Rend, [Vital Strike](feats#_vital-strike), [Weapon Focus](feats#_weapon-focus) (light hammer, scimitar)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +17 (+21 when jumping), [Climb](skills/climb.md#_climb) +13, [Heal](skills/heal.md#_heal) +15, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering) +8, [Knowledge](skills/knowledge.md#_knowledge) (local, planes) +5, [Knowledge](skills/knowledge.md#_knowledge) (nature) +6, [Knowledge](skills/knowledge.md#_knowledge) (religion) +15, Perception +21, [Perform](skills/perform.md#_perform) (string) +1, [Ride](skills/ride.md#_ride) +10, [Spellcraft](skills/spellcraft.md#_spellcraft) +13, [Stealth](skills/stealth.md#_stealth) +21, [Survival](skills/survival.md#_survival) +15, [Swim](skills/swim.md#_swim) +13
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +17 (+21 when jumping), [Climb](skills/climb#_climb) +13, [Heal](skills/heal#_heal) +15, [Knowledge](skills/knowledge#_knowledge) (dungeoneering) +8, [Knowledge](skills/knowledge#_knowledge) (local, planes) +5, [Knowledge](skills/knowledge#_knowledge) (nature) +6, [Knowledge](skills/knowledge#_knowledge) (religion) +15, Perception +21, [Perform](skills/perform#_perform) (string) +1, [Ride](skills/ride#_ride) +10, [Spellcraft](skills/spellcraft#_spellcraft) +13, [Stealth](skills/stealth#_stealth) +21, [Survival](skills/survival#_survival) +15, [Swim](skills/swim#_swim) +13
 
 **Languages** Common
 
 **SQ** camouflage, favored terrain (forest +2, underground +4, urban +4), hunter's bond (companions), quarry, swift tracker, track +8, wild empathy +15, woodland stride
 
-**Combat Gear** _ [necklace of fireballs](magicItems/wondrousItems.md#_necklace-of-fireballs)_ (type I), _potion of [blur](spells/blur.md#_blur)_, _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _potions of [hide from undead](spells/hideFromUndead.md#_hide-from-undead)_ (5), _potions of [lesser restoration](spells/restoration.md#_restoration-lesser)_ (2), _ [silversheen](magicItems/wondrousItems.md#_silversheen),_ alchemical silver arrows (20), holy water (4); **Other Gear** _+2 chain shirt_, _+1 [holy](magicItems/weapons.md#_weapons-holy) scimitar_, _+1 undead-bane [light](spells/light.md#_light) hammer_, masterwork composite longbow (+5 Str) with 20 arrows, _belt of mighty constitution +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, 743 gp
+**Combat Gear** _ [necklace of fireballs](magicItems/wondrousItems#_necklace-of-fireballs)_ (type I), _potion of [blur](spells/blur#_blur)_, _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_, _potions of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_ (2), _potions of [hide from undead](spells/hideFromUndead#_hide-from-undead)_ (5), _potions of [lesser restoration](spells/restoration#_restoration-lesser)_ (2), _ [silversheen](magicItems/wondrousItems#_silversheen),_ alchemical silver arrows (20), holy water (4); **Other Gear** _+2 chain shirt_, _+1 [holy](magicItems/weapons#_weapons-holy) scimitar_, _+1 undead-bane [light](spells/light#_light) hammer_, masterwork composite longbow (+5 Str) with 20 arrows, _belt of mighty constitution +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +3_, _ [ring of protection](magicItems/rings#_ring-of-protection) +2_, 743 gp
 
 An undead slayer's sole purpose is to destroy undead.
 
@@ -1092,19 +1092,19 @@ Offense
 
 **Ranger Spells Prepared** (CL 14th; concentration +15)
 
-3rd—_ [darkvision](spells/darkvision.md#_darkvision)_, _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_
+3rd—_ [darkvision](spells/darkvision#_darkvision)_, _ [neutralize poison](spells/neutralizePoison#_neutralize-poison)_
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, _ [snare](spells/snare.md#_snare)_
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, _ [snare](spells/snare#_snare)_
 
-1st—_ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [hide from animals](spells/hideFromAnimals.md#_hide-from-animals)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [delay poison](spells/delayPoison#_delay-poison)_, _ [hide from animals](spells/hideFromAnimals#_hide-from-animals)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [pass without trace](spells/passWithoutTrace#_pass-without-trace)_, _ [resist energy](spells/resistEnergy#_resist-energy)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [darkvision](spells/darkvision.md#_darkvision)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [longstrider](spells/longstrider.md#_longstrider)_, and _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_.
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [darkvision](spells/darkvision#_darkvision)_, _ [delay poison](spells/delayPoison#_delay-poison)_, _ [longstrider](spells/longstrider#_longstrider)_, and _ [pass without trace](spells/passWithoutTrace#_pass-without-trace)_.
 
-**During Combat** The ranger prefers ranged combat. He uses [Deadly Aim](feats.md#_deadly-aim) with Rapid Shot, hoping to also use Tiring Critical.
+**During Combat** The ranger prefers ranged combat. He uses [Deadly Aim](feats#_deadly-aim) with Rapid Shot, hoping to also use Tiring Critical.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [darkvision](spells/darkvision.md#_darkvision)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, and _ [longstrider](spells/longstrider.md#_longstrider)_, the ranger's statistics are **Senses** low-light vision; **AC** 28, touch 19, flat-footed 21; **hp** 108; **Fort** +13; **Immune** sleep; **Speed** 30 ft.; **Con** 11; **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +23.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [darkvision](spells/darkvision#_darkvision)_, _ [delay poison](spells/delayPoison#_delay-poison)_, and _ [longstrider](spells/longstrider#_longstrider)_, the ranger's statistics are **Senses** low-light vision; **AC** 28, touch 19, flat-footed 21; **hp** 108; **Fort** +13; **Immune** sleep; **Speed** 30 ft.; **Con** 11; **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +23.
 
 Statistics
 
@@ -1112,15 +1112,15 @@ Statistics
 
 **Base Atk** +17; **CMB** +19; **CMD** 39
 
-**Feats** [Critical Focus](feats.md#_critical-focus), [Deadly Aim](feats.md#_deadly-aim), [Dodge](feats.md#_dodge), [Endurance](feats.md#_endurance), [Improved Critical](feats.md#_improved-critical) (composite longbow), Manyshot, Mobility, [Point-Blank Shot](feats.md#_point-blank-shot), [Power Attack](feats.md#_power-attack), Precise Shot, Rapid Shot, Shot on the [Run](feats.md#_run), Spring Attack, Tiring Critical
+**Feats** [Critical Focus](feats#_critical-focus), [Deadly Aim](feats#_deadly-aim), [Dodge](feats#_dodge), [Endurance](feats#_endurance), [Improved Critical](feats#_improved-critical) (composite longbow), Manyshot, Mobility, [Point-Blank Shot](feats#_point-blank-shot), [Power Attack](feats#_power-attack), Precise Shot, Rapid Shot, Shot on the [Run](feats#_run), Spring Attack, Tiring Critical
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +23 (+27 when jumping), [Climb](skills/climb.md#_climb) +9, [Handle Animal](skills/handleAnimal.md#_handle-animal) +8, [Knowledge](skills/knowledge.md#_knowledge) (arcana, local) +10, [Knowledge](skills/knowledge.md#_knowledge) (nature) +13, Perception +21, [Ride](skills/ride.md#_ride) +11, [Stealth](skills/stealth.md#_stealth) +26, [Survival](skills/survival.md#_survival) +21, [Swim](skills/swim.md#_swim) +5
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +23 (+27 when jumping), [Climb](skills/climb#_climb) +9, [Handle Animal](skills/handleAnimal#_handle-animal) +8, [Knowledge](skills/knowledge#_knowledge) (arcana, local) +10, [Knowledge](skills/knowledge#_knowledge) (nature) +13, Perception +21, [Ride](skills/ride#_ride) +11, [Stealth](skills/stealth#_stealth) +26, [Survival](skills/survival#_survival) +21, [Swim](skills/swim#_swim) +5
 
 **Languages** Common, Elven
 
 **SQ** camouflage, elven magic, favored terrain (forest +2, mountain +4, plains +4), hide in plain sight, hunter's bond (companions), quarry, swift tracker, track +8, weapon familiarity, wild empathy +17, woodland stride
 
-**Combat Gear** _+1 dragon-bane arrows_ (5), _+1 giant-bane arrows_ (5), _+1 magical beast-bane arrows_ (5); _potions of [displacement](spells/displacement.md#_displacement)_ (2), _potions of [fly](spells/fly.md)_ (2), _potions of [haste](spells/haste.md#_haste)_ (2), _scroll of [commune with nature](spells/communeWithNature.md#_commune-with-nature)_, _wand of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_ (20 charges); **Other Gear** _+3 mithral breastplate_, _+1 elven curve blade, +2 composite longbow_ (+2 Str) with 60 arrows, _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +4_, _ [boots of elvenkind](magicItems/wondrousItems.md#_boots-of-elvenkind)_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3_, _ [efficient quiver](magicItems/wondrousItems.md#_efficient-quiver)_, _ [ring of feather falling](magicItems/rings.md#_ring-of-feather-falling)_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, 1,380 gp
+**Combat Gear** _+1 dragon-bane arrows_ (5), _+1 giant-bane arrows_ (5), _+1 magical beast-bane arrows_ (5); _potions of [displacement](spells/displacement#_displacement)_ (2), _potions of [fly](spells/fly)_ (2), _potions of [haste](spells/haste#_haste)_ (2), _scroll of [commune with nature](spells/communeWithNature#_commune-with-nature)_, _wand of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_ (20 charges); **Other Gear** _+3 mithral breastplate_, _+1 elven curve blade, +2 composite longbow_ (+2 Str) with 60 arrows, _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +4_, _ [boots of elvenkind](magicItems/wondrousItems#_boots-of-elvenkind)_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +3_, _ [efficient quiver](magicItems/wondrousItems#_efficient-quiver)_, _ [ring of feather falling](magicItems/rings#_ring-of-feather-falling)_, _ [ring of protection](magicItems/rings#_ring-of-protection) +2_, 1,380 gp
 
 The daredevil hunter seeks the largest and most dangerouscreatures for trophy kills.
 
@@ -1160,21 +1160,21 @@ Offense
 
 **Ranger Spells Prepared** (CL 15th; concentration +17)
 
-4th—_ [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_
+4th—_ [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_, _ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_
 
-3rd—_ [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _ [water walk](spells/waterWalk.md#_water-walk)_
+3rd—_ [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _ [water walk](spells/waterWalk#_water-walk)_
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, _ [wind wall](spells/windWall.md#_wind-wall)_
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, _ [wind wall](spells/windWall#_wind-wall)_
 
-1st—_ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [detect snares and pits](spells/detectSnaresAndPits.md#_detect-snares-and-pits)_ (2), _ [longstrider](spells/longstrider.md#_longstrider)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [delay poison](spells/delayPoison#_delay-poison)_, _ [detect snares and pits](spells/detectSnaresAndPits#_detect-snares-and-pits)_ (2), _ [longstrider](spells/longstrider#_longstrider)_, _ [resist energy](spells/resistEnergy#_resist-energy)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (fire), and _ [resist energy](spells/resistEnergy.md#_resist-energy) _(electricity).
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [delay poison](spells/delayPoison#_delay-poison)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_ (fire), and _ [resist energy](spells/resistEnergy#_resist-energy) _(electricity).
 
-**During Combat** The ranger uses Mobility and Spring Attack to overcome enemy reach, and Greater [Vital Strike](feats.md#_vital-strike) to make devastating single blows.
+**During Combat** The ranger uses Mobility and Spring Attack to overcome enemy reach, and Greater [Vital Strike](feats#_vital-strike) to make devastating single blows.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [delay poison](spells/delayPoison.md#_delay-poison)_, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the ranger's statistics are **AC** 26, touch 16, flat-footed 23; **hp** 167; **Fort** +16; **Immune** none; **Resist** none; **Speed** 20 ft.; **Con** 16.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [delay poison](spells/delayPoison#_delay-poison)_, _ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_, the ranger's statistics are **AC** 26, touch 16, flat-footed 23; **hp** 167; **Fort** +16; **Immune** none; **Resist** none; **Speed** 20 ft.; **Con** 16.
 
 Statistics
 
@@ -1182,15 +1182,15 @@ Statistics
 
 **Base Atk** +18; **CMB** +24; **CMD** 40 (44 vs. bull rush or trip)
 
-**Feats** [Dodge](feats.md#_dodge), Double Slice, [Endurance](feats.md#_endurance), Greater [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Greater [Vital Strike](feats.md#_vital-strike), [Improved Critical](feats.md#_improved-critical) (dwarven urgrosh), [Improved Initiative](feats.md#_improved-initiative), Improved [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Improved [Vital Strike](feats.md#_vital-strike), Mobility, Spring Attack, [Two-Weapon Fighting](feats.md#_two-weapon-fighting), Two-Weapon Rend, [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (dwarven urgrosh)
+**Feats** [Dodge](feats#_dodge), Double Slice, [Endurance](feats#_endurance), Greater [Two-Weapon Fighting](feats#_two-weapon-fighting), Greater [Vital Strike](feats#_vital-strike), [Improved Critical](feats#_improved-critical) (dwarven urgrosh), [Improved Initiative](feats#_improved-initiative), Improved [Two-Weapon Fighting](feats#_two-weapon-fighting), Improved [Vital Strike](feats#_vital-strike), Mobility, Spring Attack, [Two-Weapon Fighting](feats#_two-weapon-fighting), Two-Weapon Rend, [Vital Strike](feats#_vital-strike), [Weapon Focus](feats#_weapon-focus) (dwarven urgrosh)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +19, [Climb](skills/climb.md#_climb) +14, [Heal](skills/heal.md#_heal) +10, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +15, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering) +18, [Knowledge](skills/knowledge.md#_knowledge) (engineering) +10, [Knowledge](skills/knowledge.md#_knowledge) (geography, nature) +8, Perception +20 (+22 to notice unusual stonework), [Stealth](skills/stealth.md#_stealth) +12, [Survival](skills/survival.md#_survival) +15, [Swim](skills/swim.md#_swim) +9
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +19, [Climb](skills/climb#_climb) +14, [Heal](skills/heal#_heal) +10, [Knowledge](skills/knowledge#_knowledge) (arcana) +15, [Knowledge](skills/knowledge#_knowledge) (dungeoneering) +18, [Knowledge](skills/knowledge#_knowledge) (engineering) +10, [Knowledge](skills/knowledge#_knowledge) (geography, nature) +8, Perception +20 (+22 to notice unusual stonework), [Stealth](skills/stealth#_stealth) +12, [Survival](skills/survival#_survival) +15, [Swim](skills/swim#_swim) +9
 
 **Languages** Common, Dwarven
 
 **SQ** camouflage, favored terrain (forest +2, mountain +4, underground +4, urban +4), hide in plain sight, hunter's bond (companions), quarry, swift tracker, track +9, wild empathy +16, woodland stride
 
-**Combat Gear** _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)_; **Other Gear** _+4 mithral breastplate_, _+2/+2 dwarven urgrosh_, _+1 heavy crossbow_ with 10 bolts, _ [bag of holding](magicItems/wondrousItems.md#_bag-of-holding)_ (type I), _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +4_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2_, _golembane scarab_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +3_, 1,600 gp
+**Combat Gear** _ [boots of speed](magicItems/wondrousItems#_boots-of-speed)_; **Other Gear** _+4 mithral breastplate_, _+2/+2 dwarven urgrosh_, _+1 heavy crossbow_ with 10 bolts, _ [bag of holding](magicItems/wondrousItems#_bag-of-holding)_ (type I), _ [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +4_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +2_, _golembane scarab_, _ [ring of protection](magicItems/rings#_ring-of-protection) +3_, 1,600 gp
 
 A golem-breaker makes a ruin of constructs, clockworks, and complex devices.
 
@@ -1220,7 +1220,7 @@ Defense
 
 **Fort** +19, **Ref** +24, **Will** +14
 
-**Defensive Abilities** improved evasion,_ [nondetection](spells/nondetection.md#_nondetection)_; **Immune** electricity (120 points), fire (120 points), poison; **Resist** cold 30, electricity 30, fire 30
+**Defensive Abilities** improved evasion,_ [nondetection](spells/nondetection#_nondetection)_; **Immune** electricity (120 points), fire (120 points), poison; **Resist** cold 30, electricity 30, fire 30
 
 Offense
 
@@ -1228,27 +1228,27 @@ Offense
 
 **Melee** _+1 greataxe_ +21/+16/+11/+6 (1d12+2/×3)
 
-**Ranged** _+1 [frost](magicItems/weapons.md#_weapons-frost) longbow_ +27/+22/+17/+12 (1d8+1/19–20/×3 plus 1d6 cold)
+**Ranged** _+1 [frost](magicItems/weapons#_weapons-frost) longbow_ +27/+22/+17/+12 (1d8+1/19–20/×3 plus 1d6 cold)
 
 **Special Attacks** favored enemy (elves +6, gnomes +2, humans +4, magical beasts +2)
 
 **Ranger Spells Prepared** (CL 16th; concentration +18)
 
-4th—_ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [nondetection](spells/nondetection.md#_nondetection)_
+4th—_ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_, _ [nondetection](spells/nondetection#_nondetection)_
 
-3rd—_ [darkvision](spells/darkvision.md#_darkvision)_, _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_, _ [repel vermin](spells/repelVermin.md#_repel-vermin)_
+3rd—_ [darkvision](spells/darkvision#_darkvision)_, _ [neutralize poison](spells/neutralizePoison#_neutralize-poison)_, _ [repel vermin](spells/repelVermin#_repel-vermin)_
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (2)
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_ (2)
 
-1st—_ [delay poison](spells/delayPoison.md#_delay-poison), [longstrider](spells/longstrider.md#_longstrider)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (3)
+1st—_ [delay poison](spells/delayPoison#_delay-poison), [longstrider](spells/longstrider#_longstrider)_, _ [resist energy](spells/resistEnergy#_resist-energy)_ (3)
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [darkvision](spells/darkvision.md#_darkvision)_, _ [delay poison](spells/delayPoison.md#_delay-poison), [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [nondetection](spells/nondetection.md#_nondetection)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (electricity, fire), and _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (cold, electricity, fire).
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [darkvision](spells/darkvision#_darkvision)_, _ [delay poison](spells/delayPoison#_delay-poison), [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [nondetection](spells/nondetection#_nondetection)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_ (electricity, fire), and _ [resist energy](spells/resistEnergy#_resist-energy)_ (cold, electricity, fire).
 
-**During Combat** The ranger slays spellcasters with _ [bane](magicItems/weapons.md#_weapons-bane)_ arrows. He rings his _ [chime of interruption](magicItems/wondrousItems.md#_chime-of-interruption)_ to hamper spellcasting.
+**During Combat** The ranger slays spellcasters with _ [bane](magicItems/weapons#_weapons-bane)_ arrows. He rings his _ [chime of interruption](magicItems/wondrousItems#_chime-of-interruption)_ to hamper spellcasting.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [darkvision](spells/darkvision.md#_darkvision)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [nondetection](spells/nondetection.md#_nondetection)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, and _resist energy_, the ranger's statistics are **Senses** normal; **hp** 157; **Fort** +17; **Defensive Abilities** improved evasion; **Immune** none; **Resist** none; **Speed** 30 ft.; **Con** 14; **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +22.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [darkvision](spells/darkvision#_darkvision)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [nondetection](spells/nondetection#_nondetection)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, and _resist energy_, the ranger's statistics are **Senses** normal; **hp** 157; **Fort** +17; **Defensive Abilities** improved evasion; **Immune** none; **Resist** none; **Speed** 30 ft.; **Con** 14; **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +22.
 
 Statistics
 
@@ -1256,15 +1256,15 @@ Statistics
 
 **Base Atk** +19; **CMB** +20; **CMD** 41
 
-**Feats** [Critical Focus](feats.md#_critical-focus), [Deadly Aim](feats.md#_deadly-aim), [Dodge](feats.md#_dodge), [Endurance](feats.md#_endurance), [Improved Critical](feats.md#_improved-critical) (longbow), [Improved Initiative](feats.md#_improved-initiative), Improved [Iron Will](feats.md#_iron-will), Improved Precise Shot, [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), Manyshot, [Point-Blank Shot](feats.md#_point-blank-shot), Precise Shot, [Quick Draw](feats.md#_quick-draw), Rapid Shot, Staggering Critical, Stunning Critical
+**Feats** [Critical Focus](feats#_critical-focus), [Deadly Aim](feats#_deadly-aim), [Dodge](feats#_dodge), [Endurance](feats#_endurance), [Improved Critical](feats#_improved-critical) (longbow), [Improved Initiative](feats#_improved-initiative), Improved [Iron Will](feats#_iron-will), Improved Precise Shot, [Iron Will](feats#_iron-will), [Lightning Reflexes](feats#_lightning-reflexes), Manyshot, [Point-Blank Shot](feats#_point-blank-shot), Precise Shot, [Quick Draw](feats#_quick-draw), Rapid Shot, Staggering Critical, Stunning Critical
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +22 (+26 when jumping), [Climb](skills/climb.md#_climb) +14, [Handle Animal](skills/handleAnimal.md#_handle-animal) +7, [Heal](skills/heal.md#_heal) +10, [Knowledge](skills/knowledge.md#_knowledge) (arcana, local) +10, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, geography) +8, [Knowledge](skills/knowledge.md#_knowledge) (history) +5, [Knowledge](skills/knowledge.md#_knowledge) (nature) +7, [Linguistics](skills/linguistics.md#_linguistics) +1, Perception +24, [Ride](skills/ride.md#_ride) +14, [Spellcraft](skills/spellcraft.md#_spellcraft) +13, [Stealth](skills/stealth.md#_stealth) +29, [Survival](skills/survival.md#_survival) +15, [Swim](skills/swim.md#_swim) +9
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +22 (+26 when jumping), [Climb](skills/climb#_climb) +14, [Handle Animal](skills/handleAnimal#_handle-animal) +7, [Heal](skills/heal#_heal) +10, [Knowledge](skills/knowledge#_knowledge) (arcana, local) +10, [Knowledge](skills/knowledge#_knowledge) (dungeoneering, geography) +8, [Knowledge](skills/knowledge#_knowledge) (history) +5, [Knowledge](skills/knowledge#_knowledge) (nature) +7, [Linguistics](skills/linguistics#_linguistics) +1, Perception +24, [Ride](skills/ride#_ride) +14, [Spellcraft](skills/spellcraft#_spellcraft) +13, [Stealth](skills/stealth#_stealth) +29, [Survival](skills/survival#_survival) +15, [Swim](skills/swim#_swim) +9
 
 **Languages** Common, Draconic
 
 **SQ** camouflage, favored terrain (forest +4, plains +2, underground +2, urban +6), hide in plain sight, hunter's bond (companions), improved quarry, swift tracker, track +9, wild empathy +18, woodland stride
 
-**Combat Gear** _+1 elf-bane arrows_ (5), _+1 [flaming](magicItems/weapons.md#_weapons-flaming) arrows_ (5), _+1 gnome-bane arrows_ (5), _+1 human-bane arrows_ (10), _+1 [shock](magicItems/weapons.md#_weapons-shock) arrows_ (5),_ [chime of interruption](magicItems/wondrousItems.md#_chime-of-interruption)_, _potions of [invisibility](spells/invisibility.md#_invisibility)_ (2), _wand of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (20 charges); **Other Gear** _+4 mithral breastplate_, _+1 [frost](magicItems/weapons.md#_weapons-frost) longbow_ with 20 arrows, _+1 greataxe_, _ [bag of holding](magicItems/wondrousItems.md#_bag-of-holding)_ (type I), _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +4_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +4_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +3_, diamond dust for _ [nondetection](spells/nondetection.md#_nondetection)_ (worth 50 gp), 2,574 gp
+**Combat Gear** _+1 elf-bane arrows_ (5), _+1 [flaming](magicItems/weapons#_weapons-flaming) arrows_ (5), _+1 gnome-bane arrows_ (5), _+1 human-bane arrows_ (10), _+1 [shock](magicItems/weapons#_weapons-shock) arrows_ (5),_ [chime of interruption](magicItems/wondrousItems#_chime-of-interruption)_, _potions of [invisibility](spells/invisibility#_invisibility)_ (2), _wand of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_ (20 charges); **Other Gear** _+4 mithral breastplate_, _+1 [frost](magicItems/weapons#_weapons-frost) longbow_ with 20 arrows, _+1 greataxe_, _ [bag of holding](magicItems/wondrousItems#_bag-of-holding)_ (type I), _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +4_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +4_, _ [ring of protection](magicItems/rings#_ring-of-protection) +3_, diamond dust for _ [nondetection](spells/nondetection#_nondetection)_ (worth 50 gp), 2,574 gp
 
 A mage hunter thrills at killing sorcerers and wizards. Knowing how to circumvent their hated spells, he casts nondetection every day to deter pursuit and scrying.
 
@@ -1294,27 +1294,27 @@ Offense
 
 **Melee** _+2 longsword_ +28/+23/+18/+13 (1d8+11/19–20)
 
-**Ranged** _ [oathbow](magicItems/weapons.md#_oathbow) _+28/+23/+18/+13 (1d8+8/19–20/×3)
+**Ranged** _ [oathbow](magicItems/weapons#_oathbow) _+28/+23/+18/+13 (1d8+8/19–20/×3)
 
 **Special Attacks** favored enemy (dwarves +4, elves +4, gnomes +2, humans +6, orcs +2)
 
 **Ranger Spells Prepared** (CL 17th; concentration +19)
 
-4th—_ [commune with nature](spells/communeWithNature.md#_commune-with-nature)_, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [tree stride](spells/treeStride.md#_tree-stride)_
+4th—_ [commune with nature](spells/communeWithNature#_commune-with-nature)_, _ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_, _ [tree stride](spells/treeStride#_tree-stride)_
 
-3rd—_ [darkvision](spells/darkvision.md#_darkvision)_, _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_, _ [remove disease](spells/removeDisease.md#_remove-disease)_
+3rd—_ [darkvision](spells/darkvision#_darkvision)_, _ [neutralize poison](spells/neutralizePoison#_neutralize-poison)_, _ [remove disease](spells/removeDisease#_remove-disease)_
 
-2nd—_ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, _ [snare](spells/snare.md#_snare)_, _ [spike growth](spells/spikeGrowth.md#_spike-growth)_
+2nd—_ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, _ [snare](spells/snare#_snare)_, _ [spike growth](spells/spikeGrowth#_spike-growth)_
 
-1st—_ [alarm](spells/alarm.md#_alarm)_, _ [endure elements](spells/endureElements.md#_endure-elements)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_
+1st—_ [alarm](spells/alarm#_alarm)_, _ [endure elements](spells/endureElements#_endure-elements)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [pass without trace](spells/passWithoutTrace#_pass-without-trace)_, _ [resist energy](spells/resistEnergy#_resist-energy)_
 
 Tactics
 
-**Before Combat** The ranger casts _ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _ [darkvision](spells/darkvision.md#_darkvision)_, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [pass without trace](spells/passWithoutTrace.md#_pass-without-trace)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (fire), _ [resist energy](spells/resistEnergy.md#_resist-energy)_ (cold), and _ [tree stride](spells/treeStride.md#_tree-stride)_.
+**Before Combat** The ranger casts _ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _ [darkvision](spells/darkvision#_darkvision)_, _ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_, _ [longstrider](spells/longstrider#_longstrider)_, _ [pass without trace](spells/passWithoutTrace#_pass-without-trace)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_ (fire), _ [resist energy](spells/resistEnergy#_resist-energy)_ (cold), and _ [tree stride](spells/treeStride#_tree-stride)_.
 
-**During Combat** The ranger swears to kill one target with his _ [oathbow](magicItems/weapons.md#_oathbow)_, using his _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)_ and feats to gain extra attacks. Against dangerous foes, he uses poison.
+**During Combat** The ranger swears to kill one target with his _ [oathbow](magicItems/weapons#_oathbow)_, using his _ [boots of speed](magicItems/wondrousItems#_boots-of-speed)_ and feats to gain extra attacks. Against dangerous foes, he uses poison.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_, _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, d_a_rkvision, _ [longstrider](spells/longstrider.md#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, and _ [resist energy](spells/resistEnergy.md#_resist-energy)_, the ranger's statistics are **Senses** normal; **AC** 26, touch 18, flat-footed 21; **hp** 144; **Fort** +18; **Immune** none; **Resist** none; **Speed** 30 ft.; **Con** 12; **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +15.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_, _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, d_a_rkvision, _ [longstrider](spells/longstrider#_longstrider)_, _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, and _ [resist energy](spells/resistEnergy#_resist-energy)_, the ranger's statistics are **Senses** normal; **AC** 26, touch 18, flat-footed 21; **hp** 144; **Fort** +18; **Immune** none; **Resist** none; **Speed** 30 ft.; **Con** 12; **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +15.
 
 Statistics
 
@@ -1322,15 +1322,15 @@ Statistics
 
 **Base Atk** +20; **CMB** +26; **CMD** 45
 
-**Feats** Bleeding Critical, Blinding Critical, [Combat Reflexes](feats.md#_combat-reflexes), [Critical Focus](feats.md#_critical-focus), [Deadly Aim](feats.md#_deadly-aim), [Dodge](feats.md#_dodge), [Endurance](feats.md#_endurance), [Improved Critical](feats.md#_improved-critical) (composite longbow), [Improved Initiative](feats.md#_improved-initiative), Improved Precise Shot, Manyshot, [Point-Blank Shot](feats.md#_point-blank-shot), [Power Attack](feats.md#_power-attack), Precise Shot, [Quick Draw](feats.md#_quick-draw), Rapid Shot, [Weapon Focus](feats.md#_weapon-focus) (composite longbow)
+**Feats** Bleeding Critical, Blinding Critical, [Combat Reflexes](feats#_combat-reflexes), [Critical Focus](feats#_critical-focus), [Deadly Aim](feats#_deadly-aim), [Dodge](feats#_dodge), [Endurance](feats#_endurance), [Improved Critical](feats#_improved-critical) (composite longbow), [Improved Initiative](feats#_improved-initiative), Improved Precise Shot, Manyshot, [Point-Blank Shot](feats#_point-blank-shot), [Power Attack](feats#_power-attack), Precise Shot, [Quick Draw](feats#_quick-draw), Rapid Shot, [Weapon Focus](feats#_weapon-focus) (composite longbow)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +15 (+19 when jumping), [Climb](skills/climb.md#_climb) +19, [Handle Animal](skills/handleAnimal.md#_handle-animal) +12, [Heal](skills/heal.md#_heal) +15, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering) +8, [Knowledge](skills/knowledge.md#_knowledge) (geography) +13, [Knowledge](skills/knowledge.md#_knowledge) (nature) +18, [Knowledge](skills/knowledge.md#_knowledge) (planes) +5, Perception +25, [Ride](skills/ride.md#_ride) +18, [Stealth](skills/stealth.md#_stealth) +28, [Survival](skills/survival.md#_survival) +25, [Swim](skills/swim.md#_swim) +14
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +15 (+19 when jumping), [Climb](skills/climb#_climb) +19, [Handle Animal](skills/handleAnimal#_handle-animal) +12, [Heal](skills/heal#_heal) +15, [Knowledge](skills/knowledge#_knowledge) (dungeoneering) +8, [Knowledge](skills/knowledge#_knowledge) (geography) +13, [Knowledge](skills/knowledge#_knowledge) (nature) +18, [Knowledge](skills/knowledge#_knowledge) (planes) +5, Perception +25, [Ride](skills/ride#_ride) +18, [Stealth](skills/stealth#_stealth) +28, [Survival](skills/survival#_survival) +25, [Swim](skills/swim#_swim) +14
 
 **Languages** Common
 
 **SQ** camouflage, favored terrain (desert +2, forest +2, mountain +4, plains +6), hide in plain sight, hunter's bond (companions), improved quarry, swift tracker, track +10, wild empathy +19, woodland stride
 
-**Combat Gear** _+1 [anarchic](magicItems/weapons.md#_weapons-anarchic) arrows_ (5), _ [boots of speed](magicItems/wondrousItems.md#_boots-of-speed)_, _+1 [flaming](magicItems/weapons.md#_weapons-flaming) arrows_ (5), _+1 [frost](magicItems/weapons.md#_weapons-frost) arrows_ (5), _+1 [shock](magicItems/weapons.md#_weapons-shock) arrows_ (5), _+1 [unholy](magicItems/weapons.md#_unholy) arrows_ (5), _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _potions of [delay poison](spells/delayPoison.md#_delay-poison)_ (2), _scroll of [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_, adamantine arrows (5), purple worm poison (2), smokesticks (5), tanglefoot bags (5); **Other Gear** _+4 mithral chain shirt_, _+2 longsword_, _ [oathbow](magicItems/weapons.md#_oathbow)_ (+6 Str) with 30 arrows, _ [belt of physical might](magicItems/wondrousItems.md#_belt-of-physical-might) +4_ (Str, Dex), _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +5_, _ [efficient quiver](magicItems/wondrousItems.md#_efficient-quiver)_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +3_, _ [ring of sustenance](magicItems/rings.md#_ring-of-sustenance)_, 4,195 gp
+**Combat Gear** _+1 [anarchic](magicItems/weapons#_weapons-anarchic) arrows_ (5), _ [boots of speed](magicItems/wondrousItems#_boots-of-speed)_, _+1 [flaming](magicItems/weapons#_weapons-flaming) arrows_ (5), _+1 [frost](magicItems/weapons#_weapons-frost) arrows_ (5), _+1 [shock](magicItems/weapons#_weapons-shock) arrows_ (5), _+1 [unholy](magicItems/weapons#_unholy) arrows_ (5), _potions of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_ (2), _potions of [delay poison](spells/delayPoison#_delay-poison)_ (2), _scroll of [neutralize poison](spells/neutralizePoison#_neutralize-poison)_, adamantine arrows (5), purple worm poison (2), smokesticks (5), tanglefoot bags (5); **Other Gear** _+4 mithral chain shirt_, _+2 longsword_, _ [oathbow](magicItems/weapons#_oathbow)_ (+6 Str) with 30 arrows, _ [belt of physical might](magicItems/wondrousItems#_belt-of-physical-might) +4_ (Str, Dex), _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +5_, _ [efficient quiver](magicItems/wondrousItems#_efficient-quiver)_, _ [ring of protection](magicItems/rings#_ring-of-protection) +3_, _ [ring of sustenance](magicItems/rings#_ring-of-sustenance)_, 4,195 gp
 
 Supreme hunters stalk and kill anything they choose. Most of them are so skilled they need to keep looking for tougher targets just to feel challenged.
 

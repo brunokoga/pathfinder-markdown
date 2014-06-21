@@ -6,9 +6,9 @@ A twisted trunk clustered with bulbous blossoms holds up a gaping mouth ready to
 
 **XP 4,800**
 
-N Huge [plant](monsters/creatureTypes.md#_plant)
+N Huge [plant](monsters/creatureTypes#_plant)
 
-**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +9
+**Init** +4; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +9
 
 Defense
 
@@ -18,15 +18,15 @@ Defense
 
 **Fort** +12, **Ref** +3, **Will** +4
 
-**DR** 10/slashing; **Immune** electricity, [plant](monsters/creatureTypes.md#_plant) traits; **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10
+**DR** 10/slashing; **Immune** electricity, [plant](monsters/creatureTypes#_plant) traits; **Resist** [cold](monsters/creatureTypes#_cold-subtype) 10
 
-**Weaknesses** vulnerable to [fire](monsters/creatureTypes.md#_fire-subtype)
+**Weaknesses** vulnerable to [fire](monsters/creatureTypes#_fire-subtype)
 
 Offense
 
 **Speed** 20 ft.
 
-**Melee** bite +15 (2d6+9 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 tentacles +13 (1d8+4)
+**Melee** bite +15 (2d6+9 plus [grab](monsters/universalMonsterRules#_grab)), 2 tentacles +13 (1d8+4)
 
 **Space** 15 ft.; **Reach** 15 ft.
 
@@ -38,9 +38,9 @@ Statistics
 
 **Base Atk** +8; **CMB** +19 (+23 grapple); **CMD** 29 (can_'_t be tripped)
 
-**Feats** [Blind-Fight](additionalMonsters/../feats.md#_blind-fight), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Improved Sunder](additionalMonsters/../feats.md#_improved-sunder), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth.md#_stealth))
+**Feats** [Blind-Fight](additionalMonsters/../feats#_blind-fight), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Improved Sunder](additionalMonsters/../feats#_improved-sunder), [Multiattack](additionalMonsters/../monsters/monsterFeats#_multiattack), [Power Attack](additionalMonsters/../feats#_power-attack), [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth#_stealth))
 
-**Skills** [Perception](additionalMonsters/../skills/perception.md#_perception) +9, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +4 (+20 in thick vegetation); **Racial Modifiers** +16 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in thick vegetation
+**Skills** [Perception](additionalMonsters/../skills/perception#_perception) +9, [Stealth](additionalMonsters/../skills/stealth#_stealth) +4 (+20 in thick vegetation); **Racial Modifiers** +16 [Stealth](additionalMonsters/../skills/stealth#_stealth) in thick vegetation
 
 **Languages** telepathy (1 mile, other moonflowers only)
 
@@ -58,7 +58,7 @@ Special Abilities
 
 **Light Pulse (Su)** As a standard action, a moonflower can release a pulse of bright light. All creatures within a 50-foot burst that can see the moonflower must make a DC 20 Fortitude save or be blinded for 1d4 rounds. Moonflowers are immune to this ability. The save DC is Constitution-based.
 
-**Pod Prison (Ex)** This works like the swallow whole ability, except the moonflower can only use it once every 1d4 rounds, and the swallowed creature is immediately wrapped in a tight digestive cocoon and expelled into an adjacent square, where it takes damage every round (2d6 bludgeoning and 2d6 acid, AC 15, 25 hp). The cocooned target cannot use [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) to get out of the cocoon. Other creatures can aid the target by attacking the cocoon with piercing or slashing weapons, but the creature within takes half the damage from any attack against the cocoon. Once the cocoon is destroyed, it deflates and decays. Each creature swallowed by a moonflower is encased in its own cocoon.
+**Pod Prison (Ex)** This works like the swallow whole ability, except the moonflower can only use it once every 1d4 rounds, and the swallowed creature is immediately wrapped in a tight digestive cocoon and expelled into an adjacent square, where it takes damage every round (2d6 bludgeoning and 2d6 acid, AC 15, 25 hp). The cocooned target cannot use [Escape Artist](additionalMonsters/../skills/escapeArtist#_escape-artist) to get out of the cocoon. Other creatures can aid the target by attacking the cocoon with piercing or slashing weapons, but the creature within takes half the damage from any attack against the cocoon. Once the cocoon is destroyed, it deflates and decays. Each creature swallowed by a moonflower is encased in its own cocoon.
 
 **Pod Spawn (Ex)** Should a moonflower_'_s pod prison kill and digest a Small or larger creature, the pod transforms into an adult moonflower with full hit points after 1d4 hours. The newly formed moonflower has its own consciousness, but some aspect of its trunk or blossoms resembles the creature that died within. The dead creature_'_s equipment remains inside the new moonflower and can be retrieved by killing it.
 

@@ -1,4 +1,4 @@
- **[Fly](../../skills/fly.md#_fly), Mass**
+ **[Fly](../../skills/fly#_fly), Mass**
 
 **School** transmutation; **Level** sorcerer/wizard 7
 
@@ -14,5 +14,5 @@
 
 **Saving Throw** Will negates (harmless); **Spell Resistance** yes (harmless)
 
-This spell functions as _ [fly](../../spells/fly.md)_ (_Core Rulebook_ 284), save that it can target numerous creatures and lasts longer.
+This spell functions as _ [fly](../../spells/fly)_ (_Core Rulebook_ 284), save that it can target numerous creatures and lasts longer.
 

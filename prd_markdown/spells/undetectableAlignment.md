@@ -12,7 +12,7 @@
 
 **Duration** 24 hours
 
-**Saving Throw** [Will](../combat.md#_will) negates (object); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (object)
+**Saving Throw** [Will](../combat#_will) negates (object); **[Spell Resistance](../glossary#_spell-resistance)** yes (object)
 
 An _undetectable alignment _spell conceals the alignment of an object or a creature from all forms of divination.
 

@@ -14,7 +14,7 @@ Sulis, or suli-jann, are the descendents of mortals and jann. They manifest thei
 
 **Low-Light Vision** : Sulis can see twice as far as humans in dim light.
 
-**Negotiator** : Sulis are keen negotiators, and gain a +2 racial bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) and [Sense Motive](skills/senseMotive.md#_sense-motive) checks.
+**Negotiator** : Sulis are keen negotiators, and gain a +2 racial bonus on [Diplomacy](skills/diplomacy#_diplomacy) and [Sense Motive](skills/senseMotive#_sense-motive) checks.
 
 **Elemental Assault (Su)** : Once per day as a swift action, a suli can shroud her arms in acid, cold, electricity, or fire. This lasts for one round per level, and can be dismissed as a free action. Unarmed strikes with her arms or hands (or attacks with weapons held in those hands) deal +1d6 points of damage of the appropriate energy type.
 
@@ -32,7 +32,7 @@ The following racial trait may be selected instead of existing suli racial trait
 > 
 > _Firehand (fire)_: Instead of adding damage to a melee attack, the suli may hurl a piece of her arm-flames as if it were a thrown weapon. The suli makes a ranged touch attack; if the attack hits, the target takes 1d6 points of fire damage. The flames have a range increment of 10 feet.
 > 
-> _Icewalk (cold)_: The suli can walk on water-based liquids as if using _ [water walk](spells/waterWalk.md#_water-walk)_, except instead of hovering above the surface, she creates a temporary layer of ice that supports her and immediately melts once she moves away from it. This ice is not slippery to the suli and does not affect her balance or speed, though other ice affects her normally. Other creatures cannot travel on this ice, but the suli may carry a creature while moving.
+> _Icewalk (cold)_: The suli can walk on water-based liquids as if using _ [water walk](spells/waterWalk#_water-walk)_, except instead of hovering above the surface, she creates a temporary layer of ice that supports her and immediately melts once she moves away from it. This ice is not slippery to the suli and does not affect her balance or speed, though other ice affects her normally. Other creatures cannot travel on this ice, but the suli may carry a creature while moving.
 > 
 > _Shockshield (electricity)_: Once per round as an immediate action, the suli can shock a creature that touches or attacks her with a natural attack, unarmed strike, or metal melee weapon, dealing 1d6 points of electricity damage to the creature.
 
@@ -62,7 +62,7 @@ Elemental knights are born with elemental energies surging through their blood a
 > 
 > _Energy Reflection (Su)_: This functions like the reflection magus arcana, except it only works on spells that deal acid, cold, electricity, or fire damage. As long as the elemental knight spends at least 1 point from her arcane pool to activate this arcana, he may expend rounds of elemental assault as if they were arcane pool points. For example, the knight could spend 1 arcane pool point and 3 rounds of elemental assault to reflect a spell of 4th-level or lower. The elemental knight must be at least 12th level before selecting this arcana.
 > 
-> _Energy [Resistance](spells/resistance.md#_resistance) Boost (Su)_: As a swift action, the elemental knight can expend 1 point from his arcane pool or 1 round of elemental assault to increase all of his racial energy resistances by +5 for 1 round.
+> _Energy [Resistance](spells/resistance#_resistance) Boost (Su)_: As a swift action, the elemental knight can expend 1 point from his arcane pool or 1 round of elemental assault to increase all of his racial energy resistances by +5 for 1 round.
 
 **Elemental Matrix (Su)** : At 4th level, an elemental knight gains Incremental Elemental Assault (see below) as a bonus feat. In addition, at 4th level, as a swift action, an elemental knight may expend rounds of duration from her elemental assault ability. For every 4 rounds expended, he gains 1 arcane pool point. This ability replaces spell recall.
 
@@ -76,7 +76,7 @@ The following options are available to sulis. At the GM's discretion, other appr
 
 Sulis have access to the following equipment.
 
-**Elemental Flux** : This flask of alchemical powder reacts to the elemental power in suli blood. Adding at least 1 hit point worth of suli blood to it creates an alchemical splash weapon. The splash weapon works like a flask of acid, except the damage is a random energy type (acid, cold, electricity, or fire). A DC 10 [Craft](skills/craft.md#_craft) (alchemy) check identifies what energy type the activated flask has. The activated flux retains its power for 24 hours before becoming inert material. The [Craft](skills/craft.md#_craft) (alchemy) DC to create this is 20.
+**Elemental Flux** : This flask of alchemical powder reacts to the elemental power in suli blood. Adding at least 1 hit point worth of suli blood to it creates an alchemical splash weapon. The splash weapon works like a flask of acid, except the damage is a random energy type (acid, cold, electricity, or fire). A DC 10 [Craft](skills/craft#_craft) (alchemy) check identifies what energy type the activated flask has. The activated flux retains its power for 24 hours before becoming inert material. The [Craft](skills/craft#_craft) (alchemy) DC to create this is 20.
 
 [Suli Equipment]
 | Item | Cost | Weight | Craft DC |
@@ -121,5 +121,5 @@ Imbue with Elemental Might
 
 **Save** Will negates (harmless); **Spell Resistance** yes (harmless)
 
-This spell functions like _ [imbue with spell ability](spells/imbueWithSpellAbility.md#_imbue-with-spell-ability)_, except you transfer the use of your elemental assault ability to the target. The target must have an Intelligence score of at least 5 to use the ability. The imbued elemental assault functions exactly like yours, except the ability's duration is based on the target's level or Hit Dice. Once you cast this spell, you cannot use your elemental assault ability until the duration of the spell is over.
+This spell functions like _ [imbue with spell ability](spells/imbueWithSpellAbility#_imbue-with-spell-ability)_, except you transfer the use of your elemental assault ability to the target. The target must have an Intelligence score of at least 5 to use the ability. The imbued elemental assault functions exactly like yours, except the ability's duration is based on the target's level or Hit Dice. Once you cast this spell, you cannot use your elemental assault ability until the duration of the spell is over.
 

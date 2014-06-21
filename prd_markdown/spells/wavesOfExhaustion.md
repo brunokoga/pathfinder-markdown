@@ -12,7 +12,7 @@
 
 **Duration** instantaneous
 
-**Saving Throw** no; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** no; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-Waves of negative energy cause all living creatures in the spell's area to become [exhausted](../glossary.md#_exhausted). This spell has no effect on a creature that is already [exhausted](../glossary.md#_exhausted).
+Waves of negative energy cause all living creatures in the spell's area to become [exhausted](../glossary#_exhausted). This spell has no effect on a creature that is already [exhausted](../glossary#_exhausted).
 

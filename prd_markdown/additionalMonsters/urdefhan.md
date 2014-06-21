@@ -6,9 +6,9 @@ This fanged humanoid has hideously transparent skin, revealing the vivid colors 
 
 **XP 800**
 
-NE Medium [outsider](monsters/creatureTypes.md#_outsider) ( [native](monsters/creatureTypes.md#_native-subtype))
+NE Medium [outsider](monsters/creatureTypes#_outsider) ( [native](monsters/creatureTypes#_native-subtype))
 
-**Init** +1; **Senses** darkvision 120 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +7
+**Init** +1; **Senses** darkvision 120 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +7
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +6, **Ref** +4, **Will** +4
 
-**Defensive Abilities** [negative energy affinity](monsters/universalMonsterRules.md#_negative-energy-affinity); **DR** 5/good or silver; **Immune** death effects (see below), [disease](monsters/universalMonsterRules.md#_disease-(ex-or-su)), [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)), level drain; **Resist** acid 10; **SR** 14
+**Defensive Abilities** [negative energy affinity](monsters/universalMonsterRules#_negative-energy-affinity); **DR** 5/good or silver; **Immune** death effects (see below), [disease](monsters/universalMonsterRules#_disease-(ex-or-su)), [fear](monsters/universalMonsterRules#_fear-(su-or-sp)), level drain; **Resist** acid 10; **SR** 14
 
 Offense
 
@@ -30,13 +30,13 @@ bite +7 (1d4+4 plus 2 Str)
 
 **Ranged** composite longbow +4 (1d8+4/×3)
 
-**Special Attacks** [blood drain](monsters/universalMonsterRules.md#_blood-drain) (1 Con)
+**Special Attacks** [blood drain](monsters/universalMonsterRules#_blood-drain) (1 Con)
 
 **Spell-Like Abilities** (CL 3rd; concentration +5)
 
-At will—_ [feather fall](additionalMonsters/../spells/featherFall.md#_feather-fall)_
+At will—_ [feather fall](additionalMonsters/../spells/featherFall#_feather-fall)_
 
-3/day—_ [align weapon](additionalMonsters/../spells/alignWeapon.md#_align-weapon)_, _ [death knell](additionalMonsters/../spells/deathKnell.md#_death-knell)_ (DC 14), _ [ray of enfeeblement](additionalMonsters/../spells/rayOfEnfeeblement.md#_ray-of-enfeeblement)_ (DC 13)
+3/day—_ [align weapon](additionalMonsters/../spells/alignWeapon#_align-weapon)_, _ [death knell](additionalMonsters/../spells/deathKnell#_death-knell)_ (DC 14), _ [ray of enfeeblement](additionalMonsters/../spells/rayOfEnfeeblement#_ray-of-enfeeblement)_ (DC 13)
 
 Statistics
 
@@ -44,9 +44,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +7; **CMD** 18
 
-**Feats** [Iron Will](additionalMonsters/../feats.md#_iron-will), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (rhoka sword)
+**Feats** [Iron Will](additionalMonsters/../feats#_iron-will), [Weapon Focus](additionalMonsters/../feats#_weapon-focus) (rhoka sword)
 
-**Skills** [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +8, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (dungeoneering) +5, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes, religion) +8, [Perception](additionalMonsters/../skills/perception.md#_perception) +7, [Ride](additionalMonsters/../skills/ride.md#_ride) +4, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +7, [Survival](additionalMonsters/../skills/survival.md#_survival) +7
+**Skills** [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +8, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (dungeoneering) +5, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes, religion) +8, [Perception](additionalMonsters/../skills/perception#_perception) +7, [Ride](additionalMonsters/../skills/ride#_ride) +4, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +7, [Survival](additionalMonsters/../skills/survival#_survival) +7
 
 **Languages** Aklo, Undercommon
 

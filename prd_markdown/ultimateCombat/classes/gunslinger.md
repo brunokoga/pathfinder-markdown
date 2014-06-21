@@ -24,7 +24,7 @@ The following table lists the starting gold piece value for the new classes pres
 
 ## Class Skills
 
-The gunslinger's class skills are [Acrobatics](skills/acrobatics.md#_acrobatics) (Dex), [Bluff](skills/bluff.md#_bluff) (Cha), [Climb](skills/climb.md#_climb) (Str), [Craft](skills/craft.md#_craft) (Int), [Handle Animal](skills/handleAnimal.md#_handle-animal) (Cha), [Heal](skills/heal.md#_heal) (Wis), [Intimidate](skills/intimidate.md#_intimidate) (Cha), [Knowledge](skills/knowledge.md#_knowledge) (engineering) (Int), [Knowledge](skills/knowledge.md#_knowledge) (local) (Int), [Perception](skills/perception.md#_perception) (Wis), [Profession](skills/profession.md#_profession) (Wis), [Ride](skills/ride.md#_ride) (Dex), [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) (Dex), [Survival](skills/survival.md#_survival) (Wis), and [Swim](skills/swim.md#_swim) (Str).
+The gunslinger's class skills are [Acrobatics](skills/acrobatics#_acrobatics) (Dex), [Bluff](skills/bluff#_bluff) (Cha), [Climb](skills/climb#_climb) (Str), [Craft](skills/craft#_craft) (Int), [Handle Animal](skills/handleAnimal#_handle-animal) (Cha), [Heal](skills/heal#_heal) (Wis), [Intimidate](skills/intimidate#_intimidate) (Cha), [Knowledge](skills/knowledge#_knowledge) (engineering) (Int), [Knowledge](skills/knowledge#_knowledge) (local) (Int), [Perception](skills/perception#_perception) (Wis), [Profession](skills/profession#_profession) (Wis), [Ride](skills/ride#_ride) (Dex), [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand) (Dex), [Survival](skills/survival#_survival) (Wis), and [Swim](skills/swim#_swim) (Str).
 
 **Skill Ranks per Level** : 4 + Int modifier.
 
@@ -58,7 +58,7 @@ The following are class features of the gunslinger.
 
 **Weapon and Armor Proficiency** : Gunslingers are proficient with all simple and martial weapons, and with all firearms. They are proficient with all light armor.
 
-**Gunsmith** : At 1st level, a gunslinger gains one of the following firearms of her choice: blunderbuss, musket, or pistol. Her starting weapon is battered, and only she knows how to use it properly. All other creatures treat her gun as if it had the broken condition. If the weapon already has the broken condition, it does not work at all for anyone else trying to use it. This starting weapon can only be sold for scrap (it's worth 4d10 gp when sold). The gunslinger also gains [Gunsmithing](../ultimateCombatFeats.md#_gunsmithing) as a bonus feat.
+**Gunsmith** : At 1st level, a gunslinger gains one of the following firearms of her choice: blunderbuss, musket, or pistol. Her starting weapon is battered, and only she knows how to use it properly. All other creatures treat her gun as if it had the broken condition. If the weapon already has the broken condition, it does not work at all for anyone else trying to use it. This starting weapon can only be sold for scrap (it's worth 4d10 gp when sold). The gunslinger also gains [Gunsmithing](../ultimateCombatFeats#_gunsmithing) as a bonus feat.
 
 **Grit (Ex)** : A gunslinger makes her mark upon the world with daring deeds. Some gunslingers claim they belong to a mystical way of the gun, but it's more likely that the volatile nature of firearms simply prunes the unlucky and careless from their ranks. Whatever the reason, all gunslingers have grit. In game terms, grit is a fluctuating measure of a gunslinger's ability to perform amazing actions in combat. At the start of each day, a gunslinger gains a number of grit points equal to her Wisdom modifier (minimum 1). Her grit goes up or down throughout the day, but usually cannot go higher than her Wisdom modifier (minimum 1), though some feats and magic items may affect this maximum. A gunslinger spends grit to accomplish deeds (see below), and regains grit in the following ways.
 
@@ -92,7 +92,7 @@ _Quick Clear (Ex)_: At 1st level, as a standard action, the gunslinger can remov
   
   
 
-_Gunslinger Initiative (Ex)_: At 3rd level, as long as the gunslinger has at least 1 grit point, she gains the following benefits. First, she gains a +2 bonus on initiative checks. Furthermore, if she has the [Quick Draw](feats.md#_quick-draw) feat, her hands are free and unrestrained, and the firearm is not hidden, she can draw a single firearm as part of the initiative check.
+_Gunslinger Initiative (Ex)_: At 3rd level, as long as the gunslinger has at least 1 grit point, she gains the following benefits. First, she gains a +2 bonus on initiative checks. Furthermore, if she has the [Quick Draw](feats#_quick-draw) feat, her hands are free and unrestrained, and the firearm is not hidden, she can draw a single firearm as part of the initiative check.
 
   
   
@@ -106,7 +106,7 @@ _Utility Shot (Ex)_: At 3rd level, if the gunslinger has at least 1 grit point, 
 
   
   
-> •  _Blast Lock_: The gunslinger makes an attack roll against a lock within the first range increment of her firearm. A Diminutive lock usually has AC 7, and larger locks have a lower AC. The lock gains a bonus to its AC against this attack based on its quality. A simple lock has a +10 bonus to AC, an average lock has a +15 bonus to AC, a good lock has a +20 bonus to AC, and a superior lock has a +30 bonus to AC. _ [Arcane lock](spells/arcaneLock.md#_arcane-lock)_ grants a +10 bonus to the AC of a lock against this attack. On a hit, the lock is destroyed, and the object can be opened as if it were unlocked. On a miss, the lock is destroyed, but the object is jammed and still considered locked. It can still be unlocked by successfully performing this deed, by using the [Disable Device](skills/disableDevice.md#_disable-device) skill, or with the break DC, though the DC for either break or [Disable Device](skills/disableDevice.md#_disable-device) or the AC increases by 10. A key, combination, or similar mechanical method of unlocking the lock no longer works, though _ [knock](spells/knock.md#_knock)_ can still be employed to bypass the lock, and the creator of an _ [arcane lock](spells/arcaneLock.md#_arcane-lock)_ can still bypass the wards of that spell.
+> •  _Blast Lock_: The gunslinger makes an attack roll against a lock within the first range increment of her firearm. A Diminutive lock usually has AC 7, and larger locks have a lower AC. The lock gains a bonus to its AC against this attack based on its quality. A simple lock has a +10 bonus to AC, an average lock has a +15 bonus to AC, a good lock has a +20 bonus to AC, and a superior lock has a +30 bonus to AC. _ [Arcane lock](spells/arcaneLock#_arcane-lock)_ grants a +10 bonus to the AC of a lock against this attack. On a hit, the lock is destroyed, and the object can be opened as if it were unlocked. On a miss, the lock is destroyed, but the object is jammed and still considered locked. It can still be unlocked by successfully performing this deed, by using the [Disable Device](skills/disableDevice#_disable-device) skill, or with the break DC, though the DC for either break or [Disable Device](skills/disableDevice#_disable-device) or the AC increases by 10. A key, combination, or similar mechanical method of unlocking the lock no longer works, though _ [knock](spells/knock#_knock)_ can still be employed to bypass the lock, and the creator of an _ [arcane lock](spells/arcaneLock#_arcane-lock)_ can still bypass the wards of that spell.
 > 
 >   
 > 
@@ -116,7 +116,7 @@ _Utility Shot (Ex)_: At 3rd level, if the gunslinger has at least 1 grit point, 
 > 
 > •  _Stop Bleeding_: The gunslinger makes a firearm attack and then presses the hot barrel against herself or an adjacent creature to staunch a bleeding wound. Instead of dealing damage, the shot ends a single bleed condition affecting the creature. The gunslinger does not have to make an attack roll when performing the deed in this way; she can instead shoot the firearm into the air, but that shot still uses up ammunition normally.  
 
-_Dead Shot (Ex)_: At 7th level, as a full-round action, the gunslinger can take careful aim and pool all of her attack potential into a single, deadly shot. When she does this, she shoots the firearm at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack. If any of the attack rolls hit the target, the gunslinger's single attack is considered to have hit. For each additional successful attack roll beyond the first, the gunslinger increases the damage of the shot by the base damage dice of the firearm. For instance, if a 7th-level gunslinger firing a musket hits with both attacks, she does 2d12 points of damage with the shot, instead of 1d12 points of damage, before adding any damage modifiers. Precision damage and extra damage from weapon special abilities (such as _ [flaming](magicItems/weapons.md#_weapons-flaming)_) are added with damage modifiers and are not increased by this deed. If one or more rolls are critical threats, she confirms the critical once using her highest base attack bonus –5. For each critical threat beyond the first, she reduces this penalty by 1 (to a maximum of 0). The gunslinger only misfires on a dead shot if all the attack rolls are misfires. She cannot perform this deed with a blunderbuss or other scatter weapon when attacking creatures in a cone. The gunslinger must spend 1 grit point to perform this deed.
+_Dead Shot (Ex)_: At 7th level, as a full-round action, the gunslinger can take careful aim and pool all of her attack potential into a single, deadly shot. When she does this, she shoots the firearm at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack. If any of the attack rolls hit the target, the gunslinger's single attack is considered to have hit. For each additional successful attack roll beyond the first, the gunslinger increases the damage of the shot by the base damage dice of the firearm. For instance, if a 7th-level gunslinger firing a musket hits with both attacks, she does 2d12 points of damage with the shot, instead of 1d12 points of damage, before adding any damage modifiers. Precision damage and extra damage from weapon special abilities (such as _ [flaming](magicItems/weapons#_weapons-flaming)_) are added with damage modifiers and are not increased by this deed. If one or more rolls are critical threats, she confirms the critical once using her highest base attack bonus –5. For each critical threat beyond the first, she reduces this penalty by 1 (to a maximum of 0). The gunslinger only misfires on a dead shot if all the attack rolls are misfires. She cannot perform this deed with a blunderbuss or other scatter weapon when attacking creatures in a cone. The gunslinger must spend 1 grit point to perform this deed.
 
   
   
@@ -146,7 +146,7 @@ _Targeting (Ex)_: At 7th level, as a full-round action, the gunslinger can make 
 > 
 >   
 > 
-> •  _Wings_: On a hit, the target is damaged normally, and must make a DC 20 [Fly](skills/fly.md#_fly) check or fall 20 ft.  
+> •  _Wings_: On a hit, the target is damaged normally, and must make a DC 20 [Fly](skills/fly#_fly) check or fall 20 ft.  
 
 _Bleeding Wound (Ex)_: At 11th level, when the gunslinger hits a living creature with a firearm attack, she can spend 1 grit point as a free action to have that attack deal extra bleed damage. The amount of bleed damage is equal to the gunslinger's Dexterity modifier. Alternatively, the gunslinger can spend 2 grit points to deal 1 point of Strength, Dexterity, or Constitution bleed damage (gunslinger's choice) instead. Creatures that are immune to sneak attacks are also immune to these types of bleed damage.
 
@@ -158,7 +158,7 @@ _Expert Loading (Ex)_: At 11th level, whenever the gunslinger rolls a misfire wi
   
   
 
-_Lightning Reload (Ex)_: At 11th level, as long as the gunslinger has at least 1 grit point, she can reload a single barrel of a one-handed or two-handed firearm as a swift action once per round. If she has the [Rapid Reload](../ultimateCombatFeats.md#_rapid-reload-(combat)) feat or is using an alchemical cartridge (or both), she can reload a single barrel of the weapon as a free action each round instead. Furthermore, using this deed does not provoke attacks of opportunity.
+_Lightning Reload (Ex)_: At 11th level, as long as the gunslinger has at least 1 grit point, she can reload a single barrel of a one-handed or two-handed firearm as a swift action once per round. If she has the [Rapid Reload](../ultimateCombatFeats#_rapid-reload-(combat)) feat or is using an alchemical cartridge (or both), she can reload a single barrel of the weapon as a free action each round instead. Furthermore, using this deed does not provoke attacks of opportunity.
 
   
   
@@ -168,12 +168,12 @@ _Evasive (Ex)_: At 15th level, when the gunslinger has at least 1 grit point, sh
   
   
 
-_ [Menacing](advanced/magicItems/weapons.md#_menacing) Shot (Ex)_: At 15th level, the gunslinger can spend 1 grit point, shoot a firearm into the air, and affect all living creatures within a 30-foot-radius burst as if they were subject to the _ [fear](spells/fear.md#_fear)_ spell. The DC of this effect is equal to 10 + 1/2 the gunslinger's level + the gunslinger's Wisdom modifier.
+_ [Menacing](advanced/magicItems/weapons#_menacing) Shot (Ex)_: At 15th level, the gunslinger can spend 1 grit point, shoot a firearm into the air, and affect all living creatures within a 30-foot-radius burst as if they were subject to the _ [fear](spells/fear#_fear)_ spell. The DC of this effect is equal to 10 + 1/2 the gunslinger's level + the gunslinger's Wisdom modifier.
 
   
   
 
-_Slinger's Luck (Ex)_: At 15th level, the gunslinger can spend grit to reroll a saving throw or a skill check. It costs 2 grit points to reroll a saving throw, and 1 grit point to reroll a skill check. The gunslinger must take the result of the second roll, even if it is lower. The deed's cost cannot be reduced by the true grit class ability, the [Signature Deed](../ultimateCombatFeats.md#_signature-deed-(grit)) feat, or any other effect that reduces the amount of grit a deed costs.
+_Slinger's Luck (Ex)_: At 15th level, the gunslinger can spend grit to reroll a saving throw or a skill check. It costs 2 grit points to reroll a saving throw, and 1 grit point to reroll a skill check. The gunslinger must take the result of the second roll, even if it is lower. The deed's cost cannot be reduced by the true grit class ability, the [Signature Deed](../ultimateCombatFeats#_signature-deed-(grit)) feat, or any other effect that reduces the amount of grit a deed costs.
 
   
   

@@ -6,9 +6,9 @@ _This large snake has a thick, muscular body and dull green scales decorated wit
 
 **XP 600**
 
-N Medium [animal](creatureTypes.md#_animal)
+N Medium [animal](creatureTypes#_animal)
 
-**Init** +3; **Senses** scent; [Perception](../skills/perception.md#_perception) +12
+**Init** +3; **Senses** scent; [Perception](../skills/perception#_perception) +12
 
 **Defense**
 
@@ -22,9 +22,9 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Speed** 20 ft., climb 20 ft., swim 20 ft.
 
-**Melee** bite +5 (1d4+4 plus [grab](universalMonsterRules.md#_grab))
+**Melee** bite +5 (1d4+4 plus [grab](universalMonsterRules#_grab))
 
-**Special Attacks** [constrict](universalMonsterRules.md#_constrict) (1d4+4)
+**Special Attacks** [constrict](universalMonsterRules#_constrict) (1d4+4)
 
 **Statistics**
 
@@ -32,9 +32,9 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Base Atk** +2; **CMB** +5 (+9 grapple); **CMD** 18 (can't be tripped)
 
-**Feats** [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Toughness](../feats.md#_toughness)
+**Feats** [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception)), [Toughness](../feats#_toughness)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +15, [Climb](../skills/climb.md#_climb) +11, [Perception](../skills/perception.md#_perception) +12, [Stealth](../skills/stealth.md#_stealth) +11, [Swim](../skills/swim.md#_swim) +11; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception), +4 [Stealth](../skills/stealth.md#_stealth),+8 [Acrobatics](../skills/acrobatics.md#_acrobatics)
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +15, [Climb](../skills/climb#_climb) +11, [Perception](../skills/perception#_perception) +12, [Stealth](../skills/stealth#_stealth) +11, [Swim](../skills/swim#_swim) +11; **Racial Modifiers** +4 [Perception](../skills/perception#_perception), +4 [Stealth](../skills/stealth#_stealth),+8 [Acrobatics](../skills/acrobatics#_acrobatics)
 
 **Ecology**
 
@@ -56,9 +56,9 @@ _This brightly colored snake assumes an aggressive posture, its hissing mouth op
 
 **XP 400**
 
-N Medium [animal](creatureTypes.md#_animal)
+N Medium [animal](creatureTypes#_animal)
 
-**Init** +5; **Senses** low-light vision, scent; [Perception](../skills/perception.md#_perception) +9
+**Init** +5; **Senses** low-light vision, scent; [Perception](../skills/perception#_perception) +9
 
 **Defense**
 
@@ -72,7 +72,7 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Speed** 20 ft., climb 20 ft., swim 20 ft.
 
-**Melee** bite +2 (1d4–1 plus [poison](universalMonsterRules.md#_poison))
+**Melee** bite +2 (1d4–1 plus [poison](universalMonsterRules#_poison))
 
 **Statistics**
 
@@ -80,9 +80,9 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Base Atk** +1; **CMB** +0; **CMD** 11 (can't be tripped)
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Weapon Finesse](../feats.md#_weapon-finesse)B
+**Feats** [Improved Initiative](../feats#_improved-initiative), [Weapon Finesse](../feats#_weapon-finesse)B
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +9, [Climb](../skills/climb.md#_climb) +9, [Perception](../skills/perception.md#_perception) +9, [Stealth](../skills/stealth.md#_stealth) +9, [Swim](../skills/swim.md#_swim) +9; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception), +4 [Stealth](../skills/stealth.md#_stealth), +8 [Acrobatics](../skills/acrobatics.md#_acrobatics); modifies [Climb](../skills/climb.md#_climb) and [Swim](../skills/swim.md#_swim) with Dexterity
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +9, [Climb](../skills/climb#_climb) +9, [Perception](../skills/perception#_perception) +9, [Stealth](../skills/stealth#_stealth) +9, [Swim](../skills/swim#_swim) +9; **Racial Modifiers** +4 [Perception](../skills/perception#_perception), +4 [Stealth](../skills/stealth#_stealth), +8 [Acrobatics](../skills/acrobatics#_acrobatics); modifies [Climb](../skills/climb#_climb) and [Swim](../skills/swim#_swim) with Dexterity
 
 **Ecology**
 

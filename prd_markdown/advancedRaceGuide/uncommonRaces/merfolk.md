@@ -28,7 +28,7 @@ The following racial traits may be selected instead of existing merfolk racial t
 
 **Darkvision** : Some merfolk favor the lightless depths over shallower waters. Merfolk with this racial trait gain darkvision with a range of 60 feet and light sensitivity. This racial trait replaces low-light vision.
 
-**Seasinger** : The beautiful voices of the merfolk are legendary. A seasinger gains a +2 racial bonus on [Perform](skills/perform.md#_perform) (sing) checks and a +1 racial bonus to the save DC of language-dependent spells. This racial trait replaces low-light vision.
+**Seasinger** : The beautiful voices of the merfolk are legendary. A seasinger gains a +2 racial bonus on [Perform](skills/perform#_perform) (sing) checks and a +1 racial bonus to the save DC of language-dependent spells. This racial trait replaces low-light vision.
 
 **Strongtail** : A few merfolk have broad, strong tails that are more suited for land travel than the typical merfolk tail. Merfolk with this racial trait have a land speed of 15 feet and a swim speed of 30 feet.
 
@@ -50,15 +50,15 @@ The following racial archetype is available to merfolk.
 
 The wave warden patrols beneath the sea, preserving the safety and secrets of merfolk communities. Though he fares best beneath the water, dry land is no haven to his quarry.
 
-**Deep Sentinel (Ex)** : A wave warden adds half his level (minimum +1) on [Perception](skills/perception.md#_perception) checks made to notice creatures underwater. This ability replaces track.
+**Deep Sentinel (Ex)** : A wave warden adds half his level (minimum +1) on [Perception](skills/perception#_perception) checks made to notice creatures underwater. This ability replaces track.
 
-**Aquatic Prowess Feat (Ex)** : At 2nd level and every four levels thereafter, a wave warden selects a bonus feat that improves his prowess in aquatic environments. He can choose these feats even if he does not meet the prerequisites. Initially, he may choose from the following feats: [Dodge](feats.md#_dodge), Mobility, [Net Adept](ultimateCombat/ultimateCombatFeats.md#_net-adept), [Net and Trident](ultimateCombat/ultimateCombatFeats.md#_net-and-trident), [Net Maneuvering](ultimateCombat/ultimateCombatFeats.md#_net-maneuvering), Precise Shot, [Rapid Reload](ultimateCombat/ultimateCombatFeats.md#_rapid-reload), Sea Hunter, and [Two-Weapon Fighting](feats.md#_two-weapon-fighting). At 6th level, he adds Improved [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Net Trickery](ultimateCombat/ultimateCombatFeats.md#_net-trickery), and Spring Attack to the list. At 10th level, he adds Greater [Two-Weapon Fighting](feats.md#_two-weapon-fighting) and Improved Precise Shot to the list. This ability otherwise functions like and replaces the standard ranger's combat style bonus feats, including the limitations on armor worn.
+**Aquatic Prowess Feat (Ex)** : At 2nd level and every four levels thereafter, a wave warden selects a bonus feat that improves his prowess in aquatic environments. He can choose these feats even if he does not meet the prerequisites. Initially, he may choose from the following feats: [Dodge](feats#_dodge), Mobility, [Net Adept](ultimateCombat/ultimateCombatFeats#_net-adept), [Net and Trident](ultimateCombat/ultimateCombatFeats#_net-and-trident), [Net Maneuvering](ultimateCombat/ultimateCombatFeats#_net-maneuvering), Precise Shot, [Rapid Reload](ultimateCombat/ultimateCombatFeats#_rapid-reload), Sea Hunter, and [Two-Weapon Fighting](feats#_two-weapon-fighting). At 6th level, he adds Improved [Two-Weapon Fighting](feats#_two-weapon-fighting), [Net Trickery](ultimateCombat/ultimateCombatFeats#_net-trickery), and Spring Attack to the list. At 10th level, he adds Greater [Two-Weapon Fighting](feats#_two-weapon-fighting) and Improved Precise Shot to the list. This ability otherwise functions like and replaces the standard ranger's combat style bonus feats, including the limitations on armor worn.
 
 **Favored Terrain (Ex)** : At 3rd level, a wave warden gains water as a favored terrain. At 8th level and every five levels thereafter, his bonus in aquatic terrain increases by +2. He does not gain additional favored terrains. This otherwise functions like the standard ranger's favored terrain ability and replaces that ability.
 
 **Seaborn (Ex)** : At 7th level, a wave warden may move through any sort of aquatic growth (such as coral or seaweed) or across a wet surface at his normal speed and without taking damage or suffering any other impairment. Obstacles that are enchanted or magically manipulated to impede motion still affect him. This ability replaces woodland stride.
 
-**Watery Summons (Sp)** : At 8th level, a wave warden can summon allies once per day as a full-round action. This functions as _ [summon nature's ally III](spells/summonNatureSAlly.md#_summon-nature-s-ally-iii)_, except it can only be used to summon creatures with the aquatic or water subtypes. At 11th level, this ability improves to _ [summon nature's ally IV](spells/summonNatureSAlly.md#_summon-nature-s-ally-iv)_, with this progression continuing every three levels thereafter. The warden's caster level is equal to his ranger level. This ability replaces swift tracker.
+**Watery Summons (Sp)** : At 8th level, a wave warden can summon allies once per day as a full-round action. This functions as _ [summon nature's ally III](spells/summonNatureSAlly#_summon-nature-s-ally-iii)_, except it can only be used to summon creatures with the aquatic or water subtypes. At 11th level, this ability improves to _ [summon nature's ally IV](spells/summonNatureSAlly#_summon-nature-s-ally-iv)_, with this progression continuing every three levels thereafter. The warden's caster level is equal to his ranger level. This ability replaces swift tracker.
 
 # New Racial Rules
 
@@ -84,9 +84,9 @@ Merfolk have access to the following feat.
 
 Your blows knock swimming opponents off balance.
 
-**Prerequisites** : [Combat Expertise](feats.md#_combat-expertise), merfolk.
+**Prerequisites** : [Combat Expertise](feats#_combat-expertise), merfolk.
 
-**Benefit** : When you make a successful melee attack against a swimming target, as a free action you can attempt to knock the target off balance. Treat this as a trip combat maneuver. If you succeed, the target is considered off balance until it recovers its balance, usually by making a [Swim](skills/swim.md#_swim) check on its turn. This feat has no effect on creatures with a swim speed, those using magic such as _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, and creatures that can't be tripped.
+**Benefit** : When you make a successful melee attack against a swimming target, as a free action you can attempt to knock the target off balance. Treat this as a trip combat maneuver. If you succeed, the target is considered off balance until it recovers its balance, usually by making a [Swim](skills/swim#_swim) check on its turn. This feat has no effect on creatures with a swim speed, those using magic such as _ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_, and creatures that can't be tripped.
 
 ## Merfolk Magic Items
 
@@ -104,7 +104,7 @@ This shawl of delicate lace grants the benefits of the _fins to feet_ spell (see
 
 Construction
 
-**Requirements** [Craft Wondrous Item](feats.md#_craft-wondrous-item), _fins to feet_; **Cost** 3,000 gp
+**Requirements** [Craft Wondrous Item](feats#_craft-wondrous-item), _fins to feet_; **Cost** 3,000 gp
 
 ## Merfolk Spells
 

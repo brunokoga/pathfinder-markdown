@@ -6,9 +6,9 @@ Shadow Mastiff CR 5
 
 XP 1,600
 
-NE Medium outsider ( [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
+NE Medium outsider ( [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +10
+**Init** +6; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +10
 
 Defense
 
@@ -34,9 +34,9 @@ Statistics
 
 **Base Atk** +6; **CMB** +10; **CMD** 22 (26 vs. trip)
 
-**Feats** [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Power Attack](feats.md#_power-attack)
+**Feats** [Improved Initiative](feats#_improved-initiative), [Iron Will](feats#_iron-will), [Power Attack](feats#_power-attack)
 
-**Skills** [Perception](skills/perception.md#_perception) +10, [Stealth](skills/stealth.md#_stealth) +11, [Survival](skills/survival.md#_survival) +10
+**Skills** [Perception](skills/perception#_perception) +10, [Stealth](skills/stealth#_stealth) +11, [Survival](skills/survival#_survival) +10
 
 **Languages** Common (cannot speak)
 
@@ -50,15 +50,15 @@ Ecology
 
 Special Abilities
 
-**Bay (Su)** When a shadow mastiff howls or barks, all creatures within a 300-foot spread except [evil](monsters/creatureTypes.md#_evil-subtype) outsiders must succeed at a DC 16 Will save or become panicked for 1d4 rounds. This is a sonic, mind-affecting [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) effect. A creature that successfully saves cannot be affected by the same mastiff's bay for 24 hours. This is a mind-affecting [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) effect. The save DC is Charisma-based.
+**Bay (Su)** When a shadow mastiff howls or barks, all creatures within a 300-foot spread except [evil](monsters/creatureTypes#_evil-subtype) outsiders must succeed at a DC 16 Will save or become panicked for 1d4 rounds. This is a sonic, mind-affecting [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) effect. A creature that successfully saves cannot be affected by the same mastiff's bay for 24 hours. This is a mind-affecting [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) effect. The save DC is Charisma-based.
 
-**Shadow Blend (Su)** In any condition of illumination other than full daylight, a shadow mastiff disappears into the shadows, giving it concealment (50% miss chance). Artificial illumination, even a _ [light](spells/light.md#_light)_ or _ [continual flame](spells/continualFlame.md#_continual-flame)_ spell, does not negate this ability; a _ [daylight](spells/daylight.md#_daylight)_ spell, however, does. A shadow mastiff can suspend or resume this ability as a free action.
+**Shadow Blend (Su)** In any condition of illumination other than full daylight, a shadow mastiff disappears into the shadows, giving it concealment (50% miss chance). Artificial illumination, even a _ [light](spells/light#_light)_ or _ [continual flame](spells/continualFlame#_continual-flame)_ spell, does not negate this ability; a _ [daylight](spells/daylight#_daylight)_ spell, however, does. A shadow mastiff can suspend or resume this ability as a free action.
 
 Tireless hunters, stealthy trackers, and deadly predators, shadow mastiffs stalk the dark corners of the Outer Planes, preying upon all beings that stray from the light. These beasts have little in common with actual canines aside from their general forms (although with the notable addition of a long, spiked tail), their bodies being the evolution of countless centuries hunting the most merciless wildernesses of the Outer Planes and the Shadow Plane. On the Material Plane, they prefer to travel in shadow, moving soundlessly and unseen to find prey, hunting in vicious sport just as often as in hunger. Shadow mastiffs stand over 4 feet tall, with most weighing nearly 300 pounds.
 
 In combat, these stealthy beasts prefer to fight in shadows; they shy from areas of bright light unless faced with no other choice and use their bay to force their enemies to flee from well-lit areas. Shadow mastiffs prefer to hunt in groups, using pack tactics to lure prey into traps and to draw it away from sources of light. They do not make lairs, and are usually not found with any sort of treasure, unless it is on the body of a recently slain victim.
 
-Shadow mastiffs are popular guardians among spellcasters capable of conjuring them via _ [lesser planar ally](spells/planarAlly.md#_planar-ally-lesser)_ or _ [lesser planar binding](spells/planarBinding.md#_planar-binding-lesser)_. Undead spellcasters and evil outsiders are immune to shadow mastiffs' fearful bay; others who are not immune might intentionally expose themselves to the creatures' bay at some point during the daylight hours when the resulting panic won't directly impact other tasks. As a general rule, it's safe to assume that any site using shadow mastiffs as guardians has already been affected by the bay, and that its inhabitants are thus immune to the ability's effects for the remaining 24 hours of that day.
+Shadow mastiffs are popular guardians among spellcasters capable of conjuring them via _ [lesser planar ally](spells/planarAlly#_planar-ally-lesser)_ or _ [lesser planar binding](spells/planarBinding#_planar-binding-lesser)_. Undead spellcasters and evil outsiders are immune to shadow mastiffs' fearful bay; others who are not immune might intentionally expose themselves to the creatures' bay at some point during the daylight hours when the resulting panic won't directly impact other tasks. As a general rule, it's safe to assume that any site using shadow mastiffs as guardians has already been affected by the bay, and that its inhabitants are thus immune to the ability's effects for the remaining 24 hours of that day.
 
 Larger shadow mastiffs exist—creatures the size of horses or even bigger. These creatures have different shapes, looking less like dogs and more like larger creatures such as lions, dinosaurs, or even dragons. Such creatures have additional racial Hit Dice, and could even have extra abilities such as flight or breath weapons.
 

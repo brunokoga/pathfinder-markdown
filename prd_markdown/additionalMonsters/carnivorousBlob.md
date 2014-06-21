@@ -6,9 +6,9 @@ Carnivorous BlobCR 13
 
 **XP 25,600**
 
-N Colossal [ooze](monsters/creatureTypes.md#_ooze)
+N Colossal [ooze](monsters/creatureTypes#_ooze)
 
-**Init** +0; **Senses** [blindsight](monsters/universalMonsterRules.md#_blindsight) 60 ft., tremorsense 120 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) –5
+**Init** +0; **Senses** [blindsight](monsters/universalMonsterRules#_blindsight) 60 ft., tremorsense 120 ft.; [Perception](additionalMonsters/../skills/perception#_perception) –5
 
 Defense
 
@@ -18,19 +18,19 @@ Defense
 
 **Fort** +12, **Ref** +5, **Will** +0
 
-**Defensive Abilities** reactive strike, [split](monsters/universalMonsterRules.md#_split) (sonic or slashing, 32 hp); **DR** 10/–; Immune acid, [ooze](monsters/creatureTypes.md#_ooze) traits; **Resist** electricity 30, [fire](monsters/creatureTypes.md#_fire-subtype) 30
+**Defensive Abilities** reactive strike, [split](monsters/universalMonsterRules#_split) (sonic or slashing, 32 hp); **DR** 10/–; Immune acid, [ooze](monsters/creatureTypes#_ooze) traits; **Resist** electricity 30, [fire](monsters/creatureTypes#_fire-subtype) 30
 
-**Weaknesses** vulnerable to [cold](monsters/creatureTypes.md#_cold-subtype)
+**Weaknesses** vulnerable to [cold](monsters/creatureTypes#_cold-subtype)
 
 Offense
 
 **Speed** 20 ft., climb 20 ft., swim 20 ft.
 
-**Melee** slam +17 (8d6+19 plus 1d4 Con drain and [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** slam +17 (8d6+19 plus 1d4 Con drain and [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 30 ft.; **Reach** 30 ft.
 
-**Special Attacks** absorb flesh, [constrict](monsters/universalMonsterRules.md#_constrict) (8d6+19 plus 1d4 Con drain)
+**Special Attacks** absorb flesh, [constrict](monsters/universalMonsterRules#_constrict) (8d6+19 plus 1d4 Con drain)
 
 Statistics
 
@@ -38,7 +38,7 @@ Statistics
 
 **Base Atk** +12; **CMB** +33 (+37 grapple); **CMD** 37 (can't be tripped)
 
-**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +21, [Swim](additionalMonsters/../skills/swim.md#_swim) +21
+**Skills** [Climb](additionalMonsters/../skills/climb#_climb) +21, [Swim](additionalMonsters/../skills/swim#_swim) +21
 
 Ecology
 
@@ -50,11 +50,11 @@ Ecology
 
 Special Abilities
 
-**Absorb Flesh (Ex)** A carnivorous blob cannot eat [plant](monsters/creatureTypes.md#_plant) matter or inorganic matter, but it devours living flesh with a voracious speed by dealing Constitution drain on creatures it slams or constricts. Whenever the blob deals Constitution drain in this manner, it heals 10 hit points for each point of Constitution it drains. Excess hit points above its normal maximum are gained as temporary hit points. As soon as a carnivorous blob has at least 50 temporary hit points, it loses those temporary hit points and splits as an immediate action.
+**Absorb Flesh (Ex)** A carnivorous blob cannot eat [plant](monsters/creatureTypes#_plant) matter or inorganic matter, but it devours living flesh with a voracious speed by dealing Constitution drain on creatures it slams or constricts. Whenever the blob deals Constitution drain in this manner, it heals 10 hit points for each point of Constitution it drains. Excess hit points above its normal maximum are gained as temporary hit points. As soon as a carnivorous blob has at least 50 temporary hit points, it loses those temporary hit points and splits as an immediate action.
 
-**Reactive Strike (Ex)** Whenever a carnivorous blob takes damage, it reflexively lashes out with a slam attack. This ability effectively grants the carnivorous blob an attack of opportunity against any adjacent foe that deals it damage. These attacks of opportunity do not count against the normal limit the creature can make in a round. Attacks that deal sonic or slashing damage do not trigger a reactive strike—rather, they cause the creature to [split](monsters/universalMonsterRules.md#_split). Whenever a carnivorous blob takes [cold](monsters/creatureTypes.md#_cold-subtype) damage, the creature cannot use its reactive strike ability until after it takes its next action in combat.
+**Reactive Strike (Ex)** Whenever a carnivorous blob takes damage, it reflexively lashes out with a slam attack. This ability effectively grants the carnivorous blob an attack of opportunity against any adjacent foe that deals it damage. These attacks of opportunity do not count against the normal limit the creature can make in a round. Attacks that deal sonic or slashing damage do not trigger a reactive strike—rather, they cause the creature to [split](monsters/universalMonsterRules#_split). Whenever a carnivorous blob takes [cold](monsters/creatureTypes#_cold-subtype) damage, the creature cannot use its reactive strike ability until after it takes its next action in combat.
 
-**Vulnerable to [Cold](monsters/creatureTypes.md#_cold-subtype) (Ex)** A carnivorous blob takes half again as much damage (+50%) from [cold](monsters/creatureTypes.md#_cold-subtype) attacks.
+**Vulnerable to [Cold](monsters/creatureTypes#_cold-subtype) (Ex)** A carnivorous blob takes half again as much damage (+50%) from [cold](monsters/creatureTypes#_cold-subtype) attacks.
 
 While sages debate whether the first carnivorous blobs were created by a mad wizard, formed in foul fleshwarping vats in some sinister city, or traveled to this world trapped in the core of a meteor, there is one thing they all agree on—none wish to get close enough to study the monstrosity.
 

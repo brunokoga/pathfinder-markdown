@@ -12,11 +12,11 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Will](../combat.md#_will) negates; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) negates; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-A _banishment _spell is a more powerful version of the _ [dismissal](dismissal.md#_dismissal) _spell. It enables you to force extraplanar creatures out of your home plane. As many as 2 Hit Dice of creatures per caster level can be banished.
+A _banishment _spell is a more powerful version of the _ [dismissal](dismissal#_dismissal) _spell. It enables you to force extraplanar creatures out of your home plane. As many as 2 Hit Dice of creatures per caster level can be banished.
 
-You can improve the spell's chance of success by presenting at least one object or substance that the target hates, fears, or otherwise opposes. For each such object or substance, you gain a +1 bonus on your caster level check to overcome the target's [spell resistance](../glossary.md#_spell-resistance) (if any), and the saving throw DC increases by 2.
+You can improve the spell's chance of success by presenting at least one object or substance that the target hates, fears, or otherwise opposes. For each such object or substance, you gain a +1 bonus on your caster level check to overcome the target's [spell resistance](../glossary#_spell-resistance) (if any), and the saving throw DC increases by 2.
 
-Certain rare items might work twice as well as a normal item for the purpose of the bonuses (each providing a +2 bonus on the caster level check against [spell resistance](../glossary.md#_spell-resistance) and increasing the save DC by 4).
+Certain rare items might work twice as well as a normal item for the purpose of the bonuses (each providing a +2 bonus on the caster level check against [spell resistance](../glossary#_spell-resistance) and increasing the save DC by 4).
 

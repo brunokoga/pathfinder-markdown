@@ -8,9 +8,9 @@ GrippliCR 1/2
 
 Grippli ranger 1
 
-N Small [humanoid](monsters/creatureTypes.md#_humanoid) (grippli)
+N Small [humanoid](monsters/creatureTypes#_humanoid) (grippli)
 
-**Init** +3; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +5
+**Init** +3; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +5
 
 Defense
 
@@ -30,7 +30,7 @@ Offense
 
 net +5 (special)
 
-**Special Attacks** favored enemy ( [vermin](monsters/creatureTypes.md#_vermin) +2)
+**Special Attacks** favored enemy ( [vermin](monsters/creatureTypes#_vermin) +2)
 
 Statistics
 
@@ -38,9 +38,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +1; **CMD** 14
 
-**Feats** [Self-Sufficient](additionalMonsters/../feats.md#_self-sufficient)
+**Feats** [Self-Sufficient](additionalMonsters/../feats#_self-sufficient)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +4, [Climb](additionalMonsters/../skills/climb.md#_climb) +13, [Handle Animal](additionalMonsters/../skills/handleAnimal.md#_handle-animal) +3, [Heal](additionalMonsters/../skills/heal.md#_heal) +7, [Perception](additionalMonsters/../skills/perception.md#_perception) +5, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +11, (+15 in forests or marshes) [Survival](additionalMonsters/../skills/survival.md#_survival) +7; **Racial Modifiers** +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in forests or marshes
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +4, [Climb](additionalMonsters/../skills/climb#_climb) +13, [Handle Animal](additionalMonsters/../skills/handleAnimal#_handle-animal) +3, [Heal](additionalMonsters/../skills/heal#_heal) +7, [Perception](additionalMonsters/../skills/perception#_perception) +5, [Stealth](additionalMonsters/../skills/stealth#_stealth) +11, (+15 in forests or marshes) [Survival](additionalMonsters/../skills/survival#_survival) +7; **Racial Modifiers** +4 [Stealth](additionalMonsters/../skills/stealth#_stealth) in forests or marshes
 
 **Languages** Common, Grippli
 
@@ -74,7 +74,7 @@ Gripplis are defined by their class levels—they do not possess racial Hit Dice
 
 **Darkvision** : Gripplis can see in the dark up to 60 feet.
 
-**Camouflage** : +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth) in marshes or forested areas.
+**Camouflage** : +4 [Stealth](additionalMonsters/../skills/stealth#_stealth) in marshes or forested areas.
 
 **Swamp Stride** : See above.
 

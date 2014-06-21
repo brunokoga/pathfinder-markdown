@@ -12,7 +12,7 @@
 
 **Duration** 1 round/level
 
-**Saving Throw** [Fortitude](../combat.md#_fortitude) partial, see text; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** [Fortitude](../combat#_fortitude) partial, see text; **[Spell Resistance](../glossary#_spell-resistance)** no
 
 This spell summons four massive swarms of biting and stinging insects. These swarms appear adjacent to one another, but can be directed to move independently. Treat these swarms as centipede swarms with the following adjustments. The swarms have 60 hit points each and deal 4d6 points of damage with their swarm attack. The save to resist their poison and distraction effects is equal to the save DC of this spell. Creatures caught in multiple swarms only take damage and make saves once.
 

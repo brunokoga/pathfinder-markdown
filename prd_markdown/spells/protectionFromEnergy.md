@@ -12,9 +12,9 @@
 
 **Duration** 10 min./level or until discharged
 
-**Saving Throw** [Fortitude](../combat.md#_fortitude) negates (harmless); **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless)
+**Saving Throw** [Fortitude](../combat#_fortitude) negates (harmless); **[Spell Resistance](../glossary#_spell-resistance)** yes (harmless)
 
 _Protection from energy _grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.
 
-_Protection from energy _overlaps (and does not stack with) _ [resist energy](resistEnergy.md#_resist-energy). _If a character is warded by _protection from energy _and _ [resist energy](resistEnergy.md#_resist-energy), _the _protection _spell absorbs damage until its power is [exhausted](../glossary.md#_exhausted).
+_Protection from energy _overlaps (and does not stack with) _ [resist energy](resistEnergy#_resist-energy). _If a character is warded by _protection from energy _and _ [resist energy](resistEnergy#_resist-energy), _the _protection _spell absorbs damage until its power is [exhausted](../glossary#_exhausted).
 

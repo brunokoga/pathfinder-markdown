@@ -12,7 +12,7 @@
 
 **Duration** 1 day/level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** no
 
 This spell turns an oak tree into a protector or guardian. The spell can only be cast on a single tree at a time; while _liveoak _is in effect, you can't cast it again on another tree. _Liveoak _must be cast on a healthy, Huge oak. A triggering phrase of up to one word per caster level is placed on the targeted oak. The _liveoak _spell triggers the tree into animating as a treant.
 

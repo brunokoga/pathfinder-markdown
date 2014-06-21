@@ -40,7 +40,7 @@ Doses from different poisons (such as an assassin with greenblood oil on his dag
 
 ## Crafting Poison
 
-You can make poison with the [Craft](skills/craft.md#_craft) (alchemy) skill. The DC to make a poison is equal to its Fortitude save DC. Rolling a natural 1 on a [Craft](skills/craft.md#_craft) skill check while making a poison exposes you to the poison. This does not consume the poison. If you have the poison use class feature, you do not risk accidentally poisoning yourself when applying poison.
+You can make poison with the [Craft](skills/craft#_craft) (alchemy) skill. The DC to make a poison is equal to its Fortitude save DC. Rolling a natural 1 on a [Craft](skills/craft#_craft) skill check while making a poison exposes you to the poison. This does not consume the poison. If you have the poison use class feature, you do not risk accidentally poisoning yourself when applying poison.
 
 The sample poisons on the next page represent just some of the common poisons available in cities. Of course, most cities have laws against buying, selling, or crafting poison.
 

@@ -16,7 +16,7 @@ Scouring Winds
 
 This spell brings forth a windstorm of stinging sand that blocks all vision. You can move the storm up to 30 feet each round as a move action.
 
-Any creature in the area takes 3d6 points of piercing damage each round. The area is considered a windstorm (see the [wind effects table](../environment.md#_table-13-10-wind-effects)).
+Any creature in the area takes 3d6 points of piercing damage each round. The area is considered a windstorm (see the [wind effects table](../environment#_table-13-10-wind-effects)).
 
 If a creature with spell resistance successfully resists this spell, it is unaffected by the winds and sand, but still unable to see within the area of the spell.
 

@@ -36,5 +36,5 @@ Soar (Flight)
 
 **Target Restrictions** _selected_
 
-The target of a wordspell with this effect word gains a fly speed of 60 feet with average maneuverability (40 feet if encumbered or wearing medium or heavy armor). The target also receives an insight bonus on [Fly](skills/fly.md#_fly) skill checks equal to 1/2 the caster's level.
+The target of a wordspell with this effect word gains a fly speed of 60 feet with average maneuverability (40 feet if encumbered or wearing medium or heavy armor). The target also receives an insight bonus on [Fly](skills/fly#_fly) skill checks equal to 1/2 the caster's level.
 

@@ -6,9 +6,9 @@ Giant SolifugidCR 1
 
 **XP 400**
 
-N Small [vermin](monsters/creatureTypes.md#_vermin)
+N Small [vermin](monsters/creatureTypes#_vermin)
 
-**Init** +2; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +4
+**Init** +2; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +4
 
 Defense
 
@@ -34,7 +34,7 @@ Statistics
 
 **Base Atk** +1; **CMB** +1; **CMD** 13 (25 vs. trip)
 
-**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +9, [Perception](additionalMonsters/../skills/perception.md#_perception) +4, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +10; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
+**Skills** [Climb](additionalMonsters/../skills/climb#_climb) +9, [Perception](additionalMonsters/../skills/perception#_perception) +4, [Stealth](additionalMonsters/../skills/stealth#_stealth) +10; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception#_perception), +4 [Stealth](additionalMonsters/../skills/stealth#_stealth)
 
 Ecology
 
@@ -68,9 +68,9 @@ Albino Cave SolifugidCR 4
 
 **XP 1,200**
 
-N Medium [vermin](monsters/creatureTypes.md#_vermin)
+N Medium [vermin](monsters/creatureTypes#_vermin)
 
-**Init** +1; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +4
+**Init** +1; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +4
 
 Defense
 
@@ -88,7 +88,7 @@ Offense
 
 **Melee** bite +7 (1d8+3), 2 claws +7 (1d4+3)
 
-**Special Attacks** [pounce](monsters/universalMonsterRules.md#_pounce), rend (2 claws, 1d6+4)
+**Special Attacks** [pounce](monsters/universalMonsterRules#_pounce), rend (2 claws, 1d6+4)
 
 Statistics
 
@@ -96,7 +96,7 @@ Statistics
 
 **Base Atk** +4; **CMB** +7; **CMD** 18 (26 vs. trip)
 
-**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +11, [Perception](additionalMonsters/../skills/perception.md#_perception) +4, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +5; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception.md#_perception), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
+**Skills** [Climb](additionalMonsters/../skills/climb#_climb) +11, [Perception](additionalMonsters/../skills/perception#_perception) +4, [Stealth](additionalMonsters/../skills/stealth#_stealth) +5; **Racial Modifiers** +4 [Perception](additionalMonsters/../skills/perception#_perception), +4 [Stealth](additionalMonsters/../skills/stealth#_stealth)
 
 Ecology
 

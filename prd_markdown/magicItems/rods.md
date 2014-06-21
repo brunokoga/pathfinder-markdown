@@ -42,11 +42,11 @@
 
 Rods are scepter-like devices that have unique magical powers and do not usually have charges. Anyone can use a rod.
 
-**Physical Description** : Rods weigh approximately 5 pounds. They range from 2 feet to 3 feet long and are usually made of iron or some other metal. (Many, as noted in their descriptions, can function as light maces or clubs due to their hardy construction.) These sturdy items have [AC](../combat.md#_armor-class) 9, 10 hit points, hardness 10, and a break DC of 27.
+**Physical Description** : Rods weigh approximately 5 pounds. They range from 2 feet to 3 feet long and are usually made of iron or some other metal. (Many, as noted in their descriptions, can function as light maces or clubs due to their hardy construction.) These sturdy items have [AC](../combat#_armor-class) 9, 10 hit points, hardness 10, and a break DC of 27.
 
 **Activation** : Details relating to rod use vary from item to item. Unless noted otherwise, you must be holding a rod to use its abilities. See the individual descriptions for specifics.
 
-**Special Qualities** : Roll d%. A 01 result indicates the rod is intelligent, 02–31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32–100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see [Intelligent Items](intelligentItems.md)).
+**Special Qualities** : Roll d%. A 01 result indicates the rod is intelligent, 02–31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32–100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see [Intelligent Items](intelligentItems)).
 
 Rods with charges can never be intelligent.
 
@@ -62,7 +62,7 @@ This rod looks like a flat iron bar with a small button on one end. When the but
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), _ [levitate](../spells/levitate.md#_levitate)_; **Cost** 2,500 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), _ [levitate](../spells/levitate#_levitate)_; **Cost** 2,500 gp
 
 **Metamagic Rods**
 
@@ -80,11 +80,11 @@ Possession of a metamagic rod does not confer the associated feat on the owner, 
 
 **Description**
 
-The wielder can cast up to three spells per day that are empowered as though using the [Empower Spell](../feats.md#_empower-spell) feat.
+The wielder can cast up to three spells per day that are empowered as though using the [Empower Spell](../feats#_empower-spell) feat.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), [Empower Spell](../feats.md#_empower-spell); **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)
+**Requirements** [Craft Rod](../feats#_craft-rod), [Empower Spell](../feats#_empower-spell); **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)
 
 **Metamagic, Enlarge**
 
@@ -94,11 +94,11 @@ The wielder can cast up to three spells per day that are empowered as though usi
 
 **Description**
 
-The wielder can cast up to three spells per day that are enlarged as though using the [Enlarge Spell](../feats.md#_enlarge-spell) feat.
+The wielder can cast up to three spells per day that are enlarged as though using the [Enlarge Spell](../feats#_enlarge-spell) feat.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), [Enlarge Spell](../feats.md#_enlarge-spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)
+**Requirements** [Craft Rod](../feats#_craft-rod), [Enlarge Spell](../feats#_enlarge-spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)
 
 **Metamagic, Extend**
 
@@ -108,11 +108,11 @@ The wielder can cast up to three spells per day that are enlarged as though usin
 
 **Description**
 
-The wielder can cast up to three spells per day that are extended as though using the [Extend Spell](../feats.md#_extend-spell) feat.
+The wielder can cast up to three spells per day that are extended as though using the [Extend Spell](../feats#_extend-spell) feat.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), [Extend Spell](../feats.md#_extend-spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)
+**Requirements** [Craft Rod](../feats#_craft-rod), [Extend Spell](../feats#_extend-spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)
 
 **Metamagic, Maximize**
 
@@ -122,11 +122,11 @@ The wielder can cast up to three spells per day that are extended as though usin
 
 **Description**
 
-The wielder can cast up to three spells per day that are maximized as though using the [Maximize Spell](../feats.md#_maximize-spell) feat.
+The wielder can cast up to three spells per day that are maximized as though using the [Maximize Spell](../feats#_maximize-spell) feat.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), [Maximize Spell](../feats.md#_maximize-spell) feat; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)
+**Requirements** [Craft Rod](../feats#_craft-rod), [Maximize Spell](../feats#_maximize-spell) feat; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)
 
 **Metamagic, Quicken**
 
@@ -136,11 +136,11 @@ The wielder can cast up to three spells per day that are maximized as though usi
 
 **Description**
 
-The wielder can cast up to three spells per day that are quickened as though using the [Quicken Spell](../feats.md#_quicken-spell) feat.
+The wielder can cast up to three spells per day that are quickened as though using the [Quicken Spell](../feats#_quicken-spell) feat.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), [Quicken Spell](../feats.md#_quicken-spell); **Cost** 17,500 gp (lesser), 37,750 gp (normal), 85,000 gp (greater)
+**Requirements** [Craft Rod](../feats#_craft-rod), [Quicken Spell](../feats#_quicken-spell); **Cost** 17,500 gp (lesser), 37,750 gp (normal), 85,000 gp (greater)
 
 **Metamagic, Silent**
 
@@ -150,11 +150,11 @@ The wielder can cast up to three spells per day that are quickened as though usi
 
 **Description**
 
-The wielder can cast up to three spells per day without verbal components as though using the [Silent Spell](../feats.md#_silent-spell) feat.
+The wielder can cast up to three spells per day without verbal components as though using the [Silent Spell](../feats#_silent-spell) feat.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), [Silent Spell](../feats.md#_silent-spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)
+**Requirements** [Craft Rod](../feats#_craft-rod), [Silent Spell](../feats#_silent-spell); **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)
 
 **Rod of Absorption**
 
@@ -174,7 +174,7 @@ To determine the absorption potential remaining in a newly found rod, roll d% an
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), _ [spell turning](../spells/spellTurning.md#_spell-turning)_; **Cost** 25,000 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), _ [spell turning](../spells/spellTurning#_spell-turning)_; **Cost** 25,000 gp
 
 **Rod of Alertness**
 
@@ -184,13 +184,13 @@ To determine the absorption potential remaining in a newly found rod, roll d% an
 
 **Description**
 
-This rod is indistinguishable from a _+1 light mace. _It has eight flanges on its mace-like head. The rod bestows a +1 insight bonus on initiative checks. If grasped firmly, the rod enables the holder to use _ [detect evil](../spells/detectEvil.md#_detect-evil), [detect good](../spells/detectGood.md#_detect-good), [detect chaos](../spells/detectChaos.md#_detect-chaos), [detect law](../spells/detectLaw.md#_detect-law)_, _ [detect magic](../spells/detectMagic.md#_detect-magic), [discern lies](../spells/discernLies.md#_discern-lies), [light](../spells/light.md#_light), _or _ [see invisibility](../spells/seeInvisibility.md#_see-invisibility). _Each different use is a standard action.
+This rod is indistinguishable from a _+1 light mace. _It has eight flanges on its mace-like head. The rod bestows a +1 insight bonus on initiative checks. If grasped firmly, the rod enables the holder to use _ [detect evil](../spells/detectEvil#_detect-evil), [detect good](../spells/detectGood#_detect-good), [detect chaos](../spells/detectChaos#_detect-chaos), [detect law](../spells/detectLaw#_detect-law)_, _ [detect magic](../spells/detectMagic#_detect-magic), [discern lies](../spells/discernLies#_discern-lies), [light](../spells/light#_light), _or _ [see invisibility](../spells/seeInvisibility#_see-invisibility). _Each different use is a standard action.
 
-If the head of a _rod of alertness_ is planted in the ground and the possessor wills it to alertness (a standard action), the rod senses any creatures within 120 feet who intend to harm the possessor. At the same time, the rod creates the effect of a _ [prayer](../spells/prayer.md#_prayer)_ spell upon all creatures friendly to the possessor in a 20-foot radius. Immediately thereafter, the rod sends forth a mental alert to these friendly creatures, warning them of any unfriendly creatures within the 120-foot radius. These effects last for 10 minutes, and the rod can perform this function once per day. Last, the rod can be used to simulate the casting of an _ [animate objects](../spells/animateObjects.md#_animate-objects)_ spell, utilizing any 11 (or fewer) Small objects located roughly around the perimeter of a 5-foot-radius circle centered on the rod when planted in the ground. Objects remain animated for 11 rounds. The rod can perform this function once per day.
+If the head of a _rod of alertness_ is planted in the ground and the possessor wills it to alertness (a standard action), the rod senses any creatures within 120 feet who intend to harm the possessor. At the same time, the rod creates the effect of a _ [prayer](../spells/prayer#_prayer)_ spell upon all creatures friendly to the possessor in a 20-foot radius. Immediately thereafter, the rod sends forth a mental alert to these friendly creatures, warning them of any unfriendly creatures within the 120-foot radius. These effects last for 10 minutes, and the rod can perform this function once per day. Last, the rod can be used to simulate the casting of an _ [animate objects](../spells/animateObjects#_animate-objects)_ spell, utilizing any 11 (or fewer) Small objects located roughly around the perimeter of a 5-foot-radius circle centered on the rod when planted in the ground. Objects remain animated for 11 rounds. The rod can perform this function once per day.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), _ [alarm](../spells/alarm.md#_alarm), [animate objects](../spells/animateObjects.md#_animate-objects), [detect chaos](../spells/detectChaos.md#_detect-chaos), [detect evil](../spells/detectEvil.md#_detect-evil), [detect good](../spells/detectGood.md#_detect-good), [detect law](../spells/detectLaw.md#_detect-law), [detect magic](../spells/detectMagic.md#_detect-magic), [discern lies](../spells/discernLies.md#_discern-lies), [light](../spells/light.md#_light), [prayer](../spells/prayer.md#_prayer), [see invisibility](../spells/seeInvisibility.md#_see-invisibility)_; **Cost** 42,500 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), _ [alarm](../spells/alarm#_alarm), [animate objects](../spells/animateObjects#_animate-objects), [detect chaos](../spells/detectChaos#_detect-chaos), [detect evil](../spells/detectEvil#_detect-evil), [detect good](../spells/detectGood#_detect-good), [detect law](../spells/detectLaw#_detect-law), [detect magic](../spells/detectMagic#_detect-magic), [discern lies](../spells/discernLies#_discern-lies), [light](../spells/light#_light), [prayer](../spells/prayer#_prayer), [see invisibility](../spells/seeInvisibility#_see-invisibility)_; **Cost** 42,500 gp
 
 **Rod of Cancellation**
 
@@ -200,11 +200,11 @@ If the head of a _rod of alertness_ is planted in the ground and the possessor w
 
 **Description**
 
-This dreaded rod is a bane to magic items, for its touch drains an item of all magical properties. The item touched must make a DC 23 [Will](../combat.md#_will) save to prevent the rod from draining it. If a creature is holding it at the time, then the item can use the holder's [Will](../combat.md#_will) save bonus in place of its own if the holder's is better. In such cases, contact is made by making a melee touch attack roll. Upon draining an item, the rod itself becomes brittle and cannot be used again. Drained items are only restorable by _ [wis](../spells/wish.md#_wish)_ [h](../spells/wish.md#_wish) or _ [miracle](../spells/miracle.md#_miracle). _If a _sphere of annihilation _and a _rod of cancellation _negate each other, nothing can restore either of them.
+This dreaded rod is a bane to magic items, for its touch drains an item of all magical properties. The item touched must make a DC 23 [Will](../combat#_will) save to prevent the rod from draining it. If a creature is holding it at the time, then the item can use the holder's [Will](../combat#_will) save bonus in place of its own if the holder's is better. In such cases, contact is made by making a melee touch attack roll. Upon draining an item, the rod itself becomes brittle and cannot be used again. Drained items are only restorable by _ [wis](../spells/wish#_wish)_ [h](../spells/wish#_wish) or _ [miracle](../spells/miracle#_miracle). _If a _sphere of annihilation _and a _rod of cancellation _negate each other, nothing can restore either of them.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), _ [mage's disjunction](../spells/mageSDisjunction.md#_mage-s-disjunction)_; **Cost** 5,500 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), _ [mage's disjunction](../spells/mageSDisjunction#_mage-s-disjunction)_; **Cost** 5,500 gp
 
 **Rod of Enemy Detection**
 
@@ -218,7 +218,7 @@ This device pulses in the wielder's hand and points in the direction of any crea
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), _ [true seeing](../spells/trueSeeing.md#_true-seeing)_; **Cost** 11,750 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), _ [true seeing](../spells/trueSeeing#_true-seeing)_; **Cost** 11,750 gp
 
 **Rod of Flailing**
 
@@ -228,15 +228,15 @@ This device pulses in the wielder's hand and points in the direction of any crea
 
 **Description**
 
-Upon the command of its possessor, the rod activates, changing from a normal-seeming rod to a _+3/+3 dire flail_. The dire flail is a double weapon, which means that each of the weapon's heads can be used to attack. The wielder can gain an extra attack (with the second head) at the cost of making all attacks at a –2 penalty (as if she had the [Two-Weapon Fighting](../feats.md#_two-weapon-fighting) feat).
+Upon the command of its possessor, the rod activates, changing from a normal-seeming rod to a _+3/+3 dire flail_. The dire flail is a double weapon, which means that each of the weapon's heads can be used to attack. The wielder can gain an extra attack (with the second head) at the cost of making all attacks at a –2 penalty (as if she had the [Two-Weapon Fighting](../feats#_two-weapon-fighting) feat).
 
-Once per day, the wielder can use a free action to cause the rod to grant her a +4 deflection bonus to [Armor Class](../combat.md#_armor-class) and a +4 resistance bonus on saving throws for 10 minutes. The rod need not be in weapon form to grant this benefit.
+Once per day, the wielder can use a free action to cause the rod to grant her a +4 deflection bonus to [Armor Class](../combat#_armor-class) and a +4 resistance bonus on saving throws for 10 minutes. The rod need not be in weapon form to grant this benefit.
 
 Transforming it into a weapon or back into a rod is a move action.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), [Craft Magic Arms and Armor](../feats.md#_craft-magic-arms-and-armor), _ [bless](../spells/bless.md#_bless)_; **Cost** 25,000 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), [Craft Magic Arms and Armor](../feats#_craft-magic-arms-and-armor), _ [bless](../spells/bless#_bless)_; **Cost** 25,000 gp
 
 **Rod of Flame Extinguishing**
 
@@ -248,9 +248,9 @@ Transforming it into a weapon or back into a rod is a move action.
 
 This rod can extinguish Medium or smaller nonmagical fires with simply a touch (a standard action). For the rod to be effective against other sorts of fires, the wielder must expend 1 or more of the rod's charges.
 
-Extinguishing a Large or larger nonmagical fire, or a magic fire of Medium or smaller (such as that of a _flaming_ weapon or a _ [burning hands](../spells/burningHands.md#_burning-hands)_ spell), expends 1 charge. Continual magic flames, such as those of a weapon or a fire creature, are suppressed for 6 rounds and flare up again after that time. To extinguish an instantaneous fire spell, the rod must be within the area of the effect and the wielder must have used a ready action, effectively countering the entire spell.
+Extinguishing a Large or larger nonmagical fire, or a magic fire of Medium or smaller (such as that of a _flaming_ weapon or a _ [burning hands](../spells/burningHands#_burning-hands)_ spell), expends 1 charge. Continual magic flames, such as those of a weapon or a fire creature, are suppressed for 6 rounds and flare up again after that time. To extinguish an instantaneous fire spell, the rod must be within the area of the effect and the wielder must have used a ready action, effectively countering the entire spell.
 
-When applied to Large or larger magic fires, such as those caused by _ [fireball](../spells/fireball.md#_fireball), [flame strike](../spells/flameStrike.md#_flame-strike), _or _ [wall of fire](../spells/wallOfFire.md#_wall-of-fire), _extinguishing the flames expends 2 charges from the rod.
+When applied to Large or larger magic fires, such as those caused by _ [fireball](../spells/fireball#_fireball), [flame strike](../spells/flameStrike#_flame-strike), _or _ [wall of fire](../spells/wallOfFire#_wall-of-fire), _extinguishing the flames expends 2 charges from the rod.
 
 If a _rod of flame extinguishing_ is touched to a creature with the fire subtype by making a successful melee touch attack, the rod deals 6d6 points of damage to the creature. This use requires 3 charges.
 
@@ -258,7 +258,7 @@ A _rod of flame extinguishing_ has 10 charges when found. Spent charges are rene
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), _ [pyrotechnics](../spells/pyrotechnics.md#_pyrotechnics)_; **Cost** 7,500 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), _ [pyrotechnics](../spells/pyrotechnics#_pyrotechnics)_; **Cost** 7,500 gp
 
 **Rod of Lordly Might**
 
@@ -272,9 +272,9 @@ This rod has functions that are spell-like, and it can also be used as a magic w
 
 The following spell-like functions of the rod can each be used once per day.
 
-- _ [Hold person](../spells/holdPerson.md#_hold-person)_ upon a touched creature, if the wielder so commands ( [Will](../combat.md#_will) DC 14 negates). The wielder must choose to use this power (a free action) and then succeed on a melee touch attack to activate the power. If the attack fails, the effect is lost.
-- _ [Fear](../spells/fear.md#_fear)_ upon all enemies viewing it, if the wielder so desires (10-foot maximum range, [Will](../combat.md#_will) DC 16 partial). Invoking this power is a standard action.
-- Deal 2d4 hit points of damage to an opponent on a successful touch attack ( [Will](../combat.md#_will) DC 17 half) and cure the wielder of the same amount of damage. The wielder must choose to use this power before attacking, as with _ [hold person](../spells/holdPerson.md#_hold-person)_.
+- _ [Hold person](../spells/holdPerson#_hold-person)_ upon a touched creature, if the wielder so commands ( [Will](../combat#_will) DC 14 negates). The wielder must choose to use this power (a free action) and then succeed on a melee touch attack to activate the power. If the attack fails, the effect is lost.
+- _ [Fear](../spells/fear#_fear)_ upon all enemies viewing it, if the wielder so desires (10-foot maximum range, [Will](../combat#_will) DC 16 partial). Invoking this power is a standard action.
+- Deal 2d4 hit points of damage to an opponent on a successful touch attack ( [Will](../combat#_will) DC 17 half) and cure the wielder of the same amount of damage. The wielder must choose to use this power before attacking, as with _ [hold person](../spells/holdPerson#_hold-person)_.
 
 The following functions of the rod have no limit on the number of times they can be employed.
 
@@ -291,7 +291,7 @@ The following other functions of the rod also have no limit on the number of tim
 
 **Construction**
 
-**Requirements** [Craft Magic Arms and Armor](../feats.md#_craft-magic-arms-and-armor), [Craft Rod](../feats.md#_craft-rod)_, [bull's strength](../spells/bullSStrength.md#_bull-s-strength), [fear](../spells/fear.md#_fear), [flame blade](../spells/flameBlade.md#_flame-blade), [hold person](../spells/holdPerson.md#_hold-person)_, _ [inflict light wounds](../spells/inflictLightWounds.md#_inflict-light-wounds)_; **Cost** 35,000 gp
+**Requirements** [Craft Magic Arms and Armor](../feats#_craft-magic-arms-and-armor), [Craft Rod](../feats#_craft-rod)_, [bull's strength](../spells/bullSStrength#_bull-s-strength), [fear](../spells/fear#_fear), [flame blade](../spells/flameBlade#_flame-blade), [hold person](../spells/holdPerson#_hold-person)_, _ [inflict light wounds](../spells/inflictLightWounds#_inflict-light-wounds)_; **Cost** 35,000 gp
 
 **Rod of Metal and Mineral Detection**
 
@@ -305,7 +305,7 @@ This rod is valued by treasure hunters and miners alike, for it pulses and hums 
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), _ [locate object](../spells/locateObject.md#_locate-object)_; **Cost** 5,250 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), _ [locate object](../spells/locateObject#_locate-object)_; **Cost** 5,250 gp
 
 **Rod of Negation**
 
@@ -315,11 +315,11 @@ This rod is valued by treasure hunters and miners alike, for it pulses and hums 
 
 **Description**
 
-This device negates the spell or spell-like function or functions of magic items. The wielder points the rod at the magic item, and a pale gray beam shoots forth to touch the target device, attacking as a ray (a ranged touch attack). The ray functions as a _ [greater dispel magic](../spells/dispelMagic.md#_dispel-magic-greater) _spell, except it only affects magic items. To negate instantaneous effects from an item, the rod wielder needs to have a readied action. The dispel check uses the rod's caster level (15th). The target item gets no saving throw, although the rod can't negate artifacts (even minor artifacts). The rod can function three times per day.
+This device negates the spell or spell-like function or functions of magic items. The wielder points the rod at the magic item, and a pale gray beam shoots forth to touch the target device, attacking as a ray (a ranged touch attack). The ray functions as a _ [greater dispel magic](../spells/dispelMagic#_dispel-magic-greater) _spell, except it only affects magic items. To negate instantaneous effects from an item, the rod wielder needs to have a readied action. The dispel check uses the rod's caster level (15th). The target item gets no saving throw, although the rod can't negate artifacts (even minor artifacts). The rod can function three times per day.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), _ [dispel magic](../spells/dispelMagic.md#_dispel-magic),_ and _ [limited wish](../spells/limitedWish.md#_limited-wish)_ or _ [miracle](../spells/miracle.md#_miracle)_; **Cost** 18,500 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), _ [dispel magic](../spells/dispelMagic#_dispel-magic),_ and _ [limited wish](../spells/limitedWish#_limited-wish)_ or _ [miracle](../spells/miracle#_miracle)_; **Cost** 18,500 gp
 
 **Rod of the Python**
 
@@ -333,7 +333,7 @@ Unlike most rods, one end of this rod curls and twists back on itself in a crook
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), [Craft Magic Arms and Armor](../feats.md#_craft-magic-arms-and-armor), _ [baleful polymorph](../spells/balefulPolymorph.md#_baleful-polymorph),_ creator must be good; **Cost** 6,500 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), [Craft Magic Arms and Armor](../feats#_craft-magic-arms-and-armor), _ [baleful polymorph](../spells/balefulPolymorph#_baleful-polymorph),_ creator must be good; **Cost** 6,500 gp
 
 **Rod of Rulership**
 
@@ -343,11 +343,11 @@ Unlike most rods, one end of this rod curls and twists back on itself in a crook
 
 **Description**
 
-This rod looks like a royal scepter worth at least 5,000 gp in materials and workmanship alone. The wielder can command the obedience and fealty of creatures within 120 feet when she activates the device (a standard action). Creatures totaling 300 Hit Dice can be ruled, but creatures with [Intelligence](../gettingStarted.md#_intelligence) scores of 12 or higher are each entitled to a DC 16 [Will](../combat.md#_will) save to negate the effect. Ruled creatures obey the wielder as if she were their absolute sovereign. Still, if the wielder gives a command that is contrary to the nature of the creatures commanded, the magic is broken. The rod can be used for 500 total minutes before crumbling to dust. This duration need not be continuous.
+This rod looks like a royal scepter worth at least 5,000 gp in materials and workmanship alone. The wielder can command the obedience and fealty of creatures within 120 feet when she activates the device (a standard action). Creatures totaling 300 Hit Dice can be ruled, but creatures with [Intelligence](../gettingStarted#_intelligence) scores of 12 or higher are each entitled to a DC 16 [Will](../combat#_will) save to negate the effect. Ruled creatures obey the wielder as if she were their absolute sovereign. Still, if the wielder gives a command that is contrary to the nature of the creatures commanded, the magic is broken. The rod can be used for 500 total minutes before crumbling to dust. This duration need not be continuous.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), _ [mass charm monster](../spells/charmMonster.md#_charm-monster-mass)_; **Cost** 32,500 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), _ [mass charm monster](../spells/charmMonster#_charm-monster-mass)_; **Cost** 32,500 gp
 
 **Rod of Security**
 
@@ -359,13 +359,13 @@ This rod looks like a royal scepter worth at least 5,000 gp in materials and wor
 
 This item creates a nondimensional space, a pocket paradise. There the rod's possessor and as many as 199 other creatures can stay in complete safety for a period of time, up to 200 days divided by the number of creatures affected. All fractions are rounded down. In this pocket paradise, creatures don't age, and natural healing takes place at twice the normal rate. Fresh water and food (fruits and vegetables only) are in abundance. The climate is comfortable for all creatures involved.
 
-Activating the rod (a standard action) causes the wielder and all creatures touching the rod to be transported instantaneously to the paradise. Members of large groups can hold hands or otherwise maintain physical contact, allowing all connected creatures in a circle or a chain to be affected by the rod. Unwilling creatures get a DC 17 [Will](../combat.md#_will) save to negate the effect. If such a creature succeeds on its save, other creatures beyond that point in a chain can still be affected by the rod.
+Activating the rod (a standard action) causes the wielder and all creatures touching the rod to be transported instantaneously to the paradise. Members of large groups can hold hands or otherwise maintain physical contact, allowing all connected creatures in a circle or a chain to be affected by the rod. Unwilling creatures get a DC 17 [Will](../combat#_will) save to negate the effect. If such a creature succeeds on its save, other creatures beyond that point in a chain can still be affected by the rod.
 
 When the rod's effect expires, is dismissed, or is dispelled, all the affected creatures instantly reappear in the location they occupied when the rod was activated. If something else occupies the space that a traveler would be returning to, then his body is displaced a sufficient distance to provide the space required for reentry. The rod's possessor can dismiss the effect whenever he wishes before the maximum time period expires, but the rod can only be activated once per week.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), _ [gate](../spells/gate.md#_gate)_; **Cost** 30,500 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), _ [gate](../spells/gate#_gate)_; **Cost** 30,500 gp
 
 **Rod of Splendor**
 
@@ -375,7 +375,7 @@ When the rod's effect expires, is dismissed, or is dispelled, all the affected c
 
 **Description**
 
-The possessor of this fantastically bejeweled rod gains a +4 enhancement bonus to her [Charisma](../gettingStarted.md#_charisma-new) score for as long as she holds or carries the item. Once per day, the rod garbs her in magically created clothing of the finest fabrics, plus adornments of furs and jewels.
+The possessor of this fantastically bejeweled rod gains a +4 enhancement bonus to her [Charisma](../gettingStarted#_charisma-new) score for as long as she holds or carries the item. Once per day, the rod garbs her in magically created clothing of the finest fabrics, plus adornments of furs and jewels.
 
 Apparel created by the magic of the rod remains in existence for 12 hours. However, if the possessor attempts to sell or give away any part of it, use it for a spell component, or the like, all the apparel immediately disappears. The same applies if any of it is forcibly taken from her.
 
@@ -385,7 +385,7 @@ In addition, the rod has a second special power, usable once per week. Upon comm
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), _ [eagle's splendor](../spells/eagleSSplendor.md#_eagle-s-splendor), [fabricate](../spells/fabricate.md#_fabricate), [major creation](../spells/majorCreation.md#_major-creation)_; **Cost** 12,500 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), _ [eagle's splendor](../spells/eagleSSplendor#_eagle-s-splendor), [fabricate](../spells/fabricate#_fabricate), [major creation](../spells/majorCreation#_major-creation)_; **Cost** 12,500 gp
 
 **Rod of Thunder and Lightning**
 
@@ -397,15 +397,15 @@ In addition, the rod has a second special power, usable once per week. Upon comm
 
 Constructed of iron set with silver rivets, this rod has the properties of a _+2 light mace_. Its other powers are as follows.
 
-- **Thunder** : Once per day, the rod can strike as a _+3 light mace,_ and the opponent struck is [stunned](../glossary.md#_stunned) from the noise of the rod's impact ( [Fortitude](../combat.md#_fortitude) DC 16 negates). Activating this sonic power counts as a free action, and it works if the wielder strikes an opponent within 1 round.
+- **Thunder** : Once per day, the rod can strike as a _+3 light mace,_ and the opponent struck is [stunned](../glossary#_stunned) from the noise of the rod's impact ( [Fortitude](../combat#_fortitude) DC 16 negates). Activating this sonic power counts as a free action, and it works if the wielder strikes an opponent within 1 round.
 - **Lightning** : Once per day, when the wielder desires, a short spark of electricity can leap forth when the rod strikes an opponent to deal the normal damage for a _+2 light mace_ (1d6+2) and an extra 2d6 points of electricity damage. Even when the rod might not score a normal hit in combat, if the roll was good enough to count as a successful melee touch attack, then the 2d6 points of electricity damage still apply. The wielder activates this power as a free action, and it works if he strikes an opponent within 1 round.
-- **Thunderclap** : Once per day as a standard action, the wielder can cause the rod to give out a deafening noise, just as a _ [shout](../spells/shout.md#_shout)_ spell ( [Fortitude](../combat.md#_fortitude) DC 16 partial, 2d6 points of sonic damage, target [deafened](../glossary.md#_deafened) for 2d6 rounds).
-- **Lightning Stroke** : Once per day as a standard action, the wielder can cause the rod to shoot out a 5-foot-wide _ [lightning bolt](../spells/lightningBolt.md#_lightning-bolt)_ (9d6 points of electricity damage, [Reflex](../combat.md#_reflex) DC 16 half) to a range of 200 feet.
-- **Thunder and Lightning** : Once per week as a standard action, the wielder of the rod can combine the thunderclap described above with a _ [lightning bolt](../spells/lightningBolt.md#_lightning-bolt),_ as in the lightning stroke. The thunderclap affects all within 10 feet of the bolt. The lightning stroke deals 9d6 points of electricity damage (count rolls of 1 or 2 as rolls of 3, for a range of 27 to 54 points), and the thunderclap deals 2d6 points of sonic damage. A single DC 16 [Reflex](../combat.md#_reflex) save applies for both effects. 
+- **Thunderclap** : Once per day as a standard action, the wielder can cause the rod to give out a deafening noise, just as a _ [shout](../spells/shout#_shout)_ spell ( [Fortitude](../combat#_fortitude) DC 16 partial, 2d6 points of sonic damage, target [deafened](../glossary#_deafened) for 2d6 rounds).
+- **Lightning Stroke** : Once per day as a standard action, the wielder can cause the rod to shoot out a 5-foot-wide _ [lightning bolt](../spells/lightningBolt#_lightning-bolt)_ (9d6 points of electricity damage, [Reflex](../combat#_reflex) DC 16 half) to a range of 200 feet.
+- **Thunder and Lightning** : Once per week as a standard action, the wielder of the rod can combine the thunderclap described above with a _ [lightning bolt](../spells/lightningBolt#_lightning-bolt),_ as in the lightning stroke. The thunderclap affects all within 10 feet of the bolt. The lightning stroke deals 9d6 points of electricity damage (count rolls of 1 or 2 as rolls of 3, for a range of 27 to 54 points), and the thunderclap deals 2d6 points of sonic damage. A single DC 16 [Reflex](../combat#_reflex) save applies for both effects. 
 
 **Construction**
 
-**Requirements** [Craft Magic Arms and Armor](../feats.md#_craft-magic-arms-and-armor), [Craft Rod](../feats.md#_craft-rod), _ [lightning bolt](../spells/lightningBolt.md#_lightning-bolt)_, _ [shout](../spells/shout.md#_shout)_; **Cost** 16,500 gp
+**Requirements** [Craft Magic Arms and Armor](../feats#_craft-magic-arms-and-armor), [Craft Rod](../feats#_craft-rod), _ [lightning bolt](../spells/lightningBolt#_lightning-bolt)_, _ [shout](../spells/shout#_shout)_; **Cost** 16,500 gp
 
 **Rod of the Viper**
 
@@ -415,11 +415,11 @@ Constructed of iron set with silver rivets, this rod has the properties of a _+2
 
 **Description**
 
-This rod strikes as a _+2 heavy mace_. Once per day, upon command, the head of the rod becomes that of an actual serpent for 10 minutes. During this period, any successful strike with the rod deals its usual damage and also poisons the creature hit. This poison deals 1d3 [Constitution](../gettingStarted.md#_constitution) damage per round for 6 rounds. Poisoned creatures can make a DC 16 [Fortitude](../combat.md#_fortitude) save each round to negate the damage and end the affliction. Multiple hits extend the duration by 3 rounds and increase the DC by +2 for each hit. The rod only functions if its possessor is evil.
+This rod strikes as a _+2 heavy mace_. Once per day, upon command, the head of the rod becomes that of an actual serpent for 10 minutes. During this period, any successful strike with the rod deals its usual damage and also poisons the creature hit. This poison deals 1d3 [Constitution](../gettingStarted#_constitution) damage per round for 6 rounds. Poisoned creatures can make a DC 16 [Fortitude](../combat#_fortitude) save each round to negate the damage and end the affliction. Multiple hits extend the duration by 3 rounds and increase the DC by +2 for each hit. The rod only functions if its possessor is evil.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), [Craft Magic Arms and Armor](../feats.md#_craft-magic-arms-and-armor), _ [poison](../spells/poison.md#_poison)_, creator must be evil; **Cost** 9,500 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), [Craft Magic Arms and Armor](../feats#_craft-magic-arms-and-armor), _ [poison](../spells/poison#_poison)_, creator must be evil; **Cost** 9,500 gp
 
 **Rod of Withering**
 
@@ -429,11 +429,11 @@ This rod strikes as a _+2 heavy mace_. Once per day, upon command, the head of t
 
 **Description**
 
-A _rod of withering _acts as a _+1 light mace _that deals no hit point damage. Instead, the wielder deals 1d4 points of Strength damage and 1d4 points of [Constitution](../gettingStarted.md#_constitution) damage to any creature she touches with the rod (by making a melee touch attack). If she scores a critical hit, the damage from that hit is permanent ability drain. In either case, the defender negates the effect with a DC 17 [Fortitude](../combat.md#_fortitude) save.
+A _rod of withering _acts as a _+1 light mace _that deals no hit point damage. Instead, the wielder deals 1d4 points of Strength damage and 1d4 points of [Constitution](../gettingStarted#_constitution) damage to any creature she touches with the rod (by making a melee touch attack). If she scores a critical hit, the damage from that hit is permanent ability drain. In either case, the defender negates the effect with a DC 17 [Fortitude](../combat#_fortitude) save.
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), [Craft Magic Arms and Armor](../feats.md#_craft-magic-arms-and-armor), _ [contagion](../spells/contagion.md#_contagion)_; **Cost** 12,500 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), [Craft Magic Arms and Armor](../feats#_craft-magic-arms-and-armor), _ [contagion](../spells/contagion#_contagion)_; **Cost** 12,500 gp
 
 **Rod of Wonder**
 
@@ -447,30 +447,30 @@ A _rod of wonder _is a strange and unpredictable device that randomly generates 
 
 | d% | Wondrous Effect |
 | --- | --- |
-| 01–05 | _Slow _target for 10 rounds ( [Will](../combat.md#_will) DC 15 negates). |
-| 06–10 | _ [Faerie fire](../spells/faerieFire.md#_faerie-fire) _surrounds the target. |
+| 01–05 | _Slow _target for 10 rounds ( [Will](../combat#_will) DC 15 negates). |
+| 06–10 | _ [Faerie fire](../spells/faerieFire#_faerie-fire) _surrounds the target. |
 | 11–15 | Deludes wielder for 1 round into believing the rod functions as indicated by a second die roll (no save). |
-| 16–20 | _ [Gust of wind](../spells/gustOfWind.md#_gust-of-wind), _but at windstorm force ( [Fortitude](../combat.md#_fortitude) DC 14 negates). |
-| 21–25 | Wielder learns target's surface thoughts (as with _ [detect thoughts](../spells/detectThoughts.md#_detect-thoughts)) _for 1d4 rounds (no save). |
-| 26–30 | _ [Stinking cloud](../spells/stinkingCloud.md#_stinking-cloud)_ appears at 30-ft. range ( [Fortitude](../combat.md#_fortitude) DC 15 negates). |
+| 16–20 | _ [Gust of wind](../spells/gustOfWind#_gust-of-wind), _but at windstorm force ( [Fortitude](../combat#_fortitude) DC 14 negates). |
+| 21–25 | Wielder learns target's surface thoughts (as with _ [detect thoughts](../spells/detectThoughts#_detect-thoughts)) _for 1d4 rounds (no save). |
+| 26–30 | _ [Stinking cloud](../spells/stinkingCloud#_stinking-cloud)_ appears at 30-ft. range ( [Fortitude](../combat#_fortitude) DC 15 negates). |
 | 31–33 | Heavy rain falls for 1 round in 60-ft. radius centered on rod wielder. |
 | 34–36 | Summon an animal—a rhino (01–25 on d%), elephant (26–50), or mouse (51–100). |
-| 37–46 | _ [Lightning bolt](../spells/lightningBolt.md#_lightning-bolt)_ (70 ft. long, 5 ft. wide), 6d6 damage ( [Reflex](../combat.md#_reflex) DC 15 half). |
-| 47–49 | A stream of 600 large butterflies pours forth and flutters around for 2 rounds, blinding everyone within 25 ft. ( [Reflex](../combat.md#_reflex) DC 14 negates). |
-| 50–53 | _ [Enlarge person](../spells/enlargePerson.md#_enlarge-person)_ on target if within 60 ft. of rod ( [Fortitude](../combat.md#_fortitude) DC 13 negates). |
-| 54–58 | _ [Darkness](../spells/darkness.md#_darkness)_, 30-ft.-diameter hemisphere, centered 30 ft. away from rod. |
+| 37–46 | _ [Lightning bolt](../spells/lightningBolt#_lightning-bolt)_ (70 ft. long, 5 ft. wide), 6d6 damage ( [Reflex](../combat#_reflex) DC 15 half). |
+| 47–49 | A stream of 600 large butterflies pours forth and flutters around for 2 rounds, blinding everyone within 25 ft. ( [Reflex](../combat#_reflex) DC 14 negates). |
+| 50–53 | _ [Enlarge person](../spells/enlargePerson#_enlarge-person)_ on target if within 60 ft. of rod ( [Fortitude](../combat#_fortitude) DC 13 negates). |
+| 54–58 | _ [Darkness](../spells/darkness#_darkness)_, 30-ft.-diameter hemisphere, centered 30 ft. away from rod. |
 | 59–62 | Grass grows in 160-square-ft. area before the rod, or grass existing there grows to 10 times normal size. |
 | 63–65 | Turn ethereal any nonliving object of up to 1,000 lbs. mass and up to 30 cubic ft. in size. |
 | 66–69 | Reduce wielder two size categories (no save) for 1 day. |
-| 70–79 | _ [Fireball](../spells/fireball.md#_fireball)_ at target or 100 ft. straight ahead, 6d6 damage ( [Reflex](../combat.md#_reflex) DC 15 half). |
-| 80–84 | _ [Invisibility](../spells/invisibility.md#_invisibility) _covers rod wielder. |
+| 70–79 | _ [Fireball](../spells/fireball#_fireball)_ at target or 100 ft. straight ahead, 6d6 damage ( [Reflex](../combat#_reflex) DC 15 half). |
+| 80–84 | _ [Invisibility](../spells/invisibility#_invisibility) _covers rod wielder. |
 | 85–87 | Leaves grow from target if within 60 ft. of rod. These last 24 hours. |
 | 88–90 | 10–40 gems, value 1 gp each, shoot forth in a 30-ft.-long stream. Each gem deals 1 point of damage to any creature in its path: roll 5d4 for the number of hits and divide them among the available targets. |
-| 91–95 | Shimmering colors dance and play over a 40-ft.-by-30-ft. area in front of rod. Creatures therein are [blinded](../glossary.md#_blinded) for 1d6 rounds ( [Fortitude](../combat.md#_fortitude) DC 15 negates). |
+| 91–95 | Shimmering colors dance and play over a 40-ft.-by-30-ft. area in front of rod. Creatures therein are [blinded](../glossary#_blinded) for 1d6 rounds ( [Fortitude](../combat#_fortitude) DC 15 negates). |
 | 96–97 | Wielder (50% chance) or target (50% chance) turns permanently blue, green, or purple (no save). |
-| 98–100 | _ [Flesh to stone](../spells/fleshToStone.md#_flesh-to-stone) _(or _ [stone to flesh](../spells/stoneToFlesh.md#_stone-to-flesh) _if target is stone already) if target is within 60 ft. ( [Fortitude](../combat.md#_fortitude) DC 18 negates). |
+| 98–100 | _ [Flesh to stone](../spells/fleshToStone#_flesh-to-stone) _(or _ [stone to flesh](../spells/stoneToFlesh#_stone-to-flesh) _if target is stone already) if target is within 60 ft. ( [Fortitude](../combat#_fortitude) DC 18 negates). |
 
 **Construction**
 
-**Requirements** [Craft Rod](../feats.md#_craft-rod), _ [confusion](../spells/confusion.md#_confusion)_, creator must be chaotic; **Cost** 6,000 gp
+**Requirements** [Craft Rod](../feats#_craft-rod), _ [confusion](../spells/confusion#_confusion)_, creator must be chaotic; **Cost** 6,000 gp
 

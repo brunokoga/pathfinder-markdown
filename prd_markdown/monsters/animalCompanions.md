@@ -4,47 +4,47 @@ Druids and rangers have a wide selection of animal companion choices, but this s
 
 ## _Bestiary_ Animal Companions
 
-| [Dinosaur, Ankylosaurus](monsters/dinosaur.md#_dinosaur-ankylosaurus) |
-| [Aurochs](monsters/herdAnimal.md#_herd-animal-aurochs) |
-| [Bison](monsters/herdAnimal.md#_herd-animal-bison) |
-| [Brachiosaurus](monsters/dinosaur.md#_dinosaur-brachiosaurus) |
-| [Dire bat](monsters/bat.md#_bat-dire) |
-| [Dire rat](monsters/rat.md#_rat-dire) |
-| [Dolphin](monsters/dolphin.md#_dolphin) |
-| [Elasmosaurus](monsters/dinosaur.md#_dinosaur-elasmosaurus) |
-| [Electric eel](monsters/eel.md#_eel-electric) |
-| [Elephant](monsters/elephant.md#_elephant) |
-| [Giant frog](monsters/frog.md#_frog-giant) |
-| [Giant moray eel](monsters/eel.md#_eel-giant-moray) |
-| [Goblin dog](monsters/goblinDog.md#_goblin-dog) |
-| [Hyena](monsters/hyena.md#_hyena) |
-| [Monitor lizard](monsters/lizard.md#_lizard-monitor) |
-| [Octopus](monsters/octopus.md#_octopus) |
-| [Orca](monsters/dolphin.md#_dolphin-orca) |
-| [Pteranodon](monsters/dinosaur.md#_dinosaur-pteranodon) |
-| [Rhinoceros](monsters/rhinoceros.md#_rhinoceros) |
-| [Roc](monsters/roc.md#_roc) |
-| [Squid](monsters/squid.md#_squid) |
-| [Stegosaurus](monsters/dinosaur.md#_dinosaur-stegosaurus) |
-| [Triceratops](monsters/dinosaur.md#_dinosaur-triceratops) |
-| [Tyrannosaurus](monsters/dinosaur.md#_dinosaur-tyrannosaurus) |
+| [Dinosaur, Ankylosaurus](monsters/dinosaur#_dinosaur-ankylosaurus) |
+| [Aurochs](monsters/herdAnimal#_herd-animal-aurochs) |
+| [Bison](monsters/herdAnimal#_herd-animal-bison) |
+| [Brachiosaurus](monsters/dinosaur#_dinosaur-brachiosaurus) |
+| [Dire bat](monsters/bat#_bat-dire) |
+| [Dire rat](monsters/rat#_rat-dire) |
+| [Dolphin](monsters/dolphin#_dolphin) |
+| [Elasmosaurus](monsters/dinosaur#_dinosaur-elasmosaurus) |
+| [Electric eel](monsters/eel#_eel-electric) |
+| [Elephant](monsters/elephant#_elephant) |
+| [Giant frog](monsters/frog#_frog-giant) |
+| [Giant moray eel](monsters/eel#_eel-giant-moray) |
+| [Goblin dog](monsters/goblinDog#_goblin-dog) |
+| [Hyena](monsters/hyena#_hyena) |
+| [Monitor lizard](monsters/lizard#_lizard-monitor) |
+| [Octopus](monsters/octopus#_octopus) |
+| [Orca](monsters/dolphin#_dolphin-orca) |
+| [Pteranodon](monsters/dinosaur#_dinosaur-pteranodon) |
+| [Rhinoceros](monsters/rhinoceros#_rhinoceros) |
+| [Roc](monsters/roc#_roc) |
+| [Squid](monsters/squid#_squid) |
+| [Stegosaurus](monsters/dinosaur#_dinosaur-stegosaurus) |
+| [Triceratops](monsters/dinosaur#_dinosaur-triceratops) |
+| [Tyrannosaurus](monsters/dinosaur#_dinosaur-tyrannosaurus) |
 
 ## _Bestiary 2_ Animal Companions
 
-| [Dinosaur, Allosaurus](additionalMonsters/dinosaur.md#_dinosaur,-allosaurus) |
-| [Dinosaur, Parasaurolophus](additionalMonsters/dinosaur.md#_dinosaur,-parasaurolophus) |
-| [Gar](additionalMonsters/gar.md) |
-| [Hippopotamus](additionalMonsters/hippopotamus.md#_hippopotamus) |
-| [Megafauna, Arsinotherium](additionalMonsters/megafauna.md#_megafauna,-arsinoitherium) |
-| [Megafauna, Megaloceros](additionalMonsters/megafauna.md#_megafauna,-megaloceros) |
-| [Megafauna, Megatherium](additionalMonsters/megafauna.md#_megafauna,-megatherium) |
-| [Megafauna, Glyptodon](additionalMonsters/megafauna.md#_megafauna,-gylptodon) |
-| [Primate, Baboon](additionalMonsters/primate.md#_primate,-baboon) |
-| [Ram](additionalMonsters/herdAnimal.md#_herd-animal,-ram) |
-| [Ray, Manta Ray](additionalMonsters/ray.md#_ray,-manta) |
-| [Ray, Stingray](additionalMonsters/ray.md#_ray,-stingray) |
-| [Snapping Turtle](additionalMonsters/turtle.md#_turtle,-snapping) |
-| [Tylosaurus](additionalMonsters/dinosaur.md#_dinosaur,-tylosaurus) |
+| [Dinosaur, Allosaurus](additionalMonsters/dinosaur#_dinosaur,-allosaurus) |
+| [Dinosaur, Parasaurolophus](additionalMonsters/dinosaur#_dinosaur,-parasaurolophus) |
+| [Gar](additionalMonsters/gar) |
+| [Hippopotamus](additionalMonsters/hippopotamus#_hippopotamus) |
+| [Megafauna, Arsinotherium](additionalMonsters/megafauna#_megafauna,-arsinoitherium) |
+| [Megafauna, Megaloceros](additionalMonsters/megafauna#_megafauna,-megaloceros) |
+| [Megafauna, Megatherium](additionalMonsters/megafauna#_megafauna,-megatherium) |
+| [Megafauna, Glyptodon](additionalMonsters/megafauna#_megafauna,-gylptodon) |
+| [Primate, Baboon](additionalMonsters/primate#_primate,-baboon) |
+| [Ram](additionalMonsters/herdAnimal#_herd-animal,-ram) |
+| [Ray, Manta Ray](additionalMonsters/ray#_ray,-manta) |
+| [Ray, Stingray](additionalMonsters/ray#_ray,-stingray) |
+| [Snapping Turtle](additionalMonsters/turtle#_turtle,-snapping) |
+| [Tylosaurus](additionalMonsters/dinosaur#_dinosaur,-tylosaurus) |
 
 ## _Bestiary 3_ Animal Companions
 
@@ -92,7 +92,7 @@ Druids and rangers have a wide selection of animal companion choices, but this s
 
 ### Giant Chameleon Companions
 
-**Starting Statistics** : **Size** Medium; **Speed** 30 ft., climb 30 ft.; **Attack** bite (1d6); **Ability Scores** Str 12, Dex 14, Con 14, Int 2, Wis 11, Cha 7; **Special Qualities** +10 [Stealth](skills/stealth.md#_stealth) when still, low-light vision.
+**Starting Statistics** : **Size** Medium; **Speed** 30 ft., climb 30 ft.; **Attack** bite (1d6); **Ability Scores** Str 12, Dex 14, Con 14, Int 2, Wis 11, Cha 7; **Special Qualities** +10 [Stealth](skills/stealth#_stealth) when still, low-light vision.
 
 **4th-Level Advancement** : **Size** Large; **Speed** 40 ft., climb 40 ft.; **AC** +2 natural armor; **Attack** bite (1d8); **Ability Scores** Str +4, Dex –2, Con +2; **Special Attacks** pull (tongue, 5 ft.), tongue.
 

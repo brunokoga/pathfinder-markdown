@@ -12,7 +12,7 @@
 
 **Duration** 1 min.
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** yes (harmless)
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** yes (harmless)
 
 With a touch, you infuse a creature with a tiny surge of life, granting the subject 1 temporary hit point.
 

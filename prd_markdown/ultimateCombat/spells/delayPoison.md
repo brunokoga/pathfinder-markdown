@@ -4,5 +4,5 @@ Delay Poison, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [delay poison](spells/delayPoison.md#_delay-poison)_, except you divide the duration in 1-hour intervals among the creatures touched.
+This spell functions like _ [delay poison](spells/delayPoison#_delay-poison)_, except you divide the duration in 1-hour intervals among the creatures touched.
 

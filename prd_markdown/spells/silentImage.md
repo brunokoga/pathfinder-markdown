@@ -12,7 +12,7 @@
 
 **Duration** concentration
 
-**Saving Throw** [Will](../combat.md#_will) disbelief (if interacted with); **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** [Will](../combat#_will) disbelief (if interacted with); **[Spell Resistance](../glossary#_spell-resistance)** no
 
 This spell creates the visual illusion of an object, creature, or force, as visualized by you. The illusion does not create sound, smell, texture, or temperature. You can move the image within the limits of the size of the effect.
 

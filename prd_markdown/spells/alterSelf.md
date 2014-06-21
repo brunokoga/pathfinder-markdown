@@ -12,9 +12,9 @@
 
 **Duration** 1 min./level (D)
 
-When you cast this spell, you can assume the form of any Small or Medium creature of the humanoid type. If the form you assume has any of the following abilities, you gain the listed ability: [darkvision](../glossary.md#_darkvision) 60 feet, [low-light vision](../glossary.md#_low-light-vision), [scent](../glossary.md#_scent), and swim 30 feet.
+When you cast this spell, you can assume the form of any Small or Medium creature of the humanoid type. If the form you assume has any of the following abilities, you gain the listed ability: [darkvision](../glossary#_darkvision) 60 feet, [low-light vision](../glossary#_low-light-vision), [scent](../glossary#_scent), and swim 30 feet.
 
-_Small creature_: If the form you take is that of a Small humanoid, you gain a +2 size bonus to your [Dexterity](../gettingStarted.md#_dexterity).
+_Small creature_: If the form you take is that of a Small humanoid, you gain a +2 size bonus to your [Dexterity](../gettingStarted#_dexterity).
 
-_Medium creature_: If the form you take is that of a Medium humanoid, you gain a +2 size bonus to your [Strength](../gettingStarted.md#_strength).
+_Medium creature_: If the form you take is that of a Medium humanoid, you gain a +2 size bonus to your [Strength](../gettingStarted#_strength).
 

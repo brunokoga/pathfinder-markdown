@@ -41,9 +41,9 @@ Many proteans, particularly the imenteshes, have the ability to create and manip
 | 14 | Target is sickened for 1d4 rounds. |
 | 15 | Target is staggered for 1d4 rounds. |
 | 16 | Target gains 4d6 temporary hit points. |
-| 17 | Target is affected by a _ [heal](additionalMonsters/../spells/heal.md#_heal)_ spell (CL = protean's CR). |
+| 17 | Target is affected by a _ [heal](additionalMonsters/../spells/heal#_heal)_ spell (CL = protean's CR). |
 | 18 | Target is turned to stone. |
-| 19 | Target is affected by _ [baleful polymorph](additionalMonsters/../spells/balefulPolymorph.md#_baleful-polymorph)_ (CL = protean's CR). |
+| 19 | Target is affected by _ [baleful polymorph](additionalMonsters/../spells/balefulPolymorph#_baleful-polymorph)_ (CL = protean's CR). |
 | 20 | Portions of target's body burst with energy of a random type   
 (choose between acid, cold, electricity, or fire), dealing 4d6 points of  
 damage of the appropriate type to the target. |
@@ -59,9 +59,9 @@ This serpentine creature has the lower body of a snake, a humanoid torso, and a 
 
 **XP 9,600**
 
-CN Large [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [protean](monsters/creatureTypes.md#_protean-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
+CN Large [outsider](monsters/creatureTypes#_outsider) ( [chaotic](monsters/creatureTypes#_chaotic-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [protean](monsters/creatureTypes#_protean-subtype), [shapechanger](monsters/creatureTypes#_shapechanger-subtype))
 
-**Init** +7; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 30 ft., darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +20
+**Init** +7; **Senses** [blindsense](monsters/universalMonsterRules#_blindsense) 30 ft., darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +20
 
 Defense
 
@@ -71,27 +71,27 @@ Defense
 
 **Fort** +12, **Ref** +7, **Will** +14
 
-**Defensive Abilities** [amorphous](monsters/universalMonsterRules.md#_amorphous) anatomy, [freedom of movement;](additionalMonsters/../spells/freedomOfMovement.md#_freedom-of-movement) **DR** 10/lawful; **Immune** acid, polymorph; **Resist** electricity 10, sonic 10; **SR** 21
+**Defensive Abilities** [amorphous](monsters/universalMonsterRules#_amorphous) anatomy, [freedom of movement;](additionalMonsters/../spells/freedomOfMovement#_freedom-of-movement) **DR** 10/lawful; **Immune** acid, polymorph; **Resist** electricity 10, sonic 10; **SR** 21
 
 Offense
 
 **Speed** 30 ft., fly 30 ft. (perfect), swim 30 ft.
 
-**Melee** bite +19 (2d6+7), 2 claws +19 (1d8+7), tail +17 (1d8+3 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** bite +19 (2d6+7), 2 claws +19 (1d8+7), tail +17 (1d8+3 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) (1d8+7), inflict warpwave, sneak attack +4d6
+**Special Attacks** [constrict](monsters/universalMonsterRules#_constrict) (1d8+7), inflict warpwave, sneak attack +4d6
 
 **Spell-Like Abilities** (CL 10th; concentration +15)
 
-Constant—_ [detect law](additionalMonsters/../spells/detectLaw.md#_detect-law)_, _ [tongues](additionalMonsters/../spells/tongues.md#_tongues)_
+Constant—_ [detect law](additionalMonsters/../spells/detectLaw#_detect-law)_, _ [tongues](additionalMonsters/../spells/tongues#_tongues)_
 
-At will—_ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_ (self plus 50 lbs. of objects only), _ [make whole](additionalMonsters/../spells/makeWhole.md#_make-whole)_, _ [major creation](additionalMonsters/../spells/majorCreation.md#_major-creation)_, _ [shatter](additionalMonsters/../spells/shatter.md#_shatter)_ (DC 17), _ [shrink item](additionalMonsters/../spells/shrinkItem.md#_shrink-item)_
+At will—_ [dimension door](additionalMonsters/../spells/dimensionDoor#_dimension-door)_ (self plus 50 lbs. of objects only), _ [make whole](additionalMonsters/../spells/makeWhole#_make-whole)_, _ [major creation](additionalMonsters/../spells/majorCreation#_major-creation)_, _ [shatter](additionalMonsters/../spells/shatter#_shatter)_ (DC 17), _ [shrink item](additionalMonsters/../spells/shrinkItem#_shrink-item)_
 
-3/day—_ [chaos hammer](additionalMonsters/../spells/chaosHammer.md#_chaos-hammer)_ (DC 19), _ [dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic)_, _ [slow](additionalMonsters/../spells/slow.md#_slow)_ (DC 18)
+3/day—_ [chaos hammer](additionalMonsters/../spells/chaosHammer#_chaos-hammer)_ (DC 19), _ [dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic)_, _ [slow](additionalMonsters/../spells/slow#_slow)_ (DC 18)
 
-1/day—_ [break enchantment](additionalMonsters/../spells/breakEnchantment.md#_break-enchantment)_, _ [dispel law](additionalMonsters/../spells/dispelLaw.md#_dispel-law)_ (DC 20), _ [haste](additionalMonsters/../spells/haste.md#_haste)_, _ [polymorph any object](additionalMonsters/../spells/polymorphAnyObject.md#_polymorph-any-object)_ (DC 23)
+1/day—_ [break enchantment](additionalMonsters/../spells/breakEnchantment#_break-enchantment)_, _ [dispel law](additionalMonsters/../spells/dispelLaw#_dispel-law)_ (DC 20), _ [haste](additionalMonsters/../spells/haste#_haste)_, _ [polymorph any object](additionalMonsters/../spells/polymorphAnyObject#_polymorph-any-object)_ (DC 23)
 
 Statistics
 
@@ -99,13 +99,13 @@ Statistics
 
 **Base Atk** +13; **CMB** +21 (+25 grapple); **CMD** 34 (can't be tripped)
 
-**Feats** [Combat Expertise](additionalMonsters/../feats.md#_combat-expertise), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Improved Feint](additionalMonsters/../feats.md#_improved-feint), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Persuasive](additionalMonsters/../feats.md#_persuasive)
+**Feats** [Combat Expertise](additionalMonsters/../feats#_combat-expertise), [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Improved Feint](additionalMonsters/../feats#_improved-feint), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Iron Will](additionalMonsters/../feats#_iron-will), [Multiattack](additionalMonsters/../monsters/monsterFeats#_multiattack), [Persuasive](additionalMonsters/../feats#_persuasive)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +19, [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +21, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +25, [Disable Device](additionalMonsters/../skills/disableDevice.md#_disable-device) +16, [Fly](additionalMonsters/../skills/fly.md#_fly) +9, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +25, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +22, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (planes) +22, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (any two) +19, [Perception](additionalMonsters/../skills/perception.md#_perception) +20, [Sense Motive](additionalMonsters/../skills/senseMotive.md#_sense-motive) +20, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +15, [Swim](additionalMonsters/../skills/swim.md#_swim) +15
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +19, [Bluff](additionalMonsters/../skills/bluff#_bluff) +21, [Diplomacy](additionalMonsters/../skills/diplomacy#_diplomacy) +25, [Disable Device](additionalMonsters/../skills/disableDevice#_disable-device) +16, [Fly](additionalMonsters/../skills/fly#_fly) +9, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +25, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana) +22, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (planes) +22, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (any two) +19, [Perception](additionalMonsters/../skills/perception#_perception) +20, [Sense Motive](additionalMonsters/../skills/senseMotive#_sense-motive) +20, [Stealth](additionalMonsters/../skills/stealth#_stealth) +15, [Swim](additionalMonsters/../skills/swim#_swim) +15
 
-**Languages** Abyssal, Protean; _ [tongues](additionalMonsters/../spells/tongues.md#_tongues)_
+**Languages** Abyssal, Protean; _ [tongues](additionalMonsters/../spells/tongues#_tongues)_
 
-**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (_ [greater polymorph](additionalMonsters/../spells/polymorph.md#_polymorph-greater)_)
+**SQ** [change shape](monsters/universalMonsterRules#_change-shape) (_ [greater polymorph](additionalMonsters/../spells/polymorph#_polymorph-greater)_)
 
 Ecology
 
@@ -131,9 +131,9 @@ Colors dance over this serpentine creature's scales. A strange crown of energy g
 
 **XP 102,400**
 
-CN Large [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [protean](monsters/creatureTypes.md#_protean-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
+CN Large [outsider](monsters/creatureTypes#_outsider) ( [chaotic](monsters/creatureTypes#_chaotic-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [protean](monsters/creatureTypes#_protean-subtype), [shapechanger](monsters/creatureTypes#_shapechanger-subtype))
 
-**Init** +5; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 60 ft., darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +33
+**Init** +5; **Senses** [blindsense](monsters/universalMonsterRules#_blindsense) 60 ft., darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +33
 
 **Aura** spatial riptide (30 ft.)
 
@@ -145,27 +145,27 @@ Defense
 
 **Fort** +22, **Ref** +14, **Will** +22
 
-**Defensive Abilities** [amorphous](monsters/universalMonsterRules.md#_amorphous) anatomy, [freedom of movement](additionalMonsters/../spells/freedomOfMovement.md#_freedom-of-movement); **Immune** acid, polymorph; **Resist** electricity 10, sonic 10; **SR** 28; **DR** 15/lawful
+**Defensive Abilities** [amorphous](monsters/universalMonsterRules#_amorphous) anatomy, [freedom of movement](additionalMonsters/../spells/freedomOfMovement#_freedom-of-movement); **Immune** acid, polymorph; **Resist** electricity 10, sonic 10; **SR** 28; **DR** 15/lawful
 
 Offense
 
 **Speed** 40 ft., fly 40 ft. (perfect), swim 40 ft.
 
-**Melee** bite +31 (4d8+9 plus warpwave), 2 claws +31 (2d6+9 plus warpwave), tail slap +29 (2d8+4 plus [grab](monsters/universalMonsterRules.md#_grab))
+**Melee** bite +31 (4d8+9 plus warpwave), 2 claws +31 (2d6+9 plus warpwave), tail slap +29 (2d8+4 plus [grab](monsters/universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [constrict](monsters/universalMonsterRules.md#_constrict) 1d8+9, reshape reality
+**Special Attacks** [constrict](monsters/universalMonsterRules#_constrict) 1d8+9, reshape reality
 
 **Spell-Like Abilities** (CL 17th; concentration +24)
 
-Constant—_ [detect law](additionalMonsters/../spells/detectLaw.md#_detect-law)_, _ [tongues](additionalMonsters/../spells/tongues.md#_tongues)_
+Constant—_ [detect law](additionalMonsters/../spells/detectLaw#_detect-law)_, _ [tongues](additionalMonsters/../spells/tongues#_tongues)_
 
-At will—_ [chaos hammer](additionalMonsters/../spells/chaosHammer.md#_chaos-hammer)_ (DC 21), _ [greater dispel magic](additionalMonsters/../spells/dispelMagic.md#_dispel-magic-greater)_, _ [greater teleport](additionalMonsters/../spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [major creation](additionalMonsters/../spells/majorCreation.md#_major-creation)_, _ [move earth](additionalMonsters/../spells/moveEarth.md#_move-earth)_, _ [shatter](additionalMonsters/../spells/shatter.md#_shatter)_ (DC 19)
+At will—_ [chaos hammer](additionalMonsters/../spells/chaosHammer#_chaos-hammer)_ (DC 21), _ [greater dispel magic](additionalMonsters/../spells/dispelMagic#_dispel-magic-greater)_, _ [greater teleport](additionalMonsters/../spells/teleport#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [major creation](additionalMonsters/../spells/majorCreation#_major-creation)_, _ [move earth](additionalMonsters/../spells/moveEarth#_move-earth)_, _ [shatter](additionalMonsters/../spells/shatter#_shatter)_ (DC 19)
 
-3/day—quickened_ [confusion](additionalMonsters/../spells/confusion.md#_confusion)_ (DC 21), _dispel law_ (DC 22), empowered_ [chaos hammer](additionalMonsters/../spells/chaosHammer.md#_chaos-hammer)_ (DC 21), _ [polymorph any object](additionalMonsters/../spells/polymorphAnyObject.md#_polymorph-any-object)_ (DC 25)
+3/day—quickened_ [confusion](additionalMonsters/../spells/confusion#_confusion)_ (DC 21), _dispel law_ (DC 22), empowered_ [chaos hammer](additionalMonsters/../spells/chaosHammer#_chaos-hammer)_ (DC 21), _ [polymorph any object](additionalMonsters/../spells/polymorphAnyObject#_polymorph-any-object)_ (DC 25)
 
-1/day—_ [disintegrate](additionalMonsters/../spells/disintegrate.md#_disintegrate)_ (DC 23), _ [prismatic spray](additionalMonsters/../spells/prismaticSpray.md#_prismatic-spray)_ (DC 24), _ [prismatic sphere](additionalMonsters/../spells/prismaticSphere.md#_prismatic-sphere)_ (DC 26), reshape reality
+1/day—_ [disintegrate](additionalMonsters/../spells/disintegrate#_disintegrate)_ (DC 23), _ [prismatic spray](additionalMonsters/../spells/prismaticSpray#_prismatic-spray)_ (DC 24), _ [prismatic sphere](additionalMonsters/../spells/prismaticSphere#_prismatic-sphere)_ (DC 26), reshape reality
 
 Statistics
 
@@ -173,13 +173,13 @@ Statistics
 
 **Base Atk** +23; **CMB** +33 (+35 bull rush, +37 grapple); **CMD** 48 (can't be tripped)
 
-**Feats** [Combat Expertise](additionalMonsters/../feats.md#_combat-expertise), [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), Empower Spell-like Ability (_ [chaos hammer](additionalMonsters/../spells/chaosHammer.md#_chaos-hammer)_), [Great Fortitude](additionalMonsters/../feats.md#_great-fortitude), [Improved Bull Rush](additionalMonsters/../feats.md#_improved-bull-rush), [Improved Vital Strike](additionalMonsters/../feats.md#_improved-vital-strike), [Iron Will](additionalMonsters/../feats.md#_iron-will), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Power Attack](additionalMonsters/../feats.md#_power-attack), Quicken Spell-like Ability (_ [confusion](additionalMonsters/../spells/confusion.md#_confusion)_), [Vital Strike](additionalMonsters/../feats.md#_vital-strike)
+**Feats** [Combat Expertise](additionalMonsters/../feats#_combat-expertise), [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), Empower Spell-like Ability (_ [chaos hammer](additionalMonsters/../spells/chaosHammer#_chaos-hammer)_), [Great Fortitude](additionalMonsters/../feats#_great-fortitude), [Improved Bull Rush](additionalMonsters/../feats#_improved-bull-rush), [Improved Vital Strike](additionalMonsters/../feats#_improved-vital-strike), [Iron Will](additionalMonsters/../feats#_iron-will), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Multiattack](additionalMonsters/../monsters/monsterFeats#_multiattack), [Power Attack](additionalMonsters/../feats#_power-attack), Quicken Spell-like Ability (_ [confusion](additionalMonsters/../spells/confusion#_confusion)_), [Vital Strike](additionalMonsters/../feats#_vital-strike)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +31, [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +33, [Diplomacy](additionalMonsters/../skills/diplomacy.md#_diplomacy) +33, [Fly](additionalMonsters/../skills/fly.md#_fly) +11, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +33, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana, planes) +31, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (any two) +28, [Perception](additionalMonsters/../skills/perception.md#_perception) +33, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +27, [Swim](additionalMonsters/../skills/swim.md#_swim) +40
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +31, [Bluff](additionalMonsters/../skills/bluff#_bluff) +33, [Diplomacy](additionalMonsters/../skills/diplomacy#_diplomacy) +33, [Fly](additionalMonsters/../skills/fly#_fly) +11, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +33, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana, planes) +31, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (any two) +28, [Perception](additionalMonsters/../skills/perception#_perception) +33, [Stealth](additionalMonsters/../skills/stealth#_stealth) +27, [Swim](additionalMonsters/../skills/swim#_swim) +40
 
 **Languages** Abyssal, Protean; telepathy 100 ft.
 
-**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (_ [greater polymorph](additionalMonsters/../spells/polymorph.md#_polymorph-greater)_)
+**SQ** [change shape](monsters/universalMonsterRules#_change-shape) (_ [greater polymorph](additionalMonsters/../spells/polymorph#_polymorph-greater)_)
 
 Ecology
 
@@ -191,9 +191,9 @@ Ecology
 
 Special Abilities
 
-**Reshape Reality (Sp)** This ability functions as the spell _ [mirage arcana](additionalMonsters/../spells/mirageArcana.md#_mirage-arcana) _heightened to a 9th-level spell, except the changes created are quasi-real, like those created by _ [shadow conjuration](additionalMonsters/../spells/shadowConjuration.md#_shadow-conjuration)_. A creature that interacts with reshaped reality may make a DC 26 Will save to see through the semi-real illusion. Terrain can provide concealment, and against foes who do not make the Will save to see through the facade, reshaped reality can provide cover. For disbelievers, quasi-real objects and terrain have only 20% normal hardness and hit points, and break DCs are 10 lower than normal. Dangerous terrain cannot exceed 5d6 points of damage per round (1d6 per round against disbelievers). This ability cannot damage existing structures, nor does it function in areas where planar travel is prohibited.
+**Reshape Reality (Sp)** This ability functions as the spell _ [mirage arcana](additionalMonsters/../spells/mirageArcana#_mirage-arcana) _heightened to a 9th-level spell, except the changes created are quasi-real, like those created by _ [shadow conjuration](additionalMonsters/../spells/shadowConjuration#_shadow-conjuration)_. A creature that interacts with reshaped reality may make a DC 26 Will save to see through the semi-real illusion. Terrain can provide concealment, and against foes who do not make the Will save to see through the facade, reshaped reality can provide cover. For disbelievers, quasi-real objects and terrain have only 20% normal hardness and hit points, and break DCs are 10 lower than normal. Dangerous terrain cannot exceed 5d6 points of damage per round (1d6 per round against disbelievers). This ability cannot damage existing structures, nor does it function in areas where planar travel is prohibited.
 
-**Spatial Riptide (Su)** Any non-protean teleporting into or out of the [protean](monsters/creatureTypes.md#_protean-subtype)'s aura must make a DC 28 Fortitude save or enter a state of suspended animation (identical to _ [temporal stasis](additionalMonsters/../spells/temporalStasis.md#_temporal-stasis)_) for 1d3 rounds; success means the creature is merely nauseated for 1 round. The save DC is Constitution-based.
+**Spatial Riptide (Su)** Any non-protean teleporting into or out of the [protean](monsters/creatureTypes#_protean-subtype)'s aura must make a DC 28 Fortitude save or enter a state of suspended animation (identical to _ [temporal stasis](additionalMonsters/../spells/temporalStasis#_temporal-stasis)_) for 1d3 rounds; success means the creature is merely nauseated for 1 round. The save DC is Constitution-based.
 
 **Warpwave (Su)** A creature struck by a keketar's claw or bite must make a DC 28 Fortitude save or be affected by a warpwave. The save DC is Constitution-based.
 
@@ -207,9 +207,9 @@ Tentacles tipped with snapping jaws emerge from this serpentine creature's back,
 
 **XP 3,200**
 
-CN Large [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [protean](monsters/creatureTypes.md#_protean-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
+CN Large [outsider](monsters/creatureTypes#_outsider) ( [chaotic](monsters/creatureTypes#_chaotic-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [protean](monsters/creatureTypes#_protean-subtype), [shapechanger](monsters/creatureTypes#_shapechanger-subtype))
 
-**Init** +7; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 30 ft., darkvision 60 ft., _ [detect law](additionalMonsters/../spells/detectLaw.md#_detect-law)_; [Perception](additionalMonsters/../skills/perception.md#_perception) +15
+**Init** +7; **Senses** [blindsense](monsters/universalMonsterRules#_blindsense) 30 ft., darkvision 60 ft., _ [detect law](additionalMonsters/../spells/detectLaw#_detect-law)_; [Perception](additionalMonsters/../skills/perception#_perception) +15
 
 Defense
 
@@ -219,25 +219,25 @@ Defense
 
 **Fort** +11, **Ref** +11, **Will** +6
 
-**Defensive Abilities** [amorphous](monsters/universalMonsterRules.md#_amorphous) anatomy, [freedom of movement](additionalMonsters/../spells/freedomOfMovement.md#_freedom-of-movement); **DR** 5/lawful; **Immune** acid, polymorph; **Resist** electricity 10, sonic 10; **SR** 18
+**Defensive Abilities** [amorphous](monsters/universalMonsterRules#_amorphous) anatomy, [freedom of movement](additionalMonsters/../spells/freedomOfMovement#_freedom-of-movement); **DR** 5/lawful; **Immune** acid, polymorph; **Resist** electricity 10, sonic 10; **SR** 18
 
 Offense
 
 **Speed** 30 ft., fly 30 ft. (perfect), swim 30 ft.
 
-**Melee** bite +14 (1d8+5) , tail slap +11 (1d6+2 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 tentacles +11 (1d6+2 plus confusion)
+**Melee** bite +14 (1d8+5) , tail slap +11 (1d6+2 plus [grab](monsters/universalMonsterRules#_grab)), 2 tentacles +11 (1d6+2 plus confusion)
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** adaptive strike, coalesce chaos, [constrict](monsters/universalMonsterRules.md#_constrict) (1d6+5)
+**Special Attacks** adaptive strike, coalesce chaos, [constrict](monsters/universalMonsterRules#_constrict) (1d6+5)
 
 **Spell-Like Abilities** (CL 7th; concentration +9)
 
-Constant—_ [detect law](additionalMonsters/../spells/detectLaw.md#_detect-law)_
+Constant—_ [detect law](additionalMonsters/../spells/detectLaw#_detect-law)_
 
-At will—_ [acid arrow](additionalMonsters/../spells/acidArrow.md#_acid-arrow)_, _ [fog cloud](additionalMonsters/../spells/fogCloud.md)_, _ [dimension door](additionalMonsters/../spells/dimensionDoor.md#_dimension-door)_ (self plus 50 lbs. of objects only), _ [shatter](additionalMonsters/../spells/shatter.md#_shatter)_ (DC 14)
+At will—_ [acid arrow](additionalMonsters/../spells/acidArrow#_acid-arrow)_, _ [fog cloud](additionalMonsters/../spells/fogCloud)_, _ [dimension door](additionalMonsters/../spells/dimensionDoor#_dimension-door)_ (self plus 50 lbs. of objects only), _ [shatter](additionalMonsters/../spells/shatter#_shatter)_ (DC 14)
 
-1/day—_ [chaos hammer](additionalMonsters/../spells/chaosHammer.md#_chaos-hammer)_ (DC 16)
+1/day—_ [chaos hammer](additionalMonsters/../spells/chaosHammer#_chaos-hammer)_ (DC 16)
 
 Statistics
 
@@ -245,13 +245,13 @@ Statistics
 
 **Base Atk** +9; **CMB** +15; **CMD** 28
 
-**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats.md#_lightning-reflexes), [Multiattack](additionalMonsters/../monsters/monsterFeats.md#_multiattack), [Weapon Focus](additionalMonsters/../feats.md#_weapon-focus) (bite)
+**Feats** [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Lightning Reflexes](additionalMonsters/../feats#_lightning-reflexes), [Multiattack](additionalMonsters/../monsters/monsterFeats#_multiattack), [Weapon Focus](additionalMonsters/../feats#_weapon-focus) (bite)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +15, [Fly](additionalMonsters/../skills/fly.md#_fly) +9, [Intimidate](additionalMonsters/../skills/intimidate.md#_intimidate) +14, [Perception](additionalMonsters/../skills/perception.md#_perception) +15, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +11, [Survival](additionalMonsters/../skills/survival.md#_survival) +15, [Swim](additionalMonsters/../skills/swim.md#_swim) +25
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +15, [Fly](additionalMonsters/../skills/fly#_fly) +9, [Intimidate](additionalMonsters/../skills/intimidate#_intimidate) +14, [Perception](additionalMonsters/../skills/perception#_perception) +15, [Stealth](additionalMonsters/../skills/stealth#_stealth) +11, [Survival](additionalMonsters/../skills/survival#_survival) +15, [Swim](additionalMonsters/../skills/swim#_swim) +25
 
 **Languages** Abyssal, Protean
 
-**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (_ [polymorph](additionalMonsters/../spells/polymorph.md#_polymorph)_)
+**SQ** [change shape](monsters/universalMonsterRules#_change-shape) (_ [polymorph](additionalMonsters/../spells/polymorph#_polymorph)_)
 
 Ecology
 
@@ -263,11 +263,11 @@ Ecology
 
 Special Abilities
 
-**Adaptive Strike (Su)** A naunet's natural weapons count as magical and [chaotic](monsters/creatureTypes.md#_chaotic-subtype) for the purposes of overcoming [damage reduction](monsters/universalMonsterRules.md#_damage-reduction-(ex-or-su)). As a free action once per round, a naunet may infuse all of its natural attacks with adamantine, silver, or [cold](monsters/creatureTypes.md#_cold-subtype) iron, thereby allowing it to overcome [damage reduction](monsters/universalMonsterRules.md#_damage-reduction-(ex-or-su)) of those types as well.
+**Adaptive Strike (Su)** A naunet's natural weapons count as magical and [chaotic](monsters/creatureTypes#_chaotic-subtype) for the purposes of overcoming [damage reduction](monsters/universalMonsterRules#_damage-reduction-(ex-or-su)). As a free action once per round, a naunet may infuse all of its natural attacks with adamantine, silver, or [cold](monsters/creatureTypes#_cold-subtype) iron, thereby allowing it to overcome [damage reduction](monsters/universalMonsterRules#_damage-reduction-(ex-or-su)) of those types as well.
 
-**Coalesce Chaos (Su)** Once per day as a standard action, three or more naunets working together can create a roiling cloud of multicolored chaos matter. This effect is identical to _ [solid fog](additionalMonsters/../spells/solidFog.md#_solid-fog)_ (CL 12th) and lasts for 2d6 rounds. If six or more naunets are present, the coalesced chaos instead functions as _ [acid fog](additionalMonsters/../spells/acidFog.md#_acid-fog)_ (CL 12th).
+**Coalesce Chaos (Su)** Once per day as a standard action, three or more naunets working together can create a roiling cloud of multicolored chaos matter. This effect is identical to _ [solid fog](additionalMonsters/../spells/solidFog#_solid-fog)_ (CL 12th) and lasts for 2d6 rounds. If six or more naunets are present, the coalesced chaos instead functions as _ [acid fog](additionalMonsters/../spells/acidFog#_acid-fog)_ (CL 12th).
 
-**Confusion (Su)** A creature struck by a naunet's tentacle attack is infused with raw chaos, and must make a DC 19 Will save or be confused for 1 round. Rounds of confusion dealt in this manner stack. A creature with a [chaotic](monsters/creatureTypes.md#_chaotic-subtype) component to its alignment gains a +4 bonus on saves against this effect, and creatures with the [chaotic](monsters/creatureTypes.md#_chaotic-subtype) subtype are immune. This is a mind-affecting effect. The save DC is Constitution-based.
+**Confusion (Su)** A creature struck by a naunet's tentacle attack is infused with raw chaos, and must make a DC 19 Will save or be confused for 1 round. Rounds of confusion dealt in this manner stack. A creature with a [chaotic](monsters/creatureTypes#_chaotic-subtype) component to its alignment gains a +4 bonus on saves against this effect, and creatures with the [chaotic](monsters/creatureTypes#_chaotic-subtype) subtype are immune. This is a mind-affecting effect. The save DC is Constitution-based.
 
 Far more bestial than their kin, naunets are the lowest caste of the true proteans, the shock troops of their race and roving marauders in the cause of chaos. Primarily found in the shifting borderlands between Limbo and other planes, naunets are driven half-insane by the stability and stasis of such areas, and frequently rampage through the edges of other planes, tearing up the very fabric of reality itself and returning vast swaths of land to the beautiful, formless potentiality of their home.
 
@@ -281,9 +281,9 @@ This tiny, iridescent serpent slithers through empty space, the air around it di
 
 **XP 600**
 
-CN Tiny [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [protean](monsters/creatureTypes.md#_protean-subtype), [shapechanger](monsters/creatureTypes.md#_shapechanger-subtype))
+CN Tiny [outsider](monsters/creatureTypes#_outsider) ( [chaotic](monsters/creatureTypes#_chaotic-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [protean](monsters/creatureTypes#_protean-subtype), [shapechanger](monsters/creatureTypes#_shapechanger-subtype))
 
-**Init** +3; **Senses** [blindsense](monsters/universalMonsterRules.md#_blindsense) 30 ft., darkvision 30 ft., _ [detect law](additionalMonsters/../spells/detectLaw.md#_detect-law)_; [Perception](additionalMonsters/../skills/perception.md#_perception) +8
+**Init** +3; **Senses** [blindsense](monsters/universalMonsterRules#_blindsense) 30 ft., darkvision 30 ft., _ [detect law](additionalMonsters/../spells/detectLaw#_detect-law)_; [Perception](additionalMonsters/../skills/perception#_perception) +8
 
 Defense
 
@@ -293,7 +293,7 @@ Defense
 
 **Fort** +1, **Ref** +6, **Will** +2
 
-**Defensive Abilities** [amorphous](monsters/universalMonsterRules.md#_amorphous) anatomy, [freedom of movement](additionalMonsters/../spells/freedomOfMovement.md#_freedom-of-movement); **Immune** acid; **Resist** electricity 10, sonic 10
+**Defensive Abilities** [amorphous](monsters/universalMonsterRules#_amorphous) anatomy, [freedom of movement](additionalMonsters/../spells/freedomOfMovement#_freedom-of-movement); **Immune** acid; **Resist** electricity 10, sonic 10
 
 Offense
 
@@ -305,13 +305,13 @@ Offense
 
 **Spell-Like Abilities** (CL 6th; concentration +7)
 
-Constant—_ [detect law](additionalMonsters/../spells/detectLaw.md#_detect-law)_
+Constant—_ [detect law](additionalMonsters/../spells/detectLaw#_detect-law)_
 
-At will—_ [dancing lights](additionalMonsters/../spells/dancingLights.md#_dancing-lights)_, _ [ghost sound](additionalMonsters/../spells/ghostSound.md#_ghost-sound) _(DC 11), _ [prestidigitation](additionalMonsters/../spells/prestidigitation.md#_prestidigitation)_
+At will—_ [dancing lights](additionalMonsters/../spells/dancingLights#_dancing-lights)_, _ [ghost sound](additionalMonsters/../spells/ghostSound#_ghost-sound) _(DC 11), _ [prestidigitation](additionalMonsters/../spells/prestidigitation#_prestidigitation)_
 
-3/day—_ [blur](additionalMonsters/../spells/blur.md#_blur)_ (self only), _ [obscuring mist](additionalMonsters/../spells/obscuringMist.md#_obscuring-mist)_
+3/day—_ [blur](additionalMonsters/../spells/blur#_blur)_ (self only), _ [obscuring mist](additionalMonsters/../spells/obscuringMist#_obscuring-mist)_
 
-1/week—_ [commune](additionalMonsters/../spells/commune.md#_commune)_ (CL 12th, 6 questions)
+1/week—_ [commune](additionalMonsters/../spells/commune#_commune)_ (CL 12th, 6 questions)
 
 Statistics
 
@@ -319,13 +319,13 @@ Statistics
 
 **Base Atk** +3; **CMB** +4; **CMD** 12 (can't be tripped)
 
-**Feats** [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception)), [Weapon Finesse](additionalMonsters/../feats.md#_weapon-finesse)
+**Feats** [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Perception](additionalMonsters/../skills/perception#_perception)), [Weapon Finesse](additionalMonsters/../feats#_weapon-finesse)
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +9 (+5 jump), [Bluff](additionalMonsters/../skills/bluff.md#_bluff) +7, [Escape Artist](additionalMonsters/../skills/escapeArtist.md#_escape-artist) +7, [Fly](additionalMonsters/../skills/fly.md#_fly) +19, [Knowledge](additionalMonsters/../skills/knowledge.md#_knowledge) (arcana) +5, [Perception](additionalMonsters/../skills/perception.md#_perception) +8, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +15
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +9 (+5 jump), [Bluff](additionalMonsters/../skills/bluff#_bluff) +7, [Escape Artist](additionalMonsters/../skills/escapeArtist#_escape-artist) +7, [Fly](additionalMonsters/../skills/fly#_fly) +19, [Knowledge](additionalMonsters/../skills/knowledge#_knowledge) (arcana) +5, [Perception](additionalMonsters/../skills/perception#_perception) +8, [Stealth](additionalMonsters/../skills/stealth#_stealth) +15
 
-**Languages** Common, [Protean](monsters/creatureTypes.md#_protean-subtype)
+**Languages** Common, [Protean](monsters/creatureTypes#_protean-subtype)
 
-**SQ** [change shape](monsters/universalMonsterRules.md#_change-shape) (2 forms, both of which must be Tiny animals; _ [beast shape II](additionalMonsters/../spells/beastShape.md#_beast-shape-ii)_)
+**SQ** [change shape](monsters/universalMonsterRules#_change-shape) (2 forms, both of which must be Tiny animals; _ [beast shape II](additionalMonsters/../spells/beastShape#_beast-shape-ii)_)
 
 Ecology
 
@@ -339,7 +339,7 @@ Special Abilities
 
 **Confusion (Su)** A creature struck by a voidworm's tail slap must make a DC 12 Will save or become confused for 1 round. This is a mind-affecting effect. The save DC is Charisma-based.
 
-Debate rages as to whether or not the strange and capricious creatures called voidworms are actually proteans at all. To the wizards and sorcerers who summon them as familiars, the answer seems obvious—these tiny dwellers of Limbo have all the requisite racial traits of proteans, down to their serpentine shapes. Yet the established protean castes find such claims outright insulting, claiming instead that it is such acts of conjuration that call voidworms forth from the raw stuff of Limbo, giving them shape and life according to the spellcasters' expectations, and that these lesser beings are but pale reflections of their formidable kin. Voidworms themselves have little to say on the matter—creatures of the moment, and sparing little thought for the constantly mutable concept of “reality,” voidworms only barely grasp cause and effect, and the past has no more substance or significance for them than a dream. In order to gain a voidworm as a familiar, a spellcaster must be chaotic neutral, be caster level 7th, and have the [Improved Familiar](additionalMonsters/../feats.md#_improved-familiar) feat.
+Debate rages as to whether or not the strange and capricious creatures called voidworms are actually proteans at all. To the wizards and sorcerers who summon them as familiars, the answer seems obvious—these tiny dwellers of Limbo have all the requisite racial traits of proteans, down to their serpentine shapes. Yet the established protean castes find such claims outright insulting, claiming instead that it is such acts of conjuration that call voidworms forth from the raw stuff of Limbo, giving them shape and life according to the spellcasters' expectations, and that these lesser beings are but pale reflections of their formidable kin. Voidworms themselves have little to say on the matter—creatures of the moment, and sparing little thought for the constantly mutable concept of “reality,” voidworms only barely grasp cause and effect, and the past has no more substance or significance for them than a dream. In order to gain a voidworm as a familiar, a spellcaster must be chaotic neutral, be caster level 7th, and have the [Improved Familiar](additionalMonsters/../feats#_improved-familiar) feat.
 
 Regardless of their actual origins, voidworms maintain a thriving ecology in the chaos of Limbo, forming together into darting, flashing schools that are often hunted for sport by naunets and other predators of chaos. Mortal wizards, however, most commonly encounter voidworms as summoned familiars. These tiny, serpentine creatures are particularly valued by illusionists, evokers, and other magical practitioners who deal with distorting or molding reality, though the familiars' bizarre logic and miniscule attention spans sometimes make them more trouble than they're worth. Still, their confusing attack and remarkable hardiness have saved more than one wizard on the battlefield, and their strange thought processes can sometimes offer unique insights in the laboratory. When traveling in more mundane lands, wizards often order voidworm familiars to use their change shape ability to disguise themselves as ordinary pets or animal familiars, though these disguises tend to slip when the voidworm grows curious or playful.
 

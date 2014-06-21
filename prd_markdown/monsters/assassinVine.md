@@ -6,9 +6,9 @@ _This gnarled vine, as thick as a man's arm and bearing hand-shaped leaves, conv
 
 **XP 800**
 
-N Large [plant](creatureTypes.md#_plant)
+N Large [plant](creatureTypes#_plant)
 
-**Init** +0; **Senses** [blindsight](universalMonsterRules.md#_blindsight) 30 ft., low-light vision; [Perception](../skills/perception.md#_perception) +1
+**Init** +0; **Senses** [blindsight](universalMonsterRules#_blindsight) 30 ft., low-light vision; [Perception](../skills/perception#_perception) +1
 
 **Defense**
 
@@ -18,17 +18,17 @@ N Large [plant](creatureTypes.md#_plant)
 
 **Fort** +7, **Ref** +1, **Will** +2
 
-**Immune** electricity, [plant traits](universalMonsterRules.md#_plant-traits); **Resist** cold 10 and fire 10
+**Immune** electricity, [plant traits](universalMonsterRules#_plant-traits); **Resist** cold 10 and fire 10
 
 **Offense**
 
 **Speed** 5 ft.
 
-**Melee** slam +7 (1d8+7 plus [grab](universalMonsterRules.md#_grab))
+**Melee** slam +7 (1d8+7 plus [grab](universalMonsterRules#_grab))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [constrict](universalMonsterRules.md#_constrict) (1d8+7), entangle
+**Special Attacks** [constrict](universalMonsterRules#_constrict) (1d8+7), entangle
 
 **Statistics**
 
@@ -48,9 +48,9 @@ N Large [plant](creatureTypes.md#_plant)
 
 **Special Abilities**
 
-**Camouflage (Ex)** Since an assassin vine looks like a normal plant when at rest, a DC 20 [Perception](../skills/perception.md#_perception) check is required to notice it before it attacks for the first time. Anyone with ranks in [Survival](../skills/survival.md#_survival) or [Knowledge](../skills/knowledge.md#_knowledge) (nature) can use either of those skills instead of [Perception](../skills/perception.md#_perception) to notice the plant.
+**Camouflage (Ex)** Since an assassin vine looks like a normal plant when at rest, a DC 20 [Perception](../skills/perception#_perception) check is required to notice it before it attacks for the first time. Anyone with ranks in [Survival](../skills/survival#_survival) or [Knowledge](../skills/knowledge#_knowledge) (nature) can use either of those skills instead of [Perception](../skills/perception#_perception) to notice the plant.
 
-**Entangle (Su)** An assassin vine can, as a free action, cause plants within 30 feet of it to animate and grasp at foes. This ability is otherwise similar to _ [entangle](../spells/entangle.md#_entangle)_ (CL 4th, DC 13). The save DC is Wisdom-based.
+**Entangle (Su)** An assassin vine can, as a free action, cause plants within 30 feet of it to animate and grasp at foes. This ability is otherwise similar to _ [entangle](../spells/entangle#_entangle)_ (CL 4th, DC 13). The save DC is Wisdom-based.
 
 The assassin vine is a carnivorous plant that collects its own grisly fertilizer by grabbing and crushing animals and depositing the carcasses near its roots. These remarkable plants can see minute movements in the earth and air and detect changes in light and heat through their broad leaves, giving them exceptional awareness of the area around them. Possessing no intelligence or agenda, they lash out at whatever living things pass nearby, regardless of the target's size, sentience, or potential deadliness. A mature plant consists of a main vine, about 20 feet long; smaller vines up to 5 feet long branch off from the main vine about every 6 inches. These small vines bear clusters of leaves, and in late summer they produce bunches of small fruits that resemble wild blackberries. The fruit is tough and has a hearty and typically bitter flavor, although some say the berries change in taste depending on what victims composted a given plant's roots. The most murderous assassin vines supposedly produce the sweetest berries.
 

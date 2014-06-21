@@ -6,9 +6,9 @@ _This faintly glowing ball of light bobs gently in the air, the nebulous image o
 
 **XP 2,400**
 
-CE Small [aberration](creatureTypes.md#_aberration) ( [air](creatureTypes.md#_air-subtype))
+CE Small [aberration](creatureTypes#_aberration) ( [air](creatureTypes#_air-subtype))
 
-**Init** +13; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +15
+**Init** +13; **Senses** darkvision 60 ft.; [Perception](../skills/perception#_perception) +15
 
 **Defense**
 
@@ -32,9 +32,9 @@ CE Small [aberration](creatureTypes.md#_aberration) ( [air](creatureTypes.md#_ai
 
 **Base**  **Atk** +6; **CMB** +0; **CMD** 24
 
-**Feats** [Alertness](../feats.md#_alertness), [Blind-Fight](../feats.md#_blind-fight), [Dodge](../feats.md#_dodge), [Improved Initiative](../feats.md#_improved-initiative), [Weapon Finesse](../feats.md#_weapon-finesse)
+**Feats** [Alertness](../feats#_alertness), [Blind-Fight](../feats#_blind-fight), [Dodge](../feats#_dodge), [Improved Initiative](../feats#_improved-initiative), [Weapon Finesse](../feats#_weapon-finesse)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +21, [Bluff](../skills/bluff.md#_bluff) +11, [Escape Artist](../skills/escapeArtist.md#_escape-artist) +21, [Fly](../skills/fly.md#_fly) +31, [Perception](../skills/perception.md#_perception) +17, [Stealth](../skills/stealth.md#_stealth) +25
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +21, [Bluff](../skills/bluff#_bluff) +11, [Escape Artist](../skills/escapeArtist#_escape-artist) +21, [Fly](../skills/fly#_fly) +31, [Perception](../skills/perception#_perception) +17, [Stealth](../skills/stealth#_stealth) +25
 
 **Languages** Aklo, Common
 
@@ -52,7 +52,7 @@ CE Small [aberration](creatureTypes.md#_aberration) ( [air](creatureTypes.md#_ai
 
 **Feed on Fear (Su)** Any time a will-o'-wisp is within 15 feet of a dying creature or creature subject to a fear effect, it gains fast healing 5.
 
-**Immunity to Magic (Ex)** Will-o'-wisps are immune to all spells and spell-like abilities that allow spell resistance, except _ [magic missile](../spells/magicMissile.md#_magic-missile) _and _ [maze](../spells/maze.md#_maze)_.
+**Immunity to Magic (Ex)** Will-o'-wisps are immune to all spells and spell-like abilities that allow spell resistance, except _ [magic missile](../spells/magicMissile#_magic-missile) _and _ [maze](../spells/maze#_maze)_.
 
 **Natural Invisibility (Ex)** Will-o'-wisps have the ability to extinguish their natural glow as a move action, effectively becoming invisible, as per the spell.
 

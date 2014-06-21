@@ -16,33 +16,33 @@ The Pathfinder RPG uses a number of terms, abbreviations, and definitions in pre
 
 **Ability Score** : Each creature has six ability scores: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. These scores represent a creature's most basic attributes. The higher the score, the more raw potential and talent your character possesses.
 
-**Action** : An action is a discrete measurement of time during a round of combat. Using abilities, casting spells, and making attacks all require actions to perform. There are a number of different kinds of actions, such as a standard action, move action, swift action, free action, and full-round action (see [Combat](combat.md)).
+**Action** : An action is a discrete measurement of time during a round of combat. Using abilities, casting spells, and making attacks all require actions to perform. There are a number of different kinds of actions, such as a standard action, move action, swift action, free action, and full-round action (see [Combat](combat)).
 
 **Alignment** : Alignment represents a creature's basic moral and ethical attitude. Alignment has two components: one describing whether a creature is lawful, neutral, or chaotic, followed by another that describes whether a character is good, neutral, or evil. Alignments are usually abbreviated using the first letter of each alignment component, such as LN for lawful neutral or CE for chaotic evil. Creatures that are neutral in both components are denoted by a single “N.”
 
 **Armor Class (AC)** : All creatures in the game have an Armor Class. This score represents how hard it is to hit a creature in combat. As with other scores, higher is better.
 
-**Base Attack Bonus (BAB)** : Each creature has a base attack bonus and it represents its skill in combat. As a character gains levels or Hit Dice, his base attack bonus improves. When a creature's base attack bonus reaches +6, +11, or +16, he receives an additional attack in combat when he takes a full-attack action (which is one type of full-round action—see [Combat](combat.md)).
+**Base Attack Bonus (BAB)** : Each creature has a base attack bonus and it represents its skill in combat. As a character gains levels or Hit Dice, his base attack bonus improves. When a creature's base attack bonus reaches +6, +11, or +16, he receives an additional attack in combat when he takes a full-attack action (which is one type of full-round action—see [Combat](combat)).
 
 **Bonus** : Bonuses are numerical values that are added to checks and statistical scores. Most bonuses have a type, and as a general rule, bonuses of the same type are not cumulative (do not “stack”)—only the greater bonus granted applies.
 
 **Caster Level (CL)** : Caster level represents a creature's power and ability when casting spells. When a creature casts a spell, it often contains a number of variables, such as range or damage, that are based on the caster's level.
 
-**Class** : Classes represent chosen professions taken by characters and some other creatures. Classes give a host of bonuses and allow characters to take actions that they otherwise could not, such as casting spells or changing shape. As a creature gains levels in a given class, it gains new, more powerful abilities. Most PCs gain levels in the [core classes](classes.md) or [prestige classes](prestigeClasses.md), since these are the most powerful. Most NPCs gain levels in NPC classes, which are less powerful (see [Creating NPCs](creatingNPCs.md)).
+**Class** : Classes represent chosen professions taken by characters and some other creatures. Classes give a host of bonuses and allow characters to take actions that they otherwise could not, such as casting spells or changing shape. As a creature gains levels in a given class, it gains new, more powerful abilities. Most PCs gain levels in the [core classes](classes) or [prestige classes](prestigeClasses), since these are the most powerful. Most NPCs gain levels in NPC classes, which are less powerful (see [Creating NPCs](creatingNPCs)).
 
 **Check** : A check is a d20 roll which may or may not be modified by another value. The most common types are attack rolls, ability checks, skill checks, and saving throws.
 
-**Combat Maneuver** : This is an action taken in combat that does not directly cause harm to your opponent, such as attempting to trip him, disarm him, or grapple with him (see [Combat](combat.md)).
+**Combat Maneuver** : This is an action taken in combat that does not directly cause harm to your opponent, such as attempting to trip him, disarm him, or grapple with him (see [Combat](combat)).
 
 **Combat Maneuver Bonus (CMB)** : This value represents how skilled a creature is at performing a combat maneuver. When attempting to perform a combat maneuver, this value is added to the character's d20 roll.
 
 **Combat Maneuver Defense (CMD)** : This score represents how hard it is to perform a combat maneuver against this creature. A creature's CMD is used as the difficulty class when performing a maneuver against that creature.
 
-**Concentration Check** : When a creature is casting a spell, but is disrupted during the casting, he must make a concentration check or fail to cast the spell (see [Magic](magic.md)).
+**Concentration Check** : When a creature is casting a spell, but is disrupted during the casting, he must make a concentration check or fail to cast the spell (see [Magic](magic)).
 
 **Creature** : A creature is an active participant in the story or world. This includes PCs, NPCs, and monsters.
 
-**Damage Reduction (DR)** : Creatures that are resistant to harm typically have damage reduction. This amount is subtracted from any damage dealt to them from a physical source. Most types of DR can be bypassed by certain types of weapons. This is denoted by a “/” followed by the type, such as “10/cold iron.” Some types of DR apply to all physical attacks. Such DR is denoted by the “—” symbol. See [Special Abilities](glossary.md#_appendix-1-special-abilities) for more information.
+**Damage Reduction (DR)** : Creatures that are resistant to harm typically have damage reduction. This amount is subtracted from any damage dealt to them from a physical source. Most types of DR can be bypassed by certain types of weapons. This is denoted by a “/” followed by the type, such as “10/cold iron.” Some types of DR apply to all physical attacks. Such DR is denoted by the “—” symbol. See [Special Abilities](glossary#_appendix-1-special-abilities) for more information.
 
 **Difficulty Class (DC)** : Whenever a creature attempts to perform an action whose success is not guaranteed, he must make some sort of check (usually a skill check). The result of that check must meet or exceed the Difficulty Class of the action that the creature is attempting to perform in order for the action to be successful.
 
@@ -76,7 +76,7 @@ The Pathfinder RPG uses a number of terms, abbreviations, and definitions in pre
 
 **Rounding** : Occasionally the rules ask you to round a result or value. Unless otherwise stated, always round down. For example, if you are asked to take half of 7, the result would be 3.
 
-**Saving Throw** : When a creature is the subject of a dangerous spell or effect, it often receives a saving throw to mitigate the damage or result. Saving throws are passive, meaning that a character does not need to take an action to make a saving throw—they are made automatically. There are three types of saving throws: [Fortitude](combat.md#_fortitude) (used to resist poisons, diseases, and other bodily ailments), [Reflex](combat.md#_reflex) (used to avoid effects that target an entire area, such as _fireball_), and [Will](combat.md#_will) (used to resist mental attacks and spells).
+**Saving Throw** : When a creature is the subject of a dangerous spell or effect, it often receives a saving throw to mitigate the damage or result. Saving throws are passive, meaning that a character does not need to take an action to make a saving throw—they are made automatically. There are three types of saving throws: [Fortitude](combat#_fortitude) (used to resist poisons, diseases, and other bodily ailments), [Reflex](combat#_reflex) (used to avoid effects that target an entire area, such as _fireball_), and [Will](combat#_will) (used to resist mental attacks and spells).
 
 **Skill** : A skill represents a creature's ability to perform an ordinary task, such as climb a wall, sneak down a hallway, or spot an intruder. The number of ranks possessed by a creature in a given skill represents its proficiency in that skill. As a creature gains Hit Dice, it also gains additional skill ranks that can be added to its skills.
 
@@ -90,7 +90,7 @@ The Pathfinder RPG uses a number of terms, abbreviations, and definitions in pre
 
 **Supernatural Abilities (Su)** : Supernatural abilities are magical attacks, defenses, and qualities. These abilities can be always active or they can require a specific action to utilize. The supernatural ability's description includes information on how it is used and its effects.
 
-**Turn** : In a round, a creature receives one turn, during which it can perform a wide variety of actions. Generally in the course of one turn, a character can perform one standard action, one move action, one swift action, and a number of free actions. Less-common combinations of actions are permissible as well, see [Combat](combat.md) for more details.
+**Turn** : In a round, a creature receives one turn, during which it can perform a wide variety of actions. Generally in the course of one turn, a character can perform one standard action, one move action, one swift action, and a number of free actions. Less-common combinations of actions are permissible as well, see [Combat](combat) for more details.
 
 # Generating a Character
 
@@ -100,15 +100,15 @@ Once you have a general concept worked out, use the following steps to bring you
 
 **Step 1—Determine Ability Scores** : Start by generating your character's ability scores. These six scores determine your character's most basic attributes and are used to decide a wide variety of details and statistics. Some class selections require you to have better than average scores for some of your abilities.
 
-**Step 2—Pick Your [Race](races.md#_chapter-2)** : Next, pick your character's race, noting any modifiers to your ability scores and any other racial traits (see [Races](races.md)). There are seven basic races to choose from, although your GM might have others to add to the list. Each race lists the languages your character automatically knows, as well as a number of bonus languages. A character knows a number of additional bonus languages equal to his or her Intelligence modifier.
+**Step 2—Pick Your [Race](races#_chapter-2)** : Next, pick your character's race, noting any modifiers to your ability scores and any other racial traits (see [Races](races)). There are seven basic races to choose from, although your GM might have others to add to the list. Each race lists the languages your character automatically knows, as well as a number of bonus languages. A character knows a number of additional bonus languages equal to his or her Intelligence modifier.
 
-**Step 3—Pick Your [Class](classes.md#_chapter-3)** : A character's class represents a profession, such as fighter or wizard. If this is a new character, he starts at 1st level in his chosen class. As he gains experience points (XP) for defeating monsters, he goes up in level, granting him new powers and abilities.
+**Step 3—Pick Your [Class](classes#_chapter-3)** : A character's class represents a profession, such as fighter or wizard. If this is a new character, he starts at 1st level in his chosen class. As he gains experience points (XP) for defeating monsters, he goes up in level, granting him new powers and abilities.
 
-**Step 4—Pick [Skills](usingSkills.md#_chapter-4) and Select [Feats](feats.md#_chapter-5)** : Determine the number of skill ranks possessed by your character, based on his class and Intelligence modifier (and any other bonuses, such as the bonus received by humans). Then spend these ranks on skills, but remember that you cannot have more ranks than your level in any one skill (for a starting character, this is usually one). After skills, determine how many feats your character receives, based on his class and level, and select them from those presented in [Feats](feats.md).
+**Step 4—Pick [Skills](usingSkills#_chapter-4) and Select [Feats](feats#_chapter-5)** : Determine the number of skill ranks possessed by your character, based on his class and Intelligence modifier (and any other bonuses, such as the bonus received by humans). Then spend these ranks on skills, but remember that you cannot have more ranks than your level in any one skill (for a starting character, this is usually one). After skills, determine how many feats your character receives, based on his class and level, and select them from those presented in [Feats](feats).
 
-**Step 5—Buy [Equipment](equipment.md#_chapter-6)** : Each new character begins the game with an amount of gold, based on his class, that can be spent on a wide range of equipment and gear, from chainmail armor to leather backpacks. This gear helps your character survive while adventuring. Generally speaking, you cannot use this starting money to buy magic items without the consent of your GM.
+**Step 5—Buy [Equipment](equipment#_chapter-6)** : Each new character begins the game with an amount of gold, based on his class, that can be spent on a wide range of equipment and gear, from chainmail armor to leather backpacks. This gear helps your character survive while adventuring. Generally speaking, you cannot use this starting money to buy magic items without the consent of your GM.
 
-**Step 6—Finishing Details** : Finally, you need to determine all of a character's details, including his starting [hit points](combat.md#_hit-points) (hp), [Armor Class](combat.md#_armor-class) ( [AC](combat.md#_armor-class)), [saving throws](combat.md#_saving-throws), [initiative modifier](combat.md#_initiative), and [attack values](combat.md#_attack-bonus). All of these numbers are determined by the decisions made in previous steps. Aside from these, you need to decide on your character's name, [alignment](additionalRules.md#_alignment), and physical appearance. It is best to jot down a few personality traits as well, to help you play the character during the game. Additional rules (like age and alignment) are described in [Additional Rules](additionalRules.md).
+**Step 6—Finishing Details** : Finally, you need to determine all of a character's details, including his starting [hit points](combat#_hit-points) (hp), [Armor Class](combat#_armor-class) ( [AC](combat#_armor-class)), [saving throws](combat#_saving-throws), [initiative modifier](combat#_initiative), and [attack values](combat#_attack-bonus). All of these numbers are determined by the decisions made in previous steps. Aside from these, you need to decide on your character's name, [alignment](additionalRules#_alignment), and physical appearance. It is best to jot down a few personality traits as well, to help you play the character during the game. Additional rules (like age and alignment) are described in [Additional Rules](additionalRules).
 
 # Ability Scores
 
@@ -118,7 +118,7 @@ Each character has six ability scores that represent his character's most basic 
 
 There are a number of different methods used to generate ability scores. Each of these methods gives a different level of flexibility and randomness to character generation.
 
-Racial modifiers (adjustments made to your ability scores due to your character's race—see [Races](races.md)) are applied after the scores are generated.
+Racial modifiers (adjustments made to your ability scores due to your character's race—see [Races](races)) are applied after the scores are generated.
 
 **Standard:** Roll 4d6, discard the lowest die result, and add the three remaining results together. Record this total and repeat the process until six numbers are generated. Assign these totals to your ability scores as you see fit. This method is less random than Classic and tends to create characters with above-average ability scores.
 
@@ -168,7 +168,7 @@ Each ability, after changes made because of race, has a modifier ranging from �
 
 ## Abilities and Spellcasters
 
-The ability that governs bonus spells depends on what type of spellcaster your character is: Intelligence for wizards; Wisdom for clerics, druids, and rangers; and Charisma for bards, paladins, and sorcerers. In addition to having a high ability score, a spellcaster must be of a high enough class level to be able to cast spells of a given spell level. See the class descriptions in [Classes](classes.md) for details.
+The ability that governs bonus spells depends on what type of spellcaster your character is: Intelligence for wizards; Wisdom for clerics, druids, and rangers; and Charisma for bards, paladins, and sorcerers. In addition to having a high ability score, a spellcaster must be of a high enough class level to be able to cast spells of a given spell level. See the class descriptions in [Classes](classes) for details.
 
 [Table: Ability Modifiers and Bonus Spells]
 | Ability Score | Modifier | Bonus Spells per Day (by Spell Level) |
@@ -209,9 +209,9 @@ Strength measures muscle and physical power. This ability is important for those
 
 You apply your character's Strength modifier to:
 
-- [Melee attack](combat.md#_melee-attacks) rolls.
-- [Damage](combat.md#_damage) rolls when using a melee weapon or a thrown weapon, including a sling. (Exceptions: Off-hand attacks receive only half the character's Strength bonus, while two-handed attacks receive 1–1/2 times the Strength bonus. A Strength penalty, but not a bonus, applies to attacks made with a bow that is not a composite bow.)
-- [Climb](skills/climb.md#_climb) and [Swim](skills/swim.md#_swim) checks.
+- [Melee attack](combat#_melee-attacks) rolls.
+- [Damage](combat#_damage) rolls when using a melee weapon or a thrown weapon, including a sling. (Exceptions: Off-hand attacks receive only half the character's Strength bonus, while two-handed attacks receive 1–1/2 times the Strength bonus. A Strength penalty, but not a bonus, applies to attacks made with a bow that is not a composite bow.)
+- [Climb](skills/climb#_climb) and [Swim](skills/swim#_swim) checks.
 - Strength checks (for breaking down doors and the like).
 
 ### Dexterity (Dex)
@@ -220,10 +220,10 @@ Dexterity measures agility, reflexes, and balance. This ability is the most impo
 
 You apply your character's Dexterity modifier to:
 
-- [Ranged attack](combat.md#_ranged-attacks) rolls, including those for attacks made with bows, crossbows, throwing axes, and many ranged spell attacks like _scorching ray_ or _searing light_.
-- [Armor Class](combat.md#_armor-class) ( [AC](combat.md#_armor-class)), provided that the character can react to the attack.
-- [Reflex saving throws](combat.md#_reflex), for avoiding _fireballs_ and other attacks that you can escape by moving quickly.
-- [Acrobatics](skills/acrobatics.md#_acrobatics), [Disable Device](skills/disableDevice.md#_disable-device), [Escape Artist](skills/escapeArtist.md#_escape-artist), [Fly](skills/fly.md#_fly), [Ride](skills/ride.md#_ride), [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand), and [Stealth](skills/stealth.md#_stealth) checks.
+- [Ranged attack](combat#_ranged-attacks) rolls, including those for attacks made with bows, crossbows, throwing axes, and many ranged spell attacks like _scorching ray_ or _searing light_.
+- [Armor Class](combat#_armor-class) ( [AC](combat#_armor-class)), provided that the character can react to the attack.
+- [Reflex saving throws](combat#_reflex), for avoiding _fireballs_ and other attacks that you can escape by moving quickly.
+- [Acrobatics](skills/acrobatics#_acrobatics), [Disable Device](skills/disableDevice#_disable-device), [Escape Artist](skills/escapeArtist#_escape-artist), [Fly](skills/fly#_fly), [Ride](skills/ride#_ride), [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand), and [Stealth](skills/stealth#_stealth) checks.
 
 ### Constitution (Con)
 
@@ -232,7 +232,7 @@ Constitution represents your character's health and stamina. A Constitution bonu
 You apply your character's Constitution modifier to:
 
 - Each roll of a Hit Die (though a penalty can never drop a result below 1—that is, a character always gains at least 1 hit point each time he advances in level).
-- [Fortitude saving throws](combat.md#_fortitude), for resisting poison, disease, and similar threats.
+- [Fortitude saving throws](combat#_fortitude), for resisting poison, disease, and similar threats.
 
 If a character's Constitution score changes enough to alter his or her Constitution modifier, the character's hit points also increase or decrease accordingly.
 
@@ -242,11 +242,11 @@ Intelligence determines how well your character learns and reasons. This ability
 
 You apply your character's Intelligence modifier to:
 
-- The number of bonus [languages](skills/linguistics.md#_learn-a-language) your character knows at the start of the game. These are in addition to any starting racial languages and Common. If you have a penalty, you can still read and speak your racial languages unless your Intelligence is lower than 3.
+- The number of bonus [languages](skills/linguistics#_learn-a-language) your character knows at the start of the game. These are in addition to any starting racial languages and Common. If you have a penalty, you can still read and speak your racial languages unless your Intelligence is lower than 3.
 - The number of skill points gained each level, though your character always gets at least 1 skill point per level.
-- [Appraise](skills/appraise.md#_appraise), [Craft](skills/craft.md#_craft), [Knowledge](skills/knowledge.md#_knowledge), [Linguistics](skills/linguistics.md#_linguistics), and [Spellcraft](skills/spellcraft.md#_spellcraft) checks.
+- [Appraise](skills/appraise#_appraise), [Craft](skills/craft#_craft), [Knowledge](skills/knowledge#_knowledge), [Linguistics](skills/linguistics#_linguistics), and [Spellcraft](skills/spellcraft#_spellcraft) checks.
 
-A [wizard](classes/wizard.md#_wizard) gains bonus spells based on his Intelligence score. The minimum Intelligence score needed to cast a wizard spell is 10 + the spell's level.
+A [wizard](classes/wizard#_wizard) gains bonus spells based on his Intelligence score. The minimum Intelligence score needed to cast a wizard spell is 10 + the spell's level.
 
 ### Wisdom (Wis)
 
@@ -254,10 +254,10 @@ Wisdom describes a character's willpower, common sense, awareness, and intuition
 
 You apply your character's Wisdom modifier to:
 
-- [Will saving throws](combat.md#_will) (for negating the effects of _charm person_ and other spells).
-- [Heal](skills/heal.md#_heal), [Perception](skills/perception.md#_perception), [Profession](skills/profession.md#_profession), [Sense Motive](skills/senseMotive.md#_sense-motive), and [Survival](skills/survival.md#_survival) checks.
+- [Will saving throws](combat#_will) (for negating the effects of _charm person_ and other spells).
+- [Heal](skills/heal#_heal), [Perception](skills/perception#_perception), [Profession](skills/profession#_profession), [Sense Motive](skills/senseMotive#_sense-motive), and [Survival](skills/survival#_survival) checks.
 
-[Clerics](classes/cleric.md#_cleric), [druids](classes/druid.md#_druid), and [rangers](classes/ranger.md#_ranger) get bonus spells based on their Wisdom scores. The minimum Wisdom score needed to cast a cleric, druid, or ranger spell is 10 + the spell's level.
+[Clerics](classes/cleric#_cleric), [druids](classes/druid#_druid), and [rangers](classes/ranger#_ranger) get bonus spells based on their Wisdom scores. The minimum Wisdom score needed to cast a cleric, druid, or ranger spell is 10 + the spell's level.
 
 ### Charisma (Cha)
 
@@ -265,9 +265,9 @@ Charisma measures a character's personality, personal magnetism, ability to lead
 
 You apply your character's Charisma modifier to:
 
-- [Bluff](skills/bluff.md#_bluff), [Diplomacy](skills/diplomacy.md#_diplomacy), [Disguise](skills/disguise.md#_disguise), [Handle Animal](skills/handleAnimal.md#_handle-animal), [Intimidate](skills/intimidate.md#_intimidate), [Perform](skills/perform.md#_perform), and [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) checks.
+- [Bluff](skills/bluff#_bluff), [Diplomacy](skills/diplomacy#_diplomacy), [Disguise](skills/disguise#_disguise), [Handle Animal](skills/handleAnimal#_handle-animal), [Intimidate](skills/intimidate#_intimidate), [Perform](skills/perform#_perform), and [Use Magic Device](skills/useMagicDevice#_use-magic-device) checks.
 - Checks that represent attempts to influence others. 
-- [Channel energy](classes/cleric.md#_channel-energy-cleric) DCs for [clerics](classes/cleric.md#_cleric) and [paladins](classes/paladin.md#_paladin) attempting to harm undead foes.
+- [Channel energy](classes/cleric#_channel-energy-cleric) DCs for [clerics](classes/cleric#_cleric) and [paladins](classes/paladin#_paladin) attempting to harm undead foes.
 
-[Bards](classes/bard.md#_bard), [paladins](classes/paladin.md#_paladin), and [sorcerers](classes/sorcerer.md#_sorcerer) gain a number of bonus spells based on their Charisma scores. The minimum Charisma score needed to cast a bard, paladin, or sorcerer spell is 10 + the spell's level.
+[Bards](classes/bard#_bard), [paladins](classes/paladin#_paladin), and [sorcerers](classes/sorcerer#_sorcerer) gain a number of bonus spells based on their Charisma scores. The minimum Charisma score needed to cast a bard, paladin, or sorcerer spell is 10 + the spell's level.
 

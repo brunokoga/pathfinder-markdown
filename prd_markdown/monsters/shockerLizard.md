@@ -6,9 +6,9 @@ _This dog-sized lizard has two horns, one on either side of its head, and green 
 
 **XP 600**
 
-N Small [magical beast](creatureTypes.md#_magical-beast)
+N Small [magical beast](creatureTypes#_magical-beast)
 
-**Init** +6; **Senses** darkvision 60 ft., electricity sense, low-light vision; [Perception](../skills/perception.md#_perception) +8
+**Init** +6; **Senses** darkvision 60 ft., electricity sense, low-light vision; [Perception](../skills/perception#_perception) +8
 
 **Defense**
 
@@ -34,9 +34,9 @@ N Small [magical beast](creatureTypes.md#_magical-beast)
 
 **Base Atk** +3; **CMB** +2; **CMD** 14 (18 vs. trip)
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Skill Focus](../feats.md#_skill-focus) ( [Stealth](../skills/stealth.md#_stealth))
+**Feats** [Improved Initiative](../feats#_improved-initiative), [Skill Focus](../feats#_skill-focus) ( [Stealth](../skills/stealth#_stealth))
 
-**Skills** [Climb](../skills/climb.md#_climb) +8, [Perception](../skills/perception.md#_perception) +8, [Stealth](../skills/stealth.md#_stealth) +17, [Swim](../skills/swim.md#_swim) +8; **Racial Modifiers** +2 [Perception](../skills/perception.md#_perception), +4 [Stealth](../skills/stealth.md#_stealth)
+**Skills** [Climb](../skills/climb#_climb) +8, [Perception](../skills/perception#_perception) +8, [Stealth](../skills/stealth#_stealth) +17, [Swim](../skills/swim#_swim) +8; **Racial Modifiers** +2 [Perception](../skills/perception#_perception), +4 [Stealth](../skills/stealth#_stealth)
 
 **Ecology**
 

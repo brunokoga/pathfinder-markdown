@@ -30,7 +30,7 @@ Offense
 
 Tactics
 
-**Before Combat** The monk uses [Stealth](skills/stealth.md#_stealth) to catch enemies off-guard, starting any surprise round with Stunning Fist.
+**Before Combat** The monk uses [Stealth](skills/stealth#_stealth) to catch enemies off-guard, starting any surprise round with Stunning Fist.
 
 **During Combat** The monk never fights multiple opponents if she can help it, and prefers to use her shuriken with a flurry of blows before entering melee.
 
@@ -40,13 +40,13 @@ Statistics
 
 **Base Atk** +0; **CMB** +1; **CMD** 17
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), Stunning Fist, [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Combat Reflexes](feats#_combat-reflexes), [Dodge](feats#_dodge), [Improved Unarmed Strike](feats#_improved-unarmed-strike), Stunning Fist, [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +7, [Knowledge](skills/knowledge.md#_knowledge) (history, religion) +5,Perception +6, [Sense Motive](skills/senseMotive.md#_sense-motive) +6, [Stealth](skills/stealth.md#_stealth) +7
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +7, [Knowledge](skills/knowledge#_knowledge) (history, religion) +5,Perception +6, [Sense Motive](skills/senseMotive#_sense-motive) +6, [Stealth](skills/stealth#_stealth) +7
 
 **Languages** Common, Dwarven
 
-**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), _potions of [mage armor](spells/mageArmor.md#_mage-armor)_ (2), _potions of [magic weapon](spells/magicWeapon.md#_magic-weapon)_ (2); **Other Gear** kama, light crossbow with 10 bolts, shuriken (20), 50 gp
+**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_ (2), _potions of [mage armor](spells/mageArmor#_mage-armor)_ (2), _potions of [magic weapon](spells/magicWeapon#_magic-weapon)_ (2); **Other Gear** kama, light crossbow with 10 bolts, shuriken (20), 50 gp
 
 Neophyte monks are often eager to prove their mettle in battle, but just as often their strict training means they tend to act tentatively when deprived of their master's guidance.
 
@@ -82,11 +82,11 @@ Offense
 
 Tactics
 
-**Before Combat** The monk drinks his _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_ if facing more than two opponents.
+**Before Combat** The monk drinks his _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_ if facing more than two opponents.
 
-**During Combat** The monk uses flurry of blows whenever possible, especially against opponents successfully affected by his stunning fist. If reduced to 5 hit points or fewer, he withdraws to drink one of his _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds) _before returning to the fray.
+**During Combat** The monk uses flurry of blows whenever possible, especially against opponents successfully affected by his stunning fist. If reduced to 5 hit points or fewer, he withdraws to drink one of his _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds) _before returning to the fray.
 
-**Base Statistics** Without_ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, the monk's statistics are **Melee** unarmed strike +3 (1d6+2) or mwk nunchaku +4 (1d6+2) or flurry of blows (nunchaku) +2/+2 (1d6+2); **Str** 15; **CMB** +3; **CMD** 17.
+**Base Statistics** Without_ [bull's strength](spells/bullSStrength#_bull-s-strength)_, the monk's statistics are **Melee** unarmed strike +3 (1d6+2) or mwk nunchaku +4 (1d6+2) or flurry of blows (nunchaku) +2/+2 (1d6+2); **Str** 15; **CMB** +3; **CMD** 17.
 
 Statistics
 
@@ -94,17 +94,17 @@ Statistics
 
 **Base Atk** +1; **CMB** +5; **CMD** 19
 
-**Feats** [Blind-Fight](feats.md#_blind-fight), [Dodge](feats.md#_dodge), [Improved Initiative](feats.md#_improved-initiative), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), Scorpion Style, Stunning Fist
+**Feats** [Blind-Fight](feats#_blind-fight), [Dodge](feats#_dodge), [Improved Initiative](feats#_improved-initiative), [Improved Unarmed Strike](feats#_improved-unarmed-strike), Scorpion Style, Stunning Fist
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +5, [Bluff](skills/bluff.md#_bluff) +1, [Intimidate](skills/intimidate.md#_intimidate) +5, Perception +7, [Sense Motive](skills/senseMotive.md#_sense-motive) +7, [Stealth](skills/stealth.md#_stealth) +5
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +5, [Bluff](skills/bluff#_bluff) +1, [Intimidate](skills/intimidate#_intimidate) +5, Perception +7, [Sense Motive](skills/senseMotive#_sense-motive) +7, [Stealth](skills/stealth#_stealth) +5
 
 **Languages** Common
 
-**Combat Gear** _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), acid (2); **Other Gear** light crossbow with 20 bolts, masterwork nunchaku, 23 gp
+**Combat Gear** _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_, _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_ (2), acid (2); **Other Gear** light crossbow with 20 bolts, masterwork nunchaku, 23 gp
 
 Bullying brawlers are often sent to confront those who cross an order of monks. They are relentless in their pursuit of vengeance.
 
-Vigilant [Bodyguard](advanced/advancedFeats.md#bodyguard) CR 2
+Vigilant [Bodyguard](advanced/advancedFeats#bodyguard) CR 2
 
 **XP** 600
 
@@ -136,11 +136,11 @@ Offense
 
 Tactics
 
-**Before Combat** The monk drinks her _potion of [owl's wisdom](spells/owlSWisdom.md#_owl-s-wisdom)_ to enhance her AC and Perception, as well as a _potion of [mage armor](spells/mageArmor.md#_mage-armor)_.
+**Before Combat** The monk drinks her _potion of [owl's wisdom](spells/owlSWisdom#_owl-s-wisdom)_ to enhance her AC and Perception, as well as a _potion of [mage armor](spells/mageArmor#_mage-armor)_.
 
 **During Combat** The monk uses a flurry of blows to make disarm attempts with her nunchaku. If protecting someone, she uses Stunning Fist before withdrawing with her charge.
 
-**Base Statistics** Without_ [owl's wisdom](spells/owlSWisdom.md#_owl-s-wisdom)_ and _ [mage armor](spells/mageArmor.md#_mage-armor)_, the monk's statistics are **Senses** Perception +8; **AC** 15, touch 14, flat-footed 13; **Wis** 15; **CMD** 18; **Skills** Perception +8, [Sense Motive](skills/senseMotive.md#_sense-motive) +8, [Survival](skills/survival.md#_survival) +3.
+**Base Statistics** Without_ [owl's wisdom](spells/owlSWisdom#_owl-s-wisdom)_ and _ [mage armor](spells/mageArmor#_mage-armor)_, the monk's statistics are **Senses** Perception +8; **AC** 15, touch 14, flat-footed 13; **Wis** 15; **CMD** 18; **Skills** Perception +8, [Sense Motive](skills/senseMotive#_sense-motive) +8, [Survival](skills/survival#_survival) +3.
 
 Statistics
 
@@ -148,13 +148,13 @@ Statistics
 
 **Base Atk** +2; **CMB** +5; **CMD** 20
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Improved Initiative](feats.md#_improved-initiative), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), Stunning Fist, [Weapon Focus](feats.md#_weapon-focus) (unarmed strike)
+**Feats** [Combat Reflexes](feats#_combat-reflexes), [Dodge](feats#_dodge), [Improved Initiative](feats#_improved-initiative), [Improved Unarmed Strike](feats#_improved-unarmed-strike), Stunning Fist, [Weapon Focus](feats#_weapon-focus) (unarmed strike)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +7 (+11 when jumping), [Climb](skills/climb.md#_climb) +6, [Intimidate](skills/intimidate.md#_intimidate) +5, Perception +10, [Sense Motive](skills/senseMotive.md#_sense-motive) +10, [Stealth](skills/stealth.md#_stealth) +7, [Survival](skills/survival.md#_survival) +5, [Swim](skills/swim.md#_swim) +6
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +7 (+11 when jumping), [Climb](skills/climb#_climb) +6, [Intimidate](skills/intimidate#_intimidate) +5, Perception +10, [Sense Motive](skills/senseMotive#_sense-motive) +10, [Stealth](skills/stealth#_stealth) +7, [Survival](skills/survival#_survival) +5, [Swim](skills/swim#_swim) +6
 
 **SQ** fast movement, maneuver training
 
-**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds) _(3), _potion of [mage armor](spells/mageArmor.md#_mage-armor)_, _potion of [magic weapon](spells/magicWeapon.md#_magic-weapon)_, _potion of [owl's wisdom](spells/owlSWisdom.md#_owl-s-wisdom)_, smokesticks (3); **Other Gear** dagger, nunchaku, shuriken (20), _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +1_, 30 gp
+**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds) _(3), _potion of [mage armor](spells/mageArmor#_mage-armor)_, _potion of [magic weapon](spells/magicWeapon#_magic-weapon)_, _potion of [owl's wisdom](spells/owlSWisdom#_owl-s-wisdom)_, smokesticks (3); **Other Gear** dagger, nunchaku, shuriken (20), _ [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +1_, 30 gp
 
 Some monk orders hire out vigilant bodyguards to princelings, merchants, and priests with compatible interests and philosophies.
 
@@ -190,15 +190,15 @@ Offense
 
 **Gnome Spell-Like Abilities** (CL 4th; concentration +5)
 
-1/day—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [ghost sound](spells/ghostSound.md#_ghost-sound)_, _ [prestidigitation](spells/prestidigitation.md#_prestidigitation)_, _ [speak with animals](spells/speakWithAnimals.md#_speak-with-animals)_
+1/day—_ [dancing lights](spells/dancingLights#_dancing-lights)_, _ [ghost sound](spells/ghostSound#_ghost-sound)_, _ [prestidigitation](spells/prestidigitation#_prestidigitation)_, _ [speak with animals](spells/speakWithAnimals#_speak-with-animals)_
 
 Tactics
 
-**Before Combat** The monk drinks her _potion of [mage armor](spells/mageArmor.md#_mage-armor)_ and applies her _oil of [magic weapon](spells/magicWeapon.md#_magic-weapon)_.
+**Before Combat** The monk drinks her _potion of [mage armor](spells/mageArmor#_mage-armor)_ and applies her _oil of [magic weapon](spells/magicWeapon#_magic-weapon)_.
 
-**During Combat** The rogue uses [Acrobatics](skills/acrobatics.md#_acrobatics) skill to move through combat, helping allies flank.
+**During Combat** The rogue uses [Acrobatics](skills/acrobatics#_acrobatics) skill to move through combat, helping allies flank.
 
-**Base Statistics** Without_ [mage armor](spells/mageArmor.md#_mage-armor) _and _ [magic weapon](spells/magicWeapon.md#_magic-weapon)_, the monk's statistics are **AC** 18, touch 17, flat-footed 16; **Melee** kama +5 (1d4+1).
+**Base Statistics** Without_ [mage armor](spells/mageArmor#_mage-armor) _and _ [magic weapon](spells/magicWeapon#_magic-weapon)_, the monk's statistics are **AC** 18, touch 17, flat-footed 16; **Melee** kama +5 (1d4+1).
 
 Statistics
 
@@ -206,15 +206,15 @@ Statistics
 
 **Base Atk** +3; **CMB** +4; **CMD** 19
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), Scorpion Style, Stunning Fist, [Weapon Focus](feats.md#_weapon-focus) (unarmed strike)
+**Feats** [Combat Reflexes](feats#_combat-reflexes), [Dodge](feats#_dodge), [Improved Unarmed Strike](feats#_improved-unarmed-strike), Scorpion Style, Stunning Fist, [Weapon Focus](feats#_weapon-focus) (unarmed strike)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +8, [Bluff](skills/bluff.md#_bluff) +5, [Climb](skills/climb.md#_climb) +6, Perception +12, [Stealth](skills/stealth.md#_stealth) +12
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +8, [Bluff](skills/bluff#_bluff) +5, [Climb](skills/climb#_climb) +6, Perception +12, [Stealth](skills/stealth#_stealth) +12
 
 **Languages** Common, Elven, Gnome, Sylvan
 
 **SQ** fast movement, _ki_ pool (5 points, magic), maneuver training, slow fall 20 ft.
 
-**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), _potion of [mage armor](spells/mageArmor.md#_mage-armor)_, _oil of [magic weapon](spells/magicWeapon.md#_magic-weapon)_, smokestick, tanglefoot bag; **Other Gear** kama, shuriken (20), _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, 124 gp
+**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_ (2), _potion of [mage armor](spells/mageArmor#_mage-armor)_, _oil of [magic weapon](spells/magicWeapon#_magic-weapon)_, smokestick, tanglefoot bag; **Other Gear** kama, shuriken (20), _ [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, 124 gp
 
 These gnomes often protect gnome communities in groups that skirmish in the name of their lawful lord.
 
@@ -258,15 +258,15 @@ Statistics
 
 **Base Atk** +3; **CMB** +8 (+10 grapple); **CMD** 23 (25 vs. grapple)
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), Improved Grapple, [Improved Initiative](feats.md#_improved-initiative), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Power Attack](feats.md#_power-attack), Scorpion Style, Stunning Fist
+**Feats** [Combat Reflexes](feats#_combat-reflexes), [Dodge](feats#_dodge), Improved Grapple, [Improved Initiative](feats#_improved-initiative), [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Power Attack](feats#_power-attack), Scorpion Style, Stunning Fist
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +7 (+12 when jumping), [Climb](skills/climb.md#_climb) +8, [Intimidate](skills/intimidate.md#_intimidate) +7, [Knowledge](skills/knowledge.md#_knowledge) (religion) +8, Perception +11, [Sense Motive](skills/senseMotive.md#_sense-motive) +11, [Stealth](skills/stealth.md#_stealth) +9
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +7 (+12 when jumping), [Climb](skills/climb#_climb) +8, [Intimidate](skills/intimidate#_intimidate) +7, [Knowledge](skills/knowledge#_knowledge) (religion) +8, Perception +11, [Sense Motive](skills/senseMotive#_sense-motive) +11, [Stealth](skills/stealth#_stealth) +9
 
 **Languages** Common
 
 **SQ** fast movement, high jump, _ki_ pool (5 points, magic), maneuver training, purity of body, slow fall 20 ft.
 
-**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2); **Other Gear** javelin, masterwork siangham,_ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1, 3_47 gp
+**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_ (2); **Other Gear** javelin, masterwork siangham,_ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1, 3_47 gp
 
 Cruel devotees serve as the guardians and agents of monastic orders, taking on secret missions and even assassinations in order to protect the orders' interests.
 
@@ -302,7 +302,7 @@ Offense
 
 Tactics
 
-**During Combat** The monk relies on her shuriken, using Shot on the [Run](feats.md#_run) to begin and end behind cover. If cornered, she uses Stunning Fist and then escapes to a safe distance.
+**During Combat** The monk relies on her shuriken, using Shot on the [Run](feats#_run) to begin and end behind cover. If cornered, she uses Stunning Fist and then escapes to a safe distance.
 
 Statistics
 
@@ -310,15 +310,15 @@ Statistics
 
 **Base Atk** +4; **CMB** +7; **CMD** 22
 
-**Feats** [Deadly Aim](feats.md#_deadly-aim), Deflect Arrows, [Dodge](feats.md#_dodge), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), Mobility, [Point-Blank Shot](feats.md#_point-blank-shot), Shot on the [Run](feats.md#_run), Stunning Fist
+**Feats** [Deadly Aim](feats#_deadly-aim), Deflect Arrows, [Dodge](feats#_dodge), [Improved Unarmed Strike](feats#_improved-unarmed-strike), Mobility, [Point-Blank Shot](feats#_point-blank-shot), Shot on the [Run](feats#_run), Stunning Fist
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +14 (+24 when jumping), [Climb](skills/climb.md#_climb) +12, [Knowledge](skills/knowledge.md#_knowledge) (local) +4, Perception +11, [Sense Motive](skills/senseMotive.md#_sense-motive) +8, [Stealth](skills/stealth.md#_stealth) +13, [Swim](skills/swim.md#_swim) +6
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +14 (+24 when jumping), [Climb](skills/climb#_climb) +12, [Knowledge](skills/knowledge#_knowledge) (local) +4, Perception +11, [Sense Motive](skills/senseMotive#_sense-motive) +8, [Stealth](skills/stealth#_stealth) +13, [Swim](skills/swim#_swim) +6
 
 **Languages** Common, Halfling
 
 **SQ** fast movement, high jump, _ki_ pool (5 points, magic), maneuver training, purity of body, slow fall 30 ft.
 
-**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), _potion of [invisibility](spells/invisibility.md#_invisibility)_; **Other Gear** masterwork shuriken (20), _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +2_, 130 gp
+**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_ (2), _potion of [invisibility](spells/invisibility#_invisibility)_; **Other Gear** masterwork shuriken (20), _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +2_, 130 gp
 
 These short-statured monks do their best to stay out of close combat, backing up their companions with well-placed shuriken.
 
@@ -354,11 +354,11 @@ Offense
 
 Tactics
 
-**Before Combat** The monk drinks his _potion of [mage armor](spells/mageArmor.md#_mage-armor)_.
+**Before Combat** The monk drinks his _potion of [mage armor](spells/mageArmor#_mage-armor)_.
 
 **During Combat** The monk uses his sai to disarm opponents, then uses Scorpion Style. If an enemy succumbs, he performs a flurry of blows, augmented with a point from his _ki_ pool, and attempts to stun the opponent.
 
-**Base Statistics** Without_ [mage armor](spells/mageArmor.md#_mage-armor)_, the monk's statistics are **AC** 16, touch 16, flat-footed 14.
+**Base Statistics** Without_ [mage armor](spells/mageArmor#_mage-armor)_, the monk's statistics are **AC** 16, touch 16, flat-footed 14.
 
 Statistics
 
@@ -366,15 +366,15 @@ Statistics
 
 **Base Atk** +5; **CMB** +11; **CMD** 25
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), Improved Disarm, [Improved Initiative](feats.md#_improved-initiative), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Power Attack](feats.md#_power-attack), Scorpion Style, [Step Up](feats.md#_step-up), Stunning Fist, [Weapon Focus](feats.md#_weapon-focus) (unarmed strike)
+**Feats** [Combat Reflexes](feats#_combat-reflexes), [Dodge](feats#_dodge), Improved Disarm, [Improved Initiative](feats#_improved-initiative), [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Power Attack](feats#_power-attack), Scorpion Style, [Step Up](feats#_step-up), Stunning Fist, [Weapon Focus](feats#_weapon-focus) (unarmed strike)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +10 (+25 when jumping), [Climb](skills/climb.md#_climb) +9, [Intimidate](skills/intimidate.md#_intimidate) +6, [Knowledge](skills/knowledge.md#_knowledge) (history) +5, [Knowledge](skills/knowledge.md#_knowledge) (local) +3, [Knowledge](skills/knowledge.md#_knowledge) (religion) +6, Perception +11, [Perform](skills/perform.md#_perform) (percussion) +6, [Sense Motive](skills/senseMotive.md#_sense-motive) +13, [Swim](skills/swim.md#_swim) +10
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +10 (+25 when jumping), [Climb](skills/climb#_climb) +9, [Intimidate](skills/intimidate#_intimidate) +6, [Knowledge](skills/knowledge#_knowledge) (history) +5, [Knowledge](skills/knowledge#_knowledge) (local) +3, [Knowledge](skills/knowledge#_knowledge) (religion) +6, Perception +11, [Perform](skills/perform#_perform) (percussion) +6, [Sense Motive](skills/senseMotive#_sense-motive) +13, [Swim](skills/swim#_swim) +10
 
 **Languages** Common
 
 **SQ** fast movement, high jump, _ki_ pool (6 points, magic), maneuver training, purity of body, slow fall 30 ft., wholeness of body
 
-**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), _potions of [mage armor](spells/mageArmor.md#_mage-armor)_ (2), _potions of [magic weapon](spells/magicWeapon.md#_magic-weapon)_ (2); **Other Gear** dagger, masterwork sai, _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, 395 gp
+**Combat Gear** _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_ (2), _potions of [mage armor](spells/mageArmor#_mage-armor)_ (2), _potions of [magic weapon](spells/magicWeapon#_magic-weapon)_ (2); **Other Gear** dagger, masterwork sai, _ [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, 395 gp
 
 Axe Dancer CR 7
 
@@ -418,15 +418,15 @@ Statistics
 
 **Base Atk** +6; **CMB** +12 (+16 grapple); **CMD** 29 (31 vs. grapple)
 
-**Feats** [Defensive Combat Training](feats.md#_defensive-combat-training), [Dodge](feats.md#_dodge), Greater Grapple, Imp. Grapple, Imp. Initiative, Imp. Unarmed Strike, [Power Attack](feats.md#_power-attack), Scorpion Style, Stunning Fist
+**Feats** [Defensive Combat Training](feats#_defensive-combat-training), [Dodge](feats#_dodge), Greater Grapple, Imp. Grapple, Imp. Initiative, Imp. Unarmed Strike, [Power Attack](feats#_power-attack), Scorpion Style, Stunning Fist
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +9 (+25 when jumping), [Intimidate](skills/intimidate.md#_intimidate) +12, Perception +13, [Sense Motive](skills/senseMotive.md#_sense-motive) +14, [Stealth](skills/stealth.md#_stealth) +11
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +9 (+25 when jumping), [Intimidate](skills/intimidate#_intimidate) +12, Perception +13, [Sense Motive](skills/senseMotive#_sense-motive) +14, [Stealth](skills/stealth#_stealth) +11
 
 **Languages** Common, Orc
 
 **SQ** fast movement, high jump, _ki _pool (7 points, magic), maneuver training, orc blood, purity of body, slow fall 40 ft., weapon familiarity, wholeness of body
 
-**Combat Gear** _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_; **Other Gear** masterwork greataxe, shuriken (20), _ [amulet of natural armor](magicItems/wondrousItems.md#_amulet-of-natural-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +2_, 119 gp
+**Combat Gear** _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_; **Other Gear** masterwork greataxe, shuriken (20), _ [amulet of natural armor](magicItems/wondrousItems#_amulet-of-natural-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](magicItems/wondrousItems#_headband-of-inspired-wisdom) +2_, 119 gp
 
 Augmenting a monk's grace with the power of a greataxe, these half-orcs hack and crush their way to victory.
 
@@ -462,11 +462,11 @@ Offense
 
 Tactics
 
-**Before Combat** The monk drinks his _potions of [mage armor](spells/mageArmor.md#_mage-armor)_ and _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_ and tries to find a choke point where he can stand fast and hold off his enemies.
+**Before Combat** The monk drinks his _potions of [mage armor](spells/mageArmor#_mage-armor)_ and _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_ and tries to find a choke point where he can stand fast and hold off his enemies.
 
-**During Combat** If he can control an opening such as a doorway, the monk does his best not to move or let others past. He uses [Vital Strike](feats.md#_vital-strike) whenever he cannot use flurry of blows. He uses Improved Bull Rush on any opponent that has failed its saving throw versus Scorpion Style, trying to remove it from direct combat. He trips those adjacent to him so he can make attacks of opportunity when they stand up from prone. Against a single opponent, the steadfast defender uses his _ki_ pool to add extra attacks to his flurry of blows; against multiple opponents he uses it to improve his Armor Class.
+**During Combat** If he can control an opening such as a doorway, the monk does his best not to move or let others past. He uses [Vital Strike](feats#_vital-strike) whenever he cannot use flurry of blows. He uses Improved Bull Rush on any opponent that has failed its saving throw versus Scorpion Style, trying to remove it from direct combat. He trips those adjacent to him so he can make attacks of opportunity when they stand up from prone. Against a single opponent, the steadfast defender uses his _ki_ pool to add extra attacks to his flurry of blows; against multiple opponents he uses it to improve his Armor Class.
 
-**Base Statistics** When not under the effects of _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance) _and _ [mage armor](spells/mageArmor.md#_mage-armor)_, the monk's statistics are **AC** 19, touch 18, flat-footed 18; **hp** 75; **Fort** +10; **Con** 16.
+**Base Statistics** When not under the effects of _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance) _and _ [mage armor](spells/mageArmor#_mage-armor)_, the monk's statistics are **AC** 19, touch 18, flat-footed 18; **hp** 75; **Fort** +10; **Con** 16.
 
 Statistics
 
@@ -474,15 +474,15 @@ Statistics
 
 **Base Atk** +6; **CMB** +12 (+14 bull rush or trip); **CMD** 30 (36 vs. bull rush or trip)
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Defensive Combat Training](feats.md#_defensive-combat-training), Improved Bull Rush, Improved Trip, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Power Attack](feats.md#_power-attack), Scorpion Style, Stand Still, Stunning Fist, [Vital Strike](feats.md#_vital-strike)
+**Feats** [Combat Reflexes](feats#_combat-reflexes), [Defensive Combat Training](feats#_defensive-combat-training), Improved Bull Rush, Improved Trip, [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Power Attack](feats#_power-attack), Scorpion Style, Stand Still, Stunning Fist, [Vital Strike](feats#_vital-strike)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +11 (+28 when jumping), [Appraise](skills/appraise.md#_appraise) +3 (+5 to assess nonmagical metals or gemstones), [Climb](skills/climb.md#_climb) +8, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, engineering) +5, Perception +16 (+18 to notice unusual stonework), [Sense Motive](skills/senseMotive.md#_sense-motive) +12, [Stealth](skills/stealth.md#_stealth) +9
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +11 (+28 when jumping), [Appraise](skills/appraise#_appraise) +3 (+5 to assess nonmagical metals or gemstones), [Climb](skills/climb#_climb) +8, [Knowledge](skills/knowledge#_knowledge) (dungeoneering, engineering) +5, Perception +16 (+18 to notice unusual stonework), [Sense Motive](skills/senseMotive#_sense-motive) +12, [Stealth](skills/stealth#_stealth) +9
 
 **Languages** Common, Dwarven
 
 **SQ** fast movement, high jump, _ki_ pool (8 points, magic), maneuver training, purity of body, slow fall 40 ft., wholeness of body
 
-**Combat Gear** _potion of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_ (2), _potions of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_ (2), _potions of [mage armor](spells/mageArmor.md#_mage-armor)_ (2), _potions of [magic weapon](spells/magicWeapon.md#_magic-weapon)_ (2), antitoxin, holy water (2); **Other Gear** masterwork heavy pick, masterwork shuriken (50), _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +2_, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 141 gp
+**Combat Gear** _potion of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_ (2), _potions of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_ (2), _potions of [mage armor](spells/mageArmor#_mage-armor)_ (2), _potions of [magic weapon](spells/magicWeapon#_magic-weapon)_ (2), antitoxin, holy water (2); **Other Gear** masterwork heavy pick, masterwork shuriken (50), _ [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +2_, _ [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +1_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, 141 gp
 
 Steadfast defenders often serve as guards in monasteries and as bodyguards for important dignitaries.
 
@@ -502,7 +502,7 @@ Cautious Hunter CR 9
 
 LE Medium humanoid (human, orc)
 
-**Init** +5; **Senses** darkvision 60 ft., _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_; Perception +12
+**Init** +5; **Senses** darkvision 60 ft., _ [see invisibility](spells/seeInvisibility#_see-invisibility)_; Perception +12
 
 Defense
 
@@ -526,11 +526,11 @@ Offense
 
 Tactics
 
-**Before Combat** The monk drinks _potions of [barkskin](spells/barkskin.md#_barkskin)_ and _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_ and ambushes foes whenever possible.
+**Before Combat** The monk drinks _potions of [barkskin](spells/barkskin#_barkskin)_ and _ [see invisibility](spells/seeInvisibility#_see-invisibility)_ and ambushes foes whenever possible.
 
-**During Combat** The monk charges, using [Vital Strike](feats.md#_vital-strike) in conjunction with Stunning Fist. Against stunned opponents, she employs her falchion and [Power Attack](feats.md#_power-attack). If surrounded or adjacent to a particularly powerful combatant, she uses Improved Bull Rush and then [Lunge](feats.md#_lunge), pushing her enemies away and then forcing them to close again.
+**During Combat** The monk charges, using [Vital Strike](feats#_vital-strike) in conjunction with Stunning Fist. Against stunned opponents, she employs her falchion and [Power Attack](feats#_power-attack). If surrounded or adjacent to a particularly powerful combatant, she uses Improved Bull Rush and then [Lunge](feats#_lunge), pushing her enemies away and then forcing them to close again.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_ and _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_, the monk's statistics are **Senses** no _ [see invisibility](spells/seeInvisibility.md#_see-invisibility)_; **AC** 19, touch 17, flat-footed 17.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_ and _ [see invisibility](spells/seeInvisibility#_see-invisibility)_, the monk's statistics are **Senses** no _ [see invisibility](spells/seeInvisibility#_see-invisibility)_; **AC** 19, touch 17, flat-footed 17.
 
 Statistics
 
@@ -538,15 +538,15 @@ Statistics
 
 **Base Atk** +7; **CMB** +14 (+17 bull rush); **CMD** 28 (30 vs. bull rush)
 
-**Feats** [Dodge](feats.md#_dodge), Extra _Ki_, Improved Bull Rush, [Improved Initiative](feats.md#_improved-initiative), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Lunge](feats.md#_lunge), Medusa's Wrath, [Power Attack](feats.md#_power-attack), Scorpion Style, Stunning Fist, [Vital Strike](feats.md#_vital-strike)
+**Feats** [Dodge](feats#_dodge), Extra _Ki_, Improved Bull Rush, [Improved Initiative](feats#_improved-initiative), [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Lunge](feats#_lunge), Medusa's Wrath, [Power Attack](feats#_power-attack), Scorpion Style, Stunning Fist, [Vital Strike](feats#_vital-strike)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +6 (+28 when jumping), [Climb](skills/climb.md#_climb) +12, [Intimidate](skills/intimidate.md#_intimidate) +9, [Knowledge](skills/knowledge.md#_knowledge) (history) +4, Perception +12, [Sense Motive](skills/senseMotive.md#_sense-motive) +16, [Stealth](skills/stealth.md#_stealth) +19, [Survival](skills/survival.md#_survival) +8, [Swim](skills/swim.md#_swim) +8
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +6 (+28 when jumping), [Climb](skills/climb#_climb) +12, [Intimidate](skills/intimidate#_intimidate) +9, [Knowledge](skills/knowledge#_knowledge) (history) +4, Perception +12, [Sense Motive](skills/senseMotive#_sense-motive) +16, [Stealth](skills/stealth#_stealth) +19, [Survival](skills/survival#_survival) +8, [Swim](skills/swim#_swim) +8
 
 **Languages** Common, Orc
 
 **SQ** fast movement, high jump, _ki_ pool (10 points, lawful, magic), maneuver training, orc blood, purity of body, slow fall 50 ft., weapon familiarity, wholeness of body
 
-**Combat Gear** _potions of [barkskin](spells/barkskin.md#_barkskin)_ (2), _potions of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_ (2), _potion of [see invisibility](spells/seeInvisibility.md#_see-invisibility)_; **Other Gear** heavy crossbow with 20 bolts, masterwork falchion, _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +2_, _bracers of armor +2_, _ [cloak of elvenkind](magicItems/wondrousItems.md#_cloak-of-elvenkind)_, masterwork manacles, 195 gp
+**Combat Gear** _potions of [barkskin](spells/barkskin#_barkskin)_ (2), _potions of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_ (2), _potion of [see invisibility](spells/seeInvisibility#_see-invisibility)_; **Other Gear** heavy crossbow with 20 bolts, masterwork falchion, _ [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +2_, _bracers of armor +2_, _ [cloak of elvenkind](magicItems/wondrousItems#_cloak-of-elvenkind)_, masterwork manacles, 195 gp
 
 These monks often serve as enforcers and bounty hunters for monastic orders or lawful lords, tracking down those in need of punishment.
 
@@ -592,7 +592,7 @@ Tactics
 
 **Before Combat** The monk conceals her shuriken as the metal cymbals inside her tambourine, applying 2 doses of black adder venom or drow poison to the weapons before combat. She performs, bluffs, or connives her way to her target.
 
-**During Combat** If the monk finds herself outnumbered, she uses flurry of blows with her poisoned shuriken. She shifts and feints through a melee. If her feint is successful, she trips that foe. Once the foe is on the ground, she slams down with a Stunning Fist. A poisonous performer does not hesitate to abandon combat if outmatched or seriously injured, drinking her _potion of [invisibility](spells/invisibility.md#_invisibility)_ and fleeing the field to a place where she can drink a _potion of [disguise self](spells/disguiseSelf.md#_disguise-self)_, blend in, and disappear.
+**During Combat** If the monk finds herself outnumbered, she uses flurry of blows with her poisoned shuriken. She shifts and feints through a melee. If her feint is successful, she trips that foe. Once the foe is on the ground, she slams down with a Stunning Fist. A poisonous performer does not hesitate to abandon combat if outmatched or seriously injured, drinking her _potion of [invisibility](spells/invisibility#_invisibility)_ and fleeing the field to a place where she can drink a _potion of [disguise self](spells/disguiseSelf#_disguise-self)_, blend in, and disappear.
 
 Statistics
 
@@ -600,15 +600,15 @@ Statistics
 
 **Base Atk** +8; **CMB** +12 (+14 trip); **CMD** 30 (32 vs. trip)
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Deadly Aim](feats.md#_deadly-aim), [Dodge](feats.md#_dodge), [Improved Critical](feats.md#_improved-critical) (unarmed strike), Improved Feint, [Improved Initiative](feats.md#_improved-initiative), Improved Trip, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Point-Blank Shot](feats.md#_point-blank-shot), [Skill Focus](feats.md#_skill-focus) ( [Bluff](skills/bluff.md#_bluff)), Stunning Fist, [Vital Strike](feats.md#_vital-strike), [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Combat Reflexes](feats#_combat-reflexes), [Deadly Aim](feats#_deadly-aim), [Dodge](feats#_dodge), [Improved Critical](feats#_improved-critical) (unarmed strike), Improved Feint, [Improved Initiative](feats#_improved-initiative), Improved Trip, [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Point-Blank Shot](feats#_point-blank-shot), [Skill Focus](feats#_skill-focus) ( [Bluff](skills/bluff#_bluff)), Stunning Fist, [Vital Strike](feats#_vital-strike), [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +17 (+40 when jumping), [Bluff](skills/bluff.md#_bluff) +16, [Climb](skills/climb.md#_climb) +9, [Linguistics](skills/linguistics.md#_linguistics) +3, Perception +14, [Perform](skills/perform.md#_perform) (dance, percussion) +8, [Sense Motive](skills/senseMotive.md#_sense-motive) +17, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +9, [Stealth](skills/stealth.md#_stealth) +15, [Swim](skills/swim.md#_swim) +5
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +17 (+40 when jumping), [Bluff](skills/bluff#_bluff) +16, [Climb](skills/climb#_climb) +9, [Linguistics](skills/linguistics#_linguistics) +3, Perception +14, [Perform](skills/perform#_perform) (dance, percussion) +8, [Sense Motive](skills/senseMotive#_sense-motive) +17, [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand) +9, [Stealth](skills/stealth#_stealth) +15, [Swim](skills/swim#_swim) +5
 
 **Languages** Common, Dwarven, Elven, Gnome
 
 **SQ** diamond body, fast movement, high jump, _ki_ pool (8 points, lawful, magic), maneuver training, purity of body, slow fall 50 ft., wholeness of body
 
-**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, _potion of [disguise self](spells/disguiseSelf.md#_disguise-self)_, _potion of [invisibility](spells/invisibility.md#_invisibility)_, black adder venom (4), drow poison (4), oil of taggit; **Other Gear** shuriken (20), _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +2_, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, tambourine, 71 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_, _potion of [disguise self](spells/disguiseSelf#_disguise-self)_, _potion of [invisibility](spells/invisibility#_invisibility)_, black adder venom (4), drow poison (4), oil of taggit; **Other Gear** shuriken (20), _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +2_, _ [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](magicItems/wondrousItems#_headband-of-inspired-wisdom) +2_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, tambourine, 71 gp
 
 The poisonous performer is a member of a monastery that seeks enlightenment in the perfection of murder and assassination. Such monks are poison users and masters of disguise, and often greatly feared in the lands around their monasteries. They are sometimes hunted by monks from other monasteries who believe their grim rites are a perversion of proper monastic practices.
 
@@ -652,9 +652,9 @@ Offense
 
 Tactics
 
-**Before Combat** The monk uses [Stealth](skills/stealth.md#_stealth) to find a hiding spot in an effort to gain the element of surprise.
+**Before Combat** The monk uses [Stealth](skills/stealth#_stealth) to find a hiding spot in an effort to gain the element of surprise.
 
-**During Combat** The monk uses Deflect Arrows to close in on ranged combatants. He uses [Lunge](feats.md#_lunge) to keep enemies at bay and flurry of blows to trip multiple opponents if surrounded, allowing him the full benefit of his [Combat Reflexes](feats.md#_combat-reflexes) when tripped opponents try to stand. A swift brawler uses [Power Attack](feats.md#_power-attack) against enemies he has tripped or stunned, only risking the penalty on his attack rolls when his target's AC has been compromised in some way.
+**During Combat** The monk uses Deflect Arrows to close in on ranged combatants. He uses [Lunge](feats#_lunge) to keep enemies at bay and flurry of blows to trip multiple opponents if surrounded, allowing him the full benefit of his [Combat Reflexes](feats#_combat-reflexes) when tripped opponents try to stand. A swift brawler uses [Power Attack](feats#_power-attack) against enemies he has tripped or stunned, only risking the penalty on his attack rolls when his target's AC has been compromised in some way.
 
 Statistics
 
@@ -662,15 +662,15 @@ Statistics
 
 **Base Atk** +9; **CMB** +15 (+17 trip); **CMD** 33 (35 vs. trip)
 
-**Feats** [Acrobatic](feats.md#_acrobatic) Steps, [Combat Reflexes](feats.md#_combat-reflexes), Deflect Arrows, Extra _Ki_, Gorgon's Fist, Improved Trip, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Lunge](feats.md#_lunge), [Nimble Moves](feats.md#_nimble-moves), [Power Attack](feats.md#_power-attack), Scorpion Style, Spring Attack, Stunning Fist
+**Feats** [Acrobatic](feats#_acrobatic) Steps, [Combat Reflexes](feats#_combat-reflexes), Deflect Arrows, Extra _Ki_, Gorgon's Fist, Improved Trip, [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Lunge](feats#_lunge), [Nimble Moves](feats#_nimble-moves), [Power Attack](feats#_power-attack), Scorpion Style, Spring Attack, Stunning Fist
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +15 (+43 when jumping), [Climb](skills/climb.md#_climb) +11, [Knowledge](skills/knowledge.md#_knowledge) (geography, local) +4, [Knowledge](skills/knowledge.md#_knowledge) (history) +6, [Knowledge](skills/knowledge.md#_knowledge) (religion) +7, [Linguistics](skills/linguistics.md#_linguistics) +3, Perception +20, [Sense Motive](skills/senseMotive.md#_sense-motive) +18, [Stealth](skills/stealth.md#_stealth) +15, [Swim](skills/swim.md#_swim) +7
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +15 (+43 when jumping), [Climb](skills/climb#_climb) +11, [Knowledge](skills/knowledge#_knowledge) (geography, local) +4, [Knowledge](skills/knowledge#_knowledge) (history) +6, [Knowledge](skills/knowledge#_knowledge) (religion) +7, [Linguistics](skills/linguistics#_linguistics) +3, Perception +20, [Sense Motive](skills/senseMotive#_sense-motive) +18, [Stealth](skills/stealth#_stealth) +15, [Swim](skills/swim#_swim) +7
 
 **Languages** Common, Dwarven, Elven, Gnome, Orc
 
 **SQ** abundant step, diamond body, fast movement, high jump, _ki_ pool (13 points, lawful, magic), maneuver training, purity of body, slow fall 60 ft., wholeness of body
 
-**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds)_, _potion of [mirror image](spells/mirrorImage.md#_mirror-image)_; **Other Gear** masterwork quarterstaff, shuriken (20), _ [amulet of mighty fists](magicItems/wondrousItems.md#_amulet-of-mighty-fists) +1_, _ [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +2_, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 46 gp
+**Combat Gear** _potion of [cure light wounds](spells/cureLightWounds#_cure-light-wounds)_, _potion of [mirror image](spells/mirrorImage#_mirror-image)_; **Other Gear** masterwork quarterstaff, shuriken (20), _ [amulet of mighty fists](magicItems/wondrousItems#_amulet-of-mighty-fists) +1_, _ [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +2_, _ [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](magicItems/wondrousItems#_headband-of-inspired-wisdom) +2_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, 46 gp
 
 Swift brawlers serve as the vanguard of many monasteries' forces. They use speed and agility to track down and neutralize enemy leaders and spellcasters.
 
@@ -716,9 +716,9 @@ Offense
 
 Tactics
 
-**Before Combat** The monk tries to find cover from which to snipe at his enemies, using abundant step in conjunction with [Stealth](skills/stealth.md#_stealth) to make enemies think they face multiple attackers.
+**Before Combat** The monk tries to find cover from which to snipe at his enemies, using abundant step in conjunction with [Stealth](skills/stealth#_stealth) to make enemies think they face multiple attackers.
 
-**During Combat** If the monk must enter melee, he uses Stunning Fist against flat-footed or disadvantaged opponents. If successful, he then uses his rapier in conjunction with [Power Attack](feats.md#_power-attack) and [Vital Strike](feats.md#_vital-strike). If he's outnumbered, the monk uses Spring Attack and [Vital Strike](feats.md#_vital-strike) to whittle down his foes.
+**During Combat** If the monk must enter melee, he uses Stunning Fist against flat-footed or disadvantaged opponents. If successful, he then uses his rapier in conjunction with [Power Attack](feats#_power-attack) and [Vital Strike](feats#_vital-strike). If he's outnumbered, the monk uses Spring Attack and [Vital Strike](feats#_vital-strike) to whittle down his foes.
 
 Statistics
 
@@ -726,15 +726,15 @@ Statistics
 
 **Base Atk** +9; **CMB** +15 (+17 disarm); **CMD** 33 (35 vs. disarm)
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Deadly Aim](feats.md#_deadly-aim), [Dodge](feats.md#_dodge), [Improved Critical](feats.md#_improved-critical) (rapier), Improved Disarm, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Point-Blank Shot](feats.md#_point-blank-shot), [Power Attack](feats.md#_power-attack), Precise Shot, [Quick Draw](feats.md#_quick-draw), Spring Attack, Stunning Fist, [Vital Strike](feats.md#_vital-strike)
+**Feats** [Combat Reflexes](feats#_combat-reflexes), [Deadly Aim](feats#_deadly-aim), [Dodge](feats#_dodge), [Improved Critical](feats#_improved-critical) (rapier), Improved Disarm, [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Point-Blank Shot](feats#_point-blank-shot), [Power Attack](feats#_power-attack), Precise Shot, [Quick Draw](feats#_quick-draw), Spring Attack, Stunning Fist, [Vital Strike](feats#_vital-strike)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +15 (+44 when jumping), [Bluff](skills/bluff.md#_bluff) +5, [Climb](skills/climb.md#_climb) +8, [Diplomacy](skills/diplomacy.md#_diplomacy) +10, [Knowledge](skills/knowledge.md#_knowledge) (history, religion) +5, [Linguistics](skills/linguistics.md#_linguistics) +2, Perception +19, [Sense Motive](skills/senseMotive.md#_sense-motive) +15, [Stealth](skills/stealth.md#_stealth) +15
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +15 (+44 when jumping), [Bluff](skills/bluff#_bluff) +5, [Climb](skills/climb#_climb) +8, [Diplomacy](skills/diplomacy#_diplomacy) +10, [Knowledge](skills/knowledge#_knowledge) (history, religion) +5, [Linguistics](skills/linguistics#_linguistics) +2, Perception +19, [Sense Motive](skills/senseMotive#_sense-motive) +15, [Stealth](skills/stealth#_stealth) +15
 
 **Languages** Common, Dwarven, Elven, Sylvan
 
 **SQ** abundant step, diamond body, diamond soul, elven magic, fast movement, high jump, _ki_ pool (10 points, lawful, magic), maneuver training, purity of body, slow fall 60 ft., weapon familiarity, wholeness of body
 
-**Combat Gear** _ [elixir of truth](magicItems/wondrousItems.md#_elixir-of-truth)_,_ potion of [blur](spells/blur.md#_blur)_, _potions of [comprehend languages](spells/comprehendLanguages.md#_comprehend-languages)_ (2), _potions of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_ (2), _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _potion of [glibness](spells/glibness.md#_glibness)_; **Other Gear** _+1 rapier_, masterwork composite longbow (+2 Str) with 20 arrows, masterwork shuriken (50), _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +2_, _ [boots of elvenkind](magicItems/wondrousItems.md#_boots-of-elvenkind)_, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2_, _ [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +2_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1_, 179 gp
+**Combat Gear** _ [elixir of truth](magicItems/wondrousItems#_elixir-of-truth)_,_ potion of [blur](spells/blur#_blur)_, _potions of [comprehend languages](spells/comprehendLanguages#_comprehend-languages)_ (2), _potions of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_ (2), _potion of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_, _potion of [glibness](spells/glibness#_glibness)_; **Other Gear** _+1 rapier_, masterwork composite longbow (+2 Str) with 20 arrows, masterwork shuriken (50), _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +2_, _ [boots of elvenkind](magicItems/wondrousItems#_boots-of-elvenkind)_, _ [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +2_, _ [headband of inspired wisdom](magicItems/wondrousItems#_headband-of-inspired-wisdom) +2_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1_, 179 gp
 
 Both archers and diplomats, monastic snipers consider a well-placed warning shot the ideal method to open the channels of diplomacy from a position of power.
 
@@ -778,11 +778,11 @@ Offense
 
 Tactics
 
-**Before Combat** The monk often tries to reason or treat with potential foes in an effort to avoid unnecessary combat, or to quietly study enemies and discern each one's strengths and weaknesses. Once combat is unavoidable, he drinks _potions of [barkskin](spells/barkskin.md#_barkskin)_ and _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_.
+**Before Combat** The monk often tries to reason or treat with potential foes in an effort to avoid unnecessary combat, or to quietly study enemies and discern each one's strengths and weaknesses. Once combat is unavoidable, he drinks _potions of [barkskin](spells/barkskin#_barkskin)_ and _ [bull's strength](spells/bullSStrength#_bull-s-strength)_.
 
-**During Combat** The monk trusts his improved evasion, high saves, and spell resistance to safeguard him against spellcasters, and focuses on martial opponents, combining Spring Attack and Stunning Fist. He uses [Lunge](feats.md#_lunge) against Small or Medium opponents, often using _ki_ points to grant himself a bonus to AC and negate the penalty from using [Lunge](feats.md#_lunge). When making a flurry of blows, he attempts a Stunning Fist on the first strike. He uses [Snatch](monsters/monsterFeats.md#snatch) Arrows to return thrown weapons and [Deadly Aim](feats.md#_deadly-aim) whenever he catches a weapon he is proficient with.
+**During Combat** The monk trusts his improved evasion, high saves, and spell resistance to safeguard him against spellcasters, and focuses on martial opponents, combining Spring Attack and Stunning Fist. He uses [Lunge](feats#_lunge) against Small or Medium opponents, often using _ki_ points to grant himself a bonus to AC and negate the penalty from using [Lunge](feats#_lunge). When making a flurry of blows, he attempts a Stunning Fist on the first strike. He uses [Snatch](monsters/monsterFeats#snatch) Arrows to return thrown weapons and [Deadly Aim](feats#_deadly-aim) whenever he catches a weapon he is proficient with.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_ and _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, the monk's statistics are **AC** 27, touch 25, flat-footed 22; **Melee** _+1 unarmed strike_ +16/+11 (1d10+2) or _+1 unarmed strike _flurry of blows +18/+18/+13/+13/+8 (1d10+1); **Str** 12; **CMB** +14; **CMD** 34; **Skills** [Climb](skills/climb.md#_climb) +10, [Swim](skills/swim.md#_swim) +5.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_ and _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, the monk's statistics are **AC** 27, touch 25, flat-footed 22; **Melee** _+1 unarmed strike_ +16/+11 (1d10+2) or _+1 unarmed strike _flurry of blows +18/+18/+13/+13/+8 (1d10+1); **Str** 12; **CMB** +14; **CMD** 34; **Skills** [Climb](skills/climb#_climb) +10, [Swim](skills/swim#_swim) +5.
 
 Statistics
 
@@ -790,13 +790,13 @@ Statistics
 
 **Base Atk** +10; **CMB** +16; **CMD** 36
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Deadly Aim](feats.md#_deadly-aim), Deflect Arrows, [Dodge](feats.md#_dodge), Gorgon's Fist, [Improved Initiative](feats.md#_improved-initiative), [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Lunge](feats.md#_lunge), [Point-Blank Shot](feats.md#_point-blank-shot), Scorpion Style, [Snatch](monsters/monsterFeats.md#snatch) Arrows, Spring Attack, Stunning Fist, [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Combat Reflexes](feats#_combat-reflexes), [Deadly Aim](feats#_deadly-aim), Deflect Arrows, [Dodge](feats#_dodge), Gorgon's Fist, [Improved Initiative](feats#_improved-initiative), [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Lunge](feats#_lunge), [Point-Blank Shot](feats#_point-blank-shot), Scorpion Style, [Snatch](monsters/monsterFeats#snatch) Arrows, Spring Attack, Stunning Fist, [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +20 (+48 when jumping), [Climb](skills/climb.md#_climb) +12, [Knowledge](skills/knowledge.md#_knowledge) (history) +16, [Knowledge](skills/knowledge.md#_knowledge) (religion) +8, Perception +20, [Perform](skills/perform.md#_perform) (wind) +7, [Sense Motive](skills/senseMotive.md#_sense-motive) +20, [Stealth](skills/stealth.md#_stealth) +21, [Swim](skills/swim.md#_swim) +7
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +20 (+48 when jumping), [Climb](skills/climb#_climb) +12, [Knowledge](skills/knowledge#_knowledge) (history) +16, [Knowledge](skills/knowledge#_knowledge) (religion) +8, Perception +20, [Perform](skills/perform#_perform) (wind) +7, [Sense Motive](skills/senseMotive#_sense-motive) +20, [Stealth](skills/stealth#_stealth) +21, [Swim](skills/swim#_swim) +7
 
 **SQ** abundant step, diamond body, diamond soul, fast movement, high jump, _ki_ pool (12 points, lawful, magic), maneuver training, purity of body, slow fall 70 ft., wholeness of body
 
-**Combat Gear** _potions of [barkskin](spells/barkskin.md#_barkskin)_ (2), _potions of [bull's strength](spells/bullSStrength.md#_bull-s-strength) _(2), _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds) _(2), _ [universal solvent](magicItems/wondrousItems.md#_universal-solvent)_ (2), tanglefoot bag; **Other Gear** masterwork shortbow with 20 arrows, _ [amulet of mighty fists](magicItems/wondrousItems.md#_amulet-of-mighty-fists) +1_, _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +2, [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +2_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +4, [ring of protection](magicItems/rings.md#_ring-of-protection) +1,_ masterwork wooden flute, 419 gp
+**Combat Gear** _potions of [barkskin](spells/barkskin#_barkskin)_ (2), _potions of [bull's strength](spells/bullSStrength#_bull-s-strength) _(2), _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds) _(2), _ [universal solvent](magicItems/wondrousItems#_universal-solvent)_ (2), tanglefoot bag; **Other Gear** masterwork shortbow with 20 arrows, _ [amulet of mighty fists](magicItems/wondrousItems#_amulet-of-mighty-fists) +1_, _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +2, [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +2_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +1_, _ [headband of inspired wisdom](magicItems/wondrousItems#_headband-of-inspired-wisdom) +4, [ring of protection](magicItems/rings#_ring-of-protection) +1,_ masterwork wooden flute, 419 gp
 
 These monks are small, but powerful and well trained. Those who underestimate one of these halflings do so at their own peril.
 
@@ -840,11 +840,11 @@ Offense
 
 Tactics
 
-**Before Combat** The monk drinks _potions of [barkskin](spells/barkskin.md#_barkskin)_ and _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_.
+**Before Combat** The monk drinks _potions of [barkskin](spells/barkskin#_barkskin)_ and _ [cat's grace](spells/catSGrace#_cat-s-grace)_.
 
-**During Combat** This monk prefers to use improvised weapons like ladders, tankards, and chisels. If he happens upon a particularly effective and sturdy improvised weapon, he applies _oil of [greater magic weapon](spells/magicWeapon.md#_magic-weapon-greater)_ before rejoining the fray. In familiar terrain, he tries to stun or trip a foe as a standard action and then uses his abundant step ability to seek cover where he can hide. The dwarf then pelts his adversaries with anything on hand.
+**During Combat** This monk prefers to use improvised weapons like ladders, tankards, and chisels. If he happens upon a particularly effective and sturdy improvised weapon, he applies _oil of [greater magic weapon](spells/magicWeapon#_magic-weapon-greater)_ before rejoining the fray. In familiar terrain, he tries to stun or trip a foe as a standard action and then uses his abundant step ability to seek cover where he can hide. The dwarf then pelts his adversaries with anything on hand.
 
-**Base Statistics** Without _ [barkskin](spells/barkskin.md#_barkskin)_ and _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, the monk's statistics are **Init** +5; **AC** 24, touch 20, flat-footed 22; **Ref** +13; **Ranged** improvised thrown weapon +13 (1d8+4/19–20); **Dex** 13; **CMD** 35 (39 vs. bull rush, 41 vs. trip); **Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +14 (+45 when jumping), [Stealth](skills/stealth.md#_stealth) +9.
+**Base Statistics** Without _ [barkskin](spells/barkskin#_barkskin)_ and _ [cat's grace](spells/catSGrace#_cat-s-grace)_, the monk's statistics are **Init** +5; **AC** 24, touch 20, flat-footed 22; **Ref** +13; **Ranged** improvised thrown weapon +13 (1d8+4/19–20); **Dex** 13; **CMD** 35 (39 vs. bull rush, 41 vs. trip); **Skills** [Acrobatics](skills/acrobatics#_acrobatics) +14 (+45 when jumping), [Stealth](skills/stealth#_stealth) +9.
 
 Statistics
 
@@ -852,13 +852,13 @@ Statistics
 
 **Base Atk** +11; **CMB** +19 (+21 trip); **CMD** 37 (41 vs. bull rush, 43 vs. trip)
 
-**Feats** [Catch Off-Guard](feats.md#_catch-off-guard), [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), Extra _Ki_, Gorgon's Fist, [Improved Initiative](feats.md#_improved-initiative), Improved Trip, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Improvised Weapon Mastery](feats.md#_improvised-weapon-mastery), Medusa's Wrath, [Power Attack](feats.md#_power-attack), Scorpion Style, [Step Up](feats.md#_step-up), Stunning Fist, [Throw Anything](feats.md#_throw-anything)
+**Feats** [Catch Off-Guard](feats#_catch-off-guard), [Combat Reflexes](feats#_combat-reflexes), [Dodge](feats#_dodge), Extra _Ki_, Gorgon's Fist, [Improved Initiative](feats#_improved-initiative), Improved Trip, [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Improvised Weapon Mastery](feats#_improvised-weapon-mastery), Medusa's Wrath, [Power Attack](feats#_power-attack), Scorpion Style, [Step Up](feats#_step-up), Stunning Fist, [Throw Anything](feats#_throw-anything)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +16 (+47 when jumping), [Appraise](skills/appraise.md#_appraise) +11 (+13 to assess nonmagical metals or gemstones), [Climb](skills/climb.md#_climb) +11, [Craft](skills/craft.md#_craft) (carpentry) +21, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, engineering) +6, [Knowledge](skills/knowledge.md#_knowledge) (history) +8, Perception +22 (+24 to notice unusual stonework), [Sense Motive](skills/senseMotive.md#_sense-motive) +19, [Stealth](skills/stealth.md#_stealth) +11
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +16 (+47 when jumping), [Appraise](skills/appraise#_appraise) +11 (+13 to assess nonmagical metals or gemstones), [Climb](skills/climb#_climb) +11, [Craft](skills/craft#_craft) (carpentry) +21, [Knowledge](skills/knowledge#_knowledge) (dungeoneering, engineering) +6, [Knowledge](skills/knowledge#_knowledge) (history) +8, Perception +22 (+24 to notice unusual stonework), [Sense Motive](skills/senseMotive#_sense-motive) +19, [Stealth](skills/stealth#_stealth) +11
 
 **SQ** abundant step, diamond body, diamond soul, fast movement, high jump, _ki_ pool (13 points, lawful, magic), maneuver training, purity of body, slow fall 70 ft., wholeness of body
 
-**Combat Gear** _oil of [greater magic weapon](spells/magicWeapon.md#_magic-weapon-greater) _(3), _oil of [mending](spells/mending.md#_mending)_ (5), _potion of [barkskin](spells/barkskin.md#_barkskin)_, _potion of [cat's grace](spells/catSGrace.md#_cat-s-grace), potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds) _(2); **Other Gear** _ [amulet of mighty fists](magicItems/wondrousItems.md#_amulet-of-mighty-fists) +1, [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +2, [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +4_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3, [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +2, [ring of protection](magicItems/rings.md#_ring-of-protection) +1, _masterwork artisan's tools, 470 gp
+**Combat Gear** _oil of [greater magic weapon](spells/magicWeapon#_magic-weapon-greater) _(3), _oil of [mending](spells/mending#_mending)_ (5), _potion of [barkskin](spells/barkskin#_barkskin)_, _potion of [cat's grace](spells/catSGrace#_cat-s-grace), potions of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds) _(2); **Other Gear** _ [amulet of mighty fists](magicItems/wondrousItems#_amulet-of-mighty-fists) +1, [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +2, [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +4_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +3, [headband of inspired wisdom](magicItems/wondrousItems#_headband-of-inspired-wisdom) +2, [ring of protection](magicItems/rings#_ring-of-protection) +1, _masterwork artisan's tools, 470 gp
 
 Typically found among tavern brawlers, an improvised hurler turns ordinary objects into devastating weapons.
 
@@ -904,7 +904,7 @@ Tactics
 
 **Before Combat** The monk prefers to ambush foes, and uses his diamond body ability to poison either his spear or at least two javelins without risk to himself.
 
-**During Combat** The monk prefers to fight from horseback, and uses Ride-By Attack and [Lunge](feats.md#_lunge) to hit foes so he faces little risk of retaliation. He often uses Stunning Fist on the first pass, and if successful follows with a Spirited Charge. Against other mounted foes, he uses Improved Trip to unhorse his opponents if possible.
+**During Combat** The monk prefers to fight from horseback, and uses Ride-By Attack and [Lunge](feats#_lunge) to hit foes so he faces little risk of retaliation. He often uses Stunning Fist on the first pass, and if successful follows with a Spirited Charge. Against other mounted foes, he uses Improved Trip to unhorse his opponents if possible.
 
 Statistics
 
@@ -912,15 +912,15 @@ Statistics
 
 **Base Atk** +12; **CMB** +20 (+22 trip); **CMD** 38 (40 vs. trip)
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes), [Deadly Aim](feats.md#_deadly-aim), Deflect Arrows, [Dodge](feats.md#_dodge), Improved Trip, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Lunge](feats.md#_lunge), [Mounted Combat](feats.md#_mounted-combat), [Point-Blank Shot](feats.md#_point-blank-shot), [Power Attack](feats.md#_power-attack), Precise Shot, [Quick Draw](feats.md#_quick-draw), Ride-By Attack, [Snatch](monsters/monsterFeats.md#snatch) Arrows, Spirited Charge, Stunning Fist
+**Feats** [Combat Reflexes](feats#_combat-reflexes), [Deadly Aim](feats#_deadly-aim), Deflect Arrows, [Dodge](feats#_dodge), Improved Trip, [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Lunge](feats#_lunge), [Mounted Combat](feats#_mounted-combat), [Point-Blank Shot](feats#_point-blank-shot), [Power Attack](feats#_power-attack), Precise Shot, [Quick Draw](feats#_quick-draw), Ride-By Attack, [Snatch](monsters/monsterFeats#snatch) Arrows, Spirited Charge, Stunning Fist
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +15 (+51 when jumping), [Bluff](skills/bluff.md#_bluff) +11, [Climb](skills/climb.md#_climb) +12, [Diplomacy](skills/diplomacy.md#_diplomacy) +5, [Disguise](skills/disguise.md#_disguise) +3, [Handle Animal](skills/handleAnimal.md#_handle-animal) +5, [Intimidate](skills/intimidate.md#_intimidate) +12, [Knowledge](skills/knowledge.md#_knowledge) (arcana, geography) +1, [Knowledge](skills/knowledge.md#_knowledge) (local) +5, Perception +21, [Ride](skills/ride.md#_ride) +15, [Sense Motive](skills/senseMotive.md#_sense-motive) +13, [Stealth](skills/stealth.md#_stealth) +17, [Survival](skills/survival.md#_survival) +8, [Swim](skills/swim.md#_swim) +9
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +15 (+51 when jumping), [Bluff](skills/bluff#_bluff) +11, [Climb](skills/climb#_climb) +12, [Diplomacy](skills/diplomacy#_diplomacy) +5, [Disguise](skills/disguise#_disguise) +3, [Handle Animal](skills/handleAnimal#_handle-animal) +5, [Intimidate](skills/intimidate#_intimidate) +12, [Knowledge](skills/knowledge#_knowledge) (arcana, geography) +1, [Knowledge](skills/knowledge#_knowledge) (local) +5, Perception +21, [Ride](skills/ride#_ride) +15, [Sense Motive](skills/senseMotive#_sense-motive) +13, [Stealth](skills/stealth#_stealth) +17, [Survival](skills/survival#_survival) +8, [Swim](skills/swim#_swim) +9
 
 **Languages** Common
 
 **SQ** abundant step, diamond body, diamond soul, fast movement, high jump, _ki_ pool (11 points, adamantine, lawful, magic), maneuver training, purity of body, slow fall 80 ft., wholeness of body
 
-**Combat Gear** _potion of [comprehend languages](spells/comprehendLanguages.md#_comprehend-languages)_, _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds) _(2), _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potions of [glibness](spells/glibness.md#_glibness)_ (2), _potion of [invisibility](spells/invisibility.md#_invisibility)_, drow poison (2), giant wasp poison (2), medium spider venom (3); **Other Gear** _+1 spear,_ blowgun with 20 blowgun darts, _ [amulet of mighty fists](magicItems/wondrousItems.md#_amulet-of-mighty-fists) +1_, _ [bag of holding](magicItems/wondrousItems.md#_bag-of-holding) _(type I)_, [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +2, [boots of elvenkind](magicItems/wondrousItems.md#_boots-of-elvenkind), [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +4, [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3, [eyes of the eagle](magicItems/wondrousItems.md#_eyes-of-the-eagle), [hat of disguise](magicItems/wondrousItems.md#_hat-of-disguise), [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +2, [ring of protection](magicItems/rings.md#_ring-of-protection) +2, _light horse (combat trained), 15 gp
+**Combat Gear** _potion of [comprehend languages](spells/comprehendLanguages#_comprehend-languages)_, _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds) _(2), _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _potions of [glibness](spells/glibness#_glibness)_ (2), _potion of [invisibility](spells/invisibility#_invisibility)_, drow poison (2), giant wasp poison (2), medium spider venom (3); **Other Gear** _+1 spear,_ blowgun with 20 blowgun darts, _ [amulet of mighty fists](magicItems/wondrousItems#_amulet-of-mighty-fists) +1_, _ [bag of holding](magicItems/wondrousItems#_bag-of-holding) _(type I)_, [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +2, [boots of elvenkind](magicItems/wondrousItems#_boots-of-elvenkind), [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +4, [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +3, [eyes of the eagle](magicItems/wondrousItems#_eyes-of-the-eagle), [hat of disguise](magicItems/wondrousItems#_hat-of-disguise), [headband of inspired wisdom](magicItems/wondrousItems#_headband-of-inspired-wisdom) +2, [ring of protection](magicItems/rings#_ring-of-protection) +2, _light horse (combat trained), 15 gp
 
 These warriors are dangerous on or off their mounts.
 
@@ -956,7 +956,7 @@ Offense
 
 **Speed** 70 ft.
 
-**Melee** _+1 unarmed strike _+18/+13/+8 (2d6+4) or _+1 [ki focus](magicItems/weapons.md#_weapons-ki-focus) kama _+17/+12/+7 (1d4+4) or _+1 unarmed strike _flurry of blows +20/+20/+15/+15/+10/+10/+5 (2d6+4)
+**Melee** _+1 unarmed strike _+18/+13/+8 (2d6+4) or _+1 [ki focus](magicItems/weapons#_weapons-ki-focus) kama _+17/+12/+7 (1d4+4) or _+1 unarmed strike _flurry of blows +20/+20/+15/+15/+10/+10/+5 (2d6+4)
 
 **Ranged** mwk shuriken +16/+11/+6 (1d1+3) or mwk shuriken flurry of blows +16/+16/+11/+11/+6/+6/+1 (1d1+3)
 
@@ -964,11 +964,11 @@ Offense
 
 Tactics
 
-**Before Combat** The monk drinks his _potions of [barkskin](spells/barkskin.md#_barkskin)_ and _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_ (fire) if he has had time to study his foes' weaknesses. When fighting in cramped or narrow areas, he instead drinks his _potion of [invisibility](spells/invisibility.md#_invisibility)_ and coats an area of the floor with his _ [salve of slipperiness](magicItems/wondrousItems.md#_salve-of-slipperiness)_. He then waits for foes to enter the greased area before attacking.
+**Before Combat** The monk drinks his _potions of [barkskin](spells/barkskin#_barkskin)_ and _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_ (fire) if he has had time to study his foes' weaknesses. When fighting in cramped or narrow areas, he instead drinks his _potion of [invisibility](spells/invisibility#_invisibility)_ and coats an area of the floor with his _ [salve of slipperiness](magicItems/wondrousItems#_salve-of-slipperiness)_. He then waits for foes to enter the greased area before attacking.
 
-**During Combat** The monk uses his kama in conjunction with Spring Attack and Improved Trip to knock foes prone, potentially using the kama's _ [ki focus](magicItems/weapons.md#_weapons-ki-focus)_ special ability to channel his Stunning Fist. If he has successfully tripped foes with his _ [salve of slipperiness](magicItems/wondrousItems.md#_salve-of-slipperiness)_, he activates his _ [slippers of spider climbing](magicItems/wondrousItems.md#_slippers-of-spider-climbing) _so he doesn't have to cross the slippery floor, and uses flurry of blows with his shuriken. If outnumbered, he uses his _ [elemental gem](magicItems/wondrousItems.md#_elemental-gem)_ and flanks with the earth elemental.
+**During Combat** The monk uses his kama in conjunction with Spring Attack and Improved Trip to knock foes prone, potentially using the kama's _ [ki focus](magicItems/weapons#_weapons-ki-focus)_ special ability to channel his Stunning Fist. If he has successfully tripped foes with his _ [salve of slipperiness](magicItems/wondrousItems#_salve-of-slipperiness)_, he activates his _ [slippers of spider climbing](magicItems/wondrousItems#_slippers-of-spider-climbing) _so he doesn't have to cross the slippery floor, and uses flurry of blows with his shuriken. If outnumbered, he uses his _ [elemental gem](magicItems/wondrousItems#_elemental-gem)_ and flanks with the earth elemental.
 
-**Base Statistics** Without_ [barkskin](spells/barkskin.md#_barkskin)_ and _ [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy)_, the monk's statistics are **Immune** disease, poison; **AC** 28, touch 24, flat-footed 25.
+**Base Statistics** Without_ [barkskin](spells/barkskin#_barkskin)_ and _ [protection from energy](spells/protectionFromEnergy#_protection-from-energy)_, the monk's statistics are **Immune** disease, poison; **AC** 28, touch 24, flat-footed 25.
 
 Statistics
 
@@ -976,15 +976,15 @@ Statistics
 
 **Base Atk** +12; **CMB** +19 (+21 trip); **CMD** 37 (39 vs. trip)
 
-**Feats** [Acrobatic](feats.md#_acrobatic) Steps, [Blind-Fight](feats.md#_blind-fight), [Combat Reflexes](feats.md#_combat-reflexes), [Deadly Aim](feats.md#_deadly-aim), [Dodge](feats.md#_dodge), Improved Trip, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), Mobility, [Nimble Moves](feats.md#_nimble-moves), [Point-Blank Shot](feats.md#_point-blank-shot), [Power Attack](feats.md#_power-attack), Precise Shot, Scorpion Style, Spring Attack, Stunning Fist, [Weapon Focus](feats.md#_weapon-focus) (unarmed strike)
+**Feats** [Acrobatic](feats#_acrobatic) Steps, [Blind-Fight](feats#_blind-fight), [Combat Reflexes](feats#_combat-reflexes), [Deadly Aim](feats#_deadly-aim), [Dodge](feats#_dodge), Improved Trip, [Improved Unarmed Strike](feats#_improved-unarmed-strike), Mobility, [Nimble Moves](feats#_nimble-moves), [Point-Blank Shot](feats#_point-blank-shot), [Power Attack](feats#_power-attack), Precise Shot, Scorpion Style, Spring Attack, Stunning Fist, [Weapon Focus](feats#_weapon-focus) (unarmed strike)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +20 (+53 when jumping), [Climb](skills/climb.md#_climb) +16, [Craft](skills/craft.md#_craft) (pottery) +8, [Diplomacy](skills/diplomacy.md#_diplomacy) +4, [Disable Device](skills/disableDevice.md#_disable-device) +7, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, engineering) +6, [Knowledge](skills/knowledge.md#_knowledge) (history) +7, Perception +23, [Sense Motive](skills/senseMotive.md#_sense-motive) +15, [Stealth](skills/stealth.md#_stealth) +24, [Survival](skills/survival.md#_survival) +8, [Swim](skills/swim.md#_swim) +7
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +20 (+53 when jumping), [Climb](skills/climb#_climb) +16, [Craft](skills/craft#_craft) (pottery) +8, [Diplomacy](skills/diplomacy#_diplomacy) +4, [Disable Device](skills/disableDevice#_disable-device) +7, [Knowledge](skills/knowledge#_knowledge) (dungeoneering, engineering) +6, [Knowledge](skills/knowledge#_knowledge) (history) +7, Perception +23, [Sense Motive](skills/senseMotive#_sense-motive) +15, [Stealth](skills/stealth#_stealth) +24, [Survival](skills/survival#_survival) +8, [Swim](skills/swim#_swim) +7
 
 **Languages** Common, Dwarven, Gnome, Sylvan; tongue of the sun and moon
 
 **SQ** abundant step, diamond body, diamond soul, fast movement, high jump, _ki_ pool (12 points, adamantine, lawful, magic), maneuver training, purity of body, slow fall 80 ft., timeless body, wholeness of body
 
-**Combat Gear** _ [elemental gem](magicItems/wondrousItems.md#_elemental-gem) _(earth)_, potion of [barkskin](spells/barkskin.md#_barkskin)_, _potion of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_, _potion of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _potion of [invisibility](spells/invisibility.md#_invisibility)_, _potion of [protection from energy](spells/protectionFromEnergy.md#_protection-from-energy) _(fire), _salve of slipperiness_; **Other Gear** _+1 [ki focus](magicItems/weapons.md#_weapons-ki-focus) kama,_ masterwork shuriken (40), _ [amulet of mighty fists](magicItems/wondrousItems.md#_amulet-of-mighty-fists) +1, [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength), [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +4_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2, [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +2, [ring of protection](magicItems/rings.md#_ring-of-protection) +2, [slippers of spider climbing](magicItems/wondrousItems.md#_slippers-of-spider-climbing)_, 200 gp
+**Combat Gear** _ [elemental gem](magicItems/wondrousItems#_elemental-gem) _(earth)_, potion of [barkskin](spells/barkskin#_barkskin)_, _potion of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_, _potion of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_, _potion of [invisibility](spells/invisibility#_invisibility)_, _potion of [protection from energy](spells/protectionFromEnergy#_protection-from-energy) _(fire), _salve of slipperiness_; **Other Gear** _+1 [ki focus](magicItems/weapons#_weapons-ki-focus) kama,_ masterwork shuriken (40), _ [amulet of mighty fists](magicItems/wondrousItems#_amulet-of-mighty-fists) +1, [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength), [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +4_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +2, [headband of inspired wisdom](magicItems/wondrousItems#_headband-of-inspired-wisdom) +2, [ring of protection](magicItems/rings#_ring-of-protection) +2, [slippers of spider climbing](magicItems/wondrousItems#_slippers-of-spider-climbing)_, 200 gp
 
 Sometimes adventuring monks return home to serve their communities as chiefs, lawgivers, and protectors. Such towns and villages are thus far more dangerous to assault than one might expect.
 
@@ -1020,11 +1020,11 @@ Offense
 
 Tactics
 
-**Before Combat** The monk attempts to get close to an opponent through [Bluff](skills/bluff.md#_bluff) or [Diplomacy](skills/diplomacy.md#_diplomacy), then drinks her _potions of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_ and _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_.
+**Before Combat** The monk attempts to get close to an opponent through [Bluff](skills/bluff#_bluff) or [Diplomacy](skills/diplomacy#_diplomacy), then drinks her _potions of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_ and _ [bull's strength](spells/bullSStrength#_bull-s-strength)_.
 
-**During Combat** Against a single foe, the monk opens with Stunning Fist augmented with Improved [Vital Strike](feats.md#_vital-strike), then tries to grapple the stunned foe. Against multiple opponents, she uses flurry of blows to attempt trip and disarm maneuvers, making as many foes prone or weaponless as possible, then strikes when those opponents provoke attacks of opportunity. Against foes too large to grapple or immune to stunning, she uses her _ki_ pool to boost her movement, then Spring Attack with Improved [Vital Strike](feats.md#_vital-strike) to make hit and run attacks.
+**During Combat** Against a single foe, the monk opens with Stunning Fist augmented with Improved [Vital Strike](feats#_vital-strike), then tries to grapple the stunned foe. Against multiple opponents, she uses flurry of blows to attempt trip and disarm maneuvers, making as many foes prone or weaponless as possible, then strikes when those opponents provoke attacks of opportunity. Against foes too large to grapple or immune to stunning, she uses her _ki_ pool to boost her movement, then Spring Attack with Improved [Vital Strike](feats#_vital-strike) to make hit and run attacks.
 
-**Base Statistics** Without_ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_ and _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, the monk's statistics are **hp** 112; **Fort** +14; **Melee** _+2 unarmed strike_ +21/+16/+11 (2d8+2) or mwk cold iron dagger +20/+15/+10 (1d4/19–20) or flurry of blows (_+2 unarmed strike_) +22/+22/+17/+17/+12/+12/+7 (2d8+2); **Ranged** mwk cold iron dagger +20/+15/+10 (1d4/19–20); **Str** 10, **Con** 12; **CMD** 45 (47 vs. trip); **Skills** [Climb](skills/climb.md#_climb) +4, [Swim](skills/swim.md#_swim) +5.
+**Base Statistics** Without_ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_ and _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, the monk's statistics are **hp** 112; **Fort** +14; **Melee** _+2 unarmed strike_ +21/+16/+11 (2d8+2) or mwk cold iron dagger +20/+15/+10 (1d4/19–20) or flurry of blows (_+2 unarmed strike_) +22/+22/+17/+17/+12/+12/+7 (2d8+2); **Ranged** mwk cold iron dagger +20/+15/+10 (1d4/19–20); **Str** 10, **Con** 12; **CMD** 45 (47 vs. trip); **Skills** [Climb](skills/climb#_climb) +4, [Swim](skills/swim#_swim) +5.
 
 Statistics
 
@@ -1032,15 +1032,15 @@ Statistics
 
 **Base Atk** +13; **CMB** +24 (+26 grapple, +28 trip); **CMD** 47 (49 vs. trip)
 
-**Feats** [Agile Maneuvers](feats.md#_agile-maneuvers), [Combat Expertise](feats.md#_combat-expertise), [Combat Reflexes](feats.md#_combat-reflexes), [Defensive Combat Training](feats.md#_defensive-combat-training), [Dodge](feats.md#_dodge), Greater Trip, Improved Bull Rush, Improved Disarm, Improved Grapple, Improved Trip, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), Improved [Vital Strike](feats.md#_vital-strike), [Skill Focus](feats.md#_skill-focus) ( [Acrobatics](skills/acrobatics.md#_acrobatics)), Spring Attack, [Strike Back](feats.md#_strike-back), Stunning Fist, [Vital Strike](feats.md#_vital-strike), [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Agile Maneuvers](feats#_agile-maneuvers), [Combat Expertise](feats#_combat-expertise), [Combat Reflexes](feats#_combat-reflexes), [Defensive Combat Training](feats#_defensive-combat-training), [Dodge](feats#_dodge), Greater Trip, Improved Bull Rush, Improved Disarm, Improved Grapple, Improved Trip, [Improved Unarmed Strike](feats#_improved-unarmed-strike), Improved [Vital Strike](feats#_vital-strike), [Skill Focus](feats#_skill-focus) ( [Acrobatics](skills/acrobatics#_acrobatics)), Spring Attack, [Strike Back](feats#_strike-back), Stunning Fist, [Vital Strike](feats#_vital-strike), [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +33 (+75 when jumping), [Bluff](skills/bluff.md#_bluff) +8, [Climb](skills/climb.md#_climb) +4, [Diplomacy](skills/diplomacy.md#_diplomacy) +8, [Knowledge](skills/knowledge.md#_knowledge) (history) +8, [Knowledge](skills/knowledge.md#_knowledge) (local) +6, [Knowledge](skills/knowledge.md#_knowledge) (religion) +7, Perception +24, [Perform](skills/perform.md#_perform) (dance) +6, [Sense Motive](skills/senseMotive.md#_sense-motive) +26, [Stealth](skills/stealth.md#_stealth) +23, [Swim](skills/swim.md#_swim) +5
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +33 (+75 when jumping), [Bluff](skills/bluff#_bluff) +8, [Climb](skills/climb#_climb) +4, [Diplomacy](skills/diplomacy#_diplomacy) +8, [Knowledge](skills/knowledge#_knowledge) (history) +8, [Knowledge](skills/knowledge#_knowledge) (local) +6, [Knowledge](skills/knowledge#_knowledge) (religion) +7, Perception +24, [Perform](skills/perform#_perform) (dance) +6, [Sense Motive](skills/senseMotive#_sense-motive) +26, [Stealth](skills/stealth#_stealth) +23, [Swim](skills/swim#_swim) +5
 
 **Languages** Common, Elven, Gnome; tongue of the sun and moon
 
 **SQ** abundant step, diamond body, diamond soul, elf blood, fast movement, high jump, _ki_ pool (14 points, adamantine, lawful, magic), maneuver training, purity of body, slow fall 90 ft., timeless body, wholeness of body
 
-**Combat Gear** _potion of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, _potion of [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _potions of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds) _(2), _potions of [entropic shield](spells/entropicShield.md#_entropic-shield)_ (2),_ [universal solvent](magicItems/wondrousItems.md#_universal-solvent) _(2); **Other Gear** masterwork cold iron dagger, _ [amulet of mighty fists](magicItems/wondrousItems.md#_amulet-of-mighty-fists) +_2, _ [belt of incredible dexterity](magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +6, [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +4_, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +2, [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +4_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +1, _298 gp
+**Combat Gear** _potion of [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, _potion of [bull's strength](spells/bullSStrength#_bull-s-strength)_, _potions of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds) _(2), _potions of [entropic shield](spells/entropicShield#_entropic-shield)_ (2),_ [universal solvent](magicItems/wondrousItems#_universal-solvent) _(2); **Other Gear** masterwork cold iron dagger, _ [amulet of mighty fists](magicItems/wondrousItems#_amulet-of-mighty-fists) +_2, _ [belt of incredible dexterity](magicItems/wondrousItems#_belt-of-incredible-dexterity) +6, [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +4_, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +2, [headband of inspired wisdom](magicItems/wondrousItems#_headband-of-inspired-wisdom) +4_, _ [ring of protection](magicItems/rings#_ring-of-protection) +1, _298 gp
 
 Devoted to the protection of druidic groves or other sacred places of power, grove guardians do anything necessary to protect what they guard.
 
@@ -1082,7 +1082,7 @@ Tactics
 
 **Before Combat** The monk prefers to challenge foes openly. He spends a point from his _ki_ pool to increase his speed.
 
-**During Combat** The monk uses Great Cleave and [Lunge](feats.md#_lunge) in tandem, normally spending a point from his _ki_ pool to offset the Armor Class penalty of these two feats. The monk makes unarmed strikes, attempting to stun or stagger with Stunning Fist and then use Improved Bull Rush to push the enemy away. If overwhelmed, the monk drinks a _potion of [mirror image](spells/mirrorImage.md#_mirror-image)_ to confuse attackers, uses Spring Attack or Great Cleave to attack multiple opponents as a standard action, then moves away quickly. The monk always leaves 2 points in his _ki _pool so he can use abundant step if he's severely threatened.
+**During Combat** The monk uses Great Cleave and [Lunge](feats#_lunge) in tandem, normally spending a point from his _ki_ pool to offset the Armor Class penalty of these two feats. The monk makes unarmed strikes, attempting to stun or stagger with Stunning Fist and then use Improved Bull Rush to push the enemy away. If overwhelmed, the monk drinks a _potion of [mirror image](spells/mirrorImage#_mirror-image)_ to confuse attackers, uses Spring Attack or Great Cleave to attack multiple opponents as a standard action, then moves away quickly. The monk always leaves 2 points in his _ki _pool so he can use abundant step if he's severely threatened.
 
 Statistics
 
@@ -1090,15 +1090,15 @@ Statistics
 
 **Base Atk** +14; **CMB** +24 (+26 trip); **CMD** 46 (48 vs. trip)
 
-**Feats** Cleave, [Combat Reflexes](feats.md#_combat-reflexes), [Critical Focus](feats.md#_critical-focus), [Dodge](feats.md#_dodge), Extra _Ki_, Great Cleave, Improved Bull Rush, [Improved Critical](feats.md#_improved-critical) (longsword), Improved Trip, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), [Lunge](feats.md#_lunge), [Martial Weapon Proficiency](feats.md#_martial-weapon-proficiency) (longsword), [Power Attack](feats.md#_power-attack), Spring Attack, Stand Still, Stunning Fist, Tiring Critical, [Weapon Focus](feats.md#_weapon-focus) (longsword)
+**Feats** Cleave, [Combat Reflexes](feats#_combat-reflexes), [Critical Focus](feats#_critical-focus), [Dodge](feats#_dodge), Extra _Ki_, Great Cleave, Improved Bull Rush, [Improved Critical](feats#_improved-critical) (longsword), Improved Trip, [Improved Unarmed Strike](feats#_improved-unarmed-strike), [Lunge](feats#_lunge), [Martial Weapon Proficiency](feats#_martial-weapon-proficiency) (longsword), [Power Attack](feats#_power-attack), Spring Attack, Stand Still, Stunning Fist, Tiring Critical, [Weapon Focus](feats#_weapon-focus) (longsword)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +27 (+70 when jumping), [Intimidate](skills/intimidate.md#_intimidate) +12, [Knowledge](skills/knowledge.md#_knowledge) (arcana, nobility) +6, [Knowledge](skills/knowledge.md#_knowledge) (history) +14, [Knowledge](skills/knowledge.md#_knowledge) (religion) +9, [Linguistics](skills/linguistics.md#_linguistics) +5, Perception +19, [Sense Motive](skills/senseMotive.md#_sense-motive) +26, [Stealth](skills/stealth.md#_stealth) +16
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +27 (+70 when jumping), [Intimidate](skills/intimidate#_intimidate) +12, [Knowledge](skills/knowledge#_knowledge) (arcana, nobility) +6, [Knowledge](skills/knowledge#_knowledge) (history) +14, [Knowledge](skills/knowledge#_knowledge) (religion) +9, [Linguistics](skills/linguistics#_linguistics) +5, Perception +19, [Sense Motive](skills/senseMotive#_sense-motive) +26, [Stealth](skills/stealth#_stealth) +16
 
 **Languages** Common, Draconic, Dwarven, Elven, Giant, Infernal, Undercommon; tongue of the sun and moon
 
 **SQ** abundant step, diamond body, diamond soul, empty body, fast movement, high jump, _ki _pool (16 points, adamantine, lawful, magic), maneuver training, purity of body, slow fall 90 ft., timeless body, wholeness of body
 
-**Combat Gear** _potions of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds)_ (2), _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_ (2), _potions of [mirror image](spells/mirrorImage.md#_mirror-image)_ (2), _ [silversheen](magicItems/wondrousItems.md#_silversheen)_ (2); **Other Gear** _+3 longsword, +1 shuriken _(50), _ [amulet of mighty fists](magicItems/wondrousItems.md#_amulet-of-mighty-fists) +1_, _ [bag of holding](magicItems/wondrousItems.md#_bag-of-holding) _(type I), _ [belt of physical might](magicItems/wondrousItems.md#_belt-of-physical-might) _(Str, Dex)_ +4_, _ [boots of elvenkind](magicItems/wondrousItems.md#_boots-of-elvenkind)_, _ [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +4, [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +3, [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +4, [ring of protection](magicItems/rings.md#_ring-of-protection) +2, _191 gp
+**Combat Gear** _potions of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds)_ (2), _potions of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_ (2), _potions of [mirror image](spells/mirrorImage#_mirror-image)_ (2), _ [silversheen](magicItems/wondrousItems#_silversheen)_ (2); **Other Gear** _+3 longsword, +1 shuriken _(50), _ [amulet of mighty fists](magicItems/wondrousItems#_amulet-of-mighty-fists) +1_, _ [bag of holding](magicItems/wondrousItems#_bag-of-holding) _(type I), _ [belt of physical might](magicItems/wondrousItems#_belt-of-physical-might) _(Str, Dex)_ +4_, _ [boots of elvenkind](magicItems/wondrousItems#_boots-of-elvenkind)_, _ [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +4, [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +3, [headband of inspired wisdom](magicItems/wondrousItems#_headband-of-inspired-wisdom) +4, [ring of protection](magicItems/rings#_ring-of-protection) +2, _191 gp
 
 Some elven monks master the art of carnage with one chosen weapon. Sword savants are particularly adept at keeping their foes at a distance until it's time to land the killing blow.
 
@@ -1142,11 +1142,11 @@ Offense
 
 Tactics
 
-**Before Combat** The monk drinks his _potions of [barkskin](spells/barkskin.md#_barkskin) _and _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_.
+**Before Combat** The monk drinks his _potions of [barkskin](spells/barkskin#_barkskin) _and _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_.
 
-**During Combat** The monk expends a point from his _ki_ pool at the beginning of combat to increase his speed. He then closes with a single opponent to deliver an Improved [Vital Strike](feats.md#_vital-strike) combined with Stunning Fist. If successful, he makes a full attack with his flurry of blows in the next round, attempting to finish the hampered opponent. He uses this tactic whenever possible, using flurry of blows or [Power Attack](feats.md#_power-attack) only against targets that have already had their AC compromised from being stunned or tripped. Otherwise, he uses his mobility and high [Acrobatics](skills/acrobatics.md#_acrobatics) skill to move in and out of melee. When fighting four or more opponents, the monk activates his _ [feather token](magicItems/wondrousItems.md#_feather-token)_ (whip) and targets spellcasters first with Stunning Fist combined with Medusa's Wrath.
+**During Combat** The monk expends a point from his _ki_ pool at the beginning of combat to increase his speed. He then closes with a single opponent to deliver an Improved [Vital Strike](feats#_vital-strike) combined with Stunning Fist. If successful, he makes a full attack with his flurry of blows in the next round, attempting to finish the hampered opponent. He uses this tactic whenever possible, using flurry of blows or [Power Attack](feats#_power-attack) only against targets that have already had their AC compromised from being stunned or tripped. Otherwise, he uses his mobility and high [Acrobatics](skills/acrobatics#_acrobatics) skill to move in and out of melee. When fighting four or more opponents, the monk activates his _ [feather token](magicItems/wondrousItems#_feather-token)_ (whip) and targets spellcasters first with Stunning Fist combined with Medusa's Wrath.
 
-**Base Statistics** Without_ [barkskin](spells/barkskin.md#_barkskin)_ and _ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_, the monk's statistics are **AC** 32, touch 27, flat-footed 29; **hp** 113; **Fort** +16; **Con** 10.
+**Base Statistics** Without_ [barkskin](spells/barkskin#_barkskin)_ and _ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_, the monk's statistics are **AC** 32, touch 27, flat-footed 29; **hp** 113; **Fort** +16; **Con** 10.
 
 Statistics
 
@@ -1154,15 +1154,15 @@ Statistics
 
 **Base Atk** +15; **CMB** +24 (+26 trip); **CMD** 46 (48 vs. trip)
 
-**Feats** [Blind-Fight](feats.md#_blind-fight), [Combat Expertise](feats.md#_combat-expertise), [Combat Reflexes](feats.md#_combat-reflexes), Deflect Arrows, [Dodge](feats.md#_dodge), Gorgon's Fist, [Improved Initiative](feats.md#_improved-initiative), Improved Trip, [Improved Unarmed Strike](feats.md#_improved-unarmed-strike), Improved [Vital Strike](feats.md#_vital-strike), Lightning Stance, Medusa's Wrath, [Power Attack](feats.md#_power-attack), Scorpion Style, Spring Attack, Stunning Fist, [Vital Strike](feats.md#_vital-strike), [Weapon Focus](feats.md#_weapon-focus) (unarmed strike), Wind Stance
+**Feats** [Blind-Fight](feats#_blind-fight), [Combat Expertise](feats#_combat-expertise), [Combat Reflexes](feats#_combat-reflexes), Deflect Arrows, [Dodge](feats#_dodge), Gorgon's Fist, [Improved Initiative](feats#_improved-initiative), Improved Trip, [Improved Unarmed Strike](feats#_improved-unarmed-strike), Improved [Vital Strike](feats#_vital-strike), Lightning Stance, Medusa's Wrath, [Power Attack](feats#_power-attack), Scorpion Style, Spring Attack, Stunning Fist, [Vital Strike](feats#_vital-strike), [Weapon Focus](feats#_weapon-focus) (unarmed strike), Wind Stance
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +20 (+64 when jumping), [Bluff](skills/bluff.md#_bluff) +5, [Craft](skills/craft.md#_craft) (origami) +14, [Diplomacy](skills/diplomacy.md#_diplomacy) +5, [Heal](skills/heal.md#_heal) +19, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +6, [Knowledge](skills/knowledge.md#_knowledge) (history) +14, [Knowledge](skills/knowledge.md#_knowledge) (religion) +9, [Linguistics](skills/linguistics.md#_linguistics) +3, Perception +28, [Sense Motive](skills/senseMotive.md#_sense-motive) +30, [Stealth](skills/stealth.md#_stealth) +18
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +20 (+64 when jumping), [Bluff](skills/bluff#_bluff) +5, [Craft](skills/craft#_craft) (origami) +14, [Diplomacy](skills/diplomacy#_diplomacy) +5, [Heal](skills/heal#_heal) +19, [Knowledge](skills/knowledge#_knowledge) (arcana) +6, [Knowledge](skills/knowledge#_knowledge) (history) +14, [Knowledge](skills/knowledge#_knowledge) (religion) +9, [Linguistics](skills/linguistics#_linguistics) +3, Perception +28, [Sense Motive](skills/senseMotive#_sense-motive) +30, [Stealth](skills/stealth#_stealth) +18
 
 **Languages** Common, Draconic, Dwarven, Elven; tongue of the sun and moon
 
 **SQ** abundant step, diamond body, diamond soul, empty body, fast movement, high jump, _ki_ pool (17 points, adamantine, lawful, magic), maneuver training, perfect self, purity of body, slow fall any distance, timeless body, wholeness of body
 
-**Combat Gear** _ [dust of appearance](magicItems/wondrousItems.md#_dust-of-appearance), [feather token](magicItems/wondrousItems.md#_feather-token) _(whip)_, potions of [barkskin](spells/barkskin.md#_barkskin)_ (3), _potions of [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance) _(2), _potions of [cure light wounds](spells/cureLightWounds.md#_cure-light-wounds) _(2), _potions of [cure moderate wounds](spells/cureModerateWounds.md#_cure-moderate-wounds) _(2), _potions of [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds) _(3), _potions of [lesser restoration](spells/restoration.md#_restoration-lesser)_ (2),_ universal solvent _(2); **Other Gear** masterwork alchemical silver dagger, shuriken (50), _ [amulet of mighty fists](magicItems/wondrousItems.md#_amulet-of-mighty-fists) +3, [bag of holding](magicItems/wondrousItems.md#_bag-of-holding) _(type I)_, [belt of giant strength](magicItems/wondrousItems.md#_belt-of-giant-strength) +4_, _ [boots of elvenkind](magicItems/wondrousItems.md#_boots-of-elvenkind), [bracers of armor](magicItems/wondrousItems.md#_bracers-of-armor) +_5, _ [cloak of resistance](magicItems/wondrousItems.md#_cloak-of-resistance) +4, [headband of inspired wisdom](magicItems/wondrousItems.md#_headband-of-inspired-wisdom) +6_, _ [ring of protection](magicItems/rings.md#_ring-of-protection) +2_, healer's kit, 130 gp
+**Combat Gear** _ [dust of appearance](magicItems/wondrousItems#_dust-of-appearance), [feather token](magicItems/wondrousItems#_feather-token) _(whip)_, potions of [barkskin](spells/barkskin#_barkskin)_ (3), _potions of [bear's endurance](spells/bearSEndurance#_bear-s-endurance) _(2), _potions of [cure light wounds](spells/cureLightWounds#_cure-light-wounds) _(2), _potions of [cure moderate wounds](spells/cureModerateWounds#_cure-moderate-wounds) _(2), _potions of [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds) _(3), _potions of [lesser restoration](spells/restoration#_restoration-lesser)_ (2),_ universal solvent _(2); **Other Gear** masterwork alchemical silver dagger, shuriken (50), _ [amulet of mighty fists](magicItems/wondrousItems#_amulet-of-mighty-fists) +3, [bag of holding](magicItems/wondrousItems#_bag-of-holding) _(type I)_, [belt of giant strength](magicItems/wondrousItems#_belt-of-giant-strength) +4_, _ [boots of elvenkind](magicItems/wondrousItems#_boots-of-elvenkind), [bracers of armor](magicItems/wondrousItems#_bracers-of-armor) +_5, _ [cloak of resistance](magicItems/wondrousItems#_cloak-of-resistance) +4, [headband of inspired wisdom](magicItems/wondrousItems#_headband-of-inspired-wisdom) +6_, _ [ring of protection](magicItems/rings#_ring-of-protection) +2_, healer's kit, 130 gp
 
 Ageless masters prefer to spread wisdom, but once roused they are dangerous opponents.
 

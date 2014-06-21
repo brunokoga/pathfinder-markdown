@@ -6,9 +6,9 @@ Magmin CR 3
 
 XP 800
 
-CN Small outsider ( [elemental](monsters/creatureTypes.md#_elemental-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [fire](monsters/creatureTypes.md#_fire-subtype))
+CN Small outsider ( [elemental](monsters/creatureTypes#_elemental-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [fire](monsters/creatureTypes#_fire-subtype))
 
-**Init** +0; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +7
+**Init** +0; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +7
 
 **Aura** searing aura (20 ft., DC 14)
 
@@ -20,9 +20,9 @@ Defense
 
 **Fort** +6, **Ref** +4, **Will** +3
 
-**DR** 5/magic; **Immune** [elemental](monsters/creatureTypes.md#_elemental-subtype) traits, [fire](monsters/creatureTypes.md#_fire-subtype)
+**DR** 5/magic; **Immune** [elemental](monsters/creatureTypes#_elemental-subtype) traits, [fire](monsters/creatureTypes#_fire-subtype)
 
-**Weaknesses** vulnerable to [cold](monsters/creatureTypes.md#_cold-subtype)
+**Weaknesses** vulnerable to [cold](monsters/creatureTypes#_cold-subtype)
 
 Offense
 
@@ -38,9 +38,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +5; **CMD** 15
 
-**Feats** [Iron Will](feats.md#_iron-will), [Power Attack](feats.md#_power-attack)
+**Feats** [Iron Will](feats#_iron-will), [Power Attack](feats#_power-attack)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +7, [Climb](skills/climb.md#_climb) +9, [Perception](skills/perception.md#_perception) +7, [Sense Motive](skills/senseMotive.md#_sense-motive) +7, [Stealth](skills/stealth.md#_stealth) +11
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +7, [Climb](skills/climb#_climb) +9, [Perception](skills/perception#_perception) +7, [Sense Motive](skills/senseMotive#_sense-motive) +7, [Stealth](skills/stealth#_stealth) +11
 
 **Languages** Ignan
 
@@ -48,7 +48,7 @@ Statistics
 
 Ecology
 
-**Environment** any land (Plane of [Fire](monsters/creatureTypes.md#_fire-subtype))
+**Environment** any land (Plane of [Fire](monsters/creatureTypes#_fire-subtype))
 
 **Organization** solitary or gang (2–8)
 
@@ -56,9 +56,9 @@ Ecology
 
 Special Abilities
 
-**Heated Flesh (Ex)** Any metal weapon striking a magmin must succeed at a DC 14 Fortitude save or melt and gain the broken condition. Another strike by the same weapon causes the metal weapon to be destroyed if it fails a second save. Wood weapons are destroyed after only one failed save. Unarmed and natural attacks made against the magmin deal 1 point of [fire](monsters/creatureTypes.md#_fire-subtype) damage to the attacker. The save DC is Constitution-based.
+**Heated Flesh (Ex)** Any metal weapon striking a magmin must succeed at a DC 14 Fortitude save or melt and gain the broken condition. Another strike by the same weapon causes the metal weapon to be destroyed if it fails a second save. Wood weapons are destroyed after only one failed save. Unarmed and natural attacks made against the magmin deal 1 point of [fire](monsters/creatureTypes#_fire-subtype) damage to the attacker. The save DC is Constitution-based.
 
-**Searing Aura (Ex)** A magmin radiates extremely high temperatures, and any creature that starts its turn within 20 feet of a magmin must succeed at a DC 14 Fortitude save or take 1d6 points of [fire](monsters/creatureTypes.md#_fire-subtype) damage. The save DC is Constitution-based.
+**Searing Aura (Ex)** A magmin radiates extremely high temperatures, and any creature that starts its turn within 20 feet of a magmin must succeed at a DC 14 Fortitude save or take 1d6 points of [fire](monsters/creatureTypes#_fire-subtype) damage. The save DC is Constitution-based.
 
 While magmins populate the Plane of Fire, they sometimes slip through elemental rifts into the Material Plane. These rifts usually occur in places of searing heat, such as volcanoes or underground rivers of magma, or in places of strong, unpredictable magic. The latter scenario usually results in more problematic entrances, as magmins tend to accidently set fire to any nearby flammable objects.
 

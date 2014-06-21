@@ -4,5 +4,5 @@ Darkvision, Communal
 
 **Target** creatures touched
 
-This spell functions like _ [darkvision](spells/darkvision.md#_darkvision)_, except you may divide the duration in 1-hour intervals among the creatures touched.
+This spell functions like _ [darkvision](spells/darkvision#_darkvision)_, except you may divide the duration in 1-hour intervals among the creatures touched.
 

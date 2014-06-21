@@ -14,7 +14,7 @@
 
 **Saving Throw** Will negates; **Spell Resistance** yes
 
-This spell curses the creature touched, making it inimical to the natural world. All animals have an initial attitude of hostile toward the target. Familiars, being magical beasts, are not affected by this spell, but animal companions are. If you have an animal companion, it does not become hostile, but as long as you remain cursed, your animal companion takes a –2 penalty on all attack rolls, skill checks, and saving throws. The target also takes a –10 penalty on [Survival](../../skills/survival.md#_survival) skill checks as the weather and environment themselves seem to conspire to cause trouble.
+This spell curses the creature touched, making it inimical to the natural world. All animals have an initial attitude of hostile toward the target. Familiars, being magical beasts, are not affected by this spell, but animal companions are. If you have an animal companion, it does not become hostile, but as long as you remain cursed, your animal companion takes a –2 penalty on all attack rolls, skill checks, and saving throws. The target also takes a –10 penalty on [Survival](../../skills/survival#_survival) skill checks as the weather and environment themselves seem to conspire to cause trouble.
 
-_Nature's exile_ can be removed with _ [break enchantment](../../spells/breakEnchantment.md#_break-enchantment)_, _ [limited wish](../../spells/limitedWish.md#_limited-wish)_, _ [miracle](../../spells/miracle.md#_miracle)_, _ [remove curse](../../spells/removeCurse.md#_remove-curse)_, or _ [wish](../../spells/wish.md#_wish)_.
+_Nature's exile_ can be removed with _ [break enchantment](../../spells/breakEnchantment#_break-enchantment)_, _ [limited wish](../../spells/limitedWish#_limited-wish)_, _ [miracle](../../spells/miracle#_miracle)_, _ [remove curse](../../spells/removeCurse#_remove-curse)_, or _ [wish](../../spells/wish#_wish)_.
 

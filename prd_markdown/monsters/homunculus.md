@@ -6,9 +6,9 @@ _This vaguely humanoid creature is about the size of a cat but looks more like a
 
 **XP 400**
 
-Any alignment (same as creator) Tiny [construct](creatureTypes.md#_construct)
+Any alignment (same as creator) Tiny [construct](creatureTypes#_construct)
 
-**Init** +2; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) +3
+**Init** +2; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception#_perception) +3
 
 **Defense**
 
@@ -18,13 +18,13 @@ Any alignment (same as creator) Tiny [construct](creatureTypes.md#_construct)
 
 **Fort** +0, **Ref** +4, **Will** +1
 
-**Defensive Abilities** [construct traits](universalMonsterRules.md#_construct-traits)
+**Defensive Abilities** [construct traits](universalMonsterRules#_construct-traits)
 
 **Offense**
 
 **Speed** 20 ft., fly 50 ft. (good)
 
-**Melee** 1 bite +3 (1d4–1 plus [poison](universalMonsterRules.md#_poison))
+**Melee** 1 bite +3 (1d4–1 plus [poison](universalMonsterRules#_poison))
 
 **Space** 2-1/2 ft.; **Reach** 0 ft.
 
@@ -34,9 +34,9 @@ Any alignment (same as creator) Tiny [construct](creatureTypes.md#_construct)
 
 **Base Atk** +2; **CMB** +2; **CMD** 11
 
-**Feats** [Lightning Reflexes](../feats.md#_lightning-reflexes)
+**Feats** [Lightning Reflexes](../feats#_lightning-reflexes)
 
-**Skills** [Fly](../skills/fly.md#_fly) +10, [Perception](../skills/perception.md#_perception) +3, [Stealth](../skills/stealth.md#_stealth) +12
+**Skills** [Fly](../skills/fly#_fly) +10, [Perception](../skills/perception#_perception) +3, [Stealth](../skills/stealth#_stealth) +12
 
 **Languages** Common (cannot speak); telepathic link
 
@@ -72,5 +72,5 @@ The person whose blood is used to form a homunculus's body becomes its master; i
 
 **Construction**
 
-**Requirements** [Craft Construct](monsterFeats.md#_craft-construct), _ [arcane eye](../spells/arcaneEye.md#_arcane-eye)_, _ [mirror image](../spells/mirrorImage.md#_mirror-image)_, _ [mending](../spells/mending.md#_mending)_; **Skill** [Craft](../skills/craft.md#_craft) (leather) or [Craft](../skills/craft.md#_craft) (sculptures) DC 12; **Cost** 1,050 gp.
+**Requirements** [Craft Construct](monsterFeats#_craft-construct), _ [arcane eye](../spells/arcaneEye#_arcane-eye)_, _ [mirror image](../spells/mirrorImage#_mirror-image)_, _ [mending](../spells/mending#_mending)_; **Skill** [Craft](../skills/craft#_craft) (leather) or [Craft](../skills/craft#_craft) (sculptures) DC 12; **Cost** 1,050 gp.
 

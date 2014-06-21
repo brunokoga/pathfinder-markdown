@@ -1,6 +1,6 @@
 Control Weather
 
-**Source** [_control weather_](spells/controlWeather.md#_control-weather)
+**Source** [_control weather_](spells/controlWeather#_control-weather)
 
 The casting time changes to 1 standard action, and the duration doubles. The weather changes after a number of rounds equal to 11 – your tier.
 

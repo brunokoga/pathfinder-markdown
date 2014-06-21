@@ -6,9 +6,9 @@ _A huge eye opens in this conical creature's front, just above a toothy mouth. L
 
 **XP 19,200**
 
-CE Large [aberration](creatureTypes.md#_aberration)
+CE Large [aberration](creatureTypes#_aberration)
 
-**Init** +5; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) +24
+**Init** +5; **Senses** darkvision 60 ft., low-light vision; [Perception](../skills/perception#_perception) +24
 
 **Defense**
 
@@ -40,9 +40,9 @@ CE Large [aberration](creatureTypes.md#_aberration)
 
 **Base Atk** +9; **CMB** +22; **CMD** 33 (can't be tripped)
 
-**Feats** [Improved Critical](../feats.md#_improved-critical) (bite), [Improved Initiative](../feats.md#_improved-initiative), [Iron Will](../feats.md#_iron-will), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception), [Stealth](../skills/stealth.md#_stealth)), [Weapon Focus](../feats.md#_weapon-focus) (strand)
+**Feats** [Improved Critical](../feats#_improved-critical) (bite), [Improved Initiative](../feats#_improved-initiative), [Iron Will](../feats#_iron-will), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception), [Stealth](../skills/stealth#_stealth)), [Weapon Focus](../feats#_weapon-focus) (strand)
 
-**Skills** [Climb](../skills/climb.md#_climb) +27, [Knowledge](../skills/knowledge.md#_knowledge) (dungeoneering) +16, [Knowledge](../skills/knowledge.md#_knowledge) (religion) +13, [Perception](../skills/perception.md#_perception) +24, [Stealth](../skills/stealth.md#_stealth) +18 (+26 in stony or icy areas); **Racial Modifiers** +8 [Stealth](../skills/stealth.md#_stealth) in stony or icy areas
+**Skills** [Climb](../skills/climb#_climb) +27, [Knowledge](../skills/knowledge#_knowledge) (dungeoneering) +16, [Knowledge](../skills/knowledge#_knowledge) (religion) +13, [Perception](../skills/perception#_perception) +24, [Stealth](../skills/stealth#_stealth) +18 (+26 in stony or icy areas); **Racial Modifiers** +8 [Stealth](../skills/stealth#_stealth) in stony or icy areas
 
 **Languages** Aklo, Undercommon
 
@@ -56,7 +56,7 @@ CE Large [aberration](creatureTypes.md#_aberration)
 
 **Special Abilities**
 
-**Strands (Ex)** A roper can extend up to six thin, sticky strands from its body at a time, launching them to a maximum range of 50 feet. A roper's attacks with its strands resolve as ranged touch attacks. These strands are quite strong, but can be severed by any amount of slashing damage (a strand is AC 20). A creature struck by a strand is numbed and weakened by the strange material, and must make a DC 25 Fortitude save or take 1d6 points of Strength [damage](universalMonsterRules.md#_ability-damage-and-drain). The save DC is Constitution-based.
+**Strands (Ex)** A roper can extend up to six thin, sticky strands from its body at a time, launching them to a maximum range of 50 feet. A roper's attacks with its strands resolve as ranged touch attacks. These strands are quite strong, but can be severed by any amount of slashing damage (a strand is AC 20). A creature struck by a strand is numbed and weakened by the strange material, and must make a DC 25 Fortitude save or take 1d6 points of Strength [damage](universalMonsterRules#_ability-damage-and-drain). The save DC is Constitution-based.
 
 The roper is an ambush hunter. Capable of altering the coloration and shape of its body, a roper in hiding looks remarkably like a stalagmite of stone or ice (or in low-ceilinged chambers, a stony or icy pillar). In areas without such features to hide among, a roper can compress its body into a much more squat, boulder-like shape. The strands it extrudes are not flesh but a thick, semiliquid material similar to partially melted wax but with the strength of an iron chain and the ability to numb flesh and sap strength. The roper can manipulate these strands with great finesse, and can fling them as far as 50 feet to snatch objects that attract its attention.
 

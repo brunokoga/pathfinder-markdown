@@ -12,9 +12,9 @@
 
 **Duration** 1 min./level
 
-**Saving Throw** [Will](../combat.md#_will) negates; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) negates; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
 This spell enables you to control undead creatures for a short period of time. You command them by voice and they understand you, no matter what language you speak. Even if vocal communication is impossible, the controlled undead do not attack you. At the end of the spell, the subjects revert to their normal behavior.
 
-[Int](../gettingStarted.md#_intelligence)elligent undead creatures remember that you controlled them, and they may seek revenge after the spell's effects end.
+[Int](../gettingStarted#_intelligence)elligent undead creatures remember that you controlled them, and they may seek revenge after the spell's effects end.
 

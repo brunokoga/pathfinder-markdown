@@ -10,7 +10,7 @@ Human fighter 2
 
 N Medium humanoid
 
-**Init** +5; **Senses** [Perception](../../skills/perception.md#_perception) +4
+**Init** +5; **Senses** [Perception](../../skills/perception#_perception) +4
 
 **Defense**
 
@@ -36,9 +36,9 @@ N Medium humanoid
 
 **Base Atk** +2; **CMB** +5; **CMD** 16
 
-**Feats** [Alertness](../../feats.md#_alertness), [Animal Affinity](../../feats.md#_animal-affinity), [Improved Initiative](../../feats.md#_improved-initiative), [Rapid Reload](../../feats.md#_rapid-reload)
+**Feats** [Alertness](../../feats#_alertness), [Animal Affinity](../../feats#_animal-affinity), [Improved Initiative](../../feats#_improved-initiative), [Rapid Reload](../../feats#_rapid-reload)
 
-**Skills** [Handle Animal](../../skills/handleAnimal.md#_handle-animal) +5, [Intimidate](../../skills/intimidate.md#_intimidate) +3, [Perception](../../skills/perception.md#_perception) +4, [Profession](../../skills/profession.md#_profession) (drover) +5, [Ride](../../skills/ride.md#_ride) +1, [Sense Motive](../../skills/senseMotive.md#_sense-motive) +3, [Survival](../../skills/survival.md#_survival) +5
+**Skills** [Handle Animal](../../skills/handleAnimal#_handle-animal) +5, [Intimidate](../../skills/intimidate#_intimidate) +3, [Perception](../../skills/perception#_perception) +4, [Profession](../../skills/profession#_profession) (drover) +5, [Ride](../../skills/ride#_ride) +1, [Sense Motive](../../skills/senseMotive#_sense-motive) +3, [Survival](../../skills/survival#_survival) +5
 
 **Languages** Common
 
@@ -48,7 +48,7 @@ N Medium humanoid
 
 Caravan guards are sturdy veterans with an eye for troublemakers. Often surly and pugnacious, they ride alongside pack and wagon trains with crossbows at the ready, but if real danger threatens most are more comfortable fighting with their boots safely on the ground and sword and shield in hand.
 
-Caravan guards can serve as scouts, messengers, or outriders. Replacing a caravan guard's [Alertness](../../feats.md#_alertness) and [Animal Affinity](../../feats.md#_animal-affinity) feats with [Mounted Combat](../../feats.md#_mounted-combat) and [Mounted Archery](../../feats.md#_mounted-archery) makes him more adept at fighting from horseback. Replacing [Rapid Reload](../../feats.md#_rapid-reload) with [Ride-By Attack](../../feats.md#_ride-by-attack) or [Trample](../../feats.md#_trample), coupled with the [Mounted Combat](../../feats.md#_mounted-combat) feats, creates a low-level nomadic horse warrior. For better flavor, exchange his longsword and heavy crossbow for a scimitar and composite shortbow.
+Caravan guards can serve as scouts, messengers, or outriders. Replacing a caravan guard's [Alertness](../../feats#_alertness) and [Animal Affinity](../../feats#_animal-affinity) feats with [Mounted Combat](../../feats#_mounted-combat) and [Mounted Archery](../../feats#_mounted-archery) makes him more adept at fighting from horseback. Replacing [Rapid Reload](../../feats#_rapid-reload) with [Ride-By Attack](../../feats#_ride-by-attack) or [Trample](../../feats#_trample), coupled with the [Mounted Combat](../../feats#_mounted-combat) feats, creates a low-level nomadic horse warrior. For better flavor, exchange his longsword and heavy crossbow for a scimitar and composite shortbow.
 
 Two slavers might use four caravan guards to watch their chattel (CR 7), while a squad of six caravan guards might accompany a highwayman (CR 8), or guard a group of six vagabonds (CR 8) or five pilgrims (CR 9). A troop of eight caravan guards is usually led by a sellsword (CR 9), or a traveling merchant or merchant prince can hire eight caravan guards to guard his caravan (CR 8 or 10).
 
@@ -60,7 +60,7 @@ Human fighter 8
 
 N Medium humanoid
 
-**Init** +6; **Senses** [Perception](../../skills/perception.md#_perception) +8
+**Init** +6; **Senses** [Perception](../../skills/perception#_perception) +8
 
 **Defense**
 
@@ -88,17 +88,17 @@ N Medium humanoid
 
 **Base Atk** +8; **CMB** +11; **CMD** 23
 
-**Feats** [Cleave](../../feats.md#_cleave), [Improved Critical](../../feats.md#_improved-critical) (bastard sword), [Improved Initiative](../../feats.md#_improved-initiative), [Improved Iron Will](../../feats.md#_improved-iron-will), [Iron Will](../../feats.md#_iron-will), [Power Attack](../../feats.md#_power-attack), [Toughness](../../feats.md#_toughness), [Vital Strike](../../feats.md#_vital-strike), [Weapon Focus](../../feats.md#_weapon-focus) (bastard sword), [Weapon Specialization](../../feats.md#_weapon-specialization) (bastard sword)
+**Feats** [Cleave](../../feats#_cleave), [Improved Critical](../../feats#_improved-critical) (bastard sword), [Improved Initiative](../../feats#_improved-initiative), [Improved Iron Will](../../feats#_improved-iron-will), [Iron Will](../../feats#_iron-will), [Power Attack](../../feats#_power-attack), [Toughness](../../feats#_toughness), [Vital Strike](../../feats#_vital-strike), [Weapon Focus](../../feats#_weapon-focus) (bastard sword), [Weapon Specialization](../../feats#_weapon-specialization) (bastard sword)
 
-**Skills** [Intimidate](../../skills/intimidate.md#_intimidate) +7, [Knowledge](../../skills/knowledge.md#_knowledge) (dungeoneering) +5, [Perception](../../skills/perception.md#_perception) +8, [Profession](../../skills/profession.md#_profession) (soldier) +5, [Ride](../../skills/ride.md#_ride) +8, [Survival](../../skills/survival.md#_survival) +10
+**Skills** [Intimidate](../../skills/intimidate#_intimidate) +7, [Knowledge](../../skills/knowledge#_knowledge) (dungeoneering) +5, [Perception](../../skills/perception#_perception) +8, [Profession](../../skills/profession#_profession) (soldier) +5, [Ride](../../skills/ride#_ride) +8, [Survival](../../skills/survival#_survival) +10
 
 **Languages** Common
 
 **SQ** armor training 2
 
-**Combat Gear** _potion of [align weapon](../../spells/alignWeapon.md#_align-weapon)_, _potion of [bull's strength](../../spells/bullSStrength.md#_bull-s-strength), potions of [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds) _(2); **Other Gear** _+1 full plate_, _+1 heavy steel [shield](../../spells/shield.md#_shield)_, _+1 bastard sword_, spiked gauntlet, javelins (5), _ [cloak of resistance](../../magicItems/wondrousItems.md#_cloak-of-resistance) +1_, 40 gp
+**Combat Gear** _potion of [align weapon](../../spells/alignWeapon#_align-weapon)_, _potion of [bull's strength](../../spells/bullSStrength#_bull-s-strength), potions of [cure light wounds](../../spells/cureLightWounds#_cure-light-wounds) _(2); **Other Gear** _+1 full plate_, _+1 heavy steel [shield](../../spells/shield#_shield)_, _+1 bastard sword_, spiked gauntlet, javelins (5), _ [cloak of resistance](../../magicItems/wondrousItems#_cloak-of-resistance) +1_, 40 gp
 
-**Boon** A sellsword may use her connections to help PCs buy +1 weapons or armor at a 10% discount, or lend her reputation to a PC with [Leadership](../../feats.md#_leadership), granting a +1 [Leadership](../../feats.md#_leadership) score bonus for 1 month to recruit warrior followers.
+**Boon** A sellsword may use her connections to help PCs buy +1 weapons or armor at a 10% discount, or lend her reputation to a PC with [Leadership](../../feats#_leadership), granting a +1 [Leadership](../../feats#_leadership) score bonus for 1 month to recruit warrior followers.
 
 Sellswords are the ultimate soldiers of fortune, owing loyalty to no one and nothing save cold, hard coins. Their only law is that once they are bought, they stay bought; there are no more paydays for a sellsword who proves treacherous. Still, even that law can fade when one's employer is on the losing side, and a bit of opportunism may help the sellsword live to fight another day.
 
@@ -114,7 +114,7 @@ Human ranger 12
 
 N Medium humanoid
 
-**Init** +5; **Senses** [Perception](../../skills/perception.md#_perception) +16
+**Init** +5; **Senses** [Perception](../../skills/perception#_perception) +16
 
 **Defense**
 
@@ -132,17 +132,17 @@ N Medium humanoid
 
 **Melee** mwk rapier +18/+13/+8 (1d6+2/18–20) or mwk sap +18/+13/+8 (1d6+2 nonlethal)
 
-**Ranged** _+1 [merciful](../../magicItems/weapons.md#_weapons-merciful) composite longbow_ +18/+13/+8 (1d8+3/×3 plus 1d6 nonlethal) or _+1 [merciful](../../magicItems/weapons.md#_weapons-merciful) composite longbow _+16/+16/+11/+6 (1d8+3/×3 plus 1d6 nonlethal)
+**Ranged** _+1 [merciful](../../magicItems/weapons#_weapons-merciful) composite longbow_ +18/+13/+8 (1d8+3/×3 plus 1d6 nonlethal) or _+1 [merciful](../../magicItems/weapons#_weapons-merciful) composite longbow _+16/+16/+11/+6 (1d8+3/×3 plus 1d6 nonlethal)
 
 **Special Attacks** favored enemy (humanoids [human] +6, humanoids [elf] +2, humanoids [halfling] +2), quarry
 
 **Ranger Spells Prepared** (CL 9th; concentration +10)
 
-3rd—_ [plant growth](../../spells/plantGrowth.md#_plant-growth)_
+3rd—_ [plant growth](../../spells/plantGrowth#_plant-growth)_
 
-2nd—_ [barkskin](../../spells/barkskin.md#_barkskin)_, _ [protection from energy](../../spells/protectionFromEnergy.md#_protection-from-energy)_
+2nd—_ [barkskin](../../spells/barkskin#_barkskin)_, _ [protection from energy](../../spells/protectionFromEnergy#_protection-from-energy)_
 
-1st—_ [delay poison](../../spells/delayPoison.md#_delay-poison)_, _ [entangle](../../spells/entangle.md#_entangle) _(DC 12), _ [longstrider](../../spells/longstrider.md#_longstrider)_
+1st—_ [delay poison](../../spells/delayPoison#_delay-poison)_, _ [entangle](../../spells/entangle#_entangle) _(DC 12), _ [longstrider](../../spells/longstrider#_longstrider)_
 
 **Statistics**
 
@@ -150,15 +150,15 @@ N Medium humanoid
 
 **Base Atk** +12; **CMB** +14; **CMD** 29
 
-**Feats** [Deadly Aim](../../feats.md#_deadly-aim), [Endurance](../../feats.md#_endurance), [Improved Precise Shot](../../feats.md#_improved-precise-shot), [Improved Vital Strike](../../feats.md#_improved-vital-strike), [Manyshot](../../feats.md#_manyshot), Pinpoint Targeting, Point Blank Shot, [Precise Shot](../../feats.md#_precise-shot), [Rapid Shot](../../feats.md#_rapid-shot), [Vital Strike](../../feats.md#_vital-strike), [Weapon Finesse](../../feats.md#_weapon-finesse)
+**Feats** [Deadly Aim](../../feats#_deadly-aim), [Endurance](../../feats#_endurance), [Improved Precise Shot](../../feats#_improved-precise-shot), [Improved Vital Strike](../../feats#_improved-vital-strike), [Manyshot](../../feats#_manyshot), Pinpoint Targeting, Point Blank Shot, [Precise Shot](../../feats#_precise-shot), [Rapid Shot](../../feats#_rapid-shot), [Vital Strike](../../feats#_vital-strike), [Weapon Finesse](../../feats#_weapon-finesse)
 
-**Skills** [Climb](../../skills/climb.md#_climb) +10, [Craft](../../skills/craft.md#_craft) (traps) +10, [Handle Animal](../../skills/handleAnimal.md#_handle-animal) +14, [Heal](../../skills/heal.md#_heal) +5, [Intimidate](../../skills/intimidate.md#_intimidate) +14, [Knowledge](../../skills/knowledge.md#_knowledge) (geography) +5, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +1, [Knowledge](../../skills/knowledge.md#_knowledge) (nature) +5, [Linguistics](../../skills/linguistics.md#_linguistics) +2, [Perception](../../skills/perception.md#_perception) +16, [Ride](../../skills/ride.md#_ride) +12, [Stealth](../../skills/stealth.md#_stealth) +24, [Survival](../../skills/survival.md#_survival) +16 (+22 to follow tracks), [Swim](../../skills/swim.md#_swim) +6
+**Skills** [Climb](../../skills/climb#_climb) +10, [Craft](../../skills/craft#_craft) (traps) +10, [Handle Animal](../../skills/handleAnimal#_handle-animal) +14, [Heal](../../skills/heal#_heal) +5, [Intimidate](../../skills/intimidate#_intimidate) +14, [Knowledge](../../skills/knowledge#_knowledge) (geography) +5, [Knowledge](../../skills/knowledge#_knowledge) (local) +1, [Knowledge](../../skills/knowledge#_knowledge) (nature) +5, [Linguistics](../../skills/linguistics#_linguistics) +2, [Perception](../../skills/perception#_perception) +16, [Ride](../../skills/ride#_ride) +12, [Stealth](../../skills/stealth#_stealth) +24, [Survival](../../skills/survival#_survival) +16 (+22 to follow tracks), [Swim](../../skills/swim#_swim) +6
 
 **Languages** Common, Elven, Halfling
 
 **SQ** camouflage, favored terrain (urban +4, underground +2), hunter's bond (tiger animal companion), swift tracker, track +6, wild empathy +11, woodland stride
 
-**Combat Gear** _wand of [cure light wounds](../../spells/cureLightWounds.md#_cure-light-wounds)_ (CL 1, 50 charges), _wand of [speak with animals](../../spells/speakWithAnimals.md#_speak-with-animals) _(CL 1, 50 charges), tanglefoot bags (2); **Other Gear** _+1 chain shirt_, _+1 buckler_, _+1 [merciful](../../magicItems/weapons.md#_weapons-merciful) composite longbow_ (+2 Str) with 20 arrows, masterwork rapier, masterwork sap, _ [belt of incredible dexterity](../../magicItems/wondrousItems.md#_belt-of-incredible-dexterity) +2_, _ [cloak of elvenkind](../../magicItems/wondrousItems.md#_cloak-of-elvenkind)_, blue whinnis (6 doses), purple worm poison (1 dose), 11 gp
+**Combat Gear** _wand of [cure light wounds](../../spells/cureLightWounds#_cure-light-wounds)_ (CL 1, 50 charges), _wand of [speak with animals](../../spells/speakWithAnimals#_speak-with-animals) _(CL 1, 50 charges), tanglefoot bags (2); **Other Gear** _+1 chain shirt_, _+1 buckler_, _+1 [merciful](../../magicItems/weapons#_weapons-merciful) composite longbow_ (+2 Str) with 20 arrows, masterwork rapier, masterwork sap, _ [belt of incredible dexterity](../../magicItems/wondrousItems#_belt-of-incredible-dexterity) +2_, _ [cloak of elvenkind](../../magicItems/wondrousItems#_cloak-of-elvenkind)_, blue whinnis (6 doses), purple worm poison (1 dose), 11 gp
 
 **Boon** A bounty hunter can arrange to kidnap an NPC of 10th level or less for the PCs at half his usual fee.
 

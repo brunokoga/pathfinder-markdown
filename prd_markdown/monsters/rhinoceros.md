@@ -6,9 +6,9 @@ _This rhinoceros has a low-slung head with twisted ears that lie back along its 
 
 **XP 1,200**
 
-N Large [animal](creatureTypes.md#_animal)
+N Large [animal](creatureTypes#_animal)
 
-**Init** +0; **Senses** [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +12
+**Init** +0; **Senses** [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +12
 
 **Defense**
 
@@ -26,7 +26,7 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [powerful charge](universalMonsterRules.md#_powerful-charge) (gore, 4d6+12)
+**Special Attacks** [powerful charge](universalMonsterRules#_powerful-charge) (gore, 4d6+12)
 
 **Statistics**
 
@@ -34,9 +34,9 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Base Atk** +3; **CMB** +10; **CMD** 20 (24 vs. trip)
 
-**Feats** [Endurance](../feats.md#_endurance), [Great Fortitude](../feats.md#_great-fortitude), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
+**Feats** [Endurance](../feats#_endurance), [Great Fortitude](../feats#_great-fortitude), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception))
 
-**Skills** [Perception](../skills/perception.md#_perception) +12
+**Skills** [Perception](../skills/perception#_perception) +12
 
 **Ecology**
 
@@ -62,9 +62,9 @@ _This large rhinoceros has a shaggy pelt of long, brown fur and a row of immense
 
 **XP 2,400**
 
-N Large [animal](creatureTypes.md#_animal)
+N Large [animal](creatureTypes#_animal)
 
-**Init** +0; **Senses** [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +15
+**Init** +0; **Senses** [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +15
 
 **Defense**
 
@@ -82,7 +82,7 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [powerful charge](universalMonsterRules.md#_powerful-charge) (gore, 4d8+18), [trample](universalMonsterRules.md#_trample) (2d6+13, DC 23)
+**Special Attacks** [powerful charge](universalMonsterRules#_powerful-charge) (gore, 4d8+18), [trample](universalMonsterRules#_trample) (2d6+13, DC 23)
 
 **Statistics**
 
@@ -90,9 +90,9 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Base Atk** +6; **CMB** +16; **CMD** 26 (30 vs. trip)
 
-**Feats** [Diehard](../feats.md#_diehard), [Endurance](../feats.md#_endurance), [Great Fortitude](../feats.md#_great-fortitude), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
+**Feats** [Diehard](../feats#_diehard), [Endurance](../feats#_endurance), [Great Fortitude](../feats#_great-fortitude), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception))
 
-**Skills** [Perception](../skills/perception.md#_perception) +15
+**Skills** [Perception](../skills/perception#_perception) +15
 
 **Ecology**
 

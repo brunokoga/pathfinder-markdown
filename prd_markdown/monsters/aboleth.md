@@ -6,9 +6,9 @@ _Four long tentacles writhe from this three-eyed fish-like creature's flanks, an
 
 **XP 3,200**
 
-LE Huge [aberration](creatureTypes.md#_aberration) (aquatic)
+LE Huge [aberration](creatureTypes#_aberration) (aquatic)
 
-**Init** +5; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +14
+**Init** +5; **Senses** darkvision 60 ft.; [Perception](../skills/perception#_perception) +14
 
 **Aura** mucus cloud (5 feet)
 
@@ -28,11 +28,11 @@ LE Huge [aberration](creatureTypes.md#_aberration) (aquatic)
 
 **Space** 15 ft.; **Reach** 15 ft.
 
-**[Spell-Like Abilities](universalMonsterRules.md#_spell-like-abilities)** (CL 16th)
+**[Spell-Like Abilities](universalMonsterRules#_spell-like-abilities)** (CL 16th)
 
-At will—_ [hypnotic pattern](../spells/hypnoticPattern.md#_hypnotic-pattern)_ (DC 15), _ [illusory wall](../spells/illusoryWall.md#_illusory-wall)_ (DC 17), _ [mirage arcana](../spells/mirageArcana.md#_mirage-arcana)_ (DC 18), _ [persistent image](../spells/persistentImage.md#_persistent-image)_ (DC 18), _ [programmed image](../spells/programmedImage.md#_programmed-image)_ (DC 19), _ [project image](../spells/projectImage.md#_project-image)_ (DC 20), _ [veil](../spells/veil.md#_veil)_ (DC 19)
+At will—_ [hypnotic pattern](../spells/hypnoticPattern#_hypnotic-pattern)_ (DC 15), _ [illusory wall](../spells/illusoryWall#_illusory-wall)_ (DC 17), _ [mirage arcana](../spells/mirageArcana#_mirage-arcana)_ (DC 18), _ [persistent image](../spells/persistentImage#_persistent-image)_ (DC 18), _ [programmed image](../spells/programmedImage#_programmed-image)_ (DC 19), _ [project image](../spells/projectImage#_project-image)_ (DC 20), _ [veil](../spells/veil#_veil)_ (DC 19)
 
-3/day—_ [dominate monster](../spells/dominateMonster.md#_dominate-monster)_ (DC 22)
+3/day—_ [dominate monster](../spells/dominateMonster#_dominate-monster)_ (DC 22)
 
 **Statistics**
 
@@ -40,9 +40,9 @@ At will—_ [hypnotic pattern](../spells/hypnoticPattern.md#_hypnotic-pattern)_ 
 
 **Base**  **Atk** +6; **CMB** +13; **CMD** 24 (can't be tripped)
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Iron Will](../feats.md#_iron-will), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Weapon Focus](../feats.md#_weapon-focus) (tentacle)
+**Feats** [Improved Initiative](../feats#_improved-initiative), [Iron Will](../feats#_iron-will), [Lightning Reflexes](../feats#_lightning-reflexes), [Weapon Focus](../feats#_weapon-focus) (tentacle)
 
-**Skills** [Bluff](../skills/bluff.md#_bluff) +11, [Intimidate](../skills/intimidate.md#_intimidate) +14, [Knowledge](../skills/knowledge.md#_knowledge) (any one) +13, [Perception](../skills/perception.md#_perception) +14, [Spellcraft](../skills/spellcraft.md#_spellcraft) +13, [Swim](../skills/swim.md#_swim) +24
+**Skills** [Bluff](../skills/bluff#_bluff) +11, [Intimidate](../skills/intimidate#_intimidate) +14, [Knowledge](../skills/knowledge#_knowledge) (any one) +13, [Perception](../skills/perception#_perception) +14, [Spellcraft](../skills/spellcraft#_spellcraft) +13, [Swim](../skills/swim#_swim) +24
 
 **Languages** Aboleth, Aklo, Aquan, Undercommon
 

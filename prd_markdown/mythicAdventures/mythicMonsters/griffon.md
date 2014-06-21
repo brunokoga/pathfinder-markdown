@@ -6,9 +6,9 @@ Mythic Griffon CR 5/MR 2
 
 XP 1,600
 
-N Large magical beast ( [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
+N Large magical beast ( [mythic](mythicAdventures/mythicMonsters#_mythic-subtype))
 
-**Init** +2; **Senses** darkvision 60 ft., [low-light vision](monsters/universalMonsterRules.md#_low-light-vision), [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +12
+**Init** +2; **Senses** darkvision 60 ft., [low-light vision](monsters/universalMonsterRules#_low-light-vision), [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +12
 
 Defense
 
@@ -24,11 +24,11 @@ Offense
 
 **Speed** 30 ft., fly 100 ft. (average)
 
-**Melee** bite +8 (1d6+4 plus [grab](monsters/universalMonsterRules.md#_grab)), 2 talons +10 (1d6+4)
+**Melee** bite +8 (1d6+4 plus [grab](monsters/universalMonsterRules#_grab)), 2 talons +10 (1d6+4)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** mythic power (2/day, surge +1d6), [pounce](monsters/universalMonsterRules.md#_pounce), power dive, [rake](monsters/universalMonsterRules.md#_rake) (2 claws +8, 1d4+4)
+**Special Attacks** mythic power (2/day, surge +1d6), [pounce](monsters/universalMonsterRules#_pounce), power dive, [rake](monsters/universalMonsterRules#_rake) (2 claws +8, 1d4+4)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +10 (+14 grapple); **CMD** 22 (26 vs. trip)
 
-**Feats** [Flyby Attack](monsters/monsterFeats.md#_flyby-attack)B, [Iron Will](feats.md#_iron-will), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception)), [Weapon Focus](feats.md#_weapon-focus) (talons)M
+**Feats** [Flyby Attack](monsters/monsterFeats#_flyby-attack)B, [Iron Will](feats#_iron-will), [Skill Focus](feats#_skill-focus) ( [Perception](skills/perception#_perception)), [Weapon Focus](feats#_weapon-focus) (talons)M
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +10, [Fly](skills/fly.md#_fly) +6, [Perception](skills/perception.md#_perception) +12; **Racial Modifiers** +4 [Acrobatics](skills/acrobatics.md#_acrobatics), +4 [Perception](skills/perception.md#_perception)
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +10, [Fly](skills/fly#_fly) +6, [Perception](skills/perception#_perception) +12; **Racial Modifiers** +4 [Acrobatics](skills/acrobatics#_acrobatics), +4 [Perception](skills/perception#_perception)
 
 **Languages** Common (cannot speak)
 

@@ -14,5 +14,5 @@ Forced Quiet
 
 **Saving Throw** Will negates; **Spell Resistance** yes
 
-With a gesture, you muffle sound around the target, making it unable to yell or otherwise make loud noises. This does not affect spellcasting by the target. The target can still use sonic effects, but the DC of these effects decreases by 2. The target gains a +2 bonus on saving throws against sonic effects. The target gains a +4 circumstance bonus on [Stealth](skills/stealth.md#_stealth) checks.
+With a gesture, you muffle sound around the target, making it unable to yell or otherwise make loud noises. This does not affect spellcasting by the target. The target can still use sonic effects, but the DC of these effects decreases by 2. The target gains a +2 bonus on saving throws against sonic effects. The target gains a +4 circumstance bonus on [Stealth](skills/stealth#_stealth) checks.
 

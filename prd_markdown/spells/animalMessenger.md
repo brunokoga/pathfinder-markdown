@@ -12,7 +12,7 @@
 
 **Duration** 1 day/level
 
-**Saving Throw** none; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** none; see text; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
 You compel a Tiny animal to go to a spot you designate. The most common use for this spell is to get an animal to carry a message to your allies. The animal cannot be one tamed or trained by someone else, including such creatures as familiars and animal companions.
 

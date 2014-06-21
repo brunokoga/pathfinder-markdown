@@ -52,9 +52,9 @@ Class features you can retrain are as follows (some entries also call out other 
 
 **Barbarian** : Retrain one rage power.
 
-**Bard** : Retrain one type of [Perform](skills/perform.md#_perform) skill associated with your versatile performance class feature. See also retraining skill ranks and retraining spells known.
+**Bard** : Retrain one type of [Perform](skills/perform#_perform) skill associated with your versatile performance class feature. See also retraining skill ranks and retraining spells known.
 
-**Cavalier** : You can change your order; the rules for this are found [here](advanced/baseClasses/cavalier.md#_order). See also retraining feats.
+**Cavalier** : You can change your order; the rules for this are found [here](advanced/baseClasses/cavalier#_order). See also retraining feats.
 
 **Cleric** : Retrain one domain; the new domain must be one granted by your deity. Doing so replaces your list of domain spells and your domain granted powers. If you are a neutral cleric of a neutral deity, you can instead retrain whether you channel positive or negative energy, which also changes whether you spontaneously cast _cure_ spells or _inflict_ spells.
 
@@ -153,13 +153,13 @@ Sometimes the dice aren't in your favor when you gain a level and the hit points
 
 Retraining hit points takes 3 days and requires you to spend time at a martial academy, monk monastery, or with some kind of master of combat who is at least one level higher than you. At the end of the training period, increase your hit points by 1. You can retrain hit points only if your maximum hit point total is less than the maximum possible hit point total for your character.
 
-_Example_: If you are a fighter 5 with Constitution 14 and you haven't allocated any of your favored class bonus to hit points, your maximum possible hit point total is 60: (d10 HD + 2 from Constitution) × 5 levels. If your maximum hit point total is already 60, you can't retrain hit points because you are already at the limit. If you took the [Toughness](feats.md#_toughness) feat, you would gain 5 hit points and your maximum possible hit point total would also increase by 5, which means your ability to retrain hit points would be the same as without the feat.
+_Example_: If you are a fighter 5 with Constitution 14 and you haven't allocated any of your favored class bonus to hit points, your maximum possible hit point total is 60: (d10 HD + 2 from Constitution) × 5 levels. If your maximum hit point total is already 60, you can't retrain hit points because you are already at the limit. If you took the [Toughness](feats#_toughness) feat, you would gain 5 hit points and your maximum possible hit point total would also increase by 5, which means your ability to retrain hit points would be the same as without the feat.
 
 ## New Language
 
 You can spend time to learn an additional language. It takes 20 days of training to gain a bonus language, and these days need not be consecutive. Each language requires a trainer who shares a language with you and knows the language you want to learn, or a book written in a language you know that explains the basics of the language you want to learn.
 
-The new language does not count toward your maximum number of languages (racial languages + bonus languages from Intelligence + [Linguistics](skills/linguistics.md#_linguistics) ranks). You can train this way only a number of times equal to 1 + your Intelligence bonus.
+The new language does not count toward your maximum number of languages (racial languages + bonus languages from Intelligence + [Linguistics](skills/linguistics#_linguistics) ranks). You can train this way only a number of times equal to 1 + your Intelligence bonus.
 
 ## Racial Trait
 

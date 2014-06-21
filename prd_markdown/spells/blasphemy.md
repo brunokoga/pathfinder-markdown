@@ -12,28 +12,28 @@
 
 **Duration** instantaneous
 
-**Saving Throw** [Will](../combat.md#_will) partial; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) partial; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
 Any nonevil creature within the area of a _blasphemy _spell suffers the following ill effects.
 
 | HD | Effect |
 | --- | --- |
-| Equal to caster level | [Dazed](../glossary.md#_dazed) |
-| Up to caster level –1 | Weakened, [dazed](../glossary.md#_dazed) |
-| Up to caster level –5 | [Paralyzed](../glossary.md#_paralyzed), weakened, [dazed](../glossary.md#_dazed) |
-| Up to caster level –10 | Killed, paralyzed, weakened, [dazed](../glossary.md#_dazed) |
+| Equal to caster level | [Dazed](../glossary#_dazed) |
+| Up to caster level –1 | Weakened, [dazed](../glossary#_dazed) |
+| Up to caster level –5 | [Paralyzed](../glossary#_paralyzed), weakened, [dazed](../glossary#_dazed) |
+| Up to caster level –10 | Killed, paralyzed, weakened, [dazed](../glossary#_dazed) |
 
-The effects are cumulative and concurrent. A successful [Will](../combat.md#_will) save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.
+The effects are cumulative and concurrent. A successful [Will](../combat#_will) save reduces or eliminates these effects. Creatures affected by multiple effects make only one save and apply the result to all the effects.
 
 _Dazed_: The creature can take no actions for 1 round, though it defends itself normally. Save negates.
 
-_Weakened_: The creature's [Strength](../gettingStarted.md#_strength) score decreases by 2d6 points for 2d4 rounds. Save for half.
+_Weakened_: The creature's [Strength](../gettingStarted#_strength) score decreases by 2d6 points for 2d4 rounds. Save for half.
 
-_ [Paralyzed](../glossary.md#_paralyzed)_: The creature is paralyzed and [helpless](../glossary.md#_helpless) for 1d10 minutes. Save reduces the [paralyzed](../glossary.md#_paralyzed) effect to 1 round.
+_ [Paralyzed](../glossary#_paralyzed)_: The creature is paralyzed and [helpless](../glossary#_helpless) for 1d10 minutes. Save reduces the [paralyzed](../glossary#_paralyzed) effect to 1 round.
 
 _Killed_: Living creatures die. Undead creatures are destroyed. Save negates. If the save is successful, the creature instead takes 3d6 points of damage + 1 point per caster level (maximum +25).
 
-Furthermore, if you are on your home plane when you cast this spell, nonevil extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the _blasphemy_ or not_. _The banishment effect allows a [Will](../combat.md#_will) save (at a –4 penalty) to negate.
+Furthermore, if you are on your home plane when you cast this spell, nonevil extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the _blasphemy_ or not_. _The banishment effect allows a [Will](../combat#_will) save (at a –4 penalty) to negate.
 
 Creatures whose Hit Dice exceed your caster level are unaffected by _blasphemy._
 

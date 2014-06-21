@@ -8,7 +8,7 @@ XP 135
 
 CN Diminutive fey
 
-**Init** +3; **Senses** _ [detect evil](spells/detectEvil.md#_detect-evil)_, _ [detect good](spells/detectGood.md#_detect-good)_, low-light vision; [Perception](skills/perception.md#_perception) +6
+**Init** +3; **Senses** _ [detect evil](spells/detectEvil#_detect-evil)_, _ [detect good](spells/detectGood#_detect-good)_, low-light vision; [Perception](skills/perception#_perception) +6
 
 Defense
 
@@ -32,11 +32,11 @@ Offense
 
 **Spell-Like Abilities** (CL 5th; concentration +5)
 
-Constant—_ [detect evil](spells/detectEvil.md#_detect-evil)_, _ [detect good](spells/detectGood.md#_detect-good)_
+Constant—_ [detect evil](spells/detectEvil#_detect-evil)_, _ [detect good](spells/detectGood#_detect-good)_
 
-At will—_ [dancing lights](spells/dancingLights.md#_dancing-lights)_, _ [daze](spells/daze.md#_daze)_ (DC 10)
+At will—_ [dancing lights](spells/dancingLights#_dancing-lights)_, _ [daze](spells/daze#_daze)_ (DC 10)
 
-1/day—_ [color spray](spells/colorSpray.md#_color-spray)_ (DC 11)
+1/day—_ [color spray](spells/colorSpray#_color-spray)_ (DC 11)
 
 Statistics
 
@@ -44,9 +44,9 @@ Statistics
 
 **Base Atk** +0; **CMB** –1; **CMD** 5
 
-**Feats** [Alertness](feats.md#_alertness)
+**Feats** [Alertness](feats#_alertness)
 
-**Skills** [Escape Artist](skills/escapeArtist.md#_escape-artist) +15, [Fly](skills/fly.md#_fly) +21, [Perception](skills/perception.md#_perception) +6, [Sense Motive](skills/senseMotive.md#_sense-motive) +2, [Stealth](skills/stealth.md#_stealth) +19
+**Skills** [Escape Artist](skills/escapeArtist#_escape-artist) +15, [Fly](skills/fly#_fly) +21, [Perception](skills/perception#_perception) +6, [Sense Motive](skills/senseMotive#_sense-motive) +2, [Stealth](skills/stealth#_stealth) +19
 
 **Languages** Common, Sylvan
 
@@ -70,5 +70,5 @@ A sprite's body is naturally luminous, although the sprite can vary the color an
 
 Sprites are more primitive in many ways than most fey. They enjoy each other's company, but tend to be distrustful of other fey and assume any humanoids and any other creatures that they haven't expressly chosen to protect mean to do them ill. Even animals are generally regarded as dangerous. Much of this is due to sprites' diminutive size, which makes them popular targets for predators. As a result, a sprite's initial reaction to danger is typically to flee—it uses its spell-like abilities to delay or distract pursuers, and relies on its speed in flight and its size to allow it to escape in the end.
 
-While sprites themselves are relatively uncultured and savage in nature, they do have a healthy curiosity for all things magical in nature. They are particularly drawn to sites of great but latent magical power, such as the ruins of ancient temples. This curiosity makes them unusually receptive to roles as familiars as well. A 5th-level chaotic neutral spellcaster with the [Improved Familiar](feats.md#_improved-familiar) feat can gain a sprite as a familiar.
+While sprites themselves are relatively uncultured and savage in nature, they do have a healthy curiosity for all things magical in nature. They are particularly drawn to sites of great but latent magical power, such as the ruins of ancient temples. This curiosity makes them unusually receptive to roles as familiars as well. A 5th-level chaotic neutral spellcaster with the [Improved Familiar](feats#_improved-familiar) feat can gain a sprite as a familiar.
 

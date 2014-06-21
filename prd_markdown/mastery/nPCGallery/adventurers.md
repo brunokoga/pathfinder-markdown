@@ -10,11 +10,11 @@ Human evoker 6
 
 N Medium humanoid
 
-**Init** +6; **Senses** [Perception](../../skills/perception.md#_perception) +6
+**Init** +6; **Senses** [Perception](../../skills/perception#_perception) +6
 
 **Defense**
 
-**AC** 16, touch 12, flat-footed 14 (+4 _ [mage armor](../../spells/mageArmor.md#_mage-armor)_, +2 Dex)
+**AC** 16, touch 12, flat-footed 14 (+4 _ [mage armor](../../spells/mageArmor#_mage-armor)_, +2 Dex)
 
 **hp** 33 (6d6+12)
 
@@ -24,7 +24,7 @@ N Medium humanoid
 
 **Speed** 30 ft.
 
-**Melee** dagger +2 (1d4–1/19–20) or _wand of [shocking grasp](../../spells/shockingGrasp.md#_shocking-grasp) +2_ touch (1d6 electricity)
+**Melee** dagger +2 (1d4–1/19–20) or _wand of [shocking grasp](../../spells/shockingGrasp#_shocking-grasp) +2_ touch (1d6 electricity)
 
 **Ranged** dagger +5 (1d4–1/19–20)
 
@@ -34,13 +34,13 @@ N Medium humanoid
 
 **Wizard Spells Prepared** (CL 6th; concentration +9)
 
-3rd—_ [dispel magic](../../spells/dispelMagic.md#_dispel-magic)_, _ [fly](../../spells/fly.md)_, _ [haste](../../spells/haste.md#_haste)_, _ [fireball](../../spells/fireball.md#_fireball) _(2) (DC 17)
+3rd—_ [dispel magic](../../spells/dispelMagic#_dispel-magic)_, _ [fly](../../spells/fly)_, _ [haste](../../spells/haste#_haste)_, _ [fireball](../../spells/fireball#_fireball) _(2) (DC 17)
 
-2nd—_ [flaming sphere](../../spells/flamingSphere.md#_flaming-sphere) _(DC 16), _ [glitterdust](../../spells/glitterdust.md#_glitterdust) _(DC 15), _ [mirror image](../../spells/mirrorImage.md#_mirror-image)_, _ [protection from arrows](../../spells/protectionFromArrows.md#_protection-from-arrows)_, _ [scorching ray](../../spells/scorchingRay.md#_scorching-ray) _(DC 16)
+2nd—_ [flaming sphere](../../spells/flamingSphere#_flaming-sphere) _(DC 16), _ [glitterdust](../../spells/glitterdust#_glitterdust) _(DC 15), _ [mirror image](../../spells/mirrorImage#_mirror-image)_, _ [protection from arrows](../../spells/protectionFromArrows#_protection-from-arrows)_, _ [scorching ray](../../spells/scorchingRay#_scorching-ray) _(DC 16)
 
-1st—_ [burning hands](../../spells/burningHands.md#_burning-hands) _(DC 15), _ [color spray](../../spells/colorSpray.md#_color-spray) _(DC 14), _ [expeditious retreat](../../spells/expeditiousRetreat.md#_expeditious-retreat)_, _ [mage armor](../../spells/mageArmor.md#_mage-armor)_ (already cast), _ [shocking grasp](../../spells/shockingGrasp.md#_shocking-grasp)_
+1st—_ [burning hands](../../spells/burningHands#_burning-hands) _(DC 15), _ [color spray](../../spells/colorSpray#_color-spray) _(DC 14), _ [expeditious retreat](../../spells/expeditiousRetreat#_expeditious-retreat)_, _ [mage armor](../../spells/mageArmor#_mage-armor)_ (already cast), _ [shocking grasp](../../spells/shockingGrasp#_shocking-grasp)_
 
-0 (at will)—_ [dancing lights](../../spells/dancingLights.md#_dancing-lights)_, _ [detect magic](../../spells/detectMagic.md#_detect-magic)_, _ [light](../../spells/light.md#_light)_, _ [message](../../spells/message.md#_message)_
+0 (at will)—_ [dancing lights](../../spells/dancingLights#_dancing-lights)_, _ [detect magic](../../spells/detectMagic#_detect-magic)_, _ [light](../../spells/light#_light)_, _ [message](../../spells/message#_message)_
 
 **Prohibited Schools** enchantment, necromancy
 
@@ -50,15 +50,15 @@ N Medium humanoid
 
 **Base Atk** +3; **CMB** +2; **CMD** 17
 
-**Feats** [Combat Casting](../../feats.md#_combat-casting), [Craft Wand](../../feats.md#_craft-wand), [Defensive Combat Training](../../feats.md#_defensive-combat-training), [Improved Initiative](../../feats.md#_improved-initiative), [Scribe Scroll](../../feats.md#_scribe-scroll), [Spell Focus](../../feats.md#_spell-focus) (evocation)
+**Feats** [Combat Casting](../../feats#_combat-casting), [Craft Wand](../../feats#_craft-wand), [Defensive Combat Training](../../feats#_defensive-combat-training), [Improved Initiative](../../feats#_improved-initiative), [Scribe Scroll](../../feats#_scribe-scroll), [Spell Focus](../../feats#_spell-focus) (evocation)
 
-**Skills** [Craft](../../skills/craft.md#_craft) (Armor) +10, [Craft](../../skills/craft.md#_craft) (Weapons) +10, [Fly](../../skills/fly.md#_fly) +11, [Knowledge](../../skills/knowledge.md#_knowledge) (arcana) +12, [Knowledge](../../skills/knowledge.md#_knowledge) (engineering) +7, [Knowledge](../../skills/knowledge.md#_knowledge) (geography) +7, [Knowledge](../../skills/knowledge.md#_knowledge) (history) +7, [Perception](../../skills/perception.md#_perception) +6, [Ride](../../skills/ride.md#_ride) +6, [Spellcraft](../../skills/spellcraft.md#_spellcraft) +12
+**Skills** [Craft](../../skills/craft#_craft) (Armor) +10, [Craft](../../skills/craft#_craft) (Weapons) +10, [Fly](../../skills/fly#_fly) +11, [Knowledge](../../skills/knowledge#_knowledge) (arcana) +12, [Knowledge](../../skills/knowledge#_knowledge) (engineering) +7, [Knowledge](../../skills/knowledge#_knowledge) (geography) +7, [Knowledge](../../skills/knowledge#_knowledge) (history) +7, [Perception](../../skills/perception#_perception) +6, [Ride](../../skills/ride#_ride) +6, [Spellcraft](../../skills/spellcraft#_spellcraft) +12
 
 **Languages** Common, Draconic, Elven, Giant
 
 **SQ** arcane bond (wand)
 
-**Combat Gear** _scrolls of [fly](../../spells/fly.md)_ (2), _ [invisibility](../../spells/invisibility.md#_invisibility)_ (2), _ [minor image](../../spells/minorImage.md#_minor-image)_ (2), _wand of [magic missile](../../spells/magicMissile.md#_magic-missile)_ (CL 5, 50 charges, arcane bond item), _wand of [shocking grasp](../../spells/shockingGrasp.md#_shocking-grasp)_ (50 charges), tanglefoot bags (3); **Other Gear** daggers (2), 20 gp
+**Combat Gear** _scrolls of [fly](../../spells/fly)_ (2), _ [invisibility](../../spells/invisibility#_invisibility)_ (2), _ [minor image](../../spells/minorImage#_minor-image)_ (2), _wand of [magic missile](../../spells/magicMissile#_magic-missile)_ (CL 5, 50 charges, arcane bond item), _wand of [shocking grasp](../../spells/shockingGrasp#_shocking-grasp)_ (50 charges), tanglefoot bags (3); **Other Gear** daggers (2), 20 gp
 
 **Boon** A battle mage can create scrolls at a 10% discount.
 
@@ -72,7 +72,7 @@ Human ranger 6
 
 N Medium humanoid
 
-**Init** +3; **Senses** [Perception](../../skills/perception.md#_perception) +10
+**Init** +3; **Senses** [Perception](../../skills/perception#_perception) +10
 
 **Defense**
 
@@ -88,13 +88,13 @@ N Medium humanoid
 
 **Melee** mwk battleaxe +10/+5 (1d8+3/×3) or dagger +9/+4 (1d4+3/19–20)
 
-**Ranged** _+1 composite longbow_ +10/+5 (1d8+4) or [Rapid Shot](../../feats.md#_rapid-shot) _+1 composite longbow _+8/+8/+3 (1d8+4/×3) or dagger +9 (1d4+3/19–20)
+**Ranged** _+1 composite longbow_ +10/+5 (1d8+4) or [Rapid Shot](../../feats#_rapid-shot) _+1 composite longbow _+8/+8/+3 (1d8+4/×3) or dagger +9 (1d4+3/19–20)
 
 **Special Attacks** favored enemy (magical beasts +4, monstrous humanoids +2)
 
 **Ranger Spells Prepared** (CL 3rd; concentration +3)
 
-1st—_ [speak with animals](../../spells/speakWithAnimals.md#_speak-with-animals)_
+1st—_ [speak with animals](../../spells/speakWithAnimals#_speak-with-animals)_
 
 **Statistics**
 
@@ -102,9 +102,9 @@ N Medium humanoid
 
 **Base Atk** +6; **CMB** +9; **CMD** 22
 
-**Feats** [Endurance](../../feats.md#_endurance), [Improved Precise Shot](../../feats.md#_improved-precise-shot), [Mounted Archery](../../feats.md#_mounted-archery), [Mounted Combat](../../feats.md#_mounted-combat), [Point-Blank Shot](../../feats.md#_point-blank-shot), [Rapid Shot](../../feats.md#_rapid-shot), [Self-Sufficient](../../feats.md#_self-sufficient)
+**Feats** [Endurance](../../feats#_endurance), [Improved Precise Shot](../../feats#_improved-precise-shot), [Mounted Archery](../../feats#_mounted-archery), [Mounted Combat](../../feats#_mounted-combat), [Point-Blank Shot](../../feats#_point-blank-shot), [Rapid Shot](../../feats#_rapid-shot), [Self-Sufficient](../../feats#_self-sufficient)
 
-**Skills** [Climb](../../skills/climb.md#_climb) +11, [Handle Animal](../../skills/handleAnimal.md#_handle-animal) +8, [Heal](../../skills/heal.md#_heal) +8, [Knowledge](../../skills/knowledge.md#_knowledge) (nature) +5, [Perception](../../skills/perception.md#_perception) +10, [Ride](../../skills/ride.md#_ride) +11, [Stealth](../../skills/stealth.md#_stealth) +11, [Survival](../../skills/survival.md#_survival) +12 (+15 to follow tracks), [Swim](../../skills/swim.md#_swim) +7
+**Skills** [Climb](../../skills/climb#_climb) +11, [Handle Animal](../../skills/handleAnimal#_handle-animal) +8, [Heal](../../skills/heal#_heal) +8, [Knowledge](../../skills/knowledge#_knowledge) (nature) +5, [Perception](../../skills/perception#_perception) +10, [Ride](../../skills/ride#_ride) +11, [Stealth](../../skills/stealth#_stealth) +11, [Survival](../../skills/survival#_survival) +12 (+15 to follow tracks), [Swim](../../skills/swim#_swim) +7
 
 **Languages** Common
 
@@ -126,7 +126,7 @@ Human rogue 6
 
 N Medium humanoid
 
-**Init** +3; **Senses** [Perception](../../skills/perception.md#_perception) +14
+**Init** +3; **Senses** [Perception](../../skills/perception#_perception) +14
 
 **Defense**
 
@@ -154,19 +154,19 @@ N Medium humanoid
 
 **Base Atk** +4; **CMB** +5; **CMD** 18
 
-**Feats** [Great Fortitude](../../feats.md#_great-fortitude), [Skill Focus](../../feats.md#_skill-focus) ( [Disable Device](../../skills/disableDevice.md#_disable-device)), [Stealthy](../../feats.md#_stealthy), [Weapon Finesse](../../feats.md#_weapon-finesse)
+**Feats** [Great Fortitude](../../feats#_great-fortitude), [Skill Focus](../../feats#_skill-focus) ( [Disable Device](../../skills/disableDevice#_disable-device)), [Stealthy](../../feats#_stealthy), [Weapon Finesse](../../feats#_weapon-finesse)
 
-**Skills** [Acrobatics](../../skills/acrobatics.md#_acrobatics) +12, [Appraise](../../skills/appraise.md#_appraise) +11, [Bluff](../../skills/bluff.md#_bluff) +5, [Climb](../../skills/climb.md#_climb) +10, [Disable Device](../../skills/disableDevice.md#_disable-device) +20, [Escape Artist](../../skills/escapeArtist.md#_escape-artist) +14, [Knowledge](../../skills/knowledge.md#_knowledge) (dungeoneering) +11, [Knowledge](../../skills/knowledge.md#_knowledge) (local) +6, [Linguistics](../../skills/linguistics.md#_linguistics) +6, [Perception](../../skills/perception.md#_perception) +14 (+17 to find traps), [Sleight of Hand](../../skills/sleightOfHand.md#_sleight-of-hand) +12, [Stealth](../../skills/stealth.md#_stealth) +14, [Swim](../../skills/swim.md#_swim) +5, [Use Magic Device](../../skills/useMagicDevice.md#_use-magic-device) +8
+**Skills** [Acrobatics](../../skills/acrobatics#_acrobatics) +12, [Appraise](../../skills/appraise#_appraise) +11, [Bluff](../../skills/bluff#_bluff) +5, [Climb](../../skills/climb#_climb) +10, [Disable Device](../../skills/disableDevice#_disable-device) +20, [Escape Artist](../../skills/escapeArtist#_escape-artist) +14, [Knowledge](../../skills/knowledge#_knowledge) (dungeoneering) +11, [Knowledge](../../skills/knowledge#_knowledge) (local) +6, [Linguistics](../../skills/linguistics#_linguistics) +6, [Perception](../../skills/perception#_perception) +14 (+17 to find traps), [Sleight of Hand](../../skills/sleightOfHand#_sleight-of-hand) +12, [Stealth](../../skills/stealth#_stealth) +14, [Swim](../../skills/swim#_swim) +5, [Use Magic Device](../../skills/useMagicDevice#_use-magic-device) +8
 
 **Languages** Aklo, Common, Terran, Undercommon
 
 **SQ** rogue talents (fast stealth, rogue crawl, trap spotter), trapfinding +3
 
-**Combat Gear** antitoxin; **Other Gear** masterwork studded leather, masterwork buckler, masterwork shortbow with 20 arrows, short sword, _ [eyes of the eagle](../../magicItems/wondrousItems.md#_eyes-of-the-eagle)_, magnifying glass, masterwork thieves' tools, sunrod, 18 gp
+**Combat Gear** antitoxin; **Other Gear** masterwork studded leather, masterwork buckler, masterwork shortbow with 20 arrows, short sword, _ [eyes of the eagle](../../magicItems/wondrousItems#_eyes-of-the-eagle)_, magnifying glass, masterwork thieves' tools, sunrod, 18 gp
 
 **Boon** A tomb raider could agree to appraise the PCs' goods or to travel with them and disable a trap.
 
-Tomb raiders are cunning explorers of ruined delves and trap-haunted dungeons and daring looters of ancient, treasure-laden crypts. They are invaluable allies, helping any would-be explorers get in and out without falling prey to lurking death and hidden danger. Of course, if a tomb raider should happen to find and keep the choicest bits for himself, who would know? He would never tell. A tomb raider might also be found as a rival inside a dungeon, perhaps seeking to loot the treasure inside before the PCs can. Replacing his [Sleight of Hand](../../skills/sleightOfHand.md#_sleight-of-hand) skill with [Craft](../../skills/craft.md#_craft) (trapmaking) makes him an even more dangerous foe.
+Tomb raiders are cunning explorers of ruined delves and trap-haunted dungeons and daring looters of ancient, treasure-laden crypts. They are invaluable allies, helping any would-be explorers get in and out without falling prey to lurking death and hidden danger. Of course, if a tomb raider should happen to find and keep the choicest bits for himself, who would know? He would never tell. A tomb raider might also be found as a rival inside a dungeon, perhaps seeking to loot the treasure inside before the PCs can. Replacing his [Sleight of Hand](../../skills/sleightOfHand#_sleight-of-hand) skill with [Craft](../../skills/craft#_craft) (trapmaking) makes him an even more dangerous foe.
 
 Tomb raiders make excellent burglars and scouts. A tomb raider often works alone, but he may also cooperate with an archaeologist and a pair of burglars (CR 8). A tomb raider scout might be found with a monster hunter (CR 7) or even with a group of four raiders (CR 9). Adventuring tomb raiders often travel with a medium or minstrel, a battle mage, and a gladiator or monster hunter (CR 9).
 

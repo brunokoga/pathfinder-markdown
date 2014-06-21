@@ -6,9 +6,9 @@ _As this creature falls from the cavern roof, it opens like a hideous octopus, i
 
 **XP 400**
 
-N Small [magical beast](creatureTypes.md#_magical-beast)
+N Small [magical beast](creatureTypes#_magical-beast)
 
-**Init** +6; **Senses** [blindsight](universalMonsterRules.md#_blindsight) 90 ft., darkvision 60 ft., low-light vision; [Perception](../skills/perception.md#_perception) +4
+**Init** +6; **Senses** [blindsight](universalMonsterRules#_blindsight) 90 ft., darkvision 60 ft., low-light vision; [Perception](../skills/perception#_perception) +4
 
 **Defense**
 
@@ -22,13 +22,13 @@ N Small [magical beast](creatureTypes.md#_magical-beast)
 
 **Speed** 20 ft., fly 30 ft. (poor)
 
-**Melee** slam +3 (1d4 plus [grab](universalMonsterRules.md#_grab))
+**Melee** slam +3 (1d4 plus [grab](universalMonsterRules#_grab))
 
-**Special Attacks** [constrict](universalMonsterRules.md#_constrict) (1d4+4), grab (any size)
+**Special Attacks** [constrict](universalMonsterRules#_constrict) (1d4+4), grab (any size)
 
 **Spell-Like Abilities** (CL 5th)
 
-1/day—_ [darkness](../spells/darkness.md#_darkness)_
+1/day—_ [darkness](../spells/darkness#_darkness)_
 
 **Statistics**
 
@@ -36,9 +36,9 @@ N Small [magical beast](creatureTypes.md#_magical-beast)
 
 **Base**  **Atk** +2; **CMB** +1 (+5 grapple); **CMD** 13 (can't be tripped)
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative)
+**Feats** [Improved Initiative](../feats#_improved-initiative)
 
-**Skills** [Fly](../skills/fly.md#_fly) +5, [Perception](../skills/perception.md#_perception) +4, [Stealth](../skills/stealth.md#_stealth) +10; **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception), +4 [Stealth](../skills/stealth.md#_stealth)
+**Skills** [Fly](../skills/fly#_fly) +5, [Perception](../skills/perception#_perception) +4, [Stealth](../skills/stealth#_stealth) +10; **Racial Modifiers** +4 [Perception](../skills/perception#_perception), +4 [Stealth](../skills/stealth#_stealth)
 
 **Ecology**
 

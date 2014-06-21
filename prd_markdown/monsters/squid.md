@@ -6,9 +6,9 @@ _This slender red squid darts through the water with alacrity. Two large eyes st
 
 **XP 400**
 
-N Medium [animal](creatureTypes.md#_animal) ( [aquatic](creatureTypes.md#_aquatic-subtype))
+N Medium [animal](creatureTypes#_animal) ( [aquatic](creatureTypes#_aquatic-subtype))
 
-**Init** +6; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +7
+**Init** +6; **Senses** low-light vision; [Perception](../skills/perception#_perception) +7
 
 **Defense**
 
@@ -24,7 +24,7 @@ N Medium [animal](creatureTypes.md#_animal) ( [aquatic](creatureTypes.md#_aquati
 
 **Speed** swim 60 ft., jet 240 ft.
 
-**Melee** bite +4 (1d3+2), tentacles +2 (1d4+1 plus [grab](universalMonsterRules.md#_grab))
+**Melee** bite +4 (1d3+2), tentacles +2 (1d4+1 plus [grab](universalMonsterRules#_grab))
 
 **Statistics**
 
@@ -32,9 +32,9 @@ N Medium [animal](creatureTypes.md#_animal) ( [aquatic](creatureTypes.md#_aquati
 
 **Base Atk** +2; **CMB** +4 (+8 grapple); **CMD** 16
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Multiattack](monsterFeats.md#_multiattack)B
+**Feats** [Improved Initiative](../feats#_improved-initiative), [Lightning Reflexes](../feats#_lightning-reflexes), [Multiattack](monsterFeats#_multiattack)B
 
-**Skills** [Perception](../skills/perception.md#_perception) +7, [Swim](../skills/swim.md#_swim) +10
+**Skills** [Perception](../skills/perception#_perception) +7, [Swim](../skills/swim#_swim) +10
 
 **Ecology**
 
@@ -66,9 +66,9 @@ _Immense in size, this great squid's tentacles writhe and flash with almost naus
 
 **XP 6,400**
 
-N Huge [animal](creatureTypes.md#_animal) ( [aquatic](creatureTypes.md#_aquatic-subtype))
+N Huge [animal](creatureTypes#_animal) ( [aquatic](creatureTypes#_aquatic-subtype))
 
-**Init** +7; **Senses** low-light vision; [Perception](../skills/perception.md#_perception) +22
+**Init** +7; **Senses** low-light vision; [Perception](../skills/perception#_perception) +22
 
 **Defense**
 
@@ -84,11 +84,11 @@ N Huge [animal](creatureTypes.md#_animal) ( [aquatic](creatureTypes.md#_aquatic-
 
 **Speed** swim 60 ft., jet 260 ft.
 
-**Melee** bite +14 (2d6+7), 2 arms +14 (1d6+7), tentacles +12 (4d6+3/19–20 plus [grab](universalMonsterRules.md#_grab))
+**Melee** bite +14 (2d6+7), 2 arms +14 (1d6+7), tentacles +12 (4d6+3/19–20 plus [grab](universalMonsterRules#_grab))
 
 **Space** 15 ft.; **Reach** 15 ft. (30 ft. with arms and tentacles)
 
-**Special Attacks** [constrict](universalMonsterRules.md#_constrict) (4d6+10)
+**Special Attacks** [constrict](universalMonsterRules#_constrict) (4d6+10)
 
 **Statistics**
 
@@ -96,9 +96,9 @@ N Huge [animal](creatureTypes.md#_animal) ( [aquatic](creatureTypes.md#_aquatic-
 
 **Base Atk** +9; **CMB** +18 (+22 grapple); **CMD** 31
 
-**Feats** [Combat Reflexes](../feats.md#_combat-reflexes), [Great Fortitude](../feats.md#_great-fortitude), [Improved Critical](../feats.md#_improved-critical) (tentacle), [Improved Initiative](../feats.md#_improved-initiative), [Lightning Reflexes](../feats.md#_lightning-reflexes), [Multiattack](monsterFeats.md#_multiattack)B, [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception))
+**Feats** [Combat Reflexes](../feats#_combat-reflexes), [Great Fortitude](../feats#_great-fortitude), [Improved Critical](../feats#_improved-critical) (tentacle), [Improved Initiative](../feats#_improved-initiative), [Lightning Reflexes](../feats#_lightning-reflexes), [Multiattack](monsterFeats#_multiattack)B, [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception))
 
-**Skills** [Perception](../skills/perception.md#_perception) +22, [Swim](../skills/swim.md#_swim) +15
+**Skills** [Perception](../skills/perception#_perception) +22, [Swim](../skills/swim#_swim) +15
 
 **Ecology**
 

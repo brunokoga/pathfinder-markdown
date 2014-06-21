@@ -6,9 +6,9 @@ _Coiling around several human skeletons, this wet green plant's sickly flowers s
 
 **XP 600**
 
-N Medium [plant](creatureTypes.md#_plant)
+N Medium [plant](creatureTypes#_plant)
 
-**Init** +2; **Senses** [tremorsense](universalMonsterRules.md#_tremorsense) 30 ft.; [Perception](../skills/perception.md#_perception) +0
+**Init** +2; **Senses** [tremorsense](universalMonsterRules#_tremorsense) 30 ft.; [Perception](../skills/perception#_perception) +0
 
 **Defense**
 
@@ -18,7 +18,7 @@ N Medium [plant](creatureTypes.md#_plant)
 
 **Fort** +6, **Ref** +3, **Will** +1
 
-**Immune** [plant traits](universalMonsterRules.md#_plant-traits)
+**Immune** [plant traits](universalMonsterRules#_plant-traits)
 
 **Offense**
 

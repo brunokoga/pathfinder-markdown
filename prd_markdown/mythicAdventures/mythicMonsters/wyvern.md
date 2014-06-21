@@ -6,9 +6,9 @@ Mythic Wyvern CR 8/MR 3
 
 XP 4,800
 
-N Large dragon ( [mythic](mythicAdventures/mythicMonsters.md#_mythic-subtype))
+N Large dragon ( [mythic](mythicAdventures/mythicMonsters#_mythic-subtype))
 
-**Init** +8M; **Senses** darkvision 60 ft., [low-light vision](monsters/universalMonsterRules.md#_low-light-vision), [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +18
+**Init** +8M; **Senses** darkvision 60 ft., [low-light vision](monsters/universalMonsterRules#_low-light-vision), [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +18
 
 Defense
 
@@ -18,17 +18,17 @@ Defense
 
 **Fort** +9, **Ref** +6, **Will** +8
 
-**DR** 5/epic; **Immune** dragon traits, paralysis, sleep; **Resist** acid 10, [cold](monsters/creatureTypes.md#_cold-subtype) 10, electricity 10, [fire](monsters/creatureTypes.md#_fire-subtype) 10
+**DR** 5/epic; **Immune** dragon traits, paralysis, sleep; **Resist** acid 10, [cold](monsters/creatureTypes#_cold-subtype) 10, electricity 10, [fire](monsters/creatureTypes#_fire-subtype) 10
 
 Offense
 
 **Speed** 20 ft., fly 100 ft. (average)
 
-**Melee** bite +11 (2d6+5 plus [grab](monsters/universalMonsterRules.md#_grab)), sting +11 (1d8+5 plus [poison](monsters/universalMonsterRules.md#_poison)), 2 wings +6 (1d8+2)
+**Melee** bite +11 (2d6+5 plus [grab](monsters/universalMonsterRules#_grab)), sting +11 (1d8+5 plus [poison](monsters/universalMonsterRules#_poison)), 2 wings +6 (1d8+2)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** power lift, mythic power (3/day, surge +1d6), [rake](monsters/universalMonsterRules.md#_rake) (2 talons +10, 1d6+5), swallow whole (1d6+5 bludgeoning, AC 14, 10 hp)
+**Special Attacks** power lift, mythic power (3/day, surge +1d6), [rake](monsters/universalMonsterRules#_rake) (2 talons +10, 1d6+5), swallow whole (1d6+5 bludgeoning, AC 14, 10 hp)
 
 Statistics
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +7; **CMB** +13 (+17 grapple); **CMD** 24
 
-**Feats** [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Improved Initiative](mythicAdventures/mythicFeats.md#_improved-initiative-mythic)M, [Iron Will](mythicAdventures/mythicFeats.md#_iron-will-mythic)M, [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception))
+**Feats** [Flyby Attack](monsters/monsterFeats#_flyby-attack), [Improved Initiative](mythicAdventures/mythicFeats#_improved-initiative-mythic)M, [Iron Will](mythicAdventures/mythicFeats#_iron-will-mythic)M, [Skill Focus](feats#_skill-focus) ( [Perception](skills/perception#_perception))
 
-**Skills** [Fly](skills/fly.md#_fly) +9, [Perception](skills/perception.md#_perception) +18, [Sense Motive](skills/senseMotive.md#_sense-motive) +11, [Stealth](skills/stealth.md#_stealth) +7; **Racial Modifiers** +4 [Perception](skills/perception.md#_perception)
+**Skills** [Fly](skills/fly#_fly) +9, [Perception](skills/perception#_perception) +18, [Sense Motive](skills/senseMotive#_sense-motive) +11, [Stealth](skills/stealth#_stealth) +7; **Racial Modifiers** +4 [Perception](skills/perception#_perception)
 
 **Languages** Draconic
 

@@ -4,7 +4,7 @@ Age Resistance
 
 **Components** V, S
 
-This spell functions as _ [lesser age resistance](ultimateMagic/spells/ageResistance.md#_age-resistance,-lesser)_, except you ignore the Strength, Dexterity, and Constitution penalties gained at middle age and old age.
+This spell functions as _ [lesser age resistance](ultimateMagic/spells/ageResistance#_age-resistance,-lesser)_, except you ignore the Strength, Dexterity, and Constitution penalties gained at middle age and old age.
 
 Age Resistance, Greater
 
@@ -12,7 +12,7 @@ Age Resistance, Greater
 
 **Components** V, S
 
-This spell functions as _ [lesser age resistance](ultimateMagic/spells/ageResistance.md#_age-resistance,-lesser)_, except you ignore all Strength, Dexterity, and Constitution penalties gained from middle age, old age, and venerable age.
+This spell functions as _ [lesser age resistance](ultimateMagic/spells/ageResistance#_age-resistance,-lesser)_, except you ignore all Strength, Dexterity, and Constitution penalties gained from middle age, old age, and venerable age.
 
 Age Resistance, Lesser
 

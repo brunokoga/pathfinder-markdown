@@ -2,7 +2,7 @@
 
 The Pathfinder Roleplaying Game may be about heroes and monsters, but the game world also has thousands or even millions of completely normal people living in it—innkeepers, town guards, bakers, and so on. When the PCs are around, trouble happens, and sometimes you need stat blocks for those NPCs—perhaps because you need to know how many rounds the innkeeper will survive inside a burning building, or how many hits the mind-controlled city guard can take from a reluctant PC. This section gives you example NPC stat blocks for the five NPC classes presented in the Core Rulebook. Even though those classes go up to level 20, in most campaigns even the most worldly peasant, merchant, or king is no more than 10th level, and anything higher than that is the realm of legendary heroes and player characters. Consequently, this section presents these NPC classes from only levels 1 to 10.
 
-The stat blocks presented here are not meant to represent specific named NPCs; rather, they are used for common roles these sorts of characters play in the game—shopkeepers, minor cultists, swineherds, and so on. You should be able to use these stat blocks for most NPCs in a particular role, or make only a simple change to do so, such as changing the [Profession](skills/profession.md#_profession) skill of the journeyman carpenter from carpentry to stonemasonry to use the stat block as a mason.
+The stat blocks presented here are not meant to represent specific named NPCs; rather, they are used for common roles these sorts of characters play in the game—shopkeepers, minor cultists, swineherds, and so on. You should be able to use these stat blocks for most NPCs in a particular role, or make only a simple change to do so, such as changing the [Profession](skills/profession#_profession) skill of the journeyman carpenter from carpentry to stonemasonry to use the stat block as a mason.
 
 All of the NPCs in this section use the "basic" set of base ability scores (13, 12, 11, 10, 9, 8). Because the NPC classes have no significant class abilities, it is easy to assign different roles to these NPCs by altering their skills or feats.
 
@@ -10,7 +10,7 @@ You can also customize the NPCs by adding limited forms of certain PC-class abil
 
 ## NPC Class Gear
 
-The NPCs in this chapter have gear according to the Basic Level column of the [NPC Gear table](creatingNPCs.md#_table-14-9-npc-gear). However, keep in mind that the table is designed for adventuring NPCs, not common townsfolk. Just because the table says a 2nd-level commoner has 390 gp doesn't mean every 2nd-level pig farmer actually has 390 gp worth of portable valuables on his person or at his home! The farmer owns a few pigs, some miscellaneous farm tools, a handful of gold and silver coins, and (in a country where peasants can own land) a few acres and a cozy shack, but otherwise doesn't have any assets of interest to adventurers. For the sake of following the table, the characters in this chapter are listed with appropriate gear (and perhaps some livestock) according to their professions, and the remainder of their level-appropriate gold is listed, but it would be exceedingly rare for these normal people to have savings equivalent to multiple years of work stored in a mattress or buried under the house. Given that a character working for a week can earn gp equal to half the result of a [Craft](skills/craft.md#_craft) or [Profession](skills/profession.md#_profession) check, a typical NPC-class character is probably carrying one-tenth of that amount (at most) at any particular time. Attacking farmers for their gold is not profitable for adventurers!
+The NPCs in this chapter have gear according to the Basic Level column of the [NPC Gear table](creatingNPCs#_table-14-9-npc-gear). However, keep in mind that the table is designed for adventuring NPCs, not common townsfolk. Just because the table says a 2nd-level commoner has 390 gp doesn't mean every 2nd-level pig farmer actually has 390 gp worth of portable valuables on his person or at his home! The farmer owns a few pigs, some miscellaneous farm tools, a handful of gold and silver coins, and (in a country where peasants can own land) a few acres and a cozy shack, but otherwise doesn't have any assets of interest to adventurers. For the sake of following the table, the characters in this chapter are listed with appropriate gear (and perhaps some livestock) according to their professions, and the remainder of their level-appropriate gold is listed, but it would be exceedingly rare for these normal people to have savings equivalent to multiple years of work stored in a mattress or buried under the house. Given that a character working for a week can earn gp equal to half the result of a [Craft](skills/craft#_craft) or [Profession](skills/profession#_profession) check, a typical NPC-class character is probably carrying one-tenth of that amount (at most) at any particular time. Attacking farmers for their gold is not profitable for adventurers!
 
 There are exceptions, of course. For example, adepts in hostile tribes or bandit gangs tend to have treasure indicated by the table, as do aristocrats (who are generally wealthy or have access to significant resources) and warriors (who are paid and equipped in anticipation of battle). Members of those three classes usually have armor, weapons, and magic items that PCs would consider treasure. Some experts, such as skilled artisans or merchants, may have valuable merchandise or a stash of coin intended for buying more supplies. Use common sense to decide whether an NPC's listed "surplus" gold is reasonable or not, and award treasure accordingly.
 
@@ -28,7 +28,7 @@ You can use these NPCs as opponents for your campaign, though they lack the spec
 
 ## Minions
 
-If an NPC-class character has a recurring role in the campaign, a player might want to make that character a permanent addition to the group by using the [Leadership](feats.md#_leadership) feat or offering a ridiculously high wage (offering an NPC a 1,000 gp bonus for taking a job is roughly equivalent to 4 years of normal pay). Whether the player intends the NPC to be a cohort, an important follower, or just a reliable lackey, few NPCs are likely to refuse the opportunity to associate with an incredibly wealthy patron. If the NPC overcomes many challenges and gains levels, it is fair to allow the PC to suggest class levels, feats, and skills for the minion to pursue (including PC-class levels, if the PC provides suitable training for that purpose).
+If an NPC-class character has a recurring role in the campaign, a player might want to make that character a permanent addition to the group by using the [Leadership](feats#_leadership) feat or offering a ridiculously high wage (offering an NPC a 1,000 gp bonus for taking a job is roughly equivalent to 4 years of normal pay). Whether the player intends the NPC to be a cohort, an important follower, or just a reliable lackey, few NPCs are likely to refuse the opportunity to associate with an incredibly wealthy patron. If the NPC overcomes many challenges and gains levels, it is fair to allow the PC to suggest class levels, feats, and skills for the minion to pursue (including PC-class levels, if the PC provides suitable training for that purpose).
 
 ### Player Characters
 
@@ -36,15 +36,15 @@ In some campaigns, the PCs start out as normal people who encounter extraordinar
 
 ## NPC Classes
 
-### [Adepts](npcCodex/npc/adept.md)
+### [Adepts](npcCodex/npc/adept)
 
-### [Aristocrats](npcCodex/npc/aristocrat.md)
+### [Aristocrats](npcCodex/npc/aristocrat)
 
-### [Commoners](npcCodex/npc/commoner.md)
+### [Commoners](npcCodex/npc/commoner)
 
-### [Experts](npcCodex/npc/expert.md)
+### [Experts](npcCodex/npc/expert)
 
-### [Warriors](npcCodex/npc/warrior.md)
+### [Warriors](npcCodex/npc/warrior)
 
 ## Human Names
 

@@ -32,39 +32,39 @@ Augur CR 2
 
 XP 600
 
-LE Tiny outsider ( [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [kyton](monsters/creatureTypes.md#_kyton-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype))
+LE Tiny outsider ( [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [kyton](monsters/creatureTypes#_kyton-subtype), [lawful](monsters/creatureTypes#_lawful-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft., _ [deathwatch](spells/deathwatch.md#_deathwatch)_; [Perception](skills/perception.md#_perception) +7
+**Init** +7; **Senses** darkvision 60 ft., _ [deathwatch](spells/deathwatch#_deathwatch)_; [Perception](skills/perception#_perception) +7
 
 Defense
 
 **AC** 17, touch 15, flat-footed 14 (+3 Dex, +2 natural, +2 size)
 
-**hp** 19 (3d10+3); regeneration 2 ( [good](monsters/creatureTypes.md#_good-subtype) weapons and spells, silver weapons)
+**hp** 19 (3d10+3); regeneration 2 ( [good](monsters/creatureTypes#_good-subtype) weapons and spells, silver weapons)
 
 **Fort** +2, **Ref** +8, **Will** +4
 
-**DR** 5/good or silver; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype)
+**DR** 5/good or silver; **Immune** [cold](monsters/creatureTypes#_cold-subtype)
 
 Offense
 
 **Speed** 20 ft., fly 50 ft. (perfect)
 
-**Melee** gore +4 (1d4–1 plus [bleed](monsters/universalMonsterRules.md#_bleed))
+**Melee** gore +4 (1d4–1 plus [bleed](monsters/universalMonsterRules#_bleed))
 
 **Space** 2-1/2 ft.; **Reach** 0 ft.
 
-**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d2), unnerving gaze (30 ft., DC 9)
+**Special Attacks** [bleed](monsters/universalMonsterRules#_bleed) (1d2), unnerving gaze (30 ft., DC 9)
 
 **Spell-Like Abilities** (CL 6th; concentration +4)
 
-Constant—_ [deathwatch](spells/deathwatch.md#_deathwatch)_
+Constant—_ [deathwatch](spells/deathwatch#_deathwatch)_
 
-At will—_ [bleed](spells/bleed.md#_bleed)_ (DC 8), _ [mage hand](spells/mageHand.md#_mage-hand)_, _ [open/close](spells/openClose.md#_open-close)_
+At will—_ [bleed](spells/bleed#_bleed)_ (DC 8), _ [mage hand](spells/mageHand#_mage-hand)_, _ [open/close](spells/openClose#_open-close)_
 
-3/day—_ [inflict light wounds](spells/inflictLightWounds.md#_inflict-light-wounds)_ (DC 10)
+3/day—_ [inflict light wounds](spells/inflictLightWounds#_inflict-light-wounds)_ (DC 10)
 
-1/week—_ [commune](spells/commune.md#_commune)_ (CL 12th, 6 questions)
+1/week—_ [commune](spells/commune#_commune)_ (CL 12th, 6 questions)
 
 Statistics
 
@@ -72,9 +72,9 @@ Statistics
 
 **Base Atk** +3; **CMB** +4; **CMD** 13 (can't be tripped)
 
-**Feats** [Improved Initiative](feats.md#_improved-initiative), [Lightning Reflexes](feats.md#_lightning-reflexes)
+**Feats** [Improved Initiative](feats#_improved-initiative), [Lightning Reflexes](feats#_lightning-reflexes)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +4, [Escape Artist](skills/escapeArtist.md#_escape-artist) +9, [Fly](skills/fly.md#_fly) +11, [Intimidate](skills/intimidate.md#_intimidate) +4, [Perception](skills/perception.md#_perception) +7, [Sense Motive](skills/senseMotive.md#_sense-motive) +7, [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) +9, [Stealth](skills/stealth.md#_stealth) +17
+**Skills** [Bluff](skills/bluff#_bluff) +4, [Escape Artist](skills/escapeArtist#_escape-artist) +9, [Fly](skills/fly#_fly) +11, [Intimidate](skills/intimidate#_intimidate) +4, [Perception](skills/perception#_perception) +7, [Sense Motive](skills/senseMotive#_sense-motive) +7, [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand) +9, [Stealth](skills/stealth#_stealth) +17
 
 **Languages** Common, Infernal (cannot speak)
 
@@ -96,7 +96,7 @@ While their usefulness in tasks of stealth and guile makes augurs deadly compani
 
 An augur's gruesome appearance is not always self-inflicted. They are sometimes constructed by other kytons who seek to impose an everlasting punishment upon a particularly unwilling mortal sacrifice; the defiant individual's body is cast aside for scraps as its mind and soul are transferred into the monocular shell, producing an augur when the ritual is complete. Augurs are the least pragmatic type of all kytons, and thus the least respected among their peers. The condemnation of an individual's spirit to the cage-like body of a kyton augur is the precedent for a truly agonizing and lonely existence.
 
-A lawful evil spellcaster can gain an augur as a familiar at 7th level by taking the [Improved Familiar](feats.md#_improved-familiar) feat.
+A lawful evil spellcaster can gain an augur as a familiar at 7th level by taking the [Improved Familiar](feats#_improved-familiar) feat.
 
 A typical augur kyton is 1 foot in diameter and weighs 30 pounds.
 
@@ -108,39 +108,39 @@ Eremite CR 20
 
 XP 307,200
 
-LE Medium outsider ( [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [kyton](monsters/creatureTypes.md#_kyton-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype))
+LE Medium outsider ( [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [kyton](monsters/creatureTypes#_kyton-subtype), [lawful](monsters/creatureTypes#_lawful-subtype))
 
-**Init** +12; **Senses** darkvision 60 ft., _ [true seeing](spells/trueSeeing.md#_true-seeing)_; [Perception](skills/perception.md#_perception) +34
+**Init** +12; **Senses** darkvision 60 ft., _ [true seeing](spells/trueSeeing#_true-seeing)_; [Perception](skills/perception#_perception) +34
 
 Defense
 
 **AC** 38, touch 19, flat-footed 29 (+8 Dex, +1 dodge, +19 natural)
 
-**hp** 310 (20d10+200); regeneration 15 ( [good](monsters/creatureTypes.md#_good-subtype) weapons and spells, silver weapons)
+**hp** 310 (20d10+200); regeneration 15 ( [good](monsters/creatureTypes#_good-subtype) weapons and spells, silver weapons)
 
 **Fort** +22, **Ref** +16, **Will** +19
 
-**DR** 15/good and silver; **Immune** [cold](monsters/creatureTypes.md#_cold-subtype), [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) effects, nonlethal damage, pain; **SR** 31
+**DR** 15/good and silver; **Immune** [cold](monsters/creatureTypes#_cold-subtype), [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) effects, nonlethal damage, pain; **SR** 31
 
 Offense
 
 **Speed** 40 ft., fly 60 ft. (good)
 
-**Melee** bite +30 (2d6+10 plus pain), 2 claws +30 (2d6+10/19–20 plus [grab](monsters/universalMonsterRules.md#_grab) and pain), 2 wings +25 (1d8+5 plus pain)
+**Melee** bite +30 (2d6+10 plus pain), 2 claws +30 (2d6+10/19–20 plus [grab](monsters/universalMonsterRules#_grab) and pain), 2 wings +25 (1d8+5 plus pain)
 
 **Special Attacks** evisceration, unnerving gaze (30 ft., DC 31)
 
 **Spell-Like Abilities** (CL 20th; concentration +31)
 
-Constant—_ [true seeing](spells/trueSeeing.md#_true-seeing)_
+Constant—_ [true seeing](spells/trueSeeing#_true-seeing)_
 
-At will—_ [greater teleport](spells/teleport.md#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [inflict critical wounds](spells/inflictCriticalWounds.md#_inflict-critical-wounds)_ (DC 25), _ [shadow walk](spells/shadowWalk.md#_shadow-walk)_, _ [telekinesis](spells/telekinesis.md#_telekinesis) _(DC 26)
+At will—_ [greater teleport](spells/teleport#_teleport-greater)_ (self plus 50 lbs. of objects only), _ [inflict critical wounds](spells/inflictCriticalWounds#_inflict-critical-wounds)_ (DC 25), _ [shadow walk](spells/shadowWalk#_shadow-walk)_, _ [telekinesis](spells/telekinesis#_telekinesis) _(DC 26)
 
-3/day—_ [blade barrier](spells/bladeBarrier.md#_blade-barrier)_ (DC 27), _ [dimensional lock](spells/dimensionalLock.md#_dimensional-lock)_, _ [forcecage](spells/forcecage.md#_forcecage)_ (DC 28),   
-_ [greater](spells/shadowEvocation.md#_shadow-evocation-greater) [shadow](magicItems/armor.md#_armor-shadow) evocation_ (DC 29), _ [heal](spells/heal.md#_heal)_ (self only), _ [insanity](spells/insanity.md#_insanity)_ (DC 28), _ [mass inflict critical wounds](spells/inflictCriticalWounds.md#_inflict-critical-wounds-mass)_ (DC 29), _ [plane shift](spells/planeShift.md#_plane-shift)_   
-(DC 28), _ [shades](spells/shades.md#_shades)_ (DC 29), _ [symbol of pain](spells/symbolOfPain.md#_symbol-of-pain)_ (DC 26), _ [wall of force](spells/wallOfForce.md#_wall-of-force)_
+3/day—_ [blade barrier](spells/bladeBarrier#_blade-barrier)_ (DC 27), _ [dimensional lock](spells/dimensionalLock#_dimensional-lock)_, _ [forcecage](spells/forcecage#_forcecage)_ (DC 28),   
+_ [greater](spells/shadowEvocation#_shadow-evocation-greater) [shadow](magicItems/armor#_armor-shadow) evocation_ (DC 29), _ [heal](spells/heal#_heal)_ (self only), _ [insanity](spells/insanity#_insanity)_ (DC 28), _ [mass inflict critical wounds](spells/inflictCriticalWounds#_inflict-critical-wounds-mass)_ (DC 29), _ [plane shift](spells/planeShift#_plane-shift)_   
+(DC 28), _ [shades](spells/shades#_shades)_ (DC 29), _ [symbol of pain](spells/symbolOfPain#_symbol-of-pain)_ (DC 26), _ [wall of force](spells/wallOfForce#_wall-of-force)_
 
-1/day—_ [binding](spells/binding.md#_binding)_ (DC 29), _ [trap the soul](spells/trapTheSoul.md#_trap-the-soul)_ (DC 29)
+1/day—_ [binding](spells/binding#_binding)_ (DC 29), _ [trap the soul](spells/trapTheSoul#_trap-the-soul)_ (DC 29)
 
 Statistics
 
@@ -148,9 +148,9 @@ Statistics
 
 **Base Atk** +20; **CMB** +30 (+34 grapple); **CMD** 49
 
-**Feats** [Combat Casting](feats.md#_combat-casting), [Combat Expertise](feats.md#_combat-expertise), [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Improved Critical](feats.md#_improved-critical) (claws), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), [Skill Focus](feats.md#_skill-focus) ( [Perception](skills/perception.md#_perception)), [Spell Penetration](feats.md#_spell-penetration)
+**Feats** [Combat Casting](feats#_combat-casting), [Combat Expertise](feats#_combat-expertise), [Combat Reflexes](feats#_combat-reflexes), [Dodge](feats#_dodge), [Improved Critical](feats#_improved-critical) (claws), [Improved Initiative](feats#_improved-initiative), [Iron Will](feats#_iron-will), [Lightning Reflexes](feats#_lightning-reflexes), [Skill Focus](feats#_skill-focus) ( [Perception](skills/perception#_perception)), [Spell Penetration](feats#_spell-penetration)
 
-**Skills** [Bluff](skills/bluff.md#_bluff) +34, [Diplomacy](skills/diplomacy.md#_diplomacy) +34, [Fly](skills/fly.md#_fly) +12, [Heal](skills/heal.md#_heal) +28, [Intimidate](skills/intimidate.md#_intimidate) +34, [Knowledge](skills/knowledge.md#_knowledge) (arcana) +16, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering) +16, [Knowledge](skills/knowledge.md#_knowledge) (nature) +16, [Knowledge](skills/knowledge.md#_knowledge) (planes) +29, [Knowledge](skills/knowledge.md#_knowledge) (religion) +16, [Perception](skills/perception.md#_perception) +34, [Sense Motive](skills/senseMotive.md#_sense-motive) +28, [Spellcraft](skills/spellcraft.md#_spellcraft) +29, [Stealth](skills/stealth.md#_stealth) +31, [Use Magic Device](skills/useMagicDevice.md#_use-magic-device) +31
+**Skills** [Bluff](skills/bluff#_bluff) +34, [Diplomacy](skills/diplomacy#_diplomacy) +34, [Fly](skills/fly#_fly) +12, [Heal](skills/heal#_heal) +28, [Intimidate](skills/intimidate#_intimidate) +34, [Knowledge](skills/knowledge#_knowledge) (arcana) +16, [Knowledge](skills/knowledge#_knowledge) (dungeoneering) +16, [Knowledge](skills/knowledge#_knowledge) (nature) +16, [Knowledge](skills/knowledge#_knowledge) (planes) +29, [Knowledge](skills/knowledge#_knowledge) (religion) +16, [Perception](skills/perception#_perception) +34, [Sense Motive](skills/senseMotive#_sense-motive) +28, [Spellcraft](skills/spellcraft#_spellcraft) +29, [Stealth](skills/stealth#_stealth) +31, [Use Magic Device](skills/useMagicDevice#_use-magic-device) +31
 
 **Languages** Common, Infernal; telepathy 100 ft.
 
@@ -166,17 +166,17 @@ Ecology
 
 Special Abilities
 
-**Immune to Pain (Su)** An eremite is immune to nonlethal damage, as well as to all magical effects associated with extreme pain, such as a _ [symbol of pain](spells/symbolOfPain.md#_symbol-of-pain)_, another eremite's pain attack, or similar effects at the GM's discretion.
+**Immune to Pain (Su)** An eremite is immune to nonlethal damage, as well as to all magical effects associated with extreme pain, such as a _ [symbol of pain](spells/symbolOfPain#_symbol-of-pain)_, another eremite's pain attack, or similar effects at the GM's discretion.
 
 **Evisceration (Ex)** When an eremite grapples a foe, it can quickly eviscerate or otherwise surgically alter its victim by excising a bit of flesh or a part of an internal organ as a swift action, causing the victim to take 1d8 points of ability drain—the exact ability score drained is chosen by the eremite. The victim can resist this effect with a DC 28 Fortitude save. The save DC is Dexterity-based.
 
-**Graft Flesh (Su)** Once per day, an eremite may graft any bit of flesh or bone harvested via its evisceration ability within the previous hour to its own body as a full-round action that provokes an attack of opportunity. Doing so grants the eremite the effects of a _ [heal](spells/heal.md#_heal)_ and a _ [greater restoration](spells/restoration.md#_restoration-greater)_ spell (caster level 20th).
+**Graft Flesh (Su)** Once per day, an eremite may graft any bit of flesh or bone harvested via its evisceration ability within the previous hour to its own body as a full-round action that provokes an attack of opportunity. Doing so grants the eremite the effects of a _ [heal](spells/heal#_heal)_ and a _ [greater restoration](spells/restoration#_restoration-greater)_ spell (caster level 20th).
 
 **Pain (Su)** Any creature struck by an eremite's natural attacks must make a DC 30 Fortitude save or become staggered for 1 round from the pain. As long as a creature is staggered by this effect, it takes a –4 penalty on all saving throws made to resist the eremite's spell-like and extraordinary abilities. The save DC is Constitution-based.
 
-**Shadow Traveler (Ex)** When an eremite uses _ [plane shift](spells/planeShift.md#_plane-shift)_ to travel to the Plane of Shadow, it arrives at its intended destination with complete accuracy. When an eremite uses _ [shadow walk](spells/shadowWalk.md#_shadow-walk)_, it moves at a rate of 100 miles per hour.
+**Shadow Traveler (Ex)** When an eremite uses _ [plane shift](spells/planeShift#_plane-shift)_ to travel to the Plane of Shadow, it arrives at its intended destination with complete accuracy. When an eremite uses _ [shadow walk](spells/shadowWalk#_shadow-walk)_, it moves at a rate of 100 miles per hour.
 
-**Unnerving Gaze (Ex)** A creature that succumbs to an eremite's unnerving gaze becomes paralyzed with [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) for 1d4 rounds as it finds itself almost longing to submit its flesh to the [kyton](monsters/creatureTypes.md#_kyton-subtype). At the end of any round it remains paralyzed in this way, the victim must make a DC 31 Will save or take 1d4 points of Wisdom drain from encroaching madness. This is a mind-affecting [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) effect.
+**Unnerving Gaze (Ex)** A creature that succumbs to an eremite's unnerving gaze becomes paralyzed with [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) for 1d4 rounds as it finds itself almost longing to submit its flesh to the [kyton](monsters/creatureTypes#_kyton-subtype). At the end of any round it remains paralyzed in this way, the victim must make a DC 31 Will save or take 1d4 points of Wisdom drain from encroaching madness. This is a mind-affecting [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) effect.
 
 Eremites are among the eldest and most mutilated of kytons, having inflicted such massive damage to themselves that they feel little pain and no fear. The typical eremite is completely covered in blood-caked bandages, tattered cords of black leather, and thousands of jagged shards of razor-sharp metal. These fragments are all that holds the creature's mutilated flesh together, yet they do so with a strength far greater than that granted by mortal flesh and bone.
 
@@ -184,7 +184,7 @@ Rather than concentrating solely on physical or even spiritual alterations, erem
 
 While eremites do hold an appreciation for inspection of their targets as well as introspection regarding their own powers and identity, their primary occupation is the understanding of pain and suffering, which they pursue by inflicting the most heinous cruelties upon their victims. An eremite seeks to deliver as much agony as possible to its victims after capturing them, allowing them to undergo extreme amounts of trauma before letting them perish. An eremite often rends its own flesh in the same manner as it does its victim's, so as to experience the pain alongside it.
 
-While pursuing a chosen victim, an eremite utilizes its supernatural abilities to distract and distress a given target before it captures and drags it back to the Plane of Shadow via _ [plane shift](spells/planeShift.md#_plane-shift)_. Bargaining with an eremite is not usually an option, though if a particularly powerful victim can offer an eremite advice or aid, or otherwise assist in harvesting an even more interesting catch, an eremite can sometimes be convinced to let the helpful victim escape. It's worth remembering, though, that kytons as a whole have little patience for the petty pursuits of honor and pride, seeing such feelings as traits that ultimately spell the end for baser creatures. The only thing that matters to an eremite is the testing of its boundaries as well as the boundaries of existence itself. Just because an eremite might be convinced to let someone go in trade for an opportunity for a greater catch doesn't mean that once that other target is secured the eremite will cease its attempts to capture and harvest its original target. One who manages to distract and subsequently escape an eremite is well-advised to spend the rest of his life on the run.
+While pursuing a chosen victim, an eremite utilizes its supernatural abilities to distract and distress a given target before it captures and drags it back to the Plane of Shadow via _ [plane shift](spells/planeShift#_plane-shift)_. Bargaining with an eremite is not usually an option, though if a particularly powerful victim can offer an eremite advice or aid, or otherwise assist in harvesting an even more interesting catch, an eremite can sometimes be convinced to let the helpful victim escape. It's worth remembering, though, that kytons as a whole have little patience for the petty pursuits of honor and pride, seeing such feelings as traits that ultimately spell the end for baser creatures. The only thing that matters to an eremite is the testing of its boundaries as well as the boundaries of existence itself. Just because an eremite might be convinced to let someone go in trade for an opportunity for a greater catch doesn't mean that once that other target is secured the eremite will cease its attempts to capture and harvest its original target. One who manages to distract and subsequently escape an eremite is well-advised to spend the rest of his life on the run.
 
 A typical eremite stands approximately 7 feet tall and weighs about 200 pounds. While their general form is something of a humanoid shape, exact appearances can vary wildly between eremites as they harvest and graft particularly unusual pieces of flesh to their bodies from increasingly exotic victims.
 
@@ -192,7 +192,7 @@ A typical eremite stands approximately 7 feet tall and weighs about 200 pounds. 
 
 Eremites who surpass the limits of individuality and achieve dominion over a certain realm of the Plane of Shadow are referred to as eremite overlords. An overlord has focused on a specific type of mutilation, and has taken that heinous surgical procedure to the outer limits of pain and pleasure. Those who worship and venerate the overlords often seek to emulate their patron's chosen mutilation, often fatally so. Overlords keep in correspondence with one another and sometimes collaborate in a Covenant of Overlords, and while they do not view each other as enemies, they are by no means allies, and often vie for the favor of the demagogues.
 
-Each overlord is a unique Large (or larger) eremite with several additional Hit Dice. In addition, each has a unique power linked to its chosen form of self-mutilation, as well as 4–6 additional spell-like abilities along that mutilation's theme. For example, an overlord that has perfected the act of skinning itself and wrapping its flesh in thorny black vines might have an ability to send those thorny vines out at great length to grapple and constrict distant foes, and might gain _ [black tentacles](spells/blackTentacles.md#_black-tentacles)_, _ [entangle](spells/entangle.md#_entangle)_, _ [wall of thorns](spells/wallOfThorns.md#_wall-of-thorns)_, and 1–3 similar spell-like abilities.
+Each overlord is a unique Large (or larger) eremite with several additional Hit Dice. In addition, each has a unique power linked to its chosen form of self-mutilation, as well as 4–6 additional spell-like abilities along that mutilation's theme. For example, an overlord that has perfected the act of skinning itself and wrapping its flesh in thorny black vines might have an ability to send those thorny vines out at great length to grapple and constrict distant foes, and might gain _ [black tentacles](spells/blackTentacles#_black-tentacles)_, _ [entangle](spells/entangle#_entangle)_, _ [wall of thorns](spells/wallOfThorns#_wall-of-thorns)_, and 1–3 similar spell-like abilities.
 
 # Kyton, Interlocutor
 
@@ -202,37 +202,37 @@ Interlocutor CR 12
 
 XP 19,200
 
-LE Large outsider ( [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype), [kyton](monsters/creatureTypes.md#_kyton-subtype), [lawful](monsters/creatureTypes.md#_lawful-subtype))
+LE Large outsider ( [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype), [kyton](monsters/creatureTypes#_kyton-subtype), [lawful](monsters/creatureTypes#_lawful-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft.; [Perception](skills/perception.md#_perception) +23
+**Init** +7; **Senses** darkvision 60 ft.; [Perception](skills/perception#_perception) +23
 
 Defense
 
 **AC** 26, touch 13, flat-footed 22 (+3 Dex, +1 dodge, +13 natural, –1 size)
 
-**hp** 147 (14d10+70); regeneration 5 ( [good](monsters/creatureTypes.md#_good-subtype) weapons and spells, silver weapons)
+**hp** 147 (14d10+70); regeneration 5 ( [good](monsters/creatureTypes#_good-subtype) weapons and spells, silver weapons)
 
 **Fort** +14, **Ref** +9, **Will** +17
 
-**DR** 10/silver or [good](monsters/creatureTypes.md#_good-subtype); **Immune** [cold](monsters/creatureTypes.md#_cold-subtype); **SR** 23
+**DR** 10/silver or [good](monsters/creatureTypes#_good-subtype); **Immune** [cold](monsters/creatureTypes#_cold-subtype); **SR** 23
 
 Offense
 
 **Speed** 40 ft.
 
-**Melee** 4 claws +20 (1d8+7/19–20 plus [bleed](monsters/universalMonsterRules.md#_bleed))
+**Melee** 4 claws +20 (1d8+7/19–20 plus [bleed](monsters/universalMonsterRules#_bleed))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d6), [poison](monsters/universalMonsterRules.md#_poison-(ex-or-su)), rend (2 claws, 1d8+7), surgical strikes, unnerving gaze (30 ft.; DC 22)
+**Special Attacks** [bleed](monsters/universalMonsterRules#_bleed) (1d6), [poison](monsters/universalMonsterRules#_poison-(ex-or-su)), rend (2 claws, 1d8+7), surgical strikes, unnerving gaze (30 ft.; DC 22)
 
 **Spell-Like Abilities** (CL 14th; concentration +19)
 
-At will—_ [bleed](spells/bleed.md#_bleed)_ (DC 15), _ [plane shift](spells/planeShift.md#_plane-shift)_ (from the Material Plane to the Plane of Shadow Plane, self only), _ [stabilize](spells/stabilize.md#_stabilize)_
+At will—_ [bleed](spells/bleed#_bleed)_ (DC 15), _ [plane shift](spells/planeShift#_plane-shift)_ (from the Material Plane to the Plane of Shadow Plane, self only), _ [stabilize](spells/stabilize#_stabilize)_
 
-3/day—_ [cure serious wounds](spells/cureSeriousWounds.md#_cure-serious-wounds)_, _ [restoration](spells/restoration.md#_restoration)_
+3/day—_ [cure serious wounds](spells/cureSeriousWounds#_cure-serious-wounds)_, _ [restoration](spells/restoration#_restoration)_
 
-1/day—_ [breath of life](spells/breathOfLife.md#_breath-of-life)_
+1/day—_ [breath of life](spells/breathOfLife#_breath-of-life)_
 
 Statistics
 
@@ -240,9 +240,9 @@ Statistics
 
 **Base Atk** +14; **CMB** +22; **CMD** 36 (38 vs. trip)
 
-**Feats** [Cleave](feats.md#_cleave), [Combat Reflexes](feats.md#_combat-reflexes), [Dodge](feats.md#_dodge), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Lightning Reflexes](feats.md#_lightning-reflexes), [Power Attack](feats.md#_power-attack)
+**Feats** [Cleave](feats#_cleave), [Combat Reflexes](feats#_combat-reflexes), [Dodge](feats#_dodge), [Improved Initiative](feats#_improved-initiative), [Iron Will](feats#_iron-will), [Lightning Reflexes](feats#_lightning-reflexes), [Power Attack](feats#_power-attack)
 
-**Skills** [Heal](skills/heal.md#_heal) +23, [Intimidate](skills/intimidate.md#_intimidate) +22, [Knowledge](skills/knowledge.md#_knowledge) (arcana, local, religion) +9, [Knowledge](skills/knowledge.md#_knowledge) (dungeoneering, nature, planes) +12, [Perception](skills/perception.md#_perception) +23, [Sense Motive](skills/senseMotive.md#_sense-motive) +23, [Stealth](skills/stealth.md#_stealth) +16
+**Skills** [Heal](skills/heal#_heal) +23, [Intimidate](skills/intimidate#_intimidate) +22, [Knowledge](skills/knowledge#_knowledge) (arcana, local, religion) +9, [Knowledge](skills/knowledge#_knowledge) (dungeoneering, nature, planes) +12, [Perception](skills/perception#_perception) +23, [Sense Motive](skills/senseMotive#_sense-motive) +23, [Stealth](skills/stealth#_stealth) +16
 
 **Languages** Common, Infernal
 
@@ -256,7 +256,7 @@ Ecology
 
 Special Abilities
 
-**Surgical Strikes (Ex)** An interlocutor's claws threaten a critical hit on a roll of 19–20. On a successful critical hit, that claw deals 2d6 [bleed](monsters/universalMonsterRules.md#_bleed) damage rather than 1d6.
+**Surgical Strikes (Ex)** An interlocutor's claws threaten a critical hit on a roll of 19–20. On a successful critical hit, that claw deals 2d6 [bleed](monsters/universalMonsterRules#_bleed) damage rather than 1d6.
 
 **Unnerving Gaze (Ex)** A creature that succumbs to an eremite's unnerving gaze becomes staggered for 1 round as it becomes convinced that it recognizes some of its own body parts entangled in the interlocutor's body.
 

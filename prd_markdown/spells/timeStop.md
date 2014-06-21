@@ -16,5 +16,5 @@ This spell seems to make time cease to flow for everyone but you. In fact, you s
 
 You cannot move or harm items held, carried, or worn by a creature stuck in normal time, but you can affect any item that is not in another creature's possession.
 
-You are undetectable while _time stop _lasts. You cannot enter an area protected by an _ [antimagic field](antimagicField.md#_antimagic-field) _while under the effect of _time stop._
+You are undetectable while _time stop _lasts. You cannot enter an area protected by an _ [antimagic field](antimagicField#_antimagic-field) _while under the effect of _time stop._
 

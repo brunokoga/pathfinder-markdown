@@ -12,9 +12,9 @@
 
 **Duration** 1 day/level (D)
 
-**Saving Throw** none; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** none; see text; **[Spell Resistance](../glossary#_spell-resistance)** no
 
-You alter an item's aura so that it registers to _detect _spells (and spells with similar capabilities) as though it were nonmagical, or a magic item of a kind you specify, or the subject of a spell you specify. If the object bearing _magic aura _has _identify _cast on it or is similarly examined, the examiner recognizes that the aura is false and detects the object's actual qualities if he succeeds on a [Will](../combat.md#_will) save. Otherwise, he believes the aura and no amount of testing reveals what the true magic is.
+You alter an item's aura so that it registers to _detect _spells (and spells with similar capabilities) as though it were nonmagical, or a magic item of a kind you specify, or the subject of a spell you specify. If the object bearing _magic aura _has _identify _cast on it or is similarly examined, the examiner recognizes that the aura is false and detects the object's actual qualities if he succeeds on a [Will](../combat#_will) save. Otherwise, he believes the aura and no amount of testing reveals what the true magic is.
 
 If the targeted item's own aura is exceptionally powerful (if it is an artifact, for instance), _magic aura _doesn't work.
 

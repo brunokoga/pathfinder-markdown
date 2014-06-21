@@ -6,9 +6,9 @@ _The dry rasping of spidery legs brings this hideous monstrosity into view—a n
 
 **XP 3,200**
 
-CE Large [aberration](creatureTypes.md#_aberration)
+CE Large [aberration](creatureTypes#_aberration)
 
-**Init** +2; **Senses** darkvision 120 ft., _ [detect good](../spells/detectGood.md#_detect-good), [detect law](../spells/detectLaw.md#_detect-law), [detect magic](../spells/detectMagic.md#_detect-magic)_; [Perception](../skills/perception.md#_perception) +15
+**Init** +2; **Senses** darkvision 120 ft., _ [detect good](../spells/detectGood#_detect-good), [detect law](../spells/detectLaw#_detect-law), [detect magic](../spells/detectMagic#_detect-magic)_; [Perception](../skills/perception#_perception) +15
 
 **Defense**
 
@@ -24,31 +24,31 @@ CE Large [aberration](creatureTypes.md#_aberration)
 
 **Speed** 30 ft., climb 20 ft.
 
-**Melee** mwk heavy mace +9/+4 (1d8+3), bite +3 (1d4+1 plus [poison](universalMonsterRules.md#_poison))
+**Melee** mwk heavy mace +9/+4 (1d8+3), bite +3 (1d4+1 plus [poison](universalMonsterRules#_poison))
 
 **Ranged** mwk composite longbow +8/+3 (1d8+2/×3)
 
 **Space** 10 ft.; **Reach** 5 ft.
 
-**Special Attacks** [web](universalMonsterRules.md#_web) (+7 ranged, DC 18, hp 9)
+**Special Attacks** [web](universalMonsterRules#_web) (+7 ranged, DC 18, hp 9)
 
 **Spell-Like Abilities** (CL 9th)
 
-Constant—_ [detect good](../spells/detectGood.md#_detect-good), [detect law](../spells/detectLaw.md#_detect-law), [detect magic](../spells/detectMagic.md#_detect-magic)_
+Constant—_ [detect good](../spells/detectGood#_detect-good), [detect law](../spells/detectLaw#_detect-law), [detect magic](../spells/detectMagic#_detect-magic)_
 
-At will—_ [dancing lights](../spells/dancingLights.md#_dancing-lights), [darkness](../spells/darkness.md#_darkness), [faerie fire](../spells/faerieFire.md#_faerie-fire)_
+At will—_ [dancing lights](../spells/dancingLights#_dancing-lights), [darkness](../spells/darkness#_darkness), [faerie fire](../spells/faerieFire#_faerie-fire)_
 
-1/day—_ [clairaudience/clairvoyance](../spells/clairaudienceClairvoyance.md#_clairaudience-clairvoyance), [deeper darkness](../spells/deeperDarkness.md#_deeper-darkness), [dispel magic](../spells/dispelMagic.md#_dispel-magic), [levitate](../spells/levitate.md#_levitate), [suggestion](../spells/suggestion.md#_suggestion)_ (DC 16)
+1/day—_ [clairaudience/clairvoyance](../spells/clairaudienceClairvoyance#_clairaudience-clairvoyance), [deeper darkness](../spells/deeperDarkness#_deeper-darkness), [dispel magic](../spells/dispelMagic#_dispel-magic), [levitate](../spells/levitate#_levitate), [suggestion](../spells/suggestion#_suggestion)_ (DC 16)
 
 **Spells Known** (CL 6th)
 
-3rd (4/day)—_ [lightning bolt](../spells/lightningBolt.md#_lightning-bolt) _(DC 16)
+3rd (4/day)—_ [lightning bolt](../spells/lightningBolt#_lightning-bolt) _(DC 16)
 
-2nd (6/day)—_ [invisibility](../spells/invisibility.md#_invisibility), [web](../spells/web.md#_web) _(DC 15)
+2nd (6/day)—_ [invisibility](../spells/invisibility#_invisibility), [web](../spells/web#_web) _(DC 15)
 
-1st (7/day)—_ [mage armor](../spells/mageArmor.md#_mage-armor), [magic missile](../spells/magicMissile.md#_magic-missile), [ray of enfeeblement](../spells/rayOfEnfeeblement.md#_ray-of-enfeeblement) _(DC 14)_, [silent image](../spells/silentImage.md#_silent-image) _(DC 14)
+1st (7/day)—_ [mage armor](../spells/mageArmor#_mage-armor), [magic missile](../spells/magicMissile#_magic-missile), [ray of enfeeblement](../spells/rayOfEnfeeblement#_ray-of-enfeeblement) _(DC 14)_, [silent image](../spells/silentImage#_silent-image) _(DC 14)
 
-0 (at will)—_ [bleed](../spells/bleed.md#_bleed) _(DC 13), _ [daze](../spells/daze.md#_daze) _(DC 13)_, [ghost sound](../spells/ghostSound.md#_ghost-sound), [mage hand](../spells/mageHand.md#_mage-hand), [ray of frost](../spells/rayOfFrost.md#_ray-of-frost), [read magic](../spells/readMagic.md#_read-magic), [resistance](../spells/resistance.md#_resistance)_
+0 (at will)—_ [bleed](../spells/bleed#_bleed) _(DC 13), _ [daze](../spells/daze#_daze) _(DC 13)_, [ghost sound](../spells/ghostSound#_ghost-sound), [mage hand](../spells/mageHand#_mage-hand), [ray of frost](../spells/rayOfFrost#_ray-of-frost), [read magic](../spells/readMagic#_read-magic), [resistance](../spells/resistance#_resistance)_
 
 **Statistics**
 
@@ -56,9 +56,9 @@ At will—_ [dancing lights](../spells/dancingLights.md#_dancing-lights), [darkn
 
 **Base**  **Atk** +6; **CMB** +9; **CMD** 21 (33 vs. trip)
 
-**Feats** [Blind-Fight](../feats.md#_blind-fight), [Dodge](../feats.md#_dodge), [Combat Casting](../feats.md#_combat-casting), [Weapon Focus](../feats.md#_weapon-focus) (bite, mace)
+**Feats** [Blind-Fight](../feats#_blind-fight), [Dodge](../feats#_dodge), [Combat Casting](../feats#_combat-casting), [Weapon Focus](../feats#_weapon-focus) (bite, mace)
 
-**Skills** [Climb](../skills/climb.md#_climb) +22, [Intimidate](../skills/intimidate.md#_intimidate) +15, [Knowledge](../skills/knowledge.md#_knowledge) (arcana) +14, [Perception](../skills/perception.md#_perception) +15, [Spellcraft](../skills/spellcraft.md#_spellcraft) +14, [Stealth](../skills/stealth.md#_stealth) +14; **Racial Modifiers** +4 [Stealth](../skills/stealth.md#_stealth)
+**Skills** [Climb](../skills/climb#_climb) +22, [Intimidate](../skills/intimidate#_intimidate) +15, [Knowledge](../skills/knowledge#_knowledge) (arcana) +14, [Perception](../skills/perception#_perception) +15, [Spellcraft](../skills/spellcraft#_spellcraft) +14, [Stealth](../skills/stealth#_stealth) +14; **Racial Modifiers** +4 [Stealth](../skills/stealth#_stealth)
 
 **Languages** Common, Elven, Undercommon
 

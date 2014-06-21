@@ -6,9 +6,9 @@ Desert Drake CR 8
 
 XP 4,800
 
-NE Large dragon ( [earth](monsters/creatureTypes.md#_earth-subtype))
+NE Large dragon ( [earth](monsters/creatureTypes#_earth-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent), tremorsense 30 ft.; [Perception](skills/perception.md#_perception) +12
+**Init** +6; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules#_scent), tremorsense 30 ft.; [Perception](skills/perception#_perception) +12
 
 Defense
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +9; **CMB** +16; **CMD** 28
 
-**Feats** [Dazzling Display](feats.md#_dazzling-display), [Improved Initiative](feats.md#_improved-initiative), [Iron Will](feats.md#_iron-will), [Power Attack](feats.md#_power-attack), [Weapon Focus](feats.md#_weapon-focus) (bite)
+**Feats** [Dazzling Display](feats#_dazzling-display), [Improved Initiative](feats#_improved-initiative), [Iron Will](feats#_iron-will), [Power Attack](feats#_power-attack), [Weapon Focus](feats#_weapon-focus) (bite)
 
-**Skills** [Fly](skills/fly.md#_fly) +12, [Intimidate](skills/intimidate.md#_intimidate) +13, [Perception](skills/perception.md#_perception) +12, [Stealth](skills/stealth.md#_stealth) +10, [Survival](skills/survival.md#_survival) +12
+**Skills** [Fly](skills/fly#_fly) +12, [Intimidate](skills/intimidate#_intimidate) +13, [Perception](skills/perception#_perception) +12, [Stealth](skills/stealth#_stealth) +10, [Survival](skills/survival#_survival) +12
 
 **Languages** Draconic
 
@@ -56,7 +56,7 @@ Special Abilities
 
 **Dazzling Emergence (Ex)** During a surprise round, a desert drake can use Dazzling Display as a standard action.
 
-**Sandstorm Breath (Su)** As a standard action, a desert drake can spit a ball of electrically charged sand that bursts into a cloud. This attack has a range of 60 feet and deals 3d6 points of damage plus 4d8 points of electricity damage in a 15-foot-radius spread (Reflex DC 19 for half). The cloud remains for 1d4 rounds, dealing no damage but otherwise acting as _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_. Once a desert drake uses its breath, it cannot do so again for 1d6 rounds. The save DC is Constitution-based.
+**Sandstorm Breath (Su)** As a standard action, a desert drake can spit a ball of electrically charged sand that bursts into a cloud. This attack has a range of 60 feet and deals 3d6 points of damage plus 4d8 points of electricity damage in a 15-foot-radius spread (Reflex DC 19 for half). The cloud remains for 1d4 rounds, dealing no damage but otherwise acting as _ [obscuring mist](spells/obscuringMist#_obscuring-mist)_. Once a desert drake uses its breath, it cannot do so again for 1d6 rounds. The save DC is Constitution-based.
 
 **Savage Bite (Ex)** A desert drake applies 1-1/2 times its Strength modifier to damage dealt with its bite attack, and it threatens a critical hit on a 19–20.
 
@@ -74,9 +74,9 @@ Rift Drake CR 9
 
 XP 6,400
 
-CE Large dragon ( [earth](monsters/creatureTypes.md#_earth-subtype))
+CE Large dragon ( [earth](monsters/creatureTypes#_earth-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +14
+**Init** +7; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +14
 
 Defense
 
@@ -93,11 +93,11 @@ Offense
 
 **Speed** 30 ft., climb 20 ft., fly 60 ft. (average)
 
-**Melee** bite +18 (2d8+10/19–20 plus [bleed](monsters/universalMonsterRules.md#_bleed)), tail slap +12 (1d10+3 plus trip)
+**Melee** bite +18 (2d8+10/19–20 plus [bleed](monsters/universalMonsterRules#_bleed)), tail slap +12 (1d10+3 plus trip)
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [bleed](monsters/universalMonsterRules.md#_bleed) (1d6), clinging corrosion, [pounce](monsters/universalMonsterRules.md#_pounce), savage bite
+**Special Attacks** [bleed](monsters/universalMonsterRules#_bleed) (1d6), clinging corrosion, [pounce](monsters/universalMonsterRules#_pounce), savage bite
 
 Statistics
 
@@ -106,9 +106,9 @@ Statistics
 
 **Base Atk** +11; **CMB** +19; **CMD** 32
 
-**Feats** [Bleeding Critical](feats.md#_bleeding-critical), [Critical Focus](feats.md#_critical-focus), [Flyby Attack](monsters/monsterFeats.md#_flyby-attack), [Improved Initiative](feats.md#_improved-initiative), [Power Attack](feats.md#_power-attack), [Weapon Focus](feats.md#_weapon-focus) (bite)
+**Feats** [Bleeding Critical](feats#_bleeding-critical), [Critical Focus](feats#_critical-focus), [Flyby Attack](monsters/monsterFeats#_flyby-attack), [Improved Initiative](feats#_improved-initiative), [Power Attack](feats#_power-attack), [Weapon Focus](feats#_weapon-focus) (bite)
 
-**Skills** [Climb](skills/climb.md#_climb) +15, [Fly](skills/fly.md#_fly) +14, [Intimidate](skills/intimidate.md#_intimidate) +12, [Perception](skills/perception.md#_perception) +14, [Sense Motive](skills/senseMotive.md#_sense-motive) +11, [Stealth](skills/stealth.md#_stealth) +12, [Survival](skills/survival.md#_survival) +13
+**Skills** [Climb](skills/climb#_climb) +15, [Fly](skills/fly#_fly) +14, [Intimidate](skills/intimidate#_intimidate) +12, [Perception](skills/perception#_perception) +14, [Sense Motive](skills/senseMotive#_sense-motive) +11, [Stealth](skills/stealth#_stealth) +12, [Survival](skills/survival#_survival) +13
 
 **Languages** Draconic
 
@@ -124,7 +124,7 @@ Ecology
 
 Special Abilities
 
-**Clinging Corrosion (Su)** As a standard action, a rift drake can spit a ball of caustic gas that bursts into a cloud upon impact. This attack has a range of 60 feet and deals 5d10 points of acid damage to all creatures within the resulting 15-foot-radius spread. Additionally, any creature damaged by this attack is affected as though by the spell _ [slow](spells/slow.md#_slow)_ for 1d4 rounds. A successful DC 20 Reflex save halves the damage and negates the slowing effect. Once a rift drake uses its [breath weapon](monsters/universalMonsterRules.md#_breath-weapon), it cannot do so again for 1d6 rounds. The save DC is Constitution-based.
+**Clinging Corrosion (Su)** As a standard action, a rift drake can spit a ball of caustic gas that bursts into a cloud upon impact. This attack has a range of 60 feet and deals 5d10 points of acid damage to all creatures within the resulting 15-foot-radius spread. Additionally, any creature damaged by this attack is affected as though by the spell _ [slow](spells/slow#_slow)_ for 1d4 rounds. A successful DC 20 Reflex save halves the damage and negates the slowing effect. Once a rift drake uses its [breath weapon](monsters/universalMonsterRules#_breath-weapon), it cannot do so again for 1d6 rounds. The save DC is Constitution-based.
 
 **Savage Bite (Ex)** A rift drake applies 1-1/2 times its Strength bonus to damage dealt with its bite attack, and it threatens a critical hit on a 19–20.
 
@@ -144,9 +144,9 @@ River Drake CR 3
 
 XP 800
 
-NE Medium dragon ( [aquatic](monsters/creatureTypes.md#_aquatic-subtype), [water](monsters/creatureTypes.md#_water-subtype))
+NE Medium dragon ( [aquatic](monsters/creatureTypes#_aquatic-subtype), [water](monsters/creatureTypes#_water-subtype))
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules.md#_scent); [Perception](skills/perception.md#_perception) +7
+**Init** +7; **Senses** darkvision 60 ft., low-light vision, [scent](monsters/universalMonsterRules#_scent); [Perception](skills/perception#_perception) +7
 
 Defense
 
@@ -164,7 +164,7 @@ Offense
 
 **Melee** bite +7 (2d4+3), tail slap +2 (1d4+1)
 
-**Special Attacks** caustic mucus, [pounce](monsters/universalMonsterRules.md#_pounce)
+**Special Attacks** caustic mucus, [pounce](monsters/universalMonsterRules#_pounce)
 
 Statistics
 
@@ -172,9 +172,9 @@ Statistics
 
 **Base Atk** +4; **CMB** +7; **CMD** 20
 
-**Feats** [Improved Initiative](feats.md#_improved-initiative), [Power Attack](feats.md#_power-attack)
+**Feats** [Improved Initiative](feats#_improved-initiative), [Power Attack](feats#_power-attack)
 
-**Skills** [Fly](skills/fly.md#_fly) +10, [Intimidate](skills/intimidate.md#_intimidate) +6, [Perception](skills/perception.md#_perception) +7, [Stealth](skills/stealth.md#_stealth) +10, [Survival](skills/survival.md#_survival) +7, [Swim](skills/swim.md#_swim) +11
+**Skills** [Fly](skills/fly#_fly) +10, [Intimidate](skills/intimidate#_intimidate) +6, [Perception](skills/perception#_perception) +7, [Stealth](skills/stealth#_stealth) +10, [Survival](skills/survival#_survival) +7, [Swim](skills/swim#_swim) +11
 
 **Languages** Draconic
 

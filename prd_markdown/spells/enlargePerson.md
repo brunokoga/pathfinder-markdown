@@ -12,21 +12,21 @@
 
 **Duration** 1 min./level (D)
 
-**Saving Throw** [Fortitude](../combat.md#_fortitude) negates; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Fortitude](../combat#_fortitude) negates; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-This spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8. This increase changes the creature's size category to the next larger one. The target gains a +2 size bonus to [Strength](../gettingStarted.md#_strength), a –2 size penalty to [Dexterity](../gettingStarted.md#_dexterity) (to a minimum of 1), and a –1 penalty on attack rolls and [AC](../combat.md#_armor-class) due to its increased size.
+This spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8. This increase changes the creature's size category to the next larger one. The target gains a +2 size bonus to [Strength](../gettingStarted#_strength), a –2 size penalty to [Dexterity](../gettingStarted#_dexterity) (to a minimum of 1), and a –1 penalty on attack rolls and [AC](../combat#_armor-class) due to its increased size.
 
 A humanoid creature whose size increases to Large has a space of 10 feet and a natural reach of 10 feet. This spell does not change the target's speed.
 
-If insufficient room is available for the desired growth, the creature attains the maximum possible size and may make a [Strength](../gettingStarted.md#_strength) check (using its increased [Strength](../gettingStarted.md#_strength)) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it—the spell cannot be used to crush a creature by increasing its size.
+If insufficient room is available for the desired growth, the creature attains the maximum possible size and may make a [Strength](../gettingStarted#_strength) check (using its increased [Strength](../gettingStarted#_strength)) to burst any enclosures in the process. If it fails, it is constrained without harm by the materials enclosing it—the spell cannot be used to crush a creature by increasing its size.
 
-All equipment worn or carried by a creature is similarly enlarged by the spell. Melee weapons affected by this spell deal more damage (see [Table: Tiny and Large Weapon Damage](../equipment.md#_table-6-5-tiny-and-large-weapon-damage)). Other magical properties are not affected by this spell. Any _enlarged _item that leaves an enlarged creature's possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown and projectile weapons deal their normal damage. Magical properties of enlarged items are not increased by this spell.
+All equipment worn or carried by a creature is similarly enlarged by the spell. Melee weapons affected by this spell deal more damage (see [Table: Tiny and Large Weapon Damage](../equipment#_table-6-5-tiny-and-large-weapon-damage)). Other magical properties are not affected by this spell. Any _enlarged _item that leaves an enlarged creature's possession (including a projectile or thrown weapon) instantly returns to its normal size. This means that thrown and projectile weapons deal their normal damage. Magical properties of enlarged items are not increased by this spell.
 
 Multiple magical effects that increase size do not stack.
 
-_Enlarge person _counters and dispels _ [reduce person](reducePerson.md#_reduce-person)_.
+_Enlarge person _counters and dispels _ [reduce person](reducePerson#_reduce-person)_.
 
-_Enlarge person _can be made permanent with a _ [permanency](permanency.md#_permanency) _spell.
+_Enlarge person _can be made permanent with a _ [permanency](permanency#_permanency) _spell.
 
 **Enlarge Person, Mass**
 

@@ -12,11 +12,11 @@
 
 **Duration** 10 min./level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** no
 
-You forge a telepathic bond among yourself and a number of willing creatures, each of which must have an [Intelligence](../gettingStarted.md#_intelligence) score of 3 or higher. Each creature included in the link is linked to all the others. The creatures can communicate telepathically through the bond regardless of language. No special power or influence is established as a result of the bond. Once the bond is formed, it works over any distance (although not from one plane to another).
+You forge a telepathic bond among yourself and a number of willing creatures, each of which must have an [Intelligence](../gettingStarted#_intelligence) score of 3 or higher. Each creature included in the link is linked to all the others. The creatures can communicate telepathically through the bond regardless of language. No special power or influence is established as a result of the bond. Once the bond is formed, it works over any distance (although not from one plane to another).
 
 If desired, you may leave yourself out of the telepathic bond forged. This decision must be made at the time of casting.
 
-_Telepathic bond _can be made permanent with a _ [permanency](permanency.md#_permanency) _spell, though it only bonds two creatures per casting of _ [permanency](permanency.md#_permanency)_.
+_Telepathic bond _can be made permanent with a _ [permanency](permanency#_permanency) _spell, though it only bonds two creatures per casting of _ [permanency](permanency#_permanency)_.
 

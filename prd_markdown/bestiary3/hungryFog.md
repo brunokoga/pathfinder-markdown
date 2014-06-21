@@ -8,7 +8,7 @@ XP 2,400
 
 N Huge ooze
 
-**Init** –3; **Senses** [Perception](skills/perception.md#_perception) –5
+**Init** –3; **Senses** [Perception](skills/perception#_perception) –5
 
 **Aura** bewitching brume (10 ft., DC 8)
 
@@ -20,7 +20,7 @@ Defense
 
 **Fort** +6, **Ref** –1, **Will** –3
 
-**Defensive Abilities** gaseous, [negative energy affinity](monsters/universalMonsterRules.md#_negative-energy-affinity); **DR** 10/magic; **Immune** acid, electricity, ooze traits, sonic; **Resist** [cold](monsters/creatureTypes.md#_cold-subtype) 10
+**Defensive Abilities** gaseous, [negative energy affinity](monsters/universalMonsterRules#_negative-energy-affinity); **DR** 10/magic; **Immune** acid, electricity, ooze traits, sonic; **Resist** [cold](monsters/creatureTypes#_cold-subtype) 10
 
 **Weaknesses** vulnerable   
 to wind
@@ -51,11 +51,11 @@ Ecology
 
 Special Abilities
 
-**Bewitching Brume (Su)** Any creature within 10 feet of a hungry fog or currently being affected by its enveloping mists must succeed on a DC 8 Will save at the start of that creature's turn or become shaken for 1 round at the half-glimpsed shapes of phantoms floating within the fog. This is a mind-affecting [fear](monsters/universalMonsterRules.md#_fear-(su-or-sp)) effect. The save DC is Charisma-based.
+**Bewitching Brume (Su)** Any creature within 10 feet of a hungry fog or currently being affected by its enveloping mists must succeed on a DC 8 Will save at the start of that creature's turn or become shaken for 1 round at the half-glimpsed shapes of phantoms floating within the fog. This is a mind-affecting [fear](monsters/universalMonsterRules#_fear-(su-or-sp)) effect. The save DC is Charisma-based.
 
-**Enveloping Mists (Ex)** A hungry fog can [engulf](monsters/universalMonsterRules.md#_engulf) foes (see Universal Monster Rules in the Appendices). A creature engulfed by a hungry fog does not gain the pinned condition and may move normally—such a creature is not in danger of suffocating, but as long as it begins its turn engulfed, it is staggered in addition to the damage the attack causes. The save DC to avoid the enveloping mists is Constitution-based.
+**Enveloping Mists (Ex)** A hungry fog can [engulf](monsters/universalMonsterRules#_engulf) foes (see Universal Monster Rules in the Appendices). A creature engulfed by a hungry fog does not gain the pinned condition and may move normally—such a creature is not in danger of suffocating, but as long as it begins its turn engulfed, it is staggered in addition to the damage the attack causes. The save DC to avoid the enveloping mists is Constitution-based.
 
-**Gaseous (Ex)** A hungry fog has a body composed of eerie mist. It can pass through small holes or narrow openings, even mere cracks, but cannot enter [water](monsters/creatureTypes.md#_water-subtype) or other liquid. It has no Strength score, and cannot manipulate objects as a result.
+**Gaseous (Ex)** A hungry fog has a body composed of eerie mist. It can pass through small holes or narrow openings, even mere cracks, but cannot enter [water](monsters/creatureTypes#_water-subtype) or other liquid. It has no Strength score, and cannot manipulate objects as a result.
 
 **Vulnerable to Wind (Ex)** A hungry fog is treated as a Tiny creature for the purposes of determining the effects high wind has upon it.
 

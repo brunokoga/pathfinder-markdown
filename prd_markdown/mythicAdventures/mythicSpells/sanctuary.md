@@ -1,6 +1,6 @@
 Sanctuary
 
-**Source** [_sanctuary_](spells/sanctuary.md#_sanctuary)
+**Source** [_sanctuary_](spells/sanctuary#_sanctuary)
 
 If an attacker succeeds at its Will save to attack the protected target, add your tier to the target's AC against the attack. If the target uses a healing spell or ability on another creature, that creature gains the benefit of non-mythic _sanctuary_ for 1 round. If the creature breaks the non-mythic _sanctuary_ by attacking, subsequent healing by the target doesn't create another non-mythic _sanctuary_ effect on the creature.
 

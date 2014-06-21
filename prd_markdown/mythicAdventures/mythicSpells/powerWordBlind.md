@@ -1,6 +1,6 @@
 Power Word Blind
 
-**Source** [_power word blind_](spells/powerWordBlind.md#_power-word-blind)
+**Source** [_power word blind_](spells/powerWordBlind#_power-word-blind)
 
 Treat the target's current hit point total as though it were lowered by 5 times your tier. For example, a 3rd-tier archmage casting _mythic power word blind_ would affect a creature with 60 hp as though it had 45 hp, and the spell would permanently blind the target.
 

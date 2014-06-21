@@ -8,7 +8,7 @@
 
 **Duration** see text
 
-This spell functions like _ [minor creation](minorCreation.md#_minor-creation), _except that you can also create an object of mineral nature: stone, crystal, metal, or the like. The duration of the created item varies with its relative hardness and rarity, as indicated on the following table.
+This spell functions like _ [minor creation](minorCreation#_minor-creation), _except that you can also create an object of mineral nature: stone, crystal, metal, or the like. The duration of the created item varies with its relative hardness and rarity, as indicated on the following table.
 
 | Hardness and Rarity Examples | Duration |
 | --- | --- |

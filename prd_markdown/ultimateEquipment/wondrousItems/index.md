@@ -8,29 +8,29 @@ There are two main categories of wondrous items: slotted and slotless. Slotted i
 
 When a character wears a slotted wondrous item he cannot gain the benefit from a wondrous items of the same slot until the first item is removed. Of course, a character may carry or possess any number of slotted items of the same type, but additional items have no effect until they are worn. Sometimes a slotted wondrous item must be worn for a period of time (typically 24 hours) before the item's full effect manifests. If a creature is missing the body part where a wondrous item is worn, it cannot use that type of slotted item. If a creature has multiple body parts that correspond to a single wondrous item slot, it can still only gain the benefit of one item of that slot.
 
-[**Belt**](ultimateEquipment/wondrousItems/belts.md): This slot consists of belts and other items that can be worn around the waist.
+[**Belt**](ultimateEquipment/wondrousItems/belts): This slot consists of belts and other items that can be worn around the waist.
 
-[**Body**](ultimateEquipment/wondrousItems/body.md): This slot consists of body wraps, cassocks, corsets, dusters, harnesses, robes, vestments and any other article of clothing that can be worn on the body.
+[**Body**](ultimateEquipment/wondrousItems/body): This slot consists of body wraps, cassocks, corsets, dusters, harnesses, robes, vestments and any other article of clothing that can be worn on the body.
 
-[**Chest**](ultimateEquipment/wondrousItems/chest.md): This slot consists of jackets, mantels, shirts, vests and other items that can be worn around the torso or chest.
+[**Chest**](ultimateEquipment/wondrousItems/chest): This slot consists of jackets, mantels, shirts, vests and other items that can be worn around the torso or chest.
 
-[**Eyes**](ultimateEquipment/wondrousItems/eyes.md): This slot consists of goggles, lenses, monocles, spectacles, and other items that can be worn over the eyes.
+[**Eyes**](ultimateEquipment/wondrousItems/eyes): This slot consists of goggles, lenses, monocles, spectacles, and other items that can be worn over the eyes.
 
-[**Feet**](ultimateEquipment/wondrousItems/feet.md): This slot consists of boots, horseshoes, sandals, shoes, slippers, and other items that can be worn on the feet.
+[**Feet**](ultimateEquipment/wondrousItems/feet): This slot consists of boots, horseshoes, sandals, shoes, slippers, and other items that can be worn on the feet.
 
-[**Hands**](ultimateEquipment/wondrousItems/hands.md): This slot consists of gauntlets, gloves, and other items that can worn on the hands.
+[**Hands**](ultimateEquipment/wondrousItems/hands): This slot consists of gauntlets, gloves, and other items that can worn on the hands.
 
-[**Head**](ultimateEquipment/wondrousItems/head.md): This slot consists of circlets, crowns, hats, helms, hoods, masks, and other items that can be worn on the head.
+[**Head**](ultimateEquipment/wondrousItems/head): This slot consists of circlets, crowns, hats, helms, hoods, masks, and other items that can be worn on the head.
 
-[**Headband**](ultimateEquipment/wondrousItems/headbands.md): This slot consists of bands, headbands, laurels, phylacteries, and other non-head slot items that can be worn around the forehead.
+[**Headband**](ultimateEquipment/wondrousItems/headbands): This slot consists of bands, headbands, laurels, phylacteries, and other non-head slot items that can be worn around the forehead.
 
-[**Neck**](ultimateEquipment/wondrousItems/neck.md): This slot consists of amulets, brooches, medallions, necklaces, periapts, scarabs, and other items that can be worn around the neck or fastened to a cloak.
+[**Neck**](ultimateEquipment/wondrousItems/neck): This slot consists of amulets, brooches, medallions, necklaces, periapts, scarabs, and other items that can be worn around the neck or fastened to a cloak.
 
-[**Shoulders**](ultimateEquipment/wondrousItems/shoulders.md): This slot consists of capes, cloaks, cords, mantels, pauldrons, shawls, stoles, wings, and other items that can be worn on the shoulders.
+[**Shoulders**](ultimateEquipment/wondrousItems/shoulders): This slot consists of capes, cloaks, cords, mantels, pauldrons, shawls, stoles, wings, and other items that can be worn on the shoulders.
 
-[**Wrists**](ultimateEquipment/wondrousItems/wrists.md): This slot consists of armbands, bracelets, bracers, gauntlets, manacles, shackles, vambraces, and other items that can worn over the wrists.
+[**Wrists**](ultimateEquipment/wondrousItems/wrists): This slot consists of armbands, bracelets, bracers, gauntlets, manacles, shackles, vambraces, and other items that can worn over the wrists.
 
-[**Slotless**](ultimateEquipment/wondrousItems/slotless.md)
+[**Slotless**](ultimateEquipment/wondrousItems/slotless)
 
 ## Other Wondrous Items
 
@@ -38,7 +38,7 @@ Wondrous items not worn in one of the magic item slots are called “slotless”
 
 ## Special Wondrous Items
 
-Some wondrous items are intelligent, while others provide some clue as to their function. Roll d%. A roll of 01 indicates the wondrous item is intelligent, 02–31 indicates that something (a design, inscription, or the like) provides a clue to its function (or if the item is command word-activated, that it has the command word or words written on it), and 32–100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see [Intelligent Items](ultimateEquipment/artifactsAndOthers/intelligentItems.md)). Wondrous items with charges can never be intelligent.
+Some wondrous items are intelligent, while others provide some clue as to their function. Roll d%. A roll of 01 indicates the wondrous item is intelligent, 02–31 indicates that something (a design, inscription, or the like) provides a clue to its function (or if the item is command word-activated, that it has the command word or words written on it), and 32–100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes (see [Intelligent Items](ultimateEquipment/artifactsAndOthers/intelligentItems)). Wondrous items with charges can never be intelligent.
 
 ## Activation
 
@@ -50,7 +50,7 @@ A command word can be a real word, but when this is the case, the holder of the 
 
 Sometimes the command word to activate an item is written right on the item. Occasionally, it might be hidden within a pattern or design engraved, carved, or built into the item, or the item might bear a clue to the command word.
 
-The [Knowledge](skills/knowledge.md#_knowledge) (arcana) and [Knowledge](skills/knowledge.md#_knowledge) (history) skills can be useful in identifying command words or deciphering clues regarding them. In such cases, a successful DC 30 check is needed to come up with the word itself. If that check is failed, succeeding on a second check (DC 25) might provide a clue. The spells _detect magic_, _identify_, and _analyze dweomer_ all reveal command words if the properties of the item are successfully identified.
+The [Knowledge](skills/knowledge#_knowledge) (arcana) and [Knowledge](skills/knowledge#_knowledge) (history) skills can be useful in identifying command words or deciphering clues regarding them. In such cases, a successful DC 30 check is needed to come up with the word itself. If that check is failed, succeeding on a second check (DC 25) might provide a clue. The spells _detect magic_, _identify_, and _analyze dweomer_ all reveal command words if the properties of the item are successfully identified.
 
 **Use-Activated** : This type of item merely has to be used in order to activate it. A character has to drink a potion, swing a sword, interpose a shield to deflect a blow, look through a lens, sprinkle dust, wear a ring, or don a hat. Use activation is generally straightforward and self-explanatory.
 

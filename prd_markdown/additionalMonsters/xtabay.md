@@ -6,9 +6,9 @@ XtabayCR 1/2
 
 **XP 200**
 
-N Small [plant](monsters/creatureTypes.md#_plant)
+N Small [plant](monsters/creatureTypes#_plant)
 
-**Init** +1; **Senses** low-light vision, tremorsense 30 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +1
+**Init** +1; **Senses** low-light vision, tremorsense 30 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +1
 
 Defense
 
@@ -18,7 +18,7 @@ Defense
 
 **Fort** +6, **Ref** +1, **Will** +1
 
-**Immune** acid, [plant](monsters/creatureTypes.md#_plant) traits
+**Immune** acid, [plant](monsters/creatureTypes#_plant) traits
 
 Offense
 
@@ -44,9 +44,9 @@ Ecology
 
 Special Abilities
 
-**Devour (Ex)** While a creature is under the effects of a xtabay's soporific pollen, the [plant](monsters/creatureTypes.md#_plant) may, as a full-round action, occupy the same square as the sleeping creature and slowly sap the life from it. Every round the xtabay uses this ability, the affected creature must make a DC 14 Fortitude save or take 1d2 Con damage. This feeding is curiously painless, and normally isn't enough to waken a foe put to sleep by the [plant](monsters/creatureTypes.md#_plant). Each round this feeding continues, the sleeping victim can attempt a new DC 14 Will save to awaken. This save DC is Constitution-based.
+**Devour (Ex)** While a creature is under the effects of a xtabay's soporific pollen, the [plant](monsters/creatureTypes#_plant) may, as a full-round action, occupy the same square as the sleeping creature and slowly sap the life from it. Every round the xtabay uses this ability, the affected creature must make a DC 14 Fortitude save or take 1d2 Con damage. This feeding is curiously painless, and normally isn't enough to waken a foe put to sleep by the [plant](monsters/creatureTypes#_plant). Each round this feeding continues, the sleeping victim can attempt a new DC 14 Will save to awaken. This save DC is Constitution-based.
 
-**Soporific Pollen (Ex)** As a standard action, a xtabay can release sleep-inducing pollen into the [air](monsters/creatureTypes.md#_air-subtype) around it. Each creature within a 10-ft.-radius burst centered on the xtabay must make a DC 14 Will save or fall asleep for 1d3 minutes. A creature that succeeds on the Fortitude save cannot be affected by the same xtabay's soporific pollen for 24 hours. A creature put to sleep by this pollen can be awakened by vigorously shaking the sleeper (a standard action) or by damaging it. This is a mind-affecting sleep effect. The save DC is Constitution-based.
+**Soporific Pollen (Ex)** As a standard action, a xtabay can release sleep-inducing pollen into the [air](monsters/creatureTypes#_air-subtype) around it. Each creature within a 10-ft.-radius burst centered on the xtabay must make a DC 14 Will save or fall asleep for 1d3 minutes. A creature that succeeds on the Fortitude save cannot be affected by the same xtabay's soporific pollen for 24 hours. A creature put to sleep by this pollen can be awakened by vigorously shaking the sleeper (a standard action) or by damaging it. This is a mind-affecting sleep effect. The save DC is Constitution-based.
 
 Known for their potent—and ultimately deadly—scent, xtabays are a floral hazard to the unwary. As fast-spreading as ivy, a xtabay's vines are sturdy and adaptive, making the plant a potential threat nearly everywhere—from gardens to wells to forest groves.
 

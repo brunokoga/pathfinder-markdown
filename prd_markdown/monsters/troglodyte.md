@@ -6,9 +6,9 @@ _This humanoid's scaly hide is dull gray. Its frame resembles that of a cave liz
 
 **XP 400**
 
-CE Medium [humanoid](creatureTypes.md#_humanoid) ( [reptilian](creatureTypes.md#_reptilian-subtype))
+CE Medium [humanoid](creatureTypes#_humanoid) ( [reptilian](creatureTypes#_reptilian-subtype))
 
-**Init** –1; **Senses** darkvision 90 ft.; [Perception](../skills/perception.md#_perception) +0
+**Init** –1; **Senses** darkvision 90 ft.; [Perception](../skills/perception#_perception) +0
 
 **Aura** stench (30 ft., DC 13, 10 rounds)
 
@@ -34,9 +34,9 @@ CE Medium [humanoid](creatureTypes.md#_humanoid) ( [reptilian](creatureTypes.md#
 
 **Base Atk** +1; **CMB** +2; **CMD** 11
 
-**Feats** [Great Fortitude](../feats.md#_great-fortitude)
+**Feats** [Great Fortitude](../feats#_great-fortitude)
 
-**Skills** [Stealth](../skills/stealth.md#_stealth) +5 (+9 in rocky areas); **Racial Modifiers** +4 [Stealth](../skills/stealth.md#_stealth) (+8 in rocky areas)
+**Skills** [Stealth](../skills/stealth#_stealth) +5 (+9 in rocky areas); **Racial Modifiers** +4 [Stealth](../skills/stealth#_stealth) (+8 in rocky areas)
 
 **Languages** Draconic
 

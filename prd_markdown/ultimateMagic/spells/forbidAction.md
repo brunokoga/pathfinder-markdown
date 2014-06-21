@@ -20,7 +20,7 @@ _Attack_: The target cannot take any action that involves an attack roll, or use
 
 _Cast_: Target cannot cast spells or use spell-like abilities.
 
-_Communicate_: The target cannot take any actions that allow it to communicate with anyone. This includes such acts as speaking, [Bluff](skills/bluff.md#_bluff) checks to pass secret messages, writing, and using telepathy. It does not prevent verbalizations made for purposes other than communication, such as command words or the verbal component of spellcasting.
+_Communicate_: The target cannot take any actions that allow it to communicate with anyone. This includes such acts as speaking, [Bluff](skills/bluff#_bluff) checks to pass secret messages, writing, and using telepathy. It does not prevent verbalizations made for purposes other than communication, such as command words or the verbal component of spellcasting.
 
 _Draw_: Target cannot ready or prepare any item, weapon, component, or equipment.
 

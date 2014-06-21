@@ -8,9 +8,9 @@ _This lanky man sneers as he draws his sword. Tiny horns and a barbed tail revea
 
 Tiefling rogue 1
 
-NE Medium [outsider](creatureTypes.md#_outsider) ( [native](creatureTypes.md#_native-subtype))
+NE Medium [outsider](creatureTypes#_outsider) ( [native](creatureTypes#_native-subtype))
 
-**Init** +3; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +5
+**Init** +3; **Senses** darkvision 60 ft.; [Perception](../skills/perception#_perception) +5
 
 **Defense**
 
@@ -32,7 +32,7 @@ NE Medium [outsider](creatureTypes.md#_outsider) ( [native](creatureTypes.md#_na
 
 **Special Attacks** sneak attack +1d6
 
-**Spell-Like Abilities** (CL 1st); 1/day—_ [darkness](../spells/darkness.md#_darkness)_
+**Spell-Like Abilities** (CL 1st); 1/day—_ [darkness](../spells/darkness#_darkness)_
 
 **Statistics**
 
@@ -40,9 +40,9 @@ NE Medium [outsider](creatureTypes.md#_outsider) ( [native](creatureTypes.md#_na
 
 **Base Atk** +0; **CMB** +1; **CMD** 14
 
-**Feats** [Weapon Finesse](../feats.md#_weapon-finesse)
+**Feats** [Weapon Finesse](../feats#_weapon-finesse)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +6, [Bluff](../skills/bluff.md#_bluff) +4, [Disable Device](../skills/disableDevice.md#_disable-device) +6, [Escape Artist](../skills/escapeArtist.md#_escape-artist) +6, [Intimidate](../skills/intimidate.md#_intimidate) +2, [Perception](../skills/perception.md#_perception) +5, [Sense Motive](../skills/senseMotive.md#_sense-motive) +5, [Sleight of Hand](../skills/sleightOfHand.md#_sleight-of-hand) +6, [Stealth](../skills/stealth.md#_stealth) +8; **Racial Modifiers** +2 [Bluff](../skills/bluff.md#_bluff), +2 [Stealth](../skills/stealth.md#_stealth)
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +6, [Bluff](../skills/bluff#_bluff) +4, [Disable Device](../skills/disableDevice#_disable-device) +6, [Escape Artist](../skills/escapeArtist#_escape-artist) +6, [Intimidate](../skills/intimidate#_intimidate) +2, [Perception](../skills/perception#_perception) +5, [Sense Motive](../skills/senseMotive#_sense-motive) +5, [Sleight of Hand](../skills/sleightOfHand#_sleight-of-hand) +6, [Stealth](../skills/stealth#_stealth) +8; **Racial Modifiers** +2 [Bluff](../skills/bluff#_bluff), +2 [Stealth](../skills/stealth#_stealth)
 
 **Languages** Abyssal, Common, Infernal
 
@@ -70,9 +70,9 @@ Tieflings are defined by their class levels—they do not possess racial HD. The
 
 **Darkvision** : Tieflings see in the dark up to 60 feet.
 
-**Skilled** : Tieflings have a +2 racial bonus on [Bluff](../skills/bluff.md#_bluff) and [Stealth](../skills/stealth.md#_stealth) checks.
+**Skilled** : Tieflings have a +2 racial bonus on [Bluff](../skills/bluff#_bluff) and [Stealth](../skills/stealth#_stealth) checks.
 
-**Spell-Like Ability** : Tieflings can use _ [darkness](../spells/darkness.md#_darkness)_ once per day as a spell-like ability. The caster level for this ability equals the tiefling's class level.
+**Spell-Like Ability** : Tieflings can use _ [darkness](../spells/darkness#_darkness)_ once per day as a spell-like ability. The caster level for this ability equals the tiefling's class level.
 
 **Fiendish Resistance** : Tieflings have cold resistance 5, electricity resistance 5, and fire resistance 5.
 

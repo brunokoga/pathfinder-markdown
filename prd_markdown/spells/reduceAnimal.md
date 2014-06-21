@@ -12,7 +12,7 @@
 
 **Duration** 1 hour/level (D)
 
-**Saving Throw** none; **[Spell Resistance](../glossary.md#_spell-resistance)** no
+**Saving Throw** none; **[Spell Resistance](../glossary#_spell-resistance)** no
 
-This spell functions like _ [reduce person](reducePerson.md#_reduce-person), _except that it affects a single willing animal. Reduce the damage dealt by the animal's natural attacks as appropriate for its new size (see [Equipment](../equipment.md) how to adjust damage for size).
+This spell functions like _ [reduce person](reducePerson#_reduce-person), _except that it affects a single willing animal. Reduce the damage dealt by the animal's natural attacks as appropriate for its new size (see [Equipment](../equipment) how to adjust damage for size).
 

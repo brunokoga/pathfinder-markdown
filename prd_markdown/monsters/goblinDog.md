@@ -6,9 +6,9 @@ _This mangy canine's face has the same flat nose, beady eyes, and protruding tee
 
 **XP 400**
 
-N Medium [animal](creatureTypes.md#_animal)
+N Medium [animal](creatureTypes#_animal)
 
-**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +1
+**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +1
 
 **Defense**
 
@@ -32,9 +32,9 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Base Atk** +0; **CMB** +2; **CMD** 14
 
-**Feats** [Toughness](../feats.md#_toughness)
+**Feats** [Toughness](../feats#_toughness)
 
-**Skills** [Stealth](../skills/stealth.md#_stealth) +6
+**Skills** [Stealth](../skills/stealth#_stealth) +6
 
 **Ecology**
 

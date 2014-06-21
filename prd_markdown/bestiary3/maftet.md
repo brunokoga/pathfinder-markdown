@@ -8,7 +8,7 @@ XP 2,400
 
 N Medium monstrous humanoid
 
-**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception.md#_perception) +13
+**Init** +3; **Senses** darkvision 60 ft., low-light vision; [Perception](skills/perception#_perception) +13
 
 Defense
 
@@ -28,11 +28,11 @@ Offense
 
 **Spell-Like Abilities** (CL 8th; concentration +8)
 
-Constant—_ [mage armor](spells/mageArmor.md#_mage-armor)_
+Constant—_ [mage armor](spells/mageArmor#_mage-armor)_
 
-3/day—_ [magic weapon](spells/magicWeapon.md#_magic-weapon)_
+3/day—_ [magic weapon](spells/magicWeapon#_magic-weapon)_
 
-1/day—_ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [protection from evil](spells/protectionFromEvil.md#_protection-from-evil)_
+1/day—_ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [protection from evil](spells/protectionFromEvil#_protection-from-evil)_
 
 Statistics
 
@@ -40,9 +40,9 @@ Statistics
 
 **Base Atk** +8; **CMB** +11; **CMD** 24
 
-**Feats** [Combat Reflexes](feats.md#_combat-reflexes)B, [Double Slice](feats.md#_double-slice), [Improved Two-Weapon Fighting](feats.md#_improved-two-weapon-fighting), [Two-Weapon Fighting](feats.md#_two-weapon-fighting), [Weapon Focus](feats.md#_weapon-focus) (scimitar)
+**Feats** [Combat Reflexes](feats#_combat-reflexes)B, [Double Slice](feats#_double-slice), [Improved Two-Weapon Fighting](feats#_improved-two-weapon-fighting), [Two-Weapon Fighting](feats#_two-weapon-fighting), [Weapon Focus](feats#_weapon-focus) (scimitar)
 
-**Skills** [Fly](skills/fly.md#_fly) +10, [Knowledge](skills/knowledge.md#_knowledge) (history) +8, [Perception](skills/perception.md#_perception) +13, [Stealth](skills/stealth.md#_stealth) +18; **Racial Modifiers** +4 [Stealth](skills/stealth.md#_stealth)
+**Skills** [Fly](skills/fly#_fly) +10, [Knowledge](skills/knowledge#_knowledge) (history) +8, [Perception](skills/perception#_perception) +13, [Stealth](skills/stealth#_stealth) +18; **Racial Modifiers** +4 [Stealth](skills/stealth#_stealth)
 
 **Languages** Common, Sphinx
 
@@ -62,7 +62,7 @@ Special Abilities
 
 **Raptor Dive (Ex)** When airborne, a maftet can swoop down and strike at lightning speed. This is equivalent to an aerial charge, but it must move downward at least 10 feet and may dive at twice its normal flying speed. Doing so grants the maftet a +2 bonus on its attack rolls and allows it to make a full attack at the end of the raptor dive.
 
-**Runic Tattoos (Su)** The tattoos scribed on a maftet_'_s body power its spell-like abilities and glow when those abilities are used. A maftet can activate up to two of its spell-like abilities as a standard action. It may make a Fortitude save to resist the effects of an _ [erase](spells/erase.md#_erase)_ spell cast on its tattoos, but if it fails, it loses access to its spell-like abilities for 24 hours.
+**Runic Tattoos (Su)** The tattoos scribed on a maftet_'_s body power its spell-like abilities and glow when those abilities are used. A maftet can activate up to two of its spell-like abilities as a standard action. It may make a Fortitude save to resist the effects of an _ [erase](spells/erase#_erase)_ spell cast on its tattoos, but if it fails, it loses access to its spell-like abilities for 24 hours.
 
 Dwelling in crumbling ruins and lost cities, maftets are a race of winged feline humanoids. Accomplished hunters and stalkers, maftets are highly skilled in fighting with dual scimitars.
 

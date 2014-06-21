@@ -12,7 +12,7 @@ Force Bolt (Force)
 
 **Target Restrictions** _selected_
 
-This effect word deals 1d4 points of force damage per caster level (maximum 5d4). This effect is treated like a _ [magic missile](spells/magicMissile.md#_magic-missile)_ for the purposes of spells that negate or absorb force effects.
+This effect word deals 1d4 points of force damage per caster level (maximum 5d4). This effect is treated like a _ [magic missile](spells/magicMissile#_magic-missile)_ for the purposes of spells that negate or absorb force effects.
 
 Force Blast (Force)
 

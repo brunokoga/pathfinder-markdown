@@ -12,7 +12,7 @@
 
 **Duration** 1 min./level
 
-**Saving Throw** [Reflex](../combat.md#_reflex) half; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Reflex](../combat#_reflex) half; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
 Immediately upon completion of the spell, and once per round thereafter, you may call down a 5-foot-wide, 30-foot-long, vertical bolt of lightning that deals 3d6 points of electricity damage. The bolt of lightning flashes down in a vertical stroke at whatever target point you choose within the spell's range (measured from your position at the time). Any creature in the target square or in the path of the bolt is affected.
 

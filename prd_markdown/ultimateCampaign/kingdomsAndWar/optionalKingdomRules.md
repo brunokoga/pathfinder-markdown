@@ -24,7 +24,7 @@ There are four types of optional special edicts: Diplomatic, Exploration, Trade,
 
 Diplomatic edicts are special edicts that allow you to establish an embassy, treaty, or alliance with another kingdom. You must have an official representative of your kingdom, such as an ambassador or leader, present in the other kingdom to make this edict (though the GM may allow magical communication to handle most of the edict's details and bypass this requirement). Using this edict costs 1d4 BP in travel and other expenses.
 
-Your representative must attempt a [Diplomacy](skills/diplomacy.md#_diplomacy) check. The DC is determined using the following formula:
+Your representative must attempt a [Diplomacy](skills/diplomacy#_diplomacy) check. The DC is determined using the following formula:
 
 > DC = 10 + your kingdom's Infamy + the target kingdom's special Size modifier + your kingdom's special Size modifier + alignment difference modifier + relationship modifier + the target kingdom's attitude — your kingdom's Fame — BP you spend on bribes or gifts
 
@@ -51,29 +51,29 @@ Your representative must attempt a [Diplomacy](skills/diplomacy.md#_diplomacy) c
 | You have a treaty with the target kingdom's enemy | +5 |
 | You have an alliance with the target kingdom's enemy | +10 |
 
-**Attitude** : Much like the starting attitude of an NPC, the target kingdom's initial attitude toward you is indifferent, though the GM may modify this based on alignment differences, your shared history, culture, warfare, espionage, racial tensions, and other factors in the campaign world. These factors may also influence the [Diplomacy](skills/diplomacy.md#_diplomacy) DC for using this edict (generally increasing the DC by 5 for every attitude step worse than helpful).
+**Attitude** : Much like the starting attitude of an NPC, the target kingdom's initial attitude toward you is indifferent, though the GM may modify this based on alignment differences, your shared history, culture, warfare, espionage, racial tensions, and other factors in the campaign world. These factors may also influence the [Diplomacy](skills/diplomacy#_diplomacy) DC for using this edict (generally increasing the DC by 5 for every attitude step worse than helpful).
 
-The act of making this [Diplomacy](skills/diplomacy.md#_diplomacy) check takes place over several days, with the emissary socializing with representatives of the target kingdom, discussing common interests and the benefits and goals of entering a diplomatic agreement with your kingdom. Because this check is not a singular event, abilities and spells that modify a single roll have no effect on this check unless they last at least 24 hours (for example, _ [glibness](spells/glibness.md#__glibness)_ does not affect this check).
+The act of making this [Diplomacy](skills/diplomacy#_diplomacy) check takes place over several days, with the emissary socializing with representatives of the target kingdom, discussing common interests and the benefits and goals of entering a diplomatic agreement with your kingdom. Because this check is not a singular event, abilities and spells that modify a single roll have no effect on this check unless they last at least 24 hours (for example, _ [glibness](spells/glibness#__glibness)_ does not affect this check).
 
 ### Type of Diplomatic Relationships
 
 You use Diplomatic edicts to establish an embassy, treaty, or alliance; each is a closer relation than the previous one.
 
-**Embassy** : You attempt to establish mutual recognition of authority and territory with the target kingdom, represented by granting dominion over embassies in each other's settlements. Attempt a [Diplomacy](skills/diplomacy.md#_diplomacy) check using the Diplomatic edict DC. If the [Diplomacy](skills/diplomacy.md#_diplomacy) check fails, the other kingdom rejects your diplomatic efforts and you cannot attempt to establish an embassy with it again for 1 year; if the check fails by 5 or more, your kingdom's Fame decreases by 1 and the other kingdom's attitude toward your kingdom worsens by 1 step.
+**Embassy** : You attempt to establish mutual recognition of authority and territory with the target kingdom, represented by granting dominion over embassies in each other's settlements. Attempt a [Diplomacy](skills/diplomacy#_diplomacy) check using the Diplomatic edict DC. If the [Diplomacy](skills/diplomacy#_diplomacy) check fails, the other kingdom rejects your diplomatic efforts and you cannot attempt to establish an embassy with it again for 1 year; if the check fails by 5 or more, your kingdom's Fame decreases by 1 and the other kingdom's attitude toward your kingdom worsens by 1 step.
 
-If you succeed at the [Diplomacy](skills/diplomacy.md#_diplomacy) check, you create an embassy agreement with the target kingdom; if you succeed at the check by 5 or more, the target kingdom's attitude toward your kingdom improves by 1 step and your kingdom's Fame increases by 1. You may purchase or build a Mansion or Noble Villa in one of the other kingdom's settlements to use as an embassy (if so, your ambassador uses it as a residence). The target kingdom's leaders may do the same in one of your settlements. Your embassy is considered your territory (and vice versa). Your embassy grants your kingdom the normal bonuses for a building of its type (they apply to your kingdom's totals but not to any specific settlement in your kingdom) and increases Consumption by 1, Economy by 2, and Society by 2. If the target kingdom builds an embassy in one of your settlements, that kingdom gains these bonuses.
+If you succeed at the [Diplomacy](skills/diplomacy#_diplomacy) check, you create an embassy agreement with the target kingdom; if you succeed at the check by 5 or more, the target kingdom's attitude toward your kingdom improves by 1 step and your kingdom's Fame increases by 1. You may purchase or build a Mansion or Noble Villa in one of the other kingdom's settlements to use as an embassy (if so, your ambassador uses it as a residence). The target kingdom's leaders may do the same in one of your settlements. Your embassy is considered your territory (and vice versa). Your embassy grants your kingdom the normal bonuses for a building of its type (they apply to your kingdom's totals but not to any specific settlement in your kingdom) and increases Consumption by 1, Economy by 2, and Society by 2. If the target kingdom builds an embassy in one of your settlements, that kingdom gains these bonuses.
 
 If you founded your kingdom with the support of a wealthy sponsor from another kingdom, your kingdom automatically has an embassy agreement with your sponsor's, and you can use Diplomatic edicts to establish a treaty or an alliance.
 
-Alternatively, your envoy may attempt to threaten rather than befriend the other kingdom. In this case, your envoy attempts an [Intimidate](skills/intimidate.md#_intimidate) check, applying your kingdom's Infamy as a bonus. You also gain a +1 bonus for every active army your kingdom has. This check's DC is the same as the Diplomatic edict DC above, except your Fame and Infamy do not modify it. You may spend BP on bribes or gifts to modify the DC. Your Infamy increases by 1 whether you succeed or fail at the check. If you succeed at the check, you create an embassy agreement with the target kingdom. If you fail, the target kingdom's attitude toward you worsens by 1 step, Infamy increases by an additional 1 and you cannot make this threat again for 1 year. If it fails by 5 or more, the kingdom's attitude toward you worsens by 2 steps and Infamy increases by an additional 1; if the kingdom's attitude becomes or is already hostile, it declares war on you.
+Alternatively, your envoy may attempt to threaten rather than befriend the other kingdom. In this case, your envoy attempts an [Intimidate](skills/intimidate#_intimidate) check, applying your kingdom's Infamy as a bonus. You also gain a +1 bonus for every active army your kingdom has. This check's DC is the same as the Diplomatic edict DC above, except your Fame and Infamy do not modify it. You may spend BP on bribes or gifts to modify the DC. Your Infamy increases by 1 whether you succeed or fail at the check. If you succeed at the check, you create an embassy agreement with the target kingdom. If you fail, the target kingdom's attitude toward you worsens by 1 step, Infamy increases by an additional 1 and you cannot make this threat again for 1 year. If it fails by 5 or more, the kingdom's attitude toward you worsens by 2 steps and Infamy increases by an additional 1; if the kingdom's attitude becomes or is already hostile, it declares war on you.
 
 An embassy is considered a permanent agreement. Replacing your ambassador does not affect the edict or the embassy. If you want to close your embassy and break the embassy agreement, attempt a Loyalty check. Success means you close the embassy. Failure means your citizens reject the idea of severing ties with the other kingdom and continue to staff the embassy; you may try again next turn.
 
 If you attack a kingdom with which you have an embassy, attempt a Loyalty check. If you succeed, your Infamy increases by 1. If you fail, Infamy and Unrest both increase by 1.
 
-**Treaty** : If you have an embassy agreement with another kingdom, you can approach that kingdom's leaders to establish a treaty that formalizes your economic and social cooperation and understanding. Doing so requires a new Diplomatic edict and requires your envoy to attempt three [Diplomacy](skills/diplomacy.md#_diplomacy) checks using the Diplomatic edict DC. These checks must be attempted in order (as an extreme success or failure can change the target kingdom's attitude and the difficulty of the later checks). If two or more of the checks fail, the attempt to create a treaty fails; your kingdom's Fame decreases by 1 and you cannot attempt to establish a treaty with the other kingdom for 1 year.
+**Treaty** : If you have an embassy agreement with another kingdom, you can approach that kingdom's leaders to establish a treaty that formalizes your economic and social cooperation and understanding. Doing so requires a new Diplomatic edict and requires your envoy to attempt three [Diplomacy](skills/diplomacy#_diplomacy) checks using the Diplomatic edict DC. These checks must be attempted in order (as an extreme success or failure can change the target kingdom's attitude and the difficulty of the later checks). If two or more of the checks fail, the attempt to create a treaty fails; your kingdom's Fame decreases by 1 and you cannot attempt to establish a treaty with the other kingdom for 1 year.
 
-If two or more of the checks succeed, your envoy and one of the target kingdom's leaders (typically the Ruler or Grand Diplomat) attempt opposed checks with the following skills, rerolling ties: [Bluff](skills/bluff.md#_bluff), [Diplomacy](skills/diplomacy.md#_diplomacy), [Knowledge](skills/knowledge.md#_knowledge) (local), [Knowledge](skills/knowledge.md#_knowledge) (nobility), and [Sense Motive](skills/senseMotive.md#_sense-motive). Either or both parties may substitute [Intimidate](skills/intimidate.md#_intimidate) for [Diplomacy](skills/diplomacy.md#_diplomacy) (even if this means one party is making a [Diplomacy](skills/diplomacy.md#_diplomacy) check opposed by the other's [Intimidate](skills/intimidate.md#_intimidate) check). As with Diplomatic edicts, abilities or spells that modify skill checks do not apply unless they last at least 24 hours. Whichever party wins most of these opposed checks has the advantage in the negotiations and decides whether the treaty is balanced or unbalanced.
+If two or more of the checks succeed, your envoy and one of the target kingdom's leaders (typically the Ruler or Grand Diplomat) attempt opposed checks with the following skills, rerolling ties: [Bluff](skills/bluff#_bluff), [Diplomacy](skills/diplomacy#_diplomacy), [Knowledge](skills/knowledge#_knowledge) (local), [Knowledge](skills/knowledge#_knowledge) (nobility), and [Sense Motive](skills/senseMotive#_sense-motive). Either or both parties may substitute [Intimidate](skills/intimidate#_intimidate) for [Diplomacy](skills/diplomacy#_diplomacy) (even if this means one party is making a [Diplomacy](skills/diplomacy#_diplomacy) check opposed by the other's [Intimidate](skills/intimidate#_intimidate) check). As with Diplomatic edicts, abilities or spells that modify skill checks do not apply unless they last at least 24 hours. Whichever party wins most of these opposed checks has the advantage in the negotiations and decides whether the treaty is balanced or unbalanced.
 
 For a balanced treaty, increase each kingdom's Economy by 10% of the other country's Economy. The Fame of the party with the advantage in the negotiations by 1.
 
@@ -87,9 +87,9 @@ If you withdraw from the treaty, attempt a Loyalty check. Success means Unrest i
 
 If you attack a kingdom with which you have a treaty, attempt a Loyalty check. If you succeed, Infamy and Unrest increase by 1d2 each. If you fail, Infamy and Unrest increase by 1d4 each.
 
-**Alliance** : If you have a treaty with another kingdom, you can use a Diplomatic edict to form an alliance—a military agreement of mutual defense and support. This works like the negotiations for a treaty, except it requires six [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) checks. Four of these must succeed for the alliance to form.
+**Alliance** : If you have a treaty with another kingdom, you can use a Diplomatic edict to form an alliance—a military agreement of mutual defense and support. This works like the negotiations for a treaty, except it requires six [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) checks. Four of these must succeed for the alliance to form.
 
-If successful, negotiations proceed as for a treaty, with three opposed [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate) checks to determine who has the advantage in negotiations. The party with the advantage may decide whether the alliance is balanced or unbalanced, but the bonuses apply to each kingdom's Stability instead of Economy.
+If successful, negotiations proceed as for a treaty, with three opposed [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate) checks to determine who has the advantage in negotiations. The party with the advantage may decide whether the alliance is balanced or unbalanced, but the bonuses apply to each kingdom's Stability instead of Economy.
 
 Kingdoms in an alliance can move their armies through each others' territories and station them in each others' territories or in unoccupied Forts and Watchtowers, though not inside allied settlements. If an allied kingdom stations an army inside your territory, you must succeed at a Loyalty check or gain 1d2 Unrest; this does not apply if your kingdom has been attacked and you have requested aid from the ally.
 
@@ -109,11 +109,11 @@ As explained in the Buildings section, the Settlement entry for a building lists
 
 Exploration edicts are special edicts that allow you to commission explorers to map unclaimed hexes and prepare them for your kingdom. You may choose to accompany the explorers or let them explore on their own.
 
-When commissioning an expedition, you must determine the length of time and plan the route in advance. Financing explorers costs 1d4 BP per month of the expedition, paid in advance. The explorers start at your capital, and spend the agreed-on time traveling to, exploring, and mapping unclaimed hexes. At the end of the contracted period, they return to your capital. See [Terrain and Terrain Improvements table](ultimateCampaign/kingdomsandWar/kingdomTurnSequence.md#_table-terrain-and-terrain-improvements) for travel and exploration times. Each expedition requires a separate Exploration edict.
+When commissioning an expedition, you must determine the length of time and plan the route in advance. Financing explorers costs 1d4 BP per month of the expedition, paid in advance. The explorers start at your capital, and spend the agreed-on time traveling to, exploring, and mapping unclaimed hexes. At the end of the contracted period, they return to your capital. See [Terrain and Terrain Improvements table](ultimateCampaign/kingdomsandWar/kingdomTurnSequence#_table-terrain-and-terrain-improvements) for travel and exploration times. Each expedition requires a separate Exploration edict.
 
-Explorers note obvious terrain features and resources on the first day in a hex. Each day spent in the hex allows [Knowledge](skills/knowledge.md#_knowledge) (geography) and/or [Survival](skills/survival.md#_survival) checks to locate hidden landmarks, lairs, or resources, with a DC ranging from 15 for things that are relatively easy to find or well known in local lore to DC 30 for those that are well hidden or generally unknown.
+Explorers note obvious terrain features and resources on the first day in a hex. Each day spent in the hex allows [Knowledge](skills/knowledge#_knowledge) (geography) and/or [Survival](skills/survival#_survival) checks to locate hidden landmarks, lairs, or resources, with a DC ranging from 15 for things that are relatively easy to find or well known in local lore to DC 30 for those that are well hidden or generally unknown.
 
-Explorers have the same chances for random encounters and other dangers that you would if you traveled through or explored the hex yourself. If you are not traveling with the explorers and they have a hostile encounter, you may have the expedition attempt a [Stealth](skills/stealth.md#_stealth) check (DC 10 + twice the encounter's CR), using the worst [Stealth](skills/stealth.md#_stealth) modifier among the expedition members. If the check fails, you may attempt a Stability check (DC = Control DC + twice the encounter's CR). If you succeed at the Stability check, the explorers escape and survive but are temporarily scattered and make no more progress that month. If you fail the Stability check, the explorers are killed; Unrest increases by 1, and the remainder of your BP investment in the expedition is lost.
+Explorers have the same chances for random encounters and other dangers that you would if you traveled through or explored the hex yourself. If you are not traveling with the explorers and they have a hostile encounter, you may have the expedition attempt a [Stealth](skills/stealth#_stealth) check (DC 10 + twice the encounter's CR), using the worst [Stealth](skills/stealth#_stealth) modifier among the expedition members. If the check fails, you may attempt a Stability check (DC = Control DC + twice the encounter's CR). If you succeed at the Stability check, the explorers escape and survive but are temporarily scattered and make no more progress that month. If you fail the Stability check, the explorers are killed; Unrest increases by 1, and the remainder of your BP investment in the expedition is lost.
 
 ## Fame and Infamy
 
@@ -127,7 +127,7 @@ As a kingdom grows, it can gain and lose both Fame and Infamy, but these are not
 
 **Size Increases** : When your kingdom's Size increases to 11, 26, 51, 101, and 201, Fame or Infamy (Ruler's choice) increases by 1.
 
-**Using Fame and Infamy** : Fame and Infamy affect skill checks relating to other kingdoms. For every 10 points of your kingdom's Fame, your citizens gain a +1 bonus on [Diplomacy](skills/diplomacy.md#_diplomacy) checks to influence government officials of other kingdoms. For every 10 points of your kingdom's Infamy, your citizens gain a +1 bonus on [Intimidate](skills/intimidate.md#_intimidate) checks to influence government officials of other kingdoms.
+**Using Fame and Infamy** : Fame and Infamy affect skill checks relating to other kingdoms. For every 10 points of your kingdom's Fame, your citizens gain a +1 bonus on [Diplomacy](skills/diplomacy#_diplomacy) checks to influence government officials of other kingdoms. For every 10 points of your kingdom's Infamy, your citizens gain a +1 bonus on [Intimidate](skills/intimidate#_intimidate) checks to influence government officials of other kingdoms.
 
 ## Forms of Government
 
@@ -185,39 +185,39 @@ The GM may influence any of these steps as appropriate to the situation, such as
 
 ## Leadership Role Skills
 
-Each leadership role provides bonuses to kingdom statistics based on one of the leader's ability scores. The GM may want to allow a leader's ranks in a relevant skill (such as [Diplomacy](skills/diplomacy.md#_diplomacy) or [Intimidate](skills/intimidate.md#_intimidate)) to also affect the kingdom statistics. For every 5 full ranks in a relevant skill, the leader may increase the leadership modifier by an additional 1. These skill-based additional bonuses modify the standard leadership role bonuses in the same way that the [Leadership](feats.md#_leadership) feat grants additional bonuses.
+Each leadership role provides bonuses to kingdom statistics based on one of the leader's ability scores. The GM may want to allow a leader's ranks in a relevant skill (such as [Diplomacy](skills/diplomacy#_diplomacy) or [Intimidate](skills/intimidate#_intimidate)) to also affect the kingdom statistics. For every 5 full ranks in a relevant skill, the leader may increase the leadership modifier by an additional 1. These skill-based additional bonuses modify the standard leadership role bonuses in the same way that the [Leadership](feats#_leadership) feat grants additional bonuses.
 
 The relevant skills for each leadership role are as follows.
 
-**Ambassador** : [Diplomacy](skills/diplomacy.md#_diplomacy)
+**Ambassador** : [Diplomacy](skills/diplomacy#_diplomacy)
 
-**Consort** : [Knowledge](skills/knowledge.md#_knowledge) (nobility)
+**Consort** : [Knowledge](skills/knowledge#_knowledge) (nobility)
 
-**Councilor** : [Knowledge](skills/knowledge.md#_knowledge) (local)
+**Councilor** : [Knowledge](skills/knowledge#_knowledge) (local)
 
-**General** : [Profession](skills/profession.md#_profession) (soldier)
+**General** : [Profession](skills/profession#_profession) (soldier)
 
-**Grand Diplomat** : [Diplomacy](skills/diplomacy.md#_diplomacy)
+**Grand Diplomat** : [Diplomacy](skills/diplomacy#_diplomacy)
 
-**Heir** : [Knowledge](skills/knowledge.md#_knowledge) (nobility)
+**Heir** : [Knowledge](skills/knowledge#_knowledge) (nobility)
 
-**High Priest** : [Knowledge](skills/knowledge.md#_knowledge) (religion)
+**High Priest** : [Knowledge](skills/knowledge#_knowledge) (religion)
 
-**Magister** : [Knowledge](skills/knowledge.md#_knowledge) (arcana)
+**Magister** : [Knowledge](skills/knowledge#_knowledge) (arcana)
 
-**Marshal** : [Survival](skills/survival.md#_survival)
+**Marshal** : [Survival](skills/survival#_survival)
 
-**Royal [Enforcer](advanced/advancedFeats.md#enforcer)** : [Intimidate](skills/intimidate.md#_intimidate)
+**Royal [Enforcer](advanced/advancedFeats#enforcer)** : [Intimidate](skills/intimidate#_intimidate)
 
-**Ruler** : [Knowledge](skills/knowledge.md#_knowledge) (nobility)
+**Ruler** : [Knowledge](skills/knowledge#_knowledge) (nobility)
 
-**Spymaster** : [Sense Motive](skills/senseMotive.md#_sense-motive)
+**Spymaster** : [Sense Motive](skills/senseMotive#_sense-motive)
 
-**Treasurer** : [Profession](skills/profession.md#_profession) (merchant)
+**Treasurer** : [Profession](skills/profession#_profession) (merchant)
 
-**Viceroy** : [Knowledge](skills/knowledge.md#_knowledge) (geography)
+**Viceroy** : [Knowledge](skills/knowledge#_knowledge) (geography)
 
-**Warden** : [Knowledge](skills/knowledge.md#_knowledge) (engineering)
+**Warden** : [Knowledge](skills/knowledge#_knowledge) (engineering)
 
 ## Settlement Sizes
 

@@ -1,6 +1,6 @@
 Contagion
 
-**Source** [_contagion_](spells/contagion.md#_contagion)
+**Source** [_contagion_](spells/contagion#_contagion)
 
 The affected target is highly contagious. Any creature it touches or that touches it with natural weapons or unarmed strikes must save or contract the disease. The save DC for these targets is equal to the spell's DC – 4. The target can't spread this disease to you.
 

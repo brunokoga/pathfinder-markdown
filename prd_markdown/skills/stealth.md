@@ -1,6 +1,6 @@
 # Stealth
 
-## ( [Dex](../gettingStarted.md#_dexterity); Armor Check Penalty)
+## ( [Dex](../gettingStarted#_dexterity); Armor Check Penalty)
 
 You are skilled at avoiding detection, allowing you to slip past foes or strike from an unseen position. This skill covers hiding and moving silently.
 
@@ -20,5 +20,5 @@ _Creating a Diversion to Hide_: You can use Bluff to allow you to use Stealth. A
 
 **Special** : If you are invisible, you gain a +40 bonus on Stealth checks if you are immobile, or a +20 bonus on Stealth checks if you're moving.
 
-If you have the [Stealthy](../feats.md#_stealthy) feat, you get a bonus on Stealth checks (see [Feats](../feats.md)).
+If you have the [Stealthy](../feats#_stealthy) feat, you get a bonus on Stealth checks (see [Feats](../feats)).
 

@@ -8,9 +8,9 @@ _This supernaturally beautiful woman looks human, yet emanates a strange sense o
 
 Aasimar cleric 1
 
-NG Medium [outsider](creatureTypes.md#_outsider) ( [native](creatureTypes.md#_native-subtype))
+NG Medium [outsider](creatureTypes#_outsider) ( [native](creatureTypes#_native-subtype))
 
-**Init** +0; **Senses** darkvision 60 ft.; [Perception](../skills/perception.md#_perception) +5
+**Init** +0; **Senses** darkvision 60 ft.; [Perception](../skills/perception#_perception) +5
 
 **Defense**
 
@@ -32,15 +32,15 @@ NG Medium [outsider](creatureTypes.md#_outsider) ( [native](creatureTypes.md#_na
 
 **Special Attacks** channel positive energy (5/day, 1d6, DC 12); rebuke death (1d4+1, 6/day); touch of good (6/day)
 
-**[Spell-Like Abilities](universalMonsterRules.md#_spell-like-abilities)** (CL 1st)
+**[Spell-Like Abilities](universalMonsterRules#_spell-like-abilities)** (CL 1st)
 
-1/day—_ [daylight](../spells/daylight.md#_daylight)_
+1/day—_ [daylight](../spells/daylight#_daylight)_
 
 **Spells Prepared** (CL 1st)
 
-1st—_ [bless](../spells/bless.md#_bless)_, _ [command](../spells/command.md#_command)_ (DC 14), _ [protection from evil](../spells/protectionFromEvil.md#_protection-from-evil)_D
+1st—_ [bless](../spells/bless#_bless)_, _ [command](../spells/command#_command)_ (DC 14), _ [protection from evil](../spells/protectionFromEvil#_protection-from-evil)_D
 
-0 (at will)—_ [detect magic](../spells/detectMagic.md#_detect-magic), [guidance](../spells/guidance.md#_guidance), [stabilize](../spells/stabilize.md#_stabilize)_
+0 (at will)—_ [detect magic](../spells/detectMagic#_detect-magic), [guidance](../spells/guidance#_guidance), [stabilize](../spells/stabilize#_stabilize)_
 
 **D** domain spell; **Domains** Good, Healing
 
@@ -50,9 +50,9 @@ NG Medium [outsider](creatureTypes.md#_outsider) ( [native](creatureTypes.md#_na
 
 **Base Atk** +0; **CMB** –1; **CMD** 9
 
-**Feats** [Turn Undead](../feats.md#_turn-undead)
+**Feats** [Turn Undead](../feats#_turn-undead)
 
-**Skills** [Diplomacy](../skills/diplomacy.md#_diplomacy) +8, [Heal](../skills/heal.md#_heal) +7, [Knowledge](../skills/knowledge.md#_knowledge) (religion) +5; **Racial Modifiers** +2 [Diplomacy](../skills/diplomacy.md#_diplomacy), +2 [Perception](../skills/perception.md#_perception)
+**Skills** [Diplomacy](../skills/diplomacy#_diplomacy) +8, [Heal](../skills/heal#_heal) +7, [Knowledge](../skills/knowledge#_knowledge) (religion) +5; **Racial Modifiers** +2 [Diplomacy](../skills/diplomacy#_diplomacy), +2 [Perception](../skills/perception#_perception)
 
 **Languages** Celestial, Common, Draconic
 
@@ -76,9 +76,9 @@ Aasimars are defined by class levels—they do not possess racial Hit Dice. Aasi
 
 **Darkvision** : Aasimars can see in the dark up to 60 feet.
 
-**Skilled** : Aasimars have a +2 racial bonus on [Diplomacy](../skills/diplomacy.md#_diplomacy) and [Perception](../skills/perception.md#_perception) checks.
+**Skilled** : Aasimars have a +2 racial bonus on [Diplomacy](../skills/diplomacy#_diplomacy) and [Perception](../skills/perception#_perception) checks.
 
-**Spell-Like Ability** : Aasimars can use _ [daylight](../spells/daylight.md#_daylight)_ once per day as a spell-like ability (caster level equals the aasimar's class level).
+**Spell-Like Ability** : Aasimars can use _ [daylight](../spells/daylight#_daylight)_ once per day as a spell-like ability (caster level equals the aasimar's class level).
 
 **Celestial Resistance** : Aasimars have acid resistance 5, cold resistance 5, and electricity resistance 5.
 

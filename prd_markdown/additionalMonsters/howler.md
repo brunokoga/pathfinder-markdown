@@ -6,9 +6,9 @@ This vile predator has a hide as thick and tough as leather. Wicked ebony quills
 
 **XP 800**
 
-CE Large [outsider](monsters/creatureTypes.md#_outsider) ( [chaotic](monsters/creatureTypes.md#_chaotic-subtype), [evil](monsters/creatureTypes.md#_evil-subtype), [extraplanar](monsters/creatureTypes.md#_extraplanar-subtype))
+CE Large [outsider](monsters/creatureTypes#_outsider) ( [chaotic](monsters/creatureTypes#_chaotic-subtype), [evil](monsters/creatureTypes#_evil-subtype), [extraplanar](monsters/creatureTypes#_extraplanar-subtype))
 
-**Init** +6; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception.md#_perception) +13
+**Init** +6; **Senses** darkvision 60 ft.; [Perception](additionalMonsters/../skills/perception#_perception) +13
 
 Defense
 
@@ -36,9 +36,9 @@ Statistics
 
 **Base Atk** +5; **CMB** +10; **CMD** 22
 
-**Feats** [Combat Reflexes](additionalMonsters/../feats.md#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats.md#_improved-initiative), [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Perception](additionalMonsters/../skills/perception.md#_perception))
+**Feats** [Combat Reflexes](additionalMonsters/../feats#_combat-reflexes), [Improved Initiative](additionalMonsters/../feats#_improved-initiative), [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Perception](additionalMonsters/../skills/perception#_perception))
 
-**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics.md#_acrobatics) +10 (+22 jump), [Climb](additionalMonsters/../skills/climb.md#_climb) +12, [Perception](additionalMonsters/../skills/perception.md#_perception) +13, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +6
+**Skills** [Acrobatics](additionalMonsters/../skills/acrobatics#_acrobatics) +10 (+22 jump), [Climb](additionalMonsters/../skills/climb#_climb) +12, [Perception](additionalMonsters/../skills/perception#_perception) +13, [Stealth](additionalMonsters/../skills/stealth#_stealth) +6
 
 **Languages** Abyssal (cannot speak)
 
@@ -52,11 +52,11 @@ Ecology
 
 Special Abilities
 
-**Howl (Su)** A howler's constant howling is a grating, exhausting baying that can drive listeners insane. All beings other than outsiders within 120 feet of a howling howler must succeed on a DC 12 Will save or become cursed by the creature's howl. Once a creature becomes cursed in this way, she takes no additional penalty for being exposed to additional howlers' howls until the current howler [curse](monsters/universalMonsterRules.md#_curse) is lifted. This is a sonic mind-affecting effect. The save DC is Charisma-based.
+**Howl (Su)** A howler's constant howling is a grating, exhausting baying that can drive listeners insane. All beings other than outsiders within 120 feet of a howling howler must succeed on a DC 12 Will save or become cursed by the creature's howl. Once a creature becomes cursed in this way, she takes no additional penalty for being exposed to additional howlers' howls until the current howler [curse](monsters/universalMonsterRules#_curse) is lifted. This is a sonic mind-affecting effect. The save DC is Charisma-based.
 
-_Howler Howl_: [Curse](monsters/universalMonsterRules.md#_curse)—howl; _save_ Will DC 12 negates; _frequency_ 1/hour; _effect_ 1 Wis damage; _cure_ 1 save.
+_Howler Howl_: [Curse](monsters/universalMonsterRules#_curse)—howl; _save_ Will DC 12 negates; _frequency_ 1/hour; _effect_ 1 Wis damage; _cure_ 1 save.
 
-**Pain (Ex)** Whenever a creature takes damage from a howler's quill attack or its quill defense, that creature must make a successful DC 14 Reflex save or one quill breaks off in its flesh, causing the target to become sickened until all embedded quills are removed. Removing one quill requires a DC 15 [Heal](additionalMonsters/../skills/heal.md#_heal) check made as a full-round action. For every 5 by which the check is exceeded, one additional quill can be removed. On a failed check, a quill is still removed, but the process deals 1d4+1 points of damage to the victim. The save DC is Dexterity-based.
+**Pain (Ex)** Whenever a creature takes damage from a howler's quill attack or its quill defense, that creature must make a successful DC 14 Reflex save or one quill breaks off in its flesh, causing the target to become sickened until all embedded quills are removed. Removing one quill requires a DC 15 [Heal](additionalMonsters/../skills/heal#_heal) check made as a full-round action. For every 5 by which the check is exceeded, one additional quill can be removed. On a failed check, a quill is still removed, but the process deals 1d4+1 points of damage to the victim. The save DC is Dexterity-based.
 
 **Quill Defense (Ex)** Any creature that strikes a howler with a non-reach melee weapon, unarmed strike, or natural weapon takes 1d4+1 points of piercing damage from the howler's quills and suffers from the howler's pain attack.
 

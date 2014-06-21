@@ -51,7 +51,7 @@ The description of each army is presented in a standard format.
 
 **Army Challenge Rating (ACR)** : This is based on the CR of an individual unit from the army and the army's size, and scales like CRs for monsters. To determine ACR, see Table 4—15: Army Sizes and apply the modifier for the army's size to the CR of an individual unit in the army. If an army is cavalry, use the mount's CR or the rider's CR, whichever is higher. For example, an individual orc warrior 1 is CR 1/3, so an army of 100 orc warriors 1 is ACR 1/3; an army of 500 orc warriors 1 is ACR 3 (4 steps greater than the standard 100-unit army). If a group's ACR would be lower than 1/8, it doesn't count as an army—add more troops until you reach an ACR of 1/8 or higher.
 
-**Defense Value (DV)** : This is a static number the army uses to resist attacks, much like an individual creature's AC. The army's DV is equal to ACR + 10 + any bonuses from fortifications or a settlement's [Defense score](ultimateCampaign/kingdomsAndWar/kingdomTurnSequence.md#_settlements-and-districts).
+**Defense Value (DV)** : This is a static number the army uses to resist attacks, much like an individual creature's AC. The army's DV is equal to ACR + 10 + any bonuses from fortifications or a settlement's [Defense score](ultimateCampaign/kingdomsAndWar/kingdomTurnSequence#_settlements-and-districts).
 
 **Offense Modifier (OM)** : This is a modifier added to a d20 roll to determine the army's chance of success, much like an individual creature's attack bonus. The army's OM is equal to its ACR. If the army has the ability to make ranged attacks, that's mentioned here. Melee attacks and ranged attacks use the same OM unless an ability says otherwise.
 
@@ -61,13 +61,13 @@ The description of each army is presented in a standard format.
 
 **Special** : This section lists any special abilities the army has.
 
-**Speed** : This number indicates how many 12-mile hexes the army traverses in a day's march. Marching through difficult terrain halves the army's speed. Use the [Movement and Distance table](additionalRules.md#_table-7-6-movement-and-distance) to determine the army's speed based on the speed of its individual units.
+**Speed** : This number indicates how many 12-mile hexes the army traverses in a day's march. Marching through difficult terrain halves the army's speed. Use the [Movement and Distance table](additionalRules#_table-7-6-movement-and-distance) to determine the army's speed based on the speed of its individual units.
 
 **Morale** : This number represents how confident the army is. Morale is used to determine changing battle tactics, whether or not an army routs as a result of a devastating attack, and similar effects. Morale is a modifier from —4 (worst) to +4 (best). A new army's starting morale is +0. Morale can be further modified by the army's commander and other factors. If an army's Morale is ever reduced to —5 or lower, the army disbands or deserts and you no longer control it.
 
 **Consumption** : This is how many Build Points (BP) an army consumes each week (unlike most kingdom expenses, this cost is per week, not per month), representing the cost to feed, hydrate, arm, train, care for, and pay the units. An army's base Consumption is equal to its ACR divided by 2 (minimum 1). If you fall behind on paying the army's Consumption, reduce its Morale by 2; this penalty ends when you catch up on the army's pay.
 
-**Commander** : This entry lists the army's commander and the commander's Charisma modifier, ranks in [Profession](skills/profession.md#_profession) (soldier), and [Leadership](feats.md#_leadership) score. The commander must be able to communicate with the army (possibly using _ [message](spells/message.md#_message)_ spells and similar magical forms of communication) in order to give orders or provide a bonus on the army's rolls.
+**Commander** : This entry lists the army's commander and the commander's Charisma modifier, ranks in [Profession](skills/profession#_profession) (soldier), and [Leadership](feats#_leadership) score. The commander must be able to communicate with the army (possibly using _ [message](spells/message#_message)_ spells and similar magical forms of communication) in order to give orders or provide a bonus on the army's rolls.
 
 ## Battle Phases
 
@@ -99,7 +99,7 @@ These rules can also serve in battles where more than two armies clash. In such 
 
 In some mass combats, the specifics of a battlefield won't impact either army, but sometimes the battlefield will itself decide the outcome. The modifiers listed below apply only for the duration of the battle. Naturally, the GM should exercise judgment regarding any conditions that don't seem to apply to one of the armies (such as darkness and an army with darkvision, or fog and an army with scent).
 
-At the GM's discretion, large-area spells such as _ [move earth](spells/moveEarth.md#_move-earth)_ might allow armies or commanders to manipulate the battlefield conditions before a conflict. For these spells to have any effect, they must last at least 1 hour and affect at least a 500-foot square. Likewise, magic items such as an _ [instant fortress](magicItems/wondrousItems.md#_instant-fortress)_ (+2 Defense) and spells such as _ [wall of stone](spells/wallOfStone.md#_wall-of-stone)_ (+1 Defense) can create simple fortifications for an army to use in a battle.
+At the GM's discretion, large-area spells such as _ [move earth](spells/moveEarth#_move-earth)_ might allow armies or commanders to manipulate the battlefield conditions before a conflict. For these spells to have any effect, they must last at least 1 hour and affect at least a 500-foot square. Likewise, magic items such as an _ [instant fortress](magicItems/wondrousItems#_instant-fortress)_ (+2 Defense) and spells such as _ [wall of stone](spells/wallOfStone#_wall-of-stone)_ (+1 Defense) can create simple fortifications for an army to use in a battle.
 
 **Advantageous Terrain** : Generally, if one army occupies a position of superiority (such as being atop a hill, wedged in a narrow canyon, or protected by a deep river along one flank), the defending army increases its DV by 2.
 
@@ -115,13 +115,13 @@ At the GM's discretion, large-area spells such as _ [move earth](spells/moveEart
 
 **Fortifications** : An army located in a fortification adds the fortification's Defense to its DV. A settlement's Defense is determined by the types of buildings it contains, as detailed in the kingdom-building rules. If the game isn't using the kingdom-building rules, a typical fortification increases DV by 8.
 
-**Rain** : Rain affects modifiers to OM in the Ranged phase as if it were severe wind; see the [Wind Effects table](environment.md#_table-13-10-wind-effects).
+**Rain** : Rain affects modifiers to OM in the Ranged phase as if it were severe wind; see the [Wind Effects table](environment#_table-13-10-wind-effects).
 
 **Sandstorm** : A sandstorm counts as fog and deals 1 hp of damage to all armies during each Ranged and Melee phase.
 
 **Snow** : Snow affects ranged attacks like rain, and affects damage like fog.
 
-**Wind** : The wind modifiers to ranged attacks apply to OM in the Ranged phase; see the [Wind Effects table](environment.md#_table-13-10-wind-effects).
+**Wind** : The wind modifiers to ranged attacks apply to OM in the Ranged phase; see the [Wind Effects table](environment#_table-13-10-wind-effects).
 
 ## Army Tactics
 
@@ -157,7 +157,7 @@ Tactics marked with an asterisk (\*) are default tactics all armies know; these 
 
 **Standard\*:** Your army's attacks have no additional modifiers to its OM, DV, or damage.
 
-**[Taunt](advanced/advancedFeats.md#taunt)** : Your army is skilled at taunting its opponents, provoking stupid mistakes and overconfidence in battle. The target army must attempt a Morale check (DC = 10 + your army's ACR) at the start of each Melee or Ranged phase; failure means it reduces its OM and DV against your army by 2 for that phase. If the target army succeeds at two of these Morale checks, it's immune to this tactic for the remainder of the battle.
+**[Taunt](advanced/advancedFeats#taunt)** : Your army is skilled at taunting its opponents, provoking stupid mistakes and overconfidence in battle. The target army must attempt a Morale check (DC = 10 + your army's ACR) at the start of each Melee or Ranged phase; failure means it reduces its OM and DV against your army by 2 for that phase. If the target army succeeds at two of these Morale checks, it's immune to this tactic for the remainder of the battle.
 
 **Withdraw\*:** Your army tries to escape from all armies attacking it. The army attempts an opposed Morale check against each army attacking it to maintain discipline (any army may voluntarily fail this check), but doesn't need to attempt the usual Morale check to change tactics when switching to withdraw. If all of these checks are successful, your army may withdraw from the battlefield or treat the phase as a Ranged phase. If only some are successful, you may withdraw or treat the phase as a Ranged phase, but enemy armies in the battle may attack you as if you were in Melee. Whether or not the checks are successful, reduce your army's OM and DV by 2 for the rest of this phase.
 
@@ -215,35 +215,35 @@ The Mass Combat Army Sheet has a space to record information about the commander
 
 **Charisma Modifier** : This lists the commander's Charisma modifier. It is added to the army's Morale checks.
 
-**Profession (soldier)** : This is the commander's ranks in [Profession](skills/profession.md#_profession) (soldier). Divide the number of ranks by 5 (minimum 0) and add that number to the army's Morale checks.
+**Profession (soldier)** : This is the commander's ranks in [Profession](skills/profession#_profession) (soldier). Divide the number of ranks by 5 (minimum 0) and add that number to the army's Morale checks.
 
-**Leadership** : The commander's character level + Charisma modifier. If the commander is a monster, use HD instead of character level. If the commander has the [Leadership](feats.md#_leadership) feat, increase this value by 3. This number is a prerequisite for some boons.
+**Leadership** : The commander's character level + Charisma modifier. If the commander is a monster, use HD instead of character level. If the commander has the [Leadership](feats#_leadership) feat, increase this value by 3. This number is a prerequisite for some boons.
 
-**Boons** : This lists the boons the commander knows (see below). A commander's maximum number of boons known is 1, plus 1 for every 5 ranks in [Profession](skills/profession.md#_profession) (soldier). A new or unexceptional commander might know no boons at first, but can gain them from victories in battle. If you're a kingdom leader acting as a commander, you automatically have one boon appropriate to your leadership role (see below).
+**Boons** : This lists the boons the commander knows (see below). A commander's maximum number of boons known is 1, plus 1 for every 5 ranks in [Profession](skills/profession#_profession) (soldier). A new or unexceptional commander might know no boons at first, but can gain them from victories in battle. If you're a kingdom leader acting as a commander, you automatically have one boon appropriate to your leadership role (see below).
 
 The commander must be active with the army to grant a bonus on Morale checks or a boon to the army. Being active requires spending at least 3 days per week with the army. An army without a commander (whether because the commander is dead or because she isn't spending enough time with the army) loses 1 Morale per week. You may offset this loss by doubling the army's Consumption that week.
 
-If you have an army without a commander and you have no commanders available to fill that role, you may promote a unit from the army to be an unexceptional commander. This commander has a +0 Charisma modifier, 0 ranks in [Profession](skills/profession.md#_profession) (soldier), and a [Leadership](feats.md#_leadership) score based on the level or HD of a typical unit in that army.
+If you have an army without a commander and you have no commanders available to fill that role, you may promote a unit from the army to be an unexceptional commander. This commander has a +0 Charisma modifier, 0 ranks in [Profession](skills/profession#_profession) (soldier), and a [Leadership](feats#_leadership) score based on the level or HD of a typical unit in that army.
 
 ### Boons
 
 Boons are special abilities a commander grants to an army. Most of these boons affect the rolls and statistics for battles, and the commander must be present at the battle to provide their benefit. A commander grants the army all the boons she knows (she doesn't have to select just one).
 
-**Bloodied but Unbroken** : The commander inspires the army to be at its greatest in the most desperate times. When an army's hit points are at half its full normal hit points or fewer, it gains a +1 bonus on Offense checks. A commander must have [Leadership](feats.md#_leadership) 4 or higher to select this boon. At [Leadership](feats.md#_leadership) 10 or higher, this bonus increases to +2.
+**Bloodied but Unbroken** : The commander inspires the army to be at its greatest in the most desperate times. When an army's hit points are at half its full normal hit points or fewer, it gains a +1 bonus on Offense checks. A commander must have [Leadership](feats#_leadership) 4 or higher to select this boon. At [Leadership](feats#_leadership) 10 or higher, this bonus increases to +2.
 
 **Bonus Tactic** : Choose one tactic. The commander always knows this tactic, and the commander's army can use this tactic even if it doesn't know that tactic on its own. You can select this boon multiple times; each time you select it, choose a new tactic.
 
-**Defensive Tactics:** The commander is especially good at defensive tactics. Increase the army's DV by 2. A commander must have [Leadership](feats.md#_leadership) 5 or higher to select this boon.
+**Defensive Tactics:** The commander is especially good at defensive tactics. Increase the army's DV by 2. A commander must have [Leadership](feats#_leadership) 5 or higher to select this boon.
 
-**Flexible Tactics** : The commander trains the army to be receptive to multiple orders during a battle. The army gains a +5 bonus on Morale checks to change tactics during a battle. A commander must have [Leadership](feats.md#_leadership) 6 or higher to select this boon. At [Leadership](feats.md#_leadership) 12 or higher, this bonus increases to +10.
+**Flexible Tactics** : The commander trains the army to be receptive to multiple orders during a battle. The army gains a +5 bonus on Morale checks to change tactics during a battle. A commander must have [Leadership](feats#_leadership) 6 or higher to select this boon. At [Leadership](feats#_leadership) 12 or higher, this bonus increases to +10.
 
-**Hit and Run** : The commander drills the army in quick attacks followed by a fast retreat. After attacks are resolved in the Ranged phase or the first Melee phase, the army may use the withdraw tactic with a +2 bonus on its opposed Morale checks. A commander must have [Leadership](feats.md#_leadership) 5 or higher to select this boon. At [Leadership](feats.md#_leadership) 10 or higher, this bonus increases to +4.
+**Hit and Run** : The commander drills the army in quick attacks followed by a fast retreat. After attacks are resolved in the Ranged phase or the first Melee phase, the army may use the withdraw tactic with a +2 bonus on its opposed Morale checks. A commander must have [Leadership](feats#_leadership) 5 or higher to select this boon. At [Leadership](feats#_leadership) 10 or higher, this bonus increases to +4.
 
 **Hold the Line** : The commander is skilled at convincing the army to maintain morale against dangerous opponents. If the army fails a Morale check to avoid a rout, it may reroll that check. It must accept the results of the second check, even if it is worse.
 
 **Live off the Land** : The commander makes the army trap game, hunt, and fish to augment its food supplies. Reduce the army's Consumption and speed by half for any week this boon is used. The GM may rule that Huge and larger armies deplete the available resources from a hex over 1d3 weeks, requiring the army to move if it wants to maintain the reduced Consumption level.
 
-**Loyalty:** The commander inspires great loyalty in the army. The army gains a +2 bonus on all Morale checks. A commander must have [Leadership](feats.md#_leadership) 6 or higher to select this boon. At [Leadership](feats.md#_leadership) 12 or higher, this bonus increases to +4.
+**Loyalty:** The commander inspires great loyalty in the army. The army gains a +2 bonus on all Morale checks. A commander must have [Leadership](feats#_leadership) 6 or higher to select this boon. At [Leadership](feats#_leadership) 12 or higher, this bonus increases to +4.
 
 **Merciless** : The commander encourages the army to be ruthless in its tactics and spare no wounded enemies. The army gains a +1 bonus on opposed Morale checks to prevent another army from withdrawing and on the last Offense check against a routed army or one using the withdraw tactic.
 
@@ -253,9 +253,9 @@ Boons are special abilities a commander grants to an army. Most of these boons a
 
 ### Kingdom Leader Commanders
 
-If you have a kingdom leadership role (Ruler, High Priest, Grand Diplomat, and so on), you may take the role of an army commander. To determine your bonus on Morale checks and the maximum number of boons you can know, use either one-fifth your ranks in [Profession](skills/profession.md#_profession) (soldier) or one-sixth your character level, whichever is higher (minimum 1). As with other commanders, you must remain active with the army to grant your commander bonus on Morale checks, and must be at the battle to provide tactics and bonuses.
+If you have a kingdom leadership role (Ruler, High Priest, Grand Diplomat, and so on), you may take the role of an army commander. To determine your bonus on Morale checks and the maximum number of boons you can know, use either one-fifth your ranks in [Profession](skills/profession#_profession) (soldier) or one-sixth your character level, whichever is higher (minimum 1). As with other commanders, you must remain active with the army to grant your commander bonus on Morale checks, and must be at the battle to provide tactics and bonuses.
 
-Your leadership role determines what boons you automatically know (even if you don't meet the [Leadership](feats.md#_leadership) requirements for those boons). If a role lists multiple boons, you must choose one when you become a commander. (Others may be gained in the normal manner).
+Your leadership role determines what boons you automatically know (even if you don't meet the [Leadership](feats#_leadership) requirements for those boons). If a role lists multiple boons, you must choose one when you become a commander. (Others may be gained in the normal manner).
 
 **Ruler** : Bloodied but Unbroken, Loyalty
 
@@ -543,7 +543,7 @@ _Animal_: This ability functions as animal companion.
 
 ## Player Characters in Battles
 
-In addition to the option of your PCs being commanders in your armies, the GM may have you fight smaller groups of enemies before or even during a battle in which your armies clash with the enemy. For example, your PCs might attack an evil necromancer and fight your way through his tower to confront him directly and defeat him while your army battles the undead horde outside the tower. Alternatively, your PCs could use potent spells (such as _ [cloudkill](spells/cloudkill.md#_cloudkill)_, _ [control water](spells/controlWater.md#_control-water)_, or _ [earthquake](spells/earthquake.md#_earthquake)_) to alter battlefield conditions in your favor. These possibilities let you use your characters to directly affect the outcome of a battle without forcing you to sit out on an adventure opportunity by personally commanding an army.
+In addition to the option of your PCs being commanders in your armies, the GM may have you fight smaller groups of enemies before or even during a battle in which your armies clash with the enemy. For example, your PCs might attack an evil necromancer and fight your way through his tower to confront him directly and defeat him while your army battles the undead horde outside the tower. Alternatively, your PCs could use potent spells (such as _ [cloudkill](spells/cloudkill#_cloudkill)_, _ [control water](spells/controlWater#_control-water)_, or _ [earthquake](spells/earthquake#_earthquake)_) to alter battlefield conditions in your favor. These possibilities let you use your characters to directly affect the outcome of a battle without forcing you to sit out on an adventure opportunity by personally commanding an army.
 
 If your PCs win the small-scale combat or dramatically affect the battlefield with magic, the GM could opt to increase your army's DV and OM by +4 for that battle, or penalize your armies by —4 if you lose. At the GM's discretion, your PCs' failure or victory might have other effects on your armies as well, such as temporarily granting an additional tactic, altering the hit points of one or more armies, or granting or negating a special ability.
 
@@ -595,7 +595,7 @@ This section details sample armies of various humanoid and monster types. The GM
 
 Most of these armies are Medium, showing a player or GM what tactics, resources, and special abilities a typical army of that type has, yet still keeping it easy to scale the army to a larger or smaller size. If an army has a resource, the listed Consumption is for an army of the listed size; if you change the size of the army, remember to subtract the Consumption cost for its original size, scale that cost to the new size, then add the scaled cost to the army's base Consumption cost. If the army lists an additional cost for recruiting the army, this recruitment cost scales in the same way.
 
-The special abilities listed for monster armies are approximations to model the unit monster's special abilities. For example, an individual troglodyte's stench nauseates opponents, but there is no army special ability that does that, so the troglodyte army has paralysis instead, which has a comparable effect. Likewise, the astral deva army has the alchemy ability, which is a reasonable approximation of an individual astral deva's ability to use _ [heal](spells/heal.md#_heal)_ once per day; the one-unit army doesn't actually carry alchemist extracts.
+The special abilities listed for monster armies are approximations to model the unit monster's special abilities. For example, an individual troglodyte's stench nauseates opponents, but there is no army special ability that does that, so the troglodyte army has paralysis instead, which has a comparable effect. Likewise, the astral deva army has the alchemy ability, which is a reasonable approximation of an individual astral deva's ability to use _ [heal](spells/heal#_heal)_ once per day; the one-unit army doesn't actually carry alchemist extracts.
 
 If a special ability provides a constant bonus (such as the bonus from charge or pounce), that bonus is automatically included in the army's stat block. If the bonus is conditional (like the DV bonus from rock catching or the ranged damage bonus from rock throwing), you need to account for that bonus when the conditions are right.
 
@@ -669,7 +669,7 @@ CE Medium army of boggards
 
 **DV** 12; **OM** +2
 
-**Special** darkvision, [low-light vision](bestiary3/universalMonsterRules.md#low-light-vision), mobility advantage (swamps)
+**Special** darkvision, [low-light vision](bestiary3/universalMonsterRules#low-light-vision), mobility advantage (swamps)
 
 **Speed** 1 (speed unaffected by swamps); **Consumption** 1
 
@@ -709,7 +709,7 @@ LE Medium army of duergar (warrior 3)
 
 **DV** 11; **OM** +2, ranged
 
-**Special** darkvision, immune to paralysis and [poison](bestiary3/universalMonsterRules.md#poison), light sensitivity
+**Special** darkvision, immune to paralysis and [poison](bestiary3/universalMonsterRules#poison), light sensitivity
 
 **Speed** 1; **Consumption** 1
 
@@ -725,7 +725,7 @@ CE Medium army of drow (warrior 3)
 
 **Tactics** dirty fighters, false retreat, sniper support, spellbreaker
 
-**Special** darkvision, light sensitivity, [poison](bestiary3/universalMonsterRules.md#poison), spell [resistance](bestiary3/universalMonsterRules.md#resistance)
+**Special** darkvision, light sensitivity, [poison](bestiary3/universalMonsterRules#poison), spell [resistance](bestiary3/universalMonsterRules#resistance)
 
 **Speed** 2; **Consumption** 1
 
@@ -769,7 +769,7 @@ N Medium army of elves (ranger 2)
 
 **Tactics** sniper support
 
-**Special** combat style, favored enemy ( [orc](bestiary3/creatureTypes.md#orc-subtype)), track
+**Special** combat style, favored enemy ( [orc](bestiary3/creatureTypes#orc-subtype)), track
 
 **Speed** 1; **Consumption** 1
 
@@ -781,7 +781,7 @@ CE Medium army of ghouls
 
 **DV** 11; **OM** +1
 
-**Special** cannibalize, darkvision, [disease](bestiary3/universalMonsterRules.md#disease), paralysis, undead
+**Special** cannibalize, darkvision, [disease](bestiary3/universalMonsterRules#disease), paralysis, undead
 
 **Speed** 2; **Consumption** 1
 
@@ -861,7 +861,7 @@ LN Medium army of halflings (rogue 2)
 
 **Tactics** withdraw
 
-**Special** evasion, rogue talent ( [bleed](bestiary3/universalMonsterRules.md#bleed)), sneak attack
+**Special** evasion, rogue talent ( [bleed](bestiary3/universalMonsterRules#bleed)), sneak attack
 
 **Speed** 1; **Consumption** 1
 
@@ -903,7 +903,7 @@ N Medium army of lizardfolk
 
 **DV** 11; **OM** +1, ranged
 
-**Special** amphibious, [aquatic](bestiary3/creatureTypes.md#aquatic-subtype), cannibalize
+**Special** amphibious, [aquatic](bestiary3/creatureTypes#aquatic-subtype), cannibalize
 
 **Speed** 2; **Consumption** 1
 
@@ -973,7 +973,7 @@ CE Medium army of orcs (warrior 3)
 
 Skeleton Horde (Colossal)XP 3,200
 
-NE Colossal army of [human](bestiary3/creatureTypes.md#human-subtype) skeletons
+NE Colossal army of [human](bestiary3/creatureTypes#human-subtype) skeletons
 
 **hp** 31; **ACR** 7
 
@@ -985,7 +985,7 @@ NE Colossal army of [human](bestiary3/creatureTypes.md#human-subtype) skeletons
 
 Skeleton Horde (Gargantuan)XP 1,600
 
-NE Gargantuan army of [human](bestiary3/creatureTypes.md#human-subtype) skeletons
+NE Gargantuan army of [human](bestiary3/creatureTypes#human-subtype) skeletons
 
 **hp** 22; **ACR** 5
 
@@ -997,7 +997,7 @@ NE Gargantuan army of [human](bestiary3/creatureTypes.md#human-subtype) skeleton
 
 Skeleton Horde (Huge)XP 800
 
-NE Huge army of [human](bestiary3/creatureTypes.md#human-subtype) skeletons
+NE Huge army of [human](bestiary3/creatureTypes#human-subtype) skeletons
 
 **hp** 13; **ACR** 3
 
@@ -1009,7 +1009,7 @@ NE Huge army of [human](bestiary3/creatureTypes.md#human-subtype) skeletons
 
 Skeleton Horde (Large)XP 400
 
-NE Large army of [human](bestiary3/creatureTypes.md#human-subtype) skeletons
+NE Large army of [human](bestiary3/creatureTypes#human-subtype) skeletons
 
 **hp** 4; **ACR** 1
 
@@ -1021,7 +1021,7 @@ NE Large army of [human](bestiary3/creatureTypes.md#human-subtype) skeletons
 
 Skeleton Horde (Medium)XP 135
 
-NE Medium army of [human](bestiary3/creatureTypes.md#human-subtype) skeletons
+NE Medium army of [human](bestiary3/creatureTypes#human-subtype) skeletons
 
 **hp** 1; **ACR** 1/3
 
@@ -1039,7 +1039,7 @@ N Medium army of svirfneblin (ranger 1)
 
 **DV** 13; **OM** +2, ranged
 
-**Special** darkvision, favored enemy ( [dwarf](bestiary3/creatureTypes.md#dwarf-subtype)), [low-light vision](bestiary3/universalMonsterRules.md#low-light-vision), spellcasting, spell [resistance](bestiary3/universalMonsterRules.md#resistance), track
+**Special** darkvision, favored enemy ( [dwarf](bestiary3/creatureTypes#dwarf-subtype)), [low-light vision](bestiary3/universalMonsterRules#low-light-vision), spellcasting, spell [resistance](bestiary3/universalMonsterRules#resistance), track
 
 **Speed** 1; **Consumption** 1
 
@@ -1053,7 +1053,7 @@ N Fine army of one tarrasque
 
 **Tactics** defensive wall, relentless brutality, siegebreaker, spellbreaker, withdraw
 
-**Special** cannibalize; [fear](bestiary3/universalMonsterRules.md#fear); [grab](bestiary3/universalMonsterRules.md#grab); immune to ability damage, [bleed](bestiary3/universalMonsterRules.md#bleed), [disease](bestiary3/universalMonsterRules.md#disease), energy drain, [fear](bestiary3/universalMonsterRules.md#fear), paralysis, petrification, and [poison](bestiary3/universalMonsterRules.md#poison); [low-light vision](bestiary3/universalMonsterRules.md#low-light-vision); regeneration 40; [scent](bestiary3/universalMonsterRules.md#scent); significant defense; spell [resistance](bestiary3/universalMonsterRules.md#resistance)
+**Special** cannibalize; [fear](bestiary3/universalMonsterRules#fear); [grab](bestiary3/universalMonsterRules#grab); immune to ability damage, [bleed](bestiary3/universalMonsterRules#bleed), [disease](bestiary3/universalMonsterRules#disease), energy drain, [fear](bestiary3/universalMonsterRules#fear), paralysis, petrification, and [poison](bestiary3/universalMonsterRules#poison); [low-light vision](bestiary3/universalMonsterRules#low-light-vision); regeneration 40; [scent](bestiary3/universalMonsterRules#scent); significant defense; spell [resistance](bestiary3/universalMonsterRules#resistance)
 
 **Speed** 2; **Consumption** 8
 
@@ -1069,7 +1069,7 @@ N Medium army of tengus (rogue 3)
 
 **Tactics** expert flankers
 
-**Special** evasion, [low-light vision](bestiary3/universalMonsterRules.md#low-light-vision), rogue talent ( [bleed](bestiary3/universalMonsterRules.md#bleed)), sneak attack
+**Special** evasion, [low-light vision](bestiary3/universalMonsterRules#low-light-vision), rogue talent ( [bleed](bestiary3/universalMonsterRules#bleed)), sneak attack
 
 **Speed** 2; **Consumption** 1
 
@@ -1093,7 +1093,7 @@ NE Medium army of worgs
 
 **DV** 12; **OM** +2
 
-**Special** darkvision, [low-light vision](bestiary3/universalMonsterRules.md#low-light-vision), [scent](bestiary3/universalMonsterRules.md#scent), trip
+**Special** darkvision, [low-light vision](bestiary3/universalMonsterRules#low-light-vision), [scent](bestiary3/universalMonsterRules#scent), trip
 
 **Speed** 3; **Consumption** 1
 
@@ -1105,13 +1105,13 @@ N Medium army of yetis
 
 **DV** 14; **OM** +4
 
-**Special** burn, climb, darkvision, [fear](bestiary3/universalMonsterRules.md#fear), [scent](bestiary3/universalMonsterRules.md#scent)
+**Special** burn, climb, darkvision, [fear](bestiary3/universalMonsterRules#fear), [scent](bestiary3/universalMonsterRules#scent)
 
 **Speed** 2; **Consumption** 2
 
 Zombie Horde (Colossal)XP 4,800
 
-NE Colossal army of [human](bestiary3/creatureTypes.md#human-subtype) zombies
+NE Colossal army of [human](bestiary3/creatureTypes#human-subtype) zombies
 
 **hp** 36; **ACR** 8
 
@@ -1123,7 +1123,7 @@ NE Colossal army of [human](bestiary3/creatureTypes.md#human-subtype) zombies
 
 Zombie Horde (Gargantuan)XP 2,400
 
-NE Gargantuan army of [human](bestiary3/creatureTypes.md#human-subtype) zombies
+NE Gargantuan army of [human](bestiary3/creatureTypes#human-subtype) zombies
 
 **hp** 27; **ACR** 6
 
@@ -1135,7 +1135,7 @@ NE Gargantuan army of [human](bestiary3/creatureTypes.md#human-subtype) zombies
 
 Zombie Horde (Huge)XP 1,200
 
-NE Huge army of [human](bestiary3/creatureTypes.md#human-subtype) zombies
+NE Huge army of [human](bestiary3/creatureTypes#human-subtype) zombies
 
 **hp** 18; **ACR** 4
 
@@ -1147,7 +1147,7 @@ NE Huge army of [human](bestiary3/creatureTypes.md#human-subtype) zombies
 
 Zombie Horde (Large)XP 600
 
-NE Large army of [human](bestiary3/creatureTypes.md#human-subtype) zombies
+NE Large army of [human](bestiary3/creatureTypes#human-subtype) zombies
 
 **hp** 9; **ACR** 2
 
@@ -1159,7 +1159,7 @@ NE Large army of [human](bestiary3/creatureTypes.md#human-subtype) zombies
 
 Zombie Horde (Medium)XP 200
 
-NE Medium army of [human](bestiary3/creatureTypes.md#human-subtype) zombies
+NE Medium army of [human](bestiary3/creatureTypes#human-subtype) zombies
 
 **hp** 2; **ACR** 1/2
 
@@ -1175,7 +1175,7 @@ These mass combat rules treat armies as if they were individual creatures. Inste
 
 Every army has a commander, typically a seasoned veteran, who directs the army's actions. You can lead an army yourself, making you its commander and providing bonuses depending on your kingdom leadership role.
 
-Armies can learn different tactics, such as using reserve archers, forming a defensive wall, or using dirty tricks. An army can use strategies like attacking recklessly and aggressively (much like a creature using the [Power Attack](feats.md#_power-attack) feat) or being cautious and defensive (like using [Combat Expertise](feats.md#_combat-expertise)). The army's commander decides the tactics and strategy used in battle.
+Armies can learn different tactics, such as using reserve archers, forming a defensive wall, or using dirty tricks. An army can use strategies like attacking recklessly and aggressively (much like a creature using the [Power Attack](feats#_power-attack) feat) or being cautious and defensive (like using [Combat Expertise](feats#_combat-expertise)). The army's commander decides the tactics and strategy used in battle.
 
 Conditions on the battlefield affect the process and outcome of the battle. For example, muddy terrain slows walking armies but has no effect on flying armies; night combat hinders human armies but not orc armies.
 
@@ -1195,7 +1195,7 @@ The mass combat rules often refer to aspects of the kingdom building rules, such
 
 ## Running Mass Combats
 
-Since an army's strength is represented by an ACR score, the GM can balance armies against each other using the [guidelines for CR](gamemastering.md#_designing-encounters). For example, two ACR 9 armies should make for a relatively even battle, but so would an ACR 9 army against three ACR 6 armies. This applies mostly to typical humanoid armies, as monsters with powerful abilities might be significantly more formidable.
+Since an army's strength is represented by an ACR score, the GM can balance armies against each other using the [guidelines for CR](gamemastering#_designing-encounters). For example, two ACR 9 armies should make for a relatively even battle, but so would an ACR 9 army against three ACR 6 armies. This applies mostly to typical humanoid armies, as monsters with powerful abilities might be significantly more formidable.
 
 ## Recruiting Armies
 

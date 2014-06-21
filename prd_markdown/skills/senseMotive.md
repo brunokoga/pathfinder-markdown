@@ -1,6 +1,6 @@
 # Sense Motive
 
-## ( [Wis](../gettingStarted.md#_wisdom))
+## ( [Wis](../gettingStarted#_wisdom))
 
 You are skilled at detecting falsehoods and true intentions.
 
@@ -24,5 +24,5 @@ _Discern Secret Message_: You may use Sense Motive to detect that a hidden messa
 
 **Special** : A ranger gains a bonus on Sense Motive checks when using this skill against a favored enemy.
 
-If you have the [Alertness](../feats.md#_alertness) feat, you get a bonus on Sense Motive checks (see [Feats](../feats.md)).
+If you have the [Alertness](../feats#_alertness) feat, you get a bonus on Sense Motive checks (see [Feats](../feats)).
 

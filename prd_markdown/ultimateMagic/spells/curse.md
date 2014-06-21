@@ -14,5 +14,5 @@ Curse, Major
 
 **Saving Throw** Will negates; **Spell Resistance** yes
 
-This spell functions as _ [bestow curse](spells/bestowCurse.md#_bestow-curse)_, except the DC to remove the curse is equal to the save DC + 5.
+This spell functions as _ [bestow curse](spells/bestowCurse#_bestow-curse)_, except the DC to remove the curse is equal to the save DC + 5.
 

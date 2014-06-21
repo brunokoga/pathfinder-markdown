@@ -6,9 +6,9 @@ _The sixteen-foot-long scorpion scrabbles forward, ferocious claws raised in cha
 
 **XP 800**
 
-N Large [vermin](creatureTypes.md#_vermin)
+N Large [vermin](creatureTypes#_vermin)
 
-**Init** +0; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](../skills/perception.md#_perception) +4
+**Init** +0; **Senses** darkvision 60 ft., tremorsense 60 ft.; [Perception](../skills/perception#_perception) +4
 
 **Defense**
 
@@ -24,11 +24,11 @@ N Large [vermin](creatureTypes.md#_vermin)
 
 **Speed** 50 ft.
 
-**Melee** 2 claws +6 (1d6+4 plus [grab](universalMonsterRules.md#_grab)), sting +6 (1d6+4 plus [poison](universalMonsterRules.md#_poison))
+**Melee** 2 claws +6 (1d6+4 plus [grab](universalMonsterRules#_grab)), sting +6 (1d6+4 plus [poison](universalMonsterRules#_poison))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [constrict](universalMonsterRules.md#_constrict) (1d6+4)
+**Special Attacks** [constrict](universalMonsterRules#_constrict) (1d6+4)
 
 **Statistics**
 
@@ -36,7 +36,7 @@ N Large [vermin](creatureTypes.md#_vermin)
 
 **Base Atk** +3; **CMB** +8 (+12 grapple); **CMD** 18 (30 vs. trip)
 
-**Skills** [Climb](../skills/climb.md#_climb) +8, [Perception](../skills/perception.md#_perception) +4, [Stealth](../skills/stealth.md#_stealth) +0; **Racial Modifiers** +4 [Climb](../skills/climb.md#_climb), +4 [Perception](../skills/perception.md#_perception), +4 [Stealth](../skills/stealth.md#_stealth)
+**Skills** [Climb](../skills/climb#_climb) +8, [Perception](../skills/perception#_perception) +4, [Stealth](../skills/stealth#_stealth) +0; **Racial Modifiers** +4 [Climb](../skills/climb#_climb), +4 [Perception](../skills/perception#_perception), +4 [Stealth](../skills/stealth#_stealth)
 
 **Ecology**
 
@@ -48,7 +48,7 @@ N Large [vermin](creatureTypes.md#_vermin)
 
 **Special Abilities**
 
-**Poison (Ex)** Sting—injury; _save_ Fort DC 17; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Strength [damage](universalMonsterRules.md#_ability-damage-and-drain); _cure_ 1 save. The save DC is Constitution-based and includes a +2 racial bonus.
+**Poison (Ex)** Sting—injury; _save_ Fort DC 17; _frequency_ 1/round for 6 rounds; _effect_ 1d2 Strength [damage](universalMonsterRules#_ability-damage-and-drain); _cure_ 1 save. The save DC is Constitution-based and includes a +2 racial bonus.
 
 Giant scorpions are monstrous versions of the more common desert scorpion. They are likely to attack any creature that approaches. Giant scorpions usually charge when attacking, grabbing prey in their pincers, then lashing their segmented tails forward to kill their victim with injected venom.
 

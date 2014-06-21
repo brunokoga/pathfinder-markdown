@@ -12,11 +12,11 @@
 
 **Duration** 1d4+1 rounds, or 1d4+1 rounds after creatures leave the smoke cloud; see text
 
-**Saving Throw** [Will](../combat.md#_will) negates or [Fortitude](../combat.md#_fortitude) negates; see text; **[Spell Resistance](../glossary.md#_spell-resistance)** yes or no; see text
+**Saving Throw** [Will](../combat#_will) negates or [Fortitude](../combat#_fortitude) negates; see text; **[Spell Resistance](../glossary#_spell-resistance)** yes or no; see text
 
 _Pyrotechnics _turns a fire into a burst of blinding fireworks or a thick cloud of choking smoke, depending on your choice. The spell uses one fire source, which is immediately extinguished. A fire so large that it exceeds a 20-foot cube is only partly extinguished. Magical fires are not extinguished, although a fire-based creature used as a source takes 1 point of damage per caster level.
 
-_Fireworks_: The fireworks are a flashing, fiery, momentary burst of glowing, colored aerial lights. This effect causes creatures within 120 feet of the fire source to become [blinded](../glossary.md#_blinded) for 1d4+1 rounds ( [Will](../combat.md#_will) negates). These creatures must have line of sight to the fire to be affected. [Spell resistance](../glossary.md#_spell-resistance) can prevent blindness.
+_Fireworks_: The fireworks are a flashing, fiery, momentary burst of glowing, colored aerial lights. This effect causes creatures within 120 feet of the fire source to become [blinded](../glossary#_blinded) for 1d4+1 rounds ( [Will](../combat#_will) negates). These creatures must have line of sight to the fire to be affected. [Spell resistance](../glossary#_spell-resistance) can prevent blindness.
 
-_Smoke Cloud_: A stream of smoke billows out from the fire, forming a choking cloud that spreads 20 feet in all directions and lasts for 1 round per caster level. All sight, even [darkvision](../glossary.md#_darkvision), is ineffective in or through the cloud. All within the cloud take –4 penalties to [Strength](../gettingStarted.md#_strength) and [Dexterity](../gettingStarted.md#_dexterity) ( [Fortitude](../combat.md#_fortitude) negates). These effects last for 1d4+1 rounds after the cloud dissipates or after the creature leaves the area of the cloud. [Spell resistance](../glossary.md#_spell-resistance) does not apply.
+_Smoke Cloud_: A stream of smoke billows out from the fire, forming a choking cloud that spreads 20 feet in all directions and lasts for 1 round per caster level. All sight, even [darkvision](../glossary#_darkvision), is ineffective in or through the cloud. All within the cloud take –4 penalties to [Strength](../gettingStarted#_strength) and [Dexterity](../gettingStarted#_dexterity) ( [Fortitude](../combat#_fortitude) negates). These effects last for 1d4+1 rounds after the cloud dissipates or after the creature leaves the area of the cloud. [Spell resistance](../glossary#_spell-resistance) does not apply.
 

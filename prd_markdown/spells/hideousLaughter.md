@@ -12,9 +12,9 @@
 
 **Duration** 1 round/level
 
-**Saving Throw** [Will](../combat.md#_will) negates; **[Spell Resistance](../glossary.md#_spell-resistance)** yes
+**Saving Throw** [Will](../combat#_will) negates; **[Spell Resistance](../glossary#_spell-resistance)** yes
 
-This spell afflicts the subject with uncontrollable laughter. It collapses into gales of manic laughter, falling [prone](../glossary.md#_prone). The subject can take no actions while laughing, but is not considered [helpless](../glossary.md#_helpless). After the spell ends, it can act normally. On the creature's next turn, it may attempt a new saving throw to end the effect. This is a full round action that does not provoke attacks of opportunity. If this save is successful, the effect ends. If not, the creature continues laughing for the entire duration.
+This spell afflicts the subject with uncontrollable laughter. It collapses into gales of manic laughter, falling [prone](../glossary#_prone). The subject can take no actions while laughing, but is not considered [helpless](../glossary#_helpless). After the spell ends, it can act normally. On the creature's next turn, it may attempt a new saving throw to end the effect. This is a full round action that does not provoke attacks of opportunity. If this save is successful, the effect ends. If not, the creature continues laughing for the entire duration.
 
-A creature with an [Intelligence](../gettingStarted.md#_intelligence) score of 2 or lower is not affected. A creature whose type is different from the caster's receives a +4 bonus on its saving throw, because humor doesn't “translate” well.
+A creature with an [Intelligence](../gettingStarted#_intelligence) score of 2 or lower is not affected. A creature whose type is different from the caster's receives a +4 bonus on its saving throw, because humor doesn't “translate” well.
 

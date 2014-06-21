@@ -6,9 +6,9 @@ _This creature has a vaguely humanoid head, the body of a lion, and the wings of
 
 **XP 1,600**
 
-LE Large [magical beast](creatureTypes.md#_magical-beast)
+LE Large [magical beast](creatureTypes#_magical-beast)
 
-**Init** +2; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +9
+**Init** +2; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +9
 
 **Defense**
 
@@ -34,9 +34,9 @@ LE Large [magical beast](creatureTypes.md#_magical-beast)
 
 **Base Atk** +6; **CMB** +12; **CMD** 24 (28 vs. trip)
 
-**Feats** [Flyby Attack](monsterFeats.md#_flyby-attack), [Hover](monsterFeats.md#_hover), [Weapon Focus](../feats.md#_weapon-focus) (spikes)
+**Feats** [Flyby Attack](monsterFeats#_flyby-attack), [Hover](monsterFeats#_hover), [Weapon Focus](../feats#_weapon-focus) (spikes)
 
-**Skills** [Fly](../skills/fly.md#_fly) –3, [Perception](../skills/perception.md#_perception) +9, [Survival](../skills/survival.md#_survival) +4 (+8 tracking); **Racial Modifiers** +4 [Perception](../skills/perception.md#_perception), +4 [Survival](../skills/survival.md#_survival) when tracking
+**Skills** [Fly](../skills/fly#_fly) –3, [Perception](../skills/perception#_perception) +9, [Survival](../skills/survival#_survival) +4 (+8 tracking); **Racial Modifiers** +4 [Perception](../skills/perception#_perception), +4 [Survival](../skills/survival#_survival) when tracking
 
 **Languages** Common
 

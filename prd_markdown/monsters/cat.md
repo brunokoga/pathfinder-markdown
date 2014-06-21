@@ -6,9 +6,9 @@ _This large, sleek feline has a golden coat spotted with black. Its long and pow
 
 **XP 600**
 
-N Medium [animal](creatureTypes.md#_animal)
+N Medium [animal](creatureTypes#_animal)
 
-**Init** +8; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +5
+**Init** +8; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +5
 
 **Defense**
 
@@ -22,7 +22,7 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Speed** 50 ft.; sprint
 
-**Melee** bite +6 (1d6+3 plus [trip](universalMonsterRules.md#_trip)), 2 claws +6 (1d3+3)
+**Melee** bite +6 (1d6+3 plus [trip](universalMonsterRules#_trip)), 2 claws +6 (1d3+3)
 
 **Statistics**
 
@@ -30,9 +30,9 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Base Atk** +2; **CMB** +5; **CMD** 19 (23 vs. trip)
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Weapon Finesse](../feats.md#_weapon-finesse)
+**Feats** [Improved Initiative](../feats#_improved-initiative), [Weapon Finesse](../feats#_weapon-finesse)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +8, [Perception](../skills/perception.md#_perception) +5, [Stealth](../skills/stealth.md#_stealth) +8 (+12 in tall grass); **Racial Modifiers** +4 [Stealth](../skills/stealth.md#_stealth) in tall grass
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +8, [Perception](../skills/perception#_perception) +5, [Stealth](../skills/stealth#_stealth) +8 (+12 in tall grass); **Racial Modifiers** +4 [Stealth](../skills/stealth#_stealth) in tall grass
 
 **Ecology**
 
@@ -58,9 +58,9 @@ _With each graceful step, this leopard's steely muscles ripple beneath its spott
 
 **XP 600**
 
-N Medium [animal](creatureTypes.md#_animal)
+N Medium [animal](creatureTypes#_animal)
 
-**Init** +4; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +5
+**Init** +4; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +5
 
 **Defense**
 
@@ -74,9 +74,9 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Speed** 30 ft., climb 20 ft.
 
-**Melee** bite +6 (1d6+3 plus [grab](universalMonsterRules.md#_grab)), 2 claws +6 (1d3+3)
+**Melee** bite +6 (1d6+3 plus [grab](universalMonsterRules#_grab)), 2 claws +6 (1d3+3)
 
-**Special Attacks** [pounce](universalMonsterRules.md#_pounce), [rake](universalMonsterRules.md#_rake) (2 claws +6, 1d3+3)
+**Special Attacks** [pounce](universalMonsterRules#_pounce), [rake](universalMonsterRules#_rake) (2 claws +6, 1d3+3)
 
 **Statistics**
 
@@ -84,9 +84,9 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Base Atk** +2; **CMB** +5 (+9 grapple); **CMD** 19 (23 vs. trip)
 
-**Feats** [Skill Focus](../feats.md#_skill-focus) ( [Stealth](../skills/stealth.md#_stealth)), [Weapon Finesse](../feats.md#_weapon-finesse)
+**Feats** [Skill Focus](../feats#_skill-focus) ( [Stealth](../skills/stealth#_stealth)), [Weapon Finesse](../feats#_weapon-finesse)
 
-**Skills** [Acrobatics](../skills/acrobatics.md#_acrobatics) +8, [Climb](../skills/climb.md#_climb) +11, [Perception](../skills/perception.md#_perception) +5, [Stealth](../skills/stealth.md#_stealth) +11 (+15 in undergrowth); **Racial Modifiers** +4 on [Stealth](../skills/stealth.md#_stealth) in undergrowth
+**Skills** [Acrobatics](../skills/acrobatics#_acrobatics) +8, [Climb](../skills/climb#_climb) +11, [Perception](../skills/perception#_perception) +5, [Stealth](../skills/stealth#_stealth) +11 (+15 in undergrowth); **Racial Modifiers** +4 on [Stealth](../skills/stealth#_stealth) in undergrowth
 
 **Ecology**
 

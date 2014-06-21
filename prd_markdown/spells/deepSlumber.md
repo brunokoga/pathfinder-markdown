@@ -4,5 +4,5 @@
 
 **Range** close (25 ft. + 5 ft./2 levels)
 
-This spell functions like _ [sleep](sleep.md#_sleep), _except that it affects 10 HD of targets.
+This spell functions like _ [sleep](sleep#_sleep), _except that it affects 10 HD of targets.
 

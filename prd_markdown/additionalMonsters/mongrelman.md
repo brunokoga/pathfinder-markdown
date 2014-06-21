@@ -6,9 +6,9 @@ Ivory tusks, insect chitin, matted fur, scaly flesh, and more combine to form a 
 
 **XP 400**
 
-LN Medium [monstrous humanoid](monsters/creatureTypes.md#_monstrous-humanoid)
+LN Medium [monstrous humanoid](monsters/creatureTypes#_monstrous-humanoid)
 
-**Init** +1; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception.md#_perception) +6
+**Init** +1; **Senses** darkvision 60 ft., low-light vision; [Perception](additionalMonsters/../skills/perception#_perception) +6
 
 Defense
 
@@ -32,13 +32,13 @@ Statistics
 
 **Base Atk** +2; **CMB** +4; **CMD** 15
 
-**Feats** [Skill Focus](additionalMonsters/../feats.md#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth.md#_stealth))
+**Feats** [Skill Focus](additionalMonsters/../feats#_skill-focus) ( [Stealth](additionalMonsters/../skills/stealth#_stealth))
 
-**Skills** [Climb](additionalMonsters/../skills/climb.md#_climb) +6, [Perception](additionalMonsters/../skills/perception.md#_perception) +6, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand) +7, [Stealth](additionalMonsters/../skills/stealth.md#_stealth) +13, [Survival](additionalMonsters/../skills/survival.md#_survival) +5; **Racial Modifiers** +4 [Sleight of Hand](additionalMonsters/../skills/sleightOfHand.md#_sleight-of-hand), +4 [Stealth](additionalMonsters/../skills/stealth.md#_stealth)
+**Skills** [Climb](additionalMonsters/../skills/climb#_climb) +6, [Perception](additionalMonsters/../skills/perception#_perception) +6, [Sleight of Hand](additionalMonsters/../skills/sleightOfHand#_sleight-of-hand) +7, [Stealth](additionalMonsters/../skills/stealth#_stealth) +13, [Survival](additionalMonsters/../skills/survival#_survival) +5; **Racial Modifiers** +4 [Sleight of Hand](additionalMonsters/../skills/sleightOfHand#_sleight-of-hand), +4 [Stealth](additionalMonsters/../skills/stealth#_stealth)
 
 **Languages** Common, Undercommon
 
-**SQ** [sound mimicry](monsters/universalMonsterRules.md#_sound-mimicry) (voices)
+**SQ** [sound mimicry](monsters/universalMonsterRules#_sound-mimicry) (voices)
 
 Ecology
 

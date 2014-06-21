@@ -1,6 +1,6 @@
 Barkskin
 
-**Source** [_barkskin_](spells/barkskin.md#_barkskin)
+**Source** [_barkskin_](spells/barkskin#_barkskin)
 
 The target also gains DR/magic equal to the double the enhancement bonus the spell provides to the target's natural armor bonus.
 

@@ -1,6 +1,6 @@
 # Sleight of Hand
 
-## ( [Dex](../gettingStarted.md#_dexterity); Armor Check Penalty; Trained Only)
+## ( [Dex](../gettingStarted#_dexterity); Armor Check Penalty; Trained Only)
 
 Your training allows you to pick pockets, draw hidden weapons, and take a variety of actions without being noticed.
 
@@ -25,7 +25,7 @@ You can also use Sleight of Hand to entertain an audience as though you were usi
 
 **Try Again** : Yes, but after an initial failure, a second Sleight of Hand attempt against the same target (or while you are being watched by the same observer who noticed your previous attempt) increases the DC for the task by 10.
 
-**Untrained** : An untrained Sleight of Hand check is simply a [Dexterity](../gettingStarted.md#_dexterity) check. Without actual training, you can't succeed on any Sleight of Hand check with a DC higher than 10, except for hiding an object on your body.
+**Untrained** : An untrained Sleight of Hand check is simply a [Dexterity](../gettingStarted#_dexterity) check. Without actual training, you can't succeed on any Sleight of Hand check with a DC higher than 10, except for hiding an object on your body.
 
-**Special** : If you have the [Deft Hands](../feats.md#_deft-hands) feat, you get a bonus on Sleight of Hand checks (see [Feats](../feats.md)).
+**Special** : If you have the [Deft Hands](../feats#_deft-hands) feat, you get a bonus on Sleight of Hand checks (see [Feats](../feats)).
 

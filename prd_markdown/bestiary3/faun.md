@@ -8,7 +8,7 @@ XP 400
 
 CG Medium fey
 
-**Init** +3; **Senses** low-light vision; [Perception](skills/perception.md#_perception) +8
+**Init** +3; **Senses** low-light vision; [Perception](skills/perception#_perception) +8
 
 Defense
 
@@ -32,9 +32,9 @@ Offense
 
 **Spell-Like Abilities** (CL 3rd; concentration +6)
 
-At will—_ [ghost sound](spells/ghostSound.md#_ghost-sound)_ (DC 13)
+At will—_ [ghost sound](spells/ghostSound#_ghost-sound)_ (DC 13)
 
-1/day—_ [hideous laughter](spells/hideousLaughter.md#_hideous-laughter)_ (DC 14), _ [sleep](spells/sleep.md#_sleep)_ (DC 14)
+1/day—_ [hideous laughter](spells/hideousLaughter#_hideous-laughter)_ (DC 14), _ [sleep](spells/sleep#_sleep)_ (DC 14)
 
 Statistics
 
@@ -42,9 +42,9 @@ Statistics
 
 **Base Atk** +1; **CMB** +3; **CMD** 16
 
-**Feats** [Point-Blank Shot](feats.md#_point-blank-shot), [Weapon Finesse](feats.md#_weapon-finesse)
+**Feats** [Point-Blank Shot](feats#_point-blank-shot), [Weapon Finesse](feats#_weapon-finesse)
 
-**Skills** [Acrobatics](skills/acrobatics.md#_acrobatics) +8, [Bluff](skills/bluff.md#_bluff) +9, [Perception](skills/perception.md#_perception) +8, [Perform](skills/perform.md#_perform) (wind) +9, [Sense Motive](skills/senseMotive.md#_sense-motive) +7, [Stealth](skills/stealth.md#_stealth) +9, [Survival](skills/survival.md#_survival) +4
+**Skills** [Acrobatics](skills/acrobatics#_acrobatics) +8, [Bluff](skills/bluff#_bluff) +9, [Perception](skills/perception#_perception) +8, [Perform](skills/perform#_perform) (wind) +9, [Sense Motive](skills/senseMotive#_sense-motive) +7, [Stealth](skills/stealth#_stealth) +9, [Survival](skills/survival#_survival) +4
 
 **Languages** Common, Sylvan
 

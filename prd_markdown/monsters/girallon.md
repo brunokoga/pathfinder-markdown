@@ -6,9 +6,9 @@ _This four-armed, gorilla-like creature, covered with matted white fur, roars in
 
 **XP 2,400**
 
-N Large [magical beast](creatureTypes.md#_magical-beast)
+N Large [magical beast](creatureTypes#_magical-beast)
 
-**Init** +7; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +11
+**Init** +7; **Senses** darkvision 60 ft., low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +11
 
 **Defense**
 
@@ -22,11 +22,11 @@ N Large [magical beast](creatureTypes.md#_magical-beast)
 
 **Speed** 40 ft., climb 40 ft.
 
-**Melee** bite +10 (1d6+4), 4 claws +10 (1d4+4 plus [rend](universalMonsterRules.md#_rend))
+**Melee** bite +10 (1d6+4), 4 claws +10 (1d4+4 plus [rend](universalMonsterRules#_rend))
 
 **Space** 10 ft.; **Reach** 10 ft.
 
-**Special Attacks** [rend](universalMonsterRules.md#_rend) (4 claws, 1d4+6)
+**Special Attacks** [rend](universalMonsterRules#_rend) (4 claws, 1d4+6)
 
 **Statistics**
 
@@ -34,9 +34,9 @@ N Large [magical beast](creatureTypes.md#_magical-beast)
 
 **Base Atk** +7; **CMB** +12; **CMD** 25
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Iron Will](../feats.md#_iron-will), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Toughness](../feats.md#_toughness)
+**Feats** [Improved Initiative](../feats#_improved-initiative), [Iron Will](../feats#_iron-will), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception)), [Toughness](../feats#_toughness)
 
-**Skills** [Climb](../skills/climb.md#_climb) +12, [Perception](../skills/perception.md#_perception) +11, [Stealth](../skills/stealth.md#_stealth) +5
+**Skills** [Climb](../skills/climb#_climb) +12, [Perception](../skills/perception#_perception) +11, [Stealth](../skills/stealth#_stealth) +5
 
 **Ecology**
 

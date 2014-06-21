@@ -78,7 +78,7 @@ Construction Requirements
 
 **Cost** 7,675 gp
 
-Craft Magic Arms and Armor, _ [confusion](spells/confusion.md#_confusion)_
+Craft Magic Arms and Armor, _ [confusion](spells/confusion#_confusion)_
 
 Banded Mail of Luck
 
@@ -90,31 +90,31 @@ Construction Requirements
 
 **Cost** 9,650 gp
 
-Craft Magic Arms and Armor, _ [bless](spells/bless.md#_bless)_
+Craft Magic Arms and Armor, _ [bless](spells/bless#_bless)_
 
 Boneless Leather
 
 **Price** 12,160 gp; **Aura** faint transmutation; **CL** 3rd; **Weight** 15 lbs.
 
-This suit of _+1 leather_ gives its wearer the ability to twist and contort her body in virtually any direction. She gains a +5 bonus on [Escape Artist](skills/escapeArtist.md#_escape-artist) checks, a +5 bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) checks to reduce damage from falls, a +5 bonus to CMD, and DR 5/piercing or slashing.
+This suit of _+1 leather_ gives its wearer the ability to twist and contort her body in virtually any direction. She gains a +5 bonus on [Escape Artist](skills/escapeArtist#_escape-artist) checks, a +5 bonus on [Acrobatics](skills/acrobatics#_acrobatics) checks to reduce damage from falls, a +5 bonus to CMD, and DR 5/piercing or slashing.
 
 Construction Requirements
 
 **Cost** 6,160 gp
 
-Craft Magic Arms and Armor, _ [alter self](spells/alterSelf.md#_alter-self)_, creator must have 5 ranks in [Acrobatics](skills/acrobatics.md#_acrobatics) and [Escape Artist](skills/escapeArtist.md#_escape-artist)
+Craft Magic Arms and Armor, _ [alter self](spells/alterSelf#_alter-self)_, creator must have 5 ranks in [Acrobatics](skills/acrobatics#_acrobatics) and [Escape Artist](skills/escapeArtist#_escape-artist)
 
 Breastplate of Command
 
 **Price** 25,400 gp; **Aura** strong enchantment; **CL** 15th; **Weight** 30 lbs.
 
-This _+2 breastplate_ typically bears the image of a rampant grizzly bear or other impressive predator. It bestows a commanding aura upon its wearer. The wearer gains a +2 competence bonus on all Charisma checks, including Charisma-based skill checks. The wearer also gains a +2 competence bonus to his [Leadership](feats.md#_leadership) score. Friendly troops within 360 feet of the user become braver than normal, gaining a +2 resistance bonus on saving throws against fear. Since the effect arises in great part from the distinctiveness of the armor, it does not function if the wearer hides or conceals herself in any way.
+This _+2 breastplate_ typically bears the image of a rampant grizzly bear or other impressive predator. It bestows a commanding aura upon its wearer. The wearer gains a +2 competence bonus on all Charisma checks, including Charisma-based skill checks. The wearer also gains a +2 competence bonus to his [Leadership](feats#_leadership) score. Friendly troops within 360 feet of the user become braver than normal, gaining a +2 resistance bonus on saving throws against fear. Since the effect arises in great part from the distinctiveness of the armor, it does not function if the wearer hides or conceals herself in any way.
 
 Construction Requirements
 
 **Cost** 12,875 gp
 
-Craft Magic Arms and Armor, _ [mass charm monster](spells/charmMonster.md#_charm-monster-mass)_
+Craft Magic Arms and Armor, _ [mass charm monster](spells/charmMonster#_charm-monster-mass)_
 
 Breastplate of Vanishing
 
@@ -128,69 +128,69 @@ Construction Requirements
 
 **Cost** 9,700 gp
 
-Craft Magic Arms and Armor, _ [rope trick](spells/ropeTrick.md#_rope-trick)_
+Craft Magic Arms and Armor, _ [rope trick](spells/ropeTrick#_rope-trick)_
 
 buccaneer's breastplate
 
 **Price** 23,850 gp; **Aura** moderate transmutation; **CL** 9th; **Weight** 30 lbs.
 
-This _+1 breastplate_ is made of shining amber metal and decorated with faint motifs of the waves and water. It allows the wearer to continually utilize the effects of the spell _ [water walk](spells/waterWalk.md#_water-walk)_. If a creature puts on the armor while underwater, the wearer is borne toward the surface at a rate of 60 feet per round.
+This _+1 breastplate_ is made of shining amber metal and decorated with faint motifs of the waves and water. It allows the wearer to continually utilize the effects of the spell _ [water walk](spells/waterWalk#_water-walk)_. If a creature puts on the armor while underwater, the wearer is borne toward the surface at a rate of 60 feet per round.
 
 Construction Requirements
 
 **Cost** 12,100 gp
 
-Craft Magic Arms and Armor, _ [water walk](spells/waterWalk.md#_water-walk)_
+Craft Magic Arms and Armor, _ [water walk](spells/waterWalk#_water-walk)_
 
 Catskin Leather
 
 **Price** 18,910 gp; **Aura** strong transmutation; **CL** 13th; **Weight** 15 lbs.
 
-Rather than the hide of a cat, this extremely supple suit of jet-black _+1 [shadow](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_shadow) leather armor_ grants a portion of the grace and fortune of a feline. It has no armor check penalty or maximum Dexterity bonus. The wearer receives a +5 competence bonus on [Acrobatics](skills/acrobatics.md#_acrobatics) checks and takes only half normal damage from falling. When the wearer's hit points would be reduced to a negative amount equal to her Constitution score from an attack or spell, the armor falls to pieces and is destroyed, and the wearer takes only half damage from the attack or spell.
+Rather than the hide of a cat, this extremely supple suit of jet-black _+1 [shadow](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_shadow) leather armor_ grants a portion of the grace and fortune of a feline. It has no armor check penalty or maximum Dexterity bonus. The wearer receives a +5 competence bonus on [Acrobatics](skills/acrobatics#_acrobatics) checks and takes only half normal damage from falling. When the wearer's hit points would be reduced to a negative amount equal to her Constitution score from an attack or spell, the armor falls to pieces and is destroyed, and the wearer takes only half damage from the attack or spell.
 
 Construction Requirements
 
 **Cost** 9,535 gp
 
-Craft Magic Arms and Armor, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [feather fall](spells/featherFall.md#_feather-fall)_, and _ [limited wish](spells/limitedWish.md#_limited-wish)_, _ [wish](spells/wish.md#_wish),_ or _ [miracle](spells/miracle.md#_miracle)_
+Craft Magic Arms and Armor, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [feather fall](spells/featherFall#_feather-fall)_, and _ [limited wish](spells/limitedWish#_limited-wish)_, _ [wish](spells/wish#_wish),_ or _ [miracle](spells/miracle#_miracle)_
 
 Celestial Armor
 
 **Price** 22,400 gp; **Aura** faint transmutation [good]; **CL** 5th; **Weight** 20 lbs.
 
-This _+3 chainmail_ is so fine and light that it can be worn under normal clothing without betraying its presence. It has a maximum Dexterity bonus of +8, an armor check penalty of –2, and an arcane spell failure chance of 15%. It is considered light armor and allows the wearer to use _ [fly](spells/fly.md)_ on command (as the spell) once per day.
+This _+3 chainmail_ is so fine and light that it can be worn under normal clothing without betraying its presence. It has a maximum Dexterity bonus of +8, an armor check penalty of –2, and an arcane spell failure chance of 15%. It is considered light armor and allows the wearer to use _ [fly](spells/fly)_ on command (as the spell) once per day.
 
 Construction Requirements
 
 **Cost** 11,350 gp
 
-Craft Magic Arms and Armor, _ [fly](spells/fly.md)_, creator must be good
+Craft Magic Arms and Armor, _ [fly](spells/fly)_, creator must be good
 
 Daystar Half-Plate
 
 **Price** 81,250 gp; **Aura** strong evocation; **CL** 15th; **Weight** 50 lbs.
 
-This glowing _+1 half-plate_ is decorated with various images of the sun and depictions of nature. At will, the wearer can command the armor to shine with a _ [daylight](spells/daylight.md#_daylight)_ spell for 10 minutes. Once per day, the wearer can command it to shine as per the _ [sunburst](spells/sunburst.md#_sunburst)_ spell. The _ [sunburst](spells/sunburst.md#_sunburst)_ is centered on the wearer and the wearer is immune to its effects.
+This glowing _+1 half-plate_ is decorated with various images of the sun and depictions of nature. At will, the wearer can command the armor to shine with a _ [daylight](spells/daylight#_daylight)_ spell for 10 minutes. Once per day, the wearer can command it to shine as per the _ [sunburst](spells/sunburst#_sunburst)_ spell. The _ [sunburst](spells/sunburst#_sunburst)_ is centered on the wearer and the wearer is immune to its effects.
 
 Construction Requirements
 
 **Cost** 41,000 gp
 
-Craft Magic Arms and Armor, _ [daylight](spells/daylight.md#_daylight)_, _ [sunburst](spells/sunburst.md#_sunburst)_
+Craft Magic Arms and Armor, _ [daylight](spells/daylight#_daylight)_, _ [sunburst](spells/sunburst#_sunburst)_
 
 Demon Armor
 
 **Price** 52,260 gp; **Aura** strong necromancy [evil]; **CL** 13th; **Weight** 50 lbs.
 
-This plate armor is fashioned to make the wearer appear to be a demon. Glowing red energy emanates from sigils engraved on the armor's key plates and joints, and the runes intermittently surge with fiendish power. This _+4 full plate_ allows the wearer to make claw attacks that deal 1d10 points of damage, strike as +1 weapons, and afflict the target as if she had been struck by a _ [contagion](spells/contagion.md#_contagion)_ spell (Fortitude DC 14 negates). Use of _ [contagion](spells/contagion.md#_contagion)_ requires a normal melee attack with the claws. The "claws" are built into the armor's vambraces and gauntlets, and cannot be disarmed.
+This plate armor is fashioned to make the wearer appear to be a demon. Glowing red energy emanates from sigils engraved on the armor's key plates and joints, and the runes intermittently surge with fiendish power. This _+4 full plate_ allows the wearer to make claw attacks that deal 1d10 points of damage, strike as +1 weapons, and afflict the target as if she had been struck by a _ [contagion](spells/contagion#_contagion)_ spell (Fortitude DC 14 negates). Use of _ [contagion](spells/contagion#_contagion)_ requires a normal melee attack with the claws. The "claws" are built into the armor's vambraces and gauntlets, and cannot be disarmed.
 
-A suit of _demon armor_ is infused with evil, and as a result it bestows one negative level on any nonevil creature wearing it. This negative level persists as long as the armor is worn and disappears when the armor is removed. The negative level cannot be overcome in any way (including _ [restoration](spells/restoration.md#_restoration)_ spells) while the armor is worn.
+A suit of _demon armor_ is infused with evil, and as a result it bestows one negative level on any nonevil creature wearing it. This negative level persists as long as the armor is worn and disappears when the armor is removed. The negative level cannot be overcome in any way (including _ [restoration](spells/restoration#_restoration)_ spells) while the armor is worn.
 
 Construction Requirements
 
 **Cost** 26,955 gp
 
-Craft Magic Arms and Armor, _ [contagion](spells/contagion.md#_contagion)_
+Craft Magic Arms and Armor, _ [contagion](spells/contagion#_contagion)_
 
 Dragonhide Plate
 
@@ -216,13 +216,13 @@ Enchanted Eelskin
 
 **Price** 11,160 gp; **Aura** faint transmutation; **CL** 5th; **Weight** 15 lbs.
 
-This _+1 [slick](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_slick) leather armor _is made of shining, slippery eelskin that allows the wearer to move with deadly grace and sudden swiftness, especially underwater. When immersed in water, _enchanted eelskin _gains the _ [shadow](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_shadow) _property and grants the wearer a swim speed of 30 feet and the ability to breathe water. In addition, during a surprise round the wearer can act as if she had a full round of actions, rather than a single standard action, as long as those actions do not require leaving the water. If she does leave the water, her surprise round turn immediately ends.
+This _+1 [slick](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_slick) leather armor _is made of shining, slippery eelskin that allows the wearer to move with deadly grace and sudden swiftness, especially underwater. When immersed in water, _enchanted eelskin _gains the _ [shadow](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_shadow) _property and grants the wearer a swim speed of 30 feet and the ability to breathe water. In addition, during a surprise round the wearer can act as if she had a full round of actions, rather than a single standard action, as long as those actions do not require leaving the water. If she does leave the water, her surprise round turn immediately ends.
 
 Construction Requirements
 
 **Cost** 5,660 gp
 
-Craft Magic Arms and Armor,_ [grease](spells/grease.md#_grease)_,_ [invisibility](spells/invisibility.md#_invisibility)_, _ [touch of the sea](advanced/spells/touchOfTheSea.md#_touch-of-the-sea) _
+Craft Magic Arms and Armor,_ [grease](spells/grease#_grease)_,_ [invisibility](spells/invisibility#_invisibility)_, _ [touch of the sea](advanced/spells/touchOfTheSea#_touch-of-the-sea) _
 
 Equestrian Plate
 
@@ -238,7 +238,7 @@ Construction Requirements
 
 **Cost** 6,150 gp
 
-Craft Magic Arms and Armor, _ [fabricate](spells/fabricate.md#_fabricate)_
+Craft Magic Arms and Armor, _ [fabricate](spells/fabricate#_fabricate)_
 
 Folding Plate
 
@@ -250,7 +250,7 @@ Construction Requirements
 
 **Cost** 7,650 gp
 
-Craft Magic Arms and Armor, _ [instant summons](spells/instantSummons.md#_instant-summons)_
+Craft Magic Arms and Armor, _ [instant summons](spells/instantSummons#_instant-summons)_
 
 Forsaken Banded Mail
 
@@ -270,7 +270,7 @@ Giant-Hide Armor
 
 **Ogre** 39,165 gp; **Hill Giant** 46,665 gp; **Stone, fire, or frost giant** 54,165 gp; **Troll** 59,165 gp; **Cloud giant** 69,165 gp; **Storm giant** 76,665 gp
 
-This drooping, many-folded suit of _+3 hide armor_ is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using _ [giant form I](spells/giantForm.md#_giant-form-i)_ (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or _ [giant form II](spells/giantForm.md#_giant-form-ii)_ (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.
+This drooping, many-folded suit of _+3 hide armor_ is made from the tanned skin of an actual giant. Once per day on command, the wearer can grow to match the size of the appropriate giant, as if using _ [giant form I](spells/giantForm#_giant-form-i)_ (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or _ [giant form II](spells/giantForm#_giant-form-ii)_ (cloud giant or storm giant). This transformation lasts up to 15 minutes, and ends when the wearer commands.
 
 Most good folk consider wearing the skins of intelligent creatures to be abhorrent. Giants gain a +2 morale bonus on attack and damage rolls against the wearer, or +4 if the wearer's armor is made from the same kind of giant as the attacker.
 
@@ -280,7 +280,7 @@ Construction Requirements
 
 **Ogre** 19,660 gp; **Hill Giant** 23,415 gp; **Stone, fire, or frost giant** 27,165 gp; **Troll** 29,665 gp; **Cloud giant** 34,665 gp; **Storm giant** 38,415 gp
 
-Craft Magic Arms and Armor, _ [giant form I](spells/giantForm.md#_giant-form-i)_ (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or _ [giant form II](spells/giantForm.md#_giant-form-ii)_ (cloud giant or storm giant)
+Craft Magic Arms and Armor, _ [giant form I](spells/giantForm#_giant-form-i)_ (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or _ [giant form II](spells/giantForm#_giant-form-ii)_ (cloud giant or storm giant)
 
 Hamatula Hide
 
@@ -294,7 +294,7 @@ Construction Requirements
 
 **Cost** 22,215 gp
 
-Craft Magic Arms and Armor, _ [polymorph](spells/polymorph.md#_polymorph), resist fire_
+Craft Magic Arms and Armor, _ [polymorph](spells/polymorph#_polymorph), resist fire_
 
 Invincible Armor
 
@@ -306,13 +306,13 @@ Construction Requirements
 
 **Cost** 69,650 gp
 
-Craft Magic Arms and Armor, _ [fabricate](spells/fabricate.md#_fabricate)_, _ [make whole](spells/makeWhole.md#_make-whole)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_, and _ [limited wish](spells/limitedWish.md#_limited-wish) _or _ [miracle](spells/miracle.md#_miracle)_
+Craft Magic Arms and Armor, _ [fabricate](spells/fabricate#_fabricate)_, _ [make whole](spells/makeWhole#_make-whole)_, _ [resist energy](spells/resistEnergy#_resist-energy)_, and _ [limited wish](spells/limitedWish#_limited-wish) _or _ [miracle](spells/miracle#_miracle)_
 
 Mail of Malevolence
 
 **Price** 61,300 gp; **Aura** moderate abjuration; **CL** 10th; **Weight** 40 lbs.
 
-_Mail of malevolence_ hangs in rags and tatters and acts as nonmagical chainmail to wearers who lack at least a moderate evil aura (_Core Rulebook_ 266). When worn by a sufficiently evil character, it instead functions as _+2 [unrighteous](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_unrighteous) chainmail_. _Mail of malevolence_ does not bestow a negative level on good wearers.
+_Mail of malevolence_ hangs in rags and tatters and acts as nonmagical chainmail to wearers who lack at least a moderate evil aura (_Core Rulebook_ 266). When worn by a sufficiently evil character, it instead functions as _+2 [unrighteous](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_unrighteous) chainmail_. _Mail of malevolence_ does not bestow a negative level on good wearers.
 
 The wearer of _mail of malevolence_ gains SR 21, but only against spells with the good descriptor. In addition, whenever the wearer channels negative energy to harm living creatures, she heals a like amount of damage herself regardless of whether she is living or undead.
 
@@ -320,7 +320,7 @@ Construction Requirements
 
 **Cost** 30,800 gp
 
-Craft Magic Arms and Armor, _ [righteous might](spells/righteousMight.md#_righteous-might)_, _ [spell resistance](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_spell-resistance)_
+Craft Magic Arms and Armor, _ [righteous might](spells/righteousMight#_righteous-might)_, _ [spell resistance](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_spell-resistance)_
 
 Mistmail
 
@@ -332,19 +332,19 @@ Construction Requirements
 
 **Cost** 1,250 gp
 
-Craft Magic Arms and Armor, _ [obscuring mist](spells/obscuringMist.md#_obscuring-mist)_
+Craft Magic Arms and Armor, _ [obscuring mist](spells/obscuringMist#_obscuring-mist)_
 
 Mithral full plate of speed
 
 **Price** 26,500 gp; **Aura** faint transmutation; **CL** 5th; **Weight** 25 lbs.
 
-As a free action, the wearer of this fine set of _+1 mithral full plate_ can activate it, enabling him to act as though affected by a _ [haste](spells/haste.md#_haste)_ spell for up to 10 rounds each day. The duration of the _ [haste](spells/haste.md#_haste)_ effect need not be consecutive rounds. The armor has an arcane spell failure chance of 25%, a maximum Dexterity bonus of +3, and an armor check penalty of –3. It is considered medium armor, except that you must be proficient in heavy armor to avoid taking nonproficiency penalties.
+As a free action, the wearer of this fine set of _+1 mithral full plate_ can activate it, enabling him to act as though affected by a _ [haste](spells/haste#_haste)_ spell for up to 10 rounds each day. The duration of the _ [haste](spells/haste#_haste)_ effect need not be consecutive rounds. The armor has an arcane spell failure chance of 25%, a maximum Dexterity bonus of +3, and an armor check penalty of –3. It is considered medium armor, except that you must be proficient in heavy armor to avoid taking nonproficiency penalties.
 
 Construction Requirements
 
 **Cost** 18,500 gp
 
-Craft Magic Arms and Armor, _ [haste](spells/haste.md#_haste)_
+Craft Magic Arms and Armor, _ [haste](spells/haste#_haste)_
 
 Mithral Shirt
 
@@ -356,25 +356,25 @@ Morlock Hide
 
 **Price** 8,910 gp; **Aura** moderate illusion and transmutation; **CL** 10th; **Weight** 15 lbs.
 
-This _+1 [shadow](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_shadow) leather armor _causes the wearer's skin to warp and distort into a welter of horrid scarification. The armor itself disappears from view under this coat of scars and the wearer's face appears as a loathsome, eyeless veil of flesh. This change is illusory, similar to _ [glamered](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_glamered) _armor; however, _morlock hide _does cause the wearer's arms and legs to extend and her posture to become hunched. She gains a +2 circumstance bonus on [Acrobatics](skills/acrobatics.md#_acrobatics), [Climb](skills/climb.md#_climb), and [Escape Artist](skills/escapeArtist.md#_escape-artist) checks, and she can move through narrow spaces while squeezing at normal speed and with no penalty to AC or on attack rolls.
+This _+1 [shadow](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_shadow) leather armor _causes the wearer's skin to warp and distort into a welter of horrid scarification. The armor itself disappears from view under this coat of scars and the wearer's face appears as a loathsome, eyeless veil of flesh. This change is illusory, similar to _ [glamered](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_glamered) _armor; however, _morlock hide _does cause the wearer's arms and legs to extend and her posture to become hunched. She gains a +2 circumstance bonus on [Acrobatics](skills/acrobatics#_acrobatics), [Climb](skills/climb#_climb), and [Escape Artist](skills/escapeArtist#_escape-artist) checks, and she can move through narrow spaces while squeezing at normal speed and with no penalty to AC or on attack rolls.
 
 Construction Requirements
 
 **Cost** 4,535 gp
 
-Craft Magic Arms and Armor, _ [alter self](spells/alterSelf.md#_alter-self), [invisibility](spells/invisibility.md#_invisibility)_
+Craft Magic Arms and Armor, _ [alter self](spells/alterSelf#_alter-self), [invisibility](spells/invisibility#_invisibility)_
 
 Murderer's Blackcloth
 
 **Price** 12,405 gp; **Aura** moderate necromancy; **CL** 9th; **Weight** 10 lbs.
 
-This silk _+1 [shadow](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_shadow) padded armor_ is as dark as night and stitched with thread the color of dried blood. When worn by a rogue with the bleed talent, it increases the bleed damage of the rogue's sneak attacks by +1.
+This silk _+1 [shadow](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_shadow) padded armor_ is as dark as night and stitched with thread the color of dried blood. When worn by a rogue with the bleed talent, it increases the bleed damage of the rogue's sneak attacks by +1.
 
 Construction Requirements
 
 **Cost** 6,280 gp
 
-Craft Magic Arms and Armor, _ [bleed](spells/bleed.md#_bleed)_, _ [invisibility](spells/invisibility.md#_invisibility)_, _ [silence](spells/silence.md#_silence)_
+Craft Magic Arms and Armor, _ [bleed](spells/bleed#_bleed)_, _ [invisibility](spells/invisibility#_invisibility)_, _ [silence](spells/silence#_silence)_
 
 Otyugh Hide
 
@@ -390,25 +390,25 @@ Construction Requirements
 
 **Cost** 1,365 gp
 
-Craft Magic Arms and Armor, _ [contagion](spells/contagion.md#_contagion), [stinking cloud](spells/stinkingCloud.md#_stinking-cloud)_
+Craft Magic Arms and Armor, _ [contagion](spells/contagion#_contagion), [stinking cloud](spells/stinkingCloud#_stinking-cloud)_
 
 Plate Armor of the Deep
 
 **Price** 24,650 gp; **Aura** moderate abjuration; **CL** 11th; **Weight** 50 lbs.
 
-This _+1 full plate_ is decorated with a wave and fish motif and often has tiny fins and scales worked into the design. Although the armor remains as heavy and bulky as normal full plate, the wearer of _plate armor of the deep_ is treated as unarmored for purposes of [Swim](skills/swim.md#_swim) checks. The wearer can breathe underwater and can converse with any water-breathing creature with a language.
+This _+1 full plate_ is decorated with a wave and fish motif and often has tiny fins and scales worked into the design. Although the armor remains as heavy and bulky as normal full plate, the wearer of _plate armor of the deep_ is treated as unarmored for purposes of [Swim](skills/swim#_swim) checks. The wearer can breathe underwater and can converse with any water-breathing creature with a language.
 
 Construction Requirements
 
 **Cost** 13,150 gp
 
-Craft Magic Arms and Armor, _ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_, _ [tongues](spells/tongues.md#_tongues)_, _ [water breathing](spells/waterBreathing.md#_water-breathing)_
+Craft Magic Arms and Armor, _ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_, _ [tongues](spells/tongues#_tongues)_, _ [water breathing](spells/waterBreathing#_water-breathing)_
 
 Prismatic Plate
 
 **Price** 160,650 gp; **Aura** strong abjuration; **CL** 13th; **Weight** 50 lbs.
 
-This resplendent suit of _+3 full plate_ shimmers and shifts between all the colors of the rainbow. A single color dominates the others at any given time. As a swift action, the wearer can change the dominant color. This color remains dominant until the wearer changes it again. When the wearer of _prismatic plate_ is struck by a _ [prismatic spray](spells/prismaticSpray.md#_prismatic-spray),_ or when he passes through a _ [prismatic sphere](spells/prismaticSphere.md#_prismatic-sphere)_ or _ [prismatic wall](spells/prismaticWall.md#_prismatic-wall)_, he ignores the effect that matches the dominant armor color. He receives no special protection against the other colors of those spells. In addition to this benefit, each color provides a unique type of protection.
+This resplendent suit of _+3 full plate_ shimmers and shifts between all the colors of the rainbow. A single color dominates the others at any given time. As a swift action, the wearer can change the dominant color. This color remains dominant until the wearer changes it again. When the wearer of _prismatic plate_ is struck by a _ [prismatic spray](spells/prismaticSpray#_prismatic-spray),_ or when he passes through a _ [prismatic sphere](spells/prismaticSphere#_prismatic-sphere)_ or _ [prismatic wall](spells/prismaticWall#_prismatic-wall)_, he ignores the effect that matches the dominant armor color. He receives no special protection against the other colors of those spells. In addition to this benefit, each color provides a unique type of protection.
 
 | Color | Effect |
 | --- | --- |
@@ -418,13 +418,13 @@ This resplendent suit of _+3 full plate_ shimmers and shifts between all the col
 | Green | Immunity to poison |
 | Blue | Immunity to petrification |
 | Indigo | +8 resistance bonus on saving throws against mind-affecting effects |
-| Violet | Protected by _ [dimensional anchor](spells/dimensionalAnchor.md#_dimensional)_, as the spell |
+| Violet | Protected by _ [dimensional anchor](spells/dimensionalAnchor#_dimensional)_, as the spell |
 
 Construction Requirements
 
 **Cost** 81,150 gp
 
-Craft Magic Arms and Armor, _ [dimensional anchor](spells/dimensionalAnchor.md#_dimensional)_, _ [mind blank](spells/mindBlank.md#_mind-blank)_, _ [neutralize poison](spells/neutralizePoison.md#_neutralize-poison)_, _ [resist energy](spells/resistEnergy.md#_resist-energy)_, _ [stone to flesh](spells/stoneToFlesh.md#_stone-to-flesh)_, and _ [prismatic sphere](spells/prismaticSphere.md#_prismatic-sphere)_, _ [prismatic spray](spells/prismaticSpray.md#_prismatic-spray)_, or _ [prismatic wall](spells/prismaticWall.md#_prismatic-wall)_
+Craft Magic Arms and Armor, _ [dimensional anchor](spells/dimensionalAnchor#_dimensional)_, _ [mind blank](spells/mindBlank#_mind-blank)_, _ [neutralize poison](spells/neutralizePoison#_neutralize-poison)_, _ [resist energy](spells/resistEnergy#_resist-energy)_, _ [stone to flesh](spells/stoneToFlesh#_stone-to-flesh)_, and _ [prismatic sphere](spells/prismaticSphere#_prismatic-sphere)_, _ [prismatic spray](spells/prismaticSpray#_prismatic-spray)_, or _ [prismatic wall](spells/prismaticWall#_prismatic-wall)_
 
 Rhino Hide
 
@@ -436,7 +436,7 @@ Construction Requirements
 
 **Cost** 2,665 gp
 
-Craft Magic Arms and Armor, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_
+Craft Magic Arms and Armor, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_
 
 Scarab Breastplate
 
@@ -446,13 +446,13 @@ This _+3 breastplate _is crafted from the carapace of a giant scarab beetle, enc
 
 In addition, once per day on command, the wearer can transform the _scarab breastplate _into a swarm of scarab beetles that skitter from her chest to attack creatures nearby. This swarm has statistics identical to an army ant swarm and attacks any creatures within its space. The wearer can command the swarm to move (including changing the shape of the swarm) as a move action, but the swarm must remain adjacent to her. If the swarm is reduced to 0 hit points, if the wearer is forced to move away from the swarm, or if the wearer commands it to return to her as a move action, the swarm crawls back onto the wearer's torso and returns to armor form. While the swarm is active, the wearer is not considered to be wearing the _scarab breastplate_ (except for purposes of commanding the swarm) and gains no defensive benefits from it.
 
-A druid of 6th level wearing a _scarab breastplate _can use her wild shape ability to duplicate _ [vermin shape I](ultimateMagic/spells/verminShape.md#_vermin-shape-i-)_. At 8th level, she can also use it to duplicate _ [vermin shape II](ultimateMagic/spells/verminShape.md#_vermin-shape-ii)_.
+A druid of 6th level wearing a _scarab breastplate _can use her wild shape ability to duplicate _ [vermin shape I](ultimateMagic/spells/verminShape#_vermin-shape-i-)_. At 8th level, she can also use it to duplicate _ [vermin shape II](ultimateMagic/spells/verminShape#_vermin-shape-ii)_.
 
 Construction Requirements
 
 **Cost** 16,350 gp
 
-Craft Magic Arms and Armor, _ [creeping doom](spells/creepingDoom.md#_creeping-doom), [spell turning](spells/spellTurning.md#_spell-turning), [vermin shape II](ultimateMagic/spells/verminShape.md#_vermin-shape-ii)_
+Craft Magic Arms and Armor, _ [creeping doom](spells/creepingDoom#_creeping-doom), [spell turning](spells/spellTurning#_spell-turning), [vermin shape II](ultimateMagic/spells/verminShape#_vermin-shape-ii)_
 
 Soothsayer's Raiment
 
@@ -460,13 +460,13 @@ Soothsayer's Raiment
 
 This _+1 chainmail_ is attuned to a particular oracular mystery and contains a revelation associated with that mystery (see the oracle class description in the _Advanced Player's Guide_). Its design and coloration are typically suggestive of its related mystery. While wearing the armor, an oracle has access to that revelation and may use it as if she had it as a normal class feature. The oracle must have the appropriate mystery to use the armor; for example, a _soothsayer's raiment (battlecry)_ is only usable by an oracle of battle. If the wearer already has that revelation and the revelation grants an ability with a limited number of uses per day, the oracle can use that ability one additional time per day. This ability has no effect if the armor is worn by a non-oracle.
 
-For divination spells with a percentage-based chance of success (such as _ [augury](spells/augury.md#_augury)_ and _ [divination](spells/divination.md#_divination)_), the wearer's chance increases by +5.
+For divination spells with a percentage-based chance of success (such as _ [augury](spells/augury#_augury)_ and _ [divination](spells/divination#_divination)_), the wearer's chance increases by +5.
 
 Construction Requirements
 
 **Cost** 5,300 gp
 
-Craft Magic Arms and Armor, _ [augury](spells/augury.md#_augury)_, creator must be an oracle with the desired revelation
+Craft Magic Arms and Armor, _ [augury](spells/augury#_augury)_, creator must be an oracle with the desired revelation
 
 Warden of the Woods
 
@@ -474,7 +474,7 @@ Warden of the Woods
 
 The _warden of the woods_ is a suit of _+3 greenwood splint mail_ made of strips of laminated greenwood that flex with the wearer's movement but stiffen when struck in battle. This armor is treated in all ways like medium armor, including when determining proficiency. The armor has an arcane spell failure chance of 25%, a maximum Dexterity bonus of +2, and an armor check penalty of –4.
 
-As a move action, the wearer can snap a strip of wood loose from the armor. The strip lengthens into a weapon of a type chosen by the armor's wearer. It can become a _+1 greenwood club_, a _+1/+1 greenwood quarterstaff_, or a _+1 [keen](magicItems/weapons.md#_weapons-keen) greenwood wooden stake_. If the wearer creates a club or quarterstaff in this way, it gains the benefits of the _ [shillelagh](spells/shillelagh.md#_shillelagh)_ spell with a duration of 1 minute. Each weapon removed from the _warden of the woods_ reduces the armor's enhancement bonus by 1. Consequently, a maximum of three such weapons can be separated from the armor at any given time. The greenwood weapons keep their enhancement bonuses only while they're in the wearer's hands, though they remain masterwork weapons for other wielders.
+As a move action, the wearer can snap a strip of wood loose from the armor. The strip lengthens into a weapon of a type chosen by the armor's wearer. It can become a _+1 greenwood club_, a _+1/+1 greenwood quarterstaff_, or a _+1 [keen](magicItems/weapons#_weapons-keen) greenwood wooden stake_. If the wearer creates a club or quarterstaff in this way, it gains the benefits of the _ [shillelagh](spells/shillelagh#_shillelagh)_ spell with a duration of 1 minute. Each weapon removed from the _warden of the woods_ reduces the armor's enhancement bonus by 1. Consequently, a maximum of three such weapons can be separated from the armor at any given time. The greenwood weapons keep their enhancement bonuses only while they're in the wearer's hands, though they remain masterwork weapons for other wielders.
 
 The wearer can reintegrate a weapon back into the _warden of the woods_ as a move action and restore the lost enhancement bonus. Each day at dawn, the armor regenerates any missing strips (regaining its full enhancement bonus), and any weapons still detached from the armor crumble into dust.
 
@@ -482,7 +482,7 @@ Construction Requirements
 
 **Cost** 14,850 gp
 
-Craft Magic Arms and Armor, _ [ironwood](spells/ironwood.md#_ironwood)_, _ [shillelagh](spells/shillelagh.md#_shillelagh)_, _ [wood shape](spells/woodShape.md#_wood-shape)_
+Craft Magic Arms and Armor, _ [ironwood](spells/ironwood#_ironwood)_, _ [shillelagh](spells/shillelagh#_shillelagh)_, _ [wood shape](spells/woodShape#_wood-shape)_
 
 # Specific Magic Shields
 
@@ -542,19 +542,19 @@ Construction Requirements
 
 **Cost** 25,170 gp
 
-Craft Magic Arms and Armor, _ [disintegrate](spells/disintegrate.md#_disintegrate)_
+Craft Magic Arms and Armor, _ [disintegrate](spells/disintegrate#_disintegrate)_
 
 Avalanche Shield
 
 **Price** 19,170 gp; **Aura** strong evocation; **CL** 12th; **Weight** 10 lbs.
 
-The front of this _+1 [bashing](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_bashing) heavy steel shield_ looks as though it is crafted from hundreds of bits of rubble and larger stones. When used to make a shield bash attack, stones fall from shield and cling to the target of the shield bash. The target must succeed at a DC 14 Fortitude saving throw or be entangled for 1d4 rounds. Once per day on command, the target's wielder can choose to petrify the target of a shield bash instead. The target must succeed at a DC 16 Fortitude saving throw or become petrified for 1 minute.
+The front of this _+1 [bashing](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_bashing) heavy steel shield_ looks as though it is crafted from hundreds of bits of rubble and larger stones. When used to make a shield bash attack, stones fall from shield and cling to the target of the shield bash. The target must succeed at a DC 14 Fortitude saving throw or be entangled for 1d4 rounds. Once per day on command, the target's wielder can choose to petrify the target of a shield bash instead. The target must succeed at a DC 16 Fortitude saving throw or become petrified for 1 minute.
 
 Construction Requirements
 
 **Cost** 9,670 gp
 
-Craft Magic Arms and Armor, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _shape stone_,_ [flesh to stone](spells/fleshToStone.md#_flesh-to-stone)_
+Craft Magic Arms and Armor, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _shape stone_,_ [flesh to stone](spells/fleshToStone#_flesh-to-stone)_
 
 Battlement Shield
 
@@ -566,25 +566,25 @@ Construction Requirements
 
 **Cost** 8,180 gp
 
-Craft Magic Arms and Armor, _ [wall of stone](spells/wallOfStone.md#_wall-of-stone)_
+Craft Magic Arms and Armor, _ [wall of stone](spells/wallOfStone#_wall-of-stone)_
 
 Belligerent Shield
 
 **Price** 36,170 gp; **Aura** strong transmutation; **CL** 12th; **Weight** 15 lbs.
 
-This _+1 [animated](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_animated) [bashing](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_bashing) heavy steel shield_ rattles in anticipation during battle. When loosed into the air to defend its wearer, the _belligerent shield _attacks as well as defends. Each round starting the round after animation, the shield makes a single shield bash attack against a foe of its wearer's choice within the wearer's reach. This works as a standard shield bash attack using the wearer's normal attack bonus with the shield, except that the wearer retains the shield bonus to AC, and while the shield's attack is treated as an off-hand attack, the wearer does not take off-hand penalties on her own attacks unless she is fighting with two weapons herself. If the wearer has any feats or abilities that benefit shield bashing attacks, they apply to attacks made by the _belligerent shield_.
+This _+1 [animated](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_animated) [bashing](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_bashing) heavy steel shield_ rattles in anticipation during battle. When loosed into the air to defend its wearer, the _belligerent shield _attacks as well as defends. Each round starting the round after animation, the shield makes a single shield bash attack against a foe of its wearer's choice within the wearer's reach. This works as a standard shield bash attack using the wearer's normal attack bonus with the shield, except that the wearer retains the shield bonus to AC, and while the shield's attack is treated as an off-hand attack, the wearer does not take off-hand penalties on her own attacks unless she is fighting with two weapons herself. If the wearer has any feats or abilities that benefit shield bashing attacks, they apply to attacks made by the _belligerent shield_.
 
 Construction Requirements
 
 **Cost** 18,170 gp
 
-Craft Magic Arms and Armor, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [animate objects](spells/animateObjects.md#_animate-objects)_
+Craft Magic Arms and Armor, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [animate objects](spells/animateObjects#_animate-objects)_
 
 Burglar's Buckler
 
 **Price** 4,655 gp; **Aura** faint transmutation; **CL** 5th; **Weight** 5 lbs.
 
-This unassuming +1 buckler has an array of small tools and implements embedded into the backside of its rim, able to be folded and snapped out for use at a moment's notice to attack, defend, or accomplish roguish tasks. A burglar's buckler grants the wielder a +2 competence bonus on [Disable Device](skills/disableDevice.md#_disable-device) and [Sleight of Hand](skills/sleightOfHand.md#_sleight-of-hand) checks, combat maneuver checks made to perform dirty tricks, and to CMD against dirty tricks.
+This unassuming +1 buckler has an array of small tools and implements embedded into the backside of its rim, able to be folded and snapped out for use at a moment's notice to attack, defend, or accomplish roguish tasks. A burglar's buckler grants the wielder a +2 competence bonus on [Disable Device](skills/disableDevice#_disable-device) and [Sleight of Hand](skills/sleightOfHand#_sleight-of-hand) checks, combat maneuver checks made to perform dirty tricks, and to CMD against dirty tricks.
 
 Once per day on command, the wielder may transform a _burglar's buckler _into any mundane tool weighing 1 to 5 pounds, such as a crowbar, hammer, saw, small shovel, grappling hook, artisan's tools, or thieves' tools. The _burglar's buckler _retains its normal hardness and hit points in this form and can be converted back into shield form on command.
 
@@ -592,7 +592,7 @@ Construction Requirements
 
 **Cost** 2,450 gp
 
-Craft Magic Arms and Armor, _ [major creation](spells/majorCreation.md#_major-creation)_
+Craft Magic Arms and Armor, _ [major creation](spells/majorCreation#_major-creation)_
 
 Caster's Shield
 
@@ -606,7 +606,7 @@ Construction Requirements
 
 **Cost** 1,653 gp
 
-Craft Magic Arms and Armor, [Scribe Scroll](feats.md#_scribe-scroll), creator must be at least 6th level
+Craft Magic Arms and Armor, [Scribe Scroll](feats#_scribe-scroll), creator must be at least 6th level
 
 Caster's Shield, Greater
 
@@ -618,19 +618,19 @@ Construction Requirements
 
 **Cost** 5,153 gp
 
-Craft Magic Arms and Armor, [Scribe Scroll](feats.md#_scribe-scroll)
+Craft Magic Arms and Armor, [Scribe Scroll](feats#_scribe-scroll)
 
 Celestial Shield
 
 **Price** 13,170 gp; **Aura** moderate evocation; **CL** 7th; **Weight** 7 lbs.
 
-This gold-edged _+2 [blinding](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_blinding) heavy steel shield_ is impossibly light and handy despite its size. It has no armor check penalty or arcane spell failure chance, and it allows the wielder to use _ [feather fall](spells/featherFall.md#_feather-fall)_ on himself once per day. A creature wearing _celestial armor_ while wielding a _celestial shield_ may command the armor to provide _ [overland flight](spells/overlandFlight.md#_overland-flight)_ rather than _ [fly](spells/fly.md)_ once per day.
+This gold-edged _+2 [blinding](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_blinding) heavy steel shield_ is impossibly light and handy despite its size. It has no armor check penalty or arcane spell failure chance, and it allows the wielder to use _ [feather fall](spells/featherFall#_feather-fall)_ on himself once per day. A creature wearing _celestial armor_ while wielding a _celestial shield_ may command the armor to provide _ [overland flight](spells/overlandFlight#_overland-flight)_ rather than _ [fly](spells/fly)_ once per day.
 
 Construction Requirements
 
 **Cost** 6,670 gp
 
-Craft Magic Arms and Armor, _ [feather fall](spells/featherFall.md#_feather-fall)_, _ [overland flight](spells/overlandFlight.md#_overland-flight)_
+Craft Magic Arms and Armor, _ [feather fall](spells/featherFall#_feather-fall)_, _ [overland flight](spells/overlandFlight#_overland-flight)_
 
 Collapsible Tower
 
@@ -642,7 +642,7 @@ Construction Requirements
 
 **Cost** 4,170 gp
 
-Craft Magic Arms and Armor, _ [shrink item](spells/shrinkItem.md#_shrink-item)_
+Craft Magic Arms and Armor, _ [shrink item](spells/shrinkItem#_shrink-item)_
 
 Darkwood Buckler
 
@@ -666,31 +666,31 @@ Construction Requirements
 
 **Cost** 3,670 gp
 
-Craft Magic Arms and Armor, _ [remove fear](spells/removeFear.md#_remove-fear)_, _ [shield of faith](spells/shieldOfFaith.md#_shield-of-faith)_
+Craft Magic Arms and Armor, _ [remove fear](spells/removeFear#_remove-fear)_, _ [shield of faith](spells/shieldOfFaith#_shield-of-faith)_
 
 Elysian Shield
 
 **Price** 52,620 gp; **Aura** strong conjuration; **CL** 13th; **Weight** 45 lbs.
 
-This _+2 [ghost-touch](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_ghost-touch) tower shield_ is engraved with funerary runes depicting the peaceful rest of the contented dead. The wielder of an _elysian shield_ is immune to the create spawn ability of undead, and once per day as an immediate action can negate a single energy drain, ability drain, or ability damage attack by an undead creature. In addition, once per day as a standard action, the wielder can release a wave of positive energy that panics undead, as the [Turn Undead](feats.md#_turn-undead) feat (Will DC 20 negates).
+This _+2 [ghost-touch](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_ghost-touch) tower shield_ is engraved with funerary runes depicting the peaceful rest of the contented dead. The wielder of an _elysian shield_ is immune to the create spawn ability of undead, and once per day as an immediate action can negate a single energy drain, ability drain, or ability damage attack by an undead creature. In addition, once per day as a standard action, the wielder can release a wave of positive energy that panics undead, as the [Turn Undead](feats#_turn-undead) feat (Will DC 20 negates).
 
 Construction Requirements
 
 **Cost** 26,390 gp
 
-Craft Magic Arms and Armor, [Turn Undead](feats.md#_turn-undead), _ [death ward](spells/deathWard.md#_death-ward)_, _ [etherealness](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_etherealness)_
+Craft Magic Arms and Armor, [Turn Undead](feats#_turn-undead), _ [death ward](spells/deathWard#_death-ward)_, _ [etherealness](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_etherealness)_
 
 Force Tower
 
 **Price** 46,030 gp; **Aura** moderate evocation; **CL** 7th; **Weight** 22 lbs.
 
-This _+1 [arrow deflection](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_arrow-deflection) [ghost-touch](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_ghost-touch) mithral tower shield _glows with a perpetual bluish radiance. Infused with magical force, a _force tower _renders its wielder immune to _magic missiles _and also allows its wielder to use its _ [arrow deflection](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_arrow-deflection) _special ability to deflect magical rays and ranged touch attacks. The Reflex save DC to deflect such attacks is equal to 20 + the level of the spell (or 1/2 the class level or Hit Dice of the creature that created the effect, if a supernatural effect). If a spell or effect creates multiple rays or attacks, the _force tower _deflects only one of them per round.
+This _+1 [arrow deflection](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_arrow-deflection) [ghost-touch](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_ghost-touch) mithral tower shield _glows with a perpetual bluish radiance. Infused with magical force, a _force tower _renders its wielder immune to _magic missiles _and also allows its wielder to use its _ [arrow deflection](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_arrow-deflection) _special ability to deflect magical rays and ranged touch attacks. The Reflex save DC to deflect such attacks is equal to 20 + the level of the spell (or 1/2 the class level or Hit Dice of the creature that created the effect, if a supernatural effect). If a spell or effect creates multiple rays or attacks, the _force tower _deflects only one of them per round.
 
 Construction Requirements
 
 **Cost** 23,530 gp
 
-Craft Magic Arms and Armor, _ [etherealness](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_etherealness), [resilient sphere](spells/resilientSphere.md#_resilient-sphere), shield_
+Craft Magic Arms and Armor, _ [etherealness](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_etherealness), [resilient sphere](spells/resilientSphere#_resilient-sphere), shield_
 
 Fortress Shield
 
@@ -702,7 +702,7 @@ Construction Requirements
 
 **Cost** 9,680 gp
 
-Craft Magic Arms and Armor, _ [wall of iron](spells/wallOfIron.md#_wall-of-iron)_
+Craft Magic Arms and Armor, _ [wall of iron](spells/wallOfIron#_wall-of-iron)_
 
 Lion's Shield
 
@@ -714,7 +714,7 @@ Construction Requirements
 
 **Cost** 4,670 gp
 
-Craft Magic Arms and Armor, _ [summon nature's ally IV](spells/summonNatureSAlly.md#_summon-nature-s-ally-iv)_
+Craft Magic Arms and Armor, _ [summon nature's ally IV](spells/summonNatureSAlly#_summon-nature-s-ally-iv)_
 
 Living Steel Heavy Shield
 
@@ -726,13 +726,13 @@ Maelstrom Shield
 
 **Price** 14,170 gp; **Aura** faint evocation; **CL** 5th; **Weight** 10 lbs.
 
-The device of this _+1 [bashing](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_bashing) heavy steel shield _features a magical image of the trackless seas, complete with rolling waves and crashing whitecaps. When used to make a shield bash attack, the shield's wielder can make a trip attack as a free action against the same target without provoking an attack of opportunity from the creature being tripped. On command, the wielder can make the shield produce a gallon of fresh drinkable water. Once per day on command, the wielder can use the _maelstrom shield _to emit a stream of water as the _ [hydraulic push](advanced/spells/hydraulicPush.md#_hydraulic-push-)_ spell.
+The device of this _+1 [bashing](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_bashing) heavy steel shield _features a magical image of the trackless seas, complete with rolling waves and crashing whitecaps. When used to make a shield bash attack, the shield's wielder can make a trip attack as a free action against the same target without provoking an attack of opportunity from the creature being tripped. On command, the wielder can make the shield produce a gallon of fresh drinkable water. Once per day on command, the wielder can use the _maelstrom shield _to emit a stream of water as the _ [hydraulic push](advanced/spells/hydraulicPush#_hydraulic-push-)_ spell.
 
 Construction Requirements
 
 **Cost** 7,170 gp
 
-Craft Magic Arms and Armor, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [control water](spells/controlWater.md#_control-water)_, _ [hydraulic push](advanced/spells/hydraulicPush.md#_hydraulic-push-)_
+Craft Magic Arms and Armor, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [control water](spells/controlWater#_control-water)_, _ [hydraulic push](advanced/spells/hydraulicPush#_hydraulic-push-)_
 
 Mithral Heavy Shield
 
@@ -744,7 +744,7 @@ Quick Block Buckler
 
 **Price** 36,155 gp; **Aura** strong abjuration; **CL** 14th; **Weight** 15 lbs.
 
-Once per round as an immediate action, this _+3 [arrow deflection](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_arrow-deflection) buckler_ can be used to block an incoming melee attack. When used in this way, the buckler's enhancement bonus increases by +2 against that attack. The buckler's user must decide to use this ability before the attack roll is made. When the shield's user blocks a melee attack in this way, it cannot use its _ [arrow deflection](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_arrow-deflection)_ special ability for 1 round.
+Once per round as an immediate action, this _+3 [arrow deflection](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_arrow-deflection) buckler_ can be used to block an incoming melee attack. When used in this way, the buckler's enhancement bonus increases by +2 against that attack. The buckler's user must decide to use this ability before the attack roll is made. When the shield's user blocks a melee attack in this way, it cannot use its _ [arrow deflection](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_arrow-deflection)_ special ability for 1 round.
 
 Construction Requirements
 
@@ -756,13 +756,13 @@ Spell Ward Tower Shield
 
 **Price** 25,180 gp; **Aura** strong abjuration; **CL** 15th; **Weight** 15 lbs.
 
-This _+2 [spell resistance](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_spell-resistance) (13) tower shield_ grants a +4 resistance bonus on Reflex saving throws against spells and spell-like abilities. Once per day, when the wearer succeeds at a saving throw against a spell or spell-like ability that allows a Reflex saving throw for half damage, she may spend an immediate action to instead take no damage from that spell or spell-like ability.
+This _+2 [spell resistance](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_spell-resistance) (13) tower shield_ grants a +4 resistance bonus on Reflex saving throws against spells and spell-like abilities. Once per day, when the wearer succeeds at a saving throw against a spell or spell-like ability that allows a Reflex saving throw for half damage, she may spend an immediate action to instead take no damage from that spell or spell-like ability.
 
 Construction Requirements
 
 **Cost** 12,680 gp
 
-Craft Magic Arms and Armor, _ [cat's grace](spells/catSGrace.md#_cat-s-grace)_, _ [spell resistance](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_spell-resistance)_
+Craft Magic Arms and Armor, _ [cat's grace](spells/catSGrace#_cat-s-grace)_, _ [spell resistance](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_spell-resistance)_
 
 Spined Shield
 
@@ -774,43 +774,43 @@ Construction Requirements
 
 **Cost** 2,875 gp
 
-Craft Magic Arms and Armor, _ [magic missile](spells/magicMissile.md#_magic-missile)_
+Craft Magic Arms and Armor, _ [magic missile](spells/magicMissile#_magic-missile)_
 
 Tempest Shield
 
 **Price** 15,170 gp; **Aura** moderate evocation; **CL** 6th; **Weight** 10 lbs.
 
-The face of this _+1 [bashing](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_bashing) heavy steel shield_ swirls with the image of swirling clouds, driving rain, or falling snow. When used to make a shield bash attack, the shield's wielder can make a bull rush maneuver as a free action against her target without provoking an attack of opportunity from the creature being bull rushed. Once per day on command, the wielder can cause the _tempest shield_ to emit a stream of high-powered air as the _ [gust of wind](spells/gustOfWind.md#_gust-of-wind)_ spell.
+The face of this _+1 [bashing](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_bashing) heavy steel shield_ swirls with the image of swirling clouds, driving rain, or falling snow. When used to make a shield bash attack, the shield's wielder can make a bull rush maneuver as a free action against her target without provoking an attack of opportunity from the creature being bull rushed. Once per day on command, the wielder can cause the _tempest shield_ to emit a stream of high-powered air as the _ [gust of wind](spells/gustOfWind#_gust-of-wind)_ spell.
 
 Construction Requirements
 
 **Cost** 8,170 gp
 
-Craft Magic Arms and Armor, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength)_, _ [gust of wind](spells/gustOfWind.md#_gust-of-wind)_
+Craft Magic Arms and Armor, _ [bull's strength](spells/bullSStrength#_bull-s-strength)_, _ [gust of wind](spells/gustOfWind#_gust-of-wind)_
 
 Volcanic Shield
 
 **Price** 14,170 gp; **Aura** faint evocation; **CL** 5th; **Weight** 10 lbs.
 
-This _+1 [bashing](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities.md#_bashing) heavy steel shield _burns with an internal fire upon its boss, gaining the _flaming _weapon special ability when used to make shield bash attacks. On command, the wielder can make the shield belch forth smoke as a smokestick, but this smoke does not impair the shield user's vision. Once per day, the wielder may cause the _volcanic shield _to erupt in a cascade of brimstone as the _flaming hands _spell.
+This _+1 [bashing](ultimateEquipment/magicArmsAndArmor/armorSpecialAbilities#_bashing) heavy steel shield _burns with an internal fire upon its boss, gaining the _flaming _weapon special ability when used to make shield bash attacks. On command, the wielder can make the shield belch forth smoke as a smokestick, but this smoke does not impair the shield user's vision. Once per day, the wielder may cause the _volcanic shield _to erupt in a cascade of brimstone as the _flaming hands _spell.
 
 Construction Requirements
 
 **Cost** 7,170 gp
 
-Craft Magic Arms and Armor, _ [bull's strength](spells/bullSStrength.md#_bull-s-strength), [burning hands](spells/burningHands.md#_burning-hands), [pyrotechnics](spells/pyrotechnics.md#_pyrotechnics)_
+Craft Magic Arms and Armor, _ [bull's strength](spells/bullSStrength#_bull-s-strength), [burning hands](spells/burningHands#_burning-hands), [pyrotechnics](spells/pyrotechnics#_pyrotechnics)_
 
 Winged Shield
 
 **Price** 17,257 gp; **Aura** faint transmutation; **CL** 5th; **Weight** 10 lbs.
 
-This heavy wooden shield has a +3 enhancement bonus. Arching bird wings are carved into the face of the shield. Once per day, it can be commanded to _ [fly](spells/fly.md)_ (as the spell), carrying the wielder. The shield can carry up to 133 pounds and move at 60 feet per round, or up to 266 pounds and move at 40 feet per round.
+This heavy wooden shield has a +3 enhancement bonus. Arching bird wings are carved into the face of the shield. Once per day, it can be commanded to _ [fly](spells/fly)_ (as the spell), carrying the wielder. The shield can carry up to 133 pounds and move at 60 feet per round, or up to 266 pounds and move at 40 feet per round.
 
 Construction Requirements
 
 **Cost** 8,707 gp
 
-Craft Magic Arms and Armor, _ [fly](spells/fly.md)_
+Craft Magic Arms and Armor, _ [fly](spells/fly)_
 
 Wyrmslayer's Shield
 
@@ -822,17 +822,17 @@ Construction Requirements
 
 **Cost** 10,170 gp
 
-Craft Magic Arms and Armor, _ [remove fear](spells/removeFear.md#_remove-fear)_, _ [shield of faith](spells/shieldOfFaith.md#_shield-of-faith)_
+Craft Magic Arms and Armor, _ [remove fear](spells/removeFear#_remove-fear)_, _ [shield of faith](spells/shieldOfFaith#_shield-of-faith)_
 
 Zombie Skin Shield
 
 **Price** 2,159 gp; **Aura** moderate abjuration; **CL** 5th; **Weight** 15 lbs.
 
-This _+1 light steel shield_ is wrapped in a layer of gray skin. Once per day, the wearer can animate the skin as a human zombie under her control, as if she had created it with _ [animate dead](spells/animateDead.md#_animate-dead)_, for a period of 5 minutes. When the time expires, the zombie returns to the shield. If the zombie is destroyed or cannot reach the shield by the time it expires, placing the shield on a Medium humanoid corpse for 1 hour recreates the shield's skin.
+This _+1 light steel shield_ is wrapped in a layer of gray skin. Once per day, the wearer can animate the skin as a human zombie under her control, as if she had created it with _ [animate dead](spells/animateDead#_animate-dead)_, for a period of 5 minutes. When the time expires, the zombie returns to the shield. If the zombie is destroyed or cannot reach the shield by the time it expires, placing the shield on a Medium humanoid corpse for 1 hour recreates the shield's skin.
 
 Construction Requirements
 
 **Cost** 1,159 gp
 
-Craft Magic Arms and Armor, _ [animate dead](spells/animateDead.md#_animate-dead)_
+Craft Magic Arms and Armor, _ [animate dead](spells/animateDead#_animate-dead)_
 

@@ -40,43 +40,43 @@ Whenever the paladin channels positive energy or uses lay on hands to heal a cre
 
 **Code of Conduct** : Hunt aberrations and do not allow them to roam freely or harm others. Destroy them if you can, or banish them if you cannot.
 
-**Oath Spells** : 1st—_ [true strike](spells/trueStrike.md#_true-strike)_; 2nd—_ [acute senses](ultimateMagic/spells/acuteSenses.md#_acute-senses)_; 3rd—_ [touch of idiocy](spells/touchOfIdiocy.md#_touch-of-idiocy)_; 4th—_ [spell immunity](spells/spellImmunity.md#_spell-immunity)_.
+**Oath Spells** : 1st—_ [true strike](spells/trueStrike#_true-strike)_; 2nd—_ [acute senses](ultimateMagic/spells/acuteSenses#_acute-senses)_; 3rd—_ [touch of idiocy](spells/touchOfIdiocy#_touch-of-idiocy)_; 4th—_ [spell immunity](spells/spellImmunity#_spell-immunity)_.
 
 ## Oath against Fiends
 
 A paladin who takes an oath against demons, devils, daemons, and other evil outsiders is constantly on the lookout for malicious fiendish insurgence into the world, and faces it with swift and unwavering defiance. Often she works closely with inquisitors, searching for signs of outsider manipulation and possession.
 
-**Anchoring Aura (Su)** : At 8th level, a paladin's aura hampers extradimensional travel by evil outsiders. The aura extends 20 feet from the paladin. Evil outsiders attempting to use abilities such as _ [dimension door](spells/dimensionDoor.md#_dimension-door)_, _ [plane shift](spells/planeShift.md#_plane-shift)_, or _ [teleport](spells/teleport.md#_teleport)_ to leave or enter the aura must succeed at a Will save (DC 10 + 1/2 the paladin's level + the paladin's Charisma modifier); failure means the ability does not function, as if the outsider were affected by _ [dimensional anchor](spells/dimensionalAnchor.md#_dimensional)_. The aura functions only while the paladin is conscious, not if she is unconscious or dead.
+**Anchoring Aura (Su)** : At 8th level, a paladin's aura hampers extradimensional travel by evil outsiders. The aura extends 20 feet from the paladin. Evil outsiders attempting to use abilities such as _ [dimension door](spells/dimensionDoor#_dimension-door)_, _ [plane shift](spells/planeShift#_plane-shift)_, or _ [teleport](spells/teleport#_teleport)_ to leave or enter the aura must succeed at a Will save (DC 10 + 1/2 the paladin's level + the paladin's Charisma modifier); failure means the ability does not function, as if the outsider were affected by _ [dimensional anchor](spells/dimensionalAnchor#_dimensional)_. The aura functions only while the paladin is conscious, not if she is unconscious or dead.
 
-Alternatively, as an immediate action, the paladin can expend one use of her smite evil ability to target an evil outsider within 30 feet with _ [dimensional anchor](spells/dimensionalAnchor.md#_dimensional)_. A targeted _ [dimensional anchor](spells/dimensionalAnchor.md#_dimensional)_ persists even if the paladin is unconscious or dead.
+Alternatively, as an immediate action, the paladin can expend one use of her smite evil ability to target an evil outsider within 30 feet with _ [dimensional anchor](spells/dimensionalAnchor#_dimensional)_. A targeted _ [dimensional anchor](spells/dimensionalAnchor#_dimensional)_ persists even if the paladin is unconscious or dead.
 
 This ability replaces aura of resolve.
 
-**Holy Vessel (Su)** : At 9th level, a paladin whose divine bond is with a weapon can also use her divine bond to augment her armor or shield with enhancement bonuses, or add any of the following armor or shield properties: _ [bashing](magicItems/armor.md#_armor-bashing)_, _ [fortification](magicItems/armor.md#_armor-fortification)_, and _ [spell resistance](magicItems/armor.md#_armor-spell-resistance)_. Adding these properties consumes an amount of bonus equal to the property's cost (see the [armor special abilities](magicItems/armor.md#_table-15-4-armor-special-abilities) and [shield special abilities](magicItems/armor.md#_table-15-5-shield-special-abilities) tables). She can divide her bonuses from the divine bond ability among her weapon, armor, and shield as she sees fit. This ability has no effect for a paladin whose divine bond is with a mount. This ability replaces the mercy gained at 9th level.
+**Holy Vessel (Su)** : At 9th level, a paladin whose divine bond is with a weapon can also use her divine bond to augment her armor or shield with enhancement bonuses, or add any of the following armor or shield properties: _ [bashing](magicItems/armor#_armor-bashing)_, _ [fortification](magicItems/armor#_armor-fortification)_, and _ [spell resistance](magicItems/armor#_armor-spell-resistance)_. Adding these properties consumes an amount of bonus equal to the property's cost (see the [armor special abilities](magicItems/armor#_table-15-4-armor-special-abilities) and [shield special abilities](magicItems/armor#_table-15-5-shield-special-abilities) tables). She can divide her bonuses from the divine bond ability among her weapon, armor, and shield as she sees fit. This ability has no effect for a paladin whose divine bond is with a mount. This ability replaces the mercy gained at 9th level.
 
 **Code of Conduct** : Never suffer an evil outsider to live if it is in your power to destroy it. Banish fiends you cannot kill. Purge the evil from those possessed by fiends
 
-**Oath Spells** : 1st—_ [resist energy](spells/resistEnergy.md#_resist-energy)_; 2nd—_ [detect thoughts](spells/detectThoughts.md#_detect-thoughts)_; 3rd—_ [invisibility purge](spells/invisibilityPurge.md#_invisibility-purge)_; 4th—_ [plane shift](spells/planeShift.md#_plane-shift)_.
+**Oath Spells** : 1st—_ [resist energy](spells/resistEnergy#_resist-energy)_; 2nd—_ [detect thoughts](spells/detectThoughts#_detect-thoughts)_; 3rd—_ [invisibility purge](spells/invisibilityPurge#_invisibility-purge)_; 4th—_ [plane shift](spells/planeShift#_plane-shift)_.
 
 ## Oath against Savagery
 
 Some paladins are champions of order, pledging to battle the hordes of goblinoids, orcs, hostile barbarians, and similar savages that nip at the heels of civilization, as well as those who gnaw on society from within, such as thieves' and assassins' guilds. More so than other paladins, those who take this oath expect to fight many creatures at once, and develop special abilities to deal with these numbers.
 
-**Holy Reach (Su)** : At 2nd level, an oathbound paladin can expend one use of her smite evil ability to extend her natural reach by 5 feet for 1 minute. This does not stack with the [Lunge](feats.md#_lunge) feat. This ability replaces divine grace.
+**Holy Reach (Su)** : At 2nd level, an oathbound paladin can expend one use of her smite evil ability to extend her natural reach by 5 feet for 1 minute. This does not stack with the [Lunge](feats#_lunge) feat. This ability replaces divine grace.
 
-**Hordebreaker (Su)** : At 11th level, when the paladin hits an evil humanoid with an attack of opportunity, she deals an additional 1d6 points of damage. When using holy reach, the paladin may make a number of additional attacks of opportunity per round equal to her Charisma bonus. This increase stacks with similar increases from other sources such as [Combat Reflexes](feats.md#_combat-reflexes). This ability replaces aura of justice.
+**Hordebreaker (Su)** : At 11th level, when the paladin hits an evil humanoid with an attack of opportunity, she deals an additional 1d6 points of damage. When using holy reach, the paladin may make a number of additional attacks of opportunity per round equal to her Charisma bonus. This increase stacks with similar increases from other sources such as [Combat Reflexes](feats#_combat-reflexes). This ability replaces aura of justice.
 
 **Code of Conduct** : Always heed the call of a community in danger from savages. Be the first in line to defend a settlement and the last to retreat.
 
-**Oath Spells** : 1st—_ [deathwatch](spells/deathwatch.md#_deathwatch)_; 2nd—_ [protection from arrows](spells/protectionFromArrows.md#_protection-from-arrows)_; 3rd—_ [haste](spells/haste.md#_haste)_; 4th—_ [divine power](spells/divinePower.md#_divine-power)_.
+**Oath Spells** : 1st—_ [deathwatch](spells/deathwatch#_deathwatch)_; 2nd—_ [protection from arrows](spells/protectionFromArrows#_protection-from-arrows)_; 3rd—_ [haste](spells/haste#_haste)_; 4th—_ [divine power](spells/divinePower#_divine-power)_.
 
 ## Oath against Undeath
 
 A paladin with this oath vows to restore the natural state of death to any animate corpse she encounters, and destroy the undead energy in the process. While a few paladins who take this oath recognize that not all undead are evil, others are quite willing to purge neutral and good undead along with all the evil ones.
 
-**Detect Undead (Su)** : This ability works like the standard paladin ability to detect evil, except as _ [detect undead](spells/detectUndead.md#_detect-undead) _instead of _ [detect evil](spells/detectEvil.md#_detect-evil)_. This ability replaces _ [detect evil](spells/detectEvil.md#_detect-evil)_.
+**Detect Undead (Su)** : This ability works like the standard paladin ability to detect evil, except as _ [detect undead](spells/detectUndead#_detect-undead) _instead of _ [detect evil](spells/detectEvil#_detect-evil)_. This ability replaces _ [detect evil](spells/detectEvil#_detect-evil)_.
 
-**Ghost Touch Aura (Su)** : At 3rd level, the paladin's armor is treated as if it had the _ [ghost touch](magicItems/weapons.md#_weapons-ghost-touch) _armor property. This does not affect the cost or effect of any other abilities of the armor. At 9th level, this ability also applies to the paladin's shield. This ability replaces the paladin's 3rd-level and 9th-level mercies.
+**Ghost Touch Aura (Su)** : At 3rd level, the paladin's armor is treated as if it had the _ [ghost touch](magicItems/weapons#_weapons-ghost-touch) _armor property. This does not affect the cost or effect of any other abilities of the armor. At 9th level, this ability also applies to the paladin's shield. This ability replaces the paladin's 3rd-level and 9th-level mercies.
 
 **Aura of Life (Su)** : At 8th level, the paladin gains a +4 morale bonus on saves against attacks that grant negative levels and saves to overcome negative levels. Each ally within 10 feet of her gains a +2 morale bonus on these saves.
 
@@ -86,7 +86,7 @@ This ability functions only while the paladin is conscious, not if she is uncons
 
 **Code of Conduct** : Destroy all undead. Put to rest the poor souls turned against their will. Prevent the taint of undeath from spreading to the newly dead, blessing or burning the corpses as necessary.
 
-**Oath Spells** : 1st—_ [sanctify corpse](ultimateMagic/spells/sanctifyCorpse.md#_sanctify-corpse)_; 2nd—_ [darkvision](spells/darkvision.md#_darkvision)_; 3rd—_ [searing light](spells/searingLight.md#_searing-light)_; 4th—_ [halt undead](spells/haltUndead.md#_halt-undead-copy)_.
+**Oath Spells** : 1st—_ [sanctify corpse](ultimateMagic/spells/sanctifyCorpse#_sanctify-corpse)_; 2nd—_ [darkvision](spells/darkvision#_darkvision)_; 3rd—_ [searing light](spells/searingLight#_searing-light)_; 4th—_ [halt undead](spells/haltUndead#_halt-undead-copy)_.
 
 ## Oath against the Wyrm
 
@@ -94,13 +94,13 @@ Few dragons see the smaller races of the world as their equals—to most, humano
 
 **Breath Evasion (Su)** : At 4th level, a paladin with this oath gains evasion, but only against the breath weapons of creatures with the dragon type. This ability replaces channel positive energy.
 
-**Divine Bond (Sp)** : This works like the paladin's normal divine bond ability, except as follows. If the paladin's bond is with a weapon, she cannot use that ability to add the _ [brilliant energy](magicItems/weapons.md#_weapons-brilliant-energy)_, _ [disruption](magicItems/weapons.md#_weapons-disruption)_, or _ [merciful](magicItems/weapons.md#_weapons-merciful) weapon_ properties, but she can add the _ [bane](magicItems/weapons.md#_weapons-bane)_ weapon property (but only against dragons). If the paladin's bond is with her steed, the steed gains the paladin's aura-based immunities and her aura does not affect allies. This replaces the standard divine bond ability.
+**Divine Bond (Sp)** : This works like the paladin's normal divine bond ability, except as follows. If the paladin's bond is with a weapon, she cannot use that ability to add the _ [brilliant energy](magicItems/weapons#_weapons-brilliant-energy)_, _ [disruption](magicItems/weapons#_weapons-disruption)_, or _ [merciful](magicItems/weapons#_weapons-merciful) weapon_ properties, but she can add the _ [bane](magicItems/weapons#_weapons-bane)_ weapon property (but only against dragons). If the paladin's bond is with her steed, the steed gains the paladin's aura-based immunities and her aura does not affect allies. This replaces the standard divine bond ability.
 
-**Dragon-Slaying Strike (Su)** : At 20th level, an oathbound paladin becomes a conduit of holy power. Her DR increases to 10/evil. Whenever she uses smite evil and successfully strikes a dragon, the dragon is also subject to a single-target _ [holy word](spells/holyWord.md#_holy-word)_, using her paladin level +10 as the caster level. After the banishment effect and the damage from the attack are resolved, the smite immediately ends. In addition, whenever she channels positive energy or uses lay on hands to heal a creature, she heals the maximum possible amount. This ability replaces holy champion.
+**Dragon-Slaying Strike (Su)** : At 20th level, an oathbound paladin becomes a conduit of holy power. Her DR increases to 10/evil. Whenever she uses smite evil and successfully strikes a dragon, the dragon is also subject to a single-target _ [holy word](spells/holyWord#_holy-word)_, using her paladin level +10 as the caster level. After the banishment effect and the damage from the attack are resolved, the smite immediately ends. In addition, whenever she channels positive energy or uses lay on hands to heal a creature, she heals the maximum possible amount. This ability replaces holy champion.
 
 **Code of Conduct** : Slay evil dragons, as well as other dangerous dragons whether or not they are evil. Prevent the bloodlines of other creatures from being corrupted with draconic power. Protect the innocent against the predation of dragons.
 
-**Oath Spells** : 1st—_ [enlarge person](spells/enlargePerson.md#_enlarge-person)_; 2nd—_ [bear's endurance](spells/bearSEndurance.md#_bear-s-endurance)_; 3rd—_ [fly](spells/fly.md)_; 4th—_ [stoneskin](spells/stoneskin.md#_stoneskin)_.
+**Oath Spells** : 1st—_ [enlarge person](spells/enlargePerson#_enlarge-person)_; 2nd—_ [bear's endurance](spells/bearSEndurance#_bear-s-endurance)_; 3rd—_ [fly](spells/fly)_; 4th—_ [stoneskin](spells/stoneskin#_stoneskin)_.
 
 ## Oath of Charity
 
@@ -112,7 +112,7 @@ Charity is more than just giving money to a temple or a cause—it is about the 
 
 **Code of Conduct** : Always offer help to good creatures who need it. Always offer help to the poor and destitute. (In settlements, this help is often handled by donating to charitable religious organizations, rather than the paladin being required to dole out coppers to every beggar in the street.)
 
-**Oath Spells** : 1st—_ [magic stone](spells/magicStone.md#_magic-stone)_; 2nd—_ [make whole](spells/makeWhole.md#_make-whole)_; 3rd—_ [magic vestment](spells/magicVestment.md#_magic-vestment)_; 4th—_ [imbue with spell ability](spells/imbueWithSpellAbility.md#_imbue-with-spell-ability)_.
+**Oath Spells** : 1st—_ [magic stone](spells/magicStone#_magic-stone)_; 2nd—_ [make whole](spells/makeWhole#_make-whole)_; 3rd—_ [magic vestment](spells/magicVestment#_magic-vestment)_; 4th—_ [imbue with spell ability](spells/imbueWithSpellAbility#_imbue-with-spell-ability)_.
 
 ## Oath of Chastity
 
@@ -120,11 +120,11 @@ A chaste paladin proves her purity by way of her action and her abstinence from 
 
 **Pure of Mind (Su)** : At 2nd level, the paladin gains a +4 sacred bonus on saves against charm effects and figments, and gains a bonus equal to her Charisma modifier on Will saving throws. This ability replaces divine grace.
 
-**Pure of Body (Su)** : Upon reaching 8th level, the paladin has a 50% chance to turn any critical hit or sneak attack against her into a normal hit, as if she were wearing _ [fortification](magicItems/armor.md#_armor-fortification)_ armor. This ability replaces aura of resolve.
+**Pure of Body (Su)** : Upon reaching 8th level, the paladin has a 50% chance to turn any critical hit or sneak attack against her into a normal hit, as if she were wearing _ [fortification](magicItems/armor#_armor-fortification)_ armor. This ability replaces aura of resolve.
 
 **Code of Conduct** : Never engage in a romantic relationship or a sexual act.
 
-**Oath Spells** : 1st—_ [remove fear](spells/removeFear.md#_remove-fear)_; 2nd—_ [confess](advanced/spells/confess.md#_confess)_; 3rd—_ [heroism](spells/heroism.md#_heroism)_; 4th—_ [freedom of movement](spells/freedomOfMovement.md#_freedom-of-movement)_.
+**Oath Spells** : 1st—_ [remove fear](spells/removeFear#_remove-fear)_; 2nd—_ [confess](advanced/spells/confess#_confess)_; 3rd—_ [heroism](spells/heroism#_heroism)_; 4th—_ [freedom of movement](spells/freedomOfMovement#_freedom-of-movement)_.
 
 ## Oath of Loyalty
 
@@ -138,7 +138,7 @@ If the target is struck by an enemy and the paladin is adjacent to that enemy, a
 
 **Code of Conduct** : Keep all promises. Never make an oath or promise lightly. Never go back on an oath.
 
-**Oath Spells** : 1st—_ [wrath](advanced/spells/wrath.md#_wrath)_; 2nd—_ [aid](spells/aid.md#_aid)_; 3rd—_ [helping hand](spells/helpingHand.md#_helping-hand)_; 4th—_ [sending](spells/sending.md#_sending)_.
+**Oath Spells** : 1st—_ [wrath](advanced/spells/wrath#_wrath)_; 2nd—_ [aid](spells/aid#_aid)_; 3rd—_ [helping hand](spells/helpingHand#_helping-hand)_; 4th—_ [sending](spells/sending#_sending)_.
 
 ## Oath of Vengeance
 
@@ -150,5 +150,5 @@ While all paladins uphold the principals of law and good, sometimes these ideas 
 
 **Code of Conduct:** Never let lesser eveils distract you from your pursuit of just vengeance.
 
-**Oath Spells** : 1st—_ [wrath](advanced/spells/wrath.md#_wrath)_; 2nd—_ [confess](advanced/spells/confess.md#_confess)_; 3rd—_ [blessing of fervor](advanced/spells/blessingOfFervor.md#_blessing-of-fervor)_; 4th—_ [order's wrath](spells/orderSWrath.md#_order-s-wrath)_.
+**Oath Spells** : 1st—_ [wrath](advanced/spells/wrath#_wrath)_; 2nd—_ [confess](advanced/spells/confess#_confess)_; 3rd—_ [blessing of fervor](advanced/spells/blessingOfFervor#_blessing-of-fervor)_; 4th—_ [order's wrath](spells/orderSWrath#_order-s-wrath)_.
 

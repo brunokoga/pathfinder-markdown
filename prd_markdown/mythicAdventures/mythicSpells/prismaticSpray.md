@@ -1,6 +1,6 @@
 Prismatic Spray
 
-**Source** [_prismatic spray_](spells/prismaticSpray.md#_prismatic-spray)
+**Source** [_prismatic spray_](spells/prismaticSpray#_prismatic-spray)
 
 The spell automatically blinds creatures with up to 12 Hit Dice instead of 8 Hit Dice. Attempt one bull rush combat maneuver and apply its results to each creature in the area. Your CMB for this bull rush is equal to your caster level plus your Intelligence, Wisdom, or Charisma modifier, whichever is highest. This bull rush doesn't provoke an attack of opportunity.
 

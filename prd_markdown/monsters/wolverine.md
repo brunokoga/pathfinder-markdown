@@ -6,9 +6,9 @@ _This stocky, muscular mammal is the size of a badger, its snarling lips reveali
 
 **XP 600**
 
-N Medium [animal](creatureTypes.md#_animal)
+N Medium [animal](creatureTypes#_animal)
 
-**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +10
+**Init** +2; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +10
 
 **Defense**
 
@@ -32,9 +32,9 @@ N Medium [animal](creatureTypes.md#_animal)
 
 **Base Atk** +2; **CMB** +4; **CMD** 16 (20 vs. trip)
 
-**Feats** [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Toughness](../feats.md#_toughness)
+**Feats** [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception)), [Toughness](../feats#_toughness)
 
-**Skills** [Climb](../skills/climb.md#_climb) +10, [Perception](../skills/perception.md#_perception) +10
+**Skills** [Climb](../skills/climb#_climb) +10, [Perception](../skills/perception#_perception) +10
 
 **Ecology**
 
@@ -60,9 +60,9 @@ _This terrible wolverine is as large as a bear, its jaws and claws oversized and
 
 **XP 1,200**
 
-N Large [animal](creatureTypes.md#_animal)
+N Large [animal](creatureTypes#_animal)
 
-**Init** +7; **Senses** low-light vision, [scent](universalMonsterRules.md#_scent); [Perception](../skills/perception.md#_perception) +12
+**Init** +7; **Senses** low-light vision, [scent](universalMonsterRules#_scent); [Perception](../skills/perception#_perception) +12
 
 **Defense**
 
@@ -88,9 +88,9 @@ N Large [animal](creatureTypes.md#_animal)
 
 **Base Atk** +3; **CMB** +8; **CMD** 21 (25 vs. trip)
 
-**Feats** [Improved Initiative](../feats.md#_improved-initiative), [Skill Focus](../feats.md#_skill-focus) ( [Perception](../skills/perception.md#_perception)), [Toughness](../feats.md#_toughness)
+**Feats** [Improved Initiative](../feats#_improved-initiative), [Skill Focus](../feats#_skill-focus) ( [Perception](../skills/perception#_perception)), [Toughness](../feats#_toughness)
 
-**Skills** [Climb](../skills/climb.md#_climb) +12, [Perception](../skills/perception.md#_perception) +12
+**Skills** [Climb](../skills/climb#_climb) +12, [Perception](../skills/perception#_perception) +12
 
 **Ecology**
 

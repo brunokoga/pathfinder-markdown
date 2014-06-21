@@ -12,5 +12,5 @@
 
 **Duration** 10 minutes/level
 
-Your senses become preternaturally keen, and you gain insight into subtle behavioral cues. For the duration of the spell, you receive a +5 competence bonus on [Perception](../../skills/perception.md#_perception) and [Sense Motive](../../skills/senseMotive.md#_sense-motive) checks.
+Your senses become preternaturally keen, and you gain insight into subtle behavioral cues. For the duration of the spell, you receive a +5 competence bonus on [Perception](../../skills/perception#_perception) and [Sense Motive](../../skills/senseMotive#_sense-motive) checks.
 
